@@ -10,6 +10,7 @@ This service:
 - Publishes feeds to GitHub Pages
 - Tracks scraping success/failure in CSV
 - Designed to run weekly (or on any schedule)
+- **Now supports automated execution via GitHub Actions!**
 
 ## 🚀 Quick Start
 
@@ -42,17 +43,13 @@ pip install -r requirements.txt
    # Firecrawl API
    FIRECRAWL_API_KEY=fc-your_api_key_here
 
-   # GitHub Configuration
+   # GitHub Configuration (for local runs only)
    GITHUB_TOKEN=ghp_your_github_token_here
    GITHUB_USERNAME=your_github_username
    GITHUB_REPO_NAME=prospect-rss-feeds
    ```
 
-3. **Get a GitHub Personal Access Token:**
-   - Go to: https://github.com/settings/tokens
-   - Click "Generate new token (classic)"
-   - Select scopes: `repo` (all), `workflow`
-   - Copy the token to your `.env` file
+3. **For GitHub Actions:** Configure the `FIRECRAWL_API_KEY` secret in your repository settings (see [GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md))
 
 ### 4. Set Up GitHub Pages Repository
 
@@ -89,9 +86,15 @@ id,company_name,domain
 
 ### 6. Run the Scraper
 
+**Option A: Run Locally**
 ```bash
 python scraper.py
 ```
+
+**Option B: Use GitHub Actions (Recommended)**
+- The scraper runs automatically daily at 2 AM UTC
+- Or trigger manually from the Actions tab in GitHub
+- See [GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md) for setup instructions
 
 The scraper will:
 1. Load prospects from `prospects.csv`
@@ -129,7 +132,15 @@ Check `tracking.csv` for scraping results:
 
 ## ⏰ Scheduling (Weekly Runs)
 
-### macOS/Linux (cron)
+### GitHub Actions (Recommended)
+
+The scraper is configured to run automatically via GitHub Actions:
+- **Schedule**: Daily at 2 AM UTC
+- **Manual trigger**: Available from GitHub Actions tab
+- **Zero hosting costs**: Uses GitHub's free tier
+- See [GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md) for setup
+
+### macOS/Linux (cron - Alternative)
 
 1. Open crontab:
    ```bash
@@ -143,7 +154,7 @@ Check `tracking.csv` for scraping results:
 
 3. Adjust the path and timing as needed
 
-### Windows (Task Scheduler)
+### Windows (Task Scheduler - Alternative)
 
 1. Open Task Scheduler
 2. Create Basic Task
@@ -167,6 +178,10 @@ scraping-service-outreach/
 ├── .env                    # Your credentials (not committed)
 ├── .env.example            # Template for .env
 ├── .gitignore              # Git ignore rules
+├── .github/
+│   └── workflows/
+│       └── scrape-prospects.yml  # GitHub Actions workflow
+├── GITHUB_ACTIONS_SETUP.md # GitHub Actions setup guide
 └── README.md               # This file
 ```
 
@@ -218,6 +233,9 @@ Generates standard RSS 2.0 feeds with:
 
 **Solution:** Check your Firecrawl dashboard for usage and errors
 
+### GitHub Actions workflow not running
+**Solution:** Check [GITHUB_ACTIONS_SETUP.md](GITHUB_ACTIONS_SETUP.md) for troubleshooting steps
+
 ## 📝 Customization
 
 ### Change article limit
@@ -225,6 +243,8 @@ Edit `.env`:
 ```bash
 MAX_ARTICLES_PER_PROSPECT=20
 ```
+
+Or set in GitHub Actions workflow environment variables.
 
 ### Modify article detection
 Edit the `article_indicators` list in `scraper.py:141`:
@@ -249,6 +269,7 @@ Then configure your domain in GitHub Pages settings.
 - Use GitHub tokens with minimal required permissions
 - Rotate API keys periodically
 - Keep dependencies updated: `pip install -r requirements.txt --upgrade`
+- Store secrets in GitHub Secrets (not in code)
 
 ## 📚 Dependencies
 
@@ -263,6 +284,7 @@ Then configure your domain in GitHub Pages settings.
 For issues with:
 - **Firecrawl**: https://docs.firecrawl.dev/
 - **GitHub Pages**: https://docs.github.com/pages
+- **GitHub Actions**: https://docs.github.com/actions
 - **This script**: Check `tracking.csv` for error messages
 
 ## 📄 License
