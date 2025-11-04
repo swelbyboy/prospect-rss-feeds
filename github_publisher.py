@@ -177,6 +177,7 @@ class GitHubPublisher:
             <th>Prospect Name</th>
             <th>RSS Feed</th>
             <th>Last Scrape Status</th>
+            <th>Last Scrape Timestamp</th>
         </tr>
 """
 
@@ -187,6 +188,7 @@ class GitHubPublisher:
             company_name = entry.get('company_name', '')
             status = entry.get('status', '')
             rss_url = entry.get('rss_url', '')
+            last_scrape_date = entry.get('last_scrape_date', '-')
 
             status_class = 'success' if status == 'success' else 'failed'
 
@@ -199,6 +201,7 @@ class GitHubPublisher:
             <td>{company_name}</td>
             <td>{rss_link}</td>
             <td class="{status_class}">{status}</td>
+            <td>{last_scrape_date}</td>
         </tr>
 """
 
