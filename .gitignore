@@ -39,9 +39,8 @@ wheels/
 Thumbs.db
 
 # Temporary files
-feeds/
 *.log
 *.tmp
 
-# Local git clone of GitHub Pages repo
+# Local git clone of GitHub Pages repo (only used for local runs)
 github-pages-repo/

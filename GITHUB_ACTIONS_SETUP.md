@@ -4,52 +4,40 @@ This guide will help you set up automated scraping using GitHub Actions.
 
 ## Step 1: Push Code to GitHub
 
-First, push this repository to GitHub if you haven't already:
+Push this code to your existing GitHub Pages repository:
 
 ```bash
-# Initialize git if needed
-git init
-git add .
-git commit -m "Initial commit"
+# Add your repository as remote
+git remote add origin https://github.com/swelbyboy/prospect-rss-feeds.git
 
-# Add your GitHub repository as remote
-git remote add origin https://github.com/YOUR_USERNAME/scraping-service-outreach.git
+# Push the code
 git push -u origin main
 ```
 
-## Step 2: Configure GitHub Secrets
+## Step 2: Configure GitHub Secret
 
-Go to your GitHub repository settings and add these secrets:
+Go to your GitHub repository settings and add this secret:
 
 **Settings → Secrets and variables → Actions → New repository secret**
 
-Add the following secrets:
+### Required Secret:
 
-### Required Secrets:
+**FIRECRAWL_API_KEY**
+- Your Firecrawl API key
+- Get it from: https://firecrawl.dev
 
-1. **FIRECRAWL_API_KEY**
-   - Your Firecrawl API key
-   - Get it from: https://firecrawl.dev
+That's it! No other secrets needed - the workflow uses the built-in `GITHUB_TOKEN`.
 
-2. **GH_PAT** (GitHub Personal Access Token)
-   - Your GitHub token for pushing to the Pages repo
-   - Get it from: https://github.com/settings/tokens/new
-   - Required scopes: `repo`, `workflow`
-   - Note: Use `GH_PAT` not `GITHUB_TOKEN` to avoid conflicts
+## Step 3: Enable GitHub Pages
 
-3. **GITHUB_USERNAME**
-   - Your GitHub username (e.g., `swelbyboy`)
+Make sure GitHub Pages is enabled:
 
-4. **GITHUB_REPO_NAME**
-   - Your GitHub Pages repository name (e.g., `prospect-rss-feeds`)
+1. Go to **Settings → Pages**
+2. Source: **Deploy from a branch**
+3. Branch: **main** (root folder)
+4. Click **Save**
 
-## Step 3: Verify Workflow File
-
-The workflow file is located at: `.github/workflows/scrape-prospects.yml`
-
-It's configured to:
-- Run daily at 2 AM UTC
-- Allow manual triggering from GitHub Actions tab
+Your dashboard will be at: https://swelbyboy.github.io/prospect-rss-feeds/
 
 ## Step 4: Test the Workflow
 
@@ -95,21 +83,40 @@ Or manually trigger a run immediately after adding prospects.
 
 ## Troubleshooting
 
-### Workflow fails with authentication error:
-- Check that `GH_PAT` secret is set correctly
-- Verify the token has `repo` and `workflow` scopes
+### Workflow fails with permission error:
+- Make sure the workflow has `contents: write` permission (already configured)
+- Check that Actions are enabled in your repository settings
 
 ### Workflow fails with Firecrawl error:
-- Check `FIRECRAWL_API_KEY` is correct
+- Check `FIRECRAWL_API_KEY` secret is correct
 - Verify your Firecrawl account has available credits
 
-### No feeds published:
-- Check the workflow logs for errors
-- Verify `GITHUB_USERNAME` and `GITHUB_REPO_NAME` are correct
-- Ensure the GitHub Pages repository exists
+### Dashboard not updating:
+- Check that GitHub Pages is enabled and deploying from `main` branch
+- Wait a few minutes for GitHub Pages to rebuild
+- Check the workflow logs for commit/push errors
 
 ## View Results
 
 - **Dashboard**: https://swelbyboy.github.io/prospect-rss-feeds/
 - **Workflow runs**: Repository → Actions tab
 - **Tracking data**: Check `tracking.csv` in your repo after each run
+
+## Local Development
+
+You can still run the scraper locally:
+
+```bash
+# Set up environment
+python -m venv venv
+source venv/bin/activate  # or `venv\Scripts\activate` on Windows
+pip install -r requirements.txt
+
+# Copy .env.example to .env and fill in values
+cp .env.example .env
+
+# Run scraper
+python scraper.py
+```
+
+When running locally, it will use the GitHub publisher to push to the repo as before.

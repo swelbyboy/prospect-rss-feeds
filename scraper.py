@@ -366,9 +366,13 @@ class ProspectScraper:
         # Print summary
         self.print_summary()
 
-        # Publish to GitHub Pages
+        # Publish to GitHub Pages (skip if running in CI)
+        is_ci = os.getenv('GITHUB_CI') == 'true'
         successful_scrapes = sum(1 for entry in self.tracking_data if entry['status'] == 'success')
-        if successful_scrapes > 0:
+
+        if is_ci:
+            print("\n✅ Running in GitHub Actions - feeds will be committed by workflow")
+        elif successful_scrapes > 0:
             print("\n📤 Publishing RSS feeds to GitHub Pages...")
             try:
                 success = self.github_publisher.publish_feeds()

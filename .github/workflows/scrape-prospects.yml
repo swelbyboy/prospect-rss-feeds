@@ -11,6 +11,8 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -34,17 +36,74 @@ jobs:
       - name: Run scraper
         env:
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
-          GITHUB_REPO_NAME: ${{ secrets.GITHUB_REPO_NAME }}
+          GITHUB_CI: "true"
           MAX_ARTICLES_PER_PROSPECT: 10
           SCRAPING_TIMEOUT: 60
         run: |
           python scraper.py
 
-      - name: Commit tracking data
+      - name: Generate index page
         run: |
-          git add tracking.csv feeds/
+          python -c "
+          import csv
+          from datetime import datetime
+
+          # Read tracking data
+          tracking_data = []
+          try:
+              with open('tracking.csv', 'r', encoding='utf-8') as f:
+                  reader = csv.DictReader(f)
+                  tracking_data = list(reader)
+          except FileNotFoundError:
+              pass
+
+          # Generate index.html
+          html = '''<!DOCTYPE html>
+          <html lang=\"en\">
+          <head>
+              <meta charset=\"UTF-8\">
+              <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
+              <title>Prospect RSS Feeds</title>
+              <style>
+                  body { font-family: Arial, sans-serif; margin: 20px; }
+                  table { border-collapse: collapse; width: 100%; }
+                  th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                  th { background-color: #f2f2f2; }
+                  .success { color: green; }
+                  .failed { color: red; }
+              </style>
+          </head>
+          <body>
+              <h1>Prospect RSS Feeds</h1>
+              <table>
+                  <tr>
+                      <th>Prospect Name</th>
+                      <th>RSS Feed</th>
+                      <th>Last Scrape Status</th>
+                  </tr>
+          '''
+
+          for entry in tracking_data:
+              company_name = entry.get('company_name', '')
+              status = entry.get('status', '')
+              rss_url = entry.get('rss_url', '')
+              status_class = 'success' if status == 'success' else 'failed'
+              rss_link = f'<a href=\"{rss_url}\">{rss_url}</a>' if rss_url else '-'
+              html += f'        <tr><td>{company_name}</td><td>{rss_link}</td><td class=\"{status_class}\">{status}</td></tr>\n'
+
+          html += f'''    </table>
+              <p>Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}</p>
+          </body>
+          </html>'''
+
+          with open('index.html', 'w', encoding='utf-8') as f:
+              f.write(html)
+          print('Generated index.html')
+          "
+
+      - name: Commit and push changes
+        run: |
+          git add tracking.csv feeds/ index.html *.xml || true
           git diff --quiet && git diff --staged --quiet || \
             (git commit -m "Update scraping results - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" && \
              git push)
