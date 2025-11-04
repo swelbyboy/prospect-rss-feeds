@@ -1,0 +1,50 @@
+name: Scrape Prospect Articles
+
+on:
+  # Run daily at 2 AM UTC
+  schedule:
+    - cron: '0 2 * * *'
+
+  # Allow manual triggering from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+
+      - name: Run scraper
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
+          GITHUB_REPO_NAME: ${{ secrets.GITHUB_REPO_NAME }}
+          MAX_ARTICLES_PER_PROSPECT: 10
+          SCRAPING_TIMEOUT: 60
+        run: |
+          python scraper.py
+
+      - name: Commit tracking data
+        run: |
+          git add tracking.csv feeds/
+          git diff --quiet && git diff --staged --quiet || \
+            (git commit -m "Update scraping results - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" && \
+             git push)
