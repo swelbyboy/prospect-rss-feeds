@@ -362,16 +362,17 @@ InnovateLabs,innovatelabs.io"></textarea>
         }}
         
         // Create GitHub issue URL with CSV content
+        // Label will be auto-created by workflow if it doesn't exist
         const repoOwner = 'swelbyboy';
         const repoName = 'prospect-rss-feeds';
-        const issueTitle = encodeURIComponent('Upload new prospects CSV');
-        const issueBody = encodeURIComponent(`**CSV Content:**\\n\\n\\`\\`\\`\\n${{csvContent}}\\n\\`\\`\\`\\n\\n<!-- This issue will be automatically processed -->`);
-        const issueUrl = `https://github.com/${{repoOwner}}/${{repoName}}/issues/new?title=${{issueTitle}}&body=${{issueBody}}&labels=new-prospects-csv`;
+        const issueTitle = 'Upload new prospects CSV';
+        const issueBody = `**CSV Content:**\n\n\`\`\`\n${csvContent}\n\`\`\`\n\n<!-- This issue will be automatically processed -->`;
+        const issueUrl = `https://github.com/${repoOwner}/${repoName}/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}&labels=new-prospects-csv`;
         
-        // Open in new window
+        // Open in new window (label will be auto-created if needed)
         window.open(issueUrl, '_blank');
         
-        showMessage('✅ Opening GitHub to create issue. After you submit the issue, the prospects will be automatically added.', 'success');
+        showMessage('✅ Opening GitHub to create issue. The label will be created automatically. After you submit, prospects will be added automatically.', 'success');
         
         // Reset form after a delay
         setTimeout(() => {{
