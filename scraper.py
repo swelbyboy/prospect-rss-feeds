@@ -5,6 +5,7 @@ Coordinates scraping, RSS generation, and publishing workflow.
 """
 
 import csv
+import os
 import re
 import sys
 import time
@@ -348,17 +349,45 @@ class ProspectScraper:
             print("❌ No prospects to process")
             sys.exit(1)
 
+        # Batch processing configuration
+        batch_size = int(os.getenv('BATCH_SIZE', '0'))  # 0 = process all
+        max_prospects = int(os.getenv('MAX_PROSPECTS', '0'))  # 0 = no limit
+        delay_between_prospects = int(os.getenv('DELAY_BETWEEN_PROSPECTS', '30'))
+        
+        # Apply max_prospects limit if set
+        if max_prospects > 0 and len(prospects) > max_prospects:
+            print(f"⚠️  Limiting to {max_prospects} prospects (loaded {len(prospects)})")
+            prospects = prospects[:max_prospects]
+        
+        total_prospects = len(prospects)
+        print(f"📊 Processing {total_prospects} prospect(s)")
+        
+        if batch_size > 0:
+            print(f"📦 Using batch processing: {batch_size} prospects per batch")
+            num_batches = (total_prospects + batch_size - 1) // batch_size
+            print(f"   Will process in {num_batches} batch(es)")
+        
         # Process each prospect
         for i, prospect in enumerate(prospects, 1):
-            print(f"\n[{i}/{len(prospects)}] Processing {prospect['company_name']}...")
+            batch_num = ((i - 1) // batch_size) + 1 if batch_size > 0 else 1
+            
+            if batch_size > 0 and i > 1 and (i - 1) % batch_size == 0:
+                print(f"\n{'='*60}")
+                print(f"📦 Batch {batch_num - 1} completed. Taking a longer break before next batch...")
+                print(f"{'='*60}")
+                time.sleep(60)  # Longer delay between batches
+            
+            print(f"\n[{i}/{total_prospects}] Processing {prospect['company_name']}...")
+            if batch_size > 0:
+                print(f"   (Batch {batch_num}/{num_batches})")
+            
             tracking_entry = self.process_prospect(prospect)
             self.tracking_data.append(tracking_entry)
 
             # Be nice to servers and respect Firecrawl rate limits
-            if i < len(prospects):
-                delay = 30  # 30 second delay to avoid rate limits
-                print(f"   ⏳ Waiting {delay}s before next prospect...")
-                time.sleep(delay)
+            if i < total_prospects:
+                print(f"   ⏳ Waiting {delay_between_prospects}s before next prospect...")
+                time.sleep(delay_between_prospects)
 
         # Save tracking data
         self.save_tracking()

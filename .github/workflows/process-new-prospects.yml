@@ -1,0 +1,126 @@
+name: Process New Prospect Submissions
+
+on:
+  issues:
+    types: [opened]
+  issue_comment:
+    types: [created]
+
+jobs:
+  process-prospect:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    
+    # Only process issues with the "new-prospect" label
+    if: |
+      contains(github.event.issue.labels.*.name, 'new-prospect') ||
+      (github.event.issue.labels[0].name == 'new-prospect')
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+
+      - name: Parse issue and add prospect
+        id: parse_issue
+        run: |
+          ISSUE_BODY="${{ github.event.issue.body }}"
+          ISSUE_NUMBER="${{ github.event.issue.number }}"
+          
+          # Extract company name and domain from issue body
+          COMPANY_NAME=$(echo "$ISSUE_BODY" | grep -oP '(?<=\*\*Company Name:\*\* ).*' | head -1 | xargs)
+          DOMAIN=$(echo "$ISSUE_BODY" | grep -oP '(?<=\*\*Domain:\*\* ).*' | head -1 | xargs)
+          
+          # Clean domain (remove any trailing whitespace, newlines, etc.)
+          DOMAIN=$(echo "$DOMAIN" | tr -d '\n\r' | xargs)
+          
+          if [ -z "$COMPANY_NAME" ] || [ -z "$DOMAIN" ]; then
+            echo "error=true" >> $GITHUB_OUTPUT
+            echo "message=Could not parse company name or domain from issue body" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+          
+          echo "company_name=$COMPANY_NAME" >> $GITHUB_OUTPUT
+          echo "domain=$DOMAIN" >> $GITHUB_OUTPUT
+          echo "Parsed: Company=$COMPANY_NAME, Domain=$DOMAIN"
+
+      - name: Add prospect to CSV
+        if: steps.parse_issue.outputs.error != 'true'
+        run: |
+          COMPANY_NAME="${{ steps.parse_issue.outputs.company_name }}"
+          DOMAIN="${{ steps.parse_issue.outputs.domain }}"
+          
+          # Read current prospects.csv to get next ID
+          if [ -f "prospects.csv" ]; then
+            LAST_ID=$(tail -n +2 prospects.csv | cut -d',' -f1 | sort -n | tail -1)
+            if [ -z "$LAST_ID" ]; then
+              NEW_ID=1
+            else
+              NEW_ID=$((LAST_ID + 1))
+            fi
+          else
+            # Create file with header if it doesn't exist
+            echo "id,company_name,domain" > prospects.csv
+            NEW_ID=1
+          fi
+          
+          # Check if domain already exists
+          if grep -q ",$DOMAIN$" prospects.csv; then
+            echo "⚠️  Domain $DOMAIN already exists in prospects.csv"
+            echo "error=true" >> $GITHUB_OUTPUT
+            echo "message=Domain $DOMAIN already exists in prospects.csv" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+          
+          # Add new prospect
+          echo "$NEW_ID,$COMPANY_NAME,$DOMAIN" >> prospects.csv
+          echo "✅ Added prospect: $COMPANY_NAME ($DOMAIN) with ID $NEW_ID"
+          echo "success=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.parse_issue.outputs.error != 'true' && steps.parse_issue.outputs.success == 'true'
+        run: |
+          git add prospects.csv
+          git commit -m "Add prospect from issue #${{ github.event.issue.number }}: ${{ steps.parse_issue.outputs.company_name }}"
+          git push
+
+      - name: Comment on issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueNumber = context.payload.issue.number;
+            const companyName = '${{ steps.parse_issue.outputs.company_name }}';
+            const domain = '${{ steps.parse_issue.outputs.domain }}';
+            
+            if ('${{ steps.parse_issue.outputs.error }}' === 'true') {
+              const errorMsg = '${{ steps.parse_issue.outputs.message }}' || 'Failed to process prospect';
+              github.rest.issues.createComment({
+                issue_number: issueNumber,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `❌ **Error processing prospect:**\n\n${errorMsg}\n\nPlease check the issue format and try again.`
+              });
+            } else if ('${{ steps.parse_issue.outputs.success }}' === 'true') {
+              github.rest.issues.createComment({
+                issue_number: issueNumber,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `✅ **Prospect added successfully!**\n\n- **Company:** ${companyName}\n- **Domain:** ${domain}\n\nThis prospect will be included in the next scheduled scraping run.`
+              });
+              
+              // Close the issue
+              github.rest.issues.update({
+                issue_number: issueNumber,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'closed'
+              });
+            }
+

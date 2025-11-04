@@ -83,16 +83,98 @@ jobs:
               <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">
               <title>Prospect RSS Feeds</title>
               <style>
-                  body { font-family: Arial, sans-serif; margin: 20px; }
-                  table { border-collapse: collapse; width: 100%; }
+                  body { font-family: Arial, sans-serif; margin: 20px; max-width: 1200px; }
+                  table { border-collapse: collapse; width: 100%; margin-bottom: 30px; }
                   th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
                   th { background-color: #f2f2f2; }
                   .success { color: green; }
                   .failed { color: red; }
+                  .add-prospect-form {
+                      background-color: #f9f9f9;
+                      padding: 20px;
+                      border-radius: 8px;
+                      margin-bottom: 30px;
+                      border: 1px solid #ddd;
+                  }
+                  .add-prospect-form h2 {
+                      margin-top: 0;
+                  }
+                  .form-group {
+                      margin-bottom: 15px;
+                  }
+                  .form-group label {
+                      display: block;
+                      margin-bottom: 5px;
+                      font-weight: bold;
+                  }
+                  .form-group input {
+                      width: 100%;
+                      padding: 8px;
+                      border: 1px solid #ddd;
+                      border-radius: 4px;
+                      box-sizing: border-box;
+                      max-width: 500px;
+                  }
+                  .form-group input[type=\"submit\"] {
+                      background-color: #28a745;
+                      color: white;
+                      border: none;
+                      padding: 10px 20px;
+                      cursor: pointer;
+                      font-size: 16px;
+                      max-width: 200px;
+                  }
+                  .form-group input[type=\"submit\"]:hover {
+                      background-color: #218838;
+                  }
+                  .form-help {
+                      font-size: 12px;
+                      color: #666;
+                      margin-top: 5px;
+                  }
+                  .success-message {
+                      background-color: #d4edda;
+                      color: #155724;
+                      padding: 10px;
+                      border-radius: 4px;
+                      margin-top: 10px;
+                      display: none;
+                  }
+                  .error-message {
+                      background-color: #f8d7da;
+                      color: #721c24;
+                      padding: 10px;
+                      border-radius: 4px;
+                      margin-top: 10px;
+                      display: none;
+                  }
               </style>
           </head>
           <body>
               <h1>Prospect RSS Feeds</h1>
+              
+              <div class=\"add-prospect-form\">
+                  <h2>➕ Add New Prospect</h2>
+                  <form id=\"prospectForm\" onsubmit=\"submitProspect(event)\">
+                      <div class=\"form-group\">
+                          <label for=\"company_name\">Company Name:</label>
+                          <input type=\"text\" id=\"company_name\" name=\"company_name\" required>
+                          <div class=\"form-help\">Enter the company name (e.g., TechCorp)</div>
+                      </div>
+                      <div class=\"form-group\">
+                          <label for=\"domain\">Domain:</label>
+                          <input type=\"text\" id=\"domain\" name=\"domain\" required placeholder=\"example.com\">
+                          <div class=\"form-help\">Enter the website domain without http:// or https:// (e.g., techcorp.com)</div>
+                      </div>
+                      <div class=\"form-group\">
+                          <input type=\"submit\" value=\"Add Prospect\">
+                      </div>
+                      <div id=\"successMessage\" class=\"success-message\"></div>
+                      <div id=\"errorMessage\" class=\"error-message\"></div>
+                  </form>
+              </div>
+
+              <h2>Current Prospects</h2>
               <table>
                   <tr>
                       <th>Prospect Name</th>
@@ -113,6 +195,41 @@ jobs:
 
           html += f'''    </table>
               <p>Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}</p>
+              
+              <script>
+              function submitProspect(event) {{
+                  event.preventDefault();
+                  const form = event.target;
+                  const companyName = document.getElementById('company_name').value.trim();
+                  const domain = document.getElementById('domain').value.trim();
+                  
+                  // Clean domain (remove http://, https://, www.)
+                  let cleanDomain = domain.replace(/^https?:\\/\\//, '').replace(/^www\\./, '').split('/')[0];
+                  
+                  // Create GitHub issue URL
+                  const repoOwner = 'swelbyboy';
+                  const repoName = 'prospect-rss-feeds';
+                  const issueTitle = encodeURIComponent(`Add prospect: ${{companyName}}`);
+                  const issueBody = encodeURIComponent(`**Company Name:** ${{companyName}}\\n\\n**Domain:** ${{cleanDomain}}\\n\\n<!-- This issue will be automatically processed and closed -->`);
+                  const issueUrl = `https://github.com/${{repoOwner}}/${{repoName}}/issues/new?title=${{issueTitle}}&body=${{issueBody}}&labels=new-prospect`;
+                  
+                  // Open in new window
+                  window.open(issueUrl, '_blank');
+                  
+                  // Show success message
+                  const successMsg = document.getElementById('successMessage');
+                  successMsg.textContent = '✅ Opening GitHub to create issue. After you submit the issue, it will be automatically processed and added to prospects.csv.';
+                  successMsg.style.display = 'block';
+                  
+                  // Reset form
+                  form.reset();
+                  
+                  // Hide message after 10 seconds
+                  setTimeout(() => {{
+                      successMsg.style.display = 'none';
+                  }}, 10000);
+              }}
+              </script>
           </body>
           </html>'''
 
