@@ -33,6 +33,24 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
 
+      - name: Verify Firecrawl API key
+        env:
+          FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}
+        run: |
+          if [ -z "$FIRECRAWL_API_KEY" ]; then
+            echo "❌ Error: FIRECRAWL_API_KEY secret is not set in repository settings"
+            echo ""
+            echo "To fix this:"
+            echo "1. Go to: https://github.com/swelbyboy/prospect-rss-feeds/settings/secrets/actions"
+            echo "2. Click 'New repository secret'"
+            echo "3. Name: FIRECRAWL_API_KEY"
+            echo "4. Value: Your Firecrawl API key"
+            echo "5. Click 'Add secret'"
+            exit 1
+          else
+            echo "✅ FIRECRAWL_API_KEY secret is set"
+          fi
+
       - name: Run scraper
         env:
           FIRECRAWL_API_KEY: ${{ secrets.FIRECRAWL_API_KEY }}

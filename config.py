@@ -39,16 +39,19 @@ class Config:
         is_ci = os.getenv('GITHUB_CI') == 'true'
 
         if not cls.FIRECRAWL_API_KEY:
-            errors.append("FIRECRAWL_API_KEY is not set in .env file")
+            if is_ci:
+                errors.append("FIRECRAWL_API_KEY secret is not set in GitHub Actions")
+            else:
+                errors.append("FIRECRAWL_API_KEY is not set (check .env file or environment variables)")
 
         # GitHub config is only required when not running in CI
         # (CI mode uses GitHub Actions workflow for commits)
         if not is_ci:
             if not cls.GITHUB_TOKEN:
-                errors.append("GITHUB_TOKEN is not set in .env file")
+                errors.append("GITHUB_TOKEN is not set (check .env file or environment variables)")
 
             if not cls.GITHUB_USERNAME:
-                errors.append("GITHUB_USERNAME is not set in .env file")
+                errors.append("GITHUB_USERNAME is not set (check .env file or environment variables)")
 
         if errors:
             raise ValueError(
