@@ -17,11 +17,18 @@ class GitHubPublisher:
     def __init__(self):
         """Initialize the GitHub publisher."""
         self.repo_dir = Config.GITHUB_PAGES_DIR
-        self.repo_url = self._build_repo_url()
+        self.is_ci = os.getenv('GITHUB_CI') == 'true'
+        # Only build repo URL if not in CI mode (CI uses workflow for commits)
+        if not self.is_ci:
+            self.repo_url = self._build_repo_url()
+        else:
+            self.repo_url = None
         self.repo = None
 
     def _build_repo_url(self):
         """Build the authenticated GitHub repository URL."""
+        if not Config.GITHUB_TOKEN or not Config.GITHUB_USERNAME:
+            raise ValueError("GITHUB_TOKEN and GITHUB_USERNAME must be set for GitHub publishing")
         return (
             f"https://{Config.GITHUB_TOKEN}@github.com/"
             f"{Config.GITHUB_USERNAME}/{Config.GITHUB_REPO_NAME}.git"

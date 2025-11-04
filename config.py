@@ -27,7 +27,7 @@ class Config:
     SCRAPING_TIMEOUT = int(os.getenv('SCRAPING_TIMEOUT', 60))
 
     # File Paths
-    PROSPECTS_CSV = 'prospects_mini_test.csv'  # Using mini test file with 2 prospects
+    PROSPECTS_CSV = 'prospects.csv'
     TRACKING_CSV = 'tracking.csv'
     FEEDS_DIR = 'feeds'
     GITHUB_PAGES_DIR = 'github-pages-repo'
@@ -36,15 +36,19 @@ class Config:
     def validate(cls):
         """Validate that required configuration is present."""
         errors = []
+        is_ci = os.getenv('GITHUB_CI') == 'true'
 
         if not cls.FIRECRAWL_API_KEY:
             errors.append("FIRECRAWL_API_KEY is not set in .env file")
 
-        if not cls.GITHUB_TOKEN:
-            errors.append("GITHUB_TOKEN is not set in .env file")
+        # GitHub config is only required when not running in CI
+        # (CI mode uses GitHub Actions workflow for commits)
+        if not is_ci:
+            if not cls.GITHUB_TOKEN:
+                errors.append("GITHUB_TOKEN is not set in .env file")
 
-        if not cls.GITHUB_USERNAME:
-            errors.append("GITHUB_USERNAME is not set in .env file")
+            if not cls.GITHUB_USERNAME:
+                errors.append("GITHUB_USERNAME is not set in .env file")
 
         if errors:
             raise ValueError(
@@ -56,6 +60,15 @@ class Config:
         """Get the base URL for RSS feeds on GitHub Pages."""
         if cls.CUSTOM_DOMAIN:
             return f"https://{cls.CUSTOM_DOMAIN}"
+        
+        # In CI mode, derive from GitHub Actions environment variables
+        is_ci = os.getenv('GITHUB_CI') == 'true'
+        if is_ci:
+            # GitHub Actions provides GITHUB_REPOSITORY in format "username/repo"
+            github_repo = os.getenv('GITHUB_REPOSITORY', 'swelbyboy/prospect-rss-feeds')
+            username, repo_name = github_repo.split('/', 1) if '/' in github_repo else ('swelbyboy', 'prospect-rss-feeds')
+            return f"https://{username}.github.io/{repo_name}"
+        
         return f"https://{cls.GITHUB_USERNAME}.github.io/{cls.GITHUB_REPO_NAME}"
 
 
