@@ -14,9 +14,7 @@ jobs:
       issues: write
     
     # Only process issues with the "new-prospect" label
-    if: |
-      contains(github.event.issue.labels.*.name, 'new-prospect') ||
-      (github.event.issue.labels[0].name == 'new-prospect')
+    if: contains(github.event.issue.labels.*.name, 'new-prospect')
     
     steps:
       - name: Checkout repository
