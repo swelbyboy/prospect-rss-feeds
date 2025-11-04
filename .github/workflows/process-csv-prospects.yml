@@ -147,32 +147,11 @@ jobs:
           if skipped_count > 0:
               print(f"⚠️  Skipped {skipped_count} duplicate(s)")
           
+          # Write to GITHUB_OUTPUT
+          with open(os.environ.get('GITHUB_OUTPUT', '/dev/stdout'), 'a') as f:
+              f.write(f"added_count={added_count}\n")
+              f.write(f"skipped_count={skipped_count}\n")
           EOF
-          
-          # Extract counts from Python output
-          ADDED_COUNT=$(python3 << 'PYEOF'
-          import csv
-          import os
-          
-          # Re-read to get counts
-          existing_prospects = []
-          if os.path.exists('prospects.csv'):
-              with open('prospects.csv', 'r', encoding='utf-8') as f:
-                  reader = csv.DictReader(f)
-                  existing_prospects = list(reader)
-          
-          # Count new ones (those with IDs higher than what we had before)
-          # We'll use a simpler approach - just count what was in the new file
-          with open('/tmp/new_prospects.csv', 'r', encoding='utf-8') as f:
-              reader = csv.DictReader(f)
-              new_count = len([r for r in reader if r.get('Prospect Name') or r.get('prospect name') or r.get('ProspectName')])
-          
-          print(new_count)
-          PYEOF
-          )
-          
-          echo "added_count=$ADDED_COUNT" >> $GITHUB_OUTPUT
-          echo "skipped_count=0" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
         if: steps.parse_csv.outputs.error != 'true'
