@@ -177,89 +177,124 @@ class GitHubPublisher:
         .failed {
             color: red;
         }
-        .add-prospect-form {
-            background-color: #f9f9f9;
-            padding: 20px;
-            border-radius: 8px;
+        .upload-cta {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
             margin-bottom: 30px;
-            border: 1px solid #ddd;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
         }
-        .add-prospect-form h2 {
-            margin-top: 0;
+        .upload-cta:hover {
+            background-color: #0056b3;
+        }
+        .upload-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 30px;
+            border: 1px solid #888;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close:hover {
+            color: black;
         }
         .form-group {
-            margin-bottom: 15px;
+            margin-bottom: 20px;
         }
         .form-group label {
             display: block;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
             font-weight: bold;
         }
-        .form-group input {
+        .form-group textarea {
             width: 100%;
-            padding: 8px;
+            padding: 10px;
             border: 1px solid #ddd;
             border-radius: 4px;
             box-sizing: border-box;
-            max-width: 500px;
-        }
-        .form-group input[type="submit"] {
-            background-color: #28a745;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
-            font-size: 16px;
-            max-width: 200px;
-        }
-        .form-group input[type="submit"]:hover {
-            background-color: #218838;
+            font-family: monospace;
+            min-height: 200px;
         }
         .form-help {
             font-size: 12px;
             color: #666;
             margin-top: 5px;
         }
-        .success-message {
-            background-color: #d4edda;
-            color: #155724;
+        .submit-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+        .message {
             padding: 10px;
             border-radius: 4px;
             margin-top: 10px;
             display: none;
         }
+        .success-message {
+            background-color: #d4edda;
+            color: #155724;
+        }
         .error-message {
             background-color: #f8d7da;
             color: #721c24;
-            padding: 10px;
-            border-radius: 4px;
-            margin-top: 10px;
-            display: none;
         }
     </style>
 </head>
 <body>
     <h1>Prospect RSS Feeds</h1>
     
-    <div class="add-prospect-form">
-        <h2>➕ Add New Prospect</h2>
-        <form id="prospectForm" onsubmit="submitProspect(event)">
-            <div class="form-group">
-                <label for="company_name">Company Name:</label>
-                <input type="text" id="company_name" name="company_name" required>
-                <div class="form-help">Enter the company name (e.g., TechCorp)</div>
-            </div>
-            <div class="form-group">
-                <label for="domain">Domain:</label>
-                <input type="text" id="domain" name="domain" required placeholder="example.com">
-                <div class="form-help">Enter the website domain without http:// or https:// (e.g., techcorp.com)</div>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Add Prospect">
-            </div>
-            <div id="successMessage" class="success-message"></div>
-            <div id="errorMessage" class="error-message"></div>
-        </form>
+    <button class="upload-cta" onclick="openUploadModal()">📤 Upload New Prospects</button>
+
+    <div id="uploadModal" class="upload-modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeUploadModal()">&times;</span>
+            <h2>Upload New Prospects</h2>
+            <p>Upload a CSV file with columns: <strong>Prospect Name</strong> and <strong>Domain</strong></p>
+            <form id="csvForm" onsubmit="submitCSV(event)">
+                <div class="form-group">
+                    <label for="csvContent">CSV Content:</label>
+                    <textarea id="csvContent" name="csvContent" required placeholder="Prospect Name,Domain
+TechCorp,techcorp.com
+InnovateLabs,innovatelabs.io"></textarea>
+                    <div class="form-help">Paste your CSV data here. Format: Prospect Name,Domain (one per line)</div>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+                <div id="message" class="message"></div>
+            </form>
+        </div>
     </div>
 
     <h2>Current Prospects</h2>
@@ -300,37 +335,56 @@ class GitHubPublisher:
     <p>Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}</p>
     
     <script>
-    function submitProspect(event) {{
+    function openUploadModal() {{
+        document.getElementById('uploadModal').style.display = 'block';
+    }}
+    
+    function closeUploadModal() {{
+        document.getElementById('uploadModal').style.display = 'none';
+        document.getElementById('csvForm').reset();
+        document.getElementById('message').style.display = 'none';
+    }}
+    
+    window.onclick = function(event) {{
+        const modal = document.getElementById('uploadModal');
+        if (event.target == modal) {{
+            closeUploadModal();
+        }}
+    }}
+    
+    function submitCSV(event) {{
         event.preventDefault();
-        const form = event.target;
-        const companyName = document.getElementById('company_name').value.trim();
-        const domain = document.getElementById('domain').value.trim();
+        const csvContent = document.getElementById('csvContent').value.trim();
         
-        // Clean domain (remove http://, https://, www.)
-        let cleanDomain = domain.replace(/^https?:\\/\\//, '').replace(/^www\\./, '').split('/')[0];
+        if (!csvContent) {{
+            showMessage('Please enter CSV content', 'error');
+            return;
+        }}
         
-        // Create GitHub issue URL
+        // Create GitHub issue URL with CSV content
         const repoOwner = 'swelbyboy';
         const repoName = 'prospect-rss-feeds';
-        const issueTitle = encodeURIComponent(`Add prospect: ${{companyName}}`);
-        const issueBody = encodeURIComponent(`**Company Name:** ${{companyName}}\\n\\n**Domain:** ${{cleanDomain}}\\n\\n<!-- This issue will be automatically processed and closed -->`);
-        const issueUrl = `https://github.com/${{repoOwner}}/${{repoName}}/issues/new?title=${{issueTitle}}&body=${{issueBody}}&labels=new-prospect`;
+        const issueTitle = encodeURIComponent('Upload new prospects CSV');
+        const issueBody = encodeURIComponent(`**CSV Content:**\\n\\n\\`\\`\\`\\n${{csvContent}}\\n\\`\\`\\`\\n\\n<!-- This issue will be automatically processed -->`);
+        const issueUrl = `https://github.com/${{repoOwner}}/${{repoName}}/issues/new?title=${{issueTitle}}&body=${{issueBody}}&labels=new-prospects-csv`;
         
         // Open in new window
         window.open(issueUrl, '_blank');
         
-        // Show success message
-        const successMsg = document.getElementById('successMessage');
-        successMsg.textContent = '✅ Opening GitHub to create issue. After you submit the issue, it will be automatically processed and added to prospects.csv.';
-        successMsg.style.display = 'block';
+        showMessage('✅ Opening GitHub to create issue. After you submit the issue, the prospects will be automatically added.', 'success');
         
-        // Reset form
-        form.reset();
-        
-        // Hide message after 10 seconds
+        // Reset form after a delay
         setTimeout(() => {{
-            successMsg.style.display = 'none';
-        }}, 10000);
+            document.getElementById('csvForm').reset();
+            closeUploadModal();
+        }}, 2000);
+    }}
+    
+    function showMessage(text, type) {{
+        const messageDiv = document.getElementById('message');
+        messageDiv.textContent = text;
+        messageDiv.className = 'message ' + type + '-message';
+        messageDiv.style.display = 'block';
     }}
     </script>
 </body>
