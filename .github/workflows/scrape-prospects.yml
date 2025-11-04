@@ -1,9 +1,9 @@
 name: Scrape Prospect Articles
 
 on:
-  # Run daily at 2 AM UTC
+  # Run weekly on Sunday at 10 PM UTC (ready for Monday morning outreach)
   schedule:
-    - cron: '0 2 * * *'
+    - cron: '0 22 * * 0'
 
   # Allow manual triggering from GitHub Actions tab
   workflow_dispatch:
