@@ -6,56 +6,48 @@
     <title>Prospect RSS Feeds</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
-            max-width: 800px;
-            margin: 50px auto;
-            padding: 20px;
-            line-height: 1.6;
+            font-family: Arial, sans-serif;
+            margin: 20px;
         }
-        h1 {
-            color: #333;
-            border-bottom: 3px solid #007bff;
-            padding-bottom: 10px;
+        table {
+            border-collapse: collapse;
+            width: 100%;
         }
-        .feed-list {
-            list-style: none;
-            padding: 0;
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
         }
-        .feed-item {
-            background: #f8f9fa;
-            margin: 10px 0;
-            padding: 15px;
-            border-radius: 5px;
-            border-left: 4px solid #007bff;
+        th {
+            background-color: #f2f2f2;
         }
-        .feed-item a {
-            color: #007bff;
-            text-decoration: none;
-            font-weight: 500;
+        .success {
+            color: green;
         }
-        .feed-item a:hover {
-            text-decoration: underline;
-        }
-        .timestamp {
-            color: #6c757d;
-            font-size: 0.9em;
-            margin-top: 20px;
+        .failed {
+            color: red;
         }
     </style>
 </head>
 <body>
-    <h1>🔗 Prospect RSS Feeds</h1>
-    <p>Available RSS feeds for prospect articles:</p>
-    <ul class="feed-list">
-        <li class="feed-item">
-            <strong>Knowtechie</strong><br>
-            <a href="knowtechie.xml">https://swelbyboy.github.io/prospect-rss-feeds/knowtechie.xml</a>
-        </li>
-        <li class="feed-item">
-            <strong>The Nerd Stash</strong><br>
-            <a href="the-nerd-stash.xml">https://swelbyboy.github.io/prospect-rss-feeds/the-nerd-stash.xml</a>
-        </li>
-    </ul>
-    <p class="timestamp">Last updated: 2025-11-03 19:01:45 UTC</p>
+    <h1>Prospect RSS Feeds</h1>
+    <table>
+        <tr>
+            <th>Prospect Name</th>
+            <th>RSS Feed</th>
+            <th>Last Scrape Status</th>
+        </tr>
+        <tr>
+            <td>The Nerd Stash</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/the-nerd-stash.xml">https://swelbyboy.github.io/prospect-rss-feeds/the-nerd-stash.xml</a></td>
+            <td class="success">success</td>
+        </tr>
+        <tr>
+            <td>KnowTechie</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/knowtechie.xml">https://swelbyboy.github.io/prospect-rss-feeds/knowtechie.xml</a></td>
+            <td class="success">success</td>
+        </tr>
+    </table>
+    <p>Last updated: 2025-11-04 15:05:40 UTC</p>
 </body>
 </html>
