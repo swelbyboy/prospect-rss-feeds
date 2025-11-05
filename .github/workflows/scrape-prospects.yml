@@ -198,9 +198,7 @@ jobs:
                       <form id=\"csvForm\" onsubmit=\"submitCSV(event)\">
                           <div class=\"form-group\">
                               <label for=\"csvContent\">CSV Content:</label>
-                              <textarea id=\"csvContent\" name=\"csvContent\" required placeholder=\"Prospect Name,Domain
-TechCorp,techcorp.com
-InnovateLabs,innovatelabs.io\"></textarea>
+                              <textarea id=\"csvContent\" name=\"csvContent\" required placeholder=\"Prospect Name,Domain&#10;TechCorp,techcorp.com&#10;InnovateLabs,innovatelabs.io\"></textarea>
                               <div class=\"form-help\">Paste your CSV data here. Format: Prospect Name,Domain (one per line)</div>
                           </div>
                           <button type=\"submit\" class=\"submit-btn\">Submit</button>
