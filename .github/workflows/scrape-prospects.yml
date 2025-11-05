@@ -261,10 +261,10 @@ jobs:
                   const repoOwner = 'swelbyboy';
                   const repoName = 'prospect-rss-feeds';
                   const issueTitle = 'Upload new prospects CSV';
-                  const issueBody = `**CSV Content:**\n\n\`\`\`\n${csvContent}\n\`\`\`\n\n<!-- This issue will be automatically processed -->`;
-                  
+                  const issueBody = \`**CSV Content:**\\n\\n\\\`\\\`\\\`\\n\${csvContent}\\n\\\`\\\`\\\`\\n\\n<!-- This issue will be automatically processed -->\`;
+
                   // Create issue URL with label pre-selected
-                  const issueUrl = `https://github.com/${repoOwner}/${repoName}/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}&labels=new-prospects-csv`;
+                  const issueUrl = \`https://github.com/\${repoOwner}/\${repoName}/issues/new?title=\${encodeURIComponent(issueTitle)}&body=\${encodeURIComponent(issueBody)}&labels=new-prospects-csv\`;
                   
                   // Open in new window (will auto-create label if needed)
                   window.open(issueUrl, '_blank');
