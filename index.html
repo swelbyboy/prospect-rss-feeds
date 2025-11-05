@@ -5,49 +5,199 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prospect RSS Feeds</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+        body { font-family: Arial, sans-serif; margin: 20px; max-width: 1200px; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 30px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .success { color: green; }
+        .failed { color: red; }
+        .upload-cta {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
         }
-        table {
-            border-collapse: collapse;
+        .upload-cta:hover {
+            background-color: #0056b3;
+        }
+        .upload-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
             width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
         }
-        th, td {
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 30px;
+            border: 1px solid #888;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close:hover {
+            color: black;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
             border: 1px solid #ddd;
-            padding: 8px;
-            text-align: left;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: monospace;
+            min-height: 200px;
         }
-        th {
-            background-color: #f2f2f2;
+        .form-help {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
         }
-        .success {
-            color: green;
+        .submit-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
         }
-        .failed {
-            color: red;
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+        .message {
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            display: none;
+        }
+        .success-message {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .error-message {
+            background-color: #f8d7da;
+            color: #721c24;
         }
     </style>
 </head>
 <body>
     <h1>Prospect RSS Feeds</h1>
+    
+    <button class="upload-cta" onclick="openUploadModal()">📤 Upload New Prospects</button>
+
+    <div id="uploadModal" class="upload-modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeUploadModal()">&times;</span>
+            <h2>Upload New Prospects</h2>
+            <p>Upload a CSV file with columns: <strong>Prospect Name</strong> and <strong>Domain</strong></p>
+            <form id="csvForm" onsubmit="submitCSV(event)">
+                <div class="form-group">
+                    <label for="csvContent">CSV Content:</label>
+                    <textarea id="csvContent" name="csvContent" required placeholder="Prospect Name,Domain&#10;TechCorp,techcorp.com&#10;InnovateLabs,innovatelabs.io"></textarea>
+                    <div class="form-help">Paste your CSV data here. Format: Prospect Name,Domain (one per line)</div>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+                <div id="message" class="message"></div>
+            </form>
+        </div>
+    </div>
+
+    <h2>Current Prospects</h2>
     <table>
         <tr>
             <th>Prospect Name</th>
             <th>RSS Feed</th>
             <th>Last Scrape Status</th>
+            <th>Last Scrape Timestamp</th>
         </tr>
-        <tr>
-            <td>The Nerd Stash</td>
-            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/the-nerd-stash.xml">https://swelbyboy.github.io/prospect-rss-feeds/the-nerd-stash.xml</a></td>
-            <td class="success">success</td>
-        </tr>
-        <tr>
-            <td>KnowTechie</td>
-            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/knowtechie.xml">https://swelbyboy.github.io/prospect-rss-feeds/knowtechie.xml</a></td>
-            <td class="success">success</td>
-        </tr>
+        <tr><td>Rugby Addict</td><td><a href="https://swelbyboy.github.io/prospect-rss-feeds/rugby-addict.xml">https://swelbyboy.github.io/prospect-rss-feeds/rugby-addict.xml</a></td><td class="success">success</td><td>2025-11-05 09:57:04</td></tr>
+        <tr><td>UCLA</td><td><a href="https://swelbyboy.github.io/prospect-rss-feeds/ucla.xml">https://swelbyboy.github.io/prospect-rss-feeds/ucla.xml</a></td><td class="success">success</td><td>2025-11-05 09:58:43</td></tr>
+        <tr><td>Pacific Media Group</td><td><a href="https://swelbyboy.github.io/prospect-rss-feeds/pacific-media-group.xml">https://swelbyboy.github.io/prospect-rss-feeds/pacific-media-group.xml</a></td><td class="success">success</td><td>2025-11-05 09:59:39</td></tr>
     </table>
-    <p>Last updated: 2025-11-04 15:05:40 UTC</p>
+    <p>Last updated: 2025-11-05 09:59:39 UTC</p>
+    
+    <script>
+    function openUploadModal() {
+        document.getElementById('uploadModal').style.display = 'block';
+    }
+    
+    function closeUploadModal() {
+        document.getElementById('uploadModal').style.display = 'none';
+        document.getElementById('csvForm').reset();
+        document.getElementById('message').style.display = 'none';
+    }
+    
+    window.onclick = function(event) {
+        const modal = document.getElementById('uploadModal');
+        if (event.target == modal) {
+            closeUploadModal();
+        }
+    }
+    
+    function submitCSV(event) {
+        event.preventDefault();
+        const csvContent = document.getElementById('csvContent').value.trim();
+        
+        if (!csvContent) {
+            showMessage('Please enter CSV content', 'error');
+            return;
+        }
+        
+        // Create GitHub issue directly via API (no manual label selection needed)
+        // The label will be automatically created by the workflow if it doesn't exist
+        const repoOwner = 'swelbyboy';
+        const repoName = 'prospect-rss-feeds';
+        const issueTitle = 'Upload new prospects CSV';
+        const issueBody = ;
+        
+        // Create issue URL with label pre-selected
+        const issueUrl = ;
+        
+        // Open in new window (will auto-create label if needed)
+        window.open(issueUrl, '_blank');
+        
+        showMessage('✅ Opening GitHub to create issue. The label will be created automatically. After you submit, prospects will be added automatically.', 'success');
+        
+        // Reset form after a delay
+        setTimeout(() => {
+            document.getElementById('csvForm').reset();
+            closeUploadModal();
+        }, 2000);
+    }
+    
+    function showMessage(text, type) {
+        const messageDiv = document.getElementById('message');
+        messageDiv.textContent = text;
+        messageDiv.className = 'message ' + type + '-message';
+        messageDiv.style.display = 'block';
+    }
+    </script>
 </body>
 </html>
