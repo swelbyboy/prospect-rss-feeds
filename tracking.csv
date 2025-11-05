@@ -1,4 +1,106 @@
 prospect_id,company_name,domain,last_scrape_date,status,articles_found,rss_url,error_message
-1,Rugby Addict,rugby-addict.com,2025-11-05 12:09:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/rugby-addict.xml,
-2,UCLA,ucla.edu,2025-11-05 12:10:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ucla.xml,
-3,Pacific Media Group,pmghawaii.com,2025-11-05 12:10:55,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pacific-media-group.xml,
+1,Rugby Addict,rugby-addict.com,2025-11-05 16:52:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/rugby-addict.xml,
+2,UCLA,ucla.edu,2025-11-05 16:53:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ucla.xml,
+3,Pacific Media Group,pmghawaii.com,2025-11-05 16:54:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pacific-media-group.xml,
+7,3FM,three.fm,2025-11-05 16:56:22,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/3fm.xml,
+8,It's Gone Viral,igvofficial.com,2025-11-05 17:00:00,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/it-s-gone-viral.xml,
+10,Haystack News,haystack.tv,2025-11-05 17:01:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/haystack-news.xml,
+11,London Bangla Ltd,lb24.tv,2025-11-05 17:01:40,failed,0,,No article links detected on homepage
+12,SamMobile.com,sammobile.com,2025-11-05 17:03:06,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sammobile-com.xml,
+14,Isle of Wight Radio,iwradio.co.uk,2025-11-05 17:04:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/isle-of-wight-radio.xml,
+15,The Richmond Observer,richmondobserver.com,2025-11-05 17:06:21,success,6,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-richmond-observer.xml,
+18,KTTN,kttn.com,2025-11-05 17:07:50,success,6,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kttn.xml,
+22,Chinese Herald,chineseherald.co.nz,2025-11-05 17:09:20,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/chinese-herald.xml,
+23,Gay Times,gaytimes.co.uk,2025-11-05 17:09:57,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gay-times.xml,
+24,Catchfence,catchfence.com,2025-11-05 17:10:31,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+25,Eleven Warriors,elevenwarriors.com,2025-11-05 17:11:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/eleven-warriors.xml,
+27,Farmers Guardian,farmersguardian.com,2025-11-05 17:12:10,failed,10,,RSS generation error: Required fields not set
+28,Crime Online,crimeonline.com,2025-11-05 17:13:23,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/crime-online.xml,
+29,Best Little Sites,comicbookmovie.com,2025-11-05 17:14:26,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/best-little-sites.xml,
+33,Ringside News,ringsidenews.com,2025-11-05 17:15:40,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ringside-news.xml,
+35,Pulse 2.0,pulse2.com,2025-11-05 17:16:50,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pulse-2-0.xml,
+36,Cricket Australia,cricketaustralia.com.au,2025-11-05 17:17:25,failed,0,,No article links detected on homepage
+37,KnowTechie,knowtechie.com,2025-11-05 17:18:43,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/knowtechie.xml,
+38,Londra Gazete,londragazete.com,2025-11-05 17:20:02,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/londra-gazete.xml,
+39,Vital MTB,vitalmtb.com,2025-11-05 17:22:30,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/vital-mtb.xml,
+40,Eagle Country 99.3,eaglecountryonline.com,2025-11-05 17:24:10,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/eagle-country-99-3.xml,
+43,Just Jared,justjared.com,2025-11-05 17:25:01,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/just-jared.xml,
+44,Rimix Radio,rimixradio.com,2025-11-05 17:25:35,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+47,The Poke,thepoke.co.uk,2025-11-05 17:26:06,failed,0,,No article links detected on homepage
+50,Celeb Dirty Laundry,celebdirtylaundry.com,2025-11-05 17:26:41,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+51,Over60,oversixty.com.au,2025-11-05 17:27:15,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+52,Quad Cities,quadcities.com,2025-11-05 17:28:38,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/quad-cities.xml,
+53,Gematsu,gematsu.com,2025-11-05 17:29:51,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gematsu.xml,
+55,Jedi News,jedinews.co.uk,2025-11-05 17:30:22,failed,0,,No article links detected on homepage
+59,Talking Rugby Union (TRU),talkingrugbyunion.co.uk,2025-11-05 17:32:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/talking-rugby-union--tru.xml,
+60,AllHipHop,allhiphop.com,2025-11-05 17:32:53,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+61,Mom and More,momandmore.com,2025-11-05 17:33:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mom-and-more.xml,
+64,IMBOLDN,imboldn.com,2025-11-05 17:34:44,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/imboldn.xml,
+72,RNZ,radionz.co.nz,2025-11-05 17:35:35,success,3,https://swelbyboy.github.io/prospect-rss-feeds/feeds/rnz.xml,
+74,Manx Radio,manxradio.com,2025-11-05 17:37:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/manx-radio.xml,
+75,Derry Daily,derrydaily.net,2025-11-05 17:38:22,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/derry-daily.xml,
+76,Indiana Public Media,indianapublicmedia.org,2025-11-05 17:38:57,success,2,https://swelbyboy.github.io/prospect-rss-feeds/feeds/indiana-public-media.xml,
+78,I Creative Ideas,icreativeideas.com,2025-11-05 17:39:48,success,6,https://swelbyboy.github.io/prospect-rss-feeds/feeds/i-creative-ideas.xml,
+81,Newsdakota.com,newsdakota.com,2025-11-05 17:41:17,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/newsdakota-com.xml,
+84,Essex Media Group,itemlive.com,2025-11-05 17:42:31,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/essex-media-group.xml,
+85,MageeNews.com,mageenews.com,2025-11-05 17:44:23,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mageenews-com.xml,
+87,TheBigLead,thebiglead.com,2025-11-05 17:47:55,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/thebiglead.xml,
+88,EventHubs,eventhubs.com,2025-11-05 17:49:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/eventhubs.xml,
+89,Wdtv,wdtv.com,2025-11-05 17:50:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/wdtv.xml,
+90,Thecryptobasic,thecryptobasic.com,2025-11-05 17:51:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/thecryptobasic.xml,
+92,FOX 24 Charleston,foxcharleston.com,2025-11-05 17:53:13,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/fox-24-charleston.xml,
+93,The Manual,themanual.com,2025-11-05 17:53:47,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+95,NewsChannel 10,newschannel10.com,2025-11-05 17:54:58,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/newschannel-10.xml,
+96,GBnews24,gbnews24.com,2025-11-05 17:55:53,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gbnews24.xml,
+97,"Heritage Media Of Kentucky, Inc",k105.com,2025-11-05 17:57:49,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/heritage-media-of-kentucky--inc.xml,
+98,Ziarul Românesc,ziarulromanesc.net,2025-11-05 18:00:37,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ziarul-românesc.xml,
+99,Bounding Into Comics,boundingintocomics.com,2025-11-05 18:01:41,success,6,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bounding-into-comics.xml,
+102,Londynek.net,londynek.net,2025-11-05 18:03:42,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/londynek-net.xml,
+104,News 12,wrdw.com,2025-11-05 18:04:57,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/news-12.xml,
+105,MyMMANews.com,mymmanews.com,2025-11-05 18:06:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mymmanews-com.xml,
+106,FOX 8,fox8live.com,2025-11-05 18:08:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/fox-8.xml,
+107,Albumism,albumism.com,2025-11-05 18:09:00,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/albumism.xml,
+108,Kiss Binghamton,kissbinghamton.com,2025-11-05 18:10:57,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kiss-binghamton.xml,
+110,The Fandom Post,fandompost.com,2025-11-05 18:12:06,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-fandom-post.xml,
+111,Ruck Rugby Limited,ruck.co.uk,2025-11-05 18:12:40,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+113,BangShift.com,bangshift.com,2025-11-05 18:13:38,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bangshift-com.xml,
+114,Wisden Cricket,wisden.com,2025-11-05 18:14:13,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+115,AcheiUSA,acheiusa.com,2025-11-05 18:14:47,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+118,Agrios Ltd,farminguk.com,2025-11-05 18:15:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/agrios-ltd.xml,
+120,Coleraine Chronicle,colerainechronicle.co.uk,2025-11-05 18:16:20,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+122,KTVB,ktvb.com,2025-11-05 18:17:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ktvb.xml,
+123,KBTX,kbtx.com,2025-11-05 18:20:16,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kbtx.xml,
+126,BlackSportsOnline,blacksportsonline.com,2025-11-05 18:21:50,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/blacksportsonline.xml,
+127,EDM Identity,edmidentity.com,2025-11-05 18:23:29,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/edm-identity.xml,
+128,Awful Announcing,awfulannouncing.com,2025-11-05 18:25:09,success,7,https://swelbyboy.github.io/prospect-rss-feeds/feeds/awful-announcing.xml,
+130,Motorsport Week,motorsportweek.com,2025-11-05 18:27:41,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/motorsport-week.xml,
+131,América TeVe,americateve.com,2025-11-05 18:28:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/américa-teve.xml,
+132,Rangers FC,rangers.co.uk,2025-11-05 18:30:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/rangers-fc.xml,
+133,Mactrast,mactrast.com,2025-11-05 18:30:49,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+135,411Mania,411mania.com,2025-11-05 18:31:23,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+136,Awareness Act,awarenessact.com,2025-11-05 18:32:44,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/awareness-act.xml,
+137,Bleeding Cool,bleedingcool.com,2025-11-05 18:33:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bleeding-cool.xml,
+139,The Hard Tackle,thehardtackle.com,2025-11-05 18:34:32,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-hard-tackle.xml,
+140,Comic Watch,comic-watch.com,2025-11-05 18:38:37,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
+144,MSPoweruser.com,mspoweruser.com,2025-11-05 18:49:02,failed,0,,Failed to scrape any articles
+145,Soccer Publishing Limited,thisisanfield.com,2025-11-05 18:49:58,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/soccer-publishing-limited.xml,
+147,Region 8 News,kait8.com,2025-11-05 18:51:15,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/region-8-news.xml,
+148,"American Football International, LLC",americanfootballinternational.com,2025-11-05 18:53:02,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/american-football-international--llc.xml,
+149,Ink Free News,inkfreenews.com,2025-11-05 18:53:54,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ink-free-news.xml,
+151,РаботникМК,rabotnik.com.mk,2025-11-05 18:54:28,success,2,https://swelbyboy.github.io/prospect-rss-feeds/feeds/работникмк.xml,
+152,LNGIndustry,lngindustry.com,2025-11-05 18:54:59,failed,0,,No links found on homepage
+153,https://www.vavel.com/en-us/,vavel.com,2025-11-05 18:55:33,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+154,DailyFaceoff.com,dailyfaceoff.com,2025-11-05 18:57:07,success,7,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dailyfaceoff-com.xml,
+155,The Market Herald,themarketherald.com.au,2025-11-05 18:57:38,failed,0,,No article links detected on homepage
+156,Trusted Reviews,trustedreviews.com,2025-11-05 18:58:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/trusted-reviews.xml,
+157,WOUB Public Media,woub.org,2025-11-05 18:59:58,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/woub-public-media.xml,
+158,Distinctly Montana,distinctlymontana.com,2025-11-05 19:01:01,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/distinctly-montana.xml,
+160,Noticia Cristiana,noticiacristiana.com,2025-11-05 19:03:24,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/noticia-cristiana.xml,
+161,Motorcycle.com,motorcycle.com,2025-11-05 19:04:53,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/motorcycle-com.xml,
+163,Wrestleview.com,wrestleview.com,2025-11-05 19:06:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/wrestleview-com.xml,
+164,Oyungg,savebutonu.com,2025-11-05 19:06:58,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+166,Wect,wect.com,2025-11-05 19:09:20,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/wect.xml,
+167,DESblitz,desiblitz.com,2025-11-05 19:10:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/desblitz.xml,
+168,Fitness Gurls,fitnessgurls.com,2025-11-05 19:11:05,failed,0,,Scraping error: Failed to scrape URL. Status code: 503
+169,WMBF News,wmbfnews.com,2025-11-05 19:12:36,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/wmbf-news.xml,
+170,The Nerd Stash,thenerdstash.com,2025-11-05 19:13:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-nerd-stash.xml,
