@@ -139,6 +139,13 @@ class ProspectScraper:
 
                     if article_result:
                         metadata = article_result.get('metadata', {})
+                        markdown_content = article_result.get('markdown', '')
+
+                        # Validate that this is actual article content
+                        if not self._is_valid_article(metadata, markdown_content, article_url):
+                            print(f"   ⚠️  Skipping - not a valid article (likely navigation/utility page)")
+                            continue
+
                         articles.append({
                             'title': metadata.get('title', f"Article {idx}"),
                             'link': article_url,
@@ -168,7 +175,10 @@ class ProspectScraper:
 
     def _filter_article_links(self, links, homepage_url, domain):
         """
-        Filter links from homepage to find likely article URLs.
+        Filter links from homepage to find potential article URLs.
+
+        Strategy: Keep filtering minimal - only exclude obvious non-articles.
+        Content validation will filter out the rest after scraping.
 
         Args:
             links (list): List of link URLs from homepage
@@ -180,23 +190,20 @@ class ProspectScraper:
         """
         article_urls = []
 
-        # Keywords that suggest a link is to an article
-        article_indicators = [
-            '/blog/', '/news/', '/article/', '/post/', '/press/',
-            '/insights/', '/resources/', '/updates/', '/stories/',
-            '/featured/', '/latest/', '/opinion/', '/reports/',
-            '/analysis/', '/review/', '/commentary/', '/editorial/'
-        ]
-
-        # Common non-article paths to exclude
+        # Minimal exclusions - only obvious non-article pages
         exclude_patterns = [
+            # Static/utility pages
             '/about', '/contact', '/privacy', '/terms', '/login',
-            '/signup', '/register', '/search', '/tag/', '/category/',
-            '/author/', '/page/', '/feed', '/rss', '/api/',
-            '/wp-admin', '/wp-content', '/wp-includes',
-            '.pdf', '.jpg', '.png', '.gif', '.zip', '.xml',
+            '/signup', '/register', '/search', '/subscribe', '/schedule',
+            '/disclaimer', '/advertise', '/advertising',
+            # Administrative
+            '/tag/', '/category/', '/author/', '/page/', '/community/',
+            '/feed', '/rss', '/api/', '/wp-admin', '/wp-content',
+            # Media files
+            '.pdf', '.jpg', '.png', '.gif', '.zip', '.xml', '.css', '.js',
+            # External links
             'facebook.com', 'twitter.com', 'linkedin.com', 'instagram.com',
-            'youtube.com', 'mailto:', 'tel:'
+            'youtube.com', 'mailto:', 'tel:',
         ]
 
         for link in links:
@@ -206,7 +213,13 @@ class ProspectScraper:
             link_lower = link.lower()
 
             # Skip if it's the homepage itself
-            if link.rstrip('/') == homepage_url.rstrip('/'):
+            homepage_base = homepage_url.rstrip('/')
+            link_base = link.rstrip('/')
+            if link_base == homepage_base or link_base + '#' == homepage_base:
+                continue
+
+            # Skip if it's just a language code (e.g., /en, /en-us, /fr)
+            if re.match(r'^https?://[^/]+/[a-z]{2}(-[a-z]{2,3})?/?$', link_base):
                 continue
 
             # Skip external links (must be same domain)
@@ -217,37 +230,121 @@ class ProspectScraper:
             if any(pattern in link_lower for pattern in exclude_patterns):
                 continue
 
-            # Check for article indicators in URL
-            is_article = any(indicator in link_lower for indicator in article_indicators)
+            # Skip very short paths or single-segment paths (likely sections/categories)
+            path = link.replace(homepage_url, '').split('?')[0].strip('/')
 
-            # Also include links that look like dated URLs (e.g., /2024/11/article-name)
-            if not is_article:
-                # Check for year pattern in URL (common for articles)
-                if re.search(r'/20\d{2}/', link):
-                    is_article = True
+            # Too short = navigation
+            if len(path) < 5:  # e.g., /news, /blog
+                continue
 
-            # Also include links that are relatively long (often article URLs)
-            # But not too long (avoid query strings)
-            if not is_article:
-                path_length = len(link.replace(homepage_url, '').split('?')[0])
-                if 20 < path_length < 150:
-                    # Likely an article if it has a decent length path
-                    is_article = True
+            # Single short segment = likely a category/section page
+            path_segments = [s for s in path.split('/') if s]
+            if len(path_segments) == 1 and len(path_segments[0]) < 20:
+                # Single segment like "/venezuela" or "/sports" - likely a category
+                continue
 
-            if is_article:
-                # Ensure full URL
-                if link.startswith('/'):
-                    full_url = homepage_url.rstrip('/') + link
-                elif not link.startswith('http'):
-                    full_url = homepage_url.rstrip('/') + '/' + link
-                else:
-                    full_url = link
+            # Accept everything else - let content validation handle it
+            # Ensure full URL
+            if link.startswith('/'):
+                full_url = homepage_url.rstrip('/') + link
+            elif not link.startswith('http'):
+                full_url = homepage_url.rstrip('/') + '/' + link
+            else:
+                full_url = link
 
-                # Avoid duplicates
-                if full_url not in article_urls:
-                    article_urls.append(full_url)
+            # Avoid duplicates
+            if full_url not in article_urls:
+                article_urls.append(full_url)
 
         return article_urls
+
+    def _is_valid_article(self, metadata, markdown_content, url):
+        """
+        Validate that scraped content is a legitimate article suitable for a newsletter.
+
+        This is the PRIMARY filter - it must be thorough since URL filtering is minimal.
+
+        Args:
+            metadata (dict): Article metadata from Firecrawl
+            markdown_content (str): Article markdown content
+            url (str): Article URL
+
+        Returns:
+            bool: True if valid article, False otherwise
+        """
+        # Get title and description
+        title = metadata.get('title', '').lower()
+        description = metadata.get('description', '').lower()
+        url_lower = url.lower()
+
+        # 1. RED FLAGS IN TITLES - Explicit non-article indicators
+        non_article_title_patterns = [
+            'home', 'homepage', 'listen live', 'schedule', 'on air', 'on-air',
+            'what\'s on', 'events', 'calendar', 'win ', 'competition',
+            'subscribe', 'newsletter', 'contact us', 'about us',
+            'privacy policy', 'terms', 'cookie policy', 'smart speaker',
+            'advertise', 'careers', 'jobs', '404', 'not found',
+            'all articles', 'archive', 'sitemap', 'categories'
+        ]
+
+        for pattern in non_article_title_patterns:
+            if pattern in title:
+                return False
+
+        # 2. RED FLAGS IN URLs - Common navigation patterns
+        url_navigation_patterns = [
+            '/listen', '/schedule', '/on-air', '/calendar', '/events',
+            '/win-', '/competition', '/categories/', '/sections/',
+            '/archive', '/all-news', '/all-articles'
+        ]
+
+        for pattern in url_navigation_patterns:
+            if pattern in url_lower:
+                return False
+
+        # 3. TITLE QUALITY - Must be descriptive
+        if len(title) < 10:
+            return False
+
+        # Title should have at least 3 words
+        title_word_count = len(title.split())
+        if title_word_count < 3:
+            return False
+
+        # 4. CONTENT LENGTH - Articles must have substantial content
+        content_words = markdown_content.split() if markdown_content else []
+        word_count = len(content_words)
+
+        # Minimum 150 words for articles
+        if word_count < 150:
+            return False
+
+        # 5. LINK DENSITY - Reject pages that are mostly links
+        if markdown_content:
+            link_count = markdown_content.count('](')
+            # If more than 20% of content is links, likely a navigation/index page
+            if word_count > 0 and (link_count / (word_count / 5)) > 0.2:
+                return False
+
+        # 6. METADATA SIGNALS - Look for article indicators
+        has_published_date = bool(metadata.get('publishedTime') or metadata.get('published'))
+        has_description = len(description) > 30
+        has_author = bool(metadata.get('author') or metadata.get('author'))
+
+        # Strong signal: has pub date
+        if has_published_date:
+            return True
+
+        # Decent signals: description + reasonable content
+        if has_description and word_count >= 200:
+            return True
+
+        # Weak but acceptable: just lots of content
+        if word_count >= 400:
+            return True
+
+        # Not enough signals to be confident it's an article
+        return False
 
     def process_prospect(self, prospect):
         """
