@@ -1,106 +1,106 @@
 prospect_id,company_name,domain,last_scrape_date,status,articles_found,rss_url,error_message
-1,Rugby Addict,rugby-addict.com,2025-11-09 22:15:02,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-2,UCLA,ucla.edu,2025-11-09 22:24:48,failed,0,,Failed to scrape any articles
-3,Pacific Media Group,pmghawaii.com,2025-11-09 22:28:48,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-7,3FM,three.fm,2025-11-09 22:32:49,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-8,It's Gone Viral,igvofficial.com,2025-11-09 22:35:45,failed,0,,Scraping error: Failed to scrape URL. Status code: 502
-10,Haystack News,haystack.tv,2025-11-09 22:39:46,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-11,London Bangla Ltd,lb24.tv,2025-11-09 22:43:47,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-12,SamMobile.com,sammobile.com,2025-11-09 22:56:39,failed,0,,Failed to scrape any articles
-14,Isle of Wight Radio,iwradio.co.uk,2025-11-09 23:07:02,failed,0,,Failed to scrape any articles
-15,The Richmond Observer,richmondobserver.com,2025-11-09 23:11:03,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-18,KTTN,kttn.com,2025-11-09 23:14:45,failed,0,,Failed to scrape any articles
-22,Chinese Herald,chineseherald.co.nz,2025-11-09 23:15:58,failed,0,,Failed to scrape any articles
-23,Gay Times,gaytimes.co.uk,2025-11-09 23:16:39,failed,0,,Failed to scrape any articles
-24,Catchfence,catchfence.com,2025-11-09 23:21:12,failed,0,,Failed to scrape any articles
-25,Eleven Warriors,elevenwarriors.com,2025-11-09 23:23:04,failed,0,,Scraping error: Failed to scrape URL. Status code: 502
-27,Farmers Guardian,farmersguardian.com,2025-11-09 23:24:44,failed,0,,Failed to scrape any articles
-28,Crime Online,crimeonline.com,2025-11-09 23:25:51,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/crime-online.xml,
-29,Best Little Sites,comicbookmovie.com,2025-11-09 23:28:27,failed,0,,Failed to scrape any articles
-33,Ringside News,ringsidenews.com,2025-11-09 23:29:35,failed,0,,Failed to scrape any articles
-35,Pulse 2.0,pulse2.com,2025-11-09 23:31:22,success,5,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pulse-2-0.xml,
-36,Cricket Australia,cricketaustralia.com.au,2025-11-09 23:32:06,failed,0,,No article links detected on homepage
-37,KnowTechie,knowtechie.com,2025-11-09 23:36:46,failed,0,,Failed to scrape any articles
-38,Londra Gazete,londragazete.com,2025-11-09 23:40:18,failed,0,,Failed to scrape any articles
-39,Vital MTB,vitalmtb.com,2025-11-09 23:45:09,failed,0,,Failed to scrape any articles
-40,Eagle Country 99.3,eaglecountryonline.com,2025-11-09 23:50:15,failed,0,,Failed to scrape any articles
-43,Just Jared,justjared.com,2025-11-09 23:57:42,failed,0,,Failed to scrape any articles
-44,Rimix Radio,rimixradio.com,2025-11-10 00:07:30,failed,0,,Failed to scrape any articles
-47,The Poke,thepoke.co.uk,2025-11-10 00:09:22,failed,0,,No article links detected on homepage
-50,Celeb Dirty Laundry,celebdirtylaundry.com,2025-11-10 00:13:33,failed,0,,Scraping error: Failed to scrape URL. Status code: 500. Error: Timed out
-51,Over60,oversixty.com.au,2025-11-10 00:17:34,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-52,Quad Cities,quadcities.com,2025-11-10 00:28:35,failed,0,,Failed to scrape any articles
-53,Gematsu,gematsu.com,2025-11-10 00:32:36,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-55,Jedi News,jedinews.co.uk,2025-11-10 00:37:48,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-59,Talking Rugby Union (TRU),talkingrugbyunion.co.uk,2025-11-10 00:43:00,failed,0,,Scraping error: Failed to scrape URL. Status code: 502
-60,AllHipHop,allhiphop.com,2025-11-10 00:47:00,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-61,Mom and More,momandmore.com,2025-11-10 00:51:01,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-64,IMBOLDN,imboldn.com,2025-11-10 00:55:03,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-72,RNZ,radionz.co.nz,2025-11-10 00:57:39,failed,0,,Scraping error: Failed to scrape URL. Status code: 502
-74,Manx Radio,manxradio.com,2025-11-10 01:01:42,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-75,Derry Daily,derrydaily.net,2025-11-10 01:05:43,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-76,Indiana Public Media,indianapublicmedia.org,2025-11-10 01:09:06,failed,0,,Scraping error: Failed to scrape URL. Status code: 502
-78,I Creative Ideas,icreativeideas.com,2025-11-10 01:13:07,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-81,Newsdakota.com,newsdakota.com,2025-11-10 01:17:08,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-84,Essex Media Group,itemlive.com,2025-11-10 01:21:08,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-85,MageeNews.com,mageenews.com,2025-11-10 01:25:08,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-87,TheBigLead,thebiglead.com,2025-11-10 01:29:09,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-88,EventHubs,eventhubs.com,2025-11-10 01:33:12,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-89,Wdtv,wdtv.com,2025-11-10 01:37:13,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-90,Thecryptobasic,thecryptobasic.com,2025-11-10 01:41:14,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-92,FOX 24 Charleston,foxcharleston.com,2025-11-10 01:45:15,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-93,The Manual,themanual.com,2025-11-10 01:49:15,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-95,NewsChannel 10,newschannel10.com,2025-11-10 01:52:53,failed,0,,Scraping error: Failed to scrape URL. Status code: 502
-96,GBnews24,gbnews24.com,2025-11-10 01:56:54,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-97,"Heritage Media Of Kentucky, Inc",k105.com,2025-11-10 02:00:55,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-98,Ziarul Românesc,ziarulromanesc.net,2025-11-10 02:04:55,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-99,Bounding Into Comics,boundingintocomics.com,2025-11-10 02:09:00,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-102,Londynek.net,londynek.net,2025-11-10 02:11:41,failed,0,,Failed to scrape any articles
-104,News 12,wrdw.com,2025-11-10 02:13:56,failed,0,,Failed to scrape any articles
-105,MyMMANews.com,mymmanews.com,2025-11-10 02:14:57,failed,0,,Failed to scrape any articles
-106,FOX 8,fox8live.com,2025-11-10 02:16:29,failed,0,,Failed to scrape any articles
-107,Albumism,albumism.com,2025-11-10 02:17:49,failed,0,,Failed to scrape any articles
-108,Kiss Binghamton,kissbinghamton.com,2025-11-10 02:19:04,failed,0,,Failed to scrape any articles
-110,The Fandom Post,fandompost.com,2025-11-10 02:21:38,failed,0,,Failed to scrape any articles
-111,Ruck Rugby Limited,ruck.co.uk,2025-11-10 02:23:31,failed,0,,Failed to scrape any articles
-113,BangShift.com,bangshift.com,2025-11-10 02:24:51,failed,0,,Failed to scrape any articles
-114,Wisden Cricket,wisden.com,2025-11-10 02:26:26,failed,0,,Failed to scrape any articles
-115,AcheiUSA,acheiusa.com,2025-11-10 02:27:41,failed,0,,Failed to scrape any articles
-118,Agrios Ltd,farminguk.com,2025-11-10 02:29:26,failed,0,,Failed to scrape any articles
-120,Coleraine Chronicle,colerainechronicle.co.uk,2025-11-10 02:30:04,failed,0,,No links found on homepage
-122,KTVB,ktvb.com,2025-11-10 02:31:07,failed,0,,Failed to scrape any articles
-123,KBTX,kbtx.com,2025-11-10 02:33:49,failed,0,,Failed to scrape any articles
-126,BlackSportsOnline,blacksportsonline.com,2025-11-10 02:36:11,failed,0,,Failed to scrape any articles
-127,EDM Identity,edmidentity.com,2025-11-10 02:40:03,failed,0,,Failed to scrape any articles
-128,Awful Announcing,awfulannouncing.com,2025-11-10 02:40:44,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: Reached the max retries per request limit (which is 20). Refer to ""maxRetriesPerRequest"" option for details."
-130,Motorsport Week,motorsportweek.com,2025-11-10 02:41:26,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: Reached the max retries per request limit (which is 20). Refer to ""maxRetriesPerRequest"" option for details."
-131,América TeVe,americateve.com,2025-11-10 02:42:08,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: Reached the max retries per request limit (which is 20). Refer to ""maxRetriesPerRequest"" option for details."
-132,Rangers FC,rangers.co.uk,2025-11-10 02:42:50,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: Reached the max retries per request limit (which is 20). Refer to ""maxRetriesPerRequest"" option for details."
-133,Mactrast,mactrast.com,2025-11-10 02:43:37,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: Reached the max retries per request limit (which is 20). Refer to ""maxRetriesPerRequest"" option for details."
-135,411Mania,411mania.com,2025-11-10 02:44:14,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: Reached the max retries per request limit (which is 20). Refer to ""maxRetriesPerRequest"" option for details."
-136,Awareness Act,awarenessact.com,2025-11-10 02:44:56,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: Reached the max retries per request limit (which is 20). Refer to ""maxRetriesPerRequest"" option for details."
-137,Bleeding Cool,bleedingcool.com,2025-11-10 02:45:44,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: Reached the max retries per request limit (which is 20). Refer to ""maxRetriesPerRequest"" option for details."
-139,The Hard Tackle,thehardtackle.com,2025-11-10 02:46:20,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: Reached the max retries per request limit (which is 20). Refer to ""maxRetriesPerRequest"" option for details."
-140,Comic Watch,comic-watch.com,2025-11-10 02:47:02,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: Reached the max retries per request limit (which is 20). Refer to ""maxRetriesPerRequest"" option for details."
-144,MSPoweruser.com,mspoweruser.com,2025-11-10 02:51:46,failed,0,,Failed to scrape any articles
-145,Soccer Publishing Limited,thisisanfield.com,2025-11-10 02:52:17,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: server login has been failing, cached error: connect failed (server_login_retry)"
-147,Region 8 News,kait8.com,2025-11-10 02:52:47,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: server login has been failing, cached error: connect failed (server_login_retry)"
-148,"American Football International, LLC",americanfootballinternational.com,2025-11-10 02:53:17,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: server login has been failing, cached error: connect failed (server_login_retry)"
-149,Ink Free News,inkfreenews.com,2025-11-10 02:53:47,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: server login has been failing, cached error: connect failed (server_login_retry)"
-151,РаботникМК,rabotnik.com.mk,2025-11-10 02:55:26,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: server login has been failing, cached error: connect failed (server_login_retry)"
-152,LNGIndustry,lngindustry.com,2025-11-10 02:55:56,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: server login has been failing, cached error: connect failed (server_login_retry)"
-153,https://www.vavel.com/en-us/,vavel.com,2025-11-10 02:56:26,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: server login has been failing, cached error: connect failed (server_login_retry)"
-154,DailyFaceoff.com,dailyfaceoff.com,2025-11-10 02:56:56,failed,0,,"Scraping error: Failed to scrape URL. Status code: 500. Error: server login has been failing, cached error: connect failed (server_login_retry)"
-155,The Market Herald,themarketherald.com.au,2025-11-10 02:59:52,failed,0,,Scraping error: Failed to scrape URL. Status code: 502
-156,Trusted Reviews,trustedreviews.com,2025-11-10 03:03:56,failed,0,,Scraping error: Failed to scrape URL. Status code: 502
-157,WOUB Public Media,woub.org,2025-11-10 03:07:45,failed,0,,Scraping error: Failed to scrape URL. Status code: 502
-158,Distinctly Montana,distinctlymontana.com,2025-11-10 03:11:47,failed,0,,Scraping error: Failed to scrape URL. Status code: 502
-160,Noticia Cristiana,noticiacristiana.com,2025-11-10 03:17:00,failed,0,,Failed to scrape any articles
-161,Motorcycle.com,motorcycle.com,2025-11-10 03:18:04,failed,0,,Failed to scrape any articles
-163,Wrestleview.com,wrestleview.com,2025-11-10 03:19:23,failed,0,,Failed to scrape any articles
-164,Oyungg,savebutonu.com,2025-11-10 03:23:43,failed,0,,Failed to scrape any articles
-166,Wect,wect.com,2025-11-10 03:24:42,failed,0,,Failed to scrape any articles
-167,DESblitz,desiblitz.com,2025-11-10 03:27:38,failed,0,,Failed to scrape any articles
-168,Fitness Gurls,fitnessgurls.com,2025-11-10 03:29:48,failed,0,,Failed to scrape any articles
-169,WMBF News,wmbfnews.com,2025-11-10 03:35:10,failed,0,,Failed to scrape any articles
-170,The Nerd Stash,thenerdstash.com,2025-11-10 03:36:30,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-nerd-stash.xml,
+1,Rugby Addict,rugby-addict.com,2025-11-16 22:12:30,failed,0,,Failed to scrape any articles
+2,UCLA,ucla.edu,2025-11-16 22:14:32,failed,0,,Failed to scrape any articles
+3,Pacific Media Group,pmghawaii.com,2025-11-16 22:15:39,failed,0,,Failed to scrape any articles
+7,3FM,three.fm,2025-11-16 22:16:45,failed,0,,Failed to scrape any articles
+8,It's Gone Viral,igvofficial.com,2025-11-16 22:21:13,failed,0,,Failed to scrape any articles
+10,Haystack News,haystack.tv,2025-11-16 22:25:15,failed,0,,Failed to scrape any articles
+11,London Bangla Ltd,lb24.tv,2025-11-16 22:25:52,failed,0,,No article links detected on homepage
+12,SamMobile.com,sammobile.com,2025-11-16 22:27:05,failed,0,,Failed to scrape any articles
+14,Isle of Wight Radio,iwradio.co.uk,2025-11-16 22:28:09,failed,0,,Failed to scrape any articles
+15,The Richmond Observer,richmondobserver.com,2025-11-16 22:29:15,failed,0,,Failed to scrape any articles
+18,KTTN,kttn.com,2025-11-16 22:31:15,failed,0,,Failed to scrape any articles
+22,Chinese Herald,chineseherald.co.nz,2025-11-16 22:32:40,failed,0,,Failed to scrape any articles
+23,Gay Times,gaytimes.co.uk,2025-11-16 22:33:20,failed,0,,Failed to scrape any articles
+24,Catchfence,catchfence.com,2025-11-16 22:36:21,failed,0,,Failed to scrape any articles
+25,Eleven Warriors,elevenwarriors.com,2025-11-16 22:37:20,failed,0,,Failed to scrape any articles
+27,Farmers Guardian,farmersguardian.com,2025-11-16 22:39:10,failed,0,,Failed to scrape any articles
+28,Crime Online,crimeonline.com,2025-11-16 22:40:10,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/crime-online.xml,
+29,Best Little Sites,comicbookmovie.com,2025-11-16 22:41:07,failed,0,,Failed to scrape any articles
+33,Ringside News,ringsidenews.com,2025-11-16 22:42:10,failed,0,,Failed to scrape any articles
+35,Pulse 2.0,pulse2.com,2025-11-16 22:44:43,success,5,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pulse-2-0.xml,
+36,Cricket Australia,cricketaustralia.com.au,2025-11-16 22:45:17,failed,0,,No article links detected on homepage
+37,KnowTechie,knowtechie.com,2025-11-16 22:46:13,failed,0,,Failed to scrape any articles
+38,Londra Gazete,londragazete.com,2025-11-16 22:47:15,failed,0,,Failed to scrape any articles
+39,Vital MTB,vitalmtb.com,2025-11-16 22:48:24,failed,0,,Failed to scrape any articles
+40,Eagle Country 99.3,eaglecountryonline.com,2025-11-16 22:54:02,failed,0,,Failed to scrape any articles
+43,Just Jared,justjared.com,2025-11-16 22:55:09,failed,0,,Failed to scrape any articles
+44,Rimix Radio,rimixradio.com,2025-11-16 22:58:19,failed,0,,Failed to scrape any articles
+47,The Poke,thepoke.co.uk,2025-11-16 22:58:52,failed,0,,No article links detected on homepage
+50,Celeb Dirty Laundry,celebdirtylaundry.com,2025-11-16 23:00:09,failed,0,,Failed to scrape any articles
+51,Over60,oversixty.com.au,2025-11-16 23:02:10,failed,0,,Failed to scrape any articles
+52,Quad Cities,quadcities.com,2025-11-16 23:05:40,failed,0,,Failed to scrape any articles
+53,Gematsu,gematsu.com,2025-11-16 23:06:37,failed,0,,Failed to scrape any articles
+55,Jedi News,jedinews.co.uk,2025-11-16 23:07:12,failed,0,,No article links detected on homepage
+59,Talking Rugby Union (TRU),talkingrugbyunion.co.uk,2025-11-16 23:10:08,failed,0,,Failed to scrape any articles
+60,AllHipHop,allhiphop.com,2025-11-16 23:12:23,failed,0,,Failed to scrape any articles
+61,Mom and More,momandmore.com,2025-11-16 23:15:41,failed,0,,Failed to scrape any articles
+64,IMBOLDN,imboldn.com,2025-11-16 23:17:24,failed,0,,Failed to scrape any articles
+72,RNZ,radionz.co.nz,2025-11-16 23:18:21,failed,0,,Failed to scrape any articles
+74,Manx Radio,manxradio.com,2025-11-16 23:19:35,failed,0,,Failed to scrape any articles
+75,Derry Daily,derrydaily.net,2025-11-16 23:20:38,failed,0,,Failed to scrape any articles
+76,Indiana Public Media,indianapublicmedia.org,2025-11-16 23:21:16,failed,0,,Failed to scrape any articles
+78,I Creative Ideas,icreativeideas.com,2025-11-16 23:22:23,failed,0,,Failed to scrape any articles
+81,Newsdakota.com,newsdakota.com,2025-11-16 23:24:41,failed,0,,Failed to scrape any articles
+84,Essex Media Group,itemlive.com,2025-11-16 23:25:39,failed,0,,Failed to scrape any articles
+85,MageeNews.com,mageenews.com,2025-11-16 23:26:45,failed,0,,Failed to scrape any articles
+87,TheBigLead,thebiglead.com,2025-11-16 23:27:54,failed,0,,Failed to scrape any articles
+88,EventHubs,eventhubs.com,2025-11-16 23:28:58,failed,0,,Failed to scrape any articles
+89,Wdtv,wdtv.com,2025-11-16 23:29:55,failed,0,,Failed to scrape any articles
+90,Thecryptobasic,thecryptobasic.com,2025-11-16 23:30:51,failed,0,,Failed to scrape any articles
+92,FOX 24 Charleston,foxcharleston.com,2025-11-16 23:32:11,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/fox-24-charleston.xml,
+93,The Manual,themanual.com,2025-11-16 23:33:18,failed,0,,Failed to scrape any articles
+95,NewsChannel 10,newschannel10.com,2025-11-16 23:34:23,failed,0,,Failed to scrape any articles
+96,GBnews24,gbnews24.com,2025-11-16 23:38:09,failed,0,,Failed to scrape any articles
+97,"Heritage Media Of Kentucky, Inc",k105.com,2025-11-16 23:41:54,failed,0,,Failed to scrape any articles
+98,Ziarul Românesc,ziarulromanesc.net,2025-11-16 23:43:00,failed,0,,Failed to scrape any articles
+99,Bounding Into Comics,boundingintocomics.com,2025-11-16 23:44:18,failed,0,,Failed to scrape any articles
+102,Londynek.net,londynek.net,2025-11-16 23:45:33,failed,0,,Failed to scrape any articles
+104,News 12,wrdw.com,2025-11-16 23:46:35,failed,0,,Failed to scrape any articles
+105,MyMMANews.com,mymmanews.com,2025-11-16 23:47:50,failed,0,,Failed to scrape any articles
+106,FOX 8,fox8live.com,2025-11-16 23:49:35,failed,0,,Failed to scrape any articles
+107,Albumism,albumism.com,2025-11-16 23:50:56,failed,0,,Failed to scrape any articles
+108,Kiss Binghamton,kissbinghamton.com,2025-11-16 23:52:19,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kiss-binghamton.xml,
+110,The Fandom Post,fandompost.com,2025-11-16 23:53:30,failed,0,,Failed to scrape any articles
+111,Ruck Rugby Limited,ruck.co.uk,2025-11-16 23:55:45,failed,0,,Failed to scrape any articles
+113,BangShift.com,bangshift.com,2025-11-16 23:56:57,failed,0,,Failed to scrape any articles
+114,Wisden Cricket,wisden.com,2025-11-16 23:58:10,failed,0,,Failed to scrape any articles
+115,AcheiUSA,acheiusa.com,2025-11-16 23:59:13,failed,0,,Failed to scrape any articles
+118,Agrios Ltd,farminguk.com,2025-11-17 00:00:22,failed,0,,Failed to scrape any articles
+120,Coleraine Chronicle,colerainechronicle.co.uk,2025-11-17 00:00:56,failed,0,,No links found on homepage
+122,KTVB,ktvb.com,2025-11-17 00:02:14,failed,0,,Failed to scrape any articles
+123,KBTX,kbtx.com,2025-11-17 00:05:22,failed,0,,Failed to scrape any articles
+126,BlackSportsOnline,blacksportsonline.com,2025-11-17 00:07:21,failed,0,,Failed to scrape any articles
+127,EDM Identity,edmidentity.com,2025-11-17 00:08:23,failed,0,,Failed to scrape any articles
+128,Awful Announcing,awfulannouncing.com,2025-11-17 00:11:07,failed,0,,Failed to scrape any articles
+130,Motorsport Week,motorsportweek.com,2025-11-17 00:12:33,failed,0,,Failed to scrape any articles
+131,América TeVe,americateve.com,2025-11-17 00:13:29,failed,0,,Failed to scrape any articles
+132,Rangers FC,rangers.co.uk,2025-11-17 00:14:39,failed,0,,Failed to scrape any articles
+133,Mactrast,mactrast.com,2025-11-17 00:18:50,failed,0,,Failed to scrape any articles
+135,411Mania,411mania.com,2025-11-17 00:21:50,failed,0,,Failed to scrape any articles
+136,Awareness Act,awarenessact.com,2025-11-17 00:23:04,failed,0,,Failed to scrape any articles
+137,Bleeding Cool,bleedingcool.com,2025-11-17 00:25:58,failed,0,,Failed to scrape any articles
+139,The Hard Tackle,thehardtackle.com,2025-11-17 00:26:59,failed,0,,Failed to scrape any articles
+140,Comic Watch,comic-watch.com,2025-11-17 00:31:37,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
+144,MSPoweruser.com,mspoweruser.com,2025-11-17 00:38:59,failed,0,,Failed to scrape any articles
+145,Soccer Publishing Limited,thisisanfield.com,2025-11-17 00:40:06,failed,0,,Failed to scrape any articles
+147,Region 8 News,kait8.com,2025-11-17 00:41:32,failed,0,,Failed to scrape any articles
+148,"American Football International, LLC",americanfootballinternational.com,2025-11-17 00:43:14,success,6,https://swelbyboy.github.io/prospect-rss-feeds/feeds/american-football-international--llc.xml,
+149,Ink Free News,inkfreenews.com,2025-11-17 00:44:43,failed,0,,Failed to scrape any articles
+151,РаботникМК,rabotnik.com.mk,2025-11-17 00:47:00,failed,0,,Failed to scrape any articles
+152,LNGIndustry,lngindustry.com,2025-11-17 00:47:42,failed,0,,No links found on homepage
+153,https://www.vavel.com/en-us/,vavel.com,2025-11-17 00:50:45,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/https---www-vavel-com-en-us.xml,
+154,DailyFaceoff.com,dailyfaceoff.com,2025-11-17 00:52:13,failed,0,,Failed to scrape any articles
+155,The Market Herald,themarketherald.com.au,2025-11-17 00:53:00,failed,0,,No article links detected on homepage
+156,Trusted Reviews,trustedreviews.com,2025-11-17 00:54:27,failed,0,,Failed to scrape any articles
+157,WOUB Public Media,woub.org,2025-11-17 00:56:01,failed,0,,Failed to scrape any articles
+158,Distinctly Montana,distinctlymontana.com,2025-11-17 00:57:04,failed,0,,Failed to scrape any articles
+160,Noticia Cristiana,noticiacristiana.com,2025-11-17 00:58:15,failed,0,,Failed to scrape any articles
+161,Motorcycle.com,motorcycle.com,2025-11-17 00:59:21,failed,0,,Failed to scrape any articles
+163,Wrestleview.com,wrestleview.com,2025-11-17 01:00:27,failed,0,,Failed to scrape any articles
+164,Oyungg,savebutonu.com,2025-11-17 01:01:53,failed,0,,Failed to scrape any articles
+166,Wect,wect.com,2025-11-17 01:03:25,failed,0,,Failed to scrape any articles
+167,DESblitz,desiblitz.com,2025-11-17 01:05:35,failed,0,,Failed to scrape any articles
+168,Fitness Gurls,fitnessgurls.com,2025-11-17 01:07:50,failed,0,,Failed to scrape any articles
+169,WMBF News,wmbfnews.com,2025-11-17 01:11:34,failed,0,,Failed to scrape any articles
+170,The Nerd Stash,thenerdstash.com,2025-11-17 01:12:51,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-nerd-stash.xml,
