@@ -12,6 +12,7 @@ import hashlib
 from datetime import datetime
 from urllib.parse import urlparse
 import re
+import html
 
 
 class RSSTransformer:
@@ -89,6 +90,9 @@ class RSSTransformer:
                 title = entry.get('title', '').strip()
             if not title:
                 return None
+            
+            # Decode HTML entities from title
+            title = html.unescape(title)
 
             # Extract description - prioritize OG data
             description = og_data.get('description') if og_data else None
@@ -100,7 +104,7 @@ class RSSTransformer:
                 elif 'content' in entry and len(entry.content) > 0:
                     description = entry.content[0].get('value', '')
 
-            # Clean HTML tags from description
+            # Clean HTML tags and entities from description
             description = self._clean_html(description)
             description = description[:500].strip()  # Limit length
 
@@ -143,20 +147,15 @@ class RSSTransformer:
             return None
 
     def _clean_html(self, text):
-        """Remove HTML tags and decode entities."""
+        """Remove HTML tags and decode ALL HTML entities."""
         if not text:
             return ''
 
         # Remove HTML tags
         text = re.sub(r'<[^>]+>', '', text)
 
-        # Decode common HTML entities
-        text = text.replace('&nbsp;', ' ')
-        text = text.replace('&amp;', '&')
-        text = text.replace('&lt;', '<')
-        text = text.replace('&gt;', '>')
-        text = text.replace('&quot;', '"')
-        text = text.replace('&#39;', "'")
+        # Decode ALL HTML entities (handles &#038;, &hellip;, &#8217;, etc.)
+        text = html.unescape(text)
 
         # Clean up whitespace
         text = re.sub(r'\s+', ' ', text)
@@ -198,7 +197,8 @@ class RSSTransformer:
             for pattern in title_patterns:
                 match = re.search(pattern, response.text, re.IGNORECASE)
                 if match:
-                    og_data['title'] = match.group(1)
+                    # Decode HTML entities from OG title
+                    og_data['title'] = html.unescape(match.group(1))
                     break
 
             # Look for og:description
@@ -212,7 +212,8 @@ class RSSTransformer:
             for pattern in desc_patterns:
                 match = re.search(pattern, response.text, re.IGNORECASE)
                 if match:
-                    og_data['description'] = match.group(1)
+                    # Decode HTML entities from OG description
+                    og_data['description'] = html.unescape(match.group(1))
                     break
 
             # Look for og:image
