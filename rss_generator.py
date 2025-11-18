@@ -40,7 +40,7 @@ class RSSFeedGenerator:
         # Set feed metadata
         company_name = prospect_data['company_name']
         domain = prospect_data['domain']
-        feed_url = f"{Config.get_rss_base_url()}/feeds/{self._get_feed_filename(prospect_data)}"
+        feed_url = f"{Config.get_rss_base_url()}/{self._get_feed_filename(prospect_data)}"
 
         fg.id(feed_url)
         fg.title(f"{company_name} - Article Feed")
@@ -145,7 +145,7 @@ class RSSFeedGenerator:
             str: Public RSS feed URL
         """
         filename = self._get_feed_filename(prospect_data)
-        return f"{Config.get_rss_base_url()}/feeds/{filename}"
+        return f"{Config.get_rss_base_url()}/{filename}"
 
 
 if __name__ == "__main__":

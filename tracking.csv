@@ -1,106 +1,73 @@
-prospect_id,company_name,domain,last_scrape_date,status,articles_found,rss_url,error_message
-1,Rugby Addict,rugby-addict.com,2025-11-16 22:12:30,failed,0,,Failed to scrape any articles
-2,UCLA,ucla.edu,2025-11-16 22:14:32,failed,0,,Failed to scrape any articles
-3,Pacific Media Group,pmghawaii.com,2025-11-16 22:15:39,failed,0,,Failed to scrape any articles
-7,3FM,three.fm,2025-11-16 22:16:45,failed,0,,Failed to scrape any articles
-8,It's Gone Viral,igvofficial.com,2025-11-16 22:21:13,failed,0,,Failed to scrape any articles
-10,Haystack News,haystack.tv,2025-11-16 22:25:15,failed,0,,Failed to scrape any articles
-11,London Bangla Ltd,lb24.tv,2025-11-16 22:25:52,failed,0,,No article links detected on homepage
-12,SamMobile.com,sammobile.com,2025-11-16 22:27:05,failed,0,,Failed to scrape any articles
-14,Isle of Wight Radio,iwradio.co.uk,2025-11-16 22:28:09,failed,0,,Failed to scrape any articles
-15,The Richmond Observer,richmondobserver.com,2025-11-16 22:29:15,failed,0,,Failed to scrape any articles
-18,KTTN,kttn.com,2025-11-16 22:31:15,failed,0,,Failed to scrape any articles
-22,Chinese Herald,chineseherald.co.nz,2025-11-16 22:32:40,failed,0,,Failed to scrape any articles
-23,Gay Times,gaytimes.co.uk,2025-11-16 22:33:20,failed,0,,Failed to scrape any articles
-24,Catchfence,catchfence.com,2025-11-16 22:36:21,failed,0,,Failed to scrape any articles
-25,Eleven Warriors,elevenwarriors.com,2025-11-16 22:37:20,failed,0,,Failed to scrape any articles
-27,Farmers Guardian,farmersguardian.com,2025-11-16 22:39:10,failed,0,,Failed to scrape any articles
-28,Crime Online,crimeonline.com,2025-11-16 22:40:10,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/crime-online.xml,
-29,Best Little Sites,comicbookmovie.com,2025-11-16 22:41:07,failed,0,,Failed to scrape any articles
-33,Ringside News,ringsidenews.com,2025-11-16 22:42:10,failed,0,,Failed to scrape any articles
-35,Pulse 2.0,pulse2.com,2025-11-16 22:44:43,success,5,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pulse-2-0.xml,
-36,Cricket Australia,cricketaustralia.com.au,2025-11-16 22:45:17,failed,0,,No article links detected on homepage
-37,KnowTechie,knowtechie.com,2025-11-16 22:46:13,failed,0,,Failed to scrape any articles
-38,Londra Gazete,londragazete.com,2025-11-16 22:47:15,failed,0,,Failed to scrape any articles
-39,Vital MTB,vitalmtb.com,2025-11-16 22:48:24,failed,0,,Failed to scrape any articles
-40,Eagle Country 99.3,eaglecountryonline.com,2025-11-16 22:54:02,failed,0,,Failed to scrape any articles
-43,Just Jared,justjared.com,2025-11-16 22:55:09,failed,0,,Failed to scrape any articles
-44,Rimix Radio,rimixradio.com,2025-11-16 22:58:19,failed,0,,Failed to scrape any articles
-47,The Poke,thepoke.co.uk,2025-11-16 22:58:52,failed,0,,No article links detected on homepage
-50,Celeb Dirty Laundry,celebdirtylaundry.com,2025-11-16 23:00:09,failed,0,,Failed to scrape any articles
-51,Over60,oversixty.com.au,2025-11-16 23:02:10,failed,0,,Failed to scrape any articles
-52,Quad Cities,quadcities.com,2025-11-16 23:05:40,failed,0,,Failed to scrape any articles
-53,Gematsu,gematsu.com,2025-11-16 23:06:37,failed,0,,Failed to scrape any articles
-55,Jedi News,jedinews.co.uk,2025-11-16 23:07:12,failed,0,,No article links detected on homepage
-59,Talking Rugby Union (TRU),talkingrugbyunion.co.uk,2025-11-16 23:10:08,failed,0,,Failed to scrape any articles
-60,AllHipHop,allhiphop.com,2025-11-16 23:12:23,failed,0,,Failed to scrape any articles
-61,Mom and More,momandmore.com,2025-11-16 23:15:41,failed,0,,Failed to scrape any articles
-64,IMBOLDN,imboldn.com,2025-11-16 23:17:24,failed,0,,Failed to scrape any articles
-72,RNZ,radionz.co.nz,2025-11-16 23:18:21,failed,0,,Failed to scrape any articles
-74,Manx Radio,manxradio.com,2025-11-16 23:19:35,failed,0,,Failed to scrape any articles
-75,Derry Daily,derrydaily.net,2025-11-16 23:20:38,failed,0,,Failed to scrape any articles
-76,Indiana Public Media,indianapublicmedia.org,2025-11-16 23:21:16,failed,0,,Failed to scrape any articles
-78,I Creative Ideas,icreativeideas.com,2025-11-16 23:22:23,failed,0,,Failed to scrape any articles
-81,Newsdakota.com,newsdakota.com,2025-11-16 23:24:41,failed,0,,Failed to scrape any articles
-84,Essex Media Group,itemlive.com,2025-11-16 23:25:39,failed,0,,Failed to scrape any articles
-85,MageeNews.com,mageenews.com,2025-11-16 23:26:45,failed,0,,Failed to scrape any articles
-87,TheBigLead,thebiglead.com,2025-11-16 23:27:54,failed,0,,Failed to scrape any articles
-88,EventHubs,eventhubs.com,2025-11-16 23:28:58,failed,0,,Failed to scrape any articles
-89,Wdtv,wdtv.com,2025-11-16 23:29:55,failed,0,,Failed to scrape any articles
-90,Thecryptobasic,thecryptobasic.com,2025-11-16 23:30:51,failed,0,,Failed to scrape any articles
-92,FOX 24 Charleston,foxcharleston.com,2025-11-16 23:32:11,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/fox-24-charleston.xml,
-93,The Manual,themanual.com,2025-11-16 23:33:18,failed,0,,Failed to scrape any articles
-95,NewsChannel 10,newschannel10.com,2025-11-16 23:34:23,failed,0,,Failed to scrape any articles
-96,GBnews24,gbnews24.com,2025-11-16 23:38:09,failed,0,,Failed to scrape any articles
-97,"Heritage Media Of Kentucky, Inc",k105.com,2025-11-16 23:41:54,failed,0,,Failed to scrape any articles
-98,Ziarul Românesc,ziarulromanesc.net,2025-11-16 23:43:00,failed,0,,Failed to scrape any articles
-99,Bounding Into Comics,boundingintocomics.com,2025-11-16 23:44:18,failed,0,,Failed to scrape any articles
-102,Londynek.net,londynek.net,2025-11-16 23:45:33,failed,0,,Failed to scrape any articles
-104,News 12,wrdw.com,2025-11-16 23:46:35,failed,0,,Failed to scrape any articles
-105,MyMMANews.com,mymmanews.com,2025-11-16 23:47:50,failed,0,,Failed to scrape any articles
-106,FOX 8,fox8live.com,2025-11-16 23:49:35,failed,0,,Failed to scrape any articles
-107,Albumism,albumism.com,2025-11-16 23:50:56,failed,0,,Failed to scrape any articles
-108,Kiss Binghamton,kissbinghamton.com,2025-11-16 23:52:19,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kiss-binghamton.xml,
-110,The Fandom Post,fandompost.com,2025-11-16 23:53:30,failed,0,,Failed to scrape any articles
-111,Ruck Rugby Limited,ruck.co.uk,2025-11-16 23:55:45,failed,0,,Failed to scrape any articles
-113,BangShift.com,bangshift.com,2025-11-16 23:56:57,failed,0,,Failed to scrape any articles
-114,Wisden Cricket,wisden.com,2025-11-16 23:58:10,failed,0,,Failed to scrape any articles
-115,AcheiUSA,acheiusa.com,2025-11-16 23:59:13,failed,0,,Failed to scrape any articles
-118,Agrios Ltd,farminguk.com,2025-11-17 00:00:22,failed,0,,Failed to scrape any articles
-120,Coleraine Chronicle,colerainechronicle.co.uk,2025-11-17 00:00:56,failed,0,,No links found on homepage
-122,KTVB,ktvb.com,2025-11-17 00:02:14,failed,0,,Failed to scrape any articles
-123,KBTX,kbtx.com,2025-11-17 00:05:22,failed,0,,Failed to scrape any articles
-126,BlackSportsOnline,blacksportsonline.com,2025-11-17 00:07:21,failed,0,,Failed to scrape any articles
-127,EDM Identity,edmidentity.com,2025-11-17 00:08:23,failed,0,,Failed to scrape any articles
-128,Awful Announcing,awfulannouncing.com,2025-11-17 00:11:07,failed,0,,Failed to scrape any articles
-130,Motorsport Week,motorsportweek.com,2025-11-17 00:12:33,failed,0,,Failed to scrape any articles
-131,América TeVe,americateve.com,2025-11-17 00:13:29,failed,0,,Failed to scrape any articles
-132,Rangers FC,rangers.co.uk,2025-11-17 00:14:39,failed,0,,Failed to scrape any articles
-133,Mactrast,mactrast.com,2025-11-17 00:18:50,failed,0,,Failed to scrape any articles
-135,411Mania,411mania.com,2025-11-17 00:21:50,failed,0,,Failed to scrape any articles
-136,Awareness Act,awarenessact.com,2025-11-17 00:23:04,failed,0,,Failed to scrape any articles
-137,Bleeding Cool,bleedingcool.com,2025-11-17 00:25:58,failed,0,,Failed to scrape any articles
-139,The Hard Tackle,thehardtackle.com,2025-11-17 00:26:59,failed,0,,Failed to scrape any articles
-140,Comic Watch,comic-watch.com,2025-11-17 00:31:37,failed,0,,Scraping error: Failed to scrape URL. Status code: 408. Error: Scrape timed out after waiting in the concurrency limit queue
-144,MSPoweruser.com,mspoweruser.com,2025-11-17 00:38:59,failed,0,,Failed to scrape any articles
-145,Soccer Publishing Limited,thisisanfield.com,2025-11-17 00:40:06,failed,0,,Failed to scrape any articles
-147,Region 8 News,kait8.com,2025-11-17 00:41:32,failed,0,,Failed to scrape any articles
-148,"American Football International, LLC",americanfootballinternational.com,2025-11-17 00:43:14,success,6,https://swelbyboy.github.io/prospect-rss-feeds/feeds/american-football-international--llc.xml,
-149,Ink Free News,inkfreenews.com,2025-11-17 00:44:43,failed,0,,Failed to scrape any articles
-151,РаботникМК,rabotnik.com.mk,2025-11-17 00:47:00,failed,0,,Failed to scrape any articles
-152,LNGIndustry,lngindustry.com,2025-11-17 00:47:42,failed,0,,No links found on homepage
-153,https://www.vavel.com/en-us/,vavel.com,2025-11-17 00:50:45,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/https---www-vavel-com-en-us.xml,
-154,DailyFaceoff.com,dailyfaceoff.com,2025-11-17 00:52:13,failed,0,,Failed to scrape any articles
-155,The Market Herald,themarketherald.com.au,2025-11-17 00:53:00,failed,0,,No article links detected on homepage
-156,Trusted Reviews,trustedreviews.com,2025-11-17 00:54:27,failed,0,,Failed to scrape any articles
-157,WOUB Public Media,woub.org,2025-11-17 00:56:01,failed,0,,Failed to scrape any articles
-158,Distinctly Montana,distinctlymontana.com,2025-11-17 00:57:04,failed,0,,Failed to scrape any articles
-160,Noticia Cristiana,noticiacristiana.com,2025-11-17 00:58:15,failed,0,,Failed to scrape any articles
-161,Motorcycle.com,motorcycle.com,2025-11-17 00:59:21,failed,0,,Failed to scrape any articles
-163,Wrestleview.com,wrestleview.com,2025-11-17 01:00:27,failed,0,,Failed to scrape any articles
-164,Oyungg,savebutonu.com,2025-11-17 01:01:53,failed,0,,Failed to scrape any articles
-166,Wect,wect.com,2025-11-17 01:03:25,failed,0,,Failed to scrape any articles
-167,DESblitz,desiblitz.com,2025-11-17 01:05:35,failed,0,,Failed to scrape any articles
-168,Fitness Gurls,fitnessgurls.com,2025-11-17 01:07:50,failed,0,,Failed to scrape any articles
-169,WMBF News,wmbfnews.com,2025-11-17 01:11:34,failed,0,,Failed to scrape any articles
-170,The Nerd Stash,thenerdstash.com,2025-11-17 01:12:51,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-nerd-stash.xml,
+prospect_id,company_name,domain,last_scrape_date,status,articles_found,rss_url,error_message,data_source
+1,Rugby Addict,rugby-addict.com,2025-11-18 11:50:47,failed,0,,HTTP 500,N/A
+3,Pacific Media Group,pmghawaii.com,2025-11-18 11:50:49,success,6,https://swelbyboy.github.io/prospect-rss-feeds/pacific-media-group.xml,,OG
+8,It's Gone Viral,igvofficial.com,2025-11-18 11:50:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/it-s-gone-viral.xml,,OG
+12,SamMobile.com,sammobile.com,2025-11-18 11:50:52,failed,0,,HTTP 500,N/A
+14,Isle of Wight Radio,iwradio.co.uk,2025-11-18 11:50:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/isle-of-wight-radio.xml,,OG
+18,KTTN,kttn.com,2025-11-18 11:51:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kttn.xml,,OG
+22,Chinese Herald,chineseherald.co.nz,2025-11-18 11:51:08,failed,0,,HTTP 500,N/A
+23,Gay Times,gaytimes.co.uk,2025-11-18 11:51:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gay-times.xml,,OG
+24,Catchfence,catchfence.com,2025-11-18 11:51:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/catchfence.xml,,OG
+25,Eleven Warriors,elevenwarriors.com,2025-11-18 11:51:23,success,10,https://swelbyboy.github.io/prospect-rss-feeds/eleven-warriors.xml,,OG
+28,Crime Online,crimeonline.com,2025-11-18 11:51:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/crime-online.xml,,OG
+29,Best Little Sites,comicbookmovie.com,2025-11-18 11:51:25,failed,0,,HTTP 500,N/A
+33,Ringside News,ringsidenews.com,2025-11-18 11:51:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ringside-news.xml,,OG
+35,Pulse 2.0,pulse2.com,2025-11-18 11:51:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/pulse-2-0.xml,,OG
+36,Cricket Australia,cricketaustralia.com.au,2025-11-18 11:51:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/cricket-australia.xml,,RSS
+37,KnowTechie,knowtechie.com,2025-11-18 11:51:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/knowtechie.xml,,OG
+38,Londra Gazete,londragazete.com,2025-11-18 11:51:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/londra-gazete.xml,,OG
+39,Vital MTB,vitalmtb.com,2025-11-18 11:51:38,failed,0,,No entries found in feed,N/A
+43,Just Jared,justjared.com,2025-11-18 11:51:41,success,10,https://swelbyboy.github.io/prospect-rss-feeds/just-jared.xml,,OG
+44,Rimix Radio,rimixradio.com,2025-11-18 11:52:02,success,10,https://swelbyboy.github.io/prospect-rss-feeds/rimix-radio.xml,,OG
+47,The Poke,thepoke.co.uk,2025-11-18 11:52:02,failed,0,,HTTP 500,N/A
+50,Celeb Dirty Laundry,celebdirtylaundry.com,2025-11-18 11:52:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/celeb-dirty-laundry.xml,,OG
+51,Over60,oversixty.com.au,2025-11-18 11:52:20,success,2,https://swelbyboy.github.io/prospect-rss-feeds/over60.xml,,OG
+52,Quad Cities,quadcities.com,2025-11-18 11:52:23,success,10,https://swelbyboy.github.io/prospect-rss-feeds/quad-cities.xml,,OG
+53,Gematsu,gematsu.com,2025-11-18 11:52:23,failed,0,,HTTP 500,N/A
+60,AllHipHop,allhiphop.com,2025-11-18 11:52:23,failed,0,,HTTP 500,N/A
+61,Mom and More,momandmore.com,2025-11-18 11:52:23,failed,0,,HTTP 500,N/A
+64,IMBOLDN,imboldn.com,2025-11-18 11:52:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/imboldn.xml,,OG
+75,Derry Daily,derrydaily.net,2025-11-18 11:52:29,failed,0,,HTTP 500,N/A
+76,Indiana Public Media,indianapublicmedia.org,2025-11-18 11:52:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/indiana-public-media.xml,,OG
+78,I Creative Ideas,icreativeideas.com,2025-11-18 11:52:35,success,8,https://swelbyboy.github.io/prospect-rss-feeds/i-creative-ideas.xml,,OG
+81,Newsdakota.com,newsdakota.com,2025-11-18 11:52:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/newsdakota-com.xml,,OG
+84,Essex Media Group,itemlive.com,2025-11-18 11:52:46,failed,0,,HTTP 500,N/A
+85,MageeNews.com,mageenews.com,2025-11-18 11:52:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mageenews-com.xml,,OG
+87,TheBigLead,thebiglead.com,2025-11-18 11:52:57,failed,0,,HTTP 500,N/A
+88,EventHubs,eventhubs.com,2025-11-18 11:53:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/eventhubs.xml,,OG
+90,Thecryptobasic,thecryptobasic.com,2025-11-18 11:53:13,success,10,https://swelbyboy.github.io/prospect-rss-feeds/thecryptobasic.xml,,OG
+92,FOX 24 Charleston,foxcharleston.com,2025-11-18 11:53:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/fox-24-charleston.xml,,OG
+93,The Manual,themanual.com,2025-11-18 11:53:17,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-manual.xml,,OG
+97,"Heritage Media Of Kentucky, Inc",k105.com,2025-11-18 11:53:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/heritage-media-of-kentucky--inc.xml,,OG
+98,Ziarul Românesc,ziarulromanesc.net,2025-11-18 11:53:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ziarul-românesc.xml,,OG
+99,Bounding Into Comics,boundingintocomics.com,2025-11-18 11:53:27,failed,0,,HTTP 500,N/A
+105,MyMMANews.com,mymmanews.com,2025-11-18 11:53:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mymmanews-com.xml,,OG
+108,Kiss Binghamton,kissbinghamton.com,2025-11-18 11:53:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kiss-binghamton.xml,,OG
+110,The Fandom Post,fandompost.com,2025-11-18 11:53:48,failed,0,,HTTP 500,N/A
+113,BangShift.com,bangshift.com,2025-11-18 11:53:48,failed,0,,HTTP 500,N/A
+115,AcheiUSA,acheiusa.com,2025-11-18 11:53:58,success,10,https://swelbyboy.github.io/prospect-rss-feeds/acheiusa.xml,,OG
+126,BlackSportsOnline,blacksportsonline.com,2025-11-18 11:54:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/blacksportsonline.xml,,OG
+127,EDM Identity,edmidentity.com,2025-11-18 11:54:01,failed,0,,HTTP 500,N/A
+128,Awful Announcing,awfulannouncing.com,2025-11-18 11:54:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/awful-announcing.xml,,OG
+130,Motorsport Week,motorsportweek.com,2025-11-18 11:54:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/motorsport-week.xml,,OG
+133,Mactrast,mactrast.com,2025-11-18 11:54:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mactrast.xml,,OG
+135,411Mania,411mania.com,2025-11-18 11:54:33,failed,0,,HTTP 500,N/A
+136,Awareness Act,awarenessact.com,2025-11-18 11:54:33,failed,0,,HTTP 500,N/A
+137,Bleeding Cool,bleedingcool.com,2025-11-18 11:54:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/bleeding-cool.xml,,OG
+139,The Hard Tackle,thehardtackle.com,2025-11-18 11:54:35,failed,0,,HTTP 500,N/A
+140,Comic Watch,comic-watch.com,2025-11-18 11:54:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/comic-watch.xml,,OG
+144,MSPoweruser.com,mspoweruser.com,2025-11-18 11:54:40,failed,0,,HTTP 500,N/A
+145,Soccer Publishing Limited,thisisanfield.com,2025-11-18 11:54:41,failed,0,,HTTP 500,N/A
+148,"American Football International, LLC",americanfootballinternational.com,2025-11-18 11:54:41,failed,0,,HTTP 500,N/A
+149,Ink Free News,inkfreenews.com,2025-11-18 11:54:41,failed,0,,HTTP 500,N/A
+154,DailyFaceoff.com,dailyfaceoff.com,2025-11-18 11:54:41,failed,0,,HTTP 500,N/A
+155,The Market Herald,themarketherald.com.au,2025-11-18 11:54:41,failed,0,,HTTP 500,N/A
+156,Trusted Reviews,trustedreviews.com,2025-11-18 11:54:41,failed,0,,HTTP 500,N/A
+157,WOUB Public Media,woub.org,2025-11-18 11:54:42,failed,0,,HTTP 500,N/A
+158,Distinctly Montana,distinctlymontana.com,2025-11-18 11:54:42,failed,0,,HTTP 500,N/A
+160,Noticia Cristiana,noticiacristiana.com,2025-11-18 11:54:42,failed,0,,HTTP 500,N/A
+163,Wrestleview.com,wrestleview.com,2025-11-18 11:54:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/wrestleview-com.xml,,OG
+164,Oyungg,savebutonu.com,2025-11-18 11:54:47,success,8,https://swelbyboy.github.io/prospect-rss-feeds/oyungg.xml,,OG
+167,DESblitz,desiblitz.com,2025-11-18 11:54:47,failed,0,,HTTP 500,N/A
+168,Fitness Gurls,fitnessgurls.com,2025-11-18 11:54:49,success,3,https://swelbyboy.github.io/prospect-rss-feeds/fitness-gurls.xml,,OG
+170,The Nerd Stash,thenerdstash.com,2025-11-18 11:54:49,failed,0,,HTTP 500,N/A
