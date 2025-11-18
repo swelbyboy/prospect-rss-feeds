@@ -6,6 +6,7 @@ Creates RFC-compliant RSS 2.0 feeds for scraped articles.
 import os
 from datetime import datetime, timezone
 from feedgen.feed import FeedGenerator
+from xml.sax.saxutils import escape
 from config import Config
 
 
@@ -55,15 +56,19 @@ class RSSFeedGenerator:
         for article in articles:
             fe = fg.add_entry()
             fe.id(article['link'])
-            fe.title(article['title'])
+            
+            # Escape XML special characters in title and description
+            # This ensures & becomes &amp;, < becomes &lt;, etc.
+            title = escape(article['title'])
+            fe.title(title)
             fe.link(href=article['link'])
 
-            # Set description
+            # Set description with XML escaping
             description = article.get('description', '')
             if description:
-                fe.description(description)
+                fe.description(escape(description))
             else:
-                fe.description(article['title'])
+                fe.description(title)
 
             # Set image as enclosure if available
             image_url = article.get('image_url', '')
