@@ -2,21 +2,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>EventHubs - Article Feed</title>
-    <link>https://swelbyboy.github.io/prospect-rss-feeds/feeds/eventhubs.xml</link>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/eventhubs.xml</link>
     <description>Latest articles from EventHubs (eventhubs.com)</description>
-    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/feeds/eventhubs.xml" rel="self"/>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/eventhubs.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Nov 2025 09:08:51 +0000</lastBuildDate>
-    <item>
-      <title>New 2XKO charts reveal stats for highest ranked characters, teams and fuses with an interesting fact about Ekko in particular</title>
-      <link>https://www.eventhubs.com/news/2025/nov/16/2xko-stats-ranked-characters-teams/</link>
-      <description>2XKO launched in early access a bit over a month ago, and some things are shaping up quite a bit differently than the closed beta while others not so much.The Challenger rank makes up the top 275 players or ...</description>
-      <guid isPermaLink="false">https://www.eventhubs.com/news/2025/nov/16/2xko-stats-ranked-characters-teams/</guid>
-      <enclosure url="https://media.eventhubs.com/images/2025/11/14-2xko-statst.webp" length="0" type="image/webp"/>
-      <pubDate>Sun, 16 Nov 2025 20:02:14 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 18 Nov 2025 11:53:01 +0000</lastBuildDate>
     <item>
       <title>Street Fighter League Pro-US 2025 early results, stream ft. MenaRD, Xiaohai, Punk, Blaz, DualKevin, Nephew, Craime, Vxbao, Zhen, NuckleDu and more</title>
       <link>https://www.eventhubs.com/news/2025/nov/13/street-fighter-league-us-results/</link>
@@ -88,6 +80,14 @@
       <guid isPermaLink="false">https://www.eventhubs.com/news/2025/nov/17/daigo-sf6-akuma-10000-stamina/</guid>
       <enclosure url="https://media.eventhubs.com/images/2025/11/16_akuma-10k-bnrt.webp" length="0" type="image/webp"/>
       <pubDate>Tue, 18 Nov 2025 03:05:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Street Fighter League Pro-JP 2025 live stream ft. Leshar, Gachikun, Kawano, Pugera, YHC-Mochi, Fuudo, Momochi, Tokido, Go1, Bonchan, Momochi and more</title>
+      <link>https://www.eventhubs.com/news/2025/aug/28/street-fighter-league-japan-results/</link>
+      <description>Update: This story is being updated live with day 18 results as they occur.The Japanese Street Fighter League is kicking off again this year and will be going on for roughly three months until the end of November for ...</description>
+      <guid isPermaLink="false">https://www.eventhubs.com/news/2025/aug/28/street-fighter-league-japan-results/</guid>
+      <enclosure url="https://media.eventhubs.com/images/2025/08/29_sflbannert.webp" length="0" type="image/webp"/>
+      <pubDate>Tue, 18 Nov 2025 10:03:55 +0000</pubDate>
     </item>
   </channel>
 </rss>
