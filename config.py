@@ -27,7 +27,7 @@ class Config:
     SCRAPING_TIMEOUT = int(os.getenv('SCRAPING_TIMEOUT', 60))
 
     # File Paths
-    PROSPECTS_CSV = 'prospects.csv'
+    PROSPECTS_CSV = os.getenv('PROSPECTS_CSV', 'prospects.csv')
     TRACKING_CSV = 'tracking.csv'
     FEEDS_DIR = 'feeds'
     GITHUB_PAGES_DIR = 'github-pages-repo'

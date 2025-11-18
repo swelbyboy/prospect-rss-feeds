@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Main scraper orchestrator.
 Coordinates scraping, RSS generation, and publishing workflow.
@@ -14,6 +15,7 @@ from firecrawl import FirecrawlApp
 from config import Config
 from rss_generator import RSSFeedGenerator
 from github_publisher import GitHubPublisher
+from rss_transformer import RSSTransformer
 
 
 class ProspectScraper:
@@ -30,6 +32,7 @@ class ProspectScraper:
         self.firecrawl = FirecrawlApp(api_key=Config.FIRECRAWL_API_KEY)
         self.rss_generator = RSSFeedGenerator()
         self.github_publisher = GitHubPublisher()
+        self.rss_transformer = RSSTransformer()
         self.tracking_data = []
 
     def load_prospects(self):
@@ -56,7 +59,53 @@ class ProspectScraper:
 
     def scrape_articles(self, prospect):
         """
-        Scrape articles from a prospect's website using Firecrawl.
+        Scrape articles from a prospect's website.
+
+        Strategy:
+        1. Try RSS feed first if available (faster, cleaner)
+        2. Fall back to Firecrawl web scraping if no RSS or RSS fails
+
+        Args:
+            prospect (dict): Prospect information
+
+        Returns:
+            tuple: (success: bool, articles: list, error_message: str)
+        """
+        domain = prospect['domain']
+        company_name = prospect['company_name']
+        rss_feed = prospect.get('rss_feed', '').strip()
+
+        print(f"\n🔍 Scraping {company_name} ({domain})...")
+
+        # Try RSS first if available
+        if rss_feed:
+            print(f"   📡 Using RSS feed: {rss_feed}")
+            success, articles, error = self.rss_transformer.fetch_and_normalize(
+                rss_feed,
+                max_articles=Config.MAX_ARTICLES_PER_PROSPECT
+            )
+
+            if success:
+                # Convert RSS articles to our format
+                normalized_articles = []
+                for article in articles:
+                    normalized_articles.append({
+                        'link': article['link'],  # RSS generator expects 'link', not 'url'
+                        'title': article['title'],
+                        'description': article['description'],
+                        'image_url': article.get('image_url'),
+                        'published_date': article['pub_date']
+                    })
+                return True, normalized_articles, None
+            else:
+                print(f"   ⚠️  RSS fetch failed: {error}, falling back to web scraping...")
+
+        # Fall back to web scraping
+        return self._scrape_with_firecrawl(prospect)
+
+    def _scrape_with_firecrawl(self, prospect):
+        """
+        Scrape articles using Firecrawl (original method).
 
         Strategy:
         1. Scrape the homepage to find article links
@@ -72,7 +121,7 @@ class ProspectScraper:
         domain = prospect['domain']
         company_name = prospect['company_name']
 
-        print(f"\n🔍 Scraping {company_name} ({domain})...")
+        print(f"   🌐 Using web scraping (Firecrawl)...")
 
         try:
             # Ensure domain has protocol
@@ -88,22 +137,26 @@ class ProspectScraper:
                 'formats': ['markdown', 'links']
             }
 
-            # Retry with exponential backoff for queue timeout
+            # Retry with exponential backoff for transient errors
             max_retries = 3
             retry_delay = 10
             homepage_result = None
+            retryable_errors = ['408', '502', '500', 'timeout', 'server login']
 
             for attempt in range(max_retries):
                 try:
                     homepage_result = self.firecrawl.scrape_url(url, params=homepage_params)
                     break  # Success!
                 except Exception as e:
-                    if '408' in str(e) and attempt < max_retries - 1:
-                        print(f"   ⏳ Queue busy, waiting {retry_delay}s before retry {attempt + 2}/{max_retries}...")
+                    error_str = str(e).lower()
+                    is_retryable = any(err in error_str for err in retryable_errors)
+
+                    if is_retryable and attempt < max_retries - 1:
+                        print(f"   ⏳ Transient error, waiting {retry_delay}s before retry {attempt + 2}/{max_retries}...")
                         time.sleep(retry_delay)
                         retry_delay *= 2  # Exponential backoff
                     else:
-                        raise  # Re-raise if not a 408 or final attempt
+                        raise  # Re-raise if not retryable or final attempt
 
             if not homepage_result:
                 return False, [], "No data returned from homepage scrape"
@@ -129,15 +182,35 @@ class ProspectScraper:
 
             # Step 3: Scrape each article page
             articles = []
+            retryable_errors = ['408', '502', '500', 'timeout', 'server login']
+
             for idx, article_url in enumerate(article_urls, 1):
                 print(f"   📖 Scraping article {idx}/{len(article_urls)}...")
-                try:
-                    article_result = self.firecrawl.scrape_url(
-                        article_url,
-                        params={'formats': ['markdown']}
-                    )
 
-                    if article_result:
+                # Retry logic for individual articles
+                article_result = None
+                max_article_retries = 2  # Fewer retries per article
+                article_retry_delay = 5
+
+                for attempt in range(max_article_retries):
+                    try:
+                        article_result = self.firecrawl.scrape_url(
+                            article_url,
+                            params={'formats': ['markdown']}
+                        )
+                        break  # Success!
+                    except Exception as e:
+                        error_str = str(e).lower()
+                        is_retryable = any(err in error_str for err in retryable_errors)
+
+                        if is_retryable and attempt < max_article_retries - 1:
+                            print(f"   ⏳ Retrying article after {article_retry_delay}s...")
+                            time.sleep(article_retry_delay)
+                        elif attempt == max_article_retries - 1:
+                            print(f"   ⚠️  Failed to scrape article {idx}: {str(e)}")
+
+                if article_result:
+                    try:
                         metadata = article_result.get('metadata', {})
                         markdown_content = article_result.get('markdown', '')
 
@@ -153,13 +226,12 @@ class ProspectScraper:
                             'published_date': metadata.get('publishedTime'),
                             'image_url': metadata.get('ogImage') or metadata.get('image', '')
                         })
+                    except Exception as e:
+                        print(f"   ⚠️  Error processing article {idx}: {str(e)}")
+                        continue
 
-                    # Small delay to be nice to Firecrawl API
-                    time.sleep(1)
-
-                except Exception as e:
-                    print(f"   ⚠️  Failed to scrape article {idx}: {str(e)}")
-                    continue
+                # Small delay to be nice to Firecrawl API
+                time.sleep(1)
 
             if not articles:
                 print(f"   ⚠️  No articles scraped successfully for {company_name}")
@@ -195,10 +267,15 @@ class ProspectScraper:
             # Static/utility pages
             '/about', '/contact', '/privacy', '/terms', '/login',
             '/signup', '/register', '/search', '/subscribe', '/schedule',
-            '/disclaimer', '/advertise', '/advertising',
+            '/disclaimer', '/advertise', '/advertising', '/editorial',
+            '/masthead', '/staff', '/team',
             # Administrative
             '/tag/', '/category/', '/author/', '/page/', '/community/',
             '/feed', '/rss', '/api/', '/wp-admin', '/wp-content',
+            # Affiliate/commercial
+            '/out/', '/deals/', '/shop/', '/buy/', '/product/',
+            # Media/content types (match with or without trailing slash)
+            '/podcast', '/video/', '/videos/', '/gallery/', '/galleries/', '/photos/',
             # Media files
             '.pdf', '.jpg', '.png', '.gif', '.zip', '.xml', '.css', '.js',
             # External links
@@ -262,7 +339,7 @@ class ProspectScraper:
         """
         Validate that scraped content is a legitimate article suitable for a newsletter.
 
-        This is the PRIMARY filter - it must be thorough since URL filtering is minimal.
+        Strategy: Prioritize metadata signals over content heuristics for robust detection.
 
         Args:
             metadata (dict): Article metadata from Firecrawl
@@ -273,77 +350,150 @@ class ProspectScraper:
             bool: True if valid article, False otherwise
         """
         # Get title and description
-        title = metadata.get('title', '').lower()
-        description = metadata.get('description', '').lower()
+        raw_title = metadata.get('title', '')
+        title_lower = raw_title.lower()
+        description = metadata.get('description', '')
         url_lower = url.lower()
 
-        # 1. RED FLAGS IN TITLES - Explicit non-article indicators
-        non_article_title_patterns = [
-            'home', 'homepage', 'listen live', 'schedule', 'on air', 'on-air',
-            'what\'s on', 'events', 'calendar', 'win ', 'competition',
-            'subscribe', 'newsletter', 'contact us', 'about us',
-            'privacy policy', 'terms', 'cookie policy', 'smart speaker',
-            'advertise', 'careers', 'jobs', '404', 'not found',
-            'all articles', 'archive', 'sitemap', 'categories'
-        ]
+        # === CRITICAL FILTERS - Always reject these ===
 
-        for pattern in non_article_title_patterns:
-            if pattern in title:
-                return False
+        # 0. HOMEPAGE DETECTION
+        url_clean = url_lower.replace('https://', '').replace('http://', '').replace('www.', '').rstrip('/')
+        if '/' not in url_clean:
+            return False
 
-        # 2. RED FLAGS IN URLs - Common navigation patterns
-        url_navigation_patterns = [
+        # 1. OBVIOUS NON-ARTICLES BY URL
+        obvious_non_article_urls = [
+            '/about', '/contact', '/privacy', '/terms', '/login', '/signup',
+            '/subscribe', '/newsletter', '/advertise', '/careers', '/jobs',
             '/listen', '/schedule', '/on-air', '/calendar', '/events',
-            '/win-', '/competition', '/categories/', '/sections/',
-            '/archive', '/all-news', '/all-articles'
+            '/podcast', '/video/', '/videos/', '/gallery/', '/galleries/',
+            '/editorial', '/masthead', '/staff', '/team',
+            '/out/', '/deals/', '/shop/', '/buy/', '/product/'
         ]
+        if any(pattern in url_lower for pattern in obvious_non_article_urls):
+            return False
 
-        for pattern in url_navigation_patterns:
-            if pattern in url_lower:
+        # 2. OBVIOUS NON-ARTICLES BY TITLE
+        non_article_title_patterns = [
+            'home', 'homepage', 'listen live', 'contact us', 'about us',
+            'privacy policy', 'terms', 'subscribe', 'newsletter',
+            'advertise', 'careers', 'jobs', '404', 'not found',
+            'search results for', 'editorial guidelines', 'editorial policy',
+            'crime stories with nancy grace', 'podcast'
+        ]
+        if any(pattern in title_lower for pattern in non_article_title_patterns):
+            return False
+
+        # 3. EVERGREEN/BUYING GUIDE PATTERNS (even with good metadata)
+        evergreen_patterns = [
+            'best ', 'top ', ' in 202', ' guide', 'how to ',
+            'a brief history of', 'history of ', 'ultimate guide',
+            'complete guide', 'beginner\'s guide'
+        ]
+        for pattern in evergreen_patterns:
+            if pattern in title_lower:
+                # Additional check: if it's a "best" or "top" list AND has a year, likely evergreen
+                if ('best ' in title_lower or 'top ' in title_lower) and any(year in title_lower for year in ['2024', '2025', '2026']):
+                    return False
+                # "How to" guides, history articles
+                if pattern in ['how to ', 'a brief history of', 'history of ', 'complete guide', 'ultimate guide']:
+                    return False
+
+        # === METADATA VALIDATION - Trust structured data first ===
+
+        # Check for article metadata signals
+        has_published_date = bool(metadata.get('publishedTime') or metadata.get('published') or metadata.get('datePublished'))
+        has_og_type = metadata.get('ogType', '').lower() in ['article', 'blog', 'news']
+        has_description = len(description) > 30
+        metadata_score = 0
+        if has_og_type:
+            metadata_score += 2
+        if has_published_date:
+            metadata_score += 2
+        if has_description:
+            metadata_score += 1
+
+        # === URL PATTERN ANALYSIS - Articles have specific patterns ===
+
+        # Check for date in URL (e.g., /2025/11/09/ or /2025-11-09/)
+        import re
+        date_pattern = r'/(20\d{2})[-/](0?[1-9]|1[0-2])[-/](0?[1-9]|[12][0-9]|3[01])'
+        if re.search(date_pattern, url_lower):
+            # URLs with dates are almost always articles
+            return True
+
+        # Multi-segment URLs (3+ parts) are likely articles
+        url_path = url_lower.split('?')[0]
+        if '://' in url_path:
+            url_path = url_path.split('://', 1)[1]
+        if '/' in url_path:
+            url_path = url_path.split('/', 1)[1]
+
+        path_parts = [p for p in url_path.strip('/').split('/') if p]
+
+        # Single-segment URLs are usually category pages
+        if len(path_parts) == 1:
+            section_names = ['news', 'blog', 'sports', 'tech', 'business', 'entertainment',
+                           'politics', 'science', 'health', 'world', 'local', 'opinion', 'editorial']
+            if path_parts[0] in section_names or len(path_parts[0]) < 15:
                 return False
+            slug_tokens = [token for token in path_parts[0].split('-') if token]
+            category_tokens = {
+                'guide', 'guides', 'history', 'faq', 'faqs', 'glossary', 'dictionary',
+                'appliances', 'software', 'services', 'products', 'pricing', 'deals',
+                'coupons', 'store', 'shop', 'support', 'help', 'download', 'downloads',
+                'resources'
+            }
+            if slug_tokens and any(token in category_tokens for token in slug_tokens):
+                if len(slug_tokens) <= 2:
+                    return False
 
-        # 3. TITLE QUALITY - Must be descriptive
-        if len(title) < 10:
+        # === CONTENT HEURISTICS - Fallback validation ===
+
+        # Basic title quality
+        if len(raw_title.strip()) < 10 or len(title_lower.split()) < 3:
             return False
 
-        # Title should have at least 3 words
-        title_word_count = len(title.split())
-        if title_word_count < 3:
-            return False
-
-        # 4. CONTENT LENGTH - Articles must have substantial content
+        # Get word count
         content_words = markdown_content.split() if markdown_content else []
         word_count = len(content_words)
 
-        # Minimum 150 words for articles
-        if word_count < 150:
+        # Minimum content length
+        if word_count < 75:  # Reduced to allow shorter news articles
             return False
 
-        # 5. LINK DENSITY - Reject pages that are mostly links
-        if markdown_content:
+        # Check link density
+        if markdown_content and word_count > 0:
             link_count = markdown_content.count('](')
-            # If more than 20% of content is links, likely a navigation/index page
-            if word_count > 0 and (link_count / (word_count / 5)) > 0.2:
+            links_per_100_words = (link_count / word_count) * 100
+            if links_per_100_words > 30:
                 return False
 
-        # 6. METADATA SIGNALS - Look for article indicators
-        has_published_date = bool(metadata.get('publishedTime') or metadata.get('published'))
-        has_description = len(description) > 30
-        has_author = bool(metadata.get('author') or metadata.get('author'))
+        # Content quality checks with lower thresholds since we don't have metadata
 
-        # Strong signal: has pub date
-        if has_published_date:
+        # With description + reasonable content
+        if has_description and word_count >= 100:
             return True
 
-        # Decent signals: description + reasonable content
-        if has_description and word_count >= 200:
+        # Substantial content even without metadata
+        if word_count >= 200:
             return True
 
-        # Weak but acceptable: just lots of content
-        if word_count >= 400:
+        if metadata_score >= 4 and word_count >= 70:
             return True
 
-        # Not enough signals to be confident it's an article
+        if metadata_score >= 3 and len(path_parts) >= 2 and word_count >= 70:
+            return True
+
+        # Multi-segment URL + some content + title
+        if len(path_parts) >= 2 and word_count >= 75 and len(raw_title) >= 20:
+            return True
+
+        if metadata_score >= 2 and word_count >= 120:
+            return True
+
+        # Not enough signals to confidently identify as article
         return False
 
     def process_prospect(self, prospect):

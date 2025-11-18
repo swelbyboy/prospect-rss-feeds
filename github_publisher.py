@@ -302,6 +302,7 @@ InnovateLabs,innovatelabs.io"></textarea>
         <tr>
             <th>Prospect Name</th>
             <th>RSS Feed</th>
+            <th>Data Source</th>
             <th>Last Scrape Status</th>
             <th>Last Scrape Timestamp</th>
         </tr>
@@ -315,6 +316,7 @@ InnovateLabs,innovatelabs.io"></textarea>
             status = entry.get('status', '')
             rss_url = entry.get('rss_url', '')
             last_scrape_date = entry.get('last_scrape_date', '-')
+            data_source = entry.get('data_source', 'RSS')
 
             status_class = 'success' if status == 'success' else 'failed'
 
@@ -326,6 +328,7 @@ InnovateLabs,innovatelabs.io"></textarea>
             html_content += f"""        <tr>
             <td>{company_name}</td>
             <td>{rss_link}</td>
+            <td>{data_source}</td>
             <td class="{status_class}">{status}</td>
             <td>{last_scrape_date}</td>
         </tr>
@@ -355,25 +358,25 @@ InnovateLabs,innovatelabs.io"></textarea>
     function submitCSV(event) {{
         event.preventDefault();
         const csvContent = document.getElementById('csvContent').value.trim();
-        
+
         if (!csvContent) {{
             showMessage('Please enter CSV content', 'error');
             return;
         }}
-        
+
         // Create GitHub issue URL with CSV content
         // Label will be auto-created by workflow if it doesn't exist
         const repoOwner = 'swelbyboy';
         const repoName = 'prospect-rss-feeds';
         const issueTitle = 'Upload new prospects CSV';
-        const issueBody = `**CSV Content:**\n\n\`\`\`\n${csvContent}\n\`\`\`\n\n<!-- This issue will be automatically processed -->`;
-        const issueUrl = `https://github.com/${repoOwner}/${repoName}/issues/new?title=${encodeURIComponent(issueTitle)}&body=${encodeURIComponent(issueBody)}&labels=new-prospects-csv`;
-        
+        const issueBody = '**CSV Content:**\\n\\n```\\n' + csvContent + '\\n```\\n\\n<!-- This issue will be automatically processed -->';
+        const issueUrl = 'https://github.com/' + repoOwner + '/' + repoName + '/issues/new?title=' + encodeURIComponent(issueTitle) + '&body=' + encodeURIComponent(issueBody) + '&labels=new-prospects-csv';
+
         // Open in new window (label will be auto-created if needed)
         window.open(issueUrl, '_blank');
-        
+
         showMessage('✅ Opening GitHub to create issue. The label will be created automatically. After you submit, prospects will be added automatically.', 'success');
-        
+
         // Reset form after a delay
         setTimeout(() => {{
             document.getElementById('csvForm').reset();
