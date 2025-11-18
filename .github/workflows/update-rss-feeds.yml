@@ -1,0 +1,300 @@
+name: Update RSS Feeds
+
+on:
+  # Run daily at 6 AM UTC (to catch new articles)
+  schedule:
+    - cron: '0 6 * * *'
+
+  # Allow manual triggering from GitHub Actions tab
+  workflow_dispatch:
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+
+      - name: Update RSS feeds with OG data priority
+        env:
+          GITHUB_CI: 'true'
+        run: |
+          python3 << 'EOF'
+          import csv
+          import os
+          from datetime import datetime
+          from rss_transformer import RSSTransformer
+          from rss_generator import RSSFeedGenerator
+          from config import Config
+
+          print("🚀 Starting RSS Feed Update with OG Data Priority")
+          print("=" * 80)
+
+          # Read prospects.csv
+          prospects_with_rss = []
+          with open('prospects.csv', 'r', encoding='utf-8') as f:
+              reader = csv.DictReader(f)
+              for row in reader:
+                  if row.get('rss_feed', '').strip():
+                      prospects_with_rss.append(row)
+
+          print(f"📋 Found {len(prospects_with_rss)} prospects with RSS feeds\n")
+
+          transformer = RSSTransformer()
+          generator = RSSFeedGenerator()
+          base_url = Config.get_rss_base_url()
+
+          tracking_data = []
+          successful = 0
+          failed = 0
+
+          for i, prospect in enumerate(prospects_with_rss, 1):
+              company_name = prospect.get('company_name', 'Unknown')
+              domain = prospect.get('domain', '')
+              rss_feed = prospect.get('rss_feed', '').strip()
+              prospect_id = prospect.get('id', '')
+
+              print(f"[{i}/{len(prospects_with_rss)}] {company_name}...")
+
+              # Fetch and normalize
+              success, articles, error = transformer.fetch_and_normalize(rss_feed, max_articles=10)
+
+              if not success:
+                  print(f"   ❌ Failed: {error}")
+                  failed += 1
+                  tracking_data.append({
+                      'prospect_id': prospect_id,
+                      'company_name': company_name,
+                      'domain': domain,
+                      'last_scrape_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                      'status': 'failed',
+                      'articles_found': '0',
+                      'rss_url': '',
+                      'error_message': error,
+                      'data_source': 'N/A'
+                  })
+                  continue
+
+              # Determine data source
+              og_count = sum(1 for a in articles if a.get('data_source') == 'OG')
+              rss_count = len(articles) - og_count
+
+              if og_count > 0 and rss_count > 0:
+                  data_source = f"OG ({og_count}), RSS ({rss_count})"
+              elif og_count > 0:
+                  data_source = "OG"
+              else:
+                  data_source = "RSS"
+
+              print(f"   ✅ {len(articles)} articles | Data: {data_source}")
+
+              # Generate feed
+              normalized_articles = [{
+                  'link': a['link'],
+                  'title': a['title'],
+                  'description': a['description'],
+                  'image_url': a.get('image_url'),
+                  'published_date': a['pub_date']
+              } for a in articles]
+
+              prospect_data = {
+                  'id': prospect_id,
+                  'company_name': company_name,
+                  'domain': domain
+              }
+
+              try:
+                  feed_path = generator.create_feed(prospect_data, normalized_articles)
+                  feed_filename = os.path.basename(feed_path)
+
+                  tracking_data.append({
+                      'prospect_id': prospect_id,
+                      'company_name': company_name,
+                      'domain': domain,
+                      'last_scrape_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                      'status': 'success',
+                      'articles_found': str(len(articles)),
+                      'rss_url': f"{base_url}/{feed_filename}",
+                      'error_message': '',
+                      'data_source': data_source
+                  })
+                  successful += 1
+              except Exception as e:
+                  print(f"   ❌ Error generating feed: {e}")
+                  failed += 1
+                  tracking_data.append({
+                      'prospect_id': prospect_id,
+                      'company_name': company_name,
+                      'domain': domain,
+                      'last_scrape_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                      'status': 'failed',
+                      'articles_found': '0',
+                      'rss_url': '',
+                      'error_message': str(e),
+                      'data_source': 'N/A'
+                  })
+
+          print("\n" + "=" * 80)
+          print("📊 PROCESSING SUMMARY")
+          print("=" * 80)
+          print(f"Total prospects: {len(prospects_with_rss)}")
+          print(f"✅ Successful: {successful}")
+          print(f"❌ Failed: {failed}")
+          print("=" * 80)
+
+          # Write tracking.csv
+          with open('tracking.csv', 'w', encoding='utf-8', newline='') as f:
+              fieldnames = ['prospect_id', 'company_name', 'domain', 'last_scrape_date', 'status', 'articles_found', 'rss_url', 'error_message', 'data_source']
+              writer = csv.DictWriter(f, fieldnames=fieldnames)
+              writer.writeheader()
+              writer.writerows(tracking_data)
+
+          print(f"\n✅ Updated tracking.csv with {len(tracking_data)} entries")
+          EOF
+
+      - name: Commit updated feeds and tracking
+        run: |
+          git add feeds/*.xml tracking.csv
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update RSS feeds - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          fi
+
+      - name: Clone GitHub Pages repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git clone https://x-access-token:${GITHUB_TOKEN}@github.com/swelbyboy/prospect-rss-feeds.git github-pages-repo
+
+      - name: Copy feeds to GitHub Pages
+        run: |
+          cp feeds/*.xml github-pages-repo/
+
+          # Generate index.html with tracking data
+          python3 << 'EOF'
+          import csv
+          from datetime import datetime
+          from config import Config
+
+          # Read tracking data
+          tracking_data = []
+          with open('tracking.csv', 'r', encoding='utf-8') as f:
+              reader = csv.DictReader(f)
+              tracking_data = list(reader)
+
+          base_url = Config.get_rss_base_url()
+
+          html_content = """<!DOCTYPE html>
+          <html lang="en">
+          <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Prospect RSS Feeds</title>
+              <style>
+                  body {
+                      font-family: Arial, sans-serif;
+                      margin: 20px;
+                      max-width: 1200px;
+                  }
+                  table {
+                      border-collapse: collapse;
+                      width: 100%;
+                      margin-bottom: 30px;
+                  }
+                  th, td {
+                      border: 1px solid #ddd;
+                      padding: 8px;
+                      text-align: left;
+                  }
+                  th {
+                      background-color: #f2f2f2;
+                  }
+                  .success {
+                      color: green;
+                  }
+                  .failed {
+                      color: red;
+                  }
+              </style>
+          </head>
+          <body>
+              <h1>Prospect RSS Feeds</h1>
+              <h2>Current Prospects</h2>
+              <table>
+                  <tr>
+                      <th>Prospect Name</th>
+                      <th>RSS Feed</th>
+                      <th>Data Source</th>
+                      <th>Last Scrape Status</th>
+                      <th>Last Scrape Timestamp</th>
+                  </tr>
+          """
+
+          for entry in tracking_data:
+              company_name = entry.get('company_name', '')
+              status = entry.get('status', '')
+              rss_url = entry.get('rss_url', '')
+              last_scrape_date = entry.get('last_scrape_date', '-')
+              data_source = entry.get('data_source', 'RSS')
+
+              status_class = 'success' if status == 'success' else 'failed'
+
+              if rss_url:
+                  rss_link = f'<a href="{rss_url}">{rss_url}</a>'
+              else:
+                  rss_link = '-'
+
+              html_content += f"""        <tr>
+              <td>{company_name}</td>
+              <td>{rss_link}</td>
+              <td>{data_source}</td>
+              <td class="{status_class}">{status}</td>
+              <td>{last_scrape_date}</td>
+          </tr>
+          """
+
+          html_content += f"""    </table>
+              <p>Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}</p>
+          </body>
+          </html>
+          """
+
+          with open('github-pages-repo/index.html', 'w', encoding='utf-8') as f:
+              f.write(html_content)
+
+          print("✅ Generated index.html")
+          EOF
+
+      - name: Publish to GitHub Pages
+        run: |
+          cd github-pages-repo
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes to publish"
+          else
+            git commit -m "Update RSS feeds - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git push
+            echo "✅ Published to GitHub Pages"
+          fi
