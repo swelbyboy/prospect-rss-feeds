@@ -1,6 +1,9 @@
 # Web Scraping
 firecrawl-py==0.0.10
 
+# RSS Feed Parsing
+feedparser==6.0.10
+
 # RSS Feed Generation
 feedgen==1.0.0
 
