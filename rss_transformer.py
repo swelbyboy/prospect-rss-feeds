@@ -12,6 +12,7 @@ import hashlib
 from datetime import datetime
 from urllib.parse import urlparse
 import re
+import html
 
 
 class RSSTransformer:
@@ -89,6 +90,9 @@ class RSSTransformer:
                 title = entry.get('title', '').strip()
             if not title:
                 return None
+            
+            # Decode HTML entities from title
+            title = html.unescape(title)
 
             # Extract description - prioritize OG data
             description = og_data.get('description') if og_data else None
@@ -100,7 +104,7 @@ class RSSTransformer:
                 elif 'content' in entry and len(entry.content) > 0:
                     description = entry.content[0].get('value', '')
 
-            # Clean HTML tags from description
+            # Clean HTML tags and entities from description
             description = self._clean_html(description)
             description = description[:500].strip()  # Limit length
 
@@ -143,20 +147,15 @@ class RSSTransformer:
             return None
 
     def _clean_html(self, text):
-        """Remove HTML tags and decode entities."""
+        """Remove HTML tags and decode ALL HTML entities."""
         if not text:
             return ''
 
         # Remove HTML tags
         text = re.sub(r'<[^>]+>', '', text)
 
-        # Decode common HTML entities
-        text = text.replace('&nbsp;', ' ')
-        text = text.replace('&amp;', '&')
-        text = text.replace('&lt;', '<')
-        text = text.replace('&gt;', '>')
-        text = text.replace('&quot;', '"')
-        text = text.replace('&#39;', "'")
+        # Decode ALL HTML entities (handles &#038;, &hellip;, &#8217;, etc.)
+        text = html.unescape(text)
 
         # Clean up whitespace
         text = re.sub(r'\s+', ' ', text)
@@ -198,7 +197,8 @@ class RSSTransformer:
             for pattern in title_patterns:
                 match = re.search(pattern, response.text, re.IGNORECASE)
                 if match:
-                    og_data['title'] = match.group(1)
+                    # Decode HTML entities from OG title
+                    og_data['title'] = html.unescape(match.group(1))
                     break
 
             # Look for og:description
@@ -212,7 +212,8 @@ class RSSTransformer:
             for pattern in desc_patterns:
                 match = re.search(pattern, response.text, re.IGNORECASE)
                 if match:
-                    og_data['description'] = match.group(1)
+                    # Decode HTML entities from OG description
+                    og_data['description'] = html.unescape(match.group(1))
                     break
 
             # Look for og:image
@@ -303,15 +304,35 @@ class RSSTransformer:
             feed_url (str): Feed URL
 
         Returns:
-            str: Language code (e.g., 'en', 'fr')
+            str: Language code (e.g., 'en', 'fr', 'es')
         """
         # Try entry language
         if 'language' in entry:
             return entry.language[:2].lower()
 
-        # Try to infer from URL
-        # Common patterns: /fr/, /es/, /de/, etc.
-        match = re.search(r'/([a-z]{2})/', feed_url + entry.get('link', ''))
+        # Get the article URL
+        article_url = entry.get('link', '')
+        combined_url = feed_url + article_url
+
+        # Check for language-specific URL patterns
+        language_patterns = {
+            'es': [r'/espanol/', r'/español/', r'/es/', r'/spanish/'],
+            'fr': [r'/francais/', r'/français/', r'/fr/', r'/french/'],
+            'de': [r'/deutsch/', r'/de/', r'/german/'],
+            'pt': [r'/portugues/', r'/português/', r'/pt/', r'/portuguese/'],
+            'it': [r'/italiano/', r'/it/', r'/italian/'],
+            'ja': [r'/japanese/', r'/jp/', r'/ja/'],
+            'zh': [r'/chinese/', r'/cn/', r'/zh/'],
+        }
+
+        # Check each language pattern
+        for lang_code, patterns in language_patterns.items():
+            for pattern in patterns:
+                if re.search(pattern, combined_url, re.IGNORECASE):
+                    return lang_code
+
+        # Try generic two-letter language codes: /xx/
+        match = re.search(r'/([a-z]{2})/', combined_url)
         if match:
             return match.group(1).lower()
 
@@ -335,6 +356,35 @@ class RSSTransformer:
         text = re.sub(r'\s+', ' ', text)  # Normalize whitespace
 
         return hashlib.md5(text.encode('utf-8')).hexdigest()
+
+    def filter_by_language(self, articles, keep_language='en'):
+        """
+        Filter articles to only keep specified language.
+
+        Args:
+            articles (list): List of article dictionaries
+            keep_language (str): Language code to keep (e.g., 'en')
+
+        Returns:
+            list: Filtered articles
+        """
+        filtered = []
+        excluded_count = 0
+
+        for article in articles:
+            article_lang = article.get('language', 'en')
+            
+            # Keep if it matches the desired language
+            if article_lang == keep_language:
+                filtered.append(article)
+            else:
+                excluded_count += 1
+                print(f"   🚫 Excluded {article_lang} article: {article['title'][:50]}...")
+
+        if excluded_count > 0:
+            print(f"   🌐 Filtered out {excluded_count} non-{keep_language} article(s)")
+
+        return filtered
 
     def deduplicate_articles(self, articles, keep_language='en'):
         """
@@ -377,12 +427,12 @@ class RSSTransformer:
 
     def fetch_and_normalize(self, feed_url, max_articles=10, keep_language='en'):
         """
-        Fetch RSS feed, normalize, and deduplicate articles.
+        Fetch RSS feed, normalize, filter by language, and deduplicate articles.
 
         Args:
             feed_url (str): URL of the RSS feed
             max_articles (int): Maximum number of articles to fetch
-            keep_language (str): Preferred language for deduplication
+            keep_language (str): Preferred language code (e.g., 'en'). Articles in other languages will be excluded.
 
         Returns:
             tuple: (success: bool, articles: list, error_message: str)
@@ -393,7 +443,10 @@ class RSSTransformer:
         if not success:
             return False, [], error
 
-        # Deduplicate
+        # Filter by language first
+        articles = self.filter_by_language(articles, keep_language)
+
+        # Then deduplicate
         articles = self.deduplicate_articles(articles, keep_language)
 
         return True, articles, None
