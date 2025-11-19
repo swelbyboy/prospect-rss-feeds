@@ -29,10 +29,126 @@
         .failed {
             color: red;
         }
+        .upload-cta {
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+        }
+        .upload-cta:hover {
+            background-color: #0056b3;
+        }
+        .upload-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5);
+        }
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto;
+            padding: 30px;
+            border: 1px solid #888;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .close:hover {
+            color: black;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: monospace;
+            min-height: 200px;
+        }
+        .form-help {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+        .submit-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .submit-btn:hover {
+            background-color: #218838;
+        }
+        .message {
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            display: none;
+        }
+        .success-message {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .error-message {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
     </style>
 </head>
 <body>
     <h1>Prospect RSS Feeds</h1>
+    
+    <button class="upload-cta" onclick="openUploadModal()">📤 Upload New Prospects</button>
+
+    <div id="uploadModal" class="upload-modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeUploadModal()">&times;</span>
+            <h2>Upload New Prospects</h2>
+            <p>Upload a CSV file with columns: <strong>Prospect Name</strong> and <strong>Domain</strong></p>
+            <form id="csvForm" onsubmit="submitCSV(event)">
+                <div class="form-group">
+                    <label for="csvContent">CSV Content:</label>
+                    <textarea id="csvContent" name="csvContent" required placeholder="Prospect Name,Domain
+TechCorp,techcorp.com
+InnovateLabs,innovatelabs.io"></textarea>
+                    <div class="form-help">Paste your CSV data here. Format: Prospect Name,Domain (one per line)</div>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+                <div id="message" class="message"></div>
+            </form>
+        </div>
+    </div>
+
     <h2>Current Prospects</h2>
     <table>
         <tr>
@@ -43,510 +159,565 @@
             <th>Last Scrape Timestamp</th>
         </tr>
         <tr>
-    <td>Rugby Addict</td>
-    <td>-</td>
-    <td>N/A</td>
-    <td class="failed">failed</td>
-    <td>2025-11-19 06:33:47</td>
-</tr>
-        <tr>
-    <td>Pacific Media Group</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/pacific-media-group.xml">https://swelbyboy.github.io/prospect-rss-feeds/pacific-media-group.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:33:48</td>
-</tr>
-        <tr>
-    <td>It's Gone Viral</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/it-s-gone-viral.xml">https://swelbyboy.github.io/prospect-rss-feeds/it-s-gone-viral.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:33:52</td>
-</tr>
-        <tr>
-    <td>SamMobile.com</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/sammobile-com.xml">https://swelbyboy.github.io/prospect-rss-feeds/sammobile-com.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:33:54</td>
-</tr>
-        <tr>
-    <td>Isle of Wight Radio</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/isle-of-wight-radio.xml">https://swelbyboy.github.io/prospect-rss-feeds/isle-of-wight-radio.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:33:55</td>
-</tr>
-        <tr>
-    <td>KTTN</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/kttn.xml">https://swelbyboy.github.io/prospect-rss-feeds/kttn.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:33:57</td>
-</tr>
-        <tr>
-    <td>Chinese Herald</td>
-    <td>-</td>
-    <td>N/A</td>
-    <td class="failed">failed</td>
-    <td>2025-11-19 06:33:57</td>
-</tr>
-        <tr>
-    <td>Gay Times</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/gay-times.xml">https://swelbyboy.github.io/prospect-rss-feeds/gay-times.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:33:59</td>
-</tr>
-        <tr>
-    <td>Catchfence</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/catchfence.xml">https://swelbyboy.github.io/prospect-rss-feeds/catchfence.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:08</td>
-</tr>
-        <tr>
-    <td>Eleven Warriors</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/eleven-warriors.xml">https://swelbyboy.github.io/prospect-rss-feeds/eleven-warriors.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:09</td>
-</tr>
-        <tr>
-    <td>Crime Online</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/crime-online.xml">https://swelbyboy.github.io/prospect-rss-feeds/crime-online.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:09</td>
-</tr>
-        <tr>
-    <td>Best Little Sites</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/best-little-sites.xml">https://swelbyboy.github.io/prospect-rss-feeds/best-little-sites.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:11</td>
-</tr>
-        <tr>
-    <td>Ringside News</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/ringside-news.xml">https://swelbyboy.github.io/prospect-rss-feeds/ringside-news.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:12</td>
-</tr>
-        <tr>
-    <td>Pulse 2.0</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/pulse-2-0.xml">https://swelbyboy.github.io/prospect-rss-feeds/pulse-2-0.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:14</td>
-</tr>
-        <tr>
-    <td>Cricket Australia</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/cricket-australia.xml">https://swelbyboy.github.io/prospect-rss-feeds/cricket-australia.xml</a></td>
-    <td>RSS</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:15</td>
-</tr>
-        <tr>
-    <td>KnowTechie</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/knowtechie.xml">https://swelbyboy.github.io/prospect-rss-feeds/knowtechie.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:16</td>
-</tr>
-        <tr>
-    <td>Londra Gazete</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/londra-gazete.xml">https://swelbyboy.github.io/prospect-rss-feeds/londra-gazete.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:20</td>
-</tr>
-        <tr>
-    <td>Vital MTB</td>
-    <td>-</td>
-    <td>N/A</td>
-    <td class="failed">failed</td>
-    <td>2025-11-19 06:34:21</td>
-</tr>
-        <tr>
-    <td>Just Jared</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/just-jared.xml">https://swelbyboy.github.io/prospect-rss-feeds/just-jared.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:21</td>
-</tr>
-        <tr>
-    <td>Rimix Radio</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/rimix-radio.xml">https://swelbyboy.github.io/prospect-rss-feeds/rimix-radio.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:37</td>
-</tr>
-        <tr>
-    <td>The Poke</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/the-poke.xml">https://swelbyboy.github.io/prospect-rss-feeds/the-poke.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:39</td>
-</tr>
-        <tr>
-    <td>Celeb Dirty Laundry</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/celeb-dirty-laundry.xml">https://swelbyboy.github.io/prospect-rss-feeds/celeb-dirty-laundry.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:47</td>
-</tr>
-        <tr>
-    <td>Over60</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/over60.xml">https://swelbyboy.github.io/prospect-rss-feeds/over60.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:52</td>
-</tr>
-        <tr>
-    <td>Quad Cities</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/quad-cities.xml">https://swelbyboy.github.io/prospect-rss-feeds/quad-cities.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:57</td>
-</tr>
-        <tr>
-    <td>Gematsu</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/gematsu.xml">https://swelbyboy.github.io/prospect-rss-feeds/gematsu.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:58</td>
-</tr>
-        <tr>
-    <td>AllHipHop</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/allhiphop.xml">https://swelbyboy.github.io/prospect-rss-feeds/allhiphop.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:59</td>
-</tr>
-        <tr>
-    <td>Mom and More</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/mom-and-more.xml">https://swelbyboy.github.io/prospect-rss-feeds/mom-and-more.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:34:59</td>
-</tr>
-        <tr>
-    <td>IMBOLDN</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/imboldn.xml">https://swelbyboy.github.io/prospect-rss-feeds/imboldn.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:05</td>
-</tr>
-        <tr>
-    <td>Derry Daily</td>
-    <td>-</td>
-    <td>N/A</td>
-    <td class="failed">failed</td>
-    <td>2025-11-19 06:35:06</td>
-</tr>
-        <tr>
-    <td>Indiana Public Media</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/indiana-public-media.xml">https://swelbyboy.github.io/prospect-rss-feeds/indiana-public-media.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:09</td>
-</tr>
-        <tr>
-    <td>I Creative Ideas</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/i-creative-ideas.xml">https://swelbyboy.github.io/prospect-rss-feeds/i-creative-ideas.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:10</td>
-</tr>
-        <tr>
-    <td>Newsdakota.com</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/newsdakota-com.xml">https://swelbyboy.github.io/prospect-rss-feeds/newsdakota-com.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:12</td>
-</tr>
-        <tr>
-    <td>Essex Media Group</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/essex-media-group.xml">https://swelbyboy.github.io/prospect-rss-feeds/essex-media-group.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:15</td>
-</tr>
-        <tr>
-    <td>MageeNews.com</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/mageenews-com.xml">https://swelbyboy.github.io/prospect-rss-feeds/mageenews-com.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:16</td>
-</tr>
-        <tr>
-    <td>TheBigLead</td>
-    <td>-</td>
-    <td>N/A</td>
-    <td class="failed">failed</td>
-    <td>2025-11-19 06:35:16</td>
-</tr>
-        <tr>
-    <td>EventHubs</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/eventhubs.xml">https://swelbyboy.github.io/prospect-rss-feeds/eventhubs.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:19</td>
-</tr>
-        <tr>
-    <td>Thecryptobasic</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/thecryptobasic.xml">https://swelbyboy.github.io/prospect-rss-feeds/thecryptobasic.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:22</td>
-</tr>
-        <tr>
-    <td>FOX 24 Charleston</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/fox-24-charleston.xml">https://swelbyboy.github.io/prospect-rss-feeds/fox-24-charleston.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:25</td>
-</tr>
-        <tr>
-    <td>The Manual</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/the-manual.xml">https://swelbyboy.github.io/prospect-rss-feeds/the-manual.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:26</td>
-</tr>
-        <tr>
-    <td>Heritage Media Of Kentucky, Inc</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/heritage-media-of-kentucky--inc.xml">https://swelbyboy.github.io/prospect-rss-feeds/heritage-media-of-kentucky--inc.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:27</td>
-</tr>
-        <tr>
-    <td>Ziarul Românesc</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/ziarul-românesc.xml">https://swelbyboy.github.io/prospect-rss-feeds/ziarul-românesc.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:33</td>
-</tr>
-        <tr>
-    <td>Bounding Into Comics</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/bounding-into-comics.xml">https://swelbyboy.github.io/prospect-rss-feeds/bounding-into-comics.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:33</td>
-</tr>
-        <tr>
-    <td>MyMMANews.com</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/mymmanews-com.xml">https://swelbyboy.github.io/prospect-rss-feeds/mymmanews-com.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:39</td>
-</tr>
-        <tr>
-    <td>Kiss Binghamton</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/kiss-binghamton.xml">https://swelbyboy.github.io/prospect-rss-feeds/kiss-binghamton.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:45</td>
-</tr>
-        <tr>
-    <td>The Fandom Post</td>
-    <td>-</td>
-    <td>N/A</td>
-    <td class="failed">failed</td>
-    <td>2025-11-19 06:35:46</td>
-</tr>
-        <tr>
-    <td>BangShift.com</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/bangshift-com.xml">https://swelbyboy.github.io/prospect-rss-feeds/bangshift-com.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:47</td>
-</tr>
-        <tr>
-    <td>AcheiUSA</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/acheiusa.xml">https://swelbyboy.github.io/prospect-rss-feeds/acheiusa.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:54</td>
-</tr>
-        <tr>
-    <td>BlackSportsOnline</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/blacksportsonline.xml">https://swelbyboy.github.io/prospect-rss-feeds/blacksportsonline.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:56</td>
-</tr>
-        <tr>
-    <td>EDM Identity</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/edm-identity.xml">https://swelbyboy.github.io/prospect-rss-feeds/edm-identity.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:58</td>
-</tr>
-        <tr>
-    <td>Awful Announcing</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/awful-announcing.xml">https://swelbyboy.github.io/prospect-rss-feeds/awful-announcing.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:35:59</td>
-</tr>
-        <tr>
-    <td>Motorsport Week</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/motorsport-week.xml">https://swelbyboy.github.io/prospect-rss-feeds/motorsport-week.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:04</td>
-</tr>
-        <tr>
-    <td>Mactrast</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/mactrast.xml">https://swelbyboy.github.io/prospect-rss-feeds/mactrast.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:08</td>
-</tr>
-        <tr>
-    <td>411Mania</td>
-    <td>-</td>
-    <td>N/A</td>
-    <td class="failed">failed</td>
-    <td>2025-11-19 06:36:08</td>
-</tr>
-        <tr>
-    <td>Awareness Act</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/awareness-act.xml">https://swelbyboy.github.io/prospect-rss-feeds/awareness-act.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:08</td>
-</tr>
-        <tr>
-    <td>Bleeding Cool</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/bleeding-cool.xml">https://swelbyboy.github.io/prospect-rss-feeds/bleeding-cool.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:08</td>
-</tr>
-        <tr>
-    <td>The Hard Tackle</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/the-hard-tackle.xml">https://swelbyboy.github.io/prospect-rss-feeds/the-hard-tackle.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:10</td>
-</tr>
-        <tr>
-    <td>Comic Watch</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/comic-watch.xml">https://swelbyboy.github.io/prospect-rss-feeds/comic-watch.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:12</td>
-</tr>
-        <tr>
-    <td>MSPoweruser.com</td>
-    <td>-</td>
-    <td>N/A</td>
-    <td class="failed">failed</td>
-    <td>2025-11-19 06:36:12</td>
-</tr>
-        <tr>
-    <td>Soccer Publishing Limited</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/soccer-publishing-limited.xml">https://swelbyboy.github.io/prospect-rss-feeds/soccer-publishing-limited.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:13</td>
-</tr>
-        <tr>
-    <td>American Football International, LLC</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/american-football-international--llc.xml">https://swelbyboy.github.io/prospect-rss-feeds/american-football-international--llc.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:17</td>
-</tr>
-        <tr>
-    <td>Ink Free News</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/ink-free-news.xml">https://swelbyboy.github.io/prospect-rss-feeds/ink-free-news.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:30</td>
-</tr>
-        <tr>
-    <td>DailyFaceoff.com</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/dailyfaceoff-com.xml">https://swelbyboy.github.io/prospect-rss-feeds/dailyfaceoff-com.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:31</td>
-</tr>
-        <tr>
-    <td>The Market Herald</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/the-market-herald.xml">https://swelbyboy.github.io/prospect-rss-feeds/the-market-herald.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:47</td>
-</tr>
-        <tr>
-    <td>Trusted Reviews</td>
-    <td>-</td>
-    <td>N/A</td>
-    <td class="failed">failed</td>
-    <td>2025-11-19 06:36:47</td>
-</tr>
-        <tr>
-    <td>WOUB Public Media</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/woub-public-media.xml">https://swelbyboy.github.io/prospect-rss-feeds/woub-public-media.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:48</td>
-</tr>
-        <tr>
-    <td>Distinctly Montana</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/distinctly-montana.xml">https://swelbyboy.github.io/prospect-rss-feeds/distinctly-montana.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:54</td>
-</tr>
-        <tr>
-    <td>Noticia Cristiana</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/noticia-cristiana.xml">https://swelbyboy.github.io/prospect-rss-feeds/noticia-cristiana.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:56</td>
-</tr>
-        <tr>
-    <td>Wrestleview.com</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/wrestleview-com.xml">https://swelbyboy.github.io/prospect-rss-feeds/wrestleview-com.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:36:57</td>
-</tr>
-        <tr>
-    <td>Oyungg</td>
-    <td>-</td>
-    <td>N/A</td>
-    <td class="failed">failed</td>
-    <td>2025-11-19 06:37:27</td>
-</tr>
-        <tr>
-    <td>DESblitz</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/desblitz.xml">https://swelbyboy.github.io/prospect-rss-feeds/desblitz.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:37:29</td>
-</tr>
-        <tr>
-    <td>Fitness Gurls</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/fitness-gurls.xml">https://swelbyboy.github.io/prospect-rss-feeds/fitness-gurls.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:37:31</td>
-</tr>
-        <tr>
-    <td>The Nerd Stash</td>
-    <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/the-nerd-stash.xml">https://swelbyboy.github.io/prospect-rss-feeds/the-nerd-stash.xml</a></td>
-    <td>OG</td>
-    <td class="success">success</td>
-    <td>2025-11-19 06:37:32</td>
-</tr>
+            <td>Rugby Addict</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:50:47</td>
+        </tr>
+        <tr>
+            <td>Pacific Media Group</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/pacific-media-group.xml">https://swelbyboy.github.io/prospect-rss-feeds/pacific-media-group.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:50:49</td>
+        </tr>
+        <tr>
+            <td>It's Gone Viral</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/it-s-gone-viral.xml">https://swelbyboy.github.io/prospect-rss-feeds/it-s-gone-viral.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:50:52</td>
+        </tr>
+        <tr>
+            <td>SamMobile.com</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:50:52</td>
+        </tr>
+        <tr>
+            <td>Isle of Wight Radio</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/isle-of-wight-radio.xml">https://swelbyboy.github.io/prospect-rss-feeds/isle-of-wight-radio.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:50:55</td>
+        </tr>
+        <tr>
+            <td>KTTN</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/kttn.xml">https://swelbyboy.github.io/prospect-rss-feeds/kttn.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:51:08</td>
+        </tr>
+        <tr>
+            <td>Chinese Herald</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:51:08</td>
+        </tr>
+        <tr>
+            <td>Gay Times</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/gay-times.xml">https://swelbyboy.github.io/prospect-rss-feeds/gay-times.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:51:09</td>
+        </tr>
+        <tr>
+            <td>Catchfence</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/catchfence.xml">https://swelbyboy.github.io/prospect-rss-feeds/catchfence.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:51:18</td>
+        </tr>
+        <tr>
+            <td>Eleven Warriors</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/eleven-warriors.xml">https://swelbyboy.github.io/prospect-rss-feeds/eleven-warriors.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:51:23</td>
+        </tr>
+        <tr>
+            <td>Crime Online</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/crime-online.xml">https://swelbyboy.github.io/prospect-rss-feeds/crime-online.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:51:25</td>
+        </tr>
+        <tr>
+            <td>Best Little Sites</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:51:25</td>
+        </tr>
+        <tr>
+            <td>Ringside News</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/ringside-news.xml">https://swelbyboy.github.io/prospect-rss-feeds/ringside-news.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:51:28</td>
+        </tr>
+        <tr>
+            <td>Pulse 2.0</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/pulse-2-0.xml">https://swelbyboy.github.io/prospect-rss-feeds/pulse-2-0.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:51:31</td>
+        </tr>
+        <tr>
+            <td>Cricket Australia</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/cricket-australia.xml">https://swelbyboy.github.io/prospect-rss-feeds/cricket-australia.xml</a></td>
+            <td>RSS</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:51:32</td>
+        </tr>
+        <tr>
+            <td>KnowTechie</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/knowtechie.xml">https://swelbyboy.github.io/prospect-rss-feeds/knowtechie.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:51:34</td>
+        </tr>
+        <tr>
+            <td>Londra Gazete</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/londra-gazete.xml">https://swelbyboy.github.io/prospect-rss-feeds/londra-gazete.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:51:37</td>
+        </tr>
+        <tr>
+            <td>Vital MTB</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:51:38</td>
+        </tr>
+        <tr>
+            <td>Just Jared</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/just-jared.xml">https://swelbyboy.github.io/prospect-rss-feeds/just-jared.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:51:41</td>
+        </tr>
+        <tr>
+            <td>Rimix Radio</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/rimix-radio.xml">https://swelbyboy.github.io/prospect-rss-feeds/rimix-radio.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:52:02</td>
+        </tr>
+        <tr>
+            <td>The Poke</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:52:02</td>
+        </tr>
+        <tr>
+            <td>Celeb Dirty Laundry</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/celeb-dirty-laundry.xml">https://swelbyboy.github.io/prospect-rss-feeds/celeb-dirty-laundry.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:52:14</td>
+        </tr>
+        <tr>
+            <td>Over60</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/over60.xml">https://swelbyboy.github.io/prospect-rss-feeds/over60.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:52:20</td>
+        </tr>
+        <tr>
+            <td>Quad Cities</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/quad-cities.xml">https://swelbyboy.github.io/prospect-rss-feeds/quad-cities.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:52:23</td>
+        </tr>
+        <tr>
+            <td>Gematsu</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:52:23</td>
+        </tr>
+        <tr>
+            <td>AllHipHop</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:52:23</td>
+        </tr>
+        <tr>
+            <td>Mom and More</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:52:23</td>
+        </tr>
+        <tr>
+            <td>IMBOLDN</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/imboldn.xml">https://swelbyboy.github.io/prospect-rss-feeds/imboldn.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:52:29</td>
+        </tr>
+        <tr>
+            <td>Derry Daily</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:52:29</td>
+        </tr>
+        <tr>
+            <td>Indiana Public Media</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/indiana-public-media.xml">https://swelbyboy.github.io/prospect-rss-feeds/indiana-public-media.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:52:35</td>
+        </tr>
+        <tr>
+            <td>I Creative Ideas</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/i-creative-ideas.xml">https://swelbyboy.github.io/prospect-rss-feeds/i-creative-ideas.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:52:35</td>
+        </tr>
+        <tr>
+            <td>Newsdakota.com</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/newsdakota-com.xml">https://swelbyboy.github.io/prospect-rss-feeds/newsdakota-com.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:52:45</td>
+        </tr>
+        <tr>
+            <td>Essex Media Group</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:52:46</td>
+        </tr>
+        <tr>
+            <td>MageeNews.com</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/mageenews-com.xml">https://swelbyboy.github.io/prospect-rss-feeds/mageenews-com.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:52:56</td>
+        </tr>
+        <tr>
+            <td>TheBigLead</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:52:57</td>
+        </tr>
+        <tr>
+            <td>EventHubs</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/eventhubs.xml">https://swelbyboy.github.io/prospect-rss-feeds/eventhubs.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:53:01</td>
+        </tr>
+        <tr>
+            <td>Thecryptobasic</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/thecryptobasic.xml">https://swelbyboy.github.io/prospect-rss-feeds/thecryptobasic.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:53:13</td>
+        </tr>
+        <tr>
+            <td>FOX 24 Charleston</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/fox-24-charleston.xml">https://swelbyboy.github.io/prospect-rss-feeds/fox-24-charleston.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:53:16</td>
+        </tr>
+        <tr>
+            <td>The Manual</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/the-manual.xml">https://swelbyboy.github.io/prospect-rss-feeds/the-manual.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:53:17</td>
+        </tr>
+        <tr>
+            <td>Heritage Media Of Kentucky, Inc</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/heritage-media-of-kentucky--inc.xml">https://swelbyboy.github.io/prospect-rss-feeds/heritage-media-of-kentucky--inc.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:53:20</td>
+        </tr>
+        <tr>
+            <td>Ziarul Românesc</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/ziarul-românesc.xml">https://swelbyboy.github.io/prospect-rss-feeds/ziarul-românesc.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:53:27</td>
+        </tr>
+        <tr>
+            <td>Bounding Into Comics</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:53:27</td>
+        </tr>
+        <tr>
+            <td>MyMMANews.com</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/mymmanews-com.xml">https://swelbyboy.github.io/prospect-rss-feeds/mymmanews-com.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:53:39</td>
+        </tr>
+        <tr>
+            <td>Kiss Binghamton</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/kiss-binghamton.xml">https://swelbyboy.github.io/prospect-rss-feeds/kiss-binghamton.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:53:47</td>
+        </tr>
+        <tr>
+            <td>The Fandom Post</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:53:48</td>
+        </tr>
+        <tr>
+            <td>BangShift.com</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:53:48</td>
+        </tr>
+        <tr>
+            <td>AcheiUSA</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/acheiusa.xml">https://swelbyboy.github.io/prospect-rss-feeds/acheiusa.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:53:58</td>
+        </tr>
+        <tr>
+            <td>BlackSportsOnline</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/blacksportsonline.xml">https://swelbyboy.github.io/prospect-rss-feeds/blacksportsonline.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:54:01</td>
+        </tr>
+        <tr>
+            <td>EDM Identity</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:01</td>
+        </tr>
+        <tr>
+            <td>Awful Announcing</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/awful-announcing.xml">https://swelbyboy.github.io/prospect-rss-feeds/awful-announcing.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:54:05</td>
+        </tr>
+        <tr>
+            <td>Motorsport Week</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/motorsport-week.xml">https://swelbyboy.github.io/prospect-rss-feeds/motorsport-week.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:54:29</td>
+        </tr>
+        <tr>
+            <td>Mactrast</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/mactrast.xml">https://swelbyboy.github.io/prospect-rss-feeds/mactrast.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:54:33</td>
+        </tr>
+        <tr>
+            <td>411Mania</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:33</td>
+        </tr>
+        <tr>
+            <td>Awareness Act</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:33</td>
+        </tr>
+        <tr>
+            <td>Bleeding Cool</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/bleeding-cool.xml">https://swelbyboy.github.io/prospect-rss-feeds/bleeding-cool.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:54:35</td>
+        </tr>
+        <tr>
+            <td>The Hard Tackle</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:35</td>
+        </tr>
+        <tr>
+            <td>Comic Watch</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/comic-watch.xml">https://swelbyboy.github.io/prospect-rss-feeds/comic-watch.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:54:40</td>
+        </tr>
+        <tr>
+            <td>MSPoweruser.com</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:40</td>
+        </tr>
+        <tr>
+            <td>Soccer Publishing Limited</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:41</td>
+        </tr>
+        <tr>
+            <td>American Football International, LLC</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:41</td>
+        </tr>
+        <tr>
+            <td>Ink Free News</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:41</td>
+        </tr>
+        <tr>
+            <td>DailyFaceoff.com</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:41</td>
+        </tr>
+        <tr>
+            <td>The Market Herald</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:41</td>
+        </tr>
+        <tr>
+            <td>Trusted Reviews</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:41</td>
+        </tr>
+        <tr>
+            <td>WOUB Public Media</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:42</td>
+        </tr>
+        <tr>
+            <td>Distinctly Montana</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:42</td>
+        </tr>
+        <tr>
+            <td>Noticia Cristiana</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:42</td>
+        </tr>
+        <tr>
+            <td>Wrestleview.com</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/wrestleview-com.xml">https://swelbyboy.github.io/prospect-rss-feeds/wrestleview-com.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:54:45</td>
+        </tr>
+        <tr>
+            <td>Oyungg</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/oyungg.xml">https://swelbyboy.github.io/prospect-rss-feeds/oyungg.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:54:47</td>
+        </tr>
+        <tr>
+            <td>DESblitz</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:47</td>
+        </tr>
+        <tr>
+            <td>Fitness Gurls</td>
+            <td><a href="https://swelbyboy.github.io/prospect-rss-feeds/fitness-gurls.xml">https://swelbyboy.github.io/prospect-rss-feeds/fitness-gurls.xml</a></td>
+            <td>OG</td>
+            <td class="success">success</td>
+            <td>2025-11-18 11:54:49</td>
+        </tr>
+        <tr>
+            <td>The Nerd Stash</td>
+            <td>-</td>
+            <td>N/A</td>
+            <td class="failed">failed</td>
+            <td>2025-11-18 11:54:49</td>
+        </tr>
     </table>
-    <p>Last updated: 2025-11-19 06:37:33 UTC</p>
+    <p>Last updated: 2025-11-19 12:24:14 UTC</p>
+    
+    <script>
+    function openUploadModal() {
+        document.getElementById('uploadModal').style.display = 'block';
+    }
+    
+    function closeUploadModal() {
+        document.getElementById('uploadModal').style.display = 'none';
+        document.getElementById('csvForm').reset();
+        document.getElementById('message').style.display = 'none';
+    }
+    
+    window.onclick = function(event) {
+        const modal = document.getElementById('uploadModal');
+        if (event.target == modal) {
+            closeUploadModal();
+        }
+    }
+    
+    function submitCSV(event) {
+        event.preventDefault();
+        const csvContent = document.getElementById('csvContent').value.trim();
+
+        if (!csvContent) {
+            showMessage('Please enter CSV content', 'error');
+            return;
+        }
+
+        // Create GitHub issue URL with CSV content
+        // Label will be auto-created by workflow if it doesn't exist
+        const repoOwner = 'swelbyboy';
+        const repoName = 'prospect-rss-feeds';
+        const issueTitle = 'Upload new prospects CSV';
+        const issueBody = '**CSV Content:**\n\n```\n' + csvContent + '\n```\n\n<!-- This issue will be automatically processed -->';
+        const issueUrl = 'https://github.com/' + repoOwner + '/' + repoName + '/issues/new?title=' + encodeURIComponent(issueTitle) + '&body=' + encodeURIComponent(issueBody) + '&labels=new-prospects-csv';
+
+        // Open in new window (label will be auto-created if needed)
+        window.open(issueUrl, '_blank');
+
+        showMessage('✅ Opening GitHub to create issue. The label will be created automatically. After you submit, prospects will be added automatically.', 'success');
+
+        // Reset form after a delay
+        setTimeout(() => {
+            document.getElementById('csvForm').reset();
+            closeUploadModal();
+        }, 2000);
+    }
+    
+    function showMessage(text, type) {
+        const messageDiv = document.getElementById('message');
+        messageDiv.textContent = text;
+        messageDiv.className = 'message ' + type + '-message';
+        messageDiv.style.display = 'block';
+    }
+    </script>
 </body>
 </html>
