@@ -44,3 +44,14 @@ Thumbs.db
 
 # Local git clone of GitHub Pages repo (only used for local runs)
 github-pages-repo/
+
+# Output and logs
+output/
+data/backups/
+data/old_xml_files/
+
+# Utility scripts are tracked, but keep temp files clean
+organize_project.sh
+
+# XML files should only be in feeds/ directory
+/*.xml
