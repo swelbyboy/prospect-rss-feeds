@@ -188,7 +188,11 @@ jobs:
 
       - name: Copy feeds to GitHub Pages
         run: |
+          # Copy XML feeds to root of GitHub Pages repo (not in feeds/ subdirectory)
           cp feeds/*.xml github-pages-repo/
+          
+          # Create .nojekyll to disable Jekyll processing
+          touch github-pages-repo/.nojekyll
 
           # Generate index.html with tracking data
           python3 << 'EOF'
