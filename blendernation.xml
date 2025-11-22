@@ -1,22 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Blendernation - Article Feed</title>
+    <title>BlenderNation - Article Feed</title>
     <link>https://swelbyboy.github.io/prospect-rss-feeds/blendernation.xml</link>
-    <description>Latest articles from Blendernation (www.blendernation.com)</description>
+    <description>Latest articles from BlenderNation (blendernation.com)</description>
     <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/blendernation.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Nov 2025 10:10:42 +0000</lastBuildDate>
-    <item>
-      <title>Free Download: A Portrait of Tenochtitlan</title>
-      <link>https://www.blendernation.com/2025/11/11/free-download-a-portrait-of-tenochtitlan/</link>
-      <description>‘A Portrait of Tenochtitlan’ is the passion project of Thomas Kole. He painstakingly modeled the ancient Mexican city and built an interactive 3D viewer that lets you explore it. 2 years later…</description>
-      <guid isPermaLink="false">https://www.blendernation.com/2025/11/11/free-download-a-portrait-of-tenochtitlan/</guid>
-      <enclosure url="https://www.blendernation.com/wp-content/uploads/2025/11/ffa0b0f41f424dde.png" length="0" type="image/png"/>
-      <pubDate>Tue, 11 Nov 2025 10:40:36 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 22 Nov 2025 06:39:02 +0000</lastBuildDate>
     <item>
       <title>Blender Developers Meeting Notes: 10 November 2025</title>
       <link>https://www.blendernation.com/2025/11/12/blender-developers-meeting-notes-10-november-2025/</link>
@@ -88,6 +80,14 @@
       <guid isPermaLink="false">https://www.blendernation.com/2025/11/17/fuzz-add-hair-to-your-3d-characters-beginner-tutorial-assets-included/</guid>
       <enclosure url="https://www.blendernation.com/wp-content/uploads/2025/11/Thumbnail_Ears_BLENDERNATION_01.jpg" length="0" type="image/jpeg"/>
       <pubDate>Mon, 17 Nov 2025 16:55:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blender Jobs for November 21, 2025</title>
+      <link>https://www.blendernation.com/2025/11/21/blender-jobs-for-november-21-2025/</link>
+      <description>Here’s an overview of the most recent Blender jobs on Blender Artists, ArtStation and 3djobs.xyz: For more jobs, look here.</description>
+      <guid isPermaLink="false">https://www.blendernation.com/2025/11/21/blender-jobs-for-november-21-2025/</guid>
+      <enclosure url="https://www.blendernation.com/wp-content/uploads/2021/08/low-poly-office-file.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 21 Nov 2025 10:15:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
