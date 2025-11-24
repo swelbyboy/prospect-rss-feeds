@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Situation Publishing - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/situation-publishing.xml</link>
+    <description>Latest articles from Situation Publishing (situationpublishing.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/situation-publishing.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Nov 2025 18:37:50 +0000</lastBuildDate>
+    <item>
+      <title>Hello world! - Situation Publishing</title>
+      <link>https://situationpublishing.com/hello-world/</link>
+      <description>Welcome to Astra Starter Templates. This is your first post. Edit or delete it, then start blogging!</description>
+      <guid isPermaLink="false">https://situationpublishing.com/hello-world/</guid>
+      <pubDate>Sat, 01 Nov 2025 06:42:56 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
