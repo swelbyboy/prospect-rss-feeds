@@ -8,85 +8,84 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Nov 2025 17:53:29 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 06:40:38 +0000</lastBuildDate>
     <item>
-      <title>Shipping Alert: Adafruit Closed on Thanksgiving 2025</title>
-      <link>https://blog.adafruit.com/2025/11/24/shipping-alert-adafruit-closed-on-thanksgiving-2025/</link>
-      <description>Adafruit will not be shipping orders Thursday November 27, 2025 in observance of Thanksgiving. Expedited orders placed after 11 AM EST on Wednesday 26, won’t go out until Friday. Other delays may occur, please allow extra time for your orders. AND Don’t forget to get your orders on time for the holiday season! Adafruit Holiday […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/shipping-alert-adafruit-closed-on-thanksgiving-2025/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/image-2-1.png" length="0" type="image/png"/>
-      <pubDate>Mon, 24 Nov 2025 14:36:13 +0000</pubDate>
+      <title>Send sensor data to Telegram using an ESP32</title>
+      <link>https://blog.adafruit.com/2025/11/24/send-sensor-data-to-telegram-using-an-esp32/</link>
+      <description>Clovis Fritzen shows how to send sensor data to Telegram, using an ESP32 microcontroller Arduino code to create a weather station. Data can be sent as frequently as one wants to a Telegram APP, via WiFi. There are a handful of layers to this project. First of all, it will read ENS160 + BME280 sensors, then use MQTT […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/send-sensor-data-to-telegram-using-an-esp32/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/aa-8.png" length="0" type="image/png"/>
+      <pubDate>Mon, 24 Nov 2025 20:21:58 +0000</pubDate>
     </item>
     <item>
-      <title>Meet the Mega Tree, a 12ft DIY Christmas Tree</title>
-      <link>https://blog.adafruit.com/2025/11/24/meet-the-mega-tree-a-12ft-diy-christmas-tree/</link>
-      <description>The Stock Pot is taking Christmas yard decor to the next level this year and we’re here for it. Check out 2025’s mega tree over on thestockpot.net: As the tree grows taller, the base naturally widens, which can make the light strings spread too far apart and look sparse. To get the density right, I […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/meet-the-mega-tree-a-12ft-diy-christmas-tree/</guid>
-      <pubDate>Mon, 24 Nov 2025 15:00:47 +0000</pubDate>
+      <title>EEVblog – RIP Arduino, a new terms and conditions deep dive</title>
+      <link>https://blog.adafruit.com/2025/11/24/eevblog-rip-arduino-a-new-terms-and-conditions-deep-dive/</link>
+      <description>Dave Jones is no stranger to taking a close look at the electronics industry and letting his audience know what’s up from Down Below. In a recent episode, Dave looks at the purchase of Arduino by Qualcomm and their quiet changes in Arduino usage terms and conditions that moves Arduino away from their Open Source […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/eevblog-rip-arduino-a-new-terms-and-conditions-deep-dive/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/aa-10.png" length="0" type="image/png"/>
+      <pubDate>Mon, 24 Nov 2025 20:46:58 +0000</pubDate>
     </item>
     <item>
-      <title>KipKay’s sneaky geocache build</title>
-      <link>https://blog.adafruit.com/2025/11/24/kipkays-sneaky-geocache-build/</link>
-      <description>KipKay on YouTube writes: After many years, I’m getting back into Geocaching. If you don’t know what that is, go to geocaching.com. It’s an electronic hide and seek game, and this is one of hundreds of sneaky containers that you’ll find geocaching. Check out the video below:</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/kipkays-sneaky-geocache-build/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/a-60.png" length="0" type="image/png"/>
-      <pubDate>Mon, 24 Nov 2025 15:35:29 +0000</pubDate>
+      <title>New puzzles: Bioluminescence and Ocean Tapestry</title>
+      <link>https://blog.adafruit.com/2025/11/24/new-puzzles-bioluminescence-and-ocean-tapestry/</link>
+      <description>Over at the Nervous System, they regularly release new puzzles – this year the new puzzles feature art by Franz Anthony, a scientific illustrator. Bioluminescence ($60 with 141 coral cut pieces) and Ocean Tapestry ($120 with 436 pieces in wave and coral cut) are in their shop now. Bioluminescence: this wooden jigsaw puzzle celebrates nature’s […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/new-puzzles-bioluminescence-and-ocean-tapestry/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/aa-12.png" length="0" type="image/png"/>
+      <pubDate>Mon, 24 Nov 2025 21:18:28 +0000</pubDate>
     </item>
     <item>
-      <title>Digital echoes: open bus behavior on a compact Macintosh</title>
-      <link>https://blog.adafruit.com/2025/11/24/digital-echoes-open-bus-behavior-on-a-compact-macintosh/</link>
-      <description>While Thomas was working on Snow, a vintage Macintosh emulator, there was an interesting conflict in expectations of applications with regards to open bus behavior on these systems. Thomas looks to explain what open bus behavior is, how a compact Macintosh (the 128K, 512K, Plus, SE and Classic) behave and how this affects some applications. […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/digital-echoes-open-bus-behavior-on-a-compact-macintosh/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/a-62.png" length="0" type="image/png"/>
-      <pubDate>Mon, 24 Nov 2025 15:56:34 +0000</pubDate>
+      <title>Zork I, II, and III go Open Source</title>
+      <link>https://blog.adafruit.com/2025/11/24/zork-i-ii-and-iii-go-open-source/</link>
+      <description>Microsoft states they are preserving a cornerstone of gaming history that is near and dear to their hearts. Microsoft’s Open Source Programs Office (OSPO), Team Xbox, and Activision are making Zork I, Zork II, and Zork III available under the MIT License. Their goal is simple: to place historically important code in the hands of students, teachers, and […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/zork-i-ii-and-iii-go-open-source/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/20250929ohm-6.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 24 Nov 2025 21:42:33 +0000</pubDate>
     </item>
     <item>
-      <title>Spider art or survival? 🕷️ The mystery of Cyclosa’s fake spiders</title>
-      <link>https://blog.adafruit.com/2025/11/24/spider-art-or-survival-%f0%9f%95%b7%ef%b8%8f-the-mystery-of-cyclosas-fake-spiders/</link>
-      <description>Wildlife Messengers on YouTube published a video purporting to show how two species of Peruvian spiders spin their webs such that it mimics a larger spider. For years, anecdotal accounts hinted at this phenomenon, but now, for the first time, we’re sharing the scientific evidence and detailed observations of how these spiders craft their “doppelgängers.” […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/spider-art-or-survival-%f0%9f%95%b7%ef%b8%8f-the-mystery-of-cyclosas-fake-spiders/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/a-64.png" length="0" type="image/png"/>
-      <pubDate>Mon, 24 Nov 2025 16:09:32 +0000</pubDate>
+      <title>The Quantum Quest for a Perfectly Random d20 #DnD #Gamer #RNG</title>
+      <link>https://blog.adafruit.com/2025/11/24/the-quantum-quest-for-a-perfectly-random-d20-dnd-gamer-rng/</link>
+      <description>Most random number generators aren’t actually random. Standard computers are only capable of generating Pseudo-random numbers: numbers that appear random but are in fact predictable. To get truly random you might need to get quantum. The SciShow dives into the world of randomness: Have you ever wanted to put your virtual d20 in “dice […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/the-quantum-quest-for-a-perfectly-random-d20-dnd-gamer-rng/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/3d_printing_hero-gravel.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 24 Nov 2025 21:51:07 +0000</pubDate>
     </item>
     <item>
-      <title>The Python on Microcontrollers Newsletter: subscribe for free</title>
-      <link>https://blog.adafruit.com/2025/11/24/the-python-on-microcontrollers-newsletter-subscribe-for-free-11-24/</link>
-      <description>The Python for Microcontrollers Newsletter is the place for the latest news involving Python on hardware (microcontrollers AND single board computers like Raspberry Pi). This ad-free, spam-free weekly email is filled with CircuitPython, MicroPython, and Python information that you may have missed, all in one place! You get a summary of all the software, events, projects, and the latest hardware worldwide once a week, no […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/the-python-on-microcontrollers-newsletter-subscribe-for-free-11-24/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/thanksgiving-logo.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 24 Nov 2025 16:55:44 +0000</pubDate>
+      <title>Reindeer Solder Kit by Phyx #AdafruitLearningSystem @Adafruit</title>
+      <link>https://blog.adafruit.com/2025/11/24/reindeer-solder-kit-by-phyx-adafruitlearningsystem-adafruit/</link>
+      <description>The Reindeer Solder Kit by Wim Van Gool and Phyx is a Christmas-themed kit (sold via Lectronz) that assembles a small PCB reindeer with a red flickering LED nose, slide switch, and CR2032 battery holder. Welcome to the step-by-step guide for assembling your Reindeer kit. Gather your supplies and get to it! This kit is […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/reindeer-solder-kit-by-phyx-adafruitlearningsystem-adafruit/</guid>
+      <enclosure url="https://cdn-learn.adafruit.com/guides/images/000/004/424/medium800/PXL_20251114_185208464.jpg?1763635141" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 24 Nov 2025 22:05:18 +0000</pubDate>
     </item>
     <item>
-      <title>3D printed Glasses for bringing in the New Year!</title>
-      <link>https://blog.adafruit.com/2025/11/24/3d-printed-glasses-for-bringing-in-the-new-year/</link>
-      <description>The holidays are upon us and the New Year will be here before you know it. Greenyl shared this 3D print on Thingaverse! A trendy and humorous accessory:Glasses to celebrate the New Year 2026! – 3D Design Learn more!</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/3d-printed-glasses-for-bringing-in-the-new-year/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/large_display_glasses2-300x207.webp" length="0" type="image/webp"/>
-      <pubDate>Mon, 24 Nov 2025 17:00:48 +0000</pubDate>
+      <title>Arduino’s new terms of service worries hobbyists ahead of Qualcomm acquisition @arstechnica</title>
+      <link>https://blog.adafruit.com/2025/11/24/arduinos-new-terms-of-service-worries-hobbyists-ahead-of-qualcomm-acquisition-arstechnica/</link>
+      <description>Scharon Harding at Ars Technica writes about the change in the Arduino Terms of Service after acquisition by Qualcomm. “Why is reverse-engineering prohibited… for a company built on openly hackable systems?” Some members of the maker community are distraught about Arduino’s new terms of service (ToS), saying that the added rules put the company’s open source DNA […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/arduinos-new-terms-of-service-worries-hobbyists-ahead-of-qualcomm-acquisition-arstechnica/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/aa-14.png" length="0" type="image/png"/>
+      <pubDate>Mon, 24 Nov 2025 22:41:01 +0000</pubDate>
     </item>
     <item>
-      <title>Laptop displays in the era of MS-DOS</title>
-      <link>https://blog.adafruit.com/2025/11/24/laptop-displays-in-the-era-of-ms-dos/</link>
-      <description>Over on DOS Days, they have a great description of the types of laptop displays were used when Microsoft’s MS-DOS was used on older, less svelte laptops of the era. These days we take it for granted that our modern laptops have color high-resolution screens. Back when manufacturers were trying to make the IBM PC […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/laptop-displays-in-the-era-of-ms-dos/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/a-66.png" length="0" type="image/png"/>
-      <pubDate>Mon, 24 Nov 2025 17:11:10 +0000</pubDate>
+      <title>From the Adafruit Learning System: Hacking Holiday Animatronics</title>
+      <link>https://blog.adafruit.com/2025/11/24/from-the-adafruit-learning-system-hacking-holiday-animatronics/</link>
+      <description>The typical holiday animatronic will contain inputs, such as buttons and light/motion sensors, and outputs, such as motors, lights, and speakers. Learning to identify the parts of your animatronic will aid you in transplanting your own control system. Check out the guide from John Park and make your own this holiday season!</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/from-the-adafruit-learning-system-hacking-holiday-animatronics/</guid>
+      <pubDate>Mon, 24 Nov 2025 23:00:19 +0000</pubDate>
     </item>
     <item>
-      <title>What is Libretro and how can it help retro graphics displays?</title>
-      <link>https://blog.adafruit.com/2025/11/24/what-is-libretro-and-how-can-it-help-retro-graphics-displays/</link>
-      <description>Greg Kennedy still wants to use a Pentium 4 machine to provide emulation of older systems/games. But there are issues: “It has a particular problem, which is that the motherboard is saddled with the pathetic i740-based “Intel 3D Graphics” system from 2001.” Many emulators also can be built as a “RetroArch core”, which means the emulation […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/what-is-libretro-and-how-can-it-help-retro-graphics-displays/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/aa-3.png" length="0" type="image/png"/>
-      <pubDate>Mon, 24 Nov 2025 17:34:00 +0000</pubDate>
+      <title>Pico-100BASE-TX: RP2040/RP2350 bit-banged 100 MBit/s Ethernet @raspberry_pi</title>
+      <link>https://blog.adafruit.com/2025/11/24/pico-100base-tx-rp2040-rp2350-bit-banged-100-mbit-s-ethernet-raspberry_pi/</link>
+      <description>The Pico-100BASE-TX library allows a microcontroller to stream out data with around 11 MByte/s from a RP2040 or RP2350 MCU using the PIO to bit-bang a 100 MBit/s Fast Ethernet connection. It is somewhat similar to Pico-10BASE-T, which implemented TX-only 10 MBit/s Ethernet. Ideally use a pulse transformer with proper matching circuitry, or at least […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/pico-100base-tx-rp2040-rp2350-bit-banged-100-mbit-s-ethernet-raspberry_pi/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/x-3.gif" length="0" type="image/gif"/>
+      <pubDate>Mon, 24 Nov 2025 23:03:04 +0000</pubDate>
     </item>
     <item>
-      <title>The Kawaiicon hacker conference installed an air quality monitoring system</title>
-      <link>https://blog.adafruit.com/2025/11/24/the-kawaiicon-hacker-conference-installed-an-air-quality-monitoring-system/</link>
-      <description>At New Zealand’s Kawaiicon cybersecurity convention, organizers hacked together a way for attendees to track CO2 levels throughout the venue—even before they arrived. Kawaiicon’s work began one month before the conference. In early October, organizers deployed a small fleet of 13 RGB Matrix Portal Room CO2 Monitors, an ambient carbon dioxide monitor DIY project adapted from US electronics […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/the-kawaiicon-hacker-conference-installed-an-air-quality-monitoring-system/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/11/adafruit_products_image-10.png" length="0" type="image/png"/>
-      <pubDate>Mon, 24 Nov 2025 17:51:34 +0000</pubDate>
+      <title>Making a Lamp with Glass Fuses</title>
+      <link>https://blog.adafruit.com/2025/11/24/making-a-lamp-with-glass-fuses/</link>
+      <description>This little light from Huy Vector is giving steampunk meets… tron? Regardless of my read, this project looks very very cool. Check out the build materials here</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/11/24/making-a-lamp-with-glass-fuses/</guid>
+      <pubDate>Tue, 25 Nov 2025 01:00:36 +0000</pubDate>
     </item>
   </channel>
 </rss>
