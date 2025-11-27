@@ -37,7 +37,7 @@ class ProspectScraper:
 
     def load_prospects(self):
         """
-        Load prospects from CSV file.
+        Load prospects from CSV file, optionally skipping already-processed ones.
 
         Returns:
             list: List of prospect dictionaries
@@ -48,6 +48,29 @@ class ProspectScraper:
                 reader = csv.DictReader(f)
                 prospects = list(reader)
             print(f"📋 Loaded {len(prospects)} prospects from {Config.PROSPECTS_CSV}")
+
+            # Check if we should skip already-processed prospects
+            skip_processed = os.getenv('SKIP_PROCESSED', 'true').lower() == 'true'
+
+            if skip_processed and os.path.exists(Config.TRACKING_CSV):
+                # Load already-processed prospect IDs
+                processed_ids = set()
+                try:
+                    with open(Config.TRACKING_CSV, 'r', encoding='utf-8') as f:
+                        reader = csv.DictReader(f)
+                        for row in reader:
+                            if row.get('status') == 'success':
+                                processed_ids.add(row.get('prospect_id', ''))
+
+                    if processed_ids:
+                        original_count = len(prospects)
+                        prospects = [p for p in prospects if p.get('id', '') not in processed_ids]
+                        skipped = original_count - len(prospects)
+                        print(f"✅ Skipping {skipped} already-processed prospects")
+                        print(f"📊 Remaining prospects to process: {len(prospects)}")
+                except Exception as e:
+                    print(f"⚠️  Could not load tracking data: {e}")
+
             return prospects
         except FileNotFoundError:
             print(f"❌ Prospects file not found: {Config.PROSPECTS_CSV}")
