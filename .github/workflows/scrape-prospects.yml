@@ -295,7 +295,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add tracking.csv feeds/ index.html || true
+          git add tracking.csv index.html *.xml || true
           git diff --quiet && git diff --staged --quiet || \
             (git commit -m "Update scraping results - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" && \
              git push)

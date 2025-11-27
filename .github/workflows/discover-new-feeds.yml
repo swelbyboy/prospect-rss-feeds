@@ -1,0 +1,63 @@
+name: Discover New RSS Feeds
+
+on:
+  # Run monthly on the 1st at 3 AM UTC (before daily scrape)
+  schedule:
+    - cron: '0 3 1 * *'
+
+  # Allow manual triggering
+  workflow_dispatch:
+
+jobs:
+  discover-feeds:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install beautifulsoup4
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+
+      - name: Discover RSS feeds for prospects without feeds
+        run: |
+          python3 rss_discovery_enhanced.py
+
+      - name: Update prospects.csv with discovered feeds
+        run: |
+          python3 update_prospects_with_discovered_feeds.py
+
+      - name: Commit updated prospects
+        run: |
+          git add prospects.csv
+          if git diff --staged --quiet; then
+            echo "No new feeds discovered"
+          else
+            FEED_COUNT=$(git diff --staged prospects.csv | grep -c "^+.*,.*,.*,http" || echo "0")
+            git commit -m "Add ${FEED_COUNT} newly discovered RSS feeds - $(date -u '+%Y-%m-%d')"
+            git push
+            echo "✅ Added ${FEED_COUNT} new feeds"
+          fi
+
+      - name: Upload discovery log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rss-discovery-log
+          path: rss_discovery_results_enhanced.csv
+          retention-days: 30

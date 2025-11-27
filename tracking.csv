@@ -1,606 +1,606 @@
 prospect_id,company_name,domain,last_scrape_date,status,articles_found,rss_url,error_message,data_source
 1,Rugby Addict,rugby-addict.com,2025-11-27 06:35:44,failed,0,,"Error fetching feed: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",N/A
-3,Pacific Media Group,pmghawaii.com,2025-11-27 06:35:45,success,6,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pacific-media-group.xml,,OG
-8,It's Gone Viral,igvofficial.com,2025-11-27 06:35:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/it-s-gone-viral.xml,,OG
-12,SamMobile.com,sammobile.com,2025-11-27 06:35:50,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sammobile-com.xml,,OG
-14,Isle of Wight Radio,iwradio.co.uk,2025-11-27 06:35:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/isle-of-wight-radio.xml,,OG
-18,KTTN,kttn.com,2025-11-27 06:35:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kttn.xml,,OG
+3,Pacific Media Group,pmghawaii.com,2025-11-27 06:35:45,success,6,https://swelbyboy.github.io/prospect-rss-feeds/pacific-media-group.xml,,OG
+8,It's Gone Viral,igvofficial.com,2025-11-27 06:35:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/it-s-gone-viral.xml,,OG
+12,SamMobile.com,sammobile.com,2025-11-27 06:35:50,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sammobile-com.xml,,OG
+14,Isle of Wight Radio,iwradio.co.uk,2025-11-27 06:35:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/isle-of-wight-radio.xml,,OG
+18,KTTN,kttn.com,2025-11-27 06:35:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kttn.xml,,OG
 22,Chinese Herald,chineseherald.co.nz,2025-11-27 06:35:54,failed,0,,HTTP 403,N/A
-23,Gay Times,gaytimes.co.uk,2025-11-27 06:35:55,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gay-times.xml,,OG
-24,Catchfence,catchfence.com,2025-11-27 06:36:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/catchfence.xml,,OG
-25,Eleven Warriors,elevenwarriors.com,2025-11-27 06:36:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/eleven-warriors.xml,,OG
-28,Crime Online,crimeonline.com,2025-11-27 06:36:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/crime-online.xml,,OG
-29,Best Little Sites,comicbookmovie.com,2025-11-27 06:36:06,success,7,https://swelbyboy.github.io/prospect-rss-feeds/feeds/best-little-sites.xml,,OG
-33,Ringside News,ringsidenews.com,2025-11-27 06:36:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ringside-news.xml,,OG
-35,Pulse 2.0,pulse2.com,2025-11-27 06:36:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pulse-2-0.xml,,OG
-36,Cricket Australia,cricketaustralia.com.au,2025-11-27 06:36:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/cricket-australia.xml,,RSS
-37,KnowTechie,knowtechie.com,2025-11-27 06:36:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/knowtechie.xml,,OG
-38,Londra Gazete,londragazete.com,2025-11-27 06:36:15,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/londra-gazete.xml,,OG
+23,Gay Times,gaytimes.co.uk,2025-11-27 06:35:55,success,9,https://swelbyboy.github.io/prospect-rss-feeds/gay-times.xml,,OG
+24,Catchfence,catchfence.com,2025-11-27 06:36:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/catchfence.xml,,OG
+25,Eleven Warriors,elevenwarriors.com,2025-11-27 06:36:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/eleven-warriors.xml,,OG
+28,Crime Online,crimeonline.com,2025-11-27 06:36:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/crime-online.xml,,OG
+29,Best Little Sites,comicbookmovie.com,2025-11-27 06:36:06,success,7,https://swelbyboy.github.io/prospect-rss-feeds/best-little-sites.xml,,OG
+33,Ringside News,ringsidenews.com,2025-11-27 06:36:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ringside-news.xml,,OG
+35,Pulse 2.0,pulse2.com,2025-11-27 06:36:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/pulse-2-0.xml,,OG
+36,Cricket Australia,cricketaustralia.com.au,2025-11-27 06:36:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/cricket-australia.xml,,RSS
+37,KnowTechie,knowtechie.com,2025-11-27 06:36:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/knowtechie.xml,,OG
+38,Londra Gazete,londragazete.com,2025-11-27 06:36:15,success,10,https://swelbyboy.github.io/prospect-rss-feeds/londra-gazete.xml,,OG
 39,Vital MTB,vitalmtb.com,2025-11-27 06:36:16,failed,0,,HTTP 406,N/A
-43,Just Jared,justjared.com,2025-11-27 06:36:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/just-jared.xml,,OG
-44,Rimix Radio,rimixradio.com,2025-11-27 06:36:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/rimix-radio.xml,,OG
-47,The Poke,thepoke.co.uk,2025-11-27 06:36:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-poke.xml,,OG
-50,Celeb Dirty Laundry,celebdirtylaundry.com,2025-11-27 06:36:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/celeb-dirty-laundry.xml,,OG
-51,Over60,oversixty.com.au,2025-11-27 06:36:46,success,2,https://swelbyboy.github.io/prospect-rss-feeds/feeds/over60.xml,,OG
-52,Quad Cities,quadcities.com,2025-11-27 06:37:07,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/quad-cities.xml,,OG
-53,Gematsu,gematsu.com,2025-11-27 06:37:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gematsu.xml,,OG
-60,AllHipHop,allhiphop.com,2025-11-27 06:37:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/allhiphop.xml,,OG
-61,Mom and More,momandmore.com,2025-11-27 06:37:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mom-and-more.xml,,OG
-64,IMBOLDN,imboldn.com,2025-11-27 06:37:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/imboldn.xml,,OG
+43,Just Jared,justjared.com,2025-11-27 06:36:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/just-jared.xml,,OG
+44,Rimix Radio,rimixradio.com,2025-11-27 06:36:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/rimix-radio.xml,,OG
+47,The Poke,thepoke.co.uk,2025-11-27 06:36:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-poke.xml,,OG
+50,Celeb Dirty Laundry,celebdirtylaundry.com,2025-11-27 06:36:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/celeb-dirty-laundry.xml,,OG
+51,Over60,oversixty.com.au,2025-11-27 06:36:46,success,2,https://swelbyboy.github.io/prospect-rss-feeds/over60.xml,,OG
+52,Quad Cities,quadcities.com,2025-11-27 06:37:07,success,9,https://swelbyboy.github.io/prospect-rss-feeds/quad-cities.xml,,OG
+53,Gematsu,gematsu.com,2025-11-27 06:37:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gematsu.xml,,OG
+60,AllHipHop,allhiphop.com,2025-11-27 06:37:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/allhiphop.xml,,OG
+61,Mom and More,momandmore.com,2025-11-27 06:37:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mom-and-more.xml,,OG
+64,IMBOLDN,imboldn.com,2025-11-27 06:37:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/imboldn.xml,,OG
 75,Derry Daily,derrydaily.net,2025-11-27 06:37:55,failed,0,,HTTP 403,N/A
-76,Indiana Public Media,indianapublicmedia.org,2025-11-27 06:37:59,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/indiana-public-media.xml,,OG
-78,I Creative Ideas,icreativeideas.com,2025-11-27 06:38:00,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/i-creative-ideas.xml,,OG
-81,Newsdakota.com,newsdakota.com,2025-11-27 06:38:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/newsdakota-com.xml,,OG
-84,Essex Media Group,itemlive.com,2025-11-27 06:38:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/essex-media-group.xml,,OG
-85,MageeNews.com,mageenews.com,2025-11-27 06:38:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mageenews-com.xml,,OG
+76,Indiana Public Media,indianapublicmedia.org,2025-11-27 06:37:59,success,10,https://swelbyboy.github.io/prospect-rss-feeds/indiana-public-media.xml,,OG
+78,I Creative Ideas,icreativeideas.com,2025-11-27 06:38:00,success,8,https://swelbyboy.github.io/prospect-rss-feeds/i-creative-ideas.xml,,OG
+81,Newsdakota.com,newsdakota.com,2025-11-27 06:38:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/newsdakota-com.xml,,OG
+84,Essex Media Group,itemlive.com,2025-11-27 06:38:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/essex-media-group.xml,,OG
+85,MageeNews.com,mageenews.com,2025-11-27 06:38:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mageenews-com.xml,,OG
 87,TheBigLead,thebiglead.com,2025-11-27 06:38:10,failed,0,,HTTP 403,N/A
-88,EventHubs,eventhubs.com,2025-11-27 06:38:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/eventhubs.xml,,OG
-90,Thecryptobasic,thecryptobasic.com,2025-11-27 06:38:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/thecryptobasic.xml,,OG
-92,FOX 24 Charleston,foxcharleston.com,2025-11-27 06:38:26,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/fox-24-charleston.xml,,OG
-93,The Manual,themanual.com,2025-11-27 06:38:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-manual.xml,,OG
-97,"Heritage Media Of Kentucky, Inc",k105.com,2025-11-27 06:38:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/heritage-media-of-kentucky--inc.xml,,OG
-98,Ziarul Românesc,ziarulromanesc.net,2025-11-27 06:38:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ziarul-românesc.xml,,OG
-99,Bounding Into Comics,boundingintocomics.com,2025-11-27 06:38:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bounding-into-comics.xml,,OG
-105,MyMMANews.com,mymmanews.com,2025-11-27 06:38:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mymmanews-com.xml,,OG
-108,Kiss Binghamton,kissbinghamton.com,2025-11-27 06:38:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kiss-binghamton.xml,,OG
+88,EventHubs,eventhubs.com,2025-11-27 06:38:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/eventhubs.xml,,OG
+90,Thecryptobasic,thecryptobasic.com,2025-11-27 06:38:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/thecryptobasic.xml,,OG
+92,FOX 24 Charleston,foxcharleston.com,2025-11-27 06:38:26,success,10,https://swelbyboy.github.io/prospect-rss-feeds/fox-24-charleston.xml,,OG
+93,The Manual,themanual.com,2025-11-27 06:38:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-manual.xml,,OG
+97,"Heritage Media Of Kentucky, Inc",k105.com,2025-11-27 06:38:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/heritage-media-of-kentucky--inc.xml,,OG
+98,Ziarul Românesc,ziarulromanesc.net,2025-11-27 06:38:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ziarul-românesc.xml,,OG
+99,Bounding Into Comics,boundingintocomics.com,2025-11-27 06:38:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/bounding-into-comics.xml,,OG
+105,MyMMANews.com,mymmanews.com,2025-11-27 06:38:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mymmanews-com.xml,,OG
+108,Kiss Binghamton,kissbinghamton.com,2025-11-27 06:38:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kiss-binghamton.xml,,OG
 110,The Fandom Post,fandompost.com,2025-11-27 06:38:46,failed,0,,HTTP 403,N/A
 111,Ruck Rugby Limited,ruck.co.uk,2025-11-27 06:38:47,failed,0,,HTTP 304,N/A
-113,BangShift.com,bangshift.com,2025-11-27 06:38:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bangshift-com.xml,,OG
-115,AcheiUSA,acheiusa.com,2025-11-27 06:38:59,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/acheiusa.xml,,OG
-126,BlackSportsOnline,blacksportsonline.com,2025-11-27 06:39:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/blacksportsonline.xml,,OG
-127,EDM Identity,edmidentity.com,2025-11-27 06:39:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/edm-identity.xml,,OG
-128,Awful Announcing,awfulannouncing.com,2025-11-27 06:39:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/awful-announcing.xml,,OG
-130,Motorsport Week,motorsportweek.com,2025-11-27 06:39:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/motorsport-week.xml,,OG
-133,Mactrast,mactrast.com,2025-11-27 06:39:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mactrast.xml,,OG
-135,411Mania,411mania.com,2025-11-27 06:39:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/411mania.xml,,OG
-136,Awareness Act,awarenessact.com,2025-11-27 06:39:15,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/awareness-act.xml,,OG
-137,Bleeding Cool,bleedingcool.com,2025-11-27 06:39:16,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bleeding-cool.xml,,OG
-139,The Hard Tackle,thehardtackle.com,2025-11-27 06:39:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-hard-tackle.xml,,OG
-140,Comic Watch,comic-watch.com,2025-11-27 06:39:22,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/comic-watch.xml,,OG
+113,BangShift.com,bangshift.com,2025-11-27 06:38:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/bangshift-com.xml,,OG
+115,AcheiUSA,acheiusa.com,2025-11-27 06:38:59,success,10,https://swelbyboy.github.io/prospect-rss-feeds/acheiusa.xml,,OG
+126,BlackSportsOnline,blacksportsonline.com,2025-11-27 06:39:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/blacksportsonline.xml,,OG
+127,EDM Identity,edmidentity.com,2025-11-27 06:39:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/edm-identity.xml,,OG
+128,Awful Announcing,awfulannouncing.com,2025-11-27 06:39:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/awful-announcing.xml,,OG
+130,Motorsport Week,motorsportweek.com,2025-11-27 06:39:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/motorsport-week.xml,,OG
+133,Mactrast,mactrast.com,2025-11-27 06:39:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mactrast.xml,,OG
+135,411Mania,411mania.com,2025-11-27 06:39:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/411mania.xml,,OG
+136,Awareness Act,awarenessact.com,2025-11-27 06:39:15,success,10,https://swelbyboy.github.io/prospect-rss-feeds/awareness-act.xml,,OG
+137,Bleeding Cool,bleedingcool.com,2025-11-27 06:39:16,success,9,https://swelbyboy.github.io/prospect-rss-feeds/bleeding-cool.xml,,OG
+139,The Hard Tackle,thehardtackle.com,2025-11-27 06:39:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-hard-tackle.xml,,OG
+140,Comic Watch,comic-watch.com,2025-11-27 06:39:22,success,10,https://swelbyboy.github.io/prospect-rss-feeds/comic-watch.xml,,OG
 144,MSPoweruser.com,mspoweruser.com,2025-11-27 06:39:22,failed,0,,HTTP 403,N/A
-145,Soccer Publishing Limited,thisisanfield.com,2025-11-27 06:39:23,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/soccer-publishing-limited.xml,,OG
-148,"American Football International, LLC",americanfootballinternational.com,2025-11-27 06:39:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/american-football-international--llc.xml,,OG
-149,Ink Free News,inkfreenews.com,2025-11-27 06:39:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ink-free-news.xml,,OG
-154,DailyFaceoff.com,dailyfaceoff.com,2025-11-27 06:39:41,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dailyfaceoff-com.xml,,OG
-155,The Market Herald,themarketherald.com.au,2025-11-27 06:39:58,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-market-herald.xml,,OG
+145,Soccer Publishing Limited,thisisanfield.com,2025-11-27 06:39:23,success,10,https://swelbyboy.github.io/prospect-rss-feeds/soccer-publishing-limited.xml,,OG
+148,"American Football International, LLC",americanfootballinternational.com,2025-11-27 06:39:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/american-football-international--llc.xml,,OG
+149,Ink Free News,inkfreenews.com,2025-11-27 06:39:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ink-free-news.xml,,OG
+154,DailyFaceoff.com,dailyfaceoff.com,2025-11-27 06:39:41,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dailyfaceoff-com.xml,,OG
+155,The Market Herald,themarketherald.com.au,2025-11-27 06:39:58,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-market-herald.xml,,OG
 156,Trusted Reviews,trustedreviews.com,2025-11-27 06:39:58,failed,0,,HTTP 403,N/A
-157,WOUB Public Media,woub.org,2025-11-27 06:39:59,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/woub-public-media.xml,,OG
-158,Distinctly Montana,distinctlymontana.com,2025-11-27 06:40:02,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/distinctly-montana.xml,,OG
-160,Noticia Cristiana,noticiacristiana.com,2025-11-27 06:40:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/noticia-cristiana.xml,,OG
-163,Wrestleview.com,wrestleview.com,2025-11-27 06:40:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/wrestleview-com.xml,,OG
-164,Oyungg,savebutonu.com,2025-11-27 06:40:09,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/oyungg.xml,,OG
-167,DESblitz,desiblitz.com,2025-11-27 06:40:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/desblitz.xml,,OG
-168,Fitness Gurls,fitnessgurls.com,2025-11-27 06:40:13,success,3,https://swelbyboy.github.io/prospect-rss-feeds/feeds/fitness-gurls.xml,,OG
-170,The Nerd Stash,thenerdstash.com,2025-11-27 06:40:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-nerd-stash.xml,,OG
-172,072info,072info.com,2025-11-27 06:40:17,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/072info.xml,,OG
-176,112Groningen,112groningen.nl,2025-11-27 06:40:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/112groningen.xml,,OG
-177,KCJJ,1630kcjj.com,2025-11-27 06:40:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kcjj.xml,,OG
-181,360medical.ro,360medical.ro,2025-11-27 06:40:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/360medical-ro.xml,,OG
-184,52Bangla TV,52banglatv.com,2025-11-27 06:40:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/52bangla-tv.xml,,OG
-186,A07 Online Media,a07online.com,2025-11-27 06:40:32,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/a07-online-media.xml,,OG
+157,WOUB Public Media,woub.org,2025-11-27 06:39:59,success,10,https://swelbyboy.github.io/prospect-rss-feeds/woub-public-media.xml,,OG
+158,Distinctly Montana,distinctlymontana.com,2025-11-27 06:40:02,success,10,https://swelbyboy.github.io/prospect-rss-feeds/distinctly-montana.xml,,OG
+160,Noticia Cristiana,noticiacristiana.com,2025-11-27 06:40:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/noticia-cristiana.xml,,OG
+163,Wrestleview.com,wrestleview.com,2025-11-27 06:40:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/wrestleview-com.xml,,OG
+164,Oyungg,savebutonu.com,2025-11-27 06:40:09,success,8,https://swelbyboy.github.io/prospect-rss-feeds/oyungg.xml,,OG
+167,DESblitz,desiblitz.com,2025-11-27 06:40:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/desblitz.xml,,OG
+168,Fitness Gurls,fitnessgurls.com,2025-11-27 06:40:13,success,3,https://swelbyboy.github.io/prospect-rss-feeds/fitness-gurls.xml,,OG
+170,The Nerd Stash,thenerdstash.com,2025-11-27 06:40:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-nerd-stash.xml,,OG
+172,072info,072info.com,2025-11-27 06:40:17,success,10,https://swelbyboy.github.io/prospect-rss-feeds/072info.xml,,OG
+176,112Groningen,112groningen.nl,2025-11-27 06:40:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/112groningen.xml,,OG
+177,KCJJ,1630kcjj.com,2025-11-27 06:40:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kcjj.xml,,OG
+181,360medical.ro,360medical.ro,2025-11-27 06:40:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/360medical-ro.xml,,OG
+184,52Bangla TV,52banglatv.com,2025-11-27 06:40:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/52bangla-tv.xml,,OG
+186,A07 Online Media,a07online.com,2025-11-27 06:40:32,success,8,https://swelbyboy.github.io/prospect-rss-feeds/a07-online-media.xml,,OG
 187,ABC Gazetesi,abcgazetesi.com,2025-11-27 06:40:32,failed,0,,HTTP 403,N/A
-189,ABC Online Media,abconlinemedia.com,2025-11-27 06:40:35,success,2,https://swelbyboy.github.io/prospect-rss-feeds/feeds/abc-online-media.xml,,OG
-192,Adafruit,adafruit.com,2025-11-27 06:40:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/adafruit.xml,,RSS
-193,A Day Magazine,adaymag.com,2025-11-27 06:40:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/a-day-magazine.xml,,OG
-194,AEK1924.gr,aek1924.gr,2025-11-27 06:40:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/aek1924-gr.xml,,OG
-195,Αλέξης Φωτόπουλος,afotopoulos.gr,2025-11-27 06:41:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/αλέξης-φωτόπουλος.xml,,OG
+189,ABC Online Media,abconlinemedia.com,2025-11-27 06:40:35,success,2,https://swelbyboy.github.io/prospect-rss-feeds/abc-online-media.xml,,OG
+192,Adafruit,adafruit.com,2025-11-27 06:40:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/adafruit.xml,,RSS
+193,A Day Magazine,adaymag.com,2025-11-27 06:40:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/a-day-magazine.xml,,OG
+194,AEK1924.gr,aek1924.gr,2025-11-27 06:40:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/aek1924-gr.xml,,OG
+195,Αλέξης Φωτόπουλος,afotopoulos.gr,2025-11-27 06:41:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/αλέξης-φωτόπουλος.xml,,OG
 196,Afyon Postası,afyonpostasi.com.tr,2025-11-27 06:41:09,failed,0,,HTTP 403,N/A
-197,Αγγελίες εργασίας - Προγράμματα Ασεπ-Οαεδ,ageliesergasias.gr,2025-11-27 06:41:15,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/αγγελίες-εργασίας---προγράμματα-ασεπ-οαεδ.xml,,OG
-198,Agriconnect,agriconnect.com,2025-11-27 06:41:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/agriconnect.xml,,RSS
-200,Agromedia.ro,agromedia.ro,2025-11-27 06:41:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/agromedia-ro.xml,,OG
-201,Ahewar,ahewar.org,2025-11-27 06:41:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ahewar.xml,,RSS
-202,Aixmi News,aixmi-news.gr,2025-11-27 06:41:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/aixmi-news.xml,,OG
-204,Akos.ba,akos.ba,2025-11-27 06:41:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/akos-ba.xml,,OG
+197,Αγγελίες εργασίας - Προγράμματα Ασεπ-Οαεδ,ageliesergasias.gr,2025-11-27 06:41:15,success,8,https://swelbyboy.github.io/prospect-rss-feeds/αγγελίες-εργασίας---προγράμματα-ασεπ-οαεδ.xml,,OG
+198,Agriconnect,agriconnect.com,2025-11-27 06:41:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/agriconnect.xml,,RSS
+200,Agromedia.ro,agromedia.ro,2025-11-27 06:41:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/agromedia-ro.xml,,OG
+201,Ahewar,ahewar.org,2025-11-27 06:41:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ahewar.xml,,RSS
+202,Aixmi News,aixmi-news.gr,2025-11-27 06:41:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/aixmi-news.xml,,OG
+204,Akos.ba,akos.ba,2025-11-27 06:41:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/akos-ba.xml,,OG
 207,Al-Arab Publishing House,alarab.co.uk,2025-11-27 06:41:56,failed,0,,HTTP 403,N/A
-209,Alfahir,alfahir.hu,2025-11-27 06:41:58,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/alfahir.xml,,OG
-216,Analytics Insight,analyticsinsight.net,2025-11-27 06:41:59,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/analytics-insight.xml,,OG
-219,Android.com.pl,android.com.pl,2025-11-27 06:42:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/android-com-pl.xml,,OG
+209,Alfahir,alfahir.hu,2025-11-27 06:41:58,success,10,https://swelbyboy.github.io/prospect-rss-feeds/alfahir.xml,,OG
+216,Analytics Insight,analyticsinsight.net,2025-11-27 06:41:59,success,10,https://swelbyboy.github.io/prospect-rss-feeds/analytics-insight.xml,,OG
+219,Android.com.pl,android.com.pl,2025-11-27 06:42:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/android-com-pl.xml,,OG
 224,Associated Press of Pakistan (APP),app.com.pk,2025-11-27 06:42:02,failed,0,,HTTP 403,N/A
-225,Arabi21,arabi21.com,2025-11-27 06:43:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/arabi21.xml,,"OG (7), RSS (3)"
-228,Arena Bodrum Haber,arenabodrumhaber.com,2025-11-27 06:43:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/arena-bodrum-haber.xml,,OG
-231,ARY Digital Network,arydigitalnetwork.tv,2025-11-27 06:43:34,success,2,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ary-digital-network.xml,,OG
-232,Ary News,arynews.tv,2025-11-27 06:43:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ary-news.xml,,OG
-236,ATV,atv.hu,2025-11-27 06:43:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/atv.xml,,"OG (9), RSS (1)"
+225,Arabi21,arabi21.com,2025-11-27 06:43:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/arabi21.xml,,"OG (7), RSS (3)"
+228,Arena Bodrum Haber,arenabodrumhaber.com,2025-11-27 06:43:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/arena-bodrum-haber.xml,,OG
+231,ARY Digital Network,arydigitalnetwork.tv,2025-11-27 06:43:34,success,2,https://swelbyboy.github.io/prospect-rss-feeds/ary-digital-network.xml,,OG
+232,Ary News,arynews.tv,2025-11-27 06:43:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ary-news.xml,,OG
+236,ATV,atv.hu,2025-11-27 06:43:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/atv.xml,,"OG (9), RSS (1)"
 238,Augusta Free Press,augustafreepress.com,2025-11-27 06:43:48,failed,0,,HTTP 403,N/A
-241,Aviation & Defence Universe,aviation-defence-universe.com,2025-11-27 06:44:26,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/aviation---defence-universe.xml,,RSS
-243,Awesome Stuff 365,awesomestuff365.com,2025-11-27 06:44:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/awesome-stuff-365.xml,,OG
-244,Aydınlık,aydinlik.com.tr,2025-11-27 06:44:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/aydınlık.xml,,OG
-246,Backyard Garden Lover,backyardgardenlover.com,2025-11-27 06:44:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/backyard-garden-lover.xml,,OG
+241,Aviation & Defence Universe,aviation-defence-universe.com,2025-11-27 06:44:26,success,10,https://swelbyboy.github.io/prospect-rss-feeds/aviation---defence-universe.xml,,RSS
+243,Awesome Stuff 365,awesomestuff365.com,2025-11-27 06:44:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/awesome-stuff-365.xml,,OG
+244,Aydınlık,aydinlik.com.tr,2025-11-27 06:44:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/aydınlık.xml,,OG
+246,Backyard Garden Lover,backyardgardenlover.com,2025-11-27 06:44:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/backyard-garden-lover.xml,,OG
 247,Balkanrock,balkanrock.com,2025-11-27 06:44:33,failed,0,,HTTP 401,N/A
-249,BanglaNews24.com.bd,banglanews24.com,2025-11-27 06:44:40,success,0,https://swelbyboy.github.io/prospect-rss-feeds/feeds/banglanews24-com-bd.xml,,RSS
+249,BanglaNews24.com.bd,banglanews24.com,2025-11-27 06:44:40,success,0,https://swelbyboy.github.io/prospect-rss-feeds/banglanews24-com-bd.xml,,RSS
 250,Bangla Tribune,banglatribune.com,2025-11-27 06:44:40,failed,0,,HTTP 403,N/A
-251,Bangla TV,banglatv.tv,2025-11-27 06:44:41,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bangla-tv.xml,,OG
-252,bankingnews.gr,bankingnews.gr,2025-11-27 06:44:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bankingnews-gr.xml,,OG
+251,Bangla TV,banglatv.tv,2025-11-27 06:44:41,success,10,https://swelbyboy.github.io/prospect-rss-feeds/bangla-tv.xml,,OG
+252,bankingnews.gr,bankingnews.gr,2025-11-27 06:44:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/bankingnews-gr.xml,,OG
 254,Bant Mag,bantmag.com,2025-11-27 06:44:44,failed,0,,HTTP 403,N/A
 255,Barta Bazar,bartabazar.com,2025-11-27 06:44:44,failed,0,,HTTP 403,N/A
-256,Basketa.gr,basketa.gr,2025-11-27 06:44:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/basketa-gr.xml,,OG
+256,Basketa.gr,basketa.gr,2025-11-27 06:44:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/basketa-gr.xml,,OG
 257,Başlat Tuşu,baslattusu.com,2025-11-27 06:44:47,failed,0,,HTTP 403,N/A
-259,Batman Çağdaş Gazetesi,batmancagdas.com,2025-11-27 06:44:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/batman-çağdaş-gazetesi.xml,,RSS
-262,Beebom,beebom.com,2025-11-27 06:44:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/beebom.xml,,OG
-264,BENGÜTÜRK TV,benguturk.com,2025-11-27 06:44:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bengütürk-tv.xml,,OG
-265,BetaNews,betanews.com,2025-11-27 06:44:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/betanews.xml,,OG
-266,Bezuzyteczna.pl,bezuzyteczna.pl,2025-11-27 06:44:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bezuzyteczna-pl.xml,,OG
-267,Bezzeganya,bezzeganya.hu,2025-11-27 06:45:04,success,0,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bezzeganya.xml,,RSS
-272,Biplabi Sabyasachi News,biplabisabyasachi.com,2025-11-27 06:45:15,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/biplabi-sabyasachi-news.xml,,OG
-273,Aplicatia Biziday,biziday.ro,2025-11-27 06:45:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/aplicatia-biziday.xml,,OG
-274,Black Southern Belle,blacksouthernbelle.com,2025-11-27 06:45:26,success,5,https://swelbyboy.github.io/prospect-rss-feeds/feeds/black-southern-belle.xml,,OG
-276,Blagoevgrad-NEWS,blagoevgrad-news.com,2025-11-27 06:45:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/blagoevgrad-news.xml,,OG
-278,BlenderNation,blendernation.com,2025-11-27 06:45:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/blendernation.xml,,OG
-279,blife.gr,blife.gr,2025-11-27 06:45:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/blife-gr.xml,,OG
-280,Blitz.bg,blitz.bg,2025-11-27 06:45:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/blitz-bg.xml,,RSS
-282,BLOKO,bloko.gr,2025-11-27 06:45:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bloko.xml,,OG
+259,Batman Çağdaş Gazetesi,batmancagdas.com,2025-11-27 06:44:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/batman-çağdaş-gazetesi.xml,,RSS
+262,Beebom,beebom.com,2025-11-27 06:44:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/beebom.xml,,OG
+264,BENGÜTÜRK TV,benguturk.com,2025-11-27 06:44:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/bengütürk-tv.xml,,OG
+265,BetaNews,betanews.com,2025-11-27 06:44:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/betanews.xml,,OG
+266,Bezuzyteczna.pl,bezuzyteczna.pl,2025-11-27 06:44:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/bezuzyteczna-pl.xml,,OG
+267,Bezzeganya,bezzeganya.hu,2025-11-27 06:45:04,success,0,https://swelbyboy.github.io/prospect-rss-feeds/bezzeganya.xml,,RSS
+272,Biplabi Sabyasachi News,biplabisabyasachi.com,2025-11-27 06:45:15,success,10,https://swelbyboy.github.io/prospect-rss-feeds/biplabi-sabyasachi-news.xml,,OG
+273,Aplicatia Biziday,biziday.ro,2025-11-27 06:45:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/aplicatia-biziday.xml,,OG
+274,Black Southern Belle,blacksouthernbelle.com,2025-11-27 06:45:26,success,5,https://swelbyboy.github.io/prospect-rss-feeds/black-southern-belle.xml,,OG
+276,Blagoevgrad-NEWS,blagoevgrad-news.com,2025-11-27 06:45:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/blagoevgrad-news.xml,,OG
+278,BlenderNation,blendernation.com,2025-11-27 06:45:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/blendernation.xml,,OG
+279,blife.gr,blife.gr,2025-11-27 06:45:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/blife-gr.xml,,OG
+280,Blitz.bg,blitz.bg,2025-11-27 06:45:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/blitz-bg.xml,,RSS
+282,BLOKO,bloko.gr,2025-11-27 06:45:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/bloko.xml,,OG
 284,Blueprint Newspapers,blueprint.ng,2025-11-27 06:45:47,failed,0,,HTTP 403,N/A
-286,Bobotoh ID,bobotoh.id,2025-11-27 06:46:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bobotoh-id.xml,,OG
-287,Boec.bg,boec.bg,2025-11-27 06:46:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/boec-bg.xml,,OG
-290,Bollywood Bubble,bollywoodbubble.com,2025-11-27 06:46:46,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bollywood-bubble.xml,,OG
-291,BollywoodShaadis.com,bollywoodshaadis.com,2025-11-27 06:46:50,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/bollywoodshaadis-com.xml,,OG
-292,Mumbai Samachar,bombaysamachar.com,2025-11-27 06:46:58,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mumbai-samachar.xml,,OG
-295,Булевард България Boulevard Bulgaria,boulevardbulgaria.bg,2025-11-27 06:47:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/булевард-българия-boulevard-bulgaria.xml,,OG
-296,Brasov Time,brasov.net,2025-11-27 06:47:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/brasov-time.xml,,OG
-299,Brownwood News,brownwoodnews.com,2025-11-27 06:47:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/brownwood-news.xml,,OG
-300,budapest kornyeke,budapestkornyeke.hu,2025-11-27 06:47:13,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/budapest-kornyeke.xml,,OG
-301,Budget Earth,budgetearth.com,2025-11-27 06:47:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/budget-earth.xml,,RSS
-307,Caras Online,caon.ro,2025-11-27 06:47:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/caras-online.xml,,OG
-308,CapeCod.com,capecod.com,2025-11-27 06:47:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/capecod-com.xml,,OG
-309,Capital.ro,capital.ro,2025-11-27 06:47:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/capital-ro.xml,,OG
-312,CarGuide.PH,carguide.ph,2025-11-27 06:47:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/carguide-ph.xml,,OG
-313,Cashless.pl,cashless.pl,2025-11-27 06:47:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/cashless-pl.xml,,OG
+286,Bobotoh ID,bobotoh.id,2025-11-27 06:46:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/bobotoh-id.xml,,OG
+287,Boec.bg,boec.bg,2025-11-27 06:46:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/boec-bg.xml,,OG
+290,Bollywood Bubble,bollywoodbubble.com,2025-11-27 06:46:46,success,9,https://swelbyboy.github.io/prospect-rss-feeds/bollywood-bubble.xml,,OG
+291,BollywoodShaadis.com,bollywoodshaadis.com,2025-11-27 06:46:50,success,10,https://swelbyboy.github.io/prospect-rss-feeds/bollywoodshaadis-com.xml,,OG
+292,Mumbai Samachar,bombaysamachar.com,2025-11-27 06:46:58,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mumbai-samachar.xml,,OG
+295,Булевард България Boulevard Bulgaria,boulevardbulgaria.bg,2025-11-27 06:47:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/булевард-българия-boulevard-bulgaria.xml,,OG
+296,Brasov Time,brasov.net,2025-11-27 06:47:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/brasov-time.xml,,OG
+299,Brownwood News,brownwoodnews.com,2025-11-27 06:47:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/brownwood-news.xml,,OG
+300,budapest kornyeke,budapestkornyeke.hu,2025-11-27 06:47:13,success,10,https://swelbyboy.github.io/prospect-rss-feeds/budapest-kornyeke.xml,,OG
+301,Budget Earth,budgetearth.com,2025-11-27 06:47:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/budget-earth.xml,,RSS
+307,Caras Online,caon.ro,2025-11-27 06:47:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/caras-online.xml,,OG
+308,CapeCod.com,capecod.com,2025-11-27 06:47:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/capecod-com.xml,,OG
+309,Capital.ro,capital.ro,2025-11-27 06:47:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/capital-ro.xml,,OG
+312,CarGuide.PH,carguide.ph,2025-11-27 06:47:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/carguide-ph.xml,,OG
+313,Cashless.pl,cashless.pl,2025-11-27 06:47:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/cashless-pl.xml,,OG
 316,Ceknricek.com,ceknricek.com,2025-11-27 06:47:48,failed,0,,HTTP 403,N/A
-318,Circle of Cricket India,circleofcricket.com,2025-11-27 06:48:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/circle-of-cricket-india.xml,,OG
-319,Civilhetes,civilhetes.net,2025-11-27 06:48:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/civilhetes.xml,,RSS
-320,Clare FM,clare.fm,2025-11-27 06:48:39,success,6,https://swelbyboy.github.io/prospect-rss-feeds/feeds/clare-fm.xml,,OG
-322,clinica.bg,clinica.bg,2025-11-27 06:48:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/clinica-bg.xml,,OG
-325,Color Press,color.rs,2025-11-27 06:48:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/color-press.xml,,OG
-329,Corren,corren.se,2025-11-27 06:48:50,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/corren.xml,,OG
-331,CretaDrive,cretadrive.gr,2025-11-27 06:49:01,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/cretadrive.xml,,OG
-332,Cricfit,cricfit.com,2025-11-27 06:49:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/cricfit.xml,,OG
-333,Cricketnmore,cricketnmore.com,2025-11-27 06:49:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/cricketnmore.xml,,OG
-334,CricketTimes.com,crickettimes.com,2025-11-27 06:49:15,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/crickettimes-com.xml,,OG
-335,Cricket Shots,cricshots.com,2025-11-27 06:49:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/cricket-shots.xml,,OG
-336,Crowd Media [Poland],crowdmedia.pl,2025-11-27 06:49:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/crowd-media--poland.xml,,OG
-338,Cuckoo For Coupon Deals,cuckooforcoupondeals.com,2025-11-27 06:49:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/cuckoo-for-coupon-deals.xml,,OG
+318,Circle of Cricket India,circleofcricket.com,2025-11-27 06:48:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/circle-of-cricket-india.xml,,OG
+319,Civilhetes,civilhetes.net,2025-11-27 06:48:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/civilhetes.xml,,RSS
+320,Clare FM,clare.fm,2025-11-27 06:48:39,success,6,https://swelbyboy.github.io/prospect-rss-feeds/clare-fm.xml,,OG
+322,clinica.bg,clinica.bg,2025-11-27 06:48:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/clinica-bg.xml,,OG
+325,Color Press,color.rs,2025-11-27 06:48:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/color-press.xml,,OG
+329,Corren,corren.se,2025-11-27 06:48:50,success,10,https://swelbyboy.github.io/prospect-rss-feeds/corren.xml,,OG
+331,CretaDrive,cretadrive.gr,2025-11-27 06:49:01,success,9,https://swelbyboy.github.io/prospect-rss-feeds/cretadrive.xml,,OG
+332,Cricfit,cricfit.com,2025-11-27 06:49:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/cricfit.xml,,OG
+333,Cricketnmore,cricketnmore.com,2025-11-27 06:49:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/cricketnmore.xml,,OG
+334,CricketTimes.com,crickettimes.com,2025-11-27 06:49:15,success,9,https://swelbyboy.github.io/prospect-rss-feeds/crickettimes-com.xml,,OG
+335,Cricket Shots,cricshots.com,2025-11-27 06:49:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/cricket-shots.xml,,OG
+336,Crowd Media [Poland],crowdmedia.pl,2025-11-27 06:49:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/crowd-media--poland.xml,,OG
+338,Cuckoo For Coupon Deals,cuckooforcoupondeals.com,2025-11-27 06:49:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/cuckoo-for-coupon-deals.xml,,OG
 344,Daily Ausaf,dailyausaf.com,2025-11-27 06:49:40,failed,0,,HTTP 403,N/A
-345,Daily Post Punjabi,dailypost.in,2025-11-27 06:49:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/daily-post-punjabi.xml,,OG
-346,Daily Post Nigeria,dailypost.ng,2025-11-27 06:49:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/daily-post-nigeria.xml,,OG
-348,Dap-News,dap-news.com,2025-11-27 06:49:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dap-news.xml,,OG
-349,Dartfreakz.nl,dartfreakz.nl,2025-11-27 06:50:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dartfreakz-nl.xml,,OG
-350,Dastak Times,dastaktimes.org,2025-11-27 06:50:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dastak-times.xml,,OG
-351,DCNews,dcnews.ro,2025-11-27 06:50:11,success,7,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dcnews.xml,,RSS
-353,Debreceni Nap,debreceninap.hu,2025-11-27 06:50:17,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/debreceni-nap.xml,,OG
-354,Deccan Chronicle,deccanchronicle.com,2025-11-27 06:50:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/deccan-chronicle.xml,,OG
-355,Decoded Magazine,decodedmagazine.com,2025-11-27 06:50:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/decoded-magazine.xml,,OG
-357,Demotywatory,demotywatory.pl,2025-11-27 06:50:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/demotywatory.xml,,RSS
-358,Denge Gazetesi,dengegazetesi.com.tr,2025-11-27 06:50:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/denge-gazetesi.xml,,OG
-359,DESCOPERA.ro,descopera.ro,2025-11-27 06:50:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/descopera-ro.xml,,OG
-360,Shrirang Prakashan,deshdoot.com,2025-11-27 06:50:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/shrirang-prakashan.xml,,OG
-362,Detroit Sports Nation,detroitsportsnation.com,2025-11-27 06:50:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/detroit-sports-nation.xml,,OG
-363,DEV Community,dev.to,2025-11-27 06:50:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dev-community.xml,,OG
-364,DforDelhi,dfordelhi.in,2025-11-27 06:50:54,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dfordelhi.xml,,OG
-365,Dhanam Business Magazine,dhanamonline.com,2025-11-27 06:50:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dhanam-business-magazine.xml,,OG
-366,Diadrastika,diadrastika.com,2025-11-27 06:51:02,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/diadrastika.xml,,OG
-368,Digi24,digi24.ro,2025-11-27 06:51:08,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/digi24.xml,,OG
-369,Digitaal Dagblad,digitaaldagblad.nl,2025-11-27 06:51:10,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/digitaal-dagblad.xml,,OG
-370,OPINIONPOST,dikaiologitika.gr,2025-11-27 06:51:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/opinionpost.xml,,OG
-371,diken.com.tr,diken.com.tr,2025-11-27 06:51:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/diken-com-tr.xml,,OG
-372,Dimarxos,dimarxos.gr,2025-11-27 06:51:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dimarxos.xml,,OG
-375,Diriliş Postası,dirilispostasi.com,2025-11-27 06:51:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/diriliş-postası.xml,,OG
+345,Daily Post Punjabi,dailypost.in,2025-11-27 06:49:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/daily-post-punjabi.xml,,OG
+346,Daily Post Nigeria,dailypost.ng,2025-11-27 06:49:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/daily-post-nigeria.xml,,OG
+348,Dap-News,dap-news.com,2025-11-27 06:49:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dap-news.xml,,OG
+349,Dartfreakz.nl,dartfreakz.nl,2025-11-27 06:50:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dartfreakz-nl.xml,,OG
+350,Dastak Times,dastaktimes.org,2025-11-27 06:50:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dastak-times.xml,,OG
+351,DCNews,dcnews.ro,2025-11-27 06:50:11,success,7,https://swelbyboy.github.io/prospect-rss-feeds/dcnews.xml,,RSS
+353,Debreceni Nap,debreceninap.hu,2025-11-27 06:50:17,success,10,https://swelbyboy.github.io/prospect-rss-feeds/debreceni-nap.xml,,OG
+354,Deccan Chronicle,deccanchronicle.com,2025-11-27 06:50:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/deccan-chronicle.xml,,OG
+355,Decoded Magazine,decodedmagazine.com,2025-11-27 06:50:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/decoded-magazine.xml,,OG
+357,Demotywatory,demotywatory.pl,2025-11-27 06:50:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/demotywatory.xml,,RSS
+358,Denge Gazetesi,dengegazetesi.com.tr,2025-11-27 06:50:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/denge-gazetesi.xml,,OG
+359,DESCOPERA.ro,descopera.ro,2025-11-27 06:50:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/descopera-ro.xml,,OG
+360,Shrirang Prakashan,deshdoot.com,2025-11-27 06:50:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/shrirang-prakashan.xml,,OG
+362,Detroit Sports Nation,detroitsportsnation.com,2025-11-27 06:50:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/detroit-sports-nation.xml,,OG
+363,DEV Community,dev.to,2025-11-27 06:50:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dev-community.xml,,OG
+364,DforDelhi,dfordelhi.in,2025-11-27 06:50:54,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dfordelhi.xml,,OG
+365,Dhanam Business Magazine,dhanamonline.com,2025-11-27 06:50:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dhanam-business-magazine.xml,,OG
+366,Diadrastika,diadrastika.com,2025-11-27 06:51:02,success,10,https://swelbyboy.github.io/prospect-rss-feeds/diadrastika.xml,,OG
+368,Digi24,digi24.ro,2025-11-27 06:51:08,success,9,https://swelbyboy.github.io/prospect-rss-feeds/digi24.xml,,OG
+369,Digitaal Dagblad,digitaaldagblad.nl,2025-11-27 06:51:10,success,1,https://swelbyboy.github.io/prospect-rss-feeds/digitaal-dagblad.xml,,OG
+370,OPINIONPOST,dikaiologitika.gr,2025-11-27 06:51:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/opinionpost.xml,,OG
+371,diken.com.tr,diken.com.tr,2025-11-27 06:51:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/diken-com-tr.xml,,OG
+372,Dimarxos,dimarxos.gr,2025-11-27 06:51:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dimarxos.xml,,OG
+375,Diriliş Postası,dirilispostasi.com,2025-11-27 06:51:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/diriliş-postası.xml,,OG
 377,Dnevnik.rs,dnevnik.rs,2025-11-27 06:51:33,failed,0,,HTTP 403,N/A
-379,Dobrudja Media Group,dobrudjabg.com,2025-11-27 06:51:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dobrudja-media-group.xml,,OG
-380,Document.no,document.no,2025-11-27 06:51:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/document-no.xml,,OG
-381,Dokuz Eylül Akademi,dokuzeylul.com,2025-11-27 06:51:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dokuz-eylül-akademi.xml,,OG
-383,Donald,donald.pl,2025-11-27 06:51:54,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/donald.xml,,OG
-384,Dool News,doolnews.com,2025-11-27 06:52:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dool-news.xml,,OG
-387,Dubrovnik Insider,dubrovnikinsider.hr,2025-11-27 06:52:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dubrovnik-insider.xml,,OG
-390,Dunaszerdahelyi,dunaszerdahelyi.sk,2025-11-27 06:52:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dunaszerdahelyi.xml,,OG
-391,Dynamite News,dynamitenews.com,2025-11-27 06:52:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/dynamite-news.xml,,OG
-393,Earki,earki.co,2025-11-27 06:52:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/earki.xml,,OG
-395,Ebasket.gr,ebasket.gr,2025-11-27 06:52:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ebasket-gr.xml,,OG
-397,Economic.bg,economic.bg,2025-11-27 06:52:39,success,0,https://swelbyboy.github.io/prospect-rss-feeds/feeds/economic-bg.xml,,RSS
-398,Economica.net,economica.net,2025-11-27 06:52:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/economica-net.xml,,OG
-402,EduPedu,edupedu.ro,2025-11-27 06:52:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/edupedu.xml,,OG
-404,Eger Hírek,egerhirek.hu,2025-11-27 06:53:10,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/eger-hírek.xml,,OG
-405,EGM Media,egmnow.com,2025-11-27 06:53:13,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/egm-media.xml,,OG
+379,Dobrudja Media Group,dobrudjabg.com,2025-11-27 06:51:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dobrudja-media-group.xml,,OG
+380,Document.no,document.no,2025-11-27 06:51:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/document-no.xml,,OG
+381,Dokuz Eylül Akademi,dokuzeylul.com,2025-11-27 06:51:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dokuz-eylül-akademi.xml,,OG
+383,Donald,donald.pl,2025-11-27 06:51:54,success,10,https://swelbyboy.github.io/prospect-rss-feeds/donald.xml,,OG
+384,Dool News,doolnews.com,2025-11-27 06:52:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dool-news.xml,,OG
+387,Dubrovnik Insider,dubrovnikinsider.hr,2025-11-27 06:52:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dubrovnik-insider.xml,,OG
+390,Dunaszerdahelyi,dunaszerdahelyi.sk,2025-11-27 06:52:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dunaszerdahelyi.xml,,OG
+391,Dynamite News,dynamitenews.com,2025-11-27 06:52:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/dynamite-news.xml,,OG
+393,Earki,earki.co,2025-11-27 06:52:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/earki.xml,,OG
+395,Ebasket.gr,ebasket.gr,2025-11-27 06:52:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ebasket-gr.xml,,OG
+397,Economic.bg,economic.bg,2025-11-27 06:52:39,success,0,https://swelbyboy.github.io/prospect-rss-feeds/economic-bg.xml,,RSS
+398,Economica.net,economica.net,2025-11-27 06:52:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/economica-net.xml,,OG
+402,EduPedu,edupedu.ro,2025-11-27 06:52:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/edupedu.xml,,OG
+404,Eger Hírek,egerhirek.hu,2025-11-27 06:53:10,success,9,https://swelbyboy.github.io/prospect-rss-feeds/eger-hírek.xml,,OG
+405,EGM Media,egmnow.com,2025-11-27 06:53:13,success,10,https://swelbyboy.github.io/prospect-rss-feeds/egm-media.xml,,OG
 406,Ekattor,ekattor.tv,2025-11-27 06:53:13,failed,0,,HTTP 403,N/A
 409,NedeljniEkspres,ekspres.net,2025-11-27 06:53:13,failed,0,,HTTP 403,N/A
-413,ELLE (Bulgaria),elle.bg,2025-11-27 06:53:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/elle--bulgaria.xml,,OG
-415,Emarat News (الإمارات نيوز),emarat-news.ae,2025-11-27 06:53:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/emarat-news--الإمارات-نيوز.xml,,OG
-416,Emerald Green Media,emeraldgreenmedia.com,2025-11-27 06:53:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/emerald-green-media.xml,,OG
-417,Emlak 365,emlak365.com,2025-11-27 06:53:22,success,5,https://swelbyboy.github.io/prospect-rss-feeds/feeds/emlak-365.xml,,OG
-418,Εναλλακτική Δράση,enallaktikidrasi.com,2025-11-27 06:53:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/εναλλακτική-δράση.xml,,OG
-419,Energypress.gr,energypress.gr,2025-11-27 06:53:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/energypress-gr.xml,,OG
-420,Ensonhaber,ensonhaber.com,2025-11-27 06:53:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ensonhaber.xml,,OG
-421,Epirus News,epirusnews.eu,2025-11-27 06:53:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/epirus-news.xml,,OG
-422,ePitesti.ro,epitesti.ro,2025-11-27 06:53:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/epitesti-ro.xml,,OG
-423,Epoka E Re,epokaere.com,2025-11-27 06:53:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/epoka-e-re.xml,,"OG (8), RSS (2)"
-427,Esport1,esport1.hu,2025-11-27 06:53:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/esport1.xml,,OG
-428,Esport Now,esportnow.pl,2025-11-27 06:54:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/esport-now.xml,,OG
-430,Ethnos,ethnos.gr,2025-11-27 06:54:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ethnos.xml,,OG
-432,The Eurasian Times,eurasiantimes.com,2025-11-27 06:54:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-eurasian-times.xml,,OG
-436,Extra Świecie,extraswiecie.pl,2025-11-27 06:54:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/extra-świecie.xml,,OG
-437,F1Maximaal.nl,f1maximaal.nl,2025-11-27 06:54:26,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/f1maximaal-nl.xml,,OG
-438,F1VILÁG,f1vilag.hu,2025-11-27 06:54:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/f1világ.xml,,OG
-439,Face TV Sarajevo,face.ba,2025-11-27 06:54:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/face-tv-sarajevo.xml,,OG
-440,FacMedicine,facmedicine.com,2025-11-27 06:54:32,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/facmedicine.xml,,OG
-441,Hope Faith Love,faithhub.net,2025-11-27 06:54:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/hope-faith-love.xml,,OG
-443,Fangol PL,fangol.pl,2025-11-27 06:54:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/fangol-pl.xml,,RSS
-445,FHM Nederland,fhm.nl,2025-11-27 06:54:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/fhm-nederland.xml,,OG
-446,Fight24.pl,fight24.pl,2025-11-27 06:54:44,success,6,https://swelbyboy.github.io/prospect-rss-feeds/feeds/fight24-pl.xml,,RSS
-447,Film Companion,filmcompanion.in,2025-11-27 06:54:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/film-companion.xml,,OG
+413,ELLE (Bulgaria),elle.bg,2025-11-27 06:53:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/elle--bulgaria.xml,,OG
+415,Emarat News (الإمارات نيوز),emarat-news.ae,2025-11-27 06:53:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/emarat-news--الإمارات-نيوز.xml,,OG
+416,Emerald Green Media,emeraldgreenmedia.com,2025-11-27 06:53:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/emerald-green-media.xml,,OG
+417,Emlak 365,emlak365.com,2025-11-27 06:53:22,success,5,https://swelbyboy.github.io/prospect-rss-feeds/emlak-365.xml,,OG
+418,Εναλλακτική Δράση,enallaktikidrasi.com,2025-11-27 06:53:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/εναλλακτική-δράση.xml,,OG
+419,Energypress.gr,energypress.gr,2025-11-27 06:53:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/energypress-gr.xml,,OG
+420,Ensonhaber,ensonhaber.com,2025-11-27 06:53:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ensonhaber.xml,,OG
+421,Epirus News,epirusnews.eu,2025-11-27 06:53:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/epirus-news.xml,,OG
+422,ePitesti.ro,epitesti.ro,2025-11-27 06:53:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/epitesti-ro.xml,,OG
+423,Epoka E Re,epokaere.com,2025-11-27 06:53:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/epoka-e-re.xml,,"OG (8), RSS (2)"
+427,Esport1,esport1.hu,2025-11-27 06:53:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/esport1.xml,,OG
+428,Esport Now,esportnow.pl,2025-11-27 06:54:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/esport-now.xml,,OG
+430,Ethnos,ethnos.gr,2025-11-27 06:54:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ethnos.xml,,OG
+432,The Eurasian Times,eurasiantimes.com,2025-11-27 06:54:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-eurasian-times.xml,,OG
+436,Extra Świecie,extraswiecie.pl,2025-11-27 06:54:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/extra-świecie.xml,,OG
+437,F1Maximaal.nl,f1maximaal.nl,2025-11-27 06:54:26,success,10,https://swelbyboy.github.io/prospect-rss-feeds/f1maximaal-nl.xml,,OG
+438,F1VILÁG,f1vilag.hu,2025-11-27 06:54:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/f1világ.xml,,OG
+439,Face TV Sarajevo,face.ba,2025-11-27 06:54:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/face-tv-sarajevo.xml,,OG
+440,FacMedicine,facmedicine.com,2025-11-27 06:54:32,success,1,https://swelbyboy.github.io/prospect-rss-feeds/facmedicine.xml,,OG
+441,Hope Faith Love,faithhub.net,2025-11-27 06:54:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/hope-faith-love.xml,,OG
+443,Fangol PL,fangol.pl,2025-11-27 06:54:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/fangol-pl.xml,,RSS
+445,FHM Nederland,fhm.nl,2025-11-27 06:54:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/fhm-nederland.xml,,OG
+446,Fight24.pl,fight24.pl,2025-11-27 06:54:44,success,6,https://swelbyboy.github.io/prospect-rss-feeds/fight24-pl.xml,,RSS
+447,Film Companion,filmcompanion.in,2025-11-27 06:54:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/film-companion.xml,,OG
 448,Filmtekercs,filmtekercs.hu,2025-11-27 06:54:46,failed,0,,HTTP 403,N/A
-450,Finder,finder.com.au,2025-11-27 06:54:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/finder.xml,,OG
-452,Media 365 j.d.o.o,fiuman.hr,2025-11-27 06:54:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/media-365-j-d-o-o.xml,,OG
-453,Flashnews.gr,flashnews.gr,2025-11-27 06:55:06,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/flashnews-gr.xml,,OG
-454,Flashstar.gr,flashstars.gr,2025-11-27 06:55:09,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/flashstar-gr.xml,,OG
-455,Flood Communications,floodcomm.com,2025-11-27 06:55:15,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/flood-communications.xml,,OG
-457,Fly4Free,fly4free.pl,2025-11-27 06:55:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/fly4free.xml,,OG
-459,Forever Communications,forevercom.com,2025-11-27 06:55:23,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/forever-communications.xml,,OG
-462,Fox 21 News,fox21online.com,2025-11-27 06:55:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/fox-21-news.xml,,OG
-464,Ferencvárosi Torna Club,fradi.hu,2025-11-27 06:55:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ferencvárosi-torna-club.xml,,OG
-465,Fragile,fragilemag.gr,2025-11-27 06:55:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/fragile.xml,,OG
-466,Francuskie.pl - Dziennik motoryzacji francuskiej,francuskie.pl,2025-11-27 06:55:53,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/francuskie-pl---dziennik-motoryzacji-francuskiej.xml,,OG
+450,Finder,finder.com.au,2025-11-27 06:54:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/finder.xml,,OG
+452,Media 365 j.d.o.o,fiuman.hr,2025-11-27 06:54:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/media-365-j-d-o-o.xml,,OG
+453,Flashnews.gr,flashnews.gr,2025-11-27 06:55:06,success,10,https://swelbyboy.github.io/prospect-rss-feeds/flashnews-gr.xml,,OG
+454,Flashstar.gr,flashstars.gr,2025-11-27 06:55:09,success,9,https://swelbyboy.github.io/prospect-rss-feeds/flashstar-gr.xml,,OG
+455,Flood Communications,floodcomm.com,2025-11-27 06:55:15,success,8,https://swelbyboy.github.io/prospect-rss-feeds/flood-communications.xml,,OG
+457,Fly4Free,fly4free.pl,2025-11-27 06:55:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/fly4free.xml,,OG
+459,Forever Communications,forevercom.com,2025-11-27 06:55:23,success,10,https://swelbyboy.github.io/prospect-rss-feeds/forever-communications.xml,,OG
+462,Fox 21 News,fox21online.com,2025-11-27 06:55:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/fox-21-news.xml,,OG
+464,Ferencvárosi Torna Club,fradi.hu,2025-11-27 06:55:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ferencvárosi-torna-club.xml,,OG
+465,Fragile,fragilemag.gr,2025-11-27 06:55:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/fragile.xml,,OG
+466,Francuskie.pl - Dziennik motoryzacji francuskiej,francuskie.pl,2025-11-27 06:55:53,success,9,https://swelbyboy.github.io/prospect-rss-feeds/francuskie-pl---dziennik-motoryzacji-francuskiej.xml,,OG
 467,Freddo News,freddonews.eu,2025-11-27 06:55:54,failed,0,,HTTP 403,N/A
-469,Fresh: Hip-Hop & R&B,freshhiphoprnb.com,2025-11-27 06:55:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/fresh--hip-hop---r-b.xml,,OG
-470,G4 Media,g4media.ro,2025-11-27 06:56:00,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/g4-media.xml,,OG
-471,GadgetMatch,gadgetmatch.com,2025-11-27 06:56:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gadgetmatch.xml,,OG
-472,Gadgets Pilipinas,gadgetpilipinas.net,2025-11-27 06:56:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gadgets-pilipinas.xml,,"OG (9), RSS (1)"
-473,Gamedaim,gamedaim.com,2025-11-27 06:56:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gamedaim.xml,,OG
-475,GameReactor EU,gamereactor.eu,2025-11-27 06:56:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gamereactor-eu.xml,,OG
-477,Gandul,gandul.info,2025-11-27 06:56:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gandul.xml,,OG
-478,Gazeta Express,gazetaexpress.com,2025-11-27 06:56:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gazeta-express.xml,,OG
-479,Gazete Damga,gazetedamga.com.tr,2025-11-27 06:56:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gazete-damga.xml,,OG
-481,Gazeta de Sud,gds.ro,2025-11-27 06:56:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gazeta-de-sud.xml,,OG
-483,Geopolitika,geopolitika.news,2025-11-27 06:56:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/geopolitika.xml,,OG
-485,Gewoonvoorhem,gewoonvoorhem.nl,2025-11-27 06:56:42,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gewoonvoorhem.xml,,OG
-487,GistReel,gistreel.com,2025-11-27 06:56:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gistreel.xml,,OG
-488,Glamsham.com,glamsham.com,2025-11-27 06:56:59,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/glamsham-com.xml,,OG
-490,Glas Slavonije,glas-slavonije.hr,2025-11-27 06:57:00,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/glas-slavonije.xml,,OG
-492,Glas Srpske,glassrpske.com,2025-11-27 06:57:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/glas-srpske.xml,,RSS
-495,Goneis,goneis.info,2025-11-27 06:57:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/goneis.xml,,OG
-497,Gospel Hotspot,gospelhotspot.net,2025-11-27 06:57:15,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gospel-hotspot.xml,,OG
+469,Fresh: Hip-Hop & R&B,freshhiphoprnb.com,2025-11-27 06:55:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/fresh--hip-hop---r-b.xml,,OG
+470,G4 Media,g4media.ro,2025-11-27 06:56:00,success,10,https://swelbyboy.github.io/prospect-rss-feeds/g4-media.xml,,OG
+471,GadgetMatch,gadgetmatch.com,2025-11-27 06:56:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gadgetmatch.xml,,OG
+472,Gadgets Pilipinas,gadgetpilipinas.net,2025-11-27 06:56:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gadgets-pilipinas.xml,,"OG (9), RSS (1)"
+473,Gamedaim,gamedaim.com,2025-11-27 06:56:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gamedaim.xml,,OG
+475,GameReactor EU,gamereactor.eu,2025-11-27 06:56:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gamereactor-eu.xml,,OG
+477,Gandul,gandul.info,2025-11-27 06:56:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gandul.xml,,OG
+478,Gazeta Express,gazetaexpress.com,2025-11-27 06:56:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gazeta-express.xml,,OG
+479,Gazete Damga,gazetedamga.com.tr,2025-11-27 06:56:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gazete-damga.xml,,OG
+481,Gazeta de Sud,gds.ro,2025-11-27 06:56:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gazeta-de-sud.xml,,OG
+483,Geopolitika,geopolitika.news,2025-11-27 06:56:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/geopolitika.xml,,OG
+485,Gewoonvoorhem,gewoonvoorhem.nl,2025-11-27 06:56:42,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gewoonvoorhem.xml,,OG
+487,GistReel,gistreel.com,2025-11-27 06:56:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gistreel.xml,,OG
+488,Glamsham.com,glamsham.com,2025-11-27 06:56:59,success,8,https://swelbyboy.github.io/prospect-rss-feeds/glamsham-com.xml,,OG
+490,Glas Slavonije,glas-slavonije.hr,2025-11-27 06:57:00,success,10,https://swelbyboy.github.io/prospect-rss-feeds/glas-slavonije.xml,,OG
+492,Glas Srpske,glassrpske.com,2025-11-27 06:57:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/glas-srpske.xml,,RSS
+495,Goneis,goneis.info,2025-11-27 06:57:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/goneis.xml,,OG
+497,Gospel Hotspot,gospelhotspot.net,2025-11-27 06:57:15,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gospel-hotspot.xml,,OG
 498,Goss.ie,goss.ie,2025-11-27 06:57:15,failed,0,,HTTP 403,N/A
-500,Gosu Gamers,gosugamers.net,2025-11-27 06:57:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gosu-gamers.xml,,OG
-502,Grabien News,grabien.com,2025-11-27 06:57:23,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/grabien-news.xml,,OG
-504,Gransport.gr,grandsport.gr,2025-11-27 06:57:24,success,0,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gransport-gr.xml,,RSS
-508,Great News,greatnews.ro,2025-11-27 06:57:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/great-news.xml,,OG
-509,Greek City Times,greekcitytimes.com,2025-11-27 06:57:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/greek-city-times.xml,,RSS
-511,Vlachopoulos Greveniotis,greveniotis.gr,2025-11-27 06:57:58,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/vlachopoulos-greveniotis.xml,,OG
-516,Gündeme Bakış,gundemebakis.com,2025-11-27 06:58:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/gündeme-bakış.xml,,OG
-517,GYŐR + MÉDIA Zrt.,gyorplusz.hu,2025-11-27 06:58:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/győr---média-zrt.xml,,OG
-518,Haber7,haber7.com,2025-11-27 06:58:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/haber7.xml,,OG
-521,Haberiniz Olsun,haberiniz.com.tr,2025-11-27 06:58:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/haberiniz-olsun.xml,,OG
-522,Haberler.com,haberler.com,2025-11-27 06:58:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/haberler-com.xml,,OG
+500,Gosu Gamers,gosugamers.net,2025-11-27 06:57:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gosu-gamers.xml,,OG
+502,Grabien News,grabien.com,2025-11-27 06:57:23,success,10,https://swelbyboy.github.io/prospect-rss-feeds/grabien-news.xml,,OG
+504,Gransport.gr,grandsport.gr,2025-11-27 06:57:24,success,0,https://swelbyboy.github.io/prospect-rss-feeds/gransport-gr.xml,,RSS
+508,Great News,greatnews.ro,2025-11-27 06:57:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/great-news.xml,,OG
+509,Greek City Times,greekcitytimes.com,2025-11-27 06:57:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/greek-city-times.xml,,RSS
+511,Vlachopoulos Greveniotis,greveniotis.gr,2025-11-27 06:57:58,success,10,https://swelbyboy.github.io/prospect-rss-feeds/vlachopoulos-greveniotis.xml,,OG
+516,Gündeme Bakış,gundemebakis.com,2025-11-27 06:58:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/gündeme-bakış.xml,,OG
+517,GYŐR + MÉDIA Zrt.,gyorplusz.hu,2025-11-27 06:58:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/győr---média-zrt.xml,,OG
+518,Haber7,haber7.com,2025-11-27 06:58:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/haber7.xml,,OG
+521,Haberiniz Olsun,haberiniz.com.tr,2025-11-27 06:58:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/haberiniz-olsun.xml,,OG
+522,Haberler.com,haberler.com,2025-11-27 06:58:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/haberler-com.xml,,OG
 523,Handball-Planet.com,handball-planet.com,2025-11-27 06:58:36,failed,0,,HTTP 403,N/A
-524,Χανιώτικα νέα,haniotika-nea.gr,2025-11-27 06:58:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/χανιώτικα-νέα.xml,,OG
-525,Parovi - Reality Show,happytv.rs,2025-11-27 06:58:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/parovi---reality-show.xml,,OG
-526,Harmonikum,harmonikum.co,2025-11-27 06:58:50,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/harmonikum.xml,,OG
-528,Hayat.ba,hayat.ba,2025-11-27 06:58:54,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/hayat-ba.xml,,OG
-529,HCL.hr Gaming Portal,hcl.hr,2025-11-27 06:58:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/hcl-hr-gaming-portal.xml,,OG
-530,Healing Effect,healingeffect.gr,2025-11-27 06:59:02,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/healing-effect.xml,,OG
-531,HealthMag,healthmag.gr,2025-11-27 06:59:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/healthmag.xml,,OG
-532,Hello Health Group,hellohealthgroup.com,2025-11-27 06:59:11,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/hello-health-group.xml,,RSS
-536,Her Way,herway.net,2025-11-27 06:59:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/her-way.xml,,OG
-537,Highland Radio,highlandradio.com,2025-11-27 06:59:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/highland-radio.xml,,OG
-538,Himachal Dastak Media Group,himachaldastak.com,2025-11-27 06:59:22,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/himachal-dastak-media-group.xml,,OG
-539,Székely Hírmondó,hirmondo.ro,2025-11-27 06:59:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/székely-hírmondó.xml,,OG
-541,Lynn Group Media,hoganstand.com,2025-11-27 06:59:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/lynn-group-media.xml,,RSS
-542,"Homelife Media, LLC",homelifemedia.com,2025-11-27 06:59:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/homelife-media--llc.xml,,OG
-544,Horror Fuel,horrorfuel.com,2025-11-27 06:59:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/horror-fuel.xml,,OG
-545,Horror Society,horrorsociety.com,2025-11-27 06:59:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/horror-society.xml,,OG
-546,Hotnews.ro,hotnews.ro,2025-11-27 06:59:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/hotnews-ro.xml,,OG
-550,Hum Network,hum.tv,2025-11-27 06:59:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/hum-network.xml,,OG
-552,Hürriyet Daily News,hurriyetdailynews.com,2025-11-27 07:00:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/hürriyet-daily-news.xml,,OG
-553,Hürriyet Gazetecilik ve Matbaacılık,hurriyetkurumsal.com,2025-11-27 07:00:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/hürriyet-gazetecilik-ve-matbaacılık.xml,,RSS
-554,Hysteria,hysteria.gr,2025-11-27 07:00:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/hysteria.xml,,OG
-555,S.B. Multimedia Private Limited,ibc24.in,2025-11-27 07:00:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/s-b--multimedia-private-limited.xml,,"OG (9), RSS (1)"
-557,International Business Times India,ibtimes.co.in,2025-11-27 07:00:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/international-business-times-india.xml,,OG
-560,iFarsala,ifarsala.gr,2025-11-27 07:00:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ifarsala.xml,,OG
-562,iHunt.gr,ihunt.gr,2025-11-27 07:01:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ihunt-gr.xml,,OG
-568,Index.hu Zrt.,index.hu,2025-11-27 07:01:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/index-hu-zrt.xml,,OG
-569,India Forums,indiaforums.com,2025-11-27 07:01:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/india-forums.xml,,OG
+524,Χανιώτικα νέα,haniotika-nea.gr,2025-11-27 06:58:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/χανιώτικα-νέα.xml,,OG
+525,Parovi - Reality Show,happytv.rs,2025-11-27 06:58:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/parovi---reality-show.xml,,OG
+526,Harmonikum,harmonikum.co,2025-11-27 06:58:50,success,10,https://swelbyboy.github.io/prospect-rss-feeds/harmonikum.xml,,OG
+528,Hayat.ba,hayat.ba,2025-11-27 06:58:54,success,10,https://swelbyboy.github.io/prospect-rss-feeds/hayat-ba.xml,,OG
+529,HCL.hr Gaming Portal,hcl.hr,2025-11-27 06:58:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/hcl-hr-gaming-portal.xml,,OG
+530,Healing Effect,healingeffect.gr,2025-11-27 06:59:02,success,10,https://swelbyboy.github.io/prospect-rss-feeds/healing-effect.xml,,OG
+531,HealthMag,healthmag.gr,2025-11-27 06:59:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/healthmag.xml,,OG
+532,Hello Health Group,hellohealthgroup.com,2025-11-27 06:59:11,success,1,https://swelbyboy.github.io/prospect-rss-feeds/hello-health-group.xml,,RSS
+536,Her Way,herway.net,2025-11-27 06:59:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/her-way.xml,,OG
+537,Highland Radio,highlandradio.com,2025-11-27 06:59:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/highland-radio.xml,,OG
+538,Himachal Dastak Media Group,himachaldastak.com,2025-11-27 06:59:22,success,10,https://swelbyboy.github.io/prospect-rss-feeds/himachal-dastak-media-group.xml,,OG
+539,Székely Hírmondó,hirmondo.ro,2025-11-27 06:59:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/székely-hírmondó.xml,,OG
+541,Lynn Group Media,hoganstand.com,2025-11-27 06:59:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/lynn-group-media.xml,,RSS
+542,"Homelife Media, LLC",homelifemedia.com,2025-11-27 06:59:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/homelife-media--llc.xml,,OG
+544,Horror Fuel,horrorfuel.com,2025-11-27 06:59:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/horror-fuel.xml,,OG
+545,Horror Society,horrorsociety.com,2025-11-27 06:59:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/horror-society.xml,,OG
+546,Hotnews.ro,hotnews.ro,2025-11-27 06:59:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/hotnews-ro.xml,,OG
+550,Hum Network,hum.tv,2025-11-27 06:59:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/hum-network.xml,,OG
+552,Hürriyet Daily News,hurriyetdailynews.com,2025-11-27 07:00:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/hürriyet-daily-news.xml,,OG
+553,Hürriyet Gazetecilik ve Matbaacılık,hurriyetkurumsal.com,2025-11-27 07:00:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/hürriyet-gazetecilik-ve-matbaacılık.xml,,RSS
+554,Hysteria,hysteria.gr,2025-11-27 07:00:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/hysteria.xml,,OG
+555,S.B. Multimedia Private Limited,ibc24.in,2025-11-27 07:00:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/s-b--multimedia-private-limited.xml,,"OG (9), RSS (1)"
+557,International Business Times India,ibtimes.co.in,2025-11-27 07:00:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/international-business-times-india.xml,,OG
+560,iFarsala,ifarsala.gr,2025-11-27 07:00:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ifarsala.xml,,OG
+562,iHunt.gr,ihunt.gr,2025-11-27 07:01:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ihunt-gr.xml,,OG
+568,Index.hu Zrt.,index.hu,2025-11-27 07:01:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/index-hu-zrt.xml,,OG
+569,India Forums,indiaforums.com,2025-11-27 07:01:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/india-forums.xml,,OG
 570,India TV,indiatvnews.com,2025-11-27 07:01:12,failed,0,,HTTP 403,N/A
-571,Indigo Dergisi,indigodergisi.com,2025-11-27 07:01:15,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/indigo-dergisi.xml,,OG
-573,İnegöl Online,inegolonline.com,2025-11-27 07:01:17,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/i-negöl-online.xml,,OG
-574,Info Brcko,infobrcko.com,2025-11-27 07:01:21,success,4,https://swelbyboy.github.io/prospect-rss-feeds/feeds/info-brcko.xml,,OG
-578,冒牌生 inmywordz,inmywordz.com,2025-11-27 07:01:24,success,5,https://swelbyboy.github.io/prospect-rss-feeds/feeds/冒牌生-inmywordz.xml,,OG
-580,Insajderi,insajderi.com,2025-11-27 07:01:26,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/insajderi.xml,,OG
-583,Internetcorp SRL,internetcorp.ro,2025-11-27 07:01:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/internetcorp-srl.xml,,OG
-584,In the Bunch,inthebunch.co.za,2025-11-27 07:01:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/in-the-bunch.xml,,OG
-585,InTheCage.pl,inthecage.pl,2025-11-27 07:02:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/inthecage-pl.xml,,OG
-586,iPaidia News,ipaidia.gr,2025-11-27 07:02:06,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ipaidia-news.xml,,OG
+571,Indigo Dergisi,indigodergisi.com,2025-11-27 07:01:15,success,10,https://swelbyboy.github.io/prospect-rss-feeds/indigo-dergisi.xml,,OG
+573,İnegöl Online,inegolonline.com,2025-11-27 07:01:17,success,10,https://swelbyboy.github.io/prospect-rss-feeds/i-negöl-online.xml,,OG
+574,Info Brcko,infobrcko.com,2025-11-27 07:01:21,success,4,https://swelbyboy.github.io/prospect-rss-feeds/info-brcko.xml,,OG
+578,冒牌生 inmywordz,inmywordz.com,2025-11-27 07:01:24,success,5,https://swelbyboy.github.io/prospect-rss-feeds/冒牌生-inmywordz.xml,,OG
+580,Insajderi,insajderi.com,2025-11-27 07:01:26,success,10,https://swelbyboy.github.io/prospect-rss-feeds/insajderi.xml,,OG
+583,Internetcorp SRL,internetcorp.ro,2025-11-27 07:01:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/internetcorp-srl.xml,,OG
+584,In the Bunch,inthebunch.co.za,2025-11-27 07:01:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/in-the-bunch.xml,,OG
+585,InTheCage.pl,inthecage.pl,2025-11-27 07:02:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/inthecage-pl.xml,,OG
+586,iPaidia News,ipaidia.gr,2025-11-27 07:02:06,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ipaidia-news.xml,,OG
 587,iQlik Movies,iqlikmovies.com,2025-11-27 07:02:25,failed,0,,HTTP 522,N/A
-588,iRadio,iradio.ie,2025-11-27 07:02:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/iradio.xml,,OG
-589,Digital Impact Lab LLC,iranintl.com,2025-11-27 07:02:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/digital-impact-lab-llc.xml,,OG
+588,iRadio,iradio.ie,2025-11-27 07:02:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/iradio.xml,,OG
+589,Digital Impact Lab LLC,iranintl.com,2025-11-27 07:02:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/digital-impact-lab-llc.xml,,OG
 590,Ittefaq Group,ittefaq.com.bd,2025-11-27 07:02:36,failed,0,,HTTP 403,N/A
-592,Ízes élet,izeselet.hu,2025-11-27 07:02:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ízes-élet.xml,,OG
-593,İzmir’de Son Dakika,izmirdesondakika.com.tr,2025-11-27 07:02:50,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/i-zmir-de-son-dakika.xml,,OG
+592,Ízes élet,izeselet.hu,2025-11-27 07:02:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ízes-élet.xml,,OG
+593,İzmir’de Son Dakika,izmirdesondakika.com.tr,2025-11-27 07:02:50,success,10,https://swelbyboy.github.io/prospect-rss-feeds/i-zmir-de-son-dakika.xml,,OG
 594,İzmir Gündemi,izmirgundemi.net,2025-11-27 07:02:50,failed,0,,No entries found in feed,N/A
-599,Jatkoaika.com,jatkoaika.com,2025-11-27 07:02:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/jatkoaika-com.xml,,OG
-600,Javed Chaudhry,javedch.com,2025-11-27 07:02:54,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/javed-chaudhry.xml,,OG
-601,JK MEDIA,jkmedia.net,2025-11-27 07:03:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/jk-media.xml,,OG
-603,Joemonster.org,joemonster.org,2025-11-27 07:03:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/joemonster-org.xml,,RSS
-606,Just A Pinch Recipes,justapinch.com,2025-11-27 07:03:13,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/just-a-pinch-recipes.xml,,OG
+599,Jatkoaika.com,jatkoaika.com,2025-11-27 07:02:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/jatkoaika-com.xml,,OG
+600,Javed Chaudhry,javedch.com,2025-11-27 07:02:54,success,10,https://swelbyboy.github.io/prospect-rss-feeds/javed-chaudhry.xml,,OG
+601,JK MEDIA,jkmedia.net,2025-11-27 07:03:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/jk-media.xml,,OG
+603,Joemonster.org,joemonster.org,2025-11-27 07:03:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/joemonster-org.xml,,RSS
+606,Just A Pinch Recipes,justapinch.com,2025-11-27 07:03:13,success,10,https://swelbyboy.github.io/prospect-rss-feeds/just-a-pinch-recipes.xml,,OG
 607,Kairali News,kairalinewsonline.com,2025-11-27 07:03:14,failed,0,,HTTP 403,N/A
-608,Kaldata,kaldata.com,2025-11-27 07:03:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kaldata.xml,,OG
-609,Kaler Kantho,kalerkantho.com,2025-11-27 07:03:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kaler-kantho.xml,,RSS
-610,Kamudan Haber,kamudanhaber.net,2025-11-27 07:03:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kamudan-haber.xml,,RSS
-611,Kanal D Romania,kanald.ro,2025-11-27 07:03:23,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kanal-d-romania.xml,,OG
-612,Kannada Prabha,kannadaprabha.com,2025-11-27 07:03:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kannada-prabha.xml,,OG
-614,Karar Haber,karar.com,2025-11-27 07:03:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/karar-haber.xml,,OG
-616,Karlovački,karlovacki.hr,2025-11-27 07:03:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/karlovački.xml,,OG
-617,Kasaragod Vartha,kasargodvartha.com,2025-11-27 07:03:37,success,6,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kasaragod-vartha.xml,,OG
+608,Kaldata,kaldata.com,2025-11-27 07:03:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kaldata.xml,,OG
+609,Kaler Kantho,kalerkantho.com,2025-11-27 07:03:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kaler-kantho.xml,,RSS
+610,Kamudan Haber,kamudanhaber.net,2025-11-27 07:03:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kamudan-haber.xml,,RSS
+611,Kanal D Romania,kanald.ro,2025-11-27 07:03:23,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kanal-d-romania.xml,,OG
+612,Kannada Prabha,kannadaprabha.com,2025-11-27 07:03:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kannada-prabha.xml,,OG
+614,Karar Haber,karar.com,2025-11-27 07:03:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/karar-haber.xml,,OG
+616,Karlovački,karlovacki.hr,2025-11-27 07:03:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/karlovački.xml,,OG
+617,Kasaragod Vartha,kasargodvartha.com,2025-11-27 07:03:37,success,6,https://swelbyboy.github.io/prospect-rss-feeds/kasaragod-vartha.xml,,OG
 618,Kashmir Observer,kashmirobserver.net,2025-11-27 07:03:37,failed,0,,HTTP 403,N/A
-619,Kaskus,kaskus.co.id,2025-11-27 07:03:49,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kaskus.xml,,OG
-620,KavalaNews.GR,kavalanews.gr,2025-11-27 07:03:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kavalanews-gr.xml,,OG
-621,Kalkulatory Budowlane,kb.pl,2025-11-27 07:03:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kalkulatory-budowlane.xml,,RSS
-624,Kaumudi Cyber Studio (P) Ltd,keralakaumudi.com,2025-11-27 07:04:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kaumudi-cyber-studio--p--ltd.xml,,OG
-625,Kerala Times,keralatimes.com,2025-11-27 07:04:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kerala-times.xml,,OG
-626,Keşan Postası,kesanpostasi.com,2025-11-27 07:04:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/keşan-postası.xml,,OG
-629,Khabarchhe,khabarchhe.com,2025-11-27 07:04:26,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/khabarchhe.xml,,OG
-630,Khasokhas,khasokhas.com,2025-11-27 07:04:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/khasokhas.xml,,OG
-632,KitGuru,kitguru.net,2025-11-27 07:04:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kitguru.xml,,OG
-634,Kobieta.pl,kobieta.pl,2025-11-27 07:04:42,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kobieta-pl.xml,,OG
-636,KoiMoi.com,koimoi.com,2025-11-27 07:04:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/koimoi-com.xml,,OG
+619,Kaskus,kaskus.co.id,2025-11-27 07:03:49,success,8,https://swelbyboy.github.io/prospect-rss-feeds/kaskus.xml,,OG
+620,KavalaNews.GR,kavalanews.gr,2025-11-27 07:03:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kavalanews-gr.xml,,OG
+621,Kalkulatory Budowlane,kb.pl,2025-11-27 07:03:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kalkulatory-budowlane.xml,,RSS
+624,Kaumudi Cyber Studio (P) Ltd,keralakaumudi.com,2025-11-27 07:04:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kaumudi-cyber-studio--p--ltd.xml,,OG
+625,Kerala Times,keralatimes.com,2025-11-27 07:04:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kerala-times.xml,,OG
+626,Keşan Postası,kesanpostasi.com,2025-11-27 07:04:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/keşan-postası.xml,,OG
+629,Khabarchhe,khabarchhe.com,2025-11-27 07:04:26,success,10,https://swelbyboy.github.io/prospect-rss-feeds/khabarchhe.xml,,OG
+630,Khasokhas,khasokhas.com,2025-11-27 07:04:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/khasokhas.xml,,OG
+632,KitGuru,kitguru.net,2025-11-27 07:04:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kitguru.xml,,OG
+634,Kobieta.pl,kobieta.pl,2025-11-27 07:04:42,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kobieta-pl.xml,,OG
+636,KoiMoi.com,koimoi.com,2025-11-27 07:04:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/koimoi-com.xml,,OG
 639,Kosovarja Magazine,kosovarja-ks.com,2025-11-27 07:04:47,failed,0,,HTTP 403,N/A
-640,kozaniLife,kozanilife.gr,2025-11-27 07:04:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kozanilife.xml,,OG
-641,KPSVR,kpsvr.hu,2025-11-27 07:05:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kpsvr.xml,,OG
-642,KROX,kroxam.com,2025-11-27 07:05:06,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/krox.xml,,RSS
-643,Krstarica,krstarica.com,2025-11-27 07:05:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/krstarica.xml,,OG
-647,Kurir,kurir.rs,2025-11-27 07:05:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kurir.xml,,OG
-648,Kvartha World News,kvartha.com,2025-11-27 07:05:17,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kvartha-world-news.xml,,OG
-651,LaoisToday.ie,laoistoday.ie,2025-11-27 07:05:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/laoistoday-ie.xml,,OG
-652,Larissanet.gr,larissanet.gr,2025-11-27 07:05:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/larissanet-gr.xml,,OG
-654,Lawyers Club Bangladesh,lawyersclubbangladesh.com,2025-11-27 07:05:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/lawyers-club-bangladesh.xml,,OG
-655,Lazca,lazca.org,2025-11-27 07:05:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/lazca.xml,,OG
+640,kozaniLife,kozanilife.gr,2025-11-27 07:04:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kozanilife.xml,,OG
+641,KPSVR,kpsvr.hu,2025-11-27 07:05:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kpsvr.xml,,OG
+642,KROX,kroxam.com,2025-11-27 07:05:06,success,10,https://swelbyboy.github.io/prospect-rss-feeds/krox.xml,,RSS
+643,Krstarica,krstarica.com,2025-11-27 07:05:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/krstarica.xml,,OG
+647,Kurir,kurir.rs,2025-11-27 07:05:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kurir.xml,,OG
+648,Kvartha World News,kvartha.com,2025-11-27 07:05:17,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kvartha-world-news.xml,,OG
+651,LaoisToday.ie,laoistoday.ie,2025-11-27 07:05:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/laoistoday-ie.xml,,OG
+652,Larissanet.gr,larissanet.gr,2025-11-27 07:05:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/larissanet-gr.xml,,OG
+654,Lawyers Club Bangladesh,lawyersclubbangladesh.com,2025-11-27 07:05:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/lawyers-club-bangladesh.xml,,OG
+655,Lazca,lazca.org,2025-11-27 07:05:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/lazca.xml,,OG
 658,Leadership Media Group,leadership.ng,2025-11-27 07:05:38,failed,0,,HTTP 403,N/A
-662,Listelist,listelist.com,2025-11-27 07:05:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/listelist.xml,,OG
-665,LOG Dergisi,log.com.tr,2025-11-27 07:05:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/log-dergisi.xml,,OG
-666,Lojiport,lojiport.com,2025-11-27 07:05:50,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/lojiport.xml,,OG
-670,Lovedeco.ro,lovedeco.ro,2025-11-27 07:05:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/lovedeco-ro.xml,,OG
-672,Lubelski.pl,lubelski.pl,2025-11-27 07:06:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/lubelski-pl.xml,,OG
-674,Mad TV,mad.tv,2025-11-27 07:06:22,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mad-tv.xml,,"OG (6), RSS (4)"
-675,Madata,madata.gr,2025-11-27 07:06:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/madata.xml,,OG
-676,Madridista,madridista.dk,2025-11-27 07:06:26,success,5,https://swelbyboy.github.io/prospect-rss-feeds/feeds/madridista.xml,,OG
-679,Malataya News,malatyahabermerkezi.com,2025-11-27 07:06:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/malataya-news.xml,,OG
-681,Mamadu,mamadu.pl,2025-11-27 07:06:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mamadu.xml,,OG
-682,MangoBaaz,mangobaaz.com,2025-11-27 07:06:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mangobaaz.xml,,OG
-683,Manhattan Broadcasting Company,manhattanbroadcasting.com,2025-11-27 07:06:34,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/manhattan-broadcasting-company.xml,,RSS
-686,Marica News & Media,marica.bg,2025-11-27 07:06:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/marica-news---media.xml,,OG
-687,Masala TV,masala.tv,2025-11-27 07:08:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/masala-tv.xml,,RSS
-688,Mashable,mashable.com,2025-11-27 07:08:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mashable.xml,,OG
-689,Maszol.ro,maszol.ro,2025-11-27 07:08:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/maszol-ro.xml,,OG
-691,Maxlo Media Group,maxlomedia.com,2025-11-27 07:08:33,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/maxlo-media-group.xml,,OG
-696,Menshouse,menshouse.gr,2025-11-27 07:08:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/menshouse.xml,,OG
-697,Meri Saheli,merisaheli.com,2025-11-27 07:08:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/meri-saheli.xml,,OG
-703,Mirovina.hr,mirovina.hr,2025-11-27 07:08:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mirovina-hr.xml,,OG
-705,Magasinet M!,mmm.dk,2025-11-27 07:08:58,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/magasinet-m.xml,,OG
-708,Mondo,mondo.rs,2025-11-27 07:09:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mondo.xml,,OG
+662,Listelist,listelist.com,2025-11-27 07:05:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/listelist.xml,,OG
+665,LOG Dergisi,log.com.tr,2025-11-27 07:05:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/log-dergisi.xml,,OG
+666,Lojiport,lojiport.com,2025-11-27 07:05:50,success,8,https://swelbyboy.github.io/prospect-rss-feeds/lojiport.xml,,OG
+670,Lovedeco.ro,lovedeco.ro,2025-11-27 07:05:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/lovedeco-ro.xml,,OG
+672,Lubelski.pl,lubelski.pl,2025-11-27 07:06:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/lubelski-pl.xml,,OG
+674,Mad TV,mad.tv,2025-11-27 07:06:22,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mad-tv.xml,,"OG (6), RSS (4)"
+675,Madata,madata.gr,2025-11-27 07:06:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/madata.xml,,OG
+676,Madridista,madridista.dk,2025-11-27 07:06:26,success,5,https://swelbyboy.github.io/prospect-rss-feeds/madridista.xml,,OG
+679,Malataya News,malatyahabermerkezi.com,2025-11-27 07:06:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/malataya-news.xml,,OG
+681,Mamadu,mamadu.pl,2025-11-27 07:06:32,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mamadu.xml,,OG
+682,MangoBaaz,mangobaaz.com,2025-11-27 07:06:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mangobaaz.xml,,OG
+683,Manhattan Broadcasting Company,manhattanbroadcasting.com,2025-11-27 07:06:34,success,1,https://swelbyboy.github.io/prospect-rss-feeds/manhattan-broadcasting-company.xml,,RSS
+686,Marica News & Media,marica.bg,2025-11-27 07:06:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/marica-news---media.xml,,OG
+687,Masala TV,masala.tv,2025-11-27 07:08:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/masala-tv.xml,,RSS
+688,Mashable,mashable.com,2025-11-27 07:08:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mashable.xml,,OG
+689,Maszol.ro,maszol.ro,2025-11-27 07:08:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/maszol-ro.xml,,OG
+691,Maxlo Media Group,maxlomedia.com,2025-11-27 07:08:33,success,1,https://swelbyboy.github.io/prospect-rss-feeds/maxlo-media-group.xml,,OG
+696,Menshouse,menshouse.gr,2025-11-27 07:08:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/menshouse.xml,,OG
+697,Meri Saheli,merisaheli.com,2025-11-27 07:08:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/meri-saheli.xml,,OG
+703,Mirovina.hr,mirovina.hr,2025-11-27 07:08:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mirovina-hr.xml,,OG
+705,Magasinet M!,mmm.dk,2025-11-27 07:08:58,success,10,https://swelbyboy.github.io/prospect-rss-feeds/magasinet-m.xml,,OG
+708,Mondo,mondo.rs,2025-11-27 07:09:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mondo.xml,,OG
 709,Monitorul de Vrancea,monitoruldevrancea.ro,2025-11-27 07:09:09,failed,0,,HTTP 403,N/A
-710,MonStyle,monstyle.nl,2025-11-27 07:09:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/monstyle.xml,,OG
-720,Mun Oulu,munoulu.fi,2025-11-27 07:09:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/mun-oulu.xml,,OG
-721,Music Daily,musicdaily.hu,2025-11-27 07:09:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/music-daily.xml,,OG
-722,MS News,mustsharenews.com,2025-11-27 07:09:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ms-news.xml,,OG
-724,Health Beauty Wellness Tips,myupchar.com,2025-11-27 07:09:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/health-beauty-wellness-tips.xml,,OG
-726,naEKRANIE,naekranie.pl,2025-11-27 07:10:00,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/naekranie.xml,,OG
-730,Napi,napi.hu,2025-11-27 07:10:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/napi.xml,,OG
-731,Napidoktor,napidoktor.hu,2025-11-27 07:10:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/napidoktor.xml,,OG
-733,natemat,natemat.pl,2025-11-27 07:10:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/natemat.xml,,OG
-736,Nayaindia Digital,nayaindia.com,2025-11-27 07:10:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/nayaindia-digital.xml,,OG
+710,MonStyle,monstyle.nl,2025-11-27 07:09:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/monstyle.xml,,OG
+720,Mun Oulu,munoulu.fi,2025-11-27 07:09:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/mun-oulu.xml,,OG
+721,Music Daily,musicdaily.hu,2025-11-27 07:09:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/music-daily.xml,,OG
+722,MS News,mustsharenews.com,2025-11-27 07:09:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ms-news.xml,,OG
+724,Health Beauty Wellness Tips,myupchar.com,2025-11-27 07:09:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/health-beauty-wellness-tips.xml,,OG
+726,naEKRANIE,naekranie.pl,2025-11-27 07:10:00,success,10,https://swelbyboy.github.io/prospect-rss-feeds/naekranie.xml,,OG
+730,Napi,napi.hu,2025-11-27 07:10:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/napi.xml,,OG
+731,Napidoktor,napidoktor.hu,2025-11-27 07:10:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/napidoktor.xml,,OG
+733,natemat,natemat.pl,2025-11-27 07:10:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/natemat.xml,,OG
+736,Nayaindia Digital,nayaindia.com,2025-11-27 07:10:30,success,10,https://swelbyboy.github.io/prospect-rss-feeds/nayaindia-digital.xml,,OG
 737,NorthEast Now,nenow.in,2025-11-27 07:10:30,failed,0,,HTTP 403,N/A
-738,Ne Oldu,neoldu.com,2025-11-27 07:10:31,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ne-oldu.xml,,OG
-741,Neverstill Media,neverstill.com,2025-11-27 07:10:33,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/neverstill-media.xml,,RSS
-742,News24,news24online.com,2025-11-27 07:10:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/news24.xml,,OG
-743,News7Tamil,news7tamil.live,2025-11-27 07:10:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/news7tamil.xml,,OG
+738,Ne Oldu,neoldu.com,2025-11-27 07:10:31,success,1,https://swelbyboy.github.io/prospect-rss-feeds/ne-oldu.xml,,OG
+741,Neverstill Media,neverstill.com,2025-11-27 07:10:33,success,1,https://swelbyboy.github.io/prospect-rss-feeds/neverstill-media.xml,,RSS
+742,News24,news24online.com,2025-11-27 07:10:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/news24.xml,,OG
+743,News7Tamil,news7tamil.live,2025-11-27 07:10:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/news7tamil.xml,,OG
 747,NewsTeam,newsteam.ro,2025-11-27 07:10:39,failed,0,,HTTP 403,N/A
 750,News Wing,newswing.com,2025-11-27 07:10:40,failed,0,,HTTP 403,N/A
-752,NHL Suomi,nhlsuomi.com,2025-11-27 07:10:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/nhl-suomi.xml,,OG
-755,Nieuws,nieuws.nl,2025-11-27 07:10:49,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/nieuws.xml,,OG
-756,Niezalezna.pl,niezalezna.pl,2025-11-27 07:10:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/niezalezna-pl.xml,,OG
-759,Noget i ovnen hos bagenørden,nogetiovnen.dk,2025-11-27 07:10:57,success,4,https://swelbyboy.github.io/prospect-rss-feeds/feeds/noget-i-ovnen-hos-bagenørden.xml,,OG
-760,Női Portál,noiportal.hu,2025-11-27 07:11:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/női-portál.xml,,OG
-761,NotJustOk,notjustok.com,2025-11-27 07:11:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/notjustok.xml,,OG
+752,NHL Suomi,nhlsuomi.com,2025-11-27 07:10:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/nhl-suomi.xml,,OG
+755,Nieuws,nieuws.nl,2025-11-27 07:10:49,success,9,https://swelbyboy.github.io/prospect-rss-feeds/nieuws.xml,,OG
+756,Niezalezna.pl,niezalezna.pl,2025-11-27 07:10:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/niezalezna-pl.xml,,OG
+759,Noget i ovnen hos bagenørden,nogetiovnen.dk,2025-11-27 07:10:57,success,4,https://swelbyboy.github.io/prospect-rss-feeds/noget-i-ovnen-hos-bagenørden.xml,,OG
+760,Női Portál,noiportal.hu,2025-11-27 07:11:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/női-portál.xml,,OG
+761,NotJustOk,notjustok.com,2025-11-27 07:11:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/notjustok.xml,,OG
 762,Radio Nova,nova.ie,2025-11-27 07:11:10,failed,0,,HTTP 403,N/A
-763,New Varna,novavarna.net,2025-11-27 07:11:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/new-varna.xml,,OG
-765,Nowiny.pl,nowiny.pl,2025-11-27 07:11:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/nowiny-pl.xml,,OG
+763,New Varna,novavarna.net,2025-11-27 07:11:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/new-varna.xml,,OG
+765,Nowiny.pl,nowiny.pl,2025-11-27 07:11:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/nowiny-pl.xml,,OG
 766,Npress,npress.gr,2025-11-27 07:11:19,failed,0,,HTTP 403,N/A
-768,NU Online,nu.or.id,2025-11-27 07:11:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/nu-online.xml,,OG
-770,Obiectiv - Vocea Brailei,obiectivbr.ro,2025-11-27 07:11:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/obiectiv---vocea-brailei.xml,,"OG (3), RSS (7)"
+768,NU Online,nu.or.id,2025-11-27 07:11:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/nu-online.xml,,OG
+770,Obiectiv - Vocea Brailei,obiectivbr.ro,2025-11-27 07:11:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/obiectiv---vocea-brailei.xml,,"OG (3), RSS (7)"
 771,Objektiv,objektiv.rs,2025-11-27 07:11:37,failed,0,,HTTP 403,N/A
-772,Observatorul Prahovean,observatorulph.ro,2025-11-27 07:11:42,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/observatorul-prahovean.xml,,OG
-773,ODA TV,odatv.com,2025-11-27 07:11:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/oda-tv.xml,,OG
-776,OGÜNhaber,ogunhaber.com,2025-11-27 07:11:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ogünhaber.xml,,OG
-777,OKO Press,oko.press,2025-11-27 07:11:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/oko-press.xml,,OG
-778,OK Portal,okradio.rs,2025-11-27 07:12:00,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ok-portal.xml,,"OG (9), RSS (1)"
-780,Öncü Şehir,oncusehir.com,2025-11-27 07:12:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/öncü-şehir.xml,,OG
-782,Onedio,onedio.com,2025-11-27 07:12:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/onedio.xml,,OG
-783,OpIndia,opindia.com,2025-11-27 07:12:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/opindia.xml,,OG
-785,Opinia Transilvana,opiniatransilvana.ro,2025-11-27 07:12:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/opinia-transilvana.xml,,OG
-787,Orissa Post,orissapost.com,2025-11-27 07:14:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/orissa-post.xml,,"OG (2), RSS (8)"
-790,Otostil,otostil.com,2025-11-27 07:14:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/otostil.xml,,OG
-791,Ozark Radio News,ozarkradionews.com,2025-11-27 07:14:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ozark-radio-news.xml,,OG
-792,OZON magazine,ozonweb.com,2025-11-27 07:14:49,success,5,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ozon-magazine.xml,,OG
+772,Observatorul Prahovean,observatorulph.ro,2025-11-27 07:11:42,success,10,https://swelbyboy.github.io/prospect-rss-feeds/observatorul-prahovean.xml,,OG
+773,ODA TV,odatv.com,2025-11-27 07:11:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/oda-tv.xml,,OG
+776,OGÜNhaber,ogunhaber.com,2025-11-27 07:11:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ogünhaber.xml,,OG
+777,OKO Press,oko.press,2025-11-27 07:11:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/oko-press.xml,,OG
+778,OK Portal,okradio.rs,2025-11-27 07:12:00,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ok-portal.xml,,"OG (9), RSS (1)"
+780,Öncü Şehir,oncusehir.com,2025-11-27 07:12:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/öncü-şehir.xml,,OG
+782,Onedio,onedio.com,2025-11-27 07:12:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/onedio.xml,,OG
+783,OpIndia,opindia.com,2025-11-27 07:12:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/opindia.xml,,OG
+785,Opinia Transilvana,opiniatransilvana.ro,2025-11-27 07:12:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/opinia-transilvana.xml,,OG
+787,Orissa Post,orissapost.com,2025-11-27 07:14:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/orissa-post.xml,,"OG (2), RSS (8)"
+790,Otostil,otostil.com,2025-11-27 07:14:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/otostil.xml,,OG
+791,Ozark Radio News,ozarkradionews.com,2025-11-27 07:14:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ozark-radio-news.xml,,OG
+792,OZON magazine,ozonweb.com,2025-11-27 07:14:49,success,5,https://swelbyboy.github.io/prospect-rss-feeds/ozon-magazine.xml,,OG
 793,Padma Times 24,padmatimes24.com,2025-11-27 07:14:49,failed,0,,HTTP 403,N/A
 794,Pakistan Observer,pakobserver.net,2025-11-27 07:14:49,failed,0,,HTTP 403,N/A
 795,Pame Evro,pameevro.gr,2025-11-27 07:14:49,failed,0,,HTTP 403,N/A
-796,Pamukkale Haber,pamukkalehaber.com,2025-11-27 07:14:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pamukkale-haber.xml,,OG
-797,Pannon RTV,pannonrtv.com,2025-11-27 07:14:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pannon-rtv.xml,,OG
+796,Pamukkale Haber,pamukkalehaber.com,2025-11-27 07:14:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/pamukkale-haber.xml,,OG
+797,Pannon RTV,pannonrtv.com,2025-11-27 07:14:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/pannon-rtv.xml,,OG
 798,PAOKFC,paokfc.gr,2025-11-27 07:14:57,failed,0,,HTTP 403,N/A
-800,Paratic,paratic.com,2025-11-27 07:15:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/paratic.xml,,OG
-804,Plug Media (PCM),pcmarket.com.hk,2025-11-27 07:15:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/plug-media--pcm.xml,,OG
-805,PeepingMoon,peepingmoon.com,2025-11-27 07:15:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/peepingmoon.xml,,OG
-807,Periskopi,periskopi.com,2025-11-27 07:15:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/periskopi.xml,,OG
-808,Petel,petel.bg,2025-11-27 07:15:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/petel.xml,,OG
+800,Paratic,paratic.com,2025-11-27 07:15:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/paratic.xml,,OG
+804,Plug Media (PCM),pcmarket.com.hk,2025-11-27 07:15:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/plug-media--pcm.xml,,OG
+805,PeepingMoon,peepingmoon.com,2025-11-27 07:15:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/peepingmoon.xml,,OG
+807,Periskopi,periskopi.com,2025-11-27 07:15:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/periskopi.xml,,OG
+808,Petel,petel.bg,2025-11-27 07:15:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/petel.xml,,OG
 809,Phoenix 98 FM,phoenixfm.com,2025-11-27 07:15:26,failed,0,,HTTP 403,N/A
-811,Pink.rs,pink.rs,2025-11-27 07:15:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pink-rs.xml,,OG
-812,PinkVilla,pinkvilla.com,2025-11-27 07:15:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pinkvilla.xml,,OG
-813,PlanetaGracza.pl,planetagracza.pl,2025-11-27 07:15:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/planetagracza-pl.xml,,OG
+811,Pink.rs,pink.rs,2025-11-27 07:15:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/pink-rs.xml,,OG
+812,PinkVilla,pinkvilla.com,2025-11-27 07:15:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/pinkvilla.xml,,OG
+813,PlanetaGracza.pl,planetagracza.pl,2025-11-27 07:15:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/planetagracza-pl.xml,,OG
 814,Playtuşu,playtusu.com,2025-11-27 07:15:32,failed,0,,HTTP 403,N/A
-815,Plovdiv-Online,plovdiv-online.com,2025-11-27 07:15:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/plovdiv-online.xml,,OG
-817,Пловдивчани,plovdiv24.bg,2025-11-27 07:15:37,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/пловдивчани.xml,,OG
-818,PoBandzie,po-bandzie.com.pl,2025-11-27 07:15:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pobandzie.xml,,OG
-819,podlaskie24,podlaskie24.pl,2025-11-27 07:15:41,success,2,https://swelbyboy.github.io/prospect-rss-feeds/feeds/podlaskie24.xml,,OG
-820,Под тепето (www.podtepeto.com),podtepeto.com,2025-11-27 07:15:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/под-тепето--www-podtepeto-com.xml,,OG
-821,Politika Online,politika.rs,2025-11-27 07:15:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/politika-online.xml,,OG
-822,polsatnews.pl,polsatnews.pl,2025-11-27 07:16:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/polsatnews-pl.xml,,OG
-826,Porten.no,porten.no,2025-11-27 07:16:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/porten-no.xml,,OG
-830,Neutral Publishing House,prabhatkhabar.com,2025-11-27 07:16:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/neutral-publishing-house.xml,,"OG (9), RSS (1)"
-831,Prajavani,prajavani.net,2025-11-27 07:16:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/prajavani.xml,,OG
-832,Prameya News 7,prameyanews7.com,2025-11-27 07:16:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/prameya-news-7.xml,,OG
+815,Plovdiv-Online,plovdiv-online.com,2025-11-27 07:15:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/plovdiv-online.xml,,OG
+817,Пловдивчани,plovdiv24.bg,2025-11-27 07:15:37,success,9,https://swelbyboy.github.io/prospect-rss-feeds/пловдивчани.xml,,OG
+818,PoBandzie,po-bandzie.com.pl,2025-11-27 07:15:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/pobandzie.xml,,OG
+819,podlaskie24,podlaskie24.pl,2025-11-27 07:15:41,success,2,https://swelbyboy.github.io/prospect-rss-feeds/podlaskie24.xml,,OG
+820,Под тепето (www.podtepeto.com),podtepeto.com,2025-11-27 07:15:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/под-тепето--www-podtepeto-com.xml,,OG
+821,Politika Online,politika.rs,2025-11-27 07:15:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/politika-online.xml,,OG
+822,polsatnews.pl,polsatnews.pl,2025-11-27 07:16:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/polsatnews-pl.xml,,OG
+826,Porten.no,porten.no,2025-11-27 07:16:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/porten-no.xml,,OG
+830,Neutral Publishing House,prabhatkhabar.com,2025-11-27 07:16:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/neutral-publishing-house.xml,,"OG (9), RSS (1)"
+831,Prajavani,prajavani.net,2025-11-27 07:16:11,success,10,https://swelbyboy.github.io/prospect-rss-feeds/prajavani.xml,,OG
+832,Prameya News 7,prameyanews7.com,2025-11-27 07:16:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/prameya-news-7.xml,,OG
 836,Probashir Diganta,probashirdiganta.com,2025-11-27 07:16:25,failed,0,,HTTP 403,N/A
-838,Promotions.hu,promotions.hu,2025-11-27 07:16:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/promotions-hu.xml,,OG
-840,Pudhari,pudhari.news,2025-11-27 07:16:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pudhari.xml,,OG
+838,Promotions.hu,promotions.hu,2025-11-27 07:16:28,success,10,https://swelbyboy.github.io/prospect-rss-feeds/promotions-hu.xml,,OG
+840,Pudhari,pudhari.news,2025-11-27 07:16:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/pudhari.xml,,OG
 841,Punablog,puna.nl,2025-11-27 07:16:29,failed,0,,HTTP 403,N/A
-842,Ziarul Puterea,puterea.ro,2025-11-27 07:16:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ziarul-puterea.xml,,OG
-843,New Generation Media Corporation,puthiyathalaimurai.com,2025-11-27 07:16:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/new-generation-media-corporation.xml,,OG
-846,Qooah,qooah.com,2025-11-27 07:16:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/qooah.xml,,OG
-847,QuirkyByte,quirkybyte.com,2025-11-27 07:16:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/quirkybyte.xml,,OG
-848,Racesport.nl,racesport.nl,2025-11-27 07:16:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/racesport-nl.xml,,OG
+842,Ziarul Puterea,puterea.ro,2025-11-27 07:16:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ziarul-puterea.xml,,OG
+843,New Generation Media Corporation,puthiyathalaimurai.com,2025-11-27 07:16:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/new-generation-media-corporation.xml,,OG
+846,Qooah,qooah.com,2025-11-27 07:16:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/qooah.xml,,OG
+847,QuirkyByte,quirkybyte.com,2025-11-27 07:16:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/quirkybyte.xml,,OG
+848,Racesport.nl,racesport.nl,2025-11-27 07:16:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/racesport-nl.xml,,OG
 849,Radio Łódź,radiolodz.pl,2025-11-27 07:16:43,failed,0,,HTTP 403,N/A
-850,Radio Romania Resita,radioresita.ro,2025-11-27 07:16:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/radio-romania-resita.xml,,OG
-851,Radio Sarajevo,radiosarajevo.ba,2025-11-27 07:16:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/radio-sarajevo.xml,,OG
+850,Radio Romania Resita,radioresita.ro,2025-11-27 07:16:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/radio-romania-resita.xml,,OG
+851,Radio Sarajevo,radiosarajevo.ba,2025-11-27 07:16:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/radio-sarajevo.xml,,OG
 855,رأي اليوم,raialyoum.com,2025-11-27 07:16:50,failed,0,,HTTP 403,N/A
-856,Rallypl,rallypl.com,2025-11-27 07:16:54,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/rallypl.xml,,OG
-857,Lxkal.dk,randersidag.dk,2025-11-27 07:17:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/lxkal-dk.xml,,OG
-859,RealClear Media Group,realclearmediagroup.com,2025-11-27 07:17:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/realclear-media-group.xml,,RSS
-860,Realitatea.net,realitatea.net,2025-11-27 07:17:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/realitatea-net.xml,,OG
-863,Red Clover Media,redclovermedia.ro,2025-11-27 07:17:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/red-clover-media.xml,,OG
+856,Rallypl,rallypl.com,2025-11-27 07:16:54,success,10,https://swelbyboy.github.io/prospect-rss-feeds/rallypl.xml,,OG
+857,Lxkal.dk,randersidag.dk,2025-11-27 07:17:03,success,10,https://swelbyboy.github.io/prospect-rss-feeds/lxkal-dk.xml,,OG
+859,RealClear Media Group,realclearmediagroup.com,2025-11-27 07:17:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/realclear-media-group.xml,,RSS
+860,Realitatea.net,realitatea.net,2025-11-27 07:17:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/realitatea-net.xml,,OG
+863,Red Clover Media,redclovermedia.ro,2025-11-27 07:17:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/red-clover-media.xml,,OG
 864,Regionalni tjednik doo,regionalni.com,2025-11-27 07:17:20,failed,0,,HTTP 403,N/A
-867,Republika,republika.co.id,2025-11-27 07:17:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/republika.xml,,OG
-868,Szeretem Koncz Zsuzsát,retromuzsika.hu,2025-11-27 07:17:42,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/szeretem-koncz-zsuzsát.xml,,OG
+867,Republika,republika.co.id,2025-11-27 07:17:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/republika.xml,,OG
+868,Szeretem Koncz Zsuzsát,retromuzsika.hu,2025-11-27 07:17:42,success,10,https://swelbyboy.github.io/prospect-rss-feeds/szeretem-koncz-zsuzsát.xml,,OG
 874,Rodiaki,rodiaki.gr,2025-11-27 07:17:42,failed,0,,HTTP 403,N/A
-876,Rørosnytt,rorosnytt.no,2025-11-27 07:17:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/rørosnytt.xml,,OG
-877,Spokesman,rozanaspokesman.com,2025-11-27 07:17:58,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/spokesman.xml,,OG
-879,Radio Romania International,rri.ro,2025-11-27 07:18:00,success,3,https://swelbyboy.github.io/prospect-rss-feeds/feeds/radio-romania-international.xml,,OG
-880,Romania TV,rtv.net,2025-11-27 07:18:06,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/romania-tv.xml,,OG
-882,RTV Noord,rtvnoord.nl,2025-11-27 07:18:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/rtv-noord.xml,,OG
-884,PINK INTERNATIONAL COMPANY D.O.O.,rtvpink.com,2025-11-27 07:18:12,success,0,https://swelbyboy.github.io/prospect-rss-feeds/feeds/pink-international-company-d-o-o.xml,,RSS
-885,RTV Santos,rtvsantos.com,2025-11-27 07:18:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/rtv-santos.xml,,OG
-886,Sadece Haber,sadecehaber.com,2025-11-27 07:18:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sadece-haber.xml,,OG
-888,Sağlık Aktüel,saglikaktuel.com,2025-11-27 07:18:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sağlık-aktüel.xml,,OG
-891,SamosVoice.gr,samosvoice.gr,2025-11-27 07:18:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/samosvoice-gr.xml,,OG
-893,Sarajevska sehara,sarajevskasehara.com,2025-11-27 07:19:00,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sarajevska-sehara.xml,,OG
-894,Saving Toward A Better Life,savingtowardabetterlife.com,2025-11-27 07:19:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/saving-toward-a-better-life.xml,,OG
-895,SayDigi點子生活,saydigi.com,2025-11-27 07:19:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/saydigi點子生活.xml,,OG
-897,scigacz.pl,scigacz.pl,2025-11-27 07:19:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/scigacz-pl.xml,,OG
-899,SCVTV Media Center,scvtv.com,2025-11-27 07:19:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/scvtv-media-center.xml,,OG
-900,Şehir Medya,sehirmedya.com,2025-11-27 07:19:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/şehir-medya.xml,,OG
-901,The Sentinel,sentinelassam.com,2025-11-27 07:19:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-sentinel.xml,,OG
-904,Siasat Press,siasat.com,2025-11-27 07:19:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/siasat-press.xml,,OG
-906,Sify,sify.com,2025-11-27 07:19:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sify.xml,,OG
-908,SILKCITYNEWS,silkcitynews.com,2025-11-27 07:19:58,success,5,https://swelbyboy.github.io/prospect-rss-feeds/feeds/silkcitynews.xml,,OG
-909,Sinidisi,sinidisi.gr,2025-11-27 07:20:02,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sinidisi.xml,,OG
-910,Sister2Sister,sis2sis.com,2025-11-27 07:20:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sister2sister.xml,,OG
-911,Situation Publishing,situationpublishing.com,2025-11-27 07:20:09,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/situation-publishing.xml,,OG
+876,Rørosnytt,rorosnytt.no,2025-11-27 07:17:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/rørosnytt.xml,,OG
+877,Spokesman,rozanaspokesman.com,2025-11-27 07:17:58,success,10,https://swelbyboy.github.io/prospect-rss-feeds/spokesman.xml,,OG
+879,Radio Romania International,rri.ro,2025-11-27 07:18:00,success,3,https://swelbyboy.github.io/prospect-rss-feeds/radio-romania-international.xml,,OG
+880,Romania TV,rtv.net,2025-11-27 07:18:06,success,10,https://swelbyboy.github.io/prospect-rss-feeds/romania-tv.xml,,OG
+882,RTV Noord,rtvnoord.nl,2025-11-27 07:18:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/rtv-noord.xml,,OG
+884,PINK INTERNATIONAL COMPANY D.O.O.,rtvpink.com,2025-11-27 07:18:12,success,0,https://swelbyboy.github.io/prospect-rss-feeds/pink-international-company-d-o-o.xml,,RSS
+885,RTV Santos,rtvsantos.com,2025-11-27 07:18:24,success,10,https://swelbyboy.github.io/prospect-rss-feeds/rtv-santos.xml,,OG
+886,Sadece Haber,sadecehaber.com,2025-11-27 07:18:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sadece-haber.xml,,OG
+888,Sağlık Aktüel,saglikaktuel.com,2025-11-27 07:18:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sağlık-aktüel.xml,,OG
+891,SamosVoice.gr,samosvoice.gr,2025-11-27 07:18:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/samosvoice-gr.xml,,OG
+893,Sarajevska sehara,sarajevskasehara.com,2025-11-27 07:19:00,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sarajevska-sehara.xml,,OG
+894,Saving Toward A Better Life,savingtowardabetterlife.com,2025-11-27 07:19:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/saving-toward-a-better-life.xml,,OG
+895,SayDigi點子生活,saydigi.com,2025-11-27 07:19:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/saydigi點子生活.xml,,OG
+897,scigacz.pl,scigacz.pl,2025-11-27 07:19:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/scigacz-pl.xml,,OG
+899,SCVTV Media Center,scvtv.com,2025-11-27 07:19:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/scvtv-media-center.xml,,OG
+900,Şehir Medya,sehirmedya.com,2025-11-27 07:19:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/şehir-medya.xml,,OG
+901,The Sentinel,sentinelassam.com,2025-11-27 07:19:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-sentinel.xml,,OG
+904,Siasat Press,siasat.com,2025-11-27 07:19:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/siasat-press.xml,,OG
+906,Sify,sify.com,2025-11-27 07:19:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sify.xml,,OG
+908,SILKCITYNEWS,silkcitynews.com,2025-11-27 07:19:58,success,5,https://swelbyboy.github.io/prospect-rss-feeds/silkcitynews.xml,,OG
+909,Sinidisi,sinidisi.gr,2025-11-27 07:20:02,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sinidisi.xml,,OG
+910,Sister2Sister,sis2sis.com,2025-11-27 07:20:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sister2sister.xml,,OG
+911,Situation Publishing,situationpublishing.com,2025-11-27 07:20:09,success,1,https://swelbyboy.github.io/prospect-rss-feeds/situation-publishing.xml,,OG
 915,SMnoticias,smnoticias.com,2025-11-27 07:20:09,failed,0,,HTTP 403,N/A
-919,soapcentral.com,soapcentral.com,2025-11-27 07:20:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/soapcentral-com.xml,,OG
-920,Спомени от Народната република,socbg.com,2025-11-27 07:20:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/спомени-от-народната-република.xml,,OG
-921,Someecards,someecards.com,2025-11-27 07:20:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/someecards.xml,,OG
-922,Sondakika24,sondakika-24.com,2025-11-27 07:20:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sondakika24.xml,,OG
-923,Sosialnytt,sosialnytt.com,2025-11-27 07:20:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sosialnytt.xml,,OG
-926,SPANIA I DAG,spaniaidag.no,2025-11-27 07:20:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/spania-i-dag.xml,,OG
-927,Sparkles to Sprinkles,sparklestosprinkles.com,2025-11-27 07:20:41,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sparkles-to-sprinkles.xml,,OG
-928,Sportal Media Group,sportal.bg,2025-11-27 07:20:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sportal-media-group.xml,,OG
-929,Tippmixtippek,sportposzt.com,2025-11-27 07:20:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/tippmixtippek.xml,,OG
-930,Sportske.net,sportske.net,2025-11-27 07:20:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sportske-net.xml,,OG
-931,Sportsnaut,sportsnaut.com,2025-11-27 07:20:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sportsnaut.xml,,OG
-932,SportSport.ba - Fight Club,sportsport.ba,2025-11-27 07:20:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sportsport-ba---fight-club.xml,,OG
-935,Srbija Danas,srbijadanas.com,2025-11-27 07:20:59,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/srbija-danas.xml,,OG
-939,Steelers Depot,steelersdepot.com,2025-11-27 07:21:00,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/steelers-depot.xml,,OG
-940,Stella Novus,stellanovus.com,2025-11-27 07:21:02,success,6,https://swelbyboy.github.io/prospect-rss-feeds/feeds/stella-novus.xml,,RSS
-941,Sterea Economy,stereaeconomy.gr,2025-11-27 07:21:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sterea-economy.xml,,OG
-943,Stiripesurse.ro,stiripesurse.ro,2025-11-27 07:21:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/stiripesurse-ro.xml,,OG
-944,ST. MAXIM THE GREEK,stmaximthegreek.org,2025-11-27 07:21:13,success,2,https://swelbyboy.github.io/prospect-rss-feeds/feeds/st--maxim-the-greek.xml,,OG
-947,Story Srbija,story.rs,2025-11-27 07:21:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/story-srbija.xml,,OG
-949,Strive Middle East,striveme.com,2025-11-27 07:21:19,success,3,https://swelbyboy.github.io/prospect-rss-feeds/feeds/strive-middle-east.xml,,OG
-950,Struma.bg,struma.bg,2025-11-27 07:23:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/struma-bg.xml,,"OG (7), RSS (3)"
-951,Studio Alphen,studioalphen.nl,2025-11-27 07:23:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/studio-alphen.xml,,OG
-952,Studycafe,studycafe.in,2025-11-27 07:23:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/studycafe.xml,,OG
-957,Suara Surabaya Media,suarasurabaya.net,2025-11-27 07:23:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/suara-surabaya-media.xml,,OG
-962,Swadesh,swadeshnews.in,2025-11-27 07:23:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/swadesh.xml,,OG
-963,SwagGrabber,swaggrabber.com,2025-11-27 07:23:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/swaggrabber.xml,,OG
-964,Swidnica24,swidnica24.pl,2025-11-27 07:23:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/swidnica24.xml,,OG
-965,SwingCompleto,swingcompleto.com,2025-11-27 07:23:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/swingcompleto.xml,,OG
-966,Sydöstran,sydostran.se,2025-11-27 07:23:50,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sydöstran.xml,,OG
+919,soapcentral.com,soapcentral.com,2025-11-27 07:20:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/soapcentral-com.xml,,OG
+920,Спомени от Народната република,socbg.com,2025-11-27 07:20:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/спомени-от-народната-република.xml,,OG
+921,Someecards,someecards.com,2025-11-27 07:20:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/someecards.xml,,OG
+922,Sondakika24,sondakika-24.com,2025-11-27 07:20:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sondakika24.xml,,OG
+923,Sosialnytt,sosialnytt.com,2025-11-27 07:20:33,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sosialnytt.xml,,OG
+926,SPANIA I DAG,spaniaidag.no,2025-11-27 07:20:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/spania-i-dag.xml,,OG
+927,Sparkles to Sprinkles,sparklestosprinkles.com,2025-11-27 07:20:41,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sparkles-to-sprinkles.xml,,OG
+928,Sportal Media Group,sportal.bg,2025-11-27 07:20:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sportal-media-group.xml,,OG
+929,Tippmixtippek,sportposzt.com,2025-11-27 07:20:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/tippmixtippek.xml,,OG
+930,Sportske.net,sportske.net,2025-11-27 07:20:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sportske-net.xml,,OG
+931,Sportsnaut,sportsnaut.com,2025-11-27 07:20:53,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sportsnaut.xml,,OG
+932,SportSport.ba - Fight Club,sportsport.ba,2025-11-27 07:20:56,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sportsport-ba---fight-club.xml,,OG
+935,Srbija Danas,srbijadanas.com,2025-11-27 07:20:59,success,10,https://swelbyboy.github.io/prospect-rss-feeds/srbija-danas.xml,,OG
+939,Steelers Depot,steelersdepot.com,2025-11-27 07:21:00,success,10,https://swelbyboy.github.io/prospect-rss-feeds/steelers-depot.xml,,OG
+940,Stella Novus,stellanovus.com,2025-11-27 07:21:02,success,6,https://swelbyboy.github.io/prospect-rss-feeds/stella-novus.xml,,RSS
+941,Sterea Economy,stereaeconomy.gr,2025-11-27 07:21:05,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sterea-economy.xml,,OG
+943,Stiripesurse.ro,stiripesurse.ro,2025-11-27 07:21:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/stiripesurse-ro.xml,,OG
+944,ST. MAXIM THE GREEK,stmaximthegreek.org,2025-11-27 07:21:13,success,2,https://swelbyboy.github.io/prospect-rss-feeds/st--maxim-the-greek.xml,,OG
+947,Story Srbija,story.rs,2025-11-27 07:21:18,success,10,https://swelbyboy.github.io/prospect-rss-feeds/story-srbija.xml,,OG
+949,Strive Middle East,striveme.com,2025-11-27 07:21:19,success,3,https://swelbyboy.github.io/prospect-rss-feeds/strive-middle-east.xml,,OG
+950,Struma.bg,struma.bg,2025-11-27 07:23:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/struma-bg.xml,,"OG (7), RSS (3)"
+951,Studio Alphen,studioalphen.nl,2025-11-27 07:23:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/studio-alphen.xml,,OG
+952,Studycafe,studycafe.in,2025-11-27 07:23:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/studycafe.xml,,OG
+957,Suara Surabaya Media,suarasurabaya.net,2025-11-27 07:23:35,success,10,https://swelbyboy.github.io/prospect-rss-feeds/suara-surabaya-media.xml,,OG
+962,Swadesh,swadeshnews.in,2025-11-27 07:23:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/swadesh.xml,,OG
+963,SwagGrabber,swaggrabber.com,2025-11-27 07:23:44,success,10,https://swelbyboy.github.io/prospect-rss-feeds/swaggrabber.xml,,OG
+964,Swidnica24,swidnica24.pl,2025-11-27 07:23:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/swidnica24.xml,,OG
+965,SwingCompleto,swingcompleto.com,2025-11-27 07:23:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/swingcompleto.xml,,OG
+966,Sydöstran,sydostran.se,2025-11-27 07:23:50,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sydöstran.xml,,OG
 968,Szegeder.hu,szegeder.hu,2025-11-27 07:23:51,failed,0,,HTTP 403,N/A
-970,Tamindir,tamindir.com,2025-11-27 07:23:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/tamindir.xml,,OG
-972,Tarsus Akdeniz,tarsusakdeniz.com,2025-11-27 07:24:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/tarsus-akdeniz.xml,,OG
-973,Taste Life,tastelife.tv,2025-11-27 07:24:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/taste-life.xml,,OG
-975,tech360.tv,tech360.tv,2025-11-27 07:24:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/tech360-tv.xml,,OG
-976,TechNews.tw,technews.tw,2025-11-27 07:24:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/technews-tw.xml,,OG
-978,Technopat,technopat.net,2025-11-27 07:24:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/technopat.xml,,OG
-979,Tech Travel Eat,techtraveleat.com,2025-11-27 07:24:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/tech-travel-eat.xml,,OG
-980,TEEPR 亮新聞,teepr.com,2025-11-27 07:24:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/teepr-亮新聞.xml,,OG
-982,Teknoblog,teknoblog.com,2025-11-27 07:24:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/teknoblog.xml,,OG
-983,Tele1 TV,tele1.com.tr,2025-11-27 07:24:59,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/tele1-tv.xml,,OG
-984,Telegraf.rs,telegraf.rs,2025-11-27 07:25:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/telegraf-rs.xml,,OG
-985,Telegrafi,telegrafi.com,2025-11-27 07:25:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/telegrafi.xml,,OG
-988,Teleskop,teleskop.hr,2025-11-27 07:25:13,success,7,https://swelbyboy.github.io/prospect-rss-feeds/feeds/teleskop.xml,,OG
-989,Telex.hu,telex.hu,2025-11-27 07:25:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/telex-hu.xml,,OG
+970,Tamindir,tamindir.com,2025-11-27 07:23:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/tamindir.xml,,OG
+972,Tarsus Akdeniz,tarsusakdeniz.com,2025-11-27 07:24:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/tarsus-akdeniz.xml,,OG
+973,Taste Life,tastelife.tv,2025-11-27 07:24:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/taste-life.xml,,OG
+975,tech360.tv,tech360.tv,2025-11-27 07:24:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/tech360-tv.xml,,OG
+976,TechNews.tw,technews.tw,2025-11-27 07:24:16,success,10,https://swelbyboy.github.io/prospect-rss-feeds/technews-tw.xml,,OG
+978,Technopat,technopat.net,2025-11-27 07:24:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/technopat.xml,,OG
+979,Tech Travel Eat,techtraveleat.com,2025-11-27 07:24:48,success,10,https://swelbyboy.github.io/prospect-rss-feeds/tech-travel-eat.xml,,OG
+980,TEEPR 亮新聞,teepr.com,2025-11-27 07:24:52,success,10,https://swelbyboy.github.io/prospect-rss-feeds/teepr-亮新聞.xml,,OG
+982,Teknoblog,teknoblog.com,2025-11-27 07:24:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/teknoblog.xml,,OG
+983,Tele1 TV,tele1.com.tr,2025-11-27 07:24:59,success,10,https://swelbyboy.github.io/prospect-rss-feeds/tele1-tv.xml,,OG
+984,Telegraf.rs,telegraf.rs,2025-11-27 07:25:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/telegraf-rs.xml,,OG
+985,Telegrafi,telegrafi.com,2025-11-27 07:25:10,success,10,https://swelbyboy.github.io/prospect-rss-feeds/telegrafi.xml,,OG
+988,Teleskop,teleskop.hr,2025-11-27 07:25:13,success,7,https://swelbyboy.github.io/prospect-rss-feeds/teleskop.xml,,OG
+989,Telex.hu,telex.hu,2025-11-27 07:25:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/telex-hu.xml,,OG
 990,Tenniskafe,tenniskafe.com,2025-11-27 07:25:14,failed,0,,HTTP 403,N/A
-995,The Bridge India,thebridge.in,2025-11-27 07:25:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-bridge-india.xml,,OG
+995,The Bridge India,thebridge.in,2025-11-27 07:25:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-bridge-india.xml,,OG
 997,The Clemson Insider,theclemsoninsider.com,2025-11-27 07:25:26,failed,0,,"Error fetching feed: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",N/A
-999,The Hans India,thehansindia.com,2025-11-27 07:25:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-hans-india.xml,,OG
-1000,Harris Teeter Deals,theharristeeterdeals.com,2025-11-27 07:25:35,success,6,https://swelbyboy.github.io/prospect-rss-feeds/feeds/harris-teeter-deals.xml,,OG
-1002,Initium Media 端傳媒,theinitium.com,2025-11-27 07:25:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/initium-media-端傳媒.xml,,OG
-1003,Kashmir Glory,thekashmirglory.com,2025-11-27 07:25:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/kashmir-glory.xml,,OG
-1004,The Ladies Finger,theladiesfinger.com,2025-11-27 07:25:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-ladies-finger.xml,,OG
+999,The Hans India,thehansindia.com,2025-11-27 07:25:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-hans-india.xml,,OG
+1000,Harris Teeter Deals,theharristeeterdeals.com,2025-11-27 07:25:35,success,6,https://swelbyboy.github.io/prospect-rss-feeds/harris-teeter-deals.xml,,OG
+1002,Initium Media 端傳媒,theinitium.com,2025-11-27 07:25:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/initium-media-端傳媒.xml,,OG
+1003,Kashmir Glory,thekashmirglory.com,2025-11-27 07:25:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/kashmir-glory.xml,,OG
+1004,The Ladies Finger,theladiesfinger.com,2025-11-27 07:25:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-ladies-finger.xml,,OG
 1005,TheLiberal.ie,theliberal.ie,2025-11-27 07:25:58,failed,0,,HTTP 403,N/A
-1007,The News Lens 關鍵評論網,thenewslens.com,2025-11-27 07:26:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-news-lens-關鍵評論網.xml,,OG
-1008,The News Now,thenewsnow.co.in,2025-11-27 07:26:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-news-now.xml,,OG
-1009,The Outbound Collective,theoutbound.com,2025-11-27 07:26:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-outbound-collective.xml,,OG
-1010,The Pinnacle List,thepinnaclelist.com,2025-11-27 07:26:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-pinnacle-list.xml,,OG
-1013,South First,thesouthfirst.com,2025-11-27 07:26:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/south-first.xml,,OG
+1007,The News Lens 關鍵評論網,thenewslens.com,2025-11-27 07:26:07,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-news-lens-關鍵評論網.xml,,OG
+1008,The News Now,thenewsnow.co.in,2025-11-27 07:26:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-news-now.xml,,OG
+1009,The Outbound Collective,theoutbound.com,2025-11-27 07:26:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-outbound-collective.xml,,OG
+1010,The Pinnacle List,thepinnaclelist.com,2025-11-27 07:26:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-pinnacle-list.xml,,OG
+1013,South First,thesouthfirst.com,2025-11-27 07:26:55,success,10,https://swelbyboy.github.io/prospect-rss-feeds/south-first.xml,,OG
 1015,TheTrends.ro,thetrends.ro,2025-11-27 07:27:25,failed,0,,"Error fetching feed: HTTPSConnectionPool(host='thetrends.ro', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb0ad663dd0>, 'Connection to thetrends.ro timed out. (connect timeout=30)'))",N/A
-1017,The Vinyl District,thevinyldistrict.com,2025-11-27 07:27:27,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-vinyl-district.xml,,OG
-1018,The Wire Hindi,thewirehindi.com,2025-11-27 07:27:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/the-wire-hindi.xml,,OG
-1019,Thisday Nigeria,thisdaylive.com,2025-11-27 07:27:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/thisday-nigeria.xml,,OG
-1021,Tigris Haber,tigrishaber.com,2025-11-27 07:27:42,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/tigris-haber.xml,,OG
-1022,Timeturk,timeturk.com,2025-11-27 07:27:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/timeturk.xml,,OG
-1025,Twój Kurier Olsztyński,tko.pl,2025-11-27 07:27:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/twój-kurier-olsztyński.xml,,OG
+1017,The Vinyl District,thevinyldistrict.com,2025-11-27 07:27:27,success,9,https://swelbyboy.github.io/prospect-rss-feeds/the-vinyl-district.xml,,OG
+1018,The Wire Hindi,thewirehindi.com,2025-11-27 07:27:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/the-wire-hindi.xml,,OG
+1019,Thisday Nigeria,thisdaylive.com,2025-11-27 07:27:40,success,10,https://swelbyboy.github.io/prospect-rss-feeds/thisday-nigeria.xml,,OG
+1021,Tigris Haber,tigrishaber.com,2025-11-27 07:27:42,success,9,https://swelbyboy.github.io/prospect-rss-feeds/tigris-haber.xml,,OG
+1022,Timeturk,timeturk.com,2025-11-27 07:27:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/timeturk.xml,,OG
+1025,Twój Kurier Olsztyński,tko.pl,2025-11-27 07:27:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/twój-kurier-olsztyński.xml,,OG
 1030,Traffic News,trafficnews.bg,2025-11-27 07:27:50,failed,0,,HTTP 403,N/A
-1032,Trikalaidees,trikalaidees.gr,2025-11-27 07:28:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/trikalaidees.xml,,OG
-1035,True Life,truelife.gr,2025-11-27 07:28:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/true-life.xml,,OG
-1036,Turkiye Egitim,turkiyeegitim.com,2025-11-27 07:28:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/turkiye-egitim.xml,,OG
-1037,Turnul Sfatului,turnulsfatului.ro,2025-11-27 07:28:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/turnul-sfatului.xml,,OG
-1040,TV MIDTVEST,tvmidtvest.dk,2025-11-27 07:28:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/tv-midtvest.xml,,"OG (3), RSS (7)"
-1042,Open Greece,tvopen.gr,2025-11-27 07:28:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/open-greece.xml,,OG
-1044,TVS,tvs.pl,2025-11-27 07:28:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/tvs.xml,,OG
-1045,Star Kentrikis Elladas,tvstar.gr,2025-11-27 07:28:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/star-kentrikis-elladas.xml,,OG
-1046,Tydzień Ziemi Śremskiej,tydzien.net.pl,2025-11-27 07:28:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/tydzień-ziemi-śremskiej.xml,,OG
-1049,Unghiul,unghiul.com,2025-11-27 07:29:04,success,8,https://swelbyboy.github.io/prospect-rss-feeds/feeds/unghiul.xml,,OG
+1032,Trikalaidees,trikalaidees.gr,2025-11-27 07:28:01,success,10,https://swelbyboy.github.io/prospect-rss-feeds/trikalaidees.xml,,OG
+1035,True Life,truelife.gr,2025-11-27 07:28:08,success,10,https://swelbyboy.github.io/prospect-rss-feeds/true-life.xml,,OG
+1036,Turkiye Egitim,turkiyeegitim.com,2025-11-27 07:28:12,success,10,https://swelbyboy.github.io/prospect-rss-feeds/turkiye-egitim.xml,,OG
+1037,Turnul Sfatului,turnulsfatului.ro,2025-11-27 07:28:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/turnul-sfatului.xml,,OG
+1040,TV MIDTVEST,tvmidtvest.dk,2025-11-27 07:28:39,success,10,https://swelbyboy.github.io/prospect-rss-feeds/tv-midtvest.xml,,"OG (3), RSS (7)"
+1042,Open Greece,tvopen.gr,2025-11-27 07:28:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/open-greece.xml,,OG
+1044,TVS,tvs.pl,2025-11-27 07:28:49,success,10,https://swelbyboy.github.io/prospect-rss-feeds/tvs.xml,,OG
+1045,Star Kentrikis Elladas,tvstar.gr,2025-11-27 07:28:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/star-kentrikis-elladas.xml,,OG
+1046,Tydzień Ziemi Śremskiej,tydzien.net.pl,2025-11-27 07:28:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/tydzień-ziemi-śremskiej.xml,,OG
+1049,Unghiul,unghiul.com,2025-11-27 07:29:04,success,8,https://swelbyboy.github.io/prospect-rss-feeds/unghiul.xml,,OG
 1050,Universul argesean,universulargesean.ro,2025-11-27 07:29:34,failed,0,,"Error fetching feed: HTTPSConnectionPool(host='www.universulargesean.ro', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x7fb0ad734610>, 'Connection to www.universulargesean.ro timed out. (connect timeout=30)'))",N/A
-1051,Uplifers,uplifers.com,2025-11-27 07:29:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/uplifers.xml,,OG
-1053,Usay.gr,usay.gr,2025-11-27 07:29:41,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/usay-gr.xml,,OG
-1054,Valioliiga,valioliiga.com,2025-11-27 07:29:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/valioliiga.xml,,OG
-1055,Varaždinske vijesti,varazdinske-vijesti.hr,2025-11-27 07:29:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/varaždinske-vijesti.xml,,OG
-1057,Voetbal International,vi.nl,2025-11-27 07:29:54,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/voetbal-international.xml,,OG
-1059,Viata Verde Viu,viataverdeviu.ro,2025-11-27 07:29:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/viata-verde-viu.xml,,OG
-1060,Tatlı Tarifleri,videoluyemek.com,2025-11-27 07:30:00,success,1,https://swelbyboy.github.io/prospect-rss-feeds/feeds/tatlı-tarifleri.xml,,OG
-1063,VIP Magazine Group,vipmagazine.ie,2025-11-27 07:30:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/vip-magazine-group.xml,,OG
-1065,Visoko.co.ba,visoko.co.ba,2025-11-27 07:30:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/visoko-co-ba.xml,,OG
-1066,VIVA.co.id,viva.co.id,2025-11-27 07:30:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/viva-co-id.xml,,OG
-1067,Voetbalflitsen,voetbalflitsen.nl,2025-11-27 07:30:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/voetbalflitsen.xml,,OG
-1068,Voetbalprimeur,voetbalprimeur.nl,2025-11-27 07:30:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/voetbalprimeur.xml,,OG
-1071,Wadowice24,wadowice24.pl,2025-11-27 07:30:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/wadowice24.xml,,OG
-1078,Wiara.pl,wiara.pl,2025-11-27 07:30:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/wiara-pl.xml,,OG
-1079,Stowarzyszenie Fanatycy Widzewa,widzewtomy.net,2025-11-27 07:30:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/stowarzyszenie-fanatycy-widzewa.xml,,OG
-1080,Wielerflits,wielerflits.nl,2025-11-27 07:30:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/wielerflits.xml,,OG
-1082,Wish TV,wishtv.com,2025-11-27 07:30:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/wish-tv.xml,,OG
-1086,Womany,womany.net,2025-11-27 07:30:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/womany.xml,,OG
-1087,World Business Outlook,worldbusinessoutlook.com,2025-11-27 07:31:17,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/world-business-outlook.xml,,OG
-1089,WRC News,wrc.net.pl,2025-11-27 07:31:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/wrc-news.xml,,OG
+1051,Uplifers,uplifers.com,2025-11-27 07:29:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/uplifers.xml,,OG
+1053,Usay.gr,usay.gr,2025-11-27 07:29:41,success,10,https://swelbyboy.github.io/prospect-rss-feeds/usay-gr.xml,,OG
+1054,Valioliiga,valioliiga.com,2025-11-27 07:29:46,success,10,https://swelbyboy.github.io/prospect-rss-feeds/valioliiga.xml,,OG
+1055,Varaždinske vijesti,varazdinske-vijesti.hr,2025-11-27 07:29:51,success,10,https://swelbyboy.github.io/prospect-rss-feeds/varaždinske-vijesti.xml,,OG
+1057,Voetbal International,vi.nl,2025-11-27 07:29:54,success,10,https://swelbyboy.github.io/prospect-rss-feeds/voetbal-international.xml,,OG
+1059,Viata Verde Viu,viataverdeviu.ro,2025-11-27 07:29:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/viata-verde-viu.xml,,OG
+1060,Tatlı Tarifleri,videoluyemek.com,2025-11-27 07:30:00,success,1,https://swelbyboy.github.io/prospect-rss-feeds/tatlı-tarifleri.xml,,OG
+1063,VIP Magazine Group,vipmagazine.ie,2025-11-27 07:30:09,success,10,https://swelbyboy.github.io/prospect-rss-feeds/vip-magazine-group.xml,,OG
+1065,Visoko.co.ba,visoko.co.ba,2025-11-27 07:30:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/visoko-co-ba.xml,,OG
+1066,VIVA.co.id,viva.co.id,2025-11-27 07:30:14,success,10,https://swelbyboy.github.io/prospect-rss-feeds/viva-co-id.xml,,OG
+1067,Voetbalflitsen,voetbalflitsen.nl,2025-11-27 07:30:21,success,10,https://swelbyboy.github.io/prospect-rss-feeds/voetbalflitsen.xml,,OG
+1068,Voetbalprimeur,voetbalprimeur.nl,2025-11-27 07:30:25,success,10,https://swelbyboy.github.io/prospect-rss-feeds/voetbalprimeur.xml,,OG
+1071,Wadowice24,wadowice24.pl,2025-11-27 07:30:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/wadowice24.xml,,OG
+1078,Wiara.pl,wiara.pl,2025-11-27 07:30:37,success,10,https://swelbyboy.github.io/prospect-rss-feeds/wiara-pl.xml,,OG
+1079,Stowarzyszenie Fanatycy Widzewa,widzewtomy.net,2025-11-27 07:30:45,success,10,https://swelbyboy.github.io/prospect-rss-feeds/stowarzyszenie-fanatycy-widzewa.xml,,OG
+1080,Wielerflits,wielerflits.nl,2025-11-27 07:30:47,success,10,https://swelbyboy.github.io/prospect-rss-feeds/wielerflits.xml,,OG
+1082,Wish TV,wishtv.com,2025-11-27 07:30:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/wish-tv.xml,,OG
+1086,Womany,womany.net,2025-11-27 07:30:57,success,10,https://swelbyboy.github.io/prospect-rss-feeds/womany.xml,,OG
+1087,World Business Outlook,worldbusinessoutlook.com,2025-11-27 07:31:17,success,10,https://swelbyboy.github.io/prospect-rss-feeds/world-business-outlook.xml,,OG
+1089,WRC News,wrc.net.pl,2025-11-27 07:31:20,success,10,https://swelbyboy.github.io/prospect-rss-feeds/wrc-news.xml,,OG
 1090,Δημοσιογραφικός Οργανισμός Χρόνος,xronos.gr,2025-11-27 07:31:20,failed,0,,HTTP 403,N/A
 1091,Xryso Skoufaki,xrysoskoufaki.gr,2025-11-27 07:31:20,failed,0,,HTTP 403,N/A
 1096,Yeşil Gazete,yesilgazete.org,2025-11-27 07:31:20,failed,0,,HTTP 403,N/A
-1097,We Media (India),youandi.com,2025-11-27 07:31:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/we-media--india.xml,,RSS
-1098,Youfly,youfly.com,2025-11-27 07:31:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/youfly.xml,,"OG (8), RSS (2)"
-1100,Zagorje International,zagorje-international.hr,2025-11-27 07:31:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/zagorje-international.xml,,OG
-1101,Zaječar Online,zajecaronline.com,2025-11-27 07:31:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/zaječar-online.xml,,OG
-1102,Ziua Cluj,zcj.ro,2025-11-27 07:31:41,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ziua-cluj.xml,,OG
-1103,Zelfmaak Ideetjes,zelfmaak-ideetjes.nl,2025-11-27 07:31:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/zelfmaak-ideetjes.xml,,OG
-1105,GRUPULUI DE PRESĂ MEDIANET SRL,ziaruldeiasi.ro,2025-11-27 07:31:59,success,9,https://swelbyboy.github.io/prospect-rss-feeds/feeds/grupului-de-presă-medianet-srl.xml,,OG
-1106,ziuaveche.ro,ziuaveche.ro,2025-11-27 07:32:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/ziuaveche-ro.xml,,OG
-1107,Zougla,zougla.gr,2025-11-27 07:32:06,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/zougla.xml,,OG
-1108,Zovnews,zovnews.com,2025-11-27 07:32:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/zovnews.xml,,OG
-1109,Portal Zrenjaninski,zrenjaninski.com,2025-11-27 07:32:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/portal-zrenjaninski.xml,,OG
-1110,Sportski žurnal (zvanična stranica),zurnal.rs,2025-11-27 07:32:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/feeds/sportski-žurnal--zvanična-stranica.xml,,OG
+1097,We Media (India),youandi.com,2025-11-27 07:31:31,success,10,https://swelbyboy.github.io/prospect-rss-feeds/we-media--india.xml,,RSS
+1098,Youfly,youfly.com,2025-11-27 07:31:34,success,10,https://swelbyboy.github.io/prospect-rss-feeds/youfly.xml,,"OG (8), RSS (2)"
+1100,Zagorje International,zagorje-international.hr,2025-11-27 07:31:36,success,10,https://swelbyboy.github.io/prospect-rss-feeds/zagorje-international.xml,,OG
+1101,Zaječar Online,zajecaronline.com,2025-11-27 07:31:38,success,10,https://swelbyboy.github.io/prospect-rss-feeds/zaječar-online.xml,,OG
+1102,Ziua Cluj,zcj.ro,2025-11-27 07:31:41,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ziua-cluj.xml,,OG
+1103,Zelfmaak Ideetjes,zelfmaak-ideetjes.nl,2025-11-27 07:31:43,success,10,https://swelbyboy.github.io/prospect-rss-feeds/zelfmaak-ideetjes.xml,,OG
+1105,GRUPULUI DE PRESĂ MEDIANET SRL,ziaruldeiasi.ro,2025-11-27 07:31:59,success,9,https://swelbyboy.github.io/prospect-rss-feeds/grupului-de-presă-medianet-srl.xml,,OG
+1106,ziuaveche.ro,ziuaveche.ro,2025-11-27 07:32:04,success,10,https://swelbyboy.github.io/prospect-rss-feeds/ziuaveche-ro.xml,,OG
+1107,Zougla,zougla.gr,2025-11-27 07:32:06,success,10,https://swelbyboy.github.io/prospect-rss-feeds/zougla.xml,,OG
+1108,Zovnews,zovnews.com,2025-11-27 07:32:19,success,10,https://swelbyboy.github.io/prospect-rss-feeds/zovnews.xml,,OG
+1109,Portal Zrenjaninski,zrenjaninski.com,2025-11-27 07:32:27,success,10,https://swelbyboy.github.io/prospect-rss-feeds/portal-zrenjaninski.xml,,OG
+1110,Sportski žurnal (zvanična stranica),zurnal.rs,2025-11-27 07:32:29,success,10,https://swelbyboy.github.io/prospect-rss-feeds/sportski-žurnal--zvanična-stranica.xml,,OG
 1112,Życie Kalisza,zyciekalisza.pl,2025-11-27 07:32:30,failed,0,,HTTP 403,N/A

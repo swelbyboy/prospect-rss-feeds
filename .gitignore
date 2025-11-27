@@ -52,6 +52,3 @@ data/old_xml_files/
 
 # Utility scripts are tracked, but keep temp files clean
 organize_project.sh
-
-# RSS feeds should only be in feeds/ directory, not root
-/*.xml
