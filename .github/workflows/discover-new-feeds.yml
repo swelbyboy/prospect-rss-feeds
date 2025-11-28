@@ -36,7 +36,7 @@ jobs:
 
       - name: Discover RSS feeds for prospects without feeds
         run: |
-          python3 rss_discovery_enhanced.py
+          python3 rss_discovery.py
 
       - name: Update prospects.csv with discovered feeds
         run: |
