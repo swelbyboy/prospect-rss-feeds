@@ -2,45 +2,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Mun Oulu - Article Feed</title>
-    <link>https://swelbyboy.github.io/prospect-rss-feeds/feeds/mun-oulu.xml</link>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/mun-oulu.xml</link>
     <description>Latest articles from Mun Oulu (munoulu.fi)</description>
-    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/feeds/mun-oulu.xml" rel="self"/>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/mun-oulu.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Nov 2025 07:09:28 +0000</lastBuildDate>
-    <item>
-      <title>Intiön krematorion uuden uunin käyttöönotto valmis – vainajien kuljetus muille paikkakunnille päättyy</title>
-      <link>https://www.munoulu.fi/uutiset/intion-krematorion-uuden-uunin-kayttoonotto-valmis-vainajien-kuljetus-muille-paikkakunnille-paattyy/</link>
-      <description>Intiön krematorion uusi uuni on otettu käyttöön. Väliaikaisjärjestelyt, joissa vainajia kuljetettiin tuhkattavaksi muille paikkakunnille, päättyvät hallitusti.</description>
-      <guid isPermaLink="false">https://www.munoulu.fi/uutiset/intion-krematorion-uuden-uunin-kayttoonotto-valmis-vainajien-kuljetus-muille-paikkakunnille-paattyy/</guid>
-      <enclosure url="https://www.munoulu.fi/app/uploads/sites/20/2025/11/intion-kappeli_oulun-seurakunnat.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 25 Nov 2025 09:00:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kaupungin­valtuusto lähti työstämään ensi vuoden budjettia</title>
-      <link>https://www.munoulu.fi/kaupunki/kaupunginvaltuusto-lahti-tyostamaan-ensi-vuoden-budjettia/</link>
-      <description>Oulun kaupunginvaltuusto aloitti ensi vuoden talousarvion käsittelyn. Kaupunginjohtajan budjettiesitys keräsi ryhmistä kiitosta, mutta muutosesityksiäkin tehtiin.</description>
-      <guid isPermaLink="false">https://www.munoulu.fi/kaupunki/kaupunginvaltuusto-lahti-tyostamaan-ensi-vuoden-budjettia/</guid>
-      <enclosure url="https://www.munoulu.fi/app/uploads/sites/20/2025/11/husso.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 25 Nov 2025 09:47:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Oulu kutsuu opiskelijat aarteenetsintään – kaupunki tarjoaa elämyksiä ja yhteisöllisyyttä korkeakouluopiskelijoille</title>
-      <link>https://www.munoulu.fi/koulutus/oulu-kutsuu-opiskelijat-aarteenetsintaan-kaupunki-tarjoaa-elamyksia-ja-yhteisollisyytta-korkeakouluopiskelijoille/</link>
-      <description>Oulu haluaa vahvistaa asemaansa vetovoimaisena opiskelijakaupunkina ja tulevien osaajien kotipaikkana. Yksi esimerkki tästä on kaupungin 1.–4. joulukuuta järjestämä Oulu Unlocked -aarteenetsintätempaus korkeakouluopiskelijoille.</description>
-      <guid isPermaLink="false">https://www.munoulu.fi/koulutus/oulu-kutsuu-opiskelijat-aarteenetsintaan-kaupunki-tarjoaa-elamyksia-ja-yhteisollisyytta-korkeakouluopiskelijoille/</guid>
-      <enclosure url="https://www.munoulu.fi/app/uploads/sites/20/2025/11/nuoriso.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 25 Nov 2025 13:00:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Oulun yliopisto muuttaa Kontin­kankaalle – Linnan­maalle jääminen laskettiin liian kalliiksi vaihtoehdoksi</title>
-      <link>https://www.munoulu.fi/koulutus/oulun-yliopisto-muuttaa-kontinkankaalle-linnanmaalle-jaaminen-laskettiin-liian-kalliiksi-vaihtoehdoksi/</link>
-      <description>Oulun yliopiston hallitus päätti tiistain kokouksessaan, että yliopisto alkaa rakentaa yhden kampuksen kokonaisuutta Kontinkankaalle ja luopuu tiloistaan Linnanmaalla. Uuden kampuksen rakentaminen on noin kymmenen vuoden projekti.</description>
-      <guid isPermaLink="false">https://www.munoulu.fi/koulutus/oulun-yliopisto-muuttaa-kontinkankaalle-linnanmaalle-jaaminen-laskettiin-liian-kalliiksi-vaihtoehdoksi/</guid>
-      <enclosure url="https://www.munoulu.fi/app/uploads/sites/20/2025/11/DJI_0475.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 25 Nov 2025 14:27:22 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 28 Nov 2025 07:16:57 +0000</lastBuildDate>
     <item>
       <title>Metallikausi-näyttelyssä yleisö pääsee naputtelemaan, koputtelemaan ja kokeilemaan itse</title>
       <link>https://www.munoulu.fi/kulttuuri/metallikausi-nayttelyssa-yleiso-paasee-naputtelemaan-koputtelemaan-ja-kokeilemaan-itse/</link>
@@ -88,6 +56,38 @@
       <guid isPermaLink="false">https://www.munoulu.fi/kulttuuri/maa-ja-kotitalousnaisten-jarjestama-artesaaniruoan-sm-kilpailu-kaydaan-oulussa-2026/</guid>
       <enclosure url="https://www.munoulu.fi/app/uploads/sites/20/2025/11/artesaaniruoka.jpg" length="0" type="image/jpeg"/>
       <pubDate>Thu, 27 Nov 2025 07:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vaatelaastari toi Suomen vastuullisin tuote -voiton Ouluun</title>
+      <link>https://www.munoulu.fi/talous/vaatelaastari-toi-suomen-vastuullisin-tuote-voiton-ouluun/</link>
+      <description>Oululainen FabPatch Oy:n Vaatelaastari on voittanut Suomen Vastuullisin Tuote -palkinnon pukeutuminen &amp;amp; hyvinvointi -kategoriassa. Yhtenä perusteluna oli keksinnön saavutettavuus.</description>
+      <guid isPermaLink="false">https://www.munoulu.fi/talous/vaatelaastari-toi-suomen-vastuullisin-tuote-voiton-ouluun/</guid>
+      <enclosure url="https://www.munoulu.fi/app/uploads/sites/20/2025/11/vaatelaastari.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 27 Nov 2025 08:00:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Oulun Tiernakisaan runsas osanotto – kultajahtiin saavutaan Jyväskylästä asti</title>
+      <link>https://www.munoulu.fi/tapahtumat/oulun-tiernakisaan-runsas-osanotto-kultajahtiin-saavutaan-jyvaskylasta-asti/</link>
+      <description>Valtakunnallinen tiernakilpailu järjestetään tulevana viikonloppuna Oulussa. Tänä vuonna osallistujia on ilmoittanut etukäteen 17 joukkuetta, joten oululainen tiernapoikaperinne elää vahvaa nousukautta.</description>
+      <guid isPermaLink="false">https://www.munoulu.fi/tapahtumat/oulun-tiernakisaan-runsas-osanotto-kultajahtiin-saavutaan-jyvaskylasta-asti/</guid>
+      <enclosure url="https://www.munoulu.fi/app/uploads/sites/20/2025/11/tierna.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 27 Nov 2025 11:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kaukovainio Photowalk -ulkoilmanäyttely avautuu Kaukovainion suuralueelle</title>
+      <link>https://www.munoulu.fi/kulttuuri/kaukovainio-photowalk-ulkoilmanayttely-avautuu-kaukovainion-suuralueelle/</link>
+      <description>Kaukovainio Photowalk -näyttelyn avajaisia vietetään lauantaina 29. marraskuuta. Avajaiset alkavat Hiirihaukkatalon edustalta. Kaukovainion alueella oleva ulkoilmanäyttely on esillä 31. maaliskuuta 2026 saakka.</description>
+      <guid isPermaLink="false">https://www.munoulu.fi/kulttuuri/kaukovainio-photowalk-ulkoilmanayttely-avautuu-kaukovainion-suuralueelle/</guid>
+      <enclosure url="https://www.munoulu.fi/app/uploads/sites/20/2025/11/Meri-Toppila-Photo-Walk-muokattu-2.0-1024x576-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 27 Nov 2025 13:00:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pohjankartano valmistautuu jälleen suureen jouluaiheiseen messutapahtumaan Oulussa</title>
+      <link>https://www.munoulu.fi/tapahtumat/pohjankartano-valmistautuu-jalleen-suureen-jouluaiheiseen-messutapahtumaan-oulussa/</link>
+      <description>Kaksipäiväiset Joulumessut Oulun Pohjankartanon koululla polkaistaan käyntiin 29.-30. marraskuuta. Mukana on noin 140 näytteilleasettajaa ja viime vuonna tapahtuma keräsi viikonlopun aikana yli 11 000 vierailijaa.</description>
+      <guid isPermaLink="false">https://www.munoulu.fi/tapahtumat/pohjankartano-valmistautuu-jalleen-suureen-jouluaiheiseen-messutapahtumaan-oulussa/</guid>
+      <enclosure url="https://www.munoulu.fi/app/uploads/sites/20/2025/11/Pohjankartano-Suvantokadulta_PRINTTIKOKO.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 07:00:37 +0000</pubDate>
     </item>
   </channel>
 </rss>

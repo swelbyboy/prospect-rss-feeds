@@ -2,21 +2,13 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>Tele1 TV - Article Feed</title>
-    <link>https://swelbyboy.github.io/prospect-rss-feeds/feeds/tele1-tv.xml</link>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/tele1-tv.xml</link>
     <description>Latest articles from Tele1 TV (tele1.com.tr)</description>
-    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/feeds/tele1-tv.xml" rel="self"/>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/tele1-tv.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Nov 2025 07:24:59 +0000</lastBuildDate>
-    <item>
-      <title>Dram, trajedi, komedi hepsi Kasım ayında Menteşe sahnesinde</title>
-      <link>https://www.tele1.com.tr/dram-trajedi-komedi-hepsi-kasim-ayinda-mentese-sahnesinde</link>
-      <description>Menteşe Belediye Tiyatrosu, Kasım ayı boyunca farklı türde oyunlarla sanatseverlerle buluşacak.</description>
-      <guid isPermaLink="false">https://www.tele1.com.tr/dram-trajedi-komedi-hepsi-kasim-ayinda-mentese-sahnesinde</guid>
-      <enclosure url="https://tele1comtr.teimg.com/crop/1280x720/tele1-com-tr/uploads/2025/10/mentese-2.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 31 Oct 2025 04:35:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 28 Nov 2025 07:30:56 +0000</lastBuildDate>
     <item>
       <title>TURBELDAK’tan deniz manzaralı muhteşem doğa yürüyüşü</title>
       <link>https://www.tele1.com.tr/turbeldaktan-deniz-manzarali-muhtesem-doga-yuruyusu</link>
@@ -88,6 +80,14 @@
       <guid isPermaLink="false">https://www.tele1.com.tr/konfor-ve-guvenligin-italyan-yorumu-peg-bebek-arabalari</guid>
       <enclosure url="https://tele1comtr.teimg.com/crop/1280x720/tele1-com-tr/uploads/2025/11/bebek-arabasi-aa.png" length="0" type="image/png"/>
       <pubDate>Wed, 12 Nov 2025 14:12:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pamukkale’de tarihi maraton heyecanı</title>
+      <link>https://www.tele1.com.tr/pamukkalede-tarihi-maraton-heyecani-1</link>
+      <description>Denizli Büyükşehir Belediyesi, kentin eşsiz doğal ve kültürel zenginliklerini sporla buluşturan çok özel bir organizasyona imza attı. Bu yıl ilk kez düzenlenen Lykos Yarı Maratonu, Pamukkale’nin büyüleyici atmosferinde binlerce sporcuyu bir araya getirdi. Arnavut kaldırımı ve asfalt zeminin birleştiği, inişli çıkışlı bölümlerle zenginleştirilen parkur, 7’den 70’e koşuculara hem zorlu, hem de keyifli bir maraton deneyimi sundu.</description>
+      <guid isPermaLink="false">https://www.tele1.com.tr/pamukkalede-tarihi-maraton-heyecani-1</guid>
+      <enclosure url="https://tele1comtr.teimg.com/crop/1280x720/tele1-com-tr/uploads/2025/11/pamukkale-maraton.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 27 Nov 2025 19:02:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
