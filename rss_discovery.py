@@ -2,6 +2,7 @@
 """
 Parallel RSS Feed Discovery Script
 Discovers RSS feeds using multiple strategies with concurrent processing.
+Features: parallel processing, incremental saving, resume capability.
 """
 
 import csv
@@ -13,6 +14,9 @@ from bs4 import BeautifulSoup
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
+import signal
+import sys
+import os
 
 # Expanded RSS feed URL patterns
 RSS_PATTERNS = [
@@ -25,6 +29,22 @@ RSS_PATTERNS = [
     '/.rss', '/rss.php', '/feed.php',
     '/category/news/feed', '/section/news/feed',
 ]
+
+OUTPUT_FILE = 'rss_discovery_results_enhanced.csv'
+
+# Global for signal handling
+executor = None
+should_exit = False
+
+def signal_handler(sig, frame):
+    """Handle Ctrl+C gracefully."""
+    global should_exit
+    print('\n\n⚠️  Interrupt received. Finishing current tasks and saving...')
+    should_exit = True
+    if executor:
+        executor.shutdown(wait=False)
+
+signal.signal(signal.SIGINT, signal_handler)
 
 def check_autodiscovery(domain, timeout=2):
     """Check HTML <link> tags for RSS autodiscovery."""
@@ -107,35 +127,75 @@ def discover_rss_feed(domain):
 
     return (False, None, None, "No RSS feed found with any method")
 
-def process_prospect(prospect, index, total, print_lock):
+def save_result(result, file_lock):
+    """Save a single result to CSV immediately (thread-safe)."""
+    with file_lock:
+        file_exists = os.path.exists(OUTPUT_FILE)
+        with open(OUTPUT_FILE, 'a', encoding='utf-8', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=['id', 'company_name', 'domain', 'feed_url', 'discovery_method'])
+            if not file_exists:
+                writer.writeheader()
+            writer.writerow(result)
+
+def load_processed_domains():
+    """Load already-processed domains from the CSV file."""
+    processed = set()
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for row in reader:
+                    processed.add(row['domain'])
+        except Exception as e:
+            print(f"⚠️  Could not load existing results: {e}")
+    return processed
+
+def process_prospect(prospect, index, total, print_lock, file_lock, stats):
     """Process a single prospect (thread-safe)."""
+    global should_exit
+    if should_exit:
+        return None
+
     company_name = prospect['company_name']
     domain = prospect['domain']
     prospect_id = prospect['id']
 
     with print_lock:
         print(f"[{index}/{total}] {company_name} ({domain})")
+        print(f"      🔍 Checking autodiscovery...")
 
     success, feed_url, method, error = discover_rss_feed(domain)
 
-    result = {
-        'prospect': prospect,
-        'success': success,
-        'feed_url': feed_url,
-        'method': method,
-        'error': error
-    }
+    if success:
+        result = {
+            'id': prospect_id,
+            'company_name': company_name,
+            'domain': domain,
+            'feed_url': feed_url,
+            'discovery_method': method
+        }
+        # Save immediately
+        save_result(result, file_lock)
 
-    with print_lock:
-        if success:
+        with print_lock:
             print(f"      ✅ Found via {method}")
-        else:
-            print(f"      ❌ {error}")
+            stats['found'] += 1
+            stats['methods'][method] += 1
 
-    return result
+        return result
+    else:
+        with print_lock:
+            print(f"      🔍 Trying common patterns...")
+            print(f"      🔍 Checking sitemap...")
+            print(f"      ❌ {error}")
+            stats['not_found'] += 1
+
+        return None
 
 def main():
-    print("🔍 Parallel RSS Feed Discovery")
+    global executor
+
+    print("🔍 Parallel RSS Feed Discovery (with auto-save)")
     print("=" * 80)
 
     # Read prospects without RSS feeds
@@ -148,111 +208,91 @@ def main():
 
     print(f"📋 Found {len(prospects)} prospects without RSS feeds")
 
-    # Get remaining prospects (skip already processed)
-    try:
-        with open('rss_discovery_output.log', 'r') as f:
-            log_content = f.read()
-            # Find last processed prospect number
-            matches = re.findall(r'\[(\d+)/\d+\]', log_content)
-            if matches:
-                last_processed = int(matches[-1])
-                prospects = prospects[last_processed:]
-                print(f"🔄 Resuming from prospect #{last_processed + 1}")
-    except FileNotFoundError:
-        pass
+    # Load already-processed domains
+    processed_domains = load_processed_domains()
+    if processed_domains:
+        original_count = len(prospects)
+        prospects = [p for p in prospects if p['domain'] not in processed_domains]
+        skipped = original_count - len(prospects)
+        print(f"✅ Skipping {skipped} already-processed prospects")
+        print(f"📊 Remaining prospects to process: {len(prospects)}")
 
     if len(prospects) == 0:
         print("✅ All prospects processed!")
         return
 
-    print(f"⚡ Processing {len(prospects)} prospects with 10 parallel workers\n")
+    print(f"⚡ Processing {len(prospects)} prospects with 10 parallel workers")
+    print(f"💾 Results auto-save to: {OUTPUT_FILE}\n")
 
-    # Discovery results
-    found = 0
-    not_found = 0
-    results = []
-    methods = {'autodiscovery': 0, 'pattern': 0, 'sitemap': 0}
+    # Stats (thread-safe with lock)
+    stats = {
+        'found': 0,
+        'not_found': 0,
+        'methods': {'autodiscovery': 0, 'pattern': 0, 'sitemap': 0}
+    }
     print_lock = Lock()
+    file_lock = Lock()
 
-    # Process prospects in parallel with ThreadPoolExecutor
+    # Process prospects in parallel
     start_time = time.time()
-    with ThreadPoolExecutor(max_workers=10) as executor:
+    completed_count = 0
+
+    executor = ThreadPoolExecutor(max_workers=10)
+    try:
         # Submit all tasks
         future_to_prospect = {
-            executor.submit(process_prospect, prospect, i, len(prospects), print_lock): (prospect, i)
+            executor.submit(process_prospect, prospect, i, len(prospects), print_lock, file_lock, stats): (prospect, i)
             for i, prospect in enumerate(prospects, 1)
         }
 
         # Process completed tasks
         for future in as_completed(future_to_prospect):
+            if should_exit:
+                break
+
             prospect, index = future_to_prospect[future]
             try:
                 result = future.result()
-
-                if result['success']:
-                    found += 1
-                    methods[result['method']] += 1
-                    results.append({
-                        'id': result['prospect']['id'],
-                        'company_name': result['prospect']['company_name'],
-                        'domain': result['prospect']['domain'],
-                        'feed_url': result['feed_url'],
-                        'discovery_method': result['method']
-                    })
-                else:
-                    not_found += 1
+                completed_count += 1
 
                 # Progress update every 25 prospects
-                if index % 25 == 0:
+                if completed_count % 25 == 0:
                     elapsed = time.time() - start_time
-                    rate = index / elapsed if elapsed > 0 else 0
-                    remaining = (len(prospects) - index) / rate if rate > 0 else 0
+                    rate = completed_count / elapsed if elapsed > 0 else 0
+                    remaining = (len(prospects) - completed_count) / rate if rate > 0 else 0
                     with print_lock:
-                        print(f"\n   Progress: {index}/{len(prospects)} | Found: {found} ({found/index*100:.1f}%) | Rate: {rate:.1f}/sec | ETA: {remaining/60:.0f}m\n")
+                        print(f"\n   Progress: {completed_count}/{len(prospects)} | Found: {stats['found']} ({stats['found']/completed_count*100:.1f}%) | Not found: {stats['not_found']}\n")
 
             except Exception as exc:
                 with print_lock:
                     print(f"      ❌ Error: {exc}")
-                not_found += 1
+                stats['not_found'] += 1
+
+    finally:
+        executor.shutdown(wait=True)
 
     elapsed_time = time.time() - start_time
 
     print("\n" + "=" * 80)
     print("📊 DISCOVERY SUMMARY")
     print("=" * 80)
-    print(f"Total prospects checked: {len(prospects)}")
-    print(f"✅ RSS feeds found: {found} ({found/len(prospects)*100:.1f}%)")
-    print(f"❌ Not found: {not_found} ({not_found/len(prospects)*100:.1f}%)")
+    print(f"Total prospects checked: {completed_count}")
+    print(f"✅ RSS feeds found: {stats['found']} ({stats['found']/completed_count*100:.1f}% of checked)" if completed_count > 0 else "✅ RSS feeds found: 0")
+    print(f"❌ Not found: {stats['not_found']}")
     print(f"⏱️  Time taken: {elapsed_time/60:.1f} minutes")
-    print(f"⚡ Rate: {len(prospects)/elapsed_time:.1f} prospects/second")
+    if elapsed_time > 0:
+        print(f"⚡ Rate: {completed_count/elapsed_time:.1f} prospects/second")
     print(f"\nDiscovery methods:")
-    print(f"  Autodiscovery: {methods['autodiscovery']}")
-    print(f"  URL patterns: {methods['pattern']}")
-    print(f"  Sitemap: {methods['sitemap']}")
+    print(f"  Autodiscovery: {stats['methods']['autodiscovery']}")
+    print(f"  URL patterns: {stats['methods']['pattern']}")
+    print(f"  Sitemap: {stats['methods']['sitemap']}")
     print("=" * 80)
 
-    # Write results to CSV
-    if results:
-        # Load existing results if any
-        existing_results = []
-        try:
-            with open('rss_discovery_results_enhanced.csv', 'r', encoding='utf-8') as f:
-                reader = csv.DictReader(f)
-                existing_results = list(reader)
-        except FileNotFoundError:
-            pass
-
-        # Merge and write
-        all_results = existing_results + results
-        with open('rss_discovery_results_enhanced.csv', 'w', encoding='utf-8', newline='') as f:
-            writer = csv.DictWriter(f, fieldnames=['id', 'company_name', 'domain', 'feed_url', 'discovery_method'])
-            writer.writeheader()
-            writer.writerows(all_results)
-
-        print(f"\n✅ Results written to: rss_discovery_results_enhanced.csv")
-        print(f"\n💡 Next: Run update script to add {len(all_results)} feeds to prospects.csv")
+    if stats['found'] > 0:
+        print(f"\n✅ {stats['found']} results saved to: {OUTPUT_FILE}")
+        print(f"💡 Results were saved incrementally - no data lost!")
     else:
-        print(f"\n⚠️  No new feeds discovered")
+        print(f"\n⚠️  No new feeds discovered in this run")
 
 if __name__ == '__main__':
     main()
