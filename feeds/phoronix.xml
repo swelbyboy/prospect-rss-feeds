@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Phoronix - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/phoronix.xml</link>
+    <description>Latest articles from Phoronix (phoronix.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/phoronix.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 29 Nov 2025 11:48:28 +0000</lastBuildDate>
+    <item>
+      <title>AMD ISP4 Linux Webcam Driver Updated For HP ZBook Ultra G1a &amp;amp; Future Ryzen Laptops</title>
+      <link>https://www.phoronix.com/news/AMD-ISP4-Driver-v6</link>
+      <description>We eagerly await to see if the AMD ISP4 driver will be ready for mainlining in the imminent Linux v6.19 merge window but it's getting down to the wire and thus looking less likely it will make it unless action is taken in the coming days. Today though a sixth version of this AMD ISP4 image signal processor driver was posted for this last piece of the puzzle in enabling the web camera on the HP ZBook Ultra G1a Strix Halo laptop as well as future Ryzen high-end laptops...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-ISP4-Driver-v6</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=amd-strix-halo-windows-linux&amp;image=ryzen_ai_max_linux" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 12:03:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Linux Patches Enhance Single-Threaded Performance On Many-Core CPUs</title>
+      <link>https://www.phoronix.com/news/Better-ST-Perf-Many-Core-CPUs</link>
+      <description>In addition to the proposed Hierarchical Queued NUMA-aware spinlocks for better performance, another interesting performance-enhancing patch series posted in the past 24 hours for the Linux kernel is for improving the performance of single-threaded tasks running on high core count CPU desktops / workstations / servers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Better-ST-Perf-Many-Core-CPUs</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=amd-epyc-9754-smt&amp;image=epyc_9754_smt" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 15:13:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open-Source Nouveau+NVK vs. NVIDIA 580 Linux Gaming/Graphics &amp;amp; Compute Driver Performance</title>
+      <link>https://www.phoronix.com/review/nvidia-nvk-linux-618-mesa-26</link>
+      <description>This Black Friday is an in-depth look at the current performance of the open-source NVIDIA Linux driver stack with the Nouveau kernel driver (the Nova driver not yet being ready for end-users) paired with the latest Mesa NVK driver for open-source Vulkan API support. With that NVK Vulkan driver is also looking at the OpenGL performance using the Zink OpenGL-on-Vulkan driver used now for OpenGL on modern NVIDIA GPUs rather than maintaining the Nouveau Gallium3D driver. Plus the Rusticl driver for</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/nvidia-nvk-linux-618-mesa-26</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=nvidia-nvk-linux-618-mesa-26&amp;image=nvk_november_0" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 15:44:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Patches Work To Optimize Code Generation For Linux Context Switching</title>
+      <link>https://www.phoronix.com/news/Linux-CodeGen-Faster-Ctx-Switch</link>
+      <description>As some additional enticing Linux kernel patches posted this week for review, an updated patch series is working to optimize code generation during context switching...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-CodeGen-Faster-Ctx-Switch</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=faster_ctx" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 19:17:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wine 10.20 Released With VKD3D 1.18 Upgrade For Direct3D 12</title>
+      <link>https://www.phoronix.com/news/Wine-10.20-Released</link>
+      <description>Wine 10.20 is out as the newest bi-weekly development release of this open-source software enabling Windows applications and games to run on Linux. This is also with Wine 11.0 stable quickly approaching...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-10.20-Released</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=wine_11_plans" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 21:22:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Black Friday Reminder For Those Hating Ads But Loving Linux Hardware/Software</title>
+      <link>https://www.phoronix.com/news/Black-Friday-2025</link>
+      <description>As the one and last friendly reminder, if you enjoy the daily and original content found on Phoronix.com but not liking ads and wanting to view multi-page articles on a single page, native dark mode, and more: the 2025 Black Friday / Cyber Week deal is ending Monday to help support the site while enjoying a discounted rate...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Black-Friday-2025</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2023&amp;image=dark_eoy_2023" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Niri 25.11 Rust-Written Wayland Compositor Adds Alt-Tab Switcher, New Animations</title>
+      <link>https://www.phoronix.com/news/Niri-25.11</link>
+      <description>Niri 25.11 is now available as the latest feature release for this Rust-written, scrollable-tiling Wayland compositor...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Niri-25.11</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=niri_alt_tab" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 29 Nov 2025 10:49:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>KDE Plasma 6.6's KWin Implements RandR Emulation For Better XWayland Experience</title>
+      <link>https://www.phoronix.com/news/Plasma-6.6-KWin-RandR-Emulate</link>
+      <description>KDE developers have been busy ending out the month of November with a number of new features and fixes queued up for next year's Plasma 6.6 desktop release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-KWin-RandR-Emulate</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=plasma_xdg_diag" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 29 Nov 2025 10:52:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intel Hiring Two More Experienced Linux Kernel Engineers</title>
+      <link>https://www.phoronix.com/news/Intel-Hiring-Two-More-Linux-Eng</link>
+      <description>While there have been a number of Intel Linux engineers laid off over roughly the past year, other Linux kernel engineers opting to pursue employment opportunities elsewhere amid the ongoing challenges and restructuring at the company, and shifts in their open-source strategy, there's some good news as we work toward the 2025 holidays. Intel is currently hiring for two more experienced Linux kernel software engineers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Hiring-Two-More-Linux-Eng</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=raptor-lake-mitigations&amp;image=raptor_mitigations_1" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 29 Nov 2025 11:27:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Framework Computer Now Sponsoring LVFS / Fwupd Development</title>
+      <link>https://www.phoronix.com/news/Framework-Sponsoring-LVFS</link>
+      <description>With the Linux Vendor Firmware Service serving more than 135 million downloads for Linux users updating their system and device firmware, LVFS has been working to get more hardware vendors to contribute either engineering resources or directly contributing annual dues as sponsors. Framework Computer is now the first one to have executed an agreement under these new sponsorship efforts...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Framework-Sponsoring-LVFS</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=framework-16-ryzen-ai-300-series&amp;image=framework_16_13" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 29 Nov 2025 11:43:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
