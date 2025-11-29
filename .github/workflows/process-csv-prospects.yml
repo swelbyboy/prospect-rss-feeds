@@ -178,6 +178,7 @@ jobs:
         run: |
           git add prospects.csv
           git commit -m "Add prospects from CSV upload (issue #${{ github.event.issue.number }})" || echo "No changes to commit"
+          git pull --rebase origin main || echo "Nothing to rebase"
           git push || echo "Nothing to push"
 
       - name: Comment on issue

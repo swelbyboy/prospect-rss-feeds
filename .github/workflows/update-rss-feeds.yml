@@ -177,6 +177,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Update RSS feeds - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git pull --rebase origin main
             git push
           fi
 
@@ -299,6 +300,7 @@ jobs:
             echo "No changes to publish"
           else
             git commit -m "Update RSS feeds - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git pull --rebase origin main
             git push
             echo "✅ Published to GitHub Pages"
           fi
