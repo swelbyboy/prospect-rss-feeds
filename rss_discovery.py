@@ -17,6 +17,7 @@ from threading import Lock
 import signal
 import sys
 import os
+import subprocess
 
 # Expanded RSS feed URL patterns
 RSS_PATTERNS = [
@@ -150,6 +151,33 @@ def load_processed_domains():
             print(f"⚠️  Could not load existing results: {e}")
     return processed
 
+def commit_progress():
+    """Commit progress to git if running in CI environment."""
+    if not os.environ.get('GITHUB_CI'):
+        return  # Only commit in GitHub Actions
+    
+    try:
+        # Check if there are changes
+        result = subprocess.run(['git', 'diff', '--quiet', OUTPUT_FILE], 
+                              capture_output=True)
+        if result.returncode == 0:
+            return  # No changes
+        
+        # Add and commit
+        subprocess.run(['git', 'add', OUTPUT_FILE], check=True)
+        count = subprocess.run(['wc', '-l', OUTPUT_FILE], 
+                             capture_output=True, text=True).stdout.strip().split()[0]
+        subprocess.run(['git', 'commit', '-m', 
+                       f'Auto-save RSS discovery progress: {count} entries'],
+                      check=True)
+        
+        # Pull and push
+        subprocess.run(['git', 'pull', '--rebase', 'origin', 'main'], check=True)
+        subprocess.run(['git', 'push'], check=True)
+        print(f"      💾 Progress auto-committed ({count} entries)")
+    except Exception as e:
+        print(f"      ⚠️  Could not commit progress: {e}")
+
 def process_prospect(prospect, index, total, print_lock, file_lock, stats):
     """Process a single prospect (thread-safe)."""
     global should_exit
@@ -262,6 +290,10 @@ def main():
                     remaining = (len(prospects) - completed_count) / rate if rate > 0 else 0
                     with print_lock:
                         print(f"\n   Progress: {completed_count}/{len(prospects)} | Found: {stats['found']} ({stats['found']/completed_count*100:.1f}%) | Not found: {stats['not_found']}\n")
+                
+                # Auto-commit progress every 100 prospects (in CI only)
+                if completed_count % 100 == 0:
+                    commit_progress()
 
             except Exception as exc:
                 with print_lock:

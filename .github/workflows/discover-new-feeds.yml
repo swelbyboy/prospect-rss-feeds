@@ -44,6 +44,8 @@ jobs:
           if_no_artifact_found: warn
 
       - name: Discover RSS feeds for prospects without feeds
+        env:
+          GITHUB_CI: 'true'
         run: |
           python3 rss_discovery.py
 
