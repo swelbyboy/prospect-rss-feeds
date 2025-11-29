@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>iThome - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/ithome.xml</link>
+    <description>Latest articles from iThome (ithome.com.tw)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/ithome.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 29 Nov 2025 13:43:19 +0000</lastBuildDate>
+    <item>
+      <title>華碩修補路由器8項漏洞　影響啟用AiCloud服務的設備</title>
+      <link>https://www.ithome.com.tw/news/172517</link>
+      <description>在11月25日華碩公告修補8個路由器軟體漏洞，包含一個重大風險的驗證繞過漏洞CVE-2025-59366，可導致未授權的攻擊者執行特定功能</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172517</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/1127-cve-2025-59366-asus_1125-960-2.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 00:44:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mixpanel遭駭殃及OpenAI API用戶</title>
+      <link>https://www.ithome.com.tw/news/172518</link>
+      <description>外部供應商Mixpanel的部分系統遭入侵，OpenAI坦承其API用戶資料可能因此外洩</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172518</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/0917-openai_bei_jing_tu_pian_qu_zi_mimicry_hu_on_unsplash1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 02:52:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI趨勢周報第281期：Google揭臺北全新辦公室，打造總部外最大AI基礎建設研發中心</title>
+      <link>https://www.ithome.com.tw/news/172519</link>
+      <description>Google臺北全新辦公室要成為總部外最大AI基礎建設研發中心；Claude Opus 4.5來了！程式碼修復能力大升、還能無限聊天；Google推出新一代AI生圖模型Nano Banana Pro；OpenAI推Codex-Max，可24小時跑大型專案；別小看線性迴歸，Google用它讓充電樁預測更可靠</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172519</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/ying_mu_xie_qu_hua_mian_2025-11-28_152006.png" length="0" type="image/png"/>
+      <pubDate>Fri, 28 Nov 2025 05:01:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>程式碼編排服務JSON Formatter和CodeBeautify被上傳大量機敏資訊，已有人開始爬梳相關資料</title>
+      <link>https://www.ithome.com.tw/news/172520</link>
+      <description>watchTowr針對程式碼編排及美化服務平臺JSON Formatter和CodeBeautify進行調查，結果發現，許多開發人員上傳並暫存的程式碼裡，曝露了各式金鑰、憑證、權杖，以及能夠識別身分的個資</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172520</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/recentlinks-15-156.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 05:14:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>【資安日報】11月28日，開發人員不慎在程式碼編排平臺曝露企業組織的機敏資料</title>
+      <link>https://www.ithome.com.tw/news/172521</link>
+      <description>資安業者watchTowr提出警告，開發人員於程式碼編排服務JSON Formatter和CodeBeautify當中，上傳的程式碼內容，曝露企業組織內部的各式憑證、金錀，以及密碼，而且他們確認有人爬梳程式碼內容並挖掘上述機密資料，試圖加以濫用</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172521</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/20251128.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 05:40:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>美國商標暨專利辦公室明文規定AI無法被視為發明人</title>
+      <link>https://www.ithome.com.tw/news/172522</link>
+      <description>美國商標暨專利辦公室（USPTO）更新「審查指引」，明確提出AI不能被列為發明人</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172522</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/1128-ai_brain-photo_by_milad_fakurian_on_unsplash.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 06:35:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>阿里巴巴推出智慧眼鏡家族Quark AI</title>
+      <link>https://www.ithome.com.tw/news/172523</link>
+      <description>阿里巴巴旗下消費AI品牌Quark推出智慧眼鏡，內建自家Qwen聊天機器人</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172523</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/1128-alibaba-quark_ai_glasses-qwen-960.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 06:57:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitLab修補兩高風險漏洞，涵蓋CI/CD快取憑證外洩與DoS弱點</title>
+      <link>https://www.ithome.com.tw/news/172524</link>
+      <description>GitLab釋出18.6.1等修補版，修正CI/CD快取憑證外洩與JSON驗證DoS漏洞提升穩定性，官方建議自託管用戶儘速升級</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172524</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/capture_362_-_gitlab_patch_release_18.6.1_18.5.3_18.4.5_-_gitlab_-_about.gitlab.com_.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 07:52:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>漢翔工業實現永續及智慧製造轉型的關鍵，以設計模擬找出關鍵製程參數，結合AIoT產線監測控管品質</title>
+      <link>https://www.ithome.com.tw/news/172526</link>
+      <description>漢翔分享利用設計模擬工具，協助縮短關鍵零件的設計及降低模具成本，找出鍵關製程數據，並透過AIoT監測產線製程，避免產品瑕疵，確保品質穩定。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172526</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/xie_qu_11.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 09:59:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>.NET 10統一建置架構加快安全修補與版本發布節奏</title>
+      <link>https://www.ithome.com.tw/news/172533</link>
+      <description>微軟在.NET 10導入統一建置架構（Unified Build），透過虛擬單一儲存庫與垂直建置方式整合過去分散的元件，大幅縮短建置時間並提升版本一致性，使安全修補與版本發布的效率更高</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172533</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/capture_365_-_dotnet-product-construction-complexity-scaled.webp_2500x1156_-_devblogs.microsoft.com_.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 28 Nov 2025 13:12:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
