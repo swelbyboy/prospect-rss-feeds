@@ -8,55 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Nov 2025 11:48:28 +0000</lastBuildDate>
-    <item>
-      <title>AMD ISP4 Linux Webcam Driver Updated For HP ZBook Ultra G1a &amp;amp; Future Ryzen Laptops</title>
-      <link>https://www.phoronix.com/news/AMD-ISP4-Driver-v6</link>
-      <description>We eagerly await to see if the AMD ISP4 driver will be ready for mainlining in the imminent Linux v6.19 merge window but it's getting down to the wire and thus looking less likely it will make it unless action is taken in the coming days. Today though a sixth version of this AMD ISP4 image signal processor driver was posted for this last piece of the puzzle in enabling the web camera on the HP ZBook Ultra G1a Strix Halo laptop as well as future Ryzen high-end laptops...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-ISP4-Driver-v6</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=amd-strix-halo-windows-linux&amp;image=ryzen_ai_max_linux" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 12:03:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Linux Patches Enhance Single-Threaded Performance On Many-Core CPUs</title>
-      <link>https://www.phoronix.com/news/Better-ST-Perf-Many-Core-CPUs</link>
-      <description>In addition to the proposed Hierarchical Queued NUMA-aware spinlocks for better performance, another interesting performance-enhancing patch series posted in the past 24 hours for the Linux kernel is for improving the performance of single-threaded tasks running on high core count CPU desktops / workstations / servers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Better-ST-Perf-Many-Core-CPUs</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=amd-epyc-9754-smt&amp;image=epyc_9754_smt" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 15:13:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Open-Source Nouveau+NVK vs. NVIDIA 580 Linux Gaming/Graphics &amp;amp; Compute Driver Performance</title>
-      <link>https://www.phoronix.com/review/nvidia-nvk-linux-618-mesa-26</link>
-      <description>This Black Friday is an in-depth look at the current performance of the open-source NVIDIA Linux driver stack with the Nouveau kernel driver (the Nova driver not yet being ready for end-users) paired with the latest Mesa NVK driver for open-source Vulkan API support. With that NVK Vulkan driver is also looking at the OpenGL performance using the Zink OpenGL-on-Vulkan driver used now for OpenGL on modern NVIDIA GPUs rather than maintaining the Nouveau Gallium3D driver. Plus the Rusticl driver for</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/nvidia-nvk-linux-618-mesa-26</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=nvidia-nvk-linux-618-mesa-26&amp;image=nvk_november_0" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 15:44:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Patches Work To Optimize Code Generation For Linux Context Switching</title>
-      <link>https://www.phoronix.com/news/Linux-CodeGen-Faster-Ctx-Switch</link>
-      <description>As some additional enticing Linux kernel patches posted this week for review, an updated patch series is working to optimize code generation during context switching...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-CodeGen-Faster-Ctx-Switch</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=faster_ctx" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 19:17:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wine 10.20 Released With VKD3D 1.18 Upgrade For Direct3D 12</title>
-      <link>https://www.phoronix.com/news/Wine-10.20-Released</link>
-      <description>Wine 10.20 is out as the newest bi-weekly development release of this open-source software enabling Windows applications and games to run on Linux. This is also with Wine 11.0 stable quickly approaching...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-10.20-Released</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=wine_11_plans" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 21:22:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Black Friday Reminder For Those Hating Ads But Loving Linux Hardware/Software</title>
-      <link>https://www.phoronix.com/news/Black-Friday-2025</link>
-      <description>As the one and last friendly reminder, if you enjoy the daily and original content found on Phoronix.com but not liking ads and wanting to view multi-page articles on a single page, native dark mode, and more: the 2025 Black Friday / Cyber Week deal is ending Monday to help support the site while enjoying a discounted rate...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Black-Friday-2025</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2023&amp;image=dark_eoy_2023" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 22:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 30 Nov 2025 06:49:53 +0000</lastBuildDate>
     <item>
       <title>Niri 25.11 Rust-Written Wayland Compositor Adds Alt-Tab Switcher, New Animations</title>
       <link>https://www.phoronix.com/news/Niri-25.11</link>
@@ -88,6 +40,54 @@
       <guid isPermaLink="false">https://www.phoronix.com/news/Framework-Sponsoring-LVFS</guid>
       <enclosure url="https://www.phoronix.net/image.php?id=framework-16-ryzen-ai-300-series&amp;image=framework_16_13" length="0" type="image/jpeg"/>
       <pubDate>Sat, 29 Nov 2025 11:43:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Arch Linux Based Endeavour OS Updated After ISO Refresh Hiatus</title>
+      <link>https://www.phoronix.com/news/Endeavour-OS-2025-11</link>
+      <description>Endeavour OS is one of the popular desktop Linux distributions built around Arch Linux providing a nice out-of-the-box experience. Since their last ISO refresh back in March there hadn't been much news from the project nor any new ISO releases for this rolling-release distro. But thankfully today they are back in the saddle with a new ISO release, Endeavour OS 2025.11.24 "Ganymede"...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Endeavour-OS-2025-11</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=endeavouros_nov" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 29 Nov 2025 11:52:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNOME Gains New Clipboard Manager Option With "Copyous"</title>
+      <link>https://www.phoronix.com/news/GNOME-Copyous-Extension</link>
+      <description>For those looking to improve their clipboard management experience on the GNOME desktop, Copyous is a new GNOME Shell extension serving as a new clipboard manager...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Copyous-Extension</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=copyous" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 29 Nov 2025 14:32:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.18 Features From Apple M2 To Sheaves, DM-PCACHE &amp;amp; More Intel + AMD Hardware</title>
+      <link>https://www.phoronix.com/news/LInux-6.18-Features-Reminder</link>
+      <description>With the Linux 6.18 stable kernel release expected to take place tomorrow on 30 November, here is a reminder about some of the new hardware support and other interesting features coming in this next stable version of the Linux kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/LInux-6.18-Features-Reminder</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=linux-618-features&amp;image=linux_618_features" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 29 Nov 2025 17:25:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>CachyOS Improves Intel Video Acceleration Experience</title>
+      <link>https://www.phoronix.com/news/CachyOS-November-2025</link>
+      <description>In addition to the release today of a big refresh to Endeavour OS, CachyOS is out with their latest ISO refresh for this additional Arch Linux powered desktop OS. CachyOS for its November 2025 refresh brings installer improvements, now installs additional packages for media acceleration when capable Intel graphics are detected, handling for Bcachefs with its DKMS module, and other improvements...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/CachyOS-November-2025</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=cachyos-ubuntu-2510-f43&amp;image=cachyos_nov_1" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 29 Nov 2025 18:55:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solus Linux 4.8 Released With Python 2 Finally Removed, Abandons Solus Software Center</title>
+      <link>https://www.phoronix.com/news/Solus-4.8-Released</link>
+      <description>In addition to the releases today of updated Endeavour OS and CachyOS, Solus 4.8 is out as the latest version of another desktop Linux distribution popular with enthusiasts...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Solus-4.8-Released</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=solus_48" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 29 Nov 2025 20:41:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Algol 68 Programming Language Front-End Merged Into GCC 16</title>
+      <link>https://www.phoronix.com/news/Algol-68-Merged-Into-GCC-16</link>
+      <description>Making for an exciting holiday weekend night is the Algol 68 programming language front-end "ga68" being merged into the GNU Compiler Collection (GCC) codebase. After COBOL language support landed in GCC 15 earlier this year, next year's GCC 16 release is adding support for the half-century old Algol 68 programming language...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Algol-68-Merged-Into-GCC-16</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=algol_68_merged" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 30 Nov 2025 01:47:15 +0000</pubDate>
     </item>
   </channel>
 </rss>
