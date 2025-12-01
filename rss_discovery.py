@@ -194,17 +194,18 @@ def process_prospect(prospect, index, total, print_lock, file_lock, stats):
 
     success, feed_url, method, error = discover_rss_feed(domain)
 
-    if success:
-        result = {
-            'id': prospect_id,
-            'company_name': company_name,
-            'domain': domain,
-            'feed_url': feed_url,
-            'discovery_method': method
-        }
-        # Save immediately
-        save_result(result, file_lock)
+    # Always save the result (whether found or not) to avoid re-processing
+    result = {
+        'id': prospect_id,
+        'company_name': company_name,
+        'domain': domain,
+        'feed_url': feed_url if success else '',
+        'discovery_method': method if success else 'not_found'
+    }
+    # Save immediately
+    save_result(result, file_lock)
 
+    if success:
         with print_lock:
             print(f"      ✅ Found via {method}")
             stats['found'] += 1
