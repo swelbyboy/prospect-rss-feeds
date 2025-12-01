@@ -230,7 +230,7 @@ def main():
     # Read prospects from outreach tracker where Status is null (source of truth)
     tracker_domains_to_search = set()
     try:
-        with open('Newsletter outreach #2 - Progress tracker - UPDATED.csv', 'r', encoding='utf-8') as f:
+        with open('prospect_tracker.csv', 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 # Only include prospects with null/empty Status
