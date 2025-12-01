@@ -67,9 +67,13 @@ jobs:
         run: |
           python3 update_prospects_with_discovered_feeds.py
 
-      - name: Commit updated prospects
+      - name: Update outreach tracker with discovered feeds
         run: |
-          git add prospects.csv
+          python3 establish_tracker_truth.py
+
+      - name: Commit updated prospects and tracker
+        run: |
+          git add prospects.csv outreach_progress_tracker.csv
           if git diff --staged --quiet; then
             echo "No new feeds discovered"
           else

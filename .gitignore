@@ -52,3 +52,7 @@ data/old_xml_files/
 
 # Utility scripts are tracked, but keep temp files clean
 organize_project.sh
+
+# CSV backups and duplicates
+*BACKUP*.csv
+prospect_tracker.csv

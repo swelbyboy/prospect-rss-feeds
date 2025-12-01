@@ -57,6 +57,7 @@ jobs:
           GITHUB_CI: "true"
           MAX_ARTICLES_PER_PROSPECT: 10
           SCRAPING_TIMEOUT: 60
+          PROSPECTS_CSV: "outreach_progress_tracker.csv"
         run: |
           python scraper.py
 
@@ -293,9 +294,13 @@ jobs:
           print('Generated index.html')
           "
 
+      - name: Update tracker with scraping results
+        run: |
+          python establish_tracker_truth.py
+
       - name: Commit and push changes
         run: |
-          git add tracking.csv index.html *.xml || true
+          git add outreach_progress_tracker.csv tracking.csv current_feeds.txt index.html *.xml || true
           git diff --quiet && git diff --staged --quiet || \
             (git commit -m "Update scraping results - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" && \
              git pull --rebase origin main && \
