@@ -8,79 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Nov 2025 06:49:53 +0000</lastBuildDate>
-    <item>
-      <title>Niri 25.11 Rust-Written Wayland Compositor Adds Alt-Tab Switcher, New Animations</title>
-      <link>https://www.phoronix.com/news/Niri-25.11</link>
-      <description>Niri 25.11 is now available as the latest feature release for this Rust-written, scrollable-tiling Wayland compositor...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Niri-25.11</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=niri_alt_tab" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 29 Nov 2025 10:49:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>KDE Plasma 6.6's KWin Implements RandR Emulation For Better XWayland Experience</title>
-      <link>https://www.phoronix.com/news/Plasma-6.6-KWin-RandR-Emulate</link>
-      <description>KDE developers have been busy ending out the month of November with a number of new features and fixes queued up for next year's Plasma 6.6 desktop release...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-KWin-RandR-Emulate</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=plasma_xdg_diag" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 29 Nov 2025 10:52:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intel Hiring Two More Experienced Linux Kernel Engineers</title>
-      <link>https://www.phoronix.com/news/Intel-Hiring-Two-More-Linux-Eng</link>
-      <description>While there have been a number of Intel Linux engineers laid off over roughly the past year, other Linux kernel engineers opting to pursue employment opportunities elsewhere amid the ongoing challenges and restructuring at the company, and shifts in their open-source strategy, there's some good news as we work toward the 2025 holidays. Intel is currently hiring for two more experienced Linux kernel software engineers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Hiring-Two-More-Linux-Eng</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=raptor-lake-mitigations&amp;image=raptor_mitigations_1" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 29 Nov 2025 11:27:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Framework Computer Now Sponsoring LVFS / Fwupd Development</title>
-      <link>https://www.phoronix.com/news/Framework-Sponsoring-LVFS</link>
-      <description>With the Linux Vendor Firmware Service serving more than 135 million downloads for Linux users updating their system and device firmware, LVFS has been working to get more hardware vendors to contribute either engineering resources or directly contributing annual dues as sponsors. Framework Computer is now the first one to have executed an agreement under these new sponsorship efforts...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Framework-Sponsoring-LVFS</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=framework-16-ryzen-ai-300-series&amp;image=framework_16_13" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 29 Nov 2025 11:43:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Arch Linux Based Endeavour OS Updated After ISO Refresh Hiatus</title>
-      <link>https://www.phoronix.com/news/Endeavour-OS-2025-11</link>
-      <description>Endeavour OS is one of the popular desktop Linux distributions built around Arch Linux providing a nice out-of-the-box experience. Since their last ISO refresh back in March there hadn't been much news from the project nor any new ISO releases for this rolling-release distro. But thankfully today they are back in the saddle with a new ISO release, Endeavour OS 2025.11.24 "Ganymede"...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Endeavour-OS-2025-11</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=endeavouros_nov" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 29 Nov 2025 11:52:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNOME Gains New Clipboard Manager Option With "Copyous"</title>
-      <link>https://www.phoronix.com/news/GNOME-Copyous-Extension</link>
-      <description>For those looking to improve their clipboard management experience on the GNOME desktop, Copyous is a new GNOME Shell extension serving as a new clipboard manager...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Copyous-Extension</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=copyous" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 29 Nov 2025 14:32:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 6.18 Features From Apple M2 To Sheaves, DM-PCACHE &amp;amp; More Intel + AMD Hardware</title>
-      <link>https://www.phoronix.com/news/LInux-6.18-Features-Reminder</link>
-      <description>With the Linux 6.18 stable kernel release expected to take place tomorrow on 30 November, here is a reminder about some of the new hardware support and other interesting features coming in this next stable version of the Linux kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/LInux-6.18-Features-Reminder</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=linux-618-features&amp;image=linux_618_features" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 29 Nov 2025 17:25:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>CachyOS Improves Intel Video Acceleration Experience</title>
-      <link>https://www.phoronix.com/news/CachyOS-November-2025</link>
-      <description>In addition to the release today of a big refresh to Endeavour OS, CachyOS is out with their latest ISO refresh for this additional Arch Linux powered desktop OS. CachyOS for its November 2025 refresh brings installer improvements, now installs additional packages for media acceleration when capable Intel graphics are detected, handling for Bcachefs with its DKMS module, and other improvements...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/CachyOS-November-2025</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=cachyos-ubuntu-2510-f43&amp;image=cachyos_nov_1" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 29 Nov 2025 18:55:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Solus Linux 4.8 Released With Python 2 Finally Removed, Abandons Solus Software Center</title>
-      <link>https://www.phoronix.com/news/Solus-4.8-Released</link>
-      <description>In addition to the releases today of updated Endeavour OS and CachyOS, Solus 4.8 is out as the latest version of another desktop Linux distribution popular with enthusiasts...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Solus-4.8-Released</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=solus_48" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 29 Nov 2025 20:41:17 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 01 Dec 2025 06:51:55 +0000</lastBuildDate>
     <item>
       <title>Algol 68 Programming Language Front-End Merged Into GCC 16</title>
       <link>https://www.phoronix.com/news/Algol-68-Merged-Into-GCC-16</link>
@@ -88,6 +16,78 @@
       <guid isPermaLink="false">https://www.phoronix.com/news/Algol-68-Merged-Into-GCC-16</guid>
       <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=algol_68_merged" length="0" type="image/jpeg"/>
       <pubDate>Sun, 30 Nov 2025 01:47:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Genode OS Framework 25.11 Adds Intel Alder Lake Graphics Support</title>
+      <link>https://www.phoronix.com/news/Genode-OS-25.11</link>
+      <description>The Genode OS Framework 25.11 release was issued this weekend as the newest update to this original open-source operating system effort built around a micro-kernel design and various novel design approaches...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Genode-OS-25.11</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=sculptos" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 30 Nov 2025 10:46:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Black Sesame SoC Support To Be Merged For Linux 6.19</title>
+      <link>https://www.phoronix.com/news/Black-Sesame-SoC-Linux-6.19</link>
+      <description>A new SoC vendor and in turn new SoC/platform support is set to premiere in the Linux 6.19 kernel with the initial Black Sesame Technologies C1200 support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Black-Sesame-SoC-Linux-6.19</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=bst_c1200_1" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 30 Nov 2025 11:05:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Broadcom "BNG_RE" Next-Generation RoCE Driver Slated For Linux 6.19</title>
+      <link>https://www.phoronix.com/news/Broadcom-BNG-RE-Linux-6.19</link>
+      <description>Queued up via the Linux kernel's RDMA development Git tree is "BNG_RE" as the next-generation RoCE driver from Broadcom...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Broadcom-BNG-RE-Linux-6.19</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=bng_re" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 30 Nov 2025 11:20:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19 Will Allow You To Write I2C Drivers In Rust</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-I2C-Drivers-Rust</link>
+      <description>With the upcoming Linux 6.19 kernel cycle there are yet more Rust kernel bindings being introduced and other additions to make it possible to write more Linux kernel drivers within the Rust programming language. Among the new Rust additions expected for Linux 6.19 are making it possible to write Inter-Integrated Circuit (I2C) bus drivers in Rust...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-I2C-Drivers-Rust</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2021&amp;image=rust_linux_v2" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 30 Nov 2025 11:32:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sylve Maturing As A FreeBSD Unified Web Management Interface</title>
+      <link>https://www.phoronix.com/news/FreeBSD-2025-Q3-Highlights</link>
+      <description>Ahead of the FreeBSD 15.0 stable release expected to be announced next week, the FreeBSD project today published their Q3-2025 status report to outline their various development accomplishments from July through September...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-2025-Q3-Highlights</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=sylve" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 30 Nov 2025 12:07:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Features Expected For Linux 6.19: ASUS Armoury, Many Intel Bits, AMD GCN 1.0/1.1 Enhanced</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Features-Expected</link>
+      <description>With the Linux 6.18 kernel likely being released later today, here is a look at some of the features on the table for the next kernel cycle, Linux 6.19. The list is based on changes queued in various "-next" branches ahead of the Linux 6.19 merge window. There's always the possibility of last minute change of plans or objections raised by Linus Torvalds, but this should provide an early look at some of the features more than likely to be merged for Linux 6.19...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Features-Expected</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=phoronix-14-cpus&amp;image=phoronix14_cpus_2" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 30 Nov 2025 16:32:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>NixOS 25.11 Released With 7,002 New Packages Added</title>
+      <link>https://www.phoronix.com/news/NixOS-25.11-Released</link>
+      <description>It's been an exciting weekend for Linux distribution released with new versions of Endeavour OS, CachyOS, Solus and now a new NixOS release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NixOS-25.11-Released</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=nixos" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 30 Nov 2025 20:41:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.18 Released With Many New Features, Likely This Year's LTS Kernel</title>
+      <link>https://www.phoronix.com/news/Linux-6.18-Released</link>
+      <description>Linux 6.18 stable is now available! Linux 6.18 ushers in many new features and changes while also is expected to become this year's Long Term Support "LTS" kernel version...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.18-Released</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=linux_618" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 30 Nov 2025 23:23:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intel Finally Posts Open-Source Gaudi 3 Driver Code For The Linux Kernel</title>
+      <link>https://www.phoronix.com/news/Intel-Gaudi-3-Open-Source</link>
+      <description>The good news is that Intel tonight posted a pull request for open-source Gaudi 3 accelerator support for the mainline Linux kernel! The bad news is that it's coming quite late in the product cycle, much later than the former excellent Habana Labs open-source track record, and their hopes of squeezing this code into the Linux 6.19 kernel may be dashed...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Gaudi-3-Open-Source</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=gaudi" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 01 Dec 2025 01:28:19 +0000</pubDate>
     </item>
   </channel>
 </rss>
