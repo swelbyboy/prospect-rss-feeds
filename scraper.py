@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Main scraper orchestrator.
-Coordinates scraping, RSS generation, and publishing workflow.
+Main RSS feed transformer orchestrator.
+Transforms original RSS feeds to GitHub Pages feeds for prospects.
 """
 
 import csv
 import os
-import re
 import sys
 import time
 from datetime import datetime
-from firecrawl import FirecrawlApp
 from config import Config
 from rss_generator import RSSFeedGenerator
 from github_publisher import GitHubPublisher
@@ -19,17 +17,16 @@ from rss_transformer import RSSTransformer
 
 
 class ProspectScraper:
-    """Main orchestrator for scraping prospect websites and generating RSS feeds."""
+    """Main orchestrator for transforming prospect RSS feeds to GitHub Pages."""
 
     def __init__(self):
-        """Initialize the scraper with required components."""
+        """Initialize the transformer with required components."""
         try:
             Config.validate()
         except ValueError as e:
             print(f"❌ Configuration error: {e}")
             sys.exit(1)
 
-        self.firecrawl = FirecrawlApp(api_key=Config.FIRECRAWL_API_KEY)
         self.rss_generator = RSSFeedGenerator()
         self.github_publisher = GitHubPublisher()
         self.rss_transformer = RSSTransformer()
@@ -90,29 +87,35 @@ class ProspectScraper:
 
             prospects = normalized_prospects
 
-            # Check if we should skip already-processed prospects
-            skip_processed = os.getenv('SKIP_PROCESSED', 'true').lower() == 'true'
+            # Filter prospects based on RSS feed availability and status
+            original_count = len(prospects)
+            
+            # Only process prospects that have original RSS feeds (not "-" or swelbyboy.github.io)
+            filtered_prospects = []
+            skipped_no_feed = 0
+            skipped_already_processed = 0
+            
+            for p in prospects:
+                rss_feed = p.get('rss_feed', '').strip()
+                
+                # Skip if no RSS feed or placeholder
+                if not rss_feed or rss_feed == '-':
+                    skipped_no_feed += 1
+                    continue
+                
+                # Skip if already a GitHub Pages feed (already processed)
+                if 'swelbyboy.github.io' in rss_feed:
+                    skipped_already_processed += 1
+                    continue
+                
+                # This has an original RSS feed that needs transformation
+                filtered_prospects.append(p)
+            
+            print(f"✅ Skipping {skipped_no_feed} prospects with no RSS feed")
+            print(f"✅ Skipping {skipped_already_processed} prospects already processed")
+            print(f"📊 Found {len(filtered_prospects)} prospects with original RSS feeds to transform")
 
-            if skip_processed and os.path.exists(Config.TRACKING_CSV):
-                # Load already-processed prospect IDs
-                processed_ids = set()
-                try:
-                    with open(Config.TRACKING_CSV, 'r', encoding='utf-8') as f:
-                        reader = csv.DictReader(f)
-                        for row in reader:
-                            if row.get('status') == 'success':
-                                processed_ids.add(row.get('prospect_id', ''))
-
-                    if processed_ids:
-                        original_count = len(prospects)
-                        prospects = [p for p in prospects if p.get('id', '') not in processed_ids]
-                        skipped = original_count - len(prospects)
-                        print(f"✅ Skipping {skipped} already-processed prospects")
-                        print(f"📊 Remaining prospects to process: {len(prospects)}")
-                except Exception as e:
-                    print(f"⚠️  Could not load tracking data: {e}")
-
-            return prospects
+            return filtered_prospects
         except FileNotFoundError:
             print(f"❌ Prospects file not found: {Config.PROSPECTS_CSV}")
             print("Please create a prospects.csv file with columns: id, company_name, domain")
@@ -123,11 +126,12 @@ class ProspectScraper:
 
     def scrape_articles(self, prospect):
         """
-        Scrape articles from a prospect's website.
+        Transform articles from prospect's original RSS feed.
 
         Strategy:
-        1. Try RSS feed first if available (faster, cleaner)
-        2. Fall back to Firecrawl web scraping if no RSS or RSS fails
+        1. Fetch content from original RSS feed
+        2. Transform and normalize the content
+        3. No web scraping - RSS feed required
 
         Args:
             prospect (dict): Prospect information
@@ -139,22 +143,27 @@ class ProspectScraper:
         company_name = prospect['company_name']
         rss_feed = prospect.get('rss_feed', '').strip()
 
-        print(f"\n🔍 Scraping {company_name} ({domain})...")
+        print(f"\n🔍 Processing {company_name} ({domain})...")
 
-        # Try RSS first if available
-        if rss_feed:
-            print(f"   📡 Using RSS feed: {rss_feed}")
+        # Validate RSS feed is present and not a placeholder
+        if not rss_feed or rss_feed == '-':
+            print(f"   ⚠️  No RSS feed available - skipping")
+            return False, [], "No RSS feed available"
+        
+        # Skip if already processed (GitHub Pages feed)
+        if 'swelbyboy.github.io' in rss_feed:
+            print(f"   ✅ Already processed - using GitHub Pages feed")
+            # Still fetch to regenerate the feed
             success, articles, error = self.rss_transformer.fetch_and_normalize(
                 rss_feed,
                 max_articles=Config.MAX_ARTICLES_PER_PROSPECT
             )
-
+            
             if success:
-                # Convert RSS articles to our format
                 normalized_articles = []
                 for article in articles:
                     normalized_articles.append({
-                        'link': article['link'],  # RSS generator expects 'link', not 'url'
+                        'link': article['link'],
                         'title': article['title'],
                         'description': article['description'],
                         'image_url': article.get('image_url'),
@@ -162,403 +171,33 @@ class ProspectScraper:
                     })
                 return True, normalized_articles, None
             else:
-                print(f"   ⚠️  RSS fetch failed: {error}, falling back to web scraping...")
-
-        # Fall back to web scraping
-        return self._scrape_with_firecrawl(prospect)
-
-    def _scrape_with_firecrawl(self, prospect):
-        """
-        Scrape articles using Firecrawl (original method).
-
-        Strategy:
-        1. Scrape the homepage to find article links
-        2. Filter for likely article URLs
-        3. Scrape top 10 article pages for full content
-
-        Args:
-            prospect (dict): Prospect information
-
-        Returns:
-            tuple: (success: bool, articles: list, error_message: str)
-        """
-        domain = prospect['domain']
-        company_name = prospect['company_name']
-
-        print(f"   🌐 Using web scraping (Firecrawl)...")
-
-        try:
-            # Ensure domain has protocol
-            if not domain.startswith('http'):
-                url = f'https://{domain}'
-            else:
-                url = domain
-
-            # Step 1: Scrape homepage to find article links
-            print(f"   📄 Scraping homepage...")
-
-            homepage_params = {
-                'formats': ['markdown', 'links']
-            }
-
-            # Retry with exponential backoff for transient errors
-            max_retries = 3
-            retry_delay = 10
-            homepage_result = None
-            retryable_errors = ['408', '502', '500', 'timeout', 'server login']
-
-            for attempt in range(max_retries):
-                try:
-                    homepage_result = self.firecrawl.scrape_url(url, params=homepage_params)
-                    break  # Success!
-                except Exception as e:
-                    error_str = str(e).lower()
-                    is_retryable = any(err in error_str for err in retryable_errors)
-
-                    if is_retryable and attempt < max_retries - 1:
-                        print(f"   ⏳ Transient error, waiting {retry_delay}s before retry {attempt + 2}/{max_retries}...")
-                        time.sleep(retry_delay)
-                        retry_delay *= 2  # Exponential backoff
-                    else:
-                        raise  # Re-raise if not retryable or final attempt
-
-            if not homepage_result:
-                return False, [], "No data returned from homepage scrape"
-
-            # Extract links from homepage (key is 'linksOnPage' in Firecrawl)
-            links = homepage_result.get('linksOnPage', [])
-            if not links:
-                return False, [], "No links found on homepage"
-
-            print(f"   🔗 Found {len(links)} links on homepage")
-
-            # Step 2: Filter for article links
-            article_urls = self._filter_article_links(links, url, domain)
-
-            if not article_urls:
-                print(f"   ⚠️  No article links found for {company_name}")
-                return False, [], "No article links detected on homepage"
-
-            print(f"   📰 Identified {len(article_urls)} potential article links")
-
-            # Limit to MAX_ARTICLES_PER_PROSPECT
-            article_urls = article_urls[:Config.MAX_ARTICLES_PER_PROSPECT]
-
-            # Step 3: Scrape each article page
-            articles = []
-            retryable_errors = ['408', '502', '500', 'timeout', 'server login']
-
-            for idx, article_url in enumerate(article_urls, 1):
-                print(f"   📖 Scraping article {idx}/{len(article_urls)}...")
-
-                # Retry logic for individual articles
-                article_result = None
-                max_article_retries = 2  # Fewer retries per article
-                article_retry_delay = 5
-
-                for attempt in range(max_article_retries):
-                    try:
-                        article_result = self.firecrawl.scrape_url(
-                            article_url,
-                            params={'formats': ['markdown']}
-                        )
-                        break  # Success!
-                    except Exception as e:
-                        error_str = str(e).lower()
-                        is_retryable = any(err in error_str for err in retryable_errors)
-
-                        if is_retryable and attempt < max_article_retries - 1:
-                            print(f"   ⏳ Retrying article after {article_retry_delay}s...")
-                            time.sleep(article_retry_delay)
-                        elif attempt == max_article_retries - 1:
-                            print(f"   ⚠️  Failed to scrape article {idx}: {str(e)}")
-
-                if article_result:
-                    try:
-                        metadata = article_result.get('metadata', {})
-                        markdown_content = article_result.get('markdown', '')
-
-                        # Validate that this is actual article content
-                        if not self._is_valid_article(metadata, markdown_content, article_url):
-                            print(f"   ⚠️  Skipping - not a valid article (likely navigation/utility page)")
-                            continue
-
-                        articles.append({
-                            'title': metadata.get('title', f"Article {idx}"),
-                            'link': article_url,
-                            'description': metadata.get('description', '')[:200],
-                            'published_date': metadata.get('publishedTime'),
-                            'image_url': metadata.get('ogImage') or metadata.get('image', '')
-                        })
-                    except Exception as e:
-                        print(f"   ⚠️  Error processing article {idx}: {str(e)}")
-                        continue
-
-                # Small delay to be nice to Firecrawl API
-                time.sleep(1)
-
-            if not articles:
-                print(f"   ⚠️  No articles scraped successfully for {company_name}")
-                return False, [], "Failed to scrape any articles"
-
-            print(f"   ✅ Successfully scraped {len(articles)} articles")
-            return True, articles, None
-
-        except Exception as e:
-            error_msg = f"Scraping error: {str(e)}"
-            print(f"   ❌ {error_msg}")
-            return False, [], error_msg
-
-    def _filter_article_links(self, links, homepage_url, domain):
-        """
-        Filter links from homepage to find potential article URLs.
-
-        Strategy: Keep filtering minimal - only exclude obvious non-articles.
-        Content validation will filter out the rest after scraping.
-
-        Args:
-            links (list): List of link URLs from homepage
-            homepage_url (str): The homepage URL
-            domain (str): Domain being scraped
-
-        Returns:
-            list: List of article URL strings
-        """
-        article_urls = []
-
-        # Minimal exclusions - only obvious non-article pages
-        exclude_patterns = [
-            # Static/utility pages
-            '/about', '/contact', '/privacy', '/terms', '/login',
-            '/signup', '/register', '/search', '/subscribe', '/schedule',
-            '/disclaimer', '/advertise', '/advertising', '/editorial',
-            '/masthead', '/staff', '/team',
-            # Administrative
-            '/tag/', '/category/', '/author/', '/page/', '/community/',
-            '/feed', '/rss', '/api/', '/wp-admin', '/wp-content',
-            # Affiliate/commercial
-            '/out/', '/deals/', '/shop/', '/buy/', '/product/',
-            # Media/content types (match with or without trailing slash)
-            '/podcast', '/video/', '/videos/', '/gallery/', '/galleries/', '/photos/',
-            # Media files
-            '.pdf', '.jpg', '.png', '.gif', '.zip', '.xml', '.css', '.js',
-            # External links
-            'facebook.com', 'twitter.com', 'linkedin.com', 'instagram.com',
-            'youtube.com', 'mailto:', 'tel:',
-        ]
-
-        for link in links:
-            if not link or not isinstance(link, str):
-                continue
-
-            link_lower = link.lower()
-
-            # Skip if it's the homepage itself
-            homepage_base = homepage_url.rstrip('/')
-            link_base = link.rstrip('/')
-            if link_base == homepage_base or link_base + '#' == homepage_base:
-                continue
-
-            # Skip if it's just a language code (e.g., /en, /en-us, /fr)
-            if re.match(r'^https?://[^/]+/[a-z]{2}(-[a-z]{2,3})?/?$', link_base):
-                continue
-
-            # Skip external links (must be same domain)
-            if link.startswith('http') and domain not in link:
-                continue
-
-            # Skip excluded patterns
-            if any(pattern in link_lower for pattern in exclude_patterns):
-                continue
-
-            # Skip very short paths or single-segment paths (likely sections/categories)
-            path = link.replace(homepage_url, '').split('?')[0].strip('/')
-
-            # Too short = navigation
-            if len(path) < 5:  # e.g., /news, /blog
-                continue
-
-            # Single short segment = likely a category/section page
-            path_segments = [s for s in path.split('/') if s]
-            if len(path_segments) == 1 and len(path_segments[0]) < 20:
-                # Single segment like "/venezuela" or "/sports" - likely a category
-                continue
-
-            # Accept everything else - let content validation handle it
-            # Ensure full URL
-            if link.startswith('/'):
-                full_url = homepage_url.rstrip('/') + link
-            elif not link.startswith('http'):
-                full_url = homepage_url.rstrip('/') + '/' + link
-            else:
-                full_url = link
-
-            # Avoid duplicates
-            if full_url not in article_urls:
-                article_urls.append(full_url)
-
-        return article_urls
-
-    def _is_valid_article(self, metadata, markdown_content, url):
-        """
-        Validate that scraped content is a legitimate article suitable for a newsletter.
-
-        Strategy: Prioritize metadata signals over content heuristics for robust detection.
-
-        Args:
-            metadata (dict): Article metadata from Firecrawl
-            markdown_content (str): Article markdown content
-            url (str): Article URL
-
-        Returns:
-            bool: True if valid article, False otherwise
-        """
-        # Get title and description
-        raw_title = metadata.get('title', '')
-        title_lower = raw_title.lower()
-        description = metadata.get('description', '')
-        url_lower = url.lower()
-
-        # === CRITICAL FILTERS - Always reject these ===
-
-        # 0. HOMEPAGE DETECTION
-        url_clean = url_lower.replace('https://', '').replace('http://', '').replace('www.', '').rstrip('/')
-        if '/' not in url_clean:
-            return False
-
-        # 1. OBVIOUS NON-ARTICLES BY URL
-        obvious_non_article_urls = [
-            '/about', '/contact', '/privacy', '/terms', '/login', '/signup',
-            '/subscribe', '/newsletter', '/advertise', '/careers', '/jobs',
-            '/listen', '/schedule', '/on-air', '/calendar', '/events',
-            '/podcast', '/video/', '/videos/', '/gallery/', '/galleries/',
-            '/editorial', '/masthead', '/staff', '/team',
-            '/out/', '/deals/', '/shop/', '/buy/', '/product/'
-        ]
-        if any(pattern in url_lower for pattern in obvious_non_article_urls):
-            return False
-
-        # 2. OBVIOUS NON-ARTICLES BY TITLE
-        non_article_title_patterns = [
-            'home', 'homepage', 'listen live', 'contact us', 'about us',
-            'privacy policy', 'terms', 'subscribe', 'newsletter',
-            'advertise', 'careers', 'jobs', '404', 'not found',
-            'search results for', 'editorial guidelines', 'editorial policy',
-            'crime stories with nancy grace', 'podcast'
-        ]
-        if any(pattern in title_lower for pattern in non_article_title_patterns):
-            return False
-
-        # 3. EVERGREEN/BUYING GUIDE PATTERNS (even with good metadata)
-        evergreen_patterns = [
-            'best ', 'top ', ' in 202', ' guide', 'how to ',
-            'a brief history of', 'history of ', 'ultimate guide',
-            'complete guide', 'beginner\'s guide'
-        ]
-        for pattern in evergreen_patterns:
-            if pattern in title_lower:
-                # Additional check: if it's a "best" or "top" list AND has a year, likely evergreen
-                if ('best ' in title_lower or 'top ' in title_lower) and any(year in title_lower for year in ['2024', '2025', '2026']):
-                    return False
-                # "How to" guides, history articles
-                if pattern in ['how to ', 'a brief history of', 'history of ', 'complete guide', 'ultimate guide']:
-                    return False
-
-        # === METADATA VALIDATION - Trust structured data first ===
-
-        # Check for article metadata signals
-        has_published_date = bool(metadata.get('publishedTime') or metadata.get('published') or metadata.get('datePublished'))
-        has_og_type = metadata.get('ogType', '').lower() in ['article', 'blog', 'news']
-        has_description = len(description) > 30
-        metadata_score = 0
-        if has_og_type:
-            metadata_score += 2
-        if has_published_date:
-            metadata_score += 2
-        if has_description:
-            metadata_score += 1
-
-        # === URL PATTERN ANALYSIS - Articles have specific patterns ===
-
-        # Check for date in URL (e.g., /2025/11/09/ or /2025-11-09/)
-        import re
-        date_pattern = r'/(20\d{2})[-/](0?[1-9]|1[0-2])[-/](0?[1-9]|[12][0-9]|3[01])'
-        if re.search(date_pattern, url_lower):
-            # URLs with dates are almost always articles
-            return True
-
-        # Multi-segment URLs (3+ parts) are likely articles
-        url_path = url_lower.split('?')[0]
-        if '://' in url_path:
-            url_path = url_path.split('://', 1)[1]
-        if '/' in url_path:
-            url_path = url_path.split('/', 1)[1]
-
-        path_parts = [p for p in url_path.strip('/').split('/') if p]
-
-        # Single-segment URLs are usually category pages
-        if len(path_parts) == 1:
-            section_names = ['news', 'blog', 'sports', 'tech', 'business', 'entertainment',
-                           'politics', 'science', 'health', 'world', 'local', 'opinion', 'editorial']
-            if path_parts[0] in section_names or len(path_parts[0]) < 15:
-                return False
-            slug_tokens = [token for token in path_parts[0].split('-') if token]
-            category_tokens = {
-                'guide', 'guides', 'history', 'faq', 'faqs', 'glossary', 'dictionary',
-                'appliances', 'software', 'services', 'products', 'pricing', 'deals',
-                'coupons', 'store', 'shop', 'support', 'help', 'download', 'downloads',
-                'resources'
-            }
-            if slug_tokens and any(token in category_tokens for token in slug_tokens):
-                if len(slug_tokens) <= 2:
-                    return False
-
-        # === CONTENT HEURISTICS - Fallback validation ===
-
-        # Basic title quality
-        if len(raw_title.strip()) < 10 or len(title_lower.split()) < 3:
-            return False
-
-        # Get word count
-        content_words = markdown_content.split() if markdown_content else []
-        word_count = len(content_words)
-
-        # Minimum content length
-        if word_count < 75:  # Reduced to allow shorter news articles
-            return False
-
-        # Check link density
-        if markdown_content and word_count > 0:
-            link_count = markdown_content.count('](')
-            links_per_100_words = (link_count / word_count) * 100
-            if links_per_100_words > 30:
-                return False
-
-        # Content quality checks with lower thresholds since we don't have metadata
-
-        # With description + reasonable content
-        if has_description and word_count >= 100:
-            return True
-
-        # Substantial content even without metadata
-        if word_count >= 200:
-            return True
-
-        if metadata_score >= 4 and word_count >= 70:
-            return True
-
-        if metadata_score >= 3 and len(path_parts) >= 2 and word_count >= 70:
-            return True
-
-        # Multi-segment URL + some content + title
-        if len(path_parts) >= 2 and word_count >= 75 and len(raw_title) >= 20:
-            return True
-
-        if metadata_score >= 2 and word_count >= 120:
-            return True
-
-        # Not enough signals to confidently identify as article
-        return False
+                return False, [], error
+
+        # Process original RSS feed
+        print(f"   📡 Transforming original RSS feed: {rss_feed}")
+        success, articles, error = self.rss_transformer.fetch_and_normalize(
+            rss_feed,
+            max_articles=Config.MAX_ARTICLES_PER_PROSPECT
+        )
+
+        if success:
+            # Convert RSS articles to our format
+            normalized_articles = []
+            for article in articles:
+                normalized_articles.append({
+                    'link': article['link'],
+                    'title': article['title'],
+                    'description': article['description'],
+                    'image_url': article.get('image_url'),
+                    'published_date': article['pub_date']
+                })
+            print(f"   ✅ Successfully transformed {len(normalized_articles)} articles")
+            return True, normalized_articles, None
+        else:
+            print(f"   ❌ RSS transformation failed: {error}")
+            return False, [], error
+
+    # Firecrawl scraping methods removed - we only use RSS feeds now
 
     def process_prospect(self, prospect):
         """
@@ -618,29 +257,93 @@ class ProspectScraper:
         except Exception as e:
             print(f"\n❌ Error saving tracking data: {e}")
 
+    def update_prospect_csv(self):
+        """Update the original prospects CSV with GitHub Pages URLs and status."""
+        try:
+            # Read all prospects from CSV
+            all_prospects = []
+            with open(Config.PROSPECTS_CSV, 'r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                fieldnames = reader.fieldnames
+                all_prospects = list(reader)
+            
+            # Update prospects that were processed
+            updates_made = 0
+            for entry in self.tracking_data:
+                for prospect in all_prospects:
+                    # Match by domain or company name
+                    prospect_name = prospect.get('Prospect Name', prospect.get('company_name', ''))
+                    prospect_domain = prospect.get('Domain', prospect.get('domain', ''))
+                    
+                    if (prospect_name == entry['company_name'] or 
+                        prospect_domain == entry['domain']):
+                        # Update RSS Feed column
+                        if entry['status'] == 'success' and entry['rss_url']:
+                            if 'RSS Feed' in prospect:
+                                prospect['RSS Feed'] = entry['rss_url']
+                            elif 'rss_feed' in prospect:
+                                prospect['rss_feed'] = entry['rss_url']
+                            
+                            # Update Last Scrape Status
+                            if 'Last Scrape Status' in prospect:
+                                prospect['Last Scrape Status'] = 'success'
+                            
+                            # Update Last Scrape Timestamp
+                            if 'Last Scrape Timestamp' in prospect:
+                                prospect['Last Scrape Timestamp'] = entry['last_scrape_date']
+                            
+                            # Update Data Source
+                            if 'Data Source' in prospect:
+                                prospect['Data Source'] = 'OG'
+                            
+                            # Update Status to "To Do" for successful transformations
+                            if 'Status' in prospect:
+                                prospect['Status'] = 'To Do'
+                            
+                            updates_made += 1
+                        elif entry['status'] == 'failed':
+                            # Update Last Scrape Status to failed
+                            if 'Last Scrape Status' in prospect:
+                                prospect['Last Scrape Status'] = 'failed'
+                            
+                            if 'Last Scrape Timestamp' in prospect:
+                                prospect['Last Scrape Timestamp'] = entry['last_scrape_date']
+                        break
+            
+            # Write updated data back to CSV
+            with open(Config.PROSPECTS_CSV, 'w', encoding='utf-8', newline='') as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer.writeheader()
+                writer.writerows(all_prospects)
+            
+            print(f"\n💾 Updated {updates_made} prospects in {Config.PROSPECTS_CSV}")
+            
+        except Exception as e:
+            print(f"\n❌ Error updating prospect CSV: {e}")
+
     def print_summary(self):
-        """Print a summary of the scraping results."""
+        """Print a summary of the transformation results."""
         total = len(self.tracking_data)
         successful = sum(1 for entry in self.tracking_data if entry['status'] == 'success')
         failed = total - successful
         total_articles = sum(entry['articles_found'] for entry in self.tracking_data)
 
         print("\n" + "="*60)
-        print("📊 SCRAPING SUMMARY")
+        print("📊 TRANSFORMATION SUMMARY")
         print("="*60)
         print(f"Total prospects processed: {total}")
         print(f"✅ Successful: {successful}")
         print(f"❌ Failed: {failed}")
-        print(f"📄 Total articles found: {total_articles}")
+        print(f"📄 Total articles transformed: {total_articles}")
         print("="*60)
 
         if successful > 0:
-            print("\n✅ Successfully scraped prospects:")
+            print("\n✅ Successfully transformed prospects:")
             for entry in self.tracking_data:
                 if entry['status'] == 'success':
                     print(f"   • {entry['company_name']}: {entry['articles_found']} articles")
                     if entry['rss_url']:
-                        print(f"     RSS: {entry['rss_url']}")
+                        print(f"     GitHub Pages: {entry['rss_url']}")
 
         if failed > 0:
             print("\n❌ Failed prospects:")
@@ -649,8 +352,8 @@ class ProspectScraper:
                     print(f"   • {entry['company_name']}: {entry['error_message']}")
 
     def run(self):
-        """Execute the complete scraping workflow."""
-        print("🚀 Starting Prospect Article Scraper")
+        """Execute the complete RSS feed transformation workflow."""
+        print("🚀 Starting RSS Feed Transformer")
         print("="*60)
 
         # Load prospects
@@ -702,17 +405,20 @@ class ProspectScraper:
 
         # Save tracking data
         self.save_tracking()
+        
+        # Update the original prospects CSV with GitHub Pages URLs
+        self.update_prospect_csv()
 
         # Print summary
         self.print_summary()
 
         # Publish to GitHub Pages (skip if running in CI)
         is_ci = os.getenv('GITHUB_CI') == 'true'
-        successful_scrapes = sum(1 for entry in self.tracking_data if entry['status'] == 'success')
+        successful_transforms = sum(1 for entry in self.tracking_data if entry['status'] == 'success')
 
         if is_ci:
             print("\n✅ Running in GitHub Actions - feeds will be committed by workflow")
-        elif successful_scrapes > 0:
+        elif successful_transforms > 0:
             print("\n📤 Publishing RSS feeds to GitHub Pages...")
             try:
                 success = self.github_publisher.publish_feeds()
@@ -724,9 +430,9 @@ class ProspectScraper:
                 print(f"❌ Error publishing feeds: {e}")
                 print("\n💡 You can manually publish feeds from the 'feeds/' directory")
         else:
-            print("\n⚠️  No successful scrapes to publish")
+            print("\n⚠️  No successful transformations to publish")
 
-        print("\n✨ Scraping workflow completed!")
+        print("\n✨ RSS feed transformation workflow completed!")
 
 
 def main():

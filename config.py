@@ -38,12 +38,9 @@ class Config:
         errors = []
         is_ci = os.getenv('GITHUB_CI') == 'true'
 
-        if not cls.FIRECRAWL_API_KEY:
-            if is_ci:
-                errors.append("FIRECRAWL_API_KEY secret is not set in GitHub Actions")
-            else:
-                errors.append("FIRECRAWL_API_KEY is not set (check .env file or environment variables)")
-
+        # Firecrawl API key is no longer required since we only use RSS feeds
+        # Keeping the config for backwards compatibility but not validating
+        
         # GitHub config is only required when not running in CI
         # (CI mode uses GitHub Actions workflow for commits)
         if not is_ci:
