@@ -49,6 +49,47 @@ class ProspectScraper:
                 prospects = list(reader)
             print(f"📋 Loaded {len(prospects)} prospects from {Config.PROSPECTS_CSV}")
 
+            # Normalize column names to handle different CSV formats
+            # outreach_progress_tracker.csv uses: "Prospect Name", "Domain", "RSS Feed"
+            # prospects.csv uses: "company_name", "domain", "rss_feed"
+            normalized_prospects = []
+            for i, prospect in enumerate(prospects, 1):
+                normalized = {}
+
+                # Handle company_name / Prospect Name
+                if 'company_name' in prospect:
+                    normalized['company_name'] = prospect['company_name']
+                elif 'Prospect Name' in prospect:
+                    normalized['company_name'] = prospect['Prospect Name']
+                else:
+                    normalized['company_name'] = f"Unknown-{i}"
+
+                # Handle domain / Domain
+                if 'domain' in prospect:
+                    normalized['domain'] = prospect['domain']
+                elif 'Domain' in prospect:
+                    normalized['domain'] = prospect['Domain']
+                else:
+                    normalized['domain'] = ''
+
+                # Handle rss_feed / RSS Feed
+                if 'rss_feed' in prospect:
+                    normalized['rss_feed'] = prospect['rss_feed']
+                elif 'RSS Feed' in prospect:
+                    normalized['rss_feed'] = prospect['RSS Feed']
+                else:
+                    normalized['rss_feed'] = ''
+
+                # Handle id (generate if not present)
+                if 'id' in prospect:
+                    normalized['id'] = prospect['id']
+                else:
+                    normalized['id'] = str(i)
+
+                normalized_prospects.append(normalized)
+
+            prospects = normalized_prospects
+
             # Check if we should skip already-processed prospects
             skip_processed = os.getenv('SKIP_PROCESSED', 'true').lower() == 'true'
 
