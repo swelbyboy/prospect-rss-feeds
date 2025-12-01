@@ -227,15 +227,34 @@ def main():
     print("🔍 Parallel RSS Feed Discovery (with auto-save)")
     print("=" * 80)
 
-    # Read prospects without RSS feeds
+    # Read prospects from outreach tracker where Status is null (source of truth)
+    tracker_domains_to_search = set()
+    try:
+        with open('Newsletter outreach #2 - Progress tracker - UPDATED.csv', 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                # Only include prospects with null/empty Status
+                if not row['Status'].strip():
+                    tracker_domains_to_search.add(row['Domain'])
+        print(f"📋 Loaded {len(tracker_domains_to_search)} prospects with Status=null from outreach tracker")
+    except FileNotFoundError:
+        print("⚠️  Outreach tracker not found, falling back to prospects.csv")
+        tracker_domains_to_search = None
+    
+    # Read all prospects from prospects.csv
     prospects = []
     with open('prospects.csv', 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
-            if not row.get('rss_feed', '').strip():
+            # If we have tracker data, only include domains from tracker (Status=null)
+            # Otherwise fall back to prospects without feeds in prospects.csv
+            if tracker_domains_to_search is not None:
+                if row['domain'] in tracker_domains_to_search:
+                    prospects.append(row)
+            elif not row.get('rss_feed', '').strip():
                 prospects.append(row)
 
-    print(f"📋 Found {len(prospects)} prospects without RSS feeds")
+    print(f"📋 Found {len(prospects)} prospects to check for RSS feeds")
 
     # Load already-processed domains
     processed_domains = load_processed_domains()
