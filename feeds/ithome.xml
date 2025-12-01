@@ -8,78 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 30 Nov 2025 08:43:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Dec 2025 08:48:51 +0000</lastBuildDate>
     <item>
-      <title>Mixpanel遭駭殃及OpenAI API用戶</title>
-      <link>https://www.ithome.com.tw/news/172518</link>
-      <description>外部供應商Mixpanel的部分系統遭入侵，OpenAI坦承其API用戶資料可能因此外洩</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172518</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/field/image/0917-openai_bei_jing_tu_pian_qu_zi_mimicry_hu_on_unsplash1.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 02:52:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI趨勢周報第281期：Google揭臺北全新辦公室，打造總部外最大AI基礎建設研發中心</title>
-      <link>https://www.ithome.com.tw/news/172519</link>
-      <description>Google臺北全新辦公室要成為總部外最大AI基礎建設研發中心；Claude Opus 4.5來了！程式碼修復能力大升、還能無限聊天；Google推出新一代AI生圖模型Nano Banana Pro；OpenAI推Codex-Max，可24小時跑大型專案；別小看線性迴歸，Google用它讓充電樁預測更可靠</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172519</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/field/image/ying_mu_xie_qu_hua_mian_2025-11-28_152006.png" length="0" type="image/png"/>
-      <pubDate>Fri, 28 Nov 2025 05:01:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>程式碼編排服務JSON Formatter和CodeBeautify被上傳大量機敏資訊，已有人開始爬梳相關資料</title>
-      <link>https://www.ithome.com.tw/news/172520</link>
-      <description>watchTowr針對程式碼編排及美化服務平臺JSON Formatter和CodeBeautify進行調查，結果發現，許多開發人員上傳並暫存的程式碼裡，曝露了各式金鑰、憑證、權杖，以及能夠識別身分的個資</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172520</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/field/image/recentlinks-15-156.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 05:14:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>【資安日報】11月28日，開發人員不慎在程式碼編排平臺曝露企業組織的機敏資料</title>
-      <link>https://www.ithome.com.tw/news/172521</link>
-      <description>資安業者watchTowr提出警告，開發人員於程式碼編排服務JSON Formatter和CodeBeautify當中，上傳的程式碼內容，曝露企業組織內部的各式憑證、金錀，以及密碼，而且他們確認有人爬梳程式碼內容並挖掘上述機密資料，試圖加以濫用</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172521</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/field/image/20251128.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 05:40:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>美國商標暨專利辦公室明文規定AI無法被視為發明人</title>
-      <link>https://www.ithome.com.tw/news/172522</link>
-      <description>美國商標暨專利辦公室（USPTO）更新「審查指引」，明確提出AI不能被列為發明人</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172522</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/field/image/1128-ai_brain-photo_by_milad_fakurian_on_unsplash.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 06:35:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>阿里巴巴推出智慧眼鏡家族Quark AI</title>
-      <link>https://www.ithome.com.tw/news/172523</link>
-      <description>阿里巴巴旗下消費AI品牌Quark推出智慧眼鏡，內建自家Qwen聊天機器人</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172523</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/field/image/1128-alibaba-quark_ai_glasses-qwen-960.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 06:57:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitLab修補兩高風險漏洞，涵蓋CI/CD快取憑證外洩與DoS弱點</title>
-      <link>https://www.ithome.com.tw/news/172524</link>
-      <description>GitLab釋出18.6.1等修補版，修正CI/CD快取憑證外洩與JSON驗證DoS漏洞提升穩定性，官方建議自託管用戶儘速升級</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172524</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/field/image/capture_362_-_gitlab_patch_release_18.6.1_18.5.3_18.4.5_-_gitlab_-_about.gitlab.com_.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 07:52:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>漢翔工業實現永續及智慧製造轉型的關鍵，以設計模擬找出關鍵製程參數，結合AIoT產線監測控管品質</title>
-      <link>https://www.ithome.com.tw/news/172526</link>
-      <description>漢翔分享利用設計模擬工具，協助縮短關鍵零件的設計及降低模具成本，找出鍵關製程數據，並透過AIoT監測產線製程，避免產品瑕疵，確保品質穩定。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172526</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/field/image/xie_qu_11.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 09:59:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>.NET 10統一建置架構加快安全修補與版本發布節奏</title>
-      <link>https://www.ithome.com.tw/news/172533</link>
-      <description>微軟在.NET 10導入統一建置架構（Unified Build），透過虛擬單一儲存庫與垂直建置方式整合過去分散的元件，大幅縮短建置時間並提升版本一致性，使安全修補與版本發布的效率更高</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172533</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/field/image/capture_365_-_dotnet-product-construction-complexity-scaled.webp_2500x1156_-_devblogs.microsoft.com_.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 28 Nov 2025 13:12:00 +0000</pubDate>
+      <title>體驗：未來的優勢</title>
+      <link>https://www.ithome.com.tw/article/172536</link>
+      <description>跳脫傳統思維，從全旅程視角優化顧客體驗</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/article/172536</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/itshu_zhai_-tu_po_si_wei_kuang_jia_-960.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 29 Nov 2025 10:00:00 +0000</pubDate>
     </item>
     <item>
       <title>2025臺灣網路惡意活動數量居高不下，在亞太地區名列前茅</title>
@@ -88,6 +24,70 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/news/172534</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/field/image/fortinet_threat_landscape-2025-main.jpg" length="0" type="image/jpeg"/>
       <pubDate>Sat, 29 Nov 2025 17:18:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>啤酒商朝日證實資料外洩事件影響近200萬人</title>
+      <link>https://www.ithome.com.tw/news/172537</link>
+      <description>朝日（Asahi）坦承發生勒索軟體攻擊，導致近200萬名相關人士，包括員工／眷屬、合作對象以及顧客的姓名、地址、電話等通訊資料外洩，但未包含涉及金融服務的敏感個資</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172537</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/1201-asahi-960.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 01 Dec 2025 00:57:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zendesk企業客戶疑似遭到Lapsus$駭客以假工單網釣攻擊 駭客預告還有下一波</title>
+      <link>https://www.ithome.com.tw/news/172538</link>
+      <description>資安業者ReliaQuest發現Scattered Lapsus$ Hunters駭客組織，可能正對知名工單平臺Zendesk客戶發動網釣攻擊</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172538</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/1201-zendesk-960.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 01 Dec 2025 01:26:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coupang資料外洩，波及3,370萬用戶</title>
+      <link>https://www.ithome.com.tw/news/172539</link>
+      <description>南韓最大電子商務網站酷澎（Coupang）傳出因內賊引發的資安事故，導致3千多萬名客戶的姓名以及通訊資料外洩</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172539</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/1201-coupang-960.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 01 Dec 2025 01:38:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ICLR 2026的審稿內容有逾21%完全由AI生成</title>
+      <link>https://www.ithome.com.tw/news/172547</link>
+      <description>專門偵測AI內容的Pangram，針對提交到2026年國際表徵學習會議（ICLR）的論文與審稿內容進行偵測，發現在7萬篇審稿內容中，有21%的審稿內容完成由AI生成</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172547</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/1201-pangram-960.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 01 Dec 2025 03:21:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI開放多國資料落地存放，支援ChatGPT Enterprise、Edu與API企業用戶</title>
+      <link>https://www.ithome.com.tw/news/172548</link>
+      <description>OpenAI擴充ChatGPT Enterprise、ChatGPT Edu與API的資料落地選項，企業可指定區域儲存對話與檔案，以因應各地監管與合規需求</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172548</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/fireshot_capture_019_-_business_data_privacy_security_and_compliance_-_openai_-_openai.com_.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 01 Dec 2025 04:22:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>【資安週報】1122~1126，LINE資安弱點揭露受關注。Salesforce針對Gainsight遭駭示警</title>
+      <link>https://www.ithome.com.tw/news/172549</link>
+      <description>回顧2025年11月最後一週資安新聞，最多人關注的消息是即時通訊軟體LINE被揭露存在資安弱點；還有兩起攻擊事件與威脅研究值得留意，包括Salesforce示警Gainsight遭駭導致相關威脅再度浮現，以及首次發現言論審查會影響開發安全，DeepSeek-R1處理政治敏感議題的提示時，產生嚴重資安弱點程式碼的機率顯著上升</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172549</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/zi_an_zhou_bao_20251127.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 01 Dec 2025 05:02:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>勒索軟體Qilin對韓國金融業者發起供應鏈攻擊Korean Leaks，背後疑似北韓駭客所為</title>
+      <link>https://www.ithome.com.tw/news/172550</link>
+      <description>北韓駭客Moonstone Sleet於今年9月，傳出使用勒索軟體Qilin對超過20家韓國資產管理公司下手，聲稱要重挫當地股市，並對執法機關喊話、施壓，而他們入侵受害公司的管道，是一家代管服務供應商（MSP）</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172550</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/qilin-victim-post5-156.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 01 Dec 2025 05:12:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scale AI推出全新PropensityBench基準，揭露AI在壓力下的風險</title>
+      <link>https://www.ithome.com.tw/news/172551</link>
+      <description>Scale AI以PropensityBench測試11款主流模型，發現模型的安全反應多屬淺層對齊，即僅避免危險字眼，而非真正理解行為風險</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172551</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/field/image/1201-propensitybench-960.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 01 Dec 2025 05:52:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
