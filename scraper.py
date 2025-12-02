@@ -104,29 +104,66 @@ class ProspectScraper:
             # Filter prospects based on RSS feed availability and status
             original_count = len(prospects)
             
-            # Only process prospects that have original RSS feeds (not "-" or swelbyboy.github.io)
+            # Load original feed URLs from discovery results (for regenerating missing feeds)
+            original_feeds = {}
+            try:
+                with open('rss_discovery_results_enhanced.csv', 'r', encoding='utf-8') as f:
+                    import csv as csv_module
+                    reader = csv_module.DictReader(f)
+                    for row in reader:
+                        domain = row.get('domain', '')
+                        feed_url = row.get('feed_url', '')
+                        if domain and feed_url:
+                            original_feeds[domain] = feed_url
+                print(f"📋 Loaded {len(original_feeds)} original feed URLs for regeneration")
+            except Exception as e:
+                print(f"⚠️  Could not load discovery results: {e}")
+            
+            # Process prospects - including those with missing XML files
             filtered_prospects = []
             skipped_no_feed = 0
             skipped_already_processed = 0
+            needs_regeneration = 0
             
             for p in prospects:
                 rss_feed = p.get('rss_feed', '').strip()
+                domain = p.get('domain', '')
                 
                 # Skip if no RSS feed or placeholder
                 if not rss_feed or rss_feed == '-':
                     skipped_no_feed += 1
                     continue
                 
-                # Skip if already a GitHub Pages feed (already processed)
+                # Check if already a GitHub Pages feed
                 if 'swelbyboy.github.io' in rss_feed:
-                    skipped_already_processed += 1
-                    continue
+                    # Extract filename and check if XML actually exists
+                    filename = rss_feed.split('/')[-1]
+                    xml_path = os.path.join('feeds', filename)
+                    
+                    if os.path.exists(xml_path):
+                        # XML exists - truly already processed
+                        skipped_already_processed += 1
+                        continue
+                    else:
+                        # XML missing! Look up original feed URL
+                        original_url = original_feeds.get(domain, '')
+                        if original_url:
+                            # Replace with original URL for regeneration
+                            p['rss_feed'] = original_url
+                            needs_regeneration += 1
+                            filtered_prospects.append(p)
+                        else:
+                            # No original URL found - can't regenerate
+                            skipped_no_feed += 1
+                        continue
                 
                 # This has an original RSS feed that needs transformation
                 filtered_prospects.append(p)
             
             print(f"✅ Skipping {skipped_no_feed} prospects with no RSS feed")
-            print(f"✅ Skipping {skipped_already_processed} prospects already processed")
+            print(f"✅ Skipping {skipped_already_processed} prospects already processed (XML exists)")
+            if needs_regeneration > 0:
+                print(f"🔄 Regenerating {needs_regeneration} feeds with missing XML files")
             print(f"📊 Found {len(filtered_prospects)} prospects with original RSS feeds to transform")
 
             return filtered_prospects
