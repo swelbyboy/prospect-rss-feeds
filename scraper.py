@@ -10,10 +10,24 @@ import os
 import sys
 import time
 from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
+import signal
 from config import Config
 from rss_generator import RSSFeedGenerator
 from github_publisher import GitHubPublisher
 from rss_transformer import RSSTransformer
+
+# Global for graceful shutdown
+should_exit = False
+
+def signal_handler(sig, frame):
+    """Handle Ctrl+C gracefully."""
+    global should_exit
+    print('\n\n⚠️  Interrupt received. Finishing current tasks and saving...')
+    should_exit = True
+
+signal.signal(signal.SIGINT, signal_handler)
 
 
 class ProspectScraper:
@@ -139,20 +153,14 @@ class ProspectScraper:
         Returns:
             tuple: (success: bool, articles: list, error_message: str)
         """
-        domain = prospect['domain']
-        company_name = prospect['company_name']
         rss_feed = prospect.get('rss_feed', '').strip()
-
-        print(f"\n🔍 Processing {company_name} ({domain})...")
 
         # Validate RSS feed is present and not a placeholder
         if not rss_feed or rss_feed == '-':
-            print(f"   ⚠️  No RSS feed available - skipping")
             return False, [], "No RSS feed available"
         
         # Skip if already processed (GitHub Pages feed)
         if 'swelbyboy.github.io' in rss_feed:
-            print(f"   ✅ Already processed - using GitHub Pages feed")
             # Still fetch to regenerate the feed
             success, articles, error = self.rss_transformer.fetch_and_normalize(
                 rss_feed,
@@ -174,7 +182,6 @@ class ProspectScraper:
                 return False, [], error
 
         # Process original RSS feed
-        print(f"   📡 Transforming original RSS feed: {rss_feed}")
         success, articles, error = self.rss_transformer.fetch_and_normalize(
             rss_feed,
             max_articles=Config.MAX_ARTICLES_PER_PROSPECT
@@ -191,10 +198,8 @@ class ProspectScraper:
                     'image_url': article.get('image_url'),
                     'published_date': article['pub_date']
                 })
-            print(f"   ✅ Successfully transformed {len(normalized_articles)} articles")
             return True, normalized_articles, None
         else:
-            print(f"   ❌ RSS transformation failed: {error}")
             return False, [], error
 
     # Firecrawl scraping methods removed - we only use RSS feeds now
@@ -351,9 +356,45 @@ class ProspectScraper:
                 if entry['status'] == 'failed':
                     print(f"   • {entry['company_name']}: {entry['error_message']}")
 
+    def process_prospect_parallel(self, prospect, index, total, print_lock):
+        """
+        Process a single prospect in parallel (thread-safe).
+        
+        Args:
+            prospect: Prospect dictionary
+            index: Current index for progress display
+            total: Total number of prospects
+            print_lock: Threading lock for print statements
+            
+        Returns:
+            dict: Tracking entry for this prospect
+        """
+        global should_exit
+        if should_exit:
+            return None
+            
+        company_name = prospect['company_name']
+        domain = prospect['domain']
+        
+        with print_lock:
+            print(f"\n[{index}/{total}] Processing {company_name} ({domain})...")
+        
+        # Process the prospect
+        tracking_entry = self.process_prospect(prospect)
+        
+        with print_lock:
+            if tracking_entry['status'] == 'success':
+                print(f"   ✅ {company_name}: {tracking_entry['articles_found']} articles → {tracking_entry['rss_url']}")
+            else:
+                print(f"   ❌ {company_name}: {tracking_entry['error_message']}")
+        
+        return tracking_entry
+
     def run(self):
-        """Execute the complete RSS feed transformation workflow."""
-        print("🚀 Starting RSS Feed Transformer")
+        """Execute the complete RSS feed transformation workflow with parallel processing."""
+        global should_exit
+        
+        print("🚀 Starting RSS Feed Transformer (Parallel Mode)")
         print("="*60)
 
         # Load prospects
@@ -363,10 +404,9 @@ class ProspectScraper:
             print("❌ No prospects to process")
             sys.exit(1)
 
-        # Batch processing configuration
-        batch_size = int(os.getenv('BATCH_SIZE', '0'))  # 0 = process all
+        # Configuration
         max_prospects = int(os.getenv('MAX_PROSPECTS', '0'))  # 0 = no limit
-        delay_between_prospects = int(os.getenv('DELAY_BETWEEN_PROSPECTS', '30'))
+        num_workers = int(os.getenv('PARALLEL_WORKERS', '10'))  # Default 10 parallel workers
         
         # Apply max_prospects limit if set
         if max_prospects > 0 and len(prospects) > max_prospects:
@@ -374,35 +414,59 @@ class ProspectScraper:
             prospects = prospects[:max_prospects]
         
         total_prospects = len(prospects)
-        print(f"📊 Processing {total_prospects} prospect(s)")
+        print(f"📊 Processing {total_prospects} prospect(s) with {num_workers} parallel workers")
+        print(f"⚡ No delays needed - RSS feeds are lightweight!\n")
         
-        if batch_size > 0:
-            print(f"📦 Using batch processing: {batch_size} prospects per batch")
-            num_batches = (total_prospects + batch_size - 1) // batch_size
-            print(f"   Will process in {num_batches} batch(es)")
+        # Thread-safe locks
+        print_lock = Lock()
+        data_lock = Lock()
         
-        # Process each prospect
-        for i, prospect in enumerate(prospects, 1):
-            batch_num = ((i - 1) // batch_size) + 1 if batch_size > 0 else 1
+        # Track progress
+        start_time = time.time()
+        completed_count = 0
+        
+        # Process prospects in parallel
+        with ThreadPoolExecutor(max_workers=num_workers) as executor:
+            # Submit all tasks
+            future_to_prospect = {
+                executor.submit(
+                    self.process_prospect_parallel, 
+                    prospect, 
+                    i, 
+                    total_prospects, 
+                    print_lock
+                ): prospect
+                for i, prospect in enumerate(prospects, 1)
+            }
             
-            if batch_size > 0 and i > 1 and (i - 1) % batch_size == 0:
-                print(f"\n{'='*60}")
-                print(f"📦 Batch {batch_num - 1} completed. Taking a longer break before next batch...")
-                print(f"{'='*60}")
-                time.sleep(60)  # Longer delay between batches
-            
-            print(f"\n[{i}/{total_prospects}] Processing {prospect['company_name']}...")
-            if batch_size > 0:
-                print(f"   (Batch {batch_num}/{num_batches})")
-            
-            tracking_entry = self.process_prospect(prospect)
-            self.tracking_data.append(tracking_entry)
+            # Process completed tasks
+            for future in as_completed(future_to_prospect):
+                if should_exit:
+                    print("\n⚠️  Shutting down gracefully...")
+                    executor.shutdown(wait=False)
+                    break
+                    
+                try:
+                    tracking_entry = future.result()
+                    if tracking_entry:
+                        with data_lock:
+                            self.tracking_data.append(tracking_entry)
+                            completed_count += 1
+                        
+                        # Progress update every 50 prospects
+                        if completed_count % 50 == 0:
+                            elapsed = time.time() - start_time
+                            rate = completed_count / elapsed if elapsed > 0 else 0
+                            successful = sum(1 for e in self.tracking_data if e['status'] == 'success')
+                            with print_lock:
+                                print(f"\n   📊 Progress: {completed_count}/{total_prospects} | ✅ {successful} successful | ⚡ {rate:.1f}/sec\n")
+                                
+                except Exception as e:
+                    with print_lock:
+                        print(f"   ❌ Error: {e}")
 
-            # Be nice to servers and respect Firecrawl rate limits
-            if i < total_prospects:
-                print(f"   ⏳ Waiting {delay_between_prospects}s before next prospect...")
-                time.sleep(delay_between_prospects)
-
+        elapsed_time = time.time() - start_time
+        
         # Save tracking data
         self.save_tracking()
         
@@ -411,6 +475,10 @@ class ProspectScraper:
 
         # Print summary
         self.print_summary()
+        
+        print(f"\n⏱️  Total time: {elapsed_time/60:.1f} minutes ({elapsed_time:.0f} seconds)")
+        if elapsed_time > 0:
+            print(f"⚡ Rate: {len(self.tracking_data)/elapsed_time:.1f} prospects/second")
 
         # Publish to GitHub Pages (skip if running in CI)
         is_ci = os.getenv('GITHUB_CI') == 'true'
