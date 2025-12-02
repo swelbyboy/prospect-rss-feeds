@@ -300,8 +300,36 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add outreach_progress_tracker.csv tracking.csv current_feeds.txt index.html *.xml || true
+          git add outreach_progress_tracker.csv tracking.csv current_feeds.txt index.html feeds/*.xml || true
           git diff --quiet && git diff --staged --quiet || \
             (git commit -m "Update scraping results - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" && \
              git pull --rebase origin main && \
              git push)
+
+      - name: Deploy feeds to GitHub Pages
+        run: |
+          # Copy XML feeds to root level for GitHub Pages serving
+          echo "📤 Deploying feeds to GitHub Pages..."
+          
+          # Count feeds to deploy
+          feed_count=$(ls feeds/*.xml 2>/dev/null | wc -l)
+          echo "   Found $feed_count feeds to deploy"
+          
+          if [ "$feed_count" -gt 0 ]; then
+            # Copy feeds to root (GitHub Pages serves from root)
+            cp feeds/*.xml . || true
+            
+            # Create .nojekyll to disable Jekyll processing
+            touch .nojekyll
+            
+            # Add and commit
+            git add *.xml .nojekyll || true
+            git diff --staged --quiet || \
+              (git commit -m "Deploy feeds to GitHub Pages - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" && \
+               git pull --rebase origin main && \
+               git push)
+            
+            echo "✅ Feeds deployed to GitHub Pages"
+          else
+            echo "⚠️  No feeds to deploy"
+          fi
