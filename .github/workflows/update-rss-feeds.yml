@@ -62,17 +62,16 @@ jobs:
           print(f"⚙️  Parallel workers: {NUM_WORKERS}")
 
           # Read prospects.csv
-          prospects_with_rss = []
+          all_prospects = []
           with open('prospects.csv', 'r', encoding='utf-8') as f:
               reader = csv.DictReader(f)
               for row in reader:
                   if row.get('rss_feed', '').strip():
-                      prospects_with_rss.append(row)
+                      all_prospects.append(row)
 
-          # Apply batch limit
-          total_prospects = len(prospects_with_rss)
-          prospects_with_rss = prospects_with_rss[:BATCH_SIZE]
-          print(f"📋 Processing {len(prospects_with_rss)} of {total_prospects} total prospects\n")
+          total_prospects = len(all_prospects)
+          print(f"📋 Found {total_prospects} total prospects with RSS feeds")
+          print(f"📦 Processing in batches of {BATCH_SIZE}\n")
 
           # Shared resources
           transformer = RSSTransformer()
@@ -82,11 +81,31 @@ jobs:
           generator = RSSFeedGenerator()
           base_url = Config.get_rss_base_url()
 
-          tracking_data = []
-          tracking_lock = Lock()
-          print_lock = Lock()
-          successful = 0
-          failed = 0
+          all_tracking_data = []
+          overall_successful = 0
+          overall_failed = 0
+
+          # Process all prospects in batches
+          import time
+          overall_start = time.time()
+
+          num_batches = (total_prospects + BATCH_SIZE - 1) // BATCH_SIZE
+          for batch_num in range(num_batches):
+              start_idx = batch_num * BATCH_SIZE
+              end_idx = min(start_idx + BATCH_SIZE, total_prospects)
+              batch_prospects = all_prospects[start_idx:end_idx]
+
+              print(f"\n{'='*80}")
+              print(f"📦 BATCH {batch_num + 1}/{num_batches}: Processing prospects {start_idx + 1}-{end_idx}")
+              print(f"{'='*80}\n")
+
+              tracking_data = []
+              tracking_lock = Lock()
+              print_lock = Lock()
+              successful = 0
+              failed = 0
+
+              batch_start = time.time()
 
           def process_prospect(prospect, index, total):
               """Process a single prospect (thread-safe)."""
@@ -173,28 +192,50 @@ jobs:
                       'data_source': 'N/A'
                   }
 
-          # Process in parallel
-          with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
-              futures = {
-                  executor.submit(process_prospect, prospect, i, len(prospects_with_rss)): prospect
-                  for i, prospect in enumerate(prospects_with_rss, 1)
-              }
+              # Process batch in parallel
+              with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
+                  futures = {
+                      executor.submit(process_prospect, prospect, start_idx + i, total_prospects): prospect
+                      for i, prospect in enumerate(batch_prospects, 1)
+                  }
 
-              for future in as_completed(futures):
-                  result = future.result()
-                  with tracking_lock:
-                      tracking_data.append(result)
-                      if result['status'] == 'success':
-                          successful += 1
-                      else:
-                          failed += 1
+                  for future in as_completed(futures):
+                      result = future.result()
+                      with tracking_lock:
+                          tracking_data.append(result)
+                          if result['status'] == 'success':
+                              successful += 1
+                          else:
+                              failed += 1
+
+              batch_elapsed = time.time() - batch_start
+
+              # Add batch results to overall tracking
+              all_tracking_data.extend(tracking_data)
+              overall_successful += successful
+              overall_failed += failed
+
+              print(f"\n{'='*80}")
+              print(f"📊 BATCH {batch_num + 1} SUMMARY")
+              print(f"{'='*80}")
+              print(f"Batch prospects processed: {len(tracking_data)}")
+              print(f"✅ Successful: {successful}")
+              print(f"❌ Failed: {failed}")
+              print(f"⏱️  Batch time: {batch_elapsed:.1f}s")
+              print(f"⚡ Rate: {len(tracking_data)/batch_elapsed:.2f} prospects/sec")
+              print(f"{'='*80}")
+
+          # End of batch loop - print overall summary
+          overall_elapsed = time.time() - overall_start
 
           print("\n" + "=" * 80)
-          print("📊 PROCESSING SUMMARY")
+          print("📊 OVERALL PROCESSING SUMMARY")
           print("=" * 80)
-          print(f"Total prospects processed: {len(tracking_data)}")
-          print(f"✅ Successful: {successful}")
-          print(f"❌ Failed: {failed}")
+          print(f"Total prospects processed: {len(all_tracking_data)}")
+          print(f"✅ Successful: {overall_successful}")
+          print(f"❌ Failed: {overall_failed}")
+          print(f"⏱️  Total time: {overall_elapsed/60:.1f} minutes ({overall_elapsed:.0f} seconds)")
+          print(f"⚡ Average rate: {len(all_tracking_data)/overall_elapsed:.2f} prospects/sec")
           print("=" * 80)
 
           # Write tracking.csv
@@ -202,9 +243,9 @@ jobs:
               fieldnames = ['prospect_id', 'company_name', 'domain', 'last_scrape_date', 'status', 'articles_found', 'rss_url', 'error_message', 'data_source']
               writer = csv.DictWriter(f, fieldnames=fieldnames)
               writer.writeheader()
-              writer.writerows(tracking_data)
+              writer.writerows(all_tracking_data)
 
-          print(f"\n✅ Updated tracking.csv with {len(tracking_data)} entries")
+          print(f"\n✅ Updated tracking.csv with {len(all_tracking_data)} entries")
           EOF
 
       - name: Commit updated feeds and tracking
