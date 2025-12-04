@@ -33,20 +33,33 @@ jobs:
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
 
-      - name: Update RSS feeds with OG data priority
+      - name: Update RSS feeds with batch processing
         env:
           GITHUB_CI: 'true'
+          BATCH_SIZE: '500'  # Process 500 prospects per run
+          SKIP_OG_DATA: 'true'  # Skip OG data fetching for faster updates
         run: |
           python3 << 'EOF'
           import csv
           import os
           from datetime import datetime
+          from concurrent.futures import ThreadPoolExecutor, as_completed
+          from threading import Lock
           from rss_transformer import RSSTransformer
           from rss_generator import RSSFeedGenerator
           from config import Config
 
-          print("🚀 Starting RSS Feed Update with OG Data Priority")
+          print("🚀 Starting RSS Feed Update (Batched & Parallel)")
           print("=" * 80)
+
+          # Configuration
+          BATCH_SIZE = int(os.getenv('BATCH_SIZE', '500'))
+          SKIP_OG_DATA = os.getenv('SKIP_OG_DATA', 'true').lower() == 'true'
+          NUM_WORKERS = 20  # Parallel workers
+
+          print(f"⚙️  Batch size: {BATCH_SIZE}")
+          print(f"⚙️  Skip OG data: {SKIP_OG_DATA}")
+          print(f"⚙️  Parallel workers: {NUM_WORKERS}")
 
           # Read prospects.csv
           prospects_with_rss = []
@@ -56,76 +69,84 @@ jobs:
                   if row.get('rss_feed', '').strip():
                       prospects_with_rss.append(row)
 
-          print(f"📋 Found {len(prospects_with_rss)} prospects with RSS feeds\n")
+          # Apply batch limit
+          total_prospects = len(prospects_with_rss)
+          prospects_with_rss = prospects_with_rss[:BATCH_SIZE]
+          print(f"📋 Processing {len(prospects_with_rss)} of {total_prospects} total prospects\n")
 
+          # Shared resources
           transformer = RSSTransformer()
+          if SKIP_OG_DATA:
+              transformer._skip_og_data = True  # Flag to skip OG data
+
           generator = RSSFeedGenerator()
           base_url = Config.get_rss_base_url()
 
           tracking_data = []
+          tracking_lock = Lock()
+          print_lock = Lock()
           successful = 0
           failed = 0
 
-          for i, prospect in enumerate(prospects_with_rss, 1):
+          def process_prospect(prospect, index, total):
+              """Process a single prospect (thread-safe)."""
               company_name = prospect.get('company_name', 'Unknown')
               domain = prospect.get('domain', '')
               rss_feed = prospect.get('rss_feed', '').strip()
               prospect_id = prospect.get('id', '')
 
-              print(f"[{i}/{len(prospects_with_rss)}] {company_name}...")
-
-              # Fetch and normalize
-              success, articles, error = transformer.fetch_and_normalize(rss_feed, max_articles=10)
-
-              if not success:
-                  print(f"   ❌ Failed: {error}")
-                  failed += 1
-                  tracking_data.append({
-                      'prospect_id': prospect_id,
-                      'company_name': company_name,
-                      'domain': domain,
-                      'last_scrape_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
-                      'status': 'failed',
-                      'articles_found': '0',
-                      'rss_url': '',
-                      'error_message': error,
-                      'data_source': 'N/A'
-                  })
-                  continue
-
-              # Determine data source
-              og_count = sum(1 for a in articles if a.get('data_source') == 'OG')
-              rss_count = len(articles) - og_count
-
-              if og_count > 0 and rss_count > 0:
-                  data_source = f"OG ({og_count}), RSS ({rss_count})"
-              elif og_count > 0:
-                  data_source = "OG"
-              else:
-                  data_source = "RSS"
-
-              print(f"   ✅ {len(articles)} articles | Data: {data_source}")
-
-              # Generate feed
-              normalized_articles = [{
-                  'link': a['link'],
-                  'title': a['title'],
-                  'description': a['description'],
-                  'image_url': a.get('image_url'),
-                  'published_date': a['pub_date']
-              } for a in articles]
-
-              prospect_data = {
-                  'id': prospect_id,
-                  'company_name': company_name,
-                  'domain': domain
-              }
-
               try:
+                  # Fetch and normalize
+                  success, articles, error = transformer.fetch_and_normalize(rss_feed, max_articles=10)
+
+                  if not success:
+                      with print_lock:
+                          print(f"[{index}/{total}] ❌ {company_name}: {error}")
+                      return {
+                          'prospect_id': prospect_id,
+                          'company_name': company_name,
+                          'domain': domain,
+                          'last_scrape_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                          'status': 'failed',
+                          'articles_found': '0',
+                          'rss_url': '',
+                          'error_message': error,
+                          'data_source': 'N/A'
+                      }
+
+                  # Determine data source
+                  og_count = sum(1 for a in articles if a.get('data_source') == 'OG')
+                  rss_count = len(articles) - og_count
+
+                  if og_count > 0 and rss_count > 0:
+                      data_source = f"OG ({og_count}), RSS ({rss_count})"
+                  elif og_count > 0:
+                      data_source = "OG"
+                  else:
+                      data_source = "RSS"
+
+                  # Generate feed
+                  normalized_articles = [{
+                      'link': a['link'],
+                      'title': a['title'],
+                      'description': a['description'],
+                      'image_url': a.get('image_url'),
+                      'published_date': a['pub_date']
+                  } for a in articles]
+
+                  prospect_data = {
+                      'id': prospect_id,
+                      'company_name': company_name,
+                      'domain': domain
+                  }
+
                   feed_path = generator.create_feed(prospect_data, normalized_articles)
                   feed_filename = os.path.basename(feed_path)
 
-                  tracking_data.append({
+                  with print_lock:
+                      print(f"[{index}/{total}] ✅ {company_name}: {len(articles)} articles")
+
+                  return {
                       'prospect_id': prospect_id,
                       'company_name': company_name,
                       'domain': domain,
@@ -135,12 +156,12 @@ jobs:
                       'rss_url': f"{base_url}/{feed_filename}",
                       'error_message': '',
                       'data_source': data_source
-                  })
-                  successful += 1
+                  }
+
               except Exception as e:
-                  print(f"   ❌ Error generating feed: {e}")
-                  failed += 1
-                  tracking_data.append({
+                  with print_lock:
+                      print(f"[{index}/{total}] ❌ {company_name}: {str(e)}")
+                  return {
                       'prospect_id': prospect_id,
                       'company_name': company_name,
                       'domain': domain,
@@ -150,12 +171,28 @@ jobs:
                       'rss_url': '',
                       'error_message': str(e),
                       'data_source': 'N/A'
-                  })
+                  }
+
+          # Process in parallel
+          with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
+              futures = {
+                  executor.submit(process_prospect, prospect, i, len(prospects_with_rss)): prospect
+                  for i, prospect in enumerate(prospects_with_rss, 1)
+              }
+
+              for future in as_completed(futures):
+                  result = future.result()
+                  with tracking_lock:
+                      tracking_data.append(result)
+                      if result['status'] == 'success':
+                          successful += 1
+                      else:
+                          failed += 1
 
           print("\n" + "=" * 80)
           print("📊 PROCESSING SUMMARY")
           print("=" * 80)
-          print(f"Total prospects: {len(prospects_with_rss)}")
+          print(f"Total prospects processed: {len(tracking_data)}")
           print(f"✅ Successful: {successful}")
           print(f"❌ Failed: {failed}")
           print("=" * 80)

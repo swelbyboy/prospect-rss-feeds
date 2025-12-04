@@ -24,6 +24,7 @@ class RSSTransformer:
             'User-Agent': 'Mozilla/5.0 (compatible; RSSTransformer/1.0)'
         })
         self._og_data_cache = {}  # Cache OG data lookups to avoid redundant requests
+        self._skip_og_data = False  # Flag to skip OG data fetching for faster updates
 
     def fetch_feed(self, feed_url, max_articles=10):
         """
@@ -172,6 +173,10 @@ class RSSTransformer:
         Returns:
             dict: Dictionary with 'title', 'description', 'image' or None if failed
         """
+        # Skip OG data fetching if flag is set (for faster updates)
+        if self._skip_og_data:
+            return None
+
         # Check cache first
         if url in self._og_data_cache:
             return self._og_data_cache[url]
