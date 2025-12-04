@@ -8,48 +8,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Dec 2025 14:29:04 +0000</lastBuildDate>
-    <item>
-      <title>The Course That Helped Me Finally Understand—and Build—AI Agents</title>
-      <link>https://dev.to/n_f_j/the-course-that-helped-me-finally-understand-and-build-ai-agents-3ogh</link>
-      <description>This is a submission for the Google AI Agents Writing Challenge: Learning Reflections Coming from a business analyst background and only recently starting to learn Python, the AI Agents Intensive course has been a truly transformative experience for me. Before starting, I often felt unsure about how the technical components fit together when building an AI-powered application. This course provided a clear structure and broke down the agent-building process into logical, manageable steps. It help</description>
-      <guid isPermaLink="false">https://dev.to/n_f_j/the-course-that-helped-me-finally-understand-and-build-ai-agents-3ogh</guid>
-      <pubDate>Thu, 04 Dec 2025 14:00:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI innovation drives healthcare, chip markets, and platform development across tech giants.</title>
-      <link>https://dev.to/stelixx-insights/ai-innovation-drives-healthcare-chip-markets-and-platform-development-across-tech-giants-1bd3</link>
-      <description>AI's Pervasive Influence: Deep Dive into Health, Market Dynamics, and Platform Development This post explores the multifaceted impact of Artificial Intelligence across various sectors, delving into significant recent developments: Healthcare &amp;amp; Personalization: We examine the potential for AI to revolutionize personal health management, citing Google's exploration of Apple Health integration with ChatGPT. Furthermore, Philips' advancements in AI-powered medical imaging systems highlight the criti</description>
-      <guid isPermaLink="false">https://dev.to/stelixx-insights/ai-innovation-drives-healthcare-chip-markets-and-platform-development-across-tech-giants-1bd3</guid>
-      <pubDate>Thu, 04 Dec 2025 14:00:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>What I Learned From the 5-Day Google &amp;amp; Kaggle AI Agents Intensive</title>
-      <link>https://dev.to/seyedattaabedi/what-i-learned-from-the-5-day-google-kaggle-ai-agents-intensive-4po3</link>
-      <description>Introduction Participating in the 5-Day AI Agents Intensive Course by Google and Kaggle was one of the most transformative learning experiences I’ve had in the field of AI. Although the program was short, it was dense, hands-on, and focused on the future of intelligent systems: AI agents. Coming into the course, I had experience with machine learning and deep learning, but the concept of agentic systems—systems that sense, plan, act, and interact autonomously—was still relatively new. By the end</description>
-      <guid isPermaLink="false">https://dev.to/seyedattaabedi/what-i-learned-from-the-5-day-google-kaggle-ai-agents-intensive-4po3</guid>
-      <pubDate>Thu, 04 Dec 2025 14:00:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>TDD + React Testing Pipeline — A Simple Example for Beginners</title>
-      <link>https://dev.to/sheikhlimon/tdd-react-testing-pipeline-a-simple-example-for-beginners-17n9</link>
-      <description>Yesterday I shared how to set up a modern testing environment using Vitest + React Testing Library. Today — here’s what that setup looks like in action. Let’s walk through the classic Red → Green → Refactor TDD loop using a simple “Add Task” feature 🟥 Step 1: Write a Failing Test (Red) Before writing any UI, you define what the user should be able to do. In App.test.tsx: import { render, screen } from "@testing-library/react"; import userEvent from "@testing-library/user-event"; import "@testing</description>
-      <guid isPermaLink="false">https://dev.to/sheikhlimon/tdd-react-testing-pipeline-a-simple-example-for-beginners-17n9</guid>
-      <pubDate>Thu, 04 Dec 2025 14:00:59 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 04 Dec 2025 14:49:13 +0000</lastBuildDate>
     <item>
       <title>30 Years of JavaScript: The Complete Evolution Guide</title>
       <link>https://dev.to/gochev/30-years-of-javascript-the-complete-evolution-guide-haa</link>
       <description>30 Years of JavaScript: The Complete Evolution Guide December 4, 2025 - A comprehensive guide for developers to JavaScript and learning its complete history. Table of Contents The Beginning: JavaScript 1.0 - 1.5 (1995-2000) The Dark Ages: Browser Wars &amp;amp; Stagnation (2000-2005) The AJAX Revolution (2005-2009) The Modern Era Begins: ES5 &amp;amp; Node.js (2009-2015) The Renaissance: ES6/ES2015 (2015) Annual Releases: ES2016-ES2025 TypeScript Evolution (2012-2025) Server-Side JavaScript: Node.js &amp;amp; Beyond Fr</description>
       <guid isPermaLink="false">https://dev.to/gochev/30-years-of-javascript-the-complete-evolution-guide-haa</guid>
       <pubDate>Thu, 04 Dec 2025 14:01:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Jeff Su: Give Me 9 Minutes, I'll Make You AI-Native</title>
-      <link>https://dev.to/future_ai/jeff-su-give-me-9-minutes-ill-make-you-ai-native-28ee</link>
-      <description>Give Me 9 Minutes, I’ll Make You AI-Native In under 10 minutes you’ll learn three game-changing habits—dropping AI breadcrumbs, building an AI swipe file, planning projects AI-first—and a bonus habit to keep your prompts library alive. By weaving ChatGPT, Gemini and Claude into your workflow, you’ll save time, boost quality and never rebuild the same work from scratch. Each tip comes with its own timestamp for quick access, plus links to an AI systems course, essential prompt packs, a Notion com</description>
-      <guid isPermaLink="false">https://dev.to/future_ai/jeff-su-give-me-9-minutes-ill-make-you-ai-native-28ee</guid>
-      <pubDate>Thu, 04 Dec 2025 14:04:19 +0000</pubDate>
     </item>
     <item>
       <title>Memory Leaks in Modern JS: A Deep Dive into Closures and Garbage Collection</title>
@@ -59,13 +24,6 @@
       <pubDate>Thu, 04 Dec 2025 14:05:03 +0000</pubDate>
     </item>
     <item>
-      <title>All vector DBs claim "long-term memory," but how long is lon</title>
-      <link>https://dev.to/nullure_ef11832f4ce3b466a/all-vector-dbs-claim-long-term-memory-but-how-long-is-lon-3nnm</link>
-      <description>All vector DBs claim "long-term memory," but how long is long? Zep, Mem0, Supermemory... mostly hype. OpenMemory is the only open-source option: self-hosted, local-first. github.com/CaviraOSS/OpenMemory #AIagents #OpenSource #AI</description>
-      <guid isPermaLink="false">https://dev.to/nullure_ef11832f4ce3b466a/all-vector-dbs-claim-long-term-memory-but-how-long-is-lon-3nnm</guid>
-      <pubDate>Thu, 04 Dec 2025 14:06:16 +0000</pubDate>
-    </item>
-    <item>
       <title>Physics in the Browser: How I Built a Beam Stress Visualizer with React &amp;amp; Three.js</title>
       <link>https://dev.to/yogavigneshengineer/physics-in-the-browser-how-i-built-a-beam-stress-visualizer-with-react-threejs-nem</link>
       <description>"You're a mechanical engineer? Why are you coding*?"* I get asked this in every interview. The assumption is always that engineering and web development are opposites. One deals with steel and forces; the other deals with DOM nodes and pixels. I disagree. To me, a React component is just a machine with inputs (props) and outputs (UI). So when I built my portfolio (yogavignesh.me), I didn't want a static "About Me" page. I wanted to prove that the web can handle real engineering physics. I built</description>
@@ -73,11 +31,54 @@
       <pubDate>Thu, 04 Dec 2025 14:06:30 +0000</pubDate>
     </item>
     <item>
-      <title>Launch My Product TemplateFame.com !</title>
-      <link>https://dev.to/hyhor/launch-my-product-templatefamecom--233h</link>
-      <description>TemplateFame.com is a platform designed to help creators, developers, and startups discover high-quality templates for various purposes. It serves as a curated directory, offering a wide range of templates to accelerate the building and launching process. Key Features: Curated Directory: TemplateFame focuses on providing a selection of handpicked, high-quality templates, ensuring users have access to reliable and well-designed resources. Diverse Categories: The platform categorizes templates int</description>
-      <guid isPermaLink="false">https://dev.to/hyhor/launch-my-product-templatefamecom--233h</guid>
-      <pubDate>Thu, 04 Dec 2025 14:09:58 +0000</pubDate>
+      <title>What the Kaggle AI Agents Intensive Course with Google Taught Me While Building LexFabric Agents</title>
+      <link>https://dev.to/revelles/what-the-kaggle-ai-agents-intensive-course-with-google-taught-me-while-building-lexfabric-agents-23m7</link>
+      <description>Hi everyone! 👋 I’m Francisco, a computer scientist working on production-grade AI systems. I recently completed the Google + Kaggle AI Agents Intensive and built LexFabric Agents, a deterministic multi-agent pipeline that pairs LLM extraction with Python-based reasoning for accurate timeline reconstruction. I’m here to share what I’m learning about multi-agent architectures, context engineering, and reproducible AI workflows — and to learn from this community as well. When I enrolled in the Kagg</description>
+      <guid isPermaLink="false">https://dev.to/revelles/what-the-kaggle-ai-agents-intensive-course-with-google-taught-me-while-building-lexfabric-agents-23m7</guid>
+      <pubDate>Thu, 04 Dec 2025 14:12:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Letter Counter: Because Sometimes You Just Need to Know *Exactly* How Many Characters You're Dealing With ✏️🔢</title>
+      <link>https://dev.to/akashbijwe/letter-counter-because-sometimes-you-just-need-to-know-exactly-how-many-characters-youre-2al0</link>
+      <description>Let’s be honest — as developers, we count a LOT of things. Lines of code. API requests. Errors in production (too many). Times we said “I’ll fix this tomorrow.” But sometimes… you just need to count something far simpler: letters. Maybe you’re writing a tweet, trimming user input, validating form fields, or trying to fit a snarky commit message into a strict character limit. That’s where the Letter Counter comes in: 👉 https://www.devutilx.com/tools/letters-counter Paste text → instantly see how</description>
+      <guid isPermaLink="false">https://dev.to/akashbijwe/letter-counter-because-sometimes-you-just-need-to-know-exactly-how-many-characters-youre-2al0</guid>
+      <pubDate>Thu, 04 Dec 2025 14:16:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Curiosity to Confidence: My Learning Journey in the Google AI Agents Intensive</title>
+      <link>https://dev.to/23501a4212_boyapatinissi/from-curiosity-to-confidence-my-learning-journey-in-the-google-ai-agents-intensive-3o20</link>
+      <description>This is a submission for the Google AI Agents Writing Challenge: Learning Reflections 🚀 Introduction When I signed up for the 5-Day AI Agents Intensive Course with Google and Kaggle, I knew I was entering the next chapter in AI development—one where models don’t just respond, but act, reason, and collaborate as autonomous systems. Over the past few days, I went from being curious about agentic workflows to actually building one myself. This intensive wasn’t just content—it was architecture, hand</description>
+      <guid isPermaLink="false">https://dev.to/23501a4212_boyapatinissi/from-curiosity-to-confidence-my-learning-journey-in-the-google-ai-agents-intensive-3o20</guid>
+      <pubDate>Thu, 04 Dec 2025 14:24:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to build an engine for AI Code Review - Part 1</title>
+      <link>https://dev.to/kodus/how-to-build-an-engine-for-ai-code-review-part-1-cfl</link>
+      <description>Introduction This post is for you if you want to build an internal code review tool for your team and don’t know where to start. Or if you’re just curious and want to understand how a tool like this works behind the scenes. I’m going to open up how Kody, our open source code review agent, works and explain everything we did to go from a 1% implementation rate to 70%, and process millions of lines of code. Does AI Code Review make sense? Ok, you already know that writing code basically became gen</description>
+      <guid isPermaLink="false">https://dev.to/kodus/how-to-build-an-engine-for-ai-code-review-part-1-cfl</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fkodus.io%2Fwp-content%2Fuploads%2F2025%2F12%2Fgenerate_vs_review.png" length="0" type="image/png"/>
+      <pubDate>Thu, 04 Dec 2025 14:26:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Analyzing News Sentiment with VADER</title>
+      <link>https://dev.to/hasdata_com/analyzing-news-sentiment-with-vader-2if2</link>
+      <description>In this tutorial, we'll walk through how to analyze the sentiment of news headlines using VADER — a fast and effective sentiment analysis model designed for social media text, which works well for news headlines too. We will: Collect news data using HasData's Google News API. Use VADER to analyze the sentiment of each article's headline and snippet. Classify articles into positive, neutral, and negative categories. Save the results in a structured JSON format. Table of Contents Introduction Setu</description>
+      <guid isPermaLink="false">https://dev.to/hasdata_com/analyzing-news-sentiment-with-vader-2if2</guid>
+      <pubDate>Thu, 04 Dec 2025 14:37:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why you should always optimize for mobile</title>
+      <link>https://dev.to/egledigital/why-you-should-always-optimize-for-mobile-1072</link>
+      <description>Desktop-first thinking kills modern websites. While designers craft beautiful wide-screen experiences, over 60% of web traffic comes from phones. That percentage only grows, yet businesses still treat mobile as an afterthought. Mobile users have different intentions than desktop users. They're often on-the-go, seeking quick information or making snap decisions. They won't navigate complex menus or read walls of text. Mobile optimization isn't just about smaller screens – it's about different beh</description>
+      <guid isPermaLink="false">https://dev.to/egledigital/why-you-should-always-optimize-for-mobile-1072</guid>
+      <pubDate>Thu, 04 Dec 2025 14:39:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>!!!!!! Critical React2Shell Vulnerability Exposes Millions of Web Apps to Remote Takeover !!!!!!</title>
+      <link>https://dev.to/kpcofgs/-critical-react2shell-vulnerability-exposes-millions-of-web-apps-to-remote-takeover--408l</link>
+      <description>A security vulnerability with a critical CVSS score of 10.0, now widely known as "React2Shell," is threatening a substantial portion of the modern web. Tracked as CVE-2025-55182 in React and CVE-2025-66478 in Next.js, this flaw allows unauthenticated attackers to execute arbitrary code on servers running vulnerable applications. It is potentially affecting 82% of developers who use React, this is one of the most severe vulnerabilities ever disclosed in the JavaScript ecosystem. Understanding the</description>
+      <guid isPermaLink="false">https://dev.to/kpcofgs/-critical-react2shell-vulnerability-exposes-millions-of-web-apps-to-remote-takeover--408l</guid>
+      <pubDate>Thu, 04 Dec 2025 14:40:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
