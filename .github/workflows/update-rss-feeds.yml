@@ -89,25 +89,7 @@ jobs:
           import time
           overall_start = time.time()
 
-          num_batches = (total_prospects + BATCH_SIZE - 1) // BATCH_SIZE
-          for batch_num in range(num_batches):
-              start_idx = batch_num * BATCH_SIZE
-              end_idx = min(start_idx + BATCH_SIZE, total_prospects)
-              batch_prospects = all_prospects[start_idx:end_idx]
-
-              print(f"\n{'='*80}")
-              print(f"📦 BATCH {batch_num + 1}/{num_batches}: Processing prospects {start_idx + 1}-{end_idx}")
-              print(f"{'='*80}\n")
-
-              tracking_data = []
-              tracking_lock = Lock()
-              print_lock = Lock()
-              successful = 0
-              failed = 0
-
-              batch_start = time.time()
-
-          def process_prospect(prospect, index, total):
+          def process_prospect(prospect, index, total, transformer, generator, base_url, print_lock):
               """Process a single prospect (thread-safe)."""
               company_name = prospect.get('company_name', 'Unknown')
               domain = prospect.get('domain', '')
@@ -192,10 +174,28 @@ jobs:
                       'data_source': 'N/A'
                   }
 
+          num_batches = (total_prospects + BATCH_SIZE - 1) // BATCH_SIZE
+          for batch_num in range(num_batches):
+              start_idx = batch_num * BATCH_SIZE
+              end_idx = min(start_idx + BATCH_SIZE, total_prospects)
+              batch_prospects = all_prospects[start_idx:end_idx]
+
+              print(f"\n{'='*80}")
+              print(f"📦 BATCH {batch_num + 1}/{num_batches}: Processing prospects {start_idx + 1}-{end_idx}")
+              print(f"{'='*80}\n")
+
+              tracking_data = []
+              tracking_lock = Lock()
+              print_lock = Lock()
+              successful = 0
+              failed = 0
+
+              batch_start = time.time()
+
               # Process batch in parallel
               with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
                   futures = {
-                      executor.submit(process_prospect, prospect, start_idx + i, total_prospects): prospect
+                      executor.submit(process_prospect, prospect, start_idx + i, total_prospects, transformer, generator, base_url, print_lock): prospect
                       for i, prospect in enumerate(batch_prospects, 1)
                   }
 
