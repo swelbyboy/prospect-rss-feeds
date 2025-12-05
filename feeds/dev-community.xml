@@ -8,77 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Dec 2025 14:49:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Dec 2025 06:36:09 +0000</lastBuildDate>
     <item>
-      <title>30 Years of JavaScript: The Complete Evolution Guide</title>
-      <link>https://dev.to/gochev/30-years-of-javascript-the-complete-evolution-guide-haa</link>
-      <description>30 Years of JavaScript: The Complete Evolution Guide December 4, 2025 - A comprehensive guide for developers to JavaScript and learning its complete history. Table of Contents The Beginning: JavaScript 1.0 - 1.5 (1995-2000) The Dark Ages: Browser Wars &amp;amp; Stagnation (2000-2005) The AJAX Revolution (2005-2009) The Modern Era Begins: ES5 &amp;amp; Node.js (2009-2015) The Renaissance: ES6/ES2015 (2015) Annual Releases: ES2016-ES2025 TypeScript Evolution (2012-2025) Server-Side JavaScript: Node.js &amp;amp; Beyond Fr</description>
-      <guid isPermaLink="false">https://dev.to/gochev/30-years-of-javascript-the-complete-evolution-guide-haa</guid>
-      <pubDate>Thu, 04 Dec 2025 14:01:35 +0000</pubDate>
+      <title>Building AI-Enhanced Tuya IoT Products: Architecture, Patterns &amp;amp; Real Use Cases</title>
+      <link>https://dev.to/zediot/building-ai-enhanced-tuya-iot-products-architecture-patterns-real-use-cases-ej9</link>
+      <description>Tuya is one of the fastest ways to launch IoT hardware — but the next stage of the ecosystem is evolving fast. With AI becoming increasingly accessible, more developers are looking to layer automation, prediction, and context-aware logic on top of existing Tuya devices. In this post I’ll walk through how you can integrate: Tuya Cloud API Tuya App SDK AI workflow engines or decision logic Device data (sensors, user events, usage stats) …into a scalable system that delivers smart, context-aware be</description>
+      <guid isPermaLink="false">https://dev.to/zediot/building-ai-enhanced-tuya-iot-products-architecture-patterns-real-use-cases-ej9</guid>
+      <pubDate>Fri, 05 Dec 2025 06:08:10 +0000</pubDate>
     </item>
     <item>
-      <title>Memory Leaks in Modern JS: A Deep Dive into Closures and Garbage Collection</title>
-      <link>https://dev.to/samuel_ochaba_eb9c875fa89/memory-leaks-in-modern-js-a-deep-dive-into-closures-and-garbage-collection-2n72</link>
-      <description>One of the most dangerous myths in frontend development is: "JavaScript has a Garbage Collector, so I don't need to manage memory." This is the kind of thinking that leads to Single Page Applications (SPAs) that start snappy but become sluggish and unresponsive after 45 minutes of usage. Today, we are going to look at the invisible tether that keeps dead objects alive: The Closure. The Mental Model: The Reachability Graph To understand leaks, you need to understand how JavaScript deletes things.</description>
-      <guid isPermaLink="false">https://dev.to/samuel_ochaba_eb9c875fa89/memory-leaks-in-modern-js-a-deep-dive-into-closures-and-garbage-collection-2n72</guid>
-      <pubDate>Thu, 04 Dec 2025 14:05:03 +0000</pubDate>
+      <title>Pushing Kiro to the Max: UX Schizophrenia &amp;amp; MCP Integration</title>
+      <link>https://dev.to/tandivina/pushing-kiro-to-the-max-ux-schizophrenia-mcp-integration-3no5</link>
+      <description>SEO is a nightmare. It’s a terrifying landscape of broken links, invisible meta tags, and cryptic Google algorithms. For the Kiroween Hackathon, I decided to lean into that fear. Meet RankBeacon SEO Exorcist. It’s a technical SEO analyzer that treats bugs like ghosts, 404s like zombies, and poor performance like a curse. But I didn't just want to make a "fun" toy; I wanted a tool that could actually fit into a serious developer's workflow. Here is how I built a dual-mode React interface and inte</description>
+      <guid isPermaLink="false">https://dev.to/tandivina/pushing-kiro-to-the-max-ux-schizophrenia-mcp-integration-3no5</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2l2icmxdob2kcm6gvqpd.png" length="0" type="image/png"/>
+      <pubDate>Fri, 05 Dec 2025 06:08:16 +0000</pubDate>
     </item>
     <item>
-      <title>Physics in the Browser: How I Built a Beam Stress Visualizer with React &amp;amp; Three.js</title>
-      <link>https://dev.to/yogavigneshengineer/physics-in-the-browser-how-i-built-a-beam-stress-visualizer-with-react-threejs-nem</link>
-      <description>"You're a mechanical engineer? Why are you coding*?"* I get asked this in every interview. The assumption is always that engineering and web development are opposites. One deals with steel and forces; the other deals with DOM nodes and pixels. I disagree. To me, a React component is just a machine with inputs (props) and outputs (UI). So when I built my portfolio (yogavignesh.me), I didn't want a static "About Me" page. I wanted to prove that the web can handle real engineering physics. I built</description>
-      <guid isPermaLink="false">https://dev.to/yogavigneshengineer/physics-in-the-browser-how-i-built-a-beam-stress-visualizer-with-react-threejs-nem</guid>
-      <pubDate>Thu, 04 Dec 2025 14:06:30 +0000</pubDate>
+      <title>From Video to Voiceover in Seconds: Running MLX Swift on ARM-Based iOS Devices</title>
+      <link>https://dev.to/yooi/from-video-to-voiceover-in-seconds-running-mlx-swift-on-arm-based-ios-devices-1md9</link>
+      <description>I started exploring ARM-based AI applications - how generative AI and machine learning models can run locally on ARM devices. Video editing friction sparked the idea: how can I cut down the time to polish demo videos? That led to ScriptCraft - an iOS app that transcribes video, cleans up the script with an on-device LLM, generates new narration, and exports the final video. No cloud APIs. No uploads. Just your phone doing the work. The Idea I wanted to repurpose video content quickly. Record som</description>
+      <guid isPermaLink="false">https://dev.to/yooi/from-video-to-voiceover-in-seconds-running-mlx-swift-on-arm-based-ios-devices-1md9</guid>
+      <pubDate>Fri, 05 Dec 2025 06:09:27 +0000</pubDate>
     </item>
     <item>
-      <title>What the Kaggle AI Agents Intensive Course with Google Taught Me While Building LexFabric Agents</title>
-      <link>https://dev.to/revelles/what-the-kaggle-ai-agents-intensive-course-with-google-taught-me-while-building-lexfabric-agents-23m7</link>
-      <description>Hi everyone! 👋 I’m Francisco, a computer scientist working on production-grade AI systems. I recently completed the Google + Kaggle AI Agents Intensive and built LexFabric Agents, a deterministic multi-agent pipeline that pairs LLM extraction with Python-based reasoning for accurate timeline reconstruction. I’m here to share what I’m learning about multi-agent architectures, context engineering, and reproducible AI workflows — and to learn from this community as well. When I enrolled in the Kagg</description>
-      <guid isPermaLink="false">https://dev.to/revelles/what-the-kaggle-ai-agents-intensive-course-with-google-taught-me-while-building-lexfabric-agents-23m7</guid>
-      <pubDate>Thu, 04 Dec 2025 14:12:13 +0000</pubDate>
+      <title>AWS re:Invent 2025 - Drive operational excellence for modern applications (COP327)</title>
+      <link>https://dev.to/kazuya_dev/aws-reinvent-2025-drive-operational-excellence-for-modern-applications-cop327-4j78</link>
+      <description>🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Drive operational excellence for modern applications (COP327) In this video, AWS observability-focused solutions architects discuss operational excellence for modern distribut</description>
+      <guid isPermaLink="false">https://dev.to/kazuya_dev/aws-reinvent-2025-drive-operational-excellence-for-modern-applications-cop327-4j78</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv3v359oaksw8qbkfb7nk.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 05 Dec 2025 06:11:39 +0000</pubDate>
     </item>
     <item>
-      <title>Letter Counter: Because Sometimes You Just Need to Know *Exactly* How Many Characters You're Dealing With ✏️🔢</title>
-      <link>https://dev.to/akashbijwe/letter-counter-because-sometimes-you-just-need-to-know-exactly-how-many-characters-youre-2al0</link>
-      <description>Let’s be honest — as developers, we count a LOT of things. Lines of code. API requests. Errors in production (too many). Times we said “I’ll fix this tomorrow.” But sometimes… you just need to count something far simpler: letters. Maybe you’re writing a tweet, trimming user input, validating form fields, or trying to fit a snarky commit message into a strict character limit. That’s where the Letter Counter comes in: 👉 https://www.devutilx.com/tools/letters-counter Paste text → instantly see how</description>
-      <guid isPermaLink="false">https://dev.to/akashbijwe/letter-counter-because-sometimes-you-just-need-to-know-exactly-how-many-characters-youre-2al0</guid>
-      <pubDate>Thu, 04 Dec 2025 14:16:52 +0000</pubDate>
+      <title>Revolutionizing Business: Enterprise Software Solutions in 2025</title>
+      <link>https://dev.to/itcs11/revolutionizing-business-enterprise-software-solutions-in-2025-4nf4</link>
+      <description>Let me level with you. I’ve spent over 12 years knee-deep in enterprise software solutions, and 2025 is a make-or-break year. The companies running integrated platforms are pulling ahead fast. The ones still patching together 15-year-old servers and endless spreadsheets? They’re hemorrhaging cash and talent. At ITC Group itcs.com, we’ve guided hundreds of businesses from $20M manufacturers to $2B logistics giants through the transition. The results are consistent and measurable. Here’s the unfil</description>
+      <guid isPermaLink="false">https://dev.to/itcs11/revolutionizing-business-enterprise-software-solutions-in-2025-4nf4</guid>
+      <pubDate>Fri, 05 Dec 2025 06:12:03 +0000</pubDate>
     </item>
     <item>
-      <title>From Curiosity to Confidence: My Learning Journey in the Google AI Agents Intensive</title>
-      <link>https://dev.to/23501a4212_boyapatinissi/from-curiosity-to-confidence-my-learning-journey-in-the-google-ai-agents-intensive-3o20</link>
-      <description>This is a submission for the Google AI Agents Writing Challenge: Learning Reflections 🚀 Introduction When I signed up for the 5-Day AI Agents Intensive Course with Google and Kaggle, I knew I was entering the next chapter in AI development—one where models don’t just respond, but act, reason, and collaborate as autonomous systems. Over the past few days, I went from being curious about agentic workflows to actually building one myself. This intensive wasn’t just content—it was architecture, hand</description>
-      <guid isPermaLink="false">https://dev.to/23501a4212_boyapatinissi/from-curiosity-to-confidence-my-learning-journey-in-the-google-ai-agents-intensive-3o20</guid>
-      <pubDate>Thu, 04 Dec 2025 14:24:43 +0000</pubDate>
+      <title>The Secret Life of Go: Goroutines and Channels</title>
+      <link>https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-go-goroutines-and-channels-2hib</link>
+      <description>Chapter 8: Concurrency Without Fear Wednesday morning arrived cold and bright. Ethan descended to the archive carrying coffee and a paper bag that smelled of cinnamon and cardamom. Eleanor looked up. "What's that scent?" "Kanelbullar. Swedish cinnamon rolls. The baker said they're made by multiple people working together—one mixes, one shapes, one bakes." She smiled. "Perfect timing. Today we're talking about concurrency—how to make programs do multiple things at once." Ethan set down the coffee</description>
+      <guid isPermaLink="false">https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-go-goroutines-and-channels-2hib</guid>
+      <pubDate>Fri, 05 Dec 2025 06:16:19 +0000</pubDate>
     </item>
     <item>
-      <title>How to build an engine for AI Code Review - Part 1</title>
-      <link>https://dev.to/kodus/how-to-build-an-engine-for-ai-code-review-part-1-cfl</link>
-      <description>Introduction This post is for you if you want to build an internal code review tool for your team and don’t know where to start. Or if you’re just curious and want to understand how a tool like this works behind the scenes. I’m going to open up how Kody, our open source code review agent, works and explain everything we did to go from a 1% implementation rate to 70%, and process millions of lines of code. Does AI Code Review make sense? Ok, you already know that writing code basically became gen</description>
-      <guid isPermaLink="false">https://dev.to/kodus/how-to-build-an-engine-for-ai-code-review-part-1-cfl</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fkodus.io%2Fwp-content%2Fuploads%2F2025%2F12%2Fgenerate_vs_review.png" length="0" type="image/png"/>
-      <pubDate>Thu, 04 Dec 2025 14:26:58 +0000</pubDate>
+      <title>Increasing Technical Onboarding Velocity for Your Engineering Team</title>
+      <link>https://dev.to/joojodontoh/increasing-technical-onboarding-velocity-for-your-engineering-team-1lmo</link>
+      <description>TLDR Problem: Engineers change teams frequently, and slow onboarding wastes everyone's time. Goal: Minimise the time between git clone and first meaningful pull request. Key practices: Setup scripts that interactively guide new engineers through environment configuration Code formatting tools (Prettier, ESLint) committed to the repo so standards are automatic Brief READMEs focused on "how to run this" rather than business context Descriptive file naming (transaction.service.ts, pos.client.ts) so</description>
+      <guid isPermaLink="false">https://dev.to/joojodontoh/increasing-technical-onboarding-velocity-for-your-engineering-team-1lmo</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa9qwkxs803v76yrw59qu.png" length="0" type="image/png"/>
+      <pubDate>Fri, 05 Dec 2025 06:16:26 +0000</pubDate>
     </item>
     <item>
-      <title>Analyzing News Sentiment with VADER</title>
-      <link>https://dev.to/hasdata_com/analyzing-news-sentiment-with-vader-2if2</link>
-      <description>In this tutorial, we'll walk through how to analyze the sentiment of news headlines using VADER — a fast and effective sentiment analysis model designed for social media text, which works well for news headlines too. We will: Collect news data using HasData's Google News API. Use VADER to analyze the sentiment of each article's headline and snippet. Classify articles into positive, neutral, and negative categories. Save the results in a structured JSON format. Table of Contents Introduction Setu</description>
-      <guid isPermaLink="false">https://dev.to/hasdata_com/analyzing-news-sentiment-with-vader-2if2</guid>
-      <pubDate>Thu, 04 Dec 2025 14:37:35 +0000</pubDate>
+      <title>Five Days, Endless Possibilities: here is the five day summary and a capstone project</title>
+      <link>https://dev.to/wanga_peterotienopa106/five-days-endless-possibilities-here-is-the-five-day-summary-and-a-capstone-project-52ia</link>
+      <description>This is a summary of what I learned in five day intensive course with google Day 1:Agents in intro duction Key Concepts in Defining an ADK Agent Defining an agent using the Agent class in ADK is crucial for determining its behavior and capabilities. The key properties are: Property Description Example Value (from the notebook) name A simple, unique identifier for the agent. "helpful_assistant" model The specific LLM that acts as the agent's "brain" for reasoning. Gemini(model="gemini-2.5-flash-l</description>
+      <guid isPermaLink="false">https://dev.to/wanga_peterotienopa106/five-days-endless-possibilities-here-is-the-five-day-summary-and-a-capstone-project-52ia</guid>
+      <pubDate>Fri, 05 Dec 2025 06:17:11 +0000</pubDate>
     </item>
     <item>
-      <title>Why you should always optimize for mobile</title>
-      <link>https://dev.to/egledigital/why-you-should-always-optimize-for-mobile-1072</link>
-      <description>Desktop-first thinking kills modern websites. While designers craft beautiful wide-screen experiences, over 60% of web traffic comes from phones. That percentage only grows, yet businesses still treat mobile as an afterthought. Mobile users have different intentions than desktop users. They're often on-the-go, seeking quick information or making snap decisions. They won't navigate complex menus or read walls of text. Mobile optimization isn't just about smaller screens – it's about different beh</description>
-      <guid isPermaLink="false">https://dev.to/egledigital/why-you-should-always-optimize-for-mobile-1072</guid>
-      <pubDate>Thu, 04 Dec 2025 14:39:47 +0000</pubDate>
+      <title>[2025 Guide] Best AI Video Generators for TikTok: Unlock Viral Scale</title>
+      <link>https://dev.to/getkoro_app/2025-guide-best-ai-video-generators-for-tiktok-unlock-viral-scale-4nl5</link>
+      <description>The average TikTok trend lasts roughly 72 hours. If your creative production cycle takes five days, you aren't just late—you're invisible. In 2025, the brands winning the ROAS war aren't the ones with the glossiest studio footage; they are the ones leveraging Generative Ad Tech to test 50 creative variants for the price of one. TL;DR: AI Video Generation for E-commerce Marketers The Core Concept: Creative fatigue is the single biggest driver of rising CPAs on TikTok. The platform's algorithm dem</description>
+      <guid isPermaLink="false">https://dev.to/getkoro_app/2025-guide-best-ai-video-generators-for-tiktok-unlock-viral-scale-4nl5</guid>
+      <pubDate>Fri, 05 Dec 2025 06:17:32 +0000</pubDate>
     </item>
     <item>
-      <title>!!!!!! Critical React2Shell Vulnerability Exposes Millions of Web Apps to Remote Takeover !!!!!!</title>
-      <link>https://dev.to/kpcofgs/-critical-react2shell-vulnerability-exposes-millions-of-web-apps-to-remote-takeover--408l</link>
-      <description>A security vulnerability with a critical CVSS score of 10.0, now widely known as "React2Shell," is threatening a substantial portion of the modern web. Tracked as CVE-2025-55182 in React and CVE-2025-66478 in Next.js, this flaw allows unauthenticated attackers to execute arbitrary code on servers running vulnerable applications. It is potentially affecting 82% of developers who use React, this is one of the most severe vulnerabilities ever disclosed in the JavaScript ecosystem. Understanding the</description>
-      <guid isPermaLink="false">https://dev.to/kpcofgs/-critical-react2shell-vulnerability-exposes-millions-of-web-apps-to-remote-takeover--408l</guid>
-      <pubDate>Thu, 04 Dec 2025 14:40:57 +0000</pubDate>
+      <title>AWS re:Invent 2025 - Building agentic workflows for augmented observability (COP405)</title>
+      <link>https://dev.to/kazuya_dev/aws-reinvent-2025-building-agentic-workflows-for-augmented-observability-cop405-d2j</link>
+      <description>🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Building agentic workflows for augmented observability (COP405) In this video, Kevin and Andrea demonstrate building an AI-powered observability agent using Strands SDK and MC</description>
+      <guid isPermaLink="false">https://dev.to/kazuya_dev/aws-reinvent-2025-building-agentic-workflows-for-augmented-observability-cop405-d2j</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fl48mgv9c6g3trjokuogp.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 05 Dec 2025 06:18:41 +0000</pubDate>
     </item>
   </channel>
 </rss>

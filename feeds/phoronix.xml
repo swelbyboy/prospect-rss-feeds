@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Dec 2025 14:49:23 +0000</lastBuildDate>
-    <item>
-      <title>Intel's Open-Source Linux Graphics Driver Delivered Significant Improvements In 2025</title>
-      <link>https://www.phoronix.com/review/intel-b580-opengl-vulkan-eoy2025</link>
-      <description>Last week I provided a look at how Intel's GPU compute performance on Battlemage evolved in 2025. In today's article is a similar Intel Arc A-Series "Alchemist" and B-Series "Battlemage" look at how the OpenGL and Vulkan graphics performance has evolved over the past year. Simply put, the open-source Intel Linux graphics driver stack has evolved immensely this year... Not just for Vulkan but even the OpenGL support continues moving in the right direction too.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/intel-b580-opengl-vulkan-eoy2025</guid>
-      <pubDate>Wed, 03 Dec 2025 17:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alpine Linux 3.23 Released With APK Tools v3 For Package Management</title>
-      <link>https://www.phoronix.com/news/Alpine-Linux-3.23</link>
-      <description>Alpine Linux 3.23 is out today as the newest feature release for this lightweight Linux distribution built around musl libc and BusyBox that has become quite popular for containers and embedded uses...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Alpine-Linux-3.23</guid>
-      <pubDate>Wed, 03 Dec 2025 20:52:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sched_EXT With Linux 6.19 Improves Recovering For Misbehaving eBPF Schedulers</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-sched-ext</link>
-      <description>The Linux kernel's innovative sched_ext code for being able to easily write extensible task schedulers using eBPF programs has some nice enhancements merged for Linux 6.19...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-sched-ext</guid>
-      <pubDate>Wed, 03 Dec 2025 22:30:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 6.19 Goes Ahead And Enables Microsoft C Extensions Support</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Enables-MS-Ext</link>
-      <description>Last month I reported on Linux 6.19 looking to enable Microsoft C Extensions support throughout the Linux kernel with setting the -fms-extensions compiler option to allow Microsoft C Extensions when building the kernel. Linus Torvalds today merged that support without objections...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Enables-MS-Ext</guid>
-      <pubDate>Thu, 04 Dec 2025 01:14:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>ReactOS Lands Improvements For Its USB Stack - Fixing Various Blue Screens of Death</title>
-      <link>https://www.phoronix.com/news/Better-USB-For-ReactOS</link>
-      <description>ReactOS as the open-source operating system aiming to be an "open-source Windows" by striving for binary compatibility with Windows programs and device drivers is now slightly better with its USB support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Better-USB-For-ReactOS</guid>
-      <pubDate>Thu, 04 Dec 2025 01:31:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>EXT4 Optimizes Online Defragmentation, Improves Performance &amp;amp; Larger Block Sizes</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-EXT4</link>
-      <description>The merged EXT4 changes for Linux 6.19 bring some of the most prominent feature changes in recent times for this mature and widely-used Linux file-system...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-EXT4</guid>
-      <pubDate>Thu, 04 Dec 2025 10:42:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mesa 25.3.1 Released With Initial Set Of Fixes, Mesa 25.2 Comes To An End</title>
-      <link>https://www.phoronix.com/news/Mesa-25.3.1-Released</link>
-      <description>Mesa 25.3.1 was released overnight as the first point release of the Mesa 25.3 series. The Mesa point releases are typically bi-weekly but this one dragged out to nearly three weeks. In turn this also marks an end to the Mesa 25.2 series...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-25.3.1-Released</guid>
-      <pubDate>Thu, 04 Dec 2025 10:54:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 6.19 Will Allow Enforcing IPE Security Checks On Indirectly Executed Scripts</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-IPE-AT_EXECVE_CHECK</link>
-      <description>Linux's Integrity Policy Enforcement "IPE" module is gaining a useful addition with the in-development Linux 6.19 kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-IPE-AT_EXECVE_CHECK</guid>
-      <pubDate>Thu, 04 Dec 2025 11:07:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zlib-rs 0.5.3 Expands AVX-512 Usage For Faster Performance</title>
-      <link>https://www.phoronix.com/news/Zlib-rs-0.5.3</link>
-      <description>The Trifecta Tech Foundation today released zlib-rs 0.5.3 as the newest version of this Zlib implementation written in the Rust programming language for better memory safety. Zlib-rs is advertised as "a safer Zlib" for use by both C and Rust projects while delivering competitive performance to the C-based zlib-ng...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Zlib-rs-0.5.3</guid>
-      <pubDate>Thu, 04 Dec 2025 11:20:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 05 Dec 2025 06:36:20 +0000</lastBuildDate>
     <item>
       <title>Linux 6.19 Fixes A Thundering Herd Problem For Big NUMA Servers</title>
       <link>https://www.phoronix.com/news/Linux-6.19-Timers</link>
       <description>The "timers/core" pull requests for updating Linux kernel timer-related code doesn't tend to be too interesting each kernel cycle, but this time around for Linux 6.19 it is for addressing a problem HPE discovered on big NUMA servers...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Timers</guid>
       <pubDate>Thu, 04 Dec 2025 13:11:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Printk Improvement For Linux 6.19 Can Significantly Speed-Up Boot Times For Some Systems</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Printk</link>
+      <description>The Linux kernel's printk code for logging kernel messages has some useful improvements with the Linux 6.19 kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Printk</guid>
+      <pubDate>Thu, 04 Dec 2025 15:50:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Former Intel Open-Source Project SVT-VP9 Sees First Update In 5 Years</title>
+      <link>https://www.phoronix.com/news/SVT-VP9-2025</link>
+      <description>The open-source SVT-VP9 project started by Intel as a high performance VP9 video encoder has seen its first new release in five years...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/SVT-VP9-2025</guid>
+      <pubDate>Thu, 04 Dec 2025 16:04:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rust-Written Redox OS Sees Initial Wayland Port</title>
+      <link>https://www.phoronix.com/news/Wayland-On-Redox-OS</link>
+      <description>Developers behind Redox OS, the original open-source operating system written from scratch in the Rust programming language, have ported Wayland to it with initially getting the Smallvil Wayland compositor up and running along with the Smithay framework and the Wayland version of the GTK toolkit...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Wayland-On-Redox-OS</guid>
+      <pubDate>Thu, 04 Dec 2025 16:28:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>FreeBSD 15.0 Benchmarks Versus FreeBSD 14.3 On AMD EPYC</title>
+      <link>https://www.phoronix.com/review/freebsd-15-amd-epyc</link>
+      <description>This week brought the official release of FreeBSD 15.0 as the latest major update to this BSD operating system. In being eager to test out this new FreeBSD release, for this first round of FreeBSD 15.0 benchmarking is seeing how it compares to the former FreeBSD 14.3 release on a Supermicro + AMD EPYC Turin server.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/freebsd-15-amd-epyc</guid>
+      <pubDate>Thu, 04 Dec 2025 17:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bcachefs Ready With Its Reconcile Feature As Biggest Change In Two Years</title>
+      <link>https://www.phoronix.com/news/Bcachefs-Reconcile-Ready</link>
+      <description>The out-of-tree Bcachefs file-system is ready with its reconcile feature, which previously was known as "rebalance_v2", and what lead developer Kent Overstreet calls the biggest feature to this copy-on-write file-system in the last two years...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Bcachefs-Reconcile-Ready</guid>
+      <pubDate>Thu, 04 Dec 2025 18:48:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19 Brings Temperature Monitoring For The Steam Deck APU, Apple Silicon SMC</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-HWMON</link>
+      <description>The many hardware monitoring (HWMON) subsystem updates were merged today for Linux 6.19 that is predominantly around delivering new hardware support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-HWMON</guid>
+      <pubDate>Thu, 04 Dec 2025 21:33:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA Releases CUDA 13.1 With New "CUDA Tile" Programming Model</title>
+      <link>https://www.phoronix.com/news/NVIDIA-CUDA-13.1</link>
+      <description>NVIDIA just released CUDA 13.1 for what they claim is "the largest and most comprehensive update to the CUDA platform since it was invented two decades ago." The most notable addition with the CUDA 13.1 release is CUDA Tile as a new tile-based programming model...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-CUDA-13.1</guid>
+      <pubDate>Thu, 04 Dec 2025 22:44:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Graviton5 Announced With Up To 192 Cores Per Chip, 5x Larger Cache</title>
+      <link>https://www.phoronix.com/news/AWS-Graviton5-Announced</link>
+      <description>Amazon AWS today announced Graviton5 as their newest-generation ARM64 server processor for their EC2 cloud. Graviton5 is being promoted as offering 25% higher performance over existing Graviton4 processors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AWS-Graviton5-Announced</guid>
+      <pubDate>Thu, 04 Dec 2025 23:44:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19 GPU Driver Features: Color Pipeline API, Intel Xe3P, AMDGPU For GCN 1.0/1.1</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Graphics-Drivers</link>
+      <description>The big set of kernel graphics driver features were merged today for the Linux 6.19 kernel. As usual there is a lot of new feature work on the AMD Radeon, Intel, and NVIDIA graphics drivers plus the smaller Arm/embedded graphics like now having initial Qualcomm Gen8 GPU support. Plus the growing number of accelerator "accel" drivers for NPUs / AI accelerators...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Graphics-Drivers</guid>
+      <pubDate>Fri, 05 Dec 2025 01:23:10 +0000</pubDate>
     </item>
   </channel>
 </rss>
