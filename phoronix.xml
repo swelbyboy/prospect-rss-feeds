@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Dec 2025 06:36:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Dec 2025 06:32:33 +0000</lastBuildDate>
     <item>
-      <title>Linux 6.19 Fixes A Thundering Herd Problem For Big NUMA Servers</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Timers</link>
-      <description>The "timers/core" pull requests for updating Linux kernel timer-related code doesn't tend to be too interesting each kernel cycle, but this time around for Linux 6.19 it is for addressing a problem HPE discovered on big NUMA servers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Timers</guid>
-      <pubDate>Thu, 04 Dec 2025 13:11:37 +0000</pubDate>
+      <title>Linux NTFS3 Driver Will Now Support Timestamps Prior To 1970</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-NTFS3</link>
+      <description>While NTFSPLUS continues to be developed as a new and modern NTFS open-source driver for Linux systems, at the moment NTFS3 from Paragon Software remains the most capable NTFS file-system driver within the mainline kernel. For the Linux 6.19 merge window a variety of fixes have landed for this driver...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-NTFS3</guid>
+      <pubDate>Fri, 05 Dec 2025 11:13:38 +0000</pubDate>
     </item>
     <item>
-      <title>Printk Improvement For Linux 6.19 Can Significantly Speed-Up Boot Times For Some Systems</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Printk</link>
-      <description>The Linux kernel's printk code for logging kernel messages has some useful improvements with the Linux 6.19 kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Printk</guid>
-      <pubDate>Thu, 04 Dec 2025 15:50:29 +0000</pubDate>
+      <title>Intel Graphics Score A Big Win With Linux 6.19: Color Management &amp;amp; Xe VFIO Driver Merged</title>
+      <link>https://www.phoronix.com/news/Intel-Graphics-Win-Linux-6.19</link>
+      <description>On top of enabling Xe3P graphics for Nova Lake and Crescent Island plus other changes like CASF adaptive sharpening for Lunar Lake and newer, another set of Intel kernel graphics driver updates were merged overnight as a big win for the open-source Intel graphics stack on Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Graphics-Win-Linux-6.19</guid>
+      <pubDate>Fri, 05 Dec 2025 13:15:22 +0000</pubDate>
     </item>
     <item>
-      <title>Former Intel Open-Source Project SVT-VP9 Sees First Update In 5 Years</title>
-      <link>https://www.phoronix.com/news/SVT-VP9-2025</link>
-      <description>The open-source SVT-VP9 project started by Intel as a high performance VP9 video encoder has seen its first new release in five years...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/SVT-VP9-2025</guid>
-      <pubDate>Thu, 04 Dec 2025 16:04:11 +0000</pubDate>
+      <title>Venus Vulkan Driver Lands Mesh Shader Support In Mesa 26.0</title>
+      <link>https://www.phoronix.com/news/Venus-Vulkan-Mesh-Shader</link>
+      <description>Venus is the VirtIO-GPU driver that allows for Vulkan support within guest virtual machines permitting sufficient host driver support and other requirements in place with hypervisors like CrosVM and QEMU. The Venus driver now supports Vulkan's mesh shader capabilities and in turn advances the DXVK-Proton support for Linux gaming within VMs...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Venus-Vulkan-Mesh-Shader</guid>
+      <pubDate>Fri, 05 Dec 2025 14:03:27 +0000</pubDate>
     </item>
     <item>
-      <title>Rust-Written Redox OS Sees Initial Wayland Port</title>
-      <link>https://www.phoronix.com/news/Wayland-On-Redox-OS</link>
-      <description>Developers behind Redox OS, the original open-source operating system written from scratch in the Rust programming language, have ported Wayland to it with initially getting the Smallvil Wayland compositor up and running along with the Smithay framework and the Wayland version of the GTK toolkit...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Wayland-On-Redox-OS</guid>
-      <pubDate>Thu, 04 Dec 2025 16:28:30 +0000</pubDate>
+      <title>Intel Updates Cache Aware Scheduling For Linux With Better NUMA Balancing</title>
+      <link>https://www.phoronix.com/news/Cache-Aware-Scheduling-v2</link>
+      <description>Intel engineer Tim Chen has sent out a second version of the proposed Cache Aware Scheduling patches for the Linux kernel to enhance the CPU performance of modern processors sporting multiple cache domains...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Cache-Aware-Scheduling-v2</guid>
+      <pubDate>Fri, 05 Dec 2025 14:38:02 +0000</pubDate>
     </item>
     <item>
-      <title>FreeBSD 15.0 Benchmarks Versus FreeBSD 14.3 On AMD EPYC</title>
-      <link>https://www.phoronix.com/review/freebsd-15-amd-epyc</link>
-      <description>This week brought the official release of FreeBSD 15.0 as the latest major update to this BSD operating system. In being eager to test out this new FreeBSD release, for this first round of FreeBSD 15.0 benchmarking is seeing how it compares to the former FreeBSD 14.3 release on a Supermicro + AMD EPYC Turin server.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/freebsd-15-amd-epyc</guid>
-      <pubDate>Thu, 04 Dec 2025 17:20:00 +0000</pubDate>
+      <title>AMD EPYC 7773X "Milan-X" Performance &amp;amp; Power Nearly Four Years Later</title>
+      <link>https://www.phoronix.com/review/amd-epyc-milanx-2025</link>
+      <description>Nearly four years have passed since AMD launched their EPYC Milan-X processors with 3D V-Cache. When recently rearranging some servers in the lab and realizing the four year anniversary was coming up in March, curiosity got the best of me in wondering where the Linux performance and energy efficiency on Milan-X is now with the latest Linux software stack compared to the numbers when Milan-X launched back in March 2022.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/amd-epyc-milanx-2025</guid>
+      <pubDate>Fri, 05 Dec 2025 15:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>Bcachefs Ready With Its Reconcile Feature As Biggest Change In Two Years</title>
-      <link>https://www.phoronix.com/news/Bcachefs-Reconcile-Ready</link>
-      <description>The out-of-tree Bcachefs file-system is ready with its reconcile feature, which previously was known as "rebalance_v2", and what lead developer Kent Overstreet calls the biggest feature to this copy-on-write file-system in the last two years...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Bcachefs-Reconcile-Ready</guid>
-      <pubDate>Thu, 04 Dec 2025 18:48:05 +0000</pubDate>
+      <title>Jolla Trying Again To Develop A New Sailfish OS Linux Smartphone</title>
+      <link>https://www.phoronix.com/news/Jolla-Phone-2025</link>
+      <description>Finnish company Jolla started out 14 years ago where Nokia left off with MeeGo and developed Sailfish OS as a new Linux smartphone platform. Jolla released their first smartphone in 2013 after crowdfunding but ultimately the Sailfish OS focus the past number of years now has been offering their software stack for use on other smartphone devices. But now it seems they are trying again with a new crowd-funded smartphone...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Jolla-Phone-2025</guid>
+      <pubDate>Fri, 05 Dec 2025 16:51:17 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19 Brings Temperature Monitoring For The Steam Deck APU, Apple Silicon SMC</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-HWMON</link>
-      <description>The many hardware monitoring (HWMON) subsystem updates were merged today for Linux 6.19 that is predominantly around delivering new hardware support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-HWMON</guid>
-      <pubDate>Thu, 04 Dec 2025 21:33:34 +0000</pubDate>
+      <title>NVIDIA Improves Block Layer Peer-To-Peer DMA In Linux 6.19</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-IO-uring-Block</link>
+      <description>The IO_uring and block subsystem changes have been merged for the Linux 6.19 merge window with a few improvements worth highlighting this cycle...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-IO-uring-Block</guid>
+      <pubDate>Fri, 05 Dec 2025 18:26:35 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA Releases CUDA 13.1 With New "CUDA Tile" Programming Model</title>
-      <link>https://www.phoronix.com/news/NVIDIA-CUDA-13.1</link>
-      <description>NVIDIA just released CUDA 13.1 for what they claim is "the largest and most comprehensive update to the CUDA platform since it was invented two decades ago." The most notable addition with the CUDA 13.1 release is CUDA Tile as a new tile-based programming model...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-CUDA-13.1</guid>
-      <pubDate>Thu, 04 Dec 2025 22:44:30 +0000</pubDate>
+      <title>Linux Still Dealing With Quirky Firewire Devices As We Enter 2026</title>
+      <link>https://www.phoronix.com/news/IEEE-1394-Firewire-Quirks-2026</link>
+      <description>For Linux 6.19 as what will be the first stable kernel release of 2026, the IEEE-1394 Firewire stack continues dealing with device quirks and improving support for different Firewire-connected devices. In 2026 is also when the Linux Firewire maintainer plans to begin recommending users migrate away from the IEEE-1394 bus followed by closing the Linux Firewire efforts in 2029...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/IEEE-1394-Firewire-Quirks-2026</guid>
+      <pubDate>Fri, 05 Dec 2025 21:09:11 +0000</pubDate>
     </item>
     <item>
-      <title>Graviton5 Announced With Up To 192 Cores Per Chip, 5x Larger Cache</title>
-      <link>https://www.phoronix.com/news/AWS-Graviton5-Announced</link>
-      <description>Amazon AWS today announced Graviton5 as their newest-generation ARM64 server processor for their EC2 cloud. Graviton5 is being promoted as offering 25% higher performance over existing Graviton4 processors...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AWS-Graviton5-Announced</guid>
-      <pubDate>Thu, 04 Dec 2025 23:44:52 +0000</pubDate>
+      <title>Wine 11.0-rc1 Released With TWAINDSM 64-bit Module For Scanners</title>
+      <link>https://www.phoronix.com/news/Wine-11.0-rc1-Released</link>
+      <description>As anticipated the first release candidate of Wine 11.0 is now available in working toward the annual stable release in January...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-11.0-rc1-Released</guid>
+      <pubDate>Fri, 05 Dec 2025 21:18:11 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19 GPU Driver Features: Color Pipeline API, Intel Xe3P, AMDGPU For GCN 1.0/1.1</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Graphics-Drivers</link>
-      <description>The big set of kernel graphics driver features were merged today for the Linux 6.19 kernel. As usual there is a lot of new feature work on the AMD Radeon, Intel, and NVIDIA graphics drivers plus the smaller Arm/embedded graphics like now having initial Qualcomm Gen8 GPU support. Plus the growing number of accelerator "accel" drivers for NPUs / AI accelerators...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Graphics-Drivers</guid>
-      <pubDate>Fri, 05 Dec 2025 01:23:10 +0000</pubDate>
+      <title>An Intel Fellow &amp;amp; Prominent Linux Performance Engineer Resigns From Intel</title>
+      <link>https://www.phoronix.com/news/Brendan-Gregg-Leaves-Intel</link>
+      <description>There have been many Intel Linux/open-source software engineers to leave the company over the past year among other setbacks for their Linux/open-source initiatives. Announced this Friday night is one of their highest profile departures of the year as it pertains to their Linux efforts...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Brendan-Gregg-Leaves-Intel</guid>
+      <pubDate>Sat, 06 Dec 2025 01:25:16 +0000</pubDate>
     </item>
   </channel>
 </rss>
