@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Dec 2025 06:32:33 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Dec 2025 06:32:26 +0000</lastBuildDate>
     <item>
-      <title>Linux NTFS3 Driver Will Now Support Timestamps Prior To 1970</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-NTFS3</link>
-      <description>While NTFSPLUS continues to be developed as a new and modern NTFS open-source driver for Linux systems, at the moment NTFS3 from Paragon Software remains the most capable NTFS file-system driver within the mainline kernel. For the Linux 6.19 merge window a variety of fixes have landed for this driver...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-NTFS3</guid>
-      <pubDate>Fri, 05 Dec 2025 11:13:38 +0000</pubDate>
+      <title>KDE Plasma 6.6 Supporting Per-DRM-Plane Color Pipelines, More Hardware Quirks/Fixes</title>
+      <link>https://www.phoronix.com/news/Plasma-6.6-Per-DRM-Plane-Color</link>
+      <description>It was a busy start of December for KDE Plasma developers in working out several hardware fixes for the current Plasma 6.5 series while also working on new Plasma 6.6 features like the per-DRM-plane color pipelines...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-Per-DRM-Plane-Color</guid>
+      <pubDate>Sat, 06 Dec 2025 10:39:39 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Graphics Score A Big Win With Linux 6.19: Color Management &amp;amp; Xe VFIO Driver Merged</title>
-      <link>https://www.phoronix.com/news/Intel-Graphics-Win-Linux-6.19</link>
-      <description>On top of enabling Xe3P graphics for Nova Lake and Crescent Island plus other changes like CASF adaptive sharpening for Lunar Lake and newer, another set of Intel kernel graphics driver updates were merged overnight as a big win for the open-source Intel graphics stack on Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Graphics-Win-Linux-6.19</guid>
-      <pubDate>Fri, 05 Dec 2025 13:15:22 +0000</pubDate>
+      <title>Linux 6.19 Brings Many Driver Core Changes For Rust, Housekeeping CPUs Exposed</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Driver-Core</link>
+      <description>Beyond the main set of Rust changes to land in Linux 6.19 earlier this week, as we near the end of the first week of two for the Linux 6.19 merge window... More Rust changes. This time around the driver core updates for the kernel bring a number of Rust changes...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Driver-Core</guid>
+      <pubDate>Sat, 06 Dec 2025 10:56:26 +0000</pubDate>
     </item>
     <item>
-      <title>Venus Vulkan Driver Lands Mesh Shader Support In Mesa 26.0</title>
-      <link>https://www.phoronix.com/news/Venus-Vulkan-Mesh-Shader</link>
-      <description>Venus is the VirtIO-GPU driver that allows for Vulkan support within guest virtual machines permitting sufficient host driver support and other requirements in place with hypervisors like CrosVM and QEMU. The Venus driver now supports Vulkan's mesh shader capabilities and in turn advances the DXVK-Proton support for Linux gaming within VMs...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Venus-Vulkan-Mesh-Shader</guid>
-      <pubDate>Fri, 05 Dec 2025 14:03:27 +0000</pubDate>
+      <title>Solaris 11.4 SRU 87 Released With New Security Features, GCC 15</title>
+      <link>https://www.phoronix.com/news/Oracle-Solaris-11.4-SRU-87</link>
+      <description>For anyone still relying on Solaris in production or just nostalgic Solaris users from the grand Sun Microsystems days, Solaris 11.4 SRU 87 was released by Oracle this week as one of the heavier stable release updates in recent memory...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Oracle-Solaris-11.4-SRU-87</guid>
+      <pubDate>Sat, 06 Dec 2025 11:12:20 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Updates Cache Aware Scheduling For Linux With Better NUMA Balancing</title>
-      <link>https://www.phoronix.com/news/Cache-Aware-Scheduling-v2</link>
-      <description>Intel engineer Tim Chen has sent out a second version of the proposed Cache Aware Scheduling patches for the Linux kernel to enhance the CPU performance of modern processors sporting multiple cache domains...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Cache-Aware-Scheduling-v2</guid>
-      <pubDate>Fri, 05 Dec 2025 14:38:02 +0000</pubDate>
+      <title>Flowblade Video Editor May Go Wayland-Only As Part Of GTK4 Port</title>
+      <link>https://www.phoronix.com/news/Flowblade-2.24-Released</link>
+      <description>Flowblade 2.24 released today as the newest version of this open-source, non-linear video editing application. Flowblade 2.24 brings a number of refinements while also interesting is their commentary concerning the future with Wayland and GTK4 porting...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Flowblade-2.24-Released</guid>
+      <pubDate>Sat, 06 Dec 2025 11:25:00 +0000</pubDate>
     </item>
     <item>
-      <title>AMD EPYC 7773X "Milan-X" Performance &amp;amp; Power Nearly Four Years Later</title>
-      <link>https://www.phoronix.com/review/amd-epyc-milanx-2025</link>
-      <description>Nearly four years have passed since AMD launched their EPYC Milan-X processors with 3D V-Cache. When recently rearranging some servers in the lab and realizing the four year anniversary was coming up in March, curiosity got the best of me in wondering where the Linux performance and energy efficiency on Milan-X is now with the latest Linux software stack compared to the numbers when Milan-X launched back in March 2022.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/amd-epyc-milanx-2025</guid>
-      <pubDate>Fri, 05 Dec 2025 15:20:00 +0000</pubDate>
+      <title>FEX 2512 Released With More Improvements For Gaming On ARM64 Linux</title>
+      <link>https://www.phoronix.com/news/FEX-Emu-2512-Released</link>
+      <description>FEX 2512 is out today as the newest monthly update for this software that enables running x86/x86_64 Linux binaries on ARM64 Linux, including the likes of Wine and Valve's Steam Play (Proton) for being able to run Windows games on 64-bit ARM Linux devices...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FEX-Emu-2512-Released</guid>
+      <pubDate>Sat, 06 Dec 2025 11:45:00 +0000</pubDate>
     </item>
     <item>
-      <title>Jolla Trying Again To Develop A New Sailfish OS Linux Smartphone</title>
-      <link>https://www.phoronix.com/news/Jolla-Phone-2025</link>
-      <description>Finnish company Jolla started out 14 years ago where Nokia left off with MeeGo and developed Sailfish OS as a new Linux smartphone platform. Jolla released their first smartphone in 2013 after crowdfunding but ultimately the Sailfish OS focus the past number of years now has been offering their software stack for use on other smartphone devices. But now it seems they are trying again with a new crowd-funded smartphone...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Jolla-Phone-2025</guid>
-      <pubDate>Fri, 05 Dec 2025 16:51:17 +0000</pubDate>
+      <title>Tenstorrent Blackhole Support &amp;amp; Other New RISC-V + ARM64 Hardware In Linux 6.19</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-SoCs</link>
+      <description>The set of six branches containing SoC and platform updates/additions for the Linux 6.19 kernel have been merged for enabling a lot of new RISC-V and ARM 64-bit hardware as well as enhancing some existing SoCs/platforms...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-SoCs</guid>
+      <pubDate>Sat, 06 Dec 2025 13:13:13 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA Improves Block Layer Peer-To-Peer DMA In Linux 6.19</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-IO-uring-Block</link>
-      <description>The IO_uring and block subsystem changes have been merged for the Linux 6.19 merge window with a few improvements worth highlighting this cycle...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-IO-uring-Block</guid>
-      <pubDate>Fri, 05 Dec 2025 18:26:35 +0000</pubDate>
+      <title>Mesa 26.0 Bringing Support For 64K x 64K Textures With AMD RDNA4 GPUs</title>
+      <link>https://www.phoronix.com/news/RadeonSI-64K-Textures-Mesa-26.0</link>
+      <description>The latest improvement to the RadeonSI Gallium3D driver by prominent AMD Mesa developer Marek Olšák is enabling support for up to 64K x 64K textures with RDNA4 GPUs...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/RadeonSI-64K-Textures-Mesa-26.0</guid>
+      <pubDate>Sat, 06 Dec 2025 17:15:52 +0000</pubDate>
     </item>
     <item>
-      <title>Linux Still Dealing With Quirky Firewire Devices As We Enter 2026</title>
-      <link>https://www.phoronix.com/news/IEEE-1394-Firewire-Quirks-2026</link>
-      <description>For Linux 6.19 as what will be the first stable kernel release of 2026, the IEEE-1394 Firewire stack continues dealing with device quirks and improving support for different Firewire-connected devices. In 2026 is also when the Linux Firewire maintainer plans to begin recommending users migrate away from the IEEE-1394 bus followed by closing the Linux Firewire efforts in 2029...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/IEEE-1394-Firewire-Quirks-2026</guid>
-      <pubDate>Fri, 05 Dec 2025 21:09:11 +0000</pubDate>
+      <title>AMD Starts Enabling Zen 6 "znver6" Compiler Support In GCC</title>
+      <link>https://www.phoronix.com/news/GCC-Patch-AMD-Zen-6-znver6</link>
+      <description>Making for a bit more exciting weekend is that minutes ago AMD has posted their first patch for enabling Zen 6 processor support within the GNU Compiler Collection (GCC) for -march=znver6 targeting...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GCC-Patch-AMD-Zen-6-znver6</guid>
+      <pubDate>Sat, 06 Dec 2025 19:11:15 +0000</pubDate>
     </item>
     <item>
-      <title>Wine 11.0-rc1 Released With TWAINDSM 64-bit Module For Scanners</title>
-      <link>https://www.phoronix.com/news/Wine-11.0-rc1-Released</link>
-      <description>As anticipated the first release candidate of Wine 11.0 is now available in working toward the annual stable release in January...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-11.0-rc1-Released</guid>
-      <pubDate>Fri, 05 Dec 2025 21:18:11 +0000</pubDate>
+      <title>Microsoft's RAMDAX Driver Merged For Linux 6.19 To Carve Out RAM As NVDIMM Devices</title>
+      <link>https://www.phoronix.com/news/RAMDAX-NVDIMM-Merged-Linux-6.19</link>
+      <description>The Non-Volatile Memory Device (NVDIMM) subsystem updates were merged today for the in-development Linux 6.19 kernel. Most notable this cycle for the NVDIMM code is a new open-source driver addition courtesy of Microsoft...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/RAMDAX-NVDIMM-Merged-Linux-6.19</guid>
+      <pubDate>Sat, 06 Dec 2025 21:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>An Intel Fellow &amp;amp; Prominent Linux Performance Engineer Resigns From Intel</title>
-      <link>https://www.phoronix.com/news/Brendan-Gregg-Leaves-Intel</link>
-      <description>There have been many Intel Linux/open-source software engineers to leave the company over the past year among other setbacks for their Linux/open-source initiatives. Announced this Friday night is one of their highest profile departures of the year as it pertains to their Linux efforts...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Brendan-Gregg-Leaves-Intel</guid>
-      <pubDate>Sat, 06 Dec 2025 01:25:16 +0000</pubDate>
+      <title>Linux 6.19 Adds New Console Font To Better Handle Modern Laptops With HiDPI Displays</title>
+      <link>https://www.phoronix.com/news/Terminus-10x18-Console-Linux</link>
+      <description>Sent in for the Linux 6.19 merge window when it comes to the frame-buffer device "FBDEV" subsystem are just a set of "fixes" for FBDEV drivers and code clean-ups. But it does also include a new console font option for better supporting modern laptops with high density displays...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Terminus-10x18-Console-Linux</guid>
+      <pubDate>Sun, 07 Dec 2025 01:25:22 +0000</pubDate>
     </item>
   </channel>
 </rss>

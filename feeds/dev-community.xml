@@ -8,80 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Dec 2025 06:32:21 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 07 Dec 2025 06:32:14 +0000</lastBuildDate>
     <item>
-      <title>How to send WhatsApp alerts using python without paid or third-party tools?</title>
-      <link>https://dev.to/akira_83c76d918b30237d53f/how-to-send-whatsapp-alerts-using-python-without-paid-or-third-party-tools-kpd</link>
-      <description>I’m trying to build a health-monitoring system in Python that needs to send alert messages through WhatsApp. The problem is that my company doesn’t allow any third-party services or paid APIs, and they want the solution to be completely free. We are using SQL Server as the database (already licensed by the company). I only know a bit of Python, so I’m not sure what options I have without using third-party tools like Twilio or Meta’s Cloud API. Is there any way to send WhatsApp messages directly</description>
-      <guid isPermaLink="false">https://dev.to/akira_83c76d918b30237d53f/how-to-send-whatsapp-alerts-using-python-without-paid-or-third-party-tools-kpd</guid>
-      <pubDate>Sat, 06 Dec 2025 05:30:49 +0000</pubDate>
+      <title>Link Shopify to Amazon: A Practical Step-by-Step Guide for Developers and Founders</title>
+      <link>https://dev.to/prateekshaweb/link-shopify-to-amazon-a-practical-step-by-step-guide-for-developers-and-founders-2n8m</link>
+      <description>Hook — why this matters now If you’re running a Shopify store and want to scale sales without doubling your operational overhead, linking Shopify to Amazon is low-hanging fruit. The integration lets you list products, sync inventory, and handle Amazon orders from one admin — which is a real productivity multiplier for small teams and indie founders. Context: who should read this This guide is written for technical founders, devs, and indie hackers who care about reliable workflows and performanc</description>
+      <guid isPermaLink="false">https://dev.to/prateekshaweb/link-shopify-to-amazon-a-practical-step-by-step-guide-for-developers-and-founders-2n8m</guid>
+      <pubDate>Sun, 07 Dec 2025 05:30:21 +0000</pubDate>
     </item>
     <item>
-      <title>AWS re:Invent 2025 - A leader's guide to achieving compliance through software excellence (SNR304)</title>
-      <link>https://dev.to/kazuya_dev/aws-reinvent-2025-a-leaders-guide-to-achieving-compliance-through-software-excellence-snr304-4k5k</link>
-      <description>🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - A leader's guide to achieving compliance through software excellence (SNR304) In this video, Tom Godden (AWS Executive in Residence, former CIO of Foundation Medicine) and Ian</description>
-      <guid isPermaLink="false">https://dev.to/kazuya_dev/aws-reinvent-2025-a-leaders-guide-to-achieving-compliance-through-software-excellence-snr304-4k5k</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fj1dpai5tg67wasrfllsw.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 06 Dec 2025 05:31:44 +0000</pubDate>
+      <title>The Deterministic Problem with Probabilistic AI Analytics</title>
+      <link>https://dev.to/gigapress/the-deterministic-problem-with-probabilistic-ai-analytics-1n2</link>
+      <description>TLDR: AI-powered analytics tools use probabilistic systems (LLMs, semantic search, RAG) to answer business questions that demand deterministic accuracy. Ask the same question twice with slightly different wording, and you might get different SQL queries and different answers. This isn't a minor bug - it's a fundamental architectural problem. The solution isn't better AI, it's rethinking how we match business questions to data, using exact matching for core concepts instead of fuzzy semantic sear</description>
+      <guid isPermaLink="false">https://dev.to/gigapress/the-deterministic-problem-with-probabilistic-ai-analytics-1n2</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6adb0ilcod5jgc60z9yi.png" length="0" type="image/png"/>
+      <pubDate>Sun, 07 Dec 2025 05:32:56 +0000</pubDate>
     </item>
     <item>
-      <title>AWS re:Invent 2025 - A leader's guide to emerging technologies: From insights to rapid action-SNR203</title>
-      <link>https://dev.to/kazuya_dev/aws-reinvent-2025-a-leaders-guide-to-emerging-technologies-from-insights-to-rapid-action-snr203-12b1</link>
-      <description>🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - A leader's guide to emerging technologies: From insights to rapid action-SNR203 In this video, former CIO Arvind and NASA's first CTO Tom Soderstrom address the dual mandate f</description>
-      <guid isPermaLink="false">https://dev.to/kazuya_dev/aws-reinvent-2025-a-leaders-guide-to-emerging-technologies-from-insights-to-rapid-action-snr203-12b1</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwbedzvyq939rxce3507t.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 06 Dec 2025 05:36:22 +0000</pubDate>
+      <title>Building Agentic AI: Amazon Nova Act and Strands Agents in Practice</title>
+      <link>https://dev.to/elianalamhost/building-agentic-ai-amazon-nova-act-and-strands-agents-in-practice-27ec</link>
+      <description>AWS re:Invent 2025 - Building Agentic AI: Amazon Nova Act and Strands Agents in Practice (DEV327) Learn how to build AI agents applications from ground up with AWS Introduction Session introduction on the emergence of Agentic AI as a pivotal topic in the current AI landscape Aimed at forward-thinking developers looking beyond basic understanding to real-world applications and innovations Future Trends of Agentic AI Overview of the evolution of generative AI, highlighting a progression from low a</description>
+      <guid isPermaLink="false">https://dev.to/elianalamhost/building-agentic-ai-amazon-nova-act-and-strands-agents-in-practice-27ec</guid>
+      <pubDate>Sun, 07 Dec 2025 05:39:26 +0000</pubDate>
     </item>
     <item>
-      <title>AWS re:Invent 2025 - Keynote with CEO Matt Garman</title>
-      <link>https://dev.to/kazuya_dev/aws-reinvent-2025-keynote-with-ceo-matt-garman-49o3</link>
-      <description>🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - Keynote with CEO Matt Garman In this video, AWS CEO Matt Garman announces AWS has grown to a $132 billion business with 20% year-over-year growth. He unveils major AI infrastr</description>
-      <guid isPermaLink="false">https://dev.to/kazuya_dev/aws-reinvent-2025-keynote-with-ceo-matt-garman-49o3</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjwm59hb1ybk80uwo9idl.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 06 Dec 2025 06:06:18 +0000</pubDate>
+      <title>The Ultimate Secret of UI/UX Design</title>
+      <link>https://dev.to/olynex/the-ultimate-secret-of-uiux-design-13eh</link>
+      <description>UI/UX Design is one of the most powerful skills in the digital world — yet most people look at it only from the visual side. Great colors, smooth typography, clean layouts… these things matter, but they are not the real secret of UI/UX Design. The ultimate secret is this: UI/UX Design is the art of understanding human behavior Everything you design starts from psychology — not aesthetics. The interface is just the layer people touch. The real design happens much deeper. Let’s break this down. 1.</description>
+      <guid isPermaLink="false">https://dev.to/olynex/the-ultimate-secret-of-uiux-design-13eh</guid>
+      <pubDate>Sun, 07 Dec 2025 05:52:33 +0000</pubDate>
     </item>
     <item>
-      <title>Embeddings memory! They're just *one* piece. True recall n</title>
-      <link>https://dev.to/nullure_ef11832f4ce3b466a/embeddings-memory-theyre-just-one-piece-true-recall-n-5ab8</link>
-      <description>Embeddings ≠ memory! They're just one piece. True recall needs structure, decay, &amp;amp; more. OpenMemory offers long-term memory for AI agents — self-hosted, local-first, open-source. github.com/CaviraOSS/OpenMemory #OpenSource #MachineLearning #LLM</description>
-      <guid isPermaLink="false">https://dev.to/nullure_ef11832f4ce3b466a/embeddings-memory-theyre-just-one-piece-true-recall-n-5ab8</guid>
-      <pubDate>Sat, 06 Dec 2025 06:08:04 +0000</pubDate>
+      <title>Building a JIT Compiler from Scratch: Part 0 - How Computers Run Your Code</title>
+      <link>https://dev.to/darmie/building-a-jit-compiler-from-scratch-part-0-how-computers-run-your-code-2bp1</link>
+      <description>This is the first part of the series on Building a JIT Compiler from Scratch. I have been exploring the world of compilers and interpreters for many years, from theory to many failed attempts. As a hobbyist trying to cure my curiosity. I did not have a Computer Science background even though programming was a mandatory course as a student of Applied Physics. Every advance topic I have learned about compilers were based on personal reading, learning and attempts. Writing a language parser is the</description>
+      <guid isPermaLink="false">https://dev.to/darmie/building-a-jit-compiler-from-scratch-part-0-how-computers-run-your-code-2bp1</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa9j7st1aygc5yydm69tu.png" length="0" type="image/png"/>
+      <pubDate>Sun, 07 Dec 2025 05:52:47 +0000</pubDate>
     </item>
     <item>
-      <title>AWS re:Invent 2025 - From ideas to impact: Architecting with cloud best practices (ARC204)</title>
-      <link>https://dev.to/kazuya_dev/aws-reinvent-2025-from-ideas-to-impact-architecting-with-cloud-best-practices-arc204-54fk</link>
-      <description>🦄 Making great presentations more accessible. This project aims to enhances multilingual accessibility and discoverability while maintaining the integrity of original content. Detailed transcriptions and keyframes preserve the nuances and technical insights that make each session compelling. Overview 📖 AWS re:Invent 2025 - From ideas to impact: Architecting with cloud best practices (ARC204) In this video, James Beaumont and Paul Moran present AWS Cloud Adoption Framework and Well-Architected Fr</description>
-      <guid isPermaLink="false">https://dev.to/kazuya_dev/aws-reinvent-2025-from-ideas-to-impact-architecting-with-cloud-best-practices-arc204-54fk</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fin0lseumfua5ttbukauu.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 06 Dec 2025 06:10:43 +0000</pubDate>
+      <title>Why Context Engineering Is Replacing Prompt Engineering</title>
+      <link>https://dev.to/aiwithapex/why-context-engineering-is-replacing-prompt-engineering-10nh</link>
+      <description>Prompt engineering isn’t the real AI power move anymore. Context engineering is. And almost no one is talking about it. Most teams are still obsessing over clever prompts. They tweak the wording and hope the model “gets smarter.” But the truth is simple. It’s not about better sentences. It’s about better environments. When you give AI rich context, it stops acting like a goldfish with amnesia. It starts acting like a partner that remembers, learns, and adapts. Here’s what the best teams are quie</description>
+      <guid isPermaLink="false">https://dev.to/aiwithapex/why-context-engineering-is-replacing-prompt-engineering-10nh</guid>
+      <pubDate>Sun, 07 Dec 2025 05:56:29 +0000</pubDate>
     </item>
     <item>
-      <title>Arreglar pinchazos cerca de mi en Pozuelo de Alarcón</title>
-      <link>https://dev.to/isabella_brown_4cf0339814/arreglar-pinchazos-cerca-de-mi-en-pozuelo-de-alarcon-ff</link>
-      <description>Encontrar un lugar fiable para arreglar pinchazos cerca de mi en Pozuelo de Alarcón es fundamental cuando surge una emergencia en la carretera. Un pinchazo puede ocurrir en el momento menos esperado: camino al trabajo, llevando a los niños al colegio o incluso durante un viaje corto dentro del municipio. En esos momentos, lo que más se valora es la rapidez, la profesionalidad y la cercanía del servicio. En Pozuelo de Alarcón, una zona conocida por su tránsito fluido, sus urbanizaciones y su vida</description>
-      <guid isPermaLink="false">https://dev.to/isabella_brown_4cf0339814/arreglar-pinchazos-cerca-de-mi-en-pozuelo-de-alarcon-ff</guid>
-      <pubDate>Sat, 06 Dec 2025 06:10:59 +0000</pubDate>
+      <title>GPUI Component: Because Desktop Apps Shouldn't Make You Cry</title>
+      <link>https://dev.to/dev-tngsh/gpui-component-because-desktop-apps-shouldnt-make-you-cry-pkp</link>
+      <description>GPUI Component is a Rust library that brings 60+ ready-to-use UI components to desktop development, combining the performance of native apps with React-style state management. Instead of wrestling with platform-specific UI toolkits or electron's memory appetite, you get a single codebase that compiles to truly native desktop apps without the bloat. The Desktop UI Problem Nobody Talks About Let's be honest: building desktop apps in 2025 is kind of embarrassing. You either: Use Electron and watch</description>
+      <guid isPermaLink="false">https://dev.to/dev-tngsh/gpui-component-because-desktop-apps-shouldnt-make-you-cry-pkp</guid>
+      <pubDate>Sun, 07 Dec 2025 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Quadratic Scaling, Power, Patience, and Mastery</title>
-      <link>https://dev.to/bibimbop123/quadratic-scaling-power-patience-and-mastery-3h7p</link>
-      <description>This entire insight began with something simple: counting down 10 seconds over and over while working at Costco. In that repetitive rhythm, a deeper truth revealed itself — small cycles repeated consistently create massive, accelerating growth. What starts as a way to pass the time becomes a window into how mastery, patience, and power scale in real life., Power, Patience, and Mastery** 1. The Mathematical Insight: Why Products Scale Quadratically When you multiply numbers inside the range 1–100</description>
-      <guid isPermaLink="false">https://dev.to/bibimbop123/quadratic-scaling-power-patience-and-mastery-3h7p</guid>
-      <pubDate>Sat, 06 Dec 2025 06:18:17 +0000</pubDate>
+      <title>Is Tailwind actually slow?</title>
+      <link>https://dev.to/yoskutik/is-tailwind-actually-slow-533d</link>
+      <description>Tailwind managed to conquer the hearts of many developers and at the same time become the most despised CSS framework for many others. People love and hate it for a variety of reasons, but today I want to talk about TailwindCSS performance. Some skeptical developers believe that Tailwind can negatively affect loading and rendering times. But does it? In this article, I want to address the following allegations: “Tailwind may negatively affect the rendering time.”: Too many atomic CSS classes may</description>
+      <guid isPermaLink="false">https://dev.to/yoskutik/is-tailwind-actually-slow-533d</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgw82kkk7mnpnh0xd44pa.png" length="0" type="image/png"/>
+      <pubDate>Sun, 07 Dec 2025 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>🔐Secure AWS Access Using Client VPN Endpoint — A Step-by-Step Guide (EasyRSA + ACM)</title>
-      <link>https://dev.to/latchudevops/secure-aws-access-using-client-vpn-endpoint-a-step-by-step-guide-easyrsa-acm-3mh2</link>
-      <description>Managing secure access to your AWS resources—without juggling IP whitelisting or exposing your infrastructure—is easier than you think. In this guide, you’ll learn how to create your own certificates using EasyRSA, upload them to AWS Certificate Manager (ACM), and configure a fully functional AWS Client VPN Endpoint. By the end, you’ll be able to connect securely to your VPC with a simple VPN client. ⭐ What We’ll Cover Generating server &amp;amp; client certificates using EasyRSA Uploading certificates</description>
-      <guid isPermaLink="false">https://dev.to/latchudevops/secure-aws-access-using-client-vpn-endpoint-a-step-by-step-guide-easyrsa-acm-3mh2</guid>
-      <pubDate>Sat, 06 Dec 2025 06:20:32 +0000</pubDate>
+      <title>The €82,000 Blind Spot That Almost Sank a SaaS Company</title>
+      <link>https://dev.to/tracksimple/the-eu82000-blind-spot-that-almost-sank-a-saas-company-4na6</link>
+      <description>The €82,000 Blind Spot That Almost Sank a SaaS Company Last Tuesday, Alex, founder of a mid-sized project management SaaS, stared at his Q3 revenue report. Something felt off. After digging, he discovered a competitor had quietly dropped their Pro tier price by 15% – 47 days earlier. In those 47 days, Alex’s company lost 12 enterprise customers worth €82,000 in annual recurring revenue. Why? His team was manually checking competitor websites once a week. They missed the price change completely u</description>
+      <guid isPermaLink="false">https://dev.to/tracksimple/the-eu82000-blind-spot-that-almost-sank-a-saas-company-4na6</guid>
+      <pubDate>Sun, 07 Dec 2025 06:02:48 +0000</pubDate>
     </item>
     <item>
-      <title>Smart Contracts and dApps on Ethereum (for Non‑Technical People)</title>
-      <link>https://dev.to/ribhavmodi/day-6-smart-contracts-and-dapps-on-ethereum-for-non-technical-people-2mi3</link>
-      <description>For the last couple of days, Ethereum has shown up as “a shared computer” and “a platform for decentralized apps”, not just “another coin like Bitcoin”. Day 6 is about the two ideas that make that possible: smart contracts and dApps, explained for people who don’t write Solidity.​ Quick reminder: where we left Ethereum Bitcoin’s main idea is digital money on a public network instead of inside a bank’s database. Ethereum extends that idea by letting the network run small programs, not just track</description>
-      <guid isPermaLink="false">https://dev.to/ribhavmodi/day-6-smart-contracts-and-dapps-on-ethereum-for-non-technical-people-2mi3</guid>
-      <pubDate>Sat, 06 Dec 2025 06:22:04 +0000</pubDate>
+      <title>Building SaaS for Nigerian Traders: Technical Decisions Beyond the Stack</title>
+      <link>https://dev.to/tochukwu_dev/building-saas-for-nigerian-traders-technical-decisions-beyond-the-stack-m22</link>
+      <description>When building MyTreda (an inventory system for Nigerian small businesses), I realized Western SaaS tutorials don't cover my users' reality. My traders needed WhatsApp numbers for customer contact, not just email. They run motor parts shops and cosmetics stores with industry-specific inventory needs. They face unreliable connections, so I built retry logic into my MongoDB setup. Here's what I learned making technical decisions for a market that's invisible to most developer content. Section 1: Un</description>
+      <guid isPermaLink="false">https://dev.to/tochukwu_dev/building-saas-for-nigerian-traders-technical-decisions-beyond-the-stack-m22</guid>
+      <pubDate>Sun, 07 Dec 2025 06:03:25 +0000</pubDate>
     </item>
   </channel>
 </rss>
