@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Dec 2025 06:35:03 +0000</lastBuildDate>
-    <item>
-      <title>Nvidia修補DGX Spark重大漏洞，可能導致AI系統遭接管</title>
-      <link>https://www.ithome.com.tw/news/172650</link>
-      <description>新聞Nvidia針對桌上型AI超級電腦DGX Spark，在11月21日發布安全更新，修補14項資安漏洞，影響Nvidia DGX Spark GB10晶片的SROOT、OSROOT等核心模組。建議用戶立即更新作業系統版本，以防止潛在攻擊。 其中安全風險最高者，為編號CVE-2025-33187的重大（Critical）漏洞（CVSS v3.1分數為9.3），存在於DGX Spark GB10的SROOT模組。根據Nvidia說明，攻擊者若取得特權存取，可能進一步進入SoC受保護區域。成功利用此漏洞，可能導致任意程式碼執行、資訊外洩、資料竄改、服務阻斷或權限提升。 這次修補還包括二項高風險漏洞，CVE-2025-33188讓攻擊者得以竄改相關硬體控制，成功利用可能導致資訊外洩、資料竄改或服務阻斷。CVE-2025-33189為越界寫入漏洞，攻擊者可藉此造成記憶體寫入錯誤，可能引發任意程式碼執行、資料竄改、服務阻斷、資訊外洩或權限提升。 其餘11項漏洞則涵蓋記憶體處理錯誤、邏輯流程未妥善檢查與阻斷服務（DoS）等問題，可能造成系統運作中斷或資料損毀。 根據Nvidia說明，上述漏洞是由該</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172650</guid>
-      <pubDate>Fri, 05 Dec 2025 03:24:10 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 07 Dec 2025 06:35:37 +0000</lastBuildDate>
     <item>
       <title>Array Networks旗下VPN設備資安漏洞遭利用，攻擊者以此植入Web Shell</title>
       <link>https://www.ithome.com.tw/news/172652</link>
@@ -44,6 +37,14 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/news/172655</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/images/BRICKSTORM%20MAR%20Figure%201.png" length="0" type="image/png"/>
       <pubDate>Fri, 05 Dec 2025 05:48:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>亞東紀念醫院揭精準醫療永續平臺，基因定序分析加速16倍</title>
+      <link>https://www.ithome.com.tw/news/172672</link>
+      <description>新聞亞東紀念醫院12月5日揭露自家精準醫療永續平臺，這是一套2023年開始打造的第核心基因定序雲端系統，採用去年底落地臺灣區域的微軟Azure雲端服務，加速基因分析時間達16倍。該系統資料庫涵蓋1.3萬名個案、共90億筆資料，其龐大資料的查詢時間從原本的140秒縮短為12秒左右，大幅提高研究效率。亞東紀念醫院也將基因定序分析結果應用於臨床，在門、急、住醫囑系統中提醒醫師用藥風險和特定遺傳疾病風險，讓醫師更精準對症下藥。 2022年開始建基因資料庫，打造門急住醫囑系統用藥警示 亞東紀念醫院醫學研究部主任吳彥雯指出，現行的醫療行為，都仰賴大量實驗數據而來，就好比做大量白老鼠實驗，從中找出最有效的藥物和劑量。 但其實，每個個體基因不同，每人合適的療法未必與實驗公認的最佳解一樣。這就是精準醫療的宗旨，要透過個人基因定序及其變異，來給予最合適的藥物和治療。 亞東紀念醫院也自2022年開始，投入TPMI臺灣精準醫療計畫。這個計畫由中研院聯手全臺16家醫療體系執行，目標是建置國家級人體基因資料庫，作為精準治療疾病的重要參考。在這項計畫中，亞東醫院收納了13,321個案、人體生物資料庫簽署率高達98%</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172672</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-12-06%20215153.png" length="0" type="image/png"/>
+      <pubDate>Fri, 05 Dec 2025 06:34:32 +0000</pubDate>
     </item>
     <item>
       <title>微軟將在2026年7月提高Office 365/Microsoft 365商用訂閱費率</title>
