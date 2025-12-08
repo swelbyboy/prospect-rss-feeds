@@ -8,78 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 07 Dec 2025 06:35:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Dec 2025 06:41:35 +0000</lastBuildDate>
     <item>
-      <title>Array Networks旗下VPN設備資安漏洞遭利用，攻擊者以此植入Web Shell</title>
-      <link>https://www.ithome.com.tw/news/172652</link>
-      <description>新聞一年前資安業者趨勢科技提出警告，中國國家級駭客Earth Kasha（MirrorFace）鎖定多個廠牌的SSL VPN系統發動攻擊，其中一個目標是安瑞科技（Array Networks）旗下的Array AG系列設備，如今有新的漏洞利用活動出現。 12月3日日本電腦網路危機處理暨協調中心（JPCERT/CC）提出警告，他們指出Array AG當中的DesktopDirect功能，存在未登記CVE編號的命令注入弱點，他們在8月發現漏洞利用攻擊活動，攻擊者以此部署Web Shell。該漏洞存在於ArrayOS AG 9.4.5.8及之前版本，安瑞科技已在今年5月發布9.4.5.9版修補，呼籲IT人員要儘速升級新版作業系統因應。 JPCERT/CC提及，他們接獲日本企業組織通報相關攻擊事故，攻擊者來自194.233.100[.]138，在受害設備的特定路徑/ca/aproxy/webapp/當中，植入PHP打造的Web Shell，之後，他們就會建立新的使用者帳號，並透過Array AG入侵受害組織的內部網路環境。 究竟這個漏洞的影響範圍有多大？Macnica威脅情報研究員瀬治山豐（Y</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172652</guid>
-      <pubDate>Fri, 05 Dec 2025 03:55:45 +0000</pubDate>
+      <title>蘋果法務長、政策主管將於2026年初退休　晶片主管傳也將離職</title>
+      <link>https://www.ithome.com.tw/news/172676</link>
+      <description>新聞蘋果上周宣佈法務長Kate Adams及環境、政策與社會措施副總裁Lisa Jackson將分別於2026年3月及1月退休離開公司。 蘋果同時宣佈迎接Meta前法務長Jennifer Newstead，她將於2026年1月以資深副總裁身分加入蘋果，成為高層團隊一員，向執行長Tim Cook報告。Jennifer Newstead上任後將與2017年起擔任蘋果法務長的Kate Adams交接職務，並於3月1日接任法務長一職。因此，政策主管Jackson明年一月退休後，其職務先由法務長Adams接手。而在Adams 3月退休後，Newstead即接手Jackson和Adams職缺。Newstead在Meta法務長之前，曾擔任川普第一任期的國務院首席法律顧問， 除此之外，彭博報導，蘋果硬體主管Johny Srouj已告知執行長Tim Cook自己已認真考慮離去。Srouj在蘋果的任務是開發第一顆自有數據機晶片C1，目的是為了取代高通5G數據機晶片。 這些高層異動消息是蘋果繼營運長Jeff Williams退休、AI主管John Giannandrea於2026年春天退休及介面設計主管跳槽</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172676</guid>
+      <pubDate>Mon, 08 Dec 2025 02:00:45 +0000</pubDate>
     </item>
     <item>
-      <title>俄羅斯限制蘋果FaceTime的語音及視訊功能</title>
-      <link>https://www.ithome.com.tw/news/172653</link>
-      <description>新聞繼限制YouTube、WhatsApp與Telegram的使用之後，俄羅斯政府周四（12/4）宣布限制蘋果FaceTime的語音及視訊通訊服務。 路透社（Reuters）引用俄羅斯國家通訊監管機構Roskomnadzor的說法指出，FaceTime被鎖定的理由是它被用來進行犯罪行動，包括恐怖攻擊、招募同謀，以及詐騙等。 俄羅斯政府要求當地所有電子裝置自2025年9月起，都必須預裝由VK所開發的MAX傳訊程式，MAX提供不同功能的資訊交換服務，也支援安全通訊，還能存取政府及企業的各種數位服務，被視為俄羅斯新一代國家級通訊平臺，以取代同樣由VK所開發的VK Messenger。 根據塔斯社（ТАСС，俄羅斯國家通訊社）的報導，這兩天Roskomnadzor不只限制FaceTime的使用，也封鎖了SnapChat，理由一樣是SnapChat被用來組織犯罪行動。 俄羅斯政府經常使用限制或封鎖等手段來向各種平臺施壓，以要求平臺配合審查或資料共享。最常見的形式是部分功能被削弱、被降速、被局部封閉，但某種程度還能使用。例如WhatsApp仍可傳送文字，但國際通話受限；或是減少頻寬以讓平臺變慢，但</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172653</guid>
-      <pubDate>Fri, 05 Dec 2025 04:50:25 +0000</pubDate>
+      <title>Google發布Chrome 143，修補V8引擎高風險漏洞</title>
+      <link>https://www.ithome.com.tw/news/172674</link>
+      <description>新聞在12月2日正式發布的Chrome 143版本，Google修補13項由外部研究人員通報的資安漏洞，影響Chrome多個核心元件。 此次更新涵蓋Windows/macOS（143.0.7499.40/41），Linux（143.0.7499.40），Android（143.0.7499.52），以及iOS（143.0.7499.92）版本。 根據Google官方公告，本次更新修補4項高風險漏洞，分別是：V8 JavaScript/WebAssembly引擎的類型混淆漏洞（CVE-2025-13630），Google Updater的不當實作漏洞（CVE-2025-13631）、DevTools的不當實作漏洞（CVE-2025-13632），以及Digital Credentials元件的使用後釋放漏洞（CVE-2025-13633），除了CVE-2025-13632，其他三個高風險漏洞的CVSS風險分數均為8.8分。另外也修補3項中度風險漏洞，涉及Downloads、Loader與V8引擎。 Google也對通報漏洞的外部研究人員提供獎勵，針對V8高風險漏洞（CVE-2025-13</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172674</guid>
+      <pubDate>Mon, 08 Dec 2025 02:41:54 +0000</pubDate>
     </item>
     <item>
-      <title>中國駭客利用Brickstorm對VMware虛擬化平臺下手，從事網路間諜活動</title>
-      <link>https://www.ithome.com.tw/news/172654</link>
-      <description>新聞中國國家級駭客運用特定惡意軟體從事網路間諜活動的情況，不時有資安業者揭露相關事故，如今引發政府單位更大的重視，發出警告呼籲企業組織要提高警覺。 12月4日美國網路安全與基礎設施安全局（CISA）、國家安全局（NSA），以及加拿大網路安全中心（Canadian Centre for Cyber Security）發出聯合警告，中國國家級駭客利用惡意軟體Brickstorm，鎖定政府及資訊科技部門，從事長期間諜活動。Brickstorm是專為VMware vSphere打造的後門程式，駭客通常會用於攻擊vCenter與ESXi主機，不過，也有對Windows電腦進行滲透的情況。 駭客主要鎖定vSphere平臺發動攻擊，一旦成功入侵，他們就會存取vCenter管理主控臺，複製虛擬機器（VM）的快照並偷走，然後從中擷取憑證，並建立隱藏的惡意虛擬機器。在其中一起事故裡，攻擊者從去年4月成功入侵受害組織，並建立長期存取的管道，將Brickstorm植入內部網路環境的vCenter主機，後續取得兩臺網域控制器（DC）與AD聯邦服務（ADFS）主機的存取權限，並從ADFS伺服器匯出金鑰及帳密資料，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172654</guid>
-      <pubDate>Fri, 05 Dec 2025 05:21:50 +0000</pubDate>
+      <title>Cloudflare實施React漏洞防護引發近期第二次斷線</title>
+      <link>https://www.ithome.com.tw/news/172677</link>
+      <description>新聞Cloudflare解釋上周五因為針對React漏洞實施防護措施，在部份代理伺服器引發錯誤，導致二個星期來第二次斷線。 世界協調時間12月5日早上8:47，一部份時間Cloudflare網路發生斷線，不過約半小時就解決了，在09:12所有服務就回復上線（臺北時間同日16: 47到17:12）。受影響的HTTP流量約佔Cloudflare服務流量的28%。 Cloudflare說，此次斷線不是直接或間接出於Cloudflare系統網路攻擊，或任何惡意活動。該公司技術長Dane Knecht解釋，上周React伺服器通報CVSS 10的重大漏洞CVE-2025-55182，因此Cloud代理伺服器將記憶體內HTTP請求解析緩衝由128K提高為1MB，以作為網頁防火牆（WAF）的分析，這個值是Next.js應用程式預設最高的。 管理團隊利用漸進部署系統第一次變更WAF規則時，發現內部WAF測試工具不支援擴大緩衝，且對客戶流量沒有影響，因此他們做了第二次變更，想將WAF規則測試工具關閉。然而其全球配置系統未執行漸進式部署，而是在數秒內將變更一下子部署到Cloudflare網路的所有伺服器。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172677</guid>
+      <pubDate>Mon, 08 Dec 2025 02:58:54 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】12月5日，React滿分資安漏洞已有多組中國駭客加入利用行列</title>
-      <link>https://www.ithome.com.tw/news/172655</link>
-      <description>新聞多組中國駭客從事React伺服器元件滿分漏洞利用活動 12月3日React開發團隊公布伺服器元件的滿分漏洞CVE-2025-55182（React2Shell），並表示只要用戶的應用程式支援React伺服器元件，就可能曝險，如今傳出駭客已試圖利用漏洞的情況。 AWS威脅情報團隊指出，他們在React公布漏洞的數小時之後，發現多個中國駭客組織已經開始積極將其用於攻擊活動，這些駭客包括長年鎖定拉丁美洲、中東，以及東南亞的Earth Lamia，以及針對東亞及東南亞的Jackpot Panda。他們同時使用自動掃描工具與概念驗證攻擊（PoC）工具，其中部分自動化工具搭載使用者代理字串（User Agent）隨機化機制，目的是迴避資安偵測。不過，除了CVE-2025-55182，這些駭客也使用其他近期公布的已知（N-day）漏洞，其中一個是CVE-2025-1338。 針對駭客的行動，AWS指出是持續性且有條理地在進行，他們在其中一個MadPot密罐陷阱當中，看到駭客花費接近一個小時，發出116次請求，試圖透過多種有效酬載利用漏洞、執行Linux指令、寫入檔案，以及讀取帳密資料。上述的發現</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172655</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/BRICKSTORM%20MAR%20Figure%201.png" length="0" type="image/png"/>
-      <pubDate>Fri, 05 Dec 2025 05:48:49 +0000</pubDate>
+      <title>網飛將以827億美元收購華納兄弟的串流媒體服務</title>
+      <link>https://www.ithome.com.tw/news/172678</link>
+      <description>新聞網飛（Netflix）上周五（12/5）宣布，已與Warner Bros. Discovery（WBD）達成最終收購協議，將以總價約827億美元收購WBD即將拆分的WBD Streaming &amp;amp; Studios，涵蓋WBD的電影與電視工作室、HBO/HBO Max等資產。雙方董事會皆已通過此一併購案，但仍需監管機構及WBD股東同意，預計於12~18個月內完成交易。 Warner Bros. Discovery是在2022年由AT&amp;amp;T旗下的華納媒體（WarnerMedia）與Discovery合併而成，為全球最大的媒體及娛樂集團之一。WarnerMedia源自擁有百年歷史的華納兄弟片廠，掌握電影、電視劇與HBO等影視內容，Discovery則以全球化的紀實與實境節目見長，合併後的業務橫跨電影、電視、新聞、體育、實境與串流，成為全球少數同時橫跨高端影視與大眾娛樂的媒體集團。 不過，WBD在2025年6月宣布將拆分成WBD Streaming &amp;amp; Studios與WBD Global Networks，前者核心為內容與串流，資產包括華納兄弟電影與電視工作室、HBO、HBO Max、遊戲業</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172678</guid>
+      <pubDate>Mon, 08 Dec 2025 03:09:14 +0000</pubDate>
     </item>
     <item>
-      <title>亞東紀念醫院揭精準醫療永續平臺，基因定序分析加速16倍</title>
-      <link>https://www.ithome.com.tw/news/172672</link>
-      <description>新聞亞東紀念醫院12月5日揭露自家精準醫療永續平臺，這是一套2023年開始打造的第核心基因定序雲端系統，採用去年底落地臺灣區域的微軟Azure雲端服務，加速基因分析時間達16倍。該系統資料庫涵蓋1.3萬名個案、共90億筆資料，其龐大資料的查詢時間從原本的140秒縮短為12秒左右，大幅提高研究效率。亞東紀念醫院也將基因定序分析結果應用於臨床，在門、急、住醫囑系統中提醒醫師用藥風險和特定遺傳疾病風險，讓醫師更精準對症下藥。 2022年開始建基因資料庫，打造門急住醫囑系統用藥警示 亞東紀念醫院醫學研究部主任吳彥雯指出，現行的醫療行為，都仰賴大量實驗數據而來，就好比做大量白老鼠實驗，從中找出最有效的藥物和劑量。 但其實，每個個體基因不同，每人合適的療法未必與實驗公認的最佳解一樣。這就是精準醫療的宗旨，要透過個人基因定序及其變異，來給予最合適的藥物和治療。 亞東紀念醫院也自2022年開始，投入TPMI臺灣精準醫療計畫。這個計畫由中研院聯手全臺16家醫療體系執行，目標是建置國家級人體基因資料庫，作為精準治療疾病的重要參考。在這項計畫中，亞東醫院收納了13,321個案、人體生物資料庫簽署率高達98%</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172672</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-12-06%20215153.png" length="0" type="image/png"/>
-      <pubDate>Fri, 05 Dec 2025 06:34:32 +0000</pubDate>
+      <title>【資安週報】1201~1205，臺灣有6家業者分別傳出遭勒索軟體攻擊的消息</title>
+      <link>https://www.ithome.com.tw/news/172675</link>
+      <description>新聞回顧2025年12月第一星期資安新聞，多起勒索軟體攻擊事故成為國內資安新聞最大焦點，因為國內有6家企業傳出相關事故，涵蓋連鎖藥局、自行車零組件製造、電子科技大廠等。 ●以連鎖大樹藥局為營運主體的上櫃公司大樹在11月30日發布重訊，說明有部分檔案遭到勒索軟體加密。 ●興櫃公司久裕興業科技在11月27日發布重訊，說明部分伺服器資料遭加密或刪除，導致部分系統無法使用。 ●鴻海旗下連接器製造商鴻騰精密（FIT）在12月2日傳出遭勒索軟體INC Ransom攻擊，該公司表示已於11月27日在香港證交所發布公告，說明11月初發現集團資訊系統遭入侵，伺服器遭受網路攻擊。 ●華碩在12月3日傳出遭勒索軟體Everest攻擊，華碩於當日晚間在其網站發表聲明，指出此事件是供應商遭到攻擊，導致華碩手機相機部分影像處理原始碼受影響，但未說明供應商是誰。 ●關於非上市櫃公司，我們蒐集到兩項威脅情資，一是勒索軟體集團Gentlemen Ransomware聲稱線材組裝廠新呈工業是其受害者，該公司回覆我們已在處理因應；另一是Benzona勒索軟體集團在12月3日聲稱攻擊陽信電子商務的Sunny Go陽信商店街，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172675</guid>
+      <pubDate>Mon, 08 Dec 2025 03:22:35 +0000</pubDate>
     </item>
     <item>
-      <title>微軟將在2026年7月提高Office 365/Microsoft 365商用訂閱費率</title>
-      <link>https://www.ithome.com.tw/news/172660</link>
-      <description>新聞微軟周四（12/4）宣布，從2026年起，Office 365與Microsoft 365將全面導入更多AI，並將於7月調漲商用訂閱價格，漲幅介於0~33%之間。 目前Office 365主要內建輕量級或傳統AI功能，像是Editor的拼字文法建議，Teams的會議摘要，Outlook自動分類或是Office文件的推薦功能。但自2026年起，微軟會在Office 365 E3中嵌入基於AI的Defender for Office進階郵件防護，Office 365 E1與Microsoft 365 Business Basic／Business Standard等方案將新增基於AI的URL安全檢查。 整體來看，Office 365的AI強化著重於安全領域，依照微軟目前的規畫，Office 365明年也不會內建Copilot或文書AI。 變動較大的則是Microsoft 365。現在的Microsoft 365已提供Copilot Chat，可協助搜尋與分析郵件、文件與Teams內容；部分E5客戶也能使用Security Copilot，以及Defender、Entra、Intune中</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172660</guid>
-      <pubDate>Fri, 05 Dec 2025 07:37:24 +0000</pubDate>
+      <title>美國匿名電信服務Phreeli上線了</title>
+      <link>https://www.ithome.com.tw/news/172679</link>
+      <description>新聞號稱是全球首個以隱私為優先的匿名電信服務Phreeli，上周四（12/4）於美國正式上線了，使用者只需要提供郵遞區號就能啟用服務，採用雙盲式加密架構Double-Blind Armadillo以隔離用戶身分及通訊行為，且強調絕不銷售通話資料。 Phreeli的創辦人暨執行長為長期對抗政府監控的Nicholas Merrill。2004年，Merrill所經營的網路服務收到FBI發出的信函，要求交出用戶資料並附帶封口令，Merrill拒絕配合，也提出了訴訟，同時在2010年創立了Calyx Institute，以打造去追蹤版的Android作業系統CalxyOS，推出零紀綠VPN，以及支援Tor節點服務，並於2013年獲得勝訴。 根據Wired報導，Phreeli屬於行動虛擬網路業者（Mobile Virtual Network Operator，MVNO），自己並不擁有基地臺或實體電信網路，而是向T-Mobile租用網路來提供門號。 而Phreeli採用的Double-Blind Armadillo為一全新的隱私架構與加密協議，有別於多數電信系統是將識別資訊、支付方式及電話號碼等資</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172679</guid>
+      <pubDate>Mon, 08 Dec 2025 03:26:05 +0000</pubDate>
     </item>
     <item>
-      <title>Google推Workspace Studio，無程式碼開發AI代理自動化企業工作流程</title>
-      <link>https://www.ithome.com.tw/news/172656</link>
-      <description>新聞Google正式開放Workspace Studio，其為可在Workspace環境中設計、管理與分享AI代理的統一平臺。這項新服務以Gemini 3的推理與多模態能力為基礎，強調使用者不需撰寫程式碼或學習特殊語法，就能在數分鐘內建立代理，自動化從日常行政到較複雜的業務流程，並預計在未來幾周陸續提供給商務用戶。 Workspace代理結合Gemini的進階推理，能夠處理複雜、端到端的業務流程，依新資訊動態調整後續步驟，可用於情緒分析、內容撰寫與改寫、任務優先順序判斷以及智慧通知等情境。 Workspace Studio與既有Workspace服務的整合也是這次發布的重點，這些代理可以直接連動Gmail、Google Drive與Google Chat，讀取使用者的工作脈絡，並在符合企業政策的前提下產生內容與建議，使用者可以在側邊欄檢視代理最近的執行活動。Google展示的其中一個情境，是建立一個代理自動判斷哪些郵件包含需要回覆的問題，替郵件加上「待回覆」標籤，同時在Chat提醒收件人，甚至從郵件與附件中擷取行動項目或發票號碼，減少人工逐封檢查的負擔。 除了Workspace自身服務</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172656</guid>
-      <pubDate>Fri, 05 Dec 2025 07:50:20 +0000</pubDate>
+      <title>Meta收購AI穿戴裝置製造商Limitless</title>
+      <link>https://www.ithome.com.tw/news/172680</link>
+      <description>新聞AI穿戴裝置製造商Limitless上周五（12/5）宣布已被Meta收購，但雙方並未公布交易金額。 Limitless創立於2020年，主要開發以AI為核心的個人記憶與生活紀錄工具，於2024年推出隨身穿戴裝置Pendant，它沒有螢幕、可夾帶在服飾上，內建麥克風及AI語音處理能力，可即時錄製使用者的日常對話、會議與環境聲音，並自動生成逐字稿、重點摘要，以及可搜尋的紀錄內容，能夠搭配手機及雲端使用。Pendant裝置再加上1年的AI訂閱售價299美元。 Limitless也開發了專為Windows及macOS設計的Rewind程式，它是PC上的Pendant，可於背景自動記錄螢幕操作、應用程式內容、瀏覽紀錄及部分語音，再透過AI建立可搜尋的數位記憶，讓使用者透過自然語音查詢。 Limitless在被Meta收購後準備結束營業。雙方公布此事的當天，Limitless即終止Pendant裝置的銷售；宣布Rewind程式將在12月19日停用所有螢幕與聲音錄製功能；同時立即於巴西、中國、歐盟、以色列、韓國、土耳其與英國停止服務，這些地區的用戶可在12月9日之前下載所存放的資料，之後帳戶與</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172680</guid>
+      <pubDate>Mon, 08 Dec 2025 04:31:13 +0000</pubDate>
     </item>
     <item>
-      <title>Battering RAM硬體攻擊可繞過Intel與AMD機密運算，威脅公有雲資料安全</title>
-      <link>https://www.ithome.com.tw/news/172666</link>
-      <description>新聞資安研究人員發表論文揭露Battering RAM攻擊，示範只要一塊成本約50美元的客製記憶體介面板，就能在Intel Scalable SGX與AMD SEV-SNP這兩種主流機密運算技術上，繞過記憶體加密與開機驗證，在SGX上取得受保護記憶體的任意明文讀寫能力，並在SEV-SNP上破壞驗證機制（Attestation），直接動搖公有雲機密運算宣稱連雲端營運商都看不到資料內容的安全前提。研究團隊更指出，這類攻擊無法靠軟體或韌體更新輕易修補。 Battering RAM研究團隊在處理器與DDR4 DRAM之間插入一塊自製中介層（Interposer）電路板，平常在開機階段不干擾正常開機流程，讓平臺的信任開機與記憶體檢查全部通過，待系統進入正常運作後，再切換成惡意模式，悄悄把受保護位址導向攻擊者控制的區域，進行密文重播（Ciphertext Replay）與竄改。 Battering RAM研究團隊在處理器與DDR4 DRAM之間插入自製中介層（Interposer）電路板，手法是利用中介層在系統運作階段動態改寫記憶體位址對映，製造看似正常卻指向錯誤實體位置的記憶體位址別名。中介層在</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172666</guid>
-      <pubDate>Fri, 05 Dec 2025 09:07:35 +0000</pubDate>
+      <title>冒牌ChatGPT Atlas瀏覽器網站鎖定macOS用戶而來，意圖竊取帳密資料</title>
+      <link>https://www.ithome.com.tw/news/172681</link>
+      <description>新聞研究人員發現一個冒充OpenAI ChatGPT Atlas瀏覽器網站的惡意網站，結合神似正版的網站和指令使用者執行命令，得以繞過端點安全防護軟體，騙取使用者密碼和憑證。 Fable Security研究人員Kaushik Devireddy是在主動Google搜尋ChatGPT Atlas時，經由第一個贊助連結點進這個假網頁。研究人員形容它是一個結合網站假冒、信任代管、混淆指令及權限升級的完美Clickfix攻擊。 這個假網站藉由代管在Google Site，以提升其可信度，而且網站設計和正版Atlas網站在排版及設計上幾乎相同。但是假網站和正版操作指令有相當不同。有別於標準版installer(.dmg)，冒牌網站提供一段看似無害的base64字串指令，要求使用者貼在Terminal執行。一旦執行後，該指令就解碼成代管於一個攻擊者控制網域的遠端腳本程式。 該程式會反覆要求使用者輸入不同macOS密碼，直到使用者輸入正確的密碼。接著，執行串利用該密碼以提高權限進階第二階段程式下載。本質上這個過程是典型的ClickFix攻擊。但值得注意的是，下載的惡意程式都未觸發CrowdStri</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172681</guid>
+      <pubDate>Mon, 08 Dec 2025 04:56:20 +0000</pubDate>
     </item>
     <item>
-      <title>TypeScript 7編譯速度可達10倍，微軟定調6.0為最後JavaScript版</title>
-      <link>https://www.ithome.com.tw/news/172670</link>
-      <description>新聞微軟TypeScript團隊公開最新開發進度，確認代號Corsa的TypeScript 7原生工具鏈已進入後段，編譯器與語言服務在真實專案上的相容性與穩定度接近可用水準，並在大型程式碼庫上測得接近10倍的編譯效能提升，同時宣告TypeScript 6.0將成為最後一個以JavaScript實作的版本，之後的重心將全面轉向Go原生實作的編譯器與語言服務。 官方已透過VS Code原生預覽延伸套件釋出新的TypeScript語言服務，新服務同樣支援程式碼完成、定義與參考導覽、重新命名、簽章說明等核心功能，並已能在含有專案參照（Project References）的TypeScript與JavaScript程式碼庫中日常使用。微軟表示，語言服務內部改寫成利用共用記憶體的並行架構後，針對大小規模的專案都可降低記憶體使用量與載入時間，改善過去原生預覽偶爾不穩定的問題。 效能是這次TypeScript原生化的重點，微軟以既有JavaScript版編譯器tsc為基準，與Go原生實作的tsgo進行完整建置時間比較，結果顯示tsgo大致可得到約7到10倍的速度提升，即便這些數字是在未啟用--inc</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172670</guid>
-      <pubDate>Fri, 05 Dec 2025 11:04:31 +0000</pubDate>
+      <title>Slack在臺服務將移轉至中國？ Salesforce：臺灣用戶使用全球基礎設施，與阿里巴巴無關</title>
+      <link>https://www.ithome.com.tw/news/172682</link>
+      <description>新聞因線上協作空間而受到不少企業使用的Slack，上周傳出臺灣地區的服務將被畫分為中國，並要求Slack用戶將資料移轉到阿里巴巴；對此，iThome向Salesforce臺灣分公司求證，Salesforce臺灣總經理蘇俊熹回應，臺灣服務使用的是全球基礎設施，與中國特規版不同，不論金流或資料、數據中心都與阿里雲無關。 上周有國內媒體引用The Information的報導，指出近兩周陸續有用戶收到官方信件通知，Slack通訊協作服務已將臺灣，畫為中國、香港、澳門同一服務地區，Slack用戶需將帳戶轉移到阿里巴巴以繼續使用服務，需要透過阿里雲購買服務。 網路上還貼出來自Slack發出的通知信，信中指出Salesforce和阿里巴巴在2019年建立策略合作關係，指定阿里雲作為中國、香港、澳門、臺灣的Salesforce CRM獨家供應商，通知用戶Slack將不再續訂服務，明年2月之後將暫停用戶Slack工作區的存取，若用戶要繼續使用Slack，需透過阿里雲購買Slack服務，明年2月暫停用戶存取Slack工作區後，90天內將刪除Slack工作區上的資料。 這項消息一經揭露，引發臺灣用戶群的擔</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172682</guid>
+      <pubDate>Mon, 08 Dec 2025 04:59:14 +0000</pubDate>
     </item>
     <item>
-      <title>儘管大環境不確性增加，IDC：明年仍有逾5成企業將增加投資AI，代理AI明年將大規模落地</title>
-      <link>https://www.ithome.com.tw/news/172671</link>
-      <description>新聞受到地緣政治、經濟、勞動力減少及AI帶來的能源需求增加，儘管大環境不穩定性升高，IDC在10月最新調查顯示，整體而言 ,企業預期2026年GDP成長穩步成長，儘管大環境不穩定性升高，仍有超過5成的企業將增加AI投資，IDC台灣總經理江芳韻表示，企業希望透過對AI的科技投資減低整體環境的不確定性，增加可見度。 江芳韻指出，過去兩年AI基礎架構的投資比較高的成長，明年AI基礎架構投資將趨於穩健，但仍是所有AI投資中最大的核心應用，而代理型AI在最能發揮效用的領域例如客服，將是接下來關心的重點。 預期代理AI將從單點的測試，發展為企業層面的協調，改變各領域的決策、營運、競爭力。 IDC列出臺灣ICT市場2026年5大趨勢預測，部分趨勢與代理AI有關。 組合式AI(Composite AI)架構成形 江芳韻指出，過去幾年生成式AI發展是市場關注的重點，生成式AI善於處理非結構化的資料，包含自然語言處理、對話互動，而傳統AI如機器學習善於處理結構化資料，企業內部分析、建模仍仰賴傳統AI；從企業實務需求來看，未來並非哪種技術勝出，而是企業如何結合生成式AI及傳統AI，以兼顧非結構化資料及結構化</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172671</guid>
-      <pubDate>Fri, 05 Dec 2025 13:56:41 +0000</pubDate>
+      <title>多家資安業者與機構警告React2Shell已遭積極利用，全球恐有數萬臺React主機尚未修補</title>
+      <link>https://www.ithome.com.tw/news/172683</link>
+      <description>新聞上週React開發團隊揭露滿分漏洞CVE-2025-55182（React2Shell），後續AWS提出警告，Earth Lamia與Jackpot Panda等多組中國國家級駭客組織，在漏洞公布不久就開始積極利用，現在有其他資安業者及研究機構揭露調查情形。 威脅情報業者GreyNoise指出，他們大約從世界協調時間（UTC）12月5日凌晨5時左右，開始偵側到積極嘗試利用的情況，並指出攻擊者同時使用新舊基礎設施來從事相關活動，該公司根據HTTP用戶端與TCP堆疊的用戶特徵（fingerprint），確認是高度自動化的攻擊，儘管這是早期針對React2Shell的活動，不過已有Mirai及其他殭屍網路將其加入漏洞利用工具的情況。 根據GreyNoise的分析平臺顯示，目前有121個攻擊IP位址利用React2Shell，其中有30個位於美國，但也有來自中國、荷蘭，以及新加坡的攻擊。對於攻擊目標的部分，涵蓋美國、印度、德國、英國，以及巴基斯坦等10個國家。 針對攻擊者試圖入侵的過程，他們主要是利用公開的概念驗證（PoC）程式碼為基礎，使用第一階段的有效酬載進行執行驗證（Proof-of</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172683</guid>
+      <pubDate>Mon, 08 Dec 2025 05:31:53 +0000</pubDate>
     </item>
   </channel>
 </rss>

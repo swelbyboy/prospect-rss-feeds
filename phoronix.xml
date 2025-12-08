@@ -8,56 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 07 Dec 2025 06:32:26 +0000</lastBuildDate>
-    <item>
-      <title>KDE Plasma 6.6 Supporting Per-DRM-Plane Color Pipelines, More Hardware Quirks/Fixes</title>
-      <link>https://www.phoronix.com/news/Plasma-6.6-Per-DRM-Plane-Color</link>
-      <description>It was a busy start of December for KDE Plasma developers in working out several hardware fixes for the current Plasma 6.5 series while also working on new Plasma 6.6 features like the per-DRM-plane color pipelines...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-Per-DRM-Plane-Color</guid>
-      <pubDate>Sat, 06 Dec 2025 10:39:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 6.19 Brings Many Driver Core Changes For Rust, Housekeeping CPUs Exposed</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Driver-Core</link>
-      <description>Beyond the main set of Rust changes to land in Linux 6.19 earlier this week, as we near the end of the first week of two for the Linux 6.19 merge window... More Rust changes. This time around the driver core updates for the kernel bring a number of Rust changes...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Driver-Core</guid>
-      <pubDate>Sat, 06 Dec 2025 10:56:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>Solaris 11.4 SRU 87 Released With New Security Features, GCC 15</title>
-      <link>https://www.phoronix.com/news/Oracle-Solaris-11.4-SRU-87</link>
-      <description>For anyone still relying on Solaris in production or just nostalgic Solaris users from the grand Sun Microsystems days, Solaris 11.4 SRU 87 was released by Oracle this week as one of the heavier stable release updates in recent memory...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Oracle-Solaris-11.4-SRU-87</guid>
-      <pubDate>Sat, 06 Dec 2025 11:12:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Flowblade Video Editor May Go Wayland-Only As Part Of GTK4 Port</title>
-      <link>https://www.phoronix.com/news/Flowblade-2.24-Released</link>
-      <description>Flowblade 2.24 released today as the newest version of this open-source, non-linear video editing application. Flowblade 2.24 brings a number of refinements while also interesting is their commentary concerning the future with Wayland and GTK4 porting...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Flowblade-2.24-Released</guid>
-      <pubDate>Sat, 06 Dec 2025 11:25:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>FEX 2512 Released With More Improvements For Gaming On ARM64 Linux</title>
-      <link>https://www.phoronix.com/news/FEX-Emu-2512-Released</link>
-      <description>FEX 2512 is out today as the newest monthly update for this software that enables running x86/x86_64 Linux binaries on ARM64 Linux, including the likes of Wine and Valve's Steam Play (Proton) for being able to run Windows games on 64-bit ARM Linux devices...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FEX-Emu-2512-Released</guid>
-      <pubDate>Sat, 06 Dec 2025 11:45:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tenstorrent Blackhole Support &amp;amp; Other New RISC-V + ARM64 Hardware In Linux 6.19</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-SoCs</link>
-      <description>The set of six branches containing SoC and platform updates/additions for the Linux 6.19 kernel have been merged for enabling a lot of new RISC-V and ARM 64-bit hardware as well as enhancing some existing SoCs/platforms...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-SoCs</guid>
-      <pubDate>Sat, 06 Dec 2025 13:13:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mesa 26.0 Bringing Support For 64K x 64K Textures With AMD RDNA4 GPUs</title>
-      <link>https://www.phoronix.com/news/RadeonSI-64K-Textures-Mesa-26.0</link>
-      <description>The latest improvement to the RadeonSI Gallium3D driver by prominent AMD Mesa developer Marek Olšák is enabling support for up to 64K x 64K textures with RDNA4 GPUs...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/RadeonSI-64K-Textures-Mesa-26.0</guid>
-      <pubDate>Sat, 06 Dec 2025 17:15:52 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 08 Dec 2025 06:38:58 +0000</lastBuildDate>
     <item>
       <title>AMD Starts Enabling Zen 6 "znver6" Compiler Support In GCC</title>
       <link>https://www.phoronix.com/news/GCC-Patch-AMD-Zen-6-znver6</link>
@@ -78,6 +29,55 @@
       <description>Sent in for the Linux 6.19 merge window when it comes to the frame-buffer device "FBDEV" subsystem are just a set of "fixes" for FBDEV drivers and code clean-ups. But it does also include a new console font option for better supporting modern laptops with high density displays...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Terminus-10x18-Console-Linux</guid>
       <pubDate>Sun, 07 Dec 2025 01:25:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rust Drivers In Linux 6.19 Will Now Support... Module Parameters</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Rust-Module-Params</link>
+      <description>On top of the Rust driver core changes and other Rust code for Linux 6.19, the modules infrastructure for this new kernel version is also bringing some new code. Surprisingly, it's taken until now for Rust kernel modules/drivers to support module parameters as is common practice for passing different options when booting the kernel or manually loading kernel drivers with extra non-default options...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Rust-Module-Params</guid>
+      <pubDate>Sun, 07 Dec 2025 11:02:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using AI To Modernize The Ubuntu Error Tracker Produced Some Code That Was "Plain Wrong"</title>
+      <link>https://www.phoronix.com/news/Ubuntu-Error-Tracker-AI-Error</link>
+      <description>A week ago I wrote about AI being used to help modernize Ubuntu's Error Tracker. Microsoft GitHub Copilot was tasked to help adapt its Cassandra database usage to modern standards. It's worked in some areas but even for a rather straight forward task, some of the generated functions ended up being "plain wrong" according to the developer involved...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-Error-Tracker-AI-Error</guid>
+      <pubDate>Sun, 07 Dec 2025 11:18:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA Plumbs DMA-BUF Support For VFIO PCI Devices In Linux 6.19</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-DMA-BUF-VFIO-PCI</link>
+      <description>In addition to NVIDIA improving peer-to-peer (P2P) DMA for block devices in Linux 6.19, NVIDIA also led an effort providing DMA-BUF support for VFIO PCI devices for opening up some interesting new cases moving forward. As part of the VFIO pull request this new functionality has landed for Linux 6.19...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-DMA-BUF-VFIO-PCI</guid>
+      <pubDate>Sun, 07 Dec 2025 11:31:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19 Delivers Working USB3 Support For Apple Silicon Devices</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-USB3-Apple-M1</link>
+      <description>Merged last night for the Linux 6.19 kernel merge window were all of the USB and Thunderbolt driver changes. Standing out this cycle is Apple Silicon devices like the M1 Macs now having working USB3 support on the mainline Linux kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-USB3-Apple-M1</guid>
+      <pubDate>Sun, 07 Dec 2025 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19 Introduces PCIe Link Encryption &amp;amp; Device Authentication, AMD SEV-TIO Enabling</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-PCIe-Link-Encrypt</link>
+      <description>One of the most exciting merges this weekend to the Linux 6.19 kernel is establishing the infrastructure for supporting PCI Express link encryption and device authentication. Multiple vendors are working on PCIe link encryption for their hardware while this initial pull begins laying the foundation of AMD SEV-TIO Trusted I/O support for the mainline kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-PCIe-Link-Encrypt</guid>
+      <pubDate>Sun, 07 Dec 2025 17:26:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux GPIB Drivers Declared Stable - 53 Years After HP Introduced The Bus</title>
+      <link>https://www.phoronix.com/news/GPIB-De-Staged-Linux-6.19</link>
+      <description>Merged to the mainline Linux kernel last year was GPIB drivers in the kernel's "staging" area. GPIB is the General Purpose Interface Bus launched by HP back in 1972 for lab equipment and more. After a year of cleaning up the code in the kernel's staging area, for Linux 6.19 the GPIB drivers have been promoted out of the staging area and into the Linux kernel proper. The Linux kernel now has stable driver support for this 8 Mbyte/s parallel bus that was introduced 53 years ago...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GPIB-De-Staged-Linux-6.19</guid>
+      <pubDate>Sun, 07 Dec 2025 19:47:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Iced 0.14 Released For Popular Rust Cross-Platform GUI Library</title>
+      <link>https://www.phoronix.com/news/Iced-0.14-Rust-GUI-LIbrary</link>
+      <description>Released today is a new version of Iced, the popular cross-platform GUI library for the Rust programming language. Iced is notably used by the COSMIC desktop environment and a growing variety of different Rust apps...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Iced-0.14-Rust-GUI-LIbrary</guid>
+      <pubDate>Mon, 08 Dec 2025 01:14:22 +0000</pubDate>
     </item>
   </channel>
 </rss>
