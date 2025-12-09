@@ -8,76 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Dec 2025 06:41:35 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Dec 2025 06:38:52 +0000</lastBuildDate>
     <item>
-      <title>蘋果法務長、政策主管將於2026年初退休　晶片主管傳也將離職</title>
-      <link>https://www.ithome.com.tw/news/172676</link>
-      <description>新聞蘋果上周宣佈法務長Kate Adams及環境、政策與社會措施副總裁Lisa Jackson將分別於2026年3月及1月退休離開公司。 蘋果同時宣佈迎接Meta前法務長Jennifer Newstead，她將於2026年1月以資深副總裁身分加入蘋果，成為高層團隊一員，向執行長Tim Cook報告。Jennifer Newstead上任後將與2017年起擔任蘋果法務長的Kate Adams交接職務，並於3月1日接任法務長一職。因此，政策主管Jackson明年一月退休後，其職務先由法務長Adams接手。而在Adams 3月退休後，Newstead即接手Jackson和Adams職缺。Newstead在Meta法務長之前，曾擔任川普第一任期的國務院首席法律顧問， 除此之外，彭博報導，蘋果硬體主管Johny Srouj已告知執行長Tim Cook自己已認真考慮離去。Srouj在蘋果的任務是開發第一顆自有數據機晶片C1，目的是為了取代高通5G數據機晶片。 這些高層異動消息是蘋果繼營運長Jeff Williams退休、AI主管John Giannandrea於2026年春天退休及介面設計主管跳槽</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172676</guid>
-      <pubDate>Mon, 08 Dec 2025 02:00:45 +0000</pubDate>
+      <title>Palo Alto Networks旗下SSL VPN的入口網站出現新一波大規模掃描</title>
+      <link>https://www.ithome.com.tw/news/172696</link>
+      <description>新聞上個月傳出有人鎖定Palo Alto Networks旗下的SSL VPN平臺GlobalProtect，一天內攻擊流量爆增40倍，5天內偵測到超過230萬次存取GlobalProtect的活動，半個月後類似的活動再度出現，資安業者上週已發布警告。 12月2日威脅情報業者GreyNoise發現新一波攻擊，攻擊者透過超過7千個IP位址，嘗試登入GlobalProtect，這些攻擊都來自一家德國公司3xK GmbH經營的基礎設施，而相關的攻擊並非首度出現，因為GreyNoise比對3個來源用戶端的身分特徵（fingerprint）後發現，這些用戶端曾在9月下旬至10月中旬，用於其他攻擊行動，當時GreyNoise發現，攻擊者使用的自治系統編號（ASN），過往未曾與惡意基礎設施出現關連。對此，我們也詢問Palo Alto Networks，不過在截稿之前並未收到回應。 不過事隔一天，相關的威脅態勢出現變化，攻擊者轉向SonicWall防火牆設備，針對防火牆作業系統SonicOS的API，進行大規模掃描。GreyNoise提到，雖然基礎設施似乎出現變化，被針對設備廠牌也不同，然而他們看到的</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172696</guid>
+      <pubDate>Mon, 08 Dec 2025 07:13:31 +0000</pubDate>
     </item>
     <item>
-      <title>Google發布Chrome 143，修補V8引擎高風險漏洞</title>
-      <link>https://www.ithome.com.tw/news/172674</link>
-      <description>新聞在12月2日正式發布的Chrome 143版本，Google修補13項由外部研究人員通報的資安漏洞，影響Chrome多個核心元件。 此次更新涵蓋Windows/macOS（143.0.7499.40/41），Linux（143.0.7499.40），Android（143.0.7499.52），以及iOS（143.0.7499.92）版本。 根據Google官方公告，本次更新修補4項高風險漏洞，分別是：V8 JavaScript/WebAssembly引擎的類型混淆漏洞（CVE-2025-13630），Google Updater的不當實作漏洞（CVE-2025-13631）、DevTools的不當實作漏洞（CVE-2025-13632），以及Digital Credentials元件的使用後釋放漏洞（CVE-2025-13633），除了CVE-2025-13632，其他三個高風險漏洞的CVSS風險分數均為8.8分。另外也修補3項中度風險漏洞，涉及Downloads、Loader與V8引擎。 Google也對通報漏洞的外部研究人員提供獎勵，針對V8高風險漏洞（CVE-2025-13</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172674</guid>
-      <pubDate>Mon, 08 Dec 2025 02:41:54 +0000</pubDate>
+      <title>Web開發框架Django 6.0導入背景工作框架與CSP，並縮減Python版本支援</title>
+      <link>https://www.ithome.com.tw/news/172695</link>
+      <description>新聞Python的Web開發框架Django團隊釋出新版Django 6.0，該主要版本調整框架核心，在維持既有開發模式的前提下，納入背景工作框架與內容安全政策（Content Security Policy，CSP）支援，同時更新Python相容版本與舊版維護時程。 Django 6.0首次提供官方背景工作框架，讓開發者可以透過任務裝飾器（Decorator）與佇列介面，將寄送郵件或資料處理等工作移出HTTP請求回應流程，由外部背景程序負責實際執行。框架本身負責工作定義與排程行為的一致性，並保留與既有任務佇列或自建背景工作程序（Worker）整合的彈性，使專案能在不綁定特定解決方案的情況下，採用統一的任務API。 安全面則新增對CSP標準的內建支援，透過設定讓開發者能以Python設定檔集中宣告可信內容來源與政策，強化防護跨站腳本（XSS）等內容注入攻擊，同時支援實際強制與僅監控兩種模式，方便在既有系統上分階段導入。Django框架也現代化郵件處理流程，改用Python較新的EmailMessage API組合與傳送電子郵件，減少舊版介面在編碼與Unicode處理的負擔。模板系統則加</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172695</guid>
+      <pubDate>Mon, 08 Dec 2025 08:57:50 +0000</pubDate>
     </item>
     <item>
-      <title>Cloudflare實施React漏洞防護引發近期第二次斷線</title>
-      <link>https://www.ithome.com.tw/news/172677</link>
-      <description>新聞Cloudflare解釋上周五因為針對React漏洞實施防護措施，在部份代理伺服器引發錯誤，導致二個星期來第二次斷線。 世界協調時間12月5日早上8:47，一部份時間Cloudflare網路發生斷線，不過約半小時就解決了，在09:12所有服務就回復上線（臺北時間同日16: 47到17:12）。受影響的HTTP流量約佔Cloudflare服務流量的28%。 Cloudflare說，此次斷線不是直接或間接出於Cloudflare系統網路攻擊，或任何惡意活動。該公司技術長Dane Knecht解釋，上周React伺服器通報CVSS 10的重大漏洞CVE-2025-55182，因此Cloud代理伺服器將記憶體內HTTP請求解析緩衝由128K提高為1MB，以作為網頁防火牆（WAF）的分析，這個值是Next.js應用程式預設最高的。 管理團隊利用漸進部署系統第一次變更WAF規則時，發現內部WAF測試工具不支援擴大緩衝，且對客戶流量沒有影響，因此他們做了第二次變更，想將WAF規則測試工具關閉。然而其全球配置系統未執行漸進式部署，而是在數秒內將變更一下子部署到Cloudflare網路的所有伺服器。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172677</guid>
-      <pubDate>Mon, 08 Dec 2025 02:58:54 +0000</pubDate>
+      <title>【資安日報】12月8日，殭屍網路及中國駭客傳出已實際利用滿分資安漏洞React2Shell</title>
+      <link>https://www.ithome.com.tw/news/172708</link>
+      <description>新聞多家資安業者與機構警告React2Shell已遭積極利用，全球恐有數萬臺React主機尚未修補 上週React開發團隊揭露滿分漏洞CVE-2025-55182（React2Shell），後續AWS提出警告，Earth Lamia與Jackpot Panda等多組中國國家級駭客組織，在漏洞公布不久就開始積極利用，現在有其他資安業者及研究機構揭露調查情形。 威脅情報業者GreyNoise指出，他們大約從世界協調時間（UTC）12月5日凌晨5時左右，開始偵測到積極嘗試利用的情況，並指出攻擊者同時使用新舊基礎設施來從事相關活動，該公司根據HTTP用戶端與TCP堆疊的用戶特徵（fingerprint），確認是高度自動化的攻擊，儘管這是早期針對React2Shell的活動，不過，已有Mirai及其他殭屍網路將其加入漏洞利用工具。 資安業者Palo Alto Networks旗下威脅情報團隊Unit 42，也向資安新聞網站Bleeping Computer與CyberScoop透露調查結果，他們指出，被稱為UNC5174或CL-STA-1015的中國國家級駭客，利用React2Shell入侵企業</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172708</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/6932fc54fc99007f046f0805_GreyNoise-Viz-React2Shell.png" length="0" type="image/png"/>
+      <pubDate>Mon, 08 Dec 2025 09:24:05 +0000</pubDate>
     </item>
     <item>
-      <title>網飛將以827億美元收購華納兄弟的串流媒體服務</title>
-      <link>https://www.ithome.com.tw/news/172678</link>
-      <description>新聞網飛（Netflix）上周五（12/5）宣布，已與Warner Bros. Discovery（WBD）達成最終收購協議，將以總價約827億美元收購WBD即將拆分的WBD Streaming &amp;amp; Studios，涵蓋WBD的電影與電視工作室、HBO/HBO Max等資產。雙方董事會皆已通過此一併購案，但仍需監管機構及WBD股東同意，預計於12~18個月內完成交易。 Warner Bros. Discovery是在2022年由AT&amp;amp;T旗下的華納媒體（WarnerMedia）與Discovery合併而成，為全球最大的媒體及娛樂集團之一。WarnerMedia源自擁有百年歷史的華納兄弟片廠，掌握電影、電視劇與HBO等影視內容，Discovery則以全球化的紀實與實境節目見長，合併後的業務橫跨電影、電視、新聞、體育、實境與串流，成為全球少數同時橫跨高端影視與大眾娛樂的媒體集團。 不過，WBD在2025年6月宣布將拆分成WBD Streaming &amp;amp; Studios與WBD Global Networks，前者核心為內容與串流，資產包括華納兄弟電影與電視工作室、HBO、HBO Max、遊戲業</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172678</guid>
-      <pubDate>Mon, 08 Dec 2025 03:09:14 +0000</pubDate>
+      <title>企業上雲、導入代理AI加速轉型，IDC預期機器身分安全風險增加，帶動IAM市場成長</title>
+      <link>https://www.ithome.com.tw/news/172710</link>
+      <description>新聞IDC近期公布2026年臺灣ICT市場趨勢，預期代理AI將成為未來企業組合式AI架構（生成式AI與傳統AI）協調者，臺灣的代理AI支出佔比，2029年將達到整體AI支出的17%，成為企業新一波轉型關鍵。 然而，在企業積極導入新一波AI驅動轉型的同時，AI的導入也可能提高企業面臨的資安風險，特別是對機器身分管理需求增加，將在未來快速帶動人類與機器身分管理IAM相關產品及服務市場成長。 IDC資深市場分析師林雅惠指出，傳統的資安多聚焦於閘道、端點的安全防護，然而在AI時代，身分安全已成為關鍵的資安防禦重點之一，她認為一個原因是企業內部署多雲或混合雲，許多在不同環境運行的SaaS應用，企業資安防禦面向已不再是應用能不能上網，而是這些應用是誰、在什麼時間、哪些裝置、做什麼事情，因此許多資安管理框架回到身分（Identity）的角度出發。 另一個促成身分管理重要性增加的原因是，AI、Agentic AI的發展，儘管AI帶來提升企業效率的好處，但也同時使企業內部每天產生許多新的身分，這些身分包括AI Agent、AI產生的Token等等，這些身分在企業內通常缺乏妥善的管理機制，使其容易成為轉型</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172710</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/IAM-MS.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 08 Dec 2025 10:13:50 +0000</pubDate>
     </item>
     <item>
-      <title>【資安週報】1201~1205，臺灣有6家業者分別傳出遭勒索軟體攻擊的消息</title>
-      <link>https://www.ithome.com.tw/news/172675</link>
-      <description>新聞回顧2025年12月第一星期資安新聞，多起勒索軟體攻擊事故成為國內資安新聞最大焦點，因為國內有6家企業傳出相關事故，涵蓋連鎖藥局、自行車零組件製造、電子科技大廠等。 ●以連鎖大樹藥局為營運主體的上櫃公司大樹在11月30日發布重訊，說明有部分檔案遭到勒索軟體加密。 ●興櫃公司久裕興業科技在11月27日發布重訊，說明部分伺服器資料遭加密或刪除，導致部分系統無法使用。 ●鴻海旗下連接器製造商鴻騰精密（FIT）在12月2日傳出遭勒索軟體INC Ransom攻擊，該公司表示已於11月27日在香港證交所發布公告，說明11月初發現集團資訊系統遭入侵，伺服器遭受網路攻擊。 ●華碩在12月3日傳出遭勒索軟體Everest攻擊，華碩於當日晚間在其網站發表聲明，指出此事件是供應商遭到攻擊，導致華碩手機相機部分影像處理原始碼受影響，但未說明供應商是誰。 ●關於非上市櫃公司，我們蒐集到兩項威脅情資，一是勒索軟體集團Gentlemen Ransomware聲稱線材組裝廠新呈工業是其受害者，該公司回覆我們已在處理因應；另一是Benzona勒索軟體集團在12月3日聲稱攻擊陽信電子商務的Sunny Go陽信商店街，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172675</guid>
-      <pubDate>Mon, 08 Dec 2025 03:22:35 +0000</pubDate>
+      <title>PromptPwnd提示詞注入攻擊濫用AI代理，竊取金鑰並改寫CI/CD流程</title>
+      <link>https://www.ithome.com.tw/news/172709</link>
+      <description>新聞資安廠商Aikido Security揭露一類名為PromptPwnd的AI提示注入漏洞，出現在把Gemini CLI、Claude Code、OpenAI Codex、GitHub AI Inference等AI代理介接GitHub Actions或GitLab CI/CD時。當工作流程同時處理議題（Issue）與拉取請求等不受信任內容，又讓AI握有高權限金鑰與操作工具，攻擊者便可透過精心設計的文字提示，竊取憑證或修改工作流程。 研究人員指出，至少已有5家Fortune 500企業受影響，Google官方Gemini CLI專案也曾被證實可重現完整攻擊鏈，顯示這已不再是理論風險。 這類風險多源於維護者使用AI自動化分級處理與標籤作業。常見做法是把Issue的標題與內文，以及程式碼提交訊息，直接帶入LLM的提示詞，同一個CI/CD工作流程又同時配置具有寫入權限的GitHub權杖與雲端存取權杖，並授予AI透過Shell指令或GitHub CLI操作儲存庫的權限。當攻擊者在Issue文字中嵌入看似說明文件、實際上是下達指令的段落時，模型會將其當成操作指示，依照內容呼叫相關工具，把金鑰寫</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172709</guid>
+      <pubDate>Mon, 08 Dec 2025 10:45:22 +0000</pubDate>
     </item>
     <item>
-      <title>美國匿名電信服務Phreeli上線了</title>
-      <link>https://www.ithome.com.tw/news/172679</link>
-      <description>新聞號稱是全球首個以隱私為優先的匿名電信服務Phreeli，上周四（12/4）於美國正式上線了，使用者只需要提供郵遞區號就能啟用服務，採用雙盲式加密架構Double-Blind Armadillo以隔離用戶身分及通訊行為，且強調絕不銷售通話資料。 Phreeli的創辦人暨執行長為長期對抗政府監控的Nicholas Merrill。2004年，Merrill所經營的網路服務收到FBI發出的信函，要求交出用戶資料並附帶封口令，Merrill拒絕配合，也提出了訴訟，同時在2010年創立了Calyx Institute，以打造去追蹤版的Android作業系統CalxyOS，推出零紀綠VPN，以及支援Tor節點服務，並於2013年獲得勝訴。 根據Wired報導，Phreeli屬於行動虛擬網路業者（Mobile Virtual Network Operator，MVNO），自己並不擁有基地臺或實體電信網路，而是向T-Mobile租用網路來提供門號。 而Phreeli採用的Double-Blind Armadillo為一全新的隱私架構與加密協議，有別於多數電信系統是將識別資訊、支付方式及電話號碼等資</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172679</guid>
-      <pubDate>Mon, 08 Dec 2025 03:26:05 +0000</pubDate>
+      <title>IBM將以110億美元收購Confluent　強化AI建構能力</title>
+      <link>https://www.ithome.com.tw/news/172713</link>
+      <description>新聞IBM周一宣佈和Confluent達成協議，將以110億美元收購這家資料串流及處理軟體供應商，以協助企業建構及部署AI環境。 這項消息由華爾街日報率先揭露，隨後由IBM正式宣佈。 IBM將以每股31美元全現金收購Confluent，總價110億美元。IBM董事會暨Confluent獨立特別委員會分別核准了這項交易。視Confluent股東、主管機關許可情況及其他因素而定，雙方預定2026年中完成交易。 Confluent總部設於美國加州山景市，客戶達6500家，包含40%的財星五百大企業。這家軟體業者提供開源資料串流管理平臺Apache Kafka、資料處理框架Apache Flink等軟體及整合服務，可協助連結、整合企業資料作為即時分析及決策，包括銀行交易或網站流量分析。 Kafka作為Confluent最知名的產品，有多種部署方式，包括Confluent Cloud、Confluent Platform、Confluent Private Cloud及WarpStream（支援混合雲）等，可和眾多AI環境或公、私有雲平臺及服務包括AWS、Google Cloud Platfor</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172713</guid>
+      <pubDate>Tue, 09 Dec 2025 02:14:35 +0000</pubDate>
     </item>
     <item>
-      <title>Meta收購AI穿戴裝置製造商Limitless</title>
-      <link>https://www.ithome.com.tw/news/172680</link>
-      <description>新聞AI穿戴裝置製造商Limitless上周五（12/5）宣布已被Meta收購，但雙方並未公布交易金額。 Limitless創立於2020年，主要開發以AI為核心的個人記憶與生活紀錄工具，於2024年推出隨身穿戴裝置Pendant，它沒有螢幕、可夾帶在服飾上，內建麥克風及AI語音處理能力，可即時錄製使用者的日常對話、會議與環境聲音，並自動生成逐字稿、重點摘要，以及可搜尋的紀錄內容，能夠搭配手機及雲端使用。Pendant裝置再加上1年的AI訂閱售價299美元。 Limitless也開發了專為Windows及macOS設計的Rewind程式，它是PC上的Pendant，可於背景自動記錄螢幕操作、應用程式內容、瀏覽紀錄及部分語音，再透過AI建立可搜尋的數位記憶，讓使用者透過自然語音查詢。 Limitless在被Meta收購後準備結束營業。雙方公布此事的當天，Limitless即終止Pendant裝置的銷售；宣布Rewind程式將在12月19日停用所有螢幕與聲音錄製功能；同時立即於巴西、中國、歐盟、以色列、韓國、土耳其與英國停止服務，這些地區的用戶可在12月9日之前下載所存放的資料，之後帳戶與</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172680</guid>
-      <pubDate>Mon, 08 Dec 2025 04:31:13 +0000</pubDate>
+      <title>川普同意Nvidia把H200出售至中國，抽佣25%</title>
+      <link>https://www.ithome.com.tw/news/172714</link>
+      <description>新聞美國總統川普（Donald Trump）周一（12/8）透過Truth Social宣布，將允許Nvidia出貨H200予中國及其它國家的合格客戶，中國主席習近平對此正面回應，且將支付25%的銷售金額給美國。 川普說，此一政策的前提是確保持續且強健的國家安全條件下，還能支持美國就業，強化美國製造，還能讓美國納稅人受益。 川普也不忘揶揄前任總統拜登（Joe Biden），指出是拜登政府迫使美國企業耗費數十億美元以打造「沒人要」的降規產品，不但拖累了創新，也傷害美國勞工，而那個時代已經結束了。Nvidia在美國的客戶已經開始推動先進的Blackwell晶片，很快也會推出Rubin，但這兩款產品並不包含在此次的協議中，川普政府將永遠以美國優先。 在拜登政府時期，美國商務部對AI晶片的出口設下了算力的上限，才使得Nvidia開發降級版的H20；今年8月曾傳出，就算是要出口H20，美國政府也要抽佣15%。但迄今美國遲遲未放行Nvidia將高階晶片輸出至中國。 川普說，商務部正在擬定相關細節，除了Nvidia之外，上述作法也將同時適用於AMD、Intel，以及其它美國企業。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172714</guid>
+      <pubDate>Tue, 09 Dec 2025 02:22:50 +0000</pubDate>
     </item>
     <item>
-      <title>冒牌ChatGPT Atlas瀏覽器網站鎖定macOS用戶而來，意圖竊取帳密資料</title>
-      <link>https://www.ithome.com.tw/news/172681</link>
-      <description>新聞研究人員發現一個冒充OpenAI ChatGPT Atlas瀏覽器網站的惡意網站，結合神似正版的網站和指令使用者執行命令，得以繞過端點安全防護軟體，騙取使用者密碼和憑證。 Fable Security研究人員Kaushik Devireddy是在主動Google搜尋ChatGPT Atlas時，經由第一個贊助連結點進這個假網頁。研究人員形容它是一個結合網站假冒、信任代管、混淆指令及權限升級的完美Clickfix攻擊。 這個假網站藉由代管在Google Site，以提升其可信度，而且網站設計和正版Atlas網站在排版及設計上幾乎相同。但是假網站和正版操作指令有相當不同。有別於標準版installer(.dmg)，冒牌網站提供一段看似無害的base64字串指令，要求使用者貼在Terminal執行。一旦執行後，該指令就解碼成代管於一個攻擊者控制網域的遠端腳本程式。 該程式會反覆要求使用者輸入不同macOS密碼，直到使用者輸入正確的密碼。接著，執行串利用該密碼以提高權限進階第二階段程式下載。本質上這個過程是典型的ClickFix攻擊。但值得注意的是，下載的惡意程式都未觸發CrowdStri</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172681</guid>
-      <pubDate>Mon, 08 Dec 2025 04:56:20 +0000</pubDate>
+      <title>Google Chrome強化Gemini代理式AI上網安全防護</title>
+      <link>https://www.ithome.com.tw/news/172716</link>
+      <description>新聞Google宣佈在Chrome中加入多層次安全防護層，防止Gemini代理人上網時遭到間接提示注入攻擊。 AI瀏覽器主要威脅之一是間接提示注入，可能出現在惡意網站、以iframe提供的第三方內容，或者像使用者評論等使用者生成的內容，這類威脅可能造成代理人執行有風險的行為，像是執行金錢交易或外洩敏感資料。 為此Google之前導入模型強化、輸入/輸出檢查（如分類器）及系統層級護欄等措施來保護AI模型免受間接提示注入。本周宣佈是為Chrome新增的安全架構，其組成包括5個主要部份:使用者對齊評判員(user alignment critic)、來源隔離、使用者確認、威脅即時偵測和紅隊演練與回應。 第一是以user alignment critic來檢查代理人輸出。user alignment critic是另一個以Gemini打造的模型，扮演代理人行動的評判員。此一模型是以雙LLM型式及Google DeepMind的CaMeL研究為靈感來源。 user alignment critic會在規劃完成時執行，以確認預定的每一行動是否對齊任務核心。該元件只看預定行動的metadata，而不</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172716</guid>
+      <pubDate>Tue, 09 Dec 2025 02:55:13 +0000</pubDate>
     </item>
     <item>
-      <title>Slack在臺服務將移轉至中國？ Salesforce：臺灣用戶使用全球基礎設施，與阿里巴巴無關</title>
-      <link>https://www.ithome.com.tw/news/172682</link>
-      <description>新聞因線上協作空間而受到不少企業使用的Slack，上周傳出臺灣地區的服務將被畫分為中國，並要求Slack用戶將資料移轉到阿里巴巴；對此，iThome向Salesforce臺灣分公司求證，Salesforce臺灣總經理蘇俊熹回應，臺灣服務使用的是全球基礎設施，與中國特規版不同，不論金流或資料、數據中心都與阿里雲無關。 上周有國內媒體引用The Information的報導，指出近兩周陸續有用戶收到官方信件通知，Slack通訊協作服務已將臺灣，畫為中國、香港、澳門同一服務地區，Slack用戶需將帳戶轉移到阿里巴巴以繼續使用服務，需要透過阿里雲購買服務。 網路上還貼出來自Slack發出的通知信，信中指出Salesforce和阿里巴巴在2019年建立策略合作關係，指定阿里雲作為中國、香港、澳門、臺灣的Salesforce CRM獨家供應商，通知用戶Slack將不再續訂服務，明年2月之後將暫停用戶Slack工作區的存取，若用戶要繼續使用Slack，需透過阿里雲購買Slack服務，明年2月暫停用戶存取Slack工作區後，90天內將刪除Slack工作區上的資料。 這項消息一經揭露，引發臺灣用戶群的擔</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172682</guid>
-      <pubDate>Mon, 08 Dec 2025 04:59:14 +0000</pubDate>
+      <title>歹徒傳送假照片進行虛擬綁架 企圖詐騙贖金</title>
+      <link>https://www.ithome.com.tw/news/172717</link>
+      <description>新聞美國聯邦調查局（Federal Bureau of Investigation, FBI）警告，最近社群平臺等公開網站出現虛擬綁架（virtual kidnapping）事件，以造假照片或影片勒索受害人支付贖金。 虛擬綁架是歹徒張貼以AI等工具製作的照片，並透過簡訊或文字訊息聯絡受害人，謊稱綁架了親人，還寄上看似真的照片或影片，藉此要求贖金，並威脅如果不付錢將對親人施暴。 FBI提醒，這些照片或影片仔細看都有破綻，像是沒有刺青或疤痕，身體部位也不正確，而為了防止受害者分析照片，歹徒有時會使用限時銷毁的功能。 FBI提醒，如果民眾在公開網站張貼失蹤人口相片，要留意可能的詐騙。這類詐騙會營造緊張感，因此民眾應冷靜想想是否合理，並儘量截取歹徒出示的圖片或錄音。民眾和家人親友之間最好約定暗號，在回應這類訊息前應先聯絡親友，平時則應避免提供個資給陌生人。 FBI也呼籲遭到虛擬綁架詐騙的民眾通報該局的網路犯罪通報中心(www.ic3.gov)。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172717</guid>
+      <pubDate>Tue, 09 Dec 2025 04:35:56 +0000</pubDate>
     </item>
     <item>
-      <title>多家資安業者與機構警告React2Shell已遭積極利用，全球恐有數萬臺React主機尚未修補</title>
-      <link>https://www.ithome.com.tw/news/172683</link>
-      <description>新聞上週React開發團隊揭露滿分漏洞CVE-2025-55182（React2Shell），後續AWS提出警告，Earth Lamia與Jackpot Panda等多組中國國家級駭客組織，在漏洞公布不久就開始積極利用，現在有其他資安業者及研究機構揭露調查情形。 威脅情報業者GreyNoise指出，他們大約從世界協調時間（UTC）12月5日凌晨5時左右，開始偵側到積極嘗試利用的情況，並指出攻擊者同時使用新舊基礎設施來從事相關活動，該公司根據HTTP用戶端與TCP堆疊的用戶特徵（fingerprint），確認是高度自動化的攻擊，儘管這是早期針對React2Shell的活動，不過已有Mirai及其他殭屍網路將其加入漏洞利用工具的情況。 根據GreyNoise的分析平臺顯示，目前有121個攻擊IP位址利用React2Shell，其中有30個位於美國，但也有來自中國、荷蘭，以及新加坡的攻擊。對於攻擊目標的部分，涵蓋美國、印度、德國、英國，以及巴基斯坦等10個國家。 針對攻擊者試圖入侵的過程，他們主要是利用公開的概念驗證（PoC）程式碼為基礎，使用第一階段的有效酬載進行執行驗證（Proof-of</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172683</guid>
-      <pubDate>Mon, 08 Dec 2025 05:31:53 +0000</pubDate>
+      <title>派拉蒙對華納兄弟探索發動惡意收購</title>
+      <link>https://www.ithome.com.tw/news/172718</link>
+      <description>新聞在網飛（Netflix）上周五（12/5）宣布要以每股價值約27.75美元的現金及股票，併購華納兄弟探索（Warner Bros. Discovery，WBD）準備拆分的WBD Streaming &amp;amp; Studios之後，原本去年要與WBD合併、之後卻破局的美國老牌影業派拉蒙（Paramount）本周一（12/8）表示，將以每股30美元的現金價格收購WBD的全部股份。等於是發動了惡意收購。 WBD與派拉蒙是在2024年展開協商，當時兩家公司都陷入有線電視衰退與串流虧損的困境，因而討論合併的可能性，企圖透過整合雙方的內容、通路與串流服務，以規模來對抗串流龍頭網飛，最後卻因股權、負債、估值及監管風險高等問題而告吹。隨後WBD即選擇將資產拆分成以串流為主的WBD Streaming &amp;amp; Studios，以及走傳統電視路線的WBD Global Networks。 WBD的董事會已選擇與網飛簽約，派拉蒙卻打算以更高的金額在市場上收購WBD股票，以取得WBD控制權，被視為惡意收購行為。網飛的收購協議已讓WBD上周五的股票上漲6.28%，收在26.08美元，派拉蒙的宣布讓WBD周一股價再往上攀</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172718</guid>
+      <pubDate>Tue, 09 Dec 2025 06:07:14 +0000</pubDate>
     </item>
   </channel>
 </rss>
