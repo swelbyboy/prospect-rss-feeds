@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Dec 2025 06:38:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Dec 2025 06:36:46 +0000</lastBuildDate>
     <item>
-      <title>AMD Starts Enabling Zen 6 "znver6" Compiler Support In GCC</title>
-      <link>https://www.phoronix.com/news/GCC-Patch-AMD-Zen-6-znver6</link>
-      <description>Making for a bit more exciting weekend is that minutes ago AMD has posted their first patch for enabling Zen 6 processor support within the GNU Compiler Collection (GCC) for -march=znver6 targeting...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GCC-Patch-AMD-Zen-6-znver6</guid>
-      <pubDate>Sat, 06 Dec 2025 19:11:15 +0000</pubDate>
+      <title>Several Logitech Devices Seeing New/Improved Support With Linux 6.19</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-HID</link>
+      <description>All of the Human Interface Devices (HID) subsystem updates were merged a few days ago for the ongoing Linux 6.19 kernel merge window. Standing out this cycle on the HID side are seeing new/improved support for several Logitech devices...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-HID</guid>
+      <pubDate>Mon, 08 Dec 2025 11:43:00 +0000</pubDate>
     </item>
     <item>
-      <title>Microsoft's RAMDAX Driver Merged For Linux 6.19 To Carve Out RAM As NVDIMM Devices</title>
-      <link>https://www.phoronix.com/news/RAMDAX-NVDIMM-Merged-Linux-6.19</link>
-      <description>The Non-Volatile Memory Device (NVDIMM) subsystem updates were merged today for the in-development Linux 6.19 kernel. Most notable this cycle for the NVDIMM code is a new open-source driver addition courtesy of Microsoft...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/RAMDAX-NVDIMM-Merged-Linux-6.19</guid>
-      <pubDate>Sat, 06 Dec 2025 21:00:00 +0000</pubDate>
+      <title>AMD Working On Push-Based Load Balancing For Linux To Further Enhance Performance</title>
+      <link>https://www.phoronix.com/news/AMD-Push-Load-Balancing-RFC</link>
+      <description>One of the new Linux engineering initiatives out of AMD is working to further enhance Linux performance on today's large core count systems by introducing push-based load balancing...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-Push-Load-Balancing-RFC</guid>
+      <pubDate>Mon, 08 Dec 2025 14:27:16 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19 Adds New Console Font To Better Handle Modern Laptops With HiDPI Displays</title>
-      <link>https://www.phoronix.com/news/Terminus-10x18-Console-Linux</link>
-      <description>Sent in for the Linux 6.19 merge window when it comes to the frame-buffer device "FBDEV" subsystem are just a set of "fixes" for FBDEV drivers and code clean-ups. But it does also include a new console font option for better supporting modern laptops with high density displays...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Terminus-10x18-Console-Linux</guid>
-      <pubDate>Sun, 07 Dec 2025 01:25:22 +0000</pubDate>
+      <title>Early Benchmarks Of Linux 6.19 Git Raising Some Concerns</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Early-Benchmarks</link>
+      <description>While just half-way through the Linux 6.19 merge window, over the weekend I began running some benchmarks of the current Linux 6.19 Git state compared to Linux 6.18 LTS stable. There are some minor performance improvements to note in a few of the tests on the first system I tested but also some regressions at this very early pre-RC1 state of the Linux 6.19 kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Early-Benchmarks</guid>
+      <pubDate>Mon, 08 Dec 2025 14:50:07 +0000</pubDate>
     </item>
     <item>
-      <title>Rust Drivers In Linux 6.19 Will Now Support... Module Parameters</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Rust-Module-Params</link>
-      <description>On top of the Rust driver core changes and other Rust code for Linux 6.19, the modules infrastructure for this new kernel version is also bringing some new code. Surprisingly, it's taken until now for Rust kernel modules/drivers to support module parameters as is common practice for passing different options when booting the kernel or manually loading kernel drivers with extra non-default options...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Rust-Module-Params</guid>
-      <pubDate>Sun, 07 Dec 2025 11:02:48 +0000</pubDate>
+      <title>Intel Arc B580 vs. AMD Radeon RX 9000 vs. NVIDIA RTX 50 Series For Llama.cpp Vulkan Performance</title>
+      <link>https://www.phoronix.com/review/llama-cpp-vulkan-eoy2025</link>
+      <description>Recently there were Phoronix benchmarks looking at the Intel Battlemage GPU compute performance since last year when the Arc B580 graphics card launched as well as the OpenGL and Vulkan graphics performance for the B580 on Linux since launch. There was much progress on the open-source Intel Linux graphics drivers at large this year but especially for Battlemage. Following that a Phoronix Premium reader asked about seeing some fresh Llama.cpp AI benchmarks with its Vulkan back-end now for the Arc</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/llama-cpp-vulkan-eoy2025</guid>
+      <pubDate>Mon, 08 Dec 2025 15:50:00 +0000</pubDate>
     </item>
     <item>
-      <title>Using AI To Modernize The Ubuntu Error Tracker Produced Some Code That Was "Plain Wrong"</title>
-      <link>https://www.phoronix.com/news/Ubuntu-Error-Tracker-AI-Error</link>
-      <description>A week ago I wrote about AI being used to help modernize Ubuntu's Error Tracker. Microsoft GitHub Copilot was tasked to help adapt its Cassandra database usage to modern standards. It's worked in some areas but even for a rather straight forward task, some of the generated functions ended up being "plain wrong" according to the developer involved...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-Error-Tracker-AI-Error</guid>
-      <pubDate>Sun, 07 Dec 2025 11:18:18 +0000</pubDate>
+      <title>Firefox 146 Now Available With Native Fractional Scaling On Wayland</title>
+      <link>https://www.phoronix.com/news/Firefox-146-Released</link>
+      <description>The Mozilla Firefox 146.0 release binaries are now available with a very exciting improvement for Linux users relying on Wayland...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Firefox-146-Released</guid>
+      <pubDate>Mon, 08 Dec 2025 16:24:34 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA Plumbs DMA-BUF Support For VFIO PCI Devices In Linux 6.19</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-DMA-BUF-VFIO-PCI</link>
-      <description>In addition to NVIDIA improving peer-to-peer (P2P) DMA for block devices in Linux 6.19, NVIDIA also led an effort providing DMA-BUF support for VFIO PCI devices for opening up some interesting new cases moving forward. As part of the VFIO pull request this new functionality has landed for Linux 6.19...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-DMA-BUF-VFIO-PCI</guid>
-      <pubDate>Sun, 07 Dec 2025 11:31:11 +0000</pubDate>
+      <title>Meson 1.10 Build System Adds OS/2 Support, Experimental C++ "import std"</title>
+      <link>https://www.phoronix.com/news/Meson-1.10-Released</link>
+      <description>Meson 1.10 is out today as the newest feature release for this popular cross-platform build system...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Meson-1.10-Released</guid>
+      <pubDate>Mon, 08 Dec 2025 18:22:09 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19 Delivers Working USB3 Support For Apple Silicon Devices</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-USB3-Apple-M1</link>
-      <description>Merged last night for the Linux 6.19 kernel merge window were all of the USB and Thunderbolt driver changes. Standing out this cycle is Apple Silicon devices like the M1 Macs now having working USB3 support on the mainline Linux kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-USB3-Apple-M1</guid>
-      <pubDate>Sun, 07 Dec 2025 12:00:00 +0000</pubDate>
+      <title>Live Update Orchestrator "LUO" Merged For Linux 6.19</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Live-Update-LUO</link>
+      <description>Google engineers for the past number of months have been working on the Live Update Orchestrator as a new way of applying live Linux kernel updates. The Live Update Orchestrator "LUO" builds atop the Kexec Handover "KHO" functionality already within the kernel. Google has since been deplyoing LUO in their production environments for faster security updates to kernels, especially when involving VMs. LUO is now upstream in Linux 6.19...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Live-Update-LUO</guid>
+      <pubDate>Mon, 08 Dec 2025 20:17:07 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19 Introduces PCIe Link Encryption &amp;amp; Device Authentication, AMD SEV-TIO Enabling</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-PCIe-Link-Encrypt</link>
-      <description>One of the most exciting merges this weekend to the Linux 6.19 kernel is establishing the infrastructure for supporting PCI Express link encryption and device authentication. Multiple vendors are working on PCIe link encryption for their hardware while this initial pull begins laying the foundation of AMD SEV-TIO Trusted I/O support for the mainline kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-PCIe-Link-Encrypt</guid>
-      <pubDate>Sun, 07 Dec 2025 17:26:31 +0000</pubDate>
+      <title>Linux 6.19's Hung Task &amp;amp; System Lockup Detectors Can Provide Greater Insight</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Detectors-More-Info</link>
+      <description>Beginning with the Linux 6.19 kernel, the hung task detector and system lock-up detector are now optionally able to provide greater insight into the issues by dumping additional system information. The new lockup_sys_info and hung_task_sys_info sysctl knobs were merged over as part of the pull requests managed by Andrew Morton...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Detectors-More-Info</guid>
+      <pubDate>Mon, 08 Dec 2025 21:00:32 +0000</pubDate>
     </item>
     <item>
-      <title>Linux GPIB Drivers Declared Stable - 53 Years After HP Introduced The Bus</title>
-      <link>https://www.phoronix.com/news/GPIB-De-Staged-Linux-6.19</link>
-      <description>Merged to the mainline Linux kernel last year was GPIB drivers in the kernel's "staging" area. GPIB is the General Purpose Interface Bus launched by HP back in 1972 for lab equipment and more. After a year of cleaning up the code in the kernel's staging area, for Linux 6.19 the GPIB drivers have been promoted out of the staging area and into the Linux kernel proper. The Linux kernel now has stable driver support for this 8 Mbyte/s parallel bus that was introduced 53 years ago...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GPIB-De-Staged-Linux-6.19</guid>
-      <pubDate>Sun, 07 Dec 2025 19:47:11 +0000</pubDate>
+      <title>Mesa 26.0 Lands Initial Support For Adreno Gen 8 - Including For The Snapdragon X2</title>
+      <link>https://www.phoronix.com/news/Freedreno-Lands-Adreno-Gen-8</link>
+      <description>The newest Mesa 26.0-devel code as of today has landed initial support for Qualcomm Adreno Gen 8 graphics into the Freedreno Gallium3D driver. The Adreno Gen 8 graphics so far are most notably used by the new Snapdragon X2 Elite laptop SoC with its X2-85 GPU as well as the new Snapdragon 8 Elite Gen 5 with Adreno 840 graphics...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Freedreno-Lands-Adreno-Gen-8</guid>
+      <pubDate>Tue, 09 Dec 2025 01:21:38 +0000</pubDate>
     </item>
     <item>
-      <title>Iced 0.14 Released For Popular Rust Cross-Platform GUI Library</title>
-      <link>https://www.phoronix.com/news/Iced-0.14-Rust-GUI-LIbrary</link>
-      <description>Released today is a new version of Iced, the popular cross-platform GUI library for the Rust programming language. Iced is notably used by the COSMIC desktop environment and a growing variety of different Rust apps...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Iced-0.14-Rust-GUI-LIbrary</guid>
-      <pubDate>Mon, 08 Dec 2025 01:14:22 +0000</pubDate>
+      <title>Rust-Based Project Aims To Provide Modern Thumbnails For Audio/Video Files On GNOME</title>
+      <link>https://www.phoronix.com/news/gst-thumbnailers-1.0-alpha</link>
+      <description>Since Showtime replaced Totem as the default video player of GNOME, the desktop has lacked thumbnail capabilities for audio and video files. But to address that defect, the Rust-based gst-thumbnailers project has been in development to leverage GStreamer and paired with Rust to provide safe thumbnail generation capabilities for audio and video content...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/gst-thumbnailers-1.0-alpha</guid>
+      <pubDate>Tue, 09 Dec 2025 01:42:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
