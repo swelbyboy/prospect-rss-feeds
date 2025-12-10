@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Dec 2025 06:36:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Dec 2025 06:37:12 +0000</lastBuildDate>
     <item>
-      <title>Several Logitech Devices Seeing New/Improved Support With Linux 6.19</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-HID</link>
-      <description>All of the Human Interface Devices (HID) subsystem updates were merged a few days ago for the ongoing Linux 6.19 kernel merge window. Standing out this cycle on the HID side are seeing new/improved support for several Logitech devices...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-HID</guid>
-      <pubDate>Mon, 08 Dec 2025 11:43:00 +0000</pubDate>
+      <title>Bug-Catching "Smatch" Static Analysis On The Linux Kernel Under Threat Due To Funding Gap</title>
+      <link>https://www.phoronix.com/news/Linux-Smatch-Lacks-Funding</link>
+      <description>For the past 15 years the Smatch static analysis tool has been routinely run for uncovering countless bugs within the Linux kernel. Dan Carpenter who authored Smatch and has been routinely analyzing the Linux kernel with it has authored more than 5,568 patches over the years to become one of the top bug fixers for the kernel. But his funding at Linaro has been cut and the project's future now in question...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Smatch-Lacks-Funding</guid>
+      <pubDate>Tue, 09 Dec 2025 11:17:55 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Working On Push-Based Load Balancing For Linux To Further Enhance Performance</title>
-      <link>https://www.phoronix.com/news/AMD-Push-Load-Balancing-RFC</link>
-      <description>One of the new Linux engineering initiatives out of AMD is working to further enhance Linux performance on today's large core count systems by introducing push-based load balancing...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-Push-Load-Balancing-RFC</guid>
-      <pubDate>Mon, 08 Dec 2025 14:27:16 +0000</pubDate>
+      <title>Microsoft Has Many Hyper-V Virtualization Improvements For Linux 6.19</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Improves-Hyper-V</link>
+      <description>For benefiting their Azure cloud and other users of Hyper-V virtualization at large, Microsoft has rolled out a number of feature additions and improvements for their Hyper-V kernel code in Linux 6.19...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Improves-Hyper-V</guid>
+      <pubDate>Tue, 09 Dec 2025 14:30:09 +0000</pubDate>
     </item>
     <item>
-      <title>Early Benchmarks Of Linux 6.19 Git Raising Some Concerns</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Early-Benchmarks</link>
-      <description>While just half-way through the Linux 6.19 merge window, over the weekend I began running some benchmarks of the current Linux 6.19 Git state compared to Linux 6.18 LTS stable. There are some minor performance improvements to note in a few of the tests on the first system I tested but also some regressions at this very early pre-RC1 state of the Linux 6.19 kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Early-Benchmarks</guid>
-      <pubDate>Mon, 08 Dec 2025 14:50:07 +0000</pubDate>
+      <title>AMD EPYC Embedded 2005 Series Announced For BGA Zen 5 CPUs</title>
+      <link>https://www.phoronix.com/review/amd-epyc-embedded-2005</link>
+      <description>AMD today announced their newest member of their expansive EPYC family: the EPYC Embedded 2005 series. The new AMD EPYC Embedded 2005 Series are intended primarily for networking, storage, and industrial devices while these BGA processors will likely see other interesting thin-server uses as well.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/amd-epyc-embedded-2005</guid>
+      <pubDate>Tue, 09 Dec 2025 15:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Arc B580 vs. AMD Radeon RX 9000 vs. NVIDIA RTX 50 Series For Llama.cpp Vulkan Performance</title>
-      <link>https://www.phoronix.com/review/llama-cpp-vulkan-eoy2025</link>
-      <description>Recently there were Phoronix benchmarks looking at the Intel Battlemage GPU compute performance since last year when the Arc B580 graphics card launched as well as the OpenGL and Vulkan graphics performance for the B580 on Linux since launch. There was much progress on the open-source Intel Linux graphics drivers at large this year but especially for Battlemage. Following that a Phoronix Premium reader asked about seeing some fresh Llama.cpp AI benchmarks with its Vulkan back-end now for the Arc</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/llama-cpp-vulkan-eoy2025</guid>
-      <pubDate>Mon, 08 Dec 2025 15:50:00 +0000</pubDate>
+      <title>Scheduler Woes: Bisecting Early Performance Regressions Found In Linux 6.19</title>
+      <link>https://www.phoronix.com/review/linux-619-sched-regress</link>
+      <description>Yesterday I noted some early performance regressions I've found on the Linux 6.19 kernel compared to Linux 6.18 LTS stable. Those initial benchmarks were on an AMD EPYC server. Since then I've seen many of the same workloads regressing similarly on an AMD Ryzen Threadripper workstation between Linux 6.18 and Linux 6.19 Git. Given the significant impact and AMD Threadripper processors always helping out to speed-up Linux kernel build times to make for a quicker and more manageable kernel bisectin</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/linux-619-sched-regress</guid>
+      <pubDate>Tue, 09 Dec 2025 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Firefox 146 Now Available With Native Fractional Scaling On Wayland</title>
-      <link>https://www.phoronix.com/news/Firefox-146-Released</link>
-      <description>The Mozilla Firefox 146.0 release binaries are now available with a very exciting improvement for Linux users relying on Wayland...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Firefox-146-Released</guid>
-      <pubDate>Mon, 08 Dec 2025 16:24:34 +0000</pubDate>
+      <title>Firefox 147 Beta Released With XDG Base Directory Support</title>
+      <link>https://www.phoronix.com/news/Firefox-147-Beta</link>
+      <description>With Firefox 146 released, which is exciting for delivering fractional scaling on Wayland, Firefox 147 Beta is now available and it's also quite exciting to Linux users for another reason...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Firefox-147-Beta</guid>
+      <pubDate>Tue, 09 Dec 2025 17:20:13 +0000</pubDate>
     </item>
     <item>
-      <title>Meson 1.10 Build System Adds OS/2 Support, Experimental C++ "import std"</title>
-      <link>https://www.phoronix.com/news/Meson-1.10-Released</link>
-      <description>Meson 1.10 is out today as the newest feature release for this popular cross-platform build system...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Meson-1.10-Released</guid>
-      <pubDate>Mon, 08 Dec 2025 18:22:09 +0000</pubDate>
+      <title>Linux Foundation's Newest Endeavor: The Agentic AI Foundation</title>
+      <link>https://www.phoronix.com/news/Linux-Foundation-Agentic-AI</link>
+      <description>The Linux Foundation today announced it's formed another foundation under its growing umbrella that extends well beyond the traditional "Linux" landscape: the Agentic AI Foundation...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Foundation-Agentic-AI</guid>
+      <pubDate>Tue, 09 Dec 2025 17:47:12 +0000</pubDate>
     </item>
     <item>
-      <title>Live Update Orchestrator "LUO" Merged For Linux 6.19</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Live-Update-LUO</link>
-      <description>Google engineers for the past number of months have been working on the Live Update Orchestrator as a new way of applying live Linux kernel updates. The Live Update Orchestrator "LUO" builds atop the Kexec Handover "KHO" functionality already within the kernel. Google has since been deplyoing LUO in their production environments for faster security updates to kernels, especially when involving VMs. LUO is now upstream in Linux 6.19...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Live-Update-LUO</guid>
-      <pubDate>Mon, 08 Dec 2025 20:17:07 +0000</pubDate>
+      <title>Canonical To Distribute AMD ROCm Libraries With Ubuntu 26.04 LTS</title>
+      <link>https://www.phoronix.com/news/AMD-ROCm-Ubuntu-26.04-LTS</link>
+      <description>AMD previously talked of simplifying the in-box Linux support for ROCm during the second half of 2025. So far we haven't seen any groundbreaking changes from that initiative besides AMD working on various package archives/repositories to make it easier to install the latest ROCm on different Linux distributions. But today a big announcement is now public that Canonical with next year's Ubuntu 26.04 LTS release will provide official ROCm packages along with other libraries...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-ROCm-Ubuntu-26.04-LTS</guid>
+      <pubDate>Tue, 09 Dec 2025 18:00:02 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19's Hung Task &amp;amp; System Lockup Detectors Can Provide Greater Insight</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Detectors-More-Info</link>
-      <description>Beginning with the Linux 6.19 kernel, the hung task detector and system lock-up detector are now optionally able to provide greater insight into the issues by dumping additional system information. The new lockup_sys_info and hung_task_sys_info sysctl knobs were merged over as part of the pull requests managed by Andrew Morton...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Detectors-More-Info</guid>
-      <pubDate>Mon, 08 Dec 2025 21:00:32 +0000</pubDate>
+      <title>AerynOS 2025.12 Brings Many Package Updates</title>
+      <link>https://www.phoronix.com/news/AerynOS-2025.12</link>
+      <description>AerynOS 2025.12 is available today as the latest installment of this from-scratch Linux distribution originally known as Serpent OS...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AerynOS-2025.12</guid>
+      <pubDate>Tue, 09 Dec 2025 22:45:11 +0000</pubDate>
     </item>
     <item>
-      <title>Mesa 26.0 Lands Initial Support For Adreno Gen 8 - Including For The Snapdragon X2</title>
-      <link>https://www.phoronix.com/news/Freedreno-Lands-Adreno-Gen-8</link>
-      <description>The newest Mesa 26.0-devel code as of today has landed initial support for Qualcomm Adreno Gen 8 graphics into the Freedreno Gallium3D driver. The Adreno Gen 8 graphics so far are most notably used by the new Snapdragon X2 Elite laptop SoC with its X2-85 GPU as well as the new Snapdragon 8 Elite Gen 5 with Adreno 840 graphics...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Freedreno-Lands-Adreno-Gen-8</guid>
-      <pubDate>Tue, 09 Dec 2025 01:21:38 +0000</pubDate>
+      <title>Linux 6.19 For RISC-V Brings Parallel CPU Hotplugging, Zalasr Ratified ISA Support</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-RISC-V</link>
+      <description>The RISC-V CPU architecture changes have been merged for the in-development Linux 6.19 kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-RISC-V</guid>
+      <pubDate>Wed, 10 Dec 2025 01:25:27 +0000</pubDate>
     </item>
     <item>
-      <title>Rust-Based Project Aims To Provide Modern Thumbnails For Audio/Video Files On GNOME</title>
-      <link>https://www.phoronix.com/news/gst-thumbnailers-1.0-alpha</link>
-      <description>Since Showtime replaced Totem as the default video player of GNOME, the desktop has lacked thumbnail capabilities for audio and video files. But to address that defect, the Rust-based gst-thumbnailers project has been in development to leverage GStreamer and paired with Rust to provide safe thumbnail generation capabilities for audio and video content...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/gst-thumbnailers-1.0-alpha</guid>
-      <pubDate>Tue, 09 Dec 2025 01:42:00 +0000</pubDate>
+      <title>Fedora Cloud Will Switch To /boot As A Btrfs Subvolume</title>
+      <link>https://www.phoronix.com/news/Fedora-Cloud-Btrfs-Boot</link>
+      <description>The Fedora Engineering and Steering Committee "FESCo" today signed off on a new feature for Fedora Cloud 44 to switch /boot to being as a Btrfs sub-volume rather than a separate partition...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Fedora-Cloud-Btrfs-Boot</guid>
+      <pubDate>Wed, 10 Dec 2025 01:34:16 +0000</pubDate>
     </item>
   </channel>
 </rss>
