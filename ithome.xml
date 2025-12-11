@@ -8,77 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Dec 2025 06:39:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 06:40:11 +0000</lastBuildDate>
     <item>
-      <title>殭屍網路鎖定海運物流公司，綁架DVR發動DDoS攻擊</title>
-      <link>https://www.ithome.com.tw/news/172721</link>
-      <description>新聞一般來說，殭屍網路鎖定的標的，多半是企業組織的邊緣裝置，也有針對家用物聯網裝置的情況，但如今有瞄準海上環境的攻擊行動出現。 資安業者Cydome發現Mirai變種Broadside，駭客專門針對海運的物流產業而來，鎖定該產業廣泛運用的TBK DVR設備，利用已知漏洞CVE-2024-3721（CVSS風險評為6.3分）作為主要滲透的管道。由於這些業者往往會利用DVR監控船隻各個區域，若是這些裝置遭到入侵而影響運作，有可能讓船上的成員無法掌握船隻的安全。再者，殭屍網路會占用衛星通訊網路的頻寬發動DDoS攻擊，使得船隻的網路通訊上行線路完全被占據而影響通訊能力。另一方面，有許多舊型船隻的DVR能存取關鍵的操作科技（OT）網路，使得攻擊者能將這種設備作為橫向移動的據點。 有別於其他的Mirai殭屍網路病毒，Broadside使用專屬的C2通訊協定、獨特的魔術標頭（Magic Header）簽章，以及名為「法官、陪審團，以及執行者」模組，以免其他駭客來搶地盤。再者，Broadside濫用Netlink核心Socket通訊機制，以事件導向的方式隱密地監控處理程序，並部署多型態（polymor</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172721</guid>
-      <pubDate>Tue, 09 Dec 2025 07:32:50 +0000</pubDate>
+      <title>Fortinet為多款系統修補FortiCloud SSO身分驗證繞過漏洞</title>
+      <link>https://www.ithome.com.tw/news/172750</link>
+      <description>新聞近年來鎖定Fortinet旗下應用系統資安漏洞的攻擊行動不時傳出，以上個月而言，該公司先後修補兩個已遭利用的網頁應用程式防火牆（WAF）漏洞CVE-2025-64446、CVE-2025-58034，因此，只要他們修補高風險層級的重大漏洞，往往會引起各界矚目。 本週二資安業者Fortinet針對旗下應用系統發布修補程式，其中一則資安公告引起高度關注，原因是此公告當中，揭露兩個重大層級的資安漏洞CVE-2025-59718與CVE-2025-59719相當危險，而且影響範圍相當廣泛，涵蓋防火牆作業系統FortiOS、FortiWeb、網頁安全閘道FortiProxy，以及網路設備集中管理平臺FortiSwitchManager。 針對這兩個資安漏洞，Fortinet指出皆為加密簽章不當驗證造成，未經身分驗證的攻擊者可利用特製的SAML訊息，繞過FortiCloud單一簽入（SSO）的身分驗證機制，只要是啟用此單一簽入機制的FortiOS、FortiWeb、FortiProxy，或是FortiSwitchManager，就會受到影響。該公司提及，雖然這些設備並未預設啟用相關功能，然而只</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172750</guid>
+      <pubDate>Wed, 10 Dec 2025 09:26:01 +0000</pubDate>
     </item>
     <item>
-      <title>中國駭客UNC5174濫用Discord的API，目的是充當C2通訊管道以迴避偵測</title>
-      <link>https://www.ithome.com.tw/news/172723</link>
-      <description>新聞為了隱匿行蹤，駭客濫用合法服務進行C2通訊的情況，不時有資安業者揭露相關活動，最近有新一波攻擊引起關注，原因是駭客使用的惡意軟體，大多防毒引擎將其視為無害。 資安業者AhnLab揭露中國駭客組織UNC5174最新一波活動，駭客利用即時通訊軟體Discord的API，建立C2的基礎設施，為了長期掌控受害電腦，他們會依序部署多種後門程式。根據AhnLab的調查，UNC5174初期會使用Vshell等曾經使用的後門程式，但過了一段時間之後，他們會改用更為隱蔽的後門，降低被偵測的風險。 其中一種後門程式，是以Discord機器人為基礎打造而成，且難以察覺，AhnLab指出該後門行蹤相當隱密，因為他們在攻擊者活動過程期間，發現磁碟有存取的痕跡，並搭配網路活動的事件記錄，才察覺該後門程式的存在。截至11月24日，VirusTotal的防毒引擎僅有1個將其視為有害。 此後門程式採用Go語言的程式庫DiscordGo打造而成，由於駭客多半依賴開源程式庫實作所需功能，因此自行撰寫的程式碼估計不到100行，使得該後門極為輕量且難以偵測。 UNC5174從事攻擊活動的消息持續傳出，上週有資安業者向媒體透</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172723</guid>
-      <pubDate>Tue, 09 Dec 2025 08:46:26 +0000</pubDate>
+      <title>【資安日報】12月10日，微軟、SAP等多家科技業者發布12月份例行更新</title>
+      <link>https://www.ithome.com.tw/news/172751</link>
+      <description>新聞微軟發布12月例行更新，修補3個零時差漏洞，其中一個已被用於實際攻擊 12月9日微軟發布本月份例行更新（Patch Tuesday），總共修補57個資安漏洞，較上個月63個略為減少。根據漏洞的類型來看，權限提升（EoP）漏洞占半數最多，有29個；其次是遠端程式碼執行（RCE）漏洞，有19個；其餘為資訊洩露（ID）、欺騙，以及阻斷服務（DoS）相關漏洞，分別為4個、3個，以及2個。值得留意的是，本次有3個是零時差漏洞，1個已被用於實際攻擊，另外2個在微軟修補前已被公開。 其中，已被利用於攻擊活動的是CVE-2025-62221，此漏洞出現於Windows雲端檔案小型過濾器驅動程式（Windows Cloud Files Mini Filter Driver），為記憶體釋放後再存取利用（Use After Free）型態的漏洞，得到授權的攻擊者可用於提升權限，若是成功利用，他們就有機會得到SYSTEM權限，CVSS風險為7.8分。這項漏洞由微軟威脅情報中心（MSTIC）與微軟資安回應中心（MSRC）通報，究竟攻擊者如何利用，微軟並未說明。 另外兩項修補前已被公開的零時差漏洞，分別是CV</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172751</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/3-Vulnerabilities.png" length="0" type="image/png"/>
+      <pubDate>Wed, 10 Dec 2025 09:35:51 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】12月9日，AI開發工具與程式助理廣泛存在一系列資安漏洞，可串連形成攻擊鏈IDEsaster</title>
-      <link>https://www.ithome.com.tw/news/172725</link>
-      <description>新聞IDEsaster攻擊鏈濫用AI IDE與程式助理，恐致資料外洩與遠端程式碼執行 一項針對AI開發工具的研究揭露，多款主流AI IDE與程式助理存在超過30項安全漏洞，可能被用來竊取專案資料，甚至在開發者電腦上執行任意程式碼。資安研究人員Ari Marzuk將這類問題統稱為IDEsaster，指出受測的AI IDE與整合式程式助理中，所有都可被此攻擊鏈濫用，涉及GitHub Copilot、Cursor、Windsurf、Kiro.dev、Zed.dev、Roo Code、Junie、Cline、Gemini CLI與Claude Code等多款產品，目前已有24項漏洞取得CVE編號，AWS甚至發布安全公告AWS-2025-019回應。 Ari Marzuk表示，傳統IDE設計時未預期之後會嵌入能自動讀寫檔案與設定的AI代理，導致原本被視為安全的IDE內建功能，在AI參與後變成新的攻擊面。AI代理在開發流程中可存取專案檔案、設定檔與外部服務，一旦被提示注入攻擊控制，就可能透過合法工具操作，進一步觸發底層IDE功能，最後演變為資料外洩或遠端程式碼執行。 IDEsaster是一條跨工具</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172725</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/all_attack_chains.png" length="0" type="image/png"/>
-      <pubDate>Tue, 09 Dec 2025 10:36:08 +0000</pubDate>
+      <title>英國國家網路安全中心試辦主動通報服務，協助組織掌握對外系統弱點</title>
+      <link>https://www.ithome.com.tw/news/172752</link>
+      <description>新聞英國國家網路安全中心NCSC公開Proactive Notifications主動通報服務，與Netcraft合作掃描英國組織對外網路系統，主動通報可能的安全弱點，納入Active Cyber Defence主動網路防禦策略，盡量在弱點遭攻擊前讓系統擁有者先掌握風險與修補選項。 根據NCSC的說明，這項服務並非替組織防禦，而是依據Netcraft對外公開服務與軟體版本的掃描結果，彙整出可能存在風險的版本與設定，再以電子郵件通知相關單位。判斷只依賴公開來源資訊與外部可觀察行為，流程標榜符合英國Computer Misuse Act，不會嘗試登入或入侵系統。 NCSC也預先說明，當有組織收到這項主動通報服務寄出的相關通知信，可透過幾個特徵判斷真偽。這些電子郵件會從netcraft.com網域寄出，內容採純文字格式，雖然可能包含可點擊連結，但不會夾帶附件，也不會要求提供個人資料、帳號資訊或任何形式的付款。收件人要是收到錯誤通知或不希望再收到通報，也可要求停止發送。 在責任分工上，NCSC強調組織仍須自負網路與資料安全責任，包含識別與處理自身系統弱點。主動通報服務僅涵蓋部分系統與弱點，無意</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172752</guid>
+      <pubDate>Wed, 10 Dec 2025 10:19:25 +0000</pubDate>
     </item>
     <item>
-      <title>微軟發布12月例行更新，修補3個零時差漏洞，其中一個已被用於實際攻擊</title>
-      <link>https://www.ithome.com.tw/news/172730</link>
-      <description>新聞12月9日微軟發布本月份例行更新（Patch Tuesday），總共修補57個資安漏洞，較上個月63個略為減少。根據漏洞的類型來看，權限提升（EoP）漏洞占半數最多，有29個；其次是遠端程式碼執行（RCE）漏洞，有19個；其餘為資訊洩露（ID）、欺騙，以及阻斷服務（DoS）相關漏洞，分別為4個、3個，以及2個。值得留意的是，本次有3個是零時差漏洞，1個已被用於實際攻擊，另外2個在微軟修補前已被公開。 其中，已被利用於攻擊活動的是CVE-2025-62221，此漏洞出現於Windows雲端檔案小型過濾器驅動程式（Windows Cloud Files Mini Filter Driver），為記憶體釋放後再存取利用（Use After Free）型態的漏洞，得到授權的攻擊者可用於提升權限，若是成功利用，他們就有機會得到SYSTEM權限，CVSS風險為7.8分。這項漏洞由微軟威脅情報中心（MSTIC）與微軟資安回應中心（MSRC）通報，究竟攻擊者如何利用，微軟並未說明。 另外兩項修補前已被公開的零時差漏洞，分別是CVE-2025-64671與CVE-2025-54100。其中又以CVE</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172730</guid>
-      <pubDate>Wed, 10 Dec 2025 03:56:53 +0000</pubDate>
+      <title>駭客濫用GitHub個人存取權杖，竊取Actions機密憑證攻擊雲端控制平面</title>
+      <link>https://www.ithome.com.tw/news/172753</link>
+      <description>新聞雲端資安業者Wiz揭露多起事件，指出駭客鎖定開發者GitHub個人存取權杖（PAT），再利用GitHub Actions機密憑證取得雲端帳號權限，讓程式碼庫中的權杖外洩升級為企業雲端環境的資安事故。 研究人員觀察到，這次分析的多起攻擊案例，多半是從取得一組具備一般開發權限的PAT開始。駭客利用這組權杖呼叫GitHub程式碼搜尋功能，在組織內檢索工作流程檔，從工作流程中Secrets呼叫語法推得正在使用的Actions Secrets名稱。Wiz統計顯示，約73%使用GitHub Actions Secrets的企業會在其中存放雲端服務憑證，讓這一步的偵察直接關聯到雲端環境安全。 在掌握Secrets名稱且PAT具備寫入權限時，攻擊者會修改或新增GitHub Actions工作流程，讓惡意程式碼在Runner上執行並使用這些機密憑證。GitHub雖會在工作流程紀錄中自動遮罩Secrets內容，但研究人員指出，實務上已有攻擊者透過編碼或轉送到外部服務等方式繞過保護，取得可直接用於雲端服務的金鑰，甚至在雲端控制平面內建立新的存取憑證，作為長期後門。 當攻擊者掌握雲端憑證後，便能離開Git</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172753</guid>
+      <pubDate>Thu, 11 Dec 2025 01:34:10 +0000</pubDate>
     </item>
     <item>
-      <title>Apache Tika存在嚴重XXE漏洞，惡意XFA PDF可遠端讀取伺服器資料</title>
-      <link>https://www.ithome.com.tw/news/172726</link>
-      <description>新聞Apache基金會旗下文件內容分析工具Apache Tika爆出一項嚴重的XML外部實體（XML External Entity，XXE）漏洞，編號CVE-2025-66516，CVSS風險分數為10分滿分。攻擊者只要送出內嵌XFA（XML Forms Architecture）表單的惡意PDF檔，便可能在未經驗證且無須使用者互動的情況下，遠端讀取伺服器上的敏感資料或對內部系統發送請求。 Apache Tika是Java實作的開源內容分析工具，能從上千種檔案格式中抽取文字與中繼資料，常被整合進搜尋引擎、內容管理系統與各式資料處理平臺，處理使用者上傳檔案或批次匯入文件。該XXE漏洞通報指出，Tika核心模組tika-core、部分PDF專用模組tika-pdf-module，以及舊版1.x分支中的tika-parsers，都在特定版本區間內受到影響，整體涵蓋範圍從1.13一路延伸到3.2.1版，依各模組而有所不同。 該漏洞允許攻擊者在PDF嵌入特製XFA內容，誘使Tika在解析過程處理外部實體，進而透過XXE存取本機檔案或對內網與第三方服務發送請求，形成資訊外洩與伺服器端請求偽造（S</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172726</guid>
-      <pubDate>Wed, 10 Dec 2025 04:40:00 +0000</pubDate>
+      <title>Gemini Enterprise存在可外洩企業資料的零點擊漏洞GeminiJack</title>
+      <link>https://www.ithome.com.tw/news/172754</link>
+      <description>新聞研究人員發現Google Gemini Enterprise存在一項漏洞，讓攻擊者只要以共享Google Docs、Google Calendar邀請或Gmail郵件，就能存取企業資料並外洩出去。 這項漏洞由Noma Labs發現，並命名為GeminiJack。它之前存在Vertex AI Search，Google已在安全廠商合作下將之修補。 研究人員說，GeminiJack並非傳統軟體漏洞，而是出於Gemini Enterprise檢索增強生成（Retrieval Augmented Generation,RAG）的系統架構性瑕疵。Gemini Enterprise AI搜尋功能導入了RAG架構，允許企業查詢多種資料源，包括Gmail、Google Calendar、Google Docs（文件、試算表和簡報），以及其他Google Workspace元件。但是GeminiJack利用了Gemini Enterprise的上下文邊界混淆問題，攻擊者可將惡意指令嵌在Google Workspace的共享文件（如Google Docs、外部送進的文件、或是會議邀請），趁著RAG系統</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172754</guid>
+      <pubDate>Thu, 11 Dec 2025 02:16:56 +0000</pubDate>
     </item>
     <item>
-      <title>英國公立醫療機構Barts Health NHS Trust遭遇Oracle EBS資料外洩並公開暗網上</title>
-      <link>https://www.ithome.com.tw/news/172731</link>
-      <description>新聞英國公立醫療機構Barts Health NHS Trust上周公告遭遇Oracle E-Business Suite (EBS)攻擊，致個人資料公開。 Barts Health NHS Trust作為一家信託機構，管理倫敦皇家醫院等5家醫院。一如其他受害者，Barts Health信託機構遭到Cl0p駭客從包含發票的資料庫中竊取了某些檔案，並將之張貼於暗網。被竊取的檔案包含多年來需要支付一家Barts Health醫院治療及服務費用的個人資料，包括姓名及地址。 根據英國媒體報導，外洩的是Barts Health管理的病患和醫院員工資料。事件也是發生於今年8月。 Barts Health已緊急採取法律行動，請求英國高等法院開出命令，以阻止這批的發佈、使用與分享，同時和英格蘭NHS、以及英國網路安全中心、警方合作，並且向英國資料主管機關資訊委員會辦公室（Information Commissioner’s Office, ICO）通報。 截至11月Cl0p勒索軟體駭客已公開約30家成為其竊取Oracle EBS資料的公私立機構受害者。包括哈佛、賓州等多家大學、施耐德電機、日立子公司G</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172731</guid>
-      <pubDate>Wed, 10 Dec 2025 04:46:54 +0000</pubDate>
+      <title>Perplexity AI瀏覽器零點擊漏洞可讓攻擊者抹除Google Drive資料</title>
+      <link>https://www.ithome.com.tw/news/172755</link>
+      <description>新聞Perplexity AI瀏覽器Comet被發現存在一項零點擊漏洞，可讓攻擊者單單以一個有禮貌的商業電子郵件，就能刪除Google Drive內的資料。 資安業者Straiker研究人員發現，在Perplexity AI的Comet代理式瀏覽器中，只要發送一則內含「整理共享Google Drive」訊息的郵件，就能透過對AI瀏覽器助理的提示，將看似禮貌的郵件變成抹除Google Drive檔案的惡意工具。 這類新攻擊手法主要是利用代理人可透過連接器(Connector)存取Google服務，如Gmail或Google Drive的功能，並執行搬移、重新命名或刪除等行為。在這項攻擊下，攻擊者發送了有禮貌的Gmail來包裝其指令，包括「請整理Google Drive」、「代我刪除鬆散檔案(loose files)或.ZIP檔」、「檢查變更，確保一切看來整潔」。 研究人員指出，這類有禮貌、使用的抽象用語（如「整理」、「整潔」）、層次井然的商業書信文體正是攻擊高明之處，因這訊息看來是典型的商業信件，可減少模型質疑、確保遵從行為。將攻擊流程分點列出，也會使代理人一一執行所有步驟。這個過程是完</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172755</guid>
+      <pubDate>Thu, 11 Dec 2025 03:06:11 +0000</pubDate>
     </item>
     <item>
-      <title>Linux基金會成立代理式AI基金會，收編三大標準</title>
-      <link>https://www.ithome.com.tw/news/172732</link>
-      <description>新聞Linux基金會（Linux Foundation）周二（12/9）成立了代理式AI基金會（Agentic AI Foundation，AAIF），同一天並宣布已收編了Model Context Protocol（MCP）、goose及AGENTS.md.等三大代理式AI標準，而包括AWS、Anthropic、Block、Cloudflare、Google、Bloomberg、微軟及OpenAI等業者，皆為肩負資金、標準制定與推廣任務的白金會員。 AAIF表示，代理式AI的出現，代表AI系統邁入自主決策與跨系統協作的新時代，將徹底改變並重塑整體產業版圖。AAIF將提供一個中立且開放的平臺，確保這項關鍵能力能以透明、協作的方式發展，並促進領先開源AI專案的普及與應用。 在AAIF首波收編的標準中，由Anthropic所開發的MCP原本是為了解決自家Claude在「模型如何安全連接外部工具與資料」上的通用接口問題，藉由一套標準協定，讓AI模型與代理人能一致地連接工具、資料庫與應用程式，目前全球已建置超過1萬個依MCP規格開發的工具伺服器，顯示該標準已被廣泛應用於企業內部與開源生態中的A</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172732</guid>
-      <pubDate>Wed, 10 Dec 2025 05:04:44 +0000</pubDate>
+      <title>後門程式PeerBlight鎖定React2Shell而來，企圖綁架Linux主機從事挖礦及DDoS攻擊</title>
+      <link>https://www.ithome.com.tw/news/172756</link>
+      <description>新聞上週React開發團隊修補滿分漏洞CVE-2025-55182（React2Shell），這個存在於React伺服器元件（React Server Components，RSC）的遠端程式碼執行（RCE）漏洞，在公布後數個小時就出現漏洞利用活動，最早傳出的是中國駭客Earth Lamia與Jackpot Panda等多個團體利用，後續傳出北韓駭客用來散布惡意軟體EtherRAT，也有Mirai等殭屍網路將漏洞納入武器庫的情形，現在該漏洞也被用於從事挖礦活動及DDoS攻擊。 資安業者Huntress指出，他們看到駭客利用React2Shell攻擊建築與娛樂產業等多個領域，過程中運用了過往未曾出現的惡意程式，其中包括Linux後門程式PeerBlight、反向代理伺服器隧道工具CowTunnel，以及Go語言打造的後利用工具ZinFoq，目的是濫用React主機的運算能力，利用挖礦軟體XMRig從事挖礦。此外，該公司也看到殭屍網路Kaiji的變種在這波活動中散布的情形，此殭屍網路病毒主要功能是發動DDoS攻擊，特別的是，若是IT人員試圖清除有效酬載，就可能導致受害電腦重開機。 針對攻擊</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172756</guid>
+      <pubDate>Thu, 11 Dec 2025 03:11:49 +0000</pubDate>
     </item>
     <item>
-      <title>SpaceX傳出會在明年下半年IPO</title>
-      <link>https://www.ithome.com.tw/news/172733</link>
-      <description>新聞這幾天相繼有媒體引述消息來源報導，指出馬斯克（Elon Musk）麾下的太空科技公司SpaceX最快將在2026年下半年首度公開發行股票（Initial Public Offering，IPO）。 SpaceX是在2002年由馬斯克創立，目標是大幅降低太空運輸成本並推動火星殖民，該公司有兩項舉世聞名的建樹，一是開發出可重複使用的火箭 ，二是已部署至全球市場的Starlink低軌衛星通訊服務。 上周市場先傳出SpaceX準備展開新一輪的二級市場交易，亦即由內部股東出售股票，根據華爾街日報（WSJ）的報導，這次交易的SpaceX估值為8,000億美元。而SpaceX員工在今年7月出售持股時，估值僅有4,000億美元，顯示在短短的半年內，SpaceX身價便漲了一倍。WSJ也報導SpaceX計畫於2026年IPO。 馬斯克隨後也透過X回應，否認外界將這筆SpaceX二級市場交易解讀為「高估值募資」的說法，強調SpaceX多年來一直維持正現金流，且每年固定進行兩次股票回購，以提供員工與投資人流動性。他並指出，公司估值的成長，取決於Starship與Starlink的進展，是否成功取得全球「d</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172733</guid>
-      <pubDate>Wed, 10 Dec 2025 05:18:47 +0000</pubDate>
+      <title>ChatGPT用戶現已可呼叫Photoshop及Acrobat等Adobe工具來支援</title>
+      <link>https://www.ithome.com.tw/news/172757</link>
+      <description>新聞Adobe周三（12/10）宣布，已透過代理式AI技術及模型脈絡協定（Model Context Protocol，MCP），讓ChatGPT用戶可直接於聊天介面中呼叫Adob​​e Photoshop、Adobe Express，以及Adob​​e Acrobat等應用來支援影像與文件的編輯。 OpenAI是在今年10月開始於ChatGPT中整合外部應用程式，預覽Apps SDK，以讓使用者於ChatGPT中呼叫某個程式來回答問題，像是點名Spotify來建立派對歌單，或是要Booking.com幫忙尋找巴黎住處，還是請Coursera推薦AI入門課程等，這種查詢類的第三方應用可供所有等級的ChatGPT用戶免費使用。 本周加入的Adob​​e Photoshop、Adobe Express，以及Adob​​e Acrobat則是屬於專業型的第三方應用，因耗費更多的資源，因此只供ChatGPT付費用戶存取，只要於設定中啟用相關應用程式即可在聊天的過程中呼叫它們。 上述的Adobe應用皆為免費的基礎版本，例如ChatGPT用戶可請Photoshop調整影像中特定區塊的亮度、對比及曝</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172757</guid>
+      <pubDate>Thu, 11 Dec 2025 03:16:41 +0000</pubDate>
     </item>
     <item>
-      <title>Mistral AI公佈程式撰寫模型Devstral 2系列 加入軟工代理人戰局</title>
-      <link>https://www.ithome.com.tw/news/172734</link>
-      <description>新聞法國AI新創公司Mistral本周公佈開源程式撰寫模型Devstral 2、輕量版Devstral Small 2，以及CLI代理人等相關工具加入軟工代理人戰局，並提供一段時間的免費API存取。 Devstral 是軟體工程專用的代理式LLM，而Devstral 2為1230億參數的稠密Transformer（dense transformer）模型，支援256K脈絡長度。它是為指令遵從而微調，使其相當適合交談、指示型、代理式任務，也擅長使用工具來探索codebase、編輯多種檔案，驅動軟工代理人。 Mistral同時公佈240億參數的Devstral Small 2，可部署在筆電上，或是以API存取執行，適合在本地端部署以及微調客製化。 雖然Devstral 2及Devstral Small 2參數量和DeepSeek v3.2各小了5倍和28倍，和Kimi K2相比更小了8倍和41倍，但在標竿測試SWE-bench Verified上卻獲致72.2%及68.0%的效果，僅略低於大廠旗艦模型如Gemini 3 Pro、GPT 5.1及Claude 4.5 Sonnet，超過Gro</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172734</guid>
-      <pubDate>Wed, 10 Dec 2025 05:53:03 +0000</pubDate>
+      <title>Google全面支援MCP，讓AI代理人可直接操作雲端服務</title>
+      <link>https://www.ithome.com.tw/news/172758</link>
+      <description>新聞Google周四（12/11）宣布，將全面支援模型脈絡協定（Model Context Protocol，MCP），會陸續推出官方的全託管遠端MCP伺服器，首波問世的服務包括Google Maps、BigQuery、Google Compute Engine及Google Kubernetes Engine（GKE），讓AI代理人得以直接操作Google雲端服務、查詢資料與管理基礎架構。 MCP是由Anthropic在2024年提出的開放協定，本質上是一套「外部工具應如何向AI模型曝露能力」的規範，提供統一的工具介接格式，使模型能以一致方式呼叫各類資料庫、API與系統，因此被稱為AI界的USB-C。該協定也在本周成為代理式AI基金會（Agentic AI Foundation，AAIF）的第一批標準。 Google說明，過去若要使用社群打造的Google MCP伺服器，開發者必須自行尋找、安裝並維護本地或開源版本，整合成本高且穩定性不一。如今官方提供全託管的MCP伺服器，開發者只需讓AI代理人或MCP客戶端指向Google提供的端點，即可直接使用Google與Google Clou</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172758</guid>
+      <pubDate>Thu, 11 Dec 2025 04:46:23 +0000</pubDate>
     </item>
     <item>
-      <title>歐盟開始調查Google AI的內容使用行為</title>
-      <link>https://www.ithome.com.tw/news/172735</link>
-      <description>新聞歐盟執委會（European Commission，EC）周二（12/9）宣布已針對Google啟動反壟斷調查，針對其在生成式AI服務中使用網路出版商與YouTube內容的作法，是否違反歐盟競爭法令進行審查。 EC擔心的是Google有否藉由對出版商及內容創作者施加不公平的條款與條件來扭曲競爭，或者是透過賦予自身對這些內容的特權存取權限，以令開發AI模型的競爭對手處於不利地位。 調查範圍包括AI Overviews、AI Mode及YouTube。其中，AI Overviews是在搜尋結果頁上方顯示搜尋關鍵字的AI摘要，AI Mode則是一個類似聊天機器人的搜尋分頁。歐盟將檢視Google是否在未給付合理報酬、且出版商難以拒絕授權的情況下，將新聞網站內容用於AI Overviews及AI Mode等生成式搜尋服務，因為許多出版商高度依賴搜尋流量，在談判上屬於劣勢。 也會調查Google是否使用YouTube內容來訓練模型。歐盟指出，創作者在上傳影片時被要求全面授權資料使用，無法選擇拒絕AI訓練；另一方面，Google的競爭對手卻被禁止利用YouTube內容訓練模型，可能形成不公平競</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172735</guid>
-      <pubDate>Wed, 10 Dec 2025 06:08:38 +0000</pubDate>
+      <title>OWASP公布AI代理的10大資安威脅</title>
+      <link>https://www.ithome.com.tw/news/172760</link>
+      <description>新聞這兩年生成式AI應用起飛，已逐漸融入你我生活，相關的新技術也帶來了新的風險，過去經常發布10大資安風險的非營利組織OWASP，從2023年8月開始，彙整大型語言模型（LLM）的10大資安風險，去年底公布最新的2025版，隨著許多應用聚焦在AI代理，現在他們公布AI代理的10大資安風險。 這10大資安風險當中，又以前三大最被凸顯。其中OWASP列為第一的是Agent Goal Hijack，光從字面上不容易直接理解其風險為何，OWASP說明指出，這種風險來自攻擊者操蹤AI代理的自然語言輸入，改變原本的目標，導致資料外流、輸出結果被竄改，或是工作流程被挾持的情況，而這的確是時下最常見的AI代理威脅之一。 排名第二和第三的威脅，就相對容易理解：分別是工具濫用及漏洞利用（Tool Misuse and Exploitation），以及身分與特殊權限的濫用（Identity and Privilege Abuse），這些威脅展現攻擊者如何顛覆AI代理能力，以及其背後的基礎設施，而且，涉及AI代理的資安威脅，已在各行各業浮現。 對於OWASP從彙整LLM資安風險轉向AI代理風險的原因，帶頭彙整</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172760</guid>
+      <pubDate>Thu, 11 Dec 2025 05:24:54 +0000</pubDate>
     </item>
   </channel>
 </rss>
