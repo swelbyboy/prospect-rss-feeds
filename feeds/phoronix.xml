@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Dec 2025 06:37:12 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Dec 2025 06:38:08 +0000</lastBuildDate>
     <item>
-      <title>Bug-Catching "Smatch" Static Analysis On The Linux Kernel Under Threat Due To Funding Gap</title>
-      <link>https://www.phoronix.com/news/Linux-Smatch-Lacks-Funding</link>
-      <description>For the past 15 years the Smatch static analysis tool has been routinely run for uncovering countless bugs within the Linux kernel. Dan Carpenter who authored Smatch and has been routinely analyzing the Linux kernel with it has authored more than 5,568 patches over the years to become one of the top bug fixers for the kernel. But his funding at Linaro has been cut and the project's future now in question...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Smatch-Lacks-Funding</guid>
-      <pubDate>Tue, 09 Dec 2025 11:17:55 +0000</pubDate>
+      <title>Linux Fixes A Performance Regression In The Slab Code</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Fix-Slab-Regression</link>
+      <description>A performance fix has been submitted to the Linux kernel for dealing with a regression in the Slab memory allocation code...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Fix-Slab-Regression</guid>
+      <pubDate>Wed, 10 Dec 2025 10:32:55 +0000</pubDate>
     </item>
     <item>
-      <title>Microsoft Has Many Hyper-V Virtualization Improvements For Linux 6.19</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Improves-Hyper-V</link>
-      <description>For benefiting their Azure cloud and other users of Hyper-V virtualization at large, Microsoft has rolled out a number of feature additions and improvements for their Hyper-V kernel code in Linux 6.19...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Improves-Hyper-V</guid>
-      <pubDate>Tue, 09 Dec 2025 14:30:09 +0000</pubDate>
+      <title>Updated Intel LLM-Scaler-Omni Improves ComfyUI Performance For Arc Graphics</title>
+      <link>https://www.phoronix.com/news/Intel-LLM-Scaler-Omni-ComfyUI</link>
+      <description>The past several months Intel software engineers have been quite busy with LLM-Scaler as part of Project Battlematrix. LLM-Scaler is a Docker-based solution for AI workloads on Intel graphics hardware to ship an optimized vLLM stack and other AI frameworks. Out today is a new LLM-Scaler-Omni release to help enhance ComfyUI performance on Intel hardware...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-LLM-Scaler-Omni-ComfyUI</guid>
+      <pubDate>Wed, 10 Dec 2025 10:49:13 +0000</pubDate>
     </item>
     <item>
-      <title>AMD EPYC Embedded 2005 Series Announced For BGA Zen 5 CPUs</title>
-      <link>https://www.phoronix.com/review/amd-epyc-embedded-2005</link>
-      <description>AMD today announced their newest member of their expansive EPYC family: the EPYC Embedded 2005 series. The new AMD EPYC Embedded 2005 Series are intended primarily for networking, storage, and industrial devices while these BGA processors will likely see other interesting thin-server uses as well.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/amd-epyc-embedded-2005</guid>
-      <pubDate>Tue, 09 Dec 2025 15:00:00 +0000</pubDate>
+      <title>Budgie 10.10 Desktop Approved For Fedora 44 Packaging, Fedora Budgie Spin All-Wayland</title>
+      <link>https://www.phoronix.com/news/Budgie-10.10-Fedora-44</link>
+      <description>In addition to approving Fedora Cloud switching /boot to a Btrfs subvolume, another change approved this week by the Fedora Engineering and Steering Committee (FESCo) is for shipping the Budgie 10.10 desktop packages in Fedora 44...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Budgie-10.10-Fedora-44</guid>
+      <pubDate>Wed, 10 Dec 2025 11:02:18 +0000</pubDate>
     </item>
     <item>
-      <title>Scheduler Woes: Bisecting Early Performance Regressions Found In Linux 6.19</title>
-      <link>https://www.phoronix.com/review/linux-619-sched-regress</link>
-      <description>Yesterday I noted some early performance regressions I've found on the Linux 6.19 kernel compared to Linux 6.18 LTS stable. Those initial benchmarks were on an AMD EPYC server. Since then I've seen many of the same workloads regressing similarly on an AMD Ryzen Threadripper workstation between Linux 6.18 and Linux 6.19 Git. Given the significant impact and AMD Threadripper processors always helping out to speed-up Linux kernel build times to make for a quicker and more manageable kernel bisectin</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/linux-619-sched-regress</guid>
-      <pubDate>Tue, 09 Dec 2025 16:00:00 +0000</pubDate>
+      <title>Turbostat Introduces New Cache Statistics, Nova Lake + Wildcat Lake Support</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Turbostat</link>
+      <description>Turbostat is the Linux command-line utility for reporting CPU frequency / power / C-states and related performance / power management items namely for modern AMD and Intel processors. This CLI utility lives within the Linux kernel source tree and for Linux 6.19 has picked up a few new features...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Turbostat</guid>
+      <pubDate>Wed, 10 Dec 2025 11:13:15 +0000</pubDate>
     </item>
     <item>
-      <title>Firefox 147 Beta Released With XDG Base Directory Support</title>
-      <link>https://www.phoronix.com/news/Firefox-147-Beta</link>
-      <description>With Firefox 146 released, which is exciting for delivering fractional scaling on Wayland, Firefox 147 Beta is now available and it's also quite exciting to Linux users for another reason...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Firefox-147-Beta</guid>
-      <pubDate>Tue, 09 Dec 2025 17:20:13 +0000</pubDate>
+      <title>AMD FSR SDK 2.1 Released With FSR Redstone - Windows-Only For Now</title>
+      <link>https://www.phoronix.com/news/AMD-FSR-SDK-2.1</link>
+      <description>AMD FSR SDK 2.1 is now available that includes their "FSR Redstone" machine learning based upscaling tech for gaming..</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-FSR-SDK-2.1</guid>
+      <pubDate>Wed, 10 Dec 2025 14:16:51 +0000</pubDate>
     </item>
     <item>
-      <title>Linux Foundation's Newest Endeavor: The Agentic AI Foundation</title>
-      <link>https://www.phoronix.com/news/Linux-Foundation-Agentic-AI</link>
-      <description>The Linux Foundation today announced it's formed another foundation under its growing umbrella that extends well beyond the traditional "Linux" landscape: the Agentic AI Foundation...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Foundation-Agentic-AI</guid>
-      <pubDate>Tue, 09 Dec 2025 17:47:12 +0000</pubDate>
+      <title>FreeBSD 15.0 vs. Ubuntu Linux For AMD EPYC Server Performance</title>
+      <link>https://www.phoronix.com/review/freebsd-15-amd-epyc-linux</link>
+      <description>Given the recent release of FreeBSD 15, I started off my testing in looking at how FreeBSD 15.0 improves performance versus FreeBSD 14.3. Now it's onto the next important question: how is FreeBSD 15.0 performing relative to Linux on servers? Here are some benchmarks exploring that topic today.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/freebsd-15-amd-epyc-linux</guid>
+      <pubDate>Wed, 10 Dec 2025 15:30:06 +0000</pubDate>
     </item>
     <item>
-      <title>Canonical To Distribute AMD ROCm Libraries With Ubuntu 26.04 LTS</title>
-      <link>https://www.phoronix.com/news/AMD-ROCm-Ubuntu-26.04-LTS</link>
-      <description>AMD previously talked of simplifying the in-box Linux support for ROCm during the second half of 2025. So far we haven't seen any groundbreaking changes from that initiative besides AMD working on various package archives/repositories to make it easier to install the latest ROCm on different Linux distributions. But today a big announcement is now public that Canonical with next year's Ubuntu 26.04 LTS release will provide official ROCm packages along with other libraries...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-ROCm-Ubuntu-26.04-LTS</guid>
-      <pubDate>Tue, 09 Dec 2025 18:00:02 +0000</pubDate>
+      <title>Qt Toolkit Lands IO_uring Abstraction</title>
+      <link>https://www.phoronix.com/news/Qt-IO_uring-QIORing</link>
+      <description>The newest feature to land in the cross-platform Qt toolkit is QIORing as an abstraction for Linux's IO_uring interface. This QIORing may also end up supporting Microsoft's Windows IORing implementation as well...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Qt-IO_uring-QIORing</guid>
+      <pubDate>Wed, 10 Dec 2025 20:37:36 +0000</pubDate>
     </item>
     <item>
-      <title>AerynOS 2025.12 Brings Many Package Updates</title>
-      <link>https://www.phoronix.com/news/AerynOS-2025.12</link>
-      <description>AerynOS 2025.12 is available today as the latest installment of this from-scratch Linux distribution originally known as Serpent OS...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AerynOS-2025.12</guid>
-      <pubDate>Tue, 09 Dec 2025 22:45:11 +0000</pubDate>
+      <title>Glibc Now Enabling 2MB THP On AArch64 By Default For Better Performance</title>
+      <link>https://www.phoronix.com/news/Glibc-malloc-2MB-THP-AArch64</link>
+      <description>The GNU C Library's malloc implementation is now enabling 2MB Transparent Huge Pages (THP) by default for AArch64 Linux. This is being done in the name of better performance -- a healthy 6.25% performance improvement is noted for SPEC with this change...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Glibc-malloc-2MB-THP-AArch64</guid>
+      <pubDate>Wed, 10 Dec 2025 20:45:10 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19 For RISC-V Brings Parallel CPU Hotplugging, Zalasr Ratified ISA Support</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-RISC-V</link>
-      <description>The RISC-V CPU architecture changes have been merged for the in-development Linux 6.19 kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-RISC-V</guid>
-      <pubDate>Wed, 10 Dec 2025 01:25:27 +0000</pubDate>
+      <title>Intel's Vulkan Linux Driver Merges Shader VMA Allocator For Ray-Tracing Capture/Replay</title>
+      <link>https://www.phoronix.com/news/Intel-ANV-Shader-VMA-Allocator</link>
+      <description>Merged today to the Intel open-source "ANV" Vulkan driver in Mesa 26.0 is introducing a shader VMA allocator. Long story short this new allocator steps toward enabling Vulkan ray-tracing capture/replay support, which can come in hand for debugging issues with Vulkan ray-tracing on Intel graphics hardware under Linux and similarly to assist in optimizing for better performance...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-ANV-Shader-VMA-Allocator</guid>
+      <pubDate>Thu, 11 Dec 2025 01:25:15 +0000</pubDate>
     </item>
     <item>
-      <title>Fedora Cloud Will Switch To /boot As A Btrfs Subvolume</title>
-      <link>https://www.phoronix.com/news/Fedora-Cloud-Btrfs-Boot</link>
-      <description>The Fedora Engineering and Steering Committee "FESCo" today signed off on a new feature for Fedora Cloud 44 to switch /boot to being as a Btrfs sub-volume rather than a separate partition...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Fedora-Cloud-Btrfs-Boot</guid>
-      <pubDate>Wed, 10 Dec 2025 01:34:16 +0000</pubDate>
+      <title>Linux 6.19 Networking Delivers 4x Improvement For Heavy Transfer Workloads, New Hardware</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Networking</link>
+      <description>The big set of networking subsystem updates was recently merged for the ongoing Linux 6.19 merge window. There are some enticing core networking improvements like a big performance improvement for heavy transfer workloads, Bluetooth PAST enablement, and more. Plus a lot of wired and wireless networking driver activity and new hardware enablement...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Networking</guid>
+      <pubDate>Thu, 11 Dec 2025 01:50:53 +0000</pubDate>
     </item>
   </channel>
 </rss>
