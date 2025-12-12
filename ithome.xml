@@ -8,77 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Dec 2025 06:40:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Dec 2025 06:39:15 +0000</lastBuildDate>
     <item>
-      <title>Fortinet為多款系統修補FortiCloud SSO身分驗證繞過漏洞</title>
-      <link>https://www.ithome.com.tw/news/172750</link>
-      <description>新聞近年來鎖定Fortinet旗下應用系統資安漏洞的攻擊行動不時傳出，以上個月而言，該公司先後修補兩個已遭利用的網頁應用程式防火牆（WAF）漏洞CVE-2025-64446、CVE-2025-58034，因此，只要他們修補高風險層級的重大漏洞，往往會引起各界矚目。 本週二資安業者Fortinet針對旗下應用系統發布修補程式，其中一則資安公告引起高度關注，原因是此公告當中，揭露兩個重大層級的資安漏洞CVE-2025-59718與CVE-2025-59719相當危險，而且影響範圍相當廣泛，涵蓋防火牆作業系統FortiOS、FortiWeb、網頁安全閘道FortiProxy，以及網路設備集中管理平臺FortiSwitchManager。 針對這兩個資安漏洞，Fortinet指出皆為加密簽章不當驗證造成，未經身分驗證的攻擊者可利用特製的SAML訊息，繞過FortiCloud單一簽入（SSO）的身分驗證機制，只要是啟用此單一簽入機制的FortiOS、FortiWeb、FortiProxy，或是FortiSwitchManager，就會受到影響。該公司提及，雖然這些設備並未預設啟用相關功能，然而只</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172750</guid>
-      <pubDate>Wed, 10 Dec 2025 09:26:01 +0000</pubDate>
+      <title>VS Code市集兩擴充套件暗藏惡意程式竊取WiFi密碼與Cookie</title>
+      <link>https://www.ithome.com.tw/news/172772</link>
+      <description>新聞資安廠商Koi Security揭露兩款上架於微軟VS Code市集的擴充套件，被證實會在開發者電腦安裝資訊竊取惡意程式，這兩款分別名為Bitcoin Black與Codo AI的擴充套件，分別偽裝成暗色主題與AI程式開發助理，在背景下載並啟動螢幕截圖與憑證竊取程式，能擷取桌面畫面、讀取儲存的WiFi密碼與瀏覽器工作階段。 研究人員指出，Bitcoin Black在描述上只是比特幣風格主題，但程式結構遠超出一般主題需求，不僅宣告在所有VS Code動作都會觸發的萬用啟動事件，還可執行PowerShell指令。早期版本透過PowerShell下載受密碼保護的壓縮檔並解壓，後續版本改為呼叫批次檔與curl直接下載可執行檔與DLL，且在隱藏視窗中執行，以降低被注意的機會。 Codo AI則提供透過ChatGPT或DeepSeek進行程式開發協助的介面，看起來與一般AI擴充套件無異，但研究人員卻在合法AI對話實作前找到一段額外插入的程式碼區塊，負責下載並啟動相同惡意載荷。兩款擴充套件由同一發行者BigBlack上架，共用相同惡意程式與基礎設施，被研判為同一攻擊者鎖定開發者族群。 兩款擴充套</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172772</guid>
+      <pubDate>Fri, 12 Dec 2025 01:47:28 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】12月10日，微軟、SAP等多家科技業者發布12月份例行更新</title>
-      <link>https://www.ithome.com.tw/news/172751</link>
-      <description>新聞微軟發布12月例行更新，修補3個零時差漏洞，其中一個已被用於實際攻擊 12月9日微軟發布本月份例行更新（Patch Tuesday），總共修補57個資安漏洞，較上個月63個略為減少。根據漏洞的類型來看，權限提升（EoP）漏洞占半數最多，有29個；其次是遠端程式碼執行（RCE）漏洞，有19個；其餘為資訊洩露（ID）、欺騙，以及阻斷服務（DoS）相關漏洞，分別為4個、3個，以及2個。值得留意的是，本次有3個是零時差漏洞，1個已被用於實際攻擊，另外2個在微軟修補前已被公開。 其中，已被利用於攻擊活動的是CVE-2025-62221，此漏洞出現於Windows雲端檔案小型過濾器驅動程式（Windows Cloud Files Mini Filter Driver），為記憶體釋放後再存取利用（Use After Free）型態的漏洞，得到授權的攻擊者可用於提升權限，若是成功利用，他們就有機會得到SYSTEM權限，CVSS風險為7.8分。這項漏洞由微軟威脅情報中心（MSTIC）與微軟資安回應中心（MSRC）通報，究竟攻擊者如何利用，微軟並未說明。 另外兩項修補前已被公開的零時差漏洞，分別是CV</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172751</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/3-Vulnerabilities.png" length="0" type="image/png"/>
-      <pubDate>Wed, 10 Dec 2025 09:35:51 +0000</pubDate>
+      <title>Google公佈實驗性AI瀏覽器Disco、首項功能GenTabs</title>
+      <link>https://www.ithome.com.tw/news/172782</link>
+      <description>新聞Google昨（11）日發表實驗性AI瀏覽器Disco，以及首個功能GenTabs，協助使用者更快上網尋找資訊及工作。 Disco及GenTabs是Google Labs最新發表的實驗性上網技術。Google表示，Disco是「上網體驗的全新想像」，是為現代Web開發。結合AI的Disco可協助使用者提升學習和工作速度。首個測試的功能為GenTabs，是以最新LLM Gemini 3為底層開發。 GenTabs能將使用者開啟的多個網頁分頁，轉化成一個互動式App。使用者在瀏覽器左側邊欄的AI聊天機器人輸入提示，例如想去某個地方旅遊、以及想看什麼景點等，並逐次點選搜尋結果中的特定網頁。GenTabs底層的Gemini會分析使用者的對話紀錄及開啟的分頁，並尋求使用者增修意見，最後建立互動式網頁應用程式，例如一個包含旅遊景點的地圖、天氣、日期的Web App。使用者不需撰寫任何一行程式碼，只要以自然語言描述需要什麼工具。所有生成的元素都會連結回原始來源。 Google對The Verge表示，Disco起源並非是為了要取代Chrome，它是源自於Google內部的黑客松專案。Google</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172782</guid>
+      <pubDate>Fri, 12 Dec 2025 02:03:15 +0000</pubDate>
     </item>
     <item>
-      <title>英國國家網路安全中心試辦主動通報服務，協助組織掌握對外系統弱點</title>
-      <link>https://www.ithome.com.tw/news/172752</link>
-      <description>新聞英國國家網路安全中心NCSC公開Proactive Notifications主動通報服務，與Netcraft合作掃描英國組織對外網路系統，主動通報可能的安全弱點，納入Active Cyber Defence主動網路防禦策略，盡量在弱點遭攻擊前讓系統擁有者先掌握風險與修補選項。 根據NCSC的說明，這項服務並非替組織防禦，而是依據Netcraft對外公開服務與軟體版本的掃描結果，彙整出可能存在風險的版本與設定，再以電子郵件通知相關單位。判斷只依賴公開來源資訊與外部可觀察行為，流程標榜符合英國Computer Misuse Act，不會嘗試登入或入侵系統。 NCSC也預先說明，當有組織收到這項主動通報服務寄出的相關通知信，可透過幾個特徵判斷真偽。這些電子郵件會從netcraft.com網域寄出，內容採純文字格式，雖然可能包含可點擊連結，但不會夾帶附件，也不會要求提供個人資料、帳號資訊或任何形式的付款。收件人要是收到錯誤通知或不希望再收到通報，也可要求停止發送。 在責任分工上，NCSC強調組織仍須自負網路與資料安全責任，包含識別與處理自身系統弱點。主動通報服務僅涵蓋部分系統與弱點，無意</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172752</guid>
-      <pubDate>Wed, 10 Dec 2025 10:19:25 +0000</pubDate>
+      <title>Google修補Chrome今年第8個零時差漏洞</title>
+      <link>https://www.ithome.com.tw/news/172785</link>
+      <description>新聞一週前Google發布Chrome 143大改版，並修補JavaScript引擎V8漏洞CVE-2025-13630等13項資安弱點，如今該公司再度發布更新，修補目前尚未公布CVE編號，並且已遭到利用的零時差漏洞。 12月10日Google針對電腦與安卓裝置用戶，發布143.0.7499.109與143.0.7499.110版Chrome，總共修補3項資安漏洞，其中，於Chromium專案登記編號為466192044的高風險漏洞，該公司表示，他們已掌握在實際環境有嘗試利用的情況，此為今年Chrome第8個零時差漏洞。 罕見的是，這項漏洞Google僅透露為高風險層級，至於其他的資訊，像是CVE編號、漏洞的類型、受影響的元件，以及通報者的身分，他們並未透露，僅表示目前正在協調處理當中。 有資安新聞網站根據466192044於Chromium專案透露的內容，對此漏洞進行推測。Bleeping Computer指出，此漏洞疑似出現在Google開源程式庫LibANGLE，此為轉換OpenGL ES圖形呼叫，並傳送到其他API，而能讓圖形API執行效率更佳，或是讓OpenGL ES應用程式</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172785</guid>
+      <pubDate>Fri, 12 Dec 2025 03:28:15 +0000</pubDate>
     </item>
     <item>
-      <title>駭客濫用GitHub個人存取權杖，竊取Actions機密憑證攻擊雲端控制平面</title>
-      <link>https://www.ithome.com.tw/news/172753</link>
-      <description>新聞雲端資安業者Wiz揭露多起事件，指出駭客鎖定開發者GitHub個人存取權杖（PAT），再利用GitHub Actions機密憑證取得雲端帳號權限，讓程式碼庫中的權杖外洩升級為企業雲端環境的資安事故。 研究人員觀察到，這次分析的多起攻擊案例，多半是從取得一組具備一般開發權限的PAT開始。駭客利用這組權杖呼叫GitHub程式碼搜尋功能，在組織內檢索工作流程檔，從工作流程中Secrets呼叫語法推得正在使用的Actions Secrets名稱。Wiz統計顯示，約73%使用GitHub Actions Secrets的企業會在其中存放雲端服務憑證，讓這一步的偵察直接關聯到雲端環境安全。 在掌握Secrets名稱且PAT具備寫入權限時，攻擊者會修改或新增GitHub Actions工作流程，讓惡意程式碼在Runner上執行並使用這些機密憑證。GitHub雖會在工作流程紀錄中自動遮罩Secrets內容，但研究人員指出，實務上已有攻擊者透過編碼或轉送到外部服務等方式繞過保護，取得可直接用於雲端服務的金鑰，甚至在雲端控制平面內建立新的存取憑證，作為長期後門。 當攻擊者掌握雲端憑證後，便能離開Git</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172753</guid>
-      <pubDate>Thu, 11 Dec 2025 01:34:10 +0000</pubDate>
+      <title>【資安月報】2025年11月，「小烏龜」資安風險恐衝擊國家安全。網路詐騙防範挑戰備受關注</title>
+      <link>https://www.ithome.com.tw/news/172786</link>
+      <description>新聞在2025年11月的資安新聞中，「小烏龜」資安風險與網路詐騙防範成為最熱門、最受矚目的焦點議題，還有國內外重大資安事件、針對開發者生態的攻擊，以及其他威脅升溫的趨勢同樣不容忽視。我們整理出6大焦點，帶大家快速回顧本月的關鍵新聞與資安趨勢。 （一）小烏龜資安風險衝擊國家安全 本月最熱門的資安新聞，莫過於電信業者提供的數據機──也就是俗稱的「小烏龜」──被揭露存在多項安全漏洞，牽動網路服務供應商與網通設備產品安全的整體討論。過去一年來，趨勢科技資深威脅研究員游照臨多次談及此議題，本月我們進行專訪了解整體概況。首要問題點是ISP方面，他指出中華電信配發數據機給用戶後，缺乏妥善維護，當數據機產品生命週期終止（EoL），廠商與用戶卻仍未更換這些設備。他可以理解相關電信業者遇到的困難，但引發政府、金融、軍方網路門戶洞開的危機需要正視，而且事件爆出一年仍未汰換完畢，處理明顯不夠積極。 產品資安漏洞議題也受到討論，因為游照臨最早的發現過程，就是因為自己搬家順手檢查中華電信新裝的數據機，這項下班後研究卻讓他挖出超過30個、跨多家大廠的CVE漏洞。他並指出，許多老設備都有不安全的設計，存在3種常見漏洞</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172786</guid>
+      <pubDate>Fri, 12 Dec 2025 03:32:00 +0000</pubDate>
     </item>
     <item>
-      <title>Gemini Enterprise存在可外洩企業資料的零點擊漏洞GeminiJack</title>
-      <link>https://www.ithome.com.tw/news/172754</link>
-      <description>新聞研究人員發現Google Gemini Enterprise存在一項漏洞，讓攻擊者只要以共享Google Docs、Google Calendar邀請或Gmail郵件，就能存取企業資料並外洩出去。 這項漏洞由Noma Labs發現，並命名為GeminiJack。它之前存在Vertex AI Search，Google已在安全廠商合作下將之修補。 研究人員說，GeminiJack並非傳統軟體漏洞，而是出於Gemini Enterprise檢索增強生成（Retrieval Augmented Generation,RAG）的系統架構性瑕疵。Gemini Enterprise AI搜尋功能導入了RAG架構，允許企業查詢多種資料源，包括Gmail、Google Calendar、Google Docs（文件、試算表和簡報），以及其他Google Workspace元件。但是GeminiJack利用了Gemini Enterprise的上下文邊界混淆問題，攻擊者可將惡意指令嵌在Google Workspace的共享文件（如Google Docs、外部送進的文件、或是會議邀請），趁著RAG系統</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172754</guid>
-      <pubDate>Thu, 11 Dec 2025 02:16:56 +0000</pubDate>
+      <title>Adobe發布12月安全更新，ColdFusion藏多個重大漏洞應優先處理</title>
+      <link>https://www.ithome.com.tw/news/172759</link>
+      <description>新聞Adobe在12月例行安全更新中，一共修補139個資安漏洞，涵蓋ColdFusion、Adobe Experience Manager（AEM）、Acrobat/Reader、Adobe DNG SDK與Creative Cloud Desktop等產品線。 這波修補有117個漏洞都集中於Adobe Experience Manager（AEM），其中包含2項重大（Critical）等級跨站腳本（XSS）漏洞CVE-2025-64537與CVE-2025-64539，CVSS風險分數皆為9.3；其他則為重要（Important）等級的XSS弱點，CVSS風險分數皆為5.4，成功利用後可能導致任意程式碼執行或權限提升。 ColdFusion本次修補12項安全漏洞，被評為重大等級的漏洞包括：允許上傳危險檔案類型的CVE-2025-61808（CVSS風險分數9.1）；輸入驗證不當、可能繞過安全機制的CVE-2025-61809（CVSS 9.1）；以及可導致任意程式碼執行的CVE-2025-61830（CVSS 8.4）、CVE-2025-61810（CVSS 8.2）。另有多個重大或</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172759</guid>
+      <pubDate>Fri, 12 Dec 2025 04:32:32 +0000</pubDate>
     </item>
     <item>
-      <title>Perplexity AI瀏覽器零點擊漏洞可讓攻擊者抹除Google Drive資料</title>
-      <link>https://www.ithome.com.tw/news/172755</link>
-      <description>新聞Perplexity AI瀏覽器Comet被發現存在一項零點擊漏洞，可讓攻擊者單單以一個有禮貌的商業電子郵件，就能刪除Google Drive內的資料。 資安業者Straiker研究人員發現，在Perplexity AI的Comet代理式瀏覽器中，只要發送一則內含「整理共享Google Drive」訊息的郵件，就能透過對AI瀏覽器助理的提示，將看似禮貌的郵件變成抹除Google Drive檔案的惡意工具。 這類新攻擊手法主要是利用代理人可透過連接器(Connector)存取Google服務，如Gmail或Google Drive的功能，並執行搬移、重新命名或刪除等行為。在這項攻擊下，攻擊者發送了有禮貌的Gmail來包裝其指令，包括「請整理Google Drive」、「代我刪除鬆散檔案(loose files)或.ZIP檔」、「檢查變更，確保一切看來整潔」。 研究人員指出，這類有禮貌、使用的抽象用語（如「整理」、「整潔」）、層次井然的商業書信文體正是攻擊高明之處，因這訊息看來是典型的商業信件，可減少模型質疑、確保遵從行為。將攻擊流程分點列出，也會使代理人一一執行所有步驟。這個過程是完</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172755</guid>
-      <pubDate>Thu, 11 Dec 2025 03:06:11 +0000</pubDate>
+      <title>OpenAI發表GPT-5.2 價格調高40%</title>
+      <link>https://www.ithome.com.tw/news/172788</link>
+      <description>新聞在內部發出紅色警戒後，OpenAI昨（11）日發表最新LLM GPT-5.2，宣稱是迄今最強大的專業知識工作模型系列，強調文件製作、視覺及軟工能力更強，幻覺更少，但價格也調高約40%。 OpenAI指出，設計GPT-5.2的目的是為了展現更大經濟價值，它在建立試算表、製作簡報、編寫程式碼、解讀圖像、理解長篇上下文、運用各項工具，以及處理複雜的多步驟專案方面表現更佳。 ChatGPT中的GPT‑5.2 Instant、Thinking和Pro即日起陸續推出，首先開放給付費方案使用者。API中，上述模型現已向所有開發者開放。GPT‑5.2 (Thinking)每百萬Token輸入/輸出價格為$1.75/$14，並對快取輸入提供90%折扣。Pro版為$21/$168。ChatGPT的方案訂閱費用不變，相較之下，GPT‑5.1為$1.25/$10。OpenAI解釋GPT-5.2更貴是因模型能力更強。 和GPT-5.1 Thinking相較，GPT-5.2 Thinking在知識工作任務標竿測試GDPval成績，由38.8%大幅提升到70.9%。OpenAI表示，它在處理44種知識工作任務時</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172788</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1212-OpenAI%20MRCRv2%EF%BC%8C4%20Needle_%E9%95%B7%E7%AF%87%E4%B8%8A%E4%B8%8B%E6%96%87-gpt5_2.png" length="0" type="image/png"/>
+      <pubDate>Fri, 12 Dec 2025 04:47:11 +0000</pubDate>
     </item>
     <item>
-      <title>後門程式PeerBlight鎖定React2Shell而來，企圖綁架Linux主機從事挖礦及DDoS攻擊</title>
-      <link>https://www.ithome.com.tw/news/172756</link>
-      <description>新聞上週React開發團隊修補滿分漏洞CVE-2025-55182（React2Shell），這個存在於React伺服器元件（React Server Components，RSC）的遠端程式碼執行（RCE）漏洞，在公布後數個小時就出現漏洞利用活動，最早傳出的是中國駭客Earth Lamia與Jackpot Panda等多個團體利用，後續傳出北韓駭客用來散布惡意軟體EtherRAT，也有Mirai等殭屍網路將漏洞納入武器庫的情形，現在該漏洞也被用於從事挖礦活動及DDoS攻擊。 資安業者Huntress指出，他們看到駭客利用React2Shell攻擊建築與娛樂產業等多個領域，過程中運用了過往未曾出現的惡意程式，其中包括Linux後門程式PeerBlight、反向代理伺服器隧道工具CowTunnel，以及Go語言打造的後利用工具ZinFoq，目的是濫用React主機的運算能力，利用挖礦軟體XMRig從事挖礦。此外，該公司也看到殭屍網路Kaiji的變種在這波活動中散布的情形，此殭屍網路病毒主要功能是發動DDoS攻擊，特別的是，若是IT人員試圖清除有效酬載，就可能導致受害電腦重開機。 針對攻擊</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172756</guid>
-      <pubDate>Thu, 11 Dec 2025 03:11:49 +0000</pubDate>
+      <title>OpenAI與迪士尼合作，於Sora中使用逾200個動畫與插畫角色</title>
+      <link>https://www.ithome.com.tw/news/172789</link>
+      <description>新聞OpenAI與華特迪士尼公司（The Walt Disney Company）周四（12/11）宣布，雙方已簽署為期3年的授權協議，迪士尼授權OpenAI旗下的短影音生成AI平臺Sora，可使用逾200個來自迪士尼、漫威、皮克斯與星際大戰的角色IP生成影片。同時，迪士尼也將以10億美元投資OpenAI，並獲得額外股權的認股權證。 Sora是OpenAI於2024年推出的短影音生成AI平臺，讓使用者透過文字提示生成高擬真影片，定位為創作工具，可生成具連貫敘事、鏡頭語言與物理一致性的短影片。 此次協議授權OpenAI在Sora與ChatGPT Images中，使用超過200個迪士尼旗下角色的動畫或插畫版本，涵蓋角色本身、服裝、道具、載具與經典場景，但不包含任何真人演員的肖像與聲音。相關角色包括《冰雪奇緣》《怪獸電力公司》《玩具總動員》等動畫作品中的角色，以及漫威的鋼鐵人、美國隊長、死侍，與米奇、米妮、史迪奇、小美人魚等經典角色。 部分由Sora用戶生成的作品，未來可望透過Disney+上架。迪士尼也將運用OpenAI的各種模型，為Disney+訂戶開發或強化新功能與使用體驗。此外，迪士</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172789</guid>
+      <pubDate>Fri, 12 Dec 2025 05:00:42 +0000</pubDate>
     </item>
     <item>
-      <title>ChatGPT用戶現已可呼叫Photoshop及Acrobat等Adobe工具來支援</title>
-      <link>https://www.ithome.com.tw/news/172757</link>
-      <description>新聞Adobe周三（12/10）宣布，已透過代理式AI技術及模型脈絡協定（Model Context Protocol，MCP），讓ChatGPT用戶可直接於聊天介面中呼叫Adob​​e Photoshop、Adobe Express，以及Adob​​e Acrobat等應用來支援影像與文件的編輯。 OpenAI是在今年10月開始於ChatGPT中整合外部應用程式，預覽Apps SDK，以讓使用者於ChatGPT中呼叫某個程式來回答問題，像是點名Spotify來建立派對歌單，或是要Booking.com幫忙尋找巴黎住處，還是請Coursera推薦AI入門課程等，這種查詢類的第三方應用可供所有等級的ChatGPT用戶免費使用。 本周加入的Adob​​e Photoshop、Adobe Express，以及Adob​​e Acrobat則是屬於專業型的第三方應用，因耗費更多的資源，因此只供ChatGPT付費用戶存取，只要於設定中啟用相關應用程式即可在聊天的過程中呼叫它們。 上述的Adobe應用皆為免費的基礎版本，例如ChatGPT用戶可請Photoshop調整影像中特定區塊的亮度、對比及曝</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172757</guid>
-      <pubDate>Thu, 11 Dec 2025 03:16:41 +0000</pubDate>
+      <title>白宮推動國家級AI框架，避免州法碎片化</title>
+      <link>https://www.ithome.com.tw/news/172791</link>
+      <description>新聞美國總統川普（Donald Trump）周四（12/11）簽署一項行政命令，呼籲建立一套國家級AI立法架構，以排除被認定為扼殺創新的州級AI法令，並避免美國AI創新因各州法規不一而衍生高昂的合規成本。 該命令指示司法部長成立AI訴訟專責小組，挑戰被認定為違憲、因聯邦法優先規範而不再適用，或以其他方式違法並損害創新的州級AI法律。 行政命令也要求商務部長發布一份州級AI法律評估，找出與國家AI政策優先事項相衝突的法令，並對制定此類法令的州扣留部分聯邦寬頻補助款；未來其他聯邦補助，也可能要求州政府不得制定或暫緩執行相關AI法規，作為補助條件之一。 此外，命令亦指示聯邦貿易委員會（FTC）及聯邦通訊委員會（FCC）採取行動，限制各州要求AI公司為了符合法規而修改或扭曲輸出內容、進而誤導消費者的作法。白宮指出，部分州政府希望透過法律要求AI修改原本真實或中性的輸出內容，以降低歧視、政治或法律風險，但聯邦政府認為，這類要求可能迫使AI為了合規而偏離事實，反而構成對消費者的誤導。 白宮表示，各州立法機構已提出超過1,000項不同的AI法案，造成規則、揭露與通報要求高度碎片化。包括加州與科羅拉多</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172791</guid>
+      <pubDate>Fri, 12 Dec 2025 05:35:23 +0000</pubDate>
     </item>
     <item>
-      <title>Google全面支援MCP，讓AI代理人可直接操作雲端服務</title>
-      <link>https://www.ithome.com.tw/news/172758</link>
-      <description>新聞Google周四（12/11）宣布，將全面支援模型脈絡協定（Model Context Protocol，MCP），會陸續推出官方的全託管遠端MCP伺服器，首波問世的服務包括Google Maps、BigQuery、Google Compute Engine及Google Kubernetes Engine（GKE），讓AI代理人得以直接操作Google雲端服務、查詢資料與管理基礎架構。 MCP是由Anthropic在2024年提出的開放協定，本質上是一套「外部工具應如何向AI模型曝露能力」的規範，提供統一的工具介接格式，使模型能以一致方式呼叫各類資料庫、API與系統，因此被稱為AI界的USB-C。該協定也在本周成為代理式AI基金會（Agentic AI Foundation，AAIF）的第一批標準。 Google說明，過去若要使用社群打造的Google MCP伺服器，開發者必須自行尋找、安裝並維護本地或開源版本，整合成本高且穩定性不一。如今官方提供全託管的MCP伺服器，開發者只需讓AI代理人或MCP客戶端指向Google提供的端點，即可直接使用Google與Google Clou</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172758</guid>
-      <pubDate>Thu, 11 Dec 2025 04:46:23 +0000</pubDate>
+      <title>React伺服器元件追補安全更新，修正DoS與原始碼洩露漏洞</title>
+      <link>https://www.ithome.com.tw/news/172790</link>
+      <description>新聞研究人員在檢視上周React伺服器元件（Server Components）關鍵漏洞CVE-2025-55182的修補是否可能被繞過時，又揭露3項新弱點，包含2個DoS漏洞CVE-2025-55184與CVE-2025-67779，以及1個原始碼曝露漏洞CVE-2025-55183。React團隊表示，新漏洞不涉及遠端程式碼執行，上周用於緩解React2Shell的修補仍可阻擋遠端程式碼執行型攻擊，但先前釋出的修補不完整，已升級的使用者仍需再升級到更新的修補版本。 受影響套件為react-server-dom-webpack、react-server-dom-parcel與react-server-dom-turbopack，版本涵蓋19.0.0至19.2.2。React也提醒，要是為了因應上周漏洞已升級到19.0.2、19.1.3或19.2.2，這些版本的修補不完整仍可能面臨風險，建議再更新至19.0.3、19.1.4或19.2.3等版本。 在DoS漏洞CVE-2025-55184與CVE-2025-67779方面，攻擊者可對任何React Server Functions端點送</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172790</guid>
+      <pubDate>Fri, 12 Dec 2025 05:47:51 +0000</pubDate>
     </item>
     <item>
-      <title>OWASP公布AI代理的10大資安威脅</title>
-      <link>https://www.ithome.com.tw/news/172760</link>
-      <description>新聞這兩年生成式AI應用起飛，已逐漸融入你我生活，相關的新技術也帶來了新的風險，過去經常發布10大資安風險的非營利組織OWASP，從2023年8月開始，彙整大型語言模型（LLM）的10大資安風險，去年底公布最新的2025版，隨著許多應用聚焦在AI代理，現在他們公布AI代理的10大資安風險。 這10大資安風險當中，又以前三大最被凸顯。其中OWASP列為第一的是Agent Goal Hijack，光從字面上不容易直接理解其風險為何，OWASP說明指出，這種風險來自攻擊者操蹤AI代理的自然語言輸入，改變原本的目標，導致資料外流、輸出結果被竄改，或是工作流程被挾持的情況，而這的確是時下最常見的AI代理威脅之一。 排名第二和第三的威脅，就相對容易理解：分別是工具濫用及漏洞利用（Tool Misuse and Exploitation），以及身分與特殊權限的濫用（Identity and Privilege Abuse），這些威脅展現攻擊者如何顛覆AI代理能力，以及其背後的基礎設施，而且，涉及AI代理的資安威脅，已在各行各業浮現。 對於OWASP從彙整LLM資安風險轉向AI代理風險的原因，帶頭彙整</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172760</guid>
-      <pubDate>Thu, 11 Dec 2025 05:24:54 +0000</pubDate>
+      <title>Brave測試AI代理上網功能 加入多項安全隱私機制</title>
+      <link>https://www.ithome.com.tw/news/172792</link>
+      <description>新聞Brave瀏覽器的同名開發商昨（11）日宣佈AI上網功能提供測試，強調多項安全及隱私設計。 最新的AI上網功能是Brave最新代理人功能，將整合在其AI助理Leo中，可根據用戶提示建議上網行動。現在新功能透過Brave Nightly早期測試版釋出。和所有AI功能一樣，AI上網功能預設關閉，使用者必須開啟brave://flags的「Brave AI browsing」啟用本功能。 該公司強調Brave AI上網功能的隱私和安全設計。為防範代理人上網的二大風險，包括提示注入及模型行為不慎造成使用者傷害。AI上網功能的儲存將和一般上網紀錄，如cookies、登入狀態、快取、和其他資料隔離開來，以免影響資料安全及隱私。 此外，業者加入了第二個模型對齊檢查（alignment check）來檢查代理人模型（任務模型）的輸入結果，作為模型護欄。這個模型接收系統提示、使用者提示及任務模型回應加以分析，以檢查任務型的指示符合用戶意圖。 未來上線後，AI上網功能仍需要使用者主動開啟。而且它在視覺設計上，和Leo助理明顯區隔，行動線索也不同，確保使用者清楚意識到AI功能開啟，並且能中止或接手。它雖</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172792</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1212-AI%20Browsing%20in%20Brave-3.png" length="0" type="image/png"/>
+      <pubDate>Fri, 12 Dec 2025 06:15:48 +0000</pubDate>
     </item>
   </channel>
 </rss>
