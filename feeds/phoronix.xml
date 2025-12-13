@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Dec 2025 06:37:22 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Dec 2025 06:34:19 +0000</lastBuildDate>
     <item>
-      <title>KDE Gear 25.12 Released For Shipping The Latest KDE Applications</title>
-      <link>https://www.phoronix.com/news/KDE-Gear-25.12</link>
-      <description>KDE Gear 25.12 is out today as the collection of the latest KDE desktop/mobile applications for running nicely on the Plasma 6 desktop...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Gear-25.12</guid>
-      <pubDate>Thu, 11 Dec 2025 11:41:16 +0000</pubDate>
+      <title>AMD ROCm 7.10 Released - Strix Point APUs Now Officially Supported</title>
+      <link>https://www.phoronix.com/news/AMD-ROCm-7.10-Released</link>
+      <description>Sure enough, yesterday's inaugural TheRock 7.10 release tag ended up being a precursor to ROCm 7.10 as predicted in the earlier article. Overnight ROCm 7.10 was released as a new developer preview and with it comes expanded hardware support -- including for Ryzen AI 300 Strix Point APUs finally being officially mentioned...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-ROCm-7.10-Released</guid>
+      <pubDate>Fri, 12 Dec 2025 13:15:22 +0000</pubDate>
     </item>
     <item>
-      <title>LibreOffice 26.2 Beta 1 Now Available For This Free Software Office Suite</title>
-      <link>https://www.phoronix.com/news/LibreOffice-26.2-Beta-1</link>
-      <description>LibreOffice 26.2 Beta 1 is now available for testing in working toward the stable release in February for this cross-platform, open-source office suite solution...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/LibreOffice-26.2-Beta-1</guid>
-      <pubDate>Thu, 11 Dec 2025 13:18:39 +0000</pubDate>
+      <title>Blender Working On KosmicKrisp Support For Vulkan On macOS</title>
+      <link>https://www.phoronix.com/news/Blender-KosmicKrisp-Vulkan-Mac</link>
+      <description>The Blender 3D modeling software could enjoy better macOS support with better cross-platform code paths thanks to in-development work for leveraging KosmicKrisp for Vulkan API usage on macOS via Metal...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Blender-KosmicKrisp-Vulkan-Mac</guid>
+      <pubDate>Fri, 12 Dec 2025 14:26:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ubuntu 26.04 Snapshot 2 Released As Latest Monthly ISOs</title>
-      <link>https://www.phoronix.com/news/Ubuntu-26.04-Snapshot-2</link>
-      <description>It was just at the end of month that Ubuntu 26.04 Snapshot 1 ISOs were published for the first "Resolute Raccoon" milestone. Out already is now Snapshot 2 with Canonical releasing these images ahead of their engineers having time off for end-of-year holidays...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-26.04-Snapshot-2</guid>
-      <pubDate>Thu, 11 Dec 2025 14:28:40 +0000</pubDate>
+      <title>Cache Aware Scheduling Raises Performance For Intel Xeon 6 Granite Rapids</title>
+      <link>https://www.phoronix.com/review/intel-xeon-6-cache-sched</link>
+      <description>Over the past year Intel engineers have worked a lot on Cache Aware Scheduling for the Linux kernel. The yet-to-be-merged functionality allows for the Linux kernel to better aggregate tasks sharing data to the same last level cache (LLC) domain to reduce cache misses and cache bouncing. The Cache Aware Scheduling development was led by Intel but helps other CPU vendors too for processors with multiple cache domains. Back in October I showed some nice performance wins for AMD EPYC Turin with Cach</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/intel-xeon-6-cache-sched</guid>
+      <pubDate>Fri, 12 Dec 2025 15:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>AMD GAIA 0.14 Released With Native Support For Linux &amp;amp; macOS</title>
-      <link>https://www.phoronix.com/news/AMD-GAIA-0.14</link>
-      <description>Early this year AMD announced the open-source GAIA project for "Generative AI Is Awesome" as a showcase of AI support atop their Ryzen AI NPUs and other hardware. That began as a Windows-only project but in September AMD added Linux support to GAIA but only using Vulkan acceleration for AI on Radeon GPUs. Now today GAIA 0.14 is available with "native" support for both macOS and Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-GAIA-0.14</guid>
-      <pubDate>Thu, 11 Dec 2025 15:31:46 +0000</pubDate>
+      <title>Linux 6.19 Improves User-Space I/O "UIO" With Shared Virtual Addressing</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-char-misc</link>
+      <description>Merged a few days ago for the ongoing Linux 6.19 merge window were all of the "char/misc" updates. A lot of random changes throughout this time from the Industrial I/O "IIO" drivers to an interesting new feature for User-Space I/O "UIO" for PCI/PCIe devices...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-char-misc</guid>
+      <pubDate>Fri, 12 Dec 2025 17:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA GTX 980 Through RTX 5080: Open-Source Nouveau/Mesa Drivers vs. NVIDIA 580 Linux Drivers</title>
-      <link>https://www.phoronix.com/review/nvidia-980-5080-linux</link>
-      <description>With the NVIDIA 590 Linux driver series removing GeForce 900 series "Maxwell" and GeForce 10 series "Pascal" as part of punting it off to the latest legacy driver branch, it's time for a last look at how the mainline NVIDIA Linux driver is performing with these aging graphics cards relative to the current state of the upstream open-source NVIDIA Linux drivers. In this article is a look at how the open-source and upstream Nouveau kernel driver with Nouveau/NVK Mesa drivers are performing relative</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/nvidia-980-5080-linux</guid>
-      <pubDate>Thu, 11 Dec 2025 16:10:28 +0000</pubDate>
+      <title>New Patches Lay Out Linux Kernel Adjustments For RISC-V RVA23 Hardware</title>
+      <link>https://www.phoronix.com/news/Linux-Kernel-RFC-RISC-V-RVA23</link>
+      <description>With the first of RISC-V RVA23-compatible hardware expected to be released in 2026, we are beginning to see more Linux developers prepare for this RVA23 profile and the now-mandated extensions. Sent out this week was an initial "request for comments" patch series on RVA23 adjustments for the Linux kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Kernel-RFC-RISC-V-RVA23</guid>
+      <pubDate>Fri, 12 Dec 2025 18:58:33 +0000</pubDate>
     </item>
     <item>
-      <title>D7VK 1.0 Released For "Production Ready" Direct3D 7 On Vulkan</title>
-      <link>https://www.phoronix.com/news/D7VK-1.0-Released</link>
-      <description>The D7VK project recently started as the Direct3D 7 API implemented atop the Vulkan API akin to DXVK and VKD3D-Proton with newer versions of Microsoft Direct3D. Today marks the D7VK 1.0 release for this project in now declaring itself "production ready" for Linux gamers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/D7VK-1.0-Released</guid>
-      <pubDate>Thu, 11 Dec 2025 17:50:08 +0000</pubDate>
+      <title>Linux 6.19 Lands x2AVIC Patches For AMD SVM Handling Up To 4096 vCPUs</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-KVM</link>
+      <description>The Kernel-based Virtual Machine "KVM" updates for Linux 6.19 include preparations by AMD for handling up to a possible 4,096 virtual CPUs for VMs...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-KVM</guid>
+      <pubDate>Fri, 12 Dec 2025 19:23:37 +0000</pubDate>
     </item>
     <item>
-      <title>System76 Launches Pop!_OS 24.04 LTS With COSMIC Desktop</title>
-      <link>https://www.phoronix.com/news/System76-Ships-Pop-OS-24.04</link>
-      <description>Back in October System76 announced a planned release date for Pop!_OS 24.04 LTS and the COSMIC Desktop... And they've made it! The new Pop!_OS 24.04 is now available for download as the long-awaited update atop an Ubuntu 24.04 LTS base while using their Rust-based COSMIC desktop environment...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/System76-Ships-Pop-OS-24.04</guid>
-      <pubDate>Thu, 11 Dec 2025 18:20:27 +0000</pubDate>
+      <title>Wine 11.0-rc2 Released With 28 Known Bug Fixes</title>
+      <link>https://www.phoronix.com/news/Wine-11.0-rc2</link>
+      <description>Following last week's Wine 11.0-rc1 release that marked the feature freeze as well in working toward Wine 11.0 in January, out today is Wine 11.0-rc2...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-11.0-rc2</guid>
+      <pubDate>Fri, 12 Dec 2025 23:05:30 +0000</pubDate>
     </item>
     <item>
-      <title>Qualcomm Acquires RISC-V Specialists At Ventana Microsystems</title>
-      <link>https://www.phoronix.com/news/Qualcomm-Acquires-Ventana</link>
-      <description>An acquisition announcement that flew under the radar yesterday but then I only noticed today with a GCC MAINTAINERS file update, "with the acquisition of Ventana Microsystems by Qualcomm..." Qualcomm has acquired Ventana as a RISC-V high performance CPU start-up...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Qualcomm-Acquires-Ventana</guid>
-      <pubDate>Thu, 11 Dec 2025 21:13:15 +0000</pubDate>
+      <title>Haiku OS Sees Port Of Go 1.18 Programming Language</title>
+      <link>https://www.phoronix.com/news/Haiku-Gets-Modern-Go</link>
+      <description>The BeOS-inspired Haiku operating system has received a recent port of the Go programming language to the platform. Plus Haiku also saw app improvements and more over the month of November...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Haiku-Gets-Modern-Go</guid>
+      <pubDate>Sat, 13 Dec 2025 01:10:13 +0000</pubDate>
     </item>
     <item>
-      <title>AMD ROCm's TheRock 7.10 Released</title>
-      <link>https://www.phoronix.com/news/AMD-ROCm-TheRock-7.10</link>
-      <description>TheRock is an interesting open-source build platform for ROCm and HIP that has taken shape over the past year. It's become an official ROCm effort albeit still in early stages and relying on community contributions for enhancements for different consumer GPU targets and more. To date its users have largely relied on running the latest TheRock Git while today TheRock v7.10 was tagged...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-ROCm-TheRock-7.10</guid>
-      <pubDate>Fri, 12 Dec 2025 01:38:00 +0000</pubDate>
+      <title>KDE Plasma 6.6 Will Finally Support Proper Screen Mirroring On Wayland</title>
+      <link>https://www.phoronix.com/news/Plasma-6.6-Screen-Mirroring</link>
+      <description>It's an exciting week in KDE Plasma development land ahead of the holidays. Plasma 6.6 continues tacking on more feature work for Wayland...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-Screen-Mirroring</guid>
+      <pubDate>Sat, 13 Dec 2025 01:20:45 +0000</pubDate>
     </item>
     <item>
-      <title>Windows WSL 2.7.0 Released With Newer Linux 6.6 LTS Point Release, Many Fixes</title>
-      <link>https://www.phoronix.com/news/Microsoft-WSL-2.7.0</link>
-      <description>Microsoft today released WSL 2.7.0, the newest version of their Windows Subsystem for Linux code that enables running Linux binaries atop Windows 11 hosts...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Microsoft-WSL-2.7.0</guid>
-      <pubDate>Fri, 12 Dec 2025 01:48:22 +0000</pubDate>
+      <title>New Linux Patch Confirms: Rust Experiment Is Done, Rust Is Here To Stay</title>
+      <link>https://www.phoronix.com/news/Rust-To-Stay-Linux-Kernel</link>
+      <description>Rust for Linux lead developer Miguel Ojeda posted the patch a short time ago to "conclude the Rust experiment". The "experiment" of Rust programming language code in the Linux kernel is over as it's now accepted to be a success and "Rust is here to stay" in the kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Rust-To-Stay-Linux-Kernel</guid>
+      <pubDate>Sat, 13 Dec 2025 01:35:56 +0000</pubDate>
     </item>
   </channel>
 </rss>

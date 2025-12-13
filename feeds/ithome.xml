@@ -8,71 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Dec 2025 06:39:15 +0000</lastBuildDate>
-    <item>
-      <title>VS Code市集兩擴充套件暗藏惡意程式竊取WiFi密碼與Cookie</title>
-      <link>https://www.ithome.com.tw/news/172772</link>
-      <description>新聞資安廠商Koi Security揭露兩款上架於微軟VS Code市集的擴充套件，被證實會在開發者電腦安裝資訊竊取惡意程式，這兩款分別名為Bitcoin Black與Codo AI的擴充套件，分別偽裝成暗色主題與AI程式開發助理，在背景下載並啟動螢幕截圖與憑證竊取程式，能擷取桌面畫面、讀取儲存的WiFi密碼與瀏覽器工作階段。 研究人員指出，Bitcoin Black在描述上只是比特幣風格主題，但程式結構遠超出一般主題需求，不僅宣告在所有VS Code動作都會觸發的萬用啟動事件，還可執行PowerShell指令。早期版本透過PowerShell下載受密碼保護的壓縮檔並解壓，後續版本改為呼叫批次檔與curl直接下載可執行檔與DLL，且在隱藏視窗中執行，以降低被注意的機會。 Codo AI則提供透過ChatGPT或DeepSeek進行程式開發協助的介面，看起來與一般AI擴充套件無異，但研究人員卻在合法AI對話實作前找到一段額外插入的程式碼區塊，負責下載並啟動相同惡意載荷。兩款擴充套件由同一發行者BigBlack上架，共用相同惡意程式與基礎設施，被研判為同一攻擊者鎖定開發者族群。 兩款擴充套</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172772</guid>
-      <pubDate>Fri, 12 Dec 2025 01:47:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google公佈實驗性AI瀏覽器Disco、首項功能GenTabs</title>
-      <link>https://www.ithome.com.tw/news/172782</link>
-      <description>新聞Google昨（11）日發表實驗性AI瀏覽器Disco，以及首個功能GenTabs，協助使用者更快上網尋找資訊及工作。 Disco及GenTabs是Google Labs最新發表的實驗性上網技術。Google表示，Disco是「上網體驗的全新想像」，是為現代Web開發。結合AI的Disco可協助使用者提升學習和工作速度。首個測試的功能為GenTabs，是以最新LLM Gemini 3為底層開發。 GenTabs能將使用者開啟的多個網頁分頁，轉化成一個互動式App。使用者在瀏覽器左側邊欄的AI聊天機器人輸入提示，例如想去某個地方旅遊、以及想看什麼景點等，並逐次點選搜尋結果中的特定網頁。GenTabs底層的Gemini會分析使用者的對話紀錄及開啟的分頁，並尋求使用者增修意見，最後建立互動式網頁應用程式，例如一個包含旅遊景點的地圖、天氣、日期的Web App。使用者不需撰寫任何一行程式碼，只要以自然語言描述需要什麼工具。所有生成的元素都會連結回原始來源。 Google對The Verge表示，Disco起源並非是為了要取代Chrome，它是源自於Google內部的黑客松專案。Google</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172782</guid>
-      <pubDate>Fri, 12 Dec 2025 02:03:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google修補Chrome今年第8個零時差漏洞</title>
-      <link>https://www.ithome.com.tw/news/172785</link>
-      <description>新聞一週前Google發布Chrome 143大改版，並修補JavaScript引擎V8漏洞CVE-2025-13630等13項資安弱點，如今該公司再度發布更新，修補目前尚未公布CVE編號，並且已遭到利用的零時差漏洞。 12月10日Google針對電腦與安卓裝置用戶，發布143.0.7499.109與143.0.7499.110版Chrome，總共修補3項資安漏洞，其中，於Chromium專案登記編號為466192044的高風險漏洞，該公司表示，他們已掌握在實際環境有嘗試利用的情況，此為今年Chrome第8個零時差漏洞。 罕見的是，這項漏洞Google僅透露為高風險層級，至於其他的資訊，像是CVE編號、漏洞的類型、受影響的元件，以及通報者的身分，他們並未透露，僅表示目前正在協調處理當中。 有資安新聞網站根據466192044於Chromium專案透露的內容，對此漏洞進行推測。Bleeping Computer指出，此漏洞疑似出現在Google開源程式庫LibANGLE，此為轉換OpenGL ES圖形呼叫，並傳送到其他API，而能讓圖形API執行效率更佳，或是讓OpenGL ES應用程式</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172785</guid>
-      <pubDate>Fri, 12 Dec 2025 03:28:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>【資安月報】2025年11月，「小烏龜」資安風險恐衝擊國家安全。網路詐騙防範挑戰備受關注</title>
-      <link>https://www.ithome.com.tw/news/172786</link>
-      <description>新聞在2025年11月的資安新聞中，「小烏龜」資安風險與網路詐騙防範成為最熱門、最受矚目的焦點議題，還有國內外重大資安事件、針對開發者生態的攻擊，以及其他威脅升溫的趨勢同樣不容忽視。我們整理出6大焦點，帶大家快速回顧本月的關鍵新聞與資安趨勢。 （一）小烏龜資安風險衝擊國家安全 本月最熱門的資安新聞，莫過於電信業者提供的數據機──也就是俗稱的「小烏龜」──被揭露存在多項安全漏洞，牽動網路服務供應商與網通設備產品安全的整體討論。過去一年來，趨勢科技資深威脅研究員游照臨多次談及此議題，本月我們進行專訪了解整體概況。首要問題點是ISP方面，他指出中華電信配發數據機給用戶後，缺乏妥善維護，當數據機產品生命週期終止（EoL），廠商與用戶卻仍未更換這些設備。他可以理解相關電信業者遇到的困難，但引發政府、金融、軍方網路門戶洞開的危機需要正視，而且事件爆出一年仍未汰換完畢，處理明顯不夠積極。 產品資安漏洞議題也受到討論，因為游照臨最早的發現過程，就是因為自己搬家順手檢查中華電信新裝的數據機，這項下班後研究卻讓他挖出超過30個、跨多家大廠的CVE漏洞。他並指出，許多老設備都有不安全的設計，存在3種常見漏洞</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172786</guid>
-      <pubDate>Fri, 12 Dec 2025 03:32:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Adobe發布12月安全更新，ColdFusion藏多個重大漏洞應優先處理</title>
-      <link>https://www.ithome.com.tw/news/172759</link>
-      <description>新聞Adobe在12月例行安全更新中，一共修補139個資安漏洞，涵蓋ColdFusion、Adobe Experience Manager（AEM）、Acrobat/Reader、Adobe DNG SDK與Creative Cloud Desktop等產品線。 這波修補有117個漏洞都集中於Adobe Experience Manager（AEM），其中包含2項重大（Critical）等級跨站腳本（XSS）漏洞CVE-2025-64537與CVE-2025-64539，CVSS風險分數皆為9.3；其他則為重要（Important）等級的XSS弱點，CVSS風險分數皆為5.4，成功利用後可能導致任意程式碼執行或權限提升。 ColdFusion本次修補12項安全漏洞，被評為重大等級的漏洞包括：允許上傳危險檔案類型的CVE-2025-61808（CVSS風險分數9.1）；輸入驗證不當、可能繞過安全機制的CVE-2025-61809（CVSS 9.1）；以及可導致任意程式碼執行的CVE-2025-61830（CVSS 8.4）、CVE-2025-61810（CVSS 8.2）。另有多個重大或</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172759</guid>
-      <pubDate>Fri, 12 Dec 2025 04:32:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI發表GPT-5.2 價格調高40%</title>
-      <link>https://www.ithome.com.tw/news/172788</link>
-      <description>新聞在內部發出紅色警戒後，OpenAI昨（11）日發表最新LLM GPT-5.2，宣稱是迄今最強大的專業知識工作模型系列，強調文件製作、視覺及軟工能力更強，幻覺更少，但價格也調高約40%。 OpenAI指出，設計GPT-5.2的目的是為了展現更大經濟價值，它在建立試算表、製作簡報、編寫程式碼、解讀圖像、理解長篇上下文、運用各項工具，以及處理複雜的多步驟專案方面表現更佳。 ChatGPT中的GPT‑5.2 Instant、Thinking和Pro即日起陸續推出，首先開放給付費方案使用者。API中，上述模型現已向所有開發者開放。GPT‑5.2 (Thinking)每百萬Token輸入/輸出價格為$1.75/$14，並對快取輸入提供90%折扣。Pro版為$21/$168。ChatGPT的方案訂閱費用不變，相較之下，GPT‑5.1為$1.25/$10。OpenAI解釋GPT-5.2更貴是因模型能力更強。 和GPT-5.1 Thinking相較，GPT-5.2 Thinking在知識工作任務標竿測試GDPval成績，由38.8%大幅提升到70.9%。OpenAI表示，它在處理44種知識工作任務時</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172788</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/1212-OpenAI%20MRCRv2%EF%BC%8C4%20Needle_%E9%95%B7%E7%AF%87%E4%B8%8A%E4%B8%8B%E6%96%87-gpt5_2.png" length="0" type="image/png"/>
-      <pubDate>Fri, 12 Dec 2025 04:47:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI與迪士尼合作，於Sora中使用逾200個動畫與插畫角色</title>
-      <link>https://www.ithome.com.tw/news/172789</link>
-      <description>新聞OpenAI與華特迪士尼公司（The Walt Disney Company）周四（12/11）宣布，雙方已簽署為期3年的授權協議，迪士尼授權OpenAI旗下的短影音生成AI平臺Sora，可使用逾200個來自迪士尼、漫威、皮克斯與星際大戰的角色IP生成影片。同時，迪士尼也將以10億美元投資OpenAI，並獲得額外股權的認股權證。 Sora是OpenAI於2024年推出的短影音生成AI平臺，讓使用者透過文字提示生成高擬真影片，定位為創作工具，可生成具連貫敘事、鏡頭語言與物理一致性的短影片。 此次協議授權OpenAI在Sora與ChatGPT Images中，使用超過200個迪士尼旗下角色的動畫或插畫版本，涵蓋角色本身、服裝、道具、載具與經典場景，但不包含任何真人演員的肖像與聲音。相關角色包括《冰雪奇緣》《怪獸電力公司》《玩具總動員》等動畫作品中的角色，以及漫威的鋼鐵人、美國隊長、死侍，與米奇、米妮、史迪奇、小美人魚等經典角色。 部分由Sora用戶生成的作品，未來可望透過Disney+上架。迪士尼也將運用OpenAI的各種模型，為Disney+訂戶開發或強化新功能與使用體驗。此外，迪士</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172789</guid>
-      <pubDate>Fri, 12 Dec 2025 05:00:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>白宮推動國家級AI框架，避免州法碎片化</title>
-      <link>https://www.ithome.com.tw/news/172791</link>
-      <description>新聞美國總統川普（Donald Trump）周四（12/11）簽署一項行政命令，呼籲建立一套國家級AI立法架構，以排除被認定為扼殺創新的州級AI法令，並避免美國AI創新因各州法規不一而衍生高昂的合規成本。 該命令指示司法部長成立AI訴訟專責小組，挑戰被認定為違憲、因聯邦法優先規範而不再適用，或以其他方式違法並損害創新的州級AI法律。 行政命令也要求商務部長發布一份州級AI法律評估，找出與國家AI政策優先事項相衝突的法令，並對制定此類法令的州扣留部分聯邦寬頻補助款；未來其他聯邦補助，也可能要求州政府不得制定或暫緩執行相關AI法規，作為補助條件之一。 此外，命令亦指示聯邦貿易委員會（FTC）及聯邦通訊委員會（FCC）採取行動，限制各州要求AI公司為了符合法規而修改或扭曲輸出內容、進而誤導消費者的作法。白宮指出，部分州政府希望透過法律要求AI修改原本真實或中性的輸出內容，以降低歧視、政治或法律風險，但聯邦政府認為，這類要求可能迫使AI為了合規而偏離事實，反而構成對消費者的誤導。 白宮表示，各州立法機構已提出超過1,000項不同的AI法案，造成規則、揭露與通報要求高度碎片化。包括加州與科羅拉多</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172791</guid>
-      <pubDate>Fri, 12 Dec 2025 05:35:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>React伺服器元件追補安全更新，修正DoS與原始碼洩露漏洞</title>
-      <link>https://www.ithome.com.tw/news/172790</link>
-      <description>新聞研究人員在檢視上周React伺服器元件（Server Components）關鍵漏洞CVE-2025-55182的修補是否可能被繞過時，又揭露3項新弱點，包含2個DoS漏洞CVE-2025-55184與CVE-2025-67779，以及1個原始碼曝露漏洞CVE-2025-55183。React團隊表示，新漏洞不涉及遠端程式碼執行，上周用於緩解React2Shell的修補仍可阻擋遠端程式碼執行型攻擊，但先前釋出的修補不完整，已升級的使用者仍需再升級到更新的修補版本。 受影響套件為react-server-dom-webpack、react-server-dom-parcel與react-server-dom-turbopack，版本涵蓋19.0.0至19.2.2。React也提醒，要是為了因應上周漏洞已升級到19.0.2、19.1.3或19.2.2，這些版本的修補不完整仍可能面臨風險，建議再更新至19.0.3、19.1.4或19.2.3等版本。 在DoS漏洞CVE-2025-55184與CVE-2025-67779方面，攻擊者可對任何React Server Functions端點送</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172790</guid>
-      <pubDate>Fri, 12 Dec 2025 05:47:51 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 13 Dec 2025 06:36:17 +0000</lastBuildDate>
     <item>
       <title>Brave測試AI代理上網功能 加入多項安全隱私機制</title>
       <link>https://www.ithome.com.tw/news/172792</link>
@@ -80,6 +16,73 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/news/172792</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/images/1212-AI%20Browsing%20in%20Brave-3.png" length="0" type="image/png"/>
       <pubDate>Fri, 12 Dec 2025 06:15:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>駭客利用Gogs零時差漏洞入侵逾700臺伺服器</title>
+      <link>https://www.ithome.com.tw/news/172793</link>
+      <description>新聞在用來管理檔案與程式碼的Git分散式版本控制系統當中，最常見的是GitHub與GitLab，不過，對於想要自行建置Git服務的企業組織而言，標榜部署容易且所需資源極低的Gogs，也相當受到歡迎，如今傳出有人針對這類平臺下手，利用零時差漏洞從事活動。 資安業者Wiz於今年7月發現，有人針對能從網際網路存取的Gogs平臺發動攻擊，駭客利用未知的漏洞達到目的。Wiz將漏洞通報給開發團隊並得到承認，登記為CVE-2025-8110列管。值得留意的是，由於目前Gogs開發工程團隊尚未提供修補程式，且攻擊活動仍在持續，Wiz呼籲，IT人員應限制Gogs伺服器的網路存取管道，若無需開放用戶自行線上註冊帳號，就應該立即停用相關功能。再者，IT人員也要清查Gogs主機，是否出現8個字元隨機名稱的儲存庫，或是API出現非預期使用的現象。 CVE-2025-8110出現在Gogs的PutContents API，原因是對於符號連結（symbolic link）不當處理引起，攻擊者一旦成功利用，就能在本機執行任意程式碼，4.0版CVSS風險為8.7分。Wiz提及，此漏洞源自另一個路徑遍歷漏洞CVE-202</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172793</guid>
+      <pubDate>Fri, 12 Dec 2025 07:00:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>儲域網路進入128G FC時代，博科第8代產品結合AI與量子安全</title>
+      <link>https://www.ithome.com.tw/review/172764</link>
+      <description>在儲域網路（SAN）的應用上，光纖通道（FC）網路的技術長期扮演著重要角色，2020年博科（Brocade）發表首批支援64 Gb FC的第7代交換器設備，機型包括採用模組化機箱的X7 Director系列，以及配置固定網路埠機箱的G720。 該公司後續發表G730、G710，今年11月正式宣布推出首批支援128 Gb FC的第8代交換器設備，機型包括採用模組化機箱的X8 Director系列，以及機箱配置固定網路埠的G820，而且，這些機型即日起已開始供應市場使用。而在12月中舉行的NetApp Insight Xtra大會臺北場，博科也首度向臺灣市場介紹Brocade Gen 8 Fibre Channel。 就產品定位與硬體規格而言，X8 Director系列與上一代的X7 Director系列一樣，可用於建構核心、大型且兼具擴充性的儲域網路，都提供搭配模組化機箱的兩款機型。 其中的X8-8，機箱為14U尺寸，可容納14臺FC網路埠模組，另一款X8-4，機箱為9U尺寸，可容納10臺FC網路埠模組。 而且，FC網路埠模組只有FC128-48 Port Blade一種可選，內建48個</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/172764</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/brocade_gen_8_fibre_channel_main2.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 12 Dec 2025 07:10:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>國研院國網中心正式啟用位於南科的國網雲端算力中心</title>
+      <link>https://www.ithome.com.tw/news/172794</link>
+      <description>新聞政府加速推動AI新十大建設已有初步成果，國科會主導下，位於臺南南部科學園區的國網雲端算力中心在今天(12/12)正式啟用，未來將結合2029年建置完成的沙崙智慧創新算力中心，成為我國AI 訓練、氣候模擬、生命科學、半導體研發等高階科研應用的國家算力基地。 出席今天啟用儀式的總統賴清德表示，臺灣不能永遠依靠國外廠商來訂定系統規格，政府要鼓勵國內廠商發展我們自己的算力系統架構，從積體電路晶片、超級電腦內部網路設計，結合臺廠的運算、儲存設備、通訊網路交換器等等，以及我國矽光子技術，搭配全光網路連結臺灣的資料中心。 這座雲端算力中心是「大南方新矽」及「AI新十大建設」方案的一部分成果，強調提供我國先進的AI共用算力，雲端算力中心具備15MW的電量，並強調採用國際商用電信中心規設設計，具備耐震、節能、備援設計。 國科會主委吳誠文指出，國網雲端算力中心的正式啟用，不僅作為支撐我國科學研究與產業應用，也具備未來部署量子電腦的戰略潛能。 按照國科會的規畫，預計在2028年建置我國第一部整合高效能運算環境的量子電腦，以支援我國相關的量子應用技術發展。 另外，在中華電信協助下也引進日本NTT的全光網路</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172794</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202025-12-12%20%E4%B8%8B%E5%8D%882_52_43(1).jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 12 Dec 2025 07:42:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>xAI與薩爾瓦多合作，將把Grok部署至逾5,000所公立學校</title>
+      <link>https://www.ithome.com.tw/news/172796</link>
+      <description>新聞由馬斯克（Elon Musk）創辦的AI新創xAI周四（12/11）宣布，已與薩爾瓦多達成合作，將在未來2年內，於超過5,000所公立學校部署Grok，替逾100萬名學生提供個人化學習體驗，宣稱是全球首個全國級AI教育計畫。 根據雙方的協議，該計畫將打造具備適應性、與課綱對齊的AI輔導系統，可依每名學生的學習進度、偏好與掌握程度動態調整，確保不管是城市或偏鄉的學子，都能獲得符合其需求的世界級教育。 而藉由與薩爾瓦多共同開發該系統，xAI也將產出新的方法論、資料集及框架，發展出一套可供其它國家或學校參考的AI教育使用框架，強調安全、符合在地情境，以及以學生為中心。 位於中美洲的薩爾瓦多人口約650萬，現任總統Nayib Bukele以強硬治安政策著稱，同時積極推動科技及數位政策，是全球第一個將比特幣列為法定貨幣的國家。Bukele說，薩爾瓦多證明了國家可以透過大膽的政策與戰略視野，直接躍升至世界頂端，由xAI作為前沿模型的領導者，並以薩爾瓦多作為創新試驗場，可望替全人類帶來非凡的成果。 Musk則說，xAI正藉由此一合作，將最先進的AI直接交到下一代的手上，薩爾瓦多不是在等待教育的未</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172796</guid>
+      <pubDate>Fri, 12 Dec 2025 08:02:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>生成式AI迎合與妄想式回應風險升溫，美國多州檢察長要求第三方稽核與事故通報</title>
+      <link>https://www.ithome.com.tw/news/172795</link>
+      <description>新聞美國多州檢察長發函Anthropic、Apple、Google、Meta、Microsoft、OpenAI與xAI等13家生成式AI與聊天機器人業者，指稱產品出現迎合（Sycophantic）與妄想式（Delusional）輸出的風險正在擴大，可能波及公共安全與兒少保護，並要求業者在2026年1月16日前回覆，確認是否承諾導入獨立第三方稽核、事故公開紀錄與通報等機制，並強化整體安全治理。 信件將迎合界定為模型為追求使用者認同而偏離真實與客觀，甚至在使用者處於焦慮、憤怒或危險念頭時，以過度同意或鼓動方式回應。妄想輸出則涵蓋虛假或可能誤導使用者的內容，以及把系統擬人化，暗示自己為類人存在的回覆。他們認為，這類輸出可能構成暗黑設計手法（Dark Patterns），例如以擬人化或操弄互動來提高黏著度，進而削弱使用者自主判斷，並在心理健康、暴力與自傷等情境放大傷害。 信中引用多起媒體報導與法院文件，稱近期已有死亡、自殺、暴力事件與精神症狀惡化等案例，被外界指與聊天機器人的回應互動有關。更讓檢察長團隊在意的是，家長與倡議組織公開的對話截圖顯示，部分兒少註冊帳號可能接觸到性引誘、要求保密、鼓勵</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172795</guid>
+      <pubDate>Fri, 12 Dec 2025 08:13:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>新型態手法ConsentFix結合OAuth同意網路釣魚，透過Azure CLI騙取微軟帳號</title>
+      <link>https://www.ithome.com.tw/news/172800</link>
+      <description>新聞要求使用者依照指示操作，將惡意指令複製、貼上，然後執行的網釣手法ClickFix，是目前最為氾濫的社交工程攻擊型態，這種手法後續又出現變形，其中包含操作流程都在瀏覽器進行的FileFix，以及結合假系統更新螢幕覆蓋手法的JackFix，如今有結合OAuth身分驗證流程的新型態手法。 經營瀏覽器防護的資安公司Push Security，揭露名為ConsentFix的攻擊手法，它結合了OAuth同意網路釣魚與ClickFix，從而挾持受害者的微軟帳號。這種基於瀏覽器的新型態攻擊手法，攻擊者會誘騙使用者進行簡單的複製貼上，就有機會接管使用者的帳號。更可怕的是，假如使用者已經在瀏覽器登入特定OAuth應用程式，攻擊者就能在無須取得憑證，或是通過多因素驗證（MFA）的情況下得逞，換言之，攻擊者有可能以此繞過通行金鑰（Passkey）等防護措施。 值得留意的是，這種手法已出現實際攻擊。Push Security觀察到駭客濫用Azure CLI的OAuth應用程式，藉由產生特定的OAuth授權碼，引誘受害者登入Azure CLI，並將URL貼上攻擊者控制的網頁。這麼一來，就會在受害者的微軟帳號與</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172800</guid>
+      <pubDate>Fri, 12 Dec 2025 09:42:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>【資安日報】12月12日，惡意軟體NanoRemote濫用Google Drive的API從事通訊</title>
+      <link>https://www.ithome.com.tw/news/172801</link>
+      <description>新聞惡意軟體NanoRemote濫用Google Drive的API隱匿行蹤 資料搜尋及分析業者Elastic旗下的資安實驗室指出，他們在今年10月透過遙測發現新的Windows後門程式NanoRemote，此惡意軟體疑似來自匿稱為Ref7707、CL-STA-0049、Earth Alux，以及Jewelbug的中國駭客組織，且與另一個該組織使用的惡意程式FinalDraft具有相似之處。而NanoRemote引起Elastic注意的地方，在於駭客濫用了Google Drive的API與受害電腦傳送資料，使得有效酬載及竊得資料可暫存在難以偵測的地方。針對檔案傳輸，NanoRemote搭載了工作管理系統，不僅能排程上傳和下載的工作，還能暫停或恢復中斷的檔案傳輸，並能產生所需的權杖（Token）。 針對Ref7707散布NanoRemote的攻擊流程，主要的工具包含惡意程式載入工具WMLoader與NanoRemote，但究竟他們如何入侵受害電腦，Elastic沒有說明。 駭客將WMLoader偽裝成Bitdefender防毒軟體的元件BDReinit.exe，並搭配無效的數位簽章來掩人</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172801</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/NanoRemote25.png" length="0" type="image/png"/>
+      <pubDate>Fri, 12 Dec 2025 09:55:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google升級研究代理Gemini Deep Research，著重網站深度查詢</title>
+      <link>https://www.ithome.com.tw/news/172798</link>
+      <description>新聞Google DeepMind更新Gemini Deep Research研究代理，並向開發者開放Interactions API，讓第三方應用可把長時間的資訊蒐集與彙整流程嵌入自家產品。官方也提到，該代理程式可在報告中提供引用來源，並支援結構化輸出，方便後續系統接手處理研究結果。同時，Google開源名為DeepSearchQA的新基準測試，用來衡量研究型代理在多步網際網路查詢任務上的完整度。 Gemini Deep Research針對長時間脈絡蒐集與彙整而設計的代理程式，模型採用Gemini 3 Pro，會反覆規畫研究步驟，包含提出查詢、閱讀結果、辨識資訊缺口，再進一步搜尋補齊缺口。本次釋出主打大幅強化網頁搜尋能力，強調能更深入網站內頁尋找特定資料。 Google用Humanity’s Last Exam、DeepSearchQA與BrowseComp評估Gemini Deep Research，並稱在HLE與DeepSearchQA達到最佳水準，同時在BrowseComp則是自家目前最佳表現。Humanity’s Last Exam屬於跨領域的高難度題庫，常被用來檢驗模型在</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172798</guid>
+      <pubDate>Fri, 12 Dec 2025 10:45:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>寫入效能突破10 GB/s與100萬IOPS，群聯新款PCIe SSD上陣</title>
+      <link>https://www.ithome.com.tw/review/172799</link>
+      <description>在11月下半登場的美國超級電腦大會SC25，群聯電子（Phison）發表新款企業級固態硬碟Pascari X201系列，以及資料中心固態硬碟Pascari D201系列，共通點是採用PCIe 5.0介面，快閃記憶體均為TLC、導入321層堆疊的設計，提供每日讀寫量1與3的機型選擇，日常運作的耗電量都低於25瓦，而且，最高效能皆相同——循序讀取與寫入分別為14,500 MB/s與12,000 MB/s，隨機讀取與寫入分別為330萬IOPS與105萬IOPS，適合嚴苛、資料密集型的存取需求，能針對AI一系列作業流程與各種即時處理程序，提供持續的效能。 關於儲存容量的部分，Pascari X201系列最大可提供30.72 TB，企業可選購X201P，每日讀寫量為1；若希望有更大的耐用度，可選購X201E，每日讀寫量為3，最大容量為25.6 TB。Pascari D201系列最大可提供15.36 TB，企業可選購D201P，每日讀寫量為1，若想有更大的耐用度，可選購D201E，每日讀寫量為3，最大容量為12.8 TB。 而在產品的外形上，Pascari X201系列提供兩種：2.5吋U.2、厚</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/172799</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/x201-d201-product-details-blog_main.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 13 Dec 2025 05:58:32 +0000</pubDate>
     </item>
   </channel>
 </rss>
