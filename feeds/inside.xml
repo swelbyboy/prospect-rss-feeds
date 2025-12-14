@@ -8,86 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Dec 2025 06:38:16 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 06:38:17 +0000</lastBuildDate>
     <item>
-      <title>Apple 與 Epic 的官司再度失利，但「蘋果稅」卻有一線生機</title>
-      <link>https://www.inside.com.tw/article/40277-apple-epic-appeal-loses-contempt</link>
-      <description>Apple 非全盤皆輸，法院認為，完全禁止 Apple 對外部支付連結收取任何費用的過於嚴苛，Apple 應有權收取「適當的」費用來涵蓋必要成本及智慧財產權。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40277-apple-epic-appeal-loses-contempt</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/54978b72-8528-4c01-be45-da6e20017b35.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 12 Dec 2025 04:05:00 +0000</pubDate>
+      <title>安全漏洞總在上線後才發現？AWS Security Agent 如何從設計階段就攔截『看不見的威脅』？</title>
+      <link>https://www.inside.com.tw/article/40261-aws</link>
+      <description>業務邏輯漏洞佔嚴重安全問題 15-20%，卻常被傳統工具遺漏。AWS Security Agent 為 AI 驅動的虛擬安全顧問，於設計、開發到部署階段提供全生命週期防護，能主動發掘此類「隱形」威脅，實現真正的安全左移。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40261-aws</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/3845e7db-a99b-48dd-a44b-1c6ccd6aec2d.png" length="0" type="image/png"/>
+      <pubDate>Sat, 13 Dec 2025 15:05:00 +0000</pubDate>
     </item>
     <item>
-      <title>傳奇落幕：曾打造《新世紀福音戰士》名廠 GAINAX 正式解散</title>
-      <link>https://www.inside.com.tw/article/40282-evangelion-studio-gainax-officially-closes</link>
-      <description>Gainax 的殞落可說是長期管理不善的苦果。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40282-evangelion-studio-gainax-officially-closes</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/44a270aa-6f08-45f0-b149-90a0ed2bec07.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 12 Dec 2025 06:25:00 +0000</pubDate>
+      <title>技術債不再是夢魘——加拿大航空讓代理式 AI 接手數千個函數的現代化轉換</title>
+      <link>https://www.inside.com.tw/article/40262-aws</link>
+      <description>為解決技術債造成的創新枷鎖，AWS Transform 導入代理式 AI，自動化任何程式碼與應用程式的現代化。此技術能將數月工作縮短至數天，大幅降低時間與成本，讓工程師從重複性維護中解放，專注於創造商業價值。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40262-aws</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/ed5fe624-2733-42b9-8605-fffe3db99bf1.png" length="0" type="image/png"/>
+      <pubDate>Sun, 14 Dec 2025 01:42:00 +0000</pubDate>
     </item>
     <item>
-      <title>一般 AI 可以試錯，醫療 AI 不行——Natera 用 AWS AgentCore Evaluations 實現零容錯監控</title>
-      <link>https://www.inside.com.tw/article/40248-aws</link>
-      <description>為確保腫瘤照護 AI 代理達到零容錯的醫療級標準，遺傳檢測領導者 Natera 採用 AWS AgentCore Evaluations。此全託管服務能持續監控 AI 回應的準確性與安全性，讓 Natera 得以自信地大規模部署可靠的 AI 應用，維護患者安全。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40248-aws</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/f87a9335-c37d-40df-ab5d-b675bd0bc383.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 12 Dec 2025 06:39:00 +0000</pubDate>
+      <title>為什麼代理式 AI 難以進入生產環境？Workday 如何使用 Amazon Bedrock AgentCore 四大功能解決生產環境四大障礙</title>
+      <link>https://www.inside.com.tw/article/40263-aws</link>
+      <description>本文闡述代理式 AI 進入生產環境所面臨的失控、品質、學習與互動等障礙。為此，Amazon Bedrock AgentCore 提出四項機制：Policy（策略）以控管風險、Evaluations（評估）以確保品質、Episodic Memory（情節記憶）以實現學習，及雙向串流以改善互動。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40263-aws</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/1cb4809f-cdbb-4300-b711-e69732c4ae7c.png" length="0" type="image/png"/>
+      <pubDate>Sun, 14 Dec 2025 01:45:00 +0000</pubDate>
     </item>
     <item>
-      <title>ChatGPT 即將可以聊色：OpenAI 確定成人模式明年第一季推出</title>
-      <link>https://www.inside.com.tw/article/40285-chatgpt-to-launch-adult-mode-in-q1-next-year-openai-confirms</link>
-      <description>OpenAI 規劃於 2026 年第一季推出 ChatGPT 成人模式，提供分級內容。此功能上線前，將以完善年齡預測模型為首要任務，確保能準確識別並保護未成年使用者，避免其接觸不適當內容。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40285-chatgpt-to-launch-adult-mode-in-q1-next-year-openai-confirms</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/09/0d051727-ac87-482d-92db-79e954aeba6f.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 12 Dec 2025 06:54:00 +0000</pubDate>
+      <title>從 4 個分散工具到 1 個統一平台：AWS Security Hub 如何實現近即時威脅關聯與 1 年趨勢追蹤</title>
+      <link>https://www.inside.com.tw/article/40267-aws</link>
+      <description>AWS Security Hub 正式發布，旨在整合多項安全服務。它提供統一平台，自動關聯 GuardDuty 等來源的發現，並分析長期趨勢，將分散警報轉化為集中的風險洞察，提升安全營運效率。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40267-aws</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/b979956c-abb4-4285-adcd-27a9f3bbbda9.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 14 Dec 2025 01:49:00 +0000</pubDate>
     </item>
     <item>
-      <title>不只回答問題，還能主動解決：Amazon Connect 的代理式 AI 如何重新定義客服智慧</title>
-      <link>https://www.inside.com.tw/article/40250-aws</link>
-      <description>傳統 AI 客服僅止於資訊查詢。代理式 AI (Agentic AI) 則能自主推理、跨系統行動，主動解決複雜問題。此典範轉移實現了高效人機協作，讓人力專注於建立關係等高價值任務，全面提升服務體驗。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40250-aws</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/54645322-18a1-4d02-996d-bbe1a4253d44.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 12 Dec 2025 07:02:00 +0000</pubDate>
+      <title>從「災難性遺忘」到「深度整合專有知識」：Reddit、Sony 用 Nova Forge 開放訓練解決 AI 客製化三難困境</title>
+      <link>https://www.inside.com.tw/article/40284-aws</link>
+      <description>企業客製化 AI 模型常陷入「不可能三角」困境。AWS Nova Forge 以「開放訓練」破解僵局，讓企業能在多階段注入專有知識，同時避免災難性遺忘，打造兼具深度與通用能力的專屬模型，將數據轉化為獨特競爭優勢。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40284-aws</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/cf16acec-39ee-49d4-a65c-7e621ea3c011.png" length="0" type="image/png"/>
+      <pubDate>Sun, 14 Dec 2025 01:57:00 +0000</pubDate>
     </item>
     <item>
-      <title>四款模型、內建網頁搜尋與程式碼執行：Amazon Nova 2 如何讓『高效能 AI』不再是大企業專利？</title>
-      <link>https://www.inside.com.tw/article/40251-aws</link>
-      <description>AWS Amazon Nova 2 模型家族，以多款優化模型與內建工具，解決企業導入 AI 的成本與技術困境，讓任何規模的企業都能輕鬆獲取高效能 AI 能力，實現 AI 民主化。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40251-aws</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/3fb7b744-d2e7-477e-b1f7-0eb5b1100a42.png" length="0" type="image/png"/>
-      <pubDate>Fri, 12 Dec 2025 07:03:00 +0000</pubDate>
+      <title>AI 代理擅自批准百萬退款？AWS AgentCore Policy 如何毫秒級攔截 AI 危險行為？</title>
+      <link>https://www.inside.com.tw/article/40269-aws</link>
+      <description>AI 代理的自主行動帶來風險，傳統提示詞難以控制。AWS Policy in AgentCore 讓企業能以自然語言定義政策，在代理程式碼外即時攔截違規操作，確保 AI 於安全邊界內運作，實現「信任但驗證」的治理。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40269-aws</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/bef0d6e2-72ec-41f4-82a9-0a5afc974341.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 14 Dec 2025 01:58:00 +0000</pubDate>
     </item>
     <item>
-      <title>打破雲端資料庫成本困局：Database Savings Plans 讓企業省下 35% 預算</title>
-      <link>https://www.inside.com.tw/article/40254-aws</link>
-      <description>AWS Database Savings Plans 助企業兼顧成本與彈性。只需承諾一筆固定花費，即可在多種資料庫服務與全球區域，自動享有高達 35% 折扣，讓技術創新與成本優化並行。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40254-aws</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/9d84d48d-6def-4f38-b7a5-e39eeeddc024.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 12 Dec 2025 07:07:00 +0000</pubDate>
+      <title>AI 如何真正「看懂」影片?全球最強影片理解模型 TwelveLabs Marengo 3.0 在 Amazon Bedrock 登場</title>
+      <link>https://www.inside.com.tw/article/40272-aws</link>
+      <description>TwelveLabs Marengo 3.0 為一原生影片理解模型，現於 Amazon Bedrock 提供。其架構支援時空推理，能處理長達 4 小時、36 種語言之影片，並顯著降低索引儲存成本與時間，實現大規模影片資產之語意搜尋。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40272-aws</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/cc62cabd-84f5-40bf-b340-51025dc2d8b6.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 14 Dec 2025 02:01:00 +0000</pubDate>
     </item>
     <item>
-      <title>全球首個『數學證明安全性』的 CPU：AWS Graviton5 如何讓 Airbnb 和 Adobe 放心執行最敏感的工作負載？</title>
-      <link>https://www.inside.com.tw/article/40255-aws</link>
-      <description>AWS Graviton5 憑藉 Nitro 隔離引擎，提供全球首創「數學證明安全性」，確保資料無法被他人存取。效能提升達 25%、獲 Airbnb 等頂尖企業驗證，是兼顧極致安全與卓越效能的 CPU 新標竿。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40255-aws</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/92e7d3c9-8479-4f4c-934f-54a137946810.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 12 Dec 2025 07:54:00 +0000</pubDate>
+      <title>AI 寫完程式就忘記、工具一開就卡頓？AWS 推出的 Kiro 為何能「越用越懂你的專案」？</title>
+      <link>https://www.inside.com.tw/article/40280-aws</link>
+      <description>AWS Kiro 旨在解決 AI 輔助開發的兩大痛點：情境遺忘與工具臃腫。其「持續性記憶」讓 AI 助手能跨團隊共享專案知識；「智能工具載入」則依據任務動態啟用外掛，最大化提升啟動速度與資源效率。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40280-aws</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/7753c136-c820-4a3c-bc55-387cff0666d7.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 14 Dec 2025 02:01:00 +0000</pubDate>
     </item>
     <item>
-      <title>歐盟將撤回 2035 燃油車禁令，汽車產業電動化進程可能放緩</title>
-      <link>https://www.inside.com.tw/article/40288-eu-may-revoke-2035-ice-ban-slowing-auto-industrys-ev-transition</link>
-      <description>歐盟擬廢止 2035 年燃油車禁令，改採車隊減排 90% 目標。此舉反映了電動車市場趨緩與產業壓力，旨在平衡轉型步調與本土產業競爭力。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40288-eu-may-revoke-2035-ice-ban-slowing-auto-industrys-ev-transition</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/8e4d7cb9-df8b-4db0-9699-fee4e176bb02.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 13 Dec 2025 03:04:00 +0000</pubDate>
+      <title>AWS 資料庫費用瘦身指南：擺脫傳統合約限制，用 Database Savings Plans 省下 35% 預算</title>
+      <link>https://www.inside.com.tw/article/40283-aws</link>
+      <description>AWS Database Savings Plans 為彈性計費模式，旨在取代僵化的預留執行個體 (RI)。此計畫提供跨服務與跨區域折扣，協助企業在優化成本的同時，保有架構轉型的技術彈性，達成財務與技術目標的平衡。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40283-aws</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/f90204b6-56fe-4390-88f9-fec4afd3366e.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 14 Dec 2025 02:01:00 +0000</pubDate>
     </item>
     <item>
-      <title>日經：Honda 擬逆輸入美國 SUV 回日本市場</title>
-      <link>https://www.inside.com.tw/article/40289-nikkei-honda-plans-to-reimport-us-made-suvs-back-to-japan</link>
-      <description>為因應日美貿易關係與法規鬆綁，本田等日本車廠正評估將美國製大型 SUV 等車款「逆輸入」回日本。此舉旨在緩解貿易摩擦、強化市場陣容，並為日本消費者帶來更多元的車型選擇，最快可能於 2026 年實現。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40289-nikkei-honda-plans-to-reimport-us-made-suvs-back-to-japan</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/08/416d2afc-a3f9-4558-9278-41358d2f2eab.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 13 Dec 2025 06:34:00 +0000</pubDate>
+      <title>從『只有科技巨頭負擔得起』到『中型企業也能訓練大型模型』：AWS Trainium3 如何改變 AI 訓練的遊戲規則？</title>
+      <link>https://www.inside.com.tw/article/40293-aws</link>
+      <description>AI 訓練成本高昂，過去僅科技巨頭能負擔。AWS Trainium3 憑藉運算與能源效率的突破，大幅降低訓練成本達 50%。此舉讓更多企業與研究機構得以開發專屬 AI 模型，實現 AI 普及化。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40293-aws</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/fda16fac-03ad-4dcf-b3bf-6433e95a354e.png" length="0" type="image/png"/>
+      <pubDate>Sun, 14 Dec 2025 02:38:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
