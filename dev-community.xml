@@ -8,76 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Dec 2025 06:34:08 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Dec 2025 06:34:00 +0000</lastBuildDate>
     <item>
-      <title>Vibe Coding Is Empty: Why The Future Belongs To Devs Who Think, Not Just Type</title>
-      <link>https://dev.to/aiwithapex/vibe-coding-is-empty-why-the-future-belongs-to-devs-who-think-not-just-type-2pkh</link>
-      <description>Vibe coding is fun until you realize you’re just copy‑pasting code you don’t understand. The latte is yours. But the thinking job went to the AI. I’ve noticed a quiet shift in software work. The keyboard isn’t where the real value is anymore. The chat window is. AI can already write, fix, and debug a lot of your code. So typing faster or memorizing syntax is a shrinking advantage. What it can’t do is the messy, human stuff. Shaping vague, conflicting requirements into something that actually sol</description>
-      <guid isPermaLink="false">https://dev.to/aiwithapex/vibe-coding-is-empty-why-the-future-belongs-to-devs-who-think-not-just-type-2pkh</guid>
-      <pubDate>Sat, 13 Dec 2025 05:56:28 +0000</pubDate>
+      <title>The Ultimate "It Works on My Machine" Fix: Building a Polyglot (C++, Rust, Python), Remote IDE &amp;amp; Jupyter-Ready Container</title>
+      <link>https://dev.to/warren_jitsing_dd1c1d6fc6/the-ultimate-it-works-on-my-machine-fix-building-a-polyglot-c-rust-python-remote-ide--128d</link>
+      <description>GitHub: https://github.com/InfiniteConsult/0002_docker_dev_environment TL;DR: What We Are Building This guide solves dependency hell and permission errors by building a professional-grade development environment from first principles. The Core: A reproducible Debian 12 container that eliminates "it works on my machine" issues. The Stack: A custom-compiled polyglot toolchain featuring GCC 15.2, Rust 1.89, and multiple sandboxed Python versions (including the experimental 3.13 nogil build). The Wo</description>
+      <guid isPermaLink="false">https://dev.to/warren_jitsing_dd1c1d6fc6/the-ultimate-it-works-on-my-machine-fix-building-a-polyglot-c-rust-python-remote-ide--128d</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy2khgf2sy23e4gn8lc9u.png" length="0" type="image/png"/>
+      <pubDate>Sun, 14 Dec 2025 05:49:18 +0000</pubDate>
     </item>
     <item>
-      <title>I want a backend developer, for my web application project. Contact me as soon as possible</title>
-      <link>https://dev.to/abbas_mehdi_5427058622723/i-want-a-backend-developer-for-my-web-application-project-contact-me-as-soon-as-possible-15i4</link>
-      <description>I want a backend developer, for my web application project. Contact me as soon as possible</description>
-      <guid isPermaLink="false">https://dev.to/abbas_mehdi_5427058622723/i-want-a-backend-developer-for-my-web-application-project-contact-me-as-soon-as-possible-15i4</guid>
-      <pubDate>Sat, 13 Dec 2025 06:05:42 +0000</pubDate>
+      <title>Mastering Data Migration Strategies for Seamless Transfers</title>
+      <link>https://dev.to/dataformathub/mastering-data-migration-strategies-for-seamless-transfers-1228</link>
+      <description>Mastering Data Migration Strategies for Seamless Transfers In today's data-driven world, the ability to efficiently move and transform data is paramount. Whether you're upgrading systems, consolidating databases, or moving to the cloud, a well-executed data migration strategy is the bedrock of success. At DataFormatHub, we understand the complexities involved in handling diverse data formats like CSV, JSON, XML, YAML, and SQL during such transitions. This article dives deep into practical data m</description>
+      <guid isPermaLink="false">https://dev.to/dataformathub/mastering-data-migration-strategies-for-seamless-transfers-1228</guid>
+      <pubDate>Sun, 14 Dec 2025 05:53:08 +0000</pubDate>
     </item>
     <item>
-      <title>Automating Dockerized App Deployment with a Bash Script</title>
-      <link>https://dev.to/ifeanyi_nworji/automating-dockerized-app-deployment-with-a-bash-script-41im</link>
-      <description>DevOps is all about automation, reliability, and efficiency. In Stage 1 of my DevOps internship, I built a robust Bash script to automate the deployment of a Dockerized application to a remote Linux server. Whether you’re a developer, system administrator, or DevOps enthusiast, this guide will walk you step by step through creating a production-ready deployment script that handles everything from cloning a repository to configuring Nginx as a reverse proxy. Why Automate Deployment? Manual deploy</description>
-      <guid isPermaLink="false">https://dev.to/ifeanyi_nworji/automating-dockerized-app-deployment-with-a-bash-script-41im</guid>
-      <pubDate>Sat, 13 Dec 2025 06:06:16 +0000</pubDate>
+      <title>Mastering Sui DeepBook: A Hands-On DeFi DEX Series (2)</title>
+      <link>https://dev.to/rajeshroyal/mastering-sui-deepbook-a-hands-on-defi-dex-series-2-57m3</link>
+      <description>Welcome back to the Mastering Sui DeepBook series! In Part 1, we introduced the core concepts of the Sui blockchain, the Move programming language, and the DeepBook protocol. We outlined what we're going to build: a fully functional Decentralised Exchange (DEX) leveraging DeepBook's central limit order book (CLOB) architecture. In this second instalment, we will roll up our sleeves and get our hands dirty. We'll set up our development environment, install the necessary tools, and bootstrap the p</description>
+      <guid isPermaLink="false">https://dev.to/rajeshroyal/mastering-sui-deepbook-a-hands-on-defi-dex-series-2-57m3</guid>
+      <pubDate>Sun, 14 Dec 2025 05:53:10 +0000</pubDate>
     </item>
     <item>
-      <title>Safeguarding Your React Native App: Protecting Screens for Unauthorized Users</title>
-      <link>https://dev.to/rogasper/safeguarding-your-react-native-app-protecting-screens-for-unauthorized-users-2npb</link>
-      <description>Developing a mobile application often involves managing user authentication and ensuring that sensitive parts of your app are only accessible to logged-in users. In this blog post, we'll dive into how to protect your screens in a React Native application, preventing unauthorized access, as demonstrated in my video How to Protected Your Screen in React Native My application, Dowell - Do Everything Well, is a habit tracker. A key requirement was to ensure that users who are not logged in cannot ac</description>
-      <guid isPermaLink="false">https://dev.to/rogasper/safeguarding-your-react-native-app-protecting-screens-for-unauthorized-users-2npb</guid>
-      <pubDate>Sat, 13 Dec 2025 06:09:24 +0000</pubDate>
+      <title>Advent of AI - Day 10: Understanding Arguments in Goose Recipes</title>
+      <link>https://dev.to/nickytonline/advent-of-ai-day-10-understanding-arguments-in-goose-recipes-2obg</link>
+      <description>I've edited this post, but AI helped. These are meant to be quick posts related to the Advent of AI. I don't have time if I'm doing one of these each day to spend a couple hours on a post. For Advent of AI Day 10, I built a festival poster generator using Goose recipes. But this post isn't really about making posters. It's about understanding how recipe arguments and conditional logic turn static prompts into reusable AI workflows. Up until now in the Advent of AI challenges, I'd been using reci</description>
+      <guid isPermaLink="false">https://dev.to/nickytonline/advent-of-ai-day-10-understanding-arguments-in-goose-recipes-2obg</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F9597%2F8f1ed696-3e87-4bd4-809a-0ee9bb905c3c.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 14 Dec 2025 05:56:41 +0000</pubDate>
     </item>
     <item>
-      <title>Java Keywords</title>
-      <link>https://dev.to/lakshmi_g_74c225d5ca0b272/java-keywords-2n22</link>
-      <description>abstract , assert , boolean , break , byte case , catch , char , class , const* continue , default , do , double , else enum , extends , final , finally , float for , goto* , if , implements , import instanceof , int , interface , long , native new , package , private , protected , public return , short , static , strictfp , super switch , synchronized, this , throw , throws transient , try , void , volatile , while Java Literals (Not keywords, but important) true false null</description>
-      <guid isPermaLink="false">https://dev.to/lakshmi_g_74c225d5ca0b272/java-keywords-2n22</guid>
-      <pubDate>Sat, 13 Dec 2025 06:10:32 +0000</pubDate>
+      <title>The Hidden Cost of Ignoring Competitive Alerts</title>
+      <link>https://dev.to/tracksimple/the-hidden-cost-of-ignoring-competitive-alerts-d87</link>
+      <description>The Hidden Cost of Ignoring Competitive Alerts Sarah stared at her Shopify dashboard, feeling sick. Last month, her competitor had launched a 30% off sale that she completely missed. By the time she noticed, they'd siphoned away $15,000 in sales that should have been hers. "We spend hours every week manually checking their site," she told me. "How did we still miss this?" The audit we ran together revealed something worse: her team was spending 31 hours per month on manual competitor tracking. T</description>
+      <guid isPermaLink="false">https://dev.to/tracksimple/the-hidden-cost-of-ignoring-competitive-alerts-d87</guid>
+      <pubDate>Sun, 14 Dec 2025 06:07:26 +0000</pubDate>
     </item>
     <item>
-      <title>What Actually Determines a File's Type</title>
-      <link>https://dev.to/amoabakelvin/what-actually-determines-a-files-type-48d0</link>
-      <description>Every file format has a specification, “an agreed-upon structure that defines how the bytes in that file are organized”. Just like we have standards for internet protocols, we have standards for file types. When an application opens a PDF or parses a PNG, it’s reading bytes according to that format’s predefined rules. We usually identify files by their extension: .zip, .txt, .jpg. But extensions are really just hints for humans and the operating system. They’re convenient labels, not the actual</description>
-      <guid isPermaLink="false">https://dev.to/amoabakelvin/what-actually-determines-a-files-type-48d0</guid>
-      <pubDate>Sat, 13 Dec 2025 06:13:45 +0000</pubDate>
+      <title>I Tried Reading React's Source Code and Flow Beat Me Up. So Let's Learn 🚀</title>
+      <link>https://dev.to/nyaomaru/i-tried-reading-reacts-source-code-and-flow-beat-me-up-so-lets-learn-4jf0</link>
+      <description>Hi everyone! I'm @nyaomaru, a frontend engineer who eats too much cheese 🧀 and is slowly gaining weight. Quick detour: this article says that to become a good engineer, you need a deep understanding of code, and that reading existing code is essential: https://dev.to/thebitforge/10-developer-habits-that-separate-good-programmers-from-great-ones-293n I totally agree. So I started doing a deep reading of React's source code. And honestly? It’s been surprisingly fun. Every day I discover something</description>
+      <guid isPermaLink="false">https://dev.to/nyaomaru/i-tried-reading-reacts-source-code-and-flow-beat-me-up-so-lets-learn-4jf0</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzf2cy0u8e5d5y8r1a216.png" length="0" type="image/png"/>
+      <pubDate>Sun, 14 Dec 2025 06:09:03 +0000</pubDate>
     </item>
     <item>
-      <title>TFT LCD Technology Explained: Principles, Panel Types, and Real-World Applications</title>
-      <link>https://dev.to/danie_brooks_dc7a891322b3/tft-lcd-technology-explained-principles-panel-types-and-real-world-applications-56gl</link>
-      <description>TFT LCD (Thin-Film Transistor Liquid Crystal Display) is one of the most widely adopted display technologies in modern electronic systems. It serves as the visual interface for devices ranging from smartphones and tablets to industrial HMIs, automotive dashboards, and medical monitoring equipment. Although newer technologies such as OLED often attract attention, TFT LCD continues to dominate many markets due to its stability, scalability, and cost efficiency. This article provides a comprehensiv</description>
-      <guid isPermaLink="false">https://dev.to/danie_brooks_dc7a891322b3/tft-lcd-technology-explained-principles-panel-types-and-real-world-applications-56gl</guid>
-      <pubDate>Sat, 13 Dec 2025 06:15:20 +0000</pubDate>
+      <title>Scaling Kubernetes Load with KEDA</title>
+      <link>https://dev.to/victorpinzon1988eng/scaling-kubernetes-load-with-keda-j7f</link>
+      <description>In multiple projects, I have found myself asking the same question: Why is the HPA not scaling my pods when it is clearly needed? The answer is actually very simple—HPA only scales based on CPU or memory utilization, and that does not always reflect real-world workloads. What happens when we need to scale an application using different types of metrics, such as requests per second, queue depth, or even the result of a database query? That's where KEDA comes into play. On June 14, 2025, I partici</description>
+      <guid isPermaLink="false">https://dev.to/victorpinzon1988eng/scaling-kubernetes-load-with-keda-j7f</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frnpql3qwm7ocxqf5besw.png" length="0" type="image/png"/>
+      <pubDate>Sun, 14 Dec 2025 06:12:16 +0000</pubDate>
     </item>
     <item>
-      <title>Cloud Architecture Mistakes I Made So You Don't Have To</title>
-      <link>https://dev.to/aman_kulshrestha_815f0a2f/cloud-architecture-mistakes-i-made-so-you-dont-have-to-23hl</link>
-      <description>I've been building cloud infrastructure for 5+ years. Here are the expensive lessons I learned—so you can skip the pain. Mistake 1: Over-Engineering from Day 1 My first startup? I built a Kubernetes cluster for 50 users. What I should've done: Start with managed services. PaaS beats IaaS for 90% of early-stage apps. MVP Stack (0-10k users): ├── Vercel/Railway/Render (App) ├── Managed Postgres (Supabase/PlanetScale) ├── S3 for files └── CloudFront CDN Kubernetes can wait until you actually need i</description>
-      <guid isPermaLink="false">https://dev.to/aman_kulshrestha_815f0a2f/cloud-architecture-mistakes-i-made-so-you-dont-have-to-23hl</guid>
-      <pubDate>Sat, 13 Dec 2025 06:15:56 +0000</pubDate>
+      <title>My Solution to Deno Watch Mode Signal Handling</title>
+      <link>https://dev.to/whyang9701/my-solution-of-deno-watch-mode-signal-handling-4ejp</link>
+      <description>To fix the Deno watch mode issue, I researched both Deno and Node.js. I want to use Node.js's approach but implement it in Rust for Deno. Rust doesn't have a built-in process.kill() function like JavaScript to send signals, but we can simulate this using channels. When creating a channel, we get a sender (Tx) and a receiver (Rx) that work together, which helps avoid race conditions. I created a pull request (PR) that uses a channel to allow the worker process to inform the watcher process when t</description>
+      <guid isPermaLink="false">https://dev.to/whyang9701/my-solution-of-deno-watch-mode-signal-handling-4ejp</guid>
+      <pubDate>Sun, 14 Dec 2025 06:13:01 +0000</pubDate>
     </item>
     <item>
-      <title>Mind Goes Blank on LeetCode? Here's Your Escape Plan</title>
-      <link>https://dev.to/alex_hunter_44f4c9ed6671e/mind-goes-blank-on-leetcode-heres-your-escape-plan-472m</link>
-      <description>Originally published on LeetCopilot Blog You understand the problem but have zero idea how to start. That paralysis is fixable. Here's a step-by-step process to get unstuck. You open a new problem. You read it carefully. You understand what it's asking. Then comes the question: "How do I solve this?" And your mind offers... nothing. Not "I have an idea but it's inefficient." Not "I'm stuck on one part." Just complete blankness. Zero starting point. Total paralysis. You reread the problem. Still</description>
-      <guid isPermaLink="false">https://dev.to/alex_hunter_44f4c9ed6671e/mind-goes-blank-on-leetcode-heres-your-escape-plan-472m</guid>
-      <pubDate>Sat, 13 Dec 2025 06:21:05 +0000</pubDate>
+      <title>Top 50 Python AI Interview Questions &amp;amp; Answers</title>
+      <link>https://dev.to/jennijuli3/top-50-python-ai-interview-questions-answers-2i7l</link>
+      <description>Why is Python preferred for AI development? Python is best suited for AI development as it has simple syntax, large libraries like NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, and strong community support. What are Python data types commonly used in AI? Python Data types commonly used in AI are Lists, Tuples, Dictionaries, Sets, NumPy arrays, Pandas DataFrames. What is Python’s Global Interpreter Lock (GIL)? Python’s Global Interpreter Lock is a mutex that allows only one thread to execute</description>
+      <guid isPermaLink="false">https://dev.to/jennijuli3/top-50-python-ai-interview-questions-answers-2i7l</guid>
+      <pubDate>Sun, 14 Dec 2025 06:18:58 +0000</pubDate>
     </item>
     <item>
-      <title>Stuck for Hours? The 'Productive Struggle' Rule for LeetCode</title>
-      <link>https://dev.to/alex_hunter_44f4c9ed6671e/stuck-for-hours-the-productive-struggle-rule-for-leetcode-2ab6</link>
-      <description>Originally published on LeetCopilot Blog Staring at the screen for 2 hours isn't grit—it's wasted time. Here is the exact skill-based time limit for when to peek at the solution. You've been staring at this problem for 90 minutes. You have some ideas, but nothing's working. You're not sure if you're "almost there" or completely off-track. The internal debate starts: Option 1: "Keep trying. You'll figure it out. Giving up is weakness." Option 2: "This is wasting time. Look at the solution and mov</description>
-      <guid isPermaLink="false">https://dev.to/alex_hunter_44f4c9ed6671e/stuck-for-hours-the-productive-struggle-rule-for-leetcode-2ab6</guid>
-      <pubDate>Sat, 13 Dec 2025 06:21:55 +0000</pubDate>
+      <title>Boost Your LLM Apps with Monetzly's API Monetization Strategies</title>
+      <link>https://dev.to/monetzly/boost-your-llm-apps-with-monetzlys-api-monetization-strategies-8d6</link>
+      <description>Monetization Without Paywalls: The Key to Sustainable AI Innovation The biggest challenge in the AI landscape today isn't just building remarkable applications; it's monetizing them without sacrificing user experience. As AI apps proliferate, developers are often left wondering how to generate revenue without resorting to subscriptions or annoying paywalls. Enter Monetzly — think of it as the Google Ads for AI conversations, designed specifically to help you keep your apps accessible while gener</description>
+      <guid isPermaLink="false">https://dev.to/monetzly/boost-your-llm-apps-with-monetzlys-api-monetization-strategies-8d6</guid>
+      <pubDate>Sun, 14 Dec 2025 06:19:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
