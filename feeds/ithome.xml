@@ -8,74 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Dec 2025 06:36:26 +0000</lastBuildDate>
-    <item>
-      <title>Brave測試AI代理上網功能 加入多項安全隱私機制</title>
-      <link>https://www.ithome.com.tw/news/172792</link>
-      <description>新聞Brave瀏覽器的同名開發商昨（11）日宣佈AI上網功能提供測試，強調多項安全及隱私設計。 最新的AI上網功能是Brave最新代理人功能，將整合在其AI助理Leo中，可根據用戶提示建議上網行動。現在新功能透過Brave Nightly早期測試版釋出。和所有AI功能一樣，AI上網功能預設關閉，使用者必須開啟brave://flags的「Brave AI browsing」啟用本功能。 該公司強調Brave AI上網功能的隱私和安全設計。為防範代理人上網的二大風險，包括提示注入及模型行為不慎造成使用者傷害。AI上網功能的儲存將和一般上網紀錄，如cookies、登入狀態、快取、和其他資料隔離開來，以免影響資料安全及隱私。 此外，業者加入了第二個模型對齊檢查（alignment check）來檢查代理人模型（任務模型）的輸入結果，作為模型護欄。這個模型接收系統提示、使用者提示及任務模型回應加以分析，以檢查任務型的指示符合用戶意圖。 未來上線後，AI上網功能仍需要使用者主動開啟。而且它在視覺設計上，和Leo助理明顯區隔，行動線索也不同，確保使用者清楚意識到AI功能開啟，並且能中止或接手。它雖</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172792</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/1212-AI%20Browsing%20in%20Brave-3.png" length="0" type="image/png"/>
-      <pubDate>Fri, 12 Dec 2025 06:15:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>駭客利用Gogs零時差漏洞入侵逾700臺伺服器</title>
-      <link>https://www.ithome.com.tw/news/172793</link>
-      <description>新聞在用來管理檔案與程式碼的Git分散式版本控制系統當中，最常見的是GitHub與GitLab，不過，對於想要自行建置Git服務的企業組織而言，標榜部署容易且所需資源極低的Gogs，也相當受到歡迎，如今傳出有人針對這類平臺下手，利用零時差漏洞從事活動。 資安業者Wiz於今年7月發現，有人針對能從網際網路存取的Gogs平臺發動攻擊，駭客利用未知的漏洞達到目的。Wiz將漏洞通報給開發團隊並得到承認，登記為CVE-2025-8110列管。值得留意的是，由於目前Gogs開發工程團隊尚未提供修補程式，且攻擊活動仍在持續，Wiz呼籲，IT人員應限制Gogs伺服器的網路存取管道，若無需開放用戶自行線上註冊帳號，就應該立即停用相關功能。再者，IT人員也要清查Gogs主機，是否出現8個字元隨機名稱的儲存庫，或是API出現非預期使用的現象。 CVE-2025-8110出現在Gogs的PutContents API，原因是對於符號連結（symbolic link）不當處理引起，攻擊者一旦成功利用，就能在本機執行任意程式碼，4.0版CVSS風險為8.7分。Wiz提及，此漏洞源自另一個路徑遍歷漏洞CVE-202</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172793</guid>
-      <pubDate>Fri, 12 Dec 2025 07:00:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>儲域網路進入128G FC時代，博科第8代產品結合AI與量子安全</title>
-      <link>https://www.ithome.com.tw/review/172764</link>
-      <description>在儲域網路（SAN）的應用上，光纖通道（FC）網路的技術長期扮演著重要角色，2020年博科（Brocade）發表首批支援64 Gb FC的第7代交換器設備，機型包括採用模組化機箱的X7 Director系列，以及配置固定網路埠機箱的G720。 該公司後續發表G730、G710，今年11月正式宣布推出首批支援128 Gb FC的第8代交換器設備，機型包括採用模組化機箱的X8 Director系列，以及機箱配置固定網路埠的G820，而且，這些機型即日起已開始供應市場使用。而在12月中舉行的NetApp Insight Xtra大會臺北場，博科也首度向臺灣市場介紹Brocade Gen 8 Fibre Channel。 就產品定位與硬體規格而言，X8 Director系列與上一代的X7 Director系列一樣，可用於建構核心、大型且兼具擴充性的儲域網路，都提供搭配模組化機箱的兩款機型。 其中的X8-8，機箱為14U尺寸，可容納14臺FC網路埠模組，另一款X8-4，機箱為9U尺寸，可容納10臺FC網路埠模組。 而且，FC網路埠模組只有FC128-48 Port Blade一種可選，內建48個</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/172764</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/brocade_gen_8_fibre_channel_main2.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 12 Dec 2025 07:10:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>國研院國網中心正式啟用位於南科的國網雲端算力中心</title>
-      <link>https://www.ithome.com.tw/news/172794</link>
-      <description>新聞政府加速推動AI新十大建設已有初步成果，國科會主導下，位於臺南南部科學園區的國網雲端算力中心在今天(12/12)正式啟用，未來將結合2029年建置完成的沙崙智慧創新算力中心，成為我國AI 訓練、氣候模擬、生命科學、半導體研發等高階科研應用的國家算力基地。 出席今天啟用儀式的總統賴清德表示，臺灣不能永遠依靠國外廠商來訂定系統規格，政府要鼓勵國內廠商發展我們自己的算力系統架構，從積體電路晶片、超級電腦內部網路設計，結合臺廠的運算、儲存設備、通訊網路交換器等等，以及我國矽光子技術，搭配全光網路連結臺灣的資料中心。 這座雲端算力中心是「大南方新矽」及「AI新十大建設」方案的一部分成果，強調提供我國先進的AI共用算力，雲端算力中心具備15MW的電量，並強調採用國際商用電信中心規設設計，具備耐震、節能、備援設計。 國科會主委吳誠文指出，國網雲端算力中心的正式啟用，不僅作為支撐我國科學研究與產業應用，也具備未來部署量子電腦的戰略潛能。 按照國科會的規畫，預計在2028年建置我國第一部整合高效能運算環境的量子電腦，以支援我國相關的量子應用技術發展。 另外，在中華電信協助下也引進日本NTT的全光網路</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172794</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202025-12-12%20%E4%B8%8B%E5%8D%882_52_43(1).jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 12 Dec 2025 07:42:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>xAI與薩爾瓦多合作，將把Grok部署至逾5,000所公立學校</title>
-      <link>https://www.ithome.com.tw/news/172796</link>
-      <description>新聞由馬斯克（Elon Musk）創辦的AI新創xAI周四（12/11）宣布，已與薩爾瓦多達成合作，將在未來2年內，於超過5,000所公立學校部署Grok，替逾100萬名學生提供個人化學習體驗，宣稱是全球首個全國級AI教育計畫。 根據雙方的協議，該計畫將打造具備適應性、與課綱對齊的AI輔導系統，可依每名學生的學習進度、偏好與掌握程度動態調整，確保不管是城市或偏鄉的學子，都能獲得符合其需求的世界級教育。 而藉由與薩爾瓦多共同開發該系統，xAI也將產出新的方法論、資料集及框架，發展出一套可供其它國家或學校參考的AI教育使用框架，強調安全、符合在地情境，以及以學生為中心。 位於中美洲的薩爾瓦多人口約650萬，現任總統Nayib Bukele以強硬治安政策著稱，同時積極推動科技及數位政策，是全球第一個將比特幣列為法定貨幣的國家。Bukele說，薩爾瓦多證明了國家可以透過大膽的政策與戰略視野，直接躍升至世界頂端，由xAI作為前沿模型的領導者，並以薩爾瓦多作為創新試驗場，可望替全人類帶來非凡的成果。 Musk則說，xAI正藉由此一合作，將最先進的AI直接交到下一代的手上，薩爾瓦多不是在等待教育的未</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172796</guid>
-      <pubDate>Fri, 12 Dec 2025 08:02:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>生成式AI迎合與妄想式回應風險升溫，美國多州檢察長要求第三方稽核與事故通報</title>
-      <link>https://www.ithome.com.tw/news/172795</link>
-      <description>新聞美國多州檢察長發函Anthropic、Apple、Google、Meta、Microsoft、OpenAI與xAI等13家生成式AI與聊天機器人業者，指稱產品出現迎合（Sycophantic）與妄想式（Delusional）輸出的風險正在擴大，可能波及公共安全與兒少保護，並要求業者在2026年1月16日前回覆，確認是否承諾導入獨立第三方稽核、事故公開紀錄與通報等機制，並強化整體安全治理。 信件將迎合界定為模型為追求使用者認同而偏離真實與客觀，甚至在使用者處於焦慮、憤怒或危險念頭時，以過度同意或鼓動方式回應。妄想輸出則涵蓋虛假或可能誤導使用者的內容，以及把系統擬人化，暗示自己為類人存在的回覆。他們認為，這類輸出可能構成暗黑設計手法（Dark Patterns），例如以擬人化或操弄互動來提高黏著度，進而削弱使用者自主判斷，並在心理健康、暴力與自傷等情境放大傷害。 信中引用多起媒體報導與法院文件，稱近期已有死亡、自殺、暴力事件與精神症狀惡化等案例，被外界指與聊天機器人的回應互動有關。更讓檢察長團隊在意的是，家長與倡議組織公開的對話截圖顯示，部分兒少註冊帳號可能接觸到性引誘、要求保密、鼓勵</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172795</guid>
-      <pubDate>Fri, 12 Dec 2025 08:13:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>新型態手法ConsentFix結合OAuth同意網路釣魚，透過Azure CLI騙取微軟帳號</title>
-      <link>https://www.ithome.com.tw/news/172800</link>
-      <description>新聞要求使用者依照指示操作，將惡意指令複製、貼上，然後執行的網釣手法ClickFix，是目前最為氾濫的社交工程攻擊型態，這種手法後續又出現變形，其中包含操作流程都在瀏覽器進行的FileFix，以及結合假系統更新螢幕覆蓋手法的JackFix，如今有結合OAuth身分驗證流程的新型態手法。 經營瀏覽器防護的資安公司Push Security，揭露名為ConsentFix的攻擊手法，它結合了OAuth同意網路釣魚與ClickFix，從而挾持受害者的微軟帳號。這種基於瀏覽器的新型態攻擊手法，攻擊者會誘騙使用者進行簡單的複製貼上，就有機會接管使用者的帳號。更可怕的是，假如使用者已經在瀏覽器登入特定OAuth應用程式，攻擊者就能在無須取得憑證，或是通過多因素驗證（MFA）的情況下得逞，換言之，攻擊者有可能以此繞過通行金鑰（Passkey）等防護措施。 值得留意的是，這種手法已出現實際攻擊。Push Security觀察到駭客濫用Azure CLI的OAuth應用程式，藉由產生特定的OAuth授權碼，引誘受害者登入Azure CLI，並將URL貼上攻擊者控制的網頁。這麼一來，就會在受害者的微軟帳號與</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172800</guid>
-      <pubDate>Fri, 12 Dec 2025 09:42:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>【資安日報】12月12日，惡意軟體NanoRemote濫用Google Drive的API從事通訊</title>
-      <link>https://www.ithome.com.tw/news/172801</link>
-      <description>新聞惡意軟體NanoRemote濫用Google Drive的API隱匿行蹤 資料搜尋及分析業者Elastic旗下的資安實驗室指出，他們在今年10月透過遙測發現新的Windows後門程式NanoRemote，此惡意軟體疑似來自匿稱為Ref7707、CL-STA-0049、Earth Alux，以及Jewelbug的中國駭客組織，且與另一個該組織使用的惡意程式FinalDraft具有相似之處。而NanoRemote引起Elastic注意的地方，在於駭客濫用了Google Drive的API與受害電腦傳送資料，使得有效酬載及竊得資料可暫存在難以偵測的地方。針對檔案傳輸，NanoRemote搭載了工作管理系統，不僅能排程上傳和下載的工作，還能暫停或恢復中斷的檔案傳輸，並能產生所需的權杖（Token）。 針對Ref7707散布NanoRemote的攻擊流程，主要的工具包含惡意程式載入工具WMLoader與NanoRemote，但究竟他們如何入侵受害電腦，Elastic沒有說明。 駭客將WMLoader偽裝成Bitdefender防毒軟體的元件BDReinit.exe，並搭配無效的數位簽章來掩人</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172801</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/NanoRemote25.png" length="0" type="image/png"/>
-      <pubDate>Fri, 12 Dec 2025 09:55:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google升級研究代理Gemini Deep Research，著重網站深度查詢</title>
-      <link>https://www.ithome.com.tw/news/172798</link>
-      <description>新聞Google DeepMind更新Gemini Deep Research研究代理，並向開發者開放Interactions API，讓第三方應用可把長時間的資訊蒐集與彙整流程嵌入自家產品。官方也提到，該代理程式可在報告中提供引用來源，並支援結構化輸出，方便後續系統接手處理研究結果。同時，Google開源名為DeepSearchQA的新基準測試，用來衡量研究型代理在多步網際網路查詢任務上的完整度。 Gemini Deep Research針對長時間脈絡蒐集與彙整而設計的代理程式，模型採用Gemini 3 Pro，會反覆規畫研究步驟，包含提出查詢、閱讀結果、辨識資訊缺口，再進一步搜尋補齊缺口。本次釋出主打大幅強化網頁搜尋能力，強調能更深入網站內頁尋找特定資料。 Google用Humanity’s Last Exam、DeepSearchQA與BrowseComp評估Gemini Deep Research，並稱在HLE與DeepSearchQA達到最佳水準，同時在BrowseComp則是自家目前最佳表現。Humanity’s Last Exam屬於跨領域的高難度題庫，常被用來檢驗模型在</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172798</guid>
-      <pubDate>Fri, 12 Dec 2025 10:45:49 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 15 Dec 2025 06:41:54 +0000</lastBuildDate>
     <item>
       <title>寫入效能突破10 GB/s與100萬IOPS，群聯新款PCIe SSD上陣</title>
       <link>https://www.ithome.com.tw/review/172799</link>
@@ -83,6 +16,69 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/review/172799</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/x201-d201-product-details-blog_main.jpg" length="0" type="image/jpeg"/>
       <pubDate>Sat, 13 Dec 2025 05:58:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>酷澎韓國辦公室遭警方搜索　執行長為資料外洩公開致歉辭職</title>
+      <link>https://www.ithome.com.tw/news/172807</link>
+      <description>新聞韓國最大電商酷澎（Coupang）本月發生3,370萬人個資外洩，警方上周五搜查該公司辦公室，隔日執行長公開道歉且請辭以示負責。 上周酷澎執行長朴大俊（Park Dae-jun）宣佈為本月初的重大個資外洩案請辭。他表示，對於該公司資料外洩事件讓大眾失望感到抱歉，公司對事件發生及後續反應過程欠妥感到須負重大責任，因此決定辭去一切職位。 在其下台後，酷澎母公司已任命該公司行政長和法務長Harold Rogers為臨時執行長。 這起將近3,400萬個資外洩案佔了韓國5400萬人口的半數以上。報導指出，該名內賊早在今年6月24日便企圖自酷澎的海外伺服器竊取用戶資料，酷澎一直到11月才察覺此事，原本估計受害者只有4,500人，但在與執法機構及資安公司合作調查後，發現影響超過3,300萬人。 此波人事異動之前幾天，首爾警方搜索酷澎總公司。在兩天之內，警方分別搜索酷澎園區及總部辦公室，以蒐集與資料外洩案相關的證據，並了解客戶資訊系統是否有漏洞。根據韓國時報報導，警方已取得用於資料外洩的IP位址、追查兇嫌。報導引述消息人士指出，警方的搜索狀指向一名中國籍前員工涉嫌違法存取酷澎通訊網路及資訊系統，藉</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172807</guid>
+      <pubDate>Mon, 15 Dec 2025 01:10:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>微軟更新雲端漏洞獎勵政策，第三方元件影響也納入評估</title>
+      <link>https://www.ithome.com.tw/news/172808</link>
+      <description>新聞微軟上周四（12/11）宣布調整旗下雲端漏洞獎金計畫（Bug Bounty Program）評估方式，導入名為「In Scope by Default」的新原則。未來只要漏洞實際影響微軟的線上服務，即使漏洞源自第三方或開源元件，也將預設納入漏洞獎勵範圍。 微軟安全回應中心（Microsoft Security Response Center，MSRC）表示，過去漏洞獎金計畫通常會事先界定明確的適用範圍，研究人員回報的漏洞必須落在指定的產品或服務清單內，才有資格獲得獎勵。然而在實際攻擊情境中，許多高風險漏洞並非直接存在於雲端服務本身，而是來自其所依賴的第三方套件、開源元件或相依服務，即便對線上服務造成實質影響，仍可能因不在既定範圍內而引發認定爭議。 在「In Scope by Default」策略下，微軟改以「是否對線上服務造成可驗證影響」作為是否納入漏洞獎金的主要依據，而不再先行限制漏洞必須出現在微軟自家程式碼中。 MSRC進一步說明，安全漏洞經常出現在元件互動或相依關係的邊界上，未來將採用更廣泛的安全研究視角，不僅涵蓋微軟自身的基礎架構，也包括其所依賴的第三方相依性，不論是開源元</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172808</guid>
+      <pubDate>Mon, 15 Dec 2025 01:35:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>蘋果修補兩個零時差漏洞，並指出已被用於極度複雜的攻擊行動</title>
+      <link>https://www.ithome.com.tw/news/172810</link>
+      <description>新聞12月12日蘋果針對旗下的行動裝置、電腦、穿戴裝置，以及電視盒發布作業系統更新：iOS與iPadOS 26.2、macOS Tahoe 26.2、watchOS 26.2、visionOS 26.2，以及tvOS 26.2，帶來一系列的功能更新，例如：改善iPhone手機網路通訊能力、強化iPad多工操作功能，以及為電腦加入Edge Light的功能。但除此之外，這次大型更新蘋果也修補許多資安漏洞，其中最值得留意的部分，是兩個已遭利用的WebKit零時差漏洞。 這些漏洞是CVE-2025-14174與CVE-2025-43529，由蘋果與Google威脅分析團隊（TAG）通報。蘋果在資安公告指出，他們掌握兩項漏洞已在極為複雜的攻擊行動當中，鎖定執行低於26版iOS作業系統的iPhone。值得留意的是，根據美國國家漏洞資料庫（NVD）的說明，CVE-2025-14174就是兩天前Google為Chrome修補的零時差漏洞「466192044」。 對於漏洞造成的影響，蘋果指出兩個WebKit漏洞都可透過特製的惡意網頁內容觸發，CVE-2025-14174可導致記憶體中斷，CVE-202</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172810</guid>
+      <pubDate>Mon, 15 Dec 2025 02:05:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google翻譯引進Gemini原生語音能力，開始測試即時語音翻譯功能</title>
+      <link>https://www.ithome.com.tw/news/172816</link>
+      <description>新聞Google上周五（12/12）宣布，將Gemini的最新翻譯能力及原生語音能力引進Google翻譯（Google Translate），除了全面提升文字翻譯品質，也同步在Android版Google翻譯中測試可搭配所有耳機使用的即時語音翻譯功能。後者採用的是Google近日更新的Gemini 2.5 Flash Native Audio模型。 在文字翻譯上，Google翻譯開始採用由Gemini支撐的全新翻譯品質，強化對成語、俚語與語境的理解能力，避免過去逐字直譯的問題。這項升級已率先於美國與印度推出，支援英語與近20種語言互譯，涵蓋Android、iOS與網頁版。 真正的突破則出現在語音層面。Google表示，Google翻譯正在測試的即時語音翻譯功能，採用了Gemini 2.5 Flash Native Audio的原生語音能力，可直接於聲音層面進行理解與生成，不必經過傳統的「語音轉文字、再轉回語音」流程。這讓翻譯延遲大幅降低，同時保留說話者的語氣、重音與節奏，更貼近真實人類溝通。 語音對語音翻譯是以「聆聽為主」的即時模式運作。使用者只需在Android版Google翻譯中配</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172816</guid>
+      <pubDate>Mon, 15 Dec 2025 02:50:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>VS Code強化代理工作流程，Chat內整合工作階段並支援背景持續執行</title>
+      <link>https://www.ithome.com.tw/news/172802</link>
+      <description>新聞微軟釋出VS Code 2025年11月更新1.107版本，更新重點放在代理工作流程，新版把代理工作階段整合進Chat檢視，開發者可在同一介面查看各工作階段的狀態、進度與檔案變更統計，也能封存或取消封存工作階段，微軟說明，當使用者在VS Code開啟某個專案資料夾作為工作區時，Chat工作階段清單僅顯示與該專案相關的工作階段，要是使用者處於未開啟任何專案的空白視窗，則會顯示跨不同專案的所有工作階段。 過去用戶只要關閉VS Code內的本機代理工作階段（Local Agent Session），執行中的代理請求就會被取消，限制了本機代理執行長時間任務或同時處理多個任務的能力，1.107改為保留工作階段，讓本機代理即使未開啟在Chat檢視或聊天編輯器中也能在背景繼續執行，使用者可從Chat內的工作階段清單隨時切回原對話追蹤進展。另因工作階段清單整合進Chat檢視，VS Code也將獨立的Agent Sessions檢視預設停用，並計畫在後續版本移除。 VS Code新增Continue in流程，讓使用者先在本機對話中完成需求釐清或規畫後，可把既有聊天脈絡交給背景或雲端代理接手執行，交</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172802</guid>
+      <pubDate>Mon, 15 Dec 2025 03:11:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>英特爾傳將收購AI晶片業者SambaNova</title>
+      <link>https://www.ithome.com.tw/news/172817</link>
+      <description>新聞彭博報導，英特爾即將和AI推論晶片及平臺業者SambaNova達成16億美元的收購。 彭博於10月底首次引述消息人士報導雙方收購消息。雙方可能已從今年10月底展開洽談。最快可能數周，但也可能因為盡職調查等進階談判事務而延遲為數月。若收購金額為真，這個金額將小於SambaNova 2021年募資，以及11月彭博報導收購金額的50億美元。 成立於2017年的Samba核心業務為推論晶片及系統平臺。這家新創公司投資人皆大有來頭，包括英特爾的投資部門Intel Capital、軟銀、三星、SK Telecom及美光的投資部門等。路透社報導，該公司和英特爾淵源匪淺，英特爾執行長陳立武個人的投資公司Walden International也是投資人之一。此外，Samba去年5月也任命陳立武為執行董事。 多家媒體分析，這項收購是英特爾重回AI競爭的策略性動作，可望帶進SambaNova可商用的AI加速器及整機解決方案，提振英特爾和Nvidia、AMD及其他新興業者的競爭力，特別是在企業/雲端資料中心的推論與客制加速器市場。 英特爾和Samba皆未對此消息評論。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172817</guid>
+      <pubDate>Mon, 15 Dec 2025 03:16:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>逾1萬個Docker Hub映像檔曝露憑證與API金鑰</title>
+      <link>https://www.ithome.com.tw/news/172818</link>
+      <description>新聞研究人員發現，公開於網上的Docker Hub中的容器映像檔，內含AI模型、API金鑰及多種憑證，警告可能造成軟體供應鏈攻擊。 資安廠商Flare針對2025年11月1日到30日上傳Docker Hub的上萬個映像檔進行分析，分析這些映像檔是否含有敏感存取資訊。他們先定義15種敏感憑證，包括軟體開發生命周期（Software Development Lifecycle，SDLC）及程式碼控制憑證（如GitHub）、雲端平臺憑證（如AWS/GCP/Microsoft Azure）、AI及模型存取、支付服務憑證等。 他們發現10,456個內含高度及重大嚴重性的映像檔，分佈於205個命名空間（namespace）。進一步分析，研究人員辨別出101個命名空間所屬的實際公司，其中多數是中小企業，但也有一些大型企業，以及一家財星五百大企業。從產業來看，以軟體開發（28）、市場與產業（20）、AI與智能系統（15）最多，還包含一家尖端研究組織及11家金融／銀行。 值得注意的是，在這些容器映像檔中，近42%包含5種以上憑證，像是完整存取雲端、Git程式庫、CI/CD系統、支付整合或其他核心基礎架構</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172818</guid>
+      <pubDate>Mon, 15 Dec 2025 03:32:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>PCIe完整性與資料加密處理出現漏洞，恐面臨資訊洩露、拒絕服務等資安風險，波及Intel、AMD處理器</title>
+      <link>https://www.ithome.com.tw/news/172819</link>
+      <description>新聞PCI-SIG（PCI Special Interest Group）上周修訂相關規格，以因應周邊元件快速互連（Peripheral Component Interconnect Express，PCIe）標準中揭露的3個安全漏洞。這些漏洞皆存在於完整性與資料加密（Integrity and Data Encryption，IDE）安全機制中，可能削弱IDE與TDISP（Trusted Domain Interface Security Protocol）等原本用來隔離不同安全環境的防護效果。 PCI-SIG是由全球主要晶片及系統廠商組成、負責制定與維護PCIe等硬體互連標準的產業規格制定組織；PCI-SIG所制定的PCIe是硬體互連標準，負責資料如何在CPU與周邊裝置之間傳輸；IDE是PCIe規格中的一個安全機制，用來保護PCIe封包的內容與完整性，當兩個PCIe元件（例如CPU與加速卡）建立連線時，若雙方都支援IDE，即會在PCIe鏈路上啟用IDE模式。 這3個漏洞是由英特爾（Intel）的多名員工共同發現，分別是CVE-2025-9612、CVE-2025-9613與CVE-</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172819</guid>
+      <pubDate>Mon, 15 Dec 2025 04:02:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>西門子、洛克威爾、施耐德等4家業者12月修補ICS多項重大及高風險漏洞</title>
+      <link>https://www.ithome.com.tw/news/172805</link>
+      <description>新聞在12月Patch Tuesday週期，西門子（Siemens）、洛克威爾自動化（Rockwell Automation）、施耐德電機（Schneider Electric）以及菲尼克斯電氣（Phoenix Contact）皆發布多項公告，修補旗下ICS與OT設備多項資安漏洞。 西門子本次共發布14則安全性公告，其中3則被評為重大風險，主要影響Comos、Sicam T與Ruggedcom ROX等產品。在SSA-212953公告中，西門子指出其工程與資產管理平臺Comos存在多項重大風險漏洞，其CVSS v3.1風險分數高達10.0分，CVSS v4.0則為9.2分。這些漏洞可能被利用執行任意程式碼，或造成服務阻斷、資料滲透與存取控制違規。西門子已針對部分產品發布修補版本，並建議用戶升級至最新版。 此外，西門子公告Sicam T 3.0之前版本存在高風險與重大風險漏洞，CVSS v3.1達9.9分，CVSS v4.0則為9.3分，涵蓋不當輸入驗證、跨站腳本（XSS）與跨站請求偽造（CSRF）問題，並涉及身分驗證與授權繞過，以及缺乏HTTPS保護等弱點。這些漏洞可能導致遠端程式碼執</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172805</guid>
+      <pubDate>Mon, 15 Dec 2025 04:23:47 +0000</pubDate>
     </item>
   </channel>
 </rss>

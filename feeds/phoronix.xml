@@ -8,56 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Dec 2025 06:34:10 +0000</lastBuildDate>
-    <item>
-      <title>Haiku OS Sees Port Of Go 1.18 Programming Language</title>
-      <link>https://www.phoronix.com/news/Haiku-Gets-Modern-Go</link>
-      <description>The BeOS-inspired Haiku operating system has received a recent port of the Go programming language to the platform. Plus Haiku also saw app improvements and more over the month of November...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Haiku-Gets-Modern-Go</guid>
-      <pubDate>Sat, 13 Dec 2025 01:10:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>KDE Plasma 6.6 Will Finally Support Proper Screen Mirroring On Wayland</title>
-      <link>https://www.phoronix.com/news/Plasma-6.6-Screen-Mirroring</link>
-      <description>It's an exciting week in KDE Plasma development land ahead of the holidays. Plasma 6.6 continues tacking on more feature work for Wayland...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-Screen-Mirroring</guid>
-      <pubDate>Sat, 13 Dec 2025 01:20:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Linux Patch Confirms: Rust Experiment Is Done, Rust Is Here To Stay</title>
-      <link>https://www.phoronix.com/news/Rust-To-Stay-Linux-Kernel</link>
-      <description>Rust for Linux lead developer Miguel Ojeda posted the patch a short time ago to "conclude the Rust experiment". The "experiment" of Rust programming language code in the Linux kernel is over as it's now accepted to be a success and "Rust is here to stay" in the kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Rust-To-Stay-Linux-Kernel</guid>
-      <pubDate>Sat, 13 Dec 2025 01:35:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>LoongArch32 Support Begins Taking Shape In Linux 6.19, GCC 16</title>
-      <link>https://www.phoronix.com/news/LoongArch32-Linux-6.19</link>
-      <description>The LoongArch CPU architecture changes have been merged for the Linux 6.19 merge window. This domestic Chinese CPU architecture inspired by MIPS and RISC-V began with 64-bit LoongArch64 but with Linux 6.19 the foundation is being laid for LoongArch32 as a 32-bit variant...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/LoongArch32-Linux-6.19</guid>
-      <pubDate>Sat, 13 Dec 2025 11:20:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Rule Forbids GNOME Shell Extensions Made Using AI Generated Code</title>
-      <link>https://www.phoronix.com/news/GNOME-Extensions-Block-AI</link>
-      <description>The GNOME.org Extensions hosting for GNOME Shell extensions will no longer accept new contributions with AI-generated code. A new rule has been added to their review guidelines to forbid AI-generated code...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Extensions-Block-AI</guid>
-      <pubDate>Sat, 13 Dec 2025 11:41:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New RTC Drivers For Apple &amp;amp; NVIDIA With Linux 6.19</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-RTC</link>
-      <description>The Real Time Clock (RTC) driver changes were merged today for Linux 6.19 ahead of the merge window wrapping up on Sunday...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-RTC</guid>
-      <pubDate>Sat, 13 Dec 2025 14:28:54 +0000</pubDate>
-    </item>
-    <item>
-      <title>NFS Lands Initial Support For Directory Delegations In Linux 6.19</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-NFS</link>
-      <description>The Network File-System (NFS) client changes were merged today for the Linux 6.19 kernel with the most notable feature addition being initial support for basic directory delegations...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-NFS</guid>
-      <pubDate>Sat, 13 Dec 2025 15:13:29 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 15 Dec 2025 06:39:55 +0000</lastBuildDate>
     <item>
       <title>Oracles Releases Updated "bpftune" For BPF-Based Auto-Tuning Of Linux Systems</title>
       <link>https://www.phoronix.com/news/Oracle-bpftune-0.4-1</link>
@@ -78,6 +29,55 @@
       <description>For those with fond memories of the original Puppy Linux as a lightweight Linux distribution that used to run well back in the day on systems with less than 1GB of RAM, TrixiePup64 is out with a new release of this Puppy Linux based distribution with Debian GNU/Linux components. The new TrixiePup64 11.2 release is based on the latest Debian Trixie sources while continuing to offer separate builds for either X11 or Wayland usage...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/TrixiePup64-11.2</guid>
       <pubDate>Sun, 14 Dec 2025 01:32:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19-rc1 Released From Japan</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-rc1-Released</link>
+      <description>The Linux 6.19-rc1 kernel is out to cap off the Linux 6.19 merge window. The kernel release is coming the better part of a day earlier due to Linus Torvalds being in Japan for this past week's Linux Plumbers Conference and Linux Kernel Maintainer Summit...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc1-Released</guid>
+      <pubDate>Sun, 14 Dec 2025 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rust Coreutils 0.5 Released - Inching Toward Full GNU Compatibility</title>
+      <link>https://www.phoronix.com/news/Rust-Coreutils-0.5</link>
+      <description>Rust Coreutils 0.5 is now available as the latest milestone for this Rust-based alternative to GNU Coreutils. Rust Coreutils 0.5 continues moving closer to "full GNU compatibility" with nearly a 90% pass rate on the GNU test suite...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Rust-Coreutils-0.5</guid>
+      <pubDate>Sun, 14 Dec 2025 11:38:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>FFmpeg Lands Initial Support For JPEG-XS</title>
+      <link>https://www.phoronix.com/news/FFmpeg-Merges-JPEG-XS</link>
+      <description>The widely-used FFmpeg open-source multimedia library has merged initial support for JPEG-XS...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FFmpeg-Merges-JPEG-XS</guid>
+      <pubDate>Sun, 14 Dec 2025 11:49:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>FamFS Hopes To Go Upstream In 2026</title>
+      <link>https://www.phoronix.com/news/FamFS-2026-Upstream-Hopes</link>
+      <description>The FamFS file-system being developed by Micron hopes to go upstream for Linux in "early-ish 2026"...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FamFS-2026-Upstream-Hopes</guid>
+      <pubDate>Sun, 14 Dec 2025 15:32:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>CentOS Kmods SIG Providing NVIDIA Linux Open GPU Kernel Modules For RHEL/CentOS Users</title>
+      <link>https://www.phoronix.com/news/CentOS-Kmods-SIG-NVIDIA</link>
+      <description>The CentOS kernel modules "Kmods" special interest group (SIG) is now providing NVIDIA Linux Open GPU Kernel Modules for users of Red Hat Enterprise Linux and its downstreams as well as for CentOS Stream...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/CentOS-Kmods-SIG-NVIDIA</guid>
+      <pubDate>Sun, 14 Dec 2025 19:06:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Early Linux 6.19 Benchmarks On AMD EPYC 9965 2P Excelling For AI &amp;amp; HPC Performance</title>
+      <link>https://www.phoronix.com/review/amd-epyc-9965-linux-619</link>
+      <description>As the Linux 6.19 merge window winded down this weekend, I began running this development kernel on more systems. While there are some scheduler regressions currently with Linux 6.19 Git, for HPC workloads especially I am seeing some encouraging results using a flagship AMD EPYC 9965 2P server configuration.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/amd-epyc-9965-linux-619</guid>
+      <pubDate>Sun, 14 Dec 2025 20:26:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Opt-In Proactive &amp;amp; Crash Time Data Collection On Valve's Steam Deck</title>
+      <link>https://www.phoronix.com/news/Steam-Deck-Crash-Data-Collect</link>
+      <description>Valve's Steam Deck with SteamOS features built-in crash data collection as well as for logging other system events worth having knowledge about like the split-lock detection and other events. This is all opt-in by users for data collection by Steam, but for those curious about a bit more insight into this Steam Deck data collection, a presentation at this past week's Linux Plumbers Conference dove into the matter...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Steam-Deck-Crash-Data-Collect</guid>
+      <pubDate>Mon, 15 Dec 2025 01:20:12 +0000</pubDate>
     </item>
   </channel>
 </rss>

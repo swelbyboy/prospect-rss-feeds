@@ -8,80 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Dec 2025 06:34:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 06:39:44 +0000</lastBuildDate>
     <item>
-      <title>The Ultimate "It Works on My Machine" Fix: Building a Polyglot (C++, Rust, Python), Remote IDE &amp;amp; Jupyter-Ready Container</title>
-      <link>https://dev.to/warren_jitsing_dd1c1d6fc6/the-ultimate-it-works-on-my-machine-fix-building-a-polyglot-c-rust-python-remote-ide--128d</link>
-      <description>GitHub: https://github.com/InfiniteConsult/0002_docker_dev_environment TL;DR: What We Are Building This guide solves dependency hell and permission errors by building a professional-grade development environment from first principles. The Core: A reproducible Debian 12 container that eliminates "it works on my machine" issues. The Stack: A custom-compiled polyglot toolchain featuring GCC 15.2, Rust 1.89, and multiple sandboxed Python versions (including the experimental 3.13 nogil build). The Wo</description>
-      <guid isPermaLink="false">https://dev.to/warren_jitsing_dd1c1d6fc6/the-ultimate-it-works-on-my-machine-fix-building-a-polyglot-c-rust-python-remote-ide--128d</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy2khgf2sy23e4gn8lc9u.png" length="0" type="image/png"/>
-      <pubDate>Sun, 14 Dec 2025 05:49:18 +0000</pubDate>
+      <title>React Container &amp;amp; Presenter Pattern in React (Beginner Guide with Real Example)</title>
+      <link>https://dev.to/rayan2228/react-container-presenter-pattern-in-react-beginner-guide-with-real-example-3gi2</link>
+      <description>If you are new to React, you may often feel confused when your components start getting too big, hard to read, and difficult to maintain. One common reason is that UI code and business logic are mixed. The Container &amp;amp; Presenter Pattern (also known as Smart and Dumb Components) is a simple yet powerful approach to solving this problem. This article explains the pattern in easy language, with clear examples, specifically for beginner coders. What Problem Does This Pattern Solve? Imagine a React co</description>
+      <guid isPermaLink="false">https://dev.to/rayan2228/react-container-presenter-pattern-in-react-beginner-guide-with-real-example-3gi2</guid>
+      <pubDate>Mon, 15 Dec 2025 06:05:01 +0000</pubDate>
     </item>
     <item>
-      <title>Mastering Data Migration Strategies for Seamless Transfers</title>
-      <link>https://dev.to/dataformathub/mastering-data-migration-strategies-for-seamless-transfers-1228</link>
-      <description>Mastering Data Migration Strategies for Seamless Transfers In today's data-driven world, the ability to efficiently move and transform data is paramount. Whether you're upgrading systems, consolidating databases, or moving to the cloud, a well-executed data migration strategy is the bedrock of success. At DataFormatHub, we understand the complexities involved in handling diverse data formats like CSV, JSON, XML, YAML, and SQL during such transitions. This article dives deep into practical data m</description>
-      <guid isPermaLink="false">https://dev.to/dataformathub/mastering-data-migration-strategies-for-seamless-transfers-1228</guid>
-      <pubDate>Sun, 14 Dec 2025 05:53:08 +0000</pubDate>
+      <title>Stay ahead in web development: latest news, tools, and insights #115</title>
+      <link>https://dev.to/urbanisierung/stay-ahead-in-web-development-latest-news-tools-and-insights-115-4h31</link>
+      <description>Signup here for the newsletter to get the weekly digest right into your inbox. weeklyfoo #115 is here: your weekly digest of all webdev news you need to know! This time you'll find 24 valuable links in 6 categories! Enjoy! 🚀 Read it! How I keep up with AI-generated PRs: AI coding assistants have shifted the bottleneck in software development. Writing code is now trivially fast. Reviewing it is not. by Rafael Garcia / ai, reviews, engineering / 6 min read 📰 Good to know Has the cost of building s</description>
+      <guid isPermaLink="false">https://dev.to/urbanisierung/stay-ahead-in-web-development-latest-news-tools-and-insights-115-4h31</guid>
+      <pubDate>Mon, 15 Dec 2025 06:05:54 +0000</pubDate>
     </item>
     <item>
-      <title>Mastering Sui DeepBook: A Hands-On DeFi DEX Series (2)</title>
-      <link>https://dev.to/rajeshroyal/mastering-sui-deepbook-a-hands-on-defi-dex-series-2-57m3</link>
-      <description>Welcome back to the Mastering Sui DeepBook series! In Part 1, we introduced the core concepts of the Sui blockchain, the Move programming language, and the DeepBook protocol. We outlined what we're going to build: a fully functional Decentralised Exchange (DEX) leveraging DeepBook's central limit order book (CLOB) architecture. In this second instalment, we will roll up our sleeves and get our hands dirty. We'll set up our development environment, install the necessary tools, and bootstrap the p</description>
-      <guid isPermaLink="false">https://dev.to/rajeshroyal/mastering-sui-deepbook-a-hands-on-defi-dex-series-2-57m3</guid>
-      <pubDate>Sun, 14 Dec 2025 05:53:10 +0000</pubDate>
+      <title>When a PCB Trace Becomes a Transmission Line (And Why It Broke My Design)</title>
+      <link>https://dev.to/entela_lleka_c0a20f6760/when-a-pcb-trace-becomes-a-transmission-line-and-why-it-broke-my-design-5c4o</link>
+      <description>Digital Signals Are Analog: A Lesson I Learned Too Late Last year, I spent three weeks debugging what I thought was a firmware bug. My SPI interface worked perfectly at 1 MHz but became unreliable at 10 MHz. The logic analyzer showed clean signals. The code was identical. I rewrote my driver twice, added delays everywhere, and even suspected a faulty microcontroller. The problem? A 6-centimeter trace on my PCB had become a transmission line, and nobody told the signal to behave. If you're a soft</description>
+      <guid isPermaLink="false">https://dev.to/entela_lleka_c0a20f6760/when-a-pcb-trace-becomes-a-transmission-line-and-why-it-broke-my-design-5c4o</guid>
+      <pubDate>Mon, 15 Dec 2025 06:08:56 +0000</pubDate>
     </item>
     <item>
-      <title>Advent of AI - Day 10: Understanding Arguments in Goose Recipes</title>
-      <link>https://dev.to/nickytonline/advent-of-ai-day-10-understanding-arguments-in-goose-recipes-2obg</link>
-      <description>I've edited this post, but AI helped. These are meant to be quick posts related to the Advent of AI. I don't have time if I'm doing one of these each day to spend a couple hours on a post. For Advent of AI Day 10, I built a festival poster generator using Goose recipes. But this post isn't really about making posters. It's about understanding how recipe arguments and conditional logic turn static prompts into reusable AI workflows. Up until now in the Advent of AI challenges, I'd been using reci</description>
-      <guid isPermaLink="false">https://dev.to/nickytonline/advent-of-ai-day-10-understanding-arguments-in-goose-recipes-2obg</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F9597%2F8f1ed696-3e87-4bd4-809a-0ee9bb905c3c.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 14 Dec 2025 05:56:41 +0000</pubDate>
+      <title>Part 01: Building a Sovereign Software Factory: Docker Networking &amp;amp; Persistence</title>
+      <link>https://dev.to/warren_jitsing_dd1c1d6fc6/part-01-building-a-sovereign-software-factory-docker-networking-persistence-31pm</link>
+      <description>GitHub: https://github.com/InfiniteConsult/0005_cicd_part01_docker TL;DR: In this first installment, we reject the fragility of default Docker environments. We build a permission-safe "Control Center" using Docker-out-of-Docker (DooD), construct a private "Road Network" (cicd-net) for internal DNS resolution, and pour the "Foundations" using a hybrid persistence strategy (Bind Mounts vs. Named Volumes) to ensure our data survives container restarts. The Sovereign Software Factory Series: Part 01</description>
+      <guid isPermaLink="false">https://dev.to/warren_jitsing_dd1c1d6fc6/part-01-building-a-sovereign-software-factory-docker-networking-persistence-31pm</guid>
+      <pubDate>Mon, 15 Dec 2025 06:10:40 +0000</pubDate>
     </item>
     <item>
-      <title>The Hidden Cost of Ignoring Competitive Alerts</title>
-      <link>https://dev.to/tracksimple/the-hidden-cost-of-ignoring-competitive-alerts-d87</link>
-      <description>The Hidden Cost of Ignoring Competitive Alerts Sarah stared at her Shopify dashboard, feeling sick. Last month, her competitor had launched a 30% off sale that she completely missed. By the time she noticed, they'd siphoned away $15,000 in sales that should have been hers. "We spend hours every week manually checking their site," she told me. "How did we still miss this?" The audit we ran together revealed something worse: her team was spending 31 hours per month on manual competitor tracking. T</description>
-      <guid isPermaLink="false">https://dev.to/tracksimple/the-hidden-cost-of-ignoring-competitive-alerts-d87</guid>
-      <pubDate>Sun, 14 Dec 2025 06:07:26 +0000</pubDate>
+      <title>Laravel Bastion: Stripe-Style API Authentication for Laravel</title>
+      <link>https://dev.to/laravel_mastery_ffd9d10ec/laravel-bastion-stripe-style-api-authentication-for-laravel-4554</link>
+      <description>Ever wished Laravel had API tokens as elegant as Stripe's? Meet Laravel Bastion by Steve McDougall. What is Bastion? Bastion brings Stripe-inspired API key management to Laravel with prefixed tokens, environment isolation, and granular permissions. app_test_pk_xxxxxxxxxxxxx app_live_sk_xxxxxxxxxxxxx 🌍 Environment Isolation Separate test and live environments prevent accidental key leaks. 🎯 Granular Scopes ['posts:read', 'posts:write', 'users:*'] 🔐 Three Token Types Public keys (client-side safe)</description>
+      <guid isPermaLink="false">https://dev.to/laravel_mastery_ffd9d10ec/laravel-bastion-stripe-style-api-authentication-for-laravel-4554</guid>
+      <pubDate>Mon, 15 Dec 2025 06:15:09 +0000</pubDate>
     </item>
     <item>
-      <title>I Tried Reading React's Source Code and Flow Beat Me Up. So Let's Learn 🚀</title>
-      <link>https://dev.to/nyaomaru/i-tried-reading-reacts-source-code-and-flow-beat-me-up-so-lets-learn-4jf0</link>
-      <description>Hi everyone! I'm @nyaomaru, a frontend engineer who eats too much cheese 🧀 and is slowly gaining weight. Quick detour: this article says that to become a good engineer, you need a deep understanding of code, and that reading existing code is essential: https://dev.to/thebitforge/10-developer-habits-that-separate-good-programmers-from-great-ones-293n I totally agree. So I started doing a deep reading of React's source code. And honestly? It’s been surprisingly fun. Every day I discover something</description>
-      <guid isPermaLink="false">https://dev.to/nyaomaru/i-tried-reading-reacts-source-code-and-flow-beat-me-up-so-lets-learn-4jf0</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzf2cy0u8e5d5y8r1a216.png" length="0" type="image/png"/>
-      <pubDate>Sun, 14 Dec 2025 06:09:03 +0000</pubDate>
+      <title>Understanding Doppar Queue: A Deep Dive into Job Lifecycle and Why It Matters</title>
+      <link>https://dev.to/mahedi1501/understanding-doppar-queue-a-deep-dive-into-job-lifecycle-and-why-it-matters-5hjk</link>
+      <description>Queue systems are the unsung heroes of modern web applications. They handle everything from sending emails to processing videos, generating reports to dispatching notifications—all without making your users wait. But have you ever wondered what actually happens to a job from the moment you dispatch it until it completes (or fails)? Today, I'm taking you on a journey through Doppar's queue system. We'll explore how jobs move through their lifecycle, what happens when things go wrong, and why Dopp</description>
+      <guid isPermaLink="false">https://dev.to/mahedi1501/understanding-doppar-queue-a-deep-dive-into-job-lifecycle-and-why-it-matters-5hjk</guid>
+      <pubDate>Mon, 15 Dec 2025 06:17:47 +0000</pubDate>
     </item>
     <item>
-      <title>Scaling Kubernetes Load with KEDA</title>
-      <link>https://dev.to/victorpinzon1988eng/scaling-kubernetes-load-with-keda-j7f</link>
-      <description>In multiple projects, I have found myself asking the same question: Why is the HPA not scaling my pods when it is clearly needed? The answer is actually very simple—HPA only scales based on CPU or memory utilization, and that does not always reflect real-world workloads. What happens when we need to scale an application using different types of metrics, such as requests per second, queue depth, or even the result of a database query? That's where KEDA comes into play. On June 14, 2025, I partici</description>
-      <guid isPermaLink="false">https://dev.to/victorpinzon1988eng/scaling-kubernetes-load-with-keda-j7f</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frnpql3qwm7ocxqf5besw.png" length="0" type="image/png"/>
-      <pubDate>Sun, 14 Dec 2025 06:12:16 +0000</pubDate>
+      <title>Drive API Monetization: How Monetzly Enhances Your AI Conversations</title>
+      <link>https://dev.to/monetzly/drive-api-monetization-how-monetzly-enhances-your-ai-conversations-509h</link>
+      <description>Monetizing AI Conversations Without Paywalls: Meet Monetzly The biggest challenge in the AI landscape today is clear: how do we monetize AI applications without ruining the user experience? As developers, we pour our hearts into creating intelligent applications, but the moment we introduce paywalls or subscriptions, we risk losing users. Enter Monetzly—the Google Ads for AI conversations. Why Monetization is Crucial for AI Apps With the explosion of AI applications, the question of sustainable</description>
+      <guid isPermaLink="false">https://dev.to/monetzly/drive-api-monetization-how-monetzly-enhances-your-ai-conversations-509h</guid>
+      <pubDate>Mon, 15 Dec 2025 06:22:49 +0000</pubDate>
     </item>
     <item>
-      <title>My Solution to Deno Watch Mode Signal Handling</title>
-      <link>https://dev.to/whyang9701/my-solution-of-deno-watch-mode-signal-handling-4ejp</link>
-      <description>To fix the Deno watch mode issue, I researched both Deno and Node.js. I want to use Node.js's approach but implement it in Rust for Deno. Rust doesn't have a built-in process.kill() function like JavaScript to send signals, but we can simulate this using channels. When creating a channel, we get a sender (Tx) and a receiver (Rx) that work together, which helps avoid race conditions. I created a pull request (PR) that uses a channel to allow the worker process to inform the watcher process when t</description>
-      <guid isPermaLink="false">https://dev.to/whyang9701/my-solution-of-deno-watch-mode-signal-handling-4ejp</guid>
-      <pubDate>Sun, 14 Dec 2025 06:13:01 +0000</pubDate>
+      <title>Top Benefits of Real Time Analytics for Faster and Smarter Decisions</title>
+      <link>https://dev.to/ravi_teja_4/top-benefits-of-real-time-analytics-for-faster-and-smarter-decisions-3i1i</link>
+      <description>Every decision in business has a time limit. Make it too late, and the chance is gone. Make it without the right information, and the risk grows. In today’s fast paced business world, leaders can no longer afford slow data or delayed reports. Customers expect quick responses. Markets change in minutes. Operations face constant pressure. In this environment, real time analytics has become a powerful support system for better decision making. Real time analytics allows businesses to see what is ha</description>
+      <guid isPermaLink="false">https://dev.to/ravi_teja_4/top-benefits-of-real-time-analytics-for-faster-and-smarter-decisions-3i1i</guid>
+      <pubDate>Mon, 15 Dec 2025 06:24:30 +0000</pubDate>
     </item>
     <item>
-      <title>Top 50 Python AI Interview Questions &amp;amp; Answers</title>
-      <link>https://dev.to/jennijuli3/top-50-python-ai-interview-questions-answers-2i7l</link>
-      <description>Why is Python preferred for AI development? Python is best suited for AI development as it has simple syntax, large libraries like NumPy, Pandas, Scikit-learn, TensorFlow, PyTorch, and strong community support. What are Python data types commonly used in AI? Python Data types commonly used in AI are Lists, Tuples, Dictionaries, Sets, NumPy arrays, Pandas DataFrames. What is Python’s Global Interpreter Lock (GIL)? Python’s Global Interpreter Lock is a mutex that allows only one thread to execute</description>
-      <guid isPermaLink="false">https://dev.to/jennijuli3/top-50-python-ai-interview-questions-answers-2i7l</guid>
-      <pubDate>Sun, 14 Dec 2025 06:18:58 +0000</pubDate>
+      <title>The Rise of AI-Powered Marketing: What’s Next in 2026</title>
+      <link>https://dev.to/digital_terrene_b369a1c21/the-rise-of-ai-powered-marketing-whats-next-in-2026-4b0g</link>
+      <description>Artificial Intelligence is no longer an emerging trend in marketing—it’s the foundation. As we move through 2026, AI-powered marketing has evolved from simple automation into an intelligent, emotional, and predictive system that reshapes how brands connect with people. AI now acts as a strategist, creative partner, data analyst, and experience designer. From hyper-personalized content to real-time campaign optimization, marketing is becoming smarter, faster, and more human. So what does AI-power</description>
+      <guid isPermaLink="false">https://dev.to/digital_terrene_b369a1c21/the-rise-of-ai-powered-marketing-whats-next-in-2026-4b0g</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Feefhci69bgmkgf3clbbh.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 15 Dec 2025 06:29:44 +0000</pubDate>
     </item>
     <item>
-      <title>Boost Your LLM Apps with Monetzly's API Monetization Strategies</title>
-      <link>https://dev.to/monetzly/boost-your-llm-apps-with-monetzlys-api-monetization-strategies-8d6</link>
-      <description>Monetization Without Paywalls: The Key to Sustainable AI Innovation The biggest challenge in the AI landscape today isn't just building remarkable applications; it's monetizing them without sacrificing user experience. As AI apps proliferate, developers are often left wondering how to generate revenue without resorting to subscriptions or annoying paywalls. Enter Monetzly — think of it as the Google Ads for AI conversations, designed specifically to help you keep your apps accessible while gener</description>
-      <guid isPermaLink="false">https://dev.to/monetzly/boost-your-llm-apps-with-monetzlys-api-monetization-strategies-8d6</guid>
-      <pubDate>Sun, 14 Dec 2025 06:19:00 +0000</pubDate>
+      <title>Slire: A Minimal Repository Layer for Node.js + MongoDB/Firestore</title>
+      <link>https://dev.to/dchowitz/slire-a-minimal-repository-layer-for-nodejs-mongodbfirestore-4ipn</link>
+      <description>Over the last few years building Node.js backend services on MongoDB and Firestore, I kept running into the same pattern: Every team rolls their own “repository layer” on top of the database. Everyone re‑implements the same things: multi‑tenancy, soft deletes, timestamps, versioning, audit trails. Business logic ends up littered with { tenantId, _deleted: { $ne: true } } filters and hand‑rolled update operators. At the same time, full‑blown ODMs (like Mongoose and similar libraries) often try to</description>
+      <guid isPermaLink="false">https://dev.to/dchowitz/slire-a-minimal-repository-layer-for-nodejs-mongodbfirestore-4ipn</guid>
+      <pubDate>Mon, 15 Dec 2025 06:32:59 +0000</pubDate>
     </item>
   </channel>
 </rss>
