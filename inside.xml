@@ -8,47 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Dec 2025 06:38:17 +0000</lastBuildDate>
-    <item>
-      <title>安全漏洞總在上線後才發現？AWS Security Agent 如何從設計階段就攔截『看不見的威脅』？</title>
-      <link>https://www.inside.com.tw/article/40261-aws</link>
-      <description>業務邏輯漏洞佔嚴重安全問題 15-20%，卻常被傳統工具遺漏。AWS Security Agent 為 AI 驅動的虛擬安全顧問，於設計、開發到部署階段提供全生命週期防護，能主動發掘此類「隱形」威脅，實現真正的安全左移。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40261-aws</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/3845e7db-a99b-48dd-a44b-1c6ccd6aec2d.png" length="0" type="image/png"/>
-      <pubDate>Sat, 13 Dec 2025 15:05:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>技術債不再是夢魘——加拿大航空讓代理式 AI 接手數千個函數的現代化轉換</title>
-      <link>https://www.inside.com.tw/article/40262-aws</link>
-      <description>為解決技術債造成的創新枷鎖，AWS Transform 導入代理式 AI，自動化任何程式碼與應用程式的現代化。此技術能將數月工作縮短至數天，大幅降低時間與成本，讓工程師從重複性維護中解放，專注於創造商業價值。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40262-aws</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/ed5fe624-2733-42b9-8605-fffe3db99bf1.png" length="0" type="image/png"/>
-      <pubDate>Sun, 14 Dec 2025 01:42:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>為什麼代理式 AI 難以進入生產環境？Workday 如何使用 Amazon Bedrock AgentCore 四大功能解決生產環境四大障礙</title>
-      <link>https://www.inside.com.tw/article/40263-aws</link>
-      <description>本文闡述代理式 AI 進入生產環境所面臨的失控、品質、學習與互動等障礙。為此，Amazon Bedrock AgentCore 提出四項機制：Policy（策略）以控管風險、Evaluations（評估）以確保品質、Episodic Memory（情節記憶）以實現學習，及雙向串流以改善互動。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40263-aws</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/1cb4809f-cdbb-4300-b711-e69732c4ae7c.png" length="0" type="image/png"/>
-      <pubDate>Sun, 14 Dec 2025 01:45:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>從 4 個分散工具到 1 個統一平台：AWS Security Hub 如何實現近即時威脅關聯與 1 年趨勢追蹤</title>
-      <link>https://www.inside.com.tw/article/40267-aws</link>
-      <description>AWS Security Hub 正式發布，旨在整合多項安全服務。它提供統一平台，自動關聯 GuardDuty 等來源的發現，並分析長期趨勢，將分散警報轉化為集中的風險洞察，提升安全營運效率。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40267-aws</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/b979956c-abb4-4285-adcd-27a9f3bbbda9.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 14 Dec 2025 01:49:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>從「災難性遺忘」到「深度整合專有知識」：Reddit、Sony 用 Nova Forge 開放訓練解決 AI 客製化三難困境</title>
-      <link>https://www.inside.com.tw/article/40284-aws</link>
-      <description>企業客製化 AI 模型常陷入「不可能三角」困境。AWS Nova Forge 以「開放訓練」破解僵局，讓企業能在多階段注入專有知識，同時避免災難性遺忘，打造兼具深度與通用能力的專屬模型，將數據轉化為獨特競爭優勢。</description>
-      <guid isPermaLink="false">https://www.inside.com.tw/article/40284-aws</guid>
-      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/cf16acec-39ee-49d4-a65c-7e621ea3c011.png" length="0" type="image/png"/>
-      <pubDate>Sun, 14 Dec 2025 01:57:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 15 Dec 2025 06:43:43 +0000</lastBuildDate>
     <item>
       <title>AI 代理擅自批准百萬退款？AWS AgentCore Policy 如何毫秒級攔截 AI 危險行為？</title>
       <link>https://www.inside.com.tw/article/40269-aws</link>
@@ -88,6 +48,46 @@
       <guid isPermaLink="false">https://www.inside.com.tw/article/40293-aws</guid>
       <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/fda16fac-03ad-4dcf-b3bf-6433e95a354e.png" length="0" type="image/png"/>
       <pubDate>Sun, 14 Dec 2025 02:38:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>2025 全球電動車銷量年增 21%！歐洲領漲、美國停滯，中國出口強</title>
+      <link>https://www.inside.com.tw/article/40286-2025-global-electric-vehicle-sales-rise-21-percent-annually</link>
+      <description>2025年全球電動車市場因政策出現分歧。歐洲在補助下成長強勁；美國因聯邦補助終止而停滯；中國雖增速放緩，但憑藉出口擴張，穩居全球最大市場。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40286-2025-global-electric-vehicle-sales-rise-21-percent-annually</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/11/5b1b7c26-e944-4d0d-b652-563a106e1086.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 15 Dec 2025 03:57:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TNL Mediagene 關鍵評論網媒體集團宣布成功舉辦「2025 INSIDE Future Day 」年度論壇活動，並發布全新 AI Agent 產業白皮書</title>
+      <link>https://www.inside.com.tw/article/40287-2025-inside-future-day</link>
+      <description>論壇活動中，《INSIDE》發布全新產業白皮書《AI Agent 元年，台灣企業的導入現況與未來挑戰》。該產業白皮書基於對超過 20 家 AI Agent 解決方案提供者的深度訪談，以及超過 150 份調查結果。（其中逾半數受訪者為中高階管理職）所編撰。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40287-2025-inside-future-day</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/ac306bf0-65ee-418a-a996-504a940195b6.png" length="0" type="image/png"/>
+      <pubDate>Mon, 15 Dec 2025 03:58:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>矽谷夢碎？CS 學位不再是金飯碗，AI 正重創全球科技業初階職缺</title>
+      <link>https://www.inside.com.tw/article/40295-engineering-graduates-ai-job-losse</link>
+      <description>AI 自動化衝擊全球科技業，入門職缺銳減。企業要求新人具備專案管理、客戶溝通等跨領域技能，而非純寫程式，凸顯教育與產業需求脫節。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40295-engineering-graduates-ai-job-losse</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/a95e6e91-eec3-403e-bd25-7c086892cd2a.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 15 Dec 2025 04:11:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mirror Mirror AI 創辦人林郁珊：時尚 AI 如何落地？他靠大量訪談找出產業需求與定位【塞掐 Side Chat】E386</title>
+      <link>https://www.inside.com.tw/feature/side-chat/40271-side-chat-e386</link>
+      <description>前模特兒、電腦科學博士林郁珊創辦 AI 時尚新創 Mirror Mirror AI，獲 a16z 投資百萬美元。其策略非訓練模型，而是整合 AI 工作流，憑藉「AI＋時尚」的跨界視野與深刻產業洞見，獲得資本市場肯定。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/feature/side-chat/40271-side-chat-e386</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/dca6753b-9b43-4525-9def-da0ea79d10c1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 15 Dec 2025 04:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>原子級光開關現身，美國團隊突破單光子控制瓶頸</title>
+      <link>https://www.inside.com.tw/article/40294-atomic-light-switches-control-single-photons</link>
+      <description>美國團隊成功打造原子級光開關，首次同步觀測量子發射體的原子結構與發光行為，達到了單光子源的精準設計，為量子電腦與通訊的工程化奠定重要基礎，象徵量子光科技從「發現」走向「設計」的轉捩點。</description>
+      <guid isPermaLink="false">https://www.inside.com.tw/article/40294-atomic-light-switches-control-single-photons</guid>
+      <enclosure url="https://bucket-image.inkmaginecms.com/version/hd/9dde7c0f-a597-445c-80dd-9a93db8a4006/image/2025/12/d5d7a475-12b6-426f-9697-539948d23fba.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 15 Dec 2025 04:47:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
