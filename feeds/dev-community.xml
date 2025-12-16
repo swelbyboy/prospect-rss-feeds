@@ -8,77 +8,82 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Dec 2025 06:39:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 06:37:55 +0000</lastBuildDate>
     <item>
-      <title>React Container &amp;amp; Presenter Pattern in React (Beginner Guide with Real Example)</title>
-      <link>https://dev.to/rayan2228/react-container-presenter-pattern-in-react-beginner-guide-with-real-example-3gi2</link>
-      <description>If you are new to React, you may often feel confused when your components start getting too big, hard to read, and difficult to maintain. One common reason is that UI code and business logic are mixed. The Container &amp;amp; Presenter Pattern (also known as Smart and Dumb Components) is a simple yet powerful approach to solving this problem. This article explains the pattern in easy language, with clear examples, specifically for beginner coders. What Problem Does This Pattern Solve? Imagine a React co</description>
-      <guid isPermaLink="false">https://dev.to/rayan2228/react-container-presenter-pattern-in-react-beginner-guide-with-real-example-3gi2</guid>
-      <pubDate>Mon, 15 Dec 2025 06:05:01 +0000</pubDate>
+      <title>Azure CLI internals and how it works</title>
+      <link>https://dev.to/ssan79/azure-cli-internals-and-how-it-works-330o</link>
+      <description>Azure CLI is a command line tool built with Python that sends REST API requests to Azure Resource Manager. The tool packages command modules, a core engine, authentication logic, and an HTTP pipeline. Each command follows a consistent pattern: parse input, authenticate, build a request model, send the request to Azure, and return structured output in JSON or table format. ** Architecture overview** Azure CLI has two major layers: the CLI core and the command modules. The CLI core includes: Comma</description>
+      <guid isPermaLink="false">https://dev.to/ssan79/azure-cli-internals-and-how-it-works-330o</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fywfne3vhr8koui9pohnb.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 06:09:07 +0000</pubDate>
     </item>
     <item>
-      <title>Stay ahead in web development: latest news, tools, and insights #115</title>
-      <link>https://dev.to/urbanisierung/stay-ahead-in-web-development-latest-news-tools-and-insights-115-4h31</link>
-      <description>Signup here for the newsletter to get the weekly digest right into your inbox. weeklyfoo #115 is here: your weekly digest of all webdev news you need to know! This time you'll find 24 valuable links in 6 categories! Enjoy! 🚀 Read it! How I keep up with AI-generated PRs: AI coding assistants have shifted the bottleneck in software development. Writing code is now trivially fast. Reviewing it is not. by Rafael Garcia / ai, reviews, engineering / 6 min read 📰 Good to know Has the cost of building s</description>
-      <guid isPermaLink="false">https://dev.to/urbanisierung/stay-ahead-in-web-development-latest-news-tools-and-insights-115-4h31</guid>
-      <pubDate>Mon, 15 Dec 2025 06:05:54 +0000</pubDate>
+      <title>Using AI to Fight Ransomware Attacks</title>
+      <link>https://dev.to/techbyte360/using-ai-to-fight-ransomware-attacks-4hl2</link>
+      <description>AI-driven tools are increasingly being deployed to detect ransomware patterns, automate responses, and strengthen cyber defenses as attacks escalate. Read More🔗 CyberSecurity #Developers #AI #Ransomware #Infosec</description>
+      <guid isPermaLink="false">https://dev.to/techbyte360/using-ai-to-fight-ransomware-attacks-4hl2</guid>
+      <pubDate>Tue, 16 Dec 2025 06:10:56 +0000</pubDate>
     </item>
     <item>
-      <title>When a PCB Trace Becomes a Transmission Line (And Why It Broke My Design)</title>
-      <link>https://dev.to/entela_lleka_c0a20f6760/when-a-pcb-trace-becomes-a-transmission-line-and-why-it-broke-my-design-5c4o</link>
-      <description>Digital Signals Are Analog: A Lesson I Learned Too Late Last year, I spent three weeks debugging what I thought was a firmware bug. My SPI interface worked perfectly at 1 MHz but became unreliable at 10 MHz. The logic analyzer showed clean signals. The code was identical. I rewrote my driver twice, added delays everywhere, and even suspected a faulty microcontroller. The problem? A 6-centimeter trace on my PCB had become a transmission line, and nobody told the signal to behave. If you're a soft</description>
-      <guid isPermaLink="false">https://dev.to/entela_lleka_c0a20f6760/when-a-pcb-trace-becomes-a-transmission-line-and-why-it-broke-my-design-5c4o</guid>
-      <pubDate>Mon, 15 Dec 2025 06:08:56 +0000</pubDate>
+      <title>Tuncxys DatePicker: Vanilla JS Date &amp;amp; Time Picker</title>
+      <link>https://dev.to/jqueryscript/tuncxys-datepicker-vanilla-js-date-time-picker-3eic</link>
+      <description>Tuncxys DatePicker: a vanilla JavaScript date and time picker with zero dependencies. Key features: Pure JavaScript, no jQuery required 20 built-in languages Customizable themes with granular color control Smart date validation and input masking Responsive popup positioning Date restrictions for booking systems Perfect for projects that need a lightweight, flexible date picker without framework dependencies. 👉 Blog Post 👉 GitHub Repo 👉 Live Demo</description>
+      <guid isPermaLink="false">https://dev.to/jqueryscript/tuncxys-datepicker-vanilla-js-date-time-picker-3eic</guid>
+      <pubDate>Tue, 16 Dec 2025 06:13:22 +0000</pubDate>
     </item>
     <item>
-      <title>Part 01: Building a Sovereign Software Factory: Docker Networking &amp;amp; Persistence</title>
-      <link>https://dev.to/warren_jitsing_dd1c1d6fc6/part-01-building-a-sovereign-software-factory-docker-networking-persistence-31pm</link>
-      <description>GitHub: https://github.com/InfiniteConsult/0005_cicd_part01_docker TL;DR: In this first installment, we reject the fragility of default Docker environments. We build a permission-safe "Control Center" using Docker-out-of-Docker (DooD), construct a private "Road Network" (cicd-net) for internal DNS resolution, and pour the "Foundations" using a hybrid persistence strategy (Bind Mounts vs. Named Volumes) to ensure our data survives container restarts. The Sovereign Software Factory Series: Part 01</description>
-      <guid isPermaLink="false">https://dev.to/warren_jitsing_dd1c1d6fc6/part-01-building-a-sovereign-software-factory-docker-networking-persistence-31pm</guid>
-      <pubDate>Mon, 15 Dec 2025 06:10:40 +0000</pubDate>
+      <title>How I Built 14 Interactive Visualizations Using Google AI Studio</title>
+      <link>https://dev.to/ritampal26/how-i-built-14-interactive-visualizations-using-google-ai-studio-3il4</link>
+      <description>Hello !! Hey!! How are you?? I recently participated in the Google Deepmind X Kaggle hackathon, and thought why not share my experience in here, I really enjoyed building StructViz AI, and although we had to submit a write-up in just 250 words, I thought it was quite less to express my encounters with the bugs, features I had built, so hop on with me!! The Discovery: A Late-Night Scroll That Changed Everything It was a dull evening, when I stumbled across the Gemini 3 Pro Vibe Coding Hackathon a</description>
+      <guid isPermaLink="false">https://dev.to/ritampal26/how-i-built-14-interactive-visualizations-using-google-ai-studio-3il4</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4i9y28c7aaalomtbwji4.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 06:18:46 +0000</pubDate>
     </item>
     <item>
-      <title>Laravel Bastion: Stripe-Style API Authentication for Laravel</title>
-      <link>https://dev.to/laravel_mastery_ffd9d10ec/laravel-bastion-stripe-style-api-authentication-for-laravel-4554</link>
-      <description>Ever wished Laravel had API tokens as elegant as Stripe's? Meet Laravel Bastion by Steve McDougall. What is Bastion? Bastion brings Stripe-inspired API key management to Laravel with prefixed tokens, environment isolation, and granular permissions. app_test_pk_xxxxxxxxxxxxx app_live_sk_xxxxxxxxxxxxx 🌍 Environment Isolation Separate test and live environments prevent accidental key leaks. 🎯 Granular Scopes ['posts:read', 'posts:write', 'users:*'] 🔐 Three Token Types Public keys (client-side safe)</description>
-      <guid isPermaLink="false">https://dev.to/laravel_mastery_ffd9d10ec/laravel-bastion-stripe-style-api-authentication-for-laravel-4554</guid>
-      <pubDate>Mon, 15 Dec 2025 06:15:09 +0000</pubDate>
+      <title>10 Best Coding Interview Practice Tools for 2026 🔥</title>
+      <link>https://dev.to/finalroundai/10-best-coding-interview-practice-tools-for-2026-1f1o</link>
+      <description>With 2026 getting closer, coding interviews are no longer just about solving problems correctly. They’re about how you think, how you communicate, and how you stay composed when the pressure is on. Hiring teams today want to understand your reasoning, your trade-offs, and how you handle uncertainty. Many developers fail interviews because their thoughts get tangled under stress. Others know the solution but struggle to explain it clearly or freeze when an interviewer asks a follow-up question th</description>
+      <guid isPermaLink="false">https://dev.to/finalroundai/10-best-coding-interview-practice-tools-for-2026-1f1o</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkpytpivmqufan615irz0.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 06:24:46 +0000</pubDate>
     </item>
     <item>
-      <title>Understanding Doppar Queue: A Deep Dive into Job Lifecycle and Why It Matters</title>
-      <link>https://dev.to/mahedi1501/understanding-doppar-queue-a-deep-dive-into-job-lifecycle-and-why-it-matters-5hjk</link>
-      <description>Queue systems are the unsung heroes of modern web applications. They handle everything from sending emails to processing videos, generating reports to dispatching notifications—all without making your users wait. But have you ever wondered what actually happens to a job from the moment you dispatch it until it completes (or fails)? Today, I'm taking you on a journey through Doppar's queue system. We'll explore how jobs move through their lifecycle, what happens when things go wrong, and why Dopp</description>
-      <guid isPermaLink="false">https://dev.to/mahedi1501/understanding-doppar-queue-a-deep-dive-into-job-lifecycle-and-why-it-matters-5hjk</guid>
-      <pubDate>Mon, 15 Dec 2025 06:17:47 +0000</pubDate>
+      <title>How Event-Driven Architecture Improves Modern Web App Development</title>
+      <link>https://dev.to/techifysolutions/how-event-driven-architecture-improves-modern-web-app-development-4h15</link>
+      <description>Imagine your application handling millions of events per second, with services that scale independently and recover gracefully from failures. This isn't just a dream—it's what Event-Driven Architecture enables. In traditional architectures, components are tightly coupled. When one service fails, it can bring down the entire system. When you need to scale, you have to scale everything together. When you want to add new features, you risk breaking existing functionality. Event-Driven Architecture</description>
+      <guid isPermaLink="false">https://dev.to/techifysolutions/how-event-driven-architecture-improves-modern-web-app-development-4h15</guid>
+      <pubDate>Tue, 16 Dec 2025 06:29:19 +0000</pubDate>
     </item>
     <item>
-      <title>Drive API Monetization: How Monetzly Enhances Your AI Conversations</title>
-      <link>https://dev.to/monetzly/drive-api-monetization-how-monetzly-enhances-your-ai-conversations-509h</link>
-      <description>Monetizing AI Conversations Without Paywalls: Meet Monetzly The biggest challenge in the AI landscape today is clear: how do we monetize AI applications without ruining the user experience? As developers, we pour our hearts into creating intelligent applications, but the moment we introduce paywalls or subscriptions, we risk losing users. Enter Monetzly—the Google Ads for AI conversations. Why Monetization is Crucial for AI Apps With the explosion of AI applications, the question of sustainable</description>
-      <guid isPermaLink="false">https://dev.to/monetzly/drive-api-monetization-how-monetzly-enhances-your-ai-conversations-509h</guid>
-      <pubDate>Mon, 15 Dec 2025 06:22:49 +0000</pubDate>
+      <title>How to Send Emails with React Using Nodemailer</title>
+      <link>https://dev.to/davecodes/how-to-send-emails-with-react-using-nodemailer-1pi7</link>
+      <description>As a frontend developer, you'll often require the ability to send emails from your web app built using tools like React. Whether you're building a contact form or implementing a full email system, handling email functionality in React can significantly enhance user and developer experience. In this post, you'll learn how to send emails with React using Nodemailer backend. Table of Contents How to Send Emails with React Prerequisites Setup a React Project Build an Email Backend Connect Backend to</description>
+      <guid isPermaLink="false">https://dev.to/davecodes/how-to-send-emails-with-react-using-nodemailer-1pi7</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7utexlknvy9c04hp7ucz.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 06:29:23 +0000</pubDate>
     </item>
     <item>
-      <title>Top Benefits of Real Time Analytics for Faster and Smarter Decisions</title>
-      <link>https://dev.to/ravi_teja_4/top-benefits-of-real-time-analytics-for-faster-and-smarter-decisions-3i1i</link>
-      <description>Every decision in business has a time limit. Make it too late, and the chance is gone. Make it without the right information, and the risk grows. In today’s fast paced business world, leaders can no longer afford slow data or delayed reports. Customers expect quick responses. Markets change in minutes. Operations face constant pressure. In this environment, real time analytics has become a powerful support system for better decision making. Real time analytics allows businesses to see what is ha</description>
-      <guid isPermaLink="false">https://dev.to/ravi_teja_4/top-benefits-of-real-time-analytics-for-faster-and-smarter-decisions-3i1i</guid>
-      <pubDate>Mon, 15 Dec 2025 06:24:30 +0000</pubDate>
+      <title>Building Magic Link Authentication with Next.js Server-Side Rendering and Supabase</title>
+      <link>https://dev.to/nolliebigspin/building-magic-link-authentication-with-nextjs-server-side-rendering-and-supabase-45gn</link>
+      <description>Building authentication is one of those things that looks easy at first — until it isn’t. You want something secure, user-friendly, and boring in production (boring is good). At the same time, users don’t want to deal with passwords, resets, or friction just to get started. In this article, I’ll walk through how to build magic link authentication using Supabase and Next.js 16, leaning on server-side rendering where it actually makes sense. We’ll start with the problem, move through the ideas beh</description>
+      <guid isPermaLink="false">https://dev.to/nolliebigspin/building-magic-link-authentication-with-nextjs-server-side-rendering-and-supabase-45gn</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyomnt0wgrs8xaijqnav0.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 06:30:37 +0000</pubDate>
     </item>
     <item>
-      <title>The Rise of AI-Powered Marketing: What’s Next in 2026</title>
-      <link>https://dev.to/digital_terrene_b369a1c21/the-rise-of-ai-powered-marketing-whats-next-in-2026-4b0g</link>
-      <description>Artificial Intelligence is no longer an emerging trend in marketing—it’s the foundation. As we move through 2026, AI-powered marketing has evolved from simple automation into an intelligent, emotional, and predictive system that reshapes how brands connect with people. AI now acts as a strategist, creative partner, data analyst, and experience designer. From hyper-personalized content to real-time campaign optimization, marketing is becoming smarter, faster, and more human. So what does AI-power</description>
-      <guid isPermaLink="false">https://dev.to/digital_terrene_b369a1c21/the-rise-of-ai-powered-marketing-whats-next-in-2026-4b0g</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Feefhci69bgmkgf3clbbh.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 15 Dec 2025 06:29:44 +0000</pubDate>
+      <title>Building a Production-Ready Authentication System in Next.js — Without Reinventing the Wheel</title>
+      <link>https://dev.to/sadegh_shojayefard/building-a-production-ready-authentication-system-in-nextjs-without-reinventing-the-wheel-29p0</link>
+      <description>IdentityUser is a production-ready authentication starter kit for Next.js. It gives you full ownership of auth logic, strong security defaults, and real-world features — without hiding everything behind abstractions or SaaS services. Authentication is one of those problems every serious application must solve — yet almost no one enjoys building it from scratch. You start with a simple login form… Then suddenly you’re dealing with password hashing, session persistence, email verification, OTPs, 2</description>
+      <guid isPermaLink="false">https://dev.to/sadegh_shojayefard/building-a-production-ready-authentication-system-in-nextjs-without-reinventing-the-wheel-29p0</guid>
+      <pubDate>Tue, 16 Dec 2025 06:30:55 +0000</pubDate>
     </item>
     <item>
-      <title>Slire: A Minimal Repository Layer for Node.js + MongoDB/Firestore</title>
-      <link>https://dev.to/dchowitz/slire-a-minimal-repository-layer-for-nodejs-mongodbfirestore-4ipn</link>
-      <description>Over the last few years building Node.js backend services on MongoDB and Firestore, I kept running into the same pattern: Every team rolls their own “repository layer” on top of the database. Everyone re‑implements the same things: multi‑tenancy, soft deletes, timestamps, versioning, audit trails. Business logic ends up littered with { tenantId, _deleted: { $ne: true } } filters and hand‑rolled update operators. At the same time, full‑blown ODMs (like Mongoose and similar libraries) often try to</description>
-      <guid isPermaLink="false">https://dev.to/dchowitz/slire-a-minimal-repository-layer-for-nodejs-mongodbfirestore-4ipn</guid>
-      <pubDate>Mon, 15 Dec 2025 06:32:59 +0000</pubDate>
+      <title>Autodogfooding Autodock on AWS</title>
+      <link>https://dev.to/mikesol/autodogfooding-autodock-on-aws-1m6a</link>
+      <description>Yesterday, Autodock's environment provisioning time went down from ~30 seconds to 3 seconds 🎊 This was a messy feature, involving cron jobs, webhooks, and various third-party services. Autodock runs on EC2, and the basic idea is to use EC2 ASG lifecycle hooks to customize servers as they transition between states so that they're ready for users when env.launch is called. On top of that, I wanted to preview the change before merging it main. Sounds like a job for... Autodock! I booted up an Autod</description>
+      <guid isPermaLink="false">https://dev.to/mikesol/autodogfooding-autodock-on-aws-1m6a</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ft24weczciw0is8jbh1lt.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 06:30:56 +0000</pubDate>
     </item>
   </channel>
 </rss>

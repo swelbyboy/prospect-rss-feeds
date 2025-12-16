@@ -8,77 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Dec 2025 06:41:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Dec 2025 06:40:12 +0000</lastBuildDate>
     <item>
-      <title>寫入效能突破10 GB/s與100萬IOPS，群聯新款PCIe SSD上陣</title>
-      <link>https://www.ithome.com.tw/review/172799</link>
-      <description>在11月下半登場的美國超級電腦大會SC25，群聯電子（Phison）發表新款企業級固態硬碟Pascari X201系列，以及資料中心固態硬碟Pascari D201系列，共通點是採用PCIe 5.0介面，快閃記憶體均為TLC、導入321層堆疊的設計，提供每日讀寫量1與3的機型選擇，日常運作的耗電量都低於25瓦，而且，最高效能皆相同——循序讀取與寫入分別為14,500 MB/s與12,000 MB/s，隨機讀取與寫入分別為330萬IOPS與105萬IOPS，適合嚴苛、資料密集型的存取需求，能針對AI一系列作業流程與各種即時處理程序，提供持續的效能。 關於儲存容量的部分，Pascari X201系列最大可提供30.72 TB，企業可選購X201P，每日讀寫量為1；若希望有更大的耐用度，可選購X201E，每日讀寫量為3，最大容量為25.6 TB。Pascari D201系列最大可提供15.36 TB，企業可選購D201P，每日讀寫量為1，若想有更大的耐用度，可選購D201E，每日讀寫量為3，最大容量為12.8 TB。 而在產品的外形上，Pascari X201系列提供兩種：2.5吋U.2、厚</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/172799</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/x201-d201-product-details-blog_main.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 13 Dec 2025 05:58:32 +0000</pubDate>
+      <title>滿分資安漏洞React2Shell利用活動急速升溫</title>
+      <link>https://www.ithome.com.tw/news/172833</link>
+      <description>新聞兩週前React開發團隊發布更新，修補CVSS風險高達10分的React伺服器元件（RSC）漏洞CVE-2025-55182（React2Shell），引起資安圈高度關注，大型雲端公司、資安公司，以及研究機構隨即發現漏洞熱烈遭到利用的現象，中國與北韓國家級駭客、殭屍網路，以及挖礦軟體皆加入利用行動，如今有新的調查指出，漏洞公布一週後，威脅出現急劇升溫的現象。 上週資安公司Cloudflare公布分析結果，指出利用漏洞的攻擊者，主要鎖定特定地區或國家的網路環境，明確聚焦在臺灣、新疆維吾爾、越南、日本，以及紐西蘭，想要利用多種公開可用的工具、商用產品，企圖藉此找出具有高價值的應用程式伺服器，針對政府機關、學術研究機構，以及經營關鍵基礎設施的廠商，其中包含負責鈾、稀有金屬，以及核燃料進出口的政府單位。再者，駭客偏好針對企業採用的密碼管理工具與安全儲存庫，以及採用React為基礎開發的SSL VPN設備管理介面，藉此增加漏洞帶來的危害。 附帶一提的是，攻擊者不光透過基本的特徵（Fingerprint）識別存在弱點的環境，還會根據SSL憑證資料，來更加精確找出攻擊目標，並安排下手的優先順序。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172833</guid>
+      <pubDate>Mon, 15 Dec 2025 09:20:27 +0000</pubDate>
     </item>
     <item>
-      <title>酷澎韓國辦公室遭警方搜索　執行長為資料外洩公開致歉辭職</title>
-      <link>https://www.ithome.com.tw/news/172807</link>
-      <description>新聞韓國最大電商酷澎（Coupang）本月發生3,370萬人個資外洩，警方上周五搜查該公司辦公室，隔日執行長公開道歉且請辭以示負責。 上周酷澎執行長朴大俊（Park Dae-jun）宣佈為本月初的重大個資外洩案請辭。他表示，對於該公司資料外洩事件讓大眾失望感到抱歉，公司對事件發生及後續反應過程欠妥感到須負重大責任，因此決定辭去一切職位。 在其下台後，酷澎母公司已任命該公司行政長和法務長Harold Rogers為臨時執行長。 這起將近3,400萬個資外洩案佔了韓國5400萬人口的半數以上。報導指出，該名內賊早在今年6月24日便企圖自酷澎的海外伺服器竊取用戶資料，酷澎一直到11月才察覺此事，原本估計受害者只有4,500人，但在與執法機構及資安公司合作調查後，發現影響超過3,300萬人。 此波人事異動之前幾天，首爾警方搜索酷澎總公司。在兩天之內，警方分別搜索酷澎園區及總部辦公室，以蒐集與資料外洩案相關的證據，並了解客戶資訊系統是否有漏洞。根據韓國時報報導，警方已取得用於資料外洩的IP位址、追查兇嫌。報導引述消息人士指出，警方的搜索狀指向一名中國籍前員工涉嫌違法存取酷澎通訊網路及資訊系統，藉</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172807</guid>
-      <pubDate>Mon, 15 Dec 2025 01:10:48 +0000</pubDate>
+      <title>【資安日報】12月15日，開發人員在Docker Hub曝露大量憑證，有人將其收集並在地下論兜售</title>
+      <link>https://www.ithome.com.tw/news/172834</link>
+      <description>新聞逾1萬個Docker Hub映像檔曝露憑證與API金鑰 研究人員發現，開發人員不慎公開於網上的Docker Hub中的容器映像檔，內含AI模型、API金鑰及多種憑證，警告可能造成軟體供應鏈攻擊。資安廠商Flare針對2025年11月1日到30日上傳Docker Hub的上萬個映像檔進行分析，分析這些映像檔是否含有敏感存取資訊。他們先定義15種敏感憑證，包括軟體開發生命周期（SDLC）及程式碼控制憑證（如GitHub）、雲端平臺憑證（如AWS、GCP、Microsoft Azure）、AI及模型存取，以及支付服務憑證等。 他們發現10,456個內含高度及重大嚴重性的映像檔，分布於205個命名空間（namespace），進一步分析，研究人員辨別出101個命名空間所屬的實際公司，其中多數是中小企業，但也有大型企業，以及一家財星五百大企業。從產業來看，以軟體開發（28）、消費市場與工業（20）、AI系統（15）最多，還包含一家尖端研究組織及11家金融業者。值得注意的是，在這些容器映像檔中，近42%包含5種以上憑證，像是完整存取雲端、Git程式庫、CI/CD系統、支付整合或其他核心基礎架構元</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172834</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/Docker-Hub-diagram.png" length="0" type="image/png"/>
+      <pubDate>Mon, 15 Dec 2025 09:50:34 +0000</pubDate>
     </item>
     <item>
-      <title>微軟更新雲端漏洞獎勵政策，第三方元件影響也納入評估</title>
-      <link>https://www.ithome.com.tw/news/172808</link>
-      <description>新聞微軟上周四（12/11）宣布調整旗下雲端漏洞獎金計畫（Bug Bounty Program）評估方式，導入名為「In Scope by Default」的新原則。未來只要漏洞實際影響微軟的線上服務，即使漏洞源自第三方或開源元件，也將預設納入漏洞獎勵範圍。 微軟安全回應中心（Microsoft Security Response Center，MSRC）表示，過去漏洞獎金計畫通常會事先界定明確的適用範圍，研究人員回報的漏洞必須落在指定的產品或服務清單內，才有資格獲得獎勵。然而在實際攻擊情境中，許多高風險漏洞並非直接存在於雲端服務本身，而是來自其所依賴的第三方套件、開源元件或相依服務，即便對線上服務造成實質影響，仍可能因不在既定範圍內而引發認定爭議。 在「In Scope by Default」策略下，微軟改以「是否對線上服務造成可驗證影響」作為是否納入漏洞獎金的主要依據，而不再先行限制漏洞必須出現在微軟自家程式碼中。 MSRC進一步說明，安全漏洞經常出現在元件互動或相依關係的邊界上，未來將採用更廣泛的安全研究視角，不僅涵蓋微軟自身的基礎架構，也包括其所依賴的第三方相依性，不論是開源元</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172808</guid>
-      <pubDate>Mon, 15 Dec 2025 01:35:42 +0000</pubDate>
+      <title>惡意VS Code擴充套件上架微軟市集，偽裝PNG檔藏匿木馬</title>
+      <link>https://www.ithome.com.tw/news/172836</link>
+      <description>新聞資安公司ReversingLabs研究人員分析了19款上架於微軟VS Code市集的惡意擴充套件，發現這些套件表面上提供開發輔助功能，實際卻把惡意程式藏在隨套件封裝的相依目錄中，並以看似PNG檔的檔案包裝木馬。研究人員指出，該活動從2025年2月起持續運作，並於2025年12月2日被發現，他們已將相關擴充套件通報微軟。 研究人員說明，VS Code擴充套件通常會把執行所需的NPM相依套件一併打包，安裝時不必再下載。攻擊者正是利用該預先封裝特性，在熱門NPM套件path-is-absolute的本機副本動手腳，加入額外檔案與啟動觸發程式碼，使惡意行為在VS Code啟動時被觸發。研究人員強調，官方NPM儲存庫上的path-is-absolute內容未被更動，風險來自擴充套件作者可任意改寫其封裝內容。 由於被改造的程式會先解碼一段經過混淆處理的JavaScript投放器，接著再執行藏在偽裝為banner.png檔案中的惡意二進位檔，並借助Windows內建程式cmstp.exe這類LOLBIN啟動。研究人員初步辨識其中一個惡意載荷為Rust木馬，但其完整能力仍在持續分析。另有少數擴充套</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172836</guid>
+      <pubDate>Mon, 15 Dec 2025 21:20:56 +0000</pubDate>
     </item>
     <item>
-      <title>蘋果修補兩個零時差漏洞，並指出已被用於極度複雜的攻擊行動</title>
-      <link>https://www.ithome.com.tw/news/172810</link>
-      <description>新聞12月12日蘋果針對旗下的行動裝置、電腦、穿戴裝置，以及電視盒發布作業系統更新：iOS與iPadOS 26.2、macOS Tahoe 26.2、watchOS 26.2、visionOS 26.2，以及tvOS 26.2，帶來一系列的功能更新，例如：改善iPhone手機網路通訊能力、強化iPad多工操作功能，以及為電腦加入Edge Light的功能。但除此之外，這次大型更新蘋果也修補許多資安漏洞，其中最值得留意的部分，是兩個已遭利用的WebKit零時差漏洞。 這些漏洞是CVE-2025-14174與CVE-2025-43529，由蘋果與Google威脅分析團隊（TAG）通報。蘋果在資安公告指出，他們掌握兩項漏洞已在極為複雜的攻擊行動當中，鎖定執行低於26版iOS作業系統的iPhone。值得留意的是，根據美國國家漏洞資料庫（NVD）的說明，CVE-2025-14174就是兩天前Google為Chrome修補的零時差漏洞「466192044」。 對於漏洞造成的影響，蘋果指出兩個WebKit漏洞都可透過特製的惡意網頁內容觸發，CVE-2025-14174可導致記憶體中斷，CVE-202</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172810</guid>
-      <pubDate>Mon, 15 Dec 2025 02:05:03 +0000</pubDate>
+      <title>法國內政部遭網路攻擊，入侵郵件伺服器</title>
+      <link>https://www.ithome.com.tw/news/172840</link>
+      <description>新聞法國內政部長Laurent Nunez本周證實上周發生網路攻擊，駭客入侵了郵件伺服器。 Laurent Nunez向法國廣播電臺RTL指出，事件發生於2025年12月11日晚間至12日星期五。攻擊者存取數臺郵件伺服器上某些檔案，但是法國政府還無法斷言資料已經失竊。 法國內政部是警察機關、國內安全與移民事務的主管機關，自然是國家駭客的重點攻擊對象。Nunez表示已經加強安全層級，至於這次存取是否為外國國家駭客、網路犯罪、或是挑戰當局的組織或個人所為，當局都還未排除可能性。 法國國家資訊系統安全局（ANSSI）今年4月發表報告，相信十多起針對法國組織包括部長級機構、地方政府、法國國防技術與工業生產商、航空航太機構、研究機構、智庫，以及經濟和金融單位的攻擊，是由與俄羅斯軍事情報組織有關的駭客組織APT28所為。 本周德國外交部長也指控俄羅斯駭客組織Fancy Bear去年駭入德國飛航控制系統，此外今年初俄國駭客也入侵選務機關企圖影響大選結果，因此傳喚俄羅斯大使解釋。 今年4月挪威水壩閘門控制系統遭駭入侵數小時，該國政府也將矛頭指向俄羅斯駭客。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172840</guid>
+      <pubDate>Tue, 16 Dec 2025 01:48:09 +0000</pubDate>
     </item>
     <item>
-      <title>Google翻譯引進Gemini原生語音能力，開始測試即時語音翻譯功能</title>
-      <link>https://www.ithome.com.tw/news/172816</link>
-      <description>新聞Google上周五（12/12）宣布，將Gemini的最新翻譯能力及原生語音能力引進Google翻譯（Google Translate），除了全面提升文字翻譯品質，也同步在Android版Google翻譯中測試可搭配所有耳機使用的即時語音翻譯功能。後者採用的是Google近日更新的Gemini 2.5 Flash Native Audio模型。 在文字翻譯上，Google翻譯開始採用由Gemini支撐的全新翻譯品質，強化對成語、俚語與語境的理解能力，避免過去逐字直譯的問題。這項升級已率先於美國與印度推出，支援英語與近20種語言互譯，涵蓋Android、iOS與網頁版。 真正的突破則出現在語音層面。Google表示，Google翻譯正在測試的即時語音翻譯功能，採用了Gemini 2.5 Flash Native Audio的原生語音能力，可直接於聲音層面進行理解與生成，不必經過傳統的「語音轉文字、再轉回語音」流程。這讓翻譯延遲大幅降低，同時保留說話者的語氣、重音與節奏，更貼近真實人類溝通。 語音對語音翻譯是以「聆聽為主」的即時模式運作。使用者只需在Android版Google翻譯中配</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172816</guid>
-      <pubDate>Mon, 15 Dec 2025 02:50:53 +0000</pubDate>
+      <title>Windows RasMan爆新零時差漏洞，恐導致服務中斷，尚無官方修補程式</title>
+      <link>https://www.ithome.com.tw/news/172841</link>
+      <description>新聞Windows遠端存取連線管理員（Remote Access Connection Manager，RasMan）出現零時差漏洞，可導致阻斷服務（Denial of Service，DoS）攻擊。不過尚不知微軟何時會釋出修補程式。 資安廠商ACROS Security在研究微軟十月修補的RasMan提權（EoP）漏洞CVE-2025-59230時，發現一個阻斷服務漏洞。 簡單來說，CVE-2025-59230是一個權限提升漏洞（Elevation of Privilege），讓低權限使用者提升到System層次。在RasMan服務尚未啟動時，任何行程（包括低權限使用者權限）都能註冊System用戶的RPC端點。但是研究人員追查的是，攻擊者在提權攻擊前，要如何讓RasMan服務停止。這就是微軟未發現，但其他研究人員發現的DoS漏洞，正好滿足RasMan停止運作的條件。 研究人員指出，這個尚未被指派CVE的漏洞存在於Windows RasMan（Remote Access Connection Manager）服務處理遠端連線管理請求的邏輯中。攻擊者可在本機透過RasMan提供的管理類</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172841</guid>
+      <pubDate>Tue, 16 Dec 2025 02:22:42 +0000</pubDate>
     </item>
     <item>
-      <title>VS Code強化代理工作流程，Chat內整合工作階段並支援背景持續執行</title>
-      <link>https://www.ithome.com.tw/news/172802</link>
-      <description>新聞微軟釋出VS Code 2025年11月更新1.107版本，更新重點放在代理工作流程，新版把代理工作階段整合進Chat檢視，開發者可在同一介面查看各工作階段的狀態、進度與檔案變更統計，也能封存或取消封存工作階段，微軟說明，當使用者在VS Code開啟某個專案資料夾作為工作區時，Chat工作階段清單僅顯示與該專案相關的工作階段，要是使用者處於未開啟任何專案的空白視窗，則會顯示跨不同專案的所有工作階段。 過去用戶只要關閉VS Code內的本機代理工作階段（Local Agent Session），執行中的代理請求就會被取消，限制了本機代理執行長時間任務或同時處理多個任務的能力，1.107改為保留工作階段，讓本機代理即使未開啟在Chat檢視或聊天編輯器中也能在背景繼續執行，使用者可從Chat內的工作階段清單隨時切回原對話追蹤進展。另因工作階段清單整合進Chat檢視，VS Code也將獨立的Agent Sessions檢視預設停用，並計畫在後續版本移除。 VS Code新增Continue in流程，讓使用者先在本機對話中完成需求釐清或規畫後，可把既有聊天脈絡交給背景或雲端代理接手執行，交</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172802</guid>
-      <pubDate>Mon, 15 Dec 2025 03:11:47 +0000</pubDate>
+      <title>Google將在2026年初關閉暗網報告通知服務</title>
+      <link>https://www.ithome.com.tw/news/172842</link>
+      <description>新聞Google本周預告，可通報使用者個資流入駭客社群的暗網報告（Dark Web Report）服務將在2026年2月終止服務。 暗網報告首於2023年推出，主要是用來協助使用者監控於暗網中流傳的個資，如姓名、地址、電話號碼與電子郵件帳戶。只要啟用該功能，每當Google於暗網中發現使用者個資時，便會通知用戶。該功能原本只提供給付費的Google One訂閱用戶，但去年擴及所有Google帳戶用戶，臺灣也是支援的市場之一。 Google說明，暗網報告服務雖然提供概略資訊，但使用者回饋意見反映它並沒有提供有用的後續步驟。因此Google決定將心力投入在能提供更清楚、可行步驟的工具，以保護用戶線上資訊。Google說會打造新的工具以執行追蹤和防範網路威脅，包括暗網。 從2026年1月15日起，這服務將停止掃描新資料外洩於暗網的案例。而在2月16日起，整個暗網報告服務就會下線。之後所有和該服務相關的資料都會被刪除，用戶也可以提早自行到暗網報告刪除，但一旦用戶刪除了自己的資料檔案，就無法再存取暗網報告了。 Google鼓勵用戶利用其他現有工具強化資料安全和隱私。包括安全檢查(Security</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172842</guid>
+      <pubDate>Tue, 16 Dec 2025 03:30:02 +0000</pubDate>
     </item>
     <item>
-      <title>英特爾傳將收購AI晶片業者SambaNova</title>
-      <link>https://www.ithome.com.tw/news/172817</link>
-      <description>新聞彭博報導，英特爾即將和AI推論晶片及平臺業者SambaNova達成16億美元的收購。 彭博於10月底首次引述消息人士報導雙方收購消息。雙方可能已從今年10月底展開洽談。最快可能數周，但也可能因為盡職調查等進階談判事務而延遲為數月。若收購金額為真，這個金額將小於SambaNova 2021年募資，以及11月彭博報導收購金額的50億美元。 成立於2017年的Samba核心業務為推論晶片及系統平臺。這家新創公司投資人皆大有來頭，包括英特爾的投資部門Intel Capital、軟銀、三星、SK Telecom及美光的投資部門等。路透社報導，該公司和英特爾淵源匪淺，英特爾執行長陳立武個人的投資公司Walden International也是投資人之一。此外，Samba去年5月也任命陳立武為執行董事。 多家媒體分析，這項收購是英特爾重回AI競爭的策略性動作，可望帶進SambaNova可商用的AI加速器及整機解決方案，提振英特爾和Nvidia、AMD及其他新興業者的競爭力，特別是在企業/雲端資料中心的推論與客制加速器市場。 英特爾和Samba皆未對此消息評論。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172817</guid>
-      <pubDate>Mon, 15 Dec 2025 03:16:11 +0000</pubDate>
+      <title>5個中國國家級駭客加入利用React2Shell的行列，部署後門及隧道工具控制受害主機</title>
+      <link>https://www.ithome.com.tw/news/172844</link>
+      <description>新聞本月3日React開發工程團隊修補風險值達到10分的資安漏洞CVE-2025-55182（React2Shell），此漏洞發生在React Server Components（RSC）元件，最早傳出Earth Lamia（UNC5454）與Jackpot Panda等多組中國國家級駭客試圖利用，後續也有多家資安公司發現該國駭客的相關活動，現在有新的調查結果出爐，指出有5組中國駭客加入漏洞利用行列。 12月13日Google威脅情報團隊（GTIG）揭露中國駭客組織UNC6586、UNC6588、UNC6595、UNC6600，以及UNC6603的全球攻擊活動，共通點在於，過程裡駭客都使用了React2Shell而得逞。 其中，較為特別的是UNC6600的活動，他們利用React2Shell漏洞來傳送隧道工具MinoCat。他們執行bash指令碼來建立隱藏的資料夾，清除特定名稱的處理程序，然後下載MinoCat的二進位檔案，駭客於特定的使用者Shell組態插入惡意命令，來啟動MinoCat，此為Go語言打造的64位元ELF執行檔，搭載自製的wrapper元件NSS，以及開源的Fast</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172844</guid>
+      <pubDate>Tue, 16 Dec 2025 04:41:50 +0000</pubDate>
     </item>
     <item>
-      <title>逾1萬個Docker Hub映像檔曝露憑證與API金鑰</title>
-      <link>https://www.ithome.com.tw/news/172818</link>
-      <description>新聞研究人員發現，公開於網上的Docker Hub中的容器映像檔，內含AI模型、API金鑰及多種憑證，警告可能造成軟體供應鏈攻擊。 資安廠商Flare針對2025年11月1日到30日上傳Docker Hub的上萬個映像檔進行分析，分析這些映像檔是否含有敏感存取資訊。他們先定義15種敏感憑證，包括軟體開發生命周期（Software Development Lifecycle，SDLC）及程式碼控制憑證（如GitHub）、雲端平臺憑證（如AWS/GCP/Microsoft Azure）、AI及模型存取、支付服務憑證等。 他們發現10,456個內含高度及重大嚴重性的映像檔，分佈於205個命名空間（namespace）。進一步分析，研究人員辨別出101個命名空間所屬的實際公司，其中多數是中小企業，但也有一些大型企業，以及一家財星五百大企業。從產業來看，以軟體開發（28）、市場與產業（20）、AI與智能系統（15）最多，還包含一家尖端研究組織及11家金融／銀行。 值得注意的是，在這些容器映像檔中，近42%包含5種以上憑證，像是完整存取雲端、Git程式庫、CI/CD系統、支付整合或其他核心基礎架構</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172818</guid>
-      <pubDate>Mon, 15 Dec 2025 03:32:41 +0000</pubDate>
+      <title>Cloudflare揭露，AI爬蟲已占全球逾4%的HTML流量</title>
+      <link>https://www.ithome.com.tw/news/172845</link>
+      <description>新聞CDN與資安服務業者Cloudflare周一（12/15）公布2025 Cloudflare Radar Year in Review年度網路觀測報告，顯示AI爬蟲已占全球逾4%的HTML流量，而全球最受歡迎的前五大生成式AI服務依序是：OpenAI的ChatGPT、Anthropic的Claude、Perplexity、Google Gemini，以及Character.AI 。 從2024年開始，全球網路上的機器人流量便已超過了人類流量，而在2025年的網路流量中，有47.9%的流量來自機器人，包括搜尋引擎、SEO工具、監測服務、廣告/分析系統，或是自動化程式等；人類流量占了43.5%；Googlebot為4.5%；各種AI Bot為4.2%。 其中，用來抓取網站內容以支援搜尋引擎及AI訓練的Googlebot，是Cloudflare所檢測到的最活躍的機器人，占據了逾28%來自已驗證機器人的流量；OpenAI的GPTBot在活躍度上排名第二，貢獻7.5%的已驗證機器人流量。 如果把Googlebot也算進AI Bot，那麼全球網路流量中，已有接近9%為AI所用。此外，在排名前1</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172845</guid>
+      <pubDate>Tue, 16 Dec 2025 04:46:38 +0000</pubDate>
     </item>
     <item>
-      <title>PCIe完整性與資料加密處理出現漏洞，恐面臨資訊洩露、拒絕服務等資安風險，波及Intel、AMD處理器</title>
-      <link>https://www.ithome.com.tw/news/172819</link>
-      <description>新聞PCI-SIG（PCI Special Interest Group）上周修訂相關規格，以因應周邊元件快速互連（Peripheral Component Interconnect Express，PCIe）標準中揭露的3個安全漏洞。這些漏洞皆存在於完整性與資料加密（Integrity and Data Encryption，IDE）安全機制中，可能削弱IDE與TDISP（Trusted Domain Interface Security Protocol）等原本用來隔離不同安全環境的防護效果。 PCI-SIG是由全球主要晶片及系統廠商組成、負責制定與維護PCIe等硬體互連標準的產業規格制定組織；PCI-SIG所制定的PCIe是硬體互連標準，負責資料如何在CPU與周邊裝置之間傳輸；IDE是PCIe規格中的一個安全機制，用來保護PCIe封包的內容與完整性，當兩個PCIe元件（例如CPU與加速卡）建立連線時，若雙方都支援IDE，即會在PCIe鏈路上啟用IDE模式。 這3個漏洞是由英特爾（Intel）的多名員工共同發現，分別是CVE-2025-9612、CVE-2025-9613與CVE-</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172819</guid>
-      <pubDate>Mon, 15 Dec 2025 04:02:02 +0000</pubDate>
+      <title>Nvidia公布Nemotron 3系列、Nano版先問世</title>
+      <link>https://www.ithome.com.tw/news/172846</link>
+      <description>新聞Nvidia昨（15）日宣布最新一代Nemotron 3開放模型家族，包含Nano、Super和Ultra三個版本，以及相關工具和資料集，強調採用新混合專家(MoE)架構準確率更高，協助開發代理式AI應用程式。 Nvidia強調Nemotron 3家族為開發特化型代理式AI應用而設計。新一代模型主打整合了雜糅式Mamba-Transformer混合專家（hybrid mixture-of-experts，MoE）架構、互動環境中的強化式學習（reinforcement learning，RL）及原生100萬token脈絡長度的能力，可支援多代理人應用程式執行高傳輸率、長視野（long-horizon）推理。Nvidia也開放了模型權重、資料集、訓練方法及框架。 Nvidia指出，使用創新的雜糅式Mamba-Transformer架構，使Nemotron 3具備100萬token的脈絡長度，得以支援大型程式庫、超長文件、長對話以及整合各處擷取而來的內容，使模型第一次能像人類專家一樣，在完整資料的狀態下，持續、連貫推理，而不再像以前靠切碎、拼湊、反覆遺忘來完成。 技術特性而言，Mamb</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172846</guid>
+      <pubDate>Tue, 16 Dec 2025 05:04:33 +0000</pubDate>
     </item>
     <item>
-      <title>西門子、洛克威爾、施耐德等4家業者12月修補ICS多項重大及高風險漏洞</title>
-      <link>https://www.ithome.com.tw/news/172805</link>
-      <description>新聞在12月Patch Tuesday週期，西門子（Siemens）、洛克威爾自動化（Rockwell Automation）、施耐德電機（Schneider Electric）以及菲尼克斯電氣（Phoenix Contact）皆發布多項公告，修補旗下ICS與OT設備多項資安漏洞。 西門子本次共發布14則安全性公告，其中3則被評為重大風險，主要影響Comos、Sicam T與Ruggedcom ROX等產品。在SSA-212953公告中，西門子指出其工程與資產管理平臺Comos存在多項重大風險漏洞，其CVSS v3.1風險分數高達10.0分，CVSS v4.0則為9.2分。這些漏洞可能被利用執行任意程式碼，或造成服務阻斷、資料滲透與存取控制違規。西門子已針對部分產品發布修補版本，並建議用戶升級至最新版。 此外，西門子公告Sicam T 3.0之前版本存在高風險與重大風險漏洞，CVSS v3.1達9.9分，CVSS v4.0則為9.3分，涵蓋不當輸入驗證、跨站腳本（XSS）與跨站請求偽造（CSRF）問題，並涉及身分驗證與授權繞過，以及缺乏HTTPS保護等弱點。這些漏洞可能導致遠端程式碼執</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172805</guid>
-      <pubDate>Mon, 15 Dec 2025 04:23:47 +0000</pubDate>
+      <title>Nvidia收購Slurm幕後推手SchedMD，強化AI與HPC叢集控制層</title>
+      <link>https://www.ithome.com.tw/news/172847</link>
+      <description>新聞Nvidia周一（12/15）宣布，已收購高效能運算（HPC）開源排程系統Slurm的主要開發與維護者SchedMD，未來將持續維持Slurm的開源及中立角色，同時強化Nvidia在AI與HPC叢集層級的軟體控制能力。雙方並未對外披露交易金額。 Slurm最早於2002年由美國勞倫斯利佛摩國家實驗室（Lawrence Livermore National Laboratory，LLNL）開發，是一套負責叢集資源配置、作業排程與佇列管理的開源系統。在TOP500超級電腦中，有65%的系統採用Slurm，已被視為HPC管理軟體的業界標準，隨著大型語言模型與生成式AI的訓練規模持續擴大，Slurm也逐漸成為AI訓練與推論不可或缺的基礎設施。 至於成立於2010年的SchedMD並非是Slurm的原始發明者，而是隨著Slurm廣泛被學術研究及產業的採用，承接其長期維護、功能開發與商業支援的公司，主導了Slurm的版本演進、主要功能與發布節奏。 Nvidia表示，該公司與SchedMD的合作已超過10年，未來將持續投資Slurm的開發，以維持Slurm於HPC及AI領域開源排程器的領先地位，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172847</guid>
+      <pubDate>Tue, 16 Dec 2025 05:49:09 +0000</pubDate>
     </item>
   </channel>
 </rss>
