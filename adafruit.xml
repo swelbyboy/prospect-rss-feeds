@@ -8,85 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Dec 2025 06:37:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 06:37:42 +0000</lastBuildDate>
     <item>
-      <title>Laying out the 404 Media Zine: Using WINE on Linux</title>
-      <link>https://blog.adafruit.com/2025/12/15/laying-out-the-404-media-zine-using-wine-on-linux/</link>
-      <description>When 404 Media co-founder Jason Koebler, who spent years editing Ernie Smith’s writing for Motherboard, reached out about doing a zine, Ernie was absolutely in. The goal of the zine—to shine a spotlight on the intersection of ICE and surveillance tech—was important. Ernie writes: I just had two problems: One, I have decided that I no […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/15/laying-out-the-404-media-zine-using-wine-on-linux/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/20250929ohm-3.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 15 Dec 2025 15:13:21 +0000</pubDate>
+      <title>Butterfly Wings Made From Porcelain #ArtTuesday</title>
+      <link>https://blog.adafruit.com/2025/12/16/butterfly-wings-made-from-porcelain-arttuesday/</link>
+      <description>As it turns out porcelain is a wonderful medium for re-creating the delicate wings of butterflies Sculptor Rebecca Manson has turned this practice into art. Here’s more from COLOSSAL: An unwavering desire to play with scale, permanence, and fragility recurs in Rebecca Manson’s practice. The New York-based artist…is known for magnifying the minuscule and preserving […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/16/butterfly-wings-made-from-porcelain-arttuesday/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/Close_wing_position_of_Kaniska_canace_Linnaeus1763_-Blue_Admiral-600x451.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 16 Dec 2025 19:45:56 +0000</pubDate>
     </item>
     <item>
-      <title>Freeing a Xiaomi humidifier from the Cloud</title>
-      <link>https://blog.adafruit.com/2025/12/15/freeing-a-xiaomi-humidifier-from-the-cloud/</link>
-      <description>Swedish-German developer Steffen has just shared the source code for a new firmware they created that allowed them to free a new Xiaomi humidifier from the cloud. The story begins like any good narrative: a need for the protagonist to achieve a goal or overcome hardship — only here, it’s not some insurmountable, mythic odds; […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/15/freeing-a-xiaomi-humidifier-from-the-cloud/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/a-40.png" length="0" type="image/png"/>
-      <pubDate>Mon, 15 Dec 2025 15:36:16 +0000</pubDate>
+      <title>An FPGA FMC 4x MIPI CSI camera breakout adapter</title>
+      <link>https://blog.adafruit.com/2025/12/16/an-fpga-fmc-4x-mipi-csi-camera-breakout-adapter/</link>
+      <description>Gaurav Singh posts about making an FPGA FMC Connector LPC breakout carrier/adapter board to connect 4 MIPI Cameras to Xilinx Ultrascale+ FPGAs. The breakout board PCB for an FMC connector which are widely used on high end FPGA boards. This breakout gives you 4x MIPI Camera Connections using just an LPC low pinout connection not […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/16/an-fpga-fmc-4x-mipi-csi-camera-breakout-adapter/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/a-60.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 19:57:50 +0000</pubDate>
     </item>
     <item>
-      <title>Using a pan-tilt for a Raspberry Pi camera @murasametech @raspberry_pi</title>
-      <link>https://blog.adafruit.com/2025/12/15/using-a-pan-tilt-for-a-raspberry-pi-camera-murasametech-raspberry_pi/</link>
-      <description>When using a Raspberry Pi camera for surveillance or observation, fixed-angle shooting often limits the field of view That’s where a pan-tilt mechanism using servos comes in handy. By moving the camera left-right and up-down, even a single unit can cover a wide area. In this setup, the key is the division of roles between […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/15/using-a-pan-tilt-for-a-raspberry-pi-camera-murasametech-raspberry_pi/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/a-42.png" length="0" type="image/png"/>
-      <pubDate>Mon, 15 Dec 2025 16:39:33 +0000</pubDate>
+      <title>Restoring a Tektronix vector graphics workstation from the 1970s #BattlestarGalactica</title>
+      <link>https://blog.adafruit.com/2025/12/16/restoring-a-tektronix-vector-graphics-workstation-from-the-1970s-battlestargalactica/</link>
+      <description>On the Just another electronics blog, they have dug out a vintage vector graphics workstation from the 1970s. In my mind, Tektronix is a brand that makes electronics lab equipment like oscilloscopes and logic analyzers. Turns out, they made quite a few terminals and a couple of computers! A good friend saw this one for […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/16/restoring-a-tektronix-vector-graphics-workstation-from-the-1970s-battlestargalactica/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/a-62.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 20:37:13 +0000</pubDate>
     </item>
     <item>
-      <title>Christmas in the Command Line: an ASCII tree animation in Python</title>
-      <link>https://blog.adafruit.com/2025/12/15/christmas-in-the-command-line-an-ascii-tree-animation-in-python/</link>
-      <description>Robert Hall has created an animated, festive ASCII art Christmas tree to display in the terminal, with blinking holiday ornaments and pulsing star. It’s coded in pure Python without dependencies and has ANSI color support. It runs in any command line interface (CLI) on macOS, Linux, and Windows. See more in the video below and […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/15/christmas-in-the-command-line-an-ascii-tree-animation-in-python/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/a-44.png" length="0" type="image/png"/>
-      <pubDate>Mon, 15 Dec 2025 17:08:21 +0000</pubDate>
+      <title>IBM Selectric Prints Pictures #ArtTuesday</title>
+      <link>https://blog.adafruit.com/2025/12/16/ibm-selectric-prints-pictures-arttuesday/</link>
+      <description>Automated type prints using the IBM Selectric type ball via Unnecessary Automation Unnecessary Automation lives up to their name and builds this printer based on the IBM Selectric. The 88 character type ball is automatically maneuvered to print a picture. Fun video with clear explanations along the way; they make it seem so simple […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/16/ibm-selectric-prints-pictures-arttuesday/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/Screenshot-2025-12-15-at-4.09.31-PM.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 20:46:37 +0000</pubDate>
     </item>
     <item>
-      <title>Adelle Lin x One of Many: Journey of Hope Amulet Pin with Compact Ritual</title>
-      <link>https://blog.adafruit.com/2025/12/15/adelle-lin-x-one-of-many-journey-of-hope-amulet-pin-with-compact-ritual/</link>
-      <description>Some pins, jewelry, and objects are small enough to disappear onto a jacket lapel or a laptop bag strap, yet feel like they are quietly “working” all the time. A small metal charm that figuratively acts like a little bodyguard for your morale. The Journey of Hope Amulet Pin is my next pick … tl;dr […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/15/adelle-lin-x-one-of-many-journey-of-hope-amulet-pin-with-compact-ritual/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/group.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 15 Dec 2025 18:58:06 +0000</pubDate>
+      <title>Cat superpower: opening doors</title>
+      <link>https://blog.adafruit.com/2025/12/16/cat-superpower-opening-doors/</link>
+      <description>Does your cat have superpowers? Rob Dobson’s can open a door just by looking at it (well walking close to it in reality, but he always looks where he’s going). If not then Rob has a massively over-engineered project to allow a cat to open a regular door. Ollie (our beloved moggy) is free to […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/16/cat-superpower-opening-doors/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/a-65.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 21:08:05 +0000</pubDate>
     </item>
     <item>
-      <title>A Modular Synth and Grand Piano Working Together #MusicMonday</title>
-      <link>https://blog.adafruit.com/2025/12/15/a-modular-synth-and-grand-piano-working-together-musicmonday/</link>
-      <description>What happens when a great musician composes with a grand piano and a modular synth at the same time? Frap Tools has the answer. Hear the composition from Frap Tools: The voyage is coming to an end! Today Francesco guides us through a captivating electroacoustic piece that integrates the sound and articulation of an electric […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/15/a-modular-synth-and-grand-piano-working-together-musicmonday/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/Steinway__Sons_concert_grand_piano_model_D-274_manufactured_at_Steinways_factory_in_Hamburg_Germany_cropped-563x480.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 15 Dec 2025 19:00:23 +0000</pubDate>
+      <title>UPDATED PRODUCT – Adafruit LiIon or LiPoly Charger BFF Add-On for QT Py</title>
+      <link>https://blog.adafruit.com/2025/12/16/updated-product-adafruit-liion-or-lipoly-charger-bff-add-on-for-qt-py/</link>
+      <description>UPDATED PRODUCT – Adafruit LiIon or LiPoly Charger BFF Add-On for QT Py As of December 12, 2025 – We added two breakout pads for the on/off switch for an external switch if desired. We also updated the PCB with Adafruit Pinguin to make a lovely and legible silkscreen. Is your QT Py all alone, lacking a friend […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/16/updated-product-adafruit-liion-or-lipoly-charger-bff-add-on-for-qt-py/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2022/03/5397.gif" length="0" type="image/gif"/>
+      <pubDate>Tue, 16 Dec 2025 21:12:49 +0000</pubDate>
     </item>
     <item>
-      <title>Breadboard circuits on the back of an iPhone</title>
-      <link>https://blog.adafruit.com/2025/12/15/breadboard-circuits-on-the-back-of-an-iphone/</link>
-      <description>Arduinos, Raspberry Pis, and the like have made prototyping of electronic circuits so simple and convenient it can be done just about anywhere. But a lone designer named Kevin Yang has come up with an idea that could make prototyping ideas even easier and more portable. Yang has developed what he calls the Commi Board, […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/15/breadboard-circuits-on-the-back-of-an-iphone/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/a-46.png" length="0" type="image/png"/>
-      <pubDate>Mon, 15 Dec 2025 20:22:37 +0000</pubDate>
+      <title>Custom CNC making a workspace desktop with split keyboard slots</title>
+      <link>https://blog.adafruit.com/2025/12/16/custom-cnc-making-a-workspace-desktop-with-split-keyboard-slots/</link>
+      <description>Peter Lyons has made another custom desktop on the CNC, with recesses for a split keyboard. I’m really happy with how it came out. I got the project finished up and installed over the Thanksgiving holiday break, and my wife painted two of the walls in my office – one has a logogram from the […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/16/custom-cnc-making-a-workspace-desktop-with-split-keyboard-slots/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/a-66.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 21:33:03 +0000</pubDate>
     </item>
     <item>
-      <title>iRobot files for bankruptcy</title>
-      <link>https://blog.adafruit.com/2025/12/15/irobot-files-for-bankruptcy/</link>
-      <description>iRobot, the maker of the Roomba vacuum cleaner, filed for bankruptcy protection on Sunday, saying that it would go private after being bought by Picea Robotics, its primary manufacturer. The company, which raised concerns about staying in business in March, filed for Chapter 11 protection in Delaware bankruptcy court as it grapples with increased competition […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/15/irobot-files-for-bankruptcy/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/a-48.png" length="0" type="image/png"/>
-      <pubDate>Mon, 15 Dec 2025 20:46:55 +0000</pubDate>
+      <title>Hacking the Supercon 2025 badge into a synthesizer</title>
+      <link>https://blog.adafruit.com/2025/12/16/hacking-the-supercon-2025-badge-into-a-synthesizer/</link>
+      <description>One of Justin Miller’s favorite parts of Hackaday Supercon, and probably of many attendees, is the badge hacking. This year’s badge (announcement, GitHub, schematic) was an extra bonus as I love small handheld computers. When I got up on Sunday, I had a strong idea: using the Shitty Standard Add-On port which is on the front of Supercon badges to add a quick […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/16/hacking-the-supercon-2025-badge-into-a-synthesizer/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/b-1.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 22:03:58 +0000</pubDate>
     </item>
     <item>
-      <title>Sound Reactive Paper Lanterns with LedFx</title>
-      <link>https://blog.adafruit.com/2025/12/15/sound-reactive-paper-lanterns-with-ledfx/</link>
-      <description>Create an array of paper lanterns and control them with sound. This guide uses a Feather ESP32 V2 loaded with the free, open source WLED software. WLED runs on the Feather, using WiFi to allow you to control the lights with your phone, PC, or any wifi-enabled device. This is a lot of fun, and […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/15/sound-reactive-paper-lanterns-with-ledfx/</guid>
-      <pubDate>Mon, 15 Dec 2025 23:00:33 +0000</pubDate>
+      <title>A heat blanket controller teardown – this is cool</title>
+      <link>https://blog.adafruit.com/2025/12/16/a-heat-blanket-controller-teardown-this-is-cool/</link>
+      <description>On the electronupdate blog, they do a teardown of a heated blanket controller. This is NOT one of the old fashioned switched resistor jobs. It uses a lot of rather neat modern electronics! Interesting construction. Heated blankets are designed to be washed so much care was taken to create a tough reliable cable. Main circuit […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/16/a-heat-blanket-controller-teardown-this-is-cool/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/b-2.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 22:20:18 +0000</pubDate>
     </item>
     <item>
-      <title>MoMA PS1 Admission to Become Free to All Visitors Starting January 1, 2026</title>
-      <link>https://blog.adafruit.com/2025/12/15/moma-ps1-admission-to-become-free-to-all-visitors-starting-january-1-2026/</link>
-      <description>Portrait of Connie Butler and Sonya Yu. 2025. Courtesy MoMA PS1. Photo: John Kim One of the best parts of being in New York is that there is always something to do. Now, one of the coolest places to spend a day will be offering free admission to all visitors! Here’s more from MOMA […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/15/moma-ps1-admission-to-become-free-to-all-visitors-starting-january-1-2026/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/Portrait1-1536x1152-1-e1765465027165.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 16 Dec 2025 01:00:56 +0000</pubDate>
+      <title>Holiday Jazz at MoMA</title>
+      <link>https://blog.adafruit.com/2025/12/16/holiday-jazz-at-moma/</link>
+      <description>image via MoMA MoMA will be hosting a holiday jazz night this Friday, December 19th. Join us this holiday season for an evening of jazz performances. Plus, enjoy late-night access to exhibitions like Ruth Asawa: A Retrospective, Wifredo Lam: When I Don’t Sleep, I Dream, and New Photography 2025: Lines of Belonging, along with our […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2025/12/16/holiday-jazz-at-moma/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/12/Screen-Shot-2025-12-16-at-5.14.10-PM-600x361.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Dec 2025 23:00:02 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,77 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Dec 2025 06:40:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 06:40:26 +0000</lastBuildDate>
     <item>
-      <title>滿分資安漏洞React2Shell利用活動急速升溫</title>
-      <link>https://www.ithome.com.tw/news/172833</link>
-      <description>新聞兩週前React開發團隊發布更新，修補CVSS風險高達10分的React伺服器元件（RSC）漏洞CVE-2025-55182（React2Shell），引起資安圈高度關注，大型雲端公司、資安公司，以及研究機構隨即發現漏洞熱烈遭到利用的現象，中國與北韓國家級駭客、殭屍網路，以及挖礦軟體皆加入利用行動，如今有新的調查指出，漏洞公布一週後，威脅出現急劇升溫的現象。 上週資安公司Cloudflare公布分析結果，指出利用漏洞的攻擊者，主要鎖定特定地區或國家的網路環境，明確聚焦在臺灣、新疆維吾爾、越南、日本，以及紐西蘭，想要利用多種公開可用的工具、商用產品，企圖藉此找出具有高價值的應用程式伺服器，針對政府機關、學術研究機構，以及經營關鍵基礎設施的廠商，其中包含負責鈾、稀有金屬，以及核燃料進出口的政府單位。再者，駭客偏好針對企業採用的密碼管理工具與安全儲存庫，以及採用React為基礎開發的SSL VPN設備管理介面，藉此增加漏洞帶來的危害。 附帶一提的是，攻擊者不光透過基本的特徵（Fingerprint）識別存在弱點的環境，還會根據SSL憑證資料，來更加精確找出攻擊目標，並安排下手的優先順序。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172833</guid>
-      <pubDate>Mon, 15 Dec 2025 09:20:27 +0000</pubDate>
+      <title>Let's Encrypt明年起導入Generation Y憑證鏈，新憑證不再支援TLS用戶端驗證</title>
+      <link>https://www.ithome.com.tw/news/172856</link>
+      <description>新聞非營利憑證機構Let’s Encrypt將自2026年起分階段調整憑證發行與效期政策，重點包括導入新一代Generation Y根憑證與中繼CA階層，並逐步讓新簽發憑證不再包含TLS用戶端驗證的延伸金鑰用途（EKU），讓憑證用途更聚焦在TLS伺服器（tlsserver）驗證。同時也將依產業規範，逐步縮短憑證有效期。 官方指出，多數僅用於網站HTTPS的使用者預期不需採取行動，但要是曾將Let’s Encrypt憑證用於mTLS等用戶端身分驗證情境，則應提前盤點並調整。 Generation Y不是單指一張新憑證，而是一套新的簽發階層，包含2張新根憑證與6張新中繼CA。Let’s Encrypt說明，這套階層在2025年9月的儀式（Key Ceremony）中產生，接下來會逐步用來簽發憑證並送交各大根憑證信任計畫（Root Program）納入信任存放區。為了降低相容性風險，新根憑證也會由既有根憑證交叉簽發，在既有信任鏈仍可運作的環境下平順過渡。 Generation Y的特別之處在於用途切割，官方提到，新一代中繼CA不再包含TLS Web Client Authentication</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172856</guid>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】12月15日，開發人員在Docker Hub曝露大量憑證，有人將其收集並在地下論兜售</title>
-      <link>https://www.ithome.com.tw/news/172834</link>
-      <description>新聞逾1萬個Docker Hub映像檔曝露憑證與API金鑰 研究人員發現，開發人員不慎公開於網上的Docker Hub中的容器映像檔，內含AI模型、API金鑰及多種憑證，警告可能造成軟體供應鏈攻擊。資安廠商Flare針對2025年11月1日到30日上傳Docker Hub的上萬個映像檔進行分析，分析這些映像檔是否含有敏感存取資訊。他們先定義15種敏感憑證，包括軟體開發生命周期（SDLC）及程式碼控制憑證（如GitHub）、雲端平臺憑證（如AWS、GCP、Microsoft Azure）、AI及模型存取，以及支付服務憑證等。 他們發現10,456個內含高度及重大嚴重性的映像檔，分布於205個命名空間（namespace），進一步分析，研究人員辨別出101個命名空間所屬的實際公司，其中多數是中小企業，但也有大型企業，以及一家財星五百大企業。從產業來看，以軟體開發（28）、消費市場與工業（20）、AI系統（15）最多，還包含一家尖端研究組織及11家金融業者。值得注意的是，在這些容器映像檔中，近42%包含5種以上憑證，像是完整存取雲端、Git程式庫、CI/CD系統、支付整合或其他核心基礎架構元</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172834</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/Docker-Hub-diagram.png" length="0" type="image/png"/>
-      <pubDate>Mon, 15 Dec 2025 09:50:34 +0000</pubDate>
+      <title>Atlassian修補旗下產品46項漏洞，Apache Tika滿分XXE入列</title>
+      <link>https://www.ithome.com.tw/news/172857</link>
+      <description>新聞Atlassian發布12月資安公告，表示過去一個月針對旗下資料中心與伺服器自託管產品更新版本，累計修補37項高嚴重度漏洞，與9項關鍵嚴重度的第三方元件漏洞。Atlassian建議用戶將系統升級至最新版，或至少升到公告所列已修補版本，以消除受影響的相依套件風險。 在本次公告列出的多項漏洞中，CVSS 10分的Apache Tika XXE弱點CVE-2025-66516最受關注。Atlassian在Bamboo、Confluence、Jira Software、Jira Service Management等條目列出此CVE，並同樣出現在Crowd與Fisheye/Crucible的條目中。Atlassian也提醒，這屬第三方相依套件弱點，依其評估在自家產品的實際使用情境下風險較低，但仍已隨新版納入修補。 Apache Tika是常見的內容分析與中繼資料抽取工具，企業系統常用於後端自動解析使用者上傳或批次匯入的文件。依NVD描述，CVE-2025-66516屬於透過PDF內特製XFA內容，觸發XML外部實體（XML External Entity，XXE）漏洞的問題。當後端解析流程</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172857</guid>
+      <pubDate>Wed, 17 Dec 2025 01:13:38 +0000</pubDate>
     </item>
     <item>
-      <title>惡意VS Code擴充套件上架微軟市集，偽裝PNG檔藏匿木馬</title>
-      <link>https://www.ithome.com.tw/news/172836</link>
-      <description>新聞資安公司ReversingLabs研究人員分析了19款上架於微軟VS Code市集的惡意擴充套件，發現這些套件表面上提供開發輔助功能，實際卻把惡意程式藏在隨套件封裝的相依目錄中，並以看似PNG檔的檔案包裝木馬。研究人員指出，該活動從2025年2月起持續運作，並於2025年12月2日被發現，他們已將相關擴充套件通報微軟。 研究人員說明，VS Code擴充套件通常會把執行所需的NPM相依套件一併打包，安裝時不必再下載。攻擊者正是利用該預先封裝特性，在熱門NPM套件path-is-absolute的本機副本動手腳，加入額外檔案與啟動觸發程式碼，使惡意行為在VS Code啟動時被觸發。研究人員強調，官方NPM儲存庫上的path-is-absolute內容未被更動，風險來自擴充套件作者可任意改寫其封裝內容。 由於被改造的程式會先解碼一段經過混淆處理的JavaScript投放器，接著再執行藏在偽裝為banner.png檔案中的惡意二進位檔，並借助Windows內建程式cmstp.exe這類LOLBIN啟動。研究人員初步辨識其中一個惡意載荷為Rust木馬，但其完整能力仍在持續分析。另有少數擴充套</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172836</guid>
-      <pubDate>Mon, 15 Dec 2025 21:20:56 +0000</pubDate>
+      <title>WatchGuard修補防火牆產品Firebox多項重大資安漏洞</title>
+      <link>https://www.ithome.com.tw/news/172858</link>
+      <description>新聞在12月4日，網路防火牆廠商WatchGuard發布多則安全性公告，揭露其Firebox防火牆與Fireware OS存在多項重大資安漏洞，影響系統完整性驗證流程、管理介面指令，以及VPN相關元件，對企業網路安全構成顯著風險。 首先需要留意的是開機完整性檢查繞過漏洞CVE-2025-13940，可讓攻擊者繞過Fireware OS在開機階段執行的系統完整性驗證機制。其CVSS風險評分為6.7，屬於中度風險。當系統偵測到完整性異常時，攻擊者可阻止Firebox正常關機，使已遭惡意修改的系統持續運作。受影響版本包括Fireware OS 12.8.1至12.11.4，以及2025.1至2025.1.2。 WatchGuard這次針對Firebox與Fireware OS修補中，還包含三項越界寫入（Out-of-Bounds Write）類型的高風險漏洞，可讓已驗證且具備高權限的使用者執行任意程式碼。 首先是存在於Fireware OS命令列介面（CLI）的CVE-2025-12196，以及CVE-2025-12195，兩者CVSS評分皆達8.6。另一項高風險越界寫入漏洞是CVE-202</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172858</guid>
+      <pubDate>Wed, 17 Dec 2025 03:42:15 +0000</pubDate>
     </item>
     <item>
-      <title>法國內政部遭網路攻擊，入侵郵件伺服器</title>
-      <link>https://www.ithome.com.tw/news/172840</link>
-      <description>新聞法國內政部長Laurent Nunez本周證實上周發生網路攻擊，駭客入侵了郵件伺服器。 Laurent Nunez向法國廣播電臺RTL指出，事件發生於2025年12月11日晚間至12日星期五。攻擊者存取數臺郵件伺服器上某些檔案，但是法國政府還無法斷言資料已經失竊。 法國內政部是警察機關、國內安全與移民事務的主管機關，自然是國家駭客的重點攻擊對象。Nunez表示已經加強安全層級，至於這次存取是否為外國國家駭客、網路犯罪、或是挑戰當局的組織或個人所為，當局都還未排除可能性。 法國國家資訊系統安全局（ANSSI）今年4月發表報告，相信十多起針對法國組織包括部長級機構、地方政府、法國國防技術與工業生產商、航空航太機構、研究機構、智庫，以及經濟和金融單位的攻擊，是由與俄羅斯軍事情報組織有關的駭客組織APT28所為。 本周德國外交部長也指控俄羅斯駭客組織Fancy Bear去年駭入德國飛航控制系統，此外今年初俄國駭客也入侵選務機關企圖影響大選結果，因此傳喚俄羅斯大使解釋。 今年4月挪威水壩閘門控制系統遭駭入侵數小時，該國政府也將矛頭指向俄羅斯駭客。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172840</guid>
-      <pubDate>Tue, 16 Dec 2025 01:48:09 +0000</pubDate>
+      <title>OpenAI更新ChatGPT Images，影像生成速度提升4倍</title>
+      <link>https://www.ithome.com.tw/news/172861</link>
+      <description>新聞OpenAI周二（12/16）更新了ChatGPT Images，新一代的GPT Image 1.5能更可靠地遵循使用者的指令，影像生成速度為上一代GPT Image 1.0的4倍，目前該模型已整合至所有用戶可使用的ChatGPT，並同步釋出GPT Image 1.5 API，供開發者與企業導入應用。 根據OpenAI說明，GPT Image 1.5在影像生成與編輯準確度上均有明顯提升。使用者不僅可從零開始生成圖片，也能對既有照片進行編輯，而模型在多次修改過程中，仍能維持光線、構圖與人物外觀等關鍵元素的一致性，降低反覆調整所帶來的品質流失問題。 此次更新的一大重點，是ChatGPT內新增專屬的Images創作空間，提供預設風格、濾鏡與提示，讓影像探索與創作流程更貼近實際創意工作室的使用情境。 在技術能力上，GPT Image 1.5對指令的遵循度明顯改善。當使用者要求編輯圖片時，模型能更精準地只修改指定部分，其餘內容則完整保留，使照片修圖、服裝與髮型試穿、風格轉換等應用更為自然。此外，新模型也支援新增、移除、混合與轉置等進階編輯操作，並兼顧原始影像品質。 文字呈現能力亦是此次升級的</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172861</guid>
+      <pubDate>Wed, 17 Dec 2025 03:55:32 +0000</pubDate>
     </item>
     <item>
-      <title>Windows RasMan爆新零時差漏洞，恐導致服務中斷，尚無官方修補程式</title>
-      <link>https://www.ithome.com.tw/news/172841</link>
-      <description>新聞Windows遠端存取連線管理員（Remote Access Connection Manager，RasMan）出現零時差漏洞，可導致阻斷服務（Denial of Service，DoS）攻擊。不過尚不知微軟何時會釋出修補程式。 資安廠商ACROS Security在研究微軟十月修補的RasMan提權（EoP）漏洞CVE-2025-59230時，發現一個阻斷服務漏洞。 簡單來說，CVE-2025-59230是一個權限提升漏洞（Elevation of Privilege），讓低權限使用者提升到System層次。在RasMan服務尚未啟動時，任何行程（包括低權限使用者權限）都能註冊System用戶的RPC端點。但是研究人員追查的是，攻擊者在提權攻擊前，要如何讓RasMan服務停止。這就是微軟未發現，但其他研究人員發現的DoS漏洞，正好滿足RasMan停止運作的條件。 研究人員指出，這個尚未被指派CVE的漏洞存在於Windows RasMan（Remote Access Connection Manager）服務處理遠端連線管理請求的邏輯中。攻擊者可在本機透過RasMan提供的管理類</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172841</guid>
-      <pubDate>Tue, 16 Dec 2025 02:22:42 +0000</pubDate>
+      <title>Fortinet甫修補的漏洞已遭駭客濫用</title>
+      <link>https://www.ithome.com.tw/news/172862</link>
+      <description>新聞Fortinet上周修補影響旗下防火牆、閘道器等產品的兩個重大漏洞已經遭人濫用。 這兩項漏洞CVE-2025-59718及CVE-2025-59719，皆為加密簽章不當驗證造成，未經身分驗證的攻擊者可發送特製的SAML訊息，即可繞過FortiCloud單一簽入（SSO）的身分驗證機制，啟用此單一簽入機制的FortiOS、FortiWeb、FortiProxy，或是FortiSwitchManager都會受影響。這兩項漏洞CVSS風險分數皆達9.8。 早在Fortinet修補兩個漏洞後兩日，即12月12日資安業者Arctic Wolf就開始觀察到閘道器FortiGate裝置，出現惡意單一簽入登入（SSO login）的跡象。 分析存取IP位置是來自數家代管業者，包括The Constant Company LLC, BL Networks及Kaopu Cloud HK Limited，意謂可能是協同攻擊。一如常見惡意登入，這幾波存取的目標也是管理員帳號。而攻擊者在成功登入後，就將系統配置資訊（像是憑證及裝置設定）利用GUI介面傳到來源IP位址。 研究人員建議受影響的Fortinet用</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172862</guid>
+      <pubDate>Wed, 17 Dec 2025 04:13:36 +0000</pubDate>
     </item>
     <item>
-      <title>Google將在2026年初關閉暗網報告通知服務</title>
-      <link>https://www.ithome.com.tw/news/172842</link>
-      <description>新聞Google本周預告，可通報使用者個資流入駭客社群的暗網報告（Dark Web Report）服務將在2026年2月終止服務。 暗網報告首於2023年推出，主要是用來協助使用者監控於暗網中流傳的個資，如姓名、地址、電話號碼與電子郵件帳戶。只要啟用該功能，每當Google於暗網中發現使用者個資時，便會通知用戶。該功能原本只提供給付費的Google One訂閱用戶，但去年擴及所有Google帳戶用戶，臺灣也是支援的市場之一。 Google說明，暗網報告服務雖然提供概略資訊，但使用者回饋意見反映它並沒有提供有用的後續步驟。因此Google決定將心力投入在能提供更清楚、可行步驟的工具，以保護用戶線上資訊。Google說會打造新的工具以執行追蹤和防範網路威脅，包括暗網。 從2026年1月15日起，這服務將停止掃描新資料外洩於暗網的案例。而在2月16日起，整個暗網報告服務就會下線。之後所有和該服務相關的資料都會被刪除，用戶也可以提早自行到暗網報告刪除，但一旦用戶刪除了自己的資料檔案，就無法再存取暗網報告了。 Google鼓勵用戶利用其他現有工具強化資料安全和隱私。包括安全檢查(Security</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172842</guid>
-      <pubDate>Tue, 16 Dec 2025 03:30:02 +0000</pubDate>
+      <title>Google測試可匯報郵件、行事曆、文件內容的AI代理人</title>
+      <link>https://www.ithome.com.tw/news/172864</link>
+      <description>新聞Google旗下實驗室Google Labs本周宣布一項新的實驗性AI生產力代理人CC，可為使用者整理Gmail、行事曆、甚至網頁內容重點，為使用者匯報每日重點。 當用戶註冊加入後。CC會連結用戶使用的Google服務，包括Gmail、Google Calendar、Google Drive及網頁，它有點像個人祕書，能理解使用者一天活動，整理出「前日重點（Your Day Ahead）」寄到Gmail，方便用戶隔日一早檢閱。這份簡報把用戶每日行程、主要工作及進展整理成簡單明瞭的重點，幫助使用者更快決定接下來的動作，像是付帳單或準備看診。必要時CC也能草擬郵件或行事曆連結，加速使用者作業。 用戶也可以透過自訂命令讓CC直接回覆、或提供更多資料來訓練CC、或是要求它記住某些想法或待辦事項，以加速它在某些情況下的處理速度。 目前CC是一項早期實驗，開放18歲以上的美國及加拿大消費者加入測試，但現在僅對Google AI Ultra及付費訂閱戶開放。有興趣的人必須先報名加入等候清單。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172864</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1217-CC-AI%20productivity%20agent-Gmail_Calendar_Drive_2.png" length="0" type="image/png"/>
+      <pubDate>Wed, 17 Dec 2025 05:13:06 +0000</pubDate>
     </item>
     <item>
-      <title>5個中國國家級駭客加入利用React2Shell的行列，部署後門及隧道工具控制受害主機</title>
-      <link>https://www.ithome.com.tw/news/172844</link>
-      <description>新聞本月3日React開發工程團隊修補風險值達到10分的資安漏洞CVE-2025-55182（React2Shell），此漏洞發生在React Server Components（RSC）元件，最早傳出Earth Lamia（UNC5454）與Jackpot Panda等多組中國國家級駭客試圖利用，後續也有多家資安公司發現該國駭客的相關活動，現在有新的調查結果出爐，指出有5組中國駭客加入漏洞利用行列。 12月13日Google威脅情報團隊（GTIG）揭露中國駭客組織UNC6586、UNC6588、UNC6595、UNC6600，以及UNC6603的全球攻擊活動，共通點在於，過程裡駭客都使用了React2Shell而得逞。 其中，較為特別的是UNC6600的活動，他們利用React2Shell漏洞來傳送隧道工具MinoCat。他們執行bash指令碼來建立隱藏的資料夾，清除特定名稱的處理程序，然後下載MinoCat的二進位檔案，駭客於特定的使用者Shell組態插入惡意命令，來啟動MinoCat，此為Go語言打造的64位元ELF執行檔，搭載自製的wrapper元件NSS，以及開源的Fast</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172844</guid>
-      <pubDate>Tue, 16 Dec 2025 04:41:50 +0000</pubDate>
+      <title>Windows Server 2025正式加入NVMe支援  IOPS提升最高80%</title>
+      <link>https://www.ithome.com.tw/news/172865</link>
+      <description>新聞微軟宣布Windows Server 2025加入NVMe原生支援，可望最多提高NVMe輸出、輸入效能80%。 微軟於2024年4月首度公布，Windows Server 2025將原生支援NVMe（非揮發性記憶體Express），可大幅提升IOPS (I/O per second)。這項功能連同10月份Server 2025的累積更新（cumulative update，CU）KB5066835部署給企業用戶，但當時這功能是關閉的。 周二微軟正式宣布Server 2025原生NVMe支援全面提供（generally available，GA），以提升現代NVMe SSD在Windows Server中的運作效能。 微軟說Windows Server 2025原生支援NVMe，是公司工程團隊和軟硬體夥伴合作的結果。為了原生支援NVMe，Windows儲存堆疊經過重新設計，不再將所有儲存裝置當成SCSI（Small Computer System Interface）來處理，後者是早期速度較慢的儲存裝置所用的介面。新設計不再需要將NVMe指令轉成SCSI指令的過程，讓Windows</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172865</guid>
+      <pubDate>Wed, 17 Dec 2025 05:20:55 +0000</pubDate>
     </item>
     <item>
-      <title>Cloudflare揭露，AI爬蟲已占全球逾4%的HTML流量</title>
-      <link>https://www.ithome.com.tw/news/172845</link>
-      <description>新聞CDN與資安服務業者Cloudflare周一（12/15）公布2025 Cloudflare Radar Year in Review年度網路觀測報告，顯示AI爬蟲已占全球逾4%的HTML流量，而全球最受歡迎的前五大生成式AI服務依序是：OpenAI的ChatGPT、Anthropic的Claude、Perplexity、Google Gemini，以及Character.AI 。 從2024年開始，全球網路上的機器人流量便已超過了人類流量，而在2025年的網路流量中，有47.9%的流量來自機器人，包括搜尋引擎、SEO工具、監測服務、廣告/分析系統，或是自動化程式等；人類流量占了43.5%；Googlebot為4.5%；各種AI Bot為4.2%。 其中，用來抓取網站內容以支援搜尋引擎及AI訓練的Googlebot，是Cloudflare所檢測到的最活躍的機器人，占據了逾28%來自已驗證機器人的流量；OpenAI的GPTBot在活躍度上排名第二，貢獻7.5%的已驗證機器人流量。 如果把Googlebot也算進AI Bot，那麼全球網路流量中，已有接近9%為AI所用。此外，在排名前1</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172845</guid>
-      <pubDate>Tue, 16 Dec 2025 04:46:38 +0000</pubDate>
+      <title>OpenAI推出可衡量專家級科學推理能力的AI基準測試FrontierScience</title>
+      <link>https://www.ithome.com.tw/news/172866</link>
+      <description>新聞OpenAI周二（12/16）發表全新研究基準FrontierScience，用於評估AI在物理、化學與生物等領域中，執行專家級科學推理與研究任務的能力。 OpenAI解釋，一項由博士級專家撰寫的科學基準GPQA在2023年11月推出時，GPT-4僅獲得39%的成績，低於人類專家70%的平均值，但2025年的GPT-5.2在GPQA已拿到92%。顯示出模型能力的快速進化，已使既有以選擇題為主、難度趨於飽和的科學評測，不足以用來衡量AI是否真能加速科學研究。 由物理、化學及生物領域專家撰寫並驗證的FrontierScience基準測試，包含了數百道具備高難度、原創性與實質意義的題目，它設計了兩種不同的測試方向，一是用來衡量奧林匹亞競賽風格之科學推理能力的Olympiad，它是由國際奧林匹亞競賽獎牌得主設計的短答題，用於評估模型在受限條件下，是否能進行精確、嚴謹且可驗證的科學推理。 二是衡量真實世界科學研究能力的Research，它由博士級研究人員設計，題型為多步驟、開放式研究任務，要求模型分析問題、展開推論並給出完整解釋，並透過10分制量表評估其推理過程與結論是否合理。 GPT-5.</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172866</guid>
+      <pubDate>Wed, 17 Dec 2025 05:43:56 +0000</pubDate>
     </item>
     <item>
-      <title>Nvidia公布Nemotron 3系列、Nano版先問世</title>
-      <link>https://www.ithome.com.tw/news/172846</link>
-      <description>新聞Nvidia昨（15）日宣布最新一代Nemotron 3開放模型家族，包含Nano、Super和Ultra三個版本，以及相關工具和資料集，強調採用新混合專家(MoE)架構準確率更高，協助開發代理式AI應用程式。 Nvidia強調Nemotron 3家族為開發特化型代理式AI應用而設計。新一代模型主打整合了雜糅式Mamba-Transformer混合專家（hybrid mixture-of-experts，MoE）架構、互動環境中的強化式學習（reinforcement learning，RL）及原生100萬token脈絡長度的能力，可支援多代理人應用程式執行高傳輸率、長視野（long-horizon）推理。Nvidia也開放了模型權重、資料集、訓練方法及框架。 Nvidia指出，使用創新的雜糅式Mamba-Transformer架構，使Nemotron 3具備100萬token的脈絡長度，得以支援大型程式庫、超長文件、長對話以及整合各處擷取而來的內容，使模型第一次能像人類專家一樣，在完整資料的狀態下，持續、連貫推理，而不再像以前靠切碎、拼湊、反覆遺忘來完成。 技術特性而言，Mamb</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172846</guid>
-      <pubDate>Tue, 16 Dec 2025 05:04:33 +0000</pubDate>
+      <title>針對2022年密碼管理服務商LastPass資料外洩事故，英國開罰120萬英鎊</title>
+      <link>https://www.ithome.com.tw/news/172867</link>
+      <description>新聞英國資料隱私主管機關本周就三年前發生大量資料外洩事件，判罰密碼管理方案業者LastPass 120萬英鎊。 英國資訊委員會辦公室（Information Commissioner's Office,ICO）基於160萬英國用戶個資外洩，判罰LastPass 120萬英鎊。 ICO指出，其調查發現LastPass導入的技術和資安措施完備性不足，最終導致駭客非授權存取備份資料庫，而且沒有證據顯示起因存在用戶裝置上的未加密密碼所致。 根據英國政府的調查，2022年8月LastPass發生兩次資安事件。先是LastPass歐洲區員工公司筆電被駭，駭客進入公司開發環境。當時沒有個資被存取，但竊走了加密的公司憑證。那次LastPass措施奏效，金鑰存放在四名資深員工（包含第二次的受害員工）的帳號保管庫（account vaults）之外，未被駭客存取。 第二次事件中，駭客利用第三方程式漏洞，在LastPass美國員工個人電腦植入鍵盤側錄程式，並盜走雲端資料儲存金鑰，開啟禍端。駭客從該公司的AWS S3儲存庫竊走客戶資料備份，包括公司名稱、電子郵件、IP位址、網頁書籤、密碼及加密資料等。此事並造</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172867</guid>
+      <pubDate>Wed, 17 Dec 2025 06:13:32 +0000</pubDate>
     </item>
     <item>
-      <title>Nvidia收購Slurm幕後推手SchedMD，強化AI與HPC叢集控制層</title>
-      <link>https://www.ithome.com.tw/news/172847</link>
-      <description>新聞Nvidia周一（12/15）宣布，已收購高效能運算（HPC）開源排程系統Slurm的主要開發與維護者SchedMD，未來將持續維持Slurm的開源及中立角色，同時強化Nvidia在AI與HPC叢集層級的軟體控制能力。雙方並未對外披露交易金額。 Slurm最早於2002年由美國勞倫斯利佛摩國家實驗室（Lawrence Livermore National Laboratory，LLNL）開發，是一套負責叢集資源配置、作業排程與佇列管理的開源系統。在TOP500超級電腦中，有65%的系統採用Slurm，已被視為HPC管理軟體的業界標準，隨著大型語言模型與生成式AI的訓練規模持續擴大，Slurm也逐漸成為AI訓練與推論不可或缺的基礎設施。 至於成立於2010年的SchedMD並非是Slurm的原始發明者，而是隨著Slurm廣泛被學術研究及產業的採用，承接其長期維護、功能開發與商業支援的公司，主導了Slurm的版本演進、主要功能與發布節奏。 Nvidia表示，該公司與SchedMD的合作已超過10年，未來將持續投資Slurm的開發，以維持Slurm於HPC及AI領域開源排程器的領先地位，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172847</guid>
-      <pubDate>Tue, 16 Dec 2025 05:49:09 +0000</pubDate>
+      <title>MITRE公布2025最危險軟體弱點前25名，XSS居冠、緩衝區溢位相關項目新入榜</title>
+      <link>https://www.ithome.com.tw/news/172868</link>
+      <description>新聞MITRE公布2025年CWE Top 25最危險軟體弱點清單，盤點最常成為弱點的原因，以及在實務上帶來高風險的軟體弱點類型。排行顯示，跨站腳本（XSS）維持第1名，SQL注入與跨站請求偽造（CSRF）分居第2與第3名。另外，今年榜單出現多個緩衝區溢位相關項目，包含典型緩衝區溢位首度進入第11名，以及堆疊緩衝區溢位與堆積緩衝區溢位分別列在第14名與第16名。 從前10名來看，Web與命令注入比重高，除XSS與SQL注入外，OS命令注入位居第9名，程式碼注入排第10名。缺少授權檢查今年升至第4名，排名相較2024年上升5名。記憶體安全面向則以越界寫入排第5名、釋放後使用排第7名、越界讀取排第8名，顯示傳統記憶體錯誤仍是高風險類型。 今年榜單調整映射處理方式，官方說明，CWE Top 25以往會先把資料中的CWE映射正規化回View-1003，也就是NVD常用來簡化對應的130種弱點集合。2025年則首度改用CVE Records中原始保留的CWE映射資料，不再強制歸入View-1003的父類別，並結合CNA（CVE Numbering Authority）社群複核部分資料，讓榜單更貼</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172868</guid>
+      <pubDate>Wed, 17 Dec 2025 06:26:09 +0000</pubDate>
     </item>
   </channel>
 </rss>
