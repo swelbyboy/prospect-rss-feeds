@@ -8,82 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Dec 2025 06:37:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Dec 2025 06:37:41 +0000</lastBuildDate>
     <item>
-      <title>Azure CLI internals and how it works</title>
-      <link>https://dev.to/ssan79/azure-cli-internals-and-how-it-works-330o</link>
-      <description>Azure CLI is a command line tool built with Python that sends REST API requests to Azure Resource Manager. The tool packages command modules, a core engine, authentication logic, and an HTTP pipeline. Each command follows a consistent pattern: parse input, authenticate, build a request model, send the request to Azure, and return structured output in JSON or table format. ** Architecture overview** Azure CLI has two major layers: the CLI core and the command modules. The CLI core includes: Comma</description>
-      <guid isPermaLink="false">https://dev.to/ssan79/azure-cli-internals-and-how-it-works-330o</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fywfne3vhr8koui9pohnb.png" length="0" type="image/png"/>
-      <pubDate>Tue, 16 Dec 2025 06:09:07 +0000</pubDate>
+      <title>The ONE Skill I'm Choosing Over LeetCode Grinding in 2025</title>
+      <link>https://dev.to/maame-codes/the-one-skill-im-choosing-over-leetcode-grinding-in-2025-41o1</link>
+      <description>It’s late 2025. and if your LinkedIn feed is anything like mine, it’s a chaotic mix of two things: People panicking that AI agents are about to replace all junior developers. 🤖 People advising juniors to grind 500+ LeetCode problems to pass an interview. 💻 This advice feels… outdated. It feels like preparing for a 2020 job market in a 2026 world. I’m not saying algorithms don’t matter. But the ability to invert a binary tree on a whiteboard isn't what stops production from crashing at 3 AM. I’ve</description>
+      <guid isPermaLink="false">https://dev.to/maame-codes/the-one-skill-im-choosing-over-leetcode-grinding-in-2025-41o1</guid>
+      <pubDate>Wed, 17 Dec 2025 05:51:37 +0000</pubDate>
     </item>
     <item>
-      <title>Using AI to Fight Ransomware Attacks</title>
-      <link>https://dev.to/techbyte360/using-ai-to-fight-ransomware-attacks-4hl2</link>
-      <description>AI-driven tools are increasingly being deployed to detect ransomware patterns, automate responses, and strengthen cyber defenses as attacks escalate. Read More🔗 CyberSecurity #Developers #AI #Ransomware #Infosec</description>
-      <guid isPermaLink="false">https://dev.to/techbyte360/using-ai-to-fight-ransomware-attacks-4hl2</guid>
-      <pubDate>Tue, 16 Dec 2025 06:10:56 +0000</pubDate>
+      <title>🚀Node.js Microservices: Zero to Cloud (Complete Hands-on Series)</title>
+      <link>https://dev.to/shafqat_awan_79b9dbd88cda/nodejs-microservices-zero-to-cloud-complete-hands-on-series-15oh</link>
+      <description>👋 Hello Dev.to Community! I’m building a complete, real‑world Node.js Microservices series where we go from absolute zero to cloud deployment — step by step, no shortcuts, no magic. This series is designed for developers who are tired of scattered tutorials and want to understand how microservices actually work in production. 🎯 What This Series Is About In this ongoing series, we will: Design real microservice architectures Build services using Node.js + Express Use Prisma ORM with PostgreSQL Im</description>
+      <guid isPermaLink="false">https://dev.to/shafqat_awan_79b9dbd88cda/nodejs-microservices-zero-to-cloud-complete-hands-on-series-15oh</guid>
+      <pubDate>Wed, 17 Dec 2025 05:57:47 +0000</pubDate>
     </item>
     <item>
-      <title>Tuncxys DatePicker: Vanilla JS Date &amp;amp; Time Picker</title>
-      <link>https://dev.to/jqueryscript/tuncxys-datepicker-vanilla-js-date-time-picker-3eic</link>
-      <description>Tuncxys DatePicker: a vanilla JavaScript date and time picker with zero dependencies. Key features: Pure JavaScript, no jQuery required 20 built-in languages Customizable themes with granular color control Smart date validation and input masking Responsive popup positioning Date restrictions for booking systems Perfect for projects that need a lightweight, flexible date picker without framework dependencies. 👉 Blog Post 👉 GitHub Repo 👉 Live Demo</description>
-      <guid isPermaLink="false">https://dev.to/jqueryscript/tuncxys-datepicker-vanilla-js-date-time-picker-3eic</guid>
-      <pubDate>Tue, 16 Dec 2025 06:13:22 +0000</pubDate>
+      <title>I Completed 45 Lambda Function Exercises (And I'm Still a Beginner!)</title>
+      <link>https://dev.to/hejhdiss/i-completed-45-lambda-function-exercises-and-im-still-a-beginner-2m40</link>
+      <description>My Functional Programming Learning Journey I recently completed a comprehensive workbook with 45 exercises to learn about lambda functions and functional programming in Python. I want to share my experience with fellow beginners who are on the same learning path. What I Worked Through This wasn't just about lambda functions - it was a deep dive into functional programming concepts in pure Python. The workbook covered: 📚 The 7 Main Topics: Lambda Functions - Anonymous functions with map, filter,</description>
+      <guid isPermaLink="false">https://dev.to/hejhdiss/i-completed-45-lambda-function-exercises-and-im-still-a-beginner-2m40</guid>
+      <pubDate>Wed, 17 Dec 2025 06:00:15 +0000</pubDate>
     </item>
     <item>
-      <title>How I Built 14 Interactive Visualizations Using Google AI Studio</title>
-      <link>https://dev.to/ritampal26/how-i-built-14-interactive-visualizations-using-google-ai-studio-3il4</link>
-      <description>Hello !! Hey!! How are you?? I recently participated in the Google Deepmind X Kaggle hackathon, and thought why not share my experience in here, I really enjoyed building StructViz AI, and although we had to submit a write-up in just 250 words, I thought it was quite less to express my encounters with the bugs, features I had built, so hop on with me!! The Discovery: A Late-Night Scroll That Changed Everything It was a dull evening, when I stumbled across the Gemini 3 Pro Vibe Coding Hackathon a</description>
-      <guid isPermaLink="false">https://dev.to/ritampal26/how-i-built-14-interactive-visualizations-using-google-ai-studio-3il4</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4i9y28c7aaalomtbwji4.png" length="0" type="image/png"/>
-      <pubDate>Tue, 16 Dec 2025 06:18:46 +0000</pubDate>
+      <title>Advent of AI - Day 12: MCP Sampling</title>
+      <link>https://dev.to/nickytonline/advent-of-ai-day-12-mcp-sampling-29b4</link>
+      <description>I've edited this post, but AI helped. These are meant to be quick posts for the Advent of AI. If I'm doing one of these each day, I don't have time to spend a couple hours on each post. The advent of AI series leverages Goose, an open source AI agent. If you've never heard of it, check it out! block / goose an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM goose a local, extensible, open source AI agent that automates engineerin</description>
+      <guid isPermaLink="false">https://dev.to/nickytonline/advent-of-ai-day-12-mcp-sampling-29b4</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fassets.dev.to%2Fassets%2Fgithub-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 17 Dec 2025 06:01:21 +0000</pubDate>
     </item>
     <item>
-      <title>10 Best Coding Interview Practice Tools for 2026 🔥</title>
-      <link>https://dev.to/finalroundai/10-best-coding-interview-practice-tools-for-2026-1f1o</link>
-      <description>With 2026 getting closer, coding interviews are no longer just about solving problems correctly. They’re about how you think, how you communicate, and how you stay composed when the pressure is on. Hiring teams today want to understand your reasoning, your trade-offs, and how you handle uncertainty. Many developers fail interviews because their thoughts get tangled under stress. Others know the solution but struggle to explain it clearly or freeze when an interviewer asks a follow-up question th</description>
-      <guid isPermaLink="false">https://dev.to/finalroundai/10-best-coding-interview-practice-tools-for-2026-1f1o</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkpytpivmqufan615irz0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 16 Dec 2025 06:24:46 +0000</pubDate>
+      <title>What `apt upgrade` Actually Does</title>
+      <link>https://dev.to/kingyou/what-apt-upgrade-actually-does-35i0</link>
+      <description>apt upgrade does not update the system version. It only upgrades minor versions of already installed packages and will not change the Debian release (e.g., from bookworm to trixie). apt upgrade: Only updates existing package versions - bash 5.2.15 → bash 5.2.21 (bug fixes, security patches) - btop 1.3.2 → btop 1.3.3 (new features) - Will NOT: bookworm → Debian 13 Safety Limits: No new packages installed No old packages removed No dependency changes System Version Upgrade Commands Command Purpose</description>
+      <guid isPermaLink="false">https://dev.to/kingyou/what-apt-upgrade-actually-does-35i0</guid>
+      <pubDate>Wed, 17 Dec 2025 06:11:47 +0000</pubDate>
     </item>
     <item>
-      <title>How Event-Driven Architecture Improves Modern Web App Development</title>
-      <link>https://dev.to/techifysolutions/how-event-driven-architecture-improves-modern-web-app-development-4h15</link>
-      <description>Imagine your application handling millions of events per second, with services that scale independently and recover gracefully from failures. This isn't just a dream—it's what Event-Driven Architecture enables. In traditional architectures, components are tightly coupled. When one service fails, it can bring down the entire system. When you need to scale, you have to scale everything together. When you want to add new features, you risk breaking existing functionality. Event-Driven Architecture</description>
-      <guid isPermaLink="false">https://dev.to/techifysolutions/how-event-driven-architecture-improves-modern-web-app-development-4h15</guid>
-      <pubDate>Tue, 16 Dec 2025 06:29:19 +0000</pubDate>
+      <title>15 AWS EMR Cost Optimization Tips to Slash Your EMR Spending (2025)</title>
+      <link>https://dev.to/chaos-genius/15-aws-emr-cost-optimization-tips-to-slash-your-emr-spending-2025-47g4</link>
+      <description>AWS EMR (Elastic MapReduce) is a fully managed big data platform. It manages the setup, configuration, and tuning of open source frameworks like Apache Hadoop, Apache Spark, Apache Hive, Presto, and more at scale on AWS infrastructure. EMR handles cluster scaling, resource allocation, and lifecycle management. This allows you to work with large datasets for various use cases, from ETL pipelines to ML workloads. EMR uses a pay-as-you-go pricing model. Costs for compute, storage, and other AWS ser</description>
+      <guid isPermaLink="false">https://dev.to/chaos-genius/15-aws-emr-cost-optimization-tips-to-slash-your-emr-spending-2025-47g4</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcu8cm2r0amgc61z5pllh.png" length="0" type="image/png"/>
+      <pubDate>Wed, 17 Dec 2025 06:15:34 +0000</pubDate>
     </item>
     <item>
-      <title>How to Send Emails with React Using Nodemailer</title>
-      <link>https://dev.to/davecodes/how-to-send-emails-with-react-using-nodemailer-1pi7</link>
-      <description>As a frontend developer, you'll often require the ability to send emails from your web app built using tools like React. Whether you're building a contact form or implementing a full email system, handling email functionality in React can significantly enhance user and developer experience. In this post, you'll learn how to send emails with React using Nodemailer backend. Table of Contents How to Send Emails with React Prerequisites Setup a React Project Build an Email Backend Connect Backend to</description>
-      <guid isPermaLink="false">https://dev.to/davecodes/how-to-send-emails-with-react-using-nodemailer-1pi7</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7utexlknvy9c04hp7ucz.png" length="0" type="image/png"/>
-      <pubDate>Tue, 16 Dec 2025 06:29:23 +0000</pubDate>
+      <title>Display Rupiah Values Beautifully with formatCompact()</title>
+      <link>https://dev.to/choiruladamm/display-rupiah-values-beautifully-with-formatcompact-3pgc</link>
+      <description>Ever noticed how Instagram shows "1.2M likes" instead of "1,200,000 likes"? That's compact formatting - and your Indonesian apps need it too. Large numbers like Rp 1.500.000.000 take up too much space and are hard to read at a glance. That's why I built formatCompact() in @indodev/toolkit - it formats Rupiah using Indonesian units: ribu, juta, miliar, triliun. Installation npm install @indodev/toolkit Basic Usage import { formatCompact } from '@indodev/toolkit'; formatCompact(1500000); // → 'Rp</description>
+      <guid isPermaLink="false">https://dev.to/choiruladamm/display-rupiah-values-beautifully-with-formatcompact-3pgc</guid>
+      <pubDate>Wed, 17 Dec 2025 06:21:53 +0000</pubDate>
     </item>
     <item>
-      <title>Building Magic Link Authentication with Next.js Server-Side Rendering and Supabase</title>
-      <link>https://dev.to/nolliebigspin/building-magic-link-authentication-with-nextjs-server-side-rendering-and-supabase-45gn</link>
-      <description>Building authentication is one of those things that looks easy at first — until it isn’t. You want something secure, user-friendly, and boring in production (boring is good). At the same time, users don’t want to deal with passwords, resets, or friction just to get started. In this article, I’ll walk through how to build magic link authentication using Supabase and Next.js 16, leaning on server-side rendering where it actually makes sense. We’ll start with the problem, move through the ideas beh</description>
-      <guid isPermaLink="false">https://dev.to/nolliebigspin/building-magic-link-authentication-with-nextjs-server-side-rendering-and-supabase-45gn</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyomnt0wgrs8xaijqnav0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 16 Dec 2025 06:30:37 +0000</pubDate>
+      <title>Export Your Brain: A Simple Way To Make Any AI “Know You” From Day One</title>
+      <link>https://dev.to/onlyoneaman/export-your-brain-a-simple-way-to-make-any-ai-know-you-from-day-one-2bnd</link>
+      <description>Every new AI tool treats you like a stranger. New chat. New model. New product. Same ritual: “I’m a dev, I use React/TS/Tailwind.” “Keep it short, show code first.” “Don’t give me motivational quotes.” You’ve already trained one AI on all of this. It knows your stack, your tone, your quirks, your life context. The question is: how do you steal that “you” and carry it anywhere? That’s what this article is about: Not “exporting ChatGPT data”, but exporting your persona so any AI, any agent, any sy</description>
+      <guid isPermaLink="false">https://dev.to/onlyoneaman/export-your-brain-a-simple-way-to-make-any-ai-know-you-from-day-one-2bnd</guid>
+      <pubDate>Wed, 17 Dec 2025 06:24:56 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Production-Ready Authentication System in Next.js — Without Reinventing the Wheel</title>
-      <link>https://dev.to/sadegh_shojayefard/building-a-production-ready-authentication-system-in-nextjs-without-reinventing-the-wheel-29p0</link>
-      <description>IdentityUser is a production-ready authentication starter kit for Next.js. It gives you full ownership of auth logic, strong security defaults, and real-world features — without hiding everything behind abstractions or SaaS services. Authentication is one of those problems every serious application must solve — yet almost no one enjoys building it from scratch. You start with a simple login form… Then suddenly you’re dealing with password hashing, session persistence, email verification, OTPs, 2</description>
-      <guid isPermaLink="false">https://dev.to/sadegh_shojayefard/building-a-production-ready-authentication-system-in-nextjs-without-reinventing-the-wheel-29p0</guid>
-      <pubDate>Tue, 16 Dec 2025 06:30:55 +0000</pubDate>
+      <title>Docker Compose How to Set Environment Variables</title>
+      <link>https://dev.to/web_dev-usman/docker-compose-how-to-set-environment-variables-1ca7</link>
+      <description>Configuration is messy Working on a project with multiple environments and keeping track of all the configuration values is definitely not a simple task! Today, we need different settings for development, staging, and production. We might have API keys, database credentials, feature flags, and service URLs. Hardcoding these values is a nightmare, and sharing sensitive information in our codebase is a security risk. The Original Story was published here, and it needs your support please: Docker C</description>
+      <guid isPermaLink="false">https://dev.to/web_dev-usman/docker-compose-how-to-set-environment-variables-1ca7</guid>
+      <pubDate>Wed, 17 Dec 2025 06:28:53 +0000</pubDate>
     </item>
     <item>
-      <title>Autodogfooding Autodock on AWS</title>
-      <link>https://dev.to/mikesol/autodogfooding-autodock-on-aws-1m6a</link>
-      <description>Yesterday, Autodock's environment provisioning time went down from ~30 seconds to 3 seconds 🎊 This was a messy feature, involving cron jobs, webhooks, and various third-party services. Autodock runs on EC2, and the basic idea is to use EC2 ASG lifecycle hooks to customize servers as they transition between states so that they're ready for users when env.launch is called. On top of that, I wanted to preview the change before merging it main. Sounds like a job for... Autodock! I booted up an Autod</description>
-      <guid isPermaLink="false">https://dev.to/mikesol/autodogfooding-autodock-on-aws-1m6a</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ft24weczciw0is8jbh1lt.png" length="0" type="image/png"/>
-      <pubDate>Tue, 16 Dec 2025 06:30:56 +0000</pubDate>
+      <title>The YouTube Social Paradox: A Manifesto</title>
+      <link>https://dev.to/mike_art_0d853def820658a0/the-youtube-social-paradox-a-manifesto-2mfb</link>
+      <description>Google is one of the most technologically powerful companies in human history. YouTube is one of the most successful digital products ever created. Which makes the current state of YouTube's social layer look less like strategy and more like a decade-long refusal to acknowledge the obvious. 1. YouTube Is Already a Social Platform YouTube comments aren't just a feature beneath videos. They are: sustained conversations repeated interactions between the same people conflicts and communities accumul</description>
+      <guid isPermaLink="false">https://dev.to/mike_art_0d853def820658a0/the-youtube-social-paradox-a-manifesto-2mfb</guid>
+      <pubDate>Wed, 17 Dec 2025 06:29:25 +0000</pubDate>
     </item>
   </channel>
 </rss>
