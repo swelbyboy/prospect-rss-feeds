@@ -8,77 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Dec 2025 06:40:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 06:40:04 +0000</lastBuildDate>
     <item>
-      <title>Let's Encrypt明年起導入Generation Y憑證鏈，新憑證不再支援TLS用戶端驗證</title>
-      <link>https://www.ithome.com.tw/news/172856</link>
-      <description>新聞非營利憑證機構Let’s Encrypt將自2026年起分階段調整憑證發行與效期政策，重點包括導入新一代Generation Y根憑證與中繼CA階層，並逐步讓新簽發憑證不再包含TLS用戶端驗證的延伸金鑰用途（EKU），讓憑證用途更聚焦在TLS伺服器（tlsserver）驗證。同時也將依產業規範，逐步縮短憑證有效期。 官方指出，多數僅用於網站HTTPS的使用者預期不需採取行動，但要是曾將Let’s Encrypt憑證用於mTLS等用戶端身分驗證情境，則應提前盤點並調整。 Generation Y不是單指一張新憑證，而是一套新的簽發階層，包含2張新根憑證與6張新中繼CA。Let’s Encrypt說明，這套階層在2025年9月的儀式（Key Ceremony）中產生，接下來會逐步用來簽發憑證並送交各大根憑證信任計畫（Root Program）納入信任存放區。為了降低相容性風險，新根憑證也會由既有根憑證交叉簽發，在既有信任鏈仍可運作的環境下平順過渡。 Generation Y的特別之處在於用途切割，官方提到，新一代中繼CA不再包含TLS Web Client Authentication</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172856</guid>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+      <title>數位憑證皮夾試營運上路，免帶實體證件憑手機就能在超商領包裏、進出企業辦公室、旅館</title>
+      <link>https://www.ithome.com.tw/news/172886</link>
+      <description>新聞數發部籌畫多時的數位憑證皮夾在今天(12/17)進入試營運，即日起民眾可以下載App，安裝電信商的電信卡或是企業的員工卡，免帶證件在超商領取包裏或是進出旅館、辦公室，為我國推動數位身分創新應用，未來還可能與國際接軌，在國外租車或代替護照出示身分資料。 數位憑證皮夾是一種數位身分的發行、自主管理、驗證架構，民眾於手機下載安裝數位憑證皮夾App，可以在App裡安裝政府或學校、民間企業所發行的各種數位身分憑證，例如駕照、工商憑證、技術士證照、學生證、畢業證書或是員工門禁卡，當需要使用第三方服務，需驗證身分證明文件時，民眾能夠自主管理手機上數位憑證皮夾內的各種身分資料，授權予第三方服務提供者驗證。 數發部今天宣布數位憑證皮夾開始試營運，即日起開放民眾下載App，安裝數位身分憑證後，在第三方服務需要驗證身分時，使用手機上的數位憑證皮夾，選擇想要授權第三方存取的身分資料，快速完成身分驗證。 數發部長林宜敬表示，未來的世界絕對是高度數位化的世界，許多活動或服務在數位世界進行，就需要使用者證明自己的身分，例如證明自己是哪間學校的學生、畢業證書，或是出示擁有合格技能的證明文件，例如駕照、調酒師證照等</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172886</guid>
+      <pubDate>Wed, 17 Dec 2025 10:19:32 +0000</pubDate>
     </item>
     <item>
-      <title>Atlassian修補旗下產品46項漏洞，Apache Tika滿分XXE入列</title>
-      <link>https://www.ithome.com.tw/news/172857</link>
-      <description>新聞Atlassian發布12月資安公告，表示過去一個月針對旗下資料中心與伺服器自託管產品更新版本，累計修補37項高嚴重度漏洞，與9項關鍵嚴重度的第三方元件漏洞。Atlassian建議用戶將系統升級至最新版，或至少升到公告所列已修補版本，以消除受影響的相依套件風險。 在本次公告列出的多項漏洞中，CVSS 10分的Apache Tika XXE弱點CVE-2025-66516最受關注。Atlassian在Bamboo、Confluence、Jira Software、Jira Service Management等條目列出此CVE，並同樣出現在Crowd與Fisheye/Crucible的條目中。Atlassian也提醒，這屬第三方相依套件弱點，依其評估在自家產品的實際使用情境下風險較低，但仍已隨新版納入修補。 Apache Tika是常見的內容分析與中繼資料抽取工具，企業系統常用於後端自動解析使用者上傳或批次匯入的文件。依NVD描述，CVE-2025-66516屬於透過PDF內特製XFA內容，觸發XML外部實體（XML External Entity，XXE）漏洞的問題。當後端解析流程</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172857</guid>
-      <pubDate>Wed, 17 Dec 2025 01:13:38 +0000</pubDate>
+      <title>日本電商Askul公布勒索軟體攻擊調查報告，物流與備份系統遭加密外洩約74萬筆資料</title>
+      <link>https://www.ithome.com.tw/news/172877</link>
+      <description>新聞日本辦公用品與電商業者Askul公布勒索軟體事件調查報告，確認公司物流與內部系統遭加密並造成大規模服務中斷，同時有資料外洩。目前企業客戶端已恢復部分商品受理訂單，並在確認穩定後逐步擴大出貨作業。依Askul的彙整，確認外洩的資訊包含企業客戶約59萬筆、個人服務客戶約13.2萬筆，以及部分合作夥伴資料約1.5萬筆，合計約74萬筆，另還包含員工等約2,700筆資料。 對攻擊者身分，Askul官方文件並未點名特定組織。不過外媒The Japan Times報導指出，自稱RansomHouse的組織在暗網發布聲明宣稱犯案，Askul則對外表示已知悉該聲明並正在查證事實。 Askul物流系統與公司內系統確認遭勒索軟體感染，部分資料包含備份資料被加密而一度無法使用，且部分資料遭竊取並被公開，導致物流中心出貨業務全面停止。Askul指出，後續也發現外部雲端的客服詢問管理系統帳號遭竊取並被入侵，相關資訊同樣有外洩情形。 在目前的鑑識結論中，主要業務系統與面向客戶的電子商務網站與合作夥伴服務未發現被入侵跡象。 Askul在報告中也坦言，因部分通訊與存取紀錄遺失，難以完整界定攻擊者實際瀏覽的資訊範圍，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172877</guid>
+      <pubDate>Wed, 17 Dec 2025 22:11:57 +0000</pubDate>
     </item>
     <item>
-      <title>WatchGuard修補防火牆產品Firebox多項重大資安漏洞</title>
-      <link>https://www.ithome.com.tw/news/172858</link>
-      <description>新聞在12月4日，網路防火牆廠商WatchGuard發布多則安全性公告，揭露其Firebox防火牆與Fireware OS存在多項重大資安漏洞，影響系統完整性驗證流程、管理介面指令，以及VPN相關元件，對企業網路安全構成顯著風險。 首先需要留意的是開機完整性檢查繞過漏洞CVE-2025-13940，可讓攻擊者繞過Fireware OS在開機階段執行的系統完整性驗證機制。其CVSS風險評分為6.7，屬於中度風險。當系統偵測到完整性異常時，攻擊者可阻止Firebox正常關機，使已遭惡意修改的系統持續運作。受影響版本包括Fireware OS 12.8.1至12.11.4，以及2025.1至2025.1.2。 WatchGuard這次針對Firebox與Fireware OS修補中，還包含三項越界寫入（Out-of-Bounds Write）類型的高風險漏洞，可讓已驗證且具備高權限的使用者執行任意程式碼。 首先是存在於Fireware OS命令列介面（CLI）的CVE-2025-12196，以及CVE-2025-12195，兩者CVSS評分皆達8.6。另一項高風險越界寫入漏洞是CVE-202</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172858</guid>
-      <pubDate>Wed, 17 Dec 2025 03:42:15 +0000</pubDate>
+      <title>Meta發表SAM Audio模型以多模態提示分離指定聲源</title>
+      <link>https://www.ithome.com.tw/news/172887</link>
+      <description>新聞Meta發表其最新音訊分離模型SAM Audio，主打以提示方式從混合音訊中抽離特定音源，並支援文字提示、畫面點選與時間區段標記3種互動。Meta表示，SAM Audio與其背後的技術引擎PE-AV（Perception Encoder Audiovisual）即日起提供使用，同時也把SAM Audio放進Segment Anything Playground，讓用戶可直接選用平臺素材或上傳自己的影音內容操作。另外，Meta也提供模型下載，模型權重則需申請存取。 SAM Audio提供3種提示，對應不同素材與工作情境。文字提示適合直接描述目標聲音，例如輸入狗叫聲或歌聲來抽取聲源。視覺提示則針對影音內容，使用者可在影片畫面上點選正在發聲的人或物件，讓系統利用畫面線索協助鎖定聲音。時間段提示則讓使用者在時間軸上標記目標聲音出現的區段，Meta稱這是業界首見的時間段提示設計，且3種提示可單獨使用，也能混合搭配以取得更符合需求的分離結果。 Meta舉例可在樂團演出影片中點選吉他以抽離其聲音，也可用文字提示過濾戶外錄影的車流噪音，或用時間段提示一次處理整段Podcast錄音中的特定干擾聲。M</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172887</guid>
+      <pubDate>Thu, 18 Dec 2025 00:36:14 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI更新ChatGPT Images，影像生成速度提升4倍</title>
-      <link>https://www.ithome.com.tw/news/172861</link>
-      <description>新聞OpenAI周二（12/16）更新了ChatGPT Images，新一代的GPT Image 1.5能更可靠地遵循使用者的指令，影像生成速度為上一代GPT Image 1.0的4倍，目前該模型已整合至所有用戶可使用的ChatGPT，並同步釋出GPT Image 1.5 API，供開發者與企業導入應用。 根據OpenAI說明，GPT Image 1.5在影像生成與編輯準確度上均有明顯提升。使用者不僅可從零開始生成圖片，也能對既有照片進行編輯，而模型在多次修改過程中，仍能維持光線、構圖與人物外觀等關鍵元素的一致性，降低反覆調整所帶來的品質流失問題。 此次更新的一大重點，是ChatGPT內新增專屬的Images創作空間，提供預設風格、濾鏡與提示，讓影像探索與創作流程更貼近實際創意工作室的使用情境。 在技術能力上，GPT Image 1.5對指令的遵循度明顯改善。當使用者要求編輯圖片時，模型能更精準地只修改指定部分，其餘內容則完整保留，使照片修圖、服裝與髮型試穿、風格轉換等應用更為自然。此外，新模型也支援新增、移除、混合與轉置等進階編輯操作，並兼顧原始影像品質。 文字呈現能力亦是此次升級的</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172861</guid>
-      <pubDate>Wed, 17 Dec 2025 03:55:32 +0000</pubDate>
+      <title>Google發表Gemini 3 Flash模型 比2.5 Pro還強大、更有效率</title>
+      <link>https://www.ithome.com.tw/news/172888</link>
+      <description>新聞在上個月發表Gemini 3，以及OpenAI公布GPT 5.2、GPT Image 1.5後，Google周三（12/17）宣布Gemini 3 Flash版本，強調高效能、且在多項測試中比Gemini 2.5 Pro還強、更有效率。現在已可在Gemini App使用。 Google說，剛剛推出的Gemini 3在複雜推理、多模態及視覺理解能力展現極高效能，Gemini 3 Flash保留這項優點為基礎，並整合Gemini 3 Pro等級的推理、以及Flash系列的低延遲性、效率及成本效益。它不只能支援日常任務，也是代理式工作流程「最令人印象深刻」的模型。 現在開發人員可以經由Google AI Studio、Gemini CLI、代理人開發平臺Google Antigravity的Gemini API使用Gemini 3 Flash（目前為gemini-3-flash-preview）。一般用戶可在Gemini App及Google搜尋的AI模式使用。而大型企業則能經由Vertex AI及Gemini Enterprise存取最新Flash模型。 高效能是Gemini 3 Fl</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172888</guid>
+      <pubDate>Thu, 18 Dec 2025 02:25:12 +0000</pubDate>
     </item>
     <item>
-      <title>Fortinet甫修補的漏洞已遭駭客濫用</title>
-      <link>https://www.ithome.com.tw/news/172862</link>
-      <description>新聞Fortinet上周修補影響旗下防火牆、閘道器等產品的兩個重大漏洞已經遭人濫用。 這兩項漏洞CVE-2025-59718及CVE-2025-59719，皆為加密簽章不當驗證造成，未經身分驗證的攻擊者可發送特製的SAML訊息，即可繞過FortiCloud單一簽入（SSO）的身分驗證機制，啟用此單一簽入機制的FortiOS、FortiWeb、FortiProxy，或是FortiSwitchManager都會受影響。這兩項漏洞CVSS風險分數皆達9.8。 早在Fortinet修補兩個漏洞後兩日，即12月12日資安業者Arctic Wolf就開始觀察到閘道器FortiGate裝置，出現惡意單一簽入登入（SSO login）的跡象。 分析存取IP位置是來自數家代管業者，包括The Constant Company LLC, BL Networks及Kaopu Cloud HK Limited，意謂可能是協同攻擊。一如常見惡意登入，這幾波存取的目標也是管理員帳號。而攻擊者在成功登入後，就將系統配置資訊（像是憑證及裝置設定）利用GUI介面傳到來源IP位址。 研究人員建議受影響的Fortinet用</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172862</guid>
-      <pubDate>Wed, 17 Dec 2025 04:13:36 +0000</pubDate>
+      <title>勒索軟體Weaxor加入利用React滿分漏洞的行列</title>
+      <link>https://www.ithome.com.tw/news/172889</link>
+      <description>新聞本月初React開發工程團隊修補滿分資安漏洞CVE-2025-55182（React2Shell），不久後就有多組中國國家級駭客用於實際攻擊，接續傳出北韓駭客、殭屍網路，以及挖礦軟體加入利用行列的消息，現在傳出也有勒索軟體運用這個漏洞的情況。 企業情報暨風險顧問公司S-RM發現，有基於財務動機犯案的駭客組織對他們客戶下手，企圖部署勒索軟體Weaxor，過程裡使用React2Shell取得初期的存取管道。駭客在12月5日成功入侵後，隨即執行經混淆處理的PowerShell指令，下載Cobalt Strike並部署Beacon，以建立C2通訊。接著，他們停用內建防毒Microsoft Defender的即時防護功能，部署勒索軟體有效酬載。 值得留意的是，駭客從成功入侵到執行勒索軟體，僅花了不到一分鐘的時間，這代表所有攻擊流程可能透過自動化執行，此外，他們並未進一步橫向移動到其他內部系統，也沒有竊取資料或是外洩。後續受害主機遭到其他駭客入侵，並部署自己的C2通訊機制，不過，S-RM並未透露這些駭客的身分，也沒有說明相關細節。 針對Weaxor的來歷，S-RM指出此為去年出現的勒索軟體，很</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172889</guid>
+      <pubDate>Thu, 18 Dec 2025 02:55:28 +0000</pubDate>
     </item>
     <item>
-      <title>Google測試可匯報郵件、行事曆、文件內容的AI代理人</title>
-      <link>https://www.ithome.com.tw/news/172864</link>
-      <description>新聞Google旗下實驗室Google Labs本周宣布一項新的實驗性AI生產力代理人CC，可為使用者整理Gmail、行事曆、甚至網頁內容重點，為使用者匯報每日重點。 當用戶註冊加入後。CC會連結用戶使用的Google服務，包括Gmail、Google Calendar、Google Drive及網頁，它有點像個人祕書，能理解使用者一天活動，整理出「前日重點（Your Day Ahead）」寄到Gmail，方便用戶隔日一早檢閱。這份簡報把用戶每日行程、主要工作及進展整理成簡單明瞭的重點，幫助使用者更快決定接下來的動作，像是付帳單或準備看診。必要時CC也能草擬郵件或行事曆連結，加速使用者作業。 用戶也可以透過自訂命令讓CC直接回覆、或提供更多資料來訓練CC、或是要求它記住某些想法或待辦事項，以加速它在某些情況下的處理速度。 目前CC是一項早期實驗，開放18歲以上的美國及加拿大消費者加入測試，但現在僅對Google AI Ultra及付費訂閱戶開放。有興趣的人必須先報名加入等候清單。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172864</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/1217-CC-AI%20productivity%20agent-Gmail_Calendar_Drive_2.png" length="0" type="image/png"/>
-      <pubDate>Wed, 17 Dec 2025 05:13:06 +0000</pubDate>
+      <title>微軟12月安全更新造成Windows 10 PC、舊版Server IIS、MQ功能無法運作</title>
+      <link>https://www.ithome.com.tw/news/172890</link>
+      <description>新聞微軟昨（17）日公告，本月的安全更新，造成Windows 10及舊版Windows Server的IIS及訊息佇列（Message Queuing，MSMQ）失常，出現資源不足錯誤訊息，微軟正在調查原因。 出現問題的是Patch Tuesday中釋出的KB5071546。部分用戶安裝於Windows機器後，MSMQ無法運作。這問題也影響運作中的叢集MSMQ環境。 這問題症狀包括，MSMQ訊息佇列靜止不動、IIS網站無法展開，帶有「執行運作的資源不足」的錯誤訊息、應用程式無法寫入佇列、應用程式撰寫訊息檔案時出現「C:\Windows\System32\msmq\storage*.mq無法建立」的錯誤訊息，以及一些誤導log像是「磁碟空間或記憶體不足」，但事實並非如此。 微軟推測原因可能是，近日該公司對MSMQ安全模型及C:\Windows\System32\MSMQ\storage資料夾NTFS權限進行的變更所致。MSMQ用戶現在必須具備寫入權限才能存取，通常只有管理員才符合資格。因此如果用戶企圖透過MSMQ API傳送訊息，將觸發上述資源不足的錯誤。 這問題主要影響企業或託管的IT</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172890</guid>
+      <pubDate>Thu, 18 Dec 2025 03:28:31 +0000</pubDate>
     </item>
     <item>
-      <title>Windows Server 2025正式加入NVMe支援  IOPS提升最高80%</title>
-      <link>https://www.ithome.com.tw/news/172865</link>
-      <description>新聞微軟宣布Windows Server 2025加入NVMe原生支援，可望最多提高NVMe輸出、輸入效能80%。 微軟於2024年4月首度公布，Windows Server 2025將原生支援NVMe（非揮發性記憶體Express），可大幅提升IOPS (I/O per second)。這項功能連同10月份Server 2025的累積更新（cumulative update，CU）KB5066835部署給企業用戶，但當時這功能是關閉的。 周二微軟正式宣布Server 2025原生NVMe支援全面提供（generally available，GA），以提升現代NVMe SSD在Windows Server中的運作效能。 微軟說Windows Server 2025原生支援NVMe，是公司工程團隊和軟硬體夥伴合作的結果。為了原生支援NVMe，Windows儲存堆疊經過重新設計，不再將所有儲存裝置當成SCSI（Small Computer System Interface）來處理，後者是早期速度較慢的儲存裝置所用的介面。新設計不再需要將NVMe指令轉成SCSI指令的過程，讓Windows</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172865</guid>
-      <pubDate>Wed, 17 Dec 2025 05:20:55 +0000</pubDate>
+      <title>汽車零件大廠LKQ通報Oracle EBS資料外洩　影響近萬人</title>
+      <link>https://www.ithome.com.tw/news/172892</link>
+      <description>新聞美國汽車零件大廠大豪（LKQ）本周向主管機關通報Oracle E-Business Suite（EBS）遭駭，外洩將近一萬人個資。 LKQ是Cl0p勒索軟體駭客於網上公布的受害者清單的知名企業之一。Cl0p駭客10月揚言要公開這家汽車元件廠的資料。 根據LKQ向緬因州檢察長辦公室提交的文件，該公司在甲骨文9月份公布零時差漏洞後，於10月3日在第三方資安鑑識業者協助下展開調查，發現資料外洩事件，時間點落在9月8日。LKQ一察覺此事隨即切斷系統連線。LKQ相信沒有Oracle EBS以外的系統環境受影響。 LKQ團隊於12月1日完成分析，他們判斷Oracle EBS中的LKQ獨資供貨商資料遭到存取。受影響總人數為9,070人。外洩資料類型包含僱主識別碼（Employer Identification Number）或社會安全碼。該公司也在本周通知受影響的個人。 去年11月LKQ也遭到網路攻擊，導致加拿大分公司運作中斷。但攻擊者是否為勒索軟體不得而知。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172892</guid>
+      <pubDate>Thu, 18 Dec 2025 05:07:52 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI推出可衡量專家級科學推理能力的AI基準測試FrontierScience</title>
-      <link>https://www.ithome.com.tw/news/172866</link>
-      <description>新聞OpenAI周二（12/16）發表全新研究基準FrontierScience，用於評估AI在物理、化學與生物等領域中，執行專家級科學推理與研究任務的能力。 OpenAI解釋，一項由博士級專家撰寫的科學基準GPQA在2023年11月推出時，GPT-4僅獲得39%的成績，低於人類專家70%的平均值，但2025年的GPT-5.2在GPQA已拿到92%。顯示出模型能力的快速進化，已使既有以選擇題為主、難度趨於飽和的科學評測，不足以用來衡量AI是否真能加速科學研究。 由物理、化學及生物領域專家撰寫並驗證的FrontierScience基準測試，包含了數百道具備高難度、原創性與實質意義的題目，它設計了兩種不同的測試方向，一是用來衡量奧林匹亞競賽風格之科學推理能力的Olympiad，它是由國際奧林匹亞競賽獎牌得主設計的短答題，用於評估模型在受限條件下，是否能進行精確、嚴謹且可驗證的科學推理。 二是衡量真實世界科學研究能力的Research，它由博士級研究人員設計，題型為多步驟、開放式研究任務，要求模型分析問題、展開推論並給出完整解釋，並透過10分制量表評估其推理過程與結論是否合理。 GPT-5.</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172866</guid>
-      <pubDate>Wed, 17 Dec 2025 05:43:56 +0000</pubDate>
+      <title>Opal進駐Gemini，成為Gem建置工具</title>
+      <link>https://www.ithome.com.tw/news/172893</link>
+      <description>新聞Google周三（12/17）宣布，已將用來建置AI迷你應用的Opal工具整合至Gemini網頁版，讓使用者可透過Opal建立AI助理Gem。 Opal是Google Labs於2025年7月發表的無程式碼AI應用建置工具，定位為「AI流程與迷你應用的編排層」，可將一連串AI指令整理成固定流程，封裝為可重複使用的AI迷你應用。Google最初為Opal設置獨立入口網站（opal.google），讓使用者以視覺化方式串接提示、模型與工具，但並未揭露其背後實際的模型存取與執行細節。 Gems則是Google在Gemini中推出的客製化AI助理機制，讓使用者能依特定任務、情境或工作習慣，建立可重複使用的專屬AI專家。其核心在於將使用者反覆輸入的指令與偏好固定下來，形成一個可長期呼叫的AI角色。 Google本周將Opal整合至Gemini網頁版後，Gems的建立方式也隨之升級。使用者只要進入Gemini網頁，從側邊欄開啟Gems管理器並選擇以Opal建立Gem，Opal便會以內嵌方式啟動。使用者可直接用文字描述所要完成的任務，Opal會自動將描述拆解為多個步驟，並允許逐步編輯提示內容與流</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172893</guid>
+      <pubDate>Thu, 18 Dec 2025 05:29:41 +0000</pubDate>
     </item>
     <item>
-      <title>針對2022年密碼管理服務商LastPass資料外洩事故，英國開罰120萬英鎊</title>
-      <link>https://www.ithome.com.tw/news/172867</link>
-      <description>新聞英國資料隱私主管機關本周就三年前發生大量資料外洩事件，判罰密碼管理方案業者LastPass 120萬英鎊。 英國資訊委員會辦公室（Information Commissioner's Office,ICO）基於160萬英國用戶個資外洩，判罰LastPass 120萬英鎊。 ICO指出，其調查發現LastPass導入的技術和資安措施完備性不足，最終導致駭客非授權存取備份資料庫，而且沒有證據顯示起因存在用戶裝置上的未加密密碼所致。 根據英國政府的調查，2022年8月LastPass發生兩次資安事件。先是LastPass歐洲區員工公司筆電被駭，駭客進入公司開發環境。當時沒有個資被存取，但竊走了加密的公司憑證。那次LastPass措施奏效，金鑰存放在四名資深員工（包含第二次的受害員工）的帳號保管庫（account vaults）之外，未被駭客存取。 第二次事件中，駭客利用第三方程式漏洞，在LastPass美國員工個人電腦植入鍵盤側錄程式，並盜走雲端資料儲存金鑰，開啟禍端。駭客從該公司的AWS S3儲存庫竊走客戶資料備份，包括公司名稱、電子郵件、IP位址、網頁書籤、密碼及加密資料等。此事並造</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172867</guid>
-      <pubDate>Wed, 17 Dec 2025 06:13:32 +0000</pubDate>
+      <title>YouTube獲得奧斯卡獎的全球獨家轉播權</title>
+      <link>https://www.ithome.com.tw/news/172895</link>
+      <description>新聞美國電影藝術與科學學院（The Academy of Motion Picture Arts and Sciences，The Academy）周三（12/17）簽署一項合作協議，YouTube自2029年起將獲得奧斯卡金像獎（Oscars）的全球獨家轉播權，從2029年的第101屆開始，一直持續至2033年。 成立於1927年的The Academy是一個由電影專業人士組成的非營利組織，並於1929年創立奧斯卡金像獎，成為全球最具影響力的電影獎項，旨在表彰電影藝術與技術上的卓越成就。奧斯卡長期採取傳統電視網轉播模式，在美國自1976年起由ABC負責播出，現行合約將於2028年到期；國際市場則由迪士尼旗下的Buena Vista International負責發行與授權。此次The Academy決定將美國與全球的奧斯卡轉播權全面交由YouTube，也象徵奧斯卡首次以數位平臺作為核心發布管道。 根據合作內容，奧斯卡金像獎頒獎典禮將在全球於YouTube免費直播，美國觀眾則可同時透過Google於當地推出的付費線上電視服務YouTube TV收看，內容涵蓋紅毯、幕後花絮與州長舞會等延</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172895</guid>
+      <pubDate>Thu, 18 Dec 2025 05:49:00 +0000</pubDate>
     </item>
     <item>
-      <title>MITRE公布2025最危險軟體弱點前25名，XSS居冠、緩衝區溢位相關項目新入榜</title>
-      <link>https://www.ithome.com.tw/news/172868</link>
-      <description>新聞MITRE公布2025年CWE Top 25最危險軟體弱點清單，盤點最常成為弱點的原因，以及在實務上帶來高風險的軟體弱點類型。排行顯示，跨站腳本（XSS）維持第1名，SQL注入與跨站請求偽造（CSRF）分居第2與第3名。另外，今年榜單出現多個緩衝區溢位相關項目，包含典型緩衝區溢位首度進入第11名，以及堆疊緩衝區溢位與堆積緩衝區溢位分別列在第14名與第16名。 從前10名來看，Web與命令注入比重高，除XSS與SQL注入外，OS命令注入位居第9名，程式碼注入排第10名。缺少授權檢查今年升至第4名，排名相較2024年上升5名。記憶體安全面向則以越界寫入排第5名、釋放後使用排第7名、越界讀取排第8名，顯示傳統記憶體錯誤仍是高風險類型。 今年榜單調整映射處理方式，官方說明，CWE Top 25以往會先把資料中的CWE映射正規化回View-1003，也就是NVD常用來簡化對應的130種弱點集合。2025年則首度改用CVE Records中原始保留的CWE映射資料，不再強制歸入View-1003的父類別，並結合CNA（CVE Numbering Authority）社群複核部分資料，讓榜單更貼</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172868</guid>
-      <pubDate>Wed, 17 Dec 2025 06:26:09 +0000</pubDate>
+      <title>OpenAI開放開發者送審ChatGPT內第三方App，上架後將可在目錄被搜尋</title>
+      <link>https://www.ithome.com.tw/news/172894</link>
+      <description>新聞OpenAI開放開發者提交ChatGPT內第三方應用程式（ChatGPT App）送審，通過審核後可在ChatGPT內發布，並由使用者透過新上線的內建App目錄搜尋與探索。OpenAI表示，App可在對話中引入額外情境並執行動作，例如協助下單採買雜貨，將大綱轉為簡報或是協助找房等。 當使用者連結特定App後，可在對話中用@提及App名稱觸發，也可從工具選單手動選用。OpenAI同時透露正在測試，依對話脈絡、App使用型態與使用者偏好等訊號，在對話中建議可能有幫助的App，並提供更清楚的回饋管道。 針對開發者端，OpenAI強調應以對話為核心設計體驗，並提供仍處於測試版的Apps SDK作為開發工具。官方也整理多項資源，包括打造高品質App的最佳實務、開源範例、開源的介面函式庫，以及快速入門指南與開發者資源中心，助開發者完成設計與實作。 OpenAI表示，開發者可在OpenAI Developer Platform提交App並追蹤審核進度。送審資料將包含模型情境協定MCP的連線資訊、測試指引、目錄所需的中繼資料，以及上架地區設定。OpenAI並說明，第一批通過審核的App預計在明年起</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172894</guid>
+      <pubDate>Thu, 18 Dec 2025 06:20:11 +0000</pubDate>
     </item>
   </channel>
 </rss>
