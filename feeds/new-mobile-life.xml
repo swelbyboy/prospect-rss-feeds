@@ -8,86 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Dec 2025 06:40:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 18 Dec 2025 06:40:01 +0000</lastBuildDate>
     <item>
-      <title>Meta 首席 AI 科學家：LLM 是死路　效率極低</title>
-      <link>https://www.newmobilelife.com/2025/12/17/meta-lecun-llm-is-a-wrong-way-to-go/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=meta-lecun-llm-is-a-wrong-way-to-go</link>
-      <description>Meta 首席 AI 科學家 Yann LeCun 在與 DeepMind 研究員 Adam Brown 的辯論中表示，大型語言模型（LLM）代表了通往類人智能的死路。LeCun 認為，根本問題在於這些模型進行預測的方式。 離散預測的缺陷 LeCun 批評 LLM 的技術基礎，也就是離散 tokens 的自迴歸預測。這種方法適用於語言，因為字典包含有限數量的單詞。然而，LeCun 認為，當應用於現實世界（例如影片數據）時，這種方法會失敗。現實是連續且高維度的，而不是離散的。他解釋說：「你無法真正表示未來可能發生的所有事情的分布，因為它基本上是一個無限可能的列表。」過去 20 年來，將文本預測原理轉移到影片像素層級的嘗試都失敗了。對於精確的像素預測來說，世界太過混亂和嘈雜，無法理解物理或因果關係。 新架構的需求 LeCun 指出，與生物大腦相比，目前 AI 系統的效率極低。LLM 可能接受過大約 30 兆個單詞的訓練，這個文本量人類需要 50 萬年才能讀完。相比之下，一個四歲的孩子處理的文本較少，但視覺數據量巨大。兒童透過視神經（每秒傳輸約 20 MB）在其短暫的一生中處理大約 10^1</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/17/meta-lecun-llm-is-a-wrong-way-to-go/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=meta-lecun-llm-is-a-wrong-way-to-go</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/12/meta-ai-5-1024x538.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 16 Dec 2025 17:05:49 +0000</pubDate>
+      <title>Apple 簡化 M5 版 14 吋 MacBook Pro 電池更換程序</title>
+      <link>https://www.newmobilelife.com/2025/12/17/apple-macbook-pro-battery-replacement/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-macbook-pro-battery-replacement</link>
+      <description>近年來，在監管壓力及使用者需求不斷增加下，Apple 致力於提升旗下裝置的維修便利性。自助維修計劃雖然並非最容易或最經濟的選擇，但確實為更積極的使用者提供了一種途徑。Apple 於週二宣布，配備 M5 晶片的 14 吋 MacBook Pro 電池更換程序已簡化，並將電池加入自助維修商店，同時提供相關手冊。 官方認可 儘管拆解報告已顯示，配備 M5 晶片的 14 吋 MacBook Pro 無需移除觸控板即可更換電池，但 Apple 現在已正式承認此事。自助維修商店現已提供執行此任務所需的零件和工具，並提供手冊。 自行維修風險 儘管是自助服務計劃，Apple 在手冊一開始就明確指出，只有了解自身能力的使用者才應執行此類任務。這比更換汽車散熱器或機油更為複雜。 電池本身的價格為 209.25 美元，使用者可以退回舊電池以獲得 22.50 美元的退款。這不包括完成此任務所需的各種工具成本或時間。Apple 的服務估算工具顯示，更換 14 吋 MacBook Pro 的電池需要 249 美元，而有效的 AppleCare 計劃則可將費用降至零。透過 Apple 授權服務供應商進行維修也可獲得</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/17/apple-macbook-pro-battery-replacement/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-macbook-pro-battery-replacement</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/12/mbp-battery-1024x576.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 17 Dec 2025 11:16:39 +0000</pubDate>
     </item>
     <item>
-      <title>Apple 內部核心偵錯套件洩露 iPhone 17e 與 iPhone 18 Pro 情報</title>
-      <link>https://www.newmobilelife.com/2025/12/17/iphone-17e-18-pro-specs-leak/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=iphone-17e-18-pro-specs-leak</link>
-      <description>消息指出，Apple 正在測試 iPhone 17e 的 C1 系列行動網絡晶片，以及 iPhone 18 Pro 的 C1X 與 C2 晶片。細節來自 Apple 內部核心偵錯套件檔案，該檔案源自運行 iOS 26 早期版本的 Apple 原型設備。這次洩露揭示了有關數十款即將推出的 Apple 設備的具體細節。 iPhone 17e 配備 C1 內部列表顯示，iPhone 17e 配備 C1 系列晶片，但沒有 N1 無線晶片。iPhone 17e 也被描述為使用 Apple 的「Leda」基頻系列，其中包括 C1 和 C1X。目前尚不清楚該設備將使用哪一款，但 The Information 認為是 C1X。N1 無線晶片的缺失可能產生影響，因為如果沒有 N1，即使 iPhone 17e 使用 Apple 設計的行動網絡基頻，也可能缺乏 Thread 支援。 iPhone 18 Pro 或配 C2 Apple 下一代 Pro iPhone 的內部代碼指向一個不太確定的情況。iPhone 18 Pro 在不同的行中列出了 C1X 和 C2 基頻，表明在建立核心偵錯套件時，Apple</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/17/iphone-17e-18-pro-specs-leak/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=iphone-17e-18-pro-specs-leak</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/05/Apple-iPhone-16e-C1-Feature.webp" length="0" type="image/webp"/>
-      <pubDate>Tue, 16 Dec 2025 17:33:40 +0000</pubDate>
+      <title>港大確認論文引文涉 AI 虛構　葉兆輝卸任社科院副院長</title>
+      <link>https://www.newmobilelife.com/2025/12/17/%e6%b8%af%e5%a4%a7%e7%a2%ba%e8%aa%8d%e8%ab%96%e6%96%87%e5%bc%95%e6%96%87%e6%b6%89-ai-%e8%99%9b%e6%a7%8b%e3%80%80%e8%91%89%e5%85%86%e8%bc%9d%e5%8d%b8%e4%bb%bb%e7%a4%be%e7%a7%91%e9%99%a2%e5%89%af/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=%25e6%25b8%25af%25e5%25a4%25a7%25e7%25a2%25ba%25e8%25aa%258d%25e8%25ab%2596%25e6%2596%2587%25e5%25bc%2595%25e6%2596%2587%25e6%25b6%2589-ai-%25e8%2599%259b%25e6%25a7%258b%25e3%2580%2580%25e8%2591%2589%25e5%2585%2586%25e8%25bc%259d%25e5%258d%25b8%25e4%25bb%25bb%25e7%25a4%25be%25e7%25a7%2591%25e9%2599%25a2%25e5%2589%25af</link>
+      <description>香港大學完成就一篇刊登於期刊《China Population and Development Studies》的論文調查，確認該研究部分引文為人工智能生成的虛構文獻，而參與研究的博士生未有作出相關申明。涉事論文題為《Forty years of fertility transition in Hong Kong》，通訊作者為社會科學學院教授葉兆輝。 紀律處分與後續安排 根據調查結果，港大已對事件採取紀律處分及相應措施，包括葉兆輝已卸任學院副院長及研究事務相關職務，並已向相關期刊申請撤稿。涉事博士生亦須依照大學既定紀律程序接受處理。 加強 AI 應用規範培訓 港大表示，將全面加強對所有研究人員的培訓，涵蓋人工智能應用的既定規範與指引，並設立強制性培訓及考核機制，以維護學術誠信及研究質量。 重申學術標準與公眾信任 港大強調，一直對學術要求保持嚴謹，並對研究水平及操守秉持最高標準。所有研究人員必須確保研究質量與操守符合國際水平，大學將繼續以嚴謹標準維護學術卓越及公眾信任。</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/17/%e6%b8%af%e5%a4%a7%e7%a2%ba%e8%aa%8d%e8%ab%96%e6%96%87%e5%bc%95%e6%96%87%e6%b6%89-ai-%e8%99%9b%e6%a7%8b%e3%80%80%e8%91%89%e5%85%86%e8%bc%9d%e5%8d%b8%e4%bb%bb%e7%a4%be%e7%a7%91%e9%99%a2%e5%89%af/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=%25e6%25b8%25af%25e5%25a4%25a7%25e7%25a2%25ba%25e8%25aa%258d%25e8%25ab%2596%25e6%2596%2587%25e5%25bc%2595%25e6%2596%2587%25e6%25b6%2589-ai-%25e8%2599%259b%25e6%25a7%258b%25e3%2580%2580%25e8%2591%2589%25e5%2585%2586%25e8%25bc%259d%25e5%258d%25b8%25e4%25bb%25bb%25e7%25a4%25be%25e7%25a7%2591%25e9%2599%25a2%25e5%2589%25af</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2014/08/hku_logo_1d-1024x594.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 17 Dec 2025 15:24:10 +0000</pubDate>
     </item>
     <item>
-      <title>iPhone 17e 傳將修正 iPhone 16e 最大缺憾　補回 MagSafe 升級 C1X 數據機</title>
-      <link>https://www.newmobilelife.com/2025/12/17/iphone-17e-fix-iphone-16e-flaw/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=iphone-17e-fix-iphone-16e-flaw</link>
-      <description>Apple 在今年二月停產 iPhone SE，並推出新款入門級 iPhone 16e。雖然 iPhone 16e 具備 6.1 吋 OLED 螢幕、支援 Apple Intelligence 的 A18 晶片、4800 萬像素單鏡頭、Action 按鈕和 USB-C 連接埠等規格，但缺乏 MagSafe 無線充電功能。 MagSafe 功能回歸 《The Information》的 Wayne Ma 和 Qianer Liu 在一篇關於未來 iPhone 型號的報導中指出，iPhone 17e 將解決此一缺憾。報導明確指出，iPhone 17e 將支援「磁吸無線充電」，意味著該裝置將配備 MagSafe，以實現更快速的磁吸無線充電，速度可能高達 20W 或 25W。iPhone 16e 僅限於最高 7.5W 速度的 Qi 無線充電，且不具備磁吸系統。 搭載第二代 C1X 數據機 報導指出，iPhone 17e 將配備 Apple 第二代 C1X 數據機，以提供行動網絡連接。iPhone 16e 配備 Apple 第一代 C1 數據機，而 C1X 數據機則在 iPhone Air 中首</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/17/iphone-17e-fix-iphone-16e-flaw/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=iphone-17e-fix-iphone-16e-flaw</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/02/iphone16e-a-1024x577.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 16 Dec 2025 18:05:57 +0000</pubDate>
+      <title>Google 推出 Gemini 3 Flash　速度、效能、成本大躍進</title>
+      <link>https://www.newmobilelife.com/2025/12/18/google-gemini-3-flash-pro-performance-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=google-gemini-3-flash-pro-performance-2</link>
+      <description>Google 於上個月發佈 Gemini 3 Pro 後，今日宣佈為消費者和開發者推出 Gemini 3 Flash。Gemini 3 Flash 的標語是「以更低的成本，實現更快的邊緣人工智能」。它保留了 Gemini 3 的複雜推理、多模態／視覺理解以及在代理／編碼任務中的性能，但增加了「Flash 等級的延遲、效率和成本」。Flash 模型是 Google 最受歡迎的產品。 性能表現 毫無疑問地，Gemini 3 Flash 在各方面都超越了 2.5 Flash，並且在多項基準測試中「顯著」超越了 2.5 Pro。3 Flash 與 3 Pro 相當，甚至在某些領域超越了它，包括 MMMU Pro、Toolathlon 和 MPC Atlas。 性價比極高 Google 強調 Gemini 3 Flash「在成本僅為一小部分的情況下，性能超越 2.5 Pro 且速度快 3 倍」。這種強大的推理、工具使用和多模態能力可以轉化為「更複雜的影片分析、數據提取和視覺問答」，供構建客戶支援代理或遊戲內助手的第三方開發者使用。 若跟 OpenAI GPT 5.2 Extra High 相比﹐</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/18/google-gemini-3-flash-pro-performance-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=google-gemini-3-flash-pro-performance-2</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/12/gemini-3-flash.webp" length="0" type="image/webp"/>
+      <pubDate>Wed, 17 Dec 2025 17:30:43 +0000</pubDate>
     </item>
     <item>
-      <title>推動你實現目標　原價 US $29.99《Yarimo》終生版限時免費</title>
-      <link>https://www.newmobilelife.com/2025/12/17/yarimo-goals-habit-planner-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=yarimo-goals-habit-planner-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb</link>
-      <description>長期目標總是難以落實到日常行動嗎？《Yarimo》是一款獨特的目標追蹤 App，它能完美銜接你的年度願景與每月計畫，協助你建立清晰、可執行的目標系統，告別雜亂無章的紙本規劃。今天限時免費中，這正是你高效實現夢想的絕佳工具。 年度願景與月度計畫無縫銜接 這款應用讓用戶能輕鬆設定年度大目標，並將其迅速分解為可執行的每月小步驟，透過單點操作即可將任一年度目標指派至特定月份，大幅簡化規劃流程。它還提供豐富的數據分析與洞察報告，協助你追蹤各類別目標的完成率，掌握整體進度，並能將目標歸類至健康、事業、人際與娛樂等領域，確保生活平衡發展。 限時免費領取終生版 Yarimo - Goals &amp;amp; Habit Planner 終生版內購限時免費中，用戶完成初始化後看到收費牆，滑到下方位置就找到 Lifetime，價格顯示為$0 即可免費收下。 應用名稱：Yarimo 應用類別：Productivity 下載位置：App Store</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/17/yarimo-goals-habit-planner-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=yarimo-goals-habit-planner-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/12/460x460bb-75-71.webp" length="0" type="image/webp"/>
-      <pubDate>Tue, 16 Dec 2025 18:17:13 +0000</pubDate>
+      <title>iPhone Fold 摺疊螢幕展開後尺寸可能接近 iPad mini</title>
+      <link>https://www.newmobilelife.com/2025/12/18/iphone-folding-screen-ipad-mini-size/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=iphone-folding-screen-ipad-mini-size</link>
+      <description>關於 Apple 摺疊螢幕智能手機 iPhone Fold 的傳聞不斷，最新流出的 CAD 設計圖顯示，其展開後的尺寸可能比預期更接近 iPad mini。 摺疊設計 根據 iphone-ticker.de 網站公開的 CAD 設計圖，iPhone Fold 摺疊起來時，外觀更像一本平裝書。每半邊螢幕的尺寸為 83.8 毫米寬、120.6 毫米高，閉合時，鉸鏈突出 1.8 毫米。外部螢幕尺寸為 5.49 吋，與傳聞中的 5.5 吋版本相符，解析度為 2,088 x 1,422。 展開後變 7.76 吋 展開後，iPhone Fold 的尺寸更接近 iPad mini。整體尺寸為 7.76 吋，略小於 8.3 吋的 iPad mini，但符合先前的尺寸傳聞。據稱螢幕解析度為 2,713 x 1,920 像素，高於目前 iPad mini 的 2,266 x 1,488。 其他設計 CAD 設計圖顯示，iPhone Fold 的主體厚度為 9.6 毫米（不包括相機凸起），平放時厚度為 4.8 毫米。設計圖還顯示，該設備延續了 iPhone Air 的相機平台設計，配備兩個相機，而非近期傳聞</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/18/iphone-folding-screen-ipad-mini-size/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=iphone-folding-screen-ipad-mini-size</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/12/iphonefold-render-1024x576.webp" length="0" type="image/webp"/>
+      <pubDate>Wed, 17 Dec 2025 17:57:41 +0000</pubDate>
     </item>
     <item>
-      <title>iOS 26.2 續航力實試　一款型號大提升一款暴跌</title>
-      <link>https://www.newmobilelife.com/2025/12/17/ios-26-2-battery-test/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ios-26-2-battery-test</link>
-      <description>iOS 26.2 已於上周正式發佈，相信很多用戶也關心這次更新對 iPhone 續航力的影響。iAppleBytes 以 iPhone XR 至iPhone 16 以Geekbench Battery Test 進行測試，從而探究這次更新會否較之前耗電。 iPhone XR @18.7.3 續航力提升 由於 iPhone XR 無法升級 iOS 26，所以最新版只能使用 iOS 18.7.3，相對 iOS 18.7.2 這次更新帶來顯著的提升，超越近半年的高位。 iPhone 13 取得驚人的進步 至於 iOS 26.2 方面，iPhone 13 錄得驚人升幅，比 iOS 18 甚至 17 都要來得高分！令人相當驚喜！ iPhone 15 續航力慘跌 說到 iOS 26.2 最慘烈的升級型號，iPhone 15 絕對當之無愧，創下自 iOS 17 以來最低的分數！ iPhone 12 及 iPhone 16 持平 至於 iPhone 12 及 iPhone 16 升級 iOS 26.2 後的續航力大致持平。</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/17/ios-26-2-battery-test/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ios-26-2-battery-test</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/06/battery-ifixit-1024x655.webp" length="0" type="image/webp"/>
-      <pubDate>Tue, 16 Dec 2025 21:19:37 +0000</pubDate>
+      <title>Apple 測試 A15 晶片 MacBook　或將售價進一下壓低</title>
+      <link>https://www.newmobilelife.com/2025/12/18/apple-a15-chip-macbook/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-a15-chip-macbook</link>
+      <description>Apple 曾測試搭載 A15 晶片的 MacBook，以及另一款基於 A18 Pro 的 MacBook，後者看來更接近可發佈的產品。 內部測試 相關資訊來自 Apple 工程師使用的內部核心偵錯套件檔案。該套件今年稍早不慎在 Apple 網站上洩露，但在資訊開始外洩後迅速被撤下。在 Mac 相關條目中，有一行明確描述了未發佈的 MacBook 配置，該配置運行 A15 晶片。該行出現在標記為 H14P 的平台上的專案標籤「mac14p」下。 A18 Pro 型號 在同一數據集中，還有一個與 A18 Pro 相關的單獨 MacBook 條目。它的識別碼為 J700，並被描述為使用具有歸屬於 MediaTek 的「Sunrise」無線子系統的 A18 Pro 晶片。與 A15 測試配置相比，A18 Pro MacBook 條目更像是定義明確的產品配置，因為它具有特定的內部代號和隨附的子系統詳細資訊。 發佈可能性 Apple 在 A15 晶片推出近五年後，於 2026 年推出由 A15 Bionic 驅動的 Mac 的可能性極低。搭載 A18 Pro 晶片的 MacBook 將明顯更強大</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/18/apple-a15-chip-macbook/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-a15-chip-macbook</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/06/1737127332_macbook_air_story.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 17 Dec 2025 18:31:16 +0000</pubDate>
     </item>
     <item>
-      <title>iPad Mini OLED 版將配 A20 Pro 晶片</title>
-      <link>https://www.newmobilelife.com/2025/12/17/ipad-mini-oled-a20-pro-chip/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ipad-mini-oled-a20-pro-chip</link>
-      <description>新一代 iPad Mini 傳聞將配備 A20 Pro 晶片。根據分析，Apple 網站稍早意外洩漏包含內部代號的 macOS 核心偵錯工具，後迅速撤下。 晶片規格 先前傳聞指出，新款 iPad Mini 將採用 iPhone 17 Pro 首發的 A19 Pro 晶片。但消息指出，代號實際上指向尚未發佈的 A20 Pro 晶片。目前尚無法確定下一代 iPad Mini 將使用 A19 Pro 或 A20 Pro。Apple 可能最初測試了 A19 Pro 型號，但計劃隨時可能變更。若 iPad Mini 在 2026 年 9 月或 10 月更新，或許 Apple 最終決定採用 A20 Pro。 其他傳聞規格 iPhone 18 Pro 型號預計也將使用 A20 Pro 晶片，據稱將採用 台積電 的 2 納米製程。其他傳聞中的下一代 iPad Mini 特點包括 OLED 螢幕、重新設計且具備震動技術的揚聲器系統，以及防水設計。 發佈時間 《彭博》 PowerOn 通訊 的 Mark Gurman 先前報導稱，新款 iPad Mini 最快可能在明年亮相。目前的 iPad Mini 於</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/17/ipad-mini-oled-a20-pro-chip/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ipad-mini-oled-a20-pro-chip</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2024/10/ipadmini7.webp" length="0" type="image/webp"/>
-      <pubDate>Tue, 16 Dec 2025 21:36:53 +0000</pubDate>
+      <title>Apple 發佈 iOS 26.3 與 iPadOS 26.3 首個公開測試版</title>
+      <link>https://www.newmobilelife.com/2025/12/18/apple-ios-ipados-26-3-public-beta/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-ios-ipados-26-3-public-beta</link>
+      <description>Apple 今天向測試人員發佈了 iOS 26.3、iPadOS 26.3、tvOS 26.3 和 watchOS 26.3 的首個更新測試版本。在 Apple 向開發者提供測試版幾天後，公開測試版隨即推出。 公開測試版下載 任何人都可以下載並安裝公開測試版，只需在 Apple 的測試網站上註冊即可。選擇加入後，可以通過每個設備上「設定」App 中的「軟體更新」部分下載該軟體。 iOS 26.3 新功能 iOS 26.3 為 iPhone 用戶提供了一種更簡單的方式，可以在切換平台時將其數據傳輸到 Android 設備，此外，它還包括歐盟地區第三方穿戴設備的「通知轉發」功能。它允許將通知從 iPhone 轉發到第三方設備。 其他更新 目前尚未在其他測試版更新中發現任何新功能。預計 iOS 26.3、iPadOS 26.3 和其他軟體將在 1 月底左右發佈。</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/18/apple-ios-ipados-26-3-public-beta/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-ios-ipados-26-3-public-beta</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/06/ipados26-title.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 17 Dec 2025 18:44:40 +0000</pubDate>
     </item>
     <item>
-      <title>iPhone 18 有望改善長久以來相機控制按鈕問題</title>
-      <link>https://www.newmobilelife.com/2025/12/17/iphone-18-fix-iphone-16-17-issues/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=iphone-18-fix-iphone-16-17-issues</link>
-      <description>據報導，Apple 計劃改進 iPhone 16 和 iPhone 17 型號上備受爭議的相機控制按鈕。《The Information》報導稱，Apple 計劃移除標準版 iPhone 18 型號上相機控制的觸摸感應和觸覺反饋，這表示將移除該按鈕的電容層。目前尚未得知此變更是否會擴展到 iPhone 18 Pro 型號。 用戶體驗改善 據傳 iPhone 18 型號的相機控制按鈕將會簡化。更新後，iPhone 18 用戶將無法在相機控制上滑動，這解決了許多用戶意外觸發的問題。重新設計的按鈕將僅具有壓力感應功能。 推出時間 簡化相機控制有助於降低 Apple 的成本，同時也顯示 Apple 正在聽取用戶的回饋。Apple 已經採取措施讓用戶更好地控制相機控制的行為，包括在 iOS 18.2 中增加「需要螢幕開啟」設定。iPhone 18 Pro 型號預計將於明年 9 月發佈，而常規 iPhone 18 型號據報導將於 2027 年春季推出。 消息來源</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/17/iphone-18-fix-iphone-16-17-issues/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=iphone-18-fix-iphone-16-17-issues</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/10/cameracontrol-1024x576.webp" length="0" type="image/webp"/>
-      <pubDate>Tue, 16 Dec 2025 21:49:46 +0000</pubDate>
+      <title>iPhone Air 2 預計修正首代缺點提升銷量</title>
+      <link>https://www.newmobilelife.com/2025/12/18/iphone-air-2-fix-defects-boost-sales/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=iphone-air-2-fix-defects-boost-sales</link>
+      <description>Apple 雖然在推出 iPhone Air 後面臨市場冷淡反應，但據報該公司並未放棄，並計劃於 2027 年推出第二代產品。首款 iPhone Air 在上市後需求低迷，甚至導致生產訂單被大幅削減。然而，最新的消息顯示，Apple 正在針對首代產品的缺點進行重新設計，以期在未來取得更好的銷售成績。 首代產品市場需求低迷 根據市場觀察，iPhone Air 在發佈後的表現不佳，與 iPhone 17 Pro 的熱銷形成鮮明對比。由於需求遠低於預期，Apple 已大幅減少該型號的生產訂單，甚至有消息指出其生產線已經停擺。與此同時，Samsung 在推廣類似超薄設計的智能手機時也遇到了挑戰，導致其他品牌紛紛取消了相關產品的開發計劃。 規格與價格成為主要障礙 首代 iPhone Air 僅配備單個相機，這與 iPhone 17 的雙相機以及 iPhone 17 Pro 的三相機配置相比，在硬體規格上明顯處於劣勢。除了功能受限，產品定價也是影響銷量的關鍵。iPhone Air 的價格比 iPhone 17 高出 200 美元，卻僅比 iPhone 17 Pro 便宜 100 美元，導致大多數消</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/18/iphone-air-2-fix-defects-boost-sales/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=iphone-air-2-fix-defects-boost-sales</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/09/iphoneair-title02.webp" length="0" type="image/webp"/>
+      <pubDate>Wed, 17 Dec 2025 20:07:50 +0000</pubDate>
     </item>
     <item>
-      <title>全新 ChatGPT 圖像模型 GPT-Image 1.5 速度快 4 倍　效果媲美 Google Nano Banana Pro</title>
-      <link>https://www.newmobilelife.com/2025/12/17/openai-chatgpt-image-model-complex-prompts/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=openai-chatgpt-image-model-complex-prompts</link>
-      <description>OpenAI 今天宣佈推出全新 GPT-Image 1.5 模型，它能更準確地理解提示，更好地保留細節，並顯著加快圖像生成速度。全新模型生成圖像的速度比以往快四倍，使用者可以在處理其他圖像的同時，將新圖像排隊。該模型現已向所有 ChatGPT 使用者和通過 API 提供。 功能改進 該模型現在以不同的方式處理圖像編輯。它可以進行有針對性的更改，而不會弄亂圖像的其他部分，從而使光線、構圖和人臉與其前身相比更加一致。OpenAI 表示，它可以處理新增、移除、組合、混合和轉置圖像元素。 實際應用 實際用例包括照片編輯、衣服和髮型的虛擬試穿以及風格轉換。 OpenAI 的演示展示了將多個人和一隻狗從不同的照片組合到一個場景中，或者將照片變成具有黃金時代好萊塢風格的電影海報。</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/17/openai-chatgpt-image-model-complex-prompts/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=openai-chatgpt-image-model-complex-prompts</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/11/chatgpt-1024x640.webp" length="0" type="image/webp"/>
-      <pubDate>Tue, 16 Dec 2025 22:17:53 +0000</pubDate>
+      <title>【教學】iPhone 耳機族必學　門鐘、敲門聲、火警鐘聲音識別功能</title>
+      <link>https://www.newmobilelife.com/2025/12/18/iphone-alarm-detect/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=iphone-alarm-detect</link>
+      <description>你是否曾因為戴著降噪耳機專心工作或聽音樂，而漏聽了外送員的敲門聲，甚至差點忽略了家中的警報聲？iPhone 內建的「聲音識別」功能就是你的救星！這項功能利用裝置端的 AI 技術，能持續聆聽特定的聲音並在偵測到時立即發送通知提醒你。 1：進入輔助使用設定 首先，打開 iPhone 的「設定」，向下捲動找到「輔助使用」。在「聽力」區塊中，點選「聲音識別」。 2：開啟聲音識別功能 進入頁面後，將「聲音識別」的開關切換為開啟（綠色）。此時，系統可能會提示需要下載一小段數據包（約 26.3 MB），請確保連線上網並稍等片刻。 3：進入聲音清單 當功能開啟且下載完成後，下方會出現一個「聲音」的選項。點擊進去即可挑選你希望 iPhone 幫你「聽」的特定聲音。 4：自訂偵測目標 在聲音清單中，你可以根據需求開啟不同的偵測項目： 警報器： 火警、警笛、煙霧警報器（建議必開）。 動物： 貓叫聲、狗叫聲。 住家： 家電、汽車喇叭、門鐘、敲門聲、玻璃碎裂聲、水煲聲等。 你只需要點進去，將開關打開，iPhone 就會成為你的「第二雙耳朵」。 ５：當聽到聲音時就會以推送通知，帶耳機的朋友就可以看到！ 總結：保私</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/18/iphone-alarm-detect/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=iphone-alarm-detect</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/12/firealarm-1024x813.webp" length="0" type="image/webp"/>
+      <pubDate>Wed, 17 Dec 2025 21:38:34 +0000</pubDate>
     </item>
     <item>
-      <title>HomePod Mini 2 或許不會配備傳聞中的功能</title>
-      <link>https://www.newmobilelife.com/2025/12/17/homepod-mini-2-no-rumored-features/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=homepod-mini-2-no-rumored-features</link>
-      <description>關於下一代 HomePod mini 的規格出現了新的說法。根據《MacRumors》的消息來源提供的代碼分析，新款 HomePod mini 可能不會採用 Apple 的 N1 網絡晶片。 代碼洩露 Apple 今年稍早發佈的 macOS 核心偵錯工具包，包含了多款即將推出的設備資訊，其中也包括 HomePod mini 2。與 HomePod mini 2 相關的代碼提到了「Sunrise」無線系統，這是 Apple 對於 MediaTek 提供的藍牙/Wi-Fi 晶片的稱呼。而 N1 晶片在 Apple 內部系統中被稱為「Centauri」。 規格推測 基於 Sunrise 的訊息，HomePod mini 2 似乎不會升級到 N1 網絡晶片，這與先前的傳言有所矛盾。《彭博》的 Mark Gurman 過去曾暗示，Apple TV 和 HomePod mini 都將使用 Apple 的 N1 晶片。 晶片策略 Apple 似乎計劃將 N1 晶片用於高階設備，而入門級產品暫時仍將使用較便宜的 MediaTek 硬體。即將推出的 HomePod mini 2、iPhone 17e、i</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/17/homepod-mini-2-no-rumored-features/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=homepod-mini-2-no-rumored-features</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/03/old-homepodmini.webp" length="0" type="image/webp"/>
-      <pubDate>Tue, 16 Dec 2025 22:52:27 +0000</pubDate>
+      <title>ChatGPT 整合 Apple Music 功能正式上線</title>
+      <link>https://www.newmobilelife.com/2025/12/18/chatgpt-apple-music-integration/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=chatgpt-apple-music-integration</link>
+      <description>OpenAI 正式發佈 ChatGPT 整合 Apple Music 功能，用戶現在可以透過 ChatGPT 獲取音樂推薦，並根據聽歌歷史建立播放清單。這項新功能讓 AI 能夠更深入地與 Apple 的音樂生態系統互動，提供個人化的音樂體驗。 簡單設定即可連接服務 用戶可以透過 Mac 應用程式、網頁版或 iOS 應用程式的設定選單，將 Apple Music 加入 ChatGPT。在應用程式選項中找到 Apple Music 並進行連結，過程中需要登入 Apple 帳戶以完成授權。 所有用戶均可探索音樂目錄 即使沒有 Apple Music 訂閱的用戶，也可以透過 ChatGPT 搜尋 Apple Music 目錄中的歌曲、藝人、專輯及播放清單。OpenAI 表示，所有用戶都能發現音樂、生成播放清單，並在 ChatGPT 中試聽剪輯片段。 訂閱者可直接同步音樂庫 對於 Apple Music 訂閱者，這項整合更提供進一步的功能，用戶能直接透過 ChatGPT 將歌曲、專輯及播放清單加入音樂庫。在使用時只需點擊 「+」 按鈕即可選用 Apple Music，由 ChatGPT 生成的建</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/18/chatgpt-apple-music-integration/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=chatgpt-apple-music-integration</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2024/06/chatgpt-with-apple.webp" length="0" type="image/webp"/>
+      <pubDate>Thu, 18 Dec 2025 00:47:21 +0000</pubDate>
     </item>
     <item>
-      <title>全方位金錢管理工具　原價 US $59.99《Expense Tracker》限時免費</title>
-      <link>https://www.newmobilelife.com/2025/12/17/expense-tracker-bill-tracker-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=expense-tracker-bill-tracker-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb-2</link>
-      <description>您是否總為財務狀況感到焦慮，不知錢都花到哪去了呢？《Expense Tracker》正是您一直在尋找的解決方案，這款全功能金錢管理 App 現在限時免費中，能幫助您輕鬆掌握收支、規劃預算並達成儲蓄目標。無論是學生、家長還是退休人士，它都是您管理個人財務、實現財務自由的智能助手。 智能分析讓您的金錢流向一目瞭然 《Expense Tracker》可即時記錄收支，利用 AI 智能分類自動整理交易，並以直觀圖表分析金錢流向。它能協助管理帳單，設定個人化預算與儲蓄目標，並適時發出提醒，幫助使用者告別過度消費，逐步建立健康的財務習慣。 應用名稱：Expense Tracker : Bill Tracker 應用類別：Finance 下載位置：App Store</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/17/expense-tracker-bill-tracker-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=expense-tracker-bill-tracker-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb-2</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/12/460x460bb-75-75.webp" length="0" type="image/webp"/>
-      <pubDate>Wed, 17 Dec 2025 00:07:50 +0000</pubDate>
+      <title>蘋果對日本開放第三方 App Store 支援</title>
+      <link>https://www.newmobilelife.com/2025/12/18/apple-japan-app-store-third-party-side-button/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-japan-app-store-third-party-side-button</link>
+      <description>Apple 宣佈針對日本地區的 App Store 進行多項調整，以符合即將於 12 月 18 日 生效的《行動軟體競爭法》（ MSCA ）。這項新法規與歐盟的《數位市場法》類似，要求 Apple 開放更多系統權限與市場競爭。日本用戶未來將能體驗到包含第三方應用程式商店、多元化支付方式以及更具彈性的硬體按鈕設定，這象徵著 iOS 生態系統在日本市場迎來重大變革。 開放第三方商店與多元支付選項 根據新規定，開發者現在可以透過第三方應用程式商店分發軟體，用戶亦能將這些商店設定為預設來源。雖然所有 App 仍須通過 Apple 的安全驗證，但不再限制於 App Store 下載。在支付系統方面，App 內可整合第三方支付系統或連結至網頁進行交易，但規定必須同時顯示原有的內置購買選項。開發者可為不同的支付途徑設定不同價格，相關服務費用將根據分發途徑與支付方式調整，範圍介於 5% 至 26% 之間。 自定義 Side Button 硬體功能方面，日本用戶將可重新定義 Side Button 的功能，例如透過 API 將其設定為啟動 ChatGPT 、 Claude 或 Gemini 等第三方 A</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2025/12/18/apple-japan-app-store-third-party-side-button/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-japan-app-store-third-party-side-button</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2021/06/appstore-main.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 18 Dec 2025 01:16:20 +0000</pubDate>
     </item>
   </channel>
 </rss>
