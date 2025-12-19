@@ -8,76 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Dec 2025 06:40:04 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Dec 2025 06:38:32 +0000</lastBuildDate>
     <item>
-      <title>數位憑證皮夾試營運上路，免帶實體證件憑手機就能在超商領包裏、進出企業辦公室、旅館</title>
-      <link>https://www.ithome.com.tw/news/172886</link>
-      <description>新聞數發部籌畫多時的數位憑證皮夾在今天(12/17)進入試營運，即日起民眾可以下載App，安裝電信商的電信卡或是企業的員工卡，免帶證件在超商領取包裏或是進出旅館、辦公室，為我國推動數位身分創新應用，未來還可能與國際接軌，在國外租車或代替護照出示身分資料。 數位憑證皮夾是一種數位身分的發行、自主管理、驗證架構，民眾於手機下載安裝數位憑證皮夾App，可以在App裡安裝政府或學校、民間企業所發行的各種數位身分憑證，例如駕照、工商憑證、技術士證照、學生證、畢業證書或是員工門禁卡，當需要使用第三方服務，需驗證身分證明文件時，民眾能夠自主管理手機上數位憑證皮夾內的各種身分資料，授權予第三方服務提供者驗證。 數發部今天宣布數位憑證皮夾開始試營運，即日起開放民眾下載App，安裝數位身分憑證後，在第三方服務需要驗證身分時，使用手機上的數位憑證皮夾，選擇想要授權第三方存取的身分資料，快速完成身分驗證。 數發部長林宜敬表示，未來的世界絕對是高度數位化的世界，許多活動或服務在數位世界進行，就需要使用者證明自己的身分，例如證明自己是哪間學校的學生、畢業證書，或是出示擁有合格技能的證明文件，例如駕照、調酒師證照等</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172886</guid>
-      <pubDate>Wed, 17 Dec 2025 10:19:32 +0000</pubDate>
+      <title>Docker開源DHI安全強化映像檔，主打透明揭露CVE與供應鏈可驗證</title>
+      <link>https://www.ithome.com.tw/news/172903</link>
+      <description>新聞Docker宣布先前在5月推出的Docker安全強化映像檔（Docker Hardened Images，DHI）改為免費釋出，並以Apache 2.0授權開源。Docker指出，這是容器基礎映像檔的安全預設值調整，試圖讓開發團隊從第一次拉取映像檔，就能獲得較小的攻擊面與較完整的可驗證資訊。 Docker將DHI視為容器基礎映像檔的安全預設選項，同時強調透明度，包含每個映像檔都提供可驗證的軟體物料清單（SBOM）、SLSA第3級建置來源證明（Provenance），以及以公開CVE資料進行弱點揭露與評估。Docker也提到，不會為了讓弱點掃描器維持綠燈而刻意隱藏弱點，即使修補仍在進行，也會維持揭露。 DHI採用無發行版（Distroless）執行環境來縮小攻擊面，同時保留開發與執行常見工作負載所需的基本工具。Docker要求映像檔的組成、建置過程、簽章與弱點狀態都要能被外部檢查與驗證，並稱相較一般映像檔，DHI能明顯降低CVE數量，並可讓映像檔體積最高縮小95%。 DHI以Alpine與Debian基礎建立，並強調高相容性與低搬遷成本。官方也提到，Docker的實驗性AI助理可掃描</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172903</guid>
+      <pubDate>Fri, 19 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>日本電商Askul公布勒索軟體攻擊調查報告，物流與備份系統遭加密外洩約74萬筆資料</title>
-      <link>https://www.ithome.com.tw/news/172877</link>
-      <description>新聞日本辦公用品與電商業者Askul公布勒索軟體事件調查報告，確認公司物流與內部系統遭加密並造成大規模服務中斷，同時有資料外洩。目前企業客戶端已恢復部分商品受理訂單，並在確認穩定後逐步擴大出貨作業。依Askul的彙整，確認外洩的資訊包含企業客戶約59萬筆、個人服務客戶約13.2萬筆，以及部分合作夥伴資料約1.5萬筆，合計約74萬筆，另還包含員工等約2,700筆資料。 對攻擊者身分，Askul官方文件並未點名特定組織。不過外媒The Japan Times報導指出，自稱RansomHouse的組織在暗網發布聲明宣稱犯案，Askul則對外表示已知悉該聲明並正在查證事實。 Askul物流系統與公司內系統確認遭勒索軟體感染，部分資料包含備份資料被加密而一度無法使用，且部分資料遭竊取並被公開，導致物流中心出貨業務全面停止。Askul指出，後續也發現外部雲端的客服詢問管理系統帳號遭竊取並被入侵，相關資訊同樣有外洩情形。 在目前的鑑識結論中，主要業務系統與面向客戶的電子商務網站與合作夥伴服務未發現被入侵跡象。 Askul在報告中也坦言，因部分通訊與存取紀錄遺失，難以完整界定攻擊者實際瀏覽的資訊範圍，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172877</guid>
-      <pubDate>Wed, 17 Dec 2025 22:11:57 +0000</pubDate>
+      <title>未設驗證MongoDB資料庫曝16 TB職涯資料，近43億筆含大量LinkedIn個資</title>
+      <link>https://www.ithome.com.tw/news/172911</link>
+      <description>新聞資安媒體Cybernews的研究團隊發現一個未啟用存取驗證的MongoDB資料庫，對外公開曝露於網際網路上。研究團隊指出，該資料庫總量約16.14TB，累計近43億筆紀錄，內容多為用於潛在顧客開發（Lead Generation）的職場與企業相關資料，包含大量疑似取自LinkedIn的個人資料欄位，例如LinkedIn網址與帳號識別、任職資訊與聯絡方式等。 研究團隊表示，他們於2025年11月23日發現該資料庫並進行通報，資料庫在兩天內被關閉或完成強化，但在研究團隊發現前，資料對外曝露的實際時間無法確認。 該洩漏資料庫的結構完整，研究團隊因此推測其更像是透過自動化流程蒐集、彙整與補強的專業人士與企業關係資料，而非零散匯入的檔案。研究人員在其中辨識出多個資料集，至少有三個資料集含可識別個資，合計接近20億筆，欄位涵蓋姓名、電子郵件、電話、職稱、雇主與任職歷程、教育背景、地理位置、語言與技能，以及社群帳號等。 Cybernews指出，資料庫內容呈現出以爬蟲抓取並彙整LinkedIn職涯資料的特徵，且部分欄位出現Apollo ID等識別資訊，但目前仍無法確認該欄位的確切意義，只能從資料型</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172911</guid>
+      <pubDate>Fri, 19 Dec 2025 00:47:40 +0000</pubDate>
     </item>
     <item>
-      <title>Meta發表SAM Audio模型以多模態提示分離指定聲源</title>
-      <link>https://www.ithome.com.tw/news/172887</link>
-      <description>新聞Meta發表其最新音訊分離模型SAM Audio，主打以提示方式從混合音訊中抽離特定音源，並支援文字提示、畫面點選與時間區段標記3種互動。Meta表示，SAM Audio與其背後的技術引擎PE-AV（Perception Encoder Audiovisual）即日起提供使用，同時也把SAM Audio放進Segment Anything Playground，讓用戶可直接選用平臺素材或上傳自己的影音內容操作。另外，Meta也提供模型下載，模型權重則需申請存取。 SAM Audio提供3種提示，對應不同素材與工作情境。文字提示適合直接描述目標聲音，例如輸入狗叫聲或歌聲來抽取聲源。視覺提示則針對影音內容，使用者可在影片畫面上點選正在發聲的人或物件，讓系統利用畫面線索協助鎖定聲音。時間段提示則讓使用者在時間軸上標記目標聲音出現的區段，Meta稱這是業界首見的時間段提示設計，且3種提示可單獨使用，也能混合搭配以取得更符合需求的分離結果。 Meta舉例可在樂團演出影片中點選吉他以抽離其聲音，也可用文字提示過濾戶外錄影的車流噪音，或用時間段提示一次處理整段Podcast錄音中的特定干擾聲。M</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172887</guid>
-      <pubDate>Thu, 18 Dec 2025 00:36:14 +0000</pubDate>
+      <title>TikTok終於敲定美國業務重組方案，2026年完成轉移</title>
+      <link>https://www.ithome.com.tw/news/172913</link>
+      <description>新聞多家美國媒體宣稱已看到或拿到TikTok執行長周受資本周四（12/18）對內發布的備忘錄，指出已簽署一項具約束力的協議，準備將美國業務轉移到一家新的、由美國企業組成的合資公司，預計於2026年的1月22日完成。 根據路透社（Reuters）的報導，新合資公司的名稱為TikTok USDS Joint Venture LLC，將由甲骨文（Oracle）、Silver Lake、阿布達比的MGX，以及其它參與者持有50%的股份，其中，這3家業者各占了15%。另有30.1%的股份是由字節跳動（ByteDance）既有投資者的關係企業取得，字節跳動亦將保留19.9%的股份。 2012年成立於北京的字節跳動是在2016年推出抖音，2017年推出TikTok，這兩個短影音平臺分別風靡了中國及全球市場。根據Pew Research Center今年的調查，美國有37%的成人使用TikTok，29歲以下使用TikTok的比例更達到59%。 TikTok在美國的爭議可追溯至2019年，該應用的快速崛起讓美國政府開始關注其母公司字節跳動的中國背景，質疑字節跳動可能迎合中國政府的要求，交出TikTok用</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172913</guid>
+      <pubDate>Fri, 19 Dec 2025 02:49:27 +0000</pubDate>
     </item>
     <item>
-      <title>Google發表Gemini 3 Flash模型 比2.5 Pro還強大、更有效率</title>
-      <link>https://www.ithome.com.tw/news/172888</link>
-      <description>新聞在上個月發表Gemini 3，以及OpenAI公布GPT 5.2、GPT Image 1.5後，Google周三（12/17）宣布Gemini 3 Flash版本，強調高效能、且在多項測試中比Gemini 2.5 Pro還強、更有效率。現在已可在Gemini App使用。 Google說，剛剛推出的Gemini 3在複雜推理、多模態及視覺理解能力展現極高效能，Gemini 3 Flash保留這項優點為基礎，並整合Gemini 3 Pro等級的推理、以及Flash系列的低延遲性、效率及成本效益。它不只能支援日常任務，也是代理式工作流程「最令人印象深刻」的模型。 現在開發人員可以經由Google AI Studio、Gemini CLI、代理人開發平臺Google Antigravity的Gemini API使用Gemini 3 Flash（目前為gemini-3-flash-preview）。一般用戶可在Gemini App及Google搜尋的AI模式使用。而大型企業則能經由Vertex AI及Gemini Enterprise存取最新Flash模型。 高效能是Gemini 3 Fl</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172888</guid>
-      <pubDate>Thu, 18 Dec 2025 02:25:12 +0000</pubDate>
+      <title>CISA警告華碩更新工具舊漏洞遭到攻擊</title>
+      <link>https://www.ithome.com.tw/news/172914</link>
+      <description>新聞美國網路安全暨基礎設施安全局（CISA）本周警告，華碩已經停產的即時更新工具（Asus Live Update）一項重大漏洞發生駭客濫用事件。 CISA是在本周將編號CVE-2025-59374的漏洞加入已知遭濫用漏洞（Known Exploited Vulnerability）目錄，警告聯邦政府機構強化安全防護。 這項漏洞為Asus Live Update工具的嵌入式惡意程式碼漏洞，CVSS分數為9.3。CISA警告，本工具用戶端遭人透過供應鏈破壞進行非授權修改。被竄改過的軟體可能造成滿足特定攻擊條件的裝置執行非預期行為。CISA呼籲所有聯邦行政部門機構需在2026年1月7日前處理或停用受影響軟體。 CVE-2025-59374曾在2019年，被卡巴斯基研究人員發現名為Operation ShadowHammer的濫用，時間點在2018年6到11月之間，推斷是中國駭客組織發動，以其漏洞散布後門程式。但華碩已在同年3月發布更新版本。 不確定這波濫用來源為何，但CISA安全公告指出並非勒索軟體。 根據美國NIST的漏洞資料庫，Live Update的用戶端軟體已在2021年10月終止</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172914</guid>
+      <pubDate>Fri, 19 Dec 2025 03:07:10 +0000</pubDate>
     </item>
     <item>
-      <title>勒索軟體Weaxor加入利用React滿分漏洞的行列</title>
-      <link>https://www.ithome.com.tw/news/172889</link>
-      <description>新聞本月初React開發工程團隊修補滿分資安漏洞CVE-2025-55182（React2Shell），不久後就有多組中國國家級駭客用於實際攻擊，接續傳出北韓駭客、殭屍網路，以及挖礦軟體加入利用行列的消息，現在傳出也有勒索軟體運用這個漏洞的情況。 企業情報暨風險顧問公司S-RM發現，有基於財務動機犯案的駭客組織對他們客戶下手，企圖部署勒索軟體Weaxor，過程裡使用React2Shell取得初期的存取管道。駭客在12月5日成功入侵後，隨即執行經混淆處理的PowerShell指令，下載Cobalt Strike並部署Beacon，以建立C2通訊。接著，他們停用內建防毒Microsoft Defender的即時防護功能，部署勒索軟體有效酬載。 值得留意的是，駭客從成功入侵到執行勒索軟體，僅花了不到一分鐘的時間，這代表所有攻擊流程可能透過自動化執行，此外，他們並未進一步橫向移動到其他內部系統，也沒有竊取資料或是外洩。後續受害主機遭到其他駭客入侵，並部署自己的C2通訊機制，不過，S-RM並未透露這些駭客的身分，也沒有說明相關細節。 針對Weaxor的來歷，S-RM指出此為去年出現的勒索軟體，很</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172889</guid>
-      <pubDate>Thu, 18 Dec 2025 02:55:28 +0000</pubDate>
+      <title>【臺大醫院GenAI實例】從掛號推薦到照護流程優化，臺大醫院把生成式AI變成臨床日常</title>
+      <link>https://www.ithome.com.tw/news/172898</link>
+      <description>新聞「臺大醫院目前有300多個生成式AI專案在執行，100多個已經實際可用，其他還有200個開發測試中，」臺大醫院院長余忠仁在11月的生成式AI（GenAI）成果發表會中，用一句話點出院內的發展規模。 兩年前，臺大醫院悄悄擁抱生成式AI。他們的起點很特別，有別於當時常見的會議摘要應用，臺大醫院先從門診醫師推薦功能試水溫，讓病人在掛號前，先在App填寫症狀，再由大型語言模型（LLM）分析內容，推薦合適的科別與醫師。系統還會把能力好、但掛號數未滿的年輕醫師一起納入推薦名單，既幫病人更快找到對的人，也能分散門診壓力。 這項功能正式上線後反映不錯，也讓臺大醫院開始思考一件事：生成式AI最適合用在什麼地方？這一思考，也進一步催生了他們的GenAI轉型。經過一段摸索，臺大醫院歸納出5種最能發揮GenAI長處的場景：整理病歷重點、輔助生成報告、解析結構化資料、即時問答，以及管理審核。接下來的幾個實例，展示了臺大醫院GenAI如何從「工具」走向「流程的一部分」。 實例1 自動化串起心衰照護流程 在眾多應用中，一大亮點是心衰照護團隊以4項GenAI自動化，串起原本高度仰賴人工的照護痛點。 進一步來說，心</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172898</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E8%8B%A5%E6%A8%B8-%E5%85%A5%E9%99%A2%E7%AF%A9%E6%AA%A2-%E5%9C%961-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E8%87%BA%E5%A4%A7%E9%86%AB%E9%99%A2.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 19 Dec 2025 03:17:34 +0000</pubDate>
     </item>
     <item>
-      <title>微軟12月安全更新造成Windows 10 PC、舊版Server IIS、MQ功能無法運作</title>
-      <link>https://www.ithome.com.tw/news/172890</link>
-      <description>新聞微軟昨（17）日公告，本月的安全更新，造成Windows 10及舊版Windows Server的IIS及訊息佇列（Message Queuing，MSMQ）失常，出現資源不足錯誤訊息，微軟正在調查原因。 出現問題的是Patch Tuesday中釋出的KB5071546。部分用戶安裝於Windows機器後，MSMQ無法運作。這問題也影響運作中的叢集MSMQ環境。 這問題症狀包括，MSMQ訊息佇列靜止不動、IIS網站無法展開，帶有「執行運作的資源不足」的錯誤訊息、應用程式無法寫入佇列、應用程式撰寫訊息檔案時出現「C:\Windows\System32\msmq\storage*.mq無法建立」的錯誤訊息，以及一些誤導log像是「磁碟空間或記憶體不足」，但事實並非如此。 微軟推測原因可能是，近日該公司對MSMQ安全模型及C:\Windows\System32\MSMQ\storage資料夾NTFS權限進行的變更所致。MSMQ用戶現在必須具備寫入權限才能存取，通常只有管理員才符合資格。因此如果用戶企圖透過MSMQ API傳送訊息，將觸發上述資源不足的錯誤。 這問題主要影響企業或託管的IT</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172890</guid>
-      <pubDate>Thu, 18 Dec 2025 03:28:31 +0000</pubDate>
+      <title>【以程式做球、AI殺球為策略，結合HIS實現大規模自動化】臺大醫院AI轉型的核心戰略</title>
+      <link>https://www.ithome.com.tw/news/172909</link>
+      <description>新聞「對臺大醫院來說，大型語言模型，不是回答問題的諮詢者，而是生產線的作業員。」臺大醫院資訊室經理溫家昶在生成式AI成果發表會上，一開頭就這樣強調。 這個對大型語言模型（LLM）本質截然不同於主流的定位，形塑了臺大醫院獨特的生成式AI運用戰略，將LLM結合HIS（醫療資訊系統），銜接資訊斷點，來實現大規模自動化。 用一個例子來說明，臺大醫院每年收治3到4千人次的心臟衰竭住院病患，除了醫生轉介，過去主要靠3名個案管理師，從散落在十多套系統中的各種病歷資料、檢驗數據，來辨識出有心衰高風險的病人，不只相當耗時，也因人力有限，可能出現遺漏。 臺大醫院現在改用GenAI整合分散各處的資料，每天自動執行心衰篩檢比對，產生3款報表，個管師現在每天只需要查看這幾張表，就能更快更完整地篩選出病患，解決了人手不足可能遺漏的問題。 不只如此，這群心臟衰竭高風險病患中，每年還有近2千人可能併發心房顫動，可有能發生中風、大出血，甚至是死亡等情況。照護團隊得盡快完成這3類症狀的風險評估。但是，光靠醫生手動查找分散在十多套系統上的數據來計算風險分數，光是中風風險分數的計算，一次就要花5～10分鐘，若要評估這3類風險</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172909</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1265_%E6%BA%AB%E5%AE%B6%E6%98%B6_%E5%8F%B0%E5%A4%A7%E9%86%AB%E9%99%A2_%E6%94%9D%E5%BD%B1%EF%BC%8F%E6%B4%AA%E6%94%BF%E5%81%89.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 19 Dec 2025 03:17:45 +0000</pubDate>
     </item>
     <item>
-      <title>汽車零件大廠LKQ通報Oracle EBS資料外洩　影響近萬人</title>
-      <link>https://www.ithome.com.tw/news/172892</link>
-      <description>新聞美國汽車零件大廠大豪（LKQ）本周向主管機關通報Oracle E-Business Suite（EBS）遭駭，外洩將近一萬人個資。 LKQ是Cl0p勒索軟體駭客於網上公布的受害者清單的知名企業之一。Cl0p駭客10月揚言要公開這家汽車元件廠的資料。 根據LKQ向緬因州檢察長辦公室提交的文件，該公司在甲骨文9月份公布零時差漏洞後，於10月3日在第三方資安鑑識業者協助下展開調查，發現資料外洩事件，時間點落在9月8日。LKQ一察覺此事隨即切斷系統連線。LKQ相信沒有Oracle EBS以外的系統環境受影響。 LKQ團隊於12月1日完成分析，他們判斷Oracle EBS中的LKQ獨資供貨商資料遭到存取。受影響總人數為9,070人。外洩資料類型包含僱主識別碼（Employer Identification Number）或社會安全碼。該公司也在本周通知受影響的個人。 去年11月LKQ也遭到網路攻擊，導致加拿大分公司運作中斷。但攻擊者是否為勒索軟體不得而知。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172892</guid>
-      <pubDate>Thu, 18 Dec 2025 05:07:52 +0000</pubDate>
+      <title>臺大醫院的GenAI轉型</title>
+      <link>https://www.ithome.com.tw/article/172910</link>
+      <description>專題故事從門診掛號推薦、護理即時問答，再到心衰照護與醫學影像的流程整合，臺大醫院正把生成式AI嵌入日常醫療作業，讓AI成為臨床的隱形基礎設施。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/article/172910</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1265-feng_mian_-p1-ruo_pu_-open-960x420_kao_bei_0.jpg?itok=GZYsnYF0" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 19 Dec 2025 03:17:59 +0000</pubDate>
     </item>
     <item>
-      <title>Opal進駐Gemini，成為Gem建置工具</title>
-      <link>https://www.ithome.com.tw/news/172893</link>
-      <description>新聞Google周三（12/17）宣布，已將用來建置AI迷你應用的Opal工具整合至Gemini網頁版，讓使用者可透過Opal建立AI助理Gem。 Opal是Google Labs於2025年7月發表的無程式碼AI應用建置工具，定位為「AI流程與迷你應用的編排層」，可將一連串AI指令整理成固定流程，封裝為可重複使用的AI迷你應用。Google最初為Opal設置獨立入口網站（opal.google），讓使用者以視覺化方式串接提示、模型與工具，但並未揭露其背後實際的模型存取與執行細節。 Gems則是Google在Gemini中推出的客製化AI助理機制，讓使用者能依特定任務、情境或工作習慣，建立可重複使用的專屬AI專家。其核心在於將使用者反覆輸入的指令與偏好固定下來，形成一個可長期呼叫的AI角色。 Google本周將Opal整合至Gemini網頁版後，Gems的建立方式也隨之升級。使用者只要進入Gemini網頁，從側邊欄開啟Gems管理器並選擇以Opal建立Gem，Opal便會以內嵌方式啟動。使用者可直接用文字描述所要完成的任務，Opal會自動將描述拆解為多個步驟，並允許逐步編輯提示內容與流</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172893</guid>
-      <pubDate>Thu, 18 Dec 2025 05:29:41 +0000</pubDate>
+      <title>醫院GenAI應用加速規模化</title>
+      <link>https://www.ithome.com.tw/voice/172912</link>
+      <description>過去一年來，臺灣企業級生成式AI應用，開始展現了百花齊放的成果，去年，企業想的是「找出適用場景」，今年則是更進一步聚焦於「高ROI效益的場景」。企業投入GenAI的目標，更加明確了，不只要用得對，還得用得有成效。 從iThome今年度的CIO大調查結果，可以看到，臺灣大型企業已有15%企業，約每六家就有一家，在正式環境中導入GenAI。不過，有少數，約5%的臺灣企業，開始擴大規模，又以醫療業GenAI應用，最令我驚艷。 這兩年，我跑了不少企業，實地採訪、參觀他們如何運用最夯的生成式AI應用。去年，IT資源充沛的金融業積極投入，受限於相對嚴格且繁多的法遵規範，金融業對於GenAI的採用，一直是大膽驗證，小心落地，可以看到各式各樣的GenAI驗證測試，但真正落地的應用，卻不多。常見有系統性的GenAI管理和開發框架，但少見有全集團、全面性的應用實例。 幾年前，不少醫院大力擁抱AI，嘗試用AI來判讀醫療影像，也有不少實例，但是這類分析式的AI，需要大量資深、專業醫師投入人工標記作業，想要擴大規模，延伸更多應用場景，非常困難。從我們的大調查也可以看到，醫院的AI預算一度緊縮，醫院高層無法看到規</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/voice/172912</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1265-feng_mian_-p1-ruo_pu_-open-960x420_kao_bei_0.jpg?itok=GZYsnYF0" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 19 Dec 2025 03:18:26 +0000</pubDate>
     </item>
     <item>
-      <title>YouTube獲得奧斯卡獎的全球獨家轉播權</title>
-      <link>https://www.ithome.com.tw/news/172895</link>
-      <description>新聞美國電影藝術與科學學院（The Academy of Motion Picture Arts and Sciences，The Academy）周三（12/17）簽署一項合作協議，YouTube自2029年起將獲得奧斯卡金像獎（Oscars）的全球獨家轉播權，從2029年的第101屆開始，一直持續至2033年。 成立於1927年的The Academy是一個由電影專業人士組成的非營利組織，並於1929年創立奧斯卡金像獎，成為全球最具影響力的電影獎項，旨在表彰電影藝術與技術上的卓越成就。奧斯卡長期採取傳統電視網轉播模式，在美國自1976年起由ABC負責播出，現行合約將於2028年到期；國際市場則由迪士尼旗下的Buena Vista International負責發行與授權。此次The Academy決定將美國與全球的奧斯卡轉播權全面交由YouTube，也象徵奧斯卡首次以數位平臺作為核心發布管道。 根據合作內容，奧斯卡金像獎頒獎典禮將在全球於YouTube免費直播，美國觀眾則可同時透過Google於當地推出的付費線上電視服務YouTube TV收看，內容涵蓋紅毯、幕後花絮與州長舞會等延</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172895</guid>
-      <pubDate>Thu, 18 Dec 2025 05:49:00 +0000</pubDate>
+      <title>法國逮捕涉嫌對內政部發動網攻的22歲男子</title>
+      <link>https://www.ithome.com.tw/news/172915</link>
+      <description>新聞法國執法機關本周宣布逮捕了一名涉嫌於上周，對該國內政部發動網路攻擊的男子。 法國檢察官辦公室發出聲明，這名22歲男子於12月17日落網，原因是涉嫌參與組織犯罪集團攻擊國家機關的自動化個人資料處理系統。上周內政部遭遇網路攻擊事件後，巴黎檢察官辦公室網路犯罪部門展開調查。該罪名最高可判處10年有期徒刑。 法國政府並未透露這名男子的身份或國籍，僅透露嫌犯出生於2003年，之前曾因類似罪行於2025年被定罪，因而留有前科。 法國內政部上周遭不明人士存取數臺郵件伺服器上某些檔案，但無法斷言資料已被竊走。本案由法國負責調查和打擊網絡犯罪的OFAC持續調查中。法國警方將嫌犯結束最長48小時的拘留後發布進一步聲明。 Bleeping Computer報導，在法國內政部遭駭同時，一度因警方取締行動關閉的駭客論壇BreachForums又重新上線。其中一名管理員公開宣稱法國內政部一案為其所為。這名成員表示，為了報復友人被逮捕，他們成功駭入了「MININT」，即法國內政部。他還貼出三張系統螢幕擷圖以支持其說法。 這名人士指的逮捕事件可能是2025年法國警方逮捕BreachForums 5名管理員及版主的</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172915</guid>
+      <pubDate>Fri, 19 Dec 2025 03:28:54 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI開放開發者送審ChatGPT內第三方App，上架後將可在目錄被搜尋</title>
-      <link>https://www.ithome.com.tw/news/172894</link>
-      <description>新聞OpenAI開放開發者提交ChatGPT內第三方應用程式（ChatGPT App）送審，通過審核後可在ChatGPT內發布，並由使用者透過新上線的內建App目錄搜尋與探索。OpenAI表示，App可在對話中引入額外情境並執行動作，例如協助下單採買雜貨，將大綱轉為簡報或是協助找房等。 當使用者連結特定App後，可在對話中用@提及App名稱觸發，也可從工具選單手動選用。OpenAI同時透露正在測試，依對話脈絡、App使用型態與使用者偏好等訊號，在對話中建議可能有幫助的App，並提供更清楚的回饋管道。 針對開發者端，OpenAI強調應以對話為核心設計體驗，並提供仍處於測試版的Apps SDK作為開發工具。官方也整理多項資源，包括打造高品質App的最佳實務、開源範例、開源的介面函式庫，以及快速入門指南與開發者資源中心，助開發者完成設計與實作。 OpenAI表示，開發者可在OpenAI Developer Platform提交App並追蹤審核進度。送審資料將包含模型情境協定MCP的連線資訊、測試指引、目錄所需的中繼資料，以及上架地區設定。OpenAI並說明，第一批通過審核的App預計在明年起</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172894</guid>
-      <pubDate>Thu, 18 Dec 2025 06:20:11 +0000</pubDate>
+      <title>駭客企圖於義大利渡輪Fantastic植入惡意程式</title>
+      <link>https://www.ithome.com.tw/news/172918</link>
+      <description>新聞根據外電報導，法國上周於停靠在該國南部塞特港的義大利渡輪Fantastic上，逮捕了涉嫌於船上安裝間諜軟體的兩名嫌犯，懷疑是俄羅斯派人企圖於船上安裝遠端存取工具（Remote Access Tool，RAT）。 Fantastic隸屬於義大利航運公司Grandi Navi Veloci（GNV），為一可容納2,000名乘客及數百輛汽車的客貨兩用渡輪，主要航行於義大利、法國、西班牙及北非等地，為重要的地中海海上交通運輸工具。 率先披露此事的Le Parisien指出，這起事件源自於義大利國安局收到一份情報，宣稱兩名疑似間諜的男子潛伏在Fantastic上，他們持有精密電子設備，已感染了渡輪的電腦系統並植入RAT。 接獲通知的法國巴黎檢察官辦公室於是指示執法人員上船逮捕了兩名二十多歲的嫌犯，並搜出一個像是隨身碟的間諜設備，他們分別是拉脫維亞及保加利亞國籍，後者為Fantastic僱員，經訊問後已被釋放，前者則是實習水手，被指控犯有為外國勢力服務的陰謀罪、企圖入侵電腦系統，以及持有干擾導航系統設備等罪名，已被拘留。 海事資安專家Olivier Jacq向Le Parisien表示，船上的</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172918</guid>
+      <pubDate>Fri, 19 Dec 2025 05:59:55 +0000</pubDate>
     </item>
   </channel>
 </rss>
