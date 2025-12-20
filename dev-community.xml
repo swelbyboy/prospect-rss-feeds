@@ -8,72 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 19 Dec 2025 06:36:03 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 06:34:22 +0000</lastBuildDate>
     <item>
-      <title>7 Lessons I Learned from Using Zoom for System Design Interviews</title>
-      <link>https://dev.to/dev_loops/7-lessons-i-learned-from-using-zoom-for-system-design-interviews-14i7</link>
-      <description>During my rounds of system design interviews, I quickly realized that the technology we use to communicate can influence the flow, clarity, and ultimately the success of the interview. Zoom, being one of the most popular video conferencing tools, is a natural choice — but it comes with its own quirks and hidden pitfalls. In this post, I’ll share 7 lessons I learned from running and participating in system design interviews over Zoom, backed by real-world examples and technical insights. Whether</description>
-      <guid isPermaLink="false">https://dev.to/dev_loops/7-lessons-i-learned-from-using-zoom-for-system-design-interviews-14i7</guid>
-      <pubDate>Fri, 19 Dec 2025 06:01:44 +0000</pubDate>
+      <title>Carific.ai: Breaking the Type Hammer - Domain Model Architecture for Live PDF Preview</title>
+      <link>https://dev.to/abdullahjan/carificai-breaking-the-type-hammer-domain-model-architecture-for-live-pdf-preview-n1k</link>
+      <description>This is my fifth dev.to post. Previous posts: Auth System, AI Resume Analyzer, Structured AI Output, and Profile Editor Type Safety. const liveProfile = mergeFormValuesWithProfile( profile, values ) as unknown as FullProfile; I stared at that line. as unknown as FullProfile. The "type hammer." It worked. The PDF preview updated when users typed. But TypeScript had given up. I was lying to the compiler, and deep down, I knew this would bite me. This is the story of how I refactored a working feat</description>
+      <guid isPermaLink="false">https://dev.to/abdullahjan/carificai-breaking-the-type-hammer-domain-model-architecture-for-live-pdf-preview-n1k</guid>
+      <pubDate>Sat, 20 Dec 2025 05:52:20 +0000</pubDate>
     </item>
     <item>
-      <title>Avengers Assemble: How I Built a Superhero AI Team for Software Development</title>
-      <link>https://dev.to/cammanhhoang/avengers-assemble-how-i-built-a-superhero-ai-team-for-software-development-3ojg</link>
-      <description>"I'm here to talk to you about the Avenger Initiative." As developers using advanced AI IDEs like Google Antigravity or Cursor, we often fall into a trap: treating the AI as a generic "assistant". We ask it to code, then debug, then plan, then write docs—all in one messy, context-switching blur. The result? A "Jack of all trades, master of none" experience where the AI loses context and you lose your mind. But what if you could assemble a specialized team? What if you could call upon a Product M</description>
-      <guid isPermaLink="false">https://dev.to/cammanhhoang/avengers-assemble-how-i-built-a-superhero-ai-team-for-software-development-3ojg</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkcxdjvna8cow7nnttrej.png" length="0" type="image/png"/>
-      <pubDate>Fri, 19 Dec 2025 06:04:56 +0000</pubDate>
+      <title>The NoFluff Cheatsheet for the Airflow 3 Fundamentals</title>
+      <link>https://dev.to/michael_salata/the-nofluff-cheatsheet-for-the-airflow-3-fundamentals-4j76</link>
+      <description>Meta Article Curated Info for the Airflow 3 Fundamentals Certification If you’re looking to get up to speed on Airflow 3 or master the essentials while earning a certification, the Airflow Fundamentals Certification is a solid option. That said, the existing study guides can be outdated or over-scoped. This article is an updated cheatsheet, validated for correctness and curated for the Airflow topics that directly helped answer questions on the certification. My Background I’m a Software Enginee</description>
+      <guid isPermaLink="false">https://dev.to/michael_salata/the-nofluff-cheatsheet-for-the-airflow-3-fundamentals-4j76</guid>
+      <pubDate>Sat, 20 Dec 2025 05:54:22 +0000</pubDate>
     </item>
     <item>
-      <title>Building a "Legal Killer": An AI Agent Architecture Without the Margin for Error</title>
-      <link>https://dev.to/lag_lagendary/building-a-legal-killer-an-ai-agent-architecture-without-the-margin-for-error-1fao</link>
-      <description>In this article, we'll explore how to build a local legal risk analysis system that doesn't "hallucinate" text, but instead relies on hard links to the legal framework and case law. Problem: Why are standard LLMs useless in law? Standard models (even GPT-4) are prone to hallucinations in article numbers and interpretations. In legal matters, a single digit error is a lost cause. Our goal is to make the LLM not an "author," but a data manager. "Killer 2.0" System Architecture Data Layer (The Vaul</description>
-      <guid isPermaLink="false">https://dev.to/lag_lagendary/building-a-legal-killer-an-ai-agent-architecture-without-the-margin-for-error-1fao</guid>
-      <pubDate>Fri, 19 Dec 2025 06:10:13 +0000</pubDate>
+      <title>Cloudflare R2 in .NET Without the AWS SDK Headaches</title>
+      <link>https://dev.to/alexisfranorge/cloudflare-r2-in-net-without-the-aws-sdk-headaches-52a0</link>
+      <description>TL;DR: The Cloudflare.NET SDK provides IR2Client for R2 object storage with strongly-typed APIs, native dependency injection, automatic multipart uploads, and built-in operation metrics. R2 is Cloudflare's object storage with zero egress fees. Unlike AWS S3 or Azure Blob Storage, you don't pay to download your own data. While R2 offers S3 API compatibility and .NET developers can use the AWS SDK, the Cloudflare.NET SDK provides a streamlined .NET experience with IntelliSense, dependency injectio</description>
+      <guid isPermaLink="false">https://dev.to/alexisfranorge/cloudflare-r2-in-net-without-the-aws-sdk-headaches-52a0</guid>
+      <pubDate>Sat, 20 Dec 2025 05:56:53 +0000</pubDate>
     </item>
     <item>
-      <title>Introduction to Microsoft Agent Framework (Part 2 - Exposing Agents)</title>
-      <link>https://dev.to/icebeam7/introduction-to-microsoft-agent-framework-part-2-exposing-agents-4553</link>
-      <description>This article is part of Festive Tech Calendar 2025 initiative. You'll find other helpful articles and tutorials published daily by community members and experts there, so make sure to check it out every day. The Microsoft Agent Framework is rapidly becoming the standard way to build intelligent, composable AI systems on .NET, and one of the most exciting aspects of the framework is how it lets you turn agents themselves into reusable tools. If you read my earlier post, you already know the basic</description>
-      <guid isPermaLink="false">https://dev.to/icebeam7/introduction-to-microsoft-agent-framework-part-2-exposing-agents-4553</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8z8cgkgjbppzunc6bn1v.png" length="0" type="image/png"/>
-      <pubDate>Fri, 19 Dec 2025 06:12:30 +0000</pubDate>
+      <title>Unleash Your Code: The Magic of AgenticAI</title>
+      <link>https://dev.to/hkj13/unleash-your-code-the-magic-of-agenticai-4300</link>
+      <description>In today's ever-evolving tech landscape, artificial intelligence (AI) continues to push the boundaries of what's possible, reshaping industries and enhancing human capabilities. Among the myriad of AI advancements, AgenticAI emerges as a beacon of innovation, offering a unique approach to problem-solving and creative development. This article dives deep into the operational fabric of AgenticAI, illustrating its potential through real-world applications and theoretical underpinnings. What is Agen</description>
+      <guid isPermaLink="false">https://dev.to/hkj13/unleash-your-code-the-magic-of-agenticai-4300</guid>
+      <pubDate>Sat, 20 Dec 2025 06:00:54 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Decentralized Event Ticketing System Web3 with Symfony 7.4</title>
-      <link>https://dev.to/mattleads/building-a-decentralized-event-ticketing-system-web3-with-symfony-74-4mcm</link>
-      <description>The intersection of Web3 and traditional web frameworks is where real-world utility begins. While hype cycles come and go, the utility of Non-Fungible Tokens (NFTs) for verifying ownership — specifically in event ticketing — remains a solid use case. In this article, we will build the backbone of a Decentralized Event Ticketing System using Symfony 7.4 and PHP 8.3. We will move beyond basic tutorials and implement a production-grade architecture that handles the asynchronous nature of blockchain</description>
-      <guid isPermaLink="false">https://dev.to/mattleads/building-a-decentralized-event-ticketing-system-web3-with-symfony-74-4mcm</guid>
-      <pubDate>Fri, 19 Dec 2025 06:12:32 +0000</pubDate>
+      <title>Google Cloud Platform (GCP) Explained | The Engineer’s Cloud ☁️</title>
+      <link>https://dev.to/kaustubhyerkade/google-cloud-platform-gcp-explained-the-engineers-cloud-1j6</link>
+      <description>“AWS feels like a supermarket. Azure feels like enterprise paperwork. GCP feels like... an engineer built it.” If you’ve ever opened the GCP console and thought: “This looks clean. but different” “Why is everything so data centric?” “Why do Kubernetes and BigQuery feel native here?” This blog is for you. Let’s demystify Google Cloud Platform, how it works, why it exists, and why engineers quietly love it. What is Google Cloud Platform (GCP)? Google Cloud Platform is Google’s public cloud offerin</description>
+      <guid isPermaLink="false">https://dev.to/kaustubhyerkade/google-cloud-platform-gcp-explained-the-engineers-cloud-1j6</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmqmwjyoh7wfnyzvxumk7.png" length="0" type="image/png"/>
+      <pubDate>Sat, 20 Dec 2025 06:03:03 +0000</pubDate>
     </item>
     <item>
-      <title>Building ScrapeForge in public starting tomorrow 🚀</title>
-      <link>https://dev.to/vishwas-batra/building-scrapeforge-in-public-starting-tomorrow-29ki</link>
-      <description>Hi everyone 👋 I’m starting to build ScrapeForge in public tomorrow 🚀 ScrapeForge is an industrial-grade data scraping and analysis platform focused on reliable extraction, smart filtering, and AI-assisted insights. I’ll be sharing progress updates, learnings, and behind-the-scenes decisions as the product takes shape. Day 1 starts tomorrow. Looking forward to sharing the journey.</description>
-      <guid isPermaLink="false">https://dev.to/vishwas-batra/building-scrapeforge-in-public-starting-tomorrow-29ki</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk762fuqilqo9jwylxgj8.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 19 Dec 2025 06:13:53 +0000</pubDate>
+      <title>Tiramisu 3.0: From Response Generation to Decision Governance</title>
+      <link>https://dev.to/tiramisuframework/tiramisu-30-from-response-generation-to-decision-governance-2goo</link>
+      <description>published: true description: "Why we stopped improving how AI responds and started governing how AI decides. A Multi-Agent RAO system that validates before analyzing, and plans before responding." tags: ai, python, opensource, machinelearning Two months ago, I published Tiramisu Framework v2.0 — a multi-agent RAO system with 100% routing accuracy. Today, I'm releasing v3.0 — and it changes everything about how we think about AI systems. The shift: We stopped improving how AI responds and started</description>
+      <guid isPermaLink="false">https://dev.to/tiramisuframework/tiramisu-30-from-response-generation-to-decision-governance-2goo</guid>
+      <pubDate>Sat, 20 Dec 2025 06:04:34 +0000</pubDate>
     </item>
     <item>
-      <title>Docker</title>
-      <link>https://dev.to/syed_irfan_f0a0a796454b26/docker-bme</link>
-      <description>Docker</description>
-      <guid isPermaLink="false">https://dev.to/syed_irfan_f0a0a796454b26/docker-bme</guid>
-      <pubDate>Fri, 19 Dec 2025 06:14:17 +0000</pubDate>
+      <title>How I Built an MCP App to Roast My GitHub Year in Review</title>
+      <link>https://dev.to/blackgirlbytes/how-i-built-an-mcp-app-to-roast-my-github-year-in-review-28gh</link>
+      <description>I love GitHub Unwrapped because it lets me see all the progress (or lack of progress) I've made over the past year. Sidenote: I will be posting my GitHub Unwrapped on December 31st. I wanted to take that idea one step further. So instead of just looking at my stats, I built an MCP App that: Pulls your GitHub activity for 2025 Shows you your commits, repos, top languages, and more Gives you one roast And one compliment Here's my repo. // Detect dark theme var iframe = document.getElementById('twe</description>
+      <guid isPermaLink="false">https://dev.to/blackgirlbytes/how-i-built-an-mcp-app-to-roast-my-github-year-in-review-28gh</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvcev0qf4dgu5cplttgjj.png" length="0" type="image/png"/>
+      <pubDate>Sat, 20 Dec 2025 06:07:09 +0000</pubDate>
     </item>
     <item>
-      <title>Use Angular HostDirective for all of your component facades</title>
-      <link>https://dev.to/romain_geffrault_10d88369/use-angular-hostdirective-for-all-of-your-component-facades-1bo6</link>
-      <description>I really like the component HostDirective pattern, which enables logic composition. I use it each time I want to reuse UI/UX logic in my dumb component. But recently, I realized that I can use HostDirective to write my component facade. While there are already some great articles that talk about hostDirective for dumb component. Let's explore, why you should use HostDirective for your component facade. What are HostDirectives ? Host directives allow you to attach a directive to a component witho</description>
-      <guid isPermaLink="false">https://dev.to/romain_geffrault_10d88369/use-angular-hostdirective-for-all-of-your-component-facades-1bo6</guid>
-      <pubDate>Fri, 19 Dec 2025 06:16:17 +0000</pubDate>
+      <title>I built a SaaS to solve my own problem — now I’m unsure whether to scale it or move on</title>
+      <link>https://dev.to/rushikesh_bodakhe_db28644/i-built-a-saas-to-solve-my-own-problem-now-im-unsure-whether-to-scale-it-or-move-on-391j</link>
+      <description>Over the past few months, I built a small SaaS project as a solo developer. It didn’t start as a startup idea. It started as annoyance. Every time I worked on a side project or launch, the social media part felt repetitive and draining. Writing the same post again for different platforms, logging into multiple dashboards, trying to stay consistent — it always felt like work that didn’t really move things forward. So I decided to build something for myself. The idea was simple: prepare one post,</description>
+      <guid isPermaLink="false">https://dev.to/rushikesh_bodakhe_db28644/i-built-a-saas-to-solve-my-own-problem-now-im-unsure-whether-to-scale-it-or-move-on-391j</guid>
+      <pubDate>Sat, 20 Dec 2025 06:08:08 +0000</pubDate>
     </item>
     <item>
-      <title>Mastering Role-Based Access Control (RBAC) in Laravel with a Next.js Frontend</title>
-      <link>https://dev.to/prateekshaweb/mastering-role-based-access-control-rbac-in-laravel-with-a-nextjs-frontend-4i4g</link>
-      <description>Hook — why this matters now Building a modern app means splitting responsibilities: Laravel for API and Next.js for the UI. That split introduces a tough question: how do you keep authorization centralized, secure, and easy to reason about across backend and frontend? Implementing RBAC correctly solves that — it gives you predictable access control and a clean UX without duplicated logic. The problem in one sentence You need fine-grained access rules (who can edit, who can delete, who can see wh</description>
-      <guid isPermaLink="false">https://dev.to/prateekshaweb/mastering-role-based-access-control-rbac-in-laravel-with-a-nextjs-frontend-4i4g</guid>
-      <pubDate>Fri, 19 Dec 2025 06:19:33 +0000</pubDate>
+      <title>Boost Your LLM Apps: Monetization Strategies with Monetzly's API</title>
+      <link>https://dev.to/monetzly/boost-your-llm-apps-monetization-strategies-with-monetzlys-api-2lf9</link>
+      <description>Creating Win-Win-Win Scenarios in the AI Economy with Monetzly As the AI landscape continues to expand at an unprecedented pace, developers are often left grappling with a crucial question: How can I monetize my AI application without disrupting the user experience? Enter Monetzly, the groundbreaking platform that aims to redefine monetization for AI applications by creating a three-sided marketplace for developers, advertisers, and users. The Core Problem: AI apps are flourishing, yet many lack</description>
+      <guid isPermaLink="false">https://dev.to/monetzly/boost-your-llm-apps-monetization-strategies-with-monetzlys-api-2lf9</guid>
+      <pubDate>Sat, 20 Dec 2025 06:19:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>As a Student, I Built a Startup to Answer One Simple Question: Where Can I Watch This Anime?</title>
+      <link>https://dev.to/001_9d63ca6159a6ea2d617/as-a-student-i-built-a-startup-to-answer-one-simple-question-where-can-i-watch-this-anime-5cbl</link>
+      <description>I Got Tired of Searching Every Anime Streaming Platform—So I Built This I’m a student, and Indie builder who enjoys coding and building things. Like many anime fans, I subscribe to (or at least check) multiple streaming platforms—Netflix, Crunchyroll, Amazon Prime, HIDIVE, and more. And yet, I kept running into the same frustrating problem: Finding anime was harder than watching it._ Every time I wanted to watch a new anime, I had to: Google the title Open multiple streaming apps Read outdated b</description>
+      <guid isPermaLink="false">https://dev.to/001_9d63ca6159a6ea2d617/as-a-student-i-built-a-startup-to-answer-one-simple-question-where-can-i-watch-this-anime-5cbl</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ferys2ayznsw15y0e14mj.png" length="0" type="image/png"/>
+      <pubDate>Sat, 20 Dec 2025 06:20:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
