@@ -8,79 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Dec 2025 06:34:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Dec 2025 06:34:41 +0000</lastBuildDate>
     <item>
-      <title>Carific.ai: Breaking the Type Hammer - Domain Model Architecture for Live PDF Preview</title>
-      <link>https://dev.to/abdullahjan/carificai-breaking-the-type-hammer-domain-model-architecture-for-live-pdf-preview-n1k</link>
-      <description>This is my fifth dev.to post. Previous posts: Auth System, AI Resume Analyzer, Structured AI Output, and Profile Editor Type Safety. const liveProfile = mergeFormValuesWithProfile( profile, values ) as unknown as FullProfile; I stared at that line. as unknown as FullProfile. The "type hammer." It worked. The PDF preview updated when users typed. But TypeScript had given up. I was lying to the compiler, and deep down, I knew this would bite me. This is the story of how I refactored a working feat</description>
-      <guid isPermaLink="false">https://dev.to/abdullahjan/carificai-breaking-the-type-hammer-domain-model-architecture-for-live-pdf-preview-n1k</guid>
-      <pubDate>Sat, 20 Dec 2025 05:52:20 +0000</pubDate>
+      <title>Beyond input(): Building Production-Ready Human-in-the-Loop AI Agents with LangGraph</title>
+      <link>https://dev.to/sreeni5018/beyond-input-building-production-ready-human-in-the-loop-ai-with-langgraph-2en9</link>
+      <description>Introduction If you've built a simple chatbot or CLI tool, you've probably reached for Python's trusty input() function. It works great for quick scriptsvask a question, wait for an answer, done. But what happens when you need to build something more sophisticated? What if your AI agent needs to pause mid-workflow, wait for human approval (maybe for hours or days), and then pick up exactly where it left off? That's where input() falls flat on its face. The Problem with input() Let's be honest: i</description>
+      <guid isPermaLink="false">https://dev.to/sreeni5018/beyond-input-building-production-ready-human-in-the-loop-ai-with-langgraph-2en9</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcl6q1ln1fpwza7s4935o.png" length="0" type="image/png"/>
+      <pubDate>Sun, 21 Dec 2025 05:26:06 +0000</pubDate>
     </item>
     <item>
-      <title>The NoFluff Cheatsheet for the Airflow 3 Fundamentals</title>
-      <link>https://dev.to/michael_salata/the-nofluff-cheatsheet-for-the-airflow-3-fundamentals-4j76</link>
-      <description>Meta Article Curated Info for the Airflow 3 Fundamentals Certification If you’re looking to get up to speed on Airflow 3 or master the essentials while earning a certification, the Airflow Fundamentals Certification is a solid option. That said, the existing study guides can be outdated or over-scoped. This article is an updated cheatsheet, validated for correctness and curated for the Airflow topics that directly helped answer questions on the certification. My Background I’m a Software Enginee</description>
-      <guid isPermaLink="false">https://dev.to/michael_salata/the-nofluff-cheatsheet-for-the-airflow-3-fundamentals-4j76</guid>
-      <pubDate>Sat, 20 Dec 2025 05:54:22 +0000</pubDate>
+      <title>Build an SEO Sitemap Generator Endpoint in Node.js for Any Website</title>
+      <link>https://dev.to/prateekshaweb/build-an-seo-sitemap-generator-endpoint-in-nodejs-for-any-website-42mp</link>
+      <description>Hook — why this matters Search engines can only index what they can find. If your site grows quickly or relies on dynamic routes, a stale sitemap means lost traffic and opportunities. Building a Node.js endpoint that generates sitemaps on demand (or on a schedule) gives you control: fresh URLs, proper XML, and fewer surprises in Search Console. Context: the problem Many sites rely on manual sitemap updates or static builds that quickly become outdated. Crawlers miss new pages, deep links, or pag</description>
+      <guid isPermaLink="false">https://dev.to/prateekshaweb/build-an-seo-sitemap-generator-endpoint-in-nodejs-for-any-website-42mp</guid>
+      <pubDate>Sun, 21 Dec 2025 05:30:27 +0000</pubDate>
     </item>
     <item>
-      <title>Cloudflare R2 in .NET Without the AWS SDK Headaches</title>
-      <link>https://dev.to/alexisfranorge/cloudflare-r2-in-net-without-the-aws-sdk-headaches-52a0</link>
-      <description>TL;DR: The Cloudflare.NET SDK provides IR2Client for R2 object storage with strongly-typed APIs, native dependency injection, automatic multipart uploads, and built-in operation metrics. R2 is Cloudflare's object storage with zero egress fees. Unlike AWS S3 or Azure Blob Storage, you don't pay to download your own data. While R2 offers S3 API compatibility and .NET developers can use the AWS SDK, the Cloudflare.NET SDK provides a streamlined .NET experience with IntelliSense, dependency injectio</description>
-      <guid isPermaLink="false">https://dev.to/alexisfranorge/cloudflare-r2-in-net-without-the-aws-sdk-headaches-52a0</guid>
-      <pubDate>Sat, 20 Dec 2025 05:56:53 +0000</pubDate>
+      <title>What Building a C++ Benchmarking Suite Taught Me About "Simple" Data Structures</title>
+      <link>https://dev.to/mendolatech/what-building-a-c-benchmarking-suite-taught-me-about-simple-data-structures-k6o</link>
+      <description>We all know the Big-O complexity of basic data structures. Arrays are O(n) for search. Hash maps are O(1). Linked lists are... well, complicated. But when I set out to build hashbrowns — a C++17 benchmarking suite comparing arrays, linked lists, and hash maps — I discovered that theory and practice are very different beasts. Here's what I learned building this project from scratch, and why you should probably benchmark before you optimize. 🎯 The Goal Was Simple (Ha!) I wanted a clean, educationa</description>
+      <guid isPermaLink="false">https://dev.to/mendolatech/what-building-a-c-benchmarking-suite-taught-me-about-simple-data-structures-k6o</guid>
+      <pubDate>Sun, 21 Dec 2025 05:35:16 +0000</pubDate>
     </item>
     <item>
-      <title>Unleash Your Code: The Magic of AgenticAI</title>
-      <link>https://dev.to/hkj13/unleash-your-code-the-magic-of-agenticai-4300</link>
-      <description>In today's ever-evolving tech landscape, artificial intelligence (AI) continues to push the boundaries of what's possible, reshaping industries and enhancing human capabilities. Among the myriad of AI advancements, AgenticAI emerges as a beacon of innovation, offering a unique approach to problem-solving and creative development. This article dives deep into the operational fabric of AgenticAI, illustrating its potential through real-world applications and theoretical underpinnings. What is Agen</description>
-      <guid isPermaLink="false">https://dev.to/hkj13/unleash-your-code-the-magic-of-agenticai-4300</guid>
-      <pubDate>Sat, 20 Dec 2025 06:00:54 +0000</pubDate>
+      <title>Check Out My Web Developer Portfolio</title>
+      <link>https://dev.to/abhay_tomar_e44b76521e919/check-out-my-web-developer-portfolio-212l</link>
+      <description>Here is my live portfolio: https://abhaytomar7781.github.io/abhay-tomar-portfolio/</description>
+      <guid isPermaLink="false">https://dev.to/abhay_tomar_e44b76521e919/check-out-my-web-developer-portfolio-212l</guid>
+      <pubDate>Sun, 21 Dec 2025 05:37:04 +0000</pubDate>
     </item>
     <item>
-      <title>Google Cloud Platform (GCP) Explained | The Engineer’s Cloud ☁️</title>
-      <link>https://dev.to/kaustubhyerkade/google-cloud-platform-gcp-explained-the-engineers-cloud-1j6</link>
-      <description>“AWS feels like a supermarket. Azure feels like enterprise paperwork. GCP feels like... an engineer built it.” If you’ve ever opened the GCP console and thought: “This looks clean. but different” “Why is everything so data centric?” “Why do Kubernetes and BigQuery feel native here?” This blog is for you. Let’s demystify Google Cloud Platform, how it works, why it exists, and why engineers quietly love it. What is Google Cloud Platform (GCP)? Google Cloud Platform is Google’s public cloud offerin</description>
-      <guid isPermaLink="false">https://dev.to/kaustubhyerkade/google-cloud-platform-gcp-explained-the-engineers-cloud-1j6</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmqmwjyoh7wfnyzvxumk7.png" length="0" type="image/png"/>
-      <pubDate>Sat, 20 Dec 2025 06:03:03 +0000</pubDate>
+      <title>ChatGPT Strengthens Security: What's New</title>
+      <link>https://dev.to/ndabene/chatgpt-strengthens-security-whataposs-new-1k0</link>
+      <description>Securing the Digital Frontier: OpenAI Unveils Advanced Safety &amp;amp; Parental Controls for ChatGPT Introduction Consider for a moment: would you share your deepest anxieties with a stranger on a busy street? Likely not. Yet, millions of users engage with ChatGPT daily, entrusting it with their thoughts, concerns, and sometimes their most profound moments of personal distress. This profound trust has recently taken a somber turn. Heartbreaking incidents have emerged where vulnerable teenagers, in mome</description>
+      <guid isPermaLink="false">https://dev.to/ndabene/chatgpt-strengthens-security-whataposs-new-1k0</guid>
+      <pubDate>Sun, 21 Dec 2025 05:38:18 +0000</pubDate>
     </item>
     <item>
-      <title>Tiramisu 3.0: From Response Generation to Decision Governance</title>
-      <link>https://dev.to/tiramisuframework/tiramisu-30-from-response-generation-to-decision-governance-2goo</link>
-      <description>published: true description: "Why we stopped improving how AI responds and started governing how AI decides. A Multi-Agent RAO system that validates before analyzing, and plans before responding." tags: ai, python, opensource, machinelearning Two months ago, I published Tiramisu Framework v2.0 — a multi-agent RAO system with 100% routing accuracy. Today, I'm releasing v3.0 — and it changes everything about how we think about AI systems. The shift: We stopped improving how AI responds and started</description>
-      <guid isPermaLink="false">https://dev.to/tiramisuframework/tiramisu-30-from-response-generation-to-decision-governance-2goo</guid>
-      <pubDate>Sat, 20 Dec 2025 06:04:34 +0000</pubDate>
+      <title>2026</title>
+      <link>https://dev.to/dillik/2026-5fk</link>
+      <description>A span of a year is both long and short. A lot of things can happen within a year. Yet when we look back it seems like the first day of 2025 was only yesterday. Here are my predictions, hopes and goals for the coming year. Predictions Apple will have a new CEO. A stock index will still be below 4200. IDEs will be officially dead. Premium speakers sells better in China compared to Europe. Major demonstration happen in a major European city. Slop creates a major news headline, either in the form o</description>
+      <guid isPermaLink="false">https://dev.to/dillik/2026-5fk</guid>
+      <pubDate>Sun, 21 Dec 2025 05:40:42 +0000</pubDate>
     </item>
     <item>
-      <title>How I Built an MCP App to Roast My GitHub Year in Review</title>
-      <link>https://dev.to/blackgirlbytes/how-i-built-an-mcp-app-to-roast-my-github-year-in-review-28gh</link>
-      <description>I love GitHub Unwrapped because it lets me see all the progress (or lack of progress) I've made over the past year. Sidenote: I will be posting my GitHub Unwrapped on December 31st. I wanted to take that idea one step further. So instead of just looking at my stats, I built an MCP App that: Pulls your GitHub activity for 2025 Shows you your commits, repos, top languages, and more Gives you one roast And one compliment Here's my repo. // Detect dark theme var iframe = document.getElementById('twe</description>
-      <guid isPermaLink="false">https://dev.to/blackgirlbytes/how-i-built-an-mcp-app-to-roast-my-github-year-in-review-28gh</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvcev0qf4dgu5cplttgjj.png" length="0" type="image/png"/>
-      <pubDate>Sat, 20 Dec 2025 06:07:09 +0000</pubDate>
+      <title>Echarts in Angular</title>
+      <link>https://dev.to/vspatil87/echarts-in-angular-427h</link>
+      <description>ECharts and Angular Integration Guide Hey👋- Hope you're having an awesome day! So, we are going to discuss how to use the echarts in angular and how to achieve the proper tree-shaking through imports. We can either directly use the echarts library or we can use the ngx-echarts wrapper. When to use ECharts Directly vs. ngx-echarts Wrapper Direct ECharts Usage (No Wrapper) Pros: Full control over initialization and lifecycle No abstraction layer overhead Direct access to all ECharts APIs Cons: Man</description>
+      <guid isPermaLink="false">https://dev.to/vspatil87/echarts-in-angular-427h</guid>
+      <pubDate>Sun, 21 Dec 2025 05:48:25 +0000</pubDate>
     </item>
     <item>
-      <title>I built a SaaS to solve my own problem — now I’m unsure whether to scale it or move on</title>
-      <link>https://dev.to/rushikesh_bodakhe_db28644/i-built-a-saas-to-solve-my-own-problem-now-im-unsure-whether-to-scale-it-or-move-on-391j</link>
-      <description>Over the past few months, I built a small SaaS project as a solo developer. It didn’t start as a startup idea. It started as annoyance. Every time I worked on a side project or launch, the social media part felt repetitive and draining. Writing the same post again for different platforms, logging into multiple dashboards, trying to stay consistent — it always felt like work that didn’t really move things forward. So I decided to build something for myself. The idea was simple: prepare one post,</description>
-      <guid isPermaLink="false">https://dev.to/rushikesh_bodakhe_db28644/i-built-a-saas-to-solve-my-own-problem-now-im-unsure-whether-to-scale-it-or-move-on-391j</guid>
-      <pubDate>Sat, 20 Dec 2025 06:08:08 +0000</pubDate>
+      <title>How Transformers Really Think: Inside the Brain of an AI Language Model</title>
+      <link>https://dev.to/aiwithapex/how-transformers-really-think-inside-the-brain-of-an-ai-language-model-4e99</link>
+      <description>Most people think AI models are mysterious black boxes. They're overthinking it. Here’s how they actually turn your words into predictions ↓ If you can explain it simply, you can use it strategically. And most leaders can’t explain how these models think. That’s where opportunities get lost. When you type a sentence into a model, it doesn’t see words. It sees numbers. Your sentence is chopped into tokens. Each token becomes a vector. Each vector gets a position so the model knows order, not just</description>
+      <guid isPermaLink="false">https://dev.to/aiwithapex/how-transformers-really-think-inside-the-brain-of-an-ai-language-model-4e99</guid>
+      <pubDate>Sun, 21 Dec 2025 05:49:28 +0000</pubDate>
     </item>
     <item>
-      <title>Boost Your LLM Apps: Monetization Strategies with Monetzly's API</title>
-      <link>https://dev.to/monetzly/boost-your-llm-apps-monetization-strategies-with-monetzlys-api-2lf9</link>
-      <description>Creating Win-Win-Win Scenarios in the AI Economy with Monetzly As the AI landscape continues to expand at an unprecedented pace, developers are often left grappling with a crucial question: How can I monetize my AI application without disrupting the user experience? Enter Monetzly, the groundbreaking platform that aims to redefine monetization for AI applications by creating a three-sided marketplace for developers, advertisers, and users. The Core Problem: AI apps are flourishing, yet many lack</description>
-      <guid isPermaLink="false">https://dev.to/monetzly/boost-your-llm-apps-monetization-strategies-with-monetzlys-api-2lf9</guid>
-      <pubDate>Sat, 20 Dec 2025 06:19:57 +0000</pubDate>
+      <title>Day 78 of 100 days dsa coding challenge</title>
+      <link>https://dev.to/manasi_patil_/day-78-of-100-days-dsa-coding-challenge-2pi6</link>
+      <description>Taking on a new challenge: solving GeeksforGeeks POTD daily and sharing my solutions! 💻🔥 The goal: sharpen problem-solving skills, level up coding, and learn something new every day. Follow my journey! 🚀 100DaysOfCode #CodingChallenge #ProblemSolving #GeeksforGeeks #DeveloperJourney Problem: https://www.geeksforgeeks.org/problems/count-x-in-range-of-a-sorted-array/1 Count X in Range of a Sorted Array Difficulty: Medium Accuracy: 62.72% You are given a sorted array arr[] and a 2D array queries[][</description>
+      <guid isPermaLink="false">https://dev.to/manasi_patil_/day-78-of-100-days-dsa-coding-challenge-2pi6</guid>
+      <pubDate>Sun, 21 Dec 2025 05:51:28 +0000</pubDate>
     </item>
     <item>
-      <title>As a Student, I Built a Startup to Answer One Simple Question: Where Can I Watch This Anime?</title>
-      <link>https://dev.to/001_9d63ca6159a6ea2d617/as-a-student-i-built-a-startup-to-answer-one-simple-question-where-can-i-watch-this-anime-5cbl</link>
-      <description>I Got Tired of Searching Every Anime Streaming Platform—So I Built This I’m a student, and Indie builder who enjoys coding and building things. Like many anime fans, I subscribe to (or at least check) multiple streaming platforms—Netflix, Crunchyroll, Amazon Prime, HIDIVE, and more. And yet, I kept running into the same frustrating problem: Finding anime was harder than watching it._ Every time I wanted to watch a new anime, I had to: Google the title Open multiple streaming apps Read outdated b</description>
-      <guid isPermaLink="false">https://dev.to/001_9d63ca6159a6ea2d617/as-a-student-i-built-a-startup-to-answer-one-simple-question-where-can-i-watch-this-anime-5cbl</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ferys2ayznsw15y0e14mj.png" length="0" type="image/png"/>
-      <pubDate>Sat, 20 Dec 2025 06:20:57 +0000</pubDate>
+      <title>My Project-Based Learning Journey – Building Real Projects to Learn</title>
+      <link>https://dev.to/lone_wolf_22/my-project-based-learning-journey-building-real-projects-to-learn-55hc</link>
+      <description>📘 What You’ll Find in My Blog Step-by-step projects starting from Python fundamentals Challenges I faced and how I solved them Key takeaways and reflections for each project Clear progression from foundations to advanced projects 🌐 Explore the Blog Check out my main blog and portfolio here: Project-Based Learning Blog 💡 Why I Learn This Way Project-first learning — concepts are learned while building Problem-solving over theory memorization Iterate and improve continuously Reflect by writing I b</description>
+      <guid isPermaLink="false">https://dev.to/lone_wolf_22/my-project-based-learning-journey-building-real-projects-to-learn-55hc</guid>
+      <pubDate>Sun, 21 Dec 2025 05:59:16 +0000</pubDate>
     </item>
   </channel>
 </rss>
