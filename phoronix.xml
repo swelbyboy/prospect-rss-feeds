@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Dec 2025 06:34:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 21 Dec 2025 06:35:04 +0000</lastBuildDate>
     <item>
-      <title>Ubuntu 26.04 LTS Plans Confirmed For Linux 6.20 / Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Ubuntu-26.04-Kernel-Plans</link>
-      <description>Canonical confirmed their Linux kernel plans today for the Ubuntu 26.04 Long Term Support (LTS) release due out in April...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-26.04-Kernel-Plans</guid>
-      <pubDate>Fri, 19 Dec 2025 11:12:57 +0000</pubDate>
+      <title>DragonFlyBSD's VirtIO Block Driver Lands Multi-Queue Support</title>
+      <link>https://www.phoronix.com/news/DragonFly-VirtIO-Block-MQ</link>
+      <description>For helping with the I/O performance in virtualized environments, merged this week to the DragonFlyBSD development code is multi-queue support for its VirtIO block "virtio_blk" driver...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/DragonFly-VirtIO-Block-MQ</guid>
+      <pubDate>Sat, 20 Dec 2025 10:10:32 +0000</pubDate>
     </item>
     <item>
-      <title>2025 Brought "Transformative Changes" For FreeBSD On Laptops</title>
-      <link>https://www.phoronix.com/news/FreeBSD-Laptops-2025</link>
-      <description>As we have been covering over the past year, major investments have been made to better the outlook for running FreeBSD on laptop hardware. From WiFi driver improvements to enhancing suspend/resume, power management, graphics drivers, and other features, it's been a big undertaking to make FreeBSD work better on laptops. The FreeBSD Foundation calls 2025 as having brought "transformative changes" for the FreeBSD laptop experience...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-Laptops-2025</guid>
-      <pubDate>Fri, 19 Dec 2025 11:30:14 +0000</pubDate>
+      <title>KDE Plasma 6.6 Finally Supporting Ambient Light Sensors, Fixing Windows Games With HDR</title>
+      <link>https://www.phoronix.com/news/Plasma-6.6-Before-Christmas-F</link>
+      <description>There are some nice KDE Plasma 6.6 improvements that were merged ahead of Christmas...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-Before-Christmas-F</guid>
+      <pubDate>Sat, 20 Dec 2025 10:25:01 +0000</pubDate>
     </item>
     <item>
-      <title>Intel's Linux NPU User-Space Driver Adds Panther Lake Support</title>
-      <link>https://www.phoronix.com/news/Intel-User-Space-NPU-PTL</link>
-      <description>Since late 2024 Intel has been working on 5th Gen NPU support for their Linux IVPU driver. That 5th Gen NPU support for Intel Core Ultra "Panther Lake" SoCs was upstreamed back in Linux 6.13. Now today the Intel Linux NPU user-space driver has seen its official support added for Panther Lake...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-User-Space-NPU-PTL</guid>
-      <pubDate>Fri, 19 Dec 2025 13:10:04 +0000</pubDate>
+      <title>LoongArch Promoted To Being An Official Architecture For Debian 14</title>
+      <link>https://www.phoronix.com/news/Debian-LoongArch64-Official</link>
+      <description>Two years and a few months after LoongArch 64-bit "Loong64" was added to Debian Ports, it's now been promoted to being an official architecture for Debian Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Debian-LoongArch64-Official</guid>
+      <pubDate>Sat, 20 Dec 2025 10:50:00 +0000</pubDate>
     </item>
     <item>
-      <title>FUSE 3.18 Released With FUSE-Over-IO-uring, Statx Support</title>
-      <link>https://www.phoronix.com/news/FUSE-3.18-Released</link>
-      <description>Linux creator Linus Torvalds previously referred to file-systems in user-space as for toys and misguided people. But FUSE has shown a lot of interesting use-cases over the years and has grown more capable in the decade since Torvalds' prior comments. Out today is FUSE 3.18 as the latest release for the FUSE library...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FUSE-3.18-Released</guid>
-      <pubDate>Fri, 19 Dec 2025 13:21:57 +0000</pubDate>
+      <title>Mesa 26.0 NVK Driver Lands Improvement For NVIDIA GeForce RTX 20 "Turing" GPUs</title>
+      <link>https://www.phoronix.com/news/Mesa-26-NVK-Compute-Warp-Size</link>
+      <description>In addition to the open-source NVIDIA "NVK" Vulkan driver in Mesa merging compression support for big performance wins, another performance optimization was merged earlier in the week that stand to benefit GeForce RTX 20 "Turing" graphics processors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26-NVK-Compute-Warp-Size</guid>
+      <pubDate>Sat, 20 Dec 2025 11:12:01 +0000</pubDate>
     </item>
     <item>
-      <title>Xorgproto 2025.1 Released To Recognize Newer Keyboard Keys</title>
-      <link>https://www.phoronix.com/news/xorgproto-2025.1</link>
-      <description>For X.Org Server users there is a new release of xorgproto for the holidays. Xorgproto as the set of headers and specifications for the X11 core protocols and extensions is out with its first new release since March 2024...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/xorgproto-2025.1</guid>
-      <pubDate>Fri, 19 Dec 2025 14:11:31 +0000</pubDate>
+      <title>Gemini AI Yielding Sloppy Code For Ubuntu Development With New Helper Script</title>
+      <link>https://www.phoronix.com/news/Gemini-AI-Sloppy-Ubuntu</link>
+      <description>A few weeks ago it was mentioned by a Canonical engineer how trying to use AI to modernize the Ubuntu Error Tracker yielded some code that was "plain wrong" and other issues raised by that Microsoft GitHub Copilot code. The same Ubuntu developer shifted to trying Gemini AI to generate a helper script to assist in Ubuntu's monthly ISO snapshot releases. Google's Gemini AI also generated some sloppy code for a Python script to assist in those Ubuntu releases...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Gemini-AI-Sloppy-Ubuntu</guid>
+      <pubDate>Sat, 20 Dec 2025 12:39:30 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.12 To Linux 6.18 LTS Upgrade Offers Worthwhile Benefits For 5th Gen AMD EPYC</title>
-      <link>https://www.phoronix.com/review/linux-618-lts-amd-epyc</link>
-      <description>The recently released Linux 6.18 kernel is this year's Long Term Support version. As such it's sure to a see a lot of enterprise and hyperscaler uptake in being the annual LTS kernel version. While Linux 6.12 LTS will be maintained at least through the end of next year, upgrading to Linux 6.18 LTS can be very worthwhile from the performance perspective beyond the extended timeline until it will reach end-of-life. Here are benchmarks showing the performance advantages of upgrading from Linux 6.12</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/linux-618-lts-amd-epyc</guid>
-      <pubDate>Fri, 19 Dec 2025 15:38:09 +0000</pubDate>
+      <title>Linux Mint 22.3 Beta Released With Cinnamon 6.6 Desktop</title>
+      <link>https://www.phoronix.com/news/Linux-Mint-22.3-Beta</link>
+      <description>The beta release of Linux Mint 22.3 "Zena" is now available for testing ahead of the holidays for this latest incremental update to this desktop OS built atop an Ubuntu 24.04 LTS base...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Mint-22.3-Beta</guid>
+      <pubDate>Sat, 20 Dec 2025 15:37:49 +0000</pubDate>
     </item>
     <item>
-      <title>Linux Preps For "Slow Workload Hints" With Intel Panther Lake</title>
-      <link>https://www.phoronix.com/news/Intel-Panther-Lake-Thermal-Slow</link>
-      <description>Five years ago Intel began introducing "workload hints" used for thermal and power purposes with their SoCs and in turn on the software-side being enabled with their INT340X kernel driver on Linux systems. That Intel workload hint coverage was added to the Linux kernel in late 2020 and then a big addition in 2023 with Meteor Lake introducing new workload hint type capabilities. Now patches have been posted to the Linux kernel mailing list for new workload hint functionality coming for upcoming P</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Panther-Lake-Thermal-Slow</guid>
-      <pubDate>Fri, 19 Dec 2025 17:27:16 +0000</pubDate>
+      <title>GNU Debugger 17.1 Released With CET Shadow Stack Support, New DAP Features</title>
+      <link>https://www.phoronix.com/news/GNU-Debugger-GDB-17.1</link>
+      <description>The GNU Debugger "GDB" 17.1 is out today with a number of new features for enhancing the open-source debugging experience...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-Debugger-GDB-17.1</guid>
+      <pubDate>Sat, 20 Dec 2025 16:25:13 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Readies Nova Lake Display Support For Linux 6.20~7.0</title>
-      <link>https://www.phoronix.com/news/Intel-Nova-Lake-Display-6.20</link>
-      <description>For the in-development Linux 6.19 kernel the initial Xe3P_LPD GPU support was merged for the integrated graphics to be found with Nova Lake processors. There were some initial Xe3P_LPD display patches also merged for Linux 6.19 but it looks like for Linux 6.20 (or what may end up being known as Linux 7.0), the display support will actually be functional for driving monitors from Nova Lake...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Nova-Lake-Display-6.20</guid>
-      <pubDate>Fri, 19 Dec 2025 21:00:37 +0000</pubDate>
+      <title>Arch Linux's Main NVIDIA Driver Packages Now Using The Open Kernel Modules</title>
+      <link>https://www.phoronix.com/news/Arch-LInux-NVIDIA-Open-Default</link>
+      <description>With the Arch Linux packages for the NVIDIA official graphics driver moving to the now-stable NVIDIA 590 driver series that drops the GeForce GTX 900 and GTX 1000 series GPU support, Arch Linux users with those old Maxwell and Pascal graphics cards will need to transition to using the NVIDIA legacy driver packages from the Arch Linux AUR. Meanwhile for those on Turing and newer with the NVIDIA 590 driver will enjoy the open-source kernel modules by default being used...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Arch-LInux-NVIDIA-Open-Default</guid>
+      <pubDate>Sat, 20 Dec 2025 19:08:28 +0000</pubDate>
     </item>
     <item>
-      <title>Wine 11.0-rc3 Released With Another Week Of Bug Fixing</title>
-      <link>https://www.phoronix.com/news/Wine-11.0-rc3-Released</link>
-      <description>In working toward the Wine 11.0 stable release in January, Wine 11.0-rc3 is out today as the latest weekly release candidate...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-11.0-rc3-Released</guid>
-      <pubDate>Fri, 19 Dec 2025 22:33:51 +0000</pubDate>
+      <title>Intel Readies Multi-Queue Support For Linux 7.0 As New Feature For Crescent Island</title>
+      <link>https://www.phoronix.com/news/Intel-Xe-Multi-Queue-Linux-7.0</link>
+      <description>In addition to this week's drm-intel-next pull request to DRM-Next adding Nova Lake display support, a drm-xe-next pull request was also sent out on Friday that prepares a new multi-queue feature for Xe3P_XPC -- initially just the "Crescent Island" AI inference accelerator card. Plus other new features too for this Xe kernel driver in the upcoming Linux 7.0~6.20 kernel version...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Xe-Multi-Queue-Linux-7.0</guid>
+      <pubDate>Sat, 20 Dec 2025 20:25:00 +0000</pubDate>
     </item>
     <item>
-      <title>Chrome/Chromium Add Support For Printing Via XDG Portal</title>
-      <link>https://www.phoronix.com/news/XDG-Portal-Chrome-Printing</link>
-      <description>Google's Chrome/Chromium web browser code has merged support for Linux printing via the XDG Portal. This is important to allow print support from within Flatpak or Snap sandboxed versions of Google's web browser...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/XDG-Portal-Chrome-Printing</guid>
-      <pubDate>Sat, 20 Dec 2025 01:28:07 +0000</pubDate>
+      <title>GotaTun Open-Source Rust WireGuard Implementation Announced By Mullvad</title>
+      <link>https://www.phoronix.com/news/GotaTun-Rust-WireGuard-OSS</link>
+      <description>The Swedish VPN service Mullvad announced this week GotaTun, an open-source Rust-based WireGuard implementation that is forked from Cloudflare's BoringTun...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GotaTun-Rust-WireGuard-OSS</guid>
+      <pubDate>Sun, 21 Dec 2025 01:18:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

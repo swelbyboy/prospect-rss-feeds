@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Dec 2025 06:37:31 +0000</lastBuildDate>
-    <item>
-      <title>醫院GenAI應用加速規模化</title>
-      <link>https://www.ithome.com.tw/voice/172912</link>
-      <description>過去一年來，臺灣企業級生成式AI應用，開始展現了百花齊放的成果，去年，企業想的是「找出適用場景」，今年則是更進一步聚焦於「高ROI效益的場景」。企業投入GenAI的目標，更加明確了，不只要用得對，還得用得有成效。 從iThome今年度的CIO大調查結果，可以看到，臺灣大型企業已有15%企業，約每六家就有一家，在正式環境中導入GenAI。不過，有少數，約5%的臺灣企業，開始擴大規模，又以醫療業GenAI應用，最令我驚艷。 這兩年，我跑了不少企業，實地採訪、參觀他們如何運用最夯的生成式AI應用。去年，IT資源充沛的金融業積極投入，受限於相對嚴格且繁多的法遵規範，金融業對於GenAI的採用，一直是大膽驗證，小心落地，可以看到各式各樣的GenAI驗證測試，但真正落地的應用，卻不多。常見有系統性的GenAI管理和開發框架，但少見有全集團、全面性的應用實例。 幾年前，不少醫院大力擁抱AI，嘗試用AI來判讀醫療影像，也有不少實例，但是這類分析式的AI，需要大量資深、專業醫師投入人工標記作業，想要擴大規模，延伸更多應用場景，非常困難。從我們的大調查也可以看到，醫院的AI預算一度緊縮，醫院高層無法看到規</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/voice/172912</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1265-feng_mian_-p1-ruo_pu_-open-960x420_kao_bei_0.jpg?itok=GZYsnYF0" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 19 Dec 2025 03:18:26 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 21 Dec 2025 06:39:14 +0000</lastBuildDate>
     <item>
       <title>法國逮捕涉嫌對內政部發動網攻的22歲男子</title>
       <link>https://www.ithome.com.tw/news/172915</link>
@@ -81,6 +73,14 @@
       <description>新聞OpenAI發布程式開發專用模型GPT-5.2-Codex，並表示這是針對Codex情境調校的GPT-5.2版本，主打專業軟體工程與防禦型資安。該模型已在付費版ChatGPT用戶可使用的各項Codex介面上線，並規畫在接下來數周內逐步開放API存取。同時OpenAI也測試邀請制可信存取（Trusted Access），讓經審核、以防禦用途為主的專業人士與組織，先行參與後續能力與更寬鬆模型的存取測試。 官方提到，GPT-5.2-Codex的改動重點在於長期任務的上下文壓縮，並強化大型程式碼變更情境下的穩定性，例如重構與系統搬遷，也改善在Windows環境中的代理式程式開發表現，並提供Codex CLI作為使用入口。 OpenAI描述GPT-5.2-Codex更能處理長上下文與大型儲存庫，工具呼叫更可靠，目標是在長時間工作階段中維持脈絡一致，完成重構、程式碼庫搬遷與功能建置等較大任務，即使計畫調整或嘗試失敗也能繼續迭代。 OpenAI也提到視覺理解能力提升，可更準確解讀螢幕截圖、技術圖表與使用者介面，用於加速把設計稿轉成可運作原型。 在基準測試方面，OpenAI稱GPT-5.2-Cod</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/172932</guid>
       <pubDate>Fri, 19 Dec 2025 10:32:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>2025印尼遭網攻次數冠於亞太地區，臺灣資安產業正在提供協助</title>
+      <link>https://www.ithome.com.tw/news/172936</link>
+      <description>新聞在2025年11月底，資安廠商Fortinet在臺發表2026全球資安威脅預測報告，順勢揭露亞太地區今年1至9月的資安威脅態勢，由於身處全球地緣政治衝突的第一線，面臨的惡意活動攻擊數量向來居高不下，但令人訝異的是，臺灣竟不是亞太地區第一名，而是印尼，為何如此？當特定國家與地區偵測到的惡意活動數量極高，可能有兩個原因，一是當地面臨的網路攻擊活動非常頻繁或大量，再加上此區域建置的Fortinet資安產品夠多，為了進一步了解印尼資安市場狀況，我們會後詢問Fortinet的看法，而由於近期臺灣多家資安廠商積極投入東南亞市場的拓展與經營，我們也請他們解讀這個現象。 印尼資安防護的危機：可被攻擊者針對的層面很廣泛 關於印尼資安威脅態勢是否特別嚴峻的問題，揭露這項觀察的Fortinet表示，他們偵測到的數據，是基於攻擊活動所產生的整體量測，並不代表Fortinet產品在印尼的採用率較高，而是根據攻擊遙測資料，包含病毒傳播、漏洞利用嘗試、掃描行為等多項偵測指標綜合而成。這些都是被觀察到的「嘗試性攻擊」，而非真正成功的入侵，因此，他們認為，這並不意味著印尼的資安情勢變得更為嚴峻。 2003年成立、服</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172936</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/Fortinet%20APAC-Threat%20Landscape-2025-11-27-Web3-Indonesia.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 20 Dec 2025 16:53:34 +0000</pubDate>
     </item>
   </channel>
 </rss>
