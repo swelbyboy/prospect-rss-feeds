@@ -8,79 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Dec 2025 06:39:14 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 06:41:54 +0000</lastBuildDate>
     <item>
-      <title>法國逮捕涉嫌對內政部發動網攻的22歲男子</title>
-      <link>https://www.ithome.com.tw/news/172915</link>
-      <description>新聞法國執法機關本周宣布逮捕了一名涉嫌於上周，對該國內政部發動網路攻擊的男子。 法國檢察官辦公室發出聲明，這名22歲男子於12月17日落網，原因是涉嫌參與組織犯罪集團攻擊國家機關的自動化個人資料處理系統。上周內政部遭遇網路攻擊事件後，巴黎檢察官辦公室網路犯罪部門展開調查。該罪名最高可判處10年有期徒刑。 法國政府並未透露這名男子的身份或國籍，僅透露嫌犯出生於2003年，之前曾因類似罪行於2025年被定罪，因而留有前科。 法國內政部上周遭不明人士存取數臺郵件伺服器上某些檔案，但無法斷言資料已被竊走。本案由法國負責調查和打擊網路犯罪的OFAC持續調查中。法國警方將嫌犯結束最長48小時的拘留後發布進一步聲明。 Bleeping Computer報導，在法國內政部遭駭同時，一度因警方取締行動關閉的駭客論壇BreachForums又重新上線。其中一名管理員公開宣稱法國內政部一案為其所為。這名成員表示，為了報復友人被逮捕，他們成功駭入了「MININT」，即法國內政部。他還貼出三張系統螢幕擷圖以支持其說法。 這名人士指的逮捕事件可能是2025年法國警方逮捕BreachForums 5名管理員及版主的</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172915</guid>
-      <pubDate>Fri, 19 Dec 2025 03:28:54 +0000</pubDate>
+      <title>HPE修補基礎架構管理軟體OneView高風險遠端程式碼執行漏洞</title>
+      <link>https://www.ithome.com.tw/news/172935</link>
+      <description>新聞HPE基礎架構管理軟體OneView存在可由遠端未經驗證攻擊者濫用的遠端程式碼執行漏洞CVE-2025-37164，CVSS 3.1評分10.0。受影響版本涵蓋所有早於v11.00的HPE OneView版本，HPE現已釋出可套用於v5.20至v10.20的安全熱修補程式，並建議用戶升級至已修補的v11.00或更新版本。 官方提醒，要是設備從OneView v6.60.xx升級到v7.00.00，或在HPE Synergy Composer上進行映像重建或回復，需重新套用熱修補。由於OneView虛擬設備與Synergy Composer存在各自獨立的熱修補套件，需分別下載與安裝。HPE官方公告未提供漏洞具體技術細節，也未提及是否觀察到漏洞遭實際利用，且暫時未提供其他對外緩解措施。 資安業者Rapid7初步分析熱修補內容時指出，修補的方向之一是在OneView的網頁伺服器層加入新的HTTP規則，用於阻擋對特定REST API端點的未授權存取。Rapid懷疑該REST API端點在未登入狀態下就能被呼叫，是漏洞可能遭濫用的入口。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172935</guid>
+      <pubDate>Mon, 22 Dec 2025 01:00:25 +0000</pubDate>
     </item>
     <item>
-      <title>殭屍網路Kimwolf挾持180萬臺連網電視，意圖發動大規模DDoS攻擊</title>
-      <link>https://www.ithome.com.tw/news/172916</link>
-      <description>新聞惡意軟體針對智慧電視或電視盒裝置的情況，並不常見，不過最近有資安公司發現，與Aisuru有關的殭屍網路，竟出現綁架大量連網電視及電視盒的情況。 中國資安公司奇安信揭露感染超過180萬臺裝置的大型殭屍網路Kimwolf，主要綁架的標的，就是執行安卓作業系統的電視盒，光是在12月3日至5日，奇安信就觀察到約270萬個來源IP位址（3日136萬個、4日183萬個，以及5日150萬個），保守估計感染設備數量突破180萬臺。由於這些設備分布在全球222個國家及多個時區，加上電視盒和智慧電視裝置通常設置於家庭環境，不會使用固定IP位址，而且還會受到用戶使用習慣影響，因此，所有受害裝置不會同時連線，實際感染規模難以估算。 關於被綁架的裝置是否因為有特定CVE漏洞而成為目標，奇安信並未提出說明，不過他們提及這些設備的韌體普遍存在漏洞、預載惡意軟體、採用弱密碼，以及缺乏資安更新機制的現象，並列出其中8種最常被針對的設備型號，但部分名稱（如TV BOX）難以判斷電視盒的廠牌或是型號。 奇安信尋找不同版本Kimwolf著手進行調查，意外發現與另一個多次發動大規模DDoS攻擊的殭屍網路Aisuru有關。K</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172916</guid>
-      <pubDate>Fri, 19 Dec 2025 05:11:27 +0000</pubDate>
+      <title>Cursor買下AI程式碼審查與協作平臺Graphite</title>
+      <link>https://www.ithome.com.tw/news/172940</link>
+      <description>新聞AI程式碼編輯器Cursor上周五（12/19）宣布，已與AI程式碼審查及協作平臺Graphite簽署正式協議，將由Cursor買下Graphite。Graphite全體團隊都將加入Cursor，預計於未來幾周完成合併，雙方並未公布交易金額。 Cursor是在2022年由4名美國麻省理工學院（MIT）的畢業生所創立，定位為AI程式碼編輯工具公司，2023年推出的首款產品主打在程式撰寫階段即時提供AI輔助，包括程式碼生成、理解與專案導覽，目標是大幅提升工程師生產力；Cursor並未自行訓練基礎模型，而是整合多家模型，著重於使用者介面及實務工作的流程整合。 至於Graphite則成立於2020年，專注於程式碼審查與合併流程，主要是補齊AI撰寫程式之後的審查及品質控管環節，協助團隊更快判斷程式碼能否上線，並降低AI生成程式碼的風險。該公司在今年3月完成5,200萬美元的B輪融資，外傳當時的估值為2.9億美元，Axios的報導則說此次的交易遠高於該數字。 Graphite共同創辦人暨執行長Merrill Lutsky指出，當初他們創辦Graphite時，是因為全球頂尖工程團隊對更好的程式碼</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172940</guid>
+      <pubDate>Mon, 22 Dec 2025 01:19:19 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】12月19日，華碩已終止支援的軟體更新工具漏洞遭到利用</title>
-      <link>https://www.ithome.com.tw/news/172917</link>
-      <description>新聞CISA警告華碩更新工具舊漏洞遭到攻擊 美國網路安全暨基礎設施安全局（CISA）警告，華碩已經停產的即時更新工具（Asus Live Update）存在重大漏洞CVE-2025-59374，發生駭客濫用事件，他們將其加入已知遭濫用漏洞（KEV）列表，警告聯邦政府機構強化安全防護，限期於2026年1月7日完成。 這項漏洞為Asus Live Update工具的嵌入式惡意程式碼漏洞，4.0版CVSS分數為9.3、3.1版CVSS風險值為9.8。CISA警告，本工具用戶端遭人透過供應鏈破壞進行非授權修改。被竄改過的軟體可能造成滿足特定攻擊條件的裝置執行非預期行為。 CVE-2025-59374曾在2019年，被卡巴斯基研究人員發現名為Operation ShadowHammer的濫用活動，時間點在2018年6到11月之間，推斷是中國駭客組織發動，以其漏洞散布後門程式。華碩在同年3月，發布更新版本因應。 法國逮捕涉嫌對內政部發動網攻的22歲男子 法國內政部上周遭不明人士存取數臺郵件伺服器上部分檔案，資料是否竊走不得而知。本案由法國負責調查和打擊網路犯罪的OFAC持續調查中。對此，法國執法機</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172917</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/mongodb-data-base-leak2.png" length="0" type="image/png"/>
-      <pubDate>Fri, 19 Dec 2025 05:38:01 +0000</pubDate>
+      <title>轉賣Google搜尋結果內容，SerpApi遭Google提告</title>
+      <link>https://www.ithome.com.tw/news/172948</link>
+      <description>新聞Google上周五（12/19）正式控告資料抓取業者SerpApi，理由是SerpApi規避了用來保護他人著作權內容的安全措施，非法抓取出現在Google搜尋結果中的內容，期望法院可阻止SerpApi的惡意行為，並向SerpApi求償。 SerpApi於2017年在美國成立，是家提供搜尋引擎結果擷取API的資料服務公司，其產品可擷取並結構化多個搜尋引擎的搜尋結果，如Google或Bing等，它並非搜尋引擎的官方合作夥伴，而是透過自動化技術即時取得搜尋結果頁的內容之後，再提供服務。除了Google之外，Reddit也在今年10月控告SerpApi。 Google於訴狀中解釋，Google長期在搜尋結果中整合大量的第三方授權內容，例如Knowledge Panel中的高解析圖片、Google Maps影像，或是Google Shopping的商品圖片與資料，這些內容都是Google透過授權及合作關係合法使用的，並非免費取得。 然而，SerpApi所推出的Google Search API卻透過自動化方式，即時抓取Google的搜尋結果頁，整理之後再賣給客戶，且估計該API每日發送數億筆</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172948</guid>
+      <pubDate>Mon, 22 Dec 2025 02:48:48 +0000</pubDate>
     </item>
     <item>
-      <title>駭客企圖於義大利渡輪Fantastic植入惡意程式</title>
-      <link>https://www.ithome.com.tw/news/172918</link>
-      <description>新聞根據外電報導，法國上周於停靠在該國南部塞特港的義大利渡輪Fantastic上，逮捕了涉嫌於船上安裝間諜軟體的兩名嫌犯，懷疑是俄羅斯派人企圖於船上安裝遠端存取工具（Remote Access Tool，RAT）。 Fantastic隸屬於義大利航運公司Grandi Navi Veloci（GNV），為一可容納2,000名乘客及數百輛汽車的客貨兩用渡輪，主要航行於義大利、法國、西班牙及北非等地，為重要的地中海海上交通運輸工具。 率先披露此事的Le Parisien指出，這起事件源自於義大利國安局收到一份情報，宣稱兩名疑似間諜的男子潛伏在Fantastic上，他們持有精密電子設備，已感染了渡輪的電腦系統並植入RAT。 接獲通知的法國巴黎檢察官辦公室於是指示執法人員上船逮捕了兩名二十多歲的嫌犯，並搜出一個像是隨身碟的間諜設備，他們分別是拉脫維亞及保加利亞國籍，後者為Fantastic僱員，經訊問後已被釋放，前者則是實習水手，被指控犯有為外國勢力服務的陰謀罪、企圖入侵電腦系統，以及持有干擾導航系統設備等罪名，已被拘留。 海事資安專家Olivier Jacq向Le Parisien表示，船上的</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172918</guid>
-      <pubDate>Fri, 19 Dec 2025 05:59:55 +0000</pubDate>
+      <title>Yann LeCun宣布成立世界模型開發公司 計畫募資5億歐元</title>
+      <link>https://www.ithome.com.tw/news/172952</link>
+      <description>新聞擁有卷積神經網路之父稱號的Meta前FAIR實驗室創辦人Yann LeCun上個月透露離職動向後，上周五（12/19）宣布已成立世界模型開發新創公司AMI（Advanced Machine Intelligence）Labs。 早在11月的離職公告中，LeCun已經宣布新公司的名字。當時他說，新公司將持續推動他在Meta的先進機器智慧（Advanced Machine Intelligence，AMI）研究專案。Fortune報導，新公司預計2026年初成立，總部設於巴黎。 不過LeCun本人並不會出任新公司的主要業務舵手，而是從合作夥伴Nabla延攬Alex LeBrun擔任新公司的共同創辦人暨CEO，他自己則擔任執行董事長的角色。Nabla為開發臨床照護AI助理的業者，和LeCun有多年合作經驗。LeBrun將以CEO身份帶領AMI的研究方向，同時身兼Nebla的首席AI科學家暨董事長。 LeBrun也是經驗豐富的科技創業家。他在共同創立Nabla之前，曾在2013年共同創立語音辨識新創業者Wit.ai，這間公司2015年為Meta/Facebook收購。更早以前他在2003年</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172952</guid>
+      <pubDate>Mon, 22 Dec 2025 03:07:15 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic更新Claude Skills，新增技能目錄並推動開放標準</title>
-      <link>https://www.ithome.com.tw/news/172920</link>
-      <description>新聞繼於今年10月首度推出Claude Skills後，Anthropic周四（12/18）進行全面升級，簡化了Claude Skills的開發與部署流程，並正式發布Agent Skills開放標準，旨在打破AI平臺間的隔閡，建立可通用的AI代理技能體系。 此次更新的核心在於解決企業大規模應用的痛點。過去Skills主要由使用者自行建立或取用官方範例，而現在Claude Team與Enterprise版管理員可於後臺，集中管理組織內技能的啟用與推送。 這使得管理員可一鍵將公司專屬的作業流程（如品牌規範檢查或財務報表生成）推送給所有員工，確保團隊輸出的專業度與一致性。雖然預設開啟，但使用者仍保有個人化彈性，可根據需求手動開關特定技能。 此外，為了解決使用者「不知道要裝什麼技能」的問題，Anthropic同步推出了技能目錄（Skills Directory），如同技能的App Store一樣，允許使用者直接挑選所需技能。首波合作對象包含 Notion、Canva、Figma、Atlassian、Cloudflare與Zapier等主流生產力工具。 Anthropic也宣布正式開放Agent</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172920</guid>
-      <pubDate>Fri, 19 Dec 2025 06:07:53 +0000</pubDate>
+      <title>2.2萬臺Fortinet設備存在FortiCloud SSO程式碼執行漏洞  臺灣近200臺機器仍曝險</title>
+      <link>https://www.ithome.com.tw/news/172955</link>
+      <description>新聞Fortinet軟體爆發單一簽入漏洞，網路上有近2.2萬臺設備陷入程式碼執行風險。臺灣也有快200臺。 兩周前Fortinet修補CVE-2025-59718及CVE-2025-59719二項重大漏洞。這二項漏洞為加密簽章不當驗證造成，未經身分驗證的攻擊者可發送特製的SAML訊息，繞過FortiCloud單一簽入（SSO）的身分驗證機制來執行程式碼，CVSS風險分數皆達9.8。新漏洞影響，啟用此FortiCloud單一簽入機制的FortiOS、FortiWeb、FortiProxy或是FortiSwitchManager。 在原廠修補兩個漏洞後兩日，即12月12日資安業者Arctic Wolf就觀察到閘道器FortiGate裝置遭受惡意存取攻擊。現在非營利資安研究組織ShadowServer Foundation的資料顯示潛在攻擊目標。 根據ShadowServer Foundation的數據，12月17日曝險的Fortinet設備最多曾超過2.6萬臺，截至12月19日還有21938臺。以地區而言，以美洲（7684）和亞洲（6807）最多。以國家而言，則是以美國的4579臺最多。印</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172955</guid>
+      <pubDate>Mon, 22 Dec 2025 03:19:06 +0000</pubDate>
     </item>
     <item>
-      <title>Google推出FunctionGemma小模型，公開訓練配方主打本機工具呼叫</title>
-      <link>https://www.ithome.com.tw/news/172919</link>
-      <description>新聞Google釋出FunctionGemma小模型，這是以Gemma 3 270M（2.7億參數）為基礎，專門針對工具呼叫需求進行微調的版本，並同步公開一套訓練配方，讓開發者能再依自家應用的API動作集進一步微調。Google將其設定為裝置端代理的基礎模型，目標是在手機等可本機運行的環境中，把自然語言指令轉成可執行的API動作，同時兼顧反應時間與資料隱私。 Google提到，自Gemma 3 270M推出後，開發者最常提出的需求之一就是原生的工具呼叫能力，官方認為，生成式AI產品的互動介面正從單純對話，轉向能代為執行任務的代理系統。FunctionGemma 主要針對單輪與並行的工具呼叫進行訓練，但要把多步驟操作串成相依的工作流，通常仍需由外部編排流程，或依自家動作集再微調，才能控制輸出行為到可預期範圍。 官方強調FunctionGemma處理執行與說明兩種輸出場景。模型可以先產生結構化的工具呼叫內容，交由既有工具或作業系統能力執行，取得回應後再用自然語言整理結果回覆使用者。這也讓FunctionGemma在系統架構上有兩種常見用法，一種是作為離線、本機的獨立代理，負責處理不需連網的</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172919</guid>
-      <pubDate>Fri, 19 Dec 2025 06:12:37 +0000</pubDate>
+      <title>Google Cloud、Palo Alto Networks簽訂多年合作 提供雲端防火牆、AI安全方案</title>
+      <link>https://www.ithome.com.tw/news/172960</link>
+      <description>新聞Google與資安公司Palo Alto Networks上周宣布，結合Google Cloud AI雲基礎架構，與Palo Alto Networks AI安全平臺，提供Google Cloud用戶的AI應用安全性，Palo Alto AI服務也將使用Google的AI模型及平臺。 這是在雙方既有合作上擴大而成的多年合作，號稱價值數十億美元。在最新合作下，Palo Alto Networks將改用Google Vertex AI平臺和Gemini LLM執行其聊天機器人，同時也將在Google Cloud提供資安工具。第一是Palo Alto今年年初推出的AI安全平臺Prisma AIRS，提供AI模型掃瞄、態勢管理（posture management）、AI紅隊演練、Runtime安全以及AI代理人安全功能，確保Google Cloud（包括在Vertex AI和Agent Engine）上的企業客戶的AI應用與資料安全。其次是VM系列的AI次世代軟體防火牆（SWFW），可防護公雲、私雲、混合雲及虛擬環境內的深度封包檢測和威脅防護。 第三是遠端安全存取平臺Prisma SAS</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172960</guid>
+      <pubDate>Mon, 22 Dec 2025 03:41:31 +0000</pubDate>
     </item>
     <item>
-      <title>遠端管理工具ScreenConnect修補重大漏洞，防敏感組態外洩與未信任擴充套件植入</title>
-      <link>https://www.ithome.com.tw/news/172921</link>
-      <description>新聞遠端管理工具ConnectWise發布ScreenConnect 25.8安全更新，修補編號CVE-2025-14265的漏洞。官方指出，漏洞在特定條件下可能導致未經授權存取組態資料，或讓攻擊者在伺服器端安裝未受信任的擴充套件，增加系統遭不當修改的風險。官方表示目前沒有發現遭到利用的證據，且要觸發相關情境需具備已授權或管理者層級存取權限，因此不屬於無須登入即可發動的攻擊型態。 官方揭露的通用漏洞評分系統CVSS 3.1基準分數為9.1，對機密性、完整性與可用性均屬高影響，不過由於需要高權限才能利用，因此其風險主要落在已取得授權帳號或管理權限的情境。該漏洞對應CWE-494，也就是下載程式碼時缺乏完整性檢查，代表與擴充套件安裝流程的信任與驗證機制相關。 ConnectWise強調該漏洞僅影響ScreenConnect的伺服器端元件，主控端（Host）與連線用戶端（Guest Clients）不在影響範圍。不過在修補建議上，官方仍要求地端環境將連線用戶端更新至相同版本。 受影響版本為25.8之前的ScreenConnect，而此次25.8更新主要強化伺服器端驗證，並在安裝擴充套件時加入</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172921</guid>
-      <pubDate>Fri, 19 Dec 2025 09:04:48 +0000</pubDate>
+      <title>Google將推遲Assistant退役時程到2026年</title>
+      <link>https://www.ithome.com.tw/news/172961</link>
+      <description>新聞Google上周（12/19）宣布，Gemini取代Google Assistant的計畫，將延後到2026年。 今年3月Google曾公布計畫在2025年底之前，將大部份行動裝置上的Assistant升級成Gemini。但Google Gemini Apps團隊成員指出，為了確保能無縫轉移，公司將調整時程到2026年，同時團隊也將持續努力推動手機Assistant到Gemini的升級工作。未來幾個月內Google會陸續公布計畫細節，也歡迎使用者提供反饋意見。 不確定Google是否會為了「無縫轉移」計畫增加Assistant的功能，或只是今年執行進度落後的託辭。現在除了Android，WearOS、Google TV、Android Auto、以及智慧音箱、顯示器也都逐步部署Gemini。 在Google宣布轉換為Gemini的計畫準備後，目前Gemini App仍提供「轉換為Google Assistant」的選項。一旦Google正式以Gemini取代Assistant，大多數的行動裝置將無法再存取Google Assistant服務，也無法再自Google Play Sto</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172961</guid>
+      <pubDate>Mon, 22 Dec 2025 03:54:53 +0000</pubDate>
     </item>
     <item>
-      <title>英特爾加速資料中心轉型大揭密，導入解構式伺服器、提高SLA及資源使用率，10多年來節省114億美元</title>
-      <link>https://www.ithome.com.tw/news/172934</link>
-      <description>新聞英特爾IT近期發表白皮書，揭露自家資料中心轉型策略及成果，英特爾整併全球資料中心數量，從152個減少至53個資料中心，並透過5個策略優化資料中心營運，並達到節能、控制成本的目的，從2010年至2024年共計節省約114.1億美元。 英特爾IT產業合作總監暨區域發言人邱天意表示，回顧英特爾全球資料中心發展策略，2000年以前，可以說是「有需要就建的資料中心戰國時代」，一方面是資料中心大舉擴張，另方面則是大型主機式微，從2006年開始，英特爾建立資料中心團隊，對於資料中心管理開始有中心發展戰略，追求標準化設計、成本控制，並啟動全球資料中心的整併行動。 從2006年到2010年，英特爾不斷調整優化資料中心的營運效率，如同其他企業一樣，推動虛擬化提高資源的利用率，建置企業私有雲，同時也汰舊換伺服器等設備，以導入更具能源效率的機器，隨著資料不斷增加的儲存系統也不斷最佳化調整，追求IT永續。2010年到2023年之間隨著業務聚焦重點轉移，不斷調整優化資料中心的資源使用及能源效率。 「從2010年到2024年，英特爾IT總共節省約114億美元的成本」，邱天意說。 英特爾如何做到這件事？ 英特爾現</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172934</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E6%93%B7%E5%8F%962(1).jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 19 Dec 2025 10:16:48 +0000</pubDate>
+      <title>Nvidia修補推薦系統框架Merlin高風險漏洞</title>
+      <link>https://www.ithome.com.tw/news/172937</link>
+      <description>新聞Nvidia於12月9日發布安全公告，針對開源機器學習框架Merlin中的NVTabular與Transformers4Rec，揭露當中存在兩項高風險資安漏洞。Merlin為Nvidia針對推薦系統發展的應用程式框架，常用於建置大規模資料推薦與個人化服務。 根據公告內容，CVE-2025-33214影響NVTabular的Workflow元件，CVE-2025-33213則存在於Transformers4Rec的Trainer元件。兩項漏洞皆源於反序列化處理缺乏適當驗證，屬於CWE-502不受信任資料反序列化（Deserialization of Untrusted Data）弱點。 在CVSS v3.1評估中，這兩項漏洞的基礎分數都達到8.8，屬於高風險等級。Nvidia指出，漏洞攻擊向量為網路型態，攻擊複雜度低，且無需事前身分驗證，但需使用者互動即可觸發。成功利用後，攻擊者可能在Linux系統上執行任意程式碼，進而造成阻斷服務、資訊洩露或資料竄改。 由於Merlin常被部署於推薦引擎、個人化系統與AI分析平臺，一旦相關服務對外開放或處理不受信任資料，將可能擴大攻擊面，對營運環境</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172937</guid>
+      <pubDate>Mon, 22 Dec 2025 04:04:08 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI推出GPT-5.2-Codex模型，特化代理式程式開發以及防禦型資安應用</title>
-      <link>https://www.ithome.com.tw/news/172932</link>
-      <description>新聞OpenAI發布程式開發專用模型GPT-5.2-Codex，並表示這是針對Codex情境調校的GPT-5.2版本，主打專業軟體工程與防禦型資安。該模型已在付費版ChatGPT用戶可使用的各項Codex介面上線，並規畫在接下來數周內逐步開放API存取。同時OpenAI也測試邀請制可信存取（Trusted Access），讓經審核、以防禦用途為主的專業人士與組織，先行參與後續能力與更寬鬆模型的存取測試。 官方提到，GPT-5.2-Codex的改動重點在於長期任務的上下文壓縮，並強化大型程式碼變更情境下的穩定性，例如重構與系統搬遷，也改善在Windows環境中的代理式程式開發表現，並提供Codex CLI作為使用入口。 OpenAI描述GPT-5.2-Codex更能處理長上下文與大型儲存庫，工具呼叫更可靠，目標是在長時間工作階段中維持脈絡一致，完成重構、程式碼庫搬遷與功能建置等較大任務，即使計畫調整或嘗試失敗也能繼續迭代。 OpenAI也提到視覺理解能力提升，可更準確解讀螢幕截圖、技術圖表與使用者介面，用於加速把設計稿轉成可運作原型。 在基準測試方面，OpenAI稱GPT-5.2-Cod</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172932</guid>
-      <pubDate>Fri, 19 Dec 2025 10:32:15 +0000</pubDate>
+      <title>PostgreSQL管理工具pgAdmin爆RCE重大漏洞</title>
+      <link>https://www.ithome.com.tw/news/172938</link>
+      <description>新聞廣泛用於PostgreSQL環境的開源管理工具pgAdmin存在一項重大資安漏洞CVE-2025-13780，可能導致遠端程式碼執行。該漏洞影響以伺服器模式運作的pgAdmin，並涉及資料庫還原流程的安全性，對企業資料庫環境構成高度風險。 CVE-2025-13780影響pgAdmin 9.10以及之前版本。NVD評定屬於高風險等級漏洞（CVSS分數8.8）；不過PostgreSQL將其列為重大等級（CVSS分數9.1），顯示該漏洞一旦遭利用，後果可能相當嚴重。 資安媒體Daily CyberSecurity進一步說明，CVE-2025-13780漏洞可繞過pgAdmin開發團隊原本用於修補CVE-2025-12762的安全機制。攻擊者可將看似正常的資料庫還原流程武器化，在主機上執行任意指令。 在當時針對CVE-2025-12762的修補中，pgAdmin團隊加入一套過濾機制，會在執行SQL傾印檔前，先移除其中危險的「中介指令（meta-commands）」。然而，資安研究人員發現，只需一組簡單的位元組序列，就能讓該過濾機制完全失效。 問題核心在於，pgAdmin的安全過濾器（特別</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172938</guid>
+      <pubDate>Mon, 22 Dec 2025 04:05:08 +0000</pubDate>
     </item>
     <item>
-      <title>2025印尼遭網攻次數冠於亞太地區，臺灣資安產業正在提供協助</title>
-      <link>https://www.ithome.com.tw/news/172936</link>
-      <description>新聞在2025年11月底，資安廠商Fortinet在臺發表2026全球資安威脅預測報告，順勢揭露亞太地區今年1至9月的資安威脅態勢，由於身處全球地緣政治衝突的第一線，面臨的惡意活動攻擊數量向來居高不下，但令人訝異的是，臺灣竟不是亞太地區第一名，而是印尼，為何如此？當特定國家與地區偵測到的惡意活動數量極高，可能有兩個原因，一是當地面臨的網路攻擊活動非常頻繁或大量，再加上此區域建置的Fortinet資安產品夠多，為了進一步了解印尼資安市場狀況，我們會後詢問Fortinet的看法，而由於近期臺灣多家資安廠商積極投入東南亞市場的拓展與經營，我們也請他們解讀這個現象。 印尼資安防護的危機：可被攻擊者針對的層面很廣泛 關於印尼資安威脅態勢是否特別嚴峻的問題，揭露這項觀察的Fortinet表示，他們偵測到的數據，是基於攻擊活動所產生的整體量測，並不代表Fortinet產品在印尼的採用率較高，而是根據攻擊遙測資料，包含病毒傳播、漏洞利用嘗試、掃描行為等多項偵測指標綜合而成。這些都是被觀察到的「嘗試性攻擊」，而非真正成功的入侵，因此，他們認為，這並不意味著印尼的資安情勢變得更為嚴峻。 2003年成立、服</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172936</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/Fortinet%20APAC-Threat%20Landscape-2025-11-27-Web3-Indonesia.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 20 Dec 2025 16:53:34 +0000</pubDate>
+      <title>安裝數逾800萬的4款擴充程式，被揭攔截AI對話資料</title>
+      <link>https://www.ithome.com.tw/news/172964</link>
+      <description>新聞專注於瀏覽器擴充程式與端點軟體的以色列資安業者Koi Security上周踢爆，有4款Chrome及Microsoft Edge擴充程式會監看、記錄並傳輸使用者與AI的對話。 Koi Security共同創辦人暨技術長Idan Dardikman表示，他在使用AI助理時，忽然懷疑是否有人會窺探這些對話，於是使用代理式AI風險引擎Wings，掃描是否有瀏覽器擴充套件具備讀取並外傳AI聊天內容的能力，原本以為只會找到少數下載量不高且來源可疑的工具，結果卻發現由Urban Cyber Security所開發的4款擴充程式，會蒐集使用者與AI聊天機器人的對話，再提供給資料經紀商BiScience進行分析及轉售。 這4款擴充程式分別是Urban VPN Proxy、1ClickVPN Proxy、Urban Browser Guard，以及Urban Ad Blocker，它們分別在Chrome及Microsoft Edge的擴充程式商店上架，名義上為VPN、瀏覽器防護與廣告封鎖工具，實際上卻共用一套監控後端。其中，Urban VPN Proxy在Chrome與Edge上分別有600萬及13</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172964</guid>
+      <pubDate>Mon, 22 Dec 2025 06:11:53 +0000</pubDate>
     </item>
   </channel>
 </rss>

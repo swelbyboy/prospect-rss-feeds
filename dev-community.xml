@@ -8,77 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Dec 2025 06:34:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Dec 2025 06:39:10 +0000</lastBuildDate>
     <item>
-      <title>Beyond input(): Building Production-Ready Human-in-the-Loop AI Agents with LangGraph</title>
-      <link>https://dev.to/sreeni5018/beyond-input-building-production-ready-human-in-the-loop-ai-with-langgraph-2en9</link>
-      <description>Introduction If you've built a simple chatbot or CLI tool, you've probably reached for Python's trusty input() function. It works great for quick scriptsvask a question, wait for an answer, done. But what happens when you need to build something more sophisticated? What if your AI agent needs to pause mid-workflow, wait for human approval (maybe for hours or days), and then pick up exactly where it left off? That's where input() falls flat on its face. The Problem with input() Let's be honest: i</description>
-      <guid isPermaLink="false">https://dev.to/sreeni5018/beyond-input-building-production-ready-human-in-the-loop-ai-with-langgraph-2en9</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcl6q1ln1fpwza7s4935o.png" length="0" type="image/png"/>
-      <pubDate>Sun, 21 Dec 2025 05:26:06 +0000</pubDate>
+      <title>Amazon RDS (Relational Database Service)</title>
+      <link>https://dev.to/lohita_blue_d6409977eec4c/amazon-rds-relational-database-service-52d9</link>
+      <description>Introduction In today’s digital world, applications need reliable and scalable databases to store and manage data. Amazon Web Services (AWS) provides Amazon RDS (Relational Database Service) to make database management easier without worrying about infrastructure. RDS helps developers focus on application development instead of database maintenance. What is Amazon RDS? Amazon RDS is a managed relational database service offered by AWS. It allows users to create, operate, and scale relational dat</description>
+      <guid isPermaLink="false">https://dev.to/lohita_blue_d6409977eec4c/amazon-rds-relational-database-service-52d9</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb4th0df8vgmfdh6dp4uw.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 22 Dec 2025 05:52:30 +0000</pubDate>
     </item>
     <item>
-      <title>Build an SEO Sitemap Generator Endpoint in Node.js for Any Website</title>
-      <link>https://dev.to/prateekshaweb/build-an-seo-sitemap-generator-endpoint-in-nodejs-for-any-website-42mp</link>
-      <description>Hook — why this matters Search engines can only index what they can find. If your site grows quickly or relies on dynamic routes, a stale sitemap means lost traffic and opportunities. Building a Node.js endpoint that generates sitemaps on demand (or on a schedule) gives you control: fresh URLs, proper XML, and fewer surprises in Search Console. Context: the problem Many sites rely on manual sitemap updates or static builds that quickly become outdated. Crawlers miss new pages, deep links, or pag</description>
-      <guid isPermaLink="false">https://dev.to/prateekshaweb/build-an-seo-sitemap-generator-endpoint-in-nodejs-for-any-website-42mp</guid>
-      <pubDate>Sun, 21 Dec 2025 05:30:27 +0000</pubDate>
+      <title>LINQ Performance Optimization: 5 Patterns Every C# Developer Should Know</title>
+      <link>https://dev.to/dsikorska/linq-performance-optimization-5-patterns-every-c-developer-should-know-4p6k</link>
+      <description>This is Part 3 of the "LINQ Performance &amp;amp; Best Practices" series. If you haven't read the foundational articles yet: Part 1: Deferred Execution - The Essence of LINQ in C# Part 2: Multiple Enumerations in LINQ Expressions Our encryption service API response time jumped from 200ms to 3 seconds after adding a "simple" LINQ query to filter document metadata. The query looked clean, passed code review without comments, and the unit tests ran fine. But production told a different story. The problem w</description>
+      <guid isPermaLink="false">https://dev.to/dsikorska/linq-performance-optimization-5-patterns-every-c-developer-should-know-4p6k</guid>
+      <pubDate>Mon, 22 Dec 2025 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What Building a C++ Benchmarking Suite Taught Me About "Simple" Data Structures</title>
-      <link>https://dev.to/mendolatech/what-building-a-c-benchmarking-suite-taught-me-about-simple-data-structures-k6o</link>
-      <description>We all know the Big-O complexity of basic data structures. Arrays are O(n) for search. Hash maps are O(1). Linked lists are... well, complicated. But when I set out to build hashbrowns — a C++17 benchmarking suite comparing arrays, linked lists, and hash maps — I discovered that theory and practice are very different beasts. Here's what I learned building this project from scratch, and why you should probably benchmark before you optimize. 🎯 The Goal Was Simple (Ha!) I wanted a clean, educationa</description>
-      <guid isPermaLink="false">https://dev.to/mendolatech/what-building-a-c-benchmarking-suite-taught-me-about-simple-data-structures-k6o</guid>
-      <pubDate>Sun, 21 Dec 2025 05:35:16 +0000</pubDate>
+      <title>Arc-Fault Protection in PV: Practical Notes for 1000V/1500V Strings</title>
+      <link>https://dev.to/wxc5937beep/arc-fault-protection-in-pv-practical-notes-for-1000v1500v-strings-9k9</link>
+      <description>High-voltage PV strings (1000V and 1500V) improve efficiency, but they also make fault management more critical. One issue is arc faults. They can occur at connectors, cable damage points, or degraded terminations. Unlike short circuits, a series arc may persist without a dramatic current increase. That is why arc-fault detection standards and test methods matter. Many engineers reference IEC 63027 when discussing DC arc detection and interruption concepts for PV systems. In practice, you should</description>
+      <guid isPermaLink="false">https://dev.to/wxc5937beep/arc-fault-protection-in-pv-practical-notes-for-1000v1500v-strings-9k9</guid>
+      <pubDate>Mon, 22 Dec 2025 06:02:11 +0000</pubDate>
     </item>
     <item>
-      <title>Check Out My Web Developer Portfolio</title>
-      <link>https://dev.to/abhay_tomar_e44b76521e919/check-out-my-web-developer-portfolio-212l</link>
-      <description>Here is my live portfolio: https://abhaytomar7781.github.io/abhay-tomar-portfolio/</description>
-      <guid isPermaLink="false">https://dev.to/abhay_tomar_e44b76521e919/check-out-my-web-developer-portfolio-212l</guid>
-      <pubDate>Sun, 21 Dec 2025 05:37:04 +0000</pubDate>
+      <title>Telegram Bots Are Useful — But at What Cost to Privacy?</title>
+      <link>https://dev.to/syed_iqbal_ahammad/telegram-bots-are-useful-but-at-what-cost-to-privacy-3o38</link>
+      <description>Rise of Telegram Bots in Private Groups This example is for educational purposes only, to demonstrate how leaked data can be misused. Telegram bots are very popular in Telegram groups because they make life easier by automating tasks, sharing content, and managing groups efficiently. Today’s generation largely depends on Telegram bots for entertainment, such as downloading anime, movies, music, and other digital content. Because of this convenience, Telegram bots are growing rapidly and are beco</description>
+      <guid isPermaLink="false">https://dev.to/syed_iqbal_ahammad/telegram-bots-are-useful-but-at-what-cost-to-privacy-3o38</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpzn5nznapk2w5uoayngc.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 22 Dec 2025 06:04:17 +0000</pubDate>
     </item>
     <item>
-      <title>ChatGPT Strengthens Security: What's New</title>
-      <link>https://dev.to/ndabene/chatgpt-strengthens-security-whataposs-new-1k0</link>
-      <description>Securing the Digital Frontier: OpenAI Unveils Advanced Safety &amp;amp; Parental Controls for ChatGPT Introduction Consider for a moment: would you share your deepest anxieties with a stranger on a busy street? Likely not. Yet, millions of users engage with ChatGPT daily, entrusting it with their thoughts, concerns, and sometimes their most profound moments of personal distress. This profound trust has recently taken a somber turn. Heartbreaking incidents have emerged where vulnerable teenagers, in mome</description>
-      <guid isPermaLink="false">https://dev.to/ndabene/chatgpt-strengthens-security-whataposs-new-1k0</guid>
-      <pubDate>Sun, 21 Dec 2025 05:38:18 +0000</pubDate>
+      <title>Código Limpio: 5 principios para dejar de escribir "código espagueti"</title>
+      <link>https://dev.to/oscarolg/codigo-limpio-5-principios-para-dejar-de-escribir-codigo-espagueti-4k4b</link>
+      <description>Introducción ¿Alguna vez has regresado a un proyecto después de tres meses y no has entendido absolutamente nada de lo que escribiste? No estás solo. A todos nos ha pasado que, por las prisas, terminamos creando funciones gigantes y archivos interminables. Hoy vamos a hablar de los principios SOLID, una guía esencial para cualquier desarrollador que quiera pasar de "hacer que funcione" a "crear software profesional". ¿Qué es SOLID? SOLID es un acrónimo acuñado por Robert C. Martin ("Uncle Bob").</description>
+      <guid isPermaLink="false">https://dev.to/oscarolg/codigo-limpio-5-principios-para-dejar-de-escribir-codigo-espagueti-4k4b</guid>
+      <pubDate>Mon, 22 Dec 2025 06:05:12 +0000</pubDate>
     </item>
     <item>
-      <title>2026</title>
-      <link>https://dev.to/dillik/2026-5fk</link>
-      <description>A span of a year is both long and short. A lot of things can happen within a year. Yet when we look back it seems like the first day of 2025 was only yesterday. Here are my predictions, hopes and goals for the coming year. Predictions Apple will have a new CEO. A stock index will still be below 4200. IDEs will be officially dead. Premium speakers sells better in China compared to Europe. Major demonstration happen in a major European city. Slop creates a major news headline, either in the form o</description>
-      <guid isPermaLink="false">https://dev.to/dillik/2026-5fk</guid>
-      <pubDate>Sun, 21 Dec 2025 05:40:42 +0000</pubDate>
+      <title>Why AI Code Suggestions Fail in Multi-File Projects</title>
+      <link>https://dev.to/leena_malhotra/why-ai-code-suggestions-fail-in-multi-file-projects-49j9</link>
+      <description>If you are building a Todo app in a single index.js file, AI coding assistants feel like magic. They predict the entire function before you finish typing the signature. But if you are working in a production repo with fifty interacting components, a shared types library, and complex state management, the magic dissolves. You type a function call, and the AI suggests an import that looks perfect. The variable names match your conventions. The path looks correct. You hit Tab. Then your build fails</description>
+      <guid isPermaLink="false">https://dev.to/leena_malhotra/why-ai-code-suggestions-fail-in-multi-file-projects-49j9</guid>
+      <pubDate>Mon, 22 Dec 2025 06:09:28 +0000</pubDate>
     </item>
     <item>
-      <title>Echarts in Angular</title>
-      <link>https://dev.to/vspatil87/echarts-in-angular-427h</link>
-      <description>ECharts and Angular Integration Guide Hey👋- Hope you're having an awesome day! So, we are going to discuss how to use the echarts in angular and how to achieve the proper tree-shaking through imports. We can either directly use the echarts library or we can use the ngx-echarts wrapper. When to use ECharts Directly vs. ngx-echarts Wrapper Direct ECharts Usage (No Wrapper) Pros: Full control over initialization and lifecycle No abstraction layer overhead Direct access to all ECharts APIs Cons: Man</description>
-      <guid isPermaLink="false">https://dev.to/vspatil87/echarts-in-angular-427h</guid>
-      <pubDate>Sun, 21 Dec 2025 05:48:25 +0000</pubDate>
+      <title>Building a High-Performance Real-Time Camera Capture System in C++</title>
+      <link>https://dev.to/techsorter/building-a-high-performance-real-time-camera-capture-system-in-c-3kad</link>
+      <description>Deep dive into building a production-ready camera capture system with zero-copy V4L2, multithreading, and FFmpeg encoding. Ever wondered how professional surveillance systems, dashcams, or robotics vision pipelines capture and process video at real-time speeds? Let me walk you through building a production-ready camera capture system in modern C++ that does exactly that. What We're Building A multithreaded camera capture system that: Captures live video at 30 FPS from USB cameras Processes frame</description>
+      <guid isPermaLink="false">https://dev.to/techsorter/building-a-high-performance-real-time-camera-capture-system-in-c-3kad</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhw613ntnatfb1p916qnu.png" length="0" type="image/png"/>
+      <pubDate>Mon, 22 Dec 2025 06:11:18 +0000</pubDate>
     </item>
     <item>
-      <title>How Transformers Really Think: Inside the Brain of an AI Language Model</title>
-      <link>https://dev.to/aiwithapex/how-transformers-really-think-inside-the-brain-of-an-ai-language-model-4e99</link>
-      <description>Most people think AI models are mysterious black boxes. They're overthinking it. Here’s how they actually turn your words into predictions ↓ If you can explain it simply, you can use it strategically. And most leaders can’t explain how these models think. That’s where opportunities get lost. When you type a sentence into a model, it doesn’t see words. It sees numbers. Your sentence is chopped into tokens. Each token becomes a vector. Each vector gets a position so the model knows order, not just</description>
-      <guid isPermaLink="false">https://dev.to/aiwithapex/how-transformers-really-think-inside-the-brain-of-an-ai-language-model-4e99</guid>
-      <pubDate>Sun, 21 Dec 2025 05:49:28 +0000</pubDate>
+      <title>Building Multi-Tenant SaaS as a Solo Developer</title>
+      <link>https://dev.to/pipipi-dev/building-multi-tenant-saas-as-a-solo-developer-1pi9</link>
+      <description>This article is part of the Solo SaaS Development Advent Calendar 2025. In the previous article, I covered GA4 and Microsoft Clarity setup. In this article, I'll share how I built a multi-tenant SaaS architecture. :::message The content in this article reflects the design I adopted for my personal project. Rather than best practices, please read this as a record of trial and error from a solo developer. ::: Why Multi-Tenant? When building a SaaS, you need to separate data by user. For team or or</description>
+      <guid isPermaLink="false">https://dev.to/pipipi-dev/building-multi-tenant-saas-as-a-solo-developer-1pi9</guid>
+      <pubDate>Mon, 22 Dec 2025 06:21:05 +0000</pubDate>
     </item>
     <item>
-      <title>Day 78 of 100 days dsa coding challenge</title>
-      <link>https://dev.to/manasi_patil_/day-78-of-100-days-dsa-coding-challenge-2pi6</link>
-      <description>Taking on a new challenge: solving GeeksforGeeks POTD daily and sharing my solutions! 💻🔥 The goal: sharpen problem-solving skills, level up coding, and learn something new every day. Follow my journey! 🚀 100DaysOfCode #CodingChallenge #ProblemSolving #GeeksforGeeks #DeveloperJourney Problem: https://www.geeksforgeeks.org/problems/count-x-in-range-of-a-sorted-array/1 Count X in Range of a Sorted Array Difficulty: Medium Accuracy: 62.72% You are given a sorted array arr[] and a 2D array queries[][</description>
-      <guid isPermaLink="false">https://dev.to/manasi_patil_/day-78-of-100-days-dsa-coding-challenge-2pi6</guid>
-      <pubDate>Sun, 21 Dec 2025 05:51:28 +0000</pubDate>
+      <title>Docker Environment Composer Local Package Development Tips</title>
+      <link>https://dev.to/mesak/docker-environment-composer-local-package-development-tips-13a7</link>
+      <description>When developing Laravel applications in a Docker environment, you often need to simultaneously develop custom Composer packages. This article shares an elegant solution using symbolic links. Problems Docker containers cannot access host machine absolute paths Packages scattered across projects, difficult to manage centrally Package modifications require reinstallation to take effect Solution 1. Create Unified Package Development Directory mkdir -p /home/developer/packages/php mkdir -p /home/deve</description>
+      <guid isPermaLink="false">https://dev.to/mesak/docker-environment-composer-local-package-development-tips-13a7</guid>
+      <pubDate>Mon, 22 Dec 2025 06:27:04 +0000</pubDate>
     </item>
     <item>
-      <title>My Project-Based Learning Journey – Building Real Projects to Learn</title>
-      <link>https://dev.to/lone_wolf_22/my-project-based-learning-journey-building-real-projects-to-learn-55hc</link>
-      <description>📘 What You’ll Find in My Blog Step-by-step projects starting from Python fundamentals Challenges I faced and how I solved them Key takeaways and reflections for each project Clear progression from foundations to advanced projects 🌐 Explore the Blog Check out my main blog and portfolio here: Project-Based Learning Blog 💡 Why I Learn This Way Project-first learning — concepts are learned while building Problem-solving over theory memorization Iterate and improve continuously Reflect by writing I b</description>
-      <guid isPermaLink="false">https://dev.to/lone_wolf_22/my-project-based-learning-journey-building-real-projects-to-learn-55hc</guid>
-      <pubDate>Sun, 21 Dec 2025 05:59:16 +0000</pubDate>
+      <title>Reflections on building my first LangGraph project</title>
+      <link>https://dev.to/juhapellotsalo/reflections-on-building-my-first-langgraph-project-3b6j</link>
+      <description>I recently completed my first LangGraph project that was more than a simple tutorial. It simulates a newspaper editorial workflow where a set of agents turn a story idea into a finished article. The newsroom itself wasn’t the goal, I simply used it to learn LangGraph properly. Learning LangGraph I explored several frameworks, including OpenAI Agents SDK, CrewAI, and AutoGen, but eventually settled on LangGraph. Modeling the application as a graph felt natural, and the level of control appealed t</description>
+      <guid isPermaLink="false">https://dev.to/juhapellotsalo/reflections-on-building-my-first-langgraph-project-3b6j</guid>
+      <pubDate>Mon, 22 Dec 2025 06:30:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
