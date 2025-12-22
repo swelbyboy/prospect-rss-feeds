@@ -8,63 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Dec 2025 06:35:04 +0000</lastBuildDate>
-    <item>
-      <title>DragonFlyBSD's VirtIO Block Driver Lands Multi-Queue Support</title>
-      <link>https://www.phoronix.com/news/DragonFly-VirtIO-Block-MQ</link>
-      <description>For helping with the I/O performance in virtualized environments, merged this week to the DragonFlyBSD development code is multi-queue support for its VirtIO block "virtio_blk" driver...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/DragonFly-VirtIO-Block-MQ</guid>
-      <pubDate>Sat, 20 Dec 2025 10:10:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>KDE Plasma 6.6 Finally Supporting Ambient Light Sensors, Fixing Windows Games With HDR</title>
-      <link>https://www.phoronix.com/news/Plasma-6.6-Before-Christmas-F</link>
-      <description>There are some nice KDE Plasma 6.6 improvements that were merged ahead of Christmas...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-Before-Christmas-F</guid>
-      <pubDate>Sat, 20 Dec 2025 10:25:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>LoongArch Promoted To Being An Official Architecture For Debian 14</title>
-      <link>https://www.phoronix.com/news/Debian-LoongArch64-Official</link>
-      <description>Two years and a few months after LoongArch 64-bit "Loong64" was added to Debian Ports, it's now been promoted to being an official architecture for Debian Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Debian-LoongArch64-Official</guid>
-      <pubDate>Sat, 20 Dec 2025 10:50:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mesa 26.0 NVK Driver Lands Improvement For NVIDIA GeForce RTX 20 "Turing" GPUs</title>
-      <link>https://www.phoronix.com/news/Mesa-26-NVK-Compute-Warp-Size</link>
-      <description>In addition to the open-source NVIDIA "NVK" Vulkan driver in Mesa merging compression support for big performance wins, another performance optimization was merged earlier in the week that stand to benefit GeForce RTX 20 "Turing" graphics processors...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26-NVK-Compute-Warp-Size</guid>
-      <pubDate>Sat, 20 Dec 2025 11:12:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gemini AI Yielding Sloppy Code For Ubuntu Development With New Helper Script</title>
-      <link>https://www.phoronix.com/news/Gemini-AI-Sloppy-Ubuntu</link>
-      <description>A few weeks ago it was mentioned by a Canonical engineer how trying to use AI to modernize the Ubuntu Error Tracker yielded some code that was "plain wrong" and other issues raised by that Microsoft GitHub Copilot code. The same Ubuntu developer shifted to trying Gemini AI to generate a helper script to assist in Ubuntu's monthly ISO snapshot releases. Google's Gemini AI also generated some sloppy code for a Python script to assist in those Ubuntu releases...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Gemini-AI-Sloppy-Ubuntu</guid>
-      <pubDate>Sat, 20 Dec 2025 12:39:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux Mint 22.3 Beta Released With Cinnamon 6.6 Desktop</title>
-      <link>https://www.phoronix.com/news/Linux-Mint-22.3-Beta</link>
-      <description>The beta release of Linux Mint 22.3 "Zena" is now available for testing ahead of the holidays for this latest incremental update to this desktop OS built atop an Ubuntu 24.04 LTS base...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Mint-22.3-Beta</guid>
-      <pubDate>Sat, 20 Dec 2025 15:37:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNU Debugger 17.1 Released With CET Shadow Stack Support, New DAP Features</title>
-      <link>https://www.phoronix.com/news/GNU-Debugger-GDB-17.1</link>
-      <description>The GNU Debugger "GDB" 17.1 is out today with a number of new features for enhancing the open-source debugging experience...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-Debugger-GDB-17.1</guid>
-      <pubDate>Sat, 20 Dec 2025 16:25:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Arch Linux's Main NVIDIA Driver Packages Now Using The Open Kernel Modules</title>
-      <link>https://www.phoronix.com/news/Arch-LInux-NVIDIA-Open-Default</link>
-      <description>With the Arch Linux packages for the NVIDIA official graphics driver moving to the now-stable NVIDIA 590 driver series that drops the GeForce GTX 900 and GTX 1000 series GPU support, Arch Linux users with those old Maxwell and Pascal graphics cards will need to transition to using the NVIDIA legacy driver packages from the Arch Linux AUR. Meanwhile for those on Turing and newer with the NVIDIA 590 driver will enjoy the open-source kernel modules by default being used...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Arch-LInux-NVIDIA-Open-Default</guid>
-      <pubDate>Sat, 20 Dec 2025 19:08:28 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 22 Dec 2025 06:39:20 +0000</lastBuildDate>
     <item>
       <title>Intel Readies Multi-Queue Support For Linux 7.0 As New Feature For Crescent Island</title>
       <link>https://www.phoronix.com/news/Intel-Xe-Multi-Queue-Linux-7.0</link>
@@ -78,6 +22,62 @@
       <description>The Swedish VPN service Mullvad announced this week GotaTun, an open-source Rust-based WireGuard implementation that is forked from Cloudflare's BoringTun...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/GotaTun-Rust-WireGuard-OSS</guid>
       <pubDate>Sun, 21 Dec 2025 01:18:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Darktable 5.4 RAW Photography Software Reaches Parity Between X11 &amp;amp; Wayland</title>
+      <link>https://www.phoronix.com/news/Darktable-5.4</link>
+      <description>Darktable 5.4 is out today as the newest feature release to this open-source RAW photography software. Besides improving camera support, UI enhancements, and more the Wayland support has been improved with Darktable. With today's Darktable 5.4 release, the Wayland support should be on par with the X11 support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Darktable-5.4</guid>
+      <pubDate>Sun, 21 Dec 2025 10:48:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19 Lands Fix For Seagate Barracuda HDD Taking Down The SATA Bus</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Seagate-HDD-Fix</link>
+      <description>It's not often getting to talk about hard drives on Phoronix these days, but there's an important fix merged to the Linux 6.19 kernel today ahead of Linux 6.19-rc2. If you happen to be using a Seagate ST2000DM008 Barracuda 2TB HDD, an important fix was merged to avoid it taking down the systems' SATA bus and/or potentially other issues...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Seagate-HDD-Fix</guid>
+      <pubDate>Sun, 21 Dec 2025 11:11:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>WMI Marshalling Support For Linux Aims To Match Windows' ACPI/WMI Handling</title>
+      <link>https://www.phoronix.com/news/WMI-Marshalling-Linux</link>
+      <description>Open-source developer Armin Wolf has been working most recently on marshalling support for the Windows Management Instrumentation (WMI) platform code within the Linux kernel. This WMI marshalling support is to better match the behavior of Microsoft Windows' WMI ACPI driver and ultimately to allow for better compatibility with some ACPI firmware and enhancing some WMI drivers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/WMI-Marshalling-Linux</guid>
+      <pubDate>Sun, 21 Dec 2025 11:25:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19-rc2 Adding Support For CRKD Guitar Controllers</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-rc2-CRKD-Guitars</link>
+      <description>Most notable with the input subsystem updates sent out today ahead of the Linux 6.19-rc2 release is some new hardware support. New this week is adding support for CRKD Guitars for those into musical gaming/apps...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc2-CRKD-Guitars</guid>
+      <pubDate>Sun, 21 Dec 2025 11:38:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intel Prepares For KVM Guest VMs To Support Advanced Performance Extensions (APX)</title>
+      <link>https://www.phoronix.com/news/Intel-APX-KVM-Guests-Patches</link>
+      <description>Since Linux 6.16 the Intel APX support has been ready for the kernel infrastructure and goes along with the compiler toolchain support for Advanced Performance Extensions with the likes of GCC and LLVM/Clang. The latest element being worked on for APX enablement in the open-source/Linux world is for allowing KVM guest virtual machines (VMs) to make use of APX...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-APX-KVM-Guests-Patches</guid>
+      <pubDate>Sun, 21 Dec 2025 12:43:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>AMD ISP4 Linux Driver Patches Update Again For HP ZBook Ultra G1a, Future Ryzen Laptops</title>
+      <link>https://www.phoronix.com/news/AMD-ISP4-Driver-Linux-v7</link>
+      <description>One of the features that sadly didn't make it into the recent Linux 6.19 merge window was the long-awaited AMD ISP4 driver for supporting the web camera found with the high-end HP ZBook Ultra G1a and also expected to be used by future flagship AMD Ryzen laptops...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-ISP4-Driver-Linux-v7</guid>
+      <pubDate>Sun, 21 Dec 2025 17:55:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>MPV 0.41 Released With Wayland Improvements, Vulkan Hardware Decoding Preferred</title>
+      <link>https://www.phoronix.com/news/MPV-0.41-Released</link>
+      <description>MPV 0.41 is out today as the newest feature release for this MPlayer/mplayer2-derived open-source video player. With MPV 0.41 there is a big focus on improving Wayland support as well as now preferring Vulkan Video acceleration over alternative video decode APIs...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/MPV-0.41-Released</guid>
+      <pubDate>Sun, 21 Dec 2025 19:54:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19-rc2 Released Following A Quiet Week</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-rc2-Released</link>
+      <description>The second weekly release candidate of Linux 6.19 is now available for testing in leading up to the stable release in early February...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc2-Released</guid>
+      <pubDate>Mon, 22 Dec 2025 00:04:22 +0000</pubDate>
     </item>
   </channel>
 </rss>
