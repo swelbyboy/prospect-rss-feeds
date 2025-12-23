@@ -8,76 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Dec 2025 06:41:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 06:40:40 +0000</lastBuildDate>
     <item>
-      <title>HPE修補基礎架構管理軟體OneView高風險遠端程式碼執行漏洞</title>
-      <link>https://www.ithome.com.tw/news/172935</link>
-      <description>新聞HPE基礎架構管理軟體OneView存在可由遠端未經驗證攻擊者濫用的遠端程式碼執行漏洞CVE-2025-37164，CVSS 3.1評分10.0。受影響版本涵蓋所有早於v11.00的HPE OneView版本，HPE現已釋出可套用於v5.20至v10.20的安全熱修補程式，並建議用戶升級至已修補的v11.00或更新版本。 官方提醒，要是設備從OneView v6.60.xx升級到v7.00.00，或在HPE Synergy Composer上進行映像重建或回復，需重新套用熱修補。由於OneView虛擬設備與Synergy Composer存在各自獨立的熱修補套件，需分別下載與安裝。HPE官方公告未提供漏洞具體技術細節，也未提及是否觀察到漏洞遭實際利用，且暫時未提供其他對外緩解措施。 資安業者Rapid7初步分析熱修補內容時指出，修補的方向之一是在OneView的網頁伺服器層加入新的HTTP規則，用於阻擋對特定REST API端點的未授權存取。Rapid懷疑該REST API端點在未登入狀態下就能被呼叫，是漏洞可能遭濫用的入口。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172935</guid>
-      <pubDate>Mon, 22 Dec 2025 01:00:25 +0000</pubDate>
+      <title>微軟公開預覽Copilot C++程式碼編輯工具，加速Visual Studio跨檔案重構</title>
+      <link>https://www.ithome.com.tw/news/172973</link>
+      <description>新聞微軟GitHub Copilot的C++程式碼編輯工具進入公開預覽階段，並在最新版Visual Studio 2026 Insiders向C++使用者開放。該更新鎖定大型專案常見的跨檔重構，讓Copilot在多檔案修改時，能運用符號語意資料而不只依賴文字搜尋，以降低遺漏與錯誤風險。 在大型C++專案裡，重構往往牽一髮動全身。函式簽章、型別或介面一旦調整，相關呼叫點與衍生類別可能散落在大量檔案中，開發者需要反覆搜尋再逐一修補，不只耗時也容易遺漏。微軟指出，C++開發者長期面臨的痛點，正是大規模重構的成本與風險。 GitHub Copilot的C++程式碼編輯工具目標便是解決這個痛點。微軟將Visual Studio C++語言服務可提供的符號（Symbol）語意資訊，整合成Copilot代理模式可呼叫的工具，使代理模式能先掌握符號的引用位置，以及型別、宣告與作用域等中繼資料，進而更可靠地完成跨檔修改。 公開預覽版本提供四項符號查詢工具，分別對應符號資訊、引用查找、類別繼承彙整與呼叫鏈追蹤，底層工具名稱為get_symbol_info、get_symbol_references、get</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172973</guid>
+      <pubDate>Tue, 23 Dec 2025 00:38:15 +0000</pubDate>
     </item>
     <item>
-      <title>Cursor買下AI程式碼審查與協作平臺Graphite</title>
-      <link>https://www.ithome.com.tw/news/172940</link>
-      <description>新聞AI程式碼編輯器Cursor上周五（12/19）宣布，已與AI程式碼審查及協作平臺Graphite簽署正式協議，將由Cursor買下Graphite。Graphite全體團隊都將加入Cursor，預計於未來幾周完成合併，雙方並未公布交易金額。 Cursor是在2022年由4名美國麻省理工學院（MIT）的畢業生所創立，定位為AI程式碼編輯工具公司，2023年推出的首款產品主打在程式撰寫階段即時提供AI輔助，包括程式碼生成、理解與專案導覽，目標是大幅提升工程師生產力；Cursor並未自行訓練基礎模型，而是整合多家模型，著重於使用者介面及實務工作的流程整合。 至於Graphite則成立於2020年，專注於程式碼審查與合併流程，主要是補齊AI撰寫程式之後的審查及品質控管環節，協助團隊更快判斷程式碼能否上線，並降低AI生成程式碼的風險。該公司在今年3月完成5,200萬美元的B輪融資，外傳當時的估值為2.9億美元，Axios的報導則說此次的交易遠高於該數字。 Graphite共同創辦人暨執行長Merrill Lutsky指出，當初他們創辦Graphite時，是因為全球頂尖工程團隊對更好的程式碼</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172940</guid>
-      <pubDate>Mon, 22 Dec 2025 01:19:19 +0000</pubDate>
+      <title>YouTube幽靈網路新攻勢，以Node.js載入器散布Rhadamanthys竊資程式</title>
+      <link>https://www.ithome.com.tw/news/172972</link>
+      <description>新聞資安廠商Check Point研究人員公開其追蹤的YouTube幽靈網路新一波活動，利用遭入侵的YouTube帳號上架影片，引導觀眾下載遊戲外掛與破解軟體相關檔案，最終在受害Windows電腦散布Rhadamanthys竊資程式。研究人員在感染鏈中辨識出以Node.js撰寫且高度混淆的載入器GachiLoader，並開源一套用於動態追蹤Node.js惡意程式行為的分析工具Nodejs-Tracer。 這波YouTube幽靈網路活動由遭入侵帳號發布影片，內容以外掛與破解器等題材吸引特定族群點擊。影片說明欄會提供壓縮檔密碼，並常要求使用者關閉Windows Defender等指示，研究人員統計，與此活動相關的影片超過百支，累積約22萬次觀看，分散在39個遭入侵帳號，第一支影片上傳時間為2024年12月22日，研究人員研判這波活動已持續一段時間。 在通報YouTube後，多數影片已下架，但也指出攻擊者仍可能轉移到新的遭入侵帳號，持續以相同手法散布內容。 研究人員將這次的載入器命名為GachiLoader，是用來散布後續惡意程式的中繼程式，而非最終竊資程式本體。GachiLoader採用N</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172972</guid>
+      <pubDate>Tue, 23 Dec 2025 00:56:49 +0000</pubDate>
     </item>
     <item>
-      <title>轉賣Google搜尋結果內容，SerpApi遭Google提告</title>
-      <link>https://www.ithome.com.tw/news/172948</link>
-      <description>新聞Google上周五（12/19）正式控告資料抓取業者SerpApi，理由是SerpApi規避了用來保護他人著作權內容的安全措施，非法抓取出現在Google搜尋結果中的內容，期望法院可阻止SerpApi的惡意行為，並向SerpApi求償。 SerpApi於2017年在美國成立，是家提供搜尋引擎結果擷取API的資料服務公司，其產品可擷取並結構化多個搜尋引擎的搜尋結果，如Google或Bing等，它並非搜尋引擎的官方合作夥伴，而是透過自動化技術即時取得搜尋結果頁的內容之後，再提供服務。除了Google之外，Reddit也在今年10月控告SerpApi。 Google於訴狀中解釋，Google長期在搜尋結果中整合大量的第三方授權內容，例如Knowledge Panel中的高解析圖片、Google Maps影像，或是Google Shopping的商品圖片與資料，這些內容都是Google透過授權及合作關係合法使用的，並非免費取得。 然而，SerpApi所推出的Google Search API卻透過自動化方式，即時抓取Google的搜尋結果頁，整理之後再賣給客戶，且估計該API每日發送數億筆</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172948</guid>
-      <pubDate>Mon, 22 Dec 2025 02:48:48 +0000</pubDate>
+      <title>Red Hat公司被駭致日產汽車2.1萬客戶資料外洩</title>
+      <link>https://www.ithome.com.tw/news/172974</link>
+      <description>新聞日本汽車大廠日產（Nissan）昨（22）日公告，因外包商Red Hat內部系統被駭，導致Nissan在9月間外洩將近2.1萬名客戶資料。 Nissan在10月間接獲Red Hat通報而得知此事，後者負責承包Nissan經銷部門客戶管理系統的開發作業。Red Hat在9月26日偵測發現公司資料伺服器遭人未授權存取，致資料外洩，該公司調查後，確認外洩的資料包括Nissan福岡分公司的部分客戶資料，並於10月3日通知客戶。 Nissan已於10月初向日本個資保護委員會通報，也正對受影響的客戶通知此事。 這家日本汽車大廠說明，受影響的客戶主要是將近2.1萬名，曾向日產福岡購買汽車或接受服務的客戶資料。外洩的客戶資訊包括姓名、用於銷售的地址、電話號碼、部份電子郵件等資訊，但不包含信用卡資料。Nissan已承諾加強對外包商的監控。 Red Hat事件發生在9月底。名為Crimson Collective的駭客組織宣稱駭入Red Hat內網的GitHub儲存庫，竊走包括內含客戶網路環境資訊的800份客戶互動報告、顧問文件、配置資料及Red Hat企業客戶驗證憑證資訊共將近570 GB壓縮檔。R</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172974</guid>
+      <pubDate>Tue, 23 Dec 2025 01:45:24 +0000</pubDate>
     </item>
     <item>
-      <title>Yann LeCun宣布成立世界模型開發公司 計畫募資5億歐元</title>
-      <link>https://www.ithome.com.tw/news/172952</link>
-      <description>新聞擁有卷積神經網路之父稱號的Meta前FAIR實驗室創辦人Yann LeCun上個月透露離職動向後，上周五（12/19）宣布已成立世界模型開發新創公司AMI（Advanced Machine Intelligence）Labs。 早在11月的離職公告中，LeCun已經宣布新公司的名字。當時他說，新公司將持續推動他在Meta的先進機器智慧（Advanced Machine Intelligence，AMI）研究專案。Fortune報導，新公司預計2026年初成立，總部設於巴黎。 不過LeCun本人並不會出任新公司的主要業務舵手，而是從合作夥伴Nabla延攬Alex LeBrun擔任新公司的共同創辦人暨CEO，他自己則擔任執行董事長的角色。Nabla為開發臨床照護AI助理的業者，和LeCun有多年合作經驗。LeBrun將以CEO身份帶領AMI的研究方向，同時身兼Nebla的首席AI科學家暨董事長。 LeBrun也是經驗豐富的科技創業家。他在共同創立Nabla之前，曾在2013年共同創立語音辨識新創業者Wit.ai，這間公司2015年為Meta/Facebook收購。更早以前他在2003年</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172952</guid>
-      <pubDate>Mon, 22 Dec 2025 03:07:15 +0000</pubDate>
+      <title>Alphabet將以47.5億美元買下乾淨能源公司Intersect</title>
+      <link>https://www.ithome.com.tw/news/172975</link>
+      <description>新聞Google母公司Alphabet周一（12/22）宣布，將以47.5億美元收購美國能源與資料中心基礎設施開發商Intersect Power（Intersect），以加速資料中心及發電產能的部署。雙方預計於2026年上半年完成交易。 Intersect成立於2016年，專門針對資料中心及高耗能產業開發「能源與算力共址」的基礎設施，亦即在資料中心附近直接建置專屬的發電及儲能設施，以降低併網等待、提高供電確定性，並加快資料中心上線速度，其能源組合涵蓋太陽能，電池儲能，以及燃氣發電，也將逐步導入低碳及進階能源技術。 Google已在上一輪的公開募資中取得Intersect的少數股權，此次Alphabet除以現金完成交易外，也將承擔Intersect的既有債務，並讓Intersect持續以獨立公司形式營運，由共同創辦人暨現任執行長Sheldon Kimber繼續領導。 不過，此次雙方的交易內容僅包括Intersect團隊，以及Intersect與Google所合作的、正開發中的多個GW級能源與資料中心專案，例如正在施工中、位於德州Haskell郡的資料中心暨電力共址專案。Intersec</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172975</guid>
+      <pubDate>Tue, 23 Dec 2025 02:17:06 +0000</pubDate>
     </item>
     <item>
-      <title>2.2萬臺Fortinet設備存在FortiCloud SSO程式碼執行漏洞  臺灣近200臺機器仍曝險</title>
-      <link>https://www.ithome.com.tw/news/172955</link>
-      <description>新聞Fortinet軟體爆發單一簽入漏洞，網路上有近2.2萬臺設備陷入程式碼執行風險。臺灣也有快200臺。 兩周前Fortinet修補CVE-2025-59718及CVE-2025-59719二項重大漏洞。這二項漏洞為加密簽章不當驗證造成，未經身分驗證的攻擊者可發送特製的SAML訊息，繞過FortiCloud單一簽入（SSO）的身分驗證機制來執行程式碼，CVSS風險分數皆達9.8。新漏洞影響，啟用此FortiCloud單一簽入機制的FortiOS、FortiWeb、FortiProxy或是FortiSwitchManager。 在原廠修補兩個漏洞後兩日，即12月12日資安業者Arctic Wolf就觀察到閘道器FortiGate裝置遭受惡意存取攻擊。現在非營利資安研究組織ShadowServer Foundation的資料顯示潛在攻擊目標。 根據ShadowServer Foundation的數據，12月17日曝險的Fortinet設備最多曾超過2.6萬臺，截至12月19日還有21938臺。以地區而言，以美洲（7684）和亞洲（6807）最多。以國家而言，則是以美國的4579臺最多。印</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172955</guid>
-      <pubDate>Mon, 22 Dec 2025 03:19:06 +0000</pubDate>
+      <title>南韓要求明年3月起開通手機門號，需經過臉部辨識驗證身分</title>
+      <link>https://www.ithome.com.tw/news/172976</link>
+      <description>新聞南韓政府宣布從明年3月底開始，消費者開通手機門號需先完成臉部辨識檢證身分，以防範網路詐騙或簡訊釣魚行為。 韓國科學技術資訊通信部（簡稱「科技部」）部長裴京勳（Bae Kyunghoon）今日（12/22）宣布，將要求韓國三大行動營運商，包括SKT、KT、LGU+及其他行動電信商在其手機註冊流程中，引入臉部辨識過程。 除了現有和身分證件簽發機構關聯驗證身分外，還將增加生物辨識認證，即時比對身分證件上的人臉照片與持證人實際臉部。韓國科技部相信這將有助於防止身分證借人、冒用，或身分證及手機帳戶偽造。當局並強調，使用雙重驗證，駭客利用攻擊或其他手段取得的身分資訊偽造手機帳戶，即SIM卡交換（SIM Swapping）將更加困難。此外，人臉辨識也可驗證身分證件真實性，防止使用身分證明影本。 這項措施預定從2026年3月23日正式實施，並提前三個月啟動測試。三大電信業者將在本周三（12/23）開始試辦線下註冊服務，消費者可在實體店面完成驗證。韓國政府也提供非面對面（輸入SIM卡號碼）結合人臉驗證的註冊方法。 這項新政策是因應韓國數起重大資料外洩事件而推出。今年4月SK Telecom（SKT）</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172976</guid>
+      <pubDate>Tue, 23 Dec 2025 03:29:52 +0000</pubDate>
     </item>
     <item>
-      <title>Google Cloud、Palo Alto Networks簽訂多年合作 提供雲端防火牆、AI安全方案</title>
-      <link>https://www.ithome.com.tw/news/172960</link>
-      <description>新聞Google與資安公司Palo Alto Networks上周宣布，結合Google Cloud AI雲基礎架構，與Palo Alto Networks AI安全平臺，提供Google Cloud用戶的AI應用安全性，Palo Alto AI服務也將使用Google的AI模型及平臺。 這是在雙方既有合作上擴大而成的多年合作，號稱價值數十億美元。在最新合作下，Palo Alto Networks將改用Google Vertex AI平臺和Gemini LLM執行其聊天機器人，同時也將在Google Cloud提供資安工具。第一是Palo Alto今年年初推出的AI安全平臺Prisma AIRS，提供AI模型掃瞄、態勢管理（posture management）、AI紅隊演練、Runtime安全以及AI代理人安全功能，確保Google Cloud（包括在Vertex AI和Agent Engine）上的企業客戶的AI應用與資料安全。其次是VM系列的AI次世代軟體防火牆（SWFW），可防護公雲、私雲、混合雲及虛擬環境內的深度封包檢測和威脅防護。 第三是遠端安全存取平臺Prisma SAS</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172960</guid>
-      <pubDate>Mon, 22 Dec 2025 03:41:31 +0000</pubDate>
+      <title>丹麥指控俄羅斯駭客去年對水務設施發動網路攻擊</title>
+      <link>https://www.ithome.com.tw/news/172977</link>
+      <description>新聞丹麥政府上周指控2024年及2025年分別對該國水務設施及當地網站發動網路攻擊者，都是和俄羅斯政府有關的駭客組織所為。 丹麥國防情報局（Danish Defense Intelligence Service，DDIS）指出，2024年對供水廠發動破壞式攻擊的親俄羅斯組織Z-Pentest，以及在2025年初丹麥市長和地方大選後，對該國數個網站發動分散式阻斷服務（DDoS）攻擊的駭客組織NoName057 (16)都和俄國政府有關連。 丹麥政府相信，俄羅斯指使二個組織發動攻擊，是其對西方國家的混合戰（hybrid war）手段的一部份，目的在對特定國家擾亂人心並懲罰支持烏克蘭的國家。 丹麥政府相信，俄羅斯的網路攻擊也是企圖顛覆西方國家支持烏克蘭的整體計畫的一環，因為如同其他歐洲國家遭到的攻擊，俄羅斯也利用丹麥大選來吸引大眾注意。 丹麥政府的指控呼應了今年年中另一北歐國家挪威的觀點。今年4月駭客入侵挪威水壩控制系統，導致無法控制及關閉Lake Risevatnet水壩的閘門開啟數個小時。挪威當局將事故歸咎於俄羅斯駭客，指其目的是引發恐慌。 上周其他歐洲國家也發現可能為俄羅斯攻擊的事件。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172977</guid>
+      <pubDate>Tue, 23 Dec 2025 03:58:08 +0000</pubDate>
     </item>
     <item>
-      <title>Google將推遲Assistant退役時程到2026年</title>
-      <link>https://www.ithome.com.tw/news/172961</link>
-      <description>新聞Google上周（12/19）宣布，Gemini取代Google Assistant的計畫，將延後到2026年。 今年3月Google曾公布計畫在2025年底之前，將大部份行動裝置上的Assistant升級成Gemini。但Google Gemini Apps團隊成員指出，為了確保能無縫轉移，公司將調整時程到2026年，同時團隊也將持續努力推動手機Assistant到Gemini的升級工作。未來幾個月內Google會陸續公布計畫細節，也歡迎使用者提供反饋意見。 不確定Google是否會為了「無縫轉移」計畫增加Assistant的功能，或只是今年執行進度落後的託辭。現在除了Android，WearOS、Google TV、Android Auto、以及智慧音箱、顯示器也都逐步部署Gemini。 在Google宣布轉換為Gemini的計畫準備後，目前Gemini App仍提供「轉換為Google Assistant」的選項。一旦Google正式以Gemini取代Assistant，大多數的行動裝置將無法再存取Google Assistant服務，也無法再自Google Play Sto</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172961</guid>
-      <pubDate>Mon, 22 Dec 2025 03:54:53 +0000</pubDate>
+      <title>蘋果的程式追蹤透明化規定遭義大利判罰上億美元</title>
+      <link>https://www.ithome.com.tw/news/172978</link>
+      <description>新聞義大利競爭管理局AGCM周一（12/22）向蘋果處以98,635,416.67歐元（約1.16億美元）的罰款，原因是蘋果濫用市場主導地位，藉由程式追蹤透明化（App Tracking Transparency，ATT）政策來阻礙市場競爭。蘋果將對此提出上訴。 蘋果是在2021年4月釋出的iOS 14.5正式推出ATT，要求程式要追蹤使用者時必須先取得許可，不管是跨程式追蹤、跨網站追蹤，或是分享追蹤資料予第三方，都要先徵求用戶同意。 然而，AGCM指出，蘋果要求第三方程式必須透過ATT提示取得用戶的明確同意，才能出於廣告目的來蒐集及聯結資料，但此一提示並不符合隱私權法令的要求，迫使開發者必須針對相同目的重複向使用者請求同意。 這是因為蘋果的ATT提示僅有概括性的「是否允許追蹤」選項，未完整揭露資料蒐集的具體用途、資料類型、串聯方式與接收對象，未能符合歐盟隱私法對有效同意的要求，因此第三方開發者仍須另行設計隱私告知與同意流程，再次向使用者請求同意，導致同一廣告目的出現雙重同意。 另一方面，Apple自家程式與服務是在帳號或系統層級完成隱私告知與同意，例如透過Apple ID設定或服務首</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172978</guid>
+      <pubDate>Tue, 23 Dec 2025 04:09:15 +0000</pubDate>
     </item>
     <item>
-      <title>Nvidia修補推薦系統框架Merlin高風險漏洞</title>
-      <link>https://www.ithome.com.tw/news/172937</link>
-      <description>新聞Nvidia於12月9日發布安全公告，針對開源機器學習框架Merlin中的NVTabular與Transformers4Rec，揭露當中存在兩項高風險資安漏洞。Merlin為Nvidia針對推薦系統發展的應用程式框架，常用於建置大規模資料推薦與個人化服務。 根據公告內容，CVE-2025-33214影響NVTabular的Workflow元件，CVE-2025-33213則存在於Transformers4Rec的Trainer元件。兩項漏洞皆源於反序列化處理缺乏適當驗證，屬於CWE-502不受信任資料反序列化（Deserialization of Untrusted Data）弱點。 在CVSS v3.1評估中，這兩項漏洞的基礎分數都達到8.8，屬於高風險等級。Nvidia指出，漏洞攻擊向量為網路型態，攻擊複雜度低，且無需事前身分驗證，但需使用者互動即可觸發。成功利用後，攻擊者可能在Linux系統上執行任意程式碼，進而造成阻斷服務、資訊洩露或資料竄改。 由於Merlin常被部署於推薦引擎、個人化系統與AI分析平臺，一旦相關服務對外開放或處理不受信任資料，將可能擴大攻擊面，對營運環境</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172937</guid>
-      <pubDate>Mon, 22 Dec 2025 04:04:08 +0000</pubDate>
+      <title>WhatsApp裝置配對功能遭濫用，駭客佯稱進行臉書驗證從事攻擊行動GhostPairing</title>
+      <link>https://www.ithome.com.tw/news/172979</link>
+      <description>新聞在許多鎖定即時通訊軟體用戶的攻擊行動裡，駭客通常會運用已知或未知的資安漏洞來達到目的，不過最近有一起針對即時通訊軟體的裝置連結機制而來的網釣攻擊，引起資安公司注意。 旗下擁有Norton、Avast、Avira等多個防毒軟體品牌的資安公司Gen Digital，最近揭露專門鎖定WhatsApp用戶的網釣攻擊活動GhostPairing，駭客假借發送臉書貼文的通知，聲稱在地方新聞的照片找到受害人為由發送WhatsApp訊息，並留下網釣連結，然而使用者若是依照指示點選及操作，就可能幫駭客為瀏覽器綁定自己的WhatsApp帳號，而讓帳號遭到對方接管。攻擊者將在無須通過身分驗證的情況下，取得完整的對話內容與共用影音資料，甚至進一步冒充用戶對其他人詐欺。這種攻擊活動最早在捷克發現，未來可能會出現在其他地區，對此，該公司呼籲使用者提高警覺，並定期檢查是否有來路不明的裝置與帳號綁定的現象。 基本上，WhatsApp的帳號是以手機的電話號碼為基礎，若是用戶想要使用電腦版應用程式或網頁版WhatsApp，他們通常會開啟手機版應用程式，掃描電腦上的QR Code，或是在電腦上取得驗證碼，然後輸入手機，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172979</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/GhostPairing-1.png" length="0" type="image/png"/>
+      <pubDate>Tue, 23 Dec 2025 04:32:34 +0000</pubDate>
     </item>
     <item>
-      <title>PostgreSQL管理工具pgAdmin爆RCE重大漏洞</title>
-      <link>https://www.ithome.com.tw/news/172938</link>
-      <description>新聞廣泛用於PostgreSQL環境的開源管理工具pgAdmin存在一項重大資安漏洞CVE-2025-13780，可能導致遠端程式碼執行。該漏洞影響以伺服器模式運作的pgAdmin，並涉及資料庫還原流程的安全性，對企業資料庫環境構成高度風險。 CVE-2025-13780影響pgAdmin 9.10以及之前版本。NVD評定屬於高風險等級漏洞（CVSS分數8.8）；不過PostgreSQL將其列為重大等級（CVSS分數9.1），顯示該漏洞一旦遭利用，後果可能相當嚴重。 資安媒體Daily CyberSecurity進一步說明，CVE-2025-13780漏洞可繞過pgAdmin開發團隊原本用於修補CVE-2025-12762的安全機制。攻擊者可將看似正常的資料庫還原流程武器化，在主機上執行任意指令。 在當時針對CVE-2025-12762的修補中，pgAdmin團隊加入一套過濾機制，會在執行SQL傾印檔前，先移除其中危險的「中介指令（meta-commands）」。然而，資安研究人員發現，只需一組簡單的位元組序列，就能讓該過濾機制完全失效。 問題核心在於，pgAdmin的安全過濾器（特別</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172938</guid>
-      <pubDate>Mon, 22 Dec 2025 04:05:08 +0000</pubDate>
+      <title>OpenAI在ChatGPT中推出年度回顧功能</title>
+      <link>https://www.ithome.com.tw/news/172981</link>
+      <description>新聞OpenAI本周一（12/22）正式於ChatGPT中推出Your Year with ChatGPT年度回顧功能，在年終時推出該服務，以讓使用者回顧2025年與ChatGPT的互動方式，內容將呈現使用者對話中的高層次主題，以及全年使用情況的摘要統計資料。 ChatGPT的年度回顧功能適用於Free、Plus與Pro用戶，但不適用於Business、Enterprise或Edu方案；初期僅支援美國、英國、加拿大、澳洲及紐西蘭的英文回顧。 圖片來源／OpenAI 此外，使用者必須啟用「記憶」與「參考聊天紀錄」功能才能執行該服務，而且需要達到最低使用門檻，若使用很有限，只會看到基本的聊天統計資訊。一旦使用者的狀態符合條件，系統就會在ChatGPT首頁出現Your Year with ChatGPT的提示卡，點擊後就可進入回顧內容。 此一功能的定位偏向年度總覽與使用反省，而非分析工具，而且就算其它市場或語言尚未出現Your Year with ChatGPT，ChatGPT用戶依舊可以要求它模擬年度回顧，它也能提供使用者與ChatGPT的互動模式、互動頻率與節奏等資料。 在邁入數位時代之</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172981</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1223-Your%20Year%20with%20ChatGPT-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 23 Dec 2025 05:33:58 +0000</pubDate>
     </item>
     <item>
-      <title>安裝數逾800萬的4款擴充程式，被揭攔截AI對話資料</title>
-      <link>https://www.ithome.com.tw/news/172964</link>
-      <description>新聞專注於瀏覽器擴充程式與端點軟體的以色列資安業者Koi Security上周踢爆，有4款Chrome及Microsoft Edge擴充程式會監看、記錄並傳輸使用者與AI的對話。 Koi Security共同創辦人暨技術長Idan Dardikman表示，他在使用AI助理時，忽然懷疑是否有人會窺探這些對話，於是使用代理式AI風險引擎Wings，掃描是否有瀏覽器擴充套件具備讀取並外傳AI聊天內容的能力，原本以為只會找到少數下載量不高且來源可疑的工具，結果卻發現由Urban Cyber Security所開發的4款擴充程式，會蒐集使用者與AI聊天機器人的對話，再提供給資料經紀商BiScience進行分析及轉售。 這4款擴充程式分別是Urban VPN Proxy、1ClickVPN Proxy、Urban Browser Guard，以及Urban Ad Blocker，它們分別在Chrome及Microsoft Edge的擴充程式商店上架，名義上為VPN、瀏覽器防護與廣告封鎖工具，實際上卻共用一套監控後端。其中，Urban VPN Proxy在Chrome與Edge上分別有600萬及13</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172964</guid>
-      <pubDate>Mon, 22 Dec 2025 06:11:53 +0000</pubDate>
+      <title>立院三讀通過AI基本法，明定國科會為基本法主管機關、行政院成立國家AI戰略特別委員會</title>
+      <link>https://www.ithome.com.tw/news/172980</link>
+      <description>新聞行政院今年8月擬定人工智慧基本法（簡稱AI基本法）草案，並送交立法院審議，在黨團協商期間，根據各界意見修訂草案，立院今天（12/23）三讀通過AI基本法。新法明定基本法的主管機關為國科會，並將由行政院成立國家AI戰略委員會，協調、督導全國AI事務。 行政院版的AI基本法草案為數發部所草擬，原本在行政院版本中並沒有設置AI主管機關，來將由各部會制定作用法及指引，但是在黨團協商後，立法修訂部分AI基本法內容，明定中央主管機關為國科會，地方則為直轄市、各縣市政府，基本法所定事項，涉及各目的事業主管機關的業務者，由各目的事業主管機關辦理。 明確AI的定義及7大基本原則 在AI基本法三讀條文中明定，AI係指具有自主運行能力的系統，該系統透過輸入、感測，經由機器學習及演算法，可為明確或隱含之目標實現預測、內容、建議或決策等結果，影響實體或虛擬環境之產出。 基本法也明訂我國發展AI，應兼顧社會公益及數位平權發展，促進創新研發並強化國家競爭力，並提出「遵循永續發展與福祉」、「人類自主」、「隱私保護與資料治理」、「資安與安全」、「透明與可解釋」、「公平與不歧視」、「問責」7項原則。 條文也提到，政府</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/172980</guid>
+      <pubDate>Tue, 23 Dec 2025 05:58:45 +0000</pubDate>
     </item>
   </channel>
 </rss>

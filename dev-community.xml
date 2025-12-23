@@ -8,79 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Dec 2025 06:39:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 23 Dec 2025 06:38:09 +0000</lastBuildDate>
     <item>
-      <title>Amazon RDS (Relational Database Service)</title>
-      <link>https://dev.to/lohita_blue_d6409977eec4c/amazon-rds-relational-database-service-52d9</link>
-      <description>Introduction In today’s digital world, applications need reliable and scalable databases to store and manage data. Amazon Web Services (AWS) provides Amazon RDS (Relational Database Service) to make database management easier without worrying about infrastructure. RDS helps developers focus on application development instead of database maintenance. What is Amazon RDS? Amazon RDS is a managed relational database service offered by AWS. It allows users to create, operate, and scale relational dat</description>
-      <guid isPermaLink="false">https://dev.to/lohita_blue_d6409977eec4c/amazon-rds-relational-database-service-52d9</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb4th0df8vgmfdh6dp4uw.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 22 Dec 2025 05:52:30 +0000</pubDate>
+      <title>AI Category Recommendation System for Drupal 11 Using PHP and OpenAI</title>
+      <link>https://dev.to/albert_andrew_24878d43267/ai-category-recommendation-system-for-drupal-11-using-php-and-openai-57fm</link>
+      <description>In Drupal, choosing the right category for a page or article is very important. However, in real life, people can make mistakes. Editors may pick the wrong category, use different categories for similar content, or publish posts quickly without giving much thought to categorization. AI-powered Drupal 11 can now recommend the best category for a node. Instead of depending only on keywords, this recommendation is based on the node's actual content. For more information: https://www.phpcmsframework</description>
+      <guid isPermaLink="false">https://dev.to/albert_andrew_24878d43267/ai-category-recommendation-system-for-drupal-11-using-php-and-openai-57fm</guid>
+      <pubDate>Tue, 23 Dec 2025 05:58:48 +0000</pubDate>
     </item>
     <item>
-      <title>LINQ Performance Optimization: 5 Patterns Every C# Developer Should Know</title>
-      <link>https://dev.to/dsikorska/linq-performance-optimization-5-patterns-every-c-developer-should-know-4p6k</link>
-      <description>This is Part 3 of the "LINQ Performance &amp;amp; Best Practices" series. If you haven't read the foundational articles yet: Part 1: Deferred Execution - The Essence of LINQ in C# Part 2: Multiple Enumerations in LINQ Expressions Our encryption service API response time jumped from 200ms to 3 seconds after adding a "simple" LINQ query to filter document metadata. The query looked clean, passed code review without comments, and the unit tests ran fine. But production told a different story. The problem w</description>
-      <guid isPermaLink="false">https://dev.to/dsikorska/linq-performance-optimization-5-patterns-every-c-developer-should-know-4p6k</guid>
-      <pubDate>Mon, 22 Dec 2025 06:00:00 +0000</pubDate>
+      <title>Guide for a ‘Vibe Coder’ Fresh Grad Looking for Career Advice</title>
+      <link>https://dev.to/tenenggg/guide-for-a-vibe-coder-fresh-grad-looking-for-career-advice-2mk1</link>
+      <description>Hello everyone, I am a computer science student majoring in Netcentric Computing, and I have recently graduated. I am currently looking for a job, but honestly, I’m not sure how to even begin. Throughout my course, I have completed many projects using frameworks such as ReactJS, Laravel, Node.js, and even IoT projects using Arduino IDE connected to my systems. Also using github, Digital ocean, Hostinger to deploy my projects. However, there is something I want to be honest about. Most of our cou</description>
+      <guid isPermaLink="false">https://dev.to/tenenggg/guide-for-a-vibe-coder-fresh-grad-looking-for-career-advice-2mk1</guid>
+      <pubDate>Tue, 23 Dec 2025 06:00:02 +0000</pubDate>
     </item>
     <item>
-      <title>Arc-Fault Protection in PV: Practical Notes for 1000V/1500V Strings</title>
-      <link>https://dev.to/wxc5937beep/arc-fault-protection-in-pv-practical-notes-for-1000v1500v-strings-9k9</link>
-      <description>High-voltage PV strings (1000V and 1500V) improve efficiency, but they also make fault management more critical. One issue is arc faults. They can occur at connectors, cable damage points, or degraded terminations. Unlike short circuits, a series arc may persist without a dramatic current increase. That is why arc-fault detection standards and test methods matter. Many engineers reference IEC 63027 when discussing DC arc detection and interruption concepts for PV systems. In practice, you should</description>
-      <guid isPermaLink="false">https://dev.to/wxc5937beep/arc-fault-protection-in-pv-practical-notes-for-1000v1500v-strings-9k9</guid>
-      <pubDate>Mon, 22 Dec 2025 06:02:11 +0000</pubDate>
+      <title>Shadow Signals: How Counterfactual Learning Recovers Missed Alpha</title>
+      <link>https://dev.to/ronny_nyabuto_bba33987098/shadow-signals-how-counterfactual-learning-recovers-missed-alpha-14gb</link>
+      <description>Let’s clear the fog. Most autonomous trading systems don’t fail because they take bad trades. They fail because they never learn from the trades they refuse to take. Counterfactual Learning fixes that blind spot. It treats every rejected decision as first-class data, not disposable noise. What follows is not theory. It’s an implemented pattern, already running in production systems that care about opportunity cost as much as risk. 1. Shadow Signals: Making Rejection Observable The foundational m</description>
+      <guid isPermaLink="false">https://dev.to/ronny_nyabuto_bba33987098/shadow-signals-how-counterfactual-learning-recovers-missed-alpha-14gb</guid>
+      <pubDate>Tue, 23 Dec 2025 06:04:38 +0000</pubDate>
     </item>
     <item>
-      <title>Telegram Bots Are Useful — But at What Cost to Privacy?</title>
-      <link>https://dev.to/syed_iqbal_ahammad/telegram-bots-are-useful-but-at-what-cost-to-privacy-3o38</link>
-      <description>Rise of Telegram Bots in Private Groups This example is for educational purposes only, to demonstrate how leaked data can be misused. Telegram bots are very popular in Telegram groups because they make life easier by automating tasks, sharing content, and managing groups efficiently. Today’s generation largely depends on Telegram bots for entertainment, such as downloading anime, movies, music, and other digital content. Because of this convenience, Telegram bots are growing rapidly and are beco</description>
-      <guid isPermaLink="false">https://dev.to/syed_iqbal_ahammad/telegram-bots-are-useful-but-at-what-cost-to-privacy-3o38</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpzn5nznapk2w5uoayngc.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 22 Dec 2025 06:04:17 +0000</pubDate>
+      <title>The Definitive Guide to Building a Cross-Browser Testing Matrix for 2026</title>
+      <link>https://dev.to/matt_calder_e620d84cf0c14/the-definitive-guide-to-building-a-cross-browser-testing-matrix-for-2026-246i</link>
+      <description>Crafting Your Blueprint for Universal Web Compatibility In the fragmented digital landscape of 2026, your beautifully crafted website might be a masterpiece in Chrome but appear broken in Safari or behave unpredictably in Firefox. With over 4.8 billion internet users accessing the web through dozens of browsers, operating systems, and devices, delivering a consistent experience is no longer optional. As a lead QA architect who has guided teams through this complexity, I've learned that success h</description>
+      <guid isPermaLink="false">https://dev.to/matt_calder_e620d84cf0c14/the-definitive-guide-to-building-a-cross-browser-testing-matrix-for-2026-246i</guid>
+      <pubDate>Tue, 23 Dec 2025 06:04:44 +0000</pubDate>
     </item>
     <item>
-      <title>Código Limpio: 5 principios para dejar de escribir "código espagueti"</title>
-      <link>https://dev.to/oscarolg/codigo-limpio-5-principios-para-dejar-de-escribir-codigo-espagueti-4k4b</link>
-      <description>Introducción ¿Alguna vez has regresado a un proyecto después de tres meses y no has entendido absolutamente nada de lo que escribiste? No estás solo. A todos nos ha pasado que, por las prisas, terminamos creando funciones gigantes y archivos interminables. Hoy vamos a hablar de los principios SOLID, una guía esencial para cualquier desarrollador que quiera pasar de "hacer que funcione" a "crear software profesional". ¿Qué es SOLID? SOLID es un acrónimo acuñado por Robert C. Martin ("Uncle Bob").</description>
-      <guid isPermaLink="false">https://dev.to/oscarolg/codigo-limpio-5-principios-para-dejar-de-escribir-codigo-espagueti-4k4b</guid>
-      <pubDate>Mon, 22 Dec 2025 06:05:12 +0000</pubDate>
+      <title>Auto-loading .nvmrc in Junie terminal</title>
+      <link>https://dev.to/dchaley/auto-loading-nvmrc-in-junie-terminal-48pc</link>
+      <description>I've been using JetBrains's Junie product for agentic AI coding since it went public in April 2025. It's been an overall great experience. I noted it was struggling with a React/TypeScript project. When running yarn commands it wasn't honoring the .nvmrc file, so it didn't load the correct node version. This caused issues for files generated/built against different NodeJS versions. My setup is slightly strange: because NVM takes a while to load, and I'm impatient, I don't load it automatically i</description>
+      <guid isPermaLink="false">https://dev.to/dchaley/auto-loading-nvmrc-in-junie-terminal-48pc</guid>
+      <pubDate>Tue, 23 Dec 2025 06:06:59 +0000</pubDate>
     </item>
     <item>
-      <title>Why AI Code Suggestions Fail in Multi-File Projects</title>
-      <link>https://dev.to/leena_malhotra/why-ai-code-suggestions-fail-in-multi-file-projects-49j9</link>
-      <description>If you are building a Todo app in a single index.js file, AI coding assistants feel like magic. They predict the entire function before you finish typing the signature. But if you are working in a production repo with fifty interacting components, a shared types library, and complex state management, the magic dissolves. You type a function call, and the AI suggests an import that looks perfect. The variable names match your conventions. The path looks correct. You hit Tab. Then your build fails</description>
-      <guid isPermaLink="false">https://dev.to/leena_malhotra/why-ai-code-suggestions-fail-in-multi-file-projects-49j9</guid>
-      <pubDate>Mon, 22 Dec 2025 06:09:28 +0000</pubDate>
+      <title>Building the Future: A Native GUI SDK Prototype</title>
+      <link>https://dev.to/hejhdiss/building-the-future-a-native-gui-sdk-prototype-2b0i</link>
+      <description>A working proof-of-concept for developers ready to make semantic interfaces a reality By @hejhdiss (Muhammed Shafin P) View the project on GitHub Note: This is not an OS prototype—it's a focused demonstration of the IRTA (Interface Runtime Translation Architecture) component from the NeuroShellOS concept. This sample exists purely to prove that semantic metadata layers can work in practice. For the full technical paper on the broader NeuroShellOS framework, see: AI-Native GUI SDK for NeuroShellO</description>
+      <guid isPermaLink="false">https://dev.to/hejhdiss/building-the-future-a-native-gui-sdk-prototype-2b0i</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffruyacqp07kmiab5y7gm.png" length="0" type="image/png"/>
+      <pubDate>Tue, 23 Dec 2025 06:07:12 +0000</pubDate>
     </item>
     <item>
-      <title>Building a High-Performance Real-Time Camera Capture System in C++</title>
-      <link>https://dev.to/techsorter/building-a-high-performance-real-time-camera-capture-system-in-c-3kad</link>
-      <description>Deep dive into building a production-ready camera capture system with zero-copy V4L2, multithreading, and FFmpeg encoding. Ever wondered how professional surveillance systems, dashcams, or robotics vision pipelines capture and process video at real-time speeds? Let me walk you through building a production-ready camera capture system in modern C++ that does exactly that. What We're Building A multithreaded camera capture system that: Captures live video at 30 FPS from USB cameras Processes frame</description>
-      <guid isPermaLink="false">https://dev.to/techsorter/building-a-high-performance-real-time-camera-capture-system-in-c-3kad</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhw613ntnatfb1p916qnu.png" length="0" type="image/png"/>
-      <pubDate>Mon, 22 Dec 2025 06:11:18 +0000</pubDate>
+      <title>Speed Up Syncthing File Sync Discovery (From 11 Seconds to 2)</title>
+      <link>https://dev.to/evoleinik/speed-up-syncthing-file-sync-discovery-from-11-seconds-to-2-345a</link>
+      <description>New files were taking 11 seconds to sync from my Linux box to my Mac. That's an eternity when you're iterating on code or config. The fix took 30 seconds. The Problem Syncthing uses filesystem watchers to detect changes. When a file changes, the watcher notices, Syncthing scans it, and sync begins. But there's a built-in delay before Syncthing acts on watcher events. The default fsWatcherDelayS is 10 seconds. This batches multiple rapid changes into one scan, which makes sense for large codebase</description>
+      <guid isPermaLink="false">https://dev.to/evoleinik/speed-up-syncthing-file-sync-discovery-from-11-seconds-to-2-345a</guid>
+      <pubDate>Tue, 23 Dec 2025 06:10:23 +0000</pubDate>
     </item>
     <item>
-      <title>Building Multi-Tenant SaaS as a Solo Developer</title>
-      <link>https://dev.to/pipipi-dev/building-multi-tenant-saas-as-a-solo-developer-1pi9</link>
-      <description>This article is part of the Solo SaaS Development Advent Calendar 2025. In the previous article, I covered GA4 and Microsoft Clarity setup. In this article, I'll share how I built a multi-tenant SaaS architecture. :::message The content in this article reflects the design I adopted for my personal project. Rather than best practices, please read this as a record of trial and error from a solo developer. ::: Why Multi-Tenant? When building a SaaS, you need to separate data by user. For team or or</description>
-      <guid isPermaLink="false">https://dev.to/pipipi-dev/building-multi-tenant-saas-as-a-solo-developer-1pi9</guid>
-      <pubDate>Mon, 22 Dec 2025 06:21:05 +0000</pubDate>
+      <title>Michigan Startup App Costs in 2026</title>
+      <link>https://dev.to/del_rosario/michigan-startup-app-costs-in-2026-224a</link>
+      <description>If you’re a founder planning a mobile app in Michigan, the first serious question is cost. Not theoretical cost. Not “average U.S. rates.” What you will actually pay in 2026 once scope, talent, and delivery reality collide. Michigan sits in a middle zone. It is not Silicon Valley expensive. It is not offshore cheap. That middle ground creates both opportunity and confusion for founders who have never built software before—or who were burned once already. This guide is written for founders and op</description>
+      <guid isPermaLink="false">https://dev.to/del_rosario/michigan-startup-app-costs-in-2026-224a</guid>
+      <pubDate>Tue, 23 Dec 2025 06:13:55 +0000</pubDate>
     </item>
     <item>
-      <title>Docker Environment Composer Local Package Development Tips</title>
-      <link>https://dev.to/mesak/docker-environment-composer-local-package-development-tips-13a7</link>
-      <description>When developing Laravel applications in a Docker environment, you often need to simultaneously develop custom Composer packages. This article shares an elegant solution using symbolic links. Problems Docker containers cannot access host machine absolute paths Packages scattered across projects, difficult to manage centrally Package modifications require reinstallation to take effect Solution 1. Create Unified Package Development Directory mkdir -p /home/developer/packages/php mkdir -p /home/deve</description>
-      <guid isPermaLink="false">https://dev.to/mesak/docker-environment-composer-local-package-development-tips-13a7</guid>
-      <pubDate>Mon, 22 Dec 2025 06:27:04 +0000</pubDate>
+      <title>Kapbe Redefines Vaults: Why Systems Inevitably Destabilise When Yield Becomes the Only Metric?</title>
+      <link>https://dev.to/czof_pbni_d21cb3b73d2f19c/kapbe-redefines-vaults-why-systems-inevitably-destabilise-when-yield-becomes-the-only-metric-4klg</link>
+      <description>If you ask most crypto users what a vault is, the answer is strikingly uniform: a tool that automatically generates yield. This understanding did not arise without reason. In the early days of DeFi, vaults were indeed little more than interface abstractions for yield farming processes. Kapbe argues, however, that this historical memory is now producing a dangerous illusion. As vaults evolve into vehicles that carry real world assets, credit structures and institutional strategies, they cease to</description>
+      <guid isPermaLink="false">https://dev.to/czof_pbni_d21cb3b73d2f19c/kapbe-redefines-vaults-why-systems-inevitably-destabilise-when-yield-becomes-the-only-metric-4klg</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzwt7au6vrbplvr53xspv.png" length="0" type="image/png"/>
+      <pubDate>Tue, 23 Dec 2025 06:14:33 +0000</pubDate>
     </item>
     <item>
-      <title>Reflections on building my first LangGraph project</title>
-      <link>https://dev.to/juhapellotsalo/reflections-on-building-my-first-langgraph-project-3b6j</link>
-      <description>I recently completed my first LangGraph project that was more than a simple tutorial. It simulates a newspaper editorial workflow where a set of agents turn a story idea into a finished article. The newsroom itself wasn’t the goal, I simply used it to learn LangGraph properly. Learning LangGraph I explored several frameworks, including OpenAI Agents SDK, CrewAI, and AutoGen, but eventually settled on LangGraph. Modeling the application as a graph felt natural, and the level of control appealed t</description>
-      <guid isPermaLink="false">https://dev.to/juhapellotsalo/reflections-on-building-my-first-langgraph-project-3b6j</guid>
-      <pubDate>Mon, 22 Dec 2025 06:30:47 +0000</pubDate>
+      <title>Basta con il "Funziona sulla mia Macchina": La Guida Semplice a Docker</title>
+      <link>https://dev.to/scape/basta-con-il-funziona-sulla-mia-macchina-la-guida-semplice-a-docker-64f</link>
+      <description>In Breve (TL;DR) Docker risolve il classico problema del "funziona sulla mia macchina" creando ambienti di sviluppo, test e produzione perfettamente identici e portatili. Il flusso di lavoro si basa su tre concetti chiave: un Dockerfile (la ricetta) crea un'immagine immutabile (il pacchetto software sigillato) che viene eseguita come un container isolato (l'applicazione in funzione). L'ecosistema Docker va oltre il singolo container: Docker Compose permette di gestire applicazioni complesse comp</description>
+      <guid isPermaLink="false">https://dev.to/scape/basta-con-il-funziona-sulla-mia-macchina-la-guida-semplice-a-docker-64f</guid>
+      <pubDate>Tue, 23 Dec 2025 06:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
