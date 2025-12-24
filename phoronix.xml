@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Dec 2025 06:38:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 06:38:11 +0000</lastBuildDate>
     <item>
-      <title>Weston 15.0 Alpha Released With New Protocols, Experimental Vulkan Renderer</title>
-      <link>https://www.phoronix.com/news/Weston-15.0-Alpha</link>
-      <description>After being delayed by three months to allow additional time for new features to land, Weston 15.0 Alpha 1 is out today as a big feature release for this reference Wayland compositor...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Weston-15.0-Alpha</guid>
-      <pubDate>Mon, 22 Dec 2025 11:17:10 +0000</pubDate>
+      <title>Meta Is Using The Linux Scheduler Designed For Valve's Steam Deck On Its Servers</title>
+      <link>https://www.phoronix.com/news/Meta-SCX-LAVD-Steam-Deck-Server</link>
+      <description>An interesting anecdote from this month's Linux Plumbers Conference in Tokyo is that Meta (Facebook) is using the Linux scheduler originally designed for the needs of Valve's Steam Deck... On Meta Servers. Meta has found that the scheduler can actually adapt and work very well on the hyperscaler's large servers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Meta-SCX-LAVD-Steam-Deck-Server</guid>
+      <pubDate>Tue, 23 Dec 2025 11:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA's Quest For A "Safe" Linux Kernel For Automobiles, Robotics</title>
-      <link>https://www.phoronix.com/news/NVIDIA-ASIL-B-Linux-Kernel</link>
-      <description>NVIDIA engineer Igor Stoppa presented at the Linux Plumbers Conference (LPC) earlier this month around using Linux in safety-critical environments like automobiles and the current shortcomings of the upstream Linux kernel and the challenges on achieving Automotive Safety Integrity Level (ASIL) certifications around the Linux kernel. It's an interesting read/watch around the safety of Linux (or not) for such strict safety environments...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-ASIL-B-Linux-Kernel</guid>
-      <pubDate>Mon, 22 Dec 2025 11:43:30 +0000</pubDate>
+      <title>LLVM Considering An AI Tool Policy, AI Bot For Fixing Build System Breakage Proposed</title>
+      <link>https://www.phoronix.com/news/LLVM-AI-Tool-Policy-RFC</link>
+      <description>Last week a request for comments (RFC) was issued around establishing an LLVM AI Tool Use Policy. The proposed policy would allow AI-assisted contributions to be made to this open-source compiler codebase but that there would need to be a "human in the loop" and the contributor versed enough to be able to answer questions during code review. Separately, yesterday a proposal was sent out for creating an AI-assisted fixer bot to help with Bazel build system breakage...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/LLVM-AI-Tool-Policy-RFC</guid>
+      <pubDate>Tue, 23 Dec 2025 11:35:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 To Remove Support For AMD's Never-Released Ryzen AI NPU2</title>
-      <link>https://www.phoronix.com/news/Linux-Dropping-AMD-NPU2</link>
-      <description>The upcoming Linux 7.0 kernel (unless it ends up being called Linux 6.20) will drop support for the AMD NPU2 as their second-generation neural processing unit that never ended up being released into any retail products...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Dropping-AMD-NPU2</guid>
-      <pubDate>Mon, 22 Dec 2025 13:55:38 +0000</pubDate>
+      <title>PowerVR Open-Source Vulkan Driver Preparing For New GPU Support</title>
+      <link>https://www.phoronix.com/news/PowerVR-VLK-Prep-For-New-GPUs</link>
+      <description>The open-source Mesa PowerVR "PVR" Vulkan driver has merged multi-architecture support as part of preparing to add support for newer Imagination GPUs...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/PowerVR-VLK-Prep-For-New-GPUs</guid>
+      <pubDate>Tue, 23 Dec 2025 12:36:22 +0000</pubDate>
     </item>
     <item>
-      <title>Rex: Proposed Safe Rust Kernel Extensions For The Linux Kernel, In Place Of eBPF</title>
-      <link>https://www.phoronix.com/news/Linux-Kernel-Rust-Rex</link>
-      <description>University researchers presented Rex at this month's Linux Plumbers Conference 2025 in Tokyo. Rex is designed for "safe and usable" Rust-based kernel extensions that could serve in place of eBPF programs for extending the Linux kernel functionality...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Kernel-Rust-Rex</guid>
-      <pubDate>Mon, 22 Dec 2025 14:18:47 +0000</pubDate>
+      <title>AMD Krackan Point Sub-$500 Laptop Linux Performance Improves By ~8% In Just Six Months</title>
+      <link>https://www.phoronix.com/review/amd-krackan-point-2025</link>
+      <description>As an end-of-year tradition at Phoronix for running a lot of year-over-year comparison performance benchmarks and other long-term performance evaluations, it's typically done on the higher-end hardware. That's done for a matter of time savings with maximum performance when running often 100~200+ benchmarks per article, the highest-end hardware typically being the most interesting in terms of features and capabilities, and more often than not getting flagship hardware review samples as opposed to</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/amd-krackan-point-2025</guid>
+      <pubDate>Tue, 23 Dec 2025 15:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19's Significant ~30% Performance Boost For Old AMD Radeon GPUs</title>
-      <link>https://www.phoronix.com/review/linux-619-amdgpu-radeon</link>
-      <description>For those still using old AMD GCN 1.0 "Southern Islands" or GCN 1.1 "Sea Islands" graphics cards, the upcoming Linux 6.19 kernel is a wonderful holiday gift. With Linux 6.19, the GCN 1.0/1.1 GPUs are now defaulting to the modern AMDGPU kernel driver in place of the legacy "Radeon" DRM driver that has been the default for GCN 1.1/1.0 and other ATI/AMD graphics processors of the past 2+ decades. In this article is a look at the performance benefit of now AMDGPU being the default as well as now ena</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/linux-619-amdgpu-radeon</guid>
-      <pubDate>Mon, 22 Dec 2025 15:14:11 +0000</pubDate>
+      <title>Intel NPU Firmware Published For Panther Lake - Completing The Linux Driver Support</title>
+      <link>https://www.phoronix.com/news/Intel-Panther-Lake-NPU-Firmware</link>
+      <description>Ahead of Intel Panther Lake laptops expected to debut next month at CES in Las Vegas, the Linux driver support for the next-gen "50xx" NPU of Panther Lake is now complete. The last piece of the driver support puzzle is now in place with the NPU firmware binaries having been upstreamed today to the linux-firmware.git repository...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Panther-Lake-NPU-Firmware</guid>
+      <pubDate>Tue, 23 Dec 2025 17:35:36 +0000</pubDate>
     </item>
     <item>
-      <title>Lua 5.5 Released With Declarations For Global Variables, Garbage Collection Improvements</title>
-      <link>https://www.phoronix.com/news/Lua-5.5-Released</link>
-      <description>Five years after releasing Lua 5.4, Lua 5.5 debuted today as the newest version of this lightweight and embeddable scripting language...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Lua-5.5-Released</guid>
-      <pubDate>Mon, 22 Dec 2025 17:25:00 +0000</pubDate>
+      <title>Micro QuickJS Engine Compiles &amp;amp; Runs JavaScript With As Little As 10kB Of RAM</title>
+      <link>https://www.phoronix.com/news/Micro-QuickJS</link>
+      <description>Very talented open-source developer Fabrice Bellard who already is well known for his work on QEMU, the Tiny C Compiler, and FFmpeg, has another accomplishment: Micro QuickJS. The Micro QuickJS JavaScript engine can compile and run JavaScript programs with as little as 10 kB of RAM...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Micro-QuickJS</guid>
+      <pubDate>Tue, 23 Dec 2025 17:51:05 +0000</pubDate>
     </item>
     <item>
-      <title>Elementary OS 8.1 Switches Over To Wayland Session By Default</title>
-      <link>https://www.phoronix.com/news/Elementary-OS-8.1-Released</link>
-      <description>Thirteen months after the release of Elementary OS 8.0, Elementary OS 8.1 is now available for this Ubuntu 24.04 LTS based Linux distribution that focuses on ease of use and usability. With Elementary OS 8.1 they have transitioned to using the Wayland session by default...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Elementary-OS-8.1-Released</guid>
-      <pubDate>Mon, 22 Dec 2025 18:38:00 +0000</pubDate>
+      <title>LibreOffice 26.2 Gets Rid Of The "Community" Edition Branding</title>
+      <link>https://www.phoronix.com/news/LibreOffice-262-Drops-Community</link>
+      <description>With the upcoming LibreOffice 26.2 open-source office suite release, they are getting rid of the "Community Edition" branding for the standard version of this widely-used cross-platform office suite...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/LibreOffice-262-Drops-Community</guid>
+      <pubDate>Tue, 23 Dec 2025 19:15:55 +0000</pubDate>
     </item>
     <item>
-      <title>RADV Adds Support For New Performance Counters To Help Game Developers</title>
-      <link>https://www.phoronix.com/news/AMD-RADV-RGP-2.6-Counters</link>
-      <description>Samuel Pitoiset of Valve's open-source Linux graphics team has landed improvements for the Mesa 260 RADV driver to support new performance counters in conjunction with AMD's Radeon GPU Profiler 2.6 release...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-RADV-RGP-2.6-Counters</guid>
-      <pubDate>Mon, 22 Dec 2025 20:34:24 +0000</pubDate>
+      <title>Open-Source Linux Driver Christmas Surprise For 20~23 Year Old Radeon GPUs</title>
+      <link>https://www.phoronix.com/news/R300-Pop-Free-Clipping</link>
+      <description>If Linux 6.19 switching from the Radeon legacy to AMDGPU kernel drivers for the GCN 1.0/1.1 GPUs for those ~13 year old GPUs isn't nostalgic enough for you, here's something a bit more nostalgic this holiday season: fresh open-source driver commits to the Radeon R300g driver for supporting those 23 year old ATI R300 GPUs up through the 20 year old R500 class graphics processors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/R300-Pop-Free-Clipping</guid>
+      <pubDate>Tue, 23 Dec 2025 20:24:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google Taps More Performance Out Of AMD Zen CPUs With BPF-CCX Scheduling</title>
-      <link>https://www.phoronix.com/news/Google-AMD-BPF-CCX</link>
-      <description>For helping with thread placement on modern AMD Zen systems with multiple CPU core complexes, Google has been developing "BPF CCX" that leverages the Linux kernel's eBPF capabilities paired with a user-space agent for fine-grained thread control. Google has found very positive performance results out of their use of this alternative means of high performance scheduling for achieving even greater performance on AMD processors under Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Google-AMD-BPF-CCX</guid>
-      <pubDate>Mon, 22 Dec 2025 21:06:27 +0000</pubDate>
+      <title>Linux's sched_ext Has Plans For GPU Awareness, Energy-Aware Abstractions</title>
+      <link>https://www.phoronix.com/news/sched-ext-future-plans-2026</link>
+      <description>Sched_ext as the extensible scheduler code for the Linux kernel that allows loading schedulers from user-space via eBPF code has shown a lot of interesting possibilities. Andrea Righi of NVIDIA who has been heavily involved in sched_ext development shared some of the future plans being looked at as we move into 2026...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/sched-ext-future-plans-2026</guid>
+      <pubDate>Wed, 24 Dec 2025 01:16:12 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Linux Driver Preps For Up To 13 Different Panther Lake H SoCs</title>
-      <link>https://www.phoronix.com/news/Intel-Panther-Lake-H-EDAC-13</link>
-      <description>It looks like the upcoming Intel Panther Lake H SoCs for the next-gen premium/high-end performance laptop market there could be quite a few different SKUs. A new patch for an Intel open-source driver expands the Panther Lake H line-up from three to 13 different IDs...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Panther-Lake-H-EDAC-13</guid>
-      <pubDate>Tue, 23 Dec 2025 01:15:56 +0000</pubDate>
+      <title>KVM Guest VMs Using Intel AMX Can Cause The Linux Host To Kernel Panic</title>
+      <link>https://www.phoronix.com/news/KVM-Guests-AMX-Host-Panic</link>
+      <description>An unfortunate Linux kernel bug coming to light just ahead of Christmas may cause frustration for some server administrators, particularly public cloud providers... It turns out with the Linux kernel releases since 2022, KVM guest virtual machines making use of Intel Advanced Matrix Extensions (AMX) is possible to cause the host to experience a kernel panic...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/KVM-Guests-AMX-Host-Panic</guid>
+      <pubDate>Wed, 24 Dec 2025 01:35:30 +0000</pubDate>
     </item>
   </channel>
 </rss>
