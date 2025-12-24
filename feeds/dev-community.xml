@@ -8,78 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Dec 2025 06:38:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 06:38:00 +0000</lastBuildDate>
     <item>
-      <title>AI Category Recommendation System for Drupal 11 Using PHP and OpenAI</title>
-      <link>https://dev.to/albert_andrew_24878d43267/ai-category-recommendation-system-for-drupal-11-using-php-and-openai-57fm</link>
-      <description>In Drupal, choosing the right category for a page or article is very important. However, in real life, people can make mistakes. Editors may pick the wrong category, use different categories for similar content, or publish posts quickly without giving much thought to categorization. AI-powered Drupal 11 can now recommend the best category for a node. Instead of depending only on keywords, this recommendation is based on the node's actual content. For more information: https://www.phpcmsframework</description>
-      <guid isPermaLink="false">https://dev.to/albert_andrew_24878d43267/ai-category-recommendation-system-for-drupal-11-using-php-and-openai-57fm</guid>
-      <pubDate>Tue, 23 Dec 2025 05:58:48 +0000</pubDate>
+      <title>OpenAPI schema validation using a offline free API Client</title>
+      <link>https://dev.to/dhruba_patra_160fd3a4046b/openapi-schema-validation-using-a-offline-free-api-client-4oo9</link>
+      <description>Voiden's latest beta includes detailed OpenAPI schema validation, helping you catch issues like: Value types (string, integer, etc.) Required vs optional fields Min/max values and lengths Pattern (regex) and format (email, date) checks Array and object property validations Complex rules like oneOf, anyOf, allOf, and not Nullable field support These validations aim to make your API testing more precise and reliable right inside your file-centric, Git-native workflow. But we want to hear from you</description>
+      <guid isPermaLink="false">https://dev.to/dhruba_patra_160fd3a4046b/openapi-schema-validation-using-a-offline-free-api-client-4oo9</guid>
+      <pubDate>Wed, 24 Dec 2025 06:15:57 +0000</pubDate>
     </item>
     <item>
-      <title>Guide for a ‘Vibe Coder’ Fresh Grad Looking for Career Advice</title>
-      <link>https://dev.to/tenenggg/guide-for-a-vibe-coder-fresh-grad-looking-for-career-advice-2mk1</link>
-      <description>Hello everyone, I am a computer science student majoring in Netcentric Computing, and I have recently graduated. I am currently looking for a job, but honestly, I’m not sure how to even begin. Throughout my course, I have completed many projects using frameworks such as ReactJS, Laravel, Node.js, and even IoT projects using Arduino IDE connected to my systems. Also using github, Digital ocean, Hostinger to deploy my projects. However, there is something I want to be honest about. Most of our cou</description>
-      <guid isPermaLink="false">https://dev.to/tenenggg/guide-for-a-vibe-coder-fresh-grad-looking-for-career-advice-2mk1</guid>
-      <pubDate>Tue, 23 Dec 2025 06:00:02 +0000</pubDate>
+      <title>The Power of Personality on Your Website, Even for Big Businesses and Non-Personal Brands - Why and How</title>
+      <link>https://dev.to/per-starke-642/the-power-of-personality-on-your-website-even-for-big-businesses-and-non-personal-brands-why-and-1e5m</link>
+      <description>We all know first impressions matter, and today, that first impression often happens online. Your website isn’t just a digital storefront; it’s the handshake, the smile, and the welcome your brand extends to the world. For many visitors, it’s the deciding factor in whether they explore further, reach out, or move on. The challenge is that even the largest, most established companies can come across as distant or impersonal on their websites. For this, a polished design alone isn’t enough if the</description>
+      <guid isPermaLink="false">https://dev.to/per-starke-642/the-power-of-personality-on-your-website-even-for-big-businesses-and-non-personal-brands-why-and-1e5m</guid>
+      <pubDate>Wed, 24 Dec 2025 06:16:29 +0000</pubDate>
     </item>
     <item>
-      <title>Shadow Signals: How Counterfactual Learning Recovers Missed Alpha</title>
-      <link>https://dev.to/ronny_nyabuto_bba33987098/shadow-signals-how-counterfactual-learning-recovers-missed-alpha-14gb</link>
-      <description>Let’s clear the fog. Most autonomous trading systems don’t fail because they take bad trades. They fail because they never learn from the trades they refuse to take. Counterfactual Learning fixes that blind spot. It treats every rejected decision as first-class data, not disposable noise. What follows is not theory. It’s an implemented pattern, already running in production systems that care about opportunity cost as much as risk. 1. Shadow Signals: Making Rejection Observable The foundational m</description>
-      <guid isPermaLink="false">https://dev.to/ronny_nyabuto_bba33987098/shadow-signals-how-counterfactual-learning-recovers-missed-alpha-14gb</guid>
-      <pubDate>Tue, 23 Dec 2025 06:04:38 +0000</pubDate>
+      <title>How a Growing E-Commerce Startup Secured Its Web Apps with SafeLine WAF</title>
+      <link>https://dev.to/arina_cholee/how-a-growing-e-commerce-startup-secured-its-web-apps-with-safeline-waf-32c7</link>
+      <description>In the fast-paced world of e-commerce, even a small vulnerability can cost thousands of dollars in lost revenue, damage user trust, and trigger compliance issues. One startup, operating a popular online marketplace, recently shared how SafeLine WAF became a key part of their security strategy — without slowing down their applications or increasing operational overhead. The Challenge: Protecting a Complex Web Infrastructure The startup runs a modern stack consisting of Node.js APIs, React front-e</description>
+      <guid isPermaLink="false">https://dev.to/arina_cholee/how-a-growing-e-commerce-startup-secured-its-web-apps-with-safeline-waf-32c7</guid>
+      <pubDate>Wed, 24 Dec 2025 06:16:40 +0000</pubDate>
     </item>
     <item>
-      <title>The Definitive Guide to Building a Cross-Browser Testing Matrix for 2026</title>
-      <link>https://dev.to/matt_calder_e620d84cf0c14/the-definitive-guide-to-building-a-cross-browser-testing-matrix-for-2026-246i</link>
-      <description>Crafting Your Blueprint for Universal Web Compatibility In the fragmented digital landscape of 2026, your beautifully crafted website might be a masterpiece in Chrome but appear broken in Safari or behave unpredictably in Firefox. With over 4.8 billion internet users accessing the web through dozens of browsers, operating systems, and devices, delivering a consistent experience is no longer optional. As a lead QA architect who has guided teams through this complexity, I've learned that success h</description>
-      <guid isPermaLink="false">https://dev.to/matt_calder_e620d84cf0c14/the-definitive-guide-to-building-a-cross-browser-testing-matrix-for-2026-246i</guid>
-      <pubDate>Tue, 23 Dec 2025 06:04:44 +0000</pubDate>
+      <title>AI Agent-Level Attacks &amp;amp; Autonomous Exploit Generation: Can AI Hack Itself?</title>
+      <link>https://dev.to/zapisec/ai-agent-level-attacks-autonomous-exploit-generation-can-ai-hack-itself-4h72</link>
+      <description>The Rise of Autonomous Vulnerability Discovery For decades, penetration testing and vulnerability discovery have been the domain of skilled security professionals. These experts spend years developing intuition about how systems fail, learning common vulnerability patterns, and building deep technical knowledge across multiple domains. The process has been inherently limited by human cognitive bandwidth and the relatively small number of experts in the field. This landscape is changing fundament</description>
+      <guid isPermaLink="false">https://dev.to/zapisec/ai-agent-level-attacks-autonomous-exploit-generation-can-ai-hack-itself-4h72</guid>
+      <pubDate>Wed, 24 Dec 2025 06:17:10 +0000</pubDate>
     </item>
     <item>
-      <title>Auto-loading .nvmrc in Junie terminal</title>
-      <link>https://dev.to/dchaley/auto-loading-nvmrc-in-junie-terminal-48pc</link>
-      <description>I've been using JetBrains's Junie product for agentic AI coding since it went public in April 2025. It's been an overall great experience. I noted it was struggling with a React/TypeScript project. When running yarn commands it wasn't honoring the .nvmrc file, so it didn't load the correct node version. This caused issues for files generated/built against different NodeJS versions. My setup is slightly strange: because NVM takes a while to load, and I'm impatient, I don't load it automatically i</description>
-      <guid isPermaLink="false">https://dev.to/dchaley/auto-loading-nvmrc-in-junie-terminal-48pc</guid>
-      <pubDate>Tue, 23 Dec 2025 06:06:59 +0000</pubDate>
+      <title>MoonBit: A Modern Language for WebAssembly/JS/Native</title>
+      <link>https://dev.to/mizchi/moonbit-a-modern-language-for-webassemblyjsnative-4p71</link>
+      <description>Are you frustrated with TypeScript inheriting JavaScript's quirks - no integer types, type erasure at runtime, no pattern matching? Or that Rust is too low-level for writing application-layer code? MoonBit is a language that addresses these frustrations. It's a statically-typed programming language designed for WebAssembly, with multiple backend targets including wasm-gc, JavaScript, and native. Think of it as Rust with garbage collection - you get Rust-like syntax and safety without the complex</description>
+      <guid isPermaLink="false">https://dev.to/mizchi/moonbit-a-modern-language-for-webassemblyjsnative-4p71</guid>
+      <pubDate>Wed, 24 Dec 2025 06:19:37 +0000</pubDate>
     </item>
     <item>
-      <title>Building the Future: A Native GUI SDK Prototype</title>
-      <link>https://dev.to/hejhdiss/building-the-future-a-native-gui-sdk-prototype-2b0i</link>
-      <description>A working proof-of-concept for developers ready to make semantic interfaces a reality By @hejhdiss (Muhammed Shafin P) View the project on GitHub Note: This is not an OS prototype—it's a focused demonstration of the IRTA (Interface Runtime Translation Architecture) component from the NeuroShellOS concept. This sample exists purely to prove that semantic metadata layers can work in practice. For the full technical paper on the broader NeuroShellOS framework, see: AI-Native GUI SDK for NeuroShellO</description>
-      <guid isPermaLink="false">https://dev.to/hejhdiss/building-the-future-a-native-gui-sdk-prototype-2b0i</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffruyacqp07kmiab5y7gm.png" length="0" type="image/png"/>
-      <pubDate>Tue, 23 Dec 2025 06:07:12 +0000</pubDate>
+      <title>Writing JS FFI in MoonBit</title>
+      <link>https://dev.to/mizchi/writing-js-ffi-in-moonbit-jgn</link>
+      <description>I think MoonBit is a wonderful language, but it's still in early stages and lacks libraries. For AltJS and new languages to gain traction, I believe increasing wrapper libraries and type definitions is important. This article walks through writing FFI for the MoonBit JS backend, with the hope of learning MoonBit and encouraging more library development. While MoonBit can generate code for native, wasm, and js, I think targeting JS - which has broad application across web, browser, and server-sid</description>
+      <guid isPermaLink="false">https://dev.to/mizchi/writing-js-ffi-in-moonbit-jgn</guid>
+      <pubDate>Wed, 24 Dec 2025 06:19:39 +0000</pubDate>
     </item>
     <item>
-      <title>Speed Up Syncthing File Sync Discovery (From 11 Seconds to 2)</title>
-      <link>https://dev.to/evoleinik/speed-up-syncthing-file-sync-discovery-from-11-seconds-to-2-345a</link>
-      <description>New files were taking 11 seconds to sync from my Linux box to my Mac. That's an eternity when you're iterating on code or config. The fix took 30 seconds. The Problem Syncthing uses filesystem watchers to detect changes. When a file changes, the watcher notices, Syncthing scans it, and sync begins. But there's a built-in delay before Syncthing acts on watcher events. The default fsWatcherDelayS is 10 seconds. This batches multiple rapid changes into one scan, which makes sense for large codebase</description>
-      <guid isPermaLink="false">https://dev.to/evoleinik/speed-up-syncthing-file-sync-discovery-from-11-seconds-to-2-345a</guid>
-      <pubDate>Tue, 23 Dec 2025 06:10:23 +0000</pubDate>
+      <title>User Connectivity: Two Years in Production — Lessons Learned and New Patterns</title>
+      <link>https://dev.to/anoushnet/user-connectivity-two-years-in-production-lessons-learned-and-new-patterns-3fpf</link>
+      <description>Introduction This is a follow-up to my previous post on User Connectivity: A Real-time Web Solution for Online and Offline User Status. It has been almost two years since I first deployed my user connectivity solution to production. What started as an experiment has become a cornerstone of my architecture. Could I make it simpler? Yes. However, the time and effort for an upgrade is not worth it given other priorities. The system has been rock solid, and I have expanded its use to solve other cha</description>
+      <guid isPermaLink="false">https://dev.to/anoushnet/user-connectivity-two-years-in-production-lessons-learned-and-new-patterns-3fpf</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fw956yvzss27amig3nkc2.png" length="0" type="image/png"/>
+      <pubDate>Wed, 24 Dec 2025 06:23:54 +0000</pubDate>
     </item>
     <item>
-      <title>Michigan Startup App Costs in 2026</title>
-      <link>https://dev.to/del_rosario/michigan-startup-app-costs-in-2026-224a</link>
-      <description>If you’re a founder planning a mobile app in Michigan, the first serious question is cost. Not theoretical cost. Not “average U.S. rates.” What you will actually pay in 2026 once scope, talent, and delivery reality collide. Michigan sits in a middle zone. It is not Silicon Valley expensive. It is not offshore cheap. That middle ground creates both opportunity and confusion for founders who have never built software before—or who were burned once already. This guide is written for founders and op</description>
-      <guid isPermaLink="false">https://dev.to/del_rosario/michigan-startup-app-costs-in-2026-224a</guid>
-      <pubDate>Tue, 23 Dec 2025 06:13:55 +0000</pubDate>
+      <title>Dark vs Bright Website Design: The Real Difference (and How to Choose the Right One)</title>
+      <link>https://dev.to/per-starke-642/dark-vs-bright-website-design-the-real-difference-and-how-to-choose-the-right-one-5b5j</link>
+      <description>The dark background feels calm, your eyes relax, and every image seems to glow a little brighter. Now picture that same site in the middle of the day. Suddenly, a light background feels cleaner, easier to read, and perfectly suited for the sunlight spilling across your screen. That quiet contrast between dark and bright design is more than just an aesthetic choice. It changes how people feel, focus, and connect with a brand online. Choosing between them isn’t only about preference; it influences</description>
+      <guid isPermaLink="false">https://dev.to/per-starke-642/dark-vs-bright-website-design-the-real-difference-and-how-to-choose-the-right-one-5b5j</guid>
+      <pubDate>Wed, 24 Dec 2025 06:24:29 +0000</pubDate>
     </item>
     <item>
-      <title>Kapbe Redefines Vaults: Why Systems Inevitably Destabilise When Yield Becomes the Only Metric?</title>
-      <link>https://dev.to/czof_pbni_d21cb3b73d2f19c/kapbe-redefines-vaults-why-systems-inevitably-destabilise-when-yield-becomes-the-only-metric-4klg</link>
-      <description>If you ask most crypto users what a vault is, the answer is strikingly uniform: a tool that automatically generates yield. This understanding did not arise without reason. In the early days of DeFi, vaults were indeed little more than interface abstractions for yield farming processes. Kapbe argues, however, that this historical memory is now producing a dangerous illusion. As vaults evolve into vehicles that carry real world assets, credit structures and institutional strategies, they cease to</description>
-      <guid isPermaLink="false">https://dev.to/czof_pbni_d21cb3b73d2f19c/kapbe-redefines-vaults-why-systems-inevitably-destabilise-when-yield-becomes-the-only-metric-4klg</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzwt7au6vrbplvr53xspv.png" length="0" type="image/png"/>
-      <pubDate>Tue, 23 Dec 2025 06:14:33 +0000</pubDate>
+      <title>Stop Pushing Work Code with Your Personal Email: The Ultimate Guide to Multiple GitHub Accounts on Windows</title>
+      <link>https://dev.to/rahulkbharti/stop-pushing-work-code-with-your-personal-email-the-ultimate-guide-to-multiple-github-accounts-on-39bg</link>
+      <description>If you are like me, you probably have a personal GitHub account for your side projects and a separate professional account for your company. And if you’re working on a Windows machine using VS Code, you’ve likely hit the wall where Git doesn't know who you are. I recently spent hours struggling with this. I tried running Linux commands like eval $(ssh-agent -s) in PowerShell (which didn't work), got "Permission Denied" errors, and even accidentally pushed work code using my personal email. 🤦‍♂️</description>
+      <guid isPermaLink="false">https://dev.to/rahulkbharti/stop-pushing-work-code-with-your-personal-email-the-ultimate-guide-to-multiple-github-accounts-on-39bg</guid>
+      <pubDate>Wed, 24 Dec 2025 06:24:53 +0000</pubDate>
     </item>
     <item>
-      <title>Basta con il "Funziona sulla mia Macchina": La Guida Semplice a Docker</title>
-      <link>https://dev.to/scape/basta-con-il-funziona-sulla-mia-macchina-la-guida-semplice-a-docker-64f</link>
-      <description>In Breve (TL;DR) Docker risolve il classico problema del "funziona sulla mia macchina" creando ambienti di sviluppo, test e produzione perfettamente identici e portatili. Il flusso di lavoro si basa su tre concetti chiave: un Dockerfile (la ricetta) crea un'immagine immutabile (il pacchetto software sigillato) che viene eseguita come un container isolato (l'applicazione in funzione). L'ecosistema Docker va oltre il singolo container: Docker Compose permette di gestire applicazioni complesse comp</description>
-      <guid isPermaLink="false">https://dev.to/scape/basta-con-il-funziona-sulla-mia-macchina-la-guida-semplice-a-docker-64f</guid>
-      <pubDate>Tue, 23 Dec 2025 06:30:00 +0000</pubDate>
+      <title>The Proxy Paradox: Why Spring @Transactional Vanishes</title>
+      <link>https://dev.to/rajatarora/the-proxy-paradox-why-spring-transactional-vanishes-4758</link>
+      <description>We've all been there. You annotate @Transactional on a critical method in your Spring application, run mvn test, watch the green checkmarks fly by, and feel good about yourself. Everything's going swell innit? But then you open the transaction log and find... nothing. Where did your transaction go? No connection enlisted. No timeout. No rollback on error. The code did execute, but a transaction was not created. Congratulations, you've just met the Proxy Paradox. The coding equivalent to plugging</description>
+      <guid isPermaLink="false">https://dev.to/rajatarora/the-proxy-paradox-why-spring-transactional-vanishes-4758</guid>
+      <pubDate>Wed, 24 Dec 2025 06:30:02 +0000</pubDate>
     </item>
   </channel>
 </rss>
