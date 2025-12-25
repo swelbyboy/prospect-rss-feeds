@@ -8,63 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Dec 2025 06:38:11 +0000</lastBuildDate>
-    <item>
-      <title>Meta Is Using The Linux Scheduler Designed For Valve's Steam Deck On Its Servers</title>
-      <link>https://www.phoronix.com/news/Meta-SCX-LAVD-Steam-Deck-Server</link>
-      <description>An interesting anecdote from this month's Linux Plumbers Conference in Tokyo is that Meta (Facebook) is using the Linux scheduler originally designed for the needs of Valve's Steam Deck... On Meta Servers. Meta has found that the scheduler can actually adapt and work very well on the hyperscaler's large servers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Meta-SCX-LAVD-Steam-Deck-Server</guid>
-      <pubDate>Tue, 23 Dec 2025 11:10:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LLVM Considering An AI Tool Policy, AI Bot For Fixing Build System Breakage Proposed</title>
-      <link>https://www.phoronix.com/news/LLVM-AI-Tool-Policy-RFC</link>
-      <description>Last week a request for comments (RFC) was issued around establishing an LLVM AI Tool Use Policy. The proposed policy would allow AI-assisted contributions to be made to this open-source compiler codebase but that there would need to be a "human in the loop" and the contributor versed enough to be able to answer questions during code review. Separately, yesterday a proposal was sent out for creating an AI-assisted fixer bot to help with Bazel build system breakage...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/LLVM-AI-Tool-Policy-RFC</guid>
-      <pubDate>Tue, 23 Dec 2025 11:35:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PowerVR Open-Source Vulkan Driver Preparing For New GPU Support</title>
-      <link>https://www.phoronix.com/news/PowerVR-VLK-Prep-For-New-GPUs</link>
-      <description>The open-source Mesa PowerVR "PVR" Vulkan driver has merged multi-architecture support as part of preparing to add support for newer Imagination GPUs...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/PowerVR-VLK-Prep-For-New-GPUs</guid>
-      <pubDate>Tue, 23 Dec 2025 12:36:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>AMD Krackan Point Sub-$500 Laptop Linux Performance Improves By ~8% In Just Six Months</title>
-      <link>https://www.phoronix.com/review/amd-krackan-point-2025</link>
-      <description>As an end-of-year tradition at Phoronix for running a lot of year-over-year comparison performance benchmarks and other long-term performance evaluations, it's typically done on the higher-end hardware. That's done for a matter of time savings with maximum performance when running often 100~200+ benchmarks per article, the highest-end hardware typically being the most interesting in terms of features and capabilities, and more often than not getting flagship hardware review samples as opposed to</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/amd-krackan-point-2025</guid>
-      <pubDate>Tue, 23 Dec 2025 15:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intel NPU Firmware Published For Panther Lake - Completing The Linux Driver Support</title>
-      <link>https://www.phoronix.com/news/Intel-Panther-Lake-NPU-Firmware</link>
-      <description>Ahead of Intel Panther Lake laptops expected to debut next month at CES in Las Vegas, the Linux driver support for the next-gen "50xx" NPU of Panther Lake is now complete. The last piece of the driver support puzzle is now in place with the NPU firmware binaries having been upstreamed today to the linux-firmware.git repository...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Panther-Lake-NPU-Firmware</guid>
-      <pubDate>Tue, 23 Dec 2025 17:35:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Micro QuickJS Engine Compiles &amp;amp; Runs JavaScript With As Little As 10kB Of RAM</title>
-      <link>https://www.phoronix.com/news/Micro-QuickJS</link>
-      <description>Very talented open-source developer Fabrice Bellard who already is well known for his work on QEMU, the Tiny C Compiler, and FFmpeg, has another accomplishment: Micro QuickJS. The Micro QuickJS JavaScript engine can compile and run JavaScript programs with as little as 10 kB of RAM...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Micro-QuickJS</guid>
-      <pubDate>Tue, 23 Dec 2025 17:51:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>LibreOffice 26.2 Gets Rid Of The "Community" Edition Branding</title>
-      <link>https://www.phoronix.com/news/LibreOffice-262-Drops-Community</link>
-      <description>With the upcoming LibreOffice 26.2 open-source office suite release, they are getting rid of the "Community Edition" branding for the standard version of this widely-used cross-platform office suite...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/LibreOffice-262-Drops-Community</guid>
-      <pubDate>Tue, 23 Dec 2025 19:15:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Open-Source Linux Driver Christmas Surprise For 20~23 Year Old Radeon GPUs</title>
-      <link>https://www.phoronix.com/news/R300-Pop-Free-Clipping</link>
-      <description>If Linux 6.19 switching from the Radeon legacy to AMDGPU kernel drivers for the GCN 1.0/1.1 GPUs for those ~13 year old GPUs isn't nostalgic enough for you, here's something a bit more nostalgic this holiday season: fresh open-source driver commits to the Radeon R300g driver for supporting those 23 year old ATI R300 GPUs up through the 20 year old R500 class graphics processors...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/R300-Pop-Free-Clipping</guid>
-      <pubDate>Tue, 23 Dec 2025 20:24:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 25 Dec 2025 06:37:33 +0000</lastBuildDate>
     <item>
       <title>Linux's sched_ext Has Plans For GPU Awareness, Energy-Aware Abstractions</title>
       <link>https://www.phoronix.com/news/sched-ext-future-plans-2026</link>
@@ -78,6 +22,62 @@
       <description>An unfortunate Linux kernel bug coming to light just ahead of Christmas may cause frustration for some server administrators, particularly public cloud providers... It turns out with the Linux kernel releases since 2022, KVM guest virtual machines making use of Intel Advanced Matrix Extensions (AMX) is possible to cause the host to experience a kernel panic...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/KVM-Guests-AMX-Host-Panic</guid>
       <pubDate>Wed, 24 Dec 2025 01:35:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Page Cache Sharing Looks To Be Very Beneficial For EROFS Containers</title>
+      <link>https://www.phoronix.com/news/EROFS-Page-Cache-Sharing</link>
+      <description>One of the features being worked on for a while with the read-only EROFS file-system is page cache sharing. Besides EROFS being popular on some mobile/embedded devices, this open-source read-only file-system has been quite popular for container usage and there this page cache sharing functionality can provide some significant reductions in RAM usage...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/EROFS-Page-Cache-Sharing</guid>
+      <pubDate>Wed, 24 Dec 2025 10:45:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qualcomm's Xqci RISC-V Extension Now Deemed Non-Experimental For LLVM 22</title>
+      <link>https://www.phoronix.com/news/Qualcomm-Xqci-LLVM-Stable</link>
+      <description>In LLVM Git yesterday for next year's LLVM 22 release the Qualcomm Xqci RISC-V vendor extension is no longer deemed experimental...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Qualcomm-Xqci-LLVM-Stable</guid>
+      <pubDate>Wed, 24 Dec 2025 10:58:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.20~7.0 To Bring Prep Changes For CXL Soft Reserve Recovery &amp;amp; Accelerator Memory</title>
+      <link>https://www.phoronix.com/news/Linux-6.20-7.0-CXL-Init-Prep</link>
+      <description>The next kernel cycle that will be known as either Linux 6.20 or Linux 7.0 depending upon how Linus Torvalds handles the versioning for this next x.20 milestone. More than likely it will be Linux 7.0 given his historical versioning scheme, but whatever the case, ahead of this next kernel cycle some initialization changes for the CXL subsystem are building up...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.20-7.0-CXL-Init-Prep</guid>
+      <pubDate>Wed, 24 Dec 2025 11:22:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Recap Of The Top AMD Linux News Of 2025: Strix Halo, AI, Kernel Improvements</title>
+      <link>https://www.phoronix.com/news/AMD-Linux-News-2025</link>
+      <description>As part of our various "year end" articles, here is a look back at the most popular AMD Linux/open-source news and hardware reviews of 2025...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-Linux-News-2025</guid>
+      <pubDate>Wed, 24 Dec 2025 11:38:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wayback 0.3 Released For Advancing This X11 Compatibility Layer</title>
+      <link>https://www.phoronix.com/news/Wayback-0.3</link>
+      <description>One of the interesting open-source projects to come about this year was Wayback as an X11 compatibility layer using Wayland. Wayback could be used by default on Alpine Linux next year among other distributions. For ending out 2025 development, Wayback 0.3 is now available...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Wayback-0.3</guid>
+      <pubDate>Wed, 24 Dec 2025 13:50:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Snapdragon X Elite Laptop Performance On Linux Ends 2025 Disappointing</title>
+      <link>https://www.phoronix.com/review/snapdragon-x-elite-linux-eoy2025</link>
+      <description>As part of my various end-of-year benchmarking comparison articles for looking at the performance evolution of Linux is a fresh look at the Qualcomm Snapdragon X Elite laptop experience when using Ubuntu 25.10 with the latest X1E Concept packages, which includes taking the X1 Elite optimized kernel to the latest Linux 6.18 stable series. Unfortunately, there are significant performance regressions observed compared to a few months ago that just make AMD Ryzen AI and Intel Core Ultra laptops a be</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/snapdragon-x-elite-linux-eoy2025</guid>
+      <pubDate>Wed, 24 Dec 2025 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>QEMU 10.2 Released With IO_uring Support For Helping Allow For Greater Performance</title>
+      <link>https://www.phoronix.com/news/QEMU-10.2-Released</link>
+      <description>As a wonderful gift to open-source Linux virtualization users this Christmas Eve is the release of the QEMU 10.2 emulator...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/QEMU-10.2-Released</guid>
+      <pubDate>Wed, 24 Dec 2025 19:08:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Libreboot 26.01-rc1 Released To Support A Few More Systems</title>
+      <link>https://www.phoronix.com/news/Libreboot-26.01-rc1</link>
+      <description>Libreboot as the Coreboot downstream focused on free, open-source boot firmware is out with a new test release for Christmas...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Libreboot-26.01-rc1</guid>
+      <pubDate>Thu, 25 Dec 2025 01:40:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
