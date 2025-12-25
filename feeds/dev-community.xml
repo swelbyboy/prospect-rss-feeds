@@ -8,77 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Dec 2025 06:38:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Dec 2025 06:37:23 +0000</lastBuildDate>
     <item>
-      <title>OpenAPI schema validation using a offline free API Client</title>
-      <link>https://dev.to/dhruba_patra_160fd3a4046b/openapi-schema-validation-using-a-offline-free-api-client-4oo9</link>
-      <description>Voiden's latest beta includes detailed OpenAPI schema validation, helping you catch issues like: Value types (string, integer, etc.) Required vs optional fields Min/max values and lengths Pattern (regex) and format (email, date) checks Array and object property validations Complex rules like oneOf, anyOf, allOf, and not Nullable field support These validations aim to make your API testing more precise and reliable right inside your file-centric, Git-native workflow. But we want to hear from you</description>
-      <guid isPermaLink="false">https://dev.to/dhruba_patra_160fd3a4046b/openapi-schema-validation-using-a-offline-free-api-client-4oo9</guid>
-      <pubDate>Wed, 24 Dec 2025 06:15:57 +0000</pubDate>
+      <title>I’m building a deterministic policy firewall for AI systems — looking for technical feedback</title>
+      <link>https://dev.to/lola0786/im-building-a-deterministic-policy-firewall-for-ai-systems-looking-for-technical-feedback-2n71</link>
+      <description>I’ve been working on a small but opinionated system and would love technical feedback from people who’ve dealt with AI in regulated or high-risk environments. The core idea is simple: AI systems can propose actions. Something else must decide whether those actions are allowed to execute. This project is not about “understanding intent” perfectly. Intent normalization is deliberately lossy (regex / LLM / upstream systems). The invariant is a deterministic policy layer that: blocks unsafe or illeg</description>
+      <guid isPermaLink="false">https://dev.to/lola0786/im-building-a-deterministic-policy-firewall-for-ai-systems-looking-for-technical-feedback-2n71</guid>
+      <pubDate>Thu, 25 Dec 2025 05:58:27 +0000</pubDate>
     </item>
     <item>
-      <title>The Power of Personality on Your Website, Even for Big Businesses and Non-Personal Brands - Why and How</title>
-      <link>https://dev.to/per-starke-642/the-power-of-personality-on-your-website-even-for-big-businesses-and-non-personal-brands-why-and-1e5m</link>
-      <description>We all know first impressions matter, and today, that first impression often happens online. Your website isn’t just a digital storefront; it’s the handshake, the smile, and the welcome your brand extends to the world. For many visitors, it’s the deciding factor in whether they explore further, reach out, or move on. The challenge is that even the largest, most established companies can come across as distant or impersonal on their websites. For this, a polished design alone isn’t enough if the</description>
-      <guid isPermaLink="false">https://dev.to/per-starke-642/the-power-of-personality-on-your-website-even-for-big-businesses-and-non-personal-brands-why-and-1e5m</guid>
-      <pubDate>Wed, 24 Dec 2025 06:16:29 +0000</pubDate>
+      <title>Leaflet Address Autocomplete with Geoapify (Companion to MapLibre Example)</title>
+      <link>https://dev.to/geoapify-maps-api/leaflet-address-autocomplete-with-geoapify-companion-to-maplibre-example-35p2</link>
+      <description>This is the Leaflet version of our Address Autocomplete example. If you've seen the MapLibre GL tutorial, this follows the same UX pattern: users can search for an address and see it on an interactive map with a marker. Try the live demo: ➡️ View on CodePen APIs used: Address Autocomplete API - real-time suggestions as users type Map Tiles - raster map tiles for Leaflet Map Marker Icon API - custom marker icons 🧭 Table of Contents Set Up a Leaflet Map Add the Address Autocomplete Field Sync Sele</description>
+      <guid isPermaLink="false">https://dev.to/geoapify-maps-api/leaflet-address-autocomplete-with-geoapify-companion-to-maplibre-example-35p2</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8d1wieiofjropeprakcz.png" length="0" type="image/png"/>
+      <pubDate>Thu, 25 Dec 2025 05:58:47 +0000</pubDate>
     </item>
     <item>
-      <title>How a Growing E-Commerce Startup Secured Its Web Apps with SafeLine WAF</title>
-      <link>https://dev.to/arina_cholee/how-a-growing-e-commerce-startup-secured-its-web-apps-with-safeline-waf-32c7</link>
-      <description>In the fast-paced world of e-commerce, even a small vulnerability can cost thousands of dollars in lost revenue, damage user trust, and trigger compliance issues. One startup, operating a popular online marketplace, recently shared how SafeLine WAF became a key part of their security strategy — without slowing down their applications or increasing operational overhead. The Challenge: Protecting a Complex Web Infrastructure The startup runs a modern stack consisting of Node.js APIs, React front-e</description>
-      <guid isPermaLink="false">https://dev.to/arina_cholee/how-a-growing-e-commerce-startup-secured-its-web-apps-with-safeline-waf-32c7</guid>
-      <pubDate>Wed, 24 Dec 2025 06:16:40 +0000</pubDate>
+      <title>iTerm2 + tmux -CC: The Remote Development Setup Nobody Talks About</title>
+      <link>https://dev.to/evoleinik/iterm2-tmux-cc-the-remote-development-setup-nobody-talks-about-4p89</link>
+      <description>Every few months, someone announces a new terminal emulator that will revolutionize remote development. AI-powered this, cloud-native that. Meanwhile, iTerm2 has had a feature since 2012 that solves remote development better than most alternatives - and almost nobody uses it. The Problem with SSH If you do remote development, you know the pain: SSH session dies, your work context vanishes Scrollback is whatever fits in the terminal buffer Copy/paste requires mental gymnastics (was that Cmd+C or</description>
+      <guid isPermaLink="false">https://dev.to/evoleinik/iterm2-tmux-cc-the-remote-development-setup-nobody-talks-about-4p89</guid>
+      <pubDate>Thu, 25 Dec 2025 06:00:02 +0000</pubDate>
     </item>
     <item>
-      <title>AI Agent-Level Attacks &amp;amp; Autonomous Exploit Generation: Can AI Hack Itself?</title>
-      <link>https://dev.to/zapisec/ai-agent-level-attacks-autonomous-exploit-generation-can-ai-hack-itself-4h72</link>
-      <description>The Rise of Autonomous Vulnerability Discovery For decades, penetration testing and vulnerability discovery have been the domain of skilled security professionals. These experts spend years developing intuition about how systems fail, learning common vulnerability patterns, and building deep technical knowledge across multiple domains. The process has been inherently limited by human cognitive bandwidth and the relatively small number of experts in the field. This landscape is changing fundament</description>
-      <guid isPermaLink="false">https://dev.to/zapisec/ai-agent-level-attacks-autonomous-exploit-generation-can-ai-hack-itself-4h72</guid>
-      <pubDate>Wed, 24 Dec 2025 06:17:10 +0000</pubDate>
+      <title>Stop Sending Boring Texts! Try This Secret "Locked Message" Generator</title>
+      <link>https://dev.to/techno_kraft_in/stop-sending-boring-texts-try-this-secret-locked-message-generator-pjl</link>
+      <description>Why send a plain text message when you can send a locked digital treasure chest? If you are planning a digital treasure hunt, an escape room, or just want to prank your friends with a password-protected secret, you need to see how this works. This tool lets you turn any message into a standalone, encrypted HTML file that only unlocks with your secret key. Try it out right now! Experience the mystery for yourself by using the live tool here: 👉 Treasure Hunt Clue Creator How it Works: The "Zero-Se</description>
+      <guid isPermaLink="false">https://dev.to/techno_kraft_in/stop-sending-boring-texts-try-this-secret-locked-message-generator-pjl</guid>
+      <pubDate>Thu, 25 Dec 2025 06:04:02 +0000</pubDate>
     </item>
     <item>
-      <title>MoonBit: A Modern Language for WebAssembly/JS/Native</title>
-      <link>https://dev.to/mizchi/moonbit-a-modern-language-for-webassemblyjsnative-4p71</link>
-      <description>Are you frustrated with TypeScript inheriting JavaScript's quirks - no integer types, type erasure at runtime, no pattern matching? Or that Rust is too low-level for writing application-layer code? MoonBit is a language that addresses these frustrations. It's a statically-typed programming language designed for WebAssembly, with multiple backend targets including wasm-gc, JavaScript, and native. Think of it as Rust with garbage collection - you get Rust-like syntax and safety without the complex</description>
-      <guid isPermaLink="false">https://dev.to/mizchi/moonbit-a-modern-language-for-webassemblyjsnative-4p71</guid>
-      <pubDate>Wed, 24 Dec 2025 06:19:37 +0000</pubDate>
+      <title>Ruby::Box Digest Introduction (Ruby 4.0.0 New Feature)</title>
+      <link>https://dev.to/ko1/rubybox-digest-introduction-ruby-400-new-feature-3bch</link>
+      <description>(This article is AI translation version of https://product.st.inc/entry/2025/12/25/134453 from Japanese to English. The author is not Koichi, but Endoh-san) Hello, this is Yusuke Endoh (@mametter). Ruby::Box was introduced in Ruby 4.0.0 ([Feature #21311]). Ruby::Box was called Namespace when it was proposed. Matz even declared at RubyKaigi and elsewhere that if Namespace or ZJIT landed, the next release would be Ruby 4.0.0, so it is a key feature. So some people may only know the vibe of "some a</description>
+      <guid isPermaLink="false">https://dev.to/ko1/rubybox-digest-introduction-ruby-400-new-feature-3bch</guid>
+      <pubDate>Thu, 25 Dec 2025 06:07:44 +0000</pubDate>
     </item>
     <item>
-      <title>Writing JS FFI in MoonBit</title>
-      <link>https://dev.to/mizchi/writing-js-ffi-in-moonbit-jgn</link>
-      <description>I think MoonBit is a wonderful language, but it's still in early stages and lacks libraries. For AltJS and new languages to gain traction, I believe increasing wrapper libraries and type definitions is important. This article walks through writing FFI for the MoonBit JS backend, with the hope of learning MoonBit and encouraging more library development. While MoonBit can generate code for native, wasm, and js, I think targeting JS - which has broad application across web, browser, and server-sid</description>
-      <guid isPermaLink="false">https://dev.to/mizchi/writing-js-ffi-in-moonbit-jgn</guid>
-      <pubDate>Wed, 24 Dec 2025 06:19:39 +0000</pubDate>
+      <title>Cross Platform Application</title>
+      <link>https://dev.to/hardyweb/cross-platform-application-493n</link>
+      <description>Cross Platform application Membangunkan aplikasi merentas beberapa platform seperti Linux dan Windows agak mencabor jugok lah, ia bukan dalam bentuk native, tapi dalam bentuk web apps. Image Optimizer Aku ada bangunkan satu aplikasi menggunakan golang yang boleh dijalankan dalam linux dan windows, cabaran dia adalah, bila run dalam Linux, semua fungsi ok, tapi bila run di dalam windows. ada beberapa fungsi tidak jalan Path Ia berkait dengan path , dalam linux , semua program disimpan dalam /usr/</description>
+      <guid isPermaLink="false">https://dev.to/hardyweb/cross-platform-application-493n</guid>
+      <pubDate>Thu, 25 Dec 2025 06:09:30 +0000</pubDate>
     </item>
     <item>
-      <title>User Connectivity: Two Years in Production — Lessons Learned and New Patterns</title>
-      <link>https://dev.to/anoushnet/user-connectivity-two-years-in-production-lessons-learned-and-new-patterns-3fpf</link>
-      <description>Introduction This is a follow-up to my previous post on User Connectivity: A Real-time Web Solution for Online and Offline User Status. It has been almost two years since I first deployed my user connectivity solution to production. What started as an experiment has become a cornerstone of my architecture. Could I make it simpler? Yes. However, the time and effort for an upgrade is not worth it given other priorities. The system has been rock solid, and I have expanded its use to solve other cha</description>
-      <guid isPermaLink="false">https://dev.to/anoushnet/user-connectivity-two-years-in-production-lessons-learned-and-new-patterns-3fpf</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fw956yvzss27amig3nkc2.png" length="0" type="image/png"/>
-      <pubDate>Wed, 24 Dec 2025 06:23:54 +0000</pubDate>
+      <title>GitHub Actions: From Zero to Production(EP1)🚀</title>
+      <link>https://dev.to/vishwark/github-actions-from-zero-to-production-kmb</link>
+      <description>Episode 1 – What is CI/CD &amp;amp; Why GitHub Actions Matter? When I started hearing terms like CI, CD, and GitHub Actions, everything felt abstract. Workflows, runners, jobs, secrets… too many buzzwords. This post is the first episode in a series where I break down GitHub Actions from absolute basics to real production pipelines, especially from a frontend developer’s perspective. Let’s start with the foundation. What is CI/CD (in simple terms)? 🔵 CI — Continuous Integration CI is about checking code</description>
+      <guid isPermaLink="false">https://dev.to/vishwark/github-actions-from-zero-to-production-kmb</guid>
+      <pubDate>Thu, 25 Dec 2025 06:15:33 +0000</pubDate>
     </item>
     <item>
-      <title>Dark vs Bright Website Design: The Real Difference (and How to Choose the Right One)</title>
-      <link>https://dev.to/per-starke-642/dark-vs-bright-website-design-the-real-difference-and-how-to-choose-the-right-one-5b5j</link>
-      <description>The dark background feels calm, your eyes relax, and every image seems to glow a little brighter. Now picture that same site in the middle of the day. Suddenly, a light background feels cleaner, easier to read, and perfectly suited for the sunlight spilling across your screen. That quiet contrast between dark and bright design is more than just an aesthetic choice. It changes how people feel, focus, and connect with a brand online. Choosing between them isn’t only about preference; it influences</description>
-      <guid isPermaLink="false">https://dev.to/per-starke-642/dark-vs-bright-website-design-the-real-difference-and-how-to-choose-the-right-one-5b5j</guid>
-      <pubDate>Wed, 24 Dec 2025 06:24:29 +0000</pubDate>
+      <title>System Builders Will Replace Tool Users: And That’s a Good Thing</title>
+      <link>https://dev.to/jaideepparashar/system-builders-will-replace-tool-users-and-thats-a-good-thing-4dj6</link>
+      <description>There’s a quiet divide forming in tech teams right now. On the surface, everyone appears productive. Tools are everywhere. Dashboards are full. Automation is running. But underneath, two very different mindsets are emerging. Some people are becoming exceptional tool users. Others are becoming system builders. Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution. Tools Were Designed to Be Used. Systems Were Designed to Scale. Tool users foc</description>
+      <guid isPermaLink="false">https://dev.to/jaideepparashar/system-builders-will-replace-tool-users-and-thats-a-good-thing-4dj6</guid>
+      <pubDate>Thu, 25 Dec 2025 06:20:54 +0000</pubDate>
     </item>
     <item>
-      <title>Stop Pushing Work Code with Your Personal Email: The Ultimate Guide to Multiple GitHub Accounts on Windows</title>
-      <link>https://dev.to/rahulkbharti/stop-pushing-work-code-with-your-personal-email-the-ultimate-guide-to-multiple-github-accounts-on-39bg</link>
-      <description>If you are like me, you probably have a personal GitHub account for your side projects and a separate professional account for your company. And if you’re working on a Windows machine using VS Code, you’ve likely hit the wall where Git doesn't know who you are. I recently spent hours struggling with this. I tried running Linux commands like eval $(ssh-agent -s) in PowerShell (which didn't work), got "Permission Denied" errors, and even accidentally pushed work code using my personal email. 🤦‍♂️</description>
-      <guid isPermaLink="false">https://dev.to/rahulkbharti/stop-pushing-work-code-with-your-personal-email-the-ultimate-guide-to-multiple-github-accounts-on-39bg</guid>
-      <pubDate>Wed, 24 Dec 2025 06:24:53 +0000</pubDate>
+      <title>Some people are becoming exceptional tool users. Others are becoming system builders.
+
+Over time, the second group will quietly replace the first, and that’s not a threat. It’s a natural evolution.</title>
+      <link>https://dev.to/jaideepparashar/some-people-are-becoming-exceptional-tool-users-others-are-becoming-system-builders-over-time-49cp</link>
+      <description>System Builders Will Replace Tool Users: And That’s a Good Thing Jaideep Parashar ・ Dec 25 #webdev #ai #developers #programming</description>
+      <guid isPermaLink="false">https://dev.to/jaideepparashar/some-people-are-becoming-exceptional-tool-users-others-are-becoming-system-builders-over-time-49cp</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3391551%2Fb884abd7-f906-4094-afe5-256359f658f3.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 25 Dec 2025 06:22:12 +0000</pubDate>
     </item>
     <item>
-      <title>The Proxy Paradox: Why Spring @Transactional Vanishes</title>
-      <link>https://dev.to/rajatarora/the-proxy-paradox-why-spring-transactional-vanishes-4758</link>
-      <description>We've all been there. You annotate @Transactional on a critical method in your Spring application, run mvn test, watch the green checkmarks fly by, and feel good about yourself. Everything's going swell innit? But then you open the transaction log and find... nothing. Where did your transaction go? No connection enlisted. No timeout. No rollback on error. The code did execute, but a transaction was not created. Congratulations, you've just met the Proxy Paradox. The coding equivalent to plugging</description>
-      <guid isPermaLink="false">https://dev.to/rajatarora/the-proxy-paradox-why-spring-transactional-vanishes-4758</guid>
-      <pubDate>Wed, 24 Dec 2025 06:30:02 +0000</pubDate>
+      <title>I Protocolli di Rete Essenziali da Capire</title>
+      <link>https://dev.to/scape/i-protocolli-di-rete-essenziali-da-capire-fmm</link>
+      <description>TL;DR HTTP/HTTPS: Il protocollo fondamentale per navigare sul web, con HTTPS che aggiunge un livello di sicurezza essenziale. WebSocket: Permette una comunicazione in tempo reale, essenziale per chat, giochi online e feed di dati dal vivo. TCP/UDP: I due protocolli di trasporto principali; TCP è affidabile e ordinato, mentre UDP è veloce e diretto. SMTP/FTP: I protocolli classici e specializzati per inviare email (SMTP) e trasferire file (FTP). 1. Le Fondamenta del Web: HTTP e la sua Evoluzione</description>
+      <guid isPermaLink="false">https://dev.to/scape/i-protocolli-di-rete-essenziali-da-capire-fmm</guid>
+      <pubDate>Thu, 25 Dec 2025 06:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,80 +8,84 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Dec 2025 06:40:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 25 Dec 2025 06:39:49 +0000</lastBuildDate>
     <item>
-      <title>實體營運管理平臺Motive申請IPO</title>
-      <link>https://www.ithome.com.tw/news/173004</link>
-      <description>新聞在2013年創立、以車隊管理軟體起家的Motive Technologies周二（12/23）在美國申請首次公開發行股票（Initial Public Offering，IPO），打算以MTVE為代號，登上紐約股市（NYSE）。 創立於舊金山的Motive原名Keep Truckin，以車隊管理及行車安全起家，服務對象涵蓋運輸/物流、建築、能源、製造、農業與公共部門；並從最初的車隊管理工具擴展為專注於實體營運（Physical Operation）的AI平臺，於單一系統上整合了車隊與設備管理、支出管理、人力管理、AI視覺，以及駕駛安全；協助企業統一管理人員、車輛、設備與相關支出，並以AI自動化關鍵營運流程。Motive的營收核心為服務訂閱。 根據Motive提交給美國證券交易委員會（SEC）的文件，該公司在2023年的營收為3.1億美元，2024年成長至3.7億美元，2025年的前9個月則是3.27億美元，成長21.7%；同一期間分別虧損了1.09億美元、1.53億美元，以及1.39億美元。 Motive的客戶涵蓋了美國油田服務公司Halliburton、芬蘭電梯/手扶梯設備供應商</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173004</guid>
-      <pubDate>Wed, 24 Dec 2025 03:08:08 +0000</pubDate>
+      <title>ChatGPT Atlas代理模式更新，引入對抗式訓練防提示詞注入攻擊</title>
+      <link>https://www.ithome.com.tw/news/173028</link>
+      <description>新聞OpenAI在ChatGPT Atlas的代理模式推出安全更新，替瀏覽器代理導入新的對抗式訓練模型檢查點，並強化周邊防護機制。OpenAI表示，更新主因是透過內部自動化紅隊演練發現一類新的提示詞注入攻擊手法，因此先行修補，以降低代理在執行使用者任務時被誤導的風險。 所謂代理模式，是讓系統在使用者瀏覽器中讀取網頁內容並代為點擊與輸入，也可能在處理郵件、文件或行事曆等工作流程中接觸到大量外部內容。OpenAI提醒，當代理能在登入狀態與既有工作脈絡下採取動作，攻擊者就可能把惡意指令混入郵件、附件、共享文件或一般網頁，誘使代理把不受信任的文字誤當成應遵循的指令，導致偏離使用者原本的要求。 OpenAI內部自動化紅隊演練發現一類新的提示詞注入攻擊手法，以OpenAI示範情境來說，攻擊者可先投放一封含惡意指令的郵件到收件匣，之後使用者請代理撰寫外出自動回覆時，代理在檢視未讀信件的過程中遭到誤導，反而寄出辭職信給使用者的主管或CEO，導致外出自動回覆沒有完成。也就是說，提示詞注入攻擊不必仰賴傳統網站漏洞，甚至不一定要透過釣魚引導使用者互動，也可能在日常工作流程中被觸發。 OpenAI表示已替At</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173028</guid>
+      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>工作流程自動化工具n8n存在近滿分重大漏洞，恐導致任意程式碼執行</title>
-      <link>https://www.ithome.com.tw/news/173006</link>
-      <description>新聞AI代理盛行，能將AI工具與日常工作流程整合，並在無須編寫程式碼的情況下，進行自動化的工具也趁勢而起，其中，工作流程自動化NPM套件n8n有許多用戶，而受到關注。n8n是開源工作流程自動化工具，使用者能透過拖曳節點的方式，將多種應用程式與服務（如Gmail、Slack、Notion、ChatGPT等）串接起來，無須撰寫程式碼就能建立自動化流程。此工具全球已有超過23萬名活躍使用者，臺灣社群累積逾1.3萬用戶，每週下載次數超過4.6萬，是2025年最受關注的新興自動化工具之一。 若是這類平臺存在弱點，攻擊者不僅有可能打亂或竄改流程，甚至有可能用來從事網路攻擊。12月19日n8n開發工程團隊發布公告，他們近期修補重大層級的遠端程式碼執行（RCE）漏洞CVE-2025-68613，此漏洞出現於工作流程的表達式評估系統，在執行情境裡若與底層執行環境未充分隔離，由通過身分驗證使用者提供的表達式，將有可能在工作流配置被評估。此時通過身分驗證的攻擊者有機會濫用上述現象，透過n8n處理程序的特殊權限執行任意程式碼，CVSS風險評為9.9分（滿分10分），他們已在一個月前發布的1.120.4、1.1</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173006</guid>
-      <pubDate>Wed, 24 Dec 2025 03:31:42 +0000</pubDate>
+      <title>駭客平臺抓取了Spotify將近100%的歌曲</title>
+      <link>https://www.ithome.com.tw/news/173044</link>
+      <description>新聞駭客平臺Anna's Archive上周末宣稱從串流服務業者Spotify抓走300TB檔案，幾乎是平臺上所有曲目。Spotify已證實此事。 Anna's Archive自稱是人類史上最大真正開放的資料庫。該平臺宣稱，早先，他們發現大規模抓取Spotify資料的管道，可讓他們建立音樂歸檔，目的是提供網友保存。他們一共備份了Spotify將近300TB的音樂檔案和metadata，並且提供torrents公開下載。 這些檔案包含2025年7月以前收錄平臺的2.56億首歌曲和音樂，以及1.86億條ISRC（國際標準錄音錄影資料代碼）。駭客宣稱釋出的資料占Spotify所有歌曲的99.9%，而其備份的8,600萬個音樂檔案，資料量達300TB，占比達99.6%。最受歡迎的10,000首歌曲已經以13.8MB的gzip檔格式釋出。駭客說，將分階段把Spotify資產，包括metadata、音樂檔案、其他檔案metadata、唱片專輯、及.xstdpatch檔（作為重建原始檔案之用）開放。 Spotify周一對媒體表示，這整件事是駭客使用了第三方單位建立的用戶帳號，而非「駭入Spotify</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173044</guid>
+      <pubDate>Thu, 25 Dec 2025 06:00:48 +0000</pubDate>
     </item>
     <item>
-      <title>MacSync Stealer偽裝合法App，成功通過macOS Gatekeeper防線</title>
-      <link>https://www.ithome.com.tw/news/173008</link>
-      <description>新聞鎖定macOS的資訊竊取型惡意程式MacSync Stealer，正悄悄改變其投放方式。資安業者Jamf近日揭露，最新觀察到的MacSync Stealer已不再依賴傳統的社交工程終端機指令，而是改以「已完成程式碼簽署與Apple公證」的Swift應用程式作為投放工具，成功通過macOS的Gatekeeper安全檢查。 MacSync Stealer至少自2023年起開始活動，主要目標是竊取使用者的瀏覽器帳密、系統資訊以及加密貨幣錢包資料。早期版本多半假冒通訊軟體或系統工具，誘騙使用者將檔案拖入終端機，或依指示貼上一段經過混淆的指令碼。這類手法雖然成功率不低，但行為本身相當可疑，也容易被防毒軟體或企業端點防護機制攔截。 然而，Jamf發現新版本的MacSync Stealer在投放策略上出現關鍵轉變。駭客改以Swift開發一個具備合法程式碼簽署，並通過蘋果軟體公證機制（Notarization）的Mac應用程式作為投放工具。該程式被包裝在磁碟映像檔中，外觀與一般合法App無異，使用者只要依照正常安裝流程雙擊執行，便可通過macOS的Gatekeeper安全機制，全程不需要任何終端機</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173008</guid>
-      <pubDate>Wed, 24 Dec 2025 03:56:21 +0000</pubDate>
+      <title>【二大應用面向，六項技術領域，全面擴展傳輸效能與容量】即將登場的新世代儲存技術</title>
+      <link>https://www.ithome.com.tw/tech/173035</link>
+      <description>＊傳輸頻寬以16 lane雙向頻寬為準 資料來源：iThome整理，2025年12月 一系列發軔於2025年的新興儲存技術與產品，即將在緊接而來的2026年發揮影響，進而形塑出嶄新的資料中心儲存基礎架構面貌。 這些近幾個月來陸續問世的新技術與產品，包括作為伺服器基礎I/O架構的PCIe介面，GPU互連傳輸架構，儲存區域網路，以及快閃記憶體與磁帶等六個技術與產品領域，涵蓋I/O傳輸技術與儲存媒體等兩大應用面向。 雖然個別技術與產品針對的應用情境各有不同，但共同的目的，不外乎提供更高的傳輸速度，以及更大的儲存空間。而促成這些技術與產品發展的驅動力量，是AI應用帶來的資料傳輸與儲存空間壓力。 在AI應用中，為了避免昂貴的GPU運算資源閒置，儲存設備必須以盡可能高的速度，將資料傳送給GPU處理，帶來低延遲、高頻寬I/O傳輸通道的需求。另一方面，為了保存資料量持續膨脹的AI應用資料集，也催生出新一代儲存媒體需求，必須在兼顧空間、能耗、成本等條件下，滿足更大儲存容量的要求。 接下來，我們便從I/O架構與儲存媒體這兩個應用面向出發，檢視這些關鍵新技術與新產品的概況。 新世代I/O與儲存媒體技術 在I</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173035</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-1-9601.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>FIDO在臺落地規模擴大，逾300個政府與企業系統支援，Passkey體驗成下一步關鍵</title>
-      <link>https://www.ithome.com.tw/news/172885</link>
-      <description>新聞隨著FIDO、Passkey技術應用升溫，為促進臺灣與國際間的技術交流，在12月初，FIDO聯盟與FIDO聯盟臺灣分會特別舉辦研討會，揭露最新成果，例如，Passkey在短短3年內，從無到有累積至約35至40億個活躍帳號，展現前所未見的採用速度，同時FIDO聯盟臺灣分會會長張心玲也公開臺灣的FIDO採用現況。 Passkey採用加速，金融與政府成為關鍵推力 針對Passkey的採用趨勢，FIDO聯盟執行長Andrew Shikiar表示，Passkey的普及速度，正反映全球身分驗證生態出現劇烈轉變，而在FDO（FIDO Device Onboard）與支付領域的應用面，同樣有著顯著的進展。 回顧過去，Passkey於2022年推出，一年之後，全球已有超過70億個帳號具備Passkey登入選項，隔年數字再次翻倍。在這段期間，FIDO聯盟也有一個重要的成果，推出Passkey Central的網站，協助企業與個人理解導入Passkey的價值，並提供在不同應用場景下的實作指引。 如今2025年，支援Passkey的服務數量已多到難以統計，因此他們現在更關注實際使用情況，他估計，目前約有3</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/172885</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%963%EF%BC%89FIDO%202025%E5%B9%B4%E5%BA%95%E6%9C%80%E6%96%B0%E9%80%B2%E5%B1%95_%E8%87%BA%E7%81%A3FIDO%E6%9C%83%E5%93%A1_%E6%94%9D%E5%BD%B1%E7%BE%85%E6%AD%A3%E6%BC%A2.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 24 Dec 2025 04:20:28 +0000</pubDate>
+      <title>【伺服器基礎I/O架構的進化】陸續問世的新世代PCIe介面</title>
+      <link>https://www.ithome.com.tw/tech/173036</link>
+      <description>圖片來源／Micron、Nvidia 自2003年迄今，PCIe一直扮演著伺服器核心I/O架構的角色，作為CPU與GPU、網路卡、SSD等周邊裝置之間的傳輸通道，幾乎所有周邊裝置或其他I/O介面，都是直接或間接透過PCIe的介接，來與運算核心連結。隨著CPU與周邊裝置速度的提高，PCIe也隨之持續進化，以便為處理器與周邊裝置提供更高的傳輸頻寬。 目前市場上的PCIe介面應用主流，仍是問世多年的PCIe 4.0與PCIe 5.0——規格分別於2017與2019年發布。不過新一代PCIe規格的應用與發展，近幾個月來終於出現重要進展，第一批PCIe 6.0規格的周邊產品正式上市，而PCIe 7.0與PCIe 8.0的規格制定工作，也有具體的成果。 PCIe 6.0開始進入產品化 相較於過去幾個PCIe世代，PCIe 6.0的產品化腳步顯得格外緩慢。 PCIe 4.0與PCIe 5.0都是在規格發布1、2年內，就誕生第一批應用新介面的SSD與周邊產品，反觀PCIe 6.0在2022年初發布規格後，經過三年多的發展，仍只停留在開發測試用設備，以及交換器晶片、中介片（Interposer）等元件層</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173036</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-2-960.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>永豐金控揭露多AI代理戰略布局，關鍵是Agent宇宙藍圖和五大基礎建設</title>
-      <link>https://www.ithome.com.tw/news/173012</link>
-      <description>新聞永豐金控很早就投入先進AI技術研發，2017年就導入Nvidia DGX-1超級電腦，這是臺灣金融業的第一臺深度學習超級電腦，用於永豐和成大AI產學合作。AI研發成果豐碩，像是永豐金控科技長張天豪就是產學合作教授之一，近年更接連在全球AI頂級會議上發表論文，如2023年ICML、2024年NeurIPS等，與科技巨頭並列發表研發成果。 投入AI研發多年，永豐金控終於在日前舉辦了科技年會，對外揭露成果。張天豪更揭露了永豐金控的AI未來發展藍圖。 張天豪在2020年進入永豐擔任科技長，花了兩年時間，透過十多項重點試行專案，與業務單位建立合作的默契。尤其是2022年下半年的顧客基因專案，對精準行銷帶來的成效，讓業務單位信任技術團隊的落地能力。 顧客基因專案包括了400多個模型組合而成的模型群，可以從顧客表現出來的資料，例如顧客交易紀錄、資產總覽與數位足跡等，萃取出顧客真實的意圖，例如資金需求、投資偏好等。可以用於不同的應用，從產品偏好的行銷、個人化理財建議的服務，到強化交易安全的風險控管等。 2022～2025年瞄準四大領域，擴大AI應用廣度與深度 有了顧客基因等專案打下的信任基礎，永豐</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173012</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/big-%E6%B0%B8%E8%B1%90%E9%87%91%E6%8E%A7Agent%E5%AE%87%E5%AE%99-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E6%B0%B8%E8%B1%90%E9%87%91%E6%8E%A7.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 24 Dec 2025 04:49:29 +0000</pubDate>
+      <title>【提高傳輸頻寬與多機櫃連接能力】新版CXL記憶體互連技術擴展效能與彈性</title>
+      <link>https://www.ithome.com.tw/tech/173038</link>
+      <description>圖片來源／CXL Consortium 以打破跨裝置記憶體資源運用藩籬，從而改善伺服器記憶體效能與擴充瓶頸為訴求的CXL（Compute Express Link）技術，日前又有新發展。 CXL聯盟於不久前的2025年11月底，發表新的CXL 4.0版規格，引進基於PCIe 7.0的新底層，結合多項新功能，擴展傳輸頻寬與連接能力。 自從2022年8月發布CXL 3.0以來，CXL聯盟大致是以每年一次的周期，持續更新CXL規格。 先是在2023年11月推出的CXL 3.1，接著是2024年12月發布的CXL 3.2，然後便是日前推出的CXL 4.0。 每次CXL規格更新，各有不同的側重點，例如，CXL 3.1重點放在底層網路連接架構的改進，以便能建構規模更大的CXL應用環境，CXL 3.2的重點則是提高監控管理與安全性。 至於新推出的CXL 4.0，更新重點則圍繞著提高傳輸頻寬，與裝置、主機之間的連接能力（Connectivity）。 CXL 4.0的新功能 CXL 4.0對於傳輸頻寬與連接能力的強化，是建立在底層實體傳輸通道，以及一系列新軟體功能上。 CXL的實體傳輸通道是嫁接在PCI</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173038</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-3-tu_pian_lai_yuan_-cxl_consortium1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>微軟釋出硬體加速的BitLocker 減少拖慢PC效能、強化安全性</title>
-      <link>https://www.ithome.com.tw/news/173014</link>
-      <description>新聞微軟本周宣布推出硬體加速的BitLocker，取代CPU加速，以提升Windows 11機器的運作效能，並減少金鑰曝露風險。新功能已於9月加入Windows 11 24H2/25H2，並計畫藉由新一代CPU/SoC普及到次世代PC。 微軟說明，過去BitLocker的效能損耗大多只有個位數百分比，幾乎感覺不到，這是因為傳統SSD I/O本來就慢。但隨著更高速I/O的非揮發記憶體Express（NVMe）磁碟快速普及，但使得BitLocker運作對PC效能影響變得更顯著。在現有搭載NVMe的Windows PC上，需要高I/O及高資料吞吐量的應用使用者，如處理大型影片檔的專業工作者、組譯大型程式庫的開發人員、或是對延遲性錙銖必較的遊戲玩家兼顧資料安全及速度，BitLocker造成的效能或CPU耗用會變得更難以忍受。 為平衡高效能和安全性，微軟在上個月的Ignite大會上推出硬體加速的BitLocker（Hardware-Accelerated BitLock）。微軟強調，最新一代BitLocker並不只是小改小修，而是加入了真正新的架構性功能。 微軟說明，新BitLocker有兩項重</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173014</guid>
-      <pubDate>Wed, 24 Dec 2025 05:46:09 +0000</pubDate>
+      <title>【為GPU加速器打造開放的高效能I/O通道】UALink：GPU互連傳輸架構新標準</title>
+      <link>https://www.ithome.com.tw/tech/173039</link>
+      <description>資料來源：iThome整理，2025年12月 歷經大約1年的規格制定工作後，由多家晶片、網通與雲端服務大廠組成的UALink聯盟，於2025年4月發表UALink（Ultra Accelerator Link）1.0版規範，讓這項討論已久的開放式加速器晶片互連I/O架構，終於正式問世。 UALink聯盟成立於去年5月，成員包括AMD與Intel兩大晶片廠商，加上Broadcom、Cisco兩大網通廠商，還有Google、HPE、Meta與微軟等雲端大廠，阿里雲、蘋果與Synopsys也於2025年1月加入，理事會加上貢獻者成員超過65家（但Broadcom已退出UALink理事會，降為一般貢獻者成員）。聯盟的宗旨是建立一個開放的GPU加速器互連I/O規範，為AI伺服器與叢集中的加速器，提供高速、低延遲的I/O連結架構，以對抗Nvidia的NVLink技術。 Nvidia當前在GPU加速器市場上的「霸業」，不僅是建立在GPU本身，還包括完整的周邊應用架構，NVLink便是維繫Nvidia「霸業」的「護城河」之一，Nvidia可以透過這套專屬的高速I/O架構，讓大量GPU彼此互連，建構出超</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173039</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-4-960.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>微軟要在2030年前淘汰所有C/C++程式碼？研究主管緊急澄清「只是研究專案」</title>
-      <link>https://www.ithome.com.tw/news/173015</link>
-      <description>新聞微軟CoreAI體系的傑出工程師Galen Hunt上周透過LinkedIn徵才，企圖招募一位首席軟體工程師，於2030年之前淘汰微軟內部所有的C與C++程式碼，以Rust重寫微軟最大規模的程式碼庫。消息一出，不少媒體直接把它當成微軟政策，使得Hunt緊急澄清，這只是一項研究專案，Windows並未啟動任何以AI將系統程式碼改寫為Rust的計畫。 C與C++誕生於1970至1980年代，是作業系統與高效能軟體的核心語言，至今仍支撐Windows等大型系統。但它們仰賴人工管理記憶體，長期成為資安漏洞與維運風險來源。在累積數十年的巨型程式碼庫中，修改成本與風險不斷放大。隨著資安要求提升與AI自動重構興起，缺乏語言層安全機制的C與C++，逐漸被視為不利於未來長期維運的基礎。 Hunt說，該專案的目標是在2030年前，淘汰微軟的每一行C及C++程式碼，採用的策略是結合AI與演算法來重寫微軟最大的程式碼庫，終極目標是「一名工程師在1個月內重寫100萬行程式碼」。 為了完成該任務，Hunt團隊已打造一套程式碼處理系統，先用演算法將程式碼轉換成關係圖，標示各段程式碼之間的依賴關係，AI代理程式再</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173015</guid>
-      <pubDate>Wed, 24 Dec 2025 05:55:16 +0000</pubDate>
+      <title>【AI熱潮推動嶄新快閃記憶體產品型態誕生】高頻寬快閃記憶體的興起</title>
+      <link>https://www.ithome.com.tw/tech/173040</link>
+      <description>圖片來源／Kioxia 正由SanDisk、鎧俠（Kioxia）等廠商發展中的高頻寬快閃記憶體（High Bandwidth Flash，HBF），是快閃記憶體產品中，全新的類型，目的是藉由大幅提高傳輸頻寬的NAND快閃記憶體，在不同AI應用情境中取代或輔助DRAM記憶體，從而以較低的成本，顯著擴展運算裝置的可用記憶體容量。 雖然應用概念相似，但SanDisk與鎧俠採取的技術路線，以及應用情境都有所不同。 SanDisk的高頻寬快閃記憶體 我們在2025年9月的封面故事《LLM重塑大型系統記憶體應用》當中，已經初步介紹過SanDisk的HBF基本概念，目的是做為當前GPU的HBM高頻寬記憶體替代品，用於擴展AI推論的可用記憶體容量。 為了提高快閃記憶體的傳輸頻寬，SanDisk將快閃記憶體儲存單元組成多個較小型的陣列，然後為每個小型陣列各自配置獨立I/O通道，比起數萬個儲存單元組成大型陣列、並共用單一I/O通道的傳統架構，可大幅提高快閃記憶體整體的I/O頻寬。 而在實體架構上，HBF則是HBM的翻版，只是將垂直堆疊的DRAM晶片換成快閃記憶體。SanDisk將16層垂直堆疊的3D NA</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173040</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-5-960.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>內建48或72 GB記憶體，輝達中高階Blackwell工作站GPU登場</title>
-      <link>https://www.ithome.com.tw/review/172971</link>
-      <description>繼2025年上半推出RTX Pro 6000 Blackwell多款頂級GPU加速卡，Nvidia在8月發表入門級RTX Pro 4000 SFF Edition與RTX Pro 2000 Blackwell，到了12月宣布中高階產品RTX Pro 5000 Blackwell上市，可加速各種應用，舉凡AI的開發、大型語言模型推論、生成式AI工作流程，以及高度擬真的模擬、影片製作，以及繁複的3D建模，可均透過桌上型工作站電腦實現。目前這款GPU加速卡透過Ingram Micro、麗臺科技、Unisplendour、xFusion等公司供應，2026年初將經由多家全球系統整合商擴大市場供貨規模。 依照Nvidia原本的規畫，這款GPU與最新推出的Blackwell工作站GPU產品RTX Pro 6000 Blackwell Workstation Edition、RTX Pro 6000 Blackwell Max-Q Edition一樣，同屬代號GB202的GPU平臺，都支援Nvidia特有的GPU硬體分割技術：多執行個體GPU（MIG），不僅搭配較少量的CUDA核心（14,080個v</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/172971</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/nvidia_rtx_pro_5000_blackwell_main.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 24 Dec 2025 05:55:43 +0000</pubDate>
+      <title>【光纖通道儲存區域網路初步進入128Gb世代】第8代光纖通道產品問世</title>
+      <link>https://www.ithome.com.tw/tech/173041</link>
+      <description>圖片來源／Broadcom 等待兩年，首批支援128Gb第8代光纖通道（Fibre Channel，FC）的產品終於宣布上市，對於FC儲存區域網路應用而言，也象徵從現有的32 Gb、64 Gb規格，邁向128 Gb規格的升級道路。 其實早在第6代的32 Gb FC規格中，就提供聚合4條32 Gb通道（lane）的128 Gb傳輸規格，不過，當前的第8代FC，則是提供單通道128 Gb的傳輸能力，可以更低的成本實現128 Gb頻寬。 儘管128 Gb FC可算是FC介面發展的里程碑，使FC介面真正突破100 Gb/s頻寬大關。然而，乙太網路的迅速進步，已大幅侵蝕FC介面在儲存區域網路應用版圖。憑藉迅速增長的頻寬，乙太網路不僅逐漸抵銷FC原有的效能優勢，還突顯部署與管理優勢。不同於FC這種儲存區域網的專屬介面，乙太網路能同時兼用於儲存區域網路（SAN）與一般區域網路（LAN），部署與管理都更便利。 儘管如此，憑藉過去30多年應用累積的基礎，FC介面迄今仍擁有相當龐大的用戶群，依負責推廣FC應用的FCIA協會資料，直到2023年，全球部署使用中的FC埠超過3,500萬個，市場規模達500億美</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173041</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-6-960.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google在臺解析Passkey技術新進展，展示Credential Manager最新強化功能，降低開發者導入門檻</title>
-      <link>https://www.ithome.com.tw/news/173007</link>
-      <description>新聞在12月初舉行的FIDO Taipei Seminar 2025研討會上，FIDO聯盟在臺公布Passkey最新成果，同時指出現階段仍有3大關鍵課題需持續突破。特別的是，現場亦有Google專家解析其Credential Manager的研發成果與最新進展，協助開發者與企業精準掌握實務發展方向。 對於如何持續優化Passkey的使用者體驗、朝向整體安全設計？持續是開發者與企業在身分驗證設計上的共同關注焦點。在這場研討會中的一場演說中，Google開發人員倡議者Eiji Kitamura，以及Google資深開發者關係工程師暨FIDO印度工作小組主席Niharika Arora，兩人談及Google在這方面的最新發展與規畫。我們整理為以下三個重點： 重點一：推出整合Passkey的Credential Manager 這是一套2023年推出的全新API，將密碼登入、聯盟登入等既有驗證方式與Passkeys整合到統一的登入介面，為Android開發者提供單一API介接方式。而且，相關憑證也可透過Google Password Manager等機制在使用者裝置間同步，帶來更好的跨裝置體驗</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173007</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%96X%EF%BC%89FIDO%202025%E6%9C%80%E6%96%B0%E9%80%B2%E5%B1%95_Credential%20Manager_%E6%94%9D%E5%BD%B1%E7%BE%85%E6%AD%A3%E6%BC%A2.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 24 Dec 2025 06:01:05 +0000</pubDate>
+      <title>【擴大容量因應長期資料保存需求】LTO-10磁帶重新出發</title>
+      <link>https://www.ithome.com.tw/tech/173042</link>
+      <description>圖片來源／LTO Consortium 憑藉久經驗證與單位成本低的優勢，磁帶仍是長期靜態資料保存、歸檔儲存應用的首選儲存媒體。而LTO則是當前磁帶應用的主流規格，目前已發展到今年年中發表的第10代LTO-10。 我們在2025年7月才剛介紹過新推出的LTO-10，這一代規格發表時曾引起一些爭議，首先，規格提升幅度不如預期，傳輸效能較上一代未有進步，每卷磁帶匣容量只從LTO-9的18TB提高到30TB而已。其次，不具備向下相容性。 出人意料的是，不到半年時間後，LTO聯盟在11月中旬時，發表了容量提高到40 TB的新款LTO-10磁帶匣，較先前版本LTO-10磁帶匣提升1/3容量。 新款LTO-10磁帶匣得以提高容量的原因，在於採用基於芳綸（Aramid-based）的磁帶膜基材，這是一種高強度人造纖維，普遍應用於防彈背心製造。比起LTO-10原本使用的聚萘二甲酸乙二醇酯（PEN）磁帶膜基材，芳綸製磁帶膜更薄、更光滑，可在標準磁帶匣內容納更長的磁帶，從而獲得更大容量。 預計40TB版LTO-10磁帶匣將於2026年初上市，相容於既有LTO-10磁帶機，屆時用戶可視需要選用30或40TB磁</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173042</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-7-960.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Rust使用者研究解析高黏著關鍵，但Async與生態碎片化成門檻</title>
-      <link>https://www.ithome.com.tw/news/173013</link>
-      <description>新聞Rust語言核心貢獻者Niko Matsakis代表願景文件小組，發表一篇使用者訪談資料整理，該研究試圖回答Rust為何自2015年1.0版以來，長期在Stack Overflow開發者調查中被視為最受喜愛的語言之一，也同時整理新手導入Rust時常遇到的卡關點。 Rust最常被提到的優點是可靠性，多位工程師描述，只要Rust程式能編譯通過，通常就能順利執行的踏實感，讓人更敢重構與交付，也降低在重要系統中因人為疏忽導致的風險。而該優點不只對資深工程師有價值，對帶領團隊的人同樣重要，因為語言的規範與檢查機制形成護欄，讓較缺乏經驗的成員也能較安心地參與重要模組。 效率與低階掌控也是反覆被提及的優點，研究提到，受訪者從資料中心到嵌入式系統都在意資源成本與效能，並分享把既有元件改寫為Rust後，在特定情境出現數倍到數十倍的提升，甚至也有案例提到上百倍的加速。另一個常被提到的面向是工具鏈帶來的支援性，受訪者多次提到Cargo把套件管理、建置與測試流程整合在一起，搭配Clippy等靜態檢查工具，以及編譯器清楚的錯誤訊息與建議，能大幅縮短摸索時間。 研究強調，讓開發者離不開Rust並非單一優點，而</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173013</guid>
-      <pubDate>Wed, 24 Dec 2025 06:07:44 +0000</pubDate>
+      <title>新世代儲存2026展望</title>
+      <link>https://www.ithome.com.tw/article/173043</link>
+      <description>專題故事有鑑於AI對資料傳輸速度與儲存空間的龐大需求，2025這一年來，從伺服器基礎傳輸架構，到GPU互連傳輸技術，還有針對LLM應用的記憶體，以及長期資料保存儲存媒體，都有一系列關鍵新技術發展，可望在2026年逐一發酵，進而改變企業IT的儲存架構樣貌。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/article/173043</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1266-feng_mian_p1-ming_de_-open-960x420_kao_bei_0.jpg?itok=2t6ggRc5" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
