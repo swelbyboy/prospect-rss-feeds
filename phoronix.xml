@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Dec 2025 06:37:33 +0000</lastBuildDate>
-    <item>
-      <title>Linux's sched_ext Has Plans For GPU Awareness, Energy-Aware Abstractions</title>
-      <link>https://www.phoronix.com/news/sched-ext-future-plans-2026</link>
-      <description>Sched_ext as the extensible scheduler code for the Linux kernel that allows loading schedulers from user-space via eBPF code has shown a lot of interesting possibilities. Andrea Righi of NVIDIA who has been heavily involved in sched_ext development shared some of the future plans being looked at as we move into 2026...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/sched-ext-future-plans-2026</guid>
-      <pubDate>Wed, 24 Dec 2025 01:16:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>KVM Guest VMs Using Intel AMX Can Cause The Linux Host To Kernel Panic</title>
-      <link>https://www.phoronix.com/news/KVM-Guests-AMX-Host-Panic</link>
-      <description>An unfortunate Linux kernel bug coming to light just ahead of Christmas may cause frustration for some server administrators, particularly public cloud providers... It turns out with the Linux kernel releases since 2022, KVM guest virtual machines making use of Intel Advanced Matrix Extensions (AMX) is possible to cause the host to experience a kernel panic...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/KVM-Guests-AMX-Host-Panic</guid>
-      <pubDate>Wed, 24 Dec 2025 01:35:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>Page Cache Sharing Looks To Be Very Beneficial For EROFS Containers</title>
-      <link>https://www.phoronix.com/news/EROFS-Page-Cache-Sharing</link>
-      <description>One of the features being worked on for a while with the read-only EROFS file-system is page cache sharing. Besides EROFS being popular on some mobile/embedded devices, this open-source read-only file-system has been quite popular for container usage and there this page cache sharing functionality can provide some significant reductions in RAM usage...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/EROFS-Page-Cache-Sharing</guid>
-      <pubDate>Wed, 24 Dec 2025 10:45:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qualcomm's Xqci RISC-V Extension Now Deemed Non-Experimental For LLVM 22</title>
-      <link>https://www.phoronix.com/news/Qualcomm-Xqci-LLVM-Stable</link>
-      <description>In LLVM Git yesterday for next year's LLVM 22 release the Qualcomm Xqci RISC-V vendor extension is no longer deemed experimental...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Qualcomm-Xqci-LLVM-Stable</guid>
-      <pubDate>Wed, 24 Dec 2025 10:58:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 6.20~7.0 To Bring Prep Changes For CXL Soft Reserve Recovery &amp;amp; Accelerator Memory</title>
-      <link>https://www.phoronix.com/news/Linux-6.20-7.0-CXL-Init-Prep</link>
-      <description>The next kernel cycle that will be known as either Linux 6.20 or Linux 7.0 depending upon how Linus Torvalds handles the versioning for this next x.20 milestone. More than likely it will be Linux 7.0 given his historical versioning scheme, but whatever the case, ahead of this next kernel cycle some initialization changes for the CXL subsystem are building up...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.20-7.0-CXL-Init-Prep</guid>
-      <pubDate>Wed, 24 Dec 2025 11:22:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Recap Of The Top AMD Linux News Of 2025: Strix Halo, AI, Kernel Improvements</title>
-      <link>https://www.phoronix.com/news/AMD-Linux-News-2025</link>
-      <description>As part of our various "year end" articles, here is a look back at the most popular AMD Linux/open-source news and hardware reviews of 2025...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-Linux-News-2025</guid>
-      <pubDate>Wed, 24 Dec 2025 11:38:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wayback 0.3 Released For Advancing This X11 Compatibility Layer</title>
-      <link>https://www.phoronix.com/news/Wayback-0.3</link>
-      <description>One of the interesting open-source projects to come about this year was Wayback as an X11 compatibility layer using Wayland. Wayback could be used by default on Alpine Linux next year among other distributions. For ending out 2025 development, Wayback 0.3 is now available...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Wayback-0.3</guid>
-      <pubDate>Wed, 24 Dec 2025 13:50:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>Snapdragon X Elite Laptop Performance On Linux Ends 2025 Disappointing</title>
-      <link>https://www.phoronix.com/review/snapdragon-x-elite-linux-eoy2025</link>
-      <description>As part of my various end-of-year benchmarking comparison articles for looking at the performance evolution of Linux is a fresh look at the Qualcomm Snapdragon X Elite laptop experience when using Ubuntu 25.10 with the latest X1E Concept packages, which includes taking the X1 Elite optimized kernel to the latest Linux 6.18 stable series. Unfortunately, there are significant performance regressions observed compared to a few months ago that just make AMD Ryzen AI and Intel Core Ultra laptops a be</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/snapdragon-x-elite-linux-eoy2025</guid>
-      <pubDate>Wed, 24 Dec 2025 16:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>QEMU 10.2 Released With IO_uring Support For Helping Allow For Greater Performance</title>
-      <link>https://www.phoronix.com/news/QEMU-10.2-Released</link>
-      <description>As a wonderful gift to open-source Linux virtualization users this Christmas Eve is the release of the QEMU 10.2 emulator...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/QEMU-10.2-Released</guid>
-      <pubDate>Wed, 24 Dec 2025 19:08:01 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 26 Dec 2025 06:36:59 +0000</lastBuildDate>
     <item>
       <title>Libreboot 26.01-rc1 Released To Support A Few More Systems</title>
       <link>https://www.phoronix.com/news/Libreboot-26.01-rc1</link>
       <description>Libreboot as the Coreboot downstream focused on free, open-source boot firmware is out with a new test release for Christmas...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Libreboot-26.01-rc1</guid>
       <pubDate>Thu, 25 Dec 2025 01:40:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ruby 4.0 Released With Ruby Box Experimental Feature, ZJIT Compiler</title>
+      <link>https://www.phoronix.com/news/Ruby-4.0-Released</link>
+      <description>The past several years we have seen new releases of the Ruby programming language implementation for Christmas (25 December). This year is no different with Ruby 4.0 having been released this morning...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ruby-4.0-Released</guid>
+      <pubDate>Thu, 25 Dec 2025 10:38:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mobileye Eyeq6Lplus SoC Support Being Worked On For Mainline Linux Kernel</title>
+      <link>https://www.phoronix.com/news/Mobileye-Eyeq6Lplus-SoC-Linux</link>
+      <description>The mainline Linux kernel already supports several different Mobileye SoCs for that company focused on self-driving tech and advanced driver assistance systems (ADAS). Consulting firm Bootlin has been working on bringing their latest SoC, the Mobileye Eyeq6Lplus, to the mainline Linux kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mobileye-Eyeq6Lplus-SoC-Linux</guid>
+      <pubDate>Thu, 25 Dec 2025 11:05:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Looks To Upstream Its Propeller Tool To LLVM For More Performance</title>
+      <link>https://www.phoronix.com/news/Google-Wants-Up-LLVM-Propeller</link>
+      <description>Google's Propeller is a profile-guided, reflinking optimizer for large codebases. Propeller is built atop LLVM and can allow for whole-program optimizations. Google compiler engineers are now hoping to bring the Propeller tool into the upstream LLVM codebase...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Google-Wants-Up-LLVM-Propeller</guid>
+      <pubDate>Thu, 25 Dec 2025 11:23:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Death Of Clear Linux, Other Intel Linux Engineering Setbacks In 2025</title>
+      <link>https://www.phoronix.com/news/Intel-Linux-News-2025</link>
+      <description>When it came to the most viewed AMD Linux/open-source news of 2025 there were a lot of accomplishments for the company this year both on the CPU and graphics side of the house and from consumer to server hardware. Today is a look back at the most popular Intel open-source/Linux news of the year, which unfortunately, their layoffs and other cuts to their software engineering were attracting a lot of interest...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Linux-News-2025</guid>
+      <pubDate>Thu, 25 Dec 2025 11:37:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Phoenix: A New X Server Written From Scratch With Zig</title>
+      <link>https://www.phoronix.com/news/Phoenix-X-Server</link>
+      <description>For X11/X.Org fans there is a new Christmas surprise: Phoenix as an in-development X Server written from scratch using the Zig programming language...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Phoenix-X-Server</guid>
+      <pubDate>Thu, 25 Dec 2025 14:45:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fix On The Way For One Of The Linux 6.19 Regressions: 52.4% Scheduler Regression</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-sched-core-52p</link>
+      <description>The Linux 6.19 kernel has been a bit bumpy in the scheduler department but at least one fix is on the way for addressing fallout...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-sched-core-52p</guid>
+      <pubDate>Thu, 25 Dec 2025 14:52:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Final Benchmarks Of AMDVLK vs. RADV AMD Radeon Vulkan Drivers</title>
+      <link>https://www.phoronix.com/review/radeon-radv-amdvlk-final</link>
+      <description>One of the pleasant surprises this year was AMD ending the AMDVLK driver development with AMD dropping their proprietary OpenGL and Vulkan driver components on Linux at long last for their Radeon Software for Linux packages. This was arguably long overdue with enthusiasts and Linux gamers long preferring the RadeonSI+RADV Mesa drivers and those drivers even doing very well in recent years for workstation graphics workloads. One of the areas where AMDVLK formerly delivered better performance than</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/radeon-radv-amdvlk-final</guid>
+      <pubDate>Thu, 25 Dec 2025 15:30:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA CUDA Tile IR Open-Sourced</title>
+      <link>https://www.phoronix.com/news/NVIDIA-CUDA-Tile-IR-Open-Source</link>
+      <description>As a wonderful Christmas gift to open-source fans, NVIDIA dropped their proprietary license on the CUDA Tile intermediate representation and has now made the IR open-source software...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-CUDA-Tile-IR-Open-Source</guid>
+      <pubDate>Thu, 25 Dec 2025 20:23:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Arch Linux Powered CachyOS To Develop A Server Edition</title>
+      <link>https://www.phoronix.com/news/CachyOS-Server-Edition-Coming</link>
+      <description>The Arch Linux based CachyOS has been quite popular with Linux gamers and enthusiasts for offering leading out-of-the-box performance, especially following the shutdown of Intel's Clear Linux. CachyOS has developed quite a following on the Linux desktop while looking ahead to 2026 they will be working on a server edition...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/CachyOS-Server-Edition-Coming</guid>
+      <pubDate>Thu, 25 Dec 2025 20:44:48 +0000</pubDate>
     </item>
   </channel>
 </rss>
