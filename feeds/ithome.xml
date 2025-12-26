@@ -8,77 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Dec 2025 06:39:49 +0000</lastBuildDate>
-    <item>
-      <title>ChatGPT Atlas代理模式更新，引入對抗式訓練防提示詞注入攻擊</title>
-      <link>https://www.ithome.com.tw/news/173028</link>
-      <description>新聞OpenAI在ChatGPT Atlas的代理模式推出安全更新，替瀏覽器代理導入新的對抗式訓練模型檢查點，並強化周邊防護機制。OpenAI表示，更新主因是透過內部自動化紅隊演練發現一類新的提示詞注入攻擊手法，因此先行修補，以降低代理在執行使用者任務時被誤導的風險。 所謂代理模式，是讓系統在使用者瀏覽器中讀取網頁內容並代為點擊與輸入，也可能在處理郵件、文件或行事曆等工作流程中接觸到大量外部內容。OpenAI提醒，當代理能在登入狀態與既有工作脈絡下採取動作，攻擊者就可能把惡意指令混入郵件、附件、共享文件或一般網頁，誘使代理把不受信任的文字誤當成應遵循的指令，導致偏離使用者原本的要求。 OpenAI內部自動化紅隊演練發現一類新的提示詞注入攻擊手法，以OpenAI示範情境來說，攻擊者可先投放一封含惡意指令的郵件到收件匣，之後使用者請代理撰寫外出自動回覆時，代理在檢視未讀信件的過程中遭到誤導，反而寄出辭職信給使用者的主管或CEO，導致外出自動回覆沒有完成。也就是說，提示詞注入攻擊不必仰賴傳統網站漏洞，甚至不一定要透過釣魚引導使用者互動，也可能在日常工作流程中被觸發。 OpenAI表示已替At</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173028</guid>
-      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>駭客平臺抓取了Spotify將近100%的歌曲</title>
-      <link>https://www.ithome.com.tw/news/173044</link>
-      <description>新聞駭客平臺Anna's Archive上周末宣稱從串流服務業者Spotify抓走300TB檔案，幾乎是平臺上所有曲目。Spotify已證實此事。 Anna's Archive自稱是人類史上最大真正開放的資料庫。該平臺宣稱，早先，他們發現大規模抓取Spotify資料的管道，可讓他們建立音樂歸檔，目的是提供網友保存。他們一共備份了Spotify將近300TB的音樂檔案和metadata，並且提供torrents公開下載。 這些檔案包含2025年7月以前收錄平臺的2.56億首歌曲和音樂，以及1.86億條ISRC（國際標準錄音錄影資料代碼）。駭客宣稱釋出的資料占Spotify所有歌曲的99.9%，而其備份的8,600萬個音樂檔案，資料量達300TB，占比達99.6%。最受歡迎的10,000首歌曲已經以13.8MB的gzip檔格式釋出。駭客說，將分階段把Spotify資產，包括metadata、音樂檔案、其他檔案metadata、唱片專輯、及.xstdpatch檔（作為重建原始檔案之用）開放。 Spotify周一對媒體表示，這整件事是駭客使用了第三方單位建立的用戶帳號，而非「駭入Spotify</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173044</guid>
-      <pubDate>Thu, 25 Dec 2025 06:00:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>【二大應用面向，六項技術領域，全面擴展傳輸效能與容量】即將登場的新世代儲存技術</title>
-      <link>https://www.ithome.com.tw/tech/173035</link>
-      <description>＊傳輸頻寬以16 lane雙向頻寬為準 資料來源：iThome整理，2025年12月 一系列發軔於2025年的新興儲存技術與產品，即將在緊接而來的2026年發揮影響，進而形塑出嶄新的資料中心儲存基礎架構面貌。 這些近幾個月來陸續問世的新技術與產品，包括作為伺服器基礎I/O架構的PCIe介面，GPU互連傳輸架構，儲存區域網路，以及快閃記憶體與磁帶等六個技術與產品領域，涵蓋I/O傳輸技術與儲存媒體等兩大應用面向。 雖然個別技術與產品針對的應用情境各有不同，但共同的目的，不外乎提供更高的傳輸速度，以及更大的儲存空間。而促成這些技術與產品發展的驅動力量，是AI應用帶來的資料傳輸與儲存空間壓力。 在AI應用中，為了避免昂貴的GPU運算資源閒置，儲存設備必須以盡可能高的速度，將資料傳送給GPU處理，帶來低延遲、高頻寬I/O傳輸通道的需求。另一方面，為了保存資料量持續膨脹的AI應用資料集，也催生出新一代儲存媒體需求，必須在兼顧空間、能耗、成本等條件下，滿足更大儲存容量的要求。 接下來，我們便從I/O架構與儲存媒體這兩個應用面向出發，檢視這些關鍵新技術與新產品的概況。 新世代I/O與儲存媒體技術 在I</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173035</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-1-9601.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>【伺服器基礎I/O架構的進化】陸續問世的新世代PCIe介面</title>
-      <link>https://www.ithome.com.tw/tech/173036</link>
-      <description>圖片來源／Micron、Nvidia 自2003年迄今，PCIe一直扮演著伺服器核心I/O架構的角色，作為CPU與GPU、網路卡、SSD等周邊裝置之間的傳輸通道，幾乎所有周邊裝置或其他I/O介面，都是直接或間接透過PCIe的介接，來與運算核心連結。隨著CPU與周邊裝置速度的提高，PCIe也隨之持續進化，以便為處理器與周邊裝置提供更高的傳輸頻寬。 目前市場上的PCIe介面應用主流，仍是問世多年的PCIe 4.0與PCIe 5.0——規格分別於2017與2019年發布。不過新一代PCIe規格的應用與發展，近幾個月來終於出現重要進展，第一批PCIe 6.0規格的周邊產品正式上市，而PCIe 7.0與PCIe 8.0的規格制定工作，也有具體的成果。 PCIe 6.0開始進入產品化 相較於過去幾個PCIe世代，PCIe 6.0的產品化腳步顯得格外緩慢。 PCIe 4.0與PCIe 5.0都是在規格發布1、2年內，就誕生第一批應用新介面的SSD與周邊產品，反觀PCIe 6.0在2022年初發布規格後，經過三年多的發展，仍只停留在開發測試用設備，以及交換器晶片、中介片（Interposer）等元件層</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173036</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-2-960.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>【提高傳輸頻寬與多機櫃連接能力】新版CXL記憶體互連技術擴展效能與彈性</title>
-      <link>https://www.ithome.com.tw/tech/173038</link>
-      <description>圖片來源／CXL Consortium 以打破跨裝置記憶體資源運用藩籬，從而改善伺服器記憶體效能與擴充瓶頸為訴求的CXL（Compute Express Link）技術，日前又有新發展。 CXL聯盟於不久前的2025年11月底，發表新的CXL 4.0版規格，引進基於PCIe 7.0的新底層，結合多項新功能，擴展傳輸頻寬與連接能力。 自從2022年8月發布CXL 3.0以來，CXL聯盟大致是以每年一次的周期，持續更新CXL規格。 先是在2023年11月推出的CXL 3.1，接著是2024年12月發布的CXL 3.2，然後便是日前推出的CXL 4.0。 每次CXL規格更新，各有不同的側重點，例如，CXL 3.1重點放在底層網路連接架構的改進，以便能建構規模更大的CXL應用環境，CXL 3.2的重點則是提高監控管理與安全性。 至於新推出的CXL 4.0，更新重點則圍繞著提高傳輸頻寬，與裝置、主機之間的連接能力（Connectivity）。 CXL 4.0的新功能 CXL 4.0對於傳輸頻寬與連接能力的強化，是建立在底層實體傳輸通道，以及一系列新軟體功能上。 CXL的實體傳輸通道是嫁接在PCI</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173038</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-3-tu_pian_lai_yuan_-cxl_consortium1.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>【為GPU加速器打造開放的高效能I/O通道】UALink：GPU互連傳輸架構新標準</title>
-      <link>https://www.ithome.com.tw/tech/173039</link>
-      <description>資料來源：iThome整理，2025年12月 歷經大約1年的規格制定工作後，由多家晶片、網通與雲端服務大廠組成的UALink聯盟，於2025年4月發表UALink（Ultra Accelerator Link）1.0版規範，讓這項討論已久的開放式加速器晶片互連I/O架構，終於正式問世。 UALink聯盟成立於去年5月，成員包括AMD與Intel兩大晶片廠商，加上Broadcom、Cisco兩大網通廠商，還有Google、HPE、Meta與微軟等雲端大廠，阿里雲、蘋果與Synopsys也於2025年1月加入，理事會加上貢獻者成員超過65家（但Broadcom已退出UALink理事會，降為一般貢獻者成員）。聯盟的宗旨是建立一個開放的GPU加速器互連I/O規範，為AI伺服器與叢集中的加速器，提供高速、低延遲的I/O連結架構，以對抗Nvidia的NVLink技術。 Nvidia當前在GPU加速器市場上的「霸業」，不僅是建立在GPU本身，還包括完整的周邊應用架構，NVLink便是維繫Nvidia「霸業」的「護城河」之一，Nvidia可以透過這套專屬的高速I/O架構，讓大量GPU彼此互連，建構出超</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173039</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-4-960.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>【AI熱潮推動嶄新快閃記憶體產品型態誕生】高頻寬快閃記憶體的興起</title>
-      <link>https://www.ithome.com.tw/tech/173040</link>
-      <description>圖片來源／Kioxia 正由SanDisk、鎧俠（Kioxia）等廠商發展中的高頻寬快閃記憶體（High Bandwidth Flash，HBF），是快閃記憶體產品中，全新的類型，目的是藉由大幅提高傳輸頻寬的NAND快閃記憶體，在不同AI應用情境中取代或輔助DRAM記憶體，從而以較低的成本，顯著擴展運算裝置的可用記憶體容量。 雖然應用概念相似，但SanDisk與鎧俠採取的技術路線，以及應用情境都有所不同。 SanDisk的高頻寬快閃記憶體 我們在2025年9月的封面故事《LLM重塑大型系統記憶體應用》當中，已經初步介紹過SanDisk的HBF基本概念，目的是做為當前GPU的HBM高頻寬記憶體替代品，用於擴展AI推論的可用記憶體容量。 為了提高快閃記憶體的傳輸頻寬，SanDisk將快閃記憶體儲存單元組成多個較小型的陣列，然後為每個小型陣列各自配置獨立I/O通道，比起數萬個儲存單元組成大型陣列、並共用單一I/O通道的傳統架構，可大幅提高快閃記憶體整體的I/O頻寬。 而在實體架構上，HBF則是HBM的翻版，只是將垂直堆疊的DRAM晶片換成快閃記憶體。SanDisk將16層垂直堆疊的3D NA</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173040</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-5-960.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>【光纖通道儲存區域網路初步進入128Gb世代】第8代光纖通道產品問世</title>
-      <link>https://www.ithome.com.tw/tech/173041</link>
-      <description>圖片來源／Broadcom 等待兩年，首批支援128Gb第8代光纖通道（Fibre Channel，FC）的產品終於宣布上市，對於FC儲存區域網路應用而言，也象徵從現有的32 Gb、64 Gb規格，邁向128 Gb規格的升級道路。 其實早在第6代的32 Gb FC規格中，就提供聚合4條32 Gb通道（lane）的128 Gb傳輸規格，不過，當前的第8代FC，則是提供單通道128 Gb的傳輸能力，可以更低的成本實現128 Gb頻寬。 儘管128 Gb FC可算是FC介面發展的里程碑，使FC介面真正突破100 Gb/s頻寬大關。然而，乙太網路的迅速進步，已大幅侵蝕FC介面在儲存區域網路應用版圖。憑藉迅速增長的頻寬，乙太網路不僅逐漸抵銷FC原有的效能優勢，還突顯部署與管理優勢。不同於FC這種儲存區域網的專屬介面，乙太網路能同時兼用於儲存區域網路（SAN）與一般區域網路（LAN），部署與管理都更便利。 儘管如此，憑藉過去30多年應用累積的基礎，FC介面迄今仍擁有相當龐大的用戶群，依負責推廣FC應用的FCIA協會資料，直到2023年，全球部署使用中的FC埠超過3,500萬個，市場規模達500億美</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173041</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-6-960.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>【擴大容量因應長期資料保存需求】LTO-10磁帶重新出發</title>
-      <link>https://www.ithome.com.tw/tech/173042</link>
-      <description>圖片來源／LTO Consortium 憑藉久經驗證與單位成本低的優勢，磁帶仍是長期靜態資料保存、歸檔儲存應用的首選儲存媒體。而LTO則是當前磁帶應用的主流規格，目前已發展到今年年中發表的第10代LTO-10。 我們在2025年7月才剛介紹過新推出的LTO-10，這一代規格發表時曾引起一些爭議，首先，規格提升幅度不如預期，傳輸效能較上一代未有進步，每卷磁帶匣容量只從LTO-9的18TB提高到30TB而已。其次，不具備向下相容性。 出人意料的是，不到半年時間後，LTO聯盟在11月中旬時，發表了容量提高到40 TB的新款LTO-10磁帶匣，較先前版本LTO-10磁帶匣提升1/3容量。 新款LTO-10磁帶匣得以提高容量的原因，在於採用基於芳綸（Aramid-based）的磁帶膜基材，這是一種高強度人造纖維，普遍應用於防彈背心製造。比起LTO-10原本使用的聚萘二甲酸乙二醇酯（PEN）磁帶膜基材，芳綸製磁帶膜更薄、更光滑，可在標準磁帶匣內容納更長的磁帶，從而獲得更大容量。 預計40TB版LTO-10磁帶匣將於2026年初上市，相容於既有LTO-10磁帶機，屆時用戶可視需要選用30或40TB磁</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/tech/173042</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/1266-cover-7-960.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 26 Dec 2025 06:40:40 +0000</lastBuildDate>
     <item>
       <title>新世代儲存2026展望</title>
       <link>https://www.ithome.com.tw/article/173043</link>
@@ -86,6 +16,73 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/article/173043</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1266-feng_mian_p1-ming_de_-open-960x420_kao_bei_0.jpg?itok=2t6ggRc5" length="0" type="image/jpeg"/>
       <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI帶來IT質變與量變</title>
+      <link>https://www.ithome.com.tw/voice/173047</link>
+      <description>生成式AI在2025年持續風行，不論在工作或生活的場合，每個人都在熱烈討論或聽聞相關技術應用的最新進展，2026年這股熱潮仍將持續發威，成為各個領域發展的重要推手。最近我們參加應用系統遞送與資安（Application Delivery and Security）廠商F5的年終報告，透過他們的分析，得以參照今年企業AI應用現況，瞭解IT服務品質與規模正在經歷激烈的變化。 該公司引用的資料是2025年4月發布的年度應用系統戰略現況報告，高達96％的企業都正在部署AI模型，回顧2023年，只有四分之一的企業這麼做。現在的企業如何使用AI？72％的人表示用於提升應用系統效能，59％用於提升成本效率、實施資安防護規則，以及自動緩解零時差漏洞。 有一半的組織，採用AI閘道連接應用系統與AI工具，其餘40％組織打算在未來一年來導入這類機制。而且，有62％組織透過上述方式來保護與管理AI模型，獲得集中控管能力，以及藉此防護企業、避免發生敏感資料外洩的事故。 大眾與各種產業能夠從AI獲益的機會相當豐富，但因此面臨的種種挑戰也令人難以忽視其不便與風險。F5年度報告點出首項憂慮是AI模型的安全性，許多企業</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/voice/173047</guid>
+      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nvidia修補機器人平臺Isaac 3個重大RCE漏洞</title>
+      <link>https://www.ithome.com.tw/news/173048</link>
+      <description>新聞Nvidia本周發布安全更新，修補機器人平臺Isaac三個風險值9.8的重大資安漏洞。 這三個漏洞為CVE-2025-33222、CVE-2025-33223、CVE-2025-33224，是由Nvidia AI Red Team發現。三個漏洞皆出現在Isaac Launchable元件中。其中CVE-2025-33222和憑證寫死（hard-coded credential）有關，成功濫用可能引發程式碼執行（RCE）、提權攻擊（EoP）、阻斷服務（denial of service，DoS）以及資料竄改。CVE-2025-33223及CVE-2025-33224都是讓駭客取得不必要的程式碼執行權限，若讓駭客成功濫用，除了能引發RCE、EoP和DoS、資料竄改，還可能導致資訊外洩。三個漏洞CVSS風險值都高達9.8。 舊版Isaac Launchable皆受影響，Nvidia已釋出最新的Isaac Launchable 1.1修補。 二周前，Nvidia才修補完Isaac Lab一項安全問題，為編號CVE-2025-32210的反序列化（deserialization）漏洞，成功濫</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173048</guid>
+      <pubDate>Fri, 26 Dec 2025 01:30:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>WatchGuard警告 Firebox程式碼執行漏洞已遭到濫用</title>
+      <link>https://www.ithome.com.tw/news/173049</link>
+      <description>新聞資安業者WatchGuard本周警告用戶，Firebox防火牆存在一個能讓未經授權攻擊者遠端執行程式碼的資安漏洞，而且已經遭到濫用。而且網路上還有九萬臺裝置未修補漏洞，包括臺灣近200臺。 這項編號CVE-2025-14733的漏洞是內部研究發現，為位於Firebox OS的iked行程的越界寫入（out-of-bounds write）漏洞。成功利用此漏洞的遠端攻擊者無須任何使用者互動，可在未修補的Firebox設備上執行任意程式碼。該漏洞CVSS風險評分高達9.3，屬於重大風險等級。 WatchGuard說明，它存在Firebox OS中的IKEv2 VPN服務中，影響所有機種和韌體版本的Firebox機器，包括具有IKEv2的手機版VPN，以及配置成使用IKEv2的分公司VPN（branch office VPN,BOVPN）動態對等閘道（dynamic gateway peer）。 WatchGuard已經在12月18日釋出新版本韌體，包括Fireware 2025.1.4、Fireware v12.11.6、Fireware v12.5.15、Fireware v12.3</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173049</guid>
+      <pubDate>Fri, 26 Dec 2025 01:50:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kibana出現高風險XSS漏洞，多個版本恐遭惡意指令碼攻擊</title>
+      <link>https://www.ithome.com.tw/news/173030</link>
+      <description>新聞Elastic在12月19日發布資安公告，說明Kibana存在一項高風險資安漏洞，可能讓已通過驗證的攻擊者，在其他使用者瀏覽的網頁內容中植入並執行惡意指令碼。該漏洞編號為CVE-2025-68385，屬於高風險等級（CVSS分數7.2）。 Kibana是Elastic旗下的重要產品，也是Elastic Stack（ELK）中的核心視覺化與分析工具，廣泛用於日誌管理、資安監控、應用效能管理（APM）及即時資料分析。許多企業仰賴Kibana來視覺化Elasticsearch中的大量資料，並透過儀表板即時掌握系統與業務狀態。 Elastic表示，問題出在Kibana用來顯示圖表的Vega視覺化元件。系統在產生網頁內容時，沒有仔細檢查使用者輸入的內容，讓攻擊者有機會把惡意指令碼藏進圖表中。當其他人開啟這些圖表時，瀏覽器就會執行惡意指令碼，可能導致帳號資訊或重要資料被竊取。 CVE-2025-68385被歸類為CWE-79的跨站腳本攻擊（Cross-site Scripting，XSS）手法，雖然攻擊者必須通過身分驗證，但影響範圍不僅限於單一帳號，惡意內容可擴散至同一Kibana實例中的多名</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173030</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1225-Kibana%20Security%20Update-ESA-2025-34.png" length="0" type="image/png"/>
+      <pubDate>Fri, 26 Dec 2025 02:27:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>巴西跟進歐盟，要求蘋果放寬App Store限制並開放第三方市集</title>
+      <link>https://www.ithome.com.tw/news/173050</link>
+      <description>新聞巴西正式跟進歐盟腳步，要求蘋果放寬iOS生態系中對App Store的多項限制。巴西反壟斷機關Administrative Council for Economic Defense（CADE）近日形成多數意見，原則上同意蘋果在反競爭調查案中提出的和解方案，要求其允許第三方程式市集、App側載，以及在App Store以外完成數位內容付費，否則最高將面臨1.5億Brazilian reais（BRL）（約3,000萬美元）的罰款。 根據CADE公布內容，蘋果必須放寬對iOS應用程式散布與支付流程的控制。具體措施包括允許開發人員在App內或App外導引使用者前往外部平臺完成交易，不再強制使用蘋果的App內部購買（IAP）系統，並開放替代支付方式與蘋果既有方案並列呈現；此外，也須允許替代的應用程式散布管道，亦即第三方程式市集，且不得透過警告畫面、措辭設計或操作流程，變相干擾使用者選擇。 依照協議內容，蘋果須在相關條款生效後105天內完成系統與規則調整，協議有效期為三年。在此期間，蘋果必須持續遵守上述開放義務；若未能履行承諾，CADE可重新啟動調查程序，並對蘋果處以罰款。 此案源自拉丁美洲</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173050</guid>
+      <pubDate>Fri, 26 Dec 2025 02:46:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google可望允許變更Gmail電子郵件地址</title>
+      <link>https://www.ithome.com.tw/news/173051</link>
+      <description>新聞Google一直以來是不允許修改Gmail電子郵件位址的，但媒體發現Google的一項技術文件顯示，未來用戶可能被允許變更Google帳號的Gmail郵件地址。 Google帳戶（Google Account）和Gmail電子郵件位址過去是永久綁定的。雖然Google允許用戶在Google帳號使用不同的別名（alias），但原則上用戶無法變更主要的Gmail電子郵件地址。如果用戶想換Gmail電子郵件地址，用戶必須建立全新帳戶，並手動搬移資料。但根據媒體發現的印度文版Google Help網頁，可能未來不必那麼麻煩。 Google說明，Gmail地址可讓使用者登入Google Account及服務，也可讓用戶及其他人識別Gmail郵件。但如果用戶願意，也可以變更Google Account的電子郵件地址，改成新的gmail.com郵件地址。 改成新Gmail地址後，就能用它來登入Google服務、（帳號被竊時）取回帳戶、或接收Google通知。 更重要的是，原有Google Account上的舊gmail地址將被設定為新gmail地址的別名（alias address），這使得新舊</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173051</guid>
+      <pubDate>Fri, 26 Dec 2025 03:04:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Roundcube修補高風險資安漏洞，恐危及網頁郵件隱私</title>
+      <link>https://www.ithome.com.tw/news/173031</link>
+      <description>新聞知名開放原始碼網頁郵件專案Roundcube，提供類似桌面郵件軟體的操作介面，具備多語系、通訊錄、郵件搜尋、外掛擴充等功能，廣泛被企業、學術機構與主機服務商採用，作為自架電子郵件系統的網頁前端。由於受到各界採用的規模龐大，其資安風險一旦曝光，影響範圍往往不容小覷。 近日Roundcube專案團隊發布安全更新，針對1.6與1.5 LTS版本修補兩項高風險資安漏洞，可能讓攻擊者透過看似正常的電子郵件執行惡意指令碼，或外洩使用者的敏感資訊。 兩項漏洞的CVSS風險評分皆為7.2，屬於高風險等級，其中CVE-2025-68461屬於跨站腳本攻擊（XSS）漏洞，問題出在Roundcube處理可縮放向量圖形（SVG）檔案的方式。該漏洞由CrowdStrike研究人員Valentin T.發現，攻擊者可利用SVG中的&amp;lt;animate&amp;gt;標籤，製作特製的惡意圖片。 在實際攻擊情境中，只要使用者於網頁郵件介面中開啟含有惡意SVG的電子郵件，瀏覽器便可能立即執行JavaScript惡意指令碼。在網頁郵件服務中，XSS漏洞的危害尤為嚴重，常被用來竊取連線階段Cookie、進行帳號劫持，甚至在使用者不知情的</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173031</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1225-Security%20updates%201_6_12%20and%201_5_12%20released.png" length="0" type="image/png"/>
+      <pubDate>Fri, 26 Dec 2025 03:12:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux核心首度出現Rust漏洞，恐導致系統當機</title>
+      <link>https://www.ithome.com.tw/news/173032</link>
+      <description>新聞Linux核心近期修補一項重大資安漏洞CVE-2025-68260，這也是主線核心中首度正式指派給Rust程式碼的漏洞案例。該問題影響以Rust重寫的Android Binder模組，在特定條件下可能造成記憶體損毀，甚至引發系統當機。 這項漏洞屬於競爭條件問題，發生於Rust Binder元件的death_list處理機制，相關程式碼位於drivers/android/binder/node.rs。Binder是Android系統中重要的行程間通訊（Inter-Process communication，IPC）機制，因此該漏洞對系統穩定性具有實質影響。 根據研究人員的分析，問題核心出在Node::release函式的鎖定流程設計。該函式會先取得鎖定，將共享連結串列中的元素移至暫時的本地堆疊，隨後提前釋放鎖定，再對本地清單進行處理。然而，在鎖定解除後、處理尚未完成的短暫時間內，其他執行緒仍可能同時操作原始清單的prev與next指標，進而產生競爭條件。 一旦這種狀況發生，連結串列的指標結構可能遭到破壞，導致記憶體損毀。實務上，該漏洞最直接的後果是核心崩潰（Kernel Panic）</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173032</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1225-CVE-2025-68260-linux.png" length="0" type="image/png"/>
+      <pubDate>Fri, 26 Dec 2025 03:28:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>【回顧2025】從2百位CIO第一手洞察，剖析臺灣大型企業的GenAI進化之路(上)</title>
+      <link>https://www.ithome.com.tw/news/173053</link>
+      <description>新聞在GenAI的時代，每一家企業都是挑戰者，只是各自的步調不同，有的企業衝得快，有的企業走得謹慎，但也有企業還在觀望而沒有展開行動。 根據IDC在2025年11月公布的4千位企業決策者調查結果，全球GenAI前沿企業（Frontier Firm）約占22%。這些企業的GenAI，不只更廣，更多樣化，也更落實負責任AI。 相較於國外，臺灣企業開始規模化運用GenAI的企業更少，根據我們今年CIO大調查，只有5%臺灣企業今年開始擴大規模，透過系統化流程、組織與架構的做法，來擴大GenAI的應用廣度。 為何多數臺灣企業擁抱生成式AI的腳步，相對較慢，但為何又有少數企業可以跟上全球GenAI領先企業的腳步，我們分析了256位企業CIO和IT主管對企業擁抱GenAI的洞察，歸納出臺灣不同GenAI發展成熟度的企業，各自面對的挑戰和機會。 這個發展成熟度分類，參考Gartner的AI發展成熟度，讓CIO自評，將企業GenAI應用的發展，區分為「計畫階段」、「導入與驗證階段」、「正式上線階段」、「擴大採用階段」、「深化內化階段」、「有需要但沒有計畫」和「沒有需要或不知道」等階段。 根據我們今年的大</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173053</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E7%94%9F%E6%88%90%E5%BC%8FAI%E6%BC%94%E5%8C%96%E4%B9%8B%E8%B7%AF(1).png" length="0" type="image/png"/>
+      <pubDate>Fri, 26 Dec 2025 04:39:08 +0000</pubDate>
     </item>
   </channel>
 </rss>
