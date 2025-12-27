@@ -8,70 +8,11 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Dec 2025 06:40:40 +0000</lastBuildDate>
-    <item>
-      <title>新世代儲存2026展望</title>
-      <link>https://www.ithome.com.tw/article/173043</link>
-      <description>專題故事有鑑於AI對資料傳輸速度與儲存空間的龐大需求，2025這一年來，從伺服器基礎傳輸架構，到GPU互連傳輸技術，還有針對LLM應用的記憶體，以及長期資料保存儲存媒體，都有一系列關鍵新技術發展，可望在2026年逐一發酵，進而改變企業IT的儲存架構樣貌。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/article/173043</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1266-feng_mian_p1-ming_de_-open-960x420_kao_bei_0.jpg?itok=2t6ggRc5" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI帶來IT質變與量變</title>
-      <link>https://www.ithome.com.tw/voice/173047</link>
-      <description>生成式AI在2025年持續風行，不論在工作或生活的場合，每個人都在熱烈討論或聽聞相關技術應用的最新進展，2026年這股熱潮仍將持續發威，成為各個領域發展的重要推手。最近我們參加應用系統遞送與資安（Application Delivery and Security）廠商F5的年終報告，透過他們的分析，得以參照今年企業AI應用現況，瞭解IT服務品質與規模正在經歷激烈的變化。 該公司引用的資料是2025年4月發布的年度應用系統戰略現況報告，高達96％的企業都正在部署AI模型，回顧2023年，只有四分之一的企業這麼做。現在的企業如何使用AI？72％的人表示用於提升應用系統效能，59％用於提升成本效率、實施資安防護規則，以及自動緩解零時差漏洞。 有一半的組織，採用AI閘道連接應用系統與AI工具，其餘40％組織打算在未來一年來導入這類機制。而且，有62％組織透過上述方式來保護與管理AI模型，獲得集中控管能力，以及藉此防護企業、避免發生敏感資料外洩的事故。 大眾與各種產業能夠從AI獲益的機會相當豐富，但因此面臨的種種挑戰也令人難以忽視其不便與風險。F5年度報告點出首項憂慮是AI模型的安全性，許多企業</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/voice/173047</guid>
-      <pubDate>Thu, 25 Dec 2025 22:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nvidia修補機器人平臺Isaac 3個重大RCE漏洞</title>
-      <link>https://www.ithome.com.tw/news/173048</link>
-      <description>新聞Nvidia本周發布安全更新，修補機器人平臺Isaac三個風險值9.8的重大資安漏洞。 這三個漏洞為CVE-2025-33222、CVE-2025-33223、CVE-2025-33224，是由Nvidia AI Red Team發現。三個漏洞皆出現在Isaac Launchable元件中。其中CVE-2025-33222和憑證寫死（hard-coded credential）有關，成功濫用可能引發程式碼執行（RCE）、提權攻擊（EoP）、阻斷服務（denial of service，DoS）以及資料竄改。CVE-2025-33223及CVE-2025-33224都是讓駭客取得不必要的程式碼執行權限，若讓駭客成功濫用，除了能引發RCE、EoP和DoS、資料竄改，還可能導致資訊外洩。三個漏洞CVSS風險值都高達9.8。 舊版Isaac Launchable皆受影響，Nvidia已釋出最新的Isaac Launchable 1.1修補。 二周前，Nvidia才修補完Isaac Lab一項安全問題，為編號CVE-2025-32210的反序列化（deserialization）漏洞，成功濫</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173048</guid>
-      <pubDate>Fri, 26 Dec 2025 01:30:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>WatchGuard警告 Firebox程式碼執行漏洞已遭到濫用</title>
-      <link>https://www.ithome.com.tw/news/173049</link>
-      <description>新聞資安業者WatchGuard本周警告用戶，Firebox防火牆存在一個能讓未經授權攻擊者遠端執行程式碼的資安漏洞，而且已經遭到濫用。而且網路上還有九萬臺裝置未修補漏洞，包括臺灣近200臺。 這項編號CVE-2025-14733的漏洞是內部研究發現，為位於Firebox OS的iked行程的越界寫入（out-of-bounds write）漏洞。成功利用此漏洞的遠端攻擊者無須任何使用者互動，可在未修補的Firebox設備上執行任意程式碼。該漏洞CVSS風險評分高達9.3，屬於重大風險等級。 WatchGuard說明，它存在Firebox OS中的IKEv2 VPN服務中，影響所有機種和韌體版本的Firebox機器，包括具有IKEv2的手機版VPN，以及配置成使用IKEv2的分公司VPN（branch office VPN,BOVPN）動態對等閘道（dynamic gateway peer）。 WatchGuard已經在12月18日釋出新版本韌體，包括Fireware 2025.1.4、Fireware v12.11.6、Fireware v12.5.15、Fireware v12.3</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173049</guid>
-      <pubDate>Fri, 26 Dec 2025 01:50:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kibana出現高風險XSS漏洞，多個版本恐遭惡意指令碼攻擊</title>
-      <link>https://www.ithome.com.tw/news/173030</link>
-      <description>新聞Elastic在12月19日發布資安公告，說明Kibana存在一項高風險資安漏洞，可能讓已通過驗證的攻擊者，在其他使用者瀏覽的網頁內容中植入並執行惡意指令碼。該漏洞編號為CVE-2025-68385，屬於高風險等級（CVSS分數7.2）。 Kibana是Elastic旗下的重要產品，也是Elastic Stack（ELK）中的核心視覺化與分析工具，廣泛用於日誌管理、資安監控、應用效能管理（APM）及即時資料分析。許多企業仰賴Kibana來視覺化Elasticsearch中的大量資料，並透過儀表板即時掌握系統與業務狀態。 Elastic表示，問題出在Kibana用來顯示圖表的Vega視覺化元件。系統在產生網頁內容時，沒有仔細檢查使用者輸入的內容，讓攻擊者有機會把惡意指令碼藏進圖表中。當其他人開啟這些圖表時，瀏覽器就會執行惡意指令碼，可能導致帳號資訊或重要資料被竊取。 CVE-2025-68385被歸類為CWE-79的跨站腳本攻擊（Cross-site Scripting，XSS）手法，雖然攻擊者必須通過身分驗證，但影響範圍不僅限於單一帳號，惡意內容可擴散至同一Kibana實例中的多名</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173030</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/1225-Kibana%20Security%20Update-ESA-2025-34.png" length="0" type="image/png"/>
-      <pubDate>Fri, 26 Dec 2025 02:27:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>巴西跟進歐盟，要求蘋果放寬App Store限制並開放第三方市集</title>
-      <link>https://www.ithome.com.tw/news/173050</link>
-      <description>新聞巴西正式跟進歐盟腳步，要求蘋果放寬iOS生態系中對App Store的多項限制。巴西反壟斷機關Administrative Council for Economic Defense（CADE）近日形成多數意見，原則上同意蘋果在反競爭調查案中提出的和解方案，要求其允許第三方程式市集、App側載，以及在App Store以外完成數位內容付費，否則最高將面臨1.5億Brazilian reais（BRL）（約3,000萬美元）的罰款。 根據CADE公布內容，蘋果必須放寬對iOS應用程式散布與支付流程的控制。具體措施包括允許開發人員在App內或App外導引使用者前往外部平臺完成交易，不再強制使用蘋果的App內部購買（IAP）系統，並開放替代支付方式與蘋果既有方案並列呈現；此外，也須允許替代的應用程式散布管道，亦即第三方程式市集，且不得透過警告畫面、措辭設計或操作流程，變相干擾使用者選擇。 依照協議內容，蘋果須在相關條款生效後105天內完成系統與規則調整，協議有效期為三年。在此期間，蘋果必須持續遵守上述開放義務；若未能履行承諾，CADE可重新啟動調查程序，並對蘋果處以罰款。 此案源自拉丁美洲</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173050</guid>
-      <pubDate>Fri, 26 Dec 2025 02:46:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google可望允許變更Gmail電子郵件地址</title>
-      <link>https://www.ithome.com.tw/news/173051</link>
-      <description>新聞Google一直以來是不允許修改Gmail電子郵件位址的，但媒體發現Google的一項技術文件顯示，未來用戶可能被允許變更Google帳號的Gmail郵件地址。 Google帳戶（Google Account）和Gmail電子郵件位址過去是永久綁定的。雖然Google允許用戶在Google帳號使用不同的別名（alias），但原則上用戶無法變更主要的Gmail電子郵件地址。如果用戶想換Gmail電子郵件地址，用戶必須建立全新帳戶，並手動搬移資料。但根據媒體發現的印度文版Google Help網頁，可能未來不必那麼麻煩。 Google說明，Gmail地址可讓使用者登入Google Account及服務，也可讓用戶及其他人識別Gmail郵件。但如果用戶願意，也可以變更Google Account的電子郵件地址，改成新的gmail.com郵件地址。 改成新Gmail地址後，就能用它來登入Google服務、（帳號被竊時）取回帳戶、或接收Google通知。 更重要的是，原有Google Account上的舊gmail地址將被設定為新gmail地址的別名（alias address），這使得新舊</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173051</guid>
-      <pubDate>Fri, 26 Dec 2025 03:04:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Roundcube修補高風險資安漏洞，恐危及網頁郵件隱私</title>
-      <link>https://www.ithome.com.tw/news/173031</link>
-      <description>新聞知名開放原始碼網頁郵件專案Roundcube，提供類似桌面郵件軟體的操作介面，具備多語系、通訊錄、郵件搜尋、外掛擴充等功能，廣泛被企業、學術機構與主機服務商採用，作為自架電子郵件系統的網頁前端。由於受到各界採用的規模龐大，其資安風險一旦曝光，影響範圍往往不容小覷。 近日Roundcube專案團隊發布安全更新，針對1.6與1.5 LTS版本修補兩項高風險資安漏洞，可能讓攻擊者透過看似正常的電子郵件執行惡意指令碼，或外洩使用者的敏感資訊。 兩項漏洞的CVSS風險評分皆為7.2，屬於高風險等級，其中CVE-2025-68461屬於跨站腳本攻擊（XSS）漏洞，問題出在Roundcube處理可縮放向量圖形（SVG）檔案的方式。該漏洞由CrowdStrike研究人員Valentin T.發現，攻擊者可利用SVG中的&amp;lt;animate&amp;gt;標籤，製作特製的惡意圖片。 在實際攻擊情境中，只要使用者於網頁郵件介面中開啟含有惡意SVG的電子郵件，瀏覽器便可能立即執行JavaScript惡意指令碼。在網頁郵件服務中，XSS漏洞的危害尤為嚴重，常被用來竊取連線階段Cookie、進行帳號劫持，甚至在使用者不知情的</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173031</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/1225-Security%20updates%201_6_12%20and%201_5_12%20released.png" length="0" type="image/png"/>
-      <pubDate>Fri, 26 Dec 2025 03:12:56 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 27 Dec 2025 06:37:55 +0000</lastBuildDate>
     <item>
       <title>Linux核心首度出現Rust漏洞，恐導致系統當機</title>
       <link>https://www.ithome.com.tw/news/173032</link>
-      <description>新聞Linux核心近期修補一項重大資安漏洞CVE-2025-68260，這也是主線核心中首度正式指派給Rust程式碼的漏洞案例。該問題影響以Rust重寫的Android Binder模組，在特定條件下可能造成記憶體損毀，甚至引發系統當機。 這項漏洞屬於競爭條件問題，發生於Rust Binder元件的death_list處理機制，相關程式碼位於drivers/android/binder/node.rs。Binder是Android系統中重要的行程間通訊（Inter-Process communication，IPC）機制，因此該漏洞對系統穩定性具有實質影響。 根據研究人員的分析，問題核心出在Node::release函式的鎖定流程設計。該函式會先取得鎖定，將共享連結串列中的元素移至暫時的本地堆疊，隨後提前釋放鎖定，再對本地清單進行處理。然而，在鎖定解除後、處理尚未完成的短暫時間內，其他執行緒仍可能同時操作原始清單的prev與next指標，進而產生競爭條件。 一旦這種狀況發生，連結串列的指標結構可能遭到破壞，導致記憶體損毀。實務上，該漏洞最直接的後果是核心崩潰（Kernel Panic）</description>
+      <description>新聞Linux核心近期修補一項重大資安漏洞CVE-2025-68260，這也是主線核心中首度正式指派給Rust程式碼的漏洞案例。該問題影響以Rust重寫的Android Binder模組，在特定條件下可能造成記憶體損毀，甚至引發系統當機。 這項漏洞屬於競爭條件問題，發生於Rust Binder元件的death_list處理機制，相關程式碼位於drivers/android/binder/node.rs。Binder是Android系統中重要的行程間通訊（Inter-Process Communication，IPC）機制，因此該漏洞對系統穩定性具有實質影響。 根據研究人員的分析，問題核心出在Node::release函式的鎖定流程設計。該函式會先取得鎖定，將共享連結串列中的元素移至暫時的本地堆疊，隨後提前釋放鎖定，再對本地清單進行處理。然而，在鎖定解除後、處理尚未完成的短暫時間內，其他執行緒仍可能同時操作原始清單的prev與next指標，進而產生競爭條件。 一旦這種狀況發生，連結串列的指標結構可能遭到破壞，導致記憶體損毀。實務上，該漏洞最直接的後果是核心崩潰（Kernel Panic）</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173032</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/images/1225-CVE-2025-68260-linux.png" length="0" type="image/png"/>
       <pubDate>Fri, 26 Dec 2025 03:28:04 +0000</pubDate>
@@ -83,6 +24,63 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173053</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/images/%E7%94%9F%E6%88%90%E5%BC%8FAI%E6%BC%94%E5%8C%96%E4%B9%8B%E8%B7%AF(1).png" length="0" type="image/png"/>
       <pubDate>Fri, 26 Dec 2025 04:39:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>舊金山停電，Waymo無人車阻斷交通</title>
+      <link>https://www.ithome.com.tw/news/173056</link>
+      <description>新聞美國太平洋瓦斯電力公司（PG&amp;amp;E）位於舊金山的變電站12月20日發生火災，造成舊金山出現大規模停電，影響全市近三分之一地區用電，多處主要道路交通號誌同時失效，市區交通一度陷入混亂。停電期間，亦傳出Waymo無人駕駛計程車停留在十字路口，進一步加劇道路壅塞，Waymo隨後暫停在舊金山的服務。 在停電期間，多輛Waymo無人計程車被拍到停在街道與路口中央，後方車流回堵，引發民眾與駕駛不滿。社群平臺流傳的畫面顯示，部分路口同時有多輛Waymo車輛停留原地。舊金山是Waymo自駕計程車的重要營運城市，外界估計當地約部署1,000輛Waymo車輛。 Waymo於周二（12/23）說明，應對如此大規模的事件對自動駕駛技術而言是一項獨特挑戰。Waymo Driver在設計上，會將熄燈的交通號誌視為四向停車路口，但在部分情況下仍會請求後端確認，以確保做出最安全的選擇。 Waymo表示，其無人駕駛計程車於20日當天成功通過超過7,000個號誌失效的路口，但此次停電導致確認請求短時間內激增，形成積壓，部分車輛因此停留時間拉長，加劇了擁塞情況。為避免進一步影響交通，Waymo隨後暫停營運，並指示車隊靠邊</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173056</guid>
+      <pubDate>Fri, 26 Dec 2025 06:44:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLM調度框架LangChain核心元件序列化注入漏洞，可能導致環境變數機密外洩</title>
+      <link>https://www.ithome.com.tw/news/173052</link>
+      <description>新聞知名大型語言模型調度開源框架LangChain團隊發布安全通報，揭露核心套件langchain-core存在序列化注入漏洞CVE-2025-68664，該漏洞CVSS 3.1基礎分數為9.3，屬重大等級。受影響版本為langchain-core小於0.3.81，或介於1.0.0以上且低於1.2.5。官方已釋出修補版本0.3.81與1.2.5，並同步收緊load()與loads()的預設行為，以降低誤用風險。 漏洞出在langchain-core本身的dumps與dumpd序列化功能。LangChain有一套內部資料格式，會用lc這個保留欄位來標記這段資料可以在之後被還原成LangChain物件。官方指出，問題在於dumps()與dumpd()在序列化一般字典資料時，沒有妥善處理剛好含有lc欄位的外部可控內容。結果是這些資料在後續經由load()或loads()還原時，可能被當成真正的LangChain物件來建立，進而引發安全風險。 官方指出，較常見的風險並非攻擊者直接提供序列化內容要求系統載入，而是大型語言模型回應中的欄位，可能在提示詞注入影響下，被引導生成攻擊者想要的內容或結構，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173052</guid>
+      <pubDate>Fri, 26 Dec 2025 07:07:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fortinet警示5年前公布的SSL VPN漏洞再遭積極利用</title>
+      <link>https://www.ithome.com.tw/news/173059</link>
+      <description>新聞資安公司Fortinet在12月例行更新當中，修補重大層級的漏洞CVE-2025-59718及CVE-2025-59719引起高度關注，事隔3天傳出有人用於實際攻擊，本週該公司指出，有個5年前的資安漏洞，近期再度出現漏洞利用的情況而成為焦點。 12月24日Fortinet提出警告，他們偵測到於2020年7月修補的資安漏洞CVE-2020-12812遭到利用，攻擊者針對特定組態的防火牆設備FortiGate下手，從而繞過身分驗證機制，對此，該公司呼籲IT人員，應儘速清查設備是否遭到入侵。 針對CVE-2020-12812，此為防火牆作業系統FortiOS的SSL VPN漏洞，起因是身分驗證機制不完整，攻擊者有機會透過更動使用者名稱的大小寫，而能用來繞過第二個環節的驗證程序（FortiToken），進而登入系統，影響執行6.4.0、6.2.0至6.2.3，以及6.0.9版以下FortiOS的設備，CVSS風險Fortinet評為5.2分，為中度風險；然而，其他公開弱點資料庫並不這麼認為，例如，美國國家漏洞資料庫（NVD）與網路安全暨基礎設施安全局（CISA）皆將這個弱點的嚴重性認定為重</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173059</guid>
+      <pubDate>Fri, 26 Dec 2025 07:16:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>瀏覽器引擎WebKit引入CSS Grid Lanes，瀑布流排版走向原生CSS</title>
+      <link>https://www.ithome.com.tw/news/173054</link>
+      <description>新聞開源瀏覽器引擎WebKit團隊提出CSS Grid Lanes，試圖把長期依賴JavaScript函式庫才能穩定完成的瀑布流（Waterfall）排版配置，放進瀏覽器原生的CSS版面配置能力之中。該設計以新增的display:grid-lanes為入口，讓開發者沿用既有CSS Grid的軌道（Grid Track）定義語法來描述欄或列，再交由瀏覽器負責自動放置不同高度的內容項目。目前功能已可在Apple Safari技術預覽234版進行測試。 WebKit在說明中將Grid Lanes定位為瀑布流的下一步，並提到這套做法以Mozilla與WebKit之前的投入作為基礎，同時也經過CSS工作小組與各家瀏覽器多輪討論後，逐步收斂出較明確的運作方式。 W3C發布CSS Grid Layout Module Level 3工作草案，文件把grid-lanes與inline-grid-lanes納入display屬性的新值，並定義Grid Lanes的版面配置模型與相關行為。 WebKit特別把可用性與可存取性納入討論，由於傳統瀑布流常見的問題是視覺順序與鍵盤導覽順序不一致，使用者按Tab時</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173054</guid>
+      <pubDate>Fri, 26 Dec 2025 07:25:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kotlin 2.3.0強化多平臺工具鏈，JVM支援Java 25並提升Wasm原生互通</title>
+      <link>https://www.ithome.com.tw/news/173057</link>
+      <description>新聞JetBrains釋出Kotlin 2.3.0，該版本更新重點在於語言功能的穩定與多平臺工具鏈進展，涵蓋JVM、原生、WebAssembly與JavaScript等目標。此版本一方面讓部分語言能力走向更明確的預設行為與穩定狀態，另一方面也帶來跨平臺互通、建置效率與相容性相關的更新，協助開發者在不同執行環境間維持一致的開發與部署節奏。 Kotlin 2.3.0將巢狀型別別名，以及when表達式的資料流窮盡性（Exhaustiveness）檢查提升為穩定功能，同時把表達式主體且明確回傳型別的函式可使用return陳述式，調整為預設行為。由於要降低開發時因忽略函式回傳結果而意外犯錯的風險，官方新增未使用回傳值檢查器與相關註記，用於提示回傳值未被使用的情況。 另一方面，2.3.0也提供仍屬實驗性的明確後備欄位語法，讓屬性在對外暴露型別與內部實作型別不同的情境下，可以用更直接的方式表達與維護。至於情境式解析功能，官方仍持續修正其解析範圍與判定方式，並在可能造成歧義的情況下加入警告提示。 在Kotlin/JVM方面，2.3.0開始支援產生Java 25位元碼。Kotlin原生端則強化與Swif</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173057</guid>
+      <pubDate>Fri, 26 Dec 2025 07:38:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>MongoDB呼籲IT人員儘速修補高風險資安漏洞</title>
+      <link>https://www.ithome.com.tw/news/173060</link>
+      <description>新聞擁有眾多用戶的NoSQL資料庫管理系統MongoDB，其開發工程團隊近期發布資安公告，他們發布重大更新修補資安漏洞CVE-2025-14847，攻擊者可透過用戶端來觸發，此漏洞出現在MongoDB伺服器的zlib實作，可能在用戶未通過身分驗證的情況下，引發未初始化的記憶體堆疊問題，4.0版CVSS評分達到8.7分、3.1版CVSS風險評為7.5，呼籲用戶要儘速套用新版因應。 這個漏洞發生的原因，在於zlib壓縮協定的標頭欄位長度不一致，未通過身分驗證的攻擊者能以此讀取未初始化的記憶體堆疊。此漏洞的影響範圍相當廣，涵蓋8.2.0至8.2.3版、8.0.0至8.0.16版、7.0.0至7.0.26版、6.0.0至6.0.26版、5.0.0至5.0.31版，以及MongoDB 4.4.0至4.4.29版MongoDB。除此之外，4.2版、4.0版，以及3.6版MongoDB Server，也受到影響。 若是IT人員無法及時更新，開發工程團隊呼籲應停用MongoDB伺服器的zlib壓縮功能，做法是採用networkMessageCompressors或net.compression.com</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173060</guid>
+      <pubDate>Fri, 26 Dec 2025 08:11:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>【資安日報】12月26日，MongoDB呼籲用戶儘速修補可用於讀取記憶體內容的漏洞</title>
+      <link>https://www.ithome.com.tw/news/173061</link>
+      <description>新聞MongoDB呼籲IT人員儘速修補高風險資安漏洞 擁有眾多用戶的NoSQL資料庫管理系統MongoDB，其開發工程團隊近期發布資安公告，他們發布重大更新修補資安漏洞CVE-2025-14847，攻擊者可透過用戶端來觸發，此漏洞出現在MongoDB伺服器的zlib實作，可能在用戶未通過身分驗證的情況下，引發未初始化的記憶體堆疊問題，4.0版CVSS評分達到8.7分、3.1版CVSS風險評為7.5，呼籲用戶要儘速套用新版因應。 這個漏洞發生的原因，在於zlib壓縮協定的標頭欄位長度不一致，未通過身分驗證的攻擊者能以此讀取未初始化的記憶體堆疊。此漏洞的影響範圍相當廣，涵蓋8.2.0至8.2.3版、8.0.0至8.0.16版、7.0.0至7.0.26版、6.0.0至6.0.26版、5.0.0至5.0.31版，以及MongoDB 4.4.0至4.4.29版MongoDB。除此之外，4.2版、4.0版，以及3.6版MongoDB Server，也受到影響。 若是IT人員無法及時更新，開發工程團隊呼籲應停用MongoDB伺服器的zlib壓縮功能，做法是採用networkMessageCompre</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173061</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/CVE-2020-12812-ldap.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 26 Dec 2025 08:32:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>【回顧2025】剖析臺灣大型企業的GenAI進化之路(下)，136位IT主管對GAI最真實的心聲</title>
+      <link>https://www.ithome.com.tw/news/173055</link>
+      <description>新聞在剖析臺灣大型企業的GenAI進化之路(上)，歸納出了臺灣大型企業擁抱生成式AI的演化之路，區分不同階段（起步、中途、登頂）所面對四大課題，資料與安全難題、價值與應用課題、人才與文化挑戰，以及信任與風險議題，畫出一張從落地到規模化的挑戰表。在這一篇，我們進一步從這些IT主管的洞察中，彙整出可公開的136位的心聲，來呈現不同GenAI發展成熟度的企業，看到的挑戰和機會，來反應CIO導入GenAI的第一線心聲。 【觀望者的心聲】（有需求但還沒展開計畫者) 金屬製造業資安副理 1.真實性與可靠性 •生成內容的準確性與真實性仍是重大挑戰，特別是在對抗虛假資訊方面 •需要更好的機制來驗證AI生成內容的可信度，並清楚標示AI生成的內容 2.法律與監管框架 •全球各國對AI的監管政策逐漸成形，企業需要在創新與合規之間取得平衡 •版權、隱私、責任歸屬等法律問題需要更清晰的界定和解決方案 3.資源消耗與環境影響 •大型語言模型的訓練和運行需要大量計算資源 •如何在提升性能的同時降低能源消耗，實現更環保的AI發展 4.道德與偏見問題 •AI系統中的偏見問題仍需要持續改進 •如何確保AI在各種文化背景下</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173055</guid>
+      <pubDate>Fri, 26 Dec 2025 10:22:01 +0000</pubDate>
     </item>
   </channel>
 </rss>
