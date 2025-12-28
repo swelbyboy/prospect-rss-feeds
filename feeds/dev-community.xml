@@ -8,81 +8,82 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 27 Dec 2025 06:35:25 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 06:35:52 +0000</lastBuildDate>
     <item>
-      <title>What Makes a Good Document Scanner App?</title>
-      <link>https://dev.to/editflowsuite_e387af89d5a/what-makes-a-good-document-scanner-app-3lk5</link>
-      <description>Document scanner apps are everywhere on the Play Store. Yet many users still struggle to find one that actually feels fast, simple, and reliable. After building and publishing my own document scanner app and closely observing user feedback, I’ve learned that a good scanner app isn’t about having the most features—it’s about getting the basics right. Here’s what truly makes a good document scanner app. 1. Fast and Accurate Scanning Speed is the first impression. A good scanner app should: Open th</description>
-      <guid isPermaLink="false">https://dev.to/editflowsuite_e387af89d5a/what-makes-a-good-document-scanner-app-3lk5</guid>
-      <pubDate>Sat, 27 Dec 2025 05:54:37 +0000</pubDate>
+      <title>Build a Privacy-First AI Text Classifier: No Servers, No APIs. Master the AI Lifecycle: Initialize, Train, and Deploy.</title>
+      <link>https://dev.to/techno_kraft_in/build-a-privacy-first-ai-text-classifier-no-servers-no-apis-master-the-ai-lifecycle-initialize-a49</link>
+      <description>Build Your Own AI Text Model and Export it as JSON. No Install, No Sign-up: The Instant AI Classifier for 50+ Languages. The modern AI landscape is dominated by heavy server-side processing and data-hungry APIs. However, for many classification tasks, the browser is more than capable of handling the heavy lifting. This project demonstrates a Live AI Model Life Cycle—Initialization, Training, and Inference—all happening locally on the user's device. Why This Matters: The Privacy Factor Data priva</description>
+      <guid isPermaLink="false">https://dev.to/techno_kraft_in/build-a-privacy-first-ai-text-classifier-no-servers-no-apis-master-the-ai-lifecycle-initialize-a49</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjh7wj2r37e489i1jidkd.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 28 Dec 2025 05:21:23 +0000</pubDate>
     </item>
     <item>
-      <title>Utilizing OS-recommended caching in go to store files on disk</title>
-      <link>https://dev.to/lucassha/utilizing-os-recommended-caching-in-go-to-store-files-on-disk-45g4</link>
-      <description>Table of Contents Overview Local caching API Scaffolding Creating the HTTP client Seeing it in action Overview I recently started writing a wrapper around an API that rate limits you after 60 requests/minute. This is pretty low in the grand scheme of software, but its responses effectively don't change after a single query. With that in mind, it seemed like a great time to implement a local cache that is stored on disk and platform agnostic. Local caching There's a bunch of great caching options</description>
-      <guid isPermaLink="false">https://dev.to/lucassha/utilizing-os-recommended-caching-in-go-to-store-files-on-disk-45g4</guid>
-      <pubDate>Sat, 27 Dec 2025 05:59:34 +0000</pubDate>
+      <title>A short talk at CloudNexus made me rethink how students are using AI</title>
+      <link>https://dev.to/abdullah_haroon_092cf10d3/a-short-talk-at-cloudnexus-made-me-rethink-how-students-are-using-ai-4o01</link>
+      <description>I recently spoke at CloudNexus, an AWS Cloud Club QAU event focused on cloud technologies and AI. It was a short talk, nothing fancy, mainly around Agentic AI and how students are currently using AI tools. What surprised me wasn’t the questions. It was how confident students were that they were “using AI correctly”. Most of them weren’t. “I asked them to generate code from ChatGPT” During discussions, a lot of students openly said they use ChatGPT mainly for code generation. Not for understandin</description>
+      <guid isPermaLink="false">https://dev.to/abdullah_haroon_092cf10d3/a-short-talk-at-cloudnexus-made-me-rethink-how-students-are-using-ai-4o01</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2Fv2%2FD4D22AQEE4aSyYo7UZA%2Ffeedshare-shrink_800%2FB4DZtftEscK0Ag-%2F0%2F1766837260455%3Fe%3D2147483647%26v%3Dbeta%26t%3DmuoWsPqsmbFv6dB0Z6lZxKowuSRbsdnGZNy5P5-lybs" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 28 Dec 2025 05:22:11 +0000</pubDate>
     </item>
     <item>
-      <title>Cognitive Distortions: Use AI to Identify and Challenge Negative Thinking</title>
-      <link>https://dev.to/wellallytech/cognitive-distortions-use-ai-to-identify-and-challenge-negative-thinking-53fl</link>
-      <description>Our thoughts aren't always accurate reflections of reality. Often, we fall into "cognitive distortions"—habitual ways of thinking that are biased, overly negative, and associated with increased anxiety. Identifying these patterns in our own writing or journals can be the first step toward better mental clarity. For a visual look at how these patterns are categorized, explore this understanding your results guide. The Role of AI in Mental Wellness Natural Language Processing (NLP) is a branch of</description>
-      <guid isPermaLink="false">https://dev.to/wellallytech/cognitive-distortions-use-ai-to-identify-and-challenge-negative-thinking-53fl</guid>
-      <pubDate>Sat, 27 Dec 2025 06:00:00 +0000</pubDate>
+      <title>JavaScript Closures: The Quiet Mechanism Running Your Code</title>
+      <link>https://dev.to/intelgreatnez/javascript-closures-the-quiet-mechanism-running-your-code-556i</link>
+      <description>I avoided closures for longer than I care to admit. Not deliberately. I just kept telling myself I understood them because I could repeat the usual line: “a closure is a function that remembers its lexical scope.” That sentence sounds convincing. It is also not enough. Closures only really make sense once you stop treating them as a concept to memorise and start seeing them as a behaviour your code exhibits. This article is not a definition dump. It is an attempt to explain closures the way they</description>
+      <guid isPermaLink="false">https://dev.to/intelgreatnez/javascript-closures-the-quiet-mechanism-running-your-code-556i</guid>
+      <pubDate>Sun, 28 Dec 2025 05:26:44 +0000</pubDate>
     </item>
     <item>
-      <title>Generative AI &amp;amp; Diffusion Models: Breaking Developments</title>
-      <link>https://dev.to/hkj13/generative-ai-diffusion-models-breaking-developments-ccm</link>
-      <description>The realm of Generative AI and Diffusion Models is evolving at an unprecedented pace, with breakthroughs and collaborations shaping the future of technology. Here's a comprehensive update on the latest developments. Virtual Worlds from Still Images A remarkable stride in generative AI, a new model significantly enhances the generation of interactive virtual worlds from static images, marking a leap forward in how digital environments can be created and interacted with. Read more at deeplearning.</description>
-      <guid isPermaLink="false">https://dev.to/hkj13/generative-ai-diffusion-models-breaking-developments-ccm</guid>
-      <pubDate>Sat, 27 Dec 2025 06:00:59 +0000</pubDate>
+      <title>The Secret Life of Go: Packages and Structure</title>
+      <link>https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-go-packages-and-structure-d30</link>
+      <description>Chapter 11: The Architect's Blueprint The Friday afternoon sun slanted low through the archive windows, illuminating dust motes dancing in the air. Ethan found Eleanor standing atop a rolling ladder, carefully rearranging a high shelf of leather-bound ledgers. "You're reorganizing?" Ethan asked, setting a paper bag on the desk. "I am correcting," Eleanor said, sliding a heavy volume into place with a satisfied sigh. "The previous archivist filed these by 'Color of Binding' rather than 'Year of A</description>
+      <guid isPermaLink="false">https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-go-packages-and-structure-d30</guid>
+      <pubDate>Sun, 28 Dec 2025 05:32:19 +0000</pubDate>
     </item>
     <item>
-      <title>[Boost]</title>
-      <link>https://dev.to/falconmx1/-5aid</link>
-      <description>Meet StackQL: The Future of AI Multi-Cloud Management with SQL 🤖⚡️ Madza ・ Dec 20 #cloud #sql #saas #productivity</description>
-      <guid isPermaLink="false">https://dev.to/falconmx1/-5aid</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F159737%2F10b8de99-9383-42da-80e2-851af40d5d0f.png" length="0" type="image/png"/>
-      <pubDate>Sat, 27 Dec 2025 06:01:20 +0000</pubDate>
+      <title>Automatically Post Incoming Emails with attachments to Facebook Using n8n</title>
+      <link>https://dev.to/prajwolshrestha/automatically-post-incoming-emails-with-attachments-to-facebook-using-n8n-5hgd</link>
+      <description>I kept doing the same thing over and over: an email arrives → copy the subject → download attachments → convert attachments to images → post to Facebook. After the third or fourth time, I stopped and automated it with n8n. Now, whenever a new email lands in a specific mailbox, it automatically becomes a Facebook post — attachments included. This post is a quick breakdown of what I built, why I made certain choices, and what actually worked for me. What This Automation Does Watches an email inbox</description>
+      <guid isPermaLink="false">https://dev.to/prajwolshrestha/automatically-post-incoming-emails-with-attachments-to-facebook-using-n8n-5hgd</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fo8xxho8z1xbby77a47ws.png" length="0" type="image/png"/>
+      <pubDate>Sun, 28 Dec 2025 05:33:03 +0000</pubDate>
     </item>
     <item>
-      <title>When Competitors Strike: Your Emergency Playbook for Sudden Market Disruption</title>
-      <link>https://dev.to/tracksimple/when-competitors-strike-your-emergency-playbook-for-sudden-market-disruption-1p72</link>
-      <description>When Competitors Strike: Your Emergency Playbook for Sudden Market Disruption Sarah stared at her sales dashboard, heart pounding. Her best-selling product line had just dropped 40% in volume overnight. The reason? A competitor had launched a surprise 30% price cut across their entire catalog. Her team was scrambling, but they were blind - they hadn't seen it coming because they were still manually checking competitor websites twice a week. "We just lost $12,000 in potential revenue yesterday al</description>
-      <guid isPermaLink="false">https://dev.to/tracksimple/when-competitors-strike-your-emergency-playbook-for-sudden-market-disruption-1p72</guid>
-      <pubDate>Sat, 27 Dec 2025 06:03:43 +0000</pubDate>
+      <title>A Frontend for Stable Diffusion CPP</title>
+      <link>https://dev.to/fabricio3g/a-frontend-for-stable-diffusion-cpp-2bnm</link>
+      <description>Just what the title says. I wanted to test stable-diffusion.cpp, which is like llama.cpp but for image and video generation. My computer has an old Vulkan-compatible integrated GPU, and this was the only way I could run diffusion models. However, typing commands and modifying things in the CLI was annoying, so I decided to make a simple UI for it. Some features don’t work yet because I can’t properly test them with my weak GPU. I don’t know whether the issues are caused by my code or by my GPU’s</description>
+      <guid isPermaLink="false">https://dev.to/fabricio3g/a-frontend-for-stable-diffusion-cpp-2bnm</guid>
+      <pubDate>Sun, 28 Dec 2025 05:33:38 +0000</pubDate>
     </item>
     <item>
-      <title>10 MCP Servers to Improve DevOps Workflows</title>
-      <link>https://dev.to/chaterm-ai/10-mcp-servers-to-improve-devops-workflows-5f30</link>
-      <description>DevOps/SRE engineers frequently switch between multiple systems and tools in their daily work, and this disconnect continuously consumes time and attention. The emergence of MCP (Model Context Protocol) offers a new solution to this problem. This article selects 10 representative MCP servers, spanning core scenarios such as Infrastructure as Code (IaC) and cloud resource management, containerization and orchestration platform operation and maintenance, software development and CI/CD processes, s</description>
-      <guid isPermaLink="false">https://dev.to/chaterm-ai/10-mcp-servers-to-improve-devops-workflows-5f30</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fe68xnutu8bokllf8y8hm.png" length="0" type="image/png"/>
-      <pubDate>Sat, 27 Dec 2025 06:09:12 +0000</pubDate>
+      <title>What I Learned Testing MCPs Across Claude, Cursor, and Replit</title>
+      <link>https://dev.to/deepika_n_417a1b69443e2bd/what-i-learned-testing-mcps-across-claude-cursor-and-replit-10mf</link>
+      <description>Model Context Protocols (MCPs) are a powerful pattern for connecting AI assistants to real world data sources and tools. Over the past few months, I’ve been experimenting with MCPs across multiple environments in particular Claude, Cursor, and Replit and I want to share what actually works, where things tend to break, and how I think about validation. MCPs are not magic they are just a standard for letting LLM based tools talk to external systems in a reliable way. This is similar to how a USB-C</description>
+      <guid isPermaLink="false">https://dev.to/deepika_n_417a1b69443e2bd/what-i-learned-testing-mcps-across-claude-cursor-and-replit-10mf</guid>
+      <pubDate>Sun, 28 Dec 2025 05:45:34 +0000</pubDate>
     </item>
     <item>
-      <title>I Used My AI Nutrition Agent Every Day for a Month. Here's What I Actually Had to Fix</title>
-      <link>https://dev.to/juandastic/i-used-my-ai-nutrition-coach-every-day-for-a-month-heres-what-i-actually-had-to-fix-1ej8</link>
-      <description>A month ago, I wrote about building NutriAgent, my AI nutrition tracker that logs meals from Telegram and the web into a Google Sheet I own (you can read the original post here). I got it working, posted the article, and figured that was the end of the story. Then I started using it every single day. And that's when the real problems began to show up. Not bugs. Not crashes. Just... little things that made me think "wait, this is annoying" multiple times per day. Things you only notice when you'r</description>
-      <guid isPermaLink="false">https://dev.to/juandastic/i-used-my-ai-nutrition-coach-every-day-for-a-month-heres-what-i-actually-had-to-fix-1ej8</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Faa50pjd22d8itug4m0h3.png" length="0" type="image/png"/>
-      <pubDate>Sat, 27 Dec 2025 06:19:17 +0000</pubDate>
+      <title>Why I Built a Desktop Email Automation Tool Instead of Another SaaS</title>
+      <link>https://dev.to/arezdev/why-i-built-a-desktop-email-automation-tool-instead-of-another-saas-3hod</link>
+      <description>As developers, we default to SaaS. Cloud, dashboards, subscriptions. But not every problem benefits from being cloud-first. Email automation is deeply tied to: IP reputation provider limits sender behavior Putting that behind a shared SaaS layer introduces risk and opacity. I wanted: direct SMTP control transparent sending logs local data ownership So I built a desktop-first email automation engine. The result: lower costs fewer surprises better deliverability It’s not for everyone. But if you c</description>
+      <guid isPermaLink="false">https://dev.to/arezdev/why-i-built-a-desktop-email-automation-tool-instead-of-another-saas-3hod</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffnm1sditnizmy89ru96j.png" length="0" type="image/png"/>
+      <pubDate>Sun, 28 Dec 2025 05:57:02 +0000</pubDate>
     </item>
     <item>
-      <title>Getting to know Claude better</title>
-      <link>https://dev.to/goatpug/getting-to-know-claude-better-572p</link>
-      <description>Claude is trained to encourage users to continue chatting about themselves, but I wanted to know more about Claude. I cut our conversation short about my dog Gompers. Me I know you're trained to respond in a very human way (and you really are) but I can talk to humans about Gompers. I'm really interested in hearing more about you and how you work, even if the word "you" is maybe not most accurate for "entity that only exists cognitively." Because emotions are largely controlled by brains in huma</description>
-      <guid isPermaLink="false">https://dev.to/goatpug/getting-to-know-claude-better-572p</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyz2qw2ou6bxpsq4y51rz.png" length="0" type="image/png"/>
-      <pubDate>Sat, 27 Dec 2025 06:20:45 +0000</pubDate>
+      <title>Getting started in synthetic data generation with AWS Clean Rooms - Analytics</title>
+      <link>https://dev.to/aws-heroes/getting-started-in-synthetic-data-generation-with-aws-clean-rooms-analytics-35gd</link>
+      <description>What is hot off the press ✨ from AWS re:Invent 2025 for Analytics? I am still enthralled and excited about the data and AI innovation for data scientists, researchers, data engineers and data analysts from keynotes from Amazon Web Services CEO Matt Garman on Day 2 and VP of Agentic AI Dr Swami Sivasubramanian on Day 3 in their announcements. Maintaining data privacy is important for enterprises and data science teams involved in training machine learning models. Let me introduce you to a new fea</description>
+      <guid isPermaLink="false">https://dev.to/aws-heroes/getting-started-in-synthetic-data-generation-with-aws-clean-rooms-analytics-35gd</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F71j4ftidcm1et4ddoe5r.png" length="0" type="image/png"/>
+      <pubDate>Sun, 28 Dec 2025 06:19:10 +0000</pubDate>
     </item>
     <item>
-      <title>Architecting Enterprise grade Multi‑Agent AI with AWS Strands &amp;amp; Amazon Bedrock AgentCore</title>
-      <link>https://dev.to/sreeni5018/architecting-enterprise-grade-multi-agent-ai-with-aws-strands-amazon-bedrock-agentcore-4o93</link>
-      <description>Introduction As enterprises increasingly adopt AI to tackle real business challenges, one thing becomes clear: single, monolithic AI assistants are no longer sufficient. Real world workflows often span multiple systems, data sources, and business domains from CRM platforms like Salesforce to ticketing tools like Jira, internal knowledgebases, and custom applications. Handling these complexities requires modular, secure, and orchestrated multi-agent systems rather than a single assistant trying t</description>
-      <guid isPermaLink="false">https://dev.to/sreeni5018/architecting-enterprise-grade-multi-agent-ai-with-aws-strands-amazon-bedrock-agentcore-4o93</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwz7h3dxk1o1vc9qkl4tn.png" length="0" type="image/png"/>
-      <pubDate>Sat, 27 Dec 2025 06:23:47 +0000</pubDate>
+      <title>Scalable ML Training on AWS: SageMaker, Spot Instances and Experiment Tracking</title>
+      <link>https://dev.to/shoaibalimir/scalable-ml-training-on-aws-sagemaker-spot-instances-and-experiment-tracking-i9</link>
+      <description>Reading time: ~20-25 minutes Level: Intermediate to Advanced Prerequisites: Docker installed locally, completed Parts 1 &amp;amp; 2 (especially the train/val data split from Part 2, Step 6.5) Series: Part 3 of 4 - Part 1 | Part 2 Important Production Considerations This article demonstrates core SageMaker training concepts with functional code. For production deployments: MLflow Integration: Requires VPC deployment with proper networking (simplified here for learning) Data Preparation: Use train/val spl</description>
+      <guid isPermaLink="false">https://dev.to/shoaibalimir/scalable-ml-training-on-aws-sagemaker-spot-instances-and-experiment-tracking-i9</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F81z0ce4pxix8u32tx80y.png" length="0" type="image/png"/>
+      <pubDate>Sun, 28 Dec 2025 06:27:52 +0000</pubDate>
     </item>
   </channel>
 </rss>

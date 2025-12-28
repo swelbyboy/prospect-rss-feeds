@@ -8,56 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 27 Dec 2025 06:35:35 +0000</lastBuildDate>
-    <item>
-      <title>NVIDIA CUDA Tile IR Open-Sourced</title>
-      <link>https://www.phoronix.com/news/NVIDIA-CUDA-Tile-IR-Open-Source</link>
-      <description>As a wonderful Christmas gift to open-source fans, NVIDIA dropped their proprietary license on the CUDA Tile intermediate representation and has now made the IR open-source software...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-CUDA-Tile-IR-Open-Source</guid>
-      <pubDate>Thu, 25 Dec 2025 20:23:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Arch Linux Powered CachyOS To Develop A Server Edition</title>
-      <link>https://www.phoronix.com/news/CachyOS-Server-Edition-Coming</link>
-      <description>The Arch Linux based CachyOS has been quite popular with Linux gamers and enthusiasts for offering leading out-of-the-box performance, especially following the shutdown of Intel's Clear Linux. CachyOS has developed quite a following on the Linux desktop while looking ahead to 2026 they will be working on a server edition...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/CachyOS-Server-Edition-Coming</guid>
-      <pubDate>Thu, 25 Dec 2025 20:44:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Linux Patches Improve exFAT Read Performance Via Multi-Cluster Mapping</title>
-      <link>https://www.phoronix.com/news/Linux-exFAT-Reads-MC-Map</link>
-      <description>For those using Microsoft's exFAT file-system under Linux for the likes of flash drives and SD cards, a new patch series posted today aims to enhance the read performance. The new patches are shown to improve performance by about 10% while also having lower overhead...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-exFAT-Reads-MC-Map</guid>
-      <pubDate>Fri, 26 Dec 2025 10:52:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nova Driver Progress &amp;amp; Other NVIDIA Linux News From 2025</title>
-      <link>https://www.phoronix.com/news/NVIDIA-Linux-2025-Highlights</link>
-      <description>This year there was a lot of going on in the NVIDIA Linux world from their official driver stack seeing better Wayland support to a lot on the open-source scene from NVIDIA engineers contributing a lot directly to the Rust-based Nova open-source driver that continues taking shape, the Mesa NVK Vulkan driver becoming more performant and capable, and a lot of other happenings. Here is a look back at the most popular NVIDIA content of 2025 on Phoronix...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-Linux-2025-Highlights</guid>
-      <pubDate>Fri, 26 Dec 2025 11:09:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Runtime Standby ABI Proposed For Linux Akin To Microsoft Windows' "Modern Standby"</title>
-      <link>https://www.phoronix.com/news/Linux-Runtime-ABI-Standby</link>
-      <description>An exciting post-Christmas patch series out on the Linux kernel mailing list this morning is proposing a new runtime standby ABI that is similar in nature to the "Modern Standby" functionality found with Microsoft Windows...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Runtime-ABI-Standby</guid>
-      <pubDate>Fri, 26 Dec 2025 11:23:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ubuntu's Rust Infatuation, New Optimizations &amp;amp; Other Ubuntu Linux 2025 Highlights</title>
-      <link>https://www.phoronix.com/news/Ubuntu-2025-Highlights</link>
-      <description>It was a very interesting year for Ubuntu Linux. Ahead of the important Ubuntu 26.04 LTS release due out this coming April, Ubuntu Linux this year was expeditiously migrating to new Rust-based system tools like sudo-rs and Rust Coreutils, new performance optimizations continued to be explored for bettering the out-of-the-box Ubuntu performance, better ARM64 support with its desktop ISO, and enhancing the Snapdragon X Elite laptop support were among the Ubuntu highlights in 2025...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-2025-Highlights</guid>
-      <pubDate>Fri, 26 Dec 2025 11:47:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coreboot 25.12 Released With Qualcomm X1 Plus Platform Support, AMD Turin PoC</title>
-      <link>https://www.phoronix.com/news/Coreboot-25.12-Released</link>
-      <description>Coreboot 25.12 is out today as the latest quarterly feature update to this open-source BIOS/firmware solution...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Coreboot-25.12-Released</guid>
-      <pubDate>Fri, 26 Dec 2025 15:48:11 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 28 Dec 2025 06:36:03 +0000</lastBuildDate>
     <item>
       <title>AMD RDNA3/RDNA4 Go Down Hard On Linux 6.19, But Here's How The Older AMD GPUs End Out 2025</title>
       <link>https://www.phoronix.com/review/old-amdgpu-eoy2025</link>
@@ -78,6 +29,55 @@
       <description>Announced earlier in December but flying under the radar until now is the initial reoease of a QNX Self-Hosted Developer Desktop. This is a developer environment for the QNX real-time operating system primarily used on embedded systems. With now having this developer desktop option, the hassle of cross-compilation to target QNX can be avoided...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/QNX-Self-Hosted-Dev-Desktop</guid>
       <pubDate>Sat, 27 Dec 2025 02:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19 Lands Fix For ARM64 EFI Systems Crashing On Boot</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Fix-ARM64-EFI-Crash</link>
+      <description>Adding to the early headaches of Linux 6.19 with some regressions in performance and functionality were ARM64 hosts crashing on this in-development kernel version for those platforms using EFI. But a fix is now merged ahead of Linux 6.19-rc3 due out tomorrow...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Fix-ARM64-EFI-Crash</guid>
+      <pubDate>Sat, 27 Dec 2025 10:58:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intel Open-Source Software Setback: IWD Development Hiatus</title>
+      <link>https://www.phoronix.com/news/Intel-IWD-Development-Halts</link>
+      <description>Adding to the unfortunate engineering setbacks at Intel this year as part of cost-cutting measures, the Intel IWD software development has been on a hiatus for the past three months. Going from previously seeing monthly releases and almost constant activity to now development ceasing up with no activity in the past three months...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-IWD-Development-Halts</guid>
+      <pubDate>Sat, 27 Dec 2025 11:14:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux Kernel Highlights For 2025: Schedulers, Rust &amp;amp; Torvalds' Commentary</title>
+      <link>https://www.phoronix.com/news/Linux-Kernel-Highlights-2025</link>
+      <description>With the end of the year quickly drawing to a close, here is a look back at the most-viewed Linux kernel news of 2025...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Kernel-Highlights-2025</guid>
+      <pubDate>Sat, 27 Dec 2025 11:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>44% Of GNOME Core Apps Are Written In C, 13% In JavaScript &amp;amp; 10% In Rust</title>
+      <link>https://www.phoronix.com/news/GNOME-2025-Code-Stats</link>
+      <description>GNOME developer Sophie Herold has shared some interesting end-of-year code stats for the GNOME project. The "GNOME" codebase is up to 6,692,516 lines of code at the end of 2025 with 1,611,526 lines of that being from GNOME apps. Where the data gets interesting is on the programming language breakdown in different areas...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-2025-Code-Stats</guid>
+      <pubDate>Sat, 27 Dec 2025 14:44:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>HarfBuzz 12.3 Released - Nice Performance Improvements To This Text Shaping Engine</title>
+      <link>https://www.phoronix.com/news/HarfBuzz-12.3-Released</link>
+      <description>HarfBuzz 12.3 was just released for ending out 2025 with some nice performance improvements to this widely-used text shaping engine. HarfBuzz in turn is used by the prominent Linux desktop environments, Java, Flutter, various game engines, and apps like Chrome and Firefox for text shaping needs with OpenType fonts and more...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/HarfBuzz-12.3-Released</guid>
+      <pubDate>Sat, 27 Dec 2025 20:46:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>SDL Fixes Support For More Than Five Mouse Buttons For Gaming On Wayland</title>
+      <link>https://www.phoronix.com/news/SDL-More-Mouse-Buttons-Wayland</link>
+      <description>The Simple DirectMedia Library that is widely-used by many cross-platform games and part of the Steam Runtime now has better support for handling more mouse button events under Wayland...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/SDL-More-Mouse-Buttons-Wayland</guid>
+      <pubDate>Sun, 28 Dec 2025 00:57:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blender 5.0 Benchmarks Since Blender 3.0 For CPU Rendering Performance</title>
+      <link>https://www.phoronix.com/news/Blender-5.0-Benchmarks-To-3.0</link>
+      <description>As part of the many different year-end benchmarks on Phoronix, over the holidays I was curious about how far the Blender 3D modeling software's performance has evolved over the past few years. So in looking at the CPU rendering performance I ran benchmarks of the major releases since Blender 3.0 through the recently released Blender 5.0...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Blender-5.0-Benchmarks-To-3.0</guid>
+      <pubDate>Sun, 28 Dec 2025 01:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
