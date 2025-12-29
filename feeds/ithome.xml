@@ -8,79 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Dec 2025 06:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 06:42:25 +0000</lastBuildDate>
     <item>
-      <title>Linux核心首度出現Rust漏洞，恐導致系統當機</title>
-      <link>https://www.ithome.com.tw/news/173032</link>
-      <description>新聞Linux核心近期修補一項重大資安漏洞CVE-2025-68260，這也是主線核心中首度正式指派給Rust程式碼的漏洞案例。該問題影響以Rust重寫的Android Binder模組，在特定條件下可能造成記憶體損毀，甚至引發系統當機。 這項漏洞屬於競爭條件問題，發生於Rust Binder元件的death_list處理機制，相關程式碼位於drivers/android/binder/node.rs。Binder是Android系統中重要的行程間通訊（Inter-Process Communication，IPC）機制，因此該漏洞對系統穩定性具有實質影響。 根據研究人員的分析，問題核心出在Node::release函式的鎖定流程設計。該函式會先取得鎖定，將共享連結串列中的元素移至暫時的本地堆疊，隨後提前釋放鎖定，再對本地清單進行處理。然而，在鎖定解除後、處理尚未完成的短暫時間內，其他執行緒仍可能同時操作原始清單的prev與next指標，進而產生競爭條件。 一旦這種狀況發生，連結串列的指標結構可能遭到破壞，導致記憶體損毀。實務上，該漏洞最直接的後果是核心崩潰（Kernel Panic）</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173032</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/1225-CVE-2025-68260-linux.png" length="0" type="image/png"/>
-      <pubDate>Fri, 26 Dec 2025 03:28:04 +0000</pubDate>
+      <title>衛福部揭FHIR資料中臺新進展，一條龍工具是下一步關鍵</title>
+      <link>https://www.ithome.com.tw/news/173064</link>
+      <description>新聞衛福部資訊處推動次世代數位醫療平臺計畫滿兩年，跨院電子病歷即時互通也首度在實際場域完成驗證。衛福部資訊處處長李建璋形容，當三家使用不同系統的醫學中心，在現場即時交換病歷資料時，震撼程度「就像雪山隧道打通一樣」。參與驗證的中山醫學大學附設醫院則指出，FHIR資料中臺的交換機制已證實可行，FHIR一條龍編碼工具也初步證實可降低人工負擔。接下來若要擴大落地，取決於工具成熟度和政策誘因。 臺灣電子病歷像頁岩油，FHIR中臺要解決開採問題 李建璋指出，在21世紀，資料被視為新的石油，而臺灣的電子病歷資料更像是「頁岩油」──資源龐大，卻難以開採。主因在於，全臺超過40套電子病歷系統彼此無法互通，使大量臨床資料被鎖在各院系統中，難以被有效運用。 他以美國頁岩油革命為例指出，美國能在十年間突破能源限制，靠的是科技；臺灣選擇以同樣的精神，透過軟體與資料標準化，打通跨院電子病歷的技術壁壘。這也是衛福部規畫FHIR資料中臺的定位，不要求醫院全面更換既有系統，而是以統一的資料交換標準，讓不同系統互通。 然而，電子病歷碎片化是全球共同難題，不少國家選擇導入成熟的商用電子病歷系統。但臺灣不走這條路，因為，若要</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173064</guid>
+      <pubDate>Sat, 27 Dec 2025 18:53:09 +0000</pubDate>
     </item>
     <item>
-      <title>【回顧2025】從2百位CIO第一手洞察，剖析臺灣大型企業的GenAI進化之路(上)</title>
-      <link>https://www.ithome.com.tw/news/173053</link>
-      <description>新聞在GenAI的時代，每一家企業都是挑戰者，只是各自的步調不同，有的企業衝得快，有的企業走得謹慎，但也有企業還在觀望而沒有展開行動。 根據IDC在2025年11月公布的4千位企業決策者調查結果，全球GenAI前沿企業（Frontier Firm）約占22%。這些企業的GenAI，不只更廣，更多樣化，也更落實負責任AI。 相較於國外，臺灣企業開始規模化運用GenAI的企業更少，根據我們今年CIO大調查，只有5%臺灣企業今年開始擴大規模，透過系統化流程、組織與架構的做法，來擴大GenAI的應用廣度。 為何多數臺灣企業擁抱生成式AI的腳步，相對較慢，但為何又有少數企業可以跟上全球GenAI領先企業的腳步，我們分析了256位企業CIO和IT主管對企業擁抱GenAI的洞察，歸納出臺灣不同GenAI發展成熟度的企業，各自面對的挑戰和機會。 這個發展成熟度分類，參考Gartner的AI發展成熟度，讓CIO自評，將企業GenAI應用的發展，區分為「計畫階段」、「導入與驗證階段」、「正式上線階段」、「擴大採用階段」、「深化內化階段」、「有需要但沒有計畫」和「沒有需要或不知道」等階段。 根據我們今年的大</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173053</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E7%94%9F%E6%88%90%E5%BC%8FAI%E6%BC%94%E5%8C%96%E4%B9%8B%E8%B7%AF(1).png" length="0" type="image/png"/>
-      <pubDate>Fri, 26 Dec 2025 04:39:08 +0000</pubDate>
+      <title>Nvidia傳縮減DGX公雲組織配置 轉為內部用途</title>
+      <link>https://www.ithome.com.tw/news/173066</link>
+      <description>新聞The Information報導，Nvidia近日內部改組，縮減公雲部門DGX組織規模，以專注在晶片開發業務。 報導引述消息人士指出，Nvidia並未完全裁撤DGX公雲部門，只是縮減人數，並將合併到Nvidia核心工程事業群下，由負責軟體工程的資深副總裁Dwight Diercks統率。而未來DGX雲的功用也轉為僅供內部工程師用於AI研究或軟、硬體開發及測試。 報導並說，在稍早的財報中，Nvidia已不再單單強調對DGX Cloud基礎架構的支出，被認為在淡化它在外部營運的角色。 Nvidia是在2023年推出DGX Cloud服務。基本上該服務是架構在甲骨文Oracle Cloud、Microsoft Azure及Google Cloud上的雲服務，旨在讓企業客戶可以像租用AWS伺服器一樣租用Nvidia自己最強大的GPU（如H100 / Blackwell系列）與完整軟體堆疊來訓練與部署大型AI模型。Nvidia當時承諾可讓客戶避開GPU供不應求的情況，並且借由DGX Cloud提供「端到端」可控的AI計算環境。但由於Nvidia同時也向公雲業者，包括Amazon Web S</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173066</guid>
+      <pubDate>Mon, 29 Dec 2025 00:49:49 +0000</pubDate>
     </item>
     <item>
-      <title>舊金山停電，Waymo無人車阻斷交通</title>
-      <link>https://www.ithome.com.tw/news/173056</link>
-      <description>新聞美國太平洋瓦斯電力公司（PG&amp;amp;E）位於舊金山的變電站12月20日發生火災，造成舊金山出現大規模停電，影響全市近三分之一地區用電，多處主要道路交通號誌同時失效，市區交通一度陷入混亂。停電期間，亦傳出Waymo無人駕駛計程車停留在十字路口，進一步加劇道路壅塞，Waymo隨後暫停在舊金山的服務。 在停電期間，多輛Waymo無人計程車被拍到停在街道與路口中央，後方車流回堵，引發民眾與駕駛不滿。社群平臺流傳的畫面顯示，部分路口同時有多輛Waymo車輛停留原地。舊金山是Waymo自駕計程車的重要營運城市，外界估計當地約部署1,000輛Waymo車輛。 Waymo於周二（12/23）說明，應對如此大規模的事件對自動駕駛技術而言是一項獨特挑戰。Waymo Driver在設計上，會將熄燈的交通號誌視為四向停車路口，但在部分情況下仍會請求後端確認，以確保做出最安全的選擇。 Waymo表示，其無人駕駛計程車於20日當天成功通過超過7,000個號誌失效的路口，但此次停電導致確認請求短時間內激增，形成積壓，部分車輛因此停留時間拉長，加劇了擁塞情況。為避免進一步影響交通，Waymo隨後暫停營運，並指示車隊靠邊</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173056</guid>
-      <pubDate>Fri, 26 Dec 2025 06:44:32 +0000</pubDate>
+      <title>勒索軟體Everest駭客宣稱竊得克萊斯勒包含Salesforce等1TB資料</title>
+      <link>https://www.ithome.com.tw/news/173067</link>
+      <description>新聞操作勒索軟體Everest的駭客組織上周在聖誕節當天，於其暗網網站宣告成功入侵美國汽車大廠克萊斯勒（Chrysler）內部系統，竊走超過1TB資料。 根據媒體發現到的公告，遭駭客存取的資料庫內含1088 GB資料，當中包含超過105GB的Salesforce資料夾。資料庫內為2021年到2025年聖誕節的資料，像是個人個資如姓名、電話號碼、地址和電子郵件位址、客服人員工作記錄如召回事件筆記、聯繫紀錄（如語音留言、失聯、電話號碼有誤）、以及汽車狀態（如已銷售、維修、找不到車主）、開會預約等。 駭客還公佈了數張Salesforce資料螢幕擷圖作為證明，顯示內部FTP檔案路徑、內部工具、經銷商名冊、召回方案等以及包含員工姓名、工作狀態的HR資料。 不確定犯案時間，以及影響克萊斯勒哪個部門或地區的內部資料，或是本案和早前另一件Salesforce資料外洩是否有關。克萊斯勒母公司跨國汽車業巨擘Stellantis集團九月也曾公告遭駭，外洩北美客戶資料。ShinyHunters向Bleeping Computer表示，宣稱從Stellantis的Salesforce竊走超過1,800萬筆紀錄，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173067</guid>
+      <pubDate>Mon, 29 Dec 2025 01:06:07 +0000</pubDate>
     </item>
     <item>
-      <title>LLM調度框架LangChain核心元件序列化注入漏洞，可能導致環境變數機密外洩</title>
-      <link>https://www.ithome.com.tw/news/173052</link>
-      <description>新聞知名大型語言模型調度開源框架LangChain團隊發布安全通報，揭露核心套件langchain-core存在序列化注入漏洞CVE-2025-68664，該漏洞CVSS 3.1基礎分數為9.3，屬重大等級。受影響版本為langchain-core小於0.3.81，或介於1.0.0以上且低於1.2.5。官方已釋出修補版本0.3.81與1.2.5，並同步收緊load()與loads()的預設行為，以降低誤用風險。 漏洞出在langchain-core本身的dumps與dumpd序列化功能。LangChain有一套內部資料格式，會用lc這個保留欄位來標記這段資料可以在之後被還原成LangChain物件。官方指出，問題在於dumps()與dumpd()在序列化一般字典資料時，沒有妥善處理剛好含有lc欄位的外部可控內容。結果是這些資料在後續經由load()或loads()還原時，可能被當成真正的LangChain物件來建立，進而引發安全風險。 官方指出，較常見的風險並非攻擊者直接提供序列化內容要求系統載入，而是大型語言模型回應中的欄位，可能在提示詞注入影響下，被引導生成攻擊者想要的內容或結構，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173052</guid>
-      <pubDate>Fri, 26 Dec 2025 07:07:23 +0000</pubDate>
+      <title>【資安週報】1222~1226，羅馬尼亞水務局近千臺電腦遭勒索軟體攻擊，攻擊者利用BitLocker將檔案惡意加密</title>
+      <link>https://www.ithome.com.tw/news/173069</link>
+      <description>新聞回顧2025年12月第四個星期資安新聞，有3起臺灣上市公司的資安重訊受到關注，其中南陽實業資訊系統遭駭事件尤為引人注意，駭客為了對受害企業施加壓力，在入侵後刻意濫用企業介接外部簡訊服務商的內部系統，向受害企業的用戶發送簡訊，以擴大資料遭竊事件的傳播。 ●南陽實業作為韓國現代汽車（Hyundai）在臺總代理，在12月23日傳出遭駭事件，部分車主收到署名DireWolf勒索團體的簡訊，聲稱車主個資已被南陽實業洩露。後續南陽實業表示：公司簡訊系統遭到入侵，導致部分車主收到駭客寄送的簡訊，同日，南陽實業的母公司三陽工業也代其發布資安重訊，說明南陽實業偵測到部分資訊系統遭駭客網路攻擊。 ●臺灣連接器廠商信邦電子於12月24日發布重大訊息，揭露其集團與海外子公司發現主機遭不明駭客入侵，伺服器資料被惡意加密，導致系統部分無法使用。 ●半導體元件代理與經銷商至上電子在12月21日發布重訊，說明發生網路資安事件，指出資訊系統遭受駭客網路攻擊。 還有一項消息是，甫上櫃的NAS廠商威聯通驚傳資安事故，有駭客聲稱取得myQNAPcloud的內部存取權限，後續威聯通發布重訊，澄清報導內容是媒體誤解，是單一用</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173069</guid>
+      <pubDate>Mon, 29 Dec 2025 02:37:21 +0000</pubDate>
     </item>
     <item>
-      <title>Fortinet警示5年前公布的SSL VPN漏洞再遭積極利用</title>
-      <link>https://www.ithome.com.tw/news/173059</link>
-      <description>新聞資安公司Fortinet在12月例行更新當中，修補重大層級的漏洞CVE-2025-59718及CVE-2025-59719引起高度關注，事隔3天傳出有人用於實際攻擊，本週該公司指出，有個5年前的資安漏洞，近期再度出現漏洞利用的情況而成為焦點。 12月24日Fortinet提出警告，他們偵測到於2020年7月修補的資安漏洞CVE-2020-12812遭到利用，攻擊者針對特定組態的防火牆設備FortiGate下手，從而繞過身分驗證機制，對此，該公司呼籲IT人員，應儘速清查設備是否遭到入侵。 針對CVE-2020-12812，此為防火牆作業系統FortiOS的SSL VPN漏洞，起因是身分驗證機制不完整，攻擊者有機會透過更動使用者名稱的大小寫，而能用來繞過第二個環節的驗證程序（FortiToken），進而登入系統，影響執行6.4.0、6.2.0至6.2.3，以及6.0.9版以下FortiOS的設備，CVSS風險Fortinet評為5.2分，為中度風險；然而，其他公開弱點資料庫並不這麼認為，例如，美國國家漏洞資料庫（NVD）與網路安全暨基礎設施安全局（CISA）皆將這個弱點的嚴重性認定為重</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173059</guid>
-      <pubDate>Fri, 26 Dec 2025 07:16:09 +0000</pubDate>
+      <title>Ruby 4.0引入Ruby Box隔離機制與ZJIT即時編譯器</title>
+      <link>https://www.ithome.com.tw/news/173063</link>
+      <description>新聞程式語言Ruby開發團隊按慣例在每年聖誕節發布更新，推出Ruby 4.0.0，這個主要版本把重點放在兩項新功能，包含實驗性的Ruby Box隔離機制，以及新一代即時編譯器ZJIT。除此之外，Ruby也持續推進Ractor的平行執行機制，並同步調整部分語言行為與標準函式庫配置。 Ruby 4.0新增的Ruby Box其核心概念是隔離，官方描述該功能可用來分離各種定義的影響範圍，包含猴子修補程式（Monkey Patch）、全域變數與類別變數的變更、類別與模組定義，以及載入的原生或Ruby函式庫。Ruby Box目前屬於實驗功能，其像是提供一個基礎層API，讓開發者把原本容易互相汙染的修改關在各自的範圍內，以降低副作用擴散。 官方也點出Ruby Box的預期用途，最直覺的是測試隔離。當測試為了模擬情境而大量調整行為時，隔離機制可以降低影響其他測試的機率。另一個被提及的方向是，同一個程序內並行跑多個網頁應用程式實例，用於藍綠部署，或在更新相依套件期間，先讓新舊版本並行一段時間，再以Ruby程式比對回應差異，協助團隊評估改版風險。官方同時提到，Ruby Box也可能成為未來更高層封裝機制的</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173063</guid>
+      <pubDate>Mon, 29 Dec 2025 03:28:59 +0000</pubDate>
     </item>
     <item>
-      <title>瀏覽器引擎WebKit引入CSS Grid Lanes，瀑布流排版走向原生CSS</title>
-      <link>https://www.ithome.com.tw/news/173054</link>
-      <description>新聞開源瀏覽器引擎WebKit團隊提出CSS Grid Lanes，試圖把長期依賴JavaScript函式庫才能穩定完成的瀑布流（Waterfall）排版配置，放進瀏覽器原生的CSS版面配置能力之中。該設計以新增的display:grid-lanes為入口，讓開發者沿用既有CSS Grid的軌道（Grid Track）定義語法來描述欄或列，再交由瀏覽器負責自動放置不同高度的內容項目。目前功能已可在Apple Safari技術預覽234版進行測試。 WebKit在說明中將Grid Lanes定位為瀑布流的下一步，並提到這套做法以Mozilla與WebKit之前的投入作為基礎，同時也經過CSS工作小組與各家瀏覽器多輪討論後，逐步收斂出較明確的運作方式。 W3C發布CSS Grid Layout Module Level 3工作草案，文件把grid-lanes與inline-grid-lanes納入display屬性的新值，並定義Grid Lanes的版面配置模型與相關行為。 WebKit特別把可用性與可存取性納入討論，由於傳統瀑布流常見的問題是視覺順序與鍵盤導覽順序不一致，使用者按Tab時</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173054</guid>
-      <pubDate>Fri, 26 Dec 2025 07:25:20 +0000</pubDate>
+      <title>OpenAI招募與模型安全相關的準備度主管</title>
+      <link>https://www.ithome.com.tw/news/173070</link>
+      <description>新聞OpenAI共同創辦人暨執行長Sam Altman上周宣布，該公司正在招募一名準備度主管（Head of Preparedness），負責評估模型的風險，從模型能不能作惡、會不會突破現有防護，到可否發布等，不計股票的年薪為55.5萬美元（逾1,800萬元新臺幣）。 根據OpenAI所公布的職缺，準備度主管隸屬於安全系統團隊，主導OpenAI準備度框架的技術策略與實際執行，該框架將可說明OpenAI如何追蹤及因應前沿能力所帶來、可能造成嚴重傷害的新型風險。 而準備度主管將負責評估模型能力、判斷潛在威脅，以及所對應的風險防護措施，並確保這些工作被整合為一套一致、嚴謹，且能隨著產品規模與更新節奏運作的安全流程。OpenAI表示，此一職務需要深厚的技術判斷力、清楚溝通能力，以及跨多個風險領域推動複雜工作的能力。 具體而言，該職務將全權負責OpenAI的準備度策略，主導前沿能力評估的開發，監督主要風險領域，引導評估結果的解讀，也應隨著新風險或能力的出現改善準備度框架，以及同時與研究、工程、產品、政策監測，以及執法、治理及外部合作夥伴跨部門協作，以將準備度落實於實際部署中。 從職務設計來看，外</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173070</guid>
+      <pubDate>Mon, 29 Dec 2025 03:37:45 +0000</pubDate>
     </item>
     <item>
-      <title>Kotlin 2.3.0強化多平臺工具鏈，JVM支援Java 25並提升Wasm原生互通</title>
-      <link>https://www.ithome.com.tw/news/173057</link>
-      <description>新聞JetBrains釋出Kotlin 2.3.0，該版本更新重點在於語言功能的穩定與多平臺工具鏈進展，涵蓋JVM、原生、WebAssembly與JavaScript等目標。此版本一方面讓部分語言能力走向更明確的預設行為與穩定狀態，另一方面也帶來跨平臺互通、建置效率與相容性相關的更新，協助開發者在不同執行環境間維持一致的開發與部署節奏。 Kotlin 2.3.0將巢狀型別別名，以及when表達式的資料流窮盡性（Exhaustiveness）檢查提升為穩定功能，同時把表達式主體且明確回傳型別的函式可使用return陳述式，調整為預設行為。由於要降低開發時因忽略函式回傳結果而意外犯錯的風險，官方新增未使用回傳值檢查器與相關註記，用於提示回傳值未被使用的情況。 另一方面，2.3.0也提供仍屬實驗性的明確後備欄位語法，讓屬性在對外暴露型別與內部實作型別不同的情境下，可以用更直接的方式表達與維護。至於情境式解析功能，官方仍持續修正其解析範圍與判定方式，並在可能造成歧義的情況下加入警告提示。 在Kotlin/JVM方面，2.3.0開始支援產生Java 25位元碼。Kotlin原生端則強化與Swif</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173057</guid>
-      <pubDate>Fri, 26 Dec 2025 07:38:19 +0000</pubDate>
+      <title>聚焦IT與OT資安檢測、人才培育、AI應用，臺灣第一大資安服務業者揭露未來業務三大成長動能</title>
+      <link>https://www.ithome.com.tw/news/173065</link>
+      <description>新聞在2000年成立、以網路資料中心代管業務起家的安碁資訊，幾年後跨入資安維運中心（SOC），2016年提供資安檢測服務，2017年成立電腦資安事件應變中心ACSI-CSIRT，2019年在臺灣資安大會展示首座OT資安工控系統實驗平臺、掛牌上櫃，2021年投資成立子公司安碁學苑（ACSI Academy，ACAD），2022年合併宏碁雲架構（Acer eDC），截至2025年10月底為止，年營收累計19.34億元，年增13.29％，回顧113年度，營收為21.46億元，成為臺灣最大的資安服務商。 安碁資訊目前營收有兩個主軸，其中最大的來源是資訊安全服務，包含資訊安全整合性監控及防護服務、資訊安全專業顧問服務、營運不中斷服務，例如安全維運中心（SOC）7x24，其次是資訊部門營運委外服務，屬於宏碁雲架構，與資料中心、AI算力有關的部分。 在11月底舉行的2025年第三季宏碁集團聯合法人說明會，吳乙南透露，安碁目前服務的SOC 7x24客戶有四百多個，客戶續約率目前高達95%以上，相較於2025年初113年報揭露約300個B2B客戶，成長顯著。 縱觀安碁經營的主要資安產品服務面向，總經理吳</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173065</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/ACSI-2025-11-1-SEC.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 29 Dec 2025 03:42:10 +0000</pubDate>
     </item>
     <item>
-      <title>MongoDB呼籲IT人員儘速修補高風險資安漏洞</title>
-      <link>https://www.ithome.com.tw/news/173060</link>
-      <description>新聞擁有眾多用戶的NoSQL資料庫管理系統MongoDB，其開發工程團隊近期發布資安公告，他們發布重大更新修補資安漏洞CVE-2025-14847，攻擊者可透過用戶端來觸發，此漏洞出現在MongoDB伺服器的zlib實作，可能在用戶未通過身分驗證的情況下，引發未初始化的記憶體堆疊問題，4.0版CVSS評分達到8.7分、3.1版CVSS風險評為7.5，呼籲用戶要儘速套用新版因應。 這個漏洞發生的原因，在於zlib壓縮協定的標頭欄位長度不一致，未通過身分驗證的攻擊者能以此讀取未初始化的記憶體堆疊。此漏洞的影響範圍相當廣，涵蓋8.2.0至8.2.3版、8.0.0至8.0.16版、7.0.0至7.0.26版、6.0.0至6.0.26版、5.0.0至5.0.31版，以及MongoDB 4.4.0至4.4.29版MongoDB。除此之外，4.2版、4.0版，以及3.6版MongoDB Server，也受到影響。 若是IT人員無法及時更新，開發工程團隊呼籲應停用MongoDB伺服器的zlib壓縮功能，做法是採用networkMessageCompressors或net.compression.com</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173060</guid>
-      <pubDate>Fri, 26 Dec 2025 08:11:42 +0000</pubDate>
+      <title>8.7萬臺MongoDB主機曝露MongoBleed，傳出已有實際漏洞利用活動</title>
+      <link>https://www.ithome.com.tw/news/173071</link>
+      <description>新聞12月19日MongoDB開發工程團隊發布8.2.3、8.0.17、7.0.28、6.0.27、5.0.32，以及4.4.30版重大更新，修補高風險漏洞CVE-2025-14847（MongoBleed），問題在於MongoDB伺服器的zlib實作，有機會造成未初始化的記憶體堆疊問題，4.0版CVSS評分達到8.7分、3.1版CVSS風險評為7.5分，如今有資安公司與研究人員公布更多細節，並警告已有實際攻擊活動。 針對這項漏洞會帶來的影響，軟體供應鏈安全公司OX Security最早公布細節，指出未經身分驗證的攻擊者可從MongoDB伺服器的記憶體洩露敏感資料，過程中完全不需要登入。他們可藉由發送惡意網路封包，觸發zlib元件的缺陷，從而截取部分私有資料片段，其中包括使用者資訊、密碼，以及API金鑰。 根據MongoDB開發工程團隊推出的修補程式內容，OX Security指出問題出現在網路傳輸層，資料庫在解壓縮網路訊息的過程裡，可能被迫收集或處理極小的記憶體緩衝區。起因是原本用來回傳解壓縮資料大小的命令，實際上，傳送的內容卻是已分配的記憶體數量，使得攻擊者有機會透過zlib洩露資</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173071</guid>
+      <pubDate>Mon, 29 Dec 2025 04:02:46 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】12月26日，MongoDB呼籲用戶儘速修補可用於讀取記憶體內容的漏洞</title>
-      <link>https://www.ithome.com.tw/news/173061</link>
-      <description>新聞MongoDB呼籲IT人員儘速修補高風險資安漏洞 擁有眾多用戶的NoSQL資料庫管理系統MongoDB，其開發工程團隊近期發布資安公告，他們發布重大更新修補資安漏洞CVE-2025-14847，攻擊者可透過用戶端來觸發，此漏洞出現在MongoDB伺服器的zlib實作，可能在用戶未通過身分驗證的情況下，引發未初始化的記憶體堆疊問題，4.0版CVSS評分達到8.7分、3.1版CVSS風險評為7.5，呼籲用戶要儘速套用新版因應。 這個漏洞發生的原因，在於zlib壓縮協定的標頭欄位長度不一致，未通過身分驗證的攻擊者能以此讀取未初始化的記憶體堆疊。此漏洞的影響範圍相當廣，涵蓋8.2.0至8.2.3版、8.0.0至8.0.16版、7.0.0至7.0.26版、6.0.0至6.0.26版、5.0.0至5.0.31版，以及MongoDB 4.4.0至4.4.29版MongoDB。除此之外，4.2版、4.0版，以及3.6版MongoDB Server，也受到影響。 若是IT人員無法及時更新，開發工程團隊呼籲應停用MongoDB伺服器的zlib壓縮功能，做法是採用networkMessageCompre</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173061</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/CVE-2020-12812-ldap.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 26 Dec 2025 08:32:14 +0000</pubDate>
+      <title>駭客聲稱竊得Wired資料庫，洩露230萬筆記錄</title>
+      <link>https://www.ithome.com.tw/news/173072</link>
+      <description>新聞Bleeping Computer報導，一名駭客聲稱成功駭入媒體集團康泰納仕（Condé Nast），並且公開旗下雜誌Wired包含230萬筆訂戶記錄的資料庫，還預告會再公布更多用戶資料。 一名代號Lovely的人士在聖誕節在駭客論壇上張貼公告，邀請眾人下載Wired的資料庫。他聲稱這個媒體集團不在乎用戶資料安全，害駭客花了一個月說服其修補網站漏洞。 根據Have I Been Pwned分析，外洩的Wired資料期間為1996年4月到2025年9月，外洩資料型態包括訂閱戶ID、電子郵件地址、顯示的名稱、少部份用戶還被洩露了姓名、電話、出生日期、地點或完整地址、性別等。除了Wired的資料外，他們預告未來幾個星期還會再公布約4000萬筆的資料。 駭客並列出已從康泰納仕旗下其他竊得資料的刊物清單。其他刊物包括The New Yorker、Epicurious、SELF、Vogue、Allure、Vanity Fair、Glamour、Men's Journal、Architectural Digest、Golf Digest、Teen Vogue、Style.com及Condé Na</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173072</guid>
+      <pubDate>Mon, 29 Dec 2025 04:14:26 +0000</pubDate>
     </item>
     <item>
-      <title>【回顧2025】剖析臺灣大型企業的GenAI進化之路(下)，136位IT主管對GAI最真實的心聲</title>
-      <link>https://www.ithome.com.tw/news/173055</link>
-      <description>新聞在剖析臺灣大型企業的GenAI進化之路(上)，歸納出了臺灣大型企業擁抱生成式AI的演化之路，區分不同階段（起步、中途、登頂）所面對四大課題，資料與安全難題、價值與應用課題、人才與文化挑戰，以及信任與風險議題，畫出一張從落地到規模化的挑戰表。在這一篇，我們進一步從這些IT主管的洞察中，彙整出可公開的136位的心聲，來呈現不同GenAI發展成熟度的企業，看到的挑戰和機會，來反應CIO導入GenAI的第一線心聲。 【觀望者的心聲】（有需求但還沒展開計畫者) 金屬製造業資安副理 1.真實性與可靠性 •生成內容的準確性與真實性仍是重大挑戰，特別是在對抗虛假資訊方面 •需要更好的機制來驗證AI生成內容的可信度，並清楚標示AI生成的內容 2.法律與監管框架 •全球各國對AI的監管政策逐漸成形，企業需要在創新與合規之間取得平衡 •版權、隱私、責任歸屬等法律問題需要更清晰的界定和解決方案 3.資源消耗與環境影響 •大型語言模型的訓練和運行需要大量計算資源 •如何在提升性能的同時降低能源消耗，實現更環保的AI發展 4.道德與偏見問題 •AI系統中的偏見問題仍需要持續改進 •如何確保AI在各種文化背景下</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173055</guid>
-      <pubDate>Fri, 26 Dec 2025 10:22:01 +0000</pubDate>
+      <title>中國準備規範擬人化AI服務</title>
+      <link>https://www.ithome.com.tw/news/173073</link>
+      <description>新聞中國政府準備規範擬人化的AI服務，在上周六（12/28）發表了《人工智慧擬人化互動服務管理暫行辦法》，此一草案主要規範的是提供模擬人類人格特性、思維模式與溝通風格，透過文字或其它形式與人類進行情感互動的產品或服務，要求供應商在偵測到用戶出現過度依賴或沉迷傾向時，必須即時提醒。 此一草案出自中國國家互聯網信息辦公室，舉凡提供擬人化互動服務，註冊用戶達到100萬或是每月活躍用戶超過10萬的都會受到規範。儘管它並未舉例，但外界認為不管是聊天機器人，或者是陪伴型聊天AI，以及虛擬戀人都在受監管之列。 該草案要求相關服務不得生成或傳播危害國家安全/利益、非法宗教活動、暴力及誹謗等內容；也不得提供嚴重影響用戶行為的虛假承諾及損害人際關係的服務；不得藉由美化或暗示自殘，或是透過語言暴力及情感操控等方式損害用戶身體健康；不得藉由演算法操控或設置情感陷阱，來誘導用戶作出不合理的決策。 還說供應商的模型預訓練必須使用符合社會主義核心價值觀的資料集，強化資料集的透明度及可靠性，也應定期改善或升級資料集。此外，也要求供應商必須具備心理健康保護、情感邊界引導，以及依賴風險預警等安全能力，不能將取代社會交往、</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173073</guid>
+      <pubDate>Mon, 29 Dec 2025 05:19:41 +0000</pubDate>
     </item>
   </channel>
 </rss>

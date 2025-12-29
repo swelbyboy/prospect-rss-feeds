@@ -8,82 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Dec 2025 06:35:52 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Dec 2025 06:40:05 +0000</lastBuildDate>
     <item>
-      <title>Build a Privacy-First AI Text Classifier: No Servers, No APIs. Master the AI Lifecycle: Initialize, Train, and Deploy.</title>
-      <link>https://dev.to/techno_kraft_in/build-a-privacy-first-ai-text-classifier-no-servers-no-apis-master-the-ai-lifecycle-initialize-a49</link>
-      <description>Build Your Own AI Text Model and Export it as JSON. No Install, No Sign-up: The Instant AI Classifier for 50+ Languages. The modern AI landscape is dominated by heavy server-side processing and data-hungry APIs. However, for many classification tasks, the browser is more than capable of handling the heavy lifting. This project demonstrates a Live AI Model Life Cycle—Initialization, Training, and Inference—all happening locally on the user's device. Why This Matters: The Privacy Factor Data priva</description>
-      <guid isPermaLink="false">https://dev.to/techno_kraft_in/build-a-privacy-first-ai-text-classifier-no-servers-no-apis-master-the-ai-lifecycle-initialize-a49</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjh7wj2r37e489i1jidkd.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 28 Dec 2025 05:21:23 +0000</pubDate>
+      <title>📜 AWS 118: Setting the Rules - Creating a Custom IAM Policy</title>
+      <link>https://dev.to/hritikraj8804/aws-118-setting-the-rules-creating-a-custom-iam-policy-5694</link>
+      <description>🛡️ IAM Policies: The Fine Art of Access Control Hey Cloud Gatekeepers! 👋 Welcome to Day 18 of the #100DaysOfCloud Challenge: Create IAM Policy! We are diving deeper into the Identity and Access Management service with KodeKloud Engineer. In previous tasks, we created users and groups. But a group or user without a Policy is like a person with a key but no map they can get into the building, but they don't know which doors they are allowed to open. Our mission today: Create a custom IAM policy na</description>
+      <guid isPermaLink="false">https://dev.to/hritikraj8804/aws-118-setting-the-rules-creating-a-custom-iam-policy-5694</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6ylq1osxc7hfgf60y4nk.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 29 Dec 2025 06:04:43 +0000</pubDate>
     </item>
     <item>
-      <title>A short talk at CloudNexus made me rethink how students are using AI</title>
-      <link>https://dev.to/abdullah_haroon_092cf10d3/a-short-talk-at-cloudnexus-made-me-rethink-how-students-are-using-ai-4o01</link>
-      <description>I recently spoke at CloudNexus, an AWS Cloud Club QAU event focused on cloud technologies and AI. It was a short talk, nothing fancy, mainly around Agentic AI and how students are currently using AI tools. What surprised me wasn’t the questions. It was how confident students were that they were “using AI correctly”. Most of them weren’t. “I asked them to generate code from ChatGPT” During discussions, a lot of students openly said they use ChatGPT mainly for code generation. Not for understandin</description>
-      <guid isPermaLink="false">https://dev.to/abdullah_haroon_092cf10d3/a-short-talk-at-cloudnexus-made-me-rethink-how-students-are-using-ai-4o01</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2Fv2%2FD4D22AQEE4aSyYo7UZA%2Ffeedshare-shrink_800%2FB4DZtftEscK0Ag-%2F0%2F1766837260455%3Fe%3D2147483647%26v%3Dbeta%26t%3DmuoWsPqsmbFv6dB0Z6lZxKowuSRbsdnGZNy5P5-lybs" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 28 Dec 2025 05:22:11 +0000</pubDate>
+      <title>How I Built a Zero-Registration Free Invoice Maker for Freelancers</title>
+      <link>https://dev.to/tushar-imran/how-i-built-a-zero-registration-free-invoice-maker-for-freelancers-1j0m</link>
+      <description>As a developer and freelancer, I’ve always found it annoying to sign up for a complex accounting tool just to send a simple invoice. Most "free" tools have hidden limits or watermarks that ruin the professional look. To solve this for myself and the community, I built FreeOnlineInvoiceMaker.com. Why did I build this? The goal was simple: Speed and Privacy. No Sign-up: You don't need to give your email or create an account. Privacy First: Your data stays in your browser session while you generate</description>
+      <guid isPermaLink="false">https://dev.to/tushar-imran/how-i-built-a-zero-registration-free-invoice-maker-for-freelancers-1j0m</guid>
+      <pubDate>Mon, 29 Dec 2025 06:07:27 +0000</pubDate>
     </item>
     <item>
-      <title>JavaScript Closures: The Quiet Mechanism Running Your Code</title>
-      <link>https://dev.to/intelgreatnez/javascript-closures-the-quiet-mechanism-running-your-code-556i</link>
-      <description>I avoided closures for longer than I care to admit. Not deliberately. I just kept telling myself I understood them because I could repeat the usual line: “a closure is a function that remembers its lexical scope.” That sentence sounds convincing. It is also not enough. Closures only really make sense once you stop treating them as a concept to memorise and start seeing them as a behaviour your code exhibits. This article is not a definition dump. It is an attempt to explain closures the way they</description>
-      <guid isPermaLink="false">https://dev.to/intelgreatnez/javascript-closures-the-quiet-mechanism-running-your-code-556i</guid>
-      <pubDate>Sun, 28 Dec 2025 05:26:44 +0000</pubDate>
+      <title>Hexagonal Architecture: A Complete Guide to Building Flexible and Testable Applications</title>
+      <link>https://dev.to/sizan_mahmud0_e7c3fd0cb68/hexagonal-architecture-a-complete-guide-to-building-flexible-and-testable-applications-k1l</link>
+      <description>Hexagonal Architecture, also known as Ports and Adapters pattern, is a software design approach that creates loosely coupled, testable, and maintainable applications. If you've ever struggled with tangled dependencies or found it difficult to swap out frameworks, this architecture might be your solution. What is Hexagonal Architecture? Hexagonal Architecture separates your application into distinct layers, with your business logic at the center, completely isolated from external concerns like da</description>
+      <guid isPermaLink="false">https://dev.to/sizan_mahmud0_e7c3fd0cb68/hexagonal-architecture-a-complete-guide-to-building-flexible-and-testable-applications-k1l</guid>
+      <pubDate>Mon, 29 Dec 2025 06:08:51 +0000</pubDate>
     </item>
     <item>
-      <title>The Secret Life of Go: Packages and Structure</title>
-      <link>https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-go-packages-and-structure-d30</link>
-      <description>Chapter 11: The Architect's Blueprint The Friday afternoon sun slanted low through the archive windows, illuminating dust motes dancing in the air. Ethan found Eleanor standing atop a rolling ladder, carefully rearranging a high shelf of leather-bound ledgers. "You're reorganizing?" Ethan asked, setting a paper bag on the desk. "I am correcting," Eleanor said, sliding a heavy volume into place with a satisfied sigh. "The previous archivist filed these by 'Color of Binding' rather than 'Year of A</description>
-      <guid isPermaLink="false">https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-go-packages-and-structure-d30</guid>
-      <pubDate>Sun, 28 Dec 2025 05:32:19 +0000</pubDate>
+      <title>The LeetCode Amnesia Problem (And How I Fixed It)</title>
+      <link>https://dev.to/neelbansal/the-leetcode-amnesia-problem-and-how-i-fixed-it-4i7n</link>
+      <description>Three months into my interview prep, I had a realization that hurt: I couldn’t solve problems I’d already solved. I’d look at a medium-difficulty sliding window problem and think, “I know I’ve done this before.” I’d check my LeetCode history. Yep, solved it two months ago. But I couldn’t remember the approach. The insight that made it click the first time? Gone. So I’d solve it again. And probably forget it again in another two months. This is the dirty secret of LeetCode grinding: solving probl</description>
+      <guid isPermaLink="false">https://dev.to/neelbansal/the-leetcode-amnesia-problem-and-how-i-fixed-it-4i7n</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpsa9a6indcnacggb9uqc.png" length="0" type="image/png"/>
+      <pubDate>Mon, 29 Dec 2025 06:10:39 +0000</pubDate>
     </item>
     <item>
-      <title>Automatically Post Incoming Emails with attachments to Facebook Using n8n</title>
-      <link>https://dev.to/prajwolshrestha/automatically-post-incoming-emails-with-attachments-to-facebook-using-n8n-5hgd</link>
-      <description>I kept doing the same thing over and over: an email arrives → copy the subject → download attachments → convert attachments to images → post to Facebook. After the third or fourth time, I stopped and automated it with n8n. Now, whenever a new email lands in a specific mailbox, it automatically becomes a Facebook post — attachments included. This post is a quick breakdown of what I built, why I made certain choices, and what actually worked for me. What This Automation Does Watches an email inbox</description>
-      <guid isPermaLink="false">https://dev.to/prajwolshrestha/automatically-post-incoming-emails-with-attachments-to-facebook-using-n8n-5hgd</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fo8xxho8z1xbby77a47ws.png" length="0" type="image/png"/>
-      <pubDate>Sun, 28 Dec 2025 05:33:03 +0000</pubDate>
+      <title>A Paper-Style Online Reader: No App, No Login, No Cloud</title>
+      <link>https://dev.to/techno_kraft_in/a-paper-style-online-reader-no-app-no-login-no-cloud-dkd</link>
+      <description>Read Like It’s Paper: A Private, Browser-Based Reading Tool The Problem with Modern Reading Tools Many digital reading tools add friction where none is needed: Mandatory signups and user accounts Cloud syncing and data tracking App installations and frequent updates Distracting UI elements and notifications For readers who prefer focus and simplicity, these features often reduce the quality of the reading experience rather than improving it. A Paper-Like Reading Experience in the Browser This br</description>
+      <guid isPermaLink="false">https://dev.to/techno_kraft_in/a-paper-style-online-reader-no-app-no-login-no-cloud-dkd</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuifc5whpw58sxphum21r.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 29 Dec 2025 06:14:05 +0000</pubDate>
     </item>
     <item>
-      <title>A Frontend for Stable Diffusion CPP</title>
-      <link>https://dev.to/fabricio3g/a-frontend-for-stable-diffusion-cpp-2bnm</link>
-      <description>Just what the title says. I wanted to test stable-diffusion.cpp, which is like llama.cpp but for image and video generation. My computer has an old Vulkan-compatible integrated GPU, and this was the only way I could run diffusion models. However, typing commands and modifying things in the CLI was annoying, so I decided to make a simple UI for it. Some features don’t work yet because I can’t properly test them with my weak GPU. I don’t know whether the issues are caused by my code or by my GPU’s</description>
-      <guid isPermaLink="false">https://dev.to/fabricio3g/a-frontend-for-stable-diffusion-cpp-2bnm</guid>
-      <pubDate>Sun, 28 Dec 2025 05:33:38 +0000</pubDate>
+      <title>Accidental Research Before 20s: How It Started</title>
+      <link>https://dev.to/devamanali/accidental-research-at-15-how-it-started-2iii</link>
+      <description>In 2023, it was my college vacation. Me and my friend planned to make a platform for graphics designers so that they could show their portfolios. We were coding; we were too young, with no sense of enterprise software, frameworks, or software methodologies. We chose Django for the backend and Django templates for the frontend. Django templates possess almost the same syntax as Jinja. My partner had difficulty with the syntax; he was not familiar with it. I suggested we could use Chameleon or som</description>
+      <guid isPermaLink="false">https://dev.to/devamanali/accidental-research-at-15-how-it-started-2iii</guid>
+      <pubDate>Mon, 29 Dec 2025 06:14:13 +0000</pubDate>
     </item>
     <item>
-      <title>What I Learned Testing MCPs Across Claude, Cursor, and Replit</title>
-      <link>https://dev.to/deepika_n_417a1b69443e2bd/what-i-learned-testing-mcps-across-claude-cursor-and-replit-10mf</link>
-      <description>Model Context Protocols (MCPs) are a powerful pattern for connecting AI assistants to real world data sources and tools. Over the past few months, I’ve been experimenting with MCPs across multiple environments in particular Claude, Cursor, and Replit and I want to share what actually works, where things tend to break, and how I think about validation. MCPs are not magic they are just a standard for letting LLM based tools talk to external systems in a reliable way. This is similar to how a USB-C</description>
-      <guid isPermaLink="false">https://dev.to/deepika_n_417a1b69443e2bd/what-i-learned-testing-mcps-across-claude-cursor-and-replit-10mf</guid>
-      <pubDate>Sun, 28 Dec 2025 05:45:34 +0000</pubDate>
+      <title>How to Use Regex for Data Validation in the BoldSign API</title>
+      <link>https://dev.to/boldsign/how-to-use-regex-for-data-validation-in-the-boldsign-api-2j35</link>
+      <description>Ensuring data is accurate and formatted correctly is essential in any application or context. BoldSign provides an easy way to validate data when you create a document by integrating text box fields and regex validation. This blog will demonstrate how regex validation is applied to text box files using the BoldSign API. Regex validation Imagine expecting an email address but receiving a jumble of letters instead. Regex validation ensures that only correctly formatted data, such as email addresse</description>
+      <guid isPermaLink="false">https://dev.to/boldsign/how-to-use-regex-for-data-validation-in-the-boldsign-api-2j35</guid>
+      <pubDate>Mon, 29 Dec 2025 06:16:21 +0000</pubDate>
     </item>
     <item>
-      <title>Why I Built a Desktop Email Automation Tool Instead of Another SaaS</title>
-      <link>https://dev.to/arezdev/why-i-built-a-desktop-email-automation-tool-instead-of-another-saas-3hod</link>
-      <description>As developers, we default to SaaS. Cloud, dashboards, subscriptions. But not every problem benefits from being cloud-first. Email automation is deeply tied to: IP reputation provider limits sender behavior Putting that behind a shared SaaS layer introduces risk and opacity. I wanted: direct SMTP control transparent sending logs local data ownership So I built a desktop-first email automation engine. The result: lower costs fewer surprises better deliverability It’s not for everyone. But if you c</description>
-      <guid isPermaLink="false">https://dev.to/arezdev/why-i-built-a-desktop-email-automation-tool-instead-of-another-saas-3hod</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffnm1sditnizmy89ru96j.png" length="0" type="image/png"/>
-      <pubDate>Sun, 28 Dec 2025 05:57:02 +0000</pubDate>
+      <title>Building a Mobile Tool After Facing Media Quality Issues as a Content Creator</title>
+      <link>https://dev.to/abdul_wahab_fe886de9acd8a/building-a-mobile-tool-after-facing-media-quality-issues-as-a-content-creator-3bo3</link>
+      <description>As a content creator, I regularly share moments, updates, and short-form videos through WhatsApp Status. These are usually personal recordings—captured with modern smartphones and saved in high resolution. Over time, I noticed a consistent issue: videos and images that looked sharp and clean locally would lose clarity once uploaded. Fine details softened, colors shifted slightly, and compression artifacts became noticeable. This wasn’t about reposting others’ content or experimenting with random</description>
+      <guid isPermaLink="false">https://dev.to/abdul_wahab_fe886de9acd8a/building-a-mobile-tool-after-facing-media-quality-issues-as-a-content-creator-3bo3</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi3jnwvri6xqdmuikpx2d.webp" length="0" type="image/webp"/>
+      <pubDate>Mon, 29 Dec 2025 06:25:03 +0000</pubDate>
     </item>
     <item>
-      <title>Getting started in synthetic data generation with AWS Clean Rooms - Analytics</title>
-      <link>https://dev.to/aws-heroes/getting-started-in-synthetic-data-generation-with-aws-clean-rooms-analytics-35gd</link>
-      <description>What is hot off the press ✨ from AWS re:Invent 2025 for Analytics? I am still enthralled and excited about the data and AI innovation for data scientists, researchers, data engineers and data analysts from keynotes from Amazon Web Services CEO Matt Garman on Day 2 and VP of Agentic AI Dr Swami Sivasubramanian on Day 3 in their announcements. Maintaining data privacy is important for enterprises and data science teams involved in training machine learning models. Let me introduce you to a new fea</description>
-      <guid isPermaLink="false">https://dev.to/aws-heroes/getting-started-in-synthetic-data-generation-with-aws-clean-rooms-analytics-35gd</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F71j4ftidcm1et4ddoe5r.png" length="0" type="image/png"/>
-      <pubDate>Sun, 28 Dec 2025 06:19:10 +0000</pubDate>
+      <title>Choosing Rowstore or Columnstore? How to Pick the Right Engine for Your Workload</title>
+      <link>https://dev.to/singlestore-developer/choosing-rowstore-or-columnstore-how-to-pick-the-right-engine-for-your-workload-b4d</link>
+      <description>Modern day workloads must balance the conflicting demands of the application. The applications are required to have milliseconds of latency in transactional operations, efficient analytical workloads across massive data, and the data flexibility demanded by AI/ML workloads. Traditional architectures force a binary choice between rowstore and columnstore storage formats, each optimized for fundamentally different access patterns. This guide explores the architectural characteristics of each engin</description>
+      <guid isPermaLink="false">https://dev.to/singlestore-developer/choosing-rowstore-or-columnstore-how-to-pick-the-right-engine-for-your-workload-b4d</guid>
+      <pubDate>Mon, 29 Dec 2025 06:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Scalable ML Training on AWS: SageMaker, Spot Instances and Experiment Tracking</title>
-      <link>https://dev.to/shoaibalimir/scalable-ml-training-on-aws-sagemaker-spot-instances-and-experiment-tracking-i9</link>
-      <description>Reading time: ~20-25 minutes Level: Intermediate to Advanced Prerequisites: Docker installed locally, completed Parts 1 &amp;amp; 2 (especially the train/val data split from Part 2, Step 6.5) Series: Part 3 of 4 - Part 1 | Part 2 Important Production Considerations This article demonstrates core SageMaker training concepts with functional code. For production deployments: MLflow Integration: Requires VPC deployment with proper networking (simplified here for learning) Data Preparation: Use train/val spl</description>
-      <guid isPermaLink="false">https://dev.to/shoaibalimir/scalable-ml-training-on-aws-sagemaker-spot-instances-and-experiment-tracking-i9</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F81z0ce4pxix8u32tx80y.png" length="0" type="image/png"/>
-      <pubDate>Sun, 28 Dec 2025 06:27:52 +0000</pubDate>
+      <title>Native Amazon EKS Backups with AWS Backup</title>
+      <link>https://dev.to/aws-builders/native-amazon-eks-backups-with-aws-backup-2kkd</link>
+      <description>TL;DR: AWS Backup now protects Amazon EKS. It backs up your cluster state and persistent data (EBS, EFS, S3) using one policy-driven workflow. You can restore a full cluster, a namespace, or specific volumes even into a brand-new EKS cluster. It’s been available since Nov 2025, and it’s now a dependable option for production teams. Why this matters: Before this, many teams used scripts or tools like Velero to back up Kubernetes. It worked, but it was hard to run at scale. Now you get: One place</description>
+      <guid isPermaLink="false">https://dev.to/aws-builders/native-amazon-eks-backups-with-aws-backup-2kkd</guid>
+      <pubDate>Mon, 29 Dec 2025 06:30:20 +0000</pubDate>
     </item>
   </channel>
 </rss>
