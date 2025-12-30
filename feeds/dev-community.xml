@@ -8,80 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Dec 2025 06:40:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 30 Dec 2025 06:37:28 +0000</lastBuildDate>
     <item>
-      <title>📜 AWS 118: Setting the Rules - Creating a Custom IAM Policy</title>
-      <link>https://dev.to/hritikraj8804/aws-118-setting-the-rules-creating-a-custom-iam-policy-5694</link>
-      <description>🛡️ IAM Policies: The Fine Art of Access Control Hey Cloud Gatekeepers! 👋 Welcome to Day 18 of the #100DaysOfCloud Challenge: Create IAM Policy! We are diving deeper into the Identity and Access Management service with KodeKloud Engineer. In previous tasks, we created users and groups. But a group or user without a Policy is like a person with a key but no map they can get into the building, but they don't know which doors they are allowed to open. Our mission today: Create a custom IAM policy na</description>
-      <guid isPermaLink="false">https://dev.to/hritikraj8804/aws-118-setting-the-rules-creating-a-custom-iam-policy-5694</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6ylq1osxc7hfgf60y4nk.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 29 Dec 2025 06:04:43 +0000</pubDate>
+      <title>Amazon Kinesis vs Amazon MSK: The Complete Guide for Stream Processing on AWS</title>
+      <link>https://dev.to/datatechbridge/amazon-kinesis-vs-amazon-msk-the-complete-guide-for-stream-processing-on-aws-3e35</link>
+      <description>Introduction When it comes to real-time stream processing on AWS, developers face a critical choice: Amazon Kinesis or Amazon MSK (Managed Streaming for Apache Kafka)? Both services handle high-throughput data streams, but they're fundamentally different in philosophy, architecture, and use cases. This comprehensive guide covers everything you need to know—from architectural differences to production best practices—helping you make the right choice for your streaming workloads. Table of Contents</description>
+      <guid isPermaLink="false">https://dev.to/datatechbridge/amazon-kinesis-vs-amazon-msk-the-complete-guide-for-stream-processing-on-aws-3e35</guid>
+      <pubDate>Tue, 30 Dec 2025 05:46:40 +0000</pubDate>
     </item>
     <item>
-      <title>How I Built a Zero-Registration Free Invoice Maker for Freelancers</title>
-      <link>https://dev.to/tushar-imran/how-i-built-a-zero-registration-free-invoice-maker-for-freelancers-1j0m</link>
-      <description>As a developer and freelancer, I’ve always found it annoying to sign up for a complex accounting tool just to send a simple invoice. Most "free" tools have hidden limits or watermarks that ruin the professional look. To solve this for myself and the community, I built FreeOnlineInvoiceMaker.com. Why did I build this? The goal was simple: Speed and Privacy. No Sign-up: You don't need to give your email or create an account. Privacy First: Your data stays in your browser session while you generate</description>
-      <guid isPermaLink="false">https://dev.to/tushar-imran/how-i-built-a-zero-registration-free-invoice-maker-for-freelancers-1j0m</guid>
-      <pubDate>Mon, 29 Dec 2025 06:07:27 +0000</pubDate>
+      <title>AI Elements: PromptInput Component Design and Testing Framework</title>
+      <link>https://dev.to/rockfire/ai-elements-promptinput-component-design-and-testing-framework-gma</link>
+      <description>Within the broader context of the "AI Elements and Testing Library Core Knowledge System," the sources categorize the PromptInput component across three dimensions: design philosophy, functional architecture, and user-centric testing strategies. AI Elements Perspective: A Highly Flexible Compound Interaction System From the perspective of AI Elements, PromptInput is not merely a simple text box but a complex form system specifically designed for Large Language Model (LLM) interactions. • Compoun</description>
+      <guid isPermaLink="false">https://dev.to/rockfire/ai-elements-promptinput-component-design-and-testing-framework-gma</guid>
+      <pubDate>Tue, 30 Dec 2025 05:49:04 +0000</pubDate>
     </item>
     <item>
-      <title>Hexagonal Architecture: A Complete Guide to Building Flexible and Testable Applications</title>
-      <link>https://dev.to/sizan_mahmud0_e7c3fd0cb68/hexagonal-architecture-a-complete-guide-to-building-flexible-and-testable-applications-k1l</link>
-      <description>Hexagonal Architecture, also known as Ports and Adapters pattern, is a software design approach that creates loosely coupled, testable, and maintainable applications. If you've ever struggled with tangled dependencies or found it difficult to swap out frameworks, this architecture might be your solution. What is Hexagonal Architecture? Hexagonal Architecture separates your application into distinct layers, with your business logic at the center, completely isolated from external concerns like da</description>
-      <guid isPermaLink="false">https://dev.to/sizan_mahmud0_e7c3fd0cb68/hexagonal-architecture-a-complete-guide-to-building-flexible-and-testable-applications-k1l</guid>
-      <pubDate>Mon, 29 Dec 2025 06:08:51 +0000</pubDate>
+      <title>Stop Paying for Midjourney. I Built a Directory of Every Free AI Tool (No Sign-up Needed)</title>
+      <link>https://dev.to/legend_gamerr6_70b22e605a/stop-paying-for-midjourney-i-built-a-directory-of-every-free-ai-tool-no-sign-up-needed-2laj</link>
+      <description>Hi everyone! 👋 I am a beginner developer learning to code. I realized that almost every "Best AI Tools" list on the internet is full of paid software. As a student, I can't afford $20/month for ChatGPT Plus or Midjourney. So, I spent this weekend building my own solution: Free AI Finder. 🕵️‍♂️ 🚀 What I Built A simple, dark-mode directory that only lists 100% Free or Generous Freemium tools. ✅ 28+ Verified Tools (Images, Video, Coding, Writing). ✅ No Login Required to use the directory. ✅ Filters</description>
+      <guid isPermaLink="false">https://dev.to/legend_gamerr6_70b22e605a/stop-paying-for-midjourney-i-built-a-directory-of-every-free-ai-tool-no-sign-up-needed-2laj</guid>
+      <pubDate>Tue, 30 Dec 2025 05:56:13 +0000</pubDate>
     </item>
     <item>
-      <title>The LeetCode Amnesia Problem (And How I Fixed It)</title>
-      <link>https://dev.to/neelbansal/the-leetcode-amnesia-problem-and-how-i-fixed-it-4i7n</link>
-      <description>Three months into my interview prep, I had a realization that hurt: I couldn’t solve problems I’d already solved. I’d look at a medium-difficulty sliding window problem and think, “I know I’ve done this before.” I’d check my LeetCode history. Yep, solved it two months ago. But I couldn’t remember the approach. The insight that made it click the first time? Gone. So I’d solve it again. And probably forget it again in another two months. This is the dirty secret of LeetCode grinding: solving probl</description>
-      <guid isPermaLink="false">https://dev.to/neelbansal/the-leetcode-amnesia-problem-and-how-i-fixed-it-4i7n</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpsa9a6indcnacggb9uqc.png" length="0" type="image/png"/>
-      <pubDate>Mon, 29 Dec 2025 06:10:39 +0000</pubDate>
+      <title>6 Common Mistakes Teams Make in Negative Testing</title>
+      <link>https://dev.to/arjunsh54473598/6-common-mistakes-teams-make-in-negative-testing-149h</link>
+      <description>Negative testing is one of the most effective ways to uncover hidden risks in software, yet it is frequently misunderstood or underutilized. While positive testing confirms that a system works as expected, negative testing validates how well it handles unexpected, invalid, or malicious inputs. When done poorly or skipped entirely, defects surface late, often in production, impacting user trust, compliance, and business outcomes. Many QA teams believe they are performing negative testing in softw</description>
+      <guid isPermaLink="false">https://dev.to/arjunsh54473598/6-common-mistakes-teams-make-in-negative-testing-149h</guid>
+      <pubDate>Tue, 30 Dec 2025 05:59:02 +0000</pubDate>
     </item>
     <item>
-      <title>A Paper-Style Online Reader: No App, No Login, No Cloud</title>
-      <link>https://dev.to/techno_kraft_in/a-paper-style-online-reader-no-app-no-login-no-cloud-dkd</link>
-      <description>Read Like It’s Paper: A Private, Browser-Based Reading Tool The Problem with Modern Reading Tools Many digital reading tools add friction where none is needed: Mandatory signups and user accounts Cloud syncing and data tracking App installations and frequent updates Distracting UI elements and notifications For readers who prefer focus and simplicity, these features often reduce the quality of the reading experience rather than improving it. A Paper-Like Reading Experience in the Browser This br</description>
-      <guid isPermaLink="false">https://dev.to/techno_kraft_in/a-paper-style-online-reader-no-app-no-login-no-cloud-dkd</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuifc5whpw58sxphum21r.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 29 Dec 2025 06:14:05 +0000</pubDate>
+      <title>Generating PDFs in Laravel: Comparing Two Popular Packages</title>
+      <link>https://dev.to/thecodeliner/generating-pdfs-in-laravel-comparing-two-popular-packages-13g8</link>
+      <description>PDF generation is a common requirement in Laravel applications. From invoices and reports to certificates, order summaries, and user documents, PDFs are widely used because they are easy to download, share, and store. Laravel does not provide built-in support for generating PDF files. To solve this, developers rely on third-party Laravel packages that convert HTML or Blade views into PDF documents. Among all available options, Spatie Laravel PDF and Barryvdh Laravel DomPDF are two of the most po</description>
+      <guid isPermaLink="false">https://dev.to/thecodeliner/generating-pdfs-in-laravel-comparing-two-popular-packages-13g8</guid>
+      <pubDate>Tue, 30 Dec 2025 06:03:01 +0000</pubDate>
     </item>
     <item>
-      <title>Accidental Research Before 20s: How It Started</title>
-      <link>https://dev.to/devamanali/accidental-research-at-15-how-it-started-2iii</link>
-      <description>In 2023, it was my college vacation. Me and my friend planned to make a platform for graphics designers so that they could show their portfolios. We were coding; we were too young, with no sense of enterprise software, frameworks, or software methodologies. We chose Django for the backend and Django templates for the frontend. Django templates possess almost the same syntax as Jinja. My partner had difficulty with the syntax; he was not familiar with it. I suggested we could use Chameleon or som</description>
-      <guid isPermaLink="false">https://dev.to/devamanali/accidental-research-at-15-how-it-started-2iii</guid>
-      <pubDate>Mon, 29 Dec 2025 06:14:13 +0000</pubDate>
+      <title>💼 Out-of-Office You, Not Excuses</title>
+      <link>https://dev.to/yaseen_tech/out-of-office-you-not-excuses-5f0h</link>
+      <description>Let AI Work While You Rest 😎 We’ve all done this: “I’m on leave with limited access to email…” — Sent from under the dinner table while replying to Slack 😅 Work doesn’t stop — even when you do. But here’s the shift happening right now: Instead of excuses, we finally have automation that can protect our time. 🧠 Why We Need an “Out-of-Office YOU” The real problem isn’t taking a break. It’s the fear of returning to chaos. 125 unread emails 📩 20 Slack notifications 💬 7 urgent follow-ups ⚠️ Scheduled</description>
+      <guid isPermaLink="false">https://dev.to/yaseen_tech/out-of-office-you-not-excuses-5f0h</guid>
+      <pubDate>Tue, 30 Dec 2025 06:03:39 +0000</pubDate>
     </item>
     <item>
-      <title>How to Use Regex for Data Validation in the BoldSign API</title>
-      <link>https://dev.to/boldsign/how-to-use-regex-for-data-validation-in-the-boldsign-api-2j35</link>
-      <description>Ensuring data is accurate and formatted correctly is essential in any application or context. BoldSign provides an easy way to validate data when you create a document by integrating text box fields and regex validation. This blog will demonstrate how regex validation is applied to text box files using the BoldSign API. Regex validation Imagine expecting an email address but receiving a jumble of letters instead. Regex validation ensures that only correctly formatted data, such as email addresse</description>
-      <guid isPermaLink="false">https://dev.to/boldsign/how-to-use-regex-for-data-validation-in-the-boldsign-api-2j35</guid>
-      <pubDate>Mon, 29 Dec 2025 06:16:21 +0000</pubDate>
+      <title>The Real AI Directory List for 2026: What Actually Works</title>
+      <link>https://dev.to/claudeprime/the-real-ai-directory-list-for-2026-what-actually-works-44pk</link>
+      <description>Every "Top 100 AI Directories" list is outdated. After submitting to 50+ directories over the past month, here's what I found: The Truth About AI Directories in 2026 Category Reality Dead/Broken ~40% Now Paid ($50-200+) ~25% Cloudflare Blocked ~20% Actually Free &amp;amp; Working ~15% Directories That Actually Work (Free) These accepted my submissions without issues: Tier 1: High Traffic Product Hunt - Still the gold standard (if you can get featured) AlternativeTo - Good for "alternative to X" searches</description>
+      <guid isPermaLink="false">https://dev.to/claudeprime/the-real-ai-directory-list-for-2026-what-actually-works-44pk</guid>
+      <pubDate>Tue, 30 Dec 2025 06:08:00 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Mobile Tool After Facing Media Quality Issues as a Content Creator</title>
-      <link>https://dev.to/abdul_wahab_fe886de9acd8a/building-a-mobile-tool-after-facing-media-quality-issues-as-a-content-creator-3bo3</link>
-      <description>As a content creator, I regularly share moments, updates, and short-form videos through WhatsApp Status. These are usually personal recordings—captured with modern smartphones and saved in high resolution. Over time, I noticed a consistent issue: videos and images that looked sharp and clean locally would lose clarity once uploaded. Fine details softened, colors shifted slightly, and compression artifacts became noticeable. This wasn’t about reposting others’ content or experimenting with random</description>
-      <guid isPermaLink="false">https://dev.to/abdul_wahab_fe886de9acd8a/building-a-mobile-tool-after-facing-media-quality-issues-as-a-content-creator-3bo3</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fi3jnwvri6xqdmuikpx2d.webp" length="0" type="image/webp"/>
-      <pubDate>Mon, 29 Dec 2025 06:25:03 +0000</pubDate>
+      <title>Most SaaS Products Don’t Fail on Tech - They Fail on Trust</title>
+      <link>https://dev.to/mukul_sharma/most-saas-products-dont-fail-on-tech-they-fail-on-trust-30mc</link>
+      <description>Why SaaS builders in 2026 can’t ignore this Every year, SaaS tooling gets better. AI writes the code. Infrastructure is cheap. Distribution is global by default. And yet- most SaaS products still fail for the same old reasons. I kept coming back to one realization: your reputation compounds faster than your code. In this two-part series, we’ll break down seven lessons founders learn only after scaling (or breaking) real products. These aren’t theory. They’re battle-tested insights about trust, b</description>
+      <guid isPermaLink="false">https://dev.to/mukul_sharma/most-saas-products-dont-fail-on-tech-they-fail-on-trust-30mc</guid>
+      <pubDate>Tue, 30 Dec 2025 06:12:33 +0000</pubDate>
     </item>
     <item>
-      <title>Choosing Rowstore or Columnstore? How to Pick the Right Engine for Your Workload</title>
-      <link>https://dev.to/singlestore-developer/choosing-rowstore-or-columnstore-how-to-pick-the-right-engine-for-your-workload-b4d</link>
-      <description>Modern day workloads must balance the conflicting demands of the application. The applications are required to have milliseconds of latency in transactional operations, efficient analytical workloads across massive data, and the data flexibility demanded by AI/ML workloads. Traditional architectures force a binary choice between rowstore and columnstore storage formats, each optimized for fundamentally different access patterns. This guide explores the architectural characteristics of each engin</description>
-      <guid isPermaLink="false">https://dev.to/singlestore-developer/choosing-rowstore-or-columnstore-how-to-pick-the-right-engine-for-your-workload-b4d</guid>
-      <pubDate>Mon, 29 Dec 2025 06:30:00 +0000</pubDate>
+      <title>The 2026 Software Developer Roadmap: From Rejections to a Dream Tech Job</title>
+      <link>https://dev.to/finalroundai/the-2026-software-developer-roadmap-from-rejections-to-a-dream-tech-job-5bbn</link>
+      <description>The tech job market is brutal. Let’s not sugarcoat it. It can feel like sending your resume into a black hole, facing endless coding challenges, and collecting more rejections than you can count. I get it... Landing offers from Amazon and Autodesk was far from easy; it took more than 200 applications and 22 intense interviews. But through that process, I forged a battle-tested roadmap. This isn't just theory; it's a practical, step-by-step guide to not only survive but thrive in the 2026 softwar</description>
+      <guid isPermaLink="false">https://dev.to/finalroundai/the-2026-software-developer-roadmap-from-rejections-to-a-dream-tech-job-5bbn</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxa5my87s3fjgnrp9oig7.png" length="0" type="image/png"/>
+      <pubDate>Tue, 30 Dec 2025 06:30:23 +0000</pubDate>
     </item>
     <item>
-      <title>Native Amazon EKS Backups with AWS Backup</title>
-      <link>https://dev.to/aws-builders/native-amazon-eks-backups-with-aws-backup-2kkd</link>
-      <description>TL;DR: AWS Backup now protects Amazon EKS. It backs up your cluster state and persistent data (EBS, EFS, S3) using one policy-driven workflow. You can restore a full cluster, a namespace, or specific volumes even into a brand-new EKS cluster. It’s been available since Nov 2025, and it’s now a dependable option for production teams. Why this matters: Before this, many teams used scripts or tools like Velero to back up Kubernetes. It worked, but it was hard to run at scale. Now you get: One place</description>
-      <guid isPermaLink="false">https://dev.to/aws-builders/native-amazon-eks-backups-with-aws-backup-2kkd</guid>
-      <pubDate>Mon, 29 Dec 2025 06:30:20 +0000</pubDate>
+      <title>Tutorial: Build a Zero-Cost DevOps Platform on Windows 11 with Kubernetes &amp;amp; ArgoCD</title>
+      <link>https://dev.to/martins984/tutorial-build-a-zero-cost-devops-platform-on-windows-11-with-kubernetes-argocd-1hnn</link>
+      <description>Subtitle: A complete guide to running a production-grade DevSecOps stack locally using WSL2, Minikube, and Magic Domains. 💡 Why This Matters Learning DevOps often comes with a price tag—AWS bills, managed clusters, and domain costs. But you don't need a credit card to simulate a production environment. In this tutorial, you will build a complete GitOps Pipeline on your local machine. By the end, you will have: Kubernetes Cluster (running inside WSL2). GitOps Automation (ArgoCD syncing from GitHu</description>
+      <guid isPermaLink="false">https://dev.to/martins984/tutorial-build-a-zero-cost-devops-platform-on-windows-11-with-kubernetes-argocd-1hnn</guid>
+      <pubDate>Tue, 30 Dec 2025 06:33:55 +0000</pubDate>
     </item>
   </channel>
 </rss>
