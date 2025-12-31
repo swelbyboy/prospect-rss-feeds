@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Dec 2025 06:37:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 06:38:04 +0000</lastBuildDate>
     <item>
-      <title>Linux 6.19-rc3 Released With A Holiday's Week Of Fixes</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-rc3-Released</link>
-      <description>Linus Torvalds just released Linux 6.19-rc3 to ship this week's fixes. Linux 6.19-rc3 is coming in light as expected due to the Christmas week with many corporate developers getting paid time off and others taking part in year-end festivities...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc3-Released</guid>
-      <pubDate>Sun, 28 Dec 2025 21:46:58 +0000</pubDate>
+      <title>The Open-Source OpenGL &amp;amp; Vulkan Drivers Enjoyed A Rather Remarkable 2025</title>
+      <link>https://www.phoronix.com/news/Mesa-2025-Highlights</link>
+      <description>The open-source OpenGL and Vulkan drivers making up Mesa had another very successful year. Even with all the years being invested into Mesa largely by Intel, AMD, Valve, Red Hat, and others, the upward trajectory continues for Mesa on expanding the hardware support, punctually adding new Vulkan extensions, and racking up other wins...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-2025-Highlights</guid>
+      <pubDate>Tue, 30 Dec 2025 11:15:18 +0000</pubDate>
     </item>
     <item>
-      <title>KDE Plasma's Wayland Transition "Nears Completion" In Ending Out 2025</title>
-      <link>https://www.phoronix.com/news/KDE-Plasma-2025-Wayland-Success</link>
-      <description>In addition to today's blog post calling out the need for others to takeover the This Week In Plasma series, KDE developer Nate Graham also published another blog post to highlight the successes of the Plasma desktop over 2025. In particular, the KDE Plasma Wayland transition "nears completion" as it works to become Wayland-only in early 2027...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Plasma-2025-Wayland-Success</guid>
-      <pubDate>Mon, 29 Dec 2025 01:40:00 +0000</pubDate>
+      <title>XWayland Gets Patched For Incorrect Pointer Coordinates</title>
+      <link>https://www.phoronix.com/news/XWayland-Pointer-Enter-Correct</link>
+      <description>An important fix has made it into the X.Org Server XWayland codebase ahead of the new year. XWayland has been fixed to avoid sending incorrect pointer coordinates to X11 clients on pointer enter events...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/XWayland-Pointer-Enter-Correct</guid>
+      <pubDate>Tue, 30 Dec 2025 11:40:18 +0000</pubDate>
     </item>
     <item>
-      <title>SuperTux 0.7 Reaches Beta For Reviving An Open-Source Classic</title>
-      <link>https://www.phoronix.com/news/SuperTux-0.7-Beta</link>
-      <description>Longtime Linux users likely have fond memories of SuperTux as the open-source jump-n-run game that used to be included on some early Linux live CD/DVDs for this Super Mario Bros inspired game. There hasn't been a new release of SuperTux in over four years but out today is the beta of SuperTux 0.7 as a major overhaul to the free software, family-friendly game title...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/SuperTux-0.7-Beta</guid>
-      <pubDate>Mon, 29 Dec 2025 10:56:58 +0000</pubDate>
+      <title>InputPlumber 0.70 Released With Expanded Hardware Support</title>
+      <link>https://www.phoronix.com/news/InputPlumber-0.70</link>
+      <description>InputPlumber 0.70 is out today as the newest feature update to this open-source input router and re-mapper daemon for Linux systems. With more gaming handhelds coming to market and other controllers as well as the upward trajectory of Linux gaming, InputPlumber is becoming more applicable for this daemon to combine various input devices into different virtual device formats...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/InputPlumber-0.70</guid>
+      <pubDate>Tue, 30 Dec 2025 11:55:59 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Expected To Bring IO_uring IOPOLL Polling Improvements</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-IO-uring-Polling</link>
-      <description>The next Linux kernel cycle, which will be known as Linux 6.20 or more than likely Linux 7.0, is expected to land some IO_uring improvements for better IOPOLL polling...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-IO-uring-Polling</guid>
-      <pubDate>Mon, 29 Dec 2025 11:13:44 +0000</pubDate>
+      <title>Linux 6.19 Kernel Benchmarks With X86_NATIVE_CPU Optimization</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-X86_NATIVE_CPU</link>
+      <description>Added to the Linux kernel earlier this year was the new X86_NATIVE_CPU Kconfig option to enable compiler optimizations for the local/native CPU in use when building the Linux kernel. In effect about ensuring that the "-march=native" compiler flag is set for the kernel build for optimizing the Linux kernel build for your processor being used. Back with Linux 6.16 I ran some benchmarks of the Linux kernel build with X86_NATIVE_CPU to gauge the impact. Now with the current Linux 6.19 kernel and som</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-X86_NATIVE_CPU</guid>
+      <pubDate>Tue, 30 Dec 2025 12:27:01 +0000</pubDate>
     </item>
     <item>
-      <title>Updated Linux Drivers Posted For Legion Go &amp;amp; Legion Go S Configuration</title>
-      <link>https://www.phoronix.com/news/Legion-Go-Controller-HID-v2</link>
-      <description>Open-source developer Derek J. Clark continues leading the efforts on improving the Lenovo Legion Go series hardware support under Linux. Posted today was the second iteration of the HID driver work for the Legion Go and Legion Go S for configuration support with the built-in controller HID interfaces...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Legion-Go-Controller-HID-v2</guid>
-      <pubDate>Mon, 29 Dec 2025 11:34:58 +0000</pubDate>
+      <title>LLVM 22 Lands NVIDIA Olympus CPU Scheduling Model</title>
+      <link>https://www.phoronix.com/news/NVIDIA-Olympus-Sched-Model</link>
+      <description>NVIDIA's Olympus are the ARM64 cores found within the upcoming Vera CPU that will be paired with Rubin. Olympus cores are claimed to be twice as fast as NVIDIA's current CPU cores found in Grace and based on Neoverse-V2. Earlier this year the open-source compilers landed initial support for Olympus while now a proper CPU scheduling model has been upstreamed into LLVM 22...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-Olympus-Sched-Model</guid>
+      <pubDate>Tue, 30 Dec 2025 14:46:45 +0000</pubDate>
     </item>
     <item>
-      <title>Linux's Cache Aware Scheduling On AMD Ryzen 9 9950X3D 3D V-Cache</title>
-      <link>https://www.phoronix.com/news/Ryzen-9950X3D-Cache-Aware-Sched</link>
-      <description>One of the many interesting Linux kernel innovations I have closely been following this year has been the proposed Cache Aware Scheduling support. I have shown the Cache Aware Scheduling performance on AMD EPYC as well as the Intel Xeon 6 Granite Rapids performance, but what about desktops? In this article is a quick look at Cache Aware Scheduling with the Ryzen 9 9950X3D...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ryzen-9950X3D-Cache-Aware-Sched</guid>
-      <pubDate>Mon, 29 Dec 2025 11:57:39 +0000</pubDate>
+      <title>Intel's Xe Linux Driver Ready With Multi-Device SVM To End Out 2025</title>
+      <link>https://www.phoronix.com/news/Intel-Multi-Device-SVM-Linux-7</link>
+      <description>Intel's open-source graphics driver engineers are ending out 2025 with a bang. Sent out today was the final drm-xe-next pull request of the year of new feature material ready for the next version of the Linux kernel. Today's pull adds support for SR-IOV scheduler groups as well as multi-device Shared Virtual Memory (SVM) support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Multi-Device-SVM-Linux-7</guid>
+      <pubDate>Tue, 30 Dec 2025 15:11:52 +0000</pubDate>
     </item>
     <item>
-      <title>NTFSPLUS Linux Driver Renamed To Just "NTFS" With Latest Code Restructuring</title>
-      <link>https://www.phoronix.com/news/Linux-NTFS-v3-Patches</link>
-      <description>One of the unexpected Linux kernel surprises of 2025 was NTFSPLUS being announced as a new driver for Microsoft's NTFS file-system with better performance and more features compared to the classic read-only NTFS driver or the "NTFS3" kernel driver that Paragon Software submitted upstream. That NTFSPLUS driver has continued expanding its feature set and robustness and sent out today was the third iteration of the patches. Now this driver is simply being called "NTFS" with no longer going by the N</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-NTFS-v3-Patches</guid>
-      <pubDate>Mon, 29 Dec 2025 14:33:05 +0000</pubDate>
+      <title>Some Meaningful Performance Benefits For Clang + LTO Built Linux Kernels</title>
+      <link>https://www.phoronix.com/review/linux-kernel-llvm-clang-lto</link>
+      <description>Over the past few years building the Linux kernel with Clang has matured a lot thanks to upstream improvements to both LLVM/Clang and the Linux kernel. As it's been a while since our last comparison for GCC vs. Clang built kernels on the resulting system performance, our latest year-end 2025 benchmarking is providing a fresh look at the Linux 6.19 upstream Git kernel built under the latest stable GCC 15 and LLVM Clang 21 compilers. Plus with the Clang-built kernel is also the option of the Link-</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/linux-kernel-llvm-clang-lto</guid>
+      <pubDate>Tue, 30 Dec 2025 18:50:28 +0000</pubDate>
     </item>
     <item>
-      <title>The Performance Of Arch Linux Powered CachyOS On AMD EPYC Servers</title>
-      <link>https://www.phoronix.com/review/epyc-cachyos-server-preview</link>
-      <description>One of the more interesting announcements over the holiday period thus far is that moving into 2026, CachyOS is looking to develop a server edition for their Arch Linux based operating system. CachyOS has garnered quite a following among Linux enthusiasts and gamers for its competitive out-of-the-box performance, employing some of the optimizations by Intel's now defunct Clear Linux distribution, and pulling in all of the goodness from upstream Arch Linux. It will be very interesting to see how</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/epyc-cachyos-server-preview</guid>
-      <pubDate>Mon, 29 Dec 2025 15:10:00 +0000</pubDate>
+      <title>X.Org IMAKE Updated For Those Not Yet Transitioned To Autoconf/Automake Or Meson</title>
+      <link>https://www.phoronix.com/news/X.Org-imake-1.0.11</link>
+      <description>X.Org package wrangler Alan Coopersmith at Oracle announced today the release of imake 1.0.11, the newest version of this utility that 20+ years ago was used extensively as part of the X Window System build process for generating Makefiles from a template. With this first imake point release in two years, imake itself can now be built via Meson and there is now support for RISC-V and LoongArch architectures...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/X.Org-imake-1.0.11</guid>
+      <pubDate>Tue, 30 Dec 2025 20:32:03 +0000</pubDate>
     </item>
     <item>
-      <title>Hyprland 0.53 Released With New Launcher For Crash Recovery &amp;amp; Safe Mode, New Welcome App</title>
-      <link>https://www.phoronix.com/news/Hyprland-0.53</link>
-      <description>Hyprland 0.53 was released today as the last feature update to this Wayland compositor for 2025...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Hyprland-0.53</guid>
-      <pubDate>Mon, 29 Dec 2025 19:55:43 +0000</pubDate>
+      <title>Unexpected Surprise: Windows 11 Outperforming Linux On An Intel Arrow Lake H Laptop</title>
+      <link>https://www.phoronix.com/review/windows-beats-linux-arl-h</link>
+      <description>Typically when receiving any review hardware preloaded with Microsoft Windows I tend to run some Windows vs. Linux benchmarks just as a sanity test plus it still seems to generate a fair amount of interest even though the outcome is almost always the same: Linux having a hefty performance advantage over Windows especially in the more demanding creator-type workloads. As an unexpected twist and time consuming puzzle the past two months, when recently testing out the Lenovo ThinkPad P1 Gen 8 it's</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/windows-beats-linux-arl-h</guid>
+      <pubDate>Tue, 30 Dec 2025 22:04:00 +0000</pubDate>
     </item>
     <item>
-      <title>It Took 6+ Years For Linux's "New" Mount API To Be Properly Documented In Man Pages</title>
-      <link>https://www.phoronix.com/news/New-Mount-API-Man-Pages</link>
-      <description>In demonstrating one of the gaps of man pages in modern times and likely having hindered the adoption of the Linux kernel's new mount API, it took more than six years for those system calls to be properly documented within man pages. The Linux "new" mount API was introduced back in mid-2019 with Linux 5.2 and since supported by key file-systems after several years but not until weeks ago was this file descriptor based mount API scoped out within man pages...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/New-Mount-API-Man-Pages</guid>
-      <pubDate>Tue, 30 Dec 2025 01:35:18 +0000</pubDate>
+      <title>Shotcut 25.12 Released With 10-bit Video CPU Pipeline, Linear Color Processing</title>
+      <link>https://www.phoronix.com/news/Shotcut-25.12-Released</link>
+      <description>December happens to be a busy month for video editor releases in the open-source world. This month there's been the release of Flowblade 2.24, OpenShot 3.4, Kdenlive 25.12, and now there is Shotcut 25.12 before closing out the month and year...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Shotcut-25.12-Released</guid>
+      <pubDate>Wed, 31 Dec 2025 01:21:45 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,76 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 30 Dec 2025 06:40:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Dec 2025 06:39:57 +0000</lastBuildDate>
     <item>
-      <title>Airoha藍牙音訊晶片曝三漏洞，可能讓攻擊者控制耳機並冒充連上手機</title>
-      <link>https://www.ithome.com.tw/news/173080</link>
-      <description>新聞資安研究人員Dennis Heinze與Frieder Steinmetz公開Airoha藍牙音訊系統單晶片相關研究的完整技術細節，指出多款採用Airoha SoC的藍牙耳機與真無線耳機，可能因三項漏洞被攻擊者在藍牙距離內濫用，不只可能影響耳機本身，還可能在特定條件下進一步冒充耳機與使用者手機建立受信任連線，衍生出竊聽與通話操控等風險。 該研究重點在於CVE-2025-20700、CVE-2025-20701與CVE-2025-20702三項漏洞。前兩者與低功耗藍牙與經典藍牙在部分裝置上，未強制要求已配對裝置才能連線或存取服務有關，使攻擊者在附近即可嘗試連接並互動。 CVE-2025-20702進一步指向自訂RACE協定的高風險能力，研究團隊指出該協定原本用於工廠測試或除錯，卻可能透過藍牙通道被外界存取，並提供讀寫RAM與快閃記憶體等能力，讓攻擊面從一般音訊控制，擴大到資料擷取與持久性改寫。 最直接的可見風險是耳機在未預期狀態下被第三方連線，當攻擊者能以經典藍牙建立免持通話相關連線，就可能啟用耳機麥克風進行收音，不過由於在實務上可能伴隨音樂中斷或連線被搶占，使用者有機會察覺異常。相</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173080</guid>
-      <pubDate>Tue, 30 Dec 2025 00:49:52 +0000</pubDate>
+      <title>金管會揭露未來4年金融業資安韌性發展藍圖，鼓勵資安左納入軟體安全設計、研擬金融業AI系統安防指引、加強導入零信任架構</title>
+      <link>https://www.ithome.com.tw/news/173100</link>
+      <description>新聞金管會持續加強金融業資安管理，從2020年首次發布金融資安行動方案1.0開始，2022年發布行動方案2.0在今年底到期後，金管會今天(12/30)發布「金融資安韌性發展藍圖」，描繪我國金融業未來4年強化資安治理發展方向，例如鼓勵業者資安左移，將安全納入設計，並將研擬金融業AI系統安防指引，加速導入零信任架構等等。 金管會強調發布「金融資安韌性發展藍圖」，除了承續金融資安行動方案2.0，並參考「國家資通安全戰略2025」及「第七期國家資通安全發展方案」等國家資通安戰略，來強化我國金融系統的資安韌性，確保營運不中斷，該藍圖中可分為4構面，包括建立目標治理、建立全域防護、加強生態聯防、堅實韌性。 金管會資訊服務處長林裕泰指出，首先在目標治理方面，面對資安威脅的增加，必需建立資安治理的目標，特別是強化高層問責、資安法規調適及強化人才韌性；在全域防護方面，納入資安左移，將資安的思維向左移至資訊單位，加強不同規模的金融業部署零信任架構的成熟度，並針對新興科技如AI、量子建立相關的指引規範。 在生態聯防方面，林裕泰指出，除了金融業外，因應跨域合作、供應鏈攻擊的威脅增加，從金融業跨出去，和相關產業</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173100</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202025-12-30%20%E4%B8%8B%E5%8D%887_06_17.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 30 Dec 2025 11:06:57 +0000</pubDate>
     </item>
     <item>
-      <title>三星手機Bixby助理可能將整合Perplexity AI</title>
-      <link>https://www.ithome.com.tw/news/173081</link>
-      <description>新聞三星近年已經用Gemini取代自己的手機助理Bixby，不過最近釋出的軟體測試版顯示，三星可能引進Perplexity AI來強化Bixby。 12月初三星釋出手機軟體One UI 8.5 Beta。當中包含升級版AI功能「相片智慧助理」，能為使用者生成新相片或圖片。至於回覆使用者問題的AI助理三星並未著墨。這是因為Bixby使用率並不高。事實上三星2025年初的One UI 7已經用Google Gemini取代Bixby。 但是一名使用者在UI 8 Beta中發現到，Bixby悄悄改進了，現在它在回覆複雜問題時會查詢Perplexity，由其提供自然語言回應，以及更完整的答案。例如用戶詢問天氣時，它不僅提供氣溫，還能建議穿著。 媒體認為這顯示三星可能希望借引進第三方AI之力重振Bixby旗鼓，一如蘋果在macOS及iOS平臺引入OpenAI ChatGPT實作Apple Intelligence。兩者合作，由Bixby控制硬體及系統運作，而Perplexity則負責對話經驗及資訊蒐集與研究。媒體推測，最早整合Perplexity的三星手機可能會是下一代旗艦機Galaxy 26系</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173081</guid>
-      <pubDate>Tue, 30 Dec 2025 01:00:10 +0000</pubDate>
+      <title>歐洲高鐵業者Eurostar AI客服曝4弱點，護欄繞過衍生提示注入與自跨站腳本風險</title>
+      <link>https://www.ithome.com.tw/news/173097</link>
+      <description>新聞歐洲高速鐵路營運商Eurostar官網的AI客服，被英國資安公司Pen Test Partners揭露曾存在四項安全缺陷，包含護欄機制可被繞過、提示注入導致系統提示等資訊外洩、回覆內容可被誘導輸出非預期HTML而引發自跨站腳本（Self XSS）風險，以及對話與訊息識別碼驗證不足。 研究人員在問題修補後才公開細節。外媒City AM引述自Eurostar發言人，該聊天機器人未連結客戶帳戶或其他系統，並稱相關弱點已修補且會持續強化資安治理。 研究人員Ross Donald指出，他以一般旅客身分規畫行程時接觸到該聊天機器人，注意到其回覆帶有固定拒答文字，推測前端介面外還有一層程式化護欄在伺服器端先行判斷是否允許提問，因而進一步檢視其後端介面行為。 依其分析，該聊天機器人採用介面驅動設計，每次送出訊息時，前端會把整段對話歷史一併送到後端，後端會針對最新一則訊息進行護欄判定，並在後續請求中只檢查最新一則訊息的簽章。問題在於，較早的訊息不會被重新驗證，也未與當次護欄判定做完整的加密綁定，導致用戶端要是竄改既有對話歷史，仍可能被當成可信上下文送入模型，形成護欄繞過的基礎條件。 在上述條件下，研</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173097</guid>
+      <pubDate>Tue, 30 Dec 2025 22:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>攻擊行動Operation PCPcat鎖定Next.js應用程式而來，近6萬臺伺服器被入侵</title>
-      <link>https://www.ithome.com.tw/news/173083</link>
-      <description>新聞12月初React開發工程團隊揭露及修補滿分資安漏洞CVE-2025-55182（React2Shell），此為發生在React Server Components（RSC）元件的漏洞，在公布數小時後就傳出遭到利用，近期有資安公司發現新一波大規模攻擊，並指出駭客成功的機率相當高。 AI密罐陷阱平臺Beelzebub揭露名為Operation PCPcat的攻擊活動，駭客針對Next.js應用程式下手，試圖透過React2Shell入侵，並進行大規模憑證收集，經確認兩天內已針對91,505臺進行探測，有59,128臺伺服器受害，漏洞利用活動的成功比例高達64.6%。以每臺伺服器被偷走5至10個憑證來估算，恐有30萬至59萬組憑證外洩。 針對這波攻擊活動，駭客從大規模掃描可從網際網路存取的Next.js應用程式網域名稱開始，並透過複雜的命令工具react.py，識別應用程式伺服器是否存在React2Shell並觸發，然後藉由原型汙染（prototype pollution）手法操作JSON有效酬載，執行命令注入，將結果得到的資料，將獲取的資料透過HTTP標頭重新導向手法外傳。駭客搜刮的</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173083</guid>
-      <pubDate>Tue, 30 Dec 2025 02:40:52 +0000</pubDate>
+      <title>韓亞、大韓航空遭駭 外洩數萬員工資料</title>
+      <link>https://www.ithome.com.tw/news/173106</link>
+      <description>新聞韓國航空公司近日分別傳出資料外洩事件。韓亞航空（Asiana）及母公司大韓航空（Korean Air）分別在上周及本周傳出內部系統被駭，分別導致1萬和3萬員工資料外洩。 根據韓國媒體Korea JoongAng Daily報導引述消息人士報導，聖誕節前夕，韓亞航空內部公告，這起資料外洩事件是起於駭客於前一天未授權登入一臺海外伺服器，藉此駭入公司內部網路。外洩的資料包含員工姓名、部門、職稱、電話號碼、員工識別證號及電子郵件，影響約1萬名員工，包含合作夥伴公司的員工。 在不到一星期後，韓亞航空母公司，也是韓國航空龍頭業者大韓航空（Korean Air）本周也在內部公告，公司使用的Oracle E-Business Suite（EBS）遭到駭客存取，外洩逾3萬員工資料。 大韓航空內部公告說明，事件起因是受到供應機上餐點及商品的供應商KC&amp;amp;D遭駭波及。KC&amp;amp;D（Korean Air Catering &amp;amp; Duty-Free）原是大韓航空的業務部門，於2020年出售給了外部公司。這家供應商近日被駭，讓攻擊者得以存取公司Oracle EBS資料。外洩的資料包含近3萬名現任及前任員工的姓名和銀行</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173106</guid>
+      <pubDate>Wed, 31 Dec 2025 02:07:34 +0000</pubDate>
     </item>
     <item>
-      <title>中國駭客組織Evasive Panda透過AiTM網釣與DNS中毒，對土耳其、中國、印度散布惡意軟體</title>
-      <link>https://www.ithome.com.tw/news/173085</link>
-      <description>新聞中國駭客組織Daggerfly（別名Evasive Panda或StormBamboo）去年曾對臺灣發動攻擊，現在又傳出新一波活動，引起外界關注。 資安公司卡巴斯基揭露這些駭客自2022年11月開始從事的高度針對性攻擊，他們針對土耳其、中國，以及印度特定目標從事對手中間人攻擊（AiTM），並採用一系列的複雜手法來進行，持續到2024年11月才結束。其中最引起該公司注意的地方，在於駭客將惡意軟體的加密元件另外存放於伺服器上，而相關元件的用途，就是解析特定網站的DNS請求。再者，這些駭客開發新的惡意程式載入工具，並採用混合加密手法，因此，所有植入受害系統的惡意程式檔案都不同。駭客打造專屬的注入工具，並以DLL側載手法，讓惡意程式MgBot注入合法處理程序，並在記憶體內執行。 這些駭客擅長將作案工具偽裝成熱門應用程式的更新，來當作引誘使用者上當的誘餌，這波活動也不例外，其中一個是冒充視訊串流應用程式搜狐影音加速器（SohuVA）的更新程式，然後傳送惡意軟體。卡巴斯基認為，駭客疑似使用DNS中毒攻擊（DNS Poisoning）手法，竄改攻擊者控制的伺服器DNS回應。除了搜狐影音加速器，也</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173085</guid>
-      <pubDate>Tue, 30 Dec 2025 03:58:38 +0000</pubDate>
+      <title>歐洲太空總署證實外部伺服器被駭 未外洩機密資料</title>
+      <link>https://www.ithome.com.tw/news/173107</link>
+      <description>新聞歐洲太空總署（European Space Agency，ESA）本周回應資料外洩，但強調是外部伺服器被駭，並沒有機密資料外流。 ESA是針對上周駭客論壇BreachForums一則公告所做的回應。一名代號888的駭客宣稱12月18日駭入ESA系統長達一周，竊得超過200GB資料，計畫出售換取Monero （XMR）幣。 據稱這名駭客手上的ESA資料包括未公開Bitbucket程式庫中的原始碼、CI/CD管線配置、API和存取令牌、內部文件、SQL資料庫檔案、Terraform基礎架構、硬編寫的憑證和配置檔等。 他並公布數幀螢幕擷圖，可能是ESA系統目錄架構、程式碼片段和內部配置檔。不過資料真實性尚未獲驗證。 ESA得知資料外洩事件後已展開調查，並已強化資安措施確保可能有風險的裝置。ESA說，被駭的伺服器位於ESA企業網路外，根據目前調查，這起事件僅影響「非常少量」的外部伺服器。ESA並說，這些伺服器支援的是科學社群內合作性質的工程活動，所有相關人士都已接獲通知。ESA表示之後會再提供更多相關資訊。 去年大約同時，ESA也發生資安事件。ESA商品網站被駭客植入惡意JavaScrip</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173107</guid>
+      <pubDate>Wed, 31 Dec 2025 02:37:47 +0000</pubDate>
     </item>
     <item>
-      <title>密碼管理公司LastPass資料外洩影響延燒迄今，俄羅斯駭客疑竊取2,800萬美元</title>
-      <link>https://www.ithome.com.tw/news/173089</link>
-      <description>新聞2022年密碼管理工具開發商LastPass爆發資料外洩事件，資安業者指出，事件負面影響持續延燒到2025年，仍然對用戶造成近3,000萬美元金錢損失，而俄羅斯駭客可能是背後元兇。 2022年一群駭客駭入LastPass內部系統造成將近3,000萬用戶管理庫（vault）的敏感憑證，包括加密金鑰和確保加密貨幣錢包的種子密語（seed phrases）備份曝露。而這些資產外洩遺害到今天。 資安廠商TRM Labs指出，這些憑證雖然經過加密，一開始攻擊者沒有用戶的主密碼可能無法讀取，但他們可以整批下載，任何使用弱主密碼的管理庫最後都會被離線破解，使得單一入侵事件演變成多年破口，讓攻擊者慢慢破解密碼、存取加密貨幣錢包悄悄提款。 TRM研究人員分析2024和2025年的電子錢包的外洩金流，發現是俄羅斯駭客操作的網路犯罪。他們發現有人透過混幣器（mixer）存取受害者加密貨幣錢包進行混幣和洗錢行為，這階段運作和俄羅斯基礎架構有多次互動，而加密貨幣出金（off-ramps）也是使用高風險的俄羅斯交易平臺，因此判斷近兩年竊取財務活動和俄國駭客的關聯性。研究人員估計近兩年2024年底到2025年初</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173089</guid>
-      <pubDate>Tue, 30 Dec 2025 05:08:26 +0000</pubDate>
+      <title>軟銀正式取得11%的OpenAI股份</title>
+      <link>https://www.ithome.com.tw/news/173108</link>
+      <description>新聞日本軟體銀行集團（SoftBank Group，軟銀）本周宣布，已於上周五（12/26）完成對OpenAI的225億美元追加投資，履行了2025年3月對OpenAI所作出的承諾，與其它第三方共同完成投資，正式取得約11%的OpenAI股份。 OpenAI是在2025年3月底展開由軟銀主導的400億美元融資活動，根據軟銀的規畫，其中將有100億美元分配給其它的投資者，軟銀最多會獨立投資300億美元，條件是OpenAI成功轉型為營利導向的公司，否則軟銀的投資金額將會縮減為200億美元。完成該融資活動後的OpenAI估值將達3,000億美元。 接著OpenAI在2025年10月完成資產重組，由非營利實體OpenAI基金會控制公益性公司OpenAI Group PBC。OpenAI Group PBC估值約為5,000億美元，微軟持股27%，OpenAI基金會持股26%。持股11%的軟銀成為OpenAI的第三大股東。 軟銀表示，該公司是在2025年4月透過軟銀願景基金2（SoftBank Vision Fund 2，SVF 2）投資了75億美元，上周也是藉由SVF 2追加投資225億美元，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173108</guid>
+      <pubDate>Wed, 31 Dec 2025 03:02:40 +0000</pubDate>
     </item>
     <item>
-      <title>日本使用AI物聯網攝影機建立熊蹤通報系統</title>
-      <link>https://www.ithome.com.tw/news/173090</link>
-      <description>新聞2025年熊害造成日本人員牲畜死傷與農作損失，近日正在熊出沒嚴重地區部署AI攝影機以加強辨識。 這套系統名為「熊隻AI自動偵測暨通報系統」（英文名為AI-Based Automatic Detection and Notification System for Harmful Animals），簡稱Bear Alert，是由北陸電力內部研究所開發。 日本並非今年才有熊害。2020年日本亞洲黑熊出沒件數約2萬件，並傳出傷人事件，因此廠商在2021年已完成這套系統開發及測試。 這套系統結合連網攝影機、邊緣AI及行動網路。架設在熊出沒頻繁山區林間的連網攝影機蒐集周遭動物影像，將影像傳送回位於各地站點的小型電腦，由AI判讀是否為熊，或是野豬、猴子、鹿等其他動物。一旦判讀為熊，系統會將照片透過電子郵件發送到當地市政府等相關單位，以便即時採取行動。根據廠商宣稱，系統使用的AI模型判讀精度達99%，因此可協助提早30分鐘發送居民避難警告。 日本京都新聞報導，目前這套系統已安裝到日本北陸地區包括群馬縣、富山縣和石川縣等熊出沒高風險地區。 另一方面，日本也有無人機學校或行動電信業者NTT Docom</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173090</guid>
-      <pubDate>Tue, 30 Dec 2025 05:13:40 +0000</pubDate>
+      <title>記憶體短缺擴大衝擊2026年PC出貨量</title>
+      <link>https://www.ithome.com.tw/news/173109</link>
+      <description>新聞市場研究機構IDC與集邦科技（TrendForce）近日不約而同地指出，AI占據了記憶體產能，推動消費性記憶體價格的大幅上漲，將擴大衝擊2026年的PC出貨量。其中，集邦科技已將2026年全球筆記型電腦的出量從下滑2.4%再下修至下滑5.4%，最壞情況可能下滑10.1%；而IDC也把明年PC出貨量從下滑2.4%下修至下滑4.9%，並說最糟可能萎縮8.9%。 其實不管是集邦科技或是IDC對於2.4%下滑幅度的預測都是今年11月提出的，當時消費記憶體價格已不斷創下新高，但情況持續惡化又使得兩家業者下修原本的預測。 IDC說明，記憶體市場正處於一個結構性轉折點，其需求遠超過供給。不同於過去典型的景氣循環，這次是因AI基礎設施及工作負載的快速擴張，對記憶體生態系統造成巨大壓力。AI需要大量記憶體，部分短缺來自於產能從消費性電子轉向高毛利AI記憶體解決方案的結構性調整，主要記憶體業者不再擴充智慧型手機與PC使用的DRAM與NAND，而是將產能轉向AI資料中心所需的高頻寬記憶體（HBM）與高容量DDR5，進而壓縮通用型記憶體供給，推升整體價格。 AI建置潮吸走了不成比例的全球產能，供應商優先滿</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173109</guid>
+      <pubDate>Wed, 31 Dec 2025 03:44:19 +0000</pubDate>
     </item>
     <item>
-      <title>Meta買下AI代理人開發商Manus</title>
-      <link>https://www.ithome.com.tw/news/173091</link>
-      <description>新聞Meta周一（12/29）宣布，已買下AI代理人開發商Manus，以加速企業的人工智慧創新，雙方並未揭露交易金額，但外傳這起交易價值數十億美元。 Manus現身於今年3月，當時是由該公司科學長季逸超所發表，定位為全球首個通用AI代理，可直接結合概念與執行並交付成果。Manus表示，其AI代理人可協助用戶高效完成研究、自動化與複雜任務，迄今Manus已處理逾147兆個Token，建立了超過8,000萬臺的虛擬計算機。 在併入Meta之後，Manus將繼續透過App及網站替用戶提供產品及訂閱服務，而且公司將繼續於新加坡經營。 根據中國媒體LatePost的報導，Manus的母公司其實是肖弘在2022年所創辦的蝴蝶效應（Butterfly Effect Technology），該公司的首款產品為Monica AI瀏覽器聊天機器人擴充程式，第二個產品才是Manus。 LatePost還說，Meta買下的是蝴蝶效應，且蝴蝶效應正以20億美元的估值進行新一輪的融資，因此該收購案應價值數十億美元。未來蝴蝶效應將維持獨立運作，但肖弘將出任Meta副總裁。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173091</guid>
-      <pubDate>Tue, 30 Dec 2025 05:36:31 +0000</pubDate>
+      <title>中國駭客Mustang Panda用核心層級Rootkit隱匿後門程式ToneShell活動，以便進行間諜活動</title>
+      <link>https://www.ithome.com.tw/news/173110</link>
+      <description>新聞隨著資安公司不斷揭露國家級駭客的網路間諜活動，駭客也試圖透過更複雜的手段，隱匿相關活動及作案工具。 資安公司卡巴斯基揭露發生在2025年中旬的資安事故，外號為Mustang Panda、Earth Preta、RedDelta，以及TA416的中國駭客組織，將惡意驅動程式部署到亞洲的企業組織網路環境，最終在系統處理程序注入後門程式ToneShell。其中，他們使用可能外流或遭竊的憑證簽署驅動程式，並對於惡意檔案、以使用者模式執行的處理程序，並對系統登錄檔加入防護機制，避免攻擊活動受到干擾。該公司認為，這波活動代表Mustang Panda的攻擊手法出現重大變化。 根據ToneShell的C2伺服器資料，卡巴斯基研判攻擊活動從2025年2月開始，此次駭客使用的ToneShell，經常用於攻擊東南亞及東亞政府機關，目的是從事網路間諜活動，其中，緬甸和泰國是駭客的主要目標。 針對駭客入侵受害組織的管道，卡巴斯基表示不清楚，不過這些企業組織存在共通點，就是都曾被Mustang Panda植入惡意程式，其中包括：USB蠕蟲ToneDisk、PlugX，以及舊版ToneShell。因此，在這波</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173110</guid>
+      <pubDate>Wed, 31 Dec 2025 03:55:19 +0000</pubDate>
     </item>
     <item>
-      <title>軟銀以40億美元收購數位基礎設施資產管理公司DigitalBridge</title>
-      <link>https://www.ithome.com.tw/news/173093</link>
-      <description>新聞日本軟體銀行（SoftBank Group，軟銀集團）周一（12/29）宣布，已簽署正式協議，將以每股16美元、總價約40億美元收購數位基礎設施資產管理公司DigitalBridge，以實現人工超級智慧（Artificial Super Intelligence，ASI），推動人類福祉。雙方預計於2026年下半年完成交易。 DigitalBridge於2007年在美國創立，為一專注於數位基礎設施的全球資產管理公司，替投資人管理及經營資料中心、行動通訊基地臺、光纖網路、小型基地臺，以及邊緣運算基礎設施，定位為支撐雲端運算、行動通訊，以及AI應用的底層關鍵資產平臺。 DigitalBridge的營收核心為資產管理費用，今年第三季的營收為9,350萬美元，全來自資產管理，比去年同期成長22%。收購消息一出，DigitalBridge當天股價即上漲了9.63%，以15.26美元作收。 軟銀董事長暨執行長孫正義表示，隨著AI重塑全球各行各業，人們需要更多的運算能力、連線能力、電力，以及可擴展的基礎設施。DigitalBridge是數位基礎設施領域的領導者，這項收購將強化次世代AI資料中心的基</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173093</guid>
-      <pubDate>Tue, 30 Dec 2025 05:52:14 +0000</pubDate>
+      <title>多款主機板UEFI實作存在缺陷，開機前恐遭直接記憶體存取攻擊</title>
+      <link>https://www.ithome.com.tw/news/173102</link>
+      <description>新聞一般情況下，電腦在開機時會由UEFI（Unified Extensible Firmware Interface）韌體與IOMMU（Input–Output Memory Management Unit）先行建立基本防護，避免支援直接記憶體存取（Direct Memory Access，DMA）的周邊裝置在作業系統尚未啟動前，就能擅自讀取或竄改系統記憶體。 不過，研究人員近日揭露，一項影響多家主機板廠商的UEFI資安漏洞，可能讓上述防護機制失效，使系統在早期開機階段暴露於DMA攻擊風險之下。受影響的品牌包括華擎科技（ASRock）、華碩（Asus）、技嘉（Gigabyte）與微星（MSI），涵蓋多款採用Intel與AMD晶片組的主機板。 這項漏洞出現在部分UEFI與IOMMU的實作中。理論上，UEFI與IOMMU應在作業系統載入前就建立基礎防護，防止周邊裝置未經授權存取系統記憶體。然而研究人員發現，韌體雖然顯示已啟用DMA防護，實際上卻未在關鍵開機階段正確設定與啟用IOMMU，導致防護機制形同虛設。 根據美國電腦應變協調中心（CERT/CC）說明，在這樣的情況下，若攻擊者具備實體存</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173102</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E8%8F%AF%E6%93%8E-ASROCK-CVE-2025-14304_0.png" length="0" type="image/png"/>
+      <pubDate>Wed, 31 Dec 2025 04:12:22 +0000</pubDate>
     </item>
     <item>
-      <title>3,370萬用戶資料外洩 酷澎將賠償11.7億美元</title>
-      <link>https://www.ithome.com.tw/news/173094</link>
-      <description>新聞針對12月初的3,370萬用戶資料外洩事件，韓國最大電商平臺酷澎（Coupang）本周一宣布，將對受影響的用戶以購物券形式賠償，總價達1.685兆韓圓（約11.7億美元，368億臺幣）。酷澎並報告本案調查進度。 這筆費用預計從2026年1月15日起發放，適用受影響的3,370萬用戶。適用者涵括11月30日以前接到通知的用戶包括WOW及非WOW會員，也包含曾取消會員籍但收到通知的前用戶。經過平分，平均每人可獲得5萬韓圓（1,092臺幣）。酷澎也會陸續以簡訊通知相關的用戶。 這筆費用將全部以4種購物券／折價券形式發放，包括酷澎電商平臺5,000韓圓、酷澎美食外送（Coupang Eats）5,000韓圓、酷澎旅遊（Coupang Travel）2萬韓圓、酷澎高階美妝（Coupang R.LUX）2萬韓圓。 酷澎臨時執行長Harold Rogers再次致歉，並表示，該公司將把此事件視為轉捩點，Coupang本著「以客為中心」原則，貫徹責任，轉型為顧客值得信賴的公司。 此事發生在11月底，酷澎連同韓國執法機構及資安公司調查，並揭露資料外洩案，估計受影響人數為3,370萬人。此事造成酷澎執行</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173094</guid>
-      <pubDate>Tue, 30 Dec 2025 06:06:25 +0000</pubDate>
+      <title>資料決定AI能力邊界</title>
+      <link>https://www.ithome.com.tw/voice/173112</link>
+      <description>為了提升公共安全，導入AI系統進行改善是大家都希望能做到的，然而，想要讓AI發揮功效，首先須確保相關資料都能持續擷取與蒐集、受到妥善而完整的儲存，而且獲得足夠的安全保護，對於AI或任何分析系統而言，資料不僅是驅動這些工作能否順利進行的重要「燃料」，也是整體能力的天花板，需要滿足正確性、完整性、代表性、一致性、時效性等層面的要求。 同時，搭配適當的應用系統也很重要，這是讓AI發揮能力的關鍵，有了它，才能從概念驗證或技術展示，真正進入實踐階段。 這讓我想到最近臺北市發生隨機殺人攻擊事件，臺北大眾捷運公司研議在捷運站、轉運站等人流密集處的監視器，導入AI異常行為辨識系統，若偵測到激烈肢體動作、持械或群眾異常推擠，將觸發警報，促使現有的監控系統功能從事後調閱，轉為事前預警。 然而，AI再厲害，沒有正確而完整的資料，必定影響相關機制的成效。因為事發當時有民眾質疑監視器失靈，臺北大眾捷運公司在21日表示，同一個場域裝設多支監視器（視訊攝影機），由相關的主機進行系統控管，有相互備援，以事發的多個區域之一：板南線B2層為例，有4組網路監控影片錄影機（NVR），目的就是避免單一設備故障造成影像紀錄中斷，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/voice/173112</guid>
+      <pubDate>Wed, 31 Dec 2025 04:21:31 +0000</pubDate>
     </item>
     <item>
-      <title>中國數位人民幣將在2026年邁向存款貨幣</title>
-      <link>https://www.ithome.com.tw/news/173095</link>
-      <description>新聞中國人民銀行副行長陸磊於中國金融時報上指出，2026年1月1日將實施新一代數位人民幣（e-CNY）的政策，數位人民幣將由現金型1.0版，升級為存款貨幣型2.0版。這次調整並非改變民眾的支付方式，而是重新界定數位人民幣在金融體系中的制度角色。 在新制度下，部分數位人民幣將在銀行體系內以帳戶方式管理，具備商業銀行負債屬性，並可依法計付利息、納入準備金與存款保險體系。這代表數位人民幣在制度上不再僅是電子形式的現金，而是在特定情況下，開始接近銀行存款的管理邏輯，被視為數位人民幣邁入2.0階段的關鍵變化。 中國人民銀行是在2014年成立專責團隊來研究數位貨幣，在2016年確定由央行（中國人民銀行）發行及商業銀行參與的營運模式，在2019年與2020年開始於深圳及蘇州等地展開數位人民幣的封閉測試，之後迄今即在中國各地擴大測試並展開跨境測試。 此外，中國央行也在2022年推出數位人民幣錢包App，用戶可透過手機號碼與App中建立數位人民幣錢包，包括匿名制與實名制錢包，後者可直接連接銀行進行充值與提現，之後即可用來支付、收款及轉帳。迄今已有2.3億人註冊數位人民幣錢包，有超過1,800萬個組織或商</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173095</guid>
-      <pubDate>Tue, 30 Dec 2025 06:22:11 +0000</pubDate>
+      <title>MongoBleed漏洞野外已遭濫用，CISA要求美國聯邦文職機關三周內修補</title>
+      <link>https://www.ithome.com.tw/news/173111</link>
+      <description>新聞美國網路安全暨基礎設施安全局（CISA）將MongoDB漏洞CVE-2025-14847加入已知遭利用漏洞清單（KEV），並要求聯邦民事行政部門機關（FCEB）在2026年1月19日前完成修補，期限約三周。 CISA將CVE-2025-14847列入KEV的理由，是已出現野外濫用跡象。CVE-2025-14847又被稱為MongoBleed，該漏洞在不需要身分驗證且不需使用者互動的情況下，可能讓攻擊者遠端讀取伺服器記憶體中的敏感片段，例如帳密或其他存取憑證、API或雲端服務金鑰、工作階段權杖、內部紀錄與可識別個人資料等。 該漏洞的嚴重性在於，攻擊者不一定需要先取得合法登入權限，只要目標MongoDB服務對外公開，就可能藉由觸發記憶體洩漏，獲得足以作為後續入侵跳板的線索，進而擴大橫向移動與資料外洩風險。而造成漏洞的原因，是MongoDB伺服器端在處理zlib壓縮的協定標頭時長度欄位不一致，可能讓未經驗證的遠端用戶端讀取伺服器端未初始化的堆積記憶體（Heap Memory）內容，屬於資訊洩漏類型漏洞。 MongoDB已在2025年12月19日釋出修補版本MongoDB 8.0.17，C</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173111</guid>
+      <pubDate>Wed, 31 Dec 2025 05:16:41 +0000</pubDate>
     </item>
   </channel>
 </rss>
