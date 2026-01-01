@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 31 Dec 2025 06:38:04 +0000</lastBuildDate>
-    <item>
-      <title>The Open-Source OpenGL &amp;amp; Vulkan Drivers Enjoyed A Rather Remarkable 2025</title>
-      <link>https://www.phoronix.com/news/Mesa-2025-Highlights</link>
-      <description>The open-source OpenGL and Vulkan drivers making up Mesa had another very successful year. Even with all the years being invested into Mesa largely by Intel, AMD, Valve, Red Hat, and others, the upward trajectory continues for Mesa on expanding the hardware support, punctually adding new Vulkan extensions, and racking up other wins...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-2025-Highlights</guid>
-      <pubDate>Tue, 30 Dec 2025 11:15:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>XWayland Gets Patched For Incorrect Pointer Coordinates</title>
-      <link>https://www.phoronix.com/news/XWayland-Pointer-Enter-Correct</link>
-      <description>An important fix has made it into the X.Org Server XWayland codebase ahead of the new year. XWayland has been fixed to avoid sending incorrect pointer coordinates to X11 clients on pointer enter events...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/XWayland-Pointer-Enter-Correct</guid>
-      <pubDate>Tue, 30 Dec 2025 11:40:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>InputPlumber 0.70 Released With Expanded Hardware Support</title>
-      <link>https://www.phoronix.com/news/InputPlumber-0.70</link>
-      <description>InputPlumber 0.70 is out today as the newest feature update to this open-source input router and re-mapper daemon for Linux systems. With more gaming handhelds coming to market and other controllers as well as the upward trajectory of Linux gaming, InputPlumber is becoming more applicable for this daemon to combine various input devices into different virtual device formats...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/InputPlumber-0.70</guid>
-      <pubDate>Tue, 30 Dec 2025 11:55:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 6.19 Kernel Benchmarks With X86_NATIVE_CPU Optimization</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-X86_NATIVE_CPU</link>
-      <description>Added to the Linux kernel earlier this year was the new X86_NATIVE_CPU Kconfig option to enable compiler optimizations for the local/native CPU in use when building the Linux kernel. In effect about ensuring that the "-march=native" compiler flag is set for the kernel build for optimizing the Linux kernel build for your processor being used. Back with Linux 6.16 I ran some benchmarks of the Linux kernel build with X86_NATIVE_CPU to gauge the impact. Now with the current Linux 6.19 kernel and som</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-X86_NATIVE_CPU</guid>
-      <pubDate>Tue, 30 Dec 2025 12:27:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>LLVM 22 Lands NVIDIA Olympus CPU Scheduling Model</title>
-      <link>https://www.phoronix.com/news/NVIDIA-Olympus-Sched-Model</link>
-      <description>NVIDIA's Olympus are the ARM64 cores found within the upcoming Vera CPU that will be paired with Rubin. Olympus cores are claimed to be twice as fast as NVIDIA's current CPU cores found in Grace and based on Neoverse-V2. Earlier this year the open-source compilers landed initial support for Olympus while now a proper CPU scheduling model has been upstreamed into LLVM 22...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-Olympus-Sched-Model</guid>
-      <pubDate>Tue, 30 Dec 2025 14:46:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intel's Xe Linux Driver Ready With Multi-Device SVM To End Out 2025</title>
-      <link>https://www.phoronix.com/news/Intel-Multi-Device-SVM-Linux-7</link>
-      <description>Intel's open-source graphics driver engineers are ending out 2025 with a bang. Sent out today was the final drm-xe-next pull request of the year of new feature material ready for the next version of the Linux kernel. Today's pull adds support for SR-IOV scheduler groups as well as multi-device Shared Virtual Memory (SVM) support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Multi-Device-SVM-Linux-7</guid>
-      <pubDate>Tue, 30 Dec 2025 15:11:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Some Meaningful Performance Benefits For Clang + LTO Built Linux Kernels</title>
-      <link>https://www.phoronix.com/review/linux-kernel-llvm-clang-lto</link>
-      <description>Over the past few years building the Linux kernel with Clang has matured a lot thanks to upstream improvements to both LLVM/Clang and the Linux kernel. As it's been a while since our last comparison for GCC vs. Clang built kernels on the resulting system performance, our latest year-end 2025 benchmarking is providing a fresh look at the Linux 6.19 upstream Git kernel built under the latest stable GCC 15 and LLVM Clang 21 compilers. Plus with the Clang-built kernel is also the option of the Link-</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/linux-kernel-llvm-clang-lto</guid>
-      <pubDate>Tue, 30 Dec 2025 18:50:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>X.Org IMAKE Updated For Those Not Yet Transitioned To Autoconf/Automake Or Meson</title>
-      <link>https://www.phoronix.com/news/X.Org-imake-1.0.11</link>
-      <description>X.Org package wrangler Alan Coopersmith at Oracle announced today the release of imake 1.0.11, the newest version of this utility that 20+ years ago was used extensively as part of the X Window System build process for generating Makefiles from a template. With this first imake point release in two years, imake itself can now be built via Meson and there is now support for RISC-V and LoongArch architectures...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/X.Org-imake-1.0.11</guid>
-      <pubDate>Tue, 30 Dec 2025 20:32:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Unexpected Surprise: Windows 11 Outperforming Linux On An Intel Arrow Lake H Laptop</title>
-      <link>https://www.phoronix.com/review/windows-beats-linux-arl-h</link>
-      <description>Typically when receiving any review hardware preloaded with Microsoft Windows I tend to run some Windows vs. Linux benchmarks just as a sanity test plus it still seems to generate a fair amount of interest even though the outcome is almost always the same: Linux having a hefty performance advantage over Windows especially in the more demanding creator-type workloads. As an unexpected twist and time consuming puzzle the past two months, when recently testing out the Lenovo ThinkPad P1 Gen 8 it's</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/windows-beats-linux-arl-h</guid>
-      <pubDate>Tue, 30 Dec 2025 22:04:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 01 Jan 2026 06:37:56 +0000</lastBuildDate>
     <item>
       <title>Shotcut 25.12 Released With 10-bit Video CPU Pipeline, Linear Color Processing</title>
       <link>https://www.phoronix.com/news/Shotcut-25.12-Released</link>
       <description>December happens to be a busy month for video editor releases in the open-source world. This month there's been the release of Flowblade 2.24, OpenShot 3.4, Kdenlive 25.12, and now there is Shotcut 25.12 before closing out the month and year...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Shotcut-25.12-Released</guid>
       <pubDate>Wed, 31 Dec 2025 01:21:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenCV 4.13 Brings More AVX-512 Usage, CUDA 13 Support, Many Other New Features</title>
+      <link>https://www.phoronix.com/news/OpenCV-4.13-Released</link>
+      <description>OpenCV 4.13 is out this New Year's Eve in providing the latest open-source computer vision (CV) capabilities. OpenCV 4.13 brings a wide variety of enhancements to this widely-used computer vision library...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/OpenCV-4.13-Released</guid>
+      <pubDate>Wed, 31 Dec 2025 11:35:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open-Source Crown Game Engine v0.60 Released</title>
+      <link>https://www.phoronix.com/news/Crown-Engine-0.60</link>
+      <description>While the Godot Engine receives a lot of attention as a prominent open-source game engine, it's far from the only one in this space. Another open-source game engine capping out 2025 with a new release is the Crown Engine...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Crown-Engine-0.60</guid>
+      <pubDate>Wed, 31 Dec 2025 11:47:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>GCC &amp;amp; The GNU Toolchain's Exciting 2025 With New Languages, More Optimizations</title>
+      <link>https://www.phoronix.com/news/GCC-Exciting-2025</link>
+      <description>The GCC compiler and the GNU toolchain ecosystem at large had a great year. From new language front-ends for the likes of Algol 68 and COBOL to maturing support for GCC Rust, new performance optimizations from GCC to Glibc, initial AMD Zen 6 "znver6" support merged for GCC 16, and much more. It's pretty safe to say GCC and the broader GNU ecosystem enjoyed a very successful 2025...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GCC-Exciting-2025</guid>
+      <pubDate>Wed, 31 Dec 2025 11:58:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19 Closing Out 2025 With Several Laptop Additions</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-EOY-Laptop-Work</link>
+      <description>A New Year's Eve pull request is ready with several Intel/AMD laptop improvements for the ongoing Linux 6.19 kernel cycle. An x86 platform drivers pull request sent to Linus Torvalds today brings several notable driver enhancements with expanding the range of supported laptops...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-EOY-Laptop-Work</guid>
+      <pubDate>Wed, 31 Dec 2025 12:16:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Arch Linux Installer Adds CUPS, rEFInd Boot, IWD, COSMIC &amp;amp; Power Management Options</title>
+      <link>https://www.phoronix.com/news/Arch-Linux-Archinstall-3.0.15</link>
+      <description>Ahead of the January 2026 ISO refresh for Arch Linux, Archinstall 3.0.15 released today as the newest update to this convenient text-based OS installer...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Arch-Linux-Archinstall-3.0.15</guid>
+      <pubDate>Wed, 31 Dec 2025 13:33:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intel Meteor Lake On Linux Two Years Post-Launch: 93% The Original Performance</title>
+      <link>https://www.phoronix.com/review/intel-meteor-lake-2025</link>
+      <description>As part of the various end-of-year annual benchmarking comparisons and the like on Phoronix, today is a look at how the Intel Core Ultra 7 155H "Meteor Lake" performance has evolved under Ubuntu Linux in the two years since launching. Plus with next-gen Intel Panther Lake laptops expected to be showcased next week at CES, it's a good time for revisiting the Meteor Lake performance to see the difference two years have made for Intel Meteor Lake laptops on Linux.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/intel-meteor-lake-2025</guid>
+      <pubDate>Wed, 31 Dec 2025 16:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Asahi Linux Has Experimental Code For DisplayPort, Apple M3/M4/M5 Bring-Up Still Ongoing</title>
+      <link>https://www.phoronix.com/news/Asahi-Linux-EOY-2025-CCC</link>
+      <description>Prominent Asahi Linux developer Sven Peter spoke at this week's 39th Chaos Communication Congress "39C3" in Hamburg, Germany. He provided an update around the still-in-the-works Apple M3 / M4 / M5 SoC and device support as well as other outstanding features like getting DisplayPort working on Apple Macs under Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Asahi-Linux-EOY-2025-CCC</guid>
+      <pubDate>Wed, 31 Dec 2025 21:32:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ncurses 6.6 Released With Improved Windows Terminal Support, Other Enhancements</title>
+      <link>https://www.phoronix.com/news/Ncurses-6.6</link>
+      <description>Ncurses 6.6 was released today prior to closing out 2025. This programming library update for creating terminal-based text user interfaces (TUIs) features a variety of great improvements for ending out the year...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ncurses-6.6</guid>
+      <pubDate>Thu, 01 Jan 2026 01:01:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>AMD Ryzen AI Max, Intel Graphics &amp;amp; Other Linux Benchmarks That Commanded 2025</title>
+      <link>https://www.phoronix.com/news/Linux-Hardware-Reviews-2025</link>
+      <description>This looks to be a wrap on 2025, Happy New Year to all the Phoronix readers over the past 21+ years. This year on Phoronix there were 226 original Linux hardware reviews and featured benchmark articles written by your's truly. Plus another 3,286 original open-source/Linux software and hardware news articles this calendar year. Here were the big topics of 2025 for the featured Linux hardware reviews and benchmark articles...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Hardware-Reviews-2025</guid>
+      <pubDate>Thu, 01 Jan 2026 01:27:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
