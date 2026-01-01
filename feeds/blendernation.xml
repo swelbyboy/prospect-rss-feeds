@@ -8,31 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 31 Dec 2025 06:38:23 +0000</lastBuildDate>
-    <item>
-      <title>Link, Append, Pack &amp;amp; Library Overrides Explained</title>
-      <link>https://www.blendernation.com/2025/12/22/link-append-pack-library-overrides-explained/</link>
-      <description>Michael Bridges breaks down Blender's asset importing system, showing you exactly when to use Link, Append, and Pack. I'll help you avoid the two most common asset nightmares: broken update propagation and accidental global overrides. Have you ever linked assets perfectly, made updates to the source file, but nothing changed in your scene? Or worse, [...] Source</description>
-      <guid isPermaLink="false">https://www.blendernation.com/2025/12/22/link-append-pack-library-overrides-explained/</guid>
-      <enclosure url="https://www.blendernation.com/wp-content/uploads/2025/12/Thumbnail-1-1024x576.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 22 Dec 2025 11:39:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ignite a Blazing Text with Blender 5.0 Volume Nodes</title>
-      <link>https://www.blendernation.com/2025/12/23/ignite-a-blazing-text-with-blender-5-0-volume-nodes/</link>
-      <description>In this geometry nodes tutorial, I’ll show you how to make a 🔥🔥BLAZING🔥🔥 text animation with Blender 5.0’s new volume nodes. Let's light it up! Source</description>
-      <guid isPermaLink="false">https://www.blendernation.com/2025/12/23/ignite-a-blazing-text-with-blender-5-0-volume-nodes/</guid>
-      <enclosure url="https://www.blendernation.com/wp-content/uploads/2025/12/thumb-yt11-1024x576.png" length="0" type="image/png"/>
-      <pubDate>Tue, 23 Dec 2025 12:23:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Blender Jobs for December 26, 2025</title>
-      <link>https://www.blendernation.com/2025/12/26/blender-jobs-for-december-26-2025/</link>
-      <description>Here's an overview of the most recent Blender jobs on Blender Artists, ArtStation and 3djobs.xyz: Stylized Environment Artist 2D Puzzle Grind Artist (Match-3 project) [PAID] 3D Artist Needed - Stylized Livestock (Cows/Goats/Sheep/Pigs) + Simple Loop Animations Unity 3D generator testing, small compensation (closed) For more jobs, look here. Source</description>
-      <guid isPermaLink="false">https://www.blendernation.com/2025/12/26/blender-jobs-for-december-26-2025/</guid>
-      <enclosure url="https://www.blendernation.com/wp-content/uploads/2021/08/low-poly-office-file-1024x576.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 26 Dec 2025 10:15:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 01 Jan 2026 06:38:14 +0000</lastBuildDate>
     <item>
       <title>Easy Hole from Vertex</title>
       <link>https://www.blendernation.com/2025/12/27/easy-hole-from-vertex/</link>
@@ -80,6 +56,30 @@
       <guid isPermaLink="false">https://www.blendernation.com/2025/12/30/holiday-sale-40-off-on-all-andrew_d-blender-add-ons/</guid>
       <enclosure url="https://www.blendernation.com/wp-content/uploads/2025/12/bn_christmas_2025-1024x473.jpg" length="0" type="image/jpeg"/>
       <pubDate>Tue, 30 Dec 2025 07:44:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fast Cutting is Good and Easy in Blender</title>
+      <link>https://www.blendernation.com/2025/12/31/fast-cutting-is-good-and-easy-in-blender/</link>
+      <description>yogyog writes: I don't know why I didn't post this straight away #, but here it is.... should be useful for a lot of Blender animators. Fast Cutting is Good Actually! Here's 3 ways to fast cut in Blender 0:58 Keyframing the camera 1:34 Camera Markers 2:27 Enter the Video Sequence Editor Source</description>
+      <guid isPermaLink="false">https://www.blendernation.com/2025/12/31/fast-cutting-is-good-and-easy-in-blender/</guid>
+      <enclosure url="https://www.blendernation.com/wp-content/uploads/2025/12/fast-cut-1024x473.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 31 Dec 2025 08:22:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blender 5.0.1 Released</title>
+      <link>https://www.blendernation.com/2025/12/31/blender-5-0-1-released/</link>
+      <description>Blender 5.0.1 is out adds fixes for 132 issues found in the previous release. If you’re on 5.0.0, it’s highly recommended to update. Source</description>
+      <guid isPermaLink="false">https://www.blendernation.com/2025/12/31/blender-5-0-1-released/</guid>
+      <enclosure url="https://www.blendernation.com/wp-content/uploads/2015/09/BlenderDesktopLogo-728x336.png" length="0" type="image/png"/>
+      <pubDate>Wed, 31 Dec 2025 12:45:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Creating Avocado Egg Toast in Blender</title>
+      <link>https://www.blendernation.com/2025/12/31/creating-avocado-egg-toast-in-blender/</link>
+      <description>Nicholas Ndlovu shares a cool timelapse of some food modeling in Blender. Source</description>
+      <guid isPermaLink="false">https://www.blendernation.com/2025/12/31/creating-avocado-egg-toast-in-blender/</guid>
+      <enclosure url="https://www.blendernation.com/wp-content/uploads/2025/12/sda524a.png" length="0" type="image/png"/>
+      <pubDate>Wed, 31 Dec 2025 16:55:20 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,57 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 31 Dec 2025 06:39:57 +0000</lastBuildDate>
-    <item>
-      <title>金管會揭露未來4年金融業資安韌性發展藍圖，鼓勵資安左納入軟體安全設計、研擬金融業AI系統安防指引、加強導入零信任架構</title>
-      <link>https://www.ithome.com.tw/news/173100</link>
-      <description>新聞金管會持續加強金融業資安管理，從2020年首次發布金融資安行動方案1.0開始，2022年發布行動方案2.0在今年底到期後，金管會今天(12/30)發布「金融資安韌性發展藍圖」，描繪我國金融業未來4年強化資安治理發展方向，例如鼓勵業者資安左移，將安全納入設計，並將研擬金融業AI系統安防指引，加速導入零信任架構等等。 金管會強調發布「金融資安韌性發展藍圖」，除了承續金融資安行動方案2.0，並參考「國家資通安全戰略2025」及「第七期國家資通安全發展方案」等國家資通安戰略，來強化我國金融系統的資安韌性，確保營運不中斷，該藍圖中可分為4構面，包括建立目標治理、建立全域防護、加強生態聯防、堅實韌性。 金管會資訊服務處長林裕泰指出，首先在目標治理方面，面對資安威脅的增加，必需建立資安治理的目標，特別是強化高層問責、資安法規調適及強化人才韌性；在全域防護方面，納入資安左移，將資安的思維向左移至資訊單位，加強不同規模的金融業部署零信任架構的成熟度，並針對新興科技如AI、量子建立相關的指引規範。 在生態聯防方面，林裕泰指出，除了金融業外，因應跨域合作、供應鏈攻擊的威脅增加，從金融業跨出去，和相關產業</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173100</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202025-12-30%20%E4%B8%8B%E5%8D%887_06_17.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 30 Dec 2025 11:06:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>歐洲高鐵業者Eurostar AI客服曝4弱點，護欄繞過衍生提示注入與自跨站腳本風險</title>
-      <link>https://www.ithome.com.tw/news/173097</link>
-      <description>新聞歐洲高速鐵路營運商Eurostar官網的AI客服，被英國資安公司Pen Test Partners揭露曾存在四項安全缺陷，包含護欄機制可被繞過、提示注入導致系統提示等資訊外洩、回覆內容可被誘導輸出非預期HTML而引發自跨站腳本（Self XSS）風險，以及對話與訊息識別碼驗證不足。 研究人員在問題修補後才公開細節。外媒City AM引述自Eurostar發言人，該聊天機器人未連結客戶帳戶或其他系統，並稱相關弱點已修補且會持續強化資安治理。 研究人員Ross Donald指出，他以一般旅客身分規畫行程時接觸到該聊天機器人，注意到其回覆帶有固定拒答文字，推測前端介面外還有一層程式化護欄在伺服器端先行判斷是否允許提問，因而進一步檢視其後端介面行為。 依其分析，該聊天機器人採用介面驅動設計，每次送出訊息時，前端會把整段對話歷史一併送到後端，後端會針對最新一則訊息進行護欄判定，並在後續請求中只檢查最新一則訊息的簽章。問題在於，較早的訊息不會被重新驗證，也未與當次護欄判定做完整的加密綁定，導致用戶端要是竄改既有對話歷史，仍可能被當成可信上下文送入模型，形成護欄繞過的基礎條件。 在上述條件下，研</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173097</guid>
-      <pubDate>Tue, 30 Dec 2025 22:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>韓亞、大韓航空遭駭 外洩數萬員工資料</title>
-      <link>https://www.ithome.com.tw/news/173106</link>
-      <description>新聞韓國航空公司近日分別傳出資料外洩事件。韓亞航空（Asiana）及母公司大韓航空（Korean Air）分別在上周及本周傳出內部系統被駭，分別導致1萬和3萬員工資料外洩。 根據韓國媒體Korea JoongAng Daily報導引述消息人士報導，聖誕節前夕，韓亞航空內部公告，這起資料外洩事件是起於駭客於前一天未授權登入一臺海外伺服器，藉此駭入公司內部網路。外洩的資料包含員工姓名、部門、職稱、電話號碼、員工識別證號及電子郵件，影響約1萬名員工，包含合作夥伴公司的員工。 在不到一星期後，韓亞航空母公司，也是韓國航空龍頭業者大韓航空（Korean Air）本周也在內部公告，公司使用的Oracle E-Business Suite（EBS）遭到駭客存取，外洩逾3萬員工資料。 大韓航空內部公告說明，事件起因是受到供應機上餐點及商品的供應商KC&amp;amp;D遭駭波及。KC&amp;amp;D（Korean Air Catering &amp;amp; Duty-Free）原是大韓航空的業務部門，於2020年出售給了外部公司。這家供應商近日被駭，讓攻擊者得以存取公司Oracle EBS資料。外洩的資料包含近3萬名現任及前任員工的姓名和銀行</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173106</guid>
-      <pubDate>Wed, 31 Dec 2025 02:07:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>歐洲太空總署證實外部伺服器被駭 未外洩機密資料</title>
-      <link>https://www.ithome.com.tw/news/173107</link>
-      <description>新聞歐洲太空總署（European Space Agency，ESA）本周回應資料外洩，但強調是外部伺服器被駭，並沒有機密資料外流。 ESA是針對上周駭客論壇BreachForums一則公告所做的回應。一名代號888的駭客宣稱12月18日駭入ESA系統長達一周，竊得超過200GB資料，計畫出售換取Monero （XMR）幣。 據稱這名駭客手上的ESA資料包括未公開Bitbucket程式庫中的原始碼、CI/CD管線配置、API和存取令牌、內部文件、SQL資料庫檔案、Terraform基礎架構、硬編寫的憑證和配置檔等。 他並公布數幀螢幕擷圖，可能是ESA系統目錄架構、程式碼片段和內部配置檔。不過資料真實性尚未獲驗證。 ESA得知資料外洩事件後已展開調查，並已強化資安措施確保可能有風險的裝置。ESA說，被駭的伺服器位於ESA企業網路外，根據目前調查，這起事件僅影響「非常少量」的外部伺服器。ESA並說，這些伺服器支援的是科學社群內合作性質的工程活動，所有相關人士都已接獲通知。ESA表示之後會再提供更多相關資訊。 去年大約同時，ESA也發生資安事件。ESA商品網站被駭客植入惡意JavaScrip</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173107</guid>
-      <pubDate>Wed, 31 Dec 2025 02:37:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>軟銀正式取得11%的OpenAI股份</title>
-      <link>https://www.ithome.com.tw/news/173108</link>
-      <description>新聞日本軟體銀行集團（SoftBank Group，軟銀）本周宣布，已於上周五（12/26）完成對OpenAI的225億美元追加投資，履行了2025年3月對OpenAI所作出的承諾，與其它第三方共同完成投資，正式取得約11%的OpenAI股份。 OpenAI是在2025年3月底展開由軟銀主導的400億美元融資活動，根據軟銀的規畫，其中將有100億美元分配給其它的投資者，軟銀最多會獨立投資300億美元，條件是OpenAI成功轉型為營利導向的公司，否則軟銀的投資金額將會縮減為200億美元。完成該融資活動後的OpenAI估值將達3,000億美元。 接著OpenAI在2025年10月完成資產重組，由非營利實體OpenAI基金會控制公益性公司OpenAI Group PBC。OpenAI Group PBC估值約為5,000億美元，微軟持股27%，OpenAI基金會持股26%。持股11%的軟銀成為OpenAI的第三大股東。 軟銀表示，該公司是在2025年4月透過軟銀願景基金2（SoftBank Vision Fund 2，SVF 2）投資了75億美元，上周也是藉由SVF 2追加投資225億美元，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173108</guid>
-      <pubDate>Wed, 31 Dec 2025 03:02:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>記憶體短缺擴大衝擊2026年PC出貨量</title>
-      <link>https://www.ithome.com.tw/news/173109</link>
-      <description>新聞市場研究機構IDC與集邦科技（TrendForce）近日不約而同地指出，AI占據了記憶體產能，推動消費性記憶體價格的大幅上漲，將擴大衝擊2026年的PC出貨量。其中，集邦科技已將2026年全球筆記型電腦的出量從下滑2.4%再下修至下滑5.4%，最壞情況可能下滑10.1%；而IDC也把明年PC出貨量從下滑2.4%下修至下滑4.9%，並說最糟可能萎縮8.9%。 其實不管是集邦科技或是IDC對於2.4%下滑幅度的預測都是今年11月提出的，當時消費記憶體價格已不斷創下新高，但情況持續惡化又使得兩家業者下修原本的預測。 IDC說明，記憶體市場正處於一個結構性轉折點，其需求遠超過供給。不同於過去典型的景氣循環，這次是因AI基礎設施及工作負載的快速擴張，對記憶體生態系統造成巨大壓力。AI需要大量記憶體，部分短缺來自於產能從消費性電子轉向高毛利AI記憶體解決方案的結構性調整，主要記憶體業者不再擴充智慧型手機與PC使用的DRAM與NAND，而是將產能轉向AI資料中心所需的高頻寬記憶體（HBM）與高容量DDR5，進而壓縮通用型記憶體供給，推升整體價格。 AI建置潮吸走了不成比例的全球產能，供應商優先滿</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173109</guid>
-      <pubDate>Wed, 31 Dec 2025 03:44:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>中國駭客Mustang Panda用核心層級Rootkit隱匿後門程式ToneShell活動，以便進行間諜活動</title>
-      <link>https://www.ithome.com.tw/news/173110</link>
-      <description>新聞隨著資安公司不斷揭露國家級駭客的網路間諜活動，駭客也試圖透過更複雜的手段，隱匿相關活動及作案工具。 資安公司卡巴斯基揭露發生在2025年中旬的資安事故，外號為Mustang Panda、Earth Preta、RedDelta，以及TA416的中國駭客組織，將惡意驅動程式部署到亞洲的企業組織網路環境，最終在系統處理程序注入後門程式ToneShell。其中，他們使用可能外流或遭竊的憑證簽署驅動程式，並對於惡意檔案、以使用者模式執行的處理程序，並對系統登錄檔加入防護機制，避免攻擊活動受到干擾。該公司認為，這波活動代表Mustang Panda的攻擊手法出現重大變化。 根據ToneShell的C2伺服器資料，卡巴斯基研判攻擊活動從2025年2月開始，此次駭客使用的ToneShell，經常用於攻擊東南亞及東亞政府機關，目的是從事網路間諜活動，其中，緬甸和泰國是駭客的主要目標。 針對駭客入侵受害組織的管道，卡巴斯基表示不清楚，不過這些企業組織存在共通點，就是都曾被Mustang Panda植入惡意程式，其中包括：USB蠕蟲ToneDisk、PlugX，以及舊版ToneShell。因此，在這波</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173110</guid>
-      <pubDate>Wed, 31 Dec 2025 03:55:19 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 01 Jan 2026 06:40:14 +0000</lastBuildDate>
     <item>
       <title>多款主機板UEFI實作存在缺陷，開機前恐遭直接記憶體存取攻擊</title>
       <link>https://www.ithome.com.tw/news/173102</link>
@@ -75,11 +25,64 @@
       <pubDate>Wed, 31 Dec 2025 04:21:31 +0000</pubDate>
     </item>
     <item>
-      <title>MongoBleed漏洞野外已遭濫用，CISA要求美國聯邦文職機關三周內修補</title>
+      <title>MongoBleed漏洞已遭實際濫用，CISA要求聯邦民事行政部門機關三周內修補</title>
       <link>https://www.ithome.com.tw/news/173111</link>
-      <description>新聞美國網路安全暨基礎設施安全局（CISA）將MongoDB漏洞CVE-2025-14847加入已知遭利用漏洞清單（KEV），並要求聯邦民事行政部門機關（FCEB）在2026年1月19日前完成修補，期限約三周。 CISA將CVE-2025-14847列入KEV的理由，是已出現野外濫用跡象。CVE-2025-14847又被稱為MongoBleed，該漏洞在不需要身分驗證且不需使用者互動的情況下，可能讓攻擊者遠端讀取伺服器記憶體中的敏感片段，例如帳密或其他存取憑證、API或雲端服務金鑰、工作階段權杖、內部紀錄與可識別個人資料等。 該漏洞的嚴重性在於，攻擊者不一定需要先取得合法登入權限，只要目標MongoDB服務對外公開，就可能藉由觸發記憶體洩漏，獲得足以作為後續入侵跳板的線索，進而擴大橫向移動與資料外洩風險。而造成漏洞的原因，是MongoDB伺服器端在處理zlib壓縮的協定標頭時長度欄位不一致，可能讓未經驗證的遠端用戶端讀取伺服器端未初始化的堆積記憶體（Heap Memory）內容，屬於資訊洩漏類型漏洞。 MongoDB已在2025年12月19日釋出修補版本MongoDB 8.0.17，C</description>
+      <description>新聞美國網路安全暨基礎設施安全局（CISA）將MongoDB漏洞CVE-2025-14847加入已知遭利用漏洞清單（KEV），並要求聯邦民事行政部門機關（FCEB）在2026年1月19日前完成修補，期限約三周。 CISA將CVE-2025-14847列入KEV的理由，是已出現實際濫用跡象。CVE-2025-14847又被稱為MongoBleed，該漏洞在不需要身分驗證且不需使用者互動的情況下，可能讓攻擊者遠端讀取伺服器記憶體中的敏感片段，例如帳密或其他存取憑證、API或雲端服務金鑰、工作階段權杖、內部紀錄與可識別個人資料等。 該漏洞的嚴重性在於，攻擊者不一定需要先取得合法登入權限，只要目標MongoDB服務對外公開，就可能藉由觸發記憶體洩漏，獲得足以作為後續入侵跳板的線索，進而擴大橫向移動與資料外洩風險。而造成漏洞的原因，是MongoDB伺服器端在處理zlib壓縮的協定標頭時長度欄位不一致，可能讓未經驗證的遠端用戶端讀取伺服器端未初始化的堆積記憶體（Heap Memory）內容，屬於資訊洩漏類型漏洞。 MongoDB已在2025年12月19日釋出修補版本MongoDB 8.0.17，C</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173111</guid>
       <pubDate>Wed, 31 Dec 2025 05:16:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>普發現金一萬上路兩個月，數發部揭露防範詐騙網站的策略</title>
+      <link>https://www.ithome.com.tw/news/173113</link>
+      <description>新聞臺灣全民普發現金一萬元於11月5日正式上路，截至12月17日，已有近九成民眾登記及領取，有別於上路前曾因立法通過及即將普發現金的傳聞，出現假冒中央存款保險公司的名義行騙，以及冒牌普發現金登記網站的情況，這兩個月鮮少出現詐騙網站，負責資訊系統建置的數位發展部，近期透露他們採取的防護策略。 12月30日數發部長林宜敬透過臉書貼文的形式，揭露資訊系統的防詐方式設計。過程中，數發部透過黑名單與白名單策略，有效防堵詐騙行為。 所謂的白名單策略，關鍵在於「只此一家，別無分號」。數發部與財政部等部會事先進行協調，將普發現金的登記與查詢作業流程，全部集中在一個網站，他們也透過大肆宣傳，告訴民眾無論是登記或查詢資料，都必須在專屬網站進行，對於其他網站的資訊，不要輕易相信。如此一來，數發部大幅縮小了防守的範圍。 黑名單策略的實施，重點在於主動防堵。他們將與普發現金網站10000.gov.tw相似的網域名稱，都註冊登記，以免這些網域名稱落入駭客手中；再者，他們也在網際網路透過自動搜索的方式，若是發現可疑網站，就會進行確認及封鎖。而這些措施的目的，是避免民眾接觸到詐騙訊息。 針對上述的措施規畫與執行，林宜</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173113</guid>
+      <pubDate>Wed, 31 Dec 2025 06:33:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>800美元即可買斷ClickFix攻擊服務，套裝工具ErrTraffic可自架後臺分流投遞竊資程式</title>
+      <link>https://www.ithome.com.tw/news/173114</link>
+      <description>新聞資安情資團隊Hudson Rock發布報告指出，名為ErrTraffic或ErrTraffic v2的ClickFix服務在俄語系網路犯罪論壇被公開兜售，整套專案標價800美元。研究人員提到，該工具把原本較零散的社交工程誘導流程做成可重複部署的產品，讓攻擊者能以較低門檻在被入侵網站上大量鋪設誘餌，再依受害者的作業系統投遞不同惡意程式。 ClickFix是近年快速增長的社交工程技術，常借用瀏覽器更新或系統修復的情境，引導使用者自行在作業系統層級完成一段操作，讓惡意指令以使用者身分被執行。研究人員在報告中點出，現代瀏覽器已大幅壓縮零互動下載的攻擊空間，攻擊者因此更依賴使用者自行完成最後一步的手動執行，藉此跨過瀏覽器與作業系統之間的防護落差。 ErrTraffic的特色在於把這套誘導流程包裝成具管理後臺的服務。推廣者使用LenAI身分在論壇刊登ErrTraffic v2介面的宣傳貼文，並標示整套專案一次買斷，同時揭露其後臺介面採儀表板呈現，外觀接近一般雲端軟體服務的管理介面，攻擊者可以在其中管理活動流量、追蹤訪客互動與下載數據，並設定投遞規則。 ErrTraffic主打假故障效果，該工具</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173114</guid>
+      <pubDate>Wed, 31 Dec 2025 09:18:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>NCC公布網路服務申訴救濟及透明度報告2項指引，明年將公布臉書、抖音、Dcard等5大網路平臺業者作為</title>
+      <link>https://www.ithome.com.tw/news/173117</link>
+      <description>新聞繼2022年推動數位中介服務法，希望加強對網際網路服務平臺業者的管理，隨後因為爭議過大而停止數位中介服務法，今天(12/31)NCC再提出「網際網路服務使用者申訴及救濟機制指引」（簡稱申訴救濟指引）及「網際網路服務提供者透明度報告指引」(簡稱透明度指引），希望透過2項指引讓業者自律，明年將邀請多方利害關係人召開會議，檢視臉書、抖音等5大網路平臺業者的申訴救濟及透明度作為。 根據NCC在113年度對網際網路傳播的社會調查，51.2%的受訪者不滿意平臺提供的申訴救濟回應，約有4成的受訪者認為平臺提供的申訴救濟機制的健全性不足，此外，6成5的受訪者認為平臺的透明度措施不足；調查顯示民眾對於網路服務業者提供的使用者申訴救濟及透明度措施做的並不夠。 而觀察國際上對網際網路服務業者的治理趨勢，像是歐盟制定的「數位服務法」(DSA)、英國的「線上安全法」、澳洲的「線上安全法」、新加坡的「線上安全作業準則」等，要求網際網路服務業者建立申訴救濟機制，以及必需揭露透明度報告的義務，日本「資訊流通平臺應對法」也要求業者揭露透明度報告。 我國在2022年曾計畫加強對網際網路服務業者的管理，NCC當時提出「</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173117</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202025-12-31%20%E4%B8%8B%E5%8D%885_29_16.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 31 Dec 2025 09:35:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>針對北韓IT工作者誘騙開發人員成應徵遠距工作的幫兇，資安公司聯手透過沙箱解密相關行為</title>
+      <link>https://www.ithome.com.tw/news/173121</link>
+      <description>新聞針對北韓駭客以IT工作者的身分在北美與歐洲謀取遠距工作的情況，過往大多都是美國政府破獲筆電農場（Laptop），或是逮捕協助犯案的人士，從起訴書公布調查結果，也有曾經不慎僱用的資安公司，揭露駭客如何騙過人資部門審核，以及後來如何察覺異狀，不過，這些駭客獲得工作後會從事那些行為？從上述公布的資訊很難得知具體細節。有研究人員特別透過沙箱環境，得以觀察他們的一舉一動。 威脅情報公司BCA LTD及NorthScan聯手，調查北韓駭客Lazarus旗下團體Famous Chollima（也被稱作WageMole、UNC5267、Nickel Tapestry）最新一波攻擊活動，當時他們發現，這些駭客試圖透過GitHub垃圾訊息、Telegram，以及假的求職平臺等管道，先對想要應徵開發人員或工程師職務的開發人員下手，然後借用這些開發人員的真實身分向歐美企業應徵職缺。由於這樣的情況相當不尋常，他們與雲端沙箱公司Any.Run合作，假冒開發人員應徵，然後引誘駭客存取Any.Run的沙箱環境，觀察他們的行為。 具體而言，他們偽裝成位於美國的開發者，並由Any.Run提供特製的互動式沙箱環境，建立</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173121</guid>
+      <pubDate>Wed, 31 Dec 2025 10:04:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>【資安日報】12月31日，金管會揭露未來4年金融業資安韌性發展藍圖</title>
+      <link>https://www.ithome.com.tw/news/173122</link>
+      <description>新聞金管會揭露未來4年金融業資安韌性發展藍圖，鼓勵資安納入軟體安全設計、研擬金融業AI系統安防指引、加強導入零信任架構 金管會持續加強金融業資安管理，從2020年首次發布金融資安行動方案1.0開始，2022年發布行動方案2.0在今年底到期後，12月30日金管會發布「金融資安韌性發展藍圖」，描繪我國金融業未來4年強化資安治理發展方向，例如鼓勵業者資安左移，將安全納入設計，並將研擬金融業AI系統安防指引，加速導入零信任架構。 「金融資安韌性發展藍圖」除了承續金融資安行動方案2.0，並參考「國家資通安全戰略2025」及「第七期國家資通安全發展方案」等國家資通安全戰略，來強化我國金融系統的資安韌性，確保營運不中斷，該藍圖中可分為4構面，包括建立目標治理、建立全域防護、加強生態聯防、堅實韌性。 金管會資訊服務處長林裕泰指出，首先在目標治理方面，面對資安威脅的增加，必須建立資安治理的目標，特別是強化高層問責、資安法規調適及強化人才韌性；在全域防護方面，納入資安左移，將資安的思維向左移至資訊單位，加強不同規模的金融業部署零信任架構的成熟度，並針對新興科技如AI、量子建立相關的指引規範。 普發現金一萬</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173122</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/evasive-panda-apt3.png" length="0" type="image/png"/>
+      <pubDate>Wed, 31 Dec 2025 10:12:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>2025 Python型別調查點出三大痛點，第三方函式庫與進階泛型門檻仍高</title>
+      <link>https://www.ithome.com.tw/news/173116</link>
+      <description>新聞由JetBrains、Meta與Python型別標註社群成員共同發起的2025 Typed Python調查顯示，型別提示（Type Hints）已成為多數Python開發者日常工作的一部分。同時，受訪者在回應最困難之處時，頻繁提到第三方函式庫與進階泛型等挑戰。該調查共收集1,241份回覆，受訪者多具多年Python與型別提示使用經驗。 調查顯示，86%受訪者表示自己總是或經常使用型別提示，比例與去年相近。以Python年資分層，5到10年經驗者採用率最高達93%，0到2年者為83%，10年以上者為80%。調查人員也提到，資深開發者採用率略低的原因並不明確，可能與更常面對大型或既有程式碼庫，導入成本較高有關。 在超過800則關於最困難之處的回應中，受訪者的討論重點多落在第三方函式庫註記品質不一、進階泛型等型別特性不易掌握，以及不同型別檢查器之間的行為差異。 第一個痛點是第三方函式庫與框架。受訪者提到，專案仰賴的第三方函式庫，要是缺乏完整或正確的型別註記，整合型別檢查就會變得困難，並增加團隊在處理型別定義缺漏與誤報上的成本，影響開發環境的自動完成與導航體驗，也讓團隊在程式碼審查與重構</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173116</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1231-python.png" length="0" type="image/png"/>
+      <pubDate>Wed, 31 Dec 2025 10:42:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>聯合19國執法單位，國際刑警組織大舉查緝非洲網路犯罪組織</title>
+      <link>https://www.ithome.com.tw/news/173115</link>
+      <description>新聞國際刑警組織（Interpol）本月公布Sentinel行動（Operation Sentinel）成果，由Interpol協調非洲19個國家的執法機構共同參與，成功瓦解當地多個活躍的網路犯罪集團。 根據Interpol的新聞公告，在為期一個月的查緝行動內，在非洲當地共逮捕574名嫌犯，查扣約300萬美元不法資金，下架超過6,000個惡意連結，並成功解密6種不同的勒索軟體變種。這波執法行動鎖定商業電子郵件詐騙（BEC）、勒索（extortion）及勒索軟體威脅，估計造成的財務損失超過2,100萬美元。 在具體案例方面，商業電子郵件詐騙組織鎖定塞內加爾（Senegal）一家大型石油公司，駭客入侵該石油公司內部電子郵件系統並冒充高階主管，試圖核准一筆790萬美元的電匯交易。所幸當地執法單位即時凍結指定匯款帳戶，成功在資金遭盜領前阻止詐騙分子得手。 迦納（Ghana）當地則有一家金融機構遭勒索軟體攻擊，約100TB資料遭加密，損失12萬美元，關鍵服務也因此中斷。迦納當局後續成功辨識勒索軟體種類並開發解密工具，協助復原近30TB資料。 此外，迦納執法單位也瓦解一個活躍於迦納與奈及利亞（Ni</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173115</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1231-interpol-600-1.png" length="0" type="image/png"/>
+      <pubDate>Wed, 31 Dec 2025 11:04:59 +0000</pubDate>
     </item>
   </channel>
 </rss>
