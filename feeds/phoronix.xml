@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Jan 2026 06:37:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 06:38:22 +0000</lastBuildDate>
     <item>
-      <title>Shotcut 25.12 Released With 10-bit Video CPU Pipeline, Linear Color Processing</title>
-      <link>https://www.phoronix.com/news/Shotcut-25.12-Released</link>
-      <description>December happens to be a busy month for video editor releases in the open-source world. This month there's been the release of Flowblade 2.24, OpenShot 3.4, Kdenlive 25.12, and now there is Shotcut 25.12 before closing out the month and year...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Shotcut-25.12-Released</guid>
-      <pubDate>Wed, 31 Dec 2025 01:21:45 +0000</pubDate>
+      <title>More Improvements To Old AMD GPU Support On Linux Are Planned For 2026</title>
+      <link>https://www.phoronix.com/news/Timur-More-Old-AMDGPU-2026</link>
+      <description>With Linux 6.19 aging AMD GCN 1.0 and GCN 1.1 GPUs switched the default kernel driver used to provide for much better performance, RADV Vulkan support out-of-the-box, and other improvements compared to using the legacy Radeon DRM kernel driver. For 2026, Timur Kristóf of Valve's Linux graphics team has more improvements still planned to enhance these older AMD graphics cards on Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Timur-More-Old-AMDGPU-2026</guid>
+      <pubDate>Thu, 01 Jan 2026 11:32:04 +0000</pubDate>
     </item>
     <item>
-      <title>OpenCV 4.13 Brings More AVX-512 Usage, CUDA 13 Support, Many Other New Features</title>
-      <link>https://www.phoronix.com/news/OpenCV-4.13-Released</link>
-      <description>OpenCV 4.13 is out this New Year's Eve in providing the latest open-source computer vision (CV) capabilities. OpenCV 4.13 brings a wide variety of enhancements to this widely-used computer vision library...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/OpenCV-4.13-Released</guid>
-      <pubDate>Wed, 31 Dec 2025 11:35:41 +0000</pubDate>
+      <title>Linux 6.19 Lands Fix For Dead WiFi With MediaTek MT792x Wireless</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Fix-MediaTek-WiFi</link>
+      <description>Merged to Linux Git on New Year's Eve was a fix in the form of a code revert for broken MediaTek WiFi on the in-development Linux 6.19 kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Fix-MediaTek-WiFi</guid>
+      <pubDate>Thu, 01 Jan 2026 11:47:45 +0000</pubDate>
     </item>
     <item>
-      <title>Open-Source Crown Game Engine v0.60 Released</title>
-      <link>https://www.phoronix.com/news/Crown-Engine-0.60</link>
-      <description>While the Godot Engine receives a lot of attention as a prominent open-source game engine, it's far from the only one in this space. Another open-source game engine capping out 2025 with a new release is the Crown Engine...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Crown-Engine-0.60</guid>
-      <pubDate>Wed, 31 Dec 2025 11:47:55 +0000</pubDate>
+      <title>SDL 3.4 Released With Many New APIs, Better Emscripten &amp;amp; Native PNG Support</title>
+      <link>https://www.phoronix.com/news/SDL-3.4-Released</link>
+      <description>Kicking off the new year for Linux gaming and cross-platform gaming at large is the release of the SDL 3.4 library. SDL is part of the Steam runtime and continues to be widely-used for abstracting software/hardware for creating more portable games and other applications...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/SDL-3.4-Released</guid>
+      <pubDate>Thu, 01 Jan 2026 12:02:24 +0000</pubDate>
     </item>
     <item>
-      <title>GCC &amp;amp; The GNU Toolchain's Exciting 2025 With New Languages, More Optimizations</title>
-      <link>https://www.phoronix.com/news/GCC-Exciting-2025</link>
-      <description>The GCC compiler and the GNU toolchain ecosystem at large had a great year. From new language front-ends for the likes of Algol 68 and COBOL to maturing support for GCC Rust, new performance optimizations from GCC to Glibc, initial AMD Zen 6 "znver6" support merged for GCC 16, and much more. It's pretty safe to say GCC and the broader GNU ecosystem enjoyed a very successful 2025...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GCC-Exciting-2025</guid>
-      <pubDate>Wed, 31 Dec 2025 11:58:33 +0000</pubDate>
+      <title>IceWM 4.0 Improves Alt-Tab Window Switcher, Alpha Blending + 32-bit RGBA Default</title>
+      <link>https://www.phoronix.com/news/IceWM-4.0-Released</link>
+      <description>For fans of the IceWM X11 window manager, the project kicked off 2026 by releasing IceWM 4.0...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/IceWM-4.0-Released</guid>
+      <pubDate>Thu, 01 Jan 2026 14:02:09 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19 Closing Out 2025 With Several Laptop Additions</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-EOY-Laptop-Work</link>
-      <description>A New Year's Eve pull request is ready with several Intel/AMD laptop improvements for the ongoing Linux 6.19 kernel cycle. An x86 platform drivers pull request sent to Linus Torvalds today brings several notable driver enhancements with expanding the range of supported laptops...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-EOY-Laptop-Work</guid>
-      <pubDate>Wed, 31 Dec 2025 12:16:35 +0000</pubDate>
+      <title>ReactOS Starts 2026 With Another "Major Step" Toward Windows NT6 Compatibility</title>
+      <link>https://www.phoronix.com/news/ReactOS-Starts-2026</link>
+      <description>The ReactOS free software project is turning 30 this year and its "open-source Windows" OS ambitions remain. They are starting out this year with another "major step" towards Windows NT 6.0 compatibility...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ReactOS-Starts-2026</guid>
+      <pubDate>Thu, 01 Jan 2026 15:42:03 +0000</pubDate>
     </item>
     <item>
-      <title>Arch Linux Installer Adds CUPS, rEFInd Boot, IWD, COSMIC &amp;amp; Power Management Options</title>
-      <link>https://www.phoronix.com/news/Arch-Linux-Archinstall-3.0.15</link>
-      <description>Ahead of the January 2026 ISO refresh for Arch Linux, Archinstall 3.0.15 released today as the newest update to this convenient text-based OS installer...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Arch-Linux-Archinstall-3.0.15</guid>
-      <pubDate>Wed, 31 Dec 2025 13:33:35 +0000</pubDate>
+      <title>Valve's Linux Efforts, Kernel Improvements &amp;amp; KDE Plasma Wayland Advancements Topped 2025</title>
+      <link>https://www.phoronix.com/news/Top-Linux-News-2025</link>
+      <description>After looking yesterday at the most viewed Linux hardware reviews and benchmarks of 2025, today's look is at the most popular open-source/Linux news of the past year. There were 3,286 original news articles on Phoronix during 2025 written by your's truly, here's a look back at what excited readers the most over these past twelve months...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Top-Linux-News-2025</guid>
+      <pubDate>Thu, 01 Jan 2026 17:50:18 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Meteor Lake On Linux Two Years Post-Launch: 93% The Original Performance</title>
-      <link>https://www.phoronix.com/review/intel-meteor-lake-2025</link>
-      <description>As part of the various end-of-year annual benchmarking comparisons and the like on Phoronix, today is a look at how the Intel Core Ultra 7 155H "Meteor Lake" performance has evolved under Ubuntu Linux in the two years since launching. Plus with next-gen Intel Panther Lake laptops expected to be showcased next week at CES, it's a good time for revisiting the Meteor Lake performance to see the difference two years have made for Intel Meteor Lake laptops on Linux.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/intel-meteor-lake-2025</guid>
-      <pubDate>Wed, 31 Dec 2025 16:30:00 +0000</pubDate>
+      <title>NVIDIA Graphics On Haiku OS Make Progress With NVIDIA Open Kernel Modules + NVK/Zink</title>
+      <link>https://www.phoronix.com/news/NVIDIA-Haiku-0.0.1</link>
+      <description>As a wonderful New Year surprise, there's good momentum on NVIDIA graphics support for the BeOS-inspired Haiku open-source operating system...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-Haiku-0.0.1</guid>
+      <pubDate>Thu, 01 Jan 2026 20:20:28 +0000</pubDate>
     </item>
     <item>
-      <title>Asahi Linux Has Experimental Code For DisplayPort, Apple M3/M4/M5 Bring-Up Still Ongoing</title>
-      <link>https://www.phoronix.com/news/Asahi-Linux-EOY-2025-CCC</link>
-      <description>Prominent Asahi Linux developer Sven Peter spoke at this week's 39th Chaos Communication Congress "39C3" in Hamburg, Germany. He provided an update around the still-in-the-works Apple M3 / M4 / M5 SoC and device support as well as other outstanding features like getting DisplayPort working on Apple Macs under Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Asahi-Linux-EOY-2025-CCC</guid>
-      <pubDate>Wed, 31 Dec 2025 21:32:38 +0000</pubDate>
+      <title>Devuan 6.1 Released For Latest Debian 13 "Init Freedom" Without systemd</title>
+      <link>https://www.phoronix.com/news/Devuan-6.1-Released</link>
+      <description>Released back in November was Devuan 6.0 for Debian 13 without systemd dependence in order to provide "init freedom" with letting users instead opt for SysVinit, OpenRC, or Runit as the init system. Devuan 6.1 is out today as the newest stable point release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Devuan-6.1-Released</guid>
+      <pubDate>Fri, 02 Jan 2026 01:13:33 +0000</pubDate>
     </item>
     <item>
-      <title>Ncurses 6.6 Released With Improved Windows Terminal Support, Other Enhancements</title>
-      <link>https://www.phoronix.com/news/Ncurses-6.6</link>
-      <description>Ncurses 6.6 was released today prior to closing out 2025. This programming library update for creating terminal-based text user interfaces (TUIs) features a variety of great improvements for ending out the year...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ncurses-6.6</guid>
-      <pubDate>Thu, 01 Jan 2026 01:01:38 +0000</pubDate>
+      <title>Steam On Linux Ends 2025 With 3.19% Marketshare, AMD Linux CPU Use Approaches 72%</title>
+      <link>https://www.phoronix.com/news/Steam-December-2025-Survey</link>
+      <description>Back in November Steam on Linux use hit an all-time high at 3.2%. With the still increasing popularity around the Steam Deck powered by the Arch Linux based SteamOS, Linux gaming continuing to grow thanks to Steam Play (Proton), and excitement around the upcoming Steam Frame and Steam Machine hardware, the Linux gaming outlook continues to be positive. The Steam Survey results for December 2025 are out tonight and with just a tiny dip to Linux use...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Steam-December-2025-Survey</guid>
+      <pubDate>Fri, 02 Jan 2026 01:23:44 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Ryzen AI Max, Intel Graphics &amp;amp; Other Linux Benchmarks That Commanded 2025</title>
-      <link>https://www.phoronix.com/news/Linux-Hardware-Reviews-2025</link>
-      <description>This looks to be a wrap on 2025, Happy New Year to all the Phoronix readers over the past 21+ years. This year on Phoronix there were 226 original Linux hardware reviews and featured benchmark articles written by your's truly. Plus another 3,286 original open-source/Linux software and hardware news articles this calendar year. Here were the big topics of 2025 for the featured Linux hardware reviews and benchmark articles...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Hardware-Reviews-2025</guid>
-      <pubDate>Thu, 01 Jan 2026 01:27:00 +0000</pubDate>
+      <title>Mesa 25.3.3 Ships Latest Bug Fixes, Intel Vulkan GTK4 Toolkit Workarounds</title>
+      <link>https://www.phoronix.com/news/Mesa-25.3.3-Released</link>
+      <description>Mesa 25.3.3 shipped on Thursday as the newest stable point release for Q4's Mesa 25.3 feature series. Now being into the new quarter, we have Mesa 26.0 to look forward to as stable likely by late February, but for now Mesa 25.3.3 is the latest and greatest stable version...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-25.3.3-Released</guid>
+      <pubDate>Fri, 02 Jan 2026 05:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
