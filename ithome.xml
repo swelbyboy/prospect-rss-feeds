@@ -8,66 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Jan 2026 06:40:14 +0000</lastBuildDate>
-    <item>
-      <title>多款主機板UEFI實作存在缺陷，開機前恐遭直接記憶體存取攻擊</title>
-      <link>https://www.ithome.com.tw/news/173102</link>
-      <description>新聞一般情況下，電腦在開機時會由UEFI（Unified Extensible Firmware Interface）韌體與IOMMU（Input–Output Memory Management Unit）先行建立基本防護，避免支援直接記憶體存取（Direct Memory Access，DMA）的周邊裝置在作業系統尚未啟動前，就能擅自讀取或竄改系統記憶體。 不過，研究人員近日揭露，一項影響多家主機板廠商的UEFI資安漏洞，可能讓上述防護機制失效，使系統在早期開機階段暴露於DMA攻擊風險之下。受影響的品牌包括華擎科技（ASRock）、華碩（Asus）、技嘉（Gigabyte）與微星（MSI），涵蓋多款採用Intel與AMD晶片組的主機板。 這項漏洞出現在部分UEFI與IOMMU的實作中。理論上，UEFI與IOMMU應在作業系統載入前就建立基礎防護，防止周邊裝置未經授權存取系統記憶體。然而研究人員發現，韌體雖然顯示已啟用DMA防護，實際上卻未在關鍵開機階段正確設定與啟用IOMMU，導致防護機制形同虛設。 根據美國電腦應變協調中心（CERT/CC）說明，在這樣的情況下，若攻擊者具備實體存</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173102</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E8%8F%AF%E6%93%8E-ASROCK-CVE-2025-14304_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 31 Dec 2025 04:12:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>資料決定AI能力邊界</title>
-      <link>https://www.ithome.com.tw/voice/173112</link>
-      <description>為了提升公共安全，導入AI系統進行改善是大家都希望能做到的，然而，想要讓AI發揮功效，首先須確保相關資料都能持續擷取與蒐集、受到妥善而完整的儲存，而且獲得足夠的安全保護，對於AI或任何分析系統而言，資料不僅是驅動這些工作能否順利進行的重要「燃料」，也是整體能力的天花板，需要滿足正確性、完整性、代表性、一致性、時效性等層面的要求。 同時，搭配適當的應用系統也很重要，這是讓AI發揮能力的關鍵，有了它，才能從概念驗證或技術展示，真正進入實踐階段。 這讓我想到最近臺北市發生隨機殺人攻擊事件，臺北大眾捷運公司研議在捷運站、轉運站等人流密集處的監視器，導入AI異常行為辨識系統，若偵測到激烈肢體動作、持械或群眾異常推擠，將觸發警報，促使現有的監控系統功能從事後調閱，轉為事前預警。 然而，AI再厲害，沒有正確而完整的資料，必定影響相關機制的成效。因為事發當時有民眾質疑監視器失靈，臺北大眾捷運公司在21日表示，同一個場域裝設多支監視器（視訊攝影機），由相關的主機進行系統控管，有相互備援，以事發的多個區域之一：板南線B2層為例，有4組網路監控影片錄影機（NVR），目的就是避免單一設備故障造成影像紀錄中斷，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/voice/173112</guid>
-      <pubDate>Wed, 31 Dec 2025 04:21:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>MongoBleed漏洞已遭實際濫用，CISA要求聯邦民事行政部門機關三周內修補</title>
-      <link>https://www.ithome.com.tw/news/173111</link>
-      <description>新聞美國網路安全暨基礎設施安全局（CISA）將MongoDB漏洞CVE-2025-14847加入已知遭利用漏洞清單（KEV），並要求聯邦民事行政部門機關（FCEB）在2026年1月19日前完成修補，期限約三周。 CISA將CVE-2025-14847列入KEV的理由，是已出現實際濫用跡象。CVE-2025-14847又被稱為MongoBleed，該漏洞在不需要身分驗證且不需使用者互動的情況下，可能讓攻擊者遠端讀取伺服器記憶體中的敏感片段，例如帳密或其他存取憑證、API或雲端服務金鑰、工作階段權杖、內部紀錄與可識別個人資料等。 該漏洞的嚴重性在於，攻擊者不一定需要先取得合法登入權限，只要目標MongoDB服務對外公開，就可能藉由觸發記憶體洩漏，獲得足以作為後續入侵跳板的線索，進而擴大橫向移動與資料外洩風險。而造成漏洞的原因，是MongoDB伺服器端在處理zlib壓縮的協定標頭時長度欄位不一致，可能讓未經驗證的遠端用戶端讀取伺服器端未初始化的堆積記憶體（Heap Memory）內容，屬於資訊洩漏類型漏洞。 MongoDB已在2025年12月19日釋出修補版本MongoDB 8.0.17，C</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173111</guid>
-      <pubDate>Wed, 31 Dec 2025 05:16:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>普發現金一萬上路兩個月，數發部揭露防範詐騙網站的策略</title>
-      <link>https://www.ithome.com.tw/news/173113</link>
-      <description>新聞臺灣全民普發現金一萬元於11月5日正式上路，截至12月17日，已有近九成民眾登記及領取，有別於上路前曾因立法通過及即將普發現金的傳聞，出現假冒中央存款保險公司的名義行騙，以及冒牌普發現金登記網站的情況，這兩個月鮮少出現詐騙網站，負責資訊系統建置的數位發展部，近期透露他們採取的防護策略。 12月30日數發部長林宜敬透過臉書貼文的形式，揭露資訊系統的防詐方式設計。過程中，數發部透過黑名單與白名單策略，有效防堵詐騙行為。 所謂的白名單策略，關鍵在於「只此一家，別無分號」。數發部與財政部等部會事先進行協調，將普發現金的登記與查詢作業流程，全部集中在一個網站，他們也透過大肆宣傳，告訴民眾無論是登記或查詢資料，都必須在專屬網站進行，對於其他網站的資訊，不要輕易相信。如此一來，數發部大幅縮小了防守的範圍。 黑名單策略的實施，重點在於主動防堵。他們將與普發現金網站10000.gov.tw相似的網域名稱，都註冊登記，以免這些網域名稱落入駭客手中；再者，他們也在網際網路透過自動搜索的方式，若是發現可疑網站，就會進行確認及封鎖。而這些措施的目的，是避免民眾接觸到詐騙訊息。 針對上述的措施規畫與執行，林宜</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173113</guid>
-      <pubDate>Wed, 31 Dec 2025 06:33:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>800美元即可買斷ClickFix攻擊服務，套裝工具ErrTraffic可自架後臺分流投遞竊資程式</title>
-      <link>https://www.ithome.com.tw/news/173114</link>
-      <description>新聞資安情資團隊Hudson Rock發布報告指出，名為ErrTraffic或ErrTraffic v2的ClickFix服務在俄語系網路犯罪論壇被公開兜售，整套專案標價800美元。研究人員提到，該工具把原本較零散的社交工程誘導流程做成可重複部署的產品，讓攻擊者能以較低門檻在被入侵網站上大量鋪設誘餌，再依受害者的作業系統投遞不同惡意程式。 ClickFix是近年快速增長的社交工程技術，常借用瀏覽器更新或系統修復的情境，引導使用者自行在作業系統層級完成一段操作，讓惡意指令以使用者身分被執行。研究人員在報告中點出，現代瀏覽器已大幅壓縮零互動下載的攻擊空間，攻擊者因此更依賴使用者自行完成最後一步的手動執行，藉此跨過瀏覽器與作業系統之間的防護落差。 ErrTraffic的特色在於把這套誘導流程包裝成具管理後臺的服務。推廣者使用LenAI身分在論壇刊登ErrTraffic v2介面的宣傳貼文，並標示整套專案一次買斷，同時揭露其後臺介面採儀表板呈現，外觀接近一般雲端軟體服務的管理介面，攻擊者可以在其中管理活動流量、追蹤訪客互動與下載數據，並設定投遞規則。 ErrTraffic主打假故障效果，該工具</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173114</guid>
-      <pubDate>Wed, 31 Dec 2025 09:18:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>NCC公布網路服務申訴救濟及透明度報告2項指引，明年將公布臉書、抖音、Dcard等5大網路平臺業者作為</title>
-      <link>https://www.ithome.com.tw/news/173117</link>
-      <description>新聞繼2022年推動數位中介服務法，希望加強對網際網路服務平臺業者的管理，隨後因為爭議過大而停止數位中介服務法，今天(12/31)NCC再提出「網際網路服務使用者申訴及救濟機制指引」（簡稱申訴救濟指引）及「網際網路服務提供者透明度報告指引」(簡稱透明度指引），希望透過2項指引讓業者自律，明年將邀請多方利害關係人召開會議，檢視臉書、抖音等5大網路平臺業者的申訴救濟及透明度作為。 根據NCC在113年度對網際網路傳播的社會調查，51.2%的受訪者不滿意平臺提供的申訴救濟回應，約有4成的受訪者認為平臺提供的申訴救濟機制的健全性不足，此外，6成5的受訪者認為平臺的透明度措施不足；調查顯示民眾對於網路服務業者提供的使用者申訴救濟及透明度措施做的並不夠。 而觀察國際上對網際網路服務業者的治理趨勢，像是歐盟制定的「數位服務法」(DSA)、英國的「線上安全法」、澳洲的「線上安全法」、新加坡的「線上安全作業準則」等，要求網際網路服務業者建立申訴救濟機制，以及必需揭露透明度報告的義務，日本「資訊流通平臺應對法」也要求業者揭露透明度報告。 我國在2022年曾計畫加強對網際網路服務業者的管理，NCC當時提出「</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173117</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202025-12-31%20%E4%B8%8B%E5%8D%885_29_16.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 31 Dec 2025 09:35:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>針對北韓IT工作者誘騙開發人員成應徵遠距工作的幫兇，資安公司聯手透過沙箱解密相關行為</title>
-      <link>https://www.ithome.com.tw/news/173121</link>
-      <description>新聞針對北韓駭客以IT工作者的身分在北美與歐洲謀取遠距工作的情況，過往大多都是美國政府破獲筆電農場（Laptop），或是逮捕協助犯案的人士，從起訴書公布調查結果，也有曾經不慎僱用的資安公司，揭露駭客如何騙過人資部門審核，以及後來如何察覺異狀，不過，這些駭客獲得工作後會從事那些行為？從上述公布的資訊很難得知具體細節。有研究人員特別透過沙箱環境，得以觀察他們的一舉一動。 威脅情報公司BCA LTD及NorthScan聯手，調查北韓駭客Lazarus旗下團體Famous Chollima（也被稱作WageMole、UNC5267、Nickel Tapestry）最新一波攻擊活動，當時他們發現，這些駭客試圖透過GitHub垃圾訊息、Telegram，以及假的求職平臺等管道，先對想要應徵開發人員或工程師職務的開發人員下手，然後借用這些開發人員的真實身分向歐美企業應徵職缺。由於這樣的情況相當不尋常，他們與雲端沙箱公司Any.Run合作，假冒開發人員應徵，然後引誘駭客存取Any.Run的沙箱環境，觀察他們的行為。 具體而言，他們偽裝成位於美國的開發者，並由Any.Run提供特製的互動式沙箱環境，建立</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173121</guid>
-      <pubDate>Wed, 31 Dec 2025 10:04:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>【資安日報】12月31日，金管會揭露未來4年金融業資安韌性發展藍圖</title>
-      <link>https://www.ithome.com.tw/news/173122</link>
-      <description>新聞金管會揭露未來4年金融業資安韌性發展藍圖，鼓勵資安納入軟體安全設計、研擬金融業AI系統安防指引、加強導入零信任架構 金管會持續加強金融業資安管理，從2020年首次發布金融資安行動方案1.0開始，2022年發布行動方案2.0在今年底到期後，12月30日金管會發布「金融資安韌性發展藍圖」，描繪我國金融業未來4年強化資安治理發展方向，例如鼓勵業者資安左移，將安全納入設計，並將研擬金融業AI系統安防指引，加速導入零信任架構。 「金融資安韌性發展藍圖」除了承續金融資安行動方案2.0，並參考「國家資通安全戰略2025」及「第七期國家資通安全發展方案」等國家資通安全戰略，來強化我國金融系統的資安韌性，確保營運不中斷，該藍圖中可分為4構面，包括建立目標治理、建立全域防護、加強生態聯防、堅實韌性。 金管會資訊服務處長林裕泰指出，首先在目標治理方面，面對資安威脅的增加，必須建立資安治理的目標，特別是強化高層問責、資安法規調適及強化人才韌性；在全域防護方面，納入資安左移，將資安的思維向左移至資訊單位，加強不同規模的金融業部署零信任架構的成熟度，並針對新興科技如AI、量子建立相關的指引規範。 普發現金一萬</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173122</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/evasive-panda-apt3.png" length="0" type="image/png"/>
-      <pubDate>Wed, 31 Dec 2025 10:12:23 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 02 Jan 2026 06:40:50 +0000</lastBuildDate>
     <item>
       <title>2025 Python型別調查點出三大痛點，第三方函式庫與進階泛型門檻仍高</title>
       <link>https://www.ithome.com.tw/news/173116</link>
@@ -83,6 +24,64 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173115</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/images/1231-interpol-600-1.png" length="0" type="image/png"/>
       <pubDate>Wed, 31 Dec 2025 11:04:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>NPM供應鏈蠕蟲Shai Hulud新變種現身</title>
+      <link>https://www.ithome.com.tw/news/173123</link>
+      <description>新聞資安業者Aikido Security發現NPM套件@vietmoney/react-big-calendar偵測到疑似Shai Hulud第三個變種的首起樣本。研究人員表示，現階段還未有明顯擴散或大量受害跡象，比較像攻擊者在公開套件庫測試投放惡意載荷。 Shai Hulud第三波樣本的程式碼差異顯示其為重新混淆後的版本，而非在既有樣本上直接修改。研究人員因此判斷，這不像仿冒者拼湊的跟風攻擊，更可能出自握有原始蠕蟲程式碼的人。資安公司OX Security也在分析中提到，惡意程式出現在@vietmoney/react-big-calendar的0.26.2版本，並稱其撰寫報告時尚未看到外洩資料出現在GitHub。 Shai Hulud新變種仍延續既有供應鏈惡意套件的典型路徑，藉由套件安裝流程在開發者電腦或自動化建置環境執行，蒐集環境變數與密鑰，並嘗試將資料外洩到GitHub儲存庫，同時在特定條件下嘗試發布套件。 就新變種的變更點，Aikido研究人員整理出多項可供辨識的更新。首先，初始啟動檔名改為bun_installer.js，主要載荷改為environment_source.j</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173123</guid>
+      <pubDate>Fri, 02 Jan 2026 01:14:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>美知名會計師事務所Sax坦承2024年網攻事件 外洩23萬人資料</title>
+      <link>https://www.ithome.com.tw/news/173128</link>
+      <description>新聞美國知名會計師事務所Sax上個月揭露公司系統遭駭，導致將近23萬人個資外洩，不過是將近17個月前的事。 Sax是美國頂尖會計師事務所，提供名人及企業顧問服務，年營收超過1億美元，員工超過400人。 根據Sax向美國緬因州政府呈交的文件，該公司於2024年8月7日獲得通知，系統環境有可疑活動。業者立即採取行動確保網路安全，並偕同第三方安全廠商展開調查。調查顯示，部份個人個資外洩。 該公司在2025年12月初完成徹底調查，並且於上月通知當局及受影響人士。SAX說明，外洩資料包含姓名、出生日期、社會安全碼、駕照或州身分證以及護照號碼。受影響人數達到228,876人。 Sax為受影響個人提供免費的信用資料外洩、暗網監控、信用免責保、資料回復及財物損失協助服務。 Sax並未說明這些資料外洩個人是否為客戶。此外，哪些系統遭非法存取也不清楚。 SecurityWeek、Cybernews等媒體批評，在事件發生後16、17個月才發出用戶通知，已經超過一般企業資料外洩事件的延遲期間。一般情形下，資料外洩的企業在幾周到數月之間就會發出通知。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173128</guid>
+      <pubDate>Fri, 02 Jan 2026 01:33:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>臺灣企業GenAI進化之路</title>
+      <link>https://www.ithome.com.tw/article/173129</link>
+      <description>專題故事從256位企業IT主管對GenAI採用的第一手經驗，可以歸納出不同AI成熟度的企業，如何攻上這一條熱門又陡峭的GenAI之路。起步者還在思考為何要做 ，中途者忙於各種PoC驗證 ，但有少數登頂企業，開始積極創造規模效益。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/article/173129</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1267-feng_mian_gu_shi_-p1-dou_zi_-open-960x420_kao_bei_0.jpg?itok=HsAwxhQM" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 02 Jan 2026 01:53:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>IBM修補可導致駭客存取系統的API重大漏洞</title>
+      <link>https://www.ithome.com.tw/news/173130</link>
+      <description>新聞IBM上周發出安全公告，警告API元件存在一項可能讓駭客存取應用的重大資安漏洞，呼籲用戶儘速安裝更新。 編號CVE-2025-13915的漏洞存在API Connect，可讓遠端攻擊者繞過驗證機制存取應用。IBM API Connect為企業級API管理（API Management）平臺，提供API生命周期管理、負責驗證把關的API閘道及開發者入口網站（Developer Portal）。 這項漏洞CVSS風險值達9.8。在類型上，被列為「藉由主要弱點繞過身分驗證」。根據漏洞資料庫，這是指驗證演算法沒有問題，但實作可能因為別的弱點，導致驗證機制被繞過。 受到影響的API Connect版本包括V10.0.8.0-V10.0.8.5和V10.0.11.0。IBM已釋出iFix版本（即interim fix）修補漏洞。對於無法即時安裝iFix的用戶，IBM建議暫時緩解作法，停用開發人員入口網站的自助註冊（self-service sign-up）功能，減少攻擊者利用此漏洞來註冊或濫用入口的機會。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173130</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0101-CVE-2025-13915-IBM.png" length="0" type="image/png"/>
+      <pubDate>Fri, 02 Jan 2026 02:03:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>中華電信完成內部憑證治理重整工作並取得第三方稽核，已申請重返Chrome信任清單</title>
+      <link>https://www.ithome.com.tw/news/173131</link>
+      <description>新聞中華電信趕在2025年最後一天，於12月31日宣布旗下的根憑證管理中心（CHT TrustRoot CA）已完成為期約半年的組織與制度重整，並通過國際WebTrust for Certification Authorities第三方獨立稽核，相關稽核報告已獲瀏覽器業者採認，並已於12月29日正式向Google Chrome申請加入根憑證預設信任清單。 中華電信先前因憑證管理不符要求，Google以基於憑證治理與合規考量，從 2025年7月31日起，停止Chreom預設信任中華電信所簽發的TLS網站新憑證。即從該日期之後新簽發的憑證，可能在Chrome瀏覽器中出現安全警示，對使用其憑證的政府機關及企業帶來衝擊。 因應此事件的衝擊，中華電信從2025年8月1日起已全面暫停簽發新的TLS憑證，並於期限前完成協助既有客戶進行憑證更新或轉換，以降低對客戶網站營運的影響。 此外，該公司也啟動內部CA團隊重整，重整其憑證管理中心的組織架構，並成立專責改善團隊，檢視管理流程、合規制度與治理機制。 在制度與技術面上，中華電信宣稱已導入多項憑證自動化與驗證工具，包括 PKIlint 與 zlint，以</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173131</guid>
+      <pubDate>Fri, 02 Jan 2026 02:56:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>VS Code延伸套件蠕蟲GlassWorm鎖定macOS開發者而來，企圖散布木馬化的加密貨幣錢包</title>
+      <link>https://www.ithome.com.tw/news/173132</link>
+      <description>新聞鎖定整合式開發環境（IDE）工具Visual Studio Code（VS Code）用戶的蠕蟲程式GlassWorm，約從10月下旬出現首波攻擊， 截至11月底已有3波活動，事隔一個月，這些駭客再度活動，而且鎖定的目標也出現變化。 資安公司Koi Security指出，具有自我傳播能力的蠕蟲GlassWorm近期出現第四波攻擊。這次活動展現了駭客顯著的技術演進，首先，攻擊的作業系統目標從Windows全面轉向macOS，相關惡意延伸套件pro-svelte-extension、vsce-prettier-pro，以及full-access-catppuccin-pro-extension，迄今已被下載約5萬次；再者，是採用專門鎖定Ledger與Trezor等硬體錢包應用程式的木馬化技術。 該公司提及，駭客的攻擊核心機制與過往活動相同，GlassWorm都是從區塊鏈平臺Solana取得C2資訊，執行來自C2的指令，不過，這次駭客將有效酬載嵌入經過編譯的JavaScript指令碼，並使用AES-256-CBC演算法進行加密處理。值得留意的是，他們過往使用的特殊手法並未在這次活動出現，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173132</guid>
+      <pubDate>Fri, 02 Jan 2026 03:33:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Starlink將調降衛星高度至480公里，以降低碰撞與太空碎片風險</title>
+      <link>https://www.ithome.com.tw/news/173133</link>
+      <description>新聞SpaceX的Starlink工程副總裁Michael Nicolls周四（1/1）表示，Starlink將在2026年逐步將目前運行在約550公里高度的所有通訊衛星，調降至480公里的軌道，以提升太空安全。 從2019年發射第一批衛星迄今，Starlink已發射1萬顆通訊衛星，扣除退役數量，目前約有超過9,000顆衛星仍在軌道上運行，其衛星高度分布橫跨300~570公里，其中最早、規模最大的550公里殼層約有4,400顆衛星。 Nicolls說，Starlink將把這4,400顆衛星的高度，從550公里調降到480公里處。 降低衛星高度將使Starlink的軌道更加集中，也可於多個層面提升太空安全。因為隨著太陽活動邁向極小期，大氣密度會下降，意味著在相同高度下，物體的彈道衰減時間將會顯著拉長；也就是說，失效衛星自然進入大氣層燒毀所需的時間會大幅延後。在太陽極小期，位於550公里高度的失效衛星，可能要4年以上才會墜落，在這期間都將處於失控且無法主動閃避的狀態，增加在軌碰撞風險。 反之，位於高度480公里的軌道上，它的大氣密度明顯較高，使得失效衛星會受到足夠阻力，而無法維持原有軌道高</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173133</guid>
+      <pubDate>Fri, 02 Jan 2026 03:40:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>SpaceX、OpenAI及Anthropic都可能在今年IPO</title>
+      <link>https://www.ithome.com.tw/news/173136</link>
+      <description>新聞英國金融時報（Financial Times，FT）本周引述消息來源報導，太空基礎設施公司SpaceX，以及兩家人工智慧新創OpenAI與Anthropic，最快都可能在2026年首度公開發行股票（Initial Public Offering，IPO）。 馬斯克（Elon Musk）於2002年創辦的SpaceX，為一提供火箭發射、衛星通訊，以及太空運輸的太空基礎設施公司，最有名的產品是可重複使用的火箭，以及Starlink衛星網路。目前Starlink在太空中有超過9,000顆通訊衛星，於155個國家擁有逾900萬名用戶，已是全球規模最大的低軌道衛星通訊服務。 SpaceX也被視為是全球最大的獨角獸，在2025年7月二級市場交易的估值為4,000億美元，但FT說SpaceX目前正在展開新一輪的二級市場交易，估值已達到8,000億美元。 而OpenAI亦為現階段的全球AI龍頭，根據外界在去年7月的估算，OpenAI旗下ChatGPT約有7億的每周用戶數，Plus與Pro付費用戶數則約有3,500萬人，占活躍用戶數的5%。 OpenAI在2025年10月的估值達到5,000億美元，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173136</guid>
+      <pubDate>Fri, 02 Jan 2026 04:51:30 +0000</pubDate>
     </item>
   </channel>
 </rss>
