@@ -8,30 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Jan 2026 06:40:50 +0000</lastBuildDate>
-    <item>
-      <title>2025 Python型別調查點出三大痛點，第三方函式庫與進階泛型門檻仍高</title>
-      <link>https://www.ithome.com.tw/news/173116</link>
-      <description>新聞由JetBrains、Meta與Python型別標註社群成員共同發起的2025 Typed Python調查顯示，型別提示（Type Hints）已成為多數Python開發者日常工作的一部分。同時，受訪者在回應最困難之處時，頻繁提到第三方函式庫與進階泛型等挑戰。該調查共收集1,241份回覆，受訪者多具多年Python與型別提示使用經驗。 調查顯示，86%受訪者表示自己總是或經常使用型別提示，比例與去年相近。以Python年資分層，5到10年經驗者採用率最高達93%，0到2年者為83%，10年以上者為80%。調查人員也提到，資深開發者採用率略低的原因並不明確，可能與更常面對大型或既有程式碼庫，導入成本較高有關。 在超過800則關於最困難之處的回應中，受訪者的討論重點多落在第三方函式庫註記品質不一、進階泛型等型別特性不易掌握，以及不同型別檢查器之間的行為差異。 第一個痛點是第三方函式庫與框架。受訪者提到，專案仰賴的第三方函式庫，要是缺乏完整或正確的型別註記，整合型別檢查就會變得困難，並增加團隊在處理型別定義缺漏與誤報上的成本，影響開發環境的自動完成與導航體驗，也讓團隊在程式碼審查與重構</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173116</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/1231-python.png" length="0" type="image/png"/>
-      <pubDate>Wed, 31 Dec 2025 10:42:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>聯合19國執法單位，國際刑警組織大舉查緝非洲網路犯罪組織</title>
-      <link>https://www.ithome.com.tw/news/173115</link>
-      <description>新聞國際刑警組織（Interpol）本月公布Sentinel行動（Operation Sentinel）成果，由Interpol協調非洲19個國家的執法機構共同參與，成功瓦解當地多個活躍的網路犯罪集團。 根據Interpol的新聞公告，在為期一個月的查緝行動內，在非洲當地共逮捕574名嫌犯，查扣約300萬美元不法資金，下架超過6,000個惡意連結，並成功解密6種不同的勒索軟體變種。這波執法行動鎖定商業電子郵件詐騙（BEC）、勒索（extortion）及勒索軟體威脅，估計造成的財務損失超過2,100萬美元。 在具體案例方面，商業電子郵件詐騙組織鎖定塞內加爾（Senegal）一家大型石油公司，駭客入侵該石油公司內部電子郵件系統並冒充高階主管，試圖核准一筆790萬美元的電匯交易。所幸當地執法單位即時凍結指定匯款帳戶，成功在資金遭盜領前阻止詐騙分子得手。 迦納（Ghana）當地則有一家金融機構遭勒索軟體攻擊，約100TB資料遭加密，損失12萬美元，關鍵服務也因此中斷。迦納當局後續成功辨識勒索軟體種類並開發解密工具，協助復原近30TB資料。 此外，迦納執法單位也瓦解一個活躍於迦納與奈及利亞（Ni</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173115</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/1231-interpol-600-1.png" length="0" type="image/png"/>
-      <pubDate>Wed, 31 Dec 2025 11:04:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>NPM供應鏈蠕蟲Shai Hulud新變種現身</title>
-      <link>https://www.ithome.com.tw/news/173123</link>
-      <description>新聞資安業者Aikido Security發現NPM套件@vietmoney/react-big-calendar偵測到疑似Shai Hulud第三個變種的首起樣本。研究人員表示，現階段還未有明顯擴散或大量受害跡象，比較像攻擊者在公開套件庫測試投放惡意載荷。 Shai Hulud第三波樣本的程式碼差異顯示其為重新混淆後的版本，而非在既有樣本上直接修改。研究人員因此判斷，這不像仿冒者拼湊的跟風攻擊，更可能出自握有原始蠕蟲程式碼的人。資安公司OX Security也在分析中提到，惡意程式出現在@vietmoney/react-big-calendar的0.26.2版本，並稱其撰寫報告時尚未看到外洩資料出現在GitHub。 Shai Hulud新變種仍延續既有供應鏈惡意套件的典型路徑，藉由套件安裝流程在開發者電腦或自動化建置環境執行，蒐集環境變數與密鑰，並嘗試將資料外洩到GitHub儲存庫，同時在特定條件下嘗試發布套件。 就新變種的變更點，Aikido研究人員整理出多項可供辨識的更新。首先，初始啟動檔名改為bun_installer.js，主要載荷改為environment_source.j</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173123</guid>
-      <pubDate>Fri, 02 Jan 2026 01:14:49 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 03 Jan 2026 06:37:32 +0000</lastBuildDate>
     <item>
       <title>美知名會計師事務所Sax坦承2024年網攻事件 外洩23萬人資料</title>
       <link>https://www.ithome.com.tw/news/173128</link>
@@ -58,14 +35,14 @@
     <item>
       <title>中華電信完成內部憑證治理重整工作並取得第三方稽核，已申請重返Chrome信任清單</title>
       <link>https://www.ithome.com.tw/news/173131</link>
-      <description>新聞中華電信趕在2025年最後一天，於12月31日宣布旗下的根憑證管理中心（CHT TrustRoot CA）已完成為期約半年的組織與制度重整，並通過國際WebTrust for Certification Authorities第三方獨立稽核，相關稽核報告已獲瀏覽器業者採認，並已於12月29日正式向Google Chrome申請加入根憑證預設信任清單。 中華電信先前因憑證管理不符要求，Google以基於憑證治理與合規考量，從 2025年7月31日起，停止Chreom預設信任中華電信所簽發的TLS網站新憑證。即從該日期之後新簽發的憑證，可能在Chrome瀏覽器中出現安全警示，對使用其憑證的政府機關及企業帶來衝擊。 因應此事件的衝擊，中華電信從2025年8月1日起已全面暫停簽發新的TLS憑證，並於期限前完成協助既有客戶進行憑證更新或轉換，以降低對客戶網站營運的影響。 此外，該公司也啟動內部CA團隊重整，重整其憑證管理中心的組織架構，並成立專責改善團隊，檢視管理流程、合規制度與治理機制。 在制度與技術面上，中華電信宣稱已導入多項憑證自動化與驗證工具，包括 PKIlint 與 zlint，以</description>
+      <description>新聞中華電信趕在2025年最後一天，於12月31日宣布旗下的根憑證管理中心（CHT TrustRoot CA）已完成為期約半年的組織與制度重整，並通過國際WebTrust for Certification Authorities第三方獨立稽核，相關稽核報告已獲瀏覽器業者採認，並已於12月29日正式向Google Chrome申請加入根憑證預設信任清單。 中華電信先前因憑證管理不符要求，Google以基於憑證治理與合規考量，從 2025年7月31日起，停止Chrome預設信任中華電信所簽發的TLS網站新憑證。即從該日期之後新簽發的憑證，可能在Chrome瀏覽器中出現安全警示，對使用其憑證的政府機關及企業帶來衝擊。 因應此事件的衝擊，中華電信從2025年8月1日起已全面暫停簽發新的TLS憑證，並於期限前完成協助既有客戶進行憑證更新或轉換，以降低對客戶網站營運的影響。 此外，該公司也啟動內部CA團隊重整，重整其憑證管理中心的組織架構，並成立專責改善團隊，檢視管理流程、合規制度與治理機制。 在制度與技術面上，中華電信宣稱已導入多項憑證自動化與驗證工具，包括 PKIlint 與 zlint，以</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173131</guid>
       <pubDate>Fri, 02 Jan 2026 02:56:26 +0000</pubDate>
     </item>
     <item>
       <title>VS Code延伸套件蠕蟲GlassWorm鎖定macOS開發者而來，企圖散布木馬化的加密貨幣錢包</title>
       <link>https://www.ithome.com.tw/news/173132</link>
-      <description>新聞鎖定整合式開發環境（IDE）工具Visual Studio Code（VS Code）用戶的蠕蟲程式GlassWorm，約從10月下旬出現首波攻擊， 截至11月底已有3波活動，事隔一個月，這些駭客再度活動，而且鎖定的目標也出現變化。 資安公司Koi Security指出，具有自我傳播能力的蠕蟲GlassWorm近期出現第四波攻擊。這次活動展現了駭客顯著的技術演進，首先，攻擊的作業系統目標從Windows全面轉向macOS，相關惡意延伸套件pro-svelte-extension、vsce-prettier-pro，以及full-access-catppuccin-pro-extension，迄今已被下載約5萬次；再者，是採用專門鎖定Ledger與Trezor等硬體錢包應用程式的木馬化技術。 該公司提及，駭客的攻擊核心機制與過往活動相同，GlassWorm都是從區塊鏈平臺Solana取得C2資訊，執行來自C2的指令，不過，這次駭客將有效酬載嵌入經過編譯的JavaScript指令碼，並使用AES-256-CBC演算法進行加密處理。值得留意的是，他們過往使用的特殊手法並未在這次活動出現，</description>
+      <description>新聞鎖定整合式開發環境（IDE）工具Visual Studio Code（VS Code）用戶的蠕蟲程式GlassWorm，約從10月下旬出現首波攻擊，截至11月底已有3波活動，事隔一個月，這些駭客再度活動，而且鎖定的目標也出現變化。 資安公司Koi Security指出，具有自我傳播能力的蠕蟲GlassWorm近期出現第四波攻擊。這次活動展現了駭客顯著的技術演進，首先，攻擊的作業系統目標從Windows全面轉向macOS，相關惡意延伸套件pro-svelte-extension、vsce-prettier-pro，以及full-access-catppuccin-pro-extension，迄今已被下載約5萬次；再者，是採用專門鎖定Ledger與Trezor等硬體錢包應用程式的木馬化技術。 該公司提及，駭客的攻擊核心機制與過往活動相同，GlassWorm都是從區塊鏈平臺Solana取得C2資訊，執行來自C2的指令，不過，這次駭客將有效酬載嵌入經過編譯的JavaScript指令碼，並使用AES-256-CBC演算法進行加密處理。值得留意的是，他們過往使用的特殊手法並未在這次活動出現，例</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173132</guid>
       <pubDate>Fri, 02 Jan 2026 03:33:18 +0000</pubDate>
     </item>
@@ -77,11 +54,34 @@
       <pubDate>Fri, 02 Jan 2026 03:40:25 +0000</pubDate>
     </item>
     <item>
+      <title>【資安日報】1月2日，第三波蠕蟲Shai Hulud變種現身NPM儲存庫</title>
+      <link>https://www.ithome.com.tw/news/173134</link>
+      <description>新聞NPM供應鏈蠕蟲Shai Hulud新變種現身 資安公司Aikido Security與OX Security提出警告，他們在0.26.2版@vietmoney/react-big-calendar偵測到新的Shai Hulud變種，目前並未出現大規模散布或感染的情況，研判攻擊者可能正在測試有效酬載。 最早發現及公布此事的是Aikido Security，他們指出，第三波Shai Hulud的新變種，仍延續既有供應鏈惡意套件的典型路徑，藉由套件安裝流程在開發者電腦或自動化建置環境執行，蒐集環境變數與金鑰，並嘗試將資料外洩到GitHub儲存庫，同時在特定條件下試圖發布套件。新的Shai Hulud有幾個特徵，首先，初始啟動檔名改為bun_installer.js，主要載荷改為environment_source.js。其次，外洩到GitHub時使用的儲存庫描述字串改成Goldox-T3chs:OnlyHappyGirl，並把外洩檔名改成較難以字串比對攔截的形式，例如3nvir0nm3nt.json、cl0vd.json、c9nt3nts.json。 新變種在細節上微調執行流程，例如改</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173134</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/image-99.png" length="0" type="image/png"/>
+      <pubDate>Fri, 02 Jan 2026 03:46:03 +0000</pubDate>
+    </item>
+    <item>
       <title>SpaceX、OpenAI及Anthropic都可能在今年IPO</title>
       <link>https://www.ithome.com.tw/news/173136</link>
       <description>新聞英國金融時報（Financial Times，FT）本周引述消息來源報導，太空基礎設施公司SpaceX，以及兩家人工智慧新創OpenAI與Anthropic，最快都可能在2026年首度公開發行股票（Initial Public Offering，IPO）。 馬斯克（Elon Musk）於2002年創辦的SpaceX，為一提供火箭發射、衛星通訊，以及太空運輸的太空基礎設施公司，最有名的產品是可重複使用的火箭，以及Starlink衛星網路。目前Starlink在太空中有超過9,000顆通訊衛星，於155個國家擁有逾900萬名用戶，已是全球規模最大的低軌道衛星通訊服務。 SpaceX也被視為是全球最大的獨角獸，在2025年7月二級市場交易的估值為4,000億美元，但FT說SpaceX目前正在展開新一輪的二級市場交易，估值已達到8,000億美元。 而OpenAI亦為現階段的全球AI龍頭，根據外界在去年7月的估算，OpenAI旗下ChatGPT約有7億的每周用戶數，Plus與Pro付費用戶數則約有3,500萬人，占活躍用戶數的5%。 OpenAI在2025年10月的估值達到5,000億美元，</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173136</guid>
       <pubDate>Fri, 02 Jan 2026 04:51:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>【資安月報】2025年12月，中國駭客的網釣盜刷威脅、React2Shell漏洞攻擊最受矚目，臺廠產品資安發展亦受關注</title>
+      <link>https://www.ithome.com.tw/news/173137</link>
+      <description>新聞新的一年到來，讓我們快速回顧2025年12月的資安新聞，本月有3大議題最值得關注，分別是網釣盜刷、產品資安與漏洞攻擊的整體態勢，還有國內外重大資安事故與AI Agent相關風險持續引發重視，而隨著年度更迭，2026年關鍵資安趨勢的發表同樣不容我們錯過。 （一）打擊日益氾濫的網釣盜刷威脅 在打擊網路詐騙方面，中國網路犯罪集團鎖定全球發動簡訊釣魚，以社交工程手法竊取全球信用卡資料，並且進行盜刷，成為不可輕忽的重要消息，近來我們報導事件嚴重到Google針對中國犯罪組織主動採取法律行動就是一例，包括11月中旬、12月中旬分別提告Lighthouse、Darcula釣魚即服務平臺（PhaaS）及幕後組織，突顯此類跨國詐騙問題的嚴重性。 簡單來說，中國駭客架設的Lighthouse釣魚即服務平臺，以及Darcula提供的神奇貓貓（Magic Cat）釣魚工具包，提供涵蓋數十個國家的釣魚簡訊腳本（可假冒當地品牌與語言），讓其他犯罪者在租用後，能迅速鎖定全球民眾發動網路詐騙。釣魚簡訊內容經常以「包裹卡關」或「未繳通行費」為誘餌，透過Apple的iMessage與Google的RCS發送釣魚簡訊給</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173137</guid>
+      <pubDate>Fri, 02 Jan 2026 08:30:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>NIST公布CSF延伸AI專屬網路安全框架，協助組織因應AI資安風險</title>
+      <link>https://www.ithome.com.tw/news/173138</link>
+      <description>新聞隨著AI技術高速發展，公私部門在營運與資安防護上，同時面臨新機會與新挑戰。為此，美國國家標準與技術研究院（NIST）於2025年12月發布《AI網路安全框架應用藍圖》（Cybersecurity Framework Profile for Artificial Intelligence，Cyber AI Profile）草案，簡稱Cyber AI應用藍圖，此份文件的編號為NIST IR 8596，作為其廣泛獲外界採用的網路安全框架NIST CSF（Cybersecurity Framework）的延伸配套，協助組織在導入AI的同時，更有系統地管理相關資安風險。 NIST以「社群應用藍圖」（community profile）一詞，描述CSF 2.0在製造、金融、電信等產業之間，針對共同關注議題與目標的應用方式，如今也進一步將AI納入社群應用藍圖行列。 將AI資安風險納入CSF 2.0，聚焦三大關注領域 Cyber AI應用藍圖的內容，圍繞三個彼此關聯的關注領域（Focus Areas）展開，並依據CSF 2.0核心功能進行細分。 圖片來源／NIST 根據資安院的說明，Cyber A</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173138</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0102-Cyber%20AI%20Profile-600-2.png" length="0" type="image/png"/>
+      <pubDate>Fri, 02 Jan 2026 10:50:56 +0000</pubDate>
     </item>
   </channel>
 </rss>
