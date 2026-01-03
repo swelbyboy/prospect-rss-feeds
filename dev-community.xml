@@ -8,79 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Jan 2026 06:38:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jan 2026 06:35:10 +0000</lastBuildDate>
     <item>
-      <title>What Is AIOps? A Beginner’s Guide to AI-Driven IT Operations</title>
-      <link>https://dev.to/rushikesh_langale_42ac365/what-is-aiops-a-beginners-guide-to-ai-driven-it-operations-14kj</link>
-      <description>Modern IT environments are messy. Cloud, hybrid systems, microservices, and nonstop data streams have made traditional monitoring tools feel outdated. That’s where AIOps comes in. According to this detailed overview by Technology Radius, AIOps is reshaping how IT teams detect, analyze, and resolve issues at scale by using AI and machine learning to cut through complexity (Technology Radius). This guide breaks AIOps down in simple terms — no buzzwords, no fluff. What Exactly Is AIOps? AIOps stand</description>
-      <guid isPermaLink="false">https://dev.to/rushikesh_langale_42ac365/what-is-aiops-a-beginners-guide-to-ai-driven-it-operations-14kj</guid>
-      <pubDate>Fri, 02 Jan 2026 06:17:11 +0000</pubDate>
+      <title>How to Review AI-Written Code Like a Engineer</title>
+      <link>https://dev.to/speaklouder/how-to-review-ai-written-code-like-a-engineer-1f4g</link>
+      <description>AI can generate code incredibly fast. Sometimes fast enough to make you pause and think, “Did this just replace half my work?” But speed has never been the hard part of engineering. The real challenge is making sure the code: does the right thing, fails safely, can be understood later, and won’t hurt you in production. That’s why reviewing AI-written code requires a slightly different mindset than reviewing human code. The mistakes are subtler, the confidence is misleading, and the risks are eas</description>
+      <guid isPermaLink="false">https://dev.to/speaklouder/how-to-review-ai-written-code-like-a-engineer-1f4g</guid>
+      <pubDate>Sat, 03 Jan 2026 05:56:39 +0000</pubDate>
     </item>
     <item>
-      <title>CSS Media Queries: The Ultimate Guide to Responsive Web Design</title>
-      <link>https://dev.to/satyam_gupta_0d1ff2152dcc/css-media-queries-the-ultimate-guide-to-responsive-web-design-3npf</link>
-      <description>** CSS Media Queries: Your Secret Weapon for Building Websites That Just Work ** Ever been on a website on your phone, and you have to do that awkward pinch-and-zoom dance just to read the text? Or maybe you’ve opened a site on your massive desktop monitor only to find it looks like a blown-up mobile app? Yeah, we’ve all been there. It’s frustrating, it looks unprofessional, and honestly, users will just bounce. That’s where the magic of CSS Media Queries comes in. Think of them as the smart, be</description>
-      <guid isPermaLink="false">https://dev.to/satyam_gupta_0d1ff2152dcc/css-media-queries-the-ultimate-guide-to-responsive-web-design-3npf</guid>
-      <pubDate>Fri, 02 Jan 2026 06:21:37 +0000</pubDate>
+      <title>IMMUNE: Building an EDR/XDR/MDR Security Platform in Pure C — Solo Dev Progress</title>
+      <link>https://dev.to/dmitry_labintcev_9e611e04/immune-building-an-edrxdrmdr-security-platform-in-pure-c-solo-dev-progress-49o4</link>
+      <description>IMMUNE: Open Source EDR/XDR/MDR — Progress Report I'm building SENTINEL IMMUNE — an open source security platform in Pure C. This is a solo project. Progress is steady, not fast. But I'm sharing what actually works today. What This Is IMMUNE is a complete security stack: EDR (Endpoint Detection) — Kernel module on each host (6 syscall hooks) XDR (Extended Detection) — Cross-agent correlation in Hive (24 modules) MDR (Managed Detection) — Automated playbook responses All open source. All Pure C.</description>
+      <guid isPermaLink="false">https://dev.to/dmitry_labintcev_9e611e04/immune-building-an-edrxdrmdr-security-platform-in-pure-c-solo-dev-progress-49o4</guid>
+      <pubDate>Sat, 03 Jan 2026 05:58:18 +0000</pubDate>
     </item>
     <item>
-      <title>How can we achieve helm promotion to higher env's like code promotion?</title>
-      <link>https://dev.to/hari_krishna_b289ff1039ee/how-can-we-achieve-helm-promotion-to-higher-envs-like-code-promotion-55n7</link>
-      <description>We are using Helm with ArgoCD to deploy microservices. How can we achieve helm promotion to higher environments like code promotion?</description>
-      <guid isPermaLink="false">https://dev.to/hari_krishna_b289ff1039ee/how-can-we-achieve-helm-promotion-to-higher-envs-like-code-promotion-55n7</guid>
-      <pubDate>Fri, 02 Jan 2026 06:22:49 +0000</pubDate>
+      <title>Growth Strategy &amp;amp; Scaling: Key Trends &amp;amp; Insights</title>
+      <link>https://dev.to/hkj13/growth-strategy-scaling-key-trends-insights-lfm</link>
+      <description>Growth Strategy &amp;amp; Scaling: Key Trends &amp;amp; Insights Overview The world of startups is fiercely competitive. To navigate this landscape, growth hacking strategies have become a linchpin for early-stage startups aiming to scale quickly. With resources often limited, these inventive, often unconventional strategies offer a pathway to rapid growth. Key Trends Growth Hacking Evolution: As highlighted by Forbes, startups have effectively leveraged growth hacking to position themselves in competitive mark</description>
+      <guid isPermaLink="false">https://dev.to/hkj13/growth-strategy-scaling-key-trends-insights-lfm</guid>
+      <pubDate>Sat, 03 Jan 2026 06:00:53 +0000</pubDate>
     </item>
     <item>
-      <title>CSS Media Queries Explained: Examples, Code, &amp;amp; Real-World Guide (2026)</title>
-      <link>https://dev.to/satyam_gupta_0d1ff2152dcc/css-media-queries-explained-examples-code-real-world-guide-2026-1eba</link>
-      <description>Your Guide to CSS Media Queries: From "What's That?" to "I'm a Pro!" Hey there, future web dev rockstar! Let's talk about something that’s not just a "nice-to-have" but a complete non-negotiable in today’s digital world: CSS Media Queries. If you've ever opened a website on your phone and it looked like a hot mess, only to have it look perfect on your laptop, you’ve witnessed the absence (or glory) of media queries in action. In this deep dive, we’re moving beyond the textbook definitions. We’ll</description>
-      <guid isPermaLink="false">https://dev.to/satyam_gupta_0d1ff2152dcc/css-media-queries-explained-examples-code-real-world-guide-2026-1eba</guid>
-      <pubDate>Fri, 02 Jan 2026 06:24:18 +0000</pubDate>
+      <title>Why Figma SVGs Break Your React App (and How to Fix It Locally)</title>
+      <link>https://dev.to/hypertools/why-figma-svgs-break-your-react-app-and-how-to-fix-it-locally-3c63</link>
+      <description>We've all been there. You export a beautiful icon from Figma, paste it into your React project, and suddenly you have: Massive file sizes. Hard-to-debug ID collisions. Redundant mask-type properties and nested groups. Most online converters require you to upload your private design files to their servers. If you are working on a proprietary project, that's a security risk. The Solution: I built VectorGnome (https://vector.hyper-tools.online/tools/figma-to-react-svg), a 100% browser-native tool t</description>
+      <guid isPermaLink="false">https://dev.to/hypertools/why-figma-svgs-break-your-react-app-and-how-to-fix-it-locally-3c63</guid>
+      <pubDate>Sat, 03 Jan 2026 06:03:16 +0000</pubDate>
     </item>
     <item>
-      <title>Flexbox 101: The No-Stress Guide to CSS Layout in 2026 | CoderCrafter</title>
-      <link>https://dev.to/satyam_gupta_0d1ff2152dcc/flexbox-101-the-no-stress-guide-to-css-layout-in-2026-codercrafter-26lh</link>
-      <description>Flexbox 101: Your No-Stress Guide to Finally Nailing CSS Layouts Let’s be real for a second. How many hours have you spent wrestling with CSS to get things to just go where you want them to? Trying to center a div vertically used to be a meme for a reason—it was a total pain. Floating elements, clearing them, messing with margins until something kinda works… it was the dark ages. Thankfully, that era is over. Enter Flexbox (or the Flexible Box Layout Module, if you want to be formal). It’s not j</description>
-      <guid isPermaLink="false">https://dev.to/satyam_gupta_0d1ff2152dcc/flexbox-101-the-no-stress-guide-to-css-layout-in-2026-codercrafter-26lh</guid>
-      <pubDate>Fri, 02 Jan 2026 06:26:24 +0000</pubDate>
+      <title>The Shocking Audit That Changed Everything</title>
+      <link>https://dev.to/tracksimple/the-shocking-audit-that-changed-everything-3hpo</link>
+      <description>The Shocking Audit That Changed Everything Sarah stared at the spreadsheet in disbelief. As Marketing Operations Manager at a mid-sized SaaS company, she'd just completed a time audit of her team. The numbers didn't lie: 28 hours per week. That's how much her three-person team spent manually tracking competitors' pricing changes, feature updates, and marketing campaigns. "We thought we were being efficient," she told me later. "But the audit showed we were essentially dedicating one full-time em</description>
+      <guid isPermaLink="false">https://dev.to/tracksimple/the-shocking-audit-that-changed-everything-3hpo</guid>
+      <pubDate>Sat, 03 Jan 2026 06:05:27 +0000</pubDate>
     </item>
     <item>
-      <title>How to Design a Cross Balls Puzzle using 3D CAD Software</title>
-      <link>https://dev.to/julia970/how-to-design-a-cross-balls-puzzle-using-3d-cad-software-in9</link>
-      <description>How to Design a Cross Balls Puzzle using 3D CAD Software Designing puzzles is a fun way to mix creativity with logical thinking, especially when you can turn an idea into something people can actually see and interact with. The Cross Balls puzzle is an interesting game that challenges players to think carefully as they move pieces across a structured layout. Using SelfCAD makes the 3D designing process easier and more enjoyable, even for beginners, because it provides simple yet powerful tools f</description>
-      <guid isPermaLink="false">https://dev.to/julia970/how-to-design-a-cross-balls-puzzle-using-3d-cad-software-in9</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxr52hz8afhib6h1x4a6e.png" length="0" type="image/png"/>
-      <pubDate>Fri, 02 Jan 2026 06:27:36 +0000</pubDate>
+      <title>Part 6 — Observability and Evaluation in GenAI Systems</title>
+      <link>https://dev.to/muzammiltalha/part-6-observability-and-evaluation-in-genai-systems-76g</link>
+      <description>You can’t debug what you can’t observe. In GenAI systems, observability is harder and more important. Why traditional metrics fall short Latency and error rates still matter. But they don’t tell you: Whether answers are correct Whether behavior drifted Whether users trust the output Correctness is qualitative, not binary. What needs to be observed Effective GenAI systems track: Prompt and retrieval versions Input-output pairs Model versions Token usage Failure modes This creates traceability acr</description>
+      <guid isPermaLink="false">https://dev.to/muzammiltalha/part-6-observability-and-evaluation-in-genai-systems-76g</guid>
+      <pubDate>Sat, 03 Jan 2026 06:15:00 +0000</pubDate>
     </item>
     <item>
-      <title>What Is DataOps and Why It Matters for Modern Enterprises</title>
-      <link>https://dev.to/sangram_6c566d62b3944d2b9/what-is-dataops-and-why-it-matters-for-modern-enterprises-117n</link>
-      <description>Data is everywhere. Insights are not. That gap is exactly why DataOps is gaining momentum across enterprises. As organizations scale analytics, they are realizing that more data does not automatically mean better decisions. According to a recent analysis by Technology Radius, the real challenge lies in how data is built, moved, tested, and trusted across teams. This is where DataOps steps in. Understanding DataOps in Simple Terms DataOps is a set of practices and principles that bring discipline</description>
-      <guid isPermaLink="false">https://dev.to/sangram_6c566d62b3944d2b9/what-is-dataops-and-why-it-matters-for-modern-enterprises-117n</guid>
-      <pubDate>Fri, 02 Jan 2026 06:29:21 +0000</pubDate>
+      <title>Quick business lesson:</title>
+      <link>https://dev.to/armab_dev101/quick-business-lesson-4bo4</link>
+      <description>Revenue ≠ Profit If your business generates ₦1m and incurs $800k in expenses, your net profit is $200k. Many business owners are busy but still struggling financially because they don’t track their expenses effectively.</description>
+      <guid isPermaLink="false">https://dev.to/armab_dev101/quick-business-lesson-4bo4</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flmixweecg3r9c374xnsm.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 03 Jan 2026 06:22:41 +0000</pubDate>
     </item>
     <item>
-      <title>How to Become an AWS Community Builder (What Nobody Tells You) published: true</title>
-      <link>https://dev.to/sujitha_rasamsetty/how-to-become-an-aws-community-builder-what-nobody-tells-youpublished-true-449c</link>
-      <description>👋 Hey there, tech enthusiasts! I’m writing this not as a recruiter, not as an AWS employee, and not as someone who “figured it all out” early — but as someone who learned the hard way what community actually means in tech. This article is for people who: Are curious about the AWS Community Builders Program Feel they might be “too early” or “not ready.” Are tired of shallow posts that only talk about benefits and swag This is not a hype piece. This is a reality-based guide built from observation,</description>
-      <guid isPermaLink="false">https://dev.to/sujitha_rasamsetty/how-to-become-an-aws-community-builder-what-nobody-tells-youpublished-true-449c</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frmd90ite748n0vn6qwk3.png" length="0" type="image/png"/>
-      <pubDate>Fri, 02 Jan 2026 06:30:18 +0000</pubDate>
+      <title>I Didn’t Need a New Routine — I Needed Fewer Invisible Demands</title>
+      <link>https://dev.to/jamesmiller25/i-didnt-need-a-new-routine-i-needed-fewer-invisible-demands-58ig</link>
+      <description>For a while, I kept thinking I needed a reset. Not a vacation. Not a major life change. Just a better routine. Something tighter. More intentional. Something that would make my days feel less heavy. But every time I tried to improve my routine, the heaviness stayed. What I didn’t see at first was how many invisible demands were living in my day. Not big ones. Not the kind you can point to on a calendar. These were quieter. Background tasks my mind kept running without permission. Remember to rep</description>
+      <guid isPermaLink="false">https://dev.to/jamesmiller25/i-didnt-need-a-new-routine-i-needed-fewer-invisible-demands-58ig</guid>
+      <pubDate>Sat, 03 Jan 2026 06:24:59 +0000</pubDate>
     </item>
     <item>
-      <title>Deconstructing Geo-Restrictions: Unblocking Streaming with Nocturne VPN</title>
-      <link>https://dev.to/mitul_chovatiya_e568824a5/deconstructing-geo-restrictions-unblocking-streaming-with-nocturne-vpn-2cg</link>
-      <description>Deconstructing Geo-Restrictions: A Technical Dive into Unblocking Streaming with Nocturne VPN In the digital age, content distribution is a complex web governed by licensing agreements, copyright laws, and regional monopolies. This often leads to 'geo-restrictions,' where access to streaming content is dictated by a user's geographical location. For developers, sysadmins, and cybersecurity professionals, understanding the underlying mechanisms of geo-blocking and how a robust Virtual Private Net</description>
-      <guid isPermaLink="false">https://dev.to/mitul_chovatiya_e568824a5/deconstructing-geo-restrictions-unblocking-streaming-with-nocturne-vpn-2cg</guid>
-      <pubDate>Fri, 02 Jan 2026 06:31:21 +0000</pubDate>
+      <title>Master the Double Diamond Process: The 2026 Cheat Code That Turns Weeks of Ideation Into Hours of Real Progress</title>
+      <link>https://dev.to/tarun_chowdhry_9c697cbde1/master-the-double-diamond-process-the-2026-cheat-code-that-turns-weeks-of-ideation-into-hours-of-2e0</link>
+      <description>Einstein nailed why so many products flop: we rush to solutions before truly understanding the problem. Here's how to kill bad ideas or pivot them into gold in under two hours using AI. “If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.” — Albert Einstein Picture this: You're three weeks into validating a "game-changing" feature. You've run two workshops, filled four Miro boards, transcribed 12 customer calls, and built a</description>
+      <guid isPermaLink="false">https://dev.to/tarun_chowdhry_9c697cbde1/master-the-double-diamond-process-the-2026-cheat-code-that-turns-weeks-of-ideation-into-hours-of-2e0</guid>
+      <pubDate>Sat, 03 Jan 2026 06:27:39 +0000</pubDate>
     </item>
     <item>
-      <title>China Just Released the First Coding AI of 2026 and Its Crushing Everything We Know</title>
-      <link>https://dev.to/yakhilesh/china-just-released-the-first-coding-ai-of-2026-and-its-crushing-everything-we-know-3bbj</link>
-      <description>So I woke up on January 1st expecting the usual New Year posts and instead found out that a Chinese quantitative hedge fund just casually dropped an open source coding AI that beats Claude Sonnet 4.5 and GPT models With only 40 billion parameters Let me take you through this because its absolutely wild The Background: Who Built This IQuest Lab is the AI research arm of Ubiquant which is one of Chinas largest quantitative hedge funds managing over $10 billion in assets They have multiple AI labs:</description>
-      <guid isPermaLink="false">https://dev.to/yakhilesh/china-just-released-the-first-coding-ai-of-2026-and-its-crushing-everything-we-know-3bbj</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1mwgtq1iidnd9qnx99lq.png" length="0" type="image/png"/>
-      <pubDate>Fri, 02 Jan 2026 06:32:10 +0000</pubDate>
+      <title>LRU vs TinyLFU: Choosing the Right Cache Eviction Strategy 🚀</title>
+      <link>https://dev.to/akarshan/lru-vs-tinylfu-choosing-the-right-cache-eviction-strategy-56pd</link>
+      <description>When building high-performance applications, choosing the right cache eviction policy can make or break your system's performance. While both TinyLRU and TinyLFU aim to keep your hot data cached, they take fundamentally different approaches. Understanding when to use each can save you from performance disasters and wasted CPU cycles. The Fundamentals 📚 What is LRU? LRU (Least Recently Used) is one of the most intuitive cache eviction policies. The principle is simple: when the cache is full and</description>
+      <guid isPermaLink="false">https://dev.to/akarshan/lru-vs-tinylfu-choosing-the-right-cache-eviction-strategy-56pd</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7gsgdvckqy01yumbxgl1.png" length="0" type="image/png"/>
+      <pubDate>Sat, 03 Jan 2026 06:30:51 +0000</pubDate>
     </item>
   </channel>
 </rss>

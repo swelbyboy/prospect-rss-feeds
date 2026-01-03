@@ -8,56 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Jan 2026 06:38:22 +0000</lastBuildDate>
-    <item>
-      <title>More Improvements To Old AMD GPU Support On Linux Are Planned For 2026</title>
-      <link>https://www.phoronix.com/news/Timur-More-Old-AMDGPU-2026</link>
-      <description>With Linux 6.19 aging AMD GCN 1.0 and GCN 1.1 GPUs switched the default kernel driver used to provide for much better performance, RADV Vulkan support out-of-the-box, and other improvements compared to using the legacy Radeon DRM kernel driver. For 2026, Timur Kristóf of Valve's Linux graphics team has more improvements still planned to enhance these older AMD graphics cards on Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Timur-More-Old-AMDGPU-2026</guid>
-      <pubDate>Thu, 01 Jan 2026 11:32:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 6.19 Lands Fix For Dead WiFi With MediaTek MT792x Wireless</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Fix-MediaTek-WiFi</link>
-      <description>Merged to Linux Git on New Year's Eve was a fix in the form of a code revert for broken MediaTek WiFi on the in-development Linux 6.19 kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Fix-MediaTek-WiFi</guid>
-      <pubDate>Thu, 01 Jan 2026 11:47:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>SDL 3.4 Released With Many New APIs, Better Emscripten &amp;amp; Native PNG Support</title>
-      <link>https://www.phoronix.com/news/SDL-3.4-Released</link>
-      <description>Kicking off the new year for Linux gaming and cross-platform gaming at large is the release of the SDL 3.4 library. SDL is part of the Steam runtime and continues to be widely-used for abstracting software/hardware for creating more portable games and other applications...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/SDL-3.4-Released</guid>
-      <pubDate>Thu, 01 Jan 2026 12:02:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>IceWM 4.0 Improves Alt-Tab Window Switcher, Alpha Blending + 32-bit RGBA Default</title>
-      <link>https://www.phoronix.com/news/IceWM-4.0-Released</link>
-      <description>For fans of the IceWM X11 window manager, the project kicked off 2026 by releasing IceWM 4.0...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/IceWM-4.0-Released</guid>
-      <pubDate>Thu, 01 Jan 2026 14:02:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>ReactOS Starts 2026 With Another "Major Step" Toward Windows NT6 Compatibility</title>
-      <link>https://www.phoronix.com/news/ReactOS-Starts-2026</link>
-      <description>The ReactOS free software project is turning 30 this year and its "open-source Windows" OS ambitions remain. They are starting out this year with another "major step" towards Windows NT 6.0 compatibility...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ReactOS-Starts-2026</guid>
-      <pubDate>Thu, 01 Jan 2026 15:42:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Valve's Linux Efforts, Kernel Improvements &amp;amp; KDE Plasma Wayland Advancements Topped 2025</title>
-      <link>https://www.phoronix.com/news/Top-Linux-News-2025</link>
-      <description>After looking yesterday at the most viewed Linux hardware reviews and benchmarks of 2025, today's look is at the most popular open-source/Linux news of the past year. There were 3,286 original news articles on Phoronix during 2025 written by your's truly, here's a look back at what excited readers the most over these past twelve months...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Top-Linux-News-2025</guid>
-      <pubDate>Thu, 01 Jan 2026 17:50:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA Graphics On Haiku OS Make Progress With NVIDIA Open Kernel Modules + NVK/Zink</title>
-      <link>https://www.phoronix.com/news/NVIDIA-Haiku-0.0.1</link>
-      <description>As a wonderful New Year surprise, there's good momentum on NVIDIA graphics support for the BeOS-inspired Haiku open-source operating system...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-Haiku-0.0.1</guid>
-      <pubDate>Thu, 01 Jan 2026 20:20:28 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 03 Jan 2026 06:35:20 +0000</lastBuildDate>
     <item>
       <title>Devuan 6.1 Released For Latest Debian 13 "Init Freedom" Without systemd</title>
       <link>https://www.phoronix.com/news/Devuan-6.1-Released</link>
@@ -78,6 +29,55 @@
       <description>Mesa 25.3.3 shipped on Thursday as the newest stable point release for Q4's Mesa 25.3 feature series. Now being into the new quarter, we have Mesa 26.0 to look forward to as stable likely by late February, but for now Mesa 25.3.3 is the latest and greatest stable version...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-25.3.3-Released</guid>
       <pubDate>Fri, 02 Jan 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Six Years Since The Reiser5 File-System Was Announced</title>
+      <link>https://www.phoronix.com/news/Six-Years-Since-Reiser5</link>
+      <description>With the start of the New Year it now marks six years since the unexpected announcement of the Reiser5 file-system being developed as the continuation of the never-upstreamed Reiser4 file-system. But Reiser5 development never saw too much upstream interest and it's now been several years without any updated patches for Reiser5 or Reiser4...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Six-Years-Since-Reiser5</guid>
+      <pubDate>Fri, 02 Jan 2026 11:32:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Debian's Bug Tracker With No Web UI For Editing Bugs Is Very Obscure For 2026</title>
+      <link>https://www.phoronix.com/news/Debian-Bug-Tracker-2026-Woes</link>
+      <description>Debian's maintainer of the Meson build system package is calling attention to the unfortunate state of Debian's bug tracker in 2026. Editing bug data within Debian's bug tracker still relies on writing custom-formatted emails and submitting them via your mail client. There still is no modern web UI for managing the Debian bug tracker as it was largely written in the early 90s...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Debian-Bug-Tracker-2026-Woes</guid>
+      <pubDate>Fri, 02 Jan 2026 11:44:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Radeon Linux Driver Enhancements, Linux 6.19 Activity &amp;amp; Other December Highlights</title>
+      <link>https://www.phoronix.com/news/December-2025-Recap</link>
+      <description>During the month of December on Phoronix there was new and original content each and every day, ending the month with 305 original news articles and 25 featured Linux hardware reviews / multi-page benchmark articles. Here is a look back at the most exciting Linux/open-source hardware content in ending out 2025...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/December-2025-Recap</guid>
+      <pubDate>Fri, 02 Jan 2026 13:16:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>RadeonSI Starts 2026 With NIR Compilation Refactoring For Better Performance, Lower GLSL Compile Times</title>
+      <link>https://www.phoronix.com/news/RadeonSI-NIR-Comp-Refactoring</link>
+      <description>Merged on New Year's Day was a set of 36 patches authored by well known AMD Mesa developer Marek Olšák for refactoring the NIR compilation code for the RadeonSI Gallium3D driver...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/RadeonSI-NIR-Comp-Refactoring</guid>
+      <pubDate>Fri, 02 Jan 2026 14:42:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Linux Patches Allow More Easily Changing The Tux Kernel Boot Logo</title>
+      <link>https://www.phoronix.com/news/LInux-Kconfig-Tux-Boot-Logo</link>
+      <description>A new patch series that was posted this week allow for users to more easily replace the default kernel boot logo. While many of us are long accustomed to seeing the picture of Tux as the kernel boot logo, for those preferring to better customize your console boot experience these patches allow it to be easily manipulated via the kernel configuration "Kconfig" options...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/LInux-Kconfig-Tux-Boot-Logo</guid>
+      <pubDate>Fri, 02 Jan 2026 15:30:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux Addressing Out-Of-Memory Killer Inaccuracy On Large Core Count Systems</title>
+      <link>https://www.phoronix.com/news/Linux-Inaccuracy-OOM-High-CPUs</link>
+      <description>A patch is on the way to the Linux kernel and looks like it could be ready for the 6.20~7.0 kernel for addressing out-of-memory "OOM" killer inaccuracy behavior when dealing with large core count systems...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Inaccuracy-OOM-High-CPUs</guid>
+      <pubDate>Fri, 02 Jan 2026 17:50:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Aeryn OS Continuing To Focus On Tooling &amp;amp; Infrastructure In 2026</title>
+      <link>https://www.phoronix.com/news/Aeryn-OS-Ends-2025</link>
+      <description>The Aeryn OS Linux distribution formerly known as Serpent OS has published a 2025 retrospective to recap the project changes over the past year as well as a look ahead to 2026...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Aeryn-OS-Ends-2025</guid>
+      <pubDate>Sat, 03 Jan 2026 01:27:14 +0000</pubDate>
     </item>
   </channel>
 </rss>
