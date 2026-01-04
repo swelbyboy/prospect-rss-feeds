@@ -8,78 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 03 Jan 2026 06:35:10 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 04 Jan 2026 06:36:07 +0000</lastBuildDate>
     <item>
-      <title>How to Review AI-Written Code Like a Engineer</title>
-      <link>https://dev.to/speaklouder/how-to-review-ai-written-code-like-a-engineer-1f4g</link>
-      <description>AI can generate code incredibly fast. Sometimes fast enough to make you pause and think, “Did this just replace half my work?” But speed has never been the hard part of engineering. The real challenge is making sure the code: does the right thing, fails safely, can be understood later, and won’t hurt you in production. That’s why reviewing AI-written code requires a slightly different mindset than reviewing human code. The mistakes are subtler, the confidence is misleading, and the risks are eas</description>
-      <guid isPermaLink="false">https://dev.to/speaklouder/how-to-review-ai-written-code-like-a-engineer-1f4g</guid>
-      <pubDate>Sat, 03 Jan 2026 05:56:39 +0000</pubDate>
+      <title>📈_Scalability_Architecture_Design[20260104055124]</title>
+      <link>https://dev.to/member_8659c28a/scalabilityarchitecturedesign20260104055124-3o07</link>
+      <description>As a veteran who has experienced multiple system architecture evolutions, I deeply understand the importance of scalability for web applications. From monolithic to microservices architecture, I have witnessed countless successes and failures in system scalability. Today I want to share practical experience in web framework scalability design based on real project experience. 💡 Core Challenges of Scalability During the system architecture evolution process, we face several core challenges: 🏗️ Ar</description>
+      <guid isPermaLink="false">https://dev.to/member_8659c28a/scalabilityarchitecturedesign20260104055124-3o07</guid>
+      <pubDate>Sun, 04 Jan 2026 05:51:27 +0000</pubDate>
     </item>
     <item>
-      <title>IMMUNE: Building an EDR/XDR/MDR Security Platform in Pure C — Solo Dev Progress</title>
-      <link>https://dev.to/dmitry_labintcev_9e611e04/immune-building-an-edrxdrmdr-security-platform-in-pure-c-solo-dev-progress-49o4</link>
-      <description>IMMUNE: Open Source EDR/XDR/MDR — Progress Report I'm building SENTINEL IMMUNE — an open source security platform in Pure C. This is a solo project. Progress is steady, not fast. But I'm sharing what actually works today. What This Is IMMUNE is a complete security stack: EDR (Endpoint Detection) — Kernel module on each host (6 syscall hooks) XDR (Extended Detection) — Cross-agent correlation in Hive (24 modules) MDR (Managed Detection) — Automated playbook responses All open source. All Pure C.</description>
-      <guid isPermaLink="false">https://dev.to/dmitry_labintcev_9e611e04/immune-building-an-edrxdrmdr-security-platform-in-pure-c-solo-dev-progress-49o4</guid>
-      <pubDate>Sat, 03 Jan 2026 05:58:18 +0000</pubDate>
+      <title>What 963 Commits Taught Me About the 'Vibe to Prod' Gap</title>
+      <link>https://dev.to/arsene_muyenlee_b6090d8d/what-963-commits-taught-me-about-the-vibe-to-prod-gap-9ca</link>
+      <description>Why AI-assisted coding is 10% of shipping software I built the core of a media authenticity app in a weekend. Firebase Auth. Cryptographic signing. Camera integration. Claude helped me write Go handlers. Cursor generated React components. The demo was chef's kiss. I felt like a god. Then I tried to deploy it. That's when I discovered what 963 commits of pain looks like. The 90% Nobody Talks About Here's what tutorials show you: Idea → Code → "It works!" Here's what production actually requires:</description>
+      <guid isPermaLink="false">https://dev.to/arsene_muyenlee_b6090d8d/what-963-commits-taught-me-about-the-vibe-to-prod-gap-9ca</guid>
+      <pubDate>Sun, 04 Jan 2026 05:53:28 +0000</pubDate>
     </item>
     <item>
-      <title>Growth Strategy &amp;amp; Scaling: Key Trends &amp;amp; Insights</title>
-      <link>https://dev.to/hkj13/growth-strategy-scaling-key-trends-insights-lfm</link>
-      <description>Growth Strategy &amp;amp; Scaling: Key Trends &amp;amp; Insights Overview The world of startups is fiercely competitive. To navigate this landscape, growth hacking strategies have become a linchpin for early-stage startups aiming to scale quickly. With resources often limited, these inventive, often unconventional strategies offer a pathway to rapid growth. Key Trends Growth Hacking Evolution: As highlighted by Forbes, startups have effectively leveraged growth hacking to position themselves in competitive mark</description>
-      <guid isPermaLink="false">https://dev.to/hkj13/growth-strategy-scaling-key-trends-insights-lfm</guid>
-      <pubDate>Sat, 03 Jan 2026 06:00:53 +0000</pubDate>
+      <title>Why "Seamless" AI is a Design Failure: The Judgment Transparency Principle (JTP)</title>
+      <link>https://dev.to/daiki_kadowaki_jtp/why-seamless-ai-is-a-design-failure-the-judgment-transparency-principle-jtp-k54</link>
+      <description>The "Seamless" Problem As AI becomes more integrated, we’re obsessed with making it "seamless." But is total seamlessness always a good thing? When AI hides the boundary between human intent and machine inference, it creates a "Silent Delegation" trap. We lose the ability to see where our agency ends and the AI begins. A New Design Philosophy: JTP I want to propose a new standard for AI interaction: the Judgment Transparency Principle (JTP). Instead of hiding the "seams," we should make the dele</description>
+      <guid isPermaLink="false">https://dev.to/daiki_kadowaki_jtp/why-seamless-ai-is-a-design-failure-the-judgment-transparency-principle-jtp-k54</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhk0q5dgc8yadmdoy6goe.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 04 Jan 2026 05:59:11 +0000</pubDate>
     </item>
     <item>
-      <title>Why Figma SVGs Break Your React App (and How to Fix It Locally)</title>
-      <link>https://dev.to/hypertools/why-figma-svgs-break-your-react-app-and-how-to-fix-it-locally-3c63</link>
-      <description>We've all been there. You export a beautiful icon from Figma, paste it into your React project, and suddenly you have: Massive file sizes. Hard-to-debug ID collisions. Redundant mask-type properties and nested groups. Most online converters require you to upload your private design files to their servers. If you are working on a proprietary project, that's a security risk. The Solution: I built VectorGnome (https://vector.hyper-tools.online/tools/figma-to-react-svg), a 100% browser-native tool t</description>
-      <guid isPermaLink="false">https://dev.to/hypertools/why-figma-svgs-break-your-react-app-and-how-to-fix-it-locally-3c63</guid>
-      <pubDate>Sat, 03 Jan 2026 06:03:16 +0000</pubDate>
+      <title>Define the AWS Global Infrastructure</title>
+      <link>https://dev.to/aws-builders/define-the-aws-global-infrastructure-5eje</link>
+      <description>🌍Exam Guide: Cloud Practitioner Domain 3: Cloud Technology &amp;amp; Services 📘Task Statement 3.2 🎯What Is This Task Testing? You must be able to explain the building blocks of AWS global infrastructure and how they relate: Regions, Availability Zones (AZs), and Edge Locations How AWS infrastructure supports high availability When to use multiple AZs vs multiple Regions Benefits of edge locations (e.g., CloudFront, Global Accelerator) What AWS Local Zones and AWS Wavelength Zones are used for 1) 🧱 Core</description>
+      <guid isPermaLink="false">https://dev.to/aws-builders/define-the-aws-global-infrastructure-5eje</guid>
+      <pubDate>Sun, 04 Jan 2026 06:00:18 +0000</pubDate>
     </item>
     <item>
-      <title>The Shocking Audit That Changed Everything</title>
-      <link>https://dev.to/tracksimple/the-shocking-audit-that-changed-everything-3hpo</link>
-      <description>The Shocking Audit That Changed Everything Sarah stared at the spreadsheet in disbelief. As Marketing Operations Manager at a mid-sized SaaS company, she'd just completed a time audit of her team. The numbers didn't lie: 28 hours per week. That's how much her three-person team spent manually tracking competitors' pricing changes, feature updates, and marketing campaigns. "We thought we were being efficient," she told me later. "But the audit showed we were essentially dedicating one full-time em</description>
-      <guid isPermaLink="false">https://dev.to/tracksimple/the-shocking-audit-that-changed-everything-3hpo</guid>
-      <pubDate>Sat, 03 Jan 2026 06:05:27 +0000</pubDate>
+      <title>Fine-tuning &amp;amp; Model Optimization: Key Trends &amp;amp; Insights</title>
+      <link>https://dev.to/hkj13/fine-tuning-model-optimization-key-trends-insights-kh</link>
+      <description>Fine-tuning &amp;amp; Model Optimization: Key Trends &amp;amp; Insights Overview As the field of artificial intelligence (AI) and machine learning (ML) continues to evolve, the fine-tuning and optimization of large language models (LLMs) have become crucial for developers and data scientists. Techniques such as LoRA, QLoRA, and quantization are at the forefront of reducing computational and memory requirements while preserving or even enhancing model performance. Key Trends Quantized Low-Rank Adaptation (QLoRA)</description>
+      <guid isPermaLink="false">https://dev.to/hkj13/fine-tuning-model-optimization-key-trends-insights-kh</guid>
+      <pubDate>Sun, 04 Jan 2026 06:00:50 +0000</pubDate>
     </item>
     <item>
-      <title>Part 6 — Observability and Evaluation in GenAI Systems</title>
-      <link>https://dev.to/muzammiltalha/part-6-observability-and-evaluation-in-genai-systems-76g</link>
-      <description>You can’t debug what you can’t observe. In GenAI systems, observability is harder and more important. Why traditional metrics fall short Latency and error rates still matter. But they don’t tell you: Whether answers are correct Whether behavior drifted Whether users trust the output Correctness is qualitative, not binary. What needs to be observed Effective GenAI systems track: Prompt and retrieval versions Input-output pairs Model versions Token usage Failure modes This creates traceability acr</description>
-      <guid isPermaLink="false">https://dev.to/muzammiltalha/part-6-observability-and-evaluation-in-genai-systems-76g</guid>
-      <pubDate>Sat, 03 Jan 2026 06:15:00 +0000</pubDate>
+      <title>🔥_High_Concurrency_Framework_Choice_Tech_Decisions[20260104060344]</title>
+      <link>https://dev.to/member_6331818c/highconcurrencyframeworkchoicetechdecisions20260104060344-3l4d</link>
+      <description>As a senior engineer who has experienced countless production environment challenges, I deeply understand how important it is to choose the right technology stack in high-concurrency scenarios. Recently, I participated in a major e-commerce platform reconstruction project with ten million daily active users. This project made me rethink the performance of web frameworks in high-concurrency environments. Today I want to share a framework performance analysis based on real production data, which c</description>
+      <guid isPermaLink="false">https://dev.to/member_6331818c/highconcurrencyframeworkchoicetechdecisions20260104060344-3l4d</guid>
+      <pubDate>Sun, 04 Jan 2026 06:03:46 +0000</pubDate>
     </item>
     <item>
-      <title>Quick business lesson:</title>
-      <link>https://dev.to/armab_dev101/quick-business-lesson-4bo4</link>
-      <description>Revenue ≠ Profit If your business generates ₦1m and incurs $800k in expenses, your net profit is $200k. Many business owners are busy but still struggling financially because they don’t track their expenses effectively.</description>
-      <guid isPermaLink="false">https://dev.to/armab_dev101/quick-business-lesson-4bo4</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flmixweecg3r9c374xnsm.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 03 Jan 2026 06:22:41 +0000</pubDate>
+      <title>Is the World Ready for Another Programming Language in 2026, Now That AI Writes Code?</title>
+      <link>https://dev.to/james_d_befc420a49e6a2b5e/is-the-world-ready-for-another-programming-language-in-2026-now-that-ai-writes-code-2el8</link>
+      <description>I am coming up a new Language called Come ;) It’s 2026. Yes, AI writes code now. This is still happening. Come(C Object and Module Extensions) is a systems programming language inspired by C. It preserves C’s mental model while removing common pitfalls. No raw pointers in user code Explicit, hierarchical ownership via arenas Headered dynamic arrays/strings as first-class objects Static typing with local inference (var) Modules as the only compilation unit Minimal syntax drift from C The design c</description>
+      <guid isPermaLink="false">https://dev.to/james_d_befc420a49e6a2b5e/is-the-world-ready-for-another-programming-language-in-2026-now-that-ai-writes-code-2el8</guid>
+      <pubDate>Sun, 04 Jan 2026 06:07:36 +0000</pubDate>
     </item>
     <item>
-      <title>I Didn’t Need a New Routine — I Needed Fewer Invisible Demands</title>
-      <link>https://dev.to/jamesmiller25/i-didnt-need-a-new-routine-i-needed-fewer-invisible-demands-58ig</link>
-      <description>For a while, I kept thinking I needed a reset. Not a vacation. Not a major life change. Just a better routine. Something tighter. More intentional. Something that would make my days feel less heavy. But every time I tried to improve my routine, the heaviness stayed. What I didn’t see at first was how many invisible demands were living in my day. Not big ones. Not the kind you can point to on a calendar. These were quieter. Background tasks my mind kept running without permission. Remember to rep</description>
-      <guid isPermaLink="false">https://dev.to/jamesmiller25/i-didnt-need-a-new-routine-i-needed-fewer-invisible-demands-58ig</guid>
-      <pubDate>Sat, 03 Jan 2026 06:24:59 +0000</pubDate>
+      <title>ReliefLine</title>
+      <link>https://dev.to/ctrlvee/reliefline-4fch</link>
+      <description>What I Built ReliefLine is a disaster relief planning platform that replaces guesswork with data-driven precision. It bridges the gap between global alerts and local response in the Philippines by providing: Smart Relief Calculator: Instantly generates supply budgets (rice, water, family packs) based on official Department of Social Welfare and Development (DSWD) government standards and census data. Real-Time Monitoring: Aggregates live disaster feeds from global monitoring systems into a singl</description>
+      <guid isPermaLink="false">https://dev.to/ctrlvee/reliefline-4fch</guid>
+      <pubDate>Sun, 04 Jan 2026 06:09:20 +0000</pubDate>
     </item>
     <item>
-      <title>Master the Double Diamond Process: The 2026 Cheat Code That Turns Weeks of Ideation Into Hours of Real Progress</title>
-      <link>https://dev.to/tarun_chowdhry_9c697cbde1/master-the-double-diamond-process-the-2026-cheat-code-that-turns-weeks-of-ideation-into-hours-of-2e0</link>
-      <description>Einstein nailed why so many products flop: we rush to solutions before truly understanding the problem. Here's how to kill bad ideas or pivot them into gold in under two hours using AI. “If I had an hour to solve a problem I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.” — Albert Einstein Picture this: You're three weeks into validating a "game-changing" feature. You've run two workshops, filled four Miro boards, transcribed 12 customer calls, and built a</description>
-      <guid isPermaLink="false">https://dev.to/tarun_chowdhry_9c697cbde1/master-the-double-diamond-process-the-2026-cheat-code-that-turns-weeks-of-ideation-into-hours-of-2e0</guid>
-      <pubDate>Sat, 03 Jan 2026 06:27:39 +0000</pubDate>
+      <title>Integrate SDKs Easily: Monetize Your AI Conversations with Monetzly</title>
+      <link>https://dev.to/monetzly/integrate-sdks-easily-monetize-your-ai-conversations-with-monetzly-4hin</link>
+      <description>Traditional Ads Don’t Work in AI Conversations. Here’s What Does: Meet Monetzly. As developers, we’re witnessing an explosion of AI applications, each promising a unique solution to a multitude of problems. Yet, amid this innovation, one core challenge remains: monetization. Traditional advertising models often disrupt user experiences in AI conversations, leaving both developers and advertisers in a bind. Enter Monetzly—the first platform that not only allows developers to monetize their AI app</description>
+      <guid isPermaLink="false">https://dev.to/monetzly/integrate-sdks-easily-monetize-your-ai-conversations-with-monetzly-4hin</guid>
+      <pubDate>Sun, 04 Jan 2026 06:19:56 +0000</pubDate>
     </item>
     <item>
-      <title>LRU vs TinyLFU: Choosing the Right Cache Eviction Strategy 🚀</title>
-      <link>https://dev.to/akarshan/lru-vs-tinylfu-choosing-the-right-cache-eviction-strategy-56pd</link>
-      <description>When building high-performance applications, choosing the right cache eviction policy can make or break your system's performance. While both TinyLRU and TinyLFU aim to keep your hot data cached, they take fundamentally different approaches. Understanding when to use each can save you from performance disasters and wasted CPU cycles. The Fundamentals 📚 What is LRU? LRU (Least Recently Used) is one of the most intuitive cache eviction policies. The principle is simple: when the cache is full and</description>
-      <guid isPermaLink="false">https://dev.to/akarshan/lru-vs-tinylfu-choosing-the-right-cache-eviction-strategy-56pd</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7gsgdvckqy01yumbxgl1.png" length="0" type="image/png"/>
-      <pubDate>Sat, 03 Jan 2026 06:30:51 +0000</pubDate>
+      <title>collections Module Added to Standard Library Learning Path</title>
+      <link>https://dev.to/hejhdiss/collections-module-added-to-standard-library-learning-path-3g8n</link>
+      <description>I've just uploaded the collections module materials to my standardlib-datastruct repository. This one's a bit different from my previous workbooks. What's Inside The collections materials include 24 exercises covering high-performance container datatypes from Python's collections module: Collections Covered Counter - Count hashable objects and perform arithmetic operations defaultdict - Dictionary with default values for missing keys deque - Double-ended queue with fast appends/pops from both en</description>
+      <guid isPermaLink="false">https://dev.to/hejhdiss/collections-module-added-to-standard-library-learning-path-3g8n</guid>
+      <pubDate>Sun, 04 Jan 2026 06:20:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
