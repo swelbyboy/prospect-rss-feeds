@@ -8,37 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Jan 2026 06:38:43 +0000</lastBuildDate>
-    <item>
-      <title>美知名會計師事務所Sax坦承2024年網攻事件 外洩23萬人資料</title>
-      <link>https://www.ithome.com.tw/news/173128</link>
-      <description>新聞美國知名會計師事務所Sax上個月揭露公司系統遭駭，導致將近23萬人個資外洩，不過是將近17個月前的事。 Sax是美國頂尖會計師事務所，提供名人及企業顧問服務，年營收超過1億美元，員工超過400人。 根據Sax向美國緬因州政府呈交的文件，該公司於2024年8月7日獲得通知，系統環境有可疑活動。業者立即採取行動確保網路安全，並偕同第三方安全廠商展開調查。調查顯示，部份個人個資外洩。 該公司在2025年12月初完成徹底調查，並且於上月通知當局及受影響人士。SAX說明，外洩資料包含姓名、出生日期、社會安全碼、駕照或州身分證以及護照號碼。受影響人數達到228,876人。 Sax為受影響個人提供免費的信用資料外洩、暗網監控、信用免責保、資料回復及財物損失協助服務。 Sax並未說明這些資料外洩個人是否為客戶。此外，哪些系統遭非法存取也不清楚。 SecurityWeek、Cybernews等媒體批評，在事件發生後16、17個月才發出用戶通知，已經超過一般企業資料外洩事件的延遲期間。一般情形下，資料外洩的企業在幾周到數月之間就會發出通知。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173128</guid>
-      <pubDate>Fri, 02 Jan 2026 01:33:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>臺灣企業GenAI進化之路</title>
-      <link>https://www.ithome.com.tw/article/173129</link>
-      <description>專題故事從256位企業IT主管對GenAI採用的第一手經驗，可以歸納出不同AI成熟度的企業，如何攻上這一條熱門又陡峭的GenAI之路。起步者還在思考為何要做 ，中途者忙於各種PoC驗證 ，但有少數登頂企業，開始積極創造規模效益。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/article/173129</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1267-feng_mian_gu_shi_-p1-dou_zi_-open-960x420_kao_bei_0.jpg?itok=HsAwxhQM" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 02 Jan 2026 01:53:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>IBM修補可導致駭客存取系統的API重大漏洞</title>
-      <link>https://www.ithome.com.tw/news/173130</link>
-      <description>新聞IBM上周發出安全公告，警告API元件存在一項可能讓駭客存取應用的重大資安漏洞，呼籲用戶儘速安裝更新。 編號CVE-2025-13915的漏洞存在API Connect，可讓遠端攻擊者繞過驗證機制存取應用。IBM API Connect為企業級API管理（API Management）平臺，提供API生命周期管理、負責驗證把關的API閘道及開發者入口網站（Developer Portal）。 這項漏洞CVSS風險值達9.8。在類型上，被列為「藉由主要弱點繞過身分驗證」。根據漏洞資料庫，這是指驗證演算法沒有問題，但實作可能因為別的弱點，導致驗證機制被繞過。 受到影響的API Connect版本包括V10.0.8.0-V10.0.8.5和V10.0.11.0。IBM已釋出iFix版本（即interim fix）修補漏洞。對於無法即時安裝iFix的用戶，IBM建議暫時緩解作法，停用開發人員入口網站的自助註冊（self-service sign-up）功能，減少攻擊者利用此漏洞來註冊或濫用入口的機會。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173130</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0101-CVE-2025-13915-IBM.png" length="0" type="image/png"/>
-      <pubDate>Fri, 02 Jan 2026 02:03:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>中華電信完成內部憑證治理重整工作並取得第三方稽核，已申請重返Chrome信任清單</title>
-      <link>https://www.ithome.com.tw/news/173131</link>
-      <description>新聞中華電信趕在2025年最後一天，於12月31日宣布旗下的根憑證管理中心（CHT TrustRoot CA）已完成為期約半年的組織與制度重整，並通過國際WebTrust for Certification Authorities第三方獨立稽核，相關稽核報告已獲瀏覽器業者採認，並已於12月29日正式向Google Chrome申請加入根憑證預設信任清單。 中華電信先前因憑證管理不符要求，Google以基於憑證治理與合規考量，從 2025年7月31日起，停止Chrome預設信任中華電信所簽發的TLS網站新憑證。即從該日期之後新簽發的憑證，可能在Chrome瀏覽器中出現安全警示，對使用其憑證的政府機關及企業帶來衝擊。 因應此事件的衝擊，中華電信從2025年8月1日起已全面暫停簽發新的TLS憑證，並於期限前完成協助既有客戶進行憑證更新或轉換，以降低對客戶網站營運的影響。 此外，該公司也啟動內部CA團隊重整，重整其憑證管理中心的組織架構，並成立專責改善團隊，檢視管理流程、合規制度與治理機制。 在制度與技術面上，中華電信宣稱已導入多項憑證自動化與驗證工具，包括 PKIlint 與 zlint，以</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173131</guid>
-      <pubDate>Fri, 02 Jan 2026 02:56:26 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 05 Jan 2026 06:45:19 +0000</lastBuildDate>
     <item>
       <title>VS Code延伸套件蠕蟲GlassWorm鎖定macOS開發者而來，企圖散布木馬化的加密貨幣錢包</title>
       <link>https://www.ithome.com.tw/news/173132</link>
@@ -82,6 +52,36 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173138</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/images/0102-Cyber%20AI%20Profile-600-2.png" length="0" type="image/png"/>
       <pubDate>Fri, 02 Jan 2026 10:50:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fortinet防火牆軟體5年前漏洞還有上萬裝置未修補　臺灣逾700臺曝險</title>
+      <link>https://www.ithome.com.tw/news/173148</link>
+      <description>新聞網路調查顯示，Fortinet 5年前的SSL VPN漏洞，全球還有超過一萬臺裝置沒有修補漏洞，包括臺灣的700多臺。 2025年12月24日Fortinet警告，一個2020年7月修補的FortiOS資安漏洞CVE-2020-12812近日再現攻擊活動。該漏洞起於身分驗證機制不完整，攻擊者可更動使用者名稱的大小寫，繞過驗證程序，進而登入系統。美國國家漏洞資料庫（NVD）與網路安全暨基礎設施安全局（CISA）皆將這個弱點的嚴重性，認定為CVSS評分9.8的重大漏洞。Fortinet偵測到，近期在開啟LDAP的防火牆設備FortiGate上，有人再度利用該漏洞繞過雙因素驗證（2FA）存取裝置。 雖然Fortinet已在2020年7月釋出FortiOS 6.4.1、6.2.4和6.0.1修補CVE-2020-12812，但仍然有為數龐大的Fortinet裝置未安裝更新。根據非營利網路安全調查機構The Shadowserver的統計，截自2026年1月3日，網路上曝露於CVE-2020-12812濫用風險的Fortinet裝置還有一萬多臺。以所在國來看，其中美國還有1201臺居冠，臺灣</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173148</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0105-CVE-2020-12812-fortinet-shadowserver.png" length="0" type="image/png"/>
+      <pubDate>Mon, 05 Jan 2026 01:39:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>中國GPGPU新創壁仞上市首日大漲近76%</title>
+      <link>https://www.ithome.com.tw/news/173150</link>
+      <description>新聞在2019年於中國創立、專門開發GPGPU（通用繪圖處理器）的壁仞科技（Biren Technology），上周五（1/2）正式登上了香港交易所（HKEX），發行價為19.6港幣，但一開盤即衝上35.70港幣，最終以34.46港幣作收，上漲75.8%。 壁仞科技引用灼識諮詢的分析，指出全球AI運算晶片市場自2020年的66億美元，快速成長至2024年的1,190億美元，每年成長率達106%，且2024年到2029年的年複合成長率也有37.5%，達到2029年的5,857億美元。至於中國AI晶片市場規模則是從2020年的17億美元成長至2024年的301億美元，並估計到2029年可達到2,012億美元。 市場上的AI晶片可分成GPGPU、特殊應用IC（ASIC）與現場可程式化邏輯閘陣列（FPGA），其中，由於GPGPU屬於最通用的晶片，同時適用於各種任務及高度並行任務，亦有高度的可擴展性，成為壁仞創業時的首選。 根據該公司的招股說明書，壁仞主要開發GPGPU及其延伸的智慧運算解決方案，為AI工作負載提供基礎運算能力；並透過整合GPGPU硬體與BIRENSUPA軟體平臺，支援自雲端到邊</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173150</guid>
+      <pubDate>Mon, 05 Jan 2026 02:20:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>CARF上路，英國加密貨幣交易平臺須全面回報用戶資料</title>
+      <link>https://www.ithome.com.tw/news/173159</link>
+      <description>新聞英國自2026年1月1日起，正式導入由經濟合作暨發展組織（OECD）制定的加密資產申報框架（Crypto-Asset Reporting Framework，CARF），要求境內加密貨幣交易平臺應定期、自動回報所有用戶的帳戶與交易資料給稅務機關。這項制度被視為全球加密貨幣稅務治理的重要分水嶺，也象徵加密資產正式納入跨國稅務資訊交換體系。 CARF是一套由OECD制定的國際加密資產稅務申報標準，目的在於補足既有稅務資訊交換制度無法涵蓋加密貨幣的缺口。CARF要求加密資產服務供應商，包括加密貨幣交易平臺、託管與經紀業者，必須蒐集並定期向所在地稅務機關申報用戶的身分資料、帳戶資訊與交易紀錄，而非僅在個案調查時配合提供資料。迄今全球至少已有48個國家與司法管轄區承諾，在完成國內導入後，於2027年前正式展開國與國之間的自動資訊交換。 除了英國之外，歐盟的27個成員國也自今年1月1日起開始蒐集加密資產資料，這些導入CARF的國家或地區，預計自2027年起就會開始交換資訊，讓加密資產不再成為跨境逃稅的制度漏洞。 英國自2014年即要求加密貨幣交易必須依法繳稅，當年的英國稅務暨海關主管機關HM</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173159</guid>
+      <pubDate>Mon, 05 Jan 2026 05:01:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>TeamT5公布《2025年亞太地區APT威脅形勢報告》：臺灣處於APT威脅巨獸化和生態系化的核心</title>
+      <link>https://www.ithome.com.tw/news/173160</link>
+      <description>新聞在數位時代的無聲戰場上，一場足以撼動國本的戰爭正於螢幕後方激烈上演。當世界各國的目光仍聚焦地緣政治的實體衝突、飛彈部署與軍事演習時，網路空間的威脅早已演化至前所未有的層次。這場以電腦螢幕為戰場的戰爭沒有硝煙，卻悄然滲透並深刻影響現代社會的每一個角落。 根據臺灣情資公司TeamT5（杜浦數位安全）日前揭露的《2025年亞太地區進階持續性威脅（APT）威脅形勢報告》（APT Threat Landscape in APAC 2025），2025年亞太地區的APT威脅已呈現出「巨獸化」與「生態系化」的趨勢，臺灣正處於這場風暴的最核心。 從該份報告可以發現，2025年的網路安全威脅已經跨越傳統的技術騷擾，演變為特定國家驅動、具備高度專業分工且極度「生態系化」的全面奇襲。臺灣，正不幸地站立在這場全球數位風暴的最核心。 這份從2024年11月至2025年10月的深度調查報告，呈現的現實令人不寒而慄。TeamT5技術長李庭閣表示，過去一年中，該團隊就追蹤到高達510次攻擊行動，波及全球67個國家，反映出網路威脅的跨國界本質。 然而，在全球受駭地圖上，臺灣的受害情況顯得異常突兀且嚴重。報告指出，臺</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173160</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/2025%E5%B9%B4%E6%9C%80%E5%B8%B8%E8%A2%ABAPT%E6%94%BB%E6%93%8A%E7%9A%84%E5%9C%8B%E5%AE%B6.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 05 Jan 2026 05:42:30 +0000</pubDate>
     </item>
   </channel>
 </rss>
