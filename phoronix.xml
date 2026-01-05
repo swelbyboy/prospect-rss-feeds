@@ -8,56 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Jan 2026 06:36:17 +0000</lastBuildDate>
-    <item>
-      <title>New Linux Patches Allow More Easily Changing The Tux Kernel Boot Logo</title>
-      <link>https://www.phoronix.com/news/LInux-Kconfig-Tux-Boot-Logo</link>
-      <description>A new patch series that was posted this week allow for users to more easily replace the default kernel boot logo. While many of us are long accustomed to seeing the picture of Tux as the kernel boot logo, for those preferring to better customize your console boot experience these patches allow it to be easily manipulated via the kernel configuration "Kconfig" options...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/LInux-Kconfig-Tux-Boot-Logo</guid>
-      <pubDate>Fri, 02 Jan 2026 15:30:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux Addressing Out-Of-Memory Killer Inaccuracy On Large Core Count Systems</title>
-      <link>https://www.phoronix.com/news/Linux-Inaccuracy-OOM-High-CPUs</link>
-      <description>A patch is on the way to the Linux kernel and looks like it could be ready for the 6.20~7.0 kernel for addressing out-of-memory "OOM" killer inaccuracy behavior when dealing with large core count systems...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Inaccuracy-OOM-High-CPUs</guid>
-      <pubDate>Fri, 02 Jan 2026 17:50:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Aeryn OS Continuing To Focus On Tooling &amp;amp; Infrastructure In 2026</title>
-      <link>https://www.phoronix.com/news/Aeryn-OS-Ends-2025</link>
-      <description>The Aeryn OS Linux distribution formerly known as Serpent OS has published a 2025 retrospective to recap the project changes over the past year as well as a look ahead to 2026...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Aeryn-OS-Ends-2025</guid>
-      <pubDate>Sat, 03 Jan 2026 01:27:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>KDE Plasma 6.6 Fixes A Common Panel-Related Crash, Improves OpenBSD Support</title>
-      <link>https://www.phoronix.com/news/Plasma-6.6-Starts-2026</link>
-      <description>KDE developer Nate Graham is out with the first issue of This Week in Plasma for 2026. Last week was a warning that This Week in Plasma could become less frequent without new volunteers to help takeover. Nate Graham announced that John Veness has stepped up to help co-author these weekly KDE development posts...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-Starts-2026</guid>
-      <pubDate>Sat, 03 Jan 2026 11:13:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>RADV Driver Lands Another Big Improvement For Early AMD GCN Graphics Cards</title>
-      <link>https://www.phoronix.com/news/AMD-GFX6-GFX7-VM-Faults</link>
-      <description>Beyond Linux 6.19 switching old AMD GCN 1.0 and 1.1 GPUs to the AMDGPU kernel driver by default for better performance, RADV out-of-the-box, and more, there are still more improvements planned for these aging AMD graphics cards. Timur Kristóf of Valve's Linux graphics team has been leading the effort to enhance the old graphics card support and on Friday night merged a big improvement for the RADV Vulkan driver in Mesa 26.0...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-GFX6-GFX7-VM-Faults</guid>
-      <pubDate>Sat, 03 Jan 2026 11:28:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNOME Glycin Adds XPM/XBM Support To Address Fedora's Last Unsandboxed Image Loader</title>
-      <link>https://www.phoronix.com/news/GNOME-Glycin-Does-XPM-XBM</link>
-      <description>GNOME's Glycin project as the Rust-based sandboxed and extendable image loading library now supports XPM and XBM images. This is notable since those formats were the last unsandboxed image loading formats used on Fedora Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Glycin-Does-XPM-XBM</guid>
-      <pubDate>Sat, 03 Jan 2026 12:01:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stoolap 0.2 Released For Modern Embedded SQL Database In Rust</title>
-      <link>https://www.phoronix.com/news/Stoolap-0.2-Rust-Embedded-SQL</link>
-      <description>Stooplap v0.2 released today as this SQLite alternative for providing embedded SQL database needs while written in the Rust programming language. Stoolap supports both in-memory and persistent storage models...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Stoolap-0.2-Rust-Embedded-SQL</guid>
-      <pubDate>Sat, 03 Jan 2026 14:47:33 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 05 Jan 2026 06:43:09 +0000</lastBuildDate>
     <item>
       <title>Linux Audio Quirk Handling On The Way For Dell Panther Lake Laptops</title>
       <link>https://www.phoronix.com/news/Audio-Quirk-Dell-Panther-Lake</link>
@@ -78,6 +29,55 @@
       <description>In addition to the release of Stoolap 0.2 as a modern embedded SQL database written in Rust, Fjall 3.0 is available as another Rust-written database solution. Fjall is a log-structured, embedable key-value storage engine akin to RocksDB but with the benefit of being written in Rust. With Fjall 3.0 its performance is now very competitive...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Fjall-3.0-Released</guid>
       <pubDate>Sun, 04 Jan 2026 01:19:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>New AMD Linux Driver Patches Posted For Batch Userptr Allocation Support</title>
+      <link>https://www.phoronix.com/news/AMDKFD-Batch-Userptr-Allocation</link>
+      <description>A new feature being worked on recently for the AMDKFD kernel compute driver is batch user pointer "userptr" allocation support. With this new user-space API it will become possible to support allocating multiple non-contiguous CPU virtual address ranges that map to a single contiguous GPU virtual address...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMDKFD-Batch-Userptr-Allocation</guid>
+      <pubDate>Sun, 04 Jan 2026 11:23:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Patch Posted For Bringing Rock Band 4 PS4 / PS5 Guitar Support To Linux</title>
+      <link>https://www.phoronix.com/news/Rock-Band-4-PS4-PS5-Linux</link>
+      <description>Following Linux 6.19 adding support for CRKD guitar controllers, new patches posted to the Linux kernel mailing list are bringing some additional guitar controllers to Linux. This latest work is around enabling the Rock Band 4 guitars for the PlayStation 4 and PS5 consoles to work under Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Rock-Band-4-PS4-PS5-Linux</guid>
+      <pubDate>Sun, 04 Jan 2026 11:44:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux's Hung Task Detector Will Be Able To Be Reset For Easing System Administration</title>
+      <link>https://www.phoronix.com/news/Linux-Reset-Hung-Task-Count</link>
+      <description>Worked on back in 2024 for the Linux kernel was a built-in counter to keep track of the number of hung tasks since boot. That feature for keeping track of the number of hung tasks since boot was merged in Linux 6.13 and exposed via /proc/sys/kernel/hung_task_detect_count. For helping ease use around it, new code working its way to the kernel will allow resetting that "hung_task_detect_count" counter...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Reset-Hung-Task-Count</guid>
+      <pubDate>Sun, 04 Jan 2026 11:56:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>TrixiePup64 2601 Released For Debian 13 Powered Puppy Linux In Wayland &amp;amp; X11 Flavors</title>
+      <link>https://www.phoronix.com/news/TrixiePup64-2601-Released</link>
+      <description>For those with fond memories of Puppy Linux as a very lightweight Linux distribution, released last month was a new TrixiePup64 for continuing the Puppy Linux spirit atop Debian. The new TrixiePup64 is based on Debian 13 components while shipping in both X11 and Wayland flavors. Out now is TrixiePup64 2601 as the latest iteration of this lightweight Linux distribution...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/TrixiePup64-2601-Released</guid>
+      <pubDate>Sun, 04 Jan 2026 12:25:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Manjaro Linux 26.0 Rolling Out - Xfce Edition Recommended If Wanting To Use X11</title>
+      <link>https://www.phoronix.com/news/Manjaro-Linux-26.0</link>
+      <description>Package updates for the Arch Linux powered Manjaro Linux distribution have been pushed out for Manjaro 26.0 "Anh-Linh" while updated ISOs are expected to soon become available. The Manjaro 26.0 milestone brings KDE Plasma 6.5 and GNOME 49 but with both of those you may lose X11 session support so they are recommending their Xfce Edition for wanting wanting to continue using an X.Org desktop session...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Manjaro-Linux-26.0</guid>
+      <pubDate>Sun, 04 Jan 2026 16:06:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNU ddrescue 1.30 "Orders of Magnitude" Better In Recovery From Drives With A Dead Head</title>
+      <link>https://www.phoronix.com/news/GNU-ddrescue-1.30</link>
+      <description>GNU ddrescue as the free software data recovery tool from files or block devices is out today with a big feature release. The new GNU ddrescue 1.30 is improved by "orders of magnitude" for the automatic recovery from drives with a dead head...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-ddrescue-1.30</guid>
+      <pubDate>Sun, 04 Jan 2026 16:42:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19-rc4 Released Following A Quiet Holiday Week, 6.19-rc8 Already Planned</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-rc4</link>
+      <description>Following the holidays, Linux 6.19-rc4 was released today in working toward the Linux 6.19 stable kernel release in early February...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc4</guid>
+      <pubDate>Sun, 04 Jan 2026 22:56:19 +0000</pubDate>
     </item>
   </channel>
 </rss>

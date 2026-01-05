@@ -8,77 +8,81 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Jan 2026 06:36:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Jan 2026 06:42:59 +0000</lastBuildDate>
     <item>
-      <title>📈_Scalability_Architecture_Design[20260104055124]</title>
-      <link>https://dev.to/member_8659c28a/scalabilityarchitecturedesign20260104055124-3o07</link>
-      <description>As a veteran who has experienced multiple system architecture evolutions, I deeply understand the importance of scalability for web applications. From monolithic to microservices architecture, I have witnessed countless successes and failures in system scalability. Today I want to share practical experience in web framework scalability design based on real project experience. 💡 Core Challenges of Scalability During the system architecture evolution process, we face several core challenges: 🏗️ Ar</description>
-      <guid isPermaLink="false">https://dev.to/member_8659c28a/scalabilityarchitecturedesign20260104055124-3o07</guid>
-      <pubDate>Sun, 04 Jan 2026 05:51:27 +0000</pubDate>
+      <title>Automated Jira Ticket Creation for AWS EC2 Scheduled Events</title>
+      <link>https://dev.to/nithish_rodrigo/automated-jira-ticket-creation-for-aws-ec2-scheduled-events-1eom</link>
+      <description>This post describes the architecture and configuration required to automatically generate Jira Service Management (JSM) tickets in response to AWS Health notifications about scheduled EC2 instance events (e.g., reboots, instance retirements). The aim is to eliminate the manual process of reviewing and forwarding AWS notification emails to a service desk email address. With this automation, you can proactively track and resolve AWS‑initiated maintenance activities and also we can do this maintena</description>
+      <guid isPermaLink="false">https://dev.to/nithish_rodrigo/automated-jira-ticket-creation-for-aws-ec2-scheduled-events-1eom</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fl1h53dui1jt1ijx3rj0k.png" length="0" type="image/png"/>
+      <pubDate>Mon, 05 Jan 2026 06:12:07 +0000</pubDate>
     </item>
     <item>
-      <title>What 963 Commits Taught Me About the 'Vibe to Prod' Gap</title>
-      <link>https://dev.to/arsene_muyenlee_b6090d8d/what-963-commits-taught-me-about-the-vibe-to-prod-gap-9ca</link>
-      <description>Why AI-assisted coding is 10% of shipping software I built the core of a media authenticity app in a weekend. Firebase Auth. Cryptographic signing. Camera integration. Claude helped me write Go handlers. Cursor generated React components. The demo was chef's kiss. I felt like a god. Then I tried to deploy it. That's when I discovered what 963 commits of pain looks like. The 90% Nobody Talks About Here's what tutorials show you: Idea → Code → "It works!" Here's what production actually requires:</description>
-      <guid isPermaLink="false">https://dev.to/arsene_muyenlee_b6090d8d/what-963-commits-taught-me-about-the-vibe-to-prod-gap-9ca</guid>
-      <pubDate>Sun, 04 Jan 2026 05:53:28 +0000</pubDate>
+      <title>Building a Social Deduction Game with a State Machine (7 Games in 7 Weeks – Week 4)</title>
+      <link>https://dev.to/asaleg/building-a-social-deduction-game-with-a-state-machine-7-games-in-7-weeks-week-4-2jj8</link>
+      <description>I’m currently running a personal challenge: shipping 7 small multiplayer games in 7 weeks. Each week, I force myself to explore a completely different design problem. After a physics-heavy multiplayer golf game last week, I deliberately pivoted in the opposite direction. This week’s experiment: a social deduction game where almost nothing moves, but the tension comes from psychology, synchronization, and constraint. The result is Odd One Out. The Core Idea Odd One Out is a fast-paced social dedu</description>
+      <guid isPermaLink="false">https://dev.to/asaleg/building-a-social-deduction-game-with-a-state-machine-7-games-in-7-weeks-week-4-2jj8</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnihpvy1gd13ijnq9qdi5.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 05 Jan 2026 06:13:10 +0000</pubDate>
     </item>
     <item>
-      <title>Why "Seamless" AI is a Design Failure: The Judgment Transparency Principle (JTP)</title>
-      <link>https://dev.to/daiki_kadowaki_jtp/why-seamless-ai-is-a-design-failure-the-judgment-transparency-principle-jtp-k54</link>
-      <description>The "Seamless" Problem As AI becomes more integrated, we’re obsessed with making it "seamless." But is total seamlessness always a good thing? When AI hides the boundary between human intent and machine inference, it creates a "Silent Delegation" trap. We lose the ability to see where our agency ends and the AI begins. A New Design Philosophy: JTP I want to propose a new standard for AI interaction: the Judgment Transparency Principle (JTP). Instead of hiding the "seams," we should make the dele</description>
-      <guid isPermaLink="false">https://dev.to/daiki_kadowaki_jtp/why-seamless-ai-is-a-design-failure-the-judgment-transparency-principle-jtp-k54</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhk0q5dgc8yadmdoy6goe.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 04 Jan 2026 05:59:11 +0000</pubDate>
+      <title>Part 7 — What GenAI Engineering Actually Is</title>
+      <link>https://dev.to/muzammiltalha/part-7-what-genai-engineering-actually-is-4eck</link>
+      <description>GenAI engineering is often misunderstood. It’s not prompt writing. It’s not model tuning. It’s not demo building. It’s systems engineering under uncertainty. What carries over directly Experienced software engineers already know: How to design interfaces How to manage failure How to reason about tradeoffs How to operate systems at scale These skills transfer cleanly. What changes What changes is the component behavior. Models: Are probabilistic Have opaque internals Change underneath you Require</description>
+      <guid isPermaLink="false">https://dev.to/muzammiltalha/part-7-what-genai-engineering-actually-is-4eck</guid>
+      <pubDate>Mon, 05 Jan 2026 06:15:00 +0000</pubDate>
     </item>
     <item>
-      <title>Define the AWS Global Infrastructure</title>
-      <link>https://dev.to/aws-builders/define-the-aws-global-infrastructure-5eje</link>
-      <description>🌍Exam Guide: Cloud Practitioner Domain 3: Cloud Technology &amp;amp; Services 📘Task Statement 3.2 🎯What Is This Task Testing? You must be able to explain the building blocks of AWS global infrastructure and how they relate: Regions, Availability Zones (AZs), and Edge Locations How AWS infrastructure supports high availability When to use multiple AZs vs multiple Regions Benefits of edge locations (e.g., CloudFront, Global Accelerator) What AWS Local Zones and AWS Wavelength Zones are used for 1) 🧱 Core</description>
-      <guid isPermaLink="false">https://dev.to/aws-builders/define-the-aws-global-infrastructure-5eje</guid>
-      <pubDate>Sun, 04 Jan 2026 06:00:18 +0000</pubDate>
+      <title>I Built a Road Safety Snakes &amp;amp; Ladders Game in Class 11… and Then Let It Rot for 2 Years 💀🐍🎲</title>
+      <link>https://dev.to/swagking/i-built-a-road-safety-snakes-ladders-game-in-class-11-and-then-let-it-rot-for-2-years-f8n</link>
+      <description>Hey devs, Ishant here 👋 This one’s ancient. Back in Class 11, my teacher told me: “Build a road safety game.” So I built a Snakes &amp;amp; Ladders — Road Safety Edition in Python. Then the teacher never checked it. And the project just… sat on my PC for 2.0 years like a forgotten save file. 💀 Until today. 🎲 What is this? It’s classic Snakes &amp;amp; Ladders, but education-flavored: 🚦 Follow traffic rules → ladder 🚫 Break traffic rules → snake Instead of “oops bad luck”, the game straight-up tells you: Overspe</description>
+      <guid isPermaLink="false">https://dev.to/swagking/i-built-a-road-safety-snakes-ladders-game-in-class-11-and-then-let-it-rot-for-2-years-f8n</guid>
+      <pubDate>Mon, 05 Jan 2026 06:15:44 +0000</pubDate>
     </item>
     <item>
-      <title>Fine-tuning &amp;amp; Model Optimization: Key Trends &amp;amp; Insights</title>
-      <link>https://dev.to/hkj13/fine-tuning-model-optimization-key-trends-insights-kh</link>
-      <description>Fine-tuning &amp;amp; Model Optimization: Key Trends &amp;amp; Insights Overview As the field of artificial intelligence (AI) and machine learning (ML) continues to evolve, the fine-tuning and optimization of large language models (LLMs) have become crucial for developers and data scientists. Techniques such as LoRA, QLoRA, and quantization are at the forefront of reducing computational and memory requirements while preserving or even enhancing model performance. Key Trends Quantized Low-Rank Adaptation (QLoRA)</description>
-      <guid isPermaLink="false">https://dev.to/hkj13/fine-tuning-model-optimization-key-trends-insights-kh</guid>
-      <pubDate>Sun, 04 Jan 2026 06:00:50 +0000</pubDate>
+      <title>🧩My Spring Boot App Became Unmaintainable Until I Understood the Service Layer</title>
+      <link>https://dev.to/shashwathsh/my-spring-boot-app-became-unmaintainable-until-i-understood-the-service-layer-3lbl</link>
+      <description>When I started learning Spring Boot, my application worked. APIs responded. Data was saved. Everything looked fine. But after a few features, something felt off. Controllers were getting huge. Repositories were being called everywhere. Changing one rule broke multiple endpoints. That’s when I realized I completely misunderstood the Service Layer. 🧠 What is the Service Layer? The Service Layer is the brain of a Spring Boot application. It sits between: The Presentation Layer (Controllers) The Per</description>
+      <guid isPermaLink="false">https://dev.to/shashwathsh/my-spring-boot-app-became-unmaintainable-until-i-understood-the-service-layer-3lbl</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpy0e785vgulduz4gi7hg.png" length="0" type="image/png"/>
+      <pubDate>Mon, 05 Jan 2026 06:17:20 +0000</pubDate>
     </item>
     <item>
-      <title>🔥_High_Concurrency_Framework_Choice_Tech_Decisions[20260104060344]</title>
-      <link>https://dev.to/member_6331818c/highconcurrencyframeworkchoicetechdecisions20260104060344-3l4d</link>
-      <description>As a senior engineer who has experienced countless production environment challenges, I deeply understand how important it is to choose the right technology stack in high-concurrency scenarios. Recently, I participated in a major e-commerce platform reconstruction project with ten million daily active users. This project made me rethink the performance of web frameworks in high-concurrency environments. Today I want to share a framework performance analysis based on real production data, which c</description>
-      <guid isPermaLink="false">https://dev.to/member_6331818c/highconcurrencyframeworkchoicetechdecisions20260104060344-3l4d</guid>
-      <pubDate>Sun, 04 Jan 2026 06:03:46 +0000</pubDate>
+      <title>🧩 Beginner-Friendly Guide 'Maximum Matrix Sum' – LeetCode 1975 (C++, Python, JavaScript)</title>
+      <link>https://dev.to/om_shree_0709/beginner-friendly-guide-maximum-matrix-sum-leetcode-1975-c-python-javascript-5e39</link>
+      <description>At first glance, this problem looks like a complex puzzle where you have to flip signs across a grid. However, once you realize how negative signs can "move" across the matrix, it transforms into a clever observation about parity and absolute values. Problem Summary You're given: An integer matrix. An operation that allows you to multiply any two adjacent elements by -1. Your goal: Maximize the total sum of all elements in the matrix after performing the operation any number of times. Example In</description>
+      <guid isPermaLink="false">https://dev.to/om_shree_0709/beginner-friendly-guide-maximum-matrix-sum-leetcode-1975-c-python-javascript-5e39</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbruelxyyt8toxvqzxzew.png" length="0" type="image/png"/>
+      <pubDate>Mon, 05 Jan 2026 06:22:21 +0000</pubDate>
     </item>
     <item>
-      <title>Is the World Ready for Another Programming Language in 2026, Now That AI Writes Code?</title>
-      <link>https://dev.to/james_d_befc420a49e6a2b5e/is-the-world-ready-for-another-programming-language-in-2026-now-that-ai-writes-code-2el8</link>
-      <description>I am coming up a new Language called Come ;) It’s 2026. Yes, AI writes code now. This is still happening. Come(C Object and Module Extensions) is a systems programming language inspired by C. It preserves C’s mental model while removing common pitfalls. No raw pointers in user code Explicit, hierarchical ownership via arenas Headered dynamic arrays/strings as first-class objects Static typing with local inference (var) Modules as the only compilation unit Minimal syntax drift from C The design c</description>
-      <guid isPermaLink="false">https://dev.to/james_d_befc420a49e6a2b5e/is-the-world-ready-for-another-programming-language-in-2026-now-that-ai-writes-code-2el8</guid>
-      <pubDate>Sun, 04 Jan 2026 06:07:36 +0000</pubDate>
+      <title>Implementing Per-Seat Team Billing with Stripe</title>
+      <link>https://dev.to/anand_rathnas_d5b608cc3de/implementing-per-seat-team-billing-with-stripe-5fp5</link>
+      <description>Adding team plans to a SaaS is tricky. You need per-seat pricing, plan upgrades/downgrades, webhook handling, and graceful degradation when payments fail. Here's how I built it. The Pricing Model We offer both individual and team plans: Individual Plans: Free: $0/month - 30 URLs, 2 bio links, basic analytics Pro: $16/month - 500 URLs, 10 bio links, custom domains Pro Plus: $48/month - Unlimited everything, white-label, SSO Team Plans (per-seat): Team Pro: $10/seat/month - 1,000 URLs/seat, 10 tea</description>
+      <guid isPermaLink="false">https://dev.to/anand_rathnas_d5b608cc3de/implementing-per-seat-team-billing-with-stripe-5fp5</guid>
+      <pubDate>Mon, 05 Jan 2026 06:28:27 +0000</pubDate>
     </item>
     <item>
-      <title>ReliefLine</title>
-      <link>https://dev.to/ctrlvee/reliefline-4fch</link>
-      <description>What I Built ReliefLine is a disaster relief planning platform that replaces guesswork with data-driven precision. It bridges the gap between global alerts and local response in the Philippines by providing: Smart Relief Calculator: Instantly generates supply budgets (rice, water, family packs) based on official Department of Social Welfare and Development (DSWD) government standards and census data. Real-Time Monitoring: Aggregates live disaster feeds from global monitoring systems into a singl</description>
-      <guid isPermaLink="false">https://dev.to/ctrlvee/reliefline-4fch</guid>
-      <pubDate>Sun, 04 Jan 2026 06:09:20 +0000</pubDate>
+      <title>🐍 Python Tiny Tools: Practical Automation, Learning &amp;amp; 200+ Project Ideas</title>
+      <link>https://dev.to/matetechnologie/python-tiny-tools-practical-automation-learning-200-project-ideas-38f</link>
+      <description>If you’re learning Python—or already using it daily—you’ve probably asked yourself: “How can I build things that actually save time?” That question is exactly why I built Python Tiny Tools &amp;amp; Automation. 🔗 GitHub Repository: https://github.com/rogers-cyber/python-tiny-tools This project is a growing collection of small, reusable Python tools and 200+ curated project ideas, designed to help you automate real tasks, learn Python through practice, and stay productive. 🚀 What Is Python Tiny Tools? Py</description>
+      <guid isPermaLink="false">https://dev.to/matetechnologie/python-tiny-tools-practical-automation-learning-200-project-ideas-38f</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2l4ih33127ejx71by2me.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 05 Jan 2026 06:28:46 +0000</pubDate>
     </item>
     <item>
-      <title>Integrate SDKs Easily: Monetize Your AI Conversations with Monetzly</title>
-      <link>https://dev.to/monetzly/integrate-sdks-easily-monetize-your-ai-conversations-with-monetzly-4hin</link>
-      <description>Traditional Ads Don’t Work in AI Conversations. Here’s What Does: Meet Monetzly. As developers, we’re witnessing an explosion of AI applications, each promising a unique solution to a multitude of problems. Yet, amid this innovation, one core challenge remains: monetization. Traditional advertising models often disrupt user experiences in AI conversations, leaving both developers and advertisers in a bind. Enter Monetzly—the first platform that not only allows developers to monetize their AI app</description>
-      <guid isPermaLink="false">https://dev.to/monetzly/integrate-sdks-easily-monetize-your-ai-conversations-with-monetzly-4hin</guid>
-      <pubDate>Sun, 04 Jan 2026 06:19:56 +0000</pubDate>
+      <title>Converting HTML to Images in Java with Spire.Doc</title>
+      <link>https://dev.to/lu_liu_e3fc806354d9a952b7/converting-html-to-images-in-java-with-spiredoc-3l23</link>
+      <description>In today's digital landscape, the ability to effectively render and share web content is crucial. Java developers frequently encounter scenarios where converting HTML to images becomes a necessity—be it for generating reports, archiving web page snapshots, creating thumbnails, or embedding rich content in applications. While HTML offers flexibility, images provide a static, universally viewable format, perfect for consistent presentation across platforms. This tutorial will guide you through the</description>
+      <guid isPermaLink="false">https://dev.to/lu_liu_e3fc806354d9a952b7/converting-html-to-images-in-java-with-spiredoc-3l23</guid>
+      <pubDate>Mon, 05 Jan 2026 06:29:16 +0000</pubDate>
     </item>
     <item>
-      <title>collections Module Added to Standard Library Learning Path</title>
-      <link>https://dev.to/hejhdiss/collections-module-added-to-standard-library-learning-path-3g8n</link>
-      <description>I've just uploaded the collections module materials to my standardlib-datastruct repository. This one's a bit different from my previous workbooks. What's Inside The collections materials include 24 exercises covering high-performance container datatypes from Python's collections module: Collections Covered Counter - Count hashable objects and perform arithmetic operations defaultdict - Dictionary with default values for missing keys deque - Double-ended queue with fast appends/pops from both en</description>
-      <guid isPermaLink="false">https://dev.to/hejhdiss/collections-module-added-to-standard-library-learning-path-3g8n</guid>
-      <pubDate>Sun, 04 Jan 2026 06:20:47 +0000</pubDate>
+      <title>Building a Production-Ready AWS ALB + Auto Scaling Architecture Using Terraform</title>
+      <link>https://dev.to/manoop_madhu/building-a-production-ready-aws-alb-auto-scaling-architecture-using-terraform-3nji</link>
+      <description>As part of my hands-on learning in AWS an Terraform, I built a production-style web architecture that follows real-world cloud and DevOps best practices. Instead of exposing EC2 instances directly to the internet, this project uses an Application Load Balancer (ALB) in public subnets and Auto Scaling Group (ASG)–managed EC2 instances running in private subnets, with outbound internet access provided via a NAT Gateway. The entire infrastructure is provisioned using Terraform (Infrastructure as Co</description>
+      <guid isPermaLink="false">https://dev.to/manoop_madhu/building-a-production-ready-aws-alb-auto-scaling-architecture-using-terraform-3nji</guid>
+      <pubDate>Mon, 05 Jan 2026 06:34:04 +0000</pubDate>
     </item>
   </channel>
 </rss>
