@@ -8,81 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Jan 2026 06:42:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 06:39:11 +0000</lastBuildDate>
     <item>
-      <title>Automated Jira Ticket Creation for AWS EC2 Scheduled Events</title>
-      <link>https://dev.to/nithish_rodrigo/automated-jira-ticket-creation-for-aws-ec2-scheduled-events-1eom</link>
-      <description>This post describes the architecture and configuration required to automatically generate Jira Service Management (JSM) tickets in response to AWS Health notifications about scheduled EC2 instance events (e.g., reboots, instance retirements). The aim is to eliminate the manual process of reviewing and forwarding AWS notification emails to a service desk email address. With this automation, you can proactively track and resolve AWS‑initiated maintenance activities and also we can do this maintena</description>
-      <guid isPermaLink="false">https://dev.to/nithish_rodrigo/automated-jira-ticket-creation-for-aws-ec2-scheduled-events-1eom</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fl1h53dui1jt1ijx3rj0k.png" length="0" type="image/png"/>
-      <pubDate>Mon, 05 Jan 2026 06:12:07 +0000</pubDate>
+      <title>Building a Fail-Closed Investment Risk Gate with Yuer DSL</title>
+      <link>https://dev.to/yuer/building-a-fail-closed-investment-risk-gate-with-yuer-dsl-3abc</link>
+      <description>Why This Is an Eligibility Check, Not an AI Decision Model This article documents a concrete engineering pattern we use in EDCA OS / Yuer DSL testing: a fail-closed risk eligibility gate for high-responsibility investment workflows. It does not generate investment decisions. It does not provide recommendations. It exists solely to determine whether evaluation is allowed to proceed. 1. Problem Statement (Engineering, Not Finance) Most AI systems fail in investment contexts before any model runs.</description>
+      <guid isPermaLink="false">https://dev.to/yuer/building-a-fail-closed-investment-risk-gate-with-yuer-dsl-3abc</guid>
+      <pubDate>Tue, 06 Jan 2026 05:58:23 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Social Deduction Game with a State Machine (7 Games in 7 Weeks – Week 4)</title>
-      <link>https://dev.to/asaleg/building-a-social-deduction-game-with-a-state-machine-7-games-in-7-weeks-week-4-2jj8</link>
-      <description>I’m currently running a personal challenge: shipping 7 small multiplayer games in 7 weeks. Each week, I force myself to explore a completely different design problem. After a physics-heavy multiplayer golf game last week, I deliberately pivoted in the opposite direction. This week’s experiment: a social deduction game where almost nothing moves, but the tension comes from psychology, synchronization, and constraint. The result is Odd One Out. The Core Idea Odd One Out is a fast-paced social dedu</description>
-      <guid isPermaLink="false">https://dev.to/asaleg/building-a-social-deduction-game-with-a-state-machine-7-games-in-7-weeks-week-4-2jj8</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnihpvy1gd13ijnq9qdi5.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 05 Jan 2026 06:13:10 +0000</pubDate>
+      <title>🚀 Fixing One of the Most Annoying React Native Dev Problems: Localhost, Emulator Networking, and API URLs</title>
+      <link>https://dev.to/shahnoorgit/fixing-one-of-the-most-annoying-react-native-dev-problems-localhost-emulator-networking-and-27jj</link>
+      <description>If you’ve built a React Native or Expo app that talks to a backend running on your local machine, you’ve probably hit this problem: localhost works on iOS simulator 10.0.2.2 works on Android emulator nothing works on a real device teammates use staging or remote APIs instead And suddenly you’re debugging: network routing emulator networking .env file switching platform-specific base URLs …instead of debugging your actual app. This post explains why this happens, what’s really going on under the</description>
+      <guid isPermaLink="false">https://dev.to/shahnoorgit/fixing-one-of-the-most-annoying-react-native-dev-problems-localhost-emulator-networking-and-27jj</guid>
+      <pubDate>Tue, 06 Jan 2026 06:01:05 +0000</pubDate>
     </item>
     <item>
-      <title>Part 7 — What GenAI Engineering Actually Is</title>
-      <link>https://dev.to/muzammiltalha/part-7-what-genai-engineering-actually-is-4eck</link>
-      <description>GenAI engineering is often misunderstood. It’s not prompt writing. It’s not model tuning. It’s not demo building. It’s systems engineering under uncertainty. What carries over directly Experienced software engineers already know: How to design interfaces How to manage failure How to reason about tradeoffs How to operate systems at scale These skills transfer cleanly. What changes What changes is the component behavior. Models: Are probabilistic Have opaque internals Change underneath you Require</description>
-      <guid isPermaLink="false">https://dev.to/muzammiltalha/part-7-what-genai-engineering-actually-is-4eck</guid>
-      <pubDate>Mon, 05 Jan 2026 06:15:00 +0000</pubDate>
+      <title>🚀 AWS 126: Instant Web Servers - Automating Nginx with User Data</title>
+      <link>https://dev.to/hritikraj8804/aws-126-instant-web-servers-automating-nginx-with-user-data-5fd7</link>
+      <description>Hey Cloud Builders 👋 Welcome to Day 26 of the #100DaysOfCloud Challenge! Today, we are assisting the Nautilus Development Team with a critical request: launching a web server that is fully configured and live from the very first second. We’ll be using EC2 User Data to bootstrap an Ubuntu instance into a functional Nginx web server. This task is part of my hands-on practice on the KodeKloud Engineer platform, which I highly recommend for anyone looking to master real-world DevOps scenarios. 🎯 Obj</description>
+      <guid isPermaLink="false">https://dev.to/hritikraj8804/aws-126-instant-web-servers-automating-nginx-with-user-data-5fd7</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6ylq1osxc7hfgf60y4nk.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 06 Jan 2026 06:03:49 +0000</pubDate>
     </item>
     <item>
-      <title>I Built a Road Safety Snakes &amp;amp; Ladders Game in Class 11… and Then Let It Rot for 2 Years 💀🐍🎲</title>
-      <link>https://dev.to/swagking/i-built-a-road-safety-snakes-ladders-game-in-class-11-and-then-let-it-rot-for-2-years-f8n</link>
-      <description>Hey devs, Ishant here 👋 This one’s ancient. Back in Class 11, my teacher told me: “Build a road safety game.” So I built a Snakes &amp;amp; Ladders — Road Safety Edition in Python. Then the teacher never checked it. And the project just… sat on my PC for 2.0 years like a forgotten save file. 💀 Until today. 🎲 What is this? It’s classic Snakes &amp;amp; Ladders, but education-flavored: 🚦 Follow traffic rules → ladder 🚫 Break traffic rules → snake Instead of “oops bad luck”, the game straight-up tells you: Overspe</description>
-      <guid isPermaLink="false">https://dev.to/swagking/i-built-a-road-safety-snakes-ladders-game-in-class-11-and-then-let-it-rot-for-2-years-f8n</guid>
-      <pubDate>Mon, 05 Jan 2026 06:15:44 +0000</pubDate>
+      <title>Problem 8: Count Vowels</title>
+      <link>https://dev.to/highcenburg/problem-8-count-vowels-p7l</link>
+      <description>Hey everyone! 👋 Today, we're tackling a string manipulation problem: Counting Vowels. The Problem The goal is to write a function that counts the number of vowels in a given string. We need to consider both lowercase and uppercase vowels ('a', 'e', 'i', 'o', 'u'). Example: count_vowels("hello world") should return 3 count_vowels("AEIOU") should return 5 The Solution Here is the Python implementation: def count_vowels(s): """ Counts the number of vowels in a string. """ vowels = {'a', 'e', 'i', '</description>
+      <guid isPermaLink="false">https://dev.to/highcenburg/problem-8-count-vowels-p7l</guid>
+      <pubDate>Tue, 06 Jan 2026 06:05:01 +0000</pubDate>
     </item>
     <item>
-      <title>🧩My Spring Boot App Became Unmaintainable Until I Understood the Service Layer</title>
-      <link>https://dev.to/shashwathsh/my-spring-boot-app-became-unmaintainable-until-i-understood-the-service-layer-3lbl</link>
-      <description>When I started learning Spring Boot, my application worked. APIs responded. Data was saved. Everything looked fine. But after a few features, something felt off. Controllers were getting huge. Repositories were being called everywhere. Changing one rule broke multiple endpoints. That’s when I realized I completely misunderstood the Service Layer. 🧠 What is the Service Layer? The Service Layer is the brain of a Spring Boot application. It sits between: The Presentation Layer (Controllers) The Per</description>
-      <guid isPermaLink="false">https://dev.to/shashwathsh/my-spring-boot-app-became-unmaintainable-until-i-understood-the-service-layer-3lbl</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpy0e785vgulduz4gi7hg.png" length="0" type="image/png"/>
-      <pubDate>Mon, 05 Jan 2026 06:17:20 +0000</pubDate>
+      <title>ClovaLink — Enterprise File Storage without the price tag</title>
+      <link>https://dev.to/dotdon/clovalink-enterprise-file-storage-without-the-price-tag-40gk</link>
+      <description>Most storage platforms feel great until the bill shows up. Seats, bandwidth charges, and “enterprise tiers” eat your wallet. ClovaLink is an open-source, Rust-based, multi-tenant file system that runs self-hosted. It gives full data-residency control, works with S3-compatible storage, and has been shown to scale to ~10,000 users on a low-cost VPS with stable performance. The architecture focuses on tenant isolation and lightweight background workers, so features stay intact without the upsell of</description>
+      <guid isPermaLink="false">https://dev.to/dotdon/clovalink-enterprise-file-storage-without-the-price-tag-40gk</guid>
+      <pubDate>Tue, 06 Jan 2026 06:06:52 +0000</pubDate>
     </item>
     <item>
-      <title>🧩 Beginner-Friendly Guide 'Maximum Matrix Sum' – LeetCode 1975 (C++, Python, JavaScript)</title>
-      <link>https://dev.to/om_shree_0709/beginner-friendly-guide-maximum-matrix-sum-leetcode-1975-c-python-javascript-5e39</link>
-      <description>At first glance, this problem looks like a complex puzzle where you have to flip signs across a grid. However, once you realize how negative signs can "move" across the matrix, it transforms into a clever observation about parity and absolute values. Problem Summary You're given: An integer matrix. An operation that allows you to multiply any two adjacent elements by -1. Your goal: Maximize the total sum of all elements in the matrix after performing the operation any number of times. Example In</description>
-      <guid isPermaLink="false">https://dev.to/om_shree_0709/beginner-friendly-guide-maximum-matrix-sum-leetcode-1975-c-python-javascript-5e39</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbruelxyyt8toxvqzxzew.png" length="0" type="image/png"/>
-      <pubDate>Mon, 05 Jan 2026 06:22:21 +0000</pubDate>
+      <title>Why Traditional DevOps Stops Scaling</title>
+      <link>https://dev.to/sreekanth_kuruba_91721e5d/why-traditional-devops-stops-scaling-1im</link>
+      <description>Traditional DevOps works well… until the organization grows. At small scale, a central DevOps team deploying, fixing, and firefighting everything feels efficient. At large scale, it becomes the bottleneck. And not because DevOps is bad. Because humans don’t scale the same way systems do. 🚧 Why Traditional DevOps Stops Scaling 1. People become the bottleneck As companies grow, everyone needs DevOps help. Deployments. Pipelines. Terraform. Kubernetes. Senior DevOps engineers are expensive and hard</description>
+      <guid isPermaLink="false">https://dev.to/sreekanth_kuruba_91721e5d/why-traditional-devops-stops-scaling-1im</guid>
+      <pubDate>Tue, 06 Jan 2026 06:06:56 +0000</pubDate>
     </item>
     <item>
-      <title>Implementing Per-Seat Team Billing with Stripe</title>
-      <link>https://dev.to/anand_rathnas_d5b608cc3de/implementing-per-seat-team-billing-with-stripe-5fp5</link>
-      <description>Adding team plans to a SaaS is tricky. You need per-seat pricing, plan upgrades/downgrades, webhook handling, and graceful degradation when payments fail. Here's how I built it. The Pricing Model We offer both individual and team plans: Individual Plans: Free: $0/month - 30 URLs, 2 bio links, basic analytics Pro: $16/month - 500 URLs, 10 bio links, custom domains Pro Plus: $48/month - Unlimited everything, white-label, SSO Team Plans (per-seat): Team Pro: $10/seat/month - 1,000 URLs/seat, 10 tea</description>
-      <guid isPermaLink="false">https://dev.to/anand_rathnas_d5b608cc3de/implementing-per-seat-team-billing-with-stripe-5fp5</guid>
-      <pubDate>Mon, 05 Jan 2026 06:28:27 +0000</pubDate>
+      <title>Unveiling Symfony 7.4: A New Era for Media Validation and DX</title>
+      <link>https://dev.to/mattleads/unveiling-symfony-74-a-new-era-for-media-validation-and-dx-4459</link>
+      <description>The release of Symfony 7.4 in November 2025 marks another significant milestone in the evolution of the PHP ecosystem. Continuing its bi-annual release cycle, Symfony 7.4 brings a polished set of tools designed to streamline modern web development, enhance type safety and improve the developer experience (DX). While the community buzzes about the upcoming Symfony 8, this version introduces critical features that solve immediate problems for developers — most notably, the long-awaited Video const</description>
+      <guid isPermaLink="false">https://dev.to/mattleads/unveiling-symfony-74-a-new-era-for-media-validation-and-dx-4459</guid>
+      <pubDate>Tue, 06 Jan 2026 06:08:23 +0000</pubDate>
     </item>
     <item>
-      <title>🐍 Python Tiny Tools: Practical Automation, Learning &amp;amp; 200+ Project Ideas</title>
-      <link>https://dev.to/matetechnologie/python-tiny-tools-practical-automation-learning-200-project-ideas-38f</link>
-      <description>If you’re learning Python—or already using it daily—you’ve probably asked yourself: “How can I build things that actually save time?” That question is exactly why I built Python Tiny Tools &amp;amp; Automation. 🔗 GitHub Repository: https://github.com/rogers-cyber/python-tiny-tools This project is a growing collection of small, reusable Python tools and 200+ curated project ideas, designed to help you automate real tasks, learn Python through practice, and stay productive. 🚀 What Is Python Tiny Tools? Py</description>
-      <guid isPermaLink="false">https://dev.to/matetechnologie/python-tiny-tools-practical-automation-learning-200-project-ideas-38f</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2l4ih33127ejx71by2me.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 05 Jan 2026 06:28:46 +0000</pubDate>
+      <title>2026 Web Dev Trends That Actually Matter</title>
+      <link>https://dev.to/isocyanideisgood/2026-web-dev-trends-that-actually-matter-5520</link>
+      <description>2026 Web Dev Trends That Actually Matter (With Trending Tech You Should Know) Web development in 2026 isn’t just about new frameworks or flashy tools. It’s about real shifts that change how products are built, delivered, and experienced — driven by performance, AI, modern architectures, and new runtimes. Below are the trends that truly matter, plus the hottest tech powering them. 1️⃣ AI Isn’t Optional — It’s Part of the Dev Stack In 2026, AI has gone from “coding assistant” to a core part of the</description>
+      <guid isPermaLink="false">https://dev.to/isocyanideisgood/2026-web-dev-trends-that-actually-matter-5520</guid>
+      <pubDate>Tue, 06 Jan 2026 06:13:32 +0000</pubDate>
     </item>
     <item>
-      <title>Converting HTML to Images in Java with Spire.Doc</title>
-      <link>https://dev.to/lu_liu_e3fc806354d9a952b7/converting-html-to-images-in-java-with-spiredoc-3l23</link>
-      <description>In today's digital landscape, the ability to effectively render and share web content is crucial. Java developers frequently encounter scenarios where converting HTML to images becomes a necessity—be it for generating reports, archiving web page snapshots, creating thumbnails, or embedding rich content in applications. While HTML offers flexibility, images provide a static, universally viewable format, perfect for consistent presentation across platforms. This tutorial will guide you through the</description>
-      <guid isPermaLink="false">https://dev.to/lu_liu_e3fc806354d9a952b7/converting-html-to-images-in-java-with-spiredoc-3l23</guid>
-      <pubDate>Mon, 05 Jan 2026 06:29:16 +0000</pubDate>
+      <title>How to Evaluate ML Models Step by Step</title>
+      <link>https://dev.to/codeneuron/how-to-evaluate-ml-models-step-by-step-66o</link>
+      <description>When you're starting out in machine learning, the math and metrics can feel scary — but don’t worry! This guide explains everything using simple analogies, intuitive examples, and your formula images included exactly as required. 🚀 Why Do We Evaluate Models? When you train a machine learning model, it’s like teaching a kid how to identify something — for example, ripe vs unripe fruits. But how do you know if the kid (or model) actually learned well? Evaluation metrics answer: ✅ Is the model maki</description>
+      <guid isPermaLink="false">https://dev.to/codeneuron/how-to-evaluate-ml-models-step-by-step-66o</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnzllgo5dvgvumhod4m49.png" length="0" type="image/png"/>
+      <pubDate>Tue, 06 Jan 2026 06:26:49 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Production-Ready AWS ALB + Auto Scaling Architecture Using Terraform</title>
-      <link>https://dev.to/manoop_madhu/building-a-production-ready-aws-alb-auto-scaling-architecture-using-terraform-3nji</link>
-      <description>As part of my hands-on learning in AWS an Terraform, I built a production-style web architecture that follows real-world cloud and DevOps best practices. Instead of exposing EC2 instances directly to the internet, this project uses an Application Load Balancer (ALB) in public subnets and Auto Scaling Group (ASG)–managed EC2 instances running in private subnets, with outbound internet access provided via a NAT Gateway. The entire infrastructure is provisioned using Terraform (Infrastructure as Co</description>
-      <guid isPermaLink="false">https://dev.to/manoop_madhu/building-a-production-ready-aws-alb-auto-scaling-architecture-using-terraform-3nji</guid>
-      <pubDate>Mon, 05 Jan 2026 06:34:04 +0000</pubDate>
+      <title>10 Cool CodePen Demos (December 2025)</title>
+      <link>https://dev.to/alvaromontoro/10-cool-codepen-demos-december-2025-213g</link>
+      <description>3D animated teardrop image gallery What Ana Tudor can create with CSS using math functions is astonishing. This gallery is just one example of it... using parametric equations and with so little code! Mind-blowing. Connected Circles with Anchor Positioning Temani Afif is another developer who takes CSS to the limit (and beyond). Combining anchor positioning, attr(), container queries, shape(), trigonometric functions, and other modern features, Temani creates something that is almost unthinkable</description>
+      <guid isPermaLink="false">https://dev.to/alvaromontoro/10-cool-codepen-demos-december-2025-213g</guid>
+      <pubDate>Tue, 06 Jan 2026 06:33:19 +0000</pubDate>
     </item>
   </channel>
 </rss>
