@@ -8,80 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Jan 2026 06:45:19 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 06:41:45 +0000</lastBuildDate>
     <item>
-      <title>VS Code延伸套件蠕蟲GlassWorm鎖定macOS開發者而來，企圖散布木馬化的加密貨幣錢包</title>
-      <link>https://www.ithome.com.tw/news/173132</link>
-      <description>新聞鎖定整合式開發環境（IDE）工具Visual Studio Code（VS Code）用戶的蠕蟲程式GlassWorm，約從10月下旬出現首波攻擊，截至11月底已有3波活動，事隔一個月，這些駭客再度活動，而且鎖定的目標也出現變化。 資安公司Koi Security指出，具有自我傳播能力的蠕蟲GlassWorm近期出現第四波攻擊。這次活動展現了駭客顯著的技術演進，首先，攻擊的作業系統目標從Windows全面轉向macOS，相關惡意延伸套件pro-svelte-extension、vsce-prettier-pro，以及full-access-catppuccin-pro-extension，迄今已被下載約5萬次；再者，是採用專門鎖定Ledger與Trezor等硬體錢包應用程式的木馬化技術。 該公司提及，駭客的攻擊核心機制與過往活動相同，GlassWorm都是從區塊鏈平臺Solana取得C2資訊，執行來自C2的指令，不過，這次駭客將有效酬載嵌入經過編譯的JavaScript指令碼，並使用AES-256-CBC演算法進行加密處理。值得留意的是，他們過往使用的特殊手法並未在這次活動出現，例</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173132</guid>
-      <pubDate>Fri, 02 Jan 2026 03:33:18 +0000</pubDate>
+      <title>PS5 BootROM金鑰疑外流，既有主機難靠更新根除風險</title>
+      <link>https://www.ithome.com.tw/news/173161</link>
+      <description>新聞跨年期間，開發者社群開始流傳PS5早期開機流程相關的金鑰材料疑似外流。PS5 Developer Wiki的Keys頁面已新增PS5 ROM Keys區塊，並列出ROM金鑰與多組金鑰種子（Keyseed）等資料，這些內容目前可在公開頁面直接檢視。 不過，金鑰資料被公開不等於已出現可直接利用的越獄成果，後續仍需要研究者在可控環境下，完成更多交叉驗證與鏈結分析。 BootROM是主機晶片內建的唯讀記憶體區，內含開機後最先執行的啟動程式碼，用來建立啟動信任鏈並驗證下一階段元件。當被公開的資料確實屬於BootROM階段會用到的金鑰或其衍生材料，可能降低研究者理解早期啟動元件加密與驗證設計的門檻。 至於風險是否可透過更新消弭？由於ROM屬於硬體唯讀記憶體，其內容一般無法透過系統更新直接改寫，因此要是外流材料落在該層級，既有主機很難只靠更新全面更換，但廠商仍可能透過後續啟動階段的額外驗證，或未來硬體修訂降低長期影響。 不過，金鑰資料就算被整理到公開頁面，也不代表開發者立刻能做出可用的破解成果。X社群上的研究者@Itsd0r表示其測試後認為金鑰可信，但用途較偏向元件層級的解讀與分析，無法單靠這些</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173161</guid>
+      <pubDate>Mon, 05 Jan 2026 07:11:03 +0000</pubDate>
     </item>
     <item>
-      <title>Starlink將調降衛星高度至480公里，以降低碰撞與太空碎片風險</title>
-      <link>https://www.ithome.com.tw/news/173133</link>
-      <description>新聞SpaceX的Starlink工程副總裁Michael Nicolls周四（1/1）表示，Starlink將在2026年逐步將目前運行在約550公里高度的所有通訊衛星，調降至480公里的軌道，以提升太空安全。 從2019年發射第一批衛星迄今，Starlink已發射1萬顆通訊衛星，扣除退役數量，目前約有超過9,000顆衛星仍在軌道上運行，其衛星高度分布橫跨300~570公里，其中最早、規模最大的550公里殼層約有4,400顆衛星。 Nicolls說，Starlink將把這4,400顆衛星的高度，從550公里調降到480公里處。 降低衛星高度將使Starlink的軌道更加集中，也可於多個層面提升太空安全。因為隨著太陽活動邁向極小期，大氣密度會下降，意味著在相同高度下，物體的彈道衰減時間將會顯著拉長；也就是說，失效衛星自然進入大氣層燒毀所需的時間會大幅延後。在太陽極小期，位於550公里高度的失效衛星，可能要4年以上才會墜落，在這期間都將處於失控且無法主動閃避的狀態，增加在軌碰撞風險。 反之，位於高度480公里的軌道上，它的大氣密度明顯較高，使得失效衛星會受到足夠阻力，而無法維持原有軌道高</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173133</guid>
-      <pubDate>Fri, 02 Jan 2026 03:40:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>【資安日報】1月2日，第三波蠕蟲Shai Hulud變種現身NPM儲存庫</title>
-      <link>https://www.ithome.com.tw/news/173134</link>
-      <description>新聞NPM供應鏈蠕蟲Shai Hulud新變種現身 資安公司Aikido Security與OX Security提出警告，他們在0.26.2版@vietmoney/react-big-calendar偵測到新的Shai Hulud變種，目前並未出現大規模散布或感染的情況，研判攻擊者可能正在測試有效酬載。 最早發現及公布此事的是Aikido Security，他們指出，第三波Shai Hulud的新變種，仍延續既有供應鏈惡意套件的典型路徑，藉由套件安裝流程在開發者電腦或自動化建置環境執行，蒐集環境變數與金鑰，並嘗試將資料外洩到GitHub儲存庫，同時在特定條件下試圖發布套件。新的Shai Hulud有幾個特徵，首先，初始啟動檔名改為bun_installer.js，主要載荷改為environment_source.js。其次，外洩到GitHub時使用的儲存庫描述字串改成Goldox-T3chs:OnlyHappyGirl，並把外洩檔名改成較難以字串比對攔截的形式，例如3nvir0nm3nt.json、cl0vd.json、c9nt3nts.json。 新變種在細節上微調執行流程，例如改</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173134</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/image-99.png" length="0" type="image/png"/>
-      <pubDate>Fri, 02 Jan 2026 03:46:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>SpaceX、OpenAI及Anthropic都可能在今年IPO</title>
-      <link>https://www.ithome.com.tw/news/173136</link>
-      <description>新聞英國金融時報（Financial Times，FT）本周引述消息來源報導，太空基礎設施公司SpaceX，以及兩家人工智慧新創OpenAI與Anthropic，最快都可能在2026年首度公開發行股票（Initial Public Offering，IPO）。 馬斯克（Elon Musk）於2002年創辦的SpaceX，為一提供火箭發射、衛星通訊，以及太空運輸的太空基礎設施公司，最有名的產品是可重複使用的火箭，以及Starlink衛星網路。目前Starlink在太空中有超過9,000顆通訊衛星，於155個國家擁有逾900萬名用戶，已是全球規模最大的低軌道衛星通訊服務。 SpaceX也被視為是全球最大的獨角獸，在2025年7月二級市場交易的估值為4,000億美元，但FT說SpaceX目前正在展開新一輪的二級市場交易，估值已達到8,000億美元。 而OpenAI亦為現階段的全球AI龍頭，根據外界在去年7月的估算，OpenAI旗下ChatGPT約有7億的每周用戶數，Plus與Pro付費用戶數則約有3,500萬人，占活躍用戶數的5%。 OpenAI在2025年10月的估值達到5,000億美元，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173136</guid>
-      <pubDate>Fri, 02 Jan 2026 04:51:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>【資安月報】2025年12月，中國駭客的網釣盜刷威脅、React2Shell漏洞攻擊最受矚目，臺廠產品資安發展亦受關注</title>
-      <link>https://www.ithome.com.tw/news/173137</link>
-      <description>新聞新的一年到來，讓我們快速回顧2025年12月的資安新聞，本月有3大議題最值得關注，分別是網釣盜刷、產品資安與漏洞攻擊的整體態勢，還有國內外重大資安事故與AI Agent相關風險持續引發重視，而隨著年度更迭，2026年關鍵資安趨勢的發表同樣不容我們錯過。 （一）打擊日益氾濫的網釣盜刷威脅 在打擊網路詐騙方面，中國網路犯罪集團鎖定全球發動簡訊釣魚，以社交工程手法竊取全球信用卡資料，並且進行盜刷，成為不可輕忽的重要消息，近來我們報導事件嚴重到Google針對中國犯罪組織主動採取法律行動就是一例，包括11月中旬、12月中旬分別提告Lighthouse、Darcula釣魚即服務平臺（PhaaS）及幕後組織，突顯此類跨國詐騙問題的嚴重性。 簡單來說，中國駭客架設的Lighthouse釣魚即服務平臺，以及Darcula提供的神奇貓貓（Magic Cat）釣魚工具包，提供涵蓋數十個國家的釣魚簡訊腳本（可假冒當地品牌與語言），讓其他犯罪者在租用後，能迅速鎖定全球民眾發動網路詐騙。釣魚簡訊內容經常以「包裹卡關」或「未繳通行費」為誘餌，透過Apple的iMessage與Google的RCS發送釣魚簡訊給</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173137</guid>
-      <pubDate>Fri, 02 Jan 2026 08:30:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>NIST公布CSF延伸AI專屬網路安全框架，協助組織因應AI資安風險</title>
-      <link>https://www.ithome.com.tw/news/173138</link>
-      <description>新聞隨著AI技術高速發展，公私部門在營運與資安防護上，同時面臨新機會與新挑戰。為此，美國國家標準與技術研究院（NIST）於2025年12月發布《AI網路安全框架應用藍圖》（Cybersecurity Framework Profile for Artificial Intelligence，Cyber AI Profile）草案，簡稱Cyber AI應用藍圖，此份文件的編號為NIST IR 8596，作為其廣泛獲外界採用的網路安全框架NIST CSF（Cybersecurity Framework）的延伸配套，協助組織在導入AI的同時，更有系統地管理相關資安風險。 NIST以「社群應用藍圖」（community profile）一詞，描述CSF 2.0在製造、金融、電信等產業之間，針對共同關注議題與目標的應用方式，如今也進一步將AI納入社群應用藍圖行列。 將AI資安風險納入CSF 2.0，聚焦三大關注領域 Cyber AI應用藍圖的內容，圍繞三個彼此關聯的關注領域（Focus Areas）展開，並依據CSF 2.0核心功能進行細分。 圖片來源／NIST 根據資安院的說明，Cyber A</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173138</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0102-Cyber%20AI%20Profile-600-2.png" length="0" type="image/png"/>
-      <pubDate>Fri, 02 Jan 2026 10:50:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fortinet防火牆軟體5年前漏洞還有上萬裝置未修補　臺灣逾700臺曝險</title>
-      <link>https://www.ithome.com.tw/news/173148</link>
-      <description>新聞網路調查顯示，Fortinet 5年前的SSL VPN漏洞，全球還有超過一萬臺裝置沒有修補漏洞，包括臺灣的700多臺。 2025年12月24日Fortinet警告，一個2020年7月修補的FortiOS資安漏洞CVE-2020-12812近日再現攻擊活動。該漏洞起於身分驗證機制不完整，攻擊者可更動使用者名稱的大小寫，繞過驗證程序，進而登入系統。美國國家漏洞資料庫（NVD）與網路安全暨基礎設施安全局（CISA）皆將這個弱點的嚴重性，認定為CVSS評分9.8的重大漏洞。Fortinet偵測到，近期在開啟LDAP的防火牆設備FortiGate上，有人再度利用該漏洞繞過雙因素驗證（2FA）存取裝置。 雖然Fortinet已在2020年7月釋出FortiOS 6.4.1、6.2.4和6.0.1修補CVE-2020-12812，但仍然有為數龐大的Fortinet裝置未安裝更新。根據非營利網路安全調查機構The Shadowserver的統計，截自2026年1月3日，網路上曝露於CVE-2020-12812濫用風險的Fortinet裝置還有一萬多臺。以所在國來看，其中美國還有1201臺居冠，臺灣</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173148</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0105-CVE-2020-12812-fortinet-shadowserver.png" length="0" type="image/png"/>
-      <pubDate>Mon, 05 Jan 2026 01:39:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>中國GPGPU新創壁仞上市首日大漲近76%</title>
-      <link>https://www.ithome.com.tw/news/173150</link>
-      <description>新聞在2019年於中國創立、專門開發GPGPU（通用繪圖處理器）的壁仞科技（Biren Technology），上周五（1/2）正式登上了香港交易所（HKEX），發行價為19.6港幣，但一開盤即衝上35.70港幣，最終以34.46港幣作收，上漲75.8%。 壁仞科技引用灼識諮詢的分析，指出全球AI運算晶片市場自2020年的66億美元，快速成長至2024年的1,190億美元，每年成長率達106%，且2024年到2029年的年複合成長率也有37.5%，達到2029年的5,857億美元。至於中國AI晶片市場規模則是從2020年的17億美元成長至2024年的301億美元，並估計到2029年可達到2,012億美元。 市場上的AI晶片可分成GPGPU、特殊應用IC（ASIC）與現場可程式化邏輯閘陣列（FPGA），其中，由於GPGPU屬於最通用的晶片，同時適用於各種任務及高度並行任務，亦有高度的可擴展性，成為壁仞創業時的首選。 根據該公司的招股說明書，壁仞主要開發GPGPU及其延伸的智慧運算解決方案，為AI工作負載提供基礎運算能力；並透過整合GPGPU硬體與BIRENSUPA軟體平臺，支援自雲端到邊</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173150</guid>
-      <pubDate>Mon, 05 Jan 2026 02:20:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>CARF上路，英國加密貨幣交易平臺須全面回報用戶資料</title>
-      <link>https://www.ithome.com.tw/news/173159</link>
-      <description>新聞英國自2026年1月1日起，正式導入由經濟合作暨發展組織（OECD）制定的加密資產申報框架（Crypto-Asset Reporting Framework，CARF），要求境內加密貨幣交易平臺應定期、自動回報所有用戶的帳戶與交易資料給稅務機關。這項制度被視為全球加密貨幣稅務治理的重要分水嶺，也象徵加密資產正式納入跨國稅務資訊交換體系。 CARF是一套由OECD制定的國際加密資產稅務申報標準，目的在於補足既有稅務資訊交換制度無法涵蓋加密貨幣的缺口。CARF要求加密資產服務供應商，包括加密貨幣交易平臺、託管與經紀業者，必須蒐集並定期向所在地稅務機關申報用戶的身分資料、帳戶資訊與交易紀錄，而非僅在個案調查時配合提供資料。迄今全球至少已有48個國家與司法管轄區承諾，在完成國內導入後，於2027年前正式展開國與國之間的自動資訊交換。 除了英國之外，歐盟的27個成員國也自今年1月1日起開始蒐集加密資產資料，這些導入CARF的國家或地區，預計自2027年起就會開始交換資訊，讓加密資產不再成為跨境逃稅的制度漏洞。 英國自2014年即要求加密貨幣交易必須依法繳稅，當年的英國稅務暨海關主管機關HM</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173159</guid>
-      <pubDate>Mon, 05 Jan 2026 05:01:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>TeamT5公布《2025年亞太地區APT威脅形勢報告》：臺灣處於APT威脅巨獸化和生態系化的核心</title>
-      <link>https://www.ithome.com.tw/news/173160</link>
-      <description>新聞在數位時代的無聲戰場上，一場足以撼動國本的戰爭正於螢幕後方激烈上演。當世界各國的目光仍聚焦地緣政治的實體衝突、飛彈部署與軍事演習時，網路空間的威脅早已演化至前所未有的層次。這場以電腦螢幕為戰場的戰爭沒有硝煙，卻悄然滲透並深刻影響現代社會的每一個角落。 根據臺灣情資公司TeamT5（杜浦數位安全）日前揭露的《2025年亞太地區進階持續性威脅（APT）威脅形勢報告》（APT Threat Landscape in APAC 2025），2025年亞太地區的APT威脅已呈現出「巨獸化」與「生態系化」的趨勢，臺灣正處於這場風暴的最核心。 從該份報告可以發現，2025年的網路安全威脅已經跨越傳統的技術騷擾，演變為特定國家驅動、具備高度專業分工且極度「生態系化」的全面奇襲。臺灣，正不幸地站立在這場全球數位風暴的最核心。 這份從2024年11月至2025年10月的深度調查報告，呈現的現實令人不寒而慄。TeamT5技術長李庭閣表示，過去一年中，該團隊就追蹤到高達510次攻擊行動，波及全球67個國家，反映出網路威脅的跨國界本質。 然而，在全球受駭地圖上，臺灣的受害情況顯得異常突兀且嚴重。報告指出，臺</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173160</guid>
+      <title>【資安日報】1月5日，臺灣處於亞太APT威脅風暴核心，受害次數占全球三分之一</title>
+      <link>https://www.ithome.com.tw/news/173162</link>
+      <description>新聞TeamT5公布《2025年亞太地區APT威脅形勢報告》，直指臺灣處於APT威脅巨獸化和生態系化的核心 根據臺灣情資公司TeamT5（杜浦數位安全）日前揭露的《2025年亞太地區APT威脅形勢報告》（APT Threat Landscape in APAC 2025），2025年亞太地區的APT威脅已呈現出「巨獸化」與「生態系化」的趨勢，臺灣正處於這場風暴的最核心。 這份從2024年11月至2025年10月的深度調查報告，呈現的現實令人不寒而慄。TeamT5技術長李庭閣表示，過去一年中，該團隊就追蹤到高達510次攻擊行動，波及全球67個國家。其中，在全球受駭地圖上，臺灣的受害情況顯得異常突兀且嚴重。報告指出，臺灣受害次數高達173次，位居全球榜首，是排名第二名韓國（48次）的三倍多、更遠遠超越越南的36次及印度的30次，已經是全球受駭最深的重災區。這項數據揭露的現實就是：臺灣不僅是亞太地區的經濟樞紐，更成為各國APT集團眼中最具價值的實戰演習場，以及情報收割區。 從受攻擊的產業分布來看，攻擊者的戰略圖譜極為明確且具備毀滅性。排名第一的是關鍵基礎設施，包括交通、能源、教育、醫療與電信</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173162</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/images/2025%E5%B9%B4%E6%9C%80%E5%B8%B8%E8%A2%ABAPT%E6%94%BB%E6%93%8A%E7%9A%84%E5%9C%8B%E5%AE%B6.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 05 Jan 2026 05:42:30 +0000</pubDate>
+      <pubDate>Mon, 05 Jan 2026 07:47:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>加州推出免費平臺DROP讓居民退出個資資料庫</title>
+      <link>https://www.ithome.com.tw/news/173164</link>
+      <description>新聞美國加州於2026年1月1日正式推出一個名為Delete Request and Opt-out Platform（刪除請求與選擇退出，DROP）的平臺，讓當地居民得以要求超過500家資料掮客刪除其所持有的個人資訊。 2020年生效的《加州消費者隱私法》（California Consumer Privacy Act，CCPA）原本即允許加州居民要求企業刪除其直接向消費者蒐集的個資；而2023年通過的《加州刪除法》（California Delete Act），則在此基礎上補強對資料掮客的監管，要求加州隱私保護局建置DROP平臺，使消費者能以單一管道，向所有已註冊的資料掮客提出刪除個資請求，大幅降低行使隱私權的門檻。 加州隱私保護局說明，資料掮客是指蒐集並販售消費者資訊的企業，其取得資料的方式多元，包括向與使用者有業務往來的企業購買、直接向消費者蒐集、從網站爬取資料，以及在連網裝置上使用追蹤技術等。隨著時間推移，資料掮客可能為數百萬人建立詳細的個人檔案，而多數人並未意識到自己的資訊正在被蒐集與出售。 過去，CCPA僅能要求企業刪除其直接向消費者蒐集的資訊；《加州刪除法》則進一步擴大</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173164</guid>
+      <pubDate>Mon, 05 Jan 2026 08:22:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>MedTech醫療科技雙周報第45期：韓國衛福部如何把醫療資料升級為國家AI基礎建設？</title>
+      <link>https://www.ithome.com.tw/news/173165</link>
+      <description>新聞重點新聞（1216～1231） 韓國 醫療AI 資料 韓國衛福部如何把醫療資料升級為國家AI基礎建設？ 韓國衛福部（MOHW）在2025年12月召開年度醫療資料政策審議委員會，釋出一項明確訊號：醫療資料不再只是被動保存的公共資源，而是國家級的醫療AI基礎建設。 這場會議聚焦三個層面，首先是補齊AI最關鍵的資料缺口。衛福部自2025年起，陸續把韓國三家國立大學醫院的臨床資料，正式串接至原本以行政資料為主的醫療大數據平臺，讓AI模型訓練不再只依賴保險與申報資料。同時，他們也將於2026年下半年，分階段開放國家級整合生醫大數據庫，並在2028年，將資料量擴充至77萬名參與者，作為長期AI與精準醫療研究的底層資料池。 第二個層面是讓資料「找得到、用得動」。韓國衛福部指出，過去醫療資料最大的問題不在於不存在，而是難以辨識與取得。因此，他們將透過詮釋資料（Metadata）描述資料結構和內容，來協助研究者快速掌握各機構的可用資料。同時，衛福部也將擴大醫療資料存取券（Data Voucher）計畫，2026年補助案數將從8件增加至40件，直接降低AI新創和中小企業取得醫療資料的門檻。為避免流程卡</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173165</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202026-01-05%20160605.png" length="0" type="image/png"/>
+      <pubDate>Mon, 05 Jan 2026 08:28:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Boston Dynamics、Google DeepMind締結機器人AI合作</title>
+      <link>https://www.ithome.com.tw/news/173170</link>
+      <description>新聞機器人製造商Boston Dynamics與Google於消費電子大展（Consumer Electronics Show，CES）上宣布將與Google DeepMind合作共同研發，目標是把Google DeepMind的機器人AI模型整合到旗下新的人型機器人中。 Google去年6月發表機器人模型Gemini Robotics，將透過這項研發合作整合進Boston Dynamics新的Atlas機器人成為AI基礎。新的研發合作將在雙方公司展開，預計未來幾個月後正式啟動，長遠目標是使人型機器人可學習多樣化生產任務，以推動汽車製造智慧轉型。 Boston Dynamics高層表示，為了打造最強大的人型機器人，需要Google DeepMind協助打造穩定而高擴充性的視覺語言行為（Visual-Language-Action，VLA）模型，以安全部署到各種產業及任務上。 Boston Dynamics原本即以開發高度靈巧的工業及商用機器人聞名。Google曾是其持有人，但2017年將之賣給了日本軟銀集團，後者於2020年底將8成股權賣給了現代（Hyundai）集團。 現代汽車計畫將</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173170</guid>
+      <pubDate>Tue, 06 Jan 2026 03:54:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>美國知名保險公司去年中遭駭 2300萬人個資外洩</title>
+      <link>https://www.ithome.com.tw/news/173171</link>
+      <description>新聞美國知名保險公司Aflac上周通知2300萬保戶、員工及其他人員，2025年中的網路攻擊事件造成其姓名、社會安全碼、電子郵件等資料外洩。 Aflac說明，公司是在去年6月發現這起網路攻擊行動，隨後花了近六個月進行調查。該公司於12月初完成調查，並在聖誕節前夕於網站公告此事及通知受影響人員。 根據Aflac的檢視，該公司判斷6月間的資安事件影響大約2265萬人。被竊取個資的人員包括客戶、受益人、員工、經紀商及其他人員。外洩的資料包括個人聯絡資訊、理賠資訊、健康資訊、社會安全碼和其他個資。但這家保險公司說，沒有一個人的完整個資外洩。 Aflac已對受害人員提供24個月的信用監看、身分盜竊防護、醫療詐騙及客戶支援服務。 該公司說目前尚未發現有外洩資料被用於詐騙的情形，但呼籲用戶要留心可能的身分竊取或詐騙行為，包括檢視信用卡、銀行帳戶和保險明細等是否有可疑活動。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173171</guid>
+      <pubDate>Tue, 06 Jan 2026 04:04:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>中國APT駭客鎖定臺灣五大關鍵基礎設施而來，每日侵擾次數達263萬次</title>
+      <link>https://www.ithome.com.tw/news/173172</link>
+      <description>新聞上個月威脅情報公司TeamT5（杜浦數位安全）提出警告，由國家級駭客發動的APT威脅當中，平均每三起攻擊行動，就有一起是針對臺灣而來，主要目標就是關鍵基礎設施（CI）、政府機關與高科技產業；近期國家安全局對於中國駭客攻擊關鍵基礎設施的態勢分析，也反映鎖定臺灣的國家級駭客威脅更為激烈。 1月4日國安局發布《2025年中共對我國關鍵基礎設施網駭威脅分析》調查報告，指出中國國家級駭客針對我國9大類型關鍵基礎設施（政府機關、能源、通訊傳播、交通、緊急救援與醫院、水資源、金融，以及科學園區與工業區），在2024年比2023年侵擾次數翻倍成長、達到每日246萬次之後，2025年仍持續增加，成長到平均每日263萬次，突顯中國駭客全面對臺灣關鍵基礎設施發動網路攻擊侵擾的現象，並伺機干擾政府與社會的運作。 從產業類型而言，2025年中國駭客偏好的領域轉向能源，以及緊急救援與醫院領域，其中鎖定能源領域的活動增加超過10倍（1000%），而對於緊急救援與醫院領域，也成長了54%。 過往國安局就提及，在臺灣發生政治事件的時候，相關攻擊活動會急速增加，這次也不例外，然而，他們這次特別提到中國駭客配合解放軍軍</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173172</guid>
+      <pubDate>Tue, 06 Jan 2026 04:19:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>NordVPN開發商否認系統被駭 也沒有外洩Salesforce等資料</title>
+      <link>https://www.ithome.com.tw/news/173173</link>
+      <description>新聞知名NordVPN同名開發商NordVPN本周發出聲明，否認其開發伺服器被駭客竊取Salesforce憑證資料，也沒有系統被駭一事。 上周一名代號為Breached的人士在駭客論壇BreachForums公告，已成功駭入NordVPN的開發伺服器，他並公開10多個資料庫的資料。他宣稱透過暴力破解NordVPN一臺配置不當的伺服器，取得其中儲存的Salesforce和Jira等敏感資料，包括Salesforce的API金鑰及Jira令牌等。 NordVPN則在今日發出聲明駁斥駭客的說法。該公司安全團隊已完成駭客論壇上公開資料的初步鑑識分析，證實沒有一臺NordVPN伺服器或內部生產基礎架構遭到駭入。 該公司說，經過公司內部驗證，該批資料來自6個月前他們評估過的自動化測試平臺。為此他們建立了暫時性的測試環境來評估功能。然而該產品最後沒有獲得選用。 因此NordVPN總結指出，由於只是初期測試，雙方沒有簽約，公司不曾上傳過客戶資料、生產用程式碼或使用中的敏感憑證到該環境。其次，由於他們最後選了另一家廠商，這個平臺和該公司生產用系統也不曾連結。 該公司強調，駭客宣稱洩露該公司內部Sales</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173173</guid>
+      <pubDate>Tue, 06 Jan 2026 05:00:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gmail自2026年起停止支援Gmailify與POP抓信功能</title>
+      <link>https://www.ithome.com.tw/news/173174</link>
+      <description>新聞或許有使用者會發現，這幾天未曾於Gmail中看到來自其它信箱的新郵件。這是因為Gmail自2026年1月起，就不再支援Gmailify與POP的抓信功能，亦即不再代收其它信箱的郵件。 Gmailify是Google在2016年左右推出的一項整合功能，目的是降低使用者從其它電子郵件服務遷移到Gmail的門檻。它允許使用者在不更換原有電子郵件地址的前提下，將第三方信箱（如Outlook或Yahoo Mail）連結至Gmail，並於Gmail介面中統一收發與管理郵件。 啟用Gmailify之後，第三方信箱的郵件仍保留在原伺服器，只是透過同步機制於Gmail中呈現，並套用Gmail的垃圾郵件過濾、收件匣分類、搜尋體驗與行動通知等功能。其設計是讓Gmail成為主要操作介面，其它信箱則被視為郵件來源。 至於POP（Post Office Protocol）則是電子郵件系統中最早被廣泛採用的收信協定之一，核心概念是由用戶端主動連線至郵件伺服器，將新郵件下載至本地端後再離線閱讀。Gmail一方面允許使用者透過POP，將Gmail郵件下載到Outlook等第三方郵件用戶端，另一方面也在Gmail的W</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173174</guid>
+      <pubDate>Tue, 06 Jan 2026 05:14:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nvidia公布自駕車AI模型Alpamayo家族 讓自駕車能像人類思考</title>
+      <link>https://www.ithome.com.tw/news/173175</link>
+      <description>新聞在消費電子大展（CES）2026上，Nvidia開源了自駕車AI模型Alpamayo系列，目標是讓自駕車能像人類一般思考行駛在複雜環境中，並公布第一款宣稱首個會思考的視覺語言行為（Vision-Language-Action, VLA）模型，未來還會增加其他模型。 Alpamayo系列為具備思維鏈的推理VLA模型，可為自駕車決策過程加入類似人類的思考能力。它可在新式或罕見情境下一步步思考，藉此提升在複雜環境中安全駕駛的能力並且解釋其決策，而這也是全棧式安全系統Nvidia Halos的基礎。 Nvidia執行長黃仁勳稱，機器開始理解、思考真實世界並採取行動，是「實體AI的ChatGPT時刻」。 今天Nvidia釋出的Alpamayo專案包含開放模型、模擬框架和資料集。首先是業界第一個自駕車專用的思維鏈推理VLA模型Alpamayo 1，參數量100億，現在已在Hugging Face上開放給研究人員或自駕車開發商。它可用影片輸入產生軌跡和推理線索，可顯示每個決策背後的邏輯。開發人員可將Alpamayo 1客製成汽車開發用的較小runtime模型，或作為推理式評估或自動標註系統等開發</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173175</guid>
+      <pubDate>Tue, 06 Jan 2026 05:29:42 +0000</pubDate>
     </item>
   </channel>
 </rss>

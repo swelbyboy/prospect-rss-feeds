@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Jan 2026 06:43:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Jan 2026 06:39:23 +0000</lastBuildDate>
     <item>
-      <title>Linux Audio Quirk Handling On The Way For Dell Panther Lake Laptops</title>
-      <link>https://www.phoronix.com/news/Audio-Quirk-Dell-Panther-Lake</link>
-      <description>Ahead of the initial batch of Intel Panther Lake laptops expected to be showcased at CES next week in Las Vegas, we're seeing last minute quirk updates for these products expected to soon come to market...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Audio-Quirk-Dell-Panther-Lake</guid>
-      <pubDate>Sat, 03 Jan 2026 15:49:03 +0000</pubDate>
+      <title>Linux Kernel AES Library Seeing Improvements For Better Performance &amp;amp; More</title>
+      <link>https://www.phoronix.com/news/Linux-AES-Library-2026</link>
+      <description>A set of 36 patches sent out overnight is making big improvements to the Linux kernel's AES library. The patches allow for making use of the kernel's existing architecture-optimized AES code for better performance, that code is also constant-time, lower memory use, and all-around a nice improvement over the status quo...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-AES-Library-2026</guid>
+      <pubDate>Mon, 05 Jan 2026 11:15:38 +0000</pubDate>
     </item>
     <item>
-      <title>Box64 v0.4 Improves Support For DRM Protected Games, Steam Is Now More Stable</title>
-      <link>https://www.phoronix.com/news/Box64-0.4-Released</link>
-      <description>While Fex-Emu has been getting a lot of attention lately for being Valve-sponsored and powering the upcoming Steam Frame, Box64 continues making progress as another great open-source project for running x86_64 Linux binaries on AArch64 Linux as well as an eye on other architectures like RISC-V...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Box64-0.4-Released</guid>
-      <pubDate>Sat, 03 Jan 2026 17:27:00 +0000</pubDate>
+      <title>Intel Xe Driver Preps THP Support For "Significant" SVM Performance Gains</title>
+      <link>https://www.phoronix.com/news/Intel-THP-For-Xe-Driver-SVM</link>
+      <description>Intel engineer Francois Dugast today sent out the new patch series for enabling Transparent Hugepages (THP) support within the drm_pagemap code with a focus on the Intel Xe kernel driver usage. This enabling of THP support and in turn 2MB pages by the Xe driver is yielding "significant" performance improvements when using Shared Virtual Memory (SVM) such as for GPU compute workloads...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-THP-For-Xe-Driver-SVM</guid>
+      <pubDate>Mon, 05 Jan 2026 13:22:12 +0000</pubDate>
     </item>
     <item>
-      <title>Rust-Based Fjall 3.0 Released For Key-Value Storage Engine Akin To RocksDB</title>
-      <link>https://www.phoronix.com/news/Fjall-3.0-Released</link>
-      <description>In addition to the release of Stoolap 0.2 as a modern embedded SQL database written in Rust, Fjall 3.0 is available as another Rust-written database solution. Fjall is a log-structured, embedable key-value storage engine akin to RocksDB but with the benefit of being written in Rust. With Fjall 3.0 its performance is now very competitive...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Fjall-3.0-Released</guid>
-      <pubDate>Sun, 04 Jan 2026 01:19:24 +0000</pubDate>
+      <title>Patches Posted Seeking To Mainline Support For The Acer Swift SFA14-11 Snapdragon Laptop</title>
+      <link>https://www.phoronix.com/news/Acer-Swift-SFA14-11-DT-Patches</link>
+      <description>Patches posted to the Linux kernel mailing list are hoping to provide mainline support for the Acer Swift SFA14-11 laptop powered by the Qualcomm Snapdragon X1 Elite X1E78100 SoC...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Acer-Swift-SFA14-11-DT-Patches</guid>
+      <pubDate>Mon, 05 Jan 2026 14:13:36 +0000</pubDate>
     </item>
     <item>
-      <title>New AMD Linux Driver Patches Posted For Batch Userptr Allocation Support</title>
-      <link>https://www.phoronix.com/news/AMDKFD-Batch-Userptr-Allocation</link>
-      <description>A new feature being worked on recently for the AMDKFD kernel compute driver is batch user pointer "userptr" allocation support. With this new user-space API it will become possible to support allocating multiple non-contiguous CPU virtual address ranges that map to a single contiguous GPU virtual address...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMDKFD-Batch-Userptr-Allocation</guid>
-      <pubDate>Sun, 04 Jan 2026 11:23:16 +0000</pubDate>
+      <title>Apple SMC Power Driver Posted For Linux Kernel To Finally Expose Battery Stats</title>
+      <link>https://www.phoronix.com/news/Apple-Silicon-Power-Driver-2026</link>
+      <description>The newest open-source Apple Silicon driver being submitted for review in working toward its inclusion in the mainline Linux kernel is the Apple Silicon SMC power driver for being able to expose MacBook battery power metrics as well as AC power adapter status reporting under Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Apple-Silicon-Power-Driver-2026</guid>
+      <pubDate>Mon, 05 Jan 2026 14:56:22 +0000</pubDate>
     </item>
     <item>
-      <title>Patch Posted For Bringing Rock Band 4 PS4 / PS5 Guitar Support To Linux</title>
-      <link>https://www.phoronix.com/news/Rock-Band-4-PS4-PS5-Linux</link>
-      <description>Following Linux 6.19 adding support for CRKD guitar controllers, new patches posted to the Linux kernel mailing list are bringing some additional guitar controllers to Linux. This latest work is around enabling the Rock Band 4 guitars for the PlayStation 4 and PS5 consoles to work under Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Rock-Band-4-PS4-PS5-Linux</guid>
-      <pubDate>Sun, 04 Jan 2026 11:44:59 +0000</pubDate>
+      <title>Radeon RADV Driver Lands Another Ray-Tracing Improvement: 30% Faster On RDNA2</title>
+      <link>https://www.phoronix.com/news/Mesa-26.0-RADV-RT-RDNA2-Faster</link>
+      <description>Konstantin Seurer as one of the open-source developers working on the RADV driver for Valve has landed another ray-tracing performance optimization for the upcoming Mesa 26.0 release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.0-RADV-RT-RDNA2-Faster</guid>
+      <pubDate>Mon, 05 Jan 2026 17:00:33 +0000</pubDate>
     </item>
     <item>
-      <title>Linux's Hung Task Detector Will Be Able To Be Reset For Easing System Administration</title>
-      <link>https://www.phoronix.com/news/Linux-Reset-Hung-Task-Count</link>
-      <description>Worked on back in 2024 for the Linux kernel was a built-in counter to keep track of the number of hung tasks since boot. That feature for keeping track of the number of hung tasks since boot was merged in Linux 6.13 and exposed via /proc/sys/kernel/hung_task_detect_count. For helping ease use around it, new code working its way to the kernel will allow resetting that "hung_task_detect_count" counter...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Reset-Hung-Task-Count</guid>
-      <pubDate>Sun, 04 Jan 2026 11:56:24 +0000</pubDate>
+      <title>Valve &amp;amp; AMD Developers Delivered The Most Code Contributions To Mesa In 2025</title>
+      <link>https://www.phoronix.com/news/Mesa-Git-Stats-2025</link>
+      <description>A developer from Valve working on the RADV Vulkan driver was once again the most prolific contributor to Mesa in 2025 followed by AMD's Marek Olšák with continued improvements around RadeonSI and Gallium3D...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-Git-Stats-2025</guid>
+      <pubDate>Mon, 05 Jan 2026 17:22:13 +0000</pubDate>
     </item>
     <item>
-      <title>TrixiePup64 2601 Released For Debian 13 Powered Puppy Linux In Wayland &amp;amp; X11 Flavors</title>
-      <link>https://www.phoronix.com/news/TrixiePup64-2601-Released</link>
-      <description>For those with fond memories of Puppy Linux as a very lightweight Linux distribution, released last month was a new TrixiePup64 for continuing the Puppy Linux spirit atop Debian. The new TrixiePup64 is based on Debian 13 components while shipping in both X11 and Wayland flavors. Out now is TrixiePup64 2601 as the latest iteration of this lightweight Linux distribution...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/TrixiePup64-2601-Released</guid>
-      <pubDate>Sun, 04 Jan 2026 12:25:16 +0000</pubDate>
+      <title>GNOME &amp;amp; Firefox Consider Disabling Middle Click Paste By Default: "An X11'ism...Dumpster Fire"</title>
+      <link>https://www.phoronix.com/news/GNOME-Firefox-MiddleClick-Paste</link>
+      <description>Both the GNOME desktop and Mozilla Firefox browser projects are considering disabling middle-click-paste functionality by default...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Firefox-MiddleClick-Paste</guid>
+      <pubDate>Mon, 05 Jan 2026 17:52:05 +0000</pubDate>
     </item>
     <item>
-      <title>Manjaro Linux 26.0 Rolling Out - Xfce Edition Recommended If Wanting To Use X11</title>
-      <link>https://www.phoronix.com/news/Manjaro-Linux-26.0</link>
-      <description>Package updates for the Arch Linux powered Manjaro Linux distribution have been pushed out for Manjaro 26.0 "Anh-Linh" while updated ISOs are expected to soon become available. The Manjaro 26.0 milestone brings KDE Plasma 6.5 and GNOME 49 but with both of those you may lose X11 session support so they are recommending their Xfce Edition for wanting wanting to continue using an X.Org desktop session...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Manjaro-Linux-26.0</guid>
-      <pubDate>Sun, 04 Jan 2026 16:06:55 +0000</pubDate>
+      <title>Radeon Linux Driver Patches For Next-Gen Hardware Point To New NPU Integration</title>
+      <link>https://www.phoronix.com/news/Radeon-GPU-NPU-SMU15</link>
+      <description>Back in November AMD began posting open-source Linux graphics driver patches for some next-gen graphics IP. Those IP block patches were for MMHUB, PSP, and other blocks making up modern AMD GPUs. The GFXHUB patch pointed it to being part of the GFX12 / RDNA4 family. Out today are new patches for enabling the SMU15 IP and an interesting takeaway there is some apparent NPU integration for future Radeon graphics...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Radeon-GPU-NPU-SMU15</guid>
+      <pubDate>Mon, 05 Jan 2026 20:43:52 +0000</pubDate>
     </item>
     <item>
-      <title>GNU ddrescue 1.30 "Orders of Magnitude" Better In Recovery From Drives With A Dead Head</title>
-      <link>https://www.phoronix.com/news/GNU-ddrescue-1.30</link>
-      <description>GNU ddrescue as the free software data recovery tool from files or block devices is out today with a big feature release. The new GNU ddrescue 1.30 is improved by "orders of magnitude" for the automatic recovery from drives with a dead head...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-ddrescue-1.30</guid>
-      <pubDate>Sun, 04 Jan 2026 16:42:21 +0000</pubDate>
+      <title>Intel Talks Up Core Ultra Series 3 "Panther Lake" &amp;amp; Arc B390 Graphics</title>
+      <link>https://www.phoronix.com/news/Intel-CES-2026-Keynote</link>
+      <description>Intel just hosted their CES keynote where they formally launched Panther Lake as the Core Ultra Series 3 SoCs...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-CES-2026-Keynote</guid>
+      <pubDate>Mon, 05 Jan 2026 23:37:45 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19-rc4 Released Following A Quiet Holiday Week, 6.19-rc8 Already Planned</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-rc4</link>
-      <description>Following the holidays, Linux 6.19-rc4 was released today in working toward the Linux 6.19 stable kernel release in early February...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc4</guid>
-      <pubDate>Sun, 04 Jan 2026 22:56:19 +0000</pubDate>
+      <title>AMD Announces Ryzen 7 9850X3D, New Strix Halo SKUs &amp;amp; Ryzen AI 400 Series</title>
+      <link>https://www.phoronix.com/review/amd-ryzen-ai-400-9850x3d</link>
+      <description>Lisa Su's keynote just wrapped up at CES 2026 and in turn the embargo regarding AMD's first consumer product announcements for 2026. The AMD Ryzen AI 400 series and new Ryzen 7 9850X3D 3D V-Cache processors are what's in focus for CES this year.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/amd-ryzen-ai-400-9850x3d</guid>
+      <pubDate>Tue, 06 Jan 2026 03:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
