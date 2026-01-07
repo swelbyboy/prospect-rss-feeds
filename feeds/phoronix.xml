@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Jan 2026 06:39:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Jan 2026 06:38:46 +0000</lastBuildDate>
     <item>
-      <title>Linux Kernel AES Library Seeing Improvements For Better Performance &amp;amp; More</title>
-      <link>https://www.phoronix.com/news/Linux-AES-Library-2026</link>
-      <description>A set of 36 patches sent out overnight is making big improvements to the Linux kernel's AES library. The patches allow for making use of the kernel's existing architecture-optimized AES code for better performance, that code is also constant-time, lower memory use, and all-around a nice improvement over the status quo...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-AES-Library-2026</guid>
-      <pubDate>Mon, 05 Jan 2026 11:15:38 +0000</pubDate>
+      <title>Intel Core Ultra X7 358H + 32GB RAM Laptop Around ~$1300 USD</title>
+      <link>https://www.phoronix.com/news/MSI-Core-Ultra-X7-358H-1299</link>
+      <description>Yesterday when Intel formally introduced Panther Lake as the Core Ultra Series 3 with pre-orders set to begin today and available globally later this month, one of the key questions remaining was around pricing... I've been scouting various Internet retailers today and so far have found a Ultra X7 358H model with the 12 Xe cores for the Xe3 integrated graphics to be priced around $1299 USD with 32GB of RAM...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/MSI-Core-Ultra-X7-358H-1299</guid>
+      <pubDate>Tue, 06 Jan 2026 11:23:34 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Xe Driver Preps THP Support For "Significant" SVM Performance Gains</title>
-      <link>https://www.phoronix.com/news/Intel-THP-For-Xe-Driver-SVM</link>
-      <description>Intel engineer Francois Dugast today sent out the new patch series for enabling Transparent Hugepages (THP) support within the drm_pagemap code with a focus on the Intel Xe kernel driver usage. This enabling of THP support and in turn 2MB pages by the Xe driver is yielding "significant" performance improvements when using Shared Virtual Memory (SVM) such as for GPU compute workloads...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-THP-For-Xe-Driver-SVM</guid>
-      <pubDate>Mon, 05 Jan 2026 13:22:12 +0000</pubDate>
+      <title>AMD Releases GAIA 0.15 - Positioning It As A Framework/SDK For Building AI PC Agents</title>
+      <link>https://www.phoronix.com/news/AMD-GAIA-0.15</link>
+      <description>Last year AMD announced GAIA as short for "Generative AI Is Awesome". It started off as a Windows-only AI demo but over time added Linux support along with introducing different AI agents. For going along with AMD's AI announcements at CES 2026, AMD released GAIA 0.15 where they are now positioning this software as a framework/SDK for building AI PC agents...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-GAIA-0.15</guid>
+      <pubDate>Tue, 06 Jan 2026 11:28:32 +0000</pubDate>
     </item>
     <item>
-      <title>Patches Posted Seeking To Mainline Support For The Acer Swift SFA14-11 Snapdragon Laptop</title>
-      <link>https://www.phoronix.com/news/Acer-Swift-SFA14-11-DT-Patches</link>
-      <description>Patches posted to the Linux kernel mailing list are hoping to provide mainline support for the Acer Swift SFA14-11 laptop powered by the Qualcomm Snapdragon X1 Elite X1E78100 SoC...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Acer-Swift-SFA14-11-DT-Patches</guid>
-      <pubDate>Mon, 05 Jan 2026 14:13:36 +0000</pubDate>
+      <title>Flatpak Exploring GPU Virtualization To Ease Driver Challenges</title>
+      <link>https://www.phoronix.com/news/Flatpak-GPU-Virtualization</link>
+      <description>Open-source developer Sebastian Wick has written a blog post outlining work to improve the graphics driver situation for Flatpaks. Particularly around situations like the NVIDIA driver stack that may depend upon a specific kernel version or where a Flatpak runtime may be end-of-life, dealing with GPU drivers in Flatpaks can be a burden. A solution being explored is GPU virtualization to deal with those GPU driver handling challenges while still providing robust and secure GPU access...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Flatpak-GPU-Virtualization</guid>
+      <pubDate>Tue, 06 Jan 2026 11:34:05 +0000</pubDate>
     </item>
     <item>
-      <title>Apple SMC Power Driver Posted For Linux Kernel To Finally Expose Battery Stats</title>
-      <link>https://www.phoronix.com/news/Apple-Silicon-Power-Driver-2026</link>
-      <description>The newest open-source Apple Silicon driver being submitted for review in working toward its inclusion in the mainline Linux kernel is the Apple Silicon SMC power driver for being able to expose MacBook battery power metrics as well as AC power adapter status reporting under Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Apple-Silicon-Power-Driver-2026</guid>
-      <pubDate>Mon, 05 Jan 2026 14:56:22 +0000</pubDate>
+      <title>Revised Steam Survey For December 2025 Puts Linux Gaming Marketshare At 3.58%</title>
+      <link>https://www.phoronix.com/news/Steam-December-2025-Revised</link>
+      <description>Back on the 1st Valve published the Steam Survey results for December 2025 and they put the Linux gaming marketshare at 3.19%, a 0.01% dip from November. But now the December results have been revised with a nice bump to the Linux marketshare...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Steam-December-2025-Revised</guid>
+      <pubDate>Tue, 06 Jan 2026 13:52:43 +0000</pubDate>
     </item>
     <item>
-      <title>Radeon RADV Driver Lands Another Ray-Tracing Improvement: 30% Faster On RDNA2</title>
-      <link>https://www.phoronix.com/news/Mesa-26.0-RADV-RT-RDNA2-Faster</link>
-      <description>Konstantin Seurer as one of the open-source developers working on the RADV driver for Valve has landed another ray-tracing performance optimization for the upcoming Mesa 26.0 release...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.0-RADV-RT-RDNA2-Faster</guid>
-      <pubDate>Mon, 05 Jan 2026 17:00:33 +0000</pubDate>
+      <title>Pre-Compiled Headers Being Debated For LLVM/Clang To Speed-Up Build By 1.5~2x</title>
+      <link>https://www.phoronix.com/news/LLVM-PCH-Consideration</link>
+      <description>LLVM developers and other stakeholders have begun debating the use of pre-compiled headers "PCH" as a means of speeding up the compiulation of the LLVM compiler infrastructure by 1.5x to 2x than with non-PCH builds...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/LLVM-PCH-Consideration</guid>
+      <pubDate>Tue, 06 Jan 2026 14:05:11 +0000</pubDate>
     </item>
     <item>
-      <title>Valve &amp;amp; AMD Developers Delivered The Most Code Contributions To Mesa In 2025</title>
-      <link>https://www.phoronix.com/news/Mesa-Git-Stats-2025</link>
-      <description>A developer from Valve working on the RADV Vulkan driver was once again the most prolific contributor to Mesa in 2025 followed by AMD's Marek Olšák with continued improvements around RadeonSI and Gallium3D...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-Git-Stats-2025</guid>
-      <pubDate>Mon, 05 Jan 2026 17:22:13 +0000</pubDate>
+      <title>Transparent Hugepage Performance On Linux 6.18 LTS: Madvise vs. Always</title>
+      <link>https://www.phoronix.com/review/thp-madvise-always</link>
+      <description>With some Linux distributions like Fedora Workstation and Ubuntu defaulting to "madvise" Transparent Hugepages (THP) while others like CachyOS and openSUSE defaulting to "always", you may be curious about the madvise vs. always THP difference in modern Linux environments. If so this round of benchmarking is for you in looking at the performance impact of madvise vs. always THP.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/thp-madvise-always</guid>
+      <pubDate>Tue, 06 Jan 2026 15:45:00 +0000</pubDate>
     </item>
     <item>
-      <title>GNOME &amp;amp; Firefox Consider Disabling Middle Click Paste By Default: "An X11'ism...Dumpster Fire"</title>
-      <link>https://www.phoronix.com/news/GNOME-Firefox-MiddleClick-Paste</link>
-      <description>Both the GNOME desktop and Mozilla Firefox browser projects are considering disabling middle-click-paste functionality by default...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Firefox-MiddleClick-Paste</guid>
-      <pubDate>Mon, 05 Jan 2026 17:52:05 +0000</pubDate>
+      <title>Redox OS Begins Developing Its Own Intel Graphics Driver</title>
+      <link>https://www.phoronix.com/news/Redox-OS-Own-Intel-GPU-Driver</link>
+      <description>The Rust-written Redox OS operating system had an exciting end to the year as it began developing its own native Intel graphics driver...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Redox-OS-Own-Intel-GPU-Driver</guid>
+      <pubDate>Tue, 06 Jan 2026 16:55:52 +0000</pubDate>
     </item>
     <item>
-      <title>Radeon Linux Driver Patches For Next-Gen Hardware Point To New NPU Integration</title>
-      <link>https://www.phoronix.com/news/Radeon-GPU-NPU-SMU15</link>
-      <description>Back in November AMD began posting open-source Linux graphics driver patches for some next-gen graphics IP. Those IP block patches were for MMHUB, PSP, and other blocks making up modern AMD GPUs. The GFXHUB patch pointed it to being part of the GFX12 / RDNA4 family. Out today are new patches for enabling the SMU15 IP and an interesting takeaway there is some apparent NPU integration for future Radeon graphics...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Radeon-GPU-NPU-SMU15</guid>
-      <pubDate>Mon, 05 Jan 2026 20:43:52 +0000</pubDate>
+      <title>All Fedora 44 KDE Variants To Use Plasma Login Manager Rather Than SDDM</title>
+      <link>https://www.phoronix.com/news/Fedora-44-KDE-To-Plasma-Login</link>
+      <description>The Fedora Engineering and Steering Committee (FESCo) has approved a Fedora 44 change for switching all KDE variants away from using the SDDM display manager to instead use the newer Plasma Login Manager...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Fedora-44-KDE-To-Plasma-Login</guid>
+      <pubDate>Tue, 06 Jan 2026 19:28:23 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Talks Up Core Ultra Series 3 "Panther Lake" &amp;amp; Arc B390 Graphics</title>
-      <link>https://www.phoronix.com/news/Intel-CES-2026-Keynote</link>
-      <description>Intel just hosted their CES keynote where they formally launched Panther Lake as the Core Ultra Series 3 SoCs...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-CES-2026-Keynote</guid>
-      <pubDate>Mon, 05 Jan 2026 23:37:45 +0000</pubDate>
+      <title>Gentoo Linux Made Progress On RISC-V, WSL &amp;amp; More In 2025 While Pulling In Just $12k USD</title>
+      <link>https://www.phoronix.com/news/Gentoo-2025-Accomplishments</link>
+      <description>The Gentoo Linux project published their 2025 retrospective this week with their many accomplishments, including the recruitment of four more developers and now being up to 31,663 ebuilds and a total of 89GB worth of x86_64 binary packages on mirrors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Gentoo-2025-Accomplishments</guid>
+      <pubDate>Tue, 06 Jan 2026 22:47:35 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Announces Ryzen 7 9850X3D, New Strix Halo SKUs &amp;amp; Ryzen AI 400 Series</title>
-      <link>https://www.phoronix.com/review/amd-ryzen-ai-400-9850x3d</link>
-      <description>Lisa Su's keynote just wrapped up at CES 2026 and in turn the embargo regarding AMD's first consumer product announcements for 2026. The AMD Ryzen AI 400 series and new Ryzen 7 9850X3D 3D V-Cache processors are what's in focus for CES this year.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/amd-ryzen-ai-400-9850x3d</guid>
-      <pubDate>Tue, 06 Jan 2026 03:30:00 +0000</pubDate>
+      <title>Linux's Old Mount API Code On The Chopping Block For The 7.0 Kernel</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Dropping-Old-Mount</link>
+      <description>The Linux kernel's "new mount API" that has been in the kernel since 2019 and recently made rounds for taking 6+ years to land the man page documentation on it will soon be the the only mount API internally within the kernel. Removing the "old" Linux kernel mount API internals is a candidate for the upcoming Linux 7.0 kernel cycle...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Dropping-Old-Mount</guid>
+      <pubDate>Wed, 07 Jan 2026 01:31:59 +0000</pubDate>
     </item>
   </channel>
 </rss>
