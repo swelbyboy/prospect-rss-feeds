@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jan 2026 06:38:46 +0000</lastBuildDate>
-    <item>
-      <title>Intel Core Ultra X7 358H + 32GB RAM Laptop Around ~$1300 USD</title>
-      <link>https://www.phoronix.com/news/MSI-Core-Ultra-X7-358H-1299</link>
-      <description>Yesterday when Intel formally introduced Panther Lake as the Core Ultra Series 3 with pre-orders set to begin today and available globally later this month, one of the key questions remaining was around pricing... I've been scouting various Internet retailers today and so far have found a Ultra X7 358H model with the 12 Xe cores for the Xe3 integrated graphics to be priced around $1299 USD with 32GB of RAM...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/MSI-Core-Ultra-X7-358H-1299</guid>
-      <pubDate>Tue, 06 Jan 2026 11:23:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>AMD Releases GAIA 0.15 - Positioning It As A Framework/SDK For Building AI PC Agents</title>
-      <link>https://www.phoronix.com/news/AMD-GAIA-0.15</link>
-      <description>Last year AMD announced GAIA as short for "Generative AI Is Awesome". It started off as a Windows-only AI demo but over time added Linux support along with introducing different AI agents. For going along with AMD's AI announcements at CES 2026, AMD released GAIA 0.15 where they are now positioning this software as a framework/SDK for building AI PC agents...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-GAIA-0.15</guid>
-      <pubDate>Tue, 06 Jan 2026 11:28:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Flatpak Exploring GPU Virtualization To Ease Driver Challenges</title>
-      <link>https://www.phoronix.com/news/Flatpak-GPU-Virtualization</link>
-      <description>Open-source developer Sebastian Wick has written a blog post outlining work to improve the graphics driver situation for Flatpaks. Particularly around situations like the NVIDIA driver stack that may depend upon a specific kernel version or where a Flatpak runtime may be end-of-life, dealing with GPU drivers in Flatpaks can be a burden. A solution being explored is GPU virtualization to deal with those GPU driver handling challenges while still providing robust and secure GPU access...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Flatpak-GPU-Virtualization</guid>
-      <pubDate>Tue, 06 Jan 2026 11:34:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Revised Steam Survey For December 2025 Puts Linux Gaming Marketshare At 3.58%</title>
-      <link>https://www.phoronix.com/news/Steam-December-2025-Revised</link>
-      <description>Back on the 1st Valve published the Steam Survey results for December 2025 and they put the Linux gaming marketshare at 3.19%, a 0.01% dip from November. But now the December results have been revised with a nice bump to the Linux marketshare...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Steam-December-2025-Revised</guid>
-      <pubDate>Tue, 06 Jan 2026 13:52:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pre-Compiled Headers Being Debated For LLVM/Clang To Speed-Up Build By 1.5~2x</title>
-      <link>https://www.phoronix.com/news/LLVM-PCH-Consideration</link>
-      <description>LLVM developers and other stakeholders have begun debating the use of pre-compiled headers "PCH" as a means of speeding up the compiulation of the LLVM compiler infrastructure by 1.5x to 2x than with non-PCH builds...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/LLVM-PCH-Consideration</guid>
-      <pubDate>Tue, 06 Jan 2026 14:05:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>Transparent Hugepage Performance On Linux 6.18 LTS: Madvise vs. Always</title>
-      <link>https://www.phoronix.com/review/thp-madvise-always</link>
-      <description>With some Linux distributions like Fedora Workstation and Ubuntu defaulting to "madvise" Transparent Hugepages (THP) while others like CachyOS and openSUSE defaulting to "always", you may be curious about the madvise vs. always THP difference in modern Linux environments. If so this round of benchmarking is for you in looking at the performance impact of madvise vs. always THP.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/thp-madvise-always</guid>
-      <pubDate>Tue, 06 Jan 2026 15:45:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Redox OS Begins Developing Its Own Intel Graphics Driver</title>
-      <link>https://www.phoronix.com/news/Redox-OS-Own-Intel-GPU-Driver</link>
-      <description>The Rust-written Redox OS operating system had an exciting end to the year as it began developing its own native Intel graphics driver...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Redox-OS-Own-Intel-GPU-Driver</guid>
-      <pubDate>Tue, 06 Jan 2026 16:55:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>All Fedora 44 KDE Variants To Use Plasma Login Manager Rather Than SDDM</title>
-      <link>https://www.phoronix.com/news/Fedora-44-KDE-To-Plasma-Login</link>
-      <description>The Fedora Engineering and Steering Committee (FESCo) has approved a Fedora 44 change for switching all KDE variants away from using the SDDM display manager to instead use the newer Plasma Login Manager...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Fedora-44-KDE-To-Plasma-Login</guid>
-      <pubDate>Tue, 06 Jan 2026 19:28:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gentoo Linux Made Progress On RISC-V, WSL &amp;amp; More In 2025 While Pulling In Just $12k USD</title>
-      <link>https://www.phoronix.com/news/Gentoo-2025-Accomplishments</link>
-      <description>The Gentoo Linux project published their 2025 retrospective this week with their many accomplishments, including the recruitment of four more developers and now being up to 31,663 ebuilds and a total of 89GB worth of x86_64 binary packages on mirrors...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Gentoo-2025-Accomplishments</guid>
-      <pubDate>Tue, 06 Jan 2026 22:47:35 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 08 Jan 2026 06:38:53 +0000</lastBuildDate>
     <item>
       <title>Linux's Old Mount API Code On The Chopping Block For The 7.0 Kernel</title>
       <link>https://www.phoronix.com/news/Linux-7.0-Dropping-Old-Mount</link>
       <description>The Linux kernel's "new mount API" that has been in the kernel since 2019 and recently made rounds for taking 6+ years to land the man page documentation on it will soon be the the only mount API internally within the kernel. Removing the "old" Linux kernel mount API internals is a candidate for the upcoming Linux 7.0 kernel cycle...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Dropping-Old-Mount</guid>
       <pubDate>Wed, 07 Jan 2026 01:31:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>DRM Splash Screen Updated To Simply Drawing A Colored Background, Displaying A BMP Image</title>
+      <link>https://www.phoronix.com/news/DRM-Splash-Screen-v2</link>
+      <description>Back in October was an initial proposal for a DRM splash screen client for the Linux kernel that would be primarily useful for embedded systems for rendering a simple "splash screen" when updating the system firmware/software, early display activation at boot, during system recovery, or similar processes. Sent out today was a second revision to the DRM splash screen code...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/DRM-Splash-Screen-v2</guid>
+      <pubDate>Wed, 07 Jan 2026 10:40:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Acer Laptop Battery Control Driver Looks Toward The Upstream Linux Kernel</title>
+      <link>https://www.phoronix.com/news/Acer-Laptop-Battery-Linux</link>
+      <description>For those with Acer laptops running Linux on GitHub there has been an out-of-tree driver providing an experimental "acer-wmi-battery" kernel module to allow controlling battery-related features. Now a cleaned-up version of that driver is working on getting into the mainline Linux kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Acer-Laptop-Battery-Linux</guid>
+      <pubDate>Wed, 07 Jan 2026 10:51:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Compiler-Based Context &amp;amp; Locking Analysis On Deck For Linux 7.0 Paired With Clang 22+</title>
+      <link>https://www.phoronix.com/news/Linux-Compiler-Locking-Analysis</link>
+      <description>A new feature in the queue for likely introduction with the next version of the Linux kernel (Linux 6.20~7.0) is compiler-based context and locking analysis. This kernel code depends on the yet-to-be-released LLVM Clang 22 compiler but can provide some powerful insights to kernel developers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Compiler-Locking-Analysis</guid>
+      <pubDate>Wed, 07 Jan 2026 11:05:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Radeon RADV Vulkan Driver Is On The Verge Of Another Big Ray-Tracing Performance Gain</title>
+      <link>https://www.phoronix.com/news/RADV-More-RT-Performance-2026</link>
+      <description>Natalie Vock as one of the open-source developers on Valve's Linux graphics team has been spearheading another big ray-tracing performance improvement for the AMD Radeon Vulkan driver. RADV ray-tracing performance improved a lot in 2025 but it's looking like 2026 could be even more exciting...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/RADV-More-RT-Performance-2026</guid>
+      <pubDate>Wed, 07 Jan 2026 11:18:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Next-Gen AMD Server SoCs To Enjoy Firmware-Agnostic Platform Configuration Approach</title>
+      <link>https://www.phoronix.com/news/AMD-OSFC-2025-FIrmware-Config</link>
+      <description>Next-generation AMD server SoCs -- presumably the AMD EPYC "Venice" on Zen 6 -- is poised to introduce a firmware-agnostic platform configuration platform configuration change method/format. This is This aims to improve server platform interoperability and eliminate redundant configuration efforts for different firmware solutions...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-OSFC-2025-FIrmware-Config</guid>
+      <pubDate>Wed, 07 Jan 2026 15:31:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dell Pro Max GB10 vs. AMD Ryzen AI Max+ Framework Desktop For Llama.cpp, OpenCL &amp;amp; Vulkan Compute</title>
+      <link>https://www.phoronix.com/review/dell-pro-max-gb10-llama-cpp</link>
+      <description>Over the past number of weeks the Dell Pro Max with GB10 has been undergoing a lot of testing at Phoronix. This NVIDIA GB10 powered mini PC with its 20 Arm cores (10 x Cortex-X925, 10 x Cortex-A725) and Blackwell GPU offers a lot of combined compute potential for AI and other workloads. In this article is a look at how the Dell Pro Max with GB10 competes with AMD's Ryzen AI Max+ 395 "Strix Halo" within the Framework Desktop SFF PC.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/dell-pro-max-gb10-llama-cpp</guid>
+      <pubDate>Wed, 07 Jan 2026 16:42:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intel FSP Improvements With Core Ultra Series 3 "Panther Lake"</title>
+      <link>https://www.phoronix.com/news/Intel-FSP-Panther-Lake</link>
+      <description>While for years open-source firmware enthusiasts have been after an open-source Firmware Support Package "FSP" for Intel CPUs and back during Raja Koduri's tenure at Intel it sounded like it might happen, it has yet to happen. But at least with the forthcoming Intel Core Ultra Series 3 "Panther Lake" there are some FSP improvements...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-FSP-Panther-Lake</guid>
+      <pubDate>Wed, 07 Jan 2026 18:24:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>AMD Linux GPU Driver Improvement Coming For DP-HDMI Dongles</title>
+      <link>https://www.phoronix.com/news/AMDGPU-DP-HDMI-Dongle-340MHz</link>
+      <description>For those using a DisplayPort to HDMI dongle currently with the AMDGPU Linux kernel graphics driver may find some higher resolutions / modes unavailable. Fortunately, a fix is on the way for dealing with this situation due to an oversight in the kernel driver...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-DP-HDMI-Dongle-340MHz</guid>
+      <pubDate>Wed, 07 Jan 2026 20:24:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>FEX 2601 Brings Various Fixes, Improvements For Wine &amp;amp; DXVK/VKD3D-Proton</title>
+      <link>https://www.phoronix.com/news/FEX-Emu-2601</link>
+      <description>FEX, the open-source emulator for running x86 and x86_64 binaries on AArch64 (ARM64) Linux and that is sponsored by Valve and to be used by the Steam Frame, is out with a new monthly feature release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FEX-Emu-2601</guid>
+      <pubDate>Thu, 08 Jan 2026 01:03:05 +0000</pubDate>
     </item>
   </channel>
 </rss>
