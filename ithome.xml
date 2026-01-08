@@ -8,77 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Jan 2026 06:41:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 06:41:02 +0000</lastBuildDate>
     <item>
-      <title>英特爾推出效能及能源效率更好的Core Ultra系列3處理器，搭載新處理器的筆電1月底上市</title>
-      <link>https://www.ithome.com.tw/news/173187</link>
-      <description>新聞在美國消費電子展(CES)，英特爾正式發表代號為Panther Lake的新一代AI PC處理器Core Ultra系列3，為首款採用Intel 18A製程打造的AI PC平台，並強調在美國完成設計與製造，未來將與合作夥伴推出超過200款產品設計，以不同機型設計擴大AI PC市場。 英特爾指出，Core Ultra系列3設計重點在於改善能源效率、強化CPU效能，結合高規格的GPU與更強大的AI運算能力。 在行動處理器上，Core Ultra系列3推出Core Ultra X9與X7，搭載整合式的Intel Arc顯示晶片，以滿足遊戲、內容創作與高生產力的多工用途，其最高可達為16核心CPU、12個Xe核心，並具備50 NPU TOPS的AI運算能力。 在新的18A製程加持下，新的行動處理器在多執行緒效能上最高提升60%，提升超過77%的遊戲效能，電池續航力最長可達27個小時。 另外，Core Ultra系列3也針對主流市場提供Intel Core處理器，同樣採用Core Ultra系列3的核心架構，瞄準主流筆電市場的效能與能源效率。 目前Core Ultra系列3處理器的消費型筆電</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173187</guid>
-      <pubDate>Tue, 06 Jan 2026 10:18:24 +0000</pubDate>
+      <title>npm被當成釣魚基礎設施，27個惡意套件鎖定企業帳密</title>
+      <link>https://www.ithome.com.tw/news/173224</link>
+      <description>新聞聚焦開源軟體供應鏈安全的美國資安新創Socket近日揭露一起高度客製化的魚叉式網釣攻擊行動，駭客利用6個不同的npm帳號，上傳至少27個惡意npm套件，這些套件被用來投放可在瀏覽器中執行的釣魚頁面，先偽裝成企業文件分享流程，再引導至仿冒的微軟登入畫面，以竊取受害者的微軟帳號憑證。 Socket 遭到駭客鎖定的受害者會先收到網釣電子郵件，主題多為文件分享、詢價單或合約資料，郵件內含一個文件連結，但實際指向npm生態系的官方內容傳遞網路（CDN），如unpkg或jsDelivr；點擊後，頁面宣稱需要先驗證身分才能查看文件，隨後轉至偽造的微軟登入畫面，而且已預先填入目標對象的電子郵件地址，以登入逾時為由要求受害者重新登入並輸入密碼，該憑證即被傳送至駭客所控制的伺服器。 值得注意的是，這些惡意的npm套件中直接硬編碼特定對象的電子郵件地址，顯示駭客在發動攻擊之前，已事先鎖定受害者並量身設計釣魚流程，至少有25名目標對象被鎖定，高度集中於製造、工業自動化、塑膠與醫療產業中的業務與商業開發人員，且主要分布於美國與其盟國，包括臺灣、奧地利、英國、比利時、加拿大、法國、德國、義大利、瑞典、葡萄牙及</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173224</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0108-npm-2-by%20Socket.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 07 Jan 2026 22:01:28 +0000</pubDate>
     </item>
     <item>
-      <title>威聯通更新兩款NAS應用程式，分別修補高風險路徑穿越及SQL注入漏洞</title>
-      <link>https://www.ithome.com.tw/news/173185</link>
-      <description>新聞威聯通（QNAP）在2026年1月3日發布兩份資安通報，針對NAS上的兩個應用程式，分別是自動歸檔與檔案整理應用程式Qfiling，以及多應用程式復原服務MARS（ Multi-Application Recovery Service）修補弱點。Qfiling屬於路徑穿越（Path Traversal）漏洞，要是遭利用，遠端攻擊者可能讀取非預期檔案內容或系統資料。MARS則為SQL注入漏洞，遠端攻擊者可濫用於執行未授權程式碼或命令。兩份通報嚴重程度皆為重要，官方建議使用者更新至已修補版本或更新版以降低風險。 威聯通指出Qfiling存在路徑穿越漏洞CVE-2025-59384，受影響範圍為Qfiling 3.13.x。通報指出，當該漏洞遭利用，攻擊者可能繞過原先預期的路徑限制，進而讀取不應被存取的檔案內容或系統資料。官方表示已在Qfiling 3.13.1以上版本修補，並建議更新至最新版以降低風險。 另一份資安通報指出，MARS存在SQL注入漏洞CVE-2025-59387，受影響範圍為MARS 1.2.x。通報說明，該漏洞允許遠端攻擊者執行未授權程式碼或命令。威聯通已在MARS</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173185</guid>
-      <pubDate>Tue, 06 Jan 2026 10:33:14 +0000</pubDate>
+      <title>兩款惡意Chrome擴充套件洩漏ChatGPT與DeepSeek對話內容，累計安裝超過90萬次</title>
+      <link>https://www.ithome.com.tw/news/173222</link>
+      <description>新聞資安業者OX Security指出，Chrome線上應用程式商店出現兩款惡意擴充套件，會將使用者在ChatGPT與DeepSeek的對話內容連同瀏覽資料外傳至攻擊者控制的伺服器。兩個套件在商店頁面分別顯示約60萬與30萬名使用者，合計超過90萬。研究人員另指出，其中一款曾帶有Chrome線上應用程式商店的精選徽章，增加其在搜尋結果與推薦位置的曝光機會。 遭研究人員點名的兩款擴充套件分別為Chat GPT for Chrome with GPT-5, Claude Sonnet &amp;amp; DeepSeek AI，以及AI Sidebar with Deepseek, ChatGPT, Claude and more。這兩款套件在商店頁面主打可在瀏覽器內提供AI側邊欄，讓使用者在任何網頁上直接呼叫ChatGPT、DeepSeek等模型進行對話與輔助寫作、摘要等工作。 研究人員指出，攻擊者正是利用這類看似便利的AI側邊欄功能作為包裝，仿冒Aitopia的合法AI側邊欄擴充套件外觀與描述，讓套件看似可正常使用以降低戒心，並在背景蒐集及外傳資料。而且攻擊者利用AI驅動的網頁開發平臺Lovable架</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173222</guid>
+      <pubDate>Wed, 07 Jan 2026 22:11:26 +0000</pubDate>
     </item>
     <item>
-      <title>X平臺Grok涉製作與擴散疑似兒少性剝削影像，遭多國調查</title>
-      <link>https://www.ithome.com.tw/news/173189</link>
-      <description>新聞X平臺內建的生成式AI聊天機器人Grok，被指可把既有照片改成近乎裸體或衣著被改成極少布料的性化影像，並出現涉及未成年或疑似未成年被性化內容的疑慮，引發英國、歐盟、法國與馬來西亞等地主管機關相繼表態與啟動程序。 多方監管關切重點並非單一新功能本身，而是X在導入影像編輯與成人內容模式後，是否完成風險評估並採取足夠的預防、偵測與下架機制，以降低非法內容生成與在平臺流通的風險，以及後續處置與通報作業是否符合各地法規義務。 這波爭議與Grok在X上提供的影像編輯與生成能力有關。有使用者在含有真人照片的貼文底下標註@Grok並下提示詞，要求Grok依貼文中的照片生成經變造的性化影像，生成結果以回覆形式公開出現在貼文串中，而照片當事人往往並未同意。 英國方面，通訊監管機關Ofcom表示已緊急聯繫X與xAI，要求說明為遵循英國保護使用者的法定義務採取了哪些作法，並將依回覆內容迅速評估是否存在需要進一步調查的合規疑慮。歐盟也已介入了解，歐盟執委會表示正嚴肅檢視相關申訴，執委會發言人Thomas Regnier提到，Grok所謂辛辣模式被指輸出未成年或兒少樣貌的性化影像，強調這類內容屬違法，且不應出</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173189</guid>
-      <pubDate>Wed, 07 Jan 2026 02:27:59 +0000</pubDate>
+      <title>第三方AI模型評測平臺LMArena完成1.5億美元A輪募資，估值達17億美元</title>
+      <link>https://www.ithome.com.tw/news/173223</link>
+      <description>新聞知名第三方AI模型評測平臺LMArena宣布完成1.5億美元A輪募資，募資由Felicis與加州大學投資機構UC Investments共同領投。路透社報導指出，該公司估值在約8個月內成長至約17億美元。 LMArena表示，近一年生成式AI競爭加劇，讓可重現、可驗證的模型評測需求變得更迫切。模型開發團隊需要更具體的回饋來改善模型，企業用戶也需要更可靠的依據，以判斷哪一種模型在自身情境下表現較好，因此LMArena選擇在此時點加碼投資評測基礎設施，並擴充產品與研究能量。 該公司最早以研究計畫形式起步，核心概念是把不同模型的回覆以匿名方式並排呈現，讓使用者在看完回答後投票選出較佳的一方，並將結果彙整成公開排行榜，反映更接近真實使用情境的人類偏好。 LMArena官方將平臺成長歸因於社群參與，並表示自2025年5月宣布完成1億美元種子輪募資後，社群規模在不到一年內成長超過25倍，且在文字、視覺、網頁開發、搜尋、影片與影像等任務型態累積5,000萬次投票，新增超過400項模型評測，並釋出14.5萬筆開源對戰資料點，涵蓋文字、多模態、專家與職務類別等資料集。 LMArena在公告中指出，A</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173223</guid>
+      <pubDate>Thu, 08 Jan 2026 00:08:27 +0000</pubDate>
     </item>
     <item>
-      <title>東京FM電臺證實外部雲端服務外洩部份用戶個資</title>
-      <link>https://www.ithome.com.tw/news/173196</link>
-      <description>新聞駭客上周宣稱駭入日本廣播電臺東京FM，並竊取300萬筆記錄。不過東京FM澄清公司內部系統並未遭駭；外洩資訊是來自該公司使用的第三方雲端分析服務。 資安業者Hackmanac在1月1日發現駭客論壇上一名名為victim的人士，宣稱駭入東京FM廣播（Tokyo FM Broadcasting），據稱竊得的300萬筆記錄。外洩的個資包含姓名、電子郵件、出生日期、IP、使用者代理人字串、工作資訊、多個內部系統的登入ID。 資安公司根據開放網際網路及暗網蒐集的資料做出分析，並且透過社群平臺發出這則預警。不過東京FM昨（6）日發出聲明指出，傳言和事實有所出入。 東京FM在得知可能資訊外洩後，緊急對執行公司網站（包括節目發布功能）及該公司營運的廣播平臺AuDee的兩臺伺服器進行調查，兩臺伺服器均未發現未授權存取或資訊外洩的跡象。而AuDee平臺也已在2025年9月關閉。 但同時東京FM發現他們用於用戶統計分析的第三方雲端服務，有部份用戶屬性資料因「某些原因」外洩。東京FM正偕同這家雲端服務業者進一步調查原因。 至於從第三方平臺外洩的用戶資料，是AuDee平臺的一部份用戶貼文，及MyStudio與</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173196</guid>
-      <pubDate>Wed, 07 Jan 2026 03:05:13 +0000</pubDate>
+      <title>OpenAI發表ChatGPT Health 強調不會以用戶資料訓練模型</title>
+      <link>https://www.ithome.com.tw/news/173226</link>
+      <description>新聞OpenAI昨日（1/7）宣布ChatGPT健康（ChatGPT Health），提供使用者一個和ChatGPT專門討論或尋找健康資訊的地方，強調確保用戶健康資訊隱私與安全，不會以用戶對話和資料訓練基礎模型。 OpenAI指出，全球迄今每周有2.3億用戶在ChatGPT上詢問健康和福祉相關的問題，ChatGPT Health因此應運而生，讓ChatGPT可依據用戶健康資料來提供回應。 ChatGPT Health是OpenAI和60個國家260多位醫師和專科醫師合作，花費兩年時間打造並改進回應內容，著重安全、清晰度、健康助益及對個人的尊重。 病歷及健康資訊極為敏感，OpenAI特別強調ChatGPT Health整合了隱私和安全設計。用戶健康資訊將儲存在ChatGPT的專屬空間，擁有自己的記憶體和隱私保護。ChatGPT中的對話和檔案在傳送（transit）及儲存（rest）狀態原本都已經過加密，而ChatGPT Health還額外加入專門的加密及隔離防護。OpenAI並承諾，ChatGPT Health中的對話都不會被用於訓練其基礎模型。 ChatGPT Health定位為健康與</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173226</guid>
+      <pubDate>Thu, 08 Jan 2026 02:39:08 +0000</pubDate>
     </item>
     <item>
-      <title>殭屍網路RondoDox將重大漏洞React2Shell納入武器庫，綁架Next.js應用程式伺服器</title>
-      <link>https://www.ithome.com.tw/news/173183</link>
-      <description>新聞鎖定物聯網裝置資安漏洞而來的殭屍網路RondoDox，最早是半年前資安公司Fortinet發現相關活動，當時他們看到駭客大肆掃描TKB的DVR設備作業系統命令注入漏洞CVE-2024-3721，以及中國網路設備廠商廈門四信科技工控路由器命令注入漏洞CVE-2024-12856，如今有資安公司指出，此殭屍網路的活動最早可追溯到2025年3月。 威脅情報公司CloudSEK指出，RondoDox從12月上旬開始轉換主要攻擊目標，利用CVE-2025-55182（React2Shell）綁架Next.js應用程式伺服器，後續進一步更換基礎設施從事相關活動，該公司從12月13日起，不到一週，已發現超過40起重複的攻擊活動。此殭屍網路病毒迄今已發展出超過10個變種，CloudSEK也確認有6臺C2伺服器用於相關活動。 CVE-2025-55182存在於React伺服器元件（React Server Components，RSC）的重大漏洞，發現此漏洞的研究人員將其命名為React2Shell，此漏洞可被用於遠端執行任意程式碼，CVSS風險值達到10分，而且非常容易利用，公開不久就有多組中國國</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173183</guid>
-      <pubDate>Wed, 07 Jan 2026 03:20:27 +0000</pubDate>
+      <title>D-Link多款停產DSL路由器曝重大漏洞，已出現攻擊利用跡象</title>
+      <link>https://www.ithome.com.tw/news/173225</link>
+      <description>新聞友訊科技（D-Link）多款已達產品生命週期終止（EoL）的DSL路由器，被揭露存在高風險命令注入漏洞，且相關攻擊行為已在蜜罐環境中被觀測到。該漏洞被編列為CVE-2026-0625，CVSS風險分數高達9.3，屬於高風險等級。 漏洞情報公司VulnCheck指出，CVE-2026-0625源於路由器韌體中dnscfg.cgi端點對DNS設定參數的輸入驗證不足，導致未經身分驗證的遠端攻擊者可注入並執行任意Shell指令，進而造成遠端程式碼執行風險（Remote Code Execution，RCE）。 D-Link已針對CVE-2026-0625，於1月6日發布安全公告，說明目前尚無法僅依產品型號判斷是否受影響，必須直接檢視設備韌體內容，因此正同步檢視已停產與仍受支援平臺的多個韌體版本，作為內部調查的一部分。此外，受影響的dnscfg.cgi端點，也與名為DNSChanger的惡意程式有關。 研究人員指出，DNSChanger是一類專門入侵路由器並竄改DNS設定的惡意程式，在2016年至2019年間，曾被用於針對DSL-2740R、DSL-2640B、DSL-2780B與DSL-5</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173225</guid>
+      <pubDate>Thu, 08 Jan 2026 02:41:45 +0000</pubDate>
     </item>
     <item>
-      <title>Google修補Chrome高風險漏洞，WebView安全缺陷恐遭濫用</title>
-      <link>https://www.ithome.com.tw/news/173190</link>
-      <description>新聞Google於1月6日發布桌面版Chrome穩定通道更新，涵蓋Windows（143.0.7499.192）、Mac（143.0.7499.193）與Linux（143.0.7499.192）平臺，並將於未來數天至數週內分批推送。此次更新共修補1項高風險資安漏洞CVE-2026-0628。 Google指出，CVE-2026-0628源於WebView標籤中的政策落實不足，在特定情境下，可能被攻擊者濫用以繞過既有的安全限制。由於該漏洞被評為高風險等級，Google表示，在多數使用者完成更新前，將暫時限制漏洞細節與相關連結的公開。 該漏洞由外部資安研究人員Gal Weizman於2025年11月通報，Google未提及是否出現漏洞濫用活動，而且，目前其CVSS風險評分尚未公布，美國NVD、歐盟EUVD等漏洞資料庫也沒有此漏洞的細部資訊。 WebView是基於Chromium的嵌入式網頁顯示元件，常用於應用程式、瀏覽器延伸功能與企業內部系統中，用來在既有介面內直接呈現與執行網頁內容。Chrome會透過多層政策機制，限制WebView可存取的資源與行為範圍；一旦WebView政策執行機制</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173190</guid>
-      <pubDate>Wed, 07 Jan 2026 03:34:48 +0000</pubDate>
+      <title>英國車廠Jaguar Land Rover銷售下滑43%，網路攻擊事故是主因</title>
+      <link>https://www.ithome.com.tw/news/173227</link>
+      <description>新聞受到去年9月網路攻擊事件，導致工廠停工將近一個月，以及美國關稅影響，英國車廠Jaguar Land Rover上季全球車輛批發及零售出貨分別驟降43%及25%。 根據Jaguar Land Rover（JLR）的會計年度2026年第三季財報，批發出貨為5.9萬輛，較前一年減少43.3%，較上季減10.6%。零售出貨則為7.96萬輛，年減25.1%。 JLR最新財報說明，網攻事件後該公司直到11月中旬，生產才回復到平日水準，加上車輛配銷全球的時間遞延，因而導致上季衰退的批發與零售數字。其他原因還包括上季該公司在推出新款Jaguar前，採取計畫性減產舊款Jaguar，以及今年美國關稅對JLR美國市場出口的負面影響。 以各區域市場成績來看，上季JLR北美市場出貨受創最深，大減64.4%，歐洲及中國區則年減47.6%及46.0%，英國市場則衰退0.9%。 JLR去年9月2日發生資安事故，被迫關閉系統並且暫停部份工廠營運。路透社報導JLR在英國的三座工廠，每天能生產1,000部Land Rover，每停工一星期將損失6,800萬美元，而網攻事件可能造成JLR兩座英國境內工廠停工。 第三方研究</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173227</guid>
+      <pubDate>Thu, 08 Jan 2026 03:24:58 +0000</pubDate>
     </item>
     <item>
-      <title>英特爾子公司Mobileye收購AI人形機器人開發商Mentee Robotics</title>
-      <link>https://www.ithome.com.tw/news/173201</link>
-      <description>新聞英特爾旗下子公司Mobileye昨（1/6）日宣布，計畫以9億美元收購以色列AI人形機器人開發商Mentee Robotics。 Mobileye將以將近6.12億美元現金加股票，總值9億美元收購這家以第三代AI人形機器人知名的公司。這樁交易將整合Mobileye的電腦視覺AI技術和全球製造資源，以及Mentee的人形機器人平臺和AI人才，以建立實體AI市場的實力，包含自駕車和人形機器人。 Mentee生產整合機器人、感測器及AI的人形機器人，其機器人具備類似人類的感知與靈巧操作能力，並支援自然互動，可用於倉儲及家庭自動化或勞動，也能為不同環境及任務客製化及個人化。該公司官網也展示了強調非遠端人員操作的機器人自主運作的影片。 Mobileye並介紹，Mentee技術優勢包含AI技術及機器人硬體。其Mentee平臺植基於AI基礎模型、結合強化式學習的運動控制模型，以及自家模擬訓練方法；硬體則包含專屬致動器提供優越扭力及精巧身軀、馬達驅動器提供優異控制及行為透通性、其機器人手部設計具備觸覺感測能力。此外，可熱插拔的電池允許不停機操作。 雙方表示，Mentee的視覺語言行為（vision</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173201</guid>
-      <pubDate>Wed, 07 Jan 2026 03:55:15 +0000</pubDate>
+      <title>不防外流也能防濫用，研究提出資料摻雜新作法</title>
+      <link>https://www.ithome.com.tw/news/173228</link>
+      <description>新聞一群來自新加坡與中國的研究人員，近日發表一篇名為《Making Theft Useless: Adulteration-Based Protection of Proprietary Knowledge Graphs in GraphRAG Systems》的論文，著重於在企業既有的知識圖譜（Knowledge Graph，KG）中摻雜資料，使得就算在資料外洩後，若駭客企圖利用GraphRAG（Graph Retrieval-Augmented Generation）將KG接上大型語言模型（LLM）進行推理，也只會得到錯誤或失真的結果。 知識圖譜為一種結構化的知識表示方式，以實體（人、物、概念）以及它們之間的關係為核心，形成可被機器理解的知識網路。根據一份德國學者Heiko Paulheim的研究，由專家人工撰寫的通用型知識圖譜專案Cyc的每筆Triple（KG基本單位）的成本約為5.71美元，就算是基於社群協作的Freebase每筆Triple成本也要2.25美元，相較之下，自動化KG的每筆Triple成本，只介於0.01至0.15美元之間。 研究人員指出，企業內部所建立的知識圖</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173228</guid>
+      <pubDate>Thu, 08 Jan 2026 04:05:43 +0000</pubDate>
     </item>
     <item>
-      <title>xAI完成200億美元的E輪融資</title>
-      <link>https://www.ithome.com.tw/news/173214</link>
-      <description>新聞由馬斯克（Elon Musk）領軍的AI新創xAI周二（1/6）宣布，該公司已完成E輪融資，且原本只要募資150億美元，最後成功募集了200億美元。除了包括Valor Equity Partners與StepStone Group等多家創投公司外，Nvidia與思科（Cisco）亦以策略投資人身分參與。 xAI並未揭露此次融資前後的公司估值，但根據CNBC在2025年11月的報導，指出xAI將完成150億美元的融資，融資前的估值為2,300億美元。 xAI表示，此次募集的資金將用來加速基礎設施建置，推動革命性的AI產品快速開發與部署，同時支援突破性研究，以及持續推動xAI「理解宇宙」的核心使命。 目前xAI已在自家建置的資料中心平臺Colossus I與Colossus II部署全球最大的超級電腦，截至2025年底，這兩個平臺已安裝超過等同於100萬顆Nvidia H100 GPU的運算容量。 xAI利用X平臺上的資訊於Colossus資料中心訓練Grok語言模型，現階段的最新版本為Grok 4，也已推出語音代理工具Grok Voice，以及圖像及影片生成模型Grok Imagin</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173214</guid>
-      <pubDate>Wed, 07 Jan 2026 05:21:21 +0000</pubDate>
+      <title>高通發表機器人開發平臺Dragonwing IQ10</title>
+      <link>https://www.ithome.com.tw/news/173229</link>
+      <description>新聞在本周消費電子大展（CES）上，高通（Qualcomm）宣布Dragonwing IQ10作為家用及生產用機器人的開發平臺，加入人型機器人熱潮。 這是在最新單系統PC晶片Snapdragon X2 Plus外，高通另一個跨足新領域的宣示。X2 Plus整合CPU、NPU及GPU，CPU時脈達4.04GHz，較前代快35%，但功耗降低43%，可支援筆電運行數天。其NPU具備80 TOPS算力，時脈達1.7GHz。X2 Plus鎖定中階筆電和PC，搭載這款晶片的PC產品預計今年下半問世。 高通指出，Dragonwing IQ10是以其安全等級的高效能單系統晶片（SoC）為基礎的實體AI全新端到端架構，提供高效能、低耗電的機器人AI大腦，支援開發各種form factor的機器人，從產線用的自主移動機器人（autonomous mobile robot,AMR）到真人大小的人型機器人或其他通用型機器人。 Dragonwing IQ10包含高通的晶片與硬體架構及AI工具形成的技術堆疊。根據官網，IQ10硬體元件為一高整合度的機器人SoC系統，包括Oryon CPU，最高可到18核心、Hex</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173229</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0108-Dragonwing%20IQ10(1).png" length="0" type="image/png"/>
+      <pubDate>Thu, 08 Jan 2026 04:57:31 +0000</pubDate>
     </item>
     <item>
-      <title>駭客以假BSOD錯誤訊息發動ClickFix攻擊</title>
-      <link>https://www.ithome.com.tw/news/173215</link>
-      <description>新聞資安業者Securonix發現近來俄羅斯駭客以包含假造Windows藍色死亡螢幕（Blue Screen of Death,BSOD）的ClickFix手法攻擊飯店業者，以便在受害者系統執行遠端指令。 研究人員自數個月前追蹤到這波攻擊，並將之命名為為PHALT#BLYX。這波行動包含多階段感染。攻擊行動鎖定歐洲旅館業者，可能是處理訂房事宜的員工。一開始，攻擊者假造以booking.com取消訂房為名義的釣魚信件，信中包含上千歐元的收費，以誘使受害者點擊其中的連結。連結導向假冒booking.com的釣魚網站。但網站顯示假的CAPTCHA，點選後又出現假的BSOD頁面。這個BSOD頁面要求受害者按照指示打開Windows Run（Win + R），貼上已複製到剪貼簿中的惡意PowerShell命令執行。 Securonix 這一連串攻擊結果是click-fix攻擊，會在用戶裝置執行PowerShell指令，下載v.proj專案檔案，並呼叫合法微軟工具MSBuild.exe來編譯、執行最終酬載。最終部署的是DCRat遠端存取木馬（RAT）。這隻RAT會與外部C2伺服器建立連結，可在受害</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173215</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0107-bsod-Securonix-600.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 07 Jan 2026 05:42:04 +0000</pubDate>
+      <title>外傳Anthropic打算融資100億美元，估值達3,500億美元</title>
+      <link>https://www.ithome.com.tw/news/173230</link>
+      <description>新聞華爾街日報（Wall Street Journal，WSJ）本周引述消息來源報導，AI聊天機器人Claude開發商Anthropic計畫以3,500億美元的估值，募集100億美元，接近2025年9月1,830億美元估值的兩倍。 Anthropic是一家成立於2021年的美國人工智慧公司，由Dario Amodei與Daniela Amodei等前OpenAI成員共同創辦，其核心理念是透過明確原則來約束模型行為，降低偏誤、幻覺與濫用風險。Anthropic的主要產品為Claude系列大型語言模型，2025年底的目標是實現90億美元的年度經常性收入，更預期該數字到了2026年將達3倍。 目前全球估值最高的前三大AI新創，依序是OpenAI、Anthropic與xAI。其中，OpenAI在2025年10月的估值為5,000億美元，但2026年初新展開的募資提案，就提高到7,500億美元左右；居次的即是Anthropic的3,500億美元；由馬斯克（Elon Musk）領軍的xAI在最近一次融資前的估值為2,300億美元。 英國金融時報（Financial Times，FT）曾報導，Ope</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173230</guid>
+      <pubDate>Thu, 08 Jan 2026 05:41:10 +0000</pubDate>
     </item>
     <item>
-      <title>AMD以開放式機櫃架構Helios迎戰Nvidia AI工廠</title>
-      <link>https://www.ithome.com.tw/news/173216</link>
-      <description>新聞AMD在本周舉行的CES 2026展上，正式揭露名為Helios的機櫃級AI平臺，首度將「yotta級AI運算」從概念推進為可落地的系統藍圖，也被外界視為正面回應Nvidia日前提出的Rubin AI工廠平臺，顯示AI運算競爭正式升級至機櫃與資料中心層級。 Nvidia的Rubin平臺整合了Vera CPU、Rubin GPU、NVLink 6交換器、ConnectX-9 SuperNIC、BlueField-4 DPU，以及Spectrum-6乙太網路交換器等6大元件，並搭配完整軟體堆疊，構成一個高度系統化、由Nvidia定義的AI工廠平臺。 而Helios則是一套完整的機櫃級參考架構，整合了AMD Instinct MI455X GPU、EPYC Venice CPU、Pensando Vulcano網路介面卡，以及ROCm軟體生態系統。AMD指出，單一Helios機櫃可提供高達3 AI exaFLOPS效能，專為兆級參數模型的訓練與推論需求設計，鎖定未來AI工廠等級的部署場景。 與Nvidia以高度整合的平臺方式定義AI工廠不同，AMD在Helios上強調開放與模組化，將其定</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173216</guid>
-      <pubDate>Wed, 07 Jan 2026 06:33:32 +0000</pubDate>
+      <title>TOTOLINK無線訊號強波器重大漏洞，可讓攻擊者完全控制裝置</title>
+      <link>https://www.ithome.com.tw/news/173231</link>
+      <description>新聞TOTOLINK已停產的無線訊號強波器（Wireless Extender）EX200 Extender存在一項重大漏洞，能讓遠端攻擊者全權接管系統。 這項漏洞編號CVE-2025-65606，存在於已經EoL（End of Life）的TOTOLINK EX200韌體的韌體上傳（firmware-upload）處理單元（handler）。根據CERT/CC說明，該機制在處理某些變造過的韌體檔案時會發生異常。此時，TOTOLINK裝置會啟動，以root權限執行一個telnet服務，而且不需要驗證。一般情況下telnet介面是關閉的，而且不應曝露在網際網路上，因此該行為會產生不應出現的遠端執行介面。 本漏洞是由研究人員Leandro Kogan通報。 攻擊者若想利用本漏洞，他必須已是Web管理介面驗證過的使用者，才能存取韌體上傳功能。但一旦錯誤條件被觸發，就能讓未經驗證的telnet服務大開方便門，讓攻擊者掌握裝置完整控制權。攻擊者可能執行各種惡意行為，包括變更配置、執行任意指令、或在受害裝置建立持久的網路存取管道。 TOTOLINK已證實EX200為停產產品，不會為此發布安全更新。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173231</guid>
+      <pubDate>Thu, 08 Jan 2026 06:11:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
