@@ -8,78 +8,81 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Jan 2026 06:41:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 06:41:05 +0000</lastBuildDate>
     <item>
-      <title>npm被當成釣魚基礎設施，27個惡意套件鎖定企業帳密</title>
-      <link>https://www.ithome.com.tw/news/173224</link>
-      <description>新聞聚焦開源軟體供應鏈安全的美國資安新創Socket近日揭露一起高度客製化的魚叉式網釣攻擊行動，駭客利用6個不同的npm帳號，上傳至少27個惡意npm套件，這些套件被用來投放可在瀏覽器中執行的釣魚頁面，先偽裝成企業文件分享流程，再引導至仿冒的微軟登入畫面，以竊取受害者的微軟帳號憑證。 Socket 遭到駭客鎖定的受害者會先收到網釣電子郵件，主題多為文件分享、詢價單或合約資料，郵件內含一個文件連結，但實際指向npm生態系的官方內容傳遞網路（CDN），如unpkg或jsDelivr；點擊後，頁面宣稱需要先驗證身分才能查看文件，隨後轉至偽造的微軟登入畫面，而且已預先填入目標對象的電子郵件地址，以登入逾時為由要求受害者重新登入並輸入密碼，該憑證即被傳送至駭客所控制的伺服器。 值得注意的是，這些惡意的npm套件中直接硬編碼特定對象的電子郵件地址，顯示駭客在發動攻擊之前，已事先鎖定受害者並量身設計釣魚流程，至少有25名目標對象被鎖定，高度集中於製造、工業自動化、塑膠與醫療產業中的業務與商業開發人員，且主要分布於美國與其盟國，包括臺灣、奧地利、英國、比利時、加拿大、法國、德國、義大利、瑞典、葡萄牙及</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173224</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0108-npm-2-by%20Socket.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 07 Jan 2026 22:01:28 +0000</pubDate>
+      <title>釣魚郵件改以HTML表格繪製QR Code，恐規避影像偵測</title>
+      <link>https://www.ithome.com.tw/news/173245</link>
+      <description>新聞資安顧問公司Nettles Consulting研究人員指出，近期觀察到一波實際流入收件匣的釣魚郵件活動，這些郵件並未以圖片嵌入QR Code，而是使用HTML表格的儲存格逐格指定黑白背景色，在郵件內文中繪製可掃描的QR Code圖樣。由於不少郵件安全產品對QR Code的偵測與解析長期以影像內容為主要分析對象，這類無影像QR Code的呈現方式有機會降低既有偵測規則的命中率，成為QR Code釣魚的另一種繞過途徑。 研究人員分析提到，惡意使用QR Code在實體與電子郵件中早已常見，掃描後導向釣魚頁面的效果與點擊網址連結並無不同。隨著安全廠商陸續強化對郵件內含QR Code影像的偵測與分析，攻擊者也持續尋找替代呈現方式，試圖避開以圖片為核心的檢測流程。 他取得的樣本郵件寄送時間落在2025年12月22日至26日，版面設計相對簡單，通常只有數行文字搭配一個置中的QR圖樣。從使用者視角看起來，郵件中的QR Code外觀與常見圖片相近，僅略顯壓縮，但實際上並沒有任何影像檔或內嵌圖片，而是由大量表格列與儲存格組成，每個儲存格以HTML屬性指定黑色或白色背景，逐點拼成QR矩陣。研究人員指出</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173245</guid>
+      <pubDate>Thu, 08 Jan 2026 22:39:10 +0000</pubDate>
     </item>
     <item>
-      <title>兩款惡意Chrome擴充套件洩漏ChatGPT與DeepSeek對話內容，累計安裝超過90萬次</title>
-      <link>https://www.ithome.com.tw/news/173222</link>
-      <description>新聞資安業者OX Security指出，Chrome線上應用程式商店出現兩款惡意擴充套件，會將使用者在ChatGPT與DeepSeek的對話內容連同瀏覽資料外傳至攻擊者控制的伺服器。兩個套件在商店頁面分別顯示約60萬與30萬名使用者，合計超過90萬。研究人員另指出，其中一款曾帶有Chrome線上應用程式商店的精選徽章，增加其在搜尋結果與推薦位置的曝光機會。 遭研究人員點名的兩款擴充套件分別為Chat GPT for Chrome with GPT-5, Claude Sonnet &amp;amp; DeepSeek AI，以及AI Sidebar with Deepseek, ChatGPT, Claude and more。這兩款套件在商店頁面主打可在瀏覽器內提供AI側邊欄，讓使用者在任何網頁上直接呼叫ChatGPT、DeepSeek等模型進行對話與輔助寫作、摘要等工作。 研究人員指出，攻擊者正是利用這類看似便利的AI側邊欄功能作為包裝，仿冒Aitopia的合法AI側邊欄擴充套件外觀與描述，讓套件看似可正常使用以降低戒心，並在背景蒐集及外傳資料。而且攻擊者利用AI驅動的網頁開發平臺Lovable架</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173222</guid>
-      <pubDate>Wed, 07 Jan 2026 22:11:26 +0000</pubDate>
+      <title>WinUI XAML原型工具XAML Studio開源，納入.NET基金會種子專案推進更新</title>
+      <link>https://www.ithome.com.tw/news/173252</link>
+      <description>新聞由開發者Michael Hawker維護的WinUI XAML原型工具XAML Studio，於2026年1月6日宣布在GitHub開源，並以.NET基金會種子專案形式運作，程式碼以MIT授權釋出。專案目前把主要開發重心放在v2開發上，邀請社群透過GitHub Discussions與Issues回報功能需求與問題，作為後續穩定版發展方向。 XAML Studio是一款WinUI開發的獨立工具，讓開發者不必先把程式整合進專案，就能用即時編輯與互動預覽快速驗證XAML版面與元件行為，再把驗證過的XAML內容複製回Visual Studio專案整合。Michael Hawker也提醒，Microsoft Store目前仍以1.1版作為最後一次公開釋出，近年的改版與功能實驗主要累積在dev分支的v2程式碼庫。 根據專案公開說明，v2版的變更重點主要是工具介面與編輯輔助能力的更新，包含導入Fluent UI風格的新介面，補回早期原型曾有但v1未完整支援的資料夾工作流程，以及把即時屬性面板與視覺樹狀結構、視覺狀態檢視等能力整合到同一套檢視介面中，讓開發者在預覽階段能更直接觀察與調整UI狀態。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173252</guid>
+      <pubDate>Fri, 09 Jan 2026 01:07:55 +0000</pubDate>
     </item>
     <item>
-      <title>第三方AI模型評測平臺LMArena完成1.5億美元A輪募資，估值達17億美元</title>
-      <link>https://www.ithome.com.tw/news/173223</link>
-      <description>新聞知名第三方AI模型評測平臺LMArena宣布完成1.5億美元A輪募資，募資由Felicis與加州大學投資機構UC Investments共同領投。路透社報導指出，該公司估值在約8個月內成長至約17億美元。 LMArena表示，近一年生成式AI競爭加劇，讓可重現、可驗證的模型評測需求變得更迫切。模型開發團隊需要更具體的回饋來改善模型，企業用戶也需要更可靠的依據，以判斷哪一種模型在自身情境下表現較好，因此LMArena選擇在此時點加碼投資評測基礎設施，並擴充產品與研究能量。 該公司最早以研究計畫形式起步，核心概念是把不同模型的回覆以匿名方式並排呈現，讓使用者在看完回答後投票選出較佳的一方，並將結果彙整成公開排行榜，反映更接近真實使用情境的人類偏好。 LMArena官方將平臺成長歸因於社群參與，並表示自2025年5月宣布完成1億美元種子輪募資後，社群規模在不到一年內成長超過25倍，且在文字、視覺、網頁開發、搜尋、影片與影像等任務型態累積5,000萬次投票，新增超過400項模型評測，並釋出14.5萬筆開源對戰資料點，涵蓋文字、多模態、專家與職務類別等資料集。 LMArena在公告中指出，A</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173223</guid>
-      <pubDate>Thu, 08 Jan 2026 00:08:27 +0000</pubDate>
+      <title>【未來四年最重要的資安監理，從根本思維展開大變革】金融資安韌性發展藍圖出爐</title>
+      <link>https://www.ithome.com.tw/news/173253</link>
+      <description>新聞一起資安事件最極端的損失有多大？25億美元，相當於臺幣775億元。哪一家金融公司，承受得起如此巨額的損失？ 兩年前，國際貨幣基金組織（IMF）的一份報告，顛覆了全球金融業面對資安威脅最根本的態度。 根據IMF這份「2024年全球金融穩定報告」指出，多數資安災情的規模，大約50萬美元（約臺幣1,500萬元）的損失，但是，也有可能出現極端情況，一起資安事件，就會出現高達25億美元的損失，大約是一般金融公司年營收的8倍。不只是影響一家金融機構，就算只是一次的網路攻擊，若造成金融交易平臺的短暫停擺，也足以衝擊整個金融市場，甚至波及不同的金融交易市場，產生連鎖性的壓力，例如帶來整體股市的劇烈波動。 金融資安監理思維大轉變 國際貨幣基金組織這份報告讓許多國家認清了當前資安威脅的重大影響，加速了各國金融資安監理思維的轉變，邁向更全面、更主動的資安戰略，從風險可能發生的「事前防範」作為，轉變為「威脅必然發生」的「事後韌性」對策，希望提升金融機構因應極端情境的營運韌性。 金管會在2025年底最後一場記者會，發布了「金融資安韌性發展藍圖」，作為未來四年，金融產業資安監理最重要的新戰略。這份藍圖的出爐，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173253</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E5%9C%961-%E6%94%B9%E8%AE%8A-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E9%87%91%E7%AE%A1%E6%9C%83.png" length="0" type="image/png"/>
+      <pubDate>Fri, 09 Jan 2026 01:31:46 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI發表ChatGPT Health 強調不會以用戶資料訓練模型</title>
-      <link>https://www.ithome.com.tw/news/173226</link>
-      <description>新聞OpenAI昨日（1/7）宣布ChatGPT健康（ChatGPT Health），提供使用者一個和ChatGPT專門討論或尋找健康資訊的地方，強調確保用戶健康資訊隱私與安全，不會以用戶對話和資料訓練基礎模型。 OpenAI指出，全球迄今每周有2.3億用戶在ChatGPT上詢問健康和福祉相關的問題，ChatGPT Health因此應運而生，讓ChatGPT可依據用戶健康資料來提供回應。 ChatGPT Health是OpenAI和60個國家260多位醫師和專科醫師合作，花費兩年時間打造並改進回應內容，著重安全、清晰度、健康助益及對個人的尊重。 病歷及健康資訊極為敏感，OpenAI特別強調ChatGPT Health整合了隱私和安全設計。用戶健康資訊將儲存在ChatGPT的專屬空間，擁有自己的記憶體和隱私保護。ChatGPT中的對話和檔案在傳送（transit）及儲存（rest）狀態原本都已經過加密，而ChatGPT Health還額外加入專門的加密及隔離防護。OpenAI並承諾，ChatGPT Health中的對話都不會被用於訓練其基礎模型。 ChatGPT Health定位為健康與</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173226</guid>
-      <pubDate>Thu, 08 Jan 2026 02:39:08 +0000</pubDate>
+      <title>金融資安韌性發展藍圖大剖析</title>
+      <link>https://www.ithome.com.tw/article/173254</link>
+      <description>專題故事臺灣金融資安監理戰略從2026年進入全新的階段，金管會發布了未來四年的金融資安韌性發展藍圖，改變了過去被動防禦、以系統為主的思維，轉為以服務為中心，擴大到生態聯防，重視快速恢復的主動韌性戰略思維。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/article/173254</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1268-feng_mian_gu_shi_-p1-dou_zi_-open-960x420_kao_bei_0.jpg?itok=ElRT2otf" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 09 Jan 2026 01:32:57 +0000</pubDate>
     </item>
     <item>
-      <title>D-Link多款停產DSL路由器曝重大漏洞，已出現攻擊利用跡象</title>
-      <link>https://www.ithome.com.tw/news/173225</link>
-      <description>新聞友訊科技（D-Link）多款已達產品生命週期終止（EoL）的DSL路由器，被揭露存在高風險命令注入漏洞，且相關攻擊行為已在蜜罐環境中被觀測到。該漏洞被編列為CVE-2026-0625，CVSS風險分數高達9.3，屬於高風險等級。 漏洞情報公司VulnCheck指出，CVE-2026-0625源於路由器韌體中dnscfg.cgi端點對DNS設定參數的輸入驗證不足，導致未經身分驗證的遠端攻擊者可注入並執行任意Shell指令，進而造成遠端程式碼執行風險（Remote Code Execution，RCE）。 D-Link已針對CVE-2026-0625，於1月6日發布安全公告，說明目前尚無法僅依產品型號判斷是否受影響，必須直接檢視設備韌體內容，因此正同步檢視已停產與仍受支援平臺的多個韌體版本，作為內部調查的一部分。此外，受影響的dnscfg.cgi端點，也與名為DNSChanger的惡意程式有關。 研究人員指出，DNSChanger是一類專門入侵路由器並竄改DNS設定的惡意程式，在2016年至2019年間，曾被用於針對DSL-2740R、DSL-2640B、DSL-2780B與DSL-5</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173225</guid>
-      <pubDate>Thu, 08 Jan 2026 02:41:45 +0000</pubDate>
+      <title>【資安日報】1月9日，思科修補網路存取控制平臺ISE資訊洩露漏洞</title>
+      <link>https://www.ithome.com.tw/news/173257</link>
+      <description>新聞思科修補網路存取控制平臺ISE資安漏洞，並表示已有概念驗證程式碼出現，恐將被用於實際攻擊 去年思科公布及修補多項網路存取控制（NAC）平臺Identity Services Engine（ISE）資安漏洞，其中有多個CVSS風險評分接近或達到滿分10分，相當危險而引起外界高度關注，現在他們公布另一個僅有4.9分的中度風險漏洞，並指出已有概念驗證工具（PoC），消息一出，各大資安新聞媒體跟進報導。 1月7日思科發布資安公告揭露CVE-2026-20029，此為ISE與ISE被動身分識別連接器（ISE Passive Identity Connector，ISE-PIC）的資訊洩露漏洞，存在於授權（licensing）的功能，通過身分驗證且具有管理權限的攻擊者能遠端觸發漏洞，存取敏感資訊，CVSS風險值為4.9分，他們特別提及，已有公開的漏洞利用概念驗證程式碼，使得攻擊者可將漏洞用於實際攻擊。此漏洞影響3.4版以下的ISE與ISE-PIC，思科發布3.2 Patch 8、3.3 Patch 8，以及3.4 Patch 4版修補，3.5版用戶不受影響。 這個漏洞發生的原因，在於ISE與I</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173257</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/PHALT-BLYX-image5.png" length="0" type="image/png"/>
+      <pubDate>Fri, 09 Jan 2026 02:56:12 +0000</pubDate>
     </item>
     <item>
-      <title>英國車廠Jaguar Land Rover銷售下滑43%，網路攻擊事故是主因</title>
-      <link>https://www.ithome.com.tw/news/173227</link>
-      <description>新聞受到去年9月網路攻擊事件，導致工廠停工將近一個月，以及美國關稅影響，英國車廠Jaguar Land Rover上季全球車輛批發及零售出貨分別驟降43%及25%。 根據Jaguar Land Rover（JLR）的會計年度2026年第三季財報，批發出貨為5.9萬輛，較前一年減少43.3%，較上季減10.6%。零售出貨則為7.96萬輛，年減25.1%。 JLR最新財報說明，網攻事件後該公司直到11月中旬，生產才回復到平日水準，加上車輛配銷全球的時間遞延，因而導致上季衰退的批發與零售數字。其他原因還包括上季該公司在推出新款Jaguar前，採取計畫性減產舊款Jaguar，以及今年美國關稅對JLR美國市場出口的負面影響。 以各區域市場成績來看，上季JLR北美市場出貨受創最深，大減64.4%，歐洲及中國區則年減47.6%及46.0%，英國市場則衰退0.9%。 JLR去年9月2日發生資安事故，被迫關閉系統並且暫停部份工廠營運。路透社報導JLR在英國的三座工廠，每天能生產1,000部Land Rover，每停工一星期將損失6,800萬美元，而網攻事件可能造成JLR兩座英國境內工廠停工。 第三方研究</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173227</guid>
-      <pubDate>Thu, 08 Jan 2026 03:24:58 +0000</pubDate>
+      <title>思科修補網路存取控制平臺ISE資安漏洞，並表示已有概念驗證程式碼出現，恐將被用於實際攻擊</title>
+      <link>https://www.ithome.com.tw/news/173256</link>
+      <description>新聞去年思科公布及修補多項網路存取控制（NAC）平臺Identity Services Engine（ISE）資安漏洞，其中有多個CVSS風險評分接近或達到滿分10分，相當危險而引起外界高度關注，現在他們公布另一個僅有4.9分的中度風險漏洞，並指出已有概念驗證工具（PoC），消息一出，各大資安新聞媒體跟進報導。 1月7日思科發布資安公告揭露CVE-2026-20029，此為ISE與ISE被動身分識別連接器（ISE Passive Identity Connector，ISE-PIC）的資訊洩露漏洞，存在於授權（licensing）的功能，通過身分驗證且具有管理權限的攻擊者能遠端觸發漏洞，存取敏感資訊，CVSS風險值為4.9分，他們特別提及，已有公開的漏洞利用概念驗證程式碼，使得攻擊者可將漏洞用於實際攻擊。此漏洞影響3.4版以下的ISE與ISE-PIC，思科發布3.2 Patch 8、3.3 Patch 8，以及3.4 Patch 4版修補，3.5版用戶不受影響。 這個漏洞發生的原因，在於ISE與ISE-PIC的網頁管理介面對於XML檔案處理不當，攻擊者可上傳惡意檔案至應用程式觸發，一旦</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173256</guid>
+      <pubDate>Fri, 09 Jan 2026 03:07:12 +0000</pubDate>
     </item>
     <item>
-      <title>不防外流也能防濫用，研究提出資料摻雜新作法</title>
-      <link>https://www.ithome.com.tw/news/173228</link>
-      <description>新聞一群來自新加坡與中國的研究人員，近日發表一篇名為《Making Theft Useless: Adulteration-Based Protection of Proprietary Knowledge Graphs in GraphRAG Systems》的論文，著重於在企業既有的知識圖譜（Knowledge Graph，KG）中摻雜資料，使得就算在資料外洩後，若駭客企圖利用GraphRAG（Graph Retrieval-Augmented Generation）將KG接上大型語言模型（LLM）進行推理，也只會得到錯誤或失真的結果。 知識圖譜為一種結構化的知識表示方式，以實體（人、物、概念）以及它們之間的關係為核心，形成可被機器理解的知識網路。根據一份德國學者Heiko Paulheim的研究，由專家人工撰寫的通用型知識圖譜專案Cyc的每筆Triple（KG基本單位）的成本約為5.71美元，就算是基於社群協作的Freebase每筆Triple成本也要2.25美元，相較之下，自動化KG的每筆Triple成本，只介於0.01至0.15美元之間。 研究人員指出，企業內部所建立的知識圖</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173228</guid>
-      <pubDate>Thu, 08 Jan 2026 04:05:43 +0000</pubDate>
+      <title>針對電子零件製造商信邦遭網攻，勒索軟體DragonForce聲稱是他們所為</title>
+      <link>https://www.ithome.com.tw/news/173247</link>
+      <description>新聞製作連接線組與連接器的電子零件整合設計暨製造商信邦電子（Sinbon Electronics），在12月24日於股市公開觀測站發布資安重訊，指出該集團與海外子公司的部分資訊系統遭到網攻，本月初有駭客組織聲稱犯案，竊得該公司與半導體大廠之間的合作文件。 根據Cybersecurity News Everyday、Ransomware.Live，以及RedPacket Security等威脅情報網站公布的消息，勒索軟體駭客組織DragonForce於1月2日宣稱，他們入侵了總部位於新北市的Sinbon Electronics（www.sinbon.com），竊得847.32 GB資料，約有65萬個檔案，這些資料來自臺灣總部與美國子公司。駭客揚言，若是信邦不予理會，他們將在兩週後公布竊得資料。針對此事，國內媒體民視新聞網前幾天也跟進報導，不過詭異的是，該新聞目前已下架。 究竟信邦被DragonForce宣稱竊走哪些內部機密資料？對方聲稱，這批資料包含了財務與會計記錄、用戶資料與個人資訊、生產記錄、產品缺陷細節，以及公司財務狀況報告等，其中，他們特別提及信邦與半導體裝置製造商艾司摩爾（AS</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173247</guid>
+      <pubDate>Fri, 09 Jan 2026 03:14:02 +0000</pubDate>
     </item>
     <item>
-      <title>高通發表機器人開發平臺Dragonwing IQ10</title>
-      <link>https://www.ithome.com.tw/news/173229</link>
-      <description>新聞在本周消費電子大展（CES）上，高通（Qualcomm）宣布Dragonwing IQ10作為家用及生產用機器人的開發平臺，加入人型機器人熱潮。 這是在最新單系統PC晶片Snapdragon X2 Plus外，高通另一個跨足新領域的宣示。X2 Plus整合CPU、NPU及GPU，CPU時脈達4.04GHz，較前代快35%，但功耗降低43%，可支援筆電運行數天。其NPU具備80 TOPS算力，時脈達1.7GHz。X2 Plus鎖定中階筆電和PC，搭載這款晶片的PC產品預計今年下半問世。 高通指出，Dragonwing IQ10是以其安全等級的高效能單系統晶片（SoC）為基礎的實體AI全新端到端架構，提供高效能、低耗電的機器人AI大腦，支援開發各種form factor的機器人，從產線用的自主移動機器人（autonomous mobile robot,AMR）到真人大小的人型機器人或其他通用型機器人。 Dragonwing IQ10包含高通的晶片與硬體架構及AI工具形成的技術堆疊。根據官網，IQ10硬體元件為一高整合度的機器人SoC系統，包括Oryon CPU，最高可到18核心、Hex</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173229</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0108-Dragonwing%20IQ10(1).png" length="0" type="image/png"/>
-      <pubDate>Thu, 08 Jan 2026 04:57:31 +0000</pubDate>
+      <title>AI Overview正式進駐Gmail，Google將生成式AI帶入收件匣核心體驗</title>
+      <link>https://www.ithome.com.tw/news/173258</link>
+      <description>新聞Google周四（1/8）宣布，旗下電子郵件服務Gmail正式導入AI Overview功能，象徵這套原本用於搜尋體驗的生成式AI回答機制，開始進入個人郵件與私有資料場景。相關功能目前已在美國市場以英文介面率先推出，未來幾個月將逐步擴展至其他語言與地區。 此次更新被Google定位為「Gmail進入Gemini時代」的重要里程碑。在郵件數量持續成長、對話串愈來愈長的情況下，Gmail不再只強化搜尋與分類，而是嘗試讓AI直接理解郵件內容，協助使用者快速掌握重點並完成決策。 首先推出的是「AI Overview對話摘要功能」。當使用者開啟一封包含大量往返信件的郵件時，系統會自動整合整段對話內容，萃取關鍵結論與重要資訊，生成簡要摘要，讓使用者無須逐封閱讀即可掌握全貌。這項功能屬於被動式摘要，已免費提供給所有Gmail使用者。 另一項更進階的功能則是「向收件匣提問」。使用者可直接以自然語言詢問整個收件匣，例如查找過去的報價、合作對象或事件背景，由AI Overview進行跨郵件搜尋、關聯與推理後給出答案。由於涉及更高強度的運算與理解能力，這項主動式問答功能僅開放給Google AI Pro</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173258</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0109-gmail-ai%20overview-1.png" length="0" type="image/png"/>
+      <pubDate>Fri, 09 Jan 2026 03:35:20 +0000</pubDate>
     </item>
     <item>
-      <title>外傳Anthropic打算融資100億美元，估值達3,500億美元</title>
-      <link>https://www.ithome.com.tw/news/173230</link>
-      <description>新聞華爾街日報（Wall Street Journal，WSJ）本周引述消息來源報導，AI聊天機器人Claude開發商Anthropic計畫以3,500億美元的估值，募集100億美元，接近2025年9月1,830億美元估值的兩倍。 Anthropic是一家成立於2021年的美國人工智慧公司，由Dario Amodei與Daniela Amodei等前OpenAI成員共同創辦，其核心理念是透過明確原則來約束模型行為，降低偏誤、幻覺與濫用風險。Anthropic的主要產品為Claude系列大型語言模型，2025年底的目標是實現90億美元的年度經常性收入，更預期該數字到了2026年將達3倍。 目前全球估值最高的前三大AI新創，依序是OpenAI、Anthropic與xAI。其中，OpenAI在2025年10月的估值為5,000億美元，但2026年初新展開的募資提案，就提高到7,500億美元左右；居次的即是Anthropic的3,500億美元；由馬斯克（Elon Musk）領軍的xAI在最近一次融資前的估值為2,300億美元。 英國金融時報（Financial Times，FT）曾報導，Ope</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173230</guid>
-      <pubDate>Thu, 08 Jan 2026 05:41:10 +0000</pubDate>
+      <title>OpenAI買下企業顧問AI工具商Convogo的團隊</title>
+      <link>https://www.ithome.com.tw/news/173260</link>
+      <description>新聞Techcrunch報導，OpenAI最近收購了開發企業顧問AI工具開發商Convogo，並取得開發產品的背後團隊。 Convogo主要業務是提供幫助高階主管教練、顧問、人力資源等專業角色自動化領導力評估、回饋報告等工具的企業應用平臺。該公司據稱已和數千家企業顧問及「領導人才發展」公司合作過。 OpenAI對媒體表示，該收購著眼於聘僱其團隊，用於公司的「AI雲端面的工作」，而非取得其IP或技術。Convogo的三名創辦人也將加入OpenAI。 從官方聲明來看，這個SaaS產品不會被OpenAI繼續運營或整合進自身服務，但創辦人指出，收購完成後該公司會持續「讓AI更易於為所有產業專業人士使用」。 Techcrunch報導，這是OpenAI透過收購聘僱制（acqui-hire）收購的第9家公司。之前有的是產品整合進OpenAI的產品線，如Mac AI介面開發商Sky、產品測試工具商Statsig，有的是完全收攤，包括AI個人理財與投資助理Roi、AI模型評估與分析工具Context.ai、與AI推薦與個性化系統Crossing Minds。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173260</guid>
+      <pubDate>Fri, 09 Jan 2026 05:50:48 +0000</pubDate>
     </item>
     <item>
-      <title>TOTOLINK無線訊號強波器重大漏洞，可讓攻擊者完全控制裝置</title>
-      <link>https://www.ithome.com.tw/news/173231</link>
-      <description>新聞TOTOLINK已停產的無線訊號強波器（Wireless Extender）EX200 Extender存在一項重大漏洞，能讓遠端攻擊者全權接管系統。 這項漏洞編號CVE-2025-65606，存在於已經EoL（End of Life）的TOTOLINK EX200韌體的韌體上傳（firmware-upload）處理單元（handler）。根據CERT/CC說明，該機制在處理某些變造過的韌體檔案時會發生異常。此時，TOTOLINK裝置會啟動，以root權限執行一個telnet服務，而且不需要驗證。一般情況下telnet介面是關閉的，而且不應曝露在網際網路上，因此該行為會產生不應出現的遠端執行介面。 本漏洞是由研究人員Leandro Kogan通報。 攻擊者若想利用本漏洞，他必須已是Web管理介面驗證過的使用者，才能存取韌體上傳功能。但一旦錯誤條件被觸發，就能讓未經驗證的telnet服務大開方便門，讓攻擊者掌握裝置完整控制權。攻擊者可能執行各種惡意行為，包括變更配置、執行任意指令、或在受害裝置建立持久的網路存取管道。 TOTOLINK已證實EX200為停產產品，不會為此發布安全更新。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173231</guid>
-      <pubDate>Thu, 08 Jan 2026 06:11:00 +0000</pubDate>
+      <title>從對話到成交，微軟以Copilot Checkout與Brand Agents重塑電商</title>
+      <link>https://www.ithome.com.tw/news/173262</link>
+      <description>新聞微軟正式將交易帶進AI對話場景，於本周四（1/8）推出Copilot Checkout與Brand Agents兩項商務功能，宣示生成式AI不再只是搜尋與推薦工具，而是直接參與成交流程，重新定義電商從決策到下單的結構。 其中，Copilot Checkout率先在美國市場推出，已於Copilot.com上線。消費者在與Copilot對話詢問、比較商品時，可直接完成結帳，不需跳轉至外部網站。且微軟強調，商家仍是交易主體，負責收款、訂單處理與顧客資料，Copilot僅作為降低摩擦與加速決策的交易入口。 目前Copilot Checkout已整合PayPal、Stripe及Shopify等支付與電商平臺。Shopify商家將自動納入Copilot Checkout生態，無須額外整合；使用PayPal或Stripe的商家則可申請加入。 至於Brand Agents則是微軟替品牌官網打造的AI導購系統，定位為商店自家網站的AI店員，它以品牌語調與商品資料為基礎，回應消費者提問、協助比較與理解差異，讓官網本身具備對話式銷售能力。 目前Brand Agents僅開放給Shopify商家使用，需先</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173262</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0109-Copilot%20Checkout-%E5%BE%AE%E8%BB%9F-2.png" length="0" type="image/png"/>
+      <pubDate>Fri, 09 Jan 2026 06:20:46 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,80 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Jan 2026 06:38:42 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 06:38:41 +0000</lastBuildDate>
     <item>
-      <title>Debugging Worldpay Webhooks in ASP.NET Core</title>
-      <link>https://dev.to/ramapratheeba/debugging-worldpay-webhooks-in-aspnet-core-a1n</link>
-      <description>When integrating Worldpay in a production ASP.NET Core application, one of the hardest problems is debugging webhook failures. Events arrive asynchronously, logs are often missing, and issues usually appear only after a payment dispute or customer complaint. In this article, I’ll share practical lessons from a real Worldpay integration and show how proper event logging can save hours of debugging time. Why debugging Worldpay webhooks is hard Webhooks are asynchronous and hard to trace Failures o</description>
-      <guid isPermaLink="false">https://dev.to/ramapratheeba/debugging-worldpay-webhooks-in-aspnet-core-a1n</guid>
-      <pubDate>Thu, 08 Jan 2026 05:43:56 +0000</pubDate>
+      <title>AI, Fake Reviews, and the Trust Crisis in SaaS</title>
+      <link>https://dev.to/mukul_sharma/ai-fake-reviews-and-the-trust-crisis-in-saas-2399</link>
+      <description>The reputation game just got harder If you want more background on why trust matters so much in SaaS, read this. It covers how reputation, emotion, and social proof quietly decide most product outcomes. But even without that context, one thing is clear. In 2026, there is a new variable reshaping trust at scale: AI. AI can amplify credibility faster than ever. It can also destroy it just as quickly. This article focuses on the harder lessons founders shared, including manipulation, ethics, and th</description>
+      <guid isPermaLink="false">https://dev.to/mukul_sharma/ai-fake-reviews-and-the-trust-crisis-in-saas-2399</guid>
+      <pubDate>Fri, 09 Jan 2026 05:52:31 +0000</pubDate>
     </item>
     <item>
-      <title>5 Common Server Security Mistakes Developers Still Make</title>
-      <link>https://dev.to/arauly_tech_pvt_ltd/5-common-server-security-mistakes-developers-still-make-45mc</link>
-      <description>5 Common Server Security Mistakes Developers Still Make Even in 2025, server security is often treated as an afterthought. Many developers assume cloud providers, hosting panels, or default configs are “secure enough”. They’re not. After managing production servers and hosting environments, I’ve seen the same security mistakes repeated again and again—even by experienced developers. Let’s break down the 5 most common server security mistakes developers still make and how to fix them properly. Le</description>
-      <guid isPermaLink="false">https://dev.to/arauly_tech_pvt_ltd/5-common-server-security-mistakes-developers-still-make-45mc</guid>
-      <pubDate>Thu, 08 Jan 2026 05:46:54 +0000</pubDate>
+      <title>So You're a Ruby/Python Dev Learning Rust's Option Type</title>
+      <link>https://dev.to/dev-tngsh/so-youre-a-rubypython-dev-learning-rusts-option-type-2m88</link>
+      <description>Rust's Option type forces you to handle the "maybe it's there, maybe it's not" problem upfront using combinators like .map(), .unwrap_or(), and the ? operator—basically replacing the "oops, didn't check for nil" debugging session at 2am with compile errors you fix before running anything. Look, I get it. You've been happily writing Ruby or Python for years, everything's fine, and then someone convinces you to try Rust. Suddenly the compiler is yelling at you about Option and you're like "just le</description>
+      <guid isPermaLink="false">https://dev.to/dev-tngsh/so-youre-a-rubypython-dev-learning-rusts-option-type-2m88</guid>
+      <pubDate>Fri, 09 Jan 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Atomic Transaction Patterns C#</title>
-      <link>https://dev.to/akkaraponph/atomic-transaction-patternsc-1a32</link>
-      <description>Pattern Consistency Scale Complexity Suitable For Pessimistic Locking Strong Low Low Monoliths, legacy systems Saga Pattern Eventual High High Microservices CQRS Eventual High High Read-heavy systems, DDD Mediator Depends Med Medium Coordinated command handling Event Sourcing Eventual High High Auditable systems Two-Phase Commit Strong Low High Cross-DB transactional ops Outbox Pattern Eventual High Medium DB + messaging consistency Two powerful transaction patterns for modern applications: Atom</description>
-      <guid isPermaLink="false">https://dev.to/akkaraponph/atomic-transaction-patternsc-1a32</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fassets.dev.to%2Fassets%2Fgithub-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 08 Jan 2026 05:51:39 +0000</pubDate>
+      <title>Criei uma extensão para VS Code que transforma TODOs em um quadro Kanban e issues reais no Jira</title>
+      <link>https://dev.to/dantewebmaster/criei-uma-extensao-para-vs-code-que-transforma-todos-em-um-quadro-kanban-e-issues-reais-no-jira-bd8</link>
+      <description>É muito comum código com vários TODO. E o time sabe que a maioria deles nunca vira trabalho de verdade. Eles ficam perdidos em comentários, são esquecidos, e aos poucos viram dívida técnica invisível. Foi exatamente por isso que eu criei o TODO Board. O problema Na maioria dos projetos, a dívida técnica está espalhada pelo código em comentários como: // TODO: refatorar isso // FIXME: tratar edge case // NOTE: melhorar performance Essas são pendências reais, mas elas não estão no Jira, não entram</description>
+      <guid isPermaLink="false">https://dev.to/dantewebmaster/criei-uma-extensao-para-vs-code-que-transforma-todos-em-um-quadro-kanban-e-issues-reais-no-jira-bd8</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsbb0mdlawt8z7ti1ahbx.gif" length="0" type="image/gif"/>
+      <pubDate>Fri, 09 Jan 2026 06:04:54 +0000</pubDate>
     </item>
     <item>
-      <title>Vibecoding On‑Chain — Using AI to Prototype Solidity Contracts (Safely)</title>
-      <link>https://dev.to/ribhavmodi/vibecoding-on-chain-using-ai-to-prototype-solidity-contracts-safely-3n5i</link>
-      <description>I used to open Remix, stare at a blank Solidity file, and freeze. No idea where to start. So I did what everyone says: “just write more code.” I copied patterns from tutorials, tweaked a few lines, hit deploy… And still felt like I wasn’t actually learning how smart contracts worked. The weird part? It wasn’t a lack of practice. It was how I was practicing. One day I tried something different: I stopped starting from scratch — and started “vibecoding” with AI instead. Not to cheat. To see what w</description>
-      <guid isPermaLink="false">https://dev.to/ribhavmodi/vibecoding-on-chain-using-ai-to-prototype-solidity-contracts-safely-3n5i</guid>
-      <pubDate>Thu, 08 Jan 2026 06:01:31 +0000</pubDate>
+      <title>From 7 sec to 3 sec: Reducing Load Time in a Rails-Powered Restaurant App</title>
+      <link>https://dev.to/railsfactory_sedin/from-7-sec-to-3-sec-reducing-load-time-in-a-rails-powered-restaurant-app-3e6f</link>
+      <description>I joined this project at a point where the cracks were starting to show. The mobile app functioned, but not at the level a high-volume restaurant brand needed. This was a leading quick-service restaurant brand in the Middle East, running hundreds of outlets and processing millions of orders. Mobile ordering and drive-through apps were no longer side projects; they were core infrastructure. The ask was simple on paper: make the apps faster, more reliable, and ready to scale. In reality, it meant</description>
+      <guid isPermaLink="false">https://dev.to/railsfactory_sedin/from-7-sec-to-3-sec-reducing-load-time-in-a-rails-powered-restaurant-app-3e6f</guid>
+      <pubDate>Fri, 09 Jan 2026 06:08:03 +0000</pubDate>
     </item>
     <item>
-      <title>Apache Airflow for Production: Essential Concepts Every Developer Should Know</title>
-      <link>https://dev.to/datatechbridge/apache-airflow-for-production-essential-concepts-every-developer-should-know-2n1j</link>
-      <description>From local development to enterprise-scale orchestration 📚 Table of Contents PART 1: FUNDAMENTALS Section 1: Introduction Section 2: Architecture Section 3: DAG &amp;amp; Building Blocks Section 4: TaskFlow API PART 2: ADVANCED CONCEPTS Section 5: Deferrable Operators Section 6: Dependencies &amp;amp; Relationships Section 7: Scheduling Section 8: Failure Handling Section 9: SLA Management Section 10: Catchup Behavior PART 3: OPERATIONS &amp;amp; DEPLOYMENT Section 11: Configuration Section 12: Version Comparison Secti</description>
-      <guid isPermaLink="false">https://dev.to/datatechbridge/apache-airflow-for-production-essential-concepts-every-developer-should-know-2n1j</guid>
-      <pubDate>Thu, 08 Jan 2026 06:01:57 +0000</pubDate>
+      <title>How I Built an Interactive "Wiki-Killer" for Dragon Quest VII using Astro &amp;amp; Tailwind</title>
+      <link>https://dev.to/lei_zhang_3cd1b1ddb6debf9/how-i-built-an-interactive-wiki-killer-for-dragon-quest-vii-using-astro-tailwind-46el</link>
+      <description>The Problem: Game Wikis Are Broken 📉 I've been playing the new Dragon Quest VII Reimagined Demo (Switch 2 / Steam), and I ran into a frustration that every RPG gamer knows: Old School Text Guides (GameFAQs) are hard to parse on a phone while playing. Modern Wikis (Fandom, etc.) are often bloated with ads, slow to load, and auto-playing videos. I didn't just want to read a guide; I wanted to track my progress. I needed to know which "Shard Fragments" I had missed and which "Mini Medals" were hidd</description>
+      <guid isPermaLink="false">https://dev.to/lei_zhang_3cd1b1ddb6debf9/how-i-built-an-interactive-wiki-killer-for-dragon-quest-vii-using-astro-tailwind-46el</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fyour-image-url-here%2Fhero-section.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 09 Jan 2026 06:13:20 +0000</pubDate>
     </item>
     <item>
-      <title>Flutter Dio Interceptor for Caching API Responses</title>
-      <link>https://dev.to/rshnkunwar/flutter-dio-interceptor-for-caching-api-responses-1db3</link>
-      <description>Flutter Dio Interceptor for Caching API Responses In modern mobile applications, providing a seamless user experience even with poor or no network connectivity is crucial. This article demonstrates how to implement a robust caching mechanism for API responses in Flutter using Dio interceptors, ensuring your app remains functional offline by serving cached data when network requests fail. Mechanism The caching interceptor works with a straightforward yet effective approach: Persists GET responses</description>
-      <guid isPermaLink="false">https://dev.to/rshnkunwar/flutter-dio-interceptor-for-caching-api-responses-1db3</guid>
-      <pubDate>Thu, 08 Jan 2026 06:02:11 +0000</pubDate>
+      <title>Scrapy with Docker: Deploy Anywhere in Minutes</title>
+      <link>https://dev.to/ikram_khan/scrapy-with-docker-deploy-anywhere-in-minutes-4nod</link>
+      <description>I spent 3 hours setting up Scrapy on a new server once. Installing Python, dependencies, libraries, system packages. Then it worked on my machine but broke on the server because of version differences. The next time, I used Docker. Setup took 5 minutes. It worked identically on my laptop, the server, and my teammate's Windows machine. Docker eliminates "works on my machine" problems forever. Let me show you how to Dockerize your Scrapy project properly. What Is Docker and Why Use It? Docker pack</description>
+      <guid isPermaLink="false">https://dev.to/ikram_khan/scrapy-with-docker-deploy-anywhere-in-minutes-4nod</guid>
+      <pubDate>Fri, 09 Jan 2026 06:14:01 +0000</pubDate>
     </item>
     <item>
-      <title>Solved: Hot take: The outage isn’t the problem everyone going down at once is</title>
-      <link>https://dev.to/techresolve/solved-hot-take-the-outage-isnt-the-problem-everyone-going-down-at-once-is-2hkp</link>
-      <description>🚀 Executive Summary TL;DR: The article highlights that widespread, correlated outages are more catastrophic than individual component failures in distributed systems, challenging architectural robustness. It proposes tackling these synchronized collapses through infrastructure diversification, implementing proactive resilience patterns, and validating system resilience via chaos engineering and Game Days. 🎯 Key Takeaways Combat synchronized failures by diversifying infrastructure across multi-cl</description>
-      <guid isPermaLink="false">https://dev.to/techresolve/solved-hot-take-the-outage-isnt-the-problem-everyone-going-down-at-once-is-2hkp</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnwjgilechjb8hqoqlrg1.png" length="0" type="image/png"/>
-      <pubDate>Thu, 08 Jan 2026 06:10:14 +0000</pubDate>
+      <title>Why I Went Back to Basics: What 20,000 XP on W3Schools Taught Me About Coding</title>
+      <link>https://dev.to/sandipyadav/why-i-went-back-to-basics-what-20000-xp-on-w3schools-taught-me-about-coding-576a</link>
+      <description>You can’t build a skyscraper on a weak foundation. Here is why I spent 500+ lessons refining my core skills. The “Shiny Object” Trap In the world of software development, there is always something new to learn. A new JavaScript framework, a new update to .NET, or a trendy library that everyone is tweeting about. It is easy to get caught up in the hype and rush to build complex projects. But recently, I took a step back. I realized that the best engineers aren’t just the ones who know the latest</description>
+      <guid isPermaLink="false">https://dev.to/sandipyadav/why-i-went-back-to-basics-what-20000-xp-on-w3schools-taught-me-about-coding-576a</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwnj4xpga1faizt92kz9k.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 09 Jan 2026 06:15:51 +0000</pubDate>
     </item>
     <item>
-      <title>Top APM Tools in 2026: What Every Developer and Engineering Team Should Know</title>
-      <link>https://dev.to/olivia_madison_b0ad7090ad/top-apm-tools-in-2026-what-every-developer-and-engineering-team-should-know-1dg0</link>
-      <description>Application performance issues directly impact user experience, retention, and revenue. In 2026, modern systems are distributed, cloud-native, and heavily dependent on third-party services. Traditional monitoring is no longer enough. Application Performance Monitoring tools now need to deliver deep transaction visibility, fast root cause analysis, and clear correlation between backend performance and real user impact. This guide covers the top APM tools to watch in 2026, with a practical breakdo</description>
-      <guid isPermaLink="false">https://dev.to/olivia_madison_b0ad7090ad/top-apm-tools-in-2026-what-every-developer-and-engineering-team-should-know-1dg0</guid>
-      <pubDate>Thu, 08 Jan 2026 06:19:56 +0000</pubDate>
+      <title>What is cyber security and why is it important in today’s digital world?</title>
+      <link>https://dev.to/ridhima_b7f6c7cbeef40f3b8/what-is-cyber-security-and-why-is-it-important-in-todays-digital-world-3jp3</link>
+      <description>Cyber security is the practice of protecting computers, networks, systems, and data from digital attacks such as hacking, malware, phishing, and data breaches. In today’s digital world, almost everything is connected to the internet — personal data, banking, businesses, and government systems. This makes cyber security extremely important because cyber attacks can lead to financial loss, identity theft, data leaks, and even disruption of essential services. Cyber security helps by: Protecting pe</description>
+      <guid isPermaLink="false">https://dev.to/ridhima_b7f6c7cbeef40f3b8/what-is-cyber-security-and-why-is-it-important-in-todays-digital-world-3jp3</guid>
+      <pubDate>Fri, 09 Jan 2026 06:18:08 +0000</pubDate>
     </item>
     <item>
-      <title>Creando mi 'Navaja Suiza' Digital: Un Conversor de Unidades a Medida con la IA</title>
-      <link>https://dev.to/datalaria/creando-mi-navaja-suiza-digital-un-conversor-de-unidades-a-medida-con-la-ia-1mb1</link>
-      <description>En cualquier disciplina técnica o de ingeniería, nuestro día a día está lleno de pequeñas pero constantes tareas de conversión de unidades de medida. Pasamos de Pascales a PSI, de Kilovatios a Caballos de potencia, de Gigabytes a Terabytes o de frecuencias a longitudes de onda.. En mi etapa universitaria disponíamos de las llamadas chuletas o cheatsheets, las cuales solíamos tener a mano ya sea pegadas a las calculadoras, carpetas, cuadernos... para nuestro día a día (no para los exámenes por su</description>
-      <guid isPermaLink="false">https://dev.to/datalaria/creando-mi-navaja-suiza-digital-un-conversor-de-unidades-a-medida-con-la-ia-1mb1</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7yasufz1t2pboppa6v0f.png" length="0" type="image/png"/>
-      <pubDate>Thu, 08 Jan 2026 06:20:57 +0000</pubDate>
+      <title>Docker Kanvas Challenges Helm and Kustomize for Kubernetes Dominance</title>
+      <link>https://dev.to/latchudevops/docker-kanvas-challenges-helm-and-kustomize-for-kubernetes-dominance-2df0</link>
+      <description>🚀 What Is Docker Kanvas and Why Does It Matter for Kubernetes? Docker recently introduced Docker Kanvas, a new platform aimed at simplifying one of the hardest problems in cloud-native development: Moving from local development to production Kubernetes — without drowning in YAML. This move signals a strategic shift for Docker: from being just a container runtime to becoming a deployment and platform orchestration layer. Let’s break it down. 🧩 The Problem Docker Kanvas Is Solving Most developers</description>
+      <guid isPermaLink="false">https://dev.to/latchudevops/docker-kanvas-challenges-helm-and-kustomize-for-kubernetes-dominance-2df0</guid>
+      <pubDate>Fri, 09 Jan 2026 06:25:56 +0000</pubDate>
     </item>
     <item>
-      <title>How to Crack Any Software Developer Interview in 2026 (Updated for AI &amp;amp; Modern Hiring)</title>
-      <link>https://dev.to/finalroundai/how-to-crack-any-software-developer-interview-in-2026-updated-for-ai-modern-hiring-4ih8</link>
-      <description>The software developer interview preparation in 2026 is in a constant state of evolution. What worked just a few years ago (or even in 2025) might not be enough to land you your dream job in 2026. The landscape has shifted, with new technologies, methodologies, and expectations emerging. If you’re preparing for software engineering interviews in 2026, this guide will walk you through: What has actually changed in developer interviews What hiring managers now expect from candidates A clear, pract</description>
-      <guid isPermaLink="false">https://dev.to/finalroundai/how-to-crack-any-software-developer-interview-in-2026-updated-for-ai-modern-hiring-4ih8</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3fwjvreqrxs0hhbj9bv3.png" length="0" type="image/png"/>
-      <pubDate>Thu, 08 Jan 2026 06:30:32 +0000</pubDate>
+      <title>E-commerce: How to Build a Card Payment System with Blnk Finance</title>
+      <link>https://dev.to/ubcodes/e-commerce-how-to-build-a-card-payment-system-with-blnk-finance-3b1k</link>
+      <description>A step-by-step guide for developers to implement card payments with authorization and settlement flows Introduction Have you ever wondered how card payments actually work behind the scenes? When you swipe your card at a store, your money doesn't instantly leave your account. Instead, there's a fascinating two-step process: authorization (holding the funds) and settlement (actually moving the money). In this guide, we'll show you how to build a fully functional e-commerce demo that implements thi</description>
+      <guid isPermaLink="false">https://dev.to/ubcodes/e-commerce-how-to-build-a-card-payment-system-with-blnk-finance-3b1k</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzqliy0e7e1bu82fra17y.png" length="0" type="image/png"/>
+      <pubDate>Fri, 09 Jan 2026 06:28:05 +0000</pubDate>
     </item>
   </channel>
 </rss>
