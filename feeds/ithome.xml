@@ -8,81 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Jan 2026 06:41:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 06:37:24 +0000</lastBuildDate>
     <item>
-      <title>釣魚郵件改以HTML表格繪製QR Code，恐規避影像偵測</title>
-      <link>https://www.ithome.com.tw/news/173245</link>
-      <description>新聞資安顧問公司Nettles Consulting研究人員指出，近期觀察到一波實際流入收件匣的釣魚郵件活動，這些郵件並未以圖片嵌入QR Code，而是使用HTML表格的儲存格逐格指定黑白背景色，在郵件內文中繪製可掃描的QR Code圖樣。由於不少郵件安全產品對QR Code的偵測與解析長期以影像內容為主要分析對象，這類無影像QR Code的呈現方式有機會降低既有偵測規則的命中率，成為QR Code釣魚的另一種繞過途徑。 研究人員分析提到，惡意使用QR Code在實體與電子郵件中早已常見，掃描後導向釣魚頁面的效果與點擊網址連結並無不同。隨著安全廠商陸續強化對郵件內含QR Code影像的偵測與分析，攻擊者也持續尋找替代呈現方式，試圖避開以圖片為核心的檢測流程。 他取得的樣本郵件寄送時間落在2025年12月22日至26日，版面設計相對簡單，通常只有數行文字搭配一個置中的QR圖樣。從使用者視角看起來，郵件中的QR Code外觀與常見圖片相近，僅略顯壓縮，但實際上並沒有任何影像檔或內嵌圖片，而是由大量表格列與儲存格組成，每個儲存格以HTML屬性指定黑色或白色背景，逐點拼成QR矩陣。研究人員指出</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173245</guid>
-      <pubDate>Thu, 08 Jan 2026 22:39:10 +0000</pubDate>
+      <title>CISA警告15年前的PowerPoint舊漏洞、HPE近期修補的OneView滿分漏洞已遭濫用</title>
+      <link>https://www.ithome.com.tw/news/173263</link>
+      <description>新聞美國網路安全暨基礎設施安全管理署（CISA）本周公告將兩個漏洞，包括微軟Office一個2009年的老漏洞，以及HPE風險值10.0的漏洞，列入已發生攻擊或濫用活動名單，呼籲聯邦政府機關儘速修補。 這兩個剛被CISA加入已知遭利用漏洞目錄（Known Exploited Vulnerability，KEV）的漏洞，分別是CVE-2009-0556以及CVE-2025-37164。 CVE-2009-0556是微軟2009年就修補的PowerPoint程式碼注入漏洞。攻擊者可傳送變造過的PowerPoint檔案，經由使用者開啟觸發。成功濫用本漏洞可使攻擊者完全控制受害電腦，可安裝程式、讀取、變更或刪除資料，或新增高權限的使用者帳號。 CVE-2025-37164存在於HPE基礎架構管理軟體OneView，可讓遠端未經驗證的攻擊者濫用，發動遠端程式碼執行，風險值高達10.0。HPE去年12月已釋出可套用於v5.20至v10.20的安全熱修補程式，並建議用戶升級至已修補的v11.00或更新版本。 HPE當時未說明本漏洞是否有濫用的情形。該公司也尚未回應The Register，攻擊是否發</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173263</guid>
+      <pubDate>Fri, 09 Jan 2026 06:47:54 +0000</pubDate>
     </item>
     <item>
-      <title>WinUI XAML原型工具XAML Studio開源，納入.NET基金會種子專案推進更新</title>
-      <link>https://www.ithome.com.tw/news/173252</link>
-      <description>新聞由開發者Michael Hawker維護的WinUI XAML原型工具XAML Studio，於2026年1月6日宣布在GitHub開源，並以.NET基金會種子專案形式運作，程式碼以MIT授權釋出。專案目前把主要開發重心放在v2開發上，邀請社群透過GitHub Discussions與Issues回報功能需求與問題，作為後續穩定版發展方向。 XAML Studio是一款WinUI開發的獨立工具，讓開發者不必先把程式整合進專案，就能用即時編輯與互動預覽快速驗證XAML版面與元件行為，再把驗證過的XAML內容複製回Visual Studio專案整合。Michael Hawker也提醒，Microsoft Store目前仍以1.1版作為最後一次公開釋出，近年的改版與功能實驗主要累積在dev分支的v2程式碼庫。 根據專案公開說明，v2版的變更重點主要是工具介面與編輯輔助能力的更新，包含導入Fluent UI風格的新介面，補回早期原型曾有但v1未完整支援的資料夾工作流程，以及把即時屬性面板與視覺樹狀結構、視覺狀態檢視等能力整合到同一套檢視介面中，讓開發者在預覽階段能更直接觀察與調整UI狀態。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173252</guid>
-      <pubDate>Fri, 09 Jan 2026 01:07:55 +0000</pubDate>
+      <title>受AI衝擊，Tailwind CSS工程團隊裁撤75%</title>
+      <link>https://www.ithome.com.tw/news/173261</link>
+      <description>新聞以開源CSS框架Tailwind CSS聞名的Tailwind Labs，近日在GitHub的拉取請求討論串中透露工程團隊大幅縮編。Tailwind CSS創辦人Adam Wathan於1月7日回應提案時指出，工程團隊有75%成員在前一天失去工作，原因是AI對公司營運帶來強烈衝擊。他表示，自己必須把時間優先投入在扭轉營運，並確保仍在職者能持續領到薪資，同時支撐框架的長期維護。 這段回應出現在一個關於是否要在tailwindcss.com新增/llms.txt端點的拉取請求討論，提案者主張將Tailwind CSS文件以建置階段整併成單一純文字檔，供大型語言模型更容易讀取與使用，並表示能涵蓋所有文件頁面且保留程式碼區塊內容。 Adam Wathan也提到，Tailwind雖然比以往更受歡迎，但官方文件流量自2023年初以來約下滑40%。他表示，文件幾乎是使用者得知其商業產品的主要入口，要是缺乏足夠的付費客戶，團隊就難以負擔框架的長期維護成本。他強調希望能找到對模型友善的文件形式，但在尚未緩解營運壓力前，暫時不會把這類工作列為優先，並對於在現階段推出可能讓文件流量問題更惡化的作法感到猶</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173261</guid>
+      <pubDate>Fri, 09 Jan 2026 07:24:35 +0000</pubDate>
     </item>
     <item>
-      <title>【未來四年最重要的資安監理，從根本思維展開大變革】金融資安韌性發展藍圖出爐</title>
-      <link>https://www.ithome.com.tw/news/173253</link>
-      <description>新聞一起資安事件最極端的損失有多大？25億美元，相當於臺幣775億元。哪一家金融公司，承受得起如此巨額的損失？ 兩年前，國際貨幣基金組織（IMF）的一份報告，顛覆了全球金融業面對資安威脅最根本的態度。 根據IMF這份「2024年全球金融穩定報告」指出，多數資安災情的規模，大約50萬美元（約臺幣1,500萬元）的損失，但是，也有可能出現極端情況，一起資安事件，就會出現高達25億美元的損失，大約是一般金融公司年營收的8倍。不只是影響一家金融機構，就算只是一次的網路攻擊，若造成金融交易平臺的短暫停擺，也足以衝擊整個金融市場，甚至波及不同的金融交易市場，產生連鎖性的壓力，例如帶來整體股市的劇烈波動。 金融資安監理思維大轉變 國際貨幣基金組織這份報告讓許多國家認清了當前資安威脅的重大影響，加速了各國金融資安監理思維的轉變，邁向更全面、更主動的資安戰略，從風險可能發生的「事前防範」作為，轉變為「威脅必然發生」的「事後韌性」對策，希望提升金融機構因應極端情境的營運韌性。 金管會在2025年底最後一場記者會，發布了「金融資安韌性發展藍圖」，作為未來四年，金融產業資安監理最重要的新戰略。這份藍圖的出爐，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173253</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E5%9C%961-%E6%94%B9%E8%AE%8A-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E9%87%91%E7%AE%A1%E6%9C%83.png" length="0" type="image/png"/>
-      <pubDate>Fri, 09 Jan 2026 01:31:46 +0000</pubDate>
+      <title>台灣健康網路平臺正式揭牌，要串接醫院、健檢、長照建立民眾的健康數據旅程，發展健康照護應用</title>
+      <link>https://www.ithome.com.tw/news/173265</link>
+      <description>新聞台灣健康網路平臺(TwHealth Nexus)在今天(1/9)正式揭牌，結合GUID去識別化技術及以區塊鏈為基礎的動態同意書，未來在民眾同意的條件下，串接醫院、健檢、長照，甚至是民眾個人的健康數據，以數據為基礎推動AI、健康等相關應用發展。 台灣健康網路平臺的成立，是去年行政院BTC會議主持人政務委員吳誠文宣布，政府計畫成立健康數據服務公司，目的在整合國內的健康數據，以推動健康相關的應用發展。 台灣健康網路平臺的成立，背後由國發會及緯創資通、可成、台達電、義隆、廣達5家科技業者投入資金，公司資本額預期為18億元。響應政府政策，加入台灣健康網路平臺的醫院包括臺大醫院、成大醫院、北榮、高醫大等等，其他還有健檢、長照業者。 該公司董事長由中研院士楊泮池擔任，執行長為蔡秉晃醫師，今天揭牌儀式上，行政院政務委員吳誠文、中研院長陳建仁、衛福部長石崇良、健保署長陳亮妤，以及台達電、緯創資、台大醫院、成大醫院等人士到場支持。 楊泮池表示，台灣的醫療資訊長期存在結構上的困境，儘管健保資料庫累積民眾的健保資料，但是臨床病歷、健檢資料、長照資料分散在各機構，這些資料不互動形成數據孤島，這方面台灣已落後</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173265</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/20260109_151837.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 09 Jan 2026 09:51:57 +0000</pubDate>
     </item>
     <item>
-      <title>金融資安韌性發展藍圖大剖析</title>
-      <link>https://www.ithome.com.tw/article/173254</link>
-      <description>專題故事臺灣金融資安監理戰略從2026年進入全新的階段，金管會發布了未來四年的金融資安韌性發展藍圖，改變了過去被動防禦、以系統為主的思維，轉為以服務為中心，擴大到生態聯防，重視快速恢復的主動韌性戰略思維。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/article/173254</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1268-feng_mian_gu_shi_-p1-dou_zi_-open-960x420_kao_bei_0.jpg?itok=ElRT2otf" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 09 Jan 2026 01:32:57 +0000</pubDate>
+      <title>手機、雲端、IoT、AI應用接連爆發，身分管理大失控狂潮來襲！</title>
+      <link>https://www.ithome.com.tw/news/173269</link>
+      <description>新聞根據2025年10月公布的《iThome 2025 CIO &amp;amp; CISO大調查報告書資安篇》，臺灣企業與組織的前三大機密性資安風險，依序為個人資料外洩、機敏資料外洩、內部人員（現任或前任員工）發動攻擊，前三大完整性資安風險，依序為網路釣魚／社交工程手段、資安漏洞（如零時差漏洞攻擊）濫用、商業郵件詐騙（BEC），絕大多數都跟身分安全有關；然而，在各種資安防護技術的採用率上，身分存取與管理（IAM）排名第八，就產業類型而言，金融業與服務業較重視這類技術的投資，有超過與逼近一半的公司表示，他們有意持續強化IAM。 機器身分數量暴增，企業若無法有效管理，恐將成為資安大患 身分安全顯然很重要，然而，企業與組織面臨的挑戰越來越巨大。根據資安廠商CyberArk去年發布的報告，有一半的企業資安領導者表示，他們因為機器身分（Machine Identity）遭駭，導致發生資安事故，而且，超過一半的比例預估未來一年機器身分的數量將成長50％。綜合該公司近幾年定期揭露的身分安全情勢報告當中，我們也可以看到機器身分與人員身分（Human Identity）數量的比例巨大變化，從45比1暴增至82比1，單</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173269</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/CyberArk%202025%20Report1.png" length="0" type="image/png"/>
+      <pubDate>Fri, 09 Jan 2026 11:27:44 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】1月9日，思科修補網路存取控制平臺ISE資訊洩露漏洞</title>
-      <link>https://www.ithome.com.tw/news/173257</link>
-      <description>新聞思科修補網路存取控制平臺ISE資安漏洞，並表示已有概念驗證程式碼出現，恐將被用於實際攻擊 去年思科公布及修補多項網路存取控制（NAC）平臺Identity Services Engine（ISE）資安漏洞，其中有多個CVSS風險評分接近或達到滿分10分，相當危險而引起外界高度關注，現在他們公布另一個僅有4.9分的中度風險漏洞，並指出已有概念驗證工具（PoC），消息一出，各大資安新聞媒體跟進報導。 1月7日思科發布資安公告揭露CVE-2026-20029，此為ISE與ISE被動身分識別連接器（ISE Passive Identity Connector，ISE-PIC）的資訊洩露漏洞，存在於授權（licensing）的功能，通過身分驗證且具有管理權限的攻擊者能遠端觸發漏洞，存取敏感資訊，CVSS風險值為4.9分，他們特別提及，已有公開的漏洞利用概念驗證程式碼，使得攻擊者可將漏洞用於實際攻擊。此漏洞影響3.4版以下的ISE與ISE-PIC，思科發布3.2 Patch 8、3.3 Patch 8，以及3.4 Patch 4版修補，3.5版用戶不受影響。 這個漏洞發生的原因，在於ISE與I</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173257</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/PHALT-BLYX-image5.png" length="0" type="image/png"/>
-      <pubDate>Fri, 09 Jan 2026 02:56:12 +0000</pubDate>
+      <title>GitLab修補多項高風險漏洞，涉及跨站指令碼與權限濫用，自管環境應儘速更新</title>
+      <link>https://www.ithome.com.tw/news/173259</link>
+      <description>新聞程式碼代管與DevOps平臺GitLab於1月7日發布18.7.1、18.6.3與18.5.5版本，修正多項資安漏洞，涵蓋跨站指令碼（XSS）、授權檢查缺失、拒絕服務（DoS）與資訊洩露等風險，其中部分漏洞風險評分達高風險等級，可能影響GitLab多項核心功能與平臺存取控制機制。官方強烈建議採用自管（self-managed）部署的用戶，儘速升級以降低風險。至於GitLab.com已完成更新，GitLab Dedicated用戶則不受影響。 影響版本與適用範圍 GitLab指出，本次修補涵蓋多數自管環境，包含Omnibus套件、原始碼安裝與Helm Chart等部署方式，除非特別註明排除，否則皆在影響範圍內。 受影響版本包含GitLab 社群版（Community Edition，CE）與企業版（Enterprise Edition，EE）多個歷史版本分支，最早可回溯至8.x與10.x系列，用戶需依所屬版本線，升級至18.7.1、18.6.3或18.5.5。 重點漏洞一次看 本次修補的高風險漏洞，主要集中於GitLab多項常用功能： 跨站指令碼（XSS）漏洞 GitLab修補兩項高</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173259</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0109-gitlab-600-1.png" length="0" type="image/png"/>
+      <pubDate>Fri, 09 Jan 2026 12:44:55 +0000</pubDate>
     </item>
     <item>
-      <title>思科修補網路存取控制平臺ISE資安漏洞，並表示已有概念驗證程式碼出現，恐將被用於實際攻擊</title>
-      <link>https://www.ithome.com.tw/news/173256</link>
-      <description>新聞去年思科公布及修補多項網路存取控制（NAC）平臺Identity Services Engine（ISE）資安漏洞，其中有多個CVSS風險評分接近或達到滿分10分，相當危險而引起外界高度關注，現在他們公布另一個僅有4.9分的中度風險漏洞，並指出已有概念驗證工具（PoC），消息一出，各大資安新聞媒體跟進報導。 1月7日思科發布資安公告揭露CVE-2026-20029，此為ISE與ISE被動身分識別連接器（ISE Passive Identity Connector，ISE-PIC）的資訊洩露漏洞，存在於授權（licensing）的功能，通過身分驗證且具有管理權限的攻擊者能遠端觸發漏洞，存取敏感資訊，CVSS風險值為4.9分，他們特別提及，已有公開的漏洞利用概念驗證程式碼，使得攻擊者可將漏洞用於實際攻擊。此漏洞影響3.4版以下的ISE與ISE-PIC，思科發布3.2 Patch 8、3.3 Patch 8，以及3.4 Patch 4版修補，3.5版用戶不受影響。 這個漏洞發生的原因，在於ISE與ISE-PIC的網頁管理介面對於XML檔案處理不當，攻擊者可上傳惡意檔案至應用程式觸發，一旦</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173256</guid>
-      <pubDate>Fri, 09 Jan 2026 03:07:12 +0000</pubDate>
+      <title>老舊音響SoundTouch走向終止支援，Bose釋出API文件讓社群接手開發</title>
+      <link>https://www.ithome.com.tw/news/173264</link>
+      <description>新聞Bose更新SoundTouch音響終止支援公告，把雲端支援結束日延後到2026年5月6日，並同步釋出SoundTouch的API文件，表示將公開技術規格，讓獨立開發者能夠製作相容的工具與功能，替這批已進入生命周期末段的音響保留延續使用的空間。 SoundTouch雲端支援仍會結束，但Bose表示在聽取用戶意見後，將原先公告的2月18日延後到5月6日。Bose也說明，SoundTouch應用程式在雲端終止前會收到自動更新，並會在5月6日自動切換到可在不依賴雲端運作的版本。用戶不需要手動操作，只要開啟應用程式就會自動套用更新。 Bose將SoundTouch從依賴雲端的整合控制，調整為以本機網路為主的運作模式。雲端終止後，SoundTouch應用程式仍可在同一個WiFi網路內進行系統設定與基本控制，例如播放暫停、音量調整與多裝置群組。聽音樂則改由各音樂服務的應用程式發起，再透過藍牙、AirPlay、Spotify Connect或AUX將音訊送到SoundTouch裝置。SoundTouch系統於2013年進入市場，Bose表示因技術演進，已無法持續支撐這一代產品所依賴的雲端基礎架構</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173264</guid>
+      <pubDate>Fri, 09 Jan 2026 22:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>針對電子零件製造商信邦遭網攻，勒索軟體DragonForce聲稱是他們所為</title>
-      <link>https://www.ithome.com.tw/news/173247</link>
-      <description>新聞製作連接線組與連接器的電子零件整合設計暨製造商信邦電子（Sinbon Electronics），在12月24日於股市公開觀測站發布資安重訊，指出該集團與海外子公司的部分資訊系統遭到網攻，本月初有駭客組織聲稱犯案，竊得該公司與半導體大廠之間的合作文件。 根據Cybersecurity News Everyday、Ransomware.Live，以及RedPacket Security等威脅情報網站公布的消息，勒索軟體駭客組織DragonForce於1月2日宣稱，他們入侵了總部位於新北市的Sinbon Electronics（www.sinbon.com），竊得847.32 GB資料，約有65萬個檔案，這些資料來自臺灣總部與美國子公司。駭客揚言，若是信邦不予理會，他們將在兩週後公布竊得資料。針對此事，國內媒體民視新聞網前幾天也跟進報導，不過詭異的是，該新聞目前已下架。 究竟信邦被DragonForce宣稱竊走哪些內部機密資料？對方聲稱，這批資料包含了財務與會計記錄、用戶資料與個人資訊、生產記錄、產品缺陷細節，以及公司財務狀況報告等，其中，他們特別提及信邦與半導體裝置製造商艾司摩爾（AS</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173247</guid>
-      <pubDate>Fri, 09 Jan 2026 03:14:02 +0000</pubDate>
+      <title>Artificial Analysis改版智慧指標v4.0，新增幻覺風險與研究級推理評測</title>
+      <link>https://www.ithome.com.tw/news/173267</link>
+      <description>新聞獨立模型評測機構Artificial Analysis更新智慧指標（Intelligence Index）至v4.0，調整評測組合，讓評測重心更貼近實務任務與可靠性行為。官方同時提醒，合成指標可用來比較模型，但仍有侷限，不必然能直接套用到每一個使用案例，並在方法論中強調評測應兼顧公平性與真實世界適用性。 Intelligence Index v4.0移除MMLU-Pro、AIME2025與LiveCodeBench等常見測試，改採新的評測組合，試圖重新拉開模型差距。 在Intelligence Index v4.0的前26個模型中，GPT-5.2（xhigh）以51分居首，Claude 4.5 Opus為49分，Gemini 3 Pro Preview（high）48分，GPT-5.1（high）47分，Gemini 3 Flash 46分。第二梯隊大致落在40分上下，包含Claude 4.5 Sonnet與GLM-4.7各42分，Grok 4與DeepSeek v3.2各41分，Kimi K2 Thinking 40分。其後分數逐步拉開，末段模型已降到20分以下，例如K2-V2（</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173267</guid>
+      <pubDate>Fri, 09 Jan 2026 22:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI Overview正式進駐Gmail，Google將生成式AI帶入收件匣核心體驗</title>
-      <link>https://www.ithome.com.tw/news/173258</link>
-      <description>新聞Google周四（1/8）宣布，旗下電子郵件服務Gmail正式導入AI Overview功能，象徵這套原本用於搜尋體驗的生成式AI回答機制，開始進入個人郵件與私有資料場景。相關功能目前已在美國市場以英文介面率先推出，未來幾個月將逐步擴展至其他語言與地區。 此次更新被Google定位為「Gmail進入Gemini時代」的重要里程碑。在郵件數量持續成長、對話串愈來愈長的情況下，Gmail不再只強化搜尋與分類，而是嘗試讓AI直接理解郵件內容，協助使用者快速掌握重點並完成決策。 首先推出的是「AI Overview對話摘要功能」。當使用者開啟一封包含大量往返信件的郵件時，系統會自動整合整段對話內容，萃取關鍵結論與重要資訊，生成簡要摘要，讓使用者無須逐封閱讀即可掌握全貌。這項功能屬於被動式摘要，已免費提供給所有Gmail使用者。 另一項更進階的功能則是「向收件匣提問」。使用者可直接以自然語言詢問整個收件匣，例如查找過去的報價、合作對象或事件背景，由AI Overview進行跨郵件搜尋、關聯與推理後給出答案。由於涉及更高強度的運算與理解能力，這項主動式問答功能僅開放給Google AI Pro</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173258</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0109-gmail-ai%20overview-1.png" length="0" type="image/png"/>
-      <pubDate>Fri, 09 Jan 2026 03:35:20 +0000</pubDate>
+      <title>CrowdStrike收購SGNL，身分安全邁向即時授權時代</title>
+      <link>https://www.ithome.com.tw/news/173272</link>
+      <description>新聞雲端資安業者CrowdStrike周四（1/8）宣布，已與身分安全業者SGNL達成收購協議，以擴展CrowdStrike Falcon新一代身分安全解決方案。雙方並未公布交易金額，但根據路透社（Reuters）與The Register的報導，這筆交易價值7.4億美元。 SGNL是由Scott Kriz與Erik Gustavson在2021年共同創辦，聚焦於解決雲端、SaaS與AI時代下授權失效的結構性問題；主打身分即時授權（Continuous Authorization）與零常駐權限（Zero Standing Privileges）架構，讓人類、非人類，以及AI代理人，都只在必要時取得最小權限，並可依據風險變化隨時撤銷。 擔任SGNL執行長的Kriz解釋，傳統的身分與存取管理（Identity and Access Management，IAM）體系主要提供兩種解法：特權存取管理（Privileged Access Management，PAM）與身分治理與管理（Identity Governance and Administration，IGA）。前者著重鎖住高權限帳號的</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173272</guid>
+      <pubDate>Fri, 09 Jan 2026 22:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI買下企業顧問AI工具商Convogo的團隊</title>
-      <link>https://www.ithome.com.tw/news/173260</link>
-      <description>新聞Techcrunch報導，OpenAI最近收購了開發企業顧問AI工具開發商Convogo，並取得開發產品的背後團隊。 Convogo主要業務是提供幫助高階主管教練、顧問、人力資源等專業角色自動化領導力評估、回饋報告等工具的企業應用平臺。該公司據稱已和數千家企業顧問及「領導人才發展」公司合作過。 OpenAI對媒體表示，該收購著眼於聘僱其團隊，用於公司的「AI雲端面的工作」，而非取得其IP或技術。Convogo的三名創辦人也將加入OpenAI。 從官方聲明來看，這個SaaS產品不會被OpenAI繼續運營或整合進自身服務，但創辦人指出，收購完成後該公司會持續「讓AI更易於為所有產業專業人士使用」。 Techcrunch報導，這是OpenAI透過收購聘僱制（acqui-hire）收購的第9家公司。之前有的是產品整合進OpenAI的產品線，如Mac AI介面開發商Sky、產品測試工具商Statsig，有的是完全收攤，包括AI個人理財與投資助理Roi、AI模型評估與分析工具Context.ai、與AI推薦與個性化系統Crossing Minds。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173260</guid>
-      <pubDate>Fri, 09 Jan 2026 05:50:48 +0000</pubDate>
+      <title>OpenAI對ShadowLeak攻擊的防護未完全封堵，研究人員再揭露ChatGPT新濫用手法ZombieAgent</title>
+      <link>https://www.ithome.com.tw/news/173273</link>
+      <description>新聞OpenAI去年8月修補了可以ShadowLeak手法濫用ChatGPT的瑕疵，不過並未修補完全，研究人員又發現新的濫用方法，名為ZombieAgent，促使該公司又在12月再次修補。 去年OpenAI修補由資安廠商Radware發現的ChatGPT濫用方法，名為ShadowLeak。ShadowLeak為間接提示注入方法，利用ChatGPT深入研究（Deep Research）功能，當使用者授權存取Gmail與瀏覽器工具時，攻擊者傳送一封變造過的HTML郵件，如Gmail郵件，ChatGPT就可能自動將Gmail（或Outlook或Google Drive）的敏感資訊，以URL參數形式傳送到外部伺服器，無須使用者任何點擊，也不會顯示警告。OpenAI已在8月解決這個問題，限制ChatGPT只能依照提供的方式開啟URL，拒絕為其添加參數。 但Radware研究人員本周揭露繞過這個限制的方法，稱為ZombieAgent。 研究人員說明ZombieAgent手法。他們建立了數行預先建構的網址清單，每個網址後附帶單一數字、英文字母，例如example.com/a、example.com/</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173273</guid>
+      <pubDate>Fri, 09 Jan 2026 22:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>從對話到成交，微軟以Copilot Checkout與Brand Agents重塑電商</title>
-      <link>https://www.ithome.com.tw/news/173262</link>
-      <description>新聞微軟正式將交易帶進AI對話場景，於本周四（1/8）推出Copilot Checkout與Brand Agents兩項商務功能，宣示生成式AI不再只是搜尋與推薦工具，而是直接參與成交流程，重新定義電商從決策到下單的結構。 其中，Copilot Checkout率先在美國市場推出，已於Copilot.com上線。消費者在與Copilot對話詢問、比較商品時，可直接完成結帳，不需跳轉至外部網站。且微軟強調，商家仍是交易主體，負責收款、訂單處理與顧客資料，Copilot僅作為降低摩擦與加速決策的交易入口。 目前Copilot Checkout已整合PayPal、Stripe及Shopify等支付與電商平臺。Shopify商家將自動納入Copilot Checkout生態，無須額外整合；使用PayPal或Stripe的商家則可申請加入。 至於Brand Agents則是微軟替品牌官網打造的AI導購系統，定位為商店自家網站的AI店員，它以品牌語調與商品資料為基礎，回應消費者提問、協助比較與理解差異，讓官網本身具備對話式銷售能力。 目前Brand Agents僅開放給Shopify商家使用，需先</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173262</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0109-Copilot%20Checkout-%E5%BE%AE%E8%BB%9F-2.png" length="0" type="image/png"/>
-      <pubDate>Fri, 09 Jan 2026 06:20:46 +0000</pubDate>
+      <title>2025年臺灣6家企業加入FIRST資安應變組織，合勤、104、元大證券入列，資安產業亦有來毅、數聯、元盾加入</title>
+      <link>https://www.ithome.com.tw/news/173274</link>
+      <description>新聞隨著資安威脅日益受到重視，對於企業組織的CSIRT、PSIRT團隊而言，參與國際資安協作的意願持續升溫。過去一年以來，全球加入FIRST國際資安應變組織的成員數量，從約莫764個增至829個。 臺灣FIRST成員亦持續增加，從25個增加至31個，新加入的公司有資安業者來毅數位科技，以及資安SOC服務業者的數聯資安與元盾資安。更引人注目的是，2025年新增成員擴及不同產業領域，首度出現網通設備業者、服務業，以及證券業代表，分別為合勤科技、一零四資訊科技、元大證券，顯示資安應變與國際合作，已逐漸成為越來越多產業的共同課題。 更多臺灣SOC業者加入，展現資安監控服務接軌國際 臺灣企業對於資安應變的重視程度越來越顯著，FIRST成員數量增加反映了這項趨勢，也展現與國際企業資安社群的接軌。 綜觀臺灣FIRST成員，在資安業者方面，先前已有7家是FIRST成員，從早期的趨勢科技、安華聯網、奧義智慧，到近年加入的微智安聯、杜浦數位安全、中華資安國際，以及睿控網安。 進入2025年，臺灣有3家本土資安業者的應變團隊加入FIRST，分別為5月的來毅數位科技Keypasco CSC，以及11月的數聯資</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173274</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%962%EF%BC%89FIRST%20Membership%20Baselin%20SIM3.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 10 Jan 2026 03:17:09 +0000</pubDate>
     </item>
   </channel>
 </rss>

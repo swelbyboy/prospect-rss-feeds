@@ -8,80 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Jan 2026 06:38:41 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Jan 2026 06:34:51 +0000</lastBuildDate>
     <item>
-      <title>AI, Fake Reviews, and the Trust Crisis in SaaS</title>
-      <link>https://dev.to/mukul_sharma/ai-fake-reviews-and-the-trust-crisis-in-saas-2399</link>
-      <description>The reputation game just got harder If you want more background on why trust matters so much in SaaS, read this. It covers how reputation, emotion, and social proof quietly decide most product outcomes. But even without that context, one thing is clear. In 2026, there is a new variable reshaping trust at scale: AI. AI can amplify credibility faster than ever. It can also destroy it just as quickly. This article focuses on the harder lessons founders shared, including manipulation, ethics, and th</description>
-      <guid isPermaLink="false">https://dev.to/mukul_sharma/ai-fake-reviews-and-the-trust-crisis-in-saas-2399</guid>
-      <pubDate>Fri, 09 Jan 2026 05:52:31 +0000</pubDate>
+      <title>How to Check External API Throttle Limit in Laravel</title>
+      <link>https://dev.to/ankitvermaonline/how-to-check-external-api-throttle-limit-in-laravel-mk6</link>
+      <description>When working with external APIs, you don’t always know their rate limits in advance. Most APIs don’t publish limits or send headers until you exceed them. So the only reliable way is to detect throttling from the API response itself. This short example shows how to check if an API is throttling your requests in Laravel. The Idea Call the external API Check if the response status is 429 (Too Many Requests) Read rate-limit headers (if provided) Handle throttling gracefully use Illuminate\Support\F</description>
+      <guid isPermaLink="false">https://dev.to/ankitvermaonline/how-to-check-external-api-throttle-limit-in-laravel-mk6</guid>
+      <pubDate>Sat, 10 Jan 2026 05:02:36 +0000</pubDate>
     </item>
     <item>
-      <title>So You're a Ruby/Python Dev Learning Rust's Option Type</title>
-      <link>https://dev.to/dev-tngsh/so-youre-a-rubypython-dev-learning-rusts-option-type-2m88</link>
-      <description>Rust's Option type forces you to handle the "maybe it's there, maybe it's not" problem upfront using combinators like .map(), .unwrap_or(), and the ? operator—basically replacing the "oops, didn't check for nil" debugging session at 2am with compile errors you fix before running anything. Look, I get it. You've been happily writing Ruby or Python for years, everything's fine, and then someone convinces you to try Rust. Suddenly the compiler is yelling at you about Option and you're like "just le</description>
-      <guid isPermaLink="false">https://dev.to/dev-tngsh/so-youre-a-rubypython-dev-learning-rusts-option-type-2m88</guid>
-      <pubDate>Fri, 09 Jan 2026 06:00:00 +0000</pubDate>
+      <title>Running on our backup wifi. Sky Fiber sucks</title>
+      <link>https://dev.to/highcenburg/running-on-our-backup-wifi-sky-fiber-sucks-4d1d</link>
+      <description>Running on our backup wifi. Sky Fiber sucks</description>
+      <guid isPermaLink="false">https://dev.to/highcenburg/running-on-our-backup-wifi-sky-fiber-sucks-4d1d</guid>
+      <pubDate>Sat, 10 Jan 2026 05:05:38 +0000</pubDate>
     </item>
     <item>
-      <title>Criei uma extensão para VS Code que transforma TODOs em um quadro Kanban e issues reais no Jira</title>
-      <link>https://dev.to/dantewebmaster/criei-uma-extensao-para-vs-code-que-transforma-todos-em-um-quadro-kanban-e-issues-reais-no-jira-bd8</link>
-      <description>É muito comum código com vários TODO. E o time sabe que a maioria deles nunca vira trabalho de verdade. Eles ficam perdidos em comentários, são esquecidos, e aos poucos viram dívida técnica invisível. Foi exatamente por isso que eu criei o TODO Board. O problema Na maioria dos projetos, a dívida técnica está espalhada pelo código em comentários como: // TODO: refatorar isso // FIXME: tratar edge case // NOTE: melhorar performance Essas são pendências reais, mas elas não estão no Jira, não entram</description>
-      <guid isPermaLink="false">https://dev.to/dantewebmaster/criei-uma-extensao-para-vs-code-que-transforma-todos-em-um-quadro-kanban-e-issues-reais-no-jira-bd8</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsbb0mdlawt8z7ti1ahbx.gif" length="0" type="image/gif"/>
-      <pubDate>Fri, 09 Jan 2026 06:04:54 +0000</pubDate>
+      <title>How to Cut Your AI Costs in Half While Doubling Performance</title>
+      <link>https://dev.to/debmckinney/how-to-cut-your-ai-costs-in-half-while-doubling-performance-59f9</link>
+      <description>Traditional caching breaks the moment someone rephrases a question. A user asks "What are your business hours?" and gets a response. Five minutes later, another user asks "When are you open?;" semantically identical, but different words; and the cache misses entirely. Another expensive API call for the same information.; This is the hidden tax on AI applications. Teams building chatbots and customer support systems watch LLM costs balloon because standard caching only catches exact string matche</description>
+      <guid isPermaLink="false">https://dev.to/debmckinney/how-to-cut-your-ai-costs-in-half-while-doubling-performance-59f9</guid>
+      <pubDate>Sat, 10 Jan 2026 05:06:41 +0000</pubDate>
     </item>
     <item>
-      <title>From 7 sec to 3 sec: Reducing Load Time in a Rails-Powered Restaurant App</title>
-      <link>https://dev.to/railsfactory_sedin/from-7-sec-to-3-sec-reducing-load-time-in-a-rails-powered-restaurant-app-3e6f</link>
-      <description>I joined this project at a point where the cracks were starting to show. The mobile app functioned, but not at the level a high-volume restaurant brand needed. This was a leading quick-service restaurant brand in the Middle East, running hundreds of outlets and processing millions of orders. Mobile ordering and drive-through apps were no longer side projects; they were core infrastructure. The ask was simple on paper: make the apps faster, more reliable, and ready to scale. In reality, it meant</description>
-      <guid isPermaLink="false">https://dev.to/railsfactory_sedin/from-7-sec-to-3-sec-reducing-load-time-in-a-rails-powered-restaurant-app-3e6f</guid>
-      <pubDate>Fri, 09 Jan 2026 06:08:03 +0000</pubDate>
+      <title>Can AI Really Build Your App From Just a Vibe?</title>
+      <link>https://dev.to/aiwithapex/can-ai-really-build-your-app-from-just-a-vibe-5640</link>
+      <description>Everyone’s hyped about “vibe coding” – describe an app, let AI build it. They’re missing the most dangerous part. Here’s what actually matters ↓ I’ve seen people ship full games and side-project apps from a single prompt. It feels like cheating. Until it doesn’t. Because other teams used the same approach… and lost production data. Shipped apps with gaping security holes. Had to shut everything down and rebuild. AI can write code fast. But speed without guardrails is how you quietly set your fut</description>
+      <guid isPermaLink="false">https://dev.to/aiwithapex/can-ai-really-build-your-app-from-just-a-vibe-5640</guid>
+      <pubDate>Sat, 10 Jan 2026 05:28:47 +0000</pubDate>
     </item>
     <item>
-      <title>How I Built an Interactive "Wiki-Killer" for Dragon Quest VII using Astro &amp;amp; Tailwind</title>
-      <link>https://dev.to/lei_zhang_3cd1b1ddb6debf9/how-i-built-an-interactive-wiki-killer-for-dragon-quest-vii-using-astro-tailwind-46el</link>
-      <description>The Problem: Game Wikis Are Broken 📉 I've been playing the new Dragon Quest VII Reimagined Demo (Switch 2 / Steam), and I ran into a frustration that every RPG gamer knows: Old School Text Guides (GameFAQs) are hard to parse on a phone while playing. Modern Wikis (Fandom, etc.) are often bloated with ads, slow to load, and auto-playing videos. I didn't just want to read a guide; I wanted to track my progress. I needed to know which "Shard Fragments" I had missed and which "Mini Medals" were hidd</description>
-      <guid isPermaLink="false">https://dev.to/lei_zhang_3cd1b1ddb6debf9/how-i-built-an-interactive-wiki-killer-for-dragon-quest-vii-using-astro-tailwind-46el</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fyour-image-url-here%2Fhero-section.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 09 Jan 2026 06:13:20 +0000</pubDate>
+      <title>Rust Series01 - Ownership is what you need to know</title>
+      <link>https://dev.to/kevinsheeranxyj/rust-series01-ownership-is-what-you-need-to-know-2ikm</link>
+      <description>Hi fellows, since I've been using Rust for about 3 years now, I think it's time to share some experience to you guys, so I decide to post this Rust language learning series in next couple of weeks. Without further do, let's jump into it. Assume you know some OOP(Oriented-Object-Programming) languages, like Java, C#. you will understand that everything is based on Object, but today you need to shift your mind as Rust is not an OOP language, instead it is all about ownership which means Rust will</description>
+      <guid isPermaLink="false">https://dev.to/kevinsheeranxyj/rust-series01-ownership-is-what-you-need-to-know-2ikm</guid>
+      <pubDate>Sat, 10 Jan 2026 05:37:35 +0000</pubDate>
     </item>
     <item>
-      <title>Scrapy with Docker: Deploy Anywhere in Minutes</title>
-      <link>https://dev.to/ikram_khan/scrapy-with-docker-deploy-anywhere-in-minutes-4nod</link>
-      <description>I spent 3 hours setting up Scrapy on a new server once. Installing Python, dependencies, libraries, system packages. Then it worked on my machine but broke on the server because of version differences. The next time, I used Docker. Setup took 5 minutes. It worked identically on my laptop, the server, and my teammate's Windows machine. Docker eliminates "works on my machine" problems forever. Let me show you how to Dockerize your Scrapy project properly. What Is Docker and Why Use It? Docker pack</description>
-      <guid isPermaLink="false">https://dev.to/ikram_khan/scrapy-with-docker-deploy-anywhere-in-minutes-4nod</guid>
-      <pubDate>Fri, 09 Jan 2026 06:14:01 +0000</pubDate>
+      <title>KRACK Attack - When WPA2 Was Not as Safe as We Thought</title>
+      <link>https://dev.to/vinay_sharma_e6ec1235f476/krack-attack-when-wpa2-was-not-as-safe-as-we-thought-3p0g</link>
+      <description>KRACK (Key Reinstallation Attack) is a Wi-Fi vulnerability discovered in 2017 It exposed a flaw in the WPA2 security protocol Attackers within range of a network could interfere with the Wi-Fi connection process This forced devices to reuse encryption keys The attack did not require the Wi-Fi password What this allowed Interception of Wi-Fi traffic Reading sensitive data Modification of unencrypted traffic Higher risk for unpatched and legacy devices Who was affected Mobile phones and laptops us</description>
+      <guid isPermaLink="false">https://dev.to/vinay_sharma_e6ec1235f476/krack-attack-when-wpa2-was-not-as-safe-as-we-thought-3p0g</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjo75h96r0qznasus03iy.png" length="0" type="image/png"/>
+      <pubDate>Sat, 10 Jan 2026 05:45:29 +0000</pubDate>
     </item>
     <item>
-      <title>Why I Went Back to Basics: What 20,000 XP on W3Schools Taught Me About Coding</title>
-      <link>https://dev.to/sandipyadav/why-i-went-back-to-basics-what-20000-xp-on-w3schools-taught-me-about-coding-576a</link>
-      <description>You can’t build a skyscraper on a weak foundation. Here is why I spent 500+ lessons refining my core skills. The “Shiny Object” Trap In the world of software development, there is always something new to learn. A new JavaScript framework, a new update to .NET, or a trendy library that everyone is tweeting about. It is easy to get caught up in the hype and rush to build complex projects. But recently, I took a step back. I realized that the best engineers aren’t just the ones who know the latest</description>
-      <guid isPermaLink="false">https://dev.to/sandipyadav/why-i-went-back-to-basics-what-20000-xp-on-w3schools-taught-me-about-coding-576a</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwnj4xpga1faizt92kz9k.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 09 Jan 2026 06:15:51 +0000</pubDate>
+      <title>PushEnv: A New, Encrypted Way to Manage .env Files (No SaaS, No Servers) 🔐</title>
+      <link>https://dev.to/shahnoor_mujawar/pushenv-a-new-encrypted-way-to-manage-env-files-no-saas-no-servers-3d1p</link>
+      <description>Environment variables run everything. But the way we manage them?Still messy. Still risky. Still outdated. So I built PushEnv — a new way to handle secrets. Here’s the story, in Q&amp;amp;A form. Who am I and what is PushEnv? I work across backend, DevOps, and AI infra.Every project I touched had the same problem: Secrets were everywhere — and nowhere. PushEnv is my attempt to fix that. It’s a local-first, encrypted, Git-style workflow for .env files with: Zero server trust No SaaS No lock-in No dashboa</description>
+      <guid isPermaLink="false">https://dev.to/shahnoor_mujawar/pushenv-a-new-encrypted-way-to-manage-env-files-no-saas-no-servers-3d1p</guid>
+      <pubDate>Sat, 10 Jan 2026 06:06:43 +0000</pubDate>
     </item>
     <item>
-      <title>What is cyber security and why is it important in today’s digital world?</title>
-      <link>https://dev.to/ridhima_b7f6c7cbeef40f3b8/what-is-cyber-security-and-why-is-it-important-in-todays-digital-world-3jp3</link>
-      <description>Cyber security is the practice of protecting computers, networks, systems, and data from digital attacks such as hacking, malware, phishing, and data breaches. In today’s digital world, almost everything is connected to the internet — personal data, banking, businesses, and government systems. This makes cyber security extremely important because cyber attacks can lead to financial loss, identity theft, data leaks, and even disruption of essential services. Cyber security helps by: Protecting pe</description>
-      <guid isPermaLink="false">https://dev.to/ridhima_b7f6c7cbeef40f3b8/what-is-cyber-security-and-why-is-it-important-in-todays-digital-world-3jp3</guid>
-      <pubDate>Fri, 09 Jan 2026 06:18:08 +0000</pubDate>
+      <title>How Does @Async Work Internally in Spring Boot?</title>
+      <link>https://dev.to/realnamehidden1_61/how-does-async-work-internally-in-spring-boot-35h5</link>
+      <description>Introduction 🚀 Have you ever called a REST API and thought: “Why is this request blocking until everything finishes?” Now imagine sending an email, generating a report, or calling a slow third-party service — do you really want your user to wait? That’s where @Async in Spring Boot comes to the rescue. In simple terms, @Async lets Spring say: “You go ahead, I’ll handle this task in the background.” Behind this simple annotation, Spring Boot uses proxies, thread pools, and executors to run your co</description>
+      <guid isPermaLink="false">https://dev.to/realnamehidden1_61/how-does-async-work-internally-in-spring-boot-35h5</guid>
+      <pubDate>Sat, 10 Jan 2026 06:10:02 +0000</pubDate>
     </item>
     <item>
-      <title>Docker Kanvas Challenges Helm and Kustomize for Kubernetes Dominance</title>
-      <link>https://dev.to/latchudevops/docker-kanvas-challenges-helm-and-kustomize-for-kubernetes-dominance-2df0</link>
-      <description>🚀 What Is Docker Kanvas and Why Does It Matter for Kubernetes? Docker recently introduced Docker Kanvas, a new platform aimed at simplifying one of the hardest problems in cloud-native development: Moving from local development to production Kubernetes — without drowning in YAML. This move signals a strategic shift for Docker: from being just a container runtime to becoming a deployment and platform orchestration layer. Let’s break it down. 🧩 The Problem Docker Kanvas Is Solving Most developers</description>
-      <guid isPermaLink="false">https://dev.to/latchudevops/docker-kanvas-challenges-helm-and-kustomize-for-kubernetes-dominance-2df0</guid>
-      <pubDate>Fri, 09 Jan 2026 06:25:56 +0000</pubDate>
+      <title>Linux Kernel Architecture: From Ring 0 to Network Stack &amp;amp; eBPF</title>
+      <link>https://dev.to/kanywst/linux-kernel-architecture-from-ring-0-to-network-stack-ebpf-6o0</link>
+      <description>Introduction In the world of cloud-native technologies and high-performance computing, understanding what happens under the hood of the Linux operating system is becoming increasingly important. Technologies like eBPF and kTLS are revolutionizing how we interact with the kernel, but to truly grasp their power, we must first understand the fundamental structures they interact with. As I began learning eBPF and kTLS, I realized I needed to understand the kernel's foundation first. This article exp</description>
+      <guid isPermaLink="false">https://dev.to/kanywst/linux-kernel-architecture-from-ring-0-to-network-stack-ebpf-6o0</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsibiozzidi8tuq963w5b.png" length="0" type="image/png"/>
+      <pubDate>Sat, 10 Jan 2026 06:13:01 +0000</pubDate>
     </item>
     <item>
-      <title>E-commerce: How to Build a Card Payment System with Blnk Finance</title>
-      <link>https://dev.to/ubcodes/e-commerce-how-to-build-a-card-payment-system-with-blnk-finance-3b1k</link>
-      <description>A step-by-step guide for developers to implement card payments with authorization and settlement flows Introduction Have you ever wondered how card payments actually work behind the scenes? When you swipe your card at a store, your money doesn't instantly leave your account. Instead, there's a fascinating two-step process: authorization (holding the funds) and settlement (actually moving the money). In this guide, we'll show you how to build a fully functional e-commerce demo that implements thi</description>
-      <guid isPermaLink="false">https://dev.to/ubcodes/e-commerce-how-to-build-a-card-payment-system-with-blnk-finance-3b1k</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzqliy0e7e1bu82fra17y.png" length="0" type="image/png"/>
-      <pubDate>Fri, 09 Jan 2026 06:28:05 +0000</pubDate>
+      <title>How I Went From 'I'm Not a Hardware Person' to Reverse Engineering Devices</title>
+      <link>https://dev.to/numbpill3d/how-i-went-from-im-not-a-hardware-person-to-reverse-engineering-devices-894</link>
+      <description>Listen up. Sit down and grab a coffee, or whatever it is you kids drink to stay awake these days. I want to talk to you about something I hear way too often from the younger crowd jumping into the hacking scene. I see it in forums, I see it in Discords, and I hear it at cons when I'm trying to enjoy a drink in peace. "I'm not a hardware person." I used to say the exact same thing. Back in the day, if it didn't have a keyboard and a CRT monitor, I wanted nothing to do with it. I was strictly a so</description>
+      <guid isPermaLink="false">https://dev.to/numbpill3d/how-i-went-from-im-not-a-hardware-person-to-reverse-engineering-devices-894</guid>
+      <pubDate>Sat, 10 Jan 2026 06:13:16 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Jan 2026 06:38:53 +0000</lastBuildDate>
-    <item>
-      <title>Etnaviv Driver Wires Up PPU Flop Reset Support Needed By Some Vivante Hardware</title>
-      <link>https://www.phoronix.com/news/Etnaviv-PPU-Flop-Reset</link>
-      <description>Sent out today was the latest batch of drm-misc-next changes to DRM-Next for staging ahead of the upcoming Linux 6.20~7.0 kernel cycle. The reverse-engineered Etnaviv DRM driver for Vivante graphics/NPU hardware has added a new "PPU flop reset" feature gleaned off studying the downstream vendor kernel driver...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Etnaviv-PPU-Flop-Reset</guid>
-      <pubDate>Thu, 08 Jan 2026 11:14:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux Patches Enable Intel GPU Firmware Updating From Non-x86 Systems</title>
-      <link>https://www.phoronix.com/news/Intel-dGPU-Firmware-Non-x86</link>
-      <description>The modern Intel Xe kernel graphics driver was designed from the start to be more broadly compatible with non-x86 architectures given their discrete graphics processors being front and center, unlike the legacy i915 kernel graphics driver being very x86 minded. While this allows running Intel Arc Graphics on ARM or RISC-V, there are some other kinks still being ironed out with using Intel graphics in the non-x86 world. One of those limitations currently being worked through is the lack of GPU fi</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-dGPU-Firmware-Non-x86</guid>
-      <pubDate>Thu, 08 Jan 2026 11:25:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linus Torvalds: "The AI Slop Issue Is *NOT* Going To Be Solved With Documentation"</title>
-      <link>https://www.phoronix.com/news/Torvalds-Linux-Kernel-AI-Slop</link>
-      <description>The Linux kernel developers for months now have been debating proposed guidelines for tool-generated submissions to the Linux kernel. As part of the "tools", the main motivator for this documentation has been around the era of AI and large language models with coding assistants and more. Torvalds made some remarks on the Linux kernel mailing list around his belief in focusing the documentation on "tools" rather than explicitly focusing on AI, given the likelihood of AI-assisted contributions con</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Torvalds-Linux-Kernel-AI-Slop</guid>
-      <pubDate>Thu, 08 Jan 2026 11:37:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA Optimizes Printing Of Linux Memory Stats For 11% System Time Savings</title>
-      <link>https://www.phoronix.com/news/NVIDIA-Optimize-Printf-Memcg</link>
-      <description>A NVIDIA engineer restructuring some of the printf-related code within the memory resource controller "memcg" statistics printing code to reduce the system time by 11% for dumping those stats...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-Optimize-Printf-Memcg</guid>
-      <pubDate>Thu, 08 Jan 2026 13:19:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intel Panther Lake Laptops For Pre-Order Scarce So Far</title>
-      <link>https://www.phoronix.com/news/Intel-Core-Ultra-3-Pre-Order</link>
-      <description>On Monday at CES Intel announced Panther Lake as Core Ultra Series 3 with the initial laptop designs to be available for pre-order starting the following day, 6 January, while global availability is expected around 27 January. Now a few days after pre-orders opened up, few options are available and some of the models will not be shipping until mid-February...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Core-Ultra-3-Pre-Order</guid>
-      <pubDate>Thu, 08 Jan 2026 14:11:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 6.18 LTS vs. Liquorix Kernel On AMD Ryzen Threadripper Workstation Performance</title>
-      <link>https://www.phoronix.com/review/linux-618-liquorix</link>
-      <description>It's been a while since running benchmarks of the Liquorix kernel as an enthusiast-tailored downstream version of the Linux kernel focused on responsiveness for gaming, audio/video production, and other creator/enthusiast workloads. In today's article is a look at how the latest Liquorix kernel derived from Linux 6.18 is competing against the upstream Linux 6.18 LTS kernel on the same system.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/linux-618-liquorix</guid>
-      <pubDate>Thu, 08 Jan 2026 15:00:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mesa 26.0 Now Supports GPU Hardware Replay With The Intel Xe Kernel Driver</title>
-      <link>https://www.phoronix.com/news/Mesa-26.0-Hang-Replay-Xe</link>
-      <description>The Intel Mesa graphics drivers have supported a GPU hardware replay feature for making it easier to reproduce issues. But until now that functionality has only worked with the i915 kernel driver while for Mesa 26.0 the Intel Xe driver will also be supported...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.0-Hang-Replay-Xe</guid>
-      <pubDate>Thu, 08 Jan 2026 17:57:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Logitech MX Anywhere 3S Mouse With Linux 6.19 Now Supports High Resolution Scrolling</title>
-      <link>https://www.phoronix.com/news/Logitech-MX-Anywhere-3S</link>
-      <description>For those that happen to have a Logitech MX Anywhere 3S mouse connected via Bluetooth, the upcoming Linux 6.19 kernel release is enabling HID++ support for it to enjoy high resolution scrolling and other functionality of the updated protocol...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Logitech-MX-Anywhere-3S</guid>
-      <pubDate>Thu, 08 Jan 2026 18:34:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mesa 26.0 RADV Merges The Big Ray-Tracing Improvement For UE5 Lumen</title>
-      <link>https://www.phoronix.com/news/RADV-UE5-Lumen-Merged</link>
-      <description>The RADV ray-tracing improvement covered earlier this week for some big performance gains for Unreal Engine 5 titles running under Linux thanks to Steam Play has been merged for Mesa 26.0...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/RADV-UE5-Lumen-Merged</guid>
-      <pubDate>Thu, 08 Jan 2026 20:19:04 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 10 Jan 2026 06:35:01 +0000</lastBuildDate>
     <item>
       <title>Canonical Builds Steam Snap For Ubuntu ARM64 Leveraging FEX</title>
       <link>https://www.phoronix.com/news/Steam-Snap-ARM64-FEX</link>
       <description>Canonical is making it easier for ARM64 Ubuntu users like those on the NVIDIA DGX Spark to do a bit of gaming with Steam. Canonical engineers have assembled a Steam Snap for 64-bit ARM that comes complete with the FEX emulator for running Windows/Linux x86-based games on ARM64 Linux...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Steam-Snap-ARM64-FEX</guid>
       <pubDate>Fri, 09 Jan 2026 01:25:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qualcomm Sends Out Linux Patches For RAS Support On RISC-V For Reporting Hardware Errors</title>
+      <link>https://www.phoronix.com/news/RISC-V-RAS-RERI-Linux-Patches</link>
+      <description>The latest work by Qualcomm on the RISC-V CPU architecture is sending out their first non-RFC patch series for enabling Reliability, Availability and Serviceability (RAS) support by making use of the RISC-V RERI specification. This RISC-V RAS support is useful for conveying hardware errors to users and will be especially important with future RISC-V Linux servers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/RISC-V-RAS-RERI-Linux-Patches</guid>
+      <pubDate>Fri, 09 Jan 2026 10:36:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Latest SteamOS Beta Now Includes NTSYNC Kernel Driver</title>
+      <link>https://www.phoronix.com/news/Steam-OS-Beta-NTSYNC</link>
+      <description>Valve released the SteamOS 3.7.20 beta overnight and with it they are finally building the NTSYNC kernel driver for helping accelerate Windows NT synchronization primitives...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Steam-OS-Beta-NTSYNC</guid>
+      <pubDate>Fri, 09 Jan 2026 10:47:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19-rc5 To Fix Broken Nouveau Driver With Newer NVIDIA GPUs</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-rc5-DRM-Fixes</link>
+      <description>Now past the end-of-year holidays, this round of Direct Rendering Manager (DRM) fixes for the in-development Linux 6.19 are a bit more meaningful following those light holiday weeks. Sent out today were the DRM fixes for Linux 6.19-rc5 that includes a fix for broken support for newer NVIDIA GPUs on the Nouveau open-source driver...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc5-DRM-Fixes</guid>
+      <pubDate>Fri, 09 Jan 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>QEMU 11.0 Could Finish Removing 32-bit Host CPU Support</title>
+      <link>https://www.phoronix.com/news/QEMU-Patches-Drop-32-bit-Host</link>
+      <description>The QEMU emulator already deprecated 32-bit host CPU support while for the QEMU 11.0 release this year they could eliminate the 32-bit host support for good...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/QEMU-Patches-Drop-32-bit-Host</guid>
+      <pubDate>Fri, 09 Jan 2026 11:11:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mesa 26.0 RADV Lands Dedicated Transfer-Only Queue Using SDMA</title>
+      <link>https://www.phoronix.com/news/Mesa-26.0-RADV-Transfer-SDMA</link>
+      <description>There is another open-source Radeon Vulkan driver (RADV) improvement to look forward to in the upcoming Mesa 26.0 release that was worked on by one of Valve's Linux graphics driver developers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.0-RADV-Transfer-SDMA</guid>
+      <pubDate>Fri, 09 Jan 2026 11:28:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>AMD Enabling New  GFX12.1 &amp;amp; More RDNA 3.5 Hardware Blocks With Linux 6.20~7.0</title>
+      <link>https://www.phoronix.com/news/AMDGPU-GC-12.1-Linux-6.20</link>
+      <description>AMD today sent out their latest pull request to DRM-Next of new AMDGPU/AMDKFD kernel driver changes they are looking to get into the next kernel cycle, which will either be known as Linux 6.20 or more than likely be called Linux 7.0. Notable with this week's pull request is enabling a lot of new GPU hardware IP blocks, including GC/GFX 12.1 as a new addition past the current GFX12.0 / RDNA4...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-GC-12.1-Linux-6.20</guid>
+      <pubDate>Fri, 09 Jan 2026 16:16:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wine 11.0-rc5 Brings 32 Bug Fixes</title>
+      <link>https://www.phoronix.com/news/Wine-11.0-rc5</link>
+      <description>With no Wine 11.0 release candidate last Friday due to the New Year festivities, Wine 11.0-rc5 is out today and it comes packing 32 bug fixes for the past two weeks...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-11.0-rc5</guid>
+      <pubDate>Fri, 09 Jan 2026 21:11:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>TrueNAS WebShare: ZFS-Backed, Enterprise-Grade File Sharing From The Web Browser</title>
+      <link>https://www.phoronix.com/news/TrueNAS-WebShare</link>
+      <description>For situations where Samba (SMB) or NFS usage aren't appropriate or desiring the convenience of accessing files from a web browser on any device, TrueNAS is introducing TrueNAS WebShare as an easy-to-use solution for enterprise-grade file sharing in the web browser...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/TrueNAS-WebShare</guid>
+      <pubDate>Fri, 09 Jan 2026 23:04:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Assistant App For GNOME Adds MCP Server Support To Integrate With Much More Software</title>
+      <link>https://www.phoronix.com/news/GNOME-AI-Newelle-MCP-Server</link>
+      <description>Hitting the "1.0" milestone last summer was the GNOME AI virtual assistant app called Newelle. This third-party GNOME app has continued evolving as an AI-focused assistant on the GNOME desktop and has now rolled out MCP server support to integrate with "thousands" of other apps...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-AI-Newelle-MCP-Server</guid>
+      <pubDate>Sat, 10 Jan 2026 01:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
