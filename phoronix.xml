@@ -8,63 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Jan 2026 06:35:01 +0000</lastBuildDate>
-    <item>
-      <title>Canonical Builds Steam Snap For Ubuntu ARM64 Leveraging FEX</title>
-      <link>https://www.phoronix.com/news/Steam-Snap-ARM64-FEX</link>
-      <description>Canonical is making it easier for ARM64 Ubuntu users like those on the NVIDIA DGX Spark to do a bit of gaming with Steam. Canonical engineers have assembled a Steam Snap for 64-bit ARM that comes complete with the FEX emulator for running Windows/Linux x86-based games on ARM64 Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Steam-Snap-ARM64-FEX</guid>
-      <pubDate>Fri, 09 Jan 2026 01:25:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qualcomm Sends Out Linux Patches For RAS Support On RISC-V For Reporting Hardware Errors</title>
-      <link>https://www.phoronix.com/news/RISC-V-RAS-RERI-Linux-Patches</link>
-      <description>The latest work by Qualcomm on the RISC-V CPU architecture is sending out their first non-RFC patch series for enabling Reliability, Availability and Serviceability (RAS) support by making use of the RISC-V RERI specification. This RISC-V RAS support is useful for conveying hardware errors to users and will be especially important with future RISC-V Linux servers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/RISC-V-RAS-RERI-Linux-Patches</guid>
-      <pubDate>Fri, 09 Jan 2026 10:36:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Latest SteamOS Beta Now Includes NTSYNC Kernel Driver</title>
-      <link>https://www.phoronix.com/news/Steam-OS-Beta-NTSYNC</link>
-      <description>Valve released the SteamOS 3.7.20 beta overnight and with it they are finally building the NTSYNC kernel driver for helping accelerate Windows NT synchronization primitives...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Steam-OS-Beta-NTSYNC</guid>
-      <pubDate>Fri, 09 Jan 2026 10:47:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 6.19-rc5 To Fix Broken Nouveau Driver With Newer NVIDIA GPUs</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-rc5-DRM-Fixes</link>
-      <description>Now past the end-of-year holidays, this round of Direct Rendering Manager (DRM) fixes for the in-development Linux 6.19 are a bit more meaningful following those light holiday weeks. Sent out today were the DRM fixes for Linux 6.19-rc5 that includes a fix for broken support for newer NVIDIA GPUs on the Nouveau open-source driver...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc5-DRM-Fixes</guid>
-      <pubDate>Fri, 09 Jan 2026 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>QEMU 11.0 Could Finish Removing 32-bit Host CPU Support</title>
-      <link>https://www.phoronix.com/news/QEMU-Patches-Drop-32-bit-Host</link>
-      <description>The QEMU emulator already deprecated 32-bit host CPU support while for the QEMU 11.0 release this year they could eliminate the 32-bit host support for good...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/QEMU-Patches-Drop-32-bit-Host</guid>
-      <pubDate>Fri, 09 Jan 2026 11:11:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mesa 26.0 RADV Lands Dedicated Transfer-Only Queue Using SDMA</title>
-      <link>https://www.phoronix.com/news/Mesa-26.0-RADV-Transfer-SDMA</link>
-      <description>There is another open-source Radeon Vulkan driver (RADV) improvement to look forward to in the upcoming Mesa 26.0 release that was worked on by one of Valve's Linux graphics driver developers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.0-RADV-Transfer-SDMA</guid>
-      <pubDate>Fri, 09 Jan 2026 11:28:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>AMD Enabling New  GFX12.1 &amp;amp; More RDNA 3.5 Hardware Blocks With Linux 6.20~7.0</title>
-      <link>https://www.phoronix.com/news/AMDGPU-GC-12.1-Linux-6.20</link>
-      <description>AMD today sent out their latest pull request to DRM-Next of new AMDGPU/AMDKFD kernel driver changes they are looking to get into the next kernel cycle, which will either be known as Linux 6.20 or more than likely be called Linux 7.0. Notable with this week's pull request is enabling a lot of new GPU hardware IP blocks, including GC/GFX 12.1 as a new addition past the current GFX12.0 / RDNA4...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-GC-12.1-Linux-6.20</guid>
-      <pubDate>Fri, 09 Jan 2026 16:16:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wine 11.0-rc5 Brings 32 Bug Fixes</title>
-      <link>https://www.phoronix.com/news/Wine-11.0-rc5</link>
-      <description>With no Wine 11.0 release candidate last Friday due to the New Year festivities, Wine 11.0-rc5 is out today and it comes packing 32 bug fixes for the past two weeks...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-11.0-rc5</guid>
-      <pubDate>Fri, 09 Jan 2026 21:11:47 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 11 Jan 2026 06:36:37 +0000</lastBuildDate>
     <item>
       <title>TrueNAS WebShare: ZFS-Backed, Enterprise-Grade File Sharing From The Web Browser</title>
       <link>https://www.phoronix.com/news/TrueNAS-WebShare</link>
@@ -78,6 +22,62 @@
       <description>Hitting the "1.0" milestone last summer was the GNOME AI virtual assistant app called Newelle. This third-party GNOME app has continued evolving as an AI-focused assistant on the GNOME desktop and has now rolled out MCP server support to integrate with "thousands" of other apps...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-AI-Newelle-MCP-Server</guid>
       <pubDate>Sat, 10 Jan 2026 01:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ZLUDA Adds CUDA 13.1 Compatibility For Running CUDA Apps On Non-NVIDIA Hardware</title>
+      <link>https://www.phoronix.com/news/ZLUDA-CUDA-13.1-Compatibility</link>
+      <description>The current incarnation of ZLUDA continues moving along for running unmodified CUDA apps on non-NVIDIA GPUs. Released on Friday was ZLUDA 6-preview.48 with now boasting CUDA 13.1 compatibility...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ZLUDA-CUDA-13.1-Compatibility</guid>
+      <pubDate>Sat, 10 Jan 2026 10:55:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>KDE Plasma 6.6 Adds oo7 Secret Service Provider Support, Save As New Global Theme</title>
+      <link>https://www.phoronix.com/news/KDE-Plasma-6.6-oo7</link>
+      <description>With new volunteers stepping up for This Week in Plasma, there is a new issue out this week to highlight more development activities going into the upcoming KDE Plasma 6.6 desktop release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Plasma-6.6-oo7</guid>
+      <pubDate>Sat, 10 Jan 2026 11:24:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0 Readying Improvement For Rust + LTO Kernel Builds</title>
+      <link>https://www.phoronix.com/news/Linux-Rust-LTO-Inline-Coming</link>
+      <description>Alice Ryhl of Google has been working on an improvement to the Linux kernel code for inlining C helpers into Rust when making use of a Link-Time Optimized (LTO) kernel build. At least some of the patches are queued up for merging in the upcoming Linux 6.20~7.0 cycle for helping those enabling the Rust kernel support and also making use of the LLVM/Clang compiler's LTO capabilities for greater performance...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Rust-LTO-Inline-Coming</guid>
+      <pubDate>Sat, 10 Jan 2026 12:08:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>ollama 0.14 Can Make Use Of Bash For Letting AI/LLMs Run Commands On Your System</title>
+      <link>https://www.phoronix.com/news/ollama-0.14-rc2</link>
+      <description>The ollama 0.14-rc2 release is available today and it introduces new functionality with ollama run --experimental for in this experimental mode to run an agent loop so that LLMs can use tools like bash and web searching on your system. It's opt-in for letting ollama/LLMs make use of bash on your local system and there are at least some safeguards in place...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ollama-0.14-rc2</guid>
+      <pubDate>Sat, 10 Jan 2026 12:17:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux Working Around Audio Problems On The ASUS ROG Xbox Ally X</title>
+      <link>https://www.phoronix.com/news/ASUS-Xbox-Ally-X-Linux-Audio</link>
+      <description>For those loading Linux on the ASUS ROG Xbox Ally X gaming handheld, there is currently audio quality issues, including gaps/dropouts in audio playback. A workaround is in the process of making its way to the Linux kernel until a proper solution can be sorted out...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ASUS-Xbox-Ally-X-Linux-Audio</guid>
+      <pubDate>Sat, 10 Jan 2026 14:40:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Debian 13.3 Released With Many Security &amp;amp; Bug Fixes</title>
+      <link>https://www.phoronix.com/news/Debian-13.3-Released</link>
+      <description>Debian 13.3 is out today as the newest stable point release for Debian Trixie...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Debian-13.3-Released</guid>
+      <pubDate>Sat, 10 Jan 2026 14:46:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mageia 10 Alpha Released - 32-bit ISOs Still Available</title>
+      <link>https://www.phoronix.com/news/Mageia-10-Alpha</link>
+      <description>The first alpha release of Mageia 10 is now available for this Linux distribution who's lineage traces back to Mandriva and before that the legendary Mandrake Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mageia-10-Alpha</guid>
+      <pubDate>Sat, 10 Jan 2026 15:30:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Budgie 10.10 Released: Officially Migrated From X11 To Wayland</title>
+      <link>https://www.phoronix.com/news/Budgie-10.10-Released</link>
+      <description>The Budgie 10.10 desktop has been officially released in marking the open-source project's transition from X11 to Wayland...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Budgie-10.10-Released</guid>
+      <pubDate>Sat, 10 Jan 2026 20:04:32 +0000</pubDate>
     </item>
   </channel>
 </rss>
