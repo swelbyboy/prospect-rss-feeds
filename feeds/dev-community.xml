@@ -8,78 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Jan 2026 06:34:51 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Jan 2026 06:36:25 +0000</lastBuildDate>
     <item>
-      <title>How to Check External API Throttle Limit in Laravel</title>
-      <link>https://dev.to/ankitvermaonline/how-to-check-external-api-throttle-limit-in-laravel-mk6</link>
-      <description>When working with external APIs, you don’t always know their rate limits in advance. Most APIs don’t publish limits or send headers until you exceed them. So the only reliable way is to detect throttling from the API response itself. This short example shows how to check if an API is throttling your requests in Laravel. The Idea Call the external API Check if the response status is 429 (Too Many Requests) Read rate-limit headers (if provided) Handle throttling gracefully use Illuminate\Support\F</description>
-      <guid isPermaLink="false">https://dev.to/ankitvermaonline/how-to-check-external-api-throttle-limit-in-laravel-mk6</guid>
-      <pubDate>Sat, 10 Jan 2026 05:02:36 +0000</pubDate>
+      <title>Automate Website Health: Building a High-Performance Dead Link Checker with Python</title>
+      <link>https://dev.to/arif98741_47/automate-website-health-building-a-high-performance-dead-link-checker-with-python-1f15</link>
+      <description>Automate Website Health: Building a High-Performance Dead Link Checker As developers, we know that "Link Rot" is an inevitable part of the web. Sites move, pages are deleted, and external resources vanish. But manually clicking through every link on a site to find a 404 is a developer's nightmare. I built Dead Link Checker, a professional desktop tool designed to turn this hours-long chore into a background task that finishes in minutes. Why Another Link Checker? There are many online tools, but</description>
+      <guid isPermaLink="false">https://dev.to/arif98741_47/automate-website-health-building-a-high-performance-dead-link-checker-with-python-1f15</guid>
+      <pubDate>Sun, 11 Jan 2026 06:01:09 +0000</pubDate>
     </item>
     <item>
-      <title>Running on our backup wifi. Sky Fiber sucks</title>
-      <link>https://dev.to/highcenburg/running-on-our-backup-wifi-sky-fiber-sucks-4d1d</link>
-      <description>Running on our backup wifi. Sky Fiber sucks</description>
-      <guid isPermaLink="false">https://dev.to/highcenburg/running-on-our-backup-wifi-sky-fiber-sucks-4d1d</guid>
-      <pubDate>Sat, 10 Jan 2026 05:05:38 +0000</pubDate>
+      <title>I can finally use MCPs without fear</title>
+      <link>https://dev.to/andylbrummer/i-can-finally-use-mcps-without-fear-3pfl</link>
+      <description>MCP promised to make agentic coding fast and powerful, instead it overwhelmed the senses of the LLMs that we trusted to write code for us. Even Anthropic took notice that context is the modern day coding juice that we are all dependent on. Their solution farm the whole thing out to typescript and write a bunch of integration code to build the whole infrastructure from scratch. Instead, I had Claude write a custom programming language, the Simple Language for Orchestrating Prompts or SLOP and sho</description>
+      <guid isPermaLink="false">https://dev.to/andylbrummer/i-can-finally-use-mcps-without-fear-3pfl</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhld7b8cmrtoxqc07wiyv.png" length="0" type="image/png"/>
+      <pubDate>Sun, 11 Jan 2026 06:03:02 +0000</pubDate>
     </item>
     <item>
-      <title>How to Cut Your AI Costs in Half While Doubling Performance</title>
-      <link>https://dev.to/debmckinney/how-to-cut-your-ai-costs-in-half-while-doubling-performance-59f9</link>
-      <description>Traditional caching breaks the moment someone rephrases a question. A user asks "What are your business hours?" and gets a response. Five minutes later, another user asks "When are you open?;" semantically identical, but different words; and the cache misses entirely. Another expensive API call for the same information.; This is the hidden tax on AI applications. Teams building chatbots and customer support systems watch LLM costs balloon because standard caching only catches exact string matche</description>
-      <guid isPermaLink="false">https://dev.to/debmckinney/how-to-cut-your-ai-costs-in-half-while-doubling-performance-59f9</guid>
-      <pubDate>Sat, 10 Jan 2026 05:06:41 +0000</pubDate>
+      <title>SQL INJECTION</title>
+      <link>https://dev.to/rodrino_adolfokupessala_/sql-injection-hga</link>
+      <description>🚨 SQL Injection (Injeção de SQL): o básico que todo dev precisa saber 🔴 O que é? É quando dados do utilizador são inseridos diretamente na query SQL, permitindo ao atacante alterar a lógica da consulta. ❌ Exemplo inseguro: SELECT * FROM users WHERE email = '$email' AND senha = '$senha'; Se o atacante usar: email: ' OR 1=1 -- → faz login sem senha. ⚠️ Como é explorado? • Bypass de autenticação • Leitura de dados sensíveis • Alteração ou eliminação de dados • Em casos graves: execução de comandos</description>
+      <guid isPermaLink="false">https://dev.to/rodrino_adolfokupessala_/sql-injection-hga</guid>
+      <pubDate>Sun, 11 Jan 2026 06:05:00 +0000</pubDate>
     </item>
     <item>
-      <title>Can AI Really Build Your App From Just a Vibe?</title>
-      <link>https://dev.to/aiwithapex/can-ai-really-build-your-app-from-just-a-vibe-5640</link>
-      <description>Everyone’s hyped about “vibe coding” – describe an app, let AI build it. They’re missing the most dangerous part. Here’s what actually matters ↓ I’ve seen people ship full games and side-project apps from a single prompt. It feels like cheating. Until it doesn’t. Because other teams used the same approach… and lost production data. Shipped apps with gaping security holes. Had to shut everything down and rebuild. AI can write code fast. But speed without guardrails is how you quietly set your fut</description>
-      <guid isPermaLink="false">https://dev.to/aiwithapex/can-ai-really-build-your-app-from-just-a-vibe-5640</guid>
-      <pubDate>Sat, 10 Jan 2026 05:28:47 +0000</pubDate>
+      <title>The Natasha Problem: Why Your Data Pipeline Only Fits One Person</title>
+      <link>https://dev.to/aronchick/the-natasha-problem-why-your-data-pipeline-only-fits-one-person-2gli</link>
+      <description>For most folks, you probably don’t think about clothing sizes. There’s a number, you pick it, you try on the clothes, and if they fit, then congrats, you’re that number. But how’d they pick that number? And why does every style/line/person fit slightly differently? Turns out there's a woman named Natasha in Los Angeles whose body is used to design jeans for seven or eight major clothing brands. She's what the industry calls a "fit model." When Levi's or H&amp;amp;M or whoever designs a new pair of jeans</description>
+      <guid isPermaLink="false">https://dev.to/aronchick/the-natasha-problem-why-your-data-pipeline-only-fits-one-person-2gli</guid>
+      <pubDate>Sun, 11 Jan 2026 06:11:42 +0000</pubDate>
     </item>
     <item>
-      <title>Rust Series01 - Ownership is what you need to know</title>
-      <link>https://dev.to/kevinsheeranxyj/rust-series01-ownership-is-what-you-need-to-know-2ikm</link>
-      <description>Hi fellows, since I've been using Rust for about 3 years now, I think it's time to share some experience to you guys, so I decide to post this Rust language learning series in next couple of weeks. Without further do, let's jump into it. Assume you know some OOP(Oriented-Object-Programming) languages, like Java, C#. you will understand that everything is based on Object, but today you need to shift your mind as Rust is not an OOP language, instead it is all about ownership which means Rust will</description>
-      <guid isPermaLink="false">https://dev.to/kevinsheeranxyj/rust-series01-ownership-is-what-you-need-to-know-2ikm</guid>
-      <pubDate>Sat, 10 Jan 2026 05:37:35 +0000</pubDate>
+      <title>Your 2026 Resolution: Add Context to Your Data (Before It Breaks You)</title>
+      <link>https://dev.to/aronchick/your-2026-resolution-add-context-to-your-data-before-it-breaks-you-2k5n</link>
+      <description>Last week I sat in an executive review where two teams spent forty minutes arguing about "active users." Not about strategy. Not about growth. About what the number meant. One team counted anyone who logged in. The other excluded users who bounced in under 30 seconds. Neither knew which experiment flags were active when the data was pulled. The dashboard just showed a number. No definition. No lineage. No context. This happens constantly. And it's about to get significantly worse. Gartner predic</description>
+      <guid isPermaLink="false">https://dev.to/aronchick/your-2026-resolution-add-context-to-your-data-before-it-breaks-you-2k5n</guid>
+      <pubDate>Sun, 11 Jan 2026 06:11:42 +0000</pubDate>
     </item>
     <item>
-      <title>KRACK Attack - When WPA2 Was Not as Safe as We Thought</title>
-      <link>https://dev.to/vinay_sharma_e6ec1235f476/krack-attack-when-wpa2-was-not-as-safe-as-we-thought-3p0g</link>
-      <description>KRACK (Key Reinstallation Attack) is a Wi-Fi vulnerability discovered in 2017 It exposed a flaw in the WPA2 security protocol Attackers within range of a network could interfere with the Wi-Fi connection process This forced devices to reuse encryption keys The attack did not require the Wi-Fi password What this allowed Interception of Wi-Fi traffic Reading sensitive data Modification of unencrypted traffic Higher risk for unpatched and legacy devices Who was affected Mobile phones and laptops us</description>
-      <guid isPermaLink="false">https://dev.to/vinay_sharma_e6ec1235f476/krack-attack-when-wpa2-was-not-as-safe-as-we-thought-3p0g</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjo75h96r0qznasus03iy.png" length="0" type="image/png"/>
-      <pubDate>Sat, 10 Jan 2026 05:45:29 +0000</pubDate>
+      <title>Getting Started with AWS in 2026 – A Practical Beginner's Guide 🚀</title>
+      <link>https://dev.to/sahinur/getting-started-with-aws-in-2026-a-practical-beginners-guide-2i9h</link>
+      <description>Getting Started with AWS in 2026 – The Practical Way for Developers Hey DEV community! 👋 If you're a developer looking to level up in 2026, AWS (Amazon Web Services) is still the #1 cloud platform — powering everything from startups to giants like Netflix, Airbnb, and Spotify. But AWS can feel overwhelming with 200+ services. Where do you even start? This guide is for absolute beginners who want a clear, practical path — not just theory. We'll cover account creation (with security!), the most im</description>
+      <guid isPermaLink="false">https://dev.to/sahinur/getting-started-with-aws-in-2026-a-practical-beginners-guide-2i9h</guid>
+      <pubDate>Sun, 11 Jan 2026 06:14:20 +0000</pubDate>
     </item>
     <item>
-      <title>PushEnv: A New, Encrypted Way to Manage .env Files (No SaaS, No Servers) 🔐</title>
-      <link>https://dev.to/shahnoor_mujawar/pushenv-a-new-encrypted-way-to-manage-env-files-no-saas-no-servers-3d1p</link>
-      <description>Environment variables run everything. But the way we manage them?Still messy. Still risky. Still outdated. So I built PushEnv — a new way to handle secrets. Here’s the story, in Q&amp;amp;A form. Who am I and what is PushEnv? I work across backend, DevOps, and AI infra.Every project I touched had the same problem: Secrets were everywhere — and nowhere. PushEnv is my attempt to fix that. It’s a local-first, encrypted, Git-style workflow for .env files with: Zero server trust No SaaS No lock-in No dashboa</description>
-      <guid isPermaLink="false">https://dev.to/shahnoor_mujawar/pushenv-a-new-encrypted-way-to-manage-env-files-no-saas-no-servers-3d1p</guid>
-      <pubDate>Sat, 10 Jan 2026 06:06:43 +0000</pubDate>
+      <title>MCP Token Limits: The Hidden Cost of Tool Overload</title>
+      <link>https://dev.to/piotr_hajdas/mcp-token-limits-the-hidden-cost-of-tool-overload-2d5</link>
+      <description>You add a few MCP servers. GitHub for code, Notion for docs, maybe Slack for notifications. Suddenly Claude feels... slower. Less helpful. It misses context you explicitly provided. It gives generic answers to specific questions. The Numbers Behind MCP Token Usage Here's a stat that stopped me cold: the GitHub MCP server alone consumes 55,000 tokens across its 93 tool definitions. That's before you ask Claude anything. Before you paste any code. Before the conversation even starts. Developer Sco</description>
+      <guid isPermaLink="false">https://dev.to/piotr_hajdas/mcp-token-limits-the-hidden-cost-of-tool-overload-2d5</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk3fv2owyzyl2axdxyfup.webp" length="0" type="image/webp"/>
+      <pubDate>Sun, 11 Jan 2026 06:19:27 +0000</pubDate>
     </item>
     <item>
-      <title>How Does @Async Work Internally in Spring Boot?</title>
-      <link>https://dev.to/realnamehidden1_61/how-does-async-work-internally-in-spring-boot-35h5</link>
-      <description>Introduction 🚀 Have you ever called a REST API and thought: “Why is this request blocking until everything finishes?” Now imagine sending an email, generating a report, or calling a slow third-party service — do you really want your user to wait? That’s where @Async in Spring Boot comes to the rescue. In simple terms, @Async lets Spring say: “You go ahead, I’ll handle this task in the background.” Behind this simple annotation, Spring Boot uses proxies, thread pools, and executors to run your co</description>
-      <guid isPermaLink="false">https://dev.to/realnamehidden1_61/how-does-async-work-internally-in-spring-boot-35h5</guid>
-      <pubDate>Sat, 10 Jan 2026 06:10:02 +0000</pubDate>
+      <title>Who Owns This? Why Project Ownership Matters More Than Ever</title>
+      <link>https://dev.to/sela_network/who-owns-this-why-project-ownership-matters-more-than-ever-cpk</link>
+      <description>TL;DR Modern software projects move too fast and change too often for task-based management alone. “Project Owner” reflects a shift from managing timelines to owning outcomes — taking responsibility for decisions, trade-offs, and real-world execution. As AI-driven and complex systems become the norm, clear ownership isn’t optional anymore. It’s essential. For years, software teams have relied on familiar titles like Project Manager, Product Manager, and Tech Lead. But recently, a different term</description>
+      <guid isPermaLink="false">https://dev.to/sela_network/who-owns-this-why-project-ownership-matters-more-than-ever-cpk</guid>
+      <pubDate>Sun, 11 Jan 2026 06:24:27 +0000</pubDate>
     </item>
     <item>
-      <title>Linux Kernel Architecture: From Ring 0 to Network Stack &amp;amp; eBPF</title>
-      <link>https://dev.to/kanywst/linux-kernel-architecture-from-ring-0-to-network-stack-ebpf-6o0</link>
-      <description>Introduction In the world of cloud-native technologies and high-performance computing, understanding what happens under the hood of the Linux operating system is becoming increasingly important. Technologies like eBPF and kTLS are revolutionizing how we interact with the kernel, but to truly grasp their power, we must first understand the fundamental structures they interact with. As I began learning eBPF and kTLS, I realized I needed to understand the kernel's foundation first. This article exp</description>
-      <guid isPermaLink="false">https://dev.to/kanywst/linux-kernel-architecture-from-ring-0-to-network-stack-ebpf-6o0</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsibiozzidi8tuq963w5b.png" length="0" type="image/png"/>
-      <pubDate>Sat, 10 Jan 2026 06:13:01 +0000</pubDate>
+      <title>Released Gon v7.0.0</title>
+      <link>https://dev.to/willnet/released-gon-v700-34k6</link>
+      <description>I am a current maintainer of Gon. We have released Gon v7.0.0. Release v7.0.0 · gazay/gon As you can tell from the major version bump, this release includes breaking changes. These breaking changes were introduced by the following PR created by @krororo: Breaking: Make request_store an optional dependency by krororo · Pull Request #296 · gazay/gon In gon, when you set a value like gon.foo = 'bar', the value used to be stored internally using request_store. In the early days of Rails application</description>
+      <guid isPermaLink="false">https://dev.to/willnet/released-gon-v700-34k6</guid>
+      <pubDate>Sun, 11 Jan 2026 06:29:04 +0000</pubDate>
     </item>
     <item>
-      <title>How I Went From 'I'm Not a Hardware Person' to Reverse Engineering Devices</title>
-      <link>https://dev.to/numbpill3d/how-i-went-from-im-not-a-hardware-person-to-reverse-engineering-devices-894</link>
-      <description>Listen up. Sit down and grab a coffee, or whatever it is you kids drink to stay awake these days. I want to talk to you about something I hear way too often from the younger crowd jumping into the hacking scene. I see it in forums, I see it in Discords, and I hear it at cons when I'm trying to enjoy a drink in peace. "I'm not a hardware person." I used to say the exact same thing. Back in the day, if it didn't have a keyboard and a CRT monitor, I wanted nothing to do with it. I was strictly a so</description>
-      <guid isPermaLink="false">https://dev.to/numbpill3d/how-i-went-from-im-not-a-hardware-person-to-reverse-engineering-devices-894</guid>
-      <pubDate>Sat, 10 Jan 2026 06:13:16 +0000</pubDate>
+      <title>Synchronizing Recurring Outlook Meetings with EspoCRM: A Production-Grade Solution</title>
+      <link>https://dev.to/yhzhu/synchronizing-recurring-outlook-meetings-with-espocrm-a-production-grade-solution-1e5d</link>
+      <description>This article was originally published on here TL;DR If you're building Outlook Calendar integration with EspoCRM, recurring meetings will break your standard delta sync logic. This article presents a production-grade solution using: Windowed Expansion: Only sync instances within [Today - 7d, Today + 90d] Series Rebuild: When seriesMaster changes, fetch all instances via the Instances API Bootstrap State Machine: Handle cold-start with explicit initialization scan Critical Warning: Never use iCal</description>
+      <guid isPermaLink="false">https://dev.to/yhzhu/synchronizing-recurring-outlook-meetings-with-espocrm-a-production-grade-solution-1e5d</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fmermaid.ink%2Fimg%2FZ2FudHQKICAgIHRpdGxlIFdpbmRvdyBTbGlkaW5nIE92ZXIgVGltZQogICAgZGF0ZUZvcm1hdCAgWVlZWS1NTS1ERAogICAgYXhpc0Zvcm1hdCAgJW0vJWQKICAgIHNlY3Rpb24gV2luZG93ICg5MGQpCiAgICBJbml0aWFsIHdpbmRvdyAgOmExLCAyMDI2LTAxLTAxLCA5MGQKICAgIFNsaWQgd2luZG93ICAgICA6YTIsIDIwMjYtMDItMDEsIDkwZAogICAgc2VjdGlvbiBTZXJpZXMKICAgIFdlZWtseSBpbnN0YW5jZXMgOmNyaXQsIDIwMjYtMDEtMDEsIDE4MGQ" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 11 Jan 2026 06:29:22 +0000</pubDate>
     </item>
   </channel>
 </rss>
