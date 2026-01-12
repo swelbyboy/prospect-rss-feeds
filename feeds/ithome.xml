@@ -8,80 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Jan 2026 06:38:37 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jan 2026 06:45:32 +0000</lastBuildDate>
     <item>
-      <title>CISA警告15年前的PowerPoint舊漏洞、HPE近期修補的OneView滿分漏洞已遭濫用</title>
-      <link>https://www.ithome.com.tw/news/173263</link>
-      <description>新聞美國網路安全暨基礎設施安全管理署（CISA）本周公告將兩個漏洞，包括微軟Office一個2009年的老漏洞，以及HPE風險值10.0的漏洞，列入已發生攻擊或濫用活動名單，呼籲聯邦政府機關儘速修補。 這兩個剛被CISA加入已知遭利用漏洞目錄（Known Exploited Vulnerability，KEV）的漏洞，分別是CVE-2009-0556以及CVE-2025-37164。 CVE-2009-0556是微軟2009年就修補的PowerPoint程式碼注入漏洞。攻擊者可傳送變造過的PowerPoint檔案，經由使用者開啟觸發。成功濫用本漏洞可使攻擊者完全控制受害電腦，可安裝程式、讀取、變更或刪除資料，或新增高權限的使用者帳號。 CVE-2025-37164存在於HPE基礎架構管理軟體OneView，可讓遠端未經驗證的攻擊者濫用，發動遠端程式碼執行，風險值高達10.0。HPE去年12月已釋出可套用於v5.20至v10.20的安全熱修補程式，並建議用戶升級至已修補的v11.00或更新版本。 HPE當時未說明本漏洞是否有濫用的情形。該公司也尚未回應The Register，攻擊是否發</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173263</guid>
-      <pubDate>Fri, 09 Jan 2026 06:47:54 +0000</pubDate>
+      <title>採用AMD MI350平臺與Pollara 400網卡，雲達推新款AI伺服器</title>
+      <link>https://www.ithome.com.tw/review/173275</link>
+      <description>去年6月AMD發表新款資料中心GPU平臺（採用Instinct MI350X系列），前一個月的2025台北電腦展期間，就有多家伺服器廠商宣布推出相關產品，例如，雲達科技（QCT）就在活動現場展出導入這個平臺的兩款機型：7U機箱、採用氣冷散熱的QuantaGrid D75T-7U，以及5U機箱、採用液冷散熱的QuantaGrid D75M-5U，它們均搭配兩顆AMD EPYC 9004/9005系列處理器，最高可搭配熱設計功耗（TDP）為500瓦的款式，單一伺服器能提供384顆實體核心、768顆執行緒；系統記憶體方面，這兩款機型都內建24個DDR5記憶體插槽，支援6400 MT/s，若全部使用128 GB容量的記憶體，整臺伺服器可提供到3 TB記憶體。 至於GPU，它們皆搭配單張基板（baseboard）的元件形式，匯集8個最新推出的Instinct MI350X（HBM3E記憶體個別為288 GB，總量為2.3 TB，記憶體總頻寬為8 TB/s），或2024年10月上市的Instinct MI325X（HBM3E記憶體個別為256 GB，總量為2 TB，記憶體總頻寬為6 TB/s）。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/173275</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/yun_da_quantagrid_d75t-7u_main.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 11 Jan 2026 10:37:35 +0000</pubDate>
     </item>
     <item>
-      <title>受AI衝擊，Tailwind CSS工程團隊裁撤75%</title>
-      <link>https://www.ithome.com.tw/news/173261</link>
-      <description>新聞以開源CSS框架Tailwind CSS聞名的Tailwind Labs，近日在GitHub的拉取請求討論串中透露工程團隊大幅縮編。Tailwind CSS創辦人Adam Wathan於1月7日回應提案時指出，工程團隊有75%成員在前一天失去工作，原因是AI對公司營運帶來強烈衝擊。他表示，自己必須把時間優先投入在扭轉營運，並確保仍在職者能持續領到薪資，同時支撐框架的長期維護。 這段回應出現在一個關於是否要在tailwindcss.com新增/llms.txt端點的拉取請求討論，提案者主張將Tailwind CSS文件以建置階段整併成單一純文字檔，供大型語言模型更容易讀取與使用，並表示能涵蓋所有文件頁面且保留程式碼區塊內容。 Adam Wathan也提到，Tailwind雖然比以往更受歡迎，但官方文件流量自2023年初以來約下滑40%。他表示，文件幾乎是使用者得知其商業產品的主要入口，要是缺乏足夠的付費客戶，團隊就難以負擔框架的長期維護成本。他強調希望能找到對模型友善的文件形式，但在尚未緩解營運壓力前，暫時不會把這類工作列為優先，並對於在現階段推出可能讓文件流量問題更惡化的作法感到猶</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173261</guid>
-      <pubDate>Fri, 09 Jan 2026 07:24:35 +0000</pubDate>
+      <title>Databricks提出企業資料搜尋新方法，讓RAG更能遵循時間與來源等限制</title>
+      <link>https://www.ithome.com.tw/news/173271</link>
+      <description>新聞Databricks旗下Mosaic研究團隊公布Instructed Retriever研究，主張把系統規格（System Specification）帶入搜尋與回覆生成流程，讓企業搜尋代理更能遵循使用者指令。研究人員表示，在一套企業問答資料集組合的評測中，Instructed Retriever相較傳統RAG的回覆品質提升超過70%。 研究人員認為，企業情境常同時要求時間新鮮度、文件類型、資料來源範圍與回覆長度等限制，但多數RAG做法，只用使用者問題進行單步擷取，查詢生成後便難以保留這些規格，使得後續擷取與重排序往往回到文字相似度，容易忽略更細緻的意圖與資料來源差異。 Instructed Retriever的重點，是把系統規格當成工作管線必須遵守的共同前提，而不是只在一開始影響使用者問題的改寫。研究團隊將這些系統規格整理成三類，第一類是使用者指令，例如偏好近幾年的資料或排除某些品牌，第二類是標註範例，用來界定哪些文件在此任務中算相關或不相關，而第三類則是索引描述，也就是搜尋系統實際提供哪些欄位與中繼資料可用，讓代理知道什麼條件能被轉成可執行的過濾條件。 由於把自然語言的限制，轉</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173271</guid>
+      <pubDate>Mon, 12 Jan 2026 00:55:29 +0000</pubDate>
     </item>
     <item>
-      <title>台灣健康網路平臺正式揭牌，要串接醫院、健檢、長照整合民眾的健康旅程數據旅程，發展健康照護</title>
-      <link>https://www.ithome.com.tw/news/173265</link>
-      <description>新聞台灣健康網路平臺(TwHealth Nexus)在今天(1/9)正式揭牌，結合GUID去識別化技術及以區塊鏈為基礎的動態同意書，未來在民眾同意的條件下，串接醫院、健檢、長照，甚至是民眾個人的健康數據，以數據為基礎推動AI、健康等相關應用發展。 台灣健康網路平臺的成立，是去年行政院BTC會議主持人政務委員吳誠文宣布，政府計畫成立健康數據服務公司，目的在整合國內的健康數據，以推動健康相關的應用發展。 台灣健康網路平臺的成立，背後由國發會及緯創資通、可成、台達電、義隆、廣達5家科技業者投入資金，公司資本額預期為18億元。響應政府政策，加入台灣健康網路平臺的醫院包括臺大醫院、成大醫院、北榮、高醫大等等，其他還有健檢、長照業者。 該公司董事長由中研院士楊泮池擔任，執行長為蔡秉晃醫師，今天揭牌儀式上，行政院政務委員吳誠文、中研院長陳建仁、衛福部長石崇良、健保署長陳亮妤，以及台達電、緯創資、台大醫院、成大醫院等人士到場支持。 楊泮池表示，台灣的醫療資訊長期存在結構上的困境，儘管健保資料庫累積民眾的健保資料，但是臨床病歷、健檢資料、長照資料分散在各機構，這些資料不互通形成數據孤島，這方面台灣已落後</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173265</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/20260109_151837.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 09 Jan 2026 09:51:57 +0000</pubDate>
+      <title>【資安週報】0105~0109，臺灣能源業遭受中共網駭情形在2025年暴增10倍，中國APT已形成舉國體制承包商生態系</title>
+      <link>https://www.ithome.com.tw/news/173276</link>
+      <description>新聞回顧2026年1月第二星期資安新聞，近期兩項報告揭露中國駭客的威脅態勢，引發資安界高度關注。 （一）國安局揭露過去一年威脅態勢，發布《2025年中共對我國關鍵基礎設施網駭威脅分析》報告，指出國安情報團隊在2025年掌握的我國政府及民間網駭案中，態勢最嚴峻的是「能源」產業，比前一年度成長10倍，其次是緊急救護與醫院、通訊傳播。與2024年度態勢相比，當時最嚴重是電信業，其次為交通與國防供應鏈，突顯中共新興網駭重點的轉變。 （二）臺灣情資公司TeamT5發布《2025年亞太地區進階持續性威脅（APT）威脅形勢報告》，指出臺灣遭APT攻擊最頻繁，其次為韓國、越南、印度、日本與菲律賓。報告顯示，中國APT已形成「舉國體制+承包商」的生態系：頂層由公安部、國安部與解放軍設定目標並接收情報，中層為民間資安承包商分工執行掃描、武器開發、滲透與中繼建置，底層由個人駭客與研究人員參與。即使單一承包商被制裁，整體仍能迅速轉移任務，使傳統防禦難以應對。 在資安事件方面，國內有兩則焦點事件，涵蓋上市公司遭勒索軟體攻擊，以及客運跑馬燈資訊被操控，國際間也有多起個資外洩的消息。我們整理如下： ●上市公司榮成紙</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173276</guid>
+      <pubDate>Mon, 12 Jan 2026 02:10:05 +0000</pubDate>
     </item>
     <item>
-      <title>手機、雲端、IoT、AI應用接連爆發，身分管理大失控狂潮來襲！</title>
-      <link>https://www.ithome.com.tw/news/173269</link>
-      <description>新聞根據2025年10月公布的《iThome 2025 CIO &amp;amp; CISO大調查報告書資安篇》，臺灣企業與組織的前三大機密性資安風險，依序為個人資料外洩、機敏資料外洩、內部人員（現任或前任員工）發動攻擊，前三大完整性資安風險，依序為網路釣魚／社交工程手段、資安漏洞（如零時差漏洞攻擊）濫用、商業郵件詐騙（BEC），絕大多數都跟身分安全有關；然而，在各種資安防護技術的採用率上，身分存取與管理（IAM）排名第八，就產業類型而言，金融業與服務業較重視這類技術的投資，有超過與逼近一半的公司表示，他們有意持續強化IAM。 機器身分數量暴增，企業若無法有效管理，恐將成為資安大患 身分安全顯然很重要，然而，企業與組織面臨的挑戰越來越巨大。根據資安廠商CyberArk去年發布的報告，有一半的企業資安領導者表示，他們因為機器身分（Machine Identity）遭駭，導致發生資安事故，而且，超過一半的比例預估未來一年機器身分的數量將成長50％。綜合該公司近幾年定期揭露的身分安全情勢報告當中，我們也可以看到機器身分與人員身分（Human Identity）數量的比例巨大變化，從45比1暴增至82比1，單</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173269</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/CyberArk%202025%20Report1.png" length="0" type="image/png"/>
-      <pubDate>Fri, 09 Jan 2026 11:27:44 +0000</pubDate>
+      <title>jsPDF修補重大漏洞，Node.js環境恐遭濫用竊取本機敏感資料</title>
+      <link>https://www.ithome.com.tw/news/173270</link>
+      <description>新聞廣泛用於JavaScript應用程式產生PDF文件的函式庫jsPDF，近日被揭露存在一項重大資安漏洞，主要影響在伺服器端使用jsPDF產生PDF文件的應用情境。攻擊者可能透過不當的檔案載入機制，未經授權讀取並外洩伺服器本機檔案系統中的敏感資料。該漏洞已被編號為CVE-2025-68428，CVSS風險分數高達9.2。 這項漏洞屬於本機檔案包含（Local File Inclusion）與路徑穿越（Path Traversal）問題，影響jsPDF 4.0.0之前的版本。當應用程式在Node.js環境中，將未經妥善驗證的檔案路徑作為參數，傳入jsPDF的loadFile方法（method）時，攻擊者可能讀取Node.js處理程序權限範圍內可存取的本機檔案，並將檔案內容嵌入到生成的PDF檔案中。 除了loadFile之外，jsPDF的addImage、html與addFont等方法，同樣可能在底層呼叫該檔案載入機制，因此也受到這項漏洞影響。不過，根據官方說明，該問題僅影響jsPDF的Node.js版本，包括dist/jspdf.node.js與dist/jspdf.node.min.j</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173270</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0109-jsPDF-600-1.png" length="0" type="image/png"/>
+      <pubDate>Mon, 12 Jan 2026 02:38:50 +0000</pubDate>
     </item>
     <item>
-      <title>GitLab修補多項高風險漏洞，涉及跨站指令碼與權限濫用，自管環境應儘速更新</title>
-      <link>https://www.ithome.com.tw/news/173259</link>
-      <description>新聞程式碼代管與DevOps平臺GitLab於1月7日發布18.7.1、18.6.3與18.5.5版本，修正多項資安漏洞，涵蓋跨站指令碼（XSS）、授權檢查缺失、拒絕服務（DoS）與資訊洩露等風險，其中部分漏洞風險評分達高風險等級，可能影響GitLab多項核心功能與平臺存取控制機制。官方強烈建議採用自管（self-managed）部署的用戶，儘速升級以降低風險。至於GitLab.com已完成更新，GitLab Dedicated用戶則不受影響。 影響版本與適用範圍 GitLab指出，本次修補涵蓋多數自管環境，包含Omnibus套件、原始碼安裝與Helm Chart等部署方式，除非特別註明排除，否則皆在影響範圍內。 受影響版本包含GitLab 社群版（Community Edition，CE）與企業版（Enterprise Edition，EE）多個歷史版本分支，最早可回溯至8.x與10.x系列，用戶需依所屬版本線，升級至18.7.1、18.6.3或18.5.5。 重點漏洞一次看 本次修補的高風險漏洞，主要集中於GitLab多項常用功能： 跨站指令碼（XSS）漏洞 GitLab修補兩項高</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173259</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0109-gitlab-600-1.png" length="0" type="image/png"/>
-      <pubDate>Fri, 09 Jan 2026 12:44:55 +0000</pubDate>
+      <title>愛爾蘭外交部軟體更新出錯，被迫召回1.3萬本少印國家代碼的護照</title>
+      <link>https://www.ithome.com.tw/news/173277</link>
+      <description>新聞愛爾蘭外交部護照服務局（Passport Services）列印護照的軟體更新出包，造成近期印發的近1.3萬本護照，少印了重要代碼，上周官方緊急公告召回重發。 根據愛爾蘭外交部說明，由於軟體更新的技術錯誤，使得2025年12月23日到2026年1月6日印發的護照，無法完全符合國際旅行標準，這些護照的持有人有可能在使用eGate自動通關系統，或是海關人工驗照時無法通過。 圖片來源／愛爾蘭外交部 愛爾蘭時報報導，列印系統更新後，導致上述期間列印的護照都少了IRL字母。而受影響的護照有12,904本。 根據BleepingComputer檢視，可能是護照檔案頁下方的機讀區編碼少了國家代碼IRL字母，而無法滿足國際民用航空組織（ICAO）的旅行文件規範。 愛爾蘭外交部護照服務局要求這時段期間辦護照或取得護照的民眾繳回，以獲得免費補發。這些民眾最快在10天獲得新護照。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173277</guid>
+      <enclosure url="https://assets.ireland.ie/images/passportreturns.width-1000.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 12 Jan 2026 03:08:26 +0000</pubDate>
     </item>
     <item>
-      <title>老舊音響SoundTouch走向終止支援，Bose釋出API文件讓社群接手開發</title>
-      <link>https://www.ithome.com.tw/news/173264</link>
-      <description>新聞Bose更新SoundTouch音響終止支援公告，把雲端支援結束日延後到2026年5月6日，並同步釋出SoundTouch的API文件，表示將公開技術規格，讓獨立開發者能夠製作相容的工具與功能，替這批已進入生命周期末段的音響保留延續使用的空間。 SoundTouch雲端支援仍會結束，但Bose表示在聽取用戶意見後，將原先公告的2月18日延後到5月6日。Bose也說明，SoundTouch應用程式在雲端終止前會收到自動更新，並會在5月6日自動切換到可在不依賴雲端運作的版本。用戶不需要手動操作，只要開啟應用程式就會自動套用更新。 Bose將SoundTouch從依賴雲端的整合控制，調整為以本機網路為主的運作模式。雲端終止後，SoundTouch應用程式仍可在同一個WiFi網路內進行系統設定與基本控制，例如播放暫停、音量調整與多裝置群組。聽音樂則改由各音樂服務的應用程式發起，再透過藍牙、AirPlay、Spotify Connect或AUX將音訊送到SoundTouch裝置。SoundTouch系統於2013年進入市場，Bose表示因技術演進，已無法持續支撐這一代產品所依賴的雲端基礎架構</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173264</guid>
-      <pubDate>Fri, 09 Jan 2026 22:00:00 +0000</pubDate>
+      <title>趨勢科技修補Apex Central重大RCE漏洞</title>
+      <link>https://www.ithome.com.tw/news/173278</link>
+      <description>新聞趨勢科技上周（1/7）發出安全公告及更新版軟體，以修補Apex Central 3個漏洞，包含一個重大的遠端程式碼執行（Remote Code Execution，RCE）漏洞。 Apex Central為趨勢科技的Web化集中式管理控制臺，可管理位於閘道、郵件伺服器、檔案伺服器和企業桌面端的趨勢科技產品和服務。Apex Central和Apex One是管理控制臺分別安裝於本地部署及代管/雲端環境的產品。 趨勢科技最新修補的三項Apex Central漏洞包含CVE-2025-69258、CVE-2025-69259與CVE-2025-69260，影響Windows平臺的Apex Central本地部署（on-premise）版本，Build 7190以下皆在影響範圍內，Build 7190為已修補的最新版本。 這三項漏洞中，CVE-2025-69258為LoadLibraryEX遠端程式碼執行（RCE）漏洞，風險值9.8。這項漏洞可讓未經驗證的攻擊者載入惡意DLL到關鍵的可執行檔，而以SYSTEM權限在被駭裝置上執行攻擊者提供的程式碼。 CVE-2025-69259則是一個阻斷</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173278</guid>
+      <pubDate>Mon, 12 Jan 2026 03:37:53 +0000</pubDate>
     </item>
     <item>
-      <title>Artificial Analysis改版智慧指標v4.0，新增幻覺風險與研究級推理評測</title>
-      <link>https://www.ithome.com.tw/news/173267</link>
-      <description>新聞獨立模型評測機構Artificial Analysis更新智慧指標（Intelligence Index）至v4.0，調整評測組合，讓評測重心更貼近實務任務與可靠性行為。官方同時提醒，合成指標可用來比較模型，但仍有侷限，不必然能直接套用到每一個使用案例，並在方法論中強調評測應兼顧公平性與真實世界適用性。 Intelligence Index v4.0移除MMLU-Pro、AIME2025與LiveCodeBench等常見測試，改採新的評測組合，試圖重新拉開模型差距。 在Intelligence Index v4.0的前26個模型中，GPT-5.2（xhigh）以51分居首，Claude 4.5 Opus為49分，Gemini 3 Pro Preview（high）48分，GPT-5.1（high）47分，Gemini 3 Flash 46分。第二梯隊大致落在40分上下，包含Claude 4.5 Sonnet與GLM-4.7各42分，Grok 4與DeepSeek v3.2各41分，Kimi K2 Thinking 40分。其後分數逐步拉開，末段模型已降到20分以下，例如K2-V2（</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173267</guid>
-      <pubDate>Fri, 09 Jan 2026 22:00:00 +0000</pubDate>
+      <title>Cloudflare拒絕封鎖盜版網站被義大利開罰</title>
+      <link>https://www.ithome.com.tw/news/173280</link>
+      <description>新聞義大利負責電信、廣播、網路及數位服務的通訊暨媒體覽監督機構AGCOM（Autorità per le Garanzie nelle Comunicazioni）上周四（1/8）宣布，提供CDN、DNS、反向代理與資安服務的Cloudflare因未能封鎖盜版網站，將被處以逾1,400萬歐元（1,700萬美元）的行政罰款。此事惹得Cloudflare共同創辦人暨執行長Matthew Prince發火，強調將繼續抗爭，並說將考慮退出義大利市場。 義大利根據反盜版法令，於2024年2月啟用了Piracy Shield反盜版封鎖平臺，由權利人即時通報盜版網站與IP，要求DNS、ISP及VPN等服務供應商在30分鐘內將其封鎖，主要鎖定體育賽事與即時串流的盜版內容。迄今已封鎖超過6.5萬個網域名稱，以及1.4萬個可存取非法內容的IP位址。 AGCOM自2024年起，即多次要求Cloudflare在Piracy Shield平臺上，註冊1.1.1.1公共DNS服務，以配合封鎖措施，但Cloudflare認為1.1.1.1屬於全球性的公共DNS，若只為單一國家執行過濾，將會影響全球DNS解析效能及穩</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173280</guid>
+      <pubDate>Mon, 12 Jan 2026 04:07:01 +0000</pubDate>
     </item>
     <item>
-      <title>CrowdStrike收購SGNL，身分安全邁向即時授權時代</title>
-      <link>https://www.ithome.com.tw/news/173272</link>
-      <description>新聞雲端資安業者CrowdStrike周四（1/8）宣布，已與身分安全業者SGNL達成收購協議，以擴展CrowdStrike Falcon新一代身分安全解決方案。雙方並未公布交易金額，但根據路透社（Reuters）與The Register的報導，這筆交易價值7.4億美元。 SGNL是由Scott Kriz與Erik Gustavson在2021年共同創辦，聚焦於解決雲端、SaaS與AI時代下授權失效的結構性問題；主打身分即時授權（Continuous Authorization）與零常駐權限（Zero Standing Privileges）架構，讓人類、非人類，以及AI代理人，都只在必要時取得最小權限，並可依據風險變化隨時撤銷。 擔任SGNL執行長的Kriz解釋，傳統的身分與存取管理（Identity and Access Management，IAM）體系主要提供兩種解法：特權存取管理（Privileged Access Management，PAM）與身分治理與管理（Identity Governance and Administration，IGA）。前者著重鎖住高權限帳號的</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173272</guid>
-      <pubDate>Fri, 09 Jan 2026 22:00:00 +0000</pubDate>
+      <title>Google推出UCP，為代理人商務建立跨平臺交易標準</title>
+      <link>https://www.ithome.com.tw/news/173285</link>
+      <description>新聞Google周日（1/11）宣布推出Universal Commerce Protocol（UCP），為代理人商務（Agentic Commerce）建立一套跨平臺的開放標準，讓AI代理人能在搜尋、對話與應用程式中，代表使用者完成從商品探索、下單到付款的完整購物流程。使AI不再僅止於推薦角色，而是可實際參與交易流程 UCP是一套通用協定，目的在於為AI代理人、零售商系統與支付服務提供者建立共通語言。在UCP架構下，代理人不需要為每一家商店或平臺各自客製串接，而是透過標準化介面，就能存取商品資訊、啟動結帳流程，並完成後續交易與支援。Google表示，UCP設計可跨產業使用，並相容既有的代理人與支付相關協定，以降低導入門檻。 在實際運作上，UCP將率先應用於Google搜尋的AI模式與Gemini應用程式中。當消費者在研究商品時，AI代理人可直接呼叫符合資格的零售商商品列表，並在不跳轉外部網站的情況下完成結帳。付款部分以Google Pay為核心，使用者可沿用已儲存在Google Wallet中的付款方式與寄送資訊，後續也將支援PayPal。Google強調，零售商仍是銷售主體，負責履</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173285</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0112-Universal%20Commerce%20Protocol%20(UCP)-google.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 12 Jan 2026 04:34:55 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI對ShadowLeak攻擊的防護未完全封堵，研究人員再揭露ChatGPT新濫用手法ZombieAgent</title>
-      <link>https://www.ithome.com.tw/news/173273</link>
-      <description>新聞OpenAI去年8月修補了可以ShadowLeak手法濫用ChatGPT的瑕疵，不過並未修補完全，研究人員又發現新的濫用方法，名為ZombieAgent，促使該公司又在12月再次修補。 去年OpenAI修補由資安廠商Radware發現的ChatGPT濫用方法，名為ShadowLeak。ShadowLeak為間接提示注入方法，利用ChatGPT深入研究（Deep Research）功能，當使用者授權存取Gmail與瀏覽器工具時，攻擊者傳送一封變造過的HTML郵件，如Gmail郵件，ChatGPT就可能自動將Gmail（或Outlook或Google Drive）的敏感資訊，以URL參數形式傳送到外部伺服器，無須使用者任何點擊，也不會顯示警告。OpenAI已在8月解決這個問題，限制ChatGPT只能依照提供的方式開啟URL，拒絕為其添加參數。 但Radware研究人員本周揭露繞過這個限制的方法，稱為ZombieAgent。 研究人員說明ZombieAgent手法。他們建立了數行預先建構的網址清單，每個網址後附帶單一數字、英文字母，例如example.com/a、example.com/</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173273</guid>
-      <pubDate>Fri, 09 Jan 2026 22:00:00 +0000</pubDate>
+      <title>Walmart攜手Wing擴大無人機送貨，全美150家門市納入配送網</title>
+      <link>https://www.ithome.com.tw/news/173286</link>
+      <description>新聞Alphabet旗下無人機配送公司Wing周日（1/11）宣布，將把Walmart無人機送貨服務擴展至全美另外150家門市，計畫在2027年前建立超過270個無人機配送營運據點，服務範圍橫跨美國東西岸，預計可觸及超過4,000萬名消費者。 這項合作並非首次嘗試。Wing與Walmart早已在達拉斯—沃斯堡與亞特蘭大都會區進行常態化營運，當地消費者已逐步將無人機送貨視為日常選項。Wing在官方公告中指出，其前25%的重度用戶平均每周下單約3次，過去6個月整體配送量成長3倍，顯示服務已從示範階段，邁向可規模化複製的商業運作。 Wing的無人機系統是此次擴張的技術核心。其機型鎖定輕量、高頻配送需求，可承載約2至2.5公斤的小型包裹，適合食品、日用品與非處方藥等即時需求商品。無人機採全自動飛行設計，從起飛、航線規畫、避障到投遞皆由系統完成，不需人工遙控，並以懸掛繩索的垂直投放方式交付包裹，避免降落對住宅環境造成干擾。 Walmart是Wing目前最重要且規模最大的合作夥伴，雙方的合作模式亦展示了零售與無人機物流合作的典範，除了美國之外，Wing也曾與澳洲、英國及芬蘭的商家合作。 至於亞馬遜</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173286</guid>
+      <pubDate>Mon, 12 Jan 2026 05:05:10 +0000</pubDate>
     </item>
     <item>
-      <title>2025年臺灣6家企業加入FIRST資安應變組織，合勤、104、元大證券入列，資安產業亦有來毅、數聯、元盾加入</title>
-      <link>https://www.ithome.com.tw/news/173274</link>
-      <description>新聞隨著資安威脅日益受到重視，對於企業組織的CSIRT、PSIRT團隊而言，參與國際資安協作的意願持續升溫。過去一年以來，全球加入FIRST國際資安應變組織的成員數量，從約莫764個增至829個。 臺灣FIRST成員亦持續增加，從25個增加至31個，新加入的公司有資安業者來毅數位科技，以及資安SOC服務業者的數聯資安與元盾資安。更引人注目的是，2025年新增成員擴及不同產業領域，首度出現網通設備業者、服務業，以及證券業代表，分別為合勤科技、一零四資訊科技、元大證券，顯示資安應變與國際合作，已逐漸成為越來越多產業的共同課題。 更多臺灣SOC業者加入，展現資安監控服務接軌國際 臺灣企業對於資安應變的重視程度越來越顯著，FIRST成員數量增加反映了這項趨勢，也展現與國際企業資安社群的接軌。 綜觀臺灣FIRST成員，在資安業者方面，先前已有7家是FIRST成員，從早期的趨勢科技、安華聯網、奧義智慧，到近年加入的微智安聯、杜浦數位安全、中華資安國際，以及睿控網安。 進入2025年，臺灣有3家本土資安業者的應變團隊加入FIRST，分別為5月的來毅數位科技Keypasco CSC，以及11月的數聯資</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173274</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%962%EF%BC%89FIRST%20Membership%20Baselin%20SIM3.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 10 Jan 2026 03:17:09 +0000</pubDate>
+      <title>駭客兜售52萬筆臺灣好市多會員個資，業者澄清：非該公司會員資料</title>
+      <link>https://www.ithome.com.tw/news/173279</link>
+      <description>新聞去年7月，有人聲稱對全聯福利中心旗下的支付服務公司全支付下手，入侵其測試環境並取得管理員帳密，引發外界對全支付資安防護的關注。如今傳出有人聲稱，他們從另一家臺灣大型零售業者竊得會員個資並兜售。 根據自由時報的報導，自稱是Solonik的人士於1月7日宣稱，他握有臺灣Costco（好市多）會員個資52.6萬筆，涵蓋會員姓名、身分證字號、電子郵件信箱，以及明文帳號密碼等資料，並公布部分資料取信買家。對此，臺灣好市多表示，經確認這批資料並非該公司會員個資，他們相關系統皆由公司自行開發與維護，資料存放於總公司機房，並未採用外部系統廠商的資料管理程式，好市多強調，保障會員權益為他們的一貫原則。 比較特別的是，自由時報提及，有部分會員註冊好市多會員電子郵件信箱結尾是.gov.tw，應為我國政府機關的公務信箱，依照規定不該用來註冊網路購物平臺，由於這類信箱屬政府資產，有可能稽核或調閱，也是駭客偏好用來網釣或詐騙的對象。究竟這種情況是否會帶來更嚴重的衝擊，有待進一步觀察。 回顧2025年，鎖定零售業者的網路攻擊事故頻傳，其中英國瑪莎百貨（Marks &amp;amp; Spencer，M&amp;amp;S）、連鎖超市Co-op</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173279</guid>
+      <pubDate>Mon, 12 Jan 2026 05:59:16 +0000</pubDate>
     </item>
   </channel>
 </rss>
