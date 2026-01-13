@@ -8,80 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Jan 2026 06:45:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 06:41:34 +0000</lastBuildDate>
     <item>
-      <title>採用AMD MI350平臺與Pollara 400網卡，雲達推新款AI伺服器</title>
-      <link>https://www.ithome.com.tw/review/173275</link>
-      <description>去年6月AMD發表新款資料中心GPU平臺（採用Instinct MI350X系列），前一個月的2025台北電腦展期間，就有多家伺服器廠商宣布推出相關產品，例如，雲達科技（QCT）就在活動現場展出導入這個平臺的兩款機型：7U機箱、採用氣冷散熱的QuantaGrid D75T-7U，以及5U機箱、採用液冷散熱的QuantaGrid D75M-5U，它們均搭配兩顆AMD EPYC 9004/9005系列處理器，最高可搭配熱設計功耗（TDP）為500瓦的款式，單一伺服器能提供384顆實體核心、768顆執行緒；系統記憶體方面，這兩款機型都內建24個DDR5記憶體插槽，支援6400 MT/s，若全部使用128 GB容量的記憶體，整臺伺服器可提供到3 TB記憶體。 至於GPU，它們皆搭配單張基板（baseboard）的元件形式，匯集8個最新推出的Instinct MI350X（HBM3E記憶體個別為288 GB，總量為2.3 TB，記憶體總頻寬為8 TB/s），或2024年10月上市的Instinct MI325X（HBM3E記憶體個別為256 GB，總量為2 TB，記憶體總頻寬為6 TB/s）。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/173275</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/yun_da_quantagrid_d75t-7u_main.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 11 Jan 2026 10:37:35 +0000</pubDate>
+      <title>中國APT組織UAT-7290鎖定電信產業，邊緣設備成為初始入侵關鍵管道</title>
+      <link>https://www.ithome.com.tw/news/173306</link>
+      <description>新聞思科旗下威脅情報團隊Cisco Talos揭露，一個具中國背景的進階持續性威脅（APT）組織，長期鎖定關鍵通訊基礎設施發動網路間諜行動，並透過濫用邊緣網路設備漏洞，入侵南亞及東南歐地區的電信業者。該組織被追蹤為UAT-7290，過去主要活躍於南亞地區，近期則被觀測到擴大攻擊範圍。 研究人員指出，UAT-7290至少自2022年起即持續活動，並兼具間諜行動與初始存取團隊的雙重角色。在多起攻擊行動中，該組織會於受害環境內建立作業中繼節點（Operational Relay Box，ORB）基礎設施，這些節點後續可能被其他具中國背景的威脅行為者利用，作為隱匿來源與轉送攻擊流量的跳板。 Cisco Talos發現，UAT-7290在發動入侵前，會先對目標組織進行長時間且深入的技術偵察，隨後結合一日（One-day）漏洞的濫用程式碼，以及針對特定目標設計的SSH暴力破解手法，入侵對外暴露的邊緣網路設備，以取得初始存取權限，並進一步提升系統權限。研究人員也指出，該組織主要依賴已公開的概念驗證（PoC）攻擊程式碼，而非自行開發漏洞利用工具。 在惡意程式工具方面，UAT-7290主要使用以Linu</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173306</guid>
+      <pubDate>Tue, 13 Jan 2026 01:59:10 +0000</pubDate>
     </item>
     <item>
-      <title>Databricks提出企業資料搜尋新方法，讓RAG更能遵循時間與來源等限制</title>
-      <link>https://www.ithome.com.tw/news/173271</link>
-      <description>新聞Databricks旗下Mosaic研究團隊公布Instructed Retriever研究，主張把系統規格（System Specification）帶入搜尋與回覆生成流程，讓企業搜尋代理更能遵循使用者指令。研究人員表示，在一套企業問答資料集組合的評測中，Instructed Retriever相較傳統RAG的回覆品質提升超過70%。 研究人員認為，企業情境常同時要求時間新鮮度、文件類型、資料來源範圍與回覆長度等限制，但多數RAG做法，只用使用者問題進行單步擷取，查詢生成後便難以保留這些規格，使得後續擷取與重排序往往回到文字相似度，容易忽略更細緻的意圖與資料來源差異。 Instructed Retriever的重點，是把系統規格當成工作管線必須遵守的共同前提，而不是只在一開始影響使用者問題的改寫。研究團隊將這些系統規格整理成三類，第一類是使用者指令，例如偏好近幾年的資料或排除某些品牌，第二類是標註範例，用來界定哪些文件在此任務中算相關或不相關，而第三類則是索引描述，也就是搜尋系統實際提供哪些欄位與中繼資料可用，讓代理知道什麼條件能被轉成可執行的過濾條件。 由於把自然語言的限制，轉</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173271</guid>
-      <pubDate>Mon, 12 Jan 2026 00:55:29 +0000</pubDate>
+      <title>駭客鎖定配置錯誤的代理伺服器與LLM端點，試圖濫用付費API</title>
+      <link>https://www.ithome.com.tw/news/173300</link>
+      <description>新聞資安監測業者GreyNoise公布一份基於蜜罐的觀測結果，指出他們在語言模型開源工具Ollama蜜罐環境中，於2025年10月至2026年1月間記錄到91,403次攻擊會話，並歸納出兩波主要行動。一波以伺服器端請求偽造（SSRF）為主，手法是迫使伺服器對外發出連線，並透過帶外回呼機制確認是否成功，另一波則大規模探測LLM端點，疑似專門尋找配置錯誤的代理伺服器或對外暴露的相容API介面，藉此取得商用付費API的存取機會。 研究人員指出，攻擊者鎖定Ollama的模型拉取功能，透過注入惡意註冊庫URL，誘使伺服器替攻擊者對外發出HTTP請求。同一期間也觀測到與Twilio SMS webhook整合相關的探測行為，攻擊者透過操弄MediaUrl參數觸發外連。該行動在耶誕節前後出現尖峰，48小時內累積1,688次會話，攻擊者使用帶外（Out-of-Band）應用程式安全測試OAST的回呼方式確認是否成功，手法常見於漏洞研究與自動化測試，但規模仍值得企業留意。 從2025年12月28日開始，僅兩個IP在11天內就產生80,469次會話，系統性探測73種以上LLM模型端點，測試同時涵蓋相容於O</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173300</guid>
+      <pubDate>Tue, 13 Jan 2026 02:10:42 +0000</pubDate>
     </item>
     <item>
-      <title>【資安週報】0105~0109，臺灣能源業遭受中共網駭情形在2025年暴增10倍，中國APT已形成舉國體制承包商生態系</title>
-      <link>https://www.ithome.com.tw/news/173276</link>
-      <description>新聞回顧2026年1月第二星期資安新聞，近期兩項報告揭露中國駭客的威脅態勢，引發資安界高度關注。 （一）國安局揭露過去一年威脅態勢，發布《2025年中共對我國關鍵基礎設施網駭威脅分析》報告，指出國安情報團隊在2025年掌握的我國政府及民間網駭案中，態勢最嚴峻的是「能源」產業，比前一年度成長10倍，其次是緊急救護與醫院、通訊傳播。與2024年度態勢相比，當時最嚴重是電信業，其次為交通與國防供應鏈，突顯中共新興網駭重點的轉變。 （二）臺灣情資公司TeamT5發布《2025年亞太地區進階持續性威脅（APT）威脅形勢報告》，指出臺灣遭APT攻擊最頻繁，其次為韓國、越南、印度、日本與菲律賓。報告顯示，中國APT已形成「舉國體制+承包商」的生態系：頂層由公安部、國安部與解放軍設定目標並接收情報，中層為民間資安承包商分工執行掃描、武器開發、滲透與中繼建置，底層由個人駭客與研究人員參與。即使單一承包商被制裁，整體仍能迅速轉移任務，使傳統防禦難以應對。 在資安事件方面，國內有兩則焦點事件，涵蓋上市公司遭勒索軟體攻擊，以及客運跑馬燈資訊被操控，國際間也有多起個資外洩的消息。我們整理如下： ●上市公司榮成紙</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173276</guid>
-      <pubDate>Mon, 12 Jan 2026 02:10:05 +0000</pubDate>
+      <title>Anthropic推出Claude for Healthcare，瞄準醫療行政與臨床試驗流程</title>
+      <link>https://www.ithome.com.tw/news/173311</link>
+      <description>新聞Anthropic周一（1/12）正式推出Claude for Healthcare，這並非AI看診或健康諮詢服務，而是將生成式AI導入醫療體系與生命科學產業的內部工作流程，協助處理醫療行政、臨床試驗與法規文件等高合規作業。Anthropic藉此宣告，Claude已具備進入醫院、保險公司與藥廠正式流程中使用的商用成熟度，鎖定B2B市場。 Anthropic強調，Claude for Healthcare採用符合美國醫療隱私法規《健康保險可攜與責任法案》（Health Insurance Portability and Accountability Act，HIPAA）的設計，讓醫療機構與保險單位能夠在合規前提下，將生成式AI導入內部作業流程。 在實際應用上，Claude for Healthcare主要聚焦醫療體系中高度文件導向、流程繁複的行政環節，包括事前授權審查、理賠文件整理、給付規範與臨床指引比對，以及醫療人員與機構資格驗證等作業。Anthropic指出，這類流程往往需要同時查閱多套制度與資料來源，錯誤成本高，也是醫療體系長期的人力負擔來源。 在生命科學領域，Anthropi</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173311</guid>
+      <pubDate>Tue, 13 Jan 2026 02:45:35 +0000</pubDate>
     </item>
     <item>
-      <title>jsPDF修補重大漏洞，Node.js環境恐遭濫用竊取本機敏感資料</title>
-      <link>https://www.ithome.com.tw/news/173270</link>
-      <description>新聞廣泛用於JavaScript應用程式產生PDF文件的函式庫jsPDF，近日被揭露存在一項重大資安漏洞，主要影響在伺服器端使用jsPDF產生PDF文件的應用情境。攻擊者可能透過不當的檔案載入機制，未經授權讀取並外洩伺服器本機檔案系統中的敏感資料。該漏洞已被編號為CVE-2025-68428，CVSS風險分數高達9.2。 這項漏洞屬於本機檔案包含（Local File Inclusion）與路徑穿越（Path Traversal）問題，影響jsPDF 4.0.0之前的版本。當應用程式在Node.js環境中，將未經妥善驗證的檔案路徑作為參數，傳入jsPDF的loadFile方法（method）時，攻擊者可能讀取Node.js處理程序權限範圍內可存取的本機檔案，並將檔案內容嵌入到生成的PDF檔案中。 除了loadFile之外，jsPDF的addImage、html與addFont等方法，同樣可能在底層呼叫該檔案載入機制，因此也受到這項漏洞影響。不過，根據官方說明，該問題僅影響jsPDF的Node.js版本，包括dist/jspdf.node.js與dist/jspdf.node.min.j</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173270</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0109-jsPDF-600-1.png" length="0" type="image/png"/>
-      <pubDate>Mon, 12 Jan 2026 02:38:50 +0000</pubDate>
+      <title>VS Code 1.108新增Agent Skills，讓Copilot代理可載入工作區技能</title>
+      <link>https://www.ithome.com.tw/news/173301</link>
+      <description>新聞微軟釋出VS Code 2025年12月版1.108，新版更新重點之一是新增實驗性的代理技能Agent Skills，讓GitHub Copilot的程式開發代理在需要時可從工作區載入指引、腳本與資源，以便更理解團隊的開發脈絡。 該代理技能的重點，是把代理需要理解的流程與知識整理成資料夾，並以SKILL.md定義技能行為，內容可包含指引、腳本與資源。VS Code會自動從工作區的.github/skills目錄偵測這些技能，並保留對.claude/skills目錄的相容支援，之後在對話需求相關時按需載入至聊天脈絡。該功能目前仍為實驗階段，需在設定中啟用chat.useAgentSkills才會生效。 隨著代理技能上線，VS Code也同步強化代理工作階段管理，新版代理工作階段檢視介面改善鍵盤操作與可近用性，並依狀態與時間分組，方便掌握進度。檢視介面也會提示該工作階段涵蓋的檔案變更與關聯的拉取請求，並支援一次封存多個工作階段。聊天的快速選擇器也改以代理工作階段為基礎，使用者可回到既有對話並進行封存、重新命名或刪除。 由於要讓代理在終端機執行指令時更可控，VS Code調整了終端機工具</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173301</guid>
+      <pubDate>Tue, 13 Jan 2026 02:59:15 +0000</pubDate>
     </item>
     <item>
-      <title>愛爾蘭外交部軟體更新出錯，被迫召回1.3萬本少印國家代碼的護照</title>
-      <link>https://www.ithome.com.tw/news/173277</link>
-      <description>新聞愛爾蘭外交部護照服務局（Passport Services）列印護照的軟體更新出包，造成近期印發的近1.3萬本護照，少印了重要代碼，上周官方緊急公告召回重發。 根據愛爾蘭外交部說明，由於軟體更新的技術錯誤，使得2025年12月23日到2026年1月6日印發的護照，無法完全符合國際旅行標準，這些護照的持有人有可能在使用eGate自動通關系統，或是海關人工驗照時無法通過。 圖片來源／愛爾蘭外交部 愛爾蘭時報報導，列印系統更新後，導致上述期間列印的護照都少了IRL字母。而受影響的護照有12,904本。 根據BleepingComputer檢視，可能是護照檔案頁下方的機讀區編碼少了國家代碼IRL字母，而無法滿足國際民用航空組織（ICAO）的旅行文件規範。 愛爾蘭外交部護照服務局要求這時段期間辦護照或取得護照的民眾繳回，以獲得免費補發。這些民眾最快在10天獲得新護照。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173277</guid>
-      <enclosure url="https://assets.ireland.ie/images/passportreturns.width-1000.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 12 Jan 2026 03:08:26 +0000</pubDate>
+      <title>蘋果Apple Intelligence將使用Google Gemini基礎模型、雲端技術</title>
+      <link>https://www.ithome.com.tw/news/173313</link>
+      <description>新聞蘋果與Google昨日以簡單聲明，證實蘋果裝置上的Apple Intelligence包括Siri服務，將使用Google雲端技術，並以Gemini為基礎模型。 彭博去年年中首先報導兩大科技龍頭正在研議合作，以Gemini作為蘋果Siri的AI底層技術，協助將Siri進化成AI助理。 在本周的聯合聲明中，雙方表示已達成多年合作，使蘋果基礎模型（Apple Foundation Models）將以奠基於Google Gemini模型及雲端技術之上。Gemini模型將協助推動Apple Intelligence未來功能，包括今年將推出更個人化的Siri。 經過審慎考量，蘋果認為Google的AI技術能為蘋果基礎模型提供最強大的基礎。蘋果表示對為用戶開創的新體驗感到興奮，並說Apple Intelligence將會持續執行在蘋果裝置及Private Cloud Compute，同時維持領導業界的隱私標準。 根據去年彭博報導，蘋果將支付Google每年10億美元換取存取Gemini模型的權利。 這項合作的宣布，也讓業界追問已久的問題獲得解答。在Google Gemini、OpenAI Ch</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173313</guid>
+      <pubDate>Tue, 13 Jan 2026 03:32:21 +0000</pubDate>
     </item>
     <item>
-      <title>趨勢科技修補Apex Central重大RCE漏洞</title>
-      <link>https://www.ithome.com.tw/news/173278</link>
-      <description>新聞趨勢科技上周（1/7）發出安全公告及更新版軟體，以修補Apex Central 3個漏洞，包含一個重大的遠端程式碼執行（Remote Code Execution，RCE）漏洞。 Apex Central為趨勢科技的Web化集中式管理控制臺，可管理位於閘道、郵件伺服器、檔案伺服器和企業桌面端的趨勢科技產品和服務。Apex Central和Apex One是管理控制臺分別安裝於本地部署及代管/雲端環境的產品。 趨勢科技最新修補的三項Apex Central漏洞包含CVE-2025-69258、CVE-2025-69259與CVE-2025-69260，影響Windows平臺的Apex Central本地部署（on-premise）版本，Build 7190以下皆在影響範圍內，Build 7190為已修補的最新版本。 這三項漏洞中，CVE-2025-69258為LoadLibraryEX遠端程式碼執行（RCE）漏洞，風險值9.8。這項漏洞可讓未經驗證的攻擊者載入惡意DLL到關鍵的可執行檔，而以SYSTEM權限在被駭裝置上執行攻擊者提供的程式碼。 CVE-2025-69259則是一個阻斷</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173278</guid>
-      <pubDate>Mon, 12 Jan 2026 03:37:53 +0000</pubDate>
+      <title>Meta算力野心升級，Meta Compute規畫直逼雲端巨頭與國家級規模</title>
+      <link>https://www.ithome.com.tw/news/173314</link>
+      <description>新聞Meta創辦人暨執行長祖克柏（Mark Zuckerberg）周二（1/13）透過Threads宣布，Meta正式成立了一個新的最高層級計畫Meta Compute，打算在未來10年建置數十GW等級的運算與能源規模，且未來可能成長到數百GW以上。 以目前產業實際運作規模來看，單一大型AI訓練或推論叢集多落在100MW至500MW等級，僅少數超大型部署接近1GW。即便是OpenAI或Anthropic等前沿模型公司，其主要算力仍多分散建置於雲端服務商既有資料中心體系中，尚未以單一專案形式長期規畫超過數GW的集中式算力園區。 若從雲端巨頭的累積規模觀察，外界普遍推估，微軟與Google目前全球資料中心與雲端基礎設施的總用電規模，已達低雙位數GW等級，屬於多年、跨區域逐步累積的成果；Amazon旗下AWS則被認為是全球規模最大的雲端基礎設施體系之一，其資料中心與相關能源需求亦落在高個位數至低雙位數GW的估計區間。 在此背景下，祖克柏所提出的數十GW算力與能源規畫，已明顯超出單一AI公司或模型訓練需求的量級，其比較對象不再是OpenAI或Anthropic，而是微軟、Google、AWS等</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173314</guid>
+      <pubDate>Tue, 13 Jan 2026 04:25:02 +0000</pubDate>
     </item>
     <item>
-      <title>Cloudflare拒絕封鎖盜版網站被義大利開罰</title>
-      <link>https://www.ithome.com.tw/news/173280</link>
-      <description>新聞義大利負責電信、廣播、網路及數位服務的通訊暨媒體覽監督機構AGCOM（Autorità per le Garanzie nelle Comunicazioni）上周四（1/8）宣布，提供CDN、DNS、反向代理與資安服務的Cloudflare因未能封鎖盜版網站，將被處以逾1,400萬歐元（1,700萬美元）的行政罰款。此事惹得Cloudflare共同創辦人暨執行長Matthew Prince發火，強調將繼續抗爭，並說將考慮退出義大利市場。 義大利根據反盜版法令，於2024年2月啟用了Piracy Shield反盜版封鎖平臺，由權利人即時通報盜版網站與IP，要求DNS、ISP及VPN等服務供應商在30分鐘內將其封鎖，主要鎖定體育賽事與即時串流的盜版內容。迄今已封鎖超過6.5萬個網域名稱，以及1.4萬個可存取非法內容的IP位址。 AGCOM自2024年起，即多次要求Cloudflare在Piracy Shield平臺上，註冊1.1.1.1公共DNS服務，以配合封鎖措施，但Cloudflare認為1.1.1.1屬於全球性的公共DNS，若只為單一國家執行過濾，將會影響全球DNS解析效能及穩</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173280</guid>
-      <pubDate>Mon, 12 Jan 2026 04:07:01 +0000</pubDate>
+      <title>駭客揚言公開Nissan 900GB資料</title>
+      <link>https://www.ithome.com.tw/news/173315</link>
+      <description>新聞媒體Cybernews發現，親俄勒索軟體駭客組織Everest Group本周在暗網上宣稱，已取得日本汽車大廠日產（Nissan）的內部資料900GB，揚言本周內不付贖金就要公開。 這個組織是在1月10日張貼公告，並稱Nissan只剩5天時間。駭客並張貼了Nissan部份檔案的螢幕擷圖。公布的資料欄位均已塗黑，但可辨識出是汽車經銷商名冊，包含經銷商名稱、地址、所在城市、郵遞區號等資訊。此外還有Nissan內部文件、失竊車輛報告等。 媒體未說明是否能證實這份資料的真實性。 Everest Group是近期活動猖獗的駭客組織。這群駭客去年底也先後宣稱取得華碩內部檔案包含相機軟體原始碼，以及美商克萊斯勒包含Salesforce等1TB資料。 Nissan也多次傳出資料外洩攻擊。去年12月公告，受IT服務商Red Hat被駭牽連，外洩2.1萬份客戶資料。不確定這次事件和本周駭客公布的是否為同一批資料。 此外，去年8月勒索軟體駭客Qilin也稱入侵日產汽車旗下設計公司CBI，竊取4 TB規模的資料。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173315</guid>
+      <pubDate>Tue, 13 Jan 2026 04:47:51 +0000</pubDate>
     </item>
     <item>
-      <title>Google推出UCP，為代理人商務建立跨平臺交易標準</title>
-      <link>https://www.ithome.com.tw/news/173285</link>
-      <description>新聞Google周日（1/11）宣布推出Universal Commerce Protocol（UCP），為代理人商務（Agentic Commerce）建立一套跨平臺的開放標準，讓AI代理人能在搜尋、對話與應用程式中，代表使用者完成從商品探索、下單到付款的完整購物流程。使AI不再僅止於推薦角色，而是可實際參與交易流程 UCP是一套通用協定，目的在於為AI代理人、零售商系統與支付服務提供者建立共通語言。在UCP架構下，代理人不需要為每一家商店或平臺各自客製串接，而是透過標準化介面，就能存取商品資訊、啟動結帳流程，並完成後續交易與支援。Google表示，UCP設計可跨產業使用，並相容既有的代理人與支付相關協定，以降低導入門檻。 在實際運作上，UCP將率先應用於Google搜尋的AI模式與Gemini應用程式中。當消費者在研究商品時，AI代理人可直接呼叫符合資格的零售商商品列表，並在不跳轉外部網站的情況下完成結帳。付款部分以Google Pay為核心，使用者可沿用已儲存在Google Wallet中的付款方式與寄送資訊，後續也將支援PayPal。Google強調，零售商仍是銷售主體，負責履</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173285</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0112-Universal%20Commerce%20Protocol%20(UCP)-google.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 12 Jan 2026 04:34:55 +0000</pubDate>
+      <title>從寫程式到交辦工作，Anthropic以Cowork延伸Claude Code</title>
+      <link>https://www.ithome.com.tw/news/173317</link>
+      <description>新聞Anthropic周一（1/12）開始預覽Cowork，這是一種建立在Claude Code之上的新工作模式，目標是讓Claude不再只回應指令，而能實際接手並完成一整段工作流程。 由於Cowork是Claude Code能力的延伸，Claude Code僅提供給Claude Max用戶，因此Cowork目前也僅支援Claude Max用戶，並以研究預覽形式於macOS桌面App中測試。 Cowork的核心特性，在於讓AI具備實際執行工作的能力。與一般對話式AI不同，使用者可授權Claude存取電腦中特定資料夾，讓AI直接讀取、編輯或建立檔案，而非僅提供文字建議。例如，Claude可自動整理下載資料夾、重新命名檔案，從多張截圖中彙整支出資料並生成試算表，或將零散筆記整理成可用的報告初稿。 圖片來源／Anthropic 在任務執行方式上，Cowork具備高度自主性。使用者只需描述目標，Claude便會自行拆解工作步驟、規畫執行順序，並持續完成任務，同時回報目前進度，而不需要每一步都由人類反覆下指令。整體互動模式更接近將工作交辦給同事，而非傳統的一問一答。 Cowork延續Claude</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173317</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0113-Cowork-anthropic-2.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 13 Jan 2026 05:00:17 +0000</pubDate>
     </item>
     <item>
-      <title>Walmart攜手Wing擴大無人機送貨，全美150家門市納入配送網</title>
-      <link>https://www.ithome.com.tw/news/173286</link>
-      <description>新聞Alphabet旗下無人機配送公司Wing周日（1/11）宣布，將把Walmart無人機送貨服務擴展至全美另外150家門市，計畫在2027年前建立超過270個無人機配送營運據點，服務範圍橫跨美國東西岸，預計可觸及超過4,000萬名消費者。 這項合作並非首次嘗試。Wing與Walmart早已在達拉斯—沃斯堡與亞特蘭大都會區進行常態化營運，當地消費者已逐步將無人機送貨視為日常選項。Wing在官方公告中指出，其前25%的重度用戶平均每周下單約3次，過去6個月整體配送量成長3倍，顯示服務已從示範階段，邁向可規模化複製的商業運作。 Wing的無人機系統是此次擴張的技術核心。其機型鎖定輕量、高頻配送需求，可承載約2至2.5公斤的小型包裹，適合食品、日用品與非處方藥等即時需求商品。無人機採全自動飛行設計，從起飛、航線規畫、避障到投遞皆由系統完成，不需人工遙控，並以懸掛繩索的垂直投放方式交付包裹，避免降落對住宅環境造成干擾。 Walmart是Wing目前最重要且規模最大的合作夥伴，雙方的合作模式亦展示了零售與無人機物流合作的典範，除了美國之外，Wing也曾與澳洲、英國及芬蘭的商家合作。 至於亞馬遜</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173286</guid>
-      <pubDate>Mon, 12 Jan 2026 05:05:10 +0000</pubDate>
+      <title>中國駭客濫用VMware ESXi漏洞 可能揭露前一年前就有工具</title>
+      <link>https://www.ithome.com.tw/news/173318</link>
+      <description>新聞資安公司Huntress偵測到中國駭客濫用VMware ESXi 3個漏洞，攻擊活動可能在漏洞揭露前就悄悄展開了。 Huntress在2025年12月偵測到一樁和VMware虛擬化平臺ESXi有關的攻擊行動。在該行動最後一個階段中，攻擊者濫用了VMware去年3月公告並修補的3個ESXi漏洞，分別是CVE-2025-22224（CVSS風險值9.3）、CVE-2025-22225（CVSS風險值8.2）和CVE-2025-22226（CVSS風險值7.1）。成功濫用這些漏洞可讓取得管理員權限的攻擊者從VMX行程洩露記憶體資訊、或是惡意程式從VM沙箱逃逸，而在VMX行程執行。美國資安主管機關CISA則將這些漏洞列為已知遭利用漏洞（KEV）名冊。 Huntress分析12月的入侵指標，追查出攻擊者複雜的活動路徑。他先從一個被駭的SonicWall VPN駭入受害者網路，並取得內部網路權限。攻擊者利用竊得的網域管理員憑證在內部網路橫向移動，包括濫用VMware系統。 分析其濫用VMware的工具套件，當中二進位檔包含一個PDB路徑，發現一個具有簡體中文字串以及特殊訊息的文件夾（「全版本逃</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173318</guid>
+      <pubDate>Tue, 13 Jan 2026 05:17:23 +0000</pubDate>
     </item>
     <item>
-      <title>駭客兜售52萬筆臺灣好市多會員個資，業者澄清：非該公司會員資料</title>
-      <link>https://www.ithome.com.tw/news/173279</link>
-      <description>新聞去年7月，有人聲稱對全聯福利中心旗下的支付服務公司全支付下手，入侵其測試環境並取得管理員帳密，引發外界對全支付資安防護的關注。如今傳出有人聲稱，他們從另一家臺灣大型零售業者竊得會員個資並兜售。 根據自由時報的報導，自稱是Solonik的人士於1月7日宣稱，他握有臺灣Costco（好市多）會員個資52.6萬筆，涵蓋會員姓名、身分證字號、電子郵件信箱，以及明文帳號密碼等資料，並公布部分資料取信買家。對此，臺灣好市多表示，經確認這批資料並非該公司會員個資，他們相關系統皆由公司自行開發與維護，資料存放於總公司機房，並未採用外部系統廠商的資料管理程式，好市多強調，保障會員權益為他們的一貫原則。 比較特別的是，自由時報提及，有部分會員註冊好市多會員電子郵件信箱結尾是.gov.tw，應為我國政府機關的公務信箱，依照規定不該用來註冊網路購物平臺，由於這類信箱屬政府資產，有可能稽核或調閱，也是駭客偏好用來網釣或詐騙的對象。究竟這種情況是否會帶來更嚴重的衝擊，有待進一步觀察。 回顧2025年，鎖定零售業者的網路攻擊事故頻傳，其中英國瑪莎百貨（Marks &amp;amp; Spencer，M&amp;amp;S）、連鎖超市Co-op</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173279</guid>
-      <pubDate>Mon, 12 Jan 2026 05:59:16 +0000</pubDate>
+      <title>OpenAI收購Torch Health，強化ChatGPT健康資料整合能力</title>
+      <link>https://www.ithome.com.tw/news/173323</link>
+      <description>新聞繼於日前發表ChatGPT Health之後，OpenAI周一（1/12）宣布已買下醫療AI新創Torch Health，準備提供全球用戶一個全新的健康認知與管理方式。根據外電報導，該交易價值1億美元，OpenAI是以股票支付。 尚處測試階段的ChatGPT Health可供不同等級的OpenAI會員使用，相較於一般的聊天功能，ChatGPT Health擁有獨立的聊天空間，不管是對話、檔案或記憶都是隔離的；標榜具備專屬加密機制，且不會用來作為模型訓練資料；有別於尋常聊天偏向廣泛知識與建議，ChatGPT Health刻意降低了自信式的回答，更重視風險與邊界；且ChatGPT Health可連結病歷、穿戴裝置及各種健康App。 2025年創立的Torch Health核心團隊來自於醫療AI公司Forward Health。2016年創立的Forward企圖以科技來革新醫療體驗，目標是結合感測器、行動裝置及AI，讓醫療更可及與個人化，卻在2024年因成本、會員及技術問題而宣告停業；隨後其核心團隊即創立Torch，鎖定整合健康資料，致力將分散在醫院、實驗室、穿戴裝置及消費健康服務的醫療</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173323</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0113-torch%20app%20health.png" length="0" type="image/png"/>
+      <pubDate>Tue, 13 Jan 2026 06:22:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
