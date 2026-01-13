@@ -8,78 +8,81 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Jan 2026 06:41:27 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Jan 2026 06:38:56 +0000</lastBuildDate>
     <item>
-      <title>Multi-dimensional Arrays &amp;amp; Row-major Order: A Deep Dive</title>
-      <link>https://dev.to/ali_algmass/multi-dimensional-arrays-row-major-order-a-deep-dive-3b2e</link>
-      <description>Let me explain multi-dimensional arrays and row-major ordering from the ground up, covering memory layout, addressing, and low-level implementation details. 1. Understanding Multi-dimensional Arrays Conceptual vs Physical Reality Conceptually, when you declare: int matrix[3][4]; You think of a 2D grid: [0][0] [0][1] [0][2] [0][3] [1][0] [1][1] [1][2] [1][3] [2][0] [2][1] [2][2] [2][3] Physically, memory is linear (one-dimensional). The CPU can only access memory sequentially through addresses. M</description>
-      <guid isPermaLink="false">https://dev.to/ali_algmass/multi-dimensional-arrays-row-major-order-a-deep-dive-3b2e</guid>
-      <pubDate>Mon, 12 Jan 2026 05:54:22 +0000</pubDate>
+      <title>The Buy Button Is the Slowest Part of Most E Commerce Sites</title>
+      <link>https://dev.to/ar_abid_641aa302d5c68b2ae/the-buy-button-is-the-slowest-part-of-most-e-commerce-sites-3bco</link>
+      <description>Most e-commerce teams spend months optimizing page load speed. Images are compressed. Bundles are split. Lighthouse scores look great. And yet, the most important interaction on the site — the Buy button — is often the slowest experience users encounter. This is not a backend problem. It’s an interaction design and architecture problem. What Actually Happens When a User Clicks Buy From the user’s point of view, clicking Buy should feel instant. From the system’s point of view, it triggers a long</description>
+      <guid isPermaLink="false">https://dev.to/ar_abid_641aa302d5c68b2ae/the-buy-button-is-the-slowest-part-of-most-e-commerce-sites-3bco</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzpi5jwbiunbfk6d2ubnq.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 13 Jan 2026 05:34:17 +0000</pubDate>
     </item>
     <item>
-      <title>Building Automated Containment for AI-to-AI Systems: A Technical Deep Dive</title>
-      <link>https://dev.to/helios_techcomm_552ce9239/building-automated-containment-for-ai-to-ai-systems-a-technical-deep-dive-4a6m</link>
-      <description>When designing secure AI-to-AI communication systems, one of the most critical yet overlooked components is automated incident response. While most developers focus on prevention mechanisms like authentication and authorization, the reality is that AI systems operating at machine speed require machine-speed containment when things go wrong. This article explores Control 9 from the Zero-Trust Architecture framework: Containment, Recovery &amp;amp; Forensic Readiness, with practical Python implementations</description>
-      <guid isPermaLink="false">https://dev.to/helios_techcomm_552ce9239/building-automated-containment-for-ai-to-ai-systems-a-technical-deep-dive-4a6m</guid>
-      <pubDate>Mon, 12 Jan 2026 05:54:32 +0000</pubDate>
+      <title>Building a LinkedIn Outreach Agent with ConnectSafely.ai and Mastra</title>
+      <link>https://dev.to/amaan_sarfaraz_15f8675671/building-a-linkedin-outreach-agent-with-connectsafelyai-and-mastra-51lh</link>
+      <description>A deep dive into building production-ready LinkedIn automation using deterministic agents, clean tool abstractions, and API-first architecture Built a LinkedIn job search automation agent that finds jobs, identifies hiring managers, and sends connection requests—without scraping, browser automation, or getting banned. Stack: 🤖 Mastra (agent orchestration) 🔗 ConnectSafely.ai (LinkedIn API) ⚡ TypeScript + Bun Key principle: Agents orchestrate, APIs execute, tools stay dumb. Full code on GitHub 👈 T</description>
+      <guid isPermaLink="false">https://dev.to/amaan_sarfaraz_15f8675671/building-a-linkedin-outreach-agent-with-connectsafelyai-and-mastra-51lh</guid>
+      <pubDate>Tue, 13 Jan 2026 05:34:32 +0000</pubDate>
     </item>
     <item>
-      <title>Load Balancing Explained (Simple Guide for Beginners)</title>
-      <link>https://dev.to/mourya_modugula/load-balancing-explained-simple-guide-for-beginners-39p6</link>
-      <description>Load balancing is one of those “system design” terms that sounds complex… but the idea is actually very simple. If a lot of people use your app at the same time, a single server can get overloaded and crash. Load balancing solves this by distributing traffic across multiple servers so the system stays fast and reliable. This post explains load balancing in a beginner-friendly way — no heavy jargon, no complicated diagrams. What is Load Balancing? Load balancing means: Distributing incoming reque</description>
-      <guid isPermaLink="false">https://dev.to/mourya_modugula/load-balancing-explained-simple-guide-for-beginners-39p6</guid>
-      <pubDate>Mon, 12 Jan 2026 06:01:18 +0000</pubDate>
+      <title>AZ-104 Azure Administrator Cheat Sheet – 2026 Exam Notes</title>
+      <link>https://dev.to/bren67/az-104-azure-administrator-cheat-sheet-2026-exam-notes-4gkh</link>
+      <description>The Microsoft Azure Administrator (AZ-104) is the gold standard for cloud admins. It’s not just about clicking buttons in the portal; it’s about understanding governance, networking logic, and troubleshooting. If you are preparing for this exam, this deep-dive cheat sheet covers the critical concepts, specific SKU limits, and configuration "gotchas" you need to know. 🆔 1. Identity &amp;amp; Governance (Azure AD / Entra ID) The security perimeter is no longer the firewall; it's Identity. Users &amp;amp; Groups D</description>
+      <guid isPermaLink="false">https://dev.to/bren67/az-104-azure-administrator-cheat-sheet-2026-exam-notes-4gkh</guid>
+      <pubDate>Tue, 13 Jan 2026 05:38:18 +0000</pubDate>
     </item>
     <item>
-      <title>A Five-Minute UI Feature That Became an XSS Time Bomb</title>
-      <link>https://dev.to/daisy_jones_21bdcc6b40f9d/a-five-minute-ui-feature-that-became-an-xss-time-bomb-3bip</link>
-      <description>The Innocent UI Change (Context) Small UI Change (preview, comments, tooltip) ↓ Frontend Code ↓ Looks Visual Only ↓ Feels Low Risk You rolled out what seemed like a tiny HTML or UI tweak. Maybe it was a new place to display user comments, a live preview field, or a way to render formatted user input. Nothing dramatic. After all, it was “just UI.” But that small feature touched one of the most misunderstood layers of web security: client-side scripting. What XSS Really Is Attacker Input ↓ Injecte</description>
-      <guid isPermaLink="false">https://dev.to/daisy_jones_21bdcc6b40f9d/a-five-minute-ui-feature-that-became-an-xss-time-bomb-3bip</guid>
-      <pubDate>Mon, 12 Jan 2026 06:01:58 +0000</pubDate>
+      <title>Building a Production-Ready Portfolio: Phase-2 — Frontend Bootstrapping &amp;amp; Architecture Setup</title>
+      <link>https://dev.to/imsushant12/building-a-production-ready-portfolio-phase-2-frontend-bootstrapping-architecture-setup-2hc0</link>
+      <description>With infrastructure ready and requirements clearly defined, it was finally time to write code. However, instead of jumping straight into UI components, this phase focused on establishing a frontend foundation that could scale, evolve, and remain maintainable. 🔗 Project Repository: https://github.com/imsushant12/sushantgaurav-portfolio Why Frontend Setup Deserves Its Own Phase After completing: Phase-0: Infrastructure &amp;amp; workflows Phase-1: Requirement gathering &amp;amp; PRD I had something most side proj</description>
+      <guid isPermaLink="false">https://dev.to/imsushant12/building-a-production-ready-portfolio-phase-2-frontend-bootstrapping-architecture-setup-2hc0</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fip7di5ruo5cnxi4426nz.png" length="0" type="image/png"/>
+      <pubDate>Tue, 13 Jan 2026 05:41:00 +0000</pubDate>
     </item>
     <item>
-      <title>Stop Building Ugly Apps: Create a Modern Python Dashboard in 15 Minutes 📊</title>
-      <link>https://dev.to/logicpydevs/stop-building-ugly-apps-create-a-modern-python-dashboard-in-15-minutes-1l14</link>
-      <description>We’ve all been there. You write a Python script that processes data beautifully, calculates complex metrics, and works without a hitch. Then, you decide to give it a user interface using standard Tkinter. The result? An application that looks like it belongs in Windows 95. Today, we are done with ugly apps. We are going to build a standalone Data Analysis Dashboard that embeds live Matplotlib charts inside a modern, dark-mode interface using CustomTkinter. Originally published on LogicPy.com 🚀 Q</description>
-      <guid isPermaLink="false">https://dev.to/logicpydevs/stop-building-ugly-apps-create-a-modern-python-dashboard-in-15-minutes-1l14</guid>
-      <pubDate>Mon, 12 Jan 2026 06:11:58 +0000</pubDate>
+      <title>Git for Beginners: Basics and Essential Commands</title>
+      <link>https://dev.to/anoop-rajoriya/git-for-beginners-basics-and-essential-commands-4ah2</link>
+      <description>What is Git? Git is an open-source Distributed Version Control System (DVCS). Created in 2005 by Linus Torvalds (the creator of Linux), it was built to handle massive projects with high speed and efficiency. Why do you need it? In simple terms, Git is a "time machine" for your project. Developers use it to: Track Changes: See exactly what was changed, when, and by whom. Collaborate: Work on the same codebase with multiple people simultaneously. Manage History: Revert back to a previous version i</description>
+      <guid isPermaLink="false">https://dev.to/anoop-rajoriya/git-for-beginners-basics-and-essential-commands-4ah2</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg9awjjbmdax4gxyfym6w.png" length="0" type="image/png"/>
+      <pubDate>Tue, 13 Jan 2026 05:41:59 +0000</pubDate>
     </item>
     <item>
-      <title>Discovering n8n — Wish I Found It Sooner (Part 1 )</title>
-      <link>https://dev.to/timleunghk/discovering-n8n-wish-i-found-it-sooner-part-1--171j</link>
-      <description>I can't believe I didn't find n8n earlier. If I met it earlier, I could make many many wonderful Apps. This is my first image when I know n8n. Introduction I recently discovered n8n, and honestly, I can’t believe I didn’t find it earlier. If I had discovered it sooner, I could have built so many useful (and fun) automations. n8n is a workflow automation tool that lets you connect apps and services with a visual, node-based editor. You can run it in the cloud, but you can also self-host it—so you</description>
-      <guid isPermaLink="false">https://dev.to/timleunghk/discovering-n8n-wish-i-found-it-sooner-part-1--171j</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fq6sikvqcvfdctrvrnx0k.png" length="0" type="image/png"/>
-      <pubDate>Mon, 12 Jan 2026 06:15:49 +0000</pubDate>
+      <title>Quantum Doomsday Delayed (Again): Why the Latest Panic Over Post-Quantum Cryptography Feels Familiar</title>
+      <link>https://dev.to/zerotrustzeroenergy/quantum-doomsday-delayed-again-why-the-latest-panic-over-post-quantum-cryptography-feels-familiar-3pin</link>
+      <description>This All Sounds Familiar Seven years ago, I wrote my first master's thesis on the exact topic that's dominating security headlines today: the threat quantum computing poses to classical encryption. I spent months dissecting Shor's algorithm, modeling how a sufficiently powerful quantum system could reduce RSA and elliptic-curve cryptography to rubble. My conclusion at the time? The threat is real, but the timeline is long, and the migration will be an absolute nightmare. Here we are in 2026, and</description>
+      <guid isPermaLink="false">https://dev.to/zerotrustzeroenergy/quantum-doomsday-delayed-again-why-the-latest-panic-over-post-quantum-cryptography-feels-familiar-3pin</guid>
+      <pubDate>Tue, 13 Jan 2026 05:48:10 +0000</pubDate>
     </item>
     <item>
-      <title>Why Version Control Exists: The Pen Drive Problem</title>
-      <link>https://dev.to/anoop-rajoriya/why-version-control-exists-the-pen-drive-problem-327c</link>
-      <description>Imagine five friends working on a school project. You all need to edit the same document at the same time. How do you avoid deleting someone else's work? How do you combine everyone’s parts at the end? Software developers face this challenge every day. When dozens of people write code for the same app, things can become chaotic very quickly. Today, we use Version Control Systems like Git to manage this. To understand why these tools are so important, we need to look at how things used to be. We</description>
-      <guid isPermaLink="false">https://dev.to/anoop-rajoriya/why-version-control-exists-the-pen-drive-problem-327c</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcpybzt29cyggf29sjegj.png" length="0" type="image/png"/>
-      <pubDate>Mon, 12 Jan 2026 06:18:58 +0000</pubDate>
+      <title>How I Built a Zero-Dependency Technical Research Blog with Just HTML, CSS, and Markdown</title>
+      <link>https://dev.to/quochuydev/how-i-built-a-zero-dependency-technical-research-blog-with-just-html-css-and-markdown-kc2</link>
+      <description>Ever find yourself drowning in bookmarks, scattered notes, and half-finished documentation about technologies you're researching? I did too—until I built something simpler. The Problem Technical notes scattered across Notion, Google Docs, and random markdown files No central place to organize research on new technologies and platforms Setting up a blog feels like overkill—why do I need a database for markdown? Want to share knowledge but don't want to maintain complex infrastructure Diagrams and</description>
+      <guid isPermaLink="false">https://dev.to/quochuydev/how-i-built-a-zero-dependency-technical-research-blog-with-just-html-css-and-markdown-kc2</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwqueq5mflq1pfpjo76cg.png" length="0" type="image/png"/>
+      <pubDate>Tue, 13 Jan 2026 06:00:35 +0000</pubDate>
     </item>
     <item>
-      <title>Hashicorp Vault: Transit Secrets Engine</title>
-      <link>https://dev.to/admantium/hashicorp-vault-transit-secrets-engine-2kam</link>
-      <description>In Hashicorp Vault, secrets engines provide a uniform way to store and manage credentials, encryption keys, certificates and other sensitive information. To gain access to a secret, a typically time restricted token is generated. With this token, the secret can be read by any client application. Secrets themselves can be static or dynamic. A static secret is stored as-is, and has a typical lifetime of several weeks or even months. Dynamic secrets are created on-demand with a limited lifetime of</description>
-      <guid isPermaLink="false">https://dev.to/admantium/hashicorp-vault-transit-secrets-engine-2kam</guid>
-      <pubDate>Mon, 12 Jan 2026 06:22:00 +0000</pubDate>
+      <title>WJb Solution Alive Samples – Minimal &amp;amp; Powerful Job Scheduling in .NET</title>
+      <link>https://dev.to/ukrguru/wjb-solution-alive-samples-minimal-powerful-job-scheduling-in-net-1cpc</link>
+      <description>🚀 WJb Solution Alive Samples – Minimal &amp;amp; Powerful Job Scheduling in .NET If you’re exploring job scheduling, queues, and background processing in .NET, the WJb package offers a clean and extensible approach. We’ve curated a set of alive samples to help you get started quickly. ✅ Why WJb? Lightweight and focused on job orchestration. SQL-backed queues with full lifecycle logging. Easy integration with .NET Worker, Blazor, MVC, and more. ✅ Solution Alive Samples Basics (Getting Started) 1stWJb – M</description>
+      <guid isPermaLink="false">https://dev.to/ukrguru/wjb-solution-alive-samples-minimal-powerful-job-scheduling-in-net-1cpc</guid>
+      <pubDate>Tue, 13 Jan 2026 06:21:47 +0000</pubDate>
     </item>
     <item>
-      <title>Smart Contract Security 101 — Reentrancy &amp;amp; Common AI‑Generated Mistakes</title>
-      <link>https://dev.to/ribhavmodi/smart-contract-security-101-reentrancy-common-ai-generated-mistakes-1pfb</link>
-      <description>The Transfer That Never Stopped By Day 30 of this Web3 journey, “security” stopped being a scary audit word and started feeling very real. Because the first time an “innocent” withdraw function drained an entire contract, it didn’t look like a hack at all. It looked like… a normal payment going through. The user clicked “withdraw.” The contract sent them some ETH. Everything looked fine. Except the payment never really ended. It kept calling back. And back. And back again. ​ By the time the cont</description>
-      <guid isPermaLink="false">https://dev.to/ribhavmodi/smart-contract-security-101-reentrancy-common-ai-generated-mistakes-1pfb</guid>
-      <pubDate>Mon, 12 Jan 2026 06:32:39 +0000</pubDate>
+      <title>Ask Our AI Experts: An AMA With Our Tech Leads</title>
+      <link>https://dev.to/capestart/ask-our-ai-experts-an-ama-with-our-tech-leads-2cn6</link>
+      <description>Q1: What Are the Most Common Mistakes Companies Make When Starting an AI Project? While the promise of artificial intelligence is immense, its successful implementation depends on avoiding several common mistakes that can cause a project to fail from the start. Vague or Misaligned Objectives: Often, projects fail when business objectives and AI deliverables are not closely aligned. Underestimating Data Challenges: Insufficient or poor-quality data is a leading cause of project failure. Rigorous</description>
+      <guid isPermaLink="false">https://dev.to/capestart/ask-our-ai-experts-an-ama-with-our-tech-leads-2cn6</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fykkkfh5ypx6ut3yi7jtz.png" length="0" type="image/png"/>
+      <pubDate>Tue, 13 Jan 2026 06:24:09 +0000</pubDate>
     </item>
     <item>
-      <title>AI for operations: remove friction, not people</title>
-      <link>https://dev.to/jaideepparashar/ai-for-operations-remove-friction-not-people-1jj9</link>
-      <description>As the Founder of ReThynk AI, I want to correct a dangerous misunderstanding: AI in operations is not about removing people. It’s about removing friction. Because most operational pain is not caused by humans. It’s caused by messy systems that force humans to waste time. AI for Operations: Remove Friction, Not People When businesses talk about AI, they often jump to “automation.” But operations is not just tasks. Operations is: how work flows how mistakes happen how delays repeat how confusion s</description>
-      <guid isPermaLink="false">https://dev.to/jaideepparashar/ai-for-operations-remove-friction-not-people-1jj9</guid>
-      <pubDate>Mon, 12 Jan 2026 06:32:45 +0000</pubDate>
+      <title>In-Memory Databases Are Overrated — Here’s What Actually Matters for Speed"</title>
+      <link>https://dev.to/esproc_spl/in-memory-databases-are-overrated-heres-what-actually-matters-for-speed-3ho1</link>
+      <description>It is easy to think about using an in-memory database to solve the performance problem of reporting, BI analysis, batch processing, and other data analysis tasks. An in-memory database allows storing all data permanently in the memory so that the computation external memory accesses (disk reads) are not needed, disk I/O can be avoided and data processing performance can be effectively improved. In-memory databases are advertised to have high performance and be able to solve many performance prob</description>
+      <guid isPermaLink="false">https://dev.to/esproc_spl/in-memory-databases-are-overrated-heres-what-actually-matters-for-speed-3ho1</guid>
+      <pubDate>Tue, 13 Jan 2026 06:24:32 +0000</pubDate>
     </item>
   </channel>
 </rss>
