@@ -22,7 +22,7 @@ def update_tracker():
     print(f"✅ Loaded {len(discovered_feeds)} discovered feeds")
 
     # Read the tracker
-    tracker_file = 'Newsletter outreach #2 - Progress tracker - UPDATED.csv'
+    tracker_file = 'outreach_progress_tracker.csv'
     print(f"\n📋 Loading {tracker_file}...")
 
     rows = []
