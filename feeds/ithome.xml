@@ -8,78 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Jan 2026 06:41:34 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 06:40:43 +0000</lastBuildDate>
     <item>
-      <title>中國APT組織UAT-7290鎖定電信產業，邊緣設備成為初始入侵關鍵管道</title>
-      <link>https://www.ithome.com.tw/news/173306</link>
-      <description>新聞思科旗下威脅情報團隊Cisco Talos揭露，一個具中國背景的進階持續性威脅（APT）組織，長期鎖定關鍵通訊基礎設施發動網路間諜行動，並透過濫用邊緣網路設備漏洞，入侵南亞及東南歐地區的電信業者。該組織被追蹤為UAT-7290，過去主要活躍於南亞地區，近期則被觀測到擴大攻擊範圍。 研究人員指出，UAT-7290至少自2022年起即持續活動，並兼具間諜行動與初始存取團隊的雙重角色。在多起攻擊行動中，該組織會於受害環境內建立作業中繼節點（Operational Relay Box，ORB）基礎設施，這些節點後續可能被其他具中國背景的威脅行為者利用，作為隱匿來源與轉送攻擊流量的跳板。 Cisco Talos發現，UAT-7290在發動入侵前，會先對目標組織進行長時間且深入的技術偵察，隨後結合一日（One-day）漏洞的濫用程式碼，以及針對特定目標設計的SSH暴力破解手法，入侵對外暴露的邊緣網路設備，以取得初始存取權限，並進一步提升系統權限。研究人員也指出，該組織主要依賴已公開的概念驗證（PoC）攻擊程式碼，而非自行開發漏洞利用工具。 在惡意程式工具方面，UAT-7290主要使用以Linu</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173306</guid>
-      <pubDate>Tue, 13 Jan 2026 01:59:10 +0000</pubDate>
+      <title>駭客兜售50家大型企業的內部資料，疑透過員工電腦竊得帳密，入侵雲端檔案共用環境而得逞</title>
+      <link>https://www.ithome.com.tw/news/173328</link>
+      <description>新聞竊資軟體（Infostealer）橫行，駭客藉此挖掘有價值的帳密資料與憑證相當常見，然而有人根據竊得的資料，竟然能在大型企業的檔案共用平臺來去自如，並下載企業內部資料進行兜售。 根據威脅情報公司Hudson Rock的調查，代號為Zestix（又名Sentap）的駭客，正於暗網兜售從全球約50家知名企業竊取的機密資料。這場大規模外洩的源頭，並非複雜的系統漏洞，而是基礎的「憑證衛生（Credential Hygiene）」失敗，企業並未落實定期更換密碼，以及沒有採用多因素驗證（MFA）而釀禍。 有別於許多資料外洩事故，駭客必須設法取得企業網路環境的初期存取管道，Zestix則是另闢蹊徑：透過廣泛利用竊資軟體，例如：RedLine、Lumma，或是Vidar來感染員工電腦或特定的裝置，然後從竊得的事件記錄資料進行過濾，找到ShareFile、Nextcloud，以及OwnCloud等企業雲端檔案共享服務平臺（EFSS）的入口網站網址與帳密資料，然後輕易從企業偷走大批內部資料。對此，OwnCloud也發布資安公告，指出這起事故並非他們的平臺出現零時差漏洞造成，呼籲用戶立即啟用多因素驗證。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173328</guid>
+      <pubDate>Tue, 13 Jan 2026 09:59:17 +0000</pubDate>
     </item>
     <item>
-      <title>駭客鎖定配置錯誤的代理伺服器與LLM端點，試圖濫用付費API</title>
-      <link>https://www.ithome.com.tw/news/173300</link>
-      <description>新聞資安監測業者GreyNoise公布一份基於蜜罐的觀測結果，指出他們在語言模型開源工具Ollama蜜罐環境中，於2025年10月至2026年1月間記錄到91,403次攻擊會話，並歸納出兩波主要行動。一波以伺服器端請求偽造（SSRF）為主，手法是迫使伺服器對外發出連線，並透過帶外回呼機制確認是否成功，另一波則大規模探測LLM端點，疑似專門尋找配置錯誤的代理伺服器或對外暴露的相容API介面，藉此取得商用付費API的存取機會。 研究人員指出，攻擊者鎖定Ollama的模型拉取功能，透過注入惡意註冊庫URL，誘使伺服器替攻擊者對外發出HTTP請求。同一期間也觀測到與Twilio SMS webhook整合相關的探測行為，攻擊者透過操弄MediaUrl參數觸發外連。該行動在耶誕節前後出現尖峰，48小時內累積1,688次會話，攻擊者使用帶外（Out-of-Band）應用程式安全測試OAST的回呼方式確認是否成功，手法常見於漏洞研究與自動化測試，但規模仍值得企業留意。 從2025年12月28日開始，僅兩個IP在11天內就產生80,469次會話，系統性探測73種以上LLM模型端點，測試同時涵蓋相容於O</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173300</guid>
-      <pubDate>Tue, 13 Jan 2026 02:10:42 +0000</pubDate>
+      <title>【資安日報】1月13日，VMware ESXi零時差漏洞恐在兩年前就遭到利用</title>
+      <link>https://www.ithome.com.tw/news/173329</link>
+      <description>新聞中國駭客濫用VMware ESXi零時差漏洞，最早可追溯到2024年 在2025年12月，資安公司Huntress偵測到攻擊VMware虛擬化平臺ESXi的行動，由中國駭客發起，在該行動最後一個階段，攻擊者濫用了VMware去年3月公告並修補的ESXi漏洞，分別是CVE-2025-22224、CVE-2025-22225，以及CVE-2025-22226（CVSS風險值為9.3、8.2、7.1），當時VMware指出已被用於攻擊行動，現在新的調查結果指出，駭客疑似在2024年就開發漏洞利用工具，並用於實際攻擊。 Huntress根據入侵指標，追查出攻擊者複雜的活動路徑：他們先從被駭的SonicWall VPN入侵受害企業的網路環境，並取得內部網路權限，接著利用竊得的網域管理員憑證橫向移動，然後對VMware虛擬化平臺下手。分析其濫用VMware的工具套件，當中二進位檔包含PDB路徑，發現具有簡體中文字串和特殊訊息的文件夾（「全版本逃逸–交付」及ESXI_8.0u3），當中的時戳為2024_02_19，顯示這套攻擊工具可能2024年初就已製作完成，並鎖定ESXi 8.0 Update</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173329</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/assets3eb6f92aedf74f109c7b4b0897(3).png" length="0" type="image/png"/>
+      <pubDate>Tue, 13 Jan 2026 10:28:23 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic推出Claude for Healthcare，瞄準醫療行政與臨床試驗流程</title>
-      <link>https://www.ithome.com.tw/news/173311</link>
-      <description>新聞Anthropic周一（1/12）正式推出Claude for Healthcare，這並非AI看診或健康諮詢服務，而是將生成式AI導入醫療體系與生命科學產業的內部工作流程，協助處理醫療行政、臨床試驗與法規文件等高合規作業。Anthropic藉此宣告，Claude已具備進入醫院、保險公司與藥廠正式流程中使用的商用成熟度，鎖定B2B市場。 Anthropic強調，Claude for Healthcare採用符合美國醫療隱私法規《健康保險可攜與責任法案》（Health Insurance Portability and Accountability Act，HIPAA）的設計，讓醫療機構與保險單位能夠在合規前提下，將生成式AI導入內部作業流程。 在實際應用上，Claude for Healthcare主要聚焦醫療體系中高度文件導向、流程繁複的行政環節，包括事前授權審查、理賠文件整理、給付規範與臨床指引比對，以及醫療人員與機構資格驗證等作業。Anthropic指出，這類流程往往需要同時查閱多套制度與資料來源，錯誤成本高，也是醫療體系長期的人力負擔來源。 在生命科學領域，Anthropi</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173311</guid>
-      <pubDate>Tue, 13 Jan 2026 02:45:35 +0000</pubDate>
+      <title>Apex Legends爆出角色遭遠端操控與強制斷線事件，開發商Respawn已修復但未說明原因</title>
+      <link>https://www.ithome.com.tw/news/173332</link>
+      <description>新聞知名遊戲Apex Legends近日出現疑似遭遠端干預輸入的安全事件，多名玩家回報在連線狀態正常時，角色仍會出現非本人操作的移動與行為，並伴隨強制斷線與暱稱遭更動等異常。Respawn已在對外承認事件後的數小時內表示問題已排除，但截至目前仍未公開成因、受影響範圍與更多技術細節。 綜合玩家回報，異常情況至少自2026年1月9日前後開始出現。社群陸續流傳多段錄影與貼文，內容顯示角色在非本人操作下自行移動，甚至被引導往地圖邊緣，另有案例指出隊友被依序踢出伺服器，但角色仍留在場上行動，疑似遭他人接手操控。 Respawn在2026年1月10日透過社群平臺回應，表示已注意到一樁進行中的安全事件，外部人士能在遊戲內遠端控制其他玩家輸入。公司同時強調初步調查未發現跡象顯示攻擊者能在玩家電腦上安裝或執行程式碼，因此不像遠端程式碼執行或注入攻擊那類典型情境，並稱正著手處理並將持續更新資訊。 在官方宣布修復前，社群仍持續出現新的回報，部分玩家遭伺服器強制斷線，隊友暱稱被替換成RSPN Admin等現象。另也有玩家基於自身觀察推測，問題可能涉及更高權限或伺服器除錯系統遭濫用，但這些說法尚未獲官方證實。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173332</guid>
+      <pubDate>Wed, 14 Jan 2026 00:40:36 +0000</pubDate>
     </item>
     <item>
-      <title>VS Code 1.108新增Agent Skills，讓Copilot代理可載入工作區技能</title>
-      <link>https://www.ithome.com.tw/news/173301</link>
-      <description>新聞微軟釋出VS Code 2025年12月版1.108，新版更新重點之一是新增實驗性的代理技能Agent Skills，讓GitHub Copilot的程式開發代理在需要時可從工作區載入指引、腳本與資源，以便更理解團隊的開發脈絡。 該代理技能的重點，是把代理需要理解的流程與知識整理成資料夾，並以SKILL.md定義技能行為，內容可包含指引、腳本與資源。VS Code會自動從工作區的.github/skills目錄偵測這些技能，並保留對.claude/skills目錄的相容支援，之後在對話需求相關時按需載入至聊天脈絡。該功能目前仍為實驗階段，需在設定中啟用chat.useAgentSkills才會生效。 隨著代理技能上線，VS Code也同步強化代理工作階段管理，新版代理工作階段檢視介面改善鍵盤操作與可近用性，並依狀態與時間分組，方便掌握進度。檢視介面也會提示該工作階段涵蓋的檔案變更與關聯的拉取請求，並支援一次封存多個工作階段。聊天的快速選擇器也改以代理工作階段為基礎，使用者可回到既有對話並進行封存、重新命名或刪除。 由於要讓代理在終端機執行指令時更可控，VS Code調整了終端機工具</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173301</guid>
-      <pubDate>Tue, 13 Jan 2026 02:59:15 +0000</pubDate>
+      <title>Google發布Chrome 144桌面版更新，修補3項高風險漏洞</title>
+      <link>https://www.ithome.com.tw/news/173333</link>
+      <description>新聞Google於1月13日發布桌面版Chrome 144穩定更新，推送版本包含Linux版144.0.7559.59，以及Windows與Mac版144.0.7559.59與144.0.7559.60，更新將於未來幾天至數週內陸續提供給用戶。 此次更新共修補10項資安漏洞，這些弱點的CVSS風險分數尚未公布，但Google表明其中包含3項高風險漏洞。最受關注的是CVE-2026-0899，該漏洞出現在V8 JavaScript引擎，屬於越界記憶體存取問題，由外部資安研究人員@p1nky4745通報，Google並提供8,000美元漏洞獎勵。 另外兩項高風險漏洞為CVE-2026-0900與CVE-2026-0901，分別涉及V8與Blink元件的不當實作問題，前者由Google內部通報，後者則由資安研究人員Irvan Kurniawan（sourc7）發現。 除了高風險漏洞，Google也修補多項中、低風險弱點，影響範圍涵蓋Downloads、Network、Digital Credentials、Split View等功能，以及ANGLE元件的記憶體釋放後再利用（Use After</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173333</guid>
+      <pubDate>Wed, 14 Jan 2026 02:15:19 +0000</pubDate>
     </item>
     <item>
-      <title>蘋果Apple Intelligence將使用Google Gemini基礎模型、雲端技術</title>
-      <link>https://www.ithome.com.tw/news/173313</link>
-      <description>新聞蘋果與Google昨日以簡單聲明，證實蘋果裝置上的Apple Intelligence包括Siri服務，將使用Google雲端技術，並以Gemini為基礎模型。 彭博去年年中首先報導兩大科技龍頭正在研議合作，以Gemini作為蘋果Siri的AI底層技術，協助將Siri進化成AI助理。 在本周的聯合聲明中，雙方表示已達成多年合作，使蘋果基礎模型（Apple Foundation Models）將以奠基於Google Gemini模型及雲端技術之上。Gemini模型將協助推動Apple Intelligence未來功能，包括今年將推出更個人化的Siri。 經過審慎考量，蘋果認為Google的AI技術能為蘋果基礎模型提供最強大的基礎。蘋果表示對為用戶開創的新體驗感到興奮，並說Apple Intelligence將會持續執行在蘋果裝置及Private Cloud Compute，同時維持領導業界的隱私標準。 根據去年彭博報導，蘋果將支付Google每年10億美元換取存取Gemini模型的權利。 這項合作的宣布，也讓業界追問已久的問題獲得解答。在Google Gemini、OpenAI Ch</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173313</guid>
-      <pubDate>Tue, 13 Jan 2026 03:32:21 +0000</pubDate>
+      <title>Meta傳裁員Reality Labs 10%　影響VR、Horizon部門</title>
+      <link>https://www.ithome.com.tw/news/173336</link>
+      <description>新聞紐約時報、彭博等媒體報導，Meta計畫本周裁撤Reality Labs部門人員超過1,500人，未來將把重心從VR/AR轉向AI。 紐時報導指出，這波人事精簡影響總數1.5萬名員工的Reality Labs的10%-15%，主要是開發VR硬體、元宇宙虛擬社群平臺Horizon Worlds的員工。而彭博則報導，部份VR遊戲和內容開發團隊，像是開發知名遊戲死侍VR版、Asgard's Wrath及Resident Evil 4 Quest版的工作室Twisted Pixel、Sanzaru Games及Armature Studio等也將被縮編或關閉。此外，VR健康App Supernatural也不再開發新內容或產品。 媒體取得的Meta技術長Andrew Bosworth內部備忘錄指出，未來Reality Labs策略重點及資源投入目標，也將聚焦到開發穿戴裝置，像是整合AI的Ray-Ban智慧眼鏡系列等。受影響的員工據信已在1月13日收到通知。 Meta發言人對媒體證實此事，表示裁員是公司策略調整的一環，Meta今年投資重點將由元宇宙轉向穿戴裝置等。 這波裁員並不令人意外。在公司</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173336</guid>
+      <pubDate>Wed, 14 Jan 2026 03:40:30 +0000</pubDate>
     </item>
     <item>
-      <title>Meta算力野心升級，Meta Compute規畫直逼雲端巨頭與國家級規模</title>
-      <link>https://www.ithome.com.tw/news/173314</link>
-      <description>新聞Meta創辦人暨執行長祖克柏（Mark Zuckerberg）周二（1/13）透過Threads宣布，Meta正式成立了一個新的最高層級計畫Meta Compute，打算在未來10年建置數十GW等級的運算與能源規模，且未來可能成長到數百GW以上。 以目前產業實際運作規模來看，單一大型AI訓練或推論叢集多落在100MW至500MW等級，僅少數超大型部署接近1GW。即便是OpenAI或Anthropic等前沿模型公司，其主要算力仍多分散建置於雲端服務商既有資料中心體系中，尚未以單一專案形式長期規畫超過數GW的集中式算力園區。 若從雲端巨頭的累積規模觀察，外界普遍推估，微軟與Google目前全球資料中心與雲端基礎設施的總用電規模，已達低雙位數GW等級，屬於多年、跨區域逐步累積的成果；Amazon旗下AWS則被認為是全球規模最大的雲端基礎設施體系之一，其資料中心與相關能源需求亦落在高個位數至低雙位數GW的估計區間。 在此背景下，祖克柏所提出的數十GW算力與能源規畫，已明顯超出單一AI公司或模型訓練需求的量級，其比較對象不再是OpenAI或Anthropic，而是微軟、Google、AWS等</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173314</guid>
-      <pubDate>Tue, 13 Jan 2026 04:25:02 +0000</pubDate>
+      <title>AI資料中心耗電爭議升溫，微軟承諾不轉嫁電費予一般用戶</title>
+      <link>https://www.ithome.com.tw/news/173337</link>
+      <description>新聞AI資料中心愈蓋愈多，也有愈來愈多的社區反對資料中心的建置，因為相對於資料中心所創造的就業機會，社區現在更在乎它所帶來的更高的水電費與環境成本，使得美國總統川普（Donald Trump）開始與科技業者協商解決方案，其中，微軟率先於周二（1/13）提出了「社區優先AI基礎設施」（Community-First AI Infrastructure）計畫，承諾不會將電費轉嫁給一般用戶。 美國電網屬於共用資產，資料中心接入往往帶動電網升級，成本在平均電價制度下分攤給所有用戶。再加上資料中心全年高負載推高尖峰容量需求，若地方政府提供電價優惠或延後回收，新增成本更容易轉嫁給一般用戶。 川普表示，他並不希望美國民眾因為資料中心而支付更高的電費，因此正與美國主要科技業者合作，首先是微軟，微軟將確保美國人不必為其用電埋單，也就是不會以更高的公用事業帳單來承擔資料中心的電力消耗。而未來幾周將會公布其它進展。 微軟總裁Brad Smith指出，從運河、鐵路到電網，每個時代都伴隨社區對成本與回報的拉鋸；基礎建設能否持續，取決於在地社區是否認為其帶來的收益大於負擔，並以此作為推動AI資料中心相關承諾的背景</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173337</guid>
+      <pubDate>Wed, 14 Jan 2026 03:53:21 +0000</pubDate>
     </item>
     <item>
-      <title>駭客揚言公開Nissan 900GB資料</title>
-      <link>https://www.ithome.com.tw/news/173315</link>
-      <description>新聞媒體Cybernews發現，親俄勒索軟體駭客組織Everest Group本周在暗網上宣稱，已取得日本汽車大廠日產（Nissan）的內部資料900GB，揚言本周內不付贖金就要公開。 這個組織是在1月10日張貼公告，並稱Nissan只剩5天時間。駭客並張貼了Nissan部份檔案的螢幕擷圖。公布的資料欄位均已塗黑，但可辨識出是汽車經銷商名冊，包含經銷商名稱、地址、所在城市、郵遞區號等資訊。此外還有Nissan內部文件、失竊車輛報告等。 媒體未說明是否能證實這份資料的真實性。 Everest Group是近期活動猖獗的駭客組織。這群駭客去年底也先後宣稱取得華碩內部檔案包含相機軟體原始碼，以及美商克萊斯勒包含Salesforce等1TB資料。 Nissan也多次傳出資料外洩攻擊。去年12月公告，受IT服務商Red Hat被駭牽連，外洩2.1萬份客戶資料。不確定這次事件和本周駭客公布的是否為同一批資料。 此外，去年8月勒索軟體駭客Qilin也稱入侵日產汽車旗下設計公司CBI，竊取4 TB規模的資料。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173315</guid>
-      <pubDate>Tue, 13 Jan 2026 04:47:51 +0000</pubDate>
+      <title>Google Mandiant開源可偵測Salesforce配置錯誤之工具，避免企業資料外洩</title>
+      <link>https://www.ithome.com.tw/news/173338</link>
+      <description>新聞因應去年多家企業Salesforce資料外洩，Google旗下資安服務部門Mandiant本周開源能偵測導致敏感資訊外洩的Salesforce配置錯誤的工具，名為AuraInspector。 Mandiant經常發現到企業Salesforce對外平臺，即體驗雲（Salesforce Experience Cloud）存在配置不當問題而不自知，可讓駭客存取敏感資料，包括信用卡號、身份文件和健康資訊等。Mandiant的AuraInspector為一指令行工具，可自動偵測Salesforce Aura框架內的存取控制配置錯誤，協助辨識和稽核Salesforce對外網站的配置問題，防範資料外洩。 圖片來源／Google Salesforce體驗雲為面向客戶、合作夥伴與員工的入口網站、論壇、網站，它直接連結Salesforce CRM資料，以提供個人化內容、自助服務。Aura為Salesforce應用程式使用的UI開發框架，以開發可重複使用的模組化元件。Salesforce體驗雲應用和資料取用依賴Aura元件和其後端端點（endpoint）互動實現。使用Aura端點可從後端系統存取各種資訊</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173338</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0114-AuraInspector-google%20mandiant.png" length="0" type="image/png"/>
+      <pubDate>Wed, 14 Jan 2026 04:22:07 +0000</pubDate>
     </item>
     <item>
-      <title>從寫程式到交辦工作，Anthropic以Cowork延伸Claude Code</title>
-      <link>https://www.ithome.com.tw/news/173317</link>
-      <description>新聞Anthropic周一（1/12）開始預覽Cowork，這是一種建立在Claude Code之上的新工作模式，目標是讓Claude不再只回應指令，而能實際接手並完成一整段工作流程。 由於Cowork是Claude Code能力的延伸，Claude Code僅提供給Claude Max用戶，因此Cowork目前也僅支援Claude Max用戶，並以研究預覽形式於macOS桌面App中測試。 Cowork的核心特性，在於讓AI具備實際執行工作的能力。與一般對話式AI不同，使用者可授權Claude存取電腦中特定資料夾，讓AI直接讀取、編輯或建立檔案，而非僅提供文字建議。例如，Claude可自動整理下載資料夾、重新命名檔案，從多張截圖中彙整支出資料並生成試算表，或將零散筆記整理成可用的報告初稿。 圖片來源／Anthropic 在任務執行方式上，Cowork具備高度自主性。使用者只需描述目標，Claude便會自行拆解工作步驟、規畫執行順序，並持續完成任務，同時回報目前進度，而不需要每一步都由人類反覆下指令。整體互動模式更接近將工作交辦給同事，而非傳統的一問一答。 Cowork延續Claude</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173317</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0113-Cowork-anthropic-2.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 13 Jan 2026 05:00:17 +0000</pubDate>
+      <title>蘋果推出Apple Creator Studio，整合專業創作工具以進軍訂閱制市場</title>
+      <link>https://www.ithome.com.tw/news/173339</link>
+      <description>新聞蘋果周一（1/13）正式發表Apple Creator Studio，這是一套以訂閱形式提供的創作應用程式組合，整合旗下多款專業級影音、音樂與影像工具，並加入AI相關功能與高階內容，試圖降低專業創作工具的使用門檻，擴大創作者生態系。 Apple Creator Studio將在1月28日於App Store上線，月費為12.99美元、年費129美元，並提供一個月免費試用。另針對大專學生與教育人員推出教育方案，月費2.99美元、年費29.99美元，並支援家人共享，最多可供6名家庭成員共用。 在應用內容上，Apple Creator Studio涵蓋Mac與iPad平臺上的Final Cut Pro、Logic Pro與Pixelmator Pro，以及Mac限定的Motion、Compressor與MainStage，並為Keynote、Pages、Numbers，以及未來加入的Freeform提供專屬的智慧功能與高階內容。蘋果也同步保留Mac版應用程式的一次性買斷選項，提供使用者不同的付費選擇。 此次發表的一大亮點，是Pixelmator Pro首度推出iPad版本。該應用程式原本</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173339</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0111-apple-creator-studio-Pixelmator%20Pro.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 14 Jan 2026 05:05:25 +0000</pubDate>
     </item>
     <item>
-      <title>中國駭客濫用VMware ESXi漏洞 可能揭露前一年前就有工具</title>
-      <link>https://www.ithome.com.tw/news/173318</link>
-      <description>新聞資安公司Huntress偵測到中國駭客濫用VMware ESXi 3個漏洞，攻擊活動可能在漏洞揭露前就悄悄展開了。 Huntress在2025年12月偵測到一樁和VMware虛擬化平臺ESXi有關的攻擊行動。在該行動最後一個階段中，攻擊者濫用了VMware去年3月公告並修補的3個ESXi漏洞，分別是CVE-2025-22224（CVSS風險值9.3）、CVE-2025-22225（CVSS風險值8.2）和CVE-2025-22226（CVSS風險值7.1）。成功濫用這些漏洞可讓取得管理員權限的攻擊者從VMX行程洩露記憶體資訊、或是惡意程式從VM沙箱逃逸，而在VMX行程執行。美國資安主管機關CISA則將這些漏洞列為已知遭利用漏洞（KEV）名冊。 Huntress分析12月的入侵指標，追查出攻擊者複雜的活動路徑。他先從一個被駭的SonicWall VPN駭入受害者網路，並取得內部網路權限。攻擊者利用竊得的網域管理員憑證在內部網路橫向移動，包括濫用VMware系統。 分析其濫用VMware的工具套件，當中二進位檔包含一個PDB路徑，發現一個具有簡體中文字串以及特殊訊息的文件夾（「全版本逃</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173318</guid>
-      <pubDate>Tue, 13 Jan 2026 05:17:23 +0000</pubDate>
+      <title>美國正式批准Nvidia出售H200予中國</title>
+      <link>https://www.ithome.com.tw/news/173340</link>
+      <description>新聞美國商務部工業與安全局（Bureau of Industry and Security，BIS）正式發布了《先進運算商品之出口許可審查政策修訂》（Revision to License Review Policy for Advanced Computing Commodities），把出口至中國的先進晶片審查機制從原本的「原則上拒絕」改為「逐案審查」，並即將於1月15日登上《聯邦公報》（Federal Register）。 根據新規定，對於技術指標低於特定門檻的先進運算商品，例如TPP低於21,000且總DRAM頻寬低於6,500GB/s的產品，像是Nvidia H200與AMD MI325X等高階AI晶片，都可透過逐案審查方式申請出口至中國或澳門。 不過，BIS也提出多項放行高階晶片出口的條件，包括出口商必須證明美國境內的相關晶片有充足供應，出口行為不會排擠美國的用量；收貨方亦必須展現足夠的資安與內部控管機制，並承諾晶片不得用於軍事用途。此外，所有要出口的相關晶片，都必須在美國接受獨立的第三方測試，以驗證其實際效能與規格是否符合申報內容。 美國總統川普（Donald Trump</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173340</guid>
+      <pubDate>Wed, 14 Jan 2026 05:17:52 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI收購Torch Health，強化ChatGPT健康資料整合能力</title>
-      <link>https://www.ithome.com.tw/news/173323</link>
-      <description>新聞繼於日前發表ChatGPT Health之後，OpenAI周一（1/12）宣布已買下醫療AI新創Torch Health，準備提供全球用戶一個全新的健康認知與管理方式。根據外電報導，該交易價值1億美元，OpenAI是以股票支付。 尚處測試階段的ChatGPT Health可供不同等級的OpenAI會員使用，相較於一般的聊天功能，ChatGPT Health擁有獨立的聊天空間，不管是對話、檔案或記憶都是隔離的；標榜具備專屬加密機制，且不會用來作為模型訓練資料；有別於尋常聊天偏向廣泛知識與建議，ChatGPT Health刻意降低了自信式的回答，更重視風險與邊界；且ChatGPT Health可連結病歷、穿戴裝置及各種健康App。 2025年創立的Torch Health核心團隊來自於醫療AI公司Forward Health。2016年創立的Forward企圖以科技來革新醫療體驗，目標是結合感測器、行動裝置及AI，讓醫療更可及與個人化，卻在2024年因成本、會員及技術問題而宣告停業；隨後其核心團隊即創立Torch，鎖定整合健康資料，致力將分散在醫院、實驗室、穿戴裝置及消費健康服務的醫療</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173323</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0113-torch%20app%20health.png" length="0" type="image/png"/>
-      <pubDate>Tue, 13 Jan 2026 06:22:57 +0000</pubDate>
+      <title>美國國會電子郵件系統疑似遭中國駭客入侵</title>
+      <link>https://www.ithome.com.tw/news/173335</link>
+      <description>新聞多家媒體報導指出，美國國會幕僚使用的電子郵件系統據報遭中國駭客入侵。這起事件由英國《金融時報（Financial Times）》於1月7日率先披露，隨後《GBHackers》與《路透社（Reuters）》等媒體也相繼跟進報導。 《金融時報》引述多名熟悉調查情況的消息人士指出，中國駭客已成功入侵美國國會幕僚使用的電子郵件系統，受影響的對象，包括隸屬於多個眾議院（House of Representatives）委員會，且在立法上具有高度影響力的幕僚人員。 事實上，美國眾議院委員會通常負責國家安全、預算撥款與科技監管等敏感政策領域，長期以來即是外國情報行動高度關注的目標。而對於相關指控，中國外交部發言人毛寧在例行記者會上否認中國涉案。 美國情報單位過去曾多次指出，中國駭客組織具備執行進階持續性威脅（Advanced Persistent Threat，APT）攻擊的能力，經常鎖定政府與企業網路環境，藉此蒐集立法相關通訊內容、政策討論資料，以及與中國相關計畫的敏感資訊。 此次事件曝光的時間點，也正值美中雙方在科技政策、貿易限制與國家安全議題上持續緊張之際。近年來，美國政府機構逐步公開更多</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173335</guid>
+      <pubDate>Wed, 14 Jan 2026 05:40:48 +0000</pubDate>
     </item>
   </channel>
 </rss>

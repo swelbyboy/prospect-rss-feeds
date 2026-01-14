@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Jan 2026 06:39:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 06:38:48 +0000</lastBuildDate>
     <item>
-      <title>Auto-CPUFreq 3.0 Released To Help You Extend Laptop Battery Life On Linux</title>
-      <link>https://www.phoronix.com/news/Auto-CPUFreq-3.0</link>
-      <description>Auto-CPUFreq 3.0 released this weekend as the newest version of this Linux user-space tool to help you extend your laptop battery life by automatically applying CPU speed and power optimizations. When all goes according to plan, Auto-CPUFreq means extending your battery life without compromises to the user experience...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Auto-CPUFreq-3.0</guid>
-      <pubDate>Mon, 12 Jan 2026 11:01:53 +0000</pubDate>
+      <title>Bcachefs Ships Latest User-Space Utilities With bcachefs-tools 1.35</title>
+      <link>https://www.phoronix.com/news/bcachefs-tools-1.35</link>
+      <description>Kent Overstreet has shipped the latest version of bcachefs-tools, the user-space code complementing the Bcachefs file-system kernel driver. There are a number of improvements present in this latest version with Overstreet remaining committed to advancing Bcachefs even with its current out-of-tree kernel status...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/bcachefs-tools-1.35</guid>
+      <pubDate>Tue, 13 Jan 2026 11:21:01 +0000</pubDate>
     </item>
     <item>
-      <title>LLVM Clang Adds Support For "Ampere1C" CPUs - Presumably AmpereOne Aurora</title>
-      <link>https://www.phoronix.com/news/LLVM-Clang-Ampere1C</link>
-      <description>The LLVM/Clang compiler today introduced support for the Ampere Computing Ampere1C CPU core target...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/LLVM-Clang-Ampere1C</guid>
-      <pubDate>Mon, 12 Jan 2026 11:22:00 +0000</pubDate>
+      <title>FFmpeg Merges A Number Of Vulkan Improvements To Start 2026</title>
+      <link>https://www.phoronix.com/news/FFmpeg-Vulkan-Starts-2026</link>
+      <description>FFmpeg developer Lynne has landed a number of Vulkan-related imporvements to this widely-used open-source multimedia library. Over the past year FFmpeg saw Vulkan shader-based decoding for more video formats, AV1 and VP9 extension work, performance improvements, and other work around Vulkan Video. It will be very exciting to see how FFmpeg delivers in 2026 with Vulkan Video and how the software ecosystem as a whole begins taking up this cross-platform, open industry standard for video encode/dec</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FFmpeg-Vulkan-Starts-2026</guid>
+      <pubDate>Tue, 13 Jan 2026 13:15:00 +0000</pubDate>
     </item>
     <item>
-      <title>LLMinus Working On AI/LLM-Powered Merge Conflict Resolution For The Linux Kernel</title>
-      <link>https://www.phoronix.com/news/LLMinus-RFC-v2</link>
-      <description>Building off an initial request for comments (RFC) patch series posted during the winter holidays, an updated RFC patch series was posted this weekend for LLMinus. LLMinus is an effort led by NVIDIA Linux kernel engineer Sasha Levin to provide a large language model (LLM) assisted merge conflict resolution tool focused on Linux kernel development...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/LLMinus-RFC-v2</guid>
-      <pubDate>Mon, 12 Jan 2026 13:08:57 +0000</pubDate>
+      <title>Debian Libre Live 13.3 Images Released For Avoiding Non-Free Firmware</title>
+      <link>https://www.phoronix.com/news/Debian-Libre-Live-13.3</link>
+      <description>Building off this past weekend's Debian 13.3 release is now Debian Libre Live 13.3 images for this derivative that ships the install/live media without any of the non-free firmware assets to remain a free software blessed image...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Debian-Libre-Live-13.3</guid>
+      <pubDate>Tue, 13 Jan 2026 15:00:07 +0000</pubDate>
     </item>
     <item>
-      <title>Nova Lake &amp;amp; Crescent Island Support Lands In The Intel Graphics Compiler</title>
-      <link>https://www.phoronix.com/news/Intel-IGC-2.27.10-CRI-NVL</link>
-      <description>Released this morning is the Intel Graphics Compiler "IGC" 2.27.10 that comes with initial support for next-generation Nova Lake and Crescent Island Xe3P hardware...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-IGC-2.27.10-CRI-NVL</guid>
-      <pubDate>Mon, 12 Jan 2026 13:25:13 +0000</pubDate>
+      <title>Wine 11.0 Released With Many Improvements For Windows Games &amp;amp; Apps On Linux</title>
+      <link>https://www.phoronix.com/news/Wine-11.0-Released</link>
+      <description>As expected, Wine 11.0 stable was officially released today. This is a big step forward for this open-source software to run Windows games and applications on Linux and other platforms. Wine also serves as the basis for Valve's Steam Play (Proton) that has been critical to the recent successes of Linux gaming...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-11.0-Released</guid>
+      <pubDate>Tue, 13 Jan 2026 16:12:14 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Releases Open3D 0.19 With Experimental Cross-Platform GPU Support Using SYCL</title>
-      <link>https://www.phoronix.com/news/Intel-Open3D-0.19-Released</link>
-      <description>Not to be confused with the Open 3D game engine, Intel's Intelligent Systems Lab Organization released Open3D 0.19 as the latest iteration of this open-source library for 3D data processing in Python and C++...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Open3D-0.19-Released</guid>
-      <pubDate>Mon, 12 Jan 2026 14:19:00 +0000</pubDate>
+      <title>Intel's Fantastic New Open-Source Demonstrator For AMX-BF16: Over 4x The Performance At 69% The Power</title>
+      <link>https://www.phoronix.com/review/intel-oidn-amx-fp16</link>
+      <description>When it comes to software leveraging Intel Advanced Matrix Extensions (AMX) functionality in modern Xeon processors, it's largely been limited to AI applications/libraries like oneDNN, OpenVINO, DeepRec, etc. But Intel now has another great open-source real-world AMX demonstrator with their Open Image Denoise library. This open-source library providing high quality denoising filters for images rendered using ray-tracing can end up benefiting big time from AMX-FP16 found with the newest Xeon 6 "G</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/intel-oidn-amx-fp16</guid>
+      <pubDate>Tue, 13 Jan 2026 16:22:00 +0000</pubDate>
     </item>
     <item>
-      <title>Firefox 147 Now Available With XDG Base Directory Specification Support</title>
-      <link>https://www.phoronix.com/news/Firefox-147-Downloads</link>
-      <description>Firefox 147.0 release binaries have hit the Mozilla servers today as the latest monthly update to this open-source web browser. Firefox 147 is exciting for Linux users in finally delivering XDG Base Directory Specification support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Firefox-147-Downloads</guid>
-      <pubDate>Mon, 12 Jan 2026 14:33:46 +0000</pubDate>
+      <title>KDE Plasma 6.6 Beta Released With Plasma Login Manager, Plasma Setup</title>
+      <link>https://www.phoronix.com/news/KDE-Plasma-6.6-Beta</link>
+      <description>The KDE Plasma 6.6 beta release is available today for helping to test this next iteration of the Plasma 6 desktop...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Plasma-6.6-Beta</guid>
+      <pubDate>Tue, 13 Jan 2026 16:40:00 +0000</pubDate>
     </item>
     <item>
-      <title>Tinygrad 0.12 Released With Mesa NIR/NAK Support</title>
-      <link>https://www.phoronix.com/news/Tinygrad-0.12</link>
-      <description>Tinygrad 0.12 is out today for this deep learning stack led by George Hotz...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Tinygrad-0.12</guid>
-      <pubDate>Mon, 12 Jan 2026 17:35:59 +0000</pubDate>
+      <title>ReactOS Receives Fix For A Very Annoying Usability Issue</title>
+      <link>https://www.phoronix.com/news/ReactOS-Folder-Changes-Refresh</link>
+      <description>ReactOS began 2026 with another "major step" towards Windows NT 6 compatibility with updating its MSVCRT implementation from Wine for the Microsoft C Runtime DLL library. That improved support for a number of Windows applications running on this open-source OS. ReactOS is taking another step-forward now with addressing a very annoying usability issue where up until now you may need to refresh the file manager for seeing folder changes...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ReactOS-Folder-Changes-Refresh</guid>
+      <pubDate>Tue, 13 Jan 2026 19:14:12 +0000</pubDate>
     </item>
     <item>
-      <title>The Surprising Spectre BHI Mitigation Performance Impact On Meteor Lake</title>
-      <link>https://www.phoronix.com/review/spectre-bhi-meteor-lake</link>
-      <description>When recently carrying out performance benchmarks of Intel Meteor Lake performance on Linux since launch day two years ago, the geo mean came in at 93% the original performance. Finding the performance trending clearly lower with an up-to-date Linux software stack compared to in December 2023 was quite surprising considering the rather nice gains we have seen over time on other Intel/AMD hardware. As noted in that article though, one of the possible explanations there is the Spectre BHI "Branch</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/spectre-bhi-meteor-lake</guid>
-      <pubDate>Mon, 12 Jan 2026 18:38:02 +0000</pubDate>
+      <title>JPEG-XL Image Support Returns To Latest Chrome / Chromium Code</title>
+      <link>https://www.phoronix.com/news/JPEG-XL-Returns-Chrome-Chromium</link>
+      <description>To the frustration of many developers and end-users, back in 2022 Google deprecated JPEG-XL support in Chrome/Chromium and proceeded to remove the support. That decision was widely slammed and ultimately Google said they may end up reconsidering it. In November there was renewed activity and interest in restoring JPEG-XL within Google's image web browser and as of yesterday the code was merged...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/JPEG-XL-Returns-Chrome-Chromium</guid>
+      <pubDate>Tue, 13 Jan 2026 19:38:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wine 11.0 Planned For Release Tomorrow With NTSync Support, Better WoW64</title>
-      <link>https://www.phoronix.com/news/Wine-11.0-Tomorrow</link>
-      <description>Wine project leader Alexandre Julliard relayed on the mailing list today that the plan is to release Wine 11.0 stable tomorrow, 13 January...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-11.0-Tomorrow</guid>
-      <pubDate>Mon, 12 Jan 2026 20:57:50 +0000</pubDate>
+      <title>Hangover 11.0 Released: Wine + FEX/Box64 Pairing For Windows x86 Apps On ARM64 Linux</title>
+      <link>https://www.phoronix.com/news/Hangover-11.0-Released</link>
+      <description>Building off today's release of Wine 11.0 for enabling countless Windows applications and games to run well under Linux and being the basis of Valve's Proton for Steam Play, Hangover 11.0 is now available. Hangover is the open-source project that pairs Wine with either the FEX-Emu or Box64 emulators for enabling x86 32-bit and 64-bit Windows games/apps to run on native ARM64 Linux systems...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Hangover-11.0-Released</guid>
+      <pubDate>Wed, 14 Jan 2026 01:22:16 +0000</pubDate>
     </item>
     <item>
-      <title>GCC 16 Compiler Steps Closer To Release With Algol 68 Frontend, AMD Zen 6, C++20 Default</title>
-      <link>https://www.phoronix.com/news/GCC-16-Stage-4-Development</link>
-      <description>GCC 16 as this year's major feature release of the GNU Compiler Collection should be out in the typical March~April timeframe if all goes well. Today the GCC 16 compiler transitioned to its final stage "stage 4" of development with a focus exclusively on documentation and regression fixing...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GCC-16-Stage-4-Development</guid>
-      <pubDate>Tue, 13 Jan 2026 01:06:21 +0000</pubDate>
+      <title>ZLUDA Boasts Full Llama.cpp Support, Better Windows Handling For CUDA On Non-NVIDIA GPUs</title>
+      <link>https://www.phoronix.com/news/ZLUDA-Q4-2025-Report</link>
+      <description>The open-source ZLUDA project for bringing CUDA to non-NVIDIA hardware that can run unmodified is out with a new progress report. ZLUDA had a productive fourth quarter with now enjoying better Microsoft Windows support, full support for running Llama.cpp atop ZLUDA, AMD ROCm 7 support, and other enhancements...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ZLUDA-Q4-2025-Report</guid>
+      <pubDate>Wed, 14 Jan 2026 01:39:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
