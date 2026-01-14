@@ -8,81 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Jan 2026 06:38:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Jan 2026 06:38:37 +0000</lastBuildDate>
     <item>
-      <title>The Buy Button Is the Slowest Part of Most E Commerce Sites</title>
-      <link>https://dev.to/ar_abid_641aa302d5c68b2ae/the-buy-button-is-the-slowest-part-of-most-e-commerce-sites-3bco</link>
-      <description>Most e-commerce teams spend months optimizing page load speed. Images are compressed. Bundles are split. Lighthouse scores look great. And yet, the most important interaction on the site — the Buy button — is often the slowest experience users encounter. This is not a backend problem. It’s an interaction design and architecture problem. What Actually Happens When a User Clicks Buy From the user’s point of view, clicking Buy should feel instant. From the system’s point of view, it triggers a long</description>
-      <guid isPermaLink="false">https://dev.to/ar_abid_641aa302d5c68b2ae/the-buy-button-is-the-slowest-part-of-most-e-commerce-sites-3bco</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzpi5jwbiunbfk6d2ubnq.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 13 Jan 2026 05:34:17 +0000</pubDate>
+      <title>Why I built my own portfolio template</title>
+      <link>https://dev.to/aishwarya_sk/why-i-built-my-own-portfolio-template-j42</link>
+      <description>I’ve reviewed a lot of developer portfolios recently — including my own old one — and I noticed the same issues again and again: cluttered UI too many colors and gradients animations that distract instead of guide project cards with zero context slow Lighthouse scores painful mobile experience Most portfolios end up being: “Here are some GitHub links and a big hero headline” But a portfolio is supposed to: communicate your role show real outcomes, not just tech stack tell a short story make it s</description>
+      <guid isPermaLink="false">https://dev.to/aishwarya_sk/why-i-built-my-own-portfolio-template-j42</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fogr55jjpervucs1gbpa1.png" length="0" type="image/png"/>
+      <pubDate>Wed, 14 Jan 2026 05:52:06 +0000</pubDate>
     </item>
     <item>
-      <title>Building a LinkedIn Outreach Agent with ConnectSafely.ai and Mastra</title>
-      <link>https://dev.to/amaan_sarfaraz_15f8675671/building-a-linkedin-outreach-agent-with-connectsafelyai-and-mastra-51lh</link>
-      <description>A deep dive into building production-ready LinkedIn automation using deterministic agents, clean tool abstractions, and API-first architecture Built a LinkedIn job search automation agent that finds jobs, identifies hiring managers, and sends connection requests—without scraping, browser automation, or getting banned. Stack: 🤖 Mastra (agent orchestration) 🔗 ConnectSafely.ai (LinkedIn API) ⚡ TypeScript + Bun Key principle: Agents orchestrate, APIs execute, tools stay dumb. Full code on GitHub 👈 T</description>
-      <guid isPermaLink="false">https://dev.to/amaan_sarfaraz_15f8675671/building-a-linkedin-outreach-agent-with-connectsafelyai-and-mastra-51lh</guid>
-      <pubDate>Tue, 13 Jan 2026 05:34:32 +0000</pubDate>
+      <title>BMAD: The Agile Framework That Makes AI Actually Predictable</title>
+      <link>https://dev.to/extinctsion/bmad-the-agile-framework-that-makes-ai-actually-predictable-5fe7</link>
+      <description>Introduction Vibe coding with an AI feels a bit like throwing spaghetti at the wall, sometimes something sticks, other times you end up untangling a bigger mess than you started with. You chat, iterate, shrug, and then spend hours debugging an AI hallucination that looked perfect three prompts ago. Enter BMAD: the Breakthrough Method for Agile AI-Driven Development. BMAD isn't another plugin or magic prompt but it's a lightweight, team-shaped framework that gives your AI collaboration structure,</description>
+      <guid isPermaLink="false">https://dev.to/extinctsion/bmad-the-agile-framework-that-makes-ai-actually-predictable-5fe7</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbjesqfzf8cmroshbtvn8.gif" length="0" type="image/gif"/>
+      <pubDate>Wed, 14 Jan 2026 05:58:51 +0000</pubDate>
     </item>
     <item>
-      <title>AZ-104 Azure Administrator Cheat Sheet – 2026 Exam Notes</title>
-      <link>https://dev.to/bren67/az-104-azure-administrator-cheat-sheet-2026-exam-notes-4gkh</link>
-      <description>The Microsoft Azure Administrator (AZ-104) is the gold standard for cloud admins. It’s not just about clicking buttons in the portal; it’s about understanding governance, networking logic, and troubleshooting. If you are preparing for this exam, this deep-dive cheat sheet covers the critical concepts, specific SKU limits, and configuration "gotchas" you need to know. 🆔 1. Identity &amp;amp; Governance (Azure AD / Entra ID) The security perimeter is no longer the firewall; it's Identity. Users &amp;amp; Groups D</description>
-      <guid isPermaLink="false">https://dev.to/bren67/az-104-azure-administrator-cheat-sheet-2026-exam-notes-4gkh</guid>
-      <pubDate>Tue, 13 Jan 2026 05:38:18 +0000</pubDate>
+      <title>Inside Dark Web Monitoring: How Data Leaks Are Identified Responsibly</title>
+      <link>https://dev.to/kumaraditya7/inside-dark-web-monitoring-how-data-leaks-are-identified-responsibly-4l57</link>
+      <description>Understanding Dark Web Leak Monitoring (Reality vs Myth) When people hear “dark web monitoring”, they often assume hacking, buying databases, or digging through stolen data. In real-world defensive security work, none of that happens. Practically, dark web monitoring is threat watching and signal analysis. Security researchers treat the dark web as one more intelligence surface—similar to Twitter, Telegram, GitHub, or paste sites—where threat actors publicly announce what they claim to have. The</description>
+      <guid isPermaLink="false">https://dev.to/kumaraditya7/inside-dark-web-monitoring-how-data-leaks-are-identified-responsibly-4l57</guid>
+      <pubDate>Wed, 14 Jan 2026 06:02:01 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Production-Ready Portfolio: Phase-2 — Frontend Bootstrapping &amp;amp; Architecture Setup</title>
-      <link>https://dev.to/imsushant12/building-a-production-ready-portfolio-phase-2-frontend-bootstrapping-architecture-setup-2hc0</link>
-      <description>With infrastructure ready and requirements clearly defined, it was finally time to write code. However, instead of jumping straight into UI components, this phase focused on establishing a frontend foundation that could scale, evolve, and remain maintainable. 🔗 Project Repository: https://github.com/imsushant12/sushantgaurav-portfolio Why Frontend Setup Deserves Its Own Phase After completing: Phase-0: Infrastructure &amp;amp; workflows Phase-1: Requirement gathering &amp;amp; PRD I had something most side proj</description>
-      <guid isPermaLink="false">https://dev.to/imsushant12/building-a-production-ready-portfolio-phase-2-frontend-bootstrapping-architecture-setup-2hc0</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fip7di5ruo5cnxi4426nz.png" length="0" type="image/png"/>
-      <pubDate>Tue, 13 Jan 2026 05:41:00 +0000</pubDate>
+      <title>The iOS Safari Full-Height Video Fix That Actually Works (After 4 Hours of Everything That Doesn't)</title>
+      <link>https://dev.to/petermcclung/the-ios-safari-full-height-video-fix-that-actually-works-after-4-hours-of-everything-that-doesnt-1iim</link>
+      <description>If you've tried to make a full-screen hero video work on iOS Safari, you've probably spent hours reading the same recycled advice that doesn't actually solve the problem. I just burned an afternoon on this, so let me save you the pain. The problem: You want a background video that fills the entire screen on an iPhone. The bottom keeps getting cut off, or there's a gap, or the content below the fold is hidden behind Safari's toolbar. You Google it. You find 50 articles. None of them work. What th</description>
+      <guid isPermaLink="false">https://dev.to/petermcclung/the-ios-safari-full-height-video-fix-that-actually-works-after-4-hours-of-everything-that-doesnt-1iim</guid>
+      <pubDate>Wed, 14 Jan 2026 06:05:31 +0000</pubDate>
     </item>
     <item>
-      <title>Git for Beginners: Basics and Essential Commands</title>
-      <link>https://dev.to/anoop-rajoriya/git-for-beginners-basics-and-essential-commands-4ah2</link>
-      <description>What is Git? Git is an open-source Distributed Version Control System (DVCS). Created in 2005 by Linus Torvalds (the creator of Linux), it was built to handle massive projects with high speed and efficiency. Why do you need it? In simple terms, Git is a "time machine" for your project. Developers use it to: Track Changes: See exactly what was changed, when, and by whom. Collaborate: Work on the same codebase with multiple people simultaneously. Manage History: Revert back to a previous version i</description>
-      <guid isPermaLink="false">https://dev.to/anoop-rajoriya/git-for-beginners-basics-and-essential-commands-4ah2</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fg9awjjbmdax4gxyfym6w.png" length="0" type="image/png"/>
-      <pubDate>Tue, 13 Jan 2026 05:41:59 +0000</pubDate>
+      <title>Headless vs. Real Browser Testing: The Strategic Guide for Modern QA Teams</title>
+      <link>https://dev.to/matt_calder_e620d84cf0c14/headless-vs-real-browser-testing-the-strategic-guide-for-modern-qa-teams-ea4</link>
+      <description>In the fast-paced world of software development, the choice between headless and real browser testing is more than a technical decision - it's a strategic one that impacts your release velocity, product quality, and team efficiency. Each method serves a distinct purpose in the testing lifecycle, and understanding their nuanced strengths and limitations is crucial for any QA professional or development lead. Drawing from years of scaling automated testing frameworks, I've seen teams thrive by str</description>
+      <guid isPermaLink="false">https://dev.to/matt_calder_e620d84cf0c14/headless-vs-real-browser-testing-the-strategic-guide-for-modern-qa-teams-ea4</guid>
+      <pubDate>Wed, 14 Jan 2026 06:08:33 +0000</pubDate>
     </item>
     <item>
-      <title>Quantum Doomsday Delayed (Again): Why the Latest Panic Over Post-Quantum Cryptography Feels Familiar</title>
-      <link>https://dev.to/zerotrustzeroenergy/quantum-doomsday-delayed-again-why-the-latest-panic-over-post-quantum-cryptography-feels-familiar-3pin</link>
-      <description>This All Sounds Familiar Seven years ago, I wrote my first master's thesis on the exact topic that's dominating security headlines today: the threat quantum computing poses to classical encryption. I spent months dissecting Shor's algorithm, modeling how a sufficiently powerful quantum system could reduce RSA and elliptic-curve cryptography to rubble. My conclusion at the time? The threat is real, but the timeline is long, and the migration will be an absolute nightmare. Here we are in 2026, and</description>
-      <guid isPermaLink="false">https://dev.to/zerotrustzeroenergy/quantum-doomsday-delayed-again-why-the-latest-panic-over-post-quantum-cryptography-feels-familiar-3pin</guid>
-      <pubDate>Tue, 13 Jan 2026 05:48:10 +0000</pubDate>
+      <title>Inside Git: How It Works and the Role of the .git Folder</title>
+      <link>https://dev.to/anoop-rajoriya/inside-git-how-it-works-and-the-role-of-the-git-folder-3d2b</link>
+      <description>For many developers, Git feels like a magical incantation. We type git add . followed by git commit -m "fixed stuff", push it to a remote server, and hope for the best. When it works, it’s fantastic. When it breaks, it feels like trying to defuse a bomb while blindfolded. The key to moving from blind memorization to true mastery lies in understanding what happens beneath the surface. Git isn't just a list of commands; it is a beautifully designed system for managing information. By peeling back</description>
+      <guid isPermaLink="false">https://dev.to/anoop-rajoriya/inside-git-how-it-works-and-the-role-of-the-git-folder-3d2b</guid>
+      <pubDate>Wed, 14 Jan 2026 06:09:29 +0000</pubDate>
     </item>
     <item>
-      <title>How I Built a Zero-Dependency Technical Research Blog with Just HTML, CSS, and Markdown</title>
-      <link>https://dev.to/quochuydev/how-i-built-a-zero-dependency-technical-research-blog-with-just-html-css-and-markdown-kc2</link>
-      <description>Ever find yourself drowning in bookmarks, scattered notes, and half-finished documentation about technologies you're researching? I did too—until I built something simpler. The Problem Technical notes scattered across Notion, Google Docs, and random markdown files No central place to organize research on new technologies and platforms Setting up a blog feels like overkill—why do I need a database for markdown? Want to share knowledge but don't want to maintain complex infrastructure Diagrams and</description>
-      <guid isPermaLink="false">https://dev.to/quochuydev/how-i-built-a-zero-dependency-technical-research-blog-with-just-html-css-and-markdown-kc2</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwqueq5mflq1pfpjo76cg.png" length="0" type="image/png"/>
-      <pubDate>Tue, 13 Jan 2026 06:00:35 +0000</pubDate>
+      <title>The Ultimate Guide to Shopify Cart Debugging: How to Save Hours with Shopify Theme Devtools Cart Panel</title>
+      <link>https://dev.to/yakohere/the-ultimate-guide-to-shopify-cart-debugging-how-to-save-hours-with-shopify-theme-devtools-cart-1f70</link>
+      <description>TL;DR: Stop console.logging your cart state. Shopify Theme Devtools gives you a visual cart inspector, history tracking, test automation, and scenario management—all in your browser while developing themes. Introduction: Why Cart Debugging is Painful If you've developed Shopify themes, you know the pain: Manually adding products to test cart states Using console.log({{ cart | json }}) to debug Rebuilding complex carts after every page refresh No way to test edge cases like gift-with-purchase ite</description>
+      <guid isPermaLink="false">https://dev.to/yakohere/the-ultimate-guide-to-shopify-cart-debugging-how-to-save-hours-with-shopify-theme-devtools-cart-1f70</guid>
+      <pubDate>Wed, 14 Jan 2026 06:12:54 +0000</pubDate>
     </item>
     <item>
-      <title>WJb Solution Alive Samples – Minimal &amp;amp; Powerful Job Scheduling in .NET</title>
-      <link>https://dev.to/ukrguru/wjb-solution-alive-samples-minimal-powerful-job-scheduling-in-net-1cpc</link>
-      <description>🚀 WJb Solution Alive Samples – Minimal &amp;amp; Powerful Job Scheduling in .NET If you’re exploring job scheduling, queues, and background processing in .NET, the WJb package offers a clean and extensible approach. We’ve curated a set of alive samples to help you get started quickly. ✅ Why WJb? Lightweight and focused on job orchestration. SQL-backed queues with full lifecycle logging. Easy integration with .NET Worker, Blazor, MVC, and more. ✅ Solution Alive Samples Basics (Getting Started) 1stWJb – M</description>
-      <guid isPermaLink="false">https://dev.to/ukrguru/wjb-solution-alive-samples-minimal-powerful-job-scheduling-in-net-1cpc</guid>
-      <pubDate>Tue, 13 Jan 2026 06:21:47 +0000</pubDate>
+      <title>CES 2026: My top 5 picks!</title>
+      <link>https://dev.to/jigyasagrover/ces-2026-my-top-5-picks-lf4</link>
+      <description>#ces #ces2026 #techtrends | Jigyasa Grover CES 2026 just wrapped up ... and I can't stop thinking about how the timeline between "impossible" →← "shipping next quarter" is just collapsing! Here are the top 5 things that caught my fancy 🤩 • the LEGO Group bricks that react to how you play with them. Chips smaller than a stud + built-in sensors. Swing a lightsaber &amp;amp; it hums in real-time. No app, no screen. Just intelligent physical play. • Paper batteries already in production w Logitech &amp;amp; Amazon.</description>
+      <guid isPermaLink="false">https://dev.to/jigyasagrover/ces-2026-my-top-5-picks-lf4</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2Fv2%2FD5622AQEYgcr05Gjpew%2Ffeedshare-shrink_800%2FB56Zu5IGiCIQAg-%2F0%2F1768337467809%3Fe%3D2147483647%26v%3Dbeta%26t%3D3vJ8_ZJ39JEuEo4ic3grq3IADNr-2rUabEmqA7scZRk" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 14 Jan 2026 06:13:02 +0000</pubDate>
     </item>
     <item>
-      <title>Ask Our AI Experts: An AMA With Our Tech Leads</title>
-      <link>https://dev.to/capestart/ask-our-ai-experts-an-ama-with-our-tech-leads-2cn6</link>
-      <description>Q1: What Are the Most Common Mistakes Companies Make When Starting an AI Project? While the promise of artificial intelligence is immense, its successful implementation depends on avoiding several common mistakes that can cause a project to fail from the start. Vague or Misaligned Objectives: Often, projects fail when business objectives and AI deliverables are not closely aligned. Underestimating Data Challenges: Insufficient or poor-quality data is a leading cause of project failure. Rigorous</description>
-      <guid isPermaLink="false">https://dev.to/capestart/ask-our-ai-experts-an-ama-with-our-tech-leads-2cn6</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fykkkfh5ypx6ut3yi7jtz.png" length="0" type="image/png"/>
-      <pubDate>Tue, 13 Jan 2026 06:24:09 +0000</pubDate>
+      <title>Understanding the RAM Model of Computation</title>
+      <link>https://dev.to/ali_algmass/understanding-the-ram-model-of-computation-224p</link>
+      <description>Ever wondered how computer scientists analyze algorithms without worrying about whether you're running on an M1 Mac, an Intel server, or a Raspberry Pi? The answer lies in the Random Access Machine (RAM) model—a theoretical framework that abstracts away hardware details while still giving us accurate predictions about algorithm performance. What is the RAM Model? The Random Access Machine is an idealized model of how computers work. Think of it as a simplified blueprint that captures the essenti</description>
+      <guid isPermaLink="false">https://dev.to/ali_algmass/understanding-the-ram-model-of-computation-224p</guid>
+      <pubDate>Wed, 14 Jan 2026 06:21:25 +0000</pubDate>
     </item>
     <item>
-      <title>In-Memory Databases Are Overrated — Here’s What Actually Matters for Speed"</title>
-      <link>https://dev.to/esproc_spl/in-memory-databases-are-overrated-heres-what-actually-matters-for-speed-3ho1</link>
-      <description>It is easy to think about using an in-memory database to solve the performance problem of reporting, BI analysis, batch processing, and other data analysis tasks. An in-memory database allows storing all data permanently in the memory so that the computation external memory accesses (disk reads) are not needed, disk I/O can be avoided and data processing performance can be effectively improved. In-memory databases are advertised to have high performance and be able to solve many performance prob</description>
-      <guid isPermaLink="false">https://dev.to/esproc_spl/in-memory-databases-are-overrated-heres-what-actually-matters-for-speed-3ho1</guid>
-      <pubDate>Tue, 13 Jan 2026 06:24:32 +0000</pubDate>
+      <title>Claude Code Plugin CLI: The Missing Manual</title>
+      <link>https://dev.to/garyj/claude-code-plugin-cli-the-missing-manual-40nf</link>
+      <description>Claude Code for me is like a best friend at work, I use it in my daily coding work, and non coding tasks, like sorting supplier invoices, summarizing account payables, though I always verify its output, the productivity gains are huge. More and more I find myself relying on Claude Code plugins (skills, hooks, commands, etc). Commonly, I would write these myself partly as a learning exercise as it gets you thinking about the underlying mechanics of Claude Code, but also because I have specific ne</description>
+      <guid isPermaLink="false">https://dev.to/garyj/claude-code-plugin-cli-the-missing-manual-40nf</guid>
+      <pubDate>Wed, 14 Jan 2026 06:25:51 +0000</pubDate>
     </item>
   </channel>
 </rss>
