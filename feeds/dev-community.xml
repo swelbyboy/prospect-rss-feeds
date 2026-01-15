@@ -8,79 +8,81 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Jan 2026 06:38:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 06:38:37 +0000</lastBuildDate>
     <item>
-      <title>Why I built my own portfolio template</title>
-      <link>https://dev.to/aishwarya_sk/why-i-built-my-own-portfolio-template-j42</link>
-      <description>I’ve reviewed a lot of developer portfolios recently — including my own old one — and I noticed the same issues again and again: cluttered UI too many colors and gradients animations that distract instead of guide project cards with zero context slow Lighthouse scores painful mobile experience Most portfolios end up being: “Here are some GitHub links and a big hero headline” But a portfolio is supposed to: communicate your role show real outcomes, not just tech stack tell a short story make it s</description>
-      <guid isPermaLink="false">https://dev.to/aishwarya_sk/why-i-built-my-own-portfolio-template-j42</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fogr55jjpervucs1gbpa1.png" length="0" type="image/png"/>
-      <pubDate>Wed, 14 Jan 2026 05:52:06 +0000</pubDate>
+      <title>When Birthday Photography Becomes a Template — and Why AI Feels Like an Alternative</title>
+      <link>https://dev.to/zoeyy-hu/when-birthday-photography-becomes-a-template-and-why-ai-feels-like-an-alternative-4j2l</link>
+      <description>In many Chinese shopping malls, birthday photography has quietly become a standardized product. Small studios offer preset birthday shoots at around 300 RMB, usually delivering a single edited image with no raw files. Objectively, the price is not cost-effective — one photo, limited choice, no ownership of the originals — but the amount is just low enough to blur that judgment. It feels affordable, even trivial, which makes people less likely to question the value. What customers end up buying i</description>
+      <guid isPermaLink="false">https://dev.to/zoeyy-hu/when-birthday-photography-becomes-a-template-and-why-ai-feels-like-an-alternative-4j2l</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fno3f8v34vb1hqt2hqqk8.png" length="0" type="image/png"/>
+      <pubDate>Thu, 15 Jan 2026 05:48:33 +0000</pubDate>
     </item>
     <item>
-      <title>BMAD: The Agile Framework That Makes AI Actually Predictable</title>
-      <link>https://dev.to/extinctsion/bmad-the-agile-framework-that-makes-ai-actually-predictable-5fe7</link>
-      <description>Introduction Vibe coding with an AI feels a bit like throwing spaghetti at the wall, sometimes something sticks, other times you end up untangling a bigger mess than you started with. You chat, iterate, shrug, and then spend hours debugging an AI hallucination that looked perfect three prompts ago. Enter BMAD: the Breakthrough Method for Agile AI-Driven Development. BMAD isn't another plugin or magic prompt but it's a lightweight, team-shaped framework that gives your AI collaboration structure,</description>
-      <guid isPermaLink="false">https://dev.to/extinctsion/bmad-the-agile-framework-that-makes-ai-actually-predictable-5fe7</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbjesqfzf8cmroshbtvn8.gif" length="0" type="image/gif"/>
-      <pubDate>Wed, 14 Jan 2026 05:58:51 +0000</pubDate>
+      <title>Seamless Integration of Google Workspace and Gemini API via External URLs</title>
+      <link>https://dev.to/gde/seamless-integration-of-google-workspace-and-gemini-api-via-external-urls-4he</link>
+      <description>Abstract The Gemini API now supports external file URLs, allowing developers to process data directly without uploading it first. This article demonstrates how to leverage this update to integrate Google Workspace resources—including Google Sheets, Docs, Slides, and Apps Script—into Gemini’s workflow, covering both public and secure private access methods. Introduction Recently, the limitations regarding inline file data in the Gemini API have been significantly updated Ref. The maximum file siz</description>
+      <guid isPermaLink="false">https://dev.to/gde/seamless-integration-of-google-workspace-and-gemini-api-via-external-urls-4he</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpxxj7ht1s9chmx576qp8.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 15 Jan 2026 05:54:58 +0000</pubDate>
     </item>
     <item>
-      <title>Inside Dark Web Monitoring: How Data Leaks Are Identified Responsibly</title>
-      <link>https://dev.to/kumaraditya7/inside-dark-web-monitoring-how-data-leaks-are-identified-responsibly-4l57</link>
-      <description>Understanding Dark Web Leak Monitoring (Reality vs Myth) When people hear “dark web monitoring”, they often assume hacking, buying databases, or digging through stolen data. In real-world defensive security work, none of that happens. Practically, dark web monitoring is threat watching and signal analysis. Security researchers treat the dark web as one more intelligence surface—similar to Twitter, Telegram, GitHub, or paste sites—where threat actors publicly announce what they claim to have. The</description>
-      <guid isPermaLink="false">https://dev.to/kumaraditya7/inside-dark-web-monitoring-how-data-leaks-are-identified-responsibly-4l57</guid>
-      <pubDate>Wed, 14 Jan 2026 06:02:01 +0000</pubDate>
+      <title>A Gradual Approach to React Folder Structure: From Package by Feature to Clean Architecture</title>
+      <link>https://dev.to/usapopopooon/a-gradual-approach-to-react-folder-structure-from-package-by-feature-to-clean-architecture-e44</link>
+      <description>This article is based on my personal experience and interpretation. The approach I'm sharing isn't the only correct answer, and my understanding of each architecture pattern may differ from the official definitions. I hope you'll read this as just one perspective among many. Introduction I've struggled with React project folder structure for a long time. React, being a UI library, offers immense flexibility in how we structure our projects. However, this freedom often leads to a common dilemma:</description>
+      <guid isPermaLink="false">https://dev.to/usapopopooon/a-gradual-approach-to-react-folder-structure-from-package-by-feature-to-clean-architecture-e44</guid>
+      <pubDate>Thu, 15 Jan 2026 06:03:30 +0000</pubDate>
     </item>
     <item>
-      <title>The iOS Safari Full-Height Video Fix That Actually Works (After 4 Hours of Everything That Doesn't)</title>
-      <link>https://dev.to/petermcclung/the-ios-safari-full-height-video-fix-that-actually-works-after-4-hours-of-everything-that-doesnt-1iim</link>
-      <description>If you've tried to make a full-screen hero video work on iOS Safari, you've probably spent hours reading the same recycled advice that doesn't actually solve the problem. I just burned an afternoon on this, so let me save you the pain. The problem: You want a background video that fills the entire screen on an iPhone. The bottom keeps getting cut off, or there's a gap, or the content below the fold is hidden behind Safari's toolbar. You Google it. You find 50 articles. None of them work. What th</description>
-      <guid isPermaLink="false">https://dev.to/petermcclung/the-ios-safari-full-height-video-fix-that-actually-works-after-4-hours-of-everything-that-doesnt-1iim</guid>
-      <pubDate>Wed, 14 Jan 2026 06:05:31 +0000</pubDate>
+      <title>🚀 BlazorWJb: Integrating Worker Jobs with Blazor Server App</title>
+      <link>https://dev.to/ukrguru/blazorwjb-integrating-worker-jobs-with-blazor-server-app-4ebj</link>
+      <description>🚀 BlazorWJb: Integrating Worker Jobs with Blazor Server This article demonstrates how to integrate https://github.com/UkrGuru/WJb (Worker Jobs) with a Blazor Server application. The sample provides a simple UI for managing actions and viewing logs in real time. ✅ Why UkrGuru.WJb? UkrGuru.WJb is a lightweight job scheduling and processing library for .NET. It allows you to: Schedule jobs using CRON expressions Execute custom actions asynchronously Log execution details for monitoring and debuggin</description>
+      <guid isPermaLink="false">https://dev.to/ukrguru/blazorwjb-integrating-worker-jobs-with-blazor-server-app-4ebj</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6a26cpastcgpf9dpr4j4.png" length="0" type="image/png"/>
+      <pubDate>Thu, 15 Jan 2026 06:03:31 +0000</pubDate>
     </item>
     <item>
-      <title>Headless vs. Real Browser Testing: The Strategic Guide for Modern QA Teams</title>
-      <link>https://dev.to/matt_calder_e620d84cf0c14/headless-vs-real-browser-testing-the-strategic-guide-for-modern-qa-teams-ea4</link>
-      <description>In the fast-paced world of software development, the choice between headless and real browser testing is more than a technical decision - it's a strategic one that impacts your release velocity, product quality, and team efficiency. Each method serves a distinct purpose in the testing lifecycle, and understanding their nuanced strengths and limitations is crucial for any QA professional or development lead. Drawing from years of scaling automated testing frameworks, I've seen teams thrive by str</description>
-      <guid isPermaLink="false">https://dev.to/matt_calder_e620d84cf0c14/headless-vs-real-browser-testing-the-strategic-guide-for-modern-qa-teams-ea4</guid>
-      <pubDate>Wed, 14 Jan 2026 06:08:33 +0000</pubDate>
+      <title>Your Cloud Database is a Security Theater</title>
+      <link>https://dev.to/ryo_suwito/your-cloud-database-is-a-security-theater-28a5</link>
+      <description>Multi-tenant SaaS storage is broken. Not "needs improvement" broken—fundamentally compromised at the architectural level. The industry sold you row-level security, tenant IDs in every query, and database encryption at rest. Meanwhile, a single SQL injection or privilege escalation exposes EVERYONE's data. One breach, thousands of victims. This isn't security—it's a ticking time bomb with better marketing. BSFS (Block Storage File System) takes a different approach: cryptographic isolation at the</description>
+      <guid isPermaLink="false">https://dev.to/ryo_suwito/your-cloud-database-is-a-security-theater-28a5</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgqjr50bq1717za22my2f.png" length="0" type="image/png"/>
+      <pubDate>Thu, 15 Jan 2026 06:03:36 +0000</pubDate>
     </item>
     <item>
-      <title>Inside Git: How It Works and the Role of the .git Folder</title>
-      <link>https://dev.to/anoop-rajoriya/inside-git-how-it-works-and-the-role-of-the-git-folder-3d2b</link>
-      <description>For many developers, Git feels like a magical incantation. We type git add . followed by git commit -m "fixed stuff", push it to a remote server, and hope for the best. When it works, it’s fantastic. When it breaks, it feels like trying to defuse a bomb while blindfolded. The key to moving from blind memorization to true mastery lies in understanding what happens beneath the surface. Git isn't just a list of commands; it is a beautifully designed system for managing information. By peeling back</description>
-      <guid isPermaLink="false">https://dev.to/anoop-rajoriya/inside-git-how-it-works-and-the-role-of-the-git-folder-3d2b</guid>
-      <pubDate>Wed, 14 Jan 2026 06:09:29 +0000</pubDate>
+      <title>Make your app crash at startup, not in production</title>
+      <link>https://dev.to/chintanshah35/make-your-app-crash-at-startup-not-in-production-45je</link>
+      <description>2am. Slack notification. Production app is down. The error? Cannot read property 'split' of undefined Turns out ALLOWED_ORIGINS wasn't set in production. The app started fine. Health checks passed. Then the first CORS request came in and crashed the server. Or that time STRIPE_SECRET_KEY had a trailing space from copy-paste. App started. First payment request? Failed. Took 30 minutes to figure out. Or when someone set ENABLE_CACHING=false as a string, but the code checked if (config.ENABLE_CACHI</description>
+      <guid isPermaLink="false">https://dev.to/chintanshah35/make-your-app-crash-at-startup-not-in-production-45je</guid>
+      <pubDate>Thu, 15 Jan 2026 06:13:30 +0000</pubDate>
     </item>
     <item>
-      <title>The Ultimate Guide to Shopify Cart Debugging: How to Save Hours with Shopify Theme Devtools Cart Panel</title>
-      <link>https://dev.to/yakohere/the-ultimate-guide-to-shopify-cart-debugging-how-to-save-hours-with-shopify-theme-devtools-cart-1f70</link>
-      <description>TL;DR: Stop console.logging your cart state. Shopify Theme Devtools gives you a visual cart inspector, history tracking, test automation, and scenario management—all in your browser while developing themes. Introduction: Why Cart Debugging is Painful If you've developed Shopify themes, you know the pain: Manually adding products to test cart states Using console.log({{ cart | json }}) to debug Rebuilding complex carts after every page refresh No way to test edge cases like gift-with-purchase ite</description>
-      <guid isPermaLink="false">https://dev.to/yakohere/the-ultimate-guide-to-shopify-cart-debugging-how-to-save-hours-with-shopify-theme-devtools-cart-1f70</guid>
-      <pubDate>Wed, 14 Jan 2026 06:12:54 +0000</pubDate>
+      <title>The Cloud Exit Strategy: How to Run a Production SaaS for $5/Month</title>
+      <link>https://dev.to/the_nortern_dev/the-cloud-exit-strategy-how-to-run-a-production-saas-for-5month-51fi</link>
+      <description>We have normalized paying $100/month for infrastructure before acquiring a single customer. It is time to return to the $5 VPS. Here is the architecture. We need to talk about the cost of "Modern Web Development." If you follow the standard tutorial for building a SaaS in 2026, your bill looks something like this on Day 1: **Hosting (Vercel/Netlify): $20/month per seat Database (Supabase/Neon): $25/month (once you hit the first limit) Auth (Clerk/Auth0): Free tier, then expensive quickly Redis (</description>
+      <guid isPermaLink="false">https://dev.to/the_nortern_dev/the-cloud-exit-strategy-how-to-run-a-production-saas-for-5month-51fi</guid>
+      <pubDate>Thu, 15 Jan 2026 06:20:54 +0000</pubDate>
     </item>
     <item>
-      <title>CES 2026: My top 5 picks!</title>
-      <link>https://dev.to/jigyasagrover/ces-2026-my-top-5-picks-lf4</link>
-      <description>#ces #ces2026 #techtrends | Jigyasa Grover CES 2026 just wrapped up ... and I can't stop thinking about how the timeline between "impossible" →← "shipping next quarter" is just collapsing! Here are the top 5 things that caught my fancy 🤩 • the LEGO Group bricks that react to how you play with them. Chips smaller than a stud + built-in sensors. Swing a lightsaber &amp;amp; it hums in real-time. No app, no screen. Just intelligent physical play. • Paper batteries already in production w Logitech &amp;amp; Amazon.</description>
-      <guid isPermaLink="false">https://dev.to/jigyasagrover/ces-2026-my-top-5-picks-lf4</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2Fv2%2FD5622AQEYgcr05Gjpew%2Ffeedshare-shrink_800%2FB56Zu5IGiCIQAg-%2F0%2F1768337467809%3Fe%3D2147483647%26v%3Dbeta%26t%3D3vJ8_ZJ39JEuEo4ic3grq3IADNr-2rUabEmqA7scZRk" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 14 Jan 2026 06:13:02 +0000</pubDate>
+      <title>👗 StyleMatch - Your AI Personal Fashion Stylist</title>
+      <link>https://dev.to/simranshaikh20_50/stylematch-your-ai-personal-fashion-stylist-247m</link>
+      <description>What I Built StyleMatch is an AI-powered personal fashion stylist that transforms how people shop online. Instead of overwhelming users with thousands of products, StyleMatch acts as a knowledgeable fashion consultant—understanding your needs, suggesting complete outfits, and optimizing your budget across multiple events. The Problem It Solves Online fashion shopping is frustrating: 🔍 Too many choices, no guidance 👗 Hard to know what items work together 💰 Difficult to plan within budget 📅 Planni</description>
+      <guid isPermaLink="false">https://dev.to/simranshaikh20_50/stylematch-your-ai-personal-fashion-stylist-247m</guid>
+      <pubDate>Thu, 15 Jan 2026 06:21:32 +0000</pubDate>
     </item>
     <item>
-      <title>Understanding the RAM Model of Computation</title>
-      <link>https://dev.to/ali_algmass/understanding-the-ram-model-of-computation-224p</link>
-      <description>Ever wondered how computer scientists analyze algorithms without worrying about whether you're running on an M1 Mac, an Intel server, or a Raspberry Pi? The answer lies in the Random Access Machine (RAM) model—a theoretical framework that abstracts away hardware details while still giving us accurate predictions about algorithm performance. What is the RAM Model? The Random Access Machine is an idealized model of how computers work. Think of it as a simplified blueprint that captures the essenti</description>
-      <guid isPermaLink="false">https://dev.to/ali_algmass/understanding-the-ram-model-of-computation-224p</guid>
-      <pubDate>Wed, 14 Jan 2026 06:21:25 +0000</pubDate>
+      <title>เพิ่มประสิทธิภาพการทำงาน ด้วย Agile process</title>
+      <link>https://dev.to/__00/ephimprasiththiphaaphkaarthamngaan-dwy-agile-process-307o</link>
+      <description>1. Agile คือ แนวคิด (Mindset) และรูปแบบการทำงานที่เน้น "ความคล่องตัว" โดยการแบ่งงานใหญ่ให้เป็นชิ้นเล็กๆ แล้วส่งมอบงานอย่างรวดเร็วเป็นรอบๆ (Iterations) เพื่อรับคำติชม (Feedback) มาปรับปรุงได้ทันที 2. ความแตกต่างระหว่าง Waterfall และ Agile Waterfall ลักษณะการทำงาน Analysis &amp;gt; Design &amp;gt; Implementation &amp;gt; Testing &amp;gt; Deployment (Develop) &amp;gt; Release &amp;amp; Maintenance โดยตัว Product ที่ออกมา ลูกค้าจะได้เจอหลังจากจบ Process ทั้งหมด ซึ่งในบางครั้งอาจจะไม่ตอบโจทย์กับความต้องการของลูกค้าได้ โดยเวลาและต้นทุนไม่ได้ถู</description>
+      <guid isPermaLink="false">https://dev.to/__00/ephimprasiththiphaaphkaarthamngaan-dwy-agile-process-307o</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhjpfhh6mn4a49mkjz234.png" length="0" type="image/png"/>
+      <pubDate>Thu, 15 Jan 2026 06:28:07 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code Plugin CLI: The Missing Manual</title>
-      <link>https://dev.to/garyj/claude-code-plugin-cli-the-missing-manual-40nf</link>
-      <description>Claude Code for me is like a best friend at work, I use it in my daily coding work, and non coding tasks, like sorting supplier invoices, summarizing account payables, though I always verify its output, the productivity gains are huge. More and more I find myself relying on Claude Code plugins (skills, hooks, commands, etc). Commonly, I would write these myself partly as a learning exercise as it gets you thinking about the underlying mechanics of Claude Code, but also because I have specific ne</description>
-      <guid isPermaLink="false">https://dev.to/garyj/claude-code-plugin-cli-the-missing-manual-40nf</guid>
-      <pubDate>Wed, 14 Jan 2026 06:25:51 +0000</pubDate>
+      <title>CVE-2026-0621: Event-Loop Denial of Service in the MCP TypeScript SDK</title>
+      <link>https://dev.to/om_shree_0709/cve-2026-0621-event-loop-denial-of-service-in-the-mcp-typescript-sdk-1k40</link>
+      <description>TL;DR A high-severity Regular Expression Denial of Service (ReDoS) vulnerability in the MCP TypeScript SDK allows a single crafted URI to fully block the Node.js event loop, taking down MCP servers. The issue is fixed in v1.25.2 and should be patched immediately. Summary Identifier: CVE-2026-0621 (GHSA-8r9q-7v3j-jr4g) Severity: 8.7 (High) Affected Component: @modelcontextprotocol/sdk Impact: Total Node.js event-loop blockage (Denial of Service) Status: Patched in v1.25.2 A specifically crafted U</description>
+      <guid isPermaLink="false">https://dev.to/om_shree_0709/cve-2026-0621-event-loop-denial-of-service-in-the-mcp-typescript-sdk-1k40</guid>
+      <pubDate>Thu, 15 Jan 2026 06:34:12 +0000</pubDate>
     </item>
   </channel>
 </rss>

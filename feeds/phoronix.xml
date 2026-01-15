@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Jan 2026 06:38:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 06:38:48 +0000</lastBuildDate>
     <item>
-      <title>Bcachefs Ships Latest User-Space Utilities With bcachefs-tools 1.35</title>
-      <link>https://www.phoronix.com/news/bcachefs-tools-1.35</link>
-      <description>Kent Overstreet has shipped the latest version of bcachefs-tools, the user-space code complementing the Bcachefs file-system kernel driver. There are a number of improvements present in this latest version with Overstreet remaining committed to advancing Bcachefs even with its current out-of-tree kernel status...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/bcachefs-tools-1.35</guid>
-      <pubDate>Tue, 13 Jan 2026 11:21:01 +0000</pubDate>
+      <title>Intel Panther Lake GSC Firmware Published Ahead Of Laptop Availability</title>
+      <link>https://www.phoronix.com/news/Intel-Panther-Lake-GSC-Firmware</link>
+      <description>While Intel has been upstreaming various Panther Lake firmware bits to linux-firmware.git for pairing with their open-source kernel drivers ahead of Core Ultra Series 3 laptops shipping, one piece of the puzzle only published today is the GSC firmware for the Panther Lake graphics...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Panther-Lake-GSC-Firmware</guid>
+      <pubDate>Wed, 14 Jan 2026 13:49:16 +0000</pubDate>
     </item>
     <item>
-      <title>FFmpeg Merges A Number Of Vulkan Improvements To Start 2026</title>
-      <link>https://www.phoronix.com/news/FFmpeg-Vulkan-Starts-2026</link>
-      <description>FFmpeg developer Lynne has landed a number of Vulkan-related imporvements to this widely-used open-source multimedia library. Over the past year FFmpeg saw Vulkan shader-based decoding for more video formats, AV1 and VP9 extension work, performance improvements, and other work around Vulkan Video. It will be very exciting to see how FFmpeg delivers in 2026 with Vulkan Video and how the software ecosystem as a whole begins taking up this cross-platform, open industry standard for video encode/dec</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FFmpeg-Vulkan-Starts-2026</guid>
-      <pubDate>Tue, 13 Jan 2026 13:15:00 +0000</pubDate>
+      <title>Linux 7.0 To Focus Just On Full &amp;amp; Lazy Preemption Models For Up-To-Date CPU Archs</title>
+      <link>https://www.phoronix.com/news/Linux-Restrict-Preempt-Modes</link>
+      <description>A Linux scheduler patch queued up into a TIP branch this past week further restrict is the preemption modes that will be advertised. With it hitting the "sched/core" branch, it will likely be submitted for the upcoming Linux 7.0 (or alternatively, what could be known as Linux 6.20 instead)...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Restrict-Preempt-Modes</guid>
+      <pubDate>Wed, 14 Jan 2026 14:27:15 +0000</pubDate>
     </item>
     <item>
-      <title>Debian Libre Live 13.3 Images Released For Avoiding Non-Free Firmware</title>
-      <link>https://www.phoronix.com/news/Debian-Libre-Live-13.3</link>
-      <description>Building off this past weekend's Debian 13.3 release is now Debian Libre Live 13.3 images for this derivative that ships the install/live media without any of the non-free firmware assets to remain a free software blessed image...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Debian-Libre-Live-13.3</guid>
-      <pubDate>Tue, 13 Jan 2026 15:00:07 +0000</pubDate>
+      <title>GNOME Mutter 50 Alpha Released With X11 Backend Removed</title>
+      <link>https://www.phoronix.com/news/GNOME-Mutter-Shell-50-Alpha</link>
+      <description>In preparing for the GNOME 50 Alpha release, the "50.alpha" tags just occurred for the Mutter compositor and GNOME Shell. Most notable with GNOME Mutter 50 Alpha is the X11 back-end indeed being removed to focus exclusively on the Wayland session...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Mutter-Shell-50-Alpha</guid>
+      <pubDate>Wed, 14 Jan 2026 14:48:00 +0000</pubDate>
     </item>
     <item>
-      <title>Wine 11.0 Released With Many Improvements For Windows Games &amp;amp; Apps On Linux</title>
-      <link>https://www.phoronix.com/news/Wine-11.0-Released</link>
-      <description>As expected, Wine 11.0 stable was officially released today. This is a big step forward for this open-source software to run Windows games and applications on Linux and other platforms. Wine also serves as the basis for Valve's Steam Play (Proton) that has been critical to the recent successes of Linux gaming...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-11.0-Released</guid>
-      <pubDate>Tue, 13 Jan 2026 16:12:14 +0000</pubDate>
+      <title>$99 BeaglePlay Board Achieves "100% Open-Source" Upstream PowerVR Graphics</title>
+      <link>https://www.phoronix.com/news/BeaglePlay-PowerVR-Success</link>
+      <description>Going back many years Imagination PowerVR graphics were widely despised by open-source enthusiasts and Linux desktop users for their lack of an open-source GPU driver. But over the past few years the Imagination PowerVR driver focused on their Rogue graphics IP has matured nicely within the Linux kernel and the PowerVR Vulkan driver in Mesa taking shape too. Paired with Zink for OpenGL over Vulkan, there's a robust open-source PowerVR graphics experience now possible. For those interested in try</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/BeaglePlay-PowerVR-Success</guid>
+      <pubDate>Wed, 14 Jan 2026 15:17:05 +0000</pubDate>
     </item>
     <item>
-      <title>Intel's Fantastic New Open-Source Demonstrator For AMX-BF16: Over 4x The Performance At 69% The Power</title>
-      <link>https://www.phoronix.com/review/intel-oidn-amx-fp16</link>
-      <description>When it comes to software leveraging Intel Advanced Matrix Extensions (AMX) functionality in modern Xeon processors, it's largely been limited to AI applications/libraries like oneDNN, OpenVINO, DeepRec, etc. But Intel now has another great open-source real-world AMX demonstrator with their Open Image Denoise library. This open-source library providing high quality denoising filters for images rendered using ray-tracing can end up benefiting big time from AMX-FP16 found with the newest Xeon 6 "G</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/intel-oidn-amx-fp16</guid>
-      <pubDate>Tue, 13 Jan 2026 16:22:00 +0000</pubDate>
+      <title>Fedora Games Lab Approved To Switch To KDE Plasma, Become A Better Linux Gaming Showcase</title>
+      <link>https://www.phoronix.com/news/Fedora-Games-Lab-Overhaul-2026</link>
+      <description>Back in December we reported on drafted plans for revitalizing Fedora Games Lab to be a modern Linux gaming showcase. This Fedora Labs initiative has featured some open-source games paired with an Xfce desktop while moving forward they are looking to better position it as a modern Linux gaming showcase...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Fedora-Games-Lab-Overhaul-2026</guid>
+      <pubDate>Wed, 14 Jan 2026 16:09:09 +0000</pubDate>
     </item>
     <item>
-      <title>KDE Plasma 6.6 Beta Released With Plasma Login Manager, Plasma Setup</title>
-      <link>https://www.phoronix.com/news/KDE-Plasma-6.6-Beta</link>
-      <description>The KDE Plasma 6.6 beta release is available today for helping to test this next iteration of the Plasma 6 desktop...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Plasma-6.6-Beta</guid>
-      <pubDate>Tue, 13 Jan 2026 16:40:00 +0000</pubDate>
+      <title>GlobalFoundries Acquires Synopsys ARC Processor IP, To Be Integrated Into MIPS</title>
+      <link>https://www.phoronix.com/news/GlobalFoundries-Synopsys-ARC</link>
+      <description>Last year GlobalFoundries acquired MIPS while an interesting new development announced today is that GlobalFoundries has acquired the ARC Processor IP and its solutions business from Synopsys. The Synopsys ARC Processor IP will be brought into the MIPS umbrella...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GlobalFoundries-Synopsys-ARC</guid>
+      <pubDate>Wed, 14 Jan 2026 16:20:22 +0000</pubDate>
     </item>
     <item>
-      <title>ReactOS Receives Fix For A Very Annoying Usability Issue</title>
-      <link>https://www.phoronix.com/news/ReactOS-Folder-Changes-Refresh</link>
-      <description>ReactOS began 2026 with another "major step" towards Windows NT 6 compatibility with updating its MSVCRT implementation from Wine for the Microsoft C Runtime DLL library. That improved support for a number of Windows applications running on this open-source OS. ReactOS is taking another step-forward now with addressing a very annoying usability issue where up until now you may need to refresh the file manager for seeing folder changes...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ReactOS-Folder-Changes-Refresh</guid>
-      <pubDate>Tue, 13 Jan 2026 19:14:12 +0000</pubDate>
+      <title>New RADV Code Can Deliver 10x Faster Ray-Tracing Pipeline Compilation For Some Games</title>
+      <link>https://www.phoronix.com/news/RADV-10x-Fast-RT-Pipeline-Comp</link>
+      <description>A new merge request opened today for Mesa's Radeon Vulkan driver "RADV" by Valve contractor Natalie Vock provides another significant boost for the Vulkan ray-tracing performance in multiple titles...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/RADV-10x-Fast-RT-Pipeline-Comp</guid>
+      <pubDate>Wed, 14 Jan 2026 17:42:08 +0000</pubDate>
     </item>
     <item>
-      <title>JPEG-XL Image Support Returns To Latest Chrome / Chromium Code</title>
-      <link>https://www.phoronix.com/news/JPEG-XL-Returns-Chrome-Chromium</link>
-      <description>To the frustration of many developers and end-users, back in 2022 Google deprecated JPEG-XL support in Chrome/Chromium and proceeded to remove the support. That decision was widely slammed and ultimately Google said they may end up reconsidering it. In November there was renewed activity and interest in restoring JPEG-XL within Google's image web browser and as of yesterday the code was merged...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/JPEG-XL-Returns-Chrome-Chromium</guid>
-      <pubDate>Tue, 13 Jan 2026 19:38:00 +0000</pubDate>
+      <title>An Early Run With Ubuntu 26.04 On AMD EPYC Turin - The Current Performance Gains Over Ubuntu 24.04 LTS</title>
+      <link>https://www.phoronix.com/review/ubuntu-2604-jan-amd-epyc</link>
+      <description>There still are several months to go until the official Ubuntu 26.04 LTS release -- including one month until the feature freeze and the future Linux 6.20~7.0 kernel is expected to land too before the latter kernel freeze in early April. But for those curious how Ubuntu 26.04 is looking so far for servers, here are some very early benchmarks of it on AMD EPYC 9005 "Turin" in its present development state. The main motivation here for this early look was stemming from the recent rolling-release C</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/ubuntu-2604-jan-amd-epyc</guid>
+      <pubDate>Wed, 14 Jan 2026 20:23:32 +0000</pubDate>
     </item>
     <item>
-      <title>Hangover 11.0 Released: Wine + FEX/Box64 Pairing For Windows x86 Apps On ARM64 Linux</title>
-      <link>https://www.phoronix.com/news/Hangover-11.0-Released</link>
-      <description>Building off today's release of Wine 11.0 for enabling countless Windows applications and games to run well under Linux and being the basis of Valve's Proton for Steam Play, Hangover 11.0 is now available. Hangover is the open-source project that pairs Wine with either the FEX-Emu or Box64 emulators for enabling x86 32-bit and 64-bit Windows games/apps to run on native ARM64 Linux systems...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Hangover-11.0-Released</guid>
-      <pubDate>Wed, 14 Jan 2026 01:22:16 +0000</pubDate>
+      <title>GRUB 2.14 Bootloader Released With EROFS Support, Shim Loader Protocol</title>
+      <link>https://www.phoronix.com/news/GRUB-2.14-Released</link>
+      <description>More than two years after the release of GRUB 2.12, GRUB 2.14 shipped today as the newest feature release of this widely-used bootloader on Linux systems and elsewhere...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GRUB-2.14-Released</guid>
+      <pubDate>Wed, 14 Jan 2026 22:54:14 +0000</pubDate>
     </item>
     <item>
-      <title>ZLUDA Boasts Full Llama.cpp Support, Better Windows Handling For CUDA On Non-NVIDIA GPUs</title>
-      <link>https://www.phoronix.com/news/ZLUDA-Q4-2025-Report</link>
-      <description>The open-source ZLUDA project for bringing CUDA to non-NVIDIA hardware that can run unmodified is out with a new progress report. ZLUDA had a productive fourth quarter with now enjoying better Microsoft Windows support, full support for running Llama.cpp atop ZLUDA, AMD ROCm 7 support, and other enhancements...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ZLUDA-Q4-2025-Report</guid>
-      <pubDate>Wed, 14 Jan 2026 01:39:00 +0000</pubDate>
+      <title>Another RADV Ray-Tracing Merge Lands Some Additional Gains For Mesa 26.0</title>
+      <link>https://www.phoronix.com/news/RADV-RT-RDNA3-RDNA4-Wave32</link>
+      <description>Separate from the Mesa merge request talked about earlier today for new RADV code that can deliver 10x faster ray-tracing pipeline compilation for this open-source Radeon Vulkan driver, another merge request landed today in Mesa 26.0 that was also carried out by Valve contractor Natalie Vock. That second merge request now in Mesa 26.0 delivers some additional gains for at least some ray-tracing games on RDNA3 and RDNA4 GPUs...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/RADV-RT-RDNA3-RDNA4-Wave32</guid>
+      <pubDate>Thu, 15 Jan 2026 01:11:51 +0000</pubDate>
     </item>
   </channel>
 </rss>
