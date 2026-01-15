@@ -65,17 +65,55 @@ jobs:
         run: |
           python -c "
           import csv
+          import os
           from datetime import datetime
 
-          # Read tracking data
-          tracking_data = []
+          # Get ALL XML files from feeds/ directory and root
+          xml_files = set()
+          
+          # Scan feeds/ directory
+          if os.path.exists('feeds'):
+              for f in os.listdir('feeds'):
+                  if f.endswith('.xml'):
+                      xml_files.add(f)
+          
+          # Scan root directory
+          for f in os.listdir('.'):
+              if f.endswith('.xml'):
+                  xml_files.add(f)
+          
+          print(f'Found {len(xml_files)} XML feed files')
+          
+          # Load tracking data for status info (optional - for display only)
+          tracking_by_url = {}
           try:
               with open('tracking.csv', 'r', encoding='utf-8') as f:
                   reader = csv.DictReader(f)
-                  tracking_data = list(reader)
+                  for entry in reader:
+                      rss_url = entry.get('rss_url', '')
+                      if rss_url:
+                          tracking_by_url[rss_url] = entry
           except FileNotFoundError:
               pass
-
+          
+          # Generate feed entries from XML files
+          feed_entries = []
+          for xml_file in sorted(xml_files):
+              feed_url = f'https://swelbyboy.github.io/prospect-rss-feeds/{xml_file}'
+              
+              # Try to get info from tracking.csv
+              tracking_info = tracking_by_url.get(feed_url, {})
+              company_name = tracking_info.get('company_name', xml_file.replace('.xml', '').replace('-', ' ').title())
+              status = tracking_info.get('status', 'success')
+              last_scrape_date = tracking_info.get('last_scrape_date', '-')
+              
+              feed_entries.append({
+                  'name': company_name,
+                  'url': feed_url,
+                  'status': status,
+                  'date': last_scrape_date
+              })
+          
           # Generate index.html
           html = '''<!DOCTYPE html>
           <html lang=\"en\">
@@ -188,6 +226,7 @@ jobs:
           </head>
           <body>
               <h1>Prospect RSS Feeds</h1>
+              <p>Total feeds: ''' + str(len(feed_entries)) + '''</p>
               
               <button class=\"upload-cta\" onclick=\"openUploadModal()\">📤 Upload New Prospects</button>
 
@@ -218,14 +257,10 @@ jobs:
                   </tr>
           '''
 
-          for entry in tracking_data:
-              company_name = entry.get('company_name', '')
-              status = entry.get('status', '')
-              rss_url = entry.get('rss_url', '')
-              last_scrape_date = entry.get('last_scrape_date', '-')
-              status_class = 'success' if status == 'success' else 'failed'
-              rss_link = f'<a href=\"{rss_url}\">{rss_url}</a>' if rss_url else '-'
-              html += f'        <tr><td>{company_name}</td><td>{rss_link}</td><td class=\"{status_class}\">{status}</td><td>{last_scrape_date}</td></tr>\n'
+          for entry in feed_entries:
+              status_class = 'success' if entry['status'] == 'success' else 'failed'
+              rss_link = f'<a href=\"{entry[\"url\"]}\">{entry[\"url\"]}</a>'
+              html += f'        <tr><td>{entry[\"name\"]}</td><td>{rss_link}</td><td class=\"{status_class}\">{entry[\"status\"]}</td><td>{entry[\"date\"]}</td></tr>\n'
 
           html += f'''    </table>
               <p>Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}</p>
@@ -291,7 +326,7 @@ jobs:
 
           with open('index.html', 'w', encoding='utf-8') as f:
               f.write(html)
-          print('Generated index.html')
+          print(f'Generated index.html with {len(feed_entries)} feeds')
           "
 
       - name: Update tracker with scraping results
