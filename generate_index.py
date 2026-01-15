@@ -35,6 +35,19 @@ try:
 except FileNotFoundError:
     pass
 
+# Load domain info from outreach_progress_tracker.csv as fallback
+tracker_by_feed_url = {}
+try:
+    with open('outreach_progress_tracker.csv', 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for entry in reader:
+            rss_feed = entry.get('RSS Feed', '').strip()
+            domain = entry.get('Domain', '').strip()
+            if rss_feed and domain:
+                tracker_by_feed_url[rss_feed] = domain
+except FileNotFoundError:
+    pass
+
 # Generate feed entries from XML files
 feed_entries = []
 for xml_file in sorted(xml_files):
@@ -46,11 +59,17 @@ for xml_file in sorted(xml_files):
     status = tracking_info.get('status', 'success')
     last_scrape_date = tracking_info.get('last_scrape_date', '-')
     
+    # Get domain from tracking.csv or outreach_progress_tracker.csv
+    domain = tracking_info.get('domain', '')
+    if not domain:
+        domain = tracker_by_feed_url.get(feed_url, '-')
+    
     feed_entries.append({
         'name': company_name,
         'url': feed_url,
         'status': status,
-        'date': last_scrape_date
+        'date': last_scrape_date,
+        'domain': domain
     })
 
 # Generate index.html
@@ -190,6 +209,7 @@ html = '''<!DOCTYPE html>
     <table>
         <tr>
             <th>Prospect Name</th>
+            <th>Domain</th>
             <th>RSS Feed</th>
             <th>Last Scrape Status</th>
             <th>Last Scrape Timestamp</th>
@@ -199,7 +219,8 @@ html = '''<!DOCTYPE html>
 for entry in feed_entries:
     status_class = 'success' if entry['status'] == 'success' else 'failed'
     rss_link = f'<a href="{entry["url"]}">{entry["url"]}</a>'
-    html += f'        <tr><td>{entry["name"]}</td><td>{rss_link}</td><td class="{status_class}">{entry["status"]}</td><td>{entry["date"]}</td></tr>\n'
+    domain = entry.get('domain', '-')
+    html += f'        <tr><td>{entry["name"]}</td><td>{domain}</td><td>{rss_link}</td><td class="{status_class}">{entry["status"]}</td><td>{entry["date"]}</td></tr>\n'
 
 html += f'''    </table>
     <p>Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}</p>
