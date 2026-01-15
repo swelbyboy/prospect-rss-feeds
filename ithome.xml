@@ -8,79 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Jan 2026 06:40:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Jan 2026 06:41:27 +0000</lastBuildDate>
     <item>
-      <title>駭客兜售50家大型企業的內部資料，疑透過員工電腦竊得帳密，入侵雲端檔案共用環境而得逞</title>
-      <link>https://www.ithome.com.tw/news/173328</link>
-      <description>新聞竊資軟體（Infostealer）橫行，駭客藉此挖掘有價值的帳密資料與憑證相當常見，然而有人根據竊得的資料，竟然能在大型企業的檔案共用平臺來去自如，並下載企業內部資料進行兜售。 根據威脅情報公司Hudson Rock的調查，代號為Zestix（又名Sentap）的駭客，正於暗網兜售從全球約50家知名企業竊取的機密資料。這場大規模外洩的源頭，並非複雜的系統漏洞，而是基礎的「憑證衛生（Credential Hygiene）」失敗，企業並未落實定期更換密碼，以及沒有採用多因素驗證（MFA）而釀禍。 有別於許多資料外洩事故，駭客必須設法取得企業網路環境的初期存取管道，Zestix則是另闢蹊徑：透過廣泛利用竊資軟體，例如：RedLine、Lumma，或是Vidar來感染員工電腦或特定的裝置，然後從竊得的事件記錄資料進行過濾，找到ShareFile、Nextcloud，以及OwnCloud等企業雲端檔案共享服務平臺（EFSS）的入口網站網址與帳密資料，然後輕易從企業偷走大批內部資料。對此，OwnCloud也發布資安公告，指出這起事故並非他們的平臺出現零時差漏洞造成，呼籲用戶立即啟用多因素驗證。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173328</guid>
-      <pubDate>Tue, 13 Jan 2026 09:59:17 +0000</pubDate>
+      <title>Anthropic捐150萬美元挺Python基金會，強化PyPI供應鏈防護</title>
+      <link>https://www.ithome.com.tw/news/173344</link>
+      <description>新聞Python軟體基金會宣布，已與AI公司Anthropic建立為期兩年的合作關係，Anthropic將在兩年內合計提供150萬美元，支持基金會推進以Python生態系安全工作。基金會指出，這筆資金將用於推動CPython與Python套件索引PyPI的安全強化，同時也會支援基金會維持語言、生態系與社群運作所需的核心工作。 基金會把重點放在降低PyPI面臨的供應鏈攻擊風險，官方提到，資金將用來推進既定的安全藍圖，並規畫開發新的自動化工具，針對所有上架到PyPI的套件進行主動審查。該工作的目的在於補足現行流程較偏向事後反應式審查的限制，希望讓平臺能更早攔截可疑套件，降低使用者下載到惡意內容的機率。 為了支撐主動審查工具的設計與驗證，基金會也預告將建立一套已知惡意軟體資料集，並以能力分析作為方法基礎，協助後續工具在辨識惡意行為時有可依循的樣本與特徵。同時指出，這些工具與資料集將具可移轉性，未來有機會延伸到其他開源套件儲存庫，先從Python生態系開始，逐步擴大到更多開源社群。 在人力編制方面，基金會表示，這項工作將延續基金會駐點安全開發者Seth Larson所提出的安全藍圖，並由PyP</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173344</guid>
+      <pubDate>Wed, 14 Jan 2026 09:05:06 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】1月13日，VMware ESXi零時差漏洞恐在兩年前就遭到利用</title>
-      <link>https://www.ithome.com.tw/news/173329</link>
-      <description>新聞中國駭客濫用VMware ESXi零時差漏洞，最早可追溯到2024年 在2025年12月，資安公司Huntress偵測到攻擊VMware虛擬化平臺ESXi的行動，由中國駭客發起，在該行動最後一個階段，攻擊者濫用了VMware去年3月公告並修補的ESXi漏洞，分別是CVE-2025-22224、CVE-2025-22225，以及CVE-2025-22226（CVSS風險值為9.3、8.2、7.1），當時VMware指出已被用於攻擊行動，現在新的調查結果指出，駭客疑似在2024年就開發漏洞利用工具，並用於實際攻擊。 Huntress根據入侵指標，追查出攻擊者複雜的活動路徑：他們先從被駭的SonicWall VPN入侵受害企業的網路環境，並取得內部網路權限，接著利用竊得的網域管理員憑證橫向移動，然後對VMware虛擬化平臺下手。分析其濫用VMware的工具套件，當中二進位檔包含PDB路徑，發現具有簡體中文字串和特殊訊息的文件夾（「全版本逃逸–交付」及ESXI_8.0u3），當中的時戳為2024_02_19，顯示這套攻擊工具可能2024年初就已製作完成，並鎖定ESXi 8.0 Update</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173329</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/assets3eb6f92aedf74f109c7b4b0897(3).png" length="0" type="image/png"/>
-      <pubDate>Tue, 13 Jan 2026 10:28:23 +0000</pubDate>
+      <title>衛福部公布主權雲八大方針，醫療雲端採購新基準出爐</title>
+      <link>https://www.ithome.com.tw/news/173353</link>
+      <description>新聞過去一年，醫療機構接連成為駭客攻擊目標，從國內醫院遭勒索軟體入侵，到國外大型醫療機構和保險系統發生資料外洩事件，都讓一個問題浮上檯面：醫療資料適合放在雲端嗎？如果要放，怎麼放才安全？ 衛福部資訊處今日（1/14）首次揭露主權雲政策及八大指導方針，回答了誰管資料、誰管系統、誰握鑰匙等三大關鍵問題，也定義了不同風險的資料，應放在不同等級的雲上。 為什麼醫療資料特別敏感？ 衛福部資訊處處長李建璋先是點出，醫療資料和金融資料最大的不同，在於能不能補救。 信用卡被盜，可以換卡；帳號外洩，可以重設密碼。但病歷、基因資料、特定疾病紀錄，一旦被看見、被複製、被用來分析，這件事就沒有重來的機會。這些資料幾乎伴隨一個人一輩子，就像是每個人的數位DNA。 這類資料一旦外流，不只可能被用來詐騙，還可能影響保險、就業，甚至被拿來做未經同意的AI分析。也因此，衛福部將這類醫療與公共衛生資料定位為「準國安等級」，必須用比一般資訊更嚴格的方式管理。 公雲服務的3大隱形風險 李建璋坦言，現有的商業公有雲技術相當成熟，效能與彈性都有其優勢。但真正的風險，往往不在技術本身，而在治理。 他看到的公雲治理風險有3個，首先是</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173353</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E8%B3%87%E6%96%99%E5%88%86%E7%B4%9A.JPG" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 14 Jan 2026 09:41:53 +0000</pubDate>
     </item>
     <item>
-      <title>Apex Legends爆出角色遭遠端操控與強制斷線事件，開發商Respawn已修復但未說明原因</title>
-      <link>https://www.ithome.com.tw/news/173332</link>
-      <description>新聞知名遊戲Apex Legends近日出現疑似遭遠端干預輸入的安全事件，多名玩家回報在連線狀態正常時，角色仍會出現非本人操作的移動與行為，並伴隨強制斷線與暱稱遭更動等異常。Respawn已在對外承認事件後的數小時內表示問題已排除，但截至目前仍未公開成因、受影響範圍與更多技術細節。 綜合玩家回報，異常情況至少自2026年1月9日前後開始出現。社群陸續流傳多段錄影與貼文，內容顯示角色在非本人操作下自行移動，甚至被引導往地圖邊緣，另有案例指出隊友被依序踢出伺服器，但角色仍留在場上行動，疑似遭他人接手操控。 Respawn在2026年1月10日透過社群平臺回應，表示已注意到一樁進行中的安全事件，外部人士能在遊戲內遠端控制其他玩家輸入。公司同時強調初步調查未發現跡象顯示攻擊者能在玩家電腦上安裝或執行程式碼，因此不像遠端程式碼執行或注入攻擊那類典型情境，並稱正著手處理並將持續更新資訊。 在官方宣布修復前，社群仍持續出現新的回報，部分玩家遭伺服器強制斷線，隊友暱稱被替換成RSPN Admin等現象。另也有玩家基於自身觀察推測，問題可能涉及更高權限或伺服器除錯系統遭濫用，但這些說法尚未獲官方證實。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173332</guid>
-      <pubDate>Wed, 14 Jan 2026 00:40:36 +0000</pubDate>
+      <title>【資安日報】1月14日，微軟修補3個零時差漏洞，其中1個已出現攻擊行動</title>
+      <link>https://www.ithome.com.tw/news/173352</link>
+      <description>新聞微軟1月修補3個零時差漏洞，其中1個已被用於實際攻擊、2個已公開 1月13日微軟發布本月例行更新（Patch Tuesday），針對旗下Windows作業系統、Office辦公室套裝軟體，以及Azure雲端服務與開發工具，修補112個安全漏洞，較上個月57個多出一倍。值得留意的是，已有遭到利用與細節被公開的零時差漏洞，用戶應儘速採取行動因應。 其中，已被用於實際攻擊行動的是資訊洩露（ID）漏洞CVE-2026-20805，此漏洞出現於桌面視窗管理員（Desktop Window Manager，DWM），一旦遭到利用，取得授權的攻擊者，能在本機電腦上，透過桌面視窗管理員將資料外洩給未經授權的人，洩漏的資訊是進階程序呼叫的一段使用者模式記憶體位址，CVSS風險為5.5分。 此漏洞由微軟威脅情報中心（MSTIC）及微軟安全回應中心（MSRC）通報，不過，微軟並未透露漏洞如何遭到利用。長期觀察微軟每月例行更新的Zero Day Initiative（ZDI）推測，攻擊者利用此漏洞洩露特定的記憶體區段位址後，可能會在下個階段啟動攻擊鏈，並能執行任意程式碼。 SAP發布1月例行更新，修補SQ</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173352</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/JJDDy6Rhaj.png" length="0" type="image/png"/>
+      <pubDate>Wed, 14 Jan 2026 10:02:49 +0000</pubDate>
     </item>
     <item>
-      <title>Google發布Chrome 144桌面版更新，修補3項高風險漏洞</title>
-      <link>https://www.ithome.com.tw/news/173333</link>
-      <description>新聞Google於1月13日發布桌面版Chrome 144穩定更新，推送版本包含Linux版144.0.7559.59，以及Windows與Mac版144.0.7559.59與144.0.7559.60，更新將於未來幾天至數週內陸續提供給用戶。 此次更新共修補10項資安漏洞，這些弱點的CVSS風險分數尚未公布，但Google表明其中包含3項高風險漏洞。最受關注的是CVE-2026-0899，該漏洞出現在V8 JavaScript引擎，屬於越界記憶體存取問題，由外部資安研究人員@p1nky4745通報，Google並提供8,000美元漏洞獎勵。 另外兩項高風險漏洞為CVE-2026-0900與CVE-2026-0901，分別涉及V8與Blink元件的不當實作問題，前者由Google內部通報，後者則由資安研究人員Irvan Kurniawan（sourc7）發現。 除了高風險漏洞，Google也修補多項中、低風險弱點，影響範圍涵蓋Downloads、Network、Digital Credentials、Split View等功能，以及ANGLE元件的記憶體釋放後再利用（Use After</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173333</guid>
-      <pubDate>Wed, 14 Jan 2026 02:15:19 +0000</pubDate>
+      <title>新版Slackbot分階段上線，可整理Slack對話重點並推進後續工作</title>
+      <link>https://www.ithome.com.tw/news/173359</link>
+      <description>新聞Salesforce重新設計的Slackbot正式上線，自2026年1月13日起以分階段方式推送至Business+與Enterprise+方案用戶。官方指出，在功能全面開放前，Enterprise方案的組織擁有者與管理者可先行設定Slackbot存取權限，並可依公司政策限制或暫停使用，以降低導入風險。 Slackbot為內建在Slack內的個人工作助理，主打在既有對話、頻道與檔案等工作訊息中找出答案與重點，並協助整理工作、產出內容、安排會議與執行後續動作，使用者不需另行安裝新工具。Salesforce表示，新版Slackbot在遵循既有角色與存取控制的前提下，可讀取Slack中的對話與檔案資訊，並結合企業系統的客戶資料與後設資料，協助使用者更快取得與工作相關的答案。 除了查詢與摘要，Slackbot能在遵循既有權限與存取控制的前提下，利用對話、頻道與檔案脈絡協助使用者產出內容、安排會議並推進後續動作，同時也被規畫成未來與Agentforce及第三方代理協作的主要入口，可透過對話觸發動作並協調既有工作流程。 新版Slackbot會遵循既有角色與存取控制，只呈現使用者原本就有權限取得</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173359</guid>
+      <pubDate>Thu, 15 Jan 2026 00:13:58 +0000</pubDate>
     </item>
     <item>
-      <title>Meta傳裁員Reality Labs 10%　影響VR、Horizon部門</title>
-      <link>https://www.ithome.com.tw/news/173336</link>
-      <description>新聞紐約時報、彭博等媒體報導，Meta計畫本周裁撤Reality Labs部門人員超過1,500人，未來將把重心從VR/AR轉向AI。 紐時報導指出，這波人事精簡影響總數1.5萬名員工的Reality Labs的10%-15%，主要是開發VR硬體、元宇宙虛擬社群平臺Horizon Worlds的員工。而彭博則報導，部份VR遊戲和內容開發團隊，像是開發知名遊戲死侍VR版、Asgard's Wrath及Resident Evil 4 Quest版的工作室Twisted Pixel、Sanzaru Games及Armature Studio等也將被縮編或關閉。此外，VR健康App Supernatural也不再開發新內容或產品。 媒體取得的Meta技術長Andrew Bosworth內部備忘錄指出，未來Reality Labs策略重點及資源投入目標，也將聚焦到開發穿戴裝置，像是整合AI的Ray-Ban智慧眼鏡系列等。受影響的員工據信已在1月13日收到通知。 Meta發言人對媒體證實此事，表示裁員是公司策略調整的一環，Meta今年投資重點將由元宇宙轉向穿戴裝置等。 這波裁員並不令人意外。在公司</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173336</guid>
-      <pubDate>Wed, 14 Jan 2026 03:40:30 +0000</pubDate>
+      <title>Google多模態模型MedGemma升級醫療影像解讀，並發布醫用聽寫模型MedASR</title>
+      <link>https://www.ithome.com.tw/news/173364</link>
+      <description>新聞Google更新開放權重醫療生成式AI模型MedGemma至1.5版，強化醫療影像解讀與醫療文字任務的基準能力，並同步釋出醫療語音轉文字模型MedASR，滿足醫療聽寫與臨床口述的轉錄需求，讓開發者能把語音內容轉成文字後，銜接資訊整理或推理。 MedGemma為開發起點而非可直接上線的成品系統，Google提醒，模型輸出不應直接用於臨床診斷或治療決策，落地前仍需依各自場域完成驗證與調校。 Google此次先釋出MedGemma 1.5的4B多模態版本，主打較省算力，作為評估與微調的起點，要是需要更複雜的文字型任務或更大模型容量，開發者仍可沿用MedGemma 1的27B版本，包含純文字與多模態兩種變體。相較前一代以2D影像為主，1.5版把支援範圍擴展到高維度影像，包含電腦斷層掃描CT、核磁共振MRI，以及更大尺度的病理影像，並可用多張切片或多個影像區塊搭配提示詞完成任務。 Google揭露部分內部基準結果。以疾病相關3D影像所見的分類任務為例，MedGemma 1.5 4B在CT的宏平均準確率由58.2%提升到61.1%，在MRI則由51.3%提升到64.7%。Google也指出，這</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173364</guid>
+      <pubDate>Thu, 15 Jan 2026 00:26:43 +0000</pubDate>
     </item>
     <item>
-      <title>AI資料中心耗電爭議升溫，微軟承諾不轉嫁電費予一般用戶</title>
-      <link>https://www.ithome.com.tw/news/173337</link>
-      <description>新聞AI資料中心愈蓋愈多，也有愈來愈多的社區反對資料中心的建置，因為相對於資料中心所創造的就業機會，社區現在更在乎它所帶來的更高的水電費與環境成本，使得美國總統川普（Donald Trump）開始與科技業者協商解決方案，其中，微軟率先於周二（1/13）提出了「社區優先AI基礎設施」（Community-First AI Infrastructure）計畫，承諾不會將電費轉嫁給一般用戶。 美國電網屬於共用資產，資料中心接入往往帶動電網升級，成本在平均電價制度下分攤給所有用戶。再加上資料中心全年高負載推高尖峰容量需求，若地方政府提供電價優惠或延後回收，新增成本更容易轉嫁給一般用戶。 川普表示，他並不希望美國民眾因為資料中心而支付更高的電費，因此正與美國主要科技業者合作，首先是微軟，微軟將確保美國人不必為其用電埋單，也就是不會以更高的公用事業帳單來承擔資料中心的電力消耗。而未來幾周將會公布其它進展。 微軟總裁Brad Smith指出，從運河、鐵路到電網，每個時代都伴隨社區對成本與回報的拉鋸；基礎建設能否持續，取決於在地社區是否認為其帶來的收益大於負擔，並以此作為推動AI資料中心相關承諾的背景</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173337</guid>
-      <pubDate>Wed, 14 Jan 2026 03:53:21 +0000</pubDate>
+      <title>Fortinet修補旗下FortiSIEM等產品2重大漏洞</title>
+      <link>https://www.ithome.com.tw/news/173374</link>
+      <description>新聞Fortinet本周釋出安全更新，修補FortiSIEM等多項產品漏洞，包含一個程式碼執行及一個洩露配置資訊的重大風險漏洞。 二個重大漏洞分別是FortiSIEM中的CVE-2025-64155，及影響FortiFone的CVE-2025-47855。FortiSIEM為安全資訊與事件管理平臺。CVE-2025-64155是OS指令特別元素中和不當（improper neutralization）漏洞，可讓未經驗證的攻擊者傳送變造的TCP請求，以在受害裝置上執行非授權程式或指令。本漏洞CVSS風險值為9.4。 受到影響的產品為FortiSIEM 7.4（含）以下版本。Fortinet已釋出更新版本，廠商呼籲7.1到7.4版用戶升級到最新版。而6.7和7.0版已經過了產品生命週期（EoL），Fortinet建議用戶升級。 第二個重大漏洞是CVE-2025-47855，為存在FortiFone Web Portal的存取控管不當漏洞。FortiFone Web Portal是Fortinet FortiVoice系統的集中管理介面，用於遠端配置電話分機、監控通話紀錄與系統效能。這項漏洞</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173374</guid>
+      <pubDate>Thu, 15 Jan 2026 03:53:50 +0000</pubDate>
     </item>
     <item>
-      <title>Google Mandiant開源可偵測Salesforce配置錯誤之工具，避免企業資料外洩</title>
-      <link>https://www.ithome.com.tw/news/173338</link>
-      <description>新聞因應去年多家企業Salesforce資料外洩，Google旗下資安服務部門Mandiant本周開源能偵測導致敏感資訊外洩的Salesforce配置錯誤的工具，名為AuraInspector。 Mandiant經常發現到企業Salesforce對外平臺，即體驗雲（Salesforce Experience Cloud）存在配置不當問題而不自知，可讓駭客存取敏感資料，包括信用卡號、身份文件和健康資訊等。Mandiant的AuraInspector為一指令行工具，可自動偵測Salesforce Aura框架內的存取控制配置錯誤，協助辨識和稽核Salesforce對外網站的配置問題，防範資料外洩。 圖片來源／Google Salesforce體驗雲為面向客戶、合作夥伴與員工的入口網站、論壇、網站，它直接連結Salesforce CRM資料，以提供個人化內容、自助服務。Aura為Salesforce應用程式使用的UI開發框架，以開發可重複使用的模組化元件。Salesforce體驗雲應用和資料取用依賴Aura元件和其後端端點（endpoint）互動實現。使用Aura端點可從後端系統存取各種資訊</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173338</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0114-AuraInspector-google%20mandiant.png" length="0" type="image/png"/>
-      <pubDate>Wed, 14 Jan 2026 04:22:07 +0000</pubDate>
+      <title>特斯拉不再賣斷全自動輔助駕駛FSD，只接受訂閱</title>
+      <link>https://www.ithome.com.tw/news/173375</link>
+      <description>新聞特斯拉（Tesla）執行長馬斯克（Elon Musk）周三（1/14）透過X宣布，該公司的全自動輔助駕駛（Full Self-Driving，FSD）軟體自2月14日起將不再賣斷，全面改採每月訂閱制。 特斯拉在2016年發表的FSD為一輔助駕駛軟體，目標是逐步實現不需人工介入的自動駕駛。不過，它迄今仍僅達到美國汽車工程師協會（Society of Automotive Engineers，SAE）所制定的第二級能力（Level 2），代表系統可同時控制轉向及加/減速，但駕駛必須全程監控路況，雙手隨時準備接管，法律責任仍屬於駕駛人。 最初FSD是採用賣斷銷售模式，初期只要3,000美元，2020年調漲至1萬美元，最高到2022年漲至1.5萬美元，2024年4月又調降至8,000美元。至於訂閱模式則是在2021年推出，原本每月價格為199美元，2024年降至99美元。 外界認為，已買斷FSD軟體的車主權利應該不會受到影響，新政策所影響的應是未來的FSD用戶。此外，被買斷的FSD是隨著汽車的車輛識別碼而非駕駛人，所以賣掉的車輛仍可使用FSD，但換新車的車主無法自動轉移。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173375</guid>
+      <pubDate>Thu, 15 Jan 2026 04:20:04 +0000</pubDate>
     </item>
     <item>
-      <title>蘋果推出Apple Creator Studio，整合專業創作工具以進軍訂閱制市場</title>
-      <link>https://www.ithome.com.tw/news/173339</link>
-      <description>新聞蘋果周一（1/13）正式發表Apple Creator Studio，這是一套以訂閱形式提供的創作應用程式組合，整合旗下多款專業級影音、音樂與影像工具，並加入AI相關功能與高階內容，試圖降低專業創作工具的使用門檻，擴大創作者生態系。 Apple Creator Studio將在1月28日於App Store上線，月費為12.99美元、年費129美元，並提供一個月免費試用。另針對大專學生與教育人員推出教育方案，月費2.99美元、年費29.99美元，並支援家人共享，最多可供6名家庭成員共用。 在應用內容上，Apple Creator Studio涵蓋Mac與iPad平臺上的Final Cut Pro、Logic Pro與Pixelmator Pro，以及Mac限定的Motion、Compressor與MainStage，並為Keynote、Pages、Numbers，以及未來加入的Freeform提供專屬的智慧功能與高階內容。蘋果也同步保留Mac版應用程式的一次性買斷選項，提供使用者不同的付費選擇。 此次發表的一大亮點，是Pixelmator Pro首度推出iPad版本。該應用程式原本</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173339</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0111-apple-creator-studio-Pixelmator%20Pro.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 14 Jan 2026 05:05:25 +0000</pubDate>
+      <title>美國最大行動業者Verizon服務中斷數小時</title>
+      <link>https://www.ithome.com.tw/news/173376</link>
+      <description>新聞美國最大行動電信營運商Verizon在美東時間1月14日中午約12:00（臺灣時間1月15日凌晨00:00）發生大規模服務中斷，美國多地用戶無法使用行動通話、簡訊與行動數據，部分手機畫面顯示「SOS」或完全無訊號。此次異常持續數小時，影響範圍從東岸延伸至西岸，直至撰稿時尚未完全修復。 Verizon四度透過X平臺說明處理進展。首則訊息表示，已注意到部分客戶的無線語音與數據服務受到影響，工程師正積極排查並解決問題；後續更新則多為致歉與說明搶修狀況，並強調將持續通宵處理，直到全面恢復為止。 根據第三方監控平臺Downdetector的數據，事件高峰期間用戶回報數一度超過15萬筆。受影響地區包括紐約、華盛頓特區、紐澤西、賓州、佛羅里達、德州與加州等人口密集區。不少用戶在社群平臺反映，即使短暫恢復訊號，通話與行動上網仍不穩定，服務反覆中斷。 由於部分地區的行動通訊功能受限，華盛頓特區與紐約市等地方政府的緊急通報系統也發布提醒，告知民眾若無法透過Verizon裝置撥打緊急電話，可改用其他電信業者、市話，或直接前往警察分局與消防站通報，凸顯大型行動網路中斷對公共安全可能帶來的風險。 Veriz</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173376</guid>
+      <pubDate>Thu, 15 Jan 2026 04:30:11 +0000</pubDate>
     </item>
     <item>
-      <title>美國正式批准Nvidia出售H200予中國</title>
-      <link>https://www.ithome.com.tw/news/173340</link>
-      <description>新聞美國商務部工業與安全局（Bureau of Industry and Security，BIS）正式發布了《先進運算商品之出口許可審查政策修訂》（Revision to License Review Policy for Advanced Computing Commodities），把出口至中國的先進晶片審查機制從原本的「原則上拒絕」改為「逐案審查」，並即將於1月15日登上《聯邦公報》（Federal Register）。 根據新規定，對於技術指標低於特定門檻的先進運算商品，例如TPP低於21,000且總DRAM頻寬低於6,500GB/s的產品，像是Nvidia H200與AMD MI325X等高階AI晶片，都可透過逐案審查方式申請出口至中國或澳門。 不過，BIS也提出多項放行高階晶片出口的條件，包括出口商必須證明美國境內的相關晶片有充足供應，出口行為不會排擠美國的用量；收貨方亦必須展現足夠的資安與內部控管機制，並承諾晶片不得用於軍事用途。此外，所有要出口的相關晶片，都必須在美國接受獨立的第三方測試，以驗證其實際效能與規格是否符合申報內容。 美國總統川普（Donald Trump</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173340</guid>
-      <pubDate>Wed, 14 Jan 2026 05:17:52 +0000</pubDate>
+      <title>Google推出個人化Gemini功能 可從Gmail、搜尋、相簿擷取資訊</title>
+      <link>https://www.ithome.com.tw/news/173377</link>
+      <description>新聞Google今日（1/15）宣布個人化Gemini功能Personal Intelligence（個人化協助），讓Gemini可從用戶的Gmail、Google Photos或YouTube等服務擷取資訊提供更個人化的答案。這項服務將先推向美國，之後推向全球，但不提供給企業及教育帳號用戶。 Google指出，Personal Intelligence讓Gemini根據用戶資訊提供更貼近需求的回覆。Gemini會分析用戶輸入的提示、判斷能使用的已儲存的資訊、過往對話，以生成適切、符合用戶興趣和需求的資訊。 圖片來源／Google Google表示，Personal Intelligence具兩項特色。一是在多種複雜來源之間思考，以及從用戶儲存的資料，像是電子郵件或相片擷取特定細節。它會整合文字、相片和影片來提供個人化答案。 為此，Personal Intelligence首先整合的是Google自己的服務。用戶經由Gemini設定選單啟動本功能，即可和列出的Google服務，如Gmail、YouTube、相簿、搜尋或Google Workspace建立連結，以便Gemini從中搜尋資</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173377</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0115-Personal%20Intelligence-gemini-google.png" length="0" type="image/png"/>
+      <pubDate>Thu, 15 Jan 2026 04:50:26 +0000</pubDate>
     </item>
     <item>
-      <title>美國國會電子郵件系統疑似遭中國駭客入侵</title>
-      <link>https://www.ithome.com.tw/news/173335</link>
-      <description>新聞多家媒體報導指出，美國國會幕僚使用的電子郵件系統據報遭中國駭客入侵。這起事件由英國《金融時報（Financial Times）》於1月7日率先披露，隨後《GBHackers》與《路透社（Reuters）》等媒體也相繼跟進報導。 《金融時報》引述多名熟悉調查情況的消息人士指出，中國駭客已成功入侵美國國會幕僚使用的電子郵件系統，受影響的對象，包括隸屬於多個眾議院（House of Representatives）委員會，且在立法上具有高度影響力的幕僚人員。 事實上，美國眾議院委員會通常負責國家安全、預算撥款與科技監管等敏感政策領域，長期以來即是外國情報行動高度關注的目標。而對於相關指控，中國外交部發言人毛寧在例行記者會上否認中國涉案。 美國情報單位過去曾多次指出，中國駭客組織具備執行進階持續性威脅（Advanced Persistent Threat，APT）攻擊的能力，經常鎖定政府與企業網路環境，藉此蒐集立法相關通訊內容、政策討論資料，以及與中國相關計畫的敏感資訊。 此次事件曝光的時間點，也正值美中雙方在科技政策、貿易限制與國家安全議題上持續緊張之際。近年來，美國政府機構逐步公開更多</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173335</guid>
-      <pubDate>Wed, 14 Jan 2026 05:40:48 +0000</pubDate>
+      <title>摩根大通受合作的法務業者連累，外洩數百人資料</title>
+      <link>https://www.ithome.com.tw/news/173379</link>
+      <description>新聞知名跨國銀行摩根大通（JPMorgan Chase）上周向美國政府通報去年10月因合作的法律顧問公司發生資安事件，致使摩根大通外洩近700人的個資。 摩根大通上周向美國緬因州檢察長辦公室提交報告，並以電子郵件通知受影響的個人。 去年10月底摩根大通委託的法律顧問公司Fried, Frank, Harris, Shriver &amp;amp; Jacobson LLP（簡稱Fried Frank）通知其一個網路共享磁碟遭駭，部份檔案被竊取。但是Fried Frank直到12月才通知摩根大通此事。 外洩資料期間為2025年10月23日到27日。這家銀行強調，這起事件起源於Fried Frank，銀行本身系統並未被受影響，也保持安全無虞。 經由摩根大通和Fried Frank合作，確認事件影響摩根大通的某種基金投資客戶，以及相關個人如配偶或依授權書行事的代理人，總人數為659人。受影響資料包含全名、聯絡資訊（地址、電話或電子郵件）、金融帳戶號碼、社會安全號碼、護照號碼或其他政府核發的身分證號碼。摩根大通為受影響人士提供2年的信用監控服務。 這是繼高盛（Goldman Sachs）後，又一知名金融業者受</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173379</guid>
+      <pubDate>Thu, 15 Jan 2026 05:04:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
