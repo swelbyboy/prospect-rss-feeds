@@ -8,86 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 06:45:44 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 06:45:08 +0000</lastBuildDate>
     <item>
-      <title>傳 OpenAI 攜手 Jony Ive 打造 AI 耳機「Sweetpea」！搭載 2 奈米晶片、劍指 AirPods</title>
-      <link>https://www.techbang.com/posts/127459-openai-jony-ive-sweetpea-ai-earbuds</link>
-      <description>OpenAI 正秘密開發代號「Sweetpea」的 AI 耳機，搭載 2 奈米晶片與語音操控，目標直指 AirPods。OpenAI 跨足硬體，這款 AI 耳機預計 9 月亮相，引發市場高度關注。OpenAI 不甘只做軟體霸主？近期傳出他們正秘密開發一款代號為「Sweetpea」的 AI 耳機，找來蘋果前首席設計師 Jony Ive 操刀，目標直指 Apple AirPods。據傳這款耳機將搭載超高規格的 2 奈米晶片，主打透過自然語音隨意操控，預計最快今年 9 月就會亮相。 根據中國知名爆料客「智慧皮卡丘」在社群平台的最新說法，OpenAI 正在積極研發這款 AI 耳機，內部代號定為「Sweetpea」（香豌豆）。在外觀設計上，這款耳機將打破常規，採用類似「鵝卵石」的圓潤造型，並搭配金屬材質，質感似乎相當獨特。 最讓人驚訝的是硬體規格。爆料指出，OpenAI 打算在耳機內塞入一顆「2 奈米製程、智慧型手機等級」的晶片，目前傳出三星的 Exynos 晶片是最有可能的候選者。OpenAI 的野心不小，他們已經開發了一款客製化晶片，目的是讓使用者能完全透過語音指令操作，實現「取代滑手機、直</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127459-openai-jony-ive-sweetpea-ai-earbuds</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127459/thumb/0d631526576395bc58b54b36f857cd04.jpg?1768291948" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 14 Jan 2026 08:00:00 +0000</pubDate>
+      <title>秋葉原爆機荒！知名電腦店「貨架全空」急求中古舊機，高價收購連文書機都不放過！</title>
+      <link>https://www.techbang.com/posts/127433-akihabara-pc-shortage-stores-buy-used-pcs</link>
+      <description>日本秋葉原竟也鬧硬體荒！知名電腦店Sofmap Gaming急求舊電腦，因AI產業搶購導致記憶體與儲存裝置短缺，連二手電腦都無貨可賣。這波硬體荒讓向來貨源充足的秋葉原，面臨前所未有的窘境。日本秋葉原竟也鬧機荒？位於東京秋葉原的知名電腦專賣店 Sofmap Gaming，最近在社群平台 X（原 Twitter）上發布了一則近乎「求救」的貼文，拜託顧客趕快把手邊的舊電腦賣給他們。店家甚至貼出店內照片佐證，原本應該擺滿電競主機的貨架現在空空如也，顯示日本 PC 市場正面臨前所未有的「硬體荒」。 Sofmap Gaming 在貼文中急切地表示：「如果您添購了新設備，請務必把舊電腦賣給我們！」店家坦言，目前店內電競 PC 極度短缺，狀況慘烈到連二手庫存都已經徹底清空。 為了儘快填補貨架空缺，Sofmap 開出了相當誘人的條件。他們承諾將以「相當高的價格」進行收購，而且收購範圍極廣，不再僅限於高階電競桌機或電競筆電，就連一般的文書電腦（辦公電腦）也來者不拒，店家表示「通通都要」。 這種缺貨現象其實有跡可循。早在去年 11 月，日本就有部分電腦零組件通路試圖針對 DDR5 記憶體、SSD 和 HDD</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127433-akihabara-pc-shortage-stores-buy-used-pcs</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127433/thumb/76f4c0a3fc94e219c5a720422d0e15d2.jpg?1768211119" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 00:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>微軟手滑誤殺「啟用神器」！Defender 竟把正版 MAS 當木馬擋，想用得先關防毒</title>
-      <link>https://www.techbang.com/posts/127431-defender-mistakenly-blocks-mas-activation</link>
-      <description>微軟 Microsoft Defender 為打擊惡意軟體，竟誤殺正版 MAS 啟用腳本。使用者執行 MAS 指令時，Microsoft Defender 卻將其誤判為釣魚網站，引發爭議。微軟（Microsoft）為了打擊盜版與惡意軟體，最近似乎有點「用力過猛」，竟然連網路上最知名的 Windows/Office 啟用腳本工具 MAS（Microsoft Activation Scripts）都一起封殺。 根據社群回報，使用者現在如果在 PowerShell 執行 MAS 的啟用指令，會直接被 Microsoft Defender 攔截並報錯，原因是微軟把正版 MAS 網域誤判為帶有惡意程式的釣魚網站。 事情的起因其實是微軟原本想做件好事。近期網路上出現了模仿 MAS 的惡意網站，駭客註冊了極為相似的網域，誘騙使用者下載帶有病毒的假冒版工具。微軟得知後，透過更新 Microsoft Defender 的病毒定義檔來阻擋這些惡意連結。 然而，微軟工程師在設定阻擋規則時似乎「手滑」出了包，因為現在連真正的 MAS 官方啟用指令也無法執行了。 為什麼說這是誤殺？從 Microsoft Def</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127431-defender-mistakenly-blocks-mas-activation</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127431/thumb/41402167954b81ed410bcd561c542746.jpg?1768210680" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 14 Jan 2026 08:30:00 +0000</pubDate>
+      <title>BCN 公布最新相機銷售狀況！Sony A7 V 首發銷量表現強勁，EOS R6 Mark III 緊追在後</title>
+      <link>https://www.techbang.com/posts/127484-bcn-camera-sales-sony-a7v-strong-r6-m3-follows</link>
+      <description>BCN+R 日前公布最新2025 年 12 月份銷售數據，Sony A7 V 甫上市就表現極為亮眼，在首發月份的市場排名便超越了前一個月剛上市的強勁對手 Canon EOS R6 Mark III。BCN+R 日前公布最新2025 年 12 月份銷售數據，Sony A7 V 甫上市就表現極為亮眼，在首發月份的市場排名便超越了前一個月剛上市的強勁對手 Canon EOS R6 Mark III。 Sony A7 V 展現驚人爆發力 根據日本市場調查機構 BCN+R 最新的統計，Sony A7 V 於 2025 年 12 月正式開賣後，迅速衝上銷售排行榜第七名，成為當月份排名最高的全片幅機種。相較之下，被視為同級勁敵、且早一個月於 11 月上市的 Canon EOS R6 Mark III，雖然在 11 月首發時取得了第十一名的佳績，但在 12 月的榜單中卻跌出前二十名。儘管 BCN 的數據僅代表相對排名而非精確的總銷售量，且銷售走勢可能受到通路供貨穩定度與首波預購消化的影響，但 Sony A7 V 展現出的強勁買氣，確實令許多市場觀察家感到驚艷。 兩大品牌技術規格的短兵相接 這兩款相機之</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127484-bcn-camera-sales-sony-a7v-strong-r6-m3-follows</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127484/thumb/31cf6ff1b5bfb04f02e9a170037fb75b.jpg?1768357887" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 01:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>LINE GO 公布 2025 年度數據：短租需求大增 6 倍、高鐵與機場接送成熱點</title>
-      <link>https://www.techbang.com/posts/127495-line-go-2025-data-short-rental-demand-up-6x</link>
-      <description>LINE GO 2025 年度移動數據回顧揭示台灣城市移動模式的顯著轉變。這份 LINE GO 數據顯示，共享運具已從特定情境走向日常化，用戶選擇更趨多元彈性。LINE GO 近期公布了 2025 年度用戶移動數據回顧，涵蓋了計程車、租車、機場接送等多項服務的使用情形。數據顯示，台灣的城市移動模式出現顯著變化，共享運具的使用已從過去的特定情境走向日常化，用戶的消費決策也從單純的價格導向轉為體驗導向，不同區域的經濟活動更塑造出截然不同的移動樣態。 在計程車叫車服務方面，LINE GO 用戶數已突破 485 萬，數據分析發現，30 至 39 歲的族群是選擇搭乘「減碳車」的主要使用者，顯示此年齡層對於 ESG 與環境永續議題具有較高的意識。若觀察叫車熱點，台中高鐵站成為全台叫車量最高的地標，反映出台中作為承接南北商務客與旅遊中轉的樞紐地位，在跨城移動需求中扮演重要角色。 機場接送服務在 2025 年則呈現出對效率的高度追求，根據平台統計，乘客在領完行李後，平均僅需等待 4 分鐘即可上車，值得注意的是，台中西屯區的用戶最常使用接送機服務，顯示該區域擁有強勁的商務與國際移動頻率。為了回應這些需求</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127495-line-go-2025-data-short-rental-demand-up-6x</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127495/thumb/3671686c02d76ae8c6634a3365605c2d.png?1768369830" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 14 Jan 2026 23:30:00 +0000</pubDate>
+      <title>人形機器人市場成長中，中國品牌市占率最高，特斯拉躋身前五大 OEM</title>
+      <link>https://www.techbang.com/posts/127510-humanoid-robots-china-tesla-top-5-oem</link>
+      <description>全球人形機器人產業正迎來爆發性成長！Counterpoint報告揭示，2025年人形機器人商業應用將有顯著進展，AGIBOT與Unitree等巨頭引領市場佔有率。根據市調機構 Counterpoint Research 最新發布的《人形機器人研究》報告顯示，2025 年全球人形機器人產業在商業化應用上有所進展，年度安裝量約為 16,000 台。報告分析指出，這波成長的主要動能來自資料蒐集與研究、倉儲物流、製造業以及汽車產業等四大應用場域，而在市場競爭版圖方面，以安裝量計算，前五大原始設備製造商（OEM）在 2025 年合計佔據了全球 73% 的市場佔有率，顯示產業集中度相對較高。 在個別廠商表現部分，成立於 2023 年 2 月的上海新創公司 AGIBOT，在 2025 年以 31% 的市佔率位居領先地位，AGIBOT 迅速擴充產品線，並於同年開始量產 AGIBOT X2 與 G2 兩款人形機器人，AGIBOT 採取開源策略，並利用其人形操作資料集，將產品應用範圍拓展至餐旅、娛樂、製造與物流等產業，截至目前為止，AGIBOT 位於上海的工廠已出貨超過 5,000 台人形機器人，顯示其商</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127510-humanoid-robots-china-tesla-top-5-oem</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127510/thumb/6fb0ae94de4de682d5b13ffc0934e9f7.jpg?1768456150" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 02:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Intel高層驚爆：PC遊戲最大殺手不是畫質，而是「它」！</title>
-      <link>https://www.techbang.com/posts/127438-intel-smoothness-core-pc-gaming</link>
-      <description>Intel高層Tom Peterson直指「卡頓」是破壞PC遊戲體驗的最大殺手。為提供更佳的遊戲體驗，Intel正積極利用AI與新技術消除卡頓，致力讓遊戲執行如絲般流暢。Intel 進軍獨立顯示卡市場的時間雖短，但進步有目共睹，這很大程度上要歸功於像湯姆彼得森（Tom Peterson）這樣資深高層的精準眼光。近期他在接受知名技術分析媒體 Digital Foundry 專訪時，針對 PC 遊戲的發展方向提出了一番見解，直言「卡頓」（Stuttering）才是目前破壞玩家體驗的最大殺手。 彼得森坦承，對於遊戲技術的未來，他現階段最關心的並不是畫面是否能達到照片級的逼真度。他認為，現在遊戲體驗之所以讓人出戲，主因並非畫面不夠寫實，而是惱人的卡頓問題遲遲未能徹底解決。為了改善這點，Intel 及其顯卡部門正致力於讓遊戲執行與畫面呈現都能達到「如絲般流暢」的境界。 「我認為畫面不夠逼真並不是破壞沉浸感的主因，真正的問題在於畫面卡頓。」彼得森如此強調。 為了形象化這個目標，他特別提到了 Google 當年為了讓 Android 手機操作滑順而推動的「Project Butter」（奶油計畫）。</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127438-intel-smoothness-core-pc-gaming</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127438/thumb/d431f59966b196d2bd6cf906b58fc8f1.jpg?1768212872" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 15 Jan 2026 00:30:00 +0000</pubDate>
+      <title>串流大戰變收購戰！Netflix 傳砸全現金收購華納兄弟，不讓派拉蒙惡意搶親</title>
+      <link>https://www.techbang.com/posts/127518-netflix-acquires-warner-bros</link>
+      <description>這場 Netflix 與華納兄弟的收購大戰，全現金策略能否成功，引發市場高度關注。這場好萊塢史上最大的收購戲碼又有新進展了！影音串流龍頭 Netflix 傳出正考慮修改收購華納兄弟探索（WBD）的協議，打算祭出「全現金」的大絕招。這項變動不僅是為了加速繁瑣的交易流程，更被視為是針對派拉蒙（Paramount）近期發起的惡意收購進行強力防堵。 根據《金融時報》報導，Netflix 準備將原本 830 億美元（約新台幣 2 兆 6,560 億元）的「股票加現金」方案，調整為更直接的全現金報價。消息人士透露，此舉是為了向華納兄弟的股東提供更簡單、風險更低的選擇，畢竟對投資人來說「現金才是王道」。不過，目前相關調整仍在討論階段，最終方案仍有變數。 回顧這場交易，Netflix 在去年 12 月提出的初步協議中，對華納兄弟的估值為每股 27.75 美元（約新台幣 888 元）。當時的方案是每股支付 4.50 美元（約新台幣 144 元）的 Netflix 股票，其餘為現金。然而，隨著 Netflix 股價近期波動，週二股價一度跌至 89.07 美元（約新台幣 2,850 元），相比去年 10 月</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127518-netflix-acquires-warner-bros</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127518/thumb/3bc4b92c2c27477a0fb58c406995cddf.jpg?1768463936" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 03:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Sony 2026 年新產品震撼彈：FX3 II 與 A7R VI 領銜，多款重點新機傳聞總整理</title>
-      <link>https://www.techbang.com/posts/127446-sony-2026-fx3-ii-a7r-vi-rumors</link>
-      <description>根據國外媒體報導，Sony 正準備在 2026 年大展身手，新產品將橫跨全片幅錄影、高畫素旗艦以及高階隨身機的全面性更新計畫，展現出 Sony 試圖在專業動態攝影與極致靜態影像領域持續領先的野心。根據國外媒體報導，Sony 正準備在 2026 年大展身手，新產品將橫跨全片幅錄影、高畫素旗艦以及高階隨身機的全面性更新計畫，展現出 Sony 試圖在專業動態攝影與極致靜態影像領域持續領先的野心。 FX3 II 或將迎來全域快門技術 在專業錄影市場中，FX3 憑藉著優秀的錄影性能與散熱和輕巧緊湊設計立下了汗馬功勞。傳聞指出，下一代 FX3 II 在 2026 年問世的機率高達 90%。這台新機最受矚目的焦點在於核心感光元件的升級，目前有兩種主要的技術推測：一是採用 A7 V 相同的 3,300 萬畫素的部分堆疊式感光元件；二則是更大膽地導入全域快門技術。若最終選擇後者，將能徹底解決果凍效應問題，配合更強大的機身散熱效能，FX3 II 將在動態影片拍攝上提供更豐富的錄製選項與可靠性。 A7R VI 鎖定更高畫質表現 針對追求極致靜態影像品質的攝影師，A7R 系列始終是指標性的存在。在 A7R I</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127446-sony-2026-fx3-ii-a7r-vi-rumors</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127446/thumb/4162a6630d8b9d26b232813a7304a0b6.jpg?1768271081" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 15 Jan 2026 01:30:00 +0000</pubDate>
+      <title>中華電信、Disney+ 聯手！北高打造主題門市，申辦指定方案再抽迪士尼樂園雙人行</title>
+      <link>https://www.techbang.com/posts/127509-chunghwa-disney-plus-stores-disney-trip</link>
+      <description>中華電信與迪士尼合作，推出 Disney+ 專屬優惠，並於台北、高雄設置迪士尼主題門市；申辦 Disney+ 指定方案可參加抽獎活動。中華電信繼日前宣布與迪士尼合作，針對行動、寬頻與影視用戶推出 Disney+ 專屬優惠後，進一步宣布於台北與高雄打造迪士尼主題門市，即日起對外開放。活動期間，民眾申辦指定 Disney+ 相關方案，還有機會免費飛美國洛杉磯享三天迪士尼專屬寵粉行程、免費飛日本東京暢遊迪士尼樂園。 中華電信打造迪士尼主題門市，融合動物方城市、冰雪奇緣等佈景 中華電信於北、高兩地設置迪士尼主題門市，分別在台北南區服務中心與高雄服務中心。其中，台北南區服務中心於店外設置《動物方城市+》大型布景，店內則規劃米奇、《冰雪奇緣》角色艾莎與安娜等拍照區；高雄服務中心店外可見米奇與布魯托主題裝置，店內亦融入多項迪士尼元素，提供民眾拍照與體驗。 申辦 Disney+ 指定方案，就有機會飛美國洛杉磯享三天迪士尼行程 中華電信表示，此次合作結合旗下 Hami Video 與 Disney+ 的內容資源，提供用戶更多元的影視選擇，並鎖定家庭市場，強化整合行動、固網與影音服務的應用體驗。現申辦精采</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127509-chunghwa-disney-plus-stores-disney-trip</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127509/thumb/16088ba79ecd232d0df57c460b6c4ddb.jpg?1768455581" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 04:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI寫程式碼恐變「豆腐渣工程」？Cursor 執行長警告盲目依賴「氛圍程式設計」的隱憂</title>
-      <link>https://www.techbang.com/posts/127161-ai-coding-cursor-ceo-warns-against-blind-reliance</link>
-      <description>AI寫程式碼恐變「豆腐渣工程」？Cursor 執行長警告盲目依賴「氛圍程式設計」的隱憂根據 Fortune 報導，知名 AI 程式設計工具 Cursor 的執行長麥可・特魯爾（Michael Truell）發出嚴正警告，點名「氛圍程式設計」（Vibe Coding）雖然能快速生成程式碼，卻可能讓軟體基礎變得搖搖欲墜。 特魯爾說明，儘管生成式 AI 已經讓寫程式從過去的手動敲打，進化到現在的指令互動，但如果過度依賴 AI，恐怕會帶來嚴重的隱憂。 他解釋，「氛圍程式設計」指的是開發者完全「閉著眼睛」，不仔細審視程式碼細節，只靠 AI 完成端對端的任務。這種方式雖然省力，卻很可能為未來埋下龐大的技術債。 特魯爾將這種「氛圍程式設計」比喻成蓋房子：只搭起四面牆和屋頂，卻對地板下的線路和結構一無所知。他警告，這種做法或許適合快速製作遊戲原型或簡單網站，但若應用在複雜專案時，風險將會極高。 「當你閉著眼睛讓 AI 在不穩固的基礎上建構東西，隨著樓層一層層堆疊，整個系統最終會開始崩塌。」特魯爾強調，無論 AI 再怎麼強大，開發者還是得保留「掀開引擎蓋」檢查的能力，才能確保軟體品質。 相較於這種盲目的</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127161-ai-coding-cursor-ceo-warns-against-blind-reliance</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127161/thumb/bf55d7b1fc8e326bbc29b64133cae0d7.jpg?1766740609" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 15 Jan 2026 02:30:00 +0000</pubDate>
+      <title>隨機殺人犯電競筆電「BitLocker 加密」太強大，檢警靠這招繞道強行破碼</title>
+      <link>https://www.techbang.com/posts/127528-bitlocker-bypass-killer-gaming-laptop</link>
+      <description>預設的BitLocker 加密技術成為高牆，但最終仍被突破，揭露了犯罪動機。這台電競筆電的BitLocker 加密如何被破解，過程比電影還精采。台北地檢署今天針對張文隨機殺人案召開結案記者會。這起造成 4 死 11 傷、震驚全台的慘劇，能順利拼湊出犯罪動機，關鍵就在於檢警成功突破了嫌犯那台被縱火燒毀、且具備高階加密技術的「電競筆電」。據了解，這場科技攻防戰背後有著華碩與三星兩大電子巨頭的跨國支援，過程比電影還要精采。 預設加密 BitLocker 成高牆 密碼組合高達 10 的 48 次方 案發後，檢警在張文的租屋處搜出一台華碩 ROG 電競筆電。雖然外殼因縱火燒毀，但內部的 2TB SSD 固態硬碟仍保存完好。麻煩的是，這台筆電搭載 Windows 11 作業系統，並啟動了預設的「BitLocker」數位加密技術。 這項技術使用 48 個字元的數字密碼，破解難度相當於從 10 的 48 次方種組合中尋找唯一答案，就連刑事局科偵人員起初也束手無策。正當調查陷入僵局時，華碩主動出擊，聯繫台北市刑大表示願意提供技術協助。 韓籍專家靠「同型機、同批號」繞過防線 為了這顆硬碟，華碩甚至動員了硬</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127528-bitlocker-bypass-killer-gaming-laptop</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127528/thumb/b4d707f23a25c6eacb2d50d7bced5703.jpg?1768540342" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 05:12:00 +0000</pubDate>
     </item>
     <item>
-      <title>2025 全球手機市佔報告：Apple、Samsung 與 Xiaomi 分居前三，高階化策略成關鍵</title>
-      <link>https://www.techbang.com/posts/127458-2025-mobile-market-apple-samsung-xiaomi-top3-premium-key</link>
-      <description>2025年全球智慧型手機市場延續復甦，出貨量年增2%。高階裝置與5G普及是主要成長動力，然而2026年智慧型手機市場出貨量預測已下修，未來挑戰值得關注。根據市調機構 Counterpoint Research 發布的《Market Monitor》初步數據顯示，2025 年全球智慧型手機市場延續了復甦態勢，全年度出貨量相較於前一年成長了 2%。這是全球智慧型手機市場連續第二年呈現正成長，顯示整體產業環境正趨於穩定。 根據分析，2025 年市場能維持溫和成長的動力，主要來自於高階裝置在銷售佔比上的提升，以及新興市場對於 5G 智慧型手機的採用率持續普及，而在季度表現方面，2025 年第四季全球智慧型手機出貨量年增 1%，成長幅度相對有限，這主要是受到前期庫存調整的影響。在該季度中，Apple 的市佔率約為 25%，Samsung 則約為 19%。 觀察各家品牌在 2025 年的全年表現，Apple 以 20% 的市佔率位居全球首位，其全年出貨量與去年同期相比成長了 10%。Counterpoint Research 資深分析師 Varun Mishra 分析指出，Apple 本次的出貨成</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127458-2025-mobile-market-apple-samsung-xiaomi-top3-premium-key</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127458/thumb/1db0cc7266a9d23517649eeff654096e.jpg?1768291600" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 15 Jan 2026 03:00:00 +0000</pubDate>
+      <title>OPPO 推出 A6s 5G 與 A6x 5G，萬元內定位的大電量 5G 新機</title>
+      <link>https://www.techbang.com/posts/127515-oppo-a6s-a6x-5g-large-battery</link>
+      <description>OPPO 推出萬元內 A6 系列 5G 新機，鎖定日常使用情境。這款 OPPO A6 系列 5G 不僅提供大尺寸螢幕、長時間續航與防塵防水，更以穩定效能與優異續航表現，成為長輩用機或備用機的理想選擇。迎接年初換機需求，OPPO 推出萬元內的 A6 系列 5G 新機，包含定位較完整規格的 OPPO A6s 5G，以及價格更親民的 OPPO A6x 5G，兩款皆鎖定日常使用情境，提供大尺寸螢幕、長時間續航與 5G 連線功能，作為長輩用機、備用機或戶外使用都有相對完整的配置。 A6 系列延續 OPPO 將部分中高階規格下放至入門價位帶的策略，導入最高 80W SUPERVOOC 快充、7000 mAh 電量與 IP69 防塵防水等設計，並支援水下相機模式，全系列皆配備 6.75 吋螢幕，更新率為 120 Hz，最高亮度可達 1125 nits，搭載 MediaTek Dimensity 6300 處理器，並運行 ColorOS 15 系統介面，整體配置以穩定與易上手為主要考量。 OPPO A6s 5G 在續航與充電配置上較為完整，搭載 7000 mAh 電池容量，並支援 80W 快充，能在較</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127515-oppo-a6s-a6x-5g-large-battery</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127515/thumb/a24925abe469743a03bcc9bb6feb45e8.jpg?1768462497" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 05:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>重要資料安心存，大檔傳輸更省時：Toshiba N300 Pro 24TB × QNAP TVS-h874 專為中小企業與工作室打造的安全高速儲存解決方案</title>
-      <link>https://www.techbang.com/posts/127356-toshiba-n300-pro-qnap-tvs-h874-smb-storage</link>
-      <description>中小企業與工作室的資料壽命超乎想像，選擇可靠的 NAS 儲存方案至關重要。Toshiba N300 Pro 24TB NAS 硬碟專為長期穩定運作設計，確保您的寶貴資料安全無虞，大幅提升工作效率。資料的壽命往往超乎想像 對多數中小企業與工作室而言，資料一旦產生，幾乎不可能只是「用完就丟」，其生命週期往往超乎我們的想像。無論是設計專案、影音素材、客戶檔案，或是帳務與營運相關資料，少則需要數年，多則必須長期留存，甚至隨著時間推移，逐漸累積成企業最核心、也最難以取代的數位資產。 然而真正的問題在於，資料量年年成長，但儲存設備的選擇卻往往停留在過去的思維。不少使用者仍以「容量夠大就好」、「能備份就好」作為選擇標準，忽略了長時間運作、頻繁存取與資料完整性所帶來的風險。直到某一天發生異常，才驚覺資料難以復原，工作流程被迫中斷，甚至影響營運與客戶信任。 也正因如此，對 NAS 而言，「存得久、存得穩」從來不是額外加分的選項，而是最基本、也最不可妥協的核心要求。 ▲ 對 NAS 來說，長期穩定運作不是加分，而是基本門檻。 NAS 長期穩定的關鍵往往在硬碟本身 即使 NAS 主機規格再高，處理器與網路再</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127356-toshiba-n300-pro-qnap-tvs-h874-smb-storage</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127356/thumb/25ae4e06e49a602cb0657e09e688f6fc.jpg?1768446643" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 15 Jan 2026 03:30:00 +0000</pubDate>
+      <title>Gemini 推「個人化智慧服務」：可連結 Gmail、Google 相簿等應用程式，提供量身打造的答案</title>
+      <link>https://www.techbang.com/posts/127516-gemini-personalized-services-google-apps</link>
+      <description>Google 宣布為 Gemini 推出「個人化智慧服務」，讓用戶能夠一鍵連結 Gmail、Google 相簿、YouTube 和 Google 搜尋等應用程式中的資訊，提供更個人化、量身打造的回應。Google 宣布為 Gemini 推出「個人化智慧服務」（Personal Intelligence），讓用戶能夠一鍵連結 Gmail、Google 相簿、YouTube 和 Google 搜尋等應用程式中的資訊，提供更個人化、量身打造的回應。Gemini 個人化智慧服務目前正以測試版形式在美國率先向付費用戶推出。 個人化智慧服務應用場景 「個人化智慧服務」有兩大核心優勢，分別是跨來源的推理能力，以及從電子郵件或照片中擷取特定細節來回答問題的能力。它通常會結合這兩者，跨足文字、照片和影片，提供量身打造的答案。 舉例來說，有一個家庭的 2019 年 Honda 休旅車需要更換輪胎。車主在修車廠排隊時，才發現自己並不清楚輪胎尺寸，於是向 Gemini 詢問。雖然目前任何聊天機器人都能查到輪胎規格，但透過「個人化智慧服務」連結各個應用程式後，Gemini 能夠提供更進一步的協助。它會參考 Go</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127516-gemini-personalized-services-google-apps</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127516/thumb/583c28d41ecebaaac07a916768efd4b8.jpg?1768473452" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>《凶宅專賣店》驚悚台劇 Disney+ 上線，同步推出「詭異物件」線上賞屋網站</title>
-      <link>https://www.techbang.com/posts/127454-haunted-house-disney-plus-eerie-objects</link>
-      <description>《凶宅專賣店》1/16 上線，由李銘順、范少勳主演；Disney+ 更推出互動賞屋網站，讓觀眾在動力火車的主題曲中，親身探索暗藏菜刀與祭壇的詭異物件，挑戰台劇驚悚新高度。Disney+ 懸疑驚悚台劇《凶宅專賣店》即將於 1 月 16 日正式上線。影集由《女鬼橋》導演奚岳隆與郝芳葳聯手執導，集結金鐘視帝李銘順、金馬新人范少勳及陳姸霏領銜主演。故事圍繞神祕房仲公司「義勝房屋」展開，透過一間間令人毛骨悚然的凶宅，引導出亡靈與生者間錯綜複雜的糾葛。《凶宅專賣店》在台北電影節首映後便收穫「好評炸裂」的評價，影評與房仲業界人士紛紛盛讚其在驚悚氛圍與人性刻劃間取得了完美平衡。 看恐怖片看到哭？深刻情感渲染人心 《凶宅專賣店》不以單純驚嚇為目的，在導演郝芳葳的細膩處理下，深刻的情感渲染更直擊人心。擁有 17 年資歷的知名房仲文奕夫對劇情直呼共鳴，特別是范少勳飾演的「阿澤」，為了籌措妹妹的換心手術費，毅然投身凶宅買賣。面對「為何入行」的提問，文奕夫的一句反問：「窮和鬼，哪個比較可怕？」道盡了現實壓力下的無奈。這正是劇中的核心價值：鬼固然可怕，但人的執念與生存壓力，往往更令人心碎。 此外，劇中鬼魂「丟彈珠</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127454-haunted-house-disney-plus-eerie-objects</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127454/thumb/547c24979a6cfeb6ceb3dedc3e02e260.jpg?1768288417" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 15 Jan 2026 04:30:00 +0000</pubDate>
+      <title>REDMI Note 15 系列四款新機發表，支援 Google 錢包一卡通</title>
+      <link>https://www.techbang.com/posts/127530-redmi-note-15-series-new-phones</link>
+      <description>小米 REDMI Note 15 系列強勢來襲！憑藉 2 億畫素主鏡頭與卓越續航力，REDMI Note 15 系列在攝影與續航方面樹立新標竿，為您帶來頂級體驗。小米正式宣布推出 REDMI Note 15 系列智慧型手機，本次共發表四款機型，分別為 REDMI Note 15 Pro+ 5G、REDMI Note 15 Pro 5G、REDMI Note 15 5G 以及 REDMI Note 15。 REDMI Note 15 系列主要針對電池續航力、攝影規格以及機身防護能力進行硬體規格更新，其中高階款機型採用了該系列目前最大容量的電池配置，並導入新款感光元件與 AI 運算引擎，同時在防塵防水與抗摔測試上取得了相關認證，滿足使用者對於手機耐用度與長時間操作的實務需求。 在影像規格部分，REDMI Note 15 Pro+ 5G 與 REDMI Note 15 Pro 5G 均配置 2 億畫素主鏡頭，搭載 1/1.4 吋感光元件，透過感光元件裁切技術，可提供 2 倍與 4 倍的光學級無損變焦拍攝，焦段覆蓋範圍約為 23mm 至 92mm。配合內建的 AI Engine 進行影像運算，</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127530-redmi-note-15-series-new-phones</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127530/thumb/85056503c64e007080693e483a21b258.jpg?1768543715" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 06:09:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic 也推醫療版 AI，Claude for Healthcare 可結合使用者病史提供就醫建議</title>
-      <link>https://www.techbang.com/posts/127483-anthropic-claude-healthcare-ai</link>
-      <description>Anthropic 式推出全新醫療專用版本「Claude for Healthcare」，進一步將旗下大型語言模型 Claude 拓展至醫療與生命科學領域。繼 OpenAI 推出 ChatGPT Health，AI 公司 Anthropic 近日也宣布，正式推出全新醫療專用版本「Claude for Healthcare」，進一步將旗下大型語言模型 Claude 拓展至醫療與生命科學領域。新服務主打符合 HIPAA 規範，可安全整合醫療機構資料，並在使用者授權下結合個人病史與檢驗結果，協助醫師、保險機構與一般民眾提升就醫與醫療決策效率。 延伸閱讀：OpenAI 推出「ChatGPT Health」：打造專屬健康管理空間，強調輔助醫療照護而非取代醫生 串接醫療系統，加速臨床與保險流程 Anthropic 表示，Claude for Healthcare 是在去年推出「Claude for Life Sciences」之後的延伸應用。隨著最新模型 Claude Opus 4.5 在推理能力與降低錯誤幻覺方面大幅提升，Claude 已更適合投入真實世界的醫療與科研任務，包括臨床行政、病患照護</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127483-anthropic-claude-healthcare-ai</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127483/thumb/4f9e4f22f41f79949801dc9cdce5f611.jpg?1768359253" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 15 Jan 2026 05:30:00 +0000</pubDate>
+      <title>Windows系統電話啟動走入歷史！微軟證實已關閉舊制系統，離線電腦現在要「這樣」救</title>
+      <link>https://www.techbang.com/posts/127430-windows-phone-activation-ends-offline-pc-fix</link>
+      <description>微軟Windows與Office的電話啟動服務將於2025年走入歷史，傳統的電話啟動方式正式退場。對於離線電腦的啟用，未來將改為透過線上自助平台搭配手機完成，離線電腦用戶需適應這項新變革。以前幫沒有連網路的電腦安裝 Windows 或 Office 時，許多老玩家都習慣透過「電話啟動」的方式，聽語音輸入一長串數字來完成驗證，現在這個經典的步驟確定走入歷史了。微軟官方證實，旗下 Windows 與 Office 產品的電話啟動系統已於 2025 年 12 月 3 日正式停止服務。不過用戶也別太擔心，雖然不能打電話了，但仍可透過「線上自助平台」搭配手機來救援，完成離線電腦的產品啟用。 根據微軟官方消息，這套過去廣泛應用於 Windows 和 Office 的電話語音系統已經退場。以前的流程是使用者輸入產品金鑰後，系統會跑出一組安裝識別碼（Installation ID），接著打電話給微軟，輸入這組號碼換取確認識別碼（Confirmation ID），全程都不需要網路。但在新制實施後，這項「完全離線」的途徑已經不存在，因為你至少手邊要有一台能上網的手機或電腦，才能連上微軟的線上入口網站。 雖</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127430-windows-phone-activation-ends-offline-pc-fix</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127430/thumb/548786f93d070638cb323c61f99b26b6.jpg?1768210046" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 06:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

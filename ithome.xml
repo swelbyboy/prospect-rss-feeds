@@ -8,79 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 06:41:27 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 06:41:12 +0000</lastBuildDate>
     <item>
-      <title>Anthropic捐150萬美元挺Python基金會，強化PyPI供應鏈防護</title>
-      <link>https://www.ithome.com.tw/news/173344</link>
-      <description>新聞Python軟體基金會宣布，已與AI公司Anthropic建立為期兩年的合作關係，Anthropic將在兩年內合計提供150萬美元，支持基金會推進以Python生態系安全工作。基金會指出，這筆資金將用於推動CPython與Python套件索引PyPI的安全強化，同時也會支援基金會維持語言、生態系與社群運作所需的核心工作。 基金會把重點放在降低PyPI面臨的供應鏈攻擊風險，官方提到，資金將用來推進既定的安全藍圖，並規畫開發新的自動化工具，針對所有上架到PyPI的套件進行主動審查。該工作的目的在於補足現行流程較偏向事後反應式審查的限制，希望讓平臺能更早攔截可疑套件，降低使用者下載到惡意內容的機率。 為了支撐主動審查工具的設計與驗證，基金會也預告將建立一套已知惡意軟體資料集，並以能力分析作為方法基礎，協助後續工具在辨識惡意行為時有可依循的樣本與特徵。同時指出，這些工具與資料集將具可移轉性，未來有機會延伸到其他開源套件儲存庫，先從Python生態系開始，逐步擴大到更多開源社群。 在人力編制方面，基金會表示，這項工作將延續基金會駐點安全開發者Seth Larson所提出的安全藍圖，並由PyP</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173344</guid>
-      <pubDate>Wed, 14 Jan 2026 09:05:06 +0000</pubDate>
+      <title>【資安日報】1月16日，Palo Alto Networks修補能被用於停止防火牆運作的資安漏洞</title>
+      <link>https://www.ithome.com.tw/news/173401</link>
+      <description>新聞Palo Alto Networks揭露高風險阻斷服務漏洞，若不處理攻擊者恐讓防火牆停擺 最近幾個月駭客鎖定Palo Alto Networks防火牆或SSL VPN服務GlobalProtect的情況，已有多次大規模掃描的活動，一旦這些系統存在弱點，很可能成為攻擊者利用的對象，而受到外界關注。 本週資安公司Palo Alto Networks修補高風險阻斷服務（DoS）漏洞，引起各家資安新聞媒體報導。1月15日Palo Alto Networks發布資安公告，指出防火牆作業系統PAN-OS存在高風險漏洞CVE-2026-0227，未經身分驗證的攻擊者可導致防火牆出現服務中斷的現象，若反覆觸發漏洞，還會讓防火牆進入維護模式，4.0版CVSS風險為7.7分，影響PAN-OS及SASE平臺Prisma Access用戶，該公司已為10.2至12.1版PAN-OS，以及10.2與11.2版Prisma Access發布更新修補，由於沒有其他替代緩解措施，他們呼籲用戶要儘速安裝更新。 上述存在弱點的系統，只有在啟用GlobalProtect的狀態，包含開放閘道或是入口網站，才會存在風險。P</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173401</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1768405391874.png" length="0" type="image/png"/>
+      <pubDate>Fri, 16 Jan 2026 03:44:04 +0000</pubDate>
     </item>
     <item>
-      <title>衛福部公布主權雲八大方針，醫療雲端採購新基準出爐</title>
-      <link>https://www.ithome.com.tw/news/173353</link>
-      <description>新聞過去一年，醫療機構接連成為駭客攻擊目標，從國內醫院遭勒索軟體入侵，到國外大型醫療機構和保險系統發生資料外洩事件，都讓一個問題浮上檯面：醫療資料適合放在雲端嗎？如果要放，怎麼放才安全？ 衛福部資訊處今日（1/14）首次揭露主權雲政策及八大指導方針，回答了誰管資料、誰管系統、誰握鑰匙等三大關鍵問題，也定義了不同風險的資料，應放在不同等級的雲上。 為什麼醫療資料特別敏感？ 衛福部資訊處處長李建璋先是點出，醫療資料和金融資料最大的不同，在於能不能補救。 信用卡被盜，可以換卡；帳號外洩，可以重設密碼。但病歷、基因資料、特定疾病紀錄，一旦被看見、被複製、被用來分析，這件事就沒有重來的機會。這些資料幾乎伴隨一個人一輩子，就像是每個人的數位DNA。 這類資料一旦外流，不只可能被用來詐騙，還可能影響保險、就業，甚至被拿來做未經同意的AI分析。也因此，衛福部將這類醫療與公共衛生資料定位為「準國安等級」，必須用比一般資訊更嚴格的方式管理。 公雲服務的3大隱形風險 李建璋坦言，現有的商業公有雲技術相當成熟，效能與彈性都有其優勢。但真正的風險，往往不在技術本身，而在治理。 他看到的公雲治理風險有3個，首先是</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173353</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E8%B3%87%E6%96%99%E5%88%86%E7%B4%9A.JPG" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 14 Jan 2026 09:41:53 +0000</pubDate>
+      <title>Palo Alto Networks揭露高風險阻斷服務漏洞，若不處理攻擊者恐讓防火牆停擺</title>
+      <link>https://www.ithome.com.tw/news/173399</link>
+      <description>新聞最近幾個月駭客鎖定Palo Alto Networks防火牆或SSL VPN服務GlobalProtect的情況，已有多次大規模掃描的活動，一旦這些系統存在弱點，很可能成為攻擊者利用的對象，而受到外界關注。 本週資安公司Palo Alto Networks修補高風險阻斷服務（DoS）漏洞，引起各家資安新聞媒體報導。1月15日Palo Alto Networks發布資安公告，指出防火牆作業系統PAN-OS存在高風險漏洞CVE-2026-0227，未經身分驗證的攻擊者可導致防火牆出現服務中斷的現象，若反覆觸發漏洞，還會讓防火牆進入維護模式，4.0版CVSS風險為7.7分，影響PAN-OS及SASE平臺Prisma Access用戶，該公司已為10.2至12.1版PAN-OS，以及10.2與11.2版Prisma Access發布更新修補，由於沒有其他替代緩解措施，他們呼籲用戶要儘速安裝更新。 上述存在弱點的系統，只有在啟用GlobalProtect的狀態，包含開放閘道或是入口網站，才會存在風險。Palo Alto Networks強調，目前尚未發現漏洞遭到利用的跡象。 鎖定Palo A</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173399</guid>
+      <pubDate>Fri, 16 Jan 2026 03:46:02 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】1月14日，微軟修補3個零時差漏洞，其中1個已出現攻擊行動</title>
-      <link>https://www.ithome.com.tw/news/173352</link>
-      <description>新聞微軟1月修補3個零時差漏洞，其中1個已被用於實際攻擊、2個已公開 1月13日微軟發布本月例行更新（Patch Tuesday），針對旗下Windows作業系統、Office辦公室套裝軟體，以及Azure雲端服務與開發工具，修補112個安全漏洞，較上個月57個多出一倍。值得留意的是，已有遭到利用與細節被公開的零時差漏洞，用戶應儘速採取行動因應。 其中，已被用於實際攻擊行動的是資訊洩露（ID）漏洞CVE-2026-20805，此漏洞出現於桌面視窗管理員（Desktop Window Manager，DWM），一旦遭到利用，取得授權的攻擊者，能在本機電腦上，透過桌面視窗管理員將資料外洩給未經授權的人，洩漏的資訊是進階程序呼叫的一段使用者模式記憶體位址，CVSS風險為5.5分。 此漏洞由微軟威脅情報中心（MSTIC）及微軟安全回應中心（MSRC）通報，不過，微軟並未透露漏洞如何遭到利用。長期觀察微軟每月例行更新的Zero Day Initiative（ZDI）推測，攻擊者利用此漏洞洩露特定的記憶體區段位址後，可能會在下個階段啟動攻擊鏈，並能執行任意程式碼。 SAP發布1月例行更新，修補SQ</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173352</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/JJDDy6Rhaj.png" length="0" type="image/png"/>
-      <pubDate>Wed, 14 Jan 2026 10:02:49 +0000</pubDate>
+      <title>一度被誤判高風險，zlib漏洞CVE-2026-22184資安風險大轉彎</title>
+      <link>https://www.ithome.com.tw/news/173395</link>
+      <description>新聞廣泛用於各類作業系統與應用程式的無失真資料壓縮函式庫zlib，日前被研究人員揭露資安漏洞CVE-2026-22184。該漏洞初期在風險評估尚未完整釐清時，其漏洞風險分數一度以CVSS v4.0標示為9.3分、屬於重大（Critical）風險；隨著技術細節確認，後續評估結果收斂，最新CVSS v4.0分數為4.6分、列為中度（Medium）風險。 僅影響示範工具untgz，未波及核心函式庫 資安研究人員指出，CVE-2026-22184並非發生於zlib核心壓縮函式庫，而是位於contrib目錄下的示範工具untgz。該工具在處理命令列傳入的壓縮檔名稱時，未驗證長度即寫入固定大小的全域緩衝區，可能造成記憶體毀損或服務中斷（DoS）。 觸發條件受限，本機操作才會發生 該漏洞程式碼位於untgz工具的啟動流程中，會在任何壓縮檔內容解析前處理命令列參數，因此僅能在本機執行該工具、並傳入過長檔名參數時觸發。由於不涉及網路輸入或服務端請求，該漏洞不屬於可遠端利用的攻擊情境，其實際影響取決於untgz在系統中的使用方式。 為何一度被誤認為高風險 CVE-2026-22184在初期通報時，尚未清楚</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173395</guid>
+      <pubDate>Fri, 16 Jan 2026 03:46:35 +0000</pubDate>
     </item>
     <item>
-      <title>新版Slackbot分階段上線，可整理Slack對話重點並推進後續工作</title>
-      <link>https://www.ithome.com.tw/news/173359</link>
-      <description>新聞Salesforce重新設計的Slackbot正式上線，自2026年1月13日起以分階段方式推送至Business+與Enterprise+方案用戶。官方指出，在功能全面開放前，Enterprise方案的組織擁有者與管理者可先行設定Slackbot存取權限，並可依公司政策限制或暫停使用，以降低導入風險。 Slackbot為內建在Slack內的個人工作助理，主打在既有對話、頻道與檔案等工作訊息中找出答案與重點，並協助整理工作、產出內容、安排會議與執行後續動作，使用者不需另行安裝新工具。Salesforce表示，新版Slackbot在遵循既有角色與存取控制的前提下，可讀取Slack中的對話與檔案資訊，並結合企業系統的客戶資料與後設資料，協助使用者更快取得與工作相關的答案。 除了查詢與摘要，Slackbot能在遵循既有權限與存取控制的前提下，利用對話、頻道與檔案脈絡協助使用者產出內容、安排會議並推進後續動作，同時也被規畫成未來與Agentforce及第三方代理協作的主要入口，可透過對話觸發動作並協調既有工作流程。 新版Slackbot會遵循既有角色與存取控制，只呈現使用者原本就有權限取得</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173359</guid>
-      <pubDate>Thu, 15 Jan 2026 00:13:58 +0000</pubDate>
+      <title>殭屍網路Aisuru與Kimwolf橫行，資安公司對逾550臺C2主機下手，阻止活動規模擴大</title>
+      <link>https://www.ithome.com.tw/news/173400</link>
+      <description>新聞殭屍網路Aisuru最近兩年不斷發動大規模攻擊，後續於去年底中國資安公司奇安信公布相關調查結果，指出駭客另起爐灶，綁架電視盒與數位電視組成另一個大型殭屍網路Kimwolf，後續專精偵測代理伺服器流量的資安新創Synthient指出，駭客透過江蘇艾迪信息科技代理伺服器服務IPIDEA、Plainproxies Byteconnect等代理伺服器環境，出售受害裝置的頻寬牟利，本週有資安公司表示，他們已追蹤Kimwolf近半年，陸續對其C2伺服器進行封鎖，阻礙此殭屍網路的活動。 1月15日資安公司Lumen旗下的Black Lotus實驗室於職場社群網站LinkedIn發布部落格文章，指出在去年8月殭屍網路RapperBot沒落之後，隨即Aisuru就成為全球最大的殭屍網路，存取C2節點的機器人數量短時間內急劇增加，從每天5萬個機器人擴張至20萬個，後續在10月初看到Kimwolf出現，對此，該公司採取行動，將C2節點的流量導向空路由（null-routed），在4個月的時間裡已對超過550臺C2節點採取行動，他們也與執法機關和業界夥伴合作，並公布追蹤的結果。 Lumen表示，他們在9月</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173400</guid>
+      <pubDate>Fri, 16 Jan 2026 03:48:20 +0000</pubDate>
     </item>
     <item>
-      <title>Google多模態模型MedGemma升級醫療影像解讀，並發布醫用聽寫模型MedASR</title>
-      <link>https://www.ithome.com.tw/news/173364</link>
-      <description>新聞Google更新開放權重醫療生成式AI模型MedGemma至1.5版，強化醫療影像解讀與醫療文字任務的基準能力，並同步釋出醫療語音轉文字模型MedASR，滿足醫療聽寫與臨床口述的轉錄需求，讓開發者能把語音內容轉成文字後，銜接資訊整理或推理。 MedGemma為開發起點而非可直接上線的成品系統，Google提醒，模型輸出不應直接用於臨床診斷或治療決策，落地前仍需依各自場域完成驗證與調校。 Google此次先釋出MedGemma 1.5的4B多模態版本，主打較省算力，作為評估與微調的起點，要是需要更複雜的文字型任務或更大模型容量，開發者仍可沿用MedGemma 1的27B版本，包含純文字與多模態兩種變體。相較前一代以2D影像為主，1.5版把支援範圍擴展到高維度影像，包含電腦斷層掃描CT、核磁共振MRI，以及更大尺度的病理影像，並可用多張切片或多個影像區塊搭配提示詞完成任務。 Google揭露部分內部基準結果。以疾病相關3D影像所見的分類任務為例，MedGemma 1.5 4B在CT的宏平均準確率由58.2%提升到61.1%，在MRI則由51.3%提升到64.7%。Google也指出，這</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173364</guid>
-      <pubDate>Thu, 15 Jan 2026 00:26:43 +0000</pubDate>
+      <title>微軟聯手執法單位打擊RedVDS網路犯罪訂閱服務，阻斷釣魚詐騙供應鏈</title>
+      <link>https://www.ithome.com.tw/news/173394</link>
+      <description>新聞微軟針對名為RedVDS的網路犯罪訂閱服務，除在美國提起民事法律行動，也首次在英國同步採取法律行動。微軟表示，這次行動與德國執法單位及Europol等國際夥伴合作，已接管RedVDS市集與客戶入口的兩個網域名稱，並查扣關鍵惡意基礎設施，使RedVDS市集下線，進一步打斷支撐詐騙與釣魚攻擊的共享基礎設施。 RedVDS屬於網路犯罪即服務，提供可拋式的虛擬電腦環境，讓攻擊者能大量租用快速汰換，以較低成本跨境發動釣魚與詐騙。 微軟指出，RedVDS月費最低24美元。從2025年3月以來，相關活動在美國帶來約4,000萬美元的通報詐騙損失。阿拉巴馬州藥廠H2-Pharma因商務郵件詐騙損失超過730萬美元，佛州Gatehouse Dock公寓社區協會也遭詐騙近50萬美元。兩個受害組織已與微軟共同成為本案原告，透過民事途徑協助追查並壓制相關基礎設施。 僅在一個月內，微軟就觀測到超過2,600臺不同的RedVDS虛擬機器，平均每天對微軟客戶寄送約100萬封釣魚郵件。微軟並稱，自2025年9月起，RedVDS相關攻擊已導致全球超過19萬個組織遭到入侵或被偽冒存取（Fraudulent Acces</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173394</guid>
+      <pubDate>Fri, 16 Jan 2026 03:53:23 +0000</pubDate>
     </item>
     <item>
-      <title>Fortinet修補旗下FortiSIEM等產品2重大漏洞</title>
-      <link>https://www.ithome.com.tw/news/173374</link>
-      <description>新聞Fortinet本周釋出安全更新，修補FortiSIEM等多項產品漏洞，包含一個程式碼執行及一個洩露配置資訊的重大風險漏洞。 二個重大漏洞分別是FortiSIEM中的CVE-2025-64155，及影響FortiFone的CVE-2025-47855。FortiSIEM為安全資訊與事件管理平臺。CVE-2025-64155是OS指令特別元素中和不當（improper neutralization）漏洞，可讓未經驗證的攻擊者傳送變造的TCP請求，以在受害裝置上執行非授權程式或指令。本漏洞CVSS風險值為9.4。 受到影響的產品為FortiSIEM 7.4（含）以下版本。Fortinet已釋出更新版本，廠商呼籲7.1到7.4版用戶升級到最新版。而6.7和7.0版已經過了產品生命週期（EoL），Fortinet建議用戶升級。 第二個重大漏洞是CVE-2025-47855，為存在FortiFone Web Portal的存取控管不當漏洞。FortiFone Web Portal是Fortinet FortiVoice系統的集中管理介面，用於遠端配置電話分機、監控通話紀錄與系統效能。這項漏洞</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173374</guid>
-      <pubDate>Thu, 15 Jan 2026 03:53:50 +0000</pubDate>
+      <title>Cursor實驗多代理協作自動寫程式，一周從零打造瀏覽器程式碼庫破百萬行</title>
+      <link>https://www.ithome.com.tw/news/173397</link>
+      <description>新聞AI程式開發工具Cursor公開一項長期實驗成果，團隊嘗試讓多個程式開發代理程式在同一專案上連續運作數周，以並行方式推進原本需要人類團隊數個月的工程規模。研究團隊在單一專案同時執行數百個代理程式，累積寫出超過100萬行程式碼，並投入數十億以上Token。在協調架構上，團隊改採分工設計，將系統推進到能以星期為單位的運作規模。 Cursor在文中先交代多代理協作的主要障礙不在於能不能同時跑很多代理程式，而在於如何避免彼此卡住與重複勞動。 研究團隊把角色拆成規畫者與執行者，改用工作管線式分工取代扁平結構。規畫者持續逐一走訪程式碼庫並產生任務，必要時可再衍生子規畫者，讓規畫本身也能平行化，執行者則只專注完成被指派任務，完成後推送變更，不必同時兼顧全局協調。每輪迭代結束後，由裁判代理程式判斷是否繼續。 開發團隊以從零打造網頁瀏覽器作為壓力測試，讓多代理程式連續運作接近一周，累積產出超過100萬行程式碼、約1,000個檔案，並將程式碼公開在GitHub供外界檢視。團隊也把同樣方法用在自家程式碼庫的工程任務上，例如在不改變既有專案基礎的前提下，將前端框架Solid搬遷到React，歷時超過3周，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173397</guid>
+      <pubDate>Fri, 16 Jan 2026 04:30:53 +0000</pubDate>
     </item>
     <item>
-      <title>特斯拉不再賣斷全自動輔助駕駛FSD，只接受訂閱</title>
-      <link>https://www.ithome.com.tw/news/173375</link>
-      <description>新聞特斯拉（Tesla）執行長馬斯克（Elon Musk）周三（1/14）透過X宣布，該公司的全自動輔助駕駛（Full Self-Driving，FSD）軟體自2月14日起將不再賣斷，全面改採每月訂閱制。 特斯拉在2016年發表的FSD為一輔助駕駛軟體，目標是逐步實現不需人工介入的自動駕駛。不過，它迄今仍僅達到美國汽車工程師協會（Society of Automotive Engineers，SAE）所制定的第二級能力（Level 2），代表系統可同時控制轉向及加/減速，但駕駛必須全程監控路況，雙手隨時準備接管，法律責任仍屬於駕駛人。 最初FSD是採用賣斷銷售模式，初期只要3,000美元，2020年調漲至1萬美元，最高到2022年漲至1.5萬美元，2024年4月又調降至8,000美元。至於訂閱模式則是在2021年推出，原本每月價格為199美元，2024年降至99美元。 外界認為，已買斷FSD軟體的車主權利應該不會受到影響，新政策所影響的應是未來的FSD用戶。此外，被買斷的FSD是隨著汽車的車輛識別碼而非駕駛人，所以賣掉的車輛仍可使用FSD，但換新車的車主無法自動轉移。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173375</guid>
-      <pubDate>Thu, 15 Jan 2026 04:20:04 +0000</pubDate>
+      <title>Wikimedia基金會與微軟、Meta、Perplexity等AI業者簽定內容授權合作</title>
+      <link>https://www.ithome.com.tw/news/173404</link>
+      <description>新聞昨（1/15）日在慶祝維基百科（Wikipedia）上線25周年同時，營運維基百科的Wikimedia基金會宣布和微軟、Meta、Amazon及Mistral AI、Perplexity等公司合作，讓更多AI業者得以合法使用維基百科等內容來訓練AI技術。 Wikimedia Enterprise為Wikimedia Foundation開發的商業級API服務，讓這些簽約的企業或組織可大量、高速存取由人類產出的維基百科和其他Wikimedia專案內容，利用這些高品質內容來訓練AI模型。 Wikimedia表示，維基百科是全球訪問量前十的網站之一，且是唯一由非營利組織經營的網站。全球觀眾每月瀏覽超過6,500萬篇文章，涵蓋300多種語言，接近150億次，其知識驅動生成式AI聊天機器人、搜尋引擎、語音助理等。維基百科仍是訓練大型語言模型的高品質資料集之一。 Wikimedia Enterprise讓外部業者經由三種API存取其內容。其中On-demand API可回傳特定文章的最新版本。Snapshot API可供下載每種語言的維基百科，並每小時更新一次。Realtime API則是每次</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173404</guid>
+      <pubDate>Fri, 16 Jan 2026 04:50:18 +0000</pubDate>
     </item>
     <item>
-      <title>美國最大行動業者Verizon服務中斷數小時</title>
-      <link>https://www.ithome.com.tw/news/173376</link>
-      <description>新聞美國最大行動電信營運商Verizon在美東時間1月14日中午約12:00（臺灣時間1月15日凌晨00:00）發生大規模服務中斷，美國多地用戶無法使用行動通話、簡訊與行動數據，部分手機畫面顯示「SOS」或完全無訊號。此次異常持續數小時，影響範圍從東岸延伸至西岸，直至撰稿時尚未完全修復。 Verizon四度透過X平臺說明處理進展。首則訊息表示，已注意到部分客戶的無線語音與數據服務受到影響，工程師正積極排查並解決問題；後續更新則多為致歉與說明搶修狀況，並強調將持續通宵處理，直到全面恢復為止。 根據第三方監控平臺Downdetector的數據，事件高峰期間用戶回報數一度超過15萬筆。受影響地區包括紐約、華盛頓特區、紐澤西、賓州、佛羅里達、德州與加州等人口密集區。不少用戶在社群平臺反映，即使短暫恢復訊號，通話與行動上網仍不穩定，服務反覆中斷。 由於部分地區的行動通訊功能受限，華盛頓特區與紐約市等地方政府的緊急通報系統也發布提醒，告知民眾若無法透過Verizon裝置撥打緊急電話，可改用其他電信業者、市話，或直接前往警察分局與消防站通報，凸顯大型行動網路中斷對公共安全可能帶來的風險。 Veriz</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173376</guid>
-      <pubDate>Thu, 15 Jan 2026 04:30:11 +0000</pubDate>
+      <title>歐鐵票券營運公司被駭　外洩客戶個資及訂位資訊</title>
+      <link>https://www.ithome.com.tw/news/173405</link>
+      <description>新聞經營歐鐵票券（Eurail Pass）的旅遊業者Eurail B.V.近日遭駭，致使客戶包括個資、訂位或護照等資料外洩。 Eurail B.V.上周公告，該公司網路上數個系統發生資安問題，客戶資料遭未授權存取。初步調查顯示遭竊取的資料包含客戶訂單及預約資訊，像是基本身份和聯絡資訊。部份曾提供過護照資訊的客戶，其護照號碼、核發國家及到期日等也可能外洩。這家荷蘭業者表示，按照標準程序，公司不會儲存客戶護照的圖片。 本事件也影響DiscoverEU方案的參加用戶。該方案是歐盟推動的一項青年交流與旅行機會行動，滿18歲的年輕人有機會免費或以極低費用遍歷歐洲。Eurail B.V.也通知DiscoverEU，外洩資料包含使用者姓名、出生日期/年齡、護照號碼或相片、電子郵件信箱、住宅地址、居住地、電話號碼、國際銀行帳戶號碼、健康資訊等。 這兩則公告皆未說明資安事件發生的時間點。 Eurail B.V.說自己已封堵了受影響系統的漏洞、重設存取憑證、強化資安控管及和外部資安專家合作調查。他們已通報歐盟主管機關，也將連繫歐盟以外的相關機關，承諾會持續調查其他細節，像是外洩個資的確切類別、外洩資料筆數</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173405</guid>
+      <pubDate>Fri, 16 Jan 2026 05:04:50 +0000</pubDate>
     </item>
     <item>
-      <title>Google推出個人化Gemini功能 可從Gmail、搜尋、相簿擷取資訊</title>
-      <link>https://www.ithome.com.tw/news/173377</link>
-      <description>新聞Google今日（1/15）宣布個人化Gemini功能Personal Intelligence（個人化協助），讓Gemini可從用戶的Gmail、Google Photos或YouTube等服務擷取資訊提供更個人化的答案。這項服務將先推向美國，之後推向全球，但不提供給企業及教育帳號用戶。 Google指出，Personal Intelligence讓Gemini根據用戶資訊提供更貼近需求的回覆。Gemini會分析用戶輸入的提示、判斷能使用的已儲存的資訊、過往對話，以生成適切、符合用戶興趣和需求的資訊。 圖片來源／Google Google表示，Personal Intelligence具兩項特色。一是在多種複雜來源之間思考，以及從用戶儲存的資料，像是電子郵件或相片擷取特定細節。它會整合文字、相片和影片來提供個人化答案。 為此，Personal Intelligence首先整合的是Google自己的服務。用戶經由Gemini設定選單啟動本功能，即可和列出的Google服務，如Gmail、YouTube、相簿、搜尋或Google Workspace建立連結，以便Gemini從中搜尋資</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173377</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0115-Personal%20Intelligence-gemini-google.png" length="0" type="image/png"/>
-      <pubDate>Thu, 15 Jan 2026 04:50:26 +0000</pubDate>
+      <title>OpenAI參與腦機介面新創Merge Labs的種子輪融資</title>
+      <link>https://www.ithome.com.tw/news/173406</link>
+      <description>新聞專門研究腦機介面（Brain Computer Interface，BCI）的新創公司Merge Labs本周四（1/15）正式對外發表了，同一天OpenAI也宣布加入Merge Labs的種子輪融資。雖然雙方都未公布融資細節，但TechCrunch引用消息來源報導，Merge Labs在種子輪取得了2.5億美元的資金，估值為8.5億美元。 去年就曾傳出OpenAI共同創辦人暨執行長Sam Altman，以及與Altman共同創辦虹膜身分驗證新創Tools for Humanity的Alex Blania，將會共同創辦Merge Labs，以與馬斯克（Elon Musk）旗下的Neuralink競爭。 不過，OpenAI的新聞稿聲稱Merge Labs的共同創辦人為Mikhail Shapiro、Tyson Aflalo與Sumner Norman，至於Alex Blania、Sandro Herbig及Sam Altman則是以個人身分參與，似乎刻意淡化Altman的角色；相較之下，Merge Labs的新聞稿則是將上述6位一併列名，而且未依字母排序，直接將Altman與Blan</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173406</guid>
+      <pubDate>Fri, 16 Jan 2026 05:20:46 +0000</pubDate>
     </item>
     <item>
-      <title>摩根大通受合作的法務業者連累，外洩數百人資料</title>
-      <link>https://www.ithome.com.tw/news/173379</link>
-      <description>新聞知名跨國銀行摩根大通（JPMorgan Chase）上周向美國政府通報去年10月因合作的法律顧問公司發生資安事件，致使摩根大通外洩近700人的個資。 摩根大通上周向美國緬因州檢察長辦公室提交報告，並以電子郵件通知受影響的個人。 去年10月底摩根大通委託的法律顧問公司Fried, Frank, Harris, Shriver &amp;amp; Jacobson LLP（簡稱Fried Frank）通知其一個網路共享磁碟遭駭，部份檔案被竊取。但是Fried Frank直到12月才通知摩根大通此事。 外洩資料期間為2025年10月23日到27日。這家銀行強調，這起事件起源於Fried Frank，銀行本身系統並未被受影響，也保持安全無虞。 經由摩根大通和Fried Frank合作，確認事件影響摩根大通的某種基金投資客戶，以及相關個人如配偶或依授權書行事的代理人，總人數為659人。受影響資料包含全名、聯絡資訊（地址、電話或電子郵件）、金融帳戶號碼、社會安全號碼、護照號碼或其他政府核發的身分證號碼。摩根大通為受影響人士提供2年的信用監控服務。 這是繼高盛（Goldman Sachs）後，又一知名金融業者受</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173379</guid>
-      <pubDate>Thu, 15 Jan 2026 05:04:57 +0000</pubDate>
+      <title>微軟Copilot Studio for Visual Studio Code擴充程式全面上線</title>
+      <link>https://www.ithome.com.tw/news/173408</link>
+      <description>新聞微軟本周宣布Copilot Studio for Visual Studio Code擴充程式（Copilot Studio extension for Visual Studio Code）全面上線，讓開發人員可以在熟悉的開發環境中（IDE）中開發和管理Copilot Studio代理人（agents）。 開發代理人的過程如同開發其他應用程式，包括原始碼控制、拉取請求、變更歷史紀錄，以及可重複部署。VS Code擴充功能將這些工作流程帶進Copilot Studio，讓創作者與開發人員能在具備治理或速度下協同作業。 這個擴充程式是為工程團隊真實作業需求而設計。其特色包括可整合標準化Git利於版本控制和協同；基於拉取請求的審查，利於討論和核准變更；清楚紀錄修改，方便長時間稽核；以及與VS Code功能機制整合，包括鍵盤快捷鍵、搜尋、導航與本地開發迴圈。 微軟聲稱，四類開發情境使用Copilot Studio for Visual Studio Code擴充程式將特別有用，包括需要管理眾多主題的代理人，且需快速搜尋；需和多人協同並安全變更；想在原始碼中定義代理人及在DevOps管線中</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173408</guid>
+      <pubDate>Fri, 16 Jan 2026 06:29:51 +0000</pubDate>
     </item>
   </channel>
 </rss>
