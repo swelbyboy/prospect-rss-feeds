@@ -8,81 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 06:38:37 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 06:38:37 +0000</lastBuildDate>
     <item>
-      <title>When Birthday Photography Becomes a Template — and Why AI Feels Like an Alternative</title>
-      <link>https://dev.to/zoeyy-hu/when-birthday-photography-becomes-a-template-and-why-ai-feels-like-an-alternative-4j2l</link>
-      <description>In many Chinese shopping malls, birthday photography has quietly become a standardized product. Small studios offer preset birthday shoots at around 300 RMB, usually delivering a single edited image with no raw files. Objectively, the price is not cost-effective — one photo, limited choice, no ownership of the originals — but the amount is just low enough to blur that judgment. It feels affordable, even trivial, which makes people less likely to question the value. What customers end up buying i</description>
-      <guid isPermaLink="false">https://dev.to/zoeyy-hu/when-birthday-photography-becomes-a-template-and-why-ai-feels-like-an-alternative-4j2l</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fno3f8v34vb1hqt2hqqk8.png" length="0" type="image/png"/>
-      <pubDate>Thu, 15 Jan 2026 05:48:33 +0000</pubDate>
+      <title>Did you know?</title>
+      <link>https://dev.to/cloudraptor/did-you-know-9ha</link>
+      <description>The cloud isn’t just about speed and flexibility, it can also help businesses go green. By using shared resources instead of running their own servers, companies reduce energy use and cut down on waste. Cloud sustainability means designing systems that are efficient, cost-effective, and environmentally friendly. Do you think businesses care more about saving costs when moving to the cloud?</description>
+      <guid isPermaLink="false">https://dev.to/cloudraptor/did-you-know-9ha</guid>
+      <pubDate>Fri, 16 Jan 2026 05:48:50 +0000</pubDate>
     </item>
     <item>
-      <title>Seamless Integration of Google Workspace and Gemini API via External URLs</title>
-      <link>https://dev.to/gde/seamless-integration-of-google-workspace-and-gemini-api-via-external-urls-4he</link>
-      <description>Abstract The Gemini API now supports external file URLs, allowing developers to process data directly without uploading it first. This article demonstrates how to leverage this update to integrate Google Workspace resources—including Google Sheets, Docs, Slides, and Apps Script—into Gemini’s workflow, covering both public and secure private access methods. Introduction Recently, the limitations regarding inline file data in the Gemini API have been significantly updated Ref. The maximum file siz</description>
-      <guid isPermaLink="false">https://dev.to/gde/seamless-integration-of-google-workspace-and-gemini-api-via-external-urls-4he</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpxxj7ht1s9chmx576qp8.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 15 Jan 2026 05:54:58 +0000</pubDate>
+      <title>I built a lightning-fast statistics platform for Poland</title>
+      <link>https://dev.to/mattrybin/i-built-a-lightning-fast-statistics-platform-for-poland-1ldm</link>
+      <description>I needed Polish demographic data for a project and kept running into the same problem. The official statistics site (GUS) was slow, confusing, and the language they use is pretty hard to parse even if you speak Polish. And ChatGPT kept giving me different numbers every time I asked. So I thought, why not just build something better? What it actualy does You click on any region in Poland and you get the stats. Thats it. No loading, no waiting, no confusing navigation. You can go from the whole co</description>
+      <guid isPermaLink="false">https://dev.to/mattrybin/i-built-a-lightning-fast-statistics-platform-for-poland-1ldm</guid>
+      <pubDate>Fri, 16 Jan 2026 05:58:21 +0000</pubDate>
     </item>
     <item>
-      <title>A Gradual Approach to React Folder Structure: From Package by Feature to Clean Architecture</title>
-      <link>https://dev.to/usapopopooon/a-gradual-approach-to-react-folder-structure-from-package-by-feature-to-clean-architecture-e44</link>
-      <description>This article is based on my personal experience and interpretation. The approach I'm sharing isn't the only correct answer, and my understanding of each architecture pattern may differ from the official definitions. I hope you'll read this as just one perspective among many. Introduction I've struggled with React project folder structure for a long time. React, being a UI library, offers immense flexibility in how we structure our projects. However, this freedom often leads to a common dilemma:</description>
-      <guid isPermaLink="false">https://dev.to/usapopopooon/a-gradual-approach-to-react-folder-structure-from-package-by-feature-to-clean-architecture-e44</guid>
-      <pubDate>Thu, 15 Jan 2026 06:03:30 +0000</pubDate>
+      <title>🧱 Building QRForge PRO with PySide6 (Beginner-Friendly Guide)</title>
+      <link>https://dev.to/matetechnologie/building-qrforge-pro-with-pyside6-beginner-friendly-guide-53kb</link>
+      <description>This tutorial is a Dev.to–style, step-by-step walkthrough of the QRForge PRO v2.0.0 desktop application. We’ll progressively build a professional QR code design studio using: 🐍 Python 🖼 PySide6 (Qt for Python) 🔳 qrcode 🧠 GraphicsScene / GraphicsView 📤 PNG, SVG, and PDF exports 👉 Full source code: https://github.com/rogers-cyber/QRForgePRO 0️⃣ What You’ll Build By the end, you’ll have an app that can: Generate QR codes from Text, URLs, and Wi‑Fi credentials Customize colors, backgrounds, transpar</description>
+      <guid isPermaLink="false">https://dev.to/matetechnologie/building-qrforge-pro-with-pyside6-beginner-friendly-guide-53kb</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fesyp2u5iztwsx6n7pc1d.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 05:59:17 +0000</pubDate>
     </item>
     <item>
-      <title>🚀 BlazorWJb: Integrating Worker Jobs with Blazor Server App</title>
-      <link>https://dev.to/ukrguru/blazorwjb-integrating-worker-jobs-with-blazor-server-app-4ebj</link>
-      <description>🚀 BlazorWJb: Integrating Worker Jobs with Blazor Server This article demonstrates how to integrate https://github.com/UkrGuru/WJb (Worker Jobs) with a Blazor Server application. The sample provides a simple UI for managing actions and viewing logs in real time. ✅ Why UkrGuru.WJb? UkrGuru.WJb is a lightweight job scheduling and processing library for .NET. It allows you to: Schedule jobs using CRON expressions Execute custom actions asynchronously Log execution details for monitoring and debuggin</description>
-      <guid isPermaLink="false">https://dev.to/ukrguru/blazorwjb-integrating-worker-jobs-with-blazor-server-app-4ebj</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6a26cpastcgpf9dpr4j4.png" length="0" type="image/png"/>
-      <pubDate>Thu, 15 Jan 2026 06:03:31 +0000</pubDate>
+      <title>The Ultimate Python Roadmap: Learn Step by Step</title>
+      <link>https://dev.to/devshefali/the-ultimate-python-roadmap-learn-step-by-step-3jg3</link>
+      <description>Python is one of the most beginner-friendly and versatile programming languages. You can use it for many things like building websites, working with data, automating tasks, creating backend systems, or even getting started with AI. To learn Python, there’s a lot to cover: basics, data types, loops, functions, OOP, and more. But don’t worry, you’re in the right place. I’ve put together a step-by-step Python roadmap to guide you through everything in a clear and logical order. Let’s jump right int</description>
+      <guid isPermaLink="false">https://dev.to/devshefali/the-ultimate-python-roadmap-learn-step-by-step-3jg3</guid>
+      <pubDate>Fri, 16 Jan 2026 06:06:24 +0000</pubDate>
     </item>
     <item>
-      <title>Your Cloud Database is a Security Theater</title>
-      <link>https://dev.to/ryo_suwito/your-cloud-database-is-a-security-theater-28a5</link>
-      <description>Multi-tenant SaaS storage is broken. Not "needs improvement" broken—fundamentally compromised at the architectural level. The industry sold you row-level security, tenant IDs in every query, and database encryption at rest. Meanwhile, a single SQL injection or privilege escalation exposes EVERYONE's data. One breach, thousands of victims. This isn't security—it's a ticking time bomb with better marketing. BSFS (Block Storage File System) takes a different approach: cryptographic isolation at the</description>
-      <guid isPermaLink="false">https://dev.to/ryo_suwito/your-cloud-database-is-a-security-theater-28a5</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgqjr50bq1717za22my2f.png" length="0" type="image/png"/>
-      <pubDate>Thu, 15 Jan 2026 06:03:36 +0000</pubDate>
+      <title>❌ Stop Using Singleton. You Don’t Need It (And It’s Quietly Hurting Your Code)</title>
+      <link>https://dev.to/tech_rider/stop-using-singleton-you-dont-need-it-and-its-quietly-hurting-your-code-1dck</link>
+      <description>Stop Using the Singleton Pattern The Singleton pattern looks simple and useful. It is also one of the most common causes of hidden design problems in software systems. What Singleton Does Singleton ensures that a class has only one instance and that this instance can be accessed globally. Logger.getInstance().log("Hello"); One instance. Global access. The Real Issue Singleton is just global state. Any part of the code can access it, change it, and depend on it without being explicit. This makes</description>
+      <guid isPermaLink="false">https://dev.to/tech_rider/stop-using-singleton-you-dont-need-it-and-its-quietly-hurting-your-code-1dck</guid>
+      <pubDate>Fri, 16 Jan 2026 06:07:13 +0000</pubDate>
     </item>
     <item>
-      <title>Make your app crash at startup, not in production</title>
-      <link>https://dev.to/chintanshah35/make-your-app-crash-at-startup-not-in-production-45je</link>
-      <description>2am. Slack notification. Production app is down. The error? Cannot read property 'split' of undefined Turns out ALLOWED_ORIGINS wasn't set in production. The app started fine. Health checks passed. Then the first CORS request came in and crashed the server. Or that time STRIPE_SECRET_KEY had a trailing space from copy-paste. App started. First payment request? Failed. Took 30 minutes to figure out. Or when someone set ENABLE_CACHING=false as a string, but the code checked if (config.ENABLE_CACHI</description>
-      <guid isPermaLink="false">https://dev.to/chintanshah35/make-your-app-crash-at-startup-not-in-production-45je</guid>
-      <pubDate>Thu, 15 Jan 2026 06:13:30 +0000</pubDate>
+      <title>Level 0 of my DevOps journey</title>
+      <link>https://dev.to/alok38/level-0-of-my-devops-journey-1em3</link>
+      <description>Level 0 DevOps Summary: What I’ve Done 1 Created and Connected to an EC2 Instance You launched an AWS EC2 instance (Linux-based). Connected to it successfully using WSL on your local machine. Verified that you can log in and run commands on the server. 2 Configured SSH for Easy Access Updated your SSH config on WSL (~/.ssh/config) to simplify connections. Corrected HostName usage (only hostname/IP, not username). Verified key permissions (chmod 600) to ensure secure SSH access. Created an alias</description>
+      <guid isPermaLink="false">https://dev.to/alok38/level-0-of-my-devops-journey-1em3</guid>
+      <pubDate>Fri, 16 Jan 2026 06:12:30 +0000</pubDate>
     </item>
     <item>
-      <title>The Cloud Exit Strategy: How to Run a Production SaaS for $5/Month</title>
-      <link>https://dev.to/the_nortern_dev/the-cloud-exit-strategy-how-to-run-a-production-saas-for-5month-51fi</link>
-      <description>We have normalized paying $100/month for infrastructure before acquiring a single customer. It is time to return to the $5 VPS. Here is the architecture. We need to talk about the cost of "Modern Web Development." If you follow the standard tutorial for building a SaaS in 2026, your bill looks something like this on Day 1: **Hosting (Vercel/Netlify): $20/month per seat Database (Supabase/Neon): $25/month (once you hit the first limit) Auth (Clerk/Auth0): Free tier, then expensive quickly Redis (</description>
-      <guid isPermaLink="false">https://dev.to/the_nortern_dev/the-cloud-exit-strategy-how-to-run-a-production-saas-for-5month-51fi</guid>
-      <pubDate>Thu, 15 Jan 2026 06:20:54 +0000</pubDate>
+      <title>From Chaos to Clarity: Building a Robust Log Aggregation Pipeline with Kafka (KRaft) and ELK</title>
+      <link>https://dev.to/srikantvs26/from-chaos-to-clarity-building-a-robust-log-aggregation-pipeline-with-kafka-kraft-and-elk-37bb</link>
+      <description>From Chaos to Clarity: Building a Robust Log Aggregation Pipeline with Kafka (KRaft) and ELK As systems grow into microservices, logs become fragmented. Debugging an issue often means SSH-ing into multiple containers or Grepping through scattered files. This is where Centralized Log Aggregation becomes non-negotiable. In this guide, we are going to build a production-grade logging pipeline from scratch. We will decouple log shipping from log indexing using Apache Kafka (running in the modern, Zo</description>
+      <guid isPermaLink="false">https://dev.to/srikantvs26/from-chaos-to-clarity-building-a-robust-log-aggregation-pipeline-with-kafka-kraft-and-elk-37bb</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9p9akdiauh87u7kcm4z8.JPG" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 06:12:51 +0000</pubDate>
     </item>
     <item>
-      <title>👗 StyleMatch - Your AI Personal Fashion Stylist</title>
-      <link>https://dev.to/simranshaikh20_50/stylematch-your-ai-personal-fashion-stylist-247m</link>
-      <description>What I Built StyleMatch is an AI-powered personal fashion stylist that transforms how people shop online. Instead of overwhelming users with thousands of products, StyleMatch acts as a knowledgeable fashion consultant—understanding your needs, suggesting complete outfits, and optimizing your budget across multiple events. The Problem It Solves Online fashion shopping is frustrating: 🔍 Too many choices, no guidance 👗 Hard to know what items work together 💰 Difficult to plan within budget 📅 Planni</description>
-      <guid isPermaLink="false">https://dev.to/simranshaikh20_50/stylematch-your-ai-personal-fashion-stylist-247m</guid>
-      <pubDate>Thu, 15 Jan 2026 06:21:32 +0000</pubDate>
+      <title>V-Order optimization</title>
+      <link>https://dev.to/sankalp_fabric_data_architect/v-order-optimization-388g</link>
+      <description>V-Order optimize parquet file through sorting, row group distribution, encoding and compression. Disadvantage of V-order optimization is that it increase the write time by up to 15 but positive side is that it boost the data compression by 50% and data read time improve by 10% and also in some cases read time improve up to 50% as well. parquet engine can read it as a regular parquet file. there is not any impact on delta table other features, like Z-Order, vacuum, time travel, compaction etc. V-</description>
+      <guid isPermaLink="false">https://dev.to/sankalp_fabric_data_architect/v-order-optimization-388g</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F03h7zti8x77q4bk0h0s3.png" length="0" type="image/png"/>
+      <pubDate>Fri, 16 Jan 2026 06:17:23 +0000</pubDate>
     </item>
     <item>
-      <title>เพิ่มประสิทธิภาพการทำงาน ด้วย Agile process</title>
-      <link>https://dev.to/__00/ephimprasiththiphaaphkaarthamngaan-dwy-agile-process-307o</link>
-      <description>1. Agile คือ แนวคิด (Mindset) และรูปแบบการทำงานที่เน้น "ความคล่องตัว" โดยการแบ่งงานใหญ่ให้เป็นชิ้นเล็กๆ แล้วส่งมอบงานอย่างรวดเร็วเป็นรอบๆ (Iterations) เพื่อรับคำติชม (Feedback) มาปรับปรุงได้ทันที 2. ความแตกต่างระหว่าง Waterfall และ Agile Waterfall ลักษณะการทำงาน Analysis &amp;gt; Design &amp;gt; Implementation &amp;gt; Testing &amp;gt; Deployment (Develop) &amp;gt; Release &amp;amp; Maintenance โดยตัว Product ที่ออกมา ลูกค้าจะได้เจอหลังจากจบ Process ทั้งหมด ซึ่งในบางครั้งอาจจะไม่ตอบโจทย์กับความต้องการของลูกค้าได้ โดยเวลาและต้นทุนไม่ได้ถู</description>
-      <guid isPermaLink="false">https://dev.to/__00/ephimprasiththiphaaphkaarthamngaan-dwy-agile-process-307o</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhjpfhh6mn4a49mkjz234.png" length="0" type="image/png"/>
-      <pubDate>Thu, 15 Jan 2026 06:28:07 +0000</pubDate>
+      <title>Stop paying for ngrok! 🛑 Meet NPort: The Free Open Source Alternative</title>
+      <link>https://dev.to/tuanngocptn/stop-paying-for-ngrok-meet-nport-the-free-open-source-alternative-2iok</link>
+      <description>The Problem 😫 We've all been there. You are demoing a Next.js app to a client, or testing a Stripe webhook locally. You fire up ngrok, send the link, and 2 hours later... the session expires. Or worse, you restart your server, and the domain changes from random-xyz.ngrok-free.app to random-abc.ngrok-free.app. You have to go update your webhook settings again. To get a stable, custom subdomain, you usually have to pay. I got tired of this, so I decided to build my own solution using the massive e</description>
+      <guid isPermaLink="false">https://dev.to/tuanngocptn/stop-paying-for-ngrok-meet-nport-the-free-open-source-alternative-2iok</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F130pe4sc4jecr21mqiy8.webp" length="0" type="image/webp"/>
+      <pubDate>Fri, 16 Jan 2026 06:31:00 +0000</pubDate>
     </item>
     <item>
-      <title>CVE-2026-0621: Event-Loop Denial of Service in the MCP TypeScript SDK</title>
-      <link>https://dev.to/om_shree_0709/cve-2026-0621-event-loop-denial-of-service-in-the-mcp-typescript-sdk-1k40</link>
-      <description>TL;DR A high-severity Regular Expression Denial of Service (ReDoS) vulnerability in the MCP TypeScript SDK allows a single crafted URI to fully block the Node.js event loop, taking down MCP servers. The issue is fixed in v1.25.2 and should be patched immediately. Summary Identifier: CVE-2026-0621 (GHSA-8r9q-7v3j-jr4g) Severity: 8.7 (High) Affected Component: @modelcontextprotocol/sdk Impact: Total Node.js event-loop blockage (Denial of Service) Status: Patched in v1.25.2 A specifically crafted U</description>
-      <guid isPermaLink="false">https://dev.to/om_shree_0709/cve-2026-0621-event-loop-denial-of-service-in-the-mcp-typescript-sdk-1k40</guid>
-      <pubDate>Thu, 15 Jan 2026 06:34:12 +0000</pubDate>
+      <title>Building an AI-ready culture without big budgets</title>
+      <link>https://dev.to/jaideepparashar/building-an-ai-ready-culture-without-big-budgets-49gc</link>
+      <description>As the Founder of ReThynk AI, I’ve learned something practical: An AI-ready culture is not built by buying tools. It’s built by changing habits. Budgets help. But clarity, discipline, and trust help more. Building an AI-Ready Culture Without Big Budgets Most small businesses and early-stage startups think AI readiness means: hiring AI experts buying expensive platforms running big transformation projects That approach delays adoption. The truth is simpler: AI readiness is a culture of smart usag</description>
+      <guid isPermaLink="false">https://dev.to/jaideepparashar/building-an-ai-ready-culture-without-big-budgets-49gc</guid>
+      <pubDate>Fri, 16 Jan 2026 06:32:13 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Jan 2026 06:38:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Jan 2026 06:38:48 +0000</lastBuildDate>
     <item>
-      <title>Intel Panther Lake GSC Firmware Published Ahead Of Laptop Availability</title>
-      <link>https://www.phoronix.com/news/Intel-Panther-Lake-GSC-Firmware</link>
-      <description>While Intel has been upstreaming various Panther Lake firmware bits to linux-firmware.git for pairing with their open-source kernel drivers ahead of Core Ultra Series 3 laptops shipping, one piece of the puzzle only published today is the GSC firmware for the Panther Lake graphics...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Panther-Lake-GSC-Firmware</guid>
-      <pubDate>Wed, 14 Jan 2026 13:49:16 +0000</pubDate>
+      <title>Linux Patches Bring Mainline Kernel Support For The ASUS IPMI Expansion Card</title>
+      <link>https://www.phoronix.com/news/ASUS-IPMI-Expansion-Card-Linux</link>
+      <description>DeviceTree patches worked on recently allow for the mainline Linux kernel to run on the ASUS "Kommando" IPMI Expansion Card. This is interesting for opening up new possibilities for this external IPMI/BMC expansion card but too bad that less than three years after launching it's difficult to find...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ASUS-IPMI-Expansion-Card-Linux</guid>
+      <pubDate>Thu, 15 Jan 2026 11:15:54 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 To Focus Just On Full &amp;amp; Lazy Preemption Models For Up-To-Date CPU Archs</title>
-      <link>https://www.phoronix.com/news/Linux-Restrict-Preempt-Modes</link>
-      <description>A Linux scheduler patch queued up into a TIP branch this past week further restrict is the preemption modes that will be advertised. With it hitting the "sched/core" branch, it will likely be submitted for the upcoming Linux 7.0 (or alternatively, what could be known as Linux 6.20 instead)...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Restrict-Preempt-Modes</guid>
-      <pubDate>Wed, 14 Jan 2026 14:27:15 +0000</pubDate>
+      <title>libvirt 12.0 Released - Bhyve ARM64 Support &amp;amp; Other Improvements For The BSD Hypervisor</title>
+      <link>https://www.phoronix.com/news/libvirt-12.0</link>
+      <description>Libvirt 12.0 released today as this open-source virtualization API for management across different virtualization technologies/hypervisors. With libvirt 12.0, improving Bhyve as the FreeBSD hypervisor was a big focus...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/libvirt-12.0</guid>
+      <pubDate>Thu, 15 Jan 2026 11:24:00 +0000</pubDate>
     </item>
     <item>
-      <title>GNOME Mutter 50 Alpha Released With X11 Backend Removed</title>
-      <link>https://www.phoronix.com/news/GNOME-Mutter-Shell-50-Alpha</link>
-      <description>In preparing for the GNOME 50 Alpha release, the "50.alpha" tags just occurred for the Mutter compositor and GNOME Shell. Most notable with GNOME Mutter 50 Alpha is the X11 back-end indeed being removed to focus exclusively on the Wayland session...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Mutter-Shell-50-Alpha</guid>
-      <pubDate>Wed, 14 Jan 2026 14:48:00 +0000</pubDate>
+      <title>D7VK 1.2 Released For Improving Direct3D 6 Front-End</title>
+      <link>https://www.phoronix.com/news/D7VK-1.2-Released</link>
+      <description>Started last year was D7VK as a project bringing Direct3D 7 implemented over the Vulkan API for enjoying better performance and support for legacy Windows games on Linux, akin to DXVK and VKD3D-Proton for newer versions of Direct3D over Vulkan that is used by Valve's Steam Play (Proton). Back in December D7VK added a Direct3D 6 front-end for allowing even older game titles to be accelerated using the modern Vulkan API. Today D7VK 1.2 is out for furthering the D3D6 support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/D7VK-1.2-Released</guid>
+      <pubDate>Thu, 15 Jan 2026 12:31:46 +0000</pubDate>
     </item>
     <item>
-      <title>$99 BeaglePlay Board Achieves "100% Open-Source" Upstream PowerVR Graphics</title>
-      <link>https://www.phoronix.com/news/BeaglePlay-PowerVR-Success</link>
-      <description>Going back many years Imagination PowerVR graphics were widely despised by open-source enthusiasts and Linux desktop users for their lack of an open-source GPU driver. But over the past few years the Imagination PowerVR driver focused on their Rogue graphics IP has matured nicely within the Linux kernel and the PowerVR Vulkan driver in Mesa taking shape too. Paired with Zink for OpenGL over Vulkan, there's a robust open-source PowerVR graphics experience now possible. For those interested in try</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/BeaglePlay-PowerVR-Success</guid>
-      <pubDate>Wed, 14 Jan 2026 15:17:05 +0000</pubDate>
+      <title>Whisper.cpp 1.8.3 Delivers A "12x Performance Boost" With Integrated Graphics</title>
+      <link>https://www.phoronix.com/news/Whisper-cpp-1.8.3-12x-Perf</link>
+      <description>Whisper.cpp as the open-source high performance inference project built around OpenAI's Whisper and from the same developers as Llama.cpp / GGML is out with a big new release. Whisper.cpp 1.8.3 is capable of delivering a 12x performance boost for systems with integrated AMD and Intel graphics...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Whisper-cpp-1.8.3-12x-Perf</guid>
+      <pubDate>Thu, 15 Jan 2026 13:19:08 +0000</pubDate>
     </item>
     <item>
-      <title>Fedora Games Lab Approved To Switch To KDE Plasma, Become A Better Linux Gaming Showcase</title>
-      <link>https://www.phoronix.com/news/Fedora-Games-Lab-Overhaul-2026</link>
-      <description>Back in December we reported on drafted plans for revitalizing Fedora Games Lab to be a modern Linux gaming showcase. This Fedora Labs initiative has featured some open-source games paired with an Xfce desktop while moving forward they are looking to better position it as a modern Linux gaming showcase...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Fedora-Games-Lab-Overhaul-2026</guid>
-      <pubDate>Wed, 14 Jan 2026 16:09:09 +0000</pubDate>
+      <title>Imagination Driver To Support The TI AM62P SoC In Linux 6.20~7.0</title>
+      <link>https://www.phoronix.com/news/Imagination-AM62P-Linux-7.0</link>
+      <description>Sent out today was the latest DRM-Misc-Next pull request of new material ahead of the next kernel cycle either Linux 6.20 or 7.0 depending upon what Linus Torvalds decides to call it...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Imagination-AM62P-Linux-7.0</guid>
+      <pubDate>Thu, 15 Jan 2026 14:27:58 +0000</pubDate>
     </item>
     <item>
-      <title>GlobalFoundries Acquires Synopsys ARC Processor IP, To Be Integrated Into MIPS</title>
-      <link>https://www.phoronix.com/news/GlobalFoundries-Synopsys-ARC</link>
-      <description>Last year GlobalFoundries acquired MIPS while an interesting new development announced today is that GlobalFoundries has acquired the ARC Processor IP and its solutions business from Synopsys. The Synopsys ARC Processor IP will be brought into the MIPS umbrella...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GlobalFoundries-Synopsys-ARC</guid>
-      <pubDate>Wed, 14 Jan 2026 16:20:22 +0000</pubDate>
+      <title>Burn 0.20 Released: Rust-Based Deep Learning With Speedy Perf Across CPUs &amp;amp; GPUs</title>
+      <link>https://www.phoronix.com/news/Burn-0.20-Released</link>
+      <description>A significant update to Burn was released today, the MIT and Apache 2.0 licensed tensor library and deep learning framework written in the Rust programming language. Burn 0.20 brings some low-level changes as it continues to strive to deliver high performance AI across the diverse hardware ecosystem...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Burn-0.20-Released</guid>
+      <pubDate>Thu, 15 Jan 2026 17:06:23 +0000</pubDate>
     </item>
     <item>
-      <title>New RADV Code Can Deliver 10x Faster Ray-Tracing Pipeline Compilation For Some Games</title>
-      <link>https://www.phoronix.com/news/RADV-10x-Fast-RT-Pipeline-Comp</link>
-      <description>A new merge request opened today for Mesa's Radeon Vulkan driver "RADV" by Valve contractor Natalie Vock provides another significant boost for the Vulkan ray-tracing performance in multiple titles...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/RADV-10x-Fast-RT-Pipeline-Comp</guid>
-      <pubDate>Wed, 14 Jan 2026 17:42:08 +0000</pubDate>
+      <title>Linux 7.0 To Expand Temperature Reporting For Intel Graphics Cards</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Intel-GPU-Temperature</link>
+      <description>The upcoming Linux 6.20~7.0 kernel cycle will provide expanded GPU temperature reporting capabilities for Intel graphics cards. Additional temperature sensors will now be exposed under Linux with the Intel Xe driver using the hardware monitoring (HWMON) interface for easy consumption by different Linux user-space software...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Intel-GPU-Temperature</guid>
+      <pubDate>Thu, 15 Jan 2026 17:35:21 +0000</pubDate>
     </item>
     <item>
-      <title>An Early Run With Ubuntu 26.04 On AMD EPYC Turin - The Current Performance Gains Over Ubuntu 24.04 LTS</title>
-      <link>https://www.phoronix.com/review/ubuntu-2604-jan-amd-epyc</link>
-      <description>There still are several months to go until the official Ubuntu 26.04 LTS release -- including one month until the feature freeze and the future Linux 6.20~7.0 kernel is expected to land too before the latter kernel freeze in early April. But for those curious how Ubuntu 26.04 is looking so far for servers, here are some very early benchmarks of it on AMD EPYC 9005 "Turin" in its present development state. The main motivation here for this early look was stemming from the recent rolling-release C</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/ubuntu-2604-jan-amd-epyc</guid>
-      <pubDate>Wed, 14 Jan 2026 20:23:32 +0000</pubDate>
+      <title>Lenovo ThinkPad P1 Gen 8: A High-End, Intel + NVIDIA Mobile Workstation Great For Linux Use</title>
+      <link>https://www.phoronix.com/review/lenovo-thinkpad-p1-gen8</link>
+      <description>For those shopping for an AI-ready mobile workstation with NVIDIA RTX PRO Blackwell graphics, the Lenovo ThinkPad P1 Gen 8 offers a lot of potential for developers, AI researchers, content creators, and others. This Linux-friendly mobile workstation is well built and aligns with ThinkPad P-Series expectations while being ready to be tasked with demanding workloads.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/lenovo-thinkpad-p1-gen8</guid>
+      <pubDate>Thu, 15 Jan 2026 19:12:00 +0000</pubDate>
     </item>
     <item>
-      <title>GRUB 2.14 Bootloader Released With EROFS Support, Shim Loader Protocol</title>
-      <link>https://www.phoronix.com/news/GRUB-2.14-Released</link>
-      <description>More than two years after the release of GRUB 2.12, GRUB 2.14 shipped today as the newest feature release of this widely-used bootloader on Linux systems and elsewhere...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GRUB-2.14-Released</guid>
-      <pubDate>Wed, 14 Jan 2026 22:54:14 +0000</pubDate>
+      <title>EndeavourOS 2026.01.12 Released With Linux 6.18 LTS Kernel, NVIDIA Open Modules</title>
+      <link>https://www.phoronix.com/news/EndeavourOS-2026.01.12</link>
+      <description>EndeavourOS 2026.01.12 "Ganymede Neo" is out as the first update of the year to this Arch Linux based distribution...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/EndeavourOS-2026.01.12</guid>
+      <pubDate>Thu, 15 Jan 2026 22:32:28 +0000</pubDate>
     </item>
     <item>
-      <title>Another RADV Ray-Tracing Merge Lands Some Additional Gains For Mesa 26.0</title>
-      <link>https://www.phoronix.com/news/RADV-RT-RDNA3-RDNA4-Wave32</link>
-      <description>Separate from the Mesa merge request talked about earlier today for new RADV code that can deliver 10x faster ray-tracing pipeline compilation for this open-source Radeon Vulkan driver, another merge request landed today in Mesa 26.0 that was also carried out by Valve contractor Natalie Vock. That second merge request now in Mesa 26.0 delivers some additional gains for at least some ray-tracing games on RDNA3 and RDNA4 GPUs...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/RADV-RT-RDNA3-RDNA4-Wave32</guid>
-      <pubDate>Thu, 15 Jan 2026 01:11:51 +0000</pubDate>
+      <title>GNOME 50 Alpha Released With The X11 Code Gutted</title>
+      <link>https://www.phoronix.com/news/GNOME-50-Alpha</link>
+      <description>The GNOME 50 Alpha "50.alpha" release is now available for testing ahead of this open-source desktop's official release in March...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Alpha</guid>
+      <pubDate>Fri, 16 Jan 2026 01:45:44 +0000</pubDate>
     </item>
   </channel>
 </rss>
