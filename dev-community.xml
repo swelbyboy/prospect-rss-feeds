@@ -8,80 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jan 2026 06:38:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 06:34:54 +0000</lastBuildDate>
+    <item>
+      <title>'Chainguard' image for secure service</title>
+      <link>https://dev.to/kination/chainguard-image-for-secure-service-2jio</link>
+      <description>If you work as DevOps or system backend development, one of critical point causing your stress will be 'security'. Even though it is always at the top of the priority list, its substance remains elusive. Assume you are maintaining k8s cluster, or docker image(in recent system, most of devops engineer will be related at least one of these). Even if your code is secure, the base image (Debian, Ubuntu, or even Alpine) often carries inherent technical debt, and within that debt, there are often secu</description>
+      <guid isPermaLink="false">https://dev.to/kination/chainguard-image-for-secure-service-2jio</guid>
+      <pubDate>Sat, 17 Jan 2026 05:28:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Laravel API Inspector - Auto Generate API Documentation</title>
+      <link>https://dev.to/fazle_rabbi/laravel-api-inspector-auto-generate-api-documentation-56fd</link>
+      <description>Laravel API Inspector automatically generates API documentation from your Laravel routes, FormRequest validation rules, and API Resources. It's like Postman + Swagger combined, but deeply integrated with Laravel. This is the git repository https://github.com/irabbi360/laravel-api-inspector Features ✨ Auto-Parse FormRequest Rules - Converts Laravel validation rules into comprehensive documentation 📮 Generate Postman Collections - Create ready-to-use Postman collections with examples 📖 OpenAPI/Swa</description>
+      <guid isPermaLink="false">https://dev.to/fazle_rabbi/laravel-api-inspector-auto-generate-api-documentation-56fd</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F19u5lzr0lwy8cemoqfac.png" length="0" type="image/png"/>
+      <pubDate>Sat, 17 Jan 2026 05:52:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Universal Agent + Skills Tutorial: Build Your 10-Person Team from Scratch</title>
+      <link>https://dev.to/web3nomad/build-your-10-person-engineering-team-with-universal-agent-1anc</link>
+      <description>Universal Agent + Skills Tutorial: Build Your 10-Person Team from Scratch Imagine this: You tell your AI Agent: "Write me technical documentation." It instantly loads technical-writer.skill and transforms into a tech writer. Next moment: "Analyze our competitors' ad strategies." It swaps in marketing-analyst.skill and starts crawling data. Even better: Need an expert in a niche domain—say, "SQL performance tuning"—but can't find one? Let the Agent write a skill for itself. This isn't sci-fi. And</description>
+      <guid isPermaLink="false">https://dev.to/web3nomad/build-your-10-person-engineering-team-with-universal-agent-1anc</guid>
+      <pubDate>Sat, 17 Jan 2026 05:52:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Array Index Starts from 0: The Real Reason Behind the Scenes</title>
+      <link>https://dev.to/jps27cse/why-array-index-starts-from-0-the-real-reason-behind-the-scenes-fmj</link>
+      <description>If you’ve ever written code, you’ve probably asked this question at least once: “Why do arrays start from index 0 instead of 1?” At first glance, starting from 1 feels more natural. Humans count 1, 2, 3…, not 0, 1, 2…. Yet almost every major programming language—C, C++, Java, Python, JavaScript—uses zero-based indexing. This is not a random decision. It’s not to confuse beginners. And it’s definitely not a mistake. Let’s break down the real reasons, from hardware memory to compiler design, and s</description>
+      <guid isPermaLink="false">https://dev.to/jps27cse/why-array-index-starts-from-0-the-real-reason-behind-the-scenes-fmj</guid>
+      <pubDate>Sat, 17 Jan 2026 06:03:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building a Smart Inbox: AI-Powered Message Routing on AWS EKS</title>
+      <link>https://dev.to/prithiviraj_rengarajan/building-a-smart-inbox-ai-powered-message-routing-on-aws-eks-4g27</link>
+      <description>Real-time sentiment analysis and intelligent message prioritization using Kubernetes, AWS Bedrock, and React Introduction In this comprehensive guide, I'll walk you through building a production-ready, AI-powered message routing system using AWS services. This project demonstrates how to leverage modern cloud-native technologies to create an intelligent application that automatically analyzes message sentiment and routes them accordingly. What We Built: A sentiment analysis API using AWS Bedrock</description>
+      <guid isPermaLink="false">https://dev.to/prithiviraj_rengarajan/building-a-smart-inbox-ai-powered-message-routing-on-aws-eks-4g27</guid>
+      <enclosure url="/Users/prithivirajrengarajan/Documents/smart2.png" length="0" type="image/png"/>
+      <pubDate>Sat, 17 Jan 2026 06:06:20 +0000</pubDate>
+    </item>
     <item>
       <title>Did you know?</title>
-      <link>https://dev.to/cloudraptor/did-you-know-9ha</link>
-      <description>The cloud isn’t just about speed and flexibility, it can also help businesses go green. By using shared resources instead of running their own servers, companies reduce energy use and cut down on waste. Cloud sustainability means designing systems that are efficient, cost-effective, and environmentally friendly. Do you think businesses care more about saving costs when moving to the cloud?</description>
-      <guid isPermaLink="false">https://dev.to/cloudraptor/did-you-know-9ha</guid>
-      <pubDate>Fri, 16 Jan 2026 05:48:50 +0000</pubDate>
+      <link>https://dev.to/cloudraptor/did-you-know-1dpo</link>
+      <description>The cloud isn’t just about technology, it’s changing how businesses operate. Companies can now launch products faster, scale services instantly, and reach global customers without huge upfront costs. This flexibility allows new business models like subscription services, pay-as-you-go apps, and digital marketplaces to thrive. It’s like moving from owning DVDs to streaming movies, simple, affordable, and accessible anywhere.</description>
+      <guid isPermaLink="false">https://dev.to/cloudraptor/did-you-know-1dpo</guid>
+      <pubDate>Sat, 17 Jan 2026 06:11:06 +0000</pubDate>
     </item>
     <item>
-      <title>I built a lightning-fast statistics platform for Poland</title>
-      <link>https://dev.to/mattrybin/i-built-a-lightning-fast-statistics-platform-for-poland-1ldm</link>
-      <description>I needed Polish demographic data for a project and kept running into the same problem. The official statistics site (GUS) was slow, confusing, and the language they use is pretty hard to parse even if you speak Polish. And ChatGPT kept giving me different numbers every time I asked. So I thought, why not just build something better? What it actualy does You click on any region in Poland and you get the stats. Thats it. No loading, no waiting, no confusing navigation. You can go from the whole co</description>
-      <guid isPermaLink="false">https://dev.to/mattrybin/i-built-a-lightning-fast-statistics-platform-for-poland-1ldm</guid>
-      <pubDate>Fri, 16 Jan 2026 05:58:21 +0000</pubDate>
+      <title>Backend Transitioning to AI Dev</title>
+      <link>https://dev.to/sugam50/backend-transitioning-to-ai-dev-5d07</link>
+      <description>After working with LLMs, I believe the hardest part of the transition for backend engineers isn't the math—it's unlearning determinism. In traditional distributed systems, Input A always yields Output B. If it doesn't, it’s a bug. With GenAI, Input A might yield Output B today, and a completely different structure tomorrow. This breaks everything we know about stability at scale. You can't write a standard unit test for a "vibe check." You can't rely on a model to output valid JSON 100% of the t</description>
+      <guid isPermaLink="false">https://dev.to/sugam50/backend-transitioning-to-ai-dev-5d07</guid>
+      <pubDate>Sat, 17 Jan 2026 06:12:02 +0000</pubDate>
     </item>
     <item>
-      <title>🧱 Building QRForge PRO with PySide6 (Beginner-Friendly Guide)</title>
-      <link>https://dev.to/matetechnologie/building-qrforge-pro-with-pyside6-beginner-friendly-guide-53kb</link>
-      <description>This tutorial is a Dev.to–style, step-by-step walkthrough of the QRForge PRO v2.0.0 desktop application. We’ll progressively build a professional QR code design studio using: 🐍 Python 🖼 PySide6 (Qt for Python) 🔳 qrcode 🧠 GraphicsScene / GraphicsView 📤 PNG, SVG, and PDF exports 👉 Full source code: https://github.com/rogers-cyber/QRForgePRO 0️⃣ What You’ll Build By the end, you’ll have an app that can: Generate QR codes from Text, URLs, and Wi‑Fi credentials Customize colors, backgrounds, transpar</description>
-      <guid isPermaLink="false">https://dev.to/matetechnologie/building-qrforge-pro-with-pyside6-beginner-friendly-guide-53kb</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fesyp2u5iztwsx6n7pc1d.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 16 Jan 2026 05:59:17 +0000</pubDate>
+      <title>What No One Tells You About Building an AI SaaS Business</title>
+      <link>https://dev.to/jaideepparashar/what-no-one-tells-you-about-building-an-ai-saas-business-2nhe</link>
+      <description>Building an AI SaaS business looks straightforward right now. Pick a model. Wrap it in a UI. Add subscriptions. Scale. From the outside, it feels like the easiest era in history to launch software. But the reality is harsher and more interesting. Because what most people call “AI SaaS” is not SaaS in the traditional sense. It’s a different business shape with different constraints. And if you treat it like ordinary SaaS, you’ll build something that looks good in a demo and struggles everywhere e</description>
+      <guid isPermaLink="false">https://dev.to/jaideepparashar/what-no-one-tells-you-about-building-an-ai-saas-business-2nhe</guid>
+      <pubDate>Sat, 17 Jan 2026 06:14:17 +0000</pubDate>
     </item>
     <item>
-      <title>The Ultimate Python Roadmap: Learn Step by Step</title>
-      <link>https://dev.to/devshefali/the-ultimate-python-roadmap-learn-step-by-step-3jg3</link>
-      <description>Python is one of the most beginner-friendly and versatile programming languages. You can use it for many things like building websites, working with data, automating tasks, creating backend systems, or even getting started with AI. To learn Python, there’s a lot to cover: basics, data types, loops, functions, OOP, and more. But don’t worry, you’re in the right place. I’ve put together a step-by-step Python roadmap to guide you through everything in a clear and logical order. Let’s jump right int</description>
-      <guid isPermaLink="false">https://dev.to/devshefali/the-ultimate-python-roadmap-learn-step-by-step-3jg3</guid>
-      <pubDate>Fri, 16 Jan 2026 06:06:24 +0000</pubDate>
+      <title>Building an AI SaaS system is possible; however, when you build the SaaS system, you should have ethical considerations at the centre. If you don't have ethics at the centre, then your model will work but won't have any trust.</title>
+      <link>https://dev.to/jaideepparashar/building-an-ai-saas-system-is-possible-however-when-you-build-the-saas-system-you-should-have-2kib</link>
+      <description>What No One Tells You About Building an AI SaaS Business Jaideep Parashar ・ Jan 17 #webdev #ai #saas #programming</description>
+      <guid isPermaLink="false">https://dev.to/jaideepparashar/building-an-ai-saas-system-is-possible-however-when-you-build-the-saas-system-you-should-have-2kib</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3391551%2Fb884abd7-f906-4094-afe5-256359f658f3.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 17 Jan 2026 06:15:27 +0000</pubDate>
     </item>
     <item>
-      <title>❌ Stop Using Singleton. You Don’t Need It (And It’s Quietly Hurting Your Code)</title>
-      <link>https://dev.to/tech_rider/stop-using-singleton-you-dont-need-it-and-its-quietly-hurting-your-code-1dck</link>
-      <description>Stop Using the Singleton Pattern The Singleton pattern looks simple and useful. It is also one of the most common causes of hidden design problems in software systems. What Singleton Does Singleton ensures that a class has only one instance and that this instance can be accessed globally. Logger.getInstance().log("Hello"); One instance. Global access. The Real Issue Singleton is just global state. Any part of the code can access it, change it, and depend on it without being explicit. This makes</description>
-      <guid isPermaLink="false">https://dev.to/tech_rider/stop-using-singleton-you-dont-need-it-and-its-quietly-hurting-your-code-1dck</guid>
-      <pubDate>Fri, 16 Jan 2026 06:07:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Level 0 of my DevOps journey</title>
-      <link>https://dev.to/alok38/level-0-of-my-devops-journey-1em3</link>
-      <description>Level 0 DevOps Summary: What I’ve Done 1 Created and Connected to an EC2 Instance You launched an AWS EC2 instance (Linux-based). Connected to it successfully using WSL on your local machine. Verified that you can log in and run commands on the server. 2 Configured SSH for Easy Access Updated your SSH config on WSL (~/.ssh/config) to simplify connections. Corrected HostName usage (only hostname/IP, not username). Verified key permissions (chmod 600) to ensure secure SSH access. Created an alias</description>
-      <guid isPermaLink="false">https://dev.to/alok38/level-0-of-my-devops-journey-1em3</guid>
-      <pubDate>Fri, 16 Jan 2026 06:12:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>From Chaos to Clarity: Building a Robust Log Aggregation Pipeline with Kafka (KRaft) and ELK</title>
-      <link>https://dev.to/srikantvs26/from-chaos-to-clarity-building-a-robust-log-aggregation-pipeline-with-kafka-kraft-and-elk-37bb</link>
-      <description>From Chaos to Clarity: Building a Robust Log Aggregation Pipeline with Kafka (KRaft) and ELK As systems grow into microservices, logs become fragmented. Debugging an issue often means SSH-ing into multiple containers or Grepping through scattered files. This is where Centralized Log Aggregation becomes non-negotiable. In this guide, we are going to build a production-grade logging pipeline from scratch. We will decouple log shipping from log indexing using Apache Kafka (running in the modern, Zo</description>
-      <guid isPermaLink="false">https://dev.to/srikantvs26/from-chaos-to-clarity-building-a-robust-log-aggregation-pipeline-with-kafka-kraft-and-elk-37bb</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9p9akdiauh87u7kcm4z8.JPG" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 16 Jan 2026 06:12:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>V-Order optimization</title>
-      <link>https://dev.to/sankalp_fabric_data_architect/v-order-optimization-388g</link>
-      <description>V-Order optimize parquet file through sorting, row group distribution, encoding and compression. Disadvantage of V-order optimization is that it increase the write time by up to 15 but positive side is that it boost the data compression by 50% and data read time improve by 10% and also in some cases read time improve up to 50% as well. parquet engine can read it as a regular parquet file. there is not any impact on delta table other features, like Z-Order, vacuum, time travel, compaction etc. V-</description>
-      <guid isPermaLink="false">https://dev.to/sankalp_fabric_data_architect/v-order-optimization-388g</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F03h7zti8x77q4bk0h0s3.png" length="0" type="image/png"/>
-      <pubDate>Fri, 16 Jan 2026 06:17:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stop paying for ngrok! 🛑 Meet NPort: The Free Open Source Alternative</title>
-      <link>https://dev.to/tuanngocptn/stop-paying-for-ngrok-meet-nport-the-free-open-source-alternative-2iok</link>
-      <description>The Problem 😫 We've all been there. You are demoing a Next.js app to a client, or testing a Stripe webhook locally. You fire up ngrok, send the link, and 2 hours later... the session expires. Or worse, you restart your server, and the domain changes from random-xyz.ngrok-free.app to random-abc.ngrok-free.app. You have to go update your webhook settings again. To get a stable, custom subdomain, you usually have to pay. I got tired of this, so I decided to build my own solution using the massive e</description>
-      <guid isPermaLink="false">https://dev.to/tuanngocptn/stop-paying-for-ngrok-meet-nport-the-free-open-source-alternative-2iok</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F130pe4sc4jecr21mqiy8.webp" length="0" type="image/webp"/>
-      <pubDate>Fri, 16 Jan 2026 06:31:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Building an AI-ready culture without big budgets</title>
-      <link>https://dev.to/jaideepparashar/building-an-ai-ready-culture-without-big-budgets-49gc</link>
-      <description>As the Founder of ReThynk AI, I’ve learned something practical: An AI-ready culture is not built by buying tools. It’s built by changing habits. Budgets help. But clarity, discipline, and trust help more. Building an AI-Ready Culture Without Big Budgets Most small businesses and early-stage startups think AI readiness means: hiring AI experts buying expensive platforms running big transformation projects That approach delays adoption. The truth is simpler: AI readiness is a culture of smart usag</description>
-      <guid isPermaLink="false">https://dev.to/jaideepparashar/building-an-ai-ready-culture-without-big-budgets-49gc</guid>
-      <pubDate>Fri, 16 Jan 2026 06:32:13 +0000</pubDate>
+      <title>🚨 One filename change. Zero errors. Production broken.</title>
+      <link>https://dev.to/devnamdev/one-filename-change-zero-errors-production-broken-2kp1</link>
+      <description>A small Git detail taught me a production-level lesson the hard way.** I recently ran into a subtle issue while working with Git on Windows. It looked harmless at first — until it showed up in production. I had a file named DEV.html. I pushed it to GitHub and everything worked as expected. Later, I renamed it locally to dev.html (just a case change) and pushed again. No errors. No warnings. Everything looked fine. But in production, links like &amp;lt;a href="dev.html"&amp;gt; started returning 404 – Page Not</description>
+      <guid isPermaLink="false">https://dev.to/devnamdev/one-filename-change-zero-errors-production-broken-2kp1</guid>
+      <pubDate>Sat, 17 Jan 2026 06:16:23 +0000</pubDate>
     </item>
   </channel>
 </rss>

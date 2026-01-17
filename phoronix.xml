@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jan 2026 06:38:48 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 06:35:05 +0000</lastBuildDate>
     <item>
-      <title>Linux Patches Bring Mainline Kernel Support For The ASUS IPMI Expansion Card</title>
-      <link>https://www.phoronix.com/news/ASUS-IPMI-Expansion-Card-Linux</link>
-      <description>DeviceTree patches worked on recently allow for the mainline Linux kernel to run on the ASUS "Kommando" IPMI Expansion Card. This is interesting for opening up new possibilities for this external IPMI/BMC expansion card but too bad that less than three years after launching it's difficult to find...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ASUS-IPMI-Expansion-Card-Linux</guid>
-      <pubDate>Thu, 15 Jan 2026 11:15:54 +0000</pubDate>
+      <title>Wild 0.8 Linker Adds SFrame Support, LoongArch64 &amp;amp; More Performance</title>
+      <link>https://www.phoronix.com/news/Wild-Linker-0.8</link>
+      <description>Wild 0.8 is now available as this speedy linker focused on iterative development, a goal of incremental linking, and written in the Rust programming language...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Wild-Linker-0.8</guid>
+      <pubDate>Fri, 16 Jan 2026 10:43:18 +0000</pubDate>
     </item>
     <item>
-      <title>libvirt 12.0 Released - Bhyve ARM64 Support &amp;amp; Other Improvements For The BSD Hypervisor</title>
-      <link>https://www.phoronix.com/news/libvirt-12.0</link>
-      <description>Libvirt 12.0 released today as this open-source virtualization API for management across different virtualization technologies/hypervisors. With libvirt 12.0, improving Bhyve as the FreeBSD hypervisor was a big focus...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/libvirt-12.0</guid>
-      <pubDate>Thu, 15 Jan 2026 11:24:00 +0000</pubDate>
+      <title>Intel Releases Updated LLM-Scaler-vLLM With Continuing To Expand Its LLM Support</title>
+      <link>https://www.phoronix.com/news/Intel-LLM-Scaler-vLLM-0.11.1-b7</link>
+      <description>One of the initiatives launched by Intel in 2025 was LLM-Scaler as part of Project Battlematrix. The open-source LLM Scaler is a Docker-based solution for helping to deploy Generative AI "GenAI" workloads on Intel Battlemage graphics cards with frameworks like vLLM, ComfyUI, SGLang, and more. There continues to be routine new feature releases of LLM Scaler for broadening the large language models supported and other improvements...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-LLM-Scaler-vLLM-0.11.1-b7</guid>
+      <pubDate>Fri, 16 Jan 2026 10:54:09 +0000</pubDate>
     </item>
     <item>
-      <title>D7VK 1.2 Released For Improving Direct3D 6 Front-End</title>
-      <link>https://www.phoronix.com/news/D7VK-1.2-Released</link>
-      <description>Started last year was D7VK as a project bringing Direct3D 7 implemented over the Vulkan API for enjoying better performance and support for legacy Windows games on Linux, akin to DXVK and VKD3D-Proton for newer versions of Direct3D over Vulkan that is used by Valve's Steam Play (Proton). Back in December D7VK added a Direct3D 6 front-end for allowing even older game titles to be accelerated using the modern Vulkan API. Today D7VK 1.2 is out for furthering the D3D6 support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/D7VK-1.2-Released</guid>
-      <pubDate>Thu, 15 Jan 2026 12:31:46 +0000</pubDate>
+      <title>OpenBLAS 0.3.31 Released With New Extensions, RISC-V &amp;amp; ARM64 Optimizations</title>
+      <link>https://www.phoronix.com/news/OpenBLAS-0.3.31</link>
+      <description>For those looking for a speedy Basic Linear Algebra Subprograms "BLAS" library, OpenBLAS 0.3.31 is now available for this optimized open-source implementation...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/OpenBLAS-0.3.31</guid>
+      <pubDate>Fri, 16 Jan 2026 11:04:13 +0000</pubDate>
     </item>
     <item>
-      <title>Whisper.cpp 1.8.3 Delivers A "12x Performance Boost" With Integrated Graphics</title>
-      <link>https://www.phoronix.com/news/Whisper-cpp-1.8.3-12x-Perf</link>
-      <description>Whisper.cpp as the open-source high performance inference project built around OpenAI's Whisper and from the same developers as Llama.cpp / GGML is out with a big new release. Whisper.cpp 1.8.3 is capable of delivering a 12x performance boost for systems with integrated AMD and Intel graphics...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Whisper-cpp-1.8.3-12x-Perf</guid>
-      <pubDate>Thu, 15 Jan 2026 13:19:08 +0000</pubDate>
+      <title>Patches Positioned Ahead Of Linux 7.0 Cycle For Easy Custom Boot Logo In Place Of Tux</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Custom-Boot-Logo</link>
+      <description>The Linux kernel patches talked about at the start of the year for more easily changing the boot logo of Tux are now queued into a "for-next" branch and thus expected to be submitted for the upcoming Linux 6.20~7.0 kernel cycle. Those wanting to replace the Tux icon with an alternative logo during the Linux kernel boot process could already patch the file manually but this new code allows for an easy replacement via Kconfig options...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Custom-Boot-Logo</guid>
+      <pubDate>Fri, 16 Jan 2026 11:28:00 +0000</pubDate>
     </item>
     <item>
-      <title>Imagination Driver To Support The TI AM62P SoC In Linux 6.20~7.0</title>
-      <link>https://www.phoronix.com/news/Imagination-AM62P-Linux-7.0</link>
-      <description>Sent out today was the latest DRM-Misc-Next pull request of new material ahead of the next kernel cycle either Linux 6.20 or 7.0 depending upon what Linus Torvalds decides to call it...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Imagination-AM62P-Linux-7.0</guid>
-      <pubDate>Thu, 15 Jan 2026 14:27:58 +0000</pubDate>
+      <title>Ubuntu 26.04 Aims To Deliver Better NVIDIA Wayland Performance Atop GNOME</title>
+      <link>https://www.phoronix.com/news/Ubuntu-26.04-Faster-NVIDIA</link>
+      <description>If all goes well the upcoming Ubuntu 26.04 LTS release will further enhance the NVIDIA graphics performance under its default GNOME Wayland session. The improvements might be upstreamed to GNOME 50 in time but otherwise it's looking like Ubuntu 26.04 will carry its own patch(es) for improving the NVIDIA Wayland performance...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-26.04-Faster-NVIDIA</guid>
+      <pubDate>Fri, 16 Jan 2026 13:17:21 +0000</pubDate>
     </item>
     <item>
-      <title>Burn 0.20 Released: Rust-Based Deep Learning With Speedy Perf Across CPUs &amp;amp; GPUs</title>
-      <link>https://www.phoronix.com/news/Burn-0.20-Released</link>
-      <description>A significant update to Burn was released today, the MIT and Apache 2.0 licensed tensor library and deep learning framework written in the Rust programming language. Burn 0.20 brings some low-level changes as it continues to strive to deliver high performance AI across the diverse hardware ecosystem...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Burn-0.20-Released</guid>
-      <pubDate>Thu, 15 Jan 2026 17:06:23 +0000</pubDate>
+      <title>Linux 7.0 Looks To Enable Intel TSX By Default On Capable CPUs For Better Performance</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Intel-TSX-Default</link>
+      <description>A patch queued up into tip/tip.git's x86/cpu Git branch ahead of the upcoming Linux 6.20~7.0 kernel cycle enables the Intel Transactional Synchronization Extensions (TSX) functionality by default on the mainline kernel for capable CPUs and those not affected by side-channel attacks due to TSX Async Abort (TAA) and similar vulnerabilities. For newer Intel CPUs with safe TSX support, this change can mean better performance with the kernel defaults...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Intel-TSX-Default</guid>
+      <pubDate>Fri, 16 Jan 2026 14:25:52 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 To Expand Temperature Reporting For Intel Graphics Cards</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Intel-GPU-Temperature</link>
-      <description>The upcoming Linux 6.20~7.0 kernel cycle will provide expanded GPU temperature reporting capabilities for Intel graphics cards. Additional temperature sensors will now be exposed under Linux with the Intel Xe driver using the hardware monitoring (HWMON) interface for easy consumption by different Linux user-space software...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Intel-GPU-Temperature</guid>
-      <pubDate>Thu, 15 Jan 2026 17:35:21 +0000</pubDate>
+      <title>AMD EPYC 8004 "Siena" Shows Some Nice Linux Performance Gains Over The Past Two Years</title>
+      <link>https://www.phoronix.com/review/amd-epyc-8534p-2year-linux</link>
+      <description>As part of my various end-of-year benchmarks, recently I looked at the Linux LTS kernel performance on AMD EPYC 9005 over the past year, the AMD EPYC Milan-X performance over the past four years, and various other performance comparisons over time to look the evolution of the Linux software performance. Another run I had carried out was looking at the AMD EPYC 8004 "Siena" series since its launch just over two years ago. Here is a look at how an up-to-date Linux software stack can deliver some a</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/amd-epyc-8534p-2year-linux</guid>
+      <pubDate>Fri, 16 Jan 2026 16:45:00 +0000</pubDate>
     </item>
     <item>
-      <title>Lenovo ThinkPad P1 Gen 8: A High-End, Intel + NVIDIA Mobile Workstation Great For Linux Use</title>
-      <link>https://www.phoronix.com/review/lenovo-thinkpad-p1-gen8</link>
-      <description>For those shopping for an AI-ready mobile workstation with NVIDIA RTX PRO Blackwell graphics, the Lenovo ThinkPad P1 Gen 8 offers a lot of potential for developers, AI researchers, content creators, and others. This Linux-friendly mobile workstation is well built and aligns with ThinkPad P-Series expectations while being ready to be tasked with demanding workloads.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/lenovo-thinkpad-p1-gen8</guid>
-      <pubDate>Thu, 15 Jan 2026 19:12:00 +0000</pubDate>
+      <title>Linux ThinkPad Driver Ready For Reporting Damage Device - Starting With Bad USB-C Ports</title>
+      <link>https://www.phoronix.com/news/ThinkPad-Damaged-Device-Ready</link>
+      <description>Queued yesterday into the platform-drivers-x86.git's "for-next" branch are the patches for the Lenovo ThinkPad ACPI driver to begin reporting damaged device detection. This code being in the "for-next" branch makes it material for the next version of the Linux kernel and initially will be able to report to the user on damaged USB-C ports...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ThinkPad-Damaged-Device-Ready</guid>
+      <pubDate>Fri, 16 Jan 2026 19:50:00 +0000</pubDate>
     </item>
     <item>
-      <title>EndeavourOS 2026.01.12 Released With Linux 6.18 LTS Kernel, NVIDIA Open Modules</title>
-      <link>https://www.phoronix.com/news/EndeavourOS-2026.01.12</link>
-      <description>EndeavourOS 2026.01.12 "Ganymede Neo" is out as the first update of the year to this Arch Linux based distribution...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/EndeavourOS-2026.01.12</guid>
-      <pubDate>Thu, 15 Jan 2026 22:32:28 +0000</pubDate>
+      <title>Adobe Photoshop 2025 Installer Now Working On Linux With Patched Wine</title>
+      <link>https://www.phoronix.com/news/Adobe-Photoshop-2025-Wine-Patch</link>
+      <description>An open-source developer has worked through the last of the issues preventing the Adobe Creative Cloud installers for Windows from running on Linux via Wine. With pending patches, Adobe Photoshop 2021 and Photoshop 2025 are expected to install and run on Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Adobe-Photoshop-2025-Wine-Patch</guid>
+      <pubDate>Fri, 16 Jan 2026 21:22:37 +0000</pubDate>
     </item>
     <item>
-      <title>GNOME 50 Alpha Released With The X11 Code Gutted</title>
-      <link>https://www.phoronix.com/news/GNOME-50-Alpha</link>
-      <description>The GNOME 50 Alpha "50.alpha" release is now available for testing ahead of this open-source desktop's official release in March...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Alpha</guid>
-      <pubDate>Fri, 16 Jan 2026 01:45:44 +0000</pubDate>
+      <title>Upcoming exFAT Linux Driver Patch Can Boost Sequential Read Performance By ~10%</title>
+      <link>https://www.phoronix.com/news/exFAT-Faster-Seq-Reads-10p</link>
+      <description>A patch for the open-source exFAT file-system driver for Linux can boost the sequential read performance by about 10% in preliminary tests...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/exFAT-Faster-Seq-Reads-10p</guid>
+      <pubDate>Sat, 17 Jan 2026 01:44:20 +0000</pubDate>
     </item>
   </channel>
 </rss>
