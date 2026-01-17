@@ -8,77 +8,83 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Jan 2026 06:41:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Jan 2026 06:37:05 +0000</lastBuildDate>
     <item>
-      <title>【資安日報】1月16日，Palo Alto Networks修補能被用於停止防火牆運作的資安漏洞</title>
-      <link>https://www.ithome.com.tw/news/173401</link>
-      <description>新聞Palo Alto Networks揭露高風險阻斷服務漏洞，若不處理攻擊者恐讓防火牆停擺 最近幾個月駭客鎖定Palo Alto Networks防火牆或SSL VPN服務GlobalProtect的情況，已有多次大規模掃描的活動，一旦這些系統存在弱點，很可能成為攻擊者利用的對象，而受到外界關注。 本週資安公司Palo Alto Networks修補高風險阻斷服務（DoS）漏洞，引起各家資安新聞媒體報導。1月15日Palo Alto Networks發布資安公告，指出防火牆作業系統PAN-OS存在高風險漏洞CVE-2026-0227，未經身分驗證的攻擊者可導致防火牆出現服務中斷的現象，若反覆觸發漏洞，還會讓防火牆進入維護模式，4.0版CVSS風險為7.7分，影響PAN-OS及SASE平臺Prisma Access用戶，該公司已為10.2至12.1版PAN-OS，以及10.2與11.2版Prisma Access發布更新修補，由於沒有其他替代緩解措施，他們呼籲用戶要儘速安裝更新。 上述存在弱點的系統，只有在啟用GlobalProtect的狀態，包含開放閘道或是入口網站，才會存在風險。P</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173401</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/1768405391874.png" length="0" type="image/png"/>
-      <pubDate>Fri, 16 Jan 2026 03:44:04 +0000</pubDate>
+      <title>悠遊卡以支付大數據助店家解決剩食問題</title>
+      <link>https://www.ithome.com.tw/news/173412</link>
+      <description>新聞電子支付如何協助企業實現永續轉型？悠遊卡公司在數發部及環境部支持下，今天(1/16)宣布將和爭鮮gogo、悟饕池上飯包合作，利用多年累積的支付大數據，媒合消費者及店家，協助餐飲業者解決剩食問題。 悠遊卡公司目前在國內擁有約390萬電支用戶，為國內前五大電子支付業者，旗下悠遊卡、悠遊付多年累積的支付大數據，這次的合作即以該公司長期累積的消費數據，協助餐飲及零售業者，透過資訊媒合，讓仍在賞味期內的餐點，在合適的時機下被消費者購買享用，助店家解決剩食問題。 悠遊卡公司董事長林志盈表示，這項行動的目的是讓悠遊卡發揮更大的社會影響力，當科技真正貼近生活，改變就會自然發生。「我們期待把長期累積數據力，轉化為具體行動，讓永續不再只是理念，而是大家每天都能參與的事」。 該行動主要響應是數發部推動的智慧城鄉生活應用計畫，鼓勵產業將科技或技術，用於民眾的生活場域，透過跨領域合作，讓數位應用融入日常。悠遊卡公司即以多年累積的交通、支付數據，媒合消費者與餐飲業者，共同解決剩食問題。 當店家推出限時享味的鮮食餐點時，悠遊卡公司背後運用數據，透過悠遊付App，將優惠資訊提供給在附近的消費者，類似傳統的LBS發</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173412</guid>
+      <pubDate>Fri, 16 Jan 2026 07:15:30 +0000</pubDate>
     </item>
     <item>
-      <title>Palo Alto Networks揭露高風險阻斷服務漏洞，若不處理攻擊者恐讓防火牆停擺</title>
-      <link>https://www.ithome.com.tw/news/173399</link>
-      <description>新聞最近幾個月駭客鎖定Palo Alto Networks防火牆或SSL VPN服務GlobalProtect的情況，已有多次大規模掃描的活動，一旦這些系統存在弱點，很可能成為攻擊者利用的對象，而受到外界關注。 本週資安公司Palo Alto Networks修補高風險阻斷服務（DoS）漏洞，引起各家資安新聞媒體報導。1月15日Palo Alto Networks發布資安公告，指出防火牆作業系統PAN-OS存在高風險漏洞CVE-2026-0227，未經身分驗證的攻擊者可導致防火牆出現服務中斷的現象，若反覆觸發漏洞，還會讓防火牆進入維護模式，4.0版CVSS風險為7.7分，影響PAN-OS及SASE平臺Prisma Access用戶，該公司已為10.2至12.1版PAN-OS，以及10.2與11.2版Prisma Access發布更新修補，由於沒有其他替代緩解措施，他們呼籲用戶要儘速安裝更新。 上述存在弱點的系統，只有在啟用GlobalProtect的狀態，包含開放閘道或是入口網站，才會存在風險。Palo Alto Networks強調，目前尚未發現漏洞遭到利用的跡象。 鎖定Palo A</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173399</guid>
-      <pubDate>Fri, 16 Jan 2026 03:46:02 +0000</pubDate>
+      <title>【產品資安治理要求成國際浪潮】企業需正視PSIRT建置，完善產品與服務漏洞通報應變</title>
+      <link>https://www.ithome.com.tw/news/173411</link>
+      <description>新聞談到企業與組織的資安事件應變，大家可能第一時間想到IT系統或網路防護，企業本身需要建立電腦資安事件應變小組（CSIRT），統籌與處理相關事宜，但產品層級的資安事件應變議題也越來越受重視。 一旦產品或服務漏洞遭到利用，使用者可能遭受入侵、資料外洩、系統癱瘓等風險，因此，供應商成立專門負責產品資安事件應變的PSIRT團隊（Product Security Incident Response Team），也逐漸成為資安治理的重要一環，這不僅是為了維護客戶的信任、對產品負責，也是因應全球資安立法趨勢的必要措施。 事實上，想要確保產品資安，若能落實設計即安全（Security by Design），固然能提前預防許多資安問題的發生，但從產品生命週期的角度來看，還需要事中察覺與事後應變，確保產品上市後的安全維護。 PSIRT並非新概念，是推動多年的產品資安實務，國際企業早有許多前例，例如微軟的Microsoft Security Response Center（MSRC），早在2003年發布每月例行安全更新，取代過去隨時發布安全更新的節奏，後續也舉辦漏洞懸賞計畫，就是具代表性的案例之一。Goo</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173411</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/FIRST_PSIRT%20Services%20Framework.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 08:11:47 +0000</pubDate>
     </item>
     <item>
-      <title>一度被誤判高風險，zlib漏洞CVE-2026-22184資安風險大轉彎</title>
-      <link>https://www.ithome.com.tw/news/173395</link>
-      <description>新聞廣泛用於各類作業系統與應用程式的無失真資料壓縮函式庫zlib，日前被研究人員揭露資安漏洞CVE-2026-22184。該漏洞初期在風險評估尚未完整釐清時，其漏洞風險分數一度以CVSS v4.0標示為9.3分、屬於重大（Critical）風險；隨著技術細節確認，後續評估結果收斂，最新CVSS v4.0分數為4.6分、列為中度（Medium）風險。 僅影響示範工具untgz，未波及核心函式庫 資安研究人員指出，CVE-2026-22184並非發生於zlib核心壓縮函式庫，而是位於contrib目錄下的示範工具untgz。該工具在處理命令列傳入的壓縮檔名稱時，未驗證長度即寫入固定大小的全域緩衝區，可能造成記憶體毀損或服務中斷（DoS）。 觸發條件受限，本機操作才會發生 該漏洞程式碼位於untgz工具的啟動流程中，會在任何壓縮檔內容解析前處理命令列參數，因此僅能在本機執行該工具、並傳入過長檔名參數時觸發。由於不涉及網路輸入或服務端請求，該漏洞不屬於可遠端利用的攻擊情境，其實際影響取決於untgz在系統中的使用方式。 為何一度被誤認為高風險 CVE-2026-22184在初期通報時，尚未清楚</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173395</guid>
-      <pubDate>Fri, 16 Jan 2026 03:46:35 +0000</pubDate>
+      <title>【TWCERT/CC發布PSIRT建置參考指引】產品資安事件應變走向制度化！企業可從5大規畫與7大執行階段著手</title>
+      <link>https://www.ithome.com.tw/news/173413</link>
+      <description>新聞隨著產品資安漏洞的揭露日益頻繁、供應鏈的資安風險持續升高，產品安全愈來愈受到國際法規與標準的重視，特別是在歐盟《網路韌性法案（CRA）》與產品責任相關法規修訂，以及美國NIST持續強化產品資安實務要求的背景之下，皆突顯企業需要一套有效的PSIRT機制，以具備符合監管要求的應變能力。 最近臺灣政府也順應這個全球潮流，在2025年12月26日，由TWCERT/CC發布《產品資安事件應變團隊PSIRT建置參考指引（草案）》，提供企業易於依循的導入方向。 事實上，PSIRT概念行之有年，持續有企業在國內公開活動分享建置經驗，例如，臺灣資安大會、TWCERT/CC臺灣資安通報應變年會，全球各國亦有具體行動，例如，FIRST國際資安應變組織發布《PSIRT Services Framework》，作為重要的實務參考。然而，這些概念傳達多半僅止於現場參與議程的人員，或是以英文文件呈現不利於國人閱讀。 如今TWCERT/CC終於推出這方面的指引，可大幅降低取得相關知識的門檻，內容雖是基於PSIRT Services Framework發展而來，但我們發現，在呈現方式上，已重新依照PDCA架構加以整</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173413</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/FIRST%20PSIRT%20Maturity%20Document%20Level%201-3.gif" length="0" type="image/gif"/>
+      <pubDate>Fri, 16 Jan 2026 08:11:55 +0000</pubDate>
     </item>
     <item>
-      <title>殭屍網路Aisuru與Kimwolf橫行，資安公司對逾550臺C2主機下手，阻止活動規模擴大</title>
-      <link>https://www.ithome.com.tw/news/173400</link>
-      <description>新聞殭屍網路Aisuru最近兩年不斷發動大規模攻擊，後續於去年底中國資安公司奇安信公布相關調查結果，指出駭客另起爐灶，綁架電視盒與數位電視組成另一個大型殭屍網路Kimwolf，後續專精偵測代理伺服器流量的資安新創Synthient指出，駭客透過江蘇艾迪信息科技代理伺服器服務IPIDEA、Plainproxies Byteconnect等代理伺服器環境，出售受害裝置的頻寬牟利，本週有資安公司表示，他們已追蹤Kimwolf近半年，陸續對其C2伺服器進行封鎖，阻礙此殭屍網路的活動。 1月15日資安公司Lumen旗下的Black Lotus實驗室於職場社群網站LinkedIn發布部落格文章，指出在去年8月殭屍網路RapperBot沒落之後，隨即Aisuru就成為全球最大的殭屍網路，存取C2節點的機器人數量短時間內急劇增加，從每天5萬個機器人擴張至20萬個，後續在10月初看到Kimwolf出現，對此，該公司採取行動，將C2節點的流量導向空路由（null-routed），在4個月的時間裡已對超過550臺C2節點採取行動，他們也與執法機關和業界夥伴合作，並公布追蹤的結果。 Lumen表示，他們在9月</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173400</guid>
-      <pubDate>Fri, 16 Jan 2026 03:48:20 +0000</pubDate>
+      <title>PSIRT零基礎入門</title>
+      <link>https://www.ithome.com.tw/article/173414</link>
+      <description>專題故事世界各國越來越重視產品資安，並建立對應的法規要求，甚至形成新的市場進入門檻，對此，臺灣IT廠商不僅需要更主動揭露與處理產品的漏洞，更必須透過產品資安事故應變團隊（PSIRT）的有效運作，才能徹底提升品牌的信任度</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/article/173414</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1269-feng_mian_gu_shi_-p1-zheng_han_-open-960x420_kao_bei_0.jpg?itok=KCCANP-P" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 08:12:05 +0000</pubDate>
     </item>
     <item>
-      <title>微軟聯手執法單位打擊RedVDS網路犯罪訂閱服務，阻斷釣魚詐騙供應鏈</title>
-      <link>https://www.ithome.com.tw/news/173394</link>
-      <description>新聞微軟針對名為RedVDS的網路犯罪訂閱服務，除在美國提起民事法律行動，也首次在英國同步採取法律行動。微軟表示，這次行動與德國執法單位及Europol等國際夥伴合作，已接管RedVDS市集與客戶入口的兩個網域名稱，並查扣關鍵惡意基礎設施，使RedVDS市集下線，進一步打斷支撐詐騙與釣魚攻擊的共享基礎設施。 RedVDS屬於網路犯罪即服務，提供可拋式的虛擬電腦環境，讓攻擊者能大量租用快速汰換，以較低成本跨境發動釣魚與詐騙。 微軟指出，RedVDS月費最低24美元。從2025年3月以來，相關活動在美國帶來約4,000萬美元的通報詐騙損失。阿拉巴馬州藥廠H2-Pharma因商務郵件詐騙損失超過730萬美元，佛州Gatehouse Dock公寓社區協會也遭詐騙近50萬美元。兩個受害組織已與微軟共同成為本案原告，透過民事途徑協助追查並壓制相關基礎設施。 僅在一個月內，微軟就觀測到超過2,600臺不同的RedVDS虛擬機器，平均每天對微軟客戶寄送約100萬封釣魚郵件。微軟並稱，自2025年9月起，RedVDS相關攻擊已導致全球超過19萬個組織遭到入侵或被偽冒存取（Fraudulent Acces</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173394</guid>
-      <pubDate>Fri, 16 Jan 2026 03:53:23 +0000</pubDate>
+      <title>Google開源TranslateGemma翻譯模型，支援55種語言</title>
+      <link>https://www.ithome.com.tw/news/173416</link>
+      <description>新聞Google周四（1/15）開源了TranslateGemma翻譯模型，它支援55種語言，提供3種規模版本，分別是40億、120億和270億參數，適用於手機、筆電和雲端部署。 TranslateGemma是基於Google的開源AI模型Gemma 3所打造的翻譯專用版本。Gemma是Google推出的輕量級開源大型語言模型系列，設計理念是讓開發者能在各種裝置上運行高效能AI應用。這次的TranslateGemma則是將Gemma 3針對翻譯任務進行深度優化，從更大型的Gemini模型學習翻譯知識，以提升翻譯品質。 該模型採用兩階段訓練：首先用人工翻譯和Gemini模型生成的高品質合成數據進行微調，接著透過強化學習讓翻譯更自然流暢。這種方法成功將大型Gemini模型的翻譯能力濃縮到更精簡的開源架構中。 在WMT24++基準測試中，120億參數模型的表現超越了270億參數的基準模型。WMT24++ 是由Google與Unbabel共同開發的翻譯評測標準，涵蓋55種語言，包含文學、新聞、社群和語音等4個領域的人工翻譯參考資料，是目前業界常用、具代表性的翻譯評測標準之一。 這意味著開發者可</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173416</guid>
+      <pubDate>Fri, 16 Jan 2026 08:25:07 +0000</pubDate>
     </item>
     <item>
-      <title>Cursor實驗多代理協作自動寫程式，一周從零打造瀏覽器程式碼庫破百萬行</title>
-      <link>https://www.ithome.com.tw/news/173397</link>
-      <description>新聞AI程式開發工具Cursor公開一項長期實驗成果，團隊嘗試讓多個程式開發代理程式在同一專案上連續運作數周，以並行方式推進原本需要人類團隊數個月的工程規模。研究團隊在單一專案同時執行數百個代理程式，累積寫出超過100萬行程式碼，並投入數十億以上Token。在協調架構上，團隊改採分工設計，將系統推進到能以星期為單位的運作規模。 Cursor在文中先交代多代理協作的主要障礙不在於能不能同時跑很多代理程式，而在於如何避免彼此卡住與重複勞動。 研究團隊把角色拆成規畫者與執行者，改用工作管線式分工取代扁平結構。規畫者持續逐一走訪程式碼庫並產生任務，必要時可再衍生子規畫者，讓規畫本身也能平行化，執行者則只專注完成被指派任務，完成後推送變更，不必同時兼顧全局協調。每輪迭代結束後，由裁判代理程式判斷是否繼續。 開發團隊以從零打造網頁瀏覽器作為壓力測試，讓多代理程式連續運作接近一周，累積產出超過100萬行程式碼、約1,000個檔案，並將程式碼公開在GitHub供外界檢視。團隊也把同樣方法用在自家程式碼庫的工程任務上，例如在不改變既有專案基礎的前提下，將前端框架Solid搬遷到React，歷時超過3周，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173397</guid>
-      <pubDate>Fri, 16 Jan 2026 04:30:53 +0000</pubDate>
+      <title>Anthropic重估職務受AI影響程度，以成功率與時間頻率權重衡量有效覆蓋率</title>
+      <link>https://www.ithome.com.tw/news/173415</link>
+      <description>新聞Anthropic發布第四份經濟指數（Economic Index）報告，分析共200萬筆匿名化紀錄，其中包含Claude.ai對話100萬筆，以及第一方API流量逐字稿100萬筆，試圖把外界討論的AI衝擊對應至可量化的指標。Anthropic主張，要是只用任務覆蓋率來判斷哪些職務受影響，容易高估或低估實際變化，應把任務成功率與該任務在一天工作中所占時間、發生頻率一起加權，才更接近AI在職務層級的滲透程度。 報告提出有效AI覆蓋率概念，用來衡量AI對單一職務的實際影響，藉由把有效AI覆蓋率定義為某職務工作日中，有多少比例的工作可被Claude成功完成，計算方式是將各任務成功率加總，並以任務在工作時間中的占比，乘上任務發生頻率作為權重。也就是說，就算特定職務只有少數任務被AI涵蓋，只要那些任務剛好是最耗時或最常做的核心工作，整體有效覆蓋率仍可能偏高。 報告以資料輸入人員為例指出，該職務雖有九項工作任務，但在樣本中只涵蓋其中兩項。由於這兩項正是讀取來源文件並輸入資料的核心工作，成功率高且占用大量工時，因此在有效AI覆蓋率的評估中反而名列前茅。 醫療逐字稿人員與放射科醫師也出現類似情況，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173415</guid>
+      <pubDate>Fri, 16 Jan 2026 08:33:05 +0000</pubDate>
     </item>
     <item>
-      <title>Wikimedia基金會與微軟、Meta、Perplexity等AI業者簽定內容授權合作</title>
-      <link>https://www.ithome.com.tw/news/173404</link>
-      <description>新聞昨（1/15）日在慶祝維基百科（Wikipedia）上線25周年同時，營運維基百科的Wikimedia基金會宣布和微軟、Meta、Amazon及Mistral AI、Perplexity等公司合作，讓更多AI業者得以合法使用維基百科等內容來訓練AI技術。 Wikimedia Enterprise為Wikimedia Foundation開發的商業級API服務，讓這些簽約的企業或組織可大量、高速存取由人類產出的維基百科和其他Wikimedia專案內容，利用這些高品質內容來訓練AI模型。 Wikimedia表示，維基百科是全球訪問量前十的網站之一，且是唯一由非營利組織經營的網站。全球觀眾每月瀏覽超過6,500萬篇文章，涵蓋300多種語言，接近150億次，其知識驅動生成式AI聊天機器人、搜尋引擎、語音助理等。維基百科仍是訓練大型語言模型的高品質資料集之一。 Wikimedia Enterprise讓外部業者經由三種API存取其內容。其中On-demand API可回傳特定文章的最新版本。Snapshot API可供下載每種語言的維基百科，並每小時更新一次。Realtime API則是每次</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173404</guid>
-      <pubDate>Fri, 16 Jan 2026 04:50:18 +0000</pubDate>
+      <title>喚醒產品資安意識</title>
+      <link>https://www.ithome.com.tw/voice/173417</link>
+      <description>台灣高鐵台南站1月13日發生旅客掉落軌道遭撞意外身亡的事故，高鐵公司表示，目前正處於月台門建置工程階段（2025年1月開工），耗資新台幣20.5億元進行全線車站月台門工程，預計2028年全線完成。網路上有人表示早該做了，有人說旅客本身也必須共同承擔責任與風險，而不需要花這筆錢，甚至認為月台門會妨礙逃生。 恰巧這期封面故事探討的產品資安議題，也面臨這樣的兩難，廠商與企業雖然表示重視安全，但考量成本與使用便利性，經常犧牲部分安全性，雖然這幾年「設計即安全（Security by Design）」日益受重視，「預設即安全（Security by Default）」也成為推動產品資安的關鍵概念，然而，單靠事前的預防手段（如產品開發前段的設計與上市前的測試驗證），並不足以完整涵蓋產品資安範疇，因為，關於事中的察覺與事後的應變，也非常重要。 作為企業IT科技媒體，我們長期關注產品資安的消息，最大宗的是IT與OT產品的資安漏洞，以及濫用各種漏洞的攻擊活動與事故，也見證各個領域越來越重視這項議題。 首先，固定每月第二個星期二登場的微軟例行安全性公告（Patch Tuesday），是IT業界最具指標的產</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/voice/173417</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1269-feng_mian_gu_shi_-p1-zheng_han_-open-960x420_kao_bei_0.jpg?itok=KCCANP-P" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 09:01:17 +0000</pubDate>
     </item>
     <item>
-      <title>歐鐵票券營運公司被駭　外洩客戶個資及訂位資訊</title>
-      <link>https://www.ithome.com.tw/news/173405</link>
-      <description>新聞經營歐鐵票券（Eurail Pass）的旅遊業者Eurail B.V.近日遭駭，致使客戶包括個資、訂位或護照等資料外洩。 Eurail B.V.上周公告，該公司網路上數個系統發生資安問題，客戶資料遭未授權存取。初步調查顯示遭竊取的資料包含客戶訂單及預約資訊，像是基本身份和聯絡資訊。部份曾提供過護照資訊的客戶，其護照號碼、核發國家及到期日等也可能外洩。這家荷蘭業者表示，按照標準程序，公司不會儲存客戶護照的圖片。 本事件也影響DiscoverEU方案的參加用戶。該方案是歐盟推動的一項青年交流與旅行機會行動，滿18歲的年輕人有機會免費或以極低費用遍歷歐洲。Eurail B.V.也通知DiscoverEU，外洩資料包含使用者姓名、出生日期/年齡、護照號碼或相片、電子郵件信箱、住宅地址、居住地、電話號碼、國際銀行帳戶號碼、健康資訊等。 這兩則公告皆未說明資安事件發生的時間點。 Eurail B.V.說自己已封堵了受影響系統的漏洞、重設存取憑證、強化資安控管及和外部資安專家合作調查。他們已通報歐盟主管機關，也將連繫歐盟以外的相關機關，承諾會持續調查其他細節，像是外洩個資的確切類別、外洩資料筆數</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173405</guid>
-      <pubDate>Fri, 16 Jan 2026 05:04:50 +0000</pubDate>
+      <title>提供1.5 Gbps網路威脅檢測效能，思科新款入門級防火牆上市</title>
+      <link>https://www.ithome.com.tw/review/173386</link>
+      <description>去年6月舉行年度用戶大會期間，思科宣布Cisco Secure Firewall產品線將推出兩款產品，其中一款是入門級的最小機型200系列，是鎖定分支辦公室環境使用，能以相當迷你的機箱尺寸、具有成本效益的市場包裝，提供1.5 Gbps的網路威脅檢測效能，相較於其他競爭產品，性價比號稱可達到3倍，思科當時也預告這批防火牆將於12月推出。 關於產品的功能與特色方面，思科表示，當中將整合多種安全防護功能，例如，加密流量透視引擎（Encrypted Visibility Engine，EVE）、開放原始碼的網路入侵防禦系統Snort 3、基於機器學習的漏洞濫用偵測技術SnortML。 除此之外，這批產品也內建軟體定義廣域網路（SD-WAN），具有預先設置的範本、簡化設定、SASE組態設定，以及強固的安全雲端控制，能夠因應當前的網路管理需求，提供廣泛而流暢的操作體驗。 到了今年1月，思科正式公布200系列的技術規格，首先是首款機型的名稱定為Secure Firewall 220（CSF 220），而在威脅檢測與網路傳輸的效能上，他們照慣例揭露多種使用模式的表現。 若只需要一般的狀態檢測防火牆，C</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/173386</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/cisco_secure_firewall_200_main.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 10:31:00 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI參與腦機介面新創Merge Labs的種子輪融資</title>
-      <link>https://www.ithome.com.tw/news/173406</link>
-      <description>新聞專門研究腦機介面（Brain Computer Interface，BCI）的新創公司Merge Labs本周四（1/15）正式對外發表了，同一天OpenAI也宣布加入Merge Labs的種子輪融資。雖然雙方都未公布融資細節，但TechCrunch引用消息來源報導，Merge Labs在種子輪取得了2.5億美元的資金，估值為8.5億美元。 去年就曾傳出OpenAI共同創辦人暨執行長Sam Altman，以及與Altman共同創辦虹膜身分驗證新創Tools for Humanity的Alex Blania，將會共同創辦Merge Labs，以與馬斯克（Elon Musk）旗下的Neuralink競爭。 不過，OpenAI的新聞稿聲稱Merge Labs的共同創辦人為Mikhail Shapiro、Tyson Aflalo與Sumner Norman，至於Alex Blania、Sandro Herbig及Sam Altman則是以個人身分參與，似乎刻意淡化Altman的角色；相較之下，Merge Labs的新聞稿則是將上述6位一併列名，而且未依字母排序，直接將Altman與Blan</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173406</guid>
-      <pubDate>Fri, 16 Jan 2026 05:20:46 +0000</pubDate>
+      <title>AI趨勢周報第283期：Claude Code新功能解決MCP擴充痛點</title>
+      <link>https://www.ithome.com.tw/news/173420</link>
+      <description>新聞重點新聞（0109～0115） Claude Code MCP Token 還沒寫程式就沒Token了？Claude Code新功能解決MCP擴充痛點 Anthropic為旗下程式開發工具Claude Code推出新功能MCP Tool Search，來解決多數開發者的共同痛點：MCP工具一多，Context很快就被吃光，還沒開始寫程式就先用完token了。 Anthropic技術人員Thariq Shihipar在X上說明，當Claude Code偵測到MCP工具描述占用超過10%的Context時，系統就不再把所有工具一次載入，而是改用搜尋方式動態載入。也就是需要時才找工具，避免事前預載造成浪費，等同替MCP伺服器加入延遲載入機制。 Anthropic指出，過去有使用者同時接了超過7個MCP伺服器，就耗掉6.7萬多個 token，Context在真正開始工作前就已用完。但新機制可以大幅改善這個問題。在實作上，MCP Tool Search是一個相似度搜尋工具，輸入關鍵字即可回傳相關工具名稱。由於它本身也是代理流程的一部分，Claude Code可以多次搜尋、調整關鍵字，甚至平行</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173420</guid>
+      <enclosure url="https://falcon-lm.github.io/blog/falcon-h1r-7b/cover.png" length="0" type="image/png"/>
+      <pubDate>Fri, 16 Jan 2026 10:36:14 +0000</pubDate>
     </item>
     <item>
-      <title>微軟Copilot Studio for Visual Studio Code擴充程式全面上線</title>
-      <link>https://www.ithome.com.tw/news/173408</link>
-      <description>新聞微軟本周宣布Copilot Studio for Visual Studio Code擴充程式（Copilot Studio extension for Visual Studio Code）全面上線，讓開發人員可以在熟悉的開發環境中（IDE）中開發和管理Copilot Studio代理人（agents）。 開發代理人的過程如同開發其他應用程式，包括原始碼控制、拉取請求、變更歷史紀錄，以及可重複部署。VS Code擴充功能將這些工作流程帶進Copilot Studio，讓創作者與開發人員能在具備治理或速度下協同作業。 這個擴充程式是為工程團隊真實作業需求而設計。其特色包括可整合標準化Git利於版本控制和協同；基於拉取請求的審查，利於討論和核准變更；清楚紀錄修改，方便長時間稽核；以及與VS Code功能機制整合，包括鍵盤快捷鍵、搜尋、導航與本地開發迴圈。 微軟聲稱，四類開發情境使用Copilot Studio for Visual Studio Code擴充程式將特別有用，包括需要管理眾多主題的代理人，且需快速搜尋；需和多人協同並安全變更；想在原始碼中定義代理人及在DevOps管線中</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173408</guid>
-      <pubDate>Fri, 16 Jan 2026 06:29:51 +0000</pubDate>
+      <title>站在兩千萬人通訊背後的防線，LINE與詐騙正面交鋒的數位戰爭</title>
+      <link>https://www.ithome.com.tw/people/173419</link>
+      <description>走進位於臺北市瑞光路的LINE臺灣辦公室，映入眼簾的是明亮而開放的工作空間，三公尺高的熊大玩偶佇立在門口，氣氛看似輕鬆，卻很難想像，這裡同時也是臺灣最前線的數位戰場。 每天，超過兩千萬名使用者透過LINE傳遞訊息、照片與語音，在這些再日常不過的互動背後，詐騙集團、惡意程式與各式社交工程攻擊，正不斷嘗試鑽入人性的縫隙。 對多數人而言，手機響起只是一則通知，但對LINE臺灣資安長劉威成來說，卻可能是一場詐騙行動的開端，也是能否阻止民眾遭受財務損失、甚至家庭破碎的關鍵時刻。 「資安長這個角色，在LINE其實非常特殊，」劉威成說。除了企業內部防護，他大多數時間都在思考同一個問題：如何讓一個封閉、以隱私為核心的通訊平臺，承擔起社會高度期待的防詐責任。他很清楚，真正的挑戰從來不只是在公司內部，詐騙早已成為臺灣社會共同承受的數位創傷。 一路走來，劉威成歷經開發、營運與顧問等不同角色，逐步形塑出獨特的資安觀點。他始終相信，資安不是阻擋創新的高牆，而是讓組織得以安心前行的基石。真正成功的資安，不在於拒絕了多少需求，而在於如何讓每一個「可以」，都建立在足夠穩固的安全基礎之上。資安的目標從來不是零風險，而是</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/people/173419</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/01156-CISO-600-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jan 2026 10:56:04 +0000</pubDate>
     </item>
   </channel>
 </rss>
