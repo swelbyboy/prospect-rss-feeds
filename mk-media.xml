@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>MK Media - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/mk-media.xml</link>
+    <description>Latest articles from MK Media (mkmedia.it)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/mk-media.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Jan 2026 22:35:38 +0000</lastBuildDate>
+    <item>
+      <title>" . $row['titolo'] . "</title>
+      <link>" . $dominio . $row['back'] . ".html</link>
+      <description>' . $row['titolo'] . ' ' . $row['metadesc']. '</description>
+      <guid isPermaLink="false">" . $dominio . $row['back'] . ".html</guid>
+      <pubDate>Sun, 18 Jan 2026 22:35:38 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
