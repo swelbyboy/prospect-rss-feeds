@@ -8,65 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jan 2026 06:45:39 +0000</lastBuildDate>
-    <item>
-      <title>站在兩千萬人通訊背後的防線，LINE與詐騙正面交鋒的數位戰爭</title>
-      <link>https://www.ithome.com.tw/people/173419</link>
-      <description>走進位於臺北市瑞光路的LINE臺灣辦公室，映入眼簾的是明亮而開放的工作空間，三公尺高的熊大玩偶佇立在門口，氣氛看似輕鬆，卻很難想像，這裡同時也是臺灣最前線的數位戰場。 每天，超過兩千萬名使用者透過LINE傳遞訊息、照片與語音，在這些再日常不過的互動背後，詐騙集團、惡意程式與各式社交工程攻擊，正不斷嘗試鑽入人性的縫隙。 對多數人而言，手機響起只是一則通知，但對LINE臺灣資安長劉威成來說，卻可能是一場詐騙行動的開端，也是能否阻止民眾遭受財務損失、甚至家庭破碎的關鍵時刻。 「資安長這個角色，在LINE其實非常特殊，」劉威成說。除了企業內部防護，他大多數時間都在思考同一個問題：如何讓一個封閉、以隱私為核心的通訊平臺，承擔起社會高度期待的防詐責任。他很清楚，真正的挑戰從來不只是在公司內部，詐騙早已成為臺灣社會共同承受的數位創傷。 一路走來，劉威成歷經開發、營運與顧問等不同角色，逐步形塑出獨特的資安觀點。他始終相信，資安不是阻擋創新的高牆，而是讓組織得以安心前行的基石。真正成功的資安，不在於拒絕了多少需求，而在於如何讓每一個「可以」，都建立在足夠穩固的安全基礎之上。資安的目標從來不是零風險，而是</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/people/173419</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/01156-CISO-600-1.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 16 Jan 2026 10:56:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>四個AWS維護的公開儲存庫因建置觸發設定疏漏，一度可能遭接管</title>
-      <link>https://www.ithome.com.tw/news/173418</link>
-      <description>新聞資安業者Wiz研究團隊揭露名為CodeBreach的供應鏈風險，指出AWS管理的4個開源GitHub儲存庫，因專案層級的自動化建置觸發條件設定疏漏，存在外部人士可觸發建置並進一步取得儲存庫管理權限的可能性。 AWS表示接獲通報後已完成修補並輪替相關憑證，檢視建置紀錄與CloudTrail稽核紀錄後未發現遭濫用，且不影響客戶環境與AWS服務，AWS也強調這是各專案設定問題，並非CodeBuild服務本身漏洞。 該風險主要來自這些儲存庫與AWS持續整合建置服務CodeBuild的觸發流程有關，研究人員解釋，開源專案常在有人提出拉取請求時自動測試與建置，但要是建置環境持有可寫入儲存庫或發布套件的高權限憑證，就必須避免不受信任的程式碼直接進入特權流程。 此次疏漏在於限制觸發者的webhook過濾規則，由於這些專案以ACTOR_ID條件建立允許名單，ACTOR_ID指的是GitHub使用者ID的數字而非帳號名稱。問題出在允許名單以正規表示式撰寫，卻缺少起始^與結尾$錨點，導致只要攻擊者取得一個包含既有維護者ID的較長新ID，就可能繞過比對並觸發原本僅開放維護者使用的特權建置流程。 研究團隊也</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173418</guid>
-      <pubDate>Sun, 18 Jan 2026 10:29:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>雲端主權不只資料落地，IBM推Sovereign Core強調運作期間治理與邊界內稽核</title>
-      <link>https://www.ithome.com.tw/news/173422</link>
-      <description>新聞IBM發表新軟體基礎IBM Sovereign Core，主打雲端主權與AI工作負載支援的平臺軟體，目的是讓企業、政府與服務供應商能在既有基礎架構與平臺投資上，加速建置並營運符合主權要求的AI環境。IBM規畫在2026年2月開始提供技術預覽版，並在2026年年中正式上線。 這次發布的重點，是IBM試圖把主權要求內建成平臺軟體能力，IBM指出，過去數位主權多以資料是否留在特定司法管轄內作為核心，但AI系統在執行期持續運作，會動用敏感資料與模型，也因此增加當責、稽核與治理方面的要求。 也就是說，主權不只關乎資料放在哪裡，還必須說清楚由誰在何種權限與法律授權下營運平臺，AI模型在哪裡進行推論，誰擁有管理者存取權，以及組織如何在日常營運中持續提出合規證據，而非等到稽核期間才補齊文件。 IBM Sovereign Core強調以架構層級落實主權控制，並將可驗證性納入日常營運。其設計方向包括讓組織自主管控平面，降低對供應商代管管理端的依賴，並將身分驗證、授權與加密金鑰維持在主權邊界內，由在地單位掌握。系統日誌、遙測資料與稽核紀錄也被要求在邊界內產生與保存，以支援持續性的合規呈現。針對AI工作負</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173422</guid>
-      <pubDate>Sun, 18 Jan 2026 10:34:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>MongoDB擴充向量檢索工具鏈，Atlas提供Voyage模型API並新增自動生成嵌入</title>
-      <link>https://www.ithome.com.tw/news/173423</link>
-      <description>新聞NoSQL資料庫管理系統MongoDB宣布，將旗下Voyage AI的嵌入與重排序模型整合到自家資料平臺，並在MongoDB Atlas提供嵌入與重排序模型API，同時推出自動生成嵌入功能。MongoDB表示，企業不必搬移或複製資料，即可把以檢索增強生成為主的AI應用更快推進到正式環境，並降低因元件分散與工作管線增加所帶來的維運成本與風險。 這次更新也把Voyage的一系列嵌入模型納入MongoDB的嵌入與檢索模型套件，並以API形式在Atlas提供。MongoDB說明，目標是提升檢索取得正確脈絡的穩定性，降低生成式模型在正式環境中出現幻覺風險。 MongoDB還指出，不少團隊在概念驗證階段可以快速完成原型，但一旦進入上線階段，往往必須同時維護營運資料庫、向量儲存與外部模型服務，並處理資料同步與存取延遲等問題。當流程拆成多個環節，系統的故障點與營運負擔也會隨之增加，而MongoDB這次更新，是把向量檢索所需的嵌入生成與重排序能力，盡量整合到同一套資料平臺，以減少外部元件與額外管線。 MongoDB針對向量搜尋推出自動生成嵌入功能，在資料寫入或更新時自動產生並保存嵌入向量，讓向量能隨</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173423</guid>
-      <pubDate>Mon, 19 Jan 2026 01:40:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fortinet FortiSIEM漏洞CVE-2025-64155已被攻擊者濫用，資安風險升高</title>
-      <link>https://www.ithome.com.tw/news/173425</link>
-      <description>新聞資安廠商發現，Fortinet才剛修補的FortiSIEM重大漏洞已經發生濫用活動。 CVE-2025-64155是存在Fortinet安全控管平臺FortiSIEM的OS指令特別元素中和不當（improper neutralization）漏洞，可讓未經驗證的攻擊者傳送變造的TCP請求，以在受害裝置上執行非授權程式或指令。本漏洞CVSS風險值為9.4。Fortinet已釋出更新版本，廠商呼籲7.1到7.4版用戶升級到最新版。而6.7和7.0版已經過了產品生命週期（EoL），Fortinet建議用戶升級。 在Fortinet發布安全公告後兩天，資安廠商Defused發現，該公司的蜜罐（honeypot）遭遇CVE-2025-64155的濫用。 研究人員在其蜜罐（honeypots）中觀察到一些與CVE-2025-64155漏洞利用行為相關的指標，包括數家企業組織的IP位址。像是Baxet Group、Siamdata Communication、Contabo、China Mobile Communications Group、騰訊及中國電信IDC、中國聯通等公司。研究人員相信，由</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173425</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0119-%20Fortinet-CVE-2025-64155_Defused.png" length="0" type="image/png"/>
-      <pubDate>Mon, 19 Jan 2026 02:00:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI低價方案ChatGPT Go擴大至全球，臺灣可用，未來可能包含廣告</title>
-      <link>https://www.ithome.com.tw/news/173427</link>
-      <description>新聞去年10月宣布亞洲的推出計畫後，OpenAI上周宣布ChatGPT低價版ChatGPT Go於全球上線。而低成本可能會以廣告為代價。 經過這次全球上線，臺灣用戶也多了這項方案選擇。根據臺灣官網，新服務為每月290元臺幣。 ChatGPT Go是在現行Team、Pro及Enterprise以下推出的低成本訂閱方案（英文版官網費用為每月8美元。它在免費版ChatGPT功能（例如少量使用ChatGPT 5、圖片生成及檔案上傳、基本資料分析功能）以外提供再額外功能。包含使用GPT-5 Auto幫助寫作、優於免費版的圖片生成、檔案上傳及進階資料分析。 但OpenAI同時也表示，未來可能開始在ChatGPT Go測試廣告。 有趣的是，根據英文版官網，ChatGPT Go可支援無限制存取GPT-5.2 Instant模型（不過OpenAI有防止濫用的護欄機制），可使用Python探索資料，也具有更長久的記憶可支援個人化回應。英文版ChatGPT Go雖然無法使用API，但還包含可存取專案、任務和自訂GPTs，以便組織工作、追蹤進度，或建立或編輯客製化GPTs。 臺灣ChatGPT Go則明確表示</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173427</guid>
-      <pubDate>Mon, 19 Jan 2026 02:47:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>受英國零售巨擘Tesco官司影響，Dell傳評估向VMware求償逾1,000萬英鎊</title>
-      <link>https://www.ithome.com.tw/news/173429</link>
-      <description>新聞The Register上周報導，由於VMware不再提供英國零售巨擘Tesco相關支援服務，使電腦硬體龍頭Dell連帶成為被告對象，Dell因此主張，若相關訴訟結果對其不利，將保留向VMware求償、金額超過1,000萬英鎊的權利。 事發原因肇始於，去年9月Tesco控告VMware新東家博通（Broadcom）與VMware經銷商Computacenter，指控其未履行一項合約，該合約允許這家英國超市龍頭以預定價格取得軟體及持續軟體支援服務，向三家公司求償1億英鎊。 博通在2023年底收購VMware後，就對產品和服務做了重大變革，包括取消買斷式授權、並且取消多種產品品項，要求客戶購買套件方案VMware Cloud Foundation、以及提高採購CPU核心數門檻，引發許多客戶抱怨費用大漲。 在Tesco提告後一個月，The Register報導，Computacenter分別向Dell及VMware/博通提告。其中Dell被告原因是，Computacenter作為經銷商，是向代理商Dell出貨取得VMware軟體授權來銷售給終端客戶，包括Tesco。然而Dell及VMwa</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173429</guid>
-      <pubDate>Mon, 19 Jan 2026 04:02:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Threads的每日行動用戶數已超越X</title>
-      <link>https://www.ithome.com.tw/news/173430</link>
-      <description>新聞TechCrunch近日引用網站流量分析平臺Similarweb的數據指出，Threads的每日行動用戶數已超越X。 Threads是Meta在2023年推出的文字社群服務，整合Instagram帳號，自2025年快速擴張其行動用量。而馬斯克（Elon Musk）在2022年買下Twitter，並將其更名為X，並陸續因裁員、內容脫序及付費驗證等事件引起用戶反感，最近的一次爭議是整合於X的聊天機器人Grok允許用戶生成基於真實人物照片或名稱的裸照，不僅惹來美、英等國的調查，更讓印尼與馬來西亞政府出手暫時封鎖了X。 除了TechCrunch的報導之外，上周Meta剛買下的AI代理人開發商Manus宣布與Similarweb合作，透過Manus所查詢的Similarweb資料顯示，X在2026年1月的每月活躍用戶數為5.61億，比去年同期下滑8.3%，Threads的每月用戶數則是3.2億，成長了156%。 儘管X的每月用戶數還是凌駕Threads，但Threads現在的每日行動用戶數為1.415億，已超越X的1.25億，而且其實Threads的每日行動用戶數早在2025年9月就超越了X</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173430</guid>
-      <pubDate>Mon, 19 Jan 2026 04:30:45 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 19 Jan 2026 10:27:39 +0000</lastBuildDate>
     <item>
       <title>【從護理文書減壓開始，小醫院也能走出自己的GenAI落地方法】阮綜合揭自助式AI摘要生成和FHIR癌藥事審</title>
       <link>https://www.ithome.com.tw/news/173431</link>
@@ -81,6 +23,64 @@
       <description>新聞在2026年1月第二個星期的資安新聞中，漏洞消息方面，這一星期多家IT、OT業者發布每月例行安全更新，企業需儘速盤點並完成修補，其中微軟修補3個零時差漏洞受矚目，其中1個已被用於實際攻擊的是Windows資訊洩漏漏洞CVE-2026-20805，由微軟威脅情資中心與MSRC發現，目前尚未確認攻擊者身分，另還修補2個先前已公開的零時差漏洞（CVE-2026-21265，以及CVE-2023-31096）。 在資安事故方面，國內有兩家上市櫃公司發布資安相關重訊，我們特別關注的是，公司官方網站委外代管廠商遭受DDoS的態勢，半個月前電源廠飛宏重訊揭露此狀況，如今化工業磐亞也面臨此事件，可能突顯出國內主機託管商近期面臨的狀況。 ●上市公司台產於1月10日發布重大訊息，說明公司網路遭遇異常攻擊事件，只是目前揭露資訊相對有限，無法判斷遭受何類型攻擊。 ●上櫃公司磐亞於1月14日發布重大訊息，指出公司對外官方網站代管服務遭受網路DDoS攻擊，已通知委外代管廠商應變。 ●美國Verizon服務中斷數小時，不僅行動通話、簡訊與行動數據，消防與政府緊急通報系統亦受影響，再次突顯大型行動網路中斷對公共安</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173426</guid>
       <pubDate>Mon, 19 Jan 2026 06:02:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>惡意Chrome延伸套件鎖定人資及ERP系統用戶而來，企圖挾持憑證與帳號存取權限</title>
+      <link>https://www.ithome.com.tw/news/173435</link>
+      <description>新聞近期透過瀏覽器延伸套件散布惡意程式的情況越來越氾濫，攻擊者開始鎖定特定的族群和資料，例如，資安公司Koi Security揭露中國駭客DarkSpectre的攻擊行動Zoom Stealer，就是打算挾持視訊會議的內容並收集情報，如今也出現針對特定企業應用系統用戶的情況。 資安公司Socket揭露5款有問題的Chrome延伸套件，攻擊者針對使用企業人力資源（HR）與ERP系統的員工而來，這些平臺包括：Workday、NetSuite，以及SuccessFactors，駭客宣稱能藉此簡化多帳號管理或加速工作流程，吸引超過2,300名用戶安裝，不過實際上，攻擊者的最終目的，就是要挾持上述企業應用系統的帳號權限。5款惡意套件功能有所不同，部分用於竊取資料，部分用於防範資安人員或系統攔截。對此，Socket已向Google進行通報，並呼籲相關用戶及企業IT人員，應採取行動因應。 針對這次發現的惡意套件，Socket指出涵蓋3種截然不同的攻擊型態，包括向遠端伺服器洩露Cookie、操控DOM封鎖安全管理網頁，以及採用雙向Cookie注入手法，從而達到直接挾持連線階段（Session Hija</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173435</guid>
+      <pubDate>Mon, 19 Jan 2026 07:49:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>jQuery發布近十年首個主要版本4.0.0，加入可信型別強化CSP相容</title>
+      <link>https://www.ithome.com.tw/news/173432</link>
+      <description>新聞jQuery團隊終於發布jQuery 4.0.0正式版，此為近十年來第一個主要版本更新，官方提醒jQuery 4.0.0包含破壞性變更，但預期多數使用者只需做少量調整即可完成升級，官方也準備了升級指南與jQuery Migrate對應版本，協助既有專案在過渡期間找出不相容用法並逐步修正。 在jQuery 4.0.0正式版中，受資安與前端治理關注的更新是支援可信型別（Trusted Types）。也就是說，已用TrustedHTML包裝的HTML內容，可以作為jQuery操作DOM時的輸入，在啟用內容安全政策（CSP）並要求可信型別強制規則的情境下，較不會因型別不符而被瀏覽器阻擋。官方也提到，為了降低CSP對內嵌腳本限制帶來的相容性摩擦，多數非同步載入腳本的請求改以&amp;lt;script&amp;gt;標籤載入，盡量避開可能引發CSP錯誤的路徑。 另一個對企業舊系統影響較直接的變更，是jQuery 4.0.0移除對IE 10與更舊版本的支援，並同步停止支援多款過時瀏覽器。官方將分階段限縮相容性範圍，下一步預計在jQuery 5.0處理IE 11相關支援，對仍需維持舊瀏覽器相容性的組織而言，官方建議維持使用</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173432</guid>
+      <pubDate>Mon, 19 Jan 2026 08:22:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI罕見揭露算力與營收，定義AI基礎設施商業模式</title>
+      <link>https://www.ithome.com.tw/news/173438</link>
+      <description>新聞OpenAI財務長Sarah Friar周日（1/18）發表〈讓商業規模與智慧價值同步成長〉（A business that scales with the value of intelligence）一文，罕見對外公開公司算力規模與營收成長數據，並系統性說明其商業模式與擴張邏輯。對一家未上市公司而言，主動揭露如此具體的營運指標並不尋常，外界解讀，這代表OpenAI正刻意重塑市場對其定位的理解。 Friar回顧ChatGPT最初以研究預覽形式推出，原意是觀察前沿AI直接交到使用者手中後的影響，但實際使用迅速擴散至學習、生活與工作場景，並深度嵌入工程、行銷、財務與管理流程，使其從好奇心導向的工具，轉變為日常生產力的關鍵基礎設施。 在商業模式上，Friar反覆強調一項原則，即商業規模必須隨智慧所創造的價值同步擴張。她將消費者訂閱、企業與團隊方案、API用量計費，以及廣告與商務整合，統一納入同一價值邏輯之中，試圖化解外界對OpenAI「轉向商業化」的疑慮，改以「規模化發展的必然結果」加以詮釋。 文章中最引發關注的，是Friar首度公開OpenAI近三年的算力與營收數據。她指出，OpenA</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173438</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/Compute%20has%20scaled%20at%20roughly%203x%20per%20year%E2%80%A6.png" length="0" type="image/png"/>
+      <pubDate>Mon, 19 Jan 2026 08:40:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>部分支援Google快速配對藍牙耳機與喇叭存在WhisperPair漏洞，10秒內即可遭接管</title>
+      <link>https://www.ithome.com.tw/news/173433</link>
+      <description>新聞比利時魯汶大學KU Leuven旗下資安研究團隊COSIC揭露一個名為WhisperPair的漏洞，指出多款支援Google快速配對（Fast Pair）的藍牙耳機與喇叭，因配件端實作不完整，可能在使用者未同意下被鄰近攻擊者強制配對接管。研究團隊並點出影響範圍可能達數億用戶，且牽涉多家供應商與不同晶片組。 研究團隊指出，攻擊者只要在合理的藍牙距離內，就可能在數秒內完成接管。測試中位數約10秒，最遠測到14公尺，被接管後不只可能遭到插入或干擾音訊，攻擊者也可能利用配件麥克風收音，增加通勤通話或辦公室線上會議等情境的隱私外洩風險。 WhisperPair漏洞成因是快速配對流程中的狀態檢查，沒有被配件端確實把關。研究團隊說明，依快速配對規範，當發起端裝置送出啟動快速配對的訊息時，配件要是不在配對模式，理應忽略這類訊息，但不少裝置未落實該狀態檢查，導致未授權裝置仍可啟動快速配對流程，後續再以一般藍牙配對完成綁定。 另外，要是配件支援Google尋找中心（Find Hub）網路，且該配件從未與Android裝置完成配對，攻擊者可能把配件加入自己的Google帳號，利用群眾回報的定位資訊追蹤配</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173433</guid>
+      <pubDate>Mon, 19 Jan 2026 09:00:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>西門子、施耐德、菲尼克斯電氣等工控大廠修補高風險漏洞，工業邊緣與製程系統受影響</title>
+      <link>https://www.ithome.com.tw/news/173434</link>
+      <description>新聞多家工業自動化與工控系統（ICS）大廠近日發布1月安全更新，修補多項影響工業環境的資安漏洞，影響產品包含工業邊緣運算設備、製程控制系統與工業路由器。相關廠商呼籲用戶儘速評估並套用修補，以降低工控環境遭入侵的風險。 西門子修補Industrial Edge授權繞過漏洞 在工業邊緣設備方面，工業自動化大廠西門子（Siemens）於1月13日公告，其Industrial Edge Device Kit存在一項授權繞過漏洞CVE-2025-40805，CVSS風險分數達到滿分10。未經身分驗證的遠端攻擊者可繞過驗證機制，冒充合法使用者身分，對工業邊緣運算環境構成高度風險。西門子指出，成功濫用該漏洞仍需攻擊者事先掌握合法使用者相關資訊。 除Industrial Edge相關產品外，西門子也同步針對Ruggedcom、ET 200SP，以及TeleControl Server Basic等OT（Operational Technology）產品發布多則安全公告。 從多項CVSS風險分數9以上的案例來看，部分高風險漏洞不一定源自西門子自家程式碼，而與工控設備整合第三方網路安全元件的供應鏈結構密切</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173434</guid>
+      <pubDate>Mon, 19 Jan 2026 09:25:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>加密貨幣市場大洗牌，自2021年以來有逾半數幣種已消失</title>
+      <link>https://www.ithome.com.tw/news/173448</link>
+      <description>新聞加密市場資料平臺CoinGecko近日指出，自2021年7月以來，曾在其鏈上資料平臺GeckoTerminal列出的約2,020萬個加密貨幣專案中，約有1,340萬個已不再活躍、停止交易，占比約53.2%；而僅2025年一年，就有約1,160萬個專案停止交易，占了所有失敗專案的86%。 該研究是依據GeckoTerminal的統計，分析在各區塊鏈上曾至少完成一次交易、但後續不再有交易活動的專案，並將其歸類為失敗或死亡專案。資料期間涵蓋2021年7月1日至2025年12月31日。研究中所稱的加密貨幣專案，涵蓋具獨立區塊鏈的原生加密貨幣，以及建立在既有區塊鏈上的代幣，而絕大多數消失的專案皆屬於代幣。 研究顯示，代幣的發行爆發點出現在2024年之後。在2021年至2023年間，代幣的發行與失敗數量維持在相對有限的規模，失敗案例多是低的6位數。真正的轉折點出現在2024年，因為當年的代幣發行數量首次出現大規模躍升，代幣累積上架數量從2023年的83.5萬個快速成長至300萬個，2025年再成長至逾2,000萬個，而2024年的失敗專案也達到138萬個，2025年更衝上1,160萬個，形成史</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173448</guid>
+      <pubDate>Mon, 19 Jan 2026 09:51:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>瀏覽器惡意軟體活動GhostPoster可追溯到5年前，Chrome、Edge、Firefox用戶皆為目標</title>
+      <link>https://www.ithome.com.tw/news/173439</link>
+      <description>新聞去年12月，資安公司Koi Security揭露鎖定Firefox用戶的延伸套件攻擊GhostPoster，其特徵是駭客透過隱寫術（steganography）將有效酬載埋入PNG圖示檔案，後來該公司指出攻擊者是名為DarkSpectre的中國駭客，如今有其他資安公司揭露新的調查結果，指出相關活動最早可追溯到5年前。 瀏覽器資安公司LayerX指出，他們根據Koi Security公布的調查結果，找到17款與GhostPoster有關的惡意延伸套件，這些套件採用相同的基礎設施，以及策略、手段、攻擊流程（TTP），不過，攻擊者不光針對Firefox用戶，也攻擊Chrome與Edge用戶，這些套件總共被下載超過84萬次，其中部分延伸套件存活超過5年。 LayerX指出，駭客活動最早在2020年2月出現，起初針對Edge用戶下手， 後來將活動擴展到Firefox及Chrome。根據這些惡意套件上架的時間來看，攻擊者在2024年8月以前幾乎都是上架Edge延伸套件，不過從2024年10月之後，他們就針對Firefox用戶而來。 GhostPoster相關惡意軟體採用多階段感染鏈，駭客不僅將</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173439</guid>
+      <pubDate>Mon, 19 Jan 2026 09:58:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>【資安日報】1月19日，人資及ERP系統用戶遭到惡意Chrome延伸套件鎖定</title>
+      <link>https://www.ithome.com.tw/news/173440</link>
+      <description>新聞惡意Chrome延伸套件鎖定人資及ERP系統用戶而來，企圖挾持憑證與帳號存取權限 資安公司Socket揭露5款有問題的Chrome延伸套件，攻擊者針對使用企業人力資源（HR）與ERP系統的員工而來，這些平臺包括：Workday、NetSuite，以及SuccessFactors，駭客宣稱能藉此簡化多帳號管理或加速工作流程，吸引超過2,300名用戶安裝，不過實際上，攻擊者的最終目的，就是要挾持上述企業應用系統的帳號權限。5款惡意套件功能有所不同，部分用於竊取資料，部分用於防範資安人員或系統攔截。對此，Socket已向Google進行通報，並呼籲相關用戶及企業IT人員，應採取行動因應。 針對這次發現的惡意套件，Socket指出涵蓋3種截然不同的攻擊型態，包括向遠端伺服器洩露Cookie、操控DOM封鎖安全管理網頁，以及採用雙向Cookie注入手法，從而達到直接挾持連線階段（Session Hijacking）的目的。 值得留意的是，攻擊者為了延長惡意延伸套件於受害電腦的存活時間，在裡面設置多種自我防護機制。它們會檢查用戶是否安裝23種特定的安全或開發工具（如EditThisCookie</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173440</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/b30a7ae8e24ce1049333d09ae1c6cda053a863d9-1158x1776.png" length="0" type="image/png"/>
+      <pubDate>Mon, 19 Jan 2026 10:00:03 +0000</pubDate>
     </item>
   </channel>
 </rss>
