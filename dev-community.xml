@@ -8,35 +8,20 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jan 2026 10:24:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 19 Jan 2026 11:03:03 +0000</lastBuildDate>
     <item>
-      <title>Vibe Coding Will Replace Traditional Debugging by 2027</title>
-      <link>https://dev.to/numbpill3d/vibe-coding-will-replace-traditional-debugging-by-2027-2e1h</link>
-      <description>A terminal flickers on an empty desk. The glow of the screen barely illuminates the coffee-stained notebook next to it. A script runs somewhere in the background, and you’re staring at errors that shouldn’t exist—or maybe they shouldn’t matter. You feel the weight of a thousand lines of code pressing down. And yet, the solution doesn’t come from stepping through each function, setting breakpoints, or chasing an elusive stack trace. It comes from something else. Something you feel. Something you</description>
-      <guid isPermaLink="false">https://dev.to/numbpill3d/vibe-coding-will-replace-traditional-debugging-by-2027-2e1h</guid>
-      <pubDate>Mon, 19 Jan 2026 09:51:28 +0000</pubDate>
+      <title>I built a free HTML to PDF library for .NET because existing options frustrated me</title>
+      <link>https://dev.to/german_german_d6cdfb5d5/i-built-a-free-html-to-pdf-library-for-net-because-existing-options-frustrated-me-591a</link>
+      <description>Hey everyone, I'm a .NET developer and I needed a simple way to convert HTML to PDF. Looked at existing options: Paid libraries - expensive licenses for a basic feature PuppeteerSharp directly - works, but lots of boilerplate (browser lifecycle, resource cleanup, pooling) wkhtmltopdf - outdated rendering engine, CSS issues So I built Flavor - a free, open source wrapper that handles the boring parts. var pdf = await new FlavorConverter().ConvertHtmlAsync("&amp;lt;h1&amp;gt;Hello&amp;lt;/h1&amp;gt;"); What it does: HTML/URL</description>
+      <guid isPermaLink="false">https://dev.to/german_german_d6cdfb5d5/i-built-a-free-html-to-pdf-library-for-net-because-existing-options-frustrated-me-591a</guid>
+      <pubDate>Mon, 19 Jan 2026 10:06:03 +0000</pubDate>
     </item>
     <item>
-      <title>n8n vs Zapier: Which Automation Tool Should You Use in 2026?</title>
-      <link>https://dev.to/guidetodo/n8n-vs-zapier-which-automation-tool-should-you-use-in-2026-43i9</link>
-      <description>By 2026, workflow automation has evolved from a "nice-to-have" into the backbone of modern business operations. The debate, however, remains the same: n8n vs. Zapier. Both platforms have matured significantly, leveraging AI and expanded integration libraries, but they still cater to fundamentally different philosophies. If you are trying to decide which tool belongs in your tech stack this year, this guide breaks down the differences in pricing, usability, power, and AI capabilities to help you</description>
-      <guid isPermaLink="false">https://dev.to/guidetodo/n8n-vs-zapier-which-automation-tool-should-you-use-in-2026-43i9</guid>
-      <pubDate>Mon, 19 Jan 2026 09:58:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Build a List of Major Web Browsers</title>
-      <link>https://dev.to/richardpascoe/build-a-list-of-major-web-browsers-m7h</link>
-      <description>After grinding through two sets of fairly heavy theory lessons over the weekend and writing about them, it was a relief to get back to a freeCodeCamp workshop. The workshop in question had me building a list of major web browsers with the HTML boilerplate provided, as shown beyond: &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang="en"&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset="UTF-8"&amp;gt; &amp;lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt; &amp;lt;title&amp;gt;List of Browsers and Descriptions&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; As</description>
-      <guid isPermaLink="false">https://dev.to/richardpascoe/build-a-list-of-major-web-browsers-m7h</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc5jik28ufgtnreoeqo0p.png" length="0" type="image/png"/>
-      <pubDate>Mon, 19 Jan 2026 10:00:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>How I Built a Git Log Diff Workflow Plugin for Neovim</title>
-      <link>https://dev.to/salanoid/how-i-built-a-git-log-diff-workflow-plugin-for-neovim-278m</link>
-      <description>When I switched fully to Neovim a while back, one of the things I missed most from JetBrains IDEs (like RubyMine) was Git integration, especially the Git log view I’d use every day to quickly inspect recent commits and diffs. In RubyMine I’d often ask: “What changed in the last three commits?” and get an instant interactive history view. Neovim, however, doesn’t have this kind of UI built in, and while there are many Git plugins out there (from inline signs like gitsigns.nvim to full interfaces</description>
-      <guid isPermaLink="false">https://dev.to/salanoid/how-i-built-a-git-log-diff-workflow-plugin-for-neovim-278m</guid>
-      <pubDate>Mon, 19 Jan 2026 10:03:44 +0000</pubDate>
+      <title>Shell script for Devops</title>
+      <link>https://dev.to/sbkumbar024/shell-script-for-devops-49c0</link>
+      <description>Here is a comprehensive, blog-style set of notes on Shell Scripting. These notes cover the fundamentals, syntax, and logic control required to write effective automation scripts in Linux/Unix environments. The Ultimate Guide to Shell Scripting Shell scripting is the art of chaining together Linux commands into a reusable file to automate repetitive tasks. It is the backbone of DevOps, System Administration, and backend automation. 1. What is a Shell? Before scripting, we must understand the Shel</description>
+      <guid isPermaLink="false">https://dev.to/sbkumbar024/shell-script-for-devops-49c0</guid>
+      <pubDate>Mon, 19 Jan 2026 10:06:45 +0000</pubDate>
     </item>
     <item>
       <title>AI Coding Assistants: Helpful or Harmful?</title>
@@ -80,6 +65,21 @@
       <description>When you open a Box file link on Windows, your browser may redirect you to the Box login page instead of taking you directly to the shared content. In many cases, the login page URL includes a query parameter that contains the original destination. If you need to quickly recover the shareable link (for example, to send it to someone or open it in another environment), it is useful to extract that destination URL from the login page. The following JavaScript snippet is designed for that purpose.</description>
       <guid isPermaLink="false">https://dev.to/vast-cow/extracting-a-shared-box-url-from-the-login-page-5d75</guid>
       <pubDate>Mon, 19 Jan 2026 10:23:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>My Coding Rules for Bash Scripts</title>
+      <link>https://dev.to/mcgivrer/my-coding-rules-for-bash-scripts-4n3j</link>
+      <description>This collection now includes examples of simple and complex functions, with and without parameters, providing a comprehensive reference for coding Bash scripts. Starting from the basic and going to the less-used solution. 1. Shebang Start each script with a shebang line to indicate the interpreter to use: #!/bin/bash 2. Permissions Ensure that the script has execution permissions: chmod +x script_name.sh 3. Comments Use comments to explain the code: # This is a comment 4. Variables Variable Decl</description>
+      <guid isPermaLink="false">https://dev.to/mcgivrer/my-coding-rules-for-bash-scripts-4n3j</guid>
+      <pubDate>Mon, 19 Jan 2026 10:39:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building AI-Powered Data Analytics with MindsDB Enterprise: From Natural Language to Charts</title>
+      <link>https://dev.to/mindsdb/building-ai-powered-data-analytics-with-mindsdb-enterprise-from-natural-language-to-charts-49o3</link>
+      <description>Data analytics traditionally requires writing SQL queries, understanding database schemas, and manually creating visualizations. This creates a significant barrier for business users who need insights but lack technical expertise. With MindsDB Minds you could simply ask questions in plain English and receive both answers and charts automatically. In this tutorial, I will show how to build an AI-powered analytics system using MindsDB Minds that can: Understand natural language questions about you</description>
+      <guid isPermaLink="false">https://dev.to/mindsdb/building-ai-powered-data-analytics-with-mindsdb-enterprise-from-natural-language-to-charts-49o3</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fquickchart.io%2Fchart%3Fc%3D%257Btype%253A%2527bar%2527%252Cdata%253A%257Blabels%253A%255B%2527Smart%2520Office%2520Devices%2527%252C%2527Hybrid%2520Work%2520Essentials%2527%252C%2527Connected%2520Devices%2527%255D%252Cdatasets%253A%255B%257Blabel%253A%2527Total%2520Sales%2520Revenue%2527%252Cdata%253A%255B4288440.0%252C1525521.9%252C1288424.8%255D%257D%255D%257D%257D" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 19 Jan 2026 10:48:58 +0000</pubDate>
     </item>
   </channel>
 </rss>
