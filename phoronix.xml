@@ -8,56 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 18 Jan 2026 06:35:49 +0000</lastBuildDate>
-    <item>
-      <title>Linux ThinkPad Driver Ready For Reporting Damage Device - Starting With Bad USB-C Ports</title>
-      <link>https://www.phoronix.com/news/ThinkPad-Damaged-Device-Ready</link>
-      <description>Queued yesterday into the platform-drivers-x86.git's "for-next" branch are the patches for the Lenovo ThinkPad ACPI driver to begin reporting damaged device detection. This code being in the "for-next" branch makes it material for the next version of the Linux kernel and initially will be able to report to the user on damaged USB-C ports...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ThinkPad-Damaged-Device-Ready</guid>
-      <pubDate>Fri, 16 Jan 2026 19:50:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Adobe Photoshop 2025 Installer Now Working On Linux With Patched Wine</title>
-      <link>https://www.phoronix.com/news/Adobe-Photoshop-2025-Wine-Patch</link>
-      <description>An open-source developer has worked through the last of the issues preventing the Adobe Creative Cloud installers for Windows from running on Linux via Wine. With pending patches, Adobe Photoshop 2021 and Photoshop 2025 are expected to install and run on Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Adobe-Photoshop-2025-Wine-Patch</guid>
-      <pubDate>Fri, 16 Jan 2026 21:22:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Upcoming exFAT Linux Driver Patch Can Boost Sequential Read Performance By ~10%</title>
-      <link>https://www.phoronix.com/news/exFAT-Faster-Seq-Reads-10p</link>
-      <description>A patch for the open-source exFAT file-system driver for Linux can boost the sequential read performance by about 10% in preliminary tests...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/exFAT-Faster-Seq-Reads-10p</guid>
-      <pubDate>Sat, 17 Jan 2026 01:44:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNOME 50 Will Make Sure You Don't Use Your Computer Past Your Bedtime</title>
-      <link>https://www.phoronix.com/news/GNOME-50-Screen-Lock-Bedtime</link>
-      <description>As part of the GNOME Foundation funded Digital Wellbeing project, the GNOME Shell for GNOME 50 has merged options to prevent unlocking the desktop session past their bed time. The intent here is on rounding out GNOME's parental controls functionality...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Screen-Lock-Bedtime</guid>
-      <pubDate>Sat, 17 Jan 2026 10:42:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Shotcut 26.1 Beta Video Editor Adds New Hardware Decoder Options</title>
-      <link>https://www.phoronix.com/news/Shotcut-26.1-Beta</link>
-      <description>The Shotcut 26.1 beta was released overnight as the newest version of this Qt6-based, cross-platform video editing solution. Standing out the most with this new development release are some new GPU-accelerated hardware decode options for aiming to help speed-up this free software video editor...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Shotcut-26.1-Beta</guid>
-      <pubDate>Sat, 17 Jan 2026 10:49:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>KDE Begins Landing Features For Plasma 6.7, Some Last Minute Plasma 6.6 Improvements</title>
-      <link>https://www.phoronix.com/news/Plasma-6.6-Scheduler-Priority</link>
-      <description>KDE developers have been quite busy this week in preparing for the upcoming Plasma 6.6 release in February while also beginning to land features for what will be the Plasma 6.7 desktop...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-Scheduler-Priority</guid>
-      <pubDate>Sat, 17 Jan 2026 11:06:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>CVE-2026-0915: GNU C Library Fixes A Security Issue Present Since 1996</title>
-      <link>https://www.phoronix.com/news/Glibc-Security-Fix-For-1996-Bug</link>
-      <description>CVE-2026-0915 was published on Friday as a security issue with the GNU C Library "glibc" for code introduced 30 years ago. The latest Glibc Git code is now patched for this issue introduced in 1996...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Glibc-Security-Fix-For-1996-Bug</guid>
-      <pubDate>Sat, 17 Jan 2026 11:25:33 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 19 Jan 2026 06:43:02 +0000</lastBuildDate>
     <item>
       <title>FreeBSD 15.1 Aims To Have KDE Desktop Installer Option</title>
       <link>https://www.phoronix.com/news/FreeBSD-15.1-KDE-Desktop-Option</link>
@@ -78,6 +29,55 @@
       <description>Synex is a Linux distribution that's been around for some months as a Debian-based, minimalistic Linux distribution out of Argentina focused on the needs of small and medium businesses. Making it a bit more intriguing for some now is that with their new release based on Debian 13 is a server edition and they have added native OpenZFS file-system support for new installations...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Synex-Debian-With-ZFS</guid>
       <pubDate>Sun, 18 Jan 2026 01:23:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19-rc6 Bringing Sound Fixes For ROG Xbox Ally X &amp;amp; Various Laptops</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-rc6-Sound-Fixes</link>
+      <description>With the Linux 6.19-rc6 kernel release due out later today there will be a number of sound fixes/workarounds to note from the ASUS ROG Xbox Ally X gaming handheld to several newer laptops seeing fixes for their audio support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc6-Sound-Fixes</guid>
+      <pubDate>Sun, 18 Jan 2026 10:45:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>ChaosBSD Is A New BSD For "Broken Drivers, Half-Working Hardware, Vendor Trash" Test Bed</title>
+      <link>https://www.phoronix.com/news/ChaosBSD</link>
+      <description>A new BSD on the block is ChaosBSD that intends to serve as a testing distribution for unfinished and broken drivers not suitable for upstreaming to FreeBSD proper...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ChaosBSD</guid>
+      <pubDate>Sun, 18 Jan 2026 10:59:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux's Intel-Speed-Select Tool Will Allow Non-Root Use With Linux 7.0</title>
+      <link>https://www.phoronix.com/news/intel-speed-select-non-root</link>
+      <description>The intel-speed-select tool that lives within the Linux kernel source tree for allowing some control over Intel Speed Select Technology (SST) and managing of clock frequencies / performance behavior will finally allow limited non-root usage...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/intel-speed-select-non-root</guid>
+      <pubDate>Sun, 18 Jan 2026 11:13:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>HP OMEN/Victus Gaming Laptops Gaining Fan Control Support Under Linux</title>
+      <link>https://www.phoronix.com/news/HP-Victus-S-Linux-Fan-Control</link>
+      <description>With the upcoming Linux 6.20~7.0 kernel cycle, the HP-WMI driver is slated to add manual fan control support for HP Victus S-Series gaming laptops as well as for some HP OMEN gaming laptops too...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/HP-Victus-S-Linux-Fan-Control</guid>
+      <pubDate>Sun, 18 Jan 2026 14:48:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19 Landing Fixes For USB2/USB3 Issues With Apple M1/M2 Macs</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Apple-Mac-USB2-Fixes</link>
+      <description>Ahead of the Linux 6.19-rc6 kernel release due out later today are two USB fixes for Apple M1 / M2 Macs running the mainline kernel. These Apple USB fixes are also marked for back-porting to the stable Linux kernel series...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Apple-Mac-USB2-Fixes</guid>
+      <pubDate>Sun, 18 Jan 2026 17:40:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReactOS For "Open-Source Windows" Achieves Massive Networking Performance Boost</title>
+      <link>https://www.phoronix.com/news/ReactOS-Async-Net-Connect</link>
+      <description>ReactOS as the long-in-development "open-source Windows" project has been on quite a roll recently. Beyond a big Windows NT 6 compatibility improvement and fixing a very annoying usability issue, for this third week of the year there is another big change landing: a significant improvement in networking performance on ReactOS...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ReactOS-Async-Net-Connect</guid>
+      <pubDate>Sun, 18 Jan 2026 20:09:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19-rc6 Released With More Bug Fixes</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-rc6-Released</link>
+      <description>Linus Torvalds just tagged the Linux 6.19-rc6 kernel in working toward the stable Linux 6.19 kernel release likely on 8 February...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc6-Released</guid>
+      <pubDate>Mon, 19 Jan 2026 00:08:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
