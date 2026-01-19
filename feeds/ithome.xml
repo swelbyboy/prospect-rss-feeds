@@ -8,22 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jan 2026 10:27:39 +0000</lastBuildDate>
-    <item>
-      <title>【從護理文書減壓開始，小醫院也能走出自己的GenAI落地方法】阮綜合揭自助式AI摘要生成和FHIR癌藥事審</title>
-      <link>https://www.ithome.com.tw/news/173431</link>
-      <description>新聞「我們其實很缺護理人力！」阮綜合醫院資訊室主任陳保慶直言，這幾年全臺醫護人力吃緊，就連地方型的小醫院也難以倖免，不只影響醫療業務運作，也衝擊病人照護品質。 更大的問題在於，護理師有限的時間，還被大量文書工作占據。陳保慶指出，護理人員平均將近三分之一的工時，都花在電腦上填寫各式護理紀錄，經常因此延後下班，工作壓力越來越大。 為了替這群愈來愈稀缺的護理人員減壓，阮綜合醫院院長陳鴻曜在2024年6月拍板，啟動一項院級生成式AI（GenAI）計畫，鎖定流程重複、格式繁瑣的護理行政作業下手。這項計畫催生後來的「護理AI五部曲」，涵蓋從入院到出院最常見的5類護理紀錄，包括入院護理記錄、敘述性護理記錄、交班護理記錄、單位間交班記錄與出院護理記錄，明顯縮短護理師逐字謄打的時間。實際導入後，白班護理師平均每天可節省約30分鐘到1小時的工時。 GenAI應用瓶頸1：開發流程 身為高雄在地小醫院，阮綜合如何擁抱GenAI？ 陳保慶回憶，2024年6月接下這項任務後，團隊決定先自行開發，由資訊室以C#打造護理專用的GenAI程式，並串接OpenAI的ChatGPT API，直到9月完成第一支「入院護理記錄</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173431</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E9%98%AE%E7%B6%9C%E5%90%881.png" length="0" type="image/png"/>
-      <pubDate>Mon, 19 Jan 2026 05:10:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>【資安週報】0112~0116，CrazyHunter備用攻擊工具曝光，可植入停用防毒軟體運作的惡意執行檔</title>
-      <link>https://www.ithome.com.tw/news/173426</link>
-      <description>新聞在2026年1月第二個星期的資安新聞中，漏洞消息方面，這一星期多家IT、OT業者發布每月例行安全更新，企業需儘速盤點並完成修補，其中微軟修補3個零時差漏洞受矚目，其中1個已被用於實際攻擊的是Windows資訊洩漏漏洞CVE-2026-20805，由微軟威脅情資中心與MSRC發現，目前尚未確認攻擊者身分，另還修補2個先前已公開的零時差漏洞（CVE-2026-21265，以及CVE-2023-31096）。 在資安事故方面，國內有兩家上市櫃公司發布資安相關重訊，我們特別關注的是，公司官方網站委外代管廠商遭受DDoS的態勢，半個月前電源廠飛宏重訊揭露此狀況，如今化工業磐亞也面臨此事件，可能突顯出國內主機託管商近期面臨的狀況。 ●上市公司台產於1月10日發布重大訊息，說明公司網路遭遇異常攻擊事件，只是目前揭露資訊相對有限，無法判斷遭受何類型攻擊。 ●上櫃公司磐亞於1月14日發布重大訊息，指出公司對外官方網站代管服務遭受網路DDoS攻擊，已通知委外代管廠商應變。 ●美國Verizon服務中斷數小時，不僅行動通話、簡訊與行動數據，消防與政府緊急通報系統亦受影響，再次突顯大型行動網路中斷對公共安</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173426</guid>
-      <pubDate>Mon, 19 Jan 2026 06:02:53 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 19 Jan 2026 11:06:16 +0000</lastBuildDate>
     <item>
       <title>惡意Chrome延伸套件鎖定人資及ERP系統用戶而來，企圖挾持憑證與帳號存取權限</title>
       <link>https://www.ithome.com.tw/news/173435</link>
@@ -54,6 +39,14 @@
       <pubDate>Mon, 19 Jan 2026 09:00:28 +0000</pubDate>
     </item>
     <item>
+      <title>GovTech月報第49期：我國AI基本法三讀通過，政院將設國家AI戰略特別委員會；台灣健康網路平臺正式成立，加速民眾健康資料整合及應用發展</title>
+      <link>https://www.ithome.com.tw/news/173441</link>
+      <description>新聞重點新聞(2025年12/21~2026年1/19) AI 法規 立院三讀通過AI基本法，授予行政院成立國家AI戰略特別委員會 立法院在近期終於三讀通過行政院擬定的《人工智慧基本法》（AI基本法），明定我國AI發展主管機關為國科會，並由行政院成立「國家人工智慧戰略特別委員會」，協調全國AI事務。新法規範AI系統定義，並提出兼顧社會公益、數位平權與國家競爭力的七大基本原則，包括人類自主、隱私保護、資安安全、透明與可解釋、公平不歧視、問責以及永續發展與福祉。 AI基本法明定，政府應避免AI應用侵害人民生命、自由、財產或破壞社會秩序，並防止偏差、歧視、資訊誤導或不實廣告等行為。法案規定，高風險AI產品或系統需標示注意事項或警語，並由數發部提供相關評估與驗證工具。此外，各目的事業主管機關在人工智慧研發及應用過程，應會商個人資料保護主管機關，避免不必要個資蒐集與處理，落實隱私保護設計。 在AI政策推動與資源上，基本法規定政府應在財政能力範圍內提供必要經費，支持AI研發、應用及基礎建設，並可透過補助、投資、租稅或金融優惠措施促進產業發展。各主管機關可建立創新實驗環境，以鼓勵AI創新產品與服務，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173441</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/20260109_151837%20(1).jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 19 Jan 2026 09:05:30 +0000</pubDate>
+    </item>
+    <item>
       <title>西門子、施耐德、菲尼克斯電氣等工控大廠修補高風險漏洞，工業邊緣與製程系統受影響</title>
       <link>https://www.ithome.com.tw/news/173434</link>
       <description>新聞多家工業自動化與工控系統（ICS）大廠近日發布1月安全更新，修補多項影響工業環境的資安漏洞，影響產品包含工業邊緣運算設備、製程控制系統與工業路由器。相關廠商呼籲用戶儘速評估並套用修補，以降低工控環境遭入侵的風險。 西門子修補Industrial Edge授權繞過漏洞 在工業邊緣設備方面，工業自動化大廠西門子（Siemens）於1月13日公告，其Industrial Edge Device Kit存在一項授權繞過漏洞CVE-2025-40805，CVSS風險分數達到滿分10。未經身分驗證的遠端攻擊者可繞過驗證機制，冒充合法使用者身分，對工業邊緣運算環境構成高度風險。西門子指出，成功濫用該漏洞仍需攻擊者事先掌握合法使用者相關資訊。 除Industrial Edge相關產品外，西門子也同步針對Ruggedcom、ET 200SP，以及TeleControl Server Basic等OT（Operational Technology）產品發布多則安全公告。 從多項CVSS風險分數9以上的案例來看，部分高風險漏洞不一定源自西門子自家程式碼，而與工控設備整合第三方網路安全元件的供應鏈結構密切</description>
@@ -81,6 +74,14 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173440</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/images/b30a7ae8e24ce1049333d09ae1c6cda053a863d9-1158x1776.png" length="0" type="image/png"/>
       <pubDate>Mon, 19 Jan 2026 10:00:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>防護涵蓋端點、網路、郵件、雲等多種環境，Cynet支援雲端與地端部署</title>
+      <link>https://www.ithome.com.tw/review/172263</link>
+      <description>若要更徹底保護個人電腦、伺服器與行動裝置，許多企業已體認到單靠防毒軟體與網路防火牆是不夠的，抱持「預想被駭（Assumed Breach）」的思維去推動所有資安工作，是更務實的做法，為了能夠涵蓋事前與事中偵測，以及事後應變，端點偵測與應變系統（EDR）、延伸偵測及應變系統（XDR）、網路偵測及應變系統（NDR）等類型的解決方案，在資安市場大行其道，而在業務與服務模式的創新上，為了減輕企業沉重的資安維運負擔，交由資安廠商負責的全天候代管型偵測及回應服務（MDR）也應運而生。 這些解決方案我們統稱為威脅偵測與應變平臺（TDR），根據最新版臺灣資安市場地圖的統計，國內外廠牌多達65家，不僅有老牌廠商極力鞏固這個領域的市場與技術應用經營，也成為新進廠商展現資安實力的最佳舞臺。一般而言，各界也會參照MITRE組織舉辦的ATT&amp;amp;CK Evaluations結果，雖然2025年資安評測進行的過程中，微軟、Palo Alto Networks、SentinelOne陸續宣布退出，最終仍有11家廠商參與，這當中有6家已連續參與5年，絕大部分均為屹立市場多年，僅有幾家是新創公司，現在我們所要介紹的Cyne</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/172263</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/cynet_console1-main.png" length="0" type="image/png"/>
+      <pubDate>Mon, 19 Jan 2026 10:57:20 +0000</pubDate>
     </item>
   </channel>
 </rss>

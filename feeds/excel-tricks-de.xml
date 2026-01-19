@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>excel-tricks.de - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/excel-tricks-de.xml</link>
+    <description>Latest articles from excel-tricks.de (exceltricks.blog)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/excel-tricks-de.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Jan 2026 11:12:44 +0000</lastBuildDate>
+    <item>
+      <title>Wie man gefilterte Zeilen in Excel mit der Funktion TEILERGEBNIS() zählen kann</title>
+      <link>https://exceltricks.blog/wie-man-gefilterte-zeilen-in-excel-mit-der-funktion-teilergebnis-zaehlen-kann/</link>
+      <description>Gefilterte Zeilen in Excel zählen: Einfache Methoden mit TEILERGEBNIS und Statusleiste Der Beitrag Wie man gefilterte Zeilen in Excel mit der Funktion TEILERGEBNIS() zählen kann erschien zuerst auf exceltricks.</description>
+      <guid isPermaLink="false">https://exceltricks.blog/wie-man-gefilterte-zeilen-in-excel-mit-der-funktion-teilergebnis-zaehlen-kann/</guid>
+      <pubDate>Sun, 21 Apr 2024 19:15:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Excel-Tipp: Tastenkürzel selbst herausfinden</title>
+      <link>https://exceltricks.blog/excel-tipp-tastenkuerzel-selbst-herausfinden/</link>
+      <description>In diesem Blogartikel erfahren Sie, wie Sie ganz einfach selbst Tastenkürzel für Excel-Befehle herausfinden können. So arbeiten Sie in Zukunft noch schneller und effizienter mit Excel! Der Beitrag Excel-Tipp: Tastenkürzel selbst herausfinden erschien zuerst auf exceltricks.</description>
+      <guid isPermaLink="false">https://exceltricks.blog/excel-tipp-tastenkuerzel-selbst-herausfinden/</guid>
+      <pubDate>Tue, 23 Apr 2024 19:11:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Datumsangaben vor 1900 in Excel berechnen: So geht’s!</title>
+      <link>https://exceltricks.blog/datumsangaben-vor-1900-in-excel-berechnen-so-gehts/</link>
+      <description>In diesem Blogartikel zeigen wir dir einen cleveren Trick, der den gregorianischen Kalender und geschickte Formeln nutzt, um Datumsberechnungen vor 1900 zu ermöglichen. Der Beitrag Datumsangaben vor 1900 in Excel berechnen: So geht’s! erschien zuerst auf exceltricks.</description>
+      <guid isPermaLink="false">https://exceltricks.blog/datumsangaben-vor-1900-in-excel-berechnen-so-gehts/</guid>
+      <pubDate>Thu, 25 Apr 2024 18:58:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zoomen im Power Query Editor: Detailansicht mit Tastenkombinationen</title>
+      <link>https://exceltricks.blog/zoomen-im-power-query-editor-detailansicht-mit-tastenkombinationen/</link>
+      <description>Der Power Query Editor in Excel bietet zwar nicht die vertrauten Zoom-Funktionen aus Excel, ermöglicht aber dennoch die Vergrößerung und Verkleinerung der Datenansicht. Um die Kontrolle über die Darstellung zu behalten und Details präzise zu analysieren, stehen Ihnen praktische Tastenkombinationen zur Verfügung. Der Beitrag Zoomen im Power Query Editor: Detailansicht mit Tastenkombinationen erschien zuerst auf exceltricks.</description>
+      <guid isPermaLink="false">https://exceltricks.blog/zoomen-im-power-query-editor-detailansicht-mit-tastenkombinationen/</guid>
+      <pubDate>Sat, 04 May 2024 11:33:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quartal aus Datum in römischer Zahl darstellen</title>
+      <link>https://exceltricks.blog/quartal-aus-datum-in-roemischer-zahl-darstellen/</link>
+      <description>Quartal aus Datum in römischer Zahl darstellen Der Beitrag Quartal aus Datum in römischer Zahl darstellen erschien zuerst auf exceltricks.</description>
+      <guid isPermaLink="false">https://exceltricks.blog/quartal-aus-datum-in-roemischer-zahl-darstellen/</guid>
+      <enclosure url="https://i0.wp.com/exceltricks.blog/wp-content/uploads/2024/08/Quartal-Roemisch-01.png?resize=740%2C567&amp;#038;ssl=1" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 28 Aug 2024 19:21:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anzahl der Werte zählen, die nur einmal in einer Liste vorkommen</title>
+      <link>https://exceltricks.blog/anzahl-der-werte-zaehlen-die-nur-einmal-in-einer-liste-vorkommen/</link>
+      <description>Mit der folgenden Formel können Sie die Anzahl der Werte berechnen, welche nur einmal in der Liste vorkommen: {=SUMME(WENN(ZÄHLENWENN(A1:A10;A1:A10)=1;1;0))} A1:A10 = ist der Bereich, in welchen die Werte, welche nur einmal vorkommen, gezählt werden sollen. Bitte erfassen Sie die Formel ohne die geschweiften Klammern am Anfang und am Ende. Bitte bestätigen Sie die Formel nicht mit Enter sondern mit der Tastenkombination Strg + Umschalt + Enter, da es sich um eine Matrixformel handelt. Durch die</description>
+      <guid isPermaLink="false">https://exceltricks.blog/anzahl-der-werte-zaehlen-die-nur-einmal-in-einer-liste-vorkommen/</guid>
+      <enclosure url="https://i0.wp.com/exceltricks.blog/wp-content/uploads/2024/09/Anzahl-Werte-die-nur-einmal-vorkommen.jpg?resize=740%2C286&amp;#038;ssl=1" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 07 Sep 2024 14:53:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anzahl der Werte in Excel zählen, die mehr als einmal in der Liste vorkommen</title>
+      <link>https://exceltricks.blog/anzahl-der-werte-in-excel-zaehlen-die-mehr-als-einmal-in-der-liste-vorkommen/</link>
+      <description>Zählen Sie die Anzahl der Werte in Excel, die mehr als einmal in der Liste vorkommen. Erfahren Sie, wie Sie die Formel verwenden und das Ergebnis erzielen können. Der Beitrag Anzahl der Werte in Excel zählen, die mehr als einmal in der Liste vorkommen erschien zuerst auf exceltricks.</description>
+      <guid isPermaLink="false">https://exceltricks.blog/anzahl-der-werte-in-excel-zaehlen-die-mehr-als-einmal-in-der-liste-vorkommen/</guid>
+      <enclosure url="https://i0.wp.com/exceltricks.blog/wp-content/uploads/2024/09/Anzahl-Werte-mehrfach.jpg?resize=740%2C280&amp;#038;ssl=1" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 21 Sep 2024 18:38:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anzahl der unterschiedlichen Werte in Excel zählen, die mehrfach in der Liste vorkommen</title>
+      <link>https://exceltricks.blog/anzahl-der-unterschiedlichen-werte-in-excel-zaehlen-die-mehrfach-in-der-liste-vorkommen/</link>
+      <description>Zählen Sie die Anzahl der Werte in Excel, die mehr als einmal in der Liste vorkommen. Erfahren Sie, wie Sie die Formel verwenden und das Ergebnis erzielen können. Der Beitrag Anzahl der unterschiedlichen Werte in Excel zählen, die mehrfach in der Liste vorkommen erschien zuerst auf exceltricks.</description>
+      <guid isPermaLink="false">https://exceltricks.blog/anzahl-der-unterschiedlichen-werte-in-excel-zaehlen-die-mehrfach-in-der-liste-vorkommen/</guid>
+      <enclosure url="https://i0.wp.com/exceltricks.blog/wp-content/uploads/2024/09/Anzahl-Werte-redundant.jpg?resize=740%2C214&amp;#038;ssl=1" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 13 Nov 2024 19:36:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Excel-Tricks für Fortgeschrittene: Die geheime ZELLE.ZUORDNEN()-Funktion entschlüsseln</title>
+      <link>https://exceltricks.blog/excel-tricks-fuer-fortgeschrittene-die-geheime-zelle-zuordnen-funktion-entschluesseln/</link>
+      <description>In der Welt von Microsoft Excel gibt es neben den bekannten Funktionen noch einige Geheimwaffen, die in den Tiefen der Excel-Welt verborgen liegen. Eine davon ist die ZELLE.ZUORDNEN()-Funktion, die es ermöglicht, Informationen über die Formatierung einer Zelle zu extrahieren. Klingt kompliziert? Mit etwas Erklärung und Anwendungsbeispielen wird Ihnen diese Funktion schnell zum hilfreichen Werkzeug in … Continue reading Excel-Tricks für Fortgeschrittene: Die geheime ZELLE.ZUORDNEN()-Funktion ents</description>
+      <guid isPermaLink="false">https://exceltricks.blog/excel-tricks-fuer-fortgeschrittene-die-geheime-zelle-zuordnen-funktion-entschluesseln/</guid>
+      <pubDate>Sat, 30 Nov 2024 21:38:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Excel-Tipp: Eine Liste mit römischen Zahlen ganz einfach erstellen</title>
+      <link>https://exceltricks.blog/excel-tipp-eine-liste-mit-roemischen-zahlen-ganz-einfach-erstellen/</link>
+      <description>Möchtest Sie in Ihrer Excel-Tabelle eine elegante Liste mit römischen Zahlen erstellen? Kein Problem! Mit einer einzigen Formel können Sie eine Sequenz von römischen Zahlen generieren. Die Zauberformel: =RÖMISCH(SEQUENZ(10;;1;1)) Schritt für Schritt zur römischen Zahl: So wendest du die Formel an: Warum funktioniert das? Anpassungen und Erweiterungen Beispiel: Möchten Sie die Liste der römischen Zahlen vertikal … Continue reading Excel-Tipp: Eine Liste mit römischen Zahlen ganz einfach erstellen</description>
+      <guid isPermaLink="false">https://exceltricks.blog/excel-tipp-eine-liste-mit-roemischen-zahlen-ganz-einfach-erstellen/</guid>
+      <enclosure url="https://i0.wp.com/exceltricks.blog/wp-content/uploads/2024/12/Liste-roemische-Zahlen.jpg?resize=740%2C368&amp;#038;ssl=1" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Dec 2024 21:19:04 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

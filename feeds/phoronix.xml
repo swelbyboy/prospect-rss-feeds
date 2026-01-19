@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jan 2026 10:25:03 +0000</lastBuildDate>
-    <item>
-      <title>FreeBSD 15.1 Aims To Have KDE Desktop Installer Option</title>
-      <link>https://www.phoronix.com/news/FreeBSD-15.1-KDE-Desktop-Option</link>
-      <description>FreeBSD 15.0 had been aiming to offer a KDE desktop installation option as part of the FreeBSD OS installer. This initiative as part of the FreeBSD laptop support enhancements project didn't pan out in time for FreeBSD 15.0 but now they are working on getting the installer option ready for FreeBSD 15.1. Adding a NVIDIA GPU driver option to the FreeBSD installer was also recently carried out...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-15.1-KDE-Desktop-Option</guid>
-      <pubDate>Sat, 17 Jan 2026 12:30:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 19 Jan 2026 11:03:14 +0000</lastBuildDate>
     <item>
       <title>Important AMDGPU &amp;amp; AMDKFD Driver Improvements Readied For Linux 6.20~7.0</title>
       <link>https://www.phoronix.com/news/More-AMDGPU-PR-Linux-7.0-Dongle</link>
@@ -78,6 +71,13 @@
       <description>Linus Torvalds just tagged the Linux 6.19-rc6 kernel in working toward the stable Linux 6.19 kernel release likely on 8 February...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc6-Released</guid>
       <pubDate>Mon, 19 Jan 2026 00:08:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>SPDX SBOM Generation Tool Proposed For The Linux Kernel</title>
+      <link>https://www.phoronix.com/news/SPDX-SBOM-Gen-Tool-Linux</link>
+      <description>For those organizations on the Software Bill of Materials (SBOM) bandwagon for increasing transparency around software components with license compliance, vulnerability management, and securing the software supply chain, proposed patches to the Linux kernel would introduce an SPDX SBOM Generation Tool...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/SPDX-SBOM-Gen-Tool-Linux</guid>
+      <pubDate>Mon, 19 Jan 2026 10:48:32 +0000</pubDate>
     </item>
   </channel>
 </rss>
