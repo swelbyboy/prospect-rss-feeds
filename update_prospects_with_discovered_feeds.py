@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
 Update prospects.csv with newly discovered RSS feeds from discovery results.
 """
