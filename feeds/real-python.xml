@@ -8,22 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jan 2026 11:11:47 +0000</lastBuildDate>
-    <item>
-      <title>Quiz: How to Properly Indent Python Code</title>
-      <link>https://realpython.com/quizzes/how-to-indent-in-python/</link>
-      <description>Practice proper Python indentation. Take a quiz on using spaces, editor settings, and autoformatting correctly.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/how-to-indent-in-python/</guid>
-      <pubDate>Mon, 05 Jan 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Learn From 2025's Most Popular Python Tutorials and Courses</title>
-      <link>https://realpython.com/popular-python-tutorials-2025/</link>
-      <description>Pick from the best Python tutorials and courses of 2025. Revisit core skills, 3.14 updates, AI coding tools, and project walkthroughs. Kickstart your 2026!</description>
-      <guid isPermaLink="false">https://realpython.com/popular-python-tutorials-2025/</guid>
-      <enclosure url="https://files.realpython.com/media/Real-Python-Quizzes-Page_Watermarked.0a38006fcf1a.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 05 Jan 2026 14:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 20 Jan 2026 06:48:31 +0000</lastBuildDate>
     <item>
       <title>Tips for Using the AI Coding Editor Cursor</title>
       <link>https://realpython.com/courses/tips-using-ai-coding-editor-cursor/</link>
@@ -82,6 +67,21 @@
       <description>How often have you heard about the speed of Python? What's actually being measured, where are the bottlenecks---development time or run time---and which matters more for productivity? Christopher Trudeau is back on the show this week, bringing another batch of PyCoder's Weekly articles and projects.</description>
       <guid isPermaLink="false">https://realpython.com/podcasts/rpp/280/</guid>
       <pubDate>Fri, 16 Jan 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quiz: How to Integrate ChatGPT's API With Python Projects</title>
+      <link>https://realpython.com/quizzes/chatgpt-api-python/</link>
+      <description>Test your knowledge of the ChatGPT API in Python. Practice sending prompts with openai and handling text and code responses in this quick quiz.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/chatgpt-api-python/</guid>
+      <pubDate>Mon, 19 Jan 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Integrate ChatGPT's API With Python Projects</title>
+      <link>https://realpython.com/chatgpt-api-python/</link>
+      <description>Learn how to use the ChatGPT Python API with the openai library to build AI-powered features in your Python applications.</description>
+      <guid isPermaLink="false">https://realpython.com/chatgpt-api-python/</guid>
+      <enclosure url="https://files.realpython.com/media/python_coding_assistant_output.a6e05c3f37e4.png" length="0" type="image/png"/>
+      <pubDate>Mon, 19 Jan 2026 14:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
