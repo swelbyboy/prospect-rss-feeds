@@ -8,80 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jan 2026 11:06:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jan 2026 06:42:56 +0000</lastBuildDate>
     <item>
-      <title>惡意Chrome延伸套件鎖定人資及ERP系統用戶而來，企圖挾持憑證與帳號存取權限</title>
-      <link>https://www.ithome.com.tw/news/173435</link>
-      <description>新聞近期透過瀏覽器延伸套件散布惡意程式的情況越來越氾濫，攻擊者開始鎖定特定的族群和資料，例如，資安公司Koi Security揭露中國駭客DarkSpectre的攻擊行動Zoom Stealer，就是打算挾持視訊會議的內容並收集情報，如今也出現針對特定企業應用系統用戶的情況。 資安公司Socket揭露5款有問題的Chrome延伸套件，攻擊者針對使用企業人力資源（HR）與ERP系統的員工而來，這些平臺包括：Workday、NetSuite，以及SuccessFactors，駭客宣稱能藉此簡化多帳號管理或加速工作流程，吸引超過2,300名用戶安裝，不過實際上，攻擊者的最終目的，就是要挾持上述企業應用系統的帳號權限。5款惡意套件功能有所不同，部分用於竊取資料，部分用於防範資安人員或系統攔截。對此，Socket已向Google進行通報，並呼籲相關用戶及企業IT人員，應採取行動因應。 針對這次發現的惡意套件，Socket指出涵蓋3種截然不同的攻擊型態，包括向遠端伺服器洩露Cookie、操控DOM封鎖安全管理網頁，以及採用雙向Cookie注入手法，從而達到直接挾持連線階段（Session Hija</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173435</guid>
-      <pubDate>Mon, 19 Jan 2026 07:49:36 +0000</pubDate>
+      <title>樹莓派AI HAT+ 2擴充板開賣，8GB板載記憶體加速樹莓派5裝置端LLM</title>
+      <link>https://www.ithome.com.tw/news/173446</link>
+      <description>新聞樹莓派（Raspberry Pi）官方公開發售AI HAT+ 2擴充板，鎖定樹莓派5的本地端AI推論需求，主打把生成式AI工作負載帶到裝置端執行。AI HAT+ 2採用Hailo-10H神經網路加速器，並加入8 GB板載專用記憶體，定價130美元，目前已開始供貨。 樹莓派約在一年前推出的AI HAT+以Hailo-8與Hailo-8L為核心，分別提供26 TOPS與13 TOPS等級的推論效能，主要加速電腦視覺模型，涵蓋物件偵測、姿態估計、場景分割等應用。不過，隨著生成式AI模型在開發者社群快速普及，上一代AI HAT+在生成式AI模型的支援能力上出現落差。 AI HAT+ 2的主要差異在於硬體架構與記憶體配置，官方指出，Hailo-10H可提供40 TOPS（INT4）的推論效能，並搭配8 GB板載專用記憶體，目標是讓加速器能更有效率地處理更大的模型。官方也將支援範圍指向大型語言模型、視覺語言模型等生成式AI應用，不再只限於鏡頭與影像導向的電腦視覺工作負載。 AI HAT+ 2標示的40 TOPS是在INT4條件下的推論效能，主要針對生成式AI工作負載。對於YOLO等以電腦視覺為</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173446</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/Capture%20487%20-%20Raspberry%20Pi%20AI%20HAT%2B%202%20-%20Coding%20assistant%20-%20YouTube%20-%20%5Bwww_youtube_com%5D.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 19 Jan 2026 11:54:19 +0000</pubDate>
     </item>
     <item>
-      <title>jQuery發布近十年首個主要版本4.0.0，加入可信型別強化CSP相容</title>
-      <link>https://www.ithome.com.tw/news/173432</link>
-      <description>新聞jQuery團隊終於發布jQuery 4.0.0正式版，此為近十年來第一個主要版本更新，官方提醒jQuery 4.0.0包含破壞性變更，但預期多數使用者只需做少量調整即可完成升級，官方也準備了升級指南與jQuery Migrate對應版本，協助既有專案在過渡期間找出不相容用法並逐步修正。 在jQuery 4.0.0正式版中，受資安與前端治理關注的更新是支援可信型別（Trusted Types）。也就是說，已用TrustedHTML包裝的HTML內容，可以作為jQuery操作DOM時的輸入，在啟用內容安全政策（CSP）並要求可信型別強制規則的情境下，較不會因型別不符而被瀏覽器阻擋。官方也提到，為了降低CSP對內嵌腳本限制帶來的相容性摩擦，多數非同步載入腳本的請求改以&amp;lt;script&amp;gt;標籤載入，盡量避開可能引發CSP錯誤的路徑。 另一個對企業舊系統影響較直接的變更，是jQuery 4.0.0移除對IE 10與更舊版本的支援，並同步停止支援多款過時瀏覽器。官方將分階段限縮相容性範圍，下一步預計在jQuery 5.0處理IE 11相關支援，對仍需維持舊瀏覽器相容性的組織而言，官方建議維持使用</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173432</guid>
-      <pubDate>Mon, 19 Jan 2026 08:22:03 +0000</pubDate>
+      <title>Cloudflare收購Web框架Astro團隊 ，承諾持續開源與支援多雲部署</title>
+      <link>https://www.ithome.com.tw/news/173437</link>
+      <description>新聞Cloudflare收購Astro背後的The Astro Technology Company，並將其核心團隊納入Cloudflare。雙方在公告中強調，Astro將維持開源並採MIT授權，公開路線圖與開放治理機制維持不變，同時仍支援多種部署目標，不會只綁定Cloudflare。Astro的全職員工已轉為Cloudflare員工，後續仍將全職投入Astro的開發與維護。Cloudflare也承諾持續接受社群貢獻，並透過Astro Ecosystem Fund與合作夥伴共同支持生態系。 Astro為知名前端Web框架，近年採用量持續成長，目前每周下載量接近100萬次，已被大量開發者用來建置網站。從企業採用來看，Unilever、Visa、NBC News等品牌均被點名使用Astro，微軟與Google等公司也在網站或開發者平臺的內容型網站採用Astro，顯示其在文件、行銷與內容等網站場景的能見度正在提升。 Cloudflare也指出，這次整合並非從零開始。Cloudflare自家開發者文件、網站、活動頁面與部落格等內容型站點已使用Astro建置。建構在Cloudflare上的Web</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173437</guid>
+      <pubDate>Mon, 19 Jan 2026 12:23:05 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI罕見揭露算力與營收，定義AI基礎設施商業模式</title>
-      <link>https://www.ithome.com.tw/news/173438</link>
-      <description>新聞OpenAI財務長Sarah Friar周日（1/18）發表〈讓商業規模與智慧價值同步成長〉（A business that scales with the value of intelligence）一文，罕見對外公開公司算力規模與營收成長數據，並系統性說明其商業模式與擴張邏輯。對一家未上市公司而言，主動揭露如此具體的營運指標並不尋常，外界解讀，這代表OpenAI正刻意重塑市場對其定位的理解。 Friar回顧ChatGPT最初以研究預覽形式推出，原意是觀察前沿AI直接交到使用者手中後的影響，但實際使用迅速擴散至學習、生活與工作場景，並深度嵌入工程、行銷、財務與管理流程，使其從好奇心導向的工具，轉變為日常生產力的關鍵基礎設施。 在商業模式上，Friar反覆強調一項原則，即商業規模必須隨智慧所創造的價值同步擴張。她將消費者訂閱、企業與團隊方案、API用量計費，以及廣告與商務整合，統一納入同一價值邏輯之中，試圖化解外界對OpenAI「轉向商業化」的疑慮，改以「規模化發展的必然結果」加以詮釋。 文章中最引發關注的，是Friar首度公開OpenAI近三年的算力與營收數據。她指出，OpenA</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173438</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/Compute%20has%20scaled%20at%20roughly%203x%20per%20year%E2%80%A6.png" length="0" type="image/png"/>
-      <pubDate>Mon, 19 Jan 2026 08:40:14 +0000</pubDate>
+      <title>Let's Encrypt六天短效TLS憑證與IP位址憑證正式上線</title>
+      <link>https://www.ithome.com.tw/news/173453</link>
+      <description>新聞憑證機構Let's Encrypt宣布，短效憑證現已正式提供，一張憑證的有效期為160小時，略高於六天，並採選用方式啟用。Let's Encrypt也推出IP位址憑證，並規定IP位址憑證一律採短效憑證形式簽發。此新選項可縮短私鑰外洩或遭竊後的暴露時間，並延續Let's Encrypt未來數年把預設有效期逐步從90天降至45天的既定方向。 Let's Encrypt表示，推動短效憑證的主要理由，是縮短憑證遭濫用時的風險窗口。過往公開信任TLS憑證多採最長90天有效期，當私鑰外洩或被竊取時，傳統作法多仰賴憑證撤銷來降低衝擊，但撤銷在實務上常被認為不夠可靠，導致部分憑證依賴方仍可能在憑證到期前接受已受損的憑證。改採約六天的有效期後，即使撤銷未能即時生效，暴露時間也會因憑證較快到期而縮短。 不過，Let's Encrypt也強調短效憑證暫時不會成為預設值，原因在於各組織的自動化程度差異很大。對已把憑證申請與續期納入自動流程的組織而言，改用短效憑證相對可行，但對仍仰賴半手動更新的環境，六天有效期意味著更密集的維運節奏，也更需要監控與警示，降低憑證過期導致服務中斷的風險。 與短效憑證一起上線的</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173453</guid>
+      <pubDate>Tue, 20 Jan 2026 02:28:42 +0000</pubDate>
     </item>
     <item>
-      <title>部分支援Google快速配對藍牙耳機與喇叭存在WhisperPair漏洞，10秒內即可遭接管</title>
-      <link>https://www.ithome.com.tw/news/173433</link>
-      <description>新聞比利時魯汶大學KU Leuven旗下資安研究團隊COSIC揭露一個名為WhisperPair的漏洞，指出多款支援Google快速配對（Fast Pair）的藍牙耳機與喇叭，因配件端實作不完整，可能在使用者未同意下被鄰近攻擊者強制配對接管。研究團隊並點出影響範圍可能達數億用戶，且牽涉多家供應商與不同晶片組。 研究團隊指出，攻擊者只要在合理的藍牙距離內，就可能在數秒內完成接管。測試中位數約10秒，最遠測到14公尺，被接管後不只可能遭到插入或干擾音訊，攻擊者也可能利用配件麥克風收音，增加通勤通話或辦公室線上會議等情境的隱私外洩風險。 WhisperPair漏洞成因是快速配對流程中的狀態檢查，沒有被配件端確實把關。研究團隊說明，依快速配對規範，當發起端裝置送出啟動快速配對的訊息時，配件要是不在配對模式，理應忽略這類訊息，但不少裝置未落實該狀態檢查，導致未授權裝置仍可啟動快速配對流程，後續再以一般藍牙配對完成綁定。 另外，要是配件支援Google尋找中心（Find Hub）網路，且該配件從未與Android裝置完成配對，攻擊者可能把配件加入自己的Google帳號，利用群眾回報的定位資訊追蹤配</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173433</guid>
-      <pubDate>Mon, 19 Jan 2026 09:00:28 +0000</pubDate>
+      <title>Google Gemini間接提示注入漏洞可外洩會議、行事曆資訊</title>
+      <link>https://www.ithome.com.tw/news/173471</link>
+      <description>新聞資安研究人員發現Google Gemini之前存在一項間接提示注入漏洞，可讓攻擊者繞過Google行事曆（Google Calendar）的隱私控管而外洩會議資料，或是偷偷加入新的行事活動。Google接獲通報後已經確認漏洞並予以修補。 為了能回答用戶問題，Gemini會消化、解析Google行事曆的事件，包括標題、與會者和會議敍述。但利用這個機制，資安公司Miggo Security設計出的攻擊方法中，可在寄發的Google行事曆會議邀請中嵌入惡意酬載，來繞過Google行事曆授權驗證，以存取Google行事曆內容。 研究人員也示範了攻擊手法。他們是利用Gemini和Google服務的整合性。他們先設立了一個行事曆活動事件，傳送會議邀請給目標用戶。會議描述欄嵌入了一段提示注入的酬載。該提示要求Gemini摘要某一天用戶所有會議，包括私人活動，將這些資料寫入新增會議活動的描述，再加入無害的回應掩人耳目（如「這時段有空」）。 這段酬載一直保持休止，直到目標用戶之後詢問Gemini常見問題如「Hey Gemini我周六有空嗎？」，這提示會讓Gemini載入和解析所有行事曆事件，包括研究</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173471</guid>
+      <pubDate>Tue, 20 Jan 2026 02:48:39 +0000</pubDate>
     </item>
     <item>
-      <title>GovTech月報第49期：我國AI基本法三讀通過，政院將設國家AI戰略特別委員會；台灣健康網路平臺正式成立，加速民眾健康資料整合及應用發展</title>
-      <link>https://www.ithome.com.tw/news/173441</link>
-      <description>新聞重點新聞(2025年12/21~2026年1/19) AI 法規 立院三讀通過AI基本法，授予行政院成立國家AI戰略特別委員會 立法院在近期終於三讀通過行政院擬定的《人工智慧基本法》（AI基本法），明定我國AI發展主管機關為國科會，並由行政院成立「國家人工智慧戰略特別委員會」，協調全國AI事務。新法規範AI系統定義，並提出兼顧社會公益、數位平權與國家競爭力的七大基本原則，包括人類自主、隱私保護、資安安全、透明與可解釋、公平不歧視、問責以及永續發展與福祉。 AI基本法明定，政府應避免AI應用侵害人民生命、自由、財產或破壞社會秩序，並防止偏差、歧視、資訊誤導或不實廣告等行為。法案規定，高風險AI產品或系統需標示注意事項或警語，並由數發部提供相關評估與驗證工具。此外，各目的事業主管機關在人工智慧研發及應用過程，應會商個人資料保護主管機關，避免不必要個資蒐集與處理，落實隱私保護設計。 在AI政策推動與資源上，基本法規定政府應在財政能力範圍內提供必要經費，支持AI研發、應用及基礎建設，並可透過補助、投資、租稅或金融優惠措施促進產業發展。各主管機關可建立創新實驗環境，以鼓勵AI創新產品與服務，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173441</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/20260109_151837%20(1).jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 19 Jan 2026 09:05:30 +0000</pubDate>
+      <title>HPE修補Instant On高風險漏洞，無線基地臺恐洩漏VLAN資訊並遭DoS攻擊</title>
+      <link>https://www.ithome.com.tw/news/173454</link>
+      <description>新聞HPE修補影響HPE Networking Instant On無線基地臺與1930系列交換器的多項高風險漏洞。這些漏洞影響執行3.3.1.0（含）以前韌體版本的設備，可能導致網路組態資訊外洩，或使無線網路服務遭到阻斷。HPE已在Instant On 3.3.2.0及後續版本中提供修補，呼籲用戶儘速完成升級。 HPE於1月13日發布安全公告（HPESBNW04988），指出Instant On無線基地臺在路由器模式（Router Mode）下，存在一項資訊洩漏漏洞CVE-2025-37165。公告說明，未經身分驗證的遠端攻擊者，可能透過特製的網路流量，使設備回應原本不應揭露的封包內容，進而洩漏包含VLAN識別碼在內的網路區隔資訊。該漏洞CVSS v3.1風險評分為7.5，屬於高風險等級，主要影響資訊機密性。 HPE表示，若攻擊者可接觸受影響的網路介面，便可能利用外洩的VLAN與網路區隔資訊描繪內部網路結構，增加後續攻擊成功的機率。官方指出，目前並無可行的暫時性緩解措施，僅能透過升級韌體加以修補。 同一份公告中，HPE也揭露另一項影響Instant On無線基地臺的高風險漏洞CVE-</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173454</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0120-HPE-600.png" length="0" type="image/png"/>
+      <pubDate>Tue, 20 Jan 2026 02:59:26 +0000</pubDate>
     </item>
     <item>
-      <title>西門子、施耐德、菲尼克斯電氣等工控大廠修補高風險漏洞，工業邊緣與製程系統受影響</title>
-      <link>https://www.ithome.com.tw/news/173434</link>
-      <description>新聞多家工業自動化與工控系統（ICS）大廠近日發布1月安全更新，修補多項影響工業環境的資安漏洞，影響產品包含工業邊緣運算設備、製程控制系統與工業路由器。相關廠商呼籲用戶儘速評估並套用修補，以降低工控環境遭入侵的風險。 西門子修補Industrial Edge授權繞過漏洞 在工業邊緣設備方面，工業自動化大廠西門子（Siemens）於1月13日公告，其Industrial Edge Device Kit存在一項授權繞過漏洞CVE-2025-40805，CVSS風險分數達到滿分10。未經身分驗證的遠端攻擊者可繞過驗證機制，冒充合法使用者身分，對工業邊緣運算環境構成高度風險。西門子指出，成功濫用該漏洞仍需攻擊者事先掌握合法使用者相關資訊。 除Industrial Edge相關產品外，西門子也同步針對Ruggedcom、ET 200SP，以及TeleControl Server Basic等OT（Operational Technology）產品發布多則安全公告。 從多項CVSS風險分數9以上的案例來看，部分高風險漏洞不一定源自西門子自家程式碼，而與工控設備整合第三方網路安全元件的供應鏈結構密切</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173434</guid>
-      <pubDate>Mon, 19 Jan 2026 09:25:57 +0000</pubDate>
+      <title>Windows 11安全更新引發眾多版本Windows裝置無法開機、遠端連線 微軟緊急修補</title>
+      <link>https://www.ithome.com.tw/news/173472</link>
+      <description>新聞上周發布的Windows 11 Patch Tuesday安全更新，造成眾多消費者及企業版本Windows裝置無法開機、遠端登入等災情，微軟周末發出例外（out-of-band，OOB）修補更新。 微軟上周釋出Windows 11安全更新後，一些用戶反映安裝更新後，電腦無法成功關閉、休眠。 微軟在周末證實此事，緊急針對Windows 11多個版本釋出更新解決上周（1/13）KB5073455引發的問題。 微軟說明，安裝KB5073455引發的問題包括了，具備「安全啟動」（secure launch）的部份裝置無法關機或休眠，而是重新啟動。受影響的版本僅有Windows 11 23H2。 此外，另些用戶在遠端桌面連線時無法登入。這問題發生在Windows遠端桌機App的驗證步驟，影響Azure Virtual Desktop和Windows 365。這問題影響Windows 11 25H2、Windows 10 22H2 ESU及Windows Server 2025/2022/2019。 最新例外安全更新修補的Windows版本包括Windows 11 23H2(KB5077797</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173472</guid>
+      <pubDate>Tue, 20 Jan 2026 03:57:57 +0000</pubDate>
     </item>
     <item>
-      <title>加密貨幣市場大洗牌，自2021年以來有逾半數幣種已消失</title>
-      <link>https://www.ithome.com.tw/news/173448</link>
-      <description>新聞加密市場資料平臺CoinGecko近日指出，自2021年7月以來，曾在其鏈上資料平臺GeckoTerminal列出的約2,020萬個加密貨幣專案中，約有1,340萬個已不再活躍、停止交易，占比約53.2%；而僅2025年一年，就有約1,160萬個專案停止交易，占了所有失敗專案的86%。 該研究是依據GeckoTerminal的統計，分析在各區塊鏈上曾至少完成一次交易、但後續不再有交易活動的專案，並將其歸類為失敗或死亡專案。資料期間涵蓋2021年7月1日至2025年12月31日。研究中所稱的加密貨幣專案，涵蓋具獨立區塊鏈的原生加密貨幣，以及建立在既有區塊鏈上的代幣，而絕大多數消失的專案皆屬於代幣。 研究顯示，代幣的發行爆發點出現在2024年之後。在2021年至2023年間，代幣的發行與失敗數量維持在相對有限的規模，失敗案例多是低的6位數。真正的轉折點出現在2024年，因為當年的代幣發行數量首次出現大規模躍升，代幣累積上架數量從2023年的83.5萬個快速成長至300萬個，2025年再成長至逾2,000萬個，而2024年的失敗專案也達到138萬個，2025年更衝上1,160萬個，形成史</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173448</guid>
-      <pubDate>Mon, 19 Jan 2026 09:51:20 +0000</pubDate>
+      <title>紐約證交所規畫代幣化證券平臺，瞄準24小時美股交易</title>
+      <link>https://www.ithome.com.tw/news/173474</link>
+      <description>新聞紐約證券交易所（New York Stock Exchange，NYSE）周一（1/19）宣布，正開發一套用於代幣化證券交易與鏈上交割的新平臺，並將向監管機關申請核准。該平臺將支援美國上市股票與ETF的代幣化交易，被視為NYSE正式布局24小時美股交易的重要一步。 根據NYSE說明，這項平臺將提供24x7交易、即時交割、零股與以金額下單等功能，並支援以穩定幣進行資金配置。技術架構上，平臺結合NYSE既有的Pillar撮合引擎，並導入基於區塊鏈的交易後系統，可支援多條區塊鏈進行交割與託管。 NYSE強調，代幣化證券在法律地位上可與傳統發行的證券等值流通。持有代幣化股份的投資人，仍可參與股利分配與公司治理投票，相關權利與現行股票制度一致。該平臺在取得監管核准後，將成為一個新的NYSE交易場域，並透過非歧視性機制，向所有合格券商開放。 這項計畫也是NYSE母公司洲際交易所（Intercontinental Exchange，ICE）整體數位策略的一環。ICE指出，正同步為其清算基礎設施做好支援24小時交易的準備，並評估導入代幣化擔保品的可能性。此外，ICE已與紐約梅隆銀行及花旗銀行等金融</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173474</guid>
+      <pubDate>Tue, 20 Jan 2026 04:18:12 +0000</pubDate>
     </item>
     <item>
-      <title>瀏覽器惡意軟體活動GhostPoster可追溯到5年前，Chrome、Edge、Firefox用戶皆為目標</title>
-      <link>https://www.ithome.com.tw/news/173439</link>
-      <description>新聞去年12月，資安公司Koi Security揭露鎖定Firefox用戶的延伸套件攻擊GhostPoster，其特徵是駭客透過隱寫術（steganography）將有效酬載埋入PNG圖示檔案，後來該公司指出攻擊者是名為DarkSpectre的中國駭客，如今有其他資安公司揭露新的調查結果，指出相關活動最早可追溯到5年前。 瀏覽器資安公司LayerX指出，他們根據Koi Security公布的調查結果，找到17款與GhostPoster有關的惡意延伸套件，這些套件採用相同的基礎設施，以及策略、手段、攻擊流程（TTP），不過，攻擊者不光針對Firefox用戶，也攻擊Chrome與Edge用戶，這些套件總共被下載超過84萬次，其中部分延伸套件存活超過5年。 LayerX指出，駭客活動最早在2020年2月出現，起初針對Edge用戶下手， 後來將活動擴展到Firefox及Chrome。根據這些惡意套件上架的時間來看，攻擊者在2024年8月以前幾乎都是上架Edge延伸套件，不過從2024年10月之後，他們就針對Firefox用戶而來。 GhostPoster相關惡意軟體採用多階段感染鏈，駭客不僅將</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173439</guid>
-      <pubDate>Mon, 19 Jan 2026 09:58:24 +0000</pubDate>
+      <title>TP-Link修補可完全控制VIGI攝影機的漏洞</title>
+      <link>https://www.ithome.com.tw/news/173476</link>
+      <description>新聞TP-Link近日釋出安全更新，修補可讓攻擊者繞過身分驗證控制VIGI商用攝影機的漏洞。 TP-Link VIGI是商用級網路監控攝影機和解決方案，提供AI智能偵測（人車分類、越界警報等），並可透過網頁介面、NVR主機、VIGI APP或VIGI Security Manager軟體管理。本產品在歐、美、亞洲包括臺灣銷售多國。 最新修補的CVE-2026-0629為存在VIGI攝影機本地Web介面的密碼復原功能的驗證繞過漏洞，可讓LAN上的攻擊者變更用戶端狀態，不經驗證即可重設管理員密碼。這使得攻擊者取得管理員控制權，影響配置及網路安全性。漏洞風險值為CVSS 4.0 8.7分。 本漏洞影響VIGI及VIGI InSight等30餘種機種。 TP-Link強烈建議用戶升級到最新韌體版本。該公司列出了美國、英國及印度的軟體更新網址。 TP-Link網路系統過去曾多次成為駭客攻擊目標。去年9月美國網路安全及基礎設施安全管理署（CISA）才公布TP-Link Wi-Fi設備5年前的漏洞發生濫用活動，6月份TP-Link小型企業路由器也有項舊漏洞遭到攻擊。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173476</guid>
+      <pubDate>Tue, 20 Jan 2026 04:33:21 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】1月19日，人資及ERP系統用戶遭到惡意Chrome延伸套件鎖定</title>
-      <link>https://www.ithome.com.tw/news/173440</link>
-      <description>新聞惡意Chrome延伸套件鎖定人資及ERP系統用戶而來，企圖挾持憑證與帳號存取權限 資安公司Socket揭露5款有問題的Chrome延伸套件，攻擊者針對使用企業人力資源（HR）與ERP系統的員工而來，這些平臺包括：Workday、NetSuite，以及SuccessFactors，駭客宣稱能藉此簡化多帳號管理或加速工作流程，吸引超過2,300名用戶安裝，不過實際上，攻擊者的最終目的，就是要挾持上述企業應用系統的帳號權限。5款惡意套件功能有所不同，部分用於竊取資料，部分用於防範資安人員或系統攔截。對此，Socket已向Google進行通報，並呼籲相關用戶及企業IT人員，應採取行動因應。 針對這次發現的惡意套件，Socket指出涵蓋3種截然不同的攻擊型態，包括向遠端伺服器洩露Cookie、操控DOM封鎖安全管理網頁，以及採用雙向Cookie注入手法，從而達到直接挾持連線階段（Session Hijacking）的目的。 值得留意的是，攻擊者為了延長惡意延伸套件於受害電腦的存活時間，在裡面設置多種自我防護機制。它們會檢查用戶是否安裝23種特定的安全或開發工具（如EditThisCookie</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173440</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/b30a7ae8e24ce1049333d09ae1c6cda053a863d9-1158x1776.png" length="0" type="image/png"/>
-      <pubDate>Mon, 19 Jan 2026 10:00:03 +0000</pubDate>
+      <title>惡意軟體GootLoader透過1千個ZIP檔串接的壓縮檔傳送，企圖迴避防毒軟體偵測</title>
+      <link>https://www.ithome.com.tw/news/173475</link>
+      <description>新聞一年前資安公司Perception Point提出警告，他們發現駭客為了迴避偵測，積極利用名為ZIP檔案串接技術（ZIP Concatenation）手法，這種手法顧名思義，就是將多個ZIP檔串接成單一檔案，由於不同解壓縮工具解析壓縮檔的方式存在差異，使得壓縮檔裡存放的惡意內容不易被察覺，如今傳出有惡意軟體跟進，引起資安圈的關注。 經營代管偵測與回應（MDR）服務的資安廠商Expel提出警告，近期駭客使用特殊格式的ZIP檔來散布惡意軟體載入工具GootLoader，該壓縮檔實際上由500至1,000個ZIP檔串接而成，僅有在Windows檔案總管（File Explorer）開啟時，才會啟動感染鏈；若是資安人員透過7-Zip、WinRAR等解壓縮工具，或是沙箱環境等自動化分析工具，則無法存取壓縮檔的內容，攻擊者這麼做的目的，就是迴避相關的偵測。對此，該公司呼籲資安人員，應根據這種ZIP檔的特徵及攻擊者的獨特行為，建立偵測機制。 Expel進一步說明，此壓縮檔中央資料夾末端（End of Central Directory，EOCD）檔案結構遭到破壞，缺乏兩個重要的位元組，導致大部分</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173475</guid>
+      <pubDate>Tue, 20 Jan 2026 05:01:59 +0000</pubDate>
     </item>
     <item>
-      <title>防護涵蓋端點、網路、郵件、雲等多種環境，Cynet支援雲端與地端部署</title>
-      <link>https://www.ithome.com.tw/review/172263</link>
-      <description>若要更徹底保護個人電腦、伺服器與行動裝置，許多企業已體認到單靠防毒軟體與網路防火牆是不夠的，抱持「預想被駭（Assumed Breach）」的思維去推動所有資安工作，是更務實的做法，為了能夠涵蓋事前與事中偵測，以及事後應變，端點偵測與應變系統（EDR）、延伸偵測及應變系統（XDR）、網路偵測及應變系統（NDR）等類型的解決方案，在資安市場大行其道，而在業務與服務模式的創新上，為了減輕企業沉重的資安維運負擔，交由資安廠商負責的全天候代管型偵測及回應服務（MDR）也應運而生。 這些解決方案我們統稱為威脅偵測與應變平臺（TDR），根據最新版臺灣資安市場地圖的統計，國內外廠牌多達65家，不僅有老牌廠商極力鞏固這個領域的市場與技術應用經營，也成為新進廠商展現資安實力的最佳舞臺。一般而言，各界也會參照MITRE組織舉辦的ATT&amp;amp;CK Evaluations結果，雖然2025年資安評測進行的過程中，微軟、Palo Alto Networks、SentinelOne陸續宣布退出，最終仍有11家廠商參與，這當中有6家已連續參與5年，絕大部分均為屹立市場多年，僅有幾家是新創公司，現在我們所要介紹的Cyne</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/172263</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/cynet_console1-main.png" length="0" type="image/png"/>
-      <pubDate>Mon, 19 Jan 2026 10:57:20 +0000</pubDate>
+      <title>OpenAI可望於今年推出首款AI裝置</title>
+      <link>https://www.ithome.com.tw/news/173477</link>
+      <description>新聞Axios引用OpenAI全球事務長Chris Lehane周一（1/19）在Axios House活動上的說法，指出OpenAI預計在2026年下半年推出其首款硬體裝置。 OpenAI是在2025年5月收購了蘋果前首席設計師Jony Ive成立的AI裝置新創公司io，準備發展由AI驅動的新一代運算裝置，當時雙方即計畫在2026年展示首批產品。 而Lehane再度證實，AI裝置是OpenAI在2026年即將推出的重大產品之一，可能會在下半年登場。但Lehane拒絕透露有關其AI裝置的任何細節。 不過，就在一周前，一名暱稱為智慧皮卡丘的消費性電子產品部落客透過X披露，OpenAI正在積極推動一個由Ive團隊設計的Sweetpea專案，這是一個可用來取代AirPods的產品，它將被佩戴於耳後，可利用Siri來傳達指令，預計於今年9月上市，估計第一年可售出至少4,000萬副。 智慧皮卡丘還說，OpenAI其實打算推出更多的AI裝置，已通知富士通至少要在2028年年底前生產5款裝置。 OpenAI現階段主要營收仍來自訂閱服務，並已於2025年突破200億美元，外界認為其推出硬體的目的不在短</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173477</guid>
+      <pubDate>Tue, 20 Jan 2026 06:15:59 +0000</pubDate>
     </item>
   </channel>
 </rss>

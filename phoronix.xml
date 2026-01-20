@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jan 2026 11:03:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jan 2026 06:40:52 +0000</lastBuildDate>
     <item>
-      <title>Important AMDGPU &amp;amp; AMDKFD Driver Improvements Readied For Linux 6.20~7.0</title>
-      <link>https://www.phoronix.com/news/More-AMDGPU-PR-Linux-7.0-Dongle</link>
-      <description>On Friday AMD sent out another set of AMDGPU kernel graphics driver and AMDKFD kernel compute driver patches for queuing in DRM-Next ahead of the upcoming Linux 6.20~7.0 kernel cycle kicking off in February...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/More-AMDGPU-PR-Linux-7.0-Dongle</guid>
-      <pubDate>Sat, 17 Jan 2026 20:16:27 +0000</pubDate>
+      <title>Intel LLM-Scaler-Omni Update Brings ComfyUI &amp;amp; SGLang Improvements On Arc Graphics</title>
+      <link>https://www.phoronix.com/news/Intel-LLM-Scaler-Omni-0.1.0-b5</link>
+      <description>Following last week's updated Intel LLM-Scaler-vLLM release for helping advance vLLM usage on Intel Arc Graphics, LLM Scaler Omni is out with a new release today for that LLM-Scaler environment focused on image / voice / video generation using Omni Studio and Omni Serving modes...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-LLM-Scaler-Omni-0.1.0-b5</guid>
+      <pubDate>Mon, 19 Jan 2026 11:14:00 +0000</pubDate>
     </item>
     <item>
-      <title>Synex Server: A New Debian Based Linux Distro With Native ZFS Installation Support</title>
-      <link>https://www.phoronix.com/news/Synex-Debian-With-ZFS</link>
-      <description>Synex is a Linux distribution that's been around for some months as a Debian-based, minimalistic Linux distribution out of Argentina focused on the needs of small and medium businesses. Making it a bit more intriguing for some now is that with their new release based on Debian 13 is a server edition and they have added native OpenZFS file-system support for new installations...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Synex-Debian-With-ZFS</guid>
-      <pubDate>Sun, 18 Jan 2026 01:23:06 +0000</pubDate>
+      <title>RADV Vulkan Driver Now Implements HPLOC For Even Faster Ray-Tracing Performance</title>
+      <link>https://www.phoronix.com/news/RADV-Vulkan-Driver-HPLOC-Valve</link>
+      <description>There have been a number of nice RADV driver Vulkan ray-tracing performance optimizations for Mesa in recent times... Here is yet another merge request now merged for Mesa 26.0 and helping deliver some nice performance uplift for ray-traced games on Linux. And, yes, this is yet another Valve contribution to this open-source AMD Radeon Linux graphics driver...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/RADV-Vulkan-Driver-HPLOC-Valve</guid>
+      <pubDate>Mon, 19 Jan 2026 11:24:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19-rc6 Bringing Sound Fixes For ROG Xbox Ally X &amp;amp; Various Laptops</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-rc6-Sound-Fixes</link>
-      <description>With the Linux 6.19-rc6 kernel release due out later today there will be a number of sound fixes/workarounds to note from the ASUS ROG Xbox Ally X gaming handheld to several newer laptops seeing fixes for their audio support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc6-Sound-Fixes</guid>
-      <pubDate>Sun, 18 Jan 2026 10:45:54 +0000</pubDate>
+      <title>New Patches Provide HDMI VRR &amp;amp; Auto Low Latency Mode Gaming Features For AMD Linux GPU Driver</title>
+      <link>https://www.phoronix.com/news/AMDGPU-HDMI-Gaming-Features</link>
+      <description>Support for newer HDMI features in the open-source AMD Linux graphics driver have been limited due to being blocked by the HDMI Forum. There are though some new HDMI gaming features being enabled via new AMDGPU kernel driver patches that are coming outside of AMD and based on public knowledge and/or "trying things out until they work/break" for functionality like HDMI Variable Refresh Rate (VRR) and Auto Low Latency Mode...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-HDMI-Gaming-Features</guid>
+      <pubDate>Mon, 19 Jan 2026 11:38:39 +0000</pubDate>
     </item>
     <item>
-      <title>ChaosBSD Is A New BSD For "Broken Drivers, Half-Working Hardware, Vendor Trash" Test Bed</title>
-      <link>https://www.phoronix.com/news/ChaosBSD</link>
-      <description>A new BSD on the block is ChaosBSD that intends to serve as a testing distribution for unfinished and broken drivers not suitable for upstreaming to FreeBSD proper...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ChaosBSD</guid>
-      <pubDate>Sun, 18 Jan 2026 10:59:22 +0000</pubDate>
+      <title>Revocable Resource Management Appears On Track For Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Revocable-Resource-Management</link>
+      <description>A new feature that appears ready for introduction in the upcoming Linux 6.20~7.0 kernel cycle is revocable resource management...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Revocable-Resource-Management</guid>
+      <pubDate>Mon, 19 Jan 2026 13:56:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux's Intel-Speed-Select Tool Will Allow Non-Root Use With Linux 7.0</title>
-      <link>https://www.phoronix.com/news/intel-speed-select-non-root</link>
-      <description>The intel-speed-select tool that lives within the Linux kernel source tree for allowing some control over Intel Speed Select Technology (SST) and managing of clock frequencies / performance behavior will finally allow limited non-root usage...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/intel-speed-select-non-root</guid>
-      <pubDate>Sun, 18 Jan 2026 11:13:23 +0000</pubDate>
+      <title>How NVIDIA GB10 Performance With the Dell Pro Max GB10 Compares To The GH200</title>
+      <link>https://www.phoronix.com/review/nvidia-gb10-gh200</link>
+      <description>Earlier this month we looked at the Dell Pro Max GB10 performance up against AMD's Ryzen AI Max+ "Strix Halo" with the superior performance for the green team for performance and power efficiency. For those wondering how the Dell Pro Max GB10 performance comes up for the much talked about NVIDIA GH200, here are some comparison benchmarks.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/nvidia-gb10-gh200</guid>
+      <pubDate>Mon, 19 Jan 2026 14:37:04 +0000</pubDate>
     </item>
     <item>
-      <title>HP OMEN/Victus Gaming Laptops Gaining Fan Control Support Under Linux</title>
-      <link>https://www.phoronix.com/news/HP-Victus-S-Linux-Fan-Control</link>
-      <description>With the upcoming Linux 6.20~7.0 kernel cycle, the HP-WMI driver is slated to add manual fan control support for HP Victus S-Series gaming laptops as well as for some HP OMEN gaming laptops too...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/HP-Victus-S-Linux-Fan-Control</guid>
-      <pubDate>Sun, 18 Jan 2026 14:48:52 +0000</pubDate>
+      <title>CAKE_MQ Slated For Linux 7.0 To Adapt SCH_CAKE For Today's Multi-Core World</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-CAKE-MQ</link>
+      <description>Queued into the Linux networking subsystem's "net-next" branch ahead of the Linux 6.20~7.0 merge window next month is cake_mq as a multi-queue aware variant of the sch_cake network scheduler. The intent with cake_mq is to better scale the network traffic rate shaper across multiple CPU cores...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-CAKE-MQ</guid>
+      <pubDate>Mon, 19 Jan 2026 15:55:01 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19 Landing Fixes For USB2/USB3 Issues With Apple M1/M2 Macs</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Apple-Mac-USB2-Fixes</link>
-      <description>Ahead of the Linux 6.19-rc6 kernel release due out later today are two USB fixes for Apple M1 / M2 Macs running the mainline kernel. These Apple USB fixes are also marked for back-porting to the stable Linux kernel series...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Apple-Mac-USB2-Fixes</guid>
-      <pubDate>Sun, 18 Jan 2026 17:40:07 +0000</pubDate>
+      <title>Mozilla Now Providing RPM Packages For Firefox Nightly Builds</title>
+      <link>https://www.phoronix.com/news/Firefox-Nightly-RPMs</link>
+      <description>In late 2023 Mozilla began providing Debian packages of Firefox Nightly builds complete with an APT repository. Those on Debian/Ubuntu distributions have a much easier path for enjoying Firefox Nightly since then and now Mozilla engineers are providing similar RPM builds of Firefox nightly too...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Firefox-Nightly-RPMs</guid>
+      <pubDate>Mon, 19 Jan 2026 16:18:00 +0000</pubDate>
     </item>
     <item>
-      <title>ReactOS For "Open-Source Windows" Achieves Massive Networking Performance Boost</title>
-      <link>https://www.phoronix.com/news/ReactOS-Async-Net-Connect</link>
-      <description>ReactOS as the long-in-development "open-source Windows" project has been on quite a roll recently. Beyond a big Windows NT 6 compatibility improvement and fixing a very annoying usability issue, for this third week of the year there is another big change landing: a significant improvement in networking performance on ReactOS...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ReactOS-Async-Net-Connect</guid>
-      <pubDate>Sun, 18 Jan 2026 20:09:21 +0000</pubDate>
+      <title>OPEN_TREE_NAMESPACE To Provide A Security &amp;amp; Performance Win For Dealing With Containers</title>
+      <link>https://www.phoronix.com/news/Linux-Open-Tree-Namespace</link>
+      <description>A new feature expected to be merged for the upcoming Linux 7.0 kernel cycle is adding an OPEN_TREE_NAMESPACE flag for the open_tree() system call. This OPEN_TREE_NAMESPACE option can provide a nice performance win with added security benefits if you are dealing a lot with containerized workloads on Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Open-Tree-Namespace</guid>
+      <pubDate>Mon, 19 Jan 2026 19:44:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19-rc6 Released With More Bug Fixes</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-rc6-Released</link>
-      <description>Linus Torvalds just tagged the Linux 6.19-rc6 kernel in working toward the stable Linux 6.19 kernel release likely on 8 February...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc6-Released</guid>
-      <pubDate>Mon, 19 Jan 2026 00:08:38 +0000</pubDate>
+      <title>New Patches From Valve Bring AMDGPU Power Management Improvements For Old GCN 1.0 GPUs</title>
+      <link>https://www.phoronix.com/news/AMDGPU-SI-Power-Management</link>
+      <description>Last year Valve contractor Timur Kristóf managed to improve the AMDGPU driver enough for old GCN 1.0 Southern Islands and GCN 1.1 Sea Islands GPUs that with Linux 6.19 AMDGPU is now the default for those GPUs with better performance, RADV Vulkan out-of-the-box, and other benefits. He isn't done though improving the old GCN 1.0/1.1 era GPU support on this modern AMDGPU kernel driver - a new patch series posted today brings some power management fixes...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-SI-Power-Management</guid>
+      <pubDate>Mon, 19 Jan 2026 21:09:18 +0000</pubDate>
     </item>
     <item>
-      <title>SPDX SBOM Generation Tool Proposed For The Linux Kernel</title>
-      <link>https://www.phoronix.com/news/SPDX-SBOM-Gen-Tool-Linux</link>
-      <description>For those organizations on the Software Bill of Materials (SBOM) bandwagon for increasing transparency around software components with license compliance, vulnerability management, and securing the software supply chain, proposed patches to the Linux kernel would introduce an SPDX SBOM Generation Tool...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/SPDX-SBOM-Gen-Tool-Linux</guid>
-      <pubDate>Mon, 19 Jan 2026 10:48:32 +0000</pubDate>
+      <title>X.Org Server May Create A New Selective Git Branch With Hopes Of A New Release This Year</title>
+      <link>https://www.phoronix.com/news/X.Org-Server-Main-Repo</link>
+      <description>A proposal has been laid out for a new X.Org Server "main" Git branch to house their development going forward and cleaning up the development lapses over the past few years. Ultimately the hope is for having a new cleaned-up X.Org Server and XWayland Git branch for shipping new releases in 2026...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/X.Org-Server-Main-Repo</guid>
+      <pubDate>Tue, 20 Jan 2026 01:51:47 +0000</pubDate>
     </item>
   </channel>
 </rss>
