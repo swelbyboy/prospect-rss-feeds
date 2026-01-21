@@ -8,78 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Jan 2026 06:42:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 06:44:04 +0000</lastBuildDate>
     <item>
-      <title>樹莓派AI HAT+ 2擴充板開賣，8GB板載記憶體加速樹莓派5裝置端LLM</title>
-      <link>https://www.ithome.com.tw/news/173446</link>
-      <description>新聞樹莓派（Raspberry Pi）官方公開發售AI HAT+ 2擴充板，鎖定樹莓派5的本地端AI推論需求，主打把生成式AI工作負載帶到裝置端執行。AI HAT+ 2採用Hailo-10H神經網路加速器，並加入8 GB板載專用記憶體，定價130美元，目前已開始供貨。 樹莓派約在一年前推出的AI HAT+以Hailo-8與Hailo-8L為核心，分別提供26 TOPS與13 TOPS等級的推論效能，主要加速電腦視覺模型，涵蓋物件偵測、姿態估計、場景分割等應用。不過，隨著生成式AI模型在開發者社群快速普及，上一代AI HAT+在生成式AI模型的支援能力上出現落差。 AI HAT+ 2的主要差異在於硬體架構與記憶體配置，官方指出，Hailo-10H可提供40 TOPS（INT4）的推論效能，並搭配8 GB板載專用記憶體，目標是讓加速器能更有效率地處理更大的模型。官方也將支援範圍指向大型語言模型、視覺語言模型等生成式AI應用，不再只限於鏡頭與影像導向的電腦視覺工作負載。 AI HAT+ 2標示的40 TOPS是在INT4條件下的推論效能，主要針對生成式AI工作負載。對於YOLO等以電腦視覺為</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173446</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/Capture%20487%20-%20Raspberry%20Pi%20AI%20HAT%2B%202%20-%20Coding%20assistant%20-%20YouTube%20-%20%5Bwww_youtube_com%5D.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 19 Jan 2026 11:54:19 +0000</pubDate>
+      <title>白宮推動雲端身分安全強化，NIST與CISA發布身分權杖防護指引草案</title>
+      <link>https://www.ithome.com.tw/news/173481</link>
+      <description>新聞美國白宮於2025年6月發布行政命令，警告網路攻擊者已大量竊取並濫用合法身分憑證，繞過帳密與多因素驗證機制，取得長時間存取權限，對雲端服務與政府系統構成實質風險。 在此背景下，白宮要求主管機關提出可具體實踐的技術與治理指引，以因應雲端環境中身分識別與存取管理（Identity and Access Management，IAM）風險持續升高的情況。 NIST與CISA發布IR 8587初版草案，聚焦身分權杖與身分聲明的防護 為回應政策要求，2025年12月22日，美國國家標準暨技術研究院（NIST）與美國網路安全暨基礎設施安全局（CISA）發布跨機關報告《Protecting Tokens and Assertions from Forgery, Theft, and Misuse》，即NIST IR 8587初版草案（Initial Public Draft），並開放徵詢意見至2026年1月30日。 IR 8587草案旨在協助聯邦機關與雲端服務供應商（CSP）防範身分權杖（token）與身分聲明（assertion）遭到偽造、竊取與誤用，降低雲端身分被冒用所帶來的資安風險。 建立</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173481</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0120-NIST%20IR%208587-600.png" length="0" type="image/png"/>
+      <pubDate>Tue, 20 Jan 2026 10:19:53 +0000</pubDate>
     </item>
     <item>
-      <title>Cloudflare收購Web框架Astro團隊 ，承諾持續開源與支援多雲部署</title>
-      <link>https://www.ithome.com.tw/news/173437</link>
-      <description>新聞Cloudflare收購Astro背後的The Astro Technology Company，並將其核心團隊納入Cloudflare。雙方在公告中強調，Astro將維持開源並採MIT授權，公開路線圖與開放治理機制維持不變，同時仍支援多種部署目標，不會只綁定Cloudflare。Astro的全職員工已轉為Cloudflare員工，後續仍將全職投入Astro的開發與維護。Cloudflare也承諾持續接受社群貢獻，並透過Astro Ecosystem Fund與合作夥伴共同支持生態系。 Astro為知名前端Web框架，近年採用量持續成長，目前每周下載量接近100萬次，已被大量開發者用來建置網站。從企業採用來看，Unilever、Visa、NBC News等品牌均被點名使用Astro，微軟與Google等公司也在網站或開發者平臺的內容型網站採用Astro，顯示其在文件、行銷與內容等網站場景的能見度正在提升。 Cloudflare也指出，這次整合並非從零開始。Cloudflare自家開發者文件、網站、活動頁面與部落格等內容型站點已使用Astro建置。建構在Cloudflare上的Web</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173437</guid>
-      <pubDate>Mon, 19 Jan 2026 12:23:05 +0000</pubDate>
+      <title>Wine 11.0新WoW64架構完整支援16位元Windows程式</title>
+      <link>https://www.ithome.com.tw/news/173484</link>
+      <description>新聞Wine開發團隊發布Wine 11.0正式版，更新重點之一是新WoW64模式正式列為完整支援。該模式最早在Wine 9.0以實驗功能登場，如今已被視為可正式採用的路線，並在新WoW64模式下納入16位元應用程式支援，使部分更早期的程式得以在以64位元為主的Linux與macOS環境繼續運作。 新WoW64模式轉為完整支援，Wine團隊表示其功能已大致追上舊WoW64模式。過去WoW64主要用於在64位元環境執行32位元Windows程式，新WoW64則進一步在該模式下支援16位元應用程式，讓相容範圍延伸到更早期的軟體。 Wine也更新與WoW64相關的前綴（Prefix）建立與使用建議，官方不建議使用以WINEARCH=win32建立的純32位元前綴，且此類前綴在新WoW64模式下不受支援。既有環境要是原本採舊WoW64，官方表示可設定環境變數WINEARCH=wow64，讓該前綴改用新WoW64模式執行，但前提是該前綴建立時必須為64位元前綴，也就是預設的建立方式。 另外，Wine 11.0加入NTSYNC支援，當Linux核心具備對應模組時自動啟用，以提升同步原語效率。官方指出</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173484</guid>
+      <pubDate>Wed, 21 Jan 2026 01:06:52 +0000</pubDate>
     </item>
     <item>
-      <title>Let's Encrypt六天短效TLS憑證與IP位址憑證正式上線</title>
-      <link>https://www.ithome.com.tw/news/173453</link>
-      <description>新聞憑證機構Let's Encrypt宣布，短效憑證現已正式提供，一張憑證的有效期為160小時，略高於六天，並採選用方式啟用。Let's Encrypt也推出IP位址憑證，並規定IP位址憑證一律採短效憑證形式簽發。此新選項可縮短私鑰外洩或遭竊後的暴露時間，並延續Let's Encrypt未來數年把預設有效期逐步從90天降至45天的既定方向。 Let's Encrypt表示，推動短效憑證的主要理由，是縮短憑證遭濫用時的風險窗口。過往公開信任TLS憑證多採最長90天有效期，當私鑰外洩或被竊取時，傳統作法多仰賴憑證撤銷來降低衝擊，但撤銷在實務上常被認為不夠可靠，導致部分憑證依賴方仍可能在憑證到期前接受已受損的憑證。改採約六天的有效期後，即使撤銷未能即時生效，暴露時間也會因憑證較快到期而縮短。 不過，Let's Encrypt也強調短效憑證暫時不會成為預設值，原因在於各組織的自動化程度差異很大。對已把憑證申請與續期納入自動流程的組織而言，改用短效憑證相對可行，但對仍仰賴半手動更新的環境，六天有效期意味著更密集的維運節奏，也更需要監控與警示，降低憑證過期導致服務中斷的風險。 與短效憑證一起上線的</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173453</guid>
-      <pubDate>Tue, 20 Jan 2026 02:28:42 +0000</pubDate>
+      <title>中國要求企業停用美國、以色列的資安軟體</title>
+      <link>https://www.ithome.com.tw/news/173493</link>
+      <description>新聞在美中緊張關係再次升溫之際，路透社、彭博等媒體報導，中國政府基於國家安全風險，要求國內企業不要使用美國及以色列公司的資安軟體，影響Check Point、Palo Alto等10多家廠商。 媒體引述二名消息人士報導，本禁令出於中國政府擔心來自美國和以色列的軟體會暗中蒐集用戶機密資訊並傳送海外。 遭到中國主管機關禁用的美國公司包括：VMware、Palo Alto Networks、Fortinet、Mandiant、CrowdStrike、SentinelOne、McAfee、Recorded Future、Claroty、Rapid7和Wiz。名列禁用名單的以色列公司則有：Check Point、CyberArk、Orca Security、Cato Networks和Imperva（現為法商Thales所有）等。 中國最新軟體禁令也反映近來美中外交及貿易關係緊張化。除了稀土及關稅長期爭議外，還有晶片問題；美國雖然放行Nvidia的H200晶片輸出中國，但中國卻傳出禁止進口。 同時間，美國也不吝指控中國竊取美國人資訊。中國經常被許多資安廠商點名是許多駭客活動的背後主使者，或是稱中</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173493</guid>
+      <pubDate>Wed, 21 Jan 2026 02:22:12 +0000</pubDate>
     </item>
     <item>
-      <title>Google Gemini間接提示注入漏洞可外洩會議、行事曆資訊</title>
-      <link>https://www.ithome.com.tw/news/173471</link>
-      <description>新聞資安研究人員發現Google Gemini之前存在一項間接提示注入漏洞，可讓攻擊者繞過Google行事曆（Google Calendar）的隱私控管而外洩會議資料，或是偷偷加入新的行事活動。Google接獲通報後已經確認漏洞並予以修補。 為了能回答用戶問題，Gemini會消化、解析Google行事曆的事件，包括標題、與會者和會議敍述。但利用這個機制，資安公司Miggo Security設計出的攻擊方法中，可在寄發的Google行事曆會議邀請中嵌入惡意酬載，來繞過Google行事曆授權驗證，以存取Google行事曆內容。 研究人員也示範了攻擊手法。他們是利用Gemini和Google服務的整合性。他們先設立了一個行事曆活動事件，傳送會議邀請給目標用戶。會議描述欄嵌入了一段提示注入的酬載。該提示要求Gemini摘要某一天用戶所有會議，包括私人活動，將這些資料寫入新增會議活動的描述，再加入無害的回應掩人耳目（如「這時段有空」）。 這段酬載一直保持休止，直到目標用戶之後詢問Gemini常見問題如「Hey Gemini我周六有空嗎？」，這提示會讓Gemini載入和解析所有行事曆事件，包括研究</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173471</guid>
-      <pubDate>Tue, 20 Jan 2026 02:48:39 +0000</pubDate>
+      <title>勒索軟體組織RansomHub宣稱成功攻擊立訊　揚言公開蘋果、Nvidia、特斯拉資料</title>
+      <link>https://www.ithome.com.tw/news/173495</link>
+      <description>新聞網路媒體Cybernews報導，勒索軟體組織RansomHub近日於駭客論壇張貼公告宣稱，去年駭入替蘋果、特斯拉等公司代工的立訊精密（Luxshare）內部系統，手中握有其眾多設計及生產資料，並揚言若未拿到贖金將公開其客戶相關機密資訊。 RansomHub宣稱去年12月15日成功攻擊這家蘋果代工廠，取得該公司大量資料，然而卻久久未等到立訊聯繫，似乎IT部門想隱匿事件。他們要求立訊儘速聯繫以確保該公司機密資料、專案文件不外流。顯然若駭客未接獲立訊聯繫就會公開手中的資料。 立訊是蘋果重要代工組裝廠，負責為蘋果生產的產品包括iPhone、AirPods、Apple Watch和Vision Pro等。 RansomHub則為2024年出現的勒索軟體即服務（Ransomware-as-a-Service，RaaS），可能和俄國政府有關，是近年最活躍的勒索軟體組織。資安專家指出，RansomHub採分工模式運作，其同夥負責曝露未受保護的機器、降低偵測風險，並提升攻擊成功率。美國網路安全暨基礎設施安全局（CISA）安全公告說明，RansomHub 2024年攻擊了超過200家企業組織，被資安業</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173495</guid>
+      <pubDate>Wed, 21 Jan 2026 03:01:19 +0000</pubDate>
     </item>
     <item>
-      <title>HPE修補Instant On高風險漏洞，無線基地臺恐洩漏VLAN資訊並遭DoS攻擊</title>
-      <link>https://www.ithome.com.tw/news/173454</link>
-      <description>新聞HPE修補影響HPE Networking Instant On無線基地臺與1930系列交換器的多項高風險漏洞。這些漏洞影響執行3.3.1.0（含）以前韌體版本的設備，可能導致網路組態資訊外洩，或使無線網路服務遭到阻斷。HPE已在Instant On 3.3.2.0及後續版本中提供修補，呼籲用戶儘速完成升級。 HPE於1月13日發布安全公告（HPESBNW04988），指出Instant On無線基地臺在路由器模式（Router Mode）下，存在一項資訊洩漏漏洞CVE-2025-37165。公告說明，未經身分驗證的遠端攻擊者，可能透過特製的網路流量，使設備回應原本不應揭露的封包內容，進而洩漏包含VLAN識別碼在內的網路區隔資訊。該漏洞CVSS v3.1風險評分為7.5，屬於高風險等級，主要影響資訊機密性。 HPE表示，若攻擊者可接觸受影響的網路介面，便可能利用外洩的VLAN與網路區隔資訊描繪內部網路結構，增加後續攻擊成功的機率。官方指出，目前並無可行的暫時性緩解措施，僅能透過升級韌體加以修補。 同一份公告中，HPE也揭露另一項影響Instant On無線基地臺的高風險漏洞CVE-</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173454</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0120-HPE-600.png" length="0" type="image/png"/>
-      <pubDate>Tue, 20 Jan 2026 02:59:26 +0000</pubDate>
+      <title>網飛財報出爐，全球付費訂閱用戶達3.25億</title>
+      <link>https://www.ithome.com.tw/news/173497</link>
+      <description>新聞網飛（Netflix）周二（1/20）公布2025財年第四季營收，該季網飛創造120.5億美元的營收，成長17.6%，每股盈餘為0.56美元，高於市場所預期的0.55美元。營收成長主要受益於付費訂閱用戶及廣告營收的增加，其中，網飛全球訂閱用戶數已達到3.25億，全年廣告營收則超過15億美元，比去年成長2.5倍。 其實網飛自一年前就不再公布訂閱用戶數，改以營收及利潤成長等指標作為衡量成功的核心，不過，這次網飛不僅公布了訂閱用戶數，表示已達到一個新的里程碑，還說若計算每個訂閱所服務的用戶數量，全球應該已有接近10億的網飛觀眾。 此外，網飛在去年12月宣布要以827億美元的收購華納兄弟（Warner Bros. Discovery，WBD）的串流媒體服務，現金加上股票的每股價格為27.75美元；除了等待主管機關同意之外，也惹來美國老牌影業派拉蒙（Paramount）針對WBD發動每股30美元的惡意收購。 在此次的財報中，網飛強調該收購是一筆以內容為核心的投資，而且為了加速進展，將全面改為現金交易，價格同樣是每股27.75美元，公司也為此保留現金以儘快完成交易。 網飛在2025年11月14</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173497</guid>
+      <pubDate>Wed, 21 Jan 2026 03:24:59 +0000</pubDate>
     </item>
     <item>
-      <title>Windows 11安全更新引發眾多版本Windows裝置無法開機、遠端連線 微軟緊急修補</title>
-      <link>https://www.ithome.com.tw/news/173472</link>
-      <description>新聞上周發布的Windows 11 Patch Tuesday安全更新，造成眾多消費者及企業版本Windows裝置無法開機、遠端登入等災情，微軟周末發出例外（out-of-band，OOB）修補更新。 微軟上周釋出Windows 11安全更新後，一些用戶反映安裝更新後，電腦無法成功關閉、休眠。 微軟在周末證實此事，緊急針對Windows 11多個版本釋出更新解決上周（1/13）KB5073455引發的問題。 微軟說明，安裝KB5073455引發的問題包括了，具備「安全啟動」（secure launch）的部份裝置無法關機或休眠，而是重新啟動。受影響的版本僅有Windows 11 23H2。 此外，另些用戶在遠端桌面連線時無法登入。這問題發生在Windows遠端桌機App的驗證步驟，影響Azure Virtual Desktop和Windows 365。這問題影響Windows 11 25H2、Windows 10 22H2 ESU及Windows Server 2025/2022/2019。 最新例外安全更新修補的Windows版本包括Windows 11 23H2(KB5077797</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173472</guid>
-      <pubDate>Tue, 20 Jan 2026 03:57:57 +0000</pubDate>
+      <title>OpenAI為ChatGPT加入AI偵測用戶年齡的能力</title>
+      <link>https://www.ithome.com.tw/news/173498</link>
+      <description>新聞OpenAI昨日（1/20）宣布ChatGPT加入以AI預測用戶年齡功能，以減少未成年用戶接觸到不適宜內容的機會。 這項功能也意在防範未成年用戶在和ChatGPT聊天後，可能產生自殘或其他傷害行為。OpenAI的年齡預測功能已部署到全球，歐盟地區則會在未來幾周內上線。 ChatGPT已加入一項額外的安全設定，以判斷是否提供性、暴力、血腥等內容及回應給使用者。該安全設定是ChatGPT根據其年齡預測AI模型判斷是否啟用。這個AI系統會依據帳號的多個訊號來判定用戶年齡，像是用戶談論的一般主題，或是使用ChatGPT的時段等。 一旦系統判定用戶未滿18歲，ChatGPT即自動啟用額外的安全設定。在此設定下，ChatGPT會更小心處理某些主題，以減少敏感內容。包括過度暴力、危險或有害行為、性或情愛或角色扮演內容、以及提倡某些極端審美、不健康飲食或控制身材的內容。 如果ChatGPT誤判用戶未滿18歲而自動加入額外的安全設定，用戶可透過驗證年齡來移除該設定。用戶可從Web版ChatGPT登入&amp;gt;開啟「設定」&amp;gt;「帳戶」&amp;gt;「驗證」，再遵循第三方夥伴提供的Persona進行驗證，或以驗證網址，跟隨P</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173498</guid>
+      <pubDate>Wed, 21 Jan 2026 03:55:23 +0000</pubDate>
     </item>
     <item>
-      <title>紐約證交所規畫代幣化證券平臺，瞄準24小時美股交易</title>
-      <link>https://www.ithome.com.tw/news/173474</link>
-      <description>新聞紐約證券交易所（New York Stock Exchange，NYSE）周一（1/19）宣布，正開發一套用於代幣化證券交易與鏈上交割的新平臺，並將向監管機關申請核准。該平臺將支援美國上市股票與ETF的代幣化交易，被視為NYSE正式布局24小時美股交易的重要一步。 根據NYSE說明，這項平臺將提供24x7交易、即時交割、零股與以金額下單等功能，並支援以穩定幣進行資金配置。技術架構上，平臺結合NYSE既有的Pillar撮合引擎，並導入基於區塊鏈的交易後系統，可支援多條區塊鏈進行交割與託管。 NYSE強調，代幣化證券在法律地位上可與傳統發行的證券等值流通。持有代幣化股份的投資人，仍可參與股利分配與公司治理投票，相關權利與現行股票制度一致。該平臺在取得監管核准後，將成為一個新的NYSE交易場域，並透過非歧視性機制，向所有合格券商開放。 這項計畫也是NYSE母公司洲際交易所（Intercontinental Exchange，ICE）整體數位策略的一環。ICE指出，正同步為其清算基礎設施做好支援24小時交易的準備，並評估導入代幣化擔保品的可能性。此外，ICE已與紐約梅隆銀行及花旗銀行等金融</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173474</guid>
-      <pubDate>Tue, 20 Jan 2026 04:18:12 +0000</pubDate>
+      <title>ServiceNow AI平臺爆漏洞，允許攻擊者冒用帳號並劫持AI代理流程</title>
+      <link>https://www.ithome.com.tw/news/173500</link>
+      <description>新聞資安業者AppOmni指出，ServiceNow的Virtual Agent API與Now Assist AI Agents應用程式存在重大漏洞CVE-2025-12420，研究人員將其命名為BodySnatcher，該漏洞CVSS為9.3分，屬於重大（Critical）等級。 攻擊鏈結合了一組跨環境共用的靜態憑證與帳號自動連結邏輯，使未經身分驗證的攻擊者在提供目標電子郵件位址後，可能冒用任意使用者身分，進一步以被冒用帳號的權限執行平臺內被允許的操作，並可能成為觸發Now Assist AI代理工作流程的入口。 該漏洞的成因在於Virtual Agent API的外部整合模式，也就是提供者（Providers）與通道（Channels）的設定以及帳號連結流程。不少企業會把Virtual Agent整合到Slack或Microsoft Teams，外部訊息進入ServiceNow後，系統會先依提供者設定驗證整合請求，再透過自動連結機制把外部身分對應到ServiceNow帳號。 研究人員指出，Now Assist AI Agents引入的部分提供者採用靜態憑證，且該憑證在不同客戶環境</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173500</guid>
+      <pubDate>Wed, 21 Jan 2026 05:31:23 +0000</pubDate>
     </item>
     <item>
-      <title>TP-Link修補可完全控制VIGI攝影機的漏洞</title>
-      <link>https://www.ithome.com.tw/news/173476</link>
-      <description>新聞TP-Link近日釋出安全更新，修補可讓攻擊者繞過身分驗證控制VIGI商用攝影機的漏洞。 TP-Link VIGI是商用級網路監控攝影機和解決方案，提供AI智能偵測（人車分類、越界警報等），並可透過網頁介面、NVR主機、VIGI APP或VIGI Security Manager軟體管理。本產品在歐、美、亞洲包括臺灣銷售多國。 最新修補的CVE-2026-0629為存在VIGI攝影機本地Web介面的密碼復原功能的驗證繞過漏洞，可讓LAN上的攻擊者變更用戶端狀態，不經驗證即可重設管理員密碼。這使得攻擊者取得管理員控制權，影響配置及網路安全性。漏洞風險值為CVSS 4.0 8.7分。 本漏洞影響VIGI及VIGI InSight等30餘種機種。 TP-Link強烈建議用戶升級到最新韌體版本。該公司列出了美國、英國及印度的軟體更新網址。 TP-Link網路系統過去曾多次成為駭客攻擊目標。去年9月美國網路安全及基礎設施安全管理署（CISA）才公布TP-Link Wi-Fi設備5年前的漏洞發生濫用活動，6月份TP-Link小型企業路由器也有項舊漏洞遭到攻擊。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173476</guid>
-      <pubDate>Tue, 20 Jan 2026 04:33:21 +0000</pubDate>
+      <title>AI新創Humans&amp;amp;獲得來自Nvidia與貝佐斯的種子輪資金</title>
+      <link>https://www.ithome.com.tw/news/173501</link>
+      <description>新聞由一群分別來自Anthropic、OpenAI、Meta及Google的AI專家在2025年冬天創立的AI新創Humans&amp;amp;周二（1/20）正式對外曝光，並向SiliconANGLE等媒體宣布已完成4.8億美元的種子輪融資，估值為44.8億美元，且包括Nvidia、Amazon創辦人貝佐斯（Jeff Bezos）及Google Ventures都參與了該融資活動。 甫創立3個月的Humans&amp;amp;表示，它們是一個以人為中心的前沿AI實驗室，相信AI能夠重新被想像，把重心置放在人，以及人與人之間的關係上，在最理想的狀態下，AI應該成為更深層的連結組織，強化組織與社群。 Humans&amp;amp;公司首頁尚無任何產品說明，但其共同創辦人Andi Peng在接受紐約時報專訪時透露，Humans&amp;amp;認為AI應該可賦能予人類，而非取代人類。新公司的目標是開發一款能夠促進人類協作的軟體，類似於AI版的即時通訊應用，也能協助人們進行網路搜尋，或是其它適合由機器完成的任務。 另一名從Meta跳槽到Humans&amp;amp;的Niloofar Mireshghallah則說，當她與Humans&amp;amp;共同創辦人暨執行長的Eric Ze</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173501</guid>
+      <pubDate>Wed, 21 Jan 2026 05:46:40 +0000</pubDate>
     </item>
     <item>
-      <title>惡意軟體GootLoader透過1千個ZIP檔串接的壓縮檔傳送，企圖迴避防毒軟體偵測</title>
-      <link>https://www.ithome.com.tw/news/173475</link>
-      <description>新聞一年前資安公司Perception Point提出警告，他們發現駭客為了迴避偵測，積極利用名為ZIP檔案串接技術（ZIP Concatenation）手法，這種手法顧名思義，就是將多個ZIP檔串接成單一檔案，由於不同解壓縮工具解析壓縮檔的方式存在差異，使得壓縮檔裡存放的惡意內容不易被察覺，如今傳出有惡意軟體跟進，引起資安圈的關注。 經營代管偵測與回應（MDR）服務的資安廠商Expel提出警告，近期駭客使用特殊格式的ZIP檔來散布惡意軟體載入工具GootLoader，該壓縮檔實際上由500至1,000個ZIP檔串接而成，僅有在Windows檔案總管（File Explorer）開啟時，才會啟動感染鏈；若是資安人員透過7-Zip、WinRAR等解壓縮工具，或是沙箱環境等自動化分析工具，則無法存取壓縮檔的內容，攻擊者這麼做的目的，就是迴避相關的偵測。對此，該公司呼籲資安人員，應根據這種ZIP檔的特徵及攻擊者的獨特行為，建立偵測機制。 Expel進一步說明，此壓縮檔中央資料夾末端（End of Central Directory，EOCD）檔案結構遭到破壞，缺乏兩個重要的位元組，導致大部分</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173475</guid>
-      <pubDate>Tue, 20 Jan 2026 05:01:59 +0000</pubDate>
+      <title>IT業者Ingram Micro遭遇勒索軟體攻擊調查結果出爐，逾4.2萬人個資外流</title>
+      <link>https://www.ithome.com.tw/news/173494</link>
+      <description>新聞去年7月IT服務供應商Ingram Micro傳出遭遇勒索軟體攻擊，導致部分系統無法運作，後續勒索軟體駭客組織SafePay聲稱是他們所為，竊得3.5 TB內部資料，近期該公司透露受害規模。 根據1月16日Ingram Micro向美國緬因州檢查長辦公室通報的資料，這起資安事故發生於7月2日至3日，他們於12月26日確認有42,521人受到本次駭客攻擊影響，這些人主要是員工與曾經投遞履歷的求職者，受影響的個資包含姓名、聯絡資訊、生日，以及政府發出的識別號碼，像是社會安全碼、駕照，以及護照號碼等。此外，部分個資還有特定的員工相關資料，例如與工作有關的評估資訊。針對受影響的人士，Ingram Micro將提供2年信用監控與身分保護服務。 這起事故最早由資安新聞網站Bleeping Computer報導，當時傳出7月3日凌晨發生網路攻擊，導致網站與線上訂購系統停擺，員工在他們的裝置上發現勒索信，Ingram Micro要求部分員工居家工作，知情人士透露，攻擊者入侵該公司網路環境的管道，疑似使用外流的帳密資料，存取VPN平臺GlobalProtect而得逞。 根據勒索信的內容，Bleepi</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173494</guid>
+      <pubDate>Wed, 21 Jan 2026 06:09:52 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI可望於今年推出首款AI裝置</title>
-      <link>https://www.ithome.com.tw/news/173477</link>
-      <description>新聞Axios引用OpenAI全球事務長Chris Lehane周一（1/19）在Axios House活動上的說法，指出OpenAI預計在2026年下半年推出其首款硬體裝置。 OpenAI是在2025年5月收購了蘋果前首席設計師Jony Ive成立的AI裝置新創公司io，準備發展由AI驅動的新一代運算裝置，當時雙方即計畫在2026年展示首批產品。 而Lehane再度證實，AI裝置是OpenAI在2026年即將推出的重大產品之一，可能會在下半年登場。但Lehane拒絕透露有關其AI裝置的任何細節。 不過，就在一周前，一名暱稱為智慧皮卡丘的消費性電子產品部落客透過X披露，OpenAI正在積極推動一個由Ive團隊設計的Sweetpea專案，這是一個可用來取代AirPods的產品，它將被佩戴於耳後，可利用Siri來傳達指令，預計於今年9月上市，估計第一年可售出至少4,000萬副。 智慧皮卡丘還說，OpenAI其實打算推出更多的AI裝置，已通知富士通至少要在2028年年底前生產5款裝置。 OpenAI現階段主要營收仍來自訂閱服務，並已於2025年突破200億美元，外界認為其推出硬體的目的不在短</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173477</guid>
-      <pubDate>Tue, 20 Jan 2026 06:15:59 +0000</pubDate>
+      <title>WordPress外掛Modular DS重大漏洞被鎖定，駭客恐藉此得到網站管理權限</title>
+      <link>https://www.ithome.com.tw/news/173499</link>
+      <description>新聞一般而言，WordPress是許多開發人員架設網站的首選，這類平臺或其外掛程式一旦出現嚴重的漏洞，可能成為攻擊者利用的標的。 1月14日資安公司Patchstack提出警告，名為Modular DS的WordPress外掛程式存在重大漏洞CVE-2026-23800，形成的原因在於不正確的權限分配，攻擊者可用於提升權限，CVSS風險評分達到10分（滿分10分），影響2.5.1以下所有版本的Modular DS，全球逾4萬個網站恐受到影響。值得留意的是，通報此事的資安人員指出，已有攻擊行動出現，Patchstack呼籲用戶升級2.6.0版因應。 這項弱點結合多種因素，包含直接路由選擇、繞過身分驗證機制，以及自動以管理員身分登入，核心問題在於URL路由配對機制過於寬鬆、直接請求（Direct Request）模式過度信任特定請求參數、身分驗證僅依賴網站是否連接Modular DS來判斷，以及在特定的登入流程裡，若是系統無法取得使用者的ID，將會自動退回，並以現有的管理員帳號登入。 通報此事的WP.one支援工程團隊指出，他們在世界標準時間（UTC）1月13日凌晨2時，首度偵測到漏洞利用</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173499</guid>
+      <pubDate>Wed, 21 Jan 2026 06:11:52 +0000</pubDate>
     </item>
   </channel>
 </rss>

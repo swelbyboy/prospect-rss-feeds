@@ -8,83 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Jan 2026 06:40:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Jan 2026 06:41:18 +0000</lastBuildDate>
     <item>
-      <title>Mastering Google Cloud Translation API with Python: A Developer's Guide</title>
-      <link>https://dev.to/ajitkumar/mastering-google-cloud-translation-api-with-python-a-developers-guide-1oo4</link>
-      <description>Hey there, fellow developers! Ever needed to integrate robust, high-quality text translation into your Python applications? Google Cloud's Translation API is a powerful tool for exactly that. While the setup process involves a few steps in the Google Cloud Console, it's straightforward once you know where to click. This guide will walk you through everything, from creating a Google Cloud Project to writing your first Python translation script. Let's dive in! Prerequisites A Google Account. A cre</description>
-      <guid isPermaLink="false">https://dev.to/ajitkumar/mastering-google-cloud-translation-api-with-python-a-developers-guide-1oo4</guid>
-      <pubDate>Tue, 20 Jan 2026 05:07:45 +0000</pubDate>
+      <title>Building a GitHub Copilot CLI Extension - Implementing WakaTime Integration</title>
+      <link>https://dev.to/geeknees/building-a-github-copilot-cli-extension-implementing-wakatime-integration-5c0a</link>
+      <description>Introduction GitHub Copilot CLI is a powerful tool that enables AI pair programming in your terminal. Did you know that Copilot CLI recently added a custom hooks feature for extensibility? Using this feature, I created a library called @geeknees/copilot-cli-wakatime that automatically tracks Copilot CLI usage time in WakaTime. In this article, I'll share the implementation details and how to build Copilot CLI extensions. What I Built Overview A tool that automatically sends Copilot CLI session a</description>
+      <guid isPermaLink="false">https://dev.to/geeknees/building-a-github-copilot-cli-extension-implementing-wakatime-integration-5c0a</guid>
+      <pubDate>Wed, 21 Jan 2026 06:00:07 +0000</pubDate>
     </item>
     <item>
-      <title>Power Without Accountability: How Modern Corporations Create Their Own Failures</title>
-      <link>https://dev.to/abdulosman/power-without-accountability-how-modern-corporations-create-their-own-failures-2k5l</link>
-      <description>The Corporate Breakdown Files — Prologue A quiet exposé on how modern corporations hide responsibility, reward appearance over truth, and unknowingly engineer their own collapse. When power rises upward but consequences fall downward. (Gemini generated image) The Most Dangerous Power Is the Power That Can’t Be Traced Nobody ever signs the document that destroys a project. Nobody ever raises their hand and says, “I am the one who blocked the truth.” Modern corporations don’t break because of dram</description>
-      <guid isPermaLink="false">https://dev.to/abdulosman/power-without-accountability-how-modern-corporations-create-their-own-failures-2k5l</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuh1wzuykwaqmfxqah2xo.png" length="0" type="image/png"/>
-      <pubDate>Tue, 20 Jan 2026 05:39:30 +0000</pubDate>
+      <title>Angular Standalone Migration: A Deep Dive into Dependency Injection Pitfalls &amp;amp; Best Practices</title>
+      <link>https://dev.to/arya_saurabha_0501/angular-standalone-migration-a-deep-dive-into-dependency-injection-pitfalls-best-practices-17l1</link>
+      <description>🚀 Upgrading a large Angular application from v17 to v21 isn’t just a version bump — it was an architectural wake-up call. One of the biggest shifts I had to tackle was moving the app to a fully standalone architecture. That change alone forced me to pause and ask an important question: 👉 “Do we actually understand how dependency injection is working in our app?” As I dug deeper, I realized many DI patterns in the codebase worked by coincidence, not by design. They had survived for years thanks t</description>
+      <guid isPermaLink="false">https://dev.to/arya_saurabha_0501/angular-standalone-migration-a-deep-dive-into-dependency-injection-pitfalls-best-practices-17l1</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxajiwh2vq3grxbg9drrd.png" length="0" type="image/png"/>
+      <pubDate>Wed, 21 Jan 2026 06:01:17 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Production-Ready Portfolio: Phase-2 — Layout, Navigation &amp;amp; Routing Foundations</title>
-      <link>https://dev.to/imsushant12/building-a-production-ready-portfolio-phase-3-layout-navigation-routing-foundations-4o1f</link>
-      <description>Until now, the frontend existed mostly as structure and intent: folders were planned responsibilities were defined routing was conceptual Day-4 is where those plans started turning into real user experience. As a product owner and lead developer, I treated this day as: “Let’s define how users move through the product — and how the system supports that movement cleanly.” Why Layout &amp;amp; Navigation Deserve Their Own Phase In many projects, navigation is: rushed hardcoded tightly coupled to UI That ap</description>
-      <guid isPermaLink="false">https://dev.to/imsushant12/building-a-production-ready-portfolio-phase-3-layout-navigation-routing-foundations-4o1f</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ft1tpaoxm553rz22hbljb.png" length="0" type="image/png"/>
-      <pubDate>Tue, 20 Jan 2026 05:41:00 +0000</pubDate>
+      <title>Optimizing Crystal Build time in Woodpecker CI: 415s to 196s with Caching</title>
+      <link>https://dev.to/miry/optimizing-crystal-build-time-in-woodpecker-ci-415s-to-196s-with-caching-1o5k</link>
+      <description>The Problem Crystal test builds in Woodpecker CI were taking 415 seconds to complete. Every pipeline run would recompile dependencies from scratch, even though most changes affected application code, not third-party libraries. Crystal's compiler is thorough and safe, but recompiling everything on each CI run was costly - especially when running tests multiple times per day. The Solution Persistent Crystal cache storage was implemented using named volumes combined with a custom cache directory: t</description>
+      <guid isPermaLink="false">https://dev.to/miry/optimizing-crystal-build-time-in-woodpecker-ci-415s-to-196s-with-caching-1o5k</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4mt1flixhw7blgg4rvks.png" length="0" type="image/png"/>
+      <pubDate>Wed, 21 Jan 2026 06:10:11 +0000</pubDate>
     </item>
     <item>
-      <title>How Low Code AI is Eating Traditional Software</title>
-      <link>https://dev.to/jaideepparashar/how-low-code-ai-is-eating-traditional-software-ibo</link>
-      <description>For decades, software followed a familiar equation. More features required more code. More customization required more engineers. More scale required bigger teams. That equation is breaking. Not because software is disappearing but because low-code AI is quietly absorbing large parts of what traditional software used to do. This isn’t a sudden collapse. It’s a slow, structural shift. And once you see it, the trajectory is hard to ignore. The Original Promise of Traditional Software Traditional s</description>
-      <guid isPermaLink="false">https://dev.to/jaideepparashar/how-low-code-ai-is-eating-traditional-software-ibo</guid>
-      <pubDate>Tue, 20 Jan 2026 05:51:48 +0000</pubDate>
+      <title>Moving from GitHub to Codeberg(Forgejo)</title>
+      <link>https://dev.to/janderssonse/moving-from-github-to-codebergforgejo-b3</link>
+      <description>NOTE: This post is written from a private developer perspective, not that of my employer. I've started migrating my active projects from GitHub to Codeberg. Codeberg is a European open-source alternative that overall resembles GitHub—a code collaboration platform. I'd been considering it for a while, and now that it's almost done, I wanted to share my thoughts.j Why? One thing I've increasingly felt about GitHub is that they ignore basic, important developer features while prioritizing other unr</description>
+      <guid isPermaLink="false">https://dev.to/janderssonse/moving-from-github-to-codebergforgejo-b3</guid>
+      <pubDate>Wed, 21 Jan 2026 06:13:15 +0000</pubDate>
     </item>
     <item>
-      <title>Developers should understand that software is not disappearing, but low-code AI is quietly absorbing large parts of what traditional software used to do. 
-
-It's time for developers to understand, otherwise they will lose the opportunity.</title>
-      <link>https://dev.to/jaideepparashar/developers-should-understand-that-software-is-not-disappearing-but-low-code-ai-is-quietly-2dgn</link>
-      <description>How Low Code AI is Eating Traditional Software Jaideep Parashar ・ Jan 20 #programming #devops #software #productivity</description>
-      <guid isPermaLink="false">https://dev.to/jaideepparashar/developers-should-understand-that-software-is-not-disappearing-but-low-code-ai-is-quietly-2dgn</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3391551%2Fb884abd7-f906-4094-afe5-256359f658f3.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 20 Jan 2026 05:55:12 +0000</pubDate>
+      <title>Kubernetes Networking Evolution: From Pods to Gateway API</title>
+      <link>https://dev.to/keneojiteli/kubernetes-networking-evolution-from-pods-to-gateway-api-127l</link>
+      <description>Containers and Kubernetes are all the rage, but if you are new, you might still be wondering how Kubernetes actually connects your applications to the outside world and across your cluster. This article walks through that progression, from pods, services, ingress, and the modern Gateway API, in a way that maps to how real clusters handle traffic. What is Kubernetes? Kubernetes is an open-source platform for orchestrating containers at scale. It handles scheduling, self-healing, scaling, and (ver</description>
+      <guid isPermaLink="false">https://dev.to/keneojiteli/kubernetes-networking-evolution-from-pods-to-gateway-api-127l</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F87semjgivvwu4r9xzp2x.png" length="0" type="image/png"/>
+      <pubDate>Wed, 21 Jan 2026 06:19:07 +0000</pubDate>
     </item>
     <item>
-      <title>Building a minimal Go framework in public (v0.1.3)</title>
-      <link>https://dev.to/jackprescott/building-a-minimal-go-framework-in-public-v013-3c5o</link>
-      <description>What happens when you build a web framework with one simple rule: zero dependencies? That's the question behind Marten, a minimal HTTP framework built entirely on Go's standard library. The Philosophy Most Go web frameworks pull in dozens of dependencies. Gin has 9 direct dependencies. Echo has 11. Fiber has 15. Each dependency brings its own dependencies, and suddenly your go.mod looks like a phone book. Marten takes a different approach: use only what Go gives you. No external packages. No ven</description>
-      <guid isPermaLink="false">https://dev.to/jackprescott/building-a-minimal-go-framework-in-public-v013-3c5o</guid>
-      <pubDate>Tue, 20 Jan 2026 05:58:59 +0000</pubDate>
+      <title>RAG Pipeline Deep Dive: Ingestion, Chunking, Embedding, and Vector Search</title>
+      <link>https://dev.to/derrickryangiggs/rag-pipeline-deep-dive-ingestion-chunking-embedding-and-vector-search-2877</link>
+      <description>Retrieval-Augmented Generation (RAG) has become the default approach for providing context and memory to AI applications. Understanding the RAG pipeline—from document ingestion to final response generation—is essential for building high-performance AI systems. This comprehensive guide explores each stage of the RAG workflow, with special focus on Oracle Database 23ai's native vector capabilities. The RAG Pipeline: An Overview A complete RAG pipeline consists of two main phases: Ingestion Phase (</description>
+      <guid isPermaLink="false">https://dev.to/derrickryangiggs/rag-pipeline-deep-dive-ingestion-chunking-embedding-and-vector-search-2877</guid>
+      <pubDate>Wed, 21 Jan 2026 06:20:43 +0000</pubDate>
     </item>
     <item>
-      <title>Ringer Movies: ‘Just One of the Guys’ With Bill Simmons, Kyle Brandt, and Joanna Robinson | The Rewatchables</title>
-      <link>https://dev.to/popcorn_movies/ringer-movies-just-one-of-the-guys-with-bill-simmons-kyle-brandt-and-joanna-robinson-the-2gid</link>
-      <description>Join Bill Simmons, Kyle Brandt, and Joanna Robinson on 'The Rewatchables' as they dive headfirst into the 1985 teen comedy 'Just One of the Guys.' They're practically pursuing a journalism career just by revisiting this flick, starring Joyce Hyser, Clayton Rohner, and Billy Jayne. Watch on YouTube</description>
-      <guid isPermaLink="false">https://dev.to/popcorn_movies/ringer-movies-just-one-of-the-guys-with-bill-simmons-kyle-brandt-and-joanna-robinson-the-2gid</guid>
-      <pubDate>Tue, 20 Jan 2026 06:01:20 +0000</pubDate>
+      <title>Week 15 React Learning Recap: Understanding Old React and Finally Respecting useReducer</title>
+      <link>https://dev.to/usama_dev/week-15-react-learning-recap-understanding-old-react-and-finally-respecting-usereducer-5bnb</link>
+      <description>This week was not about learning something flashy. It was about understanding how things actually work under the hood. I spent most of this week working with old React code patterns and class components. At the same time, I also started properly learning useReducer, which completely changed how I think about state management. This week felt like a bridge between old React and modern React. Understanding Old React Code (Class Components Are a Different World) This week, I intentionally stepped in</description>
+      <guid isPermaLink="false">https://dev.to/usama_dev/week-15-react-learning-recap-understanding-old-react-and-finally-respecting-usereducer-5bnb</guid>
+      <pubDate>Wed, 21 Jan 2026 06:21:16 +0000</pubDate>
     </item>
     <item>
-      <title>Bloom update: new HRT tools, emotional support features, and a full medication database</title>
-      <link>https://dev.to/codebunny20/bloom-update-new-hrt-tools-emotional-support-features-and-a-full-medication-database-67l</link>
-      <description>I’ve been deep in developing Bloom lately, and constantly having new ideas, so this update brings some of the biggest improvements so far. Bloom This release strengthens the core tools and adds a brand‑new searchable HRT medication database. Smarter, more flexible HRT tools Bloom’s HRT section now reflects how people actually manage their regimens. Medication regimen templates for patches, injections, pills, and gel Custom reminders for dose times, patch changes, injections, and labs Injection s</description>
-      <guid isPermaLink="false">https://dev.to/codebunny20/bloom-update-new-hrt-tools-emotional-support-features-and-a-full-medication-database-67l</guid>
-      <pubDate>Tue, 20 Jan 2026 06:05:14 +0000</pubDate>
+      <title>Como estudar programação do jeito certo e não virar um copia e cola de código de tutoriais do YouTube</title>
+      <link>https://dev.to/kaikcestari/como-estudar-programacao-do-jeito-certo-e-nao-virar-um-copia-e-cola-de-codigo-de-tutoriais-do-752</link>
+      <description>Muita gente começa a estudar programação cheia de vontade. Assiste vídeos, segue cursos, copia códigos e, mesmo assim, sente que não evolui. Isso é mais comum do que parece. Na maioria das vezes, o problema não é falta de esforço, é falta de direção. Copiar e colar código até funciona no começo, mas cria uma ilusão de aprendizado. Quando surge um problema fora do roteiro do tutorial, tudo trava. Foi passando por isso que eu comecei a ajustar a forma como estudo. A imagem abaixo resume como eu co</description>
+      <guid isPermaLink="false">https://dev.to/kaikcestari/como-estudar-programacao-do-jeito-certo-e-nao-virar-um-copia-e-cola-de-codigo-de-tutoriais-do-752</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvq6a7zaxc7l7ljcgbonw.png" length="0" type="image/png"/>
+      <pubDate>Wed, 21 Jan 2026 06:23:36 +0000</pubDate>
     </item>
     <item>
-      <title>The 15 Git Commands Every Software Engineer Uses (And Why They Matter More Than You Think)</title>
-      <link>https://dev.to/hadil/the-15-git-commands-every-software-engineer-uses-and-why-they-matter-more-than-you-think-c51</link>
-      <description>For a long time, I thought Git was just something I had to survive. Type a command. Hope nothing breaks. If it does… Google fast. I memorized commands without understanding them. Copied fixes from Stack Overflow. Prayed I wouldn’t see merge conflicts. And somehow… I kept using Git every day without ever feeling confident. It took me a while to realize this: Most developers don’t use all of Git. They use a small set of commands... deeply. And once I stopped treating Git like magic, it became a to</description>
-      <guid isPermaLink="false">https://dev.to/hadil/the-15-git-commands-every-software-engineer-uses-and-why-they-matter-more-than-you-think-c51</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcmuqoe574cw87n6qwne4.png" length="0" type="image/png"/>
-      <pubDate>Tue, 20 Jan 2026 06:06:19 +0000</pubDate>
+      <title>Test</title>
+      <link>https://dev.to/kaustubhyerkade/test-29na</link>
+      <description>Ps - this is still in progress 🧱 OFFLINE ELK 9.2 ARCHITECTURE (RPM BASED) Server Role RPMs needed es01 Elasticsearch elasticsearch-9.2.x-x86_64.rpm ls01 Logstash logstash-9.2.x-x86_64.rpm kb01 Kibana kibana-9.2.x-x86_64.rpm 🔴 STEP 1 — COMMON OS PREP (ALL 3 SERVERS) 1.1 Login as root sudo -i 1.2 Set hostname hostnamectl set-hostname es01 # ES server hostnamectl set-hostname ls01 # Logstash server hostnamectl set-hostname kb01 # Kibana server Re-login after this. 1.3 /etc/hosts (MANDATORY) vi /etc</description>
+      <guid isPermaLink="false">https://dev.to/kaustubhyerkade/test-29na</guid>
+      <pubDate>Wed, 21 Jan 2026 06:23:49 +0000</pubDate>
     </item>
     <item>
-      <title>Understanding Network Devices</title>
-      <link>https://dev.to/abhimanyu_kumar_b94e042e9/understanding-network-devices-15l4</link>
-      <description>Imagine this, You open your laptop, type chaicode.com, and press Enter. Within a second a page appears. Have you wondered how that page reached you? It didn't just magically appear. Behind the scenes, some networking devices worked together like a team. Let's understand With a story Internet starts from Outside your home Think of the internet as a very big city full of information: Website Videos Apps Servers Your home and office is just a small house in that city. To bring network into your hou</description>
-      <guid isPermaLink="false">https://dev.to/abhimanyu_kumar_b94e042e9/understanding-network-devices-15l4</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmojm3dby97mg0xkxvykd.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 20 Jan 2026 06:27:50 +0000</pubDate>
+      <title>How We Used eBPF + Rust to Observe AI Systems Without Instrumenting a Single Line of Code</title>
+      <link>https://dev.to/art_light/how-we-used-ebpf-rust-to-observe-ai-systems-without-instrumenting-a-single-line-of-code-51nc</link>
+      <description>Production observability for AI systems is broken. We fixed it by moving below the application layer. Why Traditional Observability Completely Fails for AI Workloads Modern AI systems don’t behave like classical web services. They are: Highly asynchronous GPU-bound Framework-heavy (PyTorch, TensorRT, CUDA, ONNX) Opaque once deployed Yet we still observe them using: HTTP middleware Language-level tracing Application instrumentation This creates three fatal problems: ❌ Problem 1: Instrumentation B</description>
+      <guid isPermaLink="false">https://dev.to/art_light/how-we-used-ebpf-rust-to-observe-ai-systems-without-instrumenting-a-single-line-of-code-51nc</guid>
+      <pubDate>Wed, 21 Jan 2026 06:25:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
