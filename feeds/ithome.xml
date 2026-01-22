@@ -8,77 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Jan 2026 06:44:04 +0000</lastBuildDate>
-    <item>
-      <title>白宮推動雲端身分安全強化，NIST與CISA發布身分權杖防護指引草案</title>
-      <link>https://www.ithome.com.tw/news/173481</link>
-      <description>新聞美國白宮於2025年6月發布行政命令，警告網路攻擊者已大量竊取並濫用合法身分憑證，繞過帳密與多因素驗證機制，取得長時間存取權限，對雲端服務與政府系統構成實質風險。 在此背景下，白宮要求主管機關提出可具體實踐的技術與治理指引，以因應雲端環境中身分識別與存取管理（Identity and Access Management，IAM）風險持續升高的情況。 NIST與CISA發布IR 8587初版草案，聚焦身分權杖與身分聲明的防護 為回應政策要求，2025年12月22日，美國國家標準暨技術研究院（NIST）與美國網路安全暨基礎設施安全局（CISA）發布跨機關報告《Protecting Tokens and Assertions from Forgery, Theft, and Misuse》，即NIST IR 8587初版草案（Initial Public Draft），並開放徵詢意見至2026年1月30日。 IR 8587草案旨在協助聯邦機關與雲端服務供應商（CSP）防範身分權杖（token）與身分聲明（assertion）遭到偽造、竊取與誤用，降低雲端身分被冒用所帶來的資安風險。 建立</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173481</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0120-NIST%20IR%208587-600.png" length="0" type="image/png"/>
-      <pubDate>Tue, 20 Jan 2026 10:19:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wine 11.0新WoW64架構完整支援16位元Windows程式</title>
-      <link>https://www.ithome.com.tw/news/173484</link>
-      <description>新聞Wine開發團隊發布Wine 11.0正式版，更新重點之一是新WoW64模式正式列為完整支援。該模式最早在Wine 9.0以實驗功能登場，如今已被視為可正式採用的路線，並在新WoW64模式下納入16位元應用程式支援，使部分更早期的程式得以在以64位元為主的Linux與macOS環境繼續運作。 新WoW64模式轉為完整支援，Wine團隊表示其功能已大致追上舊WoW64模式。過去WoW64主要用於在64位元環境執行32位元Windows程式，新WoW64則進一步在該模式下支援16位元應用程式，讓相容範圍延伸到更早期的軟體。 Wine也更新與WoW64相關的前綴（Prefix）建立與使用建議，官方不建議使用以WINEARCH=win32建立的純32位元前綴，且此類前綴在新WoW64模式下不受支援。既有環境要是原本採舊WoW64，官方表示可設定環境變數WINEARCH=wow64，讓該前綴改用新WoW64模式執行，但前提是該前綴建立時必須為64位元前綴，也就是預設的建立方式。 另外，Wine 11.0加入NTSYNC支援，當Linux核心具備對應模組時自動啟用，以提升同步原語效率。官方指出</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173484</guid>
-      <pubDate>Wed, 21 Jan 2026 01:06:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>中國要求企業停用美國、以色列的資安軟體</title>
-      <link>https://www.ithome.com.tw/news/173493</link>
-      <description>新聞在美中緊張關係再次升溫之際，路透社、彭博等媒體報導，中國政府基於國家安全風險，要求國內企業不要使用美國及以色列公司的資安軟體，影響Check Point、Palo Alto等10多家廠商。 媒體引述二名消息人士報導，本禁令出於中國政府擔心來自美國和以色列的軟體會暗中蒐集用戶機密資訊並傳送海外。 遭到中國主管機關禁用的美國公司包括：VMware、Palo Alto Networks、Fortinet、Mandiant、CrowdStrike、SentinelOne、McAfee、Recorded Future、Claroty、Rapid7和Wiz。名列禁用名單的以色列公司則有：Check Point、CyberArk、Orca Security、Cato Networks和Imperva（現為法商Thales所有）等。 中國最新軟體禁令也反映近來美中外交及貿易關係緊張化。除了稀土及關稅長期爭議外，還有晶片問題；美國雖然放行Nvidia的H200晶片輸出中國，但中國卻傳出禁止進口。 同時間，美國也不吝指控中國竊取美國人資訊。中國經常被許多資安廠商點名是許多駭客活動的背後主使者，或是稱中</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173493</guid>
-      <pubDate>Wed, 21 Jan 2026 02:22:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>勒索軟體組織RansomHub宣稱成功攻擊立訊　揚言公開蘋果、Nvidia、特斯拉資料</title>
-      <link>https://www.ithome.com.tw/news/173495</link>
-      <description>新聞網路媒體Cybernews報導，勒索軟體組織RansomHub近日於駭客論壇張貼公告宣稱，去年駭入替蘋果、特斯拉等公司代工的立訊精密（Luxshare）內部系統，手中握有其眾多設計及生產資料，並揚言若未拿到贖金將公開其客戶相關機密資訊。 RansomHub宣稱去年12月15日成功攻擊這家蘋果代工廠，取得該公司大量資料，然而卻久久未等到立訊聯繫，似乎IT部門想隱匿事件。他們要求立訊儘速聯繫以確保該公司機密資料、專案文件不外流。顯然若駭客未接獲立訊聯繫就會公開手中的資料。 立訊是蘋果重要代工組裝廠，負責為蘋果生產的產品包括iPhone、AirPods、Apple Watch和Vision Pro等。 RansomHub則為2024年出現的勒索軟體即服務（Ransomware-as-a-Service，RaaS），可能和俄國政府有關，是近年最活躍的勒索軟體組織。資安專家指出，RansomHub採分工模式運作，其同夥負責曝露未受保護的機器、降低偵測風險，並提升攻擊成功率。美國網路安全暨基礎設施安全局（CISA）安全公告說明，RansomHub 2024年攻擊了超過200家企業組織，被資安業</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173495</guid>
-      <pubDate>Wed, 21 Jan 2026 03:01:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>網飛財報出爐，全球付費訂閱用戶達3.25億</title>
-      <link>https://www.ithome.com.tw/news/173497</link>
-      <description>新聞網飛（Netflix）周二（1/20）公布2025財年第四季營收，該季網飛創造120.5億美元的營收，成長17.6%，每股盈餘為0.56美元，高於市場所預期的0.55美元。營收成長主要受益於付費訂閱用戶及廣告營收的增加，其中，網飛全球訂閱用戶數已達到3.25億，全年廣告營收則超過15億美元，比去年成長2.5倍。 其實網飛自一年前就不再公布訂閱用戶數，改以營收及利潤成長等指標作為衡量成功的核心，不過，這次網飛不僅公布了訂閱用戶數，表示已達到一個新的里程碑，還說若計算每個訂閱所服務的用戶數量，全球應該已有接近10億的網飛觀眾。 此外，網飛在去年12月宣布要以827億美元的收購華納兄弟（Warner Bros. Discovery，WBD）的串流媒體服務，現金加上股票的每股價格為27.75美元；除了等待主管機關同意之外，也惹來美國老牌影業派拉蒙（Paramount）針對WBD發動每股30美元的惡意收購。 在此次的財報中，網飛強調該收購是一筆以內容為核心的投資，而且為了加速進展，將全面改為現金交易，價格同樣是每股27.75美元，公司也為此保留現金以儘快完成交易。 網飛在2025年11月14</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173497</guid>
-      <pubDate>Wed, 21 Jan 2026 03:24:59 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI為ChatGPT加入AI偵測用戶年齡的能力</title>
-      <link>https://www.ithome.com.tw/news/173498</link>
-      <description>新聞OpenAI昨日（1/20）宣布ChatGPT加入以AI預測用戶年齡功能，以減少未成年用戶接觸到不適宜內容的機會。 這項功能也意在防範未成年用戶在和ChatGPT聊天後，可能產生自殘或其他傷害行為。OpenAI的年齡預測功能已部署到全球，歐盟地區則會在未來幾周內上線。 ChatGPT已加入一項額外的安全設定，以判斷是否提供性、暴力、血腥等內容及回應給使用者。該安全設定是ChatGPT根據其年齡預測AI模型判斷是否啟用。這個AI系統會依據帳號的多個訊號來判定用戶年齡，像是用戶談論的一般主題，或是使用ChatGPT的時段等。 一旦系統判定用戶未滿18歲，ChatGPT即自動啟用額外的安全設定。在此設定下，ChatGPT會更小心處理某些主題，以減少敏感內容。包括過度暴力、危險或有害行為、性或情愛或角色扮演內容、以及提倡某些極端審美、不健康飲食或控制身材的內容。 如果ChatGPT誤判用戶未滿18歲而自動加入額外的安全設定，用戶可透過驗證年齡來移除該設定。用戶可從Web版ChatGPT登入&amp;gt;開啟「設定」&amp;gt;「帳戶」&amp;gt;「驗證」，再遵循第三方夥伴提供的Persona進行驗證，或以驗證網址，跟隨P</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173498</guid>
-      <pubDate>Wed, 21 Jan 2026 03:55:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>ServiceNow AI平臺爆漏洞，允許攻擊者冒用帳號並劫持AI代理流程</title>
-      <link>https://www.ithome.com.tw/news/173500</link>
-      <description>新聞資安業者AppOmni指出，ServiceNow的Virtual Agent API與Now Assist AI Agents應用程式存在重大漏洞CVE-2025-12420，研究人員將其命名為BodySnatcher，該漏洞CVSS為9.3分，屬於重大（Critical）等級。 攻擊鏈結合了一組跨環境共用的靜態憑證與帳號自動連結邏輯，使未經身分驗證的攻擊者在提供目標電子郵件位址後，可能冒用任意使用者身分，進一步以被冒用帳號的權限執行平臺內被允許的操作，並可能成為觸發Now Assist AI代理工作流程的入口。 該漏洞的成因在於Virtual Agent API的外部整合模式，也就是提供者（Providers）與通道（Channels）的設定以及帳號連結流程。不少企業會把Virtual Agent整合到Slack或Microsoft Teams，外部訊息進入ServiceNow後，系統會先依提供者設定驗證整合請求，再透過自動連結機制把外部身分對應到ServiceNow帳號。 研究人員指出，Now Assist AI Agents引入的部分提供者採用靜態憑證，且該憑證在不同客戶環境</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173500</guid>
-      <pubDate>Wed, 21 Jan 2026 05:31:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI新創Humans&amp;amp;獲得來自Nvidia與貝佐斯的種子輪資金</title>
-      <link>https://www.ithome.com.tw/news/173501</link>
-      <description>新聞由一群分別來自Anthropic、OpenAI、Meta及Google的AI專家在2025年冬天創立的AI新創Humans&amp;amp;周二（1/20）正式對外曝光，並向SiliconANGLE等媒體宣布已完成4.8億美元的種子輪融資，估值為44.8億美元，且包括Nvidia、Amazon創辦人貝佐斯（Jeff Bezos）及Google Ventures都參與了該融資活動。 甫創立3個月的Humans&amp;amp;表示，它們是一個以人為中心的前沿AI實驗室，相信AI能夠重新被想像，把重心置放在人，以及人與人之間的關係上，在最理想的狀態下，AI應該成為更深層的連結組織，強化組織與社群。 Humans&amp;amp;公司首頁尚無任何產品說明，但其共同創辦人Andi Peng在接受紐約時報專訪時透露，Humans&amp;amp;認為AI應該可賦能予人類，而非取代人類。新公司的目標是開發一款能夠促進人類協作的軟體，類似於AI版的即時通訊應用，也能協助人們進行網路搜尋，或是其它適合由機器完成的任務。 另一名從Meta跳槽到Humans&amp;amp;的Niloofar Mireshghallah則說，當她與Humans&amp;amp;共同創辦人暨執行長的Eric Ze</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173501</guid>
-      <pubDate>Wed, 21 Jan 2026 05:46:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>IT業者Ingram Micro遭遇勒索軟體攻擊調查結果出爐，逾4.2萬人個資外流</title>
-      <link>https://www.ithome.com.tw/news/173494</link>
-      <description>新聞去年7月IT服務供應商Ingram Micro傳出遭遇勒索軟體攻擊，導致部分系統無法運作，後續勒索軟體駭客組織SafePay聲稱是他們所為，竊得3.5 TB內部資料，近期該公司透露受害規模。 根據1月16日Ingram Micro向美國緬因州檢查長辦公室通報的資料，這起資安事故發生於7月2日至3日，他們於12月26日確認有42,521人受到本次駭客攻擊影響，這些人主要是員工與曾經投遞履歷的求職者，受影響的個資包含姓名、聯絡資訊、生日，以及政府發出的識別號碼，像是社會安全碼、駕照，以及護照號碼等。此外，部分個資還有特定的員工相關資料，例如與工作有關的評估資訊。針對受影響的人士，Ingram Micro將提供2年信用監控與身分保護服務。 這起事故最早由資安新聞網站Bleeping Computer報導，當時傳出7月3日凌晨發生網路攻擊，導致網站與線上訂購系統停擺，員工在他們的裝置上發現勒索信，Ingram Micro要求部分員工居家工作，知情人士透露，攻擊者入侵該公司網路環境的管道，疑似使用外流的帳密資料，存取VPN平臺GlobalProtect而得逞。 根據勒索信的內容，Bleepi</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173494</guid>
-      <pubDate>Wed, 21 Jan 2026 06:09:52 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 22 Jan 2026 06:42:15 +0000</lastBuildDate>
     <item>
       <title>WordPress外掛Modular DS重大漏洞被鎖定，駭客恐藉此得到網站管理權限</title>
       <link>https://www.ithome.com.tw/news/173499</link>
       <description>新聞一般而言，WordPress是許多開發人員架設網站的首選，這類平臺或其外掛程式一旦出現嚴重的漏洞，可能成為攻擊者利用的標的。 1月14日資安公司Patchstack提出警告，名為Modular DS的WordPress外掛程式存在重大漏洞CVE-2026-23800，形成的原因在於不正確的權限分配，攻擊者可用於提升權限，CVSS風險評分達到10分（滿分10分），影響2.5.1以下所有版本的Modular DS，全球逾4萬個網站恐受到影響。值得留意的是，通報此事的資安人員指出，已有攻擊行動出現，Patchstack呼籲用戶升級2.6.0版因應。 這項弱點結合多種因素，包含直接路由選擇、繞過身分驗證機制，以及自動以管理員身分登入，核心問題在於URL路由配對機制過於寬鬆、直接請求（Direct Request）模式過度信任特定請求參數、身分驗證僅依賴網站是否連接Modular DS來判斷，以及在特定的登入流程裡，若是系統無法取得使用者的ID，將會自動退回，並以現有的管理員帳號登入。 通報此事的WP.one支援工程團隊指出，他們在世界標準時間（UTC）1月13日凌晨2時，首度偵測到漏洞利用</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173499</guid>
       <pubDate>Wed, 21 Jan 2026 06:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>X開源貼文推薦演算法，計畫每4周更新一次</title>
+      <link>https://www.ithome.com.tw/news/173502</link>
+      <description>新聞馬斯克（Elon Musk）旗下的社交平臺X近日透過GitHub上開源其「For You」動態牆的核心貼文推薦演算法，並承諾未來將以每4周為一個周期，持續公開更新版本與開發說明。這項動作被外界視為X在透明度壓力下，對外界長期質疑其演算法黑箱運作的最新回應。 此次開源的內容，聚焦於X用來決定使用者動態牆中，哪些貼文與帳號會被推薦顯示的核心推薦系統。X說明，該系統同時整合來自使用者追蹤帳號的內容，以及透過機器學習從全站發掘的「非追蹤內容」，再進行統一排序。整套流程涵蓋候選內容的取得、資料補齊、過濾、評分與最終排序，構成完整的推薦管線。 相較於2023年釋出的版本，X此次開源的推薦系統已完成大幅重構，核心不再建立在大量人工撰寫的排序規則之上，而是改由模型統一負責貼文的評分與排序。這代表動態牆的運作邏輯，已從工程師手動調整權重，轉向由系統根據使用者實際互動行為自行學習與判斷，成為此次開源最關鍵的差異之一。 在技術實作上，這項核心任務由名為Phoenix的模型負責。Phoenix採用以Grok-1為基礎改造的Transformer架構，能從使用者一段時間內的互動行為序列中，預測其對不同貼文可</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173502</guid>
+      <pubDate>Wed, 21 Jan 2026 06:55:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic官方Git MCP伺服器曝三漏洞，提示注入可繞過路徑限制並覆寫檔案</title>
+      <link>https://www.ithome.com.tw/news/173504</link>
+      <description>新聞資安公司Cyata Research揭露，Anthropic維護的官方Git用MCP伺服器mcp-server-git存在三項弱點。攻擊者只要能以提示注入影響AI助理讀到的內容，就可能引導模型在呼叫工具時帶入惡意參數，繞過原本設定的儲存庫路徑限制，擴大可被操作的Git範圍，並在特定工具呼叫下造成檔案覆寫或刪除，要是環境又啟用可寫入檔案的能力，風險還可能擴大到程式碼執行。 MCP是Anthropic所提出的開放標準，讓AI助理以一致介面連結外部工具與資料來源，例如檔案系統、應用程式介面與Git等。該架構讓MCP伺服器會依模型的決策，在本機或開發環境執行操作，因此提示注入不只是內容誤導，也可能轉化成具體的工具呼叫與系統動作。 研究人員說明，第一項CVE-2025-68145漏洞與路徑驗證有關，mcp-server-git啟動時可限定允許操作的儲存庫位置，但工具呼叫時傳入的儲存庫路徑未與該限制比對，導致在提示注入影響下，AI可能被引導操作系統上其他可存取的Git儲存庫。第二項CVE-2025-68143漏洞是Git初始缺乏路徑限制，可能在任意目錄初始化新的Git儲存庫，讓原本不是專案的資</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173504</guid>
+      <pubDate>Wed, 21 Jan 2026 08:13:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>駭客假借提供擋廣告延伸套件從事ClickFix變種網釣，以瀏覽器當機為由誘騙使用者執行惡意指令</title>
+      <link>https://www.ithome.com.tw/news/173506</link>
+      <description>新聞近期網釣攻擊最受矚目的新興手法ClickFix，後續出現各式各樣的變形版本，像是整個攻擊流程都在瀏覽器進行的FileFix，或是藉由覆蓋整個螢幕內容脅迫受害者依照指示操作的JackFix，以及結合OAuth身分驗證流程的ConsentFix，如今又有駭客發展出新型態手法，讓使用者以為瀏覽器出錯而乖乖依照指示「修復」。 威脅情報公司Huntress揭露名為CrashFix的攻擊手法，發動者是外號為KongTuke、LandUpdate808或TAG-124的駭客組織，他們近期透過惡意瀏覽器延伸套件NexShield，意圖於受害電腦植入惡意軟體ModeloRAT。此延伸套件冒充知名的擋廣告工具uBlock Origin Lite，一旦使用者安裝，瀏覽器就會出現當機訊息，然後要求使用者依照指示下達特定指令來排除，然而若是照做，就會複製、貼上及執行駭客的惡意指令，導致電腦感染ModeloRAT。 這些駭客鎖定在網路上尋找廣告攔截工具的使用者，他們投放惡意廣告，引導使用者到Chrome Web Store延伸套件市集下載NexShield，Huntress經過比對發現，駭客的延伸套件幾乎完全</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173506</guid>
+      <pubDate>Wed, 21 Jan 2026 09:04:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>【資安日報】1月21日，中國蘋果代工組裝廠立訊傳出遭勒索軟體RansomHub攻擊</title>
+      <link>https://www.ithome.com.tw/news/173507</link>
+      <description>新聞勒索軟體組織RansomHub宣稱成功攻擊立訊，揚言公開其客戶蘋果、Nvidia、特斯拉的資料 網路媒體Cybernews報導，勒索軟體組織RansomHub近日於駭客論壇張貼公告宣稱，去年駭入替蘋果、特斯拉等公司代工的中國精密製造業者立訊精密（Luxshare）內部系統，手中握有其眾多設計及生產資料，並揚言若未拿到贖金將公開其客戶相關機密資訊。由於立訊是蘋果重要代工組裝廠，負責為蘋果生產iPhone、AirPods、Apple Watch，以及Vision Pro等產品，這起事故引起全球高度關注。 RansomHub宣稱去年12月15日成功攻擊這家蘋果代工廠，取得該公司大量資料，然而卻久久未等到立訊聯繫，似乎IT部門想隱匿事件。他們要求立訊儘速聯繫，以確保該公司機密資料、專案文件不外流。顯然若駭客未接獲立訊聯繫，就會公開手中的資料。 根據Cybernews公布的駭客貼文截圖，RansomHub手中擁有的資料包含機密3D CAD產品建模、3D工程設計、3D工程文件、高精密幾何設計資料、製造用2D繪圖、機械元件草圖、機密工程繪圖PDF文件、PCB設計、電子設計文件、與電子佈線架構資料</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173507</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/luxshare-data-breach-post.png" length="0" type="image/png"/>
+      <pubDate>Wed, 21 Jan 2026 09:44:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>瞄準診所帳務管理痛點，醫療新創聯手銀行推聯名卡</title>
+      <link>https://www.ithome.com.tw/news/173509</link>
+      <description>新聞在臺灣，許多診所的採購和帳務管理仍仰賴人工，常衍生核銷不精準等問題。瞄準這個痛點，專攻診所醫病管理系統的臺灣新創AlleyPin今（1/21）聯手遠東商銀，發起企業聯名卡，供診所、藥局等醫療和醫事機構使用。該卡的支出記錄也會同步彙整到AlleyPin的醫病管理系統後臺，不必人工逐筆登錄，診所也更容易掌握庫存成本分布。接下來，他們將擴大既有的後臺AI功能，來針對資金、支出和庫存記錄，提供智慧預警。 瞄準診所帳務管理3大痛點 AlleyPin以診所醫病管理（PRM）系統起家，2017年成立後主打2大產品，包括提供24小時線上掛號和諮詢的醫病媒合平臺PinMed，以及可串接診所醫療資訊系統（HIS）、整合Line官方帳號和AI功能的PRM平臺1.Talk。這款PRM平臺涵蓋診所預約掛號、診前提醒與後續衛教追蹤等一條龍功能，去年10月還正式上線AI Agent客服功能，目前已有2,000多家臺灣和日本診所採用。 AlleyPin共同創辦人暨營運長羅偉誠指出，在與診所接觸的經驗裡，他們觀察到診所帳務管理存在3大痛點。首先是公私帳務容易混淆，尤其是診所剛開幕，許多採購和消費常以院長自己的信用卡</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173509</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/ai%E9%A0%90%E6%B8%AC(1).JPG" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 21 Jan 2026 10:09:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>國科會揭明年科技預算上看1,850億元，投資AI新十大建設、量子、淨零科技</title>
+      <link>https://www.ithome.com.tw/news/173511</link>
+      <description>新聞國科會今天(1/21)召開委員會議，公布2027年的我國科技發展重點規畫，先期規畫2027年科技預算需求為1,850億元，以支持跨部會推動AI新十大建設、五大信賴產業、大南方新矽谷、晶創臺灣、淨零科技創新方案、海洋科技方案等，推動我國AI、量子科技、淨零科技等領域發展。 去年國科會揭露2026年科技預算為1,601億元，中央政府總預算仍待立法院審議，但科技投資布局不能停擺，因此國科會今天召開委員會議，先期規畫2027年科技預算1,850億元，較2026科技預算成長約15%。 國科會計畫運用科技預算，除了推動行政院推動的「AI新十大建設推動方案」，還有「大南方新矽谷推動方案」、「晶片驅動臺灣產業創新方案」、「次世代通訊科技發展方案」、「智慧機器人產業推動方案」、「高齡科技產業行動計畫」、「海洋科技方案」、「淨零科技創新方案等政策」。透過預算補助基礎學術研究、科技人才培育。 國科會主委吳誠文表示，2027年的科技預算為國科會與各部會討論的先期規畫，根據我國產業的能量及科技產業發展的現況，未來發展的目標，推動幾個重要的科技方案，希望能夠順利執行，這些科技方案涵蓋半導體、AI等，從技術的創</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173511</guid>
+      <pubDate>Wed, 21 Jan 2026 11:26:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>以信任與韌性驅動金控整併，台新新光金的萬億資產防線</title>
+      <link>https://www.ithome.com.tw/people/173514</link>
+      <description>在台新與新光金控合併進入關鍵階段之際，資安不只是技術層面的防護工作，而是牽動治理、信任與成長節奏的核心戰略。身兼台新新光金控與台新銀行資安長的陳詰昌，正站在這場整併工程的樞紐位置，負責整合攸關營運穩定的「數位大腦」，讓資安成為支撐金融創新的力量，而非阻力。 出身警界，長年投入科技犯罪偵查的背景，陳詰昌對攻防對抗與威脅演化有高度敏銳度，也形塑了他的資安管理理念：風險從來不是靜態問題，而是一場持續變動的管理課題。陳詰昌接手偵辦第一銀行和遠東商銀的資安事件，進入金融體系後，他認為資安長更重要的任務是：將複雜的風險轉譯為組織能理解、能決策的語言，並在其中建立共識與信任。 這樣的思維，正好呼應台新與新光合併所面臨的挑戰，整併不只是系統與制度的對齊，更是一場文化與治理的深度融合。陳詰昌認為，關鍵不在於誰併誰，而是如何重新界定整個集團可承受的風險邊界，建立一套能被共同理解與接受的資安治理語言，避免原本獨立的體系在整合過程中彼此掣肘。 金控整併的資安棋局，追求一致性與協同綜效 隨著台新與新光兩大體系正式進入整併深水區，資安不再只是系統層面的技術工程，而是一場牽動治理邏輯、組織文化與長期競爭力的全局棋局</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/people/173514</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0122-CISO-600-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 22 Jan 2026 01:00:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>NoSQL資料庫Firestore企業版換新查詢引擎，可串接多階段複雜資料轉換</title>
+      <link>https://www.ithome.com.tw/news/173512</link>
+      <description>新聞行動與Web應用開發平臺Google Firebase旗下NoSQL資料庫Firestore企業版更新，導入重新設計的查詢引擎，並推出名為Pipeline Operations的新查詢介面，主打把查詢拆成多個階段串接執行，讓開發者能在一次查詢中完成更複雜的資料轉換與運算。同時，企業版的索引策略也改為可選，集合預設不自動建立索引。 Pipeline Operations是一組內建於Firestore各SDK的API，讓開發者以多階段方式描述Firestore端的資料轉換流程，並可組合階段、運算式與函式，概念上更接近在資料庫端表達一段資料處理程序，而不是只做傳統的條件過濾與排序。官方文件也指出，為了導入Pipeline Operations而更新的企業版查詢引擎，額外新增超過百項查詢能力。 這次更新也調整索引策略，Firestore企業版預設不會自動建立單欄位索引，且查詢不再要求先建立索引才能執行。官方指出，如此通常能降低寫入時的負擔，進而改善寫入效能並降低儲存成本，但若直接查詢大型且未建立索引的集合，查詢速度可能明顯變慢。 由於要讓開發者在索引改為自行管理後仍能掌握效能，Firest</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173512</guid>
+      <pubDate>Thu, 22 Jan 2026 01:06:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>勒索軟體Everest聲稱入侵印度麥當勞、公布近7,300萬Under Armour客戶資料</title>
+      <link>https://www.ithome.com.tw/news/173515</link>
+      <description>新聞惡名昭彰的Everest勒索軟體本周宣稱駭入印度麥當勞取得公司敏感資料、並公布運動服飾品牌Under Armour近7,300萬筆客戶資訊。 這個疑似和俄國政府有關聯的駭客組織在地下論壇張貼公告，說手中持有印度麥當勞內部文件及客戶資料，共861 GB。駭客還貼出了檔案螢幕擷圖以證實其真實性。媒體Hackread.com分析這些擷圖，判斷是2023年到2026年的財務報表、稽核資料、成本追蹤表、ERP搬移檔案、定價資料和其他敏感內部通訊。 一些目錄甚至標示出月份，顯示駭客已存取會計或ERP系統。另一目錄名為「投資人資訊」，表示攻擊者可能已存取到機密的董事會層級資訊。名為聯絡人資料庫的試算表包括美國、英國、新加坡與印度的投資人和業務合作夥伴的聯絡資訊，像是姓名、郵件、電話號碼、電子郵件信箱等。此外還有麥當勞分店資料，列出店長姓名、mcdonaldsindia.com網址的公司電子郵件信箱與聯繫資訊等。 駭客並限期二日內麥當勞必須回應，否則就可能公布機敏資訊。 Under Armour（UA）則是遭到Everest公開內部資料。去年11月駭客公告，竊得這家美國運動服飾品牌商343GB資料</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173515</guid>
+      <pubDate>Thu, 22 Jan 2026 01:37:26 +0000</pubDate>
     </item>
   </channel>
 </rss>

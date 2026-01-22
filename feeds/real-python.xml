@@ -8,22 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Jan 2026 06:49:45 +0000</lastBuildDate>
-    <item>
-      <title>How to Build a Personal Python Learning Roadmap</title>
-      <link>https://realpython.com/build-python-learning-roadmap/</link>
-      <description>Learn how to create a personalized Python learning roadmap. Set goals, choose resources, and build a plan to track your progress and stay motivated.</description>
-      <guid isPermaLink="false">https://realpython.com/build-python-learning-roadmap/</guid>
-      <enclosure url="https://files.realpython.com/media/python-learning-roadmap.9959fcebdb42.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 07 Jan 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Real Python Podcast – Episode #279: Coding Python With Confidence: Beginners Live Course Participants</title>
-      <link>https://realpython.com/podcasts/rpp/279/</link>
-      <description>Are you looking for that solid foundation to begin your Python journey? Would the accountability of scheduled group classes help you get through the basics and start building something? This week, two members of the Python for Beginners live course discuss their experiences.</description>
-      <guid isPermaLink="false">https://realpython.com/podcasts/rpp/279/</guid>
-      <pubDate>Fri, 09 Jan 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 22 Jan 2026 06:49:07 +0000</lastBuildDate>
     <item>
       <title>Python's deque: Implement Efficient Queues and Stacks</title>
       <link>https://realpython.com/python-deque/</link>
@@ -82,6 +67,21 @@
       <description>Choosing between uv vs pip? This video course compares speed, reproducible environments, compatibility, and dependency management to help you pick the right tool.</description>
       <guid isPermaLink="false">https://realpython.com/courses/uv-vs-pip-packaging-dependency-management/</guid>
       <pubDate>Tue, 20 Jan 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quiz: How to Integrate Local LLMs With Ollama and Python</title>
+      <link>https://realpython.com/quizzes/ollama-python/</link>
+      <description>Check your understanding of using Ollama with Python to run local LLMs, generate text, chat, and call tools for private, offline apps.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/ollama-python/</guid>
+      <pubDate>Wed, 21 Jan 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Integrate Local LLMs With Ollama and Python</title>
+      <link>https://realpython.com/ollama-python/</link>
+      <description>Learn how to integrate your Python projects with local models (LLMs) using Ollama for enhanced privacy and cost efficiency.</description>
+      <guid isPermaLink="false">https://realpython.com/ollama-python/</guid>
+      <enclosure url="https://files.realpython.com/media/How-to-Integrate-Local-LLMs-With-Ollama-and-Python_Watermarked.835ee5f2672d.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 21 Jan 2026 14:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
