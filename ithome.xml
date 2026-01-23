@@ -8,79 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Jan 2026 06:42:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 06:42:08 +0000</lastBuildDate>
     <item>
-      <title>WordPress外掛Modular DS重大漏洞被鎖定，駭客恐藉此得到網站管理權限</title>
-      <link>https://www.ithome.com.tw/news/173499</link>
-      <description>新聞一般而言，WordPress是許多開發人員架設網站的首選，這類平臺或其外掛程式一旦出現嚴重的漏洞，可能成為攻擊者利用的標的。 1月14日資安公司Patchstack提出警告，名為Modular DS的WordPress外掛程式存在重大漏洞CVE-2026-23800，形成的原因在於不正確的權限分配，攻擊者可用於提升權限，CVSS風險評分達到10分（滿分10分），影響2.5.1以下所有版本的Modular DS，全球逾4萬個網站恐受到影響。值得留意的是，通報此事的資安人員指出，已有攻擊行動出現，Patchstack呼籲用戶升級2.6.0版因應。 這項弱點結合多種因素，包含直接路由選擇、繞過身分驗證機制，以及自動以管理員身分登入，核心問題在於URL路由配對機制過於寬鬆、直接請求（Direct Request）模式過度信任特定請求參數、身分驗證僅依賴網站是否連接Modular DS來判斷，以及在特定的登入流程裡，若是系統無法取得使用者的ID，將會自動退回，並以現有的管理員帳號登入。 通報此事的WP.one支援工程團隊指出，他們在世界標準時間（UTC）1月13日凌晨2時，首度偵測到漏洞利用</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173499</guid>
-      <pubDate>Wed, 21 Jan 2026 06:11:52 +0000</pubDate>
+      <title>【重新審視雲端服務的當機風險】盤點2025全球IT服務大當機事件</title>
+      <link>https://www.ithome.com.tw/news/173529</link>
+      <description>新聞基於大型資料中心所構成的IT服務平臺，是現代社會的數位基礎建設核心，支撐著政府、企業與民眾的日常運作。因此，這些平臺與資料中心一旦因事故導致服務中斷，勢必對政府公共事務、企業營運，以及個人服務造成嚴重衝擊。 僅在2025這一年內，全球就發生多起影響範圍達到國家級，甚至屬於跨國級的重大IT服務中斷事故，例如AWS美東區域資料中心故障、韓國政府資料中心火災，以及Cloudflare全球服務中斷等。 這些大規模故障，使大量仰賴相關資料中心與雲端平臺運作的公共服務、企業業務，以及個人端應用程式與網站陷入癱瘓。服務停擺時間短則數小時，長則超過一天，從政府公務運作、企業營運到個人日常IT服務皆受到波及，造成的經濟損失更是難以估計，也動搖了用戶對這些服務與平臺的信任。 事實上，儘管大型資料中心與雲端服務平臺，都已建置各式各樣的與備援機制，力求避免因偶發事故造成服務中斷，仍無法完全杜絕意外停擺的情況。 這也讓人不禁要問：這些平臺與資料中心故障的原因為何？為什麼精心設計的備援與保護措施沒有生效，導致故障後的長時間服務中斷？ 為此我們在這次製作的封面故事中，將透過回顧2025年全球IT服務與資料中心的</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173529</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1270-feng_mian_gu_shi_-p1-ming_de_-open-960x420_kao_bei_0.jpg?itok=-i_r_RD4" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 23 Jan 2026 02:48:06 +0000</pubDate>
     </item>
     <item>
-      <title>X開源貼文推薦演算法，計畫每4周更新一次</title>
-      <link>https://www.ithome.com.tw/news/173502</link>
-      <description>新聞馬斯克（Elon Musk）旗下的社交平臺X近日透過GitHub上開源其「For You」動態牆的核心貼文推薦演算法，並承諾未來將以每4周為一個周期，持續公開更新版本與開發說明。這項動作被外界視為X在透明度壓力下，對外界長期質疑其演算法黑箱運作的最新回應。 此次開源的內容，聚焦於X用來決定使用者動態牆中，哪些貼文與帳號會被推薦顯示的核心推薦系統。X說明，該系統同時整合來自使用者追蹤帳號的內容，以及透過機器學習從全站發掘的「非追蹤內容」，再進行統一排序。整套流程涵蓋候選內容的取得、資料補齊、過濾、評分與最終排序，構成完整的推薦管線。 相較於2023年釋出的版本，X此次開源的推薦系統已完成大幅重構，核心不再建立在大量人工撰寫的排序規則之上，而是改由模型統一負責貼文的評分與排序。這代表動態牆的運作邏輯，已從工程師手動調整權重，轉向由系統根據使用者實際互動行為自行學習與判斷，成為此次開源最關鍵的差異之一。 在技術實作上，這項核心任務由名為Phoenix的模型負責。Phoenix採用以Grok-1為基礎改造的Transformer架構，能從使用者一段時間內的互動行為序列中，預測其對不同貼文可</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173502</guid>
-      <pubDate>Wed, 21 Jan 2026 06:55:34 +0000</pubDate>
+      <title>【釐清事故經過與原因，理解不同服務平臺潛在風險】全面檢視2025全球10大IT當機事件（上）</title>
+      <link>https://www.ithome.com.tw/news/173538</link>
+      <description>新聞前面我們列出2025年全球10起最大規模IT服務當機事件，接下來將從事故過程、影響範圍、事故發生原因，以及服務平臺的應對處理方式等幾個面向，逐一檢視每起事件的梗概與重點，進而比較不同平臺間的事故處理效率與透明度。 先從最嚴重的兩起事故開始看起——AWS大當機與韓國NIRS火災，再依影響規模，逐一審視其餘事故的狀況。 AWS特定服務區域發生大當機 AWS位於美國維吉尼亞州北部的資料中心服務區域（Region）US-EAST-1，於太平洋時間（PDT）2025年10月19日至20日（臺灣時間10月20日至21日）發生大規模雲端服務中斷事故。 故障最初於太平洋時間10月19日晚間11點48分，被用戶與監測系統發現，直到10月20日下午2點20分才完全排除，影響時間約15小時。 數千個依靠AWS運作的網站、App與服務都因這次事故而中斷，或出現錯誤，其中受衝擊最大的包括Snapchat即時通訊服務、Reddit社群論壇、Fortnite與Roblox等線上遊戲平臺、Robinhood、Venmo、Coinbase等金融與支付應用服務平臺，還有教育SaaS服務Instructure、創作Sa</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173538</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E6%98%8E%E5%BE%B7-2025%E5%A4%A7%E7%95%B6%E6%A9%9F-%E5%9C%961-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-AWS.png" length="0" type="image/png"/>
+      <pubDate>Fri, 23 Jan 2026 02:48:12 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic官方Git MCP伺服器曝三漏洞，提示注入可繞過路徑限制並覆寫檔案</title>
-      <link>https://www.ithome.com.tw/news/173504</link>
-      <description>新聞資安公司Cyata Research揭露，Anthropic維護的官方Git用MCP伺服器mcp-server-git存在三項弱點。攻擊者只要能以提示注入影響AI助理讀到的內容，就可能引導模型在呼叫工具時帶入惡意參數，繞過原本設定的儲存庫路徑限制，擴大可被操作的Git範圍，並在特定工具呼叫下造成檔案覆寫或刪除，要是環境又啟用可寫入檔案的能力，風險還可能擴大到程式碼執行。 MCP是Anthropic所提出的開放標準，讓AI助理以一致介面連結外部工具與資料來源，例如檔案系統、應用程式介面與Git等。該架構讓MCP伺服器會依模型的決策，在本機或開發環境執行操作，因此提示注入不只是內容誤導，也可能轉化成具體的工具呼叫與系統動作。 研究人員說明，第一項CVE-2025-68145漏洞與路徑驗證有關，mcp-server-git啟動時可限定允許操作的儲存庫位置，但工具呼叫時傳入的儲存庫路徑未與該限制比對，導致在提示注入影響下，AI可能被引導操作系統上其他可存取的Git儲存庫。第二項CVE-2025-68143漏洞是Git初始缺乏路徑限制，可能在任意目錄初始化新的Git儲存庫，讓原本不是專案的資</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173504</guid>
-      <pubDate>Wed, 21 Jan 2026 08:13:16 +0000</pubDate>
+      <title>【釐清事故經過與原因，理解不同服務平臺潛在風險】全面檢視2025全球10大IT當機事件（下）</title>
+      <link>https://www.ithome.com.tw/news/173539</link>
+      <description>新聞 下文承接自 全面檢視2025全球10大IT當機事件（上） PlayStation Network服務中斷 單就受影響的用戶數量而言，Sony的PlayStation Network（PSN）線上遊戲服務平臺，於2025年2月7日至8日發生的當機事故，可說是2025年度中，規模僅次於AWS服務中斷與韓國NIRS火災的重大IT當機事件，依據Downdetector網站的統計，用戶異常通報數量高達390萬件。 此次事故最早於美東時間2025年2月7日下午開始，陸續有玩家回報無法登入PSN。隨後至當天傍晚，問題進一步擴大，PlayStation Store、PS Plus、多人連線服務、雲端存檔同步功能皆出現全面異常，部分需要線上驗證的單機遊戲亦無法啟動，導致全球數百萬名玩家無法登入或使用PlayStation的線上服務，形成大規模當機事件。 Sony直到當天晚上才首次對外回應，承認PSN發生問題，並於2月8日凌晨表示正全力進行修復。服務於2月8日上午陸續恢復正常，Sony並在當天下午宣布全面恢復運作，整起事故持續時間接近24小時。 本次事故影響範圍涵蓋PSN線上多人遊戲與社交功能、Pl</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173539</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E6%98%8E%E5%BE%B7-2025%E5%A4%A7%E7%95%B6%E6%A9%9F-%E5%9C%963_(2)-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-X.png" length="0" type="image/png"/>
+      <pubDate>Fri, 23 Jan 2026 02:48:18 +0000</pubDate>
     </item>
     <item>
-      <title>駭客假借提供擋廣告延伸套件從事ClickFix變種網釣，以瀏覽器當機為由誘騙使用者執行惡意指令</title>
-      <link>https://www.ithome.com.tw/news/173506</link>
-      <description>新聞近期網釣攻擊最受矚目的新興手法ClickFix，後續出現各式各樣的變形版本，像是整個攻擊流程都在瀏覽器進行的FileFix，或是藉由覆蓋整個螢幕內容脅迫受害者依照指示操作的JackFix，以及結合OAuth身分驗證流程的ConsentFix，如今又有駭客發展出新型態手法，讓使用者以為瀏覽器出錯而乖乖依照指示「修復」。 威脅情報公司Huntress揭露名為CrashFix的攻擊手法，發動者是外號為KongTuke、LandUpdate808或TAG-124的駭客組織，他們近期透過惡意瀏覽器延伸套件NexShield，意圖於受害電腦植入惡意軟體ModeloRAT。此延伸套件冒充知名的擋廣告工具uBlock Origin Lite，一旦使用者安裝，瀏覽器就會出現當機訊息，然後要求使用者依照指示下達特定指令來排除，然而若是照做，就會複製、貼上及執行駭客的惡意指令，導致電腦感染ModeloRAT。 這些駭客鎖定在網路上尋找廣告攔截工具的使用者，他們投放惡意廣告，引導使用者到Chrome Web Store延伸套件市集下載NexShield，Huntress經過比對發現，駭客的延伸套件幾乎完全</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173506</guid>
-      <pubDate>Wed, 21 Jan 2026 09:04:29 +0000</pubDate>
+      <title>蘋果調動硬體負責人John Ternus職務，傳是替接手執行長鋪路</title>
+      <link>https://www.ithome.com.tw/news/173545</link>
+      <description>新聞彭博社（Bloomberg）本周報導，蘋果執行長庫克（Tim Cook）已於2025年年底，低調擴張硬體工程高級副總裁John Ternus的職權，委任其全面統籌公司的設計團隊。此舉被外界視為是鞏固了Ternus作為庫克繼任者的領跑地位。 Ternus在1997年畢業於賓夕法尼亞大學機械工程系，在2001年即加入蘋果產品設計團隊，曾參與第一代iPad的原始開發，並主導AirPods與歷代iPhone的硬體工程；他在2021年升任硬體工程高級副總裁，正式進入蘋果核心決策圈；在蘋果內部並以「情緒穩定」及「低調謙遜」著稱。 Macworld指出，這代表Ternus同時管轄蘋果的硬體工程與軟體介面設計團隊，此一跨界的職權廣度，在蘋果歷史上僅有前首席設計長Jony Ive等極少數核心人物曾擁有。顯示出庫克正刻意將Ternus曝露於更多元的營運範疇，以替未來接任執行長進行全方位培訓。 其實在Ive離職之後，蘋果設計團隊是由營運長Jeff Williams負責監督與管理，但Williams在去年退休了，庫克並未把設計團隊交給新的營運長Sabih Khan，而是轉交給了Ternus。 Gizmod</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173545</guid>
+      <pubDate>Fri, 23 Jan 2026 02:58:41 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】1月21日，中國蘋果代工組裝廠立訊傳出遭勒索軟體RansomHub攻擊</title>
-      <link>https://www.ithome.com.tw/news/173507</link>
-      <description>新聞勒索軟體組織RansomHub宣稱成功攻擊立訊，揚言公開其客戶蘋果、Nvidia、特斯拉的資料 網路媒體Cybernews報導，勒索軟體組織RansomHub近日於駭客論壇張貼公告宣稱，去年駭入替蘋果、特斯拉等公司代工的中國精密製造業者立訊精密（Luxshare）內部系統，手中握有其眾多設計及生產資料，並揚言若未拿到贖金將公開其客戶相關機密資訊。由於立訊是蘋果重要代工組裝廠，負責為蘋果生產iPhone、AirPods、Apple Watch，以及Vision Pro等產品，這起事故引起全球高度關注。 RansomHub宣稱去年12月15日成功攻擊這家蘋果代工廠，取得該公司大量資料，然而卻久久未等到立訊聯繫，似乎IT部門想隱匿事件。他們要求立訊儘速聯繫，以確保該公司機密資料、專案文件不外流。顯然若駭客未接獲立訊聯繫，就會公開手中的資料。 根據Cybernews公布的駭客貼文截圖，RansomHub手中擁有的資料包含機密3D CAD產品建模、3D工程設計、3D工程文件、高精密幾何設計資料、製造用2D繪圖、機械元件草圖、機密工程繪圖PDF文件、PCB設計、電子設計文件、與電子佈線架構資料</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173507</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/luxshare-data-breach-post.png" length="0" type="image/png"/>
-      <pubDate>Wed, 21 Jan 2026 09:44:27 +0000</pubDate>
+      <title>AI生成漏洞通報氾濫 Curl維護者終止抓蟲獎勵方案</title>
+      <link>https://www.ithome.com.tw/news/173546</link>
+      <description>新聞由於接到太多外界以AI生成的低品質漏洞報告，Curl專案維護者本周宣布終止抓漏獎勵方案。 Curl是廣受歡迎的開源、跨平臺的命令列網路資料傳輸專案，它支援HTTP/HTTPS、FTP/FTPS、SCP/SFTP、SMTP/IMAP/POP3、DAP、SMB、MQTT等協定可用於呼叫REST API、下載/上傳檔案、測試Web服務，或進行資安研究和除錯。 Curl創辦人暨維護者Daniel Stenberg本周宣布Curl漏洞通報獎勵方案將在2026年1月底結束。Curl專案不再針對外界通報的臭蟲或漏洞提供任何獎勵。他們也不再援助經由其他來源解決Curl問題的研究人員。Stenberg解釋，抓漏獎勵讓一些人惡意尋找並杜撰漏洞，造成專案的不必要負擔和濫用。 Curl專案從2019年起透過主要平臺如HackerOne及Internet Bug Bounty等實施漏洞通報獎勵方案，以回饋通報curl及libcurl漏洞的研究人員。 但Stenberg上周說明，近日在16小時內收到7則漏洞通報，經過相當長時間的檢視，發現沒有一則是真正的漏洞。從2026年起該專案已收到20則這類通報。 例如他</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173546</guid>
+      <pubDate>Fri, 23 Jan 2026 03:10:24 +0000</pubDate>
     </item>
     <item>
-      <title>瞄準診所帳務管理痛點，醫療新創聯手銀行推聯名卡</title>
-      <link>https://www.ithome.com.tw/news/173509</link>
-      <description>新聞在臺灣，許多診所的採購和帳務管理仍仰賴人工，常衍生核銷不精準等問題。瞄準這個痛點，專攻診所醫病管理系統的臺灣新創AlleyPin今（1/21）聯手遠東商銀，發起企業聯名卡，供診所、藥局等醫療和醫事機構使用。該卡的支出記錄也會同步彙整到AlleyPin的醫病管理系統後臺，不必人工逐筆登錄，診所也更容易掌握庫存成本分布。接下來，他們將擴大既有的後臺AI功能，來針對資金、支出和庫存記錄，提供智慧預警。 瞄準診所帳務管理3大痛點 AlleyPin以診所醫病管理（PRM）系統起家，2017年成立後主打2大產品，包括提供24小時線上掛號和諮詢的醫病媒合平臺PinMed，以及可串接診所醫療資訊系統（HIS）、整合Line官方帳號和AI功能的PRM平臺1.Talk。這款PRM平臺涵蓋診所預約掛號、診前提醒與後續衛教追蹤等一條龍功能，去年10月還正式上線AI Agent客服功能，目前已有2,000多家臺灣和日本診所採用。 AlleyPin共同創辦人暨營運長羅偉誠指出，在與診所接觸的經驗裡，他們觀察到診所帳務管理存在3大痛點。首先是公私帳務容易混淆，尤其是診所剛開幕，許多採購和消費常以院長自己的信用卡</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173509</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/ai%E9%A0%90%E6%B8%AC(1).JPG" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 21 Jan 2026 10:09:05 +0000</pubDate>
+      <title>TikTok完成美國重組，推薦演算法與核心控制權落地美國</title>
+      <link>https://www.ithome.com.tw/news/173549</link>
+      <description>新聞TikTok今日（1/23）宣布，已依據美國總統川普（Donald Trump）的行政命令，正式成立TikTok USDS Joint Venture合資公司；如同先前的規畫，由甲骨文等美國業者取得大多數股權，母公司字節跳動（ByteDance）僅保留19.9%的少數股權。 川普在今年9月祭出的行政命令要求字節跳動持股降至20%以下，且必須在甲骨文雲端環境中，由美國團隊利用本土數據重新訓練演算法，確保內容推薦不受外部操縱，以在維持2億用戶使用權的同時，徹底解決數據與資訊安全的疑慮。 新成立的TikTok USDS採用複雜的股權結構，美國資本及國際資本總計占了50%，字節跳動既有的投資者占了30.1%，字節跳動則占了19.9%。其中，甲骨文、銀湖資本（Silver Lake）與MGX各取得了15%的股權，屬於具備實際影響力的管理投資者（Managing Investor）。 TikTok USDS將服務超過2億名美國用戶以及750萬家在地企業。新公司由TikTok原營運主管Adam Presser出任執行長，並由7人組成的董事會領導，其中大多數為美國成員，包括甲骨文執行副總裁Kenn</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173549</guid>
+      <pubDate>Fri, 23 Jan 2026 03:24:47 +0000</pubDate>
     </item>
     <item>
-      <title>國科會揭明年科技預算上看1,850億元，投資AI新十大建設、量子、淨零科技</title>
-      <link>https://www.ithome.com.tw/news/173511</link>
-      <description>新聞國科會今天(1/21)召開委員會議，公布2027年的我國科技發展重點規畫，先期規畫2027年科技預算需求為1,850億元，以支持跨部會推動AI新十大建設、五大信賴產業、大南方新矽谷、晶創臺灣、淨零科技創新方案、海洋科技方案等，推動我國AI、量子科技、淨零科技等領域發展。 去年國科會揭露2026年科技預算為1,601億元，中央政府總預算仍待立法院審議，但科技投資布局不能停擺，因此國科會今天召開委員會議，先期規畫2027年科技預算1,850億元，較2026科技預算成長約15%。 國科會計畫運用科技預算，除了推動行政院推動的「AI新十大建設推動方案」，還有「大南方新矽谷推動方案」、「晶片驅動臺灣產業創新方案」、「次世代通訊科技發展方案」、「智慧機器人產業推動方案」、「高齡科技產業行動計畫」、「海洋科技方案」、「淨零科技創新方案等政策」。透過預算補助基礎學術研究、科技人才培育。 國科會主委吳誠文表示，2027年的科技預算為國科會與各部會討論的先期規畫，根據我國產業的能量及科技產業發展的現況，未來發展的目標，推動幾個重要的科技方案，希望能夠順利執行，這些科技方案涵蓋半導體、AI等，從技術的創</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173511</guid>
-      <pubDate>Wed, 21 Jan 2026 11:26:25 +0000</pubDate>
+      <title>IT服務臺Zendesk遭到濫用，駭客以此發動大規模垃圾郵件攻擊</title>
+      <link>https://www.ithome.com.tw/news/173548</link>
+      <description>新聞駭客為了取得入侵企業網路環境的管道，透過社交工程攻擊的情況相當常見，其中一種手法在去年特別引人注目，那就是冒充公司員工對IT服務臺下手，因此，只要與此種類型平臺有關的攻擊活動，都相當值得留意。 根據資安新聞網站Bleeping Computer的報導，近期有許多人收到大量來自Zendesk寄出的不明郵件，儘管這些信件沒有惡意連結或是其他明顯的網釣特徵，然而這些郵件主題怪異，有些假裝是執法請求或取消訂單，也有提供免費Discord Nitro服務，甚至有求救信，以採用加粗的Unicode字體或夾雜多種語言的字體，而且數量相當龐大，還是讓不少使用者感到混亂，並擔心可能成為駭客鎖定的目標。 這些信件來自多家企業組織的Zendesk系統，涵蓋軟體服務業者、政府機關、健康照護，以及交通產業，包括：Discord、Tinder、Riot Games、Dropbox、CD Projekt（2k.com）、Maya Mobile、NordVPN、美國田納西州勞工部、田納西州稅務局、Lightspeed、CTL、Kahoot、Headspace，以及Lime。 攻擊者濫用Zendesk允許未經驗證用</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173548</guid>
+      <pubDate>Fri, 23 Jan 2026 04:17:12 +0000</pubDate>
     </item>
     <item>
-      <title>以信任與韌性驅動金控整併，台新新光金的萬億資產防線</title>
-      <link>https://www.ithome.com.tw/people/173514</link>
-      <description>在台新與新光金控合併進入關鍵階段之際，資安不只是技術層面的防護工作，而是牽動治理、信任與成長節奏的核心戰略。身兼台新新光金控與台新銀行資安長的陳詰昌，正站在這場整併工程的樞紐位置，負責整合攸關營運穩定的「數位大腦」，讓資安成為支撐金融創新的力量，而非阻力。 出身警界，長年投入科技犯罪偵查的背景，陳詰昌對攻防對抗與威脅演化有高度敏銳度，也形塑了他的資安管理理念：風險從來不是靜態問題，而是一場持續變動的管理課題。陳詰昌接手偵辦第一銀行和遠東商銀的資安事件，進入金融體系後，他認為資安長更重要的任務是：將複雜的風險轉譯為組織能理解、能決策的語言，並在其中建立共識與信任。 這樣的思維，正好呼應台新與新光合併所面臨的挑戰，整併不只是系統與制度的對齊，更是一場文化與治理的深度融合。陳詰昌認為，關鍵不在於誰併誰，而是如何重新界定整個集團可承受的風險邊界，建立一套能被共同理解與接受的資安治理語言，避免原本獨立的體系在整合過程中彼此掣肘。 金控整併的資安棋局，追求一致性與協同綜效 隨著台新與新光兩大體系正式進入整併深水區，資安不再只是系統層面的技術工程，而是一場牽動治理邏輯、組織文化與長期競爭力的全局棋局</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/people/173514</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0122-CISO-600-1.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 22 Jan 2026 01:00:33 +0000</pubDate>
+      <title>英特爾營收下滑4%，盤後股價大跌12%</title>
+      <link>https://www.ithome.com.tw/news/173555</link>
+      <description>新聞英特爾（Intel）於周四（1/22）公布2025年第四季財報，該季營收為137億美元，較前一年同期下滑4%。由於受到供應鏈短缺與保守展望影響，英特爾盤後股價下滑12%，跌至47.8美元。 在營收表現上，該季用戶端運算事業群（CCG）創下82億美元營收，下滑7%；資料中心與AI事業群（DCAI）營收為47億美元，比前一年同期成長9%；英特爾晶圓代工（Intel Foundry）營收45億美元，成長4%，但部門間交易抵銷為43億美元。 英特爾在2025年第四季虧損了6億美元，高於去年同期1億美元的虧損。 至於英特爾2025全年營收為529億美元，與2024年基本持平。受惠於成本重組計畫，全年淨虧損由前一年度的188億美元大幅收斂至2.67億美元。其中，英特爾晶圓代工（Intel Foundry）全年營運虧損高達103億美元，彰顯出英特爾正利用設計晶片的獲利來補貼代工業務的巨大支出。 英特爾執行長陳立武表示，英特爾對CPU在AI時代的核心地位充滿信心，18A製程在美已進入高產量製造，是轉型的重要里程碑，未來將透過強化執行力與工程卓越，全面捕捉AI市場的龐大機遇。 Intel 18A為英</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173555</guid>
+      <pubDate>Fri, 23 Jan 2026 05:57:25 +0000</pubDate>
     </item>
     <item>
-      <title>NoSQL資料庫Firestore企業版換新查詢引擎，可串接多階段複雜資料轉換</title>
-      <link>https://www.ithome.com.tw/news/173512</link>
-      <description>新聞行動與Web應用開發平臺Google Firebase旗下NoSQL資料庫Firestore企業版更新，導入重新設計的查詢引擎，並推出名為Pipeline Operations的新查詢介面，主打把查詢拆成多個階段串接執行，讓開發者能在一次查詢中完成更複雜的資料轉換與運算。同時，企業版的索引策略也改為可選，集合預設不自動建立索引。 Pipeline Operations是一組內建於Firestore各SDK的API，讓開發者以多階段方式描述Firestore端的資料轉換流程，並可組合階段、運算式與函式，概念上更接近在資料庫端表達一段資料處理程序，而不是只做傳統的條件過濾與排序。官方文件也指出，為了導入Pipeline Operations而更新的企業版查詢引擎，額外新增超過百項查詢能力。 這次更新也調整索引策略，Firestore企業版預設不會自動建立單欄位索引，且查詢不再要求先建立索引才能執行。官方指出，如此通常能降低寫入時的負擔，進而改善寫入效能並降低儲存成本，但若直接查詢大型且未建立索引的集合，查詢速度可能明顯變慢。 由於要讓開發者在索引改為自行管理後仍能掌握效能，Firest</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173512</guid>
-      <pubDate>Thu, 22 Jan 2026 01:06:20 +0000</pubDate>
+      <title>GNU Inetutils套件中的telnetd服務可讓攻擊者取得Root權限的重大漏洞 近日遭人企圖濫用</title>
+      <link>https://www.ithome.com.tw/news/173556</link>
+      <description>新聞資安廠商Greynoise發現，GNU Inetutils套件中的telnetd服務一項11年後才被發現的漏洞，近日已有企圖濫用存取系統。 研究人員觀察到從1月22日起24小時內，開始有數個IP位址企圖登入GNU Inetutils telnetd程式，可能為惡意活動。 telnetd程式在啟動使用者登入時，會讀取並傳遞客戶端提供的環境變數（USER）。編號CVE-2026-24061的漏洞，出在GNU Inetutils的telnetd（telnet daemon）對USER變數驗證不當，使攻擊者透過在輸入中加入-f root值，得以繞過驗證流程，獲得root權限。比利時網路安全中心警告，濫用本漏洞可能讓攻擊者讀取敏感資料、修改系統配置、執行任意指令、毁損系統可用性。 根據NIST漏洞資料庫，本漏洞風險值達9.8。原因是本漏洞可讓非經驗證的攻擊者從網路遠端發動，易於操作、且不需使用者互動，而且濫用後果嚴重性高。 The Register指出，這漏洞是導因於2015年該軟體引入的變更，直到現在才被研究人員揭露。 最新漏洞影響GNU InetUtils 1.9.3到2.7，GNU已提</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173556</guid>
+      <pubDate>Fri, 23 Jan 2026 06:23:05 +0000</pubDate>
     </item>
     <item>
-      <title>勒索軟體Everest聲稱入侵印度麥當勞、公布近7,300萬Under Armour客戶資料</title>
-      <link>https://www.ithome.com.tw/news/173515</link>
-      <description>新聞惡名昭彰的Everest勒索軟體本周宣稱駭入印度麥當勞取得公司敏感資料、並公布運動服飾品牌Under Armour近7,300萬筆客戶資訊。 這個疑似和俄國政府有關聯的駭客組織在地下論壇張貼公告，說手中持有印度麥當勞內部文件及客戶資料，共861 GB。駭客還貼出了檔案螢幕擷圖以證實其真實性。媒體Hackread.com分析這些擷圖，判斷是2023年到2026年的財務報表、稽核資料、成本追蹤表、ERP搬移檔案、定價資料和其他敏感內部通訊。 一些目錄甚至標示出月份，顯示駭客已存取會計或ERP系統。另一目錄名為「投資人資訊」，表示攻擊者可能已存取到機密的董事會層級資訊。名為聯絡人資料庫的試算表包括美國、英國、新加坡與印度的投資人和業務合作夥伴的聯絡資訊，像是姓名、郵件、電話號碼、電子郵件信箱等。此外還有麥當勞分店資料，列出店長姓名、mcdonaldsindia.com網址的公司電子郵件信箱與聯繫資訊等。 駭客並限期二日內麥當勞必須回應，否則就可能公布機敏資訊。 Under Armour（UA）則是遭到Everest公開內部資料。去年11月駭客公告，竊得這家美國運動服飾品牌商343GB資料</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173515</guid>
-      <pubDate>Thu, 22 Jan 2026 01:37:26 +0000</pubDate>
+      <title>【資安日報】1月23日，Fortinet單一簽入功能重大漏洞傳出攻擊活動</title>
+      <link>https://www.ithome.com.tw/news/173553</link>
+      <description>新聞Fortinet單一登入整合功能的重大漏洞傳出攻擊活動，防火牆遭變更組態 Fortinet去年12月公布並修補FortiCloud單一登入（SSO）漏洞，近日被安全研究人員發現網路上又再度出現濫用活動，篡改受害FortiGate裝置配置。 從今年1月15日起，Arctic Wolf研究人員發現，新一波針對FortiGate裝置的惡意活動為自動執行，在非授權情況下變更防火牆配置，主要目的在建立新的通用帳號以便持久存取，變更防火牆配置可讓攻擊者以VPN存取這些帳號及外洩防火牆配置。 遭到利用的是Fortinet上個月修補的重大驗證繞過漏洞：CVE-2025-59718與CVE-2025-59719，在開啟FortiCloud單一登入功能的Fortinet設備上，攻擊者傳送變造的SAML訊息，就有機會繞過單一登入機制存取裝置，CVSS風險值皆高達9.8。 IT服務臺Zendesk遭到濫用，駭客以此發動大規模垃圾郵件攻擊 駭客為了取得入侵企業網路環境的管道，透過社交工程攻擊的情況相當常見，其中一種手法在去年特別引人注目，那就是冒充公司員工對IT服務臺下手，因此，只要與此種類型平臺有關的攻擊</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173553</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/zendesk-emails.png" length="0" type="image/png"/>
+      <pubDate>Fri, 23 Jan 2026 06:32:04 +0000</pubDate>
     </item>
   </channel>
 </rss>
