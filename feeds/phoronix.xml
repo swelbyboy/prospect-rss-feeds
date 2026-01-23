@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Jan 2026 10:25:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Jan 2026 06:39:49 +0000</lastBuildDate>
     <item>
-      <title>FreeBSD 15.1 Aims To Have KDE Desktop Installer Option</title>
-      <link>https://www.phoronix.com/news/FreeBSD-15.1-KDE-Desktop-Option</link>
-      <description>FreeBSD 15.0 had been aiming to offer a KDE desktop installation option as part of the FreeBSD OS installer. This initiative as part of the FreeBSD laptop support enhancements project didn't pan out in time for FreeBSD 15.0 but now they are working on getting the installer option ready for FreeBSD 15.1. Adding a NVIDIA GPU driver option to the FreeBSD installer was also recently carried out...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-15.1-KDE-Desktop-Option</guid>
-      <pubDate>Sat, 17 Jan 2026 12:30:00 +0000</pubDate>
+      <title>Linux Finally Retiring HIPPI: The First Near-Gigabit Standard For Networking Supercomputers</title>
+      <link>https://www.phoronix.com/news/Linux-Retiring-HIPPI</link>
+      <description>While the Linux kernel has been seeing preparations from NVIDIA for 1.6 Tb/s networking in preparing for next-generation super-computing, the kernel has still retained support to now for the High Performance Parallel Interface. HIPPI was the standard for connecting supercomputers in the late 1980s and a portion of the 1990s with being the first networking standard for near-Gigabit connectivity at 800 Mb/s over distances up to 25 meters. But HIPPI looks like it will be retired from the mainline k</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Retiring-HIPPI</guid>
+      <pubDate>Thu, 22 Jan 2026 01:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>Important AMDGPU &amp;amp; AMDKFD Driver Improvements Readied For Linux 6.20~7.0</title>
-      <link>https://www.phoronix.com/news/More-AMDGPU-PR-Linux-7.0-Dongle</link>
-      <description>On Friday AMD sent out another set of AMDGPU kernel graphics driver and AMDKFD kernel compute driver patches for queuing in DRM-Next ahead of the upcoming Linux 6.20~7.0 kernel cycle kicking off in February...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/More-AMDGPU-PR-Linux-7.0-Dongle</guid>
-      <pubDate>Sat, 17 Jan 2026 20:16:27 +0000</pubDate>
+      <title>ReactOS Celebrates 30 Years In Striving To Be An Open-Source Windows Implementation</title>
+      <link>https://www.phoronix.com/news/ReactOS-30-Years-Old</link>
+      <description>The ReactOS project is celebrating today that it marks 30 years since their first code commit in the ReactOS source tree. During the past 30 years now the project has seen more than 88k commits from more than 300 developers as it seeks to be a robust open-source Windows implementation. In their 30 year birthday blog post they also provide a look ahead at what they're working on...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ReactOS-30-Years-Old</guid>
+      <pubDate>Thu, 22 Jan 2026 10:57:54 +0000</pubDate>
     </item>
     <item>
-      <title>Synex Server: A New Debian Based Linux Distro With Native ZFS Installation Support</title>
-      <link>https://www.phoronix.com/news/Synex-Debian-With-ZFS</link>
-      <description>Synex is a Linux distribution that's been around for some months as a Debian-based, minimalistic Linux distribution out of Argentina focused on the needs of small and medium businesses. Making it a bit more intriguing for some now is that with their new release based on Debian 13 is a server edition and they have added native OpenZFS file-system support for new installations...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Synex-Debian-With-ZFS</guid>
-      <pubDate>Sun, 18 Jan 2026 01:23:06 +0000</pubDate>
+      <title>Prominent Intel Compiler Engineer Heads Off To AMD</title>
+      <link>https://www.phoronix.com/news/Intel-Compiler-Expert-Now-AMD</link>
+      <description>James Brodman worked for the last 15 years at Intel on their ISPC SIMD compiler and then in more recent years on the Intel DPC++ compiler and SYCL support as part of Intel's oneAPI initiative. Rather interestingly, this compiler expert has now joined AMD...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Compiler-Expert-Now-AMD</guid>
+      <pubDate>Thu, 22 Jan 2026 11:12:30 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19-rc6 Bringing Sound Fixes For ROG Xbox Ally X &amp;amp; Various Laptops</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-rc6-Sound-Fixes</link>
-      <description>With the Linux 6.19-rc6 kernel release due out later today there will be a number of sound fixes/workarounds to note from the ASUS ROG Xbox Ally X gaming handheld to several newer laptops seeing fixes for their audio support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc6-Sound-Fixes</guid>
-      <pubDate>Sun, 18 Jan 2026 10:45:54 +0000</pubDate>
+      <title>AMD AOMP 22.0-2 Released With Flang Fortran Improvements</title>
+      <link>https://www.phoronix.com/news/AMD-AOMP-22.0-2</link>
+      <description>Yesterday along with releasing ROCm 7.2 there was also the release of AOMP 22.0-2 as the newest version of their open-source downstream of LLVM/Clang/Flang that is focused on offering the best OpenMP/OpenACC offloading support to Instinct/Radeon hardware...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-AOMP-22.0-2</guid>
+      <pubDate>Thu, 22 Jan 2026 13:15:26 +0000</pubDate>
     </item>
     <item>
-      <title>ChaosBSD Is A New BSD For "Broken Drivers, Half-Working Hardware, Vendor Trash" Test Bed</title>
-      <link>https://www.phoronix.com/news/ChaosBSD</link>
-      <description>A new BSD on the block is ChaosBSD that intends to serve as a testing distribution for unfinished and broken drivers not suitable for upstreaming to FreeBSD proper...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ChaosBSD</guid>
-      <pubDate>Sun, 18 Jan 2026 10:59:22 +0000</pubDate>
+      <title>Rust 1.93 Brings Improvement For Inline Assembly Handling</title>
+      <link>https://www.phoronix.com/news/Rust-1.93-Released</link>
+      <description>Rust 1.93 is out today as the first feature release for this programming lanugage of 2026...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Rust-1.93-Released</guid>
+      <pubDate>Thu, 22 Jan 2026 14:18:12 +0000</pubDate>
     </item>
     <item>
-      <title>Linux's Intel-Speed-Select Tool Will Allow Non-Root Use With Linux 7.0</title>
-      <link>https://www.phoronix.com/news/intel-speed-select-non-root</link>
-      <description>The intel-speed-select tool that lives within the Linux kernel source tree for allowing some control over Intel Speed Select Technology (SST) and managing of clock frequencies / performance behavior will finally allow limited non-root usage...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/intel-speed-select-non-root</guid>
-      <pubDate>Sun, 18 Jan 2026 11:13:23 +0000</pubDate>
+      <title>Updated Intel Panther Lake IPU Firmware Published With New Features &amp;amp; Bug Fixes</title>
+      <link>https://www.phoronix.com/news/Intel-PTL-IPU7-Firmware-Go</link>
+      <description>Ahead of the first Intel Core Ultra Series 3 Panther Lake laptops expected to hit retail channels next week, Intel has published updated IPU7 (IPU 7.5) firmware for the image processing unit used by the web cameras on the higher-end Panther Lake laptops...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-PTL-IPU7-Firmware-Go</guid>
+      <pubDate>Thu, 22 Jan 2026 14:54:07 +0000</pubDate>
     </item>
     <item>
-      <title>HP OMEN/Victus Gaming Laptops Gaining Fan Control Support Under Linux</title>
-      <link>https://www.phoronix.com/news/HP-Victus-S-Linux-Fan-Control</link>
-      <description>With the upcoming Linux 6.20~7.0 kernel cycle, the HP-WMI driver is slated to add manual fan control support for HP Victus S-Series gaming laptops as well as for some HP OMEN gaming laptops too...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/HP-Victus-S-Linux-Fan-Control</guid>
-      <pubDate>Sun, 18 Jan 2026 14:48:52 +0000</pubDate>
+      <title>AMD Announces Ryzen 7 9850X3D Pricing Of $499 USD</title>
+      <link>https://www.phoronix.com/news/Ryzen-7-9850X3D-Price</link>
+      <description>Back at CES AMD announced the Ryen 7 9850X3D as a faster sibling to the Ryzen 7 9800X3D. Today they have announced the suggested price for this 3D V-Cache desktop processor and confirmation of its availability starting on 29 January...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ryzen-7-9850X3D-Price</guid>
+      <pubDate>Thu, 22 Jan 2026 15:19:39 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19 Landing Fixes For USB2/USB3 Issues With Apple M1/M2 Macs</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Apple-Mac-USB2-Fixes</link>
-      <description>Ahead of the Linux 6.19-rc6 kernel release due out later today are two USB fixes for Apple M1 / M2 Macs running the mainline kernel. These Apple USB fixes are also marked for back-porting to the stable Linux kernel series...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Apple-Mac-USB2-Fixes</guid>
-      <pubDate>Sun, 18 Jan 2026 17:40:07 +0000</pubDate>
+      <title>Intel Xeon 6780E "Sierra Forest" Linux Performance ~14% Faster Since Launch</title>
+      <link>https://www.phoronix.com/review/intel-xeon6-sierra-forest-2026</link>
+      <description>As part of my end-of-year 2025 benchmarking I looked at how the Intel Xeon 6980P Granite Rapids performance evolved in the year since launch and seeing some nice open-source/Linux optimizations during that time. On the other side of the table were also benchmarks of how AMD EPYC 8004 Sienna evolved in its two years, Ubuntu 24.04 vs. 26.04 development for AMD EPYC Turin, the AMD EPYC Milan-X in its four years since launch, and also a look at the performance evolution lower down the stack with the</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/intel-xeon6-sierra-forest-2026</guid>
+      <pubDate>Thu, 22 Jan 2026 17:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ReactOS For "Open-Source Windows" Achieves Massive Networking Performance Boost</title>
-      <link>https://www.phoronix.com/news/ReactOS-Async-Net-Connect</link>
-      <description>ReactOS as the long-in-development "open-source Windows" project has been on quite a roll recently. Beyond a big Windows NT 6 compatibility improvement and fixing a very annoying usability issue, for this third week of the year there is another big change landing: a significant improvement in networking performance on ReactOS...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ReactOS-Async-Net-Connect</guid>
-      <pubDate>Sun, 18 Jan 2026 20:09:21 +0000</pubDate>
+      <title>Linux GPU Driver Loophole Being Fixed For Unprivileged Users Being Able To Tap Unbounded Kernel Memory</title>
+      <link>https://www.phoronix.com/news/Linux-DRM-Blob-OOM</link>
+      <description>An oversight in the Linux kernel's Direct Rendering Manager (DRM) graphics driver common code could allow unprivileged users to trigger unbounded kernel memory consumption for a potential system-wide out-of-memory "OOM" situation...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-DRM-Blob-OOM</guid>
+      <pubDate>Thu, 22 Jan 2026 20:25:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19-rc6 Released With More Bug Fixes</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-rc6-Released</link>
-      <description>Linus Torvalds just tagged the Linux 6.19-rc6 kernel in working toward the stable Linux 6.19 kernel release likely on 8 February...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc6-Released</guid>
-      <pubDate>Mon, 19 Jan 2026 00:08:38 +0000</pubDate>
+      <title>AMD Lands Fresh Performance Improvements For RDNA4 In RadeonSI Driver</title>
+      <link>https://www.phoronix.com/news/GFX12-RadeonSI-Mesa-26.1-More</link>
+      <description>While slightly too late for making it into the Mesa 26.0 release that branched yesterday, merged now to Mesa Git for Q2's Mesa 26.1 release are some new RadeonSI Gallium3D (OpenGL) driver optimizations for the latest AMD Radeon RDNA4 graphics cards...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GFX12-RadeonSI-Mesa-26.1-More</guid>
+      <pubDate>Fri, 23 Jan 2026 01:21:07 +0000</pubDate>
     </item>
   </channel>
 </rss>

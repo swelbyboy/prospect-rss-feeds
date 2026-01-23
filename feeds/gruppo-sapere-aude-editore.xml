@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Gruppo Sapere Aude Editore - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/gruppo-sapere-aude-editore.xml</link>
+    <description>Latest articles from Gruppo Sapere Aude Editore (grupposae.it)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/gruppo-sapere-aude-editore.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 23 Jan 2026 06:50:19 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://www.grupposae.it/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://www.grupposae.it/hello-world/</guid>
+      <pubDate>Tue, 18 Oct 2022 13:03:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

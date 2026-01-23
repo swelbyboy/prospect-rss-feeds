@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Marodi TV - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/marodi-tv.xml</link>
+    <description>Latest articles from Marodi TV (marodi.tv)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/marodi-tv.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 23 Jan 2026 06:50:33 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>http://marodi.tv/hello-world/</link>
+      <description>Welcome to Jupiter X Sites. This is your first post. Edit or delete it, then start blogging!</description>
+      <guid isPermaLink="false">http://marodi.tv/hello-world/</guid>
+      <pubDate>Wed, 13 Mar 2019 06:36:49 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
