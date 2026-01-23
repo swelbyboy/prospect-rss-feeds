@@ -84,6 +84,42 @@ id,company_name,domain
 - **company_name**: Company name (used in feed titles)
 - **domain**: Website domain (without http/https)
 
+## Adding New Prospects (Full Workflow)
+
+When adding new prospects in bulk, follow these steps in order:
+
+### Step 1: Add to prospects.csv
+Add your new prospects to `prospects.csv` with the required columns (id, company_name, domain).
+
+### Step 2: Sync to Tracker (IMPORTANT!)
+The RSS discovery script reads from `outreach_progress_tracker.csv`, NOT from `prospects.csv` directly. You must sync new prospects to the tracker first:
+
+```bash
+python3 add_prospects_to_tracker.py
+```
+
+This adds new prospects with blank Status (which flags them for RSS discovery).
+
+### Step 3: Run RSS Discovery
+```bash
+python3 rss_discovery.py
+```
+
+Or trigger the "Discover New RSS Feeds" workflow in GitHub Actions.
+
+### Step 4: Transform & Host Feeds
+```bash
+python3 scraper.py
+```
+
+Or trigger the "Update RSS Feeds" workflow in GitHub Actions.
+
+**Via GitHub Actions (Recommended):**
+1. Push `prospects.csv` changes to git
+2. Push `outreach_progress_tracker.csv` changes to git (after running step 2 locally)
+3. Trigger "Discover New RSS Feeds" workflow
+4. After completion, trigger "Update RSS Feeds" workflow
+
 ### 6. Run the Scraper
 
 **Option A: Run Locally**
