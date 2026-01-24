@@ -8,79 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Jan 2026 06:39:37 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Jan 2026 06:36:01 +0000</lastBuildDate>
     <item>
-      <title>Developer Myths That Need to Die</title>
-      <link>https://dev.to/wingsdesignstudio/developer-myths-that-need-to-die-2k1b</link>
-      <description>The tech industry loves myths. Some sound motivational. Some sound “senior.” Most are outdated—and a few are actively harmful. Let’s put some of them to rest. Myth 1: “Good Developers Know Everything” No one knows everything. Not seniors. Not staff engineers. Not your tech lead. Good developers: Know how to find answers Ask good questions Admit when they don’t know Pretending to know everything leads to bad decisions and worse code. Myth 2: “More Code = More Productivity” Writing a lot of code f</description>
-      <guid isPermaLink="false">https://dev.to/wingsdesignstudio/developer-myths-that-need-to-die-2k1b</guid>
-      <pubDate>Fri, 23 Jan 2026 05:56:19 +0000</pubDate>
+      <title>New Claude+Remotion to create amazing videos using AI</title>
+      <link>https://dev.to/mayu2008/new-clauderemotion-to-create-amazing-videos-using-ai-37bp</link>
+      <description>I Built a Video in React and It Changed Everything: Why Remotion is a Game-Changer for Developers Ever wished you could generate videos programmatically? What if I told you that you could create stunning, data-driven videos using the same React skills you already have? Enter Remotion—the framework that’s revolutionizing how developers approach video creation. What is Remotion? Remotion is an open-source framework that allows you to create videos programmatically using React. Instead of dragging</description>
+      <guid isPermaLink="false">https://dev.to/mayu2008/new-clauderemotion-to-create-amazing-videos-using-ai-37bp</guid>
+      <pubDate>Sat, 24 Jan 2026 05:45:19 +0000</pubDate>
     </item>
     <item>
-      <title>Winning Online as a Developer-Marketer</title>
-      <link>https://dev.to/billahdotdev/winning-online-as-a-developer-marketer-4k57</link>
-      <description>The internet has leveled the playing field for everyone. Today, you don’t need a massive budget, a fancy degree, or a huge team to build something meaningful. What you actually need is the right mindset, a specific set of skills, and the willingness to learn fast while shipping even faster. That is the philosophy I live by as a developer and marketer. It is also the exact mindset I share with others who are looking to carve out their own space online. Why Developers Should Think Like Marketers M</description>
-      <guid isPermaLink="false">https://dev.to/billahdotdev/winning-online-as-a-developer-marketer-4k57</guid>
-      <pubDate>Fri, 23 Jan 2026 05:58:00 +0000</pubDate>
+      <title>I built a library that makes MicroPython feel like a web framework – looking for feedback</title>
+      <link>https://dev.to/esistleon/i-built-a-library-that-makes-micropython-feel-like-a-web-framework-looking-for-feedback-352k</link>
+      <description>Hey! I got tired of writing low-level register code for sensors, so I made a declarative abstraction layer. Instead of bit-shifting I2C data, you write: sensor = hardware.attach("I2C", type="BME280") sensor.on_threshold("temperature &amp;gt; 25°C", lambda e: fan.on()) It's called BitBound, available on PyPI. Supports 20+ devices, runs in simulation mode for desktop testing. Happy to share the link if anyone's interested – just comment below! What sensors/actuators would you want supported?</description>
+      <guid isPermaLink="false">https://dev.to/esistleon/i-built-a-library-that-makes-micropython-feel-like-a-web-framework-looking-for-feedback-352k</guid>
+      <pubDate>Sat, 24 Jan 2026 05:45:29 +0000</pubDate>
     </item>
     <item>
-      <title>BASH Beats Complexity, AGI Hits 2026, Code's Cheap Now</title>
-      <link>https://dev.to/urbanisierung/bash-beats-complexity-agi-hits-2026-codes-cheap-now-20og</link>
-      <description>Chris Gregori drops the truth bomb: AI collapsed the code barrier, but building software that actually matters? That wall stands tall! Vercel discovered something counterintuitive—minimalist Unix/BASH agent architectures outperform complex, over-engineered systems. Meanwhile, Eyad shares battle-tested wisdom from building robust Claude systems for enterprise workloads (the complete playbook you've been looking for!), and Sequoia boldly declares your 2030 AGI dreams just accelerated to 2026! Also</description>
-      <guid isPermaLink="false">https://dev.to/urbanisierung/bash-beats-complexity-agi-hits-2026-codes-cheap-now-20og</guid>
-      <pubDate>Fri, 23 Jan 2026 06:12:40 +0000</pubDate>
+      <title>cURL: A beginner's guide</title>
+      <link>https://dev.to/satyasootar/you-need-to-know-what-curl-can-do-2k6k</link>
+      <description>Before we understand cURL, let’s understand what a server is. A server is nothing but a machine, generally a computer that contains some resources, such as data or information that you can ask it to give(serve) to you, or you can give it some data to do some processing on it. Imagine this: You(Client) are in a restaurant. You need food(Resource), and you tell the waiter(API) to take your order. The waiter noted down all the items and went to the kitchen(server). After the food is prepaired the w</description>
+      <guid isPermaLink="false">https://dev.to/satyasootar/you-need-to-know-what-curl-can-do-2k6k</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm4061u6jlu03xspsnnmh.png" length="0" type="image/png"/>
+      <pubDate>Sat, 24 Jan 2026 05:59:18 +0000</pubDate>
     </item>
     <item>
-      <title>OutSystems vs Custom Development: The Real Cost Comparison</title>
-      <link>https://dev.to/kartiki_kapile_0ff2243eb6/outsystems-vs-custom-development-the-real-cost-comparison-63e</link>
-      <description>When organizations plan a new digital platform or modernization initiative, the first question leadership asks is simple: what will this really cost us in the long run? Many teams compare OutSystems with custom software development assuming low-code is always cheaper and faster. In reality, the cost equation is far more nuanced. This article breaks down the real cost comparison between OutSystems and custom development. Understanding User Intent Behind This Comparison Decision makers searching f</description>
-      <guid isPermaLink="false">https://dev.to/kartiki_kapile_0ff2243eb6/outsystems-vs-custom-development-the-real-cost-comparison-63e</guid>
-      <pubDate>Fri, 23 Jan 2026 06:17:42 +0000</pubDate>
+      <title>Stop Deleting Virtual Environments</title>
+      <link>https://dev.to/ddebajyati/stop-deleting-virtual-environments-4e04</link>
+      <description>If you are a python dev, you sure have been in quite a hassle in deleting virtual environments when your system python version got an upgrade. Like your project was using python 3.13 and now the system has got upgraded so, the current python version is 3.14. But when you go to your venv and activate it, you see you can't access those 3rd party libraries anymore you installed as dependencies. Because your system python version got upgraded you can't use the virtual environment that was using the</description>
+      <guid isPermaLink="false">https://dev.to/ddebajyati/stop-deleting-virtual-environments-4e04</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F16530698%3Fs%3D280%26v%3D4" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 24 Jan 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Minimum Falling Path Sum: Coding Problem Explained</title>
-      <link>https://dev.to/stack_overflowed/minimum-falling-path-sum-coding-problem-explained-3fh1</link>
-      <description>The “Minimum Falling Path Sum” problem asks you to find the smallest possible sum of a falling path through a square matrix. A falling path starts at any cell in the first row and moves downward one row at a time until it reaches the last row. From a cell, you can move straight down, down-left, or down-right, as long as the destination is within bounds. The goal is to minimize the total sum of the visited cells. This problem looks like a grid traversal task, but it is really an optimization prob</description>
-      <guid isPermaLink="false">https://dev.to/stack_overflowed/minimum-falling-path-sum-coding-problem-explained-3fh1</guid>
-      <pubDate>Fri, 23 Jan 2026 06:20:38 +0000</pubDate>
+      <title>paf cxn</title>
+      <link>https://dev.to/nader_chmait_cfcd8e22303f/test-3con</link>
+      <description>sample article</description>
+      <guid isPermaLink="false">https://dev.to/nader_chmait_cfcd8e22303f/test-3con</guid>
+      <pubDate>Sat, 24 Jan 2026 06:07:03 +0000</pubDate>
     </item>
     <item>
-      <title>What is Container and Containerization</title>
-      <link>https://dev.to/sbkumbar024/what-is-container-and-containerization-5439</link>
-      <description>A Comprehensive Guide to Containers and Containerization If you have ever worked in software development or IT operations, you are painfully familiar with the following scenario: A developer writes code that runs perfectly on their sleek MacBook Pro. They push it to the testing server, and immediately, everything breaks. The sysadmin complains, and the developer utters the most infamous phrase in tech history: "Well, it works on my machine." This problem arises because environments differ. The d</description>
-      <guid isPermaLink="false">https://dev.to/sbkumbar024/what-is-container-and-containerization-5439</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsac9ai1xiewviaedjas4.png" length="0" type="image/png"/>
-      <pubDate>Fri, 23 Jan 2026 06:21:24 +0000</pubDate>
+      <title>The Tao of Architecture: Clearing the Fog of "Names" to Return to the Essence of "Non-Being"</title>
+      <link>https://dev.to/xmaicode/the-tao-of-architecture-clearing-the-fog-of-names-to-return-to-the-essence-of-non-being-4e3l</link>
+      <description>Introduction: The Ultimate Challenge of Architecture Lies Beyond Code The most complex aspect of system architecture is never writing code—it is clearly and precisely understanding, analyzing, and solving problems . In real-world software engineering, product managers, developers, and business stakeholders often have vastly different understandings and descriptions of the same business scenario. This "Tower of Babel of cognition" is the root cause of system decay and architectural collapse. The</description>
+      <guid isPermaLink="false">https://dev.to/xmaicode/the-tao-of-architecture-clearing-the-fog-of-names-to-return-to-the-essence-of-non-being-4e3l</guid>
+      <pubDate>Sat, 24 Jan 2026 06:08:00 +0000</pubDate>
     </item>
     <item>
-      <title>The HIDDEN Gem in the Google AI Challenge💎</title>
-      <link>https://dev.to/maame-codes/the-hidden-gem-in-the-google-ai-challenge-20jh</link>
-      <description>First of all, if you haven’t participated in the google AI challenge, please do so right now. Not for the prize pool, but for something way better. I don’t believe in new year resolutions, but I just decided to “just do things” this year. Even if I am not ready, I would rather participate and fail, than not trying at all. As developers, we often skip projects or challenges if we think we won't win. That is a mistake. Challenges are rarely just about the prize; they are about the ecosystem access</description>
-      <guid isPermaLink="false">https://dev.to/maame-codes/the-hidden-gem-in-the-google-ai-challenge-20jh</guid>
-      <pubDate>Fri, 23 Jan 2026 06:24:15 +0000</pubDate>
+      <title>Where Blockchain Data Actually Lives (IPFS, Arweave &amp;amp; The 2026 Storage War)</title>
+      <link>https://dev.to/ribhavmodi/where-blockchain-data-actually-lives-ipfs-arweave-the-2026-storage-war-2bka</link>
+      <description>Quick note: Took a couple more days to recharge and handle some work commitments, but I'm back with Day 33. Today's topic answers something I kept wondering: "If blockchains are permanent, where does all the actual data go?" I was building a simple NFT minting contract last week. Nothing fancy. Just a learning project. I finished the smart contract, wrote the metadata, and then hit the question every builder hits: "Okay... where do I actually host the images and metadata?" Ethereum? Too expensiv</description>
+      <guid isPermaLink="false">https://dev.to/ribhavmodi/where-blockchain-data-actually-lives-ipfs-arweave-the-2026-storage-war-2bka</guid>
+      <pubDate>Sat, 24 Jan 2026 06:09:56 +0000</pubDate>
     </item>
     <item>
-      <title>What is DOM and virtual DOM with example?</title>
-      <link>https://dev.to/dash_suvankarr_/what-is-dom-and-virtual-dom-with-example-4ddi</link>
-      <description>The DOM (Document Object Model) is like a tree structure of your HTML — every element like , , or becomes a node. The browser uses it to render your webpage. Now, the Virtual DOM, used in libraries like React, is a copy of that DOM in memory. When something changes (like a user clicking a button), React updates the Virtual DOM first, compares it with the previous version, finds the difference, and then updates only that part in the real DOM. It’s like editing only one sentence in a book instead</description>
-      <guid isPermaLink="false">https://dev.to/dash_suvankarr_/what-is-dom-and-virtual-dom-with-example-4ddi</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fneeivtnhc6ucx8zgf09f.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 23 Jan 2026 06:24:57 +0000</pubDate>
+      <title>Stop Writing Selectors: How I Vibe Coded a Production AppSumo Scraper</title>
+      <link>https://dev.to/sommic/stop-writing-selectors-how-i-vibe-coded-a-production-appsumo-scraper-4704</link>
+      <description>We’ve all been there. You ask an LLM like ChatGPT or Claude to write a simple web scraper for a site like AppSumo. It confidently spits out a script using soup.select('.price-tag-123'). You run it, and nothing happens. The classes are dynamic, the data is buried in a Next.js hydration blob, or the site’s anti-bot protection kicks you out before the page even loads. This is the "Vibe Coding" bottleneck. You want to move from idea to execution using AI, but web scraping often forces you back into</description>
+      <guid isPermaLink="false">https://dev.to/sommic/stop-writing-selectors-how-i-vibe-coded-a-production-appsumo-scraper-4704</guid>
+      <pubDate>Sat, 24 Jan 2026 06:19:36 +0000</pubDate>
     </item>
     <item>
-      <title>How to Develop Fintech App with Laravel: A Step-by-Step Guide</title>
-      <link>https://dev.to/dhruvil_joshi14/how-to-develop-fintech-app-with-laravel-a-step-by-step-guide-45ke</link>
-      <description>The fintech industry is booming right now, and more businesses are entering the market to offer fast, secure, and easy-to-use financial services through mobile apps. If you are thinking about building your own fintech app, Laravel is definitely one of the best frameworks to consider. It is perfect for creating robust, scalable, and secure fintech applications. But before we dive into how to develop fintech app with Laravel, we will explore why Laravel is an ideal choice for a fintech application</description>
-      <guid isPermaLink="false">https://dev.to/dhruvil_joshi14/how-to-develop-fintech-app-with-laravel-a-step-by-step-guide-45ke</guid>
-      <pubDate>Fri, 23 Jan 2026 06:27:13 +0000</pubDate>
+      <title>🌱 Bloom Roadmap — What’s Coming Next</title>
+      <link>https://dev.to/codebunny20/bloom-roadmap-whats-coming-next-335a</link>
+      <description>Bloom has been growing fast This roadmap lays out what I’m building next — from stronger safety features to deeper tools, better accessibility, and some future experiments I’m excited about. Bloom will always stay privacy‑first, local‑only, and under your control.Bloom 🔧 Core Safety &amp;amp; Privacy Features Goal: Strengthen user control and privacy‑first safeguards. Quick‑Exit Browser Destination Setting Add a Settings option to choose where the Quick Exit button redirects Provide safe defaults (searc</description>
+      <guid isPermaLink="false">https://dev.to/codebunny20/bloom-roadmap-whats-coming-next-335a</guid>
+      <pubDate>Sat, 24 Jan 2026 06:25:49 +0000</pubDate>
     </item>
     <item>
-      <title>Implement Garmin Connect OAuth2 Authentication in React Native with Expo</title>
-      <link>https://dev.to/alexanderhodes/implement-garmin-connect-oauth2-authentication-in-react-native-with-expo-1j55</link>
-      <description>Implement Garmin Connect OAuth2 Authentication in React Native with Expo Introduction When building fitness or health-related mobile applications, integrating with Garmin Connect can unlock a wealth of user data. However, implementing OAuth2 authentication with PKCE (Proof Key for Code Exchange) can be challenging, especially when dealing with token management, automatic refresh, and secure storage. In this article, we'll walk through building a complete Garmin Connect authentication flow in a R</description>
-      <guid isPermaLink="false">https://dev.to/alexanderhodes/implement-garmin-connect-oauth2-authentication-in-react-native-with-expo-1j55</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fihinc24rdpthqifrcof1.png" length="0" type="image/png"/>
-      <pubDate>Fri, 23 Jan 2026 06:28:48 +0000</pubDate>
+      <title>This portfolio isn’t perfect, but it’s 100% mine</title>
+      <link>https://dev.to/random_ti/this-portfolio-isnt-perfect-but-its-100-mine-3hi5</link>
+      <description>Hey devs 👋 its me Taqui Just wanted to share the story behind my last portfolio. I already had a portfolio before this. It looked cool, it worked fine, but for some reason it never felt like it was really mine. I couldn’t fully connect with it. The truth is, my older portfolio was mostly a rebuild of chandai’s portfolio. I learned a lot from building it, especially about layout, animations, and structure. But at the end of the day, it still felt like I was wearing someone else’s design. So I dec</description>
+      <guid isPermaLink="false">https://dev.to/random_ti/this-portfolio-isnt-perfect-but-its-100-mine-3hi5</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F68wszlu252fm1amezsde.png" length="0" type="image/png"/>
+      <pubDate>Sat, 24 Jan 2026 06:26:18 +0000</pubDate>
     </item>
   </channel>
 </rss>
