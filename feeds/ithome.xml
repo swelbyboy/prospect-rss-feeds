@@ -8,52 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Jan 2026 06:42:08 +0000</lastBuildDate>
-    <item>
-      <title>【重新審視雲端服務的當機風險】盤點2025全球IT服務大當機事件</title>
-      <link>https://www.ithome.com.tw/news/173529</link>
-      <description>新聞基於大型資料中心所構成的IT服務平臺，是現代社會的數位基礎建設核心，支撐著政府、企業與民眾的日常運作。因此，這些平臺與資料中心一旦因事故導致服務中斷，勢必對政府公共事務、企業營運，以及個人服務造成嚴重衝擊。 僅在2025這一年內，全球就發生多起影響範圍達到國家級，甚至屬於跨國級的重大IT服務中斷事故，例如AWS美東區域資料中心故障、韓國政府資料中心火災，以及Cloudflare全球服務中斷等。 這些大規模故障，使大量仰賴相關資料中心與雲端平臺運作的公共服務、企業業務，以及個人端應用程式與網站陷入癱瘓。服務停擺時間短則數小時，長則超過一天，從政府公務運作、企業營運到個人日常IT服務皆受到波及，造成的經濟損失更是難以估計，也動搖了用戶對這些服務與平臺的信任。 事實上，儘管大型資料中心與雲端服務平臺，都已建置各式各樣的與備援機制，力求避免因偶發事故造成服務中斷，仍無法完全杜絕意外停擺的情況。 這也讓人不禁要問：這些平臺與資料中心故障的原因為何？為什麼精心設計的備援與保護措施沒有生效，導致故障後的長時間服務中斷？ 為此我們在這次製作的封面故事中，將透過回顧2025年全球IT服務與資料中心的</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173529</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1270-feng_mian_gu_shi_-p1-ming_de_-open-960x420_kao_bei_0.jpg?itok=-i_r_RD4" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 23 Jan 2026 02:48:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>【釐清事故經過與原因，理解不同服務平臺潛在風險】全面檢視2025全球10大IT當機事件（上）</title>
-      <link>https://www.ithome.com.tw/news/173538</link>
-      <description>新聞前面我們列出2025年全球10起最大規模IT服務當機事件，接下來將從事故過程、影響範圍、事故發生原因，以及服務平臺的應對處理方式等幾個面向，逐一檢視每起事件的梗概與重點，進而比較不同平臺間的事故處理效率與透明度。 先從最嚴重的兩起事故開始看起——AWS大當機與韓國NIRS火災，再依影響規模，逐一審視其餘事故的狀況。 AWS特定服務區域發生大當機 AWS位於美國維吉尼亞州北部的資料中心服務區域（Region）US-EAST-1，於太平洋時間（PDT）2025年10月19日至20日（臺灣時間10月20日至21日）發生大規模雲端服務中斷事故。 故障最初於太平洋時間10月19日晚間11點48分，被用戶與監測系統發現，直到10月20日下午2點20分才完全排除，影響時間約15小時。 數千個依靠AWS運作的網站、App與服務都因這次事故而中斷，或出現錯誤，其中受衝擊最大的包括Snapchat即時通訊服務、Reddit社群論壇、Fortnite與Roblox等線上遊戲平臺、Robinhood、Venmo、Coinbase等金融與支付應用服務平臺，還有教育SaaS服務Instructure、創作Sa</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173538</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E6%98%8E%E5%BE%B7-2025%E5%A4%A7%E7%95%B6%E6%A9%9F-%E5%9C%961-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-AWS.png" length="0" type="image/png"/>
-      <pubDate>Fri, 23 Jan 2026 02:48:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>【釐清事故經過與原因，理解不同服務平臺潛在風險】全面檢視2025全球10大IT當機事件（下）</title>
-      <link>https://www.ithome.com.tw/news/173539</link>
-      <description>新聞 下文承接自 全面檢視2025全球10大IT當機事件（上） PlayStation Network服務中斷 單就受影響的用戶數量而言，Sony的PlayStation Network（PSN）線上遊戲服務平臺，於2025年2月7日至8日發生的當機事故，可說是2025年度中，規模僅次於AWS服務中斷與韓國NIRS火災的重大IT當機事件，依據Downdetector網站的統計，用戶異常通報數量高達390萬件。 此次事故最早於美東時間2025年2月7日下午開始，陸續有玩家回報無法登入PSN。隨後至當天傍晚，問題進一步擴大，PlayStation Store、PS Plus、多人連線服務、雲端存檔同步功能皆出現全面異常，部分需要線上驗證的單機遊戲亦無法啟動，導致全球數百萬名玩家無法登入或使用PlayStation的線上服務，形成大規模當機事件。 Sony直到當天晚上才首次對外回應，承認PSN發生問題，並於2月8日凌晨表示正全力進行修復。服務於2月8日上午陸續恢復正常，Sony並在當天下午宣布全面恢復運作，整起事故持續時間接近24小時。 本次事故影響範圍涵蓋PSN線上多人遊戲與社交功能、Pl</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173539</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E6%98%8E%E5%BE%B7-2025%E5%A4%A7%E7%95%B6%E6%A9%9F-%E5%9C%963_(2)-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-X.png" length="0" type="image/png"/>
-      <pubDate>Fri, 23 Jan 2026 02:48:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>蘋果調動硬體負責人John Ternus職務，傳是替接手執行長鋪路</title>
-      <link>https://www.ithome.com.tw/news/173545</link>
-      <description>新聞彭博社（Bloomberg）本周報導，蘋果執行長庫克（Tim Cook）已於2025年年底，低調擴張硬體工程高級副總裁John Ternus的職權，委任其全面統籌公司的設計團隊。此舉被外界視為是鞏固了Ternus作為庫克繼任者的領跑地位。 Ternus在1997年畢業於賓夕法尼亞大學機械工程系，在2001年即加入蘋果產品設計團隊，曾參與第一代iPad的原始開發，並主導AirPods與歷代iPhone的硬體工程；他在2021年升任硬體工程高級副總裁，正式進入蘋果核心決策圈；在蘋果內部並以「情緒穩定」及「低調謙遜」著稱。 Macworld指出，這代表Ternus同時管轄蘋果的硬體工程與軟體介面設計團隊，此一跨界的職權廣度，在蘋果歷史上僅有前首席設計長Jony Ive等極少數核心人物曾擁有。顯示出庫克正刻意將Ternus曝露於更多元的營運範疇，以替未來接任執行長進行全方位培訓。 其實在Ive離職之後，蘋果設計團隊是由營運長Jeff Williams負責監督與管理，但Williams在去年退休了，庫克並未把設計團隊交給新的營運長Sabih Khan，而是轉交給了Ternus。 Gizmod</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173545</guid>
-      <pubDate>Fri, 23 Jan 2026 02:58:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI生成漏洞通報氾濫 Curl維護者終止抓蟲獎勵方案</title>
-      <link>https://www.ithome.com.tw/news/173546</link>
-      <description>新聞由於接到太多外界以AI生成的低品質漏洞報告，Curl專案維護者本周宣布終止抓漏獎勵方案。 Curl是廣受歡迎的開源、跨平臺的命令列網路資料傳輸專案，它支援HTTP/HTTPS、FTP/FTPS、SCP/SFTP、SMTP/IMAP/POP3、DAP、SMB、MQTT等協定可用於呼叫REST API、下載/上傳檔案、測試Web服務，或進行資安研究和除錯。 Curl創辦人暨維護者Daniel Stenberg本周宣布Curl漏洞通報獎勵方案將在2026年1月底結束。Curl專案不再針對外界通報的臭蟲或漏洞提供任何獎勵。他們也不再援助經由其他來源解決Curl問題的研究人員。Stenberg解釋，抓漏獎勵讓一些人惡意尋找並杜撰漏洞，造成專案的不必要負擔和濫用。 Curl專案從2019年起透過主要平臺如HackerOne及Internet Bug Bounty等實施漏洞通報獎勵方案，以回饋通報curl及libcurl漏洞的研究人員。 但Stenberg上周說明，近日在16小時內收到7則漏洞通報，經過相當長時間的檢視，發現沒有一則是真正的漏洞。從2026年起該專案已收到20則這類通報。 例如他</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173546</guid>
-      <pubDate>Fri, 23 Jan 2026 03:10:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>TikTok完成美國重組，推薦演算法與核心控制權落地美國</title>
-      <link>https://www.ithome.com.tw/news/173549</link>
-      <description>新聞TikTok今日（1/23）宣布，已依據美國總統川普（Donald Trump）的行政命令，正式成立TikTok USDS Joint Venture合資公司；如同先前的規畫，由甲骨文等美國業者取得大多數股權，母公司字節跳動（ByteDance）僅保留19.9%的少數股權。 川普在今年9月祭出的行政命令要求字節跳動持股降至20%以下，且必須在甲骨文雲端環境中，由美國團隊利用本土數據重新訓練演算法，確保內容推薦不受外部操縱，以在維持2億用戶使用權的同時，徹底解決數據與資訊安全的疑慮。 新成立的TikTok USDS採用複雜的股權結構，美國資本及國際資本總計占了50%，字節跳動既有的投資者占了30.1%，字節跳動則占了19.9%。其中，甲骨文、銀湖資本（Silver Lake）與MGX各取得了15%的股權，屬於具備實際影響力的管理投資者（Managing Investor）。 TikTok USDS將服務超過2億名美國用戶以及750萬家在地企業。新公司由TikTok原營運主管Adam Presser出任執行長，並由7人組成的董事會領導，其中大多數為美國成員，包括甲骨文執行副總裁Kenn</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173549</guid>
-      <pubDate>Fri, 23 Jan 2026 03:24:47 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 24 Jan 2026 06:38:47 +0000</lastBuildDate>
     <item>
       <title>IT服務臺Zendesk遭到濫用，駭客以此發動大規模垃圾郵件攻擊</title>
       <link>https://www.ithome.com.tw/news/173548</link>
@@ -71,7 +26,7 @@
     <item>
       <title>GNU Inetutils套件中的telnetd服務可讓攻擊者取得Root權限的重大漏洞 近日遭人企圖濫用</title>
       <link>https://www.ithome.com.tw/news/173556</link>
-      <description>新聞資安廠商Greynoise發現，GNU Inetutils套件中的telnetd服務一項11年後才被發現的漏洞，近日已有企圖濫用存取系統。 研究人員觀察到從1月22日起24小時內，開始有數個IP位址企圖登入GNU Inetutils telnetd程式，可能為惡意活動。 telnetd程式在啟動使用者登入時，會讀取並傳遞客戶端提供的環境變數（USER）。編號CVE-2026-24061的漏洞，出在GNU Inetutils的telnetd（telnet daemon）對USER變數驗證不當，使攻擊者透過在輸入中加入-f root值，得以繞過驗證流程，獲得root權限。比利時網路安全中心警告，濫用本漏洞可能讓攻擊者讀取敏感資料、修改系統配置、執行任意指令、毁損系統可用性。 根據NIST漏洞資料庫，本漏洞風險值達9.8。原因是本漏洞可讓非經驗證的攻擊者從網路遠端發動，易於操作、且不需使用者互動，而且濫用後果嚴重性高。 The Register指出，這漏洞是導因於2015年該軟體引入的變更，直到現在才被研究人員揭露。 最新漏洞影響GNU InetUtils 1.9.3到2.7，GNU已提</description>
+      <description>新聞資安廠商Greynoise發現，GNU Inetutils套件中的telnetd服務一項11年後才被發現的漏洞，近日已有企圖濫用存取系統。 研究人員觀察到從1月22日起24小時內，開始有數個IP位址企圖登入GNU Inetutils telnetd程式，可能為惡意活動。 telnetd程式在啟動使用者登入時，會讀取並傳遞客戶端提供的環境變數（USER）。編號CVE-2026-24061的漏洞，出在GNU Inetutils的telnetd（telnet daemon）對USER變數驗證不當，使攻擊者透過在輸入中加入-f root值，得以繞過驗證流程，獲得root權限。比利時網路安全中心警告，濫用本漏洞可能讓攻擊者讀取敏感資料、修改系統配置、執行任意指令、毀損系統可用性。 根據NIST漏洞資料庫，本漏洞CVSS風險評分達9.8。原因是本漏洞可讓非經驗證的攻擊者從網路遠端發動，易於操作、且不需使用者互動，而且濫用後果嚴重性高。 The Register指出，這漏洞是導因於2015年該軟體引入的變更，直到現在才被研究人員揭露。 最新漏洞影響GNU InetUtils 1.9.3到2.7，</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173556</guid>
       <pubDate>Fri, 23 Jan 2026 06:23:05 +0000</pubDate>
     </item>
@@ -82,6 +37,49 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173553</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/images/zendesk-emails.png" length="0" type="image/png"/>
       <pubDate>Fri, 23 Jan 2026 06:32:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dell翻新8-GPU運算系統，採用Blackwell架構HGX B300平臺</title>
+      <link>https://www.ithome.com.tw/review/173530</link>
+      <description>在2025年3月GTC大會，Nvidia發表新一代的Blackwell Ultra平臺，當中包含整櫃型融合式GPU伺服器系統GB300 NVL72，以及8-GPU伺服器系統HGX B300，預計下半年將會透過多家伺服器廠商供應，Dell正是其中之一，而在5月舉行的Dell Technologies World年度大會期間，該公司預告將推出搭配Nvidia HGX B300的4款伺服器，氣冷機型是XE9780與XE9785，導入直接液冷的機型是XE9780L與XE9785L，透過這些產品建構AI工廠解決方案，支撐大型AI應用系統，獲得因應嚴苛運算需求，以及多個模型推論工作負載的運算能力。 到了9月下半的Dell Technologies Forum 2025，Dell正式在臺介紹上述4款機型，可惜的是，當時他們並未在活動陳列這些硬體設備，而是在現場展示的GPU伺服器旁邊XE7745，放了指示牌。 之後，他們也陸續在網站公布XE9780、XE9785L、XE9785的技術指南。 就體型而言，XE9780與XE9785均採用10U尺寸機箱，前者搭配兩顆英特爾Xeon 6系列處理器（最多86核</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/173530</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/dell_xe9780_main.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 23 Jan 2026 06:48:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>特斯拉無人計程車正式上路了</title>
+      <link>https://www.ithome.com.tw/news/173557</link>
+      <description>新聞特斯拉執行長馬斯克（Elon Musk）本周四（1/22）透過X平臺宣布，特斯拉無人計程車（Robotaxi）服務在德州奧斯汀（Austin）邁出關鍵一步，正式開始提供無車內安全監管員的乘客載運服務。 特斯拉Robotaxi於2025年6月正式在德州奧斯汀展開初步測試，最初採邀請制並由Model Y車型組成。乘客需透過專屬的Robotaxi App註冊叫車，上車後可藉由車內觸控螢幕自訂空調、座椅及音樂，雖然沒有駕駛員，但前方座位仍設置一名人類安全監督員。隨後特斯拉將該服務擴展至加州，迄今總計已有超過200輛Robotaxi上路。 特斯拉AI主管Ashok Elluswamy在同一天表示，目前正將無人監管的Robotaxi車輛逐步混入現有的測試車隊中，之後將持續增加無人監管車輛的比例與總數。 不過，儘管車隊規模持續擴大，但目前僅有奧斯汀獲准移除安全監管員，加州車隊依法仍須配備人類駕駛員。 特斯拉面臨Alphabet旗下Waymo的強力競爭。與特斯拉剛起步的混合部署不同，Waymo的全數車隊皆為完全無人駕駛，且早已在舊金山、鳳凰城與洛杉磯等地常態性經營超過1,500輛無人車，在本周進軍</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173557</guid>
+      <pubDate>Fri, 23 Jan 2026 07:03:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>愛爾蘭新法草案允許警察使用間諜軟體</title>
+      <link>https://www.ithome.com.tw/news/173559</link>
+      <description>新聞愛爾蘭一項新法案允許警方使用間諜軟體來截取人民所有通訊內容，以偵辦及防範犯罪及國家安全危害事件。 這項法案名為通訊攔截與合法存取法案（Communications Interception and Lawful Access Bill）是由愛爾蘭司法、內政暨移民部提出的新法草案，本法案旨在反映現代通訊技術環境的變化，將更新並取代20多年前制訂的《郵政包裹與電信訊息法Regulation Act》，以作為「合法攔截通訊」的法規框架。 愛爾蘭司法大臣Jim O'Callaghan指出，因應重大犯罪及安全威脅，該國具有迫切需求以新法規框架支持合法攔截通訊。 本法案可允許執法機關針對任何能傳送及接收訊息的數位裝置和服務進行合法截聽，包括物聯網、電子郵件和數位通訊服務，不論這些通訊是否有加密，也允許執法單位取得內容、相關metadata（包括收發人士、地點、來源及目的地IP），也可用於包裹服務。 在技術面，新法案提供框架，允許執法機關使用隱蔽的間諜軟體（spyware）合法攔截通訊內容，也允許使用某些電子掃描設備在特定區域定位與記錄移動設備的識別數據。 愛爾蘭官員並聲稱，政府會設立司法授權機</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173559</guid>
+      <pubDate>Fri, 23 Jan 2026 07:21:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Waymo無人計程車服務擴張至邁阿密</title>
+      <link>https://www.ithome.com.tw/news/173560</link>
+      <description>新聞Waymo周四（1/22）宣布，即日起向一般民眾開放在邁阿密搭乘其全自動駕駛計程車服務，成為該市首個對公眾提供無人計程車服務的業者。 迄今Waymo在全美已於舊金山、洛杉磯、鳳凰城、奧斯汀及亞特蘭大五大城市穩定營運。總車隊規模約2,500輛，每週載客超過45萬次。另也於英國倫敦與日本東京等海外城市展開測試。 外界認為進軍邁阿密可視為Waymo的重要里程碑。因為邁阿邁不僅有強烈的太陽與暴雨等惡劣天氣，也有複雜的交通，可替Waymo的技術進行壓力測試，也是Waymo進入全國化複製的關鍵分水嶺。 此外，Waymo也強調，根據超過1.27億英里的全自動行駛數據，Waymo在營運區內的嚴重受傷事故率較人類駕駛降低了10倍。 目前Waymo於邁阿密的服務採用分階段邀請制，首波僅支援60平方英里的服務區域，從Design District、Wynwood到Brickell與Coral Gables，很快就會擴展至邁阿密國際機場，目前當地已有接近1萬名居民完成註冊。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173560</guid>
+      <pubDate>Fri, 23 Jan 2026 07:33:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yelp以3億美元收購AI客服Hatch</title>
+      <link>https://www.ithome.com.tw/news/173569</link>
+      <description>新聞全球在地生活評論巨頭Yelp周三（1/21）宣布，已與AI潛在客戶管理暨通訊（Lead Management and Communication）平臺Hatch簽署併購協議，將以3億美元的現金收購Hatch，以加速Yelp的AI轉型。 成立於2004年的Yelp是全球最大的在地商家評論平臺，透過用戶真實的星級評價與照片，成為消費者找餐廳、水電修繕或各類生活服務的首選；隨後進化為全方位商務平臺，讓用戶直接於App中完成預約、點餐、或傳訊索取服務報價。根據Yelp在2025年第三季的財報，該季Yelp締造3.76億美元的營收，成長4%，獲利3,900萬美元；其中有95%為廣告營收，另外的5%屬於資料授權等其它營收。 至於創立於2018年的Hatch則是家專注於AI驅動的通訊及潛在客戶管理業者，著重於協助客戶有效地回覆大量湧入的諮詢。Hatch所開發的SaaS平臺利用AI技術，可自動發起與客戶的對話，涵蓋簡訊、電子郵件與電話等多種管道，且除了罐頭回覆外，也能進行個人化的雙向溝通，引導潛在客戶完成預約或確認需求，從而大幅提升轉化率並降低營運成本。 Yelp共同創辦人兼執行長Jeremy S</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173569</guid>
+      <pubDate>Sat, 24 Jan 2026 01:01:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windows Kerberos驗證恐被DNS別名誘導，微軟補強HTTP服務防中繼攻擊</title>
+      <link>https://www.ithome.com.tw/news/173567</link>
+      <description>新聞資安業者Cymulate研究團隊揭露，Windows在進行Kerberos服務驗證時，建構服務主體名稱（Service Principal Name，SPN）的流程會跟隨DNS回應的CNAME別名，並以別名主機名稱向票證授權服務TGS索取服務票證。研究人員指出，要是攻擊者能在網路路徑上攔截或竄改受害者的DNS查詢，就可能誘導用戶端替攻擊者指定的SPN索取票證，再把票證中繼到未強制簽章或未強制通道（Channel）綁定權杖CBT的服務，達到冒用使用者身分存取資源的效果。 該風險的前提在於攻擊者能介入或改寫受害者的DNS流量，例如透過ARP欺騙、DHCPv4或DHCPv6投毒等手法取得中間人位置， 以影響DNS回應內容。研究人員指出，他們在多個已更新的Windows版本上都觀察到一致行為，並以SMB檔案分享與HTTP類服務為例說明，只有在服務端未強制簽章或未強制通道綁定權杖CBT時，中繼攻擊（Relay Attack）才較可能成立。 研究人員指出，該手法的風險在於降低了Kerberos中繼攻擊的既有限制。過去攻擊者往往難以左右用戶端會為哪一個服務主體名稱SPN索取服務票證，但一旦能利用</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173567</guid>
+      <pubDate>Sat, 24 Jan 2026 01:27:03 +0000</pubDate>
     </item>
   </channel>
 </rss>
