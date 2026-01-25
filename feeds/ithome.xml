@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Jan 2026 06:38:47 +0000</lastBuildDate>
-    <item>
-      <title>IT服務臺Zendesk遭到濫用，駭客以此發動大規模垃圾郵件攻擊</title>
-      <link>https://www.ithome.com.tw/news/173548</link>
-      <description>新聞駭客為了取得入侵企業網路環境的管道，透過社交工程攻擊的情況相當常見，其中一種手法在去年特別引人注目，那就是冒充公司員工對IT服務臺下手，因此，只要與此種類型平臺有關的攻擊活動，都相當值得留意。 根據資安新聞網站Bleeping Computer的報導，近期有許多人收到大量來自Zendesk寄出的不明郵件，儘管這些信件沒有惡意連結或是其他明顯的網釣特徵，然而這些郵件主題怪異，有些假裝是執法請求或取消訂單，也有提供免費Discord Nitro服務，甚至有求救信，以採用加粗的Unicode字體或夾雜多種語言的字體，而且數量相當龐大，還是讓不少使用者感到混亂，並擔心可能成為駭客鎖定的目標。 這些信件來自多家企業組織的Zendesk系統，涵蓋軟體服務業者、政府機關、健康照護，以及交通產業，包括：Discord、Tinder、Riot Games、Dropbox、CD Projekt（2k.com）、Maya Mobile、NordVPN、美國田納西州勞工部、田納西州稅務局、Lightspeed、CTL、Kahoot、Headspace，以及Lime。 攻擊者濫用Zendesk允許未經驗證用</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173548</guid>
-      <pubDate>Fri, 23 Jan 2026 04:17:12 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 25 Jan 2026 06:39:14 +0000</lastBuildDate>
     <item>
       <title>英特爾營收下滑4%，盤後股價大跌12%</title>
       <link>https://www.ithome.com.tw/news/173555</link>
@@ -80,6 +73,14 @@
       <description>新聞資安業者Cymulate研究團隊揭露，Windows在進行Kerberos服務驗證時，建構服務主體名稱（Service Principal Name，SPN）的流程會跟隨DNS回應的CNAME別名，並以別名主機名稱向票證授權服務TGS索取服務票證。研究人員指出，要是攻擊者能在網路路徑上攔截或竄改受害者的DNS查詢，就可能誘導用戶端替攻擊者指定的SPN索取票證，再把票證中繼到未強制簽章或未強制通道（Channel）綁定權杖CBT的服務，達到冒用使用者身分存取資源的效果。 該風險的前提在於攻擊者能介入或改寫受害者的DNS流量，例如透過ARP欺騙、DHCPv4或DHCPv6投毒等手法取得中間人位置， 以影響DNS回應內容。研究人員指出，他們在多個已更新的Windows版本上都觀察到一致行為，並以SMB檔案分享與HTTP類服務為例說明，只有在服務端未強制簽章或未強制通道綁定權杖CBT時，中繼攻擊（Relay Attack）才較可能成立。 研究人員指出，該手法的風險在於降低了Kerberos中繼攻擊的既有限制。過去攻擊者往往難以左右用戶端會為哪一個服務主體名稱SPN索取服務票證，但一旦能利用</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173567</guid>
       <pubDate>Sat, 24 Jan 2026 01:27:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>增設8個GbE埠機型，HPE大幅擴充CX入門級交換器陣容</title>
+      <link>https://www.ithome.com.tw/review/173558</link>
+      <description>在2021年，HPE針對遠端辦公室與中小企業市場增設專用的入門級L2交換器設備，名為Aruba CX 6000系列，長年提供48埠、24埠、12埠的GbE交換器組態，總共有6款機型，其中4款支援乙太網路供電（PoE）。在2023年5月發布的此系列硬體規格改款公告中，產品名稱從原本的Aruba CX 6000 Switch Series換成HPE Aruba Networking CX 6000 Switch Series。 到了今年1月中的全美年度零售業聯盟展（NRF），HPE展示其零售解決方案之餘，也宣布HPE Aruba Networking CX交換器在這當中扮演重要角色，而他們採取的具體行動就是大幅擴充CX 6000系列產品線，機型數量一口氣提升到22款之多，最顯著的改變在於，此系列開始提供8埠的GbE交換器組態，可支援零售業的POS終端機、物聯網設備，以及員工操作系統的安全連網需求。 改款的CX 6000系列同樣有不少機型支援PoE，因此，不僅便於部署無線網路基地臺、網路視訊監控攝影機，以及環境狀態感測器，也能藉此建置門市店面內部的多種數位服務，像是電子看板、智慧結帳系統，以</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/173558</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/hpe_aruba_networking_cx_6000_main.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 24 Jan 2026 07:02:23 +0000</pubDate>
     </item>
   </channel>
 </rss>
