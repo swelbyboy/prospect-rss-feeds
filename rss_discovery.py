@@ -227,34 +227,29 @@ def main():
     print("🔍 Parallel RSS Feed Discovery (with auto-save)")
     print("=" * 80)
 
-    # Read prospects from outreach_progress_tracker.csv where Status is null/empty
-    # Status meanings:
-    #   - null/empty = Need RSS discovery
-    #   - "No feed generated" = Previously couldn't find/generate a feed
-    #   - "To Do" = Feed found/generated, ready to use
-    #   - Other statuses = In various stages of outreach workflow
+    # Read prospects from prospects.csv where rss_feed is empty
+    # This is the master list of all prospects
     
     prospects_to_search = []
     try:
-        with open('outreach_progress_tracker.csv', 'r', encoding='utf-8') as f:
+        with open('prospects.csv', 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
-                status = row.get('Status', '').strip()
+                rss_feed = row.get('rss_feed', '').strip()
                 
-                # Only discover feeds for prospects with null/empty Status
-                # These are prospects that haven't had RSS discovery run yet
-                if not status:
+                # Only discover feeds for prospects without an RSS feed
+                if not rss_feed:
                     prospects_to_search.append({
-                        'id': row.get('id', row.get('Domain', '')),
-                        'company_name': row.get('Prospect Name', row.get('company_name', '')),
-                        'domain': row.get('Domain', row.get('domain', ''))
+                        'id': row.get('id', ''),
+                        'company_name': row.get('company_name', ''),
+                        'domain': row.get('domain', '')
                     })
         
-        print(f"📋 Loaded {len(prospects_to_search)} prospects with null Status from outreach_progress_tracker.csv")
+        print(f"📋 Loaded {len(prospects_to_search)} prospects without RSS feeds from prospects.csv")
         print(f"   (These prospects need RSS feed discovery)\n")
     
     except FileNotFoundError:
-        print("❌ outreach_progress_tracker.csv not found")
+        print("❌ prospects.csv not found")
         print("   Please ensure the file exists in the current directory")
         sys.exit(1)
     
