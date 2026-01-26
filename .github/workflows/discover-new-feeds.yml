@@ -46,8 +46,9 @@ jobs:
       - name: Discover RSS feeds for prospects without feeds
         env:
           GITHUB_CI: 'true'
+          PYTHONUNBUFFERED: '1'
         run: |
-          python3 rss_discovery.py
+          python3 -u rss_discovery.py
 
       - name: Commit discovery results (for resumability)
         if: always()
