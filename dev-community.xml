@@ -8,79 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Jan 2026 06:36:45 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jan 2026 06:41:38 +0000</lastBuildDate>
     <item>
-      <title>Building in Public while Job Hunting: My January Dev Update</title>
-      <link>https://dev.to/danqzq/building-in-public-while-job-hunting-my-january-dev-update-okf</link>
-      <description>Between building a versioned Redis implementation and getting screened by AI recruiters, January has been... a lot. Let's begin with the cool new stuff. New Projects mdspace - easily paste and share markdown files. I built this tool because I got tired of sharing markdown files with my peers. Either the formatting is not properly supported by the messenger or the text/file is too big. With mdspace - you paste the contents or upload the file and directly get a share link for viewing it. The tool</description>
-      <guid isPermaLink="false">https://dev.to/danqzq/building-in-public-while-job-hunting-my-january-dev-update-okf</guid>
-      <pubDate>Sun, 25 Jan 2026 05:58:48 +0000</pubDate>
+      <title>7 Best Resources to Master Blockchain Development in 2026</title>
+      <link>https://dev.to/stack_overflowed/7-best-resources-to-master-blockchain-development-in-2026-477o</link>
+      <description>When I first dove into blockchain development, I was overwhelmed. The tech felt like a maze of cryptographic puzzles, decentralized networks, and smart contracts. I floundered, hitting walls with half-understood concepts and cryptic tutorials. But through trial, error, and finding the right resources, I unlocked those barriers and built real blockchain apps. If you’re where I was, excited but overwhelmed, this post is for you. I’ve curated and tested the 7 best learning resources for blockchain</description>
+      <guid isPermaLink="false">https://dev.to/stack_overflowed/7-best-resources-to-master-blockchain-development-in-2026-477o</guid>
+      <pubDate>Mon, 26 Jan 2026 06:14:40 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Zero-Trust VPN: How I Wrapped OpenVPN and WireGuard with Modern Authentication</title>
-      <link>https://dev.to/jessedye/building-a-zero-trust-vpn-how-i-wrapped-openvpn-and-wireguard-with-modern-authentication-4cjn</link>
-      <description>Building a Zero-Trust VPN: How I Wrapped OpenVPN and WireGuard with Modern Authentication It started with my homelab. I have a modest setup—a few Proxmox nodes, some Kubernetes clusters, network storage, the usual suspects. I wanted secure remote access without exposing everything to the internet. Simple ask, right? The Search for a Solution I tried the modern zero-trust solutions first: Tailscale - Great product, but I wanted self-hosted. Their open-source Headscale works, but felt like I was f</description>
-      <guid isPermaLink="false">https://dev.to/jessedye/building-a-zero-trust-vpn-how-i-wrapped-openvpn-and-wireguard-with-modern-authentication-4cjn</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4h7v6fr5ilcj6m75w5ny.png" length="0" type="image/png"/>
-      <pubDate>Sun, 25 Jan 2026 06:02:19 +0000</pubDate>
+      <title>Next.js CI/CD Pipeline: Complete Implementation Guide for Automated Deployments</title>
+      <link>https://dev.to/sizan_mahmud0_e7c3fd0cb68/nextjs-cicd-pipeline-complete-implementation-guide-for-automated-deployments-314h</link>
+      <description>Build a production-ready CI/CD workflow for Next.js applications with GitHub Actions, automated testing, and zero-downtime deployments Manually deploying your Next.js application every time you push code is tedious, error-prone, and slows down your development velocity. A proper CI/CD (Continuous Integration/Continuous Deployment) pipeline automates testing, building, and deploying your application, allowing you to ship features faster with confidence. In this comprehensive guide, you'll learn h</description>
+      <guid isPermaLink="false">https://dev.to/sizan_mahmud0_e7c3fd0cb68/nextjs-cicd-pipeline-complete-implementation-guide-for-automated-deployments-314h</guid>
+      <pubDate>Mon, 26 Jan 2026 06:16:33 +0000</pubDate>
     </item>
     <item>
-      <title>Ever Wondered How Amazon Shopping Works on AWS?</title>
-      <link>https://dev.to/btanisha11/ever-wondered-how-amazon-shopping-works-on-aws-2l89</link>
-      <description>Have you ever thought about what happens when you: Open the Amazon app 📱 Search for a product 🔍 Add it to your cart 🛒 And complete your payment 💳 All in just a few seconds? Let’s go on a fun journey inside Amazon’s cloud brain — AWS (Amazon Web Services) 🚀 🤔 Step 1: You Type “amazon.com”… What Happens First? Question for you: 👉 How does Amazon know which server should respond to you? Answer: AWS Route 53 acts like a traffic police 🚦 and sends your request to the nearest data center. Then AWS Clo</description>
-      <guid isPermaLink="false">https://dev.to/btanisha11/ever-wondered-how-amazon-shopping-works-on-aws-2l89</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0rfdhua409b90owqguiy.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 25 Jan 2026 06:03:12 +0000</pubDate>
+      <title>🚀 The Algorithm Mastery Series ( part 2 )</title>
+      <link>https://dev.to/charles_kumar_30654e10958/the-algorithm-mastery-series-part-2--467l</link>
+      <description>Let's dive into the Tier 2 master space 🟡 TIER 2: PRODUCTION SYSTEMS (Build Real Infrastructure) Part 4: Load Balancing &amp;amp; Resource Optimization The infrastructure layer Focus: Distributing work efficiently at scale Problem: "How do I handle 1M requests/second without breaking the bank?" Topics: ├─ Intelligent load balancing algorithms ├─ Kubernetes autoscaling algorithms ├─ Resource allocation strategies ├─ Cost optimization (Docker/JVM tuning) └─ Cloud cost monitoring algorithms Real-world appl</description>
+      <guid isPermaLink="false">https://dev.to/charles_kumar_30654e10958/the-algorithm-mastery-series-part-2--467l</guid>
+      <pubDate>Mon, 26 Jan 2026 06:19:46 +0000</pubDate>
     </item>
     <item>
-      <title>Why leadership clarity matters more than vision in execution</title>
-      <link>https://dev.to/imperium_by_edstellar/why-leadership-clarity-matters-more-than-vision-in-execution-54ck</link>
-      <description>Most teams don’t fail because they lack vision. They fail because they don’t know what to do on Tuesday. Vision is directional. Clarity is operational. Execution depends far more on the second than the first. In product and engineering teams, ambitious visions are common. Clear leadership guidance is not. And when the two compete, clarity wins every time. Here’s why leadership clarity matters more than vision when real work has to get done. 1. Vision inspires, clarity decides Vision answers wher</description>
-      <guid isPermaLink="false">https://dev.to/imperium_by_edstellar/why-leadership-clarity-matters-more-than-vision-in-execution-54ck</guid>
-      <pubDate>Sun, 25 Jan 2026 06:05:00 +0000</pubDate>
+      <title>RExSyn Nexus 0.6.1 - Stop Hallucinating Proteins: How We Built a 7D Reasoning Engine with AlphaFold3</title>
+      <link>https://dev.to/flamehaven01/rexsyn-nexus-610-stop-hallucinating-proteins-how-we-built-a-7d-reasoning-engine-with-6fn</link>
+      <description>Before we talk about “BioAI agents,” we need to admit the real failure mode: LLMs are great at producing hypotheses that sound scientific — and quietly violate physics. In this post, I’ll show: why “plausible trash” happens in biomedical reasoning, how RExSyn Nexus v0.6.1 adds Structure as a first-class reasoning dimension, and how to run it (API + Python), with deterministic CI testing. The problem nobody likes to admit: “Plausible Trash” In autonomous biomedical research, LLMs can write hypoth</description>
+      <guid isPermaLink="false">https://dev.to/flamehaven01/rexsyn-nexus-610-stop-hallucinating-proteins-how-we-built-a-7d-reasoning-engine-with-6fn</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr67e3ydhdhzta8a9ocpw.png" length="0" type="image/png"/>
+      <pubDate>Mon, 26 Jan 2026 06:26:00 +0000</pubDate>
     </item>
     <item>
-      <title>Pingora Guide - How To Make A Programmable API Gateway</title>
-      <link>https://dev.to/warren_jitsing_dd1c1d6fc6/pingora-guide-how-to-make-a-programmable-api-gateway-1oim</link>
-      <description>GitHub: https://github.com/InfiniteConsult/pingora-guide Reference architecture in src is work-in-progress. Check back next week Pingora Guide Quick Start: The "Pingora City" Lab Lesson 0: The Raw Event Loop Lesson 1: Configuration &amp;amp; Lifecycle Lesson 2: Daemon Mode &amp;amp; Background Services Lesson 3: Graceful Shutdown Lesson 4: Threading Models Lesson 5: Background Services &amp;amp; Shared State Lesson 6: The Simple Forwarder Lesson 7: TLS Termination Lesson 8: Header Manipulation Lesson 9: Path Routing Le</description>
-      <guid isPermaLink="false">https://dev.to/warren_jitsing_dd1c1d6fc6/pingora-guide-how-to-make-a-programmable-api-gateway-1oim</guid>
-      <pubDate>Sun, 25 Jan 2026 06:07:06 +0000</pubDate>
+      <title>Reflections on Being a Developer in the Age of AI</title>
+      <link>https://dev.to/_e6641d4181e2ba2945d1f/reflections-on-being-a-developer-in-the-age-of-ai-12o9</link>
+      <description>There is a strange tension in the air lately. AI feels magical. At the same time, it makes many developers uneasy. We watch models write code, design systems, and even reason about architecture. It’s not unreasonable to ask: What happens to developers when AI gets this good? This post is not about fear, nor hype. It’s a reflection—from someone living through the transition. AI Feels Like Magic — Until You Look Closer When people talk about AI, they often imagine a magician waving a wand. You typ</description>
+      <guid isPermaLink="false">https://dev.to/_e6641d4181e2ba2945d1f/reflections-on-being-a-developer-in-the-age-of-ai-12o9</guid>
+      <pubDate>Mon, 26 Jan 2026 06:27:08 +0000</pubDate>
     </item>
     <item>
-      <title>How I Explained LLMs, SLMs &amp;amp; VLMs at Microsoft</title>
-      <link>https://dev.to/jaskirat_singh/how-i-explained-llms-slms-vlms-at-microsoft-3d5h</link>
-      <description>Why This Talk Mattered I recently had the opportunity to present my thoughts on LLMs, SLMs, and VLMs at the Microsoft office during a community event. This wasn’t just another AI talk filled with buzzwords and hype. The goal was simple but powerful: help students and professionals understand why not all AI models are built the same—and why that’s actually a good thing. This blog is a written walkthrough of that presentation. I’ll be embedding the same slides I used and expanding on the thinking</description>
-      <guid isPermaLink="false">https://dev.to/jaskirat_singh/how-i-explained-llms-slms-vlms-at-microsoft-3d5h</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv6mjzq5khzoj015sgn7k.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 25 Jan 2026 06:17:47 +0000</pubDate>
+      <title>Perl 🐪 Weekly #757 - Contribute to CPAN!</title>
+      <link>https://dev.to/szabgab/perl-weekly-757-contribute-to-cpan-5e8b</link>
+      <description>Originally published at Perl Weekly 757 Hi there! On Saturday, (evening for me, noon-ish in the Americas) we had an excellent meeting and there are recordings you can watch. In the first hour I showed some PRs I sent to MIME::Lite. You can watch the video here. In the second hour we changed the setup and we continued in driver-navigator style pair programming. I was giving the instructions and two other participants made the changes and sent the PR. Others in the audience made suggestions. So ac</description>
+      <guid isPermaLink="false">https://dev.to/szabgab/perl-weekly-757-contribute-to-cpan-5e8b</guid>
+      <pubDate>Mon, 26 Jan 2026 06:29:33 +0000</pubDate>
     </item>
     <item>
-      <title>Run an LLM Locally to Interact with your Documents</title>
-      <link>https://dev.to/coding_dev_/run-an-llm-locally-to-interact-with-your-documents-3ncj</link>
-      <description>Imagine using ChatGPT… but fully offline, private, and connected to your own documents. In this guide, you’ll set up a complete local AI stack using Ollama + OpenWebUI, and make it capable of answering questions from your PDFs, notes, or knowledge base. No cloud. No API costs. Your data stays on your machine. What You’ll Build A local LLM running on your laptop A ChatGPT‑like web interface AI that can search and answer using your own documents Optional memory + custom behavior using system promp</description>
-      <guid isPermaLink="false">https://dev.to/coding_dev_/run-an-llm-locally-to-interact-with-your-documents-3ncj</guid>
-      <pubDate>Sun, 25 Jan 2026 06:19:03 +0000</pubDate>
+      <title>You Don't Need a Mac Mini to Run Clawdbot - Here's How to Run It Anywhere</title>
+      <link>https://dev.to/sivarampg/you-dont-need-a-mac-mini-to-run-clawdbot-heres-how-to-run-it-anywhere-217l</link>
+      <description>Clawdbot is taking the tech world by storm. If you've been on Twitter, Reddit, or tech blogs lately, you've probably seen the flood of posts showing off freshly unboxed Mac Minis. People are buying these $599+ machines just to run an AI assistant. But here's the thing: you don't actually need a Mac Mini. Let me show you how to run Clawdbot on hardware you probably already have, or for as little as $3-5/month. Even the creator of Clawdbot is trying to explain that they don't need expensive machin</description>
+      <guid isPermaLink="false">https://dev.to/sivarampg/you-dont-need-a-mac-mini-to-run-clawdbot-heres-how-to-run-it-anywhere-217l</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fh7i0pyuhcdra08e53zui.png" length="0" type="image/png"/>
+      <pubDate>Mon, 26 Jan 2026 06:29:48 +0000</pubDate>
     </item>
     <item>
-      <title>Spring Boot 4 + Spring Security 6 入門教學</title>
-      <link>https://dev.to/cyrustse/spring-boot-4-spring-security-6-ru-men-jiao-xue-5ekh</link>
-      <description>從零開始建構安全的 Web 應用程式 第一章：前言與開發環境準備 在當今的軟體開發領域，安全不再是可選的附加功能，而是每個應用程式的核心需求。當你開發任何 Web 應用程式時，你必須考慮四個關鍵問題：首先是身份驗證，確認使用者是他們聲稱的那個人；其次是授權，決定已驗證的使用者可以做什麼；第三是資料保護，防止敏感資訊外洩；最後是攻擊防禦，抵禦 SQL 注入、XSS、CSRF 等常見攻擊。 Spring Boot 是 Spring 框架的「Opinionated」版本，意指它已經為你做了許多預設配置。傳統的 Spring 應用程式需要大量的 XML 配置文件和複雜的設定，但 Spring Boot 徹底改變了這一切。它的核心優勢包括：自動配置功能會根據你添加到專案的依賴自動配置應用程式；內嵌伺服器讓你告別複雜的 WAR 部署；Starter 依賴使一行代碼即可引入完整的技術棧；Actuator 提供健康檢查、監控和管理端點。 Spring Security 則是 Java 生態系統中最強大、最靈活的安全框架。它的優勢涵蓋：從基礎的表單登入到 OAuth2、OIDC、JWT 的全面安全解決方</description>
-      <guid isPermaLink="false">https://dev.to/cyrustse/spring-boot-4-spring-security-6-ru-men-jiao-xue-5ekh</guid>
-      <pubDate>Sun, 25 Jan 2026 06:19:56 +0000</pubDate>
+      <title># 🪦 RIP CocoaPods (2011-2026): What Every iOS Developer Must Do NOW</title>
+      <link>https://dev.to/diskcleankit/-rip-cocoapods-2011-2026-what-every-ios-developer-must-do-now-5eed</link>
+      <description>After 15 years of faithful service, CocoaPods is officially dying. On December 2, 2026, the CocoaPods trunk will become permanently read-only. No new pods. No updates. Game over. If you're an iOS developer, React Native developer, or Flutter developer — this affects YOU. Here's your complete survival guide. 📢 What Details 💀 Death Date December 2, 2026 ❌ What Stops New pods, updates to existing pods ✅ What Still Works Existing projects (for now) 🎯 Your Action Migrate to Swift Package Manager ⏰ Ti</description>
+      <guid isPermaLink="false">https://dev.to/diskcleankit/-rip-cocoapods-2011-2026-what-every-ios-developer-must-do-now-5eed</guid>
+      <pubDate>Mon, 26 Jan 2026 06:32:24 +0000</pubDate>
     </item>
     <item>
-      <title>🧠 RAG in 2026: A Practical Blueprint for Retrieval-Augmented Generation</title>
-      <link>https://dev.to/suraj_khaitan_f893c243958/-rag-in-2026-a-practical-blueprint-for-retrieval-augmented-generation-16pp</link>
-      <description>How to make LLMs feel “grounded” in your data—without turning your app into a prompt-factory. Large Language Models are incredible at language, but they still have two awkward traits in production: They don’t know your private data by default (docs, tickets, code, policies). They can sound confident even when they’re guessing. Retrieval-Augmented Generation (RAG) is the most reliable pattern I’ve used to fix both—by giving the model just-in-time access to relevant context at the moment it answer</description>
-      <guid isPermaLink="false">https://dev.to/suraj_khaitan_f893c243958/-rag-in-2026-a-practical-blueprint-for-retrieval-augmented-generation-16pp</guid>
-      <pubDate>Sun, 25 Jan 2026 06:20:17 +0000</pubDate>
+      <title>Autopilot - La Pesadilla de las APIs: Cómo vencí a la burocracia de LinkedIn para automatizar mi empresa</title>
+      <link>https://dev.to/datalaria/autopilot-la-pesadilla-de-las-apis-como-venci-a-la-burocracia-de-linkedin-para-automatizar-mi-1dfj</link>
+      <description>Hasta ahora, todo era divertido. Teníamos agentes de IA con personalidades cínicas (Post 3) y un cerebro capaz de analizar texto (Post 2). Pero todo vivía en la seguridad de mi terminal, en localhost. Para que Datalaria Autopilot fuera real, tenía que salir al mundo. Aquí es donde el proyecto dejó de ser un problema de ingeniería y se convirtió en una batalla contra la Burocracia de las APIs. El Objetivo: Publicar como Marca, no como Persona Mi requisito era claro: No quiero que el bot publique</description>
+      <guid isPermaLink="false">https://dev.to/datalaria/autopilot-la-pesadilla-de-las-apis-como-venci-a-la-burocracia-de-linkedin-para-automatizar-mi-1dfj</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkebkr815hixk9t2q241s.png" length="0" type="image/png"/>
+      <pubDate>Mon, 26 Jan 2026 06:32:32 +0000</pubDate>
     </item>
     <item>
-      <title>Top 10 VS Code Extensions for PHP Developers in 2026</title>
-      <link>https://dev.to/arafatweb/top-10-vs-code-extensions-for-php-developers-in-2026-199m</link>
-      <description>PHP remains a core language for backend development, powering applications from small websites to large enterprise systems. Visual Studio Code has become the editor of choice for many PHP developers because of its speed, flexibility, and strong extension ecosystem. When I first started using VS Code for PHP, choosing the right extensions was confusing. There were dozens of options, many overlapping, and some already outdated. Over time, I narrowed things down to a small set of extensions that ge</description>
-      <guid isPermaLink="false">https://dev.to/arafatweb/top-10-vs-code-extensions-for-php-developers-in-2026-199m</guid>
-      <pubDate>Sun, 25 Jan 2026 06:28:22 +0000</pubDate>
+      <title>Why You Don't Have to Restart Your PC Anymore: A Kernel Perspective</title>
+      <link>https://dev.to/benes/why-you-dont-have-to-restart-your-pc-anymore-a-kernel-perspective-59bd</link>
+      <description>Remember the ritual? You’d spend 15 minutes downloading a simple PDF reader or a peripheral driver, click "Finish," and then—the final boss appears: "You must restart your computer for these changes to take effect." 🛑 As a developer, this wasn't just an annoyance; it was a total context-switch killer. But if you look at your uptime today, you’ve probably installed ten apps this week without a single reboot. So, what actually changed in the kernel? Did we just get "better" at coding, or did the a</description>
+      <guid isPermaLink="false">https://dev.to/benes/why-you-dont-have-to-restart-your-pc-anymore-a-kernel-perspective-59bd</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ft4e76o96khnuzzrsfm4y.png" length="0" type="image/png"/>
+      <pubDate>Mon, 26 Jan 2026 06:35:47 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,72 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Jan 2026 06:39:14 +0000</lastBuildDate>
-    <item>
-      <title>英特爾營收下滑4%，盤後股價大跌12%</title>
-      <link>https://www.ithome.com.tw/news/173555</link>
-      <description>新聞英特爾（Intel）於周四（1/22）公布2025年第四季財報，該季營收為137億美元，較前一年同期下滑4%。由於受到供應鏈短缺與保守展望影響，英特爾盤後股價下滑12%，跌至47.8美元。 在營收表現上，該季用戶端運算事業群（CCG）創下82億美元營收，下滑7%；資料中心與AI事業群（DCAI）營收為47億美元，比前一年同期成長9%；英特爾晶圓代工（Intel Foundry）營收45億美元，成長4%，但部門間交易抵銷為43億美元。 英特爾在2025年第四季虧損了6億美元，高於去年同期1億美元的虧損。 至於英特爾2025全年營收為529億美元，與2024年基本持平。受惠於成本重組計畫，全年淨虧損由前一年度的188億美元大幅收斂至2.67億美元。其中，英特爾晶圓代工（Intel Foundry）全年營運虧損高達103億美元，彰顯出英特爾正利用設計晶片的獲利來補貼代工業務的巨大支出。 英特爾執行長陳立武表示，英特爾對CPU在AI時代的核心地位充滿信心，18A製程在美已進入高產量製造，是轉型的重要里程碑，未來將透過強化執行力與工程卓越，全面捕捉AI市場的龐大機遇。 Intel 18A為英</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173555</guid>
-      <pubDate>Fri, 23 Jan 2026 05:57:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNU Inetutils套件中的telnetd服務可讓攻擊者取得Root權限的重大漏洞 近日遭人企圖濫用</title>
-      <link>https://www.ithome.com.tw/news/173556</link>
-      <description>新聞資安廠商Greynoise發現，GNU Inetutils套件中的telnetd服務一項11年後才被發現的漏洞，近日已有企圖濫用存取系統。 研究人員觀察到從1月22日起24小時內，開始有數個IP位址企圖登入GNU Inetutils telnetd程式，可能為惡意活動。 telnetd程式在啟動使用者登入時，會讀取並傳遞客戶端提供的環境變數（USER）。編號CVE-2026-24061的漏洞，出在GNU Inetutils的telnetd（telnet daemon）對USER變數驗證不當，使攻擊者透過在輸入中加入-f root值，得以繞過驗證流程，獲得root權限。比利時網路安全中心警告，濫用本漏洞可能讓攻擊者讀取敏感資料、修改系統配置、執行任意指令、毀損系統可用性。 根據NIST漏洞資料庫，本漏洞CVSS風險評分達9.8。原因是本漏洞可讓非經驗證的攻擊者從網路遠端發動，易於操作、且不需使用者互動，而且濫用後果嚴重性高。 The Register指出，這漏洞是導因於2015年該軟體引入的變更，直到現在才被研究人員揭露。 最新漏洞影響GNU InetUtils 1.9.3到2.7，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173556</guid>
-      <pubDate>Fri, 23 Jan 2026 06:23:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>【資安日報】1月23日，Fortinet單一簽入功能重大漏洞傳出攻擊活動</title>
-      <link>https://www.ithome.com.tw/news/173553</link>
-      <description>新聞Fortinet單一登入整合功能的重大漏洞傳出攻擊活動，防火牆遭變更組態 Fortinet去年12月公布並修補FortiCloud單一登入（SSO）漏洞，近日被安全研究人員發現網路上又再度出現濫用活動，篡改受害FortiGate裝置配置。 從今年1月15日起，Arctic Wolf研究人員發現，新一波針對FortiGate裝置的惡意活動為自動執行，在非授權情況下變更防火牆配置，主要目的在建立新的通用帳號以便持久存取，變更防火牆配置可讓攻擊者以VPN存取這些帳號及外洩防火牆配置。 遭到利用的是Fortinet上個月修補的重大驗證繞過漏洞：CVE-2025-59718與CVE-2025-59719，在開啟FortiCloud單一登入功能的Fortinet設備上，攻擊者傳送變造的SAML訊息，就有機會繞過單一登入機制存取裝置，CVSS風險值皆高達9.8。 IT服務臺Zendesk遭到濫用，駭客以此發動大規模垃圾郵件攻擊 駭客為了取得入侵企業網路環境的管道，透過社交工程攻擊的情況相當常見，其中一種手法在去年特別引人注目，那就是冒充公司員工對IT服務臺下手，因此，只要與此種類型平臺有關的攻擊</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173553</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/zendesk-emails.png" length="0" type="image/png"/>
-      <pubDate>Fri, 23 Jan 2026 06:32:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dell翻新8-GPU運算系統，採用Blackwell架構HGX B300平臺</title>
-      <link>https://www.ithome.com.tw/review/173530</link>
-      <description>在2025年3月GTC大會，Nvidia發表新一代的Blackwell Ultra平臺，當中包含整櫃型融合式GPU伺服器系統GB300 NVL72，以及8-GPU伺服器系統HGX B300，預計下半年將會透過多家伺服器廠商供應，Dell正是其中之一，而在5月舉行的Dell Technologies World年度大會期間，該公司預告將推出搭配Nvidia HGX B300的4款伺服器，氣冷機型是XE9780與XE9785，導入直接液冷的機型是XE9780L與XE9785L，透過這些產品建構AI工廠解決方案，支撐大型AI應用系統，獲得因應嚴苛運算需求，以及多個模型推論工作負載的運算能力。 到了9月下半的Dell Technologies Forum 2025，Dell正式在臺介紹上述4款機型，可惜的是，當時他們並未在活動陳列這些硬體設備，而是在現場展示的GPU伺服器旁邊XE7745，放了指示牌。 之後，他們也陸續在網站公布XE9780、XE9785L、XE9785的技術指南。 就體型而言，XE9780與XE9785均採用10U尺寸機箱，前者搭配兩顆英特爾Xeon 6系列處理器（最多86核</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/173530</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/dell_xe9780_main.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 23 Jan 2026 06:48:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>特斯拉無人計程車正式上路了</title>
-      <link>https://www.ithome.com.tw/news/173557</link>
-      <description>新聞特斯拉執行長馬斯克（Elon Musk）本周四（1/22）透過X平臺宣布，特斯拉無人計程車（Robotaxi）服務在德州奧斯汀（Austin）邁出關鍵一步，正式開始提供無車內安全監管員的乘客載運服務。 特斯拉Robotaxi於2025年6月正式在德州奧斯汀展開初步測試，最初採邀請制並由Model Y車型組成。乘客需透過專屬的Robotaxi App註冊叫車，上車後可藉由車內觸控螢幕自訂空調、座椅及音樂，雖然沒有駕駛員，但前方座位仍設置一名人類安全監督員。隨後特斯拉將該服務擴展至加州，迄今總計已有超過200輛Robotaxi上路。 特斯拉AI主管Ashok Elluswamy在同一天表示，目前正將無人監管的Robotaxi車輛逐步混入現有的測試車隊中，之後將持續增加無人監管車輛的比例與總數。 不過，儘管車隊規模持續擴大，但目前僅有奧斯汀獲准移除安全監管員，加州車隊依法仍須配備人類駕駛員。 特斯拉面臨Alphabet旗下Waymo的強力競爭。與特斯拉剛起步的混合部署不同，Waymo的全數車隊皆為完全無人駕駛，且早已在舊金山、鳳凰城與洛杉磯等地常態性經營超過1,500輛無人車，在本周進軍</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173557</guid>
-      <pubDate>Fri, 23 Jan 2026 07:03:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>愛爾蘭新法草案允許警察使用間諜軟體</title>
-      <link>https://www.ithome.com.tw/news/173559</link>
-      <description>新聞愛爾蘭一項新法案允許警方使用間諜軟體來截取人民所有通訊內容，以偵辦及防範犯罪及國家安全危害事件。 這項法案名為通訊攔截與合法存取法案（Communications Interception and Lawful Access Bill）是由愛爾蘭司法、內政暨移民部提出的新法草案，本法案旨在反映現代通訊技術環境的變化，將更新並取代20多年前制訂的《郵政包裹與電信訊息法Regulation Act》，以作為「合法攔截通訊」的法規框架。 愛爾蘭司法大臣Jim O'Callaghan指出，因應重大犯罪及安全威脅，該國具有迫切需求以新法規框架支持合法攔截通訊。 本法案可允許執法機關針對任何能傳送及接收訊息的數位裝置和服務進行合法截聽，包括物聯網、電子郵件和數位通訊服務，不論這些通訊是否有加密，也允許執法單位取得內容、相關metadata（包括收發人士、地點、來源及目的地IP），也可用於包裹服務。 在技術面，新法案提供框架，允許執法機關使用隱蔽的間諜軟體（spyware）合法攔截通訊內容，也允許使用某些電子掃描設備在特定區域定位與記錄移動設備的識別數據。 愛爾蘭官員並聲稱，政府會設立司法授權機</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173559</guid>
-      <pubDate>Fri, 23 Jan 2026 07:21:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Waymo無人計程車服務擴張至邁阿密</title>
-      <link>https://www.ithome.com.tw/news/173560</link>
-      <description>新聞Waymo周四（1/22）宣布，即日起向一般民眾開放在邁阿密搭乘其全自動駕駛計程車服務，成為該市首個對公眾提供無人計程車服務的業者。 迄今Waymo在全美已於舊金山、洛杉磯、鳳凰城、奧斯汀及亞特蘭大五大城市穩定營運。總車隊規模約2,500輛，每週載客超過45萬次。另也於英國倫敦與日本東京等海外城市展開測試。 外界認為進軍邁阿密可視為Waymo的重要里程碑。因為邁阿邁不僅有強烈的太陽與暴雨等惡劣天氣，也有複雜的交通，可替Waymo的技術進行壓力測試，也是Waymo進入全國化複製的關鍵分水嶺。 此外，Waymo也強調，根據超過1.27億英里的全自動行駛數據，Waymo在營運區內的嚴重受傷事故率較人類駕駛降低了10倍。 目前Waymo於邁阿密的服務採用分階段邀請制，首波僅支援60平方英里的服務區域，從Design District、Wynwood到Brickell與Coral Gables，很快就會擴展至邁阿密國際機場，目前當地已有接近1萬名居民完成註冊。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173560</guid>
-      <pubDate>Fri, 23 Jan 2026 07:33:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Yelp以3億美元收購AI客服Hatch</title>
-      <link>https://www.ithome.com.tw/news/173569</link>
-      <description>新聞全球在地生活評論巨頭Yelp周三（1/21）宣布，已與AI潛在客戶管理暨通訊（Lead Management and Communication）平臺Hatch簽署併購協議，將以3億美元的現金收購Hatch，以加速Yelp的AI轉型。 成立於2004年的Yelp是全球最大的在地商家評論平臺，透過用戶真實的星級評價與照片，成為消費者找餐廳、水電修繕或各類生活服務的首選；隨後進化為全方位商務平臺，讓用戶直接於App中完成預約、點餐、或傳訊索取服務報價。根據Yelp在2025年第三季的財報，該季Yelp締造3.76億美元的營收，成長4%，獲利3,900萬美元；其中有95%為廣告營收，另外的5%屬於資料授權等其它營收。 至於創立於2018年的Hatch則是家專注於AI驅動的通訊及潛在客戶管理業者，著重於協助客戶有效地回覆大量湧入的諮詢。Hatch所開發的SaaS平臺利用AI技術，可自動發起與客戶的對話，涵蓋簡訊、電子郵件與電話等多種管道，且除了罐頭回覆外，也能進行個人化的雙向溝通，引導潛在客戶完成預約或確認需求，從而大幅提升轉化率並降低營運成本。 Yelp共同創辦人兼執行長Jeremy S</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173569</guid>
-      <pubDate>Sat, 24 Jan 2026 01:01:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Windows Kerberos驗證恐被DNS別名誘導，微軟補強HTTP服務防中繼攻擊</title>
-      <link>https://www.ithome.com.tw/news/173567</link>
-      <description>新聞資安業者Cymulate研究團隊揭露，Windows在進行Kerberos服務驗證時，建構服務主體名稱（Service Principal Name，SPN）的流程會跟隨DNS回應的CNAME別名，並以別名主機名稱向票證授權服務TGS索取服務票證。研究人員指出，要是攻擊者能在網路路徑上攔截或竄改受害者的DNS查詢，就可能誘導用戶端替攻擊者指定的SPN索取票證，再把票證中繼到未強制簽章或未強制通道（Channel）綁定權杖CBT的服務，達到冒用使用者身分存取資源的效果。 該風險的前提在於攻擊者能介入或改寫受害者的DNS流量，例如透過ARP欺騙、DHCPv4或DHCPv6投毒等手法取得中間人位置， 以影響DNS回應內容。研究人員指出，他們在多個已更新的Windows版本上都觀察到一致行為，並以SMB檔案分享與HTTP類服務為例說明，只有在服務端未強制簽章或未強制通道綁定權杖CBT時，中繼攻擊（Relay Attack）才較可能成立。 研究人員指出，該手法的風險在於降低了Kerberos中繼攻擊的既有限制。過去攻擊者往往難以左右用戶端會為哪一個服務主體名稱SPN索取服務票證，但一旦能利用</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173567</guid>
-      <pubDate>Sat, 24 Jan 2026 01:27:03 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 26 Jan 2026 06:44:28 +0000</lastBuildDate>
     <item>
       <title>增設8個GbE埠機型，HPE大幅擴充CX入門級交換器陣容</title>
       <link>https://www.ithome.com.tw/review/173558</link>
@@ -81,6 +16,72 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/review/173558</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/hpe_aruba_networking_cx_6000_main.jpg" length="0" type="image/jpeg"/>
       <pubDate>Sat, 24 Jan 2026 07:02:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>採用Xeon 6、提供6TB記憶體，AWS擴增記憶體最佳執行個體</title>
+      <link>https://www.ithome.com.tw/review/173571</link>
+      <description>在去年12月初舉行的re:Invent大會期間，AWS發表新的記憶體最佳化執行個體服務Amazon EC2 X8i預覽版，當中採用訂製版的英特爾Xeon 6處理器平臺，可提供公有雲領域最高的運算效能與最快的記憶體存取，適用的工作負載類型，包括記憶體內資料庫與資料分析系統、大型傳統資料庫系統、電子設計自動化系統。 相較於上一代X2i執行個體，X8i記憶體容量最高可提供到1.5倍（4 TB vs. 6 TB），記憶體頻寬增長至3.4倍。至於8月上市的R8i，同樣採用訂製版的英特爾Xeon 6處理器，記憶體容量最高可提供到3 TB。 此時SAP也宣布認證X8i的應用系統效能測試數據，AWS表示，相較於X2i執行個體，X8i的效能領先幅度為46％。若用於某些類型的工作負載，X8i效能比X2i高出35％。 到了今年1月中，AWS宣布X8i正式上線，初期在4個雲端區域供應：美國東部（北維吉尼亞）、美國西部（俄亥俄）、美國西部（奧勒岡）、歐洲（法蘭克福），採用的訂製型Xeon 6處理器，所有核心的時脈均維持在3.9 GHz，而在硬體規格與效能突破方面，對比於X2i，X8i的最大記憶體容量如預告為1.</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/173571</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/aws_amazon_ec2_x8i-main.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 25 Jan 2026 08:49:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Android Studio Otter 3擴大代理式開發支援，可改用第三方與本機模型</title>
+      <link>https://www.ithome.com.tw/news/173568</link>
+      <description>新聞Google釋出Android應用程式整合開發環境Android Studio Otter 3 Feature Drop 2025.2.3穩定版，其更新重點放在代理式開發工作流程，讓IDE內建AI功能可改用開發團隊自選的大型語言模型，涵蓋第三方遠端模型與本機模型兩種方式。另外，也強化代理模式Agent Mode的裝置互動與變更審查機制，並加入以自然語言撰寫的旅程測試，以及透過MCP協定串接外部工具等功能。 Android Studio新增遠端模型介接機制，用戶可在IDE內配置第三方模型供應商並使用既有API端點與金鑰。除了OpenAI的GPT與Anthropic的Claude等遠端模型，也支援透過LM Studio或Ollama等提供者使用本機模型，對連線受限或希望降低資料洩漏的環境提供替代途徑。 Google提醒，IDE在使用AI功能時可能會把輸入內容送往所選模型供應商，而Gemini仍會是預設建議，改用其他模型實際體驗與可用能力會因供應商而異。 Android Studio Otter 3將代理的工作範圍延伸到驗證修改結果。代理可將應用部署到連接裝置，讀取畫面並截圖，檢視Log</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173568</guid>
+      <pubDate>Mon, 26 Jan 2026 00:43:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI應用開發框架Chainlit爆高風險漏洞，恐遭濫用入侵雲端環境</title>
+      <link>https://www.ithome.com.tw/news/173563</link>
+      <description>新聞每月下載量達數十萬次、廣泛用於打造對話式與代理型AI服務的開源框架Chainlit，近日被資安研究人員揭露存在兩項高風險資安漏洞。在特定部署條件下，相關弱點可能遭攻擊者濫用，導致未經授權存取應用資料，甚至成為入侵雲端環境的切入點，已引發資安社群關注。 根據美國國家漏洞資料庫（NVD）公布的資訊，Chainlit相關漏洞分別被指派為CVE-2026-22218與CVE-2026-22219。其中，CVE-2026-22218為任意檔案讀取漏洞，源於存取控制機制不足，在特定情況下，已通過身分驗證的攻擊者，可能藉由框架的自定元素端點讀取伺服器的檔案內容，CVSS風險分數為7.1分。另一項CVE-2026-22219則屬於伺服器端請求偽造（Server-Side Request Forgery，SSRF）類型漏洞，可能被用來對內部或雲端服務發送未預期的請求，CVSS風險分數高達8.3分，兩者皆被評為高風險等級。 揭露這組漏洞的雲端資安公司Zafran將其命名為「Chainleak」，並指出當Chainlit被部署於多租戶或雲端原生環境時，相關風險將進一步放大。研究人員表示，在缺乏額外防護措</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173563</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0123-chainlit-600-1.png" length="0" type="image/png"/>
+      <pubDate>Mon, 26 Jan 2026 02:48:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>約10萬個WordPress網站使用的ACF Extended外掛，存在高風險漏洞可讓攻擊者取得管理權限</title>
+      <link>https://www.ithome.com.tw/news/173570</link>
+      <description>新聞WordPress外掛ACF Extended近日被揭露存在高風險資安漏洞，未經驗證的攻擊者在特定條件下，可能直接建立具備管理員權限的帳號，進而取得完整網站控制權。該漏洞已被編號為CVE-2025-14533，CVSS風險評分高達9.8分，屬於重大（Critical）等級。 ACF Extended定位為補強Advanced Custom Fields功能的WordPress外掛，主要用於協助網站開發者建立自訂內容欄位，並延伸前端表單的應用情境，例如讓訪客或會員透過表單提交內容，甚至進行使用者資料的新增與更新。 後端驗證不足，使用者角色限制可被繞過 CVE-2025-14533漏洞最早由資安研究人員Andrea Bocchetti通報。根據資安媒體Bleeping Computer與WordPress資安公司Wordfence的分析，問題出在ACF Extended處理「新增或更新使用者」的前端表單時，未在後端正確驗證可指派的使用者角色。 即便網站管理者已在外掛設定中，限制前端表單可指派的使用者角色，攻擊者仍可透過自行構造的請求，指定帳號角色為administrator，成功建立或</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173570</guid>
+      <pubDate>Mon, 26 Jan 2026 02:49:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>歐盟擬修訂網路安全法案，強化供應鏈資安管理並限制高風險供應商</title>
+      <link>https://www.ithome.com.tw/news/173572</link>
+      <description>新聞歐盟執委會（European Commission）於1月20日公布新一波「網路安全包裹法案（Cybersecurity Package）」，內容包括修訂《歐盟網路安全法》（EU Cybersecurity Act）、擴大歐盟網路安全局（European Union Agency for Cybersecurity，ENISA）職權，以及推動供應鏈去風險化措施。歐盟藉此希望把過去僅具政策指引性質、各成員國執行程度不一的供應鏈風險管理，納入具法律拘束力的共同規範。 5G安全工具箱落實程度不一，成為推動修法的關鍵原因 歐盟此次推動修法，與2020年推出的「5G網路安全工具箱」（EU 5G Security Toolbox）執行成效有限有關。該工具箱屬於自願性措施，各成員國在限制高風險供應商的作法與進度上落差明顯，使歐盟難以在整體層級確保通訊網路與關鍵基礎設施的安全水準，也促使執委會轉而尋求具有法律拘束力的制度途徑。 地緣政治與網路威脅升高，供應鏈安全成為國安議題 歐盟執委會指出，近年地緣政治情勢與網路威脅持續升高，國家級行為者與犯罪組織對關鍵產業的滲透與攻擊風險增加，供應鏈安全已不再只</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173572</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0124-Cybersecurity%20Package-600-PDF.png" length="0" type="image/png"/>
+      <pubDate>Mon, 26 Jan 2026 02:51:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>駭客宣稱駭入Nike竊得近19萬份檔案</title>
+      <link>https://www.ithome.com.tw/news/173575</link>
+      <description>新聞運動鞋及服飾巨擘Nike遭傳被駭，竊走近19萬份資料，已展開調查。 知名資安研究人員Dominic Alvieri上周發現駭客組織WorldLeaks在其官網張貼公告，宣稱駭入Nike，竊得18.8萬份檔案、共1.4TB資料。 駭客還貼出了螢幕擷圖以證實所言。根據貼圖，外洩的資料可能來自一家分公司，至少包含製造端，像是多個系列的製造和工廠資料。從研究人員張貼的駭客貼文擷圖中的倒數日期來判斷，WorldLeaks駭客可能是威脅Nike，若不在時限前聯繫或支付贖金，就會公開手中的資料。 Nike對媒體表示，公司非常重視消費者隱私和資料安全，現已著手調查可能的資料安全事故及評估狀況。 資安業者指出，WorldLeaks原以Hunters International之名活動，他們透過勒索軟體加密竊取企業用戶資料，藉此勒索贖金。去年這個組織在警方加強查緝後改為現名，並在ShinyHunters成員被捕後興起。 SecurityWeek報導，WorldLeaks官網列出了100多家受害企業，包括Dell及德國珠寶品牌CHRIST Juweliere。 這是近期發生資料外洩的服飾品牌。去年Eve</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173575</guid>
+      <pubDate>Mon, 26 Jan 2026 03:34:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>惡意軟體測試服務AVCheck遭瓦解後，荷蘭警方逮捕疑似實際營運者</title>
+      <link>https://www.ithome.com.tw/news/173573</link>
+      <description>新聞多國執法單位在2025年中旬瓦解惡意軟體測試服務AVCheck後，近期出現新進展。資安媒體Hackread引述執法單位消息指出，荷蘭警方本月在阿姆斯特丹逮捕33歲荷蘭籍男子，疑似為AVCheck實際營運者。 另依荷蘭檢察署Openbaar Ministerie發布的官方聲明，該名嫌犯涉嫌長期營運一項支援網路犯罪的線上服務，內容包括協助測試惡意軟體是否能避開防毒軟體偵測的測試功能，並被認為與AVCheck平臺的實際營運有關，相關調查目前仍在進行中。 AVCheck在網路犯罪中的角色 荷蘭警方說明，AVCheck屬於所謂的「反防毒測試服務」（Counter Antivirus，CAV），主要供惡意軟體開發者測試其程式是否會被主流防毒產品偵測。使用者可將惡意程式樣本上傳至平臺，比對多款防毒引擎的掃描結果，再依據回饋內容調整程式碼，以降低被攔截的機率。 這類服務常被用於勒索軟體、木馬程式等惡意程式的開發過程，屬於攻擊前的準備環節。透過反覆測試與修改，攻擊者可提高惡意程式在實際攻擊中成功取得初始存取權限的機率，使AVCheck成為網路犯罪即服務生態系中的關鍵基礎服務之一。 警方指出，也正因為</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173573</guid>
+      <pubDate>Mon, 26 Jan 2026 03:56:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>未設密碼防護的資料庫系統暴露在公開網路，外洩，iCloud、Gmail、Netflix等近1.5億筆憑證曝險</title>
+      <link>https://www.ithome.com.tw/news/173576</link>
+      <description>新聞研究人員揭露一個雲端資料庫未設置密碼或套用加密防護，使Gmail、Outlook、iCloud、Netflix、Facebook等主要雲端服務及知名平臺的帳號、密碼等近1.5億筆憑證曝險。 這個資料庫是由ExpressVPN研究人員Jeremiah Fowler發現，資料庫內有149,404,754筆不重複登入帳號及密碼，資料量達96GB。研究人員抽取的部分資料，顯示內含電子郵件信箱地址、使用者名稱、密碼和URL。 研究人員估計公開的資料涵括主要雲端郵件服務及雲端服務。包括Gmail 4,800萬筆、Yahoo 400萬筆、Outlook 150萬筆、iCloud 9萬筆，以及.edu平臺憑證140萬筆。其他重要資料源包含Facebook 1,700萬筆、Netflix 340萬筆、IG 650萬筆、TikTok 78萬筆、Binance 42萬筆和OnlyFans 10萬筆。 此外還有.gov網域相關的憑證，研究人員指出，雖然不是所有政府帳號都能存取敏感系統，但這些憑證可能被用作精準釣魚、冒充或被用以登入政府網路，而.gov憑證外洩的增加可能影響國家安全和公共安全。 這個資料庫沒</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173576</guid>
+      <pubDate>Mon, 26 Jan 2026 04:00:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fortinet坦承FortiCloud SSO漏洞修補不全 將再釋出更新</title>
+      <link>https://www.ithome.com.tw/news/173577</link>
+      <description>新聞在企業用戶反映遭駭及資安廠商揭露後，Fortinet上周證實去年12月修補的FortiCloud單一簽入漏洞修補不全，承諾將再釋出更新軟體。 今年1月15日起Arctic Wolf研究人員發現，新一波針對FortiGate裝置的惡意活動。有不明人士濫用，利用CVE-2025-59718非授權以FortiCloud SSO登入FortiGate，再經由GUI介面下載防火牆配置，接著攻擊者就新增次要管理員帳號以維持持久存取。攻擊者從cloud-init@mail.io及cloud-noc@mail.io兩個帳號登入防火牆。建立的後門帳號包括secadmin、itadmin、support等。由於皆間隔數秒、研究人員判斷可能是自動化腳本程式或工具執行。 於此同時，有些Fortinet產品用戶反映FortiGate遭人濫用，登入安裝CVE-2025-59718更新的裝置。但是其裝置都是安裝Fortinet去年12月釋出，已修補CVE-2025-59718及CVE-2025-59719漏洞的FortiOS 7.4.9版本。 Fortinet指出，近日一小部分客戶Fortinet裝置的異常登入</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173577</guid>
+      <pubDate>Mon, 26 Jan 2026 04:20:02 +0000</pubDate>
     </item>
   </channel>
 </rss>
