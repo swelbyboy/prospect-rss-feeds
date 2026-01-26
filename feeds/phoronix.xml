@@ -8,63 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Jan 2026 06:36:55 +0000</lastBuildDate>
-    <item>
-      <title>ASUS Armoury Driver For Linux 6.19 Picks Up Support For More ASUS Laptops</title>
-      <link>https://www.phoronix.com/news/ASUS-Armoury-More-Hardware</link>
-      <description>A new driver in the Linux 6.19 kernel is the ASUS Armoury driver for supporting additional functionality with the ROG Ally gaming handhelds and other ASUS ROG gaming hardware like their laptops...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ASUS-Armoury-More-Hardware</guid>
-      <pubDate>Sat, 24 Jan 2026 10:52:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNOME's AI Assistant Newelle Adds Llama.cpp Support, Command Execution Tool</title>
-      <link>https://www.phoronix.com/news/GNOME-AI-Newelle-1.2</link>
-      <description>Newlle as a virtual AI assistant for the GNOME desktop with API integration for Google Gemini, OpenAI, Groq, and also local LLMs is out with a new release. Newelle has been steadily expanding its AI integration and capabilities and with the new Newelle 1.2 are yet more capabilities for those wanting AI on the GNOME desktop...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-AI-Newelle-1.2</guid>
-      <pubDate>Sat, 24 Jan 2026 11:19:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>AMDGPU Driver Reverts Code For A Number Of Regressions On Linux 6.19</title>
-      <link>https://www.phoronix.com/news/AMDGPU-Linux-6.19-Regressions</link>
-      <description>Merged on Friday as part of this week's DRM kernel graphics driver fixes for the week is addressing a regression affecting many different users with the Linux 6.19 development kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-Linux-6.19-Regressions</guid>
-      <pubDate>Sat, 24 Jan 2026 11:36:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AMD Releases MLIR-AIE 1.2 Compiler Toolchain For Targeting Ryzen AI NPUs</title>
-      <link>https://www.phoronix.com/news/AMD-MLIR-AIE-1.2</link>
-      <description>In addition to AMD releasing the Ryzen AI Software 1.7 release on Friday, they also published a new version of their MLIR-AIE compiler toolchain for targeting AMD Ryzen AI NPU devices with this LLVM-based MLIR-focused stack...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-MLIR-AIE-1.2</guid>
-      <pubDate>Sat, 24 Jan 2026 12:22:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Decade In The Making, Time Slice Extension Could Be Merged For Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-TIP-Time-Slice-Extension</link>
-      <description>With the upcoming Linux 6.20~7.0 kernel cycle it looks like the time slice extension work could finally been merged, which has seen various attempts over the past decade. Time slice extension for the Linux kernel implemented using Restartable Sequences "RSEQ" allows user-space processes to request a temporary, opportunistic extension of their CPU time slice without being preempted...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-TIP-Time-Slice-Extension</guid>
-      <pubDate>Sat, 24 Jan 2026 14:51:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>DXVK-NVAPI 0.9.1 Released With New Override &amp;amp; Improvements</title>
-      <link>https://www.phoronix.com/news/DXVK-NVAPI-0.9.1</link>
-      <description>DXVK-NVAPI 0.9.1 is out today as this NVIDIA NVAPI implementation that is used by Valve's Steam Play (Proton) with DXVK and VKD3D-Proton. This is the important piece of the Steam Play puzzle to allow for NVIDIA DLSS, NVIDIA Reflex, PhysX, and other features for Windows games running on Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/DXVK-NVAPI-0.9.1</guid>
-      <pubDate>Sat, 24 Jan 2026 17:24:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>DAXFS Proposed As Newest Linux File-System</title>
-      <link>https://www.phoronix.com/news/DAXFS-Linux-File-System</link>
-      <description>There's yet another new Linux file-system on the block: DAXFS has been announced as a new read-only open-source file-system...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/DAXFS-Linux-File-System</guid>
-      <pubDate>Sat, 24 Jan 2026 17:42:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>CachyOS Starts 2026 By Switching To Plasma Login Manager &amp;amp; Live ISO Using Wayland</title>
-      <link>https://www.phoronix.com/news/CachyOS-January-2026</link>
-      <description>The Arch Linux powered CachyOS distribution is out with its first new ISO release of 2026. This Linux distribution continues to be quite popular with Linux gamers, enthusiasts craving peak performance, and others for wanting to enjoy a polished Arch Linux desktop experience...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/CachyOS-January-2026</guid>
-      <pubDate>Sat, 24 Jan 2026 17:50:40 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 26 Jan 2026 06:41:50 +0000</lastBuildDate>
     <item>
       <title>Wine-Staging 11.1 Adds Patches For Enabling Recent Adobe Photoshop Versions On Linux</title>
       <link>https://www.phoronix.com/news/Wine-Staging-11.1</link>
@@ -78,6 +22,62 @@
       <description>While the GIMP 3.2 release is expected out soon, GIMP 3.0.8 is available tonight as what could end up being the last set of bug fixes for GIMP 3.0...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/GIMP-3.0.8-Released</guid>
       <pubDate>Sun, 25 Jan 2026 01:52:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>SVT-AV1 4.0 Released With More Performance Optimizations</title>
+      <link>https://www.phoronix.com/news/SVT-AV1-4.0</link>
+      <description>SVT-AV1 4.0 is out as the newest major feature release for this open-source AV1 video encoder that was originally started by Intel as an open-source project and now continuining on thanks to the Alliance For Open Media...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/SVT-AV1-4.0</guid>
+      <pubDate>Sun, 25 Jan 2026 10:38:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Snapdragon 8 Elite Gen 5 Display Support &amp;amp; Old Adreno 225 Enablement For Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-MSM-Driver</link>
+      <description>Rob Clark this week sent out the latest MSM DRM kernel driver updates for the latest Qualcomm display/graphics enhancements ahead of next month's Linux 7.0 merge window...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-MSM-Driver</guid>
+      <pubDate>Sun, 25 Jan 2026 10:54:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Focusrite Forte USB Audio Interface To Be Supported By Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Focusrite-Forte-Linux-7.0</link>
+      <description>The Focusrite Forte 2-in, 4-out USB audio interface as a portable audio recording solution will be supported by the mainline Linux 7.0 kernel. The patches are queued in the Linux kernel's sound subsystem development tree. While a convenient little device, the Focusrite Forte is no longer manufactured but can still be found used online...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Focusrite-Forte-Linux-7.0</guid>
+      <pubDate>Sun, 25 Jan 2026 11:10:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux Kernel Continuity Document Added: What Happens If Torvalds' Git Repo Goes Away?</title>
+      <link>https://www.phoronix.com/news/Linux-Kernel-Continuity-Doc</link>
+      <description>Following discussions from the 2025 Linux Maintainer Summit, merged overnight for the Linux 6.19 kernel is documentation concerning the Linux kernel project's continuity in the event that Linus Torvalds' official Git repository were to disappear or otherwise be inaccessible for continuing the upstream development of the Linux kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Kernel-Continuity-Doc</guid>
+      <pubDate>Sun, 25 Jan 2026 11:18:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AMD Sends In A Variety Of Graphics Driver Fixes Ahead Of Linux 7.0 Cycle</title>
+      <link>https://www.phoronix.com/news/AMDGPU-Linux-7.0-More-Fixes</link>
+      <description>This week's batch of AMDGPU and AMDKFD changes queued up ahead of the next kernel merge window is focused on delivering a variety of driver fixes...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-Linux-7.0-More-Fixes</guid>
+      <pubDate>Sun, 25 Jan 2026 17:27:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>LACT 0.8.4 Brings Improved Overclocking UI For GPUs On Linux</title>
+      <link>https://www.phoronix.com/news/LACT-0.8.4-Released</link>
+      <description>In the absence of any official GUI control panel from AMD or Intel for their graphics cards on Linux, LACT remains a popular choice particularly for AMD Radeon Linux gamers/enthusiasts to manage various aspects of their GPU from a convenient UI. LACT also supports Intel GPUs and some features on NVIDIA GPUs too. Out today is LACT 0.8.4 for further enhancing this third-party GPU driver user interface...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/LACT-0.8.4-Released</guid>
+      <pubDate>Sun, 25 Jan 2026 18:58:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19-rc7 Released With Kernel Continuity Plan, A Few Important Fixes</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-rc7-Released</link>
+      <description>The Linux 6.19 kernel remains on track for its official release two weeks from today, with the extra RC being baked in due to the end of year holidays. Out today is Linux 6.19-rc7 with a few changes worth highlighting for the week...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc7-Released</guid>
+      <pubDate>Sun, 25 Jan 2026 22:29:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Several New X.Org Libraries See 2026 Releases</title>
+      <link>https://www.phoronix.com/news/X.Org-Library-Updates-Jan-2026</link>
+      <description>While we wait to see what comes of the new X.Org Server Git branch plans and a possible X.Org Server 26.1 release, several X.Org libraries saw new point releases this weekend. These seldom-updated libraries saw new releases to ship various build fixes and other minor improvements...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/X.Org-Library-Updates-Jan-2026</guid>
+      <pubDate>Mon, 26 Jan 2026 01:14:41 +0000</pubDate>
     </item>
   </channel>
 </rss>
