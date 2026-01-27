@@ -8,80 +8,82 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Jan 2026 06:44:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 06:43:07 +0000</lastBuildDate>
     <item>
-      <title>增設8個GbE埠機型，HPE大幅擴充CX入門級交換器陣容</title>
-      <link>https://www.ithome.com.tw/review/173558</link>
-      <description>在2021年，HPE針對遠端辦公室與中小企業市場增設專用的入門級L2交換器設備，名為Aruba CX 6000系列，長年提供48埠、24埠、12埠的GbE交換器組態，總共有6款機型，其中4款支援乙太網路供電（PoE）。在2023年5月發布的此系列硬體規格改款公告中，產品名稱從原本的Aruba CX 6000 Switch Series換成HPE Aruba Networking CX 6000 Switch Series。 到了今年1月中的全美年度零售業聯盟展（NRF），HPE展示其零售解決方案之餘，也宣布HPE Aruba Networking CX交換器在這當中扮演重要角色，而他們採取的具體行動就是大幅擴充CX 6000系列產品線，機型數量一口氣提升到22款之多，最顯著的改變在於，此系列開始提供8埠的GbE交換器組態，可支援零售業的POS終端機、物聯網設備，以及員工操作系統的安全連網需求。 改款的CX 6000系列同樣有不少機型支援PoE，因此，不僅便於部署無線網路基地臺、網路視訊監控攝影機，以及環境狀態感測器，也能藉此建置門市店面內部的多種數位服務，像是電子看板、智慧結帳系統，以</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/173558</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/hpe_aruba_networking_cx_6000_main.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 24 Jan 2026 07:02:23 +0000</pubDate>
+      <title>微軟揭露AI使網釣點擊率飆升4.5倍，竊資軟體興起亦備受關注</title>
+      <link>https://www.ithome.com.tw/news/173584</link>
+      <description>新聞在去年10月發布的微軟2025數位防禦報告中，揭示近期網路犯罪手法出現一項重要變化，正從傳統的系統入侵，大幅轉向竊取合法身分後進行非法登入。對此，微軟印度暨南亞區首席資安顧問Anujh Tewari也進一步解析，指出「社交工程」、「初始存取」、「AI」與「竊資軟體」是企業必須關注的四大重點。 首先，我們從新興的竊資軟體（InfoStealer）威脅來看，Anujh Tewari指出，這類惡意威脅幾年前未被視為重要的網路攻擊類別，但2025年微軟觀察到「竊資軟體即服務（InfoStealer as a Service）」模式大量出現，大幅降低攻擊門檻。 對此態勢，我們並不感到意外。事實上，過去兩三年來，iThome已多次報導資安公司揭露不同竊資軟體活動的消息。這類惡意威脅不僅能竊取瀏覽器存放的帳號密碼與憑證，亦可存取瀏覽器中的Cookie；部分能力更強的變種，甚至能直接劫持Session Cookie，利用已完成驗證的登入狀態來繞過MFA的防護。 值得注意的是，不常接觸資安的人可能誤以為竊資軟體是「偷資料」的惡意軟體。事實上，這裡竊取的「資」是指身分驗證相關的「資訊」（Informa</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173584</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%969%EF%BC%89%E5%BE%AE%E8%BB%9F%E6%95%B8%E4%BD%8D%E9%98%B2%E7%A6%A6%E5%A0%B1%E5%91%8A2025_Phishing%20Landscape_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E5%BE%AE%E8%BB%9F.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 27 Jan 2026 03:25:05 +0000</pubDate>
     </item>
     <item>
-      <title>採用Xeon 6、提供6TB記憶體，AWS擴增記憶體最佳執行個體</title>
-      <link>https://www.ithome.com.tw/review/173571</link>
-      <description>在去年12月初舉行的re:Invent大會期間，AWS發表新的記憶體最佳化執行個體服務Amazon EC2 X8i預覽版，當中採用訂製版的英特爾Xeon 6處理器平臺，可提供公有雲領域最高的運算效能與最快的記憶體存取，適用的工作負載類型，包括記憶體內資料庫與資料分析系統、大型傳統資料庫系統、電子設計自動化系統。 相較於上一代X2i執行個體，X8i記憶體容量最高可提供到1.5倍（4 TB vs. 6 TB），記憶體頻寬增長至3.4倍。至於8月上市的R8i，同樣採用訂製版的英特爾Xeon 6處理器，記憶體容量最高可提供到3 TB。 此時SAP也宣布認證X8i的應用系統效能測試數據，AWS表示，相較於X2i執行個體，X8i的效能領先幅度為46％。若用於某些類型的工作負載，X8i效能比X2i高出35％。 到了今年1月中，AWS宣布X8i正式上線，初期在4個雲端區域供應：美國東部（北維吉尼亞）、美國西部（俄亥俄）、美國西部（奧勒岡）、歐洲（法蘭克福），採用的訂製型Xeon 6處理器，所有核心的時脈均維持在3.9 GHz，而在硬體規格與效能突破方面，對比於X2i，X8i的最大記憶體容量如預告為1.</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/173571</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/aws_amazon_ec2_x8i-main.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 25 Jan 2026 08:49:09 +0000</pubDate>
+      <title>微軟發布2025數位防禦報告，臺灣遭網路威脅影響排名全球第十名</title>
+      <link>https://www.ithome.com.tw/news/173589</link>
+      <description>新聞微軟去年10月底發布「數位防禦報告2025」揭露全球威脅態勢，兩個月後，他們透過線上研討會說明報告重點，過程中，他們揭露幾項威脅的數據與臺灣有關。 首先，從全球威脅焦點來看，網路犯罪持續是全球最大的地下經濟體，國家級駭客的行動版圖也在持續擴張，微軟印度暨南亞區首席資安顧問Anujh Tewari指出，他們觀察到，美國客戶遭受網路威脅的影響程度全球排名第一，占全球總量的24.8%，其次為英國（5.6%）、以色列（3.5%）、德國（3.3%）、烏克蘭（2.8%）、加拿大（2.6%）、日本（2.6%）、印度（2.3%）、阿拉伯聯合大公國（2.0%）。 臺灣也名列其中，與澳洲並列為第10大受威脅程度最嚴重的國家，比例為1.8%。換言之，上述受威脅程度居高不下的國家，正處於這場數位防禦戰的最前線。 若從產業別來看，全球遭受攻擊最多的產業為「政府機關與服務」及「IT公司」。這類機構掌握大量關鍵公共服務的敏感資料，涵蓋醫療、研究學術、交通與公共安全等範疇，同時吸引出於地緣政治動機的國家級攻擊者，以及以金錢利益為目的的網路犯罪分子，因此成為駭客的首要攻擊目標。 不過，Anujh Tewari更想強</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173589</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%962%EF%BC%89%E5%BE%AE%E8%BB%9F%E6%95%B8%E4%BD%8D%E9%98%B2%E7%A6%A6%E5%A0%B1%E5%91%8A%E6%8F%AD%E9%9C%B22025%E5%B9%B4%E8%87%BA%E7%81%A3%E5%AE%A2%E6%88%B6%E9%81%AD%E5%8F%97%E7%B6%B2%E8%B7%AF%E5%A8%81%E8%84%85%E5%BD%B1%E9%9F%BF%E6%8E%92%E5%90%8D%E5%85%A8%E7%90%83%E7%AC%AC%E5%8D%81%E5%90%8D_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E5%BE%AE%E8%BB%9F.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 27 Jan 2026 03:34:52 +0000</pubDate>
     </item>
     <item>
-      <title>Android Studio Otter 3擴大代理式開發支援，可改用第三方與本機模型</title>
-      <link>https://www.ithome.com.tw/news/173568</link>
-      <description>新聞Google釋出Android應用程式整合開發環境Android Studio Otter 3 Feature Drop 2025.2.3穩定版，其更新重點放在代理式開發工作流程，讓IDE內建AI功能可改用開發團隊自選的大型語言模型，涵蓋第三方遠端模型與本機模型兩種方式。另外，也強化代理模式Agent Mode的裝置互動與變更審查機制，並加入以自然語言撰寫的旅程測試，以及透過MCP協定串接外部工具等功能。 Android Studio新增遠端模型介接機制，用戶可在IDE內配置第三方模型供應商並使用既有API端點與金鑰。除了OpenAI的GPT與Anthropic的Claude等遠端模型，也支援透過LM Studio或Ollama等提供者使用本機模型，對連線受限或希望降低資料洩漏的環境提供替代途徑。 Google提醒，IDE在使用AI功能時可能會把輸入內容送往所選模型供應商，而Gemini仍會是預設建議，改用其他模型實際體驗與可用能力會因供應商而異。 Android Studio Otter 3將代理的工作範圍延伸到驗證修改結果。代理可將應用部署到連接裝置，讀取畫面並截圖，檢視Log</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173568</guid>
-      <pubDate>Mon, 26 Jan 2026 00:43:20 +0000</pubDate>
+      <title>北韓駭客Konni利用AI生成PowerShell惡意軟體，鎖定區塊鏈開發人員而來</title>
+      <link>https://www.ithome.com.tw/news/173596</link>
+      <description>新聞駭客利用AI打造惡意軟體的情況越來越常見，過往大多是軟體開發能力不足的新手採用這種方法，不過現在也有國家級駭客將其用於實際攻擊活動。 資安業者Check Point揭露針對軟體開發人員與工程團隊的網路釣魚活動，此攻擊由北韓駭客組織Konni發起，利用區塊鏈與加密貨幣相關的專案文件作為誘餌，散播AI生成的PowerShell後門程式。這象徵北韓攻擊者的技術手段有了重大演進，AI在網路攻擊中已從實驗階段正式進入實戰運用，並擴張了駭客在亞太地區的攻擊範圍。 Konni的攻擊活動最早可追溯到2014年，這些駭客向來的主要目標，是針對韓國的政府、外交、非政府組織（NGO），以及學術界，通常利用朝鮮半島局勢等地緣政治議題，作為誘餌並從事網釣。不過，本次駭客攻擊範圍擴大到整個亞太地區，日本、澳洲，以及印度傳出受害。 這些誘餌文件的內容，明確與區塊鏈相關技術有關，內含專案資料，包含架構、技術堆疊、開發時程，以及部分預算與交付里程碑等技術細節。本次活動Konni似乎針對開發工程團隊而來，意圖破壞開發環境，藉此取得敏感資產的存取權限，包括基礎設施、API憑證、加密貨幣錢包，以及加密貨幣資產。Check</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173596</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/CT6NXRBJK7-image1-2048x1337.png" length="0" type="image/png"/>
+      <pubDate>Tue, 27 Jan 2026 03:47:12 +0000</pubDate>
     </item>
     <item>
-      <title>AI應用開發框架Chainlit爆高風險漏洞，恐遭濫用入侵雲端環境</title>
-      <link>https://www.ithome.com.tw/news/173563</link>
-      <description>新聞每月下載量達數十萬次、廣泛用於打造對話式與代理型AI服務的開源框架Chainlit，近日被資安研究人員揭露存在兩項高風險資安漏洞。在特定部署條件下，相關弱點可能遭攻擊者濫用，導致未經授權存取應用資料，甚至成為入侵雲端環境的切入點，已引發資安社群關注。 根據美國國家漏洞資料庫（NVD）公布的資訊，Chainlit相關漏洞分別被指派為CVE-2026-22218與CVE-2026-22219。其中，CVE-2026-22218為任意檔案讀取漏洞，源於存取控制機制不足，在特定情況下，已通過身分驗證的攻擊者，可能藉由框架的自定元素端點讀取伺服器的檔案內容，CVSS風險分數為7.1分。另一項CVE-2026-22219則屬於伺服器端請求偽造（Server-Side Request Forgery，SSRF）類型漏洞，可能被用來對內部或雲端服務發送未預期的請求，CVSS風險分數高達8.3分，兩者皆被評為高風險等級。 揭露這組漏洞的雲端資安公司Zafran將其命名為「Chainleak」，並指出當Chainlit被部署於多租戶或雲端原生環境時，相關風險將進一步放大。研究人員表示，在缺乏額外防護措</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173563</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0123-chainlit-600-1.png" length="0" type="image/png"/>
-      <pubDate>Mon, 26 Jan 2026 02:48:36 +0000</pubDate>
+      <title>Clawdbot走紅，顯示AI助理正從聊天工具走向行動代理</title>
+      <link>https://www.ithome.com.tw/news/173578</link>
+      <description>新聞開源AI代理專案Clawdbot近日在開發者社群迅速竄紅，成為AI代理浪潮中的代表案例之一。該專案由奧地利軟體工程師、PSPDFKit共同創辦人Peter Steinberger於2026年1月對外發布，主打「可由使用者自行掌控、部署於本地的個人AI助理」，而非依賴單一雲端產品或專屬介面。 Clawdbot的核心概念，是讓大型語言模型從被動回應，進一步成為能實際執行任務的行動代理。使用者可將Clawdbot部署在自己的電腦或伺服器上，並串接OpenAI、Anthropic等大型語言模型API，再透過Telegram、WhatsApp、Slack、Discord、Microsoft Teams等既有通訊平臺與其互動。AI在取得明確授權後，可執行檔案讀寫、終端機指令、網頁抓取與流程自動化等操作。 與多數雲端AI服務不同，Clawdbot並不強制使用專屬網頁介面，而是融入使用者原本的工作與通訊流程。其架構以Gateway作為控制平面，負責訊息轉發與權限管理，實際的行動能力則來自部署於本地的代理與工具模組。 Clawdbot開源後迅速在GitHub累積大量關注，同時引發社群對「本地AI代理</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173578</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0126-Clawdbot-600(1).png" length="0" type="image/png"/>
+      <pubDate>Tue, 27 Jan 2026 03:50:19 +0000</pubDate>
     </item>
     <item>
-      <title>約10萬個WordPress網站使用的ACF Extended外掛，存在高風險漏洞可讓攻擊者取得管理權限</title>
-      <link>https://www.ithome.com.tw/news/173570</link>
-      <description>新聞WordPress外掛ACF Extended近日被揭露存在高風險資安漏洞，未經驗證的攻擊者在特定條件下，可能直接建立具備管理員權限的帳號，進而取得完整網站控制權。該漏洞已被編號為CVE-2025-14533，CVSS風險評分高達9.8分，屬於重大（Critical）等級。 ACF Extended定位為補強Advanced Custom Fields功能的WordPress外掛，主要用於協助網站開發者建立自訂內容欄位，並延伸前端表單的應用情境，例如讓訪客或會員透過表單提交內容，甚至進行使用者資料的新增與更新。 後端驗證不足，使用者角色限制可被繞過 CVE-2025-14533漏洞最早由資安研究人員Andrea Bocchetti通報。根據資安媒體Bleeping Computer與WordPress資安公司Wordfence的分析，問題出在ACF Extended處理「新增或更新使用者」的前端表單時，未在後端正確驗證可指派的使用者角色。 即便網站管理者已在外掛設定中，限制前端表單可指派的使用者角色，攻擊者仍可透過自行構造的請求，指定帳號角色為administrator，成功建立或</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173570</guid>
-      <pubDate>Mon, 26 Jan 2026 02:49:52 +0000</pubDate>
+      <title>Maia 200正式亮相，用以強化微軟自家AI推論基礎設施</title>
+      <link>https://www.ithome.com.tw/news/173598</link>
+      <description>新聞微軟周一（1/26）發表新一代的推論AI加速晶片Maia 200，這是微軟在第一方的AI晶片計畫中，首個進入大規模商用部署的版本；同時，隨著生成式AI進入實際營運階段，微軟正將AI運算從單點效能競賽，推進到長期可擴展、可控成本的雲端基礎設施層級。 Maia並非通用GPU的替代品，而是專為大規模AI推論而設計的雲端加速器，首次於2023年Ignite大會對外揭露。 新一代的Maia 200採用台積電3奈米製程打造，內建原生FP4與FP8 Tensor核心，並配置216GB HBM3e、7TB/s記憶體頻寬與272MB晶片內SRAM，整體設計明確鎖定低精度推論與高Token吞吐需求。微軟指出，Maia 200在FP4運算效能上約為第三代AWS Trainium的3倍，FP8效能亦高於Google第七代TPU，且在其資料中心實際部署中，效能成本比提升約30%。 圖片來源／微軟 儘管Maia 200在硬體形態上是一顆AI加速器晶片，但其設計並未止於晶片本身。微軟在開發過程中，同步定義了晶片的互連方式、資料中心網路拓撲、機架配置與散熱方案，使Maia 200能直接融入Azure資料中心，作為</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173598</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0127-Maia%20200-microsoft-3.png" length="0" type="image/png"/>
+      <pubDate>Tue, 27 Jan 2026 04:17:04 +0000</pubDate>
     </item>
     <item>
-      <title>歐盟擬修訂網路安全法案，強化供應鏈資安管理並限制高風險供應商</title>
-      <link>https://www.ithome.com.tw/news/173572</link>
-      <description>新聞歐盟執委會（European Commission）於1月20日公布新一波「網路安全包裹法案（Cybersecurity Package）」，內容包括修訂《歐盟網路安全法》（EU Cybersecurity Act）、擴大歐盟網路安全局（European Union Agency for Cybersecurity，ENISA）職權，以及推動供應鏈去風險化措施。歐盟藉此希望把過去僅具政策指引性質、各成員國執行程度不一的供應鏈風險管理，納入具法律拘束力的共同規範。 5G安全工具箱落實程度不一，成為推動修法的關鍵原因 歐盟此次推動修法，與2020年推出的「5G網路安全工具箱」（EU 5G Security Toolbox）執行成效有限有關。該工具箱屬於自願性措施，各成員國在限制高風險供應商的作法與進度上落差明顯，使歐盟難以在整體層級確保通訊網路與關鍵基礎設施的安全水準，也促使執委會轉而尋求具有法律拘束力的制度途徑。 地緣政治與網路威脅升高，供應鏈安全成為國安議題 歐盟執委會指出，近年地緣政治情勢與網路威脅持續升高，國家級行為者與犯罪組織對關鍵產業的滲透與攻擊風險增加，供應鏈安全已不再只</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173572</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0124-Cybersecurity%20Package-600-PDF.png" length="0" type="image/png"/>
-      <pubDate>Mon, 26 Jan 2026 02:51:33 +0000</pubDate>
+      <title>俄羅斯國家級駭客Sandworm鎖定波蘭電力產業，利用惡意軟體DynoWiper抹除資料</title>
+      <link>https://www.ithome.com.tw/news/173597</link>
+      <description>新聞去年12月底波蘭傳出電力系統遭遇大規模網路攻擊，近日有資安公司指出，攻擊者的身分就是俄羅斯駭客Sandworm。 1月23日資安公司ESET表示，去年底波蘭能源系統遭到大規模網路攻擊，根據他們的調查結果，這起事故發生在12月29日，其特徵與Sandworm過往發動的資料破壞攻擊高度重疊，因此研判應該是這些俄羅斯駭客所為。這次駭客使用的資料破壞軟體（Wiper），ESET命名為DynoWiper。對於整起事故發生的完整過程，該公司表示尚在進一步調查當中，不過，目前尚未出現災情。 針對駭客的動機，很可能是Sandworm鎖定能源設施發動攻擊正好滿10週年。2015年12月，該組織攻擊烏克蘭電網，使用惡意軟體BlackEnergy入侵變電站重要系統，導致約有70萬人停電數小時，而這是首度電力系統因惡意軟體攻擊造成的停擺的事故。 這起資安事故的曝光源自於路透社的報導，1月13日波蘭能源部長Milosz Motyka透露，該國電力系統於12月的最後一週，遭遇近幾年最大規模的網路攻擊，有別於過往針對大型發電機組或是電力運輸網路下手，這次駭客意圖打亂再生能源設施與配電營運公司之間的通訊，但並未得</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173597</guid>
+      <pubDate>Tue, 27 Jan 2026 04:31:40 +0000</pubDate>
     </item>
     <item>
-      <title>駭客宣稱駭入Nike竊得近19萬份檔案</title>
-      <link>https://www.ithome.com.tw/news/173575</link>
-      <description>新聞運動鞋及服飾巨擘Nike遭傳被駭，竊走近19萬份資料，已展開調查。 知名資安研究人員Dominic Alvieri上周發現駭客組織WorldLeaks在其官網張貼公告，宣稱駭入Nike，竊得18.8萬份檔案、共1.4TB資料。 駭客還貼出了螢幕擷圖以證實所言。根據貼圖，外洩的資料可能來自一家分公司，至少包含製造端，像是多個系列的製造和工廠資料。從研究人員張貼的駭客貼文擷圖中的倒數日期來判斷，WorldLeaks駭客可能是威脅Nike，若不在時限前聯繫或支付贖金，就會公開手中的資料。 Nike對媒體表示，公司非常重視消費者隱私和資料安全，現已著手調查可能的資料安全事故及評估狀況。 資安業者指出，WorldLeaks原以Hunters International之名活動，他們透過勒索軟體加密竊取企業用戶資料，藉此勒索贖金。去年這個組織在警方加強查緝後改為現名，並在ShinyHunters成員被捕後興起。 SecurityWeek報導，WorldLeaks官網列出了100多家受害企業，包括Dell及德國珠寶品牌CHRIST Juweliere。 這是近期發生資料外洩的服飾品牌。去年Eve</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173575</guid>
-      <pubDate>Mon, 26 Jan 2026 03:34:20 +0000</pubDate>
+      <title>微軟傳曾提供BitLocker復原金鑰給FBI</title>
+      <link>https://www.ithome.com.tw/news/173599</link>
+      <description>新聞媒體Forbes報導，微軟曾將Windows硬碟加密技術BitLocker的復原金鑰交給美國聯邦調查局（FBI），以利警方蒐集偵查案件所需的資料。 BitLocker是微軟在Windows 10/11筆電的磁碟加密功能，透過加密整個磁碟機來保護資料安全，避免裝置遺失或被竊時未經授權的第三方存取資料。當登入微軟帳戶時，BitLocker通常會預設自動開啟。 使用者可選擇將BitLocker的加密金鑰儲存在個人微軟帳號，或是企業的Active Directory或Azure AD下，以便用戶電腦開機失敗或重置TPM晶片、變更UEFI設定時BitLocker自動加密，由微軟伺服器中取回復原（或修復）金鑰解鎖磁碟。 根據報導，2025年微軟將3臺筆電的BitLocker加密/回復金鑰交給了FBI。FBI為了偵辦一起發生於關島的失業救濟金詐騙案，需要存取嫌犯筆電上的資料，因而向微軟出示搜索票。 微軟向媒體證實，如果接到有效的法律命令，的確會提供BitLocker回復金鑰。微軟發言人並說，該公司平均每年會接獲20件提供復原金鑰的使用者請求。 迫於警方或法院命令交出金鑰雖然情有可原，但從商業及法</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173599</guid>
+      <pubDate>Tue, 27 Jan 2026 04:32:05 +0000</pubDate>
     </item>
     <item>
-      <title>惡意軟體測試服務AVCheck遭瓦解後，荷蘭警方逮捕疑似實際營運者</title>
-      <link>https://www.ithome.com.tw/news/173573</link>
-      <description>新聞多國執法單位在2025年中旬瓦解惡意軟體測試服務AVCheck後，近期出現新進展。資安媒體Hackread引述執法單位消息指出，荷蘭警方本月在阿姆斯特丹逮捕33歲荷蘭籍男子，疑似為AVCheck實際營運者。 另依荷蘭檢察署Openbaar Ministerie發布的官方聲明，該名嫌犯涉嫌長期營運一項支援網路犯罪的線上服務，內容包括協助測試惡意軟體是否能避開防毒軟體偵測的測試功能，並被認為與AVCheck平臺的實際營運有關，相關調查目前仍在進行中。 AVCheck在網路犯罪中的角色 荷蘭警方說明，AVCheck屬於所謂的「反防毒測試服務」（Counter Antivirus，CAV），主要供惡意軟體開發者測試其程式是否會被主流防毒產品偵測。使用者可將惡意程式樣本上傳至平臺，比對多款防毒引擎的掃描結果，再依據回饋內容調整程式碼，以降低被攔截的機率。 這類服務常被用於勒索軟體、木馬程式等惡意程式的開發過程，屬於攻擊前的準備環節。透過反覆測試與修改，攻擊者可提高惡意程式在實際攻擊中成功取得初始存取權限的機率，使AVCheck成為網路犯罪即服務生態系中的關鍵基礎服務之一。 警方指出，也正因為</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173573</guid>
-      <pubDate>Mon, 26 Jan 2026 03:56:44 +0000</pubDate>
+      <title>Nvidia強化與CoreWeave合作，再以20億美元入股</title>
+      <link>https://www.ithome.com.tw/news/173600</link>
+      <description>新聞Nvidia周一（1/26）宣布，擴大與美國雲端GPU服務供應商CoreWeave的合作，協助該公司在2030年前加速建置超過5GW規模的AI工廠，同時以每股87.2美元的價格、總計20億美元認購CoreWeave股票。根據CoreWeave提交給美國證券交易委員會的文件，這讓Nvidia所持有的CoreWeave股份增加至11.5%。 CoreWeave成立於2017年，當時公司名稱為Atlantic Crypto，所聚集的GPU資源主要用來開採加密貨幣。在加密貨幣於2018年崩盤之後，即更名為CoreWeave，並轉型對外供應基於GPU的運算資源，搭上了AI風潮列車。現在的CoreWeave定位為專為AI打造的雲端服務供應商，在美國與歐洲經營超過30個資料中心，部署逾25萬張Nvidia GPU，以支援AI雲端部署。 根據美國媒體報導，Nvidia是在2023年首度投資CoreWeave，當時約注資1億美元，每股價格低於6美元；在2025年CoreWeave進行IPO之前，再加碼認購，當時Nvidia總計持有約7%的CoreWeave股份；最近一次的20億美元，讓Nvidia的</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173600</guid>
+      <pubDate>Tue, 27 Jan 2026 04:52:59 +0000</pubDate>
     </item>
     <item>
-      <title>未設密碼防護的資料庫系統暴露在公開網路，外洩，iCloud、Gmail、Netflix等近1.5億筆憑證曝險</title>
-      <link>https://www.ithome.com.tw/news/173576</link>
-      <description>新聞研究人員揭露一個雲端資料庫未設置密碼或套用加密防護，使Gmail、Outlook、iCloud、Netflix、Facebook等主要雲端服務及知名平臺的帳號、密碼等近1.5億筆憑證曝險。 這個資料庫是由ExpressVPN研究人員Jeremiah Fowler發現，資料庫內有149,404,754筆不重複登入帳號及密碼，資料量達96GB。研究人員抽取的部分資料，顯示內含電子郵件信箱地址、使用者名稱、密碼和URL。 研究人員估計公開的資料涵括主要雲端郵件服務及雲端服務。包括Gmail 4,800萬筆、Yahoo 400萬筆、Outlook 150萬筆、iCloud 9萬筆，以及.edu平臺憑證140萬筆。其他重要資料源包含Facebook 1,700萬筆、Netflix 340萬筆、IG 650萬筆、TikTok 78萬筆、Binance 42萬筆和OnlyFans 10萬筆。 此外還有.gov網域相關的憑證，研究人員指出，雖然不是所有政府帳號都能存取敏感系統，但這些憑證可能被用作精準釣魚、冒充或被用以登入政府網路，而.gov憑證外洩的增加可能影響國家安全和公共安全。 這個資料庫沒</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173576</guid>
-      <pubDate>Mon, 26 Jan 2026 04:00:17 +0000</pubDate>
+      <title>Claude導入MCP Apps，AI工具整合邁向可視化</title>
+      <link>https://www.ithome.com.tw/news/173601</link>
+      <description>新聞AI新創Anthropic周一（1/26）宣布，旗下AI聊天機器人Claude正式導入MCP Apps，能將第三方工具的互動介面直接嵌入Claude中，使Claude從以文字為主的協作工具，進一步走向可視化的工作介面，現已支援Asana、Box、Figma及Slack等9種工具，亦計畫支援Salesforce。 MCP（Model Context Protocol）是Anthropic所釋出的開放標準，用來定義AI如何安全連接外部工具、取得脈絡並執行動作；MCP Apps則是建立在MCP之上的官方擴充，讓工具不只被AI呼叫，還能把互動式介面直接嵌入AI對話中，讓使用者與AI即時共同操作同一個工作畫面。 Claude過去已能透過MCP連接外部工具，代表使用者建立任務或執行操作，但實際流程多半以文字回饋呈現，工具本身的操作狀態並不透明；而MCP Apps則進一步允許工具供應商將自身的互動式UI一併提供給聊天機器人顯示與操作。 在實際操作上，使用者可於Claude對話中直接看到並操作Asana的專案與時程，於格式化預覽中編修Slack訊息，在Figma FigJam中將文字提示轉為流程圖</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173601</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0127-MCP%20App-%EF%BC%92.png" length="0" type="image/png"/>
+      <pubDate>Tue, 27 Jan 2026 05:33:56 +0000</pubDate>
     </item>
     <item>
-      <title>Fortinet坦承FortiCloud SSO漏洞修補不全 將再釋出更新</title>
-      <link>https://www.ithome.com.tw/news/173577</link>
-      <description>新聞在企業用戶反映遭駭及資安廠商揭露後，Fortinet上周證實去年12月修補的FortiCloud單一簽入漏洞修補不全，承諾將再釋出更新軟體。 今年1月15日起Arctic Wolf研究人員發現，新一波針對FortiGate裝置的惡意活動。有不明人士濫用，利用CVE-2025-59718非授權以FortiCloud SSO登入FortiGate，再經由GUI介面下載防火牆配置，接著攻擊者就新增次要管理員帳號以維持持久存取。攻擊者從cloud-init@mail.io及cloud-noc@mail.io兩個帳號登入防火牆。建立的後門帳號包括secadmin、itadmin、support等。由於皆間隔數秒、研究人員判斷可能是自動化腳本程式或工具執行。 於此同時，有些Fortinet產品用戶反映FortiGate遭人濫用，登入安裝CVE-2025-59718更新的裝置。但是其裝置都是安裝Fortinet去年12月釋出，已修補CVE-2025-59718及CVE-2025-59719漏洞的FortiOS 7.4.9版本。 Fortinet指出，近日一小部分客戶Fortinet裝置的異常登入</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173577</guid>
-      <pubDate>Mon, 26 Jan 2026 04:20:02 +0000</pubDate>
+      <title>傳中國政府介入調查可能造成Meta/Manus收購案生變</title>
+      <link>https://www.ithome.com.tw/news/173610</link>
+      <description>新聞彭博報導，中國監管機關深入調查Meta和AI代理人新創公司Manus的收購案是否合法、以及是否涉及技術輸出與資料外流，可能造成收購的推遲甚至取消。 由中國創業家肖弘創立Manus提供AI代理人服務，能為企業生成網站原型、內部工具，甚至簡單的業務自動化，而不必具備完整程式開發技能。在2025年3月發表後引發關注。Meta去年12月底宣布，買下AI代理人開發商Manus，以加速企業人工智慧創新。外傳這起交易價值數十億美元。彭博則稱價值為20億美元。 中國商務部本月初宣布將對這項收購案與相關合規性展開評估初步調查。最新宣布中，中國政府將全面審查。審查範圍由技術出口、對外投資合法性，擴大到深入評估Manus收購是否涉及中國技術輸出，以及是否可能導致AI訓練資料外洩等面向。 中國官方將深入審查是否涉及中國技術或演算法，是否可能違反《出口管制法》。外國投資調查可能涵括Meta支付收購款項、資金流向、相關外匯和投資報備手續是否符合規定。 此外，中國官方也關注Manus AI處理的大量數據。是否會存在未經許可的數據跨境流動或個人資料外洩，審查可能涉及對公司資料架構、儲存及傳輸路徑的評估。 最後，報</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173610</guid>
+      <pubDate>Tue, 27 Jan 2026 06:20:38 +0000</pubDate>
     </item>
   </channel>
 </rss>

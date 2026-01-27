@@ -8,21 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Jan 2026 06:50:36 +0000</lastBuildDate>
-    <item>
-      <title>Intro to Object-Oriented Programming (OOP) in Python</title>
-      <link>https://realpython.com/courses/intro-object-oriented-programming/</link>
-      <description>Learn Python OOP fundamentals fast: master classes, objects, and constructors with hands-on lessons in this beginner-friendly video course.</description>
-      <guid isPermaLink="false">https://realpython.com/courses/intro-object-oriented-programming/</guid>
-      <pubDate>Tue, 13 Jan 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quiz: How to Create a Django Project</title>
-      <link>https://realpython.com/quizzes/django-setup/</link>
-      <description>Check your Django setup skills. Install safely and pin requirements, create a project and an app. Start building your first site.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/django-setup/</guid>
-      <pubDate>Wed, 14 Jan 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 27 Jan 2026 06:49:48 +0000</lastBuildDate>
     <item>
       <title>How to Create a Django Project</title>
       <link>https://realpython.com/django-setup/</link>
@@ -81,6 +67,21 @@
       <description>If you haven't visited the Real Python website lately, then it's time to check out a great batch of updates on realpython.com! Dan Bader returns to the show this week to discuss improvements to the site and more ways to learn Python.</description>
       <guid isPermaLink="false">https://realpython.com/podcasts/rpp/281/</guid>
       <pubDate>Fri, 23 Jan 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quiz: GeoPandas Basics: Maps, Projections, and Spatial Joins</title>
+      <link>https://realpython.com/quizzes/geopandas/</link>
+      <description>Test GeoPandas basics for reading, mapping, projecting, and spatial joins to handle geospatial data confidently.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/geopandas/</guid>
+      <pubDate>Mon, 26 Jan 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GeoPandas Basics: Maps, Projections, and Spatial Joins</title>
+      <link>https://realpython.com/geopandas/</link>
+      <description>Dive into GeoPandas with this tutorial covering data loading, mapping, CRS concepts, projections, and spatial joins for intuitive analysis.</description>
+      <guid isPermaLink="false">https://realpython.com/geopandas/</guid>
+      <enclosure url="https://files.realpython.com/media/GeoPandas-for-Geospatial-Analysis-Spatial-Joins-Projections-and-Quick-Maps_Watermarked.1bd7d02f55cb.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 26 Jan 2026 14:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
