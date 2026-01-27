@@ -8,80 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Jan 2026 06:41:38 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Jan 2026 06:40:17 +0000</lastBuildDate>
     <item>
-      <title>7 Best Resources to Master Blockchain Development in 2026</title>
-      <link>https://dev.to/stack_overflowed/7-best-resources-to-master-blockchain-development-in-2026-477o</link>
-      <description>When I first dove into blockchain development, I was overwhelmed. The tech felt like a maze of cryptographic puzzles, decentralized networks, and smart contracts. I floundered, hitting walls with half-understood concepts and cryptic tutorials. But through trial, error, and finding the right resources, I unlocked those barriers and built real blockchain apps. If you’re where I was, excited but overwhelmed, this post is for you. I’ve curated and tested the 7 best learning resources for blockchain</description>
-      <guid isPermaLink="false">https://dev.to/stack_overflowed/7-best-resources-to-master-blockchain-development-in-2026-477o</guid>
-      <pubDate>Mon, 26 Jan 2026 06:14:40 +0000</pubDate>
+      <title>Create Stunning Videos with JavaScript Using Remotion &amp;amp; Kiro IDE</title>
+      <link>https://dev.to/zendizmo/create-stunning-videos-with-javascript-using-remotion-kiro-ide-12l0</link>
+      <description>What if you could create professional videos by writing React code — and have AI generate most of it for you? That's exactly what happens when you combine Remotion (a React framework for programmatic video) with Kiro IDE (an AI-powered IDE from AWS). In this post, I'll show you how to set this up in under 2 minutes and start creating videos from natural language prompts. What is Remotion? Remotion lets you create videos using React and JavaScript. Instead of dragging clips in a video editor, you</description>
+      <guid isPermaLink="false">https://dev.to/zendizmo/create-stunning-videos-with-javascript-using-remotion-kiro-ide-12l0</guid>
+      <pubDate>Tue, 27 Jan 2026 06:03:52 +0000</pubDate>
     </item>
     <item>
-      <title>Next.js CI/CD Pipeline: Complete Implementation Guide for Automated Deployments</title>
-      <link>https://dev.to/sizan_mahmud0_e7c3fd0cb68/nextjs-cicd-pipeline-complete-implementation-guide-for-automated-deployments-314h</link>
-      <description>Build a production-ready CI/CD workflow for Next.js applications with GitHub Actions, automated testing, and zero-downtime deployments Manually deploying your Next.js application every time you push code is tedious, error-prone, and slows down your development velocity. A proper CI/CD (Continuous Integration/Continuous Deployment) pipeline automates testing, building, and deploying your application, allowing you to ship features faster with confidence. In this comprehensive guide, you'll learn h</description>
-      <guid isPermaLink="false">https://dev.to/sizan_mahmud0_e7c3fd0cb68/nextjs-cicd-pipeline-complete-implementation-guide-for-automated-deployments-314h</guid>
-      <pubDate>Mon, 26 Jan 2026 06:16:33 +0000</pubDate>
+      <title>Fix 'Objects are not valid as a React child' Error (2026)</title>
+      <link>https://dev.to/samantha-dev/objects-are-not-valid-as-a-react-child-40pj</link>
+      <description>I've been there. Staring at the console, coffee getting cold, wondering why React is screaming at me about objects when all I did was try to render some data. Thing is, this error trips up everyone. Beginners and veterans alike. I reckon it's one of those React gotchas that never really goes away, you just learn to spot it faster. What This Error Actually Means React throws this error when you try to shove an object directly into your JSX where it expects something it can actually render. String</description>
+      <guid isPermaLink="false">https://dev.to/samantha-dev/objects-are-not-valid-as-a-react-child-40pj</guid>
+      <pubDate>Tue, 27 Jan 2026 06:12:48 +0000</pubDate>
     </item>
     <item>
-      <title>🚀 The Algorithm Mastery Series ( part 2 )</title>
-      <link>https://dev.to/charles_kumar_30654e10958/the-algorithm-mastery-series-part-2--467l</link>
-      <description>Let's dive into the Tier 2 master space 🟡 TIER 2: PRODUCTION SYSTEMS (Build Real Infrastructure) Part 4: Load Balancing &amp;amp; Resource Optimization The infrastructure layer Focus: Distributing work efficiently at scale Problem: "How do I handle 1M requests/second without breaking the bank?" Topics: ├─ Intelligent load balancing algorithms ├─ Kubernetes autoscaling algorithms ├─ Resource allocation strategies ├─ Cost optimization (Docker/JVM tuning) └─ Cloud cost monitoring algorithms Real-world appl</description>
-      <guid isPermaLink="false">https://dev.to/charles_kumar_30654e10958/the-algorithm-mastery-series-part-2--467l</guid>
-      <pubDate>Mon, 26 Jan 2026 06:19:46 +0000</pubDate>
+      <title>The Digital Sangam: Reimagining Intellectual Infrastructure 🏛️🚀</title>
+      <link>https://dev.to/yaseen_tech/the-digital-sangam-reimagining-intellectual-infrastructure-47op</link>
+      <description>From Ancient Madurai to a ₹10,000 Crore AI Roadmap: Reimagining the Intellectual Infrastructure of Tamil Nadu What if I told you the world’s earliest Open Source Standards Committee wasn't founded in a Silicon Valley garage, but in the ancient city of Madurai? When we look back at the history of the Tamil Sangams, we shouldn't just see a collection of poets. We should see a sophisticated, state-sponsored intellectual infrastructure. They called it சங்கம் வைத்து தமிழ் வளர்ப்பது—the institutionali</description>
+      <guid isPermaLink="false">https://dev.to/yaseen_tech/the-digital-sangam-reimagining-intellectual-infrastructure-47op</guid>
+      <pubDate>Tue, 27 Jan 2026 06:15:51 +0000</pubDate>
     </item>
     <item>
-      <title>RExSyn Nexus 0.6.1 - Stop Hallucinating Proteins: How We Built a 7D Reasoning Engine with AlphaFold3</title>
-      <link>https://dev.to/flamehaven01/rexsyn-nexus-610-stop-hallucinating-proteins-how-we-built-a-7d-reasoning-engine-with-6fn</link>
-      <description>Before we talk about “BioAI agents,” we need to admit the real failure mode: LLMs are great at producing hypotheses that sound scientific — and quietly violate physics. In this post, I’ll show: why “plausible trash” happens in biomedical reasoning, how RExSyn Nexus v0.6.1 adds Structure as a first-class reasoning dimension, and how to run it (API + Python), with deterministic CI testing. The problem nobody likes to admit: “Plausible Trash” In autonomous biomedical research, LLMs can write hypoth</description>
-      <guid isPermaLink="false">https://dev.to/flamehaven01/rexsyn-nexus-610-stop-hallucinating-proteins-how-we-built-a-7d-reasoning-engine-with-6fn</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr67e3ydhdhzta8a9ocpw.png" length="0" type="image/png"/>
-      <pubDate>Mon, 26 Jan 2026 06:26:00 +0000</pubDate>
+      <title>The Hidden Magic Behind Android’s Share Button</title>
+      <link>https://dev.to/alamin_karno_b096f2ace0bb/the-hidden-magic-behind-androids-share-button-3hkj</link>
+      <description>Have you ever hit the Share button in your app — maybe to send a funny meme, a link, or a photo — and seen that neat list of apps pop up? As a mobile developer, I always thought it was just… magic. Call an Intent, Android shows a list, job done. But one day, while debugging a crash on ActivityNotFoundException, I paused and asked myself: “Wait… how does Android actually know which apps to show? How does it know WhatsApp, Gmail, or Drive can handle my data?” That question sent me down a rabbit ho</description>
+      <guid isPermaLink="false">https://dev.to/alamin_karno_b096f2ace0bb/the-hidden-magic-behind-androids-share-button-3hkj</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp4i3erwdd9170vqnkkpf.png" length="0" type="image/png"/>
+      <pubDate>Tue, 27 Jan 2026 06:16:09 +0000</pubDate>
     </item>
     <item>
-      <title>Reflections on Being a Developer in the Age of AI</title>
-      <link>https://dev.to/_e6641d4181e2ba2945d1f/reflections-on-being-a-developer-in-the-age-of-ai-12o9</link>
-      <description>There is a strange tension in the air lately. AI feels magical. At the same time, it makes many developers uneasy. We watch models write code, design systems, and even reason about architecture. It’s not unreasonable to ask: What happens to developers when AI gets this good? This post is not about fear, nor hype. It’s a reflection—from someone living through the transition. AI Feels Like Magic — Until You Look Closer When people talk about AI, they often imagine a magician waving a wand. You typ</description>
-      <guid isPermaLink="false">https://dev.to/_e6641d4181e2ba2945d1f/reflections-on-being-a-developer-in-the-age-of-ai-12o9</guid>
-      <pubDate>Mon, 26 Jan 2026 06:27:08 +0000</pubDate>
+      <title>Amazon Listing Traffic Analysis: Building a Real-Time Traffic Attribution System</title>
+      <link>https://dev.to/loopsthings/amazon-listing-traffic-analysis-building-a-real-time-traffic-attribution-system-1hh6</link>
+      <description>TL;DR When your Amazon listing's sales suddenly double but you can't identify the traffic source, you need a systematic approach to traffic analysis. This guide shows you how to build an automated traffic monitoring system using APIs to track organic rankings, competitor dynamics, and advertising performance in real-time. What you'll learn: How to identify Amazon listing traffic sources (organic, PPC, external) Building an automated traffic monitoring system with Python Using Pangolinfo Scrape A</description>
+      <guid isPermaLink="false">https://dev.to/loopsthings/amazon-listing-traffic-analysis-building-a-real-time-traffic-attribution-system-1hh6</guid>
+      <pubDate>Tue, 27 Jan 2026 06:17:03 +0000</pubDate>
     </item>
     <item>
-      <title>Perl 🐪 Weekly #757 - Contribute to CPAN!</title>
-      <link>https://dev.to/szabgab/perl-weekly-757-contribute-to-cpan-5e8b</link>
-      <description>Originally published at Perl Weekly 757 Hi there! On Saturday, (evening for me, noon-ish in the Americas) we had an excellent meeting and there are recordings you can watch. In the first hour I showed some PRs I sent to MIME::Lite. You can watch the video here. In the second hour we changed the setup and we continued in driver-navigator style pair programming. I was giving the instructions and two other participants made the changes and sent the PR. Others in the audience made suggestions. So ac</description>
-      <guid isPermaLink="false">https://dev.to/szabgab/perl-weekly-757-contribute-to-cpan-5e8b</guid>
-      <pubDate>Mon, 26 Jan 2026 06:29:33 +0000</pubDate>
+      <title>The Task Tool: Claude Code's Agent Orchestration System</title>
+      <link>https://dev.to/bhaidar/the-task-tool-claude-codes-agent-orchestration-system-4bf2</link>
+      <description>Table of Contents Introduction What is the Task Tool? How It Works Available Agent Types Background vs Foreground Execution When to Use Which Agent Practical Examples Managing Background Tasks Best Practices Common Patterns Troubleshooting Introduction The Task tool is Claude Code's most powerful feature for handling complex, multi-step operations. Think of it as Claude's ability to spawn specialized "colleagues" - autonomous sub-agents that can work independently while you continue with other t</description>
+      <guid isPermaLink="false">https://dev.to/bhaidar/the-task-tool-claude-codes-agent-orchestration-system-4bf2</guid>
+      <pubDate>Tue, 27 Jan 2026 06:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>You Don't Need a Mac Mini to Run Clawdbot - Here's How to Run It Anywhere</title>
-      <link>https://dev.to/sivarampg/you-dont-need-a-mac-mini-to-run-clawdbot-heres-how-to-run-it-anywhere-217l</link>
-      <description>Clawdbot is taking the tech world by storm. If you've been on Twitter, Reddit, or tech blogs lately, you've probably seen the flood of posts showing off freshly unboxed Mac Minis. People are buying these $599+ machines just to run an AI assistant. But here's the thing: you don't actually need a Mac Mini. Let me show you how to run Clawdbot on hardware you probably already have, or for as little as $3-5/month. Even the creator of Clawdbot is trying to explain that they don't need expensive machin</description>
-      <guid isPermaLink="false">https://dev.to/sivarampg/you-dont-need-a-mac-mini-to-run-clawdbot-heres-how-to-run-it-anywhere-217l</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fh7i0pyuhcdra08e53zui.png" length="0" type="image/png"/>
-      <pubDate>Mon, 26 Jan 2026 06:29:48 +0000</pubDate>
+      <title>How to read data when an HTTP request returns a JSON file and dataL2 access is successful?</title>
+      <link>https://dev.to/harmonyos/how-to-read-data-when-an-http-request-returns-a-json-file-and-datal2-access-is-successful-2ohl</link>
+      <description>Read the original article：How to read data when an HTTP request returns a JSON file and dataL2 access is successful? Context Through an HTTP GET request, data can be successfully called and returned. However, when the request returns content in JSON format, it cannot be directly read. How can we achieve reading the response data from a JSON file? Description JSON is used for parsing and generation. The file returned by the HTTP request can be obtained as text through requestInStream, as describe</description>
+      <guid isPermaLink="false">https://dev.to/harmonyos/how-to-read-data-when-an-http-request-returns-a-json-file-and-datal2-access-is-successful-2ohl</guid>
+      <pubDate>Tue, 27 Jan 2026 06:20:19 +0000</pubDate>
     </item>
     <item>
-      <title># 🪦 RIP CocoaPods (2011-2026): What Every iOS Developer Must Do NOW</title>
-      <link>https://dev.to/diskcleankit/-rip-cocoapods-2011-2026-what-every-ios-developer-must-do-now-5eed</link>
-      <description>After 15 years of faithful service, CocoaPods is officially dying. On December 2, 2026, the CocoaPods trunk will become permanently read-only. No new pods. No updates. Game over. If you're an iOS developer, React Native developer, or Flutter developer — this affects YOU. Here's your complete survival guide. 📢 What Details 💀 Death Date December 2, 2026 ❌ What Stops New pods, updates to existing pods ✅ What Still Works Existing projects (for now) 🎯 Your Action Migrate to Swift Package Manager ⏰ Ti</description>
-      <guid isPermaLink="false">https://dev.to/diskcleankit/-rip-cocoapods-2011-2026-what-every-ios-developer-must-do-now-5eed</guid>
-      <pubDate>Mon, 26 Jan 2026 06:32:24 +0000</pubDate>
+      <title>Top Free AI Tools for Data Analysis</title>
+      <link>https://dev.to/michael_kosorukov_f5743b9/top-free-ai-tools-for-data-analysis-4con</link>
+      <description>AI for data analysis - how it works When people think about “AI tools for data analysis” or “AI data analytics,” most immediately picture AI chat for conversational analytics. While this is the most popular way GenAI is currently used in analytics, there are other use cases as well: AI agents for data notebooks AI agents for semantic modeling AI agents for building data pipelines However, these latter use cases are primarily targeted at enterprises and mature data teams, rather than individuals</description>
+      <guid isPermaLink="false">https://dev.to/michael_kosorukov_f5743b9/top-free-ai-tools-for-data-analysis-4con</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2c9txzc1djtaezvbhnnc.png" length="0" type="image/png"/>
+      <pubDate>Tue, 27 Jan 2026 06:20:52 +0000</pubDate>
     </item>
     <item>
-      <title>Autopilot - La Pesadilla de las APIs: Cómo vencí a la burocracia de LinkedIn para automatizar mi empresa</title>
-      <link>https://dev.to/datalaria/autopilot-la-pesadilla-de-las-apis-como-venci-a-la-burocracia-de-linkedin-para-automatizar-mi-1dfj</link>
-      <description>Hasta ahora, todo era divertido. Teníamos agentes de IA con personalidades cínicas (Post 3) y un cerebro capaz de analizar texto (Post 2). Pero todo vivía en la seguridad de mi terminal, en localhost. Para que Datalaria Autopilot fuera real, tenía que salir al mundo. Aquí es donde el proyecto dejó de ser un problema de ingeniería y se convirtió en una batalla contra la Burocracia de las APIs. El Objetivo: Publicar como Marca, no como Persona Mi requisito era claro: No quiero que el bot publique</description>
-      <guid isPermaLink="false">https://dev.to/datalaria/autopilot-la-pesadilla-de-las-apis-como-venci-a-la-burocracia-de-linkedin-para-automatizar-mi-1dfj</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkebkr815hixk9t2q241s.png" length="0" type="image/png"/>
-      <pubDate>Mon, 26 Jan 2026 06:32:32 +0000</pubDate>
+      <title>Building a Product Hunt Like Threaded Comments with Real-Time Collaboration 🔥</title>
+      <link>https://dev.to/astrodevil/building-a-product-hunt-like-threaded-comments-with-real-time-collaboration-5gd6</link>
+      <description>Product Hunt has revolutionized how we discover new products, creating an active community of builders and enthusiasts. The platform thrives on real-time collaboration, from discussing a product’s potential to sharing feedback with product creators. Collaboration on Product Hunt happens only through comments on posts, which can be limiting to users who want more ways to collaborate with others. For example, users may want to know which users are online or get notified when they’re mentioned in a</description>
+      <guid isPermaLink="false">https://dev.to/astrodevil/building-a-product-hunt-like-threaded-comments-with-real-time-collaboration-5gd6</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv3yuwb8r4dgnbn29uswj.png" length="0" type="image/png"/>
+      <pubDate>Tue, 27 Jan 2026 06:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Why You Don't Have to Restart Your PC Anymore: A Kernel Perspective</title>
-      <link>https://dev.to/benes/why-you-dont-have-to-restart-your-pc-anymore-a-kernel-perspective-59bd</link>
-      <description>Remember the ritual? You’d spend 15 minutes downloading a simple PDF reader or a peripheral driver, click "Finish," and then—the final boss appears: "You must restart your computer for these changes to take effect." 🛑 As a developer, this wasn't just an annoyance; it was a total context-switch killer. But if you look at your uptime today, you’ve probably installed ten apps this week without a single reboot. So, what actually changed in the kernel? Did we just get "better" at coding, or did the a</description>
-      <guid isPermaLink="false">https://dev.to/benes/why-you-dont-have-to-restart-your-pc-anymore-a-kernel-perspective-59bd</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ft4e76o96khnuzzrsfm4y.png" length="0" type="image/png"/>
-      <pubDate>Mon, 26 Jan 2026 06:35:47 +0000</pubDate>
+      <title>How to Use Claude.ai's Research Toggle Inside Claude Code</title>
+      <link>https://dev.to/bhaidar/how-to-use-claudeais-research-toggle-inside-claude-code-469d</link>
+      <description>The Missing Feature That Changes Everything If you've been using Claude Code for development, you've probably noticed something frustrating: you can search the web, but you can't access Claude's powerful Research feature. Web search gives you quick answers in seconds. Research gives you comprehensive, multi-source reports with citations in 5 to 30 minutes. They're not the same thing, and for serious technical decisions, Research is a game changer. This guide shows you how to bring Research into</description>
+      <guid isPermaLink="false">https://dev.to/bhaidar/how-to-use-claudeais-research-toggle-inside-claude-code-469d</guid>
+      <pubDate>Tue, 27 Jan 2026 06:31:06 +0000</pubDate>
     </item>
   </channel>
 </rss>
