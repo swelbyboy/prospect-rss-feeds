@@ -8,79 +8,82 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Jan 2026 06:40:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 06:40:37 +0000</lastBuildDate>
     <item>
-      <title>Create Stunning Videos with JavaScript Using Remotion &amp;amp; Kiro IDE</title>
-      <link>https://dev.to/zendizmo/create-stunning-videos-with-javascript-using-remotion-kiro-ide-12l0</link>
-      <description>What if you could create professional videos by writing React code — and have AI generate most of it for you? That's exactly what happens when you combine Remotion (a React framework for programmatic video) with Kiro IDE (an AI-powered IDE from AWS). In this post, I'll show you how to set this up in under 2 minutes and start creating videos from natural language prompts. What is Remotion? Remotion lets you create videos using React and JavaScript. Instead of dragging clips in a video editor, you</description>
-      <guid isPermaLink="false">https://dev.to/zendizmo/create-stunning-videos-with-javascript-using-remotion-kiro-ide-12l0</guid>
-      <pubDate>Tue, 27 Jan 2026 06:03:52 +0000</pubDate>
+      <title>Jinja2TT2: Jinja2 to Template Toolkit Transpiler</title>
+      <link>https://dev.to/lucianofedericopereira/jinja2tt2-jinja2-to-template-toolkit-transpiler-4ge8</link>
+      <description>A Perl transpiler that converts Jinja2 templates to Template Toolkit 2 (TT2) syntax. Source: https://github.com/lucianofedericopereira/jinja2tt2 Description Jinja2 is deeply integrated with Python, making a direct port impractical. However, since TT2 and Jinja2 share similar concepts and syntax patterns, this transpiler performs a mechanical translation between the two template languages. Why TT2? TT2 and Jinja2 share: Variable interpolation: {{ var }} maps to [% var %] Control structures: {% if</description>
+      <guid isPermaLink="false">https://dev.to/lucianofedericopereira/jinja2tt2-jinja2-to-template-toolkit-transpiler-4ge8</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhjv5460kzfh490dqi6fx.png" length="0" type="image/png"/>
+      <pubDate>Wed, 28 Jan 2026 05:59:15 +0000</pubDate>
     </item>
     <item>
-      <title>Fix 'Objects are not valid as a React child' Error (2026)</title>
-      <link>https://dev.to/samantha-dev/objects-are-not-valid-as-a-react-child-40pj</link>
-      <description>I've been there. Staring at the console, coffee getting cold, wondering why React is screaming at me about objects when all I did was try to render some data. Thing is, this error trips up everyone. Beginners and veterans alike. I reckon it's one of those React gotchas that never really goes away, you just learn to spot it faster. What This Error Actually Means React throws this error when you try to shove an object directly into your JSX where it expects something it can actually render. String</description>
-      <guid isPermaLink="false">https://dev.to/samantha-dev/objects-are-not-valid-as-a-react-child-40pj</guid>
-      <pubDate>Tue, 27 Jan 2026 06:12:48 +0000</pubDate>
+      <title>20+ Best Shadcn UI Blocks for Building Real Products Faster</title>
+      <link>https://dev.to/vaibhavg/best-shadcn-ui-blocks-for-building-real-products-faster-4ll8</link>
+      <description>Building a SaaS, dashboard, or internal tool usually fails at the same point: UI slows everything down. Writing layouts, handling states, fixing responsiveness, and keeping accessibility intact eats weeks. That’s exactly why more teams are adopting Shadcn UI blocks — composable UI sections built with Shadcn UI , Base UI and Tailwind CSS, designed to be copied, owned, and shipped in production. In this article, we’ll break down 20+ practical Shadcn UI blocks, explain where they fit in real produc</description>
+      <guid isPermaLink="false">https://dev.to/vaibhavg/best-shadcn-ui-blocks-for-building-real-products-faster-4ll8</guid>
+      <pubDate>Wed, 28 Jan 2026 06:00:08 +0000</pubDate>
     </item>
     <item>
-      <title>The Digital Sangam: Reimagining Intellectual Infrastructure 🏛️🚀</title>
-      <link>https://dev.to/yaseen_tech/the-digital-sangam-reimagining-intellectual-infrastructure-47op</link>
-      <description>From Ancient Madurai to a ₹10,000 Crore AI Roadmap: Reimagining the Intellectual Infrastructure of Tamil Nadu What if I told you the world’s earliest Open Source Standards Committee wasn't founded in a Silicon Valley garage, but in the ancient city of Madurai? When we look back at the history of the Tamil Sangams, we shouldn't just see a collection of poets. We should see a sophisticated, state-sponsored intellectual infrastructure. They called it சங்கம் வைத்து தமிழ் வளர்ப்பது—the institutionali</description>
-      <guid isPermaLink="false">https://dev.to/yaseen_tech/the-digital-sangam-reimagining-intellectual-infrastructure-47op</guid>
-      <pubDate>Tue, 27 Jan 2026 06:15:51 +0000</pubDate>
+      <title>Peter Finch Golf: I Was Wrong About Giant Golf Grips...</title>
+      <link>https://dev.to/youtube_golf/peter-finch-golf-i-was-wrong-about-giant-golf-grips-4k97</link>
+      <description>Alright, big confession time! I totally got it wrong with those giant golf grips. I tried them out, but after a couple of years, I realized my mistake and switched back to the tried-and-true. Huge thanks to Golf Pride for now supporting me and the squad! Watch on YouTube</description>
+      <guid isPermaLink="false">https://dev.to/youtube_golf/peter-finch-golf-i-was-wrong-about-giant-golf-grips-4k97</guid>
+      <pubDate>Wed, 28 Jan 2026 06:04:03 +0000</pubDate>
     </item>
     <item>
-      <title>The Hidden Magic Behind Android’s Share Button</title>
-      <link>https://dev.to/alamin_karno_b096f2ace0bb/the-hidden-magic-behind-androids-share-button-3hkj</link>
-      <description>Have you ever hit the Share button in your app — maybe to send a funny meme, a link, or a photo — and seen that neat list of apps pop up? As a mobile developer, I always thought it was just… magic. Call an Intent, Android shows a list, job done. But one day, while debugging a crash on ActivityNotFoundException, I paused and asked myself: “Wait… how does Android actually know which apps to show? How does it know WhatsApp, Gmail, or Drive can handle my data?” That question sent me down a rabbit ho</description>
-      <guid isPermaLink="false">https://dev.to/alamin_karno_b096f2ace0bb/the-hidden-magic-behind-androids-share-button-3hkj</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp4i3erwdd9170vqnkkpf.png" length="0" type="image/png"/>
-      <pubDate>Tue, 27 Jan 2026 06:16:09 +0000</pubDate>
+      <title>Building a Self-Hosted AI Agent with Real System Access</title>
+      <link>https://dev.to/aivideotool/building-a-self-hosted-ai-agent-with-real-system-access-586f</link>
+      <description>We talk a lot about "AI agents" in 2026, but most of them are just chatbots with API wrappers. They can't actually do anything on your system—they're confined to whatever SaaS platform hosts them. Moltbot takes a different approach: it's a local-first AI assistant with actual system-level capabilities. Let's break down the architecture and see what makes it interesting from an engineering perspective. The Core Problem: Bridging Conversation and Execution The challenge with building a practical A</description>
+      <guid isPermaLink="false">https://dev.to/aivideotool/building-a-self-hosted-ai-agent-with-real-system-access-586f</guid>
+      <pubDate>Wed, 28 Jan 2026 06:04:52 +0000</pubDate>
     </item>
     <item>
-      <title>Amazon Listing Traffic Analysis: Building a Real-Time Traffic Attribution System</title>
-      <link>https://dev.to/loopsthings/amazon-listing-traffic-analysis-building-a-real-time-traffic-attribution-system-1hh6</link>
-      <description>TL;DR When your Amazon listing's sales suddenly double but you can't identify the traffic source, you need a systematic approach to traffic analysis. This guide shows you how to build an automated traffic monitoring system using APIs to track organic rankings, competitor dynamics, and advertising performance in real-time. What you'll learn: How to identify Amazon listing traffic sources (organic, PPC, external) Building an automated traffic monitoring system with Python Using Pangolinfo Scrape A</description>
-      <guid isPermaLink="false">https://dev.to/loopsthings/amazon-listing-traffic-analysis-building-a-real-time-traffic-attribution-system-1hh6</guid>
-      <pubDate>Tue, 27 Jan 2026 06:17:03 +0000</pubDate>
+      <title>I Vibe-Coded a "Cursor for Writers" on a $7 budget (Because Chat kills the flow)</title>
+      <link>https://dev.to/ricky_ff_16878ab8c0b0d4d8/i-vibe-coded-a-cursor-for-writers-on-a-7-budget-because-chat-kills-the-flow-518l</link>
+      <description>We talk a lot about "Vibe Coding"—using AI to stay in the flow state while building apps. But what about "Vibe Writing"? Every time I try to write a novel with ChatGPT, the vibe dies instantly. I have to stop writing. I have to explain the plot again. I have to copy-paste text. The Flow is gone. I’m 16. I don't have VC money. But I have $7 and some Supabase/Groq credits. So I built Minotauris. It’s an Agentic IDE for fiction. ⚡ The Vibe Check (How it works) Instead of chatting, you Command. Stay</description>
+      <guid isPermaLink="false">https://dev.to/ricky_ff_16878ab8c0b0d4d8/i-vibe-coded-a-cursor-for-writers-on-a-7-budget-because-chat-kills-the-flow-518l</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9etnb4zc34jvq63czvuh.png" length="0" type="image/png"/>
+      <pubDate>Wed, 28 Jan 2026 06:09:16 +0000</pubDate>
     </item>
     <item>
-      <title>The Task Tool: Claude Code's Agent Orchestration System</title>
-      <link>https://dev.to/bhaidar/the-task-tool-claude-codes-agent-orchestration-system-4bf2</link>
-      <description>Table of Contents Introduction What is the Task Tool? How It Works Available Agent Types Background vs Foreground Execution When to Use Which Agent Practical Examples Managing Background Tasks Best Practices Common Patterns Troubleshooting Introduction The Task tool is Claude Code's most powerful feature for handling complex, multi-step operations. Think of it as Claude's ability to spawn specialized "colleagues" - autonomous sub-agents that can work independently while you continue with other t</description>
-      <guid isPermaLink="false">https://dev.to/bhaidar/the-task-tool-claude-codes-agent-orchestration-system-4bf2</guid>
-      <pubDate>Tue, 27 Jan 2026 06:20:00 +0000</pubDate>
+      <title>AlphaArena AI Model Battle: A Hands-On Guide to Replicating DeepSeek's Leading AI Quantitative Trading System</title>
+      <link>https://dev.to/quant001/alphaarena-ai-model-battle-a-hands-on-guide-to-replicating-deepseeks-leading-ai-quantitative-2dpe</link>
+      <description>1. Introduction: Insights from the AI Trading Arena Recently, American AI lab nof1ai launched a compelling experiment—giving six top AI models (Claude, DeepSeek, Gemini, GPT-5, Grok, and Tongyi Qianwen) $10,000 each to compete in the real cryptocurrency perpetual futures market. This wasn't a simulation, but actual trading with real money. The results were surprising: China's DeepSeek consistently led the pack, while both GPT-5 and Gemini crashed and burned. The greatest value of this competitio</description>
+      <guid isPermaLink="false">https://dev.to/quant001/alphaarena-ai-model-battle-a-hands-on-guide-to-replicating-deepseeks-leading-ai-quantitative-2dpe</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr2p29ko2d2ha1bvrpga7.png" length="0" type="image/png"/>
+      <pubDate>Wed, 28 Jan 2026 06:11:46 +0000</pubDate>
     </item>
     <item>
-      <title>How to read data when an HTTP request returns a JSON file and dataL2 access is successful?</title>
-      <link>https://dev.to/harmonyos/how-to-read-data-when-an-http-request-returns-a-json-file-and-datal2-access-is-successful-2ohl</link>
-      <description>Read the original article：How to read data when an HTTP request returns a JSON file and dataL2 access is successful? Context Through an HTTP GET request, data can be successfully called and returned. However, when the request returns content in JSON format, it cannot be directly read. How can we achieve reading the response data from a JSON file? Description JSON is used for parsing and generation. The file returned by the HTTP request can be obtained as text through requestInStream, as describe</description>
-      <guid isPermaLink="false">https://dev.to/harmonyos/how-to-read-data-when-an-http-request-returns-a-json-file-and-datal2-access-is-successful-2ohl</guid>
-      <pubDate>Tue, 27 Jan 2026 06:20:19 +0000</pubDate>
+      <title>I genuinely meant it when I said I was done. I even had that rare, fragile sense of closure. Then I noticed one small thing, which led to another, and somehow became a full pass of “minor” edits. I failed at stopping, but this time I really did. 🚧🚦</title>
+      <link>https://dev.to/anchildress1/i-genuinely-meant-it-when-i-said-i-was-done-i-even-had-that-rare-fragile-sense-of-closure-then-i-1cna</link>
+      <description>My Portfolio Doesn’t Live on the Page 🚫📃 Ashley Childress ・ Jan 24 #devchallenge #googleaichallenge #portfolio #gemini</description>
+      <guid isPermaLink="false">https://dev.to/anchildress1/i-genuinely-meant-it-when-i-said-i-was-done-i-even-had-that-rare-fragile-sense-of-closure-then-i-1cna</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3224358%2F7f675c78-6aa0-466a-a5a7-c3e35440d53a.png" length="0" type="image/png"/>
+      <pubDate>Wed, 28 Jan 2026 06:15:35 +0000</pubDate>
     </item>
     <item>
-      <title>Top Free AI Tools for Data Analysis</title>
-      <link>https://dev.to/michael_kosorukov_f5743b9/top-free-ai-tools-for-data-analysis-4con</link>
-      <description>AI for data analysis - how it works When people think about “AI tools for data analysis” or “AI data analytics,” most immediately picture AI chat for conversational analytics. While this is the most popular way GenAI is currently used in analytics, there are other use cases as well: AI agents for data notebooks AI agents for semantic modeling AI agents for building data pipelines However, these latter use cases are primarily targeted at enterprises and mature data teams, rather than individuals</description>
-      <guid isPermaLink="false">https://dev.to/michael_kosorukov_f5743b9/top-free-ai-tools-for-data-analysis-4con</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2c9txzc1djtaezvbhnnc.png" length="0" type="image/png"/>
-      <pubDate>Tue, 27 Jan 2026 06:20:52 +0000</pubDate>
+      <title>You Don’t Need a Framework for Everything</title>
+      <link>https://dev.to/wingsdesignstudio/you-dont-need-a-framework-for-everything-3on1</link>
+      <description>Frameworks are amazing. They solve real problems and speed things up. But somewhere along the way, “choose a framework” became the default answer—even when the problem doesn’t need one. Let’s talk about it. Frameworks Are Tools, Not Requirements Using a framework should be a decision, not a reflex. If the problem is: A simple landing page A small internal tool A static content site A one-off feature Then adding a heavy framework may cost more than it gives. The Hidden Cost of Frameworks Framewor</description>
+      <guid isPermaLink="false">https://dev.to/wingsdesignstudio/you-dont-need-a-framework-for-everything-3on1</guid>
+      <pubDate>Wed, 28 Jan 2026 06:28:57 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Product Hunt Like Threaded Comments with Real-Time Collaboration 🔥</title>
-      <link>https://dev.to/astrodevil/building-a-product-hunt-like-threaded-comments-with-real-time-collaboration-5gd6</link>
-      <description>Product Hunt has revolutionized how we discover new products, creating an active community of builders and enthusiasts. The platform thrives on real-time collaboration, from discussing a product’s potential to sharing feedback with product creators. Collaboration on Product Hunt happens only through comments on posts, which can be limiting to users who want more ways to collaborate with others. For example, users may want to know which users are online or get notified when they’re mentioned in a</description>
-      <guid isPermaLink="false">https://dev.to/astrodevil/building-a-product-hunt-like-threaded-comments-with-real-time-collaboration-5gd6</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv3yuwb8r4dgnbn29uswj.png" length="0" type="image/png"/>
-      <pubDate>Tue, 27 Jan 2026 06:30:00 +0000</pubDate>
+      <title>Autopilot - Final: De Localhost a la Nube con GitHub Actions y CI/CD</title>
+      <link>https://dev.to/datalaria/autopilot-final-de-localhost-a-la-nube-con-github-actions-y-cicd-20i9</link>
+      <description>Hemos recorrido un largo camino. Empezamos diseñando un Cerebro capaz de leer (Post 2), le dimos personalidad con Agentes Creativos (Post 3) y luchamos contra la burocracia para conseguir unas Manos (APIs) que pudieran publicar legalmente (Post 4). Pero nos quedaba un último gran paso para no ser un esclavo de mi terminal y es que ahora mismo, para publicar, tenía que estar en mi ordenador, abrir la consola y ejecutar python main.py. Eso no es "Piloto Automático". Eso es "Conducción Asistida". H</description>
+      <guid isPermaLink="false">https://dev.to/datalaria/autopilot-final-de-localhost-a-la-nube-con-github-actions-y-cicd-20i9</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5vobvpm217uwgwtzjuzp.png" length="0" type="image/png"/>
+      <pubDate>Wed, 28 Jan 2026 06:37:22 +0000</pubDate>
     </item>
     <item>
-      <title>How to Use Claude.ai's Research Toggle Inside Claude Code</title>
-      <link>https://dev.to/bhaidar/how-to-use-claudeais-research-toggle-inside-claude-code-469d</link>
-      <description>The Missing Feature That Changes Everything If you've been using Claude Code for development, you've probably noticed something frustrating: you can search the web, but you can't access Claude's powerful Research feature. Web search gives you quick answers in seconds. Research gives you comprehensive, multi-source reports with citations in 5 to 30 minutes. They're not the same thing, and for serious technical decisions, Research is a game changer. This guide shows you how to bring Research into</description>
-      <guid isPermaLink="false">https://dev.to/bhaidar/how-to-use-claudeais-research-toggle-inside-claude-code-469d</guid>
-      <pubDate>Tue, 27 Jan 2026 06:31:06 +0000</pubDate>
+      <title>Tracking Video Progress with Bitmaps</title>
+      <link>https://dev.to/cobel1024/tracking-video-progress-with-bitmaps-452g</link>
+      <description>Tracking Video Progress with Bitmaps Problem Most LMS platforms track video completion as percentage or "watched/not watched". This doesn't tell you: Which parts were actually watched vs skipped Which segments were rewatched Precise viewing patterns Solution Use PostgreSQL's varbit (variable-length bit string) where each bit represents one second of video. Bit = 1: watched Bit = 0: not watched Screenshot Orange: watched, Gray: unwatched Why Bitmap? Performance Bitwise OR for merging: existing_bi</description>
+      <guid isPermaLink="false">https://dev.to/cobel1024/tracking-video-progress-with-bitmaps-452g</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Febi6c961ifz124m79hqr.webp" length="0" type="image/webp"/>
+      <pubDate>Wed, 28 Jan 2026 06:37:44 +0000</pubDate>
     </item>
   </channel>
 </rss>

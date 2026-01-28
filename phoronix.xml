@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Jan 2026 06:40:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jan 2026 06:40:48 +0000</lastBuildDate>
     <item>
-      <title>AMDGPU Patches Updated For HDMI Gaming Features On Linux With Radeon Graphics</title>
-      <link>https://www.phoronix.com/news/AMDGPU-HDMI-Gaming-v2</link>
-      <description>A patch series posted last week for the open-source AMDGPU kernel driver implements HDMI Variable Rate Refresh "VRR" and other gaming features for HDMI displays. With the HDMI Forum blocking HDMI 2.1 open-source support, these HDMI gaming features for the AMDGPU driver were developed via trial-and-error and the limited public knowledge available. A second iteration of these patches are now available for testing...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-HDMI-Gaming-v2</guid>
-      <pubDate>Mon, 26 Jan 2026 11:20:00 +0000</pubDate>
+      <title>Zlib-rs Declares A Stable &amp;amp; Complete API For This Rust-Based Zlib Implementation</title>
+      <link>https://www.phoronix.com/news/Zlib-rs-Stable-Complete-API</link>
+      <description>Following the release of zlib-rs 0.6 last week, the developers behind this Rust-based Zlib implementation have declared their API stable and complete...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Zlib-rs-Stable-Complete-API</guid>
+      <pubDate>Tue, 27 Jan 2026 14:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Initial AMD GFX13 Target Merged To LLVM 23 Git - Presumably RDNA5</title>
-      <link>https://www.phoronix.com/news/AMD-GFX13-Initial-Commit</link>
-      <description>Added to the LLVM 23 Git codebase minutes ago is a pull request adding the initial AMDGPU GFX13 target for their next-generation graphics core IP. AMD GFX13 is presumably for RDNA5...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-GFX13-Initial-Commit</guid>
-      <pubDate>Mon, 26 Jan 2026 13:23:32 +0000</pubDate>
+      <title>TigerVNC 1.16 Released With "w0vncserver" For Sharing Wayland Desktop Sessions</title>
+      <link>https://www.phoronix.com/news/TigerVNC-1.16</link>
+      <description>TigerVNC 1.16 is out today for this high performance, multi-platform VNC server and client implementation. Most notable with TigerVNC 1.16 is "w0vncserver" as a new server for sharing Wayland desktops...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/TigerVNC-1.16</guid>
+      <pubDate>Tue, 27 Jan 2026 15:16:00 +0000</pubDate>
     </item>
     <item>
-      <title>Patch Proposed To Allow Toggling Linux Kernel VT Support At Boot Time</title>
-      <link>https://www.phoronix.com/news/Linux-VT-Enable-Boot-Time</link>
-      <description>A patch causing a healthy technical debate today on the Linux kernel mailing list would allow the kernel virtual terminal "VT" support to be enabled/disabled at boot time rather than being limited to the current CONFIG_VT build-time option...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-VT-Enable-Boot-Time</guid>
-      <pubDate>Mon, 26 Jan 2026 14:07:00 +0000</pubDate>
+      <title>Systemd Founder Lennart Poettering Announces Amutable Company</title>
+      <link>https://www.phoronix.com/news/Amutable</link>
+      <description>Systemd founder and lead developer Lennart Poettering announced the creation of a new company called Amutable. The Amutable company being led by Chris Kühl (CEO), Christian Brauner (CTO) and Lennart Poettering (Chief Engineer) will be focused on delivering determinism and verifiable integrity to Linux systems...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Amutable</guid>
+      <pubDate>Tue, 27 Jan 2026 16:27:40 +0000</pubDate>
     </item>
     <item>
-      <title>Revisiting The Linux 6.19 Performance With Some New Wins &amp;amp; Losses</title>
-      <link>https://www.phoronix.com/review/linux-619-next-buddy</link>
-      <description>Back at the start of the Linux 6.19 kernel cycle I ran benchmarks showing some scheduler performance regressions with the new kernel. Fortunately, two weeks out from the Linux 6.19 stable release, merged this weekend was disabling the scheduler's NEXT_BUDDY feature due to performance regressions. Here are some fresh benchmarks looking at the latest Linux 6.19 Git state with/without NEXT_BUDDY and comparing it to Linux 6.18 stable for reference.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/linux-619-next-buddy</guid>
-      <pubDate>Mon, 26 Jan 2026 15:24:00 +0000</pubDate>
+      <title>Google Axion CPU Performance With The New Google Cloud N4A Instances</title>
+      <link>https://www.phoronix.com/review/google-cloud-n4a-axion</link>
+      <description>Back in 2024 Google rolled out their Axion in-house ARM processors with the Google Cloud C4A instance type. Today they are expanding their Axion offerings in Google Cloud with the N4A instances now out of preview. The Google Cloud N4A instances are designed for scale-out web servers and microservices, containerized applications, back-end application services, databases, data analytics, and cost-effective development/staging/testing environments.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/google-cloud-n4a-axion</guid>
+      <pubDate>Tue, 27 Jan 2026 17:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Panther Lake / Arc B390 Linux Benchmarks Still Coming</title>
-      <link>https://www.phoronix.com/news/Intel-PTL-Arc-B390-Linux-Coming</link>
-      <description>Ahead of tomorrow's official availability of new Intel Core Ultra Series 3 "Panther Lake" laptops, the review embargo lifted on Panther Lake and its much anticipated Arc B390 graphics. There have been several Windows 11 reviews of Panther Lake out today, but what about Linux?..</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-PTL-Arc-B390-Linux-Coming</guid>
-      <pubDate>Mon, 26 Jan 2026 17:23:33 +0000</pubDate>
+      <title>KDE Plasma 6.6 Beta 2 Released For Testing</title>
+      <link>https://www.phoronix.com/news/KDE-Plasma-6.6-Beta-2</link>
+      <description>Following the KDE Plasma 6.6 Beta from two weeks ago, a second beta of the upcoming Plasma 6.6 desktop is now available for testing. KDE Plasma 6.6 stable remains on-track for a mid-February release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Plasma-6.6-Beta-2</guid>
+      <pubDate>Tue, 27 Jan 2026 17:38:00 +0000</pubDate>
     </item>
     <item>
-      <title>Godot 4.6 Ships Many Improvements For This Leading Open-Source Game Engine</title>
-      <link>https://www.phoronix.com/news/Godot-4.6-Released</link>
-      <description>Godot 4.6 is officially out today as the newest feature release for this leading open-source, cross-platform game engine...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Godot-4.6-Released</guid>
-      <pubDate>Mon, 26 Jan 2026 17:32:36 +0000</pubDate>
+      <title>GNU C Library Moving From Sourceware To Linux Foundation Hosted CTI</title>
+      <link>https://www.phoronix.com/news/GNU-C-Library-To-CTI-LF</link>
+      <description>GNU C Library "glibc" developers have decided to move ahead with plans of migrating their core services from Sourcware.org infrastructure over to the Core Toolchain Infrastructure "CTI" project hosted by the Linux Foundation...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-C-Library-To-CTI-LF</guid>
+      <pubDate>Tue, 27 Jan 2026 19:03:15 +0000</pubDate>
     </item>
     <item>
-      <title>Firefox Nightly Enables Split-View Mode Option By Default</title>
-      <link>https://www.phoronix.com/news/Firefox-Nightly-Split-View</link>
-      <description>The latest Firefox Nightly builds have now enabled the Split View mode by default to easily view two web pages at once within a single window...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Firefox-Nightly-Split-View</guid>
-      <pubDate>Mon, 26 Jan 2026 19:18:25 +0000</pubDate>
+      <title>GStreamer 1.28 Released With More Rust Code</title>
+      <link>https://www.phoronix.com/news/GStreamer-1.28</link>
+      <description>GStreamer 1.28 is out today as the newest feature release for this widely-used, open-source multimedia framework...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GStreamer-1.28</guid>
+      <pubDate>Tue, 27 Jan 2026 19:25:33 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Squeezing Out More More ROCm/HIP Performance With New Device-Side PGO</title>
-      <link>https://www.phoronix.com/news/AMD-LLVM-Device-Side-PGO-ROCm</link>
-      <description>Compiler profile guided optimization (PGO) techniques have paid off well for increasing CPU performance via application/workload-specific profiles fed back to the compiler to make more informed decisions. AMD compiler engineers have been working on crafting device-side PGO for their AMDGPU LLVM back-end for allowing ROCm/HIP workloads to achieve greater GPU performance. An initial merge request is now open for upstream LLVM...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-LLVM-Device-Side-PGO-ROCm</guid>
-      <pubDate>Mon, 26 Jan 2026 20:03:00 +0000</pubDate>
+      <title>New Intel Linux Driver Workaround Halves Initial Game Load Time For MHW</title>
+      <link>https://www.phoronix.com/news/Intel-Vulkan-DriConf-LTO</link>
+      <description>In addition to Mesa 26.1 today seeing Vulkan present timing support finally merged to help reduce game stuttering and separately another long-in-development Mesa merge request for DG2 / Meteor Lake to improve performance as much as 260% in some scenarios, there is another merge today to Mesa Git for enhancing Intel graphics on Linux. For Intel Linux gamers the newest Mesa code adds a new DriConf workaround that is capable of halving the initial game load time for at least one problematic game ti</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Vulkan-DriConf-LTO</guid>
+      <pubDate>Tue, 27 Jan 2026 21:16:18 +0000</pubDate>
     </item>
     <item>
-      <title>Valve's Proton 10.0-4 Released With More Windows Games Now Running On Linux</title>
-      <link>https://www.phoronix.com/news/Steam-Play-Proton-10.0-4</link>
-      <description>Valve and CodeWeavers today released Proton 10.0-4 as their newest update to this downstream of Wine that powers Steam Play for running Windows games on Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Steam-Play-Proton-10.0-4</guid>
-      <pubDate>Mon, 26 Jan 2026 23:59:30 +0000</pubDate>
+      <title>Apple M3 Progress On Linux: Asahi Can Boot To KDE Desktop - But No GPU Acceleration Yet</title>
+      <link>https://www.phoronix.com/news/Apple-M3-Linux-Boot-To-KDE</link>
+      <description>While the Asahi Linux project has made good progress on bringing Linux to Apple Silicon hardware, much of the success and in turn upstreaming to the Linux kernel has been around the aging M1 and M2 Macs. Apple M3 and newer has been a struggle but progress is being made. One of the Asahi Linux developers shared the ability now to boot to the KDE Plasma desktop with the experimental Asahi Linux code on an M3 MacBook but without any GPU acceleration yet...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Apple-M3-Linux-Boot-To-KDE</guid>
+      <pubDate>Wed, 28 Jan 2026 01:27:11 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Radeon Linux Driver Introduces Low-Latency Video Decode Option</title>
-      <link>https://www.phoronix.com/news/RadeonSI-Low-Latency-Decode</link>
-      <description>AMD's RadeonSI Gallium3D driver for next quarter's Mesa 26.1 release is introducing a new low-latency video decode mode. This lower-latency video decoding comes with a trade-off of increased GPU power consumption...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/RadeonSI-Low-Latency-Decode</guid>
-      <pubDate>Tue, 27 Jan 2026 01:23:07 +0000</pubDate>
+      <title>RFC Patches Posted For Klint Integration With The Linux Kernel: Rust-Based Linting Tool</title>
+      <link>https://www.phoronix.com/news/Klint-Linux-Kernel-RFC-Patches</link>
+      <description>A request for comments (RFC) patch series was sent out today for providing Klint integration with the Linux kernel. Klint is a new linting tool written in the Rust programming language that helps with static code analysis for errors/bugs as well as code styling inconsistencies...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Klint-Linux-Kernel-RFC-Patches</guid>
+      <pubDate>Wed, 28 Jan 2026 05:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

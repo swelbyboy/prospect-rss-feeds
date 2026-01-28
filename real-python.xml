@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Jan 2026 06:49:48 +0000</lastBuildDate>
-    <item>
-      <title>How to Create a Django Project</title>
-      <link>https://realpython.com/django-setup/</link>
-      <description>Learn how to create a Django project and app in clear, guided steps. Use it as a reference for any future Django project and tutorial you'll work on.</description>
-      <guid isPermaLink="false">https://realpython.com/django-setup/</guid>
-      <enclosure url="https://files.realpython.com/media/Django_Setup_Watermark.6c4def7c5b2f.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 14 Jan 2026 14:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 28 Jan 2026 06:49:03 +0000</lastBuildDate>
     <item>
       <title>The Real Python Podcast – Episode #280: Considering Fast and Slow in Python Programming</title>
       <link>https://realpython.com/podcasts/rpp/280/</link>
@@ -82,6 +74,13 @@
       <guid isPermaLink="false">https://realpython.com/geopandas/</guid>
       <enclosure url="https://files.realpython.com/media/GeoPandas-for-Geospatial-Analysis-Spatial-Joins-Projections-and-Quick-Maps_Watermarked.1bd7d02f55cb.jpg" length="0" type="image/jpeg"/>
       <pubDate>Mon, 26 Jan 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Create Callable Instances With Python's .__call__()</title>
+      <link>https://realpython.com/courses/create-callable-instances-dunder-call/</link>
+      <description>Learn Python callables: what "callable" means, how to use dunder call, and how to build callable objects with step-by-step examples.</description>
+      <guid isPermaLink="false">https://realpython.com/courses/create-callable-instances-dunder-call/</guid>
+      <pubDate>Tue, 27 Jan 2026 14:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
