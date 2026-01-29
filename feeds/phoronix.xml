@@ -8,28 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 06:53:16 +0000</lastBuildDate>
-    <item>
-      <title>FreeRDP 3.22 Released With Overhauled SDL-Based Client UI</title>
-      <link>https://www.phoronix.com/news/FreeRDP-3.22-Released</link>
-      <description>FreeRDP 3.22 was just released as the newest version of this Apache-licensed open-source Remote Desktop protocol (RDP) implementation for interfacing with another computer over the network...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FreeRDP-3.22-Released</guid>
-      <pubDate>Wed, 28 Jan 2026 10:42:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Raspberry Pi Preparing To Introduce A Smart Display Module</title>
-      <link>https://www.phoronix.com/news/Raspberry-Pi-Smart-Display</link>
-      <description>Raspberry Pi is gearing up to launch another new product: a Raspberry Pi Smart Display Module...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Raspberry-Pi-Smart-Display</guid>
-      <pubDate>Wed, 28 Jan 2026 11:01:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mesa NVK Driver Temporarily Disabling Support For Larger Pages Due To Bug</title>
-      <link>https://www.phoronix.com/news/Mesa-Disable-NVK-Large-Page</link>
-      <description>Upstreamed to the Nouveau open-source kernel driver in Linux 6.19 was support for larger pages and with that compression support available with the larger page sizes. Subsequently the Mesa NVK open-source Vulkan driver began making use of the larger pages and compressed image support dependent upon the larger page sizes as it should help with performance. But for now it's being temporarily disabled due to a discovered issue...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-Disable-NVK-Large-Page</guid>
-      <pubDate>Wed, 28 Jan 2026 11:16:21 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 29 Jan 2026 12:26:06 +0000</lastBuildDate>
     <item>
       <title>SonicDE Looks To Preserve &amp;amp; Improve The X11-Specific KDE Code</title>
       <link>https://www.phoronix.com/news/SonicDE-Improving-KDE-X11-Code</link>
@@ -78,6 +57,27 @@
       <description>Sun Microsystems began developing gettext in the early 1990s and the GNU Project began GNU gettext development in 1995 for this widely-used internationalization and localization system commonly for multi-lingual integration. While GNU gettext is commonly used by countless open-source projects and adapted for many different programming languages, only an hour ago was GNU gettext 1.0 finally released...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/GNU-gettext-1.0</guid>
       <pubDate>Thu, 29 Jan 2026 01:31:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA VA-API Driver 0.0.15 Released With A Few Fixes</title>
+      <link>https://www.phoronix.com/news/NVIDIA-VA-API-Driver-0.0.15</link>
+      <description>The NVIDIA-VAAPI-Driver 0.0.15 was released overnight as this VA-API driver implementation built atop NVIDIA's NVDEC interface used by their proprietary user-space driver stack. The purpose of NVIDIA-VAAPI-Driver as this community open-source project continues to be around enabling video acceleration for NVIDIA GPUs with the Firefox web browser on Linux that supports the VA-API interface but not NVIDIA's NVDEC...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-VA-API-Driver-0.0.15</guid>
+      <pubDate>Thu, 29 Jan 2026 10:57:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intel Thermal Daemon 2.5.11 Released With Wildcat Lake Support</title>
+      <link>https://www.phoronix.com/news/Intel-Thermal-Daemon-2.5.11</link>
+      <description>With Intel Panther Lake now shipping, open-source Intel engineers working on the client side are turning to tidying up support for their next target: Wildcat Lake. That more cost effective alternative to Panther Lake now has Intel Thermal Daemon support in getting ready for Linux desktops/laptops...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Thermal-Daemon-2.5.11</guid>
+      <pubDate>Thu, 29 Jan 2026 11:19:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Valve Developer Improves Aging AMD APUs On Linux With VRR, DP/HDMI Audio, HDR &amp;amp; Atomic</title>
+      <link>https://www.phoronix.com/news/AMDGPU-DC-Improved-GCN-1.1-APUs</link>
+      <description>Timur Kristóf of Valve's Linux graphics team last year addressed remaining issues in the open-source AMDGPU kernel graphics driver so old AMD GCN 1.0 and GCN 1.1 GPUs could transition to using AMDGPU by default rather than the former "Radeon" kernel driver that is largely in maintenance mode for pre-GCN/RDNA GPUs. One caveat though was the GCN 1.1 APU support still having some limitations leading to Kaveri and friends not being able to use the modern AMDGPU DC "Display Core" code. But new patche</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-DC-Improved-GCN-1.1-APUs</guid>
+      <pubDate>Thu, 29 Jan 2026 11:36:50 +0000</pubDate>
     </item>
   </channel>
 </rss>
