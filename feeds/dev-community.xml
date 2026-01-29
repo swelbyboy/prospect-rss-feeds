@@ -8,82 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Jan 2026 06:40:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 06:53:05 +0000</lastBuildDate>
     <item>
-      <title>Jinja2TT2: Jinja2 to Template Toolkit Transpiler</title>
-      <link>https://dev.to/lucianofedericopereira/jinja2tt2-jinja2-to-template-toolkit-transpiler-4ge8</link>
-      <description>A Perl transpiler that converts Jinja2 templates to Template Toolkit 2 (TT2) syntax. Source: https://github.com/lucianofedericopereira/jinja2tt2 Description Jinja2 is deeply integrated with Python, making a direct port impractical. However, since TT2 and Jinja2 share similar concepts and syntax patterns, this transpiler performs a mechanical translation between the two template languages. Why TT2? TT2 and Jinja2 share: Variable interpolation: {{ var }} maps to [% var %] Control structures: {% if</description>
-      <guid isPermaLink="false">https://dev.to/lucianofedericopereira/jinja2tt2-jinja2-to-template-toolkit-transpiler-4ge8</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fhjv5460kzfh490dqi6fx.png" length="0" type="image/png"/>
-      <pubDate>Wed, 28 Jan 2026 05:59:15 +0000</pubDate>
+      <title>I Tested 3000+ LLM Agent Memory Operations - Here's What I Found</title>
+      <link>https://dev.to/mahendra4/i-tested-3000-llm-agent-memory-operations-heres-what-i-found-17pc</link>
+      <description>🤔 The Problem If you've built LLM-based agents, you've probably noticed: they forget things. A lot. Your agent remembers the user's name in message 1, forgets it by message 5, and then hallucinates a completely different name by message 10. But why do agents forget? Is it: Memory capacity issues? Information getting overwritten? The LLM hallucinating? Something else? Nobody had data. Just anecdotes and frustration. So I built MemTrace to answer this question with actual statistics. What I Built</description>
+      <guid isPermaLink="false">https://dev.to/mahendra4/i-tested-3000-llm-agent-memory-operations-heres-what-i-found-17pc</guid>
+      <pubDate>Thu, 29 Jan 2026 06:19:01 +0000</pubDate>
     </item>
     <item>
-      <title>20+ Best Shadcn UI Blocks for Building Real Products Faster</title>
-      <link>https://dev.to/vaibhavg/best-shadcn-ui-blocks-for-building-real-products-faster-4ll8</link>
-      <description>Building a SaaS, dashboard, or internal tool usually fails at the same point: UI slows everything down. Writing layouts, handling states, fixing responsiveness, and keeping accessibility intact eats weeks. That’s exactly why more teams are adopting Shadcn UI blocks — composable UI sections built with Shadcn UI , Base UI and Tailwind CSS, designed to be copied, owned, and shipped in production. In this article, we’ll break down 20+ practical Shadcn UI blocks, explain where they fit in real produc</description>
-      <guid isPermaLink="false">https://dev.to/vaibhavg/best-shadcn-ui-blocks-for-building-real-products-faster-4ll8</guid>
-      <pubDate>Wed, 28 Jan 2026 06:00:08 +0000</pubDate>
+      <title>Implementing the Newtype Pattern with Zod: Enhancing Type Safety in TypeScript</title>
+      <link>https://dev.to/tumf/implementing-the-newtype-pattern-with-zod-enhancing-type-safety-in-typescript-5c62</link>
+      <description>Originally published on 2026-01-22 Original article (Japanese): Zodで実装するNewtype Pattern: TypeScriptに欠けている型安全性を補う The type system of TypeScript is based on structural typing. This means that different types are treated as the same if their structures are identical. As a result, bugs can occur when values that should be distinguished are mistakenly confused. Using branded types from Zod can solve this problem. This is a practical approach to implementing the Newtype Pattern in TypeScript, which as</description>
+      <guid isPermaLink="false">https://dev.to/tumf/implementing-the-newtype-pattern-with-zod-enhancing-type-safety-in-typescript-5c62</guid>
+      <pubDate>Thu, 29 Jan 2026 06:19:06 +0000</pubDate>
     </item>
     <item>
-      <title>Peter Finch Golf: I Was Wrong About Giant Golf Grips...</title>
-      <link>https://dev.to/youtube_golf/peter-finch-golf-i-was-wrong-about-giant-golf-grips-4k97</link>
-      <description>Alright, big confession time! I totally got it wrong with those giant golf grips. I tried them out, but after a couple of years, I realized my mistake and switched back to the tried-and-true. Huge thanks to Golf Pride for now supporting me and the squad! Watch on YouTube</description>
-      <guid isPermaLink="false">https://dev.to/youtube_golf/peter-finch-golf-i-was-wrong-about-giant-golf-grips-4k97</guid>
-      <pubDate>Wed, 28 Jan 2026 06:04:03 +0000</pubDate>
+      <title>Robin: Investigating the Dark Web with AI - A New Companion for Security Researchers</title>
+      <link>https://dev.to/tumf/robin-investigating-the-dark-web-with-ai-a-new-companion-for-security-researchers-53kj</link>
+      <description>Originally published on 2026-01-21 Original article (Japanese): Robin: AIを武器にダークウェブを調査する - セキュリティ研究者の新しい相棒 Gathering information from the dark web is an essential task for security researchers. However, finding useful information amidst the vast amount of noise has been a daunting challenge. Robin is a new OSINT tool that leverages the power of LLMs to address this issue. OSINT (Open Source Intelligence) refers to investigative techniques that collect and organize information based on publicly a</description>
+      <guid isPermaLink="false">https://dev.to/tumf/robin-investigating-the-dark-web-with-ai-a-new-companion-for-security-researchers-53kj</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fs4n2cwn06gnka8f2pq6p.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 06:20:28 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Self-Hosted AI Agent with Real System Access</title>
-      <link>https://dev.to/aivideotool/building-a-self-hosted-ai-agent-with-real-system-access-586f</link>
-      <description>We talk a lot about "AI agents" in 2026, but most of them are just chatbots with API wrappers. They can't actually do anything on your system—they're confined to whatever SaaS platform hosts them. Moltbot takes a different approach: it's a local-first AI assistant with actual system-level capabilities. Let's break down the architecture and see what makes it interesting from an engineering perspective. The Core Problem: Bridging Conversation and Execution The challenge with building a practical A</description>
-      <guid isPermaLink="false">https://dev.to/aivideotool/building-a-self-hosted-ai-agent-with-real-system-access-586f</guid>
-      <pubDate>Wed, 28 Jan 2026 06:04:52 +0000</pubDate>
+      <title>llm-tldr: Answering "Where is the authentication?" with 100ms - Accuracy and Limitations of Semantic Search</title>
+      <link>https://dev.to/tumf/llm-tldr-answering-where-is-the-authentication-with-100ms-accuracy-and-limitations-of-3n9i</link>
+      <description>Originally published on 2026-01-19 Original article (Japanese): llm-tldr: 「認証はどこ？」に100msで答えるセマンティック検索の精度と限界 Have you ever searched through a large codebase wondering, "Where is the authentication feature implemented?" Tools like grep and find can't help if you don't know the function name, and IDE symbol searches require exact matches. llm-tldr is a code analysis tool that features semantic search capabilities, allowing you to search for code using natural language queries. It can identify funct</description>
+      <guid isPermaLink="false">https://dev.to/tumf/llm-tldr-answering-where-is-the-authentication-with-100ms-accuracy-and-limitations-of-3n9i</guid>
+      <pubDate>Thu, 29 Jan 2026 06:21:52 +0000</pubDate>
     </item>
     <item>
-      <title>I Vibe-Coded a "Cursor for Writers" on a $7 budget (Because Chat kills the flow)</title>
-      <link>https://dev.to/ricky_ff_16878ab8c0b0d4d8/i-vibe-coded-a-cursor-for-writers-on-a-7-budget-because-chat-kills-the-flow-518l</link>
-      <description>We talk a lot about "Vibe Coding"—using AI to stay in the flow state while building apps. But what about "Vibe Writing"? Every time I try to write a novel with ChatGPT, the vibe dies instantly. I have to stop writing. I have to explain the plot again. I have to copy-paste text. The Flow is gone. I’m 16. I don't have VC money. But I have $7 and some Supabase/Groq credits. So I built Minotauris. It’s an Agentic IDE for fiction. ⚡ The Vibe Check (How it works) Instead of chatting, you Command. Stay</description>
-      <guid isPermaLink="false">https://dev.to/ricky_ff_16878ab8c0b0d4d8/i-vibe-coded-a-cursor-for-writers-on-a-7-budget-because-chat-kills-the-flow-518l</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9etnb4zc34jvq63czvuh.png" length="0" type="image/png"/>
-      <pubDate>Wed, 28 Jan 2026 06:09:16 +0000</pubDate>
+      <title>Prompt engineering: sun’iy intellekt natijani optimallashtirish usullari</title>
+      <link>https://dev.to/s_hoxrux_921856f2645/prompt-engineering-suniy-intellekt-modellarida-natijani-optimallashtirish-usullari-4k2j</link>
+      <description>Annotatsiya. Mazkur maqolada sun’iy intellekt tizimlari, xususan, yirik til modellari (LLM) bilan samarali ishlashda muhim ahamiyatga ega bo‘lgan Prompt Engineering tushunchasi yoritiladi. Prompt Engineering — bu foydalanuvchi tomonidan sun’iy intellektga beriladigan so‘rovlarni to‘g‘ri, aniq va maqsadga yo‘naltirilgan shaklda tuzish texnikasi bo‘lib, natijaning sifati va aniqligini sezilarli darajada oshiradi. Maqolada promptlarning turlari, tuzish usullari, amaliy misollar va ta’lim hamda dast</description>
+      <guid isPermaLink="false">https://dev.to/s_hoxrux_921856f2645/prompt-engineering-suniy-intellekt-modellarida-natijani-optimallashtirish-usullari-4k2j</guid>
+      <pubDate>Thu, 29 Jan 2026 06:22:09 +0000</pubDate>
     </item>
     <item>
-      <title>AlphaArena AI Model Battle: A Hands-On Guide to Replicating DeepSeek's Leading AI Quantitative Trading System</title>
-      <link>https://dev.to/quant001/alphaarena-ai-model-battle-a-hands-on-guide-to-replicating-deepseeks-leading-ai-quantitative-2dpe</link>
-      <description>1. Introduction: Insights from the AI Trading Arena Recently, American AI lab nof1ai launched a compelling experiment—giving six top AI models (Claude, DeepSeek, Gemini, GPT-5, Grok, and Tongyi Qianwen) $10,000 each to compete in the real cryptocurrency perpetual futures market. This wasn't a simulation, but actual trading with real money. The results were surprising: China's DeepSeek consistently led the pack, while both GPT-5 and Gemini crashed and burned. The greatest value of this competitio</description>
-      <guid isPermaLink="false">https://dev.to/quant001/alphaarena-ai-model-battle-a-hands-on-guide-to-replicating-deepseeks-leading-ai-quantitative-2dpe</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr2p29ko2d2ha1bvrpga7.png" length="0" type="image/png"/>
-      <pubDate>Wed, 28 Jan 2026 06:11:46 +0000</pubDate>
+      <title>Hoisting in JavaScript</title>
+      <link>https://dev.to/rahul1994jh/hoisting-in-javascript-a-complete-guide-1276</link>
+      <description>Hoisting is JavaScript’s behavior of moving declarations (not initializations) to the top of their containing scope—either a function or the global scope. This process happens during the compilation phase, before any code is executed. Function Declarations In JavaScript, function declarations are fully hoisted. This means that both the function’s name and its implementation are moved to the top of their scope. As a result, you can call a function before it appears in your code. This is similar t</description>
+      <guid isPermaLink="false">https://dev.to/rahul1994jh/hoisting-in-javascript-a-complete-guide-1276</guid>
+      <pubDate>Thu, 29 Jan 2026 06:26:21 +0000</pubDate>
     </item>
     <item>
-      <title>I genuinely meant it when I said I was done. I even had that rare, fragile sense of closure. Then I noticed one small thing, which led to another, and somehow became a full pass of “minor” edits. I failed at stopping, but this time I really did. 🚧🚦</title>
-      <link>https://dev.to/anchildress1/i-genuinely-meant-it-when-i-said-i-was-done-i-even-had-that-rare-fragile-sense-of-closure-then-i-1cna</link>
-      <description>My Portfolio Doesn’t Live on the Page 🚫📃 Ashley Childress ・ Jan 24 #devchallenge #googleaichallenge #portfolio #gemini</description>
-      <guid isPermaLink="false">https://dev.to/anchildress1/i-genuinely-meant-it-when-i-said-i-was-done-i-even-had-that-rare-fragile-sense-of-closure-then-i-1cna</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F3224358%2F7f675c78-6aa0-466a-a5a7-c3e35440d53a.png" length="0" type="image/png"/>
-      <pubDate>Wed, 28 Jan 2026 06:15:35 +0000</pubDate>
+      <title>Weird JS</title>
+      <link>https://dev.to/rahul1994jh/weird-js-3lo9</link>
+      <description>null vs undefined in JavaScript 1. undefined: Variable declared but not assigned. 2. null: Variable intentionally set to no value. let a; console.log(a); // undefined let b = null; console.log(b); // null Summary: undefined = automatic (I haven't given a value yet) null = intentional (I specifically have no value)</description>
+      <guid isPermaLink="false">https://dev.to/rahul1994jh/weird-js-3lo9</guid>
+      <pubDate>Thu, 29 Jan 2026 06:28:30 +0000</pubDate>
     </item>
     <item>
-      <title>You Don’t Need a Framework for Everything</title>
-      <link>https://dev.to/wingsdesignstudio/you-dont-need-a-framework-for-everything-3on1</link>
-      <description>Frameworks are amazing. They solve real problems and speed things up. But somewhere along the way, “choose a framework” became the default answer—even when the problem doesn’t need one. Let’s talk about it. Frameworks Are Tools, Not Requirements Using a framework should be a decision, not a reflex. If the problem is: A simple landing page A small internal tool A static content site A one-off feature Then adding a heavy framework may cost more than it gives. The Hidden Cost of Frameworks Framewor</description>
-      <guid isPermaLink="false">https://dev.to/wingsdesignstudio/you-dont-need-a-framework-for-everything-3on1</guid>
-      <pubDate>Wed, 28 Jan 2026 06:28:57 +0000</pubDate>
+      <title>Solved: Monitor Linux Disk Space usage and trigger Cleanup Scripts</title>
+      <link>https://dev.to/techresolve/solved-monitor-linux-disk-space-usage-and-trigger-cleanup-scripts-440</link>
+      <description>🚀 Executive Summary TL;DR: To prevent critical service outages caused by full disks, this guide outlines an automated system for Linux servers. It combines a Python script to monitor disk usage and trigger a Bash cleanup script when a predefined threshold is breached, all orchestrated by a cron job for continuous, proactive management. 🎯 Key Takeaways A Python script (disk\_monitor.py) utilizes shutil.disk\_usage() to check disk usage percentage and subprocess.run() to execute a cleanup script i</description>
+      <guid isPermaLink="false">https://dev.to/techresolve/solved-monitor-linux-disk-space-usage-and-trigger-cleanup-scripts-440</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnwjgilechjb8hqoqlrg1.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 06:36:00 +0000</pubDate>
     </item>
     <item>
-      <title>Autopilot - Final: De Localhost a la Nube con GitHub Actions y CI/CD</title>
-      <link>https://dev.to/datalaria/autopilot-final-de-localhost-a-la-nube-con-github-actions-y-cicd-20i9</link>
-      <description>Hemos recorrido un largo camino. Empezamos diseñando un Cerebro capaz de leer (Post 2), le dimos personalidad con Agentes Creativos (Post 3) y luchamos contra la burocracia para conseguir unas Manos (APIs) que pudieran publicar legalmente (Post 4). Pero nos quedaba un último gran paso para no ser un esclavo de mi terminal y es que ahora mismo, para publicar, tenía que estar en mi ordenador, abrir la consola y ejecutar python main.py. Eso no es "Piloto Automático". Eso es "Conducción Asistida". H</description>
-      <guid isPermaLink="false">https://dev.to/datalaria/autopilot-final-de-localhost-a-la-nube-con-github-actions-y-cicd-20i9</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5vobvpm217uwgwtzjuzp.png" length="0" type="image/png"/>
-      <pubDate>Wed, 28 Jan 2026 06:37:22 +0000</pubDate>
+      <title>Top 5 Local LLM Tools and Models in 2026</title>
+      <link>https://dev.to/lightningdev123/top-5-local-llm-tools-and-models-in-2026-1ch5</link>
+      <description>A few years ago, running large language models on your own machine felt like a weekend experiment. In 2026, it feels normal. Local LLMs have quietly moved from “cool demo” to a practical setup that many developers, researchers, and even non-technical users rely on daily. The reason is simple: the models have improved, and the tooling has matured. Today, you can run surprisingly capable AI systems on a laptop or desktop, keep your data private, stay offline when needed, and avoid pay-per-token co</description>
+      <guid isPermaLink="false">https://dev.to/lightningdev123/top-5-local-llm-tools-and-models-in-2026-1ch5</guid>
+      <pubDate>Thu, 29 Jan 2026 06:43:37 +0000</pubDate>
     </item>
     <item>
-      <title>Tracking Video Progress with Bitmaps</title>
-      <link>https://dev.to/cobel1024/tracking-video-progress-with-bitmaps-452g</link>
-      <description>Tracking Video Progress with Bitmaps Problem Most LMS platforms track video completion as percentage or "watched/not watched". This doesn't tell you: Which parts were actually watched vs skipped Which segments were rewatched Precise viewing patterns Solution Use PostgreSQL's varbit (variable-length bit string) where each bit represents one second of video. Bit = 1: watched Bit = 0: not watched Screenshot Orange: watched, Gray: unwatched Why Bitmap? Performance Bitwise OR for merging: existing_bi</description>
-      <guid isPermaLink="false">https://dev.to/cobel1024/tracking-video-progress-with-bitmaps-452g</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Febi6c961ifz124m79hqr.webp" length="0" type="image/webp"/>
-      <pubDate>Wed, 28 Jan 2026 06:37:44 +0000</pubDate>
+      <title>Vector Embeddings: Meet the Librarian Living Inside Every AI</title>
+      <link>https://dev.to/sreeni5018/vector-embeddings-meet-the-librarian-living-inside-every-ai-5bln</link>
+      <description>You know what makes a great librarian amazing? You walk up and say, “I need a book to help my kid learn math better,” and they hand you workbooks, educational games, and fun activity books without you ever mentioning “tutoring materials” or “educational resources.” They don’t just match your keywords. They understand what you mean. That’s exactly what vector embeddings do for AI. They’re the invisible librarian living inside every smart search engine, recommendation system, and chatbot you use.</description>
+      <guid isPermaLink="false">https://dev.to/sreeni5018/vector-embeddings-meet-the-librarian-living-inside-every-ai-5bln</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F856eqaxqpg0m2n9wbnk4.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 06:44:18 +0000</pubDate>
     </item>
   </channel>
 </rss>

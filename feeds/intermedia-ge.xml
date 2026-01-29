@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Intermedia GE - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/intermedia-ge.xml</link>
+    <description>Latest articles from Intermedia GE (intermedia.ge)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/intermedia-ge.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Jan 2026 07:12:53 +0000</lastBuildDate>
+    <item>
+      <title>Atom-Powered Robots Run Amok</title>
+      <link>http://example.org/2003/12/13/atom03</link>
+      <description>Some text.</description>
+      <guid isPermaLink="false">http://example.org/2003/12/13/atom03</guid>
+      <pubDate>Sat, 13 Dec 2003 18:30:02 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

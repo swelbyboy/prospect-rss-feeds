@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>FJ Productions - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/fj-productions.xml</link>
+    <description>Latest articles from FJ Productions (fjproductions.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/fj-productions.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Jan 2026 07:19:28 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://www.fjproductions.com/2015/02/26/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start blogging!</description>
+      <guid isPermaLink="false">https://www.fjproductions.com/2015/02/26/hello-world/</guid>
+      <pubDate>Thu, 26 Feb 2015 10:33:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Olá, mundo!</title>
+      <link>https://www.fjproductions.com/2015/06/12/ola-mundo/</link>
+      <description>Bem-vindo ao WordPress. Esse é o seu primeiro post. Edite-o ou exclua-o, e então comece a publicar!</description>
+      <guid isPermaLink="false">https://www.fjproductions.com/2015/06/12/ola-mundo/</guid>
+      <pubDate>Fri, 12 Jun 2015 16:54:25 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

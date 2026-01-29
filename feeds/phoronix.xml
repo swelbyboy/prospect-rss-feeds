@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Jan 2026 06:40:48 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 06:53:16 +0000</lastBuildDate>
     <item>
-      <title>Zlib-rs Declares A Stable &amp;amp; Complete API For This Rust-Based Zlib Implementation</title>
-      <link>https://www.phoronix.com/news/Zlib-rs-Stable-Complete-API</link>
-      <description>Following the release of zlib-rs 0.6 last week, the developers behind this Rust-based Zlib implementation have declared their API stable and complete...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Zlib-rs-Stable-Complete-API</guid>
-      <pubDate>Tue, 27 Jan 2026 14:30:00 +0000</pubDate>
+      <title>FreeRDP 3.22 Released With Overhauled SDL-Based Client UI</title>
+      <link>https://www.phoronix.com/news/FreeRDP-3.22-Released</link>
+      <description>FreeRDP 3.22 was just released as the newest version of this Apache-licensed open-source Remote Desktop protocol (RDP) implementation for interfacing with another computer over the network...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FreeRDP-3.22-Released</guid>
+      <pubDate>Wed, 28 Jan 2026 10:42:52 +0000</pubDate>
     </item>
     <item>
-      <title>TigerVNC 1.16 Released With "w0vncserver" For Sharing Wayland Desktop Sessions</title>
-      <link>https://www.phoronix.com/news/TigerVNC-1.16</link>
-      <description>TigerVNC 1.16 is out today for this high performance, multi-platform VNC server and client implementation. Most notable with TigerVNC 1.16 is "w0vncserver" as a new server for sharing Wayland desktops...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/TigerVNC-1.16</guid>
-      <pubDate>Tue, 27 Jan 2026 15:16:00 +0000</pubDate>
+      <title>Raspberry Pi Preparing To Introduce A Smart Display Module</title>
+      <link>https://www.phoronix.com/news/Raspberry-Pi-Smart-Display</link>
+      <description>Raspberry Pi is gearing up to launch another new product: a Raspberry Pi Smart Display Module...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Raspberry-Pi-Smart-Display</guid>
+      <pubDate>Wed, 28 Jan 2026 11:01:00 +0000</pubDate>
     </item>
     <item>
-      <title>Systemd Founder Lennart Poettering Announces Amutable Company</title>
-      <link>https://www.phoronix.com/news/Amutable</link>
-      <description>Systemd founder and lead developer Lennart Poettering announced the creation of a new company called Amutable. The Amutable company being led by Chris Kühl (CEO), Christian Brauner (CTO) and Lennart Poettering (Chief Engineer) will be focused on delivering determinism and verifiable integrity to Linux systems...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Amutable</guid>
-      <pubDate>Tue, 27 Jan 2026 16:27:40 +0000</pubDate>
+      <title>Mesa NVK Driver Temporarily Disabling Support For Larger Pages Due To Bug</title>
+      <link>https://www.phoronix.com/news/Mesa-Disable-NVK-Large-Page</link>
+      <description>Upstreamed to the Nouveau open-source kernel driver in Linux 6.19 was support for larger pages and with that compression support available with the larger page sizes. Subsequently the Mesa NVK open-source Vulkan driver began making use of the larger pages and compressed image support dependent upon the larger page sizes as it should help with performance. But for now it's being temporarily disabled due to a discovered issue...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-Disable-NVK-Large-Page</guid>
+      <pubDate>Wed, 28 Jan 2026 11:16:21 +0000</pubDate>
     </item>
     <item>
-      <title>Google Axion CPU Performance With The New Google Cloud N4A Instances</title>
-      <link>https://www.phoronix.com/review/google-cloud-n4a-axion</link>
-      <description>Back in 2024 Google rolled out their Axion in-house ARM processors with the Google Cloud C4A instance type. Today they are expanding their Axion offerings in Google Cloud with the N4A instances now out of preview. The Google Cloud N4A instances are designed for scale-out web servers and microservices, containerized applications, back-end application services, databases, data analytics, and cost-effective development/staging/testing environments.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/google-cloud-n4a-axion</guid>
-      <pubDate>Tue, 27 Jan 2026 17:00:00 +0000</pubDate>
+      <title>SonicDE Looks To Preserve &amp;amp; Improve The X11-Specific KDE Code</title>
+      <link>https://www.phoronix.com/news/SonicDE-Improving-KDE-X11-Code</link>
+      <description>In light of Plasma 6.8 looking to go Wayland-exclusive and retire their X11 session support, SonicDE (formerly "KDE-Lite") is getting off the ground as a fork of the relevant X11 support within the KDE desktop...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/SonicDE-Improving-KDE-X11-Code</guid>
+      <pubDate>Wed, 28 Jan 2026 11:24:00 +0000</pubDate>
     </item>
     <item>
-      <title>KDE Plasma 6.6 Beta 2 Released For Testing</title>
-      <link>https://www.phoronix.com/news/KDE-Plasma-6.6-Beta-2</link>
-      <description>Following the KDE Plasma 6.6 Beta from two weeks ago, a second beta of the upcoming Plasma 6.6 desktop is now available for testing. KDE Plasma 6.6 stable remains on-track for a mid-February release...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Plasma-6.6-Beta-2</guid>
-      <pubDate>Tue, 27 Jan 2026 17:38:00 +0000</pubDate>
+      <title>AMD Ryzen 7 9850X3D Linux Performance</title>
+      <link>https://www.phoronix.com/review/amd-ryzen-7-9850x3d-linux</link>
+      <description>Ahead of tomorrow's official availability of the AMD Ryzen 7 9850X3D at $499 USD, today the review embargo lifted. This faster variant to the existing Ryzen 7 9800X3D has been undergoing lots of Linux benchmarking the past two weeks for seeing the performance capabilities of this fastest 8-core 3D V-Cache processor.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/amd-ryzen-7-9850x3d-linux</guid>
+      <pubDate>Wed, 28 Jan 2026 14:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GNU C Library Moving From Sourceware To Linux Foundation Hosted CTI</title>
-      <link>https://www.phoronix.com/news/GNU-C-Library-To-CTI-LF</link>
-      <description>GNU C Library "glibc" developers have decided to move ahead with plans of migrating their core services from Sourcware.org infrastructure over to the Core Toolchain Infrastructure "CTI" project hosted by the Linux Foundation...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-C-Library-To-CTI-LF</guid>
-      <pubDate>Tue, 27 Jan 2026 19:03:15 +0000</pubDate>
+      <title>FreeType Speeds-Up ClearType-Like LCD Filter Rendering By 40%</title>
+      <link>https://www.phoronix.com/news/FreeType-Faster-ClearType-Like</link>
+      <description>The widely-used FreeType library used for rendering text onto bitmaps has landed a significant optimization for its LCD filtering code path for Microsoft ClearType-like rendering. Thanks to the improvement, the rendering can be around 40% faster...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FreeType-Faster-ClearType-Like</guid>
+      <pubDate>Wed, 28 Jan 2026 16:23:48 +0000</pubDate>
     </item>
     <item>
-      <title>GStreamer 1.28 Released With More Rust Code</title>
-      <link>https://www.phoronix.com/news/GStreamer-1.28</link>
-      <description>GStreamer 1.28 is out today as the newest feature release for this widely-used, open-source multimedia framework...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GStreamer-1.28</guid>
-      <pubDate>Tue, 27 Jan 2026 19:25:33 +0000</pubDate>
+      <title>Mesa 26.0-rc2 Released With Numerous AMD, NVIDIA &amp;amp; Intel Driver Fixes</title>
+      <link>https://www.phoronix.com/news/Mesa-26.0-rc2-Released</link>
+      <description>Following last week's code branching / feature freeze and first release candidate of Mesa 26.0, Mesa 26.0-rc2 is now available with an initial batch of bug fixes for this quarter's feature update to these open-source OpenGL and Vulkan drivers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.0-rc2-Released</guid>
+      <pubDate>Wed, 28 Jan 2026 18:03:07 +0000</pubDate>
     </item>
     <item>
-      <title>New Intel Linux Driver Workaround Halves Initial Game Load Time For MHW</title>
-      <link>https://www.phoronix.com/news/Intel-Vulkan-DriConf-LTO</link>
-      <description>In addition to Mesa 26.1 today seeing Vulkan present timing support finally merged to help reduce game stuttering and separately another long-in-development Mesa merge request for DG2 / Meteor Lake to improve performance as much as 260% in some scenarios, there is another merge today to Mesa Git for enhancing Intel graphics on Linux. For Intel Linux gamers the newest Mesa code adds a new DriConf workaround that is capable of halving the initial game load time for at least one problematic game ti</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Vulkan-DriConf-LTO</guid>
-      <pubDate>Tue, 27 Jan 2026 21:16:18 +0000</pubDate>
+      <title>GNOME 50 Finally Lands Improved Discrete GPU Detection</title>
+      <link>https://www.phoronix.com/news/GNOME-50-Better-GPU-Detection</link>
+      <description>The upcoming release of GNOME 50 to be found in the likes of Ubuntu 26.04 LTS and Fedora Workstation 44 will feature improved discrete GPU detection within the GNOME Shell. This effort has been two years coming and finally merged this week...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Better-GPU-Detection</guid>
+      <pubDate>Wed, 28 Jan 2026 20:45:11 +0000</pubDate>
     </item>
     <item>
-      <title>Apple M3 Progress On Linux: Asahi Can Boot To KDE Desktop - But No GPU Acceleration Yet</title>
-      <link>https://www.phoronix.com/news/Apple-M3-Linux-Boot-To-KDE</link>
-      <description>While the Asahi Linux project has made good progress on bringing Linux to Apple Silicon hardware, much of the success and in turn upstreaming to the Linux kernel has been around the aging M1 and M2 Macs. Apple M3 and newer has been a struggle but progress is being made. One of the Asahi Linux developers shared the ability now to boot to the KDE Plasma desktop with the experimental Asahi Linux code on an M3 MacBook but without any GPU acceleration yet...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Apple-M3-Linux-Boot-To-KDE</guid>
-      <pubDate>Wed, 28 Jan 2026 01:27:11 +0000</pubDate>
+      <title>Wasmer 7.0 Released For Advancing WebAssembly On The Desktop &amp;amp; Anywhere</title>
+      <link>https://www.phoronix.com/news/Wasmer-7.0-Released</link>
+      <description>Wasmer 7.0 is out today for this WebAssembly "WASM" run-time for enabling lightweight containers that can run "anywhere" from the desktop to cloud and the edge. The security-minded and extensible WASM runtime provided by Wasmer has already proven to be quite robust while with Wasmer 7.0 has become even more featureful...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Wasmer-7.0-Released</guid>
+      <pubDate>Wed, 28 Jan 2026 21:13:02 +0000</pubDate>
     </item>
     <item>
-      <title>RFC Patches Posted For Klint Integration With The Linux Kernel: Rust-Based Linting Tool</title>
-      <link>https://www.phoronix.com/news/Klint-Linux-Kernel-RFC-Patches</link>
-      <description>A request for comments (RFC) patch series was sent out today for providing Klint integration with the Linux kernel. Klint is a new linting tool written in the Rust programming language that helps with static code analysis for errors/bugs as well as code styling inconsistencies...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Klint-Linux-Kernel-RFC-Patches</guid>
-      <pubDate>Wed, 28 Jan 2026 05:00:00 +0000</pubDate>
+      <title>GNU gettext Reaches Version 1.0 After 30+ Years In Development - Adds LLM Features</title>
+      <link>https://www.phoronix.com/news/GNU-gettext-1.0</link>
+      <description>Sun Microsystems began developing gettext in the early 1990s and the GNU Project began GNU gettext development in 1995 for this widely-used internationalization and localization system commonly for multi-lingual integration. While GNU gettext is commonly used by countless open-source projects and adapted for many different programming languages, only an hour ago was GNU gettext 1.0 finally released...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-gettext-1.0</guid>
+      <pubDate>Thu, 29 Jan 2026 01:31:08 +0000</pubDate>
     </item>
   </channel>
 </rss>

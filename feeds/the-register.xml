@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>The Register - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/the-register.xml</link>
+    <description>Latest articles from The Register (theregister.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/the-register.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Jan 2026 07:23:17 +0000</lastBuildDate>
+    <item>
+      <title>AI agent hype cools as enterprises struggle to get into production</title>
+      <link>https://go.theregister.com/feed/www.theregister.com/2026/01/28/ai_agents_redis/</link>
+      <description>Only the biggest businesses are up to the challenge, says Redis CEO Anyone scanning the news might think it's pedal to the metal as far as AI agent implementations go, but there is a slump in rollouts as many organizations figure out what to do next, Redis CEO Rowan Trollope told The Register.…</description>
+      <guid isPermaLink="false">https://go.theregister.com/feed/www.theregister.com/2026/01/28/ai_agents_redis/</guid>
+      <pubDate>Wed, 28 Jan 2026 16:17:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fortinet unearths another critical bug as SSO accounts borked post-patch</title>
+      <link>https://go.theregister.com/feed/www.theregister.com/2026/01/28/fortinet_forticloud_vuln/</link>
+      <description>More work for admins on the cards as they await a full dump of fixes Things aren't over yet for Fortinet customers – the security shop has disclosed yet another critical FortiCloud SSO vulnerability.…</description>
+      <guid isPermaLink="false">https://go.theregister.com/feed/www.theregister.com/2026/01/28/fortinet_forticloud_vuln/</guid>
+      <pubDate>Wed, 28 Jan 2026 16:30:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yes, you can build an AI agent - here’s how, using LangFlow</title>
+      <link>https://go.theregister.com/feed/www.theregister.com/2026/01/28/a_beginners_guide_to_ai_agents/</link>
+      <description>AI automation, now as simple as point, click, drag, and drop Hands On For all the buzz surrounding them, AI agents are simply another form of automation that can perform tasks using the tools you've provided. Think of them as smart macros that make decisions and go beyond simple if/then rules to handle edge cases in input data. Fortunately, it's easy enough to code your own agents and below we'll show you how.…</description>
+      <guid isPermaLink="false">https://go.theregister.com/feed/www.theregister.com/2026/01/28/a_beginners_guide_to_ai_agents/</guid>
+      <pubDate>Wed, 28 Jan 2026 16:59:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft plans more server farms, despite water worries</title>
+      <link>https://go.theregister.com/feed/www.theregister.com/2026/01/28/microsoft_more_server_farms/</link>
+      <description>Redmond has pledged to be carbon-negative by 2030 It's no secret that datacenters use a ton of water for cooling, a demand that can strain local supplies. Despite reported internal forecasts showing sharply higher water use by 2030, Microsoft continues to splash cash on new AI bit barns.…</description>
+      <guid isPermaLink="false">https://go.theregister.com/feed/www.theregister.com/2026/01/28/microsoft_more_server_farms/</guid>
+      <pubDate>Wed, 28 Jan 2026 18:30:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Everybody is WinRAR phishing, dropping RATs as fast as lightning</title>
+      <link>https://go.theregister.com/feed/www.theregister.com/2026/01/28/winrar_bug_under_attack/</link>
+      <description>Russians, Chinese spies, run-of-the-mill crims … Come one, come all. Everyone from Russian and Chinese government goons to financially motivated miscreants is exploiting a long-since-patched WinRAR vuln to bring you infostealers and Remote Access Trojans (RATs).…</description>
+      <guid isPermaLink="false">https://go.theregister.com/feed/www.theregister.com/2026/01/28/winrar_bug_under_attack/</guid>
+      <pubDate>Wed, 28 Jan 2026 18:59:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code's prying AIs read off-limits secret files</title>
+      <link>https://go.theregister.com/feed/www.theregister.com/2026/01/28/claude_code_ai_secrets_files/</link>
+      <description>Developers remain unsure how to prevent access to sensitive data Don't you hate it when machines can't follow simple instructions? Anthropic's Claude Code can't take "ignore" for an answer and continues to read passwords and API keys, even when your secrets file is supposed to be blocked.…</description>
+      <guid isPermaLink="false">https://go.theregister.com/feed/www.theregister.com/2026/01/28/claude_code_ai_secrets_files/</guid>
+      <pubDate>Wed, 28 Jan 2026 20:42:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ransomware crims forced to take off-RAMP as FBI seizes forum</title>
+      <link>https://go.theregister.com/feed/www.theregister.com/2026/01/28/fbi_seizes_ramp_forum/</link>
+      <description>Cybercrime solved. The end Ransomware crims have just lost one of their best business platforms. US law enforcement has seized the notorious RAMP cybercrime forum's dark web and clearnet domains.…</description>
+      <guid isPermaLink="false">https://go.theregister.com/feed/www.theregister.com/2026/01/28/fbi_seizes_ramp_forum/</guid>
+      <pubDate>Wed, 28 Jan 2026 21:26:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>ServiceNow boasts about years of sweat equity that went into making its AI agents smarter</title>
+      <link>https://go.theregister.com/feed/www.theregister.com/2026/01/28/servicenow_ai_agents/</link>
+      <description>80 billion workflows makes a difference Though some recent studies cast doubt on the ability of AI agents to complete complex tasks, ServiceNow boasts that its bots are better, because they can rely on 20 years and 80 billion workflows worth of experience. The underlying model, they say, is just a small part of the product.…</description>
+      <guid isPermaLink="false">https://go.theregister.com/feed/www.theregister.com/2026/01/28/servicenow_ai_agents/</guid>
+      <pubDate>Wed, 28 Jan 2026 22:40:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google to foist Gemini pane on Chrome users in automated browsing push</title>
+      <link>https://go.theregister.com/feed/www.theregister.com/2026/01/29/chrome_gemini_pane/</link>
+      <description>The world’s most popular browser has gained a dedicated sidebar for AI browsing Google has reworked its Chrome browser to include a new side panel for interacting with the company's Gemini model, in an effort to support AI-assisted interactions with websites.…</description>
+      <guid isPermaLink="false">https://go.theregister.com/feed/www.theregister.com/2026/01/29/chrome_gemini_pane/</guid>
+      <pubDate>Thu, 29 Jan 2026 00:34:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft investors sweat cloud giant's OpenAI exposure</title>
+      <link>https://go.theregister.com/feed/www.theregister.com/2026/01/29/microsoft_earnings_q2_2026/</link>
+      <description>All the promises in the world won't pay the GPU bills when the music stops What should have been a banner second quarter for Microsoft was met with tepid apprehension on Wall Street on Wednesday, sending its share price by 6 percent in after-hours trading.…</description>
+      <guid isPermaLink="false">https://go.theregister.com/feed/www.theregister.com/2026/01/29/microsoft_earnings_q2_2026/</guid>
+      <pubDate>Thu, 29 Jan 2026 02:37:12 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>This Is Just A Test - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/this-is-just-a-test.xml</link>
+    <description>Latest articles from This Is Just A Test (tijat.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/this-is-just-a-test.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Jan 2026 07:19:08 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://www.tijat.com/hello-world/</link>
+      <description>AM JAZZ I Am Jazz is a documentary series that focuses on the Jennings family and their day-to-day lives as Jazz, a transgender teenage girl who is about to go into high school, grapples with the usual teen angst in addition to her own challenges as a transgender girl. Her family includes her three siblings, […] The post Hello world! appeared first on This is Just a Test Productions.</description>
+      <guid isPermaLink="false">https://www.tijat.com/hello-world/</guid>
+      <pubDate>Thu, 16 Nov 2017 14:47:09 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
