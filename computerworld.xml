@@ -8,23 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 07:05:17 +0000</lastBuildDate>
-    <item>
-      <title>Fixes released for a serious Microsoft Office zero-day flaw</title>
-      <link>https://www.computerworld.com/article/4123102/fixes-released-for-a-serious-microsoft-office-zero-day-flaw.html</link>
-      <description>Microsoft is warning admins of an Office security bypass zero day vulnerability that can be triggered simply by a user opening a document. The flaw is currently being actively exploited. “The vulnerability is serious,” said Johannes Ullrich, dean of research at the SANS Institute. “The root cause is that Microsoft Office still supports the older OLE document format, which provides access to various OLE components. The effect is similar to what an attacker could do with Office Macros. But Office</description>
-      <guid isPermaLink="false">https://www.computerworld.com/article/4123102/fixes-released-for-a-serious-microsoft-office-zero-day-flaw.html</guid>
-      <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/01/4123102-0-43063500-1769551141-shutterstock_editorial_370707185.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 27 Jan 2026 21:58:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Engineers rush to master new skills for AI data centers</title>
-      <link>https://www.networkworld.com/article/3975647/engineers-rush-to-master-new-skills-for-ai-driven-data-centers.html</link>
-      <description>The explosive growth of AI infrastructure is creating a mad dash for new data center capacity – and more data center staff – unlike anything seen before. Demand for data center capacity could more than triple by 2030 due to growth in AI and other workloads, according to data from McKinsey. Continue reading on Network World.</description>
-      <guid isPermaLink="false">https://www.networkworld.com/article/3975647/engineers-rush-to-master-new-skills-for-ai-driven-data-centers.html</guid>
-      <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/01/4123151-0-53721800-1769552181-shutterstock_498027421.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 27 Jan 2026 22:15:32 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 29 Jan 2026 12:38:32 +0000</lastBuildDate>
     <item>
       <title>Windows 11 Insider Previews: What’s in the latest build?</title>
       <link>https://www.computerworld.com/article/1614352/windows-11-insider-previews-whats-in-latest-build.html</link>
@@ -88,6 +72,22 @@
       <guid isPermaLink="false">https://www.computerworld.com/article/4124056/nuclear-safety-rules-quietly-rewritten-to-favor-ai.html</guid>
       <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/01/4124056-0-79583200-1769661662-shutterstock_2498536153.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
       <pubDate>Thu, 29 Jan 2026 04:35:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is it time to reconsider DaaS?</title>
+      <link>https://www.computerworld.com/article/4121635/is-it-time-to-reconsider-daas.html</link>
+      <description>Desktop as a Service (DaaS) has made some radical strides and improvements in recent years, making it a more compelling alternative to Virtual Desktop Infrastructure (VDI) — and to traditional PC deployment and management. DaaS is a cloud-based offering where a provider hosts virtual desktops and streams them over the internet to users’ devices, delivering a complete desktop environment that includes the operating system, apps, files, and user settings from remote cloud servers instead of runnin</description>
+      <guid isPermaLink="false">https://www.computerworld.com/article/4121635/is-it-time-to-reconsider-daas.html</guid>
+      <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/01/4121635-0-66074200-1769684728-shutterstock_2184502325.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 29 Jan 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to reduce Windows driver bloat</title>
+      <link>https://www.computerworld.com/article/1709224/how-to-reduce-windows-driver-bloat-remove-outdated-drivers-2.html</link>
+      <description>Over time on Windows systems, it’s inevitable that old device drivers get supplanted by new ones. Even on systems where drivers aren’t rigorously maintained, Windows Update will typically update at least a dozen drivers annually. Those who pursue driver currency more vigorously may also use tools like the Intel Driver &amp;amp; Support Assistant (DSA), the NVIDIA App (which checks Nvidia graphics, sound, and 3D drivers), or general driver management tools such as ioBit’s Driver Booster or the SourceForg</description>
+      <guid isPermaLink="false">https://www.computerworld.com/article/1709224/how-to-reduce-windows-driver-bloat-remove-outdated-drivers-2.html</guid>
+      <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/01/1709224-0-74421200-1769684663-bloated-puffer-fish-by-brian-yurasits-via-unsplash-100940180-orig.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 29 Jan 2026 11:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

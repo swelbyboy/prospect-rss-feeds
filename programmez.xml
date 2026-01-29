@@ -8,31 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 07:24:52 +0000</lastBuildDate>
-    <item>
-      <title>Bonsplit : une librairie SwiftUI pour personnaliser les onglets</title>
-      <link>https://www.programmez.com/actualites/bonsplit-une-librairie-swiftui-pour-personnaliser-les-onglets-38899</link>
-      <description>Parfois SwiftUI est trop rigide et permet une personnalisation limitée notamment sur les onglets avec TabView. Bonsplit propose une librairie native pour les onglets et la possibilité de splitter les panneaux dans une app SwiftUI. La librairie apporte :- un aspect native- possibilité d'ordonner les onglets par simple glisser-déposer- split des panneaux avec une animation 120 fps- personnalisation de l'apparence- navigateur par clavierIl nécessite minimum macOS 14, Swift 5.9 et Xcode 15.0. Instal</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/bonsplit-une-librairie-swiftui-pour-personnaliser-les-onglets-38899</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/bonsplit.png?itok=rx7ayf3g" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 27 Jan 2026 08:06:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Node.js 25.5.0 : nouveau commande --build-sea</title>
-      <link>https://www.programmez.com/actualites/nodejs-2550-nouveau-commande-build-sea-38900</link>
-      <description>Node.js distribue la version 25.5.0 depuis quelques heures. Cette version introduit un nouveau flag CLI : --build-sea. Il doit simplifier le processus de build dit Single Executable Applications (ou SEA), utilisé par Node. Jusqu'à présent, la génération SEA impliquait la copie de l'exécutable, la génération du blob de préparation avec --experimental-sea-config et l'injection du blob dans la copie avec nodejs/postect. Désomais, --build-sea regroupe toutes les étapes sur une seule ce qui simplifie</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/nodejs-2550-nouveau-commande-build-sea-38900</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 27 Jan 2026 08:32:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Godot 4.6 : nouveau thème, Jolt Physics, nouveau framework</title>
-      <link>https://www.programmez.com/actualites/godot-46-nouveau-theme-jolt-physics-nouveau-framework-38931</link>
-      <description>Le moteur Gobot annonce la disponibilité de la version 4.6. Cette mise à jour majeure introduit de nombreuses nouveautés.Nous retenons les fonctionnalités suivantes :LibGobot : peut-être la nouveauté la plus intéressante pour les développeurs. LibGodot permet d'embarquer directement le moteur dans son application. Ainsi, au lieu d’exécuter Godot à part, il peut s’intégrer directement. Cette fonctionnalité est disponible sur Linux, macOS et Windows.Support natif de OpenXR 1.1Direct3D 12 est activ</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/godot-46-nouveau-theme-jolt-physics-nouveau-framework-38931</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/godot46.png?itok=h1ZowYnQ" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 27 Jan 2026 17:29:18 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 29 Jan 2026 12:59:00 +0000</lastBuildDate>
     <item>
       <title>IntelliJ Scala Plugin : quelles évolutions en 2025 ?</title>
       <link>https://www.programmez.com/actualites/intellij-scala-plugin-quelles-evolutions-en-2025-38933</link>
@@ -88,6 +64,30 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/kiro-ide-un-ide-agentique-selon-aws-38941</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/capture_decran_2026-01-28_a_15.34.25.png?itok=XEwE0Xs8" length="0" type="image/jpeg"/>
       <pubDate>Wed, 28 Jan 2026 14:40:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wild Code School lance une formation développeur IA agentique</title>
+      <link>https://www.programmez.com/actualites/wild-code-school-lance-une-formation-developpeur-ia-agentique-38942</link>
+      <description>Après son rachat par Simplon, Wild Code School se relance avec une formation "développeur IA agentique". Sur 2025, l'école annonce 800 personnes formées sur 9 parcours. 2 nouvelles formations sont annoncées : - Le parcours Développeur IA Agentique vise à former, en six mois, des développeurs capables de concevoir et déployer des applications intégrant des modèles d’intelligence artificielle et des agents autonomes, à partir de cas d’usage concrets comme en entreprise.- Le parcours Technicien Val</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/wild-code-school-lance-une-formation-developpeur-ia-agentique-38942</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 07:10:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>The adolescence of Technology : Dario Amodei alerte sur les risques de la puissance de l'IA</title>
+      <link>https://www.programmez.com/actualites/adolescence-technology-dario-amodei-alerte-sur-les-risques-de-la-puissance-de-lia-38943</link>
+      <description>Dario Amodei est le patron d'Anthropic qui propose, notamment, Claude et Claude Code. Dans une longue publication, The adolescence of Technology : confronting and overcoming the risks of powerful AI, Dario revient sur les atouts de l'IA mais surtout sur les dangers immédiats et futurs, une puissance libérée et sans contrôle."Dans mon essai « Machines de grâce bienveillante », j'ai tenté d'esquisser le rêve d'une civilisation parvenue à maturité, où les risques auraient été appréhendés et où une</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/adolescence-technology-dario-amodei-alerte-sur-les-risques-de-la-puissance-de-lia-38943</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/dario.jpg?itok=4RJv_oFk" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 29 Jan 2026 08:52:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>4G Base Station : MCHobby propose une carte 4G complète avec Pi Pico 2</title>
+      <link>https://www.programmez.com/actualites/4g-base-station-mchobby-propose-une-carte-4g-complete-avec-pi-pico-2-38944</link>
+      <description>MC Hobby propose un kit de développement 4G : la 4G Base Station. Il s'agit d'une plateforme de développement Micro-Python, basée sur un micro-contrôleur Pi Pico 2. Les usages sont nombreux : domotique, gestion des portails, un système SMS.La plateforme intègre :- les capteurs Qwiic / StemmaQT- communication UART, SPI, I2C- Pi Pico- module 4G- 2 relais pour gérer les matériels externesCôté développement, MC Hobby utilise Micro Python et des bibliothèques sont disponibles pour gérer et utiliser l</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/4g-base-station-mchobby-propose-une-carte-4g-complete-avec-pi-pico-2-38944</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 11:06:17 +0000</pubDate>
     </item>
   </channel>
 </rss>

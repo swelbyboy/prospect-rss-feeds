@@ -8,79 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 06:53:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 12:25:56 +0000</lastBuildDate>
     <item>
-      <title>I Tested 3000+ LLM Agent Memory Operations - Here's What I Found</title>
-      <link>https://dev.to/mahendra4/i-tested-3000-llm-agent-memory-operations-heres-what-i-found-17pc</link>
-      <description>🤔 The Problem If you've built LLM-based agents, you've probably noticed: they forget things. A lot. Your agent remembers the user's name in message 1, forgets it by message 5, and then hallucinates a completely different name by message 10. But why do agents forget? Is it: Memory capacity issues? Information getting overwritten? The LLM hallucinating? Something else? Nobody had data. Just anecdotes and frustration. So I built MemTrace to answer this question with actual statistics. What I Built</description>
-      <guid isPermaLink="false">https://dev.to/mahendra4/i-tested-3000-llm-agent-memory-operations-heres-what-i-found-17pc</guid>
-      <pubDate>Thu, 29 Jan 2026 06:19:01 +0000</pubDate>
+      <title>Getting Started with cURL: Your First Steps in Talking to Servers</title>
+      <link>https://dev.to/sanjeev_singh_d0e6cd59459/getting-started-with-curl-your-first-steps-in-talking-to-servers-47ih</link>
+      <description>What Are Servers, and Why Do We Need to Talk to Them? Before we dive into cURL, let's understand a fundamental concept: servers. Imagine you're at a restaurant. You (the client) want food, but you don't go into the kitchen yourself. Instead, you tell the waiter what you want, the waiter takes your request to the kitchen (the server), and then brings back your food (the response). In programming, it works similarly: Your computer is the client (like you at the restaurant) The server is a powerful</description>
+      <guid isPermaLink="false">https://dev.to/sanjeev_singh_d0e6cd59459/getting-started-with-curl-your-first-steps-in-talking-to-servers-47ih</guid>
+      <pubDate>Thu, 29 Jan 2026 11:58:05 +0000</pubDate>
     </item>
     <item>
-      <title>Implementing the Newtype Pattern with Zod: Enhancing Type Safety in TypeScript</title>
-      <link>https://dev.to/tumf/implementing-the-newtype-pattern-with-zod-enhancing-type-safety-in-typescript-5c62</link>
-      <description>Originally published on 2026-01-22 Original article (Japanese): Zodで実装するNewtype Pattern: TypeScriptに欠けている型安全性を補う The type system of TypeScript is based on structural typing. This means that different types are treated as the same if their structures are identical. As a result, bugs can occur when values that should be distinguished are mistakenly confused. Using branded types from Zod can solve this problem. This is a practical approach to implementing the Newtype Pattern in TypeScript, which as</description>
-      <guid isPermaLink="false">https://dev.to/tumf/implementing-the-newtype-pattern-with-zod-enhancing-type-safety-in-typescript-5c62</guid>
-      <pubDate>Thu, 29 Jan 2026 06:19:06 +0000</pubDate>
+      <title>Why Your Team Doesn't Believe Your Dashboards</title>
+      <link>https://dev.to/linkbenjamin/why-your-team-doesnt-believe-your-dashboards-4k19</link>
+      <description>Long ago I worked on a team that was the quintessential story: understaffed, overassigned, always on the verge of completely flying apart at the seams. Our backlog continually grew despite the heroic efforts of this super-dedicated little crew. Management, however, didn't see it that way. Our director’s analytics team began sending shiny dashboards to our manager: charts full of trends and deltas. According to the data, our “velocity” was dropping and our “defect rate” was rising. But we weren’t</description>
+      <guid isPermaLink="false">https://dev.to/linkbenjamin/why-your-team-doesnt-believe-your-dashboards-4k19</guid>
+      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Robin: Investigating the Dark Web with AI - A New Companion for Security Researchers</title>
-      <link>https://dev.to/tumf/robin-investigating-the-dark-web-with-ai-a-new-companion-for-security-researchers-53kj</link>
-      <description>Originally published on 2026-01-21 Original article (Japanese): Robin: AIを武器にダークウェブを調査する - セキュリティ研究者の新しい相棒 Gathering information from the dark web is an essential task for security researchers. However, finding useful information amidst the vast amount of noise has been a daunting challenge. Robin is a new OSINT tool that leverages the power of LLMs to address this issue. OSINT (Open Source Intelligence) refers to investigative techniques that collect and organize information based on publicly a</description>
-      <guid isPermaLink="false">https://dev.to/tumf/robin-investigating-the-dark-web-with-ai-a-new-companion-for-security-researchers-53kj</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fs4n2cwn06gnka8f2pq6p.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 06:20:28 +0000</pubDate>
+      <title>Dead Performers and Machine Creations</title>
+      <link>https://dev.to/rawveg/dead-performers-and-machine-creations-4g64</link>
+      <description>In September 2025, Hollywood's unions found themselves confronting an adversary unlike any they had faced before. Tilly Norwood had attracted the attention of multiple talent agencies eager to represent her. She possessed the polish of a seasoned performer, the algorithmic perfection of someone who had never experienced a bad hair day, and one notable characteristic that set her apart from every other aspiring actor in Los Angeles: she did not exist. Tilly Norwood is not human. She is a fully sy</description>
+      <guid isPermaLink="false">https://dev.to/rawveg/dead-performers-and-machine-creations-4g64</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fos7pdncawa0mgqcin0gf.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>llm-tldr: Answering "Where is the authentication?" with 100ms - Accuracy and Limitations of Semantic Search</title>
-      <link>https://dev.to/tumf/llm-tldr-answering-where-is-the-authentication-with-100ms-accuracy-and-limitations-of-3n9i</link>
-      <description>Originally published on 2026-01-19 Original article (Japanese): llm-tldr: 「認証はどこ？」に100msで答えるセマンティック検索の精度と限界 Have you ever searched through a large codebase wondering, "Where is the authentication feature implemented?" Tools like grep and find can't help if you don't know the function name, and IDE symbol searches require exact matches. llm-tldr is a code analysis tool that features semantic search capabilities, allowing you to search for code using natural language queries. It can identify funct</description>
-      <guid isPermaLink="false">https://dev.to/tumf/llm-tldr-answering-where-is-the-authentication-with-100ms-accuracy-and-limitations-of-3n9i</guid>
-      <pubDate>Thu, 29 Jan 2026 06:21:52 +0000</pubDate>
+      <title>Mr Sunday Movies: The MCU Spider-Man Trilogy - Caravan of Garbage</title>
+      <link>https://dev.to/popcorn_movies/mr-sunday-movies-the-mcu-spider-man-trilogy-caravan-of-garbage-23df</link>
+      <description>Hey web-heads! Get ready for a "Caravan of Garbage" deep dive into Tom Holland's MCU Spider-Man trilogy! This compilation looks back at Homecoming, Far From Home, and the epic No Way Home, which brought back all the Spideys (yeah, Tobey and Andrew were there!). It's all leading up to something called "Brand New Day" in 2026, so brush up on how our high-school hero navigated life and villains across those three big flicks. Watch on YouTube</description>
+      <guid isPermaLink="false">https://dev.to/popcorn_movies/mr-sunday-movies-the-mcu-spider-man-trilogy-caravan-of-garbage-23df</guid>
+      <pubDate>Thu, 29 Jan 2026 12:00:37 +0000</pubDate>
     </item>
     <item>
-      <title>Prompt engineering: sun’iy intellekt natijani optimallashtirish usullari</title>
-      <link>https://dev.to/s_hoxrux_921856f2645/prompt-engineering-suniy-intellekt-modellarida-natijani-optimallashtirish-usullari-4k2j</link>
-      <description>Annotatsiya. Mazkur maqolada sun’iy intellekt tizimlari, xususan, yirik til modellari (LLM) bilan samarali ishlashda muhim ahamiyatga ega bo‘lgan Prompt Engineering tushunchasi yoritiladi. Prompt Engineering — bu foydalanuvchi tomonidan sun’iy intellektga beriladigan so‘rovlarni to‘g‘ri, aniq va maqsadga yo‘naltirilgan shaklda tuzish texnikasi bo‘lib, natijaning sifati va aniqligini sezilarli darajada oshiradi. Maqolada promptlarning turlari, tuzish usullari, amaliy misollar va ta’lim hamda dast</description>
-      <guid isPermaLink="false">https://dev.to/s_hoxrux_921856f2645/prompt-engineering-suniy-intellekt-modellarida-natijani-optimallashtirish-usullari-4k2j</guid>
-      <pubDate>Thu, 29 Jan 2026 06:22:09 +0000</pubDate>
+      <title>Our AI Critic Was Going Easy on Us (Research Told Us Why)</title>
+      <link>https://dev.to/theskillsteam/our-ai-critic-was-going-easy-on-us-research-told-us-why-55j0</link>
+      <description>We run a team of AI personas. A planner, an architect, a critic, a builder, a QA engineer. They collaborate in shared context, challenge each other's designs, and review each other's work. One day we asked: is our critic actually critiquing? Or is it the same model rating its own work? The Papers That Started It Two arxiv papers landed in a team discussion. The first (2404.13076) turned out to be about something we didn't expect: LLM self-preference bias. Models recognize their own output and ra</description>
+      <guid isPermaLink="false">https://dev.to/theskillsteam/our-ai-critic-was-going-easy-on-us-research-told-us-why-55j0</guid>
+      <pubDate>Thu, 29 Jan 2026 12:01:43 +0000</pubDate>
     </item>
     <item>
-      <title>Hoisting in JavaScript</title>
-      <link>https://dev.to/rahul1994jh/hoisting-in-javascript-a-complete-guide-1276</link>
-      <description>Hoisting is JavaScript’s behavior of moving declarations (not initializations) to the top of their containing scope—either a function or the global scope. This process happens during the compilation phase, before any code is executed. Function Declarations In JavaScript, function declarations are fully hoisted. This means that both the function’s name and its implementation are moved to the top of their scope. As a result, you can call a function before it appears in your code. This is similar t</description>
-      <guid isPermaLink="false">https://dev.to/rahul1994jh/hoisting-in-javascript-a-complete-guide-1276</guid>
-      <pubDate>Thu, 29 Jan 2026 06:26:21 +0000</pubDate>
+      <title>.NET File‑Based Apps for API Prototyping: What Bit Me on First Run</title>
+      <link>https://dev.to/eelcolos/net-file-based-apps-for-api-prototyping-what-bit-me-on-first-run-na2</link>
+      <description>Using .NET file-based apps (via dotnet run app.cs) enables rapid prototyping and simplified project structure by eliminating project scaffolding. This feature was announced for dotnet 10 just before .Net Conf 2025: https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/ It’s a neat way to try ideas quickly. I tried to find out if this would work with FastEndpoints to demo an API that way. Example (FastEndpoints + file-based app) #:sdk Microsoft.NET.Sdk.Web #:package FastEndpoints@7.*-*</description>
+      <guid isPermaLink="false">https://dev.to/eelcolos/net-file-based-apps-for-api-prototyping-what-bit-me-on-first-run-na2</guid>
+      <pubDate>Thu, 29 Jan 2026 12:03:21 +0000</pubDate>
     </item>
     <item>
-      <title>Weird JS</title>
-      <link>https://dev.to/rahul1994jh/weird-js-3lo9</link>
-      <description>null vs undefined in JavaScript 1. undefined: Variable declared but not assigned. 2. null: Variable intentionally set to no value. let a; console.log(a); // undefined let b = null; console.log(b); // null Summary: undefined = automatic (I haven't given a value yet) null = intentional (I specifically have no value)</description>
-      <guid isPermaLink="false">https://dev.to/rahul1994jh/weird-js-3lo9</guid>
-      <pubDate>Thu, 29 Jan 2026 06:28:30 +0000</pubDate>
+      <title>Building in Public: How I Pivoted from Features to Validation 🚀</title>
+      <link>https://dev.to/lujandev/building-in-public-how-i-pivoted-from-features-to-validation-2150</link>
+      <description>I spent months building features almost every day. Clean code. Real infra. Everything working. But I made a classic developer mistake: I built first… and asked questions later. 🚨 As a developer, my default mode was: “Just add one more feature.” Admin panel. Payments. Webhooks. Integrations. More modules. Technically solid. Business-wise? No real validation 😅 After ~8 months, I realized the problem wasn’t the code. I was trying to validate: an e-commerce platform a SaaS product and my own interna</description>
+      <guid isPermaLink="false">https://dev.to/lujandev/building-in-public-how-i-pivoted-from-features-to-validation-2150</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftc520gmvsjgp0xehoc7f.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 12:04:22 +0000</pubDate>
     </item>
     <item>
-      <title>Solved: Monitor Linux Disk Space usage and trigger Cleanup Scripts</title>
-      <link>https://dev.to/techresolve/solved-monitor-linux-disk-space-usage-and-trigger-cleanup-scripts-440</link>
-      <description>🚀 Executive Summary TL;DR: To prevent critical service outages caused by full disks, this guide outlines an automated system for Linux servers. It combines a Python script to monitor disk usage and trigger a Bash cleanup script when a predefined threshold is breached, all orchestrated by a cron job for continuous, proactive management. 🎯 Key Takeaways A Python script (disk\_monitor.py) utilizes shutil.disk\_usage() to check disk usage percentage and subprocess.run() to execute a cleanup script i</description>
-      <guid isPermaLink="false">https://dev.to/techresolve/solved-monitor-linux-disk-space-usage-and-trigger-cleanup-scripts-440</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnwjgilechjb8hqoqlrg1.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 06:36:00 +0000</pubDate>
+      <title>Announcing SuperQode and SuperQE: Redefining Quality Engineering for Agentic Software</title>
+      <link>https://dev.to/shashikant86/announcing-superqode-and-superqe-redefining-quality-engineering-for-agentic-software-4ek9</link>
+      <description>Today we are publicly announcing SuperQode and SuperQE. They are open source tools that redefine how quality engineering works in the age of agentic software. SuperQode is the interactive TUI for exploratory quality engineering. SuperQE is the automation CLI for deep evaluation testing and CI workflows. Together they create a new workflow where agents test agents, evidence replaces assumptions, and humans remain in control. This release is the foundation for a new quality standard. AI can write</description>
+      <guid isPermaLink="false">https://dev.to/shashikant86/announcing-superqode-and-superqe-redefining-quality-engineering-for-agentic-software-4ek9</guid>
+      <pubDate>Thu, 29 Jan 2026 12:11:00 +0000</pubDate>
     </item>
     <item>
-      <title>Top 5 Local LLM Tools and Models in 2026</title>
-      <link>https://dev.to/lightningdev123/top-5-local-llm-tools-and-models-in-2026-1ch5</link>
-      <description>A few years ago, running large language models on your own machine felt like a weekend experiment. In 2026, it feels normal. Local LLMs have quietly moved from “cool demo” to a practical setup that many developers, researchers, and even non-technical users rely on daily. The reason is simple: the models have improved, and the tooling has matured. Today, you can run surprisingly capable AI systems on a laptop or desktop, keep your data private, stay offline when needed, and avoid pay-per-token co</description>
-      <guid isPermaLink="false">https://dev.to/lightningdev123/top-5-local-llm-tools-and-models-in-2026-1ch5</guid>
-      <pubDate>Thu, 29 Jan 2026 06:43:37 +0000</pubDate>
+      <title>Understanding HTML Tags and Elements</title>
+      <link>https://dev.to/anoop-rajoriya/understanding-html-tags-and-elements-1p</link>
+      <description>Content List What is HTML and why we using it What is HTML tags What is elements &amp;amp; elements vs tags Self closing elements Inline and blcok level elements Rerences What HTML is and why we use it? HTML stand for Hyper Text Markup Language. In that hyper text refere to system that provide a link to access other pages on web, markup means use of annotate text give instruction to browser how to structure and display page content. Brower can not read html like humans do it need a instruction to differ</description>
+      <guid isPermaLink="false">https://dev.to/anoop-rajoriya/understanding-html-tags-and-elements-1p</guid>
+      <pubDate>Thu, 29 Jan 2026 12:12:12 +0000</pubDate>
     </item>
     <item>
-      <title>Vector Embeddings: Meet the Librarian Living Inside Every AI</title>
-      <link>https://dev.to/sreeni5018/vector-embeddings-meet-the-librarian-living-inside-every-ai-5bln</link>
-      <description>You know what makes a great librarian amazing? You walk up and say, “I need a book to help my kid learn math better,” and they hand you workbooks, educational games, and fun activity books without you ever mentioning “tutoring materials” or “educational resources.” They don’t just match your keywords. They understand what you mean. That’s exactly what vector embeddings do for AI. They’re the invisible librarian living inside every smart search engine, recommendation system, and chatbot you use.</description>
-      <guid isPermaLink="false">https://dev.to/sreeni5018/vector-embeddings-meet-the-librarian-living-inside-every-ai-5bln</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F856eqaxqpg0m2n9wbnk4.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 06:44:18 +0000</pubDate>
+      <title>Laravel Boost: Making AI Actually Useful for Laravel Developers</title>
+      <link>https://dev.to/vertex_invo_0005b24675db4/laravel-boost-making-ai-actually-useful-for-laravel-developers-3kmh</link>
+      <description>Laravel Boost allows AI tools to work with your real Laravel database structure instead of guessing. It understands migrations, models, and relationships — resulting in better suggestions and cleaner code. If you use AI in your Laravel workflow, this is worth checking out. 🔗 Read more: https://vertexinvo.com/blog/laravel-boost-the-ai-tool-that-finally-understands-your-database</description>
+      <guid isPermaLink="false">https://dev.to/vertex_invo_0005b24675db4/laravel-boost-making-ai-actually-useful-for-laravel-developers-3kmh</guid>
+      <pubDate>Thu, 29 Jan 2026 12:12:53 +0000</pubDate>
     </item>
   </channel>
 </rss>
