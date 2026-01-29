@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ProXXIma - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/proxxima.xml</link>
+    <description>Latest articles from ProXXIma (proxxima.com.br)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/proxxima.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Jan 2026 07:08:27 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://evento.proxxima.com.br/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://evento.proxxima.com.br/hello-world/</guid>
+      <pubDate>Mon, 08 Apr 2024 19:18:35 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

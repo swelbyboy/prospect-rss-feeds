@@ -8,76 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Jan 2026 06:43:04 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 06:55:23 +0000</lastBuildDate>
     <item>
-      <title>Google平價AI Plus方案拓展至全球包括臺灣</title>
-      <link>https://www.ithome.com.tw/news/173634</link>
-      <description>新聞Google昨日（1/27）宣布Google AI Plus再推向35個市場，包含美國、臺灣，使這個平價版AI方案得以在全球上線。 Google去年公布AI Plus首先在40個新興國家市場推出，包括越南、菲律賓、印尼等。AI Plus包括可在Gemini App使用Gemini 3 Pro及Nano Banana（但臺灣方案沒有包含Nano Banana）、智慧AI影片製作應用程式Flow、圖像生成工具Google Whisk、研究撰寫助理服務NotebookLM、以及內建Gemini的Gmail、Google Docs與Spreadsheets。其中Flow有200 AI點數的額度限制。此外還享有200GB線上儲存空間，可以和最多5名家人共享。 最新方案為Google在現有Google AI Pro（20美元/650臺幣）和AI Ultra（250美元/8150臺幣）外提供的低價方案。Google AI Plus方案在美國每月7.99美元。臺灣則為每月260元臺幣，現在提供前兩個月每月130元臺幣優惠。 在已推出Google AI Plus方案的市場中，若使用者為Google</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173634</guid>
-      <pubDate>Wed, 28 Jan 2026 01:30:00 +0000</pubDate>
+      <title>Meta Q4營收成長24%，今年將加速部署AI</title>
+      <link>https://www.ithome.com.tw/news/173652</link>
+      <description>新聞Meta周三（1/28）公布該公司2025年第四季財報，該季Meta創下599億美元的營收，成長24%，淨收入為228億美元，成長9%。因財報數字超越分析師預期，當天Meta盤後股價上漲了6.3%，攀上711美元。 包括臉書、Messenger、Instagram、WhatsApp與Threads在內的應用程式家族（Family of Apps）是Meta主要的營收來源，在599億美元的營收中，就有589億美元來自該家族，占比超過98%，且營收成長了25%；而元宇宙部門Reality Labs的營收為9.55億美元，還低於前一年同期的10.8億美元。 此外，應用程式家族替Meta帶進308億美元的營業收入，Reality Labs則帶來60億美元的虧損，與前一年同期相當。 應用程式家族不只是營收與淨收入成長，其每日活躍用戶數為35.8億，也成長了7%。另一方面，Meta逐步將重心從VR/AR轉向AI，在1月初裁撤了1,500名Reality Labs部門的人力，約占該部門10%。 Meta創辦人暨執行長祖克柏（Mark Zuckerberg）在財報會議上透露，Meta已進入重大的A</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173652</guid>
+      <pubDate>Thu, 29 Jan 2026 03:14:48 +0000</pubDate>
     </item>
     <item>
-      <title>Nvidia擴大Earth-2開放模型家族，涵蓋15天全球預報與短時即時預報</title>
-      <link>https://www.ithome.com.tw/news/173620</link>
-      <description>新聞Nvidia在美國氣象學會年會公布Earth-2開放模型家族，將氣象與氣候AI所需的模型、函式庫與框架整理成一套開放軟體堆疊。新一批模型涵蓋最長可達15天的全球中期預報，以及0到6小時的臨近預報，用於支援地方尺度的風暴與危害性天氣判讀。 過去高品質天氣預報多仰賴以物理為基礎的數值天氣預報模式與大型運算資源，Nvidia表示，把AI預報定位為降低計算成本與時間的一條路徑，讓更多國家、氣象服務單位與企業能建置更貼近自身情境的預報系統，而不是只依賴少數大型中心的運算能力。 新公布的三個核心模型分別對應氣象流程的不同環節，Earth-2 Medium Range採用名為Atlas的模型架構，用於中期預報，涵蓋溫度、氣壓、風與濕度等70種以上變數。Earth-2 Nowcasting採用StormScope架構，以生成式AI學習衛星與雷達資料，將國家尺度的預報轉為公里等級解析度，並在數分鐘內產出0到6小時的地方風暴預報。Earth-2 Global Data Assimilation則採用HealDA架構，負責把多來源觀測資料轉成預報所需的初始條件，並宣稱可在GPU上以秒級產出，縮短傳統超級</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173620</guid>
-      <pubDate>Wed, 28 Jan 2026 01:45:14 +0000</pubDate>
+      <title>惡意VS Code延伸套件偽裝成Clawdbot，開發者電腦恐遭遠端完全控制</title>
+      <link>https://www.ithome.com.tw/news/173649</link>
+      <description>新聞開源AI代理專案Clawdbot（現已更名為Moltbot）異軍突起，本週然吸引大量關注，但也引發組態設定不當而產生資安風險的爭議，然而駭客也跟上這波熱潮，假冒其名號散布惡意軟體。 資安公司Aikido近日揭露針對Visual Studio Code（VS Code）開發者的供應鏈攻擊事件，有人在延伸套件市集Visual Studio Code Marketplace，發布打著Clawdbot名號的AI程式碼助理擴充套件，由於Clawdbot專案並未推出VS Code延伸套件，該套件引起Aikido注意。經過調查後，確認套件內含惡意程式碼，會在使用者電腦上植入遠端管理工具ConnectWise ScreenConnect，使攻擊者能完全控制受害系統。Aikido向微軟通報此事，該套件已被移除。 這款套件完整的名稱是「ClawdBot Agent – AI Coding Assistant」，顯然是攻擊者刻意仿冒熱門開源AI代理專案的名稱，藉此降低開發者戒心。值得留意的是該延伸套件在安裝後具備駭客宣稱的功能，表面看起來與一般AI程式碼助理工具無異，反而更容易取得使用者信任。 一旦開發</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173649</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/69789df963f057bd2846cc80_ece52c1c.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 03:28:41 +0000</pubDate>
     </item>
     <item>
-      <title>Amazon將關閉Amazon Go、Fresh實體無人超市</title>
-      <link>https://www.ithome.com.tw/news/173624</link>
-      <description>新聞Amazon宣布將關閉智慧超市Amazon Go、Amazon Fresh，以強化線上零售同日遞送及Whole Foods Market的經營。 Amazon Go與Amazon Fresh分別在2018年及2020年開設首家店面。兩個實體店面品牌都標榜以智慧科技如電腦視覺、感測器、AI及自動化系統，如自動結帳系統Just Walk Out取代人力結帳，提供免排隊、快速而方便的自助購物體驗。 Amazon表示，雖然Amazon實體超市展現令人振奮的訊號，但公司仍未能創造真正獨特客戶體驗，以及大量擴展所需的經濟模式。在審慎評估下。公司被迫做出困難決定，關閉Amazon Go和Amazon Fresh實體店面。未來這些據點將轉為同屬Amazon集團的有機食品超市連鎖Whole Foods Markets店面。Amazon Fresh線上銷售則不受影響。 雖然Amazon強調實體店面的科技創新，像是閘門式無人結帳系統Just Walk Out，但其實2024年Amazon就已停用本方案，而改使用較小的智慧購物車Dash Cart方案。 未來，Amazon將把資源聚焦在高成長領域，包括Am</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173624</guid>
-      <pubDate>Wed, 28 Jan 2026 02:57:01 +0000</pubDate>
+      <title>SoundCloud後臺輔助儀表板遭未授權存取，HIBP指約2,980萬帳號資料外流</title>
+      <link>https://www.ithome.com.tw/news/173646</link>
+      <description>新聞音樂串流平臺SoundCloud日前揭露資安事件，表示其後臺一處周邊服務儀表板出現未授權活動，攻擊者得以把約兩成用戶的電子郵件地址，與原本就可在公開個人檔案頁面取得的資料建立對應關係。資料外洩追蹤網站Have I Been Pwned（HIBP）收錄後指出，受影響帳號約2,980萬筆，且外洩資料包含約3,000萬個唯一電子郵件地址，使攻擊者能將公開個人檔案資訊連結到特定電子郵件地址，資料並在隔月遭公開釋出。 SoundCloud在2025年12月15日說明，團隊偵測到未授權活動後即啟動事件應變程序並迅速阻止，並委託第三方資安專家協助調查。該公司強調，此次受影響的資料不包含密碼或財務資料，主要是電子郵件地址與公開個人檔案資訊。 依SoundCloud說法，事件處置後平臺曾遭遇阻斷服務（DoS）攻擊，其中兩次一度影響網站端的可用性，SoundCloud也調整相關設定，強化監控、威脅偵測以及身分與存取控管，但部分使用VPN的用戶因此短暫出現連線問題，官方表示正持續修復。 在1月13日後續更新中，SoundCloud指出，宣稱涉案的攻擊者團體近期提出要求，並以電子郵件洪水攻擊騷擾用戶、員工</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173646</guid>
+      <pubDate>Thu, 29 Jan 2026 03:29:45 +0000</pubDate>
     </item>
     <item>
-      <title>微軟調查Windows 11安全更新引發的電腦無法開機問題</title>
-      <link>https://www.ithome.com.tw/news/173628</link>
-      <description>新聞微軟一月針對Windows 10及Windows 11釋出的安全更新又傳出包，引發部分PC無法正常開機。微軟表示已經著手調查。 微軟於上周二（1/13）釋出針對Windows 11 24H2及25H2的安全更新KB5074109。這個版本旨在解決WSL鏡像網路失敗、Azure虛擬桌面環境中啟動RemoteApp連線失敗、解決數據機驅動程式相容性問題、強化安全啟動、並解決Windows核心元件WinSqlite3.dll安全漏洞等。然而用戶抱怨安裝後出現各種毛病。但本周Neowin首先報導，有些用戶安裝本更新後，Windows 11電腦無法開機，成為繼上周引發眾多大小問題後最為嚴重的麻煩。 媒體Askwoody發現微軟在管理員中心通知中證實，接獲少部分用戶通報此事。這些裝置安裝1月13日釋出的KB5074109及之後更新後發生無法開機，以及顯示「UNMOUNTABLE_BOOT_VOLUME」的錯誤訊息。受影響裝置顯示黑色螢幕（即「死亡螢幕」）及一行「裝置發生問題，必須重新啟動。」的訊息。但用戶試圖重啟時，裝置卻無法完成啟動，需要手動回復步驟。 微軟說，迄今的通報顯示問題只侷限在實體</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173628</guid>
-      <pubDate>Wed, 28 Jan 2026 03:41:22 +0000</pubDate>
+      <title>WhatsApp新增安全設定 防範高風險個人遭植入監聽軟體</title>
+      <link>https://www.ithome.com.tw/news/173654</link>
+      <description>新聞Meta宣布為WhatsApp新增嚴格帳戶設定（Strict Account Settings），以防止使用者遭到進階攻擊者，如政府監聽通訊內容或外洩資訊。 這項設定是向所有WhatsApp使用者開放的功能選項，一般消費者也可以啟用，但官方說明指出，這個功能是為了應對高度複雜和精準網路攻擊情境而設計，主要設定用戶是可能處於高風險的人士，如記者、公眾人物、維權人士等。本功能會在未來幾周內部署。 WhatsApp表示，嚴格帳戶設定來自WhatsApp確保用戶免於進階網路威脅的技術之一。開啟此設定後，部份設定會鎖定在最嚴格，限制某些功能的運作，例如封鎖非聯絡人清單的附件和影音內容。 進入「設定」&amp;gt;「隱私」&amp;gt;「進階」，啟用「嚴格帳號設定」。目前只能在主裝置即手機上開啟，無法在WhatsApp Web或桌機版上設定。 此外，WhatsApp也在後臺導入了Rust撰寫成的媒體一致性（media library）函式庫，用以媒體格式驗證和一致性檢查，防止惡意檔案透過WhatsApp傳送給用戶。WhatsApp表示這項技術可確保用戶在和外界通訊時，免於照片、影片和訊息被間軟體等惡意程式監聽監看。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173654</guid>
+      <pubDate>Thu, 29 Jan 2026 03:49:07 +0000</pubDate>
     </item>
     <item>
-      <title>ISC修補BIND 9高風險漏洞CVE-2025-13878，惡意DNS紀錄可導致服務當機</title>
-      <link>https://www.ithome.com.tw/news/173622</link>
-      <description>新聞Internet Systems Consortium（ISC）揭露，旗下開源DNS伺服器軟體BIND 9存在高風險漏洞CVE-2025-13878。攻擊者可透過惡意構造的DNS資源紀錄，遠端觸發named服務程序異常終止，造成名稱解析服務中斷，形成阻斷服務（DoS）風險。ISC已發布修補版本，建議管理者儘速升級。 ISC於1月21日發布安全公告指出，該漏洞源於BIND處理BRID與HHIT類型DNS資源紀錄的方式當中，存在驗證邏輯的缺陷。在特定條件下，BIND可能因檢查失敗而直接中止服務程序，進而影響DNS解析的可用性。攻擊者不需通過驗證，即可從遠端觸發該問題。 BIND 9是廣泛使用的開源DNS伺服器軟體，常部署為遞迴解析器或權威DNS伺服器，支撐網站、電子郵件與各類網路服務的名稱解析需求。由於DNS屬於關鍵基礎設施，一旦解析服務中斷，影響範圍可能擴及多項對外服務。 漏洞影響多個BIND 9版本，CVSS評為高風險 根據ISC公告，CVE-2025-13878影響多個仍在維護中的BIND 9版本，包括9.18.40至9.18.43、9.20.13至9.20.17，以及9.21.</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173622</guid>
-      <pubDate>Wed, 28 Jan 2026 03:47:27 +0000</pubDate>
+      <title>竊資軟體Amatera Stealer透過Click-Fix網釣散布，濫用App-V元件迴避偵測</title>
+      <link>https://www.ithome.com.tw/news/173653</link>
+      <description>新聞最近幾年極為氾濫的網釣攻擊手法ClickFix，已經衍生出多種變形版本，例如誘導使用者操作流程都在瀏覽器進行的FileFix、製造電腦必須進行安全更新假象的JackFix、結合OAuth身分驗證流程的ConsentFix，以及讓瀏覽器看起來像當掉的CrashFix與GlitchFix，現在有人結合Windows內建的公用程式，讓惡意指令執行更加不受阻礙。 資安公司Blackpoint Cyber近日揭露最新一波ClickFix網釣攻擊手法，駭客透過偽造CAPTCHA圖靈驗證網頁，引導使用者主動執行系統指令，進而在電腦植入竊資軟體Amatera Stealer，其攻擊鏈設計與常見手法不同，關鍵差異在於濫用App‑V元件作為中繼節點，以迴避端點防護與行為型偵測機制。 這起事件的攻擊鏈起點是看似正常的CAPTCHA驗證頁面，內容聲稱需要進行圖靈驗證或修復瀏覽器異常，要求使用者依照指示操作，然而若是照做，他們的電腦就會被植入竊資軟體。與多數ClickFix攻擊鏈直接呼叫PowerShell或CMD不同，這次攻擊者在初始階段改以Windows內建、具有合法簽章的SyncAppvPublish</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173653</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/app-v-png.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 29 Jan 2026 04:08:37 +0000</pubDate>
     </item>
     <item>
-      <title>Fortinet公布已被積極利用的FortiCloud單一登入新漏洞，並釋出部分版本的更新程式</title>
-      <link>https://www.ithome.com.tw/news/173629</link>
-      <description>新聞去年12月，Fortinet修補兩項重大層級的資安漏洞CVE-2025-59718與CVE-2025-59719（CVSS風險皆為9.8分），影響多款啟用FortiCloud單一登入（SSO）機制的設備，包括防火牆FortiGate、網頁應用程式防火牆FortiWeb、網頁安全閘道FortiProxy，以及網路設備管理平臺FortiSwitchManager。然而，一個月後，即傳出攻擊者自1月15日開始，仍可透過單一登入帳號竄改防火牆組態，22日Fortinet坦承先前修補不完整，並發現已修補上述漏洞的防火牆被入侵，該公司於27日將駭客利用的攻擊途徑登記新的CVE編號列管。 根據Fortinet發布的最新資安公告，FortiCloud單一登入存在身分驗證繞過漏洞CVE-2026-24858。該漏洞影響FortiOS 7.0版以上的防火牆、FortiProxy、FortiSwitchManager，以及安全事件記錄分析與報告平臺FortiAnalyzer；FortiOS、FortiSwitchManager、FortiAnalyzer 6.4版不受影響。Fortinet評估其CVSS</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173629</guid>
-      <pubDate>Wed, 28 Jan 2026 04:29:44 +0000</pubDate>
+      <title>針對波蘭電網遭到攻擊有新的調查結果，駭客鎖定分散式能源下手</title>
+      <link>https://www.ithome.com.tw/news/173655</link>
+      <description>新聞波蘭指出該國電力系統於12月的最後一週，遭遇近幾年最大規模的網路攻擊，意圖打亂再生能源設施與配電營運公司之間的通訊，但並未得逞。後續資安公司ESET公布這起事故是俄羅斯駭客Sandworm所為，駭客在去年12月29日使用名為DynoWiper的資料破壞軟體（Wiper）從事活動，現在有其他資安公司揭露更多細節。 專精於工控領域的資安業者Dragos發布調查報告，指出這場攻擊活動是與Sandworm有關的另一個組織Electrum發起。這起攻擊活動的目標，並非傳統的大型發電廠，而是鎖定波蘭境內的分散式能源資源（Distributed Energy Resources，DER），標誌著網路攻擊戰術正隨著全球能源轉型而出現重大轉向。 針對這起事故的影響範圍，Dragos指出，攻擊者成功入侵了至少12個設施，受害環境包括熱電共生（Combined Heat and Power，CHP）設施、風力發電場，以及太陽能發電場。攻擊者不僅禁用重要通訊控制設備，甚至部署惡意軟體對硬體進行破壞，導致部分遠端終端單元（RTU）永久損壞（Bricking），無法透過遠端修復。 為何駭客看上分散式能源資源？</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173655</guid>
+      <pubDate>Thu, 29 Jan 2026 04:59:08 +0000</pubDate>
     </item>
     <item>
-      <title>Moonshot AI開源Kimi K2.5，可自動生成最多100個子代理</title>
-      <link>https://www.ithome.com.tw/news/173630</link>
-      <description>新聞中國AI新創Moonshot AI近日宣布開源新一代模型Kimi K2.5，並將其定位為「視覺型代理智慧（Visual Agentic Intelligence）」，宣稱是目前能力最強的開源模型之一，不僅具備原生多模態能力，還能在處理複雜任務時，自動生成並協調最多100個子代理，平行處理大規模工作流程。 Moonshot AI的中文名稱為「月之暗面」，在2023年於北京創立，同年即推出Kimi聊天機器人，主要開發「可實際完成工作的AI」，甫於去年開源Kimi K2模型。 新一代的Kimi K2.5是在Kimi K2基礎上持續預訓練而成，並額外使用約15兆個混合文字及視覺的Token進行訓練，且從模型架構上便採用原生多模態設計，使得它能同時理解文字、圖片與影片內容。Moonshot AI說，在足夠規模下，視覺與文字能力不再需要取捨，而是同步提升，替真實應用場景提供穩定基礎。 Kimi K2.5最大的特色為「代理群（Agent Swarm）」，當任務複雜度提高時，K2.5可自行拆解問題，動態生成最多100個子代理，並行執行搜尋、程式撰寫、資料整理與驗證等工作，最多可協調1,500次工具</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173630</guid>
-      <pubDate>Wed, 28 Jan 2026 04:33:03 +0000</pubDate>
+      <title>英國政府要求Google允許出版商退出AI Overviews索引以免被竊走流量</title>
+      <link>https://www.ithome.com.tw/news/173657</link>
+      <description>新聞英國監管機關競爭與市場管理署（Competition and Markets Authority，CMA）昨（1/29）日提出管制措施草案，要求Google搜尋提供選擇以確保市場自由競爭，包括允許出版商退出（opt-out）AI Overviews的顯示方式。 Google推出的AI Overviews匯整了多家網頁內容於搜尋結果頁最上方，讓查詢用者更快獲取答案而不需點入網頁。然而這也大幅減少Google導向各網站的流量，嚴重傷害依賴流量及廣告營收的內容出版商。 由於Google據有英國一般性搜尋流量的超過90%，2025年10月CMA認定Google在搜尋服務具有策略性市場地位（strategic market status，SMS）。這使用CMA得以根據法律導入干預措施以確保市場自由競爭。最新草案即干預措施的一環。CMA本周將草案公布並開放各方意見直到2月25日。 本草案包括出版商控制、公平排序、選擇性視窗及資料可攜性。首先，英國政府要求Google允許出版商可控制其內容退出AI Overviews等AI服務，或是用於訓練AI模型。CMA也要求Google提出可行步驟使AI回應</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173657</guid>
+      <pubDate>Thu, 29 Jan 2026 05:30:16 +0000</pubDate>
     </item>
     <item>
-      <title>逾80萬臺採用GNU Inetutils建置的Telnet伺服器存在重大漏洞CVE-2026-24061，臺灣有2.4萬臺曝險</title>
-      <link>https://www.ithome.com.tw/news/173631</link>
-      <description>新聞上周研究人員揭露GNU Inetutils telnetd重大漏洞CVE-2026-24061，網路安全調查顯示，網路上有將近80萬伺服器曝險。 CVE-2026-24061是由資安廠商GreyNoise發現。它源自於GNU Inetutils的telnetd（telnet daemon）對USER變數驗證不當，使攻擊者透過在輸入中加入-f root值，得以繞過驗證流程，獲得root權限。濫用本漏洞可能讓攻擊者讀取敏感資料、修改系統配置、執行任意指令、毀損系統可用性。由於漏洞可讓非經驗證的攻擊者從網路遠端發動，易於操作、且不需使用者互動，而且濫用後果嚴重性高。NIST漏洞資料庫將之CVSS風險評分列為9.8。 CVE-2026-24061影響GNU Inetutils 1.9.3到2.7，維護組織已釋出2.8版解決本漏洞。 非營利網路研究及偵測機構ShadowServer Foundation本周掃描結果顯示，存在本漏洞的Telnet伺服器已由最高峰的148萬臺減少，但截至1月26日仍有超過80萬臺曝險。 Regarding CVE-2026-24061 in GNU InetUt</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173631</guid>
-      <pubDate>Wed, 28 Jan 2026 04:40:00 +0000</pubDate>
+      <title>微軟財報出爐，Microsoft Cloud成長26%</title>
+      <link>https://www.ithome.com.tw/news/173659</link>
+      <description>新聞微軟周三（1/28）公布截至2025年12月31日的2026財年第二季財報，該季微軟創下813億美元的營收，年增17%。在一般公認會計原則（GAAP）下，微軟淨收入為385億美元，年增60%；若排除對OpenAI投資帶來的影響，非GAAP淨收入為309億美元，年增23%。財報公布後，微軟盤後股價下滑5.66%，跌至454.36美元。 從各部門營收來看，包括Microsoft 365、LinkedIn與Dynamics的生產力與業務流程（Productivity and Business Processes）締造341億美元營收，年增16%；涵蓋伺服器產品與雲端服務的智慧雲端（Intelligent Cloud）營收為329億美元，年增29%；更多個人運算（More Personal Computing）營收為143億美元，年減3%。 至於所有以雲端、訂閱或用量計費方式交付的Microsoft Cloud，該季營收達515億美元，年增26%。該類別的商業剩餘履約義務（Commercial Remaining Performance Obligation，RPO）年增110%，達6,2</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173659</guid>
+      <pubDate>Thu, 29 Jan 2026 06:04:14 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI推出科學文件協作平臺Prism</title>
-      <link>https://www.ithome.com.tw/news/173632</link>
-      <description>新聞OpenAI周二（1/27）推出了Prism服務，該服務建置在OpenAI所買下的雲端LaTeX平臺Crixet上，並導入GPT‑5.2，成為一個可用來撰寫科學文件、修訂內容，以及團隊協作的AI原生雲端工作區。 OpenAI表示，AI已在各個領域加快科學研究的推進速度，像是於數學研究中拓展前沿，在人類免疫細胞實驗中加速分析⁠，或是在分子生物學實驗提升反覆測試的效率⁠等；然而，研究工作涉及的許多日常步驟，包括論文撰寫、論點修訂、管理公式與引文，以及協作者之間的協調，至今仍分散在多個各自為政的工具之中。 這使得研究人員經常在文字編輯器、PDF、LaTeX編輯器、參考文獻管理工具，以及獨立的對話介面之間來回切換，而Prism即是為了解決上述問題而推出的服務。 LaTeX是種專為學術寫作而設計的文件排版系統，主要可讓數學與科學文件能以高度精確、可重現的方式排版。使用者能以指令描述文件結構，例如標題、章節、公式、引文與圖表，再由系統自動排版成符合學術標準的文件。由於它能穩定處理複雜公式、跨頁排版、期刊格式與參考文獻的一致性，而在數學、物理、工程、電腦科學與部分生命科學領域被廣泛採用。 至於C</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173632</guid>
-      <pubDate>Wed, 28 Jan 2026 06:01:59 +0000</pubDate>
+      <title>【資安日報】1月29日，波蘭電力基礎設施遭遇攻擊，傳出是俄羅斯駭客所為</title>
+      <link>https://www.ithome.com.tw/news/173656</link>
+      <description>新聞俄羅斯國家級駭客Sandworm鎖定波蘭電力產業，利用惡意軟體DynoWiper抹除資料 1月23日資安公司ESET表示，去年底波蘭能源系統遭到大規模網路攻擊，根據他們的調查結果，這起事故發生在12月29日，其特徵與Sandworm過往發動的資料破壞攻擊高度重疊，因此研判應該是這些俄羅斯駭客所為。這次駭客使用的資料破壞軟體（Wiper），ESET命名為DynoWiper。對於整起事故發生的完整過程，該公司表示尚在進一步調查當中，不過，目前尚未出現災情。 針對駭客的動機，很可能是Sandworm鎖定能源設施發動攻擊正好滿10週年。2015年12月，該組織攻擊烏克蘭電網，使用惡意軟體BlackEnergy入侵變電站重要系統，導致約有70萬人停電數小時，而這是首度電力系統因惡意軟體攻擊造成的停擺的事故。 針對波蘭電網遭到攻擊有新的調查結果，駭客鎖定分散式能源下手 波蘭指出該國電力系統於12月的最後一週，遭遇近幾年最大規模的網路攻擊，意圖打亂再生能源設施與配電營運公司之間的通訊，但並未得逞。專精於工控領域的資安業者Dragos發布調查報告，指出這場攻擊活動是與Sandworm有關的另一個組</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173656</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/RSYtYwtFIw.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 06:11:24 +0000</pubDate>
     </item>
     <item>
-      <title>法國推動數位主權，政府部門將以Visio取代Teams與Zoom</title>
-      <link>https://www.ithome.com.tw/news/173633</link>
-      <description>新聞法國負責公務體系與國家改革的部長級代表David Amiel在本周一（1/26）宣布，法國政府將在2027年前，於所有國家機關全面推廣由該國政府自行開發的視訊會議工具Visio，取代Teams、Zoom、GoTo Meeting或Webex等非歐洲解決方案，以維持數位主權。 法國經濟、財政暨工業、能源與數位主權部（Ministère de l’Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique）表示，目前許多行政機關同時使用Teams、Zoom、GoTo Meeting或Webex等多種工具，不僅增加資料安全風險，也使國家對外部基礎設施形成策略依賴，造成額外成本並提高跨部會協作的複雜度。 因此，法國政府將在未來幾個月，逐步推動由國家掌控、以法國技術為基礎的統一解決方案。 而Visio則是由法國跨部會數位事務處（DINUM）開發的視訊會議工具，它最多可支援150人與會，藉由AI產生即時字幕，可將對話轉錄成文字，也能錄製會議。只要是法國的公務人員都可免費使用Visio，並</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173633</guid>
-      <pubDate>Wed, 28 Jan 2026 06:14:14 +0000</pubDate>
+      <title>Chrome導入Auto Browse，AI開始接手瀏覽器操作</title>
+      <link>https://www.ithome.com.tw/news/173660</link>
+      <description>新聞Google於周三（1/28）更新Chrome的AI能力，讓Gemini可常駐於瀏覽器側邊欄，並可隨分頁切換即時更新理解脈絡。另也推出代理式瀏覽功能Auto Browse，允許Gemini於使用者授權下，代為執行多步驟的網頁操作，如開啟分頁、搜尋資訊與填寫線上表單等。 更新後的Chrome將Gemini整合進瀏覽器側邊欄，並作為主要操作入口。使用者在瀏覽任何分頁時，無需另開視窗或離開當前頁面，即可呼叫Gemini協助彙整資訊、比較不同網站內容，或整理行事曆與行程。 此外，Google將創意模型Nano Banana直接內建於瀏覽器中。用戶只需在側邊欄輸入指令，即可對網頁上的影像進行即時轉換，例如將研究數據圖表化，或將室內設計圖片調整為不同風格，省去了下載與重複上傳的繁瑣步驟。 Chrome中的Gemini亦支援Connected Apps功能，可連結Gmail、日曆、YouTube、地圖及Google Flights。例如若使用者打算參加商務會議，Gemini即可自動檢索電子郵件中的行程詳情，結合Google Flights提供機票建議，並自動草擬通知同事抵達時間的信件。 此外，A</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173660</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0129-Gemini%20in%20Chrome-600.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 06:23:06 +0000</pubDate>
     </item>
   </channel>
 </rss>

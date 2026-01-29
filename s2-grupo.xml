@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>S2 Grupo - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/s2-grupo.xml</link>
+    <description>Latest articles from S2 Grupo (s2grupo.es)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/s2-grupo.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Jan 2026 07:20:07 +0000</lastBuildDate>
+    <item>
+      <title>Vulnerabilidades críticas en React Server Components 2025</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-react-server-components-2025/</link>
+      <description>Vulnerabilidad crítica – 04/12 Introducción CVE-2025-55182 es una vulnerabilidad de tipo ejecución remota de código (RCE), sin necesidad de autenticación en entornos con React Server Components (RSC). Dado el uso masivo de React y los frameworks basados en él en la web moderna, una estimación señala que alrededor de un 39 % de entornos cloud podrían contener instancias […] La entrada Vulnerabilidades críticas en React Server Components 2025 se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-react-server-components-2025/</guid>
+      <pubDate>Thu, 04 Dec 2025 08:38:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cozy Bear: quiénes son y cómo actúa uno de los grupos de ciberespionaje más avanzados del mundo</title>
+      <link>https://s2grupo.es/cozy-bear-quienes-son/</link>
+      <description>Los grupos de amenazas avanzadas (APT) han redefinido el panorama del ciberespionaje moderno, y entre todos ellos, Cozy Bear (APT29/Nobelium) —asociado al SVR ruso— destaca como uno de los actores más sofisticados, persistentes y difíciles de detectar. Su actividad continuó evolucionando en 2025, con operaciones cada vez más discretas, modulares y orientadas al espionaje estratégico. […] La entrada Cozy Bear: quiénes son y cómo actúa uno de los grupos de ciberespionaje más avanzados del mundo se</description>
+      <guid isPermaLink="false">https://s2grupo.es/cozy-bear-quienes-son/</guid>
+      <pubDate>Mon, 12 Jan 2026 15:46:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en n8n en 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-n8n-2026/</link>
+      <description>Vulnerabilidad – 01/2026 Introducción CVE-2025-68613 es una vulnerabilidad de ejecución remota de código (RCE) que afecta a n8n, una plataforma de automatización que permite construir flujos de trabajo mediante nodos y expresiones dinámicas. Análisis CVE-2025-68613 – CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H – 9,9 CVE-2025-68613 es una vulnerabilidad en el sistema de evaluación de expresiones de los workflows que permite que código […] La entrada Vulnerabilidades críticas en n8n en 2026 se pu</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-n8n-2026/</guid>
+      <pubDate>Thu, 22 Jan 2026 15:24:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en LangChain 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-langchain-2026/</link>
+      <description>Vulnerabilidad crítica – 01/2026 Introducción CVE‑2025‑68664 es una vulnerabilidad de seguridad de severidad crítica que afecta a LangChain, un framework muy utilizado para construir aplicaciones de agentes y sistemas potentes con modelos de lenguaje (LLM). Análisis CVE-2025-68664 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N – 9,3 CVE‑2025‑68664 es una falla de serialization injection (inyección durante la serialización) en las funciones dumps() y dumpd() de […] La entrada Vulnerabilidades crí</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-langchain-2026/</guid>
+      <pubDate>Thu, 22 Jan 2026 15:29:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en MongoDB 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-mongodb-2026/</link>
+      <description>Vulnerabilidad crítica – 01/2026 Introducción CVE-2025-14847 es una vulnerabilidad crítica de filtración de memoria en el servidor de bases de datos MongoDB que puede permitir a un atacante leer partes de la memoria del servidor sin autenticación alguna. Esto se produce debido a la forma en que MongoDB maneja ciertos mensajes comprimidos con zlib en su […] La entrada Vulnerabilidades críticas en MongoDB 2026 se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-mongodb-2026/</guid>
+      <pubDate>Thu, 22 Jan 2026 15:33:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en Zoom 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-zoom-2026/</link>
+      <description>Vulnerabilidad crítica – 22/01 Introducción CVE-2026-22844 es una vulnerabilidad de seguridad crítica que afecta a ciertos componentes de Zoom y que puede permitir ejecución remota de código (RCE) por parte de un participante en una reunión. Análisis CVE-2026-22844 – CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H – 9,9 CVE-2026-22844 reside en los Zoom Node Multimedia Routers (MMRs), componentes de la infraestructura de Zoom usados en […] La entrada Vulnerabilidades críticas en Zoom 2026 se public</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-zoom-2026/</guid>
+      <pubDate>Thu, 22 Jan 2026 15:37:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en Cisco 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-cisco-2026/</link>
+      <description>Vulnerabilidad crítica – 22/01 Introducción CVE-2026-20045 es una vulnerabilidad de ejecución remota de código que está siendo activamente explotada. Análisis CVE-2026-20045 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N- 8,2 CVE-2026-20045 se origina por validación incorrecta de datos de entrada en solicitudes HTTP a la interfaz web de administración de los dispositivos afectados. Un atacante no autenticado y remoto puede enviar una serie de […] La entrada Vulnerabilidades críticas en Cisco 202</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-cisco-2026/</guid>
+      <pubDate>Thu, 22 Jan 2026 15:40:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en Grist-Core 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-grist-core-2026/</link>
+      <description>Vulnerabilidad crítica – 27/01 Introducción CVE-2026-24002 es una vulnerabilidad de seguridad crítica descubierta en Grist-Core, una versión de código abierto del software de hojas de cálculo relacionales Grist. Análisis CVE-2026-24002 – CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H – 9 CVE-2026-24002 permite a un atacante escapar del sandbox de ejecución de Python (Pyodide) dentro de Grist y ejecutar código arbitrario en la máquina […] La entrada Vulnerabilidades críticas en Grist-Core 2026 se p</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-grist-core-2026/</guid>
+      <pubDate>Wed, 28 Jan 2026 09:40:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en Fortinet 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-fortinet-2026/</link>
+      <description>Vulnerabilidad crítica – 28/01 Introducción CVE-2026-24858 es una vulnerabilidad zero-day que ha estado siendo explotada en el mundo real y afecta a varios productos de seguridad de Fortinet. Análisis CVE-2026-24858 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:O/RC:C – 9,4 CVE-2026-24858 permite a un atacante con una cuenta de FortiCloud y un dispositivo registrado iniciar sesión en otros dispositivos de Fortinet registrados en otras […] La entrada Vulnerabilidades críticas en Fortinet</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-fortinet-2026/</guid>
+      <pubDate>Wed, 28 Jan 2026 09:45:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en Oracle 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-oracle-2026/</link>
+      <description>Vulnerabilidad crítica – 28/01 Introducción CVE-2026-21962 es una vulnerabilidad crítica de ejecución remota sin autenticación que afecta a componentes ampliamente usados en infraestructuras empresariales basadas en Oracle. Análisis CVE-2026-21962 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N – 10 El error de CVE-2026-21962 está en la validación de entrada de las solicitudes HTTP que pasan por el proxy plug‑in. Si las rutas, cabeceras o parámetros […] La entrada Vulnerabilidades críticas en Ora</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-oracle-2026/</guid>
+      <pubDate>Wed, 28 Jan 2026 09:53:16 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
