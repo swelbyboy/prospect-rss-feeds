@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Swift Navigation - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/swift-navigation.xml</link>
+    <description>Latest articles from Swift Navigation (swiftnav.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/swift-navigation.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Jan 2026 12:57:04 +0000</lastBuildDate>
+    <item>
+      <title>Skylark GNSS Corrections Deliver Centimeter-Level Accuracy Across South Korea’s Road Network</title>
+      <link>https://www.swiftnav.com/resource/white-paper/skylark-gnss-corrections-deliver-centimeter-level-accuracy-across-south-koreas-road-network</link>
+      <description>Swift Navigation partnered with Korea Telecom (KT) to evaluate the performance of its Skylark™ Precise Positioning Service across a 2,526 km drive spanning cities, highways, tunnels, and mountains. The test, conducted in February 2025, validated the benefits of cloud-based GNSS corrections in Korea’s complex driving environments, delivering highly precise positioning for automotive-grade applications. The results confirmed Skylark’s ability to significantly improve positioning accuracy, achievin</description>
+      <guid isPermaLink="false">https://www.swiftnav.com/resource/white-paper/skylark-gnss-corrections-deliver-centimeter-level-accuracy-across-south-koreas-road-network</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/15.0.3/72x72/2122.png" length="0" type="image/png"/>
+      <pubDate>Thu, 11 Sep 2025 08:59:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Delivering RTK Corrections over LEO Satellites: A Modern Alternative to L-Band</title>
+      <link>https://www.swiftnav.com/resource/blog/delivering-rtk-corrections-over-leo-satellites-a-modern-alternative-to-l-band</link>
+      <description>Low Earth Orbit (LEO) networks such as Starlink now enable the delivery of real-time GNSS corrections anywhere with an open view of the sky, matching the precision and stability of terrestrial networks while providing a cost-effective, higher-coverage alternative to L-Band. The post Delivering RTK Corrections over LEO Satellites: A Modern Alternative to L-Band appeared first on Swift Navigation | Precise Positioning.</description>
+      <guid isPermaLink="false">https://www.swiftnav.com/resource/blog/delivering-rtk-corrections-over-leo-satellites-a-modern-alternative-to-l-band</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/15.0.3/72x72/2122.png" length="0" type="image/png"/>
+      <pubDate>Fri, 10 Oct 2025 21:56:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Troubleshooting The Most Common RTK &amp;amp; NTRIP Issues: A Step-By-Step Guide</title>
+      <link>https://www.swiftnav.com/resource/blog/troubleshooting-the-most-common-rtk-ntrip-issues-a-step-by-step-guide</link>
+      <description>RTK corrections provide centimeter-level GNSS accuracy, but performance can be affected by factors such as baseline distance, connectivity issues, multipath interference, and hardware limitations. This guide walks through practical troubleshooting steps to maintain consistent precision. Learn how to identify common issues and ensure reliable, high-accuracy positioning in any environment. The post Troubleshooting The Most Common RTK &amp;amp; NTRIP Issues: A Step-By-Step Guide appeared first on Swift Nav</description>
+      <guid isPermaLink="false">https://www.swiftnav.com/resource/blog/troubleshooting-the-most-common-rtk-ntrip-issues-a-step-by-step-guide</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/15.0.3/72x72/2122.png" length="0" type="image/png"/>
+      <pubDate>Wed, 22 Oct 2025 12:45:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Arrive Modernizes Urban Parking Management Using Skylark Precise Positioning Service</title>
+      <link>https://www.swiftnav.com/resource/case-study/arrive-modernizes-urban-parking-management-using-skylark-precise-positioning-service</link>
+      <description>By using Swift Navigation's Skylark Precise Positioning Service, Arrive Group have fundamentally redefined how municipalities acquire, understand, and manage their on-street parking infrastructure. The post Arrive Modernizes Urban Parking Management Using Skylark Precise Positioning Service appeared first on Swift Navigation | Precise Positioning.</description>
+      <guid isPermaLink="false">https://www.swiftnav.com/resource/case-study/arrive-modernizes-urban-parking-management-using-skylark-precise-positioning-service</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/15.0.3/72x72/2122.png" length="0" type="image/png"/>
+      <pubDate>Wed, 29 Oct 2025 12:07:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Helios Visions Uses Swift Navigation’s Network RTK Service to Power Drone-Based Environmental Cleanup</title>
+      <link>https://www.swiftnav.com/resource/case-study/helios-visions-uses-swift-navigations-network-rtk-service-to-power-drone-based-environmental-cleanup</link>
+      <description>When a river cleanup project required precise drone mapping without room for base stations, Chicago-based Helios Visions relied on Swift Navigation’s Skylark™ Precise Positioning Service. Skylark’s cloud-based RTK delivered centimeter accuracy along miles of winding waterways, enabling fast, mobile operations directly from boats—without the setup delays of traditional RTK systems. The post Helios Visions Uses Swift Navigation’s Network RTK Service to Power Drone-Based Environmental Cleanup appea</description>
+      <guid isPermaLink="false">https://www.swiftnav.com/resource/case-study/helios-visions-uses-swift-navigations-network-rtk-service-to-power-drone-based-environmental-cleanup</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/15.0.3/72x72/2122.png" length="0" type="image/png"/>
+      <pubDate>Tue, 11 Nov 2025 16:33:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>MikroE RTK Click + Skylark: Accuracy on any Android Device in Minutes</title>
+      <link>https://www.swiftnav.com/resource/blog/mikroe-rtk-click-skylark-accuracy-on-any-android-device-in-minutes</link>
+      <description>Connect the MikroE GNSS RTK Click and stream Skylark corrections to an Android tablet to achieve centimeter-level accuracy in minutes. This walkthrough shows you how to visualize real-time high-precision positioning with the Swift Map Demo app and includes a drive-test comparison between corrected and uncorrected GNSS. The post MikroE RTK Click + Skylark: Accuracy on any Android Device in Minutes appeared first on Swift Navigation | Precise Positioning.</description>
+      <guid isPermaLink="false">https://www.swiftnav.com/resource/blog/mikroe-rtk-click-skylark-accuracy-on-any-android-device-in-minutes</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/15.0.3/72x72/2122.png" length="0" type="image/png"/>
+      <pubDate>Tue, 18 Nov 2025 17:30:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Precise Positioning: Advancing Worker Safety Through Enhanced Location Accuracy</title>
+      <link>https://www.swiftnav.com/resource/blog/precise-positioning-advancing-worker-safety-through-enhanced-location-accuracy</link>
+      <description>Worker safety demands more than standard GPS. Relying on meter-level accuracy creates significant vulnerabilities in prevention and emergency response. This challenge is overcome using centimeter-level GNSS corrections from Swift Navigation, combined with resilient tracking hardware from Lightbug. This technology enables hyper-accurate geofencing, automated risk mitigation, and guaranteed pinpoint location for first responders. The post Precise Positioning: Advancing Worker Safety Through Enhanc</description>
+      <guid isPermaLink="false">https://www.swiftnav.com/resource/blog/precise-positioning-advancing-worker-safety-through-enhanced-location-accuracy</guid>
+      <enclosure url="https://www.swiftnav.com/wp-content/uploads/2025/09/iStock-1494518854-1024x683.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 01 Dec 2025 18:19:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Raven Connected Enables Real-Time, Centimeter-Accurate Infrastructure Management Using Skylark Precise Positioning Service</title>
+      <link>https://www.swiftnav.com/resource/case-study/raven-connected-enables-real-time-centimeter-accurate-infrastructure-management-using-skylark-precise-positioning-service</link>
+      <description>To manage aging infrastructure, municipalities and fleet operators have traditionally relied on manual inspections and expensive, specialized survey vehicles. These methods are slow, prone to human error, and often lack the lane-level precision needed to distinguish specific assets in dense urban environments. By integrating Swift Navigation’s Skylark™ Precise Positioning Service with Raven Connected’s AI video telematics platform, everyday service vehicles are transformed into high-precision ma</description>
+      <guid isPermaLink="false">https://www.swiftnav.com/resource/case-study/raven-connected-enables-real-time-centimeter-accurate-infrastructure-management-using-skylark-precise-positioning-service</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/15.0.3/72x72/2122.png" length="0" type="image/png"/>
+      <pubDate>Mon, 12 Jan 2026 20:19:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Swift Insights on AI, Mapping, and Route Optimization in Fleet Owner</title>
+      <link>https://www.swiftnav.com/resource/blog/swift-insights-on-ai-mapping-and-route-optimization-in-fleet-owner</link>
+      <description>The convergence of AI and precision mapping is fundamentally reshaping the transportation industry. It is the key to unlocking significant operational efficiencies and securing a competitive advantage in a rapidly evolving market. The post Swift Insights on AI, Mapping, and Route Optimization in Fleet Owner appeared first on Swift Navigation | Precise Positioning.</description>
+      <guid isPermaLink="false">https://www.swiftnav.com/resource/blog/swift-insights-on-ai-mapping-and-route-optimization-in-fleet-owner</guid>
+      <pubDate>Mon, 12 Jan 2026 21:21:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unlocking True Lone Worker Safety with Swift Navigation, Lightbug and Quectel</title>
+      <link>https://www.swiftnav.com/resource/blog/unlocking-true-lone-worker-safety-with-swift-navigation-lightbug-and-quectel</link>
+      <description>Can wearable RTK devices really last for days on a single charge? Chris Guest, Founder &amp;amp; CEO of Lightbug, joins us to discuss the integration of Swift’s Skylark service and Quectel’s LC29H modules. Discover how this pre-validated tech stack is overcoming multipath challenges to provide a "digital twin" of the worksite for large-scale infrastructure projects. The post Unlocking True Lone Worker Safety with Swift Navigation, Lightbug and Quectel appeared first on Swift Navigation | Precise Positio</description>
+      <guid isPermaLink="false">https://www.swiftnav.com/resource/blog/unlocking-true-lone-worker-safety-with-swift-navigation-lightbug-and-quectel</guid>
+      <enclosure url="https://www.swiftnav.com/wp-content/uploads/2025/09/DSC04528-1024x575.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 21 Jan 2026 12:04:17 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

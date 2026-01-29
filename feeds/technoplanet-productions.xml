@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>TechnoPlanet Productions - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/technoplanet-productions.xml</link>
+    <description>Latest articles from TechnoPlanet Productions (technoplanet.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/technoplanet-productions.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Jan 2026 12:52:44 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://technoplanet.com/2025/02/25/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://technoplanet.com/2025/02/25/hello-world/</guid>
+      <pubDate>Tue, 25 Feb 2025 19:12:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Let the Games Begin!</title>
+      <link>https://technoplanet.com/2025/04/08/let-the-games-begin/</link>
+      <description>By Julian Lee Much like a scene from a gladiator movie, the rulers are changing the rules mid-battle. But this time, it’s happening in real life, and we find ourselves in the arena. With no clear rules, underdogs must band together to confront the challenges ahead. What’s at stake? Many more outcomes are likely, with […]</description>
+      <guid isPermaLink="false">https://technoplanet.com/2025/04/08/let-the-games-begin/</guid>
+      <pubDate>Tue, 08 Apr 2025 19:08:05 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

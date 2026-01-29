@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Finz - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/finz.xml</link>
+    <description>Latest articles from Finz (finz.io)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/finz.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Jan 2026 12:53:06 +0000</lastBuildDate>
+    <item>
+      <title>Game Art Styles</title>
+      <link>https://finz.io/2022/12/20/game-art-styles/</link>
+      <description>What is Game Art? It is a specialized form of computer art employing games as an artistic medium ● Game art includes : ○ Concept Art ○ Character Design ○ Environment Design ○ Animation ○ Visual effects ○ Sound ○ UI Design Game art is basically everything you see and hear in a game Why [...]</description>
+      <guid isPermaLink="false">https://finz.io/2022/12/20/game-art-styles/</guid>
+      <enclosure url="https://finz.io/wp-content/uploads/2022/09/Picture-1.png" length="0" type="image/png"/>
+      <pubDate>Tue, 20 Dec 2022 06:20:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mobile Game Optimization</title>
+      <link>https://finz.io/2022/12/20/mobile-game-optimization/</link>
+      <description>Programming and Code Architecture Understanding the Unity Player Loop Minimize code that runs every frame. Avoid empty unity events. Remove debug.log statements. Use hash values instead of string functions. ○ Use the animator's hash functions instead of the string function. Choose the right Data structure. ○ Array, list, directory ○ recommended read (MSDN guide to [...]</description>
+      <guid isPermaLink="false">https://finz.io/2022/12/20/mobile-game-optimization/</guid>
+      <enclosure url="https://finz.io/wp-content/uploads/2022/12/Picture-1.png" length="0" type="image/png"/>
+      <pubDate>Tue, 20 Dec 2022 07:17:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>App Startup Time</title>
+      <link>https://finz.io/2022/12/20/app-startup-time/</link>
+      <description>App Startup Time Cold, Hot, and Warm App Launch Times and their impact on user engagement The agenda of this article is to understand the difference between these three terms mentioned in the title of this article, benchmark time, some stats explaining user engagement, and last but the most important best practices for each type [...]</description>
+      <guid isPermaLink="false">https://finz.io/2022/12/20/app-startup-time/</guid>
+      <enclosure url="https://finz.io/wp-content/uploads/2022/12/Picture-1-1.png" length="0" type="image/png"/>
+      <pubDate>Tue, 20 Dec 2022 07:52:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Product Optimisations</title>
+      <link>https://finz.io/2022/12/20/product-optimisations/</link>
+      <description>Product Optimisations The purpose of this document is to centralize the information that we have found in the optimization process phase. So we discuss the whole process in this document. Clean Project Please remove all extra data like slices,fbx, sounds, unused scripts, etc from your project. It increases the size of the project as well [...]</description>
+      <guid isPermaLink="false">https://finz.io/2022/12/20/product-optimisations/</guid>
+      <enclosure url="https://finz.io/wp-content/uploads/2022/12/Picture-1-2.png" length="0" type="image/png"/>
+      <pubDate>Tue, 20 Dec 2022 09:49:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>To be Digital Savvy in the ASO world</title>
+      <link>https://finz.io/2022/12/20/to-be-digital-savvy-in-the-aso-world/</link>
+      <description>To be Digital Savvy in the ASO world With over millions of apps on the app stores (both Google and iOS), it is usually hard to determine if your App will be able to stand out among others. This is where App Store Optimization (ASO) comes into play. However, the problem lies in the fact [...]</description>
+      <guid isPermaLink="false">https://finz.io/2022/12/20/to-be-digital-savvy-in-the-aso-world/</guid>
+      <enclosure url="https://finz.io/wp-content/uploads/2022/12/Picture-1-3.png" length="0" type="image/png"/>
+      <pubDate>Tue, 20 Dec 2022 12:10:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enhancing User Engagement</title>
+      <link>https://finz.io/2023/11/07/enhancing-user-engagement/</link>
+      <description>Enhancing User Engagement with Google Analytics Audience Triggers Introduction In the ever-evolving world of app marketing, understanding your users and their behavior is paramount to success. Google Analytics Audience Triggers can play a pivotal role in helping you reach and engage your target audience effectively. Understanding the User and Acting on Insights Understanding Your [...]</description>
+      <guid isPermaLink="false">https://finz.io/2023/11/07/enhancing-user-engagement/</guid>
+      <pubDate>Tue, 07 Nov 2023 09:56:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bringing 3D Models to Life</title>
+      <link>https://finz.io/2023/11/07/bringing-3d-models-to-life/</link>
+      <description>Bringing 3D Models to Life: Vertex Animation with Shaders Introduction In the world of computer graphics and game development, creating dynamic and lifelike animations is a crucial part of crafting immersive experiences. Vertex animation using shaders is a powerful technique that allows developers and artists to manipulate the positions of a 3D model's vertices [...]</description>
+      <guid isPermaLink="false">https://finz.io/2023/11/07/bringing-3d-models-to-life/</guid>
+      <enclosure url="https://finz.io/wp-content/uploads/2023/11/CVS.gif" length="0" type="image/gif"/>
+      <pubDate>Tue, 07 Nov 2023 11:18:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

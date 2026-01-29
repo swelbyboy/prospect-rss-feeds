@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Centralcast - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/centralcast.xml</link>
+    <description>Latest articles from Centralcast (centralcast.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/centralcast.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Jan 2026 12:54:05 +0000</lastBuildDate>
+    <item>
+      <title>2024 CentralCast Annual Report</title>
+      <link>https://www.centralcast.org/post/2024-centralcast-annual-report</link>
+      <description>2024 report</description>
+      <guid isPermaLink="false">https://www.centralcast.org/post/2024-centralcast-annual-report</guid>
+      <enclosure url="https://static.wixstatic.com/media/7a690b_d2f02183642549dc85a3157d9d32d99c~mv2.jpg/v1/fit/w_1000,h_636,al_c,q_80/file.png" length="0" type="image/png"/>
+      <pubDate>Wed, 12 Feb 2025 20:30:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>CentralCast White Paper</title>
+      <link>https://www.centralcast.org/post/centralcast-white-paper</link>
+      <description>CentralCast White Paper</description>
+      <guid isPermaLink="false">https://www.centralcast.org/post/centralcast-white-paper</guid>
+      <enclosure url="https://static.wixstatic.com/media/3679e9_ec9f9613c51e4878ae840990535fdd06~mv2.png/v1/fit/w_1000,h_867,al_c,q_80/file.png" length="0" type="image/png"/>
+      <pubDate>Wed, 12 Feb 2025 20:31:54 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

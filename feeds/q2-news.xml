@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Q2 News - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/q2-news.xml</link>
+    <description>Latest articles from Q2 News (ktvq.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/q2-news.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Jan 2026 12:40:02 +0000</lastBuildDate>
+    <item>
+      <title>In Montana, debate emerges locally over ICE-- including inside city halls</title>
+      <link>https://www.ktvq.com/news/local-news/in-montana-debate-emerges-locally-over-ice-including-inside-city-halls</link>
+      <description>Frustrations have been boiling over on the heels of two people being killed by ICE agents in Minneapolis, but the anger is not limited to Minnesota.</description>
+      <guid isPermaLink="false">https://www.ktvq.com/news/local-news/in-montana-debate-emerges-locally-over-ice-including-inside-city-halls</guid>
+      <enclosure url="https://ewscripps.brightspotcdn.com/04/c7/501400834bd5ae66b068f00b7d6f/ice-billings-council-2-2-5-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 29 Jan 2026 04:15:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Saddle Up: Doc Holiday's Roadhouse in Billings swings its doors open</title>
+      <link>https://www.ktvq.com/news/local-news/saddle-up-doc-holidays-roadhouse-in-billings-swings-its-doors-open</link>
+      <description>Doc Holiday's Roadhouse opened its doors in Billings Wednesday evening, bringing a cowboy-themed dining experience to the former Gusick's location on the West End</description>
+      <guid isPermaLink="false">https://www.ktvq.com/news/local-news/saddle-up-doc-holidays-roadhouse-in-billings-swings-its-doors-open</guid>
+      <pubDate>Thu, 29 Jan 2026 04:39:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Q2 Billings Area Weather:  Spring-like temperatures for some and flurries for others</title>
+      <link>https://www.ktvq.com/weather/todays-forecast/q2-billings-area-weather-spring-like-temperatures-for-some-and-flurries-for-others</link>
+      <description>Spring-like temperatures in winter? Find out why Montana could see 60-degree days while parts of the east deal with light snow flurries.</description>
+      <guid isPermaLink="false">https://www.ktvq.com/weather/todays-forecast/q2-billings-area-weather-spring-like-temperatures-for-some-and-flurries-for-others</guid>
+      <pubDate>Thu, 29 Jan 2026 12:28:43 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

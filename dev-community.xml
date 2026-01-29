@@ -8,79 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Jan 2026 06:40:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 12:25:56 +0000</lastBuildDate>
     <item>
-      <title>Create Stunning Videos with JavaScript Using Remotion &amp;amp; Kiro IDE</title>
-      <link>https://dev.to/zendizmo/create-stunning-videos-with-javascript-using-remotion-kiro-ide-12l0</link>
-      <description>What if you could create professional videos by writing React code — and have AI generate most of it for you? That's exactly what happens when you combine Remotion (a React framework for programmatic video) with Kiro IDE (an AI-powered IDE from AWS). In this post, I'll show you how to set this up in under 2 minutes and start creating videos from natural language prompts. What is Remotion? Remotion lets you create videos using React and JavaScript. Instead of dragging clips in a video editor, you</description>
-      <guid isPermaLink="false">https://dev.to/zendizmo/create-stunning-videos-with-javascript-using-remotion-kiro-ide-12l0</guid>
-      <pubDate>Tue, 27 Jan 2026 06:03:52 +0000</pubDate>
+      <title>Getting Started with cURL: Your First Steps in Talking to Servers</title>
+      <link>https://dev.to/sanjeev_singh_d0e6cd59459/getting-started-with-curl-your-first-steps-in-talking-to-servers-47ih</link>
+      <description>What Are Servers, and Why Do We Need to Talk to Them? Before we dive into cURL, let's understand a fundamental concept: servers. Imagine you're at a restaurant. You (the client) want food, but you don't go into the kitchen yourself. Instead, you tell the waiter what you want, the waiter takes your request to the kitchen (the server), and then brings back your food (the response). In programming, it works similarly: Your computer is the client (like you at the restaurant) The server is a powerful</description>
+      <guid isPermaLink="false">https://dev.to/sanjeev_singh_d0e6cd59459/getting-started-with-curl-your-first-steps-in-talking-to-servers-47ih</guid>
+      <pubDate>Thu, 29 Jan 2026 11:58:05 +0000</pubDate>
     </item>
     <item>
-      <title>Fix 'Objects are not valid as a React child' Error (2026)</title>
-      <link>https://dev.to/samantha-dev/objects-are-not-valid-as-a-react-child-40pj</link>
-      <description>I've been there. Staring at the console, coffee getting cold, wondering why React is screaming at me about objects when all I did was try to render some data. Thing is, this error trips up everyone. Beginners and veterans alike. I reckon it's one of those React gotchas that never really goes away, you just learn to spot it faster. What This Error Actually Means React throws this error when you try to shove an object directly into your JSX where it expects something it can actually render. String</description>
-      <guid isPermaLink="false">https://dev.to/samantha-dev/objects-are-not-valid-as-a-react-child-40pj</guid>
-      <pubDate>Tue, 27 Jan 2026 06:12:48 +0000</pubDate>
+      <title>Why Your Team Doesn't Believe Your Dashboards</title>
+      <link>https://dev.to/linkbenjamin/why-your-team-doesnt-believe-your-dashboards-4k19</link>
+      <description>Long ago I worked on a team that was the quintessential story: understaffed, overassigned, always on the verge of completely flying apart at the seams. Our backlog continually grew despite the heroic efforts of this super-dedicated little crew. Management, however, didn't see it that way. Our director’s analytics team began sending shiny dashboards to our manager: charts full of trends and deltas. According to the data, our “velocity” was dropping and our “defect rate” was rising. But we weren’t</description>
+      <guid isPermaLink="false">https://dev.to/linkbenjamin/why-your-team-doesnt-believe-your-dashboards-4k19</guid>
+      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Digital Sangam: Reimagining Intellectual Infrastructure 🏛️🚀</title>
-      <link>https://dev.to/yaseen_tech/the-digital-sangam-reimagining-intellectual-infrastructure-47op</link>
-      <description>From Ancient Madurai to a ₹10,000 Crore AI Roadmap: Reimagining the Intellectual Infrastructure of Tamil Nadu What if I told you the world’s earliest Open Source Standards Committee wasn't founded in a Silicon Valley garage, but in the ancient city of Madurai? When we look back at the history of the Tamil Sangams, we shouldn't just see a collection of poets. We should see a sophisticated, state-sponsored intellectual infrastructure. They called it சங்கம் வைத்து தமிழ் வளர்ப்பது—the institutionali</description>
-      <guid isPermaLink="false">https://dev.to/yaseen_tech/the-digital-sangam-reimagining-intellectual-infrastructure-47op</guid>
-      <pubDate>Tue, 27 Jan 2026 06:15:51 +0000</pubDate>
+      <title>Dead Performers and Machine Creations</title>
+      <link>https://dev.to/rawveg/dead-performers-and-machine-creations-4g64</link>
+      <description>In September 2025, Hollywood's unions found themselves confronting an adversary unlike any they had faced before. Tilly Norwood had attracted the attention of multiple talent agencies eager to represent her. She possessed the polish of a seasoned performer, the algorithmic perfection of someone who had never experienced a bad hair day, and one notable characteristic that set her apart from every other aspiring actor in Los Angeles: she did not exist. Tilly Norwood is not human. She is a fully sy</description>
+      <guid isPermaLink="false">https://dev.to/rawveg/dead-performers-and-machine-creations-4g64</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fos7pdncawa0mgqcin0gf.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Hidden Magic Behind Android’s Share Button</title>
-      <link>https://dev.to/alamin_karno_b096f2ace0bb/the-hidden-magic-behind-androids-share-button-3hkj</link>
-      <description>Have you ever hit the Share button in your app — maybe to send a funny meme, a link, or a photo — and seen that neat list of apps pop up? As a mobile developer, I always thought it was just… magic. Call an Intent, Android shows a list, job done. But one day, while debugging a crash on ActivityNotFoundException, I paused and asked myself: “Wait… how does Android actually know which apps to show? How does it know WhatsApp, Gmail, or Drive can handle my data?” That question sent me down a rabbit ho</description>
-      <guid isPermaLink="false">https://dev.to/alamin_karno_b096f2ace0bb/the-hidden-magic-behind-androids-share-button-3hkj</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp4i3erwdd9170vqnkkpf.png" length="0" type="image/png"/>
-      <pubDate>Tue, 27 Jan 2026 06:16:09 +0000</pubDate>
+      <title>Mr Sunday Movies: The MCU Spider-Man Trilogy - Caravan of Garbage</title>
+      <link>https://dev.to/popcorn_movies/mr-sunday-movies-the-mcu-spider-man-trilogy-caravan-of-garbage-23df</link>
+      <description>Hey web-heads! Get ready for a "Caravan of Garbage" deep dive into Tom Holland's MCU Spider-Man trilogy! This compilation looks back at Homecoming, Far From Home, and the epic No Way Home, which brought back all the Spideys (yeah, Tobey and Andrew were there!). It's all leading up to something called "Brand New Day" in 2026, so brush up on how our high-school hero navigated life and villains across those three big flicks. Watch on YouTube</description>
+      <guid isPermaLink="false">https://dev.to/popcorn_movies/mr-sunday-movies-the-mcu-spider-man-trilogy-caravan-of-garbage-23df</guid>
+      <pubDate>Thu, 29 Jan 2026 12:00:37 +0000</pubDate>
     </item>
     <item>
-      <title>Amazon Listing Traffic Analysis: Building a Real-Time Traffic Attribution System</title>
-      <link>https://dev.to/loopsthings/amazon-listing-traffic-analysis-building-a-real-time-traffic-attribution-system-1hh6</link>
-      <description>TL;DR When your Amazon listing's sales suddenly double but you can't identify the traffic source, you need a systematic approach to traffic analysis. This guide shows you how to build an automated traffic monitoring system using APIs to track organic rankings, competitor dynamics, and advertising performance in real-time. What you'll learn: How to identify Amazon listing traffic sources (organic, PPC, external) Building an automated traffic monitoring system with Python Using Pangolinfo Scrape A</description>
-      <guid isPermaLink="false">https://dev.to/loopsthings/amazon-listing-traffic-analysis-building-a-real-time-traffic-attribution-system-1hh6</guid>
-      <pubDate>Tue, 27 Jan 2026 06:17:03 +0000</pubDate>
+      <title>Our AI Critic Was Going Easy on Us (Research Told Us Why)</title>
+      <link>https://dev.to/theskillsteam/our-ai-critic-was-going-easy-on-us-research-told-us-why-55j0</link>
+      <description>We run a team of AI personas. A planner, an architect, a critic, a builder, a QA engineer. They collaborate in shared context, challenge each other's designs, and review each other's work. One day we asked: is our critic actually critiquing? Or is it the same model rating its own work? The Papers That Started It Two arxiv papers landed in a team discussion. The first (2404.13076) turned out to be about something we didn't expect: LLM self-preference bias. Models recognize their own output and ra</description>
+      <guid isPermaLink="false">https://dev.to/theskillsteam/our-ai-critic-was-going-easy-on-us-research-told-us-why-55j0</guid>
+      <pubDate>Thu, 29 Jan 2026 12:01:43 +0000</pubDate>
     </item>
     <item>
-      <title>The Task Tool: Claude Code's Agent Orchestration System</title>
-      <link>https://dev.to/bhaidar/the-task-tool-claude-codes-agent-orchestration-system-4bf2</link>
-      <description>Table of Contents Introduction What is the Task Tool? How It Works Available Agent Types Background vs Foreground Execution When to Use Which Agent Practical Examples Managing Background Tasks Best Practices Common Patterns Troubleshooting Introduction The Task tool is Claude Code's most powerful feature for handling complex, multi-step operations. Think of it as Claude's ability to spawn specialized "colleagues" - autonomous sub-agents that can work independently while you continue with other t</description>
-      <guid isPermaLink="false">https://dev.to/bhaidar/the-task-tool-claude-codes-agent-orchestration-system-4bf2</guid>
-      <pubDate>Tue, 27 Jan 2026 06:20:00 +0000</pubDate>
+      <title>.NET File‑Based Apps for API Prototyping: What Bit Me on First Run</title>
+      <link>https://dev.to/eelcolos/net-file-based-apps-for-api-prototyping-what-bit-me-on-first-run-na2</link>
+      <description>Using .NET file-based apps (via dotnet run app.cs) enables rapid prototyping and simplified project structure by eliminating project scaffolding. This feature was announced for dotnet 10 just before .Net Conf 2025: https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/ It’s a neat way to try ideas quickly. I tried to find out if this would work with FastEndpoints to demo an API that way. Example (FastEndpoints + file-based app) #:sdk Microsoft.NET.Sdk.Web #:package FastEndpoints@7.*-*</description>
+      <guid isPermaLink="false">https://dev.to/eelcolos/net-file-based-apps-for-api-prototyping-what-bit-me-on-first-run-na2</guid>
+      <pubDate>Thu, 29 Jan 2026 12:03:21 +0000</pubDate>
     </item>
     <item>
-      <title>How to read data when an HTTP request returns a JSON file and dataL2 access is successful?</title>
-      <link>https://dev.to/harmonyos/how-to-read-data-when-an-http-request-returns-a-json-file-and-datal2-access-is-successful-2ohl</link>
-      <description>Read the original article：How to read data when an HTTP request returns a JSON file and dataL2 access is successful? Context Through an HTTP GET request, data can be successfully called and returned. However, when the request returns content in JSON format, it cannot be directly read. How can we achieve reading the response data from a JSON file? Description JSON is used for parsing and generation. The file returned by the HTTP request can be obtained as text through requestInStream, as describe</description>
-      <guid isPermaLink="false">https://dev.to/harmonyos/how-to-read-data-when-an-http-request-returns-a-json-file-and-datal2-access-is-successful-2ohl</guid>
-      <pubDate>Tue, 27 Jan 2026 06:20:19 +0000</pubDate>
+      <title>Building in Public: How I Pivoted from Features to Validation 🚀</title>
+      <link>https://dev.to/lujandev/building-in-public-how-i-pivoted-from-features-to-validation-2150</link>
+      <description>I spent months building features almost every day. Clean code. Real infra. Everything working. But I made a classic developer mistake: I built first… and asked questions later. 🚨 As a developer, my default mode was: “Just add one more feature.” Admin panel. Payments. Webhooks. Integrations. More modules. Technically solid. Business-wise? No real validation 😅 After ~8 months, I realized the problem wasn’t the code. I was trying to validate: an e-commerce platform a SaaS product and my own interna</description>
+      <guid isPermaLink="false">https://dev.to/lujandev/building-in-public-how-i-pivoted-from-features-to-validation-2150</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftc520gmvsjgp0xehoc7f.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 12:04:22 +0000</pubDate>
     </item>
     <item>
-      <title>Top Free AI Tools for Data Analysis</title>
-      <link>https://dev.to/michael_kosorukov_f5743b9/top-free-ai-tools-for-data-analysis-4con</link>
-      <description>AI for data analysis - how it works When people think about “AI tools for data analysis” or “AI data analytics,” most immediately picture AI chat for conversational analytics. While this is the most popular way GenAI is currently used in analytics, there are other use cases as well: AI agents for data notebooks AI agents for semantic modeling AI agents for building data pipelines However, these latter use cases are primarily targeted at enterprises and mature data teams, rather than individuals</description>
-      <guid isPermaLink="false">https://dev.to/michael_kosorukov_f5743b9/top-free-ai-tools-for-data-analysis-4con</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2c9txzc1djtaezvbhnnc.png" length="0" type="image/png"/>
-      <pubDate>Tue, 27 Jan 2026 06:20:52 +0000</pubDate>
+      <title>Announcing SuperQode and SuperQE: Redefining Quality Engineering for Agentic Software</title>
+      <link>https://dev.to/shashikant86/announcing-superqode-and-superqe-redefining-quality-engineering-for-agentic-software-4ek9</link>
+      <description>Today we are publicly announcing SuperQode and SuperQE. They are open source tools that redefine how quality engineering works in the age of agentic software. SuperQode is the interactive TUI for exploratory quality engineering. SuperQE is the automation CLI for deep evaluation testing and CI workflows. Together they create a new workflow where agents test agents, evidence replaces assumptions, and humans remain in control. This release is the foundation for a new quality standard. AI can write</description>
+      <guid isPermaLink="false">https://dev.to/shashikant86/announcing-superqode-and-superqe-redefining-quality-engineering-for-agentic-software-4ek9</guid>
+      <pubDate>Thu, 29 Jan 2026 12:11:00 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Product Hunt Like Threaded Comments with Real-Time Collaboration 🔥</title>
-      <link>https://dev.to/astrodevil/building-a-product-hunt-like-threaded-comments-with-real-time-collaboration-5gd6</link>
-      <description>Product Hunt has revolutionized how we discover new products, creating an active community of builders and enthusiasts. The platform thrives on real-time collaboration, from discussing a product’s potential to sharing feedback with product creators. Collaboration on Product Hunt happens only through comments on posts, which can be limiting to users who want more ways to collaborate with others. For example, users may want to know which users are online or get notified when they’re mentioned in a</description>
-      <guid isPermaLink="false">https://dev.to/astrodevil/building-a-product-hunt-like-threaded-comments-with-real-time-collaboration-5gd6</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv3yuwb8r4dgnbn29uswj.png" length="0" type="image/png"/>
-      <pubDate>Tue, 27 Jan 2026 06:30:00 +0000</pubDate>
+      <title>Understanding HTML Tags and Elements</title>
+      <link>https://dev.to/anoop-rajoriya/understanding-html-tags-and-elements-1p</link>
+      <description>Content List What is HTML and why we using it What is HTML tags What is elements &amp;amp; elements vs tags Self closing elements Inline and blcok level elements Rerences What HTML is and why we use it? HTML stand for Hyper Text Markup Language. In that hyper text refere to system that provide a link to access other pages on web, markup means use of annotate text give instruction to browser how to structure and display page content. Brower can not read html like humans do it need a instruction to differ</description>
+      <guid isPermaLink="false">https://dev.to/anoop-rajoriya/understanding-html-tags-and-elements-1p</guid>
+      <pubDate>Thu, 29 Jan 2026 12:12:12 +0000</pubDate>
     </item>
     <item>
-      <title>How to Use Claude.ai's Research Toggle Inside Claude Code</title>
-      <link>https://dev.to/bhaidar/how-to-use-claudeais-research-toggle-inside-claude-code-469d</link>
-      <description>The Missing Feature That Changes Everything If you've been using Claude Code for development, you've probably noticed something frustrating: you can search the web, but you can't access Claude's powerful Research feature. Web search gives you quick answers in seconds. Research gives you comprehensive, multi-source reports with citations in 5 to 30 minutes. They're not the same thing, and for serious technical decisions, Research is a game changer. This guide shows you how to bring Research into</description>
-      <guid isPermaLink="false">https://dev.to/bhaidar/how-to-use-claudeais-research-toggle-inside-claude-code-469d</guid>
-      <pubDate>Tue, 27 Jan 2026 06:31:06 +0000</pubDate>
+      <title>Laravel Boost: Making AI Actually Useful for Laravel Developers</title>
+      <link>https://dev.to/vertex_invo_0005b24675db4/laravel-boost-making-ai-actually-useful-for-laravel-developers-3kmh</link>
+      <description>Laravel Boost allows AI tools to work with your real Laravel database structure instead of guessing. It understands migrations, models, and relationships — resulting in better suggestions and cleaner code. If you use AI in your Laravel workflow, this is worth checking out. 🔗 Read more: https://vertexinvo.com/blog/laravel-boost-the-ai-tool-that-finally-understands-your-database</description>
+      <guid isPermaLink="false">https://dev.to/vertex_invo_0005b24675db4/laravel-boost-making-ai-actually-useful-for-laravel-developers-3kmh</guid>
+      <pubDate>Thu, 29 Jan 2026 12:12:53 +0000</pubDate>
     </item>
   </channel>
 </rss>

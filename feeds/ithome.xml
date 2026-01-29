@@ -8,82 +8,81 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Jan 2026 06:43:07 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 12:28:16 +0000</lastBuildDate>
     <item>
-      <title>微軟揭露AI使網釣點擊率飆升4.5倍，竊資軟體興起亦備受關注</title>
-      <link>https://www.ithome.com.tw/news/173584</link>
-      <description>新聞在去年10月發布的微軟2025數位防禦報告中，揭示近期網路犯罪手法出現一項重要變化，正從傳統的系統入侵，大幅轉向竊取合法身分後進行非法登入。對此，微軟印度暨南亞區首席資安顧問Anujh Tewari也進一步解析，指出「社交工程」、「初始存取」、「AI」與「竊資軟體」是企業必須關注的四大重點。 首先，我們從新興的竊資軟體（InfoStealer）威脅來看，Anujh Tewari指出，這類惡意威脅幾年前未被視為重要的網路攻擊類別，但2025年微軟觀察到「竊資軟體即服務（InfoStealer as a Service）」模式大量出現，大幅降低攻擊門檻。 對此態勢，我們並不感到意外。事實上，過去兩三年來，iThome已多次報導資安公司揭露不同竊資軟體活動的消息。這類惡意威脅不僅能竊取瀏覽器存放的帳號密碼與憑證，亦可存取瀏覽器中的Cookie；部分能力更強的變種，甚至能直接劫持Session Cookie，利用已完成驗證的登入狀態來繞過MFA的防護。 值得注意的是，不常接觸資安的人可能誤以為竊資軟體是「偷資料」的惡意軟體。事實上，這裡竊取的「資」是指身分驗證相關的「資訊」（Informa</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173584</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%969%EF%BC%89%E5%BE%AE%E8%BB%9F%E6%95%B8%E4%BD%8D%E9%98%B2%E7%A6%A6%E5%A0%B1%E5%91%8A2025_Phishing%20Landscape_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E5%BE%AE%E8%BB%9F.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 27 Jan 2026 03:25:05 +0000</pubDate>
+      <title>竊資軟體Amatera Stealer透過Click-Fix網釣散布，濫用App-V元件迴避偵測</title>
+      <link>https://www.ithome.com.tw/news/173653</link>
+      <description>新聞最近幾年極為氾濫的網釣攻擊手法ClickFix，已經衍生出多種變形版本，例如誘導使用者操作流程都在瀏覽器進行的FileFix、製造電腦必須進行安全更新假象的JackFix、結合OAuth身分驗證流程的ConsentFix，以及讓瀏覽器看起來像當掉的CrashFix與GlitchFix，現在有人結合Windows內建的公用程式，讓惡意指令執行更加不受阻礙。 資安公司Blackpoint Cyber近日揭露最新一波ClickFix網釣攻擊手法，駭客透過偽造CAPTCHA圖靈驗證網頁，引導使用者主動執行系統指令，進而在電腦植入竊資軟體Amatera Stealer，其攻擊鏈設計與常見手法不同，關鍵差異在於濫用App‑V元件作為中繼節點，以迴避端點防護與行為型偵測機制。 這起事件的攻擊鏈起點是看似正常的CAPTCHA驗證頁面，內容聲稱需要進行圖靈驗證或修復瀏覽器異常，要求使用者依照指示操作，然而若是照做，他們的電腦就會被植入竊資軟體。與多數ClickFix攻擊鏈直接呼叫PowerShell或CMD不同，這次攻擊者在初始階段改以Windows內建、具有合法簽章的SyncAppvPublish</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173653</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/app-v-png.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 29 Jan 2026 04:08:37 +0000</pubDate>
     </item>
     <item>
-      <title>微軟發布2025數位防禦報告，臺灣遭網路威脅影響排名全球第十名</title>
-      <link>https://www.ithome.com.tw/news/173589</link>
-      <description>新聞微軟去年10月底發布「數位防禦報告2025」揭露全球威脅態勢，兩個月後，他們透過線上研討會說明報告重點，過程中，他們揭露幾項威脅的數據與臺灣有關。 首先，從全球威脅焦點來看，網路犯罪持續是全球最大的地下經濟體，國家級駭客的行動版圖也在持續擴張，微軟印度暨南亞區首席資安顧問Anujh Tewari指出，他們觀察到，美國客戶遭受網路威脅的影響程度全球排名第一，占全球總量的24.8%，其次為英國（5.6%）、以色列（3.5%）、德國（3.3%）、烏克蘭（2.8%）、加拿大（2.6%）、日本（2.6%）、印度（2.3%）、阿拉伯聯合大公國（2.0%）。 臺灣也名列其中，與澳洲並列為第10大受威脅程度最嚴重的國家，比例為1.8%。換言之，上述受威脅程度居高不下的國家，正處於這場數位防禦戰的最前線。 若從產業別來看，全球遭受攻擊最多的產業為「政府機關與服務」及「IT公司」。這類機構掌握大量關鍵公共服務的敏感資料，涵蓋醫療、研究學術、交通與公共安全等範疇，同時吸引出於地緣政治動機的國家級攻擊者，以及以金錢利益為目的的網路犯罪分子，因此成為駭客的首要攻擊目標。 不過，Anujh Tewari更想強</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173589</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%962%EF%BC%89%E5%BE%AE%E8%BB%9F%E6%95%B8%E4%BD%8D%E9%98%B2%E7%A6%A6%E5%A0%B1%E5%91%8A%E6%8F%AD%E9%9C%B22025%E5%B9%B4%E8%87%BA%E7%81%A3%E5%AE%A2%E6%88%B6%E9%81%AD%E5%8F%97%E7%B6%B2%E8%B7%AF%E5%A8%81%E8%84%85%E5%BD%B1%E9%9F%BF%E6%8E%92%E5%90%8D%E5%85%A8%E7%90%83%E7%AC%AC%E5%8D%81%E5%90%8D_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90%E5%BE%AE%E8%BB%9F.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 27 Jan 2026 03:34:52 +0000</pubDate>
+      <title>針對波蘭電網遭到攻擊有新的調查結果，駭客鎖定分散式能源下手</title>
+      <link>https://www.ithome.com.tw/news/173655</link>
+      <description>新聞波蘭指出該國電力系統於12月的最後一週，遭遇近幾年最大規模的網路攻擊，意圖打亂再生能源設施與配電營運公司之間的通訊，但並未得逞。後續資安公司ESET公布這起事故是俄羅斯駭客Sandworm所為，駭客在去年12月29日使用名為DynoWiper的資料破壞軟體（Wiper）從事活動，現在有其他資安公司揭露更多細節。 專精於工控領域的資安業者Dragos發布調查報告，指出這場攻擊活動是與Sandworm有關的另一個組織Electrum發起。這起攻擊活動的目標，並非傳統的大型發電廠，而是鎖定波蘭境內的分散式能源資源（Distributed Energy Resources，DER），標誌著網路攻擊戰術正隨著全球能源轉型而出現重大轉向。 針對這起事故的影響範圍，Dragos指出，攻擊者成功入侵了至少12個設施，受害環境包括熱電共生（Combined Heat and Power，CHP）設施、風力發電場，以及太陽能發電場。攻擊者不僅禁用重要通訊控制設備，甚至部署惡意軟體對硬體進行破壞，導致部分遠端終端單元（RTU）永久損壞（Bricking），無法透過遠端修復。 為何駭客看上分散式能源資源？</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173655</guid>
+      <pubDate>Thu, 29 Jan 2026 04:59:08 +0000</pubDate>
     </item>
     <item>
-      <title>北韓駭客Konni利用AI生成PowerShell惡意軟體，鎖定區塊鏈開發人員而來</title>
-      <link>https://www.ithome.com.tw/news/173596</link>
-      <description>新聞駭客利用AI打造惡意軟體的情況越來越常見，過往大多是軟體開發能力不足的新手採用這種方法，不過現在也有國家級駭客將其用於實際攻擊活動。 資安業者Check Point揭露針對軟體開發人員與工程團隊的網路釣魚活動，此攻擊由北韓駭客組織Konni發起，利用區塊鏈與加密貨幣相關的專案文件作為誘餌，散播AI生成的PowerShell後門程式。這象徵北韓攻擊者的技術手段有了重大演進，AI在網路攻擊中已從實驗階段正式進入實戰運用，並擴張了駭客在亞太地區的攻擊範圍。 Konni的攻擊活動最早可追溯到2014年，這些駭客向來的主要目標，是針對韓國的政府、外交、非政府組織（NGO），以及學術界，通常利用朝鮮半島局勢等地緣政治議題，作為誘餌並從事網釣。不過，本次駭客攻擊範圍擴大到整個亞太地區，日本、澳洲，以及印度傳出受害。 這些誘餌文件的內容，明確與區塊鏈相關技術有關，內含專案資料，包含架構、技術堆疊、開發時程，以及部分預算與交付里程碑等技術細節。本次活動Konni似乎針對開發工程團隊而來，意圖破壞開發環境，藉此取得敏感資產的存取權限，包括基礎設施、API憑證、加密貨幣錢包，以及加密貨幣資產。Check</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173596</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/CT6NXRBJK7-image1-2048x1337.png" length="0" type="image/png"/>
-      <pubDate>Tue, 27 Jan 2026 03:47:12 +0000</pubDate>
+      <title>英國政府要求Google允許出版商退出AI Overviews索引以免被竊走流量</title>
+      <link>https://www.ithome.com.tw/news/173657</link>
+      <description>新聞英國監管機關競爭與市場管理署（Competition and Markets Authority，CMA）昨（1/29）日提出管制措施草案，要求Google搜尋提供選擇以確保市場自由競爭，包括允許出版商退出（opt-out）AI Overviews的顯示方式。 Google推出的AI Overviews匯整了多家網頁內容於搜尋結果頁最上方，讓查詢用者更快獲取答案而不需點入網頁。然而這也大幅減少Google導向各網站的流量，嚴重傷害依賴流量及廣告營收的內容出版商。 由於Google據有英國一般性搜尋流量的超過90%，2025年10月CMA認定Google在搜尋服務具有策略性市場地位（strategic market status，SMS）。這使用CMA得以根據法律導入干預措施以確保市場自由競爭。最新草案即干預措施的一環。CMA本周將草案公布並開放各方意見直到2月25日。 本草案包括出版商控制、公平排序、選擇性視窗及資料可攜性。首先，英國政府要求Google允許出版商可控制其內容退出AI Overviews等AI服務，或是用於訓練AI模型。CMA也要求Google提出可行步驟使AI回應</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173657</guid>
+      <pubDate>Thu, 29 Jan 2026 05:30:16 +0000</pubDate>
     </item>
     <item>
-      <title>Clawdbot走紅，顯示AI助理正從聊天工具走向行動代理</title>
-      <link>https://www.ithome.com.tw/news/173578</link>
-      <description>新聞開源AI代理專案Clawdbot近日在開發者社群迅速竄紅，成為AI代理浪潮中的代表案例之一。該專案由奧地利軟體工程師、PSPDFKit共同創辦人Peter Steinberger於2026年1月對外發布，主打「可由使用者自行掌控、部署於本地的個人AI助理」，而非依賴單一雲端產品或專屬介面。 Clawdbot的核心概念，是讓大型語言模型從被動回應，進一步成為能實際執行任務的行動代理。使用者可將Clawdbot部署在自己的電腦或伺服器上，並串接OpenAI、Anthropic等大型語言模型API，再透過Telegram、WhatsApp、Slack、Discord、Microsoft Teams等既有通訊平臺與其互動。AI在取得明確授權後，可執行檔案讀寫、終端機指令、網頁抓取與流程自動化等操作。 與多數雲端AI服務不同，Clawdbot並不強制使用專屬網頁介面，而是融入使用者原本的工作與通訊流程。其架構以Gateway作為控制平面，負責訊息轉發與權限管理，實際的行動能力則來自部署於本地的代理與工具模組。 Clawdbot開源後迅速在GitHub累積大量關注，同時引發社群對「本地AI代理</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173578</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0126-Clawdbot-600(1).png" length="0" type="image/png"/>
-      <pubDate>Tue, 27 Jan 2026 03:50:19 +0000</pubDate>
+      <title>微軟財報出爐，Microsoft Cloud成長26%</title>
+      <link>https://www.ithome.com.tw/news/173659</link>
+      <description>新聞微軟周三（1/28）公布截至2025年12月31日的2026財年第二季財報，該季微軟創下813億美元的營收，年增17%。在一般公認會計原則（GAAP）下，微軟淨收入為385億美元，年增60%；若排除對OpenAI投資帶來的影響，非GAAP淨收入為309億美元，年增23%。財報公布後，微軟盤後股價下滑5.66%，跌至454.36美元。 從各部門營收來看，包括Microsoft 365、LinkedIn與Dynamics的生產力與業務流程（Productivity and Business Processes）締造341億美元營收，年增16%；涵蓋伺服器產品與雲端服務的智慧雲端（Intelligent Cloud）營收為329億美元，年增29%；更多個人運算（More Personal Computing）營收為143億美元，年減3%。 至於所有以雲端、訂閱或用量計費方式交付的Microsoft Cloud，該季營收達515億美元，年增26%。該類別的商業剩餘履約義務（Commercial Remaining Performance Obligation，RPO）年增110%，達6,2</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173659</guid>
+      <pubDate>Thu, 29 Jan 2026 06:04:14 +0000</pubDate>
     </item>
     <item>
-      <title>Maia 200正式亮相，用以強化微軟自家AI推論基礎設施</title>
-      <link>https://www.ithome.com.tw/news/173598</link>
-      <description>新聞微軟周一（1/26）發表新一代的推論AI加速晶片Maia 200，這是微軟在第一方的AI晶片計畫中，首個進入大規模商用部署的版本；同時，隨著生成式AI進入實際營運階段，微軟正將AI運算從單點效能競賽，推進到長期可擴展、可控成本的雲端基礎設施層級。 Maia並非通用GPU的替代品，而是專為大規模AI推論而設計的雲端加速器，首次於2023年Ignite大會對外揭露。 新一代的Maia 200採用台積電3奈米製程打造，內建原生FP4與FP8 Tensor核心，並配置216GB HBM3e、7TB/s記憶體頻寬與272MB晶片內SRAM，整體設計明確鎖定低精度推論與高Token吞吐需求。微軟指出，Maia 200在FP4運算效能上約為第三代AWS Trainium的3倍，FP8效能亦高於Google第七代TPU，且在其資料中心實際部署中，效能成本比提升約30%。 圖片來源／微軟 儘管Maia 200在硬體形態上是一顆AI加速器晶片，但其設計並未止於晶片本身。微軟在開發過程中，同步定義了晶片的互連方式、資料中心網路拓撲、機架配置與散熱方案，使Maia 200能直接融入Azure資料中心，作為</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173598</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0127-Maia%20200-microsoft-3.png" length="0" type="image/png"/>
-      <pubDate>Tue, 27 Jan 2026 04:17:04 +0000</pubDate>
+      <title>【資安日報】1月29日，波蘭電力基礎設施遭遇攻擊，傳出是俄羅斯駭客所為</title>
+      <link>https://www.ithome.com.tw/news/173656</link>
+      <description>新聞俄羅斯國家級駭客Sandworm鎖定波蘭電力產業，利用惡意軟體DynoWiper抹除資料 1月23日資安公司ESET表示，去年底波蘭能源系統遭到大規模網路攻擊，根據他們的調查結果，這起事故發生在12月29日，其特徵與Sandworm過往發動的資料破壞攻擊高度重疊，因此研判應該是這些俄羅斯駭客所為。這次駭客使用的資料破壞軟體（Wiper），ESET命名為DynoWiper。對於整起事故發生的完整過程，該公司表示尚在進一步調查當中，不過，目前尚未出現災情。 針對駭客的動機，很可能是Sandworm鎖定能源設施發動攻擊正好滿10週年。2015年12月，該組織攻擊烏克蘭電網，使用惡意軟體BlackEnergy入侵變電站重要系統，導致約有70萬人停電數小時，而這是首度電力系統因惡意軟體攻擊造成的停擺的事故。 針對波蘭電網遭到攻擊有新的調查結果，駭客鎖定分散式能源下手 波蘭指出該國電力系統於12月的最後一週，遭遇近幾年最大規模的網路攻擊，意圖打亂再生能源設施與配電營運公司之間的通訊，但並未得逞。專精於工控領域的資安業者Dragos發布調查報告，指出這場攻擊活動是與Sandworm有關的另一個組</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173656</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/RSYtYwtFIw.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 06:11:24 +0000</pubDate>
     </item>
     <item>
-      <title>俄羅斯國家級駭客Sandworm鎖定波蘭電力產業，利用惡意軟體DynoWiper抹除資料</title>
-      <link>https://www.ithome.com.tw/news/173597</link>
-      <description>新聞去年12月底波蘭傳出電力系統遭遇大規模網路攻擊，近日有資安公司指出，攻擊者的身分就是俄羅斯駭客Sandworm。 1月23日資安公司ESET表示，去年底波蘭能源系統遭到大規模網路攻擊，根據他們的調查結果，這起事故發生在12月29日，其特徵與Sandworm過往發動的資料破壞攻擊高度重疊，因此研判應該是這些俄羅斯駭客所為。這次駭客使用的資料破壞軟體（Wiper），ESET命名為DynoWiper。對於整起事故發生的完整過程，該公司表示尚在進一步調查當中，不過，目前尚未出現災情。 針對駭客的動機，很可能是Sandworm鎖定能源設施發動攻擊正好滿10週年。2015年12月，該組織攻擊烏克蘭電網，使用惡意軟體BlackEnergy入侵變電站重要系統，導致約有70萬人停電數小時，而這是首度電力系統因惡意軟體攻擊造成的停擺的事故。 這起資安事故的曝光源自於路透社的報導，1月13日波蘭能源部長Milosz Motyka透露，該國電力系統於12月的最後一週，遭遇近幾年最大規模的網路攻擊，有別於過往針對大型發電機組或是電力運輸網路下手，這次駭客意圖打亂再生能源設施與配電營運公司之間的通訊，但並未得</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173597</guid>
-      <pubDate>Tue, 27 Jan 2026 04:31:40 +0000</pubDate>
+      <title>Chrome導入Auto Browse，AI開始接手瀏覽器操作</title>
+      <link>https://www.ithome.com.tw/news/173660</link>
+      <description>新聞Google於周三（1/28）更新Chrome的AI能力，讓Gemini可常駐於瀏覽器側邊欄，並可隨分頁切換即時更新理解脈絡。另也推出代理式瀏覽功能Auto Browse，允許Gemini於使用者授權下，代為執行多步驟的網頁操作，如開啟分頁、搜尋資訊與填寫線上表單等。 更新後的Chrome將Gemini整合進瀏覽器側邊欄，並作為主要操作入口。使用者在瀏覽任何分頁時，無需另開視窗或離開當前頁面，即可呼叫Gemini協助彙整資訊、比較不同網站內容，或整理行事曆與行程。 此外，Google將創意模型Nano Banana直接內建於瀏覽器中。用戶只需在側邊欄輸入指令，即可對網頁上的影像進行即時轉換，例如將研究數據圖表化，或將室內設計圖片調整為不同風格，省去了下載與重複上傳的繁瑣步驟。 Chrome中的Gemini亦支援Connected Apps功能，可連結Gmail、日曆、YouTube、地圖及Google Flights。例如若使用者打算參加商務會議，Gemini即可自動檢索電子郵件中的行程詳情，結合Google Flights提供機票建議，並自動草擬通知同事抵達時間的信件。 此外，A</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173660</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0129-Gemini%20in%20Chrome-600.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 06:23:06 +0000</pubDate>
     </item>
     <item>
-      <title>微軟傳曾提供BitLocker復原金鑰給FBI</title>
-      <link>https://www.ithome.com.tw/news/173599</link>
-      <description>新聞媒體Forbes報導，微軟曾將Windows硬碟加密技術BitLocker的復原金鑰交給美國聯邦調查局（FBI），以利警方蒐集偵查案件所需的資料。 BitLocker是微軟在Windows 10/11筆電的磁碟加密功能，透過加密整個磁碟機來保護資料安全，避免裝置遺失或被竊時未經授權的第三方存取資料。當登入微軟帳戶時，BitLocker通常會預設自動開啟。 使用者可選擇將BitLocker的加密金鑰儲存在個人微軟帳號，或是企業的Active Directory或Azure AD下，以便用戶電腦開機失敗或重置TPM晶片、變更UEFI設定時BitLocker自動加密，由微軟伺服器中取回復原（或修復）金鑰解鎖磁碟。 根據報導，2025年微軟將3臺筆電的BitLocker加密/回復金鑰交給了FBI。FBI為了偵辦一起發生於關島的失業救濟金詐騙案，需要存取嫌犯筆電上的資料，因而向微軟出示搜索票。 微軟向媒體證實，如果接到有效的法律命令，的確會提供BitLocker回復金鑰。微軟發言人並說，該公司平均每年會接獲20件提供復原金鑰的使用者請求。 迫於警方或法院命令交出金鑰雖然情有可原，但從商業及法</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173599</guid>
-      <pubDate>Tue, 27 Jan 2026 04:32:05 +0000</pubDate>
+      <title>Amazon延續去官僚化策略，裁減約1.6萬個職位</title>
+      <link>https://www.ithome.com.tw/news/173661</link>
+      <description>新聞Amazon周三（1/28）宣布進一步進行組織調整，將裁減約1.6萬個職位，主要影響企業與科技相關團隊。這是該公司自去年10月裁撤約1.4萬名企業員工後，延續同一輪組織瘦身與去官僚化改革的後續行動。 Amazon人員體驗與科技資深副總裁Beth Galetti在內部信中指出，此次調整並非新一波突發性裁員，而是部分團隊尚未於去年10月完成組織重整，如今才完成相關工作。整體改革目標仍是減少管理層級、提升責任歸屬，並移除影響決策速度與創新的官僚流程。 Amazon強調，這並不代表公司將進入「定期裁員」的新節奏。Galetti表示，各團隊仍會持續評估是否具備足夠速度與能力為客戶創新，並在必要時進行調整，但並非每隔數月就進行全面裁撤。 若將時間拉長觀察，這波人力調整與Amazon近年大舉投入生成式AI與代理人技術密切相關。去年6月，Amazon執行長Andy Jassy即曾在內部信中直言，隨著生成式AI與代理人在公司內部廣泛應用，未來將需要更少的人來做目前的工作，但同時也需要更多人投入不同類型的職務。 根據外媒統計，Amazon自2022年至2023年間已裁撤超過2.7萬人，去年10月與今年</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173661</guid>
+      <pubDate>Thu, 29 Jan 2026 07:02:25 +0000</pubDate>
     </item>
     <item>
-      <title>Nvidia強化與CoreWeave合作，再以20億美元入股</title>
-      <link>https://www.ithome.com.tw/news/173600</link>
-      <description>新聞Nvidia周一（1/26）宣布，擴大與美國雲端GPU服務供應商CoreWeave的合作，協助該公司在2030年前加速建置超過5GW規模的AI工廠，同時以每股87.2美元的價格、總計20億美元認購CoreWeave股票。根據CoreWeave提交給美國證券交易委員會的文件，這讓Nvidia所持有的CoreWeave股份增加至11.5%。 CoreWeave成立於2017年，當時公司名稱為Atlantic Crypto，所聚集的GPU資源主要用來開採加密貨幣。在加密貨幣於2018年崩盤之後，即更名為CoreWeave，並轉型對外供應基於GPU的運算資源，搭上了AI風潮列車。現在的CoreWeave定位為專為AI打造的雲端服務供應商，在美國與歐洲經營超過30個資料中心，部署逾25萬張Nvidia GPU，以支援AI雲端部署。 根據美國媒體報導，Nvidia是在2023年首度投資CoreWeave，當時約注資1億美元，每股價格低於6美元；在2025年CoreWeave進行IPO之前，再加碼認購，當時Nvidia總計持有約7%的CoreWeave股份；最近一次的20億美元，讓Nvidia的</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173600</guid>
-      <pubDate>Tue, 27 Jan 2026 04:52:59 +0000</pubDate>
+      <title>專攻低、中密度無線網路部署需求，思科推新款Wi-Fi 7基地臺</title>
+      <link>https://www.ithome.com.tw/review/173621</link>
+      <description>思科這幾年陸續推出多款Wi-Fi 7基地臺，我們曾介紹9176系列、9178系列，以及9172系列，現在來看看去年11月登場的CW9171I與CW9174系列，它們是在Cisco Partner Summit大會發表的產品，並且搭配鎖定中小型環境應用需求的無線網路控制器CW9800L，支援低密度與中密度的無線網路部署，提供高吞吐量、低延遲度，以及智慧型管理機制，而且能順暢地擴充網路建置規模，預計於2025年第四季開放預訂。一個月後，思科也正式公開上述兩款基地臺的細部技術規格。 以9171系列而言，提供1個2.5GbE埠與入門級的新世代無線網路建置能力，Wi-Fi通訊支援雙頻三波段（2.4 GHz與5GHz或6 GHz），匯集傳輸效能最大可達6120 Mbps，特色是能針對Wi-Fi 7提供彈性、便於使用、安全，以及完整效能，而不需要耗費大量成本，或設置高密度基礎設施而產生架構複雜的問題。 基本上，這批機型適用於低密度環境，像是零售店面空間、精品酒店、醫療診所、遠端工作中心、教室、學生宿舍，衛星辦公室、區域分支機構、物流樞紐等分散式企業據點，以及小型至中型企業。 至於9174系列，內建1</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/173621</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/cisco_wireless_9174_main.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 29 Jan 2026 09:29:38 +0000</pubDate>
     </item>
     <item>
-      <title>Claude導入MCP Apps，AI工具整合邁向可視化</title>
-      <link>https://www.ithome.com.tw/news/173601</link>
-      <description>新聞AI新創Anthropic周一（1/26）宣布，旗下AI聊天機器人Claude正式導入MCP Apps，能將第三方工具的互動介面直接嵌入Claude中，使Claude從以文字為主的協作工具，進一步走向可視化的工作介面，現已支援Asana、Box、Figma及Slack等9種工具，亦計畫支援Salesforce。 MCP（Model Context Protocol）是Anthropic所釋出的開放標準，用來定義AI如何安全連接外部工具、取得脈絡並執行動作；MCP Apps則是建立在MCP之上的官方擴充，讓工具不只被AI呼叫，還能把互動式介面直接嵌入AI對話中，讓使用者與AI即時共同操作同一個工作畫面。 Claude過去已能透過MCP連接外部工具，代表使用者建立任務或執行操作，但實際流程多半以文字回饋呈現，工具本身的操作狀態並不透明；而MCP Apps則進一步允許工具供應商將自身的互動式UI一併提供給聊天機器人顯示與操作。 在實際操作上，使用者可於Claude對話中直接看到並操作Asana的專案與時程，於格式化預覽中編修Slack訊息，在Figma FigJam中將文字提示轉為流程圖</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173601</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0127-MCP%20App-%EF%BC%92.png" length="0" type="image/png"/>
-      <pubDate>Tue, 27 Jan 2026 05:33:56 +0000</pubDate>
+      <title>Nvidia CUDA Toolkit曝4項高風險漏洞，恐影響支援輝達GPU加速的應用系統運作</title>
+      <link>https://www.ithome.com.tw/news/173665</link>
+      <description>新聞晶片大廠Nvidia於1月20日發布安全公告，指出旗下GPU運算開發工具CUDA Toolkit存在4項資安漏洞，編號為CVE-2025-33228、CVE-2025-33229、CVE-2025-33230及CVE-2025-33231。相關漏洞涉及作業系統指令注入與不安全搜尋路徑設計，在特定條件下，可能被攻擊者濫用以執行任意程式碼或造成服務中斷。 CUDA Toolkit是Nvidia提供的GPU平行運算與加速開發套件，廣泛應用於AI模型訓練、資料分析與科學計算。Nvidia在公告中指出，相關漏洞影響Windows與Linux平臺使用的CUDA Toolkit，且主要出現在套件所包含的效能分析工具Nsight Systems元件。 漏洞性質與可能影響 Nvidia指出，其中CVE-2025-33228與CVE-2025-33230屬作業系統指令注入漏洞，CVSS風險分數均為7.3，風險等級為高。攻擊者若能在受影響系統上觸發漏洞，可能執行未經授權的系統指令，導致程式異常終止、資料外洩，或引發阻斷服務（DoS）。 CVE-2025-33229同樣被評為高風險，CVSS風險分數為7.</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173665</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0129-NVIDIA%20CUDA%20Toolkit.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 10:39:06 +0000</pubDate>
     </item>
     <item>
-      <title>傳中國政府介入調查可能造成Meta/Manus收購案生變</title>
-      <link>https://www.ithome.com.tw/news/173610</link>
-      <description>新聞彭博報導，中國監管機關深入調查Meta和AI代理人新創公司Manus的收購案是否合法、以及是否涉及技術輸出與資料外流，可能造成收購的推遲甚至取消。 由中國創業家肖弘創立Manus提供AI代理人服務，能為企業生成網站原型、內部工具，甚至簡單的業務自動化，而不必具備完整程式開發技能。在2025年3月發表後引發關注。Meta去年12月底宣布，買下AI代理人開發商Manus，以加速企業人工智慧創新。外傳這起交易價值數十億美元。彭博則稱價值為20億美元。 中國商務部本月初宣布將對這項收購案與相關合規性展開評估初步調查。最新宣布中，中國政府將全面審查。審查範圍由技術出口、對外投資合法性，擴大到深入評估Manus收購是否涉及中國技術輸出，以及是否可能導致AI訓練資料外洩等面向。 中國官方將深入審查是否涉及中國技術或演算法，是否可能違反《出口管制法》。外國投資調查可能涵括Meta支付收購款項、資金流向、相關外匯和投資報備手續是否符合規定。 此外，中國官方也關注Manus AI處理的大量數據。是否會存在未經許可的數據跨境流動或個人資料外洩，審查可能涉及對公司資料架構、儲存及傳輸路徑的評估。 最後，報</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173610</guid>
-      <pubDate>Tue, 27 Jan 2026 06:20:38 +0000</pubDate>
+      <title>Dormakaba Exos 9300門禁系統爆20項CVE漏洞，攻擊者入侵內網可任意開門</title>
+      <link>https://www.ithome.com.tw/news/173667</link>
+      <description>新聞資安顧問公司SEC Consult揭露，瑞士門禁與鎖具廠Dormakaba旗下企業級實體存取控制系統Kaba Exos 9300，存在超過20項弱點，其中20項已取得CVE編號。研究團隊指出，這套系統被不少歐洲大型企業場域採用，如工業與服務業、物流、能源供應商與機場營運單位，攻擊者要是能先取得目標環境的網路或存取硬體，便可能透過多條路徑開啟任意門禁，或在未經事前授權下重設控制器與周邊設定。 Dormakaba表示已提供修補程式與強化指引，並稱受影響客戶雖達數千家，但屬高安全需求環境者僅占少數。 研究人員說明，exos 9300屬於集中式門禁管理軟體，常部署在Windows伺服器，系統資料主要存放在MSSQL資料庫，並透過網路把設定下發到現場的Access Manager門禁控制器，再與門邊的註冊裝置（Registration Unit）讀卡器與PIN Pad等周邊協同運作。SEC Consult揭露的弱點橫跨管理伺服器、控制器韌體與註冊裝置硬體，要是通訊保護與身分驗證設計不足，就可能讓入侵從網路一路延伸到實體出入口。 就弱點類型而言，包含預設缺乏身分驗證的管理介面、硬編碼帳密與金鑰</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173667</guid>
+      <pubDate>Thu, 29 Jan 2026 11:29:36 +0000</pubDate>
     </item>
   </channel>
 </rss>
