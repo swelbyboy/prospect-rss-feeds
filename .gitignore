@@ -56,3 +56,10 @@ organize_project.sh
 # CSV backups and duplicates
 *BACKUP*.csv
 prospect_tracker.csv
+
+# Generated feeds (hosted on GitHub Pages, not needed locally)
+feeds/
+/*.xml
+
+# Source data files
+*All ICPs for Newsletter*.csv
