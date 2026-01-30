@@ -8,49 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 12:26:06 +0000</lastBuildDate>
-    <item>
-      <title>SonicDE Looks To Preserve &amp;amp; Improve The X11-Specific KDE Code</title>
-      <link>https://www.phoronix.com/news/SonicDE-Improving-KDE-X11-Code</link>
-      <description>In light of Plasma 6.8 looking to go Wayland-exclusive and retire their X11 session support, SonicDE (formerly "KDE-Lite") is getting off the ground as a fork of the relevant X11 support within the KDE desktop...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/SonicDE-Improving-KDE-X11-Code</guid>
-      <pubDate>Wed, 28 Jan 2026 11:24:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AMD Ryzen 7 9850X3D Linux Performance</title>
-      <link>https://www.phoronix.com/review/amd-ryzen-7-9850x3d-linux</link>
-      <description>Ahead of tomorrow's official availability of the AMD Ryzen 7 9850X3D at $499 USD, today the review embargo lifted. This faster variant to the existing Ryzen 7 9800X3D has been undergoing lots of Linux benchmarking the past two weeks for seeing the performance capabilities of this fastest 8-core 3D V-Cache processor.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/amd-ryzen-7-9850x3d-linux</guid>
-      <pubDate>Wed, 28 Jan 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>FreeType Speeds-Up ClearType-Like LCD Filter Rendering By 40%</title>
-      <link>https://www.phoronix.com/news/FreeType-Faster-ClearType-Like</link>
-      <description>The widely-used FreeType library used for rendering text onto bitmaps has landed a significant optimization for its LCD filtering code path for Microsoft ClearType-like rendering. Thanks to the improvement, the rendering can be around 40% faster...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FreeType-Faster-ClearType-Like</guid>
-      <pubDate>Wed, 28 Jan 2026 16:23:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mesa 26.0-rc2 Released With Numerous AMD, NVIDIA &amp;amp; Intel Driver Fixes</title>
-      <link>https://www.phoronix.com/news/Mesa-26.0-rc2-Released</link>
-      <description>Following last week's code branching / feature freeze and first release candidate of Mesa 26.0, Mesa 26.0-rc2 is now available with an initial batch of bug fixes for this quarter's feature update to these open-source OpenGL and Vulkan drivers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.0-rc2-Released</guid>
-      <pubDate>Wed, 28 Jan 2026 18:03:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNOME 50 Finally Lands Improved Discrete GPU Detection</title>
-      <link>https://www.phoronix.com/news/GNOME-50-Better-GPU-Detection</link>
-      <description>The upcoming release of GNOME 50 to be found in the likes of Ubuntu 26.04 LTS and Fedora Workstation 44 will feature improved discrete GPU detection within the GNOME Shell. This effort has been two years coming and finally merged this week...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Better-GPU-Detection</guid>
-      <pubDate>Wed, 28 Jan 2026 20:45:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wasmer 7.0 Released For Advancing WebAssembly On The Desktop &amp;amp; Anywhere</title>
-      <link>https://www.phoronix.com/news/Wasmer-7.0-Released</link>
-      <description>Wasmer 7.0 is out today for this WebAssembly "WASM" run-time for enabling lightweight containers that can run "anywhere" from the desktop to cloud and the edge. The security-minded and extensible WASM runtime provided by Wasmer has already proven to be quite robust while with Wasmer 7.0 has become even more featureful...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Wasmer-7.0-Released</guid>
-      <pubDate>Wed, 28 Jan 2026 21:13:02 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 30 Jan 2026 06:54:45 +0000</lastBuildDate>
     <item>
       <title>GNU gettext Reaches Version 1.0 After 30+ Years In Development - Adds LLM Features</title>
       <link>https://www.phoronix.com/news/GNU-gettext-1.0</link>
@@ -78,6 +36,48 @@
       <description>Timur Kristóf of Valve's Linux graphics team last year addressed remaining issues in the open-source AMDGPU kernel graphics driver so old AMD GCN 1.0 and GCN 1.1 GPUs could transition to using AMDGPU by default rather than the former "Radeon" kernel driver that is largely in maintenance mode for pre-GCN/RDNA GPUs. One caveat though was the GCN 1.1 APU support still having some limitations leading to Kaveri and friends not being able to use the modern AMDGPU DC "Display Core" code. But new patche</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-DC-Improved-GCN-1.1-APUs</guid>
       <pubDate>Thu, 29 Jan 2026 11:36:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA GeForce NOW Is Now Available Natively On Linux In Flatpak Form</title>
+      <link>https://www.phoronix.com/review/nvidia-geforce-now-linux</link>
+      <description>Following NVIDIA's announcement back at CES of their GeForce NOW game streaming service coming to Linux as a native desktop application, today's the day. The GeForce NOW Linux-native build is being published and the review embargo has lifted.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/nvidia-geforce-now-linux</guid>
+      <pubDate>Thu, 29 Jan 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Libgcrypt 1.12 Released With VAES/AVX-512 Accelerated AES: 2x Performance On AMD Zen 5</title>
+      <link>https://www.phoronix.com/news/libgcrypt-1.12</link>
+      <description>Werner Koch released libgcrypt 1.12 as the newest feature release to this library providing the cryptographic building blocks used by GnuPG and other software like email clients, file encryption utilities, and other software...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/libgcrypt-1.12</guid>
+      <pubDate>Thu, 29 Jan 2026 14:39:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>IO_uring Zero-Copy Large Receive Buffer Support To Provide A Nice Performance Win</title>
+      <link>https://www.phoronix.com/news/IO-uring-zcrx-Large-RX</link>
+      <description>Slated for introduction in the next kernel cycle (Linux 6.20~7.0) is introducing large receive buffer support for IO_uring's zero-copy receive code path. This large receive buffer support can be very beneficial for those with higher-end networking hardware capable of handling the larger buffers for some significant performance and efficiency wins...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/IO-uring-zcrx-Large-RX</guid>
+      <pubDate>Thu, 29 Jan 2026 16:21:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Libcamera 0.7 Released - GPU Acceleration Support For SoftISP Can Deliver 15x Performance</title>
+      <link>https://www.phoronix.com/news/libcamera-0.7</link>
+      <description>Libcamera 0.7 was published today for this modern software library for image signal processors (ISPs) and embedded cameras under Linux. The standout change with libcamera 0.7 is initial plumbing for GPU acceleration in the software ISP "SoftISP" for delivering better performance than just CPU-based...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/libcamera-0.7</guid>
+      <pubDate>Thu, 29 Jan 2026 16:51:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DDR5-4800 vs. DDR5-6000 Performance With The AMD Ryzen 7 9850X3D In 300+ Benchmarks</title>
+      <link>https://www.phoronix.com/review/amd-ryzen-7-9850x3d-ddr5</link>
+      <description>With the incredible market demand around DDR5 memory and significantly elevated pricing on the more premium DDR5 memory modules, as part of the AMD Ryzen 7 9850X3D launch there's been some communication that thanks to 2nd Gen AMD 3D V-Cache, using lower memory speeds like DDR5-4800 can be suitable without much of an impact to the gaming performance. But what about for Linux gaming? And other workloads with the Ryzen 7 9850X3D? Complementing yesterday's Linux review of the Ryzen 7 9850X3D are ben</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/amd-ryzen-7-9850x3d-ddr5</guid>
+      <pubDate>Thu, 29 Jan 2026 17:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Working On Improved vCPU Scheduler Support For Hyper-V Linux VMs</title>
+      <link>https://www.phoronix.com/news/Hyper-V-Integrated-Scheduler</link>
+      <description>Microsoft posted a patch series for introducing Hyper-V integrated scheduler support into the Linux kernel for enhancing vCPU scheduling behavior for virtual machines running within Microsoft's virtualized environment...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Hyper-V-Integrated-Scheduler</guid>
+      <pubDate>Thu, 29 Jan 2026 22:47:31 +0000</pubDate>
     </item>
   </channel>
 </rss>
