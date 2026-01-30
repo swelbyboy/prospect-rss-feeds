@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 12:50:15 +0000</lastBuildDate>
-    <item>
-      <title>How to secure Vertex AI pipelines with Google Cloud tools</title>
-      <link>https://thenewstack.io/how-to-secure-vertex-ai-pipelines-with-google-cloud-tools/</link>
-      <description>AI models now power critical systems across many sectors. You’ll find them in healthcare, banking, cybersecurity, and defense. When you The post How to secure Vertex AI pipelines with Google Cloud tools appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/how-to-secure-vertex-ai-pipelines-with-google-cloud-tools/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/01/c33a23cd-security-1024x576.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 27 Jan 2026 17:00:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>The agentic revolution: A new vision for SREs</title>
-      <link>https://thenewstack.io/the-agentic-revolution-a-new-vision-for-sres/</link>
-      <description>Site reliability engineers (SREs) are no longer an afterthought for harried IT leaders. They play a critical role in ensuring The post The agentic revolution: A new vision for SREs appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/the-agentic-revolution-a-new-vision-for-sres/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/01/3301dbce-reliability-1024x628.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 27 Jan 2026 18:00:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Open Responses vs. Chat Completion: A new era for AI apps</title>
-      <link>https://thenewstack.io/open-responses-vs-chat-completion-a-new-era-for-ai-apps/</link>
-      <description>The ability to build portable, provider-agnostic AI applications is the future of agentic development. For the past few years, OpenAI’s The post Open Responses vs. Chat Completion: A new era for AI apps appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/open-responses-vs-chat-completion-a-new-era-for-ai-apps/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/01/ca55b7cd-paris-bilal-0q3kxf0jfju-unsplash-1024x576.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 27 Jan 2026 19:00:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Terraform challenger Formae expands to more clouds</title>
-      <link>https://thenewstack.io/terraform-competitor-formae-expands-to-more-clouds/</link>
-      <description>Late last year, startup Platform Engineering Labs made waves in the world of Infrastructure as Code (IaC) by introducing a new The post Terraform challenger Formae expands to more clouds appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/terraform-competitor-formae-expands-to-more-clouds/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2025/11/da4c886b-formae-1024x768.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 28 Jan 2026 14:00:23 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 30 Jan 2026 07:18:19 +0000</lastBuildDate>
     <item>
       <title>Agoda’s secret to 50x scale: Getting the database basics right</title>
       <link>https://thenewstack.io/agodas-secret-to-50x-scale-getting-the-database-basics-right/</link>
@@ -88,6 +56,38 @@
       <guid isPermaLink="false">https://thenewstack.io/mastra-empowers-web-devs-to-build-ai-agents-in-typescript/</guid>
       <enclosure url="https://cdn.thenewstack.io/media/2026/01/3fa411c9-building_ai_agents_mastra-1024x577.jpg" length="0" type="image/jpeg"/>
       <pubDate>Wed, 28 Jan 2026 19:00:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prompting vs. RAG vs. fine-tuning: Why it’s not a ladder</title>
+      <link>https://thenewstack.io/prompting-vs-rag-vs-fine-tuning-why-its-not-a-ladder/</link>
+      <description>Teams usually assume there’s a straightforward progression from prompt engineering through retrieval-augmented generation (RAG) to fine-tuning (the last rung on The post Prompting vs. RAG vs. fine-tuning: Why it’s not a ladder appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/prompting-vs-rag-vs-fine-tuning-why-its-not-a-ladder/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/01/817eb19f-hiking-1024x576.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 29 Jan 2026 18:00:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ramp’s Inspect shows closed-loop AI agents are software’s future</title>
+      <link>https://thenewstack.io/ramps-inspect-shows-closed-loop-ai-agents-are-softwares-future/</link>
+      <description>The recent release of the background coding agent Inspect by Ramp’s engineering team serves as a definitive proof point that The post Ramp’s Inspect shows closed-loop AI agents are software’s future appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/ramps-inspect-shows-closed-loop-ai-agents-are-softwares-future/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/01/bc097591-roller-coaster-1024x768.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 29 Jan 2026 19:00:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meet Gravitino, a geo-distributed, federated metadata lake</title>
+      <link>https://thenewstack.io/meet-gravitino-a-geo-distributed-federated-metadata-lake/</link>
+      <description>In the new world of agentic AI, the discussion has revolved around data: governance, storage, and compute. But what about The post Meet Gravitino, a geo-distributed, federated metadata lake appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/meet-gravitino-a-geo-distributed-federated-metadata-lake/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/01/25782e4b-thumbnail-40-1024x576.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 29 Jan 2026 19:25:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gemini CLI gets its hooks into the agentic development loop</title>
+      <link>https://thenewstack.io/gemini-cli-gets-its-hooks-into-the-agentic-development-loop/</link>
+      <description>Google has added hooks to Gemini CLI, its terminal-based competitor to Anthropic’s Claude Code. Hooks ensure that Gemini CLI runs The post Gemini CLI gets its hooks into the agentic development loop appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/gemini-cli-gets-its-hooks-into-the-agentic-development-loop/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/01/ad9da7b5-kaptured-by-kasia-fl3rf_t8dms-unsplash-1024x683.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 29 Jan 2026 19:42:24 +0000</pubDate>
     </item>
   </channel>
 </rss>

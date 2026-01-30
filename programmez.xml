@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 12:59:00 +0000</lastBuildDate>
-    <item>
-      <title>IntelliJ Scala Plugin : quelles évolutions en 2025 ?</title>
-      <link>https://www.programmez.com/actualites/intellij-scala-plugin-quelles-evolutions-en-2025-38933</link>
-      <description>JetBrains fait le point sur le plug Scala dans IntelliJ IDEA. La dernière version est la version 2025.3. En 2025, le plugin a introduit le support de Scala 3.x avec notamment les Named tuples, les types Opaque. Autre nouveauté : la nouvelle couche de modules, sbt, activée par défaut. Une des idées majeures est de mieux séparéer les modules de productions et les modules de tests. Autre évolution : le mode X-Ray. De multiples améliorations ont été faites sur l'affichage des appels, des paramètres.</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/intellij-scala-plugin-quelles-evolutions-en-2025-38933</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 27 Jan 2026 19:07:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>DevCon 27 I.A. &amp;amp; Vibe Coding édition 2026 : CPF est ouvert !</title>
-      <link>https://www.programmez.com/actualites/devcon-27-ia-vibe-coding-edition-2026-cpf-est-ouvert-38935</link>
-      <description>Le magazine Programmez! organise sa prochaine conférence DevCon le 28 mai au campus 42 Paris. 5h de conférence, 5 à 6 sessions.Le thème : - créer son IA local- les modèles de développements- sécurité &amp;amp; hallucinations - les protocoles et la notion d'agent- hardwareAudiences : les étudiants de l'école, les développeurs, CTO et tech load2 formats de sessions :- standard : 45 minutes- quickie : 20-25 minutesATTENTION : session en Français uniquement, les slides peuvent être en Anglais.L'appel à sess</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/devcon-27-ia-vibe-coding-edition-2026-cpf-est-ouvert-38935</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 28 Jan 2026 08:17:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenSilver 3.3 : intégration native entre XAML et Blazor</title>
-      <link>https://www.programmez.com/actualites/opensilver-33-integration-native-entre-xaml-et-blazor-38936</link>
-      <description>OpenSilver continue à évoluer. Ce successeur de Silverlight de Microsoft arrive en version 3.3. La principale nouveauté est une intégration native entre XAML et Blazor. "Les développeurs peuvent désormais intégrer des composants Blazor provenant de bibliothèques telles que DevExpress, Syncfusion, MudBlazor, Radzen et Blazorise directement dans des applications XAML, sans ponts JavaScript ni surcharge de performance." explique l'éditeur Userware.OpenSilver est un framework open-source qui exécute</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/opensilver-33-integration-native-entre-xaml-et-blazor-38936</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 28 Jan 2026 08:29:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>IONOS supporte Red Hat OpenShift</title>
-      <link>https://www.programmez.com/actualites/ionos-supporte-red-hat-openshift-38937</link>
-      <description>IONOS annonce aujourd'hui le support officiel de la plateforme OpenShift de Red Hat. "Avec la plateforme de conteneurs OpenShift, les partenaires d’IONOS disposent désormais d’une base puissante pour développer et exploiter des applications modernes. Red Hat OpenShift est la principale plateforme d’applications hybrides basée sur Kubernetes, permettant l’approvisionnement et la mise à l’échelle automatisés des charges de travail conteneurisées. L’infrastructure cloud éprouvée d’IONOS offre stabi</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/ionos-supporte-red-hat-openshift-38937</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 28 Jan 2026 10:03:10 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 30 Jan 2026 07:26:03 +0000</lastBuildDate>
     <item>
       <title>GitLab Meetup France : GitLab Pages et la version 18.9, rendez-vous le 24 février</title>
       <link>https://www.programmez.com/actualites/gitlab-meetup-france-gitlab-pages-et-la-version-189-rendez-vous-le-24-fevrier-38939</link>
@@ -88,6 +56,38 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/4g-base-station-mchobby-propose-une-carte-4g-complete-avec-pi-pico-2-38944</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
       <pubDate>Thu, 29 Jan 2026 11:06:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sera : Allen Institute for AI se lance dans les agents de codage</title>
+      <link>https://www.programmez.com/actualites/sera-allen-institute-ai-se-lance-dans-les-agents-de-codage-38945</link>
+      <description>Allen Institute for AI (Ai2), Allen en référence au co-fondateur de Microsoft, se lance dans les agents de codage avec Sera. Sera signifie software verified efficient repository agents). A2i annonce plusieurs modèles de codage ouverts, créés pour le code. Ils sont là pour générer le code, faire le debug, maintenir et expliquer le code. Ai2 précise que les modèles fermés n'ont pas une vue sur votre code interne. Ces modèles savent uniquement que vous autorisez. "L'entraînement sur vos données pri</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/sera-allen-institute-ai-se-lance-dans-les-agents-de-codage-38945</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/ai2.png?itok=wBMgyN8Y" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 29 Jan 2026 13:51:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apache gRPC : vulnérabilité critique découverte</title>
+      <link>https://www.programmez.com/actualites/apache-grpc-vulnerabilite-critique-decouverte-38946</link>
+      <description>Les experts de CyberArk dévoilent les détails d'une grave vulnérabilité dans Apache gRPC : la CVE-2025-60021. Elle permet de faire une injection de commandes dans le profileur heap d'Apache gRPC. gRPC est une librairie open source en C++ pour intégrer des services RPC. La faille permet d'exposer des données, des éléments de la mémoire ou encore des détails sur le runtime sur une URL HTTP. Le problème vient de la mauvaise validation du heap profiler dans le service /pprof/heap. A partir de cette</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/apache-grpc-vulnerabilite-critique-decouverte-38946</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 14:12:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Laraval Boost revient en version 2.0</title>
+      <link>https://www.programmez.com/actualites/laraval-boost-revient-en-version-20-38947</link>
+      <description>Boots permet d'accroître son expérience de développement Laravel en assistant le développeur. Boost intègre 15 outils pour scanner le code, configuration les projets, avoir les schémas des bases données, mieux suivre les erreurs, etc. La v2.0 permet à Boost de mieux comprendre le contexte du projet pour trouver les règles et codes inutiles. Jusqu'à présent, il s'appuyait sur un ensemble de bonnes pratiques pour générer un fichier .md pour les assistants IA. La v2 introduit la notion de skills. C</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/laraval-boost-revient-en-version-20-38947</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Thu, 29 Jan 2026 16:10:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>PHP : où trouver la liste des timezones ?</title>
+      <link>https://www.programmez.com/actualites/php-ou-trouver-la-liste-des-timezones-38948</link>
+      <description>Timezone (fusion horaire) est parfois une source d'erreurs. Il y a quelques années, l'erreur "It is not safe to rely on the system's timezone settings" pouvait apparaître suite à une mise à jour de la stack. Cette erreur provenait de l'absence de la configuration date.timezone dans php.ini, ou d'une configuration non conforme. Plus récemment, avec l'usage par défaut de UTC (à partir de PHP 8.2) et non du fusion horaire du serveur, des erreurs pouvaient apparaître suite aux mises à jour de PHP. P</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/php-ou-trouver-la-liste-des-timezones-38948</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Fri, 30 Jan 2026 06:51:56 +0000</pubDate>
     </item>
   </channel>
 </rss>

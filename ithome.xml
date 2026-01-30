@@ -8,81 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 12:28:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 30 Jan 2026 06:56:53 +0000</lastBuildDate>
     <item>
-      <title>竊資軟體Amatera Stealer透過Click-Fix網釣散布，濫用App-V元件迴避偵測</title>
-      <link>https://www.ithome.com.tw/news/173653</link>
-      <description>新聞最近幾年極為氾濫的網釣攻擊手法ClickFix，已經衍生出多種變形版本，例如誘導使用者操作流程都在瀏覽器進行的FileFix、製造電腦必須進行安全更新假象的JackFix、結合OAuth身分驗證流程的ConsentFix，以及讓瀏覽器看起來像當掉的CrashFix與GlitchFix，現在有人結合Windows內建的公用程式，讓惡意指令執行更加不受阻礙。 資安公司Blackpoint Cyber近日揭露最新一波ClickFix網釣攻擊手法，駭客透過偽造CAPTCHA圖靈驗證網頁，引導使用者主動執行系統指令，進而在電腦植入竊資軟體Amatera Stealer，其攻擊鏈設計與常見手法不同，關鍵差異在於濫用App‑V元件作為中繼節點，以迴避端點防護與行為型偵測機制。 這起事件的攻擊鏈起點是看似正常的CAPTCHA驗證頁面，內容聲稱需要進行圖靈驗證或修復瀏覽器異常，要求使用者依照指示操作，然而若是照做，他們的電腦就會被植入竊資軟體。與多數ClickFix攻擊鏈直接呼叫PowerShell或CMD不同，這次攻擊者在初始階段改以Windows內建、具有合法簽章的SyncAppvPublish</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173653</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/app-v-png.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 29 Jan 2026 04:08:37 +0000</pubDate>
+      <title>雲端惡意框架VoidLink透過C2即時編譯，廣泛對多種版本Linux核心的環境發動攻擊</title>
+      <link>https://www.ithome.com.tw/news/173673</link>
+      <description>新聞本月上旬資安公司Check Point揭露惡意程式框架VoidLink，駭客以現代系統程式語言Zig開發，具備完整的C2功能，並擁有惡意程式載入工具、部署工具、Rootkit等多達37個外掛模組，其最大特色在於能自動識別主要的雲端服務平臺，偵測是否在Docker容器或Kubernetes叢集環境執行，並根據環境動態調整行為，後續有其他資安公司解析其二進位檔案，公布該惡意程式極為不同的運作方式。 資安公司Sysdig指出，VoidLink最具突破性的特徵，在於採用了「伺服器端編譯Rootkit」機制。一般而言，傳統Linux核心模組Rootkit採用可載入核心模組（Loadable Kernel Modules，LKM），必須針對特定Linux核心版本編譯，才能正常載入及運作，因此，攻擊的範圍會局限在執行特定核心版本的Linux主機，而VoidLink的C2伺服器會根據受害主機回傳的核心版本與設定，即時編譯相容的核心Rootkit後再傳送到受害主機，大幅提高在不同環境中的成功率與隱匿性。Sysdig將此技術稱為Serverside Rootkit Compilation（SRC），並</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173673</guid>
+      <pubDate>Fri, 30 Jan 2026 02:33:04 +0000</pubDate>
     </item>
     <item>
-      <title>針對波蘭電網遭到攻擊有新的調查結果，駭客鎖定分散式能源下手</title>
-      <link>https://www.ithome.com.tw/news/173655</link>
-      <description>新聞波蘭指出該國電力系統於12月的最後一週，遭遇近幾年最大規模的網路攻擊，意圖打亂再生能源設施與配電營運公司之間的通訊，但並未得逞。後續資安公司ESET公布這起事故是俄羅斯駭客Sandworm所為，駭客在去年12月29日使用名為DynoWiper的資料破壞軟體（Wiper）從事活動，現在有其他資安公司揭露更多細節。 專精於工控領域的資安業者Dragos發布調查報告，指出這場攻擊活動是與Sandworm有關的另一個組織Electrum發起。這起攻擊活動的目標，並非傳統的大型發電廠，而是鎖定波蘭境內的分散式能源資源（Distributed Energy Resources，DER），標誌著網路攻擊戰術正隨著全球能源轉型而出現重大轉向。 針對這起事故的影響範圍，Dragos指出，攻擊者成功入侵了至少12個設施，受害環境包括熱電共生（Combined Heat and Power，CHP）設施、風力發電場，以及太陽能發電場。攻擊者不僅禁用重要通訊控制設備，甚至部署惡意軟體對硬體進行破壞，導致部分遠端終端單元（RTU）永久損壞（Bricking），無法透過遠端修復。 為何駭客看上分散式能源資源？</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173655</guid>
-      <pubDate>Thu, 29 Jan 2026 04:59:08 +0000</pubDate>
+      <title>雲端電動滑板車BLE設計存風險，預設金鑰恐解鎖所有車輛</title>
+      <link>https://www.ithome.com.tw/news/173671</link>
+      <description>新聞一名資安研究人員近日揭露，一款雲端連線電動滑板車在低功耗藍牙（Bluetooth Low Energy，BLE）通訊設計上，存在嚴重安全缺陷，攻擊者可利用寫死在韌體與行動應用程式中的預設主控金鑰，直接解鎖並控制所有同型號車輛。由於該產品製造商已停止營運，相關漏洞至今仍無官方修補，突顯物聯網裝置在產品生命週期末期所面臨的資安風險。 預設金鑰未更換，所有設備共用同一把「鑰匙」 揭露此事的是愛沙尼亞資安研究人員Rasmus Moorats，他在部落格中分享自己對電動滑板車進行逆向工程的過程。研究對象為主打雲端管理與手機App解鎖的電動滑板車品牌Äike，其設計透過BLE與手機App通訊，執行解鎖、上鎖等控制指令。 Moorats在分析Android版App後發現，應用程式內嵌了一組用於BLE驗證的主控金鑰（master key），且該金鑰並非每臺裝置唯一，而是所有車輛共用同一組預設值。他進一步比對BLE通訊流程後確認，只要取得這把金鑰，便能在藍牙範圍內直接向車輛下達控制指令，完全不需要登入雲端帳號或通過額外驗證。 從App逆向到PoC，數分鐘即可重現攻擊 技術分析顯示，研究人員先將And</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173671</guid>
+      <pubDate>Fri, 30 Jan 2026 02:45:48 +0000</pubDate>
     </item>
     <item>
-      <title>英國政府要求Google允許出版商退出AI Overviews索引以免被竊走流量</title>
-      <link>https://www.ithome.com.tw/news/173657</link>
-      <description>新聞英國監管機關競爭與市場管理署（Competition and Markets Authority，CMA）昨（1/29）日提出管制措施草案，要求Google搜尋提供選擇以確保市場自由競爭，包括允許出版商退出（opt-out）AI Overviews的顯示方式。 Google推出的AI Overviews匯整了多家網頁內容於搜尋結果頁最上方，讓查詢用者更快獲取答案而不需點入網頁。然而這也大幅減少Google導向各網站的流量，嚴重傷害依賴流量及廣告營收的內容出版商。 由於Google據有英國一般性搜尋流量的超過90%，2025年10月CMA認定Google在搜尋服務具有策略性市場地位（strategic market status，SMS）。這使用CMA得以根據法律導入干預措施以確保市場自由競爭。最新草案即干預措施的一環。CMA本周將草案公布並開放各方意見直到2月25日。 本草案包括出版商控制、公平排序、選擇性視窗及資料可攜性。首先，英國政府要求Google允許出版商可控制其內容退出AI Overviews等AI服務，或是用於訓練AI模型。CMA也要求Google提出可行步驟使AI回應</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173657</guid>
-      <pubDate>Thu, 29 Jan 2026 05:30:16 +0000</pubDate>
+      <title>Google領軍查緝全球最大住宅型代理網路IPIDEA</title>
+      <link>https://www.ithome.com.tw/news/173679</link>
+      <description>新聞Google威脅情報小組（Google Threat Intelligence Group，GTIG）昨日（1/29）宣布協同合作夥伴，查緝了曾助長Aisuru/Kimwolf殭屍網路、全球最大住宅型代理網路（Residential proxy network）IPIDEA。 住宅型代理網路是透過軟體及網路協定，將眾多家用電腦、手機或物聯網裝置串聯，這些裝置在使用者同意下分享頻寬成一個IP池（pool），並可由單一住宅IP擔任對外出口。經由這個網路連出去的流量，從外部看來是該住宅IP的流量。 住宅型代理網路的流量行為模式像真人，可作為網站可用性、市場或廣告研究等合法用途，但一旦被濫用，可被用來刷票、繞過地區限制或隱匿攻擊流量來源等灰色或不法用途。 Google說明，IPIDEA的代理基礎架構是數位生態系中鮮為人知的一環，廣為各種不法人士使用。其基礎架構原理是在家用裝置如電腦、手機或路由器等植入惡意軟體使其變成代理節點，用戶對頻寬被分享出去以及被當成代理（proxy）並不知情。 Google威脅情報小組說明，這次行動包含三個部分。一為透過法律途徑封鎖用以控制家用裝置及控制流量的網域，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173679</guid>
+      <pubDate>Fri, 30 Jan 2026 03:58:08 +0000</pubDate>
     </item>
     <item>
-      <title>微軟財報出爐，Microsoft Cloud成長26%</title>
-      <link>https://www.ithome.com.tw/news/173659</link>
-      <description>新聞微軟周三（1/28）公布截至2025年12月31日的2026財年第二季財報，該季微軟創下813億美元的營收，年增17%。在一般公認會計原則（GAAP）下，微軟淨收入為385億美元，年增60%；若排除對OpenAI投資帶來的影響，非GAAP淨收入為309億美元，年增23%。財報公布後，微軟盤後股價下滑5.66%，跌至454.36美元。 從各部門營收來看，包括Microsoft 365、LinkedIn與Dynamics的生產力與業務流程（Productivity and Business Processes）締造341億美元營收，年增16%；涵蓋伺服器產品與雲端服務的智慧雲端（Intelligent Cloud）營收為329億美元，年增29%；更多個人運算（More Personal Computing）營收為143億美元，年減3%。 至於所有以雲端、訂閱或用量計費方式交付的Microsoft Cloud，該季營收達515億美元，年增26%。該類別的商業剩餘履約義務（Commercial Remaining Performance Obligation，RPO）年增110%，達6,2</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173659</guid>
-      <pubDate>Thu, 29 Jan 2026 06:04:14 +0000</pubDate>
+      <title>Google修補Chrome高風險漏洞，Background Fetch API存在實作問題</title>
+      <link>https://www.ithome.com.tw/news/173677</link>
+      <description>新聞Google修補Chrome一項高風險資安漏洞CVE-2026-1504，涉及Background Fetch API的不當實作，可能在特定情境下，影響瀏覽器既有的安全檢查機制。 本次修補機制已透過Chrome穩定版本發布頻道，於1月27日推出，Windows與Mac版本升級至144.0.7559.109／.110，Linux則為144.0.7559.109。 根據Google說明，該漏洞屬於API層級的實作問題，可能導致背景下載流程在特定條件的情境中，出現邏輯錯誤，進而影響原本應受限制的存取與驗證機制。 Background Fetch API用於支援長時間下載任務，即使使用者關閉分頁或瀏覽器未維持前景狀態，下載仍可持續進行。相關機制涉及權限與下載狀態控管，若實作不當，可能成為攻擊者繞過瀏覽器安全模型的切入點。 此漏洞由安全研究人員Luan Herrera於1月9日通報，Google已依漏洞獎勵計畫提供3,000美元獎金。官方表示，在多數使用者完成更新前，將暫時限制公開漏洞的技術細節。 Google建議使用者透過Chrome內建的「關於Chrome」功能檢查並安裝最新版本，完成更</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173677</guid>
+      <pubDate>Fri, 30 Jan 2026 04:10:07 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】1月29日，波蘭電力基礎設施遭遇攻擊，傳出是俄羅斯駭客所為</title>
-      <link>https://www.ithome.com.tw/news/173656</link>
-      <description>新聞俄羅斯國家級駭客Sandworm鎖定波蘭電力產業，利用惡意軟體DynoWiper抹除資料 1月23日資安公司ESET表示，去年底波蘭能源系統遭到大規模網路攻擊，根據他們的調查結果，這起事故發生在12月29日，其特徵與Sandworm過往發動的資料破壞攻擊高度重疊，因此研判應該是這些俄羅斯駭客所為。這次駭客使用的資料破壞軟體（Wiper），ESET命名為DynoWiper。對於整起事故發生的完整過程，該公司表示尚在進一步調查當中，不過，目前尚未出現災情。 針對駭客的動機，很可能是Sandworm鎖定能源設施發動攻擊正好滿10週年。2015年12月，該組織攻擊烏克蘭電網，使用惡意軟體BlackEnergy入侵變電站重要系統，導致約有70萬人停電數小時，而這是首度電力系統因惡意軟體攻擊造成的停擺的事故。 針對波蘭電網遭到攻擊有新的調查結果，駭客鎖定分散式能源下手 波蘭指出該國電力系統於12月的最後一週，遭遇近幾年最大規模的網路攻擊，意圖打亂再生能源設施與配電營運公司之間的通訊，但並未得逞。專精於工控領域的資安業者Dragos發布調查報告，指出這場攻擊活動是與Sandworm有關的另一個組</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173656</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/RSYtYwtFIw.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 06:11:24 +0000</pubDate>
+      <title>AI趨勢周報第284期：Google DeepMind給出多語言模型的最佳擴展法則</title>
+      <link>https://www.ithome.com.tw/news/173680</link>
+      <description>新聞重點新聞（0123～0129） ATLAS 擴展法則 Google DeepMind Google DeepMind給出多語言模型的最佳擴展法則 Google DeepMind最近提出一套新訓練法則ATLAS（Adaptive Transfer Scaling Laws），專門解決一個老問題：多語言模型越練越大，但效果常常不如預期。進一步來說，過去大家熟悉的擴展法則（Scaling laws），幾乎都是在「只訓練英文」的情況下推導出來的。一旦模型要同時支援幾十、幾百種語言，原本的經驗法則就不太管用。 ATLAS實際跑了774次受控訓練實驗，模型大小從1,000萬到80億參數不等，涵蓋了400多種語言訓練，而團隊評估了48種目標語言的表現。他們發現，語系或書寫系統相近的語言一起訓練，最容易加分，例如西班牙文、葡萄牙文、義大利文一起訓練，效果通常比亂混更好。 這項研究也量化了常被提到的「多語言詛咒」。結論是，語言變多確實會佔用模型容量，但影響沒那麼可怕：如果支援的語言數量翻倍，只要把模型放大約1.18倍、資料量增加1.66倍，就能維持效能。團隊也在ATLAS給出建議，算力資源不夠時，先</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173680</guid>
+      <enclosure url="https://storage.googleapis.com/gweb-research2023-media/images/ATLAS-2.width-1250.png" length="0" type="image/png"/>
+      <pubDate>Fri, 30 Jan 2026 04:17:35 +0000</pubDate>
     </item>
     <item>
-      <title>Chrome導入Auto Browse，AI開始接手瀏覽器操作</title>
-      <link>https://www.ithome.com.tw/news/173660</link>
-      <description>新聞Google於周三（1/28）更新Chrome的AI能力，讓Gemini可常駐於瀏覽器側邊欄，並可隨分頁切換即時更新理解脈絡。另也推出代理式瀏覽功能Auto Browse，允許Gemini於使用者授權下，代為執行多步驟的網頁操作，如開啟分頁、搜尋資訊與填寫線上表單等。 更新後的Chrome將Gemini整合進瀏覽器側邊欄，並作為主要操作入口。使用者在瀏覽任何分頁時，無需另開視窗或離開當前頁面，即可呼叫Gemini協助彙整資訊、比較不同網站內容，或整理行事曆與行程。 此外，Google將創意模型Nano Banana直接內建於瀏覽器中。用戶只需在側邊欄輸入指令，即可對網頁上的影像進行即時轉換，例如將研究數據圖表化，或將室內設計圖片調整為不同風格，省去了下載與重複上傳的繁瑣步驟。 Chrome中的Gemini亦支援Connected Apps功能，可連結Gmail、日曆、YouTube、地圖及Google Flights。例如若使用者打算參加商務會議，Gemini即可自動檢索電子郵件中的行程詳情，結合Google Flights提供機票建議，並自動草擬通知同事抵達時間的信件。 此外，A</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173660</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0129-Gemini%20in%20Chrome-600.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 06:23:06 +0000</pubDate>
+      <title>工作流程自動化平臺n8n存在重大沙箱繞過漏洞，通過身分驗證的攻擊者有機會接管系統</title>
+      <link>https://www.ithome.com.tw/news/173678</link>
+      <description>新聞能串接多種應用程式與服務，讓用戶無須程式碼就能建立自動化流程的工作流程自動化平臺n8n，由於隨著AI與自動化應用普及，逐漸成為企業與技術團隊常用的整合工具而竄紅，若是這類平臺存在弱點，攻擊者不僅可能趁機打亂或竄改流程，甚至從事網路攻擊，近期不斷有極為嚴重的漏洞揭露，而成為外界關注的焦點。 資安公司JFrog指出，他們近期在n8n的沙箱機制Abstract Syntax Tree（AST）當中，發現兩個資安漏洞：CVE-2026-1470與CVE-2026-0863，它們存在於表達式評估引擎和Python程式碼節點，其中又以風險達到重大層級的CVE-2026-1470，特別危險。JFrog指出，對於動態及高階語言（如JavaScript和Python）提供防護的沙箱機制而言，這些漏洞的存在，意味著須設法克服嚴峻的挑戰，即使AST具備多層驗證、封鎖列表，以及管制能力，攻擊者還是有機會透過程式語言的特性，或是執行環境（Runtime）的行為，繞過資安防護措施。 這些漏洞為何會形成？以CVE-2026-1470為例，它是沙箱繞過漏洞，起因是AST在限制危險語法的功能實作上，對於JavaSc</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173678</guid>
+      <pubDate>Fri, 30 Jan 2026 04:19:39 +0000</pubDate>
     </item>
     <item>
-      <title>Amazon延續去官僚化策略，裁減約1.6萬個職位</title>
-      <link>https://www.ithome.com.tw/news/173661</link>
-      <description>新聞Amazon周三（1/28）宣布進一步進行組織調整，將裁減約1.6萬個職位，主要影響企業與科技相關團隊。這是該公司自去年10月裁撤約1.4萬名企業員工後，延續同一輪組織瘦身與去官僚化改革的後續行動。 Amazon人員體驗與科技資深副總裁Beth Galetti在內部信中指出，此次調整並非新一波突發性裁員，而是部分團隊尚未於去年10月完成組織重整，如今才完成相關工作。整體改革目標仍是減少管理層級、提升責任歸屬，並移除影響決策速度與創新的官僚流程。 Amazon強調，這並不代表公司將進入「定期裁員」的新節奏。Galetti表示，各團隊仍會持續評估是否具備足夠速度與能力為客戶創新，並在必要時進行調整，但並非每隔數月就進行全面裁撤。 若將時間拉長觀察，這波人力調整與Amazon近年大舉投入生成式AI與代理人技術密切相關。去年6月，Amazon執行長Andy Jassy即曾在內部信中直言，隨著生成式AI與代理人在公司內部廣泛應用，未來將需要更少的人來做目前的工作，但同時也需要更多人投入不同類型的職務。 根據外媒統計，Amazon自2022年至2023年間已裁撤超過2.7萬人，去年10月與今年</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173661</guid>
-      <pubDate>Thu, 29 Jan 2026 07:02:25 +0000</pubDate>
+      <title>傳聞馬斯克有意合併SpaceX與xAI</title>
+      <link>https://www.ithome.com.tw/news/173681</link>
+      <description>新聞路透社（Reuters）本周引述消息來源指出，馬斯克（Elon Musk）有意讓旗下的SpaceX與xAI合併，以讓SpaceX同時擁有火箭、Starlink衛星、AI聊天機器人Grok，以及社交平臺X。 根據報導，這兩家公司已分別在內華達州設立新的實體，可能是為了併購作準備。不過，不論是馬斯克、SpaceX或xAI都未回應路透社的詢問。 馬斯克於2023年創立的xAI是家AI公司，已推出Grok聊天機器人，在2025年3月買下了同樣屬於馬斯克麾下的X社交平臺，當時合併後的新公司價值1,130億美元。 xAI或許是為了資料量才整合X。而日前馬斯克在世界經濟論壇（World Economic Forum）上表示，他認為AI部署的根本限制為電力，因此SpaceX的計畫之一就是在幾年內發射具備太陽能發電能力的衛星，為部署於太空中的AI資料中心提供穩定能源來源，且太空亦具備更有利的散熱條件，理論上可降低長期運算及冷卻成本。 若將xAI併入SpaceX體系，等同於把AI模型、運算需求與發射、能源及通訊能力納入同一個垂直整合架構之中，形成馬斯克所構想的下一代AI基礎設施。 目前SpaceX的估</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173681</guid>
+      <pubDate>Fri, 30 Jan 2026 04:23:19 +0000</pubDate>
     </item>
     <item>
-      <title>專攻低、中密度無線網路部署需求，思科推新款Wi-Fi 7基地臺</title>
-      <link>https://www.ithome.com.tw/review/173621</link>
-      <description>思科這幾年陸續推出多款Wi-Fi 7基地臺，我們曾介紹9176系列、9178系列，以及9172系列，現在來看看去年11月登場的CW9171I與CW9174系列，它們是在Cisco Partner Summit大會發表的產品，並且搭配鎖定中小型環境應用需求的無線網路控制器CW9800L，支援低密度與中密度的無線網路部署，提供高吞吐量、低延遲度，以及智慧型管理機制，而且能順暢地擴充網路建置規模，預計於2025年第四季開放預訂。一個月後，思科也正式公開上述兩款基地臺的細部技術規格。 以9171系列而言，提供1個2.5GbE埠與入門級的新世代無線網路建置能力，Wi-Fi通訊支援雙頻三波段（2.4 GHz與5GHz或6 GHz），匯集傳輸效能最大可達6120 Mbps，特色是能針對Wi-Fi 7提供彈性、便於使用、安全，以及完整效能，而不需要耗費大量成本，或設置高密度基礎設施而產生架構複雜的問題。 基本上，這批機型適用於低密度環境，像是零售店面空間、精品酒店、醫療診所、遠端工作中心、教室、學生宿舍，衛星辦公室、區域分支機構、物流樞紐等分散式企業據點，以及小型至中型企業。 至於9174系列，內建1</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/173621</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/cisco_wireless_9174_main.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 29 Jan 2026 09:29:38 +0000</pubDate>
+      <title>富邦金內外並進守護資產，打造企業信任與防詐核心力</title>
+      <link>https://www.ithome.com.tw/people/173684</link>
+      <description>冬日清晨六點半，天色剛透出微光，延後到達的冷氣團，反倒替「2025臺北馬拉松」送來適合長跑的清爽早晨。起跑汽笛畫破空氣的瞬間，兩萬八千名跑者同時湧向賽道。 在這片流動的人海之中，富邦金控資安長蘇清偉以穩定的步頻前進，最終順利跑完馬拉松全程，成績落在參賽者中的中上段。對他而言，為馬拉松進行的跑步訓練是生活的日常；與駭客長期對峙，更是他工作中不曾停歇的日常。 與多數出身純技術背景或企業機房的資安長不同，蘇清偉人生前半段，是在臺灣警界最前線度過，長年遊走於犯罪現場與數位證據之間。 這段歷練，讓他對攻擊者的行為模式與戰術技術流程（TTPs）有著近乎本能的敏銳度，也培養出屬於第一線指揮官的冷靜與果斷。 他從警界退休繼而轉戰金融業後，這股「警魂」則被蘇清偉移植到金融資安的戰場。這種從實戰中淬鍊出的「即時應變」DNA，讓蘇清偉在面對駭客威脅時，始終保持高度警戒。 他以「步步為營、如履薄冰」形容自己對資安工作的態度；更隨時提醒自己：科技會進步，工具會更新，但人性與犯罪動機並不會改變。對他而言，看懂技術只是基本功，更重要的是看懂對手、看懂風險，以及在關鍵時刻，做出不容遲疑的判斷。 從基層科技警察到資安長</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/people/173684</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0130-CISO-600.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 30 Jan 2026 05:59:27 +0000</pubDate>
     </item>
     <item>
-      <title>Nvidia CUDA Toolkit曝4項高風險漏洞，恐影響支援輝達GPU加速的應用系統運作</title>
-      <link>https://www.ithome.com.tw/news/173665</link>
-      <description>新聞晶片大廠Nvidia於1月20日發布安全公告，指出旗下GPU運算開發工具CUDA Toolkit存在4項資安漏洞，編號為CVE-2025-33228、CVE-2025-33229、CVE-2025-33230及CVE-2025-33231。相關漏洞涉及作業系統指令注入與不安全搜尋路徑設計，在特定條件下，可能被攻擊者濫用以執行任意程式碼或造成服務中斷。 CUDA Toolkit是Nvidia提供的GPU平行運算與加速開發套件，廣泛應用於AI模型訓練、資料分析與科學計算。Nvidia在公告中指出，相關漏洞影響Windows與Linux平臺使用的CUDA Toolkit，且主要出現在套件所包含的效能分析工具Nsight Systems元件。 漏洞性質與可能影響 Nvidia指出，其中CVE-2025-33228與CVE-2025-33230屬作業系統指令注入漏洞，CVSS風險分數均為7.3，風險等級為高。攻擊者若能在受影響系統上觸發漏洞，可能執行未經授權的系統指令，導致程式異常終止、資料外洩，或引發阻斷服務（DoS）。 CVE-2025-33229同樣被評為高風險，CVSS風險分數為7.</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173665</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0129-NVIDIA%20CUDA%20Toolkit.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 10:39:06 +0000</pubDate>
+      <title>【資安日報】1月30日，駭客要求AI根據開發流程打造功能複雜的惡意程式</title>
+      <link>https://www.ithome.com.tw/news/173683</link>
+      <description>新聞雲端惡意軟體框架VoidLink疑似以AI生成，具開發能力的駭客要求AI根據開發流程，打造近9萬行程式碼的複雜惡意程式 1月13日資安公司Check Point揭露雲端惡意軟體框架VoidLink，事隔數日，他們又公布新的調查結果，指出此惡意軟體是由大型語言模型（LLM）高度參與生成的完整惡意軟體架構，標誌著AI生成威脅已從簡單的編寫指令碼，演進到能開發複雜的攻擊工具，而VoidLink背後參與開發的駭客，實際上可能只有一人。 有別於其他缺乏開發能力的駭客，利用AI生成惡意程式，成品多半是模仿能公開取得的惡意軟體，VoidLink是本身具備開發經驗的駭客所為，而且，他不光直接利用AI生成程式碼，還要求AI根據規格取向的開發方法（Spec-Driven Development，SDD），先規畫結構化的多團隊開發流程，包含工作排程、成品規格，以及預期的交付成果，然後模型根據這些安排打造惡意軟體，並進行迭代更新與測試。 雲端惡意框架VoidLink透過C2即時編譯，廣泛對多種版本Linux核心的環境發動攻擊 資安公司Sysdig取得雲端惡意軟體框架VoidLink二進位檔案進行解析，指出</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173683</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/Void-Link-AI.png" length="0" type="image/png"/>
+      <pubDate>Fri, 30 Jan 2026 06:18:04 +0000</pubDate>
     </item>
     <item>
-      <title>Dormakaba Exos 9300門禁系統爆20項CVE漏洞，攻擊者入侵內網可任意開門</title>
-      <link>https://www.ithome.com.tw/news/173667</link>
-      <description>新聞資安顧問公司SEC Consult揭露，瑞士門禁與鎖具廠Dormakaba旗下企業級實體存取控制系統Kaba Exos 9300，存在超過20項弱點，其中20項已取得CVE編號。研究團隊指出，這套系統被不少歐洲大型企業場域採用，如工業與服務業、物流、能源供應商與機場營運單位，攻擊者要是能先取得目標環境的網路或存取硬體，便可能透過多條路徑開啟任意門禁，或在未經事前授權下重設控制器與周邊設定。 Dormakaba表示已提供修補程式與強化指引，並稱受影響客戶雖達數千家，但屬高安全需求環境者僅占少數。 研究人員說明，exos 9300屬於集中式門禁管理軟體，常部署在Windows伺服器，系統資料主要存放在MSSQL資料庫，並透過網路把設定下發到現場的Access Manager門禁控制器，再與門邊的註冊裝置（Registration Unit）讀卡器與PIN Pad等周邊協同運作。SEC Consult揭露的弱點橫跨管理伺服器、控制器韌體與註冊裝置硬體，要是通訊保護與身分驗證設計不足，就可能讓入侵從網路一路延伸到實體出入口。 就弱點類型而言，包含預設缺乏身分驗證的管理介面、硬編碼帳密與金鑰</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173667</guid>
-      <pubDate>Thu, 29 Jan 2026 11:29:36 +0000</pubDate>
+      <title>網路犯罪聯盟Scattered Lapsus$ Hunters企圖對超過100家企業發動大規模語音網釣</title>
+      <link>https://www.ithome.com.tw/news/173682</link>
+      <description>新聞日前身分驗證業者Okta提出警告，他們發現有人以租用服務形式提供客製化的網釣套件，駭客再以此攻擊Google、微軟、Okta，以及加密貨幣供應商的用戶，企圖竊取單一登入（SSO）的憑證，傳出攻擊者的身分是駭客組織ShinyHunters，後續有資安公司提出警告，他們發現最近一個月裡，這些駭客已打算對超過100家企業組織發動攻擊。 威脅情資公司Silent Push近日發布特殊資安警報，由Scattered Spider、Lapsus$，以及ShinyHunters三組人馬組成的網路犯罪聯盟Scattered Lapsus$ Hunters（SLSH），正對全球超過100家高價值企業發動大規模身分竊盜活動，鎖定Okta等單一登入平臺，透過高度互動的即時釣魚技術繞過多因素認證（MFA），恐對企業核心系統構成重大風險。 Silent Push指出，這波攻擊並非傳統的自動化網釣，而是由真人操控、具高度互動的語音釣魚（Vishing）行動。攻擊者會在受害者登入流程中即時介入，利用即時釣魚控制臺（Live Phishing Panel）攔截帳號密碼與多因素驗證碼，取得企業單一登入連線階段的控制</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173682</guid>
+      <pubDate>Fri, 30 Jan 2026 06:22:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
