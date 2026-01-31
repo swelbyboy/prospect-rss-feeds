@@ -8,65 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Jan 2026 06:56:53 +0000</lastBuildDate>
-    <item>
-      <title>雲端惡意框架VoidLink透過C2即時編譯，廣泛對多種版本Linux核心的環境發動攻擊</title>
-      <link>https://www.ithome.com.tw/news/173673</link>
-      <description>新聞本月上旬資安公司Check Point揭露惡意程式框架VoidLink，駭客以現代系統程式語言Zig開發，具備完整的C2功能，並擁有惡意程式載入工具、部署工具、Rootkit等多達37個外掛模組，其最大特色在於能自動識別主要的雲端服務平臺，偵測是否在Docker容器或Kubernetes叢集環境執行，並根據環境動態調整行為，後續有其他資安公司解析其二進位檔案，公布該惡意程式極為不同的運作方式。 資安公司Sysdig指出，VoidLink最具突破性的特徵，在於採用了「伺服器端編譯Rootkit」機制。一般而言，傳統Linux核心模組Rootkit採用可載入核心模組（Loadable Kernel Modules，LKM），必須針對特定Linux核心版本編譯，才能正常載入及運作，因此，攻擊的範圍會局限在執行特定核心版本的Linux主機，而VoidLink的C2伺服器會根據受害主機回傳的核心版本與設定，即時編譯相容的核心Rootkit後再傳送到受害主機，大幅提高在不同環境中的成功率與隱匿性。Sysdig將此技術稱為Serverside Rootkit Compilation（SRC），並</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173673</guid>
-      <pubDate>Fri, 30 Jan 2026 02:33:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>雲端電動滑板車BLE設計存風險，預設金鑰恐解鎖所有車輛</title>
-      <link>https://www.ithome.com.tw/news/173671</link>
-      <description>新聞一名資安研究人員近日揭露，一款雲端連線電動滑板車在低功耗藍牙（Bluetooth Low Energy，BLE）通訊設計上，存在嚴重安全缺陷，攻擊者可利用寫死在韌體與行動應用程式中的預設主控金鑰，直接解鎖並控制所有同型號車輛。由於該產品製造商已停止營運，相關漏洞至今仍無官方修補，突顯物聯網裝置在產品生命週期末期所面臨的資安風險。 預設金鑰未更換，所有設備共用同一把「鑰匙」 揭露此事的是愛沙尼亞資安研究人員Rasmus Moorats，他在部落格中分享自己對電動滑板車進行逆向工程的過程。研究對象為主打雲端管理與手機App解鎖的電動滑板車品牌Äike，其設計透過BLE與手機App通訊，執行解鎖、上鎖等控制指令。 Moorats在分析Android版App後發現，應用程式內嵌了一組用於BLE驗證的主控金鑰（master key），且該金鑰並非每臺裝置唯一，而是所有車輛共用同一組預設值。他進一步比對BLE通訊流程後確認，只要取得這把金鑰，便能在藍牙範圍內直接向車輛下達控制指令，完全不需要登入雲端帳號或通過額外驗證。 從App逆向到PoC，數分鐘即可重現攻擊 技術分析顯示，研究人員先將And</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173671</guid>
-      <pubDate>Fri, 30 Jan 2026 02:45:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google領軍查緝全球最大住宅型代理網路IPIDEA</title>
-      <link>https://www.ithome.com.tw/news/173679</link>
-      <description>新聞Google威脅情報小組（Google Threat Intelligence Group，GTIG）昨日（1/29）宣布協同合作夥伴，查緝了曾助長Aisuru/Kimwolf殭屍網路、全球最大住宅型代理網路（Residential proxy network）IPIDEA。 住宅型代理網路是透過軟體及網路協定，將眾多家用電腦、手機或物聯網裝置串聯，這些裝置在使用者同意下分享頻寬成一個IP池（pool），並可由單一住宅IP擔任對外出口。經由這個網路連出去的流量，從外部看來是該住宅IP的流量。 住宅型代理網路的流量行為模式像真人，可作為網站可用性、市場或廣告研究等合法用途，但一旦被濫用，可被用來刷票、繞過地區限制或隱匿攻擊流量來源等灰色或不法用途。 Google說明，IPIDEA的代理基礎架構是數位生態系中鮮為人知的一環，廣為各種不法人士使用。其基礎架構原理是在家用裝置如電腦、手機或路由器等植入惡意軟體使其變成代理節點，用戶對頻寬被分享出去以及被當成代理（proxy）並不知情。 Google威脅情報小組說明，這次行動包含三個部分。一為透過法律途徑封鎖用以控制家用裝置及控制流量的網域，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173679</guid>
-      <pubDate>Fri, 30 Jan 2026 03:58:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google修補Chrome高風險漏洞，Background Fetch API存在實作問題</title>
-      <link>https://www.ithome.com.tw/news/173677</link>
-      <description>新聞Google修補Chrome一項高風險資安漏洞CVE-2026-1504，涉及Background Fetch API的不當實作，可能在特定情境下，影響瀏覽器既有的安全檢查機制。 本次修補機制已透過Chrome穩定版本發布頻道，於1月27日推出，Windows與Mac版本升級至144.0.7559.109／.110，Linux則為144.0.7559.109。 根據Google說明，該漏洞屬於API層級的實作問題，可能導致背景下載流程在特定條件的情境中，出現邏輯錯誤，進而影響原本應受限制的存取與驗證機制。 Background Fetch API用於支援長時間下載任務，即使使用者關閉分頁或瀏覽器未維持前景狀態，下載仍可持續進行。相關機制涉及權限與下載狀態控管，若實作不當，可能成為攻擊者繞過瀏覽器安全模型的切入點。 此漏洞由安全研究人員Luan Herrera於1月9日通報，Google已依漏洞獎勵計畫提供3,000美元獎金。官方表示，在多數使用者完成更新前，將暫時限制公開漏洞的技術細節。 Google建議使用者透過Chrome內建的「關於Chrome」功能檢查並安裝最新版本，完成更</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173677</guid>
-      <pubDate>Fri, 30 Jan 2026 04:10:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI趨勢周報第284期：Google DeepMind給出多語言模型的最佳擴展法則</title>
-      <link>https://www.ithome.com.tw/news/173680</link>
-      <description>新聞重點新聞（0123～0129） ATLAS 擴展法則 Google DeepMind Google DeepMind給出多語言模型的最佳擴展法則 Google DeepMind最近提出一套新訓練法則ATLAS（Adaptive Transfer Scaling Laws），專門解決一個老問題：多語言模型越練越大，但效果常常不如預期。進一步來說，過去大家熟悉的擴展法則（Scaling laws），幾乎都是在「只訓練英文」的情況下推導出來的。一旦模型要同時支援幾十、幾百種語言，原本的經驗法則就不太管用。 ATLAS實際跑了774次受控訓練實驗，模型大小從1,000萬到80億參數不等，涵蓋了400多種語言訓練，而團隊評估了48種目標語言的表現。他們發現，語系或書寫系統相近的語言一起訓練，最容易加分，例如西班牙文、葡萄牙文、義大利文一起訓練，效果通常比亂混更好。 這項研究也量化了常被提到的「多語言詛咒」。結論是，語言變多確實會佔用模型容量，但影響沒那麼可怕：如果支援的語言數量翻倍，只要把模型放大約1.18倍、資料量增加1.66倍，就能維持效能。團隊也在ATLAS給出建議，算力資源不夠時，先</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173680</guid>
-      <enclosure url="https://storage.googleapis.com/gweb-research2023-media/images/ATLAS-2.width-1250.png" length="0" type="image/png"/>
-      <pubDate>Fri, 30 Jan 2026 04:17:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>工作流程自動化平臺n8n存在重大沙箱繞過漏洞，通過身分驗證的攻擊者有機會接管系統</title>
-      <link>https://www.ithome.com.tw/news/173678</link>
-      <description>新聞能串接多種應用程式與服務，讓用戶無須程式碼就能建立自動化流程的工作流程自動化平臺n8n，由於隨著AI與自動化應用普及，逐漸成為企業與技術團隊常用的整合工具而竄紅，若是這類平臺存在弱點，攻擊者不僅可能趁機打亂或竄改流程，甚至從事網路攻擊，近期不斷有極為嚴重的漏洞揭露，而成為外界關注的焦點。 資安公司JFrog指出，他們近期在n8n的沙箱機制Abstract Syntax Tree（AST）當中，發現兩個資安漏洞：CVE-2026-1470與CVE-2026-0863，它們存在於表達式評估引擎和Python程式碼節點，其中又以風險達到重大層級的CVE-2026-1470，特別危險。JFrog指出，對於動態及高階語言（如JavaScript和Python）提供防護的沙箱機制而言，這些漏洞的存在，意味著須設法克服嚴峻的挑戰，即使AST具備多層驗證、封鎖列表，以及管制能力，攻擊者還是有機會透過程式語言的特性，或是執行環境（Runtime）的行為，繞過資安防護措施。 這些漏洞為何會形成？以CVE-2026-1470為例，它是沙箱繞過漏洞，起因是AST在限制危險語法的功能實作上，對於JavaSc</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173678</guid>
-      <pubDate>Fri, 30 Jan 2026 04:19:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>傳聞馬斯克有意合併SpaceX與xAI</title>
-      <link>https://www.ithome.com.tw/news/173681</link>
-      <description>新聞路透社（Reuters）本周引述消息來源指出，馬斯克（Elon Musk）有意讓旗下的SpaceX與xAI合併，以讓SpaceX同時擁有火箭、Starlink衛星、AI聊天機器人Grok，以及社交平臺X。 根據報導，這兩家公司已分別在內華達州設立新的實體，可能是為了併購作準備。不過，不論是馬斯克、SpaceX或xAI都未回應路透社的詢問。 馬斯克於2023年創立的xAI是家AI公司，已推出Grok聊天機器人，在2025年3月買下了同樣屬於馬斯克麾下的X社交平臺，當時合併後的新公司價值1,130億美元。 xAI或許是為了資料量才整合X。而日前馬斯克在世界經濟論壇（World Economic Forum）上表示，他認為AI部署的根本限制為電力，因此SpaceX的計畫之一就是在幾年內發射具備太陽能發電能力的衛星，為部署於太空中的AI資料中心提供穩定能源來源，且太空亦具備更有利的散熱條件，理論上可降低長期運算及冷卻成本。 若將xAI併入SpaceX體系，等同於把AI模型、運算需求與發射、能源及通訊能力納入同一個垂直整合架構之中，形成馬斯克所構想的下一代AI基礎設施。 目前SpaceX的估</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173681</guid>
-      <pubDate>Fri, 30 Jan 2026 04:23:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>富邦金內外並進守護資產，打造企業信任與防詐核心力</title>
-      <link>https://www.ithome.com.tw/people/173684</link>
-      <description>冬日清晨六點半，天色剛透出微光，延後到達的冷氣團，反倒替「2025臺北馬拉松」送來適合長跑的清爽早晨。起跑汽笛畫破空氣的瞬間，兩萬八千名跑者同時湧向賽道。 在這片流動的人海之中，富邦金控資安長蘇清偉以穩定的步頻前進，最終順利跑完馬拉松全程，成績落在參賽者中的中上段。對他而言，為馬拉松進行的跑步訓練是生活的日常；與駭客長期對峙，更是他工作中不曾停歇的日常。 與多數出身純技術背景或企業機房的資安長不同，蘇清偉人生前半段，是在臺灣警界最前線度過，長年遊走於犯罪現場與數位證據之間。 這段歷練，讓他對攻擊者的行為模式與戰術技術流程（TTPs）有著近乎本能的敏銳度，也培養出屬於第一線指揮官的冷靜與果斷。 他從警界退休繼而轉戰金融業後，這股「警魂」則被蘇清偉移植到金融資安的戰場。這種從實戰中淬鍊出的「即時應變」DNA，讓蘇清偉在面對駭客威脅時，始終保持高度警戒。 他以「步步為營、如履薄冰」形容自己對資安工作的態度；更隨時提醒自己：科技會進步，工具會更新，但人性與犯罪動機並不會改變。對他而言，看懂技術只是基本功，更重要的是看懂對手、看懂風險，以及在關鍵時刻，做出不容遲疑的判斷。 從基層科技警察到資安長</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/people/173684</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0130-CISO-600.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 30 Jan 2026 05:59:27 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 31 Jan 2026 06:45:52 +0000</lastBuildDate>
     <item>
       <title>【資安日報】1月30日，駭客要求AI根據開發流程打造功能複雜的惡意程式</title>
       <link>https://www.ithome.com.tw/news/173683</link>
@@ -81,6 +23,65 @@
       <description>新聞日前身分驗證業者Okta提出警告，他們發現有人以租用服務形式提供客製化的網釣套件，駭客再以此攻擊Google、微軟、Okta，以及加密貨幣供應商的用戶，企圖竊取單一登入（SSO）的憑證，傳出攻擊者的身分是駭客組織ShinyHunters，後續有資安公司提出警告，他們發現最近一個月裡，這些駭客已打算對超過100家企業組織發動攻擊。 威脅情資公司Silent Push近日發布特殊資安警報，由Scattered Spider、Lapsus$，以及ShinyHunters三組人馬組成的網路犯罪聯盟Scattered Lapsus$ Hunters（SLSH），正對全球超過100家高價值企業發動大規模身分竊盜活動，鎖定Okta等單一登入平臺，透過高度互動的即時釣魚技術繞過多因素認證（MFA），恐對企業核心系統構成重大風險。 Silent Push指出，這波攻擊並非傳統的自動化網釣，而是由真人操控、具高度互動的語音釣魚（Vishing）行動。攻擊者會在受害者登入流程中即時介入，利用即時釣魚控制臺（Live Phishing Panel）攔截帳號密碼與多因素驗證碼，取得企業單一登入連線階段的控制</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173682</guid>
       <pubDate>Fri, 30 Jan 2026 06:22:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI原生架構的崛起</title>
+      <link>https://www.ithome.com.tw/article/173687</link>
+      <description>專題故事AI代理時代的挑戰，已經不只是如何打造一支AI代理，而是如何部署、維運、管理成千上萬，甚至是數十萬隻AI代理的IT架構，這也了雲原生生態系最好的新機會。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/article/173687</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1271-feng_mian_gu_shi_-p1-dou_zi_-open-960x420_kao_bei_0.jpg?itok=XJRIZokP" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 30 Jan 2026 07:08:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>蘋果20億美元收購AI語音技術新創Q.ai</title>
+      <link>https://www.ithome.com.tw/news/173688</link>
+      <description>新聞蘋果近日收購以色列開發AI語音技術新創開發業者Q.ai，可能用來強化穿戴產品的人機互動。投資金額可能達20億美元，為蘋果歷來第二大收購案。 路透社首先報導此事，也獲得蘋果方面的證實。蘋果硬體業務部門副總裁Johnny Srouji表示很高興收購這家業者，而對未來可能的開發更感興奮。 但蘋果未透露收購金額。路透社報導收購金額為16億美元，金融時報引述消息人士透露為20億美元金額，使本案成為僅次於2014年30億美元音訊消費電子業者（即耳機）Beats收購案的第二大收購案。 Q.ai創辦人Aviad Maizels之前創立過PrimeSense，並在2013年為蘋果收購。PrimeSense的臉部辨識技術最終整合到iPhone中。Maizels於2022年離開蘋果並創辦Q.ai。另二個創辦人分別是電腦視覺專家Yonatan Vexler及腦機互動專家Avi Barliya。 成立於以色列的Q.ai頗為低調，其主要研發標的是提升音訊溝通的機器學習系統。該公司的技術使裝置能夠理解呢喃低語，或強化吵雜環境中的人聲，以提升語音辨識與人機互動的準確度。這家業者有項專利可透過利用臉部肌肉細微動作及</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173688</guid>
+      <pubDate>Fri, 30 Jan 2026 07:19:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>蘋果營收成長16%，中國銷售增加38%</title>
+      <link>https://www.ithome.com.tw/news/173689</link>
+      <description>新聞蘋果周三（1/29）公布截至2025年12月27日的2026財年第一季財報，顯示該季營收達1,438億美元，年增16%，創下歷史新高；每股盈餘為2.84美元，年增19%，同樣刷新紀錄。 從產品線來看，iPhone仍是最大營收來源，該季營收達852.7億美元，年增23%，創歷史新高；服務事業營收為300.1億美元，年增14%，亦刷新單季紀錄。iPad營收為85.9億美元，年增6%；Mac營收為83.9億美元，較去年同期下滑7%。穿戴裝置、居家與配件（Wearables, Home and Accessories）營收為114.9億美元，年減2%，為該季唯一出現年減的產品類別。 以區域來看，蘋果在各主要市場均維持成長，其中大中華區表現最為亮眼，單季營收達255.3億美元，年增38%。美洲市場營收為585.3億美元，年增11%；歐洲營收為381.5億美元，年增13%；日本營收為94.1億美元，年增5%；亞太其他地區營收為121.4億美元，年增18%。 蘋果表示，iPhone在所有地理區域皆創下歷史新高，顯示高階裝置需求仍具韌性。 在AI布局上，蘋果相較其他美國大型科技業者步調相對保守。該</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173689</guid>
+      <pubDate>Fri, 30 Jan 2026 07:31:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>外傳OpenAI打算在今年第四季IPO</title>
+      <link>https://www.ithome.com.tw/news/173691</link>
+      <description>新聞華爾街日報（Wall Street Journal，WSJ）周四（1/29）引用消息來源報導，OpenAI計畫在今年第四季首度公開發行股票（IPO），希望能搶在Anthropic之前，以吸引市場資金。 同一天WSJ亦報導，OpenAI正在進行高達1,000億美元的融資活動，其中，Amazon有意投入500億美元。且新一輪的融資將讓OpenAI的估值，從5,000億美元提高至8,300億美元。 至於The Information則說，Nvidia、微軟與Amazon都有意參與OpenAI新一輪的融資。其中Nvidia及微軟都是OpenAI的既有股東。 儘管市場普遍認為AI估值已明顯偏高，甚至帶有泡沫化風險，但大型科技公司依然選擇持續加碼投入；這是因為AI已被視為下一個關鍵基礎設施，即使回收期不明、商業模型尚未完全成熟，企業仍不敢缺席。例如市場也傳出另一AI新創Anthropic近日原本只打算對外募資100億美元，結果超額募到了200億美元，顯示在高估值疑慮之下，資本與企業仍選擇押注AI的長期戰略地位，而非短期獲利能力。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173691</guid>
+      <pubDate>Fri, 30 Jan 2026 07:42:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>ShinyHunters疑似經由第三方平臺取得約會App開發商Match Group逾1000萬筆資料</title>
+      <link>https://www.ithome.com.tw/news/173692</link>
+      <description>新聞媒體發現勒索軟體駭客組織ShinyHunters在暗網論壇上公告藉由第三方平臺，取得約會App如Tinder、OkCupid的開發商Match Group用戶及員工資料超過1,000萬筆。 ShinyHunters貼文指出，它是經由AppsFlyer和數百份內部文件取得Hinge、Match與OkCupid等使用資料逾1,000萬筆。這些資料包含一個1.7GB壓縮檔。駭客同時公布資料樣本。AppsFlyer為行動行銷分析和歸因SaaS平臺。而Hinge、Match與OkCupid，連同受歡迎的Tinder都是由Match集團所開發。 駭客疑似取得Match Group客戶資料、部份員工資料和公司資訊，釋出的樣本包含列出Hinge App配對文件，約100筆配對成功者帳號資料如姓名、基本資料。此外還有Hinge訂閱用戶資料如使用者ID、交易ID、支付金額、以及封鎖Hinge用戶的IP及地點。 Match Group對媒體表示已得知可能的資料外洩，目前正在偕同外部專家著手調查。該公司表示目前沒有跡象顯示使用者登入憑證、財務資訊或私密通訊資訊外洩。此外他們相信只有很少數使用者資料受影響，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173692</guid>
+      <pubDate>Fri, 30 Jan 2026 08:07:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google推論框架LiteRT進階硬體加速上線，跨平臺GPU、NPU加速支援更完整</title>
+      <link>https://www.ithome.com.tw/news/173693</link>
+      <description>新聞Google更新裝置端推論框架LiteRT，宣布在Google I/O 2025預告的進階硬體加速能力，已正式納入LiteRT產品堆疊並對開發者開放。這次更新把GPU與NPU的加速流程補齊，其中GPU支援從I/O 2025當時先在Android導入的路徑，擴大到Android、iOS、macOS、Windows、Linux與Web，讓裝置端AI推論在行動端、桌面與網頁之間更一致。 LiteRT技術堆疊從TensorFlow Lite的基礎往前推進，過去TensorFlow Lite主要服務傳統機器學習推論，而LiteRT的定位則是接手新一代裝置端AI需求，包含更廣泛的硬體加速與跨平臺部署。 LiteRT的GPU加速支援範圍涵蓋Android、iOS、macOS、Windows、Linux與Web，並透過ML Drift這套下一代GPU引擎，串接OpenCL、OpenGL、Metal與WebGPU等後端。在Android裝置上，LiteRT會在可用時優先採用OpenCL以取得較高效能，必要時退回OpenGL，其他平臺則改以各自的GPU後端，例如macOS使用Metal，Windows</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173693</guid>
+      <pubDate>Fri, 30 Jan 2026 08:32:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>【專訪Istio關鍵人物：Nutanix雲原生副總裁暨總經理Dan Ciruli】從大規模微服務實踐，看AI原生代理的新挑戰</title>
+      <link>https://www.ithome.com.tw/news/173686</link>
+      <description>新聞在新的AI原生時代，最大的課題就是如何更優化大規模AI代理的運作。CNCF借鏡了不少原有的K8s和容器技術的發展方式，套用到AI工作負載上，要來支援大規模AI部署的需求。甚至CNCF技術長Chris Aniszczyk直接將AI代理比喻為新型態的微服務，他認為，要在正式環境中大規模執行AI代理，可以參照過去在正式環境中執行大規模微服務的做法，不只要能支援開發、執行，還要能管理、擴充、觀察和保護這些AI代理，可以將CNCF生態系的成果，應用到AI代理的場景中。 Nutanix雲原生副總裁暨總經理Dan Ciruli，他曾在Google擔任Service Mesh產品管理團隊的負責人，參與Istio專案和Anthos Service Mesh，也是Google在Istio指導委員會的代表之一。 Istio專案是用來在K8s上執行大規模微服務的服務網格重要開源專案，Dan Ciruli相當熟悉企業如何運作大規模微服務的挑戰和實踐。 AI工作負載帶來兩大新挑戰 Dan Ciruli認為，AI工作負載是一種專門的工作負載，與現有常見的IT工作負載，有幾點不同。 在技術層面的第一個不同是，調度</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173686</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1271-feng_mian_gu_shi_-p1-dou_zi_-open-960x420_kao_bei_0.jpg?itok=XJRIZokP" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 30 Jan 2026 10:00:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>【不只建造，更要部署、維運和管理成千上萬AI代理】十年雲原生浪潮的下一階段，AI原生時代的崛起</title>
+      <link>https://www.ithome.com.tw/news/173685</link>
+      <description>新聞「人工智慧正處於起步階段，類似雲原生的發展模式，從封閉選擇、單一供應商壟斷，正邁向更開放的選擇，技術競爭也將更加激烈！」CNCF組織技術長Chris Aniszczyk去年秋天來臺參加國泰金控技術年會時，揭露了他AI技術發展模式的觀察。 生成式AI在去年掀起了新的AI代理技術浪潮，技術巨頭和科技大廠，紛紛推出了自己的AI代理工具鏈，各行各業都開始嘗試打造AI代理應用。根據微軟去年第三季的統計，23萬家採用Copilot Studio的企業，就建立了超過1百萬個AI代理。IDC去年5月時預測，再過2年，2028年時，全世界將擁有13億個AI代理，來支援各種工作場景。AWS執行長Matt Garman在去年底年度大會開場時更直言，我們準備邁向一個數十億AI代理的新世界。」 這個十億等級AI代理的世界，可以說是有10億隻AI代理程式的運作、維運需求，這是科技巨頭們所瞄準的新IT需求規模。新的挑戰已經不是如何打造一支AI代理，而是如何部署、維運、管理成千上萬，甚至是數十萬隻AI代理的IT架構。 Adobe平臺工程負責人Joseph Sandoval在KubeCon主題演講中更直言，大規模A</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173685</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/Adobe%E5%B9%B3%E8%87%BA%E5%B7%A5%E7%A8%8B%E8%B2%A0%E8%B2%AC%E4%BA%BA-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-CNCF.png" length="0" type="image/png"/>
+      <pubDate>Fri, 30 Jan 2026 10:16:24 +0000</pubDate>
     </item>
   </channel>
 </rss>

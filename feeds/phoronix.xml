@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Jan 2026 06:54:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Jan 2026 06:43:37 +0000</lastBuildDate>
     <item>
-      <title>GNU gettext Reaches Version 1.0 After 30+ Years In Development - Adds LLM Features</title>
-      <link>https://www.phoronix.com/news/GNU-gettext-1.0</link>
-      <description>Sun Microsystems began developing gettext in the early 1990s and the GNU Project began GNU gettext development in 1995 for this widely-used internationalization and localization system commonly for multi-lingual integration. While GNU gettext is commonly used by countless open-source projects and adapted for many different programming languages, only an hour ago was GNU gettext 1.0 finally released...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-gettext-1.0</guid>
-      <pubDate>Thu, 29 Jan 2026 01:31:08 +0000</pubDate>
+      <title>Intel Xe Linux Driver Updated To Disable GuC Power DCC For Panther Lake</title>
+      <link>https://www.phoronix.com/news/Intel-Disabling-DCC-PTL</link>
+      <description>Queued up in DRM-Next for the Intel open-source graphics driver ahead of the Linux 7.0 kernel cycle is expanding GPU temperature sensor reporting, multi-device SVM prep, multi-queue support for Crescent Island, Nova Lake display support, and other feature work. With the Linux 6.19 stable release fast approaching, DRM-Next is now focusing in on reading early fixes with concluding feature activity for this next merge window...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Disabling-DCC-PTL</guid>
+      <pubDate>Fri, 30 Jan 2026 10:53:20 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA VA-API Driver 0.0.15 Released With A Few Fixes</title>
-      <link>https://www.phoronix.com/news/NVIDIA-VA-API-Driver-0.0.15</link>
-      <description>The NVIDIA-VAAPI-Driver 0.0.15 was released overnight as this VA-API driver implementation built atop NVIDIA's NVDEC interface used by their proprietary user-space driver stack. The purpose of NVIDIA-VAAPI-Driver as this community open-source project continues to be around enabling video acceleration for NVIDIA GPUs with the Firefox web browser on Linux that supports the VA-API interface but not NVIDIA's NVDEC...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-VA-API-Driver-0.0.15</guid>
-      <pubDate>Thu, 29 Jan 2026 10:57:40 +0000</pubDate>
+      <title>Open-Source Nova Driver In Linux 7.0 Continues Preparing For NVIDIA Turing GPU Support</title>
+      <link>https://www.phoronix.com/news/Rust-DRM-For-Linux-7.0</link>
+      <description>This week the Rust DRM changes intended for the Linux 7.0 merge window were sent out by Danilo Krummrich. The Apple Silicon Asahi Linux "AGX" DRM kernel driver still isn't positioned for upstreaming to the mainline kernel so that leaves most of the Rust DRM upstream work currently around the NVIDIA Nova driver as well as the Arm Mali Tyr drivers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Rust-DRM-For-Linux-7.0</guid>
+      <pubDate>Fri, 30 Jan 2026 11:15:02 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Thermal Daemon 2.5.11 Released With Wildcat Lake Support</title>
-      <link>https://www.phoronix.com/news/Intel-Thermal-Daemon-2.5.11</link>
-      <description>With Intel Panther Lake now shipping, open-source Intel engineers working on the client side are turning to tidying up support for their next target: Wildcat Lake. That more cost effective alternative to Panther Lake now has Intel Thermal Daemon support in getting ready for Linux desktops/laptops...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Thermal-Daemon-2.5.11</guid>
-      <pubDate>Thu, 29 Jan 2026 11:19:48 +0000</pubDate>
+      <title>AerynOS Establishes Policy Against LLM Contributions, 2026.01 ISO Refresh</title>
+      <link>https://www.phoronix.com/news/AerynOS-2026.01</link>
+      <description>In kicking off 2026, AerynOS developers have continued to make progress on their build tooling and infrastructure for this Linux distribution formerly known as Serpent OS. They have also been working on a new website design and other updated branding to start the new year...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AerynOS-2026.01</guid>
+      <pubDate>Fri, 30 Jan 2026 13:13:57 +0000</pubDate>
     </item>
     <item>
-      <title>Valve Developer Improves Aging AMD APUs On Linux With VRR, DP/HDMI Audio, HDR &amp;amp; Atomic</title>
-      <link>https://www.phoronix.com/news/AMDGPU-DC-Improved-GCN-1.1-APUs</link>
-      <description>Timur Kristóf of Valve's Linux graphics team last year addressed remaining issues in the open-source AMDGPU kernel graphics driver so old AMD GCN 1.0 and GCN 1.1 GPUs could transition to using AMDGPU by default rather than the former "Radeon" kernel driver that is largely in maintenance mode for pre-GCN/RDNA GPUs. One caveat though was the GCN 1.1 APU support still having some limitations leading to Kaveri and friends not being able to use the modern AMDGPU DC "Display Core" code. But new patche</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-DC-Improved-GCN-1.1-APUs</guid>
-      <pubDate>Thu, 29 Jan 2026 11:36:50 +0000</pubDate>
+      <title>Linux's ublk Adding Batch I/O Dispatch Capability For Greater Performance</title>
+      <link>https://www.phoronix.com/news/Linux-ublk-Batch-IO-Dispatch</link>
+      <description>Linux's user-space block device driver framework "ublk" for implementing virtual block device drivers in user-space relayed by IO_uring is introducing batch I/O dispatch infrastructure...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-ublk-Batch-IO-Dispatch</guid>
+      <pubDate>Fri, 30 Jan 2026 14:00:25 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA GeForce NOW Is Now Available Natively On Linux In Flatpak Form</title>
-      <link>https://www.phoronix.com/review/nvidia-geforce-now-linux</link>
-      <description>Following NVIDIA's announcement back at CES of their GeForce NOW game streaming service coming to Linux as a native desktop application, today's the day. The GeForce NOW Linux-native build is being published and the review embargo has lifted.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/nvidia-geforce-now-linux</guid>
-      <pubDate>Thu, 29 Jan 2026 14:00:00 +0000</pubDate>
+      <title>AMD EPYC 9755 Delivers Decisive Performance Leadership Over Xeon 6 Granite Rapids With Nearly 500 Benchmarks</title>
+      <link>https://www.phoronix.com/review/amd-epyc-intel-xeon-500</link>
+      <description>Back in December I carried out some fresh benchmarks of the Intel Xeon 6980P vs. AMD EPYC 9755 for these competing 128 core server processors using the latest Linux software stack before closing out 2025. That was done with nearly 200 benchmarks and the AMD EPYC Turin Zen 5 processor delivered terrific performance as we have come to enjoy out of the 5th Gen EPYC line-up over the past year and several months. Since then I have ratcheted up the benchmarks with nearly 500 benchmarks between the AMD</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/amd-epyc-intel-xeon-500</guid>
+      <pubDate>Fri, 30 Jan 2026 15:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Libgcrypt 1.12 Released With VAES/AVX-512 Accelerated AES: 2x Performance On AMD Zen 5</title>
-      <link>https://www.phoronix.com/news/libgcrypt-1.12</link>
-      <description>Werner Koch released libgcrypt 1.12 as the newest feature release to this library providing the cryptographic building blocks used by GnuPG and other software like email clients, file encryption utilities, and other software...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/libgcrypt-1.12</guid>
-      <pubDate>Thu, 29 Jan 2026 14:39:14 +0000</pubDate>
+      <title>Vulkan 1.4.342 Published With Cooperative Matrix Conversion Extension</title>
+      <link>https://www.phoronix.com/news/Vulkan-1.4.342-Released</link>
+      <description>Following last week's Vulkan spec updates that brought descriptor heaps and other notable new extensions and the Vulkan Roadmap 2026 Milestone, Vulkan 1.4.342 was published this morning as the latest routine spec update plus one new extension...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Vulkan-1.4.342-Released</guid>
+      <pubDate>Fri, 30 Jan 2026 16:02:56 +0000</pubDate>
     </item>
     <item>
-      <title>IO_uring Zero-Copy Large Receive Buffer Support To Provide A Nice Performance Win</title>
-      <link>https://www.phoronix.com/news/IO-uring-zcrx-Large-RX</link>
-      <description>Slated for introduction in the next kernel cycle (Linux 6.20~7.0) is introducing large receive buffer support for IO_uring's zero-copy receive code path. This large receive buffer support can be very beneficial for those with higher-end networking hardware capable of handling the larger buffers for some significant performance and efficiency wins...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/IO-uring-zcrx-Large-RX</guid>
-      <pubDate>Thu, 29 Jan 2026 16:21:15 +0000</pubDate>
+      <title>RISC-V User-Space Control Flow Integrity / Shadow Stack Appears Finally Ready</title>
+      <link>https://www.phoronix.com/news/RISC-V-User-Space-CFI</link>
+      <description>Similar to what has been available on Intel and AMD processors for users with the shadow stack for control-flow integrity, Linux on RISC-V is finally ready to roll-out its user-space control-flow integrity support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/RISC-V-User-Space-CFI</guid>
+      <pubDate>Fri, 30 Jan 2026 16:57:16 +0000</pubDate>
     </item>
     <item>
-      <title>Libcamera 0.7 Released - GPU Acceleration Support For SoftISP Can Deliver 15x Performance</title>
-      <link>https://www.phoronix.com/news/libcamera-0.7</link>
-      <description>Libcamera 0.7 was published today for this modern software library for image signal processors (ISPs) and embedded cameras under Linux. The standout change with libcamera 0.7 is initial plumbing for GPU acceleration in the software ISP "SoftISP" for delivering better performance than just CPU-based...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/libcamera-0.7</guid>
-      <pubDate>Thu, 29 Jan 2026 16:51:00 +0000</pubDate>
+      <title>Ubuntu 26.04 LTS Still Committed To Linux 6.20~7.0 Even If Not Finalized For Release Time</title>
+      <link>https://www.phoronix.com/news/Ubuntu-26.04-LTS-Linux-Commit</link>
+      <description>Last year Canonical committed to shipping the latest upstream Linux kernel versions in new Ubuntu releases compared to their more conservative choices in prior releases that didn't always align nicely for the latest Linux kernel upstream. Back in December they confirmed Ubuntu 26.04 plans for Linux 6.20~7.0 and their plans remain that way, even if it means the stable Linux 6.20~7.0 stable release won't be officially out quite in time for the initial ISO release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-26.04-LTS-Linux-Commit</guid>
+      <pubDate>Fri, 30 Jan 2026 17:23:00 +0000</pubDate>
     </item>
     <item>
-      <title>DDR5-4800 vs. DDR5-6000 Performance With The AMD Ryzen 7 9850X3D In 300+ Benchmarks</title>
-      <link>https://www.phoronix.com/review/amd-ryzen-7-9850x3d-ddr5</link>
-      <description>With the incredible market demand around DDR5 memory and significantly elevated pricing on the more premium DDR5 memory modules, as part of the AMD Ryzen 7 9850X3D launch there's been some communication that thanks to 2nd Gen AMD 3D V-Cache, using lower memory speeds like DDR5-4800 can be suitable without much of an impact to the gaming performance. But what about for Linux gaming? And other workloads with the Ryzen 7 9850X3D? Complementing yesterday's Linux review of the Ryzen 7 9850X3D are ben</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/amd-ryzen-7-9850x3d-ddr5</guid>
-      <pubDate>Thu, 29 Jan 2026 17:50:00 +0000</pubDate>
+      <title>Ubuntu 26.04 Resolute Snapshot 3 Released For Testing</title>
+      <link>https://www.phoronix.com/news/Ubuntu-26.04-Snapshot-3</link>
+      <description>Resolute Snapshot 3 is now available as the newest monthly test candidate leading up the Ubuntu 26.04 LTS release in April...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-26.04-Snapshot-3</guid>
+      <pubDate>Fri, 30 Jan 2026 18:25:34 +0000</pubDate>
     </item>
     <item>
-      <title>Microsoft Working On Improved vCPU Scheduler Support For Hyper-V Linux VMs</title>
-      <link>https://www.phoronix.com/news/Hyper-V-Integrated-Scheduler</link>
-      <description>Microsoft posted a patch series for introducing Hyper-V integrated scheduler support into the Linux kernel for enhancing vCPU scheduling behavior for virtual machines running within Microsoft's virtualized environment...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Hyper-V-Integrated-Scheduler</guid>
-      <pubDate>Thu, 29 Jan 2026 22:47:31 +0000</pubDate>
+      <title>AI Code Review Prompts Initiative Making Progress For The Linux Kernel</title>
+      <link>https://www.phoronix.com/news/AI-Code-Review-Prompts-Linux</link>
+      <description>Chris Mason, the longtime Linux kernel developer most known for being the creator of Btrfs, has been working on a Git repository with AI review prompts he has been working on for LLM-assisted code review of Linux kernel patches. This initiative has been happening for some weeks now while the latest work was posted today for comments...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AI-Code-Review-Prompts-Linux</guid>
+      <pubDate>Fri, 30 Jan 2026 20:55:28 +0000</pubDate>
     </item>
   </channel>
 </rss>
