@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Jan 2026 06:58:35 +0000</lastBuildDate>
-    <item>
-      <title>Infostealers added Clawdbot to their target lists before most security teams knew it was running</title>
-      <link>https://venturebeat.com/security/clawdbot-exploits-48-hours-what-broke</link>
-      <description>Clawdbot's MCP implementation has no mandatory authentication, allows prompt injection, and grants shell access by design. Monday's VentureBeat article documented these architectural flaws. By Wednesday, security researchers had validated all three attack surfaces and found new ones.(The project rebranded from Clawdbot to Moltbot on January 27 after Anthropic issued a trademark request over the similarity to "Claude.")Commodity infostealers are already exploiting this. RedLine, Lumma, and Vidar</description>
-      <guid isPermaLink="false">https://venturebeat.com/security/clawdbot-exploits-48-hours-what-broke</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3qYYtHjW8e0jmdoJTud0Ba/4d7996250e2b1c4c82400d498b0d9052/final_hero.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 29 Jan 2026 18:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 01 Feb 2026 07:09:03 +0000</lastBuildDate>
     <item>
       <title>How leading CPG brands are transforming operations to survive market pressures</title>
       <link>https://venturebeat.com/orchestration/how-leading-cpg-brands-are-transforming-operations-to-survive-market</link>
@@ -64,6 +56,14 @@
       <guid isPermaLink="false">https://venturebeat.com/security/openclaw-agentic-ai-security-risk-ciso-guide</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/1oBIMwURedNVAql7D5WEsn/f5bc000909cf83cb5133407934ea8ba7/HERO_IMAGE.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Fri, 30 Jan 2026 23:40:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Most RAG systems don’t understand sophisticated documents — they shred them</title>
+      <link>https://venturebeat.com/orchestration/most-rag-systems-dont-understand-documents-they-shred-them</link>
+      <description>By now, many enterprises have deployed some form of RAG. The promise is seductive: index your PDFs, connect an LLM and instantly democratize your corporate knowledge.But for industries dependent on heavy engineering, the reality has been underwhelming. Engineers ask specific questions about infrastructure, and the bot hallucinates.The failure isn't in the LLM. The failure is in the preprocessing.Standard RAG pipelines treat documents as flat strings of text. They use "fixed-size chunking" (cutti</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/most-rag-systems-dont-understand-documents-they-shred-them</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2sCMvgGQUuWWF7q1vVEYrC/a759e1f38b9003e746fdaf62c5b65bf8/u7277289442_3D_art_of_AI_avatars_in_an_office_ripping_up_pile_d5f30bcd-f95a-4531-b03a-dad2644cdfb3_3.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 31 Jan 2026 19:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

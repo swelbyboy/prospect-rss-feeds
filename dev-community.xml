@@ -8,77 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Jan 2026 06:43:27 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 06:54:16 +0000</lastBuildDate>
     <item>
-      <title>Mitigating Spam Traps in Legacy Codebases: A QA Engineering Approach</title>
-      <link>https://dev.to/mohammad_waseem_c31f3a26f/mitigating-spam-traps-in-legacy-codebases-a-qa-engineering-approach-3a19</link>
-      <description>Introduction In the realm of email marketing and communication, spam traps pose a significant risk to deliverability, sender reputation, and overall campaign success. As a Lead QA Engineer, tackling the challenge of avoiding spam traps—especially within legacy codebases—requires a strategic and meticulous testing approach. Understanding Spam Traps Spam traps are email addresses set up by ISPs or anti-spam organizations to identify spammers. They are categorized broadly into pristine traps (never</description>
-      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/mitigating-spam-traps-in-legacy-codebases-a-qa-engineering-approach-3a19</guid>
-      <pubDate>Sat, 31 Jan 2026 06:08:38 +0000</pubDate>
+      <title>Streamlining Legacy Databases: API-Driven Solutions for Production Clutter</title>
+      <link>https://dev.to/mohammad_waseem_c31f3a26f/streamlining-legacy-databases-api-driven-solutions-for-production-clutter-o8</link>
+      <description>Streamlining Legacy Databases: API-Driven Solutions for Production Clutter Managing cluttered production databases in legacy codebases is a common challenge faced by lead QA engineers and developers alike. These databases often contain redundant, deprecated, or poorly structured data, which impairs performance, complicates troubleshooting, and stifles scalability. One effective strategy to address this issue is to leverage API development as an interface layer for incremental refactoring and dat</description>
+      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/streamlining-legacy-databases-api-driven-solutions-for-production-clutter-o8</guid>
+      <pubDate>Sun, 01 Feb 2026 06:08:27 +0000</pubDate>
     </item>
     <item>
-      <title>Optimizing Test Account Management During High Traffic Events with SQL Security Techniques</title>
-      <link>https://dev.to/mohammad_waseem_c31f3a26f/optimizing-test-account-management-during-high-traffic-events-with-sql-security-techniques-4jmn</link>
-      <description>Managing test accounts efficiently during high traffic events is a critical challenge for security researchers and engineering teams alike. These accounts are vital for testing and validation but can pose significant risks if not properly controlled, especially when load spikes increase the attack surface. In this post, we explore SQL-based strategies to securely and efficiently manage test accounts during peak user activity, ensuring system integrity while maintaining testing functionality. The</description>
-      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/optimizing-test-account-management-during-high-traffic-events-with-sql-security-techniques-4jmn</guid>
-      <pubDate>Sat, 31 Jan 2026 06:09:29 +0000</pubDate>
+      <title>Overcoming Geo-Blocking in Enterprise React Applications: A Senior Architect’s Approach to Testing</title>
+      <link>https://dev.to/mohammad_waseem_c31f3a26f/overcoming-geo-blocking-in-enterprise-react-applications-a-senior-architects-approach-to-testing-45eg</link>
+      <description>Overcoming Geo-Blocking in Enterprise React Applications: A Senior Architect’s Approach to Testing In the landscape of enterprise web development, ensuring that features are thoroughly tested across various geographic regions can be a formidable challenge—especially when dealing with geo-restricted features or content that should only be accessible in certain locations. As a senior architect, designing a reliable testing strategy for such geo-blocked features requires a combination of technical</description>
+      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/overcoming-geo-blocking-in-enterprise-react-applications-a-senior-architects-approach-to-testing-45eg</guid>
+      <pubDate>Sun, 01 Feb 2026 06:09:47 +0000</pubDate>
     </item>
     <item>
-      <title>🤖 Chrome is No Longer Just a Browser. It’s an Agent. (And It Has a Credit Card)</title>
-      <link>https://dev.to/siddhesh_surve/chrome-is-no-longer-just-a-browser-its-an-agent-and-it-has-a-credit-card-1c8e</link>
-      <description>Stop optimizing your robots.txt for a second. The way the internet consumes your application just shifted overnight. If you thought "Headless Chrome" was just for your Puppeteer scripts, Google has some news for you. As of this week, Chrome is rolling out "Auto-Browse," a native AI agent powered by Gemini 3 that lives in the browser sidebar. This isn't just a chatbot that summarizes PDFs. This is an agent that can click buttons, fill out forms, scroll pages, and buy things on behalf of the user.</description>
-      <guid isPermaLink="false">https://dev.to/siddhesh_surve/chrome-is-no-longer-just-a-browser-its-an-agent-and-it-has-a-credit-card-1c8e</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fynzqi1t485fs0h6qftyw.png" length="0" type="image/png"/>
-      <pubDate>Sat, 31 Jan 2026 06:12:22 +0000</pubDate>
+      <title>Zero-Budget Strategies for Optimizing Slow Queries in React Apps</title>
+      <link>https://dev.to/mohammad_waseem_c31f3a26f/zero-budget-strategies-for-optimizing-slow-queries-in-react-apps-23l</link>
+      <description>Introduction In modern web development, ensuring fast and responsive user experiences is critical—yet sometimes, performance bottlenecks like slow database queries are overlooked, especially when working with React and limited resources. As a senior architect, I’ve faced the challenge of optimizing slow queries without additional budget for infrastructure or tools. This post explores practical, no-cost strategies to identify, analyze, and improve query performance within a React application, emp</description>
+      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/zero-budget-strategies-for-optimizing-slow-queries-in-react-apps-23l</guid>
+      <pubDate>Sun, 01 Feb 2026 06:10:37 +0000</pubDate>
     </item>
     <item>
-      <title>🦞 Unleashing OpenClaw: The Ultimate Guide to Local AI Agents for Developers in 2026</title>
-      <link>https://dev.to/mechcloud_academy/unleashing-openclaw-the-ultimate-guide-to-local-ai-agents-for-developers-in-2026-3k0h</link>
-      <description>If you have been scrolling through GitHub or checking the latest trends on Hacker News lately you have undoubtedly noticed a shift in the ecosystem. We have moved past the initial excitement of chatbots that can write haikus or explain quantum physics. The industry is now obsessed with autonomous agents. We are no longer satisfied with an AI that just talks to us. We want an AI that does work for us. This is where OpenClaw enters the picture. If you haven't heard of it yet you are in for a treat</description>
-      <guid isPermaLink="false">https://dev.to/mechcloud_academy/unleashing-openclaw-the-ultimate-guide-to-local-ai-agents-for-developers-in-2026-3k0h</guid>
-      <pubDate>Sat, 31 Jan 2026 06:19:33 +0000</pubDate>
+      <title>Design Secure Access To AWS Resources</title>
+      <link>https://dev.to/aws-builders/design-secure-access-to-aws-resources-4l8g</link>
+      <description>Exam Guide: Solutions Architect - Associate 🛡️ Domain 1: Design Secure Architectures 📘 Task Statement 1.1 🎯 Secure access means you can clearly answer: 1 Who is trying to access AWS? 2 What are they allowed to do? 3 Where are they allowed to do it (which account / which resources)? 4 How are they proving it’s really them (password, MFA, federation)? 5 How long should that access last (temporary vs long-term)? This task is mostly about identity + permissions + multi-account setup. Knowledge 1 | A</description>
+      <guid isPermaLink="false">https://dev.to/aws-builders/design-secure-access-to-aws-resources-4l8g</guid>
+      <pubDate>Sun, 01 Feb 2026 06:19:51 +0000</pubDate>
     </item>
     <item>
-      <title>Finding the Second Largest Element — From Data Structures to Optimal Thinking</title>
-      <link>https://dev.to/nithya_dharshiniofficial/finding-the-second-largest-element-from-data-structures-to-optimal-thinking-3e39</link>
-      <description>This problem looks simple, but it quietly tests pattern selection. Here’s how I approached it — and what I learned about optimal thinking. Problem Summary Given an array, return the second largest distinct element. If it doesn’t exist, return -1. What I Tried — Priority Queue Idea Use a max-heap, remove the largest, then find the next distinct value. Issue Risk of accessing empty heap. O(n log n) time complexity. It Overkill Correct idea, heavy tool. What I Tried — Set Approach Code set&amp;lt;int&amp;gt; s;</description>
-      <guid isPermaLink="false">https://dev.to/nithya_dharshiniofficial/finding-the-second-largest-element-from-data-structures-to-optimal-thinking-3e39</guid>
-      <pubDate>Sat, 31 Jan 2026 06:27:12 +0000</pubDate>
+      <title>I built a civic engagement platform because contacting your representatives shouldn't be this hard</title>
+      <link>https://dev.to/ashmortar/i-built-a-civic-engagement-platform-because-contacting-your-representatives-shouldnt-be-this-hard-1jjb</link>
+      <description>A few weeks ago I was doomscrolling and feeling some type of way about... waves indiscriminately at the state of the world. The thing that always gets me during times like these is feeling like there's nothing I can do about any of it. So I had a good think about what I actually can do. And I landed on something that's been bugging me for years: contacting your elected representatives is unreasonably hard. You have to dig through multiple government websites to figure out who represents you, fin</description>
+      <guid isPermaLink="false">https://dev.to/ashmortar/i-built-a-civic-engagement-platform-because-contacting-your-representatives-shouldnt-be-this-hard-1jjb</guid>
+      <pubDate>Sun, 01 Feb 2026 06:21:48 +0000</pubDate>
     </item>
     <item>
-      <title>The Complete Guide to POS Systems for Small Businesses in Kenya</title>
-      <link>https://dev.to/veira_59608bdb2de0135bea1/the-complete-guide-to-pos-systems-for-small-businesses-in-kenya-5d8p</link>
-      <description>Small business owners in Kenya face a common challenge: managing sales, inventory, and staff while keeping costs under control. Many shops lose money without realizing it because they lack a reliable POS system Kenya. This guide consolidates everything you need to know: how to choose a POS system, comparisons of popular options, setup tips, and strategies for maximizing efficiency. We also reference expert advice and practical examples, including insights from Veira, a tool designed for shop own</description>
-      <guid isPermaLink="false">https://dev.to/veira_59608bdb2de0135bea1/the-complete-guide-to-pos-systems-for-small-businesses-in-kenya-5d8p</guid>
-      <pubDate>Sat, 31 Jan 2026 06:28:41 +0000</pubDate>
+      <title>Building a Privacy-First URL Shortener on Blockchain</title>
+      <link>https://dev.to/wes_parsons_57932a30dc1f3/building-a-privacy-first-url-shortener-on-blockchain-17n4</link>
+      <description>Why Traditional URL Shorteners Are a Privacy Nightmare When you click a bit.ly link, here's what happens: Bit.ly logs your IP, timestamp, user agent They see the destination URL They track your browsing patterns They sell this data to advertisers Even if you trust the shortener, their database can be hacked. Introducing Cryptly I built cryptly to solve this problem using blockchain and encryption. How It Works Encryption (Client-Side) const encrypted = await crypto.subtle.encrypt( { name: "AES-G</description>
+      <guid isPermaLink="false">https://dev.to/wes_parsons_57932a30dc1f3/building-a-privacy-first-url-shortener-on-blockchain-17n4</guid>
+      <pubDate>Sun, 01 Feb 2026 06:23:08 +0000</pubDate>
     </item>
     <item>
-      <title>BNSS Filing Guide: Verify CrPC Sections Using a Converter</title>
-      <link>https://dev.to/mrashu_singhrajput_8e3c/bnss-filing-guide-verify-crpc-sections-using-a-converter-553m</link>
-      <description>The enforcement of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS) has changed one simple but critical expectation in criminal courts: fresh filings must now comply with BNSS, not the old Code of Criminal Procedure, 1973 (CrPC). Yet, across trial courts and sessions courts, one mistake is still being made daily—lawyers filing applications with unverified CrPC section references. This may look minor, but in practice it leads to objections, adjournments, and sometimes outright rejection of dra</description>
-      <guid isPermaLink="false">https://dev.to/mrashu_singhrajput_8e3c/bnss-filing-guide-verify-crpc-sections-using-a-converter-553m</guid>
-      <pubDate>Sat, 31 Jan 2026 06:29:02 +0000</pubDate>
+      <title>[Opinion]Today's frontend is easy to be messed up and we need to organize it</title>
+      <link>https://dev.to/uponthesky/opiniontodays-frontend-is-easy-to-be-messed-up-and-we-need-to-organize-it-17hl</link>
+      <description>Disclaimer: This post is a mixture of ranting about the complexity of the contemporary frontend, and my thought on how to solve it. I have been away from the frontend/React world for a while, so this post might contain some out-of-date ideas. Please let me know if you find such ideas while reading this post. Also, although I only discuss React/Next.js here, I think the argument could be extended to the entire frontend system as of now, regardless of framework. Therefore I will use the words "fro</description>
+      <guid isPermaLink="false">https://dev.to/uponthesky/opiniontodays-frontend-is-easy-to-be-messed-up-and-we-need-to-organize-it-17hl</guid>
+      <pubDate>Sun, 01 Feb 2026 06:25:49 +0000</pubDate>
     </item>
     <item>
-      <title>Automating Authentication Flows in Go: Lessons from a Security Researcher’s No-Docs Approach</title>
-      <link>https://dev.to/mohammad_waseem_c31f3a26f/automating-authentication-flows-in-go-lessons-from-a-security-researchers-no-docs-approach-2ogo</link>
-      <description>In the realm of security research, efficiency and precision are paramount, especially when experimenting with complex authentication flows. Recently, I encountered a scenario where I needed to automate OAuth2 authorization flows in Go, but with little to no documentation or official SDKs available. This challenging environment necessitated a deep understanding of protocol flows, meticulous HTTP handling, and secure token management. Here, I’ll share key insights and practical code snippets that</description>
-      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/automating-authentication-flows-in-go-lessons-from-a-security-researchers-no-docs-approach-2ogo</guid>
-      <pubDate>Sat, 31 Jan 2026 06:29:43 +0000</pubDate>
+      <title>Loss Functions for Beginners</title>
+      <link>https://dev.to/olabamipetaiwo/loss-functions-for-beginners-5gfl</link>
+      <description>Loss functions are the quiet engine behind every machine learning model. They serve as the critical feedback loop, translating the abstract concept of error into a value that a computer can minimize. By quantifying the difference between a model’s prediction and the ground truth, the loss function provides the gradient signal that the optimizer uses to update the network's weights. In essence, if the model architecture is the body of an AI, the data is its fuel, and the loss function is its cent</description>
+      <guid isPermaLink="false">https://dev.to/olabamipetaiwo/loss-functions-for-beginners-5gfl</guid>
+      <pubDate>Sun, 01 Feb 2026 06:25:57 +0000</pubDate>
     </item>
     <item>
-      <title>30.Delete EC2 Instance Using Terraform</title>
-      <link>https://dev.to/thukhakyawe_cloud/30delete-ec2-instance-using-terraform-1358</link>
-      <description>Lab Information During the migration process, several resources were created under the AWS account. Some of these test resources are no longer needed at the moment, so we need to clean them up temporarily. One such instance is currently unused and should be deleted. 1) Delete the ec2 instance named datacenter-ec2 present in us-east-1 region using terraform. Make sure to keep the provisioning code, as we might need to provision this instance again later. 2) Before submitting your task, make sure</description>
-      <guid isPermaLink="false">https://dev.to/thukhakyawe_cloud/30delete-ec2-instance-using-terraform-1358</guid>
-      <pubDate>Sat, 31 Jan 2026 06:30:00 +0000</pubDate>
+      <title>Meet the AI Assistant That Guards My Portfolio</title>
+      <link>https://dev.to/dstushar7/meet-the-ai-assistant-that-guards-my-portfolio-57im</link>
+      <description>This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI About Me Hi everyone! I'm a Software Engineer based in Bangladesh with over 3 years of experience specializing in Java and Spring Boot. Currently, I work at Technonext (a sister concern of US-Bangla Airlines), where I lead a small team building complex backend architectures for a ride-sharing application like Uber. While my "home base" is backend engineering with some Angular on the side, I believe a modern</description>
+      <guid isPermaLink="false">https://dev.to/dstushar7/meet-the-ai-assistant-that-guards-my-portfolio-57im</guid>
+      <pubDate>Sun, 01 Feb 2026 06:37:28 +0000</pubDate>
     </item>
     <item>
-      <title>Streamlining Legacy Databases with React: A Lead QA Engineer's Approach to Clutter Control</title>
-      <link>https://dev.to/mohammad_waseem_c31f3a26f/streamlining-legacy-databases-with-react-a-lead-qa-engineers-approach-to-clutter-control-1jp9</link>
-      <description>Introduction Managing cluttered production databases in legacy systems is a persistent challenge that hampers performance, complicates maintenance, and risks data integrity. As a Lead QA Engineer, I encountered these issues firsthand when working with an aged codebase paired with a React front-end. This article explores the strategies and best practices I employed to mitigate database clutter, leveraging React's capabilities and thoughtful architecture. Diagnosing the Clutter The first step was</description>
-      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/streamlining-legacy-databases-with-react-a-lead-qa-engineers-approach-to-clutter-control-1jp9</guid>
-      <pubDate>Sat, 31 Jan 2026 06:34:13 +0000</pubDate>
+      <title>Securing Test Environments: Tackling PII Leaks in Legacy Code with TypeScript</title>
+      <link>https://dev.to/mohammad_waseem_c31f3a26f/securing-test-environments-tackling-pii-leaks-in-legacy-code-with-typescript-3o20</link>
+      <description>In modern development practices, protecting Personally Identifiable Information (PII) within test environments is paramount. Legacy codebases, often riddled with monolithic and unrefined code, pose significant challenges in implementing security measures. As a senior architect, my focus has been on creating a robust, maintainable, and non-intrusive approach to prevent PII leaks when using TypeScript on aged systems. One critical problem is ensuring that sensitive data doesn't inadvertently flow</description>
+      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/securing-test-environments-tackling-pii-leaks-in-legacy-code-with-typescript-3o20</guid>
+      <pubDate>Sun, 01 Feb 2026 06:49:25 +0000</pubDate>
     </item>
   </channel>
 </rss>

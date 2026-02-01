@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Jan 2026 06:43:37 +0000</lastBuildDate>
-    <item>
-      <title>Intel Xe Linux Driver Updated To Disable GuC Power DCC For Panther Lake</title>
-      <link>https://www.phoronix.com/news/Intel-Disabling-DCC-PTL</link>
-      <description>Queued up in DRM-Next for the Intel open-source graphics driver ahead of the Linux 7.0 kernel cycle is expanding GPU temperature sensor reporting, multi-device SVM prep, multi-queue support for Crescent Island, Nova Lake display support, and other feature work. With the Linux 6.19 stable release fast approaching, DRM-Next is now focusing in on reading early fixes with concluding feature activity for this next merge window...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Disabling-DCC-PTL</guid>
-      <pubDate>Fri, 30 Jan 2026 10:53:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Open-Source Nova Driver In Linux 7.0 Continues Preparing For NVIDIA Turing GPU Support</title>
-      <link>https://www.phoronix.com/news/Rust-DRM-For-Linux-7.0</link>
-      <description>This week the Rust DRM changes intended for the Linux 7.0 merge window were sent out by Danilo Krummrich. The Apple Silicon Asahi Linux "AGX" DRM kernel driver still isn't positioned for upstreaming to the mainline kernel so that leaves most of the Rust DRM upstream work currently around the NVIDIA Nova driver as well as the Arm Mali Tyr drivers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Rust-DRM-For-Linux-7.0</guid>
-      <pubDate>Fri, 30 Jan 2026 11:15:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>AerynOS Establishes Policy Against LLM Contributions, 2026.01 ISO Refresh</title>
-      <link>https://www.phoronix.com/news/AerynOS-2026.01</link>
-      <description>In kicking off 2026, AerynOS developers have continued to make progress on their build tooling and infrastructure for this Linux distribution formerly known as Serpent OS. They have also been working on a new website design and other updated branding to start the new year...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AerynOS-2026.01</guid>
-      <pubDate>Fri, 30 Jan 2026 13:13:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux's ublk Adding Batch I/O Dispatch Capability For Greater Performance</title>
-      <link>https://www.phoronix.com/news/Linux-ublk-Batch-IO-Dispatch</link>
-      <description>Linux's user-space block device driver framework "ublk" for implementing virtual block device drivers in user-space relayed by IO_uring is introducing batch I/O dispatch infrastructure...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-ublk-Batch-IO-Dispatch</guid>
-      <pubDate>Fri, 30 Jan 2026 14:00:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>AMD EPYC 9755 Delivers Decisive Performance Leadership Over Xeon 6 Granite Rapids With Nearly 500 Benchmarks</title>
-      <link>https://www.phoronix.com/review/amd-epyc-intel-xeon-500</link>
-      <description>Back in December I carried out some fresh benchmarks of the Intel Xeon 6980P vs. AMD EPYC 9755 for these competing 128 core server processors using the latest Linux software stack before closing out 2025. That was done with nearly 200 benchmarks and the AMD EPYC Turin Zen 5 processor delivered terrific performance as we have come to enjoy out of the 5th Gen EPYC line-up over the past year and several months. Since then I have ratcheted up the benchmarks with nearly 500 benchmarks between the AMD</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/amd-epyc-intel-xeon-500</guid>
-      <pubDate>Fri, 30 Jan 2026 15:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vulkan 1.4.342 Published With Cooperative Matrix Conversion Extension</title>
-      <link>https://www.phoronix.com/news/Vulkan-1.4.342-Released</link>
-      <description>Following last week's Vulkan spec updates that brought descriptor heaps and other notable new extensions and the Vulkan Roadmap 2026 Milestone, Vulkan 1.4.342 was published this morning as the latest routine spec update plus one new extension...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Vulkan-1.4.342-Released</guid>
-      <pubDate>Fri, 30 Jan 2026 16:02:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>RISC-V User-Space Control Flow Integrity / Shadow Stack Appears Finally Ready</title>
-      <link>https://www.phoronix.com/news/RISC-V-User-Space-CFI</link>
-      <description>Similar to what has been available on Intel and AMD processors for users with the shadow stack for control-flow integrity, Linux on RISC-V is finally ready to roll-out its user-space control-flow integrity support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/RISC-V-User-Space-CFI</guid>
-      <pubDate>Fri, 30 Jan 2026 16:57:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ubuntu 26.04 LTS Still Committed To Linux 6.20~7.0 Even If Not Finalized For Release Time</title>
-      <link>https://www.phoronix.com/news/Ubuntu-26.04-LTS-Linux-Commit</link>
-      <description>Last year Canonical committed to shipping the latest upstream Linux kernel versions in new Ubuntu releases compared to their more conservative choices in prior releases that didn't always align nicely for the latest Linux kernel upstream. Back in December they confirmed Ubuntu 26.04 plans for Linux 6.20~7.0 and their plans remain that way, even if it means the stable Linux 6.20~7.0 stable release won't be officially out quite in time for the initial ISO release...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-26.04-LTS-Linux-Commit</guid>
-      <pubDate>Fri, 30 Jan 2026 17:23:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ubuntu 26.04 Resolute Snapshot 3 Released For Testing</title>
-      <link>https://www.phoronix.com/news/Ubuntu-26.04-Snapshot-3</link>
-      <description>Resolute Snapshot 3 is now available as the newest monthly test candidate leading up the Ubuntu 26.04 LTS release in April...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-26.04-Snapshot-3</guid>
-      <pubDate>Fri, 30 Jan 2026 18:25:34 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 01 Feb 2026 06:54:26 +0000</lastBuildDate>
     <item>
       <title>AI Code Review Prompts Initiative Making Progress For The Linux Kernel</title>
       <link>https://www.phoronix.com/news/AI-Code-Review-Prompts-Linux</link>
       <description>Chris Mason, the longtime Linux kernel developer most known for being the creator of Btrfs, has been working on a Git repository with AI review prompts he has been working on for LLM-assisted code review of Linux kernel patches. This initiative has been happening for some weeks now while the latest work was posted today for comments...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/AI-Code-Review-Prompts-Linux</guid>
       <pubDate>Fri, 30 Jan 2026 20:55:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>GTK Developers Plot Improvements To Tackle This Year - Possible Opt-In Unstable API</title>
+      <link>https://www.phoronix.com/news/GTK-2026-Planning-FOSDEM</link>
+      <description>GNOME developers had a busy week in preparing for the GNOME 50 beta release, many GNOME developers attending FOSDEM this weekend in Brussels, and other happenings...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GTK-2026-Planning-FOSDEM</guid>
+      <pubDate>Sat, 31 Jan 2026 10:55:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Last Of The Dolby Digital Plus "E-AC3" Patents Might Now Be Expired</title>
+      <link>https://www.phoronix.com/news/Dolby-Digital-Plus-E-AC3-2026</link>
+      <description>For those interested in the Dolby Digital Plus "Enhanced AC-3" audio compression format for open-source software, the last of the patents for this widely-used format by streaming services and more appears to have expired...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Dolby-Digital-Plus-E-AC3-2026</guid>
+      <pubDate>Sat, 31 Jan 2026 11:09:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Plasma 6.7 Restoring The Air Plasma Theme, Fixes KWin Issue With Intense Alt+Tab'ing</title>
+      <link>https://www.phoronix.com/news/KDE-Brings-Back-Air-Theme</link>
+      <description>KDE Plasma developers remain quite busy preparing for the Plasma 6.6 desktop release coming up in a little more than two weeks while at the same time continuing to land early features for the Plasma 6.7 release coming later in the year...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Brings-Back-Air-Theme</guid>
+      <pubDate>Sat, 31 Jan 2026 11:21:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNOME 50 Is No Longer Treating Variable Rate Refresh "VRR" As Experimental</title>
+      <link>https://www.phoronix.com/news/GNOME-50-VRR-Not-Experimental</link>
+      <description>Another great albeit overdue improvement for GNOME 50 has landed: Variable Rate Refresh "VRR" functionality for modern displays is now promoted and no longer treated as an experimental feature...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-VRR-Not-Experimental</guid>
+      <pubDate>Sat, 31 Jan 2026 11:37:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linuxulator-Steam-Utils To Enjoy Steam Play Gaming On FreeBSD &amp;amp; Other Options</title>
+      <link>https://www.phoronix.com/news/FreeBSD-Gaming-2026</link>
+      <description>Presented today at FOSDEM in Brussels was the state of gaming on FreeBSD by Thibault Payet. Besides various open-source games able to be compiled natively for FreeBSD, this BSD can get in on the Steam Play gaming scene thanks to the "linuxulator-steam-utils" project as a set of workarounds for the Steam Linux client on FreeBSD 14 and newer. Linuxulator-steam-utils builds off FreeBSD's Linuxulator support for running Linux binaries to enjoy the likes of Steam and even Steam Play (Proton) Windows</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-Gaming-2026</guid>
+      <pubDate>Sat, 31 Jan 2026 17:36:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Budgie 10.10.1 Released With Better Stability &amp;amp; Improved Labwc Integration</title>
+      <link>https://www.phoronix.com/news/Budgie-10.10.1</link>
+      <description>Following the Budgie 10.10 release from earlier this month, Budgie 10.10.1 is now here for closing out January...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Budgie-10.10.1</guid>
+      <pubDate>Sat, 31 Jan 2026 18:56:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Phosh Mobile Phone UI Making Progress On GTK4 Port</title>
+      <link>https://www.phoronix.com/news/Phosh-GTK4-Progress</link>
+      <description>Evangelos Ribeiro Tzaras presented today at FOSDEM on the latest work around Phosh, the mobile phone user interface / Wayland shell project for mobile Linux environments. Phosh has been making steady progress and has more features out on the horizon...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Phosh-GTK4-Progress</guid>
+      <pubDate>Sat, 31 Jan 2026 19:52:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shotcut Video Editor Now Using Hardware Decoding By Default Except For NVIDIA On Linux</title>
+      <link>https://www.phoronix.com/news/Shotcut-26.1-Video-Editor</link>
+      <description>Shotcut 26.1 is now available as the latest feature update to this open-source and cross-platform video editing solution. Shotcut 26.1 is finally defaulting to GPU hardware accelerated video decoding by default for all platforms sans NVIDIA GPUs on Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Shotcut-26.1-Video-Editor</guid>
+      <pubDate>Sat, 31 Jan 2026 21:11:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0 Aims To Replace More Caching Code With Sheaves For "Hopefully" Improved Performance</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Replace-Slabs-Sheaves</link>
+      <description>Introduced to the mainline Linux kernel last year was "sheaves" as an opt-in per-CPU array-based caching layer. Sheaves was merged back in Linux 6.18 and while it started as an opt-in caching layer, the plan is to replace more CPU slabs / caches with sheaves. Queued up for slated introduction in the upcoming Linux 7.0 cycle is replacing more of those caches with sheaves...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Replace-Slabs-Sheaves</guid>
+      <pubDate>Sun, 01 Feb 2026 01:08:45 +0000</pubDate>
     </item>
   </channel>
 </rss>

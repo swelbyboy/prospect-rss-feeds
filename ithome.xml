@@ -8,30 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Jan 2026 06:45:52 +0000</lastBuildDate>
-    <item>
-      <title>【資安日報】1月30日，駭客要求AI根據開發流程打造功能複雜的惡意程式</title>
-      <link>https://www.ithome.com.tw/news/173683</link>
-      <description>新聞雲端惡意軟體框架VoidLink疑似以AI生成，具開發能力的駭客要求AI根據開發流程，打造近9萬行程式碼的複雜惡意程式 1月13日資安公司Check Point揭露雲端惡意軟體框架VoidLink，事隔數日，他們又公布新的調查結果，指出此惡意軟體是由大型語言模型（LLM）高度參與生成的完整惡意軟體架構，標誌著AI生成威脅已從簡單的編寫指令碼，演進到能開發複雜的攻擊工具，而VoidLink背後參與開發的駭客，實際上可能只有一人。 有別於其他缺乏開發能力的駭客，利用AI生成惡意程式，成品多半是模仿能公開取得的惡意軟體，VoidLink是本身具備開發經驗的駭客所為，而且，他不光直接利用AI生成程式碼，還要求AI根據規格取向的開發方法（Spec-Driven Development，SDD），先規畫結構化的多團隊開發流程，包含工作排程、成品規格，以及預期的交付成果，然後模型根據這些安排打造惡意軟體，並進行迭代更新與測試。 雲端惡意框架VoidLink透過C2即時編譯，廣泛對多種版本Linux核心的環境發動攻擊 資安公司Sysdig取得雲端惡意軟體框架VoidLink二進位檔案進行解析，指出</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173683</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/Void-Link-AI.png" length="0" type="image/png"/>
-      <pubDate>Fri, 30 Jan 2026 06:18:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>網路犯罪聯盟Scattered Lapsus$ Hunters企圖對超過100家企業發動大規模語音網釣</title>
-      <link>https://www.ithome.com.tw/news/173682</link>
-      <description>新聞日前身分驗證業者Okta提出警告，他們發現有人以租用服務形式提供客製化的網釣套件，駭客再以此攻擊Google、微軟、Okta，以及加密貨幣供應商的用戶，企圖竊取單一登入（SSO）的憑證，傳出攻擊者的身分是駭客組織ShinyHunters，後續有資安公司提出警告，他們發現最近一個月裡，這些駭客已打算對超過100家企業組織發動攻擊。 威脅情資公司Silent Push近日發布特殊資安警報，由Scattered Spider、Lapsus$，以及ShinyHunters三組人馬組成的網路犯罪聯盟Scattered Lapsus$ Hunters（SLSH），正對全球超過100家高價值企業發動大規模身分竊盜活動，鎖定Okta等單一登入平臺，透過高度互動的即時釣魚技術繞過多因素認證（MFA），恐對企業核心系統構成重大風險。 Silent Push指出，這波攻擊並非傳統的自動化網釣，而是由真人操控、具高度互動的語音釣魚（Vishing）行動。攻擊者會在受害者登入流程中即時介入，利用即時釣魚控制臺（Live Phishing Panel）攔截帳號密碼與多因素驗證碼，取得企業單一登入連線階段的控制</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173682</guid>
-      <pubDate>Fri, 30 Jan 2026 06:22:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI原生架構的崛起</title>
-      <link>https://www.ithome.com.tw/article/173687</link>
-      <description>專題故事AI代理時代的挑戰，已經不只是如何打造一支AI代理，而是如何部署、維運、管理成千上萬，甚至是數十萬隻AI代理的IT架構，這也了雲原生生態系最好的新機會。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/article/173687</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1271-feng_mian_gu_shi_-p1-dou_zi_-open-960x420_kao_bei_0.jpg?itok=XJRIZokP" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 30 Jan 2026 07:08:36 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 01 Feb 2026 06:56:45 +0000</lastBuildDate>
     <item>
       <title>蘋果20億美元收購AI語音技術新創Q.ai</title>
       <link>https://www.ithome.com.tw/news/173688</link>
@@ -82,6 +59,28 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173685</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/images/Adobe%E5%B9%B3%E8%87%BA%E5%B7%A5%E7%A8%8B%E8%B2%A0%E8%B2%AC%E4%BA%BA-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-CNCF.png" length="0" type="image/png"/>
       <pubDate>Fri, 30 Jan 2026 10:16:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google推第二款自研Arm處理器VM，性價比達x86平臺兩倍</title>
+      <link>https://www.ithome.com.tw/review/173697</link>
+      <description>去年11月，Google Cloud宣布代號為Ironwood的第7代TPU正式推出，受到全世界熱烈關注之餘，他們也預告同樣是自行研發的Arm架構處理器Axion，將用於建置新的雲端執行個體服務，當時預告幾週之後，將開放預覽版本供大家測試。 首先是2024年上市的C4A，將增設裸機組態，稱為C4A metal，是該公司第一款導入Arm架構的裸機運算服務，能為特殊類型的工作負載提供專屬於單一用戶執行的實體伺服器系統，像是Android系統與應用程式的開發、自動駕駛車輛內部系統執行、測試系統規模的擴展、複雜模擬作業的執行，或是須符合嚴格軟體授權要求的狀況。 另一個突破是增設雲端虛擬機器系列，稱為N4A，是Google Cloud旗下第二批採用Axion處理器的一般用途虛擬機器，也是目前最具成本效益的N系列虛擬機器服務。 相較於採用當前主流世代x86架構CPU的虛擬機器，N4A可提供兩倍的性價比（price-performance），以及每瓦效能領先幅度達到80％的能源使用效率。 N4A適合的工作負載類型相當多元，包括：微服務、容器化應用系統、開放原始碼資料庫系統、批次處理、資料分析、軟體開</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/173697</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/gcp-n4a-main.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 31 Jan 2026 07:26:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ivanti熱修補行動裝置管理平臺EPMM兩重大遠端程式碼執行漏洞</title>
+      <link>https://www.ithome.com.tw/news/173694</link>
+      <description>新聞Ivanti揭露自家行動裝置管理平臺Endpoint Manager Mobile（EPMM）兩個重大漏洞CVE-2026-1281與CVE-2026-1340。兩者皆為程式碼注入弱點，風險評分達CVSS 9.8，攻擊者可在未經驗證的情況下觸發遠端程式碼執行。Ivanti表示，在揭露時已知極少數用戶環境遭到利用，而美國CISA同日將CVE-2026-1281列入已遭利用漏洞目錄（KEV）。 兩漏洞影響EPMM，官方強調不影響包括Ivanti Sentry、Ivanti Endpoint Manager（EPM）與Ivanti Neurons for MDM等其他產品。不過，由於EPMM需能連線至Sentry並下達指令以維持Sentry運作與組態，Ivanti建議在懷疑EPMM受影響時，同步檢視Sentry可觸及的內部系統，以排除偵察或橫向移動可能。 Ivanti釋出RPM熱修補套件，客戶需依自身版本選用對應套件，無須停機。Ivanti也提醒，要是設備後續升級版本，熱修補不會自動延續，升級後需重新安裝。永久修補將納入下一個產品版本12.8.0.0，預計於2026年第1季推出。 就可能</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173694</guid>
+      <pubDate>Sun, 01 Feb 2026 03:29:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>知難而行</title>
+      <link>https://www.ithome.com.tw/voice/173701</link>
+      <description>今年1月下旬臺灣民眾最關注的兩則新聞，都是與克服巨大挑戰有關。首先是臺美關稅談判達成共識，確認對等關稅15％不疊加原最惠國（MFN）稅率，並爭取到半導體及衍生品關稅的最優惠待遇，汽車零組件、木材家具、航空零組件（其中的鋼、鋁、銅衍生品）等多項232關稅最優惠待遇，以及採用「臺灣模式」引領業者進軍美國供應鏈，促成臺美高科技領域相互投資，這項艱鉅的談判行政院副院長鄭麗君與政務委員楊珍妮領軍的團隊，居功厥偉。 另一件事是美國攀岩高手霍諾德（Alex Honnold）徒手獨攀台北101大樓，挑戰成功，耗時約1個半小時的過程，在影音串流平臺Netflix向全球直播，吸引多家國際媒體報導。為了幫助大家更了解這個網路直播服務的應用，隔天我們的副總編輯王宏仁也發布報導，介紹Netflix全球直播的幕後技術架構。 這兩項重大成就的背後，有許多人投入大量時間與心力，不僅考驗體力、毅力與抗壓能力，更需要有強大的信念、意志力、勇氣，以及耐心與細心，也激勵更多人積極推動自我創新與突破。 以關稅談判為例，過程中歷經9個多月、6輪磋商，團隊積極研擬與說明臺美經貿合作計畫、多次赴美進行實體磋商，面對外界各種傳言與質疑</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/voice/173701</guid>
+      <pubDate>Sun, 01 Feb 2026 05:58:40 +0000</pubDate>
     </item>
   </channel>
 </rss>
