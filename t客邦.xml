@@ -8,86 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Feb 2026 07:00:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 07:11:31 +0000</lastBuildDate>
     <item>
-      <title>Windows 開發救星來了！微軟開源神器「WinApp」登場，一行指令搞定打包與環境設定</title>
-      <link>https://www.techbang.com/posts/127681-microsoft-winapp-windows-dev-tool</link>
-      <description>微軟推出 WinApp 公開預覽版，為 Windows 開發者帶來福音！這款工具旨在簡化 Windows 應用程式開發流程，讓 Windows 開發者告別繁瑣設定，大幅提升開發效率。Windows 開發者有福了！以前要開發原生 Windows 應用程式，光是搞定繁瑣的 SDK 版本、處理憑證簽章、還有那個令人頭大的應用程式清單（Manifest），往往還沒開始寫 Code 就已經先累一半。微軟最近終於出手，正式推出了全新的開源命令列工具「WinApp」公開預覽版，號稱要用「一站式」的體驗，讓開發者跟複雜的設定流程說掰掰。 這款工具主打的核心價值就是「化繁為簡」。過去開發者需要手動管理各種環境變數與套件，現在 WinApp 把這些苦差事都包辦了，大幅降低了開發門檻。 告別繁瑣設定，一行指令就開工 WinApp 最強大的地方在於它的自動化能力。對於開發者來說，現在只需要在專案根目錄下輸入一行簡單的指令「winapp init」，這個工具就會像魔法一樣，自動幫你處理好所有前置作業。 它會自動下載並安裝正確版本的 Windows SDK 和 App SDK 軟體套件，建立必要的應用程式清單與資</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127681-microsoft-winapp-windows-dev-tool</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127681/thumb/303b1e9ae99c47ae6a6bdb714f8e2e29.jpg?1769420477" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 31 Jan 2026 06:00:00 +0000</pubDate>
+      <title>真實版《神鬼交鋒》上演！加國男子假冒機師爽搭數百次霸王機，連駕駛艙「跳位」都敢坐</title>
+      <link>https://www.techbang.com/posts/127678-catch-me-if-you-can-pilot-imposter</link>
+      <description>加拿大男子假冒機師，四年內騙取數百次免費航班，甚至坐進駕駛艙。這場驚天騙局揭露飛安漏洞，假冒機師的行為讓他面臨重刑，免費航班的代價極高。這簡直是電影《神鬼交鋒》的現代翻版！一名 33 歲的加拿大男子，利用前空服員的熟練知識，在過去四年間假冒機師與空服員身分，成功騙取美國多家航空公司的數百次免費航班，甚至大膽要求坐在駕駛艙內的「跳位」。這場驚天騙局直到近期他在巴拿馬落網才畫下句點，如今他已被引渡回美受審，若罪名成立，恐面臨最高 20 年的刑期。 根據美國聯邦檢察官 1 月 20 日公布的起訴書，這名 33 歲的加拿大籍男子達拉斯·波科尼克（Dallas Pokornik）被控涉嫌電信詐欺。檢方調查發現，波科尼克的犯案時間長達四年，從 2020 年 1 月一直持續到 2024 年 10 月。這段期間，他利用偽造的身分，頻繁進出美國各大機場，把飛機當成自家後花園隨意搭乘。 波科尼克目前已在巴拿馬被捕，並順利引渡至美國受審。這起案件情節嚴重，涉及飛航安全漏洞，一旦詐欺罪名成立，他將面臨最高 20 年的有期徒刑，以及最高 25 萬美元（約新台幣 815 萬元）的巨額罰款。 這名男子之所以能屢屢得</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127678-catch-me-if-you-can-pilot-imposter</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127678/thumb/aa9ba94cf3960b4d30cce0596fa89212.jpg?1769421432" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 01 Feb 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>吃藥沒？膠囊吞下會「打卡」回報！MIT 開發智慧藥丸救健忘，專治不乖乖吃藥的病人</title>
-      <link>https://www.techbang.com/posts/127689-mit-smart-pill-adherence</link>
-      <description>MIT 研發革命性「智慧膠囊」，解決病患忘記服藥的難題。這款智慧膠囊能自動回報服藥狀態，確保關鍵用藥不漏，大幅提升病患服藥依從性。忘記吃藥是許多慢性病患的惡夢，也是醫生最頭痛的問題。麻省理工學院（MIT）的工程師們最近研發出一款神奇的「智慧膠囊」，只要吞下去，它就會自動發出訊號回報「已服藥」。這項技術對於需要嚴格控制用藥的器官移植或肺結核病患來說，無疑是一大福音。 根據 MIT 團隊發布於《自然·通訊》（Nature Communications）期刊的最新研究，這套系統並不是要改變藥物本身，而是將一個微型通訊裝置整合進普通膠囊裡。這個裝置包含了一根由鋅製成的可生物分解天線，以及一枚超迷你的射頻（RF）晶片。 它的運作原理相當聰明：在吞服前，膠囊外層覆蓋著特殊的絕緣塗層，讓訊號保持靜默。一旦膠囊進入胃部，胃酸溶解外層塗層後，藥物釋出的同時，天線也會展開並運作，向體外的接收裝置（例如未來的穿戴式裝置）發送「吃藥打卡」的訊號。整個過程大約在 10 分鐘內完成。 你可能會擔心把電子零件吃進肚子裡安全嗎？研究團隊特別強調，這款膠囊的設計以安全性為優先。天線使用的鋅和封裝用的纖維素，都是醫學上安</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127689-mit-smart-pill-adherence</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127689/thumb/f1a762f530b672eb4903d3f0b46bebe5.jpg?1769423243" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 31 Jan 2026 06:30:00 +0000</pubDate>
+      <title>Windows 11 測試版更新：原生支援 .webp 圖片作為桌面背景，影片桌布功能則暫時消失</title>
+      <link>https://www.techbang.com/posts/127581-windows-11-webp-background-video-wallpaper-removed</link>
+      <description>Windows 11 新增支援 .webp 圖片作為桌面背景，提升個人化體驗。然而，先前測試的影片桌布功能卻在 Windows 11 中消失，桌面背景的未來走向仍是未知數。微軟在最新的 Windows 11 測試版本中，開放使用者直接將 .webp 圖片設定為桌面背景，免去轉換格式的麻煩，提升了個人化體驗。然而，先前內部測試的影片桌布功能卻在近期版本中消失，讓這項便利的功能未來走向仍是個未知數。 在最新推送給測試人員的 Windows 11 Build 26220.7653 版本中，使用者現在可以直接透過「設定 &amp;gt; 個人化 &amp;gt; 背景」路徑，選擇 .webp 圖片作為桌面背景，不再需要事先轉換成 JPG 或 PNG 等格式。根據微軟的規劃，這項功能未來將實裝到 Windows 11 24H2 或 25H2 的正式版中。 先前，Windows 作業系統早就支援載入 .webp 檔案，但在桌面背景設定中，系統過去並非只是簡單地顯示圖片，而是需要進行可靠的解碼，導致使用者往往得先手動轉檔。 報導指出，相較於 JPG 甚至 PNG，在畫質相近的情況下，.webp 的檔案通常更小。這次的變更代表</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127581-windows-11-webp-background-video-wallpaper-removed</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127581/thumb/56cee5d9b05f638efad5e29965cf33e8.jpg?1768816231" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 01 Feb 2026 06:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>冬季限定！油菜花梅花這樣拍，手機也能拍出大師級美照！</title>
-      <link>https://www.techbang.com/posts/127604-winter-rapeseed-plum-photography-tips</link>
-      <description>冬季油菜花與梅花綻放，本文深入解析如何拍出好看的油菜花和梅花。掌握關鍵拍攝技巧，讓您輕鬆捕捉冬季花卉美景，提升您的花卉拍攝技巧。每到冬季，油菜花的金黃與梅花的潔白便悄悄占據視線，為略顯沉靜的景色增添層次與色彩。兩者雖同在寒冬綻放，卻在形態、色調與景物上各有特色，而本文將分享拍出好看油菜花和梅花的關鍵技巧，讓你無論用相機或手機皆能輕鬆獲得令人驚豔的花卉美照。 延伸閱讀：極簡主義攝影技巧：換個角度看世界，記好9個小技巧就能掌握極簡構圖 延伸閱讀：2025 極光爆發年：極光拍攝技巧、交通、住宿建議全攻略 延伸閱讀：夏季銀河拍攝技巧：5 招掌握拍攝銀河成功機率，這樣拍就對了！ 油菜花與梅花的季節敘事 冬季向來被視為景色較為收斂的季節，但在台灣，油菜花與梅花往往成為這段時節最具代表性的色彩。油菜花盛開時，大片金黃覆蓋田野，帶來既溫暖又充滿生命力的視覺效果；梅花則以潔白或淡粉的花形點綴枝頭，散發屬於寒冬的清透質感。有趣的是，兩種花卉雖同在低溫時綻放，但呈現出的畫面語言卻截然不同。油菜花以密集的花朵構成大面積色塊，最容易呈現飽滿且鮮明的色調。它們通常生長在平地農田，視野開闊且易於造訪，因此十分適合拍</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127604-winter-rapeseed-plum-photography-tips</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127604/thumb/9d0004634e0ebe325469e1a2adb2fe5b.jpg?1768907238" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 31 Jan 2026 07:30:00 +0000</pubDate>
+      <title>迪卡儂 Van Rysel 電動輔助自行車FTP²「沒踏板」，要穿特製鞋才能騎、整台才 15 公斤！</title>
+      <link>https://www.techbang.com/posts/127704-decathlon-van-rysel-concept-no-pedals-special-shoes-15kg</link>
+      <description>迪卡儂Van Rysel推出顛覆性的電動輔助自行車FTP²，取消傳統踏板設計，需穿特製卡鞋騎乘。這款輕量級電動輔助自行車僅15公斤，重新定義未來踏板體驗，引發車友熱議。大家對單車的印象可能要被顛覆了！迪卡儂（Decathlon）旗下的高階自行車品牌 Van Rysel，最近展示了一款名為「FTP²」的電動輔助自行車（E-Bike）概念車，設計簡直腦洞大開。這台車最狂的地方在於它直接取消了傳統的踏板設計，車主必須穿著「特製卡鞋」才能騎，而且整車重量竟然壓在 15 公斤，引起車友圈一陣熱議。 根據外媒消息指出，這款 FTP² 為了追求極致的空氣力學表現，外型設計相當流線且充滿未來感。設計團隊將電池與馬達系統巧妙地整合進加粗的車架下管中，連座管都採用扁平化設計，目的就是為了將風阻降到最低。從外觀看來，簡潔程度幾乎不像是一台電動車。 當然，整台車最大的亮點還是那組「消失的踏板」。Van Rysel 提出了一個大膽的想法，將原本位於曲柄上的踏板花鼓結構，直接整合進專用的騎行鞋底。官方宣稱，這樣能大幅縮短腳掌與動力軸心的距離，讓踩踏的力量傳導更直接、效率更高。不過這也意味著，如果你出門騎車忘了帶這</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127704-decathlon-van-rysel-concept-no-pedals-special-shoes-15kg</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127704/thumb/ddca1838155f9926fcc74f260e38d69a.jpg?1769503672" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 01 Feb 2026 07:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>南韓離奇竊案：小偷半夜潛入設計辦公室，只為偷走四條高價記憶體</title>
-      <link>https://www.techbang.com/posts/127562-korea-ram-theft-design-office</link>
-      <description>南韓驚傳離奇竊盜案，竊賊不偷現金或設備，竟專挑價格飆漲的記憶體下手，只拔走高價記憶體模組。這起事件不僅令人咋舌，更反映了當前記憶體市場的瘋狂與稀缺。南韓科技論壇最近流傳一起離奇竊盜案，一名竊賊半夜闖入設計辦公室，沒偷走貴重設備或現金，而是專挑近期價格飆漲的記憶體下手。這名竊賊打破兩台電腦主機側板，只偷走四條美光 DDR5-5600 CL46 記憶體，其他設備則毫髮無傷。 根據媒體報導，這起發生在南韓的離譜竊案近日引發熱議。竊賊潛入一間設計辦公室後，目標並非龐大且難以搬運的桌機整機，也不是員工抽屜裡的現金，而是精準鎖定了體積小巧、卻價值連城的記憶體模組。 受害者在社群平台發文指出，竊賊擊碎了兩台主機的強化玻璃側板，僅拔走四條美光（Micron）DDR5-5600 CL46 32GB 記憶體，總容量達 128GB。令人驚訝的是，現場其餘昂貴零件如顯示卡、高階顯示器及主機板等均未受損。 這起案件背後反映了 2026 年初全球嚴峻的記憶體危機。由於人工智慧（AI）浪潮持續帶動伺服器與資料中心需求，加上生產端的供應鏈瓶頸，DDR5 記憶體價格在近期瘋狂飆升。根據市場數據，特定高階 32GB 記憶</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127562-korea-ram-theft-design-office</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127562/thumb/4f811efccee266b4dc27554fb5713b22.jpg?1768809867" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 31 Jan 2026 08:00:00 +0000</pubDate>
+      <title>《魔獸世界》推出艾澤拉斯總覽特別直播，公開《至暗之夜》內容與 2026 年遊戲規劃</title>
+      <link>https://www.techbang.com/posts/127742-wow-azeroth-livestream-war-within-2026-plans</link>
+      <description>《魔獸世界》特別直播揭露新資料片《至暗之夜》與備受期待的房屋系統。玩家對《魔獸世界》房屋系統的熱情超乎想像，暴雪更將推出全球挑戰，強化社群互動，不容錯過！美商暴雪娛樂於 1 月 30 日推出「《魔獸世界》艾澤拉斯總覽特別直播」，由《魔獸世界》執行製作人 Holly Longdale 與資深遊戲總監 Ion Hazzikostas 親自登場，回顧過去一年遊戲內容更新，同時揭露即將於 3 月 3 日全球發行的新資料片《至暗之夜》重點特色，並首度對外說明 2026 年《魔獸世界》與經典版的後續規劃方向。 在直播中，製作團隊說明，《至暗之夜》將延續世界觀中「虛無」勢力的發展，並在上市後透過新賽季與版本更新，逐步加入各類型遊戲內容，包括團隊副本、大型戶外區域與實驗性玩法，提供不同遊玩取向的玩家更多選擇。 其中備受玩家關注的房屋系統，也確認將隨《至暗之夜》正式登場。官方回顧先前的搶先體驗活動，指出短短兩週內，玩家累積遊玩房屋系統的時間超過 400 萬小時，擺放的裝飾物品數量超過 1,400 萬件，顯示該系統在社群中具有高度參與度。為進一步鼓勵創作，官方也宣布將推出全球性房屋翻新挑戰活動，邀請玩家運</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127742-wow-azeroth-livestream-war-within-2026-plans</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127742/thumb/22a7944cddace7813596005ff839a838.jpg?1769784645" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 01 Feb 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>任天堂官網驚爆「OSM」神秘代碼！Switch 2 Lite浮出水面？</title>
-      <link>https://www.techbang.com/posts/127559-switch-2-osm-mini-leak</link>
-      <description>任天堂粉絲請尖叫！關於下一代主機Switch 2的傳聞又有新進展。任天堂官方程式碼驚現神秘OSM裝置代碼，暗示Switch 2可能推出輕巧版新機型，引發玩家熱議。近日有眼尖的網友在任天堂帳號入口網站的程式碼中，發現了一個過去從未見過的神祕裝置型號代碼「OSM」，這項發現立刻在玩家社群炸開了鍋，紛紛猜測任天堂是不是打算像前代一樣，同步推出更輕巧、更小尺寸的機型。 又有案例證明，官方網站往往是洩密的第一現場。根據玩家在任天堂帳號設定頁面的發現，目前系統已知的裝置代碼除了大家熟悉的初代 Switch（HAC）、螢幕升級的 Switch OLED（HEG）以及輕巧版的 Switch Lite（HDH）之外，最近還多了一個先前被認為是 Switch 2 開發套件的「BEE」，以及這次最新曝光的「OSM」。 更讓人起疑的是，當使用者嘗試連結這個 OSM 代碼時，頁面竟然會顯示出與 BEE 相同的 Switch 2 圖示。而且這並非系統錯誤，因為輸入其他隨機亂碼時網頁會報錯，唯獨 OSM 被辨識為有效的產品編碼。 以下是目前曝光的產品代碼對照： HAC：初代 Switch HEG：Switch OL</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127559-switch-2-osm-mini-leak</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127559/thumb/e2a1073d153f8cf3418823eee4f21883.jpg?1768810868" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 31 Jan 2026 08:30:00 +0000</pubDate>
+      <title>萬物皆可 Doom？神人竟把《毀滅戰士》移植到「藍牙耳機」上，還開網頁直播給大家玩</title>
+      <link>https://www.techbang.com/posts/127668-doom-on-earbuds</link>
+      <description>神人挑戰極限！經典遊戲毀滅戰士竟成功移植到PineBuds Pro藍牙耳機。這款PineBuds Pro讓毀滅戰士透過直播實現「雲端試玩」，展現硬體潛力。又有神人挑戰極限了！科技圈流傳著一句名言：「它能跑 Doom 嗎？（Can it run Doom?）」，現在這個清單上又多了一個意想不到的裝置——藍牙耳機。一位名為 Arin Sarkisian 的網頁開發者，成功將經典射擊遊戲初代《毀滅戰士》移植到開源耳機 PineBuds Pro 上執行，這項名為「DOOMBUDS」的專案不只證明了硬體的潛力，還因為耳機沒有螢幕，開發者竟然透過網頁直播的方式讓大家「雲端試玩」。 根據外媒 PCGAMER 的報導，這款 PineBuds Pro 是目前市面上少見搭載開源韌體的無線耳機。開發者 Arin Sarkisian 表示，他對耳機內建的 CPU 進行了微調，將時脈穩定鎖定在 300MHz 並關閉低功耗模式後，發現運算效能剛好足夠執行初代《毀滅戰士》。不過受限於硬體規格，遊戲的影格率大約落在 18 FPS 左右。 為了讓遊戲能順利塞進耳機有限的儲存空間，Sarkisian 針對遊戲檔案進行了大</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127668-doom-on-earbuds</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127668/thumb/0fad0be433d34f7f30a9b892a4f44dc4.jpg?1769416333" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 01 Feb 2026 08:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Side 台北新工作室開幕：全球遊戲服務商如何以 AI 策略佈局台灣，搶攻 46 億美元市場？</title>
-      <link>https://www.techbang.com/posts/127741-side-taipei-studio-opens-75-jobs</link>
-      <description>Side 台北工作室正式開幕，不僅創造大量工作機會，更將導入創新的 AI 解決方案。這間 Side 台北工作室 將以 AI 解決方案 強化遊戲品質保證與在地化服務，引領台灣遊戲產業邁向新紀元。全球遊戲服務供應商 Side 在台北的新工作室正式開幕，創造 75 個新工作機會。台北遊戲業的產值預計將在 2030 年達到 46.4 億美元，因此這次擴編是一個策略性的布局。Side 的目標是透過整合進服務的全新 AI 解決方案，進一步吸引台灣持續成長的開發者社群。 過去一年，Side 台北據點在品質保證（QA）、在地化與在地化測試（LQA）業務領域皆表現優異，於 2025 年成功完成了超過 100 個專案，並在此期間晉升了約 10% 的全職員工。Side 台北的資深員工將繼續努力，與徵才活動招募來的新同事攜手合作，填滿這間明亮寬敞的新辦公室。Side 母公司 PTW Holdings 的代表參加了在台北市南港區舉行的開幕晚會。 ▲ Side 和 PTW Holdings 的代表蒞臨全新的台北工作室。由左至右分別為 Martin McBride（Side溝通長）、橘鐵平（PTW 控股執行長兼總裁</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127741-side-taipei-studio-opens-75-jobs</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127741/thumb/efed9647bfb40360e3a0af9e1f51a5f6.jpg?1769783189" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Feb 2026 00:30:00 +0000</pubDate>
+      <title>Windows 11記事本超實用更新！表格功能輕鬆搞定，Copilot AI串流輸出體驗大升級</title>
+      <link>https://www.techbang.com/posts/127566-windows-11-notepad-copilot-tables</link>
+      <description>Copilot+ PC 帶來 AI 文字串流輸出體驗，AI 助手能逐字顯示回應，提升 Copilot+ PC 的 AI 文字串流輸出互動性。微軟最近針對所有 Windows 11 使用者，正式推出了記事本的「建立表格」功能。這項更新不僅讓記事本具備類似 Word 的表格插入能力，還為 Copilot+ PC 帶來了 AI 文字即時串流輸出體驗，讓 AI 助手能像聊天機器人一樣逐字顯示回應。 根據報導，這項功能先前已在 2024 年 11 月進行測試，現在正式全面開放。它讓使用者能在記事本中快速插入表格，實作方式非常輕量，適合日常基礎資料的整理。 輕量化表格：支援 Markdown 語法 新版記事本的建表操作相當直覺：使用者只需點擊工具列上的新表格按鈕，即可透過網格選擇器選定列數與欄數。插入後，儲存格內支援粗體、斜體、底線及超連結等格式。 值得注意的是，記事本依舊堅持輕量定位。這項表格功能底層採用 Markdown 風格語法，表格會以純文字形式儲存在 .txt 檔案中，不會增加額外的 CPU 或記憶體負擔。使用者還能透過右鍵選單快速增刪行列，並利用「適應欄位到視窗寬度」功能自動對齊排版。</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127566-windows-11-notepad-copilot-tables</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127566/thumb/9e54e0a5424eccf55c4bf6a2a44170e9.jpg?1768812158" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Feb 2026 01:16:00 +0000</pubDate>
     </item>
     <item>
-      <title>記憶體價格失控！從手機到汽車全受衝擊，電腦漲價潮恐持續到明年！</title>
-      <link>https://www.techbang.com/posts/127706-memory-supercycle-computers-costlier</link>
-      <description>記憶體價格迎來超級週期式暴漲，讓電子產業頭痛不已。這波記憶體漲價潮正重創全球供應鏈，從IC設計到PC製造，電子產業面臨嚴峻考驗。這下子換電子產業頭痛了！才剛擺脫之前的庫存陰霾，現在記憶體晶片價格竟然迎來一波「超級週期」式的暴漲，但這對產業來說可不是什麼好消息。 根據韓媒最新報導，這波漲價潮正在重創全球半導體供應鏈，從上游的 IC 設計、晶圓代工，一路燒到終端的筆電與汽車製造商，裁員、砍單、修改設計的消息接連傳出，這場風暴恐怕比想像中還要嚴重。 根據韓國媒體 Chosun Biz的報導，記憶體價格飆升的同時，消費性電子產品的買氣卻開始縮手，形成了尷尬的「雙殺」局面。首先受到衝擊的就是我們熟悉的 IC 設計大廠。身為智慧型手機核心供應商的高通（Qualcomm）和台灣的聯發科（MediaTek），現在都面臨業績下修的風險。 特別是聯發科，手機應用處理器（AP）佔了其營收超過一半（53%）。大家都知道，處理器跟記憶體是手機成本最高的兩個零件，現在記憶體變貴了，手機廠為了控制成本，很可能會減少對處理器的下單，或者要求降價，這對聯發科來說絕對是一大考驗。同樣的情形也發生在驅動 IC 領域，像是台</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127706-memory-supercycle-computers-costlier</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127706/thumb/1520da64fb15cb023482874f99868bb6.jpg?1769504313" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Feb 2026 01:30:00 +0000</pubDate>
+      <title>不用羨慕 EX60，2021 年後 Volvo 車款也能更新享有 Gemini</title>
+      <link>https://www.techbang.com/posts/127698-gemini-for-2021-volvo-cars</link>
+      <description>近日 Volvo 發表品牌最新電動休旅 EX60，EX60 特色之一就是搭載 Gemini，然而不是 EX60 車主也別失望，因為今年 Volvo 就會替其他車型進行軟體升級安裝 Gemini。近日 Volvo 發表品牌最新電動休旅 EX60，EX60 特色之一就是搭載 Gemini，然而不是 EX60 車主也別失望，因為今年 Volvo 就會替其他車型進行軟體升級安裝 Gemini。 目前 AI 已陸續運用至各領域，而車載系統和 Google 合作的 Volvo，近日也發表品牌最新電動休旅 EX60，其特色之一就是使用 Google AI 人工智慧助理 Gemini。AI 之所以被廣泛運用，因除能快速搜尋與統計外亦有強大的學習能力，因此有別於以往生冷呆板的指令，Gemini 能用自然對話方式協助駕駛操作 Mail 搜尋預訂飯店的地址或詢問購買的物品能否放進車內等功能，而透過不斷學習則會提供更聰明快速的服務。 然而沒買 EX60 也不用羨慕，因為只要是 2021 年後車款之後也能使用 Gemini，其實於 2024 年推出 EX90 時，Volvo 就計畫讓 2025 年 XC90 甚</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127698-gemini-for-2021-volvo-cars</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127698/thumb/2a551453205cd6aef21c628f029d0d15.jpg?1769499103" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Feb 2026 01:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>連 NASA 也要跑分？傳官方正評估導入 PC 工具 CapFrameX 測試太空船模擬器效能</title>
-      <link>https://www.techbang.com/posts/127654-nasa-capframex-simulator-benchmark</link>
-      <description>驚訝！NASA 太空總署正考慮將 CapFrameX 應用於太空船駕駛艙模擬器測試。這款廣受好評的效能分析工具 CapFrameX，將助 NASA 確保模擬器流暢與低延遲，提升太空人訓練品質。沒想到連 NASA 太空總署也需要「跑分」？根據最新消息指出，NASA 正考慮將廣受 PC 玩家與硬體愛好者喜愛的效能分析工具 CapFrameX，應用於太空船駕駛艙模擬器的測試中。目前這項軟體審核程序已經啟動，而且據說還是 NASA 主動找上門的。 根據 CapFrameX 開發團隊日前在 X 平台（前 Twitter）透露的消息，NASA 對於採用他們的跑分工具來評估太空船駕駛艙模擬器的運作效能表現出濃厚興趣。目前，該軟體已進入美國政府標準的軟體審核流程。開發團隊在後續貼文中特別強調，這次合作並非他們去推銷，而是 NASA 主動發起審核程序的，顯見官方對於這類第三方效能監控工具的需求。 雖然 NASA 官方尚未正式對此發表評論，但該機構在飛行模擬系統中混用「自研軟體」與「現成商業軟體」早已不是秘密。例如 Intel 旗下的 Wind River Simics（主要用於系統模擬）以及 MathW</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127654-nasa-capframex-simulator-benchmark</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127654/thumb/e384ee6deac766c44911bfbbe3bc91e9.jpg?1769410490" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Feb 2026 02:30:00 +0000</pubDate>
+      <title>速度狂飆！加州大學團隊研發 120Gbps 無線收發器，比 5G 快 24 倍媲美光纖</title>
+      <link>https://www.techbang.com/posts/127723-uc-120gbps-wireless-24x-5g-fiber</link>
+      <description>UCI團隊成功研發新型矽晶片收發器，將無線傳輸速度推升至120Gbps，下載4K電影眨眼間完成。這款新型矽晶片收發器不僅實現光纖等級的無線傳輸速度，更大幅降低功耗。以後下載 4K 電影可能真的只要「眨眼間」了。加州大學爾灣分校（UCI）工程團隊近日發布重大突破，成功研發出一款新型矽晶片收發器，一舉將無線傳輸速度推升至 120Gbps。這項數據不僅比現行 5G 快上 24 倍，更達成了一項里程碑：讓無線傳輸首次擁有匹敵資料中心光纖電纜的速度，而且還相當省電。 UCI 團隊在 1 月 22 日公開這項成果。根據官方說明，這款收發器的傳輸能力完全海放目前市面上的無線技術。我們來比一下數據：理論上 Wi-Fi 7 的速度約為 30Gbps，5G 毫米波（mmWave）約為 5Gbps。而這款新晶片高達 120Gbps（約每秒傳輸 15GB 資料），確實是無線通訊的一大躍進。 過去在通訊工程界有個物理鐵律：「速度越快，耗電越兇」。傳統架構在挑戰 100Gbps 這種超高速率時，負責訊號轉換的「數位類比轉換器」（DAC）往往會成為效能瓶頸，甚至導致晶片過熱燒毀。 為了突破限制，UCI 研究人員並不</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127723-uc-120gbps-wireless-24x-5g-fiber</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127723/thumb/73cfd941095c364f8088e80cb300fc4b.jpeg?1769584439" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Feb 2026 02:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>冬奧選手限定！三星 Galaxy Z Flip7 奧運特別版，內建 AI 翻譯與運動員專屬數位服務</title>
-      <link>https://www.techbang.com/posts/127737-samsung-z-flip7-olympic-ai-athlete</link>
-      <description>三星為2026冬季奧運打造Galaxy Z Flip7奧運特別版，搭載強大Galaxy AI，助全球運動員記錄賽事。三星作為全球奧林匹克與帕拉林匹克合作夥伴，宣布為 2026 年米蘭冬季奧運會及冬季帕運會的所有參賽運動員推出 Galaxy Z Flip7 奧運特別版行動裝置，將提供給來自約 90 個國家、近 3,800 名的運動員使用，支援他們在選手村的生活需求，並協助記錄競賽與慶祝過程中的影像。 在 2026 年冬季奧運中，頒獎台上的 Victory Selfie 自拍活動將首度於冬奧登場，並擴展至團體賽事，讓運動員能自行拍攝獲獎時刻。此外，部分國家奧委會的運動員也能透過 Galaxy S25 Ultra 拍攝 Victory Profile 系列照片，與外界分享參賽心路歷程。 在產品外觀設計上，Galaxy Z Flip7 奧運特別版的玻璃背蓋選用藍色，與 2026 年米蘭東奧的官方風格呼應，並融合了義大利傳統的藍色調，機身採用金色金屬邊框，象徵運動員對獲獎的追求。包裝內附贈一款帶有藍色磁吸環的透明保護殼，環狀部分加入金色月桂葉裝飾。 裝置內建專為本次賽事設計的動態桌布，其線條靈感</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127737-samsung-z-flip7-olympic-ai-athlete</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127737/thumb/2ad00179f20d0bacebfff2855831dfef.jpg?1769746489" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Feb 2026 03:00:00 +0000</pubDate>
+      <title>Google真的要緊張了！72% ChatGPT用戶直接把 AI 設成首頁，搜尋習慣大洗牌！</title>
+      <link>https://www.techbang.com/posts/127701-72-chatgpt-ai-homepage-google-search-shift</link>
+      <description>這種使用者習慣的轉變，讓 Google 搜尋的霸主地位面臨前所未有的衝擊，ChatGPT 正重塑網路入口。這下 Google 真的要緊張了！過去幾十年來，大多數人打開瀏覽器後的「第一站」通常是 Google 搜尋，這也是其廣告帝國穩如泰山的基礎。但根據最新調查顯示，這道護城河似乎已被攻破，高達 72% 的 ChatGPT 訂閱用戶表示，他們已經把 ChatGPT 設定為瀏覽器首頁。這意味著使用習慣正在發生根本性的轉移，搜尋引擎不再是獲取資訊的唯一入口。 科技媒體《Mashable》引述訂閱服務整合平台 Bango 的最新調查指出，這項數據揭示了一個驚人的趨勢：對於付費訂閱 AI 服務的重度使用者來說，傳統的關鍵字搜尋已經不是首選，他們更傾向直接向 AI 提問。若這項數據反映了廣大市場的真實走向，Google 長期以來的搜尋霸主地位將面臨前所未有的衝擊。 過去，Google 為了守住這個「網路入口」，不惜砸下重金。例如在反壟斷訴訟敗訴前，Google 每年需向蘋果（Apple）支付高達 200 億美元（約新台幣 6,560 億元），只為了確保 iPhone 上的 Safari 瀏覽器預設</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127701-72-chatgpt-ai-homepage-google-search-shift</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127701/thumb/9c4f40ac8b0259477b91916dbd30cdb5.jpg?1769501079" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Feb 2026 03:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>【Disney+ 2 月片單】台劇、韓劇、電影、影集推薦，最新上架總整理</title>
-      <link>https://www.techbang.com/posts/127743-disney-plus-february-watchlist-new-releases</link>
-      <description>Disney+ 2 月強檔片單正式出爐！本篇將推薦幾部將於 2 月登陸 Disney+ 的強檔片單，並提供最新上架總整理，農曆新年不怕沒劇追。Disney+ 2 月強檔片單正式出爐！這個月有試映榮獲高雄電影節「觀眾票選第一名」的職人浪漫台劇《動物園》；由李聖經、蔡鍾㶸主演的韓劇《在你燦爛的季節》則講述性格如同冬天與夏季的兩人，相隔七年共譜細膩的重逢戀曲。此外，艾美獎導演詹姆斯 L. 布魯克斯攜手艾瑪麥基、潔美李寇蒂斯推出喜劇《不完美的完美》也將上線；首季口碑爆棚的懸疑影集《極樂凶間》第二季再掀命案風暴、及改編自《孤雛淚》的澳洲原創影集《扒手道奇》第二季都將於 2 月登場！ 延伸閱讀：【Netflix 2 月片單】影集、電影、動畫、實境秀推薦，最新上架總整理 Disney+ 2 月片單推薦-台劇：《動物園》 雄影「觀眾票選第一名」！邵雨薇轉職動物保育員親手掃糞便，與王柏傑展開歡喜冤家日常。試映獲得高雄電影節「觀眾票選第一名」佳績，《動物園》由製作人唐在揚、導演蘇文聖攜手演員王柏傑、邵雨薇、李淳，將鏡頭對準高雄壽山動物園，劇情描述廣告公司菁英朱欣葵（邵雨薇 飾）因工作失意，意外成為動物園實</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127743-disney-plus-february-watchlist-new-releases</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127743/thumb/2dc49064e5c926d02d2a41b7514bb398.jpg?1769821661" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Feb 2026 04:30:00 +0000</pubDate>
+      <title>Netflix 公布 2026 年華語片單：《乩身》、《百萬人推理》最快農曆年上線</title>
+      <link>https://www.techbang.com/posts/127736-netflix-2026-chinese-slate</link>
+      <description>Netflix 於 2026 年持續深耕華語內容市場，公開多部精彩華語影集片單。Netflix 攜手台灣創作者，透過多元題材呈現豐富的華語內容，值得期待。Netflix 於今日舉辦 2026 Netflix What Next 華語內容發布會，公開今年度的華語影集片單與開發計畫。過去一年，《回魂計》與《童話故事下集》等作品在亞洲多個市場進入前 10 名榜單，而《影后》則在金鐘獎與釜山國際電影節獲得關注。延續這項趨勢，2026 年的片單涵蓋奇幻、動作、懸疑、喜劇與醫療劇等多種題材，並與來自不同地區的創作者合作，嘗試呈現多元的敘事面貌。 Netflix 華語內容總監黃怡玫表示，華語故事常涉及複雜的人性議題，平台期待與願意嘗試不同風格的作品合作，並持續提供資源支持台灣創作者，在產業環境變動下，平台的目標是成為觀眾尋找華語內容的管道，而 2026 年的布局是達成此目標的過程之一。 2 月 12 日將率先推出推理影集《百萬人推理》，由鄭伊健、婁峻碩等人演出，《百萬人推理》由《華燈初上》團隊製作，描述一名刑警追查準確預言網紅死亡的網路先知，探討數位時代下的名氣與社會價值落差，編導蘇文聖指出，劇本自</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127736-netflix-2026-chinese-slate</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127736/thumb/75d3445cbf3250f49568cd8da9554fc3.jpg?1769745229" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Feb 2026 04:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

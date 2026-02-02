@@ -8,63 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Feb 2026 06:54:26 +0000</lastBuildDate>
-    <item>
-      <title>AI Code Review Prompts Initiative Making Progress For The Linux Kernel</title>
-      <link>https://www.phoronix.com/news/AI-Code-Review-Prompts-Linux</link>
-      <description>Chris Mason, the longtime Linux kernel developer most known for being the creator of Btrfs, has been working on a Git repository with AI review prompts he has been working on for LLM-assisted code review of Linux kernel patches. This initiative has been happening for some weeks now while the latest work was posted today for comments...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AI-Code-Review-Prompts-Linux</guid>
-      <pubDate>Fri, 30 Jan 2026 20:55:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>GTK Developers Plot Improvements To Tackle This Year - Possible Opt-In Unstable API</title>
-      <link>https://www.phoronix.com/news/GTK-2026-Planning-FOSDEM</link>
-      <description>GNOME developers had a busy week in preparing for the GNOME 50 beta release, many GNOME developers attending FOSDEM this weekend in Brussels, and other happenings...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GTK-2026-Planning-FOSDEM</guid>
-      <pubDate>Sat, 31 Jan 2026 10:55:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Last Of The Dolby Digital Plus "E-AC3" Patents Might Now Be Expired</title>
-      <link>https://www.phoronix.com/news/Dolby-Digital-Plus-E-AC3-2026</link>
-      <description>For those interested in the Dolby Digital Plus "Enhanced AC-3" audio compression format for open-source software, the last of the patents for this widely-used format by streaming services and more appears to have expired...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Dolby-Digital-Plus-E-AC3-2026</guid>
-      <pubDate>Sat, 31 Jan 2026 11:09:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Plasma 6.7 Restoring The Air Plasma Theme, Fixes KWin Issue With Intense Alt+Tab'ing</title>
-      <link>https://www.phoronix.com/news/KDE-Brings-Back-Air-Theme</link>
-      <description>KDE Plasma developers remain quite busy preparing for the Plasma 6.6 desktop release coming up in a little more than two weeks while at the same time continuing to land early features for the Plasma 6.7 release coming later in the year...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Brings-Back-Air-Theme</guid>
-      <pubDate>Sat, 31 Jan 2026 11:21:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNOME 50 Is No Longer Treating Variable Rate Refresh "VRR" As Experimental</title>
-      <link>https://www.phoronix.com/news/GNOME-50-VRR-Not-Experimental</link>
-      <description>Another great albeit overdue improvement for GNOME 50 has landed: Variable Rate Refresh "VRR" functionality for modern displays is now promoted and no longer treated as an experimental feature...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-VRR-Not-Experimental</guid>
-      <pubDate>Sat, 31 Jan 2026 11:37:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linuxulator-Steam-Utils To Enjoy Steam Play Gaming On FreeBSD &amp;amp; Other Options</title>
-      <link>https://www.phoronix.com/news/FreeBSD-Gaming-2026</link>
-      <description>Presented today at FOSDEM in Brussels was the state of gaming on FreeBSD by Thibault Payet. Besides various open-source games able to be compiled natively for FreeBSD, this BSD can get in on the Steam Play gaming scene thanks to the "linuxulator-steam-utils" project as a set of workarounds for the Steam Linux client on FreeBSD 14 and newer. Linuxulator-steam-utils builds off FreeBSD's Linuxulator support for running Linux binaries to enjoy the likes of Steam and even Steam Play (Proton) Windows</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-Gaming-2026</guid>
-      <pubDate>Sat, 31 Jan 2026 17:36:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Budgie 10.10.1 Released With Better Stability &amp;amp; Improved Labwc Integration</title>
-      <link>https://www.phoronix.com/news/Budgie-10.10.1</link>
-      <description>Following the Budgie 10.10 release from earlier this month, Budgie 10.10.1 is now here for closing out January...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Budgie-10.10.1</guid>
-      <pubDate>Sat, 31 Jan 2026 18:56:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Phosh Mobile Phone UI Making Progress On GTK4 Port</title>
-      <link>https://www.phoronix.com/news/Phosh-GTK4-Progress</link>
-      <description>Evangelos Ribeiro Tzaras presented today at FOSDEM on the latest work around Phosh, the mobile phone user interface / Wayland shell project for mobile Linux environments. Phosh has been making steady progress and has more features out on the horizon...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Phosh-GTK4-Progress</guid>
-      <pubDate>Sat, 31 Jan 2026 19:52:18 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 02 Feb 2026 07:06:10 +0000</lastBuildDate>
     <item>
       <title>Shotcut Video Editor Now Using Hardware Decoding By Default Except For NVIDIA On Linux</title>
       <link>https://www.phoronix.com/news/Shotcut-26.1-Video-Editor</link>
@@ -78,6 +22,62 @@
       <description>Introduced to the mainline Linux kernel last year was "sheaves" as an opt-in per-CPU array-based caching layer. Sheaves was merged back in Linux 6.18 and while it started as an opt-in caching layer, the plan is to replace more CPU slabs / caches with sheaves. Queued up for slated introduction in the upcoming Linux 7.0 cycle is replacing more of those caches with sheaves...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Replace-Slabs-Sheaves</guid>
       <pubDate>Sun, 01 Feb 2026 01:08:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Framework 13 To See Fan Target &amp;amp; Fan Temperature Thresholds Support With Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Framework-13-Fan-Target</link>
+      <description>For newer Framework devices like the Framework 13 AMD that make use of the ChromeOS Embedded Controller (EC), the upcoming Linux 7.0 kernel is adding fan target support as well as fan temperature threshold handling...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Framework-13-Fan-Target</guid>
+      <pubDate>Sun, 01 Feb 2026 10:51:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux Kernel AI Chatter, ReactOS Developments &amp;amp; AMD Ryzen 7 9850X3D Topped January</title>
+      <link>https://www.phoronix.com/news/January-2026-Highlights</link>
+      <description>During the last month on Phoronix were 296 original news articles from the Linux/open-source perspective as well as another 18 featured articles / Linux hardware reviews, written by your's truly. Here is a look back at the most popular news and reviews in the Linux world over the past month...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/January-2026-Highlights</guid>
+      <pubDate>Sun, 01 Feb 2026 11:12:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>cTGP Graphics Power Setting Coming For Uniwill / TUXEDO Laptops With Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Uniwill-Driver-cTGP-Linux-7.0</link>
+      <description>Upstreamed for the Linux 6.19 kernel is the Uniwill laptop platform driver for exposing more features/settings for laptops made by this Taiwanese OEM/ODM, including the laptops from TUXEDO Computers. Coming for the next kernel cycle is further extending the Uniwill platform driver for now having support for adjusting the custom total graphics power "cTGP" for those laptops with a dedicated GPU...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Uniwill-Driver-cTGP-Linux-7.0</guid>
+      <pubDate>Sun, 01 Feb 2026 11:22:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>smolBSD Builds On The NetBSD-MicroVM Kernel For Booting To Service VMs In Milliseconds</title>
+      <link>https://www.phoronix.com/news/smolBSD</link>
+      <description>A new BSD distribution I only learned about for the first time this weekend is smolBSD, a project built atop the netbsd-MICROVM kernel coming with NetBSD 11 for providing insanely fast booting micro-VMs intended for micro-services and similar environments...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/smolBSD</guid>
+      <pubDate>Sun, 01 Feb 2026 11:34:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux's b4 Kernel Development Tool Now Dog-Feeding Its AI Agent Code Review Helper</title>
+      <link>https://www.phoronix.com/news/Linux-b4-Tool-Dog-Feeding-AI</link>
+      <description>The b4 tool used by Linux kernel developers to help manage their patch workflow around contributions to the Linux kernel has been seeing work on a text user interface to help with AI agent assisted code reviews. This weekend it successfully was dog feeding with b4 review TUI reviewing patches on the b4 tool itself...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-b4-Tool-Dog-Feeding-AI</guid>
+      <pubDate>Sun, 01 Feb 2026 12:05:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNOME Resources 1.10 Adds Monitoring Support For AMD Ryzen AI NPUs</title>
+      <link>https://www.phoronix.com/news/GNOME-Resources-1.10</link>
+      <description>GNOME Resources 1.10 was christened today as the newest version of this modern system monitoring app for the GNOME desktop that is now used by default on the likes of the upcoming Ubuntu 26.04 LTS. With GNOME Resources 1.10 they have added AMD Ryzen AI NPU monitoring support and other new capabilities...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Resources-1.10</guid>
+      <pubDate>Sun, 01 Feb 2026 14:25:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNU Hurd Is "Almost There" With x86_64, SMP &amp;amp; ~75% Of Debian Packages Building</title>
+      <link>https://www.phoronix.com/news/GNU-Hurd-In-2026</link>
+      <description>Samuel Thibault offered up a status update on the current state of GNU/Hurd from a presentation in Brussels at FOSDEM 2026. Thibault has previously shared updates on GNU Hurd from the annual FOSDEM event while this year's was a bit more optimistic thanks to recent driver progress and more software now successfully building for Hurd...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-Hurd-In-2026</guid>
+      <pubDate>Sun, 01 Feb 2026 15:47:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 6.19-rc8 Released Ahead Of Linux 6.19 Stable Next Week</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-rc8</link>
+      <description>While typically the stable Linux kernel would come after the -rc7 release a week prior, for Linux 6.19 the release is being dragged out by an extra week not due to any scary bugs but rather due to the holiday downtime at the end of the year. As such Linux 6.19-rc8 is out today with the stable v6.19 release expected next Sunday...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc8</guid>
+      <pubDate>Sun, 01 Feb 2026 22:39:10 +0000</pubDate>
     </item>
   </channel>
 </rss>

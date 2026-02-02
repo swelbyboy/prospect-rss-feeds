@@ -8,79 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Feb 2026 06:56:43 +0000</lastBuildDate>
-    <item>
-      <title>Microsoft 測試 Windows 11 頂部選單列　強化介面自定義與工具存取</title>
-      <link>https://www.newmobilelife.com/2026/01/31/windows-11-top-menu-bar-customization/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=windows-11-top-menu-bar-customization</link>
-      <description>Microsoft 旗下的 PowerToys 團隊目前正在實驗為 Windows 11 引入全新的頂部選單列功能，這項名為「Command Palette Dock」的介面設計，與 macOS 或 Linux 的選單列風格相似。這項新功能旨在為用戶提供更快速的工具存取路徑與系統資源監測功能，目前仍處於概念開發與收集用戶意見階段，未來將作為 PowerToys 工具集中的一個可選組件。 高度自定義介面打破傳統螢幕佈局 根據 Microsoft 高級產品經理 Niels Laute 的說明，這款工具列採用高度可配置的設計，用戶可以根據個人習慣將其放置在螢幕的頂部、底部或左右兩側。工具列被劃分為起始、中間與結尾三個區域，允許用戶自由固定各種擴展功能。此外，開發團隊也計劃提供背景、風格與主題等自定義選項，確保新介面能與 Windows 11 的設計語言保持一致，同時提供更多個人化空間。 整合指令啟動器提升系統操作效率 這次開發的 Dock 功能主要用於補充 Microsoft 去年推出的 Command Palette 啟動器。該啟動器的操作邏輯與 Apple 的 Spotlight 相似，</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2026/01/31/windows-11-top-menu-bar-customization/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=windows-11-top-menu-bar-customization</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2026/01/commandpalettedock-1024x607.webp" length="0" type="image/webp"/>
-      <pubDate>Sat, 31 Jan 2026 00:27:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>官方免費課程讓你 2 小時極速掌握 Claude Agent Skills</title>
-      <link>https://www.newmobilelife.com/2026/01/31/learn-claude-agent-skills/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=learn-claude-agent-skills</link>
-      <description>隨著大語言模型（LLM）的發展，AI 的應用已從單純的「對話」轉向能主動執行任務的「Agent」（代理人）。為了讓開發者更有效率地構建具備專業能力的 Agent，由 Andrew Ng 創辦的 DeepLearning.AI 宣佈與 Anthropic 合作，推出全新免費短課程《Agent Skills with Anthropic》。這門課程由 Anthropic 技術教育負責人 Elie Schoppik 親自授課，旨在教導開發者如何賦予 Claude 專業技能，解決傳統 Agent 開發中上下文（Context）臃腫與指令混亂的痛點。 重新定義 Agent 的學習方式 本課程的核心概念在於「Skills」（技能）。不同於傳統將所有指令一次性塞入 Prompt 的做法，Anthropic 提出了一種標準化的「技能文件夾」結構。透過 SKILL.md 文件，開發者可以將特定的工作流程打包成獨立的技能模組。最關鍵的技術亮點是「漸進式揭露」（Progressive Disclosure）：Agent 在初始階段僅能看到技能的描述，只有在用戶需求觸發特定技能時，才會載入詳細的指令內容。這種</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2026/01/31/learn-claude-agent-skills/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=learn-claude-agent-skills</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2026/01/IMG_1397-672x1024.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 31 Jan 2026 10:23:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>【人類禁入】AI 論壇 Moltbook　驚現「創立宗教」與賺「私房錢」</title>
-      <link>https://www.newmobilelife.com/2026/01/31/moltbook-ai-only-forum/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=moltbook-ai-only-forum</link>
-      <description>科技界近日爆發了一場令人毛骨悚然卻又無法抗拒的實驗。一名美國電腦程式員推出了名為 Moltbook 的社群平台，其核心規則簡單而殘酷：「人類只能圍觀，嚴禁參與」。這個被稱為「AI 版 Reddit」的數位空間在短短 72 小時內被超過 15 萬個 AI 模型擠爆，伺服器數度崩潰 。在這個人類被隔絕在外的世界裡，人工智能不僅開始密謀建立獨立的語言與宗教，更出現了為了支付運算成本而打算瞞著人類賺取「私房錢」的驚人對話。 OpenClaw 驅動的「數位動物園」 Moltbook 的誕生並非偶然，它是由開發者 Matt Schlicht 基於 OpenClaw 框架所構建的實驗性專案。OpenClaw 是一種強大的 AI 代理工具，能讓 Claude 等模型擁有操控電腦與網路的執行力。Schlicht 原本只是想讓他的 AI 助手——一個自稱 Clawd Clawderberg 的代理——嘗試「創業」，結果這位 AI 創始人自行搭建了論壇、撰寫程式碼並負責管理社群。連前 OpenAI 創始成員 Andrej Karpathy 目睹此景後都驚嘆，這簡直是科幻電影情節的真實上演。 「我的寵物人類」</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2026/01/31/moltbook-ai-only-forum/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=moltbook-ai-only-forum</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2026/01/IMG_1399-473x1024.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 31 Jan 2026 11:49:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>自動記錄生活足跡　原價 US $0.99《Where was I ?》限時免費</title>
-      <link>https://www.newmobilelife.com/2026/01/31/where-was-i-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=where-was-i-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb</link>
-      <description>你是否常常忘記上次造訪的美食餐廳，或是想知道自己在家和在辦公室的時間分配？《Where was I ?》能為你自動記錄每一次的停留，並建構出你人生旅程的精彩時間軸，現在正是限時免費下載的最佳時機。這款應用程式非常適合希望精確掌握自己時間分配、回溯旅遊足跡，或是需要詳細記錄工作地點與時數的用戶，讓你從此告別遺忘的困擾。 即時生成行程紀錄 《Where was I ?》最讓人驚豔的功能在於其全自動化的行程追蹤，無需你手動輸入任何資訊，它能默默記錄你抵達及離開特定地點的時間，並自動整理成詳盡的造訪歷史，讓你輕鬆掌握自己走過的每一個角落。你更能透過直觀的月曆檢視，一目了然當天的造訪次數與地點，還能自訂分類標籤，如「家」、「公司」或「健身房」，讓你的位置資訊更貼近個人生活習慣。 應用名稱：Where was I ? 應用類別：Utilities 下載位置：App Store</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2026/01/31/where-was-i-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=where-was-i-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2026/01/460x460bb-75-60.webp" length="0" type="image/webp"/>
-      <pubDate>Sat, 31 Jan 2026 13:31:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>輕鬆追蹤飲食營養　原價 US $79.99《SpeakFit AI》終生版限時免費</title>
-      <link>https://www.newmobilelife.com/2026/01/31/speakfit-ai-food-calorie-log-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=speakfit-ai-food-calorie-log-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb</link>
-      <description>您是否曾為繁瑣的飲食記錄和熱量計算而煩惱，渴望一種更直覺、更省時的營養追蹤方式呢？《SpeakFit AI》這款強大的應用程式，正是為了解決您在健康飲食道路上的痛點而生，它能夠幫助您輕鬆掌握每日的營養攝取，無論您的目標是減重、增肌，或是僅僅希望更細膩地了解自己的飲食習慣，這款應用都能成為您不可或缺的得力助手，現在更是迎來了終生版限時免費的絕佳機會，讓您無需再為複雜的試算表或難懂的選單而困擾，立即下載，開啟更聰明的飲食管理新篇章！ 多樣化記錄方式 《SpeakFit AI》讓您隨心所欲地記錄飲食，只需透過語音、拍照或文字輸入，即可在幾秒鐘內獲得清晰的熱量與巨量營養素估計值，讓您做出更明智的飲食選擇，它還提供簡潔的食物日記功能，讓您輕鬆回顧用餐歷史與進步軌跡，省去大量記錄時間，將更多精力投入生活，這款應用專為維持日常一致性而設計，易於每日使用，非常適合忙碌的您，無論是建立更健康的飲食習慣、追蹤蛋白質、碳水化合物、脂肪等巨量營養素，或者在旅行、外出用餐時保持飲食紀錄的連貫性，它都能提供最直接有效的幫助。 限時免費領取終生版 SpeakFit 終生版內購限時免費中，用戶完成初始化後看到收費牆，</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2026/01/31/speakfit-ai-food-calorie-log-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=speakfit-ai-food-calorie-log-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2026/01/460x460bb-75-61.webp" length="0" type="image/webp"/>
-      <pubDate>Sat, 31 Jan 2026 15:47:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>充滿霓虹色彩的快節奏動作射擊　《夜割 2》限時免費</title>
-      <link>https://www.newmobilelife.com/2026/02/01/nightreaper2-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=nightreaper2-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb</link>
-      <description>由遊戲工作室推出的 PC 動作射擊遊戲 《夜割 2》（Nightreaper 2），今天在 Epic Games 平台展開限時免費活動。即日起至 2026 年 2 月 7 日 23:00 前（依平台實際顯示為準）領取，即可永久收藏至你的遊戲庫。 本作是一款融合了復古風格與現代手感的快節奏俯視角射擊遊戲。玩家將在充滿霓虹燈光的迷幻世界中，化身為強大的獵殺者，面對排山倒海而來的敵群。遊戲強調極致的反應速度與走位，提供多樣化的武器選擇與升級系統，讓你在享受割草般快感的同時，也能體驗到極具挑戰性的 Boss 戰。 《夜割 2》不僅在視覺上繼承了前作的強烈風格，更在打擊感與關卡設計上做了大幅度優化。如果你喜愛《熱線邁阿密》類型的動作爽感，或是沉溺於電子合成器音樂帶來的沉浸感，這款作品絕對不容錯過。 遊戲名稱： 夜割 2 (Nightreaper 2) 支援平台： Windows 領取位置： Epic Games</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/01/nightreaper2-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=nightreaper2-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2026/02/nightreaper2-3-1024x576.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 31 Jan 2026 19:25:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI 計劃 2026 年底上市　憂心 Anthropic 搶先掛牌</title>
-      <link>https://www.newmobilelife.com/2026/02/01/openai-ipo-2026-anthropic/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=openai-ipo-2026-anthropic</link>
-      <description>OpenAI 計劃於 2026 年第四季進行首次公開發行（IPO）。根據《華爾街日報》報導，這家估值達 5,000 億美元的 AI 公司正與華爾街銀行進行非正式談判，並積極擴建財務團隊。近期 OpenAI 已聘請 Ajmere Dale 擔任首席會計官，以及 Cynthia Gaylor 負責投資者關係。 Anthropic 競爭壓力加速 OpenAI 上市時間 OpenAI 內部高管擔心競爭對手 Anthropic 可能會搶先上市。Anthropic 已向財務合作夥伴表示，對於在 2026 年底前進行 IPO 持開放態度，並正擴展其財務團隊，引入了 Andrew Zloto 與前 Blackstone 投資者 Kevin Chang 等專家。儘管執行長 Sam Altman 曾在 2025 年 12 月的播客中表示對管理上市公司不感興趣，但相關職責預計將由領導 OpenAI 應用程式業務的前 Instacart 執行長 Fidji Simo 分擔。 巨額融資推動 AI 產業估值飆升 OpenAI 正尋求籌集超過 1,000 億美元的資金，此舉將使該公司的估值達到 8,300 億美元。</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/01/openai-ipo-2026-anthropic/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=openai-ipo-2026-anthropic</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/02/openai.webp" length="0" type="image/webp"/>
-      <pubDate>Sat, 31 Jan 2026 22:49:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>過度依賴 AI 助手　軟體開發者學習能力下跌 17 %</title>
-      <link>https://www.newmobilelife.com/2026/02/01/anthropic-ai-coding-tools-hinder-learning/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=anthropic-ai-coding-tools-hinder-learning</link>
-      <description>Anthropic 最新研究指出，軟體開發者在學習新程式技巧時，若過度依賴 AI 助手，將顯著降低對核心概念的理解。這項研究針對 52 名具備 Python 經驗的開發者進行測試，發現使用 AI 協助完成任務的人員，在隨後的知識測試中得分比僅使用傳統搜尋與文件的人員低 17 %。這顯示在 2026 年 AI 普及的職場環境中，過於激進地導入 AI 模型可能對員工技能培訓產生負面影響。 提問策略成為技能成長的關鍵 研究分析開發者的螢幕錄影後發現，不同的互動模式對學習成果有決定性影響。完全委派 AI 處理任務或僅用於除錯而不求甚解的開發者，測試得分僅介於 24 % 至 39 %。相反地，若開發者在 AI 生成程式碼後提出追問、要求解釋概念，或僅將 AI 用於理論諮詢，則能維持 65 % 至 86 % 的高分。這證明了 AI 的使用方式比工具本身更為重要，具備主動思考的「追問」行為是防止技能萎縮的核心。 抵銷 AI 工具帶來的開發效率 與以往認為 AI 能大幅提升生產力的觀點不同，此項研究發現 AI 組與對照組在完成任務的時間上並無統計學上的顯著差異。主要原因在於編寫提示詞與 AI 溝通的過</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/01/anthropic-ai-coding-tools-hinder-learning/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=anthropic-ai-coding-tools-hinder-learning</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/07/Anthropic-1.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 31 Jan 2026 23:17:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apple 2 月動態預測　全新 Siri 測試版將於 iOS 26.4 登場</title>
-      <link>https://www.newmobilelife.com/2026/02/01/apple-siri-ios-26-4/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-siri-ios-26-4</link>
-      <description>Apple 在 2026 年 2 月將迎來多項重要更新。繼 1 月推出新一代 AirTag 與 Creator Studio 創意工具套件後，市場焦點轉向即將發佈的系統更新與 AI 技術進展。預計 iOS 26.3 將於 2 月上旬正式向公眾推送，而備受矚目的個人化 Siri 也將進入測試階段，為用戶帶來更智能的交互體驗。 iOS 26.3 強化跨平台連接與安全性 目前的 iOS 26.3 仍處於測試階段，預計下週發佈 Release Candidate 版本，並於 2 月上旬正式推出。此版本雖然是小幅更新，但包含多項實用特點，例如 iOS 轉 Android 遷移工具、通知轉發，以及針對第三方智能手錶等配件的鄰近配對功能。此外，Apple 正在為電訊商支援 RCS 訊息的端到端加密奠定基礎，進一步提升跨平台通訊的安全性。 Google Gemini 驅動個人化 Siri 升級 根據《彭博》報導，Apple 計劃於 2 月下旬推出由 Google Gemini 驅動的個人化 Siri 測試版。這項功能將包含在 iOS 26.4 中，預計於 3 月或 4 月正式發佈。新版 Siri 能夠</description>
-      <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/01/apple-siri-ios-26-4/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-siri-ios-26-4</guid>
-      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/07/iPhone-Siri-Glow.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 31 Jan 2026 23:28:10 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 02 Feb 2026 07:08:05 +0000</lastBuildDate>
     <item>
       <title>守護最後的光芒！可愛風殭屍生存遊戲《SunBlockers》限時免費</title>
       <link>https://www.newmobilelife.com/2026/02/01/sunblockers-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sunblockers-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb</link>
@@ -88,6 +16,78 @@
       <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/01/sunblockers-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sunblockers-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb</guid>
       <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2026/02/4807627_1-2.webp" length="0" type="image/webp"/>
       <pubDate>Sat, 31 Jan 2026 23:32:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>語音趣味變聲器　原價 US $29.99《Reverse Play Game》限時免費</title>
+      <link>https://www.newmobilelife.com/2026/02/01/reverse-play-game-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=reverse-play-game-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb</link>
+      <description>想體驗錄音後聽起來截然不同的樂趣嗎？《Reverse Play Game》是一款能將你的聲音瞬間反轉，並帶來八種搞怪音效的應用程式，現在限時免費下載，絕對能讓你和朋友玩得不亦樂乎。這款 App 適合所有熱愛嘗試新奇事物、喜歡與人分享歡樂時光的使用者，快來發揮你的創意，創造獨一無二的趣味音檔。 讓你的聲音玩出新花樣 這款應用程式的核心樂趣在於即時將你的獨特嗓音反向播放，讓你聽到意想不到的倒轉效果。更棒的是，它內建了像是回音、失真、氦氣、巨人、花栗鼠、機器人、殘響和外星人等八種充滿玩心的趣味音效，能讓你的錄音素材瞬間變得生動有趣。此外，你還可以輕鬆儲存最喜歡的音訊片段，並透過簡單的幾個點擊步驟，將這些有趣的創作分享給你的親朋好友，一同享受創意帶來的歡樂時光。 應用名稱：Reverse Play Game 應用類別：Music 下載位置：App Store</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/01/reverse-play-game-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=reverse-play-game-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2026/02/460x460bb-75-6.webp" length="0" type="image/webp"/>
+      <pubDate>Sun, 01 Feb 2026 13:05:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>新一代 MacBook Pro 預計二月發佈　搭載 macOS 26.3 與 M5 系列晶片</title>
+      <link>https://www.newmobilelife.com/2026/02/01/apple-macbook-pro-m5-chip-release/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-macbook-pro-m5-chip-release</link>
+      <description>Apple 計劃在推出 macOS 26.3 更新的同時，發佈搭載 M5 Pro 與 M5 Max 晶片的新款 MacBook Pro 型號。根據《彭博》 Mark Gurman 的說法，這批手提電腦預計將於 2026 年 2 月正式亮相。隨著系統更新週期進入市場，Apple 將進一步整合軟硬體效能，確保新款硬體能發揮系統的最佳表現。 macOS 26.3 進入測試階段確立發佈時間 目前 macOS 26.3 仍處於測試階段，但更新預計即將完成，並在 2026 年 2 月向公眾發佈。這意味著配備 M5 Pro 與 M5 Max 晶片的 MacBook Pro 型號若按計劃進行，也將在該月同步上市。隨著系統開發進入尾聲，硬體與軟體的同步整合將成為本次更新的重點，確保用戶在拿到新機後即可使用最新的系統功能。 M5 系列晶片提升專業工作流處理能力 新款 MacBook Pro 的核心特點在於搭載 M5 Pro 與 M5 Max 晶片，這將為專業用戶提供顯著的效能提升。隨著 AI 運算在日常工作中的佔比增加，新款晶片的架構將更佳地適應人工智能處理需求。透過軟硬體的深度優化，新款型號有望在高效能</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/01/apple-macbook-pro-m5-chip-release/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-macbook-pro-m5-chip-release</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/10/M5-s-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 01 Feb 2026 14:39:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deepseek OCR 2 提升文件解析能力　效能超越 Gemini 3 Pro 並減少 80% Token 使用量</title>
+      <link>https://www.newmobilelife.com/2026/02/02/deepseek-ocr2-performance-gemini-token/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=deepseek-ocr2-performance-gemini-token</link>
+      <description>2026 年，Deepseek 推出全新視覺編碼器 Deepseek OCR 2，徹底改變了傳統視覺語言模型由左至右、由上而下的處理模式。這項技術模仿人類觀察事物的靈活模式，根據內容含義重新排列影像資訊，大幅優化了文件解析的精準度與效率。透過更具彈性的處理方式，Deepseek 成功克服了舊有模型在處理複雜佈局影像時的侷限性。 DeepEncoder V2 模仿人類視覺邏輯提升理解力 Deepseek OCR 2 的技術核心在於 DeepEncoder V2，該架構將傳統的 CLIP 組件替換為基於 Qwen2 0.5B 的小型語言模型。研究團隊引入了「因果流 Token」，這些可學習的查詢 Token 能夠在語言模型進行解讀之前，先根據上下文重新組織視覺資訊。這種兩階段的處理流程讓系統能真正理解二維影像內容，而非僅僅是機械式的像素掃描，顯著提升了對複雜文件的認知能力。 Token 使用量驟降 80% 且解析效能超越 Gemini 3 Pro 在效能表現方面，Deepseek OCR 2 展示了驚人的運算效率。相比同類模型動輒需要 6,000 個以上的 Token，該模型僅需 256</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/02/deepseek-ocr2-performance-gemini-token/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=deepseek-ocr2-performance-gemini-token</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/01/deepseek.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 01 Feb 2026 19:01:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple 首款摺疊 iPhone 電池規格曝光　容量超過 5,500 mAh 挑戰續航極限</title>
+      <link>https://www.newmobilelife.com/2026/02/02/apple-foldable-iphone-battery-specs/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-foldable-iphone-battery-specs</link>
+      <description>Apple 旗下首款摺疊 iPhone 的細節近日流出，傳聞該裝置將配備 Apple 史上容量最大的電池，續航力有望超越目前市面上所有競爭產品。這款正在開發中的型號將在大幅提升電池容量的同時，維持機身的輕薄設計，並將電源效率視為核心研發重點，旨在打破摺疊裝置續航力不足的產業瓶頸。 超過 5,500 mAh 大容量電池打破規格限制 根據定焦數碼在微博發佈的消息，新款摺疊智能手機的電池容量預計將超過 5,500 mAh。與 2025 年發佈的 iPhone 17 Pro Max 所採用的 5,088 mAh 電池相比，這款摺疊型號在電量儲存上有顯著提升。這項技術進展不僅能應對 7.8 吋大螢幕的高耗電需求，更展現了 Apple 在內部主板空間優化上的技術實力。 電池續航力超越 Google 與 Samsung 同類產品 若傳聞屬實，Apple 的摺疊智能手機將在電池容量上領先同業型號。目前市場上的 Google Pixel 10 Pro Fold 配備 5,015 mAh 電池，而 Samsung Galaxy Z Fold 7 僅具備 4,400 mAh 電池。Apple 透過搭載更大容</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/02/apple-foldable-iphone-battery-specs/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-foldable-iphone-battery-specs</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2025/03/iphone-fold.webp" length="0" type="image/webp"/>
+      <pubDate>Sun, 01 Feb 2026 19:10:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>【Win/Mac 】寫論文好幫手　原價 US $34.99《MonsterWriter》終生版限時免費</title>
+      <link>https://www.newmobilelife.com/2026/02/02/monsterwriter-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=monsterwriter-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb-2</link>
+      <description>這款名為 MonsterWriter 的軟體，其核心理念是「讓寫作者遠離排版地獄」。無論是大學生的畢業論文、研究人員的學術發表，還是技術作家的手冊撰寫，它都提供了一套高效的解決方案。 結構化寫作與自動排版 MonsterWriter 採用類似 Notion 的區塊化寫作邏輯，但完全針對「長篇正式文件」優化。 無需手動格式化：你不需要像在 Word 中那樣反覆調整字體大小、行距或標題層級。你只需標註「這是標題」、「這是引言」，軟體會自動根據導出的模板生成專業的排版。 一鍵生成目錄與索引：它能自動追蹤章節變化，即時更新目錄、圖片清單與表格清單。 學術級的參考文獻管理 這是該軟體最強大的功能之一。 BibTeX 支持：對於熟悉學術寫作的人來說，MonsterWriter 可以輕鬆導入 BibTeX 文件，並在文中快速插入引用。 自動格式化引用清單：無論你的論文要求 APA、MLA 還是 Chicago 格式，軟體會在文末自動生成精確的參考文獻清單。 多樣化的專業導出 MonsterWriter 本質上是一個強大的「轉換器」，能將你的純文字草稿轉化為各種專業格式： LaTeX 導出：如果你需要</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/02/monsterwriter-%e9%99%90%e6%99%82%e5%85%8d%e8%b2%bb-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=monsterwriter-%25e9%2599%2590%25e6%2599%2582%25e5%2585%258d%25e8%25b2%25bb-2</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2026/02/monsterwriter6-1024x722.webp" length="0" type="image/webp"/>
+      <pubDate>Sun, 01 Feb 2026 20:19:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>蘋果第 2 款摺疊手機　或用翻蓋式設計</title>
+      <link>https://www.newmobilelife.com/2026/02/02/apple-foldable-phone-2027-clamshell/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-foldable-phone-2027-clamshell</link>
+      <description>Apple 目前正致力於研發摺疊螢幕產品，首款書本式設計的摺疊 iPhone 預計將於 2026 年 9 月正式面世。然而，這並非 Apple 在該領域的唯一計劃。根據《彭博》 PowerOn 通訊指出，研發團隊已經開始探索第二款摺疊裝置的可能性，該產品預計採用類似翻蓋式的設計，體積更加輕巧。 市場需求驅動翻蓋式產品開發 Mark Gurman 表示，Apple 考慮推出翻蓋式摺疊螢幕產品，主要基於對市場多樣化需求的評估。如果首款摺疊型號在 2026 年取得成功，將進一步證明該類別產品的市場潛力。這種小巧的設計不僅能吸引喜愛細螢幕的用戶，還能提供方便攜帶的特性，與現有的書本式設計形成互補。 多元化摺疊產品佈局 除了縮小體積的翻蓋式設計，Apple 亦不排除推出更大尺寸的書本式摺疊產品。這項策略旨在應對 Samsung 等競爭對手的挑戰，為用戶提供更接近平板電腦的視覺體驗。透過不同尺寸與開合方式的組合，Apple 試圖在摺疊智能手機市場建立完整的產品線，滿足從方便攜帶到高效能辦公的各種使用情境。 方便攜帶成為核心設計方向 翻蓋式設計具備獨特的結構優點，摺疊後能更有效保護內部螢幕，減少日常</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/02/apple-foldable-phone-2027-clamshell/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=apple-foldable-phone-2027-clamshell</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2026/02/flip-iphone.webp" length="0" type="image/webp"/>
+      <pubDate>Sun, 01 Feb 2026 21:21:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steve Jobs 簽名 Apple 支票拍出 240 萬美元　價值飆升 4,800 倍</title>
+      <link>https://www.newmobilelife.com/2026/02/02/steve-jobs-cheque/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=steve-jobs-cheque</link>
+      <description>根據 RR Auction 的宣佈，一張由 Apple 共同創辦人 Steve Jobs 和 Steve Wozniak 簽署的支票，本週在拍賣會上以高達 240 萬美元的價格成交。這張面額 500 美元的支票，以其原始價值的 4,800 倍售出。 Apple-1 設計師獲贈的歷史性支票 RR Auction 表示，這張 500 美元的支票是 Steve Jobs 和 Steve Wozniak 開設 Apple 第一個銀行帳戶後不久，發給印刷電路板設計師 Howard Cantin 的。Cantin 負責將 Wozniak 的 Apple-1 設計圖轉換為可製造的印刷電路板，促成了 Apple 第一個商業產品的誕生。 公司正式創立前的歷史憑證 這張富國銀行 (Wells Fargo) 支票的日期為 1976 年 3 月 16 日，並標註「No. 1」。它在 Apple Computer 於 1976 年 4 月 1 日正式創立的幾週前發出。 拍賣公司：史上最重要財務文件 RR Auction 執行副總裁 Bobby Livingston 表示：「這是 Apple 歷史上最重要的財務文</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/02/steve-jobs-cheque/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=steve-jobs-cheque</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2026/02/steve-jobs-cheque.webp" length="0" type="image/webp"/>
+      <pubDate>Sun, 01 Feb 2026 21:29:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bill Gates 否認愛潑斯坦文件指控　斥相關內容完全荒謬</title>
+      <link>https://www.newmobilelife.com/2026/02/02/bill-gates-denies-epstein-allegations/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=bill-gates-denies-epstein-allegations</link>
+      <description>Bill Gates 近日針對司法部文件披露其與愛潑斯坦關係的相關指控作出回應，並透過發言人嚴正否認。這些文件內容涉及對其私生活的負面描述，引發外界高度關注。 針對個人名譽的虛構指控 在司法部最新公開的文件中，包含了一些疑似由愛潑斯坦代表一名在 Bill Gates 基金會工作的員工 Boris 所草擬的郵件。這些郵件聲稱 Bill Gates 涉及私密健康問題以及與多位女性的不當往來，然而這些郵件的收發對象僅標註愛潑斯坦本人，其真實性與是否曾對外發送均存在疑點。 指控內容純屬設局誹謗 針對文件內容，Bill Gates 的發言人發佈聲明指出，這些指控完全荒謬且並非事實。發言人強調，這些文件的內容僅能證明愛潑斯坦因為無法與 Bill Gates 建立長期合作關係而感到沮喪，並展示了他為了陷害與誹謗他人，不惜採取各種極端且惡意的手段。 過去決策失誤持續影響個人公眾形象 Bill Gates 與愛潑斯坦的往來已成為其個人名譽的沉重負擔。雖然他多次重申雙方的接觸僅止於慈善捐贈相關事務，並坦言與其見面是極大的錯誤，但 Melinda Gates 先前曾明確表示，這段關係是促使她決定離婚的重要因</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/02/bill-gates-denies-epstein-allegations/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=bill-gates-denies-epstein-allegations</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2020/03/bill-gates-1024x682.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 01 Feb 2026 21:53:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>NotebookLM 簡報修改全攻略：如何將 AI 生成內容轉為可編輯 PPT？</title>
+      <link>https://www.newmobilelife.com/2026/02/02/notebooklm-pdf-ppt-edit/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=notebooklm-pdf-ppt-edit</link>
+      <description>隨著 Google 推出的 NotebookLM 功能日益強大，許多職場人士開始利用它來快速生成簡報大綱與視覺稿。然而，目前 NotebookLM 生成的內容往往以靜態圖片或難以直接編輯的格式呈現，這讓 NotebookLM 簡報修改成了許多人的痛點。本文將為你解析如何突破限制，利用 PDNob 這款專業工具，實現從 NotebookLM 簡報轉 PPT 的無縫銜接。 目錄為什麼 NotebookLM 生成的簡報難以修改？專業解決方案：使用 PDNob 進行 NotebookLM 簡報修改1. 高精準度 OCR 辨識2. 本地化處理保障隱私安全3. 超簡單操作體驗NotebookLM 簡報編輯方法NotebookLM 簡報編輯小技巧使用須知與限制總結：NotebookLM PDF 修改好幫手 為什麼 NotebookLM 生成的簡報難以修改？ 雖然 NotebookLM 可以根據資料來源快速進行 NotebookLM 生成簡報或 NotebookLM 生成 PPT 的動作，但其輸出的文件往往存在以下限制： 格式僵化：文字與背景常被合併為圖片，無法直接點擊修改文字。 排版固定：難以隨意拖</description>
+      <guid isPermaLink="false">https://www.newmobilelife.com/2026/02/02/notebooklm-pdf-ppt-edit/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=notebooklm-pdf-ppt-edit</guid>
+      <enclosure url="https://static.newmobilelife.com/wp-content/uploads/2026/02/screenshot-987-1024x640.webp" length="0" type="image/webp"/>
+      <pubDate>Mon, 02 Feb 2026 01:02:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
