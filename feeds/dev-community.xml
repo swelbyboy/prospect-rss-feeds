@@ -8,76 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Feb 2026 06:54:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Feb 2026 07:06:00 +0000</lastBuildDate>
     <item>
-      <title>Streamlining Legacy Databases: API-Driven Solutions for Production Clutter</title>
-      <link>https://dev.to/mohammad_waseem_c31f3a26f/streamlining-legacy-databases-api-driven-solutions-for-production-clutter-o8</link>
-      <description>Streamlining Legacy Databases: API-Driven Solutions for Production Clutter Managing cluttered production databases in legacy codebases is a common challenge faced by lead QA engineers and developers alike. These databases often contain redundant, deprecated, or poorly structured data, which impairs performance, complicates troubleshooting, and stifles scalability. One effective strategy to address this issue is to leverage API development as an interface layer for incremental refactoring and dat</description>
-      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/streamlining-legacy-databases-api-driven-solutions-for-production-clutter-o8</guid>
-      <pubDate>Sun, 01 Feb 2026 06:08:27 +0000</pubDate>
+      <title>Scaling Vue 3 Forms: A Pattern for Handling Heavy Data Reactivity</title>
+      <link>https://dev.to/avsecdongol/scaling-vue-3-forms-a-pattern-for-handling-heavy-data-reactivity-nnk</link>
+      <description>Scaling Vue 3 Forms: A Pattern for Handling Heavy Data Reactivity The Scenario Imagine you are building a complex "Inventory Dashboard" for an e-commerce platform. One of the requirements is a granular filter system allowing users to select from thousands of nested product categories. The backend provides a flat list of 5,000+ categories. Your job is to display these in a multi-select dropdown, pre-selecting user preferences stored in their profile. The Symptoms During development, everything se</description>
+      <guid isPermaLink="false">https://dev.to/avsecdongol/scaling-vue-3-forms-a-pattern-for-handling-heavy-data-reactivity-nnk</guid>
+      <pubDate>Mon, 02 Feb 2026 06:46:06 +0000</pubDate>
     </item>
     <item>
-      <title>Overcoming Geo-Blocking in Enterprise React Applications: A Senior Architect’s Approach to Testing</title>
-      <link>https://dev.to/mohammad_waseem_c31f3a26f/overcoming-geo-blocking-in-enterprise-react-applications-a-senior-architects-approach-to-testing-45eg</link>
-      <description>Overcoming Geo-Blocking in Enterprise React Applications: A Senior Architect’s Approach to Testing In the landscape of enterprise web development, ensuring that features are thoroughly tested across various geographic regions can be a formidable challenge—especially when dealing with geo-restricted features or content that should only be accessible in certain locations. As a senior architect, designing a reliable testing strategy for such geo-blocked features requires a combination of technical</description>
-      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/overcoming-geo-blocking-in-enterprise-react-applications-a-senior-architects-approach-to-testing-45eg</guid>
-      <pubDate>Sun, 01 Feb 2026 06:09:47 +0000</pubDate>
+      <title>I created small mcp server for Jupyter Notebook.</title>
+      <link>https://dev.to/cshara/i-created-small-mcp-server-for-jupyter-notebook-14l6</link>
+      <description>Introduction When working with AI agents like Claude or Antigravity, one common hurdle is dealing with Jupyter Notebook (.ipynb) files. While agents are great at writing code, directly editing the complex JSON structure of a notebook can lead to corruption. Furthermore, security restrictions often prevent agents from executing code directly in a notebook environment. To solve this, I developed Easy Jupyter Editor MCP — a lightweight Model Context Protocol (MCP) server that allows AI agents to st</description>
+      <guid isPermaLink="false">https://dev.to/cshara/i-created-small-mcp-server-for-jupyter-notebook-14l6</guid>
+      <pubDate>Mon, 02 Feb 2026 06:48:45 +0000</pubDate>
     </item>
     <item>
-      <title>Zero-Budget Strategies for Optimizing Slow Queries in React Apps</title>
-      <link>https://dev.to/mohammad_waseem_c31f3a26f/zero-budget-strategies-for-optimizing-slow-queries-in-react-apps-23l</link>
-      <description>Introduction In modern web development, ensuring fast and responsive user experiences is critical—yet sometimes, performance bottlenecks like slow database queries are overlooked, especially when working with React and limited resources. As a senior architect, I’ve faced the challenge of optimizing slow queries without additional budget for infrastructure or tools. This post explores practical, no-cost strategies to identify, analyze, and improve query performance within a React application, emp</description>
-      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/zero-budget-strategies-for-optimizing-slow-queries-in-react-apps-23l</guid>
-      <pubDate>Sun, 01 Feb 2026 06:10:37 +0000</pubDate>
+      <title>Officially Google Cloud Certified: Associate Cloud Engineer Path</title>
+      <link>https://dev.to/urielalonso/officially-google-cloud-certified-associate-cloud-engineer-path-5dh6</link>
+      <description>The cloud is no longer just a trend; it is the industry standard. To keep pace with the tech landscape, I decided to earn the Google Cloud Certified - Associate Cloud Engineer (ACE) credential. Here is how I navigated the process, the resources I used, and how I stayed on track. Get Certified Program 2025 My journey officially kicked off when I was accepted into the Get Certified Program 2025. This is a guided, intensive 6-week program designed to prepare technical practitioners for high-demand</description>
+      <guid isPermaLink="false">https://dev.to/urielalonso/officially-google-cloud-certified-associate-cloud-engineer-path-5dh6</guid>
+      <pubDate>Mon, 02 Feb 2026 06:50:41 +0000</pubDate>
     </item>
     <item>
-      <title>Design Secure Access To AWS Resources</title>
-      <link>https://dev.to/aws-builders/design-secure-access-to-aws-resources-4l8g</link>
-      <description>Exam Guide: Solutions Architect - Associate 🛡️ Domain 1: Design Secure Architectures 📘 Task Statement 1.1 🎯 Secure access means you can clearly answer: 1 Who is trying to access AWS? 2 What are they allowed to do? 3 Where are they allowed to do it (which account / which resources)? 4 How are they proving it’s really them (password, MFA, federation)? 5 How long should that access last (temporary vs long-term)? This task is mostly about identity + permissions + multi-account setup. Knowledge 1 | A</description>
-      <guid isPermaLink="false">https://dev.to/aws-builders/design-secure-access-to-aws-resources-4l8g</guid>
-      <pubDate>Sun, 01 Feb 2026 06:19:51 +0000</pubDate>
+      <title>Data Modelling in Power BI</title>
+      <link>https://dev.to/valgrace/data-modelling-in-power-bi-4jn8</link>
+      <description>Data modelling helps to define the relationship between sources of data. Organizations work with large amounts of data which require modelling, before building reports. This article is a practical guide for building performance optimized data models in Power BI. Data models in Power BI are referred to as semantic models. The data model is where you describe and organize your data. ** How to build relationships Modelling Approaches There is a sequence of steps followed when creating a data model.</description>
+      <guid isPermaLink="false">https://dev.to/valgrace/data-modelling-in-power-bi-4jn8</guid>
+      <pubDate>Mon, 02 Feb 2026 06:53:36 +0000</pubDate>
     </item>
     <item>
-      <title>I built a civic engagement platform because contacting your representatives shouldn't be this hard</title>
-      <link>https://dev.to/ashmortar/i-built-a-civic-engagement-platform-because-contacting-your-representatives-shouldnt-be-this-hard-1jjb</link>
-      <description>A few weeks ago I was doomscrolling and feeling some type of way about... waves indiscriminately at the state of the world. The thing that always gets me during times like these is feeling like there's nothing I can do about any of it. So I had a good think about what I actually can do. And I landed on something that's been bugging me for years: contacting your elected representatives is unreasonably hard. You have to dig through multiple government websites to figure out who represents you, fin</description>
-      <guid isPermaLink="false">https://dev.to/ashmortar/i-built-a-civic-engagement-platform-because-contacting-your-representatives-shouldnt-be-this-hard-1jjb</guid>
-      <pubDate>Sun, 01 Feb 2026 06:21:48 +0000</pubDate>
+      <title>My Updated Dev Portfolio</title>
+      <link>https://dev.to/fiewor/my-updated-dev-portfolio-307k</link>
+      <description>New Year, New You Portfolio Challenge Submission Portfolio About Me I am a software engineer who builds full-stack web applications with an emphasis on pragmatic, maintainable code and strong developer experience. For this portfolio refresh, I aimed to present a concise, modern summary of my skills and projects while improving performance, accessibility, and responsiveness so the site better represents my current capabilities. How I Built It Overview &amp;amp; Goals Modernize an old Create React App por</description>
+      <guid isPermaLink="false">https://dev.to/fiewor/my-updated-dev-portfolio-307k</guid>
+      <pubDate>Mon, 02 Feb 2026 06:53:54 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Privacy-First URL Shortener on Blockchain</title>
-      <link>https://dev.to/wes_parsons_57932a30dc1f3/building-a-privacy-first-url-shortener-on-blockchain-17n4</link>
-      <description>Why Traditional URL Shorteners Are a Privacy Nightmare When you click a bit.ly link, here's what happens: Bit.ly logs your IP, timestamp, user agent They see the destination URL They track your browsing patterns They sell this data to advertisers Even if you trust the shortener, their database can be hacked. Introducing Cryptly I built cryptly to solve this problem using blockchain and encryption. How It Works Encryption (Client-Side) const encrypted = await crypto.subtle.encrypt( { name: "AES-G</description>
-      <guid isPermaLink="false">https://dev.to/wes_parsons_57932a30dc1f3/building-a-privacy-first-url-shortener-on-blockchain-17n4</guid>
-      <pubDate>Sun, 01 Feb 2026 06:23:08 +0000</pubDate>
+      <title>Forge Query - A 3KB Alternative to React Query with Built-in DevTools</title>
+      <link>https://dev.to/john_yaghobieh_8f294091f6/forge-query-a-3kb-alternative-to-react-query-with-built-in-devtools-5fbb</link>
+      <description>Forge Query: A 3KB Alternative to React Query If you've ever written this pattern in React... const [data, setData] = useState(null); const [loading, setLoading] = useState(true); const [error, setError] = useState(null); useEffect(() =&amp;gt; { fetch('/api/users') .then(res =&amp;gt; res.json()) .then(setData) .catch(setError) .finally(() =&amp;gt; setLoading(false)); }, []); ...you know the pain. No caching. No retries. Boilerplate everywhere. Libraries like React Query solve this beautifully. But at 13KB, they c</description>
+      <guid isPermaLink="false">https://dev.to/john_yaghobieh_8f294091f6/forge-query-a-3kb-alternative-to-react-query-with-built-in-devtools-5fbb</guid>
+      <pubDate>Mon, 02 Feb 2026 06:56:21 +0000</pubDate>
     </item>
     <item>
-      <title>[Opinion]Today's frontend is easy to be messed up and we need to organize it</title>
-      <link>https://dev.to/uponthesky/opiniontodays-frontend-is-easy-to-be-messed-up-and-we-need-to-organize-it-17hl</link>
-      <description>Disclaimer: This post is a mixture of ranting about the complexity of the contemporary frontend, and my thought on how to solve it. I have been away from the frontend/React world for a while, so this post might contain some out-of-date ideas. Please let me know if you find such ideas while reading this post. Also, although I only discuss React/Next.js here, I think the argument could be extended to the entire frontend system as of now, regardless of framework. Therefore I will use the words "fro</description>
-      <guid isPermaLink="false">https://dev.to/uponthesky/opiniontodays-frontend-is-easy-to-be-messed-up-and-we-need-to-organize-it-17hl</guid>
-      <pubDate>Sun, 01 Feb 2026 06:25:49 +0000</pubDate>
+      <title>I Built a Retro Gamified Portfolio (Yes, With Pixel Art, Games &amp;amp; Windows 95 Vibes) 🎮</title>
+      <link>https://dev.to/mewmewdevart/i-built-a-retro-gamified-portfolio-yes-with-pixel-art-games-windows-95-vibes-589k</link>
+      <description>This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI I still remember the first time I touched a computer and a video game. It felt like magic. The sounds, the colors, the feeling that you could explore instead of just consume. Years later, as a front-end developer, I realized something uncomfortable: most portfolios don’t feel like that anymore. They’re clean. Minimal. Technically correct. And… kind of forgettable. So I asked myself: where did the fun go? Th</description>
+      <guid isPermaLink="false">https://dev.to/mewmewdevart/i-built-a-retro-gamified-portfolio-yes-with-pixel-art-games-windows-95-vibes-589k</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzup7c4awhjrhk3dciso2.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Feb 2026 06:59:11 +0000</pubDate>
     </item>
     <item>
-      <title>Loss Functions for Beginners</title>
-      <link>https://dev.to/olabamipetaiwo/loss-functions-for-beginners-5gfl</link>
-      <description>Loss functions are the quiet engine behind every machine learning model. They serve as the critical feedback loop, translating the abstract concept of error into a value that a computer can minimize. By quantifying the difference between a model’s prediction and the ground truth, the loss function provides the gradient signal that the optimizer uses to update the network's weights. In essence, if the model architecture is the body of an AI, the data is its fuel, and the loss function is its cent</description>
-      <guid isPermaLink="false">https://dev.to/olabamipetaiwo/loss-functions-for-beginners-5gfl</guid>
-      <pubDate>Sun, 01 Feb 2026 06:25:57 +0000</pubDate>
+      <title>Neural Bridge: My AI-First Portfolio with a Live Gemini-Powered Clone You Can Interview</title>
+      <link>https://dev.to/zelalemgizachew/neural-bridge-my-ai-first-portfolio-with-a-live-gemini-powered-clone-you-can-interview-10nk</link>
+      <description>Hey DEV Community! 👋 I'm super excited to share my submission for the New Year, New You Portfolio Challenge Presented by Google AI This challenge came at the perfect time. 2026 is all about leveling up, and I wanted my portfolio to do the same. Instead of another static page that people just skim and forget, I built a living, interactive experience: Neural Bridge (Inspired By Jarvis), where visitors can actually talk to an AI version of me in real time. No more one-way "about me" sections! You c</description>
+      <guid isPermaLink="false">https://dev.to/zelalemgizachew/neural-bridge-my-ai-first-portfolio-with-a-live-gemini-powered-clone-you-can-interview-10nk</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fpopcorngtm.com%2Fhs-fs%2Fhubfs%2FCRM%2520HUD%2520PGTM.gif%3Fwidth%3D1008%26height%3D567%26name%3DCRM%2520HUD%2520PGTM.gif" length="0" type="image/gif"/>
+      <pubDate>Mon, 02 Feb 2026 06:59:51 +0000</pubDate>
     </item>
     <item>
-      <title>Meet the AI Assistant That Guards My Portfolio</title>
-      <link>https://dev.to/dstushar7/meet-the-ai-assistant-that-guards-my-portfolio-57im</link>
-      <description>This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI About Me Hi everyone! I'm a Software Engineer based in Bangladesh with over 3 years of experience specializing in Java and Spring Boot. Currently, I work at Technonext (a sister concern of US-Bangla Airlines), where I lead a small team building complex backend architectures for a ride-sharing application like Uber. While my "home base" is backend engineering with some Angular on the side, I believe a modern</description>
-      <guid isPermaLink="false">https://dev.to/dstushar7/meet-the-ai-assistant-that-guards-my-portfolio-57im</guid>
-      <pubDate>Sun, 01 Feb 2026 06:37:28 +0000</pubDate>
+      <title>Schemas &amp;amp; Data Modelling in Power BI</title>
+      <link>https://dev.to/kinyywa-data-analyst/schemas-and-data-modelling-in-power-bi-55no</link>
+      <description>When most people think about Power BI, they imagine dashboards and visuals. But the truth is great Power BI reports start with great data modelling, long before a single visual is created. A strong model improves performance, ensures accurate reporting and provides a scalable foundation for analytics. In this article, we explore fact and dimension tables, star and snowflake schemas, relationships and the importance of good modelling in Power BI. What is data modelling in Power BI? Data modelling</description>
+      <guid isPermaLink="false">https://dev.to/kinyywa-data-analyst/schemas-and-data-modelling-in-power-bi-55no</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcyyyd9owev47jjo1e0f0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Feb 2026 07:00:59 +0000</pubDate>
     </item>
     <item>
-      <title>Securing Test Environments: Tackling PII Leaks in Legacy Code with TypeScript</title>
-      <link>https://dev.to/mohammad_waseem_c31f3a26f/securing-test-environments-tackling-pii-leaks-in-legacy-code-with-typescript-3o20</link>
-      <description>In modern development practices, protecting Personally Identifiable Information (PII) within test environments is paramount. Legacy codebases, often riddled with monolithic and unrefined code, pose significant challenges in implementing security measures. As a senior architect, my focus has been on creating a robust, maintainable, and non-intrusive approach to prevent PII leaks when using TypeScript on aged systems. One critical problem is ensuring that sensitive data doesn't inadvertently flow</description>
-      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/securing-test-environments-tackling-pii-leaks-in-legacy-code-with-typescript-3o20</guid>
-      <pubDate>Sun, 01 Feb 2026 06:49:25 +0000</pubDate>
+      <title>Inside My AI‑Native Portfolio: How I Built Dual Agents, Live Architecture Diagrams, and a Multi‑Planetary Theme Engine</title>
+      <link>https://dev.to/awesomeananth/inside-my-ai-native-portfolio-how-i-built-dual-agents-live-architecture-diagrams-and-a-1c5h</link>
+      <description>This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI How I Built It One month. That's about how long I thought this would take. It ended up being a deep dive into building a RAG-powered dual-agent AI that hosts my professional life in a vector database. It's live. And it's alive. 🚀 https://portfolio-challenge-615150985064.us-central1.run.app Let me walk you through what I actually built, the chaotic energy behind it, and why there's a 3D architecture engine h</description>
+      <guid isPermaLink="false">https://dev.to/awesomeananth/inside-my-ai-native-portfolio-how-i-built-dual-agents-live-architecture-diagrams-and-a-1c5h</guid>
+      <pubDate>Mon, 02 Feb 2026 07:02:20 +0000</pubDate>
     </item>
   </channel>
 </rss>
