@@ -8,23 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Feb 2026 07:20:40 +0000</lastBuildDate>
-    <item>
-      <title>AI models that simulate internal debate dramatically improve accuracy on complex tasks</title>
-      <link>https://venturebeat.com/orchestration/ai-models-that-simulate-internal-debate-dramatically-improve-accuracy-on</link>
-      <description>A new study by Google suggests that advanced reasoning models achieve high performance by simulating multi-agent-like debates involving diverse perspectives, personality traits, and domain expertise.Their experiments demonstrate that this internal debate, which they dub “society of thought,” significantly improves model performance in complex reasoning and planning tasks. The researchers found that leading reasoning models such as DeepSeek-R1 and QwQ-32B, which are trained via reinforcement lear</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/ai-models-that-simulate-internal-debate-dramatically-improve-accuracy-on</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/5ZUdlesjB7ttNDYZrUj6qA/181de426acd59433aa767c096d1b57ce/multi-agent_AI_conversation.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 30 Jan 2026 06:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The trust paradox killing AI at scale: 76% of data leaders can't govern what employees already use</title>
-      <link>https://venturebeat.com/data/the-trust-paradox-killing-ai-at-scale-76-of-data-leaders-cant-govern-what</link>
-      <description>The chief data officer (CDO) has evolved from a niche compliance role into one of the most critical positions for AI deployment. These executives now sit at the intersection of data governance, AI strategy, and workforce readiness. Their decisions determine whether enterprises move from AI pilots to production scale or remain stuck in experimentation mode.That's why Informatica's third annual survey — the largest survey yet of CDOs specifically on AI readiness, spanning 600 executives globally —</description>
-      <guid isPermaLink="false">https://venturebeat.com/data/the-trust-paradox-killing-ai-at-scale-76-of-data-leaders-cant-govern-what</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2Lp92fSZvpwMP9R1IOknlt/19376e3ebf1bab8664452fee629f901c/CDO-smk1.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 30 Jan 2026 17:35:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 03 Feb 2026 07:11:56 +0000</lastBuildDate>
     <item>
       <title>This tree search framework hits 98.7% on documents where vector search fails</title>
       <link>https://venturebeat.com/infrastructure/this-tree-search-framework-hits-98-7-on-documents-where-vector-search-fails</link>
@@ -64,6 +48,22 @@
       <guid isPermaLink="false">https://venturebeat.com/orchestration/enterprises-are-measuring-the-wrong-part-of-rag</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2RWRKDlAYxJdWbClQsJBLv/9cfd607f68f0a4c521f84322b94ca0ce/DDM_2.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Sun, 01 Feb 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI launches a Codex desktop app for macOS to run multiple AI coding agents in parallel</title>
+      <link>https://venturebeat.com/orchestration/openai-launches-a-codex-desktop-app-for-macos-to-run-multiple-ai-coding</link>
+      <description>OpenAI on Monday released a new desktop application for its Codex artificial intelligence coding system, a tool the company says transforms software development from a collaborative exercise with a single AI assistant into something more akin to managing a team of autonomous workers.The Codex app for macOS functions as what OpenAI executives describe as a "command center for agents," allowing developers to delegate multiple coding tasks simultaneously, automate repetitive work, and supervise AI</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/openai-launches-a-codex-desktop-app-for-macos-to-run-multiple-ai-coding</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/5ixq6lS6l5yrO3RJxCtr5w/c11ddd394c8969826452a5a30312234b/nuneybits_Vector_art_of_an_Apple_iMac_monitor_displaying_cascad_ecce1621-251d-41d9-ac6e-72eb25b2fd35.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Feb 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shared memory is the missing layer in AI orchestration</title>
+      <link>https://venturebeat.com/orchestration/shared-memory-is-the-missing-layer-in-ai-orchestration</link>
+      <description>The key to successful AI agents within an enterprise? Shared memory and context. This, according to Asana CPO Arnab Bose, provides detailed history and direct access from the get-go — with guardrail checkpoints and human oversight, of course. This way, “when you assign a task, you're not having to go ahead and re-provide all of the context about how your business works,” Bose said at a recent VB event in San Francisco. AI as an active teammate, rather than a passive add-onAsana launched Asana AI</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/shared-memory-is-the-missing-layer-in-ai-orchestration</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/hgdgcVYh6eTScx5sg3xmL/51a2bb25a7e65cb132358db07dcc2315/Connecting_data.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Feb 2026 20:34:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

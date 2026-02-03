@@ -8,78 +8,81 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Feb 2026 07:08:07 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 06:59:01 +0000</lastBuildDate>
     <item>
-      <title>Ivanti熱修補行動裝置管理平臺EPMM，目的是解決兩個重大遠端程式碼執行漏洞</title>
-      <link>https://www.ithome.com.tw/news/173694</link>
-      <description>新聞Ivanti揭露自家行動裝置管理平臺Endpoint Manager Mobile（EPMM）兩個重大漏洞CVE-2026-1281與CVE-2026-1340。兩者皆為程式碼注入弱點，風險評分達CVSS 9.8，攻擊者可在未經驗證的情況下觸發遠端程式碼執行。Ivanti表示，在揭露時已知極少數用戶環境遭到利用，而美國CISA同日將CVE-2026-1281列入已遭利用漏洞目錄（KEV）。 兩漏洞影響EPMM，官方強調不影響包括Ivanti Sentry、Ivanti Endpoint Manager（EPM）與Ivanti Neurons for MDM等其他產品。不過，由於EPMM需能連線至Sentry並下達指令以維持Sentry運作與組態，Ivanti建議在懷疑EPMM受影響時，同步檢視Sentry可觸及的內部系統，以排除偵察或橫向移動可能。 Ivanti釋出RPM熱修補套件，客戶需依自身版本選用對應套件，無須停機。Ivanti也提醒，要是設備後續升級版本，熱修補不會自動延續，升級後需重新安裝。永久修補將納入下一個產品版本12.8.0.0，預計於2026年第1季推出。 就可能</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173694</guid>
-      <pubDate>Sun, 01 Feb 2026 03:29:51 +0000</pubDate>
+      <title>Notepad++自動更新通道遭劫持，v8.8.9起強制驗證數位簽章防竄改</title>
+      <link>https://www.ithome.com.tw/news/173716</link>
+      <description>新聞知名文字編輯器Notepad++維護者指出，內建自動更新元件WinGUp的更新流量曾遭攔截並被重新導向，少數遭鎖定的用戶在更新過程中可能因此下載到遭竄改的安裝程式。Notepad++在v8.8.9起強化更新驗證，下載後會同時檢查安裝程式的數位簽章與憑證，任一驗證失敗即中止更新。 在官方發布的調查說明中，維護者表示事件並非透過Notepad++程式碼本身的漏洞被入侵，而是發生在網站託管環境的基礎設施層。與維護者合作的外部資安專家研判，攻擊者可能在主機服務商端選擇性攔截並重新導向部分更新請求，使特定目標被導向攻擊者控制的伺服器，再回傳遭操弄的更新描述檔。維護者引述多名研究人員評估，該行動可能與中國政府相關的攻擊者有關。 維護者指出，異常活動從2025年6月開始。原主機服務商與事件應變團隊檢視紀錄後認為，伺服器層級的可疑存取可能持續到2025年9月2日，維護者也提到，攻擊者可能在失去主機存取後仍握有部分內部服務憑證，最晚可能影響到2025年12月2日左右。另有外部專家評估惡意活動可能在2025年11月10日左右已停止，因此維護者以2025年6月到12月2日作為風險期間的估算範圍。 Not</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173716</guid>
+      <pubDate>Mon, 02 Feb 2026 09:22:02 +0000</pubDate>
     </item>
     <item>
-      <title>知難而行</title>
-      <link>https://www.ithome.com.tw/voice/173701</link>
-      <description>今年1月下旬臺灣民眾最關注的兩則新聞，都是與克服巨大挑戰有關。首先是臺美關稅談判達成共識，確認對等關稅15％不疊加原最惠國（MFN）稅率，並爭取到半導體及衍生品關稅的最優惠待遇，汽車零組件、木材家具、航空零組件（其中的鋼、鋁、銅衍生品）等多項232關稅最優惠待遇，以及採用「臺灣模式」引領業者進軍美國供應鏈，促成臺美高科技領域相互投資，這項艱鉅的談判行政院副院長鄭麗君與政務委員楊珍妮領軍的團隊，居功厥偉。 另一件事是美國攀岩高手霍諾德（Alex Honnold）徒手獨攀台北101大樓，挑戰成功，耗時約1個半小時的過程，在影音串流平臺Netflix向全球直播，吸引多家國際媒體報導。為了幫助大家更了解這個網路直播服務的應用，隔天我們的副總編輯王宏仁也發布報導，介紹Netflix全球直播的幕後技術架構。 這兩項重大成就的背後，有許多人投入大量時間與心力，不僅考驗體力、毅力與抗壓能力，更需要有強大的信念、意志力、勇氣，以及耐心與細心，也激勵更多人積極推動自我創新與突破。 以關稅談判為例，過程中歷經9個多月、6輪磋商，團隊積極研擬與說明臺美經貿合作計畫、多次赴美進行實體磋商，面對外界各種傳言與質疑</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/voice/173701</guid>
-      <pubDate>Sun, 01 Feb 2026 05:58:40 +0000</pubDate>
+      <title>金融軟體服務供應商Marquis遭勒索軟體入侵，改指肇因為MySonicWall備份檔未授權存取</title>
+      <link>https://www.ithome.com.tw/news/173719</link>
+      <description>新聞金融軟體服務供應商Marquis對客戶說明，其2025年8月遭勒索軟體入侵的原因研判出現轉向。外媒BleepingComputer報導，Marquis在給客戶的說明中表示，攻擊者未必是利用未修補的SonicWall防火牆弱點，而是透過MySonicWall雲端備份事件中遭未授權存取的防火牆設定備份資料，進而繞過防護入侵其環境。 Marquis委任律師事務所於2025年11月26日提交給華盛頓州檢察長辦公室的說明指出，Marquis在2025年8月14日偵測到網路可疑活動並確認遭勒索軟體攻擊，鑑識調查顯示未授權第三方在同日透過其SonicWall防火牆存取Marquis網路，並可能取得部分檔案。文件並稱，檢視可能遭存取的檔案後，確認其中包含來自部分商業客戶的個人資料，可能涉及姓名、地址、電話、社會安全碼、納稅人識別碼、未含安全碼或存取碼的金融帳戶資訊與出生日期，目前未發現個資遭濫用或嘗試濫用的證據。 該事件之所以引起關注，是因為Marquis屬於提供大量金融機構共通服務的供應商，Marquis官網公開其服務涵蓋全美超過700家銀行、信用合作社與房貸機構。BleepingCompute</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173719</guid>
+      <pubDate>Mon, 02 Feb 2026 10:36:29 +0000</pubDate>
     </item>
     <item>
-      <title>SandboxJS修補重大漏洞CVE-2026-23830，沙箱機制可遭繞過執行任意程式碼</title>
-      <link>https://www.ithome.com.tw/news/173699</link>
-      <description>新聞主打在JavaScript環境中安全執行不受信任程式碼的開源專案SandboxJS，在1月下旬修補一項重大資安漏洞。該漏洞已被登錄為CVE-2026-23830，CVSS風險分數達滿分10分，屬於重大風險等級。資安研究人員指出，在特定條件下，攻擊者可繞過SandboxJS的沙箱限制，執行非預期的任意程式碼，對依賴該工具隔離不受信任程式碼的應用環境構成風險。 SandboxJS是一套以JavaScript語言層級為基礎的沙箱工具，主要透過替換全域Function建構子，限制不受信任程式碼在執行時可存取的物件與能力，常被用於評估使用者輸入的指令碼，或在受限環境中執行第三方JavaScript程式碼。根據SandboxJS專案在GitHub發布的安全公告，CVE-2026-238302問題，源於既有設計未將AsyncFunction等相關函式的建構子，納入相同的隔離與攔截機制，導致沙箱隔離在特定情境遭到繞過。 從弱點分類角度來看，NVD將CVE-2026-23830對應至多項由MITRE定義的常見弱點枚舉（CWE），包括CWE-94（程式碼注入）、CWE-693（防護機制失效），以及CW</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173699</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0201-SandboxJS-600-1.png" length="0" type="image/png"/>
-      <pubDate>Mon, 02 Feb 2026 02:36:07 +0000</pubDate>
+      <title>【資安日報】2月2日，駭客組織ShinyHunters聲稱竊得約會App開發商逾千萬筆個資</title>
+      <link>https://www.ithome.com.tw/news/173718</link>
+      <description>新聞ShinyHunters疑似經由第三方平臺取得約會App開發商Match Group逾1000萬筆資料 資安媒體Cybernews發現，勒索軟體駭客組織ShinyHunters在暗網論壇上聲稱，他們藉由第三方平臺，取得約會App如Tinder、OkCupid的開發商Match Group用戶及員工資料，數量超過1,000萬筆。 ShinyHunters貼文指出，它是經由AppsFlyer和數百份內部文件取得Hinge、Match與OkCupid等用戶的資料逾1,000萬筆。這些資料包含一個1.7 GB壓縮檔。駭客同時公布部分資料供買家檢驗。AppsFlyer為行動行銷分析和歸因SaaS平臺。而Hinge、Match與OkCupid，連同受歡迎的Tinder都是由Match集團所開發。 網路犯罪聯盟Scattered Lapsus$ Hunters企圖對超過100家企業發動大規模語音網釣 威脅情資公司Silent Push近日發布特殊資安警報，由Scattered Spider、Lapsus$，以及ShinyHunters三組人馬組成的網路犯罪聯盟Scattered Lapsus$</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173718</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/3OY6BsDxvQ.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Feb 2026 11:04:13 +0000</pubDate>
     </item>
     <item>
-      <title>老牌Python解析庫PLY爆重大RCE漏洞，未記載picklefile參數恐成攻擊入口</title>
-      <link>https://www.ithome.com.tw/news/173700</link>
-      <description>新聞老牌Python語言解析工具庫PLY（Python Lex-Yacc）存在遠端程式碼執行（RCE）資安漏洞CVE-2025-56005，CVSS 3.1基礎評分高達9.8，屬於重大（Critical）等級的漏洞。研究人員指出，這起漏洞並非源自常見的輸入檢查錯誤，而是與PLY內部一項未於官方文件揭露的設計細節有關，在特定使用情境下，可能被濫用為攻擊入口。 未揭露的設計細節，成為高風險漏洞來源 PLY是一套長期被用於建構語法分析器的Python函式庫，應用場景涵蓋程式語言處理、設定檔解析與後端服務等。根據資安研究人員Bohmiiidd的分析，PLY在yacc()函式支援一個未被官方文件記載的參數picklefile，這原本用於指定解析表的快取檔案，但在實作上，PLY會直接使用Python內建的pickle機制載入該檔案，過程中未檢查檔案來源是否可信。由於pickle在設計上並未考量安全性，若檔案內容遭刻意製作或竄改，在載入時就可能直接執行惡意程式碼。 CVE-2025-56005也被NVD歸類為CWE-502「不可信資料反序列化」，屬於資安事件中相當常見、但一旦發生往往後果嚴重的弱點類</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173700</guid>
-      <pubDate>Mon, 02 Feb 2026 02:44:01 +0000</pubDate>
+      <title>PHPUnit爆高風險漏洞CVE-2026-24765，CI/CD測試流程恐成RCE攻擊入口</title>
+      <link>https://www.ithome.com.tw/news/173717</link>
+      <description>新聞開源PHP單元測試框架PHPUnit存在高風險資安漏洞CVE-2026-24765，CVSS風險分數為7.8分，屬於高風險等級（High）。在特定條件下，若於啟用測試覆蓋率的PHPT測試執行情境中，攻擊者能事先寫入惡意測試覆蓋率資料，便可觸發不安全反序列化，進而執行任意程式碼。 PHPUnit是PHP生態系中廣泛使用的單元測試工具，常被整合至CI/CD流程，用於自動化測試與程式品質驗證。 PHPUnit維護團隊於1月27日發布安全公告，說明CVE-2026-24765漏洞成因出在PHPUnit於PHPT測試執行過程中，用於清理測試覆蓋率資料的cleanupForCoverage()邏輯。該流程會讀取並反序列化.coverage相關資料檔案，但未對其內容進行完整驗證，導致攻擊者只要能事先在系統中植入惡意序列化物件，就有機會在測試流程執行期間，觸發任意程式碼執行（RCE）。 根據PHPUnit團隊說明，雖然此漏洞的利用前提包含「可寫入特定檔案」的條件，但在實務環境中，CI/CD自動化流程、測試產物共享機制，以及未完全隔離的建置環境，往往放大了實際風險。例如，攻擊者可透過惡意Pull R</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173717</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0205-PHPUNIT-600-1.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Feb 2026 11:07:25 +0000</pubDate>
     </item>
     <item>
-      <title>Cloudflare公開Moltworker專案，讓個人AI代理Moltbot可部署於Workers</title>
-      <link>https://www.ithome.com.tw/news/173696</link>
-      <description>新聞Cloudflare公布並開源Moltworker專案，這是一個入口Worker搭配一組改寫腳本，讓開源個人AI代理Moltbot不必另外購買專門運作的硬體，也能透過Cloudflare的Sandboxes、R2與Browser Rendering等元件，以雲端部署方式運作。不過，Cloudflare強調Moltworker仍屬概念驗證專案，並非正式產品。 Moltbot前身為Clawdbot（現已更名為OpenClaw），是可自行架設的個人助理型AI代理，能透過Slack等通訊平臺與使用者互動，並串接多種AI模型與工具，協助整理行程與處理日常任務。近期社群一度出現為了在本機常駐執行而購買Mac mini的風潮，Cloudflare則以Moltworker回應另一種需求，也就是不想添購專用設備，改以線上方式部署與管理。 依Cloudflare說明，Moltworker的入口Worker，負責API路由與代理，並透過Sandbox SDK在隔離環境中啟動容器，執行Moltbot的既有閘道環境與整合項目。為了讓AI代理能執行需要瀏覽器的工作，專案也接上Cloudflare Browse</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173696</guid>
-      <pubDate>Mon, 02 Feb 2026 02:54:04 +0000</pubDate>
+      <title>Google BigQuery推出對話式分析，自然語言提問即可生成並執行SQL</title>
+      <link>https://www.ithome.com.tw/news/173720</link>
+      <description>新聞Google於BigQuery推出對話式分析預覽版，使用者可在BigQuery Studio以自然語言提問，系統會產生並執行SQL，回傳解讀、查詢結果與圖表。Google表示，這項功能可縮短使用者等待資料團隊回覆的時間，讓提問到取得答案的流程更直接。 Google先前已在Looker提供的對話式分析能力，並把以Gemini模型為核心的推理與查詢生成能力帶進BigQuery環境。官方強調該功能不只是聊天介面，而是能利用資料表結構、後設資料與自訂指示來生成SQL，避免在缺乏脈絡時以通用假設硬套欄位與指標口徑。 BigQuery的對話式分析允許用戶，把驗證查詢與使用者自訂函式UDF納入資料代理的知識來源，讓回答更貼近企業既有的計算邏輯提高答案可用性。系統也會呈現產生的SQL與推理依據，並將大量資料的分析結果整理成摘要，供使用者核對與追溯。 BigQuery Studio的對話回應可同時提供文字說明、產生的 SQL 等程式碼，以及圖表等視覺化內容，並附上本次對話所使用的資料代理與資料來源等中繼資料。官方範例也顯示，對話可觸發BigQuery ML的AI.FORECAST與AI.DETECT</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173720</guid>
+      <pubDate>Tue, 03 Feb 2026 01:35:29 +0000</pubDate>
     </item>
     <item>
-      <title>a16z調查：78%企業正式部署OpenAI，Anthropic成長最快</title>
-      <link>https://www.ithome.com.tw/news/173707</link>
-      <description>新聞創投業者Andreessen Horowitz（a16z）近日公布第三屆的企業級AI調查，發現OpenAI依然是最受企業青睞的AI品牌，已有78%的企業於正式環境中使用，居次的是Anthropic的44%。但若以支出來看，2026年預估OpenAI將占據53%的預算，Anthropic及Google則各占18%。 a16z調查了Global 2000中的100家年營收超過5億美元的企業CIO、VP，以及C等級的主管，詢問他們企業使用AI的狀況，發現有78%的受訪企業已直接於生產環境中使用OpenAI模型，Anthropic則是44%。 其中，OpenAI一直維持最高的正式上線比例，都在6、7成左右；而Anthropic在2024年時，原本都處於測試中，當時的正式上線比例趨近於零，但今年正式上線比例達到44%，為成長最快的AI品牌；而Google AI的正式上線比例則在3成左右。 而在企業對這些AI品牌的支出中，OpenAI在2024年時占了62%，Anthropic為14%，Google為15%；但今年估計OpenAI只剩53%，Anthropic與Google則同時成長至18%。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173707</guid>
-      <pubDate>Mon, 02 Feb 2026 03:17:36 +0000</pubDate>
+      <title>PyTorch存在CVE-2026-24747高風險漏洞，惡意模型可觸發遠端程式碼執行</title>
+      <link>https://www.ithome.com.tw/news/173721</link>
+      <description>新聞開源深度學習框架PyTorch被揭露存在資安漏洞CVE-2026-24747，CVSS風險分數為8.8分，屬於高風險（High）等級。即使使用者啟用原本設計用來降低風險的安全載入選項，攻擊者仍可能透過特製的模型檔案，觸發遠端程式碼執行（RCE）。 PyTorch是AI與機器學習生態系中廣泛採用的深度學習函式庫，常見於模型訓練、推論與模型交換等應用場景。由於模型載入流程涉及Python的pickle序列化機制，一旦載入來源不明的模型檔案，便可能帶來執行不受信任內容的風險。基於這樣的背景，PyTorch團隊先前在torch.load()函式中提供weights_only=True等選項，主打僅載入權重資料，以降低反序列化帶來的攻擊面。 不過，原本被部分使用者視為「較安全的載入方式」，在CVE-2026-24747漏洞情境下仍可能失效。根據PyTorch維護團隊於1月下旬發布的安全公告，問題出在weights_only模式所使用的unpickler實作。攻擊者可藉由製作惡意的checkpoint檔案（例如.pth），在使用者以weights_only模式載入時觸發記憶體破壞（memory</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173721</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0203-pytorch-CVE-2026-24747(1).png" length="0" type="image/png"/>
+      <pubDate>Tue, 03 Feb 2026 02:57:57 +0000</pubDate>
     </item>
     <item>
-      <title>Ollama 17.5萬臺主機曝露，遍及130國，可能面臨LLM濫用風險</title>
-      <link>https://www.ithome.com.tw/news/173708</link>
-      <description>新聞資安業者SentinelOne及Censys發現，開源大語言模型（LLM）框架Ollama在全球的部署，形成了17.5萬臺主機可公開存取的AI運算基礎架構，可能被惡意人士濫用。 Ollama是開源、輕量級且高效的LLM開發框架，允許使用者在自有硬體上執行LLM。研究人員說明，原始設計中，Ollama執行個體綁定在本機接口上，只有在本機上的程式或使用者可以存取。但若使用者或部署者改變服務綁定地址（例如設成0.0.0.0或指向某個公開網路介面），就會經由端點暴露於整個網際網路。而且許多使用者並未配置防火牆或存取控制，導致大量Ollama執行個體可被外部網路存取。 SentinelOne及Censys合作的研究計畫掃描了網際網路可存取的Ollama環境。掃描293天後，他們發現175,018臺Ollama主機，分布於130個國家、4,032個自主系統編碼（Autonomous System Numbers，ASN），其中中國和美國各佔30%和21%。他們紀錄到這17.5萬臺主機執行了723萬次觀察，其中大半活動是來自2.3萬臺主機。 圖片來源／SentinelLABS 為了探究其安全風險</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173708</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0202-ai-ollama-600.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Feb 2026 03:52:24 +0000</pubDate>
+      <title>SpaceX宣布買下xAI</title>
+      <link>https://www.ithome.com.tw/news/173722</link>
+      <description>新聞馬斯克（Elon Musk）周一（2/2）宣布，旗下太空公司SpaceX已買下同為馬斯克麾下的AI新創xAI，以垂直整合AI、火箭、太空網路、行動裝置直連通訊，以及即時資訊與言論自由平臺。 SpaceX上周才向美國聯邦通訊委員會（Federal Communications Commission，FCC）申請於太空中建置軌道資料中心系統（SpaceX Orbital Data Center System），計畫發射100萬顆衛星，以建立一個環繞地球的軌道資料中心網路。 馬斯克多次提及，這是邁向卡爾達肖夫II級文明（Kardashev Type II Civilization）的第一步。卡爾達肖夫尺度由蘇聯天文學家Nikolai Kardashev提出，用以衡量文明可掌握的能量規模；其中的II級文明，指的是能夠大規模利用其母恆星（如太陽）能量的文明。以太陽為例，其輸出功率約為10^26瓦，約比目前人類文明的能源使用規模高出10^13倍。 馬斯克表示，當前AI的進展高度依賴大型地面資料中心，而這些資料中心需要龐大的電力與冷卻資源。即便在短期內，全球AI所需的電力需求，也無法僅靠地面解決</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173722</guid>
+      <pubDate>Tue, 03 Feb 2026 03:16:40 +0000</pubDate>
     </item>
     <item>
-      <title>HPE修補Aruba設備軟體高風險OpenSSL弱點</title>
-      <link>https://www.ithome.com.tw/news/173709</link>
-      <description>新聞HPE上周發布安全公告，警告網路設備Aruba軟體3項漏洞，包含高風險等級的OpenSSL相關漏洞。 3項漏洞位於Aruba Fabric Composer，包括CVE-2024-4741與CVE-2026-23592、CVE-2026-23593。最重要的是CVE-2024-4741，為影響OpenSSL API中的SSL_free_buffers函式的使用已釋放記憶體（Use-After-Free）漏洞。在某些特定情況下，呼叫SSL_free_buffers函式可導致記憶體遭攻擊者存取。CVE-2024-4741是由OpenSSL軟體基金會發現及通報，CVSS風險值7.5。 HPE提醒，在特定條件的情境下，即使緩衝記憶體還在使用中，攻擊者也能成功呼叫SSL_free_buffers，因此，攻擊者會試圖刻意引發這些情境。只有直接呼叫SSL_free_buffers函式的應用程式才會曝險。HPE調查結論說，本函式鮮少為應用程式呼叫。未呼叫該函式的應用程式不受影響。 CVE-2026-23592則是Aruba Fabric Composer備份功能中的檔案不安全處理，可讓經驗證的攻擊</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173709</guid>
-      <pubDate>Mon, 02 Feb 2026 04:09:16 +0000</pubDate>
+      <title>OpenAI推出Codex桌面版，程式代理人從研究功能走向工作平臺</title>
+      <link>https://www.ithome.com.tw/news/173724</link>
+      <description>新聞OpenAI周一（2/2）推出Codex app for macOS，將原本存在於ChatGPT、CLI與IDE擴充中的Codex，進一步獨立為桌面應用程式，定位為可同時管理多個程式代理人的指揮中心。這項發表並非單純增加新介面，而是象徵OpenAI正式將「代理人式開發」從研究預覽階段，推向可規模化使用的實務工作模式。 圖片來源／OpenAI Codex最早於2025年5月以研究預覽形式對外公布，當時被定位為ChatGPT中的程式撰寫代理人，可協助工程師撰寫功能程式碼、回答程式問題、除錯，並在雲端沙箱中反覆執行測試，直到通過為止。初期僅開放給Pro、Team與Enterprise方案用戶，後續才逐步擴及Plus與Edu方案。相較於一般對話型AI，Codex的特點在於能實際讀取專案檔案、執行指令，並以任務為單位長時間運作。 不過，隨著開發者開始同時調度多個代理人處理不同任務，僅透過命令列或IDE擴充的操作方式，逐漸顯露出管理與監督上的限制。OpenAI指出，現有工具並非為「多代理人平行協作」所設計，這也成為推出Codex桌面版的主要原因。 新推出的Codex App提供集中式介面，讓多</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173724</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0203-Codex%20app%20for%20macOS-2-OpenAI.png" length="0" type="image/png"/>
+      <pubDate>Tue, 03 Feb 2026 03:44:59 +0000</pubDate>
     </item>
     <item>
-      <title>SpaceX申請發射100萬顆衛星以支援太空AI資料中心</title>
-      <link>https://www.ithome.com.tw/news/173710</link>
-      <description>新聞馬斯克（Elon Musk）旗下的太空公司SpaceX上周五（1/30）向美國聯邦通訊委員會（Federal Communications Commission，FCC）遞出一份申請書，名稱為「SpaceX的軌道資料中心系統」（SpaceX Orbital Data Center System），計畫發射100萬顆衛星，以建立一個環繞地球的軌道資料中心網路。 此一軌道資料中心主張利用幾乎持續的太陽能供電，以降低營運成本，替AI模型及相關應用提供前所未有的運算能力，同時減輕地面資料中心對環境的衝擊。 根據SpaceX的規畫，該公司打算發射最多100萬顆衛星至500~2000公里的高度，這些衛星主要扮演運算的角色，在軌道上執行AI運算，利用太空中幾乎不中斷的太陽能來形成一個分散式的軌道資料中心。它們同時也具備通訊能力，以於衛星之間交換資料，以及將運算結果送回地面，或是接收任務、控制指令或是更新模型。 每一顆衛星基本上同時配備太陽能供電、運算晶片、儲存及通訊能力。除了可就近利用太陽能之外，也可利用太空中的輻射散熱特性，將運算產生的熱量直接向外釋放，不必仰賴大量用水或高耗能的冷卻系統。 不</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173710</guid>
-      <pubDate>Mon, 02 Feb 2026 05:20:51 +0000</pubDate>
+      <title>Windows 11非安全更新KB5074105再傳災情，用戶回報效能與開始選單異常</title>
+      <link>https://www.ithome.com.tw/news/173725</link>
+      <description>新聞微軟上周釋出最新Windows 11更新KB5074105，解決1月初Patch Tuesday引發無法開機、登入等眾多問題。但本次更新似乎又有新問題，目前微軟尚未證實。 KB5074105為針對Windows 11 24H2及25H2的非安全更新，可解決之前更新造成的問題、改善部份問題，並新增安全功能。已解決的問題包括從「設定」加入Windows Insider方案時卡出；開始選單移位或顯示不全；首次登入Windows 11 PC時檔案總管凍結及工作列消失；桌面App消失；更新Windows後無法啟動（activation），因為Windows無法順利將有效Windows授權註冊到Windows Activation Server；Windows沙箱啟動到一半時停止回應並出現錯誤碼0x800705b4；非管理員帳號升級欲執行Windows Terminal，PC停止回應，以及輸入問題等。 微軟試圖改善，但尚未能完全解決的問題包括：鎖定螢幕後凍住，以及使用網路位置時檔案總管沒有回應。 KB5074105也新增了數項功能，包含二項安全性的功能。其中，智慧應用程式控制（Smart Ap</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173725</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0203-KB5074105.png" length="0" type="image/png"/>
+      <pubDate>Tue, 03 Feb 2026 04:07:38 +0000</pubDate>
     </item>
     <item>
-      <title>NASA嘗試以Claude規畫火星探測車的路徑</title>
-      <link>https://www.ithome.com.tw/news/173713</link>
-      <description>新聞美國太空總署（NASA）宣布火星探測車毅力號（Perseverance）去年底完成了首次以AI規畫探測路徑的太空任務。 這項示範計畫是由NASA的噴射推進實驗室（Jet Propulsion Laboratory）領軍，首次展示使用AI產生毅力號行進路徑圖，於去年12月8日和12月10日執行。研究人員讓Anthropic的Claude視覺語言模型分析JPL現有的火星表面任務歷史資料，包括圖片和資料來產生航點（waypoint）。航點是一組定點資料，可在毅力號行經時取得新一批指令，以便能安全探測火星表面。 航點規畫工作過去一向由人類執行規畫。但是由於火星影像及訊號在指揮中和火星之間有20分鐘訊號延遲，加上為了安全的保守規畫，使得毅力號每天只能執行一小段路程探測。 新方法中，Claude仍然於地球上執行，但指揮中心JPL毅力號工程團隊讓Claude分析NASA火星偵察軌道器高解析度成像科學設備（High Resolution Imaging Science Experiment，HiRISE）相機拍攝的高解析度影像，以及數值高程模型（Digital Elevation Model）的地</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173713</guid>
-      <pubDate>Mon, 02 Feb 2026 06:32:07 +0000</pubDate>
+      <title>Waymo完成160億美元募資，估值1260億美元，自動駕駛正式進入全球擴張期</title>
+      <link>https://www.ithome.com.tw/news/173726</link>
+      <description>新聞Alphabet旗下自動駕駛公司Waymo周一（2/2）宣布完成一輪160億美元私募融資，投後估值達1260億美元。本輪融資由Dragoneer Investment Group、DST Global與Sequoia Capital領投，Andreessen Horowitz、Mubadala Capital等多家知名投資機構參與。 Waymo的前身為Google於2009年啟動的自動駕駛研究計畫，2016年自Alphabet體系中獨立成公司，同時確立以「完全無人駕駛」為核心目標。2018年，Waymo在美國鳳凰城推出全球首個無安全駕駛員的商用自動駕駛叫車服務，正式跨入實際營運階段。此後數年，Waymo持續以高度保守的方式擴張，優先累積行駛數據與安全紀錄。 截至目前，Waymo的無人駕駛系統Waymo Driver已累積約1.27億英里（2.05億公里）的全自動行駛里程，造成嚴重人身傷害的交通事故較人類駕駛降低約90%。在營運規模上，Waymo於2025年全年完成約1,500萬趟載客服務，累積總搭乘次數已突破2,000萬趟，目前每周於美國提供超過40萬趟無人駕駛行程。 在城市布局上</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173726</guid>
+      <pubDate>Tue, 03 Feb 2026 04:28:57 +0000</pubDate>
     </item>
   </channel>
 </rss>

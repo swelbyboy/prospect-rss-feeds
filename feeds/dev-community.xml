@@ -8,79 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Feb 2026 07:06:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 06:56:28 +0000</lastBuildDate>
     <item>
-      <title>Scaling Vue 3 Forms: A Pattern for Handling Heavy Data Reactivity</title>
-      <link>https://dev.to/avsecdongol/scaling-vue-3-forms-a-pattern-for-handling-heavy-data-reactivity-nnk</link>
-      <description>Scaling Vue 3 Forms: A Pattern for Handling Heavy Data Reactivity The Scenario Imagine you are building a complex "Inventory Dashboard" for an e-commerce platform. One of the requirements is a granular filter system allowing users to select from thousands of nested product categories. The backend provides a flat list of 5,000+ categories. Your job is to display these in a multi-select dropdown, pre-selecting user preferences stored in their profile. The Symptoms During development, everything se</description>
-      <guid isPermaLink="false">https://dev.to/avsecdongol/scaling-vue-3-forms-a-pattern-for-handling-heavy-data-reactivity-nnk</guid>
-      <pubDate>Mon, 02 Feb 2026 06:46:06 +0000</pubDate>
+      <title>MySQL 8.0 vs 9.0: The Upgrade That Almost Broke Production</title>
+      <link>https://dev.to/igornosatov_15/mysql-80-vs-90-the-upgrade-that-almost-broke-production-50po</link>
+      <description>The "Just Upgrade" Myth Here's what most comparison articles won't tell you: MySQL 9.0 isn't MySQL 8.1. It's a paradigm shift dressed as an incremental update. The Breaking Changes Nobody Warns You About -- This worked fine in 8.0 SELECT * FROM users WHERE JSON_EXTRACT(metadata, '$.role') = 'admin'; -- In 9.0, suddenly... -- Query execution time: 0.3s → 2.1s What happened? MySQL 9.0 completely rewrote the JSON optimizer. Some queries got faster. Mine got 7x slower. The Five Game-Changers 1. Vect</description>
+      <guid isPermaLink="false">https://dev.to/igornosatov_15/mysql-80-vs-90-the-upgrade-that-almost-broke-production-50po</guid>
+      <pubDate>Tue, 03 Feb 2026 06:09:40 +0000</pubDate>
     </item>
     <item>
-      <title>I created small mcp server for Jupyter Notebook.</title>
-      <link>https://dev.to/cshara/i-created-small-mcp-server-for-jupyter-notebook-14l6</link>
-      <description>Introduction When working with AI agents like Claude or Antigravity, one common hurdle is dealing with Jupyter Notebook (.ipynb) files. While agents are great at writing code, directly editing the complex JSON structure of a notebook can lead to corruption. Furthermore, security restrictions often prevent agents from executing code directly in a notebook environment. To solve this, I developed Easy Jupyter Editor MCP — a lightweight Model Context Protocol (MCP) server that allows AI agents to st</description>
-      <guid isPermaLink="false">https://dev.to/cshara/i-created-small-mcp-server-for-jupyter-notebook-14l6</guid>
-      <pubDate>Mon, 02 Feb 2026 06:48:45 +0000</pubDate>
+      <title>Rapid Deployment of Phishing Pattern Detection with Docker Under Tight Deadlines</title>
+      <link>https://dev.to/mohammad_waseem_c31f3a26f/rapid-deployment-of-phishing-pattern-detection-with-docker-under-tight-deadlines-41f5</link>
+      <description>Rapid Deployment of Phishing Pattern Detection with Docker Under Tight Deadlines In the fast-paced environment of cybersecurity, timely detection of phishing patterns is critical. As a Senior Architect, I recently faced a scenario where I needed to implement an effective phishing detection system within a very limited timeframe. Leveraging Docker for containerization allowed me to rapidly develop, test, and deploy a scalable solution without overhauling the existing infrastructure. The Challenge</description>
+      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/rapid-deployment-of-phishing-pattern-detection-with-docker-under-tight-deadlines-41f5</guid>
+      <pubDate>Tue, 03 Feb 2026 06:10:34 +0000</pubDate>
     </item>
     <item>
-      <title>Officially Google Cloud Certified: Associate Cloud Engineer Path</title>
-      <link>https://dev.to/urielalonso/officially-google-cloud-certified-associate-cloud-engineer-path-5dh6</link>
-      <description>The cloud is no longer just a trend; it is the industry standard. To keep pace with the tech landscape, I decided to earn the Google Cloud Certified - Associate Cloud Engineer (ACE) credential. Here is how I navigated the process, the resources I used, and how I stayed on track. Get Certified Program 2025 My journey officially kicked off when I was accepted into the Get Certified Program 2025. This is a guided, intensive 6-week program designed to prepare technical practitioners for high-demand</description>
-      <guid isPermaLink="false">https://dev.to/urielalonso/officially-google-cloud-certified-associate-cloud-engineer-path-5dh6</guid>
-      <pubDate>Mon, 02 Feb 2026 06:50:41 +0000</pubDate>
+      <title>De PHP a la IA: Tres Estrategias para Modernizar Sistemas Legacy Sin Morir en el Intento</title>
+      <link>https://dev.to/draexx/de-php-a-la-ia-tres-estrategias-para-modernizar-sistemas-legacy-sin-morir-en-el-intento-3l3g</link>
+      <description>Introducción: El Dilema del Código Antiguo Trabajar con sistemas legacy se siente frustrante y limitado. El código que antes funcionaba ahora es una barrera para la innovación, y las soluciones actuales a menudo se perciben como parches temporales. La realidad es que no podemos (ni debemos) seguir desarrollando dentro de arquitecturas obsoletas si queremos crecer. La clave está en buscar alternativas con soluciones actuales y plantear soluciones mixtas. En lugar de demoler toda la estructura, ap</description>
+      <guid isPermaLink="false">https://dev.to/draexx/de-php-a-la-ia-tres-estrategias-para-modernizar-sistemas-legacy-sin-morir-en-el-intento-3l3g</guid>
+      <pubDate>Tue, 03 Feb 2026 06:13:19 +0000</pubDate>
     </item>
     <item>
-      <title>Data Modelling in Power BI</title>
-      <link>https://dev.to/valgrace/data-modelling-in-power-bi-4jn8</link>
-      <description>Data modelling helps to define the relationship between sources of data. Organizations work with large amounts of data which require modelling, before building reports. This article is a practical guide for building performance optimized data models in Power BI. Data models in Power BI are referred to as semantic models. The data model is where you describe and organize your data. ** How to build relationships Modelling Approaches There is a sequence of steps followed when creating a data model.</description>
-      <guid isPermaLink="false">https://dev.to/valgrace/data-modelling-in-power-bi-4jn8</guid>
-      <pubDate>Mon, 02 Feb 2026 06:53:36 +0000</pubDate>
+      <title>Securing Legacy Test Environments: Eliminating PII Leaks on Linux</title>
+      <link>https://dev.to/mohammad_waseem_c31f3a26f/securing-legacy-test-environments-eliminating-pii-leaks-on-linux-38aa</link>
+      <description>Managing test environments for legacy codebases often presents unique challenges, especially when it comes to safeguarding sensitive data like Personally Identifiable Information (PII). As a Lead QA Engineer, implementing robust measures to prevent PII leaks is critical for maintaining compliance and protecting user privacy. This article explores key strategies and practical steps to mitigate PII exposure in Linux-based test environments, focusing on legacy systems. Understanding the Challenge L</description>
+      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/securing-legacy-test-environments-eliminating-pii-leaks-on-linux-38aa</guid>
+      <pubDate>Tue, 03 Feb 2026 06:19:58 +0000</pubDate>
     </item>
     <item>
-      <title>My Updated Dev Portfolio</title>
-      <link>https://dev.to/fiewor/my-updated-dev-portfolio-307k</link>
-      <description>New Year, New You Portfolio Challenge Submission Portfolio About Me I am a software engineer who builds full-stack web applications with an emphasis on pragmatic, maintainable code and strong developer experience. For this portfolio refresh, I aimed to present a concise, modern summary of my skills and projects while improving performance, accessibility, and responsiveness so the site better represents my current capabilities. How I Built It Overview &amp;amp; Goals Modernize an old Create React App por</description>
-      <guid isPermaLink="false">https://dev.to/fiewor/my-updated-dev-portfolio-307k</guid>
-      <pubDate>Mon, 02 Feb 2026 06:53:54 +0000</pubDate>
+      <title>The Startup Studio Engine: Why Agile is the Secret Sauce at Frugal Scientific</title>
+      <link>https://dev.to/shinto_peter_38a3dc9fcdab/the-startup-studio-engine-why-agile-is-the-secret-sauce-at-frugal-scientific-37o5</link>
+      <description>In the fast-paced world of technology, the distance between a brilliant idea and a market-ready product is often where most startups fail. At Frugal Scientific, we’ve eliminated that gap. By operating as a Startup Studio, we don’t just fund ideas; we build them. And the engine that powers this factory of innovation is a deeply integrated Agile methodology. While many organisations treat Agile as a set of rules to follow, we treat it as a competitive advantage. Here is a detailed look at how Agil</description>
+      <guid isPermaLink="false">https://dev.to/shinto_peter_38a3dc9fcdab/the-startup-studio-engine-why-agile-is-the-secret-sauce-at-frugal-scientific-37o5</guid>
+      <pubDate>Tue, 03 Feb 2026 06:26:14 +0000</pubDate>
     </item>
     <item>
-      <title>Forge Query - A 3KB Alternative to React Query with Built-in DevTools</title>
-      <link>https://dev.to/john_yaghobieh_8f294091f6/forge-query-a-3kb-alternative-to-react-query-with-built-in-devtools-5fbb</link>
-      <description>Forge Query: A 3KB Alternative to React Query If you've ever written this pattern in React... const [data, setData] = useState(null); const [loading, setLoading] = useState(true); const [error, setError] = useState(null); useEffect(() =&amp;gt; { fetch('/api/users') .then(res =&amp;gt; res.json()) .then(setData) .catch(setError) .finally(() =&amp;gt; setLoading(false)); }, []); ...you know the pain. No caching. No retries. Boilerplate everywhere. Libraries like React Query solve this beautifully. But at 13KB, they c</description>
-      <guid isPermaLink="false">https://dev.to/john_yaghobieh_8f294091f6/forge-query-a-3kb-alternative-to-react-query-with-built-in-devtools-5fbb</guid>
-      <pubDate>Mon, 02 Feb 2026 06:56:21 +0000</pubDate>
+      <title>I have 8 users and Google Gemini is my Marketing Manager. Week 1 Reality.</title>
+      <link>https://dev.to/donald_wono_2494bee04aa88/i-have-8-users-and-google-gemini-is-my-marketing-manager-week-1-reality-kp5</link>
+      <description>Hey Dev.to! 👋 I’m a developer, not a marketer. To be honest, I have no clue what I’m doing when it comes to selling software. So, last Monday, when I decided to pull the trigger and release the public beta of my new tool (NeoShiftBI), I decided to hire the only marketing manager I could afford: Google Gemini. I’ve been following its daily posting plans for LinkedIn, Twitter, and TikTok blindly. The Week 1 Results: Signups: 8 (mostly from spamming my friends on WhatsApp groups 😅). Marketing Strat</description>
+      <guid isPermaLink="false">https://dev.to/donald_wono_2494bee04aa88/i-have-8-users-and-google-gemini-is-my-marketing-manager-week-1-reality-kp5</guid>
+      <pubDate>Tue, 03 Feb 2026 06:28:45 +0000</pubDate>
     </item>
     <item>
-      <title>I Built a Retro Gamified Portfolio (Yes, With Pixel Art, Games &amp;amp; Windows 95 Vibes) 🎮</title>
-      <link>https://dev.to/mewmewdevart/i-built-a-retro-gamified-portfolio-yes-with-pixel-art-games-windows-95-vibes-589k</link>
-      <description>This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI I still remember the first time I touched a computer and a video game. It felt like magic. The sounds, the colors, the feeling that you could explore instead of just consume. Years later, as a front-end developer, I realized something uncomfortable: most portfolios don’t feel like that anymore. They’re clean. Minimal. Technically correct. And… kind of forgettable. So I asked myself: where did the fun go? Th</description>
-      <guid isPermaLink="false">https://dev.to/mewmewdevart/i-built-a-retro-gamified-portfolio-yes-with-pixel-art-games-windows-95-vibes-589k</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzup7c4awhjrhk3dciso2.png" length="0" type="image/png"/>
-      <pubDate>Mon, 02 Feb 2026 06:59:11 +0000</pubDate>
+      <title>Streamlining Data Hygiene During High Traffic Events with Python in DevOps</title>
+      <link>https://dev.to/mohammad_waseem_c31f3a26f/streamlining-data-hygiene-during-high-traffic-events-with-python-in-devops-1h1b</link>
+      <description>Streamlining Data Hygiene During High Traffic Events with Python in DevOps Handling large-scale data influxes during high traffic events presents unique challenges in maintaining data quality. As a DevOps specialist, optimizing the process of cleaning dirty data becomes crucial to ensure reliable analytics, real-time decision-making, and system stability. This post explores how Python can be effectively employed to automate and accelerate data cleaning processes in such high-pressure scenarios.</description>
+      <guid isPermaLink="false">https://dev.to/mohammad_waseem_c31f3a26f/streamlining-data-hygiene-during-high-traffic-events-with-python-in-devops-1h1b</guid>
+      <pubDate>Tue, 03 Feb 2026 06:30:54 +0000</pubDate>
     </item>
     <item>
-      <title>Neural Bridge: My AI-First Portfolio with a Live Gemini-Powered Clone You Can Interview</title>
-      <link>https://dev.to/zelalemgizachew/neural-bridge-my-ai-first-portfolio-with-a-live-gemini-powered-clone-you-can-interview-10nk</link>
-      <description>Hey DEV Community! 👋 I'm super excited to share my submission for the New Year, New You Portfolio Challenge Presented by Google AI This challenge came at the perfect time. 2026 is all about leveling up, and I wanted my portfolio to do the same. Instead of another static page that people just skim and forget, I built a living, interactive experience: Neural Bridge (Inspired By Jarvis), where visitors can actually talk to an AI version of me in real time. No more one-way "about me" sections! You c</description>
-      <guid isPermaLink="false">https://dev.to/zelalemgizachew/neural-bridge-my-ai-first-portfolio-with-a-live-gemini-powered-clone-you-can-interview-10nk</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fpopcorngtm.com%2Fhs-fs%2Fhubfs%2FCRM%2520HUD%2520PGTM.gif%3Fwidth%3D1008%26height%3D567%26name%3DCRM%2520HUD%2520PGTM.gif" length="0" type="image/gif"/>
-      <pubDate>Mon, 02 Feb 2026 06:59:51 +0000</pubDate>
+      <title>4 Best AI Agent Authentication platforms to consider in 2026 🔐</title>
+      <link>https://dev.to/composiodev/4-best-ai-agent-authentication-platforms-to-consider-in-2026-32o8</link>
+      <description>AI agents in 2026 do a lot more than answer questions. They read emails, update CRMs, trigger workflows, deploy code, and quietly make changes across systems that actually matter. That’s exciting until you realize that each of those actions requires the right access. The moment agents start taking action, authentication stops being a background detail and becomes a make-or-break part of your setup. This is where things start to show cracks. API keys get stretched. Service accounts get reused. Pe</description>
+      <guid isPermaLink="false">https://dev.to/composiodev/4-best-ai-agent-authentication-platforms-to-consider-in-2026-32o8</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9ht67n23n51ycip3xb07.png" length="0" type="image/png"/>
+      <pubDate>Tue, 03 Feb 2026 06:45:13 +0000</pubDate>
     </item>
     <item>
-      <title>Schemas &amp;amp; Data Modelling in Power BI</title>
-      <link>https://dev.to/kinyywa-data-analyst/schemas-and-data-modelling-in-power-bi-55no</link>
-      <description>When most people think about Power BI, they imagine dashboards and visuals. But the truth is great Power BI reports start with great data modelling, long before a single visual is created. A strong model improves performance, ensures accurate reporting and provides a scalable foundation for analytics. In this article, we explore fact and dimension tables, star and snowflake schemas, relationships and the importance of good modelling in Power BI. What is data modelling in Power BI? Data modelling</description>
-      <guid isPermaLink="false">https://dev.to/kinyywa-data-analyst/schemas-and-data-modelling-in-power-bi-55no</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fcyyyd9owev47jjo1e0f0.png" length="0" type="image/png"/>
-      <pubDate>Mon, 02 Feb 2026 07:00:59 +0000</pubDate>
+      <title>Kubernetes Gateway API on EKS Exposed via ALB</title>
+      <link>https://dev.to/shanaka_jayasundera/kubernetes-gateway-api-on-eks-exposed-via-alb-1fka</link>
+      <description>Following the interest from readers of my previous blog post Kubernetes Gateway API on AKS Exposed via Azure Application Gateway, I've put together the AWS equivalent. This post focuses on implementing the equivalent solution where web applications on EKS are exposed via AWS Application Load Balancer (ALB). In the real world, you don't always get a greenfield opportunity to design the cleanest and most optimal architecture. More often, you need to retrofit the best possible solution to existing</description>
+      <guid isPermaLink="false">https://dev.to/shanaka_jayasundera/kubernetes-gateway-api-on-eks-exposed-via-alb-1fka</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F86qacdwwwsqm3dyrc9jo.png" length="0" type="image/png"/>
+      <pubDate>Tue, 03 Feb 2026 06:45:22 +0000</pubDate>
     </item>
     <item>
-      <title>Inside My AI‑Native Portfolio: How I Built Dual Agents, Live Architecture Diagrams, and a Multi‑Planetary Theme Engine</title>
-      <link>https://dev.to/awesomeananth/inside-my-ai-native-portfolio-how-i-built-dual-agents-live-architecture-diagrams-and-a-1c5h</link>
-      <description>This is a submission for the New Year, New You Portfolio Challenge Presented by Google AI How I Built It One month. That's about how long I thought this would take. It ended up being a deep dive into building a RAG-powered dual-agent AI that hosts my professional life in a vector database. It's live. And it's alive. 🚀 https://portfolio-challenge-615150985064.us-central1.run.app Let me walk you through what I actually built, the chaotic energy behind it, and why there's a 3D architecture engine h</description>
-      <guid isPermaLink="false">https://dev.to/awesomeananth/inside-my-ai-native-portfolio-how-i-built-dual-agents-live-architecture-diagrams-and-a-1c5h</guid>
-      <pubDate>Mon, 02 Feb 2026 07:02:20 +0000</pubDate>
+      <title>AI-Powered Content Management: Using MCP with AEM as a Cloud Service</title>
+      <link>https://dev.to/raghavajoijode/ai-powered-content-management-using-mcp-with-aem-as-a-cloud-service-5aje</link>
+      <description>Whether you’re a developer orchestrating content workflows or a content author managing sites and assets, Adobe has integrated the Model Context Protocol (MCP) with AEM as a Cloud Service. This means you can now interact with AEM using natural language through AI tools like Claude, ChatGPT, Cursor, and Microsoft Copilot Studio—no API knowledge required. What is MCP and Why Should You Care? Model Context Protocol is a standardized way for applications to expose backend tools to Large Language Mod</description>
+      <guid isPermaLink="false">https://dev.to/raghavajoijode/ai-powered-content-management-using-mcp-with-aem-as-a-cloud-service-5aje</guid>
+      <pubDate>Tue, 03 Feb 2026 06:46:05 +0000</pubDate>
     </item>
   </channel>
 </rss>
