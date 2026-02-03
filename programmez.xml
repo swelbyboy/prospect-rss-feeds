@@ -8,47 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Feb 2026 07:36:56 +0000</lastBuildDate>
-    <item>
-      <title>4G Base Station : MCHobby propose une carte 4G complète avec Pi Pico 2</title>
-      <link>https://www.programmez.com/actualites/4g-base-station-mchobby-propose-une-carte-4g-complete-avec-pi-pico-2-38944</link>
-      <description>MC Hobby propose un kit de développement 4G : la 4G Base Station. Il s'agit d'une plateforme de développement Micro-Python, basée sur un micro-contrôleur Pi Pico 2. Les usages sont nombreux : domotique, gestion des portails, un système SMS.La plateforme intègre :- les capteurs Qwiic / StemmaQT- communication UART, SPI, I2C- Pi Pico- module 4G- 2 relais pour gérer les matériels externesCôté développement, MC Hobby utilise Micro Python et des bibliothèques sont disponibles pour gérer et utiliser l</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/4g-base-station-mchobby-propose-une-carte-4g-complete-avec-pi-pico-2-38944</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 11:06:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sera : Allen Institute for AI se lance dans les agents de codage</title>
-      <link>https://www.programmez.com/actualites/sera-allen-institute-ai-se-lance-dans-les-agents-de-codage-38945</link>
-      <description>Allen Institute for AI (Ai2), Allen en référence au co-fondateur de Microsoft, se lance dans les agents de codage avec Sera. Sera signifie software verified efficient repository agents). A2i annonce plusieurs modèles de codage ouverts, créés pour le code. Ils sont là pour générer le code, faire le debug, maintenir et expliquer le code. Ai2 précise que les modèles fermés n'ont pas une vue sur votre code interne. Ces modèles savent uniquement que vous autorisez. "L'entraînement sur vos données pri</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/sera-allen-institute-ai-se-lance-dans-les-agents-de-codage-38945</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/ai2.png?itok=wBMgyN8Y" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 29 Jan 2026 13:51:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apache gRPC : vulnérabilité critique découverte</title>
-      <link>https://www.programmez.com/actualites/apache-grpc-vulnerabilite-critique-decouverte-38946</link>
-      <description>Les experts de CyberArk dévoilent les détails d'une grave vulnérabilité dans Apache gRPC : la CVE-2025-60021. Elle permet de faire une injection de commandes dans le profileur heap d'Apache gRPC. gRPC est une librairie open source en C++ pour intégrer des services RPC. La faille permet d'exposer des données, des éléments de la mémoire ou encore des détails sur le runtime sur une URL HTTP. Le problème vient de la mauvaise validation du heap profiler dans le service /pprof/heap. A partir de cette</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/apache-grpc-vulnerabilite-critique-decouverte-38946</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 14:12:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Laraval Boost revient en version 2.0</title>
-      <link>https://www.programmez.com/actualites/laraval-boost-revient-en-version-20-38947</link>
-      <description>Boots permet d'accroître son expérience de développement Laravel en assistant le développeur. Boost intègre 15 outils pour scanner le code, configuration les projets, avoir les schémas des bases données, mieux suivre les erreurs, etc. La v2.0 permet à Boost de mieux comprendre le contexte du projet pour trouver les règles et codes inutiles. Jusqu'à présent, il s'appuyait sur un ensemble de bonnes pratiques pour générer un fichier .md pour les assistants IA. La v2 introduit la notion de skills. C</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/laraval-boost-revient-en-version-20-38947</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 16:10:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>PHP : où trouver la liste des timezones ?</title>
-      <link>https://www.programmez.com/actualites/php-ou-trouver-la-liste-des-timezones-38948</link>
-      <description>Timezone (fusion horaire) est parfois une source d'erreurs. Il y a quelques années, l'erreur "It is not safe to rely on the system's timezone settings" pouvait apparaître suite à une mise à jour de la stack. Cette erreur provenait de l'absence de la configuration date.timezone dans php.ini, ou d'une configuration non conforme. Plus récemment, avec l'usage par défaut de UTC (à partir de PHP 8.2) et non du fusion horaire du serveur, des erreurs pouvaient apparaître suite aux mises à jour de PHP. P</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/php-ou-trouver-la-liste-des-timezones-38948</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Fri, 30 Jan 2026 06:51:56 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 03 Feb 2026 07:29:21 +0000</lastBuildDate>
     <item>
       <title>Les principales annonces de re:Invent 2025 pour les développeurs</title>
       <link>https://www.programmez.com/actualites/les-principales-annonces-de-reinvent-2025-pour-les-developpeurs-38949</link>
@@ -88,6 +48,46 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/wordpress-studio-170-developper-des-sites-wordpress-sur-sa-machine-38953</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/wordpress-studio-cli.jpg?itok=uurPADxv" length="0" type="image/jpeg"/>
       <pubDate>Fri, 30 Jan 2026 13:23:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>FOSDEM 2026 : l’événement Open Source européen incontournable</title>
+      <link>https://www.programmez.com/actualites/fosdem-2026-levenement-open-source-europeen-incontournable-38954</link>
+      <description>La rédaction de Programmez! était à la FOSDEM qui s’est déroulée les 31 janvier et 1er février à Bruxelles. L’événement s’est imposé comme LA référence du monde open source en Europe. Comme chaque année, le plus difficile est de planifier son agenda et de choisir parmi les 1 000 sessions proposées !Les chiffres pour cette édition sont hallucinants :1 014 sessions (tout format) 1 186 intervenants 66 tracks thématiques +80 salles 91 stands de partenaires ! Un réseau full IPv6Et même si vous êtes b</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/fosdem-2026-levenement-open-source-europeen-incontournable-38954</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/fosdem1.png?itok=jC2YJOLr" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Feb 2026 07:38:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qwen3-ASR : Alibaba ouvre ces vLLM</title>
+      <link>https://www.programmez.com/actualites/qwen3-asr-alibaba-ouvre-ces-vllm-38955</link>
+      <description>Alibaba, un des géants techs chinois, annonce la mise en open source des modèles Qwen-3ASR et ForcedAligner. ASR est un LLM dédié à la reconnaissance vocale. Les deux LLM servent à identifier la langue, actuellement 52 langages et accents sont supportés. La reconnaissance vocale est supportée par 30 langues et 22 dialectes chinois ainsi les accents anglais de plusieurs pays. Cela concerne les modèles ASR-1.7B et 0.6B. Pour Alibaba, les enjeux sont de fournir des vLLM avec une taux de reconnaissa</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/qwen3-asr-alibaba-ouvre-ces-vllm-38955</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/qwenasr-intro.png?itok=DK8qToup" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Feb 2026 08:25:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kubernetes : une faille dans RBAC ne sera pas corrigée car le comportement est conforme</title>
+      <link>https://www.programmez.com/actualites/kubernetes-une-faille-dans-rbac-ne-sera-pas-corrigee-car-le-comportement-est-conforme-38956</link>
+      <description>Notre vulnérabilité démarre débutnovembre 2025 quand Graham Helton, chercheur en sécurité, communique à l'équipe sécurité de Kubernetes une vulnérabilité dans les autorisations dans la gestion des rôles, le RBAC. Cette faille permet de contourner la sécurité RBAC et de pouvoir exécuter un code distant non autorisé : "un contournement autorisé dans RBAC de Kubernetes des permissions nodes/proxy GET permet d'exécuter des commandes sur tous les pods d'un cluster" introduit Graham. Le problème ne vi</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/kubernetes-une-faille-dans-rbac-ne-sera-pas-corrigee-car-le-comportement-est-conforme-38956</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Feb 2026 09:21:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Notepad++ : hikacking subi en été et automne 2025</title>
+      <link>https://www.programmez.com/actualites/notepad-hikacking-subi-en-ete-et-automne-2025-38957</link>
+      <description>Les développeurs de Notepad++ ont communiqué sur une campagne de hijacking qui avait été détectée en juin 2025. L'attaque s'est faite en compromettant l'infrastructure hébergeant Notepad++. Les hackers ont réussi à rerouter le trafic destiné aux serveur officiels vers des serveurs illicites. L'équipe Notepad a alors facilité la communication entre l'hébergeur et l'équipe Incident-response pour analyser la compromission et fixer le problème. La réponse s'est déroulée en 2 grandes étapes. Le serve</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/notepad-hikacking-subi-en-ete-et-automne-2025-38957</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Feb 2026 14:09:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>FOSDEM 2026 résumé 1 : Reproducible Builds for Android Apps, pourquoi est-ce si important ?</title>
+      <link>https://www.programmez.com/actualites/fosdem-2026-resume-1-reproducible-builds-android-apps-pourquoi-est-ce-si-important-38958</link>
+      <description>Andreas Itzchak Rehberg proposait un sujet aussi intrigant qu’utile : la reproductibilité des builds (RB) pour les applications Android. Mais au-delà d’Android, on comprend très vite qu’un environnement de builds stable et capable de reproduire exactement le même comportement est quelque chose d’indispensable. Mais pour y parvenir, il faut une infrastructure RB définie et une méthodologie claire.Pourquoi est-ce une bonne approche ? Par exemple, le RB permet d’avoir une application non altérée av</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/fosdem-2026-resume-1-reproducible-builds-android-apps-pourquoi-est-ce-si-important-38958</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/capture_decran_2026-02-02_a_16.25.41.png?itok=PyDaPGGC" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Feb 2026 15:37:46 +0000</pubDate>
     </item>
   </channel>
 </rss>

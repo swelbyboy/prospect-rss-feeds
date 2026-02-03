@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Feb 2026 07:13:51 +0000</lastBuildDate>
-    <item>
-      <title>How to Integrate ChatGPT's API With Python Projects</title>
-      <link>https://realpython.com/chatgpt-api-python/</link>
-      <description>Learn how to use the ChatGPT Python API with the openai library to build AI-powered features in your Python applications.</description>
-      <guid isPermaLink="false">https://realpython.com/chatgpt-api-python/</guid>
-      <enclosure url="https://files.realpython.com/media/python_coding_assistant_output.a6e05c3f37e4.png" length="0" type="image/png"/>
-      <pubDate>Mon, 19 Jan 2026 14:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 03 Feb 2026 07:04:47 +0000</lastBuildDate>
     <item>
       <title>uv vs pip: Python Packaging and Dependency Management</title>
       <link>https://realpython.com/courses/uv-vs-pip-packaging-dependency-management/</link>
@@ -82,6 +74,14 @@
       <description>How do you create automated tests to check your code for degraded performance as data sizes increase? What are the new features in pandas 3.0? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly articles and projects.</description>
       <guid isPermaLink="false">https://realpython.com/podcasts/rpp/282/</guid>
       <pubDate>Fri, 30 Jan 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Terminal: First Steps and Useful Commands for Python Developers</title>
+      <link>https://realpython.com/terminal-commands/</link>
+      <description>Learn your way around the Python terminal. You’ll practice basic commands, activate virtual environments, install packages with pip, and keep track of your code using Git.</description>
+      <guid isPermaLink="false">https://realpython.com/terminal-commands/</guid>
+      <enclosure url="https://files.realpython.com/media/win-10-setup-14-windows-powershell_-_cropped.f114376b1071.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Feb 2026 14:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

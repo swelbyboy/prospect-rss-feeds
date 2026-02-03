@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Feb 2026 07:06:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Feb 2026 06:56:39 +0000</lastBuildDate>
     <item>
-      <title>Shotcut Video Editor Now Using Hardware Decoding By Default Except For NVIDIA On Linux</title>
-      <link>https://www.phoronix.com/news/Shotcut-26.1-Video-Editor</link>
-      <description>Shotcut 26.1 is now available as the latest feature update to this open-source and cross-platform video editing solution. Shotcut 26.1 is finally defaulting to GPU hardware accelerated video decoding by default for all platforms sans NVIDIA GPUs on Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Shotcut-26.1-Video-Editor</guid>
-      <pubDate>Sat, 31 Jan 2026 21:11:45 +0000</pubDate>
+      <title>Linux From Scratch Abandoning SysVinit Support</title>
+      <link>https://www.phoronix.com/news/LFS-Dropping-SysVinit</link>
+      <description>Linux From Scratch was one of the holdouts continuing optional SysVinit init system support through 2026, but that's now ending. Linux From Scratch "LFS" and Beyond Linux From Scratch "BLFS" are ending their System V Init support moving forward...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/LFS-Dropping-SysVinit</guid>
+      <pubDate>Mon, 02 Feb 2026 11:12:30 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Aims To Replace More Caching Code With Sheaves For "Hopefully" Improved Performance</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Replace-Slabs-Sheaves</link>
-      <description>Introduced to the mainline Linux kernel last year was "sheaves" as an opt-in per-CPU array-based caching layer. Sheaves was merged back in Linux 6.18 and while it started as an opt-in caching layer, the plan is to replace more CPU slabs / caches with sheaves. Queued up for slated introduction in the upcoming Linux 7.0 cycle is replacing more of those caches with sheaves...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Replace-Slabs-Sheaves</guid>
-      <pubDate>Sun, 01 Feb 2026 01:08:45 +0000</pubDate>
+      <title>Intel ISH Firmware Upstreamed For Linux With Dell's New Panther Lake Laptops</title>
+      <link>https://www.phoronix.com/news/Dell-XPS-PTL-Firmware-Intel-ISH</link>
+      <description>Ahead of Dell's new XPS 14 and XPS 16 laptops powered by Intel Core Ultra Series 3 "Panther Lake" expected to be shipping in volume beginning in March, more of the Linux support for these premium Panther Lake laptops continues to be finished up...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Dell-XPS-PTL-Firmware-Intel-ISH</guid>
+      <pubDate>Mon, 02 Feb 2026 11:24:38 +0000</pubDate>
     </item>
     <item>
-      <title>Framework 13 To See Fan Target &amp;amp; Fan Temperature Thresholds Support With Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Framework-13-Fan-Target</link>
-      <description>For newer Framework devices like the Framework 13 AMD that make use of the ChromeOS Embedded Controller (EC), the upcoming Linux 7.0 kernel is adding fan target support as well as fan temperature threshold handling...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Framework-13-Fan-Target</guid>
-      <pubDate>Sun, 01 Feb 2026 10:51:23 +0000</pubDate>
+      <title>Rust Coreutils Continues Working Toward 100% GNU Compatibility, Proving Trolls Wrong</title>
+      <link>https://www.phoronix.com/news/Rust-Coreutils-FOSDEM-2026</link>
+      <description>Sylvestre Ledru who serves as the lead developer of the uutils project for the Rust Coreutils implementation presented at FOSDEM 2026 this weekend on this initiative. Ledru has spoken at FOSDEM in prior years on Rust Coreutils and this year's talk focused primarily on Ubuntu 25.10's adoption of it in place of GNU Coreutils...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Rust-Coreutils-FOSDEM-2026</guid>
+      <pubDate>Mon, 02 Feb 2026 11:32:57 +0000</pubDate>
     </item>
     <item>
-      <title>Linux Kernel AI Chatter, ReactOS Developments &amp;amp; AMD Ryzen 7 9850X3D Topped January</title>
-      <link>https://www.phoronix.com/news/January-2026-Highlights</link>
-      <description>During the last month on Phoronix were 296 original news articles from the Linux/open-source perspective as well as another 18 featured articles / Linux hardware reviews, written by your's truly. Here is a look back at the most popular news and reviews in the Linux world over the past month...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/January-2026-Highlights</guid>
-      <pubDate>Sun, 01 Feb 2026 11:12:14 +0000</pubDate>
+      <title>Experimental Linux Code For 1GB PUD-Level THPs Shows 34% Faster Memory Access Times</title>
+      <link>https://www.phoronix.com/news/1GB-PUD-Level-THPs-Linux</link>
+      <description>Early, experimental code for implementing 1GB PUD-level THPs in the Linux kernel are showing positive benchmark results but other upstream stakeholders were surprised by this patch series appearing and it looking like it could be a while until if/when the patches are mainlined for helping to reduce transaction lookaside buffer (TLB) pressure without resorting to Hugetlbfs...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/1GB-PUD-Level-THPs-Linux</guid>
+      <pubDate>Mon, 02 Feb 2026 13:51:19 +0000</pubDate>
     </item>
     <item>
-      <title>cTGP Graphics Power Setting Coming For Uniwill / TUXEDO Laptops With Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Uniwill-Driver-cTGP-Linux-7.0</link>
-      <description>Upstreamed for the Linux 6.19 kernel is the Uniwill laptop platform driver for exposing more features/settings for laptops made by this Taiwanese OEM/ODM, including the laptops from TUXEDO Computers. Coming for the next kernel cycle is further extending the Uniwill platform driver for now having support for adjusting the custom total graphics power "cTGP" for those laptops with a dedicated GPU...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Uniwill-Driver-cTGP-Linux-7.0</guid>
-      <pubDate>Sun, 01 Feb 2026 11:22:03 +0000</pubDate>
+      <title>Security Researchers Find Current RISC-V CPU Implementations Coming Up Short</title>
+      <link>https://www.phoronix.com/news/RISC-V-Security-CPU-Not-So-Good</link>
+      <description>While many open-source enthusiasts like to flaunt RISC-V as not having the security challenges as x86_64 CPUs have seen over the past several years with various speculative execution / side-channel attacks and arguing for the benefits of an open-source ISA in stronger security, in practice it's not so clear-cut. Security researchers at Germany's CISPA Helmholtz Center for Information Security have found current RISC-V CPU implementations coming up short for their actual security...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/RISC-V-Security-CPU-Not-So-Good</guid>
+      <pubDate>Mon, 02 Feb 2026 17:19:00 +0000</pubDate>
     </item>
     <item>
-      <title>smolBSD Builds On The NetBSD-MicroVM Kernel For Booting To Service VMs In Milliseconds</title>
-      <link>https://www.phoronix.com/news/smolBSD</link>
-      <description>A new BSD distribution I only learned about for the first time this weekend is smolBSD, a project built atop the netbsd-MICROVM kernel coming with NetBSD 11 for providing insanely fast booting micro-VMs intended for micro-services and similar environments...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/smolBSD</guid>
-      <pubDate>Sun, 01 Feb 2026 11:34:19 +0000</pubDate>
+      <title>Git 2.53 Released With More Optimizations, One Step Closer To Making Rust Mandatory</title>
+      <link>https://www.phoronix.com/news/Git-2.53-Released</link>
+      <description>While we might see Git 3.0 released around the end of 2026, Git 2.53 is out today as the latest feature release and continuing to make changes with an eye toward that big Git 3.0 milestone...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Git-2.53-Released</guid>
+      <pubDate>Mon, 02 Feb 2026 17:37:19 +0000</pubDate>
     </item>
     <item>
-      <title>Linux's b4 Kernel Development Tool Now Dog-Feeding Its AI Agent Code Review Helper</title>
-      <link>https://www.phoronix.com/news/Linux-b4-Tool-Dog-Feeding-AI</link>
-      <description>The b4 tool used by Linux kernel developers to help manage their patch workflow around contributions to the Linux kernel has been seeing work on a text user interface to help with AI agent assisted code reviews. This weekend it successfully was dog feeding with b4 review TUI reviewing patches on the b4 tool itself...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-b4-Tool-Dog-Feeding-AI</guid>
-      <pubDate>Sun, 01 Feb 2026 12:05:58 +0000</pubDate>
+      <title>Loongson 3B6000 Benchmarks: How China's LoongArch CPU Compares To AMD Zen 5, Intel Arrow Lake &amp;amp; Raspberry Pi 5</title>
+      <link>https://www.phoronix.com/review/loongson-3b6000-loongarch</link>
+      <description>Recently I finally got my hands on a LoongArch processor, the ISA developed by China's Loongson Technology as an evolution from their earlier use of the MIPS64 ISA and inspired by RISC-V and other modern ISAs. The Loongson-3B6000 features 12 cores / 24 threads with dual channel DDR4 ECC memory support. Here is a look at how that latest-generation LoongArch desktop processor compares to the current generation AMD Zen 5 and Intel Arrow Lake desktop processors under Linux. Plus also tossing in the</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/loongson-3b6000-loongarch</guid>
+      <pubDate>Mon, 02 Feb 2026 20:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GNOME Resources 1.10 Adds Monitoring Support For AMD Ryzen AI NPUs</title>
-      <link>https://www.phoronix.com/news/GNOME-Resources-1.10</link>
-      <description>GNOME Resources 1.10 was christened today as the newest version of this modern system monitoring app for the GNOME desktop that is now used by default on the likes of the upcoming Ubuntu 26.04 LTS. With GNOME Resources 1.10 they have added AMD Ryzen AI NPU monitoring support and other new capabilities...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Resources-1.10</guid>
-      <pubDate>Sun, 01 Feb 2026 14:25:10 +0000</pubDate>
+      <title>Linux Prepares To Support Microsoft's "Turn On Display" DSM To Address Laptop Issues</title>
+      <link>https://www.phoronix.com/news/Linux-ACPI-DSM-Turn-On-Display</link>
+      <description>Microsoft in Windows 11 22H2 introduced a new ACPI Device Specific Method (DSM) "Turn On Display" notification that the Linux 7.0 kernel will be adding support for in dealing with some otherwise problematic laptop behavior...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-ACPI-DSM-Turn-On-Display</guid>
+      <pubDate>Mon, 02 Feb 2026 20:06:03 +0000</pubDate>
     </item>
     <item>
-      <title>GNU Hurd Is "Almost There" With x86_64, SMP &amp;amp; ~75% Of Debian Packages Building</title>
-      <link>https://www.phoronix.com/news/GNU-Hurd-In-2026</link>
-      <description>Samuel Thibault offered up a status update on the current state of GNU/Hurd from a presentation in Brussels at FOSDEM 2026. Thibault has previously shared updates on GNU Hurd from the annual FOSDEM event while this year's was a bit more optimistic thanks to recent driver progress and more software now successfully building for Hurd...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-Hurd-In-2026</guid>
-      <pubDate>Sun, 01 Feb 2026 15:47:54 +0000</pubDate>
+      <title>Firefox 148 Ready With New Settings For AI Controls</title>
+      <link>https://www.phoronix.com/news/Firefox-148-AI-Controls</link>
+      <description>With the concerns raised over comments by Mozilla's new CEO with wanting to evolve Firefox into a "modern AI browser", the Firefox 148 release due out later this month aims to address some of those concerns by having a new AI controls area within the web browser's settings...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Firefox-148-AI-Controls</guid>
+      <pubDate>Mon, 02 Feb 2026 20:50:22 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19-rc8 Released Ahead Of Linux 6.19 Stable Next Week</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-rc8</link>
-      <description>While typically the stable Linux kernel would come after the -rc7 release a week prior, for Linux 6.19 the release is being dragged out by an extra week not due to any scary bugs but rather due to the holiday downtime at the end of the year. As such Linux 6.19-rc8 is out today with the stable v6.19 release expected next Sunday...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-rc8</guid>
-      <pubDate>Sun, 01 Feb 2026 22:39:10 +0000</pubDate>
+      <title>Rust Coreutils 0.6 Brings Increased Compatibility, Removing Some Unsafe Code &amp;amp; More Perf</title>
+      <link>https://www.phoronix.com/news/Rust-Coreutils-0.6</link>
+      <description>Following the Rust Coreutils presentation from FOSDEM this weekend, Rust Coreutils 0.6 is now available as the latest feature release for this Rust programming language re-implementation of GNU Coreutils...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Rust-Coreutils-0.6</guid>
+      <pubDate>Mon, 02 Feb 2026 22:30:53 +0000</pubDate>
     </item>
   </channel>
 </rss>
