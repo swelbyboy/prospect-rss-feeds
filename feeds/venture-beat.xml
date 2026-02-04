@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Feb 2026 07:11:56 +0000</lastBuildDate>
-    <item>
-      <title>This tree search framework hits 98.7% on documents where vector search fails</title>
-      <link>https://venturebeat.com/infrastructure/this-tree-search-framework-hits-98-7-on-documents-where-vector-search-fails</link>
-      <description>A new open-source framework called PageIndex solves one of the old problems of retrieval-augmented generation (RAG): handling very long documents.The classic RAG workflow (chunk documents, calculate embeddings, store them in a vector database, and retrieve the top matches based on semantic similarity) works well for basic tasks such as Q&amp;amp;A over small documents.PageIndex abandons the standard "chunk-and-embed" method entirely and treats document retrieval not as a search problem, but as a navigat</description>
-      <guid isPermaLink="false">https://venturebeat.com/infrastructure/this-tree-search-framework-hits-98-7-on-documents-where-vector-search-fails</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4v9URk1ocVyGKMS51rhSVr/e84742d331b23169965fbe8eee6c7220/agentic_RAG.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 30 Jan 2026 18:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Arcee's U.S.-made, open source Trinity Large and 10T-checkpoint offer rare look at raw model intelligence</title>
-      <link>https://venturebeat.com/technology/arcees-u-s-made-open-source-trinity-large-and-10t-checkpoint-offer-rare-look</link>
-      <description>San Francisco-based AI lab Arcee made waves last year for being one of the only U.S. companies to train large language models (LLMs) from scratch and release them under open or partially open source licenses to the public—enabling developers, solo entrepreneurs, and even medium-to-large enterprises to use the powerful AI models for free and customize them at will.Now Arcee is back again this week with the release of its largest, most performant open language model to date: Trinity Large, a 400-b</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/arcees-u-s-made-open-source-trinity-large-and-10t-checkpoint-offer-rare-look</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3c0SsFkWi7LkMKqySnBAib/00b0b69ac3e3f8c1e872e561eafa5f9d/Wvi4cMXJOOcRUIV55c5sZ.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 30 Jan 2026 19:13:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenClaw proves agentic AI works. It also proves your security model doesn't. 180,000 developers just made that your problem.</title>
-      <link>https://venturebeat.com/security/openclaw-agentic-ai-security-risk-ciso-guide</link>
-      <description>OpenClaw, the open-source AI assistant formerly known as Clawdbot and then Moltbot, crossed 180,000 GitHub stars and drew 2 million visitors in a single week, according to creator Peter Steinberger. Security researchers scanning the internet found over 1,800 exposed instances leaking API keys, chat histories, and account credentials. The project has been rebranded twice in recent weeks due to trademark disputes.The grassroots agentic AI movement is also the biggest unmanaged attack surface that</description>
-      <guid isPermaLink="false">https://venturebeat.com/security/openclaw-agentic-ai-security-risk-ciso-guide</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/1oBIMwURedNVAql7D5WEsn/f5bc000909cf83cb5133407934ea8ba7/HERO_IMAGE.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 30 Jan 2026 23:40:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Most RAG systems don’t understand sophisticated documents — they shred them</title>
-      <link>https://venturebeat.com/orchestration/most-rag-systems-dont-understand-documents-they-shred-them</link>
-      <description>By now, many enterprises have deployed some form of RAG. The promise is seductive: index your PDFs, connect an LLM and instantly democratize your corporate knowledge.But for industries dependent on heavy engineering, the reality has been underwhelming. Engineers ask specific questions about infrastructure, and the bot hallucinates.The failure isn't in the LLM. The failure is in the preprocessing.Standard RAG pipelines treat documents as flat strings of text. They use "fixed-size chunking" (cutti</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/most-rag-systems-dont-understand-documents-they-shred-them</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2sCMvgGQUuWWF7q1vVEYrC/a759e1f38b9003e746fdaf62c5b65bf8/u7277289442_3D_art_of_AI_avatars_in_an_office_ripping_up_pile_d5f30bcd-f95a-4531-b03a-dad2644cdfb3_3.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 31 Jan 2026 19:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 04 Feb 2026 07:15:41 +0000</lastBuildDate>
     <item>
       <title>Enterprises are measuring the wrong part of RAG</title>
       <link>https://venturebeat.com/orchestration/enterprises-are-measuring-the-wrong-part-of-rag</link>
@@ -64,6 +32,38 @@
       <guid isPermaLink="false">https://venturebeat.com/orchestration/shared-memory-is-the-missing-layer-in-ai-orchestration</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/hgdgcVYh6eTScx5sg3xmL/51a2bb25a7e65cb132358db07dcc2315/Connecting_data.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Mon, 02 Feb 2026 20:34:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vercel rebuilt v0 to tackle the 90% problem: Connecting AI-generated code to existing production infrastructure, not prototypes</title>
+      <link>https://venturebeat.com/infrastructure/vercel-rebuilt-v0-to-tackle-the-90-problem-connecting-ai-generated-code-to</link>
+      <description>Before Claude Code wrote its first line of code, Vercel was already in the vibe coding space with its v0 service.The basic idea behind the original v0, which launched in 2024, was essentially to be version 0. That is, the earliest version of an application, helping developers solve the blank canvas problem. Developers could prompt their way to a user interface (UI) scaffolding that looked good, but the code was disposable. Getting those prototypes into production required rewrites.More than 4 mi</description>
+      <guid isPermaLink="false">https://venturebeat.com/infrastructure/vercel-rebuilt-v0-to-tackle-the-90-problem-connecting-ai-generated-code-to</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2U5I1bHA9QfvqoZdPB6qk0/7e4945d1392da8bd955144193be626f7/enterprise-vibe-coder-smk1.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Feb 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Databricks' serverless database slashes app development from months to days as companies prep for agentic AI</title>
+      <link>https://venturebeat.com/data/databricks-serverless-database-slashes-app-development-from-months-to-days</link>
+      <description>Five years ago, Databricks coined the term 'data lakehouse' to describe a new type of data architecture that combines a data lake with a data warehouse. That term and data architecture are now commonplace across the data industry for analytics workloads.Now, Databricks is once again looking to create a new category with its Lakebase service, now generally available today. While the data lakehouse construct deals with OLAP (online analytical processing) databases, Lakebase is all about OLTP (onli</description>
+      <guid isPermaLink="false">https://venturebeat.com/data/databricks-serverless-database-slashes-app-development-from-months-to-days</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/469ZkXofQMti2royetGH8u/756e2b7f0b026e2b48d72bf886cd7868/database-in-a-lake-smk1.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Feb 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple integrates Anthropic’s Claude and OpenAI’s Codex into Xcode 26.3 in push for ‘agentic coding’</title>
+      <link>https://venturebeat.com/technology/apple-integrates-anthropics-claude-and-openais-codex-into-xcode-26-3-in-push</link>
+      <description>Apple on Tuesday announced a major update to its flagship developer tool that gives artificial intelligence agents unprecedented control over the app-building process, a move that signals the iPhone maker's aggressive push into an emerging and controversial practice known as "agentic coding."Xcode 26.3, available immediately as a release candidate, integrates Anthropic's Claude Agent and OpenAI's Codex directly into Apple's development environment, allowing the AI systems to autonomously write c</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/apple-integrates-anthropics-claude-and-openais-codex-into-xcode-26-3-in-push</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2Q8OGhbv336AGtWlkPE9wO/51480cf6096208fab81a5f6c184a9a20/nuneybits_Vector_art_of_Apple_logo_inside_code_brackets_63cd7c00-dd68-44a7-b323-831a5a2226c0.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Feb 2026 20:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qwen3-Coder-Next offers vibe coders a powerful open source, ultra-sparse model with 10x higher throughput for repo tasks</title>
+      <link>https://venturebeat.com/technology/qwen3-coder-next-offers-vibe-coders-a-powerful-open-source-ultra-sparse</link>
+      <description>Chinese e-commerce giant Alibaba's Qwen team of AI researchers has emerged in the last year as one of the global leaders of open source AI development, releasing a host of powerful large language models and specialized multimodal models that approach, and in some cases, surpass the performance of the proprietary U.S. leaders such as OpenAI, Anthropic, Google and xAI.Now the Qwen team is back again this week with a compelling release that matches the "vibe coding" frenzy that has arisen in recent</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/qwen3-coder-next-offers-vibe-coders-a-powerful-open-source-ultra-sparse</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7ErEzHma6LbYLaznwE3rtA/39944c4739dbecaa3f8a336826de352d/sVJFWPtv0RFGdOIc_fKWG_C0uLbr6A__1_.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Feb 2026 22:47:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

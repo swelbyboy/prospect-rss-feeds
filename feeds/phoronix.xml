@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Feb 2026 06:56:39 +0000</lastBuildDate>
-    <item>
-      <title>Linux From Scratch Abandoning SysVinit Support</title>
-      <link>https://www.phoronix.com/news/LFS-Dropping-SysVinit</link>
-      <description>Linux From Scratch was one of the holdouts continuing optional SysVinit init system support through 2026, but that's now ending. Linux From Scratch "LFS" and Beyond Linux From Scratch "BLFS" are ending their System V Init support moving forward...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/LFS-Dropping-SysVinit</guid>
-      <pubDate>Mon, 02 Feb 2026 11:12:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intel ISH Firmware Upstreamed For Linux With Dell's New Panther Lake Laptops</title>
-      <link>https://www.phoronix.com/news/Dell-XPS-PTL-Firmware-Intel-ISH</link>
-      <description>Ahead of Dell's new XPS 14 and XPS 16 laptops powered by Intel Core Ultra Series 3 "Panther Lake" expected to be shipping in volume beginning in March, more of the Linux support for these premium Panther Lake laptops continues to be finished up...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Dell-XPS-PTL-Firmware-Intel-ISH</guid>
-      <pubDate>Mon, 02 Feb 2026 11:24:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rust Coreutils Continues Working Toward 100% GNU Compatibility, Proving Trolls Wrong</title>
-      <link>https://www.phoronix.com/news/Rust-Coreutils-FOSDEM-2026</link>
-      <description>Sylvestre Ledru who serves as the lead developer of the uutils project for the Rust Coreutils implementation presented at FOSDEM 2026 this weekend on this initiative. Ledru has spoken at FOSDEM in prior years on Rust Coreutils and this year's talk focused primarily on Ubuntu 25.10's adoption of it in place of GNU Coreutils...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Rust-Coreutils-FOSDEM-2026</guid>
-      <pubDate>Mon, 02 Feb 2026 11:32:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Experimental Linux Code For 1GB PUD-Level THPs Shows 34% Faster Memory Access Times</title>
-      <link>https://www.phoronix.com/news/1GB-PUD-Level-THPs-Linux</link>
-      <description>Early, experimental code for implementing 1GB PUD-level THPs in the Linux kernel are showing positive benchmark results but other upstream stakeholders were surprised by this patch series appearing and it looking like it could be a while until if/when the patches are mainlined for helping to reduce transaction lookaside buffer (TLB) pressure without resorting to Hugetlbfs...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/1GB-PUD-Level-THPs-Linux</guid>
-      <pubDate>Mon, 02 Feb 2026 13:51:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Security Researchers Find Current RISC-V CPU Implementations Coming Up Short</title>
-      <link>https://www.phoronix.com/news/RISC-V-Security-CPU-Not-So-Good</link>
-      <description>While many open-source enthusiasts like to flaunt RISC-V as not having the security challenges as x86_64 CPUs have seen over the past several years with various speculative execution / side-channel attacks and arguing for the benefits of an open-source ISA in stronger security, in practice it's not so clear-cut. Security researchers at Germany's CISPA Helmholtz Center for Information Security have found current RISC-V CPU implementations coming up short for their actual security...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/RISC-V-Security-CPU-Not-So-Good</guid>
-      <pubDate>Mon, 02 Feb 2026 17:19:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Git 2.53 Released With More Optimizations, One Step Closer To Making Rust Mandatory</title>
-      <link>https://www.phoronix.com/news/Git-2.53-Released</link>
-      <description>While we might see Git 3.0 released around the end of 2026, Git 2.53 is out today as the latest feature release and continuing to make changes with an eye toward that big Git 3.0 milestone...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Git-2.53-Released</guid>
-      <pubDate>Mon, 02 Feb 2026 17:37:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Loongson 3B6000 Benchmarks: How China's LoongArch CPU Compares To AMD Zen 5, Intel Arrow Lake &amp;amp; Raspberry Pi 5</title>
-      <link>https://www.phoronix.com/review/loongson-3b6000-loongarch</link>
-      <description>Recently I finally got my hands on a LoongArch processor, the ISA developed by China's Loongson Technology as an evolution from their earlier use of the MIPS64 ISA and inspired by RISC-V and other modern ISAs. The Loongson-3B6000 features 12 cores / 24 threads with dual channel DDR4 ECC memory support. Here is a look at how that latest-generation LoongArch desktop processor compares to the current generation AMD Zen 5 and Intel Arrow Lake desktop processors under Linux. Plus also tossing in the</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/loongson-3b6000-loongarch</guid>
-      <pubDate>Mon, 02 Feb 2026 20:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux Prepares To Support Microsoft's "Turn On Display" DSM To Address Laptop Issues</title>
-      <link>https://www.phoronix.com/news/Linux-ACPI-DSM-Turn-On-Display</link>
-      <description>Microsoft in Windows 11 22H2 introduced a new ACPI Device Specific Method (DSM) "Turn On Display" notification that the Linux 7.0 kernel will be adding support for in dealing with some otherwise problematic laptop behavior...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-ACPI-DSM-Turn-On-Display</guid>
-      <pubDate>Mon, 02 Feb 2026 20:06:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Firefox 148 Ready With New Settings For AI Controls</title>
-      <link>https://www.phoronix.com/news/Firefox-148-AI-Controls</link>
-      <description>With the concerns raised over comments by Mozilla's new CEO with wanting to evolve Firefox into a "modern AI browser", the Firefox 148 release due out later this month aims to address some of those concerns by having a new AI controls area within the web browser's settings...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Firefox-148-AI-Controls</guid>
-      <pubDate>Mon, 02 Feb 2026 20:50:22 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 04 Feb 2026 06:57:30 +0000</lastBuildDate>
     <item>
       <title>Rust Coreutils 0.6 Brings Increased Compatibility, Removing Some Unsafe Code &amp;amp; More Perf</title>
       <link>https://www.phoronix.com/news/Rust-Coreutils-0.6</link>
       <description>Following the Rust Coreutils presentation from FOSDEM this weekend, Rust Coreutils 0.6 is now available as the latest feature release for this Rust programming language re-implementation of GNU Coreutils...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Rust-Coreutils-0.6</guid>
       <pubDate>Mon, 02 Feb 2026 22:30:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>X.Org Developers Conference 2026 Being Hosted By Arm In Toronto</title>
+      <link>https://www.phoronix.com/news/XDC2026-Toronto</link>
+      <description>The X.Org Foundation has announced that this year's X.Org Developers Conference will be taking place in Toronto, Canada and hosted by Arm...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/XDC2026-Toronto</guid>
+      <pubDate>Tue, 03 Feb 2026 10:29:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reworked NTFS Linux Driver Posted With More Improvements &amp;amp; Fixes</title>
+      <link>https://www.phoronix.com/news/NTFS-Remake-Linux-v6</link>
+      <description>Announced back in October was NTFS Plus as a new Linux driver for NTFS based on the former NTFS kernel driver prior to Paragon Software contributing the NTFS3 driver code. The intent with this new driver is for better performance. more features, public user-space utilities around it, and all-around a nice step forward for those reliant on this Microsoft file-system. Out this week is the sixth iteration of this remade NTFS driver...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NTFS-Remake-Linux-v6</guid>
+      <pubDate>Tue, 03 Feb 2026 10:36:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenIndiana Is Porting Solaris' IPS Package Management To Rust</title>
+      <link>https://www.phoronix.com/news/OpenIndiana-Next-Gen-IPS</link>
+      <description>OpenIndiana as the open-source project built atop Illumos that is continuing to maintain and advance the former OpenSolaris code is working on a big ambitions of modernizing the Image Packaging System (IPS) package management solution. As part of that they are working to move from a C and Python codebase over to Rust...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/OpenIndiana-Next-Gen-IPS</guid>
+      <pubDate>Tue, 03 Feb 2026 11:04:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux Dropping SMC TCP ULP Support For Being "Fundamentally Broken"</title>
+      <link>https://www.phoronix.com/news/Linux-Reverting-SMC-TCP-ULP</link>
+      <description>Merged four years ago to the Linux kernel networking subsystem's Shared Memory Communications (SMC) code was TCP Upper Layer Protocol (ULP) support for allowing applications to replace TCP with the SMC protocol in-place as a transparent replacement. Except for the next kernel cycle it's set to be reverted after realizing it's "fundamentally broken."..</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Reverting-SMC-TCP-ULP</guid>
+      <pubDate>Tue, 03 Feb 2026 13:10:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intel Panther Lake Shows Strong Linux CPU Performance &amp;amp; Power Efficiency With Core Ultra X7 358H Benchmarks</title>
+      <link>https://www.phoronix.com/review/intel-core-ultra-x7-358h-linux</link>
+      <description>For those that have been very eager to hear about the Intel Core Ultra Series 3 "Panther Lake" performance on Linux, today's the day! Last Thursday the MSI Prestige 14 Flip AI+ Evo laptop arrived that is powered by the Core Ultra X7 358H. Here is a look at how that Intel Core Ultra X7 358H competes for performance and power efficiency against a wide range of other laptops on an up-to-date Linux software stack in with around 300 benchmarks.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/intel-core-ultra-x7-358h-linux</guid>
+      <pubDate>Tue, 03 Feb 2026 15:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNOME 50 Lands Virtual Monitor / Remote Desktop Improvements - Including HiDPI</title>
+      <link>https://www.phoronix.com/news/GNOME-50-Remote-Desktop-HiDPI</link>
+      <description>In time for next month's GNOME 50 release are some improvements merged today for the Mutter compositor code adding HiDPI and monitor mode emulation support to the screen-casting API and DevKit...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Remote-Desktop-HiDPI</guid>
+      <pubDate>Tue, 03 Feb 2026 17:10:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dank Fedora MiracleWM &amp;amp; Other Fedora 44 Changes Approved</title>
+      <link>https://www.phoronix.com/news/Fedora-44-Dank-MiracleWM</link>
+      <description>The Fedora Engineering and Steering Committee "FESCo" has signed off on the latest batch of Fedora 44 change proposals as they work toward nearing the end of feature work for this spring update to Fedora Linux. Plus some early changes for Fedora 45 have also been granted...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Fedora-44-Dank-MiracleWM</guid>
+      <pubDate>Tue, 03 Feb 2026 20:15:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA DLSS For Blender Under Review But Licensing Concerns Persist</title>
+      <link>https://www.phoronix.com/news/NVIDIA-DLSS-Blender</link>
+      <description>A few months ago at SIGGRAPH was a demo of Blender with NVIDIA Deep Learning Super Sampling (DLSS) integration. The pull request is now open for landing NVIDIA DLSS support into Blender for better quality upscaling/denoising and performance but concerns persist over the licensing due to NVIDIA DLSS binaries...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-DLSS-Blender</guid>
+      <pubDate>Tue, 03 Feb 2026 21:08:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Leveraging urunc For Efficiently Running BSD Applications In Linux Environments</title>
+      <link>https://www.phoronix.com/news/urunc-For-BSD-Apps-On-Linux</link>
+      <description>While there is the Linuxulator as a kernel-level solution on FreeBSD for running unmodified Linux binaries that can even work for gaming on FreeBSD, running BSD applications on Linux isn't talked about as much. But developers have found that for those wanting to run BSD applications in Linux environments, the urunc lightweight container runtime can work out rather well for efficiently handling BSD apps on Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/urunc-For-BSD-Apps-On-Linux</guid>
+      <pubDate>Wed, 04 Feb 2026 01:21:46 +0000</pubDate>
     </item>
   </channel>
 </rss>
