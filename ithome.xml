@@ -8,81 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Feb 2026 07:00:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 07:06:52 +0000</lastBuildDate>
     <item>
-      <title>印度防毒軟體eScan遭供應鏈攻擊，更新基礎設施被用於交付惡意程式</title>
-      <link>https://www.ithome.com.tw/news/173736</link>
-      <description>新聞資安廠商Morphisec研究人員揭露，MicroWorld旗下防毒產品eScan的更新機制遭濫用，攻擊者疑似取得區域更新伺服器的存取權後，透過原本用來交付病毒碼與程式更新的管道，向部分用戶發送惡意檔案。 eScan在安全公告中表示，事件起點為2026年1月20日的更新服務異常，源於其某個區域更新伺服器基礎設施遭未授權存取，導致不正確檔案被放入更新交付路徑。 該事件屬於基礎設施層級，並非eScan產品程式碼的缺陷或漏洞，核心端點防護能力仍可運作，未受影響的用戶不需停用更新，官方並提到，受影響端點可能出現更新失敗通知，或無法取得新的安全定義檔等現象。 受影響用戶收到的檔案以Reload.exe形式出現，Morphisec研究人員指出，該檔案會嘗試修改HOSTS檔來阻斷後續更新，增加修復難度，並表示這類載荷會動到與更新相關的設定，使受影響系統後續難以靠自動更新機制自行修復，使用者可能需要主動聯繫廠商取得手動修補。資安廠商Securelist研究人員則依其遙測資料觀察到數百臺個人與組織機器遭相關感染嘗試，位置集中在南亞，包括印度、孟加拉、斯里蘭卡與菲律賓。 針對後續處置，官方已隔離並重建</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173736</guid>
-      <pubDate>Tue, 03 Feb 2026 10:28:40 +0000</pubDate>
+      <title>SolarWinds修補IT服務臺WHD四重大漏洞，涉及免驗證RCE與身分驗證繞過</title>
+      <link>https://www.ithome.com.tw/news/173757</link>
+      <description>新聞SolarWinds釋出修補程式處理其IT服務臺產品Web Help Desk（WHD）共6項弱點，其中4項為CVSS 9.8的重大漏洞，影響包含身分驗證繞過與免驗證的遠端程式碼執行風險。資安業者Rapid7指出，這4項重大漏洞可讓遠端攻擊者在未登入情況下，達成免驗證遠端程式碼執行或繞過驗證機制，並建議企業把修補優先順序往前提，盡速完成升級至WHD 2026.1。 WHD常被用於工單與資產管理，負責IT服務流程中的關鍵資料與操作介面。Rapid7研究人員整理，CVE-2025-40551與CVE-2025-40553屬不受信任資料反序列化問題，可讓未經驗證的遠端攻擊者在目標系統上執行任意作業系統命令。另兩個重大漏洞CVE-2025-40552與CVE-2025-40554則可被用於繞過身分驗證，讓未經驗證的攻擊者執行或呼叫原本應由驗證機制控管的動作與方法。 資安公司Horizon3.ai也發布技術分析，指出攻擊者可將WHD的多項弱點串成一條免驗證遠端程式碼執行攻擊鏈。其做法是先透過CVE-2025-40536等問題建立可利用的呼叫路徑，再利用CVE-2025-40551的不受信任資</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173757</guid>
+      <pubDate>Wed, 04 Feb 2026 23:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】2月3日，Clawdbot延伸套件市集出現逾300個惡意套件，駭客意圖散布竊資軟體</title>
-      <link>https://www.ithome.com.tw/news/173739</link>
-      <description>新聞爆紅AI代理ClawdBot出現惡意延伸套件，駭客以此散布竊資軟體NovaStealer、Atomic Stealer 資安社群平臺Open Source Malware提出警告，他們發現有人自1月27日開始於GitHub和OpenClaw延伸套件市集ClawHub，發布惡意技能套件（Skills），鎖定OpenClaw與Claude Code的用戶，目的是在Windows與macOS系統部署竊資軟體。這些技能套件聲稱提供加密貨幣自動化交易的功能，一旦使用者安裝，駭客便透過ClickFix網釣手法，誘使使用者執行惡意指令，從而竊取加密貨幣交易所的API金鑰、錢包私鑰、SSH憑證，以及瀏覽器存放的帳密資料，然後洗劫受害者的加密貨幣資產。 資安公司Koi Security也發現相關攻擊活動，他們對ClawHub市集的2,857個技能套件展開調查，結果找到341個有問題的套件，其中335個使用幾乎相同的手段，在受害者電腦植入木馬，該公司將這波攻擊命名為ClawHavoc。根據駭客聲稱的功能區分，加密貨幣工具最多，有111個；YouTube工具、金融與社交工具居次，分別有57個和51個；再</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173739</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/clawdbot-malicious-payload-plain-as-day.png" length="0" type="image/png"/>
-      <pubDate>Tue, 03 Feb 2026 11:13:45 +0000</pubDate>
+      <title>ShinyHunters駭客公布哈佛、賓州大學百萬人個資</title>
+      <link>https://www.ithome.com.tw/news/173771</link>
+      <description>新聞Techcrunch報導，自稱是ShinyHunters的駭客組織周三在他們的資料外洩公告網站上，證實竊取了哈佛大學及賓州大學（University of Pennsylvania，UPenn）個人資料，並且公開據稱有超過100萬筆紀錄的資料檔案。 哈佛大學及賓州大學同為長春藤名校，去年相繼證實遭駭。賓州大學於11月初證實10月31日發現資料外洩事件，攻擊者透過社交工程手法存取了該校與學校發展及校友活動有關的部分資訊系統。11月中旬，哈佛大學也公布資安事件，駭客是利用電話釣魚手法取得校友事務和發展業務系統憑證，並存取了個人資訊，包括電子郵件住址、電話號碼、住家及公司地址、活動出席狀況、捐款資訊及其他資料。不過未影響社會安全碼、密碼、支付等資訊。被影響的人員包含校友、校友配偶、合作夥伴、捐款人、現任及前任學生家長、部份現任學生、及部份教職員和員工。除了個資，也外洩了合作夥伴事務及校友、捐款人和學校的通訊資料。 媒體驗證ShinyHunters公開的資料類型，大致和各校證實的資料型態吻合。賓州大學表示正在確認資料的真實性。 在此之前，兩家大學去年秋天也分別在10月及11月傳出資料外洩案</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173771</guid>
+      <pubDate>Thu, 05 Feb 2026 01:44:49 +0000</pubDate>
     </item>
     <item>
-      <title>國家級聯邦學習平臺怎麼運作？三總揭醫療AI跨院訓練機制</title>
-      <link>https://www.ithome.com.tw/news/173742</link>
-      <description>新聞衛福部資訊處於1月28日正式啟動高算力中心暨跨國聯邦學習平臺，並同步揭露國家級聯邦學習驗證機制。三軍總醫院數位醫療中心人工智慧核心實驗室主任林嶔指出，國家級聯邦學習平臺的目的，不只是兼顧醫療資料隱私，也能提升AI模型的泛化能力、更通用，還讓參與醫院能在相同標準與環境下共同訓練模型。 這套平臺以Nvidia開源聯邦學習平臺NVFLARE為基礎，參與單位主要需完成兩個步驟：一次性配置與驗證，以及準備訓練腳本（Script）。目前，衛福部已指定16家醫院加入聯邦學習平臺，其中三軍總醫院已有2項專案正在進行中。 為何需要聯邦學習？ 林嶔首先強調，對醫療AI而言，外部驗證（External validation）至關重要。 因為，一個在A醫院訓練完成、表現良好的醫療AI模型，實際部署到其他醫院後，準確度往往會下降，背後原因主要來自三種偏移。 第一是資料領域偏移（Data domain shift），例如不同醫院使用的影像設備廠牌、掃描參數或影像品質不同，都會影響AI對影像的判讀結果。 第二是族群偏移（Population shift），各醫院病人的年齡結構、共病比例與疾病盛行率不盡相同，也會</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173742</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/provisioning.JPG" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Feb 2026 12:24:59 +0000</pubDate>
+      <title>駭客利用React Native重大漏洞Metro4Shell發動攻擊，散布Rust打造的惡意程式</title>
+      <link>https://www.ithome.com.tw/news/173773</link>
+      <description>新聞去年11月資安公司JFrog揭露重大等級的資安漏洞CVE-2025-11953（後續被命名為Metro4Shell），此漏洞出現在開發熱門NPM套件React Native Community CLI（@react-native-community/cli），CVSS風險達到9.8分（滿分10分），陸續有多名研究人員公布概念驗證程式碼（PoC）之後，現在有資安公司警告已出現實際攻擊。 根據資安公司VulnCheck的調查，自2025年12月下旬起，首度觀察到利用Metro4Shell的攻擊跡象，並於2026年1月初與下旬持續發現相關活動，顯示該漏洞已被武器化並投入實際攻擊行動。 為何CVE-2025-11953被稱為Metro4Shell？原因在於，該漏洞影響React Native專案中常見的Metro開發伺服器。VulnCheck說明，Metro伺服器預設可能綁定外部可存取的網路介面，並開放/open-url功能端點，導致未經驗證的遠端攻擊者可透過特製請求，在目標主機上直接執行任意系統命令，風險等同遠端命令執行漏洞。 值得注意的是，儘管相關概念驗證程式碼已於社群公開，且攻擊活動</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173773</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/cve-2025-11953-timeline.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Feb 2026 03:09:36 +0000</pubDate>
     </item>
     <item>
-      <title>DeepMind擴充Game Arena新增狼人殺與德州撲克，衡量模型不完全資訊決策能力</title>
-      <link>https://www.ithome.com.tw/news/173741</link>
-      <description>新聞Google DeepMind更新AI公開評測平臺Kaggle Game Arena，除了西洋棋評估模型推理與長期規畫能力外，這次再加入狼人殺與德州撲克兩款不完全資訊遊戲，把模型放進更貼近現實決策的不確定情境，觀察其社交互動與風險取捨表現。 Game Arena是DeepMind與Kaggle在2025年推出的公開基準測試平臺，讓不同AI模型在規則明確的策略遊戲中對戰，並以排行榜呈現相對強弱。官方在先前介紹中提到，Game Arena以開放原始碼的遊戲Harness介接層與遊戲環境為基礎，強調可驗證且可重現的對戰評估，並以動態對戰方式補足傳統資料集型測試容易飽和的限制。 在西洋棋項目上，DeepMind表示已更新排行榜，納入新一代模型，以追蹤能力變化，大型語言模型與Stockfish等棋力引擎不同，較依賴樣式辨識與直覺來縮減搜尋空間。就目前排名，Gemini 3 Pro與Gemini 3 Flash的Elo分數居前。 新增的狼人殺以自然語言對話作為主要互動，讓模型在多輪發言與投票中辨識真偽與動機。DeepMind將其視為團隊型社交推理測試，衡量溝通、協商與在模糊訊號下建立共識的能力</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173741</guid>
-      <pubDate>Wed, 04 Feb 2026 01:31:21 +0000</pubDate>
+      <title>【資安月報】2026年1月，波蘭電網遭遇大規模攻擊活動，調查是俄羅斯政府資助駭客所為</title>
+      <link>https://www.ithome.com.tw/news/173759</link>
+      <description>新聞邁入2026年，全球資安局勢持續動盪，讓我們快速回顧2026年1月的資安新聞，「國家級電網攻擊」與「國家級駭客威脅態勢」是兩大核心議題，國內外重大事故與漏洞威脅也持續引發關注；在資安防禦動向上，隨著年度更迭，臺灣企業在FIRST國際資安應變組織的參與，產品資安PSIRT建置指引的推動，以及金融資安韌性發展藍圖的發表，亦為不容忽視的年度關鍵動向。 （一）波蘭電網遭國家級駭客攻擊，關鍵CI防護受考驗 波蘭電力系統於去年12月底遭遇大規模網路攻擊，這起鎖定OT領域及能源電網的資安事件，引發國際高度關注。 此消息在1月13日由該國能源部長Miłosz Motyka首度向媒體披露，兩日後，波蘭總理Donald Tusk召開記者會，公布事件初步狀況，指出該國能源基礎設施於12月29日至30日期間遭到攻擊，目標包括兩座熱電共生（CHP）電廠，以及負責管理風力與光電設施的再生能源調度系統。所幸事件已成功阻擋，未引發停電等實質風險。Donald Tusk總理表示，據掌握跡象來看，這起攻擊係由與俄羅斯情報部門直接聯繫的組織策畫。他並提及，政府正加速修訂《國家網路安全系統法》，並呼籲參議院於眾議院通過後</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173759</guid>
+      <pubDate>Thu, 05 Feb 2026 03:14:18 +0000</pubDate>
     </item>
     <item>
-      <title>駭客組織ShinyHunters語音網釣取得單一登入憑證，意圖竊取企業SaaS平臺資料進行勒索</title>
-      <link>https://www.ithome.com.tw/news/173745</link>
-      <description>新聞去年駭客組織ShinyHunters犯案連連，其中有不少受害企業是雲端CRM平臺Salesforce的用戶，企業遭這些駭客侵入而外流資料的事故，今年仍接連傳出，這些駭客最新一波攻擊行動是透過語音網釣（Vishing）手法，假冒企業的IT人員撥打電話，誘騙員工交出自己的單一登入（SSO）憑證，藉此存取各式應用系統並竊取內部資料，有資安公司近期提出警告，最近一個月有超過100家企業遭到鎖定。如今有最新的調查指出，有多組與ShinyHunters有關的駭客團體參與相關活動，並使用不同的手法竊取機敏資料，然後進行勒索。 Google旗下的資安團隊Mandiant與Google威脅情報團隊指出，這波攻擊行動至少有3組人馬UNC6661、UNC6671，以及UNC6240參與，他們都是透過語音網釣竊得單一登入憑證與多因素驗證（MFA）碼，取得初期入侵受害企業的管道，並鎖定SaaS服務竊取敏感資料進行勒索，雖然這些手法雷同，但由於這些駭客有可能進行協同合作，或是同時存在競爭或是冒充的關係，再加上駭客試圖尋找受害企業更為敏感的資料，並升級勒索手段，這種完全利用社交工程手法的攻擊手法，Google呼</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173745</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/vishing-shinyhunters-fig6_max-1400x1400.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Feb 2026 03:01:01 +0000</pubDate>
+      <title>TP-Link修補Wi-Fi 7家用路由器軟體指令注入漏洞</title>
+      <link>https://www.ithome.com.tw/news/173775</link>
+      <description>新聞TP-Link本周發布安全更新，修補受歡迎的家用Wi-Fi無線路由器Archer BE230多達10項的高風險OS指令注入漏洞。 本周修補的漏洞為存在TP-Link路由器作業系統的經驗證OS指令注入漏洞，影響Archer BE230 v1.2。Archer BE230為很受歡迎的家用Wi-Fi 7雙頻路由器，臺灣亦有銷售。 這10項漏洞涵括Archer BE230 v1.2的多個模組，是由代號jro、caprinuxx和sunshinefactory外部研究人員通報。其中包含網頁模組（CVE-2026-22222、CVE-2026-0630）、VPN模組（CVE-2026-22223、CVE-2026-0631）、雲端通訊模組（CVE-2026-22224）、VPN連結服務（CVE-2026-22225）、VPN伺服器配置模組（CVE-2026-22226）、配置備份回復功能（CVE-2026-22227）、以及VPN用戶端配置檔（CVE-2026-22229）。 這10個漏洞是出於TP-Link管理介面或特定模組未對輸入進行充分檢查，使得經過驗證的攻擊者得以從Web、VPN或雲端</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173775</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0205-tplink-600.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Feb 2026 03:45:41 +0000</pubDate>
     </item>
     <item>
-      <title>Mozilla替Firefox設計AI開關，可一次關閉所有AI</title>
-      <link>https://www.ithome.com.tw/news/173749</link>
-      <description>新聞Mozilla周一（2/2）宣布，將在Firefox中導入全新的AI控制設計，讓使用者能以單一介面管理瀏覽器內所有AI功能，並提供可一鍵關閉AI的總開關。這項設計回應生成式AI快速進入瀏覽器後，使用者對是否使用AI出現明顯分歧，也再次強化Mozilla長期主張的使用者自主權立場。 根據Mozilla說明，這套AI控制介面將自Firefox148版開始提供，預計於2月24日隨桌面版更新推出。使用者可在設定頁面中看到獨立的AI controls區塊，集中管理Firefox目前以及未來加入的生成式AI功能。 這套AI控制介面可統一管理Firefox內所有AI功能，使用者只要啟用總開關，就能一次關閉瀏覽器中的所有AI。當總開關啟用後，Firefox將不再顯示任何AI相關提示、彈出視窗或功能建議。 Mozilla指出，Firefox現階段內建的AI功能皆為選用性質，使用者也可選擇逐項啟用或停用。可管理的功能包括網頁翻譯、PDF文件中的圖片替代文字說明、AI強化的分頁分組建議、連結預覽摘要，以及側邊欄整合的AI聊天機器人功能。該聊天機器人支援多種服務，包含Claude、ChatGPT、微軟Co</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173749</guid>
-      <pubDate>Wed, 04 Feb 2026 03:07:55 +0000</pubDate>
+      <title>Amazon Alexa+全美上線</title>
+      <link>https://www.ithome.com.tw/news/173779</link>
+      <description>新聞Amazon宣布翻新AI助理Alexa+現在推向全美國，Prime訂閱會員或非會員都可以使用。 為了追趕OpenAI ChatGPT或Google Gemini，Amazon 2025年2月首度公開加入生成式AI能力的AI助理Alexa+（Alexa Plus），其底層模型來自Amazon Nova及Anthropic Claude，強調更聰明、更個人化，且對答更為流暢，除了AI聊天機器人做的事如收發郵件、提醒行程外，它還能代為控制智慧燈泡或Amazon自己的Ring視訊門鈴、以及上Amazon.com、Whole Foods網站下單購物或從Uber Eats訂購外送餐。 在此之前，Alexa+以早鳥方案提供給Prime方案會員。Prime方案需14.99美元月費或139美元年費。非Prime會員方案則設計為每月19.99美元。Amazon說已經有數百萬用戶透過早鳥方案用起了Alexa +。 Prime及付費用戶可經由Alexa.com網站、Alexa App與執行Alexa的裝置使用Alexa+。Amazon昨天推出Alexa+ chat免費服務，非Prime方案會員可經由Ale</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173779</guid>
+      <pubDate>Thu, 05 Feb 2026 06:25:58 +0000</pubDate>
     </item>
     <item>
-      <title>英特爾重回記憶體市場 與軟銀子公司合作新式技術 2030年商業化</title>
-      <link>https://www.ithome.com.tw/news/173751</link>
-      <description>新聞英特爾昨日宣布和軟體銀行（SoftBank）子公司Saimemory簽定合作協議，將合作開發新的垂直堆疊記憶體，稱為Z-Angle Memory（ZAM），以滿足AI和高效能運算需求。預計2027年推出原型，2030年推向市場。 Saimemory為日本IT巨擘軟銀集團的子公司，核心業務是開發堆疊式DRAM架構。這項合作中，Saimemory提供ZAM技術，並將主導其生產及商業化進程，而由英特爾技術協同。Saimemory雖然為技術主導者，但這家公司其實也是英特爾和軟銀的合資公司，軟銀為主要股東，英特爾提供次世代DRAM垂直堆疊封裝技術NGDB（Next Generation DRAM Bonding）。該技術源自以美國三大實驗室，桑迪亞國家實驗室、勞倫斯利佛摩國家實驗室及洛斯阿拉莫斯國家實驗室（Sandia National Laboratory, Lawrence Livermore National Laboratory and Los Alamos National Laboratory）的進階記憶體技術（Advanced Memory Technology，AMT）研發專</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173751</guid>
-      <pubDate>Wed, 04 Feb 2026 03:25:50 +0000</pubDate>
+      <title>GitHub Agent HQ開始提供Claude與Codex，並預告擴大代理陣容</title>
+      <link>https://www.ithome.com.tw/news/173778</link>
+      <description>新聞GitHub旗下Agent HQ已把Anthropic Claude與OpenAI Codex納入代理工作流程，兩者以公開預覽形式提供給Copilot Pro+或Copilot Enterprise訂閱者使用，並可在github.com、GitHub Mobile與VS Code啟動代理工作階段。 GitHub把不同供應商的程式開發代理直接納入既有協作環境，讓代理的對話脈絡、執行歷程與審查軌跡能與儲存庫的議題與拉取請求，綁在同一個工作脈絡中，減少在外部工具間切換與反覆複製貼上的繁瑣操作。官方說明，Agent HQ讓團隊可在同一個任務情境下選用Copilot、Claude、Codex或自訂代理，並預設為非同步執行。每個代理工作階段會消耗1次付費等級請求（Premium Request）額度，Claude與Codex也需要先在設定中明確啟用後才能使用，Copilot CLI支援則預告將稍後提供。 GitHub把代理的輸出視為可被檢視與被質疑的貢獻形式，代理可以在儲存庫內留下可審查的日誌，也會產生如評論、草稿與擬議變更等產物，並能被放回既有的審查流程中處理。使用者可以把議題指派給Copi</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173778</guid>
+      <pubDate>Thu, 05 Feb 2026 06:28:17 +0000</pubDate>
     </item>
     <item>
-      <title>蘋果讓AI不只寫程式，Xcode 26.3正式邁入代理人開發模式</title>
-      <link>https://www.ithome.com.tw/news/173752</link>
-      <description>新聞蘋果於周二（2/3）推出Xcode 26.3，讓開發者可在Xcode中直接使用Anthropic的Claude Agent與OpenAI的Codex，由AI代理人自主完成複雜的程式開發任務，而不再只是回應單一步驟的輔助工具，等於是宣告App開發流程進入由AI主動參與的新階段。 Xcode為蘋果所打造的整合開發環境（IDE），支援從iPhone、iPad、Mac、Apple Watch、Apple Vision Pro到Apple TV等各種蘋果裝置。去年釋出的Xcode 26，已於IDE中導入生成式AI助理，支援程式碼產生、除錯與文件撰寫，但當時AI仍以「回合式助手」為主，需由開發者逐步下指令。 Xcode 26.3的最大差異，在於AI角色從被動輔助升級為可長時間運作的「程式代理人」，能在理解整個專案架構後，自行拆解任務、跨檔案修改程式、執行建置與測試，並反覆迭代直到完成目標。 在Xcode 26.3中，Claude與Codex不只是聊天介面中的模型，而是能直接存取Xcode內部能力的代理人。代理人可探索完整專案結構與中繼資料、查閱蘋果官方開發文件，確保使用最新API與最佳實務；同</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173752</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0204-Apple-Xcode-agentic-coding-with-Anthropic-Claude-Agent.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Feb 2026 03:47:57 +0000</pubDate>
+      <title>Alphabet公布財報，Gemini全球每月用戶突破7.5億</title>
+      <link>https://www.ithome.com.tw/news/173780</link>
+      <description>新聞Alphabet周三（2/4）公布2025年第四季財報，在搜尋廣告、YouTube與雲端業務同步成長帶動下，該季營收達1,138億美元，年增18%，優於市場預期，淨收入（Net income）為345億美元，年增30%，每股盈餘（EPS）為2.82美元。Alphabet同時揭露，旗下AI應用Gemini全球每月活躍用戶已突破7.5億人，且Alphabet全年營收亦首度突破4,000億美元，達4,028億美元，寫下重要里程碑。 在1,138億美元的營收中，Google服務（Google Services）占了958.6億美元，成長14%，涵蓋搜尋、YouTube廣告、訂閱服務與裝置等核心業務；Google Cloud單季營收為176.6億美元，成長48%；新創事業（Other Bets）營收為3.7億美元，略低於去年同期的4.0億美元，但虧損從11.7億美元擴大到36.2億美元，主要與Waymo相關的人力與研發支出增加有關。 在AI產品進展上，Alphabet表示，旗下AI應用Gemini於推出Gemini 3後，用戶成長明顯，目前全球每月活躍用戶已超過7.5億人，單季增加約1億人。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173780</guid>
+      <pubDate>Thu, 05 Feb 2026 06:39:33 +0000</pubDate>
     </item>
     <item>
-      <title>微軟將在未來Windows版本預設關閉NTLM功能</title>
-      <link>https://www.ithome.com.tw/news/173753</link>
-      <description>新聞微軟上周宣布，將在未來Windows版本中預設關閉不安全的NTLM（NT LAN Manager）協定。微軟也將同時啟動三階段退場措施，並說會有新工具協助舊式應用。 NTLM是微軟於1990年代加入Windows NT作業系統的身份驗證協定，用於Windows網路和單機身分驗證，在不發送明文密碼的情況下驗證使用者。近二十年來因安全性風險，如遭受重送攻擊，微軟改推更安全的Kerberos取代，並建議用戶停用NTLM。微軟於2023年宣布將逐漸淡化Windows 11使用NTLM的重要性。 微軟於2024年6月宣布將NTLM相關版本，包括LANMAN、NTLM v1/v2列為退役。退役功能還是能作用，但微軟不再更新，也不再開發新功能，且可能在未來某個版本中移除。且微軟警告企業環境持續使用NTLM可能面臨安全風險，包括沒有伺服器驗證、易遭到重放（replay）/中繼（relay）/傳遞雜湊（pass-the-hash）攻擊、弱加密，以及診斷資料及透明度不足等風險。 微軟表示，現在到了NTLM由退役轉到預設關閉階段，公司在未來的Windows版本中預設關閉這功能。不過微軟強調，預設關閉NT</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173753</guid>
-      <pubDate>Wed, 04 Feb 2026 03:59:38 +0000</pubDate>
+      <title>Google修補Chrome兩項高風險漏洞，記憶體錯誤恐遭濫用執行任意程式碼</title>
+      <link>https://www.ithome.com.tw/news/173777</link>
+      <description>新聞Google於2月3日釋出Chrome瀏覽器更新，修補資安漏洞CVE-2026-1861與CVE-2026-1862。依據NVD頁面彙整的CISA ADP評分，兩項漏洞的CVSS 3.1風險分數皆為8.8，屬於高風險（High）等級，分別涉及多媒體處理函式庫與JavaScript引擎的記憶體安全問題，若遭攻擊者成功利用，可能引發堆積記憶體破壞，導致瀏覽器當機，甚至在特定條件下被用於執行任意程式碼。 依據官方公告，Chrome團隊已透過穩定通道更新桌面版Chrome至144.0.7559.132/.133（Windows、Mac）與144.0.7559.132（Linux）版本，完成相關漏洞修補；Android版Chrome也釋出144.0.7559.132版本，並納入與桌面版對應的一批安全修補。 從漏洞細節來看，CVE-2026-1861發生於Chrome所使用的開源影音編碼函式庫libvpx，屬於堆積緩衝區溢位（Heap Buffer Overflow）問題，對應的弱點分類為CWE-122，這類漏洞在特定情境下，可能因處理特製的網頁內容而造成記憶體破壞，影響瀏覽器的正常執行流程。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173777</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0205-chrome%20update.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Feb 2026 06:44:17 +0000</pubDate>
     </item>
     <item>
-      <title>Notepad++更新遭挾持，傳出是中國駭客Lotus Blossom所為</title>
-      <link>https://www.ithome.com.tw/news/173754</link>
-      <description>新聞知名開源記事本軟體Notepad++的軟體更新疑似遭駭，相關事故最早可追溯到2025年6月，Notepad++開發團隊會同資安專家及前主機代管廠商展開調查，公布整起事故發生的過程，並指出僅有特定目標用戶被導向攻擊者控制的惡意更新伺服器，現在有資安公司揭露更多資訊。 資安公司Rapid7指出，這波攻擊行動是外號為Lotus Blossom、Billbug、Thrip的中國APT駭客組織所為，他們事先入侵Notepad++的基礎設施，最終目的是散布後門程式Chrysalis，過程中運用多個惡意程式載入工具，避免被資安系統或使用者察覺，其中一個檔名為ConsoleApplication2.exe的工具相當特別，駭客導入了微軟的程式碼保護框架Warbird，藉此隱藏Shellcode的執行。值得留意的是，根據遙測資料，臺灣有使用者遭到鎖定，日本和中國也出現Chrysalis的蹤跡。 針對駭客攻擊的初始存取管道，Rapid7指出就是濫用Notepad++的基礎設施，駭客先後執行Notepad++主程式與更新公用元件GUP.exe，然後從95.179.213[.]0下載可疑檔案update.e</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173754</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/lotus-blossom-telemetry.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Feb 2026 06:44:20 +0000</pubDate>
+      <title>與APT41有關的中國駭客加入利用WinRAR路徑遍歷漏洞的行列</title>
+      <link>https://www.ithome.com.tw/news/173776</link>
+      <description>新聞1月底Google威脅情報團隊（GTIG）提出警告，半年前知名壓縮軟體WinRAR開發商Rarlab修補的高風險漏洞CVE-2025-8088，在漏洞公開後，有多個俄羅斯與中國國家級駭客組織，以及以經濟利益為動機的駭客組織加入漏洞利用的行列，由於這些駭客利用漏洞的的方法出現共通特徵，GTIG研判他們可能都是透過地下生態圈取得。如今有其他資安公司警告，一個與惡名昭彰的APT41有關的駭客組織，在概念驗證程式碼（PoC）公布不久之後，開始將漏洞用於實際攻擊。 資安公司Check Point揭露名為Amaranth-Dragon的APT駭客組織，積極利用CVE-2025-8088對東南亞多國發動網路間諜活動，受害目標多為政府機關與執法單位。這些駭客多以看似合法的文件，或與政治及公共安全相關的主題作為誘餌，透過釣魚郵件或檔案散布方式，引誘目標開啟惡意RAR檔案。一旦漏洞遭觸發，攻擊者即可在受害系統中植入惡意載入器，建立長期且隱密的存取管道。 在攻擊工具方面，Amaranth-Dragon使用惡意載入器Amaranth Loader，並搭配C2框架Havoc，對受害電腦進行遠端操控。部分攻擊</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173776</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/Picture2_amar.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Feb 2026 07:03:59 +0000</pubDate>
     </item>
   </channel>
 </rss>

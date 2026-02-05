@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Feb 2026 06:57:30 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 07:03:23 +0000</lastBuildDate>
     <item>
-      <title>Rust Coreutils 0.6 Brings Increased Compatibility, Removing Some Unsafe Code &amp;amp; More Perf</title>
-      <link>https://www.phoronix.com/news/Rust-Coreutils-0.6</link>
-      <description>Following the Rust Coreutils presentation from FOSDEM this weekend, Rust Coreutils 0.6 is now available as the latest feature release for this Rust programming language re-implementation of GNU Coreutils...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Rust-Coreutils-0.6</guid>
-      <pubDate>Mon, 02 Feb 2026 22:30:53 +0000</pubDate>
+      <title>Intel Driver Disabling Vulkan Video Encode On Newer Hardware Due To Insufficient Testing</title>
+      <link>https://www.phoronix.com/news/Intel-Vulkan-Video-Disable-New</link>
+      <description>While Vulkan Video is a cross-vendor, cross-platform video encode and decode API that is beginning to gain traction by multimedia applications and frameworks, the Intel "ANV" open-source Vulkan driver has for now taken a step-back on its encode support with newer hardware. Newer Intel graphics hardware is seeing Vulkan Video encode support disabled due to insufficient testing...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Vulkan-Video-Disable-New</guid>
+      <pubDate>Wed, 04 Feb 2026 14:56:18 +0000</pubDate>
     </item>
     <item>
-      <title>X.Org Developers Conference 2026 Being Hosted By Arm In Toronto</title>
-      <link>https://www.phoronix.com/news/XDC2026-Toronto</link>
-      <description>The X.Org Foundation has announced that this year's X.Org Developers Conference will be taking place in Toronto, Canada and hosted by Arm...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/XDC2026-Toronto</guid>
-      <pubDate>Tue, 03 Feb 2026 10:29:15 +0000</pubDate>
+      <title>GIMP Post-3.2 Will Be Looking At Hardware Acceleration, Full CMYK &amp;amp; More</title>
+      <link>https://www.phoronix.com/news/GIMP-Post-3.2-Features</link>
+      <description>With GIMP 3.2 releasing soon, GIMP developer Ondřej Míchal presented at FOSDEM 2026 this past weekend on some of the feature work being eyed for post-3.2 developments...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GIMP-Post-3.2-Features</guid>
+      <pubDate>Wed, 04 Feb 2026 16:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Reworked NTFS Linux Driver Posted With More Improvements &amp;amp; Fixes</title>
-      <link>https://www.phoronix.com/news/NTFS-Remake-Linux-v6</link>
-      <description>Announced back in October was NTFS Plus as a new Linux driver for NTFS based on the former NTFS kernel driver prior to Paragon Software contributing the NTFS3 driver code. The intent with this new driver is for better performance. more features, public user-space utilities around it, and all-around a nice step forward for those reliant on this Microsoft file-system. Out this week is the sixth iteration of this remade NTFS driver...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NTFS-Remake-Linux-v6</guid>
-      <pubDate>Tue, 03 Feb 2026 10:36:39 +0000</pubDate>
+      <title>Mesa Will Now Prevent Compiling With LTO Due To "Random Impossible-To-Debug Bugs"</title>
+      <link>https://www.phoronix.com/news/Mesa-No-Build-LTO</link>
+      <description>While link-time optimizations "LTO" can deliver some nice performance benefits out of this compiler optimization technique, it can make debugging said binaries more challenging. Due to various bugs in Mesa being attributed to the use of compiler link-time optimizations when compiling Mesa, the builds are being blocked on using LTO...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-No-Build-LTO</guid>
+      <pubDate>Wed, 04 Feb 2026 17:52:06 +0000</pubDate>
     </item>
     <item>
-      <title>OpenIndiana Is Porting Solaris' IPS Package Management To Rust</title>
-      <link>https://www.phoronix.com/news/OpenIndiana-Next-Gen-IPS</link>
-      <description>OpenIndiana as the open-source project built atop Illumos that is continuing to maintain and advance the former OpenSolaris code is working on a big ambitions of modernizing the Image Packaging System (IPS) package management solution. As part of that they are working to move from a C and Python codebase over to Rust...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/OpenIndiana-Next-Gen-IPS</guid>
-      <pubDate>Tue, 03 Feb 2026 11:04:11 +0000</pubDate>
+      <title>Intel Sends Out Initial Linux Patches For Xe3P_LPG Graphics With Nova Lake P</title>
+      <link>https://www.phoronix.com/news/Intel-Xe3P-LPG-Nova-Lake-P</link>
+      <description>In recent months Intel Linux engineers have been quite active in preparing for next-gen Nova Lake processors. That work has included initial Xe3P graphics support and enabling display support and related display/graphics functionality. The newest now is enabling Nova Lake P including the Xe3P_LPG graphics support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Xe3P-LPG-Nova-Lake-P</guid>
+      <pubDate>Wed, 04 Feb 2026 19:03:21 +0000</pubDate>
     </item>
     <item>
-      <title>Linux Dropping SMC TCP ULP Support For Being "Fundamentally Broken"</title>
-      <link>https://www.phoronix.com/news/Linux-Reverting-SMC-TCP-ULP</link>
-      <description>Merged four years ago to the Linux kernel networking subsystem's Shared Memory Communications (SMC) code was TCP Upper Layer Protocol (ULP) support for allowing applications to replace TCP with the SMC protocol in-place as a transparent replacement. Except for the next kernel cycle it's set to be reverted after realizing it's "fundamentally broken."..</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Reverting-SMC-TCP-ULP</guid>
-      <pubDate>Tue, 03 Feb 2026 13:10:08 +0000</pubDate>
+      <title>Mesa 26.0-rc3 Released With More Graphics Driver Fixes</title>
+      <link>https://www.phoronix.com/news/Mesa-26.0-rc3-Released</link>
+      <description>Eric Engestrom is out with another on-time Mesa release. Mesa 26.0-rc3 provides the latest week's worth of bug fixes as we work toward the stable Mesa 26.0 release as soon as next week...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.0-rc3-Released</guid>
+      <pubDate>Wed, 04 Feb 2026 20:24:39 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Panther Lake Shows Strong Linux CPU Performance &amp;amp; Power Efficiency With Core Ultra X7 358H Benchmarks</title>
-      <link>https://www.phoronix.com/review/intel-core-ultra-x7-358h-linux</link>
-      <description>For those that have been very eager to hear about the Intel Core Ultra Series 3 "Panther Lake" performance on Linux, today's the day! Last Thursday the MSI Prestige 14 Flip AI+ Evo laptop arrived that is powered by the Core Ultra X7 358H. Here is a look at how that Intel Core Ultra X7 358H competes for performance and power efficiency against a wide range of other laptops on an up-to-date Linux software stack in with around 300 benchmarks.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/intel-core-ultra-x7-358h-linux</guid>
-      <pubDate>Tue, 03 Feb 2026 15:08:00 +0000</pubDate>
+      <title>Debian's Challenge When Its Developers Quietly Drift Away</title>
+      <link>https://www.phoronix.com/news/Debian-Developers-Quiet-Away</link>
+      <description>You may recall the news last month around no one was left on Debian's data protection team and other volunteer staffing challenges with different Debian efforts in the past. Debian Project Leader Andreas Tille has been looking at the issue of the challenges that arise when Debian's all-volunteer developers quietly drift away either due to time commitments, other interests, or other reasons but don't properly communicate it to the Debian project...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Debian-Developers-Quiet-Away</guid>
+      <pubDate>Wed, 04 Feb 2026 21:07:09 +0000</pubDate>
     </item>
     <item>
-      <title>GNOME 50 Lands Virtual Monitor / Remote Desktop Improvements - Including HiDPI</title>
-      <link>https://www.phoronix.com/news/GNOME-50-Remote-Desktop-HiDPI</link>
-      <description>In time for next month's GNOME 50 release are some improvements merged today for the Mutter compositor code adding HiDPI and monitor mode emulation support to the screen-casting API and DevKit...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Remote-Desktop-HiDPI</guid>
-      <pubDate>Tue, 03 Feb 2026 17:10:23 +0000</pubDate>
+      <title>Microsoft's New Open-Source Project: LiteBox As A Rust-Based Sandboxing Library OS</title>
+      <link>https://www.phoronix.com/news/Microsoft-LiteBox</link>
+      <description>Microsoft engineers and other stakeholders have been developing LiteBox as a security-focused library OS written in the Rust programming language and leveraging Linux Virtualization Based Security "LVBS". The design is for LiteBox to operate as a secure kernel protecting the normal guest kernel via virtualization hardware...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Microsoft-LiteBox</guid>
+      <pubDate>Wed, 04 Feb 2026 21:38:41 +0000</pubDate>
     </item>
     <item>
-      <title>Dank Fedora MiracleWM &amp;amp; Other Fedora 44 Changes Approved</title>
-      <link>https://www.phoronix.com/news/Fedora-44-Dank-MiracleWM</link>
-      <description>The Fedora Engineering and Steering Committee "FESCo" has signed off on the latest batch of Fedora 44 change proposals as they work toward nearing the end of feature work for this spring update to Fedora Linux. Plus some early changes for Fedora 45 have also been granted...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Fedora-44-Dank-MiracleWM</guid>
-      <pubDate>Tue, 03 Feb 2026 20:15:11 +0000</pubDate>
+      <title>GNOME Shell &amp;amp; Mutter 50 Beta Releases Bring Stable VRR, Improved Frame Scheduling</title>
+      <link>https://www.phoronix.com/news/GNOME-Shell-Mutter-50-Beta</link>
+      <description>Ahead of the imminent GNOME 50 beta release, the GNOME Shell and Mutter components have declared their "50.beta" releases to ship the latest bug fixes, memory leak fixes, and some last minute improvements ahead of the stable release in March...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Shell-Mutter-50-Beta</guid>
+      <pubDate>Thu, 05 Feb 2026 00:53:52 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA DLSS For Blender Under Review But Licensing Concerns Persist</title>
-      <link>https://www.phoronix.com/news/NVIDIA-DLSS-Blender</link>
-      <description>A few months ago at SIGGRAPH was a demo of Blender with NVIDIA Deep Learning Super Sampling (DLSS) integration. The pull request is now open for landing NVIDIA DLSS support into Blender for better quality upscaling/denoising and performance but concerns persist over the licensing due to NVIDIA DLSS binaries...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-DLSS-Blender</guid>
-      <pubDate>Tue, 03 Feb 2026 21:08:58 +0000</pubDate>
+      <title>System76's COSMIC Desktop Planning Vulkan Renderer, Improved Gaming Experience</title>
+      <link>https://www.phoronix.com/news/COSMIC-Desktop-Features-Coming</link>
+      <description>Following December's release of COSMIC Epoch 1 along with the Pop!_OS 24.04 release by System76, today they shared more of their feature plans for the next two major COSMIC desktop updates...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/COSMIC-Desktop-Features-Coming</guid>
+      <pubDate>Thu, 05 Feb 2026 01:13:22 +0000</pubDate>
     </item>
     <item>
-      <title>Leveraging urunc For Efficiently Running BSD Applications In Linux Environments</title>
-      <link>https://www.phoronix.com/news/urunc-For-BSD-Apps-On-Linux</link>
-      <description>While there is the Linuxulator as a kernel-level solution on FreeBSD for running unmodified Linux binaries that can even work for gaming on FreeBSD, running BSD applications on Linux isn't talked about as much. But developers have found that for those wanting to run BSD applications in Linux environments, the urunc lightweight container runtime can work out rather well for efficiently handling BSD apps on Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/urunc-For-BSD-Apps-On-Linux</guid>
-      <pubDate>Wed, 04 Feb 2026 01:21:46 +0000</pubDate>
+      <title>Linux 7.0 Should Fix Nouveau For The Large Pages Support For Better NVK Performance</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-To-Fix-Nouveau-Large</link>
+      <description>The Linux 6.19 merge window had introduced support for larger pages and compression with the Nouveau kernel driver, which ultimately should help provide a performance win to this open-source NVIDIA driver. The Mesa NVK driver was ready to make use of that new kernel driver functionality but then it ended up being disabled due to bugs. Fortunately, for the Linux 6.20~7.0 kernel those issues should be resolved so then the Mesa NVK usage of the larger pages / compression support could be restored..</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-To-Fix-Nouveau-Large</guid>
+      <pubDate>Thu, 05 Feb 2026 05:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
