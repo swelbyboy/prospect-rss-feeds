@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Feb 2026 07:15:41 +0000</lastBuildDate>
-    <item>
-      <title>Enterprises are measuring the wrong part of RAG</title>
-      <link>https://venturebeat.com/orchestration/enterprises-are-measuring-the-wrong-part-of-rag</link>
-      <description>Enterprises have moved quickly to adopt RAG to ground LLMs in proprietary data. In practice, however, many organizations are discovering that retrieval is no longer a feature bolted onto model inference — it has become a foundational system dependency.Once AI systems are deployed to support decision-making, automate workflows or operate semi-autonomously, failures in retrieval propagate directly into business risk. Stale context, ungoverned access paths and poorly evaluated retrieval pipelines d</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/enterprises-are-measuring-the-wrong-part-of-rag</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2RWRKDlAYxJdWbClQsJBLv/9cfd607f68f0a4c521f84322b94ca0ce/DDM_2.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Feb 2026 19:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI launches a Codex desktop app for macOS to run multiple AI coding agents in parallel</title>
-      <link>https://venturebeat.com/orchestration/openai-launches-a-codex-desktop-app-for-macos-to-run-multiple-ai-coding</link>
-      <description>OpenAI on Monday released a new desktop application for its Codex artificial intelligence coding system, a tool the company says transforms software development from a collaborative exercise with a single AI assistant into something more akin to managing a team of autonomous workers.The Codex app for macOS functions as what OpenAI executives describe as a "command center for agents," allowing developers to delegate multiple coding tasks simultaneously, automate repetitive work, and supervise AI</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/openai-launches-a-codex-desktop-app-for-macos-to-run-multiple-ai-coding</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/5ixq6lS6l5yrO3RJxCtr5w/c11ddd394c8969826452a5a30312234b/nuneybits_Vector_art_of_an_Apple_iMac_monitor_displaying_cascad_ecce1621-251d-41d9-ac6e-72eb25b2fd35.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Feb 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Shared memory is the missing layer in AI orchestration</title>
-      <link>https://venturebeat.com/orchestration/shared-memory-is-the-missing-layer-in-ai-orchestration</link>
-      <description>The key to successful AI agents within an enterprise? Shared memory and context. This, according to Asana CPO Arnab Bose, provides detailed history and direct access from the get-go — with guardrail checkpoints and human oversight, of course. This way, “when you assign a task, you're not having to go ahead and re-provide all of the context about how your business works,” Bose said at a recent VB event in San Francisco. AI as an active teammate, rather than a passive add-onAsana launched Asana AI</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/shared-memory-is-the-missing-layer-in-ai-orchestration</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/hgdgcVYh6eTScx5sg3xmL/51a2bb25a7e65cb132358db07dcc2315/Connecting_data.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Feb 2026 20:34:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vercel rebuilt v0 to tackle the 90% problem: Connecting AI-generated code to existing production infrastructure, not prototypes</title>
-      <link>https://venturebeat.com/infrastructure/vercel-rebuilt-v0-to-tackle-the-90-problem-connecting-ai-generated-code-to</link>
-      <description>Before Claude Code wrote its first line of code, Vercel was already in the vibe coding space with its v0 service.The basic idea behind the original v0, which launched in 2024, was essentially to be version 0. That is, the earliest version of an application, helping developers solve the blank canvas problem. Developers could prompt their way to a user interface (UI) scaffolding that looked good, but the code was disposable. Getting those prototypes into production required rewrites.More than 4 mi</description>
-      <guid isPermaLink="false">https://venturebeat.com/infrastructure/vercel-rebuilt-v0-to-tackle-the-90-problem-connecting-ai-generated-code-to</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2U5I1bHA9QfvqoZdPB6qk0/7e4945d1392da8bd955144193be626f7/enterprise-vibe-coder-smk1.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Feb 2026 14:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 05 Feb 2026 07:23:06 +0000</lastBuildDate>
     <item>
       <title>Databricks' serverless database slashes app development from months to days as companies prep for agentic AI</title>
       <link>https://venturebeat.com/data/databricks-serverless-database-slashes-app-development-from-months-to-days</link>
@@ -63,7 +31,39 @@
       <description>Chinese e-commerce giant Alibaba's Qwen team of AI researchers has emerged in the last year as one of the global leaders of open source AI development, releasing a host of powerful large language models and specialized multimodal models that approach, and in some cases, surpass the performance of the proprietary U.S. leaders such as OpenAI, Anthropic, Google and xAI.Now the Qwen team is back again this week with a compelling release that matches the "vibe coding" frenzy that has arisen in recent</description>
       <guid isPermaLink="false">https://venturebeat.com/technology/qwen3-coder-next-offers-vibe-coders-a-powerful-open-source-ultra-sparse</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7ErEzHma6LbYLaznwE3rtA/39944c4739dbecaa3f8a336826de352d/sVJFWPtv0RFGdOIc_fKWG_C0uLbr6A__1_.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Feb 2026 22:47:00 +0000</pubDate>
+      <pubDate>Tue, 03 Feb 2026 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The hidden tax of “Franken-stacks” that sabotages AI strategies</title>
+      <link>https://venturebeat.com/orchestration/the-hidden-tax-of-franken-stacks-that-sabotages-ai-strategies</link>
+      <description>Presented by CertiniaThe initial euphoria around Generative and Agentic AI has shifted to a pragmatic, often frustrated, reality. CIOs and technical leaders are asking why their pilot programs, even those designed to automate the simplest of workflows, aren’t delivering the magic promised in demos.When AI fails to answer a basic question or complete an action correctly, the instinct is to blame the model. We assume the LLM isn’t "smart" enough. But that blame is misplaced. AI doesn’t struggle be</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/the-hidden-tax-of-franken-stacks-that-sabotages-ai-strategies</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/58YwKHSii6aFW7y6qcmo7S/0eeeefb86415491b1608d41f1d7b150b/AdobeStock_338505208.jpeg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Feb 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kilo CLI 1.0 brings open source vibe coding to your terminal with support for 500+ models</title>
+      <link>https://venturebeat.com/orchestration/kilo-cli-1-0-brings-open-source-vibe-coding-to-your-terminal-with-support</link>
+      <description>Remote-first AI coding startup Kilo doesn't think software developers should have to pledge their undying allegiance to any one development environment — and certainly not any one model or harness. This week, the startup — backed by GitLab co-founder Sid Sijbrandij — unveiled Kilo CLI 1.0, a complete rebuild of its command-line tool that offers support for more than 500 different underlying AI models from proprietary leaders and open source rivals like Alibaba's Qwen. It comes just weeks after K</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/kilo-cli-1-0-brings-open-source-vibe-coding-to-your-terminal-with-support</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/1uSTkwPRqMxlqN1HODf37R/05dea6bb9b12e0fddcd04eb430ca294c/TU-TjTY5HavJEByJadVee.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Feb 2026 20:27:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral drops Voxtral Transcribe 2, an open-source speech model that runs on-device for pennies</title>
+      <link>https://venturebeat.com/technology/mistral-drops-voxtral-transcribe-2-an-open-source-speech-model-that-runs-on</link>
+      <description>Mistral AI, the Paris-based startup positioning itself as Europe's answer to OpenAI, released a pair of speech-to-text models on Wednesday that the company says can transcribe audio faster, more accurately, and far more cheaply than anything else on the market — all while running entirely on a smartphone or laptop.The announcement marks the latest salvo in an increasingly competitive battle over voice AI, a technology that enterprise customers see as essential for everything from automated custo</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/mistral-drops-voxtral-transcribe-2-an-open-source-speech-model-that-runs-on</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6vrfWFGzeVEnkkbN7gCRJ3/adb294b1030e3af8da503ac9b656646b/nuneybits_Vector_art_of_orange_M_emerging_from_waveform_f9d0ab33-a731-4791-92a9-3c48519f6be9.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Feb 2026 20:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The ‘brownie recipe problem’: why LLMs must have fine-grained context to deliver real-time results</title>
+      <link>https://venturebeat.com/orchestration/the-brownie-recipe-problem-why-llms-must-have-fine-grained-context-to</link>
+      <description>Today’s LLMs excel at reasoning, but can still struggle with context. This is particularly true in real-time ordering systems like Instacart. Instacart CTO Anirban Kundu calls it the "brownie recipe problem." It's not as simple as telling an LLM ‘I want to make brownies.’ To be truly assistive when planning the meal, the model must go beyond that simple directive to understand what’s available in the user’s market based on their preferences — say, organic eggs versus regular eggs — and factor th</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/the-brownie-recipe-problem-why-llms-must-have-fine-grained-context-to</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2VCnNmP0CWrEo1sgvW4EaV/fdf8524a18ae6c74af92aaf6cbaf90c5/Brownie_recipe.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Feb 2026 21:04:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

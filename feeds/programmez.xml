@@ -8,86 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Feb 2026 07:29:21 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Feb 2026 07:39:17 +0000</lastBuildDate>
     <item>
-      <title>Les principales annonces de re:Invent 2025 pour les développeurs</title>
-      <link>https://www.programmez.com/actualites/les-principales-annonces-de-reinvent-2025-pour-les-developpeurs-38949</link>
-      <description>Julien Lépine (Tech Director, France - Amazon Web Services) revient avec la rédaction de Programmez! sur les principales annonces pour les développeurs. L'IA reste au coeur de la conférence re:Invent.Quelques sujets abordés : Kiro, les nouveaux modèles, Frontier Agent, Transform...Quelques liens supplémentaires de Julien :Les re:Cap (en Français) https://aws.amazon.com/fr/events/rein...L’AI-DLC https://aws.amazon.com/blogs/devops/a...Le CTS-SW https://aws.amazon.com/blogs/enterpri...PodDev est l</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/les-principales-annonces-de-reinvent-2025-pour-les-developpeurs-38949</guid>
+      <title>Firefox 148 : un bouton d'arrêt d'urgence pour couper l'IA</title>
+      <link>https://www.programmez.com/actualites/firefox-148-un-bouton-darret-durgence-pour-couper-lia-38962</link>
+      <description>Firefox 148, prévu pour le 24 février, proposera un fonctionnalité particulière à l'IA : la possibilité de gérer l'IA selon les préférences définies par l'utilisateur. Ces options seront regroupées dans Contrôles IA. Le principe est simple : activer ou non les différentes fonctionnalités IA du navigateur (traductions, texte alternatif dans les PDF, groupement intelligent d’onglets, aperçus de liens ou chatbot dans la barre latérale, etc.).Une fonctioonnalité qui va peut être se retrouver rapidem</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/firefox-148-un-bouton-darret-durgence-pour-couper-lia-38962</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/firefoxai.jpg?itok=6QrdHowl" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Feb 2026 12:19:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quarkus 3.31 : Java 25, nouveau Panache Next, nouveau package Quarkus</title>
+      <link>https://www.programmez.com/actualites/quarkus-331-java-25-nouveau-panache-next-nouveau-package-quarkus-38963</link>
+      <description>Quarkus est disponible en version 3.31. Une des principales nouveautés est le support de Java 25. Elle apporte aussi des corrections de bugs. Quarkus introduit "quarkus", un nouveau packaging Quarkus pour Maven. Il doit apporter un véritable cycle de vie ce que les paquets jar ont du à faire. Cette version introduit Panache Next, une nouvelle version de Panache, ainsi que Testcontainer 2, JUnit 6, mises à jour d'ORL, Reactive, Search, OpenSearch. support de Hibernate Spatial. Maven 3.9.0 est dés</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/quarkus-331-java-25-nouveau-panache-next-nouveau-package-quarkus-38963</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Fri, 30 Jan 2026 07:15:31 +0000</pubDate>
+      <pubDate>Tue, 03 Feb 2026 12:48:15 +0000</pubDate>
     </item>
     <item>
-      <title>Azure SDK : quelles sont les dernières nouveautés ?</title>
-      <link>https://www.programmez.com/actualites/azure-sdk-quelles-sont-les-dernieres-nouveautes-38950</link>
-      <description>Les SDK Azure sont nombreux et ils sont mis à jour très régulièrement. Pour janvier, plusieurs nouveautés sont annoncées :- AI Foundry 1.2.0 bêta 1 pour .Net : mise à jour importante pour les Foundry Agents Servce, intégration avec Azure.AI.Projects.OpenAI- Azure AI Seach 11.8.0 bêta 1 pour .Net- Functions Extension pour WebPubSub pour SocketIO 1.0.0 pour .Net : version stable pour les extensions Azure Functions pour Web PubSub. Ce SDK doit permettre de supporter le modèle Socket.IO (temps réel,</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/azure-sdk-quelles-sont-les-dernieres-nouveautes-38950</guid>
+      <title>JHipster v9.0.0 : bêta 2 disponible</title>
+      <link>https://www.programmez.com/actualites/jhipster-v900-beta-2-disponible-38964</link>
+      <description>JHipster travaille sur sa prochaine version majeure, la 9.0.0. La 1ere bêta est apparue en décembre 2025, la bêta est sortie fin janvier. Plus de 1 000 issues et pull requests seront traitées et intégrées. Les nouveautés et mises à jour seront nombreuses : - Zoneless dans la partie Angular : possibilité d'exécuter du code Angular sans zone.js- ajout de Vitest comme alternative à Jest- Bootstrap 5- Spring Boot 3.5.8 et 4.0.2- Angular 21- support de TypeScript entièrement refait : meilleure modula</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/jhipster-v900-beta-2-disponible-38964</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Fri, 30 Jan 2026 07:44:33 +0000</pubDate>
+      <pubDate>Tue, 03 Feb 2026 13:03:14 +0000</pubDate>
     </item>
     <item>
-      <title>Programmez! n°273 est disponible : IA, PHP 8.5, shadow conteneur...</title>
-      <link>https://www.programmez.com/actualites/programmez-ndeg273-est-disponible-ia-php-85-shadow-conteneur-38951</link>
-      <description>Programmez! n°273 est disponible : GreenOps, IA mise à jour janvier 2026, comprendre l'architecture ARM, toutes les nouveautés de PHP 8.5Au sommaire :Edito2026 : l’année de tous les dangers pour les juniors ?La renaissance de GoloIA, update janvier 2026La fin du monopole de l’Attention : comment 2026 va redéfinir l’intelligence artificielle ?Une IA locale de confianceGestion de l’exposition cyber pilotée par l’IA : l’approche Armis CentrixSécurité &amp;amp; IA : un défi à la hauteur des enjeuxLe dévelop</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/programmez-ndeg273-est-disponible-ia-php-85-shadow-conteneur-38951</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/00001_273.jpg?itok=Oojn2qgL" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 30 Jan 2026 08:16:00 +0000</pubDate>
+      <title>Deno Sandbox : un environnement d'exécution isolé</title>
+      <link>https://www.programmez.com/actualites/deno-sandbox-un-environnement-dexecution-isole-38966</link>
+      <description>La sandbox permet d'exécuter du code de manière isolée. "Vous ne souhaitez pas exécuter un code non fiable directement sur votre serveur au risque de compromettre votre système, dérober des clés API ? L'isolation est la solution" argumente Deno.Deno Sandbox fournit des microVM Linux légères (hébergées dans le cloud Deno Deploy) pour y exécuter du code non vérifié ou tout code de votre choix. Selon Deno, une sandbox démarre en -1 seconde. La connexion se fait en SSH ou HTTP ou via VS Code. import</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/deno-sandbox-un-environnement-dexecution-isole-38966</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/denosandbox.png?itok=WAZGuZJY" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Feb 2026 06:28:16 +0000</pubDate>
     </item>
     <item>
-      <title>Ordinateur vintage : précautions sur les anciennes alimentations</title>
-      <link>https://www.programmez.com/actualites/ordinateur-vintage-precautions-sur-les-anciennes-alimentations-38952</link>
-      <description>Vous voulez redémarrer une machine qui dort depuis plusieurs années. Si vous avez de la chance, le lieu de stockage n’est pas humide. Avant tout redémarrage, surtout si vous ne connaissez pas l’état exact de la machine : vérifiez l’alimentation.Le bloc d’alimentation est un des éléments qui posent le plus de problèmes. Certains blocs sont de mauvaises qualités et vieillissent mal. Vous pouvez avoir le bloc interne et/ou le bloc externe. Dans l’idéal, il faut vérifier les deux.Petite checklist :</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/ordinateur-vintage-precautions-sur-les-anciennes-alimentations-38952</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/rifa.jpg?itok=hJVcUMQd" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 30 Jan 2026 08:53:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>WordPress Studio 1.7.0 : développer des sites WordPress... sur sa machine</title>
-      <link>https://www.programmez.com/actualites/wordpress-studio-170-developper-des-sites-wordpress-sur-sa-machine-38953</link>
-      <description>WordPress annonce la version 1.7 de Studio. WordPress Studio est un environnement de développement à installer sur macOS ou Windows. Il permet de développement directement sur son poste de travail les sites WordPress. Les fonctionnalités de base sont :- synchronisation entre le développement local et les sites en ligne avec staging et production- prévisualisation des sites- installation rapide- pas de besoin de Docker, Apache, MySQL- administration simplifiée- tester le test en CLI, sur l'outil</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/wordpress-studio-170-developper-des-sites-wordpress-sur-sa-machine-38953</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/wordpress-studio-cli.jpg?itok=uurPADxv" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 30 Jan 2026 13:23:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>FOSDEM 2026 : l’événement Open Source européen incontournable</title>
-      <link>https://www.programmez.com/actualites/fosdem-2026-levenement-open-source-europeen-incontournable-38954</link>
-      <description>La rédaction de Programmez! était à la FOSDEM qui s’est déroulée les 31 janvier et 1er février à Bruxelles. L’événement s’est imposé comme LA référence du monde open source en Europe. Comme chaque année, le plus difficile est de planifier son agenda et de choisir parmi les 1 000 sessions proposées !Les chiffres pour cette édition sont hallucinants :1 014 sessions (tout format) 1 186 intervenants 66 tracks thématiques +80 salles 91 stands de partenaires ! Un réseau full IPv6Et même si vous êtes b</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/fosdem-2026-levenement-open-source-europeen-incontournable-38954</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/fosdem1.png?itok=jC2YJOLr" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Feb 2026 07:38:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qwen3-ASR : Alibaba ouvre ces vLLM</title>
-      <link>https://www.programmez.com/actualites/qwen3-asr-alibaba-ouvre-ces-vllm-38955</link>
-      <description>Alibaba, un des géants techs chinois, annonce la mise en open source des modèles Qwen-3ASR et ForcedAligner. ASR est un LLM dédié à la reconnaissance vocale. Les deux LLM servent à identifier la langue, actuellement 52 langages et accents sont supportés. La reconnaissance vocale est supportée par 30 langues et 22 dialectes chinois ainsi les accents anglais de plusieurs pays. Cela concerne les modèles ASR-1.7B et 0.6B. Pour Alibaba, les enjeux sont de fournir des vLLM avec une taux de reconnaissa</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/qwen3-asr-alibaba-ouvre-ces-vllm-38955</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/qwenasr-intro.png?itok=DK8qToup" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Feb 2026 08:25:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kubernetes : une faille dans RBAC ne sera pas corrigée car le comportement est conforme</title>
-      <link>https://www.programmez.com/actualites/kubernetes-une-faille-dans-rbac-ne-sera-pas-corrigee-car-le-comportement-est-conforme-38956</link>
-      <description>Notre vulnérabilité démarre débutnovembre 2025 quand Graham Helton, chercheur en sécurité, communique à l'équipe sécurité de Kubernetes une vulnérabilité dans les autorisations dans la gestion des rôles, le RBAC. Cette faille permet de contourner la sécurité RBAC et de pouvoir exécuter un code distant non autorisé : "un contournement autorisé dans RBAC de Kubernetes des permissions nodes/proxy GET permet d'exécuter des commandes sur tous les pods d'un cluster" introduit Graham. Le problème ne vi</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/kubernetes-une-faille-dans-rbac-ne-sera-pas-corrigee-car-le-comportement-est-conforme-38956</guid>
+      <title>Raspberry Pi devient un luxe : nouvelle forte hausse des prix</title>
+      <link>https://www.programmez.com/actualites/raspberry-pi-devient-un-luxe-nouvelle-forte-hausse-des-prix-38967</link>
+      <description>Raspberry Pi annonce une nouvelle (forte) hausse des tarifs pour les cartes Pi. Ces hausses concernent les Pi 4, Pi 5, Compute Module 4 et 5 et tous les modèles liés à partir de 2 Go de RAM. Les Pi 400 ne sont pas concernés, ni les modèles 1 Go.Typiquement, les hausses sont lui suivantes :2 Go -&amp;gt; +10 $4 Go -&amp;gt; + 15 $8 Go -&amp;gt; + 30 $16 Go -&amp;gt; + 60 $La hausse des prix est la conséquence de la forte hausse de prix des mémoires. Malheureusement, il est probable que de nouvelles hausses interviennent cet</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/raspberry-pi-devient-un-luxe-nouvelle-forte-hausse-des-prix-38967</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Mon, 02 Feb 2026 09:21:10 +0000</pubDate>
+      <pubDate>Wed, 04 Feb 2026 07:14:37 +0000</pubDate>
     </item>
     <item>
-      <title>Notepad++ : hikacking subi en été et automne 2025</title>
-      <link>https://www.programmez.com/actualites/notepad-hikacking-subi-en-ete-et-automne-2025-38957</link>
-      <description>Les développeurs de Notepad++ ont communiqué sur une campagne de hijacking qui avait été détectée en juin 2025. L'attaque s'est faite en compromettant l'infrastructure hébergeant Notepad++. Les hackers ont réussi à rerouter le trafic destiné aux serveur officiels vers des serveurs illicites. L'équipe Notepad a alors facilité la communication entre l'hébergeur et l'équipe Incident-response pour analyser la compromission et fixer le problème. La réponse s'est déroulée en 2 grandes étapes. Le serve</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/notepad-hikacking-subi-en-ete-et-automne-2025-38957</guid>
+      <title>Xcode 26.3 : disponibilité des agents de codage</title>
+      <link>https://www.programmez.com/actualites/xcode-263-disponibilite-des-agents-de-codage-38968</link>
+      <description>Xcode proposait déjà un peu d'IA mais avec la version 26.3, Apple accélère, avec l'intégration :1 / des agents IA en s'appuyant sur Claude et Codex2 / support des MCP pour étendre les agents et permettre une large gamme d'agentsLa configuration se passe dans les paramètres -&amp;gt; Intelligence. Là on peut choisir et configurer l'agent. Sur l'éditeur, un bouton Intelligence permet d'ouvrir l'assistant de codage. Configuration et activation : https://developer.apple.com/documentation/Xcode/setting-up-c</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/xcode-263-disponibilite-des-agents-de-codage-38968</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Mon, 02 Feb 2026 14:09:34 +0000</pubDate>
+      <pubDate>Wed, 04 Feb 2026 08:52:09 +0000</pubDate>
     </item>
     <item>
-      <title>FOSDEM 2026 résumé 1 : Reproducible Builds for Android Apps, pourquoi est-ce si important ?</title>
-      <link>https://www.programmez.com/actualites/fosdem-2026-resume-1-reproducible-builds-android-apps-pourquoi-est-ce-si-important-38958</link>
-      <description>Andreas Itzchak Rehberg proposait un sujet aussi intrigant qu’utile : la reproductibilité des builds (RB) pour les applications Android. Mais au-delà d’Android, on comprend très vite qu’un environnement de builds stable et capable de reproduire exactement le même comportement est quelque chose d’indispensable. Mais pour y parvenir, il faut une infrastructure RB définie et une méthodologie claire.Pourquoi est-ce une bonne approche ? Par exemple, le RB permet d’avoir une application non altérée av</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/fosdem-2026-resume-1-reproducible-builds-android-apps-pourquoi-est-ce-si-important-38958</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/capture_decran_2026-02-02_a_16.25.41.png?itok=PyDaPGGC" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Feb 2026 15:37:46 +0000</pubDate>
+      <title>Git 2.53 : nouvelles sous-commandes, bug fix, optimisations</title>
+      <link>https://www.programmez.com/actualites/git-253-nouvelles-sous-commandes-bug-fix-optimisations-38969</link>
+      <description>Git déploie la version 2.53. Cette mise à jour apporte des nouveautés fonctionnelles et diverses optimisations. Parmi les nouveautés, retenons :- une nouvelle sous-commande is-need dabs la commande git maintenance s'il est nécessaire de faire différents tâches de maintenance - option --diff-algorithm= dans la commande git blame et option --all dans git repo- commande expérimentale git replay- optimisation sur les sous-commandes et les opérations- amélioration sur les messages d'erreurs- nombreus</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/git-253-nouvelles-sous-commandes-bug-fix-optimisations-38969</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Feb 2026 10:40:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>gui-component : des composants UI pour créer des apps Rust</title>
+      <link>https://www.programmez.com/actualites/gui-component-des-composants-ui-pour-creer-des-apps-rust-38970</link>
+      <description>Tu veux construire une app desktop avec une interface graphique de qualité ? Connais-tu GPUI Component ? Il s'agit d'une suite de composants graphiques pour Rust. Les specs sont alléchantes :+ 60 composants multiplateformeNatif et largement inspiré de macOS et WindowsImplémentation simplePersonnalisationFlexibilité des layoutsLe contenu peut être rendu en markdown ou htmlExemple :use gpui::*;use gpui_component::{button::*, *};pub struct HelloWorld;impl Render for HelloWorld { fn render(&amp;amp;mut self</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/gui-component-des-composants-ui-pour-creer-des-apps-rust-38970</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/rustui.png?itok=30mj02EI" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Feb 2026 13:23:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ruff : un linter et formateur Python écrit en Rust</title>
+      <link>https://www.programmez.com/actualites/ruff-un-linter-et-formateur-python-ecrit-en-rust-38971</link>
+      <description>Ruff est un projet open source récent. L'ambition est de proposer un linter et formateur de code ultra rapide. Pour ce faire, il est écrit en Rust.Ruff met en avant la grande rapidité par rapport à Flake8, Autoflake ou encore Pylint. Il peut s'installer via pip ou Pypi, il est compatible Python 3.14, supporte 800 règles. La version 0.15.0 est la dernière en cours. Un important travail sur le formatage du code a été fait en 2025 avec de nombreux bugs corrigés et l'intégration de Pyhton 3.14. Pour</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/ruff-un-linter-et-formateur-python-ecrit-en-rust-38971</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Feb 2026 17:09:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>FOSDEM 2026 : the state of Go, quoi de neuf dans Go ?</title>
+      <link>https://www.programmez.com/actualites/fosdem-2026-state-go-quoi-de-neuf-dans-go-38972</link>
+      <description>Pour lancer la 2e journée, la session State of Go a démarré dès 9h. À l’édition 2025, c’était une session particulièrement attendue et il ne fallait pas être en retard pour espérer trouver une place. Cette année, malheureusement, la programmation de la track Go le dimanche matin n’a pas aidé l’audience. La salle était vide à 20 %. Espérons une meilleure exposition en 2027.Maartje Eyskens fut l’animatrice de la session et n’est pas fan de l’IA. C’est la 12e année que Go a les honneurs de la FOSDE</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/fosdem-2026-state-go-quoi-de-neuf-dans-go-38972</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/fosdem4.jpg?itok=2zKiRHeC" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Feb 2026 18:57:07 +0000</pubDate>
     </item>
   </channel>
 </rss>
