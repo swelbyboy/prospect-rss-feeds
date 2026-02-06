@@ -8,47 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Feb 2026 07:39:17 +0000</lastBuildDate>
-    <item>
-      <title>Firefox 148 : un bouton d'arrêt d'urgence pour couper l'IA</title>
-      <link>https://www.programmez.com/actualites/firefox-148-un-bouton-darret-durgence-pour-couper-lia-38962</link>
-      <description>Firefox 148, prévu pour le 24 février, proposera un fonctionnalité particulière à l'IA : la possibilité de gérer l'IA selon les préférences définies par l'utilisateur. Ces options seront regroupées dans Contrôles IA. Le principe est simple : activer ou non les différentes fonctionnalités IA du navigateur (traductions, texte alternatif dans les PDF, groupement intelligent d’onglets, aperçus de liens ou chatbot dans la barre latérale, etc.).Une fonctioonnalité qui va peut être se retrouver rapidem</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/firefox-148-un-bouton-darret-durgence-pour-couper-lia-38962</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/firefoxai.jpg?itok=6QrdHowl" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Feb 2026 12:19:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quarkus 3.31 : Java 25, nouveau Panache Next, nouveau package Quarkus</title>
-      <link>https://www.programmez.com/actualites/quarkus-331-java-25-nouveau-panache-next-nouveau-package-quarkus-38963</link>
-      <description>Quarkus est disponible en version 3.31. Une des principales nouveautés est le support de Java 25. Elle apporte aussi des corrections de bugs. Quarkus introduit "quarkus", un nouveau packaging Quarkus pour Maven. Il doit apporter un véritable cycle de vie ce que les paquets jar ont du à faire. Cette version introduit Panache Next, une nouvelle version de Panache, ainsi que Testcontainer 2, JUnit 6, mises à jour d'ORL, Reactive, Search, OpenSearch. support de Hibernate Spatial. Maven 3.9.0 est dés</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/quarkus-331-java-25-nouveau-panache-next-nouveau-package-quarkus-38963</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 03 Feb 2026 12:48:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>JHipster v9.0.0 : bêta 2 disponible</title>
-      <link>https://www.programmez.com/actualites/jhipster-v900-beta-2-disponible-38964</link>
-      <description>JHipster travaille sur sa prochaine version majeure, la 9.0.0. La 1ere bêta est apparue en décembre 2025, la bêta est sortie fin janvier. Plus de 1 000 issues et pull requests seront traitées et intégrées. Les nouveautés et mises à jour seront nombreuses : - Zoneless dans la partie Angular : possibilité d'exécuter du code Angular sans zone.js- ajout de Vitest comme alternative à Jest- Bootstrap 5- Spring Boot 3.5.8 et 4.0.2- Angular 21- support de TypeScript entièrement refait : meilleure modula</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/jhipster-v900-beta-2-disponible-38964</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 03 Feb 2026 13:03:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Deno Sandbox : un environnement d'exécution isolé</title>
-      <link>https://www.programmez.com/actualites/deno-sandbox-un-environnement-dexecution-isole-38966</link>
-      <description>La sandbox permet d'exécuter du code de manière isolée. "Vous ne souhaitez pas exécuter un code non fiable directement sur votre serveur au risque de compromettre votre système, dérober des clés API ? L'isolation est la solution" argumente Deno.Deno Sandbox fournit des microVM Linux légères (hébergées dans le cloud Deno Deploy) pour y exécuter du code non vérifié ou tout code de votre choix. Selon Deno, une sandbox démarre en -1 seconde. La connexion se fait en SSH ou HTTP ou via VS Code. import</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/deno-sandbox-un-environnement-dexecution-isole-38966</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/denosandbox.png?itok=WAZGuZJY" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Feb 2026 06:28:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Raspberry Pi devient un luxe : nouvelle forte hausse des prix</title>
-      <link>https://www.programmez.com/actualites/raspberry-pi-devient-un-luxe-nouvelle-forte-hausse-des-prix-38967</link>
-      <description>Raspberry Pi annonce une nouvelle (forte) hausse des tarifs pour les cartes Pi. Ces hausses concernent les Pi 4, Pi 5, Compute Module 4 et 5 et tous les modèles liés à partir de 2 Go de RAM. Les Pi 400 ne sont pas concernés, ni les modèles 1 Go.Typiquement, les hausses sont lui suivantes :2 Go -&amp;gt; +10 $4 Go -&amp;gt; + 15 $8 Go -&amp;gt; + 30 $16 Go -&amp;gt; + 60 $La hausse des prix est la conséquence de la forte hausse de prix des mémoires. Malheureusement, il est probable que de nouvelles hausses interviennent cet</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/raspberry-pi-devient-un-luxe-nouvelle-forte-hausse-des-prix-38967</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Feb 2026 07:14:37 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 06 Feb 2026 07:36:15 +0000</lastBuildDate>
     <item>
       <title>Xcode 26.3 : disponibilité des agents de codage</title>
       <link>https://www.programmez.com/actualites/xcode-263-disponibilite-des-agents-de-codage-38968</link>
@@ -88,6 +48,46 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/fosdem-2026-state-go-quoi-de-neuf-dans-go-38972</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/fosdem4.jpg?itok=2zKiRHeC" length="0" type="image/jpeg"/>
       <pubDate>Wed, 04 Feb 2026 18:57:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>FOSDEM 2026 : où en est RISC-V ?</title>
+      <link>https://www.programmez.com/actualites/fosdem-2026-ou-en-est-risc-v-38975</link>
+      <description>Comme pour l’édition 2025, la rédaction de Programmez! a suivi avec intérêt la track RISC-V du samedi. Plusieurs sessions étaient particulièrement intéressantes : state of the arch, upstream embedded Linux on RISC-V SBC, RISC-V hardware is here, what about software ou encore Mainline support for OrangePi RISC-V Boards.1 / RISC-V hardware is here, what about softwareLa session RISC-V hardware is here, what about software d’Afonso Oliveira était intéressante pour sa vision du logiciel disponible s</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/fosdem-2026-ou-en-est-risc-v-38975</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/fosdem5.png?itok=S8aQKElo" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 05 Feb 2026 08:21:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Réécrire du code Java en .Net en quelques minutes avec... Copilot CLI</title>
+      <link>https://www.programmez.com/actualites/reecrire-du-code-java-en-net-en-quelques-minutes-avec-copilot-cli-38976</link>
+      <description>Tug, bien connu des communautés .Net et GitHub, bient de publier une démonstration technique aussi instructive qu'intéressante : comment il a réécrit une application Java en .Net en utilisant Copilot CLI et quelques autres outils. La migration automatisée de Spring PetClinic vers .Net 10:Stratégie : Utilisation du mode /plan avec Claude Opus pour l'analyse.Exécution : Lancer plusieurs agents IA en parallèle pour coder le backend, le front (Razor) et la base de données.Validation : Tests automati</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/reecrire-du-code-java-en-net-en-quelques-minutes-avec-copilot-cli-38976</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Feb 2026 08:53:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>WordPress et PrestaShop : 2 mises à jour de sécurité et maintenance</title>
+      <link>https://www.programmez.com/actualites/wordpress-et-prestashop-2-mises-jour-de-securite-et-maintenance-38977</link>
+      <description>PrestaShop annonce la distribution de la version 8.2.4. Il s'agit d'une mise à jour de sécurité fixant une faille de criticité moyenne : une vulnérabilité dans les énumarations dans l'authentification des utilisateurs pouvait être exploitée pour déterminer l'existant d'un compte en mesurant le temps de réponse. Détail de la faille : https://github.com/PrestaShop/PrestaShop/security/advisories/GHSA-67v7-3g49-mxh2WordPresse annonce une version de maintenance : la 6.9.1. Elle corrige 49 bugs dans l</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/wordpress-et-prestashop-2-mises-jour-de-securite-et-maintenance-38977</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Feb 2026 10:13:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Aluminium OS : Google ne prévoit pas une diffusion massive avant 2028</title>
+      <link>https://www.programmez.com/actualites/aluminium-os-google-ne-prevoit-pas-une-diffusion-massive-avant-2028-38978</link>
+      <description>Aluminium OS fait beaucoup parler de lui depuis quelques semaines. Ce nouvel OS de Google doit fusionner Android et ChromeOS pour aboutir à une plateforme unique. The Verge a pu avoir accès à des documents internes des équipes. Et visiblement, le développement est loin d'être terminé et de nombreux éléments peuvent encore changer, si le projet n'est pas arrêté avant. Il faut dire que fusionner deux OS si différents est loin d'être facile. Il faut redéfinir les fondations de l'OS, créer une inter</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/aluminium-os-google-ne-prevoit-pas-une-diffusion-massive-avant-2028-38978</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Feb 2026 15:21:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sudo : l'unique mainteneur demande de l'aide</title>
+      <link>https://www.programmez.com/actualites/sudo-lunique-mainteneur-demande-de-laide-38980</link>
+      <description>Sudo est une des commandes les plus connues sur Linux et macOS. Mais savez-vous qu'il est maintenu par un seul développeur ? Il s'agit de Todd C. Miller. "Depuis plus de 30 ans, je suis responsable de la maintenance de sudo. Je recherche actuellement un sponsor pour financer la maintenance et le développement continus de sudo. Si vous ou votre organisation souhaitez soutenir sudo, merci de me contacter." explique-t-il. Pour pouvoir continuer cette maintenance, qui exige du temps et une expertise</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/sudo-lunique-mainteneur-demande-de-laide-38980</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 07:11:13 +0000</pubDate>
     </item>
   </channel>
 </rss>

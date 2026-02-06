@@ -8,80 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Feb 2026 07:06:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 07:02:38 +0000</lastBuildDate>
     <item>
-      <title>SolarWinds修補IT服務臺WHD四重大漏洞，涉及免驗證RCE與身分驗證繞過</title>
-      <link>https://www.ithome.com.tw/news/173757</link>
-      <description>新聞SolarWinds釋出修補程式處理其IT服務臺產品Web Help Desk（WHD）共6項弱點，其中4項為CVSS 9.8的重大漏洞，影響包含身分驗證繞過與免驗證的遠端程式碼執行風險。資安業者Rapid7指出，這4項重大漏洞可讓遠端攻擊者在未登入情況下，達成免驗證遠端程式碼執行或繞過驗證機制，並建議企業把修補優先順序往前提，盡速完成升級至WHD 2026.1。 WHD常被用於工單與資產管理，負責IT服務流程中的關鍵資料與操作介面。Rapid7研究人員整理，CVE-2025-40551與CVE-2025-40553屬不受信任資料反序列化問題，可讓未經驗證的遠端攻擊者在目標系統上執行任意作業系統命令。另兩個重大漏洞CVE-2025-40552與CVE-2025-40554則可被用於繞過身分驗證，讓未經驗證的攻擊者執行或呼叫原本應由驗證機制控管的動作與方法。 資安公司Horizon3.ai也發布技術分析，指出攻擊者可將WHD的多項弱點串成一條免驗證遠端程式碼執行攻擊鏈。其做法是先透過CVE-2025-40536等問題建立可利用的呼叫路徑，再利用CVE-2025-40551的不受信任資</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173757</guid>
-      <pubDate>Wed, 04 Feb 2026 23:00:00 +0000</pubDate>
+      <title>提供4頻與24Gbps傳輸速度，思科最高階Wi-Fi 7基地臺登場</title>
+      <link>https://www.ithome.com.tw/review/173772</link>
+      <description>持續拓展企業Wi-Fi 7無線網路解決方案，思科在2025年6月舉行的年度用戶大會期間，發表最高規格的無線基地臺機型Cisco Wireless 9179F（CW9179F），鎖定體育館、會議中心、機場、慶典活動等大型公共空間或場館的無線網路連線需求，可搭配當時一同推出的Cisco Campus Gateway，企業可透過支援雲端原生與企業內部管理的網路流量轉送閘道設備，為大型園區網路環境，提供連線順暢、可經由雲端服務管理的上網漫遊體驗（cloud-managed roaming）。 思科強調，CW9179F能夠針對高密度環境，提供突破以往的網路連線效能，發揮Wi-Fi 7網路的所有潛力，提供最極致的速度、更低的存取延遲，以及更大的連網服務容量，綜合四個無線通訊頻段（6 GHz、5 GHz、5 GHz、2.4 GHz），實體傳輸效能可達24 Gbps，並內建兩個10GbE網路埠。 而且，CW9179F能用於大型場館，支援巨量設備的Wi-Fi連線需求，以及多種消耗大量網路頻寬的應用系統，例如，體育賽事畫面快速重播的視訊串流處理，可提供更流暢的播放體驗；透過行動裝置進行的網路遊戲，能免於反</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/173772</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/cisco_wireless_9179f_main.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 05 Feb 2026 16:47:03 +0000</pubDate>
     </item>
     <item>
-      <title>ShinyHunters駭客公布哈佛、賓州大學百萬人個資</title>
-      <link>https://www.ithome.com.tw/news/173771</link>
-      <description>新聞Techcrunch報導，自稱是ShinyHunters的駭客組織周三在他們的資料外洩公告網站上，證實竊取了哈佛大學及賓州大學（University of Pennsylvania，UPenn）個人資料，並且公開據稱有超過100萬筆紀錄的資料檔案。 哈佛大學及賓州大學同為長春藤名校，去年相繼證實遭駭。賓州大學於11月初證實10月31日發現資料外洩事件，攻擊者透過社交工程手法存取了該校與學校發展及校友活動有關的部分資訊系統。11月中旬，哈佛大學也公布資安事件，駭客是利用電話釣魚手法取得校友事務和發展業務系統憑證，並存取了個人資訊，包括電子郵件住址、電話號碼、住家及公司地址、活動出席狀況、捐款資訊及其他資料。不過未影響社會安全碼、密碼、支付等資訊。被影響的人員包含校友、校友配偶、合作夥伴、捐款人、現任及前任學生家長、部份現任學生、及部份教職員和員工。除了個資，也外洩了合作夥伴事務及校友、捐款人和學校的通訊資料。 媒體驗證ShinyHunters公開的資料類型，大致和各校證實的資料型態吻合。賓州大學表示正在確認資料的真實性。 在此之前，兩家大學去年秋天也分別在10月及11月傳出資料外洩案</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173771</guid>
-      <pubDate>Thu, 05 Feb 2026 01:44:49 +0000</pubDate>
+      <title>Mistral發表Voxtral Transcribe 2系列模型，即時語音轉文字延遲可低於200毫秒</title>
+      <link>https://www.ithome.com.tw/news/173785</link>
+      <description>新聞法國人工智慧新創Mistral推出語音轉文字模型家族Voxtral Transcribe 2，鎖定會議逐字稿、客服通話與即時語音互動等需求，該系列新增即時模型Voxtral Realtime，官方表示轉錄延遲可設定到200毫秒以下。另在批次模型Voxtral Mini Transcribe V2加入說話者分離與詞級時間戳記等能力，強化會議與多方通話整理需求。 Voxtral Transcribe 2包含兩個模型，Voxtral Mini Transcribe V2用於批次轉錄，適合一次處理大量錄音檔，而Voxtral Realtime則鎖定直播字幕、語音助理等即時情境。Mistral同時將Voxtral Realtime以Apache2.0授權釋出權重，企業可選擇在自有環境或邊緣裝置部署。兩款模型皆支援含中文在內的13種語言。 Voxtral Realtime採用原生串流式架構，會在音訊到達時同步產生文字，而非將錄音切成片段後再逐段處理。官方表示延遲可依需求調整，開發者可在反應速度與轉錄準確度之間取捨，讓即時互動更貼近對話節奏。 批次模型Voxtral Mini Transcrib</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173785</guid>
+      <pubDate>Fri, 06 Feb 2026 00:47:56 +0000</pubDate>
     </item>
     <item>
-      <title>駭客利用React Native重大漏洞Metro4Shell發動攻擊，散布Rust打造的惡意程式</title>
-      <link>https://www.ithome.com.tw/news/173773</link>
-      <description>新聞去年11月資安公司JFrog揭露重大等級的資安漏洞CVE-2025-11953（後續被命名為Metro4Shell），此漏洞出現在開發熱門NPM套件React Native Community CLI（@react-native-community/cli），CVSS風險達到9.8分（滿分10分），陸續有多名研究人員公布概念驗證程式碼（PoC）之後，現在有資安公司警告已出現實際攻擊。 根據資安公司VulnCheck的調查，自2025年12月下旬起，首度觀察到利用Metro4Shell的攻擊跡象，並於2026年1月初與下旬持續發現相關活動，顯示該漏洞已被武器化並投入實際攻擊行動。 為何CVE-2025-11953被稱為Metro4Shell？原因在於，該漏洞影響React Native專案中常見的Metro開發伺服器。VulnCheck說明，Metro伺服器預設可能綁定外部可存取的網路介面，並開放/open-url功能端點，導致未經驗證的遠端攻擊者可透過特製請求，在目標主機上直接執行任意系統命令，風險等同遠端命令執行漏洞。 值得注意的是，儘管相關概念驗證程式碼已於社群公開，且攻擊活動</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173773</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/cve-2025-11953-timeline.png" length="0" type="image/png"/>
-      <pubDate>Thu, 05 Feb 2026 03:09:36 +0000</pubDate>
+      <title>因AI輔助功能恐放大供應鏈風險，Docker修補Ask Gordon安全弱點</title>
+      <link>https://www.ithome.com.tw/news/173787</link>
+      <description>新聞容器平臺業者Docker於2025年11月發布Docker Desktop 4.50.0版，修補旗下AI輔助功能Ask Gordon所涉及的安全風險。相關問題最早由資安研究團隊Noma Labs揭露，研究指出，在特定情境下，AI分析流程可能受到不可信輸入影響，進而對開發環境帶來供應鏈風險。Docker也在同一版本中，一併處理Pillar Security通報的提示注入相關問題。 Ask Gordon是Docker Desktop內建的AI助手，主要用於協助開發者理解錯誤訊息、分析專案內容，並提供容器與雲端環境的操作建議。Docker官方文件說明，Ask Gordon目前仍為處於測試狀態的功能（Beta），尚未列為正式可用功能；就目前Docker與資安界的公開資訊而言，相關安全問題亦未配置正式的CVE漏洞編號，而是透過功能調整與風險緩解方式進行處理。 由於Ask Gordon在分析過程中，會依使用情境讀取專案目錄內容，以及映像檔相關的中繼資料，研究人員指出，若缺乏清楚的輸入驗證與信任邊界控管，這些資訊可能被納入AI推論上下文，影響分析結果與建議內容。 研究揭示AI分析流程在特定條件下</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173787</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0206-docker%204500.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 01:59:00 +0000</pubDate>
     </item>
     <item>
-      <title>【資安月報】2026年1月，波蘭電網遭遇大規模攻擊活動，調查是俄羅斯政府資助駭客所為</title>
-      <link>https://www.ithome.com.tw/news/173759</link>
-      <description>新聞邁入2026年，全球資安局勢持續動盪，讓我們快速回顧2026年1月的資安新聞，「國家級電網攻擊」與「國家級駭客威脅態勢」是兩大核心議題，國內外重大事故與漏洞威脅也持續引發關注；在資安防禦動向上，隨著年度更迭，臺灣企業在FIRST國際資安應變組織的參與，產品資安PSIRT建置指引的推動，以及金融資安韌性發展藍圖的發表，亦為不容忽視的年度關鍵動向。 （一）波蘭電網遭國家級駭客攻擊，關鍵CI防護受考驗 波蘭電力系統於去年12月底遭遇大規模網路攻擊，這起鎖定OT領域及能源電網的資安事件，引發國際高度關注。 此消息在1月13日由該國能源部長Miłosz Motyka首度向媒體披露，兩日後，波蘭總理Donald Tusk召開記者會，公布事件初步狀況，指出該國能源基礎設施於12月29日至30日期間遭到攻擊，目標包括兩座熱電共生（CHP）電廠，以及負責管理風力與光電設施的再生能源調度系統。所幸事件已成功阻擋，未引發停電等實質風險。Donald Tusk總理表示，據掌握跡象來看，這起攻擊係由與俄羅斯情報部門直接聯繫的組織策畫。他並提及，政府正加速修訂《國家網路安全系統法》，並呼籲參議院於眾議院通過後</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173759</guid>
-      <pubDate>Thu, 05 Feb 2026 03:14:18 +0000</pubDate>
+      <title>Anthropic釋出具備金融分析能力的Claude Opus 4.6</title>
+      <link>https://www.ithome.com.tw/news/173796</link>
+      <description>新聞Anthropic周四（2/5）發表了Claude Opus 4.6，主要強化金融領域的研究與分析能力，並同步更新多項產品布局，包括升級既有的Claude in Excel、以研究預覽形式推出Claude in PowerPoint與桌面工具Cowork，進一步將生成式AI導入金融專業人員日常使用的工作場景。 Anthropic指出，Claude Opus 4.6在整體推理能力、多工處理，以及長時間、多步驟任務的穩定性上均有明顯進步。根據其內部「真實世界金融（Real-World Finance）」評測，Claude Opus 4.6在約50項投資與財務分析實務情境中，整體表現較僅於數月前推出的Claude Sonnet 4.5提升超過23個百分點，顯示模型在複雜工作流程中的準確度與完成度已有顯著提升。 在金融專業能力方面，Claude Opus 4.6展現出更強的文件理解與分析表現。Anthropic表示，該模型在BrowseComp與DeepSearchQA等基準測試中，能更有效從大量非結構化資料中擷取精確資訊，而非僅提供摘要式回應。 在外部評測上，Claude Opus 4.</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173796</guid>
+      <pubDate>Fri, 06 Feb 2026 04:25:55 +0000</pubDate>
     </item>
     <item>
-      <title>TP-Link修補Wi-Fi 7家用路由器軟體指令注入漏洞</title>
-      <link>https://www.ithome.com.tw/news/173775</link>
-      <description>新聞TP-Link本周發布安全更新，修補受歡迎的家用Wi-Fi無線路由器Archer BE230多達10項的高風險OS指令注入漏洞。 本周修補的漏洞為存在TP-Link路由器作業系統的經驗證OS指令注入漏洞，影響Archer BE230 v1.2。Archer BE230為很受歡迎的家用Wi-Fi 7雙頻路由器，臺灣亦有銷售。 這10項漏洞涵括Archer BE230 v1.2的多個模組，是由代號jro、caprinuxx和sunshinefactory外部研究人員通報。其中包含網頁模組（CVE-2026-22222、CVE-2026-0630）、VPN模組（CVE-2026-22223、CVE-2026-0631）、雲端通訊模組（CVE-2026-22224）、VPN連結服務（CVE-2026-22225）、VPN伺服器配置模組（CVE-2026-22226）、配置備份回復功能（CVE-2026-22227）、以及VPN用戶端配置檔（CVE-2026-22229）。 這10個漏洞是出於TP-Link管理介面或特定模組未對輸入進行充分檢查，使得經過驗證的攻擊者得以從Web、VPN或雲端</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173775</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0205-tplink-600.png" length="0" type="image/png"/>
-      <pubDate>Thu, 05 Feb 2026 03:45:41 +0000</pubDate>
+      <title>OpenAI推出代理人開發管理平臺Frontier</title>
+      <link>https://www.ithome.com.tw/news/173797</link>
+      <description>新聞OpenAI昨日（2/5）宣布代理人管理平臺Frontier，讓企業可開發、部署和管理企業營運用的AI代理人。今日已提供少數用戶，未來將持續擴大部署。 愈來愈多企業開發或導入AI，但要真正提升生產力，必須要有個跨系統的AI管理機制。OpenAI Frontier能和企業既有系統串接，不需改換平臺，透過開放標準，可以就地整合AI代理人和現有資料，以及現有使用的應用程式。 明確而言，企業可以ChatGPT Enterprise、ChatGPT Atlas、企業應用為介面和Frontier互動。它能管理企業自建代理人、OpenAI代理人及第三方代理人。 Frontier可從四方面管理AI代理人。首先，它可連結資料倉儲、CRM系統、工單工具和其他內部應用，讓AI代理人享有共同的企業脈絡（business context）以便能理解企業資料、任務，這提供了一層語義層，讓所有AI代理人得以參照及有效溝通。其次是規劃，企業可以使用Frontier「僱用」代理人來執行各種任務，像是處理檔案、執行程式碼和使用工具。OpenAI強調Frontier可管理本地環境、企業雲端和OpenAI runtime</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173797</guid>
+      <pubDate>Fri, 06 Feb 2026 04:54:41 +0000</pubDate>
     </item>
     <item>
-      <title>Amazon Alexa+全美上線</title>
-      <link>https://www.ithome.com.tw/news/173779</link>
-      <description>新聞Amazon宣布翻新AI助理Alexa+現在推向全美國，Prime訂閱會員或非會員都可以使用。 為了追趕OpenAI ChatGPT或Google Gemini，Amazon 2025年2月首度公開加入生成式AI能力的AI助理Alexa+（Alexa Plus），其底層模型來自Amazon Nova及Anthropic Claude，強調更聰明、更個人化，且對答更為流暢，除了AI聊天機器人做的事如收發郵件、提醒行程外，它還能代為控制智慧燈泡或Amazon自己的Ring視訊門鈴、以及上Amazon.com、Whole Foods網站下單購物或從Uber Eats訂購外送餐。 在此之前，Alexa+以早鳥方案提供給Prime方案會員。Prime方案需14.99美元月費或139美元年費。非Prime會員方案則設計為每月19.99美元。Amazon說已經有數百萬用戶透過早鳥方案用起了Alexa +。 Prime及付費用戶可經由Alexa.com網站、Alexa App與執行Alexa的裝置使用Alexa+。Amazon昨天推出Alexa+ chat免費服務，非Prime方案會員可經由Ale</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173779</guid>
-      <pubDate>Thu, 05 Feb 2026 06:25:58 +0000</pubDate>
+      <title>Ingress-nginx爆高風險漏洞，Kubernetes修補CVE-2026-24512防遠端程式碼執行</title>
+      <link>https://www.ithome.com.tw/news/173794</link>
+      <description>新聞開源容器平臺Kubernetes專案在2月第一週發布安全更新，修補Ingress-nginx Controller一項高風險資安漏洞CVE-2026-24512。該漏洞CVSS v3.1風險分數為8.8分，屬於高風險（High）等級。在特定部署條件下，具備建立或修改Ingress資源權限的使用者，可能藉由不當設定內容注入nginx設定，進而在控制器的執行脈絡內觸發遠端程式碼執行（RCE），影響叢集內部安全。 Ingress-nginx Controller是Kubernetes環境中常見的Ingress控制器，負責依Ingress資源內容產生並套用nginx設定，將外部HTTP與HTTPS流量導向叢集內部服務。Kubernetes維護團隊在GitHub揭露的安全議題指出，這項漏洞源自Ingress規則中rules.http.paths.path欄位的輸入驗證不足。當路徑型別使用ImplementationSpecific時，攻擊者可在path欄位中插入惡意內容，最終被寫入nginx設定檔，造成設定注入。 Kubernetes專案說明，漏洞一旦被成功利用，攻擊者可在Ingress-n</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173794</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0206-Ingress-NGINX-600.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Feb 2026 05:04:44 +0000</pubDate>
     </item>
     <item>
-      <title>GitHub Agent HQ開始提供Claude與Codex，並預告擴大代理陣容</title>
-      <link>https://www.ithome.com.tw/news/173778</link>
-      <description>新聞GitHub旗下Agent HQ已把Anthropic Claude與OpenAI Codex納入代理工作流程，兩者以公開預覽形式提供給Copilot Pro+或Copilot Enterprise訂閱者使用，並可在github.com、GitHub Mobile與VS Code啟動代理工作階段。 GitHub把不同供應商的程式開發代理直接納入既有協作環境，讓代理的對話脈絡、執行歷程與審查軌跡能與儲存庫的議題與拉取請求，綁在同一個工作脈絡中，減少在外部工具間切換與反覆複製貼上的繁瑣操作。官方說明，Agent HQ讓團隊可在同一個任務情境下選用Copilot、Claude、Codex或自訂代理，並預設為非同步執行。每個代理工作階段會消耗1次付費等級請求（Premium Request）額度，Claude與Codex也需要先在設定中明確啟用後才能使用，Copilot CLI支援則預告將稍後提供。 GitHub把代理的輸出視為可被檢視與被質疑的貢獻形式，代理可以在儲存庫內留下可審查的日誌，也會產生如評論、草稿與擬議變更等產物，並能被放回既有的審查流程中處理。使用者可以把議題指派給Copi</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173778</guid>
-      <pubDate>Thu, 05 Feb 2026 06:28:17 +0000</pubDate>
+      <title>Substack去年10月被駭 疑外洩資料70萬筆</title>
+      <link>https://www.ithome.com.tw/news/173798</link>
+      <description>新聞付費訂閱創作平臺Substack本周通知用戶去年10月的資安事故，導致用戶個資外洩，可能有高達70萬筆資料受影響。 Substack為受歡迎的訂閱出版平臺，讓個人可製作並發送電子報、podcast等創作內容並獲得收入。Substack據稱訂戶將近3,500萬。 本周有用戶接到Substack告知資料外洩的電子郵件。Substack執行長Christ Best說明，公司在2月3日發現系統問題，使得非經授權第三方得以存取部份使用者資料。事件發生時間在去年10月份。外洩的資料包括電子郵件、電話號碼和其他內部metadata。但用戶信用卡號、密碼及財務資訊並未受影響。 Substack對此致歉，並表示已經解決問題並正執行全面調查，以及改善系統和流程以避免未來再發生類似事件。 The Register報導，Substack公開通知前，一名駭客在駭客論壇貼文宣稱從Substack竊走將近70萬筆用戶個資，包括姓名、電子郵件信箱、電話、使用者ID及帳戶相片。駭客所指是否為Substack此次外洩的資料目前不得而知。Substack也未說明外洩影響用戶人數，以及駭入事件原因是否為人為或何種惡意軟體</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173798</guid>
+      <pubDate>Fri, 06 Feb 2026 05:48:25 +0000</pubDate>
     </item>
     <item>
-      <title>Alphabet公布財報，Gemini全球每月用戶突破7.5億</title>
-      <link>https://www.ithome.com.tw/news/173780</link>
-      <description>新聞Alphabet周三（2/4）公布2025年第四季財報，在搜尋廣告、YouTube與雲端業務同步成長帶動下，該季營收達1,138億美元，年增18%，優於市場預期，淨收入（Net income）為345億美元，年增30%，每股盈餘（EPS）為2.82美元。Alphabet同時揭露，旗下AI應用Gemini全球每月活躍用戶已突破7.5億人，且Alphabet全年營收亦首度突破4,000億美元，達4,028億美元，寫下重要里程碑。 在1,138億美元的營收中，Google服務（Google Services）占了958.6億美元，成長14%，涵蓋搜尋、YouTube廣告、訂閱服務與裝置等核心業務；Google Cloud單季營收為176.6億美元，成長48%；新創事業（Other Bets）營收為3.7億美元，略低於去年同期的4.0億美元，但虧損從11.7億美元擴大到36.2億美元，主要與Waymo相關的人力與研發支出增加有關。 在AI產品進展上，Alphabet表示，旗下AI應用Gemini於推出Gemini 3後，用戶成長明顯，目前全球每月活躍用戶已超過7.5億人，單季增加約1億人。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173780</guid>
-      <pubDate>Thu, 05 Feb 2026 06:39:33 +0000</pubDate>
+      <title>Amazon財報出爐，AWS成長24%創近13季新高</title>
+      <link>https://www.ithome.com.tw/news/173799</link>
+      <description>新聞Amazon周四（2/5）公布截至2025年12月31日的第四季財報，該季Amazon創下2,134億美元的營收，年成長14%，營業利潤（Operating Income）為249.8億美元，高於去年同期的212億美元。其中，AWS營收為356億美元，年增24%，為近13季以來成長幅度最高；此外，Amazon也預期2026年資本支出將增加至2,000億美元。財報公布後，Amazon盤後股價一度下滑近10%，跌至約201美元。 在各事業部門表現上，去年第四季Amazon北美營收為1,271億美元，年增10%，營業利潤為115億美元，成長24%；國際營收為507億美元，成長17%，但營業利潤為10.4億美元，年減21%；AWS營收為356億美元，成長24%，營業利潤為124.6億美元，年增17%。 該季Amazon的每股盈餘（EPS）為1.95美元，高於前一年同期的1.86美元。 不過，近來投資人更在意的是科技大廠因競逐AI而快速攀升的資本支出（Capital Expenditures，CapEx）。Amazon於財報中揭露，2025年資本支出達1,283億美元，高於2024年的776</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173799</guid>
+      <pubDate>Fri, 06 Feb 2026 06:05:57 +0000</pubDate>
     </item>
     <item>
-      <title>Google修補Chrome兩項高風險漏洞，記憶體錯誤恐遭濫用執行任意程式碼</title>
-      <link>https://www.ithome.com.tw/news/173777</link>
-      <description>新聞Google於2月3日釋出Chrome瀏覽器更新，修補資安漏洞CVE-2026-1861與CVE-2026-1862。依據NVD頁面彙整的CISA ADP評分，兩項漏洞的CVSS 3.1風險分數皆為8.8，屬於高風險（High）等級，分別涉及多媒體處理函式庫與JavaScript引擎的記憶體安全問題，若遭攻擊者成功利用，可能引發堆積記憶體破壞，導致瀏覽器當機，甚至在特定條件下被用於執行任意程式碼。 依據官方公告，Chrome團隊已透過穩定通道更新桌面版Chrome至144.0.7559.132/.133（Windows、Mac）與144.0.7559.132（Linux）版本，完成相關漏洞修補；Android版Chrome也釋出144.0.7559.132版本，並納入與桌面版對應的一批安全修補。 從漏洞細節來看，CVE-2026-1861發生於Chrome所使用的開源影音編碼函式庫libvpx，屬於堆積緩衝區溢位（Heap Buffer Overflow）問題，對應的弱點分類為CWE-122，這類漏洞在特定情境下，可能因處理特製的網頁內容而造成記憶體破壞，影響瀏覽器的正常執行流程。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173777</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0205-chrome%20update.png" length="0" type="image/png"/>
-      <pubDate>Thu, 05 Feb 2026 06:44:17 +0000</pubDate>
+      <title>義大利指控俄國駭客攻擊冬奧網站、大使館</title>
+      <link>https://www.ithome.com.tw/news/173800</link>
+      <description>新聞路透社報導，義大利官方昨日指控俄羅斯駭客發動對義國大使館及冬季奧運相關設施的網路攻擊，但成功為義國阻止。 2026年冬季奧運將在2月6日至22日在義大利米蘭與科爾蒂納（Milano Cortina d’Ampezzo）舉行。義大利外交部長Antonio Tajani說，義國成功防範了俄羅斯駭客發動的一系列網路惡意活動。攻擊目標包括義國外交單位，包括紐約的義國大使館、冬奧官網、比賽場地科爾蒂納數家飯店的網站等。 法國媒體France 24報導，受害組織包含120處，涵括雪梨、多倫多、巴黎的外交單位以及冬奧運動員下榻的飯店。但這些攻擊未造成重大傷害。 根據The Record報導，親俄駭客組織NoName057聲稱是其所為。他們說這波行動是報復義大利在烏俄戰爭中支持烏克蘭，說支持烏克蘭就是支持烏克蘭的恐怖主義，要受到其DDoS攻擊的懲罰。 俄羅斯駭客已多次攻擊大型運動賽事的主辦國。包括Sandworm攻擊2018平壤冬奧的IT基礎架構，破壞網路、廣播系統與冬奧官網。2020年東京夏季奧運中，由NTT主導的東奧官網及網路共遭遇4.5億次網路攻擊。俄國駭客組織Fancy Bear駭客藉由國</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173800</guid>
+      <pubDate>Fri, 06 Feb 2026 06:34:38 +0000</pubDate>
     </item>
     <item>
-      <title>與APT41有關的中國駭客加入利用WinRAR路徑遍歷漏洞的行列</title>
-      <link>https://www.ithome.com.tw/news/173776</link>
-      <description>新聞1月底Google威脅情報團隊（GTIG）提出警告，半年前知名壓縮軟體WinRAR開發商Rarlab修補的高風險漏洞CVE-2025-8088，在漏洞公開後，有多個俄羅斯與中國國家級駭客組織，以及以經濟利益為動機的駭客組織加入漏洞利用的行列，由於這些駭客利用漏洞的的方法出現共通特徵，GTIG研判他們可能都是透過地下生態圈取得。如今有其他資安公司警告，一個與惡名昭彰的APT41有關的駭客組織，在概念驗證程式碼（PoC）公布不久之後，開始將漏洞用於實際攻擊。 資安公司Check Point揭露名為Amaranth-Dragon的APT駭客組織，積極利用CVE-2025-8088對東南亞多國發動網路間諜活動，受害目標多為政府機關與執法單位。這些駭客多以看似合法的文件，或與政治及公共安全相關的主題作為誘餌，透過釣魚郵件或檔案散布方式，引誘目標開啟惡意RAR檔案。一旦漏洞遭觸發，攻擊者即可在受害系統中植入惡意載入器，建立長期且隱密的存取管道。 在攻擊工具方面，Amaranth-Dragon使用惡意載入器Amaranth Loader，並搭配C2框架Havoc，對受害電腦進行遠端操控。部分攻擊</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173776</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/Picture2_amar.png" length="0" type="image/png"/>
-      <pubDate>Thu, 05 Feb 2026 07:03:59 +0000</pubDate>
+      <title>自動化投資平臺Betterment遭社交工程攻擊，HIBP指外流140萬個Email地址與個資</title>
+      <link>https://www.ithome.com.tw/news/173795</link>
+      <description>新聞美國自動化投資平臺Betterment在1月9日，遭未授權人士透過社交工程入侵取得其部分系統的存取權，並透過該公司用於行銷與營運支援的第三方軟體平臺，向部分客戶發送冒名的加密貨幣相關詐騙訊息。 該公司於2月3日更新調查進度，指出在資安公司CrowdStrike支援下完成的鑑識調查確認，事件未導致客戶帳戶、密碼或登入資訊遭到入侵，也未出現憑證外洩跡象。不過Betterment仍在盤點被存取資料的範圍與隱私風險，並將網路上由宣稱犯案組織張貼的資料一併納入評估。 官方雖未公開受影響人數，不過資料外洩通報服務HaveIBeenPwned（HIBP）則表示，依其對外流資料的分析，此次事件涉及約140萬筆不重複的電子郵件地址，並包含姓名與地理位置等資料，另有部分紀錄包含出生日期、電話與實體地址。 Betterment說明，攻擊者採用的手法是社交工程，也就是以身分冒用與欺騙取得存取權，而非突破其技術基礎設施。被用來濫發訊息的管道，為Betterment用於行銷與營運支援的第三方軟體平臺，該公司在發現異常後已撤銷未授權存取並啟動調查，同時聯繫收到詐騙訊息的客戶，提醒忽略相關內容。 就個資影響範圍，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173795</guid>
+      <pubDate>Fri, 06 Feb 2026 06:45:24 +0000</pubDate>
     </item>
   </channel>
 </rss>

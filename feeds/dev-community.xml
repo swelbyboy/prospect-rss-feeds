@@ -8,79 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Feb 2026 07:03:13 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 06:59:23 +0000</lastBuildDate>
     <item>
-      <title>Shipping a Location-Based App in NYC: Subway Dead Zones, Urban Canyons, and What Actually Works</title>
-      <link>https://dev.to/zain_bhhh_a724a3531cee8c5/shipping-a-location-based-app-in-nycsubway-dead-zones-urban-canyonsand-what-actually-works-3ajh</link>
-      <description>If you have ever tested a location feature in New York City, you know the moment. Your pin looks fine in Brooklyn. Your ETA is steady on a wide avenue. Then you get into Midtown, or you duck into the subway, and suddenly the map jumps across blocks, the user “teleports,” and support tickets start sounding personal. NYC is a stress test for anything location-based. It is also a great forcing function. If you can make your location UX feel reliable here, it will usually feel solid everywhere else.</description>
-      <guid isPermaLink="false">https://dev.to/zain_bhhh_a724a3531cee8c5/shipping-a-location-based-app-in-nycsubway-dead-zones-urban-canyonsand-what-actually-works-3ajh</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftj8uwdt7br5md5w66kvw.png" length="0" type="image/png"/>
-      <pubDate>Thu, 05 Feb 2026 06:03:10 +0000</pubDate>
+      <title>Aprenda ou... aprenda</title>
+      <link>https://dev.to/gustavohenriques/aprenda-ou-aprenda-4ji</link>
+      <description>Após tanto tempo tentando aprender sobre as coisas eu finalmente entendi algo, o livro, o artigo, o vídeo, o gráfico, a imagem, o áudio, tudo isso são somente ferramentas, o "aprender" de verdade é a forma como a sua mente absorve tudo que está nessas "ferramentas". Quando você diz "Não consigo aprender isso", talvez apenas esteja pulando etapas, não se esforçando, cansado, ou talvez você apenas não esteja realmente gostando daquilo, o ponto que eu quero chegar é que eu acredito que o principal</description>
+      <guid isPermaLink="false">https://dev.to/gustavohenriques/aprenda-ou-aprenda-4ji</guid>
+      <pubDate>Fri, 06 Feb 2026 06:05:36 +0000</pubDate>
     </item>
     <item>
-      <title>Firestore vs Realtime Database: Which Is Best and Why?</title>
-      <link>https://dev.to/iamsaadmehmood/firestore-vs-realtime-database-which-is-best-and-why-1h2c</link>
-      <description>Firebase offers two databases: Realtime Database (the original JSON tree) and Cloud Firestore (the newer document database). Both sync in real time and work offline, but they’re built for different needs. Here’s how they compare and which one I pick—and why.fi Quick Overview Realtime Database Firestore Model Single JSON tree; data nested under paths Collections + documents; each doc can have subcollections Queries Deep path reads; no real “query language” Rich queries: where, orderBy, limit, com</description>
-      <guid isPermaLink="false">https://dev.to/iamsaadmehmood/firestore-vs-realtime-database-which-is-best-and-why-1h2c</guid>
-      <pubDate>Thu, 05 Feb 2026 06:07:26 +0000</pubDate>
+      <title>Git Cluster RAG: Semantic Routing for Git History (Copilot CLI Challenge)</title>
+      <link>https://dev.to/dxa204/git-cluster-rag-semantic-routing-for-git-history-copilot-cli-challenge-4fd0</link>
+      <description>This is a submission for the GitHub Copilot CLI Challenge Repository: https://github.com/dxa204/git-cluster-rag.git What I Built I built Git Cluster RAG, a command-line tool that uses K-Means Clustering to "route" questions about a repository's history to the correct context. The Problem Standard RAG (Retrieval-Augmented Generation) applications are "flat." If you ask a question like "Why did we remove the notes file?", a standard vector search might retrieve unrelated commits just because they</description>
+      <guid isPermaLink="false">https://dev.to/dxa204/git-cluster-rag-semantic-routing-for-git-history-copilot-cli-challenge-4fd0</guid>
+      <pubDate>Fri, 06 Feb 2026 06:07:36 +0000</pubDate>
     </item>
     <item>
-      <title>I Implemented Every Sorting Algorithm in Python — And Python's Built-in Sort Crushed Them All</title>
-      <link>https://dev.to/emmimal_alexander_3be8cc7/i-implemented-every-sorting-algorithm-in-python-and-pythons-built-in-sort-crushed-them-all-2o25</link>
-      <description>Last month, I went down a rabbit hole: I implemented six classic sorting algorithms from scratch in pure Python (Bubble, Selection, Insertion, Merge, Quick, Heap) and benchmarked them properly on CPython. I expected the usual Big-O story. What I got was a reality check: Python's interpreter overhead changes everything. Textbooks say Quick/Merge/Heap are fast. In Python? They're okay... but sorted() (Timsort) beats them by 5–150×. Here's why — and when you should never write your own sort. The Su</description>
-      <guid isPermaLink="false">https://dev.to/emmimal_alexander_3be8cc7/i-implemented-every-sorting-algorithm-in-python-and-pythons-built-in-sort-crushed-them-all-2o25</guid>
-      <pubDate>Thu, 05 Feb 2026 06:13:15 +0000</pubDate>
+      <title>Why Senior Engineers Fail Junior Coding Interviews</title>
+      <link>https://dev.to/aijob/why-senior-engineers-fail-junior-coding-interviews-3e12</link>
+      <description>There is a recurring pattern in technical hiring that most engineers have seen but few openly discuss. Senior engineers, sometimes with a decade or more of experience, fail coding interviews that are labeled junior or mid-level. They struggle with problems that look trivial on paper. They hesitate. They lose structure. They leave interviews wondering how their real-world competence failed to show up. At the same time, more junior candidates often pass those same interviews with confidence. From</description>
+      <guid isPermaLink="false">https://dev.to/aijob/why-senior-engineers-fail-junior-coding-interviews-3e12</guid>
+      <pubDate>Fri, 06 Feb 2026 06:13:09 +0000</pubDate>
     </item>
     <item>
-      <title>Visualizing eBay Competitor Pricing: From Raw JSONL to Price Trend Dashboard</title>
-      <link>https://dev.to/sommic/visualizing-ebay-competitor-pricing-from-raw-jsonl-to-price-trend-dashboard-42d9</link>
-      <description>In the high-stakes world of e-commerce, price is often the only thing standing between a customer clicking "Buy It Now" on your listing or your competitor’s. But simply scraping data isn't enough to stay ahead. If you have a folder full of raw JSONL files, you don't have a strategy; you have a storage problem. The real value of web scraping lies in turning raw data into actionable insights. You need to see undercutting as it happens, identify price floors, and spot trends over time. This guide c</description>
-      <guid isPermaLink="false">https://dev.to/sommic/visualizing-ebay-competitor-pricing-from-raw-jsonl-to-price-trend-dashboard-42d9</guid>
-      <pubDate>Thu, 05 Feb 2026 06:13:48 +0000</pubDate>
+      <title>How Neural Networks Are Revolutionizing TCP Congestion Control: The NDM-TCP Story</title>
+      <link>https://dev.to/hejhdiss/how-neural-networks-are-revolutionizing-tcp-congestion-control-the-ndm-tcp-story-5bii</link>
+      <description>A 6-minute read on using differential equations and Shannon entropy to fix a 40-year-old problem in networking The Problem Traditional TCP Can't Solve Picture this: You're streaming a video conference from a coffee shop. Your WiFi signal fluctuates randomly—sometimes strong, sometimes weak. Traditional TCP sees these fluctuations, thinks "congestion!", and aggressively reduces your data rate. Your video freezes. But here's the thing: it wasn't congestion at all. It was just noise. This is the fu</description>
+      <guid isPermaLink="false">https://dev.to/hejhdiss/how-neural-networks-are-revolutionizing-tcp-congestion-control-the-ndm-tcp-story-5bii</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1z5o2w97bvycqhau3237.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 06:15:18 +0000</pubDate>
     </item>
     <item>
-      <title>Postman Ends Free Team Plans in March 2026. Here Is The Free Alternative I Switched To</title>
-      <link>https://dev.to/auden/postman-ends-free-team-plans-in-march-2026-here-is-the-free-alternative-i-switched-to-118p</link>
-      <description>Recently, news from Postman has caused quite a stir in the developer community. According to their official blog and emails sent to users, Postman's pricing and product plans are undergoing a major overhaul effective March 1, 2026. The most critical change is to the Free plan, which currently supports team collaboration. It will be adjusted to single-user only. This means that if your team relies on the free version of Postman for collaborative API development and testing, you will soon be force</description>
-      <guid isPermaLink="false">https://dev.to/auden/postman-ends-free-team-plans-in-march-2026-here-is-the-free-alternative-i-switched-to-118p</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fepu96642hv29ctcr0mxg.png" length="0" type="image/png"/>
-      <pubDate>Thu, 05 Feb 2026 06:18:04 +0000</pubDate>
+      <title>How to Connect CopilotKit to a Python Backend Using Direct-to-LLM (FastAPI Guide)</title>
+      <link>https://dev.to/kailasvs_94/how-to-connect-copilotkit-to-a-python-backend-using-direct-to-llm-fastapi-guide-5ben</link>
+      <description>AI copilots are rapidly becoming the primary interface for modern applications. Frameworks like CopilotKit make it easier to build production-grade, AI-powered assistants without manually handling raw LLM interactions or complex prompt pipelines. In this guide, you’ll learn how to connect CopilotKit to a remote Python backend using Direct-to-LLM with FastAPI, and why this approach is often better than heavy orchestration tools like LangGraph. What is CopilotKit? CopilotKit is the Agentic Applica</description>
+      <guid isPermaLink="false">https://dev.to/kailasvs_94/how-to-connect-copilotkit-to-a-python-backend-using-direct-to-llm-fastapi-guide-5ben</guid>
+      <pubDate>Fri, 06 Feb 2026 06:19:27 +0000</pubDate>
     </item>
     <item>
-      <title>Hierarchical Multi-Scale Attention for Semantic Segmentation</title>
-      <link>https://dev.to/paperium/hierarchical-multi-scale-attention-for-semantic-segmentation-56mo</link>
-      <description>Smarter Image Attention for Clearer City Photos and Maps Ever wondered how a phone or map can tell a road from a tree in a photo? This research shows a way to mix results from different picture sizes so the final image is much clearer, and it do that by using a smart attention step that learns which size helps most. Instead of just averaging everything, the system looks, and picks the best bits from each scale; sometimes a small crop, sometimes a big view, that depends. That trick makes training</description>
-      <guid isPermaLink="false">https://dev.to/paperium/hierarchical-multi-scale-attention-for-semantic-segmentation-56mo</guid>
-      <pubDate>Thu, 05 Feb 2026 06:40:18 +0000</pubDate>
+      <title>🗂️ Designing a Scalable Category System for an E-Commerce App</title>
+      <link>https://dev.to/ayon_ssp/designing-a-scalable-category-system-for-an-e-commerce-app-4hkj</link>
+      <description>When building an e-commerce application, categories look simple at first — until your product count grows and business asks for: sub-categories nested menus breadcrumbs SEO-friendly URLs easy reordering This README explains a scalable, production-ready category design used in real-world systems, without overengineering. ❌ The Common Mistake Many apps start with this: categories sub_categories sub_sub_categories This breaks immediately when: you need more depth hierarchy changes queries become co</description>
+      <guid isPermaLink="false">https://dev.to/ayon_ssp/designing-a-scalable-category-system-for-an-e-commerce-app-4hkj</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzz3mydpzgob9em81iqi8.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 06:26:39 +0000</pubDate>
     </item>
     <item>
-      <title>From Concept to Market Leader: A Guide to Sustainable Scaling of MVP</title>
-      <link>https://dev.to/steve_davis_359cf13c7813b/from-concept-to-market-leader-a-guide-to-sustainable-scaling-of-mvp-138j</link>
-      <description>The transition from a Minimum Viable Product (MVP) to a full-scale market contender is often romanticized in the tech world. We hear stories of "exponential growth" and "overnight success," but the reality is far less linear. In truth, scaling is a series of difficult, often contradictory choices that can break a company just as easily as they can build it. While an MVP is about proving a concept, scaling is about proving sustainability. This journey requires moving from a "scrappy" mindset to a</description>
-      <guid isPermaLink="false">https://dev.to/steve_davis_359cf13c7813b/from-concept-to-market-leader-a-guide-to-sustainable-scaling-of-mvp-138j</guid>
-      <pubDate>Thu, 05 Feb 2026 06:45:52 +0000</pubDate>
+      <title>The Secret Life of Python: The Phantom Copy</title>
+      <link>https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-python-the-phantom-copy-29en</link>
+      <description>Why = doesn't actually copy your data in Python. Timothy stared at his screen, his face pale. "Margaret? I think I just accidentally deleted half the database." Margaret wheeled her chair over immediately, her voice calm. "Don't panic. Tell me exactly what happened." "I was testing a script to clean up our user list," Timothy explained. "I wanted to test it safely, so I made a copy of the list first. I thought if I messed up the copy, the original would be safe." He showed her the code: # Timoth</description>
+      <guid isPermaLink="false">https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-python-the-phantom-copy-29en</guid>
+      <pubDate>Fri, 06 Feb 2026 06:28:00 +0000</pubDate>
     </item>
     <item>
-      <title>Rate my palindrome checker algorithm</title>
-      <link>https://dev.to/kevincp17/rate-my-palindrome-checker-algorithm-43gk</link>
-      <description>Hi guys, it's been a long time since I visited this site in 2023. So, currently, I am a full-stack developer with 2 years of experience. Two days ago, I had a user interview with a 15 minutes live coding test for .NET Developer role. The test was to find if a word is a palindrome or not. So this is my code: using System; class HelloWorld { static void Main() { var word="input"; char[] lowerCaseWordArr= word.ToLower().ToCharArray(); var newString=new string (lowerCaseWordArr); var reversedString=</description>
-      <guid isPermaLink="false">https://dev.to/kevincp17/rate-my-palindrome-checker-algorithm-43gk</guid>
-      <pubDate>Thu, 05 Feb 2026 06:46:51 +0000</pubDate>
+      <title>🚀 ErrGuard: A DevOps CLI That Explains Terminal Errors Using GitHub Copilot CLI</title>
+      <link>https://dev.to/yash_sonawane25/errguard-a-devops-cli-that-explains-terminal-errors-using-github-copilot-cli-416h</link>
+      <description>This is a submission for the GitHub Copilot CLI Challenge As a DevOps learner, I spend most of my time inside the terminal. And like every beginner (and even experienced engineers), I frequently hit errors—Docker build failures, Git mistakes, Kubernetes connection issues, and permission problems. The usual flow looks like this: Run a command See a confusing error Copy the error Google it Open multiple Stack Overflow tabs Lose time and context I wanted to fix this problem inside the terminal itse</description>
+      <guid isPermaLink="false">https://dev.to/yash_sonawane25/errguard-a-devops-cli-that-explains-terminal-errors-using-github-copilot-cli-416h</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F7fp7h2f47wqcm2gig75n.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 06:33:59 +0000</pubDate>
     </item>
     <item>
-      <title>const with Object or Array in Javascript</title>
-      <link>https://dev.to/rahul1994jh/const-with-object-or-array-in-javascript-c3m</link>
-      <description>Intro When you use const to declare objects or arrays in JavaScript, you’re making the variable binding (the reference) immutable — not the contents themselves. This means you cannot assign a new array or object to that variable, but you can still change the data inside the object or array. For example: const c = [1, 2]; // c is bound to a specific array If you try to reassign c to a new array: c = [3, 4]; // This will cause an error: Assignment to constant variable The error occurs because cons</description>
-      <guid isPermaLink="false">https://dev.to/rahul1994jh/const-with-object-or-array-in-javascript-c3m</guid>
-      <pubDate>Thu, 05 Feb 2026 06:47:19 +0000</pubDate>
+      <title>Call me stupid, by definition AGI is already in your phone</title>
+      <link>https://dev.to/ryo_suwito/call-me-stupid-by-definition-agi-is-already-in-your-phone-38j8</link>
+      <description>Remember when AI couldn't even tell a cat from a dog? 2012: We threw a parade because a neural network could classify images with 85% accuracy. We called it a breakthrough. We wrote papers. 2015: You needed three different models to do sentiment analysis, language translation, and text summarization. Three. Separate. Models. Each trained specifically for its one job, like a Pizza Hut that only knows how to Pizza Hut. 2018: GPT-1 dropped and we collectively lost our shit over coherent sentence ge</description>
+      <guid isPermaLink="false">https://dev.to/ryo_suwito/call-me-stupid-by-definition-agi-is-already-in-your-phone-38j8</guid>
+      <pubDate>Fri, 06 Feb 2026 06:34:40 +0000</pubDate>
     </item>
     <item>
-      <title>Deploy Like Vercel on Your Own VPS: A Complete ServerCompass Guide</title>
-      <link>https://dev.to/harry_nguyen_79369d8e9cdb/deploy-like-vercel-on-your-own-vps-a-complete-servercompass-guide-i18</link>
-      <description>Are you tired of watching your Vercel, Railway, or Render bill climb every month? What if I told you that you could get the same polished deployment experience for just $5-10/month using your own VPS? In this comprehensive guide, I'll walk you through ServerCompass, a desktop application that brings PaaS-level user experience to your own infrastructure‚Äîno terminal commands required. The Problem: The SaaS Tax Here's a common story: You start with a simple side project. You deploy it to Vercel b</description>
-      <guid isPermaLink="false">https://dev.to/harry_nguyen_79369d8e9cdb/deploy-like-vercel-on-your-own-vps-a-complete-servercompass-guide-i18</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3xpjvuzicx9lmw46gkzm.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 05 Feb 2026 06:51:32 +0000</pubDate>
+      <title>eslint-plugin-security Is Unmaintained. Here's What Nobody Tells You.</title>
+      <link>https://dev.to/ofri-peretz/eslint-plugin-security-is-unmaintained-heres-what-nobody-tells-you-96h</link>
+      <description>Skip to: What It Misses | The Alternative | Migration Guide | OWASP Coverage TL;DR — Migrate in 60 Seconds npm uninstall eslint-plugin-security npm install -D eslint-plugin-secure-coding That's it. You now have 27 rules instead of 13, with full OWASP Top 10 mapping. Add the full security ecosystem and you get 194 security rules. Want the full story? Keep reading. Let's talk about the elephant in the Node.js security room. eslint-plugin-security is the most-installed ESLint security plugin. It ha</description>
+      <guid isPermaLink="false">https://dev.to/ofri-peretz/eslint-plugin-security-is-unmaintained-heres-what-nobody-tells-you-96h</guid>
+      <pubDate>Fri, 06 Feb 2026 06:40:05 +0000</pubDate>
     </item>
   </channel>
 </rss>

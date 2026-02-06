@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Feb 2026 07:03:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 06:59:34 +0000</lastBuildDate>
     <item>
-      <title>Intel Driver Disabling Vulkan Video Encode On Newer Hardware Due To Insufficient Testing</title>
-      <link>https://www.phoronix.com/news/Intel-Vulkan-Video-Disable-New</link>
-      <description>While Vulkan Video is a cross-vendor, cross-platform video encode and decode API that is beginning to gain traction by multimedia applications and frameworks, the Intel "ANV" open-source Vulkan driver has for now taken a step-back on its encode support with newer hardware. Newer Intel graphics hardware is seeing Vulkan Video encode support disabled due to insufficient testing...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Vulkan-Video-Disable-New</guid>
-      <pubDate>Wed, 04 Feb 2026 14:56:18 +0000</pubDate>
+      <title>NetBSD's Kernel Supports Lua Scripting But Don't Look For Rust In There Anytime Soon</title>
+      <link>https://www.phoronix.com/news/No-Rust-In-NetBSD-Kernel</link>
+      <description>For those not fond of the increasing use of the Rust programming language within the Linux kernel or FreeBSD's considerations for Rust in its kernel, you can perhaps find refuge within NetBSD. One of the NetBSD developers has explained why you likely won't be finding Rust code within the NetBSD kernel anytime soon...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/No-Rust-In-NetBSD-Kernel</guid>
+      <pubDate>Thu, 05 Feb 2026 10:49:01 +0000</pubDate>
     </item>
     <item>
-      <title>GIMP Post-3.2 Will Be Looking At Hardware Acceleration, Full CMYK &amp;amp; More</title>
-      <link>https://www.phoronix.com/news/GIMP-Post-3.2-Features</link>
-      <description>With GIMP 3.2 releasing soon, GIMP developer Ondřej Míchal presented at FOSDEM 2026 this past weekend on some of the feature work being eyed for post-3.2 developments...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GIMP-Post-3.2-Features</guid>
-      <pubDate>Wed, 04 Feb 2026 16:10:00 +0000</pubDate>
+      <title>Krita 6.0 Beta Released - Using Qt6 &amp;amp; Wayland Color Management Support</title>
+      <link>https://www.phoronix.com/news/Krita-6.0-Beta</link>
+      <description>The first beta release of Krita 6.0 is now available for this featureful digital painting program. Krita 6.0 is re-based against the Qt6 toolkit while Krita 5.3 Beta is also being released at the same time for those sticking to Qt5...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Krita-6.0-Beta</guid>
+      <pubDate>Thu, 05 Feb 2026 11:00:28 +0000</pubDate>
     </item>
     <item>
-      <title>Mesa Will Now Prevent Compiling With LTO Due To "Random Impossible-To-Debug Bugs"</title>
-      <link>https://www.phoronix.com/news/Mesa-No-Build-LTO</link>
-      <description>While link-time optimizations "LTO" can deliver some nice performance benefits out of this compiler optimization technique, it can make debugging said binaries more challenging. Due to various bugs in Mesa being attributed to the use of compiler link-time optimizations when compiling Mesa, the builds are being blocked on using LTO...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-No-Build-LTO</guid>
-      <pubDate>Wed, 04 Feb 2026 17:52:06 +0000</pubDate>
+      <title>Ubuntu To Support The SpacemiT K3 As One Of The First RISC-V RVA23 SoCs</title>
+      <link>https://www.phoronix.com/news/Ubuntu-SpacemiT-K3</link>
+      <description>Canonical and SpacemiT announced today that Ubuntu Linux will be officially supported on SpacemiT's new K3 RISC-V SoC. What makes the K3 interesting is being one of the first available RISC-V RVA23 designs...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-SpacemiT-K3</guid>
+      <pubDate>Thu, 05 Feb 2026 13:07:52 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Sends Out Initial Linux Patches For Xe3P_LPG Graphics With Nova Lake P</title>
-      <link>https://www.phoronix.com/news/Intel-Xe3P-LPG-Nova-Lake-P</link>
-      <description>In recent months Intel Linux engineers have been quite active in preparing for next-gen Nova Lake processors. That work has included initial Xe3P graphics support and enabling display support and related display/graphics functionality. The newest now is enabling Nova Lake P including the Xe3P_LPG graphics support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Xe3P-LPG-Nova-Lake-P</guid>
-      <pubDate>Wed, 04 Feb 2026 19:03:21 +0000</pubDate>
+      <title>TrueNAS 26 Looks Toward OpenZFS 2.4, Linux 6.18 LTS &amp;amp; LXC Container Support</title>
+      <link>https://www.phoronix.com/news/TrueNAS-26-Plans</link>
+      <description>Following the release of TrueNAS 25.10 for this Linux-based, OpenZFS-running operating system focused on network appliances / storage devices, iX systems has shared some of their plans for TrueNAS 26 this year...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/TrueNAS-26-Plans</guid>
+      <pubDate>Thu, 05 Feb 2026 13:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mesa 26.0-rc3 Released With More Graphics Driver Fixes</title>
-      <link>https://www.phoronix.com/news/Mesa-26.0-rc3-Released</link>
-      <description>Eric Engestrom is out with another on-time Mesa release. Mesa 26.0-rc3 provides the latest week's worth of bug fixes as we work toward the stable Mesa 26.0 release as soon as next week...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.0-rc3-Released</guid>
-      <pubDate>Wed, 04 Feb 2026 20:24:39 +0000</pubDate>
+      <title>Intel Arc B390 Graphics Performance On Linux With Panther Lake</title>
+      <link>https://www.phoronix.com/review/intel-arc-b390-panther-lake-linux</link>
+      <description>Yesterday was our first look at the Intel Panther Lake Linux performance with the Core Ultra X7 358H and focused on the CPU performance. In today's benchmarking is a look at the very exciting Xe3 graphics found with the top-tier Panther Lake models: the Arc B390 Graphics with 12 Xe cores.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/intel-arc-b390-panther-lake-linux</guid>
+      <pubDate>Thu, 05 Feb 2026 14:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Debian's Challenge When Its Developers Quietly Drift Away</title>
-      <link>https://www.phoronix.com/news/Debian-Developers-Quiet-Away</link>
-      <description>You may recall the news last month around no one was left on Debian's data protection team and other volunteer staffing challenges with different Debian efforts in the past. Debian Project Leader Andreas Tille has been looking at the issue of the challenges that arise when Debian's all-volunteer developers quietly drift away either due to time commitments, other interests, or other reasons but don't properly communicate it to the Debian project...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Debian-Developers-Quiet-Away</guid>
-      <pubDate>Wed, 04 Feb 2026 21:07:09 +0000</pubDate>
+      <title>Debian's CI Data No Longer Publicly Browseable Due To LLM Scrapers / Bot Traffic</title>
+      <link>https://www.phoronix.com/news/Debian-CI-LLM-Restrictions</link>
+      <description>LLM scrapers for AI are even hungry for Debian's continuous integration "CI" data. Due to the ongoing abuse of the open web by LLM scrapers, the Debian CI infrastructure is restricting the publicly accessible data with their web server resources being hammered by bots/scrapers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Debian-CI-LLM-Restrictions</guid>
+      <pubDate>Thu, 05 Feb 2026 16:50:00 +0000</pubDate>
     </item>
     <item>
-      <title>Microsoft's New Open-Source Project: LiteBox As A Rust-Based Sandboxing Library OS</title>
-      <link>https://www.phoronix.com/news/Microsoft-LiteBox</link>
-      <description>Microsoft engineers and other stakeholders have been developing LiteBox as a security-focused library OS written in the Rust programming language and leveraging Linux Virtualization Based Security "LVBS". The design is for LiteBox to operate as a secure kernel protecting the normal guest kernel via virtualization hardware...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Microsoft-LiteBox</guid>
-      <pubDate>Wed, 04 Feb 2026 21:38:41 +0000</pubDate>
+      <title>Intel Xe Linux Driver Will No Longer Block D3cold For All Battlemage GPUs</title>
+      <link>https://www.phoronix.com/news/Intel-Battlemage-D3cold-Again</link>
+      <description>Merged a year ago to the Linux kernel's Xe graphics driver was a change to disable D3Cold across all Battlemage GPUs. This was done due instability issues around the D3cold to D0 power state transition. Finally with the upcoming Linux 7.0 kernel cycle that restriction is being loosened with restoring D3cold support with Battlemage GPUs aside from a specific NUC...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Battlemage-D3cold-Again</guid>
+      <pubDate>Thu, 05 Feb 2026 18:05:29 +0000</pubDate>
     </item>
     <item>
-      <title>GNOME Shell &amp;amp; Mutter 50 Beta Releases Bring Stable VRR, Improved Frame Scheduling</title>
-      <link>https://www.phoronix.com/news/GNOME-Shell-Mutter-50-Beta</link>
-      <description>Ahead of the imminent GNOME 50 beta release, the GNOME Shell and Mutter components have declared their "50.beta" releases to ship the latest bug fixes, memory leak fixes, and some last minute improvements ahead of the stable release in March...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Shell-Mutter-50-Beta</guid>
-      <pubDate>Thu, 05 Feb 2026 00:53:52 +0000</pubDate>
+      <title>Ardour 9.0 Audio Workstation Released With Multi-Touch GUI, Many New Features</title>
+      <link>https://www.phoronix.com/news/Ardour-9.0-DAW</link>
+      <description>Ardour 9.0 is out today as the latest major feature release to this leading open-source digital audio workstation (DAW) software for musicians, recording engineers, and other audio editing needs...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ardour-9.0-DAW</guid>
+      <pubDate>Thu, 05 Feb 2026 19:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>System76's COSMIC Desktop Planning Vulkan Renderer, Improved Gaming Experience</title>
-      <link>https://www.phoronix.com/news/COSMIC-Desktop-Features-Coming</link>
-      <description>Following December's release of COSMIC Epoch 1 along with the Pop!_OS 24.04 release by System76, today they shared more of their feature plans for the next two major COSMIC desktop updates...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/COSMIC-Desktop-Features-Coming</guid>
-      <pubDate>Thu, 05 Feb 2026 01:13:22 +0000</pubDate>
+      <title>GNU Nettle 4.0 Released With SLH-DSA Support</title>
+      <link>https://www.phoronix.com/news/Nettle-4.0-Released-SLH-DSA</link>
+      <description>The GNU Nettle cryptographic library is out with a major new update that introduces support for SLH-DSA, the post-quantum signature scheme selected by NIST for the FIPS 205 standard...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Nettle-4.0-Released-SLH-DSA</guid>
+      <pubDate>Thu, 05 Feb 2026 21:19:04 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Should Fix Nouveau For The Large Pages Support For Better NVK Performance</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-To-Fix-Nouveau-Large</link>
-      <description>The Linux 6.19 merge window had introduced support for larger pages and compression with the Nouveau kernel driver, which ultimately should help provide a performance win to this open-source NVIDIA driver. The Mesa NVK driver was ready to make use of that new kernel driver functionality but then it ended up being disabled due to bugs. Fortunately, for the Linux 6.20~7.0 kernel those issues should be resolved so then the Mesa NVK usage of the larger pages / compression support could be restored..</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-To-Fix-Nouveau-Large</guid>
-      <pubDate>Thu, 05 Feb 2026 05:00:00 +0000</pubDate>
+      <title>3mdeb Talks Up AMD openSIL &amp;amp; Open-Source Firmware Efforts For Confidential Compute</title>
+      <link>https://www.phoronix.com/news/3mdeb-FOSDEM-2026-Firmware</link>
+      <description>Engineers Michał Żygowski and Piotr Król of open-source firmware consulting firm 3mdeb presented at FOSDEM in Brussels on open-source for confidential compute infrastructure. With Intel not making strides to fully open-up their FSP package, the talk was centered around the modern AMD open-source firmware efforts led by their openSIL initiative for open-source CPU silicon initialization to replace AGESA in the Zen 6 timeframe...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/3mdeb-FOSDEM-2026-Firmware</guid>
+      <pubDate>Fri, 06 Feb 2026 00:58:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
