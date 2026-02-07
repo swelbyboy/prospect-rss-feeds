@@ -8,63 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Feb 2026 07:36:15 +0000</lastBuildDate>
-    <item>
-      <title>Xcode 26.3 : disponibilité des agents de codage</title>
-      <link>https://www.programmez.com/actualites/xcode-263-disponibilite-des-agents-de-codage-38968</link>
-      <description>Xcode proposait déjà un peu d'IA mais avec la version 26.3, Apple accélère, avec l'intégration :1 / des agents IA en s'appuyant sur Claude et Codex2 / support des MCP pour étendre les agents et permettre une large gamme d'agentsLa configuration se passe dans les paramètres -&amp;gt; Intelligence. Là on peut choisir et configurer l'agent. Sur l'éditeur, un bouton Intelligence permet d'ouvrir l'assistant de codage. Configuration et activation : https://developer.apple.com/documentation/Xcode/setting-up-c</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/xcode-263-disponibilite-des-agents-de-codage-38968</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Feb 2026 08:52:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Git 2.53 : nouvelles sous-commandes, bug fix, optimisations</title>
-      <link>https://www.programmez.com/actualites/git-253-nouvelles-sous-commandes-bug-fix-optimisations-38969</link>
-      <description>Git déploie la version 2.53. Cette mise à jour apporte des nouveautés fonctionnelles et diverses optimisations. Parmi les nouveautés, retenons :- une nouvelle sous-commande is-need dabs la commande git maintenance s'il est nécessaire de faire différents tâches de maintenance - option --diff-algorithm= dans la commande git blame et option --all dans git repo- commande expérimentale git replay- optimisation sur les sous-commandes et les opérations- amélioration sur les messages d'erreurs- nombreus</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/git-253-nouvelles-sous-commandes-bug-fix-optimisations-38969</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Feb 2026 10:40:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>gui-component : des composants UI pour créer des apps Rust</title>
-      <link>https://www.programmez.com/actualites/gui-component-des-composants-ui-pour-creer-des-apps-rust-38970</link>
-      <description>Tu veux construire une app desktop avec une interface graphique de qualité ? Connais-tu GPUI Component ? Il s'agit d'une suite de composants graphiques pour Rust. Les specs sont alléchantes :+ 60 composants multiplateformeNatif et largement inspiré de macOS et WindowsImplémentation simplePersonnalisationFlexibilité des layoutsLe contenu peut être rendu en markdown ou htmlExemple :use gpui::*;use gpui_component::{button::*, *};pub struct HelloWorld;impl Render for HelloWorld { fn render(&amp;amp;mut self</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/gui-component-des-composants-ui-pour-creer-des-apps-rust-38970</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/rustui.png?itok=30mj02EI" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Feb 2026 13:23:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ruff : un linter et formateur Python écrit en Rust</title>
-      <link>https://www.programmez.com/actualites/ruff-un-linter-et-formateur-python-ecrit-en-rust-38971</link>
-      <description>Ruff est un projet open source récent. L'ambition est de proposer un linter et formateur de code ultra rapide. Pour ce faire, il est écrit en Rust.Ruff met en avant la grande rapidité par rapport à Flake8, Autoflake ou encore Pylint. Il peut s'installer via pip ou Pypi, il est compatible Python 3.14, supporte 800 règles. La version 0.15.0 est la dernière en cours. Un important travail sur le formatage du code a été fait en 2025 avec de nombreux bugs corrigés et l'intégration de Pyhton 3.14. Pour</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/ruff-un-linter-et-formateur-python-ecrit-en-rust-38971</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Feb 2026 17:09:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>FOSDEM 2026 : the state of Go, quoi de neuf dans Go ?</title>
-      <link>https://www.programmez.com/actualites/fosdem-2026-state-go-quoi-de-neuf-dans-go-38972</link>
-      <description>Pour lancer la 2e journée, la session State of Go a démarré dès 9h. À l’édition 2025, c’était une session particulièrement attendue et il ne fallait pas être en retard pour espérer trouver une place. Cette année, malheureusement, la programmation de la track Go le dimanche matin n’a pas aidé l’audience. La salle était vide à 20 %. Espérons une meilleure exposition en 2027.Maartje Eyskens fut l’animatrice de la session et n’est pas fan de l’IA. C’est la 12e année que Go a les honneurs de la FOSDE</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/fosdem-2026-state-go-quoi-de-neuf-dans-go-38972</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/fosdem4.jpg?itok=2zKiRHeC" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Feb 2026 18:57:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>FOSDEM 2026 : où en est RISC-V ?</title>
-      <link>https://www.programmez.com/actualites/fosdem-2026-ou-en-est-risc-v-38975</link>
-      <description>Comme pour l’édition 2025, la rédaction de Programmez! a suivi avec intérêt la track RISC-V du samedi. Plusieurs sessions étaient particulièrement intéressantes : state of the arch, upstream embedded Linux on RISC-V SBC, RISC-V hardware is here, what about software ou encore Mainline support for OrangePi RISC-V Boards.1 / RISC-V hardware is here, what about softwareLa session RISC-V hardware is here, what about software d’Afonso Oliveira était intéressante pour sa vision du logiciel disponible s</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/fosdem-2026-ou-en-est-risc-v-38975</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/fosdem5.png?itok=S8aQKElo" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 05 Feb 2026 08:21:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Réécrire du code Java en .Net en quelques minutes avec... Copilot CLI</title>
-      <link>https://www.programmez.com/actualites/reecrire-du-code-java-en-net-en-quelques-minutes-avec-copilot-cli-38976</link>
-      <description>Tug, bien connu des communautés .Net et GitHub, bient de publier une démonstration technique aussi instructive qu'intéressante : comment il a réécrit une application Java en .Net en utilisant Copilot CLI et quelques autres outils. La migration automatisée de Spring PetClinic vers .Net 10:Stratégie : Utilisation du mode /plan avec Claude Opus pour l'analyse.Exécution : Lancer plusieurs agents IA en parallèle pour coder le backend, le front (Razor) et la base de données.Validation : Tests automati</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/reecrire-du-code-java-en-net-en-quelques-minutes-avec-copilot-cli-38976</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Thu, 05 Feb 2026 08:53:46 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 07 Feb 2026 07:21:29 +0000</lastBuildDate>
     <item>
       <title>WordPress et PrestaShop : 2 mises à jour de sécurité et maintenance</title>
       <link>https://www.programmez.com/actualites/wordpress-et-prestashop-2-mises-jour-de-securite-et-maintenance-38977</link>
@@ -88,6 +32,62 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/sudo-lunique-mainteneur-demande-de-laide-38980</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
       <pubDate>Fri, 06 Feb 2026 07:11:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>JetBrains impose Wayland par défaut sur IntelliJ</title>
+      <link>https://www.programmez.com/actualites/jetbrains-impose-wayland-par-defaut-sur-intellij-38981</link>
+      <description>JetBrains annonce que Wayland arrive par défaut dans les versions 2026.1 des IDE basés sur IntelliJ. Ces configurations desktop s'appuieront donc sur Wayland sur les distributions Linux. Jusqu'à présent, X11 était requis. Depuis la sortie de Wayland, ce dernier remplace peu à peu X11. Depuis 2023, JetBrains travaille sur le support natif de Wayland.JetBrains ne fait que suivre la tendance et le retrait progressif de X11. "Au lieu de s'exécuter comme une application X, les IDE basés sur IntelliJ</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/jetbrains-impose-wayland-par-defaut-sur-intellij-38981</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 07:30:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>FOSDEM 2026 : exécuter des applications Linux sur un navigateur web</title>
+      <link>https://www.programmez.com/actualites/fosdem-2026-executer-des-applications-linux-sur-un-navigateur-web-38982</link>
+      <description>La session High-Speed Linux Application Execution in the browser with binary translation nous a rapidement intrigués et nous avons suivi la présentation. L’idée derrière est de pouvoir réutiliser des apps actuelles sur un navigateur web en s’appuyant sur Wasm.Comme l’explique Masashi Yoshimura, cette approche a plusieurs avantages :1 - utiliser les librairies et le code existants2 - réduire la charge côté serveur3 - avoir une approche navigateurDurant cette (trop) courte session, Masashi nous fa</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/fosdem-2026-executer-des-applications-linux-sur-un-navigateur-web-38982</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/elfconv-official.png?itok=-Pv4ewNz" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Feb 2026 08:01:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>MSVC Build Tools Versions 14.30 - 14.43 disponibles sur Visual Studio 2026</title>
+      <link>https://www.programmez.com/actualites/msvc-build-tools-versions-1430-1443-disponibles-sur-visual-studio-2026-38984</link>
+      <description>Visual Studio 2026 accueille les nouvelles versions de Microsoft C++ Build Tools (MSVC). Ainsi, les développeurs C++ disposent de :14.50 (initially shipped with Visual Studio 2026)14.44 (initially shipped with Visual Studio 2022 version 17.14)14.29 (initially shipped with Visual Studio 2019 version 16.11)14.16 (initially shipped with Visual Studio 2017 version 15.9)14.00 (initially shipped with Visual Studio 2015)Un des objectifs est de faciliter le portage / migration des projets de VS 2022 ver</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/msvc-build-tools-versions-1430-1443-disponibles-sur-visual-studio-2026-38984</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 08:40:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Riot recrute 150 personnes en France et à l'international</title>
+      <link>https://www.programmez.com/actualites/riot-recrute-150-personnes-en-france-et-linternational-38985</link>
+      <description>Riot, startup française de la cybersécurité, annonce 150 recrutements en 2026 en France et à l'international : un tiers des recrutements 2026 sera consacré à des profils internationaux, originaires de villes comme Milan, Madrid, Amsterdam ou d’autres grandes capitales européennes. 11 postes seront ouverts à New York. Riot recrute dans trois grandes familles de postes :Des commerciaux internationaux, pour piloter l’expansion hors de FranceDéveloppeurs / développeuses, pour améliorer et enrichir l</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/riot-recrute-150-personnes-en-france-et-linternational-38985</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 08:49:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coda : l'école continue son expansion en France</title>
+      <link>https://www.programmez.com/actualites/coda-lecole-continue-son-expansion-en-france-38986</link>
+      <description>Coda, école supérieure d'informatique, poursuit son expansion depuis quelques mois. En 2023, le campus d'Orléans avait ouvert et accuille plus de 200 étudiants pour la rentrée 2025. En 2024, le campus de Dijon ouvre. La 3e étape est attendue en septembre avec un campus à Avignon. En 2025, Coda a annoncé une levée de fonds de 4 millions d'euros pour financer l'ouverture de ses prochains campus. Cette deuxième levée fait suite à celle de 1,7 million d'euros réalisée en février 2023. L'équipe compt</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/coda-lecole-continue-son-expansion-en-france-38986</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 14:05:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>IIM Digital School annonce un mastère IA &amp;amp; cybersécurité</title>
+      <link>https://www.programmez.com/actualites/iim-digital-school-annonce-un-mastere-ia-cybersecurite-38987</link>
+      <description>IIM est une école créée en 1995 à Paris La Défense. Elle annonce cette semaine un nouveau mastère dédié à l'IA et à la cybersécurité. Cette formation en alternance vise les étudiants Bac+3. Elle vise à former des experts capables de concevoir, sécuriser et auditer des systèmes intégrant des technologies d’IA tout en maîtrisant les enjeux de cybersécurité. Le Mastère IA &amp;amp; Cybersécurité prépare au titre RNCP de niveau 7 « Manager de l’Ingénierie numérique », reconnu par l’État, attestant d’une exp</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/iim-digital-school-annonce-un-mastere-ia-cybersecurite-38987</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 14:41:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Filtres de confidentialité : le bon réflexe pour éviter les regards indiscrets</title>
+      <link>https://www.programmez.com/actualites/filtres-de-confidentialite-le-bon-reflexe-pour-eviter-les-regards-indiscrets-38988</link>
+      <description>Dans les transports, ou même au bureau, il peut être facile de regarder un écran d'ordinateur ou d'un smartphone. Dans l'avion ou le train, même sans le vouloir, on peut observer un écran et voir des données que l'on ne devrait pas voir. Kingston présente ces filtres ainsi : "Les filtres de confidentialité limitent le champ de vision latéral pour prévenir le piratage visuel, aidant à protéger les informations confidentielles et à soutenir la conformité aux réglementations sur la vie privée telle</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/filtres-de-confidentialite-le-bon-reflexe-pour-eviter-les-regards-indiscrets-38988</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/filtres.jpg?itok=tl4OUrga" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Feb 2026 15:34:55 +0000</pubDate>
     </item>
   </channel>
 </rss>

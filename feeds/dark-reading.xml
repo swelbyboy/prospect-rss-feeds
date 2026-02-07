@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Feb 2026 07:08:44 +0000</lastBuildDate>
-    <item>
-      <title>Google Looker Bugs Allow Cross-Tenant RCE, Data Exfil</title>
-      <link>https://www.darkreading.com/application-security/google-looker-bugs-cross-tenant-rce-data-exfil</link>
-      <description>Attackers could even have used one vulnerable Lookout user to gain access to other GCP tenants' environments.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/application-security/google-looker-bugs-cross-tenant-rce-data-exfil</guid>
-      <enclosure url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt4524d58abb4bc819/697e6e756dea183a06dd7404/Google_Looker-Postmodern_Studio-Alamy.jpg?width=1280&amp;auto=webp&amp;quality=80&amp;disable=upscale" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Feb 2026 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Big Breach or Smooth Sailing? Mexican Gov't Faces Leak Allegations</title>
-      <link>https://www.darkreading.com/cyberattacks-data-breaches/big-breach-or-nada-de-nada-mexican-govt-faces-leak-allegations</link>
-      <description>A hacktivist group claims a 2.3-terabyte data breach exposes the information of 36 million Mexicans, but no sensitive accounts are at risk, says government.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cyberattacks-data-breaches/big-breach-or-nada-de-nada-mexican-govt-faces-leak-allegations</guid>
-      <enclosure url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbc7355a5663f9d26/69827292d724225c7bc48bd8/mexico-flag-cyber-bits-GagoDesign-shutterstock.jpg?width=1280&amp;auto=webp&amp;quality=80&amp;disable=upscale" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Feb 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Extra Extra! Announcing DR Global Latin America</title>
-      <link>https://www.darkreading.com/cybersecurity-operations/announcing-dr-global-latin-america</link>
-      <description>Dark Reading has something new hitting the newsstand: a content section purpose-built for Latin American readers, featuring news, analysis, features, and multimedia.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/cybersecurity-operations/announcing-dr-global-latin-america</guid>
-      <enclosure url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt0ee80d2156216312/698359c327a39116a4345aa4/newsstand-Ruslan_Bustamante-alamy.jpg?width=1280&amp;auto=webp&amp;quality=80&amp;disable=upscale" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Feb 2026 13:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Attackers Use Windows Screensavers to Drop Malware, RMM Tools</title>
-      <link>https://www.darkreading.com/application-security/attackers-use-screensavers-drop-malware-rmm-tools</link>
-      <description>By tapping the unusual .scr file type, attackers leverage "executables that don't always receive executable-level controls," one researcher noted.</description>
-      <guid isPermaLink="false">https://www.darkreading.com/application-security/attackers-use-screensavers-drop-malware-rmm-tools</guid>
-      <enclosure url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt98d837cf68d4775e/6983a0c9b61a0ffd1d281b12/computer_screensaver_StormStudio_Alamy.jpg?width=1280&amp;auto=webp&amp;quality=80&amp;disable=upscale" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Feb 2026 21:06:28 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 07 Feb 2026 06:56:17 +0000</lastBuildDate>
     <item>
       <title>CISA Makes Unpublicized Ransomware Updates to KEV Catalog</title>
       <link>https://www.darkreading.com/threat-intelligence/cisa-hidden-ransomware-updates-kev-catalog</link>
@@ -74,6 +42,14 @@
       <pubDate>Thu, 05 Feb 2026 14:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Data Tool to Triage Exploited Vulnerabilities Can Make KEV More Useful</title>
+      <link>https://www.darkreading.com/threat-intelligence/data-tool-triage-exploited-vulnerabilities-make-kev-catalog-more-useful</link>
+      <description>A disconnect exists between an organization's cybersecurity needs and lists like CISA's KEV Catalog. KEV Collider combines data from multiple open source vulnerability frameworks to help security teams quickly assess which are important, based on their priorities.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/data-tool-triage-exploited-vulnerabilities-make-kev-catalog-more-useful</guid>
+      <enclosure url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltbadcc9a16d698aad/6984b208f81d8e07ce8a9119/kev-collider-runzero.jpg?width=1280&amp;auto=webp&amp;quality=80&amp;disable=upscale" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 05 Feb 2026 20:53:34 +0000</pubDate>
+    </item>
+    <item>
       <title>Agentic AI Site 'Moltbook' Is Riddled With Security Risks</title>
       <link>https://www.darkreading.com/cyber-risk/agentic-ai-moltbook-security-risks</link>
       <description>Someone used AI to build an entire Web platform, which then did something predictable and preventable: It exposed all its data through a publicly accessible API.</description>
@@ -88,6 +64,30 @@
       <guid isPermaLink="false">https://www.darkreading.com/threat-intelligence/encase-driver-weaponized-edr-killers-persist</guid>
       <enclosure url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltf86236c78ccddc87/6985065f2024991ee0b33534/magnifyingglass_Brainlight_Alamy.jpg?width=1280&amp;auto=webp&amp;quality=80&amp;disable=upscale" length="0" type="image/jpeg"/>
       <pubDate>Thu, 05 Feb 2026 22:35:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw's Gregarious Insecurities Make Safe Usage Difficult</title>
+      <link>https://www.darkreading.com/application-security/openclaw-insecurities-safe-usage-difficult</link>
+      <description>Malicious "skills" and persnickety configuration settings are just some of the issues that security researchers have found when installing — and removing — the OpenClaw AI assistant.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/application-security/openclaw-insecurities-safe-usage-difficult</guid>
+      <enclosure url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/bltda40e5a101dbe5ef/6985152bd08b0a67f7734dd5/lobster-on-a-dock-Tsirikashvili_Nodari-shutterstock.jpg?width=1280&amp;auto=webp&amp;quality=80&amp;disable=upscale" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Feb 2026 15:42:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shai-hulud: The Hidden Cost of Supply Chain Attacks</title>
+      <link>https://www.darkreading.com/application-security/shai-hulud-hidden-cost-supply-chain-attacks</link>
+      <description>Recent supply chain attacks involving self-propagating worms have spread far, but the damage and long-term impact is hard to quantify.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/application-security/shai-hulud-hidden-cost-supply-chain-attacks</guid>
+      <enclosure url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5000d4aa585e56c8/6984e412f668df998de84af5/Piggy_bank_maze_Andriy_Popov_Alamy.jpg?width=1280&amp;auto=webp&amp;quality=80&amp;disable=upscale" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Feb 2026 16:25:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>'Encrypt It Already' Campaign Pushes Big Tech to Prioritize E2E Encryption</title>
+      <link>https://www.darkreading.com/cloud-security/encrypt-it-already-pushes-big-tech-e2e-encryption</link>
+      <description>The Electronic Frontier Foundation is urging major technology companies to follow through on their promises to implement end-to-end encryption (E2E) by default across their services, as privacy concerns mount amid increased AI use.</description>
+      <guid isPermaLink="false">https://www.darkreading.com/cloud-security/encrypt-it-already-pushes-big-tech-e2e-encryption</guid>
+      <enclosure url="https://eu-images.contentstack.com/v3/assets/blt6d90778a997de1cd/blt5944ff3c70db0683/6986198322e6317c725733b5/2D75J4G.jpg?width=1280&amp;auto=webp&amp;quality=80&amp;disable=upscale" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Feb 2026 16:34:41 +0000</pubDate>
     </item>
   </channel>
 </rss>
