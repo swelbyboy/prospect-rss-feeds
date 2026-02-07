@@ -8,79 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Feb 2026 07:02:38 +0000</lastBuildDate>
-    <item>
-      <title>提供4頻與24Gbps傳輸速度，思科最高階Wi-Fi 7基地臺登場</title>
-      <link>https://www.ithome.com.tw/review/173772</link>
-      <description>持續拓展企業Wi-Fi 7無線網路解決方案，思科在2025年6月舉行的年度用戶大會期間，發表最高規格的無線基地臺機型Cisco Wireless 9179F（CW9179F），鎖定體育館、會議中心、機場、慶典活動等大型公共空間或場館的無線網路連線需求，可搭配當時一同推出的Cisco Campus Gateway，企業可透過支援雲端原生與企業內部管理的網路流量轉送閘道設備，為大型園區網路環境，提供連線順暢、可經由雲端服務管理的上網漫遊體驗（cloud-managed roaming）。 思科強調，CW9179F能夠針對高密度環境，提供突破以往的網路連線效能，發揮Wi-Fi 7網路的所有潛力，提供最極致的速度、更低的存取延遲，以及更大的連網服務容量，綜合四個無線通訊頻段（6 GHz、5 GHz、5 GHz、2.4 GHz），實體傳輸效能可達24 Gbps，並內建兩個10GbE網路埠。 而且，CW9179F能用於大型場館，支援巨量設備的Wi-Fi連線需求，以及多種消耗大量網路頻寬的應用系統，例如，體育賽事畫面快速重播的視訊串流處理，可提供更流暢的播放體驗；透過行動裝置進行的網路遊戲，能免於反</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/173772</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/cisco_wireless_9179f_main.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 05 Feb 2026 16:47:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mistral發表Voxtral Transcribe 2系列模型，即時語音轉文字延遲可低於200毫秒</title>
-      <link>https://www.ithome.com.tw/news/173785</link>
-      <description>新聞法國人工智慧新創Mistral推出語音轉文字模型家族Voxtral Transcribe 2，鎖定會議逐字稿、客服通話與即時語音互動等需求，該系列新增即時模型Voxtral Realtime，官方表示轉錄延遲可設定到200毫秒以下。另在批次模型Voxtral Mini Transcribe V2加入說話者分離與詞級時間戳記等能力，強化會議與多方通話整理需求。 Voxtral Transcribe 2包含兩個模型，Voxtral Mini Transcribe V2用於批次轉錄，適合一次處理大量錄音檔，而Voxtral Realtime則鎖定直播字幕、語音助理等即時情境。Mistral同時將Voxtral Realtime以Apache2.0授權釋出權重，企業可選擇在自有環境或邊緣裝置部署。兩款模型皆支援含中文在內的13種語言。 Voxtral Realtime採用原生串流式架構，會在音訊到達時同步產生文字，而非將錄音切成片段後再逐段處理。官方表示延遲可依需求調整，開發者可在反應速度與轉錄準確度之間取捨，讓即時互動更貼近對話節奏。 批次模型Voxtral Mini Transcrib</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173785</guid>
-      <pubDate>Fri, 06 Feb 2026 00:47:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>因AI輔助功能恐放大供應鏈風險，Docker修補Ask Gordon安全弱點</title>
-      <link>https://www.ithome.com.tw/news/173787</link>
-      <description>新聞容器平臺業者Docker於2025年11月發布Docker Desktop 4.50.0版，修補旗下AI輔助功能Ask Gordon所涉及的安全風險。相關問題最早由資安研究團隊Noma Labs揭露，研究指出，在特定情境下，AI分析流程可能受到不可信輸入影響，進而對開發環境帶來供應鏈風險。Docker也在同一版本中，一併處理Pillar Security通報的提示注入相關問題。 Ask Gordon是Docker Desktop內建的AI助手，主要用於協助開發者理解錯誤訊息、分析專案內容，並提供容器與雲端環境的操作建議。Docker官方文件說明，Ask Gordon目前仍為處於測試狀態的功能（Beta），尚未列為正式可用功能；就目前Docker與資安界的公開資訊而言，相關安全問題亦未配置正式的CVE漏洞編號，而是透過功能調整與風險緩解方式進行處理。 由於Ask Gordon在分析過程中，會依使用情境讀取專案目錄內容，以及映像檔相關的中繼資料，研究人員指出，若缺乏清楚的輸入驗證與信任邊界控管，這些資訊可能被納入AI推論上下文，影響分析結果與建議內容。 研究揭示AI分析流程在特定條件下</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173787</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0206-docker%204500.png" length="0" type="image/png"/>
-      <pubDate>Fri, 06 Feb 2026 01:59:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic釋出具備金融分析能力的Claude Opus 4.6</title>
-      <link>https://www.ithome.com.tw/news/173796</link>
-      <description>新聞Anthropic周四（2/5）發表了Claude Opus 4.6，主要強化金融領域的研究與分析能力，並同步更新多項產品布局，包括升級既有的Claude in Excel、以研究預覽形式推出Claude in PowerPoint與桌面工具Cowork，進一步將生成式AI導入金融專業人員日常使用的工作場景。 Anthropic指出，Claude Opus 4.6在整體推理能力、多工處理，以及長時間、多步驟任務的穩定性上均有明顯進步。根據其內部「真實世界金融（Real-World Finance）」評測，Claude Opus 4.6在約50項投資與財務分析實務情境中，整體表現較僅於數月前推出的Claude Sonnet 4.5提升超過23個百分點，顯示模型在複雜工作流程中的準確度與完成度已有顯著提升。 在金融專業能力方面，Claude Opus 4.6展現出更強的文件理解與分析表現。Anthropic表示，該模型在BrowseComp與DeepSearchQA等基準測試中，能更有效從大量非結構化資料中擷取精確資訊，而非僅提供摘要式回應。 在外部評測上，Claude Opus 4.</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173796</guid>
-      <pubDate>Fri, 06 Feb 2026 04:25:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI推出代理人開發管理平臺Frontier</title>
-      <link>https://www.ithome.com.tw/news/173797</link>
-      <description>新聞OpenAI昨日（2/5）宣布代理人管理平臺Frontier，讓企業可開發、部署和管理企業營運用的AI代理人。今日已提供少數用戶，未來將持續擴大部署。 愈來愈多企業開發或導入AI，但要真正提升生產力，必須要有個跨系統的AI管理機制。OpenAI Frontier能和企業既有系統串接，不需改換平臺，透過開放標準，可以就地整合AI代理人和現有資料，以及現有使用的應用程式。 明確而言，企業可以ChatGPT Enterprise、ChatGPT Atlas、企業應用為介面和Frontier互動。它能管理企業自建代理人、OpenAI代理人及第三方代理人。 Frontier可從四方面管理AI代理人。首先，它可連結資料倉儲、CRM系統、工單工具和其他內部應用，讓AI代理人享有共同的企業脈絡（business context）以便能理解企業資料、任務，這提供了一層語義層，讓所有AI代理人得以參照及有效溝通。其次是規劃，企業可以使用Frontier「僱用」代理人來執行各種任務，像是處理檔案、執行程式碼和使用工具。OpenAI強調Frontier可管理本地環境、企業雲端和OpenAI runtime</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173797</guid>
-      <pubDate>Fri, 06 Feb 2026 04:54:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ingress-nginx爆高風險漏洞，Kubernetes修補CVE-2026-24512防遠端程式碼執行</title>
-      <link>https://www.ithome.com.tw/news/173794</link>
-      <description>新聞開源容器平臺Kubernetes專案在2月第一週發布安全更新，修補Ingress-nginx Controller一項高風險資安漏洞CVE-2026-24512。該漏洞CVSS v3.1風險分數為8.8分，屬於高風險（High）等級。在特定部署條件下，具備建立或修改Ingress資源權限的使用者，可能藉由不當設定內容注入nginx設定，進而在控制器的執行脈絡內觸發遠端程式碼執行（RCE），影響叢集內部安全。 Ingress-nginx Controller是Kubernetes環境中常見的Ingress控制器，負責依Ingress資源內容產生並套用nginx設定，將外部HTTP與HTTPS流量導向叢集內部服務。Kubernetes維護團隊在GitHub揭露的安全議題指出，這項漏洞源自Ingress規則中rules.http.paths.path欄位的輸入驗證不足。當路徑型別使用ImplementationSpecific時，攻擊者可在path欄位中插入惡意內容，最終被寫入nginx設定檔，造成設定注入。 Kubernetes專案說明，漏洞一旦被成功利用，攻擊者可在Ingress-n</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173794</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0206-Ingress-NGINX-600.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Feb 2026 05:04:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>Substack去年10月被駭 疑外洩資料70萬筆</title>
-      <link>https://www.ithome.com.tw/news/173798</link>
-      <description>新聞付費訂閱創作平臺Substack本周通知用戶去年10月的資安事故，導致用戶個資外洩，可能有高達70萬筆資料受影響。 Substack為受歡迎的訂閱出版平臺，讓個人可製作並發送電子報、podcast等創作內容並獲得收入。Substack據稱訂戶將近3,500萬。 本周有用戶接到Substack告知資料外洩的電子郵件。Substack執行長Christ Best說明，公司在2月3日發現系統問題，使得非經授權第三方得以存取部份使用者資料。事件發生時間在去年10月份。外洩的資料包括電子郵件、電話號碼和其他內部metadata。但用戶信用卡號、密碼及財務資訊並未受影響。 Substack對此致歉，並表示已經解決問題並正執行全面調查，以及改善系統和流程以避免未來再發生類似事件。 The Register報導，Substack公開通知前，一名駭客在駭客論壇貼文宣稱從Substack竊走將近70萬筆用戶個資，包括姓名、電子郵件信箱、電話、使用者ID及帳戶相片。駭客所指是否為Substack此次外洩的資料目前不得而知。Substack也未說明外洩影響用戶人數，以及駭入事件原因是否為人為或何種惡意軟體</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173798</guid>
-      <pubDate>Fri, 06 Feb 2026 05:48:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Amazon財報出爐，AWS成長24%創近13季新高</title>
-      <link>https://www.ithome.com.tw/news/173799</link>
-      <description>新聞Amazon周四（2/5）公布截至2025年12月31日的第四季財報，該季Amazon創下2,134億美元的營收，年成長14%，營業利潤（Operating Income）為249.8億美元，高於去年同期的212億美元。其中，AWS營收為356億美元，年增24%，為近13季以來成長幅度最高；此外，Amazon也預期2026年資本支出將增加至2,000億美元。財報公布後，Amazon盤後股價一度下滑近10%，跌至約201美元。 在各事業部門表現上，去年第四季Amazon北美營收為1,271億美元，年增10%，營業利潤為115億美元，成長24%；國際營收為507億美元，成長17%，但營業利潤為10.4億美元，年減21%；AWS營收為356億美元，成長24%，營業利潤為124.6億美元，年增17%。 該季Amazon的每股盈餘（EPS）為1.95美元，高於前一年同期的1.86美元。 不過，近來投資人更在意的是科技大廠因競逐AI而快速攀升的資本支出（Capital Expenditures，CapEx）。Amazon於財報中揭露，2025年資本支出達1,283億美元，高於2024年的776</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173799</guid>
-      <pubDate>Fri, 06 Feb 2026 06:05:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>義大利指控俄國駭客攻擊冬奧網站、大使館</title>
-      <link>https://www.ithome.com.tw/news/173800</link>
-      <description>新聞路透社報導，義大利官方昨日指控俄羅斯駭客發動對義國大使館及冬季奧運相關設施的網路攻擊，但成功為義國阻止。 2026年冬季奧運將在2月6日至22日在義大利米蘭與科爾蒂納（Milano Cortina d’Ampezzo）舉行。義大利外交部長Antonio Tajani說，義國成功防範了俄羅斯駭客發動的一系列網路惡意活動。攻擊目標包括義國外交單位，包括紐約的義國大使館、冬奧官網、比賽場地科爾蒂納數家飯店的網站等。 法國媒體France 24報導，受害組織包含120處，涵括雪梨、多倫多、巴黎的外交單位以及冬奧運動員下榻的飯店。但這些攻擊未造成重大傷害。 根據The Record報導，親俄駭客組織NoName057聲稱是其所為。他們說這波行動是報復義大利在烏俄戰爭中支持烏克蘭，說支持烏克蘭就是支持烏克蘭的恐怖主義，要受到其DDoS攻擊的懲罰。 俄羅斯駭客已多次攻擊大型運動賽事的主辦國。包括Sandworm攻擊2018平壤冬奧的IT基礎架構，破壞網路、廣播系統與冬奧官網。2020年東京夏季奧運中，由NTT主導的東奧官網及網路共遭遇4.5億次網路攻擊。俄國駭客組織Fancy Bear駭客藉由國</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173800</guid>
-      <pubDate>Fri, 06 Feb 2026 06:34:38 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 07 Feb 2026 06:50:38 +0000</lastBuildDate>
     <item>
       <title>自動化投資平臺Betterment遭社交工程攻擊，HIBP指外流140萬個Email地址與個資</title>
       <link>https://www.ithome.com.tw/news/173795</link>
       <description>新聞美國自動化投資平臺Betterment在1月9日，遭未授權人士透過社交工程入侵取得其部分系統的存取權，並透過該公司用於行銷與營運支援的第三方軟體平臺，向部分客戶發送冒名的加密貨幣相關詐騙訊息。 該公司於2月3日更新調查進度，指出在資安公司CrowdStrike支援下完成的鑑識調查確認，事件未導致客戶帳戶、密碼或登入資訊遭到入侵，也未出現憑證外洩跡象。不過Betterment仍在盤點被存取資料的範圍與隱私風險，並將網路上由宣稱犯案組織張貼的資料一併納入評估。 官方雖未公開受影響人數，不過資料外洩通報服務HaveIBeenPwned（HIBP）則表示，依其對外流資料的分析，此次事件涉及約140萬筆不重複的電子郵件地址，並包含姓名與地理位置等資料，另有部分紀錄包含出生日期、電話與實體地址。 Betterment說明，攻擊者採用的手法是社交工程，也就是以身分冒用與欺騙取得存取權，而非突破其技術基礎設施。被用來濫發訊息的管道，為Betterment用於行銷與營運支援的第三方軟體平臺，該公司在發現異常後已撤銷未授權存取並啟動調查，同時聯繫收到詐騙訊息的客戶，提醒忽略相關內容。 就個資影響範圍，</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173795</guid>
       <pubDate>Fri, 06 Feb 2026 06:45:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>華芸公告NAS設備存在重大漏洞，若不修補恐遭完整控制設備</title>
+      <link>https://www.ithome.com.tw/news/173793</link>
+      <description>新聞1月23日華芸科技（Asustor）發布資安公告AS-2026-002，指出該廠牌NAS作業系統Asustor Data Master（ADM），存在一項重大層級的輸入驗證不當漏洞，影響執行4.1、4.2、4.3，以及5.0版ADM的NAS設備，CVSS 4.0風險評估達到9.5分（滿分10分），該公司於2月5日發布5.1.2.RE51版修補漏洞。 此漏洞由參與資安公司戴夫寇爾（Devcore）實習生計畫的研究員Wilson Lu發現，後續被登記為CVE-2026-24936列管。這項漏洞出現在特定的使用情境，當NAS設備加入AD網域並啟用特定功能，某個CGI程式就會出現輸入參數驗證不當的情形，未經驗證的攻擊者從遠端進到系統、寫入任何檔案，甚至能複寫重要系統檔案，而導致整個系統被滲透。我們也向華芸進一步詢問，該公司表示他們在獲報後已儘快完成應對，並透過ADM 5.1.2.RE51完成修補。華芸表示，為了確保用戶能及時修補，除了網站的安全公告，ADM系統內部也會有自動更新通知，另外，該公司也會發送電子報給訂閱用戶。 值得留意的是，比利時網路安全中心（Centre for Cybers</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173793</guid>
+      <pubDate>Fri, 06 Feb 2026 07:02:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Actions讓用戶無須倚賴K8s，也可替自架Runner建立自動縮放能力</title>
+      <link>https://www.ithome.com.tw/news/173801</link>
+      <description>新聞GitHub更新GitHub Actions，宣布GitHub Actions Runner規模集用戶端（Scale Set Client）進入公開預覽階段。該功能為獨立的Go模組，讓團隊無需依賴Kubernetes，即可運用Scale Set API替自架Runner建立自動縮放能力。 GitHub表示，Runner規模集用戶端負責與GitHub的Scale Set基礎架構進行互動與協調，至於Runner的建立、擴充與回收方式，則由使用者自行實作。組織可依據現有環境，將Runner部署於容器、虛擬機器、裸機或雲端服務上，再由GitHub Actions負責分派工作負載。 GitHub指出，該用戶端支援多標籤功能，可替同一個Scale Set指派多個標籤以支援不同建置類型，同時也適用於代理式工作流程情境，包括GitHub Copilot程式開發代理，並提供內建指標以監控工作與Runner的執行表現。 針對既有工具鏈，GitHub強調新用戶端並非用來取代Actions Runner Controller（ARC）。ARC仍是Scale Set API的參考實作，也是Kubernete</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173801</guid>
+      <pubDate>Fri, 06 Feb 2026 07:07:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>惡意軟體ValleyRAT假借LINE安裝程式散布，目的是竊取憑證</title>
+      <link>https://www.ithome.com.tw/news/173803</link>
+      <description>新聞去年4月，LINE與趨勢科技提出警告，呼籲臺灣用戶提高警覺，有人架設假網站聲稱提供電腦版LINE安裝程式，一旦不慎安裝，電腦就可能被植入惡意軟體，當時趨勢科技認為，這波攻擊行動疑似主要針對臺灣而來，如今這種冒牌LINE安裝程式的攻擊活動有擴大的趨勢，攻擊者也對簡體中文用戶下手。 資安公司Cybereason近日提出警告，他們從去年初開始，注意到冒充應用程式安裝檔的惡意軟體活動有所增加，其中一種就是偽裝成LINE的安裝程式，駭客針對簡體中文用戶，利用XML工作排程設定檔及PowerShell指令碼，以便使其能於受害電腦持續活動，而攻擊者最終執行的惡意軟體是ValleyRAT（Winos 4.0），過程中攻擊者會建立受害電腦與位於香港的伺服器連線。根據駭客使用的惡意軟體，他們研判攻擊者是中國APT駭客組織Silver Fox。對此，我們也向LINE詢問此事，他們表示母公司LY Corporation已得知近期的惡意軟體散布事件，該公司資安團隊正進行嚴密監控，已採取必要因應措施，並呼籲用戶從正式管道下載應用程式。 關於這波Silver Fox發動的ValleyRAT惡意軟體攻擊，Cybe</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173803</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/ValleyRat-image3.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 08:48:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>多家資安公司揭露n8n重大漏洞，攻擊者建立工作流程就能接管伺服器</title>
+      <link>https://www.ithome.com.tw/news/173804</link>
+      <description>新聞開源工作流程自動化工具n8n的開發工程團隊於去年12月19日公告，他們在1.120.4、1.121.1，以及1.122.0版更新當中，修補重大層級的遠端程式碼執行（RCE）漏洞CVE-2025-68613，此漏洞出現於工作流程的表達式評估系統，CVSS風險評為9.9分（滿分10分），現在有3家資安公司指出，他們發現修補不夠完整的現象，攻擊者有機會繞過修補程式並挾持整個n8n系統。 資安公司Pillar Security、SecureLayer7，以及Endor Labs不約而同提出警告，他們在已修補CVE-2025-68613的n8n系統當中，發現新的資安漏洞CVE-2026-25049，攻擊者只要通過身分驗證就能利用。此為表達式逃逸造成的弱點，有可能引發遠端程式碼執行，只要攻擊者擁有建立或修改工作流程的權限，就能藉由濫用工作流程參數建立特定的表達式，而能在n8n主機觸發非預期的系統指令執行，值得留意的是，Pillar Security指出該漏洞的CVSS評分達到10分（4.0版為9.4分），相當危險，對此，n8n開發工程團隊在1月23日推出的1.123.17與2.5.2版完成修補</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173804</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/6982f7c1bb1ac8787eb9b09e_Group%201410193667%20(1)%20(1).png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 08:59:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>微軟警告竊資軟體擴及macOS，還濫用PDF與WhatsApp相關工具擴大散布</title>
+      <link>https://www.ithome.com.tw/news/173805</link>
+      <description>新聞微軟資安研究團隊發布報告指出，近年以竊取帳密與工作階段資料為主的資訊竊取程式，過去多與Windows環境相關，近期則出現更多鎖定macOS的攻擊活動，顯示攻擊範圍正擴大到多種作業系統。攻擊者同時利用Python等跨平臺語言降低改寫門檻，並藉由WhatsApp與PDF轉檔或編輯工具等常見使用情境擴大散布管道，使竊資行動更容易滲透受害者的日常工作與生活流程。 微軟從2025年底開始觀察到多起macOS竊資攻擊。常見入口是使用者在網路上搜尋軟體或工具時，遭Google Ads或惡意廣告導向仿冒網站，這些網站不是提供偽裝成正常程式的安裝檔，就是以社交工程手法誘導使用者在終端機複製貼上指令，進而投放DigitStealer、MacSync與Atomic macOS Stealer（AMOS）等macOS專用竊資程式。 攻擊者會蒐集瀏覽器登入憑證、已儲存密碼、加密貨幣錢包資料，以及雲端登入憑證與開發者環境中的敏感資料，包含鑰匙圈與開發用存取金鑰等，彙整後送往攻擊者伺服器，部分案例還會刪除感染痕跡以降低追查難度。 研究人員還觀察到，過去一年多起以釣魚電子郵件散布的Python竊資攻擊，竊取目標涵</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173805</guid>
+      <pubDate>Fri, 06 Feb 2026 10:30:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google開放Developer Knowledge API，提供Markdown文件並支援MCP串接</title>
+      <link>https://www.ithome.com.tw/news/173815</link>
+      <description>新聞Google推出Developer Knowledge API及對應的MCP（Model Context Protocol）伺服器，要讓AI助理與各類開發工具能直接查詢並取用官方開發文件，解決模型僅依賴既有訓練資料或透過網頁擷取內容時，常遇到的版本落差與內容不穩定問題。 開發者在使用Firebase、Android與Google Cloud等技術時，經常需要掌握新功能、API變更與最佳實務更新。Google提到，Developer Knowledge API的做法，是讓工具可用程式方式搜尋並擷取官方文件內容，避免只依賴既有訓練資料或脆弱的網頁擷取作法。 根據官方說明，Developer Knowledge API支援搜尋與擷取文件內容。開發者或工具可先依查詢條件找出相關頁面與片段，再取回完整頁面內容，並以Markdown格式回傳。涵蓋範圍包含firebase.google.com、developer.android.com與docs.cloud.google.com等網站，文件更新後會在24小時內完成重新索引，以降低工具取得過時內容的機率。 與API一同推出的還有官方MCP伺服器，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173815</guid>
+      <pubDate>Fri, 06 Feb 2026 10:41:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>全支付用戶突破700萬大關，又2家電支業者前進日本跨境支付</title>
+      <link>https://www.ithome.com.tw/news/173828</link>
+      <description>新聞全聯旗下的電子支付服務全支付，宣布今年初達到電支用戶數700萬大關，成為繼一卡通、街口支付後，第三家突破700萬的電支業者。 根據金管會去年11月統計資料，一卡通以約713萬用戶居國內電支龍頭的位置，其次是街口支付，儘管去年母公司與泰山食品之間的風波，影響商家對街口支付的接受度，但街口支付用戶數仍站穩700萬，達到710萬用戶之多。 至於全支付，在母公司全聯的零售通路大力支持之下，去年11月已達到695萬用戶，在新的一年剛開始，全支付宣布達到700萬用戶，成為第三家進入700萬用戶的電支業者。 值得注意的是，Line Pay跨入電支付市，去年12月初才推出的電支服務Line Pay Money，由服務推出的時間晚於金管會11月的統計資料，暫時未登記在官方統計資料中，但Line Pay去年12月在Vision Day活體中，公布自家Line Pay用戶達1,360萬，而Line Pay Money則達到200萬，創下不到一個月成長至200萬用戶的紀錄。 國內電子支付市場，新進業者如全支付挾著龐大的連鎖通路消費客群，快速在電支市場攻城略地，而L後起之秀的ine PayMoney則挾著L</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173828</guid>
+      <pubDate>Fri, 06 Feb 2026 10:45:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>【資安日報】2月6日，中國駭客假借提供LINE安裝程式散布惡意軟體ValleyRAT</title>
+      <link>https://www.ithome.com.tw/news/173824</link>
+      <description>新聞惡意軟體ValleyRAT假借LINE安裝程式散布，目的是竊取憑證 去年4月，LINE與趨勢科技提出警告，呼籲臺灣用戶提高警覺，有人架設假網站聲稱提供電腦版LINE安裝程式，一旦不慎安裝，電腦就可能被植入惡意軟體，當時趨勢科技認為，這波攻擊行動疑似主要針對臺灣而來，如今這種冒牌LINE安裝程式的攻擊活動有擴大的趨勢，攻擊者也對簡體中文用戶下手。 資安公司Cybereason近日提出警告，他們從去年初開始，注意到冒充應用程式安裝檔的惡意軟體活動有所增加，其中一種就是偽裝成LINE的安裝程式，駭客針對簡體中文用戶，利用XML工作排程設定檔及PowerShell指令碼，以便使其能在受害電腦持續活動，而攻擊者最終執行的惡意軟體是ValleyRAT（Winos 4.0），過程中攻擊者會建立受害電腦與位於香港的伺服器連線。根據駭客使用的惡意軟體，他們研判攻擊者是中國APT駭客組織Silver Fox。對此，我們也向LINE詢問此事，他們表示母公司LY Corporation已得知近期的惡意軟體散布事件，該公司資安團隊正進行嚴密監控，已採取必要因應措施，並呼籲用戶從正式管道下載應用程式。 義大利</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173824</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/ValleyRat-image3.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 11:07:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>搭配8個Nvidia B300，AWS P6加速運算服務增設新的執行個體</title>
+      <link>https://www.ithome.com.tw/review/173743</link>
+      <description>去年AWS陸續推出導入Nvidia Blackwell架構GPU的加速運算服務，例如5月正式推出的P6、7月上線的P6e-GB200，搭配的GPU產品分別為B200、GB200。 時隔4個月後，AWS宣布P6系列擴增採用性能更強大的B300（Blackwell Ultra）的加速運算服務，稱為P6-B300，有意採用的企業，目前可至美國西部（奧勒岡）的雲端區域，經由適用於ML的Amazon EC2容量區塊（Capacity Blocks for ML）訂購。 如同稍早推出的P6-B200，P6-B300僅提供一種執行個體組態，分別是p6-b300.48xlarge，以及p6-b200.48xlarge，系統記憶體內建4 TB與2 TB，同樣搭配96顆核心的英特爾第五代Xeon Scalable系列處理器，提供192個虛擬處理器，以及8個B300 GPU。 不過，這款加速運算服務，可用的GPU記憶體總容量增加50％（2,144 GB HBM3e vs. 1,440 GB HBM3e），GPU提供的FP4浮點運算效能也領先50％（108 PFLOPS vs. 72 PFLOPS），GPU互</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/173743</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/p6-b300-main.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Feb 2026 11:35:16 +0000</pubDate>
     </item>
   </channel>
 </rss>

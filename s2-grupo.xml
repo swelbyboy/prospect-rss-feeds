@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Feb 2026 07:31:10 +0000</lastBuildDate>
-    <item>
-      <title>Vulnerabilidades críticas en MongoDB 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-criticas-mongodb-2026/</link>
-      <description>Vulnerabilidad crítica – 01/2026 Introducción CVE-2025-14847 es una vulnerabilidad crítica de filtración de memoria en el servidor de bases de datos MongoDB que puede permitir a un atacante leer partes de la memoria del servidor sin autenticación alguna. Esto se produce debido a la forma en que MongoDB maneja ciertos mensajes comprimidos con zlib en su […] La entrada Vulnerabilidades críticas en MongoDB 2026 se publicó primero en S2GRUPO.</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-mongodb-2026/</guid>
-      <pubDate>Thu, 22 Jan 2026 15:33:33 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 07 Feb 2026 07:16:13 +0000</lastBuildDate>
     <item>
       <title>Vulnerabilidades críticas en Zoom 2026</title>
       <link>https://s2grupo.es/vulnerabilidades-criticas-zoom-2026/</link>
@@ -78,6 +71,13 @@
       <description>APOLO nace con la vocación de integrar al ecosistema industrial, tecnológico y académico para posicionar a la Comunitat Valenciana como polo de referencia en defensa e innovación dual. Desde S2GRUPO, participamos en la constitución de APOLO y asumimos su presidencia La Comunitat Valenciana ha dado un paso decisivo en el impulso de su industria estratégica […] La entrada APOLO, el nuevo clúster valenciano de la industria de defensa para impulsar innovación, industria y autonomía estratégica se pu</description>
       <guid isPermaLink="false">https://s2grupo.es/apolo-nuevo-cluster-valenciano-de-la-industria-de-defensa/</guid>
       <pubDate>Thu, 05 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Respuesta automatizada a incidentes: cómo optimizar la gestión de ciberamenazas</title>
+      <link>https://s2grupo.es/respuesta-automatizada-a-incidentes/</link>
+      <description>En un contexto donde los ataques se multiplican y la velocidad de reacción es clave, la respuesta automatizada a incidentes se ha convertido en un pilar esencial de la ciberdefensa moderna. A través de tecnologías como SOAR y SIEM y herramientas propias como GLORIA, las organizaciones pueden detectar, contener y mitigar amenazas en segundos, reduciendo […] La entrada Respuesta automatizada a incidentes: cómo optimizar la gestión de ciberamenazas se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/respuesta-automatizada-a-incidentes/</guid>
+      <pubDate>Fri, 06 Feb 2026 07:42:44 +0000</pubDate>
     </item>
   </channel>
 </rss>
