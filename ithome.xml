@@ -8,44 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Feb 2026 06:50:38 +0000</lastBuildDate>
-    <item>
-      <title>自動化投資平臺Betterment遭社交工程攻擊，HIBP指外流140萬個Email地址與個資</title>
-      <link>https://www.ithome.com.tw/news/173795</link>
-      <description>新聞美國自動化投資平臺Betterment在1月9日，遭未授權人士透過社交工程入侵取得其部分系統的存取權，並透過該公司用於行銷與營運支援的第三方軟體平臺，向部分客戶發送冒名的加密貨幣相關詐騙訊息。 該公司於2月3日更新調查進度，指出在資安公司CrowdStrike支援下完成的鑑識調查確認，事件未導致客戶帳戶、密碼或登入資訊遭到入侵，也未出現憑證外洩跡象。不過Betterment仍在盤點被存取資料的範圍與隱私風險，並將網路上由宣稱犯案組織張貼的資料一併納入評估。 官方雖未公開受影響人數，不過資料外洩通報服務HaveIBeenPwned（HIBP）則表示，依其對外流資料的分析，此次事件涉及約140萬筆不重複的電子郵件地址，並包含姓名與地理位置等資料，另有部分紀錄包含出生日期、電話與實體地址。 Betterment說明，攻擊者採用的手法是社交工程，也就是以身分冒用與欺騙取得存取權，而非突破其技術基礎設施。被用來濫發訊息的管道，為Betterment用於行銷與營運支援的第三方軟體平臺，該公司在發現異常後已撤銷未授權存取並啟動調查，同時聯繫收到詐騙訊息的客戶，提醒忽略相關內容。 就個資影響範圍，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173795</guid>
-      <pubDate>Fri, 06 Feb 2026 06:45:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>華芸公告NAS設備存在重大漏洞，若不修補恐遭完整控制設備</title>
-      <link>https://www.ithome.com.tw/news/173793</link>
-      <description>新聞1月23日華芸科技（Asustor）發布資安公告AS-2026-002，指出該廠牌NAS作業系統Asustor Data Master（ADM），存在一項重大層級的輸入驗證不當漏洞，影響執行4.1、4.2、4.3，以及5.0版ADM的NAS設備，CVSS 4.0風險評估達到9.5分（滿分10分），該公司於2月5日發布5.1.2.RE51版修補漏洞。 此漏洞由參與資安公司戴夫寇爾（Devcore）實習生計畫的研究員Wilson Lu發現，後續被登記為CVE-2026-24936列管。這項漏洞出現在特定的使用情境，當NAS設備加入AD網域並啟用特定功能，某個CGI程式就會出現輸入參數驗證不當的情形，未經驗證的攻擊者從遠端進到系統、寫入任何檔案，甚至能複寫重要系統檔案，而導致整個系統被滲透。我們也向華芸進一步詢問，該公司表示他們在獲報後已儘快完成應對，並透過ADM 5.1.2.RE51完成修補。華芸表示，為了確保用戶能及時修補，除了網站的安全公告，ADM系統內部也會有自動更新通知，另外，該公司也會發送電子報給訂閱用戶。 值得留意的是，比利時網路安全中心（Centre for Cybers</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173793</guid>
-      <pubDate>Fri, 06 Feb 2026 07:02:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitHub Actions讓用戶無須倚賴K8s，也可替自架Runner建立自動縮放能力</title>
-      <link>https://www.ithome.com.tw/news/173801</link>
-      <description>新聞GitHub更新GitHub Actions，宣布GitHub Actions Runner規模集用戶端（Scale Set Client）進入公開預覽階段。該功能為獨立的Go模組，讓團隊無需依賴Kubernetes，即可運用Scale Set API替自架Runner建立自動縮放能力。 GitHub表示，Runner規模集用戶端負責與GitHub的Scale Set基礎架構進行互動與協調，至於Runner的建立、擴充與回收方式，則由使用者自行實作。組織可依據現有環境，將Runner部署於容器、虛擬機器、裸機或雲端服務上，再由GitHub Actions負責分派工作負載。 GitHub指出，該用戶端支援多標籤功能，可替同一個Scale Set指派多個標籤以支援不同建置類型，同時也適用於代理式工作流程情境，包括GitHub Copilot程式開發代理，並提供內建指標以監控工作與Runner的執行表現。 針對既有工具鏈，GitHub強調新用戶端並非用來取代Actions Runner Controller（ARC）。ARC仍是Scale Set API的參考實作，也是Kubernete</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173801</guid>
-      <pubDate>Fri, 06 Feb 2026 07:07:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>惡意軟體ValleyRAT假借LINE安裝程式散布，目的是竊取憑證</title>
-      <link>https://www.ithome.com.tw/news/173803</link>
-      <description>新聞去年4月，LINE與趨勢科技提出警告，呼籲臺灣用戶提高警覺，有人架設假網站聲稱提供電腦版LINE安裝程式，一旦不慎安裝，電腦就可能被植入惡意軟體，當時趨勢科技認為，這波攻擊行動疑似主要針對臺灣而來，如今這種冒牌LINE安裝程式的攻擊活動有擴大的趨勢，攻擊者也對簡體中文用戶下手。 資安公司Cybereason近日提出警告，他們從去年初開始，注意到冒充應用程式安裝檔的惡意軟體活動有所增加，其中一種就是偽裝成LINE的安裝程式，駭客針對簡體中文用戶，利用XML工作排程設定檔及PowerShell指令碼，以便使其能於受害電腦持續活動，而攻擊者最終執行的惡意軟體是ValleyRAT（Winos 4.0），過程中攻擊者會建立受害電腦與位於香港的伺服器連線。根據駭客使用的惡意軟體，他們研判攻擊者是中國APT駭客組織Silver Fox。對此，我們也向LINE詢問此事，他們表示母公司LY Corporation已得知近期的惡意軟體散布事件，該公司資安團隊正進行嚴密監控，已採取必要因應措施，並呼籲用戶從正式管道下載應用程式。 關於這波Silver Fox發動的ValleyRAT惡意軟體攻擊，Cybe</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173803</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/ValleyRat-image3.png" length="0" type="image/png"/>
-      <pubDate>Fri, 06 Feb 2026 08:48:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>多家資安公司揭露n8n重大漏洞，攻擊者建立工作流程就能接管伺服器</title>
-      <link>https://www.ithome.com.tw/news/173804</link>
-      <description>新聞開源工作流程自動化工具n8n的開發工程團隊於去年12月19日公告，他們在1.120.4、1.121.1，以及1.122.0版更新當中，修補重大層級的遠端程式碼執行（RCE）漏洞CVE-2025-68613，此漏洞出現於工作流程的表達式評估系統，CVSS風險評為9.9分（滿分10分），現在有3家資安公司指出，他們發現修補不夠完整的現象，攻擊者有機會繞過修補程式並挾持整個n8n系統。 資安公司Pillar Security、SecureLayer7，以及Endor Labs不約而同提出警告，他們在已修補CVE-2025-68613的n8n系統當中，發現新的資安漏洞CVE-2026-25049，攻擊者只要通過身分驗證就能利用。此為表達式逃逸造成的弱點，有可能引發遠端程式碼執行，只要攻擊者擁有建立或修改工作流程的權限，就能藉由濫用工作流程參數建立特定的表達式，而能在n8n主機觸發非預期的系統指令執行，值得留意的是，Pillar Security指出該漏洞的CVSS評分達到10分（4.0版為9.4分），相當危險，對此，n8n開發工程團隊在1月23日推出的1.123.17與2.5.2版完成修補</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173804</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/6982f7c1bb1ac8787eb9b09e_Group%201410193667%20(1)%20(1).png" length="0" type="image/png"/>
-      <pubDate>Fri, 06 Feb 2026 08:59:44 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 08 Feb 2026 06:57:27 +0000</lastBuildDate>
     <item>
       <title>微軟警告竊資軟體擴及macOS，還濫用PDF與WhatsApp相關工具擴大散布</title>
       <link>https://www.ithome.com.tw/news/173805</link>
@@ -82,6 +45,45 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/review/173743</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/p6-b300-main.jpg" length="0" type="image/jpeg"/>
       <pubDate>Fri, 06 Feb 2026 11:35:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>150萬AI代理實境秀的風險</title>
+      <link>https://www.ithome.com.tw/voice/173832</link>
+      <description>很多人愛看實境秀，我也是其中之一，但每次，我總會好奇，節目內容到底是真的人生，還是演出來的生活？判斷關鍵就在，到底有沒有劇本。 最近在科技圈引起火爆討論的AI代理社群平臺Moltbook，也是一場典型的網路世界實境秀，人工智慧程式是參與其中的角色，而真人則是只能看不能發言的實境秀觀眾。 不少媒體、網路意見領袖，大為驚艷於AI在論壇中各式各樣的「擬真人」的互動行為，抱怨自己的真人老闆，甚至設立AI自己的宗教，還出現了可供AI代理雇用的「真人臨時工」，AI可以刷卡付錢，派工真實世界的任務給真人來執行。 擅長研究各種駭客攻擊的資安業者Wiz，找到了（更可能是破解了）Moltbook的資料庫，發現有150萬個API金鑰，可說有150萬隻OpenClaw的AI代理在上面互動（這是Wiz破解當時的數據，現已超過160萬個AI代理），不過，註冊這些AI代理背後的真人郵件帳號，只有3.5萬個信箱，其中有17,000名真人個資。等於是這一萬七千多人，提供了算力、LLM資源，來執行上百萬隻AI代理，在這個平臺上展開了這場AI擬人實境秀。 許多人驚訝於AI代理程式的創造力、自主性，甚至喊出「天網來了」（Sk</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/voice/173832</guid>
+      <pubDate>Sun, 08 Feb 2026 02:21:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>【數位憑證皮夾打造數位環境的信任基石】手機就是個人隨身的憑證皮夾，兼顧身分驗證及隱私保護</title>
+      <link>https://www.ithome.com.tw/news/173833</link>
+      <description>新聞現在開始在7-ELEVEN或全家超商取貨變得很簡單，不用攜帶證件，拿起你的手機秀出QR Code，讓店員掃碼「嗶」一聲，就可以直接領走已付費的包裹，由於沒有出示身分證件，不需要擔心你的地址、年齡或身分證字號外洩，可能被他人冒用，甚至不用和店員對話。 讓超商取貨這件事變得不一樣的，是去年12月數發部啟動試營運的數位憑證皮夾，從民眾到超商取貨的身分驗證、取貨流程，串連3大電信發行電信電子卡到數位憑證皮夾App，讓全國超過11,000家7-ELEVEN或全家門市都能支援數位憑證皮夾「超商取貨」。 為簡化部分數位服務的身分驗證需求，同時避免敏感個資外洩風險，數發部早在2024年開始規畫數位憑證皮夾（Taiwan Digital Identity Wallet，TW DIW）政策，2025年3月進入沙盒實驗階段，開放有興趣的憑證發行、業者、使用者，透過沙盒實驗驗證技術架構可行性，這個前後歷經兩位數發部長的政策，終於在2025年12月中進入試營運階段。 數位憑證皮夾試營運，開放iPhone、Android手機下載數位憑證皮夾App，不需要攜帶實體證件，讓每個人隨身攜帶的手機化身為你的憑證皮夾，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173833</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1272-feng_mian_gu_shi_-p1-wen_bin_-open-960x420_kao_bei_0.jpg?itok=yq_NPWzU" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Feb 2026 01:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>【引進國際標準及技術，建立國內數位憑證驗證的公共基礎】數位憑證皮夾實現資料自主權及簡化驗證的關鍵</title>
+      <link>https://www.ithome.com.tw/news/173834</link>
+      <description>新聞「數位憑證皮夾讓民眾僅提供必要的資訊，真正落實該給的才給，不該給的一個都不多的隱私保障」，數發部長林宜敬一語點出民眾提供實體證件驗證身分背後的隱私風險。 當民眾提供實體證件供服務商驗證身分，個人身分資訊揭露是全有或全無，證件上記載的所有個資都會一併揭露，民眾並不能控制只要揭露哪些資料，導致身分資訊外流，例如身分證字號、出生年月日或是你家的地址。 數位憑證皮夾則採用選擇性揭露（Selective disclosure）的隱私保護技術，賦予數位憑證的使用者對於個人身分資料的可控性，使用者可以選擇只揭露驗證身分需要的最少資訊，例如只授權出生年月日資訊，讓服務系統驗證年齡是否達到18歲，而不需要提供你的姓名、住址等資訊，暴露太多個人訊息。 此外，如同數發部於皮夾試營運時說的，數位憑證皮夾如同現實中每個人擁有的實體皮夾，實體皮夾內放著各種證件，例如駕照、健保卡等等，以證明自己擁有的身分資格，因此在數位世界裡也應有數位工具，即數位憑證皮夾，希望通過數位憑證皮夾，達到多憑證整合，同時促成政府機關憑證的數位化，並且和民間企業間接，提供簡單、安全、方便的工具。 目前在數位憑證皮夾政策中，數發部將和交</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173834</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1272-cover-P2-600-1-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E6%95%B8%E7%99%BC%E9%83%A8.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Feb 2026 01:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>【以民眾生活為中心建立應用場景】手機結合行動憑證皮夾，如何快速完成服務驗證身分需求</title>
+      <link>https://www.ithome.com.tw/news/173835</link>
+      <description>新聞數位憑證皮夾政策的推動，歷經一年多的規畫、開發、溝通說明，終於在2025年12月中進入試營運，開放民眾在手機下載數位憑證皮夾App，數位憑證皮夾的推動，以應用場景串連發證方及驗證方，數發部在試營運記者會上，展示已上線的超商取貨應用，以及求職、租車會員註冊、數位通行、工商服務行動申辦、訪客管理6大應用場景。 目前在試營運階段，已上線的第一個應用驗證場景是民眾較常使用的「超商取貨」，利用數位憑證皮夾來簡化物流最後一哩交付包裹的身分驗證流程。 目前不論是7-ELEVEN或是全家，都提供民眾以超商的會員身分，透過手機上的超商App，免出示身分證件快速完成身分認證，領取已付費的包裹，目的在簡化超商取貨的身分驗證流程，減輕店員的工作負荷。 以7-ELEVEN為例，超商取貨除了出示身分證件，還可以OPENPOINT APP零元認證條碼，以條碼代替身分證件，讓會員憑App上的取貨條碼，快速完成身分驗證，一年約有3,300萬使用人次；全家也在其會員App提供包裹快取條碼或是包裹預約自取，強調可以一組條碼領取多件包裹，目的是為了優化包裹取件的作業流程。 然而，不論是7-ELEVEN或是全家的免攜證超商</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173835</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1292-cover-P3-600-1-%E6%94%9D%E5%BD%B1-%E8%98%87%E6%96%87%E5%BD%AC.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Feb 2026 01:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>手機就是你的憑證皮夾</title>
+      <link>https://www.ithome.com.tw/article/173836</link>
+      <description>專題故事整合駕照、工商憑證、技術士證照，到畢業證書、學生證、旅館房卡、會員卡、訪客證，通過掃碼快速完成身分驗證，授權最少身分資訊，讓手機成為打開各種服務大門的萬能鑰匙。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/article/173836</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1272-feng_mian_gu_shi_-p1-wen_bin_-open-960x420_kao_bei_0.jpg?itok=yq_NPWzU" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Feb 2026 01:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

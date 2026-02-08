@@ -8,80 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Feb 2026 06:48:10 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Feb 2026 06:54:51 +0000</lastBuildDate>
     <item>
-      <title>8.Sync Data to S3 Bucket with Terraform</title>
-      <link>https://dev.to/thukhakyawe_cloud/8sync-data-to-s3-bucket-with-terraform-2h4</link>
-      <description>Lab Information As part of a data migration project, the team lead has tasked the team with migrating data from an existing S3 bucket to a new S3 bucket. The existing bucket contains a substantial amount of data that must be accurately transferred to the new bucket. The team is responsible for creating the new S3 bucket using Terraform and ensuring that all data from the existing bucket is copied or synced to the new bucket completely and accurately. It is imperative to perform thorough verifica</description>
-      <guid isPermaLink="false">https://dev.to/thukhakyawe_cloud/8sync-data-to-s3-bucket-with-terraform-2h4</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/image.png" length="0" type="image/png"/>
-      <pubDate>Sat, 07 Feb 2026 05:58:18 +0000</pubDate>
+      <title>How Traffic Leaves a Private Subnet in AWS</title>
+      <link>https://dev.to/irfansatrio/how-traffic-leaves-a-private-subnet-in-aws-4770</link>
+      <description>Understanding how traffic leaves a private subnet is an important part of AWS networking. Private subnets are often described as “not connected to the internet,” yet instances inside them can still download updates, call external APIs, or access managed AWS services. This behavior is fully intentional and driven by routing decisions inside the VPC. In this article, we’ll walk through how outbound traffic from a private subnet actually works, step by step, without jumping straight into complex ar</description>
+      <guid isPermaLink="false">https://dev.to/irfansatrio/how-traffic-leaves-a-private-subnet-in-aws-4770</guid>
+      <pubDate>Sun, 08 Feb 2026 05:48:35 +0000</pubDate>
     </item>
     <item>
-      <title>9.Prevent S3 Bucket Deletion via Terraform</title>
-      <link>https://dev.to/thukhakyawe_cloud/9prevent-s3-bucket-deletion-via-terraform-1gfc</link>
-      <description>Lab Information To ensure secure and accidental-deletion-proof storage, the DevOps team must configure an S3 bucket using Terraform with strict lifecycle protections. The goal is to create a bucket that is dynamically named and protected from being destroyed by mistake. Please complete the following tasks: Create an S3 bucket named devops-s3-7734. Apply the prevent_destroy lifecycle rule to protect the bucket. Create the main.tf file (do not create a separate .tf file) to provision a s3 bucket w</description>
-      <guid isPermaLink="false">https://dev.to/thukhakyawe_cloud/9prevent-s3-bucket-deletion-via-terraform-1gfc</guid>
-      <pubDate>Sat, 07 Feb 2026 06:00:48 +0000</pubDate>
+      <title>DeepSeek AI 2026: Complete Guide to the $6M Model</title>
+      <link>https://dev.to/aristoaistack/deepseek-ai-2026-complete-guide-to-the-6m-model-2k6</link>
+      <description>A Chinese AI lab nobody had heard of just matched OpenAI's best reasoning model — for $6 million instead of $100 million+. The AI industry is losing its mind. Here's what actually matters. TL;DR — The Quick Take DeepSeek R1 delivers OpenAI o1-level reasoning at $2.19 per million tokens (vs $60 for o1). It's open-source, MIT-licensed, and genuinely impressive. But all data routes through servers in China, multiple governments have banned it, and there are real privacy concerns you need to underst</description>
+      <guid isPermaLink="false">https://dev.to/aristoaistack/deepseek-ai-2026-complete-guide-to-the-6m-model-2k6</guid>
+      <pubDate>Sun, 08 Feb 2026 05:51:54 +0000</pubDate>
     </item>
     <item>
-      <title>Java_class,Object</title>
-      <link>https://dev.to/ajayr18/javaclassobject-17ag</link>
-      <description>Java is an object-oriented programming language. Everything revolves around class and object. What is a Class in Java? To create a class, use the keyword class. A class is a user-defined data type in Java that groups variables and methods together into a single unit. A class acts as a blueprint that describes how objects should look and behave. class Student { String name; int age; void study() { System.out.println(name + " is studying"); } } Here: name,age → variables study() → method Student →</description>
-      <guid isPermaLink="false">https://dev.to/ajayr18/javaclassobject-17ag</guid>
-      <pubDate>Sat, 07 Feb 2026 06:02:58 +0000</pubDate>
+      <title>Why I Built Locademy: A Local-First Video Learning Hub</title>
+      <link>https://dev.to/swimshahriar/why-i-built-locademy-a-local-first-video-learning-hub-4fh8</link>
+      <description>I have a confession: my "Downloads" folder is a graveyard of tutorial series, conference talks, and screen recordings. Navigating through nested folders to find the next video in a sequence is a friction point that often kills my motivation to learn. I wanted something that felt like a premium LMS (Learning Management System) but lived entirely on my machine—no accounts, no subscriptions, and no "cloud sync" privacy concerns. So, I built Locademy. The Goal: From Messy Folders to Clean Modules Lo</description>
+      <guid isPermaLink="false">https://dev.to/swimshahriar/why-i-built-locademy-a-local-first-video-learning-hub-4fh8</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyt0syk0audpvpakllp6n.png" length="0" type="image/png"/>
+      <pubDate>Sun, 08 Feb 2026 06:01:55 +0000</pubDate>
     </item>
     <item>
-      <title>Web APIs That Replace Entire Libraries</title>
-      <link>https://dev.to/web_dev-usman/web-apis-that-replace-entire-libraries-2ia8</link>
-      <description>Browsers have become incredibly powerful. Features that used to require heavy JavaScript libraries are now built right into the browser. And honestly, it’s about time. Let me walk you through the Web APIs that are replacing entire libraries and making your bundle sizes way smaller. All practical examples are here for you: 👇 1. View Transitions API Back then, you needed to install Framer Motion, GSAP, or some other animation library for smooth page transitions. Now the View Transitions API handle</description>
-      <guid isPermaLink="false">https://dev.to/web_dev-usman/web-apis-that-replace-entire-libraries-2ia8</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz7oazk9duk0o7i91jb39.png" length="0" type="image/png"/>
-      <pubDate>Sat, 07 Feb 2026 06:06:31 +0000</pubDate>
+      <title>CAPTCHA Tried to Stop Me: How MailSlurp Saved Email Tests</title>
+      <link>https://dev.to/kanimesha99/captcha-tried-to-stop-me-how-mailslurp-saved-email-tests-2gg8</link>
+      <description>MailSlurp 101: Email verification is one of the most difficult tasks to automate in automated testing. OTP codes, password reset emails, sign-up links, and magic links typically lead to genuine inboxes like Gmail or Outlook, which are not conducive to automation. Mailslurp changes the game at this point. An email testing tool and API called MailSlurp enables testers to: Make short-term email accounts Get actual emails that the application has sent. Use API calls to read email content. Extract at</description>
+      <guid isPermaLink="false">https://dev.to/kanimesha99/captcha-tried-to-stop-me-how-mailslurp-saved-email-tests-2gg8</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzf0vtvn75p2bll0kp8uc.png" length="0" type="image/png"/>
+      <pubDate>Sun, 08 Feb 2026 06:06:18 +0000</pubDate>
     </item>
     <item>
-      <title>BoldKit Now Supports Vue 3: 45+ Neubrutalism Components for Vue Developers</title>
-      <link>https://dev.to/aniruddha_agarwal_d3d6b0e/boldkit-now-supports-vue-3-45-neubrutalism-components-for-vue-developers-4l1o</link>
-      <description>Hey Vue developers! 👋 Remember BoldKit, the neubrutalism component library I introduced a few weeks ago? Well, I've got exciting news — BoldKit v2.0 is here with full Vue 3 support! If you missed the original announcement, BoldKit brings the bold, raw aesthetic of neubrutalism to your projects with thick borders, hard shadows, and high-contrast colors that make your UI pop. What's New in v2.0? The entire component library has been ported to Vue 3: 45+ components built with Composition API 35 SVG</description>
-      <guid isPermaLink="false">https://dev.to/aniruddha_agarwal_d3d6b0e/boldkit-now-supports-vue-3-45-neubrutalism-components-for-vue-developers-4l1o</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fc2ytwsbhsj6fb61r2hnt.png" length="0" type="image/png"/>
-      <pubDate>Sat, 07 Feb 2026 06:15:32 +0000</pubDate>
+      <title>How to Host a Website on an Ubuntu VM Using VMware and Nginx and get unstuck if it doesn't load (Step-by-Step Guide)</title>
+      <link>https://dev.to/alok38/how-to-host-a-website-on-an-ubuntu-vm-using-vmware-and-nginx-step-by-step-guide-21io</link>
+      <description>🧪 Ubuntu VM Web Server Lab (VMware + SSH + Nginx) A hands-on lab to learn Linux web servers, networking, firewall rules, and real-world troubleshooting (plus how these skills transfer to AWS EC2 and DevOps). 🧰 Tech Stack Windows 10/11 (Host OS) Ubuntu Linux (Guest VM) VMware Workstation Nginx Web Server SSH (from PowerShell) 🎯 Why I installed Nginx I installed Nginx to: Practice hosting a web service on a Linux server Test networking between Windows (host) and Ubuntu VM (guest) Learn real-world</description>
+      <guid isPermaLink="false">https://dev.to/alok38/how-to-host-a-website-on-an-ubuntu-vm-using-vmware-and-nginx-step-by-step-guide-21io</guid>
+      <pubDate>Sun, 08 Feb 2026 06:08:20 +0000</pubDate>
     </item>
     <item>
-      <title>🚀 How I’d Learn Go (Golang) Fast in 2026 — If I Were Starting Today</title>
-      <link>https://dev.to/yash_sonawane25/how-id-learn-go-golang-fast-in-2026-if-i-were-starting-today-1pk0</link>
-      <description>Go (Golang) isn’t hype anymore. In 2026, Go is the language behind: Cloud-native systems ☁️ DevOps &amp;amp; platform tooling 🛠️ High-performance backends ⚡ Kubernetes, Docker, Terraform-level infrastructure If you’re learning Go right now and feeling confused, overwhelmed, or slow — this post is for you. I’ll show you exactly how to learn and practice Go faster, without drowning in tutorials. 🤔 Why Go Is Worth Learning in 2026 Go was designed for real-world engineering problems, not academic perfection</description>
-      <guid isPermaLink="false">https://dev.to/yash_sonawane25/how-id-learn-go-golang-fast-in-2026-if-i-were-starting-today-1pk0</guid>
-      <pubDate>Sat, 07 Feb 2026 06:16:25 +0000</pubDate>
+      <title>Copilot vs Cursor vs Cody 2026: AI Coding Compared</title>
+      <link>https://dev.to/aristoaistack/copilot-vs-cursor-vs-cody-2026-ai-coding-compared-12jh</link>
+      <description>"I'm already paying for one AI coding tool. Should I switch?" This is the question I keep hearing from developers. GitHub Copilot was first. Cursor disrupted everything. And Cody quietly became the best option nobody talks about. After using all three on real projects — React apps, Python backends, infrastructure scripts — I have strong opinions. Spoiler: The best choice depends on one question: How do you work? TL;DR — The Quick Verdict For staying in your current IDE: GitHub Copilot wins. Work</description>
+      <guid isPermaLink="false">https://dev.to/aristoaistack/copilot-vs-cursor-vs-cody-2026-ai-coding-compared-12jh</guid>
+      <pubDate>Sun, 08 Feb 2026 06:11:57 +0000</pubDate>
     </item>
     <item>
-      <title>Common Manual Testing Techniques and The Future Of Manual Testing in the age of AI</title>
-      <link>https://dev.to/madhupriyamahalingan/common-manual-testing-techniques-and-the-future-of-manual-testing-in-the-age-of-ai-485o</link>
-      <description>Introduction Software testing plays a critical role in ensuring that applications function correctly, meet user expectations, and maintain high quality standards.Manual testing involves human testers executing test cases without automation tools, allowing them to evaluate software from a real user’s perspective.Manual testing techniques help testers identify defects, validate requirements, and ensure smooth user experiences. This blog explores common manual testing types and techniques, explains</description>
-      <guid isPermaLink="false">https://dev.to/madhupriyamahalingan/common-manual-testing-techniques-and-the-future-of-manual-testing-in-the-age-of-ai-485o</guid>
-      <pubDate>Sat, 07 Feb 2026 06:28:34 +0000</pubDate>
+      <title>I Built a YouTube Dislike Viewer with Next.js 16 — Here's How</title>
+      <link>https://dev.to/yege/i-built-a-youtube-dislike-viewer-with-nextjs-16-heres-how-a0b</link>
+      <description>I Built a YouTube Dislike Viewer with Next.js 16 Ever since YouTube removed the public dislike count, it's been harder to judge video quality at a glance. So I built a simple tool to bring it back. Live site: https://www.youtubedislikeviewer.shop What It Does Paste any YouTube URL or video ID, and instantly see: 👍 Likes &amp;amp; 👎 Dislikes 📊 Like/Dislike ratio bar 👁 View count &amp;amp; rating 🕐 Search history (stored locally) Tech Stack Next.js 16 (App Router + Turbopack) React 19 + TypeScript 5.9 Tailwind CS</description>
+      <guid isPermaLink="false">https://dev.to/yege/i-built-a-youtube-dislike-viewer-with-nextjs-16-heres-how-a0b</guid>
+      <pubDate>Sun, 08 Feb 2026 06:17:47 +0000</pubDate>
     </item>
     <item>
-      <title>Design HLD - Notification Sytem</title>
-      <link>https://dev.to/learnwithvikzzy/design-hld-notification-sytem-eo7</link>
-      <description>Requirements Functional Requirements Support sending notifications to users. Support delivery across multiple channels (Email, SMS, Push, In-app). Support critical and promotional notification types. Support user notification preferences and opt-in/opt-out. Support scheduled notifications. Support bulk notifications targeting large user groups. Support safe retries and idempotent notification processing. Support tracking of notification delivery status. Non-Functional Requirements Highly availab</description>
-      <guid isPermaLink="false">https://dev.to/learnwithvikzzy/design-hld-notification-sytem-eo7</guid>
-      <pubDate>Sat, 07 Feb 2026 06:30:45 +0000</pubDate>
+      <title>Python vs. a Modern BASIC Interpreter: When the “Toy Language” Actually Wins</title>
+      <link>https://dev.to/atomijd/python-vs-a-modern-basic-interpreter-when-the-toy-language-actually-wins-2h3j</link>
+      <description>I like Python. A lot, actually. It is hard to argue against it: Python dominates data science, AI, and a large part of backend development. But I am also a C++ developer, and over the last year I built my own interpreter: jdBasic. Not as a Python replacement, but as an experiment in a different direction. The question behind it was simple: What happens if you design a language and an interpreter purely around reducing friction during everyday development and experimentation? This article is not</description>
+      <guid isPermaLink="false">https://dev.to/atomijd/python-vs-a-modern-basic-interpreter-when-the-toy-language-actually-wins-2h3j</guid>
+      <pubDate>Sun, 08 Feb 2026 06:24:51 +0000</pubDate>
     </item>
     <item>
-      <title>🧠 JavaScript Type Coercion — A Question That Teaches</title>
-      <link>https://dev.to/manasa_bolisetti_8f262624/javascript-type-coercion-a-question-that-teaches-5edj</link>
-      <description>Let’s talk about a JavaScript expression that looks wrong but is 100% valid 👀 [] == ![] At first glance, most people expect this to be false. 👉 But the result is true. Let’s break it down step by step, using JavaScript’s actual rules — no magic, no guessing Step 1: Evaluate the logical NOT ![] [] is an object All objects in JavaScript are truthy Applying ! to a truthy value results in false So the expression becomes: [] == false Step 2: Loose equality (==) triggers type coercion In JavaScript's</description>
-      <guid isPermaLink="false">https://dev.to/manasa_bolisetti_8f262624/javascript-type-coercion-a-question-that-teaches-5edj</guid>
-      <pubDate>Sat, 07 Feb 2026 06:33:58 +0000</pubDate>
+      <title>Claude Sync: Sync Your Claude Code Sessions Across All Your Devices Simplified</title>
+      <link>https://dev.to/tawanorg/claude-sync-sync-your-claude-code-sessions-across-all-your-devices-simplified-49bl</link>
+      <description>If you use Claude Code (Anthropic's official CLI), you've probably experienced this frustration: You're deep into a coding session on your work laptop. Claude remembers your project context, your preferences, your conversation history. Everything is flowing perfectly. Then you switch to your personal MacBook... and it's all gone. Claude doesn't know what you were working on. Your custom agents? Gone. Your project memory? Vanished. You have to start from scratch. I built Claude Sync to fix this.</description>
+      <guid isPermaLink="false">https://dev.to/tawanorg/claude-sync-sync-your-claude-code-sessions-across-all-your-devices-simplified-49bl</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1ah89vnj6o6vhrvtx70g.png" length="0" type="image/png"/>
+      <pubDate>Sun, 08 Feb 2026 06:28:32 +0000</pubDate>
     </item>
     <item>
-      <title>The Financial Reporting Paradox and ClearVoro Analysis of MicroStrategy’s Q4 Loss</title>
-      <link>https://dev.to/clearvoro/the-financial-reporting-paradox-and-clearvoro-analysis-of-microstrategys-q4-loss-2101</link>
-      <description>The recent financial disclosure from MicroStrategy, reporting a net loss of $1.2 billion for the fourth quarter of 2025, presents a significant case study in the limitations of traditional accounting. While the headline figure suggests a massive operational failure, a closer examination reveals that the loss is primarily driven by impairment charges on digital asset holdings. This accounting rule mandates that companies write down the value of their assets when market prices dip, yet prevents th</description>
-      <guid isPermaLink="false">https://dev.to/clearvoro/the-financial-reporting-paradox-and-clearvoro-analysis-of-microstrategys-q4-loss-2101</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fknk3m4hmmd3lif90u67u.png" length="0" type="image/png"/>
-      <pubDate>Sat, 07 Feb 2026 06:36:47 +0000</pubDate>
+      <title>CReact: JSX meta-execution engine v0.3.0</title>
+      <link>https://dev.to/dcoutinho96/creact-jsx-meta-execution-engine-v030-3g6j</link>
+      <description>A meta-runtime for building domain-specific, reactive execution engines. Just released version 0.3.0, with a cool new demo! Demo: https://github.com/creact-labs/ai-powered-aws-website-generator CReact: https://github.com/creact-labs/creact Website: https://creact-labs.github.io/creact/</description>
+      <guid isPermaLink="false">https://dev.to/dcoutinho96/creact-jsx-meta-execution-engine-v030-3g6j</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbugoncovg3qvzwasg2bl.png" length="0" type="image/png"/>
+      <pubDate>Sun, 08 Feb 2026 06:39:16 +0000</pubDate>
     </item>
   </channel>
 </rss>
