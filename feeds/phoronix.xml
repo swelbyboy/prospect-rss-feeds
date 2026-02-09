@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Feb 2026 06:55:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 07:08:54 +0000</lastBuildDate>
     <item>
-      <title>Wine 11.2 Released With More Improvements &amp;amp; 32 Bug Fixes</title>
-      <link>https://www.phoronix.com/news/Wine-11.2-Released</link>
-      <description>Wine 11.2 is out as the latest bi-weekly development release in the road toward the Wine 12.0 stable release next January...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-11.2-Released</guid>
-      <pubDate>Fri, 06 Feb 2026 21:31:46 +0000</pubDate>
+      <title>Microsoft On QEMU 10.2's New MSHV Accelerator For Hyper-V Guests</title>
+      <link>https://www.phoronix.com/news/QEMU-MSHV-Microsoft-Accelerator</link>
+      <description>With QEMU 10.2 that released at the end of last year is the new "MSHV" accelerator for allowing VMs to be created from a Microsoft Hyper-V guest without using nested virtualization. Last weekend at FOSDEM 2026 was a presentation on this MSHV accelerator for those interested...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/QEMU-MSHV-Microsoft-Accelerator</guid>
+      <pubDate>Sun, 08 Feb 2026 11:25:23 +0000</pubDate>
     </item>
     <item>
-      <title>KDE Plasma 6.6 Fixing Significant Issues With Fingerprint Authentication</title>
-      <link>https://www.phoronix.com/news/Plasma-6.6-Fingerprint-Fixes</link>
-      <description>There is less than two weeks to go until the official KDE Plasma 6.6 desktop release. Plasma 6.6 is still seeing bug fixes in this final stretch of development while KDE developers are also busy already on Plasma 6.7 feature work...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-Fingerprint-Fixes</guid>
-      <pubDate>Sat, 07 Feb 2026 01:09:23 +0000</pubDate>
+      <title>DreamWorks' OpenMoonRay 2.40 Introduces New GUI, Light Path Visualizer</title>
+      <link>https://www.phoronix.com/news/DreamWorks-OpenMoonRay-2.40</link>
+      <description>Back in 2022 DreamWorks Animation announced they were open-sourcing their MoonRay renderer and was then published in early 2023 for this renderer that has been used in a variety of featured animated films. Since then they have continued advancing this MoonRay code via the open-source OpenMoonRay project and this week published their newest feature update...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/DreamWorks-OpenMoonRay-2.40</guid>
+      <pubDate>Sun, 08 Feb 2026 11:42:51 +0000</pubDate>
     </item>
     <item>
-      <title>Mesa 25.3.5 Brings Vulkan Driver Fixes &amp;amp; Other Minor Changes -- Even For The Old R600g</title>
-      <link>https://www.phoronix.com/news/Mesa-25.3.5-Released</link>
-      <description>While Mesa 26.0 stable will be out soon, the belated Mesa 25.3.5 point release is now available for serving as the current latest stable point release...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-25.3.5-Released</guid>
-      <pubDate>Sat, 07 Feb 2026 05:00:00 +0000</pubDate>
+      <title>Intel Releases QATlib 26.02 With New APIs For Zero-Copy DMA</title>
+      <link>https://www.phoronix.com/news/Intel-QATlib-26.02</link>
+      <description>Of Intel's different CPU accelerator IPs, the arguably most useful and with the greatest customer interest remains around QuickAssist Technology (QAT). Intel QAT allows offloading various compression and encryption tasks for better performance. Intel this week released QATlib 26.02 as the newest version of their user-space library for leveraging QuickAssist Technology on capable hardware...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-QATlib-26.02</guid>
+      <pubDate>Sun, 08 Feb 2026 11:50:22 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19 Sees Last Minute Scheduler Regression Fixes</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Scheduler-Fixes-Last</link>
-      <description>Ahead of the planned Linux 6.19 stable kernel release tomorrow, there have been some last-minute fixes submitted for the scheduler code, including for performance regressions...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Scheduler-Fixes-Last</guid>
-      <pubDate>Sat, 07 Feb 2026 11:03:09 +0000</pubDate>
+      <title>Wine-Staging 11.2 Brings More Patches To Help Adobe Photoshop On Linux</title>
+      <link>https://www.phoronix.com/news/Wine-Staging-11.2</link>
+      <description>Building off Friday's release of Wine 11.2 is now Wine-Staging 11.2 as this experimental/testing version of Wine with hundreds of extra patches that have yet to be introduced in upstream proper for this open-source software enabling Windows games and applications on Linux. Notable in this bi-weekly update are more patches for continuing to improve the Adobe Photoshop installer support on Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-Staging-11.2</guid>
+      <pubDate>Sun, 08 Feb 2026 12:02:55 +0000</pubDate>
     </item>
     <item>
-      <title>GNOME's Glycin 2.1 Beta Enables JPEG 2000 Support By Default</title>
-      <link>https://www.phoronix.com/news/Glycin-2.1-Beta-JPEG-2000</link>
-      <description>GNOME's Rust-based and sandboxed Glycin image loading library focused on safety now supports JPEG 2000 images by default...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Glycin-2.1-Beta-JPEG-2000</guid>
-      <pubDate>Sat, 07 Feb 2026 11:11:26 +0000</pubDate>
+      <title>Intel Appears To Have Quietly Sunset "On Demand" Software Defined Silicon</title>
+      <link>https://www.phoronix.com/news/Intel-On-Demand-SDSi-Sunset</link>
+      <description>Back in 2021 on Phoronix was first to report on Intel preparing Linux patches for a "Software Defined Silicon" feature for activating extra licensed hardware features. That Software Defined Silicon support continued moving forward and was then announced as Intel On Demand with a focus on users being able to pay to activate additional accelerators found on select SKUs but not enabled by default...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-On-Demand-SDSi-Sunset</guid>
+      <pubDate>Sun, 08 Feb 2026 12:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>KMS Recovery Mechanism Being Worked On For Linux Display Drivers</title>
-      <link>https://www.phoronix.com/news/KMS-Recovery-Mechanism</link>
-      <description>A Linux kernel engineer at Microsoft is working on a useful Linux desktop improvement. Hamza Mahfooz who previously worked for AMD on their AMDGPU Linux display driver code has been spearheading work on a KMS recovery mechanism to help kernel mode-setting display drivers recover in case of problems...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/KMS-Recovery-Mechanism</guid>
-      <pubDate>Sat, 07 Feb 2026 11:20:00 +0000</pubDate>
+      <title>A Lot Of Exciting Changes To Look Forward To With Linux 6.20 -- Or Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Feature-Preview</link>
+      <description>With Linux 6.19 due for release later today it then opens up the next kernel merge window. It could be Linux 6.20 but more than likely the next kernel version will be called Linux 7.0 with Linus Torvalds' past tradition of bumping the major version number after X.19. Whatever it ends up being called, here is a look at various "-next" changes that have been queuing up ahead of the merge window...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Feature-Preview</guid>
+      <pubDate>Sun, 08 Feb 2026 14:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>KDE Linux To Provide Better Hardware Support &amp;amp; Better Performance</title>
-      <link>https://www.phoronix.com/news/KDE-Linux-Performance-Hardware</link>
-      <description>Following the September release of the KDE LInux reference distribution for the KDE desktop in alpha form, KDE Linux developers have been working toward the beta release with more improvements to this open-source desktop distro...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Linux-Performance-Hardware</guid>
-      <pubDate>Sat, 07 Feb 2026 11:35:27 +0000</pubDate>
+      <title>D7VK 1.3 Brings Support For Direct3D 5 On Vulkan</title>
+      <link>https://www.phoronix.com/news/D7VK-1.3-Released</link>
+      <description>D7VK is a fork of the DXVK project that is an important part of Valve's Steam Play (Proton) for Direct3D 8 / 9 / 10 / 11 support atop Vulkan. With D7VK the original goal was a Direct3D 7 implementation on Vulkan. D7VK 1.1 brought experimental Direct3D 6 support and now with today's release of D7VK 1.3 is support for Direct3D 5...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/D7VK-1.3-Released</guid>
+      <pubDate>Sun, 08 Feb 2026 15:33:15 +0000</pubDate>
     </item>
     <item>
-      <title>Initial AMD Zen 6 "znver6" Support Merged For LLVM/Clang</title>
-      <link>https://www.phoronix.com/news/AMD-Zen-6-znver6-LLVM-Clang</link>
-      <description>Merged overnight to the LLVM/Clang compiler's codebase was initial targeting for next-generation AMD Zen 6 processors using the znver6 target...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-Zen-6-znver6-LLVM-Clang</guid>
-      <pubDate>Sat, 07 Feb 2026 12:20:00 +0000</pubDate>
+      <title>Intel Recently Shelved Numerous Open-Source Projects</title>
+      <link>https://www.phoronix.com/news/Intel-OSS-Projects-Ended-2025</link>
+      <description>After discovering this morning that Intel archived/discontinued its On Demand "SDSi" GitHub project around that controversial feature, it was a slippery slope in noticing Intel recently archived around two dozen other open-source projects they previously maintained...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-OSS-Projects-Ended-2025</guid>
+      <pubDate>Sun, 08 Feb 2026 19:06:12 +0000</pubDate>
     </item>
     <item>
-      <title>NetBSD 11.0-RC1 Available For Testing With Enhanced Linux Emulation</title>
-      <link>https://www.phoronix.com/news/NetBSD-11.0-RC1</link>
-      <description>The first release candidate of the big NetBSD 11.0 release is now available for testing...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NetBSD-11.0-RC1</guid>
-      <pubDate>Sat, 07 Feb 2026 14:10:45 +0000</pubDate>
+      <title>Linux 6.19 Released With Better Support For Older AMD GPUs, DRM Color Pipeline API</title>
+      <link>https://www.phoronix.com/news/Linux-6.19-Released</link>
+      <description>As anticipated due to the extra week for the cycle given end of year holidays, Linus Torvalds today released the Linux 6.19 stable kernel as the first major release of 2026. There is a lot in store with this early 2026 kernel release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Released</guid>
+      <pubDate>Sun, 08 Feb 2026 21:11:30 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19 Features Include Many Benefits For Intel &amp;amp; AMD Users</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Best-Feature-Changes</link>
-      <description>With the Linux 6.19 stable kernel expected to be released tomorrow (8 February), here is a reminder about the top features to expect from this next version of the Linux kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Best-Feature-Changes</guid>
-      <pubDate>Sat, 07 Feb 2026 21:38:10 +0000</pubDate>
+      <title>Linus Torvalds Confirms The Next Kernel Is Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Is-Next</link>
+      <description>Following Linus Torvalds releasing Linux 6.19 stable, Linus Torvalds is now out with his customary release announcement. Notably he officially confirmed that the next kernel version is Linux 7.0 as the successor to Linux 6.19...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Is-Next</guid>
+      <pubDate>Sun, 08 Feb 2026 21:25:22 +0000</pubDate>
     </item>
   </channel>
 </rss>
