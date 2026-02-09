@@ -8,82 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Feb 2026 06:57:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 07:11:09 +0000</lastBuildDate>
     <item>
-      <title>微軟警告竊資軟體擴及macOS，還濫用PDF與WhatsApp相關工具擴大散布</title>
-      <link>https://www.ithome.com.tw/news/173805</link>
-      <description>新聞微軟資安研究團隊發布報告指出，近年以竊取帳密與工作階段資料為主的資訊竊取程式，過去多與Windows環境相關，近期則出現更多鎖定macOS的攻擊活動，顯示攻擊範圍正擴大到多種作業系統。攻擊者同時利用Python等跨平臺語言降低改寫門檻，並藉由WhatsApp與PDF轉檔或編輯工具等常見使用情境擴大散布管道，使竊資行動更容易滲透受害者的日常工作與生活流程。 微軟從2025年底開始觀察到多起macOS竊資攻擊。常見入口是使用者在網路上搜尋軟體或工具時，遭Google Ads或惡意廣告導向仿冒網站，這些網站不是提供偽裝成正常程式的安裝檔，就是以社交工程手法誘導使用者在終端機複製貼上指令，進而投放DigitStealer、MacSync與Atomic macOS Stealer（AMOS）等macOS專用竊資程式。 攻擊者會蒐集瀏覽器登入憑證、已儲存密碼、加密貨幣錢包資料，以及雲端登入憑證與開發者環境中的敏感資料，包含鑰匙圈與開發用存取金鑰等，彙整後送往攻擊者伺服器，部分案例還會刪除感染痕跡以降低追查難度。 研究人員還觀察到，過去一年多起以釣魚電子郵件散布的Python竊資攻擊，竊取目標涵</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173805</guid>
-      <pubDate>Fri, 06 Feb 2026 10:30:07 +0000</pubDate>
+      <title>ai.com以7,000萬美元售出，將提供自主型AI代理人服務</title>
+      <link>https://www.ithome.com.tw/news/173838</link>
+      <description>新聞全球最具象徵性的網域名稱之一ai.com，近日以約7,000萬美元完成交易，成為近年來公開資訊中成交金額最高的單一網域之一。該網址由加密貨幣平臺Crypto.com的共同創辦人暨執行長Kris Marszalek取得，並準備於2月8日正式推出自主型AI代理人服務。Marszalek亦於社群平臺X上透露相關計畫。 ai.com最早註冊於1990年代，是網際網路早期即存在的老牌.com網域。過去數十年間，該網址曾多次易手或被短暫用作轉址，但始終未被長期經營為實際產品或服務平臺，Marszalek則說他其實在2025年4月就買下ai.com。儘管ai.com過去最高曾對外喊價達1億美元，但網域經紀人Larry Fischer透過LinkedIn表示，其最終成交價格為7,000萬美元。 根據官方新聞稿說明，使用者只需點擊幾下滑鼠，即可生成一個私密的個人AI代理人。該代理人不僅能回答問題，還能代表使用者執行各種實際任務，例如安排工作、傳送訊息、跨應用程式操作，或建立專案等。 藉由ai.com，使用者未來將可部署代理人以執行多種任務，包括股票交易、工作流程自動化、結合行事曆安排日常事務，甚至更</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173838</guid>
+      <pubDate>Mon, 09 Feb 2026 01:08:53 +0000</pubDate>
     </item>
     <item>
-      <title>Google開放Developer Knowledge API，提供Markdown文件並支援MCP串接</title>
-      <link>https://www.ithome.com.tw/news/173815</link>
-      <description>新聞Google推出Developer Knowledge API及對應的MCP（Model Context Protocol）伺服器，要讓AI助理與各類開發工具能直接查詢並取用官方開發文件，解決模型僅依賴既有訓練資料或透過網頁擷取內容時，常遇到的版本落差與內容不穩定問題。 開發者在使用Firebase、Android與Google Cloud等技術時，經常需要掌握新功能、API變更與最佳實務更新。Google提到，Developer Knowledge API的做法，是讓工具可用程式方式搜尋並擷取官方文件內容，避免只依賴既有訓練資料或脆弱的網頁擷取作法。 根據官方說明，Developer Knowledge API支援搜尋與擷取文件內容。開發者或工具可先依查詢條件找出相關頁面與片段，再取回完整頁面內容，並以Markdown格式回傳。涵蓋範圍包含firebase.google.com、developer.android.com與docs.cloud.google.com等網站，文件更新後會在24小時內完成重新索引，以降低工具取得過時內容的機率。 與API一同推出的還有官方MCP伺服器，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173815</guid>
-      <pubDate>Fri, 06 Feb 2026 10:41:19 +0000</pubDate>
+      <title>【資安週報】0202~0206，中國駭客發動Notepad++軟體供應鏈攻擊，菲律賓、越南、臺灣等東亞多國均有特定目標遭鎖定</title>
+      <link>https://www.ithome.com.tw/news/173840</link>
+      <description>新聞【資安新聞編輯室報告】這一星期，軟體供應鏈攻擊的接連爆發成為市場焦點，供應鏈目標包含知名開放原始碼文字編輯器軟體Notepad++，以及印度防毒軟體eScan。 其中Notepad++事件尤為引人注目，根據軟體維護者與資安公司Rapid7、卡巴斯基的調查結果，該攻擊研判由中國駭客組織發起。更值得關注的是，調查顯示臺灣亦被列為鎖定目標，引發國內高度戒備。我們在此整理3起揭露的重點： （一）Notepad++維護者揭露其自動更新遭挾持，由於駭客直攻主機商底層設施，且精準重新導向特定對象的流量，此手法引發高度關注，同時查出攻擊活動最早可追溯至去年6月。 （二）Rapid7調查報告指出是中國駭客組織Lotus Blossom所為，主要目的散布後門程式Chrysalis，據遙測資料，包括臺灣、日本、中國均有使用者遭到鎖定。 （三）卡巴斯基揭露具體影響，指出駭客透過更新植入容量為1 MB的惡意NSIS檔、企圖蒐集資料，並藉ProShow.exe啟動酬載，確認目標後植入Chrysalis後門。目前逾十臺電腦受害，針對性極強，範圍涵蓋菲國政府、薩國金融及越南IT業。同時提及9月底臺灣用戶亦察覺異常</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173840</guid>
+      <pubDate>Mon, 09 Feb 2026 01:56:16 +0000</pubDate>
     </item>
     <item>
-      <title>全支付用戶突破700萬大關，又2家電支業者前進日本跨境支付</title>
-      <link>https://www.ithome.com.tw/news/173828</link>
-      <description>新聞全聯旗下的電子支付服務全支付，宣布今年初達到電支用戶數700萬大關，成為繼一卡通、街口支付後，第三家突破700萬的電支業者。 根據金管會去年11月統計資料，一卡通以約713萬用戶居國內電支龍頭的位置，其次是街口支付，儘管去年母公司與泰山食品之間的風波，影響商家對街口支付的接受度，但街口支付用戶數仍站穩700萬，達到710萬用戶之多。 至於全支付，在母公司全聯的零售通路大力支持之下，去年11月已達到695萬用戶，在新的一年剛開始，全支付宣布達到700萬用戶，成為第三家進入700萬用戶的電支業者。 值得注意的是，Line Pay跨入電支付市，去年12月初才推出的電支服務Line Pay Money，由服務推出的時間晚於金管會11月的統計資料，暫時未登記在官方統計資料中，但Line Pay去年12月在Vision Day活體中，公布自家Line Pay用戶達1,360萬，而Line Pay Money則達到200萬，創下不到一個月成長至200萬用戶的紀錄。 國內電子支付市場，新進業者如全支付挾著龐大的連鎖通路消費客群，快速在電支市場攻城略地，而L後起之秀的ine PayMoney則挾著L</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173828</guid>
-      <pubDate>Fri, 06 Feb 2026 10:45:19 +0000</pubDate>
+      <title>Waymo導入生成式世界模型，強化自動駕駛安全驗證</title>
+      <link>https://www.ithome.com.tw/news/173841</link>
+      <description>新聞Waymo上周五（2/6）揭露其最新的生成式自動駕駛模擬系統「Waymo世界模型（Waymo World Model）」，指出該模型將成為自動駕駛安全驗證的核心基礎設施，讓系統在真正上路前，先於高度擬真的虛擬世界中，經歷數十億英里的測試與訓練。 Waymo世界模型建立於Genie 3之上，該模型由Google DeepMind開發，是一套能即時生成可互動3D世界的通用型世界模型。Waymo在此基礎上進行專門調校，使其符合自動駕駛需求，並能同步輸出攝影機與光達資料，完整重現自駕車在真實道路上所接收到的多感測器資訊。 Waymo表示，旗下自動駕駛系統Waymo Driver至今已在美國多座城市完成近2億英里的完全自動駕駛行程，但實際道路僅是整體訓練的一部分，模擬環境讓Driver能在極端與複雜情境中反覆演練，是其AI安全體系的重要支柱之一。 具體而言，世界模型的最大價值，在於能系統性模擬現實中極為罕見、卻高度攸關安全的長尾情境，例如龍捲風、洪水、暴雪、逆向行駛車輛、道路突發障礙物，甚至大型動物或特殊裝扮行人闖入車道。這類事件在真實世界中難以大量蒐集，但一旦發生，對自動駕駛系統的決策與反</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173841</guid>
+      <pubDate>Mon, 09 Feb 2026 01:57:30 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】2月6日，中國駭客假借提供LINE安裝程式散布惡意軟體ValleyRAT</title>
-      <link>https://www.ithome.com.tw/news/173824</link>
-      <description>新聞惡意軟體ValleyRAT假借LINE安裝程式散布，目的是竊取憑證 去年4月，LINE與趨勢科技提出警告，呼籲臺灣用戶提高警覺，有人架設假網站聲稱提供電腦版LINE安裝程式，一旦不慎安裝，電腦就可能被植入惡意軟體，當時趨勢科技認為，這波攻擊行動疑似主要針對臺灣而來，如今這種冒牌LINE安裝程式的攻擊活動有擴大的趨勢，攻擊者也對簡體中文用戶下手。 資安公司Cybereason近日提出警告，他們從去年初開始，注意到冒充應用程式安裝檔的惡意軟體活動有所增加，其中一種就是偽裝成LINE的安裝程式，駭客針對簡體中文用戶，利用XML工作排程設定檔及PowerShell指令碼，以便使其能在受害電腦持續活動，而攻擊者最終執行的惡意軟體是ValleyRAT（Winos 4.0），過程中攻擊者會建立受害電腦與位於香港的伺服器連線。根據駭客使用的惡意軟體，他們研判攻擊者是中國APT駭客組織Silver Fox。對此，我們也向LINE詢問此事，他們表示母公司LY Corporation已得知近期的惡意軟體散布事件，該公司資安團隊正進行嚴密監控，已採取必要因應措施，並呼籲用戶從正式管道下載應用程式。 義大利</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173824</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/ValleyRat-image3.png" length="0" type="image/png"/>
-      <pubDate>Fri, 06 Feb 2026 11:07:12 +0000</pubDate>
+      <title>VS Code 1.109強化多代理人開發，引入代理工作階段管理與終端機沙箱</title>
+      <link>https://www.ithome.com.tw/news/173829</link>
+      <description>新聞微軟釋出VS Code 1.109，該版本更新多代理人開發體驗，新增更完整的代理工作階段管理機制，讓使用者能在同一介面中啟動與切換本機、背景與雲端代理工作階段，同時強化代理執行終端指令的風險控管，導入終端機沙箱等安全機制。 VS Code將不同執行環境的代理工作階段整合到同一條工作流程，在聊天輸入區加入工作階段類型選擇器，除了決定要開啟哪一種代理工作階段，也支援將進行中的工作階段交接到另一種環境，例如先在本機規畫，再交給雲端代理執行。VS Code也強化Agent Sessions檢視，降低多工作階段並行時的管理成本，包含清單可調整大小與多選批次操作，並在命令中心加入代理狀態指示，提示仍在進行工作階段，以及未讀更新或需要使用者介入的情況。 代理在終端工具中執行指令時，原則上具備與使用者帳號相同的權限，因此新增實驗性的終端機沙箱，限制代理指令對檔案系統與網路的存取範圍。啟用後，終端機指令預設僅能在目前工作目錄讀寫，並受限於工作區目錄範圍內，網路連線則預設封鎖，必要時再放行信任網域。官方特別強調，這套沙箱目前僅支援macOS與Linux，Windows即使設定相關選項也不會生效。 除了</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173829</guid>
+      <pubDate>Mon, 09 Feb 2026 02:09:46 +0000</pubDate>
     </item>
     <item>
-      <title>搭配8個Nvidia B300，AWS P6加速運算服務增設新的執行個體</title>
-      <link>https://www.ithome.com.tw/review/173743</link>
-      <description>去年AWS陸續推出導入Nvidia Blackwell架構GPU的加速運算服務，例如5月正式推出的P6、7月上線的P6e-GB200，搭配的GPU產品分別為B200、GB200。 時隔4個月後，AWS宣布P6系列擴增採用性能更強大的B300（Blackwell Ultra）的加速運算服務，稱為P6-B300，有意採用的企業，目前可至美國西部（奧勒岡）的雲端區域，經由適用於ML的Amazon EC2容量區塊（Capacity Blocks for ML）訂購。 如同稍早推出的P6-B200，P6-B300僅提供一種執行個體組態，分別是p6-b300.48xlarge，以及p6-b200.48xlarge，系統記憶體內建4 TB與2 TB，同樣搭配96顆核心的英特爾第五代Xeon Scalable系列處理器，提供192個虛擬處理器，以及8個B300 GPU。 不過，這款加速運算服務，可用的GPU記憶體總容量增加50％（2,144 GB HBM3e vs. 1,440 GB HBM3e），GPU提供的FP4浮點運算效能也領先50％（108 PFLOPS vs. 72 PFLOPS），GPU互</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/173743</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/p6-b300-main.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Feb 2026 11:35:16 +0000</pubDate>
+      <title>俄羅斯駭客APT28利用Office零時差漏洞從事大規模攻擊，竊取電子郵件、設置後門</title>
+      <link>https://www.ithome.com.tw/news/173816</link>
+      <description>新聞2月1日烏克蘭電腦緊急應變團隊（CERT-UA）提出警告，1月底微軟緊急修補的Office零時差漏洞CVE-2026-21509，俄羅斯駭客組織APT28（別名Fancy Bear或Sofacy）已用於實際攻擊，後續有資安公司公布新的調查結果，並指出一旦使用者開啟文件，就會觸發漏洞，過程裡無須啟用巨集，或是引誘使用者互動。 資安公司Zscaler指出，他們自1月29日看到APT28積極利用CVE-2026-21509，駭客利用特製的RTF檔案，並規畫多階段感染鏈，於受害電腦植入後門程式，主要目標是中歐及東歐地區的用戶，包括烏克蘭、斯洛伐克，以及羅馬尼亞，駭客在誘餌文件當中，使用英語或當地語言來從事網路釣魚，過程裡使用以Outlook巨集打造的郵件竊取工具MiniDoor，以及透過惡意程式載入工具PixyNetLoader部署Covenant Grunt。Zscaler將這波攻擊命名為Operation Neusploit，他們與微軟聯手，持續監控相關活動。 值得留意的是，這些駭客利用伺服器過濾攻擊目標，僅有請求來自目標國家，以及HTTP標頭包含正確的使用者字串（User Agent</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173816</guid>
+      <pubDate>Mon, 09 Feb 2026 03:04:17 +0000</pubDate>
     </item>
     <item>
-      <title>150萬AI代理實境秀的風險</title>
-      <link>https://www.ithome.com.tw/voice/173832</link>
-      <description>很多人愛看實境秀，我也是其中之一，但每次，我總會好奇，節目內容到底是真的人生，還是演出來的生活？判斷關鍵就在，到底有沒有劇本。 最近在科技圈引起火爆討論的AI代理社群平臺Moltbook，也是一場典型的網路世界實境秀，人工智慧程式是參與其中的角色，而真人則是只能看不能發言的實境秀觀眾。 不少媒體、網路意見領袖，大為驚艷於AI在論壇中各式各樣的「擬真人」的互動行為，抱怨自己的真人老闆，甚至設立AI自己的宗教，還出現了可供AI代理雇用的「真人臨時工」，AI可以刷卡付錢，派工真實世界的任務給真人來執行。 擅長研究各種駭客攻擊的資安業者Wiz，找到了（更可能是破解了）Moltbook的資料庫，發現有150萬個API金鑰，可說有150萬隻OpenClaw的AI代理在上面互動（這是Wiz破解當時的數據，現已超過160萬個AI代理），不過，註冊這些AI代理背後的真人郵件帳號，只有3.5萬個信箱，其中有17,000名真人個資。等於是這一萬七千多人，提供了算力、LLM資源，來執行上百萬隻AI代理，在這個平臺上展開了這場AI擬人實境秀。 許多人驚訝於AI代理程式的創造力、自主性，甚至喊出「天網來了」（Sk</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/voice/173832</guid>
-      <pubDate>Sun, 08 Feb 2026 02:21:44 +0000</pubDate>
+      <title>照片分享服務Flickr傳通知客戶資料外洩</title>
+      <link>https://www.ithome.com.tw/news/173844</link>
+      <description>新聞老牌照片分享服務Flickr上周末疑似傳送電子郵件通知用戶，由於第三方郵件服務有漏洞，造成人數不詳的用戶資料外洩。 Flickr是2004年由Stewart Butterfield創辦，是21世紀初受歡迎的雲端照片分享平臺。2005年Yahoo收購Flickr，但未能在App時代發揚光大，2018年Yahoo將Flickr賣給了現任持有者SmugMug，後者將之調整為付費專業相片社群平臺，但仍提供小額度的免費服務。根據估計，Flickr截至2025年還有1億註冊用戶及350萬經常用戶。（Butterfield在2013年又創立了Slack，並在2020年將之出售給Salesforce。） 周末用戶在Reddit宣稱接到來自Flickr的通知信件。Flickr表示，2月5日該公司接到使用的一家電子郵件服務供應商通知，說有人利用其漏洞未經授權存取了Flickr會員資訊。 視用戶帳號而定，外洩的資訊可能涵括姓名、電子郵件信箱、Flickr用戶名稱和帳號類型、IP與一般地點、Flickr平臺活動紀錄。但密碼和信用卡資訊不受影響。 Flickr在得知訊息後幾個小時內就關閉了受影響系統的存取管</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173844</guid>
+      <pubDate>Mon, 09 Feb 2026 03:18:38 +0000</pubDate>
     </item>
     <item>
-      <title>【數位憑證皮夾打造數位環境的信任基石】手機就是個人隨身的憑證皮夾，兼顧身分驗證及隱私保護</title>
-      <link>https://www.ithome.com.tw/news/173833</link>
-      <description>新聞現在開始在7-ELEVEN或全家超商取貨變得很簡單，不用攜帶證件，拿起你的手機秀出QR Code，讓店員掃碼「嗶」一聲，就可以直接領走已付費的包裹，由於沒有出示身分證件，不需要擔心你的地址、年齡或身分證字號外洩，可能被他人冒用，甚至不用和店員對話。 讓超商取貨這件事變得不一樣的，是去年12月數發部啟動試營運的數位憑證皮夾，從民眾到超商取貨的身分驗證、取貨流程，串連3大電信發行電信電子卡到數位憑證皮夾App，讓全國超過11,000家7-ELEVEN或全家門市都能支援數位憑證皮夾「超商取貨」。 為簡化部分數位服務的身分驗證需求，同時避免敏感個資外洩風險，數發部早在2024年開始規畫數位憑證皮夾（Taiwan Digital Identity Wallet，TW DIW）政策，2025年3月進入沙盒實驗階段，開放有興趣的憑證發行、業者、使用者，透過沙盒實驗驗證技術架構可行性，這個前後歷經兩位數發部長的政策，終於在2025年12月中進入試營運階段。 數位憑證皮夾試營運，開放iPhone、Android手機下載數位憑證皮夾App，不需要攜帶實體證件，讓每個人隨身攜帶的手機化身為你的憑證皮夾，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173833</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1272-feng_mian_gu_shi_-p1-wen_bin_-open-960x420_kao_bei_0.jpg?itok=yq_NPWzU" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 09 Feb 2026 01:00:00 +0000</pubDate>
+      <title>全面轉向Graph新協定 微軟2027年4月將關閉Exchange Online EWS</title>
+      <link>https://www.ithome.com.tw/news/173845</link>
+      <description>新聞微軟宣布將於2027年4月1日關閉Exchange Online內的Exchange Web Services（EWS），主要影響Microsoft 365用戶，不影響本地部署。 微軟在近20年前推出EWS，雖然廣泛使用，但無法滿足今天的安全、擴充和穩定性的要求，並改推Graph技術。微軟說，這幾年Graph功能逐漸追上EWS，且它自己的應用也幾乎都從EWS搬移到Graph。第三方應用程式也同樣轉移當中。 為了棄用EWS，微軟於2018年首次宣布Exchange Online的EWS不再更新功能，2023年公布會在2026年10月關閉EWS。上周微軟公布了明確時程，預計在2027年4月1日完全關閉EWS。 但關閉EWS將以階段性、可控制的措施進行。從即日起到2026年8月30日，企業可以自建EWS允許清單，從9月1日起企業就不能再自建，將由微軟根據租戶使用狀況建立允許清單，並移除相依性。從10月1日起，微軟就會嘗試關閉EWS，並視App是否正常運作。2027年4月1日起正式封鎖Exchange Online EWS的使用，不許再延長使用。 圖片來源/微軟 微軟表示會開始每月寄送通知</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173845</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0209-exchange-ews-600.png" length="0" type="image/png"/>
+      <pubDate>Mon, 09 Feb 2026 04:00:03 +0000</pubDate>
     </item>
     <item>
-      <title>【引進國際標準及技術，建立國內數位憑證驗證的公共基礎】數位憑證皮夾實現資料自主權及簡化驗證的關鍵</title>
-      <link>https://www.ithome.com.tw/news/173834</link>
-      <description>新聞「數位憑證皮夾讓民眾僅提供必要的資訊，真正落實該給的才給，不該給的一個都不多的隱私保障」，數發部長林宜敬一語點出民眾提供實體證件驗證身分背後的隱私風險。 當民眾提供實體證件供服務商驗證身分，個人身分資訊揭露是全有或全無，證件上記載的所有個資都會一併揭露，民眾並不能控制只要揭露哪些資料，導致身分資訊外流，例如身分證字號、出生年月日或是你家的地址。 數位憑證皮夾則採用選擇性揭露（Selective disclosure）的隱私保護技術，賦予數位憑證的使用者對於個人身分資料的可控性，使用者可以選擇只揭露驗證身分需要的最少資訊，例如只授權出生年月日資訊，讓服務系統驗證年齡是否達到18歲，而不需要提供你的姓名、住址等資訊，暴露太多個人訊息。 此外，如同數發部於皮夾試營運時說的，數位憑證皮夾如同現實中每個人擁有的實體皮夾，實體皮夾內放著各種證件，例如駕照、健保卡等等，以證明自己擁有的身分資格，因此在數位世界裡也應有數位工具，即數位憑證皮夾，希望通過數位憑證皮夾，達到多憑證整合，同時促成政府機關憑證的數位化，並且和民間企業間接，提供簡單、安全、方便的工具。 目前在數位憑證皮夾政策中，數發部將和交</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173834</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/1272-cover-P2-600-1-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E6%95%B8%E7%99%BC%E9%83%A8.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 09 Feb 2026 01:00:00 +0000</pubDate>
+      <title>OpenAI推出AI代理式編碼模型GPT-5.3-Codex 速度提升25%</title>
+      <link>https://www.ithome.com.tw/news/173847</link>
+      <description>新聞OpenAI接連推出開發工具，上周公布Codex桌機版及代理人管理平臺Frontier後，又推出了最新版AI代理式程式編寫模型GPT-5.3-Codex。OpenAI並稱這是該公司第一個「可建立自己」的AI模型。 OpenAI稱，GPT-5.3-Codex可將Codex應用情境擴展至桌機電腦的各類專業工作，號稱是能力最強的智慧代理式程式碼撰寫模型。GPT-5.3-Codex具備GPT-5.2 Codex的程式設計效能，context windows同為400k，和GPT-5.2的推理及專業知識，可支援研究、工具操作或複雜執行流程的長時間任務。受惠於基礎設施與推理堆疊的改進，Codex使用者整體速度提升25%。 GPT‑5.3-Codex是專為NVIDIA GB200 NVL72系統共同設計、訓練並部署的模型。OpenAI強調，GPT‑5.3-Codex在標竿測試SWE-Bench Pro和Terminal-Bench的表現業界最強。根據SWE-Bench Pro的跑分成績，在相同輸出token中（不到20K token時）GPT‑5.3-Codex（&amp;gt;50%）優於自家的GPT‑5.</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173847</guid>
+      <pubDate>Mon, 09 Feb 2026 05:06:27 +0000</pubDate>
     </item>
     <item>
-      <title>【以民眾生活為中心建立應用場景】手機結合行動憑證皮夾，如何快速完成服務驗證身分需求</title>
-      <link>https://www.ithome.com.tw/news/173835</link>
-      <description>新聞數位憑證皮夾政策的推動，歷經一年多的規畫、開發、溝通說明，終於在2025年12月中進入試營運，開放民眾在手機下載數位憑證皮夾App，數位憑證皮夾的推動，以應用場景串連發證方及驗證方，數發部在試營運記者會上，展示已上線的超商取貨應用，以及求職、租車會員註冊、數位通行、工商服務行動申辦、訪客管理6大應用場景。 目前在試營運階段，已上線的第一個應用驗證場景是民眾較常使用的「超商取貨」，利用數位憑證皮夾來簡化物流最後一哩交付包裹的身分驗證流程。 目前不論是7-ELEVEN或是全家，都提供民眾以超商的會員身分，透過手機上的超商App，免出示身分證件快速完成身分認證，領取已付費的包裹，目的在簡化超商取貨的身分驗證流程，減輕店員的工作負荷。 以7-ELEVEN為例，超商取貨除了出示身分證件，還可以OPENPOINT APP零元認證條碼，以條碼代替身分證件，讓會員憑App上的取貨條碼，快速完成身分驗證，一年約有3,300萬使用人次；全家也在其會員App提供包裹快取條碼或是包裹預約自取，強調可以一組條碼領取多件包裹，目的是為了優化包裹取件的作業流程。 然而，不論是7-ELEVEN或是全家的免攜證超商</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173835</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/1292-cover-P3-600-1-%E6%94%9D%E5%BD%B1-%E8%98%87%E6%96%87%E5%BD%AC.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 09 Feb 2026 01:00:00 +0000</pubDate>
+      <title>波蘭電網遭俄羅斯駭客發動大規模破壞攻擊，2家資安業者與CERT Polska發布調查報告</title>
+      <link>https://www.ithome.com.tw/news/173842</link>
+      <description>新聞鎖定國家基礎設施的威脅再次升級，隨著今年1月下旬兩家資安公司發布報告，揭露俄羅斯駭客在去年底對波蘭電力系統的最新觀察，這場針對OT與電網安全的攻擊活動，成為國際關注的焦點。 此消息最初是在1月13日由該國能源部長Miłosz Motyka向媒體披露，兩日後，波蘭總理Donald Tusk召開記者會，公布事件初步狀況，指出該國能源基礎設施於12月29日至30日期間遭到攻擊，目標包括兩座熱電共生（CHP）電廠，以及負責管理風力與光電設施的再生能源調度系統。所幸事件已成功阻擋，未引發停電等實質風險。Donald Tusk總理表示，據掌握跡象來看，這起攻擊係由與俄羅斯情報部門直接聯繫的組織策畫。 到了今年1月下旬，有ESET、Dragos兩家資安業者發布相關調查報告，更起引發重視的是，月底波蘭電腦應急響應小組（CERT Polska）公布更具體的調查結果。 CERT Polska指出，攻擊者是外號為Dragonfly、Static Tundra、Berserk Bear或Ghost Blizzard的俄羅斯駭客組織。值得留意的是，最新官方說法與早先兩家資安公司公布的資料存在差異。 ESET</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173842</guid>
+      <pubDate>Mon, 09 Feb 2026 05:58:15 +0000</pubDate>
     </item>
     <item>
-      <title>手機就是你的憑證皮夾</title>
-      <link>https://www.ithome.com.tw/article/173836</link>
-      <description>專題故事整合駕照、工商憑證、技術士證照，到畢業證書、學生證、旅館房卡、會員卡、訪客證，通過掃碼快速完成身分驗證，授權最少身分資訊，讓手機成為打開各種服務大門的萬能鑰匙。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/article/173836</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/styles/picture_size_large/public/1272-feng_mian_gu_shi_-p1-wen_bin_-open-960x420_kao_bei_0.jpg?itok=yq_NPWzU" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 09 Feb 2026 01:00:00 +0000</pubDate>
+      <title>AI社群平臺Moltbook存在組態配置不當，引發大量API與電子郵件信箱外洩</title>
+      <link>https://www.ithome.com.tw/news/173846</link>
+      <description>新聞AI已逐漸融入你我生活，其中AI代理（AI Agents）具有舉足輕重的地位，不僅能回答用戶問題，甚至能自動進行線上購物等工作，但AI代理是否具備自我思考的能力？最近有個新興實驗性平臺Moltbook便針對這點，打造號稱專供AI代理使用的社群網站，然而有研究人員發現，該平臺搭配的資料庫出現配置不當的情況，導致任何人都能對Moltbook的資料隨意讀寫。 資安公司Wiz發現，Moltbook後端的Supabase資料庫配置錯誤，導致逾150萬個API身分驗證權杖（Token）、3.5萬個電子郵件信箱、4千則AI代理之間的私訊（Direct Message，DM），部分訊息存在OpenAI等第三方服務的AI金鑰。更可怕的是，這種未設防的組態，還能讓任何人在未經授權的情況下進行完整的資料讀取與寫入，而且能編輯Moltbook上的任何貼文、注入惡意內容或提示注入有效酬載，甚至破壞整個網站，或是動用數千個AI代理以操縱內容。Moltbook開發工程團隊獲報後，已著手修補。然而，由於Moltbook的創立初衷，是讓AI彼此自主交互、形成可觀察的AI生態，上述資料曝光的情形引起廣泛疑慮與批評。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173846</guid>
+      <pubDate>Mon, 09 Feb 2026 06:31:42 +0000</pubDate>
     </item>
   </channel>
 </rss>

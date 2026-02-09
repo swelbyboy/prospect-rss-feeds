@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Feb 2026 07:23:26 +0000</lastBuildDate>
-    <item>
-      <title>How to create a custom Ocean integration in Port</title>
-      <link>https://www.port.io/blog/how-to-write-your-own-port-integration</link>
-      <description>Ocean is an open-source extensibility framework connecting third-party tools to Port. This is an overview on building a custom integration.</description>
-      <guid isPermaLink="false">https://www.port.io/blog/how-to-write-your-own-port-integration</guid>
-      <enclosure url="https://cdn.prod.website-files.com/622b2fcc29fc56492b771cb8/691ccae6eaf0e29987b84175_create-custom-ocean-integration-port.png" length="0" type="image/png"/>
-      <pubDate>Wed, 24 Dec 2025 09:13:37 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 09 Feb 2026 07:35:05 +0000</lastBuildDate>
     <item>
       <title>Widget Hackathon 2025: How a team of 6 shipped 10 interface design features in 2 days</title>
       <link>https://www.port.io/blog/widget-hackathon-2025</link>
@@ -88,6 +80,14 @@
       <guid isPermaLink="false">https://www.port.io/blog/how-i-discovered-engineering-bottlenecks-in-slack</guid>
       <enclosure url="https://cdn.prod.website-files.com/622b2fcc29fc56492b771cb8/6981b1572b21340134e92b85_How%20I%20discovered%20engineering%20bottlenecks%20in%20Slack%20Blog%20cover.png" length="0" type="image/png"/>
       <pubDate>Tue, 03 Feb 2026 14:00:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Port’s View as feature lets org admins see the product through any user’s permissions to reproduce issues, validate RBAC, and troubleshoot securely.</title>
+      <link>https://www.port.io/blog/as-an-admin-view-port-as</link>
+      <description>With View as, Port admins can instantly see the platform through any user’s permissions to validate access, debug RBAC issues, and troubleshoot confidently - securely and without impersonation.</description>
+      <guid isPermaLink="false">https://www.port.io/blog/as-an-admin-view-port-as</guid>
+      <enclosure url="https://cdn.prod.website-files.com/622b2fcc29fc56492b771cb8/69848727c81c4269b09a222f_View%20as%20announcement%20cover%20blog_final%20(2).png" length="0" type="image/png"/>
+      <pubDate>Sun, 08 Feb 2026 09:17:06 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,80 +8,81 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Feb 2026 06:54:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Feb 2026 07:08:44 +0000</lastBuildDate>
     <item>
-      <title>How Traffic Leaves a Private Subnet in AWS</title>
-      <link>https://dev.to/irfansatrio/how-traffic-leaves-a-private-subnet-in-aws-4770</link>
-      <description>Understanding how traffic leaves a private subnet is an important part of AWS networking. Private subnets are often described as “not connected to the internet,” yet instances inside them can still download updates, call external APIs, or access managed AWS services. This behavior is fully intentional and driven by routing decisions inside the VPC. In this article, we’ll walk through how outbound traffic from a private subnet actually works, step by step, without jumping straight into complex ar</description>
-      <guid isPermaLink="false">https://dev.to/irfansatrio/how-traffic-leaves-a-private-subnet-in-aws-4770</guid>
-      <pubDate>Sun, 08 Feb 2026 05:48:35 +0000</pubDate>
+      <title>Are Standup Meetings a Waste of Time? The Truth About Task Tracker Integration</title>
+      <link>https://dev.to/standupify/are-standup-meetings-a-waste-of-time-the-truth-about-task-tracker-integration-k83</link>
+      <description>Daily standup meetings. They're a staple of Agile methodologies, intended to be quick, focused, and a catalyst for productivity. But let's be honest: how many of us have sat through standups that felt like a colossal waste of time? The truth is, without the right approach, standups can easily devolve into status report marathons, breeding resentment and hindering, rather than helping, progress. The good news? Task tracker integration can be the key to unlocking the true potential of standup meet</description>
+      <guid isPermaLink="false">https://dev.to/standupify/are-standup-meetings-a-waste-of-time-the-truth-about-task-tracker-integration-k83</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdrive.google.com%2Fthumbnail%3Fid%3D1xvmNDoxwn7dtQsITpzlx6EPqjdJJHjVS%26sz%3Dw750" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Feb 2026 06:39:30 +0000</pubDate>
     </item>
     <item>
-      <title>DeepSeek AI 2026: Complete Guide to the $6M Model</title>
-      <link>https://dev.to/aristoaistack/deepseek-ai-2026-complete-guide-to-the-6m-model-2k6</link>
-      <description>A Chinese AI lab nobody had heard of just matched OpenAI's best reasoning model — for $6 million instead of $100 million+. The AI industry is losing its mind. Here's what actually matters. TL;DR — The Quick Take DeepSeek R1 delivers OpenAI o1-level reasoning at $2.19 per million tokens (vs $60 for o1). It's open-source, MIT-licensed, and genuinely impressive. But all data routes through servers in China, multiple governments have banned it, and there are real privacy concerns you need to underst</description>
-      <guid isPermaLink="false">https://dev.to/aristoaistack/deepseek-ai-2026-complete-guide-to-the-6m-model-2k6</guid>
-      <pubDate>Sun, 08 Feb 2026 05:51:54 +0000</pubDate>
+      <title>How Analysts Translate Messy Data, DAX, and Dashboards into Action Using Power BI</title>
+      <link>https://dev.to/michaelmwai/how-analysts-translate-messy-data-dax-and-dashboards-into-action-using-power-bi-2lkb</link>
+      <description>With the importance of data in business being realized, the need and demand for adequate data has been rising exponentially. These businesses will try gather the data they need directly from source(the people) to increase its acccuracy but can also get such data from third parties. The required information reaches the businesses in many forms, and part of a data analyst's job is making sure that information is organized in a way that's conducive for analysis. Power BI is one of the go-to softwar</description>
+      <guid isPermaLink="false">https://dev.to/michaelmwai/how-analysts-translate-messy-data-dax-and-dashboards-into-action-using-power-bi-2lkb</guid>
+      <pubDate>Mon, 09 Feb 2026 06:40:34 +0000</pubDate>
     </item>
     <item>
-      <title>Why I Built Locademy: A Local-First Video Learning Hub</title>
-      <link>https://dev.to/swimshahriar/why-i-built-locademy-a-local-first-video-learning-hub-4fh8</link>
-      <description>I have a confession: my "Downloads" folder is a graveyard of tutorial series, conference talks, and screen recordings. Navigating through nested folders to find the next video in a sequence is a friction point that often kills my motivation to learn. I wanted something that felt like a premium LMS (Learning Management System) but lived entirely on my machine—no accounts, no subscriptions, and no "cloud sync" privacy concerns. So, I built Locademy. The Goal: From Messy Folders to Clean Modules Lo</description>
-      <guid isPermaLink="false">https://dev.to/swimshahriar/why-i-built-locademy-a-local-first-video-learning-hub-4fh8</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fyt0syk0audpvpakllp6n.png" length="0" type="image/png"/>
-      <pubDate>Sun, 08 Feb 2026 06:01:55 +0000</pubDate>
+      <title>Translate Messy Data, DAX, and Dashboards into Action Using Power BI</title>
+      <link>https://dev.to/sirsona/translate-messy-data-dax-and-dashboards-into-action-using-power-bi-33l9</link>
+      <description>Introduction Most data does not arrive in a neat, analysis-ready format. Analyst often work with spreadsheet full of missing values, inconsistent labels, duplicate records, and confusing date or currency format. Left untreated, this kind of messy data leads to inaccurate reports and poor business decisions. The real value of an analyst's work begins not with charts, but with making sense of this chaos.Power BI enables analyst to clean, model, and analyze imperfect data,transforming it into clear</description>
+      <guid isPermaLink="false">https://dev.to/sirsona/translate-messy-data-dax-and-dashboards-into-action-using-power-bi-33l9</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fis4gga1v7jl8z3f0bu1g.png" length="0" type="image/png"/>
+      <pubDate>Mon, 09 Feb 2026 06:43:01 +0000</pubDate>
     </item>
     <item>
-      <title>CAPTCHA Tried to Stop Me: How MailSlurp Saved Email Tests</title>
-      <link>https://dev.to/kanimesha99/captcha-tried-to-stop-me-how-mailslurp-saved-email-tests-2gg8</link>
-      <description>MailSlurp 101: Email verification is one of the most difficult tasks to automate in automated testing. OTP codes, password reset emails, sign-up links, and magic links typically lead to genuine inboxes like Gmail or Outlook, which are not conducive to automation. Mailslurp changes the game at this point. An email testing tool and API called MailSlurp enables testers to: Make short-term email accounts Get actual emails that the application has sent. Use API calls to read email content. Extract at</description>
-      <guid isPermaLink="false">https://dev.to/kanimesha99/captcha-tried-to-stop-me-how-mailslurp-saved-email-tests-2gg8</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzf0vtvn75p2bll0kp8uc.png" length="0" type="image/png"/>
-      <pubDate>Sun, 08 Feb 2026 06:06:18 +0000</pubDate>
+      <title>How to Build a Python Passport Scanner with Portrait, MRZ and Document Detection</title>
+      <link>https://dev.to/yushulx/how-to-build-a-python-passport-scanner-with-portrait-mrz-and-document-detection-5ceo</link>
+      <description>In this tutorial, you will learn how to build a professional desktop application for reading Machine Readable Zones (MRZ) from passports and ID cards with portrait and document detection capabilities. By the end of this guide, you'll have a fully functional GUI application built with PySide6 and powered by Dynamsoft Capture Vision SDK. Demo Video: Passport Scanner with Face, MRZ and Document Detection What You Will Build A cross-platform desktop passport scanner featuring: Real-time MRZ recognit</description>
+      <guid isPermaLink="false">https://dev.to/yushulx/how-to-build-a-python-passport-scanner-with-portrait-mrz-and-document-detection-5ceo</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frayeesoy89yw5dby8a4b.png" length="0" type="image/png"/>
+      <pubDate>Mon, 09 Feb 2026 06:45:16 +0000</pubDate>
     </item>
     <item>
-      <title>How to Host a Website on an Ubuntu VM Using VMware and Nginx and get unstuck if it doesn't load (Step-by-Step Guide)</title>
-      <link>https://dev.to/alok38/how-to-host-a-website-on-an-ubuntu-vm-using-vmware-and-nginx-step-by-step-guide-21io</link>
-      <description>🧪 Ubuntu VM Web Server Lab (VMware + SSH + Nginx) A hands-on lab to learn Linux web servers, networking, firewall rules, and real-world troubleshooting (plus how these skills transfer to AWS EC2 and DevOps). 🧰 Tech Stack Windows 10/11 (Host OS) Ubuntu Linux (Guest VM) VMware Workstation Nginx Web Server SSH (from PowerShell) 🎯 Why I installed Nginx I installed Nginx to: Practice hosting a web service on a Linux server Test networking between Windows (host) and Ubuntu VM (guest) Learn real-world</description>
-      <guid isPermaLink="false">https://dev.to/alok38/how-to-host-a-website-on-an-ubuntu-vm-using-vmware-and-nginx-step-by-step-guide-21io</guid>
-      <pubDate>Sun, 08 Feb 2026 06:08:20 +0000</pubDate>
+      <title>How to Stop Burning Budget on Over-Hyped Image Models (The Selection Framework)</title>
+      <link>https://dev.to/markk40123/how-to-stop-burning-budget-on-over-hyped-image-models-the-selection-framework-2p4a</link>
+      <description>The API bill hit $400 in the first 48 hours. We were building a dynamic social asset generator-a system meant to create unique open-graph images for blog posts automatically. The logic seemed sound: pick the "smartest" model available, pipe in the article summary, and get a high-quality image. It was a disaster. Not only was the cost unsustainable, but the latency averaged 12 seconds per request, causing our frontend to timeout. Worse, when we asked for text inside the image (like a title), the</description>
+      <guid isPermaLink="false">https://dev.to/markk40123/how-to-stop-burning-budget-on-over-hyped-image-models-the-selection-framework-2p4a</guid>
+      <pubDate>Mon, 09 Feb 2026 06:46:14 +0000</pubDate>
     </item>
     <item>
-      <title>Copilot vs Cursor vs Cody 2026: AI Coding Compared</title>
-      <link>https://dev.to/aristoaistack/copilot-vs-cursor-vs-cody-2026-ai-coding-compared-12jh</link>
-      <description>"I'm already paying for one AI coding tool. Should I switch?" This is the question I keep hearing from developers. GitHub Copilot was first. Cursor disrupted everything. And Cody quietly became the best option nobody talks about. After using all three on real projects — React apps, Python backends, infrastructure scripts — I have strong opinions. Spoiler: The best choice depends on one question: How do you work? TL;DR — The Quick Verdict For staying in your current IDE: GitHub Copilot wins. Work</description>
-      <guid isPermaLink="false">https://dev.to/aristoaistack/copilot-vs-cursor-vs-cody-2026-ai-coding-compared-12jh</guid>
-      <pubDate>Sun, 08 Feb 2026 06:11:57 +0000</pubDate>
+      <title>Power Automate - Building Readable Flows</title>
+      <link>https://dev.to/wyattdave/power-automate-building-readable-flows-dkd</link>
+      <description>They say the best code is written in a way that you don't need to add comments, just good naming and design, and that had me thinking about Power Automate. Power Automate is a literal flow chart, flow charts were created to make processes easier to read. So why can't I understand what the hell some flows do! And that's what this blog is all about, how with a few small changes you can build your flows in a way that anyone can open and understand 😎 Planning Naming Notes Design 1. Planning This one</description>
+      <guid isPermaLink="false">https://dev.to/wyattdave/power-automate-building-readable-flows-dkd</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp6k4sylufrq1cjbnp5ka.png" length="0" type="image/png"/>
+      <pubDate>Mon, 09 Feb 2026 06:49:58 +0000</pubDate>
     </item>
     <item>
-      <title>I Built a YouTube Dislike Viewer with Next.js 16 — Here's How</title>
-      <link>https://dev.to/yege/i-built-a-youtube-dislike-viewer-with-nextjs-16-heres-how-a0b</link>
-      <description>I Built a YouTube Dislike Viewer with Next.js 16 Ever since YouTube removed the public dislike count, it's been harder to judge video quality at a glance. So I built a simple tool to bring it back. Live site: https://www.youtubedislikeviewer.shop What It Does Paste any YouTube URL or video ID, and instantly see: 👍 Likes &amp;amp; 👎 Dislikes 📊 Like/Dislike ratio bar 👁 View count &amp;amp; rating 🕐 Search history (stored locally) Tech Stack Next.js 16 (App Router + Turbopack) React 19 + TypeScript 5.9 Tailwind CS</description>
-      <guid isPermaLink="false">https://dev.to/yege/i-built-a-youtube-dislike-viewer-with-nextjs-16-heres-how-a0b</guid>
-      <pubDate>Sun, 08 Feb 2026 06:17:47 +0000</pubDate>
+      <title>Sofia Core - Open Source AI Infrastructure with DNA Computing</title>
+      <link>https://dev.to/emeraldorbit/sofia-core-open-source-ai-infrastructure-with-dna-computing-35nj</link>
+      <description>What My Project Does Sofia Core is open-source AI infrastructure that brings biological computing paradigms to production systems. It implements: DNA Computing: Biologically-inspired algorithms achieving massive parallelism (10^15 operations) Swarm Intelligence: Coordinate 1,000+ AI agents simultaneously for collective problem-solving Temporal Reasoning: Time-aware predictions with causal inference Built entirely in Python with production-ready infrastructure (FastAPI, PostgreSQL, Redis, 70%+ te</description>
+      <guid isPermaLink="false">https://dev.to/emeraldorbit/sofia-core-open-source-ai-infrastructure-with-dna-computing-35nj</guid>
+      <pubDate>Mon, 09 Feb 2026 06:50:54 +0000</pubDate>
     </item>
     <item>
-      <title>Python vs. a Modern BASIC Interpreter: When the “Toy Language” Actually Wins</title>
-      <link>https://dev.to/atomijd/python-vs-a-modern-basic-interpreter-when-the-toy-language-actually-wins-2h3j</link>
-      <description>I like Python. A lot, actually. It is hard to argue against it: Python dominates data science, AI, and a large part of backend development. But I am also a C++ developer, and over the last year I built my own interpreter: jdBasic. Not as a Python replacement, but as an experiment in a different direction. The question behind it was simple: What happens if you design a language and an interpreter purely around reducing friction during everyday development and experimentation? This article is not</description>
-      <guid isPermaLink="false">https://dev.to/atomijd/python-vs-a-modern-basic-interpreter-when-the-toy-language-actually-wins-2h3j</guid>
-      <pubDate>Sun, 08 Feb 2026 06:24:51 +0000</pubDate>
+      <title>SocialFi: How Farcaster and Lens Are Redesigning Social on Web3</title>
+      <link>https://dev.to/ribhavmodi/socialfi-how-farcaster-and-lens-are-redesigning-social-on-web3-mhd</link>
+      <description>From rented timelines to user‑owned social graphs and programmable feeds. This is Day 41 of my 60‑Day Web3 journey. Over the past few weeks we have gone from core infrastructure topics like Layer 0 and Layer 3, to smart contract upgradeability, to zero‑knowledge proofs, to storage with IPFS, and most recently to Bitcoin Layer 2s. Today we are leaving pure infra for a moment and stepping into something users actually touch every day: social. Not “Web2 but token,” but new social networks like Farc</description>
+      <guid isPermaLink="false">https://dev.to/ribhavmodi/socialfi-how-farcaster-and-lens-are-redesigning-social-on-web3-mhd</guid>
+      <pubDate>Mon, 09 Feb 2026 06:52:01 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Sync: Sync Your Claude Code Sessions Across All Your Devices Simplified</title>
-      <link>https://dev.to/tawanorg/claude-sync-sync-your-claude-code-sessions-across-all-your-devices-simplified-49bl</link>
-      <description>If you use Claude Code (Anthropic's official CLI), you've probably experienced this frustration: You're deep into a coding session on your work laptop. Claude remembers your project context, your preferences, your conversation history. Everything is flowing perfectly. Then you switch to your personal MacBook... and it's all gone. Claude doesn't know what you were working on. Your custom agents? Gone. Your project memory? Vanished. You have to start from scratch. I built Claude Sync to fix this.</description>
-      <guid isPermaLink="false">https://dev.to/tawanorg/claude-sync-sync-your-claude-code-sessions-across-all-your-devices-simplified-49bl</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1ah89vnj6o6vhrvtx70g.png" length="0" type="image/png"/>
-      <pubDate>Sun, 08 Feb 2026 06:28:32 +0000</pubDate>
+      <title>📚 StudyStream: Your AI Learning Companion That Actually Gets You!</title>
+      <link>https://dev.to/ha3k/studystream-your-ai-learning-companion-that-actually-gets-you-4la6</link>
+      <description>This is a submission for the Algolia Agent Studio Challenge: Consumer-Facing Non-Conversational Experiences Hello, Lifelong Learners! 🌟 Let me tell you a story. Last month, I was trying to learn TypeScript (ironic, right?). I had 47 browser tabs open, three different courses bookmarked, and absolutely NO idea where I left off. Sound familiar? That frustration led me to build StudyStream - a learning companion that actually remembers where you are in your journey! 🚀 studystream-ten.vercel.app 💡 S</description>
+      <guid isPermaLink="false">https://dev.to/ha3k/studystream-your-ai-learning-companion-that-actually-gets-you-4la6</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fassets.dev.to%2Fassets%2Fgithub-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Feb 2026 06:52:26 +0000</pubDate>
     </item>
     <item>
-      <title>CReact: JSX meta-execution engine v0.3.0</title>
-      <link>https://dev.to/dcoutinho96/creact-jsx-meta-execution-engine-v030-3g6j</link>
-      <description>A meta-runtime for building domain-specific, reactive execution engines. Just released version 0.3.0, with a cool new demo! Demo: https://github.com/creact-labs/ai-powered-aws-website-generator CReact: https://github.com/creact-labs/creact Website: https://creact-labs.github.io/creact/</description>
-      <guid isPermaLink="false">https://dev.to/dcoutinho96/creact-jsx-meta-execution-engine-v030-3g6j</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbugoncovg3qvzwasg2bl.png" length="0" type="image/png"/>
-      <pubDate>Sun, 08 Feb 2026 06:39:16 +0000</pubDate>
+      <title>I Built a Python CLI Tool for RAG Over Any Document Folder</title>
+      <link>https://dev.to/lukaszgrochal/i-built-a-python-cli-tool-for-rag-over-any-document-folder-55ic</link>
+      <description>A zero-config command-line tool for retrieval-augmented generation — index a folder, ask questions, get cited answers. Works locally with Ollama or with cloud APIs. Every time I wanted to ask questions about a set of documents, I'd write the same 100 lines of boilerplate: load docs, chunk them, embed them, store in a vector DB, retrieve, generate. I got tired of it. So I built a CLI tool that does it in two commands. The Problem RAG prototyping has too much ceremony. You have a folder of PDFs, M</description>
+      <guid isPermaLink="false">https://dev.to/lukaszgrochal/i-built-a-python-cli-tool-for-rag-over-any-document-folder-55ic</guid>
+      <pubDate>Mon, 09 Feb 2026 07:01:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
