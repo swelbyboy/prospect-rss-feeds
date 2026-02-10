@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Feb 2026 07:08:54 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Feb 2026 07:09:27 +0000</lastBuildDate>
     <item>
-      <title>Microsoft On QEMU 10.2's New MSHV Accelerator For Hyper-V Guests</title>
-      <link>https://www.phoronix.com/news/QEMU-MSHV-Microsoft-Accelerator</link>
-      <description>With QEMU 10.2 that released at the end of last year is the new "MSHV" accelerator for allowing VMs to be created from a Microsoft Hyper-V guest without using nested virtualization. Last weekend at FOSDEM 2026 was a presentation on this MSHV accelerator for those interested...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/QEMU-MSHV-Microsoft-Accelerator</guid>
-      <pubDate>Sun, 08 Feb 2026 11:25:23 +0000</pubDate>
+      <title>Linux 7.0 Officially Concluding The Rust Experiment</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Rust</link>
+      <description>While Linux 7.0 is the next kernel version solely over Linus Torvalds' numbering preference, there is a notable symbolic change that was sent in overnight for this new kernel merge window: formally concluding the "Rust experiment" with upstream kernel developers now in acceptance that Rust for the Linux kernel is here to stay...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Rust</guid>
+      <pubDate>Mon, 09 Feb 2026 10:57:10 +0000</pubDate>
     </item>
     <item>
-      <title>DreamWorks' OpenMoonRay 2.40 Introduces New GUI, Light Path Visualizer</title>
-      <link>https://www.phoronix.com/news/DreamWorks-OpenMoonRay-2.40</link>
-      <description>Back in 2022 DreamWorks Animation announced they were open-sourcing their MoonRay renderer and was then published in early 2023 for this renderer that has been used in a variety of featured animated films. Since then they have continued advancing this MoonRay code via the open-source OpenMoonRay project and this week published their newest feature update...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/DreamWorks-OpenMoonRay-2.40</guid>
-      <pubDate>Sun, 08 Feb 2026 11:42:51 +0000</pubDate>
+      <title>AMD Linux Driver Readying Peak Tops Limiter "PTL" Support</title>
+      <link>https://www.phoronix.com/news/AMD-Peak-Tops-Limiter-AMDGPU</link>
+      <description>The AMDGPU and AMDKFD Linux kernel graphics driver code has been readying support for the Peak Tops Limiter (PTL) as a new feature to the latest Instinct accelerators...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-Peak-Tops-Limiter-AMDGPU</guid>
+      <pubDate>Mon, 09 Feb 2026 11:15:58 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Releases QATlib 26.02 With New APIs For Zero-Copy DMA</title>
-      <link>https://www.phoronix.com/news/Intel-QATlib-26.02</link>
-      <description>Of Intel's different CPU accelerator IPs, the arguably most useful and with the greatest customer interest remains around QuickAssist Technology (QAT). Intel QAT allows offloading various compression and encryption tasks for better performance. Intel this week released QATlib 26.02 as the newest version of their user-space library for leveraging QuickAssist Technology on capable hardware...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-QATlib-26.02</guid>
-      <pubDate>Sun, 08 Feb 2026 11:50:22 +0000</pubDate>
+      <title>GNU Linux-Libre 6.19 Deals With More Firmware Blobs In Intel Xe, IWLWIFI &amp;amp; NVIDIA Nova</title>
+      <link>https://www.phoronix.com/news/GNU-Linux-Libre-6.19</link>
+      <description>Building off yesterday's Linux 6.19 release is now the GNU Linux-libre 6.19-gnu downstream release that strips out support for open-source drivers dependent upon binary-only microcode/firmware and other elements deemed against free software standards, removing the ability to load non-open-source kernel modules, and similar restrictions in the name of software freedom...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-Linux-Libre-6.19</guid>
+      <pubDate>Mon, 09 Feb 2026 13:51:29 +0000</pubDate>
     </item>
     <item>
-      <title>Wine-Staging 11.2 Brings More Patches To Help Adobe Photoshop On Linux</title>
-      <link>https://www.phoronix.com/news/Wine-Staging-11.2</link>
-      <description>Building off Friday's release of Wine 11.2 is now Wine-Staging 11.2 as this experimental/testing version of Wine with hundreds of extra patches that have yet to be introduced in upstream proper for this open-source software enabling Windows games and applications on Linux. Notable in this bi-weekly update are more patches for continuing to improve the Adobe Photoshop installer support on Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-Staging-11.2</guid>
-      <pubDate>Sun, 08 Feb 2026 12:02:55 +0000</pubDate>
+      <title>Debian's tag2upload Reaches GA For Improving Packaging Workflow</title>
+      <link>https://www.phoronix.com/news/Debian-tag2upload-GA</link>
+      <description>Debian's tag2upload has finally reached general availability "GA" status for helping Debian developers/maintainers with an improved Git-based packaging workflow...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Debian-tag2upload-GA</guid>
+      <pubDate>Mon, 09 Feb 2026 14:20:42 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Appears To Have Quietly Sunset "On Demand" Software Defined Silicon</title>
-      <link>https://www.phoronix.com/news/Intel-On-Demand-SDSi-Sunset</link>
-      <description>Back in 2021 on Phoronix was first to report on Intel preparing Linux patches for a "Software Defined Silicon" feature for activating extra licensed hardware features. That Software Defined Silicon support continued moving forward and was then announced as Intel On Demand with a focus on users being able to pay to activate additional accelerators found on select SKUs but not enabled by default...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-On-Demand-SDSi-Sunset</guid>
-      <pubDate>Sun, 08 Feb 2026 12:20:00 +0000</pubDate>
+      <title>Blender 5.1 Lands Raycast Nodes, Blender Adjusting Release Cycle Moving Forward</title>
+      <link>https://www.phoronix.com/news/Blender-5.1-Raycast-Nodes</link>
+      <description>Two interesting bits of Blender news this week for those fond of this leading open-source 3D modeling software...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Blender-5.1-Raycast-Nodes</guid>
+      <pubDate>Mon, 09 Feb 2026 15:01:00 +0000</pubDate>
     </item>
     <item>
-      <title>A Lot Of Exciting Changes To Look Forward To With Linux 6.20 -- Or Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Feature-Preview</link>
-      <description>With Linux 6.19 due for release later today it then opens up the next kernel merge window. It could be Linux 6.20 but more than likely the next kernel version will be called Linux 7.0 with Linus Torvalds' past tradition of bumping the major version number after X.19. Whatever it ends up being called, here is a look at various "-next" changes that have been queuing up ahead of the merge window...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Feature-Preview</guid>
-      <pubDate>Sun, 08 Feb 2026 14:00:00 +0000</pubDate>
+      <title>Windows 11 vs. Ubuntu Linux Performance For Intel Core Ultra X7 Panther Lake</title>
+      <link>https://www.phoronix.com/review/windows-linux-panther-lake</link>
+      <description>Last week I began publishing the many exciting Panther Lake benchmarks under Linux from the interesting CPU performance and efficiency to the much anticipated Xe3 graphics with the Intel Arc B390 graphics. Up today is a look at how the out-of-the-box performance for the Intel Core Ultra X7 358H compares under Microsoft Windows 11 and the current Ubuntu Linux 26.04 development state.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/windows-linux-panther-lake</guid>
+      <pubDate>Mon, 09 Feb 2026 16:40:00 +0000</pubDate>
     </item>
     <item>
-      <title>D7VK 1.3 Brings Support For Direct3D 5 On Vulkan</title>
-      <link>https://www.phoronix.com/news/D7VK-1.3-Released</link>
-      <description>D7VK is a fork of the DXVK project that is an important part of Valve's Steam Play (Proton) for Direct3D 8 / 9 / 10 / 11 support atop Vulkan. With D7VK the original goal was a Direct3D 7 implementation on Vulkan. D7VK 1.1 brought experimental Direct3D 6 support and now with today's release of D7VK 1.3 is support for Direct3D 5...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/D7VK-1.3-Released</guid>
-      <pubDate>Sun, 08 Feb 2026 15:33:15 +0000</pubDate>
+      <title>AMD openSIL + Coreboot Being Ported To A Modern AM5 Consumer Motherboard</title>
+      <link>https://www.phoronix.com/news/AMD-openSIL-Coreboot-AM5-Zen-5</link>
+      <description>While we are very eager for the AMD openSIL open-source CPU silicon initialization project to achieve production readiness with Zen 6 platforms for ultimately replacing AGESA, there is some experimental excitement on the way for open-source firmware enthusiasts... OpenSIL and Coreboot are being brought to an AM5 motherboard you can buy retail...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-openSIL-Coreboot-AM5-Zen-5</guid>
+      <pubDate>Mon, 09 Feb 2026 18:50:04 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Recently Shelved Numerous Open-Source Projects</title>
-      <link>https://www.phoronix.com/news/Intel-OSS-Projects-Ended-2025</link>
-      <description>After discovering this morning that Intel archived/discontinued its On Demand "SDSi" GitHub project around that controversial feature, it was a slippery slope in noticing Intel recently archived around two dozen other open-source projects they previously maintained...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-OSS-Projects-Ended-2025</guid>
-      <pubDate>Sun, 08 Feb 2026 19:06:12 +0000</pubDate>
+      <title>Redox OS Gets Cargo &amp;amp; The Rust Compiler Running On This Open-Source OS</title>
+      <link>https://www.phoronix.com/news/Redox-OS-January-2026</link>
+      <description>The Rust-written Redox OS open-source operating system is now able to leverage Cargo and the Rust compiler "rustc" itself running within this platform. Plus they also made a heck of a lot of other improvements too over the course of the past month. Today they published a status update to outline all of the promising advancements made to this independent OS so far in 2026...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Redox-OS-January-2026</guid>
+      <pubDate>Mon, 09 Feb 2026 19:55:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19 Released With Better Support For Older AMD GPUs, DRM Color Pipeline API</title>
-      <link>https://www.phoronix.com/news/Linux-6.19-Released</link>
-      <description>As anticipated due to the extra week for the cycle given end of year holidays, Linus Torvalds today released the Linux 6.19 stable kernel as the first major release of 2026. There is a lot in store with this early 2026 kernel release...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19-Released</guid>
-      <pubDate>Sun, 08 Feb 2026 21:11:30 +0000</pubDate>
+      <title>Btrfs Brings Experimental Remap-Tree Feature &amp;amp; More In Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Btrfs-Changes</link>
+      <description>Among the pull requests merged today on this first day of the Linux 7.0 merge window are the many Btrfs file-system feature updates...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Btrfs-Changes</guid>
+      <pubDate>Tue, 10 Feb 2026 01:25:40 +0000</pubDate>
     </item>
     <item>
-      <title>Linus Torvalds Confirms The Next Kernel Is Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Is-Next</link>
-      <description>Following Linus Torvalds releasing Linux 6.19 stable, Linus Torvalds is now out with his customary release announcement. Notably he officially confirmed that the next kernel version is Linux 7.0 as the successor to Linux 6.19...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Is-Next</guid>
-      <pubDate>Sun, 08 Feb 2026 21:25:22 +0000</pubDate>
+      <title>NULLFS &amp;amp; OPEN_TREE_NAMESPACE Features Merged For Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-NULLFS-Namespace</link>
+      <description>Christian Brauner sent in a dozen VFS pull requests that are now-merged today for the Linux 7.0 kernel. The VFS pull requests worth noting right away in this article are the introduction of the NULLFS and OPEN_TREE_NAMESPACE features...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-NULLFS-Namespace</guid>
+      <pubDate>Tue, 10 Feb 2026 01:49:04 +0000</pubDate>
     </item>
   </channel>
 </rss>

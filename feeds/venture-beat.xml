@@ -8,47 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Feb 2026 07:22:56 +0000</lastBuildDate>
-    <item>
-      <title>OpenAI launches centralized agent platform as enterprises push for multi-vendor flexibility</title>
-      <link>https://venturebeat.com/orchestration/openai-launches-centralized-agent-platform-as-enterprises-push-for-multi</link>
-      <description>OpenAI launched Frontier, a platform for building and governing enterprise AI agents, as companies increasingly question whether to commit to single-vendor systems or maintain multi-model flexibility.The platform offers integrated tools for agent execution, evaluation, and governance in one place. But Frontier also reflects OpenAI's push into enterprise AI at a moment when organizations are actively moving toward multi-vendor architectures — creating tension between OpenAI's centralized approach</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/openai-launches-centralized-agent-platform-as-enterprises-push-for-multi</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/5RAXZiLZWkzpMSxK7FBdWD/f742888b0589571c851c99d2b4906b06/crimedy7_illustration_of_a_company_doing_deep_busy_work_digit_611a4168-af74-4987-b96d-cf57df7f9b83_0.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 05 Feb 2026 05:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond the lakehouse: Fundamental's NEXUS bypasses manual ETL with a native foundation model for tabular data</title>
-      <link>https://venturebeat.com/data/fundamental-emerges-from-stealth-with-first-major-foundation-model-trained</link>
-      <description>The deep learning revolution has a curious blind spot: the spreadsheet. While Large Language Models (LLMs) have mastered the nuances of human prose and image generators have conquered the digital canvas, the structured, relational data that underpins the global economy — the rows and columns of ERP systems, CRMs, and financial ledgers — has so far been treated as just another file format similar to text or PDFs.That's left enterprises to forecast business outcomes using the typical bespoke, labo</description>
-      <guid isPermaLink="false">https://venturebeat.com/data/fundamental-emerges-from-stealth-with-first-major-foundation-model-trained</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/xQAJrXCEqJVZZ8XR58deG/1ee37fb8b0f2e5073789a90cd3349caa/3TAB6GEYAOuK63Z49gVbh_7rJTLGX7.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 05 Feb 2026 15:36:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic's Claude Opus 4.6 brings 1M token context and 'agent teams' to take on OpenAI's Codex</title>
-      <link>https://venturebeat.com/technology/anthropics-claude-opus-4-6-brings-1m-token-context-and-agent-teams-to-take</link>
-      <description>Anthropic on Thursday released Claude Opus 4.6, a major upgrade to its flagship artificial intelligence model that the company says plans more carefully, sustains longer autonomous workflows, and outperforms competitors including OpenAI's GPT-5.2 on key enterprise benchmarks — a release that arrives at a tumultuous moment for the AI industry and global software markets.The launch comes just three days after OpenAI released its own Codex desktop application in a direct challenge to Anthropic's Cl</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/anthropics-claude-opus-4-6-brings-1m-token-context-and-agent-teams-to-take</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6VZH0g5VVs4i2b3mzTbaBl/597421e821b883c701decfb8aa3e542f/nuneybits_Hyper-realistic_image_of_a_retro_computer_with_a_glos_2bc491e9-a44d-4d0a-af61-2d6afdf3245f.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 05 Feb 2026 17:45:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI’s GPT-5.3-Codex drops as Anthropic upgrades Claude — AI coding wars heat up ahead of Super Bowl ads</title>
-      <link>https://venturebeat.com/technology/openais-gpt-5-3-codex-drops-as-anthropic-upgrades-claude-ai-coding-wars-heat</link>
-      <description>OpenAI on Wednesday released GPT-5.3-Codex, which the company calls its most capable coding agent to date, in an announcement timed to land at the exact same moment Anthropic unveiled its own flagship model upgrade, Claude Opus 4.6. The synchronized launches mark the opening salvo in what industry observers are calling the AI coding wars — a high-stakes battle to capture the enterprise software development market.The dueling announcements came amid an already heated week between the two AI giant</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/openais-gpt-5-3-codex-drops-as-anthropic-upgrades-claude-ai-coding-wars-heat</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6q6j5Utl7RXyCii94E9E0s/41571560192bd7474ad2be7d00de8e9b/nuneybits_Hyper-realistic_image_of_modern_Apple_iMac_computer_m_3c0cd8a7-3a95-4f7c-a7b1-c9917ee2c56a.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 05 Feb 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TTT-Discover optimizes GPU kernels 2x faster than human experts — by training during inference</title>
-      <link>https://venturebeat.com/infrastructure/ttt-discover-optimizes-gpu-kernels-2x-faster-than-human-experts-by-training</link>
-      <description>Researchers from Stanford, Nvidia, and Together AI have developed a new technique that can discover new solutions to very complex problems. For example, they managed to optimize a critical GPU kernel to run 2x faster than the previous state-of-the-art written by human experts.Their technique, called “Test-Time Training to Discover” (TTT-Discover), challenges the current paradigm of letting models “think longer” for reasoning problems. TTT-Discover allows the model to continue training during the</description>
-      <guid isPermaLink="false">https://venturebeat.com/infrastructure/ttt-discover-optimizes-gpu-kernels-2x-faster-than-human-experts-by-training</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/VdyB1WZ47N0MK0BqEYldH/5006b63a69fb8372a801f93808aeb441/AI_discovery.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 05 Feb 2026 22:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 10 Feb 2026 07:24:48 +0000</lastBuildDate>
     <item>
       <title>How recruitment fraud turned cloud IAM into a $2 billion attack surface</title>
       <link>https://venturebeat.com/security/recruitment-fraud-cloud-iam-2-billion-attack-surface</link>
@@ -64,6 +24,46 @@
       <guid isPermaLink="false">https://venturebeat.com/technology/what-the-openclaw-moment-means-for-enterprises-5-big-takeaways</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3q67hIphrWar1zZdhKR2ss/1f8157dcb5adbad8e42943351fa74f42/XR7z-YHBn3iPBbV1IrWrk_w5M6NPon.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Fri, 06 Feb 2026 22:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The missing layer between agent connectivity and true collaboration</title>
+      <link>https://venturebeat.com/orchestration/the-missing-layer-between-agent-connectivity-and-true-collaboration</link>
+      <description>Today's AI challenge is about agent coordination, context, and collaboration. How do you enable them to truly think together, with all the contextual understanding, negotiation, and shared purpose that entails? It's a critical next step toward a new kind of distributed intelligence that keeps humans firmly in the loop.At the latest stop on VentureBeat's AI Impact Series, Vijoy Pandey, SVP and GM of Outshift by Cisco, and Noah Goodman, Stanford professor and co-founder of Humans&amp;amp;, sat down to tal</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/the-missing-layer-between-agent-connectivity-and-true-collaboration</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6GKubNSS4p7u44CxaXoHit/42c9d021f7b7bab684ea1d47f176ecb4/VB-AI-IMPACT-Outshift-2026-099-XL.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Feb 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI's GPU problem is actually a data delivery problem</title>
+      <link>https://venturebeat.com/data/ais-gpu-problem-is-actually-a-data-delivery-problem</link>
+      <description>Presented by F5As enterprises pour billions into GPU infrastructure for AI workloads, many are discovering that their expensive compute resources sit idle far more than expected. The culprit isn't the hardware. It’s the often-invisible data delivery layer between storage and compute that's starving GPUs of the information they need."While people are focusing their attention, justifiably so, on GPUs, because they're very significant investments, those are rarely the limiting factor," says Mark Me</description>
+      <guid isPermaLink="false">https://venturebeat.com/data/ais-gpu-problem-is-actually-a-data-delivery-problem</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4bFluSeTx31voLx3j0hXAR/608109ff21a13489a6d3360ce43ff832/AdobeStock_1641837429.jpeg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Feb 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nvidia releases DreamDojo, a robot ‘world model’ trained on 44,000 hours of human video</title>
+      <link>https://venturebeat.com/technology/nvidia-releases-dreamdojo-a-robot-world-model-trained-on-44-000-hours-of</link>
+      <description>A team of researchers led by Nvidia has released DreamDojo, a new AI system designed to teach robots how to interact with the physical world by watching tens of thousands of hours of human video — a development that could significantly reduce the time and cost required to train the next generation of humanoid machines.The research, published this month and involving collaborators from UC Berkeley, Stanford, the University of Texas at Austin, and several other institutions, introduces what the te</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/nvidia-releases-dreamdojo-a-robot-world-model-trained-on-44-000-hours-of</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6VkLsjhtrqIPRjwrtn2XF0/62a42d08ef8c5a9fc5ac31fa6a3f6c2b/nuneybits_Vector_art_of_robot_manipulating_cardboard_box_plasti_f32a598d-057f-46c5-90dc-8522518bd4ac.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Feb 2026 09:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What AI builders can learn from fraud models that run in 300 milliseconds</title>
+      <link>https://venturebeat.com/orchestration/what-ai-builders-can-learn-from-fraud-models-that-run-in-300-milliseconds</link>
+      <description>Fraud protection is a race against scale. For instance, Mastercard’s network processes roughly 160 billion transactions a year, and experiences surges of 70,000 transactions a second during peak periods (like the December holiday rush). Finding the fraudulent purchases among those — without chasing false alarms — is an incredible task, which is why fraudsters have been able to game the system. But now, sophisticated AI models can probe down to individual transactions, pinpointing the ones that s</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/what-ai-builders-can-learn-from-fraud-models-that-run-in-300-milliseconds</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/1kewgFGr47cn9lpS05X3s9/bd168f6b74179ec18e667dcc83b9ad38/Stopping_fraud.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Feb 2026 17:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI's new Codex app hits 1M+ downloads in first week — but limits may be coming to free and Go users</title>
+      <link>https://venturebeat.com/technology/openais-new-codex-app-hits-1m-downloads-in-first-week-but-limits-may-be</link>
+      <description>In a major milestone for the "AI coding wars," OpenAI CEO Sam Altman confirmed on X that the company's standalone Codex application (currently only for Mac computers) surpassed 1 million downloads in its first week of availability, echoing the explosive growth of OpenAI's hit chatbot ChatGPT after it first launched in late 2022.The surge reflects a 60% week-over-week growth in overall Codex users, following the February 2 launch of the app and the subsequent release of the underlying GPT-5.3-Cod</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/openais-new-codex-app-hits-1m-downloads-in-first-week-but-limits-may-be</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3ffnQRu1bmICQTkY3pyA89/7254754d5920a67dfc6786dbda70a6eb/mAPFffBba_ZXF7goe0eXy_3Xg6Hljr.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Feb 2026 23:45:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
