@@ -8,69 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Feb 2026 07:33:42 +0000</lastBuildDate>
-    <item>
-      <title>Four Open RAN myths telcos need to move past, according to Wind River</title>
-      <link>https://www.rcrwireless.com/20260206/open_ran/four-open-ran-myths-telcos-need-to-move-past-according-to-wind-river</link>
-      <description>For starters, automation and cloud-native tooling are making Open RAN more scalable, not less Despite the very real progress made around Open RAN, a few myths still linger. Many still believe the technology remains experimental, while others assume it is only suitable for limited, rural deployments — not dense, urban, or complex RAN environments. Wind […]</description>
-      <guid isPermaLink="false">https://www.rcrwireless.com/20260206/open_ran/four-open-ran-myths-telcos-need-to-move-past-according-to-wind-river</guid>
-      <pubDate>Fri, 06 Feb 2026 15:18:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Amazon Leo to provide satellite connectivity to AT&amp;amp;T</title>
-      <link>https://www.rcrwireless.com/20260206/network-infrastructure/amazon-leo-to-provide-satellite-connectivity-to-att</link>
-      <description>Under the agreement, AT&amp;amp;T will use Leo’s satellite internet service, while providing ground-based fiber connectivity to AWS data centers In sum — what to know: Hybrid connectivity play: Amazon Leo and AT&amp;amp;T signed a new agreement which will see the two companies leverage their satellite broadband service and fiber-optic network respectively in their networks. Cloud […]</description>
-      <guid isPermaLink="false">https://www.rcrwireless.com/20260206/network-infrastructure/amazon-leo-to-provide-satellite-connectivity-to-att</guid>
-      <pubDate>Fri, 06 Feb 2026 19:43:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>T-Mobile US’ switching strategy lands in court again</title>
-      <link>https://www.rcrwireless.com/20260206/business/t-mobile-us-court</link>
-      <description>Verizon has joined AT&amp;amp;T in challenging T-Mobile’s aggressive switching strategy that includes promotions, pricing comparisons, and a new Easy Switch tool In sum – what to know: Escalating legal pushback – Verizon’s lawsuit over disputed $1,000 savings claims comes on the heels of AT&amp;amp;T’s separate challenge to T-Mobile’s Easy Switch onboarding tool. Misleading consumers? – […]</description>
-      <guid isPermaLink="false">https://www.rcrwireless.com/20260206/business/t-mobile-us-court</guid>
-      <pubDate>Fri, 06 Feb 2026 19:49:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI infra faces its biggest test – people</title>
-      <link>https://www.rcrwireless.com/20260209/infrastructure/ai-infra-test-people</link>
-      <description>As AI drives demand for new data centres, operators are discovering that the hardest constraints aren’t (just) land and power – they’re communities, politics, and staffing. Local opposition, public sentiment, and workforce shortages are reshaping where and how new AI facilities can be built. In sum – what to know: Community resistance – local residents […]</description>
-      <guid isPermaLink="false">https://www.rcrwireless.com/20260209/infrastructure/ai-infra-test-people</guid>
-      <pubDate>Mon, 09 Feb 2026 15:01:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dell’Oro raises O-RAN outlook on 5G, 6G demand</title>
-      <link>https://www.rcrwireless.com/20260209/5g/delloro-raises-o-ran</link>
-      <description>Dell’Oro said near-term O-RAN revenue expectations have been revised downward, while longer-term growth assumptions have improved In sum – what to know: Long-term O-RAN outlook improves – Expectations for the second half of 5G and early 6G deployments lifted the long-term forecast, despite weaker near-term revenue projections. Cloud RAN timing pushed back – Performance, power, […]</description>
-      <guid isPermaLink="false">https://www.rcrwireless.com/20260209/5g/delloro-raises-o-ran</guid>
-      <pubDate>Mon, 09 Feb 2026 15:10:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>BT posts revenues of $6.8 billion in fiscal Q3</title>
-      <link>https://www.rcrwireless.com/20260209/5g/bt-revenues-q3</link>
-      <description>BT said it passed more than 1 million premises with FTTP for an eighth consecutive quarter In sum – what to know: Revenue down 4% to £5B in Q3 – Declines in service and equipment revenue, plus divestments, weighed on results, while profit before tax fell 11% to £862 million. FTTP build reaches 21.4M premises […]</description>
-      <guid isPermaLink="false">https://www.rcrwireless.com/20260209/5g/bt-revenues-q3</guid>
-      <pubDate>Mon, 09 Feb 2026 15:11:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Emerson/NI white paper: 2026 Technology Trends Impacting the Wireless Communications Industry</title>
-      <link>https://content.rcrwireless.com/2026-technology-trends-whitepaper</link>
-      <description>The rapid evolution of artificial intelligence, wireless communications, sensing technologies, and geopolitically influenced supply chains is reshaping the RF and wireless ecosystem. Drawing from emerging research, enterprise investment, government initiatives, and consumer adoption, this white paper outlines the key technology domains expected to define 2026. These trends will shape the next generation of communication networks and strategic planning across industries like […]</description>
-      <guid isPermaLink="false">https://content.rcrwireless.com/2026-technology-trends-whitepaper</guid>
-      <pubDate>Mon, 09 Feb 2026 17:50:41 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 11 Feb 2026 07:32:12 +0000</lastBuildDate>
     <item>
       <title>What is PNT?</title>
       <link>https://www.rcrwireless.com/20260209/defense-communications/what-is-pnt</link>
-      <description>Positioning, navigation, and timing (PNT) powers much of the modern world — yet remains invisible. Until it snaps If you’ve used a navigation system, you’ve likely noticed that it pulls information across three dimensions — position, navigation, and time. It tells you where an object is, if it’s moving or static, and the exact time […]</description>
+      <description>Positioning, navigation, and timing (PNT) powers much of the modern world — yet remains invisible If you’ve used a navigation system, you’ve likely noticed that it pulls information across three dimensions — position, navigation, and time. It tells you where an object is, if it’s moving or static, and the exact time when those attributes […]</description>
       <guid isPermaLink="false">https://www.rcrwireless.com/20260209/defense-communications/what-is-pnt</guid>
       <pubDate>Mon, 09 Feb 2026 18:58:52 +0000</pubDate>
     </item>
     <item>
       <title>Spirent joins ESA to advance PNT resilience in UK</title>
       <link>https://www.rcrwireless.com/20260209/test-measurement/spirent-joins-esa-to-boost-pnt-resilience-in-the-uk</link>
-      <description>The global PNT ecosystem has been a target of screw-ups. Private companies and government agencies are joining forces to work out a solution Spirent joins ESA: Spirent has joined the European Space Agency in supporting the U.K. government’s Resilient PNT Strategy. The agreement: Spirent will lend its PNT Resiliency Health Check, along with its PNT […]</description>
+      <description>The global PNT ecosystem has been a hot target of screw-ups. Private companies and government agencies are joining forces to work out a solution Spirent joins ESA: Spirent has joined the European Space Agency to support the U.K. government’s Resilient PNT Strategy. The agreement: Spirent will bring its PNT Resiliency Health Check, as well as […]</description>
       <guid isPermaLink="false">https://www.rcrwireless.com/20260209/test-measurement/spirent-joins-esa-to-boost-pnt-resilience-in-the-uk</guid>
       <pubDate>Mon, 09 Feb 2026 22:10:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>GSMA MWC26 Barcelona draws closer as CEOs from Character.AI, OURA and Qualcomm confirmed as speakers</title>
+      <link>https://www.rcrwireless.com/20260210/mwc-26/gsma-mwc26-barcelona</link>
+      <description>Live showcases and real-world demos take centre stage, including new zones, Airport of the Future and New Frontiers MWC26 Barcelona, the world’s largest and most influential connectivity event, is set to return to the bustling halls of Fira de Barcelona’s Gran Via on 2–5 March. The week-long gathering will unite global leaders, innovators and policymakers […]</description>
+      <guid isPermaLink="false">https://www.rcrwireless.com/20260210/mwc-26/gsma-mwc26-barcelona</guid>
+      <pubDate>Tue, 10 Feb 2026 09:18:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI data-center spend to hit $80bn by 2030 to escape power crunch</title>
+      <link>https://www.rcrwireless.com/20260210/infrastructure/ad-data-center-spend-power-crunch</link>
+      <description>Power scarcity and thermal limits are major challenges for the AI data center buildout, observes Dell’Oro Group – but that the industry is redesigning infrastructure, doubling down on cooling, and spending its way out of a corner. In sum – what to know: Power constraints – shifting from chips to infrastructure, as Dell’Oro forecasts the […]</description>
+      <guid isPermaLink="false">https://www.rcrwireless.com/20260210/infrastructure/ad-data-center-spend-power-crunch</guid>
+      <pubDate>Tue, 10 Feb 2026 12:30:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Telus secures additional spectrum to boost 5G</title>
+      <link>https://www.rcrwireless.com/20260210/5g/telus-spectrum-5g</link>
+      <description>Telus now holds an average of 104 megahertz of mid-band spectrum in the 3.5 GHz and 3.8 GHz ranges nationwide In sum – what to know: Total investment – Canadian operator Telus has spent $234m on 3800 MHz spectrum licences in British Columbia and Alberta. National holdings – National 3.5 GHz and 3.8 GHz holdings […]</description>
+      <guid isPermaLink="false">https://www.rcrwireless.com/20260210/5g/telus-spectrum-5g</guid>
+      <pubDate>Tue, 10 Feb 2026 12:52:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>LG Uplus advances autonomous network with AI agents</title>
+      <link>https://www.rcrwireless.com/20260210/5g/lg-uplus-network-ai</link>
+      <description>LG Uplus said the AI-based platform anticipates traffic surges during large events and adjusts base-station settings in advance In sum – what to know: AI cuts complaints – LG Uplus says AI agents reduced mobile service complaints by 70% and home service complaints by 56% through automated fault detection and response. Full autonomy by 2028 […]</description>
+      <guid isPermaLink="false">https://www.rcrwireless.com/20260210/5g/lg-uplus-network-ai</guid>
+      <pubDate>Tue, 10 Feb 2026 15:32:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>SoftBank delivers record revenue, maps telco strategy beyond traditional services</title>
+      <link>https://www.rcrwireless.com/20260210/business/softbank-telco-strategy</link>
+      <description>SoftBank posted approximately $34.6 billion in revenue, up 8% year-on-year In sum – what to know: Record financial performance – Revenue was up 8% year-on-year to ¥5.2 trillion (~$34.6B) and operating income rose to ¥884 billion (~$5.9B). Telecom remains a growth platform – CEO Junichi Miyakawa emphasized opportunities in standalone 5G, local 5G, and AI-RAN. […]</description>
+      <guid isPermaLink="false">https://www.rcrwireless.com/20260210/business/softbank-telco-strategy</guid>
+      <pubDate>Tue, 10 Feb 2026 16:06:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Starlink is winning the LEO-based internet race in major markets</title>
+      <link>https://www.rcrwireless.com/20260210/network-infrastructure/starlink-is-winning-the-leo-based-internet-race-in-major-markets</link>
+      <description>A new Ookla report traces the blistering growth of the satellite broadband provider that has been the subject of countless scoops of late Starlink is outpacing every other player in the satellite broadband race. New data from Ookla confirms that the provider is acing in almost all categories of tabulation. Runaway growth The satellite broadband […]</description>
+      <guid isPermaLink="false">https://www.rcrwireless.com/20260210/network-infrastructure/starlink-is-winning-the-leo-based-internet-race-in-major-markets</guid>
+      <pubDate>Tue, 10 Feb 2026 17:35:56 +0000</pubDate>
     </item>
   </channel>
 </rss>
