@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Feb 2026 07:09:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 07:05:47 +0000</lastBuildDate>
     <item>
-      <title>Linux 7.0 Officially Concluding The Rust Experiment</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Rust</link>
-      <description>While Linux 7.0 is the next kernel version solely over Linus Torvalds' numbering preference, there is a notable symbolic change that was sent in overnight for this new kernel merge window: formally concluding the "Rust experiment" with upstream kernel developers now in acceptance that Rust for the Linux kernel is here to stay...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Rust</guid>
-      <pubDate>Mon, 09 Feb 2026 10:57:10 +0000</pubDate>
+      <title>Linux 7.0 Block Changes Land, Bounce Buffer DIO For Stable Pages</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Block-Changes</link>
+      <description>In addition to the BPF filtering support for IO_uring that was merged on Monday, the other block device changes and IO_uring updates were also merged for the newly-opened Linux 7.0 merge window...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Block-Changes</guid>
+      <pubDate>Tue, 10 Feb 2026 14:09:02 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Linux Driver Readying Peak Tops Limiter "PTL" Support</title>
-      <link>https://www.phoronix.com/news/AMD-Peak-Tops-Limiter-AMDGPU</link>
-      <description>The AMDGPU and AMDKFD Linux kernel graphics driver code has been readying support for the Peak Tops Limiter (PTL) as a new feature to the latest Instinct accelerators...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-Peak-Tops-Limiter-AMDGPU</guid>
-      <pubDate>Mon, 09 Feb 2026 11:15:58 +0000</pubDate>
+      <title>Redis 8.6 Released With "Substantial" Performance Improvements &amp;amp; Memory Reduction</title>
+      <link>https://www.phoronix.com/news/Redis-8.6-Released</link>
+      <description>The open-source Redis 8.6 release is now available and this GA release has brought "substantial" performance improvements and to memory reduction too. Plus various new features like TLS certificate-based automatic client authentication, time series enhancements, and new eviction policies...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Redis-8.6-Released</guid>
+      <pubDate>Tue, 10 Feb 2026 14:25:50 +0000</pubDate>
     </item>
     <item>
-      <title>GNU Linux-Libre 6.19 Deals With More Firmware Blobs In Intel Xe, IWLWIFI &amp;amp; NVIDIA Nova</title>
-      <link>https://www.phoronix.com/news/GNU-Linux-Libre-6.19</link>
-      <description>Building off yesterday's Linux 6.19 release is now the GNU Linux-libre 6.19-gnu downstream release that strips out support for open-source drivers dependent upon binary-only microcode/firmware and other elements deemed against free software standards, removing the ability to load non-open-source kernel modules, and similar restrictions in the name of software freedom...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-Linux-Libre-6.19</guid>
-      <pubDate>Mon, 09 Feb 2026 13:51:29 +0000</pubDate>
+      <title>Intel Xeon 6780E Sierra Forest vs. AMD EPYC 9965 On Linux 6.18 Performance</title>
+      <link>https://www.phoronix.com/review/sierra-forest-epyc-turin-2026</link>
+      <description>With recently having carried out benchmarks and finding the Intel Xeon 6780E "Sierra Forest" performance has improved ~14% since launch day thanks to open-source/Linux software improvements plus also recently having carried out Xeon 6980P Granite Rapids vs. EPYC 9755 128-core benchmarks using the latest upstream software, here is a look at how the Xeon 6780E "Sierra Forest" dual socket server is comparing up against the AMD EPYC 9965 Turin Dense flagship when both are running up-to-date software</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/sierra-forest-epyc-turin-2026</guid>
+      <pubDate>Tue, 10 Feb 2026 15:32:41 +0000</pubDate>
     </item>
     <item>
-      <title>Debian's tag2upload Reaches GA For Improving Packaging Workflow</title>
-      <link>https://www.phoronix.com/news/Debian-tag2upload-GA</link>
-      <description>Debian's tag2upload has finally reached general availability "GA" status for helping Debian developers/maintainers with an improved Git-based packaging workflow...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Debian-tag2upload-GA</guid>
-      <pubDate>Mon, 09 Feb 2026 14:20:42 +0000</pubDate>
+      <title>CrossOver 26 Released - Powered By Wine 11.0 For Windows Apps/Games On Linux + macOS</title>
+      <link>https://www.phoronix.com/news/CrossOver-26</link>
+      <description>CodeWeavers just announced CrossOver 26, the newest version of their commercial software built atop Wine for running Windows games and applications under Apple macOS and Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/CrossOver-26</guid>
+      <pubDate>Tue, 10 Feb 2026 16:11:19 +0000</pubDate>
     </item>
     <item>
-      <title>Blender 5.1 Lands Raycast Nodes, Blender Adjusting Release Cycle Moving Forward</title>
-      <link>https://www.phoronix.com/news/Blender-5.1-Raycast-Nodes</link>
-      <description>Two interesting bits of Blender news this week for those fond of this leading open-source 3D modeling software...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Blender-5.1-Raycast-Nodes</guid>
-      <pubDate>Mon, 09 Feb 2026 15:01:00 +0000</pubDate>
+      <title>Linux 7.0 VFS Changes: Non-Blocking Timestamps, Standardized Generic I/O Error Reporting</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-VFS</link>
+      <description>In addition to introducing nullfs and the OPEN_TREE_NAMESPACE support for containers, there were also a number of other interesting VFS updates merged on Monday for the Linux 7.0 kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-VFS</guid>
+      <pubDate>Tue, 10 Feb 2026 17:20:57 +0000</pubDate>
     </item>
     <item>
-      <title>Windows 11 vs. Ubuntu Linux Performance For Intel Core Ultra X7 Panther Lake</title>
-      <link>https://www.phoronix.com/review/windows-linux-panther-lake</link>
-      <description>Last week I began publishing the many exciting Panther Lake benchmarks under Linux from the interesting CPU performance and efficiency to the much anticipated Xe3 graphics with the Intel Arc B390 graphics. Up today is a look at how the out-of-the-box performance for the Intel Core Ultra X7 358H compares under Microsoft Windows 11 and the current Ubuntu Linux 26.04 development state.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/windows-linux-panther-lake</guid>
-      <pubDate>Mon, 09 Feb 2026 16:40:00 +0000</pubDate>
+      <title>Linux 7.0 Bringing Mainline Support For The SpacemiT K3 RVA23 SoC, Qualcomm Kaanapali</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-SoC-Pulls</link>
+      <description>The various SoC and platform Device Tree additions were sent out today for the Linux 7.0 kernel. Easily most exciting on the SoC side this cycle among the ARM and RISC-V changes is getting support ready for the SpacemiT K3 RVA23 SoC...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-SoC-Pulls</guid>
+      <pubDate>Tue, 10 Feb 2026 18:24:02 +0000</pubDate>
     </item>
     <item>
-      <title>AMD openSIL + Coreboot Being Ported To A Modern AM5 Consumer Motherboard</title>
-      <link>https://www.phoronix.com/news/AMD-openSIL-Coreboot-AM5-Zen-5</link>
-      <description>While we are very eager for the AMD openSIL open-source CPU silicon initialization project to achieve production readiness with Zen 6 platforms for ultimately replacing AGESA, there is some experimental excitement on the way for open-source firmware enthusiasts... OpenSIL and Coreboot are being brought to an AM5 motherboard you can buy retail...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-openSIL-Coreboot-AM5-Zen-5</guid>
-      <pubDate>Mon, 09 Feb 2026 18:50:04 +0000</pubDate>
+      <title>Intel CPU Microcode 20260210 Brings Security Updates &amp;amp; Functional Fixes</title>
+      <link>https://www.phoronix.com/news/Intel-20260210-Microcode</link>
+      <description>Intel today for Patch Tuesday released several generations worth of CPU microcode updates for addressing multiple security issues and functional issues...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-20260210-Microcode</guid>
+      <pubDate>Tue, 10 Feb 2026 18:46:25 +0000</pubDate>
     </item>
     <item>
-      <title>Redox OS Gets Cargo &amp;amp; The Rust Compiler Running On This Open-Source OS</title>
-      <link>https://www.phoronix.com/news/Redox-OS-January-2026</link>
-      <description>The Rust-written Redox OS open-source operating system is now able to leverage Cargo and the Rust compiler "rustc" itself running within this platform. Plus they also made a heck of a lot of other improvements too over the course of the past month. Today they published a status update to outline all of the promising advancements made to this independent OS so far in 2026...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Redox-OS-January-2026</guid>
-      <pubDate>Mon, 09 Feb 2026 19:55:00 +0000</pubDate>
+      <title>Go 1.26 Introduces Two Language Changes, New Performance Improvements</title>
+      <link>https://www.phoronix.com/news/Go-1.26-Released</link>
+      <description>For programmers fond of the Go programming language, Go 1.26 is out today with two language changes, performance improvements, and other alterations to this Google-backed programming language...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Go-1.26-Released</guid>
+      <pubDate>Tue, 10 Feb 2026 20:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>Btrfs Brings Experimental Remap-Tree Feature &amp;amp; More In Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Btrfs-Changes</link>
-      <description>Among the pull requests merged today on this first day of the Linux 7.0 merge window are the many Btrfs file-system feature updates...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Btrfs-Changes</guid>
-      <pubDate>Tue, 10 Feb 2026 01:25:40 +0000</pubDate>
+      <title>Linux 7.0 Scheduler Updates Land Time Slice Extension, Performance &amp;amp; Scalability Work</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Scheduler</link>
+      <description>Merged today for the Linux 7.0 kernel are some pretty exciting scheduler changes: new features and never-ending work around scheduler performance optimizations and greater scalability with today's increasingly high core count systems...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Scheduler</guid>
+      <pubDate>Tue, 10 Feb 2026 22:28:00 +0000</pubDate>
     </item>
     <item>
-      <title>NULLFS &amp;amp; OPEN_TREE_NAMESPACE Features Merged For Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-NULLFS-Namespace</link>
-      <description>Christian Brauner sent in a dozen VFS pull requests that are now-merged today for the Linux 7.0 kernel. The VFS pull requests worth noting right away in this article are the introduction of the NULLFS and OPEN_TREE_NAMESPACE features...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-NULLFS-Namespace</guid>
-      <pubDate>Tue, 10 Feb 2026 01:49:04 +0000</pubDate>
+      <title>Google Chrome 145 Released With JPEG-XL Image Support</title>
+      <link>https://www.phoronix.com/news/Chrome-145-Released</link>
+      <description>Back in 2022 Google deprecated and then removed JPEG-XL image support from the Chrome/Chromium browser codebase and now in 2026 it's back. Last month I wrote about JPEG-XL decoding merged back to Chromium/Chrome and that has rolled out today as part of today's Chrome 145 stable debut...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Chrome-145-Released</guid>
+      <pubDate>Wed, 11 Feb 2026 00:26:35 +0000</pubDate>
     </item>
   </channel>
 </rss>

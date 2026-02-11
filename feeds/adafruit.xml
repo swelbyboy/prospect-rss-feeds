@@ -8,85 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Feb 2026 07:09:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 07:05:38 +0000</lastBuildDate>
     <item>
-      <title>8 Track MIDI Sequencer on Adafruit PyGamer</title>
-      <link>https://blog.adafruit.com/2026/02/09/8-track-midi-sequencer-on-adafruit-pygamer/</link>
-      <description>We’re digging this new project from maker Paul Cunningham. Check out the demo video above on YouTube! Paul writes: Excited to be working on this project while snowed in for the past few weeks. It’s all using Circuit Python and has been a lot of fun to build. Looking forward to the new PyGamer Advanced […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/09/8-track-midi-sequencer-on-adafruit-pygamer/</guid>
-      <pubDate>Mon, 09 Feb 2026 17:29:43 +0000</pubDate>
+      <title>Controlling the HDMI CEC protocol with minimal hardware</title>
+      <link>https://blog.adafruit.com/2026/02/10/controlling-the-hdmi-cec-protocol-with-minimal-hardware/</link>
+      <description>CEC-Tiny-Pro has support for the HDMI CEC protocol, using minimal hardware, running on an ATMEGA processor. I’ve got myself into HDMI-CEC attempting to control the power state (on/off) of a vintage TV based on the state of a HDMI signal source. That is described in the CEC-Tiny project. This “Pro” version is intended to serve as a […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/controlling-the-hdmi-cec-protocol-with-minimal-hardware/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/a1-7.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Feb 2026 20:24:14 +0000</pubDate>
     </item>
     <item>
-      <title>New Product Coming Soon: Adafruit PMW3901 Optical Flow Sensor – SPI Optical Motion Breakout</title>
-      <link>https://blog.adafruit.com/2026/02/09/new-product-coming-soon-adafruit-pmw3901-optical-flow-sensor-spi-optical-motion-breakout/</link>
-      <description>I spy with my little sensor eye… a PMW3901 optical flow prototype on the bench! This tiny optical motion sensor has been a favorite of drone designers for years, and now we’re cooking up our own breakout board. The PMW3901 is an optical flow sensor that tracks surface movement beneath it, kind of like the […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/09/new-product-coming-soon-adafruit-pmw3901-optical-flow-sensor-spi-optical-motion-breakout/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/pmw3901.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 09 Feb 2026 18:10:14 +0000</pubDate>
+      <title>A library of free printable and customizable books</title>
+      <link>https://blog.adafruit.com/2026/02/10/a-library-of-free-printable-and-customizable-books/</link>
+      <description>The Printable Classics website states it’s a library of free printable and customizable books. At Printable Classics, we believe the best stories ever written should be easy to find and beautiful to hold. While digital reading is great for travel, we know that many readers—especially students and families—prefer the focus and tactile experience of a […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/a-library-of-free-printable-and-customizable-books/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/b-17.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Feb 2026 20:39:47 +0000</pubDate>
     </item>
     <item>
-      <title>Increasing the Speed of Offline Raspberry Pi AI Chatbot #raspberrypi</title>
-      <link>https://blog.adafruit.com/2026/02/09/increasing-the-speed-of-offline-raspberry-pi-ai-chatbot-piday-raspberrypi/</link>
-      <description>Last month we shared about Jdaie Lin’s offline chatbot. Well now they are back with a new and improved version, sort of. Nothing about the hardware has changed, Lin found ways to improve the speed of the software stack by optimizing the ASR, LLM and TTS. From the ASR alone they were able to […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/09/increasing-the-speed-of-offline-raspberry-pi-ai-chatbot-piday-raspberrypi/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/increasing-the-speed-of-offline.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 09 Feb 2026 20:33:55 +0000</pubDate>
+      <title>NEW PRODUCTS – Raspberry Pi Flash Drives – 128GB &amp;amp; 256GB – USB 3.0</title>
+      <link>https://blog.adafruit.com/2026/02/10/new-products-raspberry-pi-flash-drives-128gb-256gb-usb-3-0/</link>
+      <description>NEW PRODUCTS – Raspberry Pi Flash Drives – 128GB &amp;amp; 256GB – USB 3.0 ______________________________________________________________ The Raspberry Pi Flash Drive is a compact, high-quality USB 3.0 flash memory drive that delivers powerful random and sequential I/O performance in a sleek and portable form factor. Offering moderate power consumption and significant resilience to power-loss events, the […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/new-products-raspberry-pi-flash-drives-128gb-256gb-usb-3-0/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/6452_top_ORIG_2026_01-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Feb 2026 20:50:39 +0000</pubDate>
     </item>
     <item>
-      <title>Compiling Quake like it’s 1997</title>
-      <link>https://blog.adafruit.com/2026/02/09/compiling-quake-like-its-1997/</link>
-      <description>Fabien Sanglard posts about how the game Quake (1997) was compiled for production and how that process can be recreated. The first batches of Quake executables, quake.exe and vquake.exe were programmed on HP 712-60 running NeXT and cross-compiled with DJGPP running on a DEC Alpha server 2100A. In June of 1996, having shipped their title but concerned with NeXT stagnation, id […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/09/compiling-quake-like-its-1997/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/a-17.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Feb 2026 21:11:39 +0000</pubDate>
+      <title>JP’s Product Pick of the Week — 4pm Eastern TODAY! 2/10/26 @adafruit #adafruit #newproductpick</title>
+      <link>https://blog.adafruit.com/2026/02/10/jps-product-pick-of-the-week-4pm-eastern-today-2-10-26-adafruit-adafruit-newproductpick-2/</link>
+      <description>Come on by for JP’s Product Pick of The Week ! A new product pick will be revealed. The show airs at 4pm ET / 1pm PT, TODAY! Check out the livestream right here inside this product page you won’t want to miss it because there will be a HUGE DISCOUNT during the show! Tune in […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/jps-product-pick-of-the-week-4pm-eastern-today-2-10-26-adafruit-adafruit-newproductpick-2/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/jpppw_thumb_episode265_blur.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Feb 2026 20:55:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Scriptovision Super Micro Script video titler is almost a home computer</title>
-      <link>https://blog.adafruit.com/2026/02/09/the-scriptovision-super-micro-script-video-titler-is-almost-a-home-computer/</link>
-      <description>The Old Vintage Computing Research blog looks at the Scriptovision Super Micro Script video titler. Video titlers (also known as character generators) are exactly what they sound like: devices that stamp bitmap data, usually text, on top of a video signal, like this typical example from a 1992 demo video for the consumer-oriented Videonics Video […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/09/the-scriptovision-super-micro-script-video-titler-is-almost-a-home-computer/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/20250929ohm-2.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 09 Feb 2026 21:24:04 +0000</pubDate>
+      <title>Making an archer automaton</title>
+      <link>https://blog.adafruit.com/2026/02/10/making-an-archer-automaton/</link>
+      <description>Oliver Pett is working to make a mechanical automaton of an archer (right), similar to the wooden one (left). This is the most complex automaton I’ve ever attempted: a fully articulated archer designed to draw arrows from a back quiver, load them, and shoot with believable technique. What began as an ambitious idea quickly became […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/making-an-archer-automaton/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/bootsel-14.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Feb 2026 20:56:33 +0000</pubDate>
     </item>
     <item>
-      <title>Making ferrite core inductors at home</title>
-      <link>https://blog.adafruit.com/2026/02/09/making-ferrite-core-inductors-at-home/</link>
-      <description>Daniel Mangum has recently been working on tuning circuits, which typically consist of an inductor and a capacitor (i.e. an LC circuit). For those not familiar with inductors, they are passive components that store energy in a magnetic field. They oppose changes in current, meaning that they pass direct current (DC) and block alternating current (AC). While inductors can be difficult to […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/09/making-ferrite-core-inductors-at-home/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/a-18.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Feb 2026 21:36:16 +0000</pubDate>
+      <title>An Artistic Opening to the Olympics #ArtTuesday</title>
+      <link>https://blog.adafruit.com/2026/02/10/an-artistic-opening-to-the-olympics-arttuesday/</link>
+      <description>Italy has a long and interesting art history. To honor this, the opening ceremony of the Milano Cortina 2026 Winter Olympics included performances highlighting Italian art, artists, and architecture. ArtNet shares the details. The festivities at Milano San Siro Olympic Stadium, helmed by producer Marco Balich—an opening ceremonies veteran and Milan local—were an ode to […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/an-artistic-opening-to-the-olympics-arttuesday/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/Screen-Shot-2026-02-10-at-12.06.00-PM-600x233.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Feb 2026 21:00:43 +0000</pubDate>
     </item>
     <item>
-      <title>Installing AlmaLinux over a network with no interaction</title>
-      <link>https://blog.adafruit.com/2026/02/09/installing-almalinux-over-a-network-with-no-interaction/</link>
-      <description>As part of a broader project, Kenneth Finnegan has been working on setting up infrastructure to power on new servers, have them boot over the network, download and run the complete Linux installation process, and then reboot into the freshly provisioned operating system with zero human interaction. This ability to fully reinstall the entire OS […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/09/installing-almalinux-over-a-network-with-no-interaction/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/blink-8.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Feb 2026 21:46:09 +0000</pubDate>
+      <title>Designing a slightly sneaky blur filter and the resulting security</title>
+      <link>https://blog.adafruit.com/2026/02/10/designing-a-slightly-sneaky-blur-filter-and-the-resulting-security/</link>
+      <description>On the lcamtuf’s thing blog, they look at designing blur filters for images (and then poking holes in the implementation). If you follow information security discussions on the internet, you might have heard that blurring an image is not a good way of redacting its contents. This is supposedly because blurring algorithms are reversible. But […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/designing-a-slightly-sneaky-blur-filter-and-the-resulting-security/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/b-18.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Feb 2026 21:12:35 +0000</pubDate>
     </item>
     <item>
-      <title>Putting a real-time 3D shader on the Game Boy Color</title>
-      <link>https://blog.adafruit.com/2026/02/09/putting-a-real-time-3d-shader-on-the-game-boy-color/</link>
-      <description>Danny Spencer has made a Game Boy Color game that renders images in real time. The player controls an orbiting light and spins an object. Normal maps are a core concept of this project. They’re already used everywhere in 3D graphics. And indeed, normal map images are secretly a vector field. The reason normal maps […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/09/putting-a-real-time-3d-shader-on-the-game-boy-color/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/a-19.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Feb 2026 21:55:18 +0000</pubDate>
+      <title>Custom firmware for the Sony MZ-RH1 minidisc Walkman</title>
+      <link>https://blog.adafruit.com/2026/02/10/custom-firmware-for-the-sony-mz-rh1-minidisc-walkman/</link>
+      <description>Sir68k writes about changing the firmware for the vintage Sony MZ-RH1 minidisc Walkman music player. MiniDisc is a fascinating technology that blends analog audio principles with digital convenience. Despite being overshadowed by more modern formats, it remains a favorite among tech enthusiasts. My interest in MiniDisc isn’t just about nostalgia; it’s about unraveling the intricacies […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/custom-firmware-for-the-sony-mz-rh1-minidisc-walkman/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/bootsel-18.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Feb 2026 21:23:20 +0000</pubDate>
     </item>
     <item>
-      <title>How to switch pumps &amp;amp; high-voltage devices with OpenSprinkler (2026 guide)</title>
-      <link>https://blog.adafruit.com/2026/02/09/how-to-switch-pumps-high-voltage-devices-with-opensprinkler-2026-guide/</link>
-      <description>Ray at Ray’s DIY Electronics Hobby Projects blog writes: A common question we receive from users is: “How do I use OpenSprinkler to switch a water pump, a heater, a fan, or similar mains-powered devices?” Here are the top 5 ways to bridge the gap between OpenSprinkler and your high-voltage equipment, ranging from “Zero Wiring” to “Zero Software […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/09/how-to-switch-pumps-high-voltage-devices-with-opensprinkler-2026-guide/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/blink-10.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Feb 2026 22:06:13 +0000</pubDate>
+      <title>The perfect DOS gaming PC isn’t an old 486: it’s a Raspberry Pi</title>
+      <link>https://blog.adafruit.com/2026/02/10/the-perfect-dos-gaming-pc-isnt-an-old-486-its-a-raspberry-pi/</link>
+      <description>Nick Lewis at How-To Geek writes that Raspberry Pis are fantastic if you need a low-power, versatile device for any range of DIY projects, including robotics and simple self-hosted services. With a little bit of work, they can also become a fantastic DOS gaming station. When people say DOS, everyone is reminded of clunky command-line interfaces and […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/the-perfect-dos-gaming-pc-isnt-an-old-486-its-a-raspberry-pi/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/b-20.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Feb 2026 22:06:31 +0000</pubDate>
     </item>
     <item>
-      <title>SectorC: a C compiler in 512 bytes</title>
-      <link>https://blog.adafruit.com/2026/02/09/sectorc-a-c-compiler-in-512-bytes/</link>
-      <description>SectorC is a C compiler written in x86-16 assembly that fits within the 512 byte boot sector of an x86 machine, created by Anthony Bonkoski. It supports a subset of C that is large enough to write real and interesting programs. It is quite likely the smallest C compiler ever written. A fairly large subset […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/09/sectorc-a-c-compiler-in-512-bytes/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/bootsel-8.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Feb 2026 22:21:35 +0000</pubDate>
+      <title>The Intel 286 CPU is 44 years old</title>
+      <link>https://blog.adafruit.com/2026/02/10/the-intel-286-cpu-is-44-years-old/</link>
+      <description>44 years ago, a crafty collection of 134,000 transistors would mark a major inflection point in the PC industry. The Intel 286 CPU was introduced in February, 1982, a 16-bit x86 chip introduced protected mode memory, and would power the IBM PC/AT and a tidal wave of clones. This 16-bit fully x86 software compatible CPU […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/the-intel-286-cpu-is-44-years-old/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/blink-13.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Feb 2026 22:23:28 +0000</pubDate>
     </item>
   </channel>
 </rss>

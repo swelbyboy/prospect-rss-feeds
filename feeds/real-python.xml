@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Feb 2026 07:17:38 +0000</lastBuildDate>
-    <item>
-      <title>Quiz: GeoPandas Basics: Maps, Projections, and Spatial Joins</title>
-      <link>https://realpython.com/quizzes/geopandas/</link>
-      <description>Test GeoPandas basics for reading, mapping, projecting, and spatial joins to handle geospatial data confidently.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/geopandas/</guid>
-      <pubDate>Mon, 26 Jan 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 11 Feb 2026 07:14:59 +0000</lastBuildDate>
     <item>
       <title>GeoPandas Basics: Maps, Projections, and Spatial Joins</title>
       <link>https://realpython.com/geopandas/</link>
@@ -82,6 +75,13 @@
       <description>Catch up on the latest Python news: pandas 3.0 breaking changes, Python 3.15 alpha JIT gains, PyTorch 2.10 deprecations, and PSF updates.</description>
       <guid isPermaLink="false">https://realpython.com/python-news-february-2026/</guid>
       <pubDate>Mon, 09 Feb 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving Your Tests With the Python Mock Object Library</title>
+      <link>https://realpython.com/courses/improve-tests-mock-object-library/</link>
+      <description>Master Python testing with unittest.mock. Create mock objects to tame complex logic and unpredictable dependencies.</description>
+      <guid isPermaLink="false">https://realpython.com/courses/improve-tests-mock-object-library/</guid>
+      <pubDate>Tue, 10 Feb 2026 14:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

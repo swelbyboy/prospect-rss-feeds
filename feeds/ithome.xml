@@ -8,79 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Feb 2026 07:11:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 07:08:27 +0000</lastBuildDate>
     <item>
-      <title>Databricks在MLflow導入MemAlign方法，用雙記憶機制讓LLM評審貼近企業標準</title>
-      <link>https://www.ithome.com.tw/news/173860</link>
-      <description>新聞Databricks旗下Mosaic AI Research團隊發表MemAlign，這是一套用雙記憶系統累積專家自然語言回饋的LLM評審對齊框架，並宣布將其導入模型生命周期開源平臺MLflow，使企業LLM評審判斷更貼近領域標準。開發團隊指出，提示詞工程在規則逐步增加後容易出現前後不一致、覆蓋範圍難以控管等問題，也會受限於上下文長度，而微調則需要較高的資料與時間成本，因此改以記憶機制讓評估標準能隨回饋累積而調整。 企業在導入生成式AI後，常以LLM評審也就是讓大型語言模型充當自動評估器，檢查代理程式與客服機器人的輸出是否安全、正確且合乎規範。不過這類通用評估器的判斷，往往和領域專家在實務上看重的品質要求不一致。Mosaic團隊舉例，模型可能只從措辭是否禮貌下結論而忽略使用者意圖，也可能認為客服只要交代原因與處理時程就算合格，卻沒有把先安撫情緒、使用支持性語氣收尾等服務標準納入判斷。 MemAlign採用雙記憶體架構，不必更新模型權重。系統會把專家以自然語言寫下的回饋，萃取為可在不同情境重複使用的原則，存入語意記憶，同時把較難用原則完整涵蓋，也較容易出錯的具體案例保留在情節記憶。當</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173860</guid>
-      <pubDate>Tue, 10 Feb 2026 00:48:04 +0000</pubDate>
+      <title>微軟調整Windows Update政策，終止支援第三方印表機驅動程式</title>
+      <link>https://www.ithome.com.tw/news/173892</link>
+      <description>新聞基於Windows未來會內建印表機驅動程式，微軟已經在今年一月中啟動Windows Update不再提供第三方印表機驅動程式的支援，涵括Windows 11及Server 2025及以後版本。 微軟在2023年9月宣布舊式第三方印表機驅動程式終止服務的計畫。從Windows 10 21H2起，微軟從網路和USB介面提供Microsoft IPP類別驅動程式，以支援符合莫普里亞（Mopria）規範的印表機硬體。這樣一來，就不需要印表機製造商提供自己的安裝程式、驅動程式、公用程式等等。微軟最終目的是裝置製造商不需重新開發驅動程式。但伴隨Windows列印平臺的革新，微軟同時宣布Windows終止支援舊版v3和v4 Windows印表機驅動程式。 媒體分析，由Windows Update代為更新上千個第三方驅動程式不僅造成微軟維持整個生態系的負擔，更重要的是可能讓Windows曝露於漏洞風險，例如2021年的PrintNightmare。藉由減少Windows Update的更新範疇，微軟可以將舊硬體的支援責任丟回給印表機廠商。 隨著微軟停止支援的期程推移，在2026年1月15日的非安全</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173892</guid>
+      <pubDate>Wed, 11 Feb 2026 01:11:57 +0000</pubDate>
     </item>
     <item>
-      <title>國家級駭客鎖定關鍵基礎設施從事大規模網路間諜活動Shadow Campaigns，範圍涵蓋全球155個國家</title>
-      <link>https://www.ithome.com.tw/news/173867</link>
-      <description>新聞隨著國際局勢日趨緊張，國家級駭客針對關鍵基礎設施（CI）發動攻擊的情況也變得越來越頻繁，其中最近一起大型攻擊事故，是波蘭電網遭到俄羅斯駭客網攻的情形，駭客使用名為DynoWiper、LazyWiper的資料破壞軟體（Wiper），攻擊超過30個風力與太陽能發電系統、一家大型熱電共生（Combined Heat and Power，CHP）發電廠，以及一家製造公司，如今有國家級駭客鎖定關鍵基礎設施從事大規模網路間諜活動，範圍遍及全球超過150個國家，引起資安公司高度關注。 Palo Alto Networks旗下威脅情報團隊Unit 42發現亞洲國家級駭客組織TGR-STA-1030（別名UNC6619）出沒，針對全球的政府機關與關鍵基礎設施發動大規模攻擊Shadow Campaigns，最近一年已入侵37個國家的政府機關與關鍵基礎設施，代表全球有五分之一的國家受害。值得留意的是，這些駭客從去年11月至12月，進行廣泛且積極的偵察，範圍涵蓋臺灣在內的155個國家。對此，Unit 42公布駭客使用的複雜技術與基礎設施，並透露全球各地部分國家被針對的情況。根據各地區受害組織的調查，駭客主</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173867</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/ShadowCampaigns-F1.png" length="0" type="image/png"/>
-      <pubDate>Tue, 10 Feb 2026 02:35:32 +0000</pubDate>
+      <title>免費端點加速AI代理查詢公開資料，Google將Data Commons MCP託管上雲</title>
+      <link>https://www.ithome.com.tw/news/173889</link>
+      <description>新聞Google旗下Data Commons團隊宣布，將Data Commons的MCP（Model Context Protocol）服務改採Google雲端平臺託管形式提供，開放使用者連線到一個免費的雲端端點，讓支援MCP的AI代理人得以用一致的介面查詢datacommons.org上的公開統計資料，而不需要先在本機安裝與維護MCP伺服器所需的工具與執行環境。不過，要是使用Gemini CLI延伸套件以外的用戶端，仍需申請免費Data Commons API金鑰並在連線時帶入。 Data Commons是Google推動的公開資料知識圖譜計畫，彙整多來源的統計指標與地理、主題脈絡，供研究、分析與應用開發使用。MCP則是一套用來讓AI代理人對外部資料與工具進行互動的標準化協定。Data Commons團隊在2025年下半年，已先推出Data Commons MCP伺服器與Gemini CLI延伸套件，讓使用者能以自然語言驅動代理人查詢資料。 過去做法多半仰賴本機環境安裝開源Python工具並啟動本地MCP伺服器，官方在說明中指出，這種依賴對部分高安全管控環境並不友善，也讓想把查詢代理</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173889</guid>
+      <pubDate>Wed, 11 Feb 2026 01:57:55 +0000</pubDate>
     </item>
     <item>
-      <title>CISA更新VMware ESXi已遭利用漏洞資訊，確認遭勒索軟體濫用</title>
-      <link>https://www.ithome.com.tw/news/173811</link>
-      <description>新聞美國網路安全暨基礎設施安全局（CISA）於2025年3月首度將VMware ESXi高風險資安漏洞CVE-2025-22225納入「已知遭利用漏洞」（Known Exploited Vulnerabilities，KEV）目錄。今年2月上旬，CISA進一步更新KEV資訊，正式標註該漏洞已遭勒索軟體攻擊活動利用。 CVE-2025-22225的CVSS v3.1風險分數為8.2分，屬於高風險（High）等級漏洞。Broadcom在2025年3月發布的安全公告指出，若攻擊者在VMX處理程序中具備高權限，可能觸發核心層級的任意寫入行為，進而從虛擬機器的沙箱逃逸出去，影響宿主系統安全。受影響產品包括VMware ESXi、vSphere、Workstation、Fusion、Cloud Foundation，以及Telco Cloud Platform等虛擬化平臺。 Broadcom當時也同步修補另外兩項漏洞CVE-2025-22224與CVE-2025-22226。其中，CVE-2025-22224屬於TOCTOU（Time-of-Check to Time-of-Use）競態條件問題，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173811</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0206-CVE-2025-22225-VMware%20ESXi-Ransomware-CISA.png" length="0" type="image/png"/>
-      <pubDate>Tue, 10 Feb 2026 02:47:18 +0000</pubDate>
+      <title>主要以鳥鳴資料訓練的Perch 2.0模型跨域水下聲學，少量標註就能區分鯨豚聲音</title>
+      <link>https://www.ithome.com.tw/news/173888</link>
+      <description>新聞Google研究院與Google DeepMind合作研發生物聲學基礎模型Perch 2.0。Perch 2.0訓練資料主要來自鳥類與其他陸域發聲動物，訓練資料不含水下音訊或海洋哺乳類類別，仍能把學到的聲學嵌入向量轉用到水下錄音的分類任務。研究團隊強調，研究者只要準備少量已標註片段，就能在新資料上用轉移學習快速建立可用的自訂分類器。 研究人員在NeurIPS 2025的非人類動物溝通AI工作坊發表，採用少樣本線性探針流程，先以預訓練模型為聲音片段產生嵌入向量，再在嵌入向量上訓練多類別邏輯迴歸分類器，評估其區分不同類別的能力。研究在NOAA PIPAN、ReefSet與DCLDE等資料集測試後指出，Perch 2.0多數設定下為最佳或次佳。 Perch 2.0為何能跨域？研究人員解釋較大模型與較多樣的訓練資料有助泛化，以及在鳥類相近叫聲之間做細緻區分，會迫使模型學到更精細的聲學特徵，進而轉用於區分不同鯨類物種或不同虎鯨族群。研究也將Perch 2.0與AVES-bio、AVES-bird、BirdNet v2.3等既有模型比較，並以嵌入向量的視覺化結果說明，在部分任務上，不同類別的特</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173888</guid>
+      <pubDate>Wed, 11 Feb 2026 02:04:42 +0000</pubDate>
     </item>
     <item>
-      <title>停止維護兩年後vm2原作者重啟專案，修補CVE-2026-22709等重大沙箱逃逸漏洞</title>
-      <link>https://www.ithome.com.tw/news/173837</link>
-      <description>新聞Node.js生態系常用的JavaScript沙箱函式庫vm2，近期被揭露存在重大沙箱逃逸漏洞CVE-2026-22709，該漏洞CVSS風險分數高達9.8分，屬於重大（Critical）風險等級。攻擊者可藉由特定JavaScript程式碼觸發漏洞，繞過vm2原本設計的沙箱限制，並在宿主環境中執行任意程式碼。vm2維護團隊於2025年10月重啟停止更新近兩年的專案，並建議使用者升級至vm2 3.10.3或更新版本，以降低遭濫用風險。 vm2是一套用於Node.js環境的沙箱工具，設計目的是在同一個Node.js行程中，限制不受信任JavaScript程式碼對系統資源的存取，常見於線上程式執行平臺、外掛機制與可自訂腳本功能等應用情境。根據NPM平臺統計，vm2在過去一年間，每週下載量長期維持約100萬次，顯示該函式庫至今仍被大量專案實際採用。 vm2專案維護者、同時也是原作者的Patrik Simek在GitHub安全通報中指出，CVE-2026-22709與vm2在處理Promise.prototype.then與Promise.prototype.catch回呼函式的淨化機制有關</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173837</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0208-vm2-600.png" length="0" type="image/png"/>
-      <pubDate>Tue, 10 Feb 2026 02:52:55 +0000</pubDate>
+      <title>GitLab AI Gateway爆重大漏洞，CVE-2026-1868恐危及自架環境安全</title>
+      <link>https://www.ithome.com.tw/news/173890</link>
+      <description>新聞原始碼代管與DevOps平臺業者GitLab警告，供用戶自行架設與管理GitLab Duo Self-Hosted AI Gateway存在一項重大資安漏洞CVE-2026-1868。該漏洞CVSS v3.1風險分數高達9.9分，屬於重大（Critical）風險等級，在特定條件下，攻擊者可能藉此對GitLab AI Gateway發動阻斷服務（Denial of Service，DoS）攻擊，甚至在該服務上取得程式碼執行能力，對企業開發環境構成高度風險。GitLab已針對此問題釋出修補版本，並建議使用者儘速升級，以降低遭濫用風險。 GitLab AI Gateway是GitLab提供的AI相關服務元件，主要用於支援Duo等AI輔助功能，讓開發流程可透過代理與工作流程機制，呼叫模型並執行自動化任務。此次漏洞發生於GitLab AI Gateway內部的Duo Workflow Service，該元件負責處理AI代理工作流程，是整體服務的核心組成之一。 根據GitLab官方資安公告說明，CVE-2026-1868的成因與不安全的模板展開（Insecure Template Expans</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173890</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0211-gitlab-CVE-2026-1868.png" length="0" type="image/png"/>
+      <pubDate>Wed, 11 Feb 2026 02:13:20 +0000</pubDate>
     </item>
     <item>
-      <title>歐盟行動裝置管理平臺遭網路攻擊 導致員工資料外洩</title>
-      <link>https://www.ithome.com.tw/news/173871</link>
-      <description>新聞歐盟上周五（2/6）揭露今年1月底行動裝置集中管理平臺遭駭，導致部分員工姓名和電話號碼等資料外洩。 歐盟執委會資安維護單位CERT-EU於1月30日，在其集中式行動裝置管理（mobile device management）基礎架構發現到網路攻擊的跡證。歐盟執委會強調迅速回應，在9小時內阻止了事件，並清理系統。執委會表示將徹底調查此事，目前還未偵測到行動裝置被駭。此時歐盟執委會尚未公布網路攻擊事件細節。 上周荷蘭資料防護管理署和司法議會也分別向荷蘭國會通報系統遭駭，兩組織都是被駭客濫用了Ivanti Endpoint Manager（EPM） 任意程式碼執行漏洞CVE-2025-10573。Ivanti已在去年底修補了該漏洞。 此事發生前的1月20日，歐盟執委會才公布網路安全包裹法案（Cybersecurity Package），重點包括修訂《歐盟網路安全法 2.0》，加入信任ICT供應鏈框架以防範高風險供應商。這些措施是由網路與資訊安全指令2（NIS2 Directive）支持，NIS2指令建立了統合性法規框架確保歐盟18個關鍵產業。該指令也呼籲會員國定義國家網安策略，並與歐盟合</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173871</guid>
-      <pubDate>Tue, 10 Feb 2026 03:01:39 +0000</pubDate>
+      <title>自架Git服務Gogs揭3項高風險漏洞，遠端程式碼執行與帳號接管風險升高</title>
+      <link>https://www.ithome.com.tw/news/173891</link>
+      <description>新聞輕量化自架Git服務Gogs被揭露存在3項高風險資安漏洞，其中一項漏洞涉及既有防護機制的延伸風險，仍可能被濫用執行任意系統命令。其餘漏洞則涉及雙因素驗證（2FA）邏輯缺陷與檔案刪除問題，在特定條件下，可能導致帳號遭接管或影響服務可用性。 這3項漏洞分別為CVE-2025-64111、CVE-2025-64175與CVE-2026-24135，皆影響Gogs 0.13.3與更早版本，官方已在Gogs 0.13.4與0.14.0+dev完成修補。 在3項漏洞中，影響最為嚴重的是CVE-2025-64111，CVSS v3.1風險分數為9.3分，屬於重大風險等級。該漏洞被視為先前影響Gogs儲存庫更新流程的漏洞CVE-2024-56731之延伸問題，顯示既有防護機制仍存在可被繞過的情況。 根據Gogs發布的安全公告說明，攻擊者可利用Gogs提供的API功能更新儲存庫內檔案，進一步寫入.git目錄底下的設定檔，例如.git/config。由於這類Git內部檔案不應出現在一般更新流程中，一旦遭到竄改，系統在後續操作流程中，可能執行攻擊者植入的指令，最終導致遠端程式碼執行（RCE）。問題關鍵在</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173891</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0211-gogs-600.png" length="0" type="image/png"/>
+      <pubDate>Wed, 11 Feb 2026 02:34:56 +0000</pubDate>
     </item>
     <item>
-      <title>新加坡揭露中國駭客UNC3886入侵電信業，去年4家業者遭攻擊</title>
-      <link>https://www.ithome.com.tw/news/173872</link>
-      <description>新聞新加坡政府本周發布報告，指中國國家駭客組織UNC3886去年7月份對該國4家電信業者發動攻擊，並且觸發新加坡歷來最大的政府回應行動，也有效減弱了駭客攻擊的災害範疇。 去年7月新加坡國家安全協調部長公布，中國代號UNC3886的國家駭客攻擊新加坡關鍵基礎架構，當時並未公布細節。新加坡網路安全局（Cyber Security Agency，CSA）及資訊網路媒體開發管理署（Infocomm Media Development Authority，IMDA）本周發布報告，說明攻擊本質、新加坡政府的回應及攻擊結果。 這場攻擊一開始是由電信業者偵測到，後者隨後通知IMDA及CSA。隨後兩機關動員全星國政府，啟動代號為「網路保衛者行動（Operation CYBER GUARDIAN）」的回應行動，是新加坡歷來最大的聯合網路事件回應，時間長達11個月，涉及的網路防護機關超過100多個，包含CSA、IMDA、策略資通訊技術中心（CSIT）、數位和智慧服務（DIS）、新加坡政府科技局（GovTech）、以及國內安全部（Internal Security Department，ISD）等。 經過數個</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173872</guid>
-      <pubDate>Tue, 10 Feb 2026 03:37:34 +0000</pubDate>
+      <title>Cisco發表Silicon One G300，主打AI資料中心核心交換網路</title>
+      <link>https://www.ithome.com.tw/news/173896</link>
+      <description>新聞思科（Cisco）周二（2/10）於阿姆斯特丹舉行的Cisco Live EMEA大會上，正式發表新一代網路交換晶片Silicon One G300，並同步推出搭載該晶片的Cisco N9000與Cisco 8000系列系統，以及新一代光學模組與管理平臺升級，明確將資料中心網路定位為AI基礎架構的核心元件。 Silicon One G300為一款102.4Tbps交換晶片，強調支援大規模AI訓練、推論與即時代理人工作負載。過去幾年資料中心交換晶片的主流上限，大多停留在25.6Tbps與51.2Tbps兩個世代。51.2Tbps已被廣泛用於雲端與早期AI叢集網路，屬於超大規模等級。Silicon One G300把單顆晶片交換容量直接推到102.4Tbps，等於在單一晶片上翻倍，可在同一機箱內容納更多1.6T或800G連接埠，減少交換層級與設備數量。 思科指出，隨著AI叢集規模擴大，效能瓶頸已從單一運算節點轉向叢集間的資料傳輸效率，網路本身逐漸成為影響GPU使用率與整體成本的關鍵因素。G300透過全共享封包緩衝、路徑式負載平衡與主動式網路遙測等設計，提升網路利用率並降低因壅塞導致的工</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173896</guid>
+      <pubDate>Wed, 11 Feb 2026 03:35:54 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI開始測試廣告服務</title>
-      <link>https://www.ithome.com.tw/news/173873</link>
-      <description>新聞OpenAI周一（2/9）宣布，美國市場已開始在ChatGPT中測試廣告機制，這是ChatGPT推出以來首次正式導入商業廣告元素。此次測試僅限已登入的成人使用者，適用於免費版與Go方案，用戶若使用Plus、Pro、Business或Enterprise方案，則不會看到任何廣告。 OpenAI表示，引入廣告的主要目的，在於支撐ChatGPT持續提供高品質的免費與低成本服務。隨著使用人數成長與模型能力提升，背後所需的運算資源與基礎設施投資亦快速增加，廣告被視為一種能維持服務穩定、同時擴大AI可近性的方式。 倘若使用者不希望看到廣告，可選擇升級至付費方案，也能在免費版中關閉廣告，若是採用後者，每日可使用的免費訊息數將相對減少。 針對外界最關注的內容中立性問題，OpenAI強調，廣告並不會影響ChatGPT的回答結果。所有回答仍僅依「對使用者最有幫助」為原則生成，廣告內容會清楚標示為贊助訊息，並在視覺上與自然回覆明確區隔。系統在選擇顯示哪一則廣告時，會比對對話主題、過往聊天內容與使用者過去與廣告的互動情形，但不會將聊天內容提供給廣告商。 在隱私與安全方面，OpenAI指出，廣告商僅能取得整</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173873</guid>
-      <pubDate>Tue, 10 Feb 2026 04:15:43 +0000</pubDate>
+      <title>微軟再次提醒Windows開機原始憑證將在6月到期</title>
+      <link>https://www.ithome.com.tw/news/173897</link>
+      <description>新聞微軟本周通知15年前核發的初代Windows安全開機（Secure Boot）憑證將在今年6月到期，提醒用戶2011年以前的電腦必須更新憑證，否則可能影響安全開機防護功能。已不再獲得更新的Windows 10 PC將是主要受影響的一群。 安全開機是微軟於2011年引進Windows PC和伺服器的功能。它會在Windows載入前啟動，確保只有經過獲得數位簽發的受信任軟體才能執行，防止rootkit等韌體惡意程式在系統開機初期入侵用戶裝置，並躲避安全軟體的偵測。而在15年後，原始的安全開機憑證將在2026年6月底到期。 微軟警告，若Windows PC沒有更新憑證，PC和軟體仍然可以持續運作，但是安全性會逐漸下降，功能也會逐漸退化。因為Boot Manager和其他早期啟動元件無法接收未來漏洞修補更新，未來若出現開機惡意程式，這類系統將無法獲得保護。此外，也可能導致相容性問題，因為新版OS、韌體、硬體或依賴安全開機元件或第三方軟體可能無法載入。 微軟已在2023年推出了更新版安全開機憑證，並經由二個方式部署到用戶端。微軟於去年就向家用、企業及教育用戶發布版號KB 5062711的每月</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173897</guid>
+      <pubDate>Wed, 11 Feb 2026 03:49:54 +0000</pubDate>
     </item>
     <item>
-      <title>大規模網路間諜活動Shadow Campaigns肆虐，臺灣傳出有電力設備供應商一年內兩度遭駭</title>
-      <link>https://www.ithome.com.tw/news/173870</link>
-      <description>新聞2月5日資安公司Palo Alto Networks旗下的威脅情報團隊Unit 42，揭露代號為Shadow Campaigns的大規模攻擊行動，攻擊者的身分是外號為TGR-STA-1030、UNC6619的國家級駭客組織，這些駭客的主要目標是政府機關與關鍵基礎設施（CI），在過去一年入侵37個國家的政府機關與關鍵基礎設施之後，去年11至12月，他們又對臺灣在內的155個國家進行廣泛且積極的偵察，值得留意的是，這次Unit 42也特別透露臺灣受到影響的情形。 根據這家資安廠商的調查，在2025年初，TGR-STA-1030曾入侵臺灣電力設備產業的一家主要供應商，從而掌握全臺各地發電專案的相關檔案。值得留意的是，這些駭客大約於去年12月中旬，再度存取該廠商的網路環境。 還有一個國家遭到TGR-STA-1030攻擊的活動，也可能與臺灣有關。他們提及去年10月31日美洲出現大規模偵察活動，駭客鎖定超過200個宏都拉斯政府基礎設施的IP位址，由於一個月後該國即將舉辦總統與議員大型選舉，時間點相當巧合。Unit 42認為，這波大規模偵察活動的動機，可能與其中有兩位總統候選人對於恢復臺灣的外交</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173870</guid>
-      <pubDate>Tue, 10 Feb 2026 05:08:56 +0000</pubDate>
+      <title>外包商Conduent系統被駭 導致Volvo集團1.7萬北美員工資料外洩</title>
+      <link>https://www.ithome.com.tw/news/173899</link>
+      <description>新聞汽車大廠Volvo集團本周通知美國政府一樁發生於一年多前的資料外洩事件，該公司外包商Conduent被駭，使該公司北美分公司將近1.7萬名員工資料遭竊取。 這家汽車大廠向美國緬因州檢察長辦公室報告，公司接到業務流程委外（Business Process Outsourcing，BPO）業者Conduent業務服務部門的通知而得知此事。Conduent於2025年1月13日發現部分網路發生資安事故。在排除事件並展開調查後，他們發現2024年10月21日到2025年1月13日，一個未授權人士或程式存取公司網路環境，並導致客戶現任及前員工健康保險方案相關資訊被竊。遭竊取員工資訊包含姓名等資料。 根據Volvo的通報，這起事件影響16991名北美分公司員工。 Conduent為許多大型企業及政府部門客戶提供列印/郵件服務、檔案處理、支付安全等後臺支援服務。去年10月這家外包商通報資料外洩事件，外洩資料類型涵括客戶姓名、社會安全號、出生日期、健康保險資料或身分證號碼、以及醫療資訊等。受害者遍及美國多個州，其中奧勒岡州有1050萬客戶受影響，德州有400萬人。Fox Business報導，實際</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173899</guid>
+      <pubDate>Wed, 11 Feb 2026 05:33:22 +0000</pubDate>
     </item>
     <item>
-      <title>歐盟警告Meta排除第三方AI助理恐違法　擬下令暫時恢復WhatsApp開放性</title>
-      <link>https://www.ithome.com.tw/news/173874</link>
-      <description>新聞歐盟執委會（European Commission，EC）周一（2/9）表示，已正式通知Meta其WhatsApp政策可能違反競爭法，並正考慮採取「臨時措施」──也就是在調查未結束前，先要求企業暫停可疑行為，以避免市場遭受不可回復的損害。 歐盟指出，Meta於2025年10月更新WhatsApp的商業解決方案使用條款（WhatsApp Business Solution），禁止第三方AI助理在WhatsApp上運作。自2026年1月15日起，WhatsApp內僅剩Meta自家的Meta AI可使用，其它AI助理全面被擋在門外。 執委會初步認為，這項政策可能構成濫用市場支配地位。Meta在歐洲的通訊應用市場影響力巨大，而WhatsApp是使用者最重要的日常通訊工具之一。一旦第三方AI助理無法進入，將失去接觸消費者的主要管道，影響整體市場競爭。 歐盟表示，若放任此情況持續，可能提高競爭者的進入門檻，並對規模較小的AI業者造成難以彌補的傷害。因此正在考慮要求Meta暫時恢復對第三方AI助理的開放，避免市場在調查期間被迫走向壟斷。 目前執委會發出的為「異議聲明」（Statement of</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173874</guid>
-      <pubDate>Tue, 10 Feb 2026 05:35:08 +0000</pubDate>
+      <title>微軟發布2月例行更新，修補6個已被積極利用的零時差漏洞</title>
+      <link>https://www.ithome.com.tw/news/173893</link>
+      <description>新聞2月10日微軟發布本月例行更新（Patch Tuesday），總共修補59個漏洞，較一月的112個明顯減少。不過，這當中有6個已被積極利用的零時差漏洞，用戶需盡快採取修補或緩解的行動。 這些漏洞分別是：Windows Shell安全功能繞過漏洞CVE-2026-21510、MSHTML框架安全功能繞過漏洞CVE-2026-21513、Word安全功能繞過漏洞CVE-2026-21514、桌面視窗管理員（Desktop Window Manager，DWM）權限提升（EoP）漏洞CVE-2026-21519、遠端桌面連線管理員（RDCMan）阻斷服務（DoS）漏洞CVE-2026-21525，以及遠端桌面服務權限提升漏洞CVE-2026-21533。這些漏洞的嚴重程度大部分被評為重要（Important，相當於高風險等級的漏洞），僅有CVE-2026-21525為中等風險。 從漏洞類型來看，這些被利用的漏洞有半數可被用於繞過安全功能，而且，這些安全功能繞過漏洞在微軟修補前就被公開。針對這些零時差漏洞，微軟在公告提及另一個共通點，那就是攻擊者必須與使用者互動，他們要誘騙使用者開啟惡意連</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173893</guid>
+      <pubDate>Wed, 11 Feb 2026 06:10:34 +0000</pubDate>
     </item>
     <item>
-      <title>近500萬站點暴露Git .git目錄，超過25萬筆部署憑證恐外洩</title>
-      <link>https://www.ithome.com.tw/news/173877</link>
-      <description>新聞VPN服務商Mysterium的研究團隊發布一份2026年網際網路規模資料研究，指出有4,964,815個IP位址的網站伺服器，可從公開網路存取Git儲存庫的.git中繼資料，等同近500萬臺伺服器在部署或設定上出現疏漏，讓原本不應對外的內部檔案留在網站可被讀取的位置。研究也發現其中252,733個案例的.git/config內含部署憑證，其風險不僅是資訊暴露，更可能帳號權杖被濫用，甚至衍生後續入侵。 研究人員在報告中指出，.git目錄不只是放置原始碼的副檔案夾，也保存版本歷史與設定資訊，足以讓外部人士拼湊出專案結構與變更脈絡。要是站點將.git目錄一併放入對外的網站根目錄，攻擊者可能藉此取得原始碼、設定檔線索或其他敏感資料，進一步用來研判弱點與橫向擴張。 這類問題並非新型態漏洞，研究人員指出幾種常見情境，包括開發者將整個專案目錄直接上傳到正式環境，打包工具在產出檔案時把隱藏目錄一併帶入，以及站點只在主要網域做了保護，卻忽略其他入口，例如替代網域或直接以IP存取時仍可讀取隱藏目錄。由於不少Web伺服器預設不會主動阻擋隱藏目錄，便會讓小疏忽成為可被大量掃描發現的曝險面。 曝險IP以美</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173877</guid>
-      <pubDate>Tue, 10 Feb 2026 07:01:53 +0000</pubDate>
+      <title>Canon商用複合機導入OLED提升列印解析度，並具維運機制AI預測</title>
+      <link>https://www.ithome.com.tw/review/173885</link>
+      <description>今年Canon在臺新推imageFORCE系列複合機，強調設備資安上的重要進展之餘，同時揭露自家產品在列印技術、維修機制，以及ESG節能方面，亦有重要突破。 本次發表共有7款新機，包括4款A3商用彩色複合機imageFORCE C5100彩色系列，涵蓋C5170 / C5160 / C5150 / C5140，以及3款A3商用黑白複合機imageFORCE 6100黑白高速系列，涵蓋6170 / 6160 / 6155。依照印速規格與擴充能力而有所不同，至於A4機型目前暫未引進臺灣。 新款機型有何特色？列印技術升級是一大賣點，imageFORCE採用「D² Square Exposure」曝光技術，其最大特色是改以OLED作為光源，藉由精準錯開發光晶粒的位置，再讓發光時機與感光滾筒的旋轉同步，做到多層次曝光，讓列印解析度最高4,800×2,400 dpi的精細輸出，使色彩套印比傳統雷射列印機種更為精準。 以imageFORCE這次的4,800 × 2,400 dpi列印解析度而言，這樣的提升幅度有多大？若與6年前imageRUNNER ADVANCE DX機種相比，當時標示列印解析度為</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/173885</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/canon_imageforce_c5100_960x420-2.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 11 Feb 2026 06:18:46 +0000</pubDate>
     </item>
   </channel>
 </rss>

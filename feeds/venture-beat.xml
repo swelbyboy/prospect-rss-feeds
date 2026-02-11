@@ -8,37 +8,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Feb 2026 07:24:48 +0000</lastBuildDate>
-    <item>
-      <title>How recruitment fraud turned cloud IAM into a $2 billion attack surface</title>
-      <link>https://venturebeat.com/security/recruitment-fraud-cloud-iam-2-billion-attack-surface</link>
-      <description>A developer gets a LinkedIn message from a recruiter. The role looks legitimate. The coding assessment requires installing a package. That package exfiltrates all cloud credentials from the developer’s machine — GitHub personal access tokens, AWS API keys, Azure service principals and more — are exfiltrated, and the adversary is inside the cloud environment within minutes.Your email security never saw it. Your dependency scanner might have flagged the package. Nobody was watching what happened n</description>
-      <guid isPermaLink="false">https://venturebeat.com/security/recruitment-fraud-cloud-iam-2-billion-attack-surface</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/5o3Aq9Roo3iMxYwdJddaKq/4cf88e3821a6d2979e30d5934df14a22/hero.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What the OpenClaw moment means for enterprises: 5 big takeaways</title>
-      <link>https://venturebeat.com/technology/what-the-openclaw-moment-means-for-enterprises-5-big-takeaways</link>
-      <description>The "OpenClaw moment" represents the first time autonomous AI agents have successfully "escaped the lab" and moved into the hands of the general workforce. Originally developed by Austrian engineer Peter Steinberger as a hobby project called "Clawdbot" in November 2025, the framework went through a rapid branding evolution to "Moltbot" before settling on "OpenClaw" in late January 2026. Unlike previous chatbots, OpenClaw is designed with "hands"—the ability to execute shell commands, manage loca</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/what-the-openclaw-moment-means-for-enterprises-5-big-takeaways</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3q67hIphrWar1zZdhKR2ss/1f8157dcb5adbad8e42943351fa74f42/XR7z-YHBn3iPBbV1IrWrk_w5M6NPon.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Feb 2026 22:50:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 11 Feb 2026 07:21:39 +0000</lastBuildDate>
     <item>
       <title>The missing layer between agent connectivity and true collaboration</title>
       <link>https://venturebeat.com/orchestration/the-missing-layer-between-agent-connectivity-and-true-collaboration</link>
       <description>Today's AI challenge is about agent coordination, context, and collaboration. How do you enable them to truly think together, with all the contextual understanding, negotiation, and shared purpose that entails? It's a critical next step toward a new kind of distributed intelligence that keeps humans firmly in the loop.At the latest stop on VentureBeat's AI Impact Series, Vijoy Pandey, SVP and GM of Outshift by Cisco, and Noah Goodman, Stanford professor and co-founder of Humans&amp;amp;, sat down to tal</description>
       <guid isPermaLink="false">https://venturebeat.com/orchestration/the-missing-layer-between-agent-connectivity-and-true-collaboration</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6GKubNSS4p7u44CxaXoHit/42c9d021f7b7bab684ea1d47f176ecb4/VB-AI-IMPACT-Outshift-2026-099-XL.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 09 Feb 2026 05:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI's GPU problem is actually a data delivery problem</title>
-      <link>https://venturebeat.com/data/ais-gpu-problem-is-actually-a-data-delivery-problem</link>
-      <description>Presented by F5As enterprises pour billions into GPU infrastructure for AI workloads, many are discovering that their expensive compute resources sit idle far more than expected. The culprit isn't the hardware. It’s the often-invisible data delivery layer between storage and compute that's starving GPUs of the information they need."While people are focusing their attention, justifiably so, on GPUs, because they're very significant investments, those are rarely the limiting factor," says Mark Me</description>
-      <guid isPermaLink="false">https://venturebeat.com/data/ais-gpu-problem-is-actually-a-data-delivery-problem</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4bFluSeTx31voLx3j0hXAR/608109ff21a13489a6d3360ce43ff832/AdobeStock_1641837429.jpeg?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Mon, 09 Feb 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
@@ -50,20 +26,44 @@
       <pubDate>Mon, 09 Feb 2026 09:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>What AI builders can learn from fraud models that run in 300 milliseconds</title>
-      <link>https://venturebeat.com/orchestration/what-ai-builders-can-learn-from-fraud-models-that-run-in-300-milliseconds</link>
-      <description>Fraud protection is a race against scale. For instance, Mastercard’s network processes roughly 160 billion transactions a year, and experiences surges of 70,000 transactions a second during peak periods (like the December holiday rush). Finding the fraudulent purchases among those — without chasing false alarms — is an incredible task, which is why fraudsters have been able to game the system. But now, sophisticated AI models can probe down to individual transactions, pinpointing the ones that s</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/what-ai-builders-can-learn-from-fraud-models-that-run-in-300-milliseconds</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/1kewgFGr47cn9lpS05X3s9/bd168f6b74179ec18e667dcc83b9ad38/Stopping_fraud.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 09 Feb 2026 17:30:00 +0000</pubDate>
-    </item>
-    <item>
       <title>OpenAI's new Codex app hits 1M+ downloads in first week — but limits may be coming to free and Go users</title>
       <link>https://venturebeat.com/technology/openais-new-codex-app-hits-1m-downloads-in-first-week-but-limits-may-be</link>
       <description>In a major milestone for the "AI coding wars," OpenAI CEO Sam Altman confirmed on X that the company's standalone Codex application (currently only for Mac computers) surpassed 1 million downloads in its first week of availability, echoing the explosive growth of OpenAI's hit chatbot ChatGPT after it first launched in late 2022.The surge reflects a 60% week-over-week growth in overall Codex users, following the February 2 launch of the app and the subsequent release of the underlying GPT-5.3-Cod</description>
       <guid isPermaLink="false">https://venturebeat.com/technology/openais-new-codex-app-hits-1m-downloads-in-first-week-but-limits-may-be</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3ffnQRu1bmICQTkY3pyA89/7254754d5920a67dfc6786dbda70a6eb/mAPFffBba_ZXF7goe0eXy_3Xg6Hljr.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Mon, 09 Feb 2026 23:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is agentic AI ready to reshape Global Business Services?</title>
+      <link>https://venturebeat.com/orchestration/is-agentic-ai-ready-to-reshape-global-business-services</link>
+      <description>Presented by EdgeVerveBefore addressing Global Business Services (GBS), let’s take a step back. Can agentic AI, the type of AI able to take goal-driven action, transform not just GBS but any kind of enterprise? And has it done so yet? As with many new technologies, rhetoric has outpaced deployment in this case. While 2025 was “supposed to be the year of agentic AI,” it didn’t turn out that way, according to VentureBeat Contributing Editor Taryn Plumb. Leaning on input from Google Cloud and integ</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/is-agentic-ai-ready-to-reshape-global-business-services</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/17j9PmUMttRN3TyhwOayIu/c0e5f0bc721352d8c53ecc1b4a0cf92e/AdobeStock_315096408.jpeg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Feb 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What AI builders can learn from fraud models that run in 300 milliseconds</title>
+      <link>https://venturebeat.com/orchestration/what-ai-builders-can-learn-from-fraud-models-that-run-in-300-milliseconds</link>
+      <description>Fraud protection is a race against scale. For instance, Mastercard’s network processes roughly 160 billion transactions a year, and experiences surges of 70,000 transactions a second during peak periods (like the December holiday rush). Finding the fraudulent purchases among those — without chasing false alarms — is an incredible task, which is why fraudsters have been able to game the system. But now, sophisticated AI models can probe down to individual transactions, pinpointing the ones that s</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/what-ai-builders-can-learn-from-fraud-models-that-run-in-300-milliseconds</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/1kewgFGr47cn9lpS05X3s9/bd168f6b74179ec18e667dcc83b9ad38/Stopping_fraud.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Feb 2026 17:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>'Observational memory' cuts AI agent costs 10x and outscores RAG on long-context benchmarks</title>
+      <link>https://venturebeat.com/data/observational-memory-cuts-ai-agent-costs-10x-and-outscores-rag-on-long</link>
+      <description>RAG isn't always fast enough or intelligent enough for modern agentic AI workflows. As teams move from short-lived chatbots to long-running, tool-heavy agents embedded in production systems, those limitations are becoming harder to work around.In response, teams are experimenting with alternative memory architectures — sometimes called contextual memory or agentic memory — that prioritize persistence and stability over dynamic retrieval.One of the more recent implementations of this approach is</description>
+      <guid isPermaLink="false">https://venturebeat.com/data/observational-memory-cuts-ai-agent-costs-10x-and-outscores-rag-on-long</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/67ibdydoAxgYdXSB210bmt/1679a3361e7b1cd5a3042b93db148137/observational-memory-smk2.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Feb 2026 21:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI upgrades its Responses API to support agent skills and a complete terminal shell</title>
+      <link>https://venturebeat.com/orchestration/openai-upgrades-its-responses-api-to-support-agent-skills-and-a-complete</link>
+      <description>Until recently, the practice of building AI agents has been a bit like training a long-distance runner with a thirty-second memory. Yes, you could give your AI models tools and instructions, but after a few dozen interactions — several laps around the track, to extend our running analogy — it would inevitably lose context and start hallucinating. With OpenAI's latest updates to its Responses API — the application programming interface that allows developers on OpenAI's platform to access multipl</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/openai-upgrades-its-responses-api-to-support-agent-skills-and-a-complete</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/141veoymOJm2GzifuKDOyc/596e7cea992414c045cd1b4375a42793/STJU0-q1n9P9Di7ulrG2j_cPcT4sKa.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Feb 2026 22:25:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
