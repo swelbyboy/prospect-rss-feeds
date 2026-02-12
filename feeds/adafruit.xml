@@ -8,86 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Feb 2026 07:05:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 07:05:31 +0000</lastBuildDate>
     <item>
-      <title>Controlling the HDMI CEC protocol with minimal hardware</title>
-      <link>https://blog.adafruit.com/2026/02/10/controlling-the-hdmi-cec-protocol-with-minimal-hardware/</link>
-      <description>CEC-Tiny-Pro has support for the HDMI CEC protocol, using minimal hardware, running on an ATMEGA processor. I’ve got myself into HDMI-CEC attempting to control the power state (on/off) of a vintage TV based on the state of a HDMI signal source. That is described in the CEC-Tiny project. This “Pro” version is intended to serve as a […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/controlling-the-hdmi-cec-protocol-with-minimal-hardware/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/a1-7.png" length="0" type="image/png"/>
-      <pubDate>Tue, 10 Feb 2026 20:24:14 +0000</pubDate>
+      <title>NimBLE-DataPipe: a lightweight BLE transport layer for the ESP32</title>
+      <link>https://blog.adafruit.com/2026/02/11/nimble-datapipe-a-lightweight-ble-transport-layer-for-the-esp32/</link>
+      <description>NimBLE-DataPipe is a lightweight BLE transport layer for the ESP32 by Denis Machard. It allows you to “pipe” both JSON and Binary data over a single BLE characteristic with zero effort regarding MTU limits or fragmentation. Why DataPipe? Automatic Fragmentation: Large payloads (up to 64KB) are split and reassembled transparently. Bi-modal Support: Built-in support for ArduinoJson objects and raw uint8_t buffers. Zero-config: […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/11/nimble-datapipe-a-lightweight-ble-transport-layer-for-the-esp32/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/a-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 11 Feb 2026 17:12:30 +0000</pubDate>
     </item>
     <item>
-      <title>A library of free printable and customizable books</title>
-      <link>https://blog.adafruit.com/2026/02/10/a-library-of-free-printable-and-customizable-books/</link>
-      <description>The Printable Classics website states it’s a library of free printable and customizable books. At Printable Classics, we believe the best stories ever written should be easy to find and beautiful to hold. While digital reading is great for travel, we know that many readers—especially students and families—prefer the focus and tactile experience of a […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/a-library-of-free-printable-and-customizable-books/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/b-17.png" length="0" type="image/png"/>
-      <pubDate>Tue, 10 Feb 2026 20:39:47 +0000</pubDate>
+      <title>The 80386 barrel shifter</title>
+      <link>https://blog.adafruit.com/2026/02/11/the-80386-barrel-shifter/</link>
+      <description>nand2mario on the Small Things Retro blog is currently building an 80386-compatible core in SystemVerilog, driven by the original Intel microcode extracted from real 386 silicon. In the course of this work, corners of the 386 microcode and silicon have been examined in detail; this series documents the resulting findings. “…the 386 has a dedicated […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/11/the-80386-barrel-shifter/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/20250929ohm-6.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 11 Feb 2026 17:33:18 +0000</pubDate>
     </item>
     <item>
-      <title>NEW PRODUCTS – Raspberry Pi Flash Drives – 128GB &amp;amp; 256GB – USB 3.0</title>
-      <link>https://blog.adafruit.com/2026/02/10/new-products-raspberry-pi-flash-drives-128gb-256gb-usb-3-0/</link>
-      <description>NEW PRODUCTS – Raspberry Pi Flash Drives – 128GB &amp;amp; 256GB – USB 3.0 ______________________________________________________________ The Raspberry Pi Flash Drive is a compact, high-quality USB 3.0 flash memory drive that delivers powerful random and sequential I/O performance in a sleek and portable form factor. Offering moderate power consumption and significant resilience to power-loss events, the […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/new-products-raspberry-pi-flash-drives-128gb-256gb-usb-3-0/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/6452_top_ORIG_2026_01-scaled.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 10 Feb 2026 20:50:39 +0000</pubDate>
+      <title>Adafruit TMF8806 dToF Sensor: 10 Meters of Laser-Ranging in a Tiny Package</title>
+      <link>https://blog.adafruit.com/2026/02/11/adafruit-tmf8806-dtof-sensor-10-meters-of-laser-ranging-in-a-tiny-package/</link>
+      <description>It’s time for a time of flight sensor that goes the distance… all 10 meters of it! We covered the ams-OSRAM TMF8806 on EYE ON NPI about a year ago and finally crossed it off our to-do list with a proper breakout board. This is a single-zone SPAD/VCSEL micro-laser Time of Flight sensor that can […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/11/adafruit-tmf8806-dtof-sensor-10-meters-of-laser-ranging-in-a-tiny-package/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/TMF8806.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 11 Feb 2026 18:35:48 +0000</pubDate>
     </item>
     <item>
-      <title>JP’s Product Pick of the Week — 4pm Eastern TODAY! 2/10/26 @adafruit #adafruit #newproductpick</title>
-      <link>https://blog.adafruit.com/2026/02/10/jps-product-pick-of-the-week-4pm-eastern-today-2-10-26-adafruit-adafruit-newproductpick-2/</link>
-      <description>Come on by for JP’s Product Pick of The Week ! A new product pick will be revealed. The show airs at 4pm ET / 1pm PT, TODAY! Check out the livestream right here inside this product page you won’t want to miss it because there will be a HUGE DISCOUNT during the show! Tune in […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/jps-product-pick-of-the-week-4pm-eastern-today-2-10-26-adafruit-adafruit-newproductpick-2/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/jpppw_thumb_episode265_blur.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 10 Feb 2026 20:55:00 +0000</pubDate>
+      <title>Elvie Pump – Battery Replacement #RightToRepair #Reuse</title>
+      <link>https://blog.adafruit.com/2026/02/11/elvie-pump-battery-replacement-righttorepair-reuse/</link>
+      <description>Engineer Jude Pullen uses the Elvie Pump as a jumping off point for a number of topics centered on getting more out of products. The Elvie is a wearable breast pump that starts at $300 for a single unit, many mothers will want two. Marketed as a ‘single user’ device [read disposable], it’s a hefty […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/11/elvie-pump-battery-replacement-righttorepair-reuse/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/Elvie.png" length="0" type="image/png"/>
+      <pubDate>Wed, 11 Feb 2026 18:51:04 +0000</pubDate>
     </item>
     <item>
-      <title>Making an archer automaton</title>
-      <link>https://blog.adafruit.com/2026/02/10/making-an-archer-automaton/</link>
-      <description>Oliver Pett is working to make a mechanical automaton of an archer (right), similar to the wooden one (left). This is the most complex automaton I’ve ever attempted: a fully articulated archer designed to draw arrows from a back quiver, load them, and shoot with believable technique. What began as an ambitious idea quickly became […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/making-an-archer-automaton/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/bootsel-14.png" length="0" type="image/png"/>
-      <pubDate>Tue, 10 Feb 2026 20:56:33 +0000</pubDate>
+      <title>NEW PRODUCT – Adafruit SGP41 Multi-Pixel Gas Sensor Breakout – VOC &amp;amp; NOx – STEMMA QT / Qwiic</title>
+      <link>https://blog.adafruit.com/2026/02/11/new-product-adafruit-sgp41-multi-pixel-gas-sensor-breakout-voc-nox-stemma-qt-qwiic/</link>
+      <description>NEW PRODUCT – Adafruit SGP41 Multi-Pixel Gas Sensor Breakout – VOC &amp;amp; NOx – STEMMA QT / Qwiic *sniff* *sniff* … do you smell that? No need to stick your nose into a carton of milk anymore, you can build a digital nose with the Adafruit SGP41 Multi-Pixel Gas Sensor, a fully integrated MOX gas […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/11/new-product-adafruit-sgp41-multi-pixel-gas-sensor-breakout-voc-nox-stemma-qt-qwiic/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/6455_demo_video_V3C.gif" length="0" type="image/gif"/>
+      <pubDate>Wed, 11 Feb 2026 20:46:21 +0000</pubDate>
     </item>
     <item>
-      <title>An Artistic Opening to the Olympics #ArtTuesday</title>
-      <link>https://blog.adafruit.com/2026/02/10/an-artistic-opening-to-the-olympics-arttuesday/</link>
-      <description>Italy has a long and interesting art history. To honor this, the opening ceremony of the Milano Cortina 2026 Winter Olympics included performances highlighting Italian art, artists, and architecture. ArtNet shares the details. The festivities at Milano San Siro Olympic Stadium, helmed by producer Marco Balich—an opening ceremonies veteran and Milan local—were an ode to […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/an-artistic-opening-to-the-olympics-arttuesday/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/Screen-Shot-2026-02-10-at-12.06.00-PM-600x233.png" length="0" type="image/png"/>
-      <pubDate>Tue, 10 Feb 2026 21:00:43 +0000</pubDate>
+      <title>Immersive Experience for Tokyo Deaflympics Spectators</title>
+      <link>https://blog.adafruit.com/2026/02/11/immersive-experience-for-tokyo-deaflympics-spectators/</link>
+      <description>BBC shares how the Tokyo Deaflympics is utilizing Hapbeat to create an immersive experience for spectators. Originally built for concerts, the tech uses sensors and human tuning to capture the nuance of live sport, giving spectators clear cues and a visceral sense of impact. The result is an immersive, shared experience that’s bringing deaf and […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/11/immersive-experience-for-tokyo-deaflympics-spectators/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/Screen-Shot-2026-02-11-at-4.38.28-PM-600x340.png" length="0" type="image/png"/>
+      <pubDate>Wed, 11 Feb 2026 21:41:37 +0000</pubDate>
     </item>
     <item>
-      <title>Designing a slightly sneaky blur filter and the resulting security</title>
-      <link>https://blog.adafruit.com/2026/02/10/designing-a-slightly-sneaky-blur-filter-and-the-resulting-security/</link>
-      <description>On the lcamtuf’s thing blog, they look at designing blur filters for images (and then poking holes in the implementation). If you follow information security discussions on the internet, you might have heard that blurring an image is not a good way of redacting its contents. This is supposedly because blurring algorithms are reversible. But […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/designing-a-slightly-sneaky-blur-filter-and-the-resulting-security/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/b-18.png" length="0" type="image/png"/>
-      <pubDate>Tue, 10 Feb 2026 21:12:35 +0000</pubDate>
+      <title>CircuitPython 10.1.0 Release Candidate 1 Released!</title>
+      <link>https://blog.adafruit.com/2026/02/11/circuitpython-10-1-0-rc-1-released/</link>
+      <description>From the GitHub release page: This is CircuitPython 10.1.0-rc.1, a release candidate for 10.1.0 final. This release is believed to be stable, and is meant for testing before the final release of 10.1.0. CircuitPython 10.1.0-rc.0 was discarded due to build issues. Highlights of this release Fix long-standing Thonny disconnect issues. Add hashlib.new("sha256") Add bitmaptools.replace_color(). Notable […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/11/circuitpython-10-1-0-rc-1-released/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/07/CircuitPython-10-360x480.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 11 Feb 2026 21:50:04 +0000</pubDate>
     </item>
     <item>
-      <title>Custom firmware for the Sony MZ-RH1 minidisc Walkman</title>
-      <link>https://blog.adafruit.com/2026/02/10/custom-firmware-for-the-sony-mz-rh1-minidisc-walkman/</link>
-      <description>Sir68k writes about changing the firmware for the vintage Sony MZ-RH1 minidisc Walkman music player. MiniDisc is a fascinating technology that blends analog audio principles with digital convenience. Despite being overshadowed by more modern formats, it remains a favorite among tech enthusiasts. My interest in MiniDisc isn’t just about nostalgia; it’s about unraveling the intricacies […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/custom-firmware-for-the-sony-mz-rh1-minidisc-walkman/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/bootsel-18.png" length="0" type="image/png"/>
-      <pubDate>Tue, 10 Feb 2026 21:23:20 +0000</pubDate>
+      <title>Dead Bug Heart With Mini Matrix 🪲❤️</title>
+      <link>https://blog.adafruit.com/2026/02/11/dead-bug-heart-with-mini-matrix-%f0%9f%aa%b2%e2%9d%a4%ef%b8%8f/</link>
+      <description>Bare your heart this Valentine’s Day with this open heart – dead bug style – project. Play animations from the Adafruit Libraries . No PCB, just connections – the dead bug style is where “no PCB is used and all of the components are soldered together.” From wrightmac on Hackster.io: This was one of those […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/11/dead-bug-heart-with-mini-matrix-%f0%9f%aa%b2%e2%9d%a4%ef%b8%8f/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/img_1849_400l9K5qEq.jpg.avif" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 12 Feb 2026 02:00:26 +0000</pubDate>
     </item>
     <item>
-      <title>The perfect DOS gaming PC isn’t an old 486: it’s a Raspberry Pi</title>
-      <link>https://blog.adafruit.com/2026/02/10/the-perfect-dos-gaming-pc-isnt-an-old-486-its-a-raspberry-pi/</link>
-      <description>Nick Lewis at How-To Geek writes that Raspberry Pis are fantastic if you need a low-power, versatile device for any range of DIY projects, including robotics and simple self-hosted services. With a little bit of work, they can also become a fantastic DOS gaming station. When people say DOS, everyone is reminded of clunky command-line interfaces and […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/the-perfect-dos-gaming-pc-isnt-an-old-486-its-a-raspberry-pi/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/b-20.png" length="0" type="image/png"/>
-      <pubDate>Tue, 10 Feb 2026 22:06:31 +0000</pubDate>
+      <title>Print in Place – PickPocket – Guitar Pick Holder #3DThursday #3DPrinting</title>
+      <link>https://blog.adafruit.com/2026/02/12/print-in-place-pickpocket-guitar-pick-holder-3dthursday-3dprinting/</link>
+      <description>Prometheus3DP shares: Here is a design I’m working on to hold guitar picks with me wherever I go. This is a fully 3D printed version of something I eventually intend to improve with additional parts to improve the hinge and other components on the design which will allow a more robust keychain and less wear […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/12/print-in-place-pickpocket-guitar-pick-holder-3dthursday-3dprinting/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/Print-in-Place-PickPocket-Guitar-Pick-Holder-600x450.webp" length="0" type="image/webp"/>
+      <pubDate>Thu, 12 Feb 2026 06:00:48 +0000</pubDate>
     </item>
     <item>
-      <title>The Intel 286 CPU is 44 years old</title>
-      <link>https://blog.adafruit.com/2026/02/10/the-intel-286-cpu-is-44-years-old/</link>
-      <description>44 years ago, a crafty collection of 134,000 transistors would mark a major inflection point in the PC industry. The Intel 286 CPU was introduced in February, 1982, a 16-bit x86 chip introduced protected mode memory, and would power the IBM PC/AT and a tidal wave of clones. This 16-bit fully x86 software compatible CPU […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/10/the-intel-286-cpu-is-44-years-old/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/blink-13.png" length="0" type="image/png"/>
-      <pubDate>Tue, 10 Feb 2026 22:23:28 +0000</pubDate>
+      <title>From the mail bag…</title>
+      <link>https://blog.adafruit.com/2026/02/12/from-the-mail-bag-776/</link>
+      <description>From the mail bag! Fresh out of High School, I first started studying electronics studying Radio and Tv at College. I lost interest in the amount of effort involved to build a basic LED chaser circuit where I considered that I much more preferred the practical application of tech which was convoluted and expensive at […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/12/from-the-mail-bag-776/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/10/mailbag_animated-2-2.gif" length="0" type="image/gif"/>
+      <pubDate>Thu, 12 Feb 2026 06:30:01 +0000</pubDate>
     </item>
   </channel>
 </rss>
