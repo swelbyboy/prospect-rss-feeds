@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Feb 2026 07:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Feb 2026 07:05:41 +0000</lastBuildDate>
     <item>
-      <title>Linux 7.0 Block Changes Land, Bounce Buffer DIO For Stable Pages</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Block-Changes</link>
-      <description>In addition to the BPF filtering support for IO_uring that was merged on Monday, the other block device changes and IO_uring updates were also merged for the newly-opened Linux 7.0 merge window...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Block-Changes</guid>
-      <pubDate>Tue, 10 Feb 2026 14:09:02 +0000</pubDate>
+      <title>Linux 7.0 Now Defaults To Intel TSX Auto Mode For Performance Benefits On Newer CPUs</title>
+      <link>https://www.phoronix.com/news/Intel-TSX-Auto-Linux-7.0</link>
+      <description>The x86/cpu changes have been merged for Linux 7.0 and include finally setting the default Intel TSX mode to "auto" rather than being off by default...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-TSX-Auto-Linux-7.0</guid>
+      <pubDate>Wed, 11 Feb 2026 14:11:10 +0000</pubDate>
     </item>
     <item>
-      <title>Redis 8.6 Released With "Substantial" Performance Improvements &amp;amp; Memory Reduction</title>
-      <link>https://www.phoronix.com/news/Redis-8.6-Released</link>
-      <description>The open-source Redis 8.6 release is now available and this GA release has brought "substantial" performance improvements and to memory reduction too. Plus various new features like TLS certificate-based automatic client authentication, time series enhancements, and new eviction policies...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Redis-8.6-Released</guid>
-      <pubDate>Tue, 10 Feb 2026 14:25:50 +0000</pubDate>
+      <title>Linux Mint Developing New Wayland-Compatible Screensaver</title>
+      <link>https://www.phoronix.com/news/Linux-Mint-New-Screensaver</link>
+      <description>The Linux Mint developers have been hard at work continuing to develop new features following their recent Mint 22.3 release. There is continued enhancements around keyboard support, a new administration tool for users, and there are also considerations being made around moving to a longer development cycle between Linux Mint releases...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Mint-New-Screensaver</guid>
+      <pubDate>Wed, 11 Feb 2026 15:45:19 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Xeon 6780E Sierra Forest vs. AMD EPYC 9965 On Linux 6.18 Performance</title>
-      <link>https://www.phoronix.com/review/sierra-forest-epyc-turin-2026</link>
-      <description>With recently having carried out benchmarks and finding the Intel Xeon 6780E "Sierra Forest" performance has improved ~14% since launch day thanks to open-source/Linux software improvements plus also recently having carried out Xeon 6980P Granite Rapids vs. EPYC 9755 128-core benchmarks using the latest upstream software, here is a look at how the Xeon 6780E "Sierra Forest" dual socket server is comparing up against the AMD EPYC 9965 Turin Dense flagship when both are running up-to-date software</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/sierra-forest-epyc-turin-2026</guid>
-      <pubDate>Tue, 10 Feb 2026 15:32:41 +0000</pubDate>
+      <title>AMD ROCm TheRock 7.11 Released, Ubuntu Making Progress On Shipping ROCm Packages</title>
+      <link>https://www.phoronix.com/news/AMD-ROCm-TheRock-7.11</link>
+      <description>Two useful bits of ROCm news today for those interested in AMD's open-source GPU compute stack...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-ROCm-TheRock-7.11</guid>
+      <pubDate>Wed, 11 Feb 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CrossOver 26 Released - Powered By Wine 11.0 For Windows Apps/Games On Linux + macOS</title>
-      <link>https://www.phoronix.com/news/CrossOver-26</link>
-      <description>CodeWeavers just announced CrossOver 26, the newest version of their commercial software built atop Wine for running Windows games and applications under Apple macOS and Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/CrossOver-26</guid>
-      <pubDate>Tue, 10 Feb 2026 16:11:19 +0000</pubDate>
+      <title>Intel Arc B390 Panther Lake Generational Performance Since The Gen9 Graphics Era</title>
+      <link>https://www.phoronix.com/review/intel-gen9-xe3-b390-graphics</link>
+      <description>Last week on Phoronix we provided initial Linux graphics benchmarks for the new Xe3-based Arc B390 graphics found with the higher-end Panther Lake SoCs with 12 Xe cores. Those benchmarks showed great gains over recent generations of Intel graphics like with Lunar Lake, Meteor Lake, and even Alder/Raptor Lake... But what if you hold onto your laptop for even longer? In this article is an Intel integrated graphics comparison looking at the general performance and power efficiency going all the way</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/intel-gen9-xe3-b390-graphics</guid>
+      <pubDate>Wed, 11 Feb 2026 16:38:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 VFS Changes: Non-Blocking Timestamps, Standardized Generic I/O Error Reporting</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-VFS</link>
-      <description>In addition to introducing nullfs and the OPEN_TREE_NAMESPACE support for containers, there were also a number of other interesting VFS updates merged on Monday for the Linux 7.0 kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-VFS</guid>
-      <pubDate>Tue, 10 Feb 2026 17:20:57 +0000</pubDate>
+      <title>Chrome 146 Now In Beta With WebNN Origin Trial For Neural Networks In The Browser</title>
+      <link>https://www.phoronix.com/news/Chrome-146-Beta</link>
+      <description>Following yesterday's Chrome 145 release with JPEG-XL support, Chrome 146 today was promoted to the beta channel to help facilitate broader testing of the next round of Chrome/Chromium browser improvements...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Chrome-146-Beta</guid>
+      <pubDate>Wed, 11 Feb 2026 18:29:28 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Bringing Mainline Support For The SpacemiT K3 RVA23 SoC, Qualcomm Kaanapali</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-SoC-Pulls</link>
-      <description>The various SoC and platform Device Tree additions were sent out today for the Linux 7.0 kernel. Easily most exciting on the SoC side this cycle among the ARM and RISC-V changes is getting support ready for the SpacemiT K3 RVA23 SoC...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-SoC-Pulls</guid>
-      <pubDate>Tue, 10 Feb 2026 18:24:02 +0000</pubDate>
+      <title>Mesa 26.0 Released With Much Better Radeon Ray-Tracing, Many Vulkan Driver Improvements</title>
+      <link>https://www.phoronix.com/news/Mesa-26.0-Released</link>
+      <description>Mesa 26.0 was just officially released as this quarter's new feature release for these open-source OpenGL / Gallium3D and Vulkan drivers used commonly on Linux systems and elsewhere like within the confines of Microsoft's WSL...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.0-Released</guid>
+      <pubDate>Wed, 11 Feb 2026 18:36:00 +0000</pubDate>
     </item>
     <item>
-      <title>Intel CPU Microcode 20260210 Brings Security Updates &amp;amp; Functional Fixes</title>
-      <link>https://www.phoronix.com/news/Intel-20260210-Microcode</link>
-      <description>Intel today for Patch Tuesday released several generations worth of CPU microcode updates for addressing multiple security issues and functional issues...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-20260210-Microcode</guid>
-      <pubDate>Tue, 10 Feb 2026 18:46:25 +0000</pubDate>
+      <title>Sabayon Linux Creator Now Developing Gentoo-Based, Immutable matrixOS</title>
+      <link>https://www.phoronix.com/news/Sabayon-Linux-To-matrixOS</link>
+      <description>Longtime Linux users may recall the Sabayon Linux distribution that was Gentoo-based and focused on a nice out-of-the-box experience from the mid 2000s through 2019 before fading away after 2018. Sabayon Linux creator Fabio Erculiani wrote in to Phoronix today to announce he's begun working on a new Linux distribution called matrixOS...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Sabayon-Linux-To-matrixOS</guid>
+      <pubDate>Wed, 11 Feb 2026 20:30:44 +0000</pubDate>
     </item>
     <item>
-      <title>Go 1.26 Introduces Two Language Changes, New Performance Improvements</title>
-      <link>https://www.phoronix.com/news/Go-1.26-Released</link>
-      <description>For programmers fond of the Go programming language, Go 1.26 is out today with two language changes, performance improvements, and other alterations to this Google-backed programming language...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Go-1.26-Released</guid>
-      <pubDate>Tue, 10 Feb 2026 20:20:00 +0000</pubDate>
+      <title>Linux Kernel Graphics Driver Development Now Experimenting With AI Code Review</title>
+      <link>https://www.phoronix.com/news/Linux-DRM-AI-Code-Review</link>
+      <description>Well known open-source Linux graphics driver developer David Airlie of Red Hat, who is the co-maintainer of the Direct Rendering Manager (DRM) kernel graphics/display drivers and accelerator "accel" drivers, announced experimental work on AI-drive code/patch review for these open-source kernel drivers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-DRM-AI-Code-Review</guid>
+      <pubDate>Wed, 11 Feb 2026 20:44:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Scheduler Updates Land Time Slice Extension, Performance &amp;amp; Scalability Work</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Scheduler</link>
-      <description>Merged today for the Linux 7.0 kernel are some pretty exciting scheduler changes: new features and never-ending work around scheduler performance optimizations and greater scalability with today's increasingly high core count systems...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Scheduler</guid>
-      <pubDate>Tue, 10 Feb 2026 22:28:00 +0000</pubDate>
+      <title>Linus Torvalds Rejects MMC Changes For Linux 7.0 Cycle: "Complete Garbage"</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-No-MMC-Changes</link>
+      <description>The Linux MultiMediaCard "MMC" subsystem was set to see some new hardware support, optimized support for secure erase/trim on some eMMCs, and a variety of other improvements. But all of the MMC changes are rejected and will be for the duration of the Linux 7.0 cycle due to an apparent lack of testing and vetting via linux-next that led Linus Torvalds to calling it "complete garbage" and "untested crap"...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-No-MMC-Changes</guid>
+      <pubDate>Wed, 11 Feb 2026 22:33:03 +0000</pubDate>
     </item>
     <item>
-      <title>Google Chrome 145 Released With JPEG-XL Image Support</title>
-      <link>https://www.phoronix.com/news/Chrome-145-Released</link>
-      <description>Back in 2022 Google deprecated and then removed JPEG-XL image support from the Chrome/Chromium browser codebase and now in 2026 it's back. Last month I wrote about JPEG-XL decoding merged back to Chromium/Chrome and that has rolled out today as part of today's Chrome 145 stable debut...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Chrome-145-Released</guid>
-      <pubDate>Wed, 11 Feb 2026 00:26:35 +0000</pubDate>
+      <title>Linux 7.0 Graphics Drivers See New AMD Hardware, Intel Xe SR-IOV + Multi-Device SVM</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Graphics-Drivers</link>
+      <description>The massive set of Linux kernel graphics/display driver Direct Rendering Manager (DRM) updates were sent out and merged today for the Linux 7.0 kernel. This also includes the growing work around accelerator "accel" drivers for AI NPUs and the like...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Graphics-Drivers</guid>
+      <pubDate>Thu, 12 Feb 2026 01:35:14 +0000</pubDate>
     </item>
   </channel>
 </rss>

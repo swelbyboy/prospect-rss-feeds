@@ -8,30 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Feb 2026 07:14:59 +0000</lastBuildDate>
-    <item>
-      <title>GeoPandas Basics: Maps, Projections, and Spatial Joins</title>
-      <link>https://realpython.com/geopandas/</link>
-      <description>Dive into GeoPandas with this tutorial covering data loading, mapping, CRS concepts, projections, and spatial joins for intuitive analysis.</description>
-      <guid isPermaLink="false">https://realpython.com/geopandas/</guid>
-      <enclosure url="https://files.realpython.com/media/GeoPandas-for-Geospatial-Analysis-Spatial-Joins-Projections-and-Quick-Maps_Watermarked.1bd7d02f55cb.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 26 Jan 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Create Callable Instances With Python's .__call__()</title>
-      <link>https://realpython.com/courses/create-callable-instances-dunder-call/</link>
-      <description>Learn Python callables: what "callable" means, how to use dunder call, and how to build callable objects with step-by-step examples.</description>
-      <guid isPermaLink="false">https://realpython.com/courses/create-callable-instances-dunder-call/</guid>
-      <pubDate>Tue, 27 Jan 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Long Does It Take to Learn Python?</title>
-      <link>https://realpython.com/how-long-does-it-take-to-learn-python/</link>
-      <description>This guide breaks down how long it takes to learn Python with realistic timelines, weekly study plans, and strategies to speed up your progress.</description>
-      <guid isPermaLink="false">https://realpython.com/how-long-does-it-take-to-learn-python/</guid>
-      <enclosure url="https://files.realpython.com/media/Real-Python-Quizzes-Page_Watermarked.0a38006fcf1a.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 28 Jan 2026 14:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 12 Feb 2026 07:17:00 +0000</lastBuildDate>
     <item>
       <title>The Real Python Podcast – Episode #282: Testing Python Code for Scalability &amp;amp; What's New in pandas 3.0</title>
       <link>https://realpython.com/podcasts/rpp/282/</link>
@@ -77,11 +54,33 @@
       <pubDate>Mon, 09 Feb 2026 14:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Quiz: Python's pathlib Module: Taming the File System</title>
+      <link>https://realpython.com/quizzes/python-pathlib/</link>
+      <description>Revisit Python's pathlib module for handling file and folder paths consistently across operating systems. Write modern, object-oriented code.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/python-pathlib/</guid>
+      <pubDate>Tue, 10 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Improving Your Tests With the Python Mock Object Library</title>
       <link>https://realpython.com/courses/improve-tests-mock-object-library/</link>
       <description>Master Python testing with unittest.mock. Create mock objects to tame complex logic and unpredictable dependencies.</description>
       <guid isPermaLink="false">https://realpython.com/courses/improve-tests-mock-object-library/</guid>
       <pubDate>Tue, 10 Feb 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quiz: What Exactly Is the Zen of Python?</title>
+      <link>https://realpython.com/quizzes/zen-of-python/</link>
+      <description>Learn and test the Zen of Python, its guiding aphorisms, and tips for writing clearer, more readable, and maintainable code.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/zen-of-python/</guid>
+      <pubDate>Wed, 11 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Exactly Is the Zen of Python?</title>
+      <link>https://realpython.com/zen-of-python/</link>
+      <description>The Zen of Python is a collection of 19 guiding principles for writing good Python code. Learn its history, meaning, and hidden jokes.</description>
+      <guid isPermaLink="false">https://realpython.com/zen-of-python/</guid>
+      <enclosure url="https://files.realpython.com/media/Whats-the-Zen-of-Python_Watermarked.3ec4785e1bb9.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 11 Feb 2026 14:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
