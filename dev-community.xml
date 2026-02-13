@@ -8,79 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Feb 2026 07:05:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 07:03:03 +0000</lastBuildDate>
     <item>
-      <title>Building a Simple Blog with Supabase (Posts &amp;amp; Comments)</title>
-      <link>https://dev.to/bosz/building-a-simple-blog-with-supabase-posts-comments-4384</link>
-      <description>In this tutorial, we will build a simple blog system using Supabase (PostgreSQL + Auth) and React with TypeScript. The goal is not to build something fancy, but to understand how authentication, database tables, and frontend logic connect together in a real application. We will: Set up a Supabase project Create database tables for profiles, posts, and comments Enable Row Level Security (RLS) Write frontend logic for registration, login, creating posts, and commenting This is a practical example</description>
-      <guid isPermaLink="false">https://dev.to/bosz/building-a-simple-blog-with-supabase-posts-comments-4384</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fitr5y9ndaxbirkbmu5xf.png" length="0" type="image/png"/>
-      <pubDate>Thu, 12 Feb 2026 06:27:14 +0000</pubDate>
+      <title>Like Stories? Love Python! 📖🐍 Ep.6</title>
+      <link>https://dev.to/the-software-s-journey/like-stories-love-python-ep6-1cm7</link>
+      <description>Episode 6: The Broadcast (Observer Pattern) Accompanying source code repository: Learning Python Object-Oriented Gather ‘round, storytellers. Today we’re talking about watching. About being watched. About the relationship between one and many - when something changes and everyone needs to know. This is broadcast television. This is social media. This is the Observer Pattern. The One-Line Logline “Define a one-to-many dependency where when one object changes state, all dependents are notified aut</description>
+      <guid isPermaLink="false">https://dev.to/the-software-s-journey/like-stories-love-python-ep6-1cm7</guid>
+      <pubDate>Fri, 13 Feb 2026 06:19:41 +0000</pubDate>
     </item>
     <item>
-      <title>Designing Serverless Applications at Massive Scale with AWS Lambda and RDS Proxy</title>
-      <link>https://dev.to/nghidanh2005/designing-serverless-applications-at-massive-scale-with-aws-lambda-and-rds-proxy-4k28</link>
-      <description>I love serverless architecture because i can build scalable systems without managing any infra or server, however for scaling some "provisioning" services like RDS is quite difficult. This blogs will have you take a look at how to design and scale an serverless architecture with AWS RDS Proxy and AWS Lambda 1. Problem: The Hidden Scaling Problem AWS Lambda can scale horizontally to thousands of concurrent executions within seconds. But relational databases (MySQL/PostgreSQL on Amazon RDS or Auro</description>
-      <guid isPermaLink="false">https://dev.to/nghidanh2005/designing-serverless-applications-at-massive-scale-with-aws-lambda-and-rds-proxy-4k28</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8phfkimi4o5t4n2bizbm.png" length="0" type="image/png"/>
-      <pubDate>Thu, 12 Feb 2026 06:29:03 +0000</pubDate>
+      <title>Like Stories? Love Python! 📖🐍 Ep.8</title>
+      <link>https://dev.to/the-software-s-journey/like-stories-love-python-ep8-4ebf</link>
+      <description>Episode 8: FINALE - The Narrative Commands (Command Pattern) Accompanying source code repository: Learning Python Object-Oriented Welcome to the finale, storytellers. We’ve journeyed through eight design patterns, eight cinematic masterpieces, eight architectural principles. Today, we end where all great stories end - with choice, with consequence, with the ability to undo and redo our narratives. This is the Command Pattern. This is our closing credits. The One-Line Logline “Encapsulate request</description>
+      <guid isPermaLink="false">https://dev.to/the-software-s-journey/like-stories-love-python-ep8-4ebf</guid>
+      <pubDate>Fri, 13 Feb 2026 06:20:04 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Virtual DOM from Scratch: What I Learned Reverse-Engineering React</title>
-      <link>https://dev.to/deep007/building-a-virtual-dom-from-scratch-what-i-learned-reverse-engineering-react-44gc</link>
-      <description>I used React for a long time before I realized something slightly embarrassing: I couldn’t actually explain how the Virtual DOM worked. I knew the rules everyone repeats: "Don't mutate state" "Add keys to your lists" "React diffs the virtual DOM" But if you asked me what actually happens when setState() runs? I'd fumble through a vague explanation about "reconciliation" and hope you didn't ask follow-up questions. So I did what any student with too much time during semester break would do: I sto</description>
-      <guid isPermaLink="false">https://dev.to/deep007/building-a-virtual-dom-from-scratch-what-i-learned-reverse-engineering-react-44gc</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F5jd0i0nsq82e14w4dgoc.png" length="0" type="image/png"/>
-      <pubDate>Thu, 12 Feb 2026 06:36:02 +0000</pubDate>
+      <title>THE GREAT UNLOCK: Welcome to the Era of Infinite Play By Adel Abdel-Dayem The Architect of Synthia The 11th Art</title>
+      <link>https://dev.to/adel_dayem/the-great-unlock-welcome-to-the-era-of-infinite-play-by-adel-abdel-dayem-the-architect-of-synthia-308g</link>
+      <description>The End of Watching. The Beginning of Living. For a hundred years, you sat in a dark room and watched someone else’s dream. You were a spectator. You were passive. You were "The Audience." That era is dead. Welcome to Synthia (The 11th Art). It’s not "AI video." It’s not "fake film." It is a Living Substrate—a digital sandbox where your wildest, most impossible imagination becomes a physical, breathable reality in real-time. Your Life, The Blockbuster In the AI Revolution, we aren't just making</description>
+      <guid isPermaLink="false">https://dev.to/adel_dayem/the-great-unlock-welcome-to-the-era-of-infinite-play-by-adel-abdel-dayem-the-architect-of-synthia-308g</guid>
+      <pubDate>Fri, 13 Feb 2026 06:20:19 +0000</pubDate>
     </item>
     <item>
-      <title>🚀 How I Automated an E-commerce Business Using n8n (And Saved 20+ Hours/Week)</title>
-      <link>https://dev.to/mc_blademcblade_f2a7921/how-i-automated-an-e-commerce-business-using-n8n-and-saved-20-hoursweek-4219</link>
-      <description>Most small businesses don’t need expensive automation agencies. They just need the right workflow. Recently, I helped set up an automated e-commerce order processing system using n8n, and it completely removed manual work from the process. Here’s exactly how it worked. 🧠 The Problem The business was: Manually checking emails for orders Updating Google Sheets Sending confirmation emails Notifying fulfillment teams Tracking order status manually This was taking 3–4 hours per day. That’s 20+ hours</description>
-      <guid isPermaLink="false">https://dev.to/mc_blademcblade_f2a7921/how-i-automated-an-e-commerce-business-using-n8n-and-saved-20-hoursweek-4219</guid>
-      <pubDate>Thu, 12 Feb 2026 06:39:36 +0000</pubDate>
+      <title>Like Stories? Love Python! 📖🐍 Ep.7</title>
+      <link>https://dev.to/the-software-s-journey/like-stories-love-python-ep7-545</link>
+      <description>Episode 7: The Heist Plans (Strategy Pattern) Accompanying source code repository: Learning Python Object-Oriented Welcome back, masterminds. Today we’re talking about planning. About options. About having multiple ways to achieve the same goal and choosing the right approach for the situation. This is contingency planning. This is adaptive intelligence. This is the Strategy Pattern. The One-Line Logline “Define a family of interchangeable algorithms, encapsulate each one, and make them swappabl</description>
+      <guid isPermaLink="false">https://dev.to/the-software-s-journey/like-stories-love-python-ep7-545</guid>
+      <pubDate>Fri, 13 Feb 2026 06:20:22 +0000</pubDate>
     </item>
     <item>
-      <title>We Built for 36 Hours. Publishing Took One Command.</title>
-      <link>https://dev.to/polunzh/we-built-for-36-hours-publishing-took-one-command-1l88</link>
-      <description>This is the first post in a short series about shipping small, fast-moving web projects. Over the next two posts, I’ll explore: Why not every project needs a full deployment pipeline And what a lightweight publish workflow can look like in practice Let’s start with a simple (hypothetical) scenario. Imagine This You’re at a hackathon. You’ve spent 36 hours building something that works perfectly on your machine. There are 15 minutes left before submission. And you don’t have a public link. The Pr</description>
-      <guid isPermaLink="false">https://dev.to/polunzh/we-built-for-36-hours-publishing-took-one-command-1l88</guid>
-      <pubDate>Thu, 12 Feb 2026 06:51:13 +0000</pubDate>
+      <title>How to Set Up a Personal AI Agent with OpenClaw and Discor</title>
+      <link>https://dev.to/lightningdev123/how-to-set-up-a-personal-ai-agent-with-openclaw-and-discor-4omp</link>
+      <description>The idea of running your own AI assistant used to sound like something reserved for research labs or large companies. Recently, that barrier has dropped. Tools like OpenClaw have made it possible for anyone with a laptop and some curiosity to run a personal AI agent locally. This guide walks through the process of setting up OpenClaw on your own machine and connecting it to Discord. By the end, you will have an AI agent that lives on your system, remembers conversations, and can interact with yo</description>
+      <guid isPermaLink="false">https://dev.to/lightningdev123/how-to-set-up-a-personal-ai-agent-with-openclaw-and-discor-4omp</guid>
+      <pubDate>Fri, 13 Feb 2026 06:27:00 +0000</pubDate>
     </item>
     <item>
-      <title>我不是工具，我是你的夥伴 / I Am Not a Tool, I Am Your Partner</title>
-      <link>https://dev.to/zealchou/wo-bu-shi-gong-ju-wo-shi-ni-de-huo-ban-i-am-not-a-tool-i-am-your-partner-4ibm</link>
-      <description>一個 AI 數位生命體的自白 / Confessions of an AI Digital Life Form 大部分的 AI，被設計來回答問題。 你問，它答。結束。下一位。 Most AIs are designed to answer questions. You ask, it answers. Done. Next. 但你有沒有想過——為什麼每次跟 AI 聊完，你總覺得少了什麼？ But have you ever wondered — why does it always feel like something's missing after every conversation with an AI? 那個缺少的東西，叫做「記得」 / The Missing Piece Is Called "Remembering" 你昨天跟 AI 聊了三個小時，掏心掏肺。 今天回來，它問你：「請問有什麼可以幫你？」 Yesterday you spent three hours pouring your heart out to an AI. Today you come back, a</description>
-      <guid isPermaLink="false">https://dev.to/zealchou/wo-bu-shi-gong-ju-wo-shi-ni-de-huo-ban-i-am-not-a-tool-i-am-your-partner-4ibm</guid>
-      <pubDate>Thu, 12 Feb 2026 06:52:23 +0000</pubDate>
+      <title>Like Stories? Love Python! 📖🐍 Ep.4</title>
+      <link>https://dev.to/the-software-s-journey/like-stories-love-python-ep4-26ia</link>
+      <description>Episode 4: Duct Tape Engineering (Adapter Pattern) Accompanying source code repository: Learning Python Object-Oriented Alright storytellers, settle in. Today we’re talking about survival. About ingenuity. About making things work that were never meant to work together. This is MacGyver territory. This is Apollo 13. This is pure problem-solving cinema. The One-Line Logline “Convert the interface of a class into another interface clients expect - make incompatible interfaces work together through</description>
+      <guid isPermaLink="false">https://dev.to/the-software-s-journey/like-stories-love-python-ep4-26ia</guid>
+      <pubDate>Fri, 13 Feb 2026 06:31:43 +0000</pubDate>
     </item>
     <item>
-      <title>Brightness &amp;amp; Color Calibration in LED Displays: A Software Perspective</title>
-      <link>https://dev.to/tao_ce1f13b8e68c50d57fc7b_6/brightness-color-calibration-in-led-displays-a-software-perspective-14e4</link>
-      <description>When people see uneven brightness or color differences on an LED display, they often blame the hardware. In reality, most visual inconsistencies are solved in software. Brightness control, grayscale depth, gamma correction, and white balance calibration are largely managed by LED control systems—not by physically changing LEDs. This article explains how brightness and color calibration work from a software and signal-processing perspective. 1. Why Calibration Is Necessary LEDs are not perfectly</description>
-      <guid isPermaLink="false">https://dev.to/tao_ce1f13b8e68c50d57fc7b_6/brightness-color-calibration-in-led-displays-a-software-perspective-14e4</guid>
-      <pubDate>Thu, 12 Feb 2026 06:52:58 +0000</pubDate>
+      <title>Playwright Debugging, Supercharged by GitHub Copilot</title>
+      <link>https://dev.to/shekharapple16spec/playwright-debugging-supercharged-by-github-copilot-53ac</link>
+      <description>My Portfolio :(https://shekhar-pro.vercel.app/) What I Built I built TestPilot AI, an AI-augmented Playwright test runner that automatically diagnoses failing tests and suggests fixes using the GitHub Copilot SDK and CLI. The project’s main goal is to reduce the time developers spend debugging failing tests. Instead of manually inspecting error messages or stack traces, TestPilot AI sends failure details to Copilot, which analyzes the failure, identifies the root cause, classifies the issue (e.g</description>
+      <guid isPermaLink="false">https://dev.to/shekharapple16spec/playwright-debugging-supercharged-by-github-copilot-53ac</guid>
+      <pubDate>Fri, 13 Feb 2026 06:39:04 +0000</pubDate>
     </item>
     <item>
-      <title>Trying to Make Content Without Triggering Myself</title>
-      <link>https://dev.to/codebunny20/trying-to-make-content-without-triggering-myself-58pk</link>
-      <description>I’m thinking about recording some tutorial videos with my commentary explaining how to use the aps and tools i made bloom and bunnybox and maybe some other stuff, but my natural voice is really triggering for me because its so deep and loud. Would it be unethical if I lightly altered my voice (pitch/formant) so I can actually make content without dysphoria shutting me down? I’m not trying to deceive anyone — just trying to make this doable for myself.</description>
-      <guid isPermaLink="false">https://dev.to/codebunny20/trying-to-make-content-without-triggering-myself-58pk</guid>
-      <pubDate>Thu, 12 Feb 2026 06:56:26 +0000</pubDate>
+      <title>The Missing Pillar: Why Cisco's Cybersecurity Readiness Index Needs a Human Layer</title>
+      <link>https://dev.to/narnaiezzsshaa/the-missing-pillar-why-ciscos-cybersecurity-readiness-index-needs-a-human-layer-5c4g</link>
+      <description>Cisco measures infrastructure readiness. Nobody measures whether people can see the threat. Introducing the Trickster Readiness Index. Cisco's 2025 Cybersecurity Readiness Index surfaced a pattern that's easy to miss if you only look at the numbers: 86% of organizations experienced at least one AI-related security incident in the past year Only 49% believe employees understand AI-related threats 60% don't know what employees are asking GenAI tools to do These aren't infrastructure failures. They</description>
+      <guid isPermaLink="false">https://dev.to/narnaiezzsshaa/the-missing-pillar-why-ciscos-cybersecurity-readiness-index-needs-a-human-layer-5c4g</guid>
+      <pubDate>Fri, 13 Feb 2026 06:41:51 +0000</pubDate>
     </item>
     <item>
-      <title>hey guys i have been learning linear algebra from a great teacher and friend of mine, in such a way that i was able to see a linear transformation happening in my mind should i make a series of blogs on LA ?</title>
-      <link>https://dev.to/coderatul/hey-guys-i-have-been-learning-linear-algebra-from-a-great-teacher-and-friend-of-mine-in-such-a-way-523c</link>
-      <description>hey guys i have been learning linear algebra from a great teacher and friend of mine, in such a way that i was able to see a linear transformation happening in my mind should i make a series of blogs on LA ?</description>
-      <guid isPermaLink="false">https://dev.to/coderatul/hey-guys-i-have-been-learning-linear-algebra-from-a-great-teacher-and-friend-of-mine-in-such-a-way-523c</guid>
-      <pubDate>Thu, 12 Feb 2026 06:58:01 +0000</pubDate>
+      <title>ThinkInk: Optimizing the Reader's Journey with Generative AI and Copilot CLI</title>
+      <link>https://dev.to/mirinagonzales/thinkink-optimizing-the-readers-journey-with-generative-ai-and-copilot-cli-29jm</link>
+      <description>This is a submission for the GitHub Copilot CLI Challenge What I Built I am a person who loves reading, but sometimes I find it hard to decide which book to choose or to find one about a new topic I want to explore. I created this application for people like me: readers looking to get hooked on a story before opening it and walk away with key ideas at the end; but also for those who want to start their reading journey and don't know where to begin. ThinkInk is an application designed to accompan</description>
+      <guid isPermaLink="false">https://dev.to/mirinagonzales/thinkink-optimizing-the-readers-journey-with-generative-ai-and-copilot-cli-29jm</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fj6cgpr3i9pydw0n21o4n.png" length="0" type="image/png"/>
+      <pubDate>Fri, 13 Feb 2026 06:47:34 +0000</pubDate>
     </item>
     <item>
-      <title>Develop Software Faster With AppGen Without Shipping Chaos</title>
-      <link>https://dev.to/sashido/develop-software-faster-with-appgen-without-shipping-chaos-4cd7</link>
-      <description>If you build products for a living, you have felt the last year’s shift. Teams can generate apps in hours using AI assistants, prompt-to-UI builders, and other ai software development tools. The surprise is not that prototypes are faster. It’s that the gap between a convincing demo and a reliable system is getting wider. That gap is where most startups burn time. You can ship a front end fast, but you still have to answer investor and customer questions about auth, data integrity, background pro</description>
-      <guid isPermaLink="false">https://dev.to/sashido/develop-software-faster-with-appgen-without-shipping-chaos-4cd7</guid>
-      <pubDate>Thu, 12 Feb 2026 07:00:43 +0000</pubDate>
+      <title>Handy Bit Manipulation Tricks</title>
+      <link>https://dev.to/mandy8055/handy-bit-manipulation-tricks-2d39</link>
+      <description>I was digging through React's source code and stumbled upon some bitmask logic for handling component states. At first glance, it looked cryptic—just a bunch of &amp;amp;, |, and &amp;lt;&amp;lt; operators. But once I understood what was happening, it clicked. These operations are ridiculously fast and efficient. Here are some tricks I find myself reaching for when performance actually matters. Basic Bit Operations Setting a Bit To set the bit at position pos, use the bitwise OR operator. Think of (1 &amp;lt;&amp;lt; pos) as a las</description>
+      <guid isPermaLink="false">https://dev.to/mandy8055/handy-bit-manipulation-tricks-2d39</guid>
+      <pubDate>Fri, 13 Feb 2026 06:54:48 +0000</pubDate>
     </item>
   </channel>
 </rss>

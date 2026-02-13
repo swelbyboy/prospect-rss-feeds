@@ -8,79 +8,81 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Feb 2026 07:08:59 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 07:05:40 +0000</lastBuildDate>
     <item>
-      <title>OpenClaw預設值釀災，全球逾4萬AI代理系統曝露攻擊風險</title>
-      <link>https://www.ithome.com.tw/news/173915</link>
-      <description>新聞資安研究團隊STRIKE周一（2/9）指出，全球至少82個國家存在約4.29萬個直接曝露在網際網路上的OpenClaw代理型AI實例，其中約1.52萬個存在遠端程式碼攻擊漏洞，占整體曝露部署的三分之一以上，代表它們可直接被駭客接管。 OpenClaw原名Clawdbot，曾短暫更名為Moltbot，再於今年1月29日重新命名為OpenClaw，是一套讓AI能長時間運作、主動執行任務並串接外部服務的代理型AI系統。 STRIKE團隊指出，OpenClaw的安全危機源於預設設定。軟體預設綁定到「0.0.0.0:18789」，意思是允許任何人從網路連線進來。安全做法應設為「127.0.0.1:18789」，代表只有本機能使用。但OpenClaw選擇了「0.0.0.0:18789」，等於大門對外敞開。只要知道IP位址，駭客就能遠端連進控制面板。大多數使用者不懂技術，安裝後不會改設定，導致全球超過4萬臺電腦同時曝露。 為了實現高度自動化，OpenClaw通常被賦予模型API金鑰、通訊平臺Token、Webhook密鑰，甚至系統或雲端存取權限，等同於替使用者或組織建立一個可代表其行動的「數位代</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173915</guid>
-      <pubDate>Wed, 11 Feb 2026 10:54:50 +0000</pubDate>
+      <title>語音電話平臺FreePBX被鎖定，駭客植入Web Shell進行滲透</title>
+      <link>https://www.ithome.com.tw/news/173945</link>
+      <description>新聞廣受企業採用的網路電話（VoIP）系統，曾經有駭客試圖濫用藉此牟取不法利益，例如：資安公司Check Point在多年前揭露駭客組織INJ3CTOR3的攻擊行動，這些駭客針對Sangoma推出的FreePBX軟體，利用已知漏洞盜打高額國際費率電話獲利，然而，最新的調查發現，駭客將這種系統作為滲透企業的隱匿管道，部署後門程式以便進行後續活動。 資安公司Fortinet揭露名為EncystPHP的Web Shell，此後門可讓攻擊者遠端執行任意程式碼（RCE）、部署其他的Web Shell，或是建立持續存取的機制。這起事故發生在去年12月初，駭客組織INJ3CTOR3利用FreePBX資安漏洞CVE-2025-64328，鎖定一家位於巴西的企業組織發動攻擊，該組織的網路環境由專精雲端解決方案、通訊服務，以及IT基礎設施的印度科技公司代管。 駭客先取得專門下載EncystPHP的工具，然後利用上述資安漏洞於FreePBX植入EncystPHP。過程中下載工具會先竄改ajax.php與model.php的權限，使其無法讀取、寫入或執行。接著，EncystPHP試圖收集資料庫組態資訊，然後刪</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173945</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/EncystPHP-fig5.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 13 Feb 2026 02:10:55 +0000</pubDate>
     </item>
     <item>
-      <title>Claude桌面擴充套件遭指存在零點擊RCE漏洞，逾1萬用戶恐曝險</title>
-      <link>https://www.ithome.com.tw/news/173905</link>
-      <description>新聞資安業者LayerX揭露一項針對Claude桌面擴充套件（Claude Desktop Extensions）的零點擊遠端程式碼執行漏洞。研究人員指出，攻擊者可透過單一Google Calendar行事曆事件植入特定內容，受害者只要請Claude讀取最新行程並協助處理相關事項，系統就可能在使用者未察覺的情況下觸發本機任意程式碼執行。LayerX指出此問題影響逾1萬名活躍使用者並波及50個以上的擴充套件，CVSS風險分數10.0。LayerX已向Anthropic通報，但官方目前不打算修補。 該風險不如傳統軟體漏洞那樣因為單一元件的程式錯誤，研究人員將其歸咎於工作流程與信任邊界設計。Claude在回應使用者需求時，會自行判斷需呼叫的連接器與工具，並把不同來源的資料串接起來完成任務。 研究人員對Claude桌面擴充套件的權限模型提出警告。相較於瀏覽器擴充套件多受沙箱與權限控管限制，桌面擴充套件在本機執行時缺乏沙箱隔離，且其可觸及的資源範圍等同於作業系統上該使用者所擁有的權限，因而可能具備讀取任意檔案、執行系統命令、存取已儲存憑證等能力。一旦環境同時啟用了可讀取行事曆的連接器，又安裝了具</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173905</guid>
-      <pubDate>Wed, 11 Feb 2026 11:24:31 +0000</pubDate>
+      <title>標榜取得最高等級資安檢測標章的智慧社區App存在16項弱點，1萬個社區、300萬用戶恐曝險</title>
+      <link>https://www.ithome.com.tw/news/173946</link>
+      <description>新聞隨著許多社區導入智慧管理，往往透過手機應用程式簡化社區事務處理流程，管理員和住戶透過App進行郵件與包裹代收、繳費、社區重要事務公告，以及線上預約報修等，大幅增加管理員與住戶處理相關事務的便利性，然而，有標榜取得最高等級資安標章的社區管理App，近日受測卻出現許多安全性不足的問題，而且，越新的版本竟然弱點越多。 2月12日消基會最新發布的調查顯示，他們與國家資通安全研究院（資安院）合作，針對宣稱有1萬個社區採用、涵蓋300萬住戶的「智生活（SmaDay）」手機App進行檢測，結果發現，最新的安卓版本竟有多達16個項目未通過，恐讓用戶的個資外洩、相關繳費金流遭到攔截，以及連線階段（Session）被挾持的風險。 由於軟體開發公司智生活科技（原名為今網智慧科技）曾送測安卓版4.1.0與iOS版4.2.0，成功通過行動應用App資安檢測，並於去年4月取得最高等級L3的標章。不過，消基會與資安院在去年第一季和今年初兩度檢測應用程式，卻發現有多個項目安全性不足，而未通過測試。對此，消基會認為，這項發現凸顯行動應用程式的資安防禦，偏重上市前的單一時間點審核，缺乏後續的監督機制，呼籲政府應採取行</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173946</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/6bazcSTfbB.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 13 Feb 2026 02:31:40 +0000</pubDate>
     </item>
     <item>
-      <title>不是告別，而是換另一種方式同行</title>
-      <link>https://www.ithome.com.tw/voice/173881</link>
-      <description>這一期，是iThome週刊最後一次以紙本形式發行。 對許多讀者，也對編輯部而言，在過去將近一千三百個禮拜中，每週從截稿、校稿、編排、印刷到準時遞送到讀者手上，iThome週刊成為許多資訊人掌握科技脈動、產業趨勢的固定節奏。在這樣帶有儀式感的過程中，每一週我們都有跟著世界又往前走了一點的感覺。 今天，我們選擇在這裡，把紙本週刊畫下一個句點。但這並不是iThome的終點，也不是內容的終止。 自2001年創刊以來，iThome週刊的報導一路跟著臺灣企業從電腦化進展到數位化。那是一個從「e化」走向「網路化」，接著擴及「行動化」、「雲端化」，再邁向全面「數位化」的企業轉型歷程。而今新一代人工智慧推動企業邁向「智慧化」之際，我們依然會堅守使命，繼續在iThome網站報導臺灣企業邁向智慧、韌性與永續發展的未來。 回顧創刊之初，資訊科技在臺灣多數企業中的角色仍屬後勤支援性質—負責系統穩定、設備維運與成本控制。資訊主管多半隱身於組織內部，既非決策核心，也鮮少成為媒體關注或報導的對象。 在那個年代，資訊長這個角色尚未普及，資訊工作的價值，往往只有在系統當機或專案延誤時，才被注意到。即使有少數資訊長率先倡議</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/voice/173881</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/ithome-1273%2B1274-600-3.png" length="0" type="image/png"/>
-      <pubDate>Wed, 11 Feb 2026 22:00:00 +0000</pubDate>
+      <title>18000人開發團隊生產力大升級，巴西最大銀行如何打造自己的開發者平臺</title>
+      <link>https://www.ithome.com.tw/news/173947</link>
+      <description>新聞3年前，巴西最大的伊塔烏聯合銀行(Itau Unibanco)展開了雲端轉型，計畫2028年所有業務全面上雲。這間創立超過百年銀行，也是拉丁美洲最大銀行，據點橫跨18國，但有高達97%的顧客互動都在線上進行。為了支援雲端轉型，伊塔烏聯合銀行也展開了平臺工程的開發變革，要來提高一萬八千名開發人員的生產力。 先看一下他們如何展開這場IT現代化之旅，2010年時，伊塔烏聯合銀行只有一座資料中心，因應不同業務目標，而有各種不同的應用系統，其中，許多是孤島式的系統。這些系統大多在虛擬化環境中執行，不過，當時的虛擬化軟體擴充能力不強（編按：當時為ESXi 4.x版），他們也沒有一套統一的工作流程，每個AP團隊各有自己的建置做法和維運方式，自動化程度很低，每週只有進行少數的變更或更新作業，可以說，IT部門到處都是孤島。這些問題，讓開發人員要花很大的力氣來建置和維運系統，卻沒有提供很好的交付能力，直接影響了業務團隊的創新速度。 直到2018年時，他們開始建置一套私有雲平臺，來提高內部運算資源的調度彈性，巴西銀行在2018年才逐漸開放該國銀行可以使用公有雲。所以，伊塔烏聯合銀行也決定開始上雲，202</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173947</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/IT%E7%8F%BE%E4%BB%A3%E5%8C%96%E6%99%82%E9%96%93%E8%A1%A8-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E4%BC%8A%E5%A1%94%E7%83%8F%E8%81%AF%E5%90%88%E9%8A%80%E8%A1%8C.png" length="0" type="image/png"/>
+      <pubDate>Fri, 13 Feb 2026 02:37:23 +0000</pubDate>
     </item>
     <item>
-      <title>Adobe 2月修補44項漏洞，After Effects等工具逾半數可致任意程式碼執行</title>
-      <link>https://www.ithome.com.tw/news/173904</link>
-      <description>新聞數位創意軟體業者Adobe於2月例行安全更新發布9則資安公告，合計修補44項漏洞，多款Creative Cloud工具均在弱點影響範圍之內。超過半數屬於可導致任意程式碼執行的重大風險漏洞，主要與檔案解析與記憶體處理機制相關。 本次受影響產品包括After Effects、Audition、InDesign Desktop、Substance 3D Designer、Substance 3D Stager、Substance 3D Modeler、Bridge、Lightroom Classic與DNG SDK。從Adobe公告內容來看，漏洞類型集中在越界寫入、越界讀取、Use-After-Free與整數溢出等記憶體安全問題。攻擊情境多半涉及使用者開啟特製檔案後，觸發應用程式在本機執行任意程式碼；另有部分漏洞可能導致記憶體資訊曝光或阻斷服務（DoS）。 以修補數量來看，After Effects為本月最多，共修補15項漏洞，其中13項被列為重大風險；Audition修補6項漏洞，當中有1項被評為具有重大風險，其餘為重要／高度風險；Substance 3D Designer修補7項漏洞</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173904</guid>
-      <pubDate>Thu, 12 Feb 2026 01:00:00 +0000</pubDate>
+      <title>駭客組織UAT-9921將惡意程式框架VoidLink用於實際攻擊</title>
+      <link>https://www.ithome.com.tw/news/173948</link>
+      <description>新聞一個月前，資安公司Check Point揭露專為雲端環境打造的模組化惡意程式框架VoidLink，並指出開發者慣用簡體中文，疑似要求AI根據規格取向的開發方法（Spec-Driven Development，SDD），打造近9萬行程式碼的複雜惡意程式，引起資安界高度關注。最近有新的調查結果出爐，駭客已將此框架用於實際活動。 思科威脅情報團隊Talos指出，他們追蹤使用VoidLink的新興駭客組織UAT-9921，這些駭客的活動最早可追溯到2019年，而利用VoidLink的活動是從2025年9月才出現，並持續到今年1月。這些駭客的攻擊目標，似乎聚焦於科技產業，但也有金融服務業的公司受害。有別於許多駭客優先針對Windows與macOS開發惡意程式，這些駭客主要的目標，是物聯網裝置與關鍵基礎設施（CI）重度仰賴的Linux作業系統，但他們也已著手製作Windows版惡意框架，該軟體能透過DLL側載加入外掛程式。 針對這次調查結果，Talos認為代表惡意程式框架出現重大的發展，而且駭客一共用了3種程式語言：主程式為Zig、外掛程式使用C，後臺採用Go語言，若非借助AI的力量，單靠規模</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173948</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/voidlink_timeline.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 13 Feb 2026 03:25:51 +0000</pubDate>
     </item>
     <item>
-      <title>Chrome開放WebMCP早期預覽，網站可把功能公開成AI代理工具</title>
-      <link>https://www.ithome.com.tw/news/173914</link>
-      <description>新聞Chrome開發團隊宣布WebMCP開放早期預覽，並提供給早期預覽計畫參與者進行原型開發。WebMCP希望讓網站以結構化工具的形式，向瀏覽器代理清楚描述可執行的動作與入口，降低僅靠原始DOM操作推測流程帶來的不確定性。Chrome團隊將WebMCP視為在代理式Web領域的嘗試，目的是讓網站在代理與網站互動時扮演更主動的角色。 Chrome團隊指出，WebMCP希望提供一種較一致的方式，讓網站把可被代理呼叫的能力公開成工具。網站經營者可透過工具定義，明確描述代理的互動位置、互動方式、使用的參數，以及互動後期待的結果。如此更直接的溝通管道，減少代理在不同網站間反覆嘗試與修正的成本，讓跨多步驟的工作流程更可預期。 WebMCP提出兩類介面涵蓋不同複雜度的網站互動情境，第一類是宣告式介面，針對可標準化的常見動作，讓網站能直接在HTML表單等既有結構上描述可執行的操作。第二類是命令式介面，鎖定較複雜或高度動態的互動流程，允許透過JavaScript執行，貼近真實網站行為的情境。這兩類介面讓網站更適合代理存取，也更容易建立穩定的代理工作流程，而不必完全仰賴原始DOM操作。 WebMCP用一套J</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173914</guid>
-      <pubDate>Thu, 12 Feb 2026 01:00:00 +0000</pubDate>
+      <title>政府軟體共契採購規模已破百億，數發部以規格化、規模經濟帶動資服產業轉型</title>
+      <link>https://www.ithome.com.tw/news/173949</link>
+      <description>新聞作為我國數位經濟的推手，數發部長林宜敬在去年9月上任後，曾提出他的施政願景，其中之一便是協助軟體產業從「做專案」(Project)引導其轉型為「做產品」(Product)。 林宜敬表示，過去國內軟體業者大多以專案開發為主，為特定客戶量身打造的解決方案。然而，這種外包契約承攬開發，雖能快速回應市場需求，但對業者而言重工且不易累積開發量能。「做產品」則是面向廣泛市場，以模組化設計取代每次重寫程式，提升效率與重複利用性，完成開發後能透過複製與規模效益，賣給不特定多數。因此唯有「做產品」才能創造更大價值，並呼籲更多業者投入產品化發展。 在此目標之下，數發部希望引導軟體產業轉型，其中政府機關軟體共契採購就是一項重要手段。 數位產業署（簡稱數產署）今年1月宣布2025年「政府電腦軟體共同供應契約採購」（簡稱軟體共契採購）全年採購總額首度突破百億元，達到107億元，這是從數發部2022年成立後，數產署擔負起政府軟體共契採購，不斷整合各機關的軟體採購需求，將需求規格化，擴大軟體共契採購的規模，從2022年的68億元成長到2025年的107億元，三年間之複合年均成長率（CAGR）達到 16.3%。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173949</guid>
+      <pubDate>Fri, 13 Feb 2026 03:48:19 +0000</pubDate>
     </item>
     <item>
-      <title>Coinbase爆內部人員不當存取用戶資料，客服支援系統畫面外流</title>
-      <link>https://www.ithome.com.tw/news/173918</link>
-      <description>新聞加密貨幣交易所Coinbase近日證實，去年12月發生一起涉及約聘人員的內部資料存取事件。該名人員在職務範圍外查閱約30名用戶資料，事後相關支援系統畫面更在Telegram等管道短暫流傳，引發外界對委外服務與權限控管風險的討論。 Coinbase向資安媒體BleepingComputer說明，其資安團隊於2025年12月偵測到異常內部存取行為，確認一名約聘人員不當查閱少數用戶資訊。公司表示，涉事人員已停止服務，亦已於去年底通知受影響用戶，並提供身分盜用防護與相關協助，同時依規定通報主管機關。 Coinbase並強調，此案與2025年涉及另一家外包商TaskUs的內部威脅事件無關。 這起事件之所以擴大，是因自稱「Scattered Lapsus Hunters（SLH）」的威脅組織，曾在Telegram張貼疑似Coinbase客服後臺工具截圖，隨後刪除。截圖顯示，支援控制臺可查閱用戶姓名、電子郵件、電話、出生日期，以及KYC驗證相關資訊與帳戶交易紀錄。 目前尚無證據顯示駭客是否直接策動內部人員，或從其他來源取得畫面。不過，SLH組織過去曾疑似收買CrowdStrike員工，企圖取得這</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173918</guid>
-      <pubDate>Thu, 12 Feb 2026 02:32:28 +0000</pubDate>
+      <title>【資安日報】2月13日，惡意程式框架VoidLink已被用於攻擊科技與金融產業</title>
+      <link>https://www.ithome.com.tw/news/173950</link>
+      <description>新聞駭客組織UAT-9921將惡意程式框架VoidLink用於實際攻擊 思科威脅情報團隊Talos指出，他們追蹤使用VoidLink的新興駭客組織UAT-9921，這些駭客的活動最早可追溯到2019年，而利用VoidLink的活動是從2025年9月才出現，並持續到今年1月。這些駭客的攻擊目標，似乎聚焦於科技產業，但也有金融服務業的公司受害。有別於許多駭客優先針對Windows與macOS開發惡意程式，這些駭客主要的目標，是物聯網裝置與關鍵基礎設施（CI）重度仰賴的Linux作業系統，但他們也已著手製作Windows版惡意框架，該軟體能透過DLL側載加入外掛程式。 針對這次調查結果，Talos認為代表惡意程式框架出現重大的發展，而且駭客一共用了3種程式語言：主程式為Zig、外掛程式使用C，後臺採用Go，若非借助AI的力量，單靠規模不大的開發團隊恐怕難以達成。Talos強調，他們追蹤的活動裡，駭客使用的是1.0版VoidLink，Check Point揭露的是正在開發階段的新一代2.0版，因此兩個研究團隊的發現，並不衝突。 語音電話平臺FreePBX被鎖定，駭客植入Web Shell進行滲</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173950</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/voidlink_timeline.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 13 Feb 2026 03:59:40 +0000</pubDate>
     </item>
     <item>
-      <title>CISA警告舊版GitLab漏洞遭攻擊利用，呼籲使用單位儘速完成修補</title>
-      <link>https://www.ithome.com.tw/news/173919</link>
-      <description>新聞美國網路安全暨基礎設施安全局（CISA）警告，開源原始碼管理與DevOps平臺GitLab已修補多年的漏洞CVE-2021-39935，近期出現實際濫用跡象，要求聯邦機關限期完成修補，也呼籲所有組織將修補該漏洞列為優先事項，以降低持續進行中的攻擊風險。 這項漏洞CVSS v3.1風險分數為7.5分，屬於高風險（High）等級。根據美國國家漏洞資料庫（NVD）說明，CVE-2021-39935屬於伺服器端請求偽造（Server-Side Request Forgery，SSRF）漏洞。攻擊者可藉由濫用CI Lint API，誘使目標伺服器對內部或外部資源發送未預期請求，可能導致敏感資訊外洩或內部服務暴露。 GitLab已於2021年12月發布安全更新修補此漏洞。官方指出，早於14.3.6版、14.4.4版，以及14.5.2版的版本均受影響；用戶應依所用版本的系列，分別升級至14.3.6、14.4.4或14.5.2以上版本，才能排除風險。 CISA指出，已觀測到攻擊者實際利用CVE-2021-39935發動攻擊，並於今年2月3日將其納入已知遭利用漏洞（KEV）清單，要求聯邦機關在期限內</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173919</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0212-gitlab-600.png" length="0" type="image/png"/>
-      <pubDate>Thu, 12 Feb 2026 02:33:31 +0000</pubDate>
+      <title>JavaScript沙箱函式庫SandboxJS曝沙箱逃逸漏洞，在特定情境下觸發RCE</title>
+      <link>https://www.ithome.com.tw/news/173940</link>
+      <description>新聞開源JavaScript沙箱函式庫SandboxJS揭露重大漏洞CVE-2026-25881，攻擊者要是能在受害系統中執行沙箱內的不受信任程式碼，可能藉由沙箱逃逸改寫宿主程序的內建原型（Prototype），造成持久性的原型汙染。在宿主應用程式後續把遭汙染的屬性帶入敏感呼叫點的情況下，風險可能進一步升高到遠端程式碼執行（RCE）。GitHub資安通報指出受影響套件為NPM上的@nyariv/sandboxjs，早於0.8.31版的版本都受影響。 CVE-2026-25881漏洞被標示為重大等級，CVSS v3.1分數為9.1，問題根源在於SandboxJS用一個名為isGlobal的保護旗標，試圖阻止沙箱內程式碼改寫全域物件或其原型。不過，當全域原型參照在陣列常值（Array Literal）或物件常值的建立過程中被傳遞與取回時，該保護旗標可能在轉換流程中遺失，導致原本應被阻擋的原型寫入不再被攔截。也就是說，沙箱邊界本應隔離宿主的內建原型，但在特定資料流路徑下出現可被繞過的漏洞。 一旦攻擊者能在沙箱內改寫宿主的內建原型，影響不只限於單次運算結果，而可能形成在同一宿主程序中持續的狀態</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173940</guid>
+      <pubDate>Fri, 13 Feb 2026 04:17:35 +0000</pubDate>
     </item>
     <item>
-      <title>xAI展開組織重組，馬斯克揭露月球計畫</title>
-      <link>https://www.ithome.com.tw/news/173920</link>
-      <description>新聞在SpaceX宣布買下xAI，接著傳出又有xAI的共同創辦人離職之後，馬斯克（Elon Musk）透過X表示，xAI已於日前進行組織重組，馬斯克還告訴xAI員工，他要在月球上建造一座可生產AI衛星的工廠。 馬斯克旗下的太空公司SpaceX甫於1月30日向美國聯邦通訊委員會（Federal Communications Commission，FCC）提出申請，打算發射100萬顆衛星，以建立一個環繞地球的軌道資料中心網路；接著在2月2日宣布買下xAI，以垂直整合AI、火箭、太空網路、行動裝置直連通訊，以及即時資訊與言論自由平臺。 根據彭博社（Bloomberg）的報導，2023年創立的xAI總計有12名共同創辦人，其中，本周宣布離職的Tony Wu與Jimmy Ba，已是第五及第六位離開xAI的共同創辦人，且最近還有其他xAI員工離職。 馬斯克則說，xAI的重組是為了提高執行速度，隨著公司的成長，特別像是xAI這樣快速發展的公司，其結構也必須像任何生物體一樣快速演化；這意味著他們不得不與一些人分道揚鑣，祝他們未來一切順利。 此外，馬斯克亦公開招募人才，歡迎對於在月球上建造質量加速器（M</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173920</guid>
-      <pubDate>Thu, 12 Feb 2026 02:49:12 +0000</pubDate>
+      <title>.NET 11預覽登場，Zstandard壓縮入列、CoreCLR開始跨進WebAssembly</title>
+      <link>https://www.ithome.com.tw/news/173941</link>
+      <description>新聞微軟發布.NET 11第一個預覽版，新的主要版本更新範圍涵蓋執行階段（Runtime）、基礎函式庫、SDK與MSBuild，以及ASP.NET Core、Blazor與.NET MAUI等元件。其中較受關注的兩項更新，是在基礎函式庫加入Zstandard壓縮支援，以及讓CoreCLR成為WebAssembly SDK的一個目標，並同步擴充瀏覽器託管CoreCLR的相關能力。 .NET 11預覽版把Zstandard納入.NET基礎函式庫，對應的API包含ZstandardStream與編碼器、解碼器等類別。Zstandard為新的.NET原生壓縮選項，並指出其壓縮與解壓縮速度相較既有演算法更快，同時維持具競爭力的壓縮比，能夠補齊更多常見資料處理情境的工具組合。 另一個重點是WebAssembly方向的CoreCLR進展。.NET 11第一個預覽版在Runtime先補上讓CoreCLR能在瀏覽器端運作的基礎工程，目標是逐步把.NET WebAssembly的執行階段從既有Mono轉向CoreCLR。CoreCLR是.NET預設執行階段，負責載入.NET元件與執行C#等語言編譯後的程式</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173941</guid>
+      <pubDate>Fri, 13 Feb 2026 04:29:46 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI擴充Responses API支援長任務，新增伺服端壓縮整理與Shell容器</title>
-      <link>https://www.ithome.com.tw/news/173917</link>
-      <description>新聞OpenAI擴充Responses API的多項基礎能力，解決長時間代理型工作常見的兩個障礙。一是對話與工作狀態累積後容易觸及模型上下文上限，二是代理需要更可預期的計算與執行環境來跑腳本、處理檔案或整理資料。該更新將壓縮、容器與終端機式執行整合成可組合的元件，讓開發者能用同一套API執行長任務。 OpenAI加入伺服端壓縮整理來強化上下文管理，開發者在呼叫Responses API時，可以設定由系統代為管理上下文，並指定啟動壓縮的門檻。當對話累積到一定長度，伺服端會在同一個串流回應中自動進行壓縮與修剪，降低上下文不斷膨脹而導致後續請求失敗的風險。官方也說明，壓縮後的內容會加密保存，主要用來讓模型延續工作脈絡，並不是設計給人直接閱讀。 在執行環境方面，OpenAI推出Shell工具，讓模型可以在完整終端機環境下執行指令。Shell提供兩種路徑，包含OpenAI代管的容器，以及由開發者自行托管並回傳執行結果的本機執行模式。 容器可重複使用，讓同一個任務能跨多次請求延續狀態，但其並非永久工作區，可能在一段時間未使用後到期。開發者只要在後續請求持續引用同一個容器，就能讓檔案與工作狀態在容器</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173917</guid>
-      <pubDate>Thu, 12 Feb 2026 02:59:03 +0000</pubDate>
+      <title>ICS業者發布2月安全公告，西門子、施耐德電機、Aveva、Moxa揭露重大與高風險漏洞</title>
+      <link>https://www.ithome.com.tw/news/173943</link>
+      <description>新聞工業控制系統（ICS）與營運技術（OT）領域迎來新一波修補更新。西門子（Siemens）、施耐德電機（Schneider Electric）、Aveva、菲尼克斯電氣（Phoenix Contact）與四零四科技（Moxa）陸續發布安全公告，部分漏洞達重大風險等級，恐影響工業防火牆、PLC與資料管理平臺運作。企業應儘速盤點受影響設備並規畫更新時程。 西門子修補多項重大漏洞，波及PLC與工業防火牆 西門子在2月安全公告中修補多項重大與高風險漏洞，影響範圍橫跨工程資料管理平臺、工業防火牆設備，以及可程式控制器（PLC）等核心工業系統。 其中，工程資料管理與設計整合平臺COMOS存在多項弱點，可能導致跨站指令碼攻擊，進而造成資訊外洩或使用者權限濫用。 在工業網路設備方面，RUGGEDCOM APE1808所整合的FortiGate NGFW受到FortiOS元件漏洞影響，CVSS風險分數達9.8分，屬重大風險等級，可能導致權限提升或未經授權存取。同時，該設備亦涉及Palo Alto Networks PAN-OS相關漏洞，CVSS風險分數為8.7分，可能引發阻斷服務或命令注入問題。 西門</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173943</guid>
+      <pubDate>Fri, 13 Feb 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>廢棄Outlook增益集遭供應鏈攻擊 竊取4000餘憑證</title>
-      <link>https://www.ithome.com.tw/news/173922</link>
-      <description>新聞研究人員發現一個開發人員不再維護的Outlook增益集遭到供應鏈攻擊成為惡意程式，並竊取了超過4,000多個電子郵件憑證、密碼及信用卡號等。 資安業者Koi Security發現一個名為AgreeTo的Outlook增益集（add-in）程式，被改造成惡意程式並在微軟Office Add-in Store供用戶使用。研究人員相信這是首個已知惡意Outlook增益集被偵測公開傳布的例子。 AgreeTo於2022年上傳到Office Add-in Store，它是一個會議排程工具，頗受歡迎，有1,000人下載，評分達4.71。但後來不知何故開發人員不再維護，Chrome版已經被Google移除，但Outlook版卻留在微軟軟體商店上。該外掛指向的代管於Vercel的URL可為他人註冊，也被駭客取得。同時間，微軟基礎架構將AgreeTo納入到Outlook側邊欄中供使用者繼續使用。 研究人員發現問題出在AgreeTo的宣告（manifest）。Outlook增益集在宣告檔中說明「在Outlook以iFrame載入這個URL」，實際內容則是每次開啟該增益外掛時連向外部伺服器取得UI、邏輯</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173922</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0212-AgreeToSteal-Koi%20Security-600.png" length="0" type="image/png"/>
-      <pubDate>Thu, 12 Feb 2026 03:33:43 +0000</pubDate>
+      <title>Anthropic完成300億美元的融資，身價上看3,800億美元</title>
+      <link>https://www.ithome.com.tw/news/173953</link>
+      <description>新聞AI新創Anthropic周四（2/12）宣布，已完成由新加坡主權基金GIC與Coatue領投的300億美元G輪融資，完成後的估計達3,800億美元，且已包含微軟與Nvidia先前所公布的部分投資。 Anthropic上一輪的融資是在2025年9月完成，當時是由美國資產管理機構ICONIQ Capital領投，募得130億美元，估值為1,830億美元。可見Anthropic在時隔半年後的新一輪融資，身價已上漲一倍。 新一輪的資金將用於前沿研究、產品開發與基礎設施擴張，強化其在企業級AI與程式代理模型領域的領先地位。 根據該公司的說法，目前Anthropic的年化營收為140億美元，且已連續3年的成長都超過10倍。其中，年支出超過10萬美元的客戶數一年成長7倍，兩年前只有十多家客戶的年支出超過100萬美元，現在則有超過500家。此外，財星前十大（Fortune 10）企業中，有8家為Claude客戶。 至於2025年5月才正式推出的程式代理模型Claude Code，目前年化營收已超過25億美元，且自1月1日以來，其每周活躍用戶數已經翻倍。另據一項近期分析估計，Claude Code</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173953</guid>
+      <pubDate>Fri, 13 Feb 2026 07:03:41 +0000</pubDate>
     </item>
   </channel>
 </rss>
