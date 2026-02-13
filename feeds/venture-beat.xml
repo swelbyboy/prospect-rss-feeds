@@ -8,47 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Feb 2026 07:25:03 +0000</lastBuildDate>
-    <item>
-      <title>'Observational memory' cuts AI agent costs 10x and outscores RAG on long-context benchmarks</title>
-      <link>https://venturebeat.com/data/observational-memory-cuts-ai-agent-costs-10x-and-outscores-rag-on-long</link>
-      <description>RAG isn't always fast enough or intelligent enough for modern agentic AI workflows. As teams move from short-lived chatbots to long-running, tool-heavy agents embedded in production systems, those limitations are becoming harder to work around.In response, teams are experimenting with alternative memory architectures — sometimes called contextual memory or agentic memory — that prioritize persistence and stability over dynamic retrieval.One of the more recent implementations of this approach is</description>
-      <guid isPermaLink="false">https://venturebeat.com/data/observational-memory-cuts-ai-agent-costs-10x-and-outscores-rag-on-long</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/67ibdydoAxgYdXSB210bmt/1679a3361e7b1cd5a3042b93db148137/observational-memory-smk2.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 10 Feb 2026 21:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI upgrades its Responses API to support agent skills and a complete terminal shell</title>
-      <link>https://venturebeat.com/orchestration/openai-upgrades-its-responses-api-to-support-agent-skills-and-a-complete</link>
-      <description>Until recently, the practice of building AI agents has been a bit like training a long-distance runner with a thirty-second memory. Yes, you could give your AI models tools and instructions, but after a few dozen interactions — several laps around the track, to extend our running analogy — it would inevitably lose context and start hallucinating. With OpenAI's latest updates to its Responses API — the application programming interface that allows developers on OpenAI's platform to access multipl</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/openai-upgrades-its-responses-api-to-support-agent-skills-and-a-complete</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/141veoymOJm2GzifuKDOyc/596e7cea992414c045cd1b4375a42793/STJU0-q1n9P9Di7ulrG2j_cPcT4sKa.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 10 Feb 2026 22:25:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why enterprise IT operations are breaking — and how AgenticOps fixes them</title>
-      <link>https://venturebeat.com/orchestration/why-enterprise-it-operations-are-breaking-and-how-agenticops-fixes-them</link>
-      <description>Presented by Cisco AI agents are breaking traditional IT operations models, adding complexity, data silos, and fragmented workflows. DJ Sampath, Cisco's SVP of AI Software and Platform, believes that AgenticOps is the solution: a new operational paradigm where humans and AI collaborate in real time to create efficiency, boost security, and allow for innovative technological applications.In a recent conversation with VentureBeat, Sampath outlined why current enterprise IT management is fundamenta</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/why-enterprise-it-operations-are-breaking-and-how-agenticops-fixes-them</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/60p5e3wh7KYaXNtT9QQv7f/79e55715c66f86521d8919812712db1f/AdobeStock_298061943.jpeg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 11 Feb 2026 05:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>NanoClaw solves one of OpenClaw's biggest security issues — and it's already powering the creator's biz</title>
-      <link>https://venturebeat.com/orchestration/nanoclaw-solves-one-of-openclaws-biggest-security-issues-and-its-already</link>
-      <description>The rapid viral adoption of Austrian developer Peter Steinberger's open source AI assistant OpenClaw in recent weeks has sent enterprises and indie developers into a tizzy.It's easy to easy why: OpenClaw is freely available now and offers a powerful means of autonomously completing work and performing tasks across a user's entire computer, phone, or even business with natural language prompts that spin up swarms of agents. Since its release in November 2025, it's captured the market with over 50</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/nanoclaw-solves-one-of-openclaws-biggest-security-issues-and-its-already</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/1kjt25N76BghJJNLKhOwv7/c35e31f478f2c70b53b0a630f8d92fb1/40AFMvR99jstTMVAIHnB6_UsswGkQq.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 11 Feb 2026 15:37:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MIT's new fine-tuning method lets LLMs learn new skills without losing old ones</title>
-      <link>https://venturebeat.com/orchestration/mits-new-fine-tuning-method-lets-llms-learn-new-skills-without-losing-old</link>
-      <description>When enterprises fine-tune LLMs for new tasks, they risk breaking everything the models already know. This forces companies to maintain separate models for every skill.Researchers at MIT, the Improbable AI Lab and ETH Zurich have developed a new technique that enables large language models to learn new skills and knowledge without forgetting their past capabilities.Their technique, called self-distillation fine-tuning (SDFT), allows models to learn directly from demonstrations and their own expe</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/mits-new-fine-tuning-method-lets-llms-learn-new-skills-without-losing-old</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4NMhz11v8kbKIuKE4JcAra/1b4bb691093d76b6a507f79be1414f52/LLM_continual_learning.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 11 Feb 2026 20:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 13 Feb 2026 07:19:40 +0000</lastBuildDate>
     <item>
       <title>Anthropic’s Claude Cowork finally lands on Windows — and it wants to automate your workday</title>
       <link>https://venturebeat.com/technology/anthropics-claude-cowork-finally-lands-on-windows-and-it-wants-to-automate</link>
@@ -64,6 +24,46 @@
       <guid isPermaLink="false">https://venturebeat.com/technology/z-ais-open-source-glm-5-achieves-record-low-hallucination-rate-and-leverages</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/dQV83itMFRGEKiT87OEGw/bf309d1debd7b55d3165a2c762addb20/SZWjerB5QqmiUg-LswgV3.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Thu, 12 Feb 2026 00:09:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI inference costs dropped up to 10x on Nvidia's Blackwell — but hardware is only half the equation</title>
+      <link>https://venturebeat.com/infrastructure/ai-inference-costs-dropped-up-to-10x-on-nvidias-blackwell-but-hardware-is</link>
+      <description>Lowering the cost of inference is typically a combination of hardware and software. A new analysis released Thursday by Nvidia details how four leading inference providers are reporting 4x to 10x reductions in cost per token.The dramatic cost reductions were achieved using Nvidia's Blackwell platform with open-source models. Production deployment data from Baseten, DeepInfra, Fireworks AI and Together AI shows significant cost improvements across healthcare, gaming, agentic chat, and customer se</description>
+      <guid isPermaLink="false">https://venturebeat.com/infrastructure/ai-inference-costs-dropped-up-to-10x-on-nvidias-blackwell-but-hardware-is</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3Tdn1sg9y8jVdlZmX8vyr4/93adf89349f5fd9043ae7b454886f7c1/cost-of-inference-smk1.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 12 Feb 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Chrome ships WebMCP in early preview, turning every website into a structured tool for AI agents</title>
+      <link>https://venturebeat.com/infrastructure/google-chrome-ships-webmcp-in-early-preview-turning-every-website-into-a</link>
+      <description>When an AI agent visits a website, it’s essentially a tourist who doesn’t speak the local language. Whether built on LangChain, Claude Code, or the increasingly popular OpenClaw framework, the agent is reduced to guessing which buttons to press: scraping raw HTML, firing off screenshots to multimodal models, and burning through thousands of tokens just to figure out where a search bar is.That era may be ending. Earlier this week, the Google Chrome team launched WebMCP — Web Model Context Protoco</description>
+      <guid isPermaLink="false">https://venturebeat.com/infrastructure/google-chrome-ships-webmcp-in-early-preview-turning-every-website-into-a</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/1qICIKh5QjKnFUVNWBfR1s/3e006949fd944a8ef8fb6e3ab0db67b9/webmcp-story.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 12 Feb 2026 16:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI deploys Cerebras chips for 'near-instant' code generation in first major move beyond Nvidia</title>
+      <link>https://venturebeat.com/technology/openai-deploys-cerebras-chips-for-15x-faster-code-generation-in-first-major</link>
+      <description>OpenAI on Thursday launched GPT-5.3-Codex-Spark, a stripped-down coding model engineered for near-instantaneous response times, marking the company's first significant inference partnership outside its traditional Nvidia-dominated infrastructure. The model runs on hardware from Cerebras Systems, a Sunnyvale-based chipmaker whose wafer-scale processors specialize in low-latency AI workloads.The partnership arrives at a pivotal moment for OpenAI. The company finds itself navigating a frayed relati</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/openai-deploys-cerebras-chips-for-15x-faster-code-generation-in-first-major</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7MjHYzZPCTPOi36CDs5heb/2e9b08153059f61306abd7a467cb2274/nuneybits_Vector_art_of_retro_CRT_monitor_displaying_cascading__4c1978f2-debf-4c64-bcac-269b5f7df6ca.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 12 Feb 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MiniMax's new open M2.5 and M2.5 Lightning near state-of-the-art while costing 1/20th of Claude Opus 4.6</title>
+      <link>https://venturebeat.com/technology/minimaxs-new-open-m2-5-and-m2-5-lightning-near-state-of-the-art-while</link>
+      <description>Chinese AI startup MiniMax, headquartered in Shanghai, has sent shockwaves through the AI industry today with the release of its new M2.5 language model in two variants, which promise to make high-end artificial intelligence so cheap you might stop worrying about the bill entirely. It's also said to be "open source," though the weights (settings) and code haven't been posted yet, nor has the exact license type or terms. But that's almost beside the point given how cheap MiniMax is serving it thr</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/minimaxs-new-open-m2-5-and-m2-5-lightning-near-state-of-the-art-while</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7BkiJw4Sda8kmGOMjm0AHC/d1258ce9ca1f941e68065f23464ce4a9/Zmf7qn_asvrC8yIjNKJqx_gtzOnyvS.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 12 Feb 2026 20:28:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nvidia’s new technique cuts LLM reasoning costs by 8x without losing accuracy</title>
+      <link>https://venturebeat.com/orchestration/nvidias-new-technique-cuts-llm-reasoning-costs-by-8x-without-losing-accuracy</link>
+      <description>Researchers at Nvidia have developed a technique that can reduce the memory costs of large language model reasoning by up to eight times. Their technique, called dynamic memory sparsification (DMS), compresses the key value (KV) cache, the temporary memory LLMs generate and store as they process prompts and reason through problems and documents.While researchers have proposed various methods to compress this cache before, most struggle to do so without degrading the model's intelligence. Nvidia'</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/nvidias-new-technique-cuts-llm-reasoning-costs-by-8x-without-losing-accuracy</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6Op858lSN4iIkbMucN5ayA/a2b5ca432d5f5c7573cca25abb650546/Spase_attention.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 12 Feb 2026 22:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
