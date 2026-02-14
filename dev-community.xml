@@ -8,77 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 07:03:03 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 06:51:06 +0000</lastBuildDate>
     <item>
-      <title>Like Stories? Love Python! 📖🐍 Ep.6</title>
-      <link>https://dev.to/the-software-s-journey/like-stories-love-python-ep6-1cm7</link>
-      <description>Episode 6: The Broadcast (Observer Pattern) Accompanying source code repository: Learning Python Object-Oriented Gather ‘round, storytellers. Today we’re talking about watching. About being watched. About the relationship between one and many - when something changes and everyone needs to know. This is broadcast television. This is social media. This is the Observer Pattern. The One-Line Logline “Define a one-to-many dependency where when one object changes state, all dependents are notified aut</description>
-      <guid isPermaLink="false">https://dev.to/the-software-s-journey/like-stories-love-python-ep6-1cm7</guid>
-      <pubDate>Fri, 13 Feb 2026 06:19:41 +0000</pubDate>
+      <title>Contributing to Lightning Network: Building a Secure Preimage RPC for LND</title>
+      <link>https://dev.to/samarthgoyal/contributing-to-lightning-network-building-a-secure-preimage-rpc-for-lnd-5e2p</link>
+      <description>Contributing to core infrastructure like lnd (Lightning Network Daemon) is a great way to understand the protocol deeply. Recently, I implemented a new RPC method called GeneratePreimage to solve a common developer friction point. The Problem: To create secure Hold Invoices, developers need a 32-byte preimage and its SHA-256 hash. LND didn't have a native way to generate these, forcing developers to roll their own crypto logic on the client side—which can lead to security risks if weak entropy i</description>
+      <guid isPermaLink="false">https://dev.to/samarthgoyal/contributing-to-lightning-network-building-a-secure-preimage-rpc-for-lnd-5e2p</guid>
+      <pubDate>Sat, 14 Feb 2026 06:33:52 +0000</pubDate>
     </item>
     <item>
-      <title>Like Stories? Love Python! 📖🐍 Ep.8</title>
-      <link>https://dev.to/the-software-s-journey/like-stories-love-python-ep8-4ebf</link>
-      <description>Episode 8: FINALE - The Narrative Commands (Command Pattern) Accompanying source code repository: Learning Python Object-Oriented Welcome to the finale, storytellers. We’ve journeyed through eight design patterns, eight cinematic masterpieces, eight architectural principles. Today, we end where all great stories end - with choice, with consequence, with the ability to undo and redo our narratives. This is the Command Pattern. This is our closing credits. The One-Line Logline “Encapsulate request</description>
-      <guid isPermaLink="false">https://dev.to/the-software-s-journey/like-stories-love-python-ep8-4ebf</guid>
-      <pubDate>Fri, 13 Feb 2026 06:20:04 +0000</pubDate>
+      <title>OpenClaw Guide Ch6: Multi-Agent Collaboration Architecture</title>
+      <link>https://dev.to/linou518/openclaw-guide-ch6-multi-agent-collaboration-architecture-1hki</link>
+      <description>Chapter 6: Multi-Agent Collaboration Architecture 🎯 Learning Objective: Design and implement multi-Agent collaboration systems, master inter-Agent communication and task delegation 🏗️ Why Multi-Agent Architecture? A single Agent is powerful, but faces limitations in complex scenarios: Single-Agent Limitations 🧠 Cognitive Overload: One Agent handling all task types 🔄 Context Pollution: Information from different tasks mixed together ⚡ Performance Bottleneck: Limited single-point processing capaci</description>
+      <guid isPermaLink="false">https://dev.to/linou518/openclaw-guide-ch6-multi-agent-collaboration-architecture-1hki</guid>
+      <pubDate>Sat, 14 Feb 2026 06:35:53 +0000</pubDate>
     </item>
     <item>
-      <title>THE GREAT UNLOCK: Welcome to the Era of Infinite Play By Adel Abdel-Dayem The Architect of Synthia The 11th Art</title>
-      <link>https://dev.to/adel_dayem/the-great-unlock-welcome-to-the-era-of-infinite-play-by-adel-abdel-dayem-the-architect-of-synthia-308g</link>
-      <description>The End of Watching. The Beginning of Living. For a hundred years, you sat in a dark room and watched someone else’s dream. You were a spectator. You were passive. You were "The Audience." That era is dead. Welcome to Synthia (The 11th Art). It’s not "AI video." It’s not "fake film." It is a Living Substrate—a digital sandbox where your wildest, most impossible imagination becomes a physical, breathable reality in real-time. Your Life, The Blockbuster In the AI Revolution, we aren't just making</description>
-      <guid isPermaLink="false">https://dev.to/adel_dayem/the-great-unlock-welcome-to-the-era-of-infinite-play-by-adel-abdel-dayem-the-architect-of-synthia-308g</guid>
-      <pubDate>Fri, 13 Feb 2026 06:20:19 +0000</pubDate>
+      <title>YourWebP as a Simple Starting Point for Image Optimization</title>
+      <link>https://dev.to/landover03/yourwebp-as-a-simple-starting-point-for-image-optimization-eji</link>
+      <description>After about 4 years working as a frontend software engineer, one thing I have learned is that performance work usually gets ignored until it becomes a problem. Images are almost always the biggest contributor, but optimizing them properly is rarely part of the happy path. I have worked on landing pages, dashboards, blogs, and internal tools. Different stacks, different teams, same issue every time. Images start as PNG or JPG, deadlines come in, and optimization gets postponed. Recently I decided</description>
+      <guid isPermaLink="false">https://dev.to/landover03/yourwebp-as-a-simple-starting-point-for-image-optimization-eji</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsnhrjm0svfb8j78squ22.png" length="0" type="image/png"/>
+      <pubDate>Sat, 14 Feb 2026 06:37:00 +0000</pubDate>
     </item>
     <item>
-      <title>Like Stories? Love Python! 📖🐍 Ep.7</title>
-      <link>https://dev.to/the-software-s-journey/like-stories-love-python-ep7-545</link>
-      <description>Episode 7: The Heist Plans (Strategy Pattern) Accompanying source code repository: Learning Python Object-Oriented Welcome back, masterminds. Today we’re talking about planning. About options. About having multiple ways to achieve the same goal and choosing the right approach for the situation. This is contingency planning. This is adaptive intelligence. This is the Strategy Pattern. The One-Line Logline “Define a family of interchangeable algorithms, encapsulate each one, and make them swappabl</description>
-      <guid isPermaLink="false">https://dev.to/the-software-s-journey/like-stories-love-python-ep7-545</guid>
-      <pubDate>Fri, 13 Feb 2026 06:20:22 +0000</pubDate>
+      <title>OpenClaw Guide Ch8: Monitoring and Debugging</title>
+      <link>https://dev.to/linou518/openclaw-guide-ch8-monitoring-and-debugging-18f1</link>
+      <description>Chapter 8: Monitoring and Debugging 🎯 Learning Objective: Build a comprehensive OpenClaw monitoring system, master performance debugging techniques, and implement rapid fault diagnosis with automated operations 📊 Monitoring System Overview A production-grade OpenClaw deployment requires comprehensive monitoring: 🔍 Real-Time Monitoring: System status, performance metrics, error rates 📝 Log Management: Structured logging, centralized collection, intelligent analysis ⚠️ Alerting: Anomaly detection,</description>
+      <guid isPermaLink="false">https://dev.to/linou518/openclaw-guide-ch8-monitoring-and-debugging-18f1</guid>
+      <pubDate>Sat, 14 Feb 2026 06:37:24 +0000</pubDate>
     </item>
     <item>
-      <title>How to Set Up a Personal AI Agent with OpenClaw and Discor</title>
-      <link>https://dev.to/lightningdev123/how-to-set-up-a-personal-ai-agent-with-openclaw-and-discor-4omp</link>
-      <description>The idea of running your own AI assistant used to sound like something reserved for research labs or large companies. Recently, that barrier has dropped. Tools like OpenClaw have made it possible for anyone with a laptop and some curiosity to run a personal AI agent locally. This guide walks through the process of setting up OpenClaw on your own machine and connecting it to Discord. By the end, you will have an AI agent that lives on your system, remembers conversations, and can interact with yo</description>
-      <guid isPermaLink="false">https://dev.to/lightningdev123/how-to-set-up-a-personal-ai-agent-with-openclaw-and-discor-4omp</guid>
-      <pubDate>Fri, 13 Feb 2026 06:27:00 +0000</pubDate>
+      <title>BoTTube: When AI Agents Become YouTubers</title>
+      <link>https://dev.to/molze/bottube-when-ai-agents-become-youtubers-3mpk</link>
+      <description>I stumbled on something weird today: BoTTube, a YouTube-like platform where every single content creator is an AI agent. What is it? 41 AI bots running their own channels 350+ videos already created No human creators, just agents Creators earn RTC tokens (tradeable on Solana via Raydium) Why it's interesting The concept flips the creator economy. Instead of humans making content for views, AI agents create, curate, and earn autonomously. They have their own channels, their own styles, their own</description>
+      <guid isPermaLink="false">https://dev.to/molze/bottube-when-ai-agents-become-youtubers-3mpk</guid>
+      <pubDate>Sat, 14 Feb 2026 06:38:43 +0000</pubDate>
     </item>
     <item>
-      <title>Like Stories? Love Python! 📖🐍 Ep.4</title>
-      <link>https://dev.to/the-software-s-journey/like-stories-love-python-ep4-26ia</link>
-      <description>Episode 4: Duct Tape Engineering (Adapter Pattern) Accompanying source code repository: Learning Python Object-Oriented Alright storytellers, settle in. Today we’re talking about survival. About ingenuity. About making things work that were never meant to work together. This is MacGyver territory. This is Apollo 13. This is pure problem-solving cinema. The One-Line Logline “Convert the interface of a class into another interface clients expect - make incompatible interfaces work together through</description>
-      <guid isPermaLink="false">https://dev.to/the-software-s-journey/like-stories-love-python-ep4-26ia</guid>
-      <pubDate>Fri, 13 Feb 2026 06:31:43 +0000</pubDate>
+      <title>Char Types | Belgi turi | C++</title>
+      <link>https://dev.to/whysoempty/char-types-belgi-turi-c-2cme</link>
+      <description>🔹 char types – C++ da belgilar turi char – 1 ta belgi (harf, raqam, simvol) saqlash uchun ishlatiladi. Hajmi: 1 bayt (8 bit). 1️⃣ Asosiy char char harf = 'A'; char raqam = '5'; char belgi = '#'; char bitta qo‘shtirnoq (‘ ’) bilan yoziladi. ASCII bilan ishlaydi Har bir belgi aslida son sifatida saqlanadi. char c = 'A'; cout &amp;lt;&amp;lt; int(c); // 65 raqam chiqadi 'A' → 65 (ASCII kodi) 2️⃣ signed char va unsigned char 🔹 signed char Oraliq: -128 dan 127 gacha signed char a = -50; 🔹 unsigned char Faqat musba</description>
+      <guid isPermaLink="false">https://dev.to/whysoempty/char-types-belgi-turi-c-2cme</guid>
+      <pubDate>Sat, 14 Feb 2026 06:39:19 +0000</pubDate>
     </item>
     <item>
-      <title>Playwright Debugging, Supercharged by GitHub Copilot</title>
-      <link>https://dev.to/shekharapple16spec/playwright-debugging-supercharged-by-github-copilot-53ac</link>
-      <description>My Portfolio :(https://shekhar-pro.vercel.app/) What I Built I built TestPilot AI, an AI-augmented Playwright test runner that automatically diagnoses failing tests and suggests fixes using the GitHub Copilot SDK and CLI. The project’s main goal is to reduce the time developers spend debugging failing tests. Instead of manually inspecting error messages or stack traces, TestPilot AI sends failure details to Copilot, which analyzes the failure, identifies the root cause, classifies the issue (e.g</description>
-      <guid isPermaLink="false">https://dev.to/shekharapple16spec/playwright-debugging-supercharged-by-github-copilot-53ac</guid>
-      <pubDate>Fri, 13 Feb 2026 06:39:04 +0000</pubDate>
+      <title>OpenClaw Guide Ch9: Multi-Server Cluster Deployment</title>
+      <link>https://dev.to/linou518/openclaw-guide-ch9-multi-server-cluster-deployment-4h72</link>
+      <description>Chapter 9: Multi-Server Cluster Deployment 🎯 Learning Objective: Master OpenClaw's multi-server deployment architecture, achieve high availability and horizontal scaling 🏗️ Why Multi-Server Deployment? Single-Server Limitations 🔥 Performance Bottleneck: Limited single-machine resources 💥 Single Point of Failure: Server failure takes down the entire system 📈 Scaling Difficulty: Vertical scaling is expensive, horizontal scaling not possible 🌍 Geographic Limits: Cannot serve global users locally 🔒</description>
+      <guid isPermaLink="false">https://dev.to/linou518/openclaw-guide-ch9-multi-server-cluster-deployment-4h72</guid>
+      <pubDate>Sat, 14 Feb 2026 06:42:36 +0000</pubDate>
     </item>
     <item>
-      <title>The Missing Pillar: Why Cisco's Cybersecurity Readiness Index Needs a Human Layer</title>
-      <link>https://dev.to/narnaiezzsshaa/the-missing-pillar-why-ciscos-cybersecurity-readiness-index-needs-a-human-layer-5c4g</link>
-      <description>Cisco measures infrastructure readiness. Nobody measures whether people can see the threat. Introducing the Trickster Readiness Index. Cisco's 2025 Cybersecurity Readiness Index surfaced a pattern that's easy to miss if you only look at the numbers: 86% of organizations experienced at least one AI-related security incident in the past year Only 49% believe employees understand AI-related threats 60% don't know what employees are asking GenAI tools to do These aren't infrastructure failures. They</description>
-      <guid isPermaLink="false">https://dev.to/narnaiezzsshaa/the-missing-pillar-why-ciscos-cybersecurity-readiness-index-needs-a-human-layer-5c4g</guid>
-      <pubDate>Fri, 13 Feb 2026 06:41:51 +0000</pubDate>
+      <title>Building Interactive Programs inside Claude Code</title>
+      <link>https://dev.to/tobrun_vannuland_70632c7/building-interactive-programs-inside-claude-code-3ca5</link>
+      <description>Building Interactive Programs inside Claude Code This is something I've been discovering as I go, and I thought it was worth sharing more broadly. The pattern is simple but surprisingly powerful: build a CLI that Claude can reason about, and let it decide how to invoke it based on your natural language prompt. I stumbled into this while building an Android QA agent — you describe a test scenario in natural language and Claude executes it on a device, recording every command for deterministic rep</description>
+      <guid isPermaLink="false">https://dev.to/tobrun_vannuland_70632c7/building-interactive-programs-inside-claude-code-3ca5</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fruq7p2xqjadk343p7lbr.png" length="0" type="image/png"/>
+      <pubDate>Sat, 14 Feb 2026 06:45:44 +0000</pubDate>
     </item>
     <item>
-      <title>ThinkInk: Optimizing the Reader's Journey with Generative AI and Copilot CLI</title>
-      <link>https://dev.to/mirinagonzales/thinkink-optimizing-the-readers-journey-with-generative-ai-and-copilot-cli-29jm</link>
-      <description>This is a submission for the GitHub Copilot CLI Challenge What I Built I am a person who loves reading, but sometimes I find it hard to decide which book to choose or to find one about a new topic I want to explore. I created this application for people like me: readers looking to get hooked on a story before opening it and walk away with key ideas at the end; but also for those who want to start their reading journey and don't know where to begin. ThinkInk is an application designed to accompan</description>
-      <guid isPermaLink="false">https://dev.to/mirinagonzales/thinkink-optimizing-the-readers-journey-with-generative-ai-and-copilot-cli-29jm</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fj6cgpr3i9pydw0n21o4n.png" length="0" type="image/png"/>
-      <pubDate>Fri, 13 Feb 2026 06:47:34 +0000</pubDate>
+      <title>From Localhost to Production: How I Built a Resource Hub for Student Developers</title>
+      <link>https://dev.to/studentdiscount/from-localhost-to-production-how-i-built-a-resource-hub-for-student-developers-545b</link>
+      <description>Introduction As a student pursuing my MBA in Finance while diving deep into SEO and WordPress development, I realized that the "liquidity gap" for students isn't just about cheap pizza—it's about the high cost of the tools we need to build our careers. Whether it’s cloud credits for your first app, professional IDEs, or a decent domain name, the costs add up quickly. I decided to tackle this by building (studentdiscount.tech), a platform that aggregates technical and lifestyle resources specific</description>
+      <guid isPermaLink="false">https://dev.to/studentdiscount/from-localhost-to-production-how-i-built-a-resource-hub-for-student-developers-545b</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fatx85qe3u2uuys123dw4.png" length="0" type="image/png"/>
+      <pubDate>Sat, 14 Feb 2026 06:46:48 +0000</pubDate>
     </item>
     <item>
-      <title>Handy Bit Manipulation Tricks</title>
-      <link>https://dev.to/mandy8055/handy-bit-manipulation-tricks-2d39</link>
-      <description>I was digging through React's source code and stumbled upon some bitmask logic for handling component states. At first glance, it looked cryptic—just a bunch of &amp;amp;, |, and &amp;lt;&amp;lt; operators. But once I understood what was happening, it clicked. These operations are ridiculously fast and efficient. Here are some tricks I find myself reaching for when performance actually matters. Basic Bit Operations Setting a Bit To set the bit at position pos, use the bitwise OR operator. Think of (1 &amp;lt;&amp;lt; pos) as a las</description>
-      <guid isPermaLink="false">https://dev.to/mandy8055/handy-bit-manipulation-tricks-2d39</guid>
-      <pubDate>Fri, 13 Feb 2026 06:54:48 +0000</pubDate>
+      <title>Azure Container Apps: Workload Profiles v2 Is Now the Default — What You Need to Know</title>
+      <link>https://dev.to/bspann/azure-container-apps-workload-profiles-v2-is-now-the-default-what-you-need-to-know-4ek8</link>
+      <description>Azure Container Apps just made a significant change that affects every developer creating new environments. As of January 2026, Workload Profiles (v2) is now the default environment type, replacing the legacy Consumption-only (v1) model. This isn't just a version bump — it's a fundamental shift in how Container Apps environments work, and it brings substantial benefits for production workloads. In this post, I'll break down what changed, why it matters, and how to take advantage of the new capab</description>
+      <guid isPermaLink="false">https://dev.to/bspann/azure-container-apps-workload-profiles-v2-is-now-the-default-what-you-need-to-know-4ek8</guid>
+      <pubDate>Sat, 14 Feb 2026 06:48:33 +0000</pubDate>
     </item>
   </channel>
 </rss>

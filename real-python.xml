@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 07:11:34 +0000</lastBuildDate>
-    <item>
-      <title>The Terminal: First Steps and Useful Commands for Python Developers</title>
-      <link>https://realpython.com/terminal-commands/</link>
-      <description>Learn your way around the Python terminal. You’ll practice basic commands, activate virtual environments, install packages with pip, and keep track of your code using Git.</description>
-      <guid isPermaLink="false">https://realpython.com/terminal-commands/</guid>
-      <enclosure url="https://files.realpython.com/media/win-10-setup-14-windows-powershell_-_cropped.f114376b1071.png" length="0" type="image/png"/>
-      <pubDate>Mon, 02 Feb 2026 14:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 14 Feb 2026 07:03:00 +0000</lastBuildDate>
     <item>
       <title>Getting Started With Google Gemini CLI</title>
       <link>https://realpython.com/courses/getting-started-google-gemini-cli/</link>
@@ -81,6 +73,13 @@
       <description>Check your Python list skills with quick tasks on indexing, slicing, methods, copies, comprehensions, and pitfalls.</description>
       <guid isPermaLink="false">https://realpython.com/quizzes/python-list/</guid>
       <pubDate>Thu, 12 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Real Python Podcast – Episode #284: Running Local LLMs With Ollama and Connecting With Python</title>
+      <link>https://realpython.com/podcasts/rpp/284/</link>
+      <description>Would you like to learn how to work with LLMs locally on your own computer? How do you integrate your Python projects with a local model? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly articles and projects.</description>
+      <guid isPermaLink="false">https://realpython.com/podcasts/rpp/284/</guid>
+      <pubDate>Fri, 13 Feb 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
