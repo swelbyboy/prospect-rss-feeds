@@ -8,23 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 07:19:40 +0000</lastBuildDate>
-    <item>
-      <title>Anthropic’s Claude Cowork finally lands on Windows — and it wants to automate your workday</title>
-      <link>https://venturebeat.com/technology/anthropics-claude-cowork-finally-lands-on-windows-and-it-wants-to-automate</link>
-      <description>Anthropic released its Claude Cowork AI agent software for Windows on Monday, bringing the file management and task automation tool to roughly 70 percent of the desktop computing market and intensifying a remarkable corporate realignment that has seen Microsoft embrace a direct competitor to its longtime AI partner, OpenAI.The Windows launch arrives with what Anthropic calls "full feature parity" with the macOS version: file access, multi-step task execution, plugins, and Model Context Protocol</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/anthropics-claude-cowork-finally-lands-on-windows-and-it-wants-to-automate</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3zZt7h2lLYSWgfFacvlwfj/10356ce36ca2ca349cbb0011f4469485/nuneybits_Vector_art_of_retro_Windows_CRT_computer_Anthropic_or_3d5dbd7c-7959-45de-83c5-134898f3e9e2.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 11 Feb 2026 20:25:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>z.ai's open source GLM-5 achieves record low hallucination rate and leverages new RL 'slime' technique</title>
-      <link>https://venturebeat.com/technology/z-ais-open-source-glm-5-achieves-record-low-hallucination-rate-and-leverages</link>
-      <description>Chinese AI startup Zhupai aka z.ai is back this week with an eye-popping new frontier large language model: GLM-5.The latest in z.ai's ongoing and continually impressive GLM series, it retains an open source MIT License — perfect for enterprise deployment – and, in one of several notable achievements, achieves a record-low hallucination rate on the independent Artificial Analysis Intelligence Index v4.0. With a score of -1 on the AA-Omniscience Index—representing a massive 35-point improvement o</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/z-ais-open-source-glm-5-achieves-record-low-hallucination-rate-and-leverages</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/dQV83itMFRGEKiT87OEGw/bf309d1debd7b55d3165a2c762addb20/SZWjerB5QqmiUg-LswgV3.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 12 Feb 2026 00:09:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 14 Feb 2026 07:10:06 +0000</lastBuildDate>
     <item>
       <title>AI inference costs dropped up to 10x on Nvidia's Blackwell — but hardware is only half the equation</title>
       <link>https://venturebeat.com/infrastructure/ai-inference-costs-dropped-up-to-10x-on-nvidias-blackwell-but-hardware-is</link>
@@ -52,7 +36,7 @@
     <item>
       <title>MiniMax's new open M2.5 and M2.5 Lightning near state-of-the-art while costing 1/20th of Claude Opus 4.6</title>
       <link>https://venturebeat.com/technology/minimaxs-new-open-m2-5-and-m2-5-lightning-near-state-of-the-art-while</link>
-      <description>Chinese AI startup MiniMax, headquartered in Shanghai, has sent shockwaves through the AI industry today with the release of its new M2.5 language model in two variants, which promise to make high-end artificial intelligence so cheap you might stop worrying about the bill entirely. It's also said to be "open source," though the weights (settings) and code haven't been posted yet, nor has the exact license type or terms. But that's almost beside the point given how cheap MiniMax is serving it thr</description>
+      <description>Chinese AI startup MiniMax, headquartered in Shanghai, has sent shockwaves through the AI industry today with the release of its new M2.5 language model in two variants, which promise to make high-end artificial intelligence so cheap you might stop worrying about the bill entirely. It was made open source on Hugging Face under a modified MIT License requiring that those using the model (or custom variants) for commercial purposes "prominently display 'MiniMax M2.5' on the user interface of such</description>
       <guid isPermaLink="false">https://venturebeat.com/technology/minimaxs-new-open-m2-5-and-m2-5-lightning-near-state-of-the-art-while</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7BkiJw4Sda8kmGOMjm0AHC/d1258ce9ca1f941e68065f23464ce4a9/Zmf7qn_asvrC8yIjNKJqx_gtzOnyvS.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Thu, 12 Feb 2026 20:28:00 +0000</pubDate>
@@ -64,6 +48,22 @@
       <guid isPermaLink="false">https://venturebeat.com/orchestration/nvidias-new-technique-cuts-llm-reasoning-costs-by-8x-without-losing-accuracy</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6Op858lSN4iIkbMucN5ayA/a2b5ca432d5f5c7573cca25abb650546/Spase_attention.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Thu, 12 Feb 2026 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to test OpenClaw without giving an autonomous agent shell access to your corporate laptop</title>
+      <link>https://venturebeat.com/security/how-to-test-openclaw-without-giving-an-autonomous-agent-shell-access-to-your</link>
+      <description>Your developers are already running OpenClaw at home. Censys tracked the open-source AI agent from roughly 1,000 instances to over 21,000 publicly exposed deployments in under a week. Bitdefender’s GravityZone telemetry, drawn specifically from business environments, confirmed the pattern security leaders feared: employees deploying OpenClaw on corporate machines with single-line install commands, granting autonomous agents shell access, file system privileges, and OAuth tokens to Slack, Gmail,</description>
+      <guid isPermaLink="false">https://venturebeat.com/security/how-to-test-openclaw-without-giving-an-autonomous-agent-shell-access-to-your</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/Xir01lWrwgjJlhWiOFz4M/37bf5c51904ea815798f03a6e8a67e7c/hero_how_to_build_clawbot_FINAL.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 13 Feb 2026 17:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI agents turned Super Bowl viewers into one high-IQ team — now imagine this in the enterprise</title>
+      <link>https://venturebeat.com/orchestration/ai-agents-turned-super-bowl-viewers-into-one-high-iq-team-now-imagine-this</link>
+      <description>The average Fortune 1000 company has more than 30,000 employees and engineering, sales and marketing teams with hundreds of members. Equally large teams exist in government, science and defense organizations. And yet, research shows that the ideal size for a productive real-time conversation is only about 4 to 7 people.The reason is simple: As groups grow larger, each person has less opportunity to speak and must wait longer to respond, increasing their frustration that their views are not suffi</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/ai-agents-turned-super-bowl-viewers-into-one-high-iq-team-now-imagine-this</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4xAnIbPYS8dOxnSgfkf6Cs/0829c970cca2705fec3e87c999640d7f/Header.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 13 Feb 2026 19:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

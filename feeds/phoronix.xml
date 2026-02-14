@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 07:03:13 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 06:51:16 +0000</lastBuildDate>
     <item>
-      <title>Linux 7.0 Brings A Significant Improvement For Workqueue Rescuer</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Workqueue</link>
-      <description>The Linux kernel's workqueue for async task handling within a dedicated kernel thread is seeing some useful improvements with Linux 7.0...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Workqueue</guid>
-      <pubDate>Thu, 12 Feb 2026 14:35:00 +0000</pubDate>
+      <title>Intel Nova Lake Sound Support In Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Sound</link>
+      <description>Merged for the Linux 6.19 kernel was initial Nova Lake S audio support. Now merged this week for the Linux 7.0 kernel is enabling sound support for additional Nova Lake platforms...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Sound</guid>
+      <pubDate>Fri, 13 Feb 2026 11:03:02 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Networking: Prepping For WiFi 8 UHR While Dropping Last Parallel Port Ethernet Driver</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Networking</link>
-      <description>The Linux 7.0 networking pull request showcases two extremes and the diversity and robustness of the open-source kernel ecosystem. Linux 7.0 is laying the groundwork for WiFi 8 Ultra-High Reliability (UHR) support while this kernel version is also bidding farewell to the last Ethernet driver for use over parallel printer ports...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Networking</guid>
-      <pubDate>Thu, 12 Feb 2026 15:00:00 +0000</pubDate>
+      <title>Sheaves Ready To Play A Bigger Role In Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Slab-Sheaves</link>
+      <description>The slab memory allocator feature updates have been merged for the Linux 7.0 kernel. Most notable this cycle is expanded use of the recently-introduced Sheaves functionality...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Slab-Sheaves</guid>
+      <pubDate>Fri, 13 Feb 2026 13:04:51 +0000</pubDate>
     </item>
     <item>
-      <title>Ubuntu 24.04.4 LTS Now Available With Linux 6.17 HWE Kernel</title>
-      <link>https://www.phoronix.com/news/Ubuntu-24.04.4-LTS</link>
-      <description>Canonical released Ubuntu 24.04.4 LTS today as the newest point release to the Noble Numbat...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-24.04.4-LTS</guid>
-      <pubDate>Thu, 12 Feb 2026 15:45:00 +0000</pubDate>
+      <title>Linux Gets Rid Of Intel 440BX EDAC Driver For Old Pentium CPUs After Being Broken For 19+ Years</title>
+      <link>https://www.phoronix.com/news/Linux-Drops-Old-440BX-EDAC</link>
+      <description>As some long overdue housekeeping, the Linux 7.0 kernel has removed an Error Detection And Correction "EDAC" driver for the Intel 440BX and 440GX chipset. The driver is being removed not only because that chipset was just used by old Celerons and Pentium II / Pentium III CPUs but that it's been in the kernel all this time while being known to be broken for 19+ years...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Drops-Old-440BX-EDAC</guid>
+      <pubDate>Fri, 13 Feb 2026 13:25:00 +0000</pubDate>
     </item>
     <item>
-      <title>Arch Linux Running Well On LoongArch - Loongson 3B6000 Benchmarks</title>
-      <link>https://www.phoronix.com/review/arch-linux-loongarch</link>
-      <description>Earlier this month I posted benchmarks of the Loongson 3B6000 for this 12-core / 24-thread LoongArch Chinese CPU with DDR4 ECC memory. Those initial benchmarks were done with Debian LoongArch64 while since then I've shifted over to using Arch Linux on LoongArch.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/arch-linux-loongarch</guid>
-      <pubDate>Thu, 12 Feb 2026 16:05:23 +0000</pubDate>
+      <title>Evaluating The Performance Cost To AMD SEV-SNP On EPYC 9005 VMs</title>
+      <link>https://www.phoronix.com/review/amd-epyc-9005-sev-snp</link>
+      <description>AMD Secure Encrypted Virtualization with Secure Nested Paging (SEV-SNP) provides memory encryption and integrity protections that can be especially useful in modern cloud computing. Typically a 2~10% performance overhead is reported when engaging AMD SEV-SNP for these hardware-backed security protections. In this article is an extensive look at the current AMD SEV-SNP performance impact for confidential computing on EPYC 9005 "Turin" servers. The current Ubuntu 24.04 LTS was tested as well as an</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/amd-epyc-9005-sev-snp</guid>
+      <pubDate>Fri, 13 Feb 2026 15:17:19 +0000</pubDate>
     </item>
     <item>
-      <title>SPARC &amp;amp; Alpha CPU Ports Still Seeing Activity In 2026 With Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-SPARC-Alpha-m68k</link>
-      <description>In addition to all of the exciting Intel and AMD x86_64 enhancements that have been landing this week so far for the Linux 7.0 kernel, the aging SPARC, Alpha, and Motorola 680x0 "m68k" CPU ports have also seen some patches for this new kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-SPARC-Alpha-m68k</guid>
-      <pubDate>Thu, 12 Feb 2026 17:30:00 +0000</pubDate>
+      <title>Linux 7.0 Lands ML-DSA Quantum-Resistant Signature Support</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Crypto-ML-DSA</link>
+      <description>Adding to the exciting features for the big Linux 7.0 kernel release is support for the Module-Lattice-Based Digital Signature Algorithm "ML-DSA" quantum-resistant signature algorithm...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Crypto-ML-DSA</guid>
+      <pubDate>Fri, 13 Feb 2026 16:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Video Decode Now Unified Between RadeonSI &amp;amp; RADV Vulkan Video</title>
-      <link>https://www.phoronix.com/news/AMD-RadeonSI-RADV-Video-Unified</link>
-      <description>Merged today to Mesa 26.1-devel is unifying of the AMD video decode implementation between the RadeonSI Gallium3D and RADV Vulkan drivers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-RadeonSI-RADV-Video-Unified</guid>
-      <pubDate>Thu, 12 Feb 2026 18:20:00 +0000</pubDate>
+      <title>Multi-Lane SPI Support Merged For Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Multi-Lane-SPI</link>
+      <description>With the Serial Peripheral Interface "SPI" subsystem updates for the Linux 7.0 kernel comes support for multi-lane SPI...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Multi-Lane-SPI</guid>
+      <pubDate>Fri, 13 Feb 2026 18:32:47 +0000</pubDate>
     </item>
     <item>
-      <title>EXT4 In Linux 7.0 Improves Write Performance For Concurrent Direct I/O Writes</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-EXT4</link>
-      <description>Sent out and already merged today for the Linux 7.0 kernel are the EXT4 file-system updates...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-EXT4</guid>
-      <pubDate>Thu, 12 Feb 2026 20:54:22 +0000</pubDate>
+      <title>NVIDIA Posts Open-Source Nouveau GSP Driver Support For GA100</title>
+      <link>https://www.phoronix.com/news/Nouveau-GSP-NVIDIA-GA100</link>
+      <description>One of the latest NVIDIA open-source contributions this week wasn't for the in-development Nova kernel driver but for enhancing the existing Nouveau kernel driver. The patch posted is for bringing up the NVIDIA GA100 GPU under Nouveau using the GPU System Processor (GSP)...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Nouveau-GSP-NVIDIA-GA100</guid>
+      <pubDate>Fri, 13 Feb 2026 19:36:21 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Posts 2026 Update For Cache Aware Scheduling On Linux</title>
-      <link>https://www.phoronix.com/news/Cache-Aware-Scheduling-Linux-v3</link>
-      <description>Not in time for the current Linux 7.0 cycle but posted for another round of review is Intel's latest work around Cache Aware Scheduling for enhancing the performance of modern CPUs with multiple cache domains. This is the first set of updates to Cache Aware Scheduling for the new year and succeed the v2 patches from early December. This work not only benefits modern Intel CPUs but our testing has shown can also provide some very nice gains too for AMD EPYC processors...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Cache-Aware-Scheduling-Linux-v3</guid>
-      <pubDate>Thu, 12 Feb 2026 21:18:33 +0000</pubDate>
+      <title>GNOME 50 Beta Released With Stable VRR, GDM Improvements</title>
+      <link>https://www.phoronix.com/news/GNOME-50-Beta</link>
+      <description>The GNOME 50 beta release is now available ahead of the official GNOME 50 desktop due out in March...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Beta</guid>
+      <pubDate>Fri, 13 Feb 2026 21:09:26 +0000</pubDate>
     </item>
     <item>
-      <title>XFS Introducing Autonomous Self-Healing Capabilities With Linux 7.0</title>
-      <link>https://www.phoronix.com/news/XFS-Linux-7.0</link>
-      <description>The XFS file-system has some interesting new feature work and performance tuning with the Linux 7.0 kernel that will be used by the likes of Fedora 44 and Ubuntu 26.04 LTS this spring...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/XFS-Linux-7.0</guid>
-      <pubDate>Fri, 13 Feb 2026 00:30:00 +0000</pubDate>
+      <title>Godot 4.7 Making Progress On Vulkan Ray-Tracing</title>
+      <link>https://www.phoronix.com/news/Godot-4.7-Dev-1-Vulkan-RT</link>
+      <description>One of the latest exciting developments for the open-source Godot game engine is beginning to lay out support for Vulkan ray-tracing...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Godot-4.7-Dev-1-Vulkan-RT</guid>
+      <pubDate>Sat, 14 Feb 2026 01:17:25 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 MM Changes Bring Some Very Nice Performance Optimizations</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-MM</link>
-      <description>All of the memory management "MM" related patches have now been merged for the ongoing Linux 7.0 merge window...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-MM</guid>
-      <pubDate>Fri, 13 Feb 2026 01:40:00 +0000</pubDate>
+      <title>KDE Plasma 6.6 Sees Last Minute Fixes, Plasma 6.7 Aims For Painless Samba Shares</title>
+      <link>https://www.phoronix.com/news/KDE-Plasma-6.6-Next-Week</link>
+      <description>KDE's Plasma 6.6 desktop release is due out next week (17 February) and there's been some last minute fixes to land. Additionally, KDE Plasma developers continue to be quite active in already landing feature work for Plasma 6.7...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Plasma-6.6-Next-Week</guid>
+      <pubDate>Sat, 14 Feb 2026 01:40:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

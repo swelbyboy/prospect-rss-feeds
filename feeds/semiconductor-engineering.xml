@@ -8,44 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 07:33:46 +0000</lastBuildDate>
-    <item>
-      <title>Autonomous Driving: Assessment Of YOLO Algorithms (RMIT et al.)</title>
-      <link>https://semiengineering.com/autonomous-driving-assessment-of-yolo-algorithms-rmit-et-al/</link>
-      <description>A new technical paper titled “Advances in You Only Look Once (YOLO) algorithms for lane and object detection in autonomous vehicles” was published by RMIT University, Kyungpook National University, Deakin University and the RCA Robotics Laboratory, Royal College of Art. Abstract “Ensuring the safety and efficiency of Autonomous Vehicles (AVs) necessitates highly accurate perception, especially... » read more The post Autonomous Driving: Assessment Of YOLO Algorithms (RMIT et al.) appeared first</description>
-      <guid isPermaLink="false">https://semiengineering.com/autonomous-driving-assessment-of-yolo-algorithms-rmit-et-al/</guid>
-      <pubDate>Wed, 11 Feb 2026 19:48:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Minimum Energy Per Query</title>
-      <link>https://semiengineering.com/minimum-energy-per-query/</link>
-      <description>How much of the energy consumed in an AI chip is spent doing something useful? This question affects everything from software to system architecture to chip design. The post Minimum Energy Per Query appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/minimum-energy-per-query/</guid>
-      <pubDate>Thu, 12 Feb 2026 08:01:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Scaling llama.cpp On Neoverse N2: Solving Cross-NUMA Performance Issues</title>
-      <link>https://semiengineering.com/scaling-llama-cpp-on-neoverse-n2-solving-cross-numa-performance-issues/</link>
-      <description>NUMA-aware optimizations can deliver up to 55% faster text generation. The post Scaling llama.cpp On Neoverse N2: Solving Cross-NUMA Performance Issues appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/scaling-llama-cpp-on-neoverse-n2-solving-cross-numa-performance-issues/</guid>
-      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/02/Arm_Scaling-llamacpp-On-Neoverse-N2-fig1.webp?resize=1290%2C458&amp;#038;ssl=1" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 12 Feb 2026 08:01:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>Power Leadership At 2nm: Foundation IP Optimized For Next-Gen Hyperscale SoCs</title>
-      <link>https://semiengineering.com/power-leadership-at-2nm-foundation-ip-optimized-for-next-gen-hyperscale-socs/</link>
-      <description>Innovation spanning process, design, and architecture can unlock new levels of power and cost efficiency. The post Power Leadership At 2nm: Foundation IP Optimized For Next-Gen Hyperscale SoCs appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/power-leadership-at-2nm-foundation-ip-optimized-for-next-gen-hyperscale-socs/</guid>
-      <pubDate>Thu, 12 Feb 2026 08:02:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>UCIe’s Major Technical Components Are Now In Place</title>
-      <link>https://semiengineering.com/ucies-major-technical-components-are-now-in-place/</link>
-      <description>Version 3.0 of the interconnect standard doubles bandwidth and supports new use cases and enhanced manageability. The post UCIe’s Major Technical Components Are Now In Place appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/ucies-major-technical-components-are-now-in-place/</guid>
-      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/02/Screenshot-2026-02-10-at-12.24.13-PM.png?resize=2150%2C990&amp;#038;ssl=1" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 12 Feb 2026 08:03:29 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 14 Feb 2026 07:25:11 +0000</lastBuildDate>
     <item>
       <title>AI, GPU, And HPC Data Centers: The Infrastructure Behind Modern AI</title>
       <link>https://semiengineering.com/ai-gpu-and-hpc-data-centers-the-infrastructure-behind-modern-ai/</link>
@@ -83,6 +46,43 @@
       <description>A new technical paper titled “High-clockrate free-space optical in-memory computing” was published by researchers at UC Berkeley, USC, and TU Berlin. Abstract “The ability to process and act on data in real time is increasingly critical for applications ranging from autonomous vehicles, three-dimensional environmental sensing, and remote robotics. However, the deployment of deep neural networks... » read more The post IMC: Free-Space Optical Neural Network With High Clockrate (Berkeley, USC, TU</description>
       <guid isPermaLink="false">https://semiengineering.com/imc-free-space-optical-neural-network-with-high-clockrate-berkeley-usc-tu-berlin/</guid>
       <pubDate>Fri, 13 Feb 2026 04:20:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Formal Verification First: How AI Supports But Cannot Replace It</title>
+      <link>https://semiengineering.com/formal-verification-first-how-ai-supports-but-cannot-replace-it/</link>
+      <description>In verification, speed without provable correctness is not progress. The post Formal Verification First: How AI Supports But Cannot Replace It appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/formal-verification-first-how-ai-supports-but-cannot-replace-it/</guid>
+      <pubDate>Fri, 13 Feb 2026 08:01:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automotive Week In Review</title>
+      <link>https://semiengineering.com/automotive-week-in-review/</link>
+      <description>AI chip for SDVs; hypercar; automotive edge chip; Waymo's new GenAI model; neuromorphic detects motion 4X faster; sodium-ion battery; Ferrari-all electric; carmakers' recalibrations on EVs; batteries that don't break in the cold; radar that sees around corners. The post Automotive Week In Review appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/automotive-week-in-review/</guid>
+      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/02/Screenshot-2026-02-10-at-10.34.11-AM.png?resize=626%2C357&amp;#038;ssl=1" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 13 Feb 2026 08:01:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Siemens Symphony Pro Enabled AnalogPort To Verify Complex Chip Interfaces</title>
+      <link>https://semiengineering.com/how-siemens-symphony-pro-enabled-analogport-to-verify-complex-chip-interfaces/</link>
+      <description>A modular approach for combining specialized chiplets and speeding time to market. The post How Siemens Symphony Pro Enabled AnalogPort To Verify Complex Chip Interfaces appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/how-siemens-symphony-pro-enabled-analogport-to-verify-complex-chip-interfaces/</guid>
+      <pubDate>Fri, 13 Feb 2026 08:01:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chip Industry Week In Review</title>
+      <link>https://semiengineering.com/chip-industry-week-in-review-125/</link>
+      <description>Tighter controls on IC equipment; HBM4; design/verification AI super agent; new tool for AI adoption at scale; $200M funding for optical TPU; Imagination's new CEO; earnings blitz; Nexperia investigation; imec's 2nm line; dry resist EUVL; physical AI primer; high-clockrate free-space IMC. The post Chip Industry Week In Review appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/chip-industry-week-in-review-125/</guid>
+      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/02/MTI300iSA_Banner_1270wx240h.jpg?resize=958%2C182&amp;#038;ssl=1" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 13 Feb 2026 08:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Test Generation Procedure Targeting Subcircuits With High Susceptibilities To Aging (Purdue University)</title>
+      <link>https://semiengineering.com/a-test-generation-procedure-targeting-subcircuits-with-high-susceptibilities-to-aging-purdue-university/</link>
+      <description>A technical paper titled “Test Generation for Subcircuits with High Functional Switching Activities” was published by Irith Pomeranz at Purdue University. Abstract “Chip aging results in defects that are initially likely to appear as delay faults. The susceptibility of a delay fault to aging can be assessed based on the layout or the functional workload... » read more The post A Test Generation Procedure Targeting Subcircuits With High Susceptibilities To Aging (Purdue University) appeared first</description>
+      <guid isPermaLink="false">https://semiengineering.com/a-test-generation-procedure-targeting-subcircuits-with-high-susceptibilities-to-aging-purdue-university/</guid>
+      <pubDate>Sat, 14 Feb 2026 00:19:25 +0000</pubDate>
     </item>
   </channel>
 </rss>

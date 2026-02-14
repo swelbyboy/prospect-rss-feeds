@@ -8,81 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Feb 2026 07:05:40 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2026 06:54:48 +0000</lastBuildDate>
     <item>
-      <title>語音電話平臺FreePBX被鎖定，駭客植入Web Shell進行滲透</title>
-      <link>https://www.ithome.com.tw/news/173945</link>
-      <description>新聞廣受企業採用的網路電話（VoIP）系統，曾經有駭客試圖濫用藉此牟取不法利益，例如：資安公司Check Point在多年前揭露駭客組織INJ3CTOR3的攻擊行動，這些駭客針對Sangoma推出的FreePBX軟體，利用已知漏洞盜打高額國際費率電話獲利，然而，最新的調查發現，駭客將這種系統作為滲透企業的隱匿管道，部署後門程式以便進行後續活動。 資安公司Fortinet揭露名為EncystPHP的Web Shell，此後門可讓攻擊者遠端執行任意程式碼（RCE）、部署其他的Web Shell，或是建立持續存取的機制。這起事故發生在去年12月初，駭客組織INJ3CTOR3利用FreePBX資安漏洞CVE-2025-64328，鎖定一家位於巴西的企業組織發動攻擊，該組織的網路環境由專精雲端解決方案、通訊服務，以及IT基礎設施的印度科技公司代管。 駭客先取得專門下載EncystPHP的工具，然後利用上述資安漏洞於FreePBX植入EncystPHP。過程中下載工具會先竄改ajax.php與model.php的權限，使其無法讀取、寫入或執行。接著，EncystPHP試圖收集資料庫組態資訊，然後刪</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173945</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/EncystPHP-fig5.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 13 Feb 2026 02:10:55 +0000</pubDate>
+      <title>DevOps快報第4期：Chrome開始支援WebMCP，要讓AI代理直接和網頁元件互動，巴西最大銀行打造18000人協作的開發者平臺</title>
+      <link>https://www.ithome.com.tw/news/173955</link>
+      <description>新聞2026/1/1～2/11 精選DevOps與開發新聞： #網頁應用開發 #AI代理 Chrome即將支援Google和微軟聯手發起的WebMCP，要AI代理更容易操控瀏覽器 隨著MCP協定去年初爆紅，Google和微軟也在去年8月聯手發起了一個新的網際網路協定專案WebMCP，這個專案希望提供一套更標準化的做法，讓網站經營者來定義和明確描述，AI代理可以和網站內容的互動位置、互動方式、使用的參數，以及互動後期待的結果。目標是讓AI代理可以更快、更可靠，也更準確地操作網頁，來完成任務。WebMCP目前仍是規格提案而非W3C正式標準。 WebMCP提供兩種AI與網站互動的API，第一類是宣告式API，讓網站能直接在HTML表單等既有結構上描述可執行的操作。第二類是命令式API，鎖定較複雜或高度動態的互動流程，允許透過JavaScript執行，貼近真實網站行為的情境。 #平臺工程 #雲端轉型 巴西最大銀行平臺工程解密，18000人開發者平臺架構公開 為了支援雲端轉型，伊塔烏聯合銀行也展開了平臺工程的開發變革，要來提高一萬八千名開發人員的生產力，從文化、標準化和平臺等三大面向的策略來推動</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173955</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/WebMCP.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 13 Feb 2026 07:29:47 +0000</pubDate>
     </item>
     <item>
-      <title>標榜取得最高等級資安檢測標章的智慧社區App存在16項弱點，1萬個社區、300萬用戶恐曝險</title>
-      <link>https://www.ithome.com.tw/news/173946</link>
-      <description>新聞隨著許多社區導入智慧管理，往往透過手機應用程式簡化社區事務處理流程，管理員和住戶透過App進行郵件與包裹代收、繳費、社區重要事務公告，以及線上預約報修等，大幅增加管理員與住戶處理相關事務的便利性，然而，有標榜取得最高等級資安標章的社區管理App，近日受測卻出現許多安全性不足的問題，而且，越新的版本竟然弱點越多。 2月12日消基會最新發布的調查顯示，他們與國家資通安全研究院（資安院）合作，針對宣稱有1萬個社區採用、涵蓋300萬住戶的「智生活（SmaDay）」手機App進行檢測，結果發現，最新的安卓版本竟有多達16個項目未通過，恐讓用戶的個資外洩、相關繳費金流遭到攔截，以及連線階段（Session）被挾持的風險。 由於軟體開發公司智生活科技（原名為今網智慧科技）曾送測安卓版4.1.0與iOS版4.2.0，成功通過行動應用App資安檢測，並於去年4月取得最高等級L3的標章。不過，消基會與資安院在去年第一季和今年初兩度檢測應用程式，卻發現有多個項目安全性不足，而未通過測試。對此，消基會認為，這項發現凸顯行動應用程式的資安防禦，偏重上市前的單一時間點審核，缺乏後續的監督機制，呼籲政府應採取行</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173946</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/6bazcSTfbB.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 13 Feb 2026 02:31:40 +0000</pubDate>
+      <title>蘋果iOS 26.3修補「極複雜」零時差漏洞</title>
+      <link>https://www.ithome.com.tw/news/173951</link>
+      <description>新聞蘋果本周公布iOS 26.3、iPadOS 26.3，當中包含30多項安全漏洞的修補程式，包括一個已發生可用於「極複雜」攻擊的漏洞。 最嚴重的是編號CVE-2026-20700，是由Google威脅分析小組（Google Threat Analysis Group）通報的漏洞，位於作業系統動態連結編輯器（Dynamic Link Editor，dyld），其作用是載入應用程式所需的函式庫。該漏洞為記憶體毁損類型，成功觸發可讓具有記憶體寫入能力的應用程式在iOS裝置上執行任意程式碼。蘋果獲知，這漏洞可能已經被用於對舊版iOS裝置的特定個人用戶執行「極複雜的攻擊」。 蘋果並說，安全公告還包括CVE-2025-14174及CVE-2025-43529。蘋果於去年12月修補了這二個漏洞，並指已被用於極度複雜的攻擊行動。 CVE-2026-20700問題影響iPhone 11及以後版本（以下同），以及iPad Pro 12.9吋第3代、iPad Pro 11吋第1代、iPad Air第3代、iPad第8代、iPad mini第5代。 其餘修補的漏洞影響涵括核心、ImageIO、核心服務、核心</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173951</guid>
+      <pubDate>Fri, 13 Feb 2026 07:39:46 +0000</pubDate>
     </item>
     <item>
-      <title>18000人開發團隊生產力大升級，巴西最大銀行如何打造自己的開發者平臺</title>
-      <link>https://www.ithome.com.tw/news/173947</link>
-      <description>新聞3年前，巴西最大的伊塔烏聯合銀行(Itau Unibanco)展開了雲端轉型，計畫2028年所有業務全面上雲。這間創立超過百年銀行，也是拉丁美洲最大銀行，據點橫跨18國，但有高達97%的顧客互動都在線上進行。為了支援雲端轉型，伊塔烏聯合銀行也展開了平臺工程的開發變革，要來提高一萬八千名開發人員的生產力。 先看一下他們如何展開這場IT現代化之旅，2010年時，伊塔烏聯合銀行只有一座資料中心，因應不同業務目標，而有各種不同的應用系統，其中，許多是孤島式的系統。這些系統大多在虛擬化環境中執行，不過，當時的虛擬化軟體擴充能力不強（編按：當時為ESXi 4.x版），他們也沒有一套統一的工作流程，每個AP團隊各有自己的建置做法和維運方式，自動化程度很低，每週只有進行少數的變更或更新作業，可以說，IT部門到處都是孤島。這些問題，讓開發人員要花很大的力氣來建置和維運系統，卻沒有提供很好的交付能力，直接影響了業務團隊的創新速度。 直到2018年時，他們開始建置一套私有雲平臺，來提高內部運算資源的調度彈性，巴西銀行在2018年才逐漸開放該國銀行可以使用公有雲。所以，伊塔烏聯合銀行也決定開始上雲，202</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173947</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/IT%E7%8F%BE%E4%BB%A3%E5%8C%96%E6%99%82%E9%96%93%E8%A1%A8-%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90-%E4%BC%8A%E5%A1%94%E7%83%8F%E8%81%AF%E5%90%88%E9%8A%80%E8%A1%8C.png" length="0" type="image/png"/>
-      <pubDate>Fri, 13 Feb 2026 02:37:23 +0000</pubDate>
+      <title>羅馬尼亞國營油管營運商遭Qilin勒索軟體攻擊竊取資料</title>
+      <link>https://www.ithome.com.tw/news/173956</link>
+      <description>新聞羅馬尼亞國營油管營運商（pipeline operator）Conpet本周證實遭到勒索軟體組織Qilin的攻擊，並被竊走資料。 上周Qilin組織宣稱駭入Conpet後，Conpet也證實發生網路攻擊，影響公司的業務IT基礎架構。該公司宣稱營運系統如SCADA系統和電信系統都未受影響，因此經由運輸系統輸送的原油、天然氣也維持在正常運作參數。 當時Conpet並未提供攻擊的技術細節，不過本周該公司向BleepingComputer證實攻擊者是Qilin，並造成資料外洩。這家能源業者已向當局通報，並展開調查，但說調查還在進行中，無法確認被竊資料的規模。目前其官網www.conpet.ro仍然斷線中。 Conpet為羅馬尼亞國營油氣運輸業者。營運全國性的原油、富氣（rich gas）、液態乙烷和凝析油的輸送系統，通過管道和鐵路向羅馬尼亞境內的煉油廠提供原料，其管道網絡長度超過3,800公里。 Qilin上周在其資料公開網站宣稱竊得Conpet近1TB的文件，還貼出16張疑似內部文件包含財務資訊和護照掃描檔的螢幕擷圖。BleepingComputer報導，有資料包含人員姓名、郵寄地址、身</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173956</guid>
+      <pubDate>Fri, 13 Feb 2026 08:17:57 +0000</pubDate>
     </item>
     <item>
-      <title>駭客組織UAT-9921將惡意程式框架VoidLink用於實際攻擊</title>
-      <link>https://www.ithome.com.tw/news/173948</link>
-      <description>新聞一個月前，資安公司Check Point揭露專為雲端環境打造的模組化惡意程式框架VoidLink，並指出開發者慣用簡體中文，疑似要求AI根據規格取向的開發方法（Spec-Driven Development，SDD），打造近9萬行程式碼的複雜惡意程式，引起資安界高度關注。最近有新的調查結果出爐，駭客已將此框架用於實際活動。 思科威脅情報團隊Talos指出，他們追蹤使用VoidLink的新興駭客組織UAT-9921，這些駭客的活動最早可追溯到2019年，而利用VoidLink的活動是從2025年9月才出現，並持續到今年1月。這些駭客的攻擊目標，似乎聚焦於科技產業，但也有金融服務業的公司受害。有別於許多駭客優先針對Windows與macOS開發惡意程式，這些駭客主要的目標，是物聯網裝置與關鍵基礎設施（CI）重度仰賴的Linux作業系統，但他們也已著手製作Windows版惡意框架，該軟體能透過DLL側載加入外掛程式。 針對這次調查結果，Talos認為代表惡意程式框架出現重大的發展，而且駭客一共用了3種程式語言：主程式為Zig、外掛程式使用C，後臺採用Go語言，若非借助AI的力量，單靠規模</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173948</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/voidlink_timeline.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 13 Feb 2026 03:25:51 +0000</pubDate>
+      <title>微軟公布Windows基準安全模式，預設啟用確保Runtime安全</title>
+      <link>https://www.ithome.com.tw/news/173957</link>
+      <description>新聞微軟本周發表新的Windows安全與隱私強化計畫，公布Windows基準安全模式（Windows Baseline Security Mode），將透過預設開啟確保用戶安全。微軟也新增使用者透明與同意（User Transparency and Consent）確保App和代理人行為透通性。微軟預告，新計畫將會影響應用程式開發商。 兩項新功能是基於微軟安全未來倡議（Secure Future Initiative，SFI）最新進展。SFI實作預設安全設定，並且推出智慧應用程式控制（Smart App Control）及管理員防護（Administrator Protection）等進階防護功能。Windows基準安全模式中，Windows將預設啟用Runtime完整性防護機制，只允許獲得適當簽章的應用、服務與驅動程式執行，防止系統被惡意或未授權程式竄改或干擾。 這功能提供彈性控制，使用者和IT管理員必要時可以為特定應用程式覆寫設定，以建立例外、解除保護，但這些例外是可見且可追蹤的，開發人員可查看並控制防護啟動狀態及例外案例。 使用者透明度和同意則是確保使用者掌控應用程式行為。一旦應</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173957</guid>
+      <pubDate>Fri, 13 Feb 2026 08:36:48 +0000</pubDate>
     </item>
     <item>
-      <title>政府軟體共契採購規模已破百億，數發部以規格化、規模經濟帶動資服產業轉型</title>
-      <link>https://www.ithome.com.tw/news/173949</link>
-      <description>新聞作為我國數位經濟的推手，數發部長林宜敬在去年9月上任後，曾提出他的施政願景，其中之一便是協助軟體產業從「做專案」(Project)引導其轉型為「做產品」(Product)。 林宜敬表示，過去國內軟體業者大多以專案開發為主，為特定客戶量身打造的解決方案。然而，這種外包契約承攬開發，雖能快速回應市場需求，但對業者而言重工且不易累積開發量能。「做產品」則是面向廣泛市場，以模組化設計取代每次重寫程式，提升效率與重複利用性，完成開發後能透過複製與規模效益，賣給不特定多數。因此唯有「做產品」才能創造更大價值，並呼籲更多業者投入產品化發展。 在此目標之下，數發部希望引導軟體產業轉型，其中政府機關軟體共契採購就是一項重要手段。 數位產業署（簡稱數產署）今年1月宣布2025年「政府電腦軟體共同供應契約採購」（簡稱軟體共契採購）全年採購總額首度突破百億元，達到107億元，這是從數發部2022年成立後，數產署擔負起政府軟體共契採購，不斷整合各機關的軟體採購需求，將需求規格化，擴大軟體共契採購的規模，從2022年的68億元成長到2025年的107億元，三年間之複合年均成長率（CAGR）達到 16.3%。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173949</guid>
-      <pubDate>Fri, 13 Feb 2026 03:48:19 +0000</pubDate>
+      <title>Cloudflare推出內容協商轉換服務，支援AI爬蟲即時把網頁轉為Markdown格式</title>
+      <link>https://www.ithome.com.tw/news/173952</link>
+      <description>新聞Cloudflare推出Markdown for Agents服務，主打以HTTP內容協商機制，讓AI爬蟲與AI代理在送出請求時透過Accept表明偏好text/markdown後，針對已啟用該功能的網站，由Cloudflare網路在可行時把來源網站的HTML即時轉換為Markdown再回傳，降低AI系統擷取網頁內容時的前處理負擔。 Cloudflare提到，對AI系統而言，直接處理HTML往往得先略過大量與語意無關的標籤與版面元素，會造成詞元消耗與解析成本。以同篇部落格文章為例，Cloudflare表示原始HTML為16,180個詞元，轉成Markdown後為3,150個詞元，詞元用量減少80%。代理取得較精煉且結構更明確的文本格式後，就能把更多上下文窗口留給內容本體。 Markdown for Agents以Accept標頭觸發內容協商，當請求包含text/markdown，Cloudflare會先向來源站取回原始HTML，接著在傳遞過程中完成轉換並以text/markdown回應，同時以vary: accept表示回應內容會依Accept標頭不同而變動。轉換後的回應還會附上x</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173952</guid>
+      <pubDate>Fri, 13 Feb 2026 08:43:00 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】2月13日，惡意程式框架VoidLink已被用於攻擊科技與金融產業</title>
-      <link>https://www.ithome.com.tw/news/173950</link>
-      <description>新聞駭客組織UAT-9921將惡意程式框架VoidLink用於實際攻擊 思科威脅情報團隊Talos指出，他們追蹤使用VoidLink的新興駭客組織UAT-9921，這些駭客的活動最早可追溯到2019年，而利用VoidLink的活動是從2025年9月才出現，並持續到今年1月。這些駭客的攻擊目標，似乎聚焦於科技產業，但也有金融服務業的公司受害。有別於許多駭客優先針對Windows與macOS開發惡意程式，這些駭客主要的目標，是物聯網裝置與關鍵基礎設施（CI）重度仰賴的Linux作業系統，但他們也已著手製作Windows版惡意框架，該軟體能透過DLL側載加入外掛程式。 針對這次調查結果，Talos認為代表惡意程式框架出現重大的發展，而且駭客一共用了3種程式語言：主程式為Zig、外掛程式使用C，後臺採用Go，若非借助AI的力量，單靠規模不大的開發團隊恐怕難以達成。Talos強調，他們追蹤的活動裡，駭客使用的是1.0版VoidLink，Check Point揭露的是正在開發階段的新一代2.0版，因此兩個研究團隊的發現，並不衝突。 語音電話平臺FreePBX被鎖定，駭客植入Web Shell進行滲</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173950</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/voidlink_timeline.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 13 Feb 2026 03:59:40 +0000</pubDate>
+      <title>Google揭露AI成駭客新武器：模型竊取攻擊激增，北韓、中國、伊朗駭客全面導入AI</title>
+      <link>https://www.ithome.com.tw/news/173959</link>
+      <description>新聞Google威脅情報小組（Google Threat Intelligence Group，GTIG）今日（2/13）發布最新報告指出，2025年第四季觀察到駭客大幅增加AI的使用，不僅出現針對AI模型本身的蒸餾攻擊（Distillation Attack），來自北韓、中國、伊朗及俄羅斯的國家級駭客也全面將AI整合進攻擊流程。此外，GTIG也揭露兩種新興的AI威脅，分別是利用AI API生成惡意程式碼的HONESTCUE惡意軟體，以及濫用AI服務公開分享功能的ClickFix社交工程攻擊。 報告指出，駭客利用AI的手法已覆蓋攻擊生命周期的各個環節。在偵察階段，駭客使用大型語言模型快速綜合開源情報，分析高價值目標並繪製組織架構；在社交工程階段，AI協助生成高度客製化、文化細膩的釣魚誘餌，並維持多輪可信對話以建立受害者信任；在惡意軟體開發階段，駭客透過AI進行程式碼除錯、漏洞研究及工具開發。此外，部分駭客組織開始嘗試建立代理型AI能力，例如賦予AI資安專家人設以自動化分析漏洞，顯示威脅行為者正積極探索AI的進階應用。 此外，過去一年來，模型擷取攻擊（Model Extraction A</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173959</guid>
+      <pubDate>Fri, 13 Feb 2026 09:03:45 +0000</pubDate>
     </item>
     <item>
-      <title>JavaScript沙箱函式庫SandboxJS曝沙箱逃逸漏洞，在特定情境下觸發RCE</title>
-      <link>https://www.ithome.com.tw/news/173940</link>
-      <description>新聞開源JavaScript沙箱函式庫SandboxJS揭露重大漏洞CVE-2026-25881，攻擊者要是能在受害系統中執行沙箱內的不受信任程式碼，可能藉由沙箱逃逸改寫宿主程序的內建原型（Prototype），造成持久性的原型汙染。在宿主應用程式後續把遭汙染的屬性帶入敏感呼叫點的情況下，風險可能進一步升高到遠端程式碼執行（RCE）。GitHub資安通報指出受影響套件為NPM上的@nyariv/sandboxjs，早於0.8.31版的版本都受影響。 CVE-2026-25881漏洞被標示為重大等級，CVSS v3.1分數為9.1，問題根源在於SandboxJS用一個名為isGlobal的保護旗標，試圖阻止沙箱內程式碼改寫全域物件或其原型。不過，當全域原型參照在陣列常值（Array Literal）或物件常值的建立過程中被傳遞與取回時，該保護旗標可能在轉換流程中遺失，導致原本應被阻擋的原型寫入不再被攔截。也就是說，沙箱邊界本應隔離宿主的內建原型，但在特定資料流路徑下出現可被繞過的漏洞。 一旦攻擊者能在沙箱內改寫宿主的內建原型，影響不只限於單次運算結果，而可能形成在同一宿主程序中持續的狀態</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173940</guid>
-      <pubDate>Fri, 13 Feb 2026 04:17:35 +0000</pubDate>
+      <title>Payment Passkey應用登臺，藍新金流引進兩大國際信用卡組織解決方案，預計Q1上線</title>
+      <link>https://www.ithome.com.tw/news/173958</link>
+      <description>新聞自去年初我們報導Visa與萬事達卡推動Payment Passkey以來，全球已有不同國家業者陸續應用相關技術，臺灣的發展動向也備受矚目。 時隔一年，智冠集團旗下藍新金流於去年底宣布，將成為全臺首家同時支援這兩家「Payment Passkey」解決方案的第三方支付業者，預計於2026年第一季正式上線，可望帶動國內支付領域新一波的安全升級潮。 可解決支付OTP驗證的網釣攔截風險 事實上，現今多數民眾已習慣行動支付或第三方電子支付，會先綁定信用卡再來支付，然而，仍有許多平臺僅提供直接輸入信用卡號的選項，或受限於使用者習慣而繼續選擇輸入信用卡號的方式。究竟Payment Passkey會為這類線上刷卡場景帶來何種改變？ 對此，我們向智冠集團詢問旗下藍新金流目前的導入情形。該公司表示，藍新金流自2025年第一季起，即與Visa、萬事達卡展開PoC（概念驗證）與技術對齊，目標是將Payment Passkey儘速提供給藍新的合作夥伴。 談及導入這項機制的意義，智冠集團表示，過去線上支付需透過簡訊OTP驗證，消費者常需經歷等待簡訊、應用程式切換、記憶並手動輸入代碼等多個步驟，過程中極易發生身</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173958</guid>
+      <pubDate>Fri, 13 Feb 2026 10:34:13 +0000</pubDate>
     </item>
     <item>
-      <title>.NET 11預覽登場，Zstandard壓縮入列、CoreCLR開始跨進WebAssembly</title>
-      <link>https://www.ithome.com.tw/news/173941</link>
-      <description>新聞微軟發布.NET 11第一個預覽版，新的主要版本更新範圍涵蓋執行階段（Runtime）、基礎函式庫、SDK與MSBuild，以及ASP.NET Core、Blazor與.NET MAUI等元件。其中較受關注的兩項更新，是在基礎函式庫加入Zstandard壓縮支援，以及讓CoreCLR成為WebAssembly SDK的一個目標，並同步擴充瀏覽器託管CoreCLR的相關能力。 .NET 11預覽版把Zstandard納入.NET基礎函式庫，對應的API包含ZstandardStream與編碼器、解碼器等類別。Zstandard為新的.NET原生壓縮選項，並指出其壓縮與解壓縮速度相較既有演算法更快，同時維持具競爭力的壓縮比，能夠補齊更多常見資料處理情境的工具組合。 另一個重點是WebAssembly方向的CoreCLR進展。.NET 11第一個預覽版在Runtime先補上讓CoreCLR能在瀏覽器端運作的基礎工程，目標是逐步把.NET WebAssembly的執行階段從既有Mono轉向CoreCLR。CoreCLR是.NET預設執行階段，負責載入.NET元件與執行C#等語言編譯後的程式</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173941</guid>
-      <pubDate>Fri, 13 Feb 2026 04:29:46 +0000</pubDate>
+      <title>OpenAI公布首個執行在Cerebras平臺的模型GPT-5.3-Codex-Spark 速度快15倍</title>
+      <link>https://www.ithome.com.tw/news/173963</link>
+      <description>新聞才在本月公布Codex App Mac版、GPT-5.3-Codex模型，OpenAI昨日又公布執行首個在Cerebras晶片平臺上執行的模型GPT-5.3-Codex-Spark，專為即時程式撰寫（real-time coding）為設計，提供每秒1,000 token的算力及強大程式撰寫能力。目前已開放ChatGPT Pro用戶試用。 GPT-5.3-Codex-Spark是OpenAI首個專為即時性軟體開發任務而設計的模型，滿足智能及低延遲性的雙重需求。它是Codex專為快速推論進行優化小型版本。在SWE-Bench Pro和Terminal-Bench 2.0等標竿測試中，新模型生成速度比GPT-5.1-Codex-mini快了約3至4倍，而比起旗艦版GPT-5.3-Codex，則快了約15倍。另一方面Codex-Spark具備和主要模型相同的安全訓練，包括網路安全能力。 該模型執行於Cerebras Wafer-Scale Engine 3（WSE 3）AI加速器基礎之上，具備每秒超過1000 token的算力效能，可在線上編程環境下提供幾近即時的回饋。Codex-Spa</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173963</guid>
+      <pubDate>Fri, 13 Feb 2026 11:15:58 +0000</pubDate>
     </item>
     <item>
-      <title>ICS業者發布2月安全公告，西門子、施耐德電機、Aveva、Moxa揭露重大與高風險漏洞</title>
-      <link>https://www.ithome.com.tw/news/173943</link>
-      <description>新聞工業控制系統（ICS）與營運技術（OT）領域迎來新一波修補更新。西門子（Siemens）、施耐德電機（Schneider Electric）、Aveva、菲尼克斯電氣（Phoenix Contact）與四零四科技（Moxa）陸續發布安全公告，部分漏洞達重大風險等級，恐影響工業防火牆、PLC與資料管理平臺運作。企業應儘速盤點受影響設備並規畫更新時程。 西門子修補多項重大漏洞，波及PLC與工業防火牆 西門子在2月安全公告中修補多項重大與高風險漏洞，影響範圍橫跨工程資料管理平臺、工業防火牆設備，以及可程式控制器（PLC）等核心工業系統。 其中，工程資料管理與設計整合平臺COMOS存在多項弱點，可能導致跨站指令碼攻擊，進而造成資訊外洩或使用者權限濫用。 在工業網路設備方面，RUGGEDCOM APE1808所整合的FortiGate NGFW受到FortiOS元件漏洞影響，CVSS風險分數達9.8分，屬重大風險等級，可能導致權限提升或未經授權存取。同時，該設備亦涉及Palo Alto Networks PAN-OS相關漏洞，CVSS風險分數為8.7分，可能引發阻斷服務或命令注入問題。 西門</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173943</guid>
-      <pubDate>Fri, 13 Feb 2026 07:00:00 +0000</pubDate>
+      <title>TypeScript 6.0 Beta釋出，替Go重寫的7.0版啟動過渡準備</title>
+      <link>https://www.ithome.com.tw/news/173954</link>
+      <description>新聞程式語言TypeScript團隊釋出TypeScript 6.0 Beta版本，並將其定位為過渡版本。官方說明，TypeScript 6.0預計是最後一個仍建立在既有JavaScript程式碼庫之上的主要版本。TypeScript團隊同時正以Go重寫TypeScript編譯器與語言服務，並將這套新程式碼庫作為TypeScript 7.0及後續版本的基礎，因此TypeScript 6.0在產品節奏上扮演銜接TypeScript 5.9與TypeScript 7.0之間的橋樑，主要任務是協助生態系提前對齊TypeScript 7.0的方向。 官方提到TypeScript 7.0預計會在TypeScript 6.0之後不久推出。TypeScript 6.0進入Beta後，官方將其視為功能已趨於穩定的版本，後續重心放在修正回報問題與降低搬遷成本。官方也提醒，TypeScript 6.0開始出現的棄用選項，雖然可透過tsconfig.json設定暫時忽略，但這些棄用項目在TypeScript 7.0的原生移植版中將會被移除，建議開發團隊先處理完棄用警告，再評估導入TypeScript 7.0</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173954</guid>
+      <pubDate>Fri, 13 Feb 2026 11:17:06 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic完成300億美元的融資，身價上看3,800億美元</title>
-      <link>https://www.ithome.com.tw/news/173953</link>
-      <description>新聞AI新創Anthropic周四（2/12）宣布，已完成由新加坡主權基金GIC與Coatue領投的300億美元G輪融資，完成後的估計達3,800億美元，且已包含微軟與Nvidia先前所公布的部分投資。 Anthropic上一輪的融資是在2025年9月完成，當時是由美國資產管理機構ICONIQ Capital領投，募得130億美元，估值為1,830億美元。可見Anthropic在時隔半年後的新一輪融資，身價已上漲一倍。 新一輪的資金將用於前沿研究、產品開發與基礎設施擴張，強化其在企業級AI與程式代理模型領域的領先地位。 根據該公司的說法，目前Anthropic的年化營收為140億美元，且已連續3年的成長都超過10倍。其中，年支出超過10萬美元的客戶數一年成長7倍，兩年前只有十多家客戶的年支出超過100萬美元，現在則有超過500家。此外，財星前十大（Fortune 10）企業中，有8家為Claude客戶。 至於2025年5月才正式推出的程式代理模型Claude Code，目前年化營收已超過25億美元，且自1月1日以來，其每周活躍用戶數已經翻倍。另據一項近期分析估計，Claude Code</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173953</guid>
-      <pubDate>Fri, 13 Feb 2026 07:03:41 +0000</pubDate>
+      <title>Go 1.26更新泛型規則，並改善GC以及C語言互通機制效能</title>
+      <link>https://www.ithome.com.tw/news/173962</link>
+      <description>新聞程式語言Go 1.26正式釋出，new函式可直接指定初始值，泛型支援遞迴型別參照，Green Tea垃圾回收器改為預設啟用，Go與C語言之間的互通機制cgo額外負擔降低約30%，go fix命令全面改寫並新增數十個自動修正器，標準函式庫也加入多個新套件與實驗功能 Go團隊釋出Go 1.26，二進位封裝檔與安裝程式已上架官方下載頁面。新版本更新包含兩項語言語法與型別系統調整，並帶來執行階段（Runtime）與工具鏈的效能改進，以及協助程式碼跟上較新語言特性，與標準函式庫慣用寫法的自動修正工具。 過去Go內建的new函式運算元只能是型別，Go 1.26起允許以運算式作為運算元，用來直接指定新變數的初始值，讓以指標代表可選欄位的序列化資料結構更容易直接填值。泛型型別系統則解除了泛型型別不得在自身型別參數清單中自我參照的限制，使型別約束能表達更複雜的遞迴介面與資料結構需求。 先前屬於實驗功能的Green Tea垃圾回收器在Go 1.26改為預設啟用。Go團隊也指出，cgo，其基礎額外負擔約降低30%。編譯器在更多情境下可將切片（Slice）的底層儲存區配置到堆疊，藉此減少配置成本並提升整體</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173962</guid>
+      <pubDate>Fri, 13 Feb 2026 11:25:05 +0000</pubDate>
     </item>
   </channel>
 </rss>
