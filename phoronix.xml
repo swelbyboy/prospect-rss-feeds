@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Feb 2026 06:51:16 +0000</lastBuildDate>
-    <item>
-      <title>Intel Nova Lake Sound Support In Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Sound</link>
-      <description>Merged for the Linux 6.19 kernel was initial Nova Lake S audio support. Now merged this week for the Linux 7.0 kernel is enabling sound support for additional Nova Lake platforms...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Sound</guid>
-      <pubDate>Fri, 13 Feb 2026 11:03:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sheaves Ready To Play A Bigger Role In Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Slab-Sheaves</link>
-      <description>The slab memory allocator feature updates have been merged for the Linux 7.0 kernel. Most notable this cycle is expanded use of the recently-introduced Sheaves functionality...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Slab-Sheaves</guid>
-      <pubDate>Fri, 13 Feb 2026 13:04:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux Gets Rid Of Intel 440BX EDAC Driver For Old Pentium CPUs After Being Broken For 19+ Years</title>
-      <link>https://www.phoronix.com/news/Linux-Drops-Old-440BX-EDAC</link>
-      <description>As some long overdue housekeeping, the Linux 7.0 kernel has removed an Error Detection And Correction "EDAC" driver for the Intel 440BX and 440GX chipset. The driver is being removed not only because that chipset was just used by old Celerons and Pentium II / Pentium III CPUs but that it's been in the kernel all this time while being known to be broken for 19+ years...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Drops-Old-440BX-EDAC</guid>
-      <pubDate>Fri, 13 Feb 2026 13:25:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Evaluating The Performance Cost To AMD SEV-SNP On EPYC 9005 VMs</title>
-      <link>https://www.phoronix.com/review/amd-epyc-9005-sev-snp</link>
-      <description>AMD Secure Encrypted Virtualization with Secure Nested Paging (SEV-SNP) provides memory encryption and integrity protections that can be especially useful in modern cloud computing. Typically a 2~10% performance overhead is reported when engaging AMD SEV-SNP for these hardware-backed security protections. In this article is an extensive look at the current AMD SEV-SNP performance impact for confidential computing on EPYC 9005 "Turin" servers. The current Ubuntu 24.04 LTS was tested as well as an</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/amd-epyc-9005-sev-snp</guid>
-      <pubDate>Fri, 13 Feb 2026 15:17:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 7.0 Lands ML-DSA Quantum-Resistant Signature Support</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Crypto-ML-DSA</link>
-      <description>Adding to the exciting features for the big Linux 7.0 kernel release is support for the Module-Lattice-Based Digital Signature Algorithm "ML-DSA" quantum-resistant signature algorithm...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Crypto-ML-DSA</guid>
-      <pubDate>Fri, 13 Feb 2026 16:20:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Multi-Lane SPI Support Merged For Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Multi-Lane-SPI</link>
-      <description>With the Serial Peripheral Interface "SPI" subsystem updates for the Linux 7.0 kernel comes support for multi-lane SPI...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Multi-Lane-SPI</guid>
-      <pubDate>Fri, 13 Feb 2026 18:32:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA Posts Open-Source Nouveau GSP Driver Support For GA100</title>
-      <link>https://www.phoronix.com/news/Nouveau-GSP-NVIDIA-GA100</link>
-      <description>One of the latest NVIDIA open-source contributions this week wasn't for the in-development Nova kernel driver but for enhancing the existing Nouveau kernel driver. The patch posted is for bringing up the NVIDIA GA100 GPU under Nouveau using the GPU System Processor (GSP)...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Nouveau-GSP-NVIDIA-GA100</guid>
-      <pubDate>Fri, 13 Feb 2026 19:36:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNOME 50 Beta Released With Stable VRR, GDM Improvements</title>
-      <link>https://www.phoronix.com/news/GNOME-50-Beta</link>
-      <description>The GNOME 50 beta release is now available ahead of the official GNOME 50 desktop due out in March...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Beta</guid>
-      <pubDate>Fri, 13 Feb 2026 21:09:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>Godot 4.7 Making Progress On Vulkan Ray-Tracing</title>
-      <link>https://www.phoronix.com/news/Godot-4.7-Dev-1-Vulkan-RT</link>
-      <description>One of the latest exciting developments for the open-source Godot game engine is beginning to lay out support for Vulkan ray-tracing...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Godot-4.7-Dev-1-Vulkan-RT</guid>
-      <pubDate>Sat, 14 Feb 2026 01:17:25 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 15 Feb 2026 06:56:00 +0000</lastBuildDate>
     <item>
       <title>KDE Plasma 6.6 Sees Last Minute Fixes, Plasma 6.7 Aims For Painless Samba Shares</title>
       <link>https://www.phoronix.com/news/KDE-Plasma-6.6-Next-Week</link>
       <description>KDE's Plasma 6.6 desktop release is due out next week (17 February) and there's been some last minute fixes to land. Additionally, KDE Plasma developers continue to be quite active in already landing feature work for Plasma 6.7...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Plasma-6.6-Next-Week</guid>
       <pubDate>Sat, 14 Feb 2026 01:40:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Firmware Upstreamed For Linux Speaker Support On The ASUS Zenbook 14 UM3406GA</title>
+      <link>https://www.phoronix.com/news/Linux-Audio-UM3406GA</link>
+      <description>For those that may be considering the new ASUS Zenbook 14 OLED (UM3406GA) laptop that has been refreshed for the new AMD Ryzen AI 400 series, Cirrus Logic has now upstreamed the necessary firmware for the cs35l41 audio amplifier for working speaker support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Audio-UM3406GA</guid>
+      <pubDate>Sat, 14 Feb 2026 11:11:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0 Lands 8D-8D-8D Octal DTR Support In SPI NAND For Better Performance</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Octal-DTR-SPI-NAND</link>
+      <description>The Linux Memory Technology Device (MTD) subsystem updates have been merged for the Linux 7.0 kernel and include introducing Octal DTR "8D-8D-8D" support in SPI NAND for better performance...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Octal-DTR-SPI-NAND</guid>
+      <pubDate>Sat, 14 Feb 2026 11:23:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0 Wires Up Arm's 64-byte Single-Copy Atomic Instructions LS64/LS64V</title>
+      <link>https://www.phoronix.com/news/ARM64-Linux-7.0</link>
+      <description>Beyond all of the exciting Intel/AMD x86_64 changes and improvements to enjoy with the upcoming Linux 7.0, there is one notable ARM64 feature addition this kernel cycle...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ARM64-Linux-7.0</guid>
+      <pubDate>Sat, 14 Feb 2026 11:47:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNOME OS To Use systemd-confext, RustConn Provides Modern GTK4 Connection Manager</title>
+      <link>https://www.phoronix.com/news/GNOME-OS-systemd-context</link>
+      <description>In addition to this week's GNOME 50 beta release, there were also other exciting developments in the GNOME ecosystem...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-OS-systemd-context</guid>
+      <pubDate>Sat, 14 Feb 2026 12:04:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intel Ends Work On Quantum Compiler Open-Source Bits</title>
+      <link>https://www.phoronix.com/news/Intel-Quantum-Passes-OSS-End</link>
+      <description>Following Intel recently discontinuing a number of open-source projects, this week they formally discontinued their Quantum Passes open-source project that was intended to provide additional passes for their LLVM-based compiler in the Intel Quantum SDK...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Quantum-Passes-OSS-End</guid>
+      <pubDate>Sat, 14 Feb 2026 14:08:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0 Merges Support For Rock Band 4 PS4 / PS5 Guitars Plus More Laptop Quirks</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-HID</link>
+      <description>The HID subsystem changes were merged this week for the ongoing Linux 7.0 kernel merge window. Among the Human Interface Devices (HID) work this cycle were supporting more guitars while also adding more device IDs and different laptop quirks...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-HID</guid>
+      <pubDate>Sat, 14 Feb 2026 16:45:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vim 9.2 Released With Experimental Wayland Support, Better HiDPI Display Support</title>
+      <link>https://www.phoronix.com/news/Vim-9.2-Released</link>
+      <description>Vim 9.2 is out today as the newest feature release for this robust and comprehensive text editor. This Valentine's Day release for Vim lovers brings experimental Wayland support, XDG Base Directory specification support, modernized defaults for HiDPI displays, new completion features, and an improved diff mode...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Vim-9.2-Released</guid>
+      <pubDate>Sat, 14 Feb 2026 20:28:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>X.Org Server's "Master" Branch Now Closed With Cleaned Up State On "Main"</title>
+      <link>https://www.phoronix.com/news/X.Org-Server-On-Main</link>
+      <description>This Valentine's Day there is a lot of red on the screen for the X.Org Server with the code delta as a result of renaming of their main Git development branch and in the process selectively dropping questionable patches to the prior "master" codebase...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/X.Org-Server-On-Main</guid>
+      <pubDate>Sat, 14 Feb 2026 22:47:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>F2FS Delivers "Several Key Performance Optimizations" With Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-F2FS</link>
+      <description>The Flash Friendly File-System (F2FS) has multiple performance improvements to provide its users with on the in-development Linux 7.0 kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-F2FS</guid>
+      <pubDate>Sun, 15 Feb 2026 01:26:31 +0000</pubDate>
     </item>
   </channel>
 </rss>

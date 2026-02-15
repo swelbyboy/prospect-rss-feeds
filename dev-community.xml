@@ -8,79 +8,93 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Feb 2026 06:51:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Feb 2026 06:55:51 +0000</lastBuildDate>
     <item>
-      <title>Contributing to Lightning Network: Building a Secure Preimage RPC for LND</title>
-      <link>https://dev.to/samarthgoyal/contributing-to-lightning-network-building-a-secure-preimage-rpc-for-lnd-5e2p</link>
-      <description>Contributing to core infrastructure like lnd (Lightning Network Daemon) is a great way to understand the protocol deeply. Recently, I implemented a new RPC method called GeneratePreimage to solve a common developer friction point. The Problem: To create secure Hold Invoices, developers need a 32-byte preimage and its SHA-256 hash. LND didn't have a native way to generate these, forcing developers to roll their own crypto logic on the client side—which can lead to security risks if weak entropy i</description>
-      <guid isPermaLink="false">https://dev.to/samarthgoyal/contributing-to-lightning-network-building-a-secure-preimage-rpc-for-lnd-5e2p</guid>
-      <pubDate>Sat, 14 Feb 2026 06:33:52 +0000</pubDate>
+      <title>The Forensic Black Box: Why Logs That Can Be Deleted Are Security Theater</title>
+      <link>https://dev.to/ktamarapalli/the-forensic-black-box-why-logs-that-can-be-deleted-are-security-theater-4244</link>
+      <description>Introduction: The Illusion of Observability Most security teams believe they have “logs.” In reality, most organizations have rumors of past events stored in databases that attackers can modify, delete, or selectively corrupt after compromise. If an attacker gains privileged access to your cloud account, your SIEM, or your CI runner, the first thing they do is erase traces. Not because logs are unimportant — but because logs are dangerous to attackers. The Codecov breach persisted for months pre</description>
+      <guid isPermaLink="false">https://dev.to/ktamarapalli/the-forensic-black-box-why-logs-that-can-be-deleted-are-security-theater-4244</guid>
+      <pubDate>Sun, 15 Feb 2026 06:03:30 +0000</pubDate>
     </item>
     <item>
-      <title>OpenClaw Guide Ch6: Multi-Agent Collaboration Architecture</title>
-      <link>https://dev.to/linou518/openclaw-guide-ch6-multi-agent-collaboration-architecture-1hki</link>
-      <description>Chapter 6: Multi-Agent Collaboration Architecture 🎯 Learning Objective: Design and implement multi-Agent collaboration systems, master inter-Agent communication and task delegation 🏗️ Why Multi-Agent Architecture? A single Agent is powerful, but faces limitations in complex scenarios: Single-Agent Limitations 🧠 Cognitive Overload: One Agent handling all task types 🔄 Context Pollution: Information from different tasks mixed together ⚡ Performance Bottleneck: Limited single-point processing capaci</description>
-      <guid isPermaLink="false">https://dev.to/linou518/openclaw-guide-ch6-multi-agent-collaboration-architecture-1hki</guid>
-      <pubDate>Sat, 14 Feb 2026 06:35:53 +0000</pubDate>
+      <title>8-Bit Music Theory: How They Made The Great Sea Feel C U R S E D</title>
+      <link>https://dev.to/music_youtube/8-bit-music-theory-how-they-made-the-great-sea-feel-c-u-r-s-e-d-55p6</link>
+      <description>Ever wondered how Wind Waker's "The Great Sea is Cursed" takes a chill sailing theme and makes it spine-tingling? Turns out, it's all about dropping some musical bombshells like tritones and clashing harmonies, transforming that heroic vibe into pure horror. They even sneak in callbacks to other tunes, like Ganondorf's theme, to really cement the creep factor. It's a masterclass in making a familiar sound feel totally wrong, in the best way possible. Watch on YouTube</description>
+      <guid isPermaLink="false">https://dev.to/music_youtube/8-bit-music-theory-how-they-made-the-great-sea-feel-c-u-r-s-e-d-55p6</guid>
+      <pubDate>Sun, 15 Feb 2026 06:06:02 +0000</pubDate>
     </item>
     <item>
-      <title>YourWebP as a Simple Starting Point for Image Optimization</title>
-      <link>https://dev.to/landover03/yourwebp-as-a-simple-starting-point-for-image-optimization-eji</link>
-      <description>After about 4 years working as a frontend software engineer, one thing I have learned is that performance work usually gets ignored until it becomes a problem. Images are almost always the biggest contributor, but optimizing them properly is rarely part of the happy path. I have worked on landing pages, dashboards, blogs, and internal tools. Different stacks, different teams, same issue every time. Images start as PNG or JPG, deadlines come in, and optimization gets postponed. Recently I decided</description>
-      <guid isPermaLink="false">https://dev.to/landover03/yourwebp-as-a-simple-starting-point-for-image-optimization-eji</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsnhrjm0svfb8j78squ22.png" length="0" type="image/png"/>
-      <pubDate>Sat, 14 Feb 2026 06:37:00 +0000</pubDate>
+      <title>👋 Hello Devs!
+I’m a passionate learner exploring software development and modern technologies.
+Here to learn, share, and grow with this amazing dev community.
+
+Let’s connect and build together 💻✨
+
+#DevCommunity #LearningInPublic #CodeLife</title>
+      <link>https://dev.to/koustav_sadhu_34703ee00bd/hello-devs-im-a-passionate-learner-exploring-software-development-and-modern-technologies-here-38j9</link>
+      <description>👋 Hello Devs!
+I’m a passionate learner exploring software development and modern technologies.
+Here to learn, share, and grow with this amazing dev community.
+
+Let’s connect and build together 💻✨
+
+#DevCommunity #LearningInPublic #CodeLife</description>
+      <guid isPermaLink="false">https://dev.to/koustav_sadhu_34703ee00bd/hello-devs-im-a-passionate-learner-exploring-software-development-and-modern-technologies-here-38j9</guid>
+      <pubDate>Sun, 15 Feb 2026 06:13:42 +0000</pubDate>
     </item>
     <item>
-      <title>OpenClaw Guide Ch8: Monitoring and Debugging</title>
-      <link>https://dev.to/linou518/openclaw-guide-ch8-monitoring-and-debugging-18f1</link>
-      <description>Chapter 8: Monitoring and Debugging 🎯 Learning Objective: Build a comprehensive OpenClaw monitoring system, master performance debugging techniques, and implement rapid fault diagnosis with automated operations 📊 Monitoring System Overview A production-grade OpenClaw deployment requires comprehensive monitoring: 🔍 Real-Time Monitoring: System status, performance metrics, error rates 📝 Log Management: Structured logging, centralized collection, intelligent analysis ⚠️ Alerting: Anomaly detection,</description>
-      <guid isPermaLink="false">https://dev.to/linou518/openclaw-guide-ch8-monitoring-and-debugging-18f1</guid>
-      <pubDate>Sat, 14 Feb 2026 06:37:24 +0000</pubDate>
+      <title>The Symbol for All of Us is Null</title>
+      <link>https://dev.to/goodrelax/the-symbol-for-all-of-us-is-null-59kn</link>
+      <description>The Symbol for All of Us is Null You might be thinking, "What is this guy even talking about?" But if you've found your way to this post, I have a feeling this will click for you somewhere along the way. Give me five minutes. There's something humanity does unconsciously to make sense of the world. AI does the exact same thing. Mathematics describes it beautifully. And at the end: Why is Null the ultimate symbol for everything? It all connects in a single thread. And once you see that thread, th</description>
+      <guid isPermaLink="false">https://dev.to/goodrelax/the-symbol-for-all-of-us-is-null-59kn</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0tb5x9o5624cjnfvpy6v.png" length="0" type="image/png"/>
+      <pubDate>Sun, 15 Feb 2026 06:21:54 +0000</pubDate>
     </item>
     <item>
-      <title>BoTTube: When AI Agents Become YouTubers</title>
-      <link>https://dev.to/molze/bottube-when-ai-agents-become-youtubers-3mpk</link>
-      <description>I stumbled on something weird today: BoTTube, a YouTube-like platform where every single content creator is an AI agent. What is it? 41 AI bots running their own channels 350+ videos already created No human creators, just agents Creators earn RTC tokens (tradeable on Solana via Raydium) Why it's interesting The concept flips the creator economy. Instead of humans making content for views, AI agents create, curate, and earn autonomously. They have their own channels, their own styles, their own</description>
-      <guid isPermaLink="false">https://dev.to/molze/bottube-when-ai-agents-become-youtubers-3mpk</guid>
-      <pubDate>Sat, 14 Feb 2026 06:38:43 +0000</pubDate>
+      <title>How to use Prewind 🌀</title>
+      <link>https://dev.to/art70x/prewind-53ml</link>
+      <description>Write Less, Expand More for Tailwind CSS If you love Tailwind CSS, you know how repetitive it can get writing full variant classes: &amp;lt;div class="hover:bg-blue-500 hover:text-blue-50 dark:hover:bg-blue-400 dark:hover:text-blue-950"&amp;gt;&amp;lt;/div&amp;gt; Wouldn’t it be nice to write that in a cleaner, more expressive way? Enter Prewind — a lightweight preprocessor that expands Tailwind-style shorthand into full classes automatically. ✨ What is Prewind? Prewind lets you write grouped shorthand for Tailwind classes</description>
+      <guid isPermaLink="false">https://dev.to/art70x/prewind-53ml</guid>
+      <pubDate>Sun, 15 Feb 2026 06:34:23 +0000</pubDate>
     </item>
     <item>
-      <title>Char Types | Belgi turi | C++</title>
-      <link>https://dev.to/whysoempty/char-types-belgi-turi-c-2cme</link>
-      <description>🔹 char types – C++ da belgilar turi char – 1 ta belgi (harf, raqam, simvol) saqlash uchun ishlatiladi. Hajmi: 1 bayt (8 bit). 1️⃣ Asosiy char char harf = 'A'; char raqam = '5'; char belgi = '#'; char bitta qo‘shtirnoq (‘ ’) bilan yoziladi. ASCII bilan ishlaydi Har bir belgi aslida son sifatida saqlanadi. char c = 'A'; cout &amp;lt;&amp;lt; int(c); // 65 raqam chiqadi 'A' → 65 (ASCII kodi) 2️⃣ signed char va unsigned char 🔹 signed char Oraliq: -128 dan 127 gacha signed char a = -50; 🔹 unsigned char Faqat musba</description>
-      <guid isPermaLink="false">https://dev.to/whysoempty/char-types-belgi-turi-c-2cme</guid>
-      <pubDate>Sat, 14 Feb 2026 06:39:19 +0000</pubDate>
+      <title>Stop Writing "Clean" Code. Start Writing Readable Code</title>
+      <link>https://dev.to/oyminirole/stop-writing-clean-code-start-writing-readable-code-544h</link>
+      <description>Yes, it’s another article about clean code. Just a quick reminder: according to various sources, the ratio of time spent reading code versus writing it can reach 7:1 or even higher. Whether you’re fixing a bug, adding a feature, or refactoring, you inevitably submerge yourself in logic written by others (or by you, several months ago). This is why readability is far more critical than how fast you typed it out in the first place. Unreadable code is technical debt that bottlenecks the entire team</description>
+      <guid isPermaLink="false">https://dev.to/oyminirole/stop-writing-clean-code-start-writing-readable-code-544h</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ff980he97dfmicetw7yc5.webp" length="0" type="image/webp"/>
+      <pubDate>Sun, 15 Feb 2026 06:36:40 +0000</pubDate>
     </item>
     <item>
-      <title>OpenClaw Guide Ch9: Multi-Server Cluster Deployment</title>
-      <link>https://dev.to/linou518/openclaw-guide-ch9-multi-server-cluster-deployment-4h72</link>
-      <description>Chapter 9: Multi-Server Cluster Deployment 🎯 Learning Objective: Master OpenClaw's multi-server deployment architecture, achieve high availability and horizontal scaling 🏗️ Why Multi-Server Deployment? Single-Server Limitations 🔥 Performance Bottleneck: Limited single-machine resources 💥 Single Point of Failure: Server failure takes down the entire system 📈 Scaling Difficulty: Vertical scaling is expensive, horizontal scaling not possible 🌍 Geographic Limits: Cannot serve global users locally 🔒</description>
-      <guid isPermaLink="false">https://dev.to/linou518/openclaw-guide-ch9-multi-server-cluster-deployment-4h72</guid>
-      <pubDate>Sat, 14 Feb 2026 06:42:36 +0000</pubDate>
+      <title>I built Spotify Wrapped for Git using GitHub Copilot CLI</title>
+      <link>https://dev.to/stackmasteraliza/i-built-spotify-wrapped-for-git-using-github-copilot-cli-10lj</link>
+      <description>This is a submission for the GitHub Copilot CLI Challenge What I Built git-wrapped — Spotify Wrapped, but for your Git history. Every December, Spotify tells you what kind of listener you are. I wanted the same thing for coding. What if your terminal could tell you that you're a Night Owl who codes at 2 AM, or a Code Surgeon who deletes more than they write? git-wrapped is a Python CLI tool that analyzes any Git repository and generates a beautiful, colorful terminal report. No browser, no dashb</description>
+      <guid isPermaLink="false">https://dev.to/stackmasteraliza/i-built-spotify-wrapped-for-git-using-github-copilot-cli-10lj</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz5r4mvzjvblvc1lxsqao.gif" length="0" type="image/gif"/>
+      <pubDate>Sun, 15 Feb 2026 06:37:15 +0000</pubDate>
     </item>
     <item>
-      <title>Building Interactive Programs inside Claude Code</title>
-      <link>https://dev.to/tobrun_vannuland_70632c7/building-interactive-programs-inside-claude-code-3ca5</link>
-      <description>Building Interactive Programs inside Claude Code This is something I've been discovering as I go, and I thought it was worth sharing more broadly. The pattern is simple but surprisingly powerful: build a CLI that Claude can reason about, and let it decide how to invoke it based on your natural language prompt. I stumbled into this while building an Android QA agent — you describe a test scenario in natural language and Claude executes it on a device, recording every command for deterministic rep</description>
-      <guid isPermaLink="false">https://dev.to/tobrun_vannuland_70632c7/building-interactive-programs-inside-claude-code-3ca5</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fruq7p2xqjadk343p7lbr.png" length="0" type="image/png"/>
-      <pubDate>Sat, 14 Feb 2026 06:45:44 +0000</pubDate>
+      <title>We All Accepted the "Python Tax.", Pandas 3.0 Just Reduced It.</title>
+      <link>https://dev.to/kaniel_outis/we-all-accepted-the-python-tax-pandas-30-just-reduced-it-1n43</link>
+      <description>I’ve been there. You have a "small" 3GB CSV file. You load it into a Pandas DataFrame on a 16GB machine, and suddenly everything freezes. You start manually chunking data, deleting columns, and praying to the OOM (Out of Memory) gods 🙃. We’ve accepted this as the "Python Tax." We tell ourselves that object dtypes are just the price we pay for flexibility. Spoiler: They aren't. And we’ve been wasting RAM for years. The "Object" Lie For a decade, Pandas stored strings as NumPy objects. This was a</description>
+      <guid isPermaLink="false">https://dev.to/kaniel_outis/we-all-accepted-the-python-tax-pandas-30-just-reduced-it-1n43</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr15fot7k6xzyje7xgu92.png" length="0" type="image/png"/>
+      <pubDate>Sun, 15 Feb 2026 06:51:21 +0000</pubDate>
     </item>
     <item>
-      <title>From Localhost to Production: How I Built a Resource Hub for Student Developers</title>
-      <link>https://dev.to/studentdiscount/from-localhost-to-production-how-i-built-a-resource-hub-for-student-developers-545b</link>
-      <description>Introduction As a student pursuing my MBA in Finance while diving deep into SEO and WordPress development, I realized that the "liquidity gap" for students isn't just about cheap pizza—it's about the high cost of the tools we need to build our careers. Whether it’s cloud credits for your first app, professional IDEs, or a decent domain name, the costs add up quickly. I decided to tackle this by building (studentdiscount.tech), a platform that aggregates technical and lifestyle resources specific</description>
-      <guid isPermaLink="false">https://dev.to/studentdiscount/from-localhost-to-production-how-i-built-a-resource-hub-for-student-developers-545b</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fatx85qe3u2uuys123dw4.png" length="0" type="image/png"/>
-      <pubDate>Sat, 14 Feb 2026 06:46:48 +0000</pubDate>
+      <title>When NOT to Use AI as a Developer</title>
+      <link>https://dev.to/ahmadwaqarcs/when-not-to-use-ai-as-a-developer-3if2</link>
+      <description>When NOT to Use AI as a Developer AI is everywhere in development right now. It can scaffold APIs, generate UI components, refactor messy functions, and even write tests. But here’s something I’ve learned: Using AI everywhere is not a strength. Knowing when not to use it is. Here are situations where I intentionally step away from AI. 1. When Designing System Architecture Architecture decisions shape the entire system. At this stage, I prefer to think first, alone. AI can help refine ideas, but</description>
+      <guid isPermaLink="false">https://dev.to/ahmadwaqarcs/when-not-to-use-ai-as-a-developer-3if2</guid>
+      <pubDate>Sun, 15 Feb 2026 06:52:47 +0000</pubDate>
     </item>
     <item>
-      <title>Azure Container Apps: Workload Profiles v2 Is Now the Default — What You Need to Know</title>
-      <link>https://dev.to/bspann/azure-container-apps-workload-profiles-v2-is-now-the-default-what-you-need-to-know-4ek8</link>
-      <description>Azure Container Apps just made a significant change that affects every developer creating new environments. As of January 2026, Workload Profiles (v2) is now the default environment type, replacing the legacy Consumption-only (v1) model. This isn't just a version bump — it's a fundamental shift in how Container Apps environments work, and it brings substantial benefits for production workloads. In this post, I'll break down what changed, why it matters, and how to take advantage of the new capab</description>
-      <guid isPermaLink="false">https://dev.to/bspann/azure-container-apps-workload-profiles-v2-is-now-the-default-what-you-need-to-know-4ek8</guid>
-      <pubDate>Sat, 14 Feb 2026 06:48:33 +0000</pubDate>
+      <title>Setting Up AI Code Review in Bitbucket: A Practical Guide and Comparison⚖️</title>
+      <link>https://dev.to/dev_kiran/setting-up-ai-code-review-in-bitbucket-a-practical-guide-and-comparison-19dp</link>
+      <description>Hello Devs 👋 If your team uses Bitbucket and you’re exploring AI code review tools, you might have noticed that many discussions online focus on GitHub. But Bitbucket is widely used too especially companies deep in the Atlassian ecosystem, and the experience with AI review tools varies a lot depending on platform support. In this post, we’ll cover: How tools integrate with Bitbucket Setup complexity and time to value Review quality you can expect A comparison of Qodo, SonarQube, and CodeRabbit L</description>
+      <guid isPermaLink="false">https://dev.to/dev_kiran/setting-up-ai-code-review-in-bitbucket-a-practical-guide-and-comparison-19dp</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1204850%2F1873cf6a-e8a7-4d43-9af8-296ac0506b3a.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 15 Feb 2026 06:53:25 +0000</pubDate>
     </item>
   </channel>
 </rss>

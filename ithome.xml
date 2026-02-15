@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 14 Feb 2026 06:54:48 +0000</lastBuildDate>
-    <item>
-      <title>DevOps快報第4期：Chrome開始支援WebMCP，要讓AI代理直接和網頁元件互動，巴西最大銀行打造18000人協作的開發者平臺</title>
-      <link>https://www.ithome.com.tw/news/173955</link>
-      <description>新聞2026/1/1～2/11 精選DevOps與開發新聞： #網頁應用開發 #AI代理 Chrome即將支援Google和微軟聯手發起的WebMCP，要AI代理更容易操控瀏覽器 隨著MCP協定去年初爆紅，Google和微軟也在去年8月聯手發起了一個新的網際網路協定專案WebMCP，這個專案希望提供一套更標準化的做法，讓網站經營者來定義和明確描述，AI代理可以和網站內容的互動位置、互動方式、使用的參數，以及互動後期待的結果。目標是讓AI代理可以更快、更可靠，也更準確地操作網頁，來完成任務。WebMCP目前仍是規格提案而非W3C正式標準。 WebMCP提供兩種AI與網站互動的API，第一類是宣告式API，讓網站能直接在HTML表單等既有結構上描述可執行的操作。第二類是命令式API，鎖定較複雜或高度動態的互動流程，允許透過JavaScript執行，貼近真實網站行為的情境。 #平臺工程 #雲端轉型 巴西最大銀行平臺工程解密，18000人開發者平臺架構公開 為了支援雲端轉型，伊塔烏聯合銀行也展開了平臺工程的開發變革，要來提高一萬八千名開發人員的生產力，從文化、標準化和平臺等三大面向的策略來推動</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173955</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/WebMCP.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 13 Feb 2026 07:29:47 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 15 Feb 2026 06:58:14 +0000</lastBuildDate>
     <item>
       <title>蘋果iOS 26.3修補「極複雜」零時差漏洞</title>
       <link>https://www.ithome.com.tw/news/173951</link>
@@ -79,6 +71,13 @@
       <description>新聞程式語言Go 1.26正式釋出，new函式可直接指定初始值，泛型支援遞迴型別參照，Green Tea垃圾回收器改為預設啟用，Go與C語言之間的互通機制cgo額外負擔降低約30%，go fix命令全面改寫並新增數十個自動修正器，標準函式庫也加入多個新套件與實驗功能 Go團隊釋出Go 1.26，二進位封裝檔與安裝程式已上架官方下載頁面。新版本更新包含兩項語言語法與型別系統調整，並帶來執行階段（Runtime）與工具鏈的效能改進，以及協助程式碼跟上較新語言特性，與標準函式庫慣用寫法的自動修正工具。 過去Go內建的new函式運算元只能是型別，Go 1.26起允許以運算式作為運算元，用來直接指定新變數的初始值，讓以指標代表可選欄位的序列化資料結構更容易直接填值。泛型型別系統則解除了泛型型別不得在自身型別參數清單中自我參照的限制，使型別約束能表達更複雜的遞迴介面與資料結構需求。 先前屬於實驗功能的Green Tea垃圾回收器在Go 1.26改為預設啟用。Go團隊也指出，cgo，其基礎額外負擔約降低30%。編譯器在更多情境下可將切片（Slice）的底層儲存區配置到堆疊，藉此減少配置成本並提升整體</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173962</guid>
       <pubDate>Fri, 13 Feb 2026 11:25:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>【資安週報】0209~0213，新加坡政府揭露4家電信業半年前遭中國駭客攻擊，該國啟動聯合網路事件回應</title>
+      <link>https://www.ithome.com.tw/news/173961</link>
+      <description>新聞【資安新聞編輯室報告】國家級駭客鎖定關鍵基礎設施（CI）的攻擊，是本星期最受關注的焦點。 新加坡政府針對去年7月披露的中國駭客組織UNC3886滲透案，於今年2月9日舉辦記者會並發布調查報告，指出共有4家新加坡電信業者遭受攻擊，包括M1、SIMBA Telecom、Singtel與SarHub。 這次事件公布突顯2大重點：首先，最早是當地一家電信業者偵測到威脅事件，在通報新加坡網路安全局（CSA）與資訊網路媒體開發管理署（IMDA）後，啟動了聯合網路事件回應，得以成功限縮駭客行動並阻斷損害擴大；其次，揭露相關攻擊手法，指出駭客利用零時差漏洞繞過邊界防火牆入侵網路，並部署高階Rootkit建立持久存取與隱匿蹤跡。 國家級駭客組織TGR-STA-1030（別名UNC6619）的攻擊動向亦受關注，資安公司Palo Alto Networks旗下Unit 42指出，最近一年有37國政府機關與關鍵CI遭其入侵，而且去年底正廣泛偵察包含臺灣在內的155個國家，主要鎖定尋求特定經貿合作關係的國家。 微軟一次修補6個已遭利用零時差漏洞 在漏洞消息方面，這一星期多家IT與OT業者發布每月例行安全更新</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173961</guid>
+      <pubDate>Sat, 14 Feb 2026 10:02:10 +0000</pubDate>
     </item>
   </channel>
 </rss>
