@@ -8,93 +8,83 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Feb 2026 06:55:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Feb 2026 07:07:29 +0000</lastBuildDate>
     <item>
-      <title>The Forensic Black Box: Why Logs That Can Be Deleted Are Security Theater</title>
-      <link>https://dev.to/ktamarapalli/the-forensic-black-box-why-logs-that-can-be-deleted-are-security-theater-4244</link>
-      <description>Introduction: The Illusion of Observability Most security teams believe they have “logs.” In reality, most organizations have rumors of past events stored in databases that attackers can modify, delete, or selectively corrupt after compromise. If an attacker gains privileged access to your cloud account, your SIEM, or your CI runner, the first thing they do is erase traces. Not because logs are unimportant — but because logs are dangerous to attackers. The Codecov breach persisted for months pre</description>
-      <guid isPermaLink="false">https://dev.to/ktamarapalli/the-forensic-black-box-why-logs-that-can-be-deleted-are-security-theater-4244</guid>
-      <pubDate>Sun, 15 Feb 2026 06:03:30 +0000</pubDate>
+      <title>I Open-Sourced a 67-file GitHub Enterprise Playbook — Why and How I Built It</title>
+      <link>https://dev.to/hagishun/i-open-sourced-a-67-file-github-enterprise-playbook-why-and-how-i-built-it-2a1b</link>
+      <description>I published an open-source GitHub Enterprise learning guide (67 files) based on real-world onboarding / enablement work. I’d love feedback from the community: Please leave questions or suggestions as GitHub Discussions / Issues PRs are also welcome Qiita (JP): https://qiita.com/hagix/items/a64ed1b6fc39454e1bb7 GitHub repo: https://github.com/NRI-Oxalis/Beginner_manual GItHub Page: https://nri-oxalis.github.io/Beginner_manual/ The content is currently Japanese-first. I'm planning to expand Englis</description>
+      <guid isPermaLink="false">https://dev.to/hagishun/i-open-sourced-a-67-file-github-enterprise-playbook-why-and-how-i-built-it-2a1b</guid>
+      <pubDate>Mon, 16 Feb 2026 06:20:31 +0000</pubDate>
     </item>
     <item>
-      <title>8-Bit Music Theory: How They Made The Great Sea Feel C U R S E D</title>
-      <link>https://dev.to/music_youtube/8-bit-music-theory-how-they-made-the-great-sea-feel-c-u-r-s-e-d-55p6</link>
-      <description>Ever wondered how Wind Waker's "The Great Sea is Cursed" takes a chill sailing theme and makes it spine-tingling? Turns out, it's all about dropping some musical bombshells like tritones and clashing harmonies, transforming that heroic vibe into pure horror. They even sneak in callbacks to other tunes, like Ganondorf's theme, to really cement the creep factor. It's a masterclass in making a familiar sound feel totally wrong, in the best way possible. Watch on YouTube</description>
-      <guid isPermaLink="false">https://dev.to/music_youtube/8-bit-music-theory-how-they-made-the-great-sea-feel-c-u-r-s-e-d-55p6</guid>
-      <pubDate>Sun, 15 Feb 2026 06:06:02 +0000</pubDate>
+      <title>AutoFinance: Your AI Financial Command Center, right inside the terminal!</title>
+      <link>https://dev.to/crypticsaiyan/autofinance-your-ai-financial-command-center-right-inside-the-terminal-5anl</link>
+      <description>This is a submission for the GitHub Copilot CLI Challenge Why Leave the Terminal? As developers, we live in the terminal. So why do we keep switching to 20 different browser tabs just to check market volatility, technical indicators, or portfolio drift? I wanted to see if I could build a professional-grade financial research desk that lives exactly where I do. The result is AutoFinance: a heavy-duty orchestration of 13 specialized MCP (Model Context Protocol) servers that turn your command line</description>
+      <guid isPermaLink="false">https://dev.to/crypticsaiyan/autofinance-your-ai-financial-command-center-right-inside-the-terminal-5anl</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvx23n3hhoab7lspdawng.png" length="0" type="image/png"/>
+      <pubDate>Mon, 16 Feb 2026 06:22:07 +0000</pubDate>
     </item>
     <item>
-      <title>👋 Hello Devs!
-I’m a passionate learner exploring software development and modern technologies.
-Here to learn, share, and grow with this amazing dev community.
-
-Let’s connect and build together 💻✨
-
-#DevCommunity #LearningInPublic #CodeLife</title>
-      <link>https://dev.to/koustav_sadhu_34703ee00bd/hello-devs-im-a-passionate-learner-exploring-software-development-and-modern-technologies-here-38j9</link>
-      <description>👋 Hello Devs!
-I’m a passionate learner exploring software development and modern technologies.
-Here to learn, share, and grow with this amazing dev community.
-
-Let’s connect and build together 💻✨
-
-#DevCommunity #LearningInPublic #CodeLife</description>
-      <guid isPermaLink="false">https://dev.to/koustav_sadhu_34703ee00bd/hello-devs-im-a-passionate-learner-exploring-software-development-and-modern-technologies-here-38j9</guid>
-      <pubDate>Sun, 15 Feb 2026 06:13:42 +0000</pubDate>
+      <title>IPv4: The Foundation of Networking</title>
+      <link>https://dev.to/araiz/ipv4-the-foundation-of-networking-50in</link>
+      <description>When diving into networking, the term IPv4 comes up pretty quickly, and for good reason. It’s one of the key building blocks of the internet today, despite being on the brink of being replaced by its successor, IPv6. Let's break it down. What is IPv4? IPv4 stands for Internet Protocol version 4, which is used for identifying devices on a network. Think of it as a street address for your device, allowing data to be sent to the correct location on the vast internet highway. Unlike a MAC address, w</description>
+      <guid isPermaLink="false">https://dev.to/araiz/ipv4-the-foundation-of-networking-50in</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fupujrid33xl6pp9vjl1i.png" length="0" type="image/png"/>
+      <pubDate>Mon, 16 Feb 2026 06:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Symbol for All of Us is Null</title>
-      <link>https://dev.to/goodrelax/the-symbol-for-all-of-us-is-null-59kn</link>
-      <description>The Symbol for All of Us is Null You might be thinking, "What is this guy even talking about?" But if you've found your way to this post, I have a feeling this will click for you somewhere along the way. Give me five minutes. There's something humanity does unconsciously to make sense of the world. AI does the exact same thing. Mathematics describes it beautifully. And at the end: Why is Null the ultimate symbol for everything? It all connects in a single thread. And once you see that thread, th</description>
-      <guid isPermaLink="false">https://dev.to/goodrelax/the-symbol-for-all-of-us-is-null-59kn</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F0tb5x9o5624cjnfvpy6v.png" length="0" type="image/png"/>
-      <pubDate>Sun, 15 Feb 2026 06:21:54 +0000</pubDate>
+      <title>How a DEV Friend and I Brought Two Avatars to Life</title>
+      <link>https://dev.to/itsugo/how-a-dev-friend-and-i-brought-two-avatars-to-life-chp</link>
+      <description>I met @webdeveloperhyper on the DEV Community, and like most good internet collaborations, it started casually. A few messages. Some feedback. Valuable guidance. Then at some point, the conversation shifted from “this looks cool” to “let’s make something fun together.” We didn’t over-plan it. We just started building. They were in Japan. I was in India. Which meant most of this project happened in small pockets of time. Late nights. Random 20-minute windows during the day. Messages sent hours ap</description>
+      <guid isPermaLink="false">https://dev.to/itsugo/how-a-dev-friend-and-i-brought-two-avatars-to-life-chp</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjg27xaq2j3l6pu6pk2bs.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 16 Feb 2026 06:31:42 +0000</pubDate>
     </item>
     <item>
-      <title>How to use Prewind 🌀</title>
-      <link>https://dev.to/art70x/prewind-53ml</link>
-      <description>Write Less, Expand More for Tailwind CSS If you love Tailwind CSS, you know how repetitive it can get writing full variant classes: &amp;lt;div class="hover:bg-blue-500 hover:text-blue-50 dark:hover:bg-blue-400 dark:hover:text-blue-950"&amp;gt;&amp;lt;/div&amp;gt; Wouldn’t it be nice to write that in a cleaner, more expressive way? Enter Prewind — a lightweight preprocessor that expands Tailwind-style shorthand into full classes automatically. ✨ What is Prewind? Prewind lets you write grouped shorthand for Tailwind classes</description>
-      <guid isPermaLink="false">https://dev.to/art70x/prewind-53ml</guid>
-      <pubDate>Sun, 15 Feb 2026 06:34:23 +0000</pubDate>
+      <title>Cloudflare 新功能："Markdown for Agents"让AI Agent 的token 消耗减少80%</title>
+      <link>https://dev.to/white_satomini/cloudflare-xin-gong-neng-markdown-for-agentsrang-ai-agent-de-token-xiao-hao-jian-shao-80-4hh7</link>
+      <description>原文链接：https://warpnav.com/cloudflare-markdown-for-agents 当 AI Agent 或爬虫请求网页时，Cloudflare 可以自动把 HTML 页面转换为 [Markdown]格式返回，从而大幅节省 token 消耗，让 AI 更高效地”阅读”网页内容。 也就是： 让 AI 访问网页时，直接拿到干净的 Markdown，而不是又大又乱的 HTML。 结果是： 🧠 AI 更容易读 💰 Token 成本大幅降低（可减少约 80%） ⚡ 处理更快 🧩 结构更清晰 解决的问题 过去，网站的访问者主要是人类用户，流量来自搜索引擎。但现在，越来越多的流量来自 AI 系统，包括各种 AI 爬虫和 Agent。这些 AI 系统需要从网页中提取内容，但网页是为人类设计的，充满了对 AI 来说毫无意义的”噪音”。 HTML 太浪费 token AI 处理文本是按 token 计费的，而 HTML 格式极其浪费 token。Cloudflare 比喻：把原始 HTML 喂给 AI，就像按字付费去阅读快递包裹的外包装，而不是里面的信件。 同样的内容，Mark</description>
+      <guid isPermaLink="false">https://dev.to/white_satomini/cloudflare-xin-gong-neng-markdown-for-agentsrang-ai-agent-de-token-xiao-hao-jian-shao-80-4hh7</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F85cj630480e37j72005c.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 16 Feb 2026 06:37:15 +0000</pubDate>
     </item>
     <item>
-      <title>Stop Writing "Clean" Code. Start Writing Readable Code</title>
-      <link>https://dev.to/oyminirole/stop-writing-clean-code-start-writing-readable-code-544h</link>
-      <description>Yes, it’s another article about clean code. Just a quick reminder: according to various sources, the ratio of time spent reading code versus writing it can reach 7:1 or even higher. Whether you’re fixing a bug, adding a feature, or refactoring, you inevitably submerge yourself in logic written by others (or by you, several months ago). This is why readability is far more critical than how fast you typed it out in the first place. Unreadable code is technical debt that bottlenecks the entire team</description>
-      <guid isPermaLink="false">https://dev.to/oyminirole/stop-writing-clean-code-start-writing-readable-code-544h</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ff980he97dfmicetw7yc5.webp" length="0" type="image/webp"/>
-      <pubDate>Sun, 15 Feb 2026 06:36:40 +0000</pubDate>
+      <title>OWASP Cornucopia is publishing it’s darkest secrets!</title>
+      <link>https://dev.to/owasp/owasp-cornucopia-is-publishing-its-darkest-secrets-fjc</link>
+      <description>Why do we keep our darkest fears secret? Publish them, and bring light to the darkest corners of your web application. When Adam Schostack + associates last year urged everyone to publish their threat model, we thought, «What a wonderful idea!» So we went ahead and did just that. At cornucopia.owasp.org, you can now find the threat model for the OWASP Cornucopia Game Engine, Copi. There we have listed all our darkest fears and secrets. Darkness is not a force of its own; it is simply the absence</description>
+      <guid isPermaLink="false">https://dev.to/owasp/owasp-cornucopia-is-publishing-its-darkest-secrets-fjc</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fivcsnbnbtq4qs0t4xzc6.webp" length="0" type="image/webp"/>
+      <pubDate>Mon, 16 Feb 2026 06:39:00 +0000</pubDate>
     </item>
     <item>
-      <title>I built Spotify Wrapped for Git using GitHub Copilot CLI</title>
-      <link>https://dev.to/stackmasteraliza/i-built-spotify-wrapped-for-git-using-github-copilot-cli-10lj</link>
-      <description>This is a submission for the GitHub Copilot CLI Challenge What I Built git-wrapped — Spotify Wrapped, but for your Git history. Every December, Spotify tells you what kind of listener you are. I wanted the same thing for coding. What if your terminal could tell you that you're a Night Owl who codes at 2 AM, or a Code Surgeon who deletes more than they write? git-wrapped is a Python CLI tool that analyzes any Git repository and generates a beautiful, colorful terminal report. No browser, no dashb</description>
-      <guid isPermaLink="false">https://dev.to/stackmasteraliza/i-built-spotify-wrapped-for-git-using-github-copilot-cli-10lj</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz5r4mvzjvblvc1lxsqao.gif" length="0" type="image/gif"/>
-      <pubDate>Sun, 15 Feb 2026 06:37:15 +0000</pubDate>
+      <title>🍫 Chocolate Distribution Problem — JavaScript Solution Explained (Sliding Window)</title>
+      <link>https://dev.to/abhishek-nexgen-dev/chocolate-distribution-problem-javascript-solution-explained-sliding-window-1gff</link>
+      <description>This is a very common coding interview problem that teaches how to distribute items fairly. In this blog, we will understand the problem from zero level and then solve it step-by-step using JavaScript. 🧾 Problem in Simple Words We have many chocolate packets. Each packet has some chocolates. Example: arr = [7, 3, 2, 4, 9, 12, 56] This means: Packet 1 → 7 chocolates Packet 2 → 3 chocolates Packet 3 → 2 chocolates Packet 4 → 4 chocolates Packet 5 → 9 chocolates Packet 6 → 12 chocolates Packet 7 →</description>
+      <guid isPermaLink="false">https://dev.to/abhishek-nexgen-dev/chocolate-distribution-problem-javascript-solution-explained-sliding-window-1gff</guid>
+      <pubDate>Mon, 16 Feb 2026 06:39:24 +0000</pubDate>
     </item>
     <item>
-      <title>We All Accepted the "Python Tax.", Pandas 3.0 Just Reduced It.</title>
-      <link>https://dev.to/kaniel_outis/we-all-accepted-the-python-tax-pandas-30-just-reduced-it-1n43</link>
-      <description>I’ve been there. You have a "small" 3GB CSV file. You load it into a Pandas DataFrame on a 16GB machine, and suddenly everything freezes. You start manually chunking data, deleting columns, and praying to the OOM (Out of Memory) gods 🙃. We’ve accepted this as the "Python Tax." We tell ourselves that object dtypes are just the price we pay for flexibility. Spoiler: They aren't. And we’ve been wasting RAM for years. The "Object" Lie For a decade, Pandas stored strings as NumPy objects. This was a</description>
-      <guid isPermaLink="false">https://dev.to/kaniel_outis/we-all-accepted-the-python-tax-pandas-30-just-reduced-it-1n43</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr15fot7k6xzyje7xgu92.png" length="0" type="image/png"/>
-      <pubDate>Sun, 15 Feb 2026 06:51:21 +0000</pubDate>
+      <title>Building Vero: How I Used Super Context with GitHub Copilot CLI to Create a Premium Visual Debugger</title>
+      <link>https://dev.to/tiagordebarros/building-vero-how-i-used-super-context-with-github-copilot-cli-to-create-a-premium-visual-debugger-198g</link>
+      <description>This is a submission for the GitHub Copilot CLI Challenge What I Built I built Vero (Latin/Italian for Truth), a beautiful, simple and visual debugger for the modern web ecosystem. The Problem We all use console.log. It's the most used debugging tool in the world, yet it hasn't evolved much visually. Reading logs often feels like staring at a wall of monochrome text. The Solution Vero is a "Visual Wrapper" for the native console. It doesn't try to reinvent the wheel; it just makes it roll smooth</description>
+      <guid isPermaLink="false">https://dev.to/tiagordebarros/building-vero-how-i-used-super-context-with-github-copilot-cli-to-create-a-premium-visual-debugger-198g</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fk2hzthd7l3sgfl59xuit.png" length="0" type="image/png"/>
+      <pubDate>Mon, 16 Feb 2026 06:40:50 +0000</pubDate>
     </item>
     <item>
-      <title>When NOT to Use AI as a Developer</title>
-      <link>https://dev.to/ahmadwaqarcs/when-not-to-use-ai-as-a-developer-3if2</link>
-      <description>When NOT to Use AI as a Developer AI is everywhere in development right now. It can scaffold APIs, generate UI components, refactor messy functions, and even write tests. But here’s something I’ve learned: Using AI everywhere is not a strength. Knowing when not to use it is. Here are situations where I intentionally step away from AI. 1. When Designing System Architecture Architecture decisions shape the entire system. At this stage, I prefer to think first, alone. AI can help refine ideas, but</description>
-      <guid isPermaLink="false">https://dev.to/ahmadwaqarcs/when-not-to-use-ai-as-a-developer-3if2</guid>
-      <pubDate>Sun, 15 Feb 2026 06:52:47 +0000</pubDate>
+      <title>Responsive UI Architecture: Designing for Phone, Tablet, and Desktop in One Codebase</title>
+      <link>https://dev.to/biwesh_shr/responsive-ui-architecture-designing-for-phone-tablet-and-desktop-in-one-codebase-1076</link>
+      <description>In the world of Flutter development, “write once, run everywhere” is a promise that comes with a caveat: just because code runs on a tablet doesn’t mean it looks good on a tablet. At our software house, ensuring our mobile app provided a seamless experience across a myriad of devices—from small Android phones to large iPad Pros—was a priority. We adopted a hybrid approach to responsive design that combines Proportional Scaling with Constraint-Based Layouts. Here is a deep dive into the architect</description>
+      <guid isPermaLink="false">https://dev.to/biwesh_shr/responsive-ui-architecture-designing-for-phone-tablet-and-desktop-in-one-codebase-1076</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxsl25e37puvol19dk6yb.png" length="0" type="image/png"/>
+      <pubDate>Mon, 16 Feb 2026 06:50:11 +0000</pubDate>
     </item>
     <item>
-      <title>Setting Up AI Code Review in Bitbucket: A Practical Guide and Comparison⚖️</title>
-      <link>https://dev.to/dev_kiran/setting-up-ai-code-review-in-bitbucket-a-practical-guide-and-comparison-19dp</link>
-      <description>Hello Devs 👋 If your team uses Bitbucket and you’re exploring AI code review tools, you might have noticed that many discussions online focus on GitHub. But Bitbucket is widely used too especially companies deep in the Atlassian ecosystem, and the experience with AI review tools varies a lot depending on platform support. In this post, we’ll cover: How tools integrate with Bitbucket Setup complexity and time to value Review quality you can expect A comparison of Qodo, SonarQube, and CodeRabbit L</description>
-      <guid isPermaLink="false">https://dev.to/dev_kiran/setting-up-ai-code-review-in-bitbucket-a-practical-guide-and-comparison-19dp</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Fuser%2Fprofile_image%2F1204850%2F1873cf6a-e8a7-4d43-9af8-296ac0506b3a.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 15 Feb 2026 06:53:25 +0000</pubDate>
+      <title>Why I rewrote my CLI tool into an Isomorphic Monorepo</title>
+      <link>https://dev.to/mgks/why-i-rewrote-my-cli-tool-into-an-isomorphic-monorepo-592</link>
+      <description>I love tools like Docusaurus and Mintlify. They are powerful. But sometimes, they feel like bringing a bazooka to a knife fight. I found myself spending more time configuring Webpack, fixing hydration errors, or dealing with heavy node_modules than actually writing the documentation for my side projects. I wanted something that felt like the old days of static HTML—fast, simple, robust—but with modern features like search and dark mode. So I built docmd. It started as a simple script. But with t</description>
+      <guid isPermaLink="false">https://dev.to/mgks/why-i-rewrote-my-cli-tool-into-an-isomorphic-monorepo-592</guid>
+      <pubDate>Mon, 16 Feb 2026 06:52:17 +0000</pubDate>
     </item>
   </channel>
 </rss>

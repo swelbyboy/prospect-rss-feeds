@@ -8,56 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Feb 2026 06:56:00 +0000</lastBuildDate>
-    <item>
-      <title>KDE Plasma 6.6 Sees Last Minute Fixes, Plasma 6.7 Aims For Painless Samba Shares</title>
-      <link>https://www.phoronix.com/news/KDE-Plasma-6.6-Next-Week</link>
-      <description>KDE's Plasma 6.6 desktop release is due out next week (17 February) and there's been some last minute fixes to land. Additionally, KDE Plasma developers continue to be quite active in already landing feature work for Plasma 6.7...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Plasma-6.6-Next-Week</guid>
-      <pubDate>Sat, 14 Feb 2026 01:40:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Firmware Upstreamed For Linux Speaker Support On The ASUS Zenbook 14 UM3406GA</title>
-      <link>https://www.phoronix.com/news/Linux-Audio-UM3406GA</link>
-      <description>For those that may be considering the new ASUS Zenbook 14 OLED (UM3406GA) laptop that has been refreshed for the new AMD Ryzen AI 400 series, Cirrus Logic has now upstreamed the necessary firmware for the cs35l41 audio amplifier for working speaker support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Audio-UM3406GA</guid>
-      <pubDate>Sat, 14 Feb 2026 11:11:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 7.0 Lands 8D-8D-8D Octal DTR Support In SPI NAND For Better Performance</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Octal-DTR-SPI-NAND</link>
-      <description>The Linux Memory Technology Device (MTD) subsystem updates have been merged for the Linux 7.0 kernel and include introducing Octal DTR "8D-8D-8D" support in SPI NAND for better performance...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Octal-DTR-SPI-NAND</guid>
-      <pubDate>Sat, 14 Feb 2026 11:23:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 7.0 Wires Up Arm's 64-byte Single-Copy Atomic Instructions LS64/LS64V</title>
-      <link>https://www.phoronix.com/news/ARM64-Linux-7.0</link>
-      <description>Beyond all of the exciting Intel/AMD x86_64 changes and improvements to enjoy with the upcoming Linux 7.0, there is one notable ARM64 feature addition this kernel cycle...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ARM64-Linux-7.0</guid>
-      <pubDate>Sat, 14 Feb 2026 11:47:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNOME OS To Use systemd-confext, RustConn Provides Modern GTK4 Connection Manager</title>
-      <link>https://www.phoronix.com/news/GNOME-OS-systemd-context</link>
-      <description>In addition to this week's GNOME 50 beta release, there were also other exciting developments in the GNOME ecosystem...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-OS-systemd-context</guid>
-      <pubDate>Sat, 14 Feb 2026 12:04:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intel Ends Work On Quantum Compiler Open-Source Bits</title>
-      <link>https://www.phoronix.com/news/Intel-Quantum-Passes-OSS-End</link>
-      <description>Following Intel recently discontinuing a number of open-source projects, this week they formally discontinued their Quantum Passes open-source project that was intended to provide additional passes for their LLVM-based compiler in the Intel Quantum SDK...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Quantum-Passes-OSS-End</guid>
-      <pubDate>Sat, 14 Feb 2026 14:08:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 7.0 Merges Support For Rock Band 4 PS4 / PS5 Guitars Plus More Laptop Quirks</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-HID</link>
-      <description>The HID subsystem changes were merged this week for the ongoing Linux 7.0 kernel merge window. Among the Human Interface Devices (HID) work this cycle were supporting more guitars while also adding more device IDs and different laptop quirks...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-HID</guid>
-      <pubDate>Sat, 14 Feb 2026 16:45:04 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 16 Feb 2026 07:07:37 +0000</lastBuildDate>
     <item>
       <title>Vim 9.2 Released With Experimental Wayland Support, Better HiDPI Display Support</title>
       <link>https://www.phoronix.com/news/Vim-9.2-Released</link>
@@ -78,6 +29,55 @@
       <description>The Flash Friendly File-System (F2FS) has multiple performance improvements to provide its users with on the in-development Linux 7.0 kernel...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-F2FS</guid>
       <pubDate>Sun, 15 Feb 2026 01:26:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Power Sequencing Driver For PCIe M.2 Connectors Makes It Into Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Power-Sequencing</link>
+      <description>The power sequencing subsystem updates have been merged for the Linux 7.0 cycle. Typically not an area of the kernel too exciting but one new driver addition is the "pwrseq-pcie-m2" to provide power sequencing for PCIe M.2 connectors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Power-Sequencing</guid>
+      <pubDate>Sun, 15 Feb 2026 11:07:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>NFS Server Adds Dynamic Thread Pool Sizing In Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-NFSD</link>
+      <description>The NFS server changes for Linux 7.0 happen to include some nice improvements for this big kernel version number release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-NFSD</guid>
+      <pubDate>Sun, 15 Feb 2026 11:20:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mesa's KosmicKrisp Vulkan-On-Metal Achieves MoltenVK Feature Parity</title>
+      <link>https://www.phoronix.com/news/KosmicKrisp-Parity</link>
+      <description>Announced last year by consulting firm LunarG was KosmicKrisp as a Vulkan-on-Metal driver for efficiently leveraging the Vulkan API on Apple macOS systems as an alternative to the MoltenVK project. KosmicKrisp was upstreamed for Mesa 26.0 and continues making great progress for opening up more Vulkan possibilities in Apple's world...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/KosmicKrisp-Parity</guid>
+      <pubDate>Sun, 15 Feb 2026 11:34:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux Kernel Improvement Can Make Hibernation Several Times Faster With Slow SSDs</title>
+      <link>https://www.phoronix.com/news/Linux-Faster-Hibernation-Slow</link>
+      <description>A patch series sent out for review this weekend can significantly improve the system hibernation performance under Linux. Particularly for those with slower SSDs, the patches can make Linux hibernate up to several times faster...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Faster-Hibernation-Slow</guid>
+      <pubDate>Sun, 15 Feb 2026 11:48:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>wlroots 0.20 Nears Release With New Protocols, Enhanced Vulkan Renderer</title>
+      <link>https://www.phoronix.com/news/wlroots-0.20-Released</link>
+      <description>Version 0.20 of the popular wlroots Wayland support library is nearing its official release. Over the past week were two release candidates for wlroots 0.20 were published for this library used by Sway, Wayfire, Cage, Gamescope, and numerous other Wayland compositors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/wlroots-0.20-Released</guid>
+      <pubDate>Sun, 15 Feb 2026 19:17:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>exFAT Achieves Better Sequential Read Performance With Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-exFAT</link>
+      <description>The open-source Linux file-system driver for supporting Microsoft's exFAT now can deliver better sequential read performance with Linux 7.0 thanks to multi-cluster support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-exFAT</guid>
+      <pubDate>Sun, 15 Feb 2026 23:15:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0 Merges The Code To Replace The Tux Boot Logo At Build Time</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-FBDEV-Alternate-Logo</link>
+      <description>Linus Torvalds merged the code this weekend that allows easily replacing the Tux penguin boot logo used during the boot process. This new code optionally allows specifying an alternative boot logo at compile/build time...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-FBDEV-Alternate-Logo</guid>
+      <pubDate>Mon, 16 Feb 2026 01:24:12 +0000</pubDate>
     </item>
   </channel>
 </rss>

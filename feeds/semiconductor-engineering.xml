@@ -8,38 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Feb 2026 07:23:31 +0000</lastBuildDate>
-    <item>
-      <title>AI, GPU, And HPC Data Centers: The Infrastructure Behind Modern AI</title>
-      <link>https://semiengineering.com/ai-gpu-and-hpc-data-centers-the-infrastructure-behind-modern-ai/</link>
-      <description>As rack densities rise and cooling architectures diversify, design mistakes become expensive. The post AI, GPU, And HPC Data Centers: The Infrastructure Behind Modern AI appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/ai-gpu-and-hpc-data-centers-the-infrastructure-behind-modern-ai/</guid>
-      <pubDate>Thu, 12 Feb 2026 08:03:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chiplets And 3D-ICs Add New Electrical And Mechanical Challenges</title>
-      <link>https://semiengineering.com/chiplets-and-3d-ics-add-new-electrical-and-mechanical-challenges/</link>
-      <description>Reliability is now a system-level concern that includes everything from materials and packaging to testing with backside power. The post Chiplets And 3D-ICs Add New Electrical And Mechanical Challenges appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/chiplets-and-3d-ics-add-new-electrical-and-mechanical-challenges/</guid>
-      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/02/Screenshot-2026-02-11-at-4.21.01-PM.png?resize=1166%2C1222&amp;#038;ssl=1" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 12 Feb 2026 08:05:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Formal Verification Fundamentals Remain Non-Negotiable In The New Verification Revolution</title>
-      <link>https://semiengineering.com/formal-verification-fundamentals-remain-non-negotiable-in-the-new-verification-revolution/</link>
-      <description>Managing complexity without compromising mathematical rigor. The post Formal Verification Fundamentals Remain Non-Negotiable In The New Verification Revolution appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/formal-verification-fundamentals-remain-non-negotiable-in-the-new-verification-revolution/</guid>
-      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/02/Siemens_Formal-verification-non-negotiable-fig1.webp?resize=1529%2C560&amp;#038;ssl=1" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 12 Feb 2026 08:05:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Inference Needs A Mix-And-Match Memory Strategy</title>
-      <link>https://semiengineering.com/ai-inference-needs-a-mix-and-match-memory-strategy/</link>
-      <description>Matching memory technology to the inference workload phase is necessary to achieve the lowest cost per served token. The post AI Inference Needs A Mix-And-Match Memory Strategy appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/ai-inference-needs-a-mix-and-match-memory-strategy/</guid>
-      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/02/Rambus_AI-Inference-Mix-and-Match-Memory-fig1.webp?resize=1822%2C1013&amp;#038;ssl=1" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 12 Feb 2026 08:06:51 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 16 Feb 2026 07:38:00 +0000</lastBuildDate>
     <item>
       <title>IMC: Free-Space Optical Neural Network With High Clockrate (Berkeley, USC, TU Berlin)</title>
       <link>https://semiengineering.com/imc-free-space-optical-neural-network-with-high-clockrate-berkeley-usc-tu-berlin/</link>
@@ -83,6 +52,34 @@
       <description>A technical paper titled “Test Generation for Subcircuits with High Functional Switching Activities” was published by Irith Pomeranz at Purdue University. Abstract “Chip aging results in defects that are initially likely to appear as delay faults. The susceptibility of a delay fault to aging can be assessed based on the layout or the functional workload... » read more The post A Test Generation Procedure Targeting Subcircuits With High Susceptibilities To Aging (Purdue University) appeared first</description>
       <guid isPermaLink="false">https://semiengineering.com/a-test-generation-procedure-targeting-subcircuits-with-high-susceptibilities-to-aging-purdue-university/</guid>
       <pubDate>Sat, 14 Feb 2026 00:19:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>CNT Nano Sandpaper For Atomic-Level Polishing (KAIST)</title>
+      <link>https://semiengineering.com/cnt-nano-sandpaper-for-atomic-level-polishing-kaist/</link>
+      <description>KAIST researchers published “Carbon nanotube sandpaper for atomic-precision surface finishing.” Abstract “Sandpapers, also known as coated abrasives, have served as the most familiar surface finishing tools since their first invention in the 13th century. However, they remain unsuitable for advanced industries requiring nanometer-level precision due to limitations in abrasive uniformity and detachment. Here, we introduce... » read more The post CNT Nano Sandpaper For Atomic-Level Polishing (KAIS</description>
+      <guid isPermaLink="false">https://semiengineering.com/cnt-nano-sandpaper-for-atomic-level-polishing-kaist/</guid>
+      <pubDate>Sun, 15 Feb 2026 08:01:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automated MLIR-based HLS framework That Generates FPGA HW Designs From A Variety of CNN Layers (TU Dresden)</title>
+      <link>https://semiengineering.com/automated-mlir-based-hls-framework-that-generates-fpga-hw-designs-from-a-variety-of-cnn-layers-tu-dresden/</link>
+      <description>TU Dresden researchers published “MING: An Automated CNN-to-Edge MLIR HLS framework.” Abstract “Driven by the increasing demand for low-latency and real-time processing, machine learning applications are steadily migrating toward edge computing platforms, where Field-Programmable Gate Arrays (FPGAs) are widely adopted for their energy efficiency compared to CPUs and GPUs. To generate high-performance and low-power FPGA... » read more The post Automated MLIR-based HLS framework That Generates FPG</description>
+      <guid isPermaLink="false">https://semiengineering.com/automated-mlir-based-hls-framework-that-generates-fpga-hw-designs-from-a-variety-of-cnn-layers-tu-dresden/</guid>
+      <pubDate>Sun, 15 Feb 2026 08:01:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLM-Based Learning Platform For Chip Design Education (RPTU)</title>
+      <link>https://semiengineering.com/llm-based-learning-platform-for-chip-design-education-rptu/</link>
+      <description>RPTU University of Kaiserslautern-Landau researchers published “From RTL to Prompt Coding: Empowering the Next Generation of Chip Designers through LLMs.” Abstract “This paper presents an LLM-based learning platform for chip design education, aiming to make chip design accessible to beginners without overwhelming them with technical complexity. It represents the first educational platform that assists learners... » read more The post LLM-Based Learning Platform For Chip Design Education (RPTU) a</description>
+      <guid isPermaLink="false">https://semiengineering.com/llm-based-learning-platform-for-chip-design-education-rptu/</guid>
+      <pubDate>Sun, 15 Feb 2026 08:01:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Carrier Mapping in Sub-2nm Node NSFETs with SSRM (imec, KU Leuven)</title>
+      <link>https://semiengineering.com/carrier-mapping-in-sub-2nm-node-nsfets-with-ssrm-imec-ku-leuven/</link>
+      <description>Researchers from imec and KU Leuven published “Carrier Mapping in Sub-2nm Node Nanosheet Transistors with Scanning Spreading Resistance Microscopy.” Abstract “As the semiconductor industry transitions to gate-all-around architectures such as Nanosheet-FETs (NSFETs) for the 2nm node and beyond, controlling parasitic resistance through precise junction engineering is fundamental. This requires characterization methods capable of mapping active... » read more The post Carrier Mapping in Sub-2nm Nod</description>
+      <guid isPermaLink="false">https://semiengineering.com/carrier-mapping-in-sub-2nm-node-nsfets-with-ssrm-imec-ku-leuven/</guid>
+      <pubDate>Sun, 15 Feb 2026 08:02:32 +0000</pubDate>
     </item>
   </channel>
 </rss>
