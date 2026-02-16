@@ -8,31 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Feb 2026 07:24:41 +0000</lastBuildDate>
-    <item>
-      <title>The state of Rust : quoi de neuf dans le monde Rust en 2025 ?</title>
-      <link>https://www.programmez.com/actualites/state-rust-quoi-de-neuf-dans-le-monde-rust-en-2025-39006</link>
-      <description>JetBrains publie The State of Rust 2025. Ce rapport se base sur l’étude globale JetBrains Developer Ecosystem Survey Report 2025. Oui, le langage est utilisé, mais pour 65 % des réponses, il l’est pour des side projects ou pour des projets personnels. 53 % disent l’apprendre. L’usage professionnel s’établit à 23 %.30 % des réponses viennent de développeurs qui débutent tout juste. Les utilisateurs ayant plus d’un an d’expérience sont environ 24 %. La plupart des développeurs Rust disent avoir dé</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/state-rust-quoi-de-neuf-dans-le-monde-rust-en-2025-39006</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/rust-logo-512x512.png?itok=HhzRtKQ7" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 11 Feb 2026 15:25:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Classiq annonce Classiq 1.0, une plateforme pour développer des applications quantiques</title>
-      <link>https://www.programmez.com/actualites/classiq-annonce-classiq-10-une-plateforme-pour-developper-des-applications-quantiques-39007</link>
-      <description>"Pendant longtemps, les avancées quantiques ont été mesurées en qubits, aux publications et aux démonstrations. Aujourd’hui, alors que les entreprises passent de l’expérimentation à l’ingénierie concrète, le vrai défi est de transformer ces progrès en workflows logiciels fiables et capables d’accompagner les équipes sur le long terme. Jusqu’à présent, les difficultés portaient surtout sur la correction d’erreurs, la reproductibilité, la maîtrise des coûts et l’adaptation à l’évolution rapide du</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/classiq-annonce-classiq-10-une-plateforme-pour-developper-des-applications-quantiques-39007</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Thu, 12 Feb 2026 07:36:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Redis 8.6.0 open source est disponible</title>
-      <link>https://www.programmez.com/actualites/redis-860-open-source-est-disponible-39008</link>
-      <description>Redis annonce que la version open source de la 8.6.0 est disponible en version finale. Cette version apporte une hausse des performances, une consommation mémoire réduire. Les performances concernent plusieurs fonctions dont la vérification des permissions ACL, optimisations diverses sur les vector set. La progresssion des performances est constante avec la lignée 8.x. La latence est un autre des enjeux, par exemple sur la commande Get, les hashs. Une des nouveautés est l'introduction de l'idemp</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/redis-860-open-source-est-disponible-39008</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Thu, 12 Feb 2026 07:48:14 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 16 Feb 2026 07:39:16 +0000</lastBuildDate>
     <item>
       <title>ParisJUG : soirée LangChain4j le 19 février</title>
       <link>https://www.programmez.com/actualites/parisjug-soiree-langchain4j-le-19-fevrier-39009</link>
@@ -88,6 +64,30 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/marche-de-lemploi-it-un-ralentissement-mais-des-profils-porteurs-39015</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/helloworks.png?itok=SgusUiCx" length="0" type="image/jpeg"/>
       <pubDate>Fri, 13 Feb 2026 09:38:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Armis : l'AppSec au défi du code généré par l'IA</title>
+      <link>https://www.programmez.com/actualites/armis-lappsec-au-defi-du-code-genere-par-lia-39016</link>
+      <description>L'éditeur en sécurité Armis annonce Centrix pour la sécurité applicative. Le paysage actuel de la sécurité applicative est saturé de solutions fragmentées et statiques, chacune résolvant un morceau du problème mais générant du bruit, des inefficacités et des angles morts. Basée sur IA, Armis Centrix for Application Security détecte les failles dans le code, contextualise ces failles en les reliant à l’environnement réel d’exécution et automatise la remédiation. Elle intègre pleinement l’infrastr</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/armis-lappsec-au-defi-du-code-genere-par-lia-39016</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 16 Feb 2026 06:27:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Snyk lance AI Security Fabric pour le SDLC</title>
+      <link>https://www.programmez.com/actualites/snyk-lance-ai-security-fabric-pour-le-sdlc-39017</link>
+      <description>Ai Security Fabric est la nouvelle solution de l'éditeur Snyk. Cette plateforme s'insère dans le cycle de vie du développement logiciel, SDLC. Elle permet aux entreprises de commercialiser des logiciels basés sur l'IA en toute sécurité et à la vitesse de l'IA. "Aujourd'hui, les développeurs et les concepteurs utilisent non seulement l'IA pour écrire du code et alimenter des applications, mais ils sont également confrontés à une augmentation rapide des cybermenaces liées à l'IA. Ce système aide l</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/snyk-lance-ai-security-fabric-pour-le-sdlc-39017</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 16 Feb 2026 06:39:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Un nutriscore de la souveraineté logicielle par Dries Buytaert (Drupal)</title>
+      <link>https://www.programmez.com/actualites/un-nutriscore-de-la-souverainete-logicielle-par-dries-buytaert-drupal-39018</link>
+      <description>C'est un des débats qui secoue l'Europe : la notion de souveraineté. Mais cette notion aussi vague qu'imprécisea besoin d'une approche rigoureuse et claire. Le fondation de Drupal, Dries Buytaert, a publié un long article sur une échelle de la souveraineté logicielle, une sorte de NutriScore allant E à A. Il rappelle d'emblée un élément fondamental : la souveraineté numérique dépend moins de l'origine du logiciel que de ceux qui le contrôlent.« Acheter européen » devient le cri de ralliement de</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/un-nutriscore-de-la-souverainete-logicielle-par-dries-buytaert-drupal-39018</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/software-sovereignty-scale.png?itok=cjyjqDog" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 16 Feb 2026 07:17:46 +0000</pubDate>
     </item>
   </channel>
 </rss>
