@@ -8,42 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Feb 2026 07:35:04 +0000</lastBuildDate>
-    <item>
-      <title>Vulnerabilidades críticas en Cisco 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-criticas-cisco-2026/</link>
-      <description>Vulnerabilidad crítica – 22/01 Introducción CVE-2026-20045 es una vulnerabilidad de ejecución remota de código que está siendo activamente explotada. Análisis CVE-2026-20045 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N- 8,2 CVE-2026-20045 se origina por validación incorrecta de datos de entrada en solicitudes HTTP a la interfaz web de administración de los dispositivos afectados. Un atacante no autenticado y remoto puede enviar una serie de […] La entrada Vulnerabilidades críticas en Cisco 202</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-cisco-2026/</guid>
-      <pubDate>Thu, 22 Jan 2026 15:40:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vulnerabilidades críticas en Grist-Core 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-grist-core-2026/</link>
-      <description>Vulnerabilidad crítica – 27/01 Introducción CVE-2026-24002 es una vulnerabilidad de seguridad crítica descubierta en Grist-Core, una versión de código abierto del software de hojas de cálculo relacionales Grist. Análisis CVE-2026-24002 – CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H – 9 CVE-2026-24002 permite a un atacante escapar del sandbox de ejecución de Python (Pyodide) dentro de Grist y ejecutar código arbitrario en la máquina […] La entrada Vulnerabilidades críticas en Grist-Core 2026 se p</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-grist-core-2026/</guid>
-      <pubDate>Wed, 28 Jan 2026 09:40:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vulnerabilidades críticas en Fortinet 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-criticas-fortinet-2026/</link>
-      <description>Vulnerabilidad crítica – 28/01 Introducción CVE-2026-24858 es una vulnerabilidad zero-day que ha estado siendo explotada en el mundo real y afecta a varios productos de seguridad de Fortinet. Análisis CVE-2026-24858 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:O/RC:C – 9,4 CVE-2026-24858 permite a un atacante con una cuenta de FortiCloud y un dispositivo registrado iniciar sesión en otros dispositivos de Fortinet registrados en otras […] La entrada Vulnerabilidades críticas en Fortinet</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-fortinet-2026/</guid>
-      <pubDate>Wed, 28 Jan 2026 09:45:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vulnerabilidades críticas en Oracle 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-criticas-oracle-2026/</link>
-      <description>Vulnerabilidad crítica – 28/01 Introducción CVE-2026-21962 es una vulnerabilidad crítica de ejecución remota sin autenticación que afecta a componentes ampliamente usados en infraestructuras empresariales basadas en Oracle. Análisis CVE-2026-21962 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N – 10 El error de CVE-2026-21962 está en la validación de entrada de las solicitudes HTTP que pasan por el proxy plug‑in. Si las rutas, cabeceras o parámetros […] La entrada Vulnerabilidades críticas en Ora</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-oracle-2026/</guid>
-      <pubDate>Wed, 28 Jan 2026 09:53:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>S2GRUPO consolida su crecimiento por encima del 50% y refuerza su papel en la soberanía tecnológica europea</title>
-      <link>https://s2grupo.es/s2grupo-resultados-2025/</link>
-      <description>S2GRUPO ha anunciado los resultados del ejercicio 2025, que hemos cerrado con un importante crecimiento de facturación superior al 50%, y registrando unos ingresos récord de 56,7M€, con un EBITDA del 8,5%, y un crecimiento anual compuesto (CAGR) del 25,4% entre los ejercicios 2021 y 2025. Estos resultados se producen en el primer año de […] La entrada S2GRUPO consolida su crecimiento por encima del 50% y refuerza su papel en la soberanía tecnológica europea se publicó primero en S2GRUPO.</description>
-      <guid isPermaLink="false">https://s2grupo.es/s2grupo-resultados-2025/</guid>
-      <pubDate>Thu, 29 Jan 2026 07:37:14 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 17 Feb 2026 07:31:04 +0000</lastBuildDate>
     <item>
       <title>Vulnerabilidades críticas en SolarWinds 2026</title>
       <link>https://s2grupo.es/vulnerabilidades-criticas-solarwinds-2026/</link>
@@ -78,6 +43,41 @@
       <description>Lo que viene en 2026 no se predice, se detecta. El panorama de amenazas evoluciona más rápido que la capacidad de las organizaciones para adaptarse. La proliferación del IoT industrial, la llegada de agentes de IA capaces de actuar de forma autónoma, la fragmentación tecnológica y la presión geopolítica están redefiniendo el enfoque de la ciberseguridad para 2026. Este […] La entrada Panorama de la ciberseguridad 2026 se publicó primero en S2GRUPO.</description>
       <guid isPermaLink="false">https://s2grupo.es/panorama-ciberseguridad-2026/</guid>
       <pubDate>Thu, 12 Feb 2026 11:18:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en OpenSSL 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-openssl-2026/</link>
+      <description>Vulnerabilidad – 6/02 Introducción CVE-2025-15467 es una vulnerabilidad crítica que aprovecha un fallo clásico de programación en OpenSSL. Su capacidad de ser desencadenada sin autenticación y antes de cualquier verificación criptográfica la convierte en un riesgo alto para cualquier organización que procese certificados, correos cifrados u otros datos CMS. La falla es considerada de alto riesgo […] La entrada Vulnerabilidades críticas en OpenSSL 2026 se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-openssl-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 10:34:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en SmarterTools 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-smartertools-2026/</link>
+      <description>Vulnerabilidad – 9/02 Introducción CVE-2026-24423 es una vulnerabilidad crítica de ejecución remota de código (RCE) que afecta al servidor de correo electrónico SmarterMail. La falla reside en un endpoint administrativo (API REST) expuesto por defecto: /api/v1/settings/sysadmin/connect-to-hub La implementación de este endpoint permitía que cualquier cliente remoto enviara solicitudes manipuladas sin autenticación ni autorización válida. El parámetro […] La entrada Vulnerabilidades críticas en Sm</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-smartertools-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 10:38:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en Ivanti 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-ivanti-2026/</link>
+      <description>Vulnerabilidad – 10/02 Introducción CVE-2026-1281 y CVE-2026-1340 son dos vulnerabilidades críticas de ejecución remota de código (RCE) que afectan a Ivanti Endpoint Manager Mobile (EPMM). Ambas vulnerabilidades permiten a un atacante remoto ejecutar comandos arbitarios en el servidor vulnerable sin necesidad de credenciales, se explotan a través de parámetros maliciosos en solicitudes HTTP, aprovechando la falla en el […] La entrada Vulnerabilidades críticas en Ivanti 2026 se publicó primero en</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-ivanti-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 10:50:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Parches Microsoft 2026</title>
+      <link>https://s2grupo.es/parches-microsoft-2026/</link>
+      <description>Microsoft Patch Tuesday febrero 2026 Introducción Microsoft ha publicado el Patch Tuesday correspondiente al mes de febrero con 59 vulnerabilidades de interés. A continuación, se exponen las más críticas: Análisis CVE-2026-24300 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H – 9,8 CVE-2026-24300 es una vulnerabilidad de elevación de privilegios en Azure Front Door, el servicio de entrega de contenido y pasarela de aplicaciones de Microsoft Azure. […] La entrada Parches Microsoft 2026 se publicó</description>
+      <guid isPermaLink="false">https://s2grupo.es/parches-microsoft-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 10:55:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en ChatterMate 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-chattermate-2026/</link>
+      <description>Vulnerabilidad – 13/02 Introducción CVE-2026-24399 es una vulnerabilidad de inyección de contenido en el lado del cliente similar a cross-site scripting que afecta a ChatterMate, un framework para crear chatbots de IA sin código. En versiones 1.0.8 y anteriores de ChatterMate, el chatbot puede aceptar y ejecutar HTML/JavaScript malicioso cuando se envía como entrada de chat. […] La entrada Vulnerabilidades críticas en ChatterMate 2026 se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-chattermate-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 11:02:20 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Feb 2026 07:23:09 +0000</lastBuildDate>
-    <item>
-      <title>Google Chrome ships WebMCP in early preview, turning every website into a structured tool for AI agents</title>
-      <link>https://venturebeat.com/infrastructure/google-chrome-ships-webmcp-in-early-preview-turning-every-website-into-a</link>
-      <description>When an AI agent visits a website, it’s essentially a tourist who doesn’t speak the local language. Whether built on LangChain, Claude Code, or the increasingly popular OpenClaw framework, the agent is reduced to guessing which buttons to press: scraping raw HTML, firing off screenshots to multimodal models, and burning through thousands of tokens just to figure out where a search bar is.That era may be ending. Earlier this week, the Google Chrome team launched WebMCP — Web Model Context Protoco</description>
-      <guid isPermaLink="false">https://venturebeat.com/infrastructure/google-chrome-ships-webmcp-in-early-preview-turning-every-website-into-a</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/1qICIKh5QjKnFUVNWBfR1s/3e006949fd944a8ef8fb6e3ab0db67b9/webmcp-story.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 12 Feb 2026 16:30:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 17 Feb 2026 07:19:27 +0000</lastBuildDate>
     <item>
       <title>OpenAI deploys Cerebras chips for 'near-instant' code generation in first major move beyond Nvidia</title>
       <link>https://venturebeat.com/technology/openai-deploys-cerebras-chips-for-15x-faster-code-generation-in-first-major</link>
@@ -64,6 +56,14 @@
       <guid isPermaLink="false">https://venturebeat.com/infrastructure/nvidia-groq-and-the-limestone-race-to-real-time-ai-why-enterprises-win-or</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/08ilFZNVYo9OJqR9Z17ci/9196ada486dd8eb15769c1f096076b10/Limestone.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Sun, 15 Feb 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Most ransomware playbooks don't address machine credentials. Attackers know it.</title>
+      <link>https://venturebeat.com/security/machine-identities-missing-link-ransomware-playbooks</link>
+      <description>The gap between ransomware threats and the defenses meant to stop them is getting worse, not better. Ivanti’s 2026 State of Cybersecurity Report found that the preparedness gap widened by an average of 10 points year over year across every threat category the firm tracks. Ransomware hit the widest spread: 63% of security professionals rate it a high or critical threat, but just 30% say they are “very prepared” to defend against it. That’s a 33-point gap, up from 29 points a year ago.CyberArk’s 2</description>
+      <guid isPermaLink="false">https://venturebeat.com/security/machine-identities-missing-link-ransomware-playbooks</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/FM3OmDrk1ni5sgIcPNXs6/9d2bca6ed49236fae4209daee1494204/hero.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 16 Feb 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
