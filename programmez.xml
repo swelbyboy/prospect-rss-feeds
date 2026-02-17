@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Feb 2026 07:39:16 +0000</lastBuildDate>
-    <item>
-      <title>ParisJUG : soirée LangChain4j le 19 février</title>
-      <link>https://www.programmez.com/actualites/parisjug-soiree-langchain4j-le-19-fevrier-39009</link>
-      <description>Le ParisJUG annonce sa prochaine soirée : le 19 février à partir de 19h sur LangChain4j. Deux sessions sont prévues :19h30 : Créer un Chatbot Intelligent avec LangChain4jVous êtes-vous déjà demandé comment ajouter des capacités de chat intelligentes à vos applications Java sans vous noyer dans la complexité de l’IA ? Cette présentation pratique vous guide dans la construction d’un chatbot intelligent, illustrant l’approche conviviale de LangChain4j pour l’intégration d’IA en entreprise.21h00 : L</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/parisjug-soiree-langchain4j-le-19-fevrier-39009</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Thu, 12 Feb 2026 07:58:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>React Native passe en 0.84 avec Hermes V1 par défaut</title>
-      <link>https://www.programmez.com/actualites/react-native-passe-en-084-avec-hermes-v1-par-defaut-39010</link>
-      <description>React Native avance lentement mais sûrement. HermesV1 est désormais le moteur JavaScrit par défaut pour React Native iOS et Android. Il avait été introduit avec la version 0.82. Hermes V1 doit apporter des améliorations significatives sur les performances et la compilation. Cette activité par défaut doit permettre des gains automatiques dans vos apps, aucune migration n'est nécessaire si vous utilisez déjà Hermes. La 0.84 apporte aussi les binaires précompilés sur iOS. Cette nouveauté doit rédui</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/react-native-passe-en-084-avec-hermes-v1-par-defaut-39010</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Thu, 12 Feb 2026 09:01:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>HPE ProLiant DL320 Gen12 : un serveur polyvalent</title>
-      <link>https://www.programmez.com/actualites/hpe-proliant-dl320-gen12-un-serveur-polyvalent-39011</link>
-      <description>La gamme ProLiant est des gammes phares de HPE. Avec le modèle DL320 Gen12, le constructeur renforce son offre de serveurs Edge, pour le cloud, la virtualisation / les conteneurs. Avec ce nouveau modèle, le constructeur concerne sa maîtrise du serveur 1U. Le serveur garde tous les avantages des générations précédentes : modularité, facilité d’accès aux principaux éléments et l’incontournable iLo, ici en version 7.Qualité de fabrication et richesse fonctionnelleVisuellement, le DL320 Gen 12 est u</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/hpe-proliant-dl320-gen12-un-serveur-polyvalent-39011</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/hpe1.jpg?itok=RgCFKhfA" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 12 Feb 2026 15:12:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>TypeScript 6.0 : bêta disponible !</title>
-      <link>https://www.programmez.com/actualites/typescript-60-beta-disponible-39012</link>
-      <description>TypeScript 6 est une version charnière pour le langage. Il s'agit de la dernière version basée sur JavaScript. Au-delà de cette version, Go remplacera JS dans le langage et le compilateur. Deux avantages justifient cette migration :- performance- le partage mémoire en contexte multi-threadéCette 6.0 est un lien entre la 5.9 et la future 7.0. Certains changements de cette version prépare la v7.Quelques nouveautés à retenir :- nouveau flag --stableTypeOrdering : va aider à migration à venir.- es20</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/typescript-60-beta-disponible-39012</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Fri, 13 Feb 2026 07:56:38 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 17 Feb 2026 07:35:05 +0000</lastBuildDate>
     <item>
       <title>Flutter 3.41 : plus modulaire, plus proche des dernières évolutions Android et iOS</title>
       <link>https://www.programmez.com/actualites/flutter-341-plus-modulaire-plus-proche-des-dernieres-evolutions-android-et-ios-39013</link>
@@ -88,6 +56,38 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/un-nutriscore-de-la-souverainete-logicielle-par-dries-buytaert-drupal-39018</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/software-sovereignty-scale.png?itok=cjyjqDog" length="0" type="image/jpeg"/>
       <pubDate>Mon, 16 Feb 2026 07:17:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>PHP : des corrections de bugs disponibles</title>
+      <link>https://www.programmez.com/actualites/php-des-corrections-de-bugs-disponibles-39019</link>
+      <description>Deux versions correctives sont disponibles : les 8.4.18 et 8.5.3. Ce sont des bug fix. Ces versions corrige 28 bugs dans le core, la timelib, le DOM, OpenSSL, etc. Les principaux bugs fixés sont :Fixed bug GH-20837 (NULL dereference when calling ob_start() in shutdown function triggered by bailout in php_output_lock_error()).Fix OSS-Fuzz #471533782 (Infinite loop in GC destructor fiber).Fix OSS-Fuzz #472563272 (Borked block_pass JMP[N]Z optimization).Fixed bug GH-GH-20914 (Internal enums can be</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/php-des-corrections-de-bugs-disponibles-39019</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 16 Feb 2026 10:54:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Waku : un framework React minimaliste</title>
+      <link>https://www.programmez.com/actualites/waku-un-framework-react-minimaliste-39020</link>
+      <description>Waku est un framework React minimal. Il se veut le plus léger possible et supporte toutes les dernières nouveautés de React 19. Il se présente comme une alternative aux gros frameworks tels que Next.js. L'idée est que pour un projet léger, il faut un framework léger et vous utilisez directement les composants serveur sans les couches intermédiaires ou les fonctions. Il se construit sur Vite et Hono. Il est possible de déployer sur node, SSG, Vercel, Netlify, Cloudfare Workers, Deno Deploy, Bun,</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/waku-un-framework-react-minimaliste-39020</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 16 Feb 2026 13:37:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>DevTools : les nouveautés de Chrome 145</title>
+      <link>https://www.programmez.com/actualites/devtools-les-nouveautes-de-chrome-145-39021</link>
+      <description>Une des nouveautés les plus importantes est l'intégration Soft Navigations. L'équipe Chrome présente ainsi cette appelleration : a soft navigation est quand JavaScript intercepte une navigation (clic sur un lien) et met à jour le contenu dans la page existente, plutôt que de charger une nouvelle page et que l'URL se mette à jour dans la barre d'adresse. Pour l'utilisateur, cela change peu de choses. Dans Chrome 145, les Soft navigations sont visibles sur le panneau Performance et dans la vue des</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/devtools-les-nouveautes-de-chrome-145-39021</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 16 Feb 2026 14:43:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vim 9.2 : support de Wayland !</title>
+      <link>https://www.programmez.com/actualites/vim-92-support-de-wayland-39022</link>
+      <description>Vim, un des éditeurs références du monde Linux, est disponible en version 9.2. Cette version introduit plusieurs évolutions intéressantes :- support expérimental de Wayland- affichage HiDPI- autocompletion étendue- support XDG- le langage de scription supporte les énums, les fonctions génériques, les types Tuple- nouvelles méthodes _new() et defcompileNote de version : https://www.vim.org/vim-9.2-released.phpCatégorie actualité: OutilsVimImage actualité AMP:</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/vim-92-support-de-wayland-39022</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/vim92_logo.png?itok=aisdn01E" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 16 Feb 2026 16:41:36 +0000</pubDate>
     </item>
   </channel>
 </rss>

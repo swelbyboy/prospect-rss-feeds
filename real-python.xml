@@ -8,22 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Feb 2026 07:15:50 +0000</lastBuildDate>
-    <item>
-      <title>Getting Started With Google Gemini CLI</title>
-      <link>https://realpython.com/courses/getting-started-google-gemini-cli/</link>
-      <description>Learn how to use Gemini CLI to bring Google's AI-powered coding assistance into your terminal for faster code analysis, debugging, and fixes.</description>
-      <guid isPermaLink="false">https://realpython.com/courses/getting-started-google-gemini-cli/</guid>
-      <pubDate>Tue, 03 Feb 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why You Should Attend a Python Conference</title>
-      <link>https://realpython.com/python-conference-guide/</link>
-      <description>Attending a Python conference can grow your network, skills, and confidence. Follow this guide to take your first steps toward joining a Python event.</description>
-      <guid isPermaLink="false">https://realpython.com/python-conference-guide/</guid>
-      <enclosure url="https://files.realpython.com/media/europython2023-sprints.e5f567c2e6f8.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Feb 2026 14:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 17 Feb 2026 07:11:02 +0000</lastBuildDate>
     <item>
       <title>The Real Python Podcast – Episode #283: Improving Your GitHub Developer Experience</title>
       <link>https://realpython.com/podcasts/rpp/283/</link>
@@ -80,6 +65,21 @@
       <description>Would you like to learn how to work with LLMs locally on your own computer? How do you integrate your Python projects with a local model? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly articles and projects.</description>
       <guid isPermaLink="false">https://realpython.com/podcasts/rpp/284/</guid>
       <pubDate>Fri, 13 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quiz: TinyDB: A Lightweight JSON Database for Small Projects</title>
+      <link>https://realpython.com/quizzes/tinydb-python/</link>
+      <description>If you're looking for a JSON document-oriented database that requires no configuration for your Python project, TinyDB could be what you need.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/tinydb-python/</guid>
+      <pubDate>Mon, 16 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TinyDB: A Lightweight JSON Database for Small Projects</title>
+      <link>https://realpython.com/tinydb-python/</link>
+      <description>If you're looking for a JSON document-oriented database that requires no configuration for your Python project, TinyDB could be exactly what you need.</description>
+      <guid isPermaLink="false">https://realpython.com/tinydb-python/</guid>
+      <enclosure url="https://files.realpython.com/media/TinyDB_Watermarked.d62532b57253.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 16 Feb 2026 14:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

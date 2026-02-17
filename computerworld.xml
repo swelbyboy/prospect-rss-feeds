@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Feb 2026 07:19:44 +0000</lastBuildDate>
-    <item>
-      <title>Amid the AI onslaught, a few silver linings for US tech jobs</title>
-      <link>https://www.computerworld.com/article/4132130/amid-the-ai-onslaught-a-few-silver-linings-for-us-tech-jobs.html</link>
-      <description>AI continues gobbling up IT jobs, but hints about how the technology is now influencing hiring are becoming more visible. About 130,000 jobs were created in the broader US economy in January, according to data from the US Bureau of Labor Statistics (BLS) released Wednesday. The growth was driven by hiring in the healthcare, social assistance, and construction sectors. But tech-related jobs declined by 20,155 in January, affecting workers in both technical and non-technical occupations, according</description>
-      <guid isPermaLink="false">https://www.computerworld.com/article/4132130/amid-the-ai-onslaught-a-few-silver-linings-for-us-tech-jobs.html</guid>
-      <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/02/4132130-0-94734800-1770987245-fog_obscure_horizon_highway_road_uncertainty_unknown_future_by_markus_spiske_cc0_via_pexels_binary_pattern_by_prawny_cc0_via_pixabay_1200x800-100764029-orig.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 13 Feb 2026 12:53:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>Starcloud prepares to launch AWS Outpost into space</title>
-      <link>https://www.computerworld.com/article/4132193/starcloud-prepares-to-launch-aws-outpost-into-space-2.html</link>
-      <description>Hot on the heels of Starlink’s plan for a million data centers in space, Starcloud’s next launch will put hardware from AWS in orbit. “Starcloud will be the first to launch the Amazon Web Services (AWS) Outpost hardware to space on our second satellite launching in October,” Starcloud CEO Philip Johnston wrote in a LinkedIn post. Outpost is AWS’s on-premises private cloud offering. Starcloud put an Nvidia H100 GPU in space aboard its first satellite, Starcloud-1, in October 2025. Chinese company</description>
-      <guid isPermaLink="false">https://www.computerworld.com/article/4132193/starcloud-prepares-to-launch-aws-outpost-into-space-2.html</guid>
-      <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/02/4132193-0-95510000-1770993430-shutterstock_1723637320.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 13 Feb 2026 14:36:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Four new reasons why Windows LNK files cannot be trusted</title>
-      <link>https://www.computerworld.com/article/4132235/four-new-reasons-why-windows-lnk-files-cannot-be-trusted-2.html</link>
-      <description>The number of ways that Windows shortcut (.LNK) files can be abused just keeps growing: A cybersecurity researcher has documented four new techniques to trick Windows users into running malicious actions through innocent-looking shortcuts. Wietze Beukema demonstrated how to spoof the visible LNK destination, hide command-line arguments, and execute a different program than the one shown to the user, potentially offering attackers new vectors for phishing, USB-borne attacks, or initial access ope</description>
-      <guid isPermaLink="false">https://www.computerworld.com/article/4132235/four-new-reasons-why-windows-lnk-files-cannot-be-trusted-2.html</guid>
-      <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/02/4132235-0-63592700-1770999353-shutterstock_2149947783.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 13 Feb 2026 16:15:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>T-Mobile offers a reason to call, not text: simultaneous translation</title>
-      <link>https://www.computerworld.com/article/4132252/t-mobile-offers-a-reason-to-call-not-text-simultaneous-translation.html</link>
-      <description>Could language barriers be a thing of the past? Various companies are looking to bring AI to the party to solve this linguistic issue and maybe help bring voice once again to the fore. T-Mobile is preparing to offer network-based real-time translation services in more than 50 languages. The new service, currently in beta testing, could ultimately be available to all T-Mobile customers, almost irrespective of the model of phone they use. This is in contrast with similar services from Google and A</description>
-      <guid isPermaLink="false">https://www.computerworld.com/article/4132252/t-mobile-offers-a-reason-to-call-not-text-simultaneous-translation.html</guid>
-      <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/02/4132252-0-35974100-1771001002-shutterstock_2129755886-100945981-orig.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 13 Feb 2026 16:42:40 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 17 Feb 2026 07:15:32 +0000</lastBuildDate>
     <item>
       <title>Apple study shows why we want to control AI</title>
       <link>https://www.computerworld.com/article/4132218/apple-study-shows-why-we-want-to-control-ai.html</link>
@@ -88,6 +56,38 @@
       <guid isPermaLink="false">https://www.computerworld.com/article/4132394/ai-will-likely-shut-down-critical-infrastructure-on-its-own-no-attackers-required-2.html</guid>
       <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/02/4132394-0-62049400-1771031205-shutterstock_2556469215.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
       <pubDate>Sat, 14 Feb 2026 01:05:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Leaky Chrome extensions with 37M installs caught divulging your browsing history</title>
+      <link>https://www.computerworld.com/article/4132716/leaky-chrome-extensions-with-37m-installs-caught-shipping-your-browsing-history-2.html</link>
+      <description>An estimated 37 million worldwide installations of a clutch of leaky Chrome extensions are transmitting users’ browsing histories to external servers. According to findings by an independent security researcher using the pseudonym “Q Continuum,” a total of 287 extensions sent data that closely matched the URLs visited during simulated browsing sessions. “The actors behind the leaks span the spectrum: Similarweb, Curly Doggo, Offidocs, Chinese actors, many smaller obscure data-brokers, and a myst</description>
+      <guid isPermaLink="false">https://www.computerworld.com/article/4132716/leaky-chrome-extensions-with-37m-installs-caught-shipping-your-browsing-history-2.html</guid>
+      <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/02/4132716-0-83779300-1771241855-shutterstock_2384908755.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 16 Feb 2026 11:27:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI hires OpenClaw founder as AI agent race intensifies</title>
+      <link>https://www.computerworld.com/article/4132725/openai-hires-openclaw-founder-as-ai-agent-race-intensifies.html</link>
+      <description>OpenAI has hired Peter Steinberger, creator of the viral OpenClaw AI assistant, to spearhead development of what CEO Sam Altman describes as “the next generation of personal agents.” The move comes weeks after OpenClaw, previously known as Clawdbot and then Moltbot, achieved explosive popularity despite security researchers warning of serious vulnerabilities in the open-source tool. Steinberger will join OpenAI full-time to drive the company’s personal agent strategy. OpenClaw will operate as an</description>
+      <guid isPermaLink="false">https://www.computerworld.com/article/4132725/openai-hires-openclaw-founder-as-ai-agent-race-intensifies.html</guid>
+      <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/02/4132725-0-04277500-1771243244-shutterstock_2453873041.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 16 Feb 2026 11:59:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>The AI bubble will burst for firms that can’t get beyond demos and LLMs</title>
+      <link>https://www.computerworld.com/article/4132756/the-ai-bubble-will-burst-for-firms-that-cant-get-beyond-demos-and-llms.html</link>
+      <description>The AI bubble isn’t just hype — it’s real and could create many corporate casualties if or when it bursts. The companies that will succeed will be the ones solving real-world problems and engaging clients, according to tech industry execs and analysts. AI startup valuations have skyrocketed, creating the fear of an AI bubble that’s drawn parallels to the dot-com bubble of the early 2000s; in the aftermath of that internet hype cycle, many once-promising companies went under. Lofty AI valuations</description>
+      <guid isPermaLink="false">https://www.computerworld.com/article/4132756/the-ai-bubble-will-burst-for-firms-that-cant-get-beyond-demos-and-llms.html</guid>
+      <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/02/4132756-0-63680600-1771249609-bubble-burst-by-bernd-von-darl-via-pexels.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 16 Feb 2026 13:46:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exploit available for new Chrome zero-day vulnerability, says Google</title>
+      <link>https://www.computerworld.com/article/4132921/exploit-available-for-new-chrome-zero-day-vulnerability-says-google-2.html</link>
+      <description>Threat actors now have the ability to exploit a new zero-day vulnerability in the Chrome browser, Google has advised IT administrators. The warning comes after Google released a patch for Chrome to plug a use after free memory vulnerability (CVE-2026-2441) in cascading style sheets (CSS), which means the browser’s CSS engine isn’t properly managing memory and can be exploited by a hacker. If not patched, it allows a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML pa</description>
+      <guid isPermaLink="false">https://www.computerworld.com/article/4132921/exploit-available-for-new-chrome-zero-day-vulnerability-says-google-2.html</guid>
+      <enclosure url="https://www.computerworld.com/wp-content/uploads/2026/02/4132921-0-49542200-1771289680-shutterstock_2533498743.jpg?quality=50&amp;strip=all" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 17 Feb 2026 00:54:03 +0000</pubDate>
     </item>
   </channel>
 </rss>

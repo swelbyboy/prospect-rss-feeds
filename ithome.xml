@@ -8,56 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Feb 2026 07:09:43 +0000</lastBuildDate>
-    <item>
-      <title>蘋果iOS 26.3修補「極複雜」零時差漏洞</title>
-      <link>https://www.ithome.com.tw/news/173951</link>
-      <description>新聞蘋果本周公布iOS 26.3、iPadOS 26.3，當中包含30多項安全漏洞的修補程式，包括一個已發生可用於「極複雜」攻擊的漏洞。 最嚴重的是編號CVE-2026-20700，是由Google威脅分析小組（Google Threat Analysis Group）通報的漏洞，位於作業系統動態連結編輯器（Dynamic Link Editor，dyld），其作用是載入應用程式所需的函式庫。該漏洞為記憶體毁損類型，成功觸發可讓具有記憶體寫入能力的應用程式在iOS裝置上執行任意程式碼。蘋果獲知，這漏洞可能已經被用於對舊版iOS裝置的特定個人用戶執行「極複雜的攻擊」。 蘋果並說，安全公告還包括CVE-2025-14174及CVE-2025-43529。蘋果於去年12月修補了這二個漏洞，並指已被用於極度複雜的攻擊行動。 CVE-2026-20700問題影響iPhone 11及以後版本（以下同），以及iPad Pro 12.9吋第3代、iPad Pro 11吋第1代、iPad Air第3代、iPad第8代、iPad mini第5代。 其餘修補的漏洞影響涵括核心、ImageIO、核心服務、核心</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173951</guid>
-      <pubDate>Fri, 13 Feb 2026 07:39:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>羅馬尼亞國營油管營運商遭Qilin勒索軟體攻擊竊取資料</title>
-      <link>https://www.ithome.com.tw/news/173956</link>
-      <description>新聞羅馬尼亞國營油管營運商（pipeline operator）Conpet本周證實遭到勒索軟體組織Qilin的攻擊，並被竊走資料。 上周Qilin組織宣稱駭入Conpet後，Conpet也證實發生網路攻擊，影響公司的業務IT基礎架構。該公司宣稱營運系統如SCADA系統和電信系統都未受影響，因此經由運輸系統輸送的原油、天然氣也維持在正常運作參數。 當時Conpet並未提供攻擊的技術細節，不過本周該公司向BleepingComputer證實攻擊者是Qilin，並造成資料外洩。這家能源業者已向當局通報，並展開調查，但說調查還在進行中，無法確認被竊資料的規模。目前其官網www.conpet.ro仍然斷線中。 Conpet為羅馬尼亞國營油氣運輸業者。營運全國性的原油、富氣（rich gas）、液態乙烷和凝析油的輸送系統，通過管道和鐵路向羅馬尼亞境內的煉油廠提供原料，其管道網絡長度超過3,800公里。 Qilin上周在其資料公開網站宣稱竊得Conpet近1TB的文件，還貼出16張疑似內部文件包含財務資訊和護照掃描檔的螢幕擷圖。BleepingComputer報導，有資料包含人員姓名、郵寄地址、身</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173956</guid>
-      <pubDate>Fri, 13 Feb 2026 08:17:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>微軟公布Windows基準安全模式，預設啟用確保Runtime安全</title>
-      <link>https://www.ithome.com.tw/news/173957</link>
-      <description>新聞微軟本周發表新的Windows安全與隱私強化計畫，公布Windows基準安全模式（Windows Baseline Security Mode），將透過預設開啟確保用戶安全。微軟也新增使用者透明與同意（User Transparency and Consent）確保App和代理人行為透通性。微軟預告，新計畫將會影響應用程式開發商。 兩項新功能是基於微軟安全未來倡議（Secure Future Initiative，SFI）最新進展。SFI實作預設安全設定，並且推出智慧應用程式控制（Smart App Control）及管理員防護（Administrator Protection）等進階防護功能。Windows基準安全模式中，Windows將預設啟用Runtime完整性防護機制，只允許獲得適當簽章的應用、服務與驅動程式執行，防止系統被惡意或未授權程式竄改或干擾。 這功能提供彈性控制，使用者和IT管理員必要時可以為特定應用程式覆寫設定，以建立例外、解除保護，但這些例外是可見且可追蹤的，開發人員可查看並控制防護啟動狀態及例外案例。 使用者透明度和同意則是確保使用者掌控應用程式行為。一旦應</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173957</guid>
-      <pubDate>Fri, 13 Feb 2026 08:36:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare推出內容協商轉換服務，支援AI爬蟲即時把網頁轉為Markdown格式</title>
-      <link>https://www.ithome.com.tw/news/173952</link>
-      <description>新聞Cloudflare推出Markdown for Agents服務，主打以HTTP內容協商機制，讓AI爬蟲與AI代理在送出請求時透過Accept表明偏好text/markdown後，針對已啟用該功能的網站，由Cloudflare網路在可行時把來源網站的HTML即時轉換為Markdown再回傳，降低AI系統擷取網頁內容時的前處理負擔。 Cloudflare提到，對AI系統而言，直接處理HTML往往得先略過大量與語意無關的標籤與版面元素，會造成詞元消耗與解析成本。以同篇部落格文章為例，Cloudflare表示原始HTML為16,180個詞元，轉成Markdown後為3,150個詞元，詞元用量減少80%。代理取得較精煉且結構更明確的文本格式後，就能把更多上下文窗口留給內容本體。 Markdown for Agents以Accept標頭觸發內容協商，當請求包含text/markdown，Cloudflare會先向來源站取回原始HTML，接著在傳遞過程中完成轉換並以text/markdown回應，同時以vary: accept表示回應內容會依Accept標頭不同而變動。轉換後的回應還會附上x</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173952</guid>
-      <pubDate>Fri, 13 Feb 2026 08:43:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google揭露AI成駭客新武器：模型竊取攻擊激增，北韓、中國、伊朗駭客全面導入AI</title>
-      <link>https://www.ithome.com.tw/news/173959</link>
-      <description>新聞Google威脅情報小組（Google Threat Intelligence Group，GTIG）今日（2/13）發布最新報告指出，2025年第四季觀察到駭客大幅增加AI的使用，不僅出現針對AI模型本身的蒸餾攻擊（Distillation Attack），來自北韓、中國、伊朗及俄羅斯的國家級駭客也全面將AI整合進攻擊流程。此外，GTIG也揭露兩種新興的AI威脅，分別是利用AI API生成惡意程式碼的HONESTCUE惡意軟體，以及濫用AI服務公開分享功能的ClickFix社交工程攻擊。 報告指出，駭客利用AI的手法已覆蓋攻擊生命周期的各個環節。在偵察階段，駭客使用大型語言模型快速綜合開源情報，分析高價值目標並繪製組織架構；在社交工程階段，AI協助生成高度客製化、文化細膩的釣魚誘餌，並維持多輪可信對話以建立受害者信任；在惡意軟體開發階段，駭客透過AI進行程式碼除錯、漏洞研究及工具開發。此外，部分駭客組織開始嘗試建立代理型AI能力，例如賦予AI資安專家人設以自動化分析漏洞，顯示威脅行為者正積極探索AI的進階應用。 此外，過去一年來，模型擷取攻擊（Model Extraction A</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173959</guid>
-      <pubDate>Fri, 13 Feb 2026 09:03:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Payment Passkey應用登臺，藍新金流引進兩大國際信用卡組織解決方案，預計Q1上線</title>
-      <link>https://www.ithome.com.tw/news/173958</link>
-      <description>新聞自去年初我們報導Visa與萬事達卡推動Payment Passkey以來，全球已有不同國家業者陸續應用相關技術，臺灣的發展動向也備受矚目。 時隔一年，智冠集團旗下藍新金流於去年底宣布，將成為全臺首家同時支援這兩家「Payment Passkey」解決方案的第三方支付業者，預計於2026年第一季正式上線，可望帶動國內支付領域新一波的安全升級潮。 可解決支付OTP驗證的網釣攔截風險 事實上，現今多數民眾已習慣行動支付或第三方電子支付，會先綁定信用卡再來支付，然而，仍有許多平臺僅提供直接輸入信用卡號的選項，或受限於使用者習慣而繼續選擇輸入信用卡號的方式。究竟Payment Passkey會為這類線上刷卡場景帶來何種改變？ 對此，我們向智冠集團詢問旗下藍新金流目前的導入情形。該公司表示，藍新金流自2025年第一季起，即與Visa、萬事達卡展開PoC（概念驗證）與技術對齊，目標是將Payment Passkey儘速提供給藍新的合作夥伴。 談及導入這項機制的意義，智冠集團表示，過去線上支付需透過簡訊OTP驗證，消費者常需經歷等待簡訊、應用程式切換、記憶並手動輸入代碼等多個步驟，過程中極易發生身</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173958</guid>
-      <pubDate>Fri, 13 Feb 2026 10:34:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI公布首個執行在Cerebras平臺的模型GPT-5.3-Codex-Spark 速度快15倍</title>
-      <link>https://www.ithome.com.tw/news/173963</link>
-      <description>新聞才在本月公布Codex App Mac版、GPT-5.3-Codex模型，OpenAI昨日又公布執行首個在Cerebras晶片平臺上執行的模型GPT-5.3-Codex-Spark，專為即時程式撰寫（real-time coding）為設計，提供每秒1,000 token的算力及強大程式撰寫能力。目前已開放ChatGPT Pro用戶試用。 GPT-5.3-Codex-Spark是OpenAI首個專為即時性軟體開發任務而設計的模型，滿足智能及低延遲性的雙重需求。它是Codex專為快速推論進行優化小型版本。在SWE-Bench Pro和Terminal-Bench 2.0等標竿測試中，新模型生成速度比GPT-5.1-Codex-mini快了約3至4倍，而比起旗艦版GPT-5.3-Codex，則快了約15倍。另一方面Codex-Spark具備和主要模型相同的安全訓練，包括網路安全能力。 該模型執行於Cerebras Wafer-Scale Engine 3（WSE 3）AI加速器基礎之上，具備每秒超過1000 token的算力效能，可在線上編程環境下提供幾近即時的回饋。Codex-Spa</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173963</guid>
-      <pubDate>Fri, 13 Feb 2026 11:15:58 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 17 Feb 2026 07:05:07 +0000</lastBuildDate>
     <item>
       <title>TypeScript 6.0 Beta釋出，替Go重寫的7.0版啟動過渡準備</title>
       <link>https://www.ithome.com.tw/news/173954</link>
@@ -73,11 +24,61 @@
       <pubDate>Fri, 13 Feb 2026 11:25:05 +0000</pubDate>
     </item>
     <item>
+      <title>Visual Studio正式整合Copilot單元測試代理，自動生成到修正一站完成</title>
+      <link>https://www.ithome.com.tw/news/173964</link>
+      <description>新聞微軟宣布GitHub Copilot Testing for .NET正式在Visual Studio 2026 18.3版推出，將單元測試的生成、建置、執行到失敗修正整合進IDE，開發者可在同一環境完成從程式碼到測試結果的完整流程，並表示可產生的單元測試框架，包含MSTest、NUnit與xUnit。 開發者能以Copilot Chat的@Test啟動該功能，其作為測試代理可依據解決方案結構、既有測試框架與建置設定，自動建立或調整測試專案與檔案，並在Visual Studio內反覆建置與執行，遇到失敗便嘗試修正後重新執行。完成後回傳摘要，整理受影響的測試與覆蓋率變化，並標示通過或失敗。 Copilot Testing可從類別成員、類別或檔案的層級，擴大到專案、整個方案，甚至鎖定目前的git diff。此次正式版也將提示語放寬為自由輸入，開發者以@Test呼叫測試代理，但允許以較自然的文字描述想驗證的邏輯或目標覆蓋率，同時保留結構化語法以便精準指定目標。 Visual Studio從編輯器右鍵選單新增觸發的Generate Tests入口，增加開發者發現該功能的機會，並在Copil</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173964</guid>
+      <pubDate>Fri, 13 Feb 2026 16:43:12 +0000</pubDate>
+    </item>
+    <item>
       <title>【資安週報】0209~0213，新加坡政府揭露4家電信業半年前遭中國駭客攻擊，該國啟動聯合網路事件回應</title>
       <link>https://www.ithome.com.tw/news/173961</link>
       <description>新聞【資安新聞編輯室報告】國家級駭客鎖定關鍵基礎設施（CI）的攻擊，是本星期最受關注的焦點。 新加坡政府針對去年7月披露的中國駭客組織UNC3886滲透案，於今年2月9日舉辦記者會並發布調查報告，指出共有4家新加坡電信業者遭受攻擊，包括M1、SIMBA Telecom、Singtel與SarHub。 這次事件公布突顯2大重點：首先，最早是當地一家電信業者偵測到威脅事件，在通報新加坡網路安全局（CSA）與資訊網路媒體開發管理署（IMDA）後，啟動了聯合網路事件回應，得以成功限縮駭客行動並阻斷損害擴大；其次，揭露相關攻擊手法，指出駭客利用零時差漏洞繞過邊界防火牆入侵網路，並部署高階Rootkit建立持久存取與隱匿蹤跡。 國家級駭客組織TGR-STA-1030（別名UNC6619）的攻擊動向亦受關注，資安公司Palo Alto Networks旗下Unit 42指出，最近一年有37國政府機關與關鍵CI遭其入侵，而且去年底正廣泛偵察包含臺灣在內的155個國家，主要鎖定尋求特定經貿合作關係的國家。 微軟一次修補6個已遭利用零時差漏洞 在漏洞消息方面，這一星期多家IT與OT業者發布每月例行安全更新</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173961</guid>
       <pubDate>Sat, 14 Feb 2026 10:02:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>VS Code筆記本Polyglot Notebooks退場，微軟改推單一檔案C#與Jupyter擴充套件</title>
+      <link>https://www.ithome.com.tw/news/173965</link>
+      <description>新聞微軟在dotnet/interactive儲存庫公告，VS Code的Polyglot Notebooks擴充套件將進入棄用狀態，並立即停止臭蟲修補與支援，且不會再替Polyglot Notebooks或用於Jupyter Notebooks情境的.NET Interactive核心新增功能。不過，Polyglot Notebooks擴充套件雖被標記為棄用，但不會自動從使用者的VS Code中停用或解除安裝。 微軟宣布VS Code的Polyglot Notebooks將於2026年3月27日棄用，即日起停止維護。Polyglot Notebooks是基於.NET Interactive的VS Code筆記本擴充套件，特色是讓使用者在同一份筆記本混用Markdown、C#與其他語言進行互動式運算，方便用於教學示範、快速驗證想法與跨語言實驗。 既有使用者須儘早完成內容搬遷與工作流程調整，若筆記本內容以C#為主，官方建議改為以單一C#檔案為主體的檔案式應用。若主要使用其他語言，官方則建議改用VS Code的Jupyter Notebooks擴充套件替代，並在搬遷完成後解除安裝Polyg</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173965</guid>
+      <pubDate>Sun, 15 Feb 2026 15:53:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw發起人加入OpenAI，專案將轉為基金會、維持開源獨立</title>
+      <link>https://www.ithome.com.tw/news/173968</link>
+      <description>新聞近期爆紅的個人AI代理專案OpenClaw專案發起人Peter Steinberger宣布加入OpenAI，對於可執行任務的AI代理，未來將致力推向更普及的應用型態。他同時表示，OpenClaw將轉為基金會架構，以維持開源與專案獨立性，OpenAI則會持續提供支持與資源。 Peter Steinberger在X的貼文說明，他希望打造連一般使用者都能輕鬆上手的代理，甚至連他的母親都能使用。為達成這個目標，他認為需要更完善的安全考量，以及取得最新模型與研究成果的管道，因此選擇加入OpenAI加速推動。 他也提到，OpenClaw雖然有機會發展為一家大型公司，但自己更傾向專注於建造與實作，而非再度投入公司經營。Peter Steinberger指出，過去已投入13年在創業與公司經營上，這次希望把重心放在將代理帶給更多人。他並提及前一週在舊金山與多家主要實驗室交流，接觸相關人員與尚未公開的研究內容。 Peter Steinberger強調，OpenClaw必須維持開源與自由發展，因此正著手將專案轉為基金會架構。他指出，OpenAI已贊助該專案，並承諾讓他能持續投入社群與專案運作。基金會未來</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173968</guid>
+      <pubDate>Mon, 16 Feb 2026 07:10:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>LV、Dior、Tiffany資料外洩遭南韓政府罰款2500萬美元</title>
+      <link>https://www.ithome.com.tw/news/173967</link>
+      <description>新聞南韓隱私主管機關上週基於2025年的雲端客戶資料庫大規模資料外洩事件，對同屬精品集團LVMH的三個品牌LV、Dior與Tiffany罰款超過360億韓元，約合2,500萬美元。 韓國個人資訊保護委員會（Personal Information Protection Committee，PIPC）上週針對三家精品業者韓國分公司去年個資外洩事件說明調查結果，以及裁罰金額。三家業者皆為使用軟體即服務（SaaS）服務Salesforce儲存及管理客戶資料時，遭遇資料外洩。 LV資料外洩事件影響多家分公司，包含韓國、英國、香港及土耳其，另外有報導指出臺灣、瑞典、義大利分公司也受影響，不過，LV得知事發後，就在網站公布。Dior和Tiffany事件則是發生在5月，在數月後才公開通知客戶及通報主管機關。 根據韓國政府的調查，LV 員工設備感染惡意軟體，導致駭客竊取他們的 SaaS 帳戶資訊。因此，約 360 萬人的個人資訊籨2025年6月9日至13日被洩露了三次。調查顯示， LV並未限制IP位址或其他方式存取權限，且在處理人員從公司外部存取Salesforce時，未採用安全的身分驗證方式。 Di</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173967</guid>
+      <pubDate>Mon, 16 Feb 2026 07:20:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Configuration Manager的2024年RCE漏洞正遭到濫用</title>
+      <link>https://www.ithome.com.tw/news/173969</link>
+      <description>新聞美國網路安全暨基礎設施管理署（CISA）上週警告，微軟Microsoft Configuration Manager（MCM，前身為SCCM）於2024年修補的舊遠端程式碼執行（Remote Code Execution，RCE）漏洞，被偵測到發生攻擊行動。 編號CVE-2024-43468的漏洞，微軟於2024年10月已發布更新程式修補。根據資安公司Wiz的說明，該漏洞影響Microsoft Configuration Manager負責處理用戶端傳送到MCM訊息的MP_Location服務。漏洞出於該服務對資料庫查詢輸入的驗證不當，導致兩個函式包括getMachineID及getContentID成為攻擊媒介，攻擊者可以運用系統管理員層級權限執行惡意SQL查詢，遠端執行xp_cmdshell程序進行攻擊。 技術分析顯示，兩個媒介都不需驗證即可存取，進一步提高漏洞風險。成功濫用漏洞可導致整個部署環境被駭客存取MCM資料庫，並執行指令，導致竊取資料和在網路上橫向移動，這漏洞僅需駭客簡單動作，即能執行高權限行為，CVSS風險值高達9.8分。 CVE-2024-43468之外，CISA</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173969</guid>
+      <pubDate>Mon, 16 Feb 2026 07:54:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>TypeScript成主流語法，建置工具Vite超車webpack</title>
+      <link>https://www.ithome.com.tw/news/173966</link>
+      <description>新聞JavaScript大調查State of JavaScript邁入第10屆，官方在最新2025報告結論歸納出三個面向，概括JavaScript生態系的趨勢轉變，第一是TypeScript從輔助工具走向語言本體，成為主流語法；第二是前端建置工具由長年主力webpack，逐步讓位給以Vite為代表的新工具鏈；第三則是AI不再只是附加或嘗鮮性質的存在，而是開始改變寫程式與做架構決策的工作方式。 該報告的結語由全端網頁框架Nuxt核心團隊負責人Daniel Roe撰寫，他在結論中直言「TypeScript has won」，並將這場勝利定義為語言層面的全面普及，而非某種打包工具之爭。報告也把2025年的工具變動，放在執行環境對TypeScript支援逐步到位的脈絡下解讀，Daniel Roe提到，Deno與Bun早已把TypeScript支援納入執行環境。Node.js近年也補上型別剝除等能力，讓TypeScript在日常開發中更容易落地並降低採用門檻。 使用統計呈現出開發者的使用日常，受訪者平均有77%的時間花在撰寫TypeScript，代表許多團隊已將型別化開發視為預設選項，而針對瀏</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173966</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/Capture%20554%20-%20State%20of%20JavaScript%202025_%20Usage%20-%20%5B2025_stateofjs_com%5D.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 16 Feb 2026 09:53:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Actions引入AI代理工作流程，自動化程式儲存庫維護任務</title>
+      <link>https://www.ithome.com.tw/news/173970</link>
+      <description>新聞GitHub代理式工作流程（Agentic Workflows）進入技術預覽階段，該功能可將儲存庫中的部分例行維護與協作工作，交由AI代理在自動化工作流程平臺GitHub Actions內執行。適用情境涵蓋議題（Issue）分流與標記、拉取請求檢視、持續整合失敗原因分析，以及文件與程式碼品質維護等，讓使用者以自然語言描述的方式定義自動化作業，降低撰寫與維護複雜工作流程設定的門檻。 GitHub Agentic Workflows將工作流程的主要內容改為Markdown檔案，由人以自然語言寫出要達成的目標與判斷方式，同時保留一段以YAML表示的前置設定，用來宣告觸發條件、權限、可用工具與允許的輸出範圍。Markdown工作流程並非要取代GitHub Actions，而是透過GitHub CLI擴充套件gh aw進行編譯，產生對應的鎖定檔.lock.yml，最終仍以標準GitHub Actions工作流程形式在儲存庫內執行並留存紀錄。 工作流程預設以唯讀權限執行，避免AI代理直接取得任意寫入能力。如果開發者需建立議題、留言、拉取請求或套用標籤等寫入操作，必須透過safe-outputs</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173970</guid>
+      <pubDate>Mon, 16 Feb 2026 15:19:46 +0000</pubDate>
     </item>
   </channel>
 </rss>
