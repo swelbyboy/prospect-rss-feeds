@@ -8,85 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 07:02:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Feb 2026 07:04:51 +0000</lastBuildDate>
     <item>
-      <title>I gave Claude access to my pen plotter</title>
-      <link>https://blog.adafruit.com/2026/02/16/i-gave-claude-access-to-my-pen-plotter/</link>
-      <description>Marc in Space at Harmonique.one gave Claude Code access to a pen plotter. Not directly. I was the interface between the two machines. Claude Code produced SVG files that I plotted with my pen plotter. With my smartphone I captured photos that I pasted into the Claude Code session, asking Claude what it thought about […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/16/i-gave-claude-access-to-my-pen-plotter/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/adafruit_products_image-23.png" length="0" type="image/png"/>
-      <pubDate>Mon, 16 Feb 2026 16:10:05 +0000</pubDate>
+      <title>The “Crown of Nobles” noble gas tube display</title>
+      <link>https://blog.adafruit.com/2026/02/17/the-crown-of-nobles-noble-gas-tube-display/</link>
+      <description>Scott Shambaugh works with spacecraft ion thrusters as a day job. (neat) He writes: I wanted a little desk display so I could interact with the gas. A chance to get more familiar with the behavior of ionized gasses in general, and a desktop scapegoat to glare at when working through propulsion issues. Amazon sells […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/the-crown-of-nobles-noble-gas-tube-display/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/blink-25.png" length="0" type="image/png"/>
+      <pubDate>Tue, 17 Feb 2026 20:03:44 +0000</pubDate>
     </item>
     <item>
-      <title>No Tools for You: A Century of Men Policing Women’s Tools</title>
-      <link>https://blog.adafruit.com/2026/02/16/no-tools-for-you-a-century-of-men-policing-womens-tools/</link>
-      <description>A woman used a tool, shared what she made, it might even save her some time, and then some men lost their minds. This is not a new story. In 1925, Dr. Guy Manning stood before a medical conference in New York City and declared that vacuum cleaners and dishwashers were “making housewives lazy.” The […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/16/no-tools-for-you-a-century-of-men-policing-womens-tools/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/lazy.png" length="0" type="image/png"/>
-      <pubDate>Mon, 16 Feb 2026 16:45:02 +0000</pubDate>
+      <title>NEW LEARN GUIDE: Tiny Wiki for CircuitPython #CircuitPython #AdafruitLearningSystem @Adafruit</title>
+      <link>https://blog.adafruit.com/2026/02/17/new-learn-guide-tiny-wiki-for-circuitpython-circuitpython-adafruitlearningsystem-adafruit/</link>
+      <description>Tiny Wiki is a small webserver that runs on a microcontroller and hosts a minimal Wiki system backed by markdown files. It was originally created by Kevin McAleer for Micropython devices. You can create and edit pages, linking them together to form a Wiki structure. This guide features a CircuitPython port of the Tiny Wiki […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/new-learn-guide-tiny-wiki-for-circuitpython-circuitpython-adafruitlearningsystem-adafruit/</guid>
+      <enclosure url="https://cdn-learn.adafruit.com/guides/images/000/004/476/medium800/tiny_wiki_overview_hero.png?1771255965" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 17 Feb 2026 20:29:33 +0000</pubDate>
     </item>
     <item>
-      <title>Adam Savage Meets a Real-Life Wall-E Robot!</title>
-      <link>https://blog.adafruit.com/2026/02/16/adam-savage-meets-a-real-life-wall-e-robot/</link>
-      <description>Adam Savage’s Tested shared this video on Youtube Adam finally meets a real-life Wall-E robot! Robot and droid builder Matt Hobbs brings his incredible remote controlled Wall-E to Adam’s workshop to show off the latest advances in the Wall-E builder’s group and the Kyber Control System used to puppeteer and bring this beloved character to […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/16/adam-savage-meets-a-real-life-wall-e-robot/</guid>
-      <pubDate>Mon, 16 Feb 2026 17:00:30 +0000</pubDate>
+      <title>Diagnosing a Commodore PET video fault from one photograph</title>
+      <link>https://blog.adafruit.com/2026/02/17/diagnosing-a-commodore-pet-video-fault-from-one-photograph/</link>
+      <description>Tynemouth Software writes about an owner who had initially made contact saying they had a PET 2001, and there was no video output, and they wondered if bad ROM or RAM could cause that and would a PET ROM/RAM fix the issue? After some probing around, they found the 74177 at D6 was at fault, […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/diagnosing-a-commodore-pet-video-fault-from-one-photograph/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/b-27.png" length="0" type="image/png"/>
+      <pubDate>Tue, 17 Feb 2026 20:54:51 +0000</pubDate>
     </item>
     <item>
-      <title>A modern 6502 based laptop design</title>
-      <link>https://blog.adafruit.com/2026/02/16/a-modern-6502-based-laptop-design/</link>
-      <description>Paula Maddox, TechPaula on GitHub, posts LT6502, a modern 6502 microprocessor-based laptop design. Yes, I know I’m crazy, but I figured why not. I’m enjoying working the PC6502 project but having a little tower of PCBs on the sofa isn’t the best. It’s very simple, these are the specs: 65C02 running at 8MHz 46K RAM […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/16/a-modern-6502-based-laptop-design/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/a-31.png" length="0" type="image/png"/>
-      <pubDate>Mon, 16 Feb 2026 17:21:23 +0000</pubDate>
+      <title>Hard drive failure analysis – the Backblaze experience</title>
+      <link>https://blog.adafruit.com/2026/02/17/hard-drive-failure-analysis-the-backblaze-experience/</link>
+      <description>backblaze.com marks 13 years of collecting Hard Drive Stats data. Statistics such as these provide folks who may not be keeping such detailed records to have a statistical approximation as to how and when their own hard drives might develop faults. As of the end of 2025, Backblaze was monitoring 341,664 drives used to store […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/hard-drive-failure-analysis-the-backblaze-experience/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/bootsel-24.png" length="0" type="image/png"/>
+      <pubDate>Tue, 17 Feb 2026 21:25:48 +0000</pubDate>
     </item>
     <item>
-      <title>A Moog-style polyphonic synthesizer built in Python</title>
-      <link>https://blog.adafruit.com/2026/02/16/a-moog-style-polyphonic-synthesizer-built-in-python/</link>
-      <description>VOOG, an Virtual Analog Synthesizer is a Moog-style polyphonic synthesizer built in Python with a tkinter GUI inspired by the Subsequent 37. Features 3 oscillators with sine, saw, square, and triangle waveforms Moog ladder filter (24dB/oct) with resonance and envelope modulation Dual ADSR envelopes for amplitude and filter LFO with 4 waveforms and 3 modulation destinations (filter, pitch, amp) […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/16/a-moog-style-polyphonic-synthesizer-built-in-python/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/blink-16.png" length="0" type="image/png"/>
-      <pubDate>Mon, 16 Feb 2026 20:15:36 +0000</pubDate>
+      <title>My smart sleep mask broadcasts users’ brainwaves to an open MQTT broker #IoTsecurity</title>
+      <link>https://blog.adafruit.com/2026/02/17/my-smart-sleep-mask-broadcasts-users-brainwaves-to-an-open-mqtt-broker-iotsecurity/</link>
+      <description>Aimilios Hatzistamou recently got a smart sleep mask from Kickstarter. What was not expected was the ability to read strangers’ brainwaves and send them electric impulses in their sleep. The mask was from a small Chinese research company, very cool hardware — EEG brain monitoring, electrical muscle stimulation around the eyes, vibration, heating, audio. I […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/my-smart-sleep-mask-broadcasts-users-brainwaves-to-an-open-mqtt-broker-iotsecurity/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/b-30.png" length="0" type="image/png"/>
+      <pubDate>Tue, 17 Feb 2026 21:49:38 +0000</pubDate>
     </item>
     <item>
-      <title>Turning an ESP32 into a thermal USB webcam</title>
-      <link>https://blog.adafruit.com/2026/02/16/turning-an-esp32-into-a-thermal-usb-webcam/</link>
-      <description>Chris G on atomic14 turns an ESP32 into a real USB webcam with a real camera. I also wanted to push things a bit further – I’ve got an I2C thermal camera module – why not turn that into a USB camera? The ESP32S3 has native USB support, which means it can present itself directly as a […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/16/turning-an-esp32-into-a-thermal-usb-webcam/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/b-24.png" length="0" type="image/png"/>
-      <pubDate>Mon, 16 Feb 2026 20:23:14 +0000</pubDate>
+      <title>Serial Studio: see data from Arduino, ESP32, Raspberry Pi, and other devices in real-time</title>
+      <link>https://blog.adafruit.com/2026/02/17/serial-studio-see-data-from-arduino-esp32-raspberry-pi-and-other-devices-in-real-time/</link>
+      <description>Serial Studio is a tool that helps you see data from Arduino, ESP32, Raspberry Pi, and other devices in real-time. It works with serial ports (UART), Bluetooth Low Energy (BLE), MQTT, Modbus TCP/RTU, CAN Bus, TCP/UDP networks, and audio devices. You can create dashboards to monitor sensors and debug hardware without writing code. Serial Studio […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/serial-studio-see-data-from-arduino-esp32-raspberry-pi-and-other-devices-in-real-time/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/a-35.png" length="0" type="image/png"/>
+      <pubDate>Tue, 17 Feb 2026 22:09:56 +0000</pubDate>
     </item>
     <item>
-      <title>ICYMI Python on Microcontrollers Newsletter: CircuitPython 10.1 Release Candidate, AI on Microcontrollers, and Much More!</title>
-      <link>https://blog.adafruit.com/2026/02/16/icymi-python-on-microcontrollers-newsletter-circuitpython-10-1-release-candidate-ai-on-microcontrollers-and-much-more/</link>
-      <description>If you missed this week’s Python on Microcontrollers Newsletter, here is the ICYMI (in case you missed it) version. To never miss another issue, subscribe now! – You’ll get a terrific newsletter each Monday (which is out before this post). 12,327 subscribers worldwide! The next newsletter goes out Monday morning and subscribing is the best way to keep […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/16/icymi-python-on-microcontrollers-newsletter-circuitpython-10-1-release-candidate-ai-on-microcontrollers-and-much-more/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/2026.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 16 Feb 2026 21:51:32 +0000</pubDate>
+      <title>CircuitPython 10.1.1 Released!</title>
+      <link>https://blog.adafruit.com/2026/02/17/circuitpython-10-1-1-released/</link>
+      <description>From the GitHub release page: This is CircuitPython 10.1.1, the latest minor revision of CircuitPython, and is a new stable release. CircuitPython 10.1.0 was withdrawn due to a show-stopper performance problem on Espressif. See Changes below. Notable changes in 10.1.1 from 10.0.x Add mipidsi module to support MIPI DSI displays. Currently enabled for ESP32-P4. Fix […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/circuitpython-10-1-1-released/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/07/CircuitPython-10-360x480.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 00:00:08 +0000</pubDate>
     </item>
     <item>
-      <title>Making an STM32G431 analogue TV transmitter</title>
-      <link>https://blog.adafruit.com/2026/02/16/making-an-stm32g431-analogue-tv-transmitter/</link>
-      <description>Kris Slyka has a bit of an obsession with vintage analogue video cameras. A few weeks ago I felt like it was finally time to take the next step and get myself one of those “televisions” I had heard so much about. Stop feeding those pristine analogue signals into a digital capture card and instead […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/16/making-an-stm32g431-analogue-tv-transmitter/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/blink-18.png" length="0" type="image/png"/>
-      <pubDate>Mon, 16 Feb 2026 22:28:41 +0000</pubDate>
+      <title>Coming Soon – Adafruit AS7343 14-Channel Multi-Spectral Sensor Breakout</title>
+      <link>https://blog.adafruit.com/2026/02/17/coming-soon-adafruit-as7343-14-channel-multi-spectral-sensor-breakout/</link>
+      <description>This is a spectrometer on a chip (video), and it’s getting the Adafruit breakout treatment. The AS7343 is the successor to our AS7341, bumped from 10 channels to 14, with 12 spanning visible light into near-infrared (380nm to 1000nm), plus clear and flicker detection. Same footprint and pinout as the ’41, so your existing wiring […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/coming-soon-adafruit-as7343-14-channel-multi-spectral-sensor-breakout/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/as7343-600x337.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 01:45:03 +0000</pubDate>
     </item>
     <item>
-      <title>Can a SPARC server host a website today? Why yes!</title>
-      <link>https://blog.adafruit.com/2026/02/16/can-a-sparc-server-host-a-website-today-why-yes/</link>
-      <description>Darko Mesaroš is hosting a website on a 25-year-old 2021 Sun Netra X1 SPARC server running OpenBSD 7.8. The setup includes: Noctua fan mods for quiet operation, httpd serving static HTML/CSS, OpenBSD’s pf firewall with default-deny rules, and Cloudflare tunnels to expose it safely without port forwarding. The server pulls ~55MB of RAM and serves […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/16/can-a-sparc-server-host-a-website-today-why-yes/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/a-33.png" length="0" type="image/png"/>
-      <pubDate>Mon, 16 Feb 2026 23:19:48 +0000</pubDate>
+      <title>Traversal by Maria Popova… Polymaths, and the Transit of Venus</title>
+      <link>https://blog.adafruit.com/2026/02/17/traversal-by-maria-popova-polymaths-and-the-transit-of-venus/</link>
+      <description>I finished this pre-ordered book today, it was released late last night, and I will probably read it again! Traversal by Maria Popova is a mix of biography and science history. She weaves together roughly fifteen boundary-crossers across 250 years. From Captain Cook, who dragged telescopes to Tahiti for the Transit of Venus and made […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/traversal-by-maria-popova-polymaths-and-the-transit-of-venus/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/traversal.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 01:57:27 +0000</pubDate>
     </item>
     <item>
-      <title>The long tail of LLM-assisted decompilation</title>
-      <link>https://blog.adafruit.com/2026/02/16/the-long-tail-of-llm-assisted-decompilation/</link>
-      <description>Chris Lewis continues to push the envelope of LLM-assisted decompilation in his latest post, building on work on how coding agents could be used to decompile Nintendo 64 games. Decompilation attempts take time and tokens, so the choice of which unmatched functions to work on matters a great deal. My original approach prioritized functions based […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/16/the-long-tail-of-llm-assisted-decompilation/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/blink-20.png" length="0" type="image/png"/>
-      <pubDate>Mon, 16 Feb 2026 23:31:00 +0000</pubDate>
+      <title>The Python on Microcontrollers Newsletter: subscribe for free</title>
+      <link>https://blog.adafruit.com/2026/02/17/the-python-on-microcontrollers-newsletter-subscribe-for-free-2-12-2-2/</link>
+      <description>The Python for Microcontrollers Newsletter is the place for the latest news involving Python on hardware (microcontrollers AND single board computers like Raspberry Pi). This ad-free, spam-free weekly email is filled with CircuitPython, MicroPython, and Python information that you may have missed, all in one place! You get a summary of all the software, events, projects, and the latest hardware worldwide once a week, no […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/the-python-on-microcontrollers-newsletter-subscribe-for-free-2-12-2-2/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/Subscribe-2026-02.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 03:09:43 +0000</pubDate>
     </item>
   </channel>
 </rss>

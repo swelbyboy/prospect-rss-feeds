@@ -8,71 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 07:08:47 +0000</lastBuildDate>
-    <item>
-      <title>Windows 98復活計劃（二十三）：2026年Windows 98、XP模擬環境大閱兵，還有新方案持續開發中</title>
-      <link>https://www.techbang.com/posts/127898-win98-xp-emulation-2026-revival-plans</link>
-      <description>筆者從2023農曆年開始製作Windows 98復活計劃系列專題報導，至今也已經是第4個年頭，在開始今年的「手術」之前，我們先看看到了2026年有什麼新的解決方案。筆者從2023農曆年開始製作Windows 98復活計劃系列專題報導，至今也已經是第4個年頭，在開始今年的「手術」之前，我們先看看到了2026年有什麼新的解決方案。 舊方案快速回顧 筆者在系列專題報導的第1集介紹利用DOSBox與衍生版本、PCem（現已停止更新）、VirtualBox等不同的模擬器、虛擬機器等方案執行Windows 98，彼此各有強項，適合運用於不同情境。 延伸閱讀：Windows 98復活計劃目錄 DOSBox家族的本質為x86模擬器，其運作原理為透過軟體方式模擬x86處理器，並將程式放到模擬的「軟體處理器」上執行，除了能夠相容DOS程式之外，衍生的DOSBox-X與DOSBox Pure加入3dfx Voodoo 3D加速卡模擬以及支援Windows 95、98、Me等作業系統的功能，方便玩家執行Windows程式與遊戲。 PCem也採用模擬方式進行，它能夠模擬Intel Pentium II處理器與V</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127898-win98-xp-emulation-2026-revival-plans</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127898/thumb/190772c911dfc11ae43cd326013a52d7.jpg?1770695363" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 16 Feb 2026 07:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>輝達次世代「Vera Rubin」AI 系統棄用美光 HBM4？傳 SK 海力士與三星瓜分訂單</title>
-      <link>https://www.techbang.com/posts/127875-nvidia-vera-rubin-hbm4-sk-hynix-samsung</link>
-      <description>輝達新一代AI系統Vera Rubin即將登場，其關鍵HBM4記憶體供應商名單揭曉，美光遺憾未能入選。輝達（NVIDIA）下一代代號為「Vera Rubin」的 AI 系統，預計將在今年夏末正式出貨。首批產品將以 VR200 NVL72 機櫃級解決方案的形式登場，專門鎖定新一代大型語言模型的訓練與推論需求。不過在關鍵的 HBM4 高頻寬記憶體供應商名單上，傳出輝達最終只選定 SK 海力士與三星，美光（Micron）則遺憾出局。 根據產業鏈研究機構 SemiAnalysis 釋出的報告顯示，在 VR200 NVL72 系統的 HBM4 訂單分配中，SK 海力士預計將吃下約 70% 的份額，剩下的 30% 則由三星拿下，而美光目前在 HBM4 方面尚未獲得任何供貨承諾。這也意味著，在高階 AI 伺服器記憶體市場上，SK 海力士與三星將繼續維持雙寡頭地位，主導輝達的旗艦平台供應鏈。 雖然痛失 HBM4 大單，但美光在「Vera Rubin」平台中並非完全缺席。報導指出，美光將負責為「Vera」CPU 提供 LPDDR5X 記憶體，單顆 CPU 最高可搭配 1.5 TB 容量，藉此彌補 HBM</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127875-nvidia-vera-rubin-hbm4-sk-hynix-samsung</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127875/thumb/a1c0582c489ce5a47741a49d982d35fc.jpg?1770622145" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 16 Feb 2026 08:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>太空科學家打造古早時代磁芯記憶體隨身碟：容量僅 128 Byte，大小如餐盤</title>
-      <link>https://www.techbang.com/posts/127756-space-scientists-retro-core-memory</link>
-      <description>史上最「沒用」卻最酷的隨身碟問世！研究者利用古老的磁芯記憶體技術，親手打造出這款獨特的隨身碟。儘管這款磁芯記憶體儲存空間僅128位元組，卻完美展現了復古與現代科技的浪漫結合。這絕對是史上最「沒用」但也最酷的隨身碟！最近有一位太空科學研究者，突發奇想利用比積體電路還要古老的「磁芯記憶體」技術，親手打造了一款隨身碟。雖然這台裝置體積大到像個餐盤，儲存空間甚至連一則早期的 Twitter 推文都塞不下，但這種將復古與現代科技結合的浪漫，依然在網路上引起熱烈討論。 尺寸驚人卻只能存 128 byte：讀取竟然還會自我毀滅？ 根據外媒 Tom's Hardware 報導，這位日本電腦愛好者 @dyd_Nao 研發的裝置，核心採用了 20 世紀 50 年代主流的磁芯記憶體（Magnetic Core Memory）。這種技術的資料密度低到讓人想笑，卻有著非常硬派的特性。 最有趣的地方在於，磁芯記憶體雖然具有非揮發性（斷電資料不會消失），但它的讀取過程卻是破壞性的。簡單來說，每當你讀取一個位元，那個位元就會被清除。為了讓資料能留下來，系統必須在讀取的瞬間立刻執行重寫。 古老磁環與樹莓派的跨時空聯手</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127756-space-scientists-retro-core-memory</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127756/thumb/ebcd0b6bc3f7f0882d6537fe716cdd30.jpg?1770021036" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 16 Feb 2026 08:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apple 春季發表會 3/4 登場！新 iPhone 17e 與入門 MacBook 即將亮相？</title>
-      <link>https://www.techbang.com/posts/127994-apple-spring-event-iphone-17e-macbook-launch</link>
-      <description>蘋果即將舉辦「Special Apple Experience」發表會，市場高度關注針對入門市場的iPhone 17e與平價版MacBook等蘋果新產品，有望為消費者帶來更多選擇與驚喜。蘋果稍早向媒體發出邀請函，宣布將於美東時間 3 月 4 日上午 9 點（台灣時間 3 月 4 日晚間 10 點）舉辦名為「Special Apple Experience」的春季發表活動。不同於過往多在加州 Apple Park 舉行，此次活動將同步於美國紐約、英國倫敦與中國上海舉辦實體體驗活動。 外界普遍推測，本次發表會的焦點之一，可能是傳聞已久的 iPhone 17e。根據外媒分析，這款定位入門市場的機型，預期將延續「高性價比」策略，可能搭載 A19 晶片，並首度支援 MagSafe 無線充電，以強化與現行配件生態系的整合能力。 另一項受到關注的產品，則是可能首度推出的「平價版 MacBook」。市場消息指出，該機型可能採用與 iPhone 16 Pro 同級的 A18 Pro 晶片，而非 M 系列處理器，藉此降低成本並提升能源效率，同時維持全鋁合金機身與多色設計，鎖定教育市場與預算有限的消費族群。</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127994-apple-spring-event-iphone-17e-macbook-launch</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127994/thumb/2b82fae5d827d0624e1a77d89b67e3ae.png?1771260468" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 16 Feb 2026 16:48:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>祖克伯 AI 野心不只是聊天機器人！Meta 要用 AI 重塑社群靈魂：下一波「沉浸式內容」革命解析</title>
-      <link>https://www.techbang.com/posts/127753-zuckerberg-ai-immersive-social-revolution</link>
-      <description>祖克伯預言社群媒體將進入沉浸式人工智慧時代。未來，人工智慧將為社群媒體量身打造虛擬世界，徹底改變內容創作與互動模式，引領社群媒體新紀元。Meta 執行長祖克伯近期在財報會議上，再次向外界展現他對人工智慧（AI）的瘋狂執著。對他來說，AI 不僅是提高廣告效率的工具，更是決定社群媒體存亡的關鍵。他預言，社群媒體將從目前的「短影音時代」正式跨入「沉浸式 AI 時代」，未來我們滑的可能不再是別人拍的影片，而是 AI 為你量身打造的虛擬世界。 從文字到影片，接下來是「AI 生成」的天下 祖克伯在會議中梳理了社群平台的演化脈絡：從最早期的純文字狀態，演進到拍照手機普及後的照片時代，再到行動網路成熟後的短影音風潮。他強調，每一次形式的轉變都帶來了巨大的流量紅利。而下一波浪潮，就是透過 AI 實現的沉浸式體驗。 這聽起來可能有些抽象，但祖克伯給出了具體的情境：未來使用者可能只需輸入一段提示詞，系統就能即時生成一個可以互動的遊戲空間或虛擬場景，並邀請朋友一同進入。這意味著「內容創作」的門檻將徹底消失，人人都能是虛擬世界的建築師。 演算法退位，AI 助理成為社群守門人 過去幾年，TikTok 帶起的「強大</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127753-zuckerberg-ai-immersive-social-revolution</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127753/thumb/682b4224012c7ae726243fad7ac3bc96.jpg?1770021201" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 00:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>高通 Snapdragon X2 Elite 跑分曝光！五戰三勝正面對決蘋果 M5，Windows 筆電終於要起飛了？</title>
-      <link>https://www.techbang.com/posts/127927-snapdragon-x2-elite-vs-m5-benchmarks</link>
-      <description>高通 Snapdragon X2 Elite 跑分曝光，其驚人效能多核擊敗蘋果 M5 晶片，讓 Windows on ARM 筆電充滿期待。高通（Qualcomm）新一代處理器 Snapdragon X2 Elite 的跑分成績近日意外曝光，展現出驚人的效能躍進。根據外媒 Hardware Canucks 獲得華碩（ASUS）授權的獨家測試，這款新晶片在五項關鍵測試中，竟然有三項直接擊敗蘋果（Apple）最新的 M5 晶片，讓人對今年的 Windows on ARM 筆電充滿期待 。 多核心效能大爆發，算圖轉檔直接碾壓 根據 Hardware Canucks 的實測數據，這次受測的機型是搭載 Snapdragon X2 Elite 的華碩 Zenbook 工程機 。雖然這顆晶片的功耗設定為 31W，略高於蘋果 M5 的 26W，但多出來的 5W 似乎換來了超乎預期的回報 。 在考驗多工處理能力的 Cinebench 2024 多核心測試中，Snapdragon X2 Elite 拿下了 1432 分，不僅比蘋果 M5 的 1153 分高出 24.2%，更比自家前代 Snapdragon</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127927-snapdragon-x2-elite-vs-m5-benchmarks</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127927/thumb/12cb2f550b895d92c9b9af931679008f.jpg?1770718917" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 01:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI創意大PK！實測結果揭曉：它超車普通人，卻敗給「這群」頂尖高手</title>
-      <link>https://www.techbang.com/posts/127819-ai-creativity-pk-ai-vs-experts</link>
-      <description>最新研究指出AI創意已超越普通人類，但頂尖人類創作者的AI創意仍難以企及。AI創意將是人機協作的強大工具，深刻改變人類想像。AI 創意真的贏過人類了嗎？最新的研究給出了答案：AI 確實比「普通人」更具創意，但面對頂尖創作者依然只能甘拜下風。這項由加拿大蒙特婁大學（University of Montreal）心理學系主導的大規模研究，針對 ChatGPT、Claude 與 Gemini 等主流大型語言模型進行了系統性評估，並將結果與超過 10 萬名人類受試者的資料進行比對 。 AI 創意表現：超車平庸，難敵頂尖 研究團隊利用「發散聯想任務」（Divergent Association Task, DAT）等心理測驗來衡量發散性思維。這項測驗要求受試者給出 10 個語意盡可能不同的詞語（例如：銀河、叉子、自由），並計算詞語間的語意距離 。 研究結果顯示： 平均得分超越普通人：包含 GPT-4 在內的大型語言模型，在發散性語言創意的平均得分已超越普通人類參與者 。 頂尖人類依然穩坐冠軍：即便目前最強的 AI 系統，其表現仍低於最具創意的人類個體 。 「上半區」人類表現更佳：如果只觀察創意水</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127819-ai-creativity-pk-ai-vs-experts</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127819/thumb/eb06131c083ee7ba278d50302b877697.jpg?1770200263" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 02:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>iPhone 用戶學起來！攝影師紀映光分享春節必備 iPhone 攝影心法</title>
-      <link>https://www.techbang.com/posts/127981-spring-festival-iphone-photo-tips</link>
-      <description>掌握iPhone拍攝心法，善用攝影風格，讓年節照片更具層次與氛圍感，看攝影師紀映光分享他的 iPhone 拍攝心法。農曆過年有 9 天連假，不論是安排出國旅行、返鄉團聚，或走訪廟宇、櫻花景點走春，手機幾乎都是隨手記錄年節氛圍的最佳工具。這次攝影師紀映光分享他的 iPhone 拍攝心法，示範如何透過 iPhone 17 Pro Max 的焦段切換與「攝影風格」功能，搭配常用的相機與調色 App，在日常場景中拍出更有層次與氛圍感的照片。 紀映光長期以 iPhone 作為主要創作工具，自 iPhone 11 開始便以手機完成大量攝影作品。他擅長透過光影與構圖營造畫面情緒，即便是生活場景，也能拍出帶有敘事感的作品。這次他從實際設定、拍攝技巧到後製 App 使用，整理出幾個容易上手的關鍵重點。 首先，在開始拍攝前，建議先進入「設定」中的「相機」，開啟「格線」與「水平儀」。格線能幫助構圖更精準，例如三分法構圖；水平儀則能避免畫面傾斜，特別是在拍建築或地景時相當實用。 若要使用「攝影風格」，需確認影像格式為「高效率」（HEIC）。開啟後，即可在拍攝前或拍攝後於「照片」App 內進行風格調整。 善用攝</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127981-spring-festival-iphone-photo-tips</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127981/thumb/dd233d24df3023f1f96a757a6578c72c.jpg?1770971010" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 03:30:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 18 Feb 2026 07:10:38 +0000</lastBuildDate>
     <item>
       <title>僅 0.9B 參數卻有業界頂尖實力！Z.ai 開源 GLM-OCR 模型，輕量到能在本地端流暢執行</title>
       <link>https://www.techbang.com/posts/127931-z-ai-glm-ocr-0-9b-local</link>
@@ -88,6 +24,70 @@
       <guid isPermaLink="false">https://www.techbang.com/posts/127839-apify-gemini-point-assistant</guid>
       <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127839/thumb/89fa034b4462d9887a8e09e77545adba.jpg?1770276842" length="0" type="image/jpeg"/>
       <pubDate>Tue, 17 Feb 2026 06:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windows 98復活計劃（二十五）：DOSBox Pure Unleashed特色解析，可獨立執行、1支手把打天下</title>
+      <link>https://www.techbang.com/posts/127932-dosbox-pure-win98-standalone-gamepad</link>
+      <description>筆者跟懷舊遊戲同好聊天時，常常聽到不習慣RetroArch模擬器的抱怨，現在DOSBox Pure Unleashed成為獨立模擬器，能夠擺脫RetroArch獨自運作。筆者跟懷舊遊戲同好聊天時，常常聽到不習慣RetroArch模擬器的抱怨，現在DOSBox Pure Unleashed成為獨立模擬器，能夠擺脫RetroArch獨自運作。 Windows遊戲也能當Rom讀取 被筆者稱為萬能模擬器的RetroArch可以透過前端主程式去調度不同的模擬器核心（Core），讓使用者可以在統一的操作介面下使用幾乎所有模擬器，但是由於它的功能太過豐富，也讓操作與設定比較複雜，導致許多玩家覺得使用獨立模擬器（Stand Alone Emulator）比較方便。 延伸閱讀：Windows 98復活計劃目錄 DOSBox Pure Unleashed保留了DOSBox Pure的所有功能，並脫離RetroArch成為獨立模擬器，不但省去了肥大的主程式，使用者也可以享受「點2下開啟程式」、「拖曳ROM檔案就開始玩」的簡明使用體驗。 DOSBox Pure Unleashed除了可以使用鍵盤、滑鼠操作，方</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127932-dosbox-pure-win98-standalone-gamepad</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127932/thumb/325fd666cc3cfbe5bdea1d52c4fff8a6.jpg?1770776697" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 17 Feb 2026 06:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>告別Win11底部魔咒！PowerToys新功能讓工作列上下左右都能放</title>
+      <link>https://www.techbang.com/posts/127776-powertoys-win11-super-taskbar</link>
+      <description>PowerToys 團隊提案「Command Palette Dock」，為 Windows 11 帶來可自由移動的第二工作列。微軟官方的 PowerToys 開發團隊最近在 GitHub 上丟出了一顆震撼彈。他們提出了一項名為「Command Palette Dock」的新功能提案，計畫在 Windows 11 中加入一個功能強大的「第二工作列」。最諷刺的是，當全球 Windows 11 使用者還在抱怨原生工作列被「鎖死」在底部時，這個由官方團隊開發的工具，卻標榜位置可以讓你隨便放。 打破限制：上下左右都能放，還能高度客製化 根據提案內容，這個「Command Palette Dock」基本上是一個常駐型的工具列，使用者可以自由地將它固定在螢幕的頂端、底部，甚至是左右兩側。這對習慣 macOS 或 Linux 頂部選單配置的玩家來說，無疑是個大好消息。 除了位置靈活，這款新工作列還支援極高的個人化選項： 透明度與外觀：可以調整背景模糊度、不透明度以及顏色，完美融入 Windows 11 的美學。 三區配置：參考了主流系統的設計，將內容分為「起始、中央、末端」三個邏輯區域，讓資訊排列更</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127776-powertoys-win11-super-taskbar</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127776/thumb/e741557518f851a7addbaec6030b4754.jpg?1770028438" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 17 Feb 2026 07:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>先前流出的 Insta360 間諜照中的新相機，疑似搭載 M43 片幅感光元件？</title>
+      <link>https://www.techbang.com/posts/127895-insta360-m43-sensor-leak</link>
+      <description>不久前 Insta360 執行長在社群平台上釋出一張神祕的新機局部照片，引發了攝影圈的熱烈討論，而如今有線索指出，該台尚未發表的新相機，疑似搭載 M43 片幅感光元件。不久前 Insta360 執行長在社群平台上釋出一張神祕的新機局部照片，引發了攝影圈的熱烈討論，而如今有線索指出，該台尚未發表的新相機，疑似搭載 M43 片幅感光元件。 原型機細節藏玄機 這波討論的源頭，來自 Insta360 執行長兩週前在社群平台上分享的一張原型機照片。這款新機採用了大膽的米白色塗裝，機身設計與現有的 Ace Pro 或 X 系列截然不同，具備明顯的復古與專業感。最引人注目的是，機身上方配置了實體的快門撥輪與曝光補償轉盤，這在追求自動化的運動相機上極為罕見，透露出這款相機將更注重進階玩家的操控體驗。 搭載 M43 感光元件機率大增 除了外型，從流出的實拍樣張中可以發現關鍵線索。樣張照片的原始解析度為 5280 x 3956 像素，總像素約為 2,000 萬，這項數據與 Sony 生產的 IMX472 感光元件規格完全吻合。值得注意的是，這片感光元件目前正服役於 OM System 的 OM-1 Mar</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127895-insta360-m43-sensor-leak</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127895/thumb/962c236d9b4834c47ea35418c5e888cc.jpg?1770693036" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 17 Feb 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>神秘無人機真相大白！工程師「手作飛機」太前衛，頻遭誤認UFO釀機場危機</title>
+      <link>https://www.techbang.com/posts/127852-mystery-drone-ufo-airport-crisis</link>
+      <description>歐洲機場癱瘓的「神祕無人機」謎團揭曉！原來是比利時工程師的合法手作飛機，其獨特三角翼設計常被誤認。這架三角翼手作飛機，不再是神祕無人機，而是獲准飛行的創意結晶。造成歐洲多國機場一度癱瘓、民眾人心惶惶的「神祕無人機」真相終於大白了！原來這不是什麼軍事武器或 UFO，而是出自一位比利時工程師之手的「手作飛機」。 去年底開始，歐洲多個國家上空頻繁出現不明無人機，由於擔心飛安威脅，甚至導致部分城市的民用機場被迫暫停營運 。而上週在馬斯垂克—亞琛機場（Maastricht Aachen Airport）周邊，再度有目擊者通報發現不明無人機蹤跡 。 經過警方調查披露，這些神祕飛行物實際上是比利時工程師巴特・費爾海斯（Bart Verhees）自行設計並建造的三角形翼（三角翼）飛機 。這種三角翼構型在高空中飛行時，外型與一般常見的民用飛機截然不同，反而更像電影中的軍事無人機或神祕飛行器 。 警方指出，這次引起騷動的是費爾海斯駕駛的「Verhees Delta D2」雙座飛機 。這架飛機是他花了約五年時間親手打造，且早已獲得民航當局的飛行許可，當天是從赫赫特爾（Hechtel）附近的運動機場合法起飛</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127852-mystery-drone-ufo-airport-crisis</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127852/thumb/90fc16d1004774bf1aac2f2e8f3f155d.jpg?1770283324" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 17 Feb 2026 08:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI生產力悖論：當科技解放工作，為何員工卻更疲憊？</title>
+      <link>https://www.techbang.com/posts/127942-ai-productivity-paradox</link>
+      <description>AI 真的能將人類從繁重工作中解脫嗎？最新研究揭示，AI 雖提升個人能力，卻導致員工工作量不減反增，反而加劇疲勞與職業倦怠。這份工作量，正讓企業變成精疲力竭的機器。目前美國職場文化中最吸引人的說法，並非人工智慧會搶走工作，而是它能將人類從繁重的工作中解脫出來。 過去三年，科技業一直向數百萬焦慮不安的人推銷這個理念，而大眾也迫切地選擇相信。誠然，部分白領職位會消失，但該觀點主張對於大多數職位而言，AI 是能力的放大器。使用者會成為更有能力、更不可替代的律師、顧問、作家、程式設計師或金融分析師。工具為人所用，大家不必再拼命工作，達成人人雙贏。 不過《哈佛商業評論》近期發表的一項研究，順著這個前提推導出了真實結論：研究發現的並非一場生產力革命，而是企業有可能變成讓人精疲力竭的機器。 加州大學柏克萊分校的研究人員將其稱為進行中的研究，他們在一家擁有 200 人的科技公司內部觀察八個月，記錄員工真正接納 AI 後的工作狀態。透過 40 多場深度訪談，他們發現這家公司並未給員工施壓，也沒有要求達成新的業績目標。 然而，僅僅因為工具讓更多工作變得可行，員工就主動開始做更多事。也正因為能完成更多任務，</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127942-ai-productivity-paradox</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127942/thumb/b6047d8f611b23e19ca0bd0c5b2e7729.jpg?1770792665" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 00:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>過去九個月手機記憶體價格漲三倍！下一波輪到路由器</title>
+      <link>https://www.techbang.com/posts/127988-phone-memory-prices-up-3x-routers-next</link>
+      <description>AI伺服器需求推升記憶體價格，導致路由器等消費性產品成本激增。這波記憶體價格上漲趨勢，將嚴重影響電信商寬頻部署與路由器採購，AI伺服器效應預計至少持續至2026年。根據市場研究機構 Counterpoint 近期發布的記憶體價格追蹤報告顯示，由於 AI 伺服器市場需求持續增加，帶動了 DRAM 與 NAND 記憶體價格在過去一年內出現顯著波動。這項趨勢影響範圍涵蓋個人電腦、入門級智慧型手機、路由器及機上盒等消費性電子產品。數據指出，這些產品所使用的記憶體零件在過去 12 個月內，價格漲幅已經超過 600%。 目前市場供需失衡的狀態主要源於高毛利 AI 伺服器對記憶體產能的排擠，使得傳統消費性市場面臨供應緊張與成本上升的壓力。預測顯示，這波價格上漲的趨勢至少會持續到 2026 年 6 月。儘管價格有可能在 2026 年上半年達到波段高點，但供應受限的情況預計會延續更長一段時間，短期內難以完全緩解。 在各類受影響的電子產品中，路由器、閘道器與機上盒等網通設備的成本變動相對明顯。觀察自 2025 年以來的每月價格趨勢可以發現，相較於智慧型手機記憶體約 3 倍的漲幅，採用消費型記憶體的寬頻產品</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127988-phone-memory-prices-up-3x-routers-next</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127988/thumb/a16ce0360f4595bc2e8ba6ea1253524b.png?1771160443" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 01:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>大年初二YouTube全球大當機！逾57萬用戶崩潰，首頁癱瘓搜尋仍可用</title>
+      <link>https://www.techbang.com/posts/127995-youtube-outage-lunar-new-year</link>
+      <description>大年初二全球 YouTube 當機，逾 57 萬用戶受影響，導致首頁癱瘓。儘管 YouTube 當機，搜尋功能仍可運作，但首頁癱瘓原因官方尚未公布，引發用戶熱議。YouTube 大年初二全球當機逾 57 萬用戶受影響，首頁癱瘓搜尋仍可運作。台灣時間 2 月 18 日上午近 9 點起，平台陸續恢復服務，但官方原因尚未公布。 根據 Downdetector 數據，YouTube 於台灣時間上午 8:50 左右爆發大規模故障，高峰期超過 57 萬用戶通報，主要問題為網頁版與 App 首頁無法載入影片，畫面顯示全白或「發生錯誤」訊息。台灣用戶早起崩潰，「首頁顯示不出來」、「電視 YouTube 跳登入畫面」、「全球都壞了」，但從搜尋進入特定連結（如《後宮甄嬛傳》24 小時直播）或觀看紀錄仍可播放，YouTube Music 服務正常。 全球影響與反應 外媒指出，絕大多數用戶遇到的問題都是「首頁無法載入」（Homepage not loading），畫面會顯示「Something Went Wrong」（發生錯誤）的訊息，或者是完全空白。這與台灣網友回報的「首頁顯示不出來」完全吻合。​ 國外網友</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127995-youtube-outage-lunar-new-year</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127995/thumb/519aaaea5dfe60cb1c15e339a5c81666.jpg?1771381620" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 02:27:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>文組必學！AI駕馭力是什麼？職場加薪56%的關鍵秘密大公開</title>
+      <link>https://www.techbang.com/posts/127853-ai-workplace-skill-2026</link>
+      <description>「AI 駕馭力」已成為 2026 年職場新職能！學會正確運用 AI 駕馭力，不僅能賦能你的職場實力，更能讓薪資翻倍，成為未來職場不可或缺的關鍵人才。「你平常怎麼用 AI？」不只科技業，連傳統產業的行銷、業務、人資面試時，都會遇到這個問題。會用 ChatGPT 寫文案、整理會議記錄，真的是企業要的「AI 能力」嗎？ 《比薪水》探討 AI 駕馭力的定義、常見誤解、培養方法，為你的職場實力加分！ AI 駕馭力是什麼？ AI 駕馭力（AI Fluency）是指與 AI 協作思考的能力，在理解 AI 限制的前提下，將 AI 整合進工作流程，並且把 AI 當作放大思考能力的工具。 AI 駕馭力包含三個層面： 認知：將思考轉換成 AI 能理解的「結構化指令」，例如問題拆解、參數設定、辨識 AI 無法察覺的規律。 倫理：AI 不是中立工具，理解 AI 偏見、隱私風險、自動化影響。 操作：將 AI 整合進工作流程，從研究到分析，連結 AI 與工作成果。 AI 駕馭力結合批判思考、創意、邏輯，構成了新的工作語言。 AI 駕馭力的核心在於判斷力 「你會用 AI 嗎？」 「會，我每天用 ChatGPT 寫文案</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127853-ai-workplace-skill-2026</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127853/thumb/f45890c909056ed8b5caad8bf5874856.jpg?1770285934" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 03:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

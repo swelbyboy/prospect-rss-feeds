@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 07:19:27 +0000</lastBuildDate>
-    <item>
-      <title>OpenAI deploys Cerebras chips for 'near-instant' code generation in first major move beyond Nvidia</title>
-      <link>https://venturebeat.com/technology/openai-deploys-cerebras-chips-for-15x-faster-code-generation-in-first-major</link>
-      <description>OpenAI on Thursday launched GPT-5.3-Codex-Spark, a stripped-down coding model engineered for near-instantaneous response times, marking the company's first significant inference partnership outside its traditional Nvidia-dominated infrastructure. The model runs on hardware from Cerebras Systems, a Sunnyvale-based chipmaker whose wafer-scale processors specialize in low-latency AI workloads.The partnership arrives at a pivotal moment for OpenAI. The company finds itself navigating a frayed relati</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/openai-deploys-cerebras-chips-for-15x-faster-code-generation-in-first-major</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7MjHYzZPCTPOi36CDs5heb/2e9b08153059f61306abd7a467cb2274/nuneybits_Vector_art_of_retro_CRT_monitor_displaying_cascading__4c1978f2-debf-4c64-bcac-269b5f7df6ca.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 12 Feb 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MiniMax's new open M2.5 and M2.5 Lightning near state-of-the-art while costing 1/20th of Claude Opus 4.6</title>
-      <link>https://venturebeat.com/technology/minimaxs-new-open-m2-5-and-m2-5-lightning-near-state-of-the-art-while</link>
-      <description>Chinese AI startup MiniMax, headquartered in Shanghai, has sent shockwaves through the AI industry today with the release of its new M2.5 language model in two variants, which promise to make high-end artificial intelligence so cheap you might stop worrying about the bill entirely. It was made open source on Hugging Face under a modified MIT License requiring that those using the model (or custom variants) for commercial purposes "prominently display 'MiniMax M2.5' on the user interface of such</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/minimaxs-new-open-m2-5-and-m2-5-lightning-near-state-of-the-art-while</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7BkiJw4Sda8kmGOMjm0AHC/d1258ce9ca1f941e68065f23464ce4a9/Zmf7qn_asvrC8yIjNKJqx_gtzOnyvS.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 12 Feb 2026 20:28:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nvidia’s new technique cuts LLM reasoning costs by 8x without losing accuracy</title>
-      <link>https://venturebeat.com/orchestration/nvidias-new-technique-cuts-llm-reasoning-costs-by-8x-without-losing-accuracy</link>
-      <description>Researchers at Nvidia have developed a technique that can reduce the memory costs of large language model reasoning by up to eight times. Their technique, called dynamic memory sparsification (DMS), compresses the key value (KV) cache, the temporary memory LLMs generate and store as they process prompts and reason through problems and documents.While researchers have proposed various methods to compress this cache before, most struggle to do so without degrading the model's intelligence. Nvidia'</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/nvidias-new-technique-cuts-llm-reasoning-costs-by-8x-without-losing-accuracy</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6Op858lSN4iIkbMucN5ayA/a2b5ca432d5f5c7573cca25abb650546/Spase_attention.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 12 Feb 2026 22:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to test OpenClaw without giving an autonomous agent shell access to your corporate laptop</title>
-      <link>https://venturebeat.com/security/how-to-test-openclaw-without-giving-an-autonomous-agent-shell-access-to-your</link>
-      <description>Your developers are already running OpenClaw at home. Censys tracked the open-source AI agent from roughly 1,000 instances to over 21,000 publicly exposed deployments in under a week. Bitdefender’s GravityZone telemetry, drawn specifically from business environments, confirmed the pattern security leaders feared: employees deploying OpenClaw on corporate machines with single-line install commands, granting autonomous agents shell access, file system privileges, and OAuth tokens to Slack, Gmail,</description>
-      <guid isPermaLink="false">https://venturebeat.com/security/how-to-test-openclaw-without-giving-an-autonomous-agent-shell-access-to-your</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/Xir01lWrwgjJlhWiOFz4M/37bf5c51904ea815798f03a6e8a67e7c/hero_how_to_build_clawbot_FINAL.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 13 Feb 2026 17:30:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 18 Feb 2026 07:19:22 +0000</lastBuildDate>
     <item>
       <title>AI agents turned Super Bowl viewers into one high-IQ team — now imagine this in the enterprise</title>
       <link>https://venturebeat.com/orchestration/ai-agents-turned-super-bowl-viewers-into-one-high-iq-team-now-imagine-this</link>
@@ -50,20 +18,52 @@
       <pubDate>Fri, 13 Feb 2026 19:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Nvidia, Groq and the limestone race to real-time AI: Why enterprises win or lose here</title>
-      <link>https://venturebeat.com/infrastructure/nvidia-groq-and-the-limestone-race-to-real-time-ai-why-enterprises-win-or</link>
-      <description>​From miles away across the desert, the Great Pyramid looks like a perfect, smooth geometry — a sleek triangle pointing to the stars. Stand at the base, however, and the illusion of smoothness vanishes. You see massive, jagged blocks of limestone. It is not a slope; it is a staircase.​Remember this the next time you hear futurists talking about exponential growth.​Intel’s co-founder Gordon Moore (Moore's Law) is famously quoted for saying in 1965 that the transistor count on a microchip would do</description>
-      <guid isPermaLink="false">https://venturebeat.com/infrastructure/nvidia-groq-and-the-limestone-race-to-real-time-ai-why-enterprises-win-or</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/08ilFZNVYo9OJqR9Z17ci/9196ada486dd8eb15769c1f096076b10/Limestone.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 15 Feb 2026 19:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Most ransomware playbooks don't address machine credentials. Attackers know it.</title>
       <link>https://venturebeat.com/security/machine-identities-missing-link-ransomware-playbooks</link>
       <description>The gap between ransomware threats and the defenses meant to stop them is getting worse, not better. Ivanti’s 2026 State of Cybersecurity Report found that the preparedness gap widened by an average of 10 points year over year across every threat category the firm tracks. Ransomware hit the widest spread: 63% of security professionals rate it a high or critical threat, but just 30% say they are “very prepared” to defend against it. That’s a 33-point gap, up from 29 points a year ago.CyberArk’s 2</description>
       <guid isPermaLink="false">https://venturebeat.com/security/machine-identities-missing-link-ransomware-playbooks</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/FM3OmDrk1ni5sgIcPNXs6/9d2bca6ed49236fae4209daee1494204/hero.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Mon, 16 Feb 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nvidia, Groq and the limestone race to real-time AI: Why enterprises win or lose here</title>
+      <link>https://venturebeat.com/infrastructure/nvidia-groq-and-the-limestone-race-to-real-time-ai-why-enterprises-win-or</link>
+      <description>​From miles away across the desert, the Great Pyramid looks like a perfect, smooth geometry — a sleek triangle pointing to the stars. Stand at the base, however, and the illusion of smoothness vanishes. You see massive, jagged blocks of limestone. It is not a slope; it is a staircase.​Remember this the next time you hear futurists talking about exponential growth.​Intel’s co-founder Gordon Moore (Moore's Law) is famously quoted for saying in 1965 that the transistor count on a microchip would do</description>
+      <guid isPermaLink="false">https://venturebeat.com/infrastructure/nvidia-groq-and-the-limestone-race-to-real-time-ai-why-enterprises-win-or</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/08ilFZNVYo9OJqR9Z17ci/9196ada486dd8eb15769c1f096076b10/Limestone.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 16 Feb 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qodo 2.1 solves your coding agents' 'amnesia' problem, giving them an 11% precision boost</title>
+      <link>https://venturebeat.com/orchestration/qodo-2-1-solves-your-coding-agents-amnesia-problem-giving-them-an-11</link>
+      <description>As AI-powered coding tools flood the market, a critical weakness has emerged: by default, as with most LLM chat sessions, they are temporary — as soon as you close a session and start a new one, the tool forgets everything you were just working on. Developers have worked around this by having coding tools and agents save their state to markdown and text files, but this solution is hacky at best. Qodo, the AI code review startup, believes it has a solution with the launch of what it calls the ind</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/qodo-2-1-solves-your-coding-agents-amnesia-problem-giving-them-an-11</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6bfLu3ANKmskAcjdLWLNiK/8b012747fae811defd7cc142d2a77b74/rFdPJQ1tsZu6KUqgSktND_8bblXVf5.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 17 Feb 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SurrealDB 3.0 wants to replace your five-database RAG stack with one</title>
+      <link>https://venturebeat.com/data/surrealdb-3-0-wants-to-replace-your-five-database-rag-stack-with-one</link>
+      <description>Building retrieval-augmented generation (RAG) systems for AI agents often involves using multiple layers and technologies for structured data, vectors and graph information. In recent months it has also become increasingly clear that agentic AI systems need memory, sometimes referred to as contextual memory, to operate effectively.The complexity and synchronization of having different data layers to enable context can lead to performance and accuracy issues. It's a challenge that SurrealDB is lo</description>
+      <guid isPermaLink="false">https://venturebeat.com/data/surrealdb-3-0-wants-to-replace-your-five-database-rag-stack-with-one</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4AyLc2Oxh17lbvpLXe4nWw/75d382eae4eb2d83e0190de9e189f16f/surrealDB-agent-memory-smk1.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 17 Feb 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI's acquisition of OpenClaw signals the beginning of the end of the ChatGPT era</title>
+      <link>https://venturebeat.com/technology/openais-acquisition-of-openclaw-signals-the-beginning-of-the-end-of-the</link>
+      <description>The chatbot era may have just received its obituary. Peter Steinberger, the creator of OpenClaw — the open-source AI agent that took the developer world by storm over the past month, raising concerns among enterprise security teams — announced over the weekend that he is joining OpenAI to "work on bringing agents to everyone." The OpenClaw project itself will transition to an independent foundation, though OpenAI is already sponsoring it and may have influence over its direction.The move represe</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/openais-acquisition-of-openclaw-signals-the-beginning-of-the-end-of-the</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2jwJDmNzfeS1nbd6vN4NEL/a860bad5013380e1bdfed816275502b5/GVW5EI63uFZKMtUTcsiMx_4Do4xtq4.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 17 Feb 2026 17:51:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic's Sonnet 4.6 matches flagship AI performance at one-fifth the cost, accelerating enterprise adoption</title>
+      <link>https://venturebeat.com/technology/anthropics-sonnet-4-6-matches-flagship-ai-performance-at-one-fifth-the-cost</link>
+      <description>Anthropic on Tuesday released Claude Sonnet 4.6, a model that amounts to a seismic repricing event for the AI industry. It delivers near-flagship intelligence at mid-tier cost, and it lands squarely in the middle of an unprecedented corporate rush to deploy AI agents and automated coding tools.The model is a full upgrade across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. It features a 1M token context window in beta. It is now the default model in cl</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/anthropics-sonnet-4-6-matches-flagship-ai-performance-at-one-fifth-the-cost</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4QWgtleHnqxhkVjcq7Gli6/3b6850e88a820003ddba60ee940cce69/nuneybits_Vector_art_of_burnt_orange_token_counters_cascading_a_61577d53-2008-44d4-a4d0-3417c6af7725.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 17 Feb 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

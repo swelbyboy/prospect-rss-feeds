@@ -8,35 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 07:05:07 +0000</lastBuildDate>
-    <item>
-      <title>TypeScript 6.0 Beta釋出，替Go重寫的7.0版啟動過渡準備</title>
-      <link>https://www.ithome.com.tw/news/173954</link>
-      <description>新聞程式語言TypeScript團隊釋出TypeScript 6.0 Beta版本，並將其定位為過渡版本。官方說明，TypeScript 6.0預計是最後一個仍建立在既有JavaScript程式碼庫之上的主要版本。TypeScript團隊同時正以Go重寫TypeScript編譯器與語言服務，並將這套新程式碼庫作為TypeScript 7.0及後續版本的基礎，因此TypeScript 6.0在產品節奏上扮演銜接TypeScript 5.9與TypeScript 7.0之間的橋樑，主要任務是協助生態系提前對齊TypeScript 7.0的方向。 官方提到TypeScript 7.0預計會在TypeScript 6.0之後不久推出。TypeScript 6.0進入Beta後，官方將其視為功能已趨於穩定的版本，後續重心放在修正回報問題與降低搬遷成本。官方也提醒，TypeScript 6.0開始出現的棄用選項，雖然可透過tsconfig.json設定暫時忽略，但這些棄用項目在TypeScript 7.0的原生移植版中將會被移除，建議開發團隊先處理完棄用警告，再評估導入TypeScript 7.0</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173954</guid>
-      <pubDate>Fri, 13 Feb 2026 11:17:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Go 1.26更新泛型規則，並改善GC以及C語言互通機制效能</title>
-      <link>https://www.ithome.com.tw/news/173962</link>
-      <description>新聞程式語言Go 1.26正式釋出，new函式可直接指定初始值，泛型支援遞迴型別參照，Green Tea垃圾回收器改為預設啟用，Go與C語言之間的互通機制cgo額外負擔降低約30%，go fix命令全面改寫並新增數十個自動修正器，標準函式庫也加入多個新套件與實驗功能 Go團隊釋出Go 1.26，二進位封裝檔與安裝程式已上架官方下載頁面。新版本更新包含兩項語言語法與型別系統調整，並帶來執行階段（Runtime）與工具鏈的效能改進，以及協助程式碼跟上較新語言特性，與標準函式庫慣用寫法的自動修正工具。 過去Go內建的new函式運算元只能是型別，Go 1.26起允許以運算式作為運算元，用來直接指定新變數的初始值，讓以指標代表可選欄位的序列化資料結構更容易直接填值。泛型型別系統則解除了泛型型別不得在自身型別參數清單中自我參照的限制，使型別約束能表達更複雜的遞迴介面與資料結構需求。 先前屬於實驗功能的Green Tea垃圾回收器在Go 1.26改為預設啟用。Go團隊也指出，cgo，其基礎額外負擔約降低30%。編譯器在更多情境下可將切片（Slice）的底層儲存區配置到堆疊，藉此減少配置成本並提升整體</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173962</guid>
-      <pubDate>Fri, 13 Feb 2026 11:25:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Visual Studio正式整合Copilot單元測試代理，自動生成到修正一站完成</title>
-      <link>https://www.ithome.com.tw/news/173964</link>
-      <description>新聞微軟宣布GitHub Copilot Testing for .NET正式在Visual Studio 2026 18.3版推出，將單元測試的生成、建置、執行到失敗修正整合進IDE，開發者可在同一環境完成從程式碼到測試結果的完整流程，並表示可產生的單元測試框架，包含MSTest、NUnit與xUnit。 開發者能以Copilot Chat的@Test啟動該功能，其作為測試代理可依據解決方案結構、既有測試框架與建置設定，自動建立或調整測試專案與檔案，並在Visual Studio內反覆建置與執行，遇到失敗便嘗試修正後重新執行。完成後回傳摘要，整理受影響的測試與覆蓋率變化，並標示通過或失敗。 Copilot Testing可從類別成員、類別或檔案的層級，擴大到專案、整個方案，甚至鎖定目前的git diff。此次正式版也將提示語放寬為自由輸入，開發者以@Test呼叫測試代理，但允許以較自然的文字描述想驗證的邏輯或目標覆蓋率，同時保留結構化語法以便精準指定目標。 Visual Studio從編輯器右鍵選單新增觸發的Generate Tests入口，增加開發者發現該功能的機會，並在Copil</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173964</guid>
-      <pubDate>Fri, 13 Feb 2026 16:43:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>【資安週報】0209~0213，新加坡政府揭露4家電信業半年前遭中國駭客攻擊，該國啟動聯合網路事件回應</title>
-      <link>https://www.ithome.com.tw/news/173961</link>
-      <description>新聞【資安新聞編輯室報告】國家級駭客鎖定關鍵基礎設施（CI）的攻擊，是本星期最受關注的焦點。 新加坡政府針對去年7月披露的中國駭客組織UNC3886滲透案，於今年2月9日舉辦記者會並發布調查報告，指出共有4家新加坡電信業者遭受攻擊，包括M1、SIMBA Telecom、Singtel與SarHub。 這次事件公布突顯2大重點：首先，最早是當地一家電信業者偵測到威脅事件，在通報新加坡網路安全局（CSA）與資訊網路媒體開發管理署（IMDA）後，啟動了聯合網路事件回應，得以成功限縮駭客行動並阻斷損害擴大；其次，揭露相關攻擊手法，指出駭客利用零時差漏洞繞過邊界防火牆入侵網路，並部署高階Rootkit建立持久存取與隱匿蹤跡。 國家級駭客組織TGR-STA-1030（別名UNC6619）的攻擊動向亦受關注，資安公司Palo Alto Networks旗下Unit 42指出，最近一年有37國政府機關與關鍵CI遭其入侵，而且去年底正廣泛偵察包含臺灣在內的155個國家，主要鎖定尋求特定經貿合作關係的國家。 微軟一次修補6個已遭利用零時差漏洞 在漏洞消息方面，這一星期多家IT與OT業者發布每月例行安全更新</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173961</guid>
-      <pubDate>Sat, 14 Feb 2026 10:02:10 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 18 Feb 2026 07:07:08 +0000</lastBuildDate>
     <item>
       <title>VS Code筆記本Polyglot Notebooks退場，微軟改推單一檔案C#與Jupyter擴充套件</title>
       <link>https://www.ithome.com.tw/news/173965</link>
@@ -79,6 +51,34 @@
       <description>新聞GitHub代理式工作流程（Agentic Workflows）進入技術預覽階段，該功能可將儲存庫中的部分例行維護與協作工作，交由AI代理在自動化工作流程平臺GitHub Actions內執行。適用情境涵蓋議題（Issue）分流與標記、拉取請求檢視、持續整合失敗原因分析，以及文件與程式碼品質維護等，讓使用者以自然語言描述的方式定義自動化作業，降低撰寫與維護複雜工作流程設定的門檻。 GitHub Agentic Workflows將工作流程的主要內容改為Markdown檔案，由人以自然語言寫出要達成的目標與判斷方式，同時保留一段以YAML表示的前置設定，用來宣告觸發條件、權限、可用工具與允許的輸出範圍。Markdown工作流程並非要取代GitHub Actions，而是透過GitHub CLI擴充套件gh aw進行編譯，產生對應的鎖定檔.lock.yml，最終仍以標準GitHub Actions工作流程形式在儲存庫內執行並留存紀錄。 工作流程預設以唯讀權限執行，避免AI代理直接取得任意寫入能力。如果開發者需建立議題、留言、拉取請求或套用標籤等寫入操作，必須透過safe-outputs</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173970</guid>
       <pubDate>Mon, 16 Feb 2026 15:19:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gemini CLI擴充套件Conductor現可自動審查程式碼與檢核規格</title>
+      <link>https://www.ithome.com.tw/news/173971</link>
+      <description>新聞Google AI命令列工具Gemini CLI擴充套件發布更新，新增自動化審查功能（Automated Reviews），將工具定位從開發規畫延伸至程式碼驗證。當AI程式碼代理完成任務後，Conductor可自動產出實作後檢核報告，內容涵蓋程式碼品質、規畫與規範合規性、測試結果及基礎安全掃描，補上AI輔助開發流程中的驗證步驟。 Conductor是針對Gemini CLI設計的擴充套件，功能是將專案的上下文資訊從聊天記錄轉移到可版本控制的Markdown檔案中，讓開發者在動手實作前，先透過結構化的文件完成規畫。此次加入的自動化審查功能，則是在規畫與執行後，再加上一道驗證步驟。 Conductor自動化審查涵蓋五個主要面向，首先是程式碼審查，Conductor會對新產出的檔案執行靜態分析與邏輯分析，除了語法層面，也能標記如非同步區塊中的競態條件、空指標風險，以及可能在執行階段引發例外的邏輯錯誤等較深層的問題。 其次是規畫合規性檢核，Conductor會將實作結果與專案中的plan.md及spec.md兩份規格文件進行比對，確認開發路線圖的每個階段都已落實，且核心需求未在實作過程中遺</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173971</guid>
+      <pubDate>Tue, 17 Feb 2026 04:11:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chrome修補CSS高風險漏洞CVE-2026-2441，Google確認已遭實際利用</title>
+      <link>https://www.ithome.com.tw/news/173972</link>
+      <description>新聞Google更新Chrome桌面版穩定版本，修補1項被列為高風險的安全漏洞CVE-2026-2441，官方坦承已掌握該漏洞存在實際利用情形，代表未更新的使用者可能暴露在實際攻擊風險之下。該更新版本號為Windows與macOS的145.0.7632.75/76，以及Linux的144.0.7559.75。Google表示更新將在未來數天到數週逐步推送，使用者不一定會在同一天收到更新。 該新版本僅包含1項安全修補，對應的Chromium議題（Issue）編號為483569511，漏洞性質為CSS中的釋放後使用問題，由研究人員Shaheen Fazim在2026年2月11日回報。Google也說明，為了避免在多數使用者完成更新前讓攻擊者取得更多線索，漏洞細節與相關連結暫時維持不公開。 從公開資訊來看，CVE-2026-2441為發生在CSS元件的釋放後使用漏洞。NVD的描述指出，Google Chrome在145.0.7632.75之前的版本，可能被遠端攻擊者透過特製HTML頁面，在沙箱內執行任意程式碼。對照Google公告的修補版本，Windows與macOS為145.0.7632.</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173972</guid>
+      <pubDate>Tue, 17 Feb 2026 08:01:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meta旗下Manus個人代理進駐Telegram，支援語音、圖片與多步驟任務</title>
+      <link>https://www.ithome.com.tw/news/173973</link>
+      <description>新聞已納入Meta旗下的AI代理平臺Manus宣布推出Manus Agents功能，將其完整的AI代理能力延伸至即時通訊平臺，首波支援Telegram。使用者透過Manus工作區掃描QR Code即可完成連結，在聊天視窗中直接下達多步驟任務、傳送語音訊息與檔案，並接收AI代理產出的結果。該功能開放給所有訂閱方案的使用者，後續將擴展至其他通訊平臺。 Manus於2025年12月被Meta收購，Meta在收購說明中表示，Manus團隊將協助其消費者與商業產品導入通用AI代理能力，範圍包含Meta AI。Manus Agents的推出，是Manus在加入Meta後，將既有代理能力延伸到即時通訊平臺的最新動作。 Manus說明，Manus Agents並非功能縮減版的聊天機器人，而是與網頁版相同的完整代理系統，具備推理、工具調用與多步驟任務執行能力。使用者在Telegram對話中發送的請求，可觸發研究、資料處理、文件產出與結構化報告等工作流程，結果可直接在聊天中交付。既有的專案、技能與連接器設定也會沿用，不需另外配置。 除了文字輸入，Manus Agents也支援語音訊息、圖片與文件。這項AI</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173973</guid>
+      <pubDate>Tue, 17 Feb 2026 16:15:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>日本華盛頓飯店遭勒索軟體竊取資料</title>
+      <link>https://www.ithome.com.tw/news/173974</link>
+      <description>新聞日本華盛頓飯店本月14日發布公告，表明前一天遭到勒索軟體導致公司資料外洩。華盛頓飯店為WHG Hotels（華盛頓飯店及格拉斯麗酒店集團）旗下品牌，隸屬於藤田觀光株式會社（Fujita Kanko Inc.），在日本擁有34家據點。 這家日本飯店業者在13日晚上10點左右發現部分伺服器感染勒索軟體。在第一時間切斷網路後，他們已通報主管機關，並與外部專家合作進行調查。這次攻擊事件中，華盛頓飯店出現部分信用卡終端機無法使用的狀況，但該公司表示目前營運尚未受到重大影響。在飯店公告中，未提及入侵途徑與初始入侵細節。 經過初步研判，確認該伺服器儲存的公司業務資料遭存取，但飯店會員方案「Washington Net」的客戶資料儲存在由另一家公司管理的伺服器，目前飯店業者正在確認是否也遭到存取。 這是日本近日遭遇資料外洩事件的最新企業，回顧先前發生的類似事故，包含飲料業者朝日（Asahi）、電商Askul、日本經濟新聞、東京FM電台等，皆傳遭到第三方存取外洩資料。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173974</guid>
+      <pubDate>Wed, 18 Feb 2026 01:51:45 +0000</pubDate>
     </item>
   </channel>
 </rss>

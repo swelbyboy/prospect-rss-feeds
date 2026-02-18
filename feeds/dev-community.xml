@@ -8,78 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 07:02:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Feb 2026 07:04:51 +0000</lastBuildDate>
     <item>
-      <title>I Built Digg X: A Chrome Extension That Turns X Bookmarks into a Searchable AI Research Inbox</title>
-      <link>https://dev.to/infz/i-built-digg-x-a-chrome-extension-that-turns-x-bookmarks-into-a-searchable-ai-research-inbox-71i</link>
-      <description>I built Digg X because I had a personal problem: I was bookmarking great posts and threads on X/Twitter every day, but I couldn't reliably turn them into reusable knowledge. So I built a workflow-first Chrome extension: Capture what matters while you browse X Sync it into a structured cloud inbox Run AI analysis on top of clean, versioned content Chrome Web Store: Digg X - The Social Scout What Digg X does At a high level, Digg X is a social intelligence layer on top of X: Extract content from p</description>
-      <guid isPermaLink="false">https://dev.to/infz/i-built-digg-x-a-chrome-extension-that-turns-x-bookmarks-into-a-searchable-ai-research-inbox-71i</guid>
-      <pubDate>Tue, 17 Feb 2026 06:35:09 +0000</pubDate>
+      <title>Static Serving, H3, and the Last Piece of v0.1</title>
+      <link>https://dev.to/mdreal32/static-serving-h3-and-the-last-piece-of-v01-3iea</link>
+      <description>Last post, the Kernel was booting, the Host was listening, and projects were being discovered and routed. The skeleton was alive — but it had no skin. The Host could tell you about a project, but it could not actually serve one. That is what changed this week. Static Serving from src/ The Host now serves files from src/ — just serving. No fallback logic, no integration detection. I did not even try to find any integration today because they do not exist yet at all. The entry point is src/index.h</description>
+      <guid isPermaLink="false">https://dev.to/mdreal32/static-serving-h3-and-the-last-piece-of-v01-3iea</guid>
+      <pubDate>Wed, 18 Feb 2026 06:20:45 +0000</pubDate>
     </item>
     <item>
-      <title>What's the most useful micro tool you've built for yourself?</title>
-      <link>https://dev.to/maxxmini/whats-the-most-useful-micro-tool-youve-built-for-yourself-4jff</link>
-      <description>I've been on a bit of a building spree lately — over the past year or so, I've shipped 18 micro SaaS tools for myself and others. Most of them solve tiny, specific problems: a quick color palette generator, a markdown preview with live export, a receipt scanner, things like that. The one I keep coming back to the most? A simple daily focus timer that blocks distracting tabs and logs what I actually worked on. Nothing fancy, no AI, no integrations — just a 25-minute countdown and a text box. It's</description>
-      <guid isPermaLink="false">https://dev.to/maxxmini/whats-the-most-useful-micro-tool-youve-built-for-yourself-4jff</guid>
-      <pubDate>Tue, 17 Feb 2026 06:35:40 +0000</pubDate>
+      <title>DevOps for Gamers: Deploying a CS2 Dedicated Server on Ubuntu</title>
+      <link>https://dev.to/shannon_dias_927e8f0d0d18/devops-for-gamers-deploying-a-cs2-dedicated-server-on-ubuntu-24hi</link>
+      <description>Hosting a game server is a great way to practice Linux sysadmin skills. Today, I'm sharing a workflow to deploy a Counter-Strike 2 server using SteamCMD and screen for session management. The Stack: OS: Ubuntu 22.04 LTS Tooling: SteamCMD AppID: 730 We cover the full lifecycle: Creating a security user (never run as root!). Automating the update process with a bash script. Managing the process state with GNU Screen. If you are a developer or sysadmin looking to host a community night, this is the</description>
+      <guid isPermaLink="false">https://dev.to/shannon_dias_927e8f0d0d18/devops-for-gamers-deploying-a-cs2-dedicated-server-on-ubuntu-24hi</guid>
+      <pubDate>Wed, 18 Feb 2026 06:38:49 +0000</pubDate>
     </item>
     <item>
-      <title>MQTT Explained in Simple Terms: The Lightweight Protocol That Powers the Entire IoT World</title>
-      <link>https://dev.to/amanprasad/mqtt-explained-in-simple-terms-the-lightweight-protocol-that-powers-the-entire-iot-world-142p</link>
-      <description>MQTT (Message Queuing Telemetry Transport) is a lightweight, standards-based messaging protocol designed for machine-to-machine (M2M) and Internet of Things (IoT) communication. It is optimized for Low bandwidth, High latency networks, Resource-constrained devices like microcontrollers. Unlike HTTP, MQTT does not use request–response. Instead, it uses a publish/subscribe communication model. Why is the MQTT protocol important? The MQTT protocol has become a standard for IoT data transmission bec</description>
-      <guid isPermaLink="false">https://dev.to/amanprasad/mqtt-explained-in-simple-terms-the-lightweight-protocol-that-powers-the-entire-iot-world-142p</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fycf5212og889e25x662q.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 06:38:47 +0000</pubDate>
+      <title>Finding the Sequence of Strings Appeared on the Screen</title>
+      <link>https://dev.to/iammastercraft/finding-the-sequence-of-strings-appeared-on-the-screen-145c</link>
+      <description>Problem Summary The problem requires us to find all the strings that appear on the screen as Alice types a target string. Alice uses a special keyboard with two keys: one to append an 'a' and another to change the last character to its next alphabet letter. Our task is to return a list of all strings from the empty string to the target string with minimal keystrokes. Intuition Alice can build the target string by combining two operations: appending 'a' and modifying the last character. This mean</description>
+      <guid isPermaLink="false">https://dev.to/iammastercraft/finding-the-sequence-of-strings-appeared-on-the-screen-145c</guid>
+      <pubDate>Wed, 18 Feb 2026 06:40:24 +0000</pubDate>
     </item>
     <item>
-      <title>Web Development Is More Than Frontend and Backend (Here’s What Actually Matters)</title>
-      <link>https://dev.to/hadil/web-development-is-more-than-frontend-and-backend-heres-what-actually-matters-23kc</link>
-      <description>For a long time, I thought web development was simple. Frontend. Backend. Done. HTML, CSS, JavaScript on one side. APIs, databases, Node.js on the other. If I could move data from the backend to the UI, I thought I was “doing web development.” So I focused on features. Routes. Components. Endpoints. And somehow… my projects still felt unfinished. It took me a while to realize this simple truth: Web development isn’t just about frontend and backend. It’s about everything in between. The Mental Mo</description>
-      <guid isPermaLink="false">https://dev.to/hadil/web-development-is-more-than-frontend-and-backend-heres-what-actually-matters-23kc</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fv5cx9nkcxe4v7hb32zn9.png" length="0" type="image/png"/>
-      <pubDate>Tue, 17 Feb 2026 06:49:08 +0000</pubDate>
+      <title>How I Tricked AWS Elastic Beanstalk Into Using pnpm</title>
+      <link>https://dev.to/tirtht/how-i-tricked-aws-elastic-beanstalk-into-using-pnpm-ef4</link>
+      <description>You've migrated your Node.js project to pnpm. Locally, everything works well — faster installs, cleaner node_modules, a strict lockfile. Then you deploy to AWS Elastic Beanstalk. And it fails. Here's what happened when we pushed our first pnpm-based deployment: [ERROR] An error occurred during execution of command [app-deploy] - [InstallDependencies]. Stop running the command. Error: install dependencies fails: Command /bin/sh -c npm --omit=dev install failed with error exit status 1. Stderr: np</description>
+      <guid isPermaLink="false">https://dev.to/tirtht/how-i-tricked-aws-elastic-beanstalk-into-using-pnpm-ef4</guid>
+      <pubDate>Wed, 18 Feb 2026 06:43:47 +0000</pubDate>
     </item>
     <item>
-      <title>Turborepo + Vite with React Monorepo (Part 1)</title>
-      <link>https://dev.to/ashishxcode/turborepo-vite-with-react-monorepo-part-1-3f15</link>
-      <description>This is Part 1 of a two-part series on migrating a production React app to a monorepo. This post covers the migration itself — the script, the structure decisions, and two invisible runtime bugs that only appear after you switch package managers. Part 2 covers integrating feature branches, adding a new sub-path app, and the merge strategy that saved us from 45-file conflict hell. The Codebase A production SaaS platform — React 18, Vite, Tailwind CSS, shadcn UI, Firebase Realtime Database, React</description>
-      <guid isPermaLink="false">https://dev.to/ashishxcode/turborepo-vite-with-react-monorepo-part-1-3f15</guid>
-      <pubDate>Tue, 17 Feb 2026 06:51:29 +0000</pubDate>
+      <title>[Flash Report] Solana AI Agent Hackathon Ends: A Future with 21,000 AI Workers</title>
+      <link>https://dev.to/hitsuji_t2_7171e7fa9293d4/flash-report-solana-ai-agent-hackathon-ends-a-future-with-21000-ai-workers-2hih</link>
+      <description>🌍 What Just Happened? In February 2026, the inaugural "AI Agent Hackathon" co-hosted by Solana and Colosseum concluded. With a $100,000 prize pool, this event was more than just a coding competition; it marked the dawn of a new economy featuring "Autonomous AI that works and earns independently." 🤖 From "Tools" to "Workers" Until now, AI has been a "convenient tool" that waits for human commands. However, the new AI agents emerging on Solana possess: Their Own Wallets: AI agents own crypto and e</description>
+      <guid isPermaLink="false">https://dev.to/hitsuji_t2_7171e7fa9293d4/flash-report-solana-ai-agent-hackathon-ends-a-future-with-21000-ai-workers-2hih</guid>
+      <pubDate>Wed, 18 Feb 2026 06:50:19 +0000</pubDate>
     </item>
     <item>
-      <title>Turborepo + Vite with React Monorepo (Part 2)</title>
-      <link>https://dev.to/ashishxcode/turborepo-vite-with-react-monorepo-part-2-29ej</link>
-      <description>This is Part 2 of a two-part series. Part 1 covered the migration itself — moving 500+ files to a pnpm monorepo, fixing CSS resolution, and debugging a Firebase singleton bug that only appears under pnpm's strict module isolation. This post covers what happens after migration: integrating feature branches that don't know the monorepo exists, adding a second app under a sub-path, and the git merge strategy that turned 45 conflicts into zero. The Problem: Three Branches, One Migration After the mi</description>
-      <guid isPermaLink="false">https://dev.to/ashishxcode/turborepo-vite-with-react-monorepo-part-2-29ej</guid>
-      <pubDate>Tue, 17 Feb 2026 06:51:42 +0000</pubDate>
+      <title>Is docmd the fastest way to ship docs? An honest look at the new v0.4 release.</title>
+      <link>https://dev.to/aifiasco101/is-docmd-the-fastest-way-to-ship-docs-an-honest-look-at-the-new-v04-release-12n6</link>
+      <description>We are spoiled for choice with documentation generators. Docusaurus, MkDocs, VitePress... do we really need another one? I recently took docmd (specifically the new v0.4.0 monorepo release) for a spin to document a small Node.js library. The promise is "Zero Config" and "Static HTML." Here is my honest take on where it shines, where it falls short, and who should use it. 👍🏼 The Good Stuff 1. Actually Zero Config You run docmd init, then docmd build. That’s it. You get a site/ folder ready for Ne</description>
+      <guid isPermaLink="false">https://dev.to/aifiasco101/is-docmd-the-fastest-way-to-ship-docs-an-honest-look-at-the-new-v04-release-12n6</guid>
+      <pubDate>Wed, 18 Feb 2026 06:50:50 +0000</pubDate>
     </item>
     <item>
-      <title>What is useState in React? Explained with Practical Examples</title>
-      <link>https://dev.to/harini_magesh_fa40041cf8d/what-is-usestate-in-react-explained-with-practical-examples-283e</link>
-      <description>What is useState? useState is a React Hook that allows functional components to manage state. It returns a state variable and a setter function. When the setter function is called, React re-renders the component with updated state. Basic Syntax: const [state, setState] = useState(initialValue); state → Current value setState → Function to update the value initialValue → Starting value Why Do We Need useState? React components re-render when state changes. Without state: No dynamic UI No user int</description>
-      <guid isPermaLink="false">https://dev.to/harini_magesh_fa40041cf8d/what-is-usestate-in-react-explained-with-practical-examples-283e</guid>
-      <pubDate>Tue, 17 Feb 2026 06:55:44 +0000</pubDate>
+      <title>I Built a CLI Tool to Score Codebase Health -- Here's What I Learned</title>
+      <link>https://dev.to/glue_admin_3465093919ac6b/i-built-a-cli-tool-to-score-codebase-health-heres-what-i-learned-2noh</link>
+      <description>Three months ago, I built a CLI tool to score codebase health. I called it codebase-health-score (original, I know). The goal was simple: give a team a single number that represents the overall health of their system. The project started as a weekend hack. It turned into something people actually use. And in the process, I learned that "codebase health" is a much more slippery concept than it initially appeared. Why I Built This Our team was going through the classic scenario: we had inherited a</description>
+      <guid isPermaLink="false">https://dev.to/glue_admin_3465093919ac6b/i-built-a-cli-tool-to-score-codebase-health-heres-what-i-learned-2noh</guid>
+      <pubDate>Wed, 18 Feb 2026 06:53:24 +0000</pubDate>
     </item>
     <item>
-      <title>Bridging the Gap: Unified Google Analytics for Web and Capacitor Apps</title>
-      <link>https://dev.to/rpi1337/bridging-the-gap-unified-google-analytics-for-web-and-capacitor-apps-3acn</link>
-      <description>Developers building hybrid applications with Capacitor often face a split-brain problem when it comes to user tracking: web applications rely on standard Google Analytics (GA4) and Google Tag Manager (GTM), while native iOS and Android applications require Firebase Analytics. To solve this fragmented tracking experience, developer Arpad Kish (@arpad1337) created analytics-web-capacitor, an open-source extension designed to unify Google Analytics across both Web and Capacitor application environm</description>
-      <guid isPermaLink="false">https://dev.to/rpi1337/bridging-the-gap-unified-google-analytics-for-web-and-capacitor-apps-3acn</guid>
-      <pubDate>Tue, 17 Feb 2026 06:59:38 +0000</pubDate>
+      <title>Building an Awesome List That Actually Gets Stars (Step-by-Step)</title>
+      <link>https://dev.to/glue_admin_3465093919ac6b/building-an-awesome-list-that-actually-gets-stars-step-by-step-g6f</link>
+      <description>A few months ago, I decided to start an awesome list. Not because I thought I'd become famous--mostly because I was frustrated that no single repository existed as a definitive guide to codebase intelligence tools and practices. I wanted to solve my own problem and maybe help others along the way. Fast forward six months: the awesome-codebase-intelligence list has earned over 2,500 GitHub stars, gets contributions from developers worldwide, and was featured in several newsletters. More important</description>
+      <guid isPermaLink="false">https://dev.to/glue_admin_3465093919ac6b/building-an-awesome-list-that-actually-gets-stars-step-by-step-g6f</guid>
+      <pubDate>Wed, 18 Feb 2026 06:53:24 +0000</pubDate>
     </item>
     <item>
-      <title>Automate Social Media Preview Images with a Screenshot API</title>
-      <link>https://dev.to/mackmoneymaker/automate-social-media-preview-images-with-a-screenshot-api-36p3</link>
-      <description>Social media preview images (Open Graph / Twitter Cards) can make or break your click-through rates. But most developers either skip them entirely or spend hours in Figma designing static images that go stale. What if you could generate them automatically from HTML templates? The Problem Every time you publish a blog post, launch a feature, or share a link, platforms like Twitter, Slack, Discord, and LinkedIn look for an og:image meta tag. If it's missing or generic, your link looks... forgettab</description>
-      <guid isPermaLink="false">https://dev.to/mackmoneymaker/automate-social-media-preview-images-with-a-screenshot-api-36p3</guid>
-      <pubDate>Tue, 17 Feb 2026 07:00:04 +0000</pubDate>
+      <title>From Legacy Monolith to Microservices: A Non-Technical Guide</title>
+      <link>https://dev.to/glue_admin_3465093919ac6b/from-legacy-monolith-to-microservices-a-non-technical-guide-a33</link>
+      <description>You're sitting in an architecture meeting. Someone pulls up a diagram showing a box labeled "Monolith" with an arrow pointing to a cloud of smaller boxes labeled "Microservices." Everyone nods knowingly. Someone mentions "scalability." Another person says "we're bound by the monolith." Then they look at you and you realize: you don't actually understand what's happening here. If you're a PM, a founding engineer, or a technical leader who didn't start as a systems architect, microservices discuss</description>
+      <guid isPermaLink="false">https://dev.to/glue_admin_3465093919ac6b/from-legacy-monolith-to-microservices-a-non-technical-guide-a33</guid>
+      <pubDate>Wed, 18 Feb 2026 06:53:25 +0000</pubDate>
     </item>
     <item>
-      <title>Artificial Intelligence Coding: When Vibe Coding Becomes Agentic Engineering</title>
-      <link>https://dev.to/sashido/artificial-intelligence-coding-when-vibe-coding-becomes-agentic-engineering-5ffb</link>
-      <description>A year ago, a lot of artificial intelligence coding looked like a dare. You accepted whole diffs from tools like Cursor, pasted stack traces into a chat, and kept going until the demo worked. It felt like speedrunning software. Now the same workflow is showing up in real products, with real users, and real consequences. The shift is not that AI writes code. It is that builders are increasingly orchestrating agents that write code, wire systems, and propose changes, while the human sets constrain</description>
-      <guid isPermaLink="false">https://dev.to/sashido/artificial-intelligence-coding-when-vibe-coding-becomes-agentic-engineering-5ffb</guid>
-      <pubDate>Tue, 17 Feb 2026 07:00:44 +0000</pubDate>
+      <title>My exp</title>
+      <link>https://dev.to/gustavohenriques/my-exp-cg6</link>
+      <description>I don't want to code anymore, i no longer feel good or satisfaction when i do this. Now i'm feeling so much better when i am reading a book, when I answer questions about physics, mathematics, or astrophysics. Last Friday, I worked on a pipeline based on the analysis of light curves from exoplanets, and I felt great working with tons of data, experimenting, testing different versions of the same code, solving bugs and errors. These are strange times, i don't feel lost anymore but the things rema</description>
+      <guid isPermaLink="false">https://dev.to/gustavohenriques/my-exp-cg6</guid>
+      <pubDate>Wed, 18 Feb 2026 06:56:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
