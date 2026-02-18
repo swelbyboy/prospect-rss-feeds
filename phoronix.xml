@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Feb 2026 07:03:07 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Feb 2026 07:05:02 +0000</lastBuildDate>
     <item>
-      <title>Firmware Upstreamed For Supporting The Qualcomm Snapdragon X2's Adreno GPU</title>
-      <link>https://www.phoronix.com/news/Snapdragon-X2-Adreno-GPU-FW</link>
-      <description>Upstreamed last week to the linux-firmware.git repository by Qualcomm was the GPU firmware files needed for enabling the Adreno GPU on the new Snapdragon X2 Elite laptop SoC...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Snapdragon-X2-Adreno-GPU-FW</guid>
-      <pubDate>Mon, 16 Feb 2026 12:35:00 +0000</pubDate>
+      <title>Nova Lake S Support Added To Intel LPSS Driver In Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-MFD</link>
+      <description>The latest Nova Lake enablement work for the Linux kernel to land is adding support for Nova Lake S platforms to the Intel LPSS driver in the upcoming Linux 7.0 kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-MFD</guid>
+      <pubDate>Tue, 17 Feb 2026 11:22:31 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Better Segregates Legacy CardBus Code To Avoid On Modern PCs</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-PCI</link>
-      <description>The PCI subsystem updates for Linux 7.0 are aplenty as usual and contain a wide assortment of different fixes and code improvements...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-PCI</guid>
-      <pubDate>Mon, 16 Feb 2026 14:16:01 +0000</pubDate>
+      <title>Microsoft .NET On Linux Patches Use IO_uring For Massive Performance Benefits</title>
+      <link>https://www.phoronix.com/news/Microsoft-dotNET-IO-uring</link>
+      <description>A pull request for the Microsoft .NET Runtime build on Linux to use IO_uring for sockets is showing some massive performance benefits...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Microsoft-dotNET-IO-uring</guid>
+      <pubDate>Tue, 17 Feb 2026 13:14:56 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 6.19.2 &amp;amp; Other LTS Kernels Released To Fix Systems Not Booting</title>
-      <link>https://www.phoronix.com/news/Linux-6.19.2-Released</link>
-      <description>Linux 6.19.1 was released earlier today while it's since been replaced by Linux 6.19.2 to address fallout from that first point release with some systems not booting. This also resulted in new LTS kernel releases too due to the problematic code being picked up there too...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.19.2-Released</guid>
-      <pubDate>Mon, 16 Feb 2026 16:29:08 +0000</pubDate>
+      <title>Intel Xeon 6 Granite Rapids Memory Scaling Performance From 6 To 12 MRDIMMs</title>
+      <link>https://www.phoronix.com/review/intel-xeon-mrdimm-scaling</link>
+      <description>With memory pricing being as wild as it is these days and with MRDIMMs on Xeon 6 Granite Rapids offering much more memory bandwidth than conventional DDR5 RDIMMs, you may be wondering about the performance impact when not populating all twelve memory channels on the Xeon 6900 series processors. In this article are benchmarks to demonstrate the performance difference of MRDIMM-8800 memory across using six, eight, ten, and twelve MRDIMMs with a Xeon 6980P server.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/intel-xeon-mrdimm-scaling</guid>
+      <pubDate>Tue, 17 Feb 2026 15:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Driver Core Changes Bring More Enhancements For Rust Kernel Drivers</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Driver-Core</link>
-      <description>Merged a few days ago for the Linux 7.0 kernel were all of the driver core enhancements. As has been the common theme in recent kernel releases, a lot of the driver core code churn revolves around additions for allowing more Rust kernel driver usage...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Driver-Core</guid>
-      <pubDate>Mon, 16 Feb 2026 17:39:40 +0000</pubDate>
+      <title>GhostBSD To Use XLibre Server, MATE vs. Gershwin Desktop Decision In Future</title>
+      <link>https://www.phoronix.com/news/GhostBSD-Eyes-XLibre</link>
+      <description>GhostBSD lead developer Eric Turgeon published an update regarding X.Org Server vs. XLibre vs. Wayland planning for the GhostBSD distribution moving forward as well as some future uncertainties to this desktop-focused, FreeBSD-derived OS...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GhostBSD-Eyes-XLibre</guid>
+      <pubDate>Tue, 17 Feb 2026 17:03:23 +0000</pubDate>
     </item>
     <item>
-      <title>RISC-V In Linux 7.0 Brings User-Space CFI &amp;amp; Optimized strlen Assembly</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-RISC-V</link>
-      <description>The RISC-V architecture updates have been merged for Linux 7.0 with a few items to note...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-RISC-V</guid>
-      <pubDate>Mon, 16 Feb 2026 19:05:45 +0000</pubDate>
+      <title>Experimental Out-Of-Tree Code Aims To Provide HDMI 2.1 FRL For AMD Linux Driver</title>
+      <link>https://www.phoronix.com/news/AMDGPU-HDMI-2.1-FRL</link>
+      <description>One of the limitations of the AMDGPU Linux kernel graphics driver has been the lack of its support for HDMI 2.1 and later. AMD has wanted to support HDMI 2.1+ functionality under Linux but it's been legally blocked by the HDMI Forum. But anxious independent users have been working on open-source patches for wiring up HDMI 2.1 into the AMDGPU driver outside of the realm of AMD and the HDMI Forum's blessings...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-HDMI-2.1-FRL</guid>
+      <pubDate>Tue, 17 Feb 2026 18:33:01 +0000</pubDate>
     </item>
     <item>
-      <title>Lutris 0.5.20 Linux Game Manager Brings New Features, Wine Wayland Option</title>
-      <link>https://www.phoronix.com/news/Lutris-0.5.20-Released</link>
-      <description>For fans of Lutris as the open-source desktop client for installing and playing many games on Linux, Lutris 0.5.20 is out today with new features that further enhance the integration with different emulators and compatibility layers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Lutris-0.5.20-Released</guid>
-      <pubDate>Mon, 16 Feb 2026 20:23:07 +0000</pubDate>
+      <title>Linux 7.0 Merges "Significant Improvement" For close_range System Call</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Faster-Close-Range</link>
+      <description>The close_range system call for closing all file descriptors "FDs" in a given range should enjoy a nice speed boost with the in-development Linux 7.0 kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Faster-Close-Range</guid>
+      <pubDate>Tue, 17 Feb 2026 19:20:01 +0000</pubDate>
     </item>
     <item>
-      <title>Idea Raised For Nicer DRM Panic Screen Integration On Fedora Linux</title>
-      <link>https://www.phoronix.com/news/DRM-Panic-Nicer-Fedora-Idea</link>
-      <description>DRM Panic is the Linux kernel infrastructure now supported by most of the Direct Rendering Manager (DRM) kernel graphics/display drivers for being able to render a QR code kernel error message or similar when a kernel panic occurs to provide a cleaner interface should your system run into serious problems. An idea has been raised now within the Fedora Linux camp to provide an improved experience around this feature akin to Windows' "Blue Screen of Death" functionality...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/DRM-Panic-Nicer-Fedora-Idea</guid>
-      <pubDate>Mon, 16 Feb 2026 20:36:11 +0000</pubDate>
+      <title>Linux 7.0 Lands New TI RGB LED Driver With "Autonomous Animation Engine" Control</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-LEDs</link>
+      <description>The LED subsystem updates for the Linux kernel typically aren't too noteworthy each kernel cycle but with Linux 7.0 is a new TI RGB LED driver that captured my attention in being curious over its "autonomous animation engine" integration...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-LEDs</guid>
+      <pubDate>Tue, 17 Feb 2026 21:04:22 +0000</pubDate>
     </item>
     <item>
-      <title>Arc B390 Graphics With Panther Lake Performing Great On Open-Source Intel Compute Runtime</title>
-      <link>https://www.phoronix.com/review/intel-arc-b390-compute</link>
-      <description>This month I have been doing a lot of Panther Lake benchmarking under Linux with the Core Ultra X7 358H. One of the areas of much interest has been the Arc B390 Xe3 graphics that have been working nicely out-of-the-box with the Intel open-source driver stack on Linux although there still are some gaps to fill against Windows. Those Intel Arc B390 Linux benchmarks so far have been focused on OpenGL and Vulkan graphics, but what about OpenCL and GPU compute with the open-source Intel Compute Runti</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/intel-arc-b390-compute</guid>
-      <pubDate>Mon, 16 Feb 2026 22:00:00 +0000</pubDate>
+      <title>AMD Preparing Linux Kernel For "RMPOPT" To Help Reduce Overhead On SEV-SNP Servers</title>
+      <link>https://www.phoronix.com/news/AMD-RMPOPT-Linux</link>
+      <description>AMD sent out a set of Linux kernel patches today for enabling use of a new instruction dubbed RMPOPT. Given the timing of these patches, RMPOPT is presumably a feature coming with next-gen AMD EPYC Zen 6 "Venice" processors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-RMPOPT-Linux</guid>
+      <pubDate>Tue, 17 Feb 2026 21:22:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 CXL Enables AMD Zen 5 Address Translation Feature</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-CXL</link>
-      <description>A long-in-development feature for AMD EPYC Zen 5 server platforms now merged for the Linux 7.0 kernel is ACPI PRMT-based address translation for the Compute Express Link (CXL) subsystem...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-CXL</guid>
-      <pubDate>Mon, 16 Feb 2026 22:46:00 +0000</pubDate>
+      <title>NTFS3 Driver Sees Improvements In Linux 7.0 While "NTFS Remake" Driver Bakes</title>
+      <link>https://www.phoronix.com/news/NTFS3-Linux-7.0</link>
+      <description>The NTFS3 driver maintained by Paragon Software for Microsoft NTFS file-systems today saw a batch of improvements merged for Linux 7.0 This comes as there is also the competing "NTFS Remake" driver that began a few months ago as the "NTFSPLUS" driver. That NTFS Remake driver isn't looking like it will be submitted for the Linux 7.0 merge window so at least for now the NTFS3 driver continues seeing improvements with the latest mainline kernel code...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NTFS3-Linux-7.0</guid>
+      <pubDate>Wed, 18 Feb 2026 01:26:45 +0000</pubDate>
     </item>
     <item>
-      <title>Gentoo Linux Begins Codeberg Migration In Moving Away From GitHub, Avoiding Copilot</title>
-      <link>https://www.phoronix.com/news/Gentoo-Starts-Codeberg-Use</link>
-      <description>The Gentoo Linux project last year announced plans to move their code hosting to Codeberg rather than GitHub. Gentoo's desire to move away from GitHub was motivated by Microsoft's Copilot training on GitHub repositories. Those plans are turning into action now with the main Gentoo project up on Codeberg and honoring pull requests...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Gentoo-Starts-Codeberg-Use</guid>
-      <pubDate>Tue, 17 Feb 2026 01:18:01 +0000</pubDate>
+      <title>GNOME 50 Merges "sdr-native" Color Mode Support For Wide Color Gamut Displays</title>
+      <link>https://www.phoronix.com/news/GNOME-50-Mutter-sdr-native</link>
+      <description>As a late stage change for GNOME 50 ahead of its official debut next month and following last week's GNOME 50 beta is plumbing the Mutter compositor for a new "sdr-native" color mode option...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Mutter-sdr-native</guid>
+      <pubDate>Wed, 18 Feb 2026 01:53:24 +0000</pubDate>
     </item>
   </channel>
 </rss>
