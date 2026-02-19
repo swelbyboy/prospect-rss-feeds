@@ -8,31 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Feb 2026 07:37:19 +0000</lastBuildDate>
-    <item>
-      <title>Vim 9.2 : support de Wayland !</title>
-      <link>https://www.programmez.com/actualites/vim-92-support-de-wayland-39022</link>
-      <description>Vim, un des éditeurs références du monde Linux, est disponible en version 9.2. Cette version introduit plusieurs évolutions intéressantes :- support expérimental de Wayland- affichage HiDPI- autocompletion étendue- support XDG- le langage de scription supporte les énums, les fonctions génériques, les types Tuple- nouvelles méthodes _new() et defcompileNote de version : https://www.vim.org/vim-9.2-released.phpCatégorie actualité: OutilsVimImage actualité AMP:</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/vim-92-support-de-wayland-39022</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/vim92_logo.png?itok=aisdn01E" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 16 Feb 2026 16:41:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>N64Recomp : recompiler les jeux Nintendo 64</title>
-      <link>https://www.programmez.com/actualites/n64recomp-recompiler-les-jeux-nintendo-64-39023</link>
-      <description>Nintendo 64 a été des consoles les plus marquantes. Le projet N64:Recompiled propose un outil pour recompiler les binaires N64 en code C pouvant être compiler sur une autre plateforme. Ce n'est pas le premier projet à proposer une recompilation des binaires. N64Recomp supporte les symbôles, les metadonnés et les binaires. Le but est de diviser le binaire en fonctions qui pourront être recompilées en une fonction C. Toutes les instructions du binaire sont traitées une par une pour avoir une corre</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/n64recomp-recompiler-les-jeux-nintendo-64-39023</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 17 Feb 2026 07:39:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kotlin Multiplatform - Flutter - React Native : entre choix, compromis et frustrations</title>
-      <link>https://www.programmez.com/actualites/kotlin-multiplatform-flutter-react-native-entre-choix-compromis-et-frustrations-39024</link>
-      <description>Nos confrères de Java Code Geeks ont publié un intéressant dossier sur le multiplateforme en 2026 en s'appuyant sur Kotlin Multiplatform (KMP), Flutter et React Native. Faire du multiplateforme avec une base de codes et un minimum d'adaptation reste un objectif pour de nombreux développeurs. Si la philosophie de KMP, Flutter et React Native est différente, l'idée est la même : compiler nativement le code logique le plus agnostique possible et créer une interface native pour chaque plateforme.Flu</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/kotlin-multiplatform-flutter-react-native-entre-choix-compromis-et-frustrations-39024</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/kmp.png?itok=kqZKa_nK" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 08:24:45 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 19 Feb 2026 07:38:43 +0000</lastBuildDate>
     <item>
       <title>Recalbox 10 : support de Steam Deck, nouvelle interface, nouvelles consoles</title>
       <link>https://www.programmez.com/actualites/recalbox-10-support-de-steam-deck-nouvelle-interface-nouvelles-consoles-39025</link>
@@ -88,6 +64,30 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/visual-studio-code-alerte-de-securite-sur-plusieurs-extensions-39032</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
       <pubDate>Wed, 18 Feb 2026 07:16:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quantique : Comcast, Classiq et AMD testent un algorithme quantique pour les réseaux</title>
+      <link>https://www.programmez.com/actualites/quantique-comcast-classiq-et-amd-testent-un-algorithme-quantique-pour-les-reseaux-39033</link>
+      <description>Comcast, Classiq et AMD mènent des tests pour améliorer le trafic Internet en utilisant des algorithmes quantiques pour renforcer la résistance du routage réseau. "L’essai conjoint s’est concentré sur un défi clé de la conception des réseaux : identifier des chemins de secours indépendants pour les nœuds du réseau lors des opérations de maintenance ou de modifications. L’objectif était de garantir que, si un site est mis hors ligne et que soudainement, un deuxième tombe en panne, le trafic puiss</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/quantique-comcast-classiq-et-amd-testent-un-algorithme-quantique-pour-les-reseaux-39033</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/amdquantique.png.jpeg?itok=gy827Cfv" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 08:34:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Installer Laravel en 5 minutes avec php.new</title>
+      <link>https://www.programmez.com/actualites/installer-laravel-en-5-minutes-avec-phpnew-39034</link>
+      <description>Basiquement pour utiliser Laravel, il faut installer PHP, Composer, Laravel et configurer l'environnement. Une fois que tout est installé, et sans erreurs, vous pouvez vérifier l'environnement dans votre Terminal :php -vcomposerlaravalpuis si tout est bon, vous pouvez créer votre 1er projet Laravel : laravel new (mon app)Pour simplifier à l'extrême votre installation, vous pouvez passer par PHP.new. Il se propose de tout installer. Il détecte si vous êtes sur Linux, macOS ou Windows. Selon l'OS,</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/installer-laravel-en-5-minutes-avec-phpnew-39034</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Wed, 18 Feb 2026 13:30:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Glimmer : une interface adaptée aux écrans transparents</title>
+      <link>https://www.programmez.com/actualites/google-glimmer-une-interface-adaptee-aux-ecrans-transparents-39035</link>
+      <description>Une des difficultés des matériels XR (réalité virtuelle, réalité mixte) est de (re)définir une interface adaptée aux nouveaux modes d'affichage et d'interactivité. Les lunettes ou les casques à visière transparente obligent à mixer le monde réel et le monde "virtuel" de l'informatique. Pour les matériels Android XR, Google propose Glimmer, un design d'interface pour les lunettes connectées. Glimmer choisit de préserver au maximum la vision réelle de l'utilisateur. Il faut trouver un équilibre en</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/google-glimmer-une-interface-adaptee-aux-ecrans-transparents-39035</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/glimmer.png?itok=zP35AwoM" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 14:24:35 +0000</pubDate>
     </item>
   </channel>
 </rss>

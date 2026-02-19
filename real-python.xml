@@ -8,21 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Feb 2026 07:12:50 +0000</lastBuildDate>
-    <item>
-      <title>pandas 3.0 Lands Breaking Changes and Other Python News for February 2026</title>
-      <link>https://realpython.com/python-news-february-2026/</link>
-      <description>Catch up on the latest Python news: pandas 3.0 breaking changes, Python 3.15 alpha JIT gains, PyTorch 2.10 deprecations, and PSF updates.</description>
-      <guid isPermaLink="false">https://realpython.com/python-news-february-2026/</guid>
-      <pubDate>Mon, 09 Feb 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quiz: Python's pathlib Module: Taming the File System</title>
-      <link>https://realpython.com/quizzes/python-pathlib/</link>
-      <description>Revisit Python's pathlib module for handling file and folder paths consistently across operating systems. Write modern, object-oriented code.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/python-pathlib/</guid>
-      <pubDate>Tue, 10 Feb 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 19 Feb 2026 07:13:13 +0000</lastBuildDate>
     <item>
       <title>Improving Your Tests With the Python Mock Object Library</title>
       <link>https://realpython.com/courses/improve-tests-mock-object-library/</link>
@@ -80,6 +66,21 @@
       <description>Learn to write clear, effective Python docstrings using best practices, common styles, and built-in conventions for your code.</description>
       <guid isPermaLink="false">https://realpython.com/courses/write-python-docstrings-effectively/</guid>
       <pubDate>Tue, 17 Feb 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quiz: How to Install Python on Your System: A Guide</title>
+      <link>https://realpython.com/quizzes/python-installation-and-setup/</link>
+      <description>In this quiz, you'll test your understanding of how to install or update Python on your computer. With this knowledge, you'll be able to set up Python on various operating systems, including Windows, macOS, and Linux.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/python-installation-and-setup/</guid>
+      <pubDate>Wed, 18 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Install Python on Your System: A Guide</title>
+      <link>https://realpython.com/installing-python/</link>
+      <description>Learn how to install the latest Python version on Windows, macOS, and Linux. Check your version and choose the best installation method for your system.</description>
+      <guid isPermaLink="false">https://realpython.com/installing-python/</guid>
+      <enclosure url="https://files.realpython.com/media/Python-3-Installation--Setup-Guide_Watermarked.62f654dcab67.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 14:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

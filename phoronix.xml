@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Feb 2026 07:05:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 07:03:58 +0000</lastBuildDate>
     <item>
-      <title>Nova Lake S Support Added To Intel LPSS Driver In Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-MFD</link>
-      <description>The latest Nova Lake enablement work for the Linux kernel to land is adding support for Nova Lake S platforms to the Intel LPSS driver in the upcoming Linux 7.0 kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-MFD</guid>
-      <pubDate>Tue, 17 Feb 2026 11:22:31 +0000</pubDate>
+      <title>Apple M3 With Asahi Linux Continues Making Progress, No ETA Yet For Shipping</title>
+      <link>https://www.phoronix.com/news/Apple-M3-Asahi-Linux-2026</link>
+      <description>Asahi Linux developers have published a status report following the recent Linux 6.19 kernel release to outline recent progress and upcoming items around Apple Silicon support on Linux. This year will also mark five years that Asahi Linux has been around for bringing Linux to the Apple M-Series hardware...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Apple-M3-Asahi-Linux-2026</guid>
+      <pubDate>Wed, 18 Feb 2026 11:34:44 +0000</pubDate>
     </item>
     <item>
-      <title>Microsoft .NET On Linux Patches Use IO_uring For Massive Performance Benefits</title>
-      <link>https://www.phoronix.com/news/Microsoft-dotNET-IO-uring</link>
-      <description>A pull request for the Microsoft .NET Runtime build on Linux to use IO_uring for sockets is showing some massive performance benefits...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Microsoft-dotNET-IO-uring</guid>
-      <pubDate>Tue, 17 Feb 2026 13:14:56 +0000</pubDate>
+      <title>LoongArch Ready With New Features In Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-LoongArch</link>
+      <description>The Linux 7.0 kernel is shipping improvements for LoongArch, the Chinese CPU architecture inspired by MIPS64 and RISC-V and has been showing much potential for their domestic PC manufacturing...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-LoongArch</guid>
+      <pubDate>Wed, 18 Feb 2026 13:16:00 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Xeon 6 Granite Rapids Memory Scaling Performance From 6 To 12 MRDIMMs</title>
-      <link>https://www.phoronix.com/review/intel-xeon-mrdimm-scaling</link>
-      <description>With memory pricing being as wild as it is these days and with MRDIMMs on Xeon 6 Granite Rapids offering much more memory bandwidth than conventional DDR5 RDIMMs, you may be wondering about the performance impact when not populating all twelve memory channels on the Xeon 6900 series processors. In this article are benchmarks to demonstrate the performance difference of MRDIMM-8800 memory across using six, eight, ten, and twelve MRDIMMs with a Xeon 6980P server.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/intel-xeon-mrdimm-scaling</guid>
-      <pubDate>Tue, 17 Feb 2026 15:00:00 +0000</pubDate>
+      <title>Dell UltraSharp U5226KW: An Outstanding 52-Inch 6K Monitor With Extensive Connectivity</title>
+      <link>https://www.phoronix.com/review/dell-ultrasharp-u5223kw</link>
+      <description>Earlier this month Dell sent over a review sample of their new UltraSharp U5223KW monitor. While the model number may not imply much, this monitor is outright incredible. The Dell UltraSharp U5223KW is a 52-inch 6K @ 120Hz monitor with integrated USB hub also working as a KVM switch, 140 Watt power delivery support for USB-C/Thunderbolt laptops, 2.5G Ethernet, and the color reproduction and visuals with this Dell 6K monitor are impeccable.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/dell-ultrasharp-u5223kw</guid>
+      <pubDate>Wed, 18 Feb 2026 15:23:40 +0000</pubDate>
     </item>
     <item>
-      <title>GhostBSD To Use XLibre Server, MATE vs. Gershwin Desktop Decision In Future</title>
-      <link>https://www.phoronix.com/news/GhostBSD-Eyes-XLibre</link>
-      <description>GhostBSD lead developer Eric Turgeon published an update regarding X.Org Server vs. XLibre vs. Wayland planning for the GhostBSD distribution moving forward as well as some future uncertainties to this desktop-focused, FreeBSD-derived OS...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GhostBSD-Eyes-XLibre</guid>
-      <pubDate>Tue, 17 Feb 2026 17:03:23 +0000</pubDate>
+      <title>Linux 7.0 Brings Several Enhancements For Modern Laptops</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-x86-Drivers</link>
+      <description>The x86 platform driver updates were merged recently for the ongoing Linux 7.0 merge window. As is a common theme for platform-drivers-x86, a lot of the feature work is around Linux laptop drivers for enhancing the support on modern hardware...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-x86-Drivers</guid>
+      <pubDate>Wed, 18 Feb 2026 16:21:17 +0000</pubDate>
     </item>
     <item>
-      <title>Experimental Out-Of-Tree Code Aims To Provide HDMI 2.1 FRL For AMD Linux Driver</title>
-      <link>https://www.phoronix.com/news/AMDGPU-HDMI-2.1-FRL</link>
-      <description>One of the limitations of the AMDGPU Linux kernel graphics driver has been the lack of its support for HDMI 2.1 and later. AMD has wanted to support HDMI 2.1+ functionality under Linux but it's been legally blocked by the HDMI Forum. But anxious independent users have been working on open-source patches for wiring up HDMI 2.1 into the AMDGPU driver outside of the realm of AMD and the HDMI Forum's blessings...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-HDMI-2.1-FRL</guid>
-      <pubDate>Tue, 17 Feb 2026 18:33:01 +0000</pubDate>
+      <title>System76 Preparing To Introduce Redesigned Thelio Hardware</title>
+      <link>https://www.phoronix.com/news/System76-Thelio-Redesign</link>
+      <description>Linux hardware vendor System76 has begun teasing a redesign of their Thelio chassis that is used by their modern desktops and workstations. Helping distinguish System76 from other Linux desktop/PC vendors has been their custom-engineered, built-in-the-USA enclosures and now they are preparing to launch a next-generation design...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/System76-Thelio-Redesign</guid>
+      <pubDate>Wed, 18 Feb 2026 16:42:21 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Merges "Significant Improvement" For close_range System Call</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Faster-Close-Range</link>
-      <description>The close_range system call for closing all file descriptors "FDs" in a given range should enjoy a nice speed boost with the in-development Linux 7.0 kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Faster-Close-Range</guid>
-      <pubDate>Tue, 17 Feb 2026 19:20:01 +0000</pubDate>
+      <title>Intel's Discontinued Open-Source OpenPGL Project Finds A New Home</title>
+      <link>https://www.phoronix.com/news/Intel-OpenPGL-New-Home</link>
+      <description>Back in 2022 Intel announced OpenPGL as an open-source library for path guiding to help enhance the quality of path-based renderers. With time Blender began making use of OpenPGL and other industry interest and adoption. Unfortunately, Intel quietly ended work on OpenPGL in 2025 but has now fortunately found a new home...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-OpenPGL-New-Home</guid>
+      <pubDate>Wed, 18 Feb 2026 17:33:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Lands New TI RGB LED Driver With "Autonomous Animation Engine" Control</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-LEDs</link>
-      <description>The LED subsystem updates for the Linux kernel typically aren't too noteworthy each kernel cycle but with Linux 7.0 is a new TI RGB LED driver that captured my attention in being curious over its "autonomous animation engine" integration...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-LEDs</guid>
-      <pubDate>Tue, 17 Feb 2026 21:04:22 +0000</pubDate>
+      <title>Linux 7.0 Retires The IBM Mwave ACP Modem Driver Used By Some 1990s ThinkPads</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Retires-Mwave</link>
+      <description>Long past due for retirement, the Linux 7.0 kernel has removed the obsolete Mwave driver for the 3780i ACP Modem found in some Pentium II era IBM ThinkPads from the 1990s...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Retires-Mwave</guid>
+      <pubDate>Wed, 18 Feb 2026 18:57:00 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Preparing Linux Kernel For "RMPOPT" To Help Reduce Overhead On SEV-SNP Servers</title>
-      <link>https://www.phoronix.com/news/AMD-RMPOPT-Linux</link>
-      <description>AMD sent out a set of Linux kernel patches today for enabling use of a new instruction dubbed RMPOPT. Given the timing of these patches, RMPOPT is presumably a feature coming with next-gen AMD EPYC Zen 6 "Venice" processors...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-RMPOPT-Linux</guid>
-      <pubDate>Tue, 17 Feb 2026 21:22:00 +0000</pubDate>
+      <title>Linux 7.0 Showing Some Early Performance Regressions On Intel Panther Lake</title>
+      <link>https://www.phoronix.com/review/linux-7-panther-lake</link>
+      <description>With the Linux 7.0 merge window beginning to calm down ahead of the 7.0-rc1 release due out on Sunday, one of the areas I was most excited about benchmarking on Linux 7.0 was looking for any performance gains with the new Intel Core Ultra Series 3 "Panther Lake" given ongoing Intel Xe graphics driver improvements and other general kernel optimizations. Unfortunately, at large the Intel Panther Lake performance is moving in the wrong direction with the early Linux 7.0 benchmarking.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/linux-7-panther-lake</guid>
+      <pubDate>Wed, 18 Feb 2026 21:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>NTFS3 Driver Sees Improvements In Linux 7.0 While "NTFS Remake" Driver Bakes</title>
-      <link>https://www.phoronix.com/news/NTFS3-Linux-7.0</link>
-      <description>The NTFS3 driver maintained by Paragon Software for Microsoft NTFS file-systems today saw a batch of improvements merged for Linux 7.0 This comes as there is also the competing "NTFS Remake" driver that began a few months ago as the "NTFSPLUS" driver. That NTFS Remake driver isn't looking like it will be submitted for the Linux 7.0 merge window so at least for now the NTFS3 driver continues seeing improvements with the latest mainline kernel code...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NTFS3-Linux-7.0</guid>
-      <pubDate>Wed, 18 Feb 2026 01:26:45 +0000</pubDate>
+      <title>More ISA Differences Come To Light With The New AMD GFX1170 "RDNA 4m"</title>
+      <link>https://www.phoronix.com/news/AMD-GFX1170-More-ISA-Diffs</link>
+      <description>Earlier this month we spotted the addition of a new GFX1170 GPU target in the AMDGPU LLVM back-end. Making this GFX1170 target interesting is that its marked as an APU/SoC part with "RDNA 4m" while being part of the GFX11 series. The GFX11 series is for RDNA3, GFX115x is for RDNA 3.5, and GFX12 is RDNA4. More ISA changes have now been committed to the AMDGPU LLVM back-end that make a few more instruction differences better aligned with RDNA4...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-GFX1170-More-ISA-Diffs</guid>
+      <pubDate>Wed, 18 Feb 2026 22:40:00 +0000</pubDate>
     </item>
     <item>
-      <title>GNOME 50 Merges "sdr-native" Color Mode Support For Wide Color Gamut Displays</title>
-      <link>https://www.phoronix.com/news/GNOME-50-Mutter-sdr-native</link>
-      <description>As a late stage change for GNOME 50 ahead of its official debut next month and following last week's GNOME 50 beta is plumbing the Mutter compositor for a new "sdr-native" color mode option...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Mutter-sdr-native</guid>
-      <pubDate>Wed, 18 Feb 2026 01:53:24 +0000</pubDate>
+      <title>Linux Still Working To Clean Up The Realtek RTL8723BS 802.11b/g/n WiFi Driver In 2026</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Staging</link>
+      <description>Introduced to the Linux 4.12 kernel's staging area back in 2017 was the Realtek RTL8723BS WiFi driver. The Realtek RTL8723BS is an 802.11 b/g/ SDIO WLAN adapter with Bluetooth 4.0 connectivity too. In the nearly decade since this driver was added to the staging area, it's continued to be cleaned up and with the Linux 7.0 merge window there is yet again a lot of work on cleaning up this WiFi driver for the old Realtek hardware...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Staging</guid>
+      <pubDate>Thu, 19 Feb 2026 01:25:25 +0000</pubDate>
     </item>
   </channel>
 </rss>

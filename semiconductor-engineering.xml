@@ -8,28 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Feb 2026 07:35:38 +0000</lastBuildDate>
-    <item>
-      <title>LLM-Based Learning Platform For Chip Design Education (RPTU)</title>
-      <link>https://semiengineering.com/llm-based-learning-platform-for-chip-design-education-rptu/</link>
-      <description>RPTU University of Kaiserslautern-Landau researchers published “From RTL to Prompt Coding: Empowering the Next Generation of Chip Designers through LLMs.” Abstract “This paper presents an LLM-based learning platform for chip design education, aiming to make chip design accessible to beginners without overwhelming them with technical complexity. It represents the first educational platform that assists learners... » read more The post LLM-Based Learning Platform For Chip Design Education (RPTU) a</description>
-      <guid isPermaLink="false">https://semiengineering.com/llm-based-learning-platform-for-chip-design-education-rptu/</guid>
-      <pubDate>Sun, 15 Feb 2026 08:01:51 +0000</pubDate>
-    </item>
-    <item>
-      <title>Carrier Mapping in Sub-2nm Node NSFETs with SSRM (imec, KU Leuven)</title>
-      <link>https://semiengineering.com/carrier-mapping-in-sub-2nm-node-nsfets-with-ssrm-imec-ku-leuven/</link>
-      <description>Researchers from imec and KU Leuven published “Carrier Mapping in Sub-2nm Node Nanosheet Transistors with Scanning Spreading Resistance Microscopy.” Abstract “As the semiconductor industry transitions to gate-all-around architectures such as Nanosheet-FETs (NSFETs) for the 2nm node and beyond, controlling parasitic resistance through precise junction engineering is fundamental. This requires characterization methods capable of mapping active... » read more The post Carrier Mapping in Sub-2nm Nod</description>
-      <guid isPermaLink="false">https://semiengineering.com/carrier-mapping-in-sub-2nm-node-nsfets-with-ssrm-imec-ku-leuven/</guid>
-      <pubDate>Sun, 15 Feb 2026 08:02:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chip Industry Technical Paper Roundup: Feb. 16</title>
-      <link>https://semiengineering.com/chip-industry-technical-paper-roundup-feb-17/</link>
-      <description>AFMTJs for IMC; test generation w/high functional switching activities; Cu-to-Cu bonding; high-clockrate free-space IMC; information flow verification; YOLO advances; ultrafast visual perception beyond human capabilities; 3D printing of nanomaterials-based electronics. The post Chip Industry Technical Paper Roundup: Feb. 16 appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/chip-industry-technical-paper-roundup-feb-17/</guid>
-      <pubDate>Mon, 16 Feb 2026 08:01:55 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 19 Feb 2026 07:37:07 +0000</lastBuildDate>
     <item>
       <title>Less Power and Higher Performance With A Nanolaser With Extreme Dielectric Confinement (DTU)</title>
       <link>https://semiengineering.com/less-power-and-higher-performance-with-a-nanolaser-with-extreme-dielectric-confinement-dtu/</link>
@@ -79,6 +58,27 @@
       <description>The paper “RISCover: Automatic Discovery of User-exploitable Architectural Security Vulnerabilities in Closed-Source RISC-V CPUs” was published by researchers at CISPA Helmholtz Center for Information Security. Abstract “The open and extensible RISC-V instruction set has enabled many new CPU vendors and implementations, but most commercial CPUs are closed-source, significantly hindering vulnerability analysis—especially for bugs exploitable from... » read more The post Detecting Architectural Vu</description>
       <guid isPermaLink="false">https://semiengineering.com/detecting-architectural-vulnerabilities-in-closed-source-risc-v-cpus-cispa/</guid>
       <pubDate>Tue, 17 Feb 2026 16:45:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Router-in-a-Package Design Combining HBM4, Chiplets and In-Package Optics (Technion, Berkeley, UCSD)</title>
+      <link>https://semiengineering.com/router-in-a-package-design-combining-hbm4-chiplets-and-in-package-optics/</link>
+      <description>A new technical paper “Scaling Routers with In-Package Optics and High-Bandwidth Memories” was posted by researchers at Technion, UC Berkeley and UC San Diego. Abstract “This paper aims to apply two major scaling transformations from the computing packaging industry to internet routers: the heterogeneous integration of high-bandwidth memories (HBMs) and chiplets, as well as in-package... » read more The post Router-in-a-Package Design Combining HBM4, Chiplets and In-Package Optics (Technion, Ber</description>
+      <guid isPermaLink="false">https://semiengineering.com/router-in-a-package-design-combining-hbm4-chiplets-and-in-package-optics/</guid>
+      <pubDate>Wed, 18 Feb 2026 08:01:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blog Review: Feb. 18</title>
+      <link>https://semiengineering.com/blog-review-feb-18-2/</link>
+      <description>Agentic disruption; data center PUE; scaling AI; RTOS; dropping toast. The post Blog Review: Feb. 18 appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/blog-review-feb-18-2/</guid>
+      <pubDate>Wed, 18 Feb 2026 08:01:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wi-Fi 7 Moves To The IoT</title>
+      <link>https://semiengineering.com/wi-fi-7-moves-to-the-iot/</link>
+      <description>What's behind the widespread adoption of extremely high-throughput wireless. The post Wi-Fi 7 Moves To The IoT appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/wi-fi-7-moves-to-the-iot/</guid>
+      <pubDate>Wed, 18 Feb 2026 08:15:16 +0000</pubDate>
     </item>
   </channel>
 </rss>
