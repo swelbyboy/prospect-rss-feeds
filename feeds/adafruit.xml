@@ -8,86 +8,85 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Feb 2026 07:04:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 07:03:49 +0000</lastBuildDate>
     <item>
-      <title>The “Crown of Nobles” noble gas tube display</title>
-      <link>https://blog.adafruit.com/2026/02/17/the-crown-of-nobles-noble-gas-tube-display/</link>
-      <description>Scott Shambaugh works with spacecraft ion thrusters as a day job. (neat) He writes: I wanted a little desk display so I could interact with the gas. A chance to get more familiar with the behavior of ionized gasses in general, and a desktop scapegoat to glare at when working through propulsion issues. Amazon sells […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/the-crown-of-nobles-noble-gas-tube-display/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/blink-25.png" length="0" type="image/png"/>
-      <pubDate>Tue, 17 Feb 2026 20:03:44 +0000</pubDate>
+      <title>Open-source Real-time Driver MOD for the LEGO Orrery</title>
+      <link>https://blog.adafruit.com/2026/02/18/open-source-real-time-driver-mod-for-the-lego-orrery/</link>
+      <description>Fantastic build from maker Görkem Bozkurt, whose website is also super awesome. The mod I’ve made consists of a custom PCB that can be directly mounted to the back of a NEMA17 stepper motor an can be attached to the LEGO set replacing the manual crank by only removing 5 LEGO pieces. I’m using esp32 […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/18/open-source-real-time-driver-mod-for-the-lego-orrery/</guid>
+      <pubDate>Wed, 18 Feb 2026 17:02:01 +0000</pubDate>
     </item>
     <item>
-      <title>NEW LEARN GUIDE: Tiny Wiki for CircuitPython #CircuitPython #AdafruitLearningSystem @Adafruit</title>
-      <link>https://blog.adafruit.com/2026/02/17/new-learn-guide-tiny-wiki-for-circuitpython-circuitpython-adafruitlearningsystem-adafruit/</link>
-      <description>Tiny Wiki is a small webserver that runs on a microcontroller and hosts a minimal Wiki system backed by markdown files. It was originally created by Kevin McAleer for Micropython devices. You can create and edit pages, linking them together to form a Wiki structure. This guide features a CircuitPython port of the Tiny Wiki […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/new-learn-guide-tiny-wiki-for-circuitpython-circuitpython-adafruitlearningsystem-adafruit/</guid>
-      <enclosure url="https://cdn-learn.adafruit.com/guides/images/000/004/476/medium800/tiny_wiki_overview_hero.png?1771255965" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 20:29:33 +0000</pubDate>
+      <title>Putting a modern NVMe SSD drive on a vintage computer PCI bus</title>
+      <link>https://blog.adafruit.com/2026/02/18/putting-a-modern-nvme-ssd-drive-on-a-vintage-computer-pci-bus/</link>
+      <description>O_MORES on Reddit provides a solution to have a modern solid state drive (SSD) work in a vintage computer which has only PCI slots (not more modern PCIe slots which are different). The setup is simple. The Redditor installed the M.2 PCIe 3.0 SSD into a standard M.2-to-PCIe AIC (Add-in Card), the same type typically […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/18/putting-a-modern-nvme-ssd-drive-on-a-vintage-computer-pci-bus/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/a-38.png" length="0" type="image/png"/>
+      <pubDate>Wed, 18 Feb 2026 17:13:44 +0000</pubDate>
     </item>
     <item>
-      <title>Diagnosing a Commodore PET video fault from one photograph</title>
-      <link>https://blog.adafruit.com/2026/02/17/diagnosing-a-commodore-pet-video-fault-from-one-photograph/</link>
-      <description>Tynemouth Software writes about an owner who had initially made contact saying they had a PET 2001, and there was no video output, and they wondered if bad ROM or RAM could cause that and would a PET ROM/RAM fix the issue? After some probing around, they found the 74177 at D6 was at fault, […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/diagnosing-a-commodore-pet-video-fault-from-one-photograph/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/b-27.png" length="0" type="image/png"/>
-      <pubDate>Tue, 17 Feb 2026 20:54:51 +0000</pubDate>
+      <title>Humans and Machines, a Phase Transition… The Ice Is Deciding What to Become</title>
+      <link>https://blog.adafruit.com/2026/02/18/humans-and-machines-a-phase-transition-the-ice-is-deciding-what-to-become/</link>
+      <description>A follow up to the book review Traversal by Maria Popova… Polymaths, and the Transit of Venus while it’s still in head space. Somewhere in a conference room with bad lighting and worse coffee, someone is making a licensing decision that will determine whether your grandchildren live in a democracy or a feudal server farm. […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/18/humans-and-machines-a-phase-transition-the-ice-is-deciding-what-to-become/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/ice.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 17:18:54 +0000</pubDate>
     </item>
     <item>
-      <title>Hard drive failure analysis – the Backblaze experience</title>
-      <link>https://blog.adafruit.com/2026/02/17/hard-drive-failure-analysis-the-backblaze-experience/</link>
-      <description>backblaze.com marks 13 years of collecting Hard Drive Stats data. Statistics such as these provide folks who may not be keeping such detailed records to have a statistical approximation as to how and when their own hard drives might develop faults. As of the end of 2025, Backblaze was monitoring 341,664 drives used to store […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/hard-drive-failure-analysis-the-backblaze-experience/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/bootsel-24.png" length="0" type="image/png"/>
-      <pubDate>Tue, 17 Feb 2026 21:25:48 +0000</pubDate>
+      <title>Professor Bubbleton’s Breathing Head in a Jar #Sensors #AdafruitLearningSystem @Adafruit</title>
+      <link>https://blog.adafruit.com/2026/02/18/professor-bubbletons-breathing-head-in-a-jar-sensors-adafruitlearningsystem-adafruit/</link>
+      <description>Check out the latest guide from Erin St Blaine: Add some creepy mystery to your Curiosities Cabinet with Professor Bubbleton’s Breathing Head in a Jar. This guide will show you how to use a Circuit Playground Express with an air pump and CircuitPython code to make the head glow and appear to blow bubbles when […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/18/professor-bubbletons-breathing-head-in-a-jar-sensors-adafruitlearningsystem-adafruit/</guid>
+      <enclosure url="https://cdn-learn.adafruit.com/guides/images/000/004/469/medium800thumb/headinjar_gif.gif?1771347372" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 17:19:28 +0000</pubDate>
     </item>
     <item>
-      <title>My smart sleep mask broadcasts users’ brainwaves to an open MQTT broker #IoTsecurity</title>
-      <link>https://blog.adafruit.com/2026/02/17/my-smart-sleep-mask-broadcasts-users-brainwaves-to-an-open-mqtt-broker-iotsecurity/</link>
-      <description>Aimilios Hatzistamou recently got a smart sleep mask from Kickstarter. What was not expected was the ability to read strangers’ brainwaves and send them electric impulses in their sleep. The mask was from a small Chinese research company, very cool hardware — EEG brain monitoring, electrical muscle stimulation around the eyes, vibration, heating, audio. I […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/my-smart-sleep-mask-broadcasts-users-brainwaves-to-an-open-mqtt-broker-iotsecurity/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/b-30.png" length="0" type="image/png"/>
-      <pubDate>Tue, 17 Feb 2026 21:49:38 +0000</pubDate>
+      <title>Monitoring Depression Relapse With a Wearable #WearableWednesday</title>
+      <link>https://blog.adafruit.com/2026/02/18/monitoring-depression-relapse-with-a-wearable-wearablewednesday/</link>
+      <description>Researchers at McMaster University collected sleep and activity data from 93 adults across Canada who had previously recovered from depression. Utilizing a research-grade actigraphy wearable device, over 32,000 days of data was generated. Their research was published in JAMA Psychiatry. The new research highlights a simple, yet powerful way to passively monitor relapse risk in […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/18/monitoring-depression-relapse-with-a-wearable-wearablewednesday/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/Screen-Shot-2026-02-18-at-8.38.45-AM.png" length="0" type="image/png"/>
+      <pubDate>Wed, 18 Feb 2026 21:00:17 +0000</pubDate>
     </item>
     <item>
-      <title>Serial Studio: see data from Arduino, ESP32, Raspberry Pi, and other devices in real-time</title>
-      <link>https://blog.adafruit.com/2026/02/17/serial-studio-see-data-from-arduino-esp32-raspberry-pi-and-other-devices-in-real-time/</link>
-      <description>Serial Studio is a tool that helps you see data from Arduino, ESP32, Raspberry Pi, and other devices in real-time. It works with serial ports (UART), Bluetooth Low Energy (BLE), MQTT, Modbus TCP/RTU, CAN Bus, TCP/UDP networks, and audio devices. You can create dashboards to monitor sensors and debug hardware without writing code. Serial Studio […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/serial-studio-see-data-from-arduino-esp32-raspberry-pi-and-other-devices-in-real-time/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/a-35.png" length="0" type="image/png"/>
-      <pubDate>Tue, 17 Feb 2026 22:09:56 +0000</pubDate>
+      <title>What’s Inside the Snow Piles That Have Plagued NYC</title>
+      <link>https://blog.adafruit.com/2026/02/18/whats-inside-the-snow-piles-that-have-plagued-nyc/</link>
+      <description>If you are in NYC you have tromped over your fair share of questionable snow piles. The dumping the east coast got in January followed by an extended Arctic plunge gave these mountains time to accumulate some…extra bits. The grey-black blobs are about as unsanitary as they look – full of bacteria and heavy […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/18/whats-inside-the-snow-piles-that-have-plagued-nyc/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/snow.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 21:43:00 +0000</pubDate>
     </item>
     <item>
-      <title>CircuitPython 10.1.1 Released!</title>
-      <link>https://blog.adafruit.com/2026/02/17/circuitpython-10-1-1-released/</link>
-      <description>From the GitHub release page: This is CircuitPython 10.1.1, the latest minor revision of CircuitPython, and is a new stable release. CircuitPython 10.1.0 was withdrawn due to a show-stopper performance problem on Espressif. See Changes below. Notable changes in 10.1.1 from 10.0.x Add mipidsi module to support MIPI DSI displays. Currently enabled for ESP32-P4. Fix […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/circuitpython-10-1-1-released/</guid>
+      <title>CircuitPython 10.2.0 Alpha 1 Released!</title>
+      <link>https://blog.adafruit.com/2026/02/18/circuitpython-10-2-0-alpha-1-released/</link>
+      <description>From the GitHub release page: This is CircuitPython 10.2.0-alpha.1, an alpha release for 10.2.0. Further features, changes, and bug fixes will be added before the final release of 10.2.0. Highlights of this release Include 10.1.1 fix for performance regression. Better entropy for RP2350 os.urandom(). Add supervisor.get_setting(), which retrieves a string, boolean, or integer typed value […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/18/circuitpython-10-2-0-alpha-1-released/</guid>
       <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/07/CircuitPython-10-360x480.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 00:00:08 +0000</pubDate>
+      <pubDate>Wed, 18 Feb 2026 21:50:40 +0000</pubDate>
     </item>
     <item>
-      <title>Coming Soon – Adafruit AS7343 14-Channel Multi-Spectral Sensor Breakout</title>
-      <link>https://blog.adafruit.com/2026/02/17/coming-soon-adafruit-as7343-14-channel-multi-spectral-sensor-breakout/</link>
-      <description>This is a spectrometer on a chip (video), and it’s getting the Adafruit breakout treatment. The AS7343 is the successor to our AS7341, bumped from 10 channels to 14, with 12 spanning visible light into near-infrared (380nm to 1000nm), plus clear and flicker detection. Same footprint and pinout as the ’41, so your existing wiring […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/coming-soon-adafruit-as7343-14-channel-multi-spectral-sensor-breakout/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/as7343-600x337.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 01:45:03 +0000</pubDate>
+      <title>Hashima Hasan – The Sky Belongs to All of Us #NASA</title>
+      <link>https://blog.adafruit.com/2026/02/18/hashima-hasan-the-sky-belongs-to-all-of-us-nasa/</link>
+      <description>Hashima Hasan is a highly accredited NASA program scientist and the first female program scientist for the James Webb Space Telescope. Read her inspirational journey and career highlights from NASA! The story starts in October 1957, when I was 7 years old, and my grandmother ordered the entire family, including my 3-year-old sister, all the […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/18/hashima-hasan-the-sky-belongs-to-all-of-us-nasa/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/jwst_concept.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 02:00:01 +0000</pubDate>
     </item>
     <item>
-      <title>Traversal by Maria Popova… Polymaths, and the Transit of Venus</title>
-      <link>https://blog.adafruit.com/2026/02/17/traversal-by-maria-popova-polymaths-and-the-transit-of-venus/</link>
-      <description>I finished this pre-ordered book today, it was released late last night, and I will probably read it again! Traversal by Maria Popova is a mix of biography and science history. She weaves together roughly fifteen boundary-crossers across 250 years. From Captain Cook, who dragged telescopes to Tahiti for the Transit of Venus and made […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/traversal-by-maria-popova-polymaths-and-the-transit-of-venus/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/traversal.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 01:57:27 +0000</pubDate>
+      <title>Forest Brew Mug #3DThursday #3DPrinting</title>
+      <link>https://blog.adafruit.com/2026/02/19/forest-brew-mug-3dthursday-3dprinting/</link>
+      <description>HTH_Creations shares: The Forest Brew Mug is a whimsical, tree-stump–inspired drink holder designed to bring a bit of the forest to your desk or workshop. Shaped like a carved tree stump with natural bark texture, roots, and subtle mushroom details, it securely holds a standard 12-oz soda can while adding a fun, rustic aesthetic. This […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/19/forest-brew-mug-3dthursday-3dprinting/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/Forest-Brew-Mug-600x449.webp" length="0" type="image/webp"/>
+      <pubDate>Thu, 19 Feb 2026 06:00:24 +0000</pubDate>
     </item>
     <item>
-      <title>The Python on Microcontrollers Newsletter: subscribe for free</title>
-      <link>https://blog.adafruit.com/2026/02/17/the-python-on-microcontrollers-newsletter-subscribe-for-free-2-12-2-2/</link>
-      <description>The Python for Microcontrollers Newsletter is the place for the latest news involving Python on hardware (microcontrollers AND single board computers like Raspberry Pi). This ad-free, spam-free weekly email is filled with CircuitPython, MicroPython, and Python information that you may have missed, all in one place! You get a summary of all the software, events, projects, and the latest hardware worldwide once a week, no […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/17/the-python-on-microcontrollers-newsletter-subscribe-for-free-2-12-2-2/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/Subscribe-2026-02.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 03:09:43 +0000</pubDate>
+      <title>From the mail bag…</title>
+      <link>https://blog.adafruit.com/2026/02/19/from-the-mail-bag-777/</link>
+      <description>From the mail bag! Thank you to the everyone on the team… I really appreciate your company, your products, and most importantly your mission to support makers. IT IS AMAZING!!</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/19/from-the-mail-bag-777/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/10/mailbag_animated-2-2.gif" length="0" type="image/gif"/>
+      <pubDate>Thu, 19 Feb 2026 06:30:22 +0000</pubDate>
     </item>
   </channel>
 </rss>

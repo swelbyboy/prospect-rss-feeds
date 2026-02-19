@@ -8,86 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Feb 2026 07:10:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 07:10:31 +0000</lastBuildDate>
     <item>
-      <title>僅 0.9B 參數卻有業界頂尖實力！Z.ai 開源 GLM-OCR 模型，輕量到能在本地端流暢執行</title>
-      <link>https://www.techbang.com/posts/127931-z-ai-glm-ocr-0-9b-local</link>
-      <description>中國新創 Z.ai 推出 GLM-OCR，這款多模態 OCR 模型以其驚人的輕量化設計，僅 0.9B 參數卻能精準解析複雜文件。中國 AI 新創公司 Z.ai 稍早發布了一款專門用於文件理解的多模態 OCR 模型「GLM-OCR」。最讓人驚豔的是，這款模型的參數規模僅有 0.9B（9 億），卻號稱能精準解析並提取複雜的文件排版內容，甚至在多項基準測試中超越了現有的競爭對手。 GLM-OCR 的技術核心基於 GLM-V 編碼器-解碼器架構。它整合了經過大規模圖文資料預訓練的 CogViT 視覺編碼器、高效的輕量級跨模態連接器，以及 GLM-0.5B 語言解碼器。為了提升學習效率與辨識精準度，團隊還導入了多 token 預測（MTP）損失函數。 傳統 OCR 遇到表格或註釋時，格式往往會跑掉。但 GLM-OCR 採用基於 PP-DocLayout-V3 的版面分析與平行辨識兩階段流程，能先看懂文件結構，再進行文字與圖片辨識，即使是複雜的技術文件或排版混亂的收據也能搞定，並精準輸出為 HTML 或 JSON 格式。 在 OmniDocBench V1.5 基準測試中，GLM-OCR 拿下了</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127931-z-ai-glm-ocr-0-9b-local</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127931/thumb/83a25f997bef5b9fc89daa0c38f8ad43.jpg?1770720042" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 05:30:00 +0000</pubDate>
+      <title>再見了 iWork？蘋果的 Pages、Keynote、Numbers 可能正在步入歷史，由 Creator Studio 全面接棒</title>
+      <link>https://www.techbang.com/posts/127993-iwork-replaced-by-creator-studio</link>
+      <description>傳全新 Apple Creator Studio 訂閱制服務將取代 iWork，整合 Pages 等軟體，預示 Apple Creator Studio 訂閱制時代來臨，這場品牌重塑引人關注。蘋果傳出正準備為其生產力軟體進行重大的品牌重塑，隨著全新訂閱制服務「Apple Creator Studio」的推出，自 2005 年起沿用至今的 iWork 品牌（包含 Pages、Keynote 與 Numbers）可能即將走入歷史。 官網「iWork」專區消失，導向通用 App 頁面 近日有眼尖網友發現，Apple 官網已悄悄移除原本獨立的 iWork 專區，原有的網址現在會直接跳轉至更為通用的「Apps」頁面。該頁面目前主打 Creator Studio、Apple Arcade、Apple Invites 以及 Image Playground 等服務。 雖然 Pages、Numbers 和 Keynote 的介紹仍保留在生產力章節中，但網頁上已完全不見「iWork」字樣。取而代之的是強調這些 App 在 Apple Creator Studio 訂閱制下所擁有的進階功能。 從買斷到免費</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127993-iwork-replaced-by-creator-studio</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127993/thumb/df6c2d98e94176bb1dd62c76e9cf78d5.jpg?1771241192" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 07:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>如何串接 Apify 與 Gemini，打造探店小幫手</title>
-      <link>https://www.techbang.com/posts/127839-apify-gemini-point-assistant</link>
-      <description>這篇教學詳解如何透過 n8n 串接 Apify 從自動抓取 Google Maps 商家數據、 AI 雜誌化文案編輯，到自動寄送推薦郵件與 LINE 即時通知。在 LINE 群組討論聚餐時，最耗時的往往是收集餐廳資訊並整理成清單。即使有了關鍵字，手動切換 Google Maps 複製地址、評分與連結依然繁瑣。透過 n8n 串接 Apify 爬蟲工具與 Gemini AI ，我們能讓 LINE OA 化身專業美食編輯：只要輸入關鍵字，系統便會自動抓取地圖數據，並由 AI 撰寫成具備雜誌質感的推薦報告，甚至直接寄送到您的 Gmail 信箱存檔，徹底自動化您的探店工作流。 什麼是 Apify ?Apify 是一個集網頁爬蟲、自動化與雲端運行於一體的生態平台，透過豐富的現成工具（Actors）與強大的抗封鎖技術，讓使用者能高效採集網頁數據，並輕鬆串接至 AI 或各種自動化工作流中。 我們將延續「 如何用 n8n 自動備份 LINE 圖片與檔案至 Google 雲端硬碟」、「如何用 n8n 自動轉譯 LINE 群組語音訊息」的節點流程，進一步擴充 LINE OA 的功能。 👉歡迎訂閱《AI 成長</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127839-apify-gemini-point-assistant</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127839/thumb/89fa034b4462d9887a8e09e77545adba.jpg?1770276842" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 06:00:00 +0000</pubDate>
+      <title>一年又過了，時間怎麼過這麼快？澳洲時間感知專家揭開「大腦計時器」的秘密</title>
+      <link>https://www.techbang.com/posts/127976-why-time-flies-brain-timer-secret</link>
+      <description>QUT 教授 Hogendoorn 指出，大腦並非像時鐘感知時間，而是透過「記憶密度」來推論。當生活充滿規律例行公事，大腦因缺乏新記憶點，回首時便會產生時間飛逝的錯覺。是不是覺得好像才剛立下新年新志向，結果什麼都沒做一年又過了？這種「時間飛逝」的感覺並非錯覺，而是大腦處理資訊的獨特方式。昆士蘭科技大學（QUT）視覺時間感知教授 Hinze Hogendoorn 近日發表研究指出，大腦並非像時鐘那樣「感知」時間，而是透過追蹤「變化」來「推論」時間。 大腦沒有計時器，而是靠「記憶密度」推算 Hogendoorn 教授解釋，人類擁有視覺、聽覺、觸覺等專門感官來接收環境信號，但大腦中並沒有專門偵測「時間粒子」的器官。相反地，大腦是透過累積發生的事件量來估算時長。 研究發現，如果一段時間內充滿了令人興奮或密集的資訊，大腦就會覺得這段時間很長。一個著名的實驗顯示，當受試者從 30 公尺高處墜落進入安全網時，由於極度的恐懼放大了注意力，大腦會儲存極為密集且豐富的記憶；事後回想時，受試者普遍認為墜落的時間比實際長了三分之一以上。 為什麼「日子難熬，年份卻轉瞬即逝」？ 這種現象在成年人身上尤為明顯。Ho</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127976-why-time-flies-brain-timer-secret</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127976/thumb/9257fefb6816ffcdc8de051d50663b7e.jpg?1770952526" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windows 98復活計劃（二十五）：DOSBox Pure Unleashed特色解析，可獨立執行、1支手把打天下</title>
-      <link>https://www.techbang.com/posts/127932-dosbox-pure-win98-standalone-gamepad</link>
-      <description>筆者跟懷舊遊戲同好聊天時，常常聽到不習慣RetroArch模擬器的抱怨，現在DOSBox Pure Unleashed成為獨立模擬器，能夠擺脫RetroArch獨自運作。筆者跟懷舊遊戲同好聊天時，常常聽到不習慣RetroArch模擬器的抱怨，現在DOSBox Pure Unleashed成為獨立模擬器，能夠擺脫RetroArch獨自運作。 Windows遊戲也能當Rom讀取 被筆者稱為萬能模擬器的RetroArch可以透過前端主程式去調度不同的模擬器核心（Core），讓使用者可以在統一的操作介面下使用幾乎所有模擬器，但是由於它的功能太過豐富，也讓操作與設定比較複雜，導致許多玩家覺得使用獨立模擬器（Stand Alone Emulator）比較方便。 延伸閱讀：Windows 98復活計劃目錄 DOSBox Pure Unleashed保留了DOSBox Pure的所有功能，並脫離RetroArch成為獨立模擬器，不但省去了肥大的主程式，使用者也可以享受「點2下開啟程式」、「拖曳ROM檔案就開始玩」的簡明使用體驗。 DOSBox Pure Unleashed除了可以使用鍵盤、滑鼠操作，方</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127932-dosbox-pure-win98-standalone-gamepad</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127932/thumb/325fd666cc3cfbe5bdea1d52c4fff8a6.jpg?1770776697" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 06:30:00 +0000</pubDate>
+      <title>State of Play 重點整理：戰神希臘三部曲重製版開發中、惡魔城久違新作、還有捍衛任務「殺神」來了</title>
+      <link>https://www.techbang.com/posts/127977-state-of-play-god-of-war-remake-new-games</link>
+      <description>PlayStation State of Play 發表會揭示了 2026 年上半年 PlayStation 平台的遊戲布局，涵蓋經典重製與眾多新作，預示著玩家將迎來精彩可期的遊戲盛宴。Sony Interactive Entertainment 於 2 月 12 日播出新一場 PlayStation「State of Play」線上發表會，內容涵蓋第一方與第三方新作發表、既有作品更新、重製計畫以及多款遊戲的上市時程。整體陣容橫跨動作、射擊、角色扮演與恐怖類型，為 2026 年上半年 PlayStation 平台的遊戲布局提供更明確的時間表。 《God of War》希臘三部曲重製啟動，同步推出《God of War: Sons of Sparta》 聖塔莫尼卡工作室（Santa Monica Studio）在節目確認，《God of War》（戰神）希臘篇三部曲重製計畫已進入開發階段。不過官方強調目前仍屬早期製作階段，短期內不會公布進一步畫面或上市資訊。這項消息意味著經典初代至三代作品有望以現代化畫面與系統重新登場。 此外，Santa Monica Studio 也與 Mega Ca</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127977-state-of-play-god-of-war-remake-new-games</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127977/thumb/df8702be5fc9b80b48830cd67ecf6377.png?1770962024" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 08:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>告別Win11底部魔咒！PowerToys新功能讓工作列上下左右都能放</title>
-      <link>https://www.techbang.com/posts/127776-powertoys-win11-super-taskbar</link>
-      <description>PowerToys 團隊提案「Command Palette Dock」，為 Windows 11 帶來可自由移動的第二工作列。微軟官方的 PowerToys 開發團隊最近在 GitHub 上丟出了一顆震撼彈。他們提出了一項名為「Command Palette Dock」的新功能提案，計畫在 Windows 11 中加入一個功能強大的「第二工作列」。最諷刺的是，當全球 Windows 11 使用者還在抱怨原生工作列被「鎖死」在底部時，這個由官方團隊開發的工具，卻標榜位置可以讓你隨便放。 打破限制：上下左右都能放，還能高度客製化 根據提案內容，這個「Command Palette Dock」基本上是一個常駐型的工具列，使用者可以自由地將它固定在螢幕的頂端、底部，甚至是左右兩側。這對習慣 macOS 或 Linux 頂部選單配置的玩家來說，無疑是個大好消息。 除了位置靈活，這款新工作列還支援極高的個人化選項： 透明度與外觀：可以調整背景模糊度、不透明度以及顏色，完美融入 Windows 11 的美學。 三區配置：參考了主流系統的設計，將內容分為「起始、中央、末端」三個邏輯區域，讓資訊排列更</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127776-powertoys-win11-super-taskbar</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127776/thumb/e741557518f851a7addbaec6030b4754.jpg?1770028438" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 07:30:00 +0000</pubDate>
+      <title>AR 眼鏡立大功！Micro LED 產值年增 150%，友達打入 Garmin 供應鏈成關鍵亮點</title>
+      <link>https://www.techbang.com/posts/127945-ar-glasses-micro-led-auo-garmin</link>
+      <description>蘋果放棄後，Micro LED 技術找到新出路！受惠於 AR 眼鏡 商業化推動，2025 年全球 Micro LED 面板營收預計將大增 150%，其中 AR 眼鏡 貢獻最大，前景可期。雖然蘋果兩年前放棄 Micro LED 手錶計畫曾讓市場嚇出一身冷汗，但這項技術顯然已經找到新出路！市調機構 Counterpoint Research 發布最新報告指出，受惠於 AR 智慧眼鏡的商業化推動，2025 年全球 Micro LED 面板營收預計將比去年大增 150%。其中，AR 眼鏡更是功不可沒，拿下了總營收的 58%，成為目前最大的細分市場。 這份報告也點出了一個對台灣產業相當重要的里程碑。在智慧手錶領域，Garmin（佳明）推出的 fēnix 8 Pro 成為首款搭載 Micro LED 螢幕的智慧手錶。Counterpoint 認為，這款產品的成功發布意義重大，不僅提振了供應鏈信心，更直接證明了台灣面板大廠友達光電（AUO）已經具備足夠的技術實力，能滿足 OEM 廠商對於品質的嚴格要求。 目前在電視和穿戴裝置市場，Micro LED 雖然因為成本問題，仍屬於「利基型」技術，但憑藉著比</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127945-ar-glasses-micro-led-auo-garmin</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127945/thumb/966b742b3620dc7955da24cc99f1f58b.jpg?1770793856" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 00:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>先前流出的 Insta360 間諜照中的新相機，疑似搭載 M43 片幅感光元件？</title>
-      <link>https://www.techbang.com/posts/127895-insta360-m43-sensor-leak</link>
-      <description>不久前 Insta360 執行長在社群平台上釋出一張神祕的新機局部照片，引發了攝影圈的熱烈討論，而如今有線索指出，該台尚未發表的新相機，疑似搭載 M43 片幅感光元件。不久前 Insta360 執行長在社群平台上釋出一張神祕的新機局部照片，引發了攝影圈的熱烈討論，而如今有線索指出，該台尚未發表的新相機，疑似搭載 M43 片幅感光元件。 原型機細節藏玄機 這波討論的源頭，來自 Insta360 執行長兩週前在社群平台上分享的一張原型機照片。這款新機採用了大膽的米白色塗裝，機身設計與現有的 Ace Pro 或 X 系列截然不同，具備明顯的復古與專業感。最引人注目的是，機身上方配置了實體的快門撥輪與曝光補償轉盤，這在追求自動化的運動相機上極為罕見，透露出這款相機將更注重進階玩家的操控體驗。 搭載 M43 感光元件機率大增 除了外型，從流出的實拍樣張中可以發現關鍵線索。樣張照片的原始解析度為 5280 x 3956 像素，總像素約為 2,000 萬，這項數據與 Sony 生產的 IMX472 感光元件規格完全吻合。值得注意的是，這片感光元件目前正服役於 OM System 的 OM-1 Mar</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127895-insta360-m43-sensor-leak</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127895/thumb/962c236d9b4834c47ea35418c5e888cc.jpg?1770693036" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 08:00:00 +0000</pubDate>
+      <title>Google I/O 2026 敲定 5 月 19 日登場！傳首款 AI 智慧眼鏡將現身，正面迎戰 Meta</title>
+      <link>https://www.techbang.com/posts/128006-google-io-2026-ai-glasses-debut-vs-meta</link>
+      <description>Google I/O 大會即將登場，揭示 Google 在 AI 大戰中的最新佈局。AI 大戰打得火熱，Google 終於要出招了嗎？Google 母公司 Alphabet 於週二（17 日）正式宣佈，年度科技盛會 Google I/O 開發者大會將於 5 月 19 日至 20 日舉辦。Alphabet 執行長 Sundar Pichai隨後也在 X 平台（前 Twitter）上證實了這個日期。本次大會將回歸加州山景城（Mountain View）總部舉行，並同步在活動官網進行全球直播 。 對於科技迷來說，今年的 Google I/O 絕對是觀察 AI 軟硬體整合的關鍵風向球。除了例行性的 Android 系統更新與 Gemini 模型升級外，外界最關注的焦點，莫過於傳聞已久的 Google AI 智慧眼鏡是否會正式亮相，與目前在市場上大殺四方的 Meta Ray-Ban 智慧眼鏡展開直球對決。 攜手 Warby Parker，Google 眼鏡捲土重來？ 早在去年（2025 年）12 月，Google 就曾預告將於 2026 年推出旗下首款 AI 眼鏡。這並非 Google 第一次嘗</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128006-google-io-2026-ai-glasses-debut-vs-meta</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128006/thumb/b327509f7963d21761c04715a89404b6.jpg?1771424998" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 01:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>神秘無人機真相大白！工程師「手作飛機」太前衛，頻遭誤認UFO釀機場危機</title>
-      <link>https://www.techbang.com/posts/127852-mystery-drone-ufo-airport-crisis</link>
-      <description>歐洲機場癱瘓的「神祕無人機」謎團揭曉！原來是比利時工程師的合法手作飛機，其獨特三角翼設計常被誤認。這架三角翼手作飛機，不再是神祕無人機，而是獲准飛行的創意結晶。造成歐洲多國機場一度癱瘓、民眾人心惶惶的「神祕無人機」真相終於大白了！原來這不是什麼軍事武器或 UFO，而是出自一位比利時工程師之手的「手作飛機」。 去年底開始，歐洲多個國家上空頻繁出現不明無人機，由於擔心飛安威脅，甚至導致部分城市的民用機場被迫暫停營運 。而上週在馬斯垂克—亞琛機場（Maastricht Aachen Airport）周邊，再度有目擊者通報發現不明無人機蹤跡 。 經過警方調查披露，這些神祕飛行物實際上是比利時工程師巴特・費爾海斯（Bart Verhees）自行設計並建造的三角形翼（三角翼）飛機 。這種三角翼構型在高空中飛行時，外型與一般常見的民用飛機截然不同，反而更像電影中的軍事無人機或神祕飛行器 。 警方指出，這次引起騷動的是費爾海斯駕駛的「Verhees Delta D2」雙座飛機 。這架飛機是他花了約五年時間親手打造，且早已獲得民航當局的飛行許可，當天是從赫赫特爾（Hechtel）附近的運動機場合法起飛</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127852-mystery-drone-ufo-airport-crisis</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127852/thumb/90fc16d1004774bf1aac2f2e8f3f155d.jpg?1770283324" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 08:30:00 +0000</pubDate>
+      <title>燒掉六千億台幣也難救！Meta 宣布關閉 Horizon Workrooms，元宇宙夢碎轉攻智慧眼鏡</title>
+      <link>https://www.techbang.com/posts/127999-meta-workrooms-closed-metaverse-dream-smart-glasses</link>
+      <description>Meta旗下Horizon Workrooms關停，宣告元宇宙寒冬來臨。元宇宙寒冬真的來了！Meta 旗下的 VR 虛擬會議應用程式 Horizon Workrooms 營運約 5 年後，已正式宣布關停 。這不僅標誌著一個產品的終結，更反映出 Meta 內部正經歷劇烈的策略轉型。 曾經的願景：虛擬辦公室的先行者 Horizon Workrooms 最初是為了 Quest 系列頭戴式裝置量身打造的 3D 協作空間 。在 Workrooms 中，使用者可以透過虛擬替身與同事在同一個空間共享螢幕、傳輸檔案，甚至還能在虛擬白板上隨手繪圖 。對於沒有 VR 裝置的人，Meta 也提供了透過網頁端參與會議的折衷方案 。然而，儘管構想超前，沉浸式會議的普及速度顯然跟不上燒錢的速度。 驚人虧損：Reality Labs 成為沉重的錢坑 根據 Meta 最新公布的 2025 財年財報，負責元宇宙研發的 Reality Labs 部門財務狀況慘不忍睹： 單季鉅額虧損：2025 年第四季錄得 60.2 億美元（約新台幣 1,926 億元）的經營虧損 。 年度累計虧損：全年虧損接近 192 億美元，換算新台幣</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127999-meta-workrooms-closed-metaverse-dream-smart-glasses</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127999/thumb/55f50f8b1123a71504106311ce1c82e1.jpg?1771406527" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 02:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI生產力悖論：當科技解放工作，為何員工卻更疲憊？</title>
-      <link>https://www.techbang.com/posts/127942-ai-productivity-paradox</link>
-      <description>AI 真的能將人類從繁重工作中解脫嗎？最新研究揭示，AI 雖提升個人能力，卻導致員工工作量不減反增，反而加劇疲勞與職業倦怠。這份工作量，正讓企業變成精疲力竭的機器。目前美國職場文化中最吸引人的說法，並非人工智慧會搶走工作，而是它能將人類從繁重的工作中解脫出來。 過去三年，科技業一直向數百萬焦慮不安的人推銷這個理念，而大眾也迫切地選擇相信。誠然，部分白領職位會消失，但該觀點主張對於大多數職位而言，AI 是能力的放大器。使用者會成為更有能力、更不可替代的律師、顧問、作家、程式設計師或金融分析師。工具為人所用，大家不必再拼命工作，達成人人雙贏。 不過《哈佛商業評論》近期發表的一項研究，順著這個前提推導出了真實結論：研究發現的並非一場生產力革命，而是企業有可能變成讓人精疲力竭的機器。 加州大學柏克萊分校的研究人員將其稱為進行中的研究，他們在一家擁有 200 人的科技公司內部觀察八個月，記錄員工真正接納 AI 後的工作狀態。透過 40 多場深度訪談，他們發現這家公司並未給員工施壓，也沒有要求達成新的業績目標。 然而，僅僅因為工具讓更多工作變得可行，員工就主動開始做更多事。也正因為能完成更多任務，</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127942-ai-productivity-paradox</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127942/thumb/b6047d8f611b23e19ca0bd0c5b2e7729.jpg?1770792665" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 00:30:00 +0000</pubDate>
+      <title>矽谷雙雄強強聯手！Meta 狂掃 NVIDIA 數百萬顆晶片，首度大規模導入獨立 CPU</title>
+      <link>https://www.techbang.com/posts/128010-meta-buys-nvidia-chips-independent-cpu</link>
+      <description>Meta深化與NVIDIA合作，斥巨資打造AI資料中心，更首度獨立部署NVIDIA Grace CPU。Meta 與 NVIDIA 兩大巨頭宣佈深化合作關係，Meta 將在其 AI 資料中心大規模採用 NVIDIA 的晶片，數量高達「數百萬顆」。這次合作不僅僅是買賣 GPU 這麼簡單，Meta 更成為首家大規模獨立部署 NVIDIA Grace CPU 的企業。消息一出，NVIDIA 股價應聲上漲，反觀競爭對手 AMD 則一度下跌約 4% 。 這筆交易的具體金額雖然沒有公開，但分析師推測規模絕對是「數百億美元」等級（約新台幣數千億元至上兆元）。Meta 執行長祖克柏（Mark Zuckerberg）表示，這次擴大合作是為了實現他在 7 月提出的願景：「為全球每一個人提供個人超級智慧（Personal Super Intelligence）」 。 打破慣例，首度獨立部署 Grace CPU 過去 NVIDIA 的 Grace CPU 通常是與 Hopper 或 Blackwell GPU 整合在同一個模組中（如 GH200）。但這次 Meta 決定「拆開來買」，成為第一家在資料中心單獨部</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128010-meta-buys-nvidia-chips-independent-cpu</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128010/thumb/0c4be8b36aa8ff6fd6eb1d68954358a9.jpg?1771411704" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 03:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>過去九個月手機記憶體價格漲三倍！下一波輪到路由器</title>
-      <link>https://www.techbang.com/posts/127988-phone-memory-prices-up-3x-routers-next</link>
-      <description>AI伺服器需求推升記憶體價格，導致路由器等消費性產品成本激增。這波記憶體價格上漲趨勢，將嚴重影響電信商寬頻部署與路由器採購，AI伺服器效應預計至少持續至2026年。根據市場研究機構 Counterpoint 近期發布的記憶體價格追蹤報告顯示，由於 AI 伺服器市場需求持續增加，帶動了 DRAM 與 NAND 記憶體價格在過去一年內出現顯著波動。這項趨勢影響範圍涵蓋個人電腦、入門級智慧型手機、路由器及機上盒等消費性電子產品。數據指出，這些產品所使用的記憶體零件在過去 12 個月內，價格漲幅已經超過 600%。 目前市場供需失衡的狀態主要源於高毛利 AI 伺服器對記憶體產能的排擠，使得傳統消費性市場面臨供應緊張與成本上升的壓力。預測顯示，這波價格上漲的趨勢至少會持續到 2026 年 6 月。儘管價格有可能在 2026 年上半年達到波段高點，但供應受限的情況預計會延續更長一段時間，短期內難以完全緩解。 在各類受影響的電子產品中，路由器、閘道器與機上盒等網通設備的成本變動相對明顯。觀察自 2025 年以來的每月價格趨勢可以發現，相較於智慧型手機記憶體約 3 倍的漲幅，採用消費型記憶體的寬頻產品</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127988-phone-memory-prices-up-3x-routers-next</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127988/thumb/a16ce0360f4595bc2e8ba6ea1253524b.png?1771160443" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 01:30:00 +0000</pubDate>
+      <title>iCloud+超實用功能！iPhone「隱藏我的電子郵件」設定教學，告別垃圾信騷擾</title>
+      <link>https://www.techbang.com/posts/125551-iphone-hide-email-disposable-address</link>
+      <description>有時候遇到一些網站或活動報名需填寫Email才能繼續使用，如果不想用慣用的Email信箱，不妨善用Apple自iOS 15開始推出的「隱藏我的電子郵件」功能，它能隨機生成一組亂數信箱，保障個人隱私。有時候遇到一些網站、討論區、線上購物或活動報名，要求一定要輸入Email才能繼續使用，為了避免真實信箱暴露，如果不想填寫自己常用的Email信箱，不妨善用Apple自iOS 15開始推出的「隱藏我的電子郵件」功能，它能隨機生成一組亂數信箱，也就是拋棄式Email，再自動將郵件轉寄到你的主要信箱，好處是這些地址可隨時停用或刪除，讓個人隱私更有保障，不過要注意，這項功能僅限付費訂閱iCloud+的用戶使用，免費5GB方案並不支援。 步驟 1：第一步，打開iPhone內建的「設定」App，點選頂部「Apple ID帳號」。 步驟 2：接著點擊進入「iCloud」。 步驟 3：再來下拉點入「隱藏電子郵件地址」選項。 步驟 4：接著選擇「＋建立新地址」選項。 步驟 5：出現「隱藏我的電子郵件」頁面後，若不喜歡可點擊「使用其他地址」，或選擇「繼續」。 步驟 6：接著可以自行輸入好辨識的「標籤名稱和備註」</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/125551-iphone-hide-email-disposable-address</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/125551/thumb/e19a355948c5fa80218fc253003f9dfe.jpg?1758288268" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 05:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>大年初二YouTube全球大當機！逾57萬用戶崩潰，首頁癱瘓搜尋仍可用</title>
-      <link>https://www.techbang.com/posts/127995-youtube-outage-lunar-new-year</link>
-      <description>大年初二全球 YouTube 當機，逾 57 萬用戶受影響，導致首頁癱瘓。儘管 YouTube 當機，搜尋功能仍可運作，但首頁癱瘓原因官方尚未公布，引發用戶熱議。YouTube 大年初二全球當機逾 57 萬用戶受影響，首頁癱瘓搜尋仍可運作。台灣時間 2 月 18 日上午近 9 點起，平台陸續恢復服務，但官方原因尚未公布。 根據 Downdetector 數據，YouTube 於台灣時間上午 8:50 左右爆發大規模故障，高峰期超過 57 萬用戶通報，主要問題為網頁版與 App 首頁無法載入影片，畫面顯示全白或「發生錯誤」訊息。台灣用戶早起崩潰，「首頁顯示不出來」、「電視 YouTube 跳登入畫面」、「全球都壞了」，但從搜尋進入特定連結（如《後宮甄嬛傳》24 小時直播）或觀看紀錄仍可播放，YouTube Music 服務正常。 全球影響與反應 外媒指出，絕大多數用戶遇到的問題都是「首頁無法載入」（Homepage not loading），畫面會顯示「Something Went Wrong」（發生錯誤）的訊息，或者是完全空白。這與台灣網友回報的「首頁顯示不出來」完全吻合。​ 國外網友</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127995-youtube-outage-lunar-new-year</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127995/thumb/519aaaea5dfe60cb1c15e339a5c81666.jpg?1771381620" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 02:27:00 +0000</pubDate>
+      <title>Android 17 提早來了？跳過開發者預覽，預計 6 月正式發佈</title>
+      <link>https://www.techbang.com/posts/127990-android-17-early-skip-preview-june</link>
+      <description>Android 17 的開發節奏顯著加快，測試週期更緊湊。Google 不僅以 Android Canary 取代舊版預覽，更引入新的命名邏輯，讓 Android 17 的開發節奏與更新模式更透明。Android 17 的開發節奏正在發生重大轉變，今年除了正式以「Android Canary」持續更新頻道取代過往的開發者預覽版（Developer Previews）之外，整體的測試週期也顯著加快。 回顧上一個 Android 16 週期，開發者在 11 月與 12 月仍處於預覽階段，直到 1 月才迎來首個 Beta 版；而這次 Android 17 展現了更高的效率，目標直指 2026 年 6 月發佈穩定版本。 緊湊的時程表顯示，Google 計畫在今年 3 月就讓 Android 17 進入「平台穩定性（Platform Stability）」里程碑，屆時系統將提供最終版本的 SDK 與 NDK API，並定案大部分影響應用程式的系統行為，讓開發者能在此基準上進行最後的調優。 與往年不同的是，Google 今年對於 Beta 版本的具體數量表現得較為低調。過去官方的「關於」頁面通常會</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127990-android-17-early-skip-preview-june</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127990/thumb/0ad7d87a7d8de9cc23a75b1740bcb66a.webp?1771161688" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>文組必學！AI駕馭力是什麼？職場加薪56%的關鍵秘密大公開</title>
-      <link>https://www.techbang.com/posts/127853-ai-workplace-skill-2026</link>
-      <description>「AI 駕馭力」已成為 2026 年職場新職能！學會正確運用 AI 駕馭力，不僅能賦能你的職場實力，更能讓薪資翻倍，成為未來職場不可或缺的關鍵人才。「你平常怎麼用 AI？」不只科技業，連傳統產業的行銷、業務、人資面試時，都會遇到這個問題。會用 ChatGPT 寫文案、整理會議記錄，真的是企業要的「AI 能力」嗎？ 《比薪水》探討 AI 駕馭力的定義、常見誤解、培養方法，為你的職場實力加分！ AI 駕馭力是什麼？ AI 駕馭力（AI Fluency）是指與 AI 協作思考的能力，在理解 AI 限制的前提下，將 AI 整合進工作流程，並且把 AI 當作放大思考能力的工具。 AI 駕馭力包含三個層面： 認知：將思考轉換成 AI 能理解的「結構化指令」，例如問題拆解、參數設定、辨識 AI 無法察覺的規律。 倫理：AI 不是中立工具，理解 AI 偏見、隱私風險、自動化影響。 操作：將 AI 整合進工作流程，從研究到分析，連結 AI 與工作成果。 AI 駕馭力結合批判思考、創意、邏輯，構成了新的工作語言。 AI 駕馭力的核心在於判斷力 「你會用 AI 嗎？」 「會，我每天用 ChatGPT 寫文案</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127853-ai-workplace-skill-2026</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127853/thumb/f45890c909056ed8b5caad8bf5874856.jpg?1770285934" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 03:00:00 +0000</pubDate>
+      <title>Google AI音樂神功能 Lyria 3 ：Gemini現在動動手指就能寫歌、出專輯</title>
+      <link>https://www.techbang.com/posts/128017-lyria-3-gemini-ai-music-creation</link>
+      <description>Google 將 Lyria 3 整合至 Gemini，宣告 AI 音樂創作進入全民時代！現在，透過 Gemini 搭配 Lyria 3，人人都能輕鬆進行 AI 音樂創作，手機就是你的錄音室。Google 這次直接把專業級的錄音室搬進你的手機裡。沒想到連寫歌這件事，現在只要動動手指在 Gemini 裡面打幾個字就能搞定。這項搭載了 Google 最強音樂模型 Lyria 3 的功能，宣告 AI 音樂創作正式進入「全民時代」。 什麼是 Lyria 3？音樂界的生成式 AI 黑馬 簡單來說，Lyria 3 就是音樂版的 Gemini 或 ChatGPT。它是 Google 旗下 DeepMind 團隊開發的最先進音樂生成模型。過去我們看過 AI 寫詩、算圖，但要讓 AI 創作出聽起來「不生硬」、節奏自然且具有層次感的音樂，一直是技術上的難關。 Lyria 3 這次聰明的地方在於，它不只是單純堆砌音符，而是與許多專業製作人與音樂家共同研發，學會了什麼叫做「音樂性」。它能理解複雜的編曲邏輯、節奏的律動感，甚至是不同樂器之間的搭配。 不再只是實驗室產物，Gemini 現在就能玩 以前這種高科技功</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128017-lyria-3-gemini-ai-music-creation</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128017/thumb/1985f85d835814bf3e4bfcacbb1d681c.jpg?1771482534" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 06:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

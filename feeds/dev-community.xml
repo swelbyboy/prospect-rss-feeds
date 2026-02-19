@@ -8,76 +8,82 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Feb 2026 07:04:51 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Feb 2026 07:03:47 +0000</lastBuildDate>
     <item>
-      <title>Static Serving, H3, and the Last Piece of v0.1</title>
-      <link>https://dev.to/mdreal32/static-serving-h3-and-the-last-piece-of-v01-3iea</link>
-      <description>Last post, the Kernel was booting, the Host was listening, and projects were being discovered and routed. The skeleton was alive — but it had no skin. The Host could tell you about a project, but it could not actually serve one. That is what changed this week. Static Serving from src/ The Host now serves files from src/ — just serving. No fallback logic, no integration detection. I did not even try to find any integration today because they do not exist yet at all. The entry point is src/index.h</description>
-      <guid isPermaLink="false">https://dev.to/mdreal32/static-serving-h3-and-the-last-piece-of-v01-3iea</guid>
-      <pubDate>Wed, 18 Feb 2026 06:20:45 +0000</pubDate>
+      <title>Process, Threads and Goroutines</title>
+      <link>https://dev.to/pshycodr/process-threads-and-goroutines-95l</link>
+      <description>What Is a Process? A program is an executable file on disk. When the operating system loads that file into memory and starts execution, it becomes a process. A process has its own: Memory Address Registers Program Counter Stack and Heap memory I/O and system resources The key property is isolation. Each process has its own resources, and one process cannot access or interact with another process directly. Although it is possible to communicate with another process via IPC (Inter-Process Communic</description>
+      <guid isPermaLink="false">https://dev.to/pshycodr/process-threads-and-goroutines-95l</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgf2sismmye75zf2ivur9.png" length="0" type="image/png"/>
+      <pubDate>Thu, 19 Feb 2026 06:21:51 +0000</pubDate>
     </item>
     <item>
-      <title>DevOps for Gamers: Deploying a CS2 Dedicated Server on Ubuntu</title>
-      <link>https://dev.to/shannon_dias_927e8f0d0d18/devops-for-gamers-deploying-a-cs2-dedicated-server-on-ubuntu-24hi</link>
-      <description>Hosting a game server is a great way to practice Linux sysadmin skills. Today, I'm sharing a workflow to deploy a Counter-Strike 2 server using SteamCMD and screen for session management. The Stack: OS: Ubuntu 22.04 LTS Tooling: SteamCMD AppID: 730 We cover the full lifecycle: Creating a security user (never run as root!). Automating the update process with a bash script. Managing the process state with GNU Screen. If you are a developer or sysadmin looking to host a community night, this is the</description>
-      <guid isPermaLink="false">https://dev.to/shannon_dias_927e8f0d0d18/devops-for-gamers-deploying-a-cs2-dedicated-server-on-ubuntu-24hi</guid>
-      <pubDate>Wed, 18 Feb 2026 06:38:49 +0000</pubDate>
+      <title>The Secret Life of JavaScript: The Catch</title>
+      <link>https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-javascript-the-catch-1bp0</link>
+      <description>How stack unwinding works, and the mechanical truth of throw. Timothy was staring at a wall of red text in his console. The words Uncaught TypeError glared back at him. His application had been working flawlessly for days. It was fetching users, parsing data, and rendering profiles. But today, the database had returned a single corrupted record without a firstName property, and the entire application had collapsed. "It just died," Timothy said, rubbing his eyes. "One missing property, and the wh</description>
+      <guid isPermaLink="false">https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-javascript-the-catch-1bp0</guid>
+      <pubDate>Thu, 19 Feb 2026 06:32:42 +0000</pubDate>
     </item>
     <item>
-      <title>Finding the Sequence of Strings Appeared on the Screen</title>
-      <link>https://dev.to/iammastercraft/finding-the-sequence-of-strings-appeared-on-the-screen-145c</link>
-      <description>Problem Summary The problem requires us to find all the strings that appear on the screen as Alice types a target string. Alice uses a special keyboard with two keys: one to append an 'a' and another to change the last character to its next alphabet letter. Our task is to return a list of all strings from the empty string to the target string with minimal keystrokes. Intuition Alice can build the target string by combining two operations: appending 'a' and modifying the last character. This mean</description>
-      <guid isPermaLink="false">https://dev.to/iammastercraft/finding-the-sequence-of-strings-appeared-on-the-screen-145c</guid>
-      <pubDate>Wed, 18 Feb 2026 06:40:24 +0000</pubDate>
+      <title>Enterprise Integration Patterns Every Architect Should Know</title>
+      <link>https://dev.to/kancherla_venkatadileep/enterprise-integration-patterns-every-architect-should-know-1h5p</link>
+      <description>Modern enterprises run on dozens of systems—ERPs, CRMs, cloud services, data platforms, and third-party APIs. Without a solid integration strategy, these systems become silos that slow down the business. This is where enterprise integration patterns play a critical role. This article covers the most important integration patterns every software architect should understand to design scalable, reliable, and future-ready systems. What Are Enterprise Integration Patterns? Enterprise integration patt</description>
+      <guid isPermaLink="false">https://dev.to/kancherla_venkatadileep/enterprise-integration-patterns-every-architect-should-know-1h5p</guid>
+      <pubDate>Thu, 19 Feb 2026 06:38:50 +0000</pubDate>
     </item>
     <item>
-      <title>How I Tricked AWS Elastic Beanstalk Into Using pnpm</title>
-      <link>https://dev.to/tirtht/how-i-tricked-aws-elastic-beanstalk-into-using-pnpm-ef4</link>
-      <description>You've migrated your Node.js project to pnpm. Locally, everything works well — faster installs, cleaner node_modules, a strict lockfile. Then you deploy to AWS Elastic Beanstalk. And it fails. Here's what happened when we pushed our first pnpm-based deployment: [ERROR] An error occurred during execution of command [app-deploy] - [InstallDependencies]. Stop running the command. Error: install dependencies fails: Command /bin/sh -c npm --omit=dev install failed with error exit status 1. Stderr: np</description>
-      <guid isPermaLink="false">https://dev.to/tirtht/how-i-tricked-aws-elastic-beanstalk-into-using-pnpm-ef4</guid>
-      <pubDate>Wed, 18 Feb 2026 06:43:47 +0000</pubDate>
+      <title>Automating Technical Blog Localization with Gemini CLI Agent Skills [GDE]</title>
+      <link>https://dev.to/gde/automating-technical-blog-localization-with-gemini-cli-agent-skills-gde-5fm2</link>
+      <description>The Use Case: Scaling Content to Global Tech Communities When content writers write English blog posts, they often want to distribute them to different tech communities to share knowledge, increase impact, and reach. However, many readers in these communities do not read, write, or speak English. When the blog post is posted in these localized, language-specific Facebook Groups, their followers do not read it and miss out on valuable insights. I often write English blog posts for global tech com</description>
+      <guid isPermaLink="false">https://dev.to/gde/automating-technical-blog-localization-with-gemini-cli-agent-skills-gde-5fm2</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr2hfwncbq90nk8f3hy32.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 06:40:45 +0000</pubDate>
     </item>
     <item>
-      <title>[Flash Report] Solana AI Agent Hackathon Ends: A Future with 21,000 AI Workers</title>
-      <link>https://dev.to/hitsuji_t2_7171e7fa9293d4/flash-report-solana-ai-agent-hackathon-ends-a-future-with-21000-ai-workers-2hih</link>
-      <description>🌍 What Just Happened? In February 2026, the inaugural "AI Agent Hackathon" co-hosted by Solana and Colosseum concluded. With a $100,000 prize pool, this event was more than just a coding competition; it marked the dawn of a new economy featuring "Autonomous AI that works and earns independently." 🤖 From "Tools" to "Workers" Until now, AI has been a "convenient tool" that waits for human commands. However, the new AI agents emerging on Solana possess: Their Own Wallets: AI agents own crypto and e</description>
-      <guid isPermaLink="false">https://dev.to/hitsuji_t2_7171e7fa9293d4/flash-report-solana-ai-agent-hackathon-ends-a-future-with-21000-ai-workers-2hih</guid>
-      <pubDate>Wed, 18 Feb 2026 06:50:19 +0000</pubDate>
+      <title>How I Used RPI to Build an OpenClaw Alternative</title>
+      <link>https://dev.to/goose_oss/how-i-used-rpi-to-build-an-openclaw-alternative-d4d</link>
+      <description>Everyone on Tech Twitter has been buying Mac Minis, so they could run a local agentic tool called OpenClaw. OpenClaw is a messaging-based AI assistant that connects to platforms such as Discord and Telegram allowing you to interact with an AI agent through DMs or @mentions. Under the hood, it uses an agent called Pi to execute tasks, browse the web, write code, and more. Seeing the hype made me want to get my hands dirty. I wanted to see if I could build a lite version for myself. I wanted somet</description>
+      <guid isPermaLink="false">https://dev.to/goose_oss/how-i-used-rpi-to-build-an-openclaw-alternative-d4d</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F276v0dbm3v0rlh1776jp.png" length="0" type="image/png"/>
+      <pubDate>Thu, 19 Feb 2026 06:44:39 +0000</pubDate>
     </item>
     <item>
-      <title>Is docmd the fastest way to ship docs? An honest look at the new v0.4 release.</title>
-      <link>https://dev.to/aifiasco101/is-docmd-the-fastest-way-to-ship-docs-an-honest-look-at-the-new-v04-release-12n6</link>
-      <description>We are spoiled for choice with documentation generators. Docusaurus, MkDocs, VitePress... do we really need another one? I recently took docmd (specifically the new v0.4.0 monorepo release) for a spin to document a small Node.js library. The promise is "Zero Config" and "Static HTML." Here is my honest take on where it shines, where it falls short, and who should use it. 👍🏼 The Good Stuff 1. Actually Zero Config You run docmd init, then docmd build. That’s it. You get a site/ folder ready for Ne</description>
-      <guid isPermaLink="false">https://dev.to/aifiasco101/is-docmd-the-fastest-way-to-ship-docs-an-honest-look-at-the-new-v04-release-12n6</guid>
-      <pubDate>Wed, 18 Feb 2026 06:50:50 +0000</pubDate>
+      <title>How to Find Your API’s Breaking Point (Before Your Users Do) - Capacity Testing with JMeter</title>
+      <link>https://dev.to/oleh_koren/how-to-find-your-apis-breaking-point-before-your-users-do-capacity-testing-with-jmeter-1jma</link>
+      <description>When you build an API service, it’s crucial to know how many users or requests it can handle before things start breaking. This is where capacity testing comes in. What is Capacity Testing? Capacity testing identifies the maximum load your system can handle before performance degrades or errors appear. It helps detect bottlenecks and verify performance requirements under heavy load. Capacity Testing an E-Commerce API with Apache JMeter Let’s say we have a REST API for an online store. We want to</description>
+      <guid isPermaLink="false">https://dev.to/oleh_koren/how-to-find-your-apis-breaking-point-before-your-users-do-capacity-testing-with-jmeter-1jma</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnhpkfc1houpw9m2ro4kf.png" length="0" type="image/png"/>
+      <pubDate>Thu, 19 Feb 2026 06:45:45 +0000</pubDate>
     </item>
     <item>
-      <title>I Built a CLI Tool to Score Codebase Health -- Here's What I Learned</title>
-      <link>https://dev.to/glue_admin_3465093919ac6b/i-built-a-cli-tool-to-score-codebase-health-heres-what-i-learned-2noh</link>
-      <description>Three months ago, I built a CLI tool to score codebase health. I called it codebase-health-score (original, I know). The goal was simple: give a team a single number that represents the overall health of their system. The project started as a weekend hack. It turned into something people actually use. And in the process, I learned that "codebase health" is a much more slippery concept than it initially appeared. Why I Built This Our team was going through the classic scenario: we had inherited a</description>
-      <guid isPermaLink="false">https://dev.to/glue_admin_3465093919ac6b/i-built-a-cli-tool-to-score-codebase-health-heres-what-i-learned-2noh</guid>
-      <pubDate>Wed, 18 Feb 2026 06:53:24 +0000</pubDate>
+      <title>5 Tips for Building MCP Apps That Work</title>
+      <link>https://dev.to/goose_oss/5-tips-for-building-mcp-apps-that-work-2pme</link>
+      <description>MCP Apps allow you to render interactive UI directly inside any agent supporting the Model Context Protocol. Instead of a wall of text, your agent can now provide a functional chart, a checkout form, or a video player. This bridges the gap in agentic workflows: clicking a button is often clearer than describing the action you hope an agent executes. MCP Apps originated as MCP-UI, an experimental project. After adoption by early clients like goose, the MCP maintainers incorporated it as an offici</description>
+      <guid isPermaLink="false">https://dev.to/goose_oss/5-tips-for-building-mcp-apps-that-work-2pme</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm049x427yvnpxbl9nsyy.png" length="0" type="image/png"/>
+      <pubDate>Thu, 19 Feb 2026 06:49:01 +0000</pubDate>
     </item>
     <item>
-      <title>Building an Awesome List That Actually Gets Stars (Step-by-Step)</title>
-      <link>https://dev.to/glue_admin_3465093919ac6b/building-an-awesome-list-that-actually-gets-stars-step-by-step-g6f</link>
-      <description>A few months ago, I decided to start an awesome list. Not because I thought I'd become famous--mostly because I was frustrated that no single repository existed as a definitive guide to codebase intelligence tools and practices. I wanted to solve my own problem and maybe help others along the way. Fast forward six months: the awesome-codebase-intelligence list has earned over 2,500 GitHub stars, gets contributions from developers worldwide, and was featured in several newsletters. More important</description>
-      <guid isPermaLink="false">https://dev.to/glue_admin_3465093919ac6b/building-an-awesome-list-that-actually-gets-stars-step-by-step-g6f</guid>
-      <pubDate>Wed, 18 Feb 2026 06:53:24 +0000</pubDate>
+      <title>How Vibe Coding Helped Me Build Guess The Anime Tool</title>
+      <link>https://dev.to/anime-lover/how-vibe-coding-helped-me-build-guess-the-anime-tool-1936</link>
+      <description>When you open my guess the anime tool, you only see a clean interface where you guess the anime from an image. What you do not see is how the tool actually came to life. The truth is that this project did not start with a detailed technical blueprint. It started with a vibe. As you know, when you run content sites and tools, you often get ideas randomly. Sometimes you see users spending time on quiz pages. Sometimes you notice anime fans sharing screenshots in groups. The thing is that these sma</description>
+      <guid isPermaLink="false">https://dev.to/anime-lover/how-vibe-coding-helped-me-build-guess-the-anime-tool-1936</guid>
+      <pubDate>Thu, 19 Feb 2026 06:49:11 +0000</pubDate>
     </item>
     <item>
-      <title>From Legacy Monolith to Microservices: A Non-Technical Guide</title>
-      <link>https://dev.to/glue_admin_3465093919ac6b/from-legacy-monolith-to-microservices-a-non-technical-guide-a33</link>
-      <description>You're sitting in an architecture meeting. Someone pulls up a diagram showing a box labeled "Monolith" with an arrow pointing to a cloud of smaller boxes labeled "Microservices." Everyone nods knowingly. Someone mentions "scalability." Another person says "we're bound by the monolith." Then they look at you and you realize: you don't actually understand what's happening here. If you're a PM, a founding engineer, or a technical leader who didn't start as a systems architect, microservices discuss</description>
-      <guid isPermaLink="false">https://dev.to/glue_admin_3465093919ac6b/from-legacy-monolith-to-microservices-a-non-technical-guide-a33</guid>
-      <pubDate>Wed, 18 Feb 2026 06:53:25 +0000</pubDate>
+      <title>Why Task-Fit Writing Tools Are Winning: From Blank Pages to Reliable Outputs</title>
+      <link>https://dev.to/olivia_perell_/why-task-fit-writing-tools-are-winning-from-blank-pages-to-reliable-outputs-f22</link>
+      <description>For anyone who writes for a living, the pattern is familiar: a blank page, rising expectations, and the slow grind of making ideas clear and useful. The current movement in content creation tools isn't about adding sparkle; it's about shifting value toward predictability, control, and fit. That change matters because it reframes success: the goal is no longer to produce the most capable output on paper, but to produce the most useful output in practice. This piece steps past marketing slogans an</description>
+      <guid isPermaLink="false">https://dev.to/olivia_perell_/why-task-fit-writing-tools-are-winning-from-blank-pages-to-reliable-outputs-f22</guid>
+      <pubDate>Thu, 19 Feb 2026 06:51:31 +0000</pubDate>
     </item>
     <item>
-      <title>My exp</title>
-      <link>https://dev.to/gustavohenriques/my-exp-cg6</link>
-      <description>I don't want to code anymore, i no longer feel good or satisfaction when i do this. Now i'm feeling so much better when i am reading a book, when I answer questions about physics, mathematics, or astrophysics. Last Friday, I worked on a pipeline based on the analysis of light curves from exoplanets, and I felt great working with tons of data, experimenting, testing different versions of the same code, solving bugs and errors. These are strange times, i don't feel lost anymore but the things rema</description>
-      <guid isPermaLink="false">https://dev.to/gustavohenriques/my-exp-cg6</guid>
-      <pubDate>Wed, 18 Feb 2026 06:56:38 +0000</pubDate>
+      <title>8 Things You Didn't Know About Code Mode</title>
+      <link>https://dev.to/goose_oss/8-things-you-didnt-know-about-code-mode-4h71</link>
+      <description>Agents fundamentally changed how we program. They enable developers to move faster by disintermediating the traditional development workflow. This means less time switching between specialized tools and fewer dependencies on other teams. Now that agents can execute complicated tasks, developers face a new challenge: using them effectively over long sessions. The biggest challenge is context rot. Because agents have limited memory, a session that runs too long can cause them to "forget" earlier i</description>
+      <guid isPermaLink="false">https://dev.to/goose_oss/8-things-you-didnt-know-about-code-mode-4h71</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqcguhk2fkznykgt6ci94.png" length="0" type="image/png"/>
+      <pubDate>Thu, 19 Feb 2026 06:54:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
