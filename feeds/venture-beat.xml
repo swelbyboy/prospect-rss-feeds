@@ -8,47 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Feb 2026 07:20:34 +0000</lastBuildDate>
-    <item>
-      <title>Qodo 2.1 solves your coding agents' 'amnesia' problem, giving them an 11% precision boost</title>
-      <link>https://venturebeat.com/orchestration/qodo-2-1-solves-your-coding-agents-amnesia-problem-giving-them-an-11</link>
-      <description>As AI-powered coding tools flood the market, a critical weakness has emerged: by default, as with most LLM chat sessions, they are temporary — as soon as you close a session and start a new one, the tool forgets everything you were just working on. Developers have worked around this by having coding tools and agents save their state to markdown and text files, but this solution is hacky at best. Qodo, the AI code review startup, believes it has a solution with the launch of what it calls the ind</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/qodo-2-1-solves-your-coding-agents-amnesia-problem-giving-them-an-11</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6bfLu3ANKmskAcjdLWLNiK/8b012747fae811defd7cc142d2a77b74/rFdPJQ1tsZu6KUqgSktND_8bblXVf5.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SurrealDB 3.0 wants to replace your five-database RAG stack with one</title>
-      <link>https://venturebeat.com/data/surrealdb-3-0-wants-to-replace-your-five-database-rag-stack-with-one</link>
-      <description>Building retrieval-augmented generation (RAG) systems for AI agents often involves using multiple layers and technologies for structured data, vectors and graph information. In recent months it has also become increasingly clear that agentic AI systems need memory, sometimes referred to as contextual memory, to operate effectively.The complexity and synchronization of having different data layers to enable context can lead to performance and accuracy issues. It's a challenge that SurrealDB is lo</description>
-      <guid isPermaLink="false">https://venturebeat.com/data/surrealdb-3-0-wants-to-replace-your-five-database-rag-stack-with-one</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4AyLc2Oxh17lbvpLXe4nWw/75d382eae4eb2d83e0190de9e189f16f/surrealDB-agent-memory-smk1.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI's acquisition of OpenClaw signals the beginning of the end of the ChatGPT era</title>
-      <link>https://venturebeat.com/technology/openais-acquisition-of-openclaw-signals-the-beginning-of-the-end-of-the</link>
-      <description>The chatbot era may have just received its obituary. Peter Steinberger, the creator of OpenClaw — the open-source AI agent that took the developer world by storm over the past month, raising concerns among enterprise security teams — announced over the weekend that he is joining OpenAI to "work on bringing agents to everyone." The OpenClaw project itself will transition to an independent foundation, though OpenAI is already sponsoring it and may have influence over its direction.The move represe</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/openais-acquisition-of-openclaw-signals-the-beginning-of-the-end-of-the</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2jwJDmNzfeS1nbd6vN4NEL/a860bad5013380e1bdfed816275502b5/GVW5EI63uFZKMtUTcsiMx_4Do4xtq4.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 17:51:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic's Sonnet 4.6 matches flagship AI performance at one-fifth the cost, accelerating enterprise adoption</title>
-      <link>https://venturebeat.com/orchestration/anthropics-sonnet-4-6-matches-flagship-ai-performance-at-one-fifth-the-cost</link>
-      <description>Anthropic on Tuesday released Claude Sonnet 4.6, a model that amounts to a seismic repricing event for the AI industry. It delivers near-flagship intelligence at mid-tier cost, and it lands squarely in the middle of an unprecedented corporate rush to deploy AI agents and automated coding tools.The model is a full upgrade across coding, computer use, long-context reasoning, agent planning, knowledge work, and design. It features a 1M token context window in beta. It is now the default model in cl</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/anthropics-sonnet-4-6-matches-flagship-ai-performance-at-one-fifth-the-cost</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4QWgtleHnqxhkVjcq7Gli6/3b6850e88a820003ddba60ee940cce69/nuneybits_Vector_art_of_burnt_orange_token_counters_cascading_a_61577d53-2008-44d4-a4d0-3417c6af7725.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 18:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>When accurate AI is still dangerously incomplete</title>
-      <link>https://venturebeat.com/infrastructure/when-accurate-ai-is-still-dangerously-incomplete</link>
-      <description>Typically, when building, training and deploying AI, enterprises prioritize accuracy. And that, no doubt, is important; but in highly complex, nuanced industries like law, accuracy alone isn’t enough. Higher stakes mean higher standards: Models outputs must be assessed for relevancy, authority, citation accuracy and hallucination rates. To tackle this immense task, LexisNexis has evolved beyond standard retrieval-augmented generation (RAG) to graph RAG and agentic graphs; it has also built out "</description>
-      <guid isPermaLink="false">https://venturebeat.com/infrastructure/when-accurate-ai-is-still-dangerously-incomplete</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/jZlnE9mU5APByfrRDQCpg/b0531b54134d5b353c36c54fbcf63a35/LexisNexis.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 16:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 20 Feb 2026 07:16:38 +0000</lastBuildDate>
     <item>
       <title>Alibaba's Qwen 3.5 397B-A17 beats its larger trillion-parameter model — at a fraction of the cost</title>
       <link>https://venturebeat.com/technology/alibabas-qwen-3-5-397b-a17-beats-its-larger-trillion-parameter-model-at-a</link>
@@ -64,6 +24,46 @@
       <guid isPermaLink="false">https://venturebeat.com/orchestration/new-agent-framework-matches-human-engineered-ai-systems-and-adds-zero</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2Izl318JbInekR2BSYLBaq/4eddc806d26f5ee7d3567dece9c185ce/Self-evolving_agents.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Wed, 18 Feb 2026 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The 'last-mile' data problem is stalling enterprise agentic AI — 'golden pipelines' aim to fix it</title>
+      <link>https://venturebeat.com/data/the-last-mile-data-problem-is-stalling-enterprise-agentic-ai-golden</link>
+      <description>Traditional ETL tools like dbt or Fivetran prepare data for reporting: structured analytics and dashboards with stable schemas. AI applications need something different: preparing messy, evolving operational data for model inference in real-time. Empromptu calls this distinction "inference integrity" versus "reporting integrity." Instead of treating data preparation as a separate discipline, golden pipelines integrate normalization directly into the AI application workflow, collapsing what typic</description>
+      <guid isPermaLink="false">https://venturebeat.com/data/the-last-mile-data-problem-is-stalling-enterprise-agentic-ai-golden</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/5egQ46IjwiShQrV06KpeEk/785fd79433bb0a678b4ab1d2fbf88fb3/golden-pipeline-smk1.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rapidata emerges to shorten AI model development cycles from months to days with near real-time RLHF</title>
+      <link>https://venturebeat.com/data/rapidata-emerges-to-shorten-ai-model-development-cycles-from-months-to-days</link>
+      <description>Despite growing chatter about a future when much human work is automated by AI, one of the ironies of this current tech boom is how stubbornly reliant on human beings it remains, specifically the process of training AI models using reinforcement learning from human feedback (RLHF). At its simplest, RLHF is a tutoring system: after an AI is trained on curated data, it still makes mistakes or sounds robotic. Human contractors are then hired en masse by AI labs to rate and rank a new model's output</description>
+      <guid isPermaLink="false">https://venturebeat.com/data/rapidata-emerges-to-shorten-ai-model-development-cycles-from-months-to-days</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6A3hRqADsdiALNRF8aUM8e/09c213e4e98031ecb62ef459a6de8967/r8BFky--_XqHqt4iCIRmm.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google launches Gemini 3.1 Pro, retaking AI crown with 2X+ reasoning performance boost</title>
+      <link>https://venturebeat.com/technology/google-launches-gemini-3-1-pro-retaking-ai-crown-with-2x-reasoning</link>
+      <description>Late last year, Google briefly took the crown for most powerful AI model in the world with the launch of Gemini 3 Pro — only to be surpassed within weeks by OpenAI and Anthropic releasing new models, s is common in the fiercely competitive AI race.Now Google is back to retake the throne with an updated version of that flagship model: Gemini 3.1 Pro, positioned as a smarter baseline for tasks where a simple response is insufficient—targeting science, research, and engineering workflows that deman</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/google-launches-gemini-3-1-pro-retaking-ai-crown-with-2x-reasoning</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4WI6UovKEMHNOYRmLhUkWL/7353b15db9e6644396c21abfb95c9f42/odtwyodoZOZvjDt413OWa_05gXxMoM.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 17:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How attackers hit 700 organizations through CX platforms your SOC already approved</title>
+      <link>https://venturebeat.com/security/cx-security-gaps-ai-stack-blind-spots</link>
+      <description>CX platforms process billions of unstructured interactions a year: Survey forms, review sites, social feeds, call center transcripts, all flowing into AI engines that trigger automated workflows touching payroll, CRM, and payment systems. No tool in a security operation center leader’s stack inspects what a CX platform’s AI engine is ingesting, and attackers figured this out. They poison the data feeding it, and the AI does the damage for them.The Salesloft/Drift breach in August 2025 proved exa</description>
+      <guid isPermaLink="false">https://venturebeat.com/security/cx-security-gaps-ai-stack-blind-spots</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/43aX4cDa02bPoqhoIKZoZM/fbdb75fd26097eae87df002190cb9af5/final_hero.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 20:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Gemini 3.1 Pro first impressions: a 'Deep Think Mini' with adjustable reasoning on demand</title>
+      <link>https://venturebeat.com/technology/google-gemini-3-1-pro-first-impressions-a-deep-think-mini-with-adjustable</link>
+      <description>For the past three months, Google's Gemini 3 Pro has held its ground as one of the most capable frontier models available. But in the fast-moving world of AI, three months is a lifetime — and competitors have not been standing still.Earlier today, Google released Gemini 3.1 Pro, an update that brings a key innovation to the company's workhorse power model: three levels of adjustable thinking that effectively turn it into a lightweight version of Google's specialized Deep Think reasoning system.T</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/google-gemini-3-1-pro-first-impressions-a-deep-think-mini-with-adjustable</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3QN1ZUexlvrsauz6g2NrrK/42bc7a43c49aab36315e98993de78af1/ClKBtgX7u8IrQZI9CACCZ.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 22:26:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

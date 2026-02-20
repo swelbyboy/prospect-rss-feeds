@@ -8,82 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Feb 2026 07:03:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Feb 2026 07:01:05 +0000</lastBuildDate>
     <item>
-      <title>Process, Threads and Goroutines</title>
-      <link>https://dev.to/pshycodr/process-threads-and-goroutines-95l</link>
-      <description>What Is a Process? A program is an executable file on disk. When the operating system loads that file into memory and starts execution, it becomes a process. A process has its own: Memory Address Registers Program Counter Stack and Heap memory I/O and system resources The key property is isolation. Each process has its own resources, and one process cannot access or interact with another process directly. Although it is possible to communicate with another process via IPC (Inter-Process Communic</description>
-      <guid isPermaLink="false">https://dev.to/pshycodr/process-threads-and-goroutines-95l</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgf2sismmye75zf2ivur9.png" length="0" type="image/png"/>
-      <pubDate>Thu, 19 Feb 2026 06:21:51 +0000</pubDate>
+      <title>Eye-Tracking UI: Designing Gaze-Driven Interfaces That Work</title>
+      <link>https://dev.to/kyl67899/eye-tracking-ui-designing-gaze-driven-interfaces-that-work-1d35</link>
+      <description>Create an accessible, testable eye-tracking UI page with HTML, CSS, and JavaScript. Start with a simple HTML structure, then progressively layer on CSS for layout and styling and JavaScript for gaze-driven interactions. Below is a concise, step-by-step guide that makes the process easy to follow. Link: https://kyl67899.github.io/EyeFollowUI/ | Github: https://github.com/Kyl67899/webDevdailyChallenge What you'll build (short overview) A single page with a card-like container and one or more “eyes</description>
+      <guid isPermaLink="false">https://dev.to/kyl67899/eye-tracking-ui-designing-gaze-driven-interfaces-that-work-1d35</guid>
+      <pubDate>Fri, 20 Feb 2026 06:11:54 +0000</pubDate>
     </item>
     <item>
-      <title>The Secret Life of JavaScript: The Catch</title>
-      <link>https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-javascript-the-catch-1bp0</link>
-      <description>How stack unwinding works, and the mechanical truth of throw. Timothy was staring at a wall of red text in his console. The words Uncaught TypeError glared back at him. His application had been working flawlessly for days. It was fetching users, parsing data, and rendering profiles. But today, the database had returned a single corrupted record without a firstName property, and the entire application had collapsed. "It just died," Timothy said, rubbing his eyes. "One missing property, and the wh</description>
-      <guid isPermaLink="false">https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-javascript-the-catch-1bp0</guid>
-      <pubDate>Thu, 19 Feb 2026 06:32:42 +0000</pubDate>
+      <title>Creating a Windows Virtual Machine (VM) in Azure</title>
+      <link>https://dev.to/nwafor_somadina_efa388085/creating-a-windows-virtual-machine-vm-in-azure-5fd0</link>
+      <description>A virtual machine is a computer in the cloud. Steps to Create a Windows VM in Azure 1. Sign in to Azure Go to the Azure Portal. Log in with your Microsoft account. If you don’t have one, create a free Azure account. 2. Create a New Virtual Machine In the portal, select Create a resource → Virtual Machine. n 3. Configure Basic Settings Go to Basic tab. Subscription &amp;amp; Resource Group: Select your subscription and create or choose a resource group. VM Name: Enter a name for your VM. feb20vm Region:</description>
+      <guid isPermaLink="false">https://dev.to/nwafor_somadina_efa388085/creating-a-windows-virtual-machine-vm-in-azure-5fd0</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkna4o776a7aae7ggh9te.png" length="0" type="image/png"/>
+      <pubDate>Fri, 20 Feb 2026 06:15:59 +0000</pubDate>
     </item>
     <item>
-      <title>Enterprise Integration Patterns Every Architect Should Know</title>
-      <link>https://dev.to/kancherla_venkatadileep/enterprise-integration-patterns-every-architect-should-know-1h5p</link>
-      <description>Modern enterprises run on dozens of systems—ERPs, CRMs, cloud services, data platforms, and third-party APIs. Without a solid integration strategy, these systems become silos that slow down the business. This is where enterprise integration patterns play a critical role. This article covers the most important integration patterns every software architect should understand to design scalable, reliable, and future-ready systems. What Are Enterprise Integration Patterns? Enterprise integration patt</description>
-      <guid isPermaLink="false">https://dev.to/kancherla_venkatadileep/enterprise-integration-patterns-every-architect-should-know-1h5p</guid>
-      <pubDate>Thu, 19 Feb 2026 06:38:50 +0000</pubDate>
+      <title>You Don’t Need a Bigger Model — You Need a Stable One</title>
+      <link>https://dev.to/cloyouai/you-dont-need-a-bigger-model-you-need-a-stable-one-5dff</link>
+      <description>Every few months, a new model drops. More parameters. Longer context windows. Better benchmarks. And developers rush to integrate it. But here’s the uncomfortable truth: Most AI apps don’t fail because the model isn’t powerful enough. They fail because the system isn’t stable. There’s a difference. Bigger Models Improve Output Quality Stable Systems Improve Decision Quality A larger model can: Write cleaner code Generate better text Solve harder reasoning tasks Pass more benchmarks But it still:</description>
+      <guid isPermaLink="false">https://dev.to/cloyouai/you-dont-need-a-bigger-model-you-need-a-stable-one-5dff</guid>
+      <pubDate>Fri, 20 Feb 2026 06:19:11 +0000</pubDate>
     </item>
     <item>
-      <title>Automating Technical Blog Localization with Gemini CLI Agent Skills [GDE]</title>
-      <link>https://dev.to/gde/automating-technical-blog-localization-with-gemini-cli-agent-skills-gde-5fm2</link>
-      <description>The Use Case: Scaling Content to Global Tech Communities When content writers write English blog posts, they often want to distribute them to different tech communities to share knowledge, increase impact, and reach. However, many readers in these communities do not read, write, or speak English. When the blog post is posted in these localized, language-specific Facebook Groups, their followers do not read it and miss out on valuable insights. I often write English blog posts for global tech com</description>
-      <guid isPermaLink="false">https://dev.to/gde/automating-technical-blog-localization-with-gemini-cli-agent-skills-gde-5fm2</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr2hfwncbq90nk8f3hy32.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 06:40:45 +0000</pubDate>
+      <title>Why Your OpenClaw Agent Sucks (And How SOUL.md Fixes It)</title>
+      <link>https://dev.to/techfind777/why-your-openclaw-agent-sucks-and-how-soulmd-fixes-it-3h0d</link>
+      <description>You installed OpenClaw. You connected Claude. You typed "help me with my project." And your agent responded like every other generic chatbot. No personality. No context. No useful structure. The problem isn't OpenClaw. It's your SOUL.md — or lack of one. The 5 Most Common SOUL.md Mistakes Mistake 1: The Empty SOUL.md # SOUL.md You are a helpful AI assistant. This tells your agent nothing. Every AI is trying to be "helpful." You've given it zero differentiation, zero expertise, zero personality.</description>
+      <guid isPermaLink="false">https://dev.to/techfind777/why-your-openclaw-agent-sucks-and-how-soulmd-fixes-it-3h0d</guid>
+      <pubDate>Fri, 20 Feb 2026 06:20:38 +0000</pubDate>
     </item>
     <item>
-      <title>How I Used RPI to Build an OpenClaw Alternative</title>
-      <link>https://dev.to/goose_oss/how-i-used-rpi-to-build-an-openclaw-alternative-d4d</link>
-      <description>Everyone on Tech Twitter has been buying Mac Minis, so they could run a local agentic tool called OpenClaw. OpenClaw is a messaging-based AI assistant that connects to platforms such as Discord and Telegram allowing you to interact with an AI agent through DMs or @mentions. Under the hood, it uses an agent called Pi to execute tasks, browse the web, write code, and more. Seeing the hype made me want to get my hands dirty. I wanted to see if I could build a lite version for myself. I wanted somet</description>
-      <guid isPermaLink="false">https://dev.to/goose_oss/how-i-used-rpi-to-build-an-openclaw-alternative-d4d</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F276v0dbm3v0rlh1776jp.png" length="0" type="image/png"/>
-      <pubDate>Thu, 19 Feb 2026 06:44:39 +0000</pubDate>
+      <title>What Claude Taught Me About Using Claude</title>
+      <link>https://dev.to/dang-w/what-claude-taught-me-about-using-claude-2njn</link>
+      <description>I've had 104 conversations with Claude over 10 months. When I looked back at the first one versus the most recent, the gulf in my old and new interaction styles is obvious. Not because I learned amazing new prompting tricks — more that I learned to think more clearly about what I actually needed before I opened my mouth (metaphorically - moved my fingers, whatever). The irony of getting better at talking to - or working with - AI is that it has very little to do with AI. The Exercise I ran a ret</description>
+      <guid isPermaLink="false">https://dev.to/dang-w/what-claude-taught-me-about-using-claude-2njn</guid>
+      <pubDate>Fri, 20 Feb 2026 06:20:57 +0000</pubDate>
     </item>
     <item>
-      <title>How to Find Your API’s Breaking Point (Before Your Users Do) - Capacity Testing with JMeter</title>
-      <link>https://dev.to/oleh_koren/how-to-find-your-apis-breaking-point-before-your-users-do-capacity-testing-with-jmeter-1jma</link>
-      <description>When you build an API service, it’s crucial to know how many users or requests it can handle before things start breaking. This is where capacity testing comes in. What is Capacity Testing? Capacity testing identifies the maximum load your system can handle before performance degrades or errors appear. It helps detect bottlenecks and verify performance requirements under heavy load. Capacity Testing an E-Commerce API with Apache JMeter Let’s say we have a REST API for an online store. We want to</description>
-      <guid isPermaLink="false">https://dev.to/oleh_koren/how-to-find-your-apis-breaking-point-before-your-users-do-capacity-testing-with-jmeter-1jma</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnhpkfc1houpw9m2ro4kf.png" length="0" type="image/png"/>
-      <pubDate>Thu, 19 Feb 2026 06:45:45 +0000</pubDate>
+      <title>Building a Persistent Dark Mode in HarmonyOS with ArkTS Preferences</title>
+      <link>https://dev.to/harmonyos/building-a-persistent-dark-mode-in-harmonyos-with-arkts-preferences-3pol</link>
+      <description>Read the original article：Building a Persistent Dark Mode in HarmonyOS with ArkTS Preferences Problem Description Many HarmonyOS applications need to store small amounts of data locally—for example, user preferences, recently viewed items, or simple state flags. Developers often rely on in-memory variables, but those values disappear when the app restarts. We need a persistent and lightweight way to save and retrieve key–value pairs. Background Knowledge HarmonyOS provides the @kit.ArkData (new</description>
+      <guid isPermaLink="false">https://dev.to/harmonyos/building-a-persistent-dark-mode-in-harmonyos-with-arkts-preferences-3pol</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy8m9dxhab3ukqlpz8obg.png" length="0" type="image/png"/>
+      <pubDate>Fri, 20 Feb 2026 06:32:00 +0000</pubDate>
     </item>
     <item>
-      <title>5 Tips for Building MCP Apps That Work</title>
-      <link>https://dev.to/goose_oss/5-tips-for-building-mcp-apps-that-work-2pme</link>
-      <description>MCP Apps allow you to render interactive UI directly inside any agent supporting the Model Context Protocol. Instead of a wall of text, your agent can now provide a functional chart, a checkout form, or a video player. This bridges the gap in agentic workflows: clicking a button is often clearer than describing the action you hope an agent executes. MCP Apps originated as MCP-UI, an experimental project. After adoption by early clients like goose, the MCP maintainers incorporated it as an offici</description>
-      <guid isPermaLink="false">https://dev.to/goose_oss/5-tips-for-building-mcp-apps-that-work-2pme</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm049x427yvnpxbl9nsyy.png" length="0" type="image/png"/>
-      <pubDate>Thu, 19 Feb 2026 06:49:01 +0000</pubDate>
+      <title>I Built Vector-Only Search First. Here's Why I Had to Rewrite It.</title>
+      <link>https://dev.to/rosen_hristov/i-built-vector-only-search-first-heres-why-i-had-to-rewrite-it-4dh0</link>
+      <description>I spent three weeks building a pure vector search for an e-commerce product catalog. Embedded everything with multilingual-e5-large, loaded it into Qdrant, and ran my first test queries. "Gift for someone who likes cooking" returned kitchen knives and spice sets. Great. "Nike Air Max 90 black" returned Adidas running shoes. "XJ-4520" (an actual product SKU) returned a random kitchen appliance. I had a semantic search engine that understood meaning but couldn't handle the simplest exact-match loo</description>
+      <guid isPermaLink="false">https://dev.to/rosen_hristov/i-built-vector-only-search-first-heres-why-i-had-to-rewrite-it-4dh0</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgsobg8ajjdia6ag3bud3.png" length="0" type="image/png"/>
+      <pubDate>Fri, 20 Feb 2026 06:32:07 +0000</pubDate>
     </item>
     <item>
-      <title>How Vibe Coding Helped Me Build Guess The Anime Tool</title>
-      <link>https://dev.to/anime-lover/how-vibe-coding-helped-me-build-guess-the-anime-tool-1936</link>
-      <description>When you open my guess the anime tool, you only see a clean interface where you guess the anime from an image. What you do not see is how the tool actually came to life. The truth is that this project did not start with a detailed technical blueprint. It started with a vibe. As you know, when you run content sites and tools, you often get ideas randomly. Sometimes you see users spending time on quiz pages. Sometimes you notice anime fans sharing screenshots in groups. The thing is that these sma</description>
-      <guid isPermaLink="false">https://dev.to/anime-lover/how-vibe-coding-helped-me-build-guess-the-anime-tool-1936</guid>
-      <pubDate>Thu, 19 Feb 2026 06:49:11 +0000</pubDate>
+      <title>How We Built a 5x Faster NotebookLM Watermark Tool on AWS — Engineering Story</title>
+      <link>https://dev.to/morninginsights_6f61e04f2/how-we-built-a-5x-faster-notebooklm-watermark-tool-on-aws-engineering-story-29fe</link>
+      <description>Originally published at notebooklmstudio.com How We Built a 5x Faster NotebookLM Watermark Tool on AWS Every product has an origin story. Ours started with a frozen browser tab. I was working on a research presentation, had exported a 45-page PDF from Google NotebookLM, and needed the watermark off before a meeting. I loaded the free browser tool, uploaded the file, and watched my MacBook's fan spin up as the browser processed page by page. Three minutes later — with my browser tab completely fr</description>
+      <guid isPermaLink="false">https://dev.to/morninginsights_6f61e04f2/how-we-built-a-5x-faster-notebooklm-watermark-tool-on-aws-engineering-story-29fe</guid>
+      <pubDate>Fri, 20 Feb 2026 06:35:18 +0000</pubDate>
     </item>
     <item>
-      <title>Why Task-Fit Writing Tools Are Winning: From Blank Pages to Reliable Outputs</title>
-      <link>https://dev.to/olivia_perell_/why-task-fit-writing-tools-are-winning-from-blank-pages-to-reliable-outputs-f22</link>
-      <description>For anyone who writes for a living, the pattern is familiar: a blank page, rising expectations, and the slow grind of making ideas clear and useful. The current movement in content creation tools isn't about adding sparkle; it's about shifting value toward predictability, control, and fit. That change matters because it reframes success: the goal is no longer to produce the most capable output on paper, but to produce the most useful output in practice. This piece steps past marketing slogans an</description>
-      <guid isPermaLink="false">https://dev.to/olivia_perell_/why-task-fit-writing-tools-are-winning-from-blank-pages-to-reliable-outputs-f22</guid>
-      <pubDate>Thu, 19 Feb 2026 06:51:31 +0000</pubDate>
+      <title>Technical Writing Needs Attention</title>
+      <link>https://dev.to/rvbug/technical-writing-needs-attention-4303</link>
+      <description>Introduction Usually, programming tutorials and research papers have been a bit difficult to understand. Not because the code is complicated, but because the attention shifts between the text and its explanation. When someone presents a technical article, the author knows which line matters at each moment but readers might not. We use static artefacts, diagrams, images or even screenshots to explain. This includes: Blog Posts Research &amp;amp; Documentation Code Snippets But programming is not static.</description>
+      <guid isPermaLink="false">https://dev.to/rvbug/technical-writing-needs-attention-4303</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftllo23diqtl378z02809.gif" length="0" type="image/gif"/>
+      <pubDate>Fri, 20 Feb 2026 06:39:04 +0000</pubDate>
     </item>
     <item>
-      <title>8 Things You Didn't Know About Code Mode</title>
-      <link>https://dev.to/goose_oss/8-things-you-didnt-know-about-code-mode-4h71</link>
-      <description>Agents fundamentally changed how we program. They enable developers to move faster by disintermediating the traditional development workflow. This means less time switching between specialized tools and fewer dependencies on other teams. Now that agents can execute complicated tasks, developers face a new challenge: using them effectively over long sessions. The biggest challenge is context rot. Because agents have limited memory, a session that runs too long can cause them to "forget" earlier i</description>
-      <guid isPermaLink="false">https://dev.to/goose_oss/8-things-you-didnt-know-about-code-mode-4h71</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqcguhk2fkznykgt6ci94.png" length="0" type="image/png"/>
-      <pubDate>Thu, 19 Feb 2026 06:54:38 +0000</pubDate>
+      <title>Building the CREEM Laravel Package: Accept Global Payments in Minutes</title>
+      <link>https://dev.to/haniamin/building-the-creem-laravel-package-accept-global-payments-in-minutes-k4l</link>
+      <description>I recently built a full-featured Laravel package for CREEM, the developer-first Merchant of Record platform. Here's why I built it, what it does, and how you can start accepting payments in your Laravel app in under 5 minutes. Why CREEM? If you're selling SaaS, digital products, or software licenses, handling global payments is painful. You need to deal with: VAT/GST/sales tax across 190+ countries Payment processor integration Subscription lifecycle management License key distribution Refunds a</description>
+      <guid isPermaLink="false">https://dev.to/haniamin/building-the-creem-laravel-package-accept-global-payments-in-minutes-k4l</guid>
+      <pubDate>Fri, 20 Feb 2026 06:52:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
