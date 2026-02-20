@@ -8,57 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Feb 2026 07:06:18 +0000</lastBuildDate>
-    <item>
-      <title>VS Code筆記本Polyglot Notebooks退場，微軟改推單一檔案C#與Jupyter擴充套件</title>
-      <link>https://www.ithome.com.tw/news/173965</link>
-      <description>新聞微軟在dotnet/interactive儲存庫公告，VS Code的Polyglot Notebooks擴充套件將進入棄用狀態，並立即停止臭蟲修補與支援，且不會再替Polyglot Notebooks或用於Jupyter Notebooks情境的.NET Interactive核心新增功能。不過，Polyglot Notebooks擴充套件雖被標記為棄用，但不會自動從使用者的VS Code中停用或解除安裝。 微軟宣布VS Code的Polyglot Notebooks將於2026年3月27日棄用，即日起停止維護。Polyglot Notebooks是基於.NET Interactive的VS Code筆記本擴充套件，特色是讓使用者在同一份筆記本混用Markdown、C#與其他語言進行互動式運算，方便用於教學示範、快速驗證想法與跨語言實驗。 既有使用者須儘早完成內容搬遷與工作流程調整，若筆記本內容以C#為主，官方建議改為以單一C#檔案為主體的檔案式應用。若主要使用其他語言，官方則建議改用VS Code的Jupyter Notebooks擴充套件替代，並在搬遷完成後解除安裝Polyg</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173965</guid>
-      <pubDate>Sun, 15 Feb 2026 15:53:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenClaw發起人加入OpenAI，專案將轉為基金會、維持開源獨立</title>
-      <link>https://www.ithome.com.tw/news/173968</link>
-      <description>新聞近期爆紅的個人AI代理專案OpenClaw專案發起人Peter Steinberger宣布加入OpenAI，對於可執行任務的AI代理，未來將致力推向更普及的應用型態。他同時表示，OpenClaw將轉為基金會架構，以維持開源與專案獨立性，OpenAI則會持續提供支持與資源。 Peter Steinberger在X的貼文說明，他希望打造連一般使用者都能輕鬆上手的代理，甚至連他的母親都能使用。為達成這個目標，他認為需要更完善的安全考量，以及取得最新模型與研究成果的管道，因此選擇加入OpenAI加速推動。 他也提到，OpenClaw雖然有機會發展為一家大型公司，但自己更傾向專注於建造與實作，而非再度投入公司經營。Peter Steinberger指出，過去已投入13年在創業與公司經營上，這次希望把重心放在將代理帶給更多人。他並提及前一週在舊金山與多家主要實驗室交流，接觸相關人員與尚未公開的研究內容。 Peter Steinberger強調，OpenClaw必須維持開源與自由發展，因此正著手將專案轉為基金會架構。他指出，OpenAI已贊助該專案，並承諾讓他能持續投入社群與專案運作。基金會未來</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173968</guid>
-      <pubDate>Mon, 16 Feb 2026 07:10:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>LV、Dior、Tiffany資料外洩遭南韓政府罰款2500萬美元</title>
-      <link>https://www.ithome.com.tw/news/173967</link>
-      <description>新聞南韓隱私主管機關上週基於2025年的雲端客戶資料庫大規模資料外洩事件，對同屬精品集團LVMH的三個品牌LV、Dior與Tiffany罰款超過360億韓元，約合2,500萬美元。 韓國個人資訊保護委員會（Personal Information Protection Committee，PIPC）上週針對三家精品業者韓國分公司去年個資外洩事件說明調查結果，以及裁罰金額。三家業者皆為使用軟體即服務（SaaS）服務Salesforce儲存及管理客戶資料時，遭遇資料外洩。 LV資料外洩事件影響多家分公司，包含韓國、英國、香港及土耳其，另外有報導指出臺灣、瑞典、義大利分公司也受影響，不過，LV得知事發後，就在網站公布。Dior和Tiffany事件則是發生在5月，在數月後才公開通知客戶及通報主管機關。 根據韓國政府的調查，LV 員工設備感染惡意軟體，導致駭客竊取他們的 SaaS 帳戶資訊。因此，約 360 萬人的個人資訊籨2025年6月9日至13日被洩露了三次。調查顯示， LV並未限制IP位址或其他方式存取權限，且在處理人員從公司外部存取Salesforce時，未採用安全的身分驗證方式。 Di</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173967</guid>
-      <pubDate>Mon, 16 Feb 2026 07:20:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft Configuration Manager的2024年RCE漏洞正遭到濫用</title>
-      <link>https://www.ithome.com.tw/news/173969</link>
-      <description>新聞美國網路安全暨基礎設施管理署（CISA）上週警告，微軟Microsoft Configuration Manager（MCM，前身為SCCM）於2024年修補的舊遠端程式碼執行（Remote Code Execution，RCE）漏洞，被偵測到發生攻擊行動。 編號CVE-2024-43468的漏洞，微軟於2024年10月已發布更新程式修補。根據資安公司Wiz的說明，該漏洞影響Microsoft Configuration Manager負責處理用戶端傳送到MCM訊息的MP_Location服務。漏洞出於該服務對資料庫查詢輸入的驗證不當，導致兩個函式包括getMachineID及getContentID成為攻擊媒介，攻擊者可以運用系統管理員層級權限執行惡意SQL查詢，遠端執行xp_cmdshell程序進行攻擊。 技術分析顯示，兩個媒介都不需驗證即可存取，進一步提高漏洞風險。成功濫用漏洞可導致整個部署環境被駭客存取MCM資料庫，並執行指令，導致竊取資料和在網路上橫向移動，這漏洞僅需駭客簡單動作，即能執行高權限行為，CVSS風險值高達9.8分。 CVE-2024-43468之外，CISA</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173969</guid>
-      <pubDate>Mon, 16 Feb 2026 07:54:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>TypeScript成主流語法，建置工具Vite超車webpack</title>
-      <link>https://www.ithome.com.tw/news/173966</link>
-      <description>新聞JavaScript大調查State of JavaScript邁入第10屆，官方在最新2025報告結論歸納出三個面向，概括JavaScript生態系的趨勢轉變，第一是TypeScript從輔助工具走向語言本體，成為主流語法；第二是前端建置工具由長年主力webpack，逐步讓位給以Vite為代表的新工具鏈；第三則是AI不再只是附加或嘗鮮性質的存在，而是開始改變寫程式與做架構決策的工作方式。 該報告的結語由全端網頁框架Nuxt核心團隊負責人Daniel Roe撰寫，他在結論中直言「TypeScript has won」，並將這場勝利定義為語言層面的全面普及，而非某種打包工具之爭。報告也把2025年的工具變動，放在執行環境對TypeScript支援逐步到位的脈絡下解讀，Daniel Roe提到，Deno與Bun早已把TypeScript支援納入執行環境。Node.js近年也補上型別剝除等能力，讓TypeScript在日常開發中更容易落地並降低採用門檻。 使用統計呈現出開發者的使用日常，受訪者平均有77%的時間花在撰寫TypeScript，代表許多團隊已將型別化開發視為預設選項，而針對瀏</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173966</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/Capture%20554%20-%20State%20of%20JavaScript%202025_%20Usage%20-%20%5B2025_stateofjs_com%5D.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 16 Feb 2026 09:53:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitHub Actions引入AI代理工作流程，自動化程式儲存庫維護任務</title>
-      <link>https://www.ithome.com.tw/news/173970</link>
-      <description>新聞GitHub代理式工作流程（Agentic Workflows）進入技術預覽階段，該功能可將儲存庫中的部分例行維護與協作工作，交由AI代理在自動化工作流程平臺GitHub Actions內執行。適用情境涵蓋議題（Issue）分流與標記、拉取請求檢視、持續整合失敗原因分析，以及文件與程式碼品質維護等，讓使用者以自然語言描述的方式定義自動化作業，降低撰寫與維護複雜工作流程設定的門檻。 GitHub Agentic Workflows將工作流程的主要內容改為Markdown檔案，由人以自然語言寫出要達成的目標與判斷方式，同時保留一段以YAML表示的前置設定，用來宣告觸發條件、權限、可用工具與允許的輸出範圍。Markdown工作流程並非要取代GitHub Actions，而是透過GitHub CLI擴充套件gh aw進行編譯，產生對應的鎖定檔.lock.yml，最終仍以標準GitHub Actions工作流程形式在儲存庫內執行並留存紀錄。 工作流程預設以唯讀權限執行，避免AI代理直接取得任意寫入能力。如果開發者需建立議題、留言、拉取請求或套用標籤等寫入操作，必須透過safe-outputs</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173970</guid>
-      <pubDate>Mon, 16 Feb 2026 15:19:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gemini CLI擴充套件Conductor現可自動審查程式碼與檢核規格</title>
-      <link>https://www.ithome.com.tw/news/173971</link>
-      <description>新聞Google AI命令列工具Gemini CLI擴充套件發布更新，新增自動化審查功能（Automated Reviews），將工具定位從開發規畫延伸至程式碼驗證。當AI程式碼代理完成任務後，Conductor可自動產出實作後檢核報告，內容涵蓋程式碼品質、規畫與規範合規性、測試結果及基礎安全掃描，補上AI輔助開發流程中的驗證步驟。 Conductor是針對Gemini CLI設計的擴充套件，功能是將專案的上下文資訊從聊天記錄轉移到可版本控制的Markdown檔案中，讓開發者在動手實作前，先透過結構化的文件完成規畫。此次加入的自動化審查功能，則是在規畫與執行後，再加上一道驗證步驟。 Conductor自動化審查涵蓋五個主要面向，首先是程式碼審查，Conductor會對新產出的檔案執行靜態分析與邏輯分析，除了語法層面，也能標記如非同步區塊中的競態條件、空指標風險，以及可能在執行階段引發例外的邏輯錯誤等較深層的問題。 其次是規畫合規性檢核，Conductor會將實作結果與專案中的plan.md及spec.md兩份規格文件進行比對，確認開發路線圖的每個階段都已落實，且核心需求未在實作過程中遺</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173971</guid>
-      <pubDate>Tue, 17 Feb 2026 04:11:35 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 20 Feb 2026 07:03:21 +0000</lastBuildDate>
     <item>
       <title>Chrome修補CSS高風險漏洞CVE-2026-2441，Google確認已遭實際利用</title>
       <link>https://www.ithome.com.tw/news/173972</link>
@@ -79,6 +29,56 @@
       <description>新聞日本華盛頓飯店本月14日發布公告，表明前一天遭到勒索軟體導致公司資料外洩。華盛頓飯店為WHG Hotels（華盛頓飯店及格拉斯麗酒店集團）旗下品牌，隸屬於藤田觀光株式會社（Fujita Kanko Inc.），在日本擁有34家據點。 這家日本飯店業者在13日晚上10點左右發現部分伺服器感染勒索軟體。在第一時間切斷網路後，他們已通報主管機關，並與外部專家合作進行調查。這次攻擊事件中，華盛頓飯店出現部分信用卡終端機無法使用的狀況，但該公司表示目前營運尚未受到重大影響。在飯店公告中，未提及入侵途徑與初始入侵細節。 經過初步研判，確認該伺服器儲存的公司業務資料遭存取，但飯店會員方案「Washington Net」的客戶資料儲存在由另一家公司管理的伺服器，目前飯店業者正在確認是否也遭到存取。 這是日本近日遭遇資料外洩事件的最新企業，回顧先前發生的類似事故，包含飲料業者朝日（Asahi）、電商Askul、日本經濟新聞、東京FM電台等，皆傳遭到第三方存取外洩資料。</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173974</guid>
       <pubDate>Wed, 18 Feb 2026 01:51:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dell虛擬機器資料復原軟體出現CVSS 10.0零日漏洞，疑似中國駭客潛伏利用超過一年</title>
+      <link>https://www.ithome.com.tw/news/173975</link>
+      <description>新聞Mandiant與Google威脅情報小組聯合發布調查報告，揭露虛擬機器復原軟體Dell RecoverPoint for Virtual Machines存在一個嚴重程度達滿分的零日漏洞CVE-2026-22769，CVSS 3.1評分為10.0。研究人員指出，疑似與中國有關的駭客組織UNC6201，自2024年中起便已開始利用此漏洞，在受害者環境中橫向移動、建立持久性存取，並部署多種惡意程式。關於這項重大弱點，Dell當天也發布資安漏洞公告DSA-2026-079，說明已接到Mandiant與Google的通報，說明受此漏洞影響的產品資訊與緩解方法。 Dell RecoverPoint for Virtual Machines內建的Apache Tomcat Manager，其預設管理員帳號與密碼被寫死在設定檔。任何取得該組帳密的攻擊者，均可透過Tomcat Manager的部署端點上傳惡意的WAR（Web Application Archive）檔案，並以root權限在設備上執行任意指令。 調查人員重建了攻擊者的完整入侵流程。UNC6201利用上述寫死（hard-coded）</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173975</guid>
+      <pubDate>Wed, 18 Feb 2026 11:54:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic新中階模型Claude Sonnet 4.6主打程式開發與電腦操控，支援百萬詞元</title>
+      <link>https://www.ithome.com.tw/news/173976</link>
+      <description>新聞Anthropic發布中階模型Claude Sonnet 4.6，該新模型在程式碼生成、電腦操控、長文推理與多步驟任務規畫等核心能力都有提升，定價維持與前代Sonnet 4.5相同，每百萬輸入詞元（Token）3美元、輸出15美元。免費與付費方案用戶現在皆可使用Sonnet 4.6，並首度在Sonnet系列引入百萬詞元上下文視窗。 在程式碼輔助工具Claude Code的內部評測中，用戶在70%的情況下，偏好Sonnet 4.6勝過前代Sonnet 4.5，更有59%的情況勝過Opus 4.5。官方引用使用者回饋指出，Sonnet 4.6在修改程式碼前更能讀懂既有脈絡，會傾向整合共用邏輯而非重複實作；相較前一版，較少出現過度設計、錯誤宣稱任務完成或幻覺輸出，在多步驟任務中的指令遵循與執行一致性也有明顯改善。 電腦操控能力是Claude Sonnet 4.6的另一個重點，其在OSWorld基準測試得分較前代顯著提升，用戶觀察到其在複雜試算表操作與多步驟網頁表單填寫等任務，達到接近人類的水準。OSWorld基準測試模擬真實電腦環境，要求模型在Chrome、LibreOffice、VS</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173976</guid>
+      <pubDate>Wed, 18 Feb 2026 13:31:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>BeyondTrust RS與PRA存在命令注入漏洞，CISA列KEV限期修補</title>
+      <link>https://www.ithome.com.tw/news/173977</link>
+      <description>新聞BeyondTrust旗下企業遠端支援產品Remote Support（RS）與Privileged Remote Access（PRA）被揭露存在嚴重的作業系統命令注入漏洞CVE-2026-1731，CVSS評分高達9.9分。攻擊者無需任何身分驗證，也不需要使用者互動，即可對曝露於網際網路的目標設備遠端執行任意指令。美國網路安全暨基礎設施安全局（CISA）已將此漏洞列入已知遭利用漏洞（KEV）名單。 BeyondTrust表示，其安全團隊於1月31日在單一Remote Support設備偵測到異常活動，外部研究人員隨後協助確認並回報漏洞，BeyondTrust同日完成初步研判並啟動修補。2月2日BeyondTrust釋出修補程式，並對已啟用其更新服務的系統執行自動部署，同時表示其SaaS環境已完成修補。 受影響版本涵蓋Remote Support 25.3.1及更早版本，以及Privileged Remote Access 24.3.4及更早版本。BeyondTrust已分別釋出修補程式BT26-02-RS與BT26-02-PRA，對應的修復版本為RS 25.3.2及PRA 25</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173977</guid>
+      <pubDate>Wed, 18 Feb 2026 13:31:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Sonnet 4.6登陸GitHub Copilot</title>
+      <link>https://www.ithome.com.tw/news/173978</link>
+      <description>新聞GitHub宣布，Anthropic最新版代理式程式碼撰寫模型Claude Sonnet 4.6版已部署到GitHub Copilot，將開放給付費訂閱用戶。 最新Claude Sonnet 4.6模型在代理式編碼能力優異，搜尋運作尤其強大。現在Claude Sonnet 4.6已提供給GitHub Copilot付費方案包括Copilot Pro、Pro+、Business和Enterprise使用者，其中Business及Enterprise版方案管理員必須透過Copilot設定啟用Claude Sonnet 4.6政策。這些用戶可在Visual Studio Code或Visual Studio、Github.com、iOS/Android版GitHub Mobile App、GitHub Copilot CLI、GitHub Copilot Coding Agent的模型選擇器中，選用Claude Sonnet 4.6。Neowin分析，新模型的特化搜尋及代理式能力可望簡化大規模程式碼瀏覽及自動化任務委派工作流程。 這是最新登陸GitHub Copilot的強大程式撰寫模型</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173978</guid>
+      <pubDate>Thu, 19 Feb 2026 09:59:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>李飛飛的World Labs完成10億美元融資，Nvidia、AMD、Autodesk加持</title>
+      <link>https://www.ithome.com.tw/news/173979</link>
+      <description>新聞由李飛飛共同創辦的World Labs本周三（2/18）宣布（https://www.worldlabs.ai/blog/funding-2026），已完成10億美元的新一輪融資。World Labs並未公布該公司的估值，僅公布參與的投資者涵蓋了AMD、Autodesk與Nvidia等。不過，媒體先前曾報導World Labs所尋求的估值為50億美元。 World Labs是由李飛飛、Justin Johnson、Christoph Lassner及Ben Mildenhall在2024年共同創立，他們皆為機器學習、生成式AI、電腦視覺與圖形學領域的技術專家。其中，美籍華裔的李飛飛是AI視覺領域的奠基人，她所創建的ImageNet資料集直接引爆2012年的深度學習革命，改變了整個AI發展軌跡。亦曾任史丹佛AI實驗室主任、Google Cloud首席科學家，現為史丹佛人本AI研究院（HAI）共同院長。 World Labs定位為一家空間智慧公司，致力於打造前沿世界模型，以讓AI能夠感知、生成、推理並與3D世界互動。該公司所推出的首個產品為多模態世界模型Marble，它可從文字、圖片、</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173979</guid>
+      <pubDate>Thu, 19 Feb 2026 10:36:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>以色列無人機作業系統公司XTEND透過與JFB合併登陸那斯達克</title>
+      <link>https://www.ithome.com.tw/news/173980</link>
+      <description>新聞美國營建公司JFB Construction Holdings本周二（2/17）宣布，將以全股票方式與以色列國防科技公司XTEND進行業務合併，依同步私募配售價格推算，隱含估值約15億美元。交易完成後，新公司將更名為XTEND AI Robotics，並以代號XTND在那斯達克股市（Nasdaq）交易；原XTEND股東預計持股約70%，為實質主導方。 JFB為美國房地產開發與營建公司，主要從事住宅與商業建設及開發，並以JFB為代號在那斯達克掛牌，在國防或高科技領域並無長期核心業務布局；至於XTEND則是在2018年於以色列創立的國防科技公司，後將總部設於美國，核心技術為自主作業系統XTEND Operating System（XOS），可遠端操控空中、地面與海上無人載具，主要應用於國防、公共安全與高風險場景任務，已部署超過1萬套，並符合美國國防授權法（NDAA）規範。 JFB與XTEND的業務幾乎完全不相干，使得市場觀察認為，這起交易的核心並非產業互補，而是XTEND藉由JFB快速登陸資本市場。 合併後的XTEND AI Robotics總部位於佛州，目標是成為美國AI自主防禦與安</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173980</guid>
+      <pubDate>Thu, 19 Feb 2026 10:46:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw創辦人Peter Steinberger加入OpenAI，OpenClaw將轉型為開源基金會的專案運作</title>
+      <link>https://www.ithome.com.tw/news/173981</link>
+      <description>新聞開發開源代理型AI系統的Peter Steinberger本周宣布加入OpenAI，而OpenClaw將以開源基金會形式存在，由OpenAI持續支援。 Steinberger說明加入OpenAI的原因。他說，他開始探索AI時目的只是為了有趣並激勵他人。現在「龍蝦」（Loster）已經席捲全球。他說，看到許多人為其專案振奮他覺得很有趣，也預見OpenClaw可以變成一家大公司，但他並未對此感到興奮，因為他內心是一個開發者，他想要做的是改變全世界，而不建立一家大公司。他下個目標是打造一個連他媽媽都能用的代理人。這需要更廣泛的變革，需要更周延思考如何安全實現，並取得最新的模型和研究成果，加入OpenAI是推進他的願景，及擴大影響力的最佳平臺。他個人對加入OpenAI及參與AI研究及開發的成員感到興奮。 Steinberger並說，OpenClaw擁有自由發展的空間至關重要。而OpenAI承諾讓他能全心投入OpenClaw，並已開始贊助該專案。為了支持OpenClaw的運行，他已著手將其轉型為基金會，使其持續成為思考者、駭客及想擁有資料的人的園地。 OpenClaw原名Clawdbot，曾</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173981</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/2026-02-20_011847.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 16:48:38 +0000</pubDate>
     </item>
   </channel>
 </rss>

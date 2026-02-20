@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Feb 2026 07:38:43 +0000</lastBuildDate>
-    <item>
-      <title>Recalbox 10 : support de Steam Deck, nouvelle interface, nouvelles consoles</title>
-      <link>https://www.programmez.com/actualites/recalbox-10-support-de-steam-deck-nouvelle-interface-nouvelles-consoles-39025</link>
-      <description>La distribution de rétro-gaming, Recalbox, est disponible en version 10. Il s'agit d'une évolution majeure de la plateforme.Côté matériel, Recalbox supporte : Raspberry Pi 5 (version 2 Go de RAM) et Raspberry Pi 500Compatibilité optimisée avec les PC récentsSupport des boîtiers Retroflag (64Pi Case, DreamCase) et Argon One v3Support complet des SteamDeck LCD et OLED avec intégration avancée (luminosité, son, mode veille)Support expérimental pour Asus ROG Ally et Lenovo Legion GoLa v10 élargit le</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/recalbox-10-support-de-steam-deck-nouvelle-interface-nouvelles-consoles-39025</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/recalbox10.jpeg?itok=Yn_wyxt-" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 09:20:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>.Net 11 Preview 1 : nouvelles librairies, peu de changements dans C#</title>
-      <link>https://www.programmez.com/actualites/net-11-preview-1-nouvelles-librairies-peu-de-changements-dans-c-39026</link>
-      <description>.Net 10 a été distribuée en novembre 2025. La version 11 est désormais disponible en preview 1. Comme à chaque fois, de nombreuses évolutions sont attendues. L'ensemble des frameworks et des langages sont concernées : C#, F#, ASP.Net Core, Blazor, MAUI, le compilateur Jit, le support de CoreCLR dans WebAssembly, meilleure compression / décompression avec Zstandard. Sur la partie librairie, retenons déjà les évolutions suivantes :- Zstandard est natif à .Net pour la compression. La librairie prom</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/net-11-preview-1-nouvelles-librairies-peu-de-changements-dans-c-39026</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 17 Feb 2026 09:52:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>WebMCP : un standard pour rendre un site web "agent ready" ?</title>
-      <link>https://www.programmez.com/actualites/webmcp-un-standard-pour-rendre-un-site-web-agent-ready-39027</link>
-      <description>Comment concilier agents IA et sites web et la manière dont les pages web pourraient interagir, travailler avec les agents ? WebMCP veut fournir une méthode standard pour définir les actions des agents sur un site web, sur une page web sans pénaliser au bon fonctionnement du site web. "Vous indiquez aux agents comment et où interagir avec votre site, qu'il s'agisse de réserver un vol, de soumettre une demande d'assistance ou de naviguer dans des données complexes. Ce canal de communication direc</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/webmcp-un-standard-pour-rendre-un-site-web-agent-ready-39027</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 17 Feb 2026 14:18:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>IDE Kiro : Checkmarx apporte plus de sécurité applicative</title>
-      <link>https://www.programmez.com/actualites/ide-kiro-checkmarx-apporte-plus-de-securite-applicative-39028</link>
-      <description>Checkmarx annonce que son Developer Assist supporte l'IDE Kiro, pour l'étendre la sécurité applicative directement dans l'enviornnement. Cette intégration permet à ces derniers d'identifier et de résoudre les problèmes de sécurité au fil de l'écriture du code, sans quitter leur IDE ni dépendre de scans en aval dans la chaîne CI/CD.En utilisant l’extension IDE officielle de Checkmarx, les développeurs peuvent activer Developer Assist dans Kiro en quelques étapes seulement, sans configuration lour</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/ide-kiro-checkmarx-apporte-plus-de-securite-applicative-39028</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/capture_decran_2026-02-17_a_15.24.30.png?itok=YvuxOesI" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 17 Feb 2026 14:25:38 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 20 Feb 2026 07:33:14 +0000</lastBuildDate>
     <item>
       <title>NativePHP mobile est maintenant gratuit</title>
       <link>https://www.programmez.com/actualites/nativephp-mobile-est-maintenant-gratuit-39029</link>
@@ -88,6 +56,38 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/google-glimmer-une-interface-adaptee-aux-ecrans-transparents-39035</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/glimmer.png?itok=zP35AwoM" length="0" type="image/jpeg"/>
       <pubDate>Wed, 18 Feb 2026 14:24:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Python Environnements Extension : pour unifier les environnements Python sur Visual Studio Code</title>
+      <link>https://www.programmez.com/actualites/python-environnements-extension-pour-unifier-les-environnements-python-sur-visual-studio-code-39036</link>
+      <description>Pour simplifier et unifier l'environnement de développement Python sur Visual Studio Code, on dispose de la nouvelle extension Python Environnements. Il doit unifier le modèle de développement, gérer les environnements et les workflows, gérer les interpréteurs et les packages. Jusqu'é présent, l'expérience Python était fragmenté à travers les différents outils (venv, conda, pyenv, etc.). Après plus d'un an d'ajustements et de développement, l'extension est disponible. A terme, tous les flux Pyth</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/python-environnements-extension-pour-unifier-les-environnements-python-sur-visual-studio-code-39036</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/pythonenv.png?itok=D6IIbdsT" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 07:33:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Temporal API : Chrome 144 introduit la nouvelle API pour gérer la date et l'heure</title>
+      <link>https://www.programmez.com/actualites/temporal-api-chrome-144-introduit-la-nouvelle-api-pour-gerer-la-date-et-lheure-39037</link>
+      <description>Les dates et les heures (notamment la gestion des fuseaux et de différents formats) ont toujours été une des faiblesses des langages. Chrome introduit avec la version 144 la nouvelle API : Temporal API, déjà disponible sur Firefox. Elle doit proposer un objet standard et des fonctions pour manipuler et afficher les dates et les heures. Il est "amusant" de voir que l'implémentation des notions de Date et de Time a souvent été un problème. Une des noeuds du problème vient de la mauvaise implémenta</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/temporal-api-chrome-144-introduit-la-nouvelle-api-pour-gerer-la-date-et-lheure-39037</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/temporalapi.png?itok=khF5TPco" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 08:10:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rasbperry Pi vs ESP32 : vraies questions, mauvaises comparaisons</title>
+      <link>https://www.programmez.com/actualites/rasbperry-pi-vs-esp32-vraies-questions-mauvaises-comparaisons-39038</link>
+      <description>Raspberry Pi vs ESP32 vs Arduino, cette question revient régulièrement quand on choisit la bonne plateforme pour son projet IoT. Comme nous le disons souvent quand nous comparons les platesformes, il faut comparer ce qui est comporable. Il ne faut pas opposer une Raspberry Pi 5 avec une ESP32. La Pi est une SBC, une Single Board Computer. Il s'agit donc d'un véritable micro-ordinateur sur une unique carte. Elle contient toute l'électronique (SoC, mémoire, vidéo, audio, stockage, réseau). Et une</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/rasbperry-pi-vs-esp32-vraies-questions-mauvaises-comparaisons-39038</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/pico-1s.png?itok=Beq5x-EH" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Feb 2026 16:27:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>10 pratiques de codes et humaines à intégrer</title>
+      <link>https://www.programmez.com/actualites/10-pratiques-de-codes-et-humaines-integrer-39039</link>
+      <description>Parfois, il est bon de revenir aux fondamentaux et de se rappeler quelques concepts qui peuvent sembler simplistes, mais qui restent toujours utiles.1 / On lit plus de code qu’on en écritMême si on essaie de faire simple et clair, quand on rouvre un code six mois plus tard, on se demande souvent : qu’est-ce que j’ai voulu faire ?Bref :* des noms de variables simples, mais répondant à une logique claire* la lisibilité du code doit primer sur les performances puresEt gardez toujours en tête : sera</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/10-pratiques-de-codes-et-humaines-integrer-39039</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Fri, 20 Feb 2026 07:21:53 +0000</pubDate>
     </item>
   </channel>
 </rss>
