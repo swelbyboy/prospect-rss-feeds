@@ -8,80 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Feb 2026 07:01:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 06:48:06 +0000</lastBuildDate>
     <item>
-      <title>Eye-Tracking UI: Designing Gaze-Driven Interfaces That Work</title>
-      <link>https://dev.to/kyl67899/eye-tracking-ui-designing-gaze-driven-interfaces-that-work-1d35</link>
-      <description>Create an accessible, testable eye-tracking UI page with HTML, CSS, and JavaScript. Start with a simple HTML structure, then progressively layer on CSS for layout and styling and JavaScript for gaze-driven interactions. Below is a concise, step-by-step guide that makes the process easy to follow. Link: https://kyl67899.github.io/EyeFollowUI/ | Github: https://github.com/Kyl67899/webDevdailyChallenge What you'll build (short overview) A single page with a card-like container and one or more “eyes</description>
-      <guid isPermaLink="false">https://dev.to/kyl67899/eye-tracking-ui-designing-gaze-driven-interfaces-that-work-1d35</guid>
-      <pubDate>Fri, 20 Feb 2026 06:11:54 +0000</pubDate>
+      <title>Designing a Highly Available Web Application on AWS (Production-Grade Guide)</title>
+      <link>https://dev.to/abhishekjaiswal_4896/designing-a-highly-available-web-application-on-aws-production-grade-guide-5ejb</link>
+      <description>High availability (HA) is not a checkbox — it’s a design philosophy. Most tutorials show you how to launch two EC2 instances behind a load balancer and call it “highly available.” But real-world availability involves failure domains, DNS strategy, health checks, data consistency, deployment patterns, observability, and cost trade-offs. In this guide, I’ll walk you through how to design a production-grade, highly available web application on AWS, covering the architectural decisions most tutorial</description>
+      <guid isPermaLink="false">https://dev.to/abhishekjaiswal_4896/designing-a-highly-available-web-application-on-aws-production-grade-guide-5ejb</guid>
+      <pubDate>Sat, 21 Feb 2026 05:56:32 +0000</pubDate>
     </item>
     <item>
-      <title>Creating a Windows Virtual Machine (VM) in Azure</title>
-      <link>https://dev.to/nwafor_somadina_efa388085/creating-a-windows-virtual-machine-vm-in-azure-5fd0</link>
-      <description>A virtual machine is a computer in the cloud. Steps to Create a Windows VM in Azure 1. Sign in to Azure Go to the Azure Portal. Log in with your Microsoft account. If you don’t have one, create a free Azure account. 2. Create a New Virtual Machine In the portal, select Create a resource → Virtual Machine. n 3. Configure Basic Settings Go to Basic tab. Subscription &amp;amp; Resource Group: Select your subscription and create or choose a resource group. VM Name: Enter a name for your VM. feb20vm Region:</description>
-      <guid isPermaLink="false">https://dev.to/nwafor_somadina_efa388085/creating-a-windows-virtual-machine-vm-in-azure-5fd0</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkna4o776a7aae7ggh9te.png" length="0" type="image/png"/>
-      <pubDate>Fri, 20 Feb 2026 06:15:59 +0000</pubDate>
+      <title>I built a small CLI tool to convert relative imports to absolute imports during a large refactoring</title>
+      <link>https://dev.to/sami_jneidy_0d941643118b5/i-built-a-small-cli-tool-to-convert-relative-imports-to-absolute-imports-during-a-large-refactoring-1i4a</link>
+      <description>While refactoring a large Python project, I ran into an issue — the project had a lot of deeply nested relative imports (from ..module import x). The team decided to standardize everything to absolute imports, and here was the issue: manually updating them was very tedious, especially across many levels of relative imports. So I wrote a small CLI tool that converts relative imports to absolute ones. The tool: Traverses the project directory Detects relative imports of type (from ..A import B) Co</description>
+      <guid isPermaLink="false">https://dev.to/sami_jneidy_0d941643118b5/i-built-a-small-cli-tool-to-convert-relative-imports-to-absolute-imports-during-a-large-refactoring-1i4a</guid>
+      <pubDate>Sat, 21 Feb 2026 05:57:16 +0000</pubDate>
     </item>
     <item>
-      <title>You Don’t Need a Bigger Model — You Need a Stable One</title>
-      <link>https://dev.to/cloyouai/you-dont-need-a-bigger-model-you-need-a-stable-one-5dff</link>
-      <description>Every few months, a new model drops. More parameters. Longer context windows. Better benchmarks. And developers rush to integrate it. But here’s the uncomfortable truth: Most AI apps don’t fail because the model isn’t powerful enough. They fail because the system isn’t stable. There’s a difference. Bigger Models Improve Output Quality Stable Systems Improve Decision Quality A larger model can: Write cleaner code Generate better text Solve harder reasoning tasks Pass more benchmarks But it still:</description>
-      <guid isPermaLink="false">https://dev.to/cloyouai/you-dont-need-a-bigger-model-you-need-a-stable-one-5dff</guid>
-      <pubDate>Fri, 20 Feb 2026 06:19:11 +0000</pubDate>
+      <title>How a Silent API Update Broke Our Billing (And How to Prevent It)</title>
+      <link>https://dev.to/malikad778/how-a-silent-api-update-broke-our-billing-and-how-to-prevent-it-31ob</link>
+      <description>It was 11 PM on a Friday when the alerts started. Orders were failing. By the time I opened my laptop, 23 customers had seen an error screen and abandoned their carts. I spent two hours blaming our own code. I checked every recent deployment and rolled back twice. Nothing had changed on our end. Then I looked at the raw API response from Stripe. A field we had relied on for eight months was just gone. No announcement. No deprecation warning. No 500 error. The response came back as 200 OK with a</description>
+      <guid isPermaLink="false">https://dev.to/malikad778/how-a-silent-api-update-broke-our-billing-and-how-to-prevent-it-31ob</guid>
+      <pubDate>Sat, 21 Feb 2026 06:01:47 +0000</pubDate>
     </item>
     <item>
-      <title>Why Your OpenClaw Agent Sucks (And How SOUL.md Fixes It)</title>
-      <link>https://dev.to/techfind777/why-your-openclaw-agent-sucks-and-how-soulmd-fixes-it-3h0d</link>
-      <description>You installed OpenClaw. You connected Claude. You typed "help me with my project." And your agent responded like every other generic chatbot. No personality. No context. No useful structure. The problem isn't OpenClaw. It's your SOUL.md — or lack of one. The 5 Most Common SOUL.md Mistakes Mistake 1: The Empty SOUL.md # SOUL.md You are a helpful AI assistant. This tells your agent nothing. Every AI is trying to be "helpful." You've given it zero differentiation, zero expertise, zero personality.</description>
-      <guid isPermaLink="false">https://dev.to/techfind777/why-your-openclaw-agent-sucks-and-how-soulmd-fixes-it-3h0d</guid>
-      <pubDate>Fri, 20 Feb 2026 06:20:38 +0000</pubDate>
+      <title>Scaling PostgreSQL without Microservices: Lessons from Notion’s 480 Shards</title>
+      <link>https://dev.to/souvick_20/scaling-postgresql-without-microservices-lessons-from-notions-480-shards-32id</link>
+      <description>I’ve been using Notion to manage my projects for a long time—it’s a faithful friend in my workflow. Recently, while studying database scaling, a thought hit me: How does the "manager" manage itself? With millions of users reading and writing data every second, the infrastructure behind the scenes must be immense. I decided to dive deep into their architecture, and here is what I learned about the scaling strategy that keeps Notion running. 📝 TL;DR: Scaling Notion’s Monolith I spent the last few</description>
+      <guid isPermaLink="false">https://dev.to/souvick_20/scaling-postgresql-without-microservices-lessons-from-notions-480-shards-32id</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpklkabrwn12k0tmvhlc2.png" length="0" type="image/png"/>
+      <pubDate>Sat, 21 Feb 2026 06:03:51 +0000</pubDate>
     </item>
     <item>
-      <title>What Claude Taught Me About Using Claude</title>
-      <link>https://dev.to/dang-w/what-claude-taught-me-about-using-claude-2njn</link>
-      <description>I've had 104 conversations with Claude over 10 months. When I looked back at the first one versus the most recent, the gulf in my old and new interaction styles is obvious. Not because I learned amazing new prompting tricks — more that I learned to think more clearly about what I actually needed before I opened my mouth (metaphorically - moved my fingers, whatever). The irony of getting better at talking to - or working with - AI is that it has very little to do with AI. The Exercise I ran a ret</description>
-      <guid isPermaLink="false">https://dev.to/dang-w/what-claude-taught-me-about-using-claude-2njn</guid>
-      <pubDate>Fri, 20 Feb 2026 06:20:57 +0000</pubDate>
+      <title>AI Agents Are Making Decisions Nobody Can Audit</title>
+      <link>https://dev.to/nostalgicskinco/ai-agents-are-making-decisions-nobody-can-audit-2gpn</link>
+      <description>Last month, a developer posted on Reddit about an AI agent that got stuck in a loop and fired off 50,000 API requests before anyone noticed. Production was down. The bill was ugly. And the worst part? Nobody could tell exactly what the agent had been doing or why. This isn't an edge case anymore. It's Tuesday. The problem nobody wants to talk about AI agents are everywhere now. They're calling APIs, querying databases, executing code, and in some cases, spending real money — all autonomously. Th</description>
+      <guid isPermaLink="false">https://dev.to/nostalgicskinco/ai-agents-are-making-decisions-nobody-can-audit-2gpn</guid>
+      <pubDate>Sat, 21 Feb 2026 06:08:04 +0000</pubDate>
     </item>
     <item>
-      <title>Building a Persistent Dark Mode in HarmonyOS with ArkTS Preferences</title>
-      <link>https://dev.to/harmonyos/building-a-persistent-dark-mode-in-harmonyos-with-arkts-preferences-3pol</link>
-      <description>Read the original article：Building a Persistent Dark Mode in HarmonyOS with ArkTS Preferences Problem Description Many HarmonyOS applications need to store small amounts of data locally—for example, user preferences, recently viewed items, or simple state flags. Developers often rely on in-memory variables, but those values disappear when the app restarts. We need a persistent and lightweight way to save and retrieve key–value pairs. Background Knowledge HarmonyOS provides the @kit.ArkData (new</description>
-      <guid isPermaLink="false">https://dev.to/harmonyos/building-a-persistent-dark-mode-in-harmonyos-with-arkts-preferences-3pol</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy8m9dxhab3ukqlpz8obg.png" length="0" type="image/png"/>
-      <pubDate>Fri, 20 Feb 2026 06:32:00 +0000</pubDate>
+      <title>Claude Code Lost My 4-Hour Session. Here's the $0 Fix That Actually Works</title>
+      <link>https://dev.to/gonewx/claude-code-lost-my-4-hour-session-heres-the-0-fix-that-actually-works-24h6</link>
+      <description>It Happened on a Friday Afternoon Four hours into a complex auth refactor. State machines, edge cases, all the subtle context Claude and I had built up together. Then: compaction. Claude's response came back generic. It had forgotten the architecture decisions we'd made. The nuanced understanding of why we'd structured things a certain way — gone. I spent 45 minutes trying to rebuild the context. It never fully came back. If you use Claude Code regularly, this has probably happened to you. Why C</description>
+      <guid isPermaLink="false">https://dev.to/gonewx/claude-code-lost-my-4-hour-session-heres-the-0-fix-that-actually-works-24h6</guid>
+      <pubDate>Sat, 21 Feb 2026 06:13:30 +0000</pubDate>
     </item>
     <item>
-      <title>I Built Vector-Only Search First. Here's Why I Had to Rewrite It.</title>
-      <link>https://dev.to/rosen_hristov/i-built-vector-only-search-first-heres-why-i-had-to-rewrite-it-4dh0</link>
-      <description>I spent three weeks building a pure vector search for an e-commerce product catalog. Embedded everything with multilingual-e5-large, loaded it into Qdrant, and ran my first test queries. "Gift for someone who likes cooking" returned kitchen knives and spice sets. Great. "Nike Air Max 90 black" returned Adidas running shoes. "XJ-4520" (an actual product SKU) returned a random kitchen appliance. I had a semantic search engine that understood meaning but couldn't handle the simplest exact-match loo</description>
-      <guid isPermaLink="false">https://dev.to/rosen_hristov/i-built-vector-only-search-first-heres-why-i-had-to-rewrite-it-4dh0</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgsobg8ajjdia6ag3bud3.png" length="0" type="image/png"/>
-      <pubDate>Fri, 20 Feb 2026 06:32:07 +0000</pubDate>
+      <title>Devlog: 2026-02-04</title>
+      <link>https://dev.to/victorstackai/devlog-2026-02-04-4ac3</link>
+      <description>import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; The Hook I shipped a focused devlog pipeline update that turns my reading queue into concrete build decisions for the week. Why I Built It My days were getting noisy: too many good posts, not enough synthesis. I wanted a lightweight path from "interesting idea" to "actionable build," and a way to record it so I can see patterns over time. The Solution I wired a simple flow that separates signal capture, decision pressure, and</description>
+      <guid isPermaLink="false">https://dev.to/victorstackai/devlog-2026-02-04-4ac3</guid>
+      <pubDate>Sat, 21 Feb 2026 06:14:20 +0000</pubDate>
     </item>
     <item>
-      <title>How We Built a 5x Faster NotebookLM Watermark Tool on AWS — Engineering Story</title>
-      <link>https://dev.to/morninginsights_6f61e04f2/how-we-built-a-5x-faster-notebooklm-watermark-tool-on-aws-engineering-story-29fe</link>
-      <description>Originally published at notebooklmstudio.com How We Built a 5x Faster NotebookLM Watermark Tool on AWS Every product has an origin story. Ours started with a frozen browser tab. I was working on a research presentation, had exported a 45-page PDF from Google NotebookLM, and needed the watermark off before a meeting. I loaded the free browser tool, uploaded the file, and watched my MacBook's fan spin up as the browser processed page by page. Three minutes later — with my browser tab completely fr</description>
-      <guid isPermaLink="false">https://dev.to/morninginsights_6f61e04f2/how-we-built-a-5x-faster-notebooklm-watermark-tool-on-aws-engineering-story-29fe</guid>
-      <pubDate>Fri, 20 Feb 2026 06:35:18 +0000</pubDate>
+      <title>Terminal Operations in Java Streams</title>
+      <link>https://dev.to/priyankbhardwaj1199/terminal-operations-in-java-streams-2g83</link>
+      <description>Hi Everyone reading, In the previous article, we explored Intermediate Operations in Java Streams — how they transform and prepare data. Now it’s time to understand the final and most important step of stream processing: Without a terminal operation, a stream does nothing. Let’s understand why. What are Terminal Operations? Terminal operations: Produce a result. Trigger execution of intermediate operations. Close the stream after execution. Cannot be reused once executed. Example List&amp;lt;Integer&amp;gt; l</description>
+      <guid isPermaLink="false">https://dev.to/priyankbhardwaj1199/terminal-operations-in-java-streams-2g83</guid>
+      <pubDate>Sat, 21 Feb 2026 06:18:19 +0000</pubDate>
     </item>
     <item>
-      <title>Technical Writing Needs Attention</title>
-      <link>https://dev.to/rvbug/technical-writing-needs-attention-4303</link>
-      <description>Introduction Usually, programming tutorials and research papers have been a bit difficult to understand. Not because the code is complicated, but because the attention shifts between the text and its explanation. When someone presents a technical article, the author knows which line matters at each moment but readers might not. We use static artefacts, diagrams, images or even screenshots to explain. This includes: Blog Posts Research &amp;amp; Documentation Code Snippets But programming is not static.</description>
-      <guid isPermaLink="false">https://dev.to/rvbug/technical-writing-needs-attention-4303</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftllo23diqtl378z02809.gif" length="0" type="image/gif"/>
-      <pubDate>Fri, 20 Feb 2026 06:39:04 +0000</pubDate>
+      <title>9+ Best Free Shadcn Date Picker Components for React and Next.js in 2026</title>
+      <link>https://dev.to/wrap-pixel/shadcn-date-picker-38dh</link>
+      <description>Most modern apps require date pickers - from SaaS dashboards and booking systems to analytics filters and admin panels. We tested and reviewed 9 free Shadcn date picker components from real repositories and component libraries. This list focuses on real developer needs, such as timezone handling, date ranges, form integration, and production readiness. This guide is based on actual component code, GitHub activity, TypeScript support, and integration with React and Next.js. How We Tested These Co</description>
+      <guid isPermaLink="false">https://dev.to/wrap-pixel/shadcn-date-picker-38dh</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fwpblog.shadcnspace.com%2Fwp-content%2Fuploads%2F2026%2F02%2Fshadcnspace746x430.webp" length="0" type="image/webp"/>
+      <pubDate>Sat, 21 Feb 2026 06:20:33 +0000</pubDate>
     </item>
     <item>
-      <title>Building the CREEM Laravel Package: Accept Global Payments in Minutes</title>
-      <link>https://dev.to/haniamin/building-the-creem-laravel-package-accept-global-payments-in-minutes-k4l</link>
-      <description>I recently built a full-featured Laravel package for CREEM, the developer-first Merchant of Record platform. Here's why I built it, what it does, and how you can start accepting payments in your Laravel app in under 5 minutes. Why CREEM? If you're selling SaaS, digital products, or software licenses, handling global payments is painful. You need to deal with: VAT/GST/sales tax across 190+ countries Payment processor integration Subscription lifecycle management License key distribution Refunds a</description>
-      <guid isPermaLink="false">https://dev.to/haniamin/building-the-creem-laravel-package-accept-global-payments-in-minutes-k4l</guid>
-      <pubDate>Fri, 20 Feb 2026 06:52:57 +0000</pubDate>
+      <title>From 10-Minute Blocking APIs to Async Pipelines: A Production Backend Redesign</title>
+      <link>https://dev.to/phantom_adnan/from-10-minute-blocking-apis-to-async-pipelines-a-production-backend-redesign-114c</link>
+      <description>When I took over a transaction ingestion system running in production, one of the first things I noticed was the time it took to process CSV uploads. Users regularly uploaded files averaging around 50,000 rows, with some reaching over 600,000. The upload API handled everything synchronously: parsing the file, inserting rows into Cassandra, fetching historical prices from an external service per transaction, performing reconciliation, calculating balances and tax metrics, and only then returning</description>
+      <guid isPermaLink="false">https://dev.to/phantom_adnan/from-10-minute-blocking-apis-to-async-pipelines-a-production-backend-redesign-114c</guid>
+      <pubDate>Sat, 21 Feb 2026 06:35:31 +0000</pubDate>
     </item>
   </channel>
 </rss>

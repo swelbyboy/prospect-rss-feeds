@@ -8,86 +8,84 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Feb 2026 07:01:07 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 06:48:07 +0000</lastBuildDate>
     <item>
-      <title>SNAPTOR | The clamp that keeps biting #3DThursday #3DPrinting</title>
-      <link>https://blog.adafruit.com/2026/02/19/snaptor-the-clamp-that-keeps-biting-3dthursday-3dprinting/</link>
-      <description>Svengineer shares: SNAPTOR, durable strength! Printed in one piece and activated with a single snap, the SNAPTOR is a compact clamp that’s always ready to bite. Its integrated preloaded spring mechanism is activated after printing. No screws, no assembly, no hassle. download the files on: https://makerworld.com/en/models/2306748-snaptor-the-clamp-that-keeps-biting Every Thursday is #3dthursday here at Adafruit! The DIY […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/19/snaptor-the-clamp-that-keeps-biting-3dthursday-3dprinting/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/SNAPTOR-The-clamp-that-keeps-biting-600x450.webp" length="0" type="image/webp"/>
-      <pubDate>Thu, 19 Feb 2026 19:00:00 +0000</pubDate>
+      <title>The open source world can write its own rules for AI… and nobody has to ask permission</title>
+      <link>https://blog.adafruit.com/2026/02/20/the-open-source-world-can-write-its-own-rules-for-ai-and-nobody-has-to-ask-permission/</link>
+      <description>Two Open Source + AI policy posts in 24 hours, MicroPython now requires AI disclosure on every pull request. The EFF just published their own policy for LLM-assisted contributions to their open source projects, neither one is a ban, both require transparency. MicroPython’s approach is a checkbox: did you use AI, yes or no, and […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/20/the-open-source-world-can-write-its-own-rules-for-ai-and-nobody-has-to-ask-permission/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/eff.png" length="0" type="image/png"/>
+      <pubDate>Fri, 20 Feb 2026 11:45:56 +0000</pubDate>
     </item>
     <item>
-      <title>MicroPython Now Requires AI Disclosure on Every Pull Request</title>
-      <link>https://blog.adafruit.com/2026/02/19/micropython-now-requires-ai-disclosure-on-every-pull-request/</link>
-      <description>MicroPython has added a Generative AI Policy into their Contributor Guidelines, and PR #18842 adds a matching declaration into the GitHub PR template. Every contributor now picks one: “I did not use Generative AI tools” or “I used them, but a human has checked the code.” Angus Gratton, who opened the PR said… “it’s easy […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/19/micropython-now-requires-ai-disclosure-on-every-pull-request/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/micropythonclaw.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 19:22:31 +0000</pubDate>
+      <title>What to Make with Adafruit Trinkey QT2040</title>
+      <link>https://blog.adafruit.com/2026/02/20/what-to-make-with-adafruit-trinkey-qt2040/</link>
+      <description>It’s half USB Key, half Adafruit QT Py, and a lotta RP2040…it’s Trinkey QT2040, the circuit board with an RP2040 heart and Stemma QT legs. We thought, hey what if we made something like the QT Py 2040 that plugs right into your computer’s USB port? And this is what we came up with! Grab […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/20/what-to-make-with-adafruit-trinkey-qt2040/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/5056.gif" length="0" type="image/gif"/>
+      <pubDate>Fri, 20 Feb 2026 15:00:51 +0000</pubDate>
     </item>
     <item>
-      <title>The Python on Microcontrollers Newsletter: subscribe for free</title>
-      <link>https://blog.adafruit.com/2026/02/19/the-python-on-microcontrollers-newsletter-subscribe-for-free-2-19/</link>
-      <description>The Python for Microcontrollers Newsletter is the place for the latest news involving Python on hardware (microcontrollers AND single board computers like Raspberry Pi). This ad-free, spam-free weekly email is filled with CircuitPython, MicroPython, and Python information that you may have missed, all in one place! You get a summary of all the software, events, projects, and the latest hardware worldwide once a week, no […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/19/the-python-on-microcontrollers-newsletter-subscribe-for-free-2-19/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/Subscribe-2026-02.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 19:41:43 +0000</pubDate>
+      <title>Open-Source + AI ggml joins Hugging Face, llama.cpp stays open… local AI’s long-term home</title>
+      <link>https://blog.adafruit.com/2026/02/20/open-source-ai-ggml-joins-hugging-face-llama-cpp-stays-open-local-ais-long-term-home/</link>
+      <description>Georgi Gerganov, the creator of llama.cpp, announced today that ggml.ai is joining Hugging Face. The projects stay open. The community stays autonomous. Georgi and team keep maintaining everything full-time. Hugging Face provides the long-term resources to make sure it all keeps going. See their blog post! This is another part of the story of “what […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/20/open-source-ai-ggml-joins-hugging-face-llama-cpp-stays-open-local-ais-long-term-home/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/hug-600x264.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 16:54:50 +0000</pubDate>
     </item>
     <item>
-      <title>John Park’s Workshop — LIVE TODAY 2/19/26</title>
-      <link>https://blog.adafruit.com/2026/02/19/john-parks-workshop-live-today-2-19-26/</link>
-      <description>It’s JOHN PARK’S WORKSHOP — LIVE! — Coming up at 4pm ET / 1pm PT Today! LIVE TEXT CHAT IS HERE in the Adafruit Discord chat! Projects CircuitPython Parsec Tool Tips Learn Guides Retro Gear Rising levels of Lars and more! The live video will be on Youtube LIVE, Twitch, Periscope (Twitter) and Facebook. Join […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/19/john-parks-workshop-live-today-2-19-26/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2017/08/JohnParkWorkshopLogoSquatBlog_853.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 20:58:45 +0000</pubDate>
+      <title>Supreme Court Strikes Down IEEPA Tariffs 6-3: The President Cannot Tax Imports By Declaring an Emergency</title>
+      <link>https://blog.adafruit.com/2026/02/20/supreme-court-strikes-down-ieepa-tariffs-6-3-the-president-cannot-tax-imports-by-declaring-an-emergency/</link>
+      <description>Read the full opinion (PDF) The Supreme Court ruled 6-3 this morning that President Trump’s use of the International Emergency Economic Powers Act to impose tariffs was unlawful. Chief Justice Roberts wrote the opinion. Thomas, Alito, and Kavanaugh dissented. TL;DR the Constitution gives Congress the power to tax imports. Article I, Section 8. The president […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/20/supreme-court-strikes-down-ieepa-tariffs-6-3-the-president-cannot-tax-imports-by-declaring-an-emergency/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/tariffs_over_maybe-600x225.png" length="0" type="image/png"/>
+      <pubDate>Fri, 20 Feb 2026 17:17:09 +0000</pubDate>
     </item>
     <item>
-      <title>Springy Bunny – Cute Flexi Rabbit Toy #3DThursday #3DPrinting</title>
-      <link>https://blog.adafruit.com/2026/02/19/springy-bunny-cute-flexi-rabbit-toy-3dthursday-3dprinting/</link>
-      <description>TakeTheATrain shares: Meet Springy Bunny, a cute and compact bunny designed with a hidden spring-like body that gives it a playful, bouncy feel — even though its pose stays calm and still. download the files on: https://makerworld.com/en/models/2291309-springy-bunny-cute-flexi-rabbit-toy-no-support Every Thursday is #3dthursday here at Adafruit! The DIY 3D printing community has passion and dedication for making […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/19/springy-bunny-cute-flexi-rabbit-toy-3dthursday-3dprinting/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/Springy-Bunny-–-Cute-Flexi-Rabbit-Toy-600x450.webp" length="0" type="image/webp"/>
-      <pubDate>Thu, 19 Feb 2026 21:00:46 +0000</pubDate>
+      <title>Raspberry Pi As Travel Router #piday #raspberrypi</title>
+      <link>https://blog.adafruit.com/2026/02/20/raspberry-pi-as-travel-router-piday-raspberrypi/</link>
+      <description>You don’t need to trust the hotel Wi-Fi with this easy project. Using a Raspberry Pi, an SD card, RaspAP, and an extra Wi-Fi adapter you can make your own travel router. Using a Pi instead of an off the shelf travel router gives you extra features, functions and flexability. Nick Lewis on How-To-Geek extolls […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/20/raspberry-pi-as-travel-router-piday-raspberrypi/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/raspberry_pi_pi_ap.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 18:17:05 +0000</pubDate>
     </item>
     <item>
-      <title>The book so dangerous the CIA stole it: Roger Zelazny’s Lord of Light</title>
-      <link>https://blog.adafruit.com/2026/02/19/the-book-so-dangerous-the-cia-stole-it-roger-zelaznys-lord-of-light/</link>
-      <description>“A thing happens once that has never happened before. Seeing it, a man looks upon reality. He cannot tell others what he has seen.” – Sam (Mahasamatman) from his conversation about the nature of religion and enlightenment. In Lord of Light, published in 1967, Roger Zelazny wrote about a swordfight between the Buddha and the […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/19/the-book-so-dangerous-the-cia-stole-it-roger-zelaznys-lord-of-light/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/lol.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 21:41:46 +0000</pubDate>
+      <title>John Park’s CircuitPython Parsec: Trellis Wordle Scoreboard</title>
+      <link>https://blog.adafruit.com/2026/02/20/john-parks-circuitpython-parsec-trellis-wordle-scoreboard/</link>
+      <description>#circuitpythonparsec Create a pixel-art scoreboard for Wordle using Neotrellis in CircuitPython. code example To learn about CircuitPython: https://circuitpython.org</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/20/john-parks-circuitpython-parsec-trellis-wordle-scoreboard/</guid>
+      <pubDate>Fri, 20 Feb 2026 18:22:17 +0000</pubDate>
     </item>
     <item>
-      <title>Retro Radio &amp;amp; Lamp Book Nook #3DThursday #3DPrinting</title>
-      <link>https://blog.adafruit.com/2026/02/19/retro-radio-lamp-book-nook-3dthursday-3dprinting/</link>
-      <description>Shared by Joak1m on MakerWorld: Bring a touch of 1950s nostalgia to your bookshelf. This model transforms the Google Nest Mini or Alexa Echo Dot* into a classic mid-century tabletop radio, designed specifically to sit snugly between your favorite books or game boxes. By integrating the Bambu LED Lamp Kit (MH001), it serves as a […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/19/retro-radio-lamp-book-nook-3dthursday-3dprinting/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/Cover3.png" length="0" type="image/png"/>
-      <pubDate>Thu, 19 Feb 2026 22:00:35 +0000</pubDate>
+      <title>CircuitPython on Zephyr Deep Dive today at 2pm Pacific!</title>
+      <link>https://blog.adafruit.com/2026/02/20/circuitpython-on-zephyr-deep-dive-today-at-2pm-pacific/</link>
+      <description>Join Scott as he shows off CircuitPython running locally in the Zephyr native simulator and discusses how it provides a feedback loop for LLM agents. The native simulator is an awesome part of the Zephyr project that makes verification of the code so much easier! It can even test Bluetooth Low Energy! Read more about […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/20/circuitpython-on-zephyr-deep-dive-today-at-2pm-pacific/</guid>
+      <pubDate>Fri, 20 Feb 2026 18:31:52 +0000</pubDate>
     </item>
     <item>
-      <title>USB cable organizer Box tray #3DThursday #3DPrinting</title>
-      <link>https://blog.adafruit.com/2026/02/19/usb-cable-organizer-box-tray-3dthursday-3dprinting/</link>
-      <description>Gorilla24 shares: USB Cable &amp;amp; Charger Organizer – Elegant Design for Drawer or Cabinet Order meets style: This organizer brings system to your cable and charger collection. The continuous grid design ensures a secure hold and clear structure, ideal for use in drawers, cabinets, or on your desk. download the files on: https://makerworld.com/en/models/2268549-usb-cable-organizer-box-tray-iphone-samsung Every Thursday […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/19/usb-cable-organizer-box-tray-3dthursday-3dprinting/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/USB-cable-organizer-Box-tray-IPhone-Samsung-600x450.webp" length="0" type="image/webp"/>
-      <pubDate>Thu, 19 Feb 2026 23:00:36 +0000</pubDate>
+      <title>Catherine Allen Latimer #BlackHistoryMonth</title>
+      <link>https://blog.adafruit.com/2026/02/20/catherine-allen-latimer-blackhistorymonth/</link>
+      <description>Today we celebrate the life and legacy of Catherine Allen Latimer, the NYPL’s first black librarian. Latimer had an extraordinary education in Brooklyn, abroad in Europe, and later on at Howard University. Her first job was at the historic Tuskegee Institute. She moved back to NYC and the NYPL hired her in 1924. See below […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/20/catherine-allen-latimer-blackhistorymonth/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/adafruit_BHM_2026_banners_1300x437-3-600x202.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 18:56:01 +0000</pubDate>
     </item>
     <item>
-      <title>Gumulele – Rubber Band Ukulele / Guitar Instrument #3DThursday #3DPrinting</title>
-      <link>https://blog.adafruit.com/2026/02/19/gumulele-rubber-band-ukulele-guitar-instrument-3dthursday-3dprinting/</link>
-      <description>Shared by Henry_CZ on MakerWorld: A fun and easy-to-assemble 3D printed ukulele-style guitar using rubber bands instead of traditional strings. The neck slides into the body and is fixed with a bit of glue. Rubber bands are knotted, threaded through the body and neck, and tensioned using a simple winding tuner. Perfect as a toy, […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/19/gumulele-rubber-band-ukulele-guitar-instrument-3dthursday-3dprinting/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/phonto.png" length="0" type="image/png"/>
-      <pubDate>Fri, 20 Feb 2026 00:00:27 +0000</pubDate>
+      <title>Installing Portainer to the Raspberry Pi</title>
+      <link>https://blog.adafruit.com/2026/02/20/installing-portainer-to-the-raspberry-pi/</link>
+      <description>PiMylifeUp updated their guide on how to install Portainer to your Pi. Check it out! Portainer is a lightweight and open-source container management tool. Using this tool, you can create, manage and delete your Docker containers running on your Raspberry Pi with ease. Not only is the software straightforward to use, but it is also […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/20/installing-portainer-to-the-raspberry-pi/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/Raspberry-Pi-Portainer-Thumbnail.jpg-600x330.webp" length="0" type="image/webp"/>
+      <pubDate>Fri, 20 Feb 2026 21:00:59 +0000</pubDate>
     </item>
     <item>
-      <title>AllSeason Hand seed Spreader #3DThursday #3DPrinting</title>
-      <link>https://blog.adafruit.com/2026/02/19/allseason-hand-seed-spreader-3dthursday-3dprinting/</link>
-      <description>Andy94 shares: A versatile handheld spreader designed for year-round use. Perfect for spreading grass seed and fertilizer during the growing season, and salt for ice and snow in winter. The ergonomic handle gives a comfortable grip, while the controlled outlet helps ensure an even spread with minimal waste. Easy to fill, easy to use, and […]</description>
-      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/19/allseason-hand-seed-spreader-3dthursday-3dprinting/</guid>
-      <enclosure url="https://cdn-blog.adafruit.com/uploads/2026/02/AllSeason-seed-Spreader-600x450.webp" length="0" type="image/webp"/>
-      <pubDate>Fri, 20 Feb 2026 01:00:20 +0000</pubDate>
+      <title>CircuitPython 10.1.3 Released!</title>
+      <link>https://blog.adafruit.com/2026/02/20/circuitpython-10-1-3-released/</link>
+      <description>From the GitHub release page: This is CircuitPython 10.1.3, the latest bugfix revision of CircuitPython, and is a new stable release. (The 10.1.2 release was discarded due to incorrect tagging.) Highlights of this release Adafruit MagTag: auto-detect different versions of e-ink display on 2025 MagTag. Espressif: fix board I2C object deinit(). Fixes crash with Adafruit […]</description>
+      <guid isPermaLink="false">https://blog.adafruit.com/2026/02/20/circuitpython-10-1-3-released/</guid>
+      <enclosure url="https://cdn-blog.adafruit.com/uploads/2025/07/CircuitPython-10-360x480.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 21 Feb 2026 01:20:17 +0000</pubDate>
     </item>
   </channel>
 </rss>

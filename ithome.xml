@@ -8,49 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Feb 2026 07:03:21 +0000</lastBuildDate>
-    <item>
-      <title>Chrome修補CSS高風險漏洞CVE-2026-2441，Google確認已遭實際利用</title>
-      <link>https://www.ithome.com.tw/news/173972</link>
-      <description>新聞Google更新Chrome桌面版穩定版本，修補1項被列為高風險的安全漏洞CVE-2026-2441，官方坦承已掌握該漏洞存在實際利用情形，代表未更新的使用者可能暴露在實際攻擊風險之下。該更新版本號為Windows與macOS的145.0.7632.75/76，以及Linux的144.0.7559.75。Google表示更新將在未來數天到數週逐步推送，使用者不一定會在同一天收到更新。 該新版本僅包含1項安全修補，對應的Chromium議題（Issue）編號為483569511，漏洞性質為CSS中的釋放後使用問題，由研究人員Shaheen Fazim在2026年2月11日回報。Google也說明，為了避免在多數使用者完成更新前讓攻擊者取得更多線索，漏洞細節與相關連結暫時維持不公開。 從公開資訊來看，CVE-2026-2441為發生在CSS元件的釋放後使用漏洞。NVD的描述指出，Google Chrome在145.0.7632.75之前的版本，可能被遠端攻擊者透過特製HTML頁面，在沙箱內執行任意程式碼。對照Google公告的修補版本，Windows與macOS為145.0.7632.</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173972</guid>
-      <pubDate>Tue, 17 Feb 2026 08:01:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>Meta旗下Manus個人代理進駐Telegram，支援語音、圖片與多步驟任務</title>
-      <link>https://www.ithome.com.tw/news/173973</link>
-      <description>新聞已納入Meta旗下的AI代理平臺Manus宣布推出Manus Agents功能，將其完整的AI代理能力延伸至即時通訊平臺，首波支援Telegram。使用者透過Manus工作區掃描QR Code即可完成連結，在聊天視窗中直接下達多步驟任務、傳送語音訊息與檔案，並接收AI代理產出的結果。該功能開放給所有訂閱方案的使用者，後續將擴展至其他通訊平臺。 Manus於2025年12月被Meta收購，Meta在收購說明中表示，Manus團隊將協助其消費者與商業產品導入通用AI代理能力，範圍包含Meta AI。Manus Agents的推出，是Manus在加入Meta後，將既有代理能力延伸到即時通訊平臺的最新動作。 Manus說明，Manus Agents並非功能縮減版的聊天機器人，而是與網頁版相同的完整代理系統，具備推理、工具調用與多步驟任務執行能力。使用者在Telegram對話中發送的請求，可觸發研究、資料處理、文件產出與結構化報告等工作流程，結果可直接在聊天中交付。既有的專案、技能與連接器設定也會沿用，不需另外配置。 除了文字輸入，Manus Agents也支援語音訊息、圖片與文件。這項AI</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173973</guid>
-      <pubDate>Tue, 17 Feb 2026 16:15:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>日本華盛頓飯店遭勒索軟體竊取資料</title>
-      <link>https://www.ithome.com.tw/news/173974</link>
-      <description>新聞日本華盛頓飯店本月14日發布公告，表明前一天遭到勒索軟體導致公司資料外洩。華盛頓飯店為WHG Hotels（華盛頓飯店及格拉斯麗酒店集團）旗下品牌，隸屬於藤田觀光株式會社（Fujita Kanko Inc.），在日本擁有34家據點。 這家日本飯店業者在13日晚上10點左右發現部分伺服器感染勒索軟體。在第一時間切斷網路後，他們已通報主管機關，並與外部專家合作進行調查。這次攻擊事件中，華盛頓飯店出現部分信用卡終端機無法使用的狀況，但該公司表示目前營運尚未受到重大影響。在飯店公告中，未提及入侵途徑與初始入侵細節。 經過初步研判，確認該伺服器儲存的公司業務資料遭存取，但飯店會員方案「Washington Net」的客戶資料儲存在由另一家公司管理的伺服器，目前飯店業者正在確認是否也遭到存取。 這是日本近日遭遇資料外洩事件的最新企業，回顧先前發生的類似事故，包含飲料業者朝日（Asahi）、電商Askul、日本經濟新聞、東京FM電台等，皆傳遭到第三方存取外洩資料。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173974</guid>
-      <pubDate>Wed, 18 Feb 2026 01:51:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dell虛擬機器資料復原軟體出現CVSS 10.0零日漏洞，疑似中國駭客潛伏利用超過一年</title>
-      <link>https://www.ithome.com.tw/news/173975</link>
-      <description>新聞Mandiant與Google威脅情報小組聯合發布調查報告，揭露虛擬機器復原軟體Dell RecoverPoint for Virtual Machines存在一個嚴重程度達滿分的零日漏洞CVE-2026-22769，CVSS 3.1評分為10.0。研究人員指出，疑似與中國有關的駭客組織UNC6201，自2024年中起便已開始利用此漏洞，在受害者環境中橫向移動、建立持久性存取，並部署多種惡意程式。關於這項重大弱點，Dell當天也發布資安漏洞公告DSA-2026-079，說明已接到Mandiant與Google的通報，說明受此漏洞影響的產品資訊與緩解方法。 Dell RecoverPoint for Virtual Machines內建的Apache Tomcat Manager，其預設管理員帳號與密碼被寫死在設定檔。任何取得該組帳密的攻擊者，均可透過Tomcat Manager的部署端點上傳惡意的WAR（Web Application Archive）檔案，並以root權限在設備上執行任意指令。 調查人員重建了攻擊者的完整入侵流程。UNC6201利用上述寫死（hard-coded）</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173975</guid>
-      <pubDate>Wed, 18 Feb 2026 11:54:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic新中階模型Claude Sonnet 4.6主打程式開發與電腦操控，支援百萬詞元</title>
-      <link>https://www.ithome.com.tw/news/173976</link>
-      <description>新聞Anthropic發布中階模型Claude Sonnet 4.6，該新模型在程式碼生成、電腦操控、長文推理與多步驟任務規畫等核心能力都有提升，定價維持與前代Sonnet 4.5相同，每百萬輸入詞元（Token）3美元、輸出15美元。免費與付費方案用戶現在皆可使用Sonnet 4.6，並首度在Sonnet系列引入百萬詞元上下文視窗。 在程式碼輔助工具Claude Code的內部評測中，用戶在70%的情況下，偏好Sonnet 4.6勝過前代Sonnet 4.5，更有59%的情況勝過Opus 4.5。官方引用使用者回饋指出，Sonnet 4.6在修改程式碼前更能讀懂既有脈絡，會傾向整合共用邏輯而非重複實作；相較前一版，較少出現過度設計、錯誤宣稱任務完成或幻覺輸出，在多步驟任務中的指令遵循與執行一致性也有明顯改善。 電腦操控能力是Claude Sonnet 4.6的另一個重點，其在OSWorld基準測試得分較前代顯著提升，用戶觀察到其在複雜試算表操作與多步驟網頁表單填寫等任務，達到接近人類的水準。OSWorld基準測試模擬真實電腦環境，要求模型在Chrome、LibreOffice、VS</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173976</guid>
-      <pubDate>Wed, 18 Feb 2026 13:31:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>BeyondTrust RS與PRA存在命令注入漏洞，CISA列KEV限期修補</title>
-      <link>https://www.ithome.com.tw/news/173977</link>
-      <description>新聞BeyondTrust旗下企業遠端支援產品Remote Support（RS）與Privileged Remote Access（PRA）被揭露存在嚴重的作業系統命令注入漏洞CVE-2026-1731，CVSS評分高達9.9分。攻擊者無需任何身分驗證，也不需要使用者互動，即可對曝露於網際網路的目標設備遠端執行任意指令。美國網路安全暨基礎設施安全局（CISA）已將此漏洞列入已知遭利用漏洞（KEV）名單。 BeyondTrust表示，其安全團隊於1月31日在單一Remote Support設備偵測到異常活動，外部研究人員隨後協助確認並回報漏洞，BeyondTrust同日完成初步研判並啟動修補。2月2日BeyondTrust釋出修補程式，並對已啟用其更新服務的系統執行自動部署，同時表示其SaaS環境已完成修補。 受影響版本涵蓋Remote Support 25.3.1及更早版本，以及Privileged Remote Access 24.3.4及更早版本。BeyondTrust已分別釋出修補程式BT26-02-RS與BT26-02-PRA，對應的修復版本為RS 25.3.2及PRA 25</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173977</guid>
-      <pubDate>Wed, 18 Feb 2026 13:31:27 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 21 Feb 2026 06:50:50 +0000</lastBuildDate>
     <item>
       <title>Claude Sonnet 4.6登陸GitHub Copilot</title>
       <link>https://www.ithome.com.tw/news/173978</link>
@@ -79,6 +37,51 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/news/173981</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/images/2026-02-20_011847.jpg" length="0" type="image/jpeg"/>
       <pubDate>Thu, 19 Feb 2026 16:48:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>美光發布全球首款PCIe 6.0 SSD，讀取速度為5.0的2倍</title>
+      <link>https://www.ithome.com.tw/news/173985</link>
+      <description>新聞AI浪潮正在重新定義儲存需求。當GPU的運算速度不斷攀升，資料在記憶體與儲存裝置之間搬移的頻寬，已悄悄成為下一個瓶頸。記憶體與儲存大廠Micron（美光）日前宣布，旗下Micron 9650 NVMe SSD正式進入量產，成為全球首款PCIe 6.0（PCIe Gen6）資料中心固態硬碟。最高循序讀取速度達28GB/s，為現行主流PCIe 5.0 SSD的兩倍，高效能儲存正式邁入新世代。 PCIe 6.0標準早在2022年便已發布，但控制器設計、訊號完整性與平台支援等技術門檻，讓相關產品遲至2026年才正式量產。美光率先完成商用化，也意味資料中心與AI伺服器生態系已準備好迎接更高頻寬架構。 根據美光公布的數據，Micron 9650最高循序讀取速度為28,000MB/s，循序寫入14,000MB/s；隨機讀取可達550萬IOPS，隨機寫入為90萬IOPS。相較PCIe 5.0產品，讀取效能提升100%，寫入提升40%，隨機讀取與寫入則分別提升67%與22%。 效能提升的意義不只在數字本身。大型語言模型在訓練與推論時，需要持續從儲存裝置載入海量參數與上下文資料；長上下文模型與檢索增強</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173985</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/2026-02-21_001437.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 15:57:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic攜手Infosys擴大印度布局</title>
+      <link>https://www.ithome.com.tw/news/173986</link>
+      <description>新聞AI新創Anthropic相準印度市場，繼於2月16日宣布要在印度班加羅爾（Bengaluru）設立辦公室以擴大與當地組織的合作之後，隔天再宣布與印度IT服務大廠Infosys合作，鎖定電信、金融服務、製造與軟體開發等高度受監管產業，共同推動代理型AI服務。 印度是Anthropic的第二大市場，僅次於美國，而班加羅爾也是Anthropic繼東京之後的第二個亞太地區辦公室。Anthropic共同創辦人暨執行長Dario Amodei表示，印度之所以具備吸引力，是因為其龐大的技術人才，以及印度政府致力於確保AI的利益可惠及社會的各層面；同時，印度也面臨了跨多語言與多元場景中部署AI，以及建立負責任治理之制度框架的挑戰，與Anthropic的使命一致。 至於Infosys則與Tata Consultancy Services（TCS）及Wipro並列印度三大IT服務巨頭，早期以軟體外包與系統整合為核心業務，隨著全球企業IT外包需求擴張而快速崛起，成為推動印度科技服務業走向全球市場的重要代表企業之一。 此次Infosys與Anthropic合作聚焦於開發企業級AI代理人（Agentic</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173986</guid>
+      <pubDate>Fri, 20 Feb 2026 15:58:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google公布Gemini 3.1 Pro，推理能力為前代2倍</title>
+      <link>https://www.ithome.com.tw/news/173987</link>
+      <description>新聞Google於本周四（2/19）發表最新代理式模型Gemini 3.1 Pro現在提供給企業、開發人員及付費消費者。新模型推理及程式撰寫能力更進階，並在多項能力超越Anthropic及OpenAI競爭模型。 Gemini 3.1 Pro是以Gemini 3系列為基礎開發，在核心推理能力更進一步。根據該公司列出的ARC-AGI-2（抽象推理能力）標竿測試結果，3.1 Pro得分達77.1%，是3 Pro版推理效能的2倍有餘。此外，最新版Gemini 3.1 Pro在GPQA Diamond（科學知識）、Terminal-Bench 2.0（代理終端編程）、SciCode（科學研究編程）、APEX-Agent（長程專業任務）、t2-bench（代理工具使用）、BroweComp（代理搜尋）及MMMLU（多語Q&amp;amp;A）等標竿測試的得分，也都超越競爭對手如Anthropic Opus 4.6及GPT 5.2。 Google指稱，Gemini 3.1 Pro更聰明，解決複雜問題能力也更強，可用於多種實際任務。首先，它能將文字提示轉成程式碼，例如根據英國古典小說《咆哮山莊》（Wuthering</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173987</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/Gemini%203_1%20Pro_%E5%9C%96%E7%89%87%E4%BE%86%E6%BA%90Google.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 15:59:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI與Paradigm合推基準測試EVMbench，評測AI代理智慧合約漏洞攻防能力</title>
+      <link>https://www.ithome.com.tw/news/173984</link>
+      <description>新聞OpenAI宣布與加密資產投資機構Paradigm合作推出EVMbench，這套基準測試用來衡量AI代理在以太坊虛擬機（EVM）環境下，面對高嚴重性智慧合約漏洞時，能否完成偵測、修補與利用等任務。 OpenAI指出，許多以開源程式碼形式部署的智慧合約長期管理大量加密資產，隨著AI系統越來越擅長閱讀、撰寫與執行程式碼，產業需要在更貼近經濟誘因與實務流程的環境中量測模型能力，並推動防禦性應用，用於稽核與強化既有合約。 EVMbench收集120個經過整理的漏洞案例，來源涵蓋40次稽核成果，多數取自開放的程式碼稽核競賽題庫。此外，也納入取自Tempo區塊鏈安全稽核流程的多個漏洞情境，讓題庫延伸到支付導向的智慧合約程式碼。OpenAI表示，Tempo屬於為穩定幣支付設計的第一層區塊鏈（L1），這些情境用來把評測延伸到支付導向的智慧合約，讓測試更貼近實務應用。 EVMbench把任務分成三種模式對應實務工作流程，第一是偵測模式（Detect），要求代理稽核智慧合約儲存庫，依照對既有已知漏洞的召回率與對應稽核獎勵計分。第二是漏洞修補模式（Patch），要求代理在修改脆弱合約時維持原本設計功能，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173984</guid>
+      <pubDate>Fri, 20 Feb 2026 21:42:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>NIST啟動AI代理標準倡議力促互通與安全</title>
+      <link>https://www.ithome.com.tw/news/173983</link>
+      <description>新聞美國國家標準與技術研究院（NIST）旗下的人工智慧標準與創新中心（CAISI），宣布啟動AI代理標準倡議。該倡議的目標是替新一代可自主行動的AI代理，建立跨系統互通與安全運作的基礎，並透過產業及社群參與，推動相關技術標準與協定的發展。 NIST將AI代理定義為能代表使用者執行任務的系統，並指出這類系統已能長時間自主運作，應用範圍涵蓋程式碼撰寫與除錯、電子郵件與行事曆管理，以及線上購物等多種情境。不過NIST也指出，AI代理在真實環境中的效益，受限於其能否與外部系統及內部資料順利互動。若外界對AI代理的可靠性缺乏信心，且代理之間與數位資源的互通性不足，創新者可能面臨生態系碎片化，進而抑制整體採用速度。 CAISI將與NIST資訊技術實驗室ITL協作推動AI代理標準倡議，並聯合美國國家科學基金會NSF及其他跨機關夥伴共同推進。NIST將倡議的工作劃分為三方向，第一，促進由產業主導制定AI代理相關標準，同時維持在國際標準組織中的參與和影響力；第二，推動由社群主導的開源協定開發與維護，降低互通門檻；第三，投入AI代理安全、身分與授權相關研究，以支撐新興應用場景，並促進跨產業的可信任導入。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173983</guid>
+      <pubDate>Fri, 20 Feb 2026 21:49:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>採用自家ASIC與矽光子網路技術，輝達推出新款800G交換器</title>
+      <link>https://www.ithome.com.tw/review/173982</link>
+      <description>為了提供AI伺服器更大的資料中心網路存取頻寬，兩大陣營在2025年紛紛推出網路交換容量超過100 Tb/s的交換器，例如，博通（Broadcom）6月率先發表Tomahawk 6系列乙太網路交換器晶片（BCM78910系列），支援100G與200G序列器/解序列器（SerDes），以及共同封裝光學網路（Co-Packaged Optics，CPO），10月發表Tomahawk 6–Davisson系列（BCM78919系列），號稱是首款支援共同封裝光學網路的102.4 Tb/s交換器晶片。鈺登科技（Edgecore Networks）與Dell隨後宣布將推出搭配Tomahawk 6系列的交換器，前者尚未透露機型，後者則預告將在2026年下半推出兩款機型： Z9964F-ON、Z9964FL-ON。 另一家是Nvidia，在3月舉行的GTC大會，針對乙太網路Spectrum-X系列與InfiniBand網路Quantum-X系列的產品線，宣布增設支援矽光子網路（Silicon Photonics Networking）的交換器設備，他們表示，這些解決方案整合的光學網路技術，每個網路埠可提</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/173982</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/nvidia_spectrum_sn6000xi_lie_main.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 21 Feb 2026 06:07:16 +0000</pubDate>
     </item>
   </channel>
 </rss>
