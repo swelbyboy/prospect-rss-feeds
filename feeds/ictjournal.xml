@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Feb 2026 07:33:46 +0000</lastBuildDate>
-    <item>
-      <title>Google corrige une faille zero-day activement exploitée dans Chrome</title>
-      <link>https://www.ictjournal.ch/news/2026-02-18/google-corrige-une-faille-zero-day-activement-exploitee-dans-chrome</link>
-      <description>Google corrige une vulnérabilité critique de Chrome déjà exploitée. La faille affecte Windows, macOS et Linux et peut permettre l’exécution de code à distance. Une mise à jour de sécurité est en cours de déploiement.</description>
-      <guid isPermaLink="false">https://www.ictjournal.ch/news/2026-02-18/google-corrige-une-faille-zero-day-activement-exploitee-dans-chrome</guid>
-      <enclosure url="https://data.ictjournal.ch/styles/np8_inline/s3/media/2026/02/18/adobestock_479942878_preview_1.jpg?itok=ZyPogPIN" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 12:19:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>L’Office fédéral de la cybersécurité a dépensé plus de 18 millions de francs en 2025</title>
-      <link>https://www.ictjournal.ch/news/2026-02-18/loffice-federal-de-la-cybersecurite-a-depense-plus-de-18-millions-de-francs-en-2025</link>
-      <description>En 2025, l’OFCS a enregistré environ 2’000 signalements de cyberincidents supplémentaires par rapport à l’année précédente. Les exploitants d’infrastructures critiques ont transmis plus de 200 notifications dans le cadre de l’obligation en vigueur depuis avril 2025. Les dépenses de l’office fédéral se sont élevées à 18,4 millions de francs.</description>
-      <guid isPermaLink="false">https://www.ictjournal.ch/news/2026-02-18/loffice-federal-de-la-cybersecurite-a-depense-plus-de-18-millions-de-francs-en-2025</guid>
-      <enclosure url="https://data.ictjournal.ch/styles/np8_inline/s3/media/2026/02/18/adobestock_1513663826.jpg?itok=H9qRDD0l" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 12:23:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sunrise réduit sa perte nette de 70%</title>
-      <link>https://www.ictjournal.ch/news/2026-02-18/sunrise-reduit-sa-perte-nette-de-70</link>
-      <description>Sunrise a atteint ses objectifs financiers pour l’exercice 2025. L’opérateur télécom a enregistré un chiffre d’affaires légèrement inférieur, mais une amélioration de sa performance opérationnelle. Au final, la perte nette a été réduite de 70%.</description>
-      <guid isPermaLink="false">https://www.ictjournal.ch/news/2026-02-18/sunrise-reduit-sa-perte-nette-de-70</guid>
-      <enclosure url="https://data.ictjournal.ch/styles/np8_inline/s3/media/2026/02/18/hauptsitz_lead_w.jpg?itok=Nnm7xRXd" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 14:58:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Comment Cloudflare réduit le coût de lecture du web par les agents IA</title>
-      <link>https://www.ictjournal.ch/news/2026-02-18/comment-cloudflare-reduit-le-cout-de-lecture-du-web-par-les-agents-ia</link>
-      <description>Face à la montée en puissance des agents IA, Cloudflare introduit Markdown for Agents. Cette option convertit les pages HTML en markdown, un format textuel simplifié facilitant l’analyse par les LLM et limitant les coûts de calcul, mais elle soulève aussi des interrogations dans la sphère SEO.</description>
-      <guid isPermaLink="false">https://www.ictjournal.ch/news/2026-02-18/comment-cloudflare-reduit-le-cout-de-lecture-du-web-par-les-agents-ia</guid>
-      <enclosure url="https://data.ictjournal.ch/styles/np8_inline/s3/media/2026/02/18/adobestock_714199922_w.jpg?itok=JZmhqYfz" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 15:35:47 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 21 Feb 2026 07:19:27 +0000</lastBuildDate>
     <item>
       <title>Swisscom dégaine une offre de chatbot IA pour PME et secteurs réglementés</title>
       <link>https://www.ictjournal.ch/news/2026-02-18/swisscom-degaine-une-offre-de-chatbot-ia-pour-pme-et-secteurs-reglementes</link>
@@ -88,6 +56,38 @@
       <guid isPermaLink="false">https://www.ictjournal.ch/news/2026-02-19/le-controle-federal-des-finances-critique-le-id-et-recommande-de-reporter-son</guid>
       <enclosure url="https://data.ictjournal.ch/styles/np8_inline/s3/media/2026/02/19/e-id_fr_w.jpg?itok=L9QjoY-C" length="0" type="image/jpeg"/>
       <pubDate>Thu, 19 Feb 2026 16:41:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Github teste des agents IA pour le triage et la qualité du code</title>
+      <link>https://www.ictjournal.ch/news/2026-02-20/github-teste-des-agents-ia-pour-le-triage-et-la-qualite-du-code</link>
+      <description>Github lance en preview technique les Agentic Workflows. Cette nouvelle fonctionnalité permet d’automatiser des tâches de dépôt via des agents de codage intégrés à Github Actions, dans un cadre de permissions strictement contrôlé.</description>
+      <guid isPermaLink="false">https://www.ictjournal.ch/news/2026-02-20/github-teste-des-agents-ia-pour-le-triage-et-la-qualite-du-code</guid>
+      <enclosure url="https://data.ictjournal.ch/styles/np8_inline/s3/media/2026/02/20/github_agentic-workflows.jpg?itok=pLKOcW7F" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 12:23:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Le spam a représenté près de la moitié du trafic e-mail en 2025</title>
+      <link>https://www.ictjournal.ch/etudes/2026-02-20/le-spam-a-represente-pres-de-la-moitie-du-trafic-e-mail-en-2025</link>
+      <description>En 2025, près d’un e-mail sur deux était un message de spam. Kaspersky a enregistré l’an dernier une hausse de 15% des courriels malveillants ou indésirables. Parmi les tendances actuelles, chez les escrocs, figurent notamment la combinaison de différents canaux de communication, des techniques de contournement et l’abus de plateformes légitimes.</description>
+      <guid isPermaLink="false">https://www.ictjournal.ch/etudes/2026-02-20/le-spam-a-represente-pres-de-la-moitie-du-trafic-e-mail-en-2025</guid>
+      <enclosure url="https://data.ictjournal.ch/styles/np8_inline/s3/media/2026/02/20/mail_2024.jpg?itok=_thqQtZA" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 12:28:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>L’agence digitale d’e-novinfo nomme un directeur et lance une unité IA</title>
+      <link>https://www.ictjournal.ch/news/2026-02-20/lagence-digitale-de-novinfo-nomme-un-directeur-et-lance-une-unite-ia</link>
+      <description>Le groupe e-novinfo nomme Laurent Cortés au poste d’Agency Director de son agence e-novision. Depuis février 2026, il y pilote la nouvelle business unit IA récemment lancée. Le prestataire IT neuchâtelois entend ainsi accompagner les entreprises suisses dans l’intégration de l’intelligence artificielle.</description>
+      <guid isPermaLink="false">https://www.ictjournal.ch/news/2026-02-20/lagence-digitale-de-novinfo-nomme-un-directeur-et-lance-une-unite-ia</guid>
+      <enclosure url="https://data.ictjournal.ch/styles/np8_inline/s3/media/2026/02/20/cortes_laurent_e-novinfo_2026_web.jpg?itok=vJViHSMf" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 12:56:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>En bref: Le paiement mobile domine en Suisse, ChatGPT se sécurise, Anthropic lève 30 milliards</title>
+      <link>https://www.ictjournal.ch/news/2026-02-20/en-bref-le-paiement-mobile-domine-en-suisse-chatgpt-se-securise-anthropic-leve-30</link>
+      <description>Entre deux gros titres, plusieurs actus ont retenu notre attention cette semaine sans faire l’objet d’un article. En voici un aperçu.</description>
+      <guid isPermaLink="false">https://www.ictjournal.ch/news/2026-02-20/en-bref-le-paiement-mobile-domine-en-suisse-chatgpt-se-securise-anthropic-leve-30</guid>
+      <enclosure url="https://data.ictjournal.ch/styles/np8_inline/s3/media/2025/09/26/pexels-markus-winkler-1430818-4057663_w.jpg?itok=kaGc72I-" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 15:00:47 +0000</pubDate>
     </item>
   </channel>
 </rss>

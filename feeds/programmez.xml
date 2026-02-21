@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Feb 2026 07:33:14 +0000</lastBuildDate>
-    <item>
-      <title>NativePHP mobile est maintenant gratuit</title>
-      <link>https://www.programmez.com/actualites/nativephp-mobile-est-maintenant-gratuit-39029</link>
-      <description>NativePHP for Mobile est désormais gratuit. L'annonce en a été faite début février ! Le framework et les plugins principaux sont accessibles, ainsi que le build, sans coûts supplémentaires. Vous pouvez, avec Laravel, construire des apps mobiles Android et iOS. Cette annonce est valable pour la v3. Les plugins dits premium sont payants, par exemple l'accès à la biométrie, à la géoloclisation, le push notification, etc. Les plugins gratuits donnent accès au navigateur, à la caméro, aux fichiers, a</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/nativephp-mobile-est-maintenant-gratuit-39029</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 17 Feb 2026 15:23:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google I/O 2026 : rendez-vous les 19 et 20 mai</title>
-      <link>https://www.programmez.com/actualites/google-i/o-2026-rendez-vous-les-19-et-20-mai-39031</link>
-      <description>Google vient d'annoncer les dates de la Google I/O 2026. C'est la conférence développeur mondiale de l'éditeur. L'agenda n'est pas encore connu mais il s'annonce très dense et espérons que beaucoups de questions seront résoluées notamment sur le futur de ChromeOS et d'Android. Gemini sera naturellement un des sujets les plus importants. Et Google inscrit sa conférence entre la Microsoft Build et la WWDC d'Apple qui se tient en juin. Pour Goolge, il s'agit de pouvoir bénéficier d'une visibilité s</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/google-i/o-2026-rendez-vous-les-19-et-20-mai-39031</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/googleio2026.png?itok=xAT8unPu" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 06:58:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Visual Studio Code : alerte de sécurité sur plusieurs extensions</title>
-      <link>https://www.programmez.com/actualites/visual-studio-code-alerte-de-securite-sur-plusieurs-extensions-39032</link>
-      <description>Visual Studio Code subit une succession de vulnérabilités via des extensions parmi les plus populaires. Elles concernent Code Runner, Markdow Preview Enhanced ou encore Live Preview ! Ox Security, éditeur en sécurité, alerte sur les risques. Le problème est que ces extensions sont utilisés par des dizaines de millions de développeurs. Par exemple, la CVE-2025-65717 concerne Live Server. Un hacker peut récupérer des fichiers locaux en trompant le développeur par une fausse page web. La faille a é</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/visual-studio-code-alerte-de-securite-sur-plusieurs-extensions-39032</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 18 Feb 2026 07:16:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quantique : Comcast, Classiq et AMD testent un algorithme quantique pour les réseaux</title>
-      <link>https://www.programmez.com/actualites/quantique-comcast-classiq-et-amd-testent-un-algorithme-quantique-pour-les-reseaux-39033</link>
-      <description>Comcast, Classiq et AMD mènent des tests pour améliorer le trafic Internet en utilisant des algorithmes quantiques pour renforcer la résistance du routage réseau. "L’essai conjoint s’est concentré sur un défi clé de la conception des réseaux : identifier des chemins de secours indépendants pour les nœuds du réseau lors des opérations de maintenance ou de modifications. L’objectif était de garantir que, si un site est mis hors ligne et que soudainement, un deuxième tombe en panne, le trafic puiss</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/quantique-comcast-classiq-et-amd-testent-un-algorithme-quantique-pour-les-reseaux-39033</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/amdquantique.png.jpeg?itok=gy827Cfv" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 08:34:25 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 21 Feb 2026 07:18:56 +0000</lastBuildDate>
     <item>
       <title>Installer Laravel en 5 minutes avec php.new</title>
       <link>https://www.programmez.com/actualites/installer-laravel-en-5-minutes-avec-phpnew-39034</link>
@@ -88,6 +56,38 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/10-pratiques-de-codes-et-humaines-integrer-39039</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
       <pubDate>Fri, 20 Feb 2026 07:21:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>MySQL : tentative de relance à la FOSDEM, MariaDB peu convaincu, une lettre ouverte pour créer une fondation indépendante...</title>
+      <link>https://www.programmez.com/actualites/mysql-tentative-de-relance-la-fosdem-mariadb-peu-convaincu-une-lettre-ouverte-pour-creer-une-39040</link>
+      <description>Oracle avait profité de la FOSDEM 2026 pour mettre en avant MySQL avec un événement dédié "MySQL and friends". L'éditeur en profitait pour affimer que des fonctionnalités réservées aux versions payantes allaient bientôt rejoindre la version communautaire, notamment, les fonctions autour des vecteurs. Oracle parlait d'une nouvelle ère. Oracle cherchait à relancer les relations avec la communauté open source et rassurer sur l'avenir de mySQL. MariaDB a rapidement réagi : ""MariaDB a passé des anné</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/mysql-tentative-de-relance-la-fosdem-mariadb-peu-convaincu-une-lettre-ouverte-pour-creer-une-39040</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/capture_decran_2026-02-20_a_09.11.38.png?itok=eohBCzdg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 08:12:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>AsteroidOS 2.0 : nouvelles montres, optimisations</title>
+      <link>https://www.programmez.com/actualites/asteroidos-20-nouvelles-montres-optimisations-39041</link>
+      <description>AsteroidOS revient en version 2.0. Il s'agit d'une version majeure. Cette distribution Linux est dédiée aux montres connectés pour les rendre totalement indépendantes et redonner vie à des montres qui ne sont plus supportées par les constructeurs. AsteroidOS a été créé en 2015. Pour développer les apps, l'OS utilise Qt et QML. La v2 permet d'assurer l'affichage constant sur plus de montres, proposer un nouveau launcher, des paramètres personnalisables, de meilleures performances, une synchronisa</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/asteroidos-20-nouvelles-montres-optimisations-39041</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/asteroidos.jpg?itok=m-YV46KK" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 09:19:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Electrobun : une nouvelle solution pour développer des apps desktop en TypeScript</title>
+      <link>https://www.programmez.com/actualites/electrobun-une-nouvelle-solution-pour-developper-des-apps-desktop-en-typescript-39042</link>
+      <description>Electrobun est une nouvelle solution pour développer des apps desktops en TypeScript. Il se veut léger, rapide et basé sur Zig et Bun. Il permet un binding écrit en C++, Zig, le backend est assuré par Bun, et il est multiplateforme (macOS, Windows et Linux). Il a l'ambition de créer des binaires les plus petits possibles, un temps de démarrage très bas et 100 % natif pour l'interface. Electrobun se veut une meilleure réponse qu'Electron. On écrit le coeur de l'application en TypeScript avec des</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/electrobun-une-nouvelle-solution-pour-developper-des-apps-desktop-en-typescript-39042</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/electrobun.png?itok=qysFakyU" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 14:34:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>WordPress 7.0 arrive en bêta 1</title>
+      <link>https://www.programmez.com/actualites/wordpress-70-arrive-en-beta-1-39043</link>
+      <description>Une des orientations majeures de la v7 est d’améliorer la flexibilité de création afin de mieux personnaliser les projets. Cela passe notamment par l’intégration de vidéos directement dans le bloc Cover, une grille responsive, de nouvelles icônes, une gestion simplifiée des menus et une meilleure prise en charge des polices à travers les thèmes.La v7 introduit également une nouvelle API dédiée à l’intelligence artificielle et intègre l’IA à l’ensemble de l’environnement. Cette version vise aussi</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/wordpress-70-arrive-en-beta-1-39043</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Fri, 20 Feb 2026 17:08:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Feb 2026 07:01:15 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Feb 2026 06:48:16 +0000</lastBuildDate>
     <item>
-      <title>Linux 7.0 Speeds Up Reclaiming File-Backed Large Folios By 50~75%</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Faster-Large-Folios</link>
-      <description>Merged on Wednesday were some additional memory management "MM" updates for the Linux 7.0 merge window. Most interesting out of these latest three dozen patches is support for batched unmapping of file-backed large folios...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Faster-Large-Folios</guid>
-      <pubDate>Thu, 19 Feb 2026 11:15:51 +0000</pubDate>
+      <title>Mesa KosmicKrisp Driver Is Coming To iOS, More Performance &amp;amp; Vulkan 1.4 Expected</title>
+      <link>https://www.phoronix.com/news/KosmicKrisp-2026</link>
+      <description>Last year LunarG announced KosmicKrisp as a new Vulkan implementation atop Apple's Metal API. Initially targeting macOS, KosmicKrisp since was merged to Mesa and has evolved quite nicely as a modern implementation of Vulkan-on-Metal for Apple Silicon. It continues moving ahead with an eye for iOS, more performance optimizations, and completing Vulkan 1.4 support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/KosmicKrisp-2026</guid>
+      <pubDate>Fri, 20 Feb 2026 10:57:34 +0000</pubDate>
     </item>
     <item>
-      <title>Weston 15.0 Wayland Compositor Released With Vulkan Renderer, New Protocols</title>
-      <link>https://www.phoronix.com/news/Weston-15.0-Released</link>
-      <description>After delays, Weston 15.0 shipped this morning as the latest feature release to this reference Wayland compositor. Weston 15.0 comes in heavy on new features - including a Vulkan renderer in experimental form...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Weston-15.0-Released</guid>
-      <pubDate>Thu, 19 Feb 2026 11:23:00 +0000</pubDate>
+      <title>Cloud Hypervisor 51 Brings Performance Improvements, Better QCOW2 v3 Support</title>
+      <link>https://www.phoronix.com/news/Cloud-Hypervisor-51</link>
+      <description>Cloud Hypervisor 51 is now available for this Rust-based VMM focused on secure cloud computing. For what began as an Intel open-source project years ago is continuing to be largely led by Microsoft, Cyberus Tech, Tencent, Ant Group, and others...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Cloud-Hypervisor-51</guid>
+      <pubDate>Fri, 20 Feb 2026 11:06:05 +0000</pubDate>
     </item>
     <item>
-      <title>Mediatek MT7902 WiFi Finally Seeing Open-Source Linux Driver Activity</title>
-      <link>https://www.phoronix.com/news/Mediatek-MT7902-Linux-Patches</link>
-      <description>When searching for "MT7902" and "Linux" there is no shortage of users asking about Linux driver support for the Mediatek MT7902 WiFi chipset or users complaining about their MT7902 WiFi not working under Linux with that chipset found in numerous laptops in recent years. Fortunately, there is finally Linux driver support for the MT7902 surfacing for review on the Linux kernel mailing list...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mediatek-MT7902-Linux-Patches</guid>
-      <pubDate>Thu, 19 Feb 2026 14:03:48 +0000</pubDate>
+      <title>Ubuntu 26.04 Begins Its Feature Freeze</title>
+      <link>https://www.phoronix.com/news/Ubuntu-26.04-Feature-Freeze</link>
+      <description>Canonical engineer Utkarsh Gupta announced today on the behalf of the Ubuntu Release Team that the Ubuntu 26.04 "Resolute Raccoon" has entered its feature freeze...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-26.04-Feature-Freeze</guid>
+      <pubDate>Fri, 20 Feb 2026 11:20:39 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Announces hipThreads For Easier Porting Of C++ Code To GPUs</title>
-      <link>https://www.phoronix.com/news/AMD-HIP-Threads</link>
-      <description>The newest addition to AMD's ROCm/HIP portfolio is HIP Threads "hipThreads" as a C++ style concurrency library for AMD GPUs...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-HIP-Threads</guid>
-      <pubDate>Thu, 19 Feb 2026 15:10:02 +0000</pubDate>
+      <title>Linux 7.0 Brings Apple Type-C PHY, Snapdragon X2 &amp;amp; Rockchip HDMI 2.1 FRL Additions</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-PHY-Changes</link>
+      <description>Ahead of the Linux 7.0 merge window ending this weekend, the PHY updates were merged this week for this next major kernel release. There are some notable PHY additions particularly for Apple Silicon USB Type-C support as well as additions for Qualcomm's new Snapdragon X2 laptop SoCs...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-PHY-Changes</guid>
+      <pubDate>Fri, 20 Feb 2026 13:14:00 +0000</pubDate>
     </item>
     <item>
-      <title>Gigabyte MZ33-AR1: A Uniquely Positioned AMD EPYC 9005 Motherboard For Open-Source Firmware</title>
-      <link>https://www.phoronix.com/review/gigabyte-mz33-ar1</link>
-      <description>The Gigabyte MZ33-AR1 is a single socket AMD EPYC 9004/9005 E-ATX server motherboard for those wanting up to 24 RDIMMs, dual 10 Gigabit LAN, and plenty of storage potential via six MCIO connectors and four PCIe Gen5 x16 slots. Beyond offering nice capabilities for this modern AMD EPYC server motherboard at a ~$700 USD price point, it's uniquely positioned for an open-source firmware future thanks to ongoing work around AMD openSIL and hopefully followed by OpenBMC.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/gigabyte-mz33-ar1</guid>
-      <pubDate>Thu, 19 Feb 2026 15:14:11 +0000</pubDate>
+      <title>Linux Begins Seeing Early Preparations For PCIe 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-Early-PCIe-Gen-7-Prep</link>
+      <description>While we are on the horizon of seeing PCI Express 6.0 devices, there are already early Linux kernel patches beginning to surface for PCI Express 7.0...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Early-PCIe-Gen-7-Prep</guid>
+      <pubDate>Fri, 20 Feb 2026 13:56:20 +0000</pubDate>
     </item>
     <item>
-      <title>AI Helped Uncover A "50-80x Improvement" For Linux's IO_uring</title>
-      <link>https://www.phoronix.com/news/AI-50-80x-IO-uring</link>
-      <description>Linux block maintainer and IO_uring lead developer Jens Axboe recently was debugging some slowdowns in the AHCI/SCSI code with IO_uring usage. When turning to Claude AI to help in sorting through the issue, patches were devised that can deliver up to a "literally yield a 50-80x improvement on the io_uring side for idle systems." The code is on its way to QEMU...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AI-50-80x-IO-uring</guid>
-      <pubDate>Thu, 19 Feb 2026 16:42:00 +0000</pubDate>
+      <title>GNOME 50 Lands Updated Wayland Color Management v2 Support</title>
+      <link>https://www.phoronix.com/news/GNOME-50-Color-Management-v2</link>
+      <description>Following GNOME 50's Mutter merging sdr-native color mode support for wide color gamut displays this week, another late addition to Mutter has now been merged ahead of next month's GNOME 50 stable release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Color-Management-v2</guid>
+      <pubDate>Fri, 20 Feb 2026 14:21:22 +0000</pubDate>
     </item>
     <item>
-      <title>Turbostat With Linux 7.0 Can Report New L2 Cache Statistics</title>
-      <link>https://www.phoronix.com/news/Turbostat-Linux-7.0</link>
-      <description>The Turbostat command-line utility for reporting processor frequency and idle statistics along with other useful information for AMD and Intel CPUs can now report some L2 cache stats for recent Intel CPUs beginning with Linux 7.0...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Turbostat-Linux-7.0</guid>
-      <pubDate>Thu, 19 Feb 2026 18:24:39 +0000</pubDate>
+      <title>Linux 7.0 Shows Significant PostgreSQL Performance Gains On AMD EPYC</title>
+      <link>https://www.phoronix.com/review/linux-70-amd-epyc-turin</link>
+      <description>When beginning some early Linux 7.0 kernel benchmarking this week for looking at its performance in its early development state, I started off testing on Core Ultra X7 "Panther Lake" in being hopeful for better performance with the maturing Arc B390 Xe3 graphics and the like. But I ended up finding Intel Panther Lake seeing some performance regressions on Linux 7.0. So next up I turned to an AMD EPYC Turin server since if regressions existed there at least it's much faster to carry out bisecting</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/linux-70-amd-epyc-turin</guid>
+      <pubDate>Fri, 20 Feb 2026 15:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Vulkan Driver Lands One-Line Change That Can Bring Minor Performance Benefits</title>
-      <link>https://www.phoronix.com/news/Intel-ANV-BTI-Prefetch</link>
-      <description>Merged today to Mesa 26.1 Git is a one-line change to the Intel "ANV" Vulkan driver that is showing to deliver some slight performance benefits or up to 3% noted in some select games...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-ANV-BTI-Prefetch</guid>
-      <pubDate>Thu, 19 Feb 2026 20:04:00 +0000</pubDate>
+      <title>Drgn v0.1 Released For Very Versatile Programmable Debugger</title>
+      <link>https://www.phoronix.com/news/Drgn-0.1-Released</link>
+      <description>Drgn is the programmable debugger developed by Meta engineer Omar Sandoval that has proven quite versatile and popular with Linux kernel developers and others. After nearly two dozen releases already, Drgn v0.1 was released this week as another big step forward for this open-source debugger...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Drgn-0.1-Released</guid>
+      <pubDate>Fri, 20 Feb 2026 18:11:07 +0000</pubDate>
     </item>
     <item>
-      <title>Ubuntu 26.04 LTS Moving To OpenJDK 25 By Default</title>
-      <link>https://www.phoronix.com/news/Ubuntu-26.04-OpenJDK-25</link>
-      <description>It's not too surprising but the upcoming Ubuntu 26.04 Long Term Support release will be transitioning to OpenJDK 25 as its default Java version...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-26.04-OpenJDK-25</guid>
-      <pubDate>Thu, 19 Feb 2026 21:29:00 +0000</pubDate>
+      <title>Intel Hiring More Linux Developers - Including For GPU Drivers / Linux Gaming Stack</title>
+      <link>https://www.phoronix.com/news/Intel-Linux-Jobs-February-2026</link>
+      <description>As some good news out of Intel today on the Linux/open-source side following last year's layoffs, they're hiring for some new Linux software development roles -- including for enhancing their Linux graphics driver stack that also includes a focus on Linux gaming with the likes of Valve's Proton (Steam Play)...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Linux-Jobs-February-2026</guid>
+      <pubDate>Fri, 20 Feb 2026 18:49:07 +0000</pubDate>
     </item>
     <item>
-      <title>Vulkan 1.4.344 Released With New Extension From Valve</title>
-      <link>https://www.phoronix.com/news/Vulkan-1.4.344-Released</link>
-      <description>Vulkan 1.4.344 is out today as the latest routine spec update for this high performance graphics and compute API. Besides a handful of fixes and clarifications, Vulkan 1.4.344 brings a new extension courtesy of Valve engineers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Vulkan-1.4.344-Released</guid>
-      <pubDate>Fri, 20 Feb 2026 01:27:45 +0000</pubDate>
+      <title>KDE Plasma 6.7 Preps More Improvements While Plasma 6.6.1 Fixes Begin Accumulating</title>
+      <link>https://www.phoronix.com/news/Plasma-6.6-Released-This-Week</link>
+      <description>This week marked the release of KDE's Plasma 6.6 desktop as a very successful release that overall is in very robust shape and performing well. While Plasma 6.6 overall is in great shape, there are various bugs - including crash fixes - that have already been queued for the upcoming Plasma 6.6.1. KDE developers are also quite busy on the trek toward Plasma 6.7...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-Released-This-Week</guid>
+      <pubDate>Sat, 21 Feb 2026 01:18:17 +0000</pubDate>
     </item>
   </channel>
 </rss>

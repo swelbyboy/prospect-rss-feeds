@@ -8,23 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Feb 2026 07:16:38 +0000</lastBuildDate>
-    <item>
-      <title>Alibaba's Qwen 3.5 397B-A17 beats its larger trillion-parameter model — at a fraction of the cost</title>
-      <link>https://venturebeat.com/technology/alibabas-qwen-3-5-397b-a17-beats-its-larger-trillion-parameter-model-at-a</link>
-      <description>Alibaba dropped Qwen3.5 earlier this week, timed to coincide with the Lunar New Year, and the headline numbers alone are enough to make enterprise AI buyers stop and pay attention.The new flagship open-weight model — Qwen3.5-397B-A17B — packs 397 billion total parameters but activates only 17 billion per token. It is claiming benchmark wins against Alibaba's own previous flagship, Qwen3-Max, a model the company itself has acknowledged exceeded one trillion parameters. The release marks a meaning</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/alibabas-qwen-3-5-397b-a17-beats-its-larger-trillion-parameter-model-at-a</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7KLUCxdexYBxBe7M2ZwlYA/d4fa942fad8cccbccda18459bb6d406b/Gemini_Generated_Image_rmmft9rmmft9rmmf.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 18:44:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New agent framework matches human-engineered AI systems — and adds zero inference cost to deploy</title>
-      <link>https://venturebeat.com/orchestration/new-agent-framework-matches-human-engineered-ai-systems-and-adds-zero</link>
-      <description>Agents built on top of today's models often break with simple changes — a new library, a workflow modification — and require a human engineer to fix it. That's one of the most persistent challenges in deploying AI for the enterprise: creating agents that can adapt to dynamic environments without constant hand-holding. While today's models are powerful, they are largely static.To address this, researchers at the University of California, Santa Barbara have developed Group-Evolving Agents (GEA), a</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/new-agent-framework-matches-human-engineered-ai-systems-and-adds-zero</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2Izl318JbInekR2BSYLBaq/4eddc806d26f5ee7d3567dece9c185ce/Self-evolving_agents.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 22:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 21 Feb 2026 07:03:44 +0000</lastBuildDate>
     <item>
       <title>The 'last-mile' data problem is stalling enterprise agentic AI — 'golden pipelines' aim to fix it</title>
       <link>https://venturebeat.com/data/the-last-mile-data-problem-is-stalling-enterprise-agentic-ai-golden</link>
@@ -64,6 +48,22 @@
       <guid isPermaLink="false">https://venturebeat.com/technology/google-gemini-3-1-pro-first-impressions-a-deep-think-mini-with-adjustable</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3QN1ZUexlvrsauz6g2NrrK/42bc7a43c49aab36315e98993de78af1/ClKBtgX7u8IrQZI9CACCZ.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Thu, 19 Feb 2026 22:26:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Copilot ignored sensitivity labels twice in eight months — and no DLP stack caught either one</title>
+      <link>https://venturebeat.com/security/microsoft-copilot-ignoring-sensitivity-labels-dlp-cant-stop-ai-trust-failures</link>
+      <description>For four weeks starting January 21, Microsoft's Copilot read and summarized confidential emails despite every sensitivity label and DLP policy telling it not to. The enforcement points broke inside Microsoft’s own pipeline, and no security tool in the stack flagged it. Among the affected organizations was the U.K.'s National Health Service, which logged it as INC46740412 — a signal of how far the failure reached into regulated healthcare environments. Microsoft tracked it as CW1226324. The advis</description>
+      <guid isPermaLink="false">https://venturebeat.com/security/microsoft-copilot-ignoring-sensitivity-labels-dlp-cant-stop-ai-trust-failures</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6eWUiMSKOjSVNlbiteomeO/364f5c111de56d69d252a9ccc911923f/copilot_hero.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Runlayer is now offering secure OpenClaw agentic capabilities for large enterprises</title>
+      <link>https://venturebeat.com/orchestration/runlayer-is-now-offering-secure-openclaw-agentic-capabilities-for-large</link>
+      <description>OpenClaw, the open source AI agent that excels at autonomous tasks on computers and which users can communicate with through popular messaging apps, has undoubtedly become a phenomena since its launch in November 2025, and especially in the last few months.Lured by the promise of greater business automation, solopreneurs and employees of large enterprises are increasingly installing it on their work machines — despite a number of documented security risks.Now, as a result IT and security departm</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/runlayer-is-now-offering-secure-openclaw-agentic-capabilities-for-large</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4LaBwVfbgT5gHWyOlEQ4l3/74b270a54e64ce21a60d24a482d5ab22/I1q8RN879yqG8ZDyBQvtU_OPi2ULia.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Feb 2026 22:05:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
