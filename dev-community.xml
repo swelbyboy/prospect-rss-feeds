@@ -8,78 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Feb 2026 06:48:06 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Feb 2026 06:53:25 +0000</lastBuildDate>
     <item>
-      <title>Designing a Highly Available Web Application on AWS (Production-Grade Guide)</title>
-      <link>https://dev.to/abhishekjaiswal_4896/designing-a-highly-available-web-application-on-aws-production-grade-guide-5ejb</link>
-      <description>High availability (HA) is not a checkbox — it’s a design philosophy. Most tutorials show you how to launch two EC2 instances behind a load balancer and call it “highly available.” But real-world availability involves failure domains, DNS strategy, health checks, data consistency, deployment patterns, observability, and cost trade-offs. In this guide, I’ll walk you through how to design a production-grade, highly available web application on AWS, covering the architectural decisions most tutorial</description>
-      <guid isPermaLink="false">https://dev.to/abhishekjaiswal_4896/designing-a-highly-available-web-application-on-aws-production-grade-guide-5ejb</guid>
-      <pubDate>Sat, 21 Feb 2026 05:56:32 +0000</pubDate>
+      <title>I Built a Cart Recovery System That Saved My Client $127K in 6 Months</title>
+      <link>https://dev.to/shajalal/i-built-a-cart-recovery-system-that-saved-my-client-127k-in-6-months-klo</link>
+      <description>I Built a Cart Recovery System That Saved My Client $127K in 6 Months (Here's the Tech Stack) TL;DR: Frustrated by 70% cart abandonment on an eCommerce project, I built CartResQ - an AI-powered recovery system. It now recovers 35-40% of abandoned carts automatically. Here's how I built it, the tech decisions that mattered, and the code that drives it. The Problem That Kept Me Up at Night Picture this: You're running an online store, getting decent traffic, but 7 out of 10 people who add items to</description>
+      <guid isPermaLink="false">https://dev.to/shajalal/i-built-a-cart-recovery-system-that-saved-my-client-127k-in-6-months-klo</guid>
+      <pubDate>Sun, 22 Feb 2026 06:04:36 +0000</pubDate>
     </item>
     <item>
-      <title>I built a small CLI tool to convert relative imports to absolute imports during a large refactoring</title>
-      <link>https://dev.to/sami_jneidy_0d941643118b5/i-built-a-small-cli-tool-to-convert-relative-imports-to-absolute-imports-during-a-large-refactoring-1i4a</link>
-      <description>While refactoring a large Python project, I ran into an issue — the project had a lot of deeply nested relative imports (from ..module import x). The team decided to standardize everything to absolute imports, and here was the issue: manually updating them was very tedious, especially across many levels of relative imports. So I wrote a small CLI tool that converts relative imports to absolute ones. The tool: Traverses the project directory Detects relative imports of type (from ..A import B) Co</description>
-      <guid isPermaLink="false">https://dev.to/sami_jneidy_0d941643118b5/i-built-a-small-cli-tool-to-convert-relative-imports-to-absolute-imports-during-a-large-refactoring-1i4a</guid>
-      <pubDate>Sat, 21 Feb 2026 05:57:16 +0000</pubDate>
+      <title>Unit testing ESP-IDF components with GoogleTest (host-based)</title>
+      <link>https://dev.to/aluiziotomazelli/unit-testing-esp-idf-components-with-googletest-host-based-1c16</link>
+      <description>I had been looking for a way to test ESP-IDF component logic without flashing to the board every time. The cycle of edit, flash, read serial gets old fast, especially when the bug is just in a calculation or a state machine — nothing hardware-specific. ESP-IDF supports building for a Linux target, which means you can run tests straight on your machine. I put together a repo to document how I set this up, using GoogleTest as the test framework. This post covers the first example: aluiziotomazelli</description>
+      <guid isPermaLink="false">https://dev.to/aluiziotomazelli/unit-testing-esp-idf-components-with-googletest-host-based-1c16</guid>
+      <enclosure url="https://github.com/aluiziotomazelli/gtest-esp-idf/actions/workflows/01_build_esp32.yml/badge.svg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 22 Feb 2026 06:05:27 +0000</pubDate>
     </item>
     <item>
-      <title>How a Silent API Update Broke Our Billing (And How to Prevent It)</title>
-      <link>https://dev.to/malikad778/how-a-silent-api-update-broke-our-billing-and-how-to-prevent-it-31ob</link>
-      <description>It was 11 PM on a Friday when the alerts started. Orders were failing. By the time I opened my laptop, 23 customers had seen an error screen and abandoned their carts. I spent two hours blaming our own code. I checked every recent deployment and rolled back twice. Nothing had changed on our end. Then I looked at the raw API response from Stripe. A field we had relied on for eight months was just gone. No announcement. No deprecation warning. No 500 error. The response came back as 200 OK with a</description>
-      <guid isPermaLink="false">https://dev.to/malikad778/how-a-silent-api-update-broke-our-billing-and-how-to-prevent-it-31ob</guid>
-      <pubDate>Sat, 21 Feb 2026 06:01:47 +0000</pubDate>
+      <title>I replaced the `man` command with a Python TUI — and it's actually useful</title>
+      <link>https://dev.to/yash_ambaskar_c13cc5c5f10/i-replaced-the-man-command-with-a-python-tui-and-its-actually-useful-1h7h</link>
+      <description>We've all been there. You're deep in a terminal session, you forget a flag, so you type man grep — and you're greeted by this: GREP(1) General Commands Manual GREP(1) NAME grep, egrep, fgrep, rgrep - print lines that match patterns ... A wall of monospaced text. No color. No structure. No examples surfaced upfront. So I built SmartMan CLI — a drop-in, interactive replacement for man that actually respects your eyes and your time. What it looks like What it does differently Feature man smartman S</description>
+      <guid isPermaLink="false">https://dev.to/yash_ambaskar_c13cc5c5f10/i-replaced-the-man-command-with-a-python-tui-and-its-actually-useful-1h7h</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxsw0a2fk6dzyeuco70fe.gif" length="0" type="image/gif"/>
+      <pubDate>Sun, 22 Feb 2026 06:07:48 +0000</pubDate>
     </item>
     <item>
-      <title>Scaling PostgreSQL without Microservices: Lessons from Notion’s 480 Shards</title>
-      <link>https://dev.to/souvick_20/scaling-postgresql-without-microservices-lessons-from-notions-480-shards-32id</link>
-      <description>I’ve been using Notion to manage my projects for a long time—it’s a faithful friend in my workflow. Recently, while studying database scaling, a thought hit me: How does the "manager" manage itself? With millions of users reading and writing data every second, the infrastructure behind the scenes must be immense. I decided to dive deep into their architecture, and here is what I learned about the scaling strategy that keeps Notion running. 📝 TL;DR: Scaling Notion’s Monolith I spent the last few</description>
-      <guid isPermaLink="false">https://dev.to/souvick_20/scaling-postgresql-without-microservices-lessons-from-notions-480-shards-32id</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fpklkabrwn12k0tmvhlc2.png" length="0" type="image/png"/>
-      <pubDate>Sat, 21 Feb 2026 06:03:51 +0000</pubDate>
+      <title>Why MQTT Last Will Testament Isn't Enough for Production IoT (And What We Built Instead)</title>
+      <link>https://dev.to/anil_saithana/why-mqtt-last-will-testament-isnt-enough-for-production-iot-and-what-we-built-instead-44cj</link>
+      <description>Why MQTT Last Will Testament Isn't Enough for Production IoT (And What We Built Instead) I spent 7 years building cloud backends — but when I tried connecting real hardware (ESP32s in my home), I hit a wall: "My device shows 'connected' in AWS IoT Core... but hasn't reported data in 4 hours. Is it hung? Dead? Or just offline?" Turns out: MQTT's Last Will Testament (LWT) lies to you. The Lie: "Connected" ≠ Alive LWT triggers only on TCP disconnect. But real devices fail silently: WiFi drops but T</description>
+      <guid isPermaLink="false">https://dev.to/anil_saithana/why-mqtt-last-will-testament-isnt-enough-for-production-iot-and-what-we-built-instead-44cj</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnpxaarp3cc95oqdix30m.png" length="0" type="image/png"/>
+      <pubDate>Sun, 22 Feb 2026 06:10:54 +0000</pubDate>
     </item>
     <item>
-      <title>AI Agents Are Making Decisions Nobody Can Audit</title>
-      <link>https://dev.to/nostalgicskinco/ai-agents-are-making-decisions-nobody-can-audit-2gpn</link>
-      <description>Last month, a developer posted on Reddit about an AI agent that got stuck in a loop and fired off 50,000 API requests before anyone noticed. Production was down. The bill was ugly. And the worst part? Nobody could tell exactly what the agent had been doing or why. This isn't an edge case anymore. It's Tuesday. The problem nobody wants to talk about AI agents are everywhere now. They're calling APIs, querying databases, executing code, and in some cases, spending real money — all autonomously. Th</description>
-      <guid isPermaLink="false">https://dev.to/nostalgicskinco/ai-agents-are-making-decisions-nobody-can-audit-2gpn</guid>
-      <pubDate>Sat, 21 Feb 2026 06:08:04 +0000</pubDate>
+      <title>ERC-8128: Your Ethereum Wallet Might Soon Be Your Only Login.</title>
+      <link>https://dev.to/caffinecoder54/erc-8128-your-ethereum-wallet-might-soon-be-your-only-loginpublished-18fb</link>
+      <description>Let me start with something that's been bugging me for years. I work with APIs constantly. And every time I spin up a new project that touches any kind of Web3 functionality, I end up doing this awkward dance — my users authenticate on-chain with their wallets, and then I also have to issue them a JWT or an API key to handle the off-chain stuff. Two separate identity systems. Two separate trust models. Two separate things that can break. It feels wrong. And apparently, I'm not the only one who t</description>
+      <guid isPermaLink="false">https://dev.to/caffinecoder54/erc-8128-your-ethereum-wallet-might-soon-be-your-only-loginpublished-18fb</guid>
+      <pubDate>Sun, 22 Feb 2026 06:11:23 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code Lost My 4-Hour Session. Here's the $0 Fix That Actually Works</title>
-      <link>https://dev.to/gonewx/claude-code-lost-my-4-hour-session-heres-the-0-fix-that-actually-works-24h6</link>
-      <description>It Happened on a Friday Afternoon Four hours into a complex auth refactor. State machines, edge cases, all the subtle context Claude and I had built up together. Then: compaction. Claude's response came back generic. It had forgotten the architecture decisions we'd made. The nuanced understanding of why we'd structured things a certain way — gone. I spent 45 minutes trying to rebuild the context. It never fully came back. If you use Claude Code regularly, this has probably happened to you. Why C</description>
-      <guid isPermaLink="false">https://dev.to/gonewx/claude-code-lost-my-4-hour-session-heres-the-0-fix-that-actually-works-24h6</guid>
-      <pubDate>Sat, 21 Feb 2026 06:13:30 +0000</pubDate>
+      <title>Announcing pytest-gremlins v1.3.0</title>
+      <link>https://dev.to/mikelane/announcing-pytest-gremlins-v130-53ka</link>
+      <description>Mutation Testing That Actually Fits Into Your Workflow Mutation testing tools (mutmut, Cosmic Ray, MutPy) exist, but most teams don't use them in practice. The bottleneck is runtime: waiting 20 minutes per mutation run makes the feedback loop too long to fit inside a normal TDD cycle. pytest-gremlins v1.3.0 ships today with UX fixes and correctness patches that were blocking production workflows. What Is pytest-gremlins? pytest-gremlins is a mutation testing plugin for pytest. It injects small c</description>
+      <guid isPermaLink="false">https://dev.to/mikelane/announcing-pytest-gremlins-v130-53ka</guid>
+      <pubDate>Sun, 22 Feb 2026 06:21:46 +0000</pubDate>
     </item>
     <item>
-      <title>Devlog: 2026-02-04</title>
-      <link>https://dev.to/victorstackai/devlog-2026-02-04-4ac3</link>
-      <description>import Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem'; The Hook I shipped a focused devlog pipeline update that turns my reading queue into concrete build decisions for the week. Why I Built It My days were getting noisy: too many good posts, not enough synthesis. I wanted a lightweight path from "interesting idea" to "actionable build," and a way to record it so I can see patterns over time. The Solution I wired a simple flow that separates signal capture, decision pressure, and</description>
-      <guid isPermaLink="false">https://dev.to/victorstackai/devlog-2026-02-04-4ac3</guid>
-      <pubDate>Sat, 21 Feb 2026 06:14:20 +0000</pubDate>
+      <title>What Is a Variable: A Box or a Label?</title>
+      <link>https://dev.to/oyinade_olawoyin_aaaa6272/what-is-a-variable-a-box-or-a-label-oob</link>
+      <description>Series: Programming Concepts in Plain English Part 1: Learning Programming Alone: From Panic Loops to Mental Pictures When I first started learning programming, someone asked me a question I never forgot: "What is the difference between a variable and a string?" At that time I didn't even fully understand what a variable was. But the question was really testing whether I understood the concept of a variable. That moment forced me to rethink everything I assumed. Most beginners imagine a variable</description>
+      <guid isPermaLink="false">https://dev.to/oyinade_olawoyin_aaaa6272/what-is-a-variable-a-box-or-a-label-oob</guid>
+      <pubDate>Sun, 22 Feb 2026 06:27:22 +0000</pubDate>
     </item>
     <item>
-      <title>Terminal Operations in Java Streams</title>
-      <link>https://dev.to/priyankbhardwaj1199/terminal-operations-in-java-streams-2g83</link>
-      <description>Hi Everyone reading, In the previous article, we explored Intermediate Operations in Java Streams — how they transform and prepare data. Now it’s time to understand the final and most important step of stream processing: Without a terminal operation, a stream does nothing. Let’s understand why. What are Terminal Operations? Terminal operations: Produce a result. Trigger execution of intermediate operations. Close the stream after execution. Cannot be reused once executed. Example List&amp;lt;Integer&amp;gt; l</description>
-      <guid isPermaLink="false">https://dev.to/priyankbhardwaj1199/terminal-operations-in-java-streams-2g83</guid>
-      <pubDate>Sat, 21 Feb 2026 06:18:19 +0000</pubDate>
+      <title>How to Build a Simple Persistent Memory Layer for LLM Apps (With Code)</title>
+      <link>https://dev.to/cloyouai/how-to-build-a-simple-persistent-memory-layer-for-llm-apps-with-code-1dgf</link>
+      <description>Most LLM-powered apps feel impressive for five minutes. Then they forget everything. You ask a chatbot something. It responds intelligently. You close the tab, come back later, and it behaves like you’ve never met. That’s not a model problem. That’s an architecture problem. In this article, we’ll build a simple persistent memory layer for an LLM app using: Python OpenAI embeddings A lightweight vector store (FAISS) Basic retrieval logic By the end, you’ll understand how to move from “stateless p</description>
+      <guid isPermaLink="false">https://dev.to/cloyouai/how-to-build-a-simple-persistent-memory-layer-for-llm-apps-with-code-1dgf</guid>
+      <pubDate>Sun, 22 Feb 2026 06:39:59 +0000</pubDate>
     </item>
     <item>
-      <title>9+ Best Free Shadcn Date Picker Components for React and Next.js in 2026</title>
-      <link>https://dev.to/wrap-pixel/shadcn-date-picker-38dh</link>
-      <description>Most modern apps require date pickers - from SaaS dashboards and booking systems to analytics filters and admin panels. We tested and reviewed 9 free Shadcn date picker components from real repositories and component libraries. This list focuses on real developer needs, such as timezone handling, date ranges, form integration, and production readiness. This guide is based on actual component code, GitHub activity, TypeScript support, and integration with React and Next.js. How We Tested These Co</description>
-      <guid isPermaLink="false">https://dev.to/wrap-pixel/shadcn-date-picker-38dh</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fwpblog.shadcnspace.com%2Fwp-content%2Fuploads%2F2026%2F02%2Fshadcnspace746x430.webp" length="0" type="image/webp"/>
-      <pubDate>Sat, 21 Feb 2026 06:20:33 +0000</pubDate>
+      <title>Why AI Text Gets Detected - The Linguistics Behind It</title>
+      <link>https://dev.to/gofortool/why-ai-text-gets-detected-the-linguistics-behind-it-4019</link>
+      <description>I've been building an AI text humanizer and spent weeks studying how AI detection actually works. The results surprised me - it's not about grammar, vocabulary, or even factual accuracy. It's about statistical patterns that humans produce naturally but language models don't. Here's what I found. The Three Metrics That Matter AI detectors primarily measure three properties: 1. Perplexity Perplexity measures how predictable the next word is given the previous context. Lower perplexity = more predi</description>
+      <guid isPermaLink="false">https://dev.to/gofortool/why-ai-text-gets-detected-the-linguistics-behind-it-4019</guid>
+      <pubDate>Sun, 22 Feb 2026 06:42:22 +0000</pubDate>
     </item>
     <item>
-      <title>From 10-Minute Blocking APIs to Async Pipelines: A Production Backend Redesign</title>
-      <link>https://dev.to/phantom_adnan/from-10-minute-blocking-apis-to-async-pipelines-a-production-backend-redesign-114c</link>
-      <description>When I took over a transaction ingestion system running in production, one of the first things I noticed was the time it took to process CSV uploads. Users regularly uploaded files averaging around 50,000 rows, with some reaching over 600,000. The upload API handled everything synchronously: parsing the file, inserting rows into Cassandra, fetching historical prices from an external service per transaction, performing reconciliation, calculating balances and tax metrics, and only then returning</description>
-      <guid isPermaLink="false">https://dev.to/phantom_adnan/from-10-minute-blocking-apis-to-async-pipelines-a-production-backend-redesign-114c</guid>
-      <pubDate>Sat, 21 Feb 2026 06:35:31 +0000</pubDate>
+      <title>I Dug Up My 10-Year-Old Android App, Dusted It Off With AI, and Put It Back on the Play Store</title>
+      <link>https://dev.to/akarshan/i-dug-up-my-10-year-old-android-app-dusted-it-off-with-ai-and-put-it-back-on-the-play-store-4a3c</link>
+      <description>Last week I did something I didn't expect to enjoy as much as I did — I resurrected a side project I hadn't touched in a decade. Meet Drivelert: an anti-drowsiness app I built ages ago to help drivers stay alert on long trips. The Play Store had quietly pulled it down due to ancient target SDK, zero maintenance, the usual graveyard story. I'd moved on. The app hadn't. Then, for reasons I can't fully explain (nostalgia? a slow weekend? some stubborn refusal to let past-me's work die?), I decided</description>
+      <guid isPermaLink="false">https://dev.to/akarshan/i-dug-up-my-10-year-old-android-app-dusted-it-off-with-ai-and-put-it-back-on-the-play-store-4a3c</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fl2f75kytgn8vdsqcwtz4.png" length="0" type="image/png"/>
+      <pubDate>Sun, 22 Feb 2026 06:44:45 +0000</pubDate>
     </item>
   </channel>
 </rss>
