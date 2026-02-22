@@ -8,56 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Feb 2026 06:48:16 +0000</lastBuildDate>
-    <item>
-      <title>Mesa KosmicKrisp Driver Is Coming To iOS, More Performance &amp;amp; Vulkan 1.4 Expected</title>
-      <link>https://www.phoronix.com/news/KosmicKrisp-2026</link>
-      <description>Last year LunarG announced KosmicKrisp as a new Vulkan implementation atop Apple's Metal API. Initially targeting macOS, KosmicKrisp since was merged to Mesa and has evolved quite nicely as a modern implementation of Vulkan-on-Metal for Apple Silicon. It continues moving ahead with an eye for iOS, more performance optimizations, and completing Vulkan 1.4 support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/KosmicKrisp-2026</guid>
-      <pubDate>Fri, 20 Feb 2026 10:57:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cloud Hypervisor 51 Brings Performance Improvements, Better QCOW2 v3 Support</title>
-      <link>https://www.phoronix.com/news/Cloud-Hypervisor-51</link>
-      <description>Cloud Hypervisor 51 is now available for this Rust-based VMM focused on secure cloud computing. For what began as an Intel open-source project years ago is continuing to be largely led by Microsoft, Cyberus Tech, Tencent, Ant Group, and others...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Cloud-Hypervisor-51</guid>
-      <pubDate>Fri, 20 Feb 2026 11:06:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ubuntu 26.04 Begins Its Feature Freeze</title>
-      <link>https://www.phoronix.com/news/Ubuntu-26.04-Feature-Freeze</link>
-      <description>Canonical engineer Utkarsh Gupta announced today on the behalf of the Ubuntu Release Team that the Ubuntu 26.04 "Resolute Raccoon" has entered its feature freeze...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-26.04-Feature-Freeze</guid>
-      <pubDate>Fri, 20 Feb 2026 11:20:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 7.0 Brings Apple Type-C PHY, Snapdragon X2 &amp;amp; Rockchip HDMI 2.1 FRL Additions</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-PHY-Changes</link>
-      <description>Ahead of the Linux 7.0 merge window ending this weekend, the PHY updates were merged this week for this next major kernel release. There are some notable PHY additions particularly for Apple Silicon USB Type-C support as well as additions for Qualcomm's new Snapdragon X2 laptop SoCs...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-PHY-Changes</guid>
-      <pubDate>Fri, 20 Feb 2026 13:14:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux Begins Seeing Early Preparations For PCIe 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-Early-PCIe-Gen-7-Prep</link>
-      <description>While we are on the horizon of seeing PCI Express 6.0 devices, there are already early Linux kernel patches beginning to surface for PCI Express 7.0...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Early-PCIe-Gen-7-Prep</guid>
-      <pubDate>Fri, 20 Feb 2026 13:56:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNOME 50 Lands Updated Wayland Color Management v2 Support</title>
-      <link>https://www.phoronix.com/news/GNOME-50-Color-Management-v2</link>
-      <description>Following GNOME 50's Mutter merging sdr-native color mode support for wide color gamut displays this week, another late addition to Mutter has now been merged ahead of next month's GNOME 50 stable release...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Color-Management-v2</guid>
-      <pubDate>Fri, 20 Feb 2026 14:21:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 7.0 Shows Significant PostgreSQL Performance Gains On AMD EPYC</title>
-      <link>https://www.phoronix.com/review/linux-70-amd-epyc-turin</link>
-      <description>When beginning some early Linux 7.0 kernel benchmarking this week for looking at its performance in its early development state, I started off testing on Core Ultra X7 "Panther Lake" in being hopeful for better performance with the maturing Arc B390 Xe3 graphics and the like. But I ended up finding Intel Panther Lake seeing some performance regressions on Linux 7.0. So next up I turned to an AMD EPYC Turin server since if regressions existed there at least it's much faster to carry out bisecting</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/linux-70-amd-epyc-turin</guid>
-      <pubDate>Fri, 20 Feb 2026 15:30:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 22 Feb 2026 06:53:36 +0000</lastBuildDate>
     <item>
       <title>Drgn v0.1 Released For Very Versatile Programmable Debugger</title>
       <link>https://www.phoronix.com/news/Drgn-0.1-Released</link>
@@ -78,6 +29,55 @@
       <description>This week marked the release of KDE's Plasma 6.6 desktop as a very successful release that overall is in very robust shape and performing well. While Plasma 6.6 overall is in great shape, there are various bugs - including crash fixes - that have already been queued for the upcoming Plasma 6.6.1. KDE developers are also quite busy on the trek toward Plasma 6.7...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-Released-This-Week</guid>
       <pubDate>Sat, 21 Feb 2026 01:18:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ceph In Linux 7.0 Lands Support For AES256K Keys</title>
+      <link>https://www.phoronix.com/news/Ceph-Linux-7.0</link>
+      <description>For those making use of the Ceph open-source, distributed storage platform, with the upcoming Linux 7.0 kernel they are introducing support for the AES256K key type...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ceph-Linux-7.0</guid>
+      <pubDate>Sat, 21 Feb 2026 10:32:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>AMD AOMP 23.0-0 Compiler Continues Enhancing Fortran Support</title>
+      <link>https://www.phoronix.com/news/AMD-AOMP-23.0-0</link>
+      <description>AMD AOMP 23.0-0 was released overnight as the latest build of this LLVM/Clang downstream that continues to carry the very latest AMD patches focused on delivering the best support for GPU offloading to Radeon/Instinct hardware with the likes of the OpenMP and OpenACC APIs. AOMP continues to serve as a great leading-edge compiler for the best AMD GPU offloading experience until the patches ultimately work their way into upstream LLVM...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-AOMP-23.0-0</guid>
+      <pubDate>Sat, 21 Feb 2026 10:55:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0 Lands More AMDGPU Fixes For Old Radeon Hardware</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Old-AMDGPU-Fixes</link>
+      <description>Following last week's main set of DRM kernel graphics driver feature updates for Linux 7.0, merged on Friday to Linux 7.0 Git was the first round of fixes to these Direct Rendering Manager drivers. Dominating most of the code changes in this latest pull were AMDGPU fixes, including more enhancements for aging Radeon graphics processors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Old-AMDGPU-Fixes</guid>
+      <pubDate>Sat, 21 Feb 2026 11:10:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ollama 0.17 Released With Improved OpenClaw Onboarding</title>
+      <link>https://www.phoronix.com/news/ollama-0.17</link>
+      <description>The open-source ollama project that makes it easy to get up and running with a variety of LLMs under Windows, macOS, and Linux is out with a new release. The ollama v0.17.0 release is driven by new functionality around enhancing the OpenClaw onboarding process...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ollama-0.17</guid>
+      <pubDate>Sat, 21 Feb 2026 11:30:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>eCryptfs Sees Renewed Patch Activity With Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-eCryptfs</link>
+      <description>We haven't heard much about eCryptfs in recent years for that stackable in-tree Linux file-system providing per-directory encryption support. The FSCRYPT framework has shown its strong capabilities in recent years with various file-systems, Canonical hasn't been pursuing its user home directory encryption like it did years ago for the Ubuntu desktop, and full disk encryption is the most secure approach for ensuring data security on your system. But to some surprise with Linux 7.0 there are the m</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-eCryptfs</guid>
+      <pubDate>Sat, 21 Feb 2026 12:25:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>AppArmor Enhancements Merged For Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-AppArmor</link>
+      <description>The AppArmour security module for the Linux kernel, which most notably is backed by Canonical for Ubuntu, has some small improvements and fixes for Linux 7.0...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-AppArmor</guid>
+      <pubDate>Sat, 21 Feb 2026 17:21:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0 Makes Preparations For Rust 1.95</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Rust-1.95-Prep</link>
+      <description>Last week was the main feature pull of Rust programming language updates for the Linux 7.0 kernel merge window. Most notable with that pull was Rust officially concluding its "experimental" in now treating Rust for Linux kernel/driver programming as stable and here to stay. Sent out today was a round of Rust fixes for Linux 7.0 that includes preparations for the upcoming Rust 1.95 release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Rust-1.95-Prep</guid>
+      <pubDate>Sun, 22 Feb 2026 01:16:56 +0000</pubDate>
     </item>
   </channel>
 </rss>
