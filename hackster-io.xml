@@ -8,47 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Feb 2026 07:11:36 +0000</lastBuildDate>
-    <item>
-      <title>OpenMV(Unofficial/Partial Port) Arduino Esp32</title>
-      <link>https://www.hackster.io/ruvic101/openmv-unofficial-partial-port-arduino-esp32-3df6b5</link>
-      <description>Implementing OpenMV on a ESP32 Hardware</description>
-      <guid isPermaLink="false">https://www.hackster.io/ruvic101/openmv-unofficial-partial-port-arduino-esp32-3df6b5</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1931437/_VuwnoDtvOI.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 21 Feb 2026 00:55:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Arduino Mega Ultrasonic Distance Monitor with OLED</title>
-      <link>https://www.hackster.io/zairobotics/arduino-mega-ultrasonic-distance-monitor-with-oled-365215</link>
-      <description>This project uses an ultrasonic sensor to detect distance and display it on an OLED Display with an Arduino Mega microcontroller.</description>
-      <guid isPermaLink="false">https://www.hackster.io/zairobotics/arduino-mega-ultrasonic-distance-monitor-with-oled-365215</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1931456/_5sgTtnAUOP.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 13 Feb 2026 04:18:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>SDR Panadapter for Vintage Tube Radios – Step-by-Step Tutor</title>
-      <link>https://www.hackster.io/mircemk/sdr-panadapter-for-vintage-tube-radios-step-by-step-tutor-bb4e11</link>
-      <description>By combining a vintage radio's sensitive front-end with modern SDR technology, I created a powerful hybrid receiver that offers both the no</description>
-      <guid isPermaLink="false">https://www.hackster.io/mircemk/sdr-panadapter-for-vintage-tube-radios-step-by-step-tutor-bb4e11</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1930965/_qPXl8ZVcY1.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 07:32:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>LGDXRobot2: Build a ROS 2 Robot with Decent Performance</title>
-      <link>https://www.hackster.io/lgdxrobotics/lgdxrobot2-build-a-ros-2-robot-with-decent-performance-e082fe</link>
-      <description>An open-source, ROS 2–based DIY Mecanum-wheel mobile robot designed to inspire your enthusiasm for robotics.</description>
-      <guid isPermaLink="false">https://www.hackster.io/lgdxrobotics/lgdxrobot2-build-a-ros-2-robot-with-decent-performance-e082fe</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1931511/_vSVAixjJnp.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 21 Feb 2026 16:13:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Retro-Go S3-nano</title>
-      <link>https://www.hackster.io/nod3011/retro-go-s3-nano-e246e1</link>
-      <description>After finishing my RP2350 Gameboy project, I wanted to build a Retro-Go device, so I adapted my previous design instead of making a PCB.</description>
-      <guid isPermaLink="false">https://www.hackster.io/nod3011/retro-go-s3-nano-e246e1</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1931529/_EuaVqWbWex.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 21 Feb 2026 19:35:43 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 23 Feb 2026 07:22:05 +0000</lastBuildDate>
     <item>
       <title>Cardputer Game Station</title>
       <link>https://www.hackster.io/geo-tp/cardputer-game-station-a4506b</link>
@@ -88,6 +48,46 @@
       <guid isPermaLink="false">https://www.hackster.io/emily14/cisco-nexus-1000v-license-overview-and-features-guide-7d1ab5</guid>
       <enclosure url="https://hackster.imgix.net/uploads/attachments/1931659/_8UqjBcHpNS.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
       <pubDate>Sun, 22 Feb 2026 05:26:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenHamClock Kiosk</title>
+      <link>https://www.hackster.io/dilshan-jayakody/openhamclock-kiosk-43ebaf</link>
+      <description>Running OpenHamClock in a dedicated kiosk mode on the Banana Pi M4 Zero SBC.</description>
+      <guid isPermaLink="false">https://www.hackster.io/dilshan-jayakody/openhamclock-kiosk-43ebaf</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1931722/_bfci5c8Qeq.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 22 Feb 2026 15:39:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making sense of MQTT sensor streams!</title>
+      <link>https://www.hackster.io/tomfleet/making-sense-of-mqtt-sensor-streams-f8e445</link>
+      <description>Arduino UNO Q &amp;amp; Edge Impulse enable low power, local automated predictive actions, based on pattern recognition in senso sensor data streams</description>
+      <guid isPermaLink="false">https://www.hackster.io/tomfleet/making-sense-of-mqtt-sensor-streams-f8e445</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1931787/_S5iMz4nxUK.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 22 Feb 2026 21:51:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Portable Access to Wikipedia</title>
+      <link>https://www.hackster.io/david-strong/portable-access-to-wikipedia-997805</link>
+      <description>The ESP32's capabilities make it a compelling platform for embedded web applications and offline content delivery.</description>
+      <guid isPermaLink="false">https://www.hackster.io/david-strong/portable-access-to-wikipedia-997805</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1931673/_PTbCHTzCmq.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 22 Feb 2026 07:40:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Easily design UART to Ethernet with W55RP20</title>
+      <link>https://www.hackster.io/alan43/easily-design-uart-to-ethernet-with-w55rp20-dd2d86</link>
+      <description>Easily connect UART to Ethernet with W55RP20.</description>
+      <guid isPermaLink="false">https://www.hackster.io/alan43/easily-design-uart-to-ethernet-with-w55rp20-dd2d86</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1931845/_aXOYPrXvU8.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Feb 2026 04:48:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ultra compact UART to Ethernet module</title>
+      <link>https://www.hackster.io/mickyyyy_Jick/ultra-compact-uart-to-ethernet-module-88e544</link>
+      <description>Introducing an ultra-compact Ethernet to UART module.</description>
+      <guid isPermaLink="false">https://www.hackster.io/mickyyyy_Jick/ultra-compact-uart-to-ethernet-module-88e544</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1931821/_YDhyFBbO1K.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Feb 2026 03:04:40 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,63 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Feb 2026 06:53:36 +0000</lastBuildDate>
-    <item>
-      <title>Drgn v0.1 Released For Very Versatile Programmable Debugger</title>
-      <link>https://www.phoronix.com/news/Drgn-0.1-Released</link>
-      <description>Drgn is the programmable debugger developed by Meta engineer Omar Sandoval that has proven quite versatile and popular with Linux kernel developers and others. After nearly two dozen releases already, Drgn v0.1 was released this week as another big step forward for this open-source debugger...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Drgn-0.1-Released</guid>
-      <pubDate>Fri, 20 Feb 2026 18:11:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intel Hiring More Linux Developers - Including For GPU Drivers / Linux Gaming Stack</title>
-      <link>https://www.phoronix.com/news/Intel-Linux-Jobs-February-2026</link>
-      <description>As some good news out of Intel today on the Linux/open-source side following last year's layoffs, they're hiring for some new Linux software development roles -- including for enhancing their Linux graphics driver stack that also includes a focus on Linux gaming with the likes of Valve's Proton (Steam Play)...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Linux-Jobs-February-2026</guid>
-      <pubDate>Fri, 20 Feb 2026 18:49:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>KDE Plasma 6.7 Preps More Improvements While Plasma 6.6.1 Fixes Begin Accumulating</title>
-      <link>https://www.phoronix.com/news/Plasma-6.6-Released-This-Week</link>
-      <description>This week marked the release of KDE's Plasma 6.6 desktop as a very successful release that overall is in very robust shape and performing well. While Plasma 6.6 overall is in great shape, there are various bugs - including crash fixes - that have already been queued for the upcoming Plasma 6.6.1. KDE developers are also quite busy on the trek toward Plasma 6.7...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.6-Released-This-Week</guid>
-      <pubDate>Sat, 21 Feb 2026 01:18:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ceph In Linux 7.0 Lands Support For AES256K Keys</title>
-      <link>https://www.phoronix.com/news/Ceph-Linux-7.0</link>
-      <description>For those making use of the Ceph open-source, distributed storage platform, with the upcoming Linux 7.0 kernel they are introducing support for the AES256K key type...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ceph-Linux-7.0</guid>
-      <pubDate>Sat, 21 Feb 2026 10:32:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>AMD AOMP 23.0-0 Compiler Continues Enhancing Fortran Support</title>
-      <link>https://www.phoronix.com/news/AMD-AOMP-23.0-0</link>
-      <description>AMD AOMP 23.0-0 was released overnight as the latest build of this LLVM/Clang downstream that continues to carry the very latest AMD patches focused on delivering the best support for GPU offloading to Radeon/Instinct hardware with the likes of the OpenMP and OpenACC APIs. AOMP continues to serve as a great leading-edge compiler for the best AMD GPU offloading experience until the patches ultimately work their way into upstream LLVM...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-AOMP-23.0-0</guid>
-      <pubDate>Sat, 21 Feb 2026 10:55:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 7.0 Lands More AMDGPU Fixes For Old Radeon Hardware</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Old-AMDGPU-Fixes</link>
-      <description>Following last week's main set of DRM kernel graphics driver feature updates for Linux 7.0, merged on Friday to Linux 7.0 Git was the first round of fixes to these Direct Rendering Manager drivers. Dominating most of the code changes in this latest pull were AMDGPU fixes, including more enhancements for aging Radeon graphics processors...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Old-AMDGPU-Fixes</guid>
-      <pubDate>Sat, 21 Feb 2026 11:10:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>ollama 0.17 Released With Improved OpenClaw Onboarding</title>
-      <link>https://www.phoronix.com/news/ollama-0.17</link>
-      <description>The open-source ollama project that makes it easy to get up and running with a variety of LLMs under Windows, macOS, and Linux is out with a new release. The ollama v0.17.0 release is driven by new functionality around enhancing the OpenClaw onboarding process...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ollama-0.17</guid>
-      <pubDate>Sat, 21 Feb 2026 11:30:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>eCryptfs Sees Renewed Patch Activity With Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-eCryptfs</link>
-      <description>We haven't heard much about eCryptfs in recent years for that stackable in-tree Linux file-system providing per-directory encryption support. The FSCRYPT framework has shown its strong capabilities in recent years with various file-systems, Canonical hasn't been pursuing its user home directory encryption like it did years ago for the Ubuntu desktop, and full disk encryption is the most secure approach for ensuring data security on your system. But to some surprise with Linux 7.0 there are the m</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-eCryptfs</guid>
-      <pubDate>Sat, 21 Feb 2026 12:25:33 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 23 Feb 2026 07:08:39 +0000</lastBuildDate>
     <item>
       <title>AppArmor Enhancements Merged For Linux 7.0</title>
       <link>https://www.phoronix.com/news/Linux-7.0-AppArmor</link>
@@ -78,6 +22,62 @@
       <description>Last week was the main feature pull of Rust programming language updates for the Linux 7.0 kernel merge window. Most notable with that pull was Rust officially concluding its "experimental" in now treating Rust for Linux kernel/driver programming as stable and here to stay. Sent out today was a round of Rust fixes for Linux 7.0 that includes preparations for the upcoming Rust 1.95 release...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Rust-1.95-Prep</guid>
       <pubDate>Sun, 22 Feb 2026 01:16:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Hyper-V Lands Some Useful Improvements In Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Hyper-V-Linux-7.0-Improvements</link>
+      <description>For those dealing with Microsoft Hyper-V for virtualization, the Linux 7.0 mainline kernel has seen a number of improvements there. This work follows KVM also bringing some nice improvements in Linux 7.0...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Hyper-V-Linux-7.0-Improvements</guid>
+      <pubDate>Sun, 22 Feb 2026 10:58:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0 Further Prepares For Intel Diamond Rapids With NTB Driver Support</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-NTB</link>
+      <description>The upstream Linux kernel appears largely ready for Intel's next-generation Xeon Diamond Rapids processors as the successor to Granite Rapids. Most of the driver support appears to have been settled for a while with just some stragglers remaining. With the ongoing Linux 7.0 kernel one new addition for Diamond Rapids is NTB driver support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-NTB</guid>
+      <pubDate>Sun, 22 Feb 2026 11:14:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yet Another Fix Coming For Older AMD GPUs On Linux - Thanks To Valve Developer</title>
+      <link>https://www.phoronix.com/news/Hawaii-Macs-AMDGPU-DC-Fix</link>
+      <description>Timur Kristóf of Valve's open-source Linux graphics driver team has been doing a fantastic job enhancing the older AMD Radeon GPU support under Linux. Last year he made enough improvements to the AMDGPU open-source driver that older Radeon GCN 1.0/1.1 dGPUs switched over to AMDGPU by default for nice performance gains, RADV Vulkan driver support out of the box, and all around better experience than using the legacy Radeon driver. He's also been fixing countless bugs affecting older AMD GPUs. The</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Hawaii-Macs-AMDGPU-DC-Fix</guid>
+      <pubDate>Sun, 22 Feb 2026 11:33:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>AMD Zen 6 Performance Events &amp;amp; Metrics Merged For Linux 7.0</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Perf-Tools</link>
+      <description>Ahead of the Linux 7.0 merge window closing later today with the Linux 7.0-rc1 release, the performance "perf" subsystem tooling changes were merged on Saturday. Among the notable changes here are the performance events and metrics handling for upcoming AMD Zen 6 processors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Perf-Tools</guid>
+      <pubDate>Sun, 22 Feb 2026 11:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AOMedia Open Audio Codec "OAC" Aims To Be The Successor To Opus</title>
+      <link>https://www.phoronix.com/news/AOMedia-OAC-Open-Audio-Codec</link>
+      <description>While the Alliance For Open Media "AOMedia" is most known for developing the AV1 open video codec, the associated AV1 Image File Format (AVIF), and the next-generation AV2, they are now working on the Open Audio Codec (OAC)...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AOMedia-OAC-Open-Audio-Codec</guid>
+      <pubDate>Sun, 22 Feb 2026 14:57:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNU Gawk 5.4 Released With New MinRX Regex Matcher, Faster Reading Of Files</title>
+      <link>https://www.phoronix.com/news/GNU-Gawk-5.4-Released</link>
+      <description>Developers behind the widely-used GNU Awk text processing utility today released Gawk 5.4...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-Gawk-5.4-Released</guid>
+      <pubDate>Sun, 22 Feb 2026 17:18:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0 Credits Now Honor The Creator Of Linux-Next</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Credits-Linux-Next</link>
+      <description>There's the usual flurry of last minute fixes and other items being herded into the Linux 7.0 codebase today right ahead of the merge window being closed with the imminent Linux 7.0-rc1 release. Among that last minute work is now recognizing Stephen Rothwell's contributions to creating and maintaining Linux-Next over the past eighteen years...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Credits-Linux-Next</guid>
+      <pubDate>Sun, 22 Feb 2026 22:05:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0-rc1 Released With Many New Features:</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-rc1-Released</link>
+      <description>Linus Torvalds just capped off the Linux 7.0 merge window with the release of Linux 7.0-rc1. While the big version bump is coincidental with Linus Torvalds liking to bump it after x.19, Linux 7.0 is quite heavy on new features...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-rc1-Released</guid>
+      <pubDate>Sun, 22 Feb 2026 22:16:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
