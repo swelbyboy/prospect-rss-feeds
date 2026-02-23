@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Feb 2026 07:13:09 +0000</lastBuildDate>
-    <item>
-      <title>The 'last-mile' data problem is stalling enterprise agentic AI — 'golden pipelines' aim to fix it</title>
-      <link>https://venturebeat.com/data/the-last-mile-data-problem-is-stalling-enterprise-agentic-ai-golden</link>
-      <description>Traditional ETL tools like dbt or Fivetran prepare data for reporting: structured analytics and dashboards with stable schemas. AI applications need something different: preparing messy, evolving operational data for model inference in real-time. Empromptu calls this distinction "inference integrity" versus "reporting integrity." Instead of treating data preparation as a separate discipline, golden pipelines integrate normalization directly into the AI application workflow, collapsing what typic</description>
-      <guid isPermaLink="false">https://venturebeat.com/data/the-last-mile-data-problem-is-stalling-enterprise-agentic-ai-golden</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/5egQ46IjwiShQrV06KpeEk/785fd79433bb0a678b4ab1d2fbf88fb3/golden-pipeline-smk1.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 13:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 23 Feb 2026 07:23:16 +0000</lastBuildDate>
     <item>
       <title>Rapidata emerges to shorten AI model development cycles from months to days with near real-time RLHF</title>
       <link>https://venturebeat.com/data/rapidata-emerges-to-shorten-ai-model-development-cycles-from-months-to-days</link>
@@ -64,6 +56,14 @@
       <guid isPermaLink="false">https://venturebeat.com/orchestration/runlayer-is-now-offering-secure-openclaw-agentic-capabilities-for-large</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4LaBwVfbgT5gHWyOlEQ4l3/74b270a54e64ce21a60d24a482d5ab22/I1q8RN879yqG8ZDyBQvtU_OPi2ULia.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Fri, 20 Feb 2026 22:05:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shadow mode, drift alerts and audit logs: Inside the modern audit loop</title>
+      <link>https://venturebeat.com/orchestration/shadow-mode-drift-alerts-and-audit-logs-inside-the-modern-audit-loop</link>
+      <description>Traditional software governance often uses static compliance checklists, quarterly audits and after-the-fact reviews. But this method can't keep up with AI systems that change in real time. A machine learning (ML) model might retrain or drift between quarterly operational syncs. This means that, by the time an issue is discovered, hundreds of bad decisions could already have been made. This can be almost impossible to untangle. In the fast-paced world of AI, governance must be inline, not an aft</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/shadow-mode-drift-alerts-and-audit-logs-inside-the-modern-audit-loop</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2lIgm3tWKNlbNcAqMNsFXB/d06b37a9da80c563b72a3c9311f38031/Audit_loop.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 22 Feb 2026 19:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

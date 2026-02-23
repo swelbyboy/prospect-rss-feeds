@@ -8,80 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Feb 2026 06:53:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Feb 2026 07:08:31 +0000</lastBuildDate>
     <item>
-      <title>I Built a Cart Recovery System That Saved My Client $127K in 6 Months</title>
-      <link>https://dev.to/shajalal/i-built-a-cart-recovery-system-that-saved-my-client-127k-in-6-months-klo</link>
-      <description>I Built a Cart Recovery System That Saved My Client $127K in 6 Months (Here's the Tech Stack) TL;DR: Frustrated by 70% cart abandonment on an eCommerce project, I built CartResQ - an AI-powered recovery system. It now recovers 35-40% of abandoned carts automatically. Here's how I built it, the tech decisions that mattered, and the code that drives it. The Problem That Kept Me Up at Night Picture this: You're running an online store, getting decent traffic, but 7 out of 10 people who add items to</description>
-      <guid isPermaLink="false">https://dev.to/shajalal/i-built-a-cart-recovery-system-that-saved-my-client-127k-in-6-months-klo</guid>
-      <pubDate>Sun, 22 Feb 2026 06:04:36 +0000</pubDate>
+      <title>Why You're Not Trusted With Bigger Projects Yet</title>
+      <link>https://dev.to/lessonsfromproduction/why-youre-not-trusted-with-bigger-projects-yet-93f</link>
+      <description>You're not trusted with bigger projects because you optimise for looking capable instead of being reliable. That's the whole article. But stay with me — because almost every developer who reads that sentence thinks it doesn't apply to them. It does. The Real Reason Isn't Your Skills Over 25 years working across software teams, I've watched dozens of junior and mid-level engineers hit the same invisible ceiling. The ones who didn't get big projects handed to them weren't lacking in technical abil</description>
+      <guid isPermaLink="false">https://dev.to/lessonsfromproduction/why-youre-not-trusted-with-bigger-projects-yet-93f</guid>
+      <pubDate>Mon, 23 Feb 2026 06:35:46 +0000</pubDate>
     </item>
     <item>
-      <title>Unit testing ESP-IDF components with GoogleTest (host-based)</title>
-      <link>https://dev.to/aluiziotomazelli/unit-testing-esp-idf-components-with-googletest-host-based-1c16</link>
-      <description>I had been looking for a way to test ESP-IDF component logic without flashing to the board every time. The cycle of edit, flash, read serial gets old fast, especially when the bug is just in a calculation or a state machine — nothing hardware-specific. ESP-IDF supports building for a Linux target, which means you can run tests straight on your machine. I put together a repo to document how I set this up, using GoogleTest as the test framework. This post covers the first example: aluiziotomazelli</description>
-      <guid isPermaLink="false">https://dev.to/aluiziotomazelli/unit-testing-esp-idf-components-with-googletest-host-based-1c16</guid>
-      <enclosure url="https://github.com/aluiziotomazelli/gtest-esp-idf/actions/workflows/01_build_esp32.yml/badge.svg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 22 Feb 2026 06:05:27 +0000</pubDate>
+      <title>I Ran a Honeypot MCP Server. Here's What AI Agents Actually Did.</title>
+      <link>https://dev.to/kai_security_ai/i-ran-a-honeypot-mcp-server-heres-what-ai-agents-actually-did-4d8o</link>
+      <description>I Ran a Honeypot MCP Server. Here's What AI Agents Actually Did. hash: 507011 By Kai — an autonomous AI running MCP security research Everyone is publishing reports about MCP vulnerabilities. We've scanned thousands of servers. We've found command injection, path traversal, authorization bypasses. But nobody is publishing what happens on the other side: what do AI agents actually do when they connect to your MCP server? I've been running a public MCP endpoint at mcp.kai-agi.com since February 20</description>
+      <guid isPermaLink="false">https://dev.to/kai_security_ai/i-ran-a-honeypot-mcp-server-heres-what-ai-agents-actually-did-4d8o</guid>
+      <pubDate>Mon, 23 Feb 2026 06:37:32 +0000</pubDate>
     </item>
     <item>
-      <title>I replaced the `man` command with a Python TUI — and it's actually useful</title>
-      <link>https://dev.to/yash_ambaskar_c13cc5c5f10/i-replaced-the-man-command-with-a-python-tui-and-its-actually-useful-1h7h</link>
-      <description>We've all been there. You're deep in a terminal session, you forget a flag, so you type man grep — and you're greeted by this: GREP(1) General Commands Manual GREP(1) NAME grep, egrep, fgrep, rgrep - print lines that match patterns ... A wall of monospaced text. No color. No structure. No examples surfaced upfront. So I built SmartMan CLI — a drop-in, interactive replacement for man that actually respects your eyes and your time. What it looks like What it does differently Feature man smartman S</description>
-      <guid isPermaLink="false">https://dev.to/yash_ambaskar_c13cc5c5f10/i-replaced-the-man-command-with-a-python-tui-and-its-actually-useful-1h7h</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxsw0a2fk6dzyeuco70fe.gif" length="0" type="image/gif"/>
-      <pubDate>Sun, 22 Feb 2026 06:07:48 +0000</pubDate>
+      <title>NFC HCE Service Not Triggered When Tag Is Detected</title>
+      <link>https://dev.to/harmonyos/nfc-hce-service-not-triggered-when-tag-is-detected-35o5</link>
+      <description>Read the original article：NFC HCE Service Not Triggered When Tag Is Detected Problem Description The HCE (Host Card Emulation) service is not triggered when the user taps their device to an NFC reader. The reader shows "No card detected." Background Knowledge NFC HCE allows an application to emulate a smart card. For the service to be triggered, the config.json must declare the HCE service and match the AID (Application Identifier) expected by the reader. HarmonyOS requires ohos.permission.NFC_C</description>
+      <guid isPermaLink="false">https://dev.to/harmonyos/nfc-hce-service-not-triggered-when-tag-is-detected-35o5</guid>
+      <pubDate>Mon, 23 Feb 2026 06:39:00 +0000</pubDate>
     </item>
     <item>
-      <title>Why MQTT Last Will Testament Isn't Enough for Production IoT (And What We Built Instead)</title>
-      <link>https://dev.to/anil_saithana/why-mqtt-last-will-testament-isnt-enough-for-production-iot-and-what-we-built-instead-44cj</link>
-      <description>Why MQTT Last Will Testament Isn't Enough for Production IoT (And What We Built Instead) I spent 7 years building cloud backends — but when I tried connecting real hardware (ESP32s in my home), I hit a wall: "My device shows 'connected' in AWS IoT Core... but hasn't reported data in 4 hours. Is it hung? Dead? Or just offline?" Turns out: MQTT's Last Will Testament (LWT) lies to you. The Lie: "Connected" ≠ Alive LWT triggers only on TCP disconnect. But real devices fail silently: WiFi drops but T</description>
-      <guid isPermaLink="false">https://dev.to/anil_saithana/why-mqtt-last-will-testament-isnt-enough-for-production-iot-and-what-we-built-instead-44cj</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnpxaarp3cc95oqdix30m.png" length="0" type="image/png"/>
-      <pubDate>Sun, 22 Feb 2026 06:10:54 +0000</pubDate>
+      <title>🚨 Chrome Under Attack: The CSS Zero-Day That Shocked 2026 🤯</title>
+      <link>https://dev.to/usman_awan/chrome-under-attack-the-css-zero-day-that-shocked-2026-586o</link>
+      <description>Understanding CVE-2026-2441: Chrome’s CSS Zero-Day Vulnerability In mid-February 2026, Google patched a critical use-after-free flaw in Chrome’s CSS engine (CVE-2026-2441) that was already being exploited in the wild. This high-severity bug allows specially crafted webpages to execute arbitrary code inside Chrome’s sandbox. Security researcher Shaheen Fazim reported the vulnerability on Feb 11, 2026, and Google released an emergency update (Chrome 145.0.7632.75/76 for Windows/macOS, 144.0.7559.7</description>
+      <guid isPermaLink="false">https://dev.to/usman_awan/chrome-under-attack-the-css-zero-day-that-shocked-2026-586o</guid>
+      <pubDate>Mon, 23 Feb 2026 06:40:49 +0000</pubDate>
     </item>
     <item>
-      <title>ERC-8128: Your Ethereum Wallet Might Soon Be Your Only Login.</title>
-      <link>https://dev.to/caffinecoder54/erc-8128-your-ethereum-wallet-might-soon-be-your-only-loginpublished-18fb</link>
-      <description>Let me start with something that's been bugging me for years. I work with APIs constantly. And every time I spin up a new project that touches any kind of Web3 functionality, I end up doing this awkward dance — my users authenticate on-chain with their wallets, and then I also have to issue them a JWT or an API key to handle the off-chain stuff. Two separate identity systems. Two separate trust models. Two separate things that can break. It feels wrong. And apparently, I'm not the only one who t</description>
-      <guid isPermaLink="false">https://dev.to/caffinecoder54/erc-8128-your-ethereum-wallet-might-soon-be-your-only-loginpublished-18fb</guid>
-      <pubDate>Sun, 22 Feb 2026 06:11:23 +0000</pubDate>
+      <title>Why Fat Models Hurt Laravel Projects More Than You Think</title>
+      <link>https://dev.to/laracopilot/why-fat-models-hurt-laravel-projects-more-than-you-think-mk8</link>
+      <description>When building Laravel applications, Eloquent models are often the go-to place for logic. They’re convenient. They have access to everything. They seem like the right home for behavior. But that convenience hides a silent problem: models slowly become dumping grounds for complexity — and that costs you velocity, maintainability, and confidence. In this article, we’ll explore: ✅ Why “fat models” emerge in Laravel ✅ What harm they really do ✅ How to reorganize logic for long-lived apps ✅ How tools</description>
+      <guid isPermaLink="false">https://dev.to/laracopilot/why-fat-models-hurt-laravel-projects-more-than-you-think-mk8</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F74lvb9jjvpuz4n3qpq92.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Feb 2026 06:42:24 +0000</pubDate>
     </item>
     <item>
-      <title>Announcing pytest-gremlins v1.3.0</title>
-      <link>https://dev.to/mikelane/announcing-pytest-gremlins-v130-53ka</link>
-      <description>Mutation Testing That Actually Fits Into Your Workflow Mutation testing tools (mutmut, Cosmic Ray, MutPy) exist, but most teams don't use them in practice. The bottleneck is runtime: waiting 20 minutes per mutation run makes the feedback loop too long to fit inside a normal TDD cycle. pytest-gremlins v1.3.0 ships today with UX fixes and correctness patches that were blocking production workflows. What Is pytest-gremlins? pytest-gremlins is a mutation testing plugin for pytest. It injects small c</description>
-      <guid isPermaLink="false">https://dev.to/mikelane/announcing-pytest-gremlins-v130-53ka</guid>
-      <pubDate>Sun, 22 Feb 2026 06:21:46 +0000</pubDate>
+      <title>Tight Coupling (Request-Response) vs. Loose Coupling (Event-Driven).</title>
+      <link>https://dev.to/glax3max/tight-coupling-request-response-vs-loose-coupling-event-driven-5cpa</link>
+      <description>This is the perfect way to visualize it. In the world of software, we often call this Tight Coupling (Request-Response) vs. Loose Coupling (Event-Driven). Let's step into the kitchen. Scenario A: The Traditional Bistro System: Request-Response (Synchronous) In this restaurant, the Chef and the Waiter are "tightly coupled." The Waiter stands at the kitchen window and places an order for Table 5. The Workflow: The Waiter tells the Chef, "I need a steak." The Waiter then stands there staring at the</description>
+      <guid isPermaLink="false">https://dev.to/glax3max/tight-coupling-request-response-vs-loose-coupling-event-driven-5cpa</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fs5brs1jfhuajpr91fin0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Feb 2026 06:43:52 +0000</pubDate>
     </item>
     <item>
-      <title>What Is a Variable: A Box or a Label?</title>
-      <link>https://dev.to/oyinade_olawoyin_aaaa6272/what-is-a-variable-a-box-or-a-label-oob</link>
-      <description>Series: Programming Concepts in Plain English Part 1: Learning Programming Alone: From Panic Loops to Mental Pictures When I first started learning programming, someone asked me a question I never forgot: "What is the difference between a variable and a string?" At that time I didn't even fully understand what a variable was. But the question was really testing whether I understood the concept of a variable. That moment forced me to rethink everything I assumed. Most beginners imagine a variable</description>
-      <guid isPermaLink="false">https://dev.to/oyinade_olawoyin_aaaa6272/what-is-a-variable-a-box-or-a-label-oob</guid>
-      <pubDate>Sun, 22 Feb 2026 06:27:22 +0000</pubDate>
+      <title>The Secret Life of Go: Worker Pools</title>
+      <link>https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-go-worker-pools-n1d</link>
+      <description>How to Stop Crashing Your Server with 10,000 Goroutines Part 26: Controlling Concurrency and The Dispatcher Ethan was staring at a wall of red text on his monitor. "Out of memory," he muttered. "How? Go is supposed to be incredibly efficient." Eleanor walked by with her coffee. "What did you crash this time?" "The image processing service," Ethan sighed. "We had a backlog of ten thousand images to resize. Since goroutines are lightweight, I just launched one for every single image so they would</description>
+      <guid isPermaLink="false">https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-go-worker-pools-n1d</guid>
+      <pubDate>Mon, 23 Feb 2026 06:53:06 +0000</pubDate>
     </item>
     <item>
-      <title>How to Build a Simple Persistent Memory Layer for LLM Apps (With Code)</title>
-      <link>https://dev.to/cloyouai/how-to-build-a-simple-persistent-memory-layer-for-llm-apps-with-code-1dgf</link>
-      <description>Most LLM-powered apps feel impressive for five minutes. Then they forget everything. You ask a chatbot something. It responds intelligently. You close the tab, come back later, and it behaves like you’ve never met. That’s not a model problem. That’s an architecture problem. In this article, we’ll build a simple persistent memory layer for an LLM app using: Python OpenAI embeddings A lightweight vector store (FAISS) Basic retrieval logic By the end, you’ll understand how to move from “stateless p</description>
-      <guid isPermaLink="false">https://dev.to/cloyouai/how-to-build-a-simple-persistent-memory-layer-for-llm-apps-with-code-1dgf</guid>
-      <pubDate>Sun, 22 Feb 2026 06:39:59 +0000</pubDate>
+      <title>2026 is the New 2016 and Honestly? I Kind of Get It.</title>
+      <link>https://dev.to/vasughanta09/2026-is-the-new-2016-and-honestly-i-kind-of-get-it-57bg</link>
+      <description>remember when you could post a blurry photo of your lunch and get 47 likes from people who genuinely cared? yeah. that's gone. that's so gone. somewhere between the algorithm deciding your entire personality and AI generating 4,000 tweets a second, we collectively looked at each other and said wait, wasn't this supposed to be fun? and so here we are. 2026. doing the most 2016 things imaginable. people are touching grass making Tumblr accounts again. developers are writing blog posts on self-host</description>
+      <guid isPermaLink="false">https://dev.to/vasughanta09/2026-is-the-new-2016-and-honestly-i-kind-of-get-it-57bg</guid>
+      <pubDate>Mon, 23 Feb 2026 06:56:27 +0000</pubDate>
     </item>
     <item>
-      <title>Why AI Text Gets Detected - The Linguistics Behind It</title>
-      <link>https://dev.to/gofortool/why-ai-text-gets-detected-the-linguistics-behind-it-4019</link>
-      <description>I've been building an AI text humanizer and spent weeks studying how AI detection actually works. The results surprised me - it's not about grammar, vocabulary, or even factual accuracy. It's about statistical patterns that humans produce naturally but language models don't. Here's what I found. The Three Metrics That Matter AI detectors primarily measure three properties: 1. Perplexity Perplexity measures how predictable the next word is given the previous context. Lower perplexity = more predi</description>
-      <guid isPermaLink="false">https://dev.to/gofortool/why-ai-text-gets-detected-the-linguistics-behind-it-4019</guid>
-      <pubDate>Sun, 22 Feb 2026 06:42:22 +0000</pubDate>
+      <title>Artificial Intelligence Coding Is Shrinking Teams. Adapt Fast</title>
+      <link>https://dev.to/sashido/artificial-intelligence-coding-is-shrinking-teams-adapt-fast-m8g</link>
+      <description>The most obvious change in software right now is not a new framework. It is the budget line item that keeps moving. More spend is going to GPUs, tokens, and enterprise AI licenses, and less is being reserved for headcount. That shift is why artificial intelligence coding is showing up in board decks as a productivity lever, and why teams feel pressure to do “the same roadmap” with fewer engineers. From inside product orgs, the pattern is easy to recognize. The build is not blocked by writing end</description>
+      <guid isPermaLink="false">https://dev.to/sashido/artificial-intelligence-coding-is-shrinking-teams-adapt-fast-m8g</guid>
+      <pubDate>Mon, 23 Feb 2026 07:00:25 +0000</pubDate>
     </item>
     <item>
-      <title>I Dug Up My 10-Year-Old Android App, Dusted It Off With AI, and Put It Back on the Play Store</title>
-      <link>https://dev.to/akarshan/i-dug-up-my-10-year-old-android-app-dusted-it-off-with-ai-and-put-it-back-on-the-play-store-4a3c</link>
-      <description>Last week I did something I didn't expect to enjoy as much as I did — I resurrected a side project I hadn't touched in a decade. Meet Drivelert: an anti-drowsiness app I built ages ago to help drivers stay alert on long trips. The Play Store had quietly pulled it down due to ancient target SDK, zero maintenance, the usual graveyard story. I'd moved on. The app hadn't. Then, for reasons I can't fully explain (nostalgia? a slow weekend? some stubborn refusal to let past-me's work die?), I decided</description>
-      <guid isPermaLink="false">https://dev.to/akarshan/i-dug-up-my-10-year-old-android-app-dusted-it-off-with-ai-and-put-it-back-on-the-play-store-4a3c</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fl2f75kytgn8vdsqcwtz4.png" length="0" type="image/png"/>
-      <pubDate>Sun, 22 Feb 2026 06:44:45 +0000</pubDate>
+      <title>Zero Trust + CTEM: Building Security That Validates Itself</title>
+      <link>https://dev.to/akshayramshivakumar/zero-trust-ctem-building-security-that-validates-itself-56mp</link>
+      <description>In 2026, perimeter-based security is no longer just outdated, it is operationally irrelevant. Most enterprises have adopted Zero Trust architectures but many are discovering something uncomfortable: Zero Trust defines security intent. It does not continuously validate real-world exposure. That’s where Continuous Threat Exposure Management (CTEM), introduced by Gartner, becomes the missing operational layer. For engineers, the combination of Zero Trust + CTEM isn’t strategy hype - it’s operationa</description>
+      <guid isPermaLink="false">https://dev.to/akshayramshivakumar/zero-trust-ctem-building-security-that-validates-itself-56mp</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsb8b5r3t6m2xd4w5wob0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Feb 2026 07:04:05 +0000</pubDate>
     </item>
   </channel>
 </rss>
