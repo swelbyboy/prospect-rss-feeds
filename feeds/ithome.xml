@@ -8,77 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Feb 2026 07:10:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 07:06:43 +0000</lastBuildDate>
     <item>
-      <title>OpenAI與Paradigm合推基準測試EVMbench，評測AI代理智慧合約漏洞攻防能力</title>
-      <link>https://www.ithome.com.tw/news/173984</link>
-      <description>新聞OpenAI宣布與加密資產投資機構Paradigm合作推出EVMbench，這套基準測試用來衡量AI代理在以太坊虛擬機（EVM）環境下，面對高嚴重性智慧合約漏洞時，能否完成偵測、修補與利用等任務。 OpenAI指出，許多以開源程式碼形式部署的智慧合約長期管理大量加密資產，隨著AI系統越來越擅長閱讀、撰寫與執行程式碼，產業需要在更貼近經濟誘因與實務流程的環境中量測模型能力，並推動防禦性應用，用於稽核與強化既有合約。 EVMbench收集120個經過整理的漏洞案例，來源涵蓋40次稽核成果，多數取自開放的程式碼稽核競賽題庫。此外，也納入取自Tempo區塊鏈安全稽核流程的多個漏洞情境，讓題庫延伸到支付導向的智慧合約程式碼。OpenAI表示，Tempo屬於為穩定幣支付設計的第一層區塊鏈（L1），這些情境用來把評測延伸到支付導向的智慧合約，讓測試更貼近實務應用。 EVMbench把任務分成三種模式對應實務工作流程，第一是偵測模式（Detect），要求代理稽核智慧合約儲存庫，依照對既有已知漏洞的召回率與對應稽核獎勵計分。第二是漏洞修補模式（Patch），要求代理在修改脆弱合約時維持原本設計功能，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173984</guid>
-      <pubDate>Fri, 20 Feb 2026 21:42:10 +0000</pubDate>
+      <title>【資安日報】2月23日，駭客濫用AI對Fortinet防火牆發動大規模攻擊</title>
+      <link>https://www.ithome.com.tw/news/174004</link>
+      <description>新聞駭客濫用AI在55個國家入侵逾600個組態配置不當的Fortinet防火牆，企圖發動勒索軟體攻擊 威脅情報團隊Amazon Threat Intelligence揭露針對Fortinet防火牆設備的大規模攻擊活動，他們發現疑似以財務為動機的俄羅斯駭客，從今年1月11日至2月18日期間，入侵超過600臺FortiGate裝置，範圍橫跨55個國家，過程中濫用多個生成式AI服務。 Amazon強調，這起事故與許多針對FortiGate的事故不同，駭客並未利用防火牆的資安漏洞，而是針對曝露的管理連接埠，以及採用弱密碼且未啟用多因素驗證機制的系統組態，發動攻擊，若是得逞，他們就會試圖存取受害組織的AD環境，擷取完整的憑證資料庫，然後對Veeam備份基礎設施下手，疑似意圖從事勒索軟體攻擊。對此，Amazon指出，這起事故突顯小型駭客組織濫用AI服務，能夠達到過往需要大型團隊與較高技術的攻擊能力，呼籲企業組織應強化邊緣設備的憑證管理與資安防護來因應。 新型態安卓惡意軟體PromptSpy濫用Gemini持續在受害裝置活動 資安公司ESET揭露名為PromptSpy的安卓間諜軟體，主要功能是讓攻擊</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174004</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/PromptSpy-6.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Feb 2026 09:27:09 +0000</pubDate>
     </item>
     <item>
-      <title>NIST啟動AI代理標準倡議力促互通與安全</title>
-      <link>https://www.ithome.com.tw/news/173983</link>
-      <description>新聞美國國家標準與技術研究院（NIST）旗下的人工智慧標準與創新中心（CAISI），宣布啟動AI代理標準倡議。該倡議的目標是替新一代可自主行動的AI代理，建立跨系統互通與安全運作的基礎，並透過產業及社群參與，推動相關技術標準與協定的發展。 NIST將AI代理定義為能代表使用者執行任務的系統，並指出這類系統已能長時間自主運作，應用範圍涵蓋程式碼撰寫與除錯、電子郵件與行事曆管理，以及線上購物等多種情境。不過NIST也指出，AI代理在真實環境中的效益，受限於其能否與外部系統及內部資料順利互動。若外界對AI代理的可靠性缺乏信心，且代理之間與數位資源的互通性不足，創新者可能面臨生態系碎片化，進而抑制整體採用速度。 CAISI將與NIST資訊技術實驗室ITL協作推動AI代理標準倡議，並聯合美國國家科學基金會NSF及其他跨機關夥伴共同推進。NIST將倡議的工作劃分為三方向，第一，促進由產業主導制定AI代理相關標準，同時維持在國際標準組織中的參與和影響力；第二，推動由社群主導的開源協定開發與維護，降低互通門檻；第三，投入AI代理安全、身分與授權相關研究，以支撐新興應用場景，並促進跨產業的可信任導入。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173983</guid>
-      <pubDate>Fri, 20 Feb 2026 21:49:28 +0000</pubDate>
+      <title>新型態安卓惡意軟體PromptSpy濫用Gemini持續在受害裝置活動</title>
+      <link>https://www.ithome.com.tw/news/174001</link>
+      <description>新聞從去年開始，駭客在借助AI的力量強化惡意軟體的攻擊成效，其中不少是濫用AI工具開發惡意程式，甚至為惡意程式加入AI功能，這種情況越來越頻繁，而這些惡意軟體大多是針對電腦打造，如今有資安公司警告，針對行動裝置的惡意軟體也開始出現類似手法。 資安公司ESET揭露名為PromptSpy的安卓間諜軟體，主要功能是讓攻擊者在受害裝置部署VNC模組，以便檢視螢幕內容及遠端操控，其中最為特別的地方在於，駭客濫用Google Gemini判讀受害裝置的螢幕畫面，確保惡意程式持續釘選在近期使用的App列表，目的是避免使用者將其終止。由於安卓惡意軟體通常會仰賴介面誘騙使用者上當，不同廠牌、型號，以及作業系統版本的安卓裝置，操作介面可能會存在差異，而本次駭客透過AI判斷螢幕畫面上的各種系統元素，使得PromptSpy能對幾乎所有安卓裝置發動攻擊，大幅擴充其影響能力。ESET指出，這是首度有人在安卓惡意程式導入AI功能。 對於此惡意軟體的攻擊來源及範圍，ESET發現駭客在除錯字串使用簡體中文，以及有人從阿根廷上傳惡意軟體檔案到VirusTotal等跡象，因此推測可能是中國駭客對阿根廷用戶進行的攻擊活動。不</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174001</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/PromptSpy-6.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Feb 2026 09:34:09 +0000</pubDate>
     </item>
     <item>
-      <title>採用自家ASIC與矽光子網路技術，輝達推出新款800G交換器</title>
-      <link>https://www.ithome.com.tw/review/173982</link>
-      <description>為了提供AI伺服器更大的資料中心網路存取頻寬，兩大陣營在2025年紛紛推出網路交換容量超過100 Tb/s的交換器，例如，博通（Broadcom）6月率先發表Tomahawk 6系列乙太網路交換器晶片（BCM78910系列），支援100G與200G序列器/解序列器（SerDes），以及共同封裝光學網路（Co-Packaged Optics，CPO），10月發表Tomahawk 6–Davisson系列（BCM78919系列），號稱是首款支援共同封裝光學網路的102.4 Tb/s交換器晶片。鈺登科技（Edgecore Networks）與Dell隨後宣布將推出搭配Tomahawk 6系列的交換器，前者尚未透露機型，後者則預告將在2026年下半推出兩款機型： Z9964F-ON、Z9964FL-ON。 另一家是Nvidia，在3月舉行的GTC大會，針對乙太網路Spectrum-X系列與InfiniBand網路Quantum-X系列的產品線，宣布增設支援矽光子網路（Silicon Photonics Networking）的交換器設備，他們表示，這些解決方案整合的光學網路技術，每個網路埠可提</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/173982</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/nvidia_spectrum_sn6000xi_lie_main.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 21 Feb 2026 06:07:16 +0000</pubDate>
+      <title>圓山大飯店資訊系統被入侵，顧客資料恐遭竊</title>
+      <link>https://www.ithome.com.tw/news/174003</link>
+      <description>新聞疫情趨緩後全球各地出現報復性旅遊風潮，駭客也針對旅館及訂房網站發動攻擊，過往大部分事故是發生在國外旅館，最近臺灣有旅館也傳出相關事故。 根據國內各家媒體的報導，圓山大飯店於農曆新年期間資訊系統遭到入侵，部分顧客的資料可能遭到竊取及外流。該飯店於2月20日發布公告指出，他們於2月17日上午發現資訊系統異常，疑似遭到駭客入侵，21日再度發聲明證實是網路攻擊，並指出部分系統遭非法存取，部分客戶的資料可能遭竊或外流，實際受影響的範圍，仍有待最終鑑識結果確認。 圓山大飯店也說明事件發生之後的處理過程，例如，察覺異常後，業者隨即啟動最高等級的資安應變機制，切斷相關系統連線，並進行全面鑑識調查與風險清查等措施，也通報主管機關，請法務部調查局協助調查。 值得留意的是，圓山大飯店最早於2月17日發出防詐騙公告，很可能與本事故有關。他們表示，不會主動要求顧客以銀行轉帳或電匯方式付款，若是接獲可疑通知或是訊息，務必與該飯店聯繫查證。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174003</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E5%9C%96%E5%B1%B1%E5%A4%A7%E9%A3%AF%E5%BA%97-0221%E4%B8%AD%E6%96%87%E7%89%88.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Feb 2026 09:56:03 +0000</pubDate>
     </item>
     <item>
-      <title>半導體測試設備大廠愛德萬測試遭勒索軟體攻擊，客戶與員工資料恐外洩</title>
-      <link>https://www.ithome.com.tw/news/173989</link>
-      <description>新聞日本半導體自動測試設備銷售商愛德萬測試（Advantest）上周公告遭遇勒索軟體攻擊，疑似導致資訊外洩。 愛德萬測試除了販售半導體自動測試設備，客戶涵蓋全球頂尖的IDM（垂直整合製造商）、IC設計公司、晶圓代工廠及封測廠。根據該公司官網，其主要客戶包含台積電、輝達、三星、美光等AI與先進製程晶片巨頭等。 愛德萬測試在2月15日偵測到其IT環境有異常活動。該公司安全部門人員立即啟動回應措施、隔絕受影響的系統，並偕同第三方資安業者協助調查事件。 調查顯示公司部分網路遭未授權的三方人士存取並植入勒索軟體。該公司初步調查顯示，客戶或員工資料遭到存取。愛德萬測試表示會協同外部資安專家進行調查，並直接聯繫受影響人士且提供安全指引。 目前尚未有勒索軟體出面聲稱是其所為。 這是日本近幾個月來最新一家遭勒索軟體攻擊的企業。在此之前，還有辦公用品與電商業者Askul、酒類大廠朝日（Asahi）、商務飯店連鎖華盛頓皆公告遭勒索軟體所害，導致資料外洩。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173989</guid>
-      <pubDate>Mon, 23 Feb 2026 01:29:28 +0000</pubDate>
+      <title>矽谷3工程師被控竊取Google處理器商業機密，資料疑流向伊朗</title>
+      <link>https://www.ithome.com.tw/news/174000</link>
+      <description>新聞美國北加州聯邦檢察署表示，3名矽谷工程師遭聯邦大陪審團起訴，被控共謀竊取Google及其他科技公司的商業機密。檢方指稱，被告利用在相關企業負責行動運算處理器領域工作的職務權限，取得機密與敏感資訊後，外流至未授權的第三方平臺與個人裝置，包含把資料複製到彼此任職公司的工作裝置，且有資料在伊朗被存取的情形。 3名被告分別為41歲的Samaneh Ghandali、40歲的Mohammadjavad Khosravi及32歲的Soroor Ghandali，Samaneh與Soroor為姊妹，Khosravi則是Samaneh的丈夫。檢方提到，3人均在行動處理器領域任職於知名科技公司。Samaneh與Soroor曾任職於Google，後轉至另一家科技公司，Khosravi則任職於另一家科技公司。三人被控利用職務之便取得機密資訊，涉及處理器安全、密碼學等技術領域的商業機密。 被告將機密文件從公司外洩至第三方平臺與個人裝置，其中包括彼此公司的工作設備。Samaneh在Google任職期間，透過第三方通訊平臺將數百份檔案傳送至以3名被告名字命名的頻道；Soroor同樣在Google任職期間將多份</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174000</guid>
+      <pubDate>Mon, 23 Feb 2026 23:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>臭蟲問題導致Microsoft 365 Copilot讀取企業機密信件加入摘要</title>
-      <link>https://www.ithome.com.tw/news/173990</link>
-      <description>新聞微軟Microsoft 365 Copilot曾出現一項臭蟲，導致這個聊天機器人讀取企業機密信件並加入摘要內容，引發資料外洩疑慮。微軟稱該問題已經解決。 資安媒體Bleeping Computer引述微軟近日發出的服務警示，顯示一項影響Copilot Chat的臭蟲。Copilot Chat是包含在Microsoft 365商務版的功能，可和使用者交談互動，並在使用者提示下，從企業Microsoft 365檔案、會議紀錄、聊天內容、電子郵件尋找資訊、整理摘要使專案、與會人士更快掌握資訊，或是根據使用者的指示或參考檔案，對特定專案、簡報或計畫共同作業。 根據該則通知，內部編號CW1226324的臭蟲使Copilot Chat讀取使用者Outlook信箱被標註為「敏感」或機密內容的信件並做成摘要，此類內容依據企業DLP（Data Loss Prevention）政策，理應無法被AI讀取。雖然這問題未影響Outlook收件匣中的敏感內容，但位於「寄件備份」和「草稿」資料夾的機密信件卻被讀取。 CW1226324臭蟲於1月21日被偵測到，但微軟說明，公司已經在2月初開始釋出修補程式，並持續</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173990</guid>
-      <pubDate>Mon, 23 Feb 2026 02:03:42 +0000</pubDate>
+      <title>Cloudflare推出新MCP伺服器，僅兩介面簡化全套Cloudflare API存取</title>
+      <link>https://www.ithome.com.tw/news/174005</link>
+      <description>新聞Cloudflare推出新的MCP伺服器，僅提供search()與execute()兩個工具介面，讓AI代理能透過程式碼探索Cloudflare OpenAPI規格，並直接呼叫Cloudflare API，涵蓋DNS、Zero Trust、Workers與R2等產品線。Cloudflare說明，該MCP伺服器的工具定義載入模型上下文後約占用1,000詞元（Token），且占用量不隨API端點數增加而擴張。 該MCP伺服器在伺服器端導入Cloudflare稱為Code Mode的作法，官方表示，模型不必逐一呼叫大量工具，而是針對具型別的SDK或OpenAPI規格撰寫可執行的程式碼流程，由伺服器端在隔離沙箱環境中執行後，只回傳任務所需結果。 在新MCP伺服器中，search()用來查詢Cloudflare OpenAPI規格，規格內的參照已預先展開，模型以JavaScript撰寫查詢邏輯，從產品、路徑與標籤等中繼資料逐步縮小範圍，而execute()則用來執行同樣以JavaScript撰寫的操作程式碼，進行API請求、分頁處理與串接多步動作，並僅回傳任務所需的資料。Cloudflare</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174005</guid>
+      <pubDate>Mon, 23 Feb 2026 23:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>數學家設下研究級試金石，OpenAI挑戰First Proof</title>
-      <link>https://www.ithome.com.tw/news/173991</link>
-      <description>新聞一群來自Stanford、Harvard、Yale、Berkeley等多所大學的數學家，於2026年2月在arXiv發布《First Proof》，提出10道源自實際研究過程的數學問題，旨在建立更貼近真實學術流程的評估方法，以檢驗AI能否自主完成研究級數學證明。OpenAI於2月14日公開其模型對這10題的證明嘗試，並表示其中至少5題具有高度正確可能。 不同於數學競賽題目，First Proof所提出的10道問題皆來自作者實際研究過程中的關鍵中間命題（Lemma），是數學家在撰寫論文或推進理論時自然產生的問題，答案尚未公開並經加密處理，以避免資料污染。此外，這些題目需要完整、可被專家逐步驗證的證明，而非簡短數值答案。 作者強調，此實驗聚焦於數學研究的「最後一個階段」——在既有理論框架下完成嚴謹證明。他們希望透過這種設計，測試AI是否具備長鏈推理與學術級嚴謹度，而非僅在競賽式基準測試中取得高分。 至於OpenAI則是採用一個新的內部模型來測試上述10道First Proof題目，這些問題需要於專門領域中建立端到端的論證，而作者都是各領域的專家；OpenAI在2月14日公開證明嘗試，根</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173991</guid>
-      <pubDate>Mon, 23 Feb 2026 02:14:11 +0000</pubDate>
+      <title>國際刑警組織與非洲16國聯手打詐，逮捕651人、追回430萬美元</title>
+      <link>https://www.ithome.com.tw/news/173999</link>
+      <description>新聞國際刑警組織（Interpol）公布最新跨國打詐成果，代號「Red Card 2.0」的非洲聯合執法行動在8週內逮捕651名涉案人士，追回或凍結超過430萬美元（約新臺幣1.3億元）不法資金。執法人員同時查扣2,341項設備，關閉1,442個惡意IP位址、網域與伺服器等網路基礎設施。調查指出，相關詐騙活動涉及逾4,500萬美元財損，已辨識出1,247名受害者，多數來自非洲，也波及其他國家。 8週跨國掃蕩，鎖定高報酬投資與假貸款App詐騙 本次行動自2025年12月8日至2026年1月30日展開，由16個非洲國家執法機關共同參與，包括安哥拉、貝南、喀麥隆、象牙海岸等，並在「非洲打擊網路犯罪聯合行動（African Joint Operation against Cybercrime，AFJOC）」架構下執行。AFJOC為一項由英國外交、國協及發展事務部（Foreign, Commonwealth &amp;amp; Development Office，FCDO）資助的倡議計畫。 Red Card 2.0主要鎖定高報酬投資、行動支付及假貸款App等詐騙手法。其中，奈及利亞警方瓦解一個詐騙集團，該組織</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/173999</guid>
+      <pubDate>Tue, 24 Feb 2026 02:24:32 +0000</pubDate>
     </item>
     <item>
-      <title>ShinyHunters疑竊取80萬資料勒索賭城飯店</title>
-      <link>https://www.ithome.com.tw/news/173992</link>
-      <description>新聞勒索軟體ShinyHunters宣稱駭入賭城的永利度假村飯店（Wynn Resorts），疑似竊取了80萬筆資料，揚言不付贖金就將公開。 永利集團包括5家飯店，位於賭城拉斯維加斯、波士頓及澳門，北美員工達1.5萬。 ShinyHunters是在上周五（2/20）在其公開部落格貼文宣稱已駭入永利飯店，已竊得80萬筆員工資料。其目的是要求22.34個比特幣，約150萬美元的贖金。這群駭客要求該飯店在2月23日前聯繫他們，否則將公開資料，伴隨其他「惱人的數位問題的降臨」。 駭客也貼出了部分疑似被竊資料的樣本。The Register分析其中檔案，疑為永利飯店員工的個資，包括全名、出生日期、電子郵件信箱、電話號碼、職稱、薪資等。 ShinyHunters是近年行為囂張的駭客組織，去年似乎與其他組織合組為Scattered Lapsus$ Hunters。去年該組織宣稱從各知名企業和機構如LV、Chanel、Google、思科、安聯人壽、哈佛大學與賓州大學等Salesforce系統竊取10億筆資料，年初這群駭客並自稱從約會App取得上千萬筆個資，研究人員也發現一個目標超過100家企業如Atl</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173992</guid>
-      <pubDate>Mon, 23 Feb 2026 02:44:19 +0000</pubDate>
+      <title>JetBrains發布VS Code擴充套件，可一鍵轉換Java檔成Kotlin</title>
+      <link>https://www.ithome.com.tw/news/174006</link>
+      <description>新聞JetBrains推出供VS Code使用的Java to Kotlin（J2K）轉換擴充套件，讓開發者可在VS Code內透過右鍵選單，將.java檔轉換為Kotlin程式碼，並可在檔案總管對多個檔案或資料夾批次觸發轉換，協助企業將既有Java程式碼庫搬遷至Kotlin，或在專案進行中切換語言時，降低手動改寫的成本。 JetBrains表示，IntelliJ IDEA仍是Kotlin的主力整合式開發環境。不過，考量不少開發者在不同任務與專案中會採用VS Code，JetBrains因此將Java轉Kotlin的轉換能力延伸至VS Code生態，官方指出，該擴充套件沿用其主要IDE的底層轉換引擎，使轉換後的程式碼能更符合Kotlin的慣用寫法與語法規範。 該擴充套件的重點是檔案級的轉換流程，使用者開啟.java檔後，即可在編輯器或檔案總管的右鍵選單中觸發轉換，協助開發者以檔案或資料夾為單位，分批處理Java轉Kotlin，而非一鍵完成整個專案層級的移植。 JetBrains也強調該套件適合先審閱再提交的使用情境，包括在轉換時開啟差異比對畫面，由使用者確認或取消變更，並提到可搭配Gi</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174006</guid>
+      <pubDate>Tue, 24 Feb 2026 02:25:10 +0000</pubDate>
     </item>
     <item>
-      <title>美國招募科技志工以協助各國導入American AI</title>
-      <link>https://www.ithome.com.tw/news/173993</link>
-      <description>新聞美國上周五（2/20）參與印度AI Impact Summit 2026 時提出與AI有關的戰略，認為真正的AI主權並非完全自給自足，而是使用全球最先進技術，同時維持國家自主性與資料主權。接著美國官方的志工組織Peace Corps即同步推出新的Tech Corps計畫，招募科技志工，以協助各國導入美國AI技術（American AI）。 白宮科技政策辦公室主任Michael Kratsios率團出席了AI Impact Summit 2026，他明確反對全球AI治理（Global AI Governance）與集中式官僚監管，前者指的是各國透過多邊協議對AI的發展、部署及風險進行共同規範與監督，後者則是將監管權集中在單一機構；反之，Kratsios主張各國應該跟美國合作，採用美國AI技術堆疊（American AI Stack），同時於各國境內保留敏感資料。 Kratsios表示，發展中國家在AI部署速度與成熟度上正落後於已開發國家，應優先於醫療、教育、能源、農業與政府服務導入AI。Kratsios提出了許多新措施，包括美國AI出口計畫（American AI Exports P</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173993</guid>
-      <pubDate>Mon, 23 Feb 2026 02:52:26 +0000</pubDate>
+      <title>Anthropic指控DeepSeek等中國AI業者以2.4萬詐欺帳戶蒸餾Claude能力</title>
+      <link>https://www.ithome.com.tw/news/174010</link>
+      <description>新聞AI新創Anthropic本周一（2/23）發布聲明，指控DeepSeek、Moonshot與MiniMax等3家中國AI業者，透過約2.4萬個詐欺帳戶與商業代理服務，大規模存取其模型Claude，累計產生逾1,600萬次對話，以提取模型能力並訓練自家系統，違反其服務條款與區域存取限制。 Anthropic表示，相關行動採用蒸餾（Distillation）技術，即以較強模型的輸出作為訓練資料，建立較小或較低成本的模型。蒸餾在產業中本屬常見的模型壓縮手段，但若未經授權，大量利用他人模型輸出訓練自家系統，則可能構成違規與安全風險。 根據Anthropic調查，3項行動皆透過詐欺帳戶與代理架構規避偵測，提示語的數量、結構與焦點均明顯不同於一般使用模式，目標鎖定Claude的代理式推理、工具使用與程式撰寫等差異化能力。 就個別業者而言，DeepSeek與Claude互動超過15萬次，其中包含要求逐步寫出內部推理過程，以生成思維鏈訓練資料；Moonshot互動超過340萬次，涵蓋代理式推理、工具使用、程式與資料分析、電腦操作代理及電腦視覺；MiniMax則累計超過1,300萬次互動，聚焦代理</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174010</guid>
+      <pubDate>Tue, 24 Feb 2026 06:34:58 +0000</pubDate>
     </item>
     <item>
-      <title>駭客冒用公務員帳密入侵FICOBA，法國120萬筆銀行帳戶資料恐外洩</title>
-      <link>https://www.ithome.com.tw/news/173994</link>
-      <description>新聞法國經濟與財政部旗下的公共財政總局DGFiP上周坦承，有人非法存取了國家銀行帳戶登記資料庫（FICOBA）。 DGFiP負責管理的FICOBA記錄了法國境內所有銀行帳戶的存在與識別資訊，例如A在法國哪些銀行擁有哪些帳戶，但並不包含存款金額或交易明細，被定位為全國銀行帳戶索引資料庫，可在特定法律授權下存取，通常屬於稅務與司法範疇。 DGFiP指出，從2026年1月底開始，便有一名駭客冒用一名具備跨部會資訊交換存取權限之公務員的帳號密碼，得以查閱該資料庫的部分內容；該資料庫記錄所有在法國銀行機構開立的帳戶，包含銀行資訊、帳戶持有人身分、住址，以及部分情況下的納稅人識別號。 發現後當局立即限制存取權限，以停止駭客的攻擊，降低已被查閱及外洩資料的範圍，並防止進一步的非法查詢，估計約有120萬個帳戶的資料遭到查閱。DGFiP正進行修復作業，著手通知受影響用戶，亦已聯繫銀行機構以提醒用戶防範釣魚簡訊與詐騙。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173994</guid>
-      <pubDate>Mon, 23 Feb 2026 03:16:16 +0000</pubDate>
+      <title>OpenAI推論API新增WebSocket模式，代理式工具呼叫流程最高可加速40%</title>
+      <link>https://www.ithome.com.tw/news/174008</link>
+      <description>新聞OpenAI在自家模型呼叫介面Responses API推出WebSocket模式，讓開發者可透過持久的WebSocket連線呼叫API，並在多回合互動時只傳送新增的輸入項目，以回應ID銜接前一次的對話狀態。OpenAI也指出，這套模式相容ZDR（Zero Data Retention）與不保留資料的設定，主要鎖定長時間執行且工具呼叫密集的代理式工作流程。 OpenAI說明，WebSocket模式特別針對模型與工具之間需要反覆往返的情境設計，例如代理式程式開發或任務調度流程。由於連線持續保持開啟，每一回合僅送出增量輸入，可減少每回合重新銜接上下文的額外成本。官方提到，在包含20次以上工具呼叫的長鏈流程中，端到端執行時間最高可改善約40%。 與既有的HTTP呼叫方式相比，WebSocket模式延續對話狀態的方式大致相同，只是在活躍的連線，服務端可在同一條連線內以較低延遲的方式銜接。服務會在連線本地的記憶體快取中保留最近一次回應的狀態，後續若重用同一條連線並延續最新一輪回應，就能重用該狀態降低接續成本。由於狀態只保留在記憶體、不寫入磁碟，因此可相容ZDR與不保留資料設定。 單一WebS</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174008</guid>
+      <pubDate>Tue, 24 Feb 2026 06:38:07 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code加入資安掃描新能力，Anthropic開放企業與團隊用戶申請試用</title>
-      <link>https://www.ithome.com.tw/news/173997</link>
-      <description>新聞Anthropic在網頁版Claude Code加入新功能Claude Code Security，主打以自動化方式掃描程式碼庫中的資安漏洞，並提出可供人工審查的修補建議，目前先以研究預覽形式，開放給Enterprise與Team層級用戶申請試用，同時也提供開源儲存庫維護者加速存取申請管道。 Anthropic指出，資安團隊普遍面臨漏洞數量暴增、人力不足的壓力。既有工具多半仰賴已知模式比對，能攔下常見問題，但對於在特定情境下的漏洞，仍需要資安研究人員逐段理解程式流程才能找出。Anthropic因此推出Claude Code Security輔助工具以滿足資安需求，但也因為該能力若被濫用，可能反過來協助攻擊者更快找到可利用弱點，因此先以研究預覽方式釋出。 Anthropic以靜態分析作對照，指出傳統靜態分析多為規則式檢測，擅長攔截暴露密碼、過時加密等典型問題，卻可能漏掉業務邏輯瑕疵或存取控制失效等複雜漏洞，Claude Code Security則強調以理解元件互動與資料流的方式檢視程式碼，提高找出這類情境式漏洞的機率。 Claude Code Security在提交漏洞給分析人員之</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173997</guid>
-      <pubDate>Mon, 23 Feb 2026 06:52:12 +0000</pubDate>
+      <title>社交工程攻擊ClickFix出現新手法，駭客藉由查詢惡意DNS取得有效酬載</title>
+      <link>https://www.ithome.com.tw/news/174007</link>
+      <description>新聞近兩三年最氾濫的社交工程手法，莫過於資安研究員Mr.d0x在2022年揭露的ClickFix，這種誘騙使用者複製特定指令並貼上執行的手法，去年更出現多種變形版本，包括同樣是Mr.d0x公布、流程都在瀏覽器進行的FileFix，或是覆蓋整個螢幕內容脅迫受害者依照指示操作的JackFix，以及製造瀏覽器當機假象的CrashFix、GlitchFix等。上述的變形手法都是針對社交工程流程進行調整，讓使用者更容易掉入圈套，不過，駭客也開始結合其他機制，讓惡意指令更順利執行。 微軟威脅情報團隊指出，他們發現有人在ClickFix攻擊活動導入新的迴避偵測手法，若是使用者依照指示執行經混淆處理的指令，電腦就會執行nslookup查詢攻擊者建置的惡意DNS，接著接收下個階段的有效酬載並執行，最終在電腦植入RAT木馬ModeloRAT。微軟指出，這是首度有ClickFix活動結合惡意DNS的情況。 對於攻擊者接觸受害者的過程，微軟並未說明，但指出有可能透過網路釣魚、惡意廣告，或是CAPTCHA圖靈驗證等誘餌來達到目的。究竟使用者執行駭客的指令會發生什麼事？具體來說，電腦會執行CMD，對特定的外部DN</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174007</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/HBE1kh4WYAAjaUh.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Feb 2026 06:59:25 +0000</pubDate>
     </item>
   </channel>
 </rss>

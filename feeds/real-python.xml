@@ -8,22 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Feb 2026 07:16:40 +0000</lastBuildDate>
-    <item>
-      <title>What Exactly Is the Zen of Python?</title>
-      <link>https://realpython.com/zen-of-python/</link>
-      <description>The Zen of Python is a collection of 19 guiding principles for writing good Python code. Learn its history, meaning, and hidden jokes.</description>
-      <guid isPermaLink="false">https://realpython.com/zen-of-python/</guid>
-      <enclosure url="https://files.realpython.com/media/Whats-the-Zen-of-Python_Watermarked.3ec4785e1bb9.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 11 Feb 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quiz: Python's list Data Type: A Deep Dive With Examples</title>
-      <link>https://realpython.com/quizzes/python-list/</link>
-      <description>Check your Python list skills with quick tasks on indexing, slicing, methods, copies, comprehensions, and pitfalls.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/python-list/</guid>
-      <pubDate>Thu, 12 Feb 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 24 Feb 2026 07:12:34 +0000</lastBuildDate>
     <item>
       <title>The Real Python Podcast – Episode #284: Running Local LLMs With Ollama and Connecting With Python</title>
       <link>https://realpython.com/podcasts/rpp/284/</link>
@@ -81,6 +66,21 @@
       <description>How can you move your MCP tools beyond plain text? How do you add interactive UI components directly inside chat conversations? This week on the show, Den Delimarsky from Anthropic joins us to discuss MCP Apps and interactive UIs in MCP.</description>
       <guid isPermaLink="false">https://realpython.com/podcasts/rpp/285/</guid>
       <pubDate>Fri, 20 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quiz: Build a Hash Table in Python With TDD</title>
+      <link>https://realpython.com/quizzes/python-hash-table/</link>
+      <description>Learn how Python hashing spreads values into buckets and powers hash tables. Practice collisions, uniform distribution, and test-driven development.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/python-hash-table/</guid>
+      <pubDate>Mon, 23 Feb 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Python for Loops: The Pythonic Way</title>
+      <link>https://realpython.com/python-for-loop/</link>
+      <description>Learn how to use Python for loops to iterate over lists, tuples, strings, and dictionaries with Pythonic looping techniques.</description>
+      <guid isPermaLink="false">https://realpython.com/python-for-loop/</guid>
+      <enclosure url="https://files.realpython.com/media/UPDATE-Python-for-Loops-Definite-Iteration_Watermarked.32bfd8825dfe.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Feb 2026 14:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

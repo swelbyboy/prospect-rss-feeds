@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Feb 2026 07:08:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Feb 2026 07:04:28 +0000</lastBuildDate>
     <item>
-      <title>AppArmor Enhancements Merged For Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-AppArmor</link>
-      <description>The AppArmour security module for the Linux kernel, which most notably is backed by Canonical for Ubuntu, has some small improvements and fixes for Linux 7.0...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-AppArmor</guid>
-      <pubDate>Sat, 21 Feb 2026 17:21:41 +0000</pubDate>
+      <title>RBOS 2026-02-22 As Latest Linux Live ISO To Showcase Wayland</title>
+      <link>https://www.phoronix.com/news/RBOS-2026-02-22</link>
+      <description>While these days nearly every major desktop Linux distribution is using Wayland or at least making it available, a decade ago before reaching that maturity one of the options for showing off the potential of Wayland was the oddly-named RebeccaBlack OS. With "RBOS" it shipped the very latest Wayland components and different desktop and toolkit options to easily try out Wayland-based environments from a live Linux environment. Released overnight was a surprise update to RBOS...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/RBOS-2026-02-22</guid>
+      <pubDate>Mon, 23 Feb 2026 11:37:23 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Makes Preparations For Rust 1.95</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Rust-1.95-Prep</link>
-      <description>Last week was the main feature pull of Rust programming language updates for the Linux 7.0 kernel merge window. Most notable with that pull was Rust officially concluding its "experimental" in now treating Rust for Linux kernel/driver programming as stable and here to stay. Sent out today was a round of Rust fixes for Linux 7.0 that includes preparations for the upcoming Rust 1.95 release...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Rust-1.95-Prep</guid>
-      <pubDate>Sun, 22 Feb 2026 01:16:56 +0000</pubDate>
+      <title>Intel ANV Driver Sees Several Vulkan Video H.265 Encode Fixes</title>
+      <link>https://www.phoronix.com/news/Mesa-26.1-devel-ANV-H265-Encode</link>
+      <description>For those interested in Vulkan Video on the Intel "ANV" open-source Linux driver, merged last week to Mesa 26.1-devel were some H.265 encode fixes...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.1-devel-ANV-H265-Encode</guid>
+      <pubDate>Mon, 23 Feb 2026 13:59:00 +0000</pubDate>
     </item>
     <item>
-      <title>Microsoft Hyper-V Lands Some Useful Improvements In Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Hyper-V-Linux-7.0-Improvements</link>
-      <description>For those dealing with Microsoft Hyper-V for virtualization, the Linux 7.0 mainline kernel has seen a number of improvements there. This work follows KVM also bringing some nice improvements in Linux 7.0...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Hyper-V-Linux-7.0-Improvements</guid>
-      <pubDate>Sun, 22 Feb 2026 10:58:14 +0000</pubDate>
+      <title>Modern AMD Graphics Driver Surpasses Six Million Lines Of Code In Linux 7.0</title>
+      <link>https://www.phoronix.com/news/AMD-Six-Million-Lines-Linux-7.0</link>
+      <description>It was less than four years ago that the modern AMDGPU/AMDKFD open-source driver stack was at four million lines of C code and header files. Now with the Linux 7.0 kernel it has surpassed six million lines. Or put another way, by the same calculations Linux 7.0-rc1 is at 39.2 million with the modern AMD kernel graphics driver now making up 15% of the kernel's entire codebase as the single largest driver...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-Six-Million-Lines-Linux-7.0</guid>
+      <pubDate>Mon, 23 Feb 2026 14:33:09 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Further Prepares For Intel Diamond Rapids With NTB Driver Support</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-NTB</link>
-      <description>The upstream Linux kernel appears largely ready for Intel's next-generation Xeon Diamond Rapids processors as the successor to Granite Rapids. Most of the driver support appears to have been settled for a while with just some stragglers remaining. With the ongoing Linux 7.0 kernel one new addition for Diamond Rapids is NTB driver support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-NTB</guid>
-      <pubDate>Sun, 22 Feb 2026 11:14:14 +0000</pubDate>
+      <title>FreeBSD's Rust Kernel Support Could Be Stable Enough To Try This Year</title>
+      <link>https://www.phoronix.com/news/FreeBSD-Q4-2025-Status-Report</link>
+      <description>The FreeBSD Project has published their Q4'2025 status report to outline progress made on their software, infrastructure, and other initiatives over the past quarter. Meanwhile among the work to look forward to this year in FreeBSD is getting their Rust kernel driver support up to scratch...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-Q4-2025-Status-Report</guid>
+      <pubDate>Mon, 23 Feb 2026 15:13:25 +0000</pubDate>
     </item>
     <item>
-      <title>Yet Another Fix Coming For Older AMD GPUs On Linux - Thanks To Valve Developer</title>
-      <link>https://www.phoronix.com/news/Hawaii-Macs-AMDGPU-DC-Fix</link>
-      <description>Timur Kristóf of Valve's open-source Linux graphics driver team has been doing a fantastic job enhancing the older AMD Radeon GPU support under Linux. Last year he made enough improvements to the AMDGPU open-source driver that older Radeon GCN 1.0/1.1 dGPUs switched over to AMDGPU by default for nice performance gains, RADV Vulkan driver support out of the box, and all around better experience than using the legacy Radeon driver. He's also been fixing countless bugs affecting older AMD GPUs. The</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Hawaii-Macs-AMDGPU-DC-Fix</guid>
-      <pubDate>Sun, 22 Feb 2026 11:33:39 +0000</pubDate>
+      <title>Linux 7.0 Features Include More Preparations For AMD Zen 6 &amp;amp; Intel Nova Lake</title>
+      <link>https://www.phoronix.com/review/linux-7-features-changes</link>
+      <description>While the version bump to 7.0 is driven solely by Linus Torvalds' versioning preferences, with Linux 7.0 there are many great changes to be found in this upcoming stable kernel version to power the likes of Ubuntu 26.04 LTS. Here is a recap of all the interesting changes with Linux 7.0.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/linux-7-features-changes</guid>
+      <pubDate>Mon, 23 Feb 2026 16:06:07 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Zen 6 Performance Events &amp;amp; Metrics Merged For Linux 7.0</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Perf-Tools</link>
-      <description>Ahead of the Linux 7.0 merge window closing later today with the Linux 7.0-rc1 release, the performance "perf" subsystem tooling changes were merged on Saturday. Among the notable changes here are the performance events and metrics handling for upcoming AMD Zen 6 processors...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Perf-Tools</guid>
-      <pubDate>Sun, 22 Feb 2026 11:50:00 +0000</pubDate>
+      <title>Firefox 148 Now Available With The New AI Controls / AI Kill Switches</title>
+      <link>https://www.phoronix.com/news/Firefox-148</link>
+      <description>Firefox 148 release binaries are now available ahead of the official release announcement on Tuesday. Most notable is the new AI controls found with Firefox 148 for those wishing to disable Firefox's growing AI capabilities...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Firefox-148</guid>
+      <pubDate>Mon, 23 Feb 2026 16:40:20 +0000</pubDate>
     </item>
     <item>
-      <title>AOMedia Open Audio Codec "OAC" Aims To Be The Successor To Opus</title>
-      <link>https://www.phoronix.com/news/AOMedia-OAC-Open-Audio-Codec</link>
-      <description>While the Alliance For Open Media "AOMedia" is most known for developing the AV1 open video codec, the associated AV1 Image File Format (AVIF), and the next-generation AV2, they are now working on the Open Audio Codec (OAC)...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AOMedia-OAC-Open-Audio-Codec</guid>
-      <pubDate>Sun, 22 Feb 2026 14:57:00 +0000</pubDate>
+      <title>Intel Releases OpenVINO 2026 With Improved NPU Handling, Expanded LLM Support</title>
+      <link>https://www.phoronix.com/news/Intel-OpenVINO-2026.0-Released</link>
+      <description>Intel's open-source OpenVINO AI toolkit is out with its first major release of 2026. With today's OpenVINO 2026.0 release there is expanded large language model (LLM) support, improved Intel NPU support for Core Ultra systems, and a variety of other enhancements for benefiting Intel's CPU / NPU / GPU range of products for AI...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-OpenVINO-2026.0-Released</guid>
+      <pubDate>Mon, 23 Feb 2026 18:19:44 +0000</pubDate>
     </item>
     <item>
-      <title>GNU Gawk 5.4 Released With New MinRX Regex Matcher, Faster Reading Of Files</title>
-      <link>https://www.phoronix.com/news/GNU-Gawk-5.4-Released</link>
-      <description>Developers behind the widely-used GNU Awk text processing utility today released Gawk 5.4...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-Gawk-5.4-Released</guid>
-      <pubDate>Sun, 22 Feb 2026 17:18:44 +0000</pubDate>
+      <title>Qualcomm Posts Patches For New DSP Accelerator Linux Driver</title>
+      <link>https://www.phoronix.com/news/Qualcomm-DSP-Accel-Driver</link>
+      <description>The newest driver proposed for the Linux kernel's accelerator "accel" subsystem is named QDA and is a Qualcomm DSP Accelerator driver...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Qualcomm-DSP-Accel-Driver</guid>
+      <pubDate>Mon, 23 Feb 2026 20:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Credits Now Honor The Creator Of Linux-Next</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Credits-Linux-Next</link>
-      <description>There's the usual flurry of last minute fixes and other items being herded into the Linux 7.0 codebase today right ahead of the merge window being closed with the imminent Linux 7.0-rc1 release. Among that last minute work is now recognizing Stephen Rothwell's contributions to creating and maintaining Linux-Next over the past eighteen years...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Credits-Linux-Next</guid>
-      <pubDate>Sun, 22 Feb 2026 22:05:25 +0000</pubDate>
+      <title>Linus Torvalds Drops Old Linux Kconfig Option To Address Tiresome Kernel Log Spam</title>
+      <link>https://www.phoronix.com/news/Torvalds-Unseeded-Random</link>
+      <description>Following yesterday's Linux 7.0-rc1 release, Linus Torvalds authored and merged a patch to get rid of the Linux kernel's WARN_ALL_UNSEEDED_RANDOM Kconfig option. While that option was added with good intentions, on some systems it can yield a lot of unnecessary kernel log spam...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Torvalds-Unseeded-Random</guid>
+      <pubDate>Mon, 23 Feb 2026 21:16:22 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0-rc1 Released With Many New Features:</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-rc1-Released</link>
-      <description>Linus Torvalds just capped off the Linux 7.0 merge window with the release of Linux 7.0-rc1. While the big version bump is coincidental with Linus Torvalds liking to bump it after x.19, Linux 7.0 is quite heavy on new features...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-rc1-Released</guid>
-      <pubDate>Sun, 22 Feb 2026 22:16:00 +0000</pubDate>
+      <title>Mesa PanVK Driver Seeing Up To 25.7x Speedup For MSAA</title>
+      <link>https://www.phoronix.com/news/Mesa-PanVK-25.7x-16x-MSAA</link>
+      <description>The open-source PanVK driver providing Vulkan support for modern Arm Mali graphics hardware is seeing big speed-ups in the multi-sample anti-aliasing (MSAA) performance in Vulkan tests as a result of new code merged today to Mesa 26.1...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-PanVK-25.7x-16x-MSAA</guid>
+      <pubDate>Tue, 24 Feb 2026 01:15:45 +0000</pubDate>
     </item>
   </channel>
 </rss>
