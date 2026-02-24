@@ -8,55 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Feb 2026 07:23:16 +0000</lastBuildDate>
-    <item>
-      <title>Rapidata emerges to shorten AI model development cycles from months to days with near real-time RLHF</title>
-      <link>https://venturebeat.com/data/rapidata-emerges-to-shorten-ai-model-development-cycles-from-months-to-days</link>
-      <description>Despite growing chatter about a future when much human work is automated by AI, one of the ironies of this current tech boom is how stubbornly reliant on human beings it remains, specifically the process of training AI models using reinforcement learning from human feedback (RLHF). At its simplest, RLHF is a tutoring system: after an AI is trained on curated data, it still makes mistakes or sounds robotic. Human contractors are then hired en masse by AI labs to rate and rank a new model's output</description>
-      <guid isPermaLink="false">https://venturebeat.com/data/rapidata-emerges-to-shorten-ai-model-development-cycles-from-months-to-days</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6A3hRqADsdiALNRF8aUM8e/09c213e4e98031ecb62ef459a6de8967/r8BFky--_XqHqt4iCIRmm.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google launches Gemini 3.1 Pro, retaking AI crown with 2X+ reasoning performance boost</title>
-      <link>https://venturebeat.com/technology/google-launches-gemini-3-1-pro-retaking-ai-crown-with-2x-reasoning</link>
-      <description>Late last year, Google briefly took the crown for most powerful AI model in the world with the launch of Gemini 3 Pro — only to be surpassed within weeks by OpenAI and Anthropic releasing new models, s is common in the fiercely competitive AI race.Now Google is back to retake the throne with an updated version of that flagship model: Gemini 3.1 Pro, positioned as a smarter baseline for tasks where a simple response is insufficient—targeting science, research, and engineering workflows that deman</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/google-launches-gemini-3-1-pro-retaking-ai-crown-with-2x-reasoning</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4WI6UovKEMHNOYRmLhUkWL/7353b15db9e6644396c21abfb95c9f42/odtwyodoZOZvjDt413OWa_05gXxMoM.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 17:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How attackers hit 700 organizations through CX platforms your SOC already approved</title>
-      <link>https://venturebeat.com/security/cx-security-gaps-ai-stack-blind-spots</link>
-      <description>CX platforms process billions of unstructured interactions a year: Survey forms, review sites, social feeds, call center transcripts, all flowing into AI engines that trigger automated workflows touching payroll, CRM, and payment systems. No tool in a security operation center leader’s stack inspects what a CX platform’s AI engine is ingesting, and attackers figured this out. They poison the data feeding it, and the AI does the damage for them.The Salesloft/Drift breach in August 2025 proved exa</description>
-      <guid isPermaLink="false">https://venturebeat.com/security/cx-security-gaps-ai-stack-blind-spots</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/43aX4cDa02bPoqhoIKZoZM/fbdb75fd26097eae87df002190cb9af5/final_hero.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 20:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google Gemini 3.1 Pro first impressions: a 'Deep Think Mini' with adjustable reasoning on demand</title>
-      <link>https://venturebeat.com/technology/google-gemini-3-1-pro-first-impressions-a-deep-think-mini-with-adjustable</link>
-      <description>For the past three months, Google's Gemini 3 Pro has held its ground as one of the most capable frontier models available. But in the fast-moving world of AI, three months is a lifetime — and competitors have not been standing still.Earlier today, Google released Gemini 3.1 Pro, an update that brings a key innovation to the company's workhorse power model: three levels of adjustable thinking that effectively turn it into a lightweight version of Google's specialized Deep Think reasoning system.T</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/google-gemini-3-1-pro-first-impressions-a-deep-think-mini-with-adjustable</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3QN1ZUexlvrsauz6g2NrrK/42bc7a43c49aab36315e98993de78af1/ClKBtgX7u8IrQZI9CACCZ.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 22:26:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft Copilot ignored sensitivity labels twice in eight months — and no DLP stack caught either one</title>
-      <link>https://venturebeat.com/security/microsoft-copilot-ignoring-sensitivity-labels-dlp-cant-stop-ai-trust-failures</link>
-      <description>For four weeks starting January 21, Microsoft's Copilot read and summarized confidential emails despite every sensitivity label and DLP policy telling it not to. The enforcement points broke inside Microsoft’s own pipeline, and no security tool in the stack flagged it. Among the affected organizations was the U.K.'s National Health Service, which logged it as INC46740412 — a signal of how far the failure reached into regulated healthcare environments. Microsoft tracked it as CW1226324. The advis</description>
-      <guid isPermaLink="false">https://venturebeat.com/security/microsoft-copilot-ignoring-sensitivity-labels-dlp-cant-stop-ai-trust-failures</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6eWUiMSKOjSVNlbiteomeO/364f5c111de56d69d252a9ccc911923f/copilot_hero.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 20 Feb 2026 19:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Runlayer is now offering secure OpenClaw agentic capabilities for large enterprises</title>
-      <link>https://venturebeat.com/orchestration/runlayer-is-now-offering-secure-openclaw-agentic-capabilities-for-large</link>
-      <description>OpenClaw, the open source AI agent that excels at autonomous tasks on computers and which users can communicate with through popular messaging apps, has undoubtedly become a phenomena since its launch in November 2025, and especially in the last few months.Lured by the promise of greater business automation, solopreneurs and employees of large enterprises are increasingly installing it on their work machines — despite a number of documented security risks.Now, as a result IT and security departm</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/runlayer-is-now-offering-secure-openclaw-agentic-capabilities-for-large</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4LaBwVfbgT5gHWyOlEQ4l3/74b270a54e64ce21a60d24a482d5ab22/I1q8RN879yqG8ZDyBQvtU_OPi2ULia.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 20 Feb 2026 22:05:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 24 Feb 2026 07:18:58 +0000</lastBuildDate>
     <item>
       <title>Shadow mode, drift alerts and audit logs: Inside the modern audit loop</title>
       <link>https://venturebeat.com/orchestration/shadow-mode-drift-alerts-and-audit-logs-inside-the-modern-audit-loop</link>
@@ -64,6 +16,54 @@
       <guid isPermaLink="false">https://venturebeat.com/orchestration/shadow-mode-drift-alerts-and-audit-logs-inside-the-modern-audit-loop</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2lIgm3tWKNlbNcAqMNsFXB/d06b37a9da80c563b72a3c9311f38031/Audit_loop.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Sun, 22 Feb 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Agents are delivering real ROI — Here's what 1,100 developers and CTOs reveal about scaling them</title>
+      <link>https://venturebeat.com/orchestration/ai-agents-are-delivering-real-roi-heres-what-1-100-developers-and-ctos</link>
+      <description>Presented by DigitalOceanFrom refactoring codebases to debugging production code, AI agents are already proving their value. But scaling them in production remains the exception, not the rule. In DigitalOcean’s 2026 Currents research report, based on a survey of more than 1,100 developers, CTOs, and founders, 67% of organizations using agents report productivity gains. Meanwhile, 60% of respondents say applications and agents represent the greatest long-term value in the AI stack. Yet, only 10%</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/ai-agents-are-delivering-real-roi-heres-what-1-100-developers-and-ctos</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6T8BoZdjL8FB8SPwV16gxU/174167a5afd38d806a5fb66859311d6e/AdobeStock_507970416.jpeg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Feb 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic's Claude Code Security is available now after finding 500+ vulnerabilities: how security leaders should respond</title>
+      <link>https://venturebeat.com/security/anthropic-claude-code-security-reasoning-vulnerability-hunting</link>
+      <description>Anthropic pointed its most advanced AI model, Claude Opus 4.6, at production open-source codebases and found a plethora of security holes: more than 500 high-severity vulnerabilities that had survived decades of expert review and millions of hours of fuzzing, with each candidate vetted through internal and external security review before disclosure. Fifteen days later, the company productized the capability and launched Claude Code Security.Security directors responsible for seven-figure vulnera</description>
+      <guid isPermaLink="false">https://venturebeat.com/security/anthropic-claude-code-security-reasoning-vulnerability-hunting</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4yR2yRPMyVDENsc3LePH0g/470f944f258db5254dc0ee056e52b1c9/hero_anthropic_story.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Feb 2026 15:44:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Researchers baked 3x inference speedups directly into LLM weights — without speculative decoding</title>
+      <link>https://venturebeat.com/orchestration/researchers-baked-3x-inference-speedups-directly-into-llm-weights-without</link>
+      <description>As agentic AI workflows multiply the cost and latency of long reasoning chains, a team from the University of Maryland, Lawrence Livermore National Labs, Columbia University and TogetherAI has found a way to bake 3x throughput gains directly into a model's weights.Unlike speculative decoding, which requires a separate drafting model, this approach requires no additional infrastructure — just a single special token added to the model's existing architecture.The limits of next-token predictionNext</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/researchers-baked-3x-inference-speedups-directly-into-llm-weights-without</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7lB8UaMsO4LhTkCf5Tf7Yf/40524ebbaf93e89ba37322f9753fdd03/multi-token_prediction.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Feb 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic says DeepSeek, Moonshot, and MiniMax used 24,000 fake accounts to rip off Claude</title>
+      <link>https://venturebeat.com/technology/anthropic-says-deepseek-moonshot-and-minimax-used-24-000-fake-accounts-to</link>
+      <description>Anthropic dropped a bombshell on the artificial intelligence industry Monday, publicly accusing three prominent Chinese AI laboratories — DeepSeek, Moonshot AI, and MiniMax — of orchestrating coordinated, industrial-scale campaigns to siphon capabilities from its Claude models using tens of thousands of fraudulent accounts.The San Francisco-based company said the three labs collectively generated more than 16 million exchanges with Claude through approximately 24,000 fake accounts, all in violat</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/anthropic-says-deepseek-moonshot-and-minimax-used-24-000-fake-accounts-to</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/vgR8Wyc97pPTG90zTzQGX/9988675ce7156041adcf19bf19895fde/nuneybits_Vector_art_of_giant_syringe_siphoning_circuit-lines_i_60db17a8-17a3-4f0a-bece-ed1cfb79d116.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Feb 2026 22:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>One engineer made a production SaaS product in an hour: here's the governance system that made it possible</title>
+      <link>https://venturebeat.com/orchestration/one-engineer-made-a-production-saas-product-in-an-hour-heres-the-governance</link>
+      <description>Every engineering leader watching the agentic coding wave is eventually going to face the same question: if AI can generate production-quality code faster than any team, what does governance look like when the human isn't writing the code anymore?Most teams don't have a good answer yet. Treasure Data, a SoftBank-backed customer data platform serving more than 450 global brands, now has one, though they learned parts of it the hard way.The company today officially announced Treasure Code, a new A</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/one-engineer-made-a-production-saas-product-in-an-hour-heres-the-governance</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2LXjt32cwUg6zhRZwofUc7/6771abe5244e9fe9fff86de9ba0cf984/treasure-data-vibe-coding-smk1.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Feb 2026 22:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google clamps down on Antigravity 'malicious usage', cutting off OpenClaw users in sweeping ToS enforcement move</title>
+      <link>https://venturebeat.com/orchestration/google-clamps-down-on-antigravity-malicious-usage-cutting-off-openclaw-users</link>
+      <description>Google caused controversy among some developers this weekend and today, Monday, February 23rd, after restricting their usage of its new Antigravity "vibe coding" platform, alleging "maliciously usage." Some users who had been using the open source autonomous AI agent OpenClaw in conjunction with agents built on Antigravity, as well as those who had connected OpenClaw agents to their Gmails, claimed on social media that they lost access to their Google accounts. According to Google, said users ha</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/google-clamps-down-on-antigravity-malicious-usage-cutting-off-openclaw-users</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/vwGThxYtgeCfHxjn466tk/5630229b22b3017cc1edff8e5021d66a/crimedy7_illustration_of_a_lobster_thats_in_a_cage_--ar_169_-_2081b356-9d2f-480b-9bef-99c11d44bb10_1.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Feb 2026 23:01:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,31 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Feb 2026 07:42:27 +0000</lastBuildDate>
-    <item>
-      <title>Installer Laravel en 5 minutes avec php.new</title>
-      <link>https://www.programmez.com/actualites/installer-laravel-en-5-minutes-avec-phpnew-39034</link>
-      <description>Basiquement pour utiliser Laravel, il faut installer PHP, Composer, Laravel et configurer l'environnement. Une fois que tout est installé, et sans erreurs, vous pouvez vérifier l'environnement dans votre Terminal :php -vcomposerlaravalpuis si tout est bon, vous pouvez créer votre 1er projet Laravel : laravel new (mon app)Pour simplifier à l'extrême votre installation, vous pouvez passer par PHP.new. Il se propose de tout installer. Il détecte si vous êtes sur Linux, macOS ou Windows. Selon l'OS,</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/installer-laravel-en-5-minutes-avec-phpnew-39034</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 18 Feb 2026 13:30:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google Glimmer : une interface adaptée aux écrans transparents</title>
-      <link>https://www.programmez.com/actualites/google-glimmer-une-interface-adaptee-aux-ecrans-transparents-39035</link>
-      <description>Une des difficultés des matériels XR (réalité virtuelle, réalité mixte) est de (re)définir une interface adaptée aux nouveaux modes d'affichage et d'interactivité. Les lunettes ou les casques à visière transparente obligent à mixer le monde réel et le monde "virtuel" de l'informatique. Pour les matériels Android XR, Google propose Glimmer, un design d'interface pour les lunettes connectées. Glimmer choisit de préserver au maximum la vision réelle de l'utilisateur. Il faut trouver un équilibre en</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/google-glimmer-une-interface-adaptee-aux-ecrans-transparents-39035</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/glimmer.png?itok=zP35AwoM" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 18 Feb 2026 14:24:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Python Environnements Extension : pour unifier les environnements Python sur Visual Studio Code</title>
-      <link>https://www.programmez.com/actualites/python-environnements-extension-pour-unifier-les-environnements-python-sur-visual-studio-code-39036</link>
-      <description>Pour simplifier et unifier l'environnement de développement Python sur Visual Studio Code, on dispose de la nouvelle extension Python Environnements. Il doit unifier le modèle de développement, gérer les environnements et les workflows, gérer les interpréteurs et les packages. Jusqu'é présent, l'expérience Python était fragmenté à travers les différents outils (venv, conda, pyenv, etc.). Après plus d'un an d'ajustements et de développement, l'extension est disponible. A terme, tous les flux Pyth</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/python-environnements-extension-pour-unifier-les-environnements-python-sur-visual-studio-code-39036</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/pythonenv.png?itok=D6IIbdsT" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 07:33:25 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 24 Feb 2026 07:35:32 +0000</lastBuildDate>
     <item>
       <title>Temporal API : Chrome 144 introduit la nouvelle API pour gérer la date et l'heure</title>
       <link>https://www.programmez.com/actualites/temporal-api-chrome-144-introduit-la-nouvelle-api-pour-gerer-la-date-et-lheure-39037</link>
@@ -88,6 +64,30 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/wordpress-70-arrive-en-beta-1-39043</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
       <pubDate>Fri, 20 Feb 2026 17:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OVHcloud : limiter la hausse des prix de la RAM et tout le monde va payer</title>
+      <link>https://www.programmez.com/actualites/ovhcloud-limiter-la-hausse-des-prix-de-la-ram-et-tout-le-monde-va-payer-39044</link>
+      <description>OVhcloud, par l'intermédiaire d'Octave Klaba, a prévenu que les prix de la RAM seront tendus jusqu'en 2028... L'autre point de tensions est la disponibilité du stockage (SSD et disque dur). "Malgré tout, les prix resteront importants jusqu’à au moins 2028, le temps que de nouvelles capacités de production de mémoire voient le jour. Cette situation change les fondamentaux du coût du matériel informatique, et pas seulement dans le Cloud. Les impacts tarifaires, dépendant de la quantité de RAM et d</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/ovhcloud-limiter-la-hausse-des-prix-de-la-ram-et-tout-le-monde-va-payer-39044</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Feb 2026 08:01:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Des projets open source se révoltent contre les codes "non humains" et veulent fixer des règles et des limites</title>
+      <link>https://www.programmez.com/actualites/des-projets-open-source-se-revoltent-contre-les-codes-non-humains-et-veulent-fixer-des-regles-et-des-39045</link>
+      <description>Plusieurs projets open source ne veulent plus voir de code généré par des agents et autres pratiques de « vibe coding ». Par exemple, Widelands, un jeu open source de stratégie en temps réel, a annoncé le 24 février le blocage des contenus générés par une IA, un agent ou tout autre outil d’IA."L'équipe de développement de Widelands rédige une résolution visant à refuser les contributions de contenu généré par l'IA (code, graphismes, musique, etc.) au code source et aux dépôts du jeu. Nous estimo</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/des-projets-open-source-se-revoltent-contre-les-codes-non-humains-et-veulent-fixer-des-regles-et-des-39045</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/widelands.png?itok=rQ793_R2" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Feb 2026 09:06:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenJDK 25 dans Ubuntu 26.04 Resolute Raccoon</title>
+      <link>https://www.programmez.com/actualites/openjdk-25-dans-ubuntu-2604-resolute-raccoon-39047</link>
+      <description>Les fonctionnalités d'Ubuntu 26.04 Resolute Raccoon sont désormais figées. Cela signifie qu'aucune fonctionnalité ne sera ajoutée à la version LTS. Elle doit être disponible souvant avril avec Linux 7.0. Parmi les nouveautés attendues :- OpenJDK 25- GCC 15- Gnome 50 et Gnome RessourcesLa prochaine étape sera la fixation de l'interface puis du noyau début avril. Catégorie actualité: Systèmes, OSUbuntuImage actualité AMP:</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/openjdk-25-dans-ubuntu-2604-resolute-raccoon-39047</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Feb 2026 14:50:04 +0000</pubDate>
     </item>
   </channel>
 </rss>
