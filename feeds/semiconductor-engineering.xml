@@ -8,50 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Feb 2026 07:33:54 +0000</lastBuildDate>
-    <item>
-      <title>The On-Device LLM Revolution</title>
-      <link>https://semiengineering.com/the-on-device-llm-revolution/</link>
-      <description>Why 3B to 30B models are moving to the edge — and what that means for silicon. The post The On-Device LLM Revolution appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/the-on-device-llm-revolution/</guid>
-      <pubDate>Fri, 20 Feb 2026 08:01:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chip Industry Week in Review</title>
-      <link>https://semiengineering.com/chip-industry-week-in-review-126/</link>
-      <description>ISSCC research blitz; $50M for agentic AI; 3D interconnects tool; Ultra Ethernet security; Watt's Law and power supply ceiling; Intel-Google security stress test; heat techniques; chip architectures at the edge; ChipPath career program. The post Chip Industry Week in Review appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/chip-industry-week-in-review-126/</guid>
-      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/01/bigsnps4356827965-Converge-SemiEngineering-1280x240-1.jpg?resize=793%2C148&amp;#038;ssl=1" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 20 Feb 2026 08:02:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nanoscale MoS₂-based Memristors Integrated into CMOS Microchips</title>
-      <link>https://semiengineering.com/nanoscale-mos%e2%82%82-based-memristors-integrated-into-cmos-microchips/</link>
-      <description>A new technical paper, “Integration of Low-Voltage Nanoscale MoS2 Memristors on CMOS Microchips” was published by RWTH Aachen and Forschungszentrum Jülich GmbH. Abstract “2D materials (2DMs) are gaining increased attention for applications such as advanced electronics and neuromorphic computing due to their excellent electrical properties. Among these 2DMs, molybdenum disulfide (MoS2) has shown promise as... » read more The post Nanoscale MoS₂-based Memristors Integrated into CMOS Microchips app</description>
-      <guid isPermaLink="false">https://semiengineering.com/nanoscale-mos%e2%82%82-based-memristors-integrated-into-cmos-microchips/</guid>
-      <pubDate>Fri, 20 Feb 2026 17:44:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Electrical Model of the Bitflip in SRAM Under Laser Illumination Simulating Laser Fault Injection</title>
-      <link>https://semiengineering.com/electrical-model-of-the-bitflip-in-sram-under-laser-illumination-simulating-laser-fault-injection/</link>
-      <description>A new technical paper, “Electrical modelisation of a bitflip in SRAM cell memory induced by laser fault injection,” was published by researchers at Univ Rennes, CNRS, IETR. Abstract “An electrical model of the bitflip in SRAM under laser illumination simulating laser fault injection is proposed. This model is based on a bipolar phototransistor responsible of... » read more The post Electrical Model of the Bitflip in SRAM Under Laser Illumination Simulating Laser Fault Injection appeared first on</description>
-      <guid isPermaLink="false">https://semiengineering.com/electrical-model-of-the-bitflip-in-sram-under-laser-illumination-simulating-laser-fault-injection/</guid>
-      <pubDate>Sun, 22 Feb 2026 20:46:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Accelerator Architecture: Fusion-Aware Mapper (MIT)</title>
-      <link>https://semiengineering.com/accelerator-architecture-fusion-aware-mapper-mit/</link>
-      <description>Researchers from MIT published “Fast and Fusiest: An Optimal Fusion-Aware Mapper for Accelerator Modeling and Evaluation.” Abstract “The latency and energy of tensor algebra accelerators depend on how data movement and operations are scheduled (i.e., mapped) onto accelerators, so determining the potential of an accelerator architecture requires both a performance model and a mapper to... » read more The post Accelerator Architecture: Fusion-Aware Mapper (MIT) appeared first on Semiconductor Engi</description>
-      <guid isPermaLink="false">https://semiengineering.com/accelerator-architecture-fusion-aware-mapper-mit/</guid>
-      <pubDate>Sun, 22 Feb 2026 23:27:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Survey of GenAI Across the Full Computing Stack, From SW To Silicon (Harvard)</title>
-      <link>https://semiengineering.com/survey-of-genai-across-the-full-computing-stack-from-sw-to-silicon-harvard/</link>
-      <description>Harvard University researchers published “GenAI for Systems: Recurring Challenges and Design Principles from Software to Silicon.” Abstract “Generative AI is reshaping how computing systems are designed, optimized, and built, yet research remains fragmented across software, architecture, and chip design communities. This paper takes a cross-stack perspective, examining how generative models are being applied from code... » read more The post Survey of GenAI Across the Full Computing Stack, From</description>
-      <guid isPermaLink="false">https://semiengineering.com/survey-of-genai-across-the-full-computing-stack-from-sw-to-silicon-harvard/</guid>
-      <pubDate>Mon, 23 Feb 2026 01:12:51 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 25 Feb 2026 07:36:33 +0000</lastBuildDate>
     <item>
       <title>New Performance Requirements For Audio</title>
       <link>https://semiengineering.com/new-performance-requirements-for-audio/</link>
@@ -80,6 +37,49 @@
       <description>A new technical paper, “3D atomic-scale metrology of strain relaxation and roughness in Gate-All-Around transistors via electron ptychography,” was published by researchers at Cornell University, ASM and TSMC. Abstract “Next-generation semiconductor devices are adopting three-dimensional (3D) architectures with feature sizes in the few-nanometer regime, creating a need for atomic-scale metrology to identify and resolve performance-limiting... » read more The post 3D Atomic-Scale Metrology of Str</description>
       <guid isPermaLink="false">https://semiengineering.com/3d-atomic-scale-metrology-of-strain-relaxation-and-roughness-in-gaafets-via-electron-ptychography-cornell-asm-tsmc/</guid>
       <pubDate>Tue, 24 Feb 2026 02:23:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ultrafast Laser Filamentation Dictates Energy Deposition in Narrow-Gap Semiconductors</title>
+      <link>https://semiengineering.com/ultrafast-laser-filamentation-dictates-energy-deposition-in-narrow-gap-semiconductors/</link>
+      <description>A new technical paper, “Extreme optical nonlinearities unveiled by ultrafast laser filamentation in semiconductors,” was published by researchers at Abbe Center of Photonics, Laboratoire Hubert Curien et al. Abstract “Sky-high optical nonlinearities make semiconductors ideal platforms for multifunctional photonic devices. The fabrication of such complex devices could greatly benefit from in-volume ultrafast laser writing for... » read more The post Ultrafast Laser Filamentation Dictates Energy D</description>
+      <guid isPermaLink="false">https://semiengineering.com/ultrafast-laser-filamentation-dictates-energy-deposition-in-narrow-gap-semiconductors/</guid>
+      <pubDate>Tue, 24 Feb 2026 08:01:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chiplets 2026: Where Are We Today?</title>
+      <link>https://semiengineering.com/chiplets-2026-where-are-we-today/</link>
+      <description>Compelling reasons for using chiplets at the leading edge. The post Chiplets 2026: Where Are We Today? appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/chiplets-2026-where-are-we-today/</guid>
+      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/02/Screenshot-2026-02-23-at-3.47.13-PM.png?resize=1392%2C778&amp;#038;ssl=1" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Feb 2026 08:01:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Research Bits: Feb. 24</title>
+      <link>https://semiengineering.com/research-bits-feb-24/</link>
+      <description>Growing patterned diamond; thermal constraint for ferroelectrics; improved microLEDs. The post Research Bits: Feb. 24 appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/research-bits-feb-24/</guid>
+      <pubDate>Tue, 24 Feb 2026 08:01:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chip Industry Technical Paper Roundup: Feb. 24</title>
+      <link>https://semiengineering.com/chip-industry-technical-paper-roundup-feb-24/</link>
+      <description>Carrier mapping in sub‑2nm; CNN-to-edge HLS; sandpaper for atomic-precision surface finishing; LLM chip design education; nanolaser with extreme dielectric confinement; germanium-tin alloy semiconductors; low-voltage nanoscale MoS2 memristors; scaling routers with in-package optics and HBM4; RISC-V security. The post Chip Industry Technical Paper Roundup: Feb. 24 appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/chip-industry-technical-paper-roundup-feb-24/</guid>
+      <pubDate>Tue, 24 Feb 2026 08:01:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Three New ALD/MLD Processes for Co-organic Thin Films (Aalto University, RUB et al.)</title>
+      <link>https://semiengineering.com/three-new-ald-mld-processes-for-co-organic-thin-films-aalto-university-rub-et-al/</link>
+      <description>A new technical paper, “Amido-Amine Co(II) Precursor-Based Atomic/Molecular Layer Deposition Processes for Cobalt-Organic Thin Films and Their Thermal Conversion to CoO Thin Films,” was published by researchers at Aalto University, Ruhr University Bochum, Tyndall National Institute, ESRF et al. “Atomic/molecular layer deposition (ALD/MLD) offers a comprehensive process and application portfolio for metal–organic thin films; however,... » read more The post Three New ALD/MLD Processes for Co-orga</description>
+      <guid isPermaLink="false">https://semiengineering.com/three-new-ald-mld-processes-for-co-organic-thin-films-aalto-university-rub-et-al/</guid>
+      <pubDate>Tue, 24 Feb 2026 16:39:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Survey of DL-Based LiDAR Super-Resolution For Autonomous Driving (University College London)</title>
+      <link>https://semiengineering.com/survey-of-dl-based-lidar-super-resolution-for-autonomous-driving-university-college-london/</link>
+      <description>University College London researchers published “A Comprehensive Survey on Deep Learning-Based LiDAR Super-Resolution for Autonomous Driving.” Abstract “LiDAR sensors are often considered essential for autonomous driving, but high-resolution sensors remain expensive while affordable low-resolution sensors produce sparse point clouds that miss critical details. LiDAR super-resolution addresses this challenge by using deep learning to enhance sparse... » read more The post Survey of DL-Based LiDAR</description>
+      <guid isPermaLink="false">https://semiengineering.com/survey-of-dl-based-lidar-super-resolution-for-autonomous-driving-university-college-london/</guid>
+      <pubDate>Wed, 25 Feb 2026 00:45:34 +0000</pubDate>
     </item>
   </channel>
 </rss>

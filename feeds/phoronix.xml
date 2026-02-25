@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Feb 2026 07:04:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 07:05:46 +0000</lastBuildDate>
     <item>
-      <title>RBOS 2026-02-22 As Latest Linux Live ISO To Showcase Wayland</title>
-      <link>https://www.phoronix.com/news/RBOS-2026-02-22</link>
-      <description>While these days nearly every major desktop Linux distribution is using Wayland or at least making it available, a decade ago before reaching that maturity one of the options for showing off the potential of Wayland was the oddly-named RebeccaBlack OS. With "RBOS" it shipped the very latest Wayland components and different desktop and toolkit options to easily try out Wayland-based environments from a live Linux environment. Released overnight was a surprise update to RBOS...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/RBOS-2026-02-22</guid>
-      <pubDate>Mon, 23 Feb 2026 11:37:23 +0000</pubDate>
+      <title>CGIT 1.3 Web Frontend For Git Released After Six Years</title>
+      <link>https://www.phoronix.com/news/CGIT-1.3-Released</link>
+      <description>Jason Donenfeld of WireGuard and Linux cryptography fame has taken a break from that to release a new version of CGIT, the lightweight web interface for Git repositories. CGIT 1.3 is the first new release in six years and comes with a lot of changes...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/CGIT-1.3-Released</guid>
+      <pubDate>Tue, 24 Feb 2026 10:55:10 +0000</pubDate>
     </item>
     <item>
-      <title>Intel ANV Driver Sees Several Vulkan Video H.265 Encode Fixes</title>
-      <link>https://www.phoronix.com/news/Mesa-26.1-devel-ANV-H265-Encode</link>
-      <description>For those interested in Vulkan Video on the Intel "ANV" open-source Linux driver, merged last week to Mesa 26.1-devel were some H.265 encode fixes...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.1-devel-ANV-H265-Encode</guid>
-      <pubDate>Mon, 23 Feb 2026 13:59:00 +0000</pubDate>
+      <title>KDE Plasma 6.6.1 Released With Initial Batch Of Bug Fixes</title>
+      <link>https://www.phoronix.com/news/KDE-Plasma-6.6.1</link>
+      <description>Following last week's Plasma 6.6 release, KDE developers today shipped Plasma 6.6.1 as the first point release with an assortment of different bug fixes...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Plasma-6.6.1</guid>
+      <pubDate>Tue, 24 Feb 2026 11:02:26 +0000</pubDate>
     </item>
     <item>
-      <title>Modern AMD Graphics Driver Surpasses Six Million Lines Of Code In Linux 7.0</title>
-      <link>https://www.phoronix.com/news/AMD-Six-Million-Lines-Linux-7.0</link>
-      <description>It was less than four years ago that the modern AMDGPU/AMDKFD open-source driver stack was at four million lines of C code and header files. Now with the Linux 7.0 kernel it has surpassed six million lines. Or put another way, by the same calculations Linux 7.0-rc1 is at 39.2 million with the modern AMD kernel graphics driver now making up 15% of the kernel's entire codebase as the single largest driver...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-Six-Million-Lines-Linux-7.0</guid>
-      <pubDate>Mon, 23 Feb 2026 14:33:09 +0000</pubDate>
+      <title>LLVM/Clang 22 Compiler Officially Released With Many Improvements</title>
+      <link>https://www.phoronix.com/news/LLVM-Clang-22.1-Released</link>
+      <description>LLVM/Clang 22.1 was released overnight as the first stable release of the LLVM 22 series. This is a nice, feature-packaged half-year update to this prominent open-source compiler stack with many great refinements...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/LLVM-Clang-22.1-Released</guid>
+      <pubDate>Tue, 24 Feb 2026 11:13:20 +0000</pubDate>
     </item>
     <item>
-      <title>FreeBSD's Rust Kernel Support Could Be Stable Enough To Try This Year</title>
-      <link>https://www.phoronix.com/news/FreeBSD-Q4-2025-Status-Report</link>
-      <description>The FreeBSD Project has published their Q4'2025 status report to outline progress made on their software, infrastructure, and other initiatives over the past quarter. Meanwhile among the work to look forward to this year in FreeBSD is getting their Rust kernel driver support up to scratch...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-Q4-2025-Status-Report</guid>
-      <pubDate>Mon, 23 Feb 2026 15:13:25 +0000</pubDate>
+      <title>Intel Formally Ends Four Of Their Go Language Open-Source Projects</title>
+      <link>https://www.phoronix.com/news/Intel-Stops-Go-Projects</link>
+      <description>Following various Intel open-source projects recently being archived with Intel formally discontinuing their development, another wave of Intel open-source projects were formally sunset on Monday...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Stops-Go-Projects</guid>
+      <pubDate>Tue, 24 Feb 2026 11:28:02 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Features Include More Preparations For AMD Zen 6 &amp;amp; Intel Nova Lake</title>
-      <link>https://www.phoronix.com/review/linux-7-features-changes</link>
-      <description>While the version bump to 7.0 is driven solely by Linus Torvalds' versioning preferences, with Linux 7.0 there are many great changes to be found in this upcoming stable kernel version to power the likes of Ubuntu 26.04 LTS. Here is a recap of all the interesting changes with Linux 7.0.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/linux-7-features-changes</guid>
-      <pubDate>Mon, 23 Feb 2026 16:06:07 +0000</pubDate>
+      <title>AMD's HIP Moves To Using LLVM's New Offload Driver By Default</title>
+      <link>https://www.phoronix.com/news/AMD-HIP-Default-New-Offload</link>
+      <description>A change merged to upstream LLVM Git yesterday for LLVM 23 is moving AMD's HIP to using the new/modern offload driver by default. This aligns with a prior change for NVIDIA CUDA and already in place for OpenMP offloading too...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-HIP-Default-New-Offload</guid>
+      <pubDate>Tue, 24 Feb 2026 13:09:31 +0000</pubDate>
     </item>
     <item>
-      <title>Firefox 148 Now Available With The New AI Controls / AI Kill Switches</title>
-      <link>https://www.phoronix.com/news/Firefox-148</link>
-      <description>Firefox 148 release binaries are now available ahead of the official release announcement on Tuesday. Most notable is the new AI controls found with Firefox 148 for those wishing to disable Firefox's growing AI capabilities...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Firefox-148</guid>
-      <pubDate>Mon, 23 Feb 2026 16:40:20 +0000</pubDate>
+      <title>Google Cloud N4 Series Benchmarks: Google Axion vs. Intel Xeon vs. AMD EPYC Performance</title>
+      <link>https://www.phoronix.com/review/google-cloud-n4-arm64-epyc-xeon</link>
+      <description>Google Cloud recently launched their N4A series powered by their in-house Axion ARM64 processors. In that launch-day benchmarking last month was looking at how the N4A with Axion compared to their prior-generation ARM64 VMs powered by Ampere Altra. There were dramatic generational gains, but how does the N4A stand up to the AMD EPYC and Intel Xeon instances? Here are some follow-up benchmarks I had done to explore the N4A performance against the Intel Xeon N4 and AMD EPYC N4D series.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/google-cloud-n4-arm64-epyc-xeon</guid>
+      <pubDate>Tue, 24 Feb 2026 15:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Releases OpenVINO 2026 With Improved NPU Handling, Expanded LLM Support</title>
-      <link>https://www.phoronix.com/news/Intel-OpenVINO-2026.0-Released</link>
-      <description>Intel's open-source OpenVINO AI toolkit is out with its first major release of 2026. With today's OpenVINO 2026.0 release there is expanded large language model (LLM) support, improved Intel NPU support for Core Ultra systems, and a variety of other enhancements for benefiting Intel's CPU / NPU / GPU range of products for AI...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-OpenVINO-2026.0-Released</guid>
-      <pubDate>Mon, 23 Feb 2026 18:19:44 +0000</pubDate>
+      <title>D7VK 1.4 Released With More Improvements For Old Direct3D On Vulkan Under Linux</title>
+      <link>https://www.phoronix.com/news/D7VK-1.4-Released</link>
+      <description>D7VK is the open-source project that began implementing the Direct3D 7 APIs atop Vulkan and with time the scope expanded to include Direct3D 6 support as well as Direct3D 5 support. Out today is D7VK 1.4 for continuing to enhance the support for these older D3D versions on Vulkan under Linux...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/D7VK-1.4-Released</guid>
+      <pubDate>Tue, 24 Feb 2026 17:28:32 +0000</pubDate>
     </item>
     <item>
-      <title>Qualcomm Posts Patches For New DSP Accelerator Linux Driver</title>
-      <link>https://www.phoronix.com/news/Qualcomm-DSP-Accel-Driver</link>
-      <description>The newest driver proposed for the Linux kernel's accelerator "accel" subsystem is named QDA and is a Qualcomm DSP Accelerator driver...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Qualcomm-DSP-Accel-Driver</guid>
-      <pubDate>Mon, 23 Feb 2026 20:00:00 +0000</pubDate>
+      <title>COSMIC Epoch 1.0.8 Released With More Desktop Refinements</title>
+      <link>https://www.phoronix.com/news/COSMIC-Epoch-1.0.8</link>
+      <description>While System76 has been hard at work on a redesigned Thelio desktop chassis design, this hasn't slowed down their software work. Today they shipped COSMIC Epoch 1.0.8 as the newest work on their open-source, Rust-based desktop environment used by their in-house Pop!_OS Linux distribution as well as found in other Linux distributions too...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/COSMIC-Epoch-1.0.8</guid>
+      <pubDate>Tue, 24 Feb 2026 19:47:55 +0000</pubDate>
     </item>
     <item>
-      <title>Linus Torvalds Drops Old Linux Kconfig Option To Address Tiresome Kernel Log Spam</title>
-      <link>https://www.phoronix.com/news/Torvalds-Unseeded-Random</link>
-      <description>Following yesterday's Linux 7.0-rc1 release, Linus Torvalds authored and merged a patch to get rid of the Linux kernel's WARN_ALL_UNSEEDED_RANDOM Kconfig option. While that option was added with good intentions, on some systems it can yield a lot of unnecessary kernel log spam...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Torvalds-Unseeded-Random</guid>
-      <pubDate>Mon, 23 Feb 2026 21:16:22 +0000</pubDate>
+      <title>Lutris 0.5.21 Adds Support For Running Games Inside Valve's Latest Steam Runtime</title>
+      <link>https://www.phoronix.com/news/Lutris-0.5.21-Released</link>
+      <description>Lutris 0.5.21 is now available as the latest version of this open-source Linux game manager. With Lutris 0.5.21 comes some new runners for executing games in different environments...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Lutris-0.5.21-Released</guid>
+      <pubDate>Wed, 25 Feb 2026 01:08:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mesa PanVK Driver Seeing Up To 25.7x Speedup For MSAA</title>
-      <link>https://www.phoronix.com/news/Mesa-PanVK-25.7x-16x-MSAA</link>
-      <description>The open-source PanVK driver providing Vulkan support for modern Arm Mali graphics hardware is seeing big speed-ups in the multi-sample anti-aliasing (MSAA) performance in Vulkan tests as a result of new code merged today to Mesa 26.1...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-PanVK-25.7x-16x-MSAA</guid>
-      <pubDate>Tue, 24 Feb 2026 01:15:45 +0000</pubDate>
+      <title>AMD Posts Linux Patches For SEV-SNP BTB Isolation</title>
+      <link>https://www.phoronix.com/news/AMD-SEV-SNP-BTB-Isolation</link>
+      <description>It's quite a mouthful but today AMD posted Linux kernel patches for preparing SEV-SNP BTB isolation support for further enhancing the security of virtual machines (VMs) for confidential computing...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-SEV-SNP-BTB-Isolation</guid>
+      <pubDate>Wed, 25 Feb 2026 01:44:11 +0000</pubDate>
     </item>
   </channel>
 </rss>
