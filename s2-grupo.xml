@@ -8,21 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Feb 2026 07:30:45 +0000</lastBuildDate>
-    <item>
-      <title>Vulnerabilidades críticas en SolarWinds 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-criticas-solarwinds-2026/</link>
-      <description>Vulnerabilidad crítica – 29/01 Introducción SolarWinds ha publicado actualizaciones de seguridad para su software Web Help Desk (WHD) tras detectar varias vulnerabilidades críticas que podrían permitir a atacantes acceder sin permisos y ejecutar código malicioso remotamente. Análisis CVE-2025-40551 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H – 9,8 CVE-2025-40551 se origina porque la aplicación acepta datos serializados del exterior y los convierte sin comprobar que […] La entrada Vulnerabilid</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-solarwinds-2026/</guid>
-      <pubDate>Wed, 04 Feb 2026 09:01:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ciberseguridad e inteligencia artificial: desafíos para el CISO en 2026</title>
-      <link>https://s2grupo.es/ciberseguridad-e-inteligencia-artificial-desafios-para-el-ciso-en-2026/</link>
-      <description>El panorama actual de la ciberseguridad y la inteligencia artificial puede describirse como un dinámico juego del gato y el ratón: hackers y profesionales de la ciberseguridad compiten por adelantarse mutuamente, utilizando la IA como una herramienta clave en esta lucha. Sin lugar a dudas, la inteligencia artificial está revolucionando la ciberseguridad, proporcionando a los […] La entrada Ciberseguridad e inteligencia artificial: desafíos para el CISO en 2026 se publicó primero en S2GRUPO.</description>
-      <guid isPermaLink="false">https://s2grupo.es/ciberseguridad-e-inteligencia-artificial-desafios-para-el-ciso-en-2026/</guid>
-      <pubDate>Thu, 05 Feb 2026 08:28:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 25 Feb 2026 07:33:16 +0000</lastBuildDate>
     <item>
       <title>APOLO, el nuevo clúster valenciano de la industria de defensa para impulsar innovación, industria y autonomía estratégica</title>
       <link>https://s2grupo.es/apolo-nuevo-cluster-valenciano-de-la-industria-de-defensa/</link>
@@ -78,6 +64,20 @@
       <description>Vulnerabilidad – 13/02 Introducción CVE-2026-24399 es una vulnerabilidad de inyección de contenido en el lado del cliente similar a cross-site scripting que afecta a ChatterMate, un framework para crear chatbots de IA sin código. En versiones 1.0.8 y anteriores de ChatterMate, el chatbot puede aceptar y ejecutar HTML/JavaScript malicioso cuando se envía como entrada de chat. […] La entrada Vulnerabilidades críticas en ChatterMate 2026 se publicó primero en S2GRUPO.</description>
       <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-chattermate-2026/</guid>
       <pubDate>Mon, 16 Feb 2026 11:02:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exploits: desarrollo, aprovisionamiento y uso</title>
+      <link>https://s2grupo.es/exploits-desarrollo-aprovisionamiento-y-uso/</link>
+      <description>Introducción Los elementos tecnológicos, como el software (incluyendo firmware) o el hardware, pueden presentar fallos y errores. Cuando estos afectan a la seguridad, se les conoce comúnmente como bugs, y dan lugar a vulnerabilidades en el sistema. Una vulnerabilidad puede definirse como una cadena de debilidades unidas por causalidad, que comienza con un bug y […] La entrada Exploits: desarrollo, aprovisionamiento y uso se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/exploits-desarrollo-aprovisionamiento-y-uso/</guid>
+      <pubDate>Tue, 24 Feb 2026 16:02:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rusia: amenaza virtual, física… y mental.</title>
+      <link>https://s2grupo.es/rusia-amenaza-virtual-fisica-mental/</link>
+      <description>Imaginemos que un país quisiera causar un impacto en España a través del ciberespacio. Un país cualquiera: Rusia, por ejemplo. Esta elección, la de Rusia, es un ejercicio de imaginación que, por supuesto, nada tiene que ver con las habituales campañas de ciberataques por parte de grupos activistas pro-rusos contra intereses españoles. Tampoco con que […] La entrada Rusia: amenaza virtual, física… y mental. se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/rusia-amenaza-virtual-fisica-mental/</guid>
+      <pubDate>Tue, 24 Feb 2026 16:10:13 +0000</pubDate>
     </item>
   </channel>
 </rss>

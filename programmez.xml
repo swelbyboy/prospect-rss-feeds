@@ -8,55 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Feb 2026 07:35:32 +0000</lastBuildDate>
-    <item>
-      <title>Temporal API : Chrome 144 introduit la nouvelle API pour gérer la date et l'heure</title>
-      <link>https://www.programmez.com/actualites/temporal-api-chrome-144-introduit-la-nouvelle-api-pour-gerer-la-date-et-lheure-39037</link>
-      <description>Les dates et les heures (notamment la gestion des fuseaux et de différents formats) ont toujours été une des faiblesses des langages. Chrome introduit avec la version 144 la nouvelle API : Temporal API, déjà disponible sur Firefox. Elle doit proposer un objet standard et des fonctions pour manipuler et afficher les dates et les heures. Il est "amusant" de voir que l'implémentation des notions de Date et de Time a souvent été un problème. Une des noeuds du problème vient de la mauvaise implémenta</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/temporal-api-chrome-144-introduit-la-nouvelle-api-pour-gerer-la-date-et-lheure-39037</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/temporalapi.png?itok=khF5TPco" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 08:10:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rasbperry Pi vs ESP32 : vraies questions, mauvaises comparaisons</title>
-      <link>https://www.programmez.com/actualites/rasbperry-pi-vs-esp32-vraies-questions-mauvaises-comparaisons-39038</link>
-      <description>Raspberry Pi vs ESP32 vs Arduino, cette question revient régulièrement quand on choisit la bonne plateforme pour son projet IoT. Comme nous le disons souvent quand nous comparons les platesformes, il faut comparer ce qui est comporable. Il ne faut pas opposer une Raspberry Pi 5 avec une ESP32. La Pi est une SBC, une Single Board Computer. Il s'agit donc d'un véritable micro-ordinateur sur une unique carte. Elle contient toute l'électronique (SoC, mémoire, vidéo, audio, stockage, réseau). Et une</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/rasbperry-pi-vs-esp32-vraies-questions-mauvaises-comparaisons-39038</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/pico-1s.png?itok=Beq5x-EH" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Feb 2026 16:27:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>10 pratiques de codes et humaines à intégrer</title>
-      <link>https://www.programmez.com/actualites/10-pratiques-de-codes-et-humaines-integrer-39039</link>
-      <description>Parfois, il est bon de revenir aux fondamentaux et de se rappeler quelques concepts qui peuvent sembler simplistes, mais qui restent toujours utiles.1 / On lit plus de code qu’on en écritMême si on essaie de faire simple et clair, quand on rouvre un code six mois plus tard, on se demande souvent : qu’est-ce que j’ai voulu faire ?Bref :* des noms de variables simples, mais répondant à une logique claire* la lisibilité du code doit primer sur les performances puresEt gardez toujours en tête : sera</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/10-pratiques-de-codes-et-humaines-integrer-39039</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Fri, 20 Feb 2026 07:21:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>MySQL : tentative de relance à la FOSDEM, MariaDB peu convaincu, une lettre ouverte pour créer une fondation indépendante...</title>
-      <link>https://www.programmez.com/actualites/mysql-tentative-de-relance-la-fosdem-mariadb-peu-convaincu-une-lettre-ouverte-pour-creer-une-39040</link>
-      <description>Oracle avait profité de la FOSDEM 2026 pour mettre en avant MySQL avec un événement dédié "MySQL and friends". L'éditeur en profitait pour affimer que des fonctionnalités réservées aux versions payantes allaient bientôt rejoindre la version communautaire, notamment, les fonctions autour des vecteurs. Oracle parlait d'une nouvelle ère. Oracle cherchait à relancer les relations avec la communauté open source et rassurer sur l'avenir de mySQL. MariaDB a rapidement réagi : ""MariaDB a passé des anné</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/mysql-tentative-de-relance-la-fosdem-mariadb-peu-convaincu-une-lettre-ouverte-pour-creer-une-39040</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/capture_decran_2026-02-20_a_09.11.38.png?itok=eohBCzdg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 20 Feb 2026 08:12:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>AsteroidOS 2.0 : nouvelles montres, optimisations</title>
-      <link>https://www.programmez.com/actualites/asteroidos-20-nouvelles-montres-optimisations-39041</link>
-      <description>AsteroidOS revient en version 2.0. Il s'agit d'une version majeure. Cette distribution Linux est dédiée aux montres connectés pour les rendre totalement indépendantes et redonner vie à des montres qui ne sont plus supportées par les constructeurs. AsteroidOS a été créé en 2015. Pour développer les apps, l'OS utilise Qt et QML. La v2 permet d'assurer l'affichage constant sur plus de montres, proposer un nouveau launcher, des paramètres personnalisables, de meilleures performances, une synchronisa</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/asteroidos-20-nouvelles-montres-optimisations-39041</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/asteroidos.jpg?itok=m-YV46KK" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 20 Feb 2026 09:19:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Electrobun : une nouvelle solution pour développer des apps desktop en TypeScript</title>
-      <link>https://www.programmez.com/actualites/electrobun-une-nouvelle-solution-pour-developper-des-apps-desktop-en-typescript-39042</link>
-      <description>Electrobun est une nouvelle solution pour développer des apps desktops en TypeScript. Il se veut léger, rapide et basé sur Zig et Bun. Il permet un binding écrit en C++, Zig, le backend est assuré par Bun, et il est multiplateforme (macOS, Windows et Linux). Il a l'ambition de créer des binaires les plus petits possibles, un temps de démarrage très bas et 100 % natif pour l'interface. Electrobun se veut une meilleure réponse qu'Electron. On écrit le coeur de l'application en TypeScript avec des</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/electrobun-une-nouvelle-solution-pour-developper-des-apps-desktop-en-typescript-39042</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/electrobun.png?itok=qysFakyU" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 20 Feb 2026 14:34:34 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 25 Feb 2026 07:37:56 +0000</lastBuildDate>
     <item>
       <title>WordPress 7.0 arrive en bêta 1</title>
       <link>https://www.programmez.com/actualites/wordpress-70-arrive-en-beta-1-39043</link>
@@ -88,6 +40,54 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/openjdk-25-dans-ubuntu-2604-resolute-raccoon-39047</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
       <pubDate>Mon, 23 Feb 2026 14:50:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Xcode 26.4 beta 2 : les nouveautés se rapprochent</title>
+      <link>https://www.programmez.com/actualites/xcode-264-beta-2-les-nouveautes-se-rapprochent-39048</link>
+      <description>Le 4 mars, Apple annoncera une série de nouveautés. Toutes les rumeurs convergent vers une semaine très chargée avec au moins 5 nouveautés matérielles. Un modèle MacBook entrée de gamme semble se confirmer. En attendant, Apple propose la bêta 2 de Xcode 26.4. Cette version inclut Swift 6.3, les derniers SDK 26.4. Plusieurs nouveautés sont à noter :- de nouvelles fonctions C++26 : introduction de Pack pour les Structured Bindings, Variadic Friends...- diverses corrections de bugsNote de version :</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/xcode-264-beta-2-les-nouveautes-se-rapprochent-39048</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Feb 2026 07:27:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Oodrive étend son hébergement en France</title>
+      <link>https://www.programmez.com/actualites/oodrive-etend-son-hebergement-en-france-39049</link>
+      <description>Oodrive, éditeur français dans la collaboration, étend son hébergement en France en s'appuyant sur ETIX, un des acteurs français les plus importants sur le datacenter. Oodrive veut ainsi améliorer son hébergement en France pour localiser les données et les performances réseaux. Cette opération cherche à renforcer :● l’amélioration de la qualité de service (QoS) ;● une résilience accrue des plateformes ;● une meilleure scalabilité pour accompagner l’évolution des usages ;● une efficience énergéti</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/oodrive-etend-son-hebergement-en-france-39049</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Feb 2026 07:34:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Invent the future avec Arduino UNO Q : une compétition pour créer des IoT et des usages d'avenir</title>
+      <link>https://www.programmez.com/actualites/invent-future-avec-arduino-uno-q-une-competition-pour-creer-des-iot-et-des-usages-davenir-39050</link>
+      <description>Arduino, Qualcomm, Hacker.io, Edge Impulse annoncent une grande compétition mondiale : Invent the future avec Arduino UNO Q et App Lab. L'objectif est d'explorer le potentiel de la nouvelle carte UNO Q sur de multiples usages (domotique, IoT, industie, automatisme, jeux, etc.). Les partenaires mettent en avant le double SoC de la carte, le nouvel environnement de développement AppLab et le support d'usages IA. 300 cartes UNO Q seront offertes pour développer votre idée ! La sélection des gagnant</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/invent-future-avec-arduino-uno-q-une-competition-pour-creer-des-iot-et-des-usages-davenir-39050</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/arduinoq.jpeg?itok=seIo1kLw" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Feb 2026 08:01:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sécuriser au-delà du code : le nouveau périmètre de l’AppSec</title>
+      <link>https://www.programmez.com/actualites/securiser-au-dela-du-code-le-nouveau-perimetre-de-lappsec-39051</link>
+      <description>Avis d'expert par Eyal Dyment (VP of Security Products, JFrog)Le monde de la technologie est en pleine effervescence face au potentiel du développement logiciel assisté par l’IA et de l’automatisation. Dans le même temps, cette accélération s’accompagne d’un renforcement marqué de la pression réglementaire et d’une augmentation des risques pesant sur la chaîne d’approvisionnement logicielle. Si de nombreuses organisations continuent de s’appuyer principalement sur l’analyse du code source, une t</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/securiser-au-dela-du-code-le-nouveau-perimetre-de-lappsec-39051</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Feb 2026 08:14:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Python 3.16 : roadmap de mai 2026 à... octobre 2027</title>
+      <link>https://www.programmez.com/actualites/python-316-roadmap-de-mai-2026-octobre-2027-39052</link>
+      <description>Python dévoile la roadmap complète de la future version 3.16 qui doit sortir dans 18 mois. 5 mai : début du développement13 octobre : disponibilité de l'Alpha 1Novembre 2026 - avril 2027 : les alphas 2 à 7Fixation des fonctionnalités avec la bêta 14 mai 2017 : début de la phase bêtaFin juillet 2027 : release candidate 1, la RC2 suivra dès août5 octobre 2017 : disponibilité de la versionPython 3.16 recevra des bugfix tous les 2 mois durant 2 ans. Les patchs de sécurité jusqu'en octobre 2032. Caté</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/python-316-roadmap-de-mai-2026-octobre-2027-39052</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Feb 2026 10:21:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Convertir les codes Java en Kotlin sur Visual Studio Code : merci JetBrains</title>
+      <link>https://www.programmez.com/actualites/convertir-les-codes-java-en-kotlin-sur-visual-studio-code-merci-jetbrains-39053</link>
+      <description>JetBrains annonce une extension Visual Studio Code pour convertir les fichiers Java en Kotlin. L'extension a pour nom Java to Kotlin (J2K). Un simple menu contextuel permettra la conversion.Selon l'éditeur, J2K se veut très simple :1 / On installe l'extension2 / on ouvre un fichier Java dans son workspace3 / on sélectionne Convert to Kotlin dans le menu4 / bah, c'est tout !Petite démo :J2K sur la marketplace : https://marketplace.visualstudio.com/items?itemName=JetBrains.j2k-vscodeLe projet est</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/convertir-les-codes-java-en-kotlin-sur-visual-studio-code-merci-jetbrains-39053</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/capture_decran_2026-02-24_a_11.27.37.png?itok=0X-ewEke" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Feb 2026 10:30:53 +0000</pubDate>
     </item>
   </channel>
 </rss>

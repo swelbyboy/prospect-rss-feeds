@@ -8,80 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Feb 2026 07:06:43 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 07:07:54 +0000</lastBuildDate>
     <item>
-      <title>【資安日報】2月23日，駭客濫用AI對Fortinet防火牆發動大規模攻擊</title>
-      <link>https://www.ithome.com.tw/news/174004</link>
-      <description>新聞駭客濫用AI在55個國家入侵逾600個組態配置不當的Fortinet防火牆，企圖發動勒索軟體攻擊 威脅情報團隊Amazon Threat Intelligence揭露針對Fortinet防火牆設備的大規模攻擊活動，他們發現疑似以財務為動機的俄羅斯駭客，從今年1月11日至2月18日期間，入侵超過600臺FortiGate裝置，範圍橫跨55個國家，過程中濫用多個生成式AI服務。 Amazon強調，這起事故與許多針對FortiGate的事故不同，駭客並未利用防火牆的資安漏洞，而是針對曝露的管理連接埠，以及採用弱密碼且未啟用多因素驗證機制的系統組態，發動攻擊，若是得逞，他們就會試圖存取受害組織的AD環境，擷取完整的憑證資料庫，然後對Veeam備份基礎設施下手，疑似意圖從事勒索軟體攻擊。對此，Amazon指出，這起事故突顯小型駭客組織濫用AI服務，能夠達到過往需要大型團隊與較高技術的攻擊能力，呼籲企業組織應強化邊緣設備的憑證管理與資安防護來因應。 新型態安卓惡意軟體PromptSpy濫用Gemini持續在受害裝置活動 資安公司ESET揭露名為PromptSpy的安卓間諜軟體，主要功能是讓攻擊</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174004</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/PromptSpy-6.png" length="0" type="image/png"/>
-      <pubDate>Mon, 23 Feb 2026 09:27:09 +0000</pubDate>
+      <title>玉山金揭露虛擬資產金融三大方向，聚焦穩定幣支付和實體資產代幣化</title>
+      <link>https://www.ithome.com.tw/news/174019</link>
+      <description>新聞隨著金管會力推虛擬資產服務專法（VASP）在年底前完成立法，不少金融業也早已展開佈局。 玉山金控今天也在媒體法說會中，揭露了虛擬資產金融三大發展方向。 玉山金控董事長黃男州指出，金融未來發展將是三軌式金融，第一軌是傳統的實體金融，第二軌是現在正在發展的數位金融，靠一隻手機就可以走天下。虛擬資產金融則是金融未來的第三軌發展。 他進一步補充，不論是穩定幣或虛擬資產專法，都是世界的潮流，社會大眾對現有金融體系的信任，如銀行體系、證券體系等，這個信任基礎，讓金融業可以在未來的穩定幣、虛擬資產領域扮演一定的角色。法規和金融機構的參與，將決定未來在該領域的影響力。 玉山銀行財務長程國榮首度揭露了玉山在虛擬資產金融的未來三大發展方向。 程國榮表示，國內已有企業開始使用穩定幣進行跨境支付，玉山第一個重點是解決企業的跨境支付和國際貿易結算需求，來提升企業的效率。其次是在區塊鏈金融領域， 提供更便捷、更有效率的金融服務。 玉山關注的第三個虛擬資產焦點是RWA和Web 3技術的整合運用，程國榮表示，透過區塊鏈技術將真實世界的實體資產代幣化，可以在鏈上進行交易，這可能是理財商品未來的另一個商機，玉山正在積</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174019</guid>
+      <pubDate>Tue, 24 Feb 2026 09:37:31 +0000</pubDate>
     </item>
     <item>
-      <title>新型態安卓惡意軟體PromptSpy濫用Gemini持續在受害裝置活動</title>
-      <link>https://www.ithome.com.tw/news/174001</link>
-      <description>新聞從去年開始，駭客在借助AI的力量強化惡意軟體的攻擊成效，其中不少是濫用AI工具開發惡意程式，甚至為惡意程式加入AI功能，這種情況越來越頻繁，而這些惡意軟體大多是針對電腦打造，如今有資安公司警告，針對行動裝置的惡意軟體也開始出現類似手法。 資安公司ESET揭露名為PromptSpy的安卓間諜軟體，主要功能是讓攻擊者在受害裝置部署VNC模組，以便檢視螢幕內容及遠端操控，其中最為特別的地方在於，駭客濫用Google Gemini判讀受害裝置的螢幕畫面，確保惡意程式持續釘選在近期使用的App列表，目的是避免使用者將其終止。由於安卓惡意軟體通常會仰賴介面誘騙使用者上當，不同廠牌、型號，以及作業系統版本的安卓裝置，操作介面可能會存在差異，而本次駭客透過AI判斷螢幕畫面上的各種系統元素，使得PromptSpy能對幾乎所有安卓裝置發動攻擊，大幅擴充其影響能力。ESET指出，這是首度有人在安卓惡意程式導入AI功能。 對於此惡意軟體的攻擊來源及範圍，ESET發現駭客在除錯字串使用簡體中文，以及有人從阿根廷上傳惡意軟體檔案到VirusTotal等跡象，因此推測可能是中國駭客對阿根廷用戶進行的攻擊活動。不</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174001</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/PromptSpy-6.png" length="0" type="image/png"/>
-      <pubDate>Mon, 23 Feb 2026 09:34:09 +0000</pubDate>
+      <title>【資安日報】2月24日，NPM蠕蟲SANDWORM_MODE企圖竊取加密貨幣金鑰與開發相關機密</title>
+      <link>https://www.ithome.com.tw/news/174015</link>
+      <description>新聞惡意NPM套件發動SANDWORM_MODE蠕蟲攻擊，竊取加密貨幣金鑰與CI/CD機密，還鎖定AI開發工具 供應鏈安全業者Socket在2026年2月20日發布調查報告，揭露一波仍在擴散中的NPM供應鏈攻擊行動。至少有19個惡意套件被植入蠕蟲程式，不只竊取加密貨幣錢包金鑰與CI/CD環境機密，還會濫用遭竊的NPM與GitHub帳號持續擴散。 Socket將這波攻擊命名為SANDWORM_MODE，延續先前名為Shai-Hulud的NPM蠕蟲攻擊手法，但功能更完整、攻擊面也更廣。值得留意的是，攻擊者進一步把目標延伸到AI程式開發工具，透過MCP伺服器注入與提示詞注入機制，直接入侵開發者的工作環境。 攻擊者透過兩個NPM發布帳號official334與javaorg，上架19個名稱近似常見工具或函式庫的套件，例如cloude-code、crypto-reader-info、locale-loader-pro、node-native-bridge、secp256等。另外還有4個尚未啟動惡意功能的沉睡套件（Sleeper Packages），研究人員推測可能是後續攻擊使用的預留節點。 心理</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174015</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/fd107c8c2e071a63dec10b8bcf3197faf900dd60-1295x483.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Feb 2026 09:41:46 +0000</pubDate>
     </item>
     <item>
-      <title>圓山大飯店資訊系統被入侵，顧客資料恐遭竊</title>
-      <link>https://www.ithome.com.tw/news/174003</link>
-      <description>新聞疫情趨緩後全球各地出現報復性旅遊風潮，駭客也針對旅館及訂房網站發動攻擊，過往大部分事故是發生在國外旅館，最近臺灣有旅館也傳出相關事故。 根據國內各家媒體的報導，圓山大飯店於農曆新年期間資訊系統遭到入侵，部分顧客的資料可能遭到竊取及外流。該飯店於2月20日發布公告指出，他們於2月17日上午發現資訊系統異常，疑似遭到駭客入侵，21日再度發聲明證實是網路攻擊，並指出部分系統遭非法存取，部分客戶的資料可能遭竊或外流，實際受影響的範圍，仍有待最終鑑識結果確認。 圓山大飯店也說明事件發生之後的處理過程，例如，察覺異常後，業者隨即啟動最高等級的資安應變機制，切斷相關系統連線，並進行全面鑑識調查與風險清查等措施，也通報主管機關，請法務部調查局協助調查。 值得留意的是，圓山大飯店最早於2月17日發出防詐騙公告，很可能與本事故有關。他們表示，不會主動要求顧客以銀行轉帳或電匯方式付款，若是接獲可疑通知或是訊息，務必與該飯店聯繫查證。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174003</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E5%9C%96%E5%B1%B1%E5%A4%A7%E9%A3%AF%E5%BA%97-0221%E4%B8%AD%E6%96%87%E7%89%88.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Feb 2026 09:56:03 +0000</pubDate>
+      <title>台灣大用AI協助數萬基地臺節能，2025年省下1,800萬度電</title>
+      <link>https://www.ithome.com.tw/news/174020</link>
+      <description>新聞對行動電信業者而言，布建綿密的基地臺，才能提供行動用戶良好的通話、行動上網體驗，然而，提升行動通話、上網服務的背後是多達數萬個基地臺，這些基地臺24小時運作，用電相當可觀，為電信業者推動淨零轉型的難題之一。 台灣大哥大近期分享其永續轉型成果，該公司在2024年與台灣之星合併，合併後用戶數將近千萬，兩家行動電信商合併，不只用戶數規模增加，當時雙方現有的基地臺數量也一舉增加，考量到訊務服務重疊，或老舊基地臺汰換問題，成為雙方合併的挑戰之一。 根據統計，台灣大哥大旗下4G與5G基地臺合計約在3萬至4萬之間，數字會因為業者動態調整而浮動。而根據台灣大哥大分享的資料，其數位永續的成果，特別是利用AI技術來協助基地臺節能，2025年節省超過1,800萬度電。 其導入的AI智慧行動網路節能技術（AI in RAN 與 AI for RAN），除了先前與韓國SK電信交流的AI-RAN的節能及網路優化技術之外，台灣大哥內部AI團隊將國際交流的技術，結合台灣本地的基地臺數據，發展出AI in RAN（在無線接取網中直接嵌入AI運算）與 AI for RAN（利用 AI 來優化無線接取）的節能技術。 他</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174020</guid>
+      <pubDate>Tue, 24 Feb 2026 09:58:13 +0000</pubDate>
     </item>
     <item>
-      <title>矽谷3工程師被控竊取Google處理器商業機密，資料疑流向伊朗</title>
-      <link>https://www.ithome.com.tw/news/174000</link>
-      <description>新聞美國北加州聯邦檢察署表示，3名矽谷工程師遭聯邦大陪審團起訴，被控共謀竊取Google及其他科技公司的商業機密。檢方指稱，被告利用在相關企業負責行動運算處理器領域工作的職務權限，取得機密與敏感資訊後，外流至未授權的第三方平臺與個人裝置，包含把資料複製到彼此任職公司的工作裝置，且有資料在伊朗被存取的情形。 3名被告分別為41歲的Samaneh Ghandali、40歲的Mohammadjavad Khosravi及32歲的Soroor Ghandali，Samaneh與Soroor為姊妹，Khosravi則是Samaneh的丈夫。檢方提到，3人均在行動處理器領域任職於知名科技公司。Samaneh與Soroor曾任職於Google，後轉至另一家科技公司，Khosravi則任職於另一家科技公司。三人被控利用職務之便取得機密資訊，涉及處理器安全、密碼學等技術領域的商業機密。 被告將機密文件從公司外洩至第三方平臺與個人裝置，其中包括彼此公司的工作設備。Samaneh在Google任職期間，透過第三方通訊平臺將數百份檔案傳送至以3名被告名字命名的頻道；Soroor同樣在Google任職期間將多份</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174000</guid>
-      <pubDate>Mon, 23 Feb 2026 23:00:00 +0000</pubDate>
+      <title>AWS代理式IDE Kiro新增兩種工作流程，限縮AI代理程式碼改動範圍</title>
+      <link>https://www.ithome.com.tw/news/174016</link>
+      <description>新聞AWS旗下代理式AI開發環境Kiro，針對既有應用維護與除錯情境，擴充其規格導向開發功能Specs，新增技術設計優先（Tech Design-first）與錯誤修正（Bugfix）兩種工作流程。開發者在既定架構或高回歸風險的前提下，可透過結構化文件與測試來限縮代理的改動範圍，避免代理誤改既有正確程式碼。 AWS說明，過去Specs流程主要對應傳統產品經理與工程協作的步驟，先寫需求再做設計，最後拆解任務，適合從零開始的新專案。不過，在既有程式碼庫上加功能或修臭蟲時，開發者往往已有明確的技術路徑或既定限制，若仍強制從需求起步，容易浪費時間反覆對齊，甚至導致代理在理解不足時擴大改動範圍。 Kiro在Specs新增設計優先流程，讓開發者在撰寫規格時，不一定要從需求出發，也可以先從既有的技術設計開始。Kiro會先產出設計文件，使用者可依高階或低階設計反覆迭代，確認元件與關鍵技術取捨後，再由設計回推需求與後續任務。 另一項更新是錯誤修正的工作流程，Kiro將除錯工作所需的變更邊界寫進規格文件，要求使用者不只描述錯誤訊息，還要交代觸發條件與情境，並明確標示哪些行為必須維持不變。錯誤修正的規格文件</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174016</guid>
+      <pubDate>Tue, 24 Feb 2026 13:28:55 +0000</pubDate>
     </item>
     <item>
-      <title>Cloudflare推出新MCP伺服器，僅兩介面簡化全套Cloudflare API存取</title>
-      <link>https://www.ithome.com.tw/news/174005</link>
-      <description>新聞Cloudflare推出新的MCP伺服器，僅提供search()與execute()兩個工具介面，讓AI代理能透過程式碼探索Cloudflare OpenAPI規格，並直接呼叫Cloudflare API，涵蓋DNS、Zero Trust、Workers與R2等產品線。Cloudflare說明，該MCP伺服器的工具定義載入模型上下文後約占用1,000詞元（Token），且占用量不隨API端點數增加而擴張。 該MCP伺服器在伺服器端導入Cloudflare稱為Code Mode的作法，官方表示，模型不必逐一呼叫大量工具，而是針對具型別的SDK或OpenAPI規格撰寫可執行的程式碼流程，由伺服器端在隔離沙箱環境中執行後，只回傳任務所需結果。 在新MCP伺服器中，search()用來查詢Cloudflare OpenAPI規格，規格內的參照已預先展開，模型以JavaScript撰寫查詢邏輯，從產品、路徑與標籤等中繼資料逐步縮小範圍，而execute()則用來執行同樣以JavaScript撰寫的操作程式碼，進行API請求、分頁處理與串接多步動作，並僅回傳任務所需的資料。Cloudflare</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174005</guid>
-      <pubDate>Mon, 23 Feb 2026 23:00:00 +0000</pubDate>
+      <title>Agent要省錢不能只靠模型！Claude Code團隊揭五大提示詞快取心法</title>
+      <link>https://www.ithome.com.tw/news/174022</link>
+      <description>新聞開發圈常說一句話：「快取控制一切」（Cache Rules Everything Around Me），來形容快取對效能優化的重要性。對Claude Code這種需要長時間執行任務的AI Agent系統來說，這句話更像是設計原則。 Claude Code核心工程師Thariq Shihipar最近就分享5大心法，說明他們如何透過提示詞快取（Prompt Caching）優化系統效能、同時壓低成本。他甚至透露，Claude Code團隊非常重視提示詞快取，不只持續監控，要是發現快取命中率下降，還會視為緊急系統事故（SEV）處理。 為什麼長對話Agent特別需要快取？ 首先，像Claude Code這類程式開發型Agent，往往需要長時間對話、多次呼叫工具，也要反覆讀取和修改整個專案。長時間下來，對話內容可能累積數萬、甚至數十萬個Token。 如果每一輪對話都從頭運算整段系統提示詞與工具定義，成本就非常可觀。因此，提示詞快取成了省錢關鍵，能讓那些「不會改變的部分」算一次就好。 心法1：前綴匹配（Prefix Match） 簡單來說，提示詞快取是把模型已經處理過的前半段內容，其運算狀態先</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174022</guid>
+      <enclosure url="https://pbs.twimg.com/media/HBipHa1boAAXD_A?format=jpg&amp;amp;name=900x900" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Feb 2026 13:39:06 +0000</pubDate>
     </item>
     <item>
-      <title>國際刑警組織與非洲16國聯手打詐，逮捕651人、追回430萬美元</title>
-      <link>https://www.ithome.com.tw/news/173999</link>
-      <description>新聞國際刑警組織（Interpol）公布最新跨國打詐成果，代號「Red Card 2.0」的非洲聯合執法行動在8週內逮捕651名涉案人士，追回或凍結超過430萬美元（約新臺幣1.3億元）不法資金。執法人員同時查扣2,341項設備，關閉1,442個惡意IP位址、網域與伺服器等網路基礎設施。調查指出，相關詐騙活動涉及逾4,500萬美元財損，已辨識出1,247名受害者，多數來自非洲，也波及其他國家。 8週跨國掃蕩，鎖定高報酬投資與假貸款App詐騙 本次行動自2025年12月8日至2026年1月30日展開，由16個非洲國家執法機關共同參與，包括安哥拉、貝南、喀麥隆、象牙海岸等，並在「非洲打擊網路犯罪聯合行動（African Joint Operation against Cybercrime，AFJOC）」架構下執行。AFJOC為一項由英國外交、國協及發展事務部（Foreign, Commonwealth &amp;amp; Development Office，FCDO）資助的倡議計畫。 Red Card 2.0主要鎖定高報酬投資、行動支付及假貸款App等詐騙手法。其中，奈及利亞警方瓦解一個詐騙集團，該組織</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173999</guid>
-      <pubDate>Tue, 24 Feb 2026 02:24:32 +0000</pubDate>
+      <title>盜版Office安裝檔成誘餌，XMRig挖礦攻擊濫用驅動程式漏洞並可透過USB擴散</title>
+      <link>https://www.ithome.com.tw/news/174023</link>
+      <description>新聞威脅情資與端點防護廠商Trellix於今年2月揭露一波鎖定Monero加密貨幣的挖礦攻擊。攻擊者以盜版Office安裝檔為誘餌，植入客製化XMRig挖礦程式，不僅濫用舊版驅動程式漏洞，還可透過USB隨身碟在不同電腦間擴散。 Trellix指出，此次XMRig變種以偽裝成Explorer.exe的控制程式為攻擊中樞，負責安裝與啟動挖礦模組，同時監控挖礦處理程序是否遭終止。 該程式可透過不同命令列參數切換模式，包括安裝、正式挖礦與維持運作階段，甚至在特定條件下執行自我清除。由於挖礦模組與控制程式分離運作，即便挖礦處理程序被關閉，控制程式仍會重新啟動相關元件，使清除難度大幅提高。 以辦公軟體為誘餌，提升社交工程成功率 研究人員指出，攻擊樣本除了偽裝成盜版Microsoft Office安裝檔外，也曾以WPS Office等常見辦公軟體名義進行包裝，包含使用類似官方安裝程式的檔名與目錄結構，以提升下載與執行成功率。WPS Office在部分地區為常見的免費替代方案，使惡意檔案更容易混入下載來源。根據Trellix的研究判斷，這些樣本僅為偽裝名稱與安裝外觀，並非WPS官方軟體遭入侵。 內建「</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174023</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0224-XMRig-600-1.png" length="0" type="image/png"/>
+      <pubDate>Wed, 25 Feb 2026 03:21:53 +0000</pubDate>
     </item>
     <item>
-      <title>JetBrains發布VS Code擴充套件，可一鍵轉換Java檔成Kotlin</title>
-      <link>https://www.ithome.com.tw/news/174006</link>
-      <description>新聞JetBrains推出供VS Code使用的Java to Kotlin（J2K）轉換擴充套件，讓開發者可在VS Code內透過右鍵選單，將.java檔轉換為Kotlin程式碼，並可在檔案總管對多個檔案或資料夾批次觸發轉換，協助企業將既有Java程式碼庫搬遷至Kotlin，或在專案進行中切換語言時，降低手動改寫的成本。 JetBrains表示，IntelliJ IDEA仍是Kotlin的主力整合式開發環境。不過，考量不少開發者在不同任務與專案中會採用VS Code，JetBrains因此將Java轉Kotlin的轉換能力延伸至VS Code生態，官方指出，該擴充套件沿用其主要IDE的底層轉換引擎，使轉換後的程式碼能更符合Kotlin的慣用寫法與語法規範。 該擴充套件的重點是檔案級的轉換流程，使用者開啟.java檔後，即可在編輯器或檔案總管的右鍵選單中觸發轉換，協助開發者以檔案或資料夾為單位，分批處理Java轉Kotlin，而非一鍵完成整個專案層級的移植。 JetBrains也強調該套件適合先審閱再提交的使用情境，包括在轉換時開啟差異比對畫面，由使用者確認或取消變更，並提到可搭配Gi</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174006</guid>
-      <pubDate>Tue, 24 Feb 2026 02:25:10 +0000</pubDate>
+      <title>AMD與Meta達成6GW GPU協議，附帶最多1.6億股績效型權證</title>
+      <link>https://www.ithome.com.tw/news/174035</link>
+      <description>新聞Meta周二（2/24）宣布與AMD達成多年合作協議，AMD將以高達6GW的AMD Instinct GPU支撐Meta的AI基礎設施。此外，AMD亦將發行最多1.6億股的績效型認股權證予Meta，若全部解鎖並行使，Meta將可取得約9%的AMD股份。 Meta創辦人暨執行長祖克柏（Mark Zuckerberg）於今年1月宣布成立Meta Compute計畫，打算在未來10年建置數十GW等級的運算與能源基礎設施，還可能成長到數百GW以上。Meta表示，與AMD的合作即是Meta Compute計畫的一部分，旨在大規模擴展基礎設施，以迎接個人超智慧時代。 根據雙方的協議，Meta將採購最高達6GW的AMD Instinct GPU，用於建置下一代AI基礎設施，首批1GW部署預計於2026年下半年開始出貨，並採用雙方共同開發的Helios機架級架構。除了GPU之外，Meta亦將成為第六代AMD EPYC處理器（Venice）的主要客戶之一，強化其訓練與推論運算能力，形成GPU與CPU整合架構。 此外，雙方將建立跨世代的產品協同機制，在未來數年的GPU、CPU、系統架構與軟體平臺規畫上</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174035</guid>
+      <pubDate>Wed, 25 Feb 2026 06:04:48 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic指控DeepSeek等中國AI業者以2.4萬詐欺帳戶蒸餾Claude能力</title>
-      <link>https://www.ithome.com.tw/news/174010</link>
-      <description>新聞AI新創Anthropic本周一（2/23）發布聲明，指控DeepSeek、Moonshot與MiniMax等3家中國AI業者，透過約2.4萬個詐欺帳戶與商業代理服務，大規模存取其模型Claude，累計產生逾1,600萬次對話，以提取模型能力並訓練自家系統，違反其服務條款與區域存取限制。 Anthropic表示，相關行動採用蒸餾（Distillation）技術，即以較強模型的輸出作為訓練資料，建立較小或較低成本的模型。蒸餾在產業中本屬常見的模型壓縮手段，但若未經授權，大量利用他人模型輸出訓練自家系統，則可能構成違規與安全風險。 根據Anthropic調查，3項行動皆透過詐欺帳戶與代理架構規避偵測，提示語的數量、結構與焦點均明顯不同於一般使用模式，目標鎖定Claude的代理式推理、工具使用與程式撰寫等差異化能力。 就個別業者而言，DeepSeek與Claude互動超過15萬次，其中包含要求逐步寫出內部推理過程，以生成思維鏈訓練資料；Moonshot互動超過340萬次，涵蓋代理式推理、工具使用、程式與資料分析、電腦操作代理及電腦視覺；MiniMax則累計超過1,300萬次互動，聚焦代理</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174010</guid>
-      <pubDate>Tue, 24 Feb 2026 06:34:58 +0000</pubDate>
+      <title>IT外包商Conduent資料外洩影響再擴大到逾2,500萬人</title>
+      <link>https://www.ithome.com.tw/news/174036</link>
+      <description>新聞美國知名IT外包商Conduent 2024年秋天的資料外洩事件影響範圍超過當初預期，本周該公司將受影響人數上修到超過2500萬。 Conduent為由Xerox內部業務服務部門於2017年分拆而成。其服務業務涵蓋企業與政府部門，提供數位化流程、交通、支付交易處理、自動化、分析、客服等委外業務。Conduent去年10月向官方通報一樁發生於2024年10月到2025年1月的資料外洩事件，導致客戶資料被竊取，估計超過1,000萬，受害者遍及多州。由於Conduent客戶涵括美國多個州政府，使本案備受矚目。該公司在對美國證管會的通報中指出，該事件外洩資料包含其客戶終端使用者相關的大量個人資訊。 名為Safeway（或SafePay）的勒索軟體組織上週突然在暗網宣稱犯案，歹徒聲稱竊得8TB的資料。本週Conduent向威斯康辛州的通報文件，又更新了本案的最新影響範圍。這家IT外包商將受影響人數上調到超過2,500萬人。外洩資料型態至少包括姓名、住址、出生日期、社會安全碼、健康保險資料及醫療資訊等。不過，除官方通報內容外，Conduent並未進一步說明駭客存取了哪些系統，或是如何取得存取權</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174036</guid>
+      <pubDate>Wed, 25 Feb 2026 06:16:21 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI推論API新增WebSocket模式，代理式工具呼叫流程最高可加速40%</title>
-      <link>https://www.ithome.com.tw/news/174008</link>
-      <description>新聞OpenAI在自家模型呼叫介面Responses API推出WebSocket模式，讓開發者可透過持久的WebSocket連線呼叫API，並在多回合互動時只傳送新增的輸入項目，以回應ID銜接前一次的對話狀態。OpenAI也指出，這套模式相容ZDR（Zero Data Retention）與不保留資料的設定，主要鎖定長時間執行且工具呼叫密集的代理式工作流程。 OpenAI說明，WebSocket模式特別針對模型與工具之間需要反覆往返的情境設計，例如代理式程式開發或任務調度流程。由於連線持續保持開啟，每一回合僅送出增量輸入，可減少每回合重新銜接上下文的額外成本。官方提到，在包含20次以上工具呼叫的長鏈流程中，端到端執行時間最高可改善約40%。 與既有的HTTP呼叫方式相比，WebSocket模式延續對話狀態的方式大致相同，只是在活躍的連線，服務端可在同一條連線內以較低延遲的方式銜接。服務會在連線本地的記憶體快取中保留最近一次回應的狀態，後續若重用同一條連線並延續最新一輪回應，就能重用該狀態降低接續成本。由於狀態只保留在記憶體、不寫入磁碟，因此可相容ZDR與不保留資料設定。 單一WebS</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174008</guid>
-      <pubDate>Tue, 24 Feb 2026 06:38:07 +0000</pubDate>
+      <title>AI軍事化爭議升溫，五角大廈要求Claude全面開放</title>
+      <link>https://www.ithome.com.tw/news/174038</link>
+      <description>新聞Axios及BBC本周引述消息來源報導，美國國防部長Pete Hegseth要求Anthropic開放其AI模型Claude的使用限制，否則就要援引《國防生產法》（Defense Production Act）來逼迫Anthropic就範，或是直接將Anthropic列為「供應鏈風險」而中止合作。 其實美國國防部在2025年7月就同時與OpenAI、Google、Anthropic與xAI簽約，讓這4家AI業者各自獲得最高2億美元的國防部合約。然而，有多家媒體指出，Anthropic為目前唯一已深入機密軍事系統的前沿模型供應商，OpenAI與Google模型多數仍在非機密或過渡階段，而傳出已進入機密環境的xAI Grok則尚未被證實可全面替代Claude。 根據報導，Hegseth主動要求與Anthropic執行長Dario Amodei會面以討論此事，但Amodei重申兩條不容跨越的紅線，一是不得讓Claude無人類介入的情況下，直接做出最終軍事打擊或目標鎖定決策，二是不得將Claude用於對美國境內民眾進行全面性監控或資料蒐集，而這兩項限制亦為Anthropic既有的使用政策紅</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174038</guid>
+      <pubDate>Wed, 25 Feb 2026 06:29:23 +0000</pubDate>
     </item>
     <item>
-      <title>社交工程攻擊ClickFix出現新手法，駭客藉由查詢惡意DNS取得有效酬載</title>
-      <link>https://www.ithome.com.tw/news/174007</link>
-      <description>新聞近兩三年最氾濫的社交工程手法，莫過於資安研究員Mr.d0x在2022年揭露的ClickFix，這種誘騙使用者複製特定指令並貼上執行的手法，去年更出現多種變形版本，包括同樣是Mr.d0x公布、流程都在瀏覽器進行的FileFix，或是覆蓋整個螢幕內容脅迫受害者依照指示操作的JackFix，以及製造瀏覽器當機假象的CrashFix、GlitchFix等。上述的變形手法都是針對社交工程流程進行調整，讓使用者更容易掉入圈套，不過，駭客也開始結合其他機制，讓惡意指令更順利執行。 微軟威脅情報團隊指出，他們發現有人在ClickFix攻擊活動導入新的迴避偵測手法，若是使用者依照指示執行經混淆處理的指令，電腦就會執行nslookup查詢攻擊者建置的惡意DNS，接著接收下個階段的有效酬載並執行，最終在電腦植入RAT木馬ModeloRAT。微軟指出，這是首度有ClickFix活動結合惡意DNS的情況。 對於攻擊者接觸受害者的過程，微軟並未說明，但指出有可能透過網路釣魚、惡意廣告，或是CAPTCHA圖靈驗證等誘餌來達到目的。究竟使用者執行駭客的指令會發生什麼事？具體來說，電腦會執行CMD，對特定的外部DN</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174007</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/HBE1kh4WYAAjaUh.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Feb 2026 06:59:25 +0000</pubDate>
+      <title>React開發者最看好編譯器新功能，伺服器端元件評價仍分歧</title>
+      <link>https://www.ithome.com.tw/news/174034</link>
+      <description>新聞React社群年度大調查State of React 2025結果公開，這份由Devographics團隊主導的非官方調查。調查顯示React編譯器（Compiler）在新功能期待度居冠，React伺服器端元件（Server Components）的情緒評價較負面，名列最不受喜愛功能之一；在應用型態上，雖伺服器端算繪（SSR）與靜態網站產生（SSG）有一定採用率，但單頁應用程式（SPA）仍最常見，顯示不少開發者對React伺服器端功能持保留態度。 React Compiler是2025年官方在React Conf正式推出的功能，主打自動記憶化（Automatic Memoization），在編譯階段自動判斷可以重用的計算結果與回呼函式，減少手動加入效能最佳化操作，多數開發者對該功能態度正面。在新功能的採用度上，Suspense機制是目前採用率最高且滿意度也高的新功能。 相較之下，Server Components與Server Functions雖然使用比例逐年增加，但開發者滿意度並不理想。Server Components推出至今數年，實際導入過程存在不少開發痛點，加上2025年</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174034</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/Capture%20574%20-%20State%20of%20React%202025_%20Usage%20-%20%5B2025_stateofreact_com%5D.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Feb 2026 06:32:43 +0000</pubDate>
     </item>
   </channel>
 </rss>

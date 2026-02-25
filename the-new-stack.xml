@@ -8,47 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Feb 2026 07:27:48 +0000</lastBuildDate>
-    <item>
-      <title>Red Hat takes on Docker Desktop with its enterprise Podman Desktop build</title>
-      <link>https://thenewstack.io/red-hat-enters-the-cloud-native-developer-desktop-market/</link>
-      <description>Red Hat is perhaps the biggest name in enterprise Linux, but it’s also a major cloud-native player thanks to its The post Red Hat takes on Docker Desktop with its enterprise Podman Desktop build appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/red-hat-enters-the-cloud-native-developer-desktop-market/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/0db0afdd-arturo-esparza-sbobozi-awy-unsplash-1024x724.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 20 Feb 2026 21:00:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond the vibe code: The steep mountain MCP must climb to reach production</title>
-      <link>https://thenewstack.io/model-context-protocol-evolution/</link>
-      <description>One thing I didn’t do last year was go to any Model Context Protocol (MCP) conferences, largely because I couldn’t The post Beyond the vibe code: The steep mountain MCP must climb to reach production appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/model-context-protocol-evolution/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/708f059c-vackground-com-up8ooq1pm2s-unsplash-1024x683.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 21 Feb 2026 14:00:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Code comes to Roadmap, OpenClaw loses its head, and AI workslop</title>
-      <link>https://thenewstack.io/claude-code-comes-to-roadmap-openclaw-loses-its-head-and-ai-workslop/</link>
-      <description>I’m Matt Burns, Director of Editorial at Insight Media Group. Each week, I round up the most important AI developments, The post Claude Code comes to Roadmap, OpenClaw loses its head, and AI workslop appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/claude-code-comes-to-roadmap-openclaw-loses-its-head-and-ai-workslop/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/7771302a-screenshot-2026-02-20-at-9.00.58-am-1024x475.png" length="0" type="image/png"/>
-      <pubDate>Sat, 21 Feb 2026 15:05:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why Kubernetes 1.35 is a game-changer for stateful workload scaling</title>
-      <link>https://thenewstack.io/kubernetes-vpa-inplace-resize/</link>
-      <description>With Kubernetes 1.35, the In-Place Pod Resize feature has graduated to GA, and Vertical Pod Autoscaling InPlaceOrRecreate update mode has The post Why Kubernetes 1.35 is a game-changer for stateful workload scaling appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/kubernetes-vpa-inplace-resize/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/f4366d87-ruliff-andrean-rmxjbihxjws-unsplash-1024x576.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 21 Feb 2026 16:00:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wasm vs. JavaScript: Who wins at a million rows?</title>
-      <link>https://thenewstack.io/wasm-vs-javascript-who-wins-at-a-million-rows/</link>
-      <description>By now it’s pretty clear that JavaScript needs WebAssembly (Wasm) to perform heavy computational tasks. In the past few weeks The post Wasm vs. JavaScript: Who wins at a million rows? appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/wasm-vs-javascript-who-wins-at-a-million-rows/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/afa90ac7-andreas-schmidt-wg130v7-eh4-unsplash-1024x683.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 22 Feb 2026 14:00:13 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 25 Feb 2026 07:30:09 +0000</lastBuildDate>
     <item>
       <title>Cloudflare’s Markdown for Agents automatically make websites agent-ready</title>
       <link>https://thenewstack.io/cloudflares-markdown-for-agents-automatically-make-websites-more-aifriendly/</link>
@@ -88,6 +48,46 @@
       <guid isPermaLink="false">https://thenewstack.io/pentagon-anthropic-model-orchestration/</guid>
       <enclosure url="https://cdn.thenewstack.io/media/2026/02/18fd6a7f-getty-images-zqpqfatuzpa-unsplash-1-1024x576.jpg" length="0" type="image/jpeg"/>
       <pubDate>Mon, 23 Feb 2026 23:00:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why “automated” infrastructure might cost more than you think</title>
+      <link>https://thenewstack.io/automated-infrastructure-hidden-costs/</link>
+      <description>Somewhere in the organization, there’s a Jenkins job that nobody wants to touch. The job is mission-critical and deploys to The post Why “automated” infrastructure might cost more than you think appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/automated-infrastructure-hidden-costs/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/02/e1e0097a-milhad-yaktvxoa6gc-unsplash-1024x847.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Feb 2026 12:00:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Most platform teams build products, but they don’t know it</title>
+      <link>https://thenewstack.io/internal-platforms-are-products/</link>
+      <description>There is a failure mode so common in platform engineering that it barely gets mentioned anymore. A team ships a The post Most platform teams build products, but they don’t know it appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/internal-platforms-are-products/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/02/7ca4c405-getty-images-0vlfnb0afx4-unsplash-1024x642.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Feb 2026 17:00:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenTelemetry roadmap: Sampling rates and collector improvements ahead</title>
+      <link>https://thenewstack.io/opentelemetry-roadmap-sampling-rates-and-collector-improvements-ahead/</link>
+      <description>OpenTelemetry has evolved over the last few years to become the de facto standard of choice for a rapidly growing The post OpenTelemetry roadmap: Sampling rates and collector improvements ahead appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/opentelemetry-roadmap-sampling-rates-and-collector-improvements-ahead/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/02/76045ac6-getty-images-lsjebmipmk0-unsplash-1024x576.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Feb 2026 19:00:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Databases weren’t built for agent sprawl – SurrealDB wants to fix it</title>
+      <link>https://thenewstack.io/surrealdb-3-ai-agents/</link>
+      <description>AI agents don’t slot neatly into the way enterprise data stacks were designed. A typical agent needs transactional state (e.g., The post Databases weren’t built for agent sprawl – SurrealDB wants to fix it appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/surrealdb-3-ai-agents/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/02/89745970-surrealdb-1024x533.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Feb 2026 22:07:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic accelerates its Cowork enterprise play</title>
+      <link>https://thenewstack.io/anthropic-accelerates-its-cowork-enterprise-play/</link>
+      <description>When it’s not distracted by negotiations with the Pentagon, Anthropic’s focus has long been on the enterprise. On Tuesday, it The post Anthropic accelerates its Cowork enterprise play appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/anthropic-accelerates-its-cowork-enterprise-play/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/02/c25e0b3b-img_1020-1024x768.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Feb 2026 22:20:14 +0000</pubDate>
     </item>
   </channel>
 </rss>
