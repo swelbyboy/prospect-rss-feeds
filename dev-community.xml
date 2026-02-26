@@ -8,80 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Feb 2026 07:05:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 07:04:30 +0000</lastBuildDate>
     <item>
-      <title>From System Monitoring to Business Insights: A Comprehensive Analysis of the Custom Metric Collection Feature of ARMS</title>
-      <link>https://dev.to/observabilityguy/from-system-monitoring-to-business-insights-a-comprehensive-analysis-of-the-custom-metric-3f0h</link>
-      <description>This article introduces Alibaba Cloud ARMS' custom metric collection capability. Introduction In the wave of digital transformation, application performance monitoring (APM) has become an important cornerstone to ensure the stable operation of systems. However, traditional APM systems can only provide system-level performance data and cannot go deep into the business core. The custom metric collection feature of Alibaba Cloud Application Real-Time Monitoring Service (ARMS) breaks through this li</description>
-      <guid isPermaLink="false">https://dev.to/observabilityguy/from-system-monitoring-to-business-insights-a-comprehensive-analysis-of-the-custom-metric-3f0h</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnh1orjc7swklcgo23ao8.png" length="0" type="image/png"/>
-      <pubDate>Wed, 25 Feb 2026 06:39:00 +0000</pubDate>
+      <title>ساخت تایم‌لپس حرفه‌ای با چند دوربین مداربسته — تجربه‌ای که از یک نیاز واقعی شروع شد</title>
+      <link>https://dev.to/intellsoft/skht-tymlps-hrfhy-b-chnd-dwrbyn-mdrbsth-tjrbhy-khh-z-ykh-nyz-wqy-shrw-shd-37f0</link>
+      <description>ساخت تایم‌لپس حرفه‌ای با چند دوربین مداربسته — تجربه‌ای که از یک نیاز واقعی شروع شد گاهی بهترین پروژه‌های نرم‌افزاری نه از یک ایده استارتاپی، بلکه از یک مشکل واقعی متولد می‌شوند. چند سال پیش در پروژه‌های نظارت تصویری و پروژه‌های عمرانی با یک چالش تکراری روبه‌رو شدم: 👉 دوربین‌ها شبانه‌روز ضبط می‌کردند، اما وقتی کارفرما می‌خواست روند چند ماهه پروژه را در چند دقیقه ببیند، هیچ ابزار ساده‌ای وجود نداشت. فیلم‌ها زیاد بودند. ساعت‌ها و حتی ترابایت‌ها ویدئو ذخیره شده بود. ولی خروجی تایم‌لپس؟ تقریباً صفر.</description>
+      <guid isPermaLink="false">https://dev.to/intellsoft/skht-tymlps-hrfhy-b-chnd-dwrbyn-mdrbsth-tjrbhy-khh-z-ykh-nyz-wqy-shrw-shd-37f0</guid>
+      <pubDate>Thu, 26 Feb 2026 06:15:17 +0000</pubDate>
     </item>
     <item>
-      <title>Stop Shipping Translations to the Client: Edge-Native i18n with Astro &amp;amp; Cloudflare (Part 1)</title>
-      <link>https://dev.to/garyedgekits/stop-shipping-translations-to-the-client-edge-native-i18n-with-astro-cloudflare-part-1-5b38</link>
-      <description>When I started building EdgeKits.dev, the stack felt like a cheat code for 2026. Astro on the frontend. Cloudflare Workers on the backend. All-in on the Edge. It promised and delivered incredible TTFB, out-of-the-box SEO, and cheap scalability. Then the magic broke. I hit the wall of Astro Internationalization (i18n). It should have been trivial: take a set of JSON files (en.json, de.json) and show the user the right text. But when I surveyed the standard ecosystem - from established tools like</description>
-      <guid isPermaLink="false">https://dev.to/garyedgekits/stop-shipping-translations-to-the-client-edge-native-i18n-with-astro-cloudflare-part-1-5b38</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmh1tofsuv10i5iggjizi.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 25 Feb 2026 06:41:50 +0000</pubDate>
+      <title>Automatic temp file creation on the standby - Oracle AI Database 26ai</title>
+      <link>https://dev.to/vahidusefzadeh/automatic-temp-file-creation-on-the-standby-oracle-ai-database-26ai-h9j</link>
+      <description>In Oracle Database 19c, when a tempfile is added on the primary database, it is not automatically created on the physical standby database. This is because Oracle does not generate redo for tempfile-related DDL operations (such as creating, adding, resizing, or dropping tempfiles). Behavior in Oracle Database 19c For example, when creating a temporary tablespace on the primary database(19c): — Primary SQL&amp;gt; create temporary tablespace TEMP1404; Tablespace created. SQL&amp;gt; select ts# from v$tablespac</description>
+      <guid isPermaLink="false">https://dev.to/vahidusefzadeh/automatic-temp-file-creation-on-the-standby-oracle-ai-database-26ai-h9j</guid>
+      <pubDate>Thu, 26 Feb 2026 06:35:29 +0000</pubDate>
     </item>
     <item>
-      <title>Suddenly, everyone cares about code quality.</title>
-      <link>https://dev.to/james920609/suddenly-everyonecares-about-code-quality-1bn9</link>
-      <description>Security. Best practices. “Real engineering.” The holy traditional process. It’s almost moving — watching people rediscover standards right after AI tools got popular. And look, fair. Vibe coding can absolutely produce bugs. It can ship weird edge cases. It can generate code that works today and breaks tomorrow. It can even create unsafe systems if the builder doesn’t understand what they’re doing. But here’s the selective part: Bad development didn’t start with vibe coding. We’ve been shipping</description>
-      <guid isPermaLink="false">https://dev.to/james920609/suddenly-everyonecares-about-code-quality-1bn9</guid>
-      <pubDate>Wed, 25 Feb 2026 06:42:01 +0000</pubDate>
+      <title>Why AI Recruitment Pipelines Are Becoming Part of Modern Engineering Workflows</title>
+      <link>https://dev.to/taurusai/why-ai-recruitment-pipelines-are-becoming-part-of-modern-engineering-workflows-22mf</link>
+      <description>Hiring is usually treated as an HR problem. But for growing engineering teams, hiring delays quickly become a technical bottleneck. Features wait for developers. Roadmaps slow down. Senior engineers spend time interviewing instead of building. At scale, recruitment directly affects engineering velocity. This is exactly why AI-driven recruitment workflows are starting to look more like software pipelines. The Real Problem Engineers Notice First When companies start scaling, the hiring pipeline br</description>
+      <guid isPermaLink="false">https://dev.to/taurusai/why-ai-recruitment-pipelines-are-becoming-part-of-modern-engineering-workflows-22mf</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fry67kto4uo86xy7kq2i5.png" length="0" type="image/png"/>
+      <pubDate>Thu, 26 Feb 2026 06:42:13 +0000</pubDate>
     </item>
     <item>
-      <title>Graceful Exit Strategies: How to Fail at a Project Without Crashing Your Life</title>
-      <link>https://dev.to/chandravijayagr/graceful-exit-strategies-how-to-fail-at-a-project-without-crashing-your-life-321i</link>
-      <description>You are standing in the kitchen at 6:45 AM, staring at a puddle of cold oat milk on the floor. It is not just the milk. The milk is merely the catalyst. Behind the milk is a stack of unpaid bills on the counter, a blinking low-battery light on the baby monitor, and a calendar invite for a 9:00 AM presentation that you are 40 percent prepared for. In this moment, your brain does something curious. It does not simply register "milk is on the floor." Instead, it initiates a total system shutdown. Y</description>
-      <guid isPermaLink="false">https://dev.to/chandravijayagr/graceful-exit-strategies-how-to-fail-at-a-project-without-crashing-your-life-321i</guid>
-      <pubDate>Wed, 25 Feb 2026 06:43:06 +0000</pubDate>
+      <title>The Complete Guide to @hazeljs/gateway: Intelligent API Gateway for Microservices</title>
+      <link>https://dev.to/arslan_mecom/the-complete-guide-to-hazeljsgateway-intelligent-api-gateway-for-microservices-4ee5</link>
+      <description>A practical, in-depth exploration of the HazelJS API Gateway — from routing and versioning to canary deployments and production-ready patterns. Table of Contents Introduction Why an API Gateway? Architecture Overview Core Concepts Getting Started Version Routing Canary Deployments Resilience Patterns Traffic Management Production Integration Best Practices Introduction The @hazeljs/gateway package is an intelligent API gateway designed for HazelJS microservices. It sits between your clients and</description>
+      <guid isPermaLink="false">https://dev.to/arslan_mecom/the-complete-guide-to-hazeljsgateway-intelligent-api-gateway-for-microservices-4ee5</guid>
+      <pubDate>Thu, 26 Feb 2026 06:46:24 +0000</pubDate>
     </item>
     <item>
-      <title>3 Free AI-Powered Python APIs - Text Summarizer, Email Validator, Content Generator</title>
-      <link>https://dev.to/joeyumanito/3-free-ai-powered-python-apis-text-summarizer-email-validator-content-generator-24h6</link>
-      <description>TL;DR I built 3 free AI-powered REST APIs on RapidAPI. All have free tiers no credit card needed. Built with Python + FastAPI, deployed on Vercel. The 3 APIs 1. Text Summarizer AI Summarize any long article into clean, concise output. Great for news apps, research tools, and content pipelines. 2. Email Validator Pro Validate emails with syntax checking, domain verification, disposable email detection, and MX record lookup. Use cases: user registration forms, marketing list cleaning 3. Content Ge</description>
-      <guid isPermaLink="false">https://dev.to/joeyumanito/3-free-ai-powered-python-apis-text-summarizer-email-validator-content-generator-24h6</guid>
-      <pubDate>Wed, 25 Feb 2026 06:45:34 +0000</pubDate>
+      <title>Solving agent system prompt drift in long sessions — a 300-token fix</title>
+      <link>https://dev.to/nikolasi/solving-agent-system-prompt-drift-in-long-sessions-a-300-token-fix-1akh</link>
+      <description>The problem If you've run any LLM agent for 30+ minutes, you've seen this: the agent follows its system prompt perfectly at the start, then gradually drifts. An hour in — it acts like the prompt never existed. This happens with every model, every framework, every agent. It's not a bug — it's how attention works in transformers. The system prompt is tokens at the beginning of context. As context grows, those tokens lose weight. 1,000 prompt tokens out of 2,000 total = 50% attention. 1,000 out of</description>
+      <guid isPermaLink="false">https://dev.to/nikolasi/solving-agent-system-prompt-drift-in-long-sessions-a-300-token-fix-1akh</guid>
+      <pubDate>Thu, 26 Feb 2026 06:49:34 +0000</pubDate>
     </item>
     <item>
-      <title>AWS Lambda Durable Functions on Hexagonal Architecture: The Pattern You’ve Been Looking For</title>
-      <link>https://dev.to/aws-builders/aws-lambda-durable-functions-on-hexagonal-architecture-the-pattern-youve-been-looking-for-5hne</link>
-      <description>Yes, you read it right. When building serverless applications on AWS, one little thing seems to be forgotten in 2026: design patterns. And that's especially true when using Lambda Durable Functions and its new open-source Durable execution SDK. And no, this is not another "Step Functions vs Lambda Durable Functions" comparison. In this article, we will not look back. We will explore how you can build a strong foundation for Durable Functions with Hexagonal Architecture, from a developer's perspe</description>
-      <guid isPermaLink="false">https://dev.to/aws-builders/aws-lambda-durable-functions-on-hexagonal-architecture-the-pattern-youve-been-looking-for-5hne</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3ag0r1ppocrvxkvwsohx.png" length="0" type="image/png"/>
-      <pubDate>Wed, 25 Feb 2026 06:45:45 +0000</pubDate>
+      <title>2026 Tech: Graphene-Based Temperature Sensors for Ultra-Fast Response</title>
+      <link>https://dev.to/yc_w_4a4f95408d351edef5d2/2026-tech-graphene-based-temperature-sensors-for-ultra-fast-response-4fdm</link>
+      <description>As industries push toward faster data acquisition, real-time control, and miniaturized electronics, traditional temperature sensing technologies are approaching their physical response limits. In 2026, graphene-based temperature sensors are emerging as a promising solution for ultra-fast thermal detection, high sensitivity, and compact integration. This article explores how graphene is being used in next-generation temperature sensors, their advantages, challenges, and potential applications. Wh</description>
+      <guid isPermaLink="false">https://dev.to/yc_w_4a4f95408d351edef5d2/2026-tech-graphene-based-temperature-sensors-for-ultra-fast-response-4fdm</guid>
+      <pubDate>Thu, 26 Feb 2026 06:50:41 +0000</pubDate>
     </item>
     <item>
-      <title>Architecture of Trust: Defending Against Jailbreaks and Attacks using Google ADK with LLM-as-a-Judge and GCP Model Armor</title>
-      <link>https://dev.to/linhkid91/architecture-of-trust-defending-against-jailbreaks-and-attacks-using-google-adk-with-2740</link>
-      <description>The technological landscape is witnessing a transition of historical magnitude. We are shifting from deterministic, command-based software to probabilistic, intent-driven Agentic AI. As I discussed during my recent sessions at GDG DevFest Hanoi and DevFest Ho Chi Minh 2025, this evolution promises to revolutionize industries, but it also introduces a vulnerability surface of unprecedented complexity. The central challenge of the Agentic Age is Prompt Injection and its associated pathologies: Jai</description>
-      <guid isPermaLink="false">https://dev.to/linhkid91/architecture-of-trust-defending-against-jailbreaks-and-attacks-using-google-adk-with-2740</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgfvf2w2pquut0goiphtx.png" length="0" type="image/png"/>
-      <pubDate>Wed, 25 Feb 2026 06:46:44 +0000</pubDate>
+      <title>Reactjs Web Hosting: Research-Based Infrastructure and Performance Analysis</title>
+      <link>https://dev.to/dmankani2007/reactjs-web-hosting-research-based-infrastructure-and-performance-analysis-262a</link>
+      <description>Introduction React applications are increasingly the foundation of interactive web systems, but achieving predictable performance at scale requires more than writing efficient components. From a systems engineering perspective, the hosting layer is a determinative factor in asset delivery, cache behavior, routing consistency, and latency optimization. When architecting production deployments, teams must consider content distribution, network propagation delay, cache invalidation semantics, and f</description>
+      <guid isPermaLink="false">https://dev.to/dmankani2007/reactjs-web-hosting-research-based-infrastructure-and-performance-analysis-262a</guid>
+      <pubDate>Thu, 26 Feb 2026 06:50:44 +0000</pubDate>
     </item>
     <item>
-      <title>Difference Between Shallow Copy and Deep Copy in Java</title>
-      <link>https://dev.to/sharath_kumar_ec951693318/difference-between-shallow-copy-and-deep-copy-in-java-4008</link>
-      <description>In Java, copying an object can be done in two ways: Shallow Copy and Deep Copy. These concepts are very important when working with object cloning and memory management. 🔹 Shallow Copy A Shallow Copy creates a new object but copies references of nested objects instead of creating new ones. 👉 Both original and copied objects refer to the same memory location for referenced objects. Characteristics Copies primitive values directly Copies object references Faster performance Changes in referenced o</description>
-      <guid isPermaLink="false">https://dev.to/sharath_kumar_ec951693318/difference-between-shallow-copy-and-deep-copy-in-java-4008</guid>
-      <pubDate>Wed, 25 Feb 2026 06:51:15 +0000</pubDate>
+      <title>How to Detect Environment Sentiment Shifts with the Pulsebit API (Python)</title>
+      <link>https://dev.to/pulsebitapi/how-to-detect-environment-sentiment-shifts-with-the-pulsebit-api-python-2b46</link>
+      <description>How to Detect Environment Sentiment Shifts with the Pulsebit API (Python) As developers focused on environmental data, we often encounter the challenge of extracting sentiment from vast amounts of unstructured data. Whether it’s news articles, social media feeds, or research papers, manually scraping and analyzing this data is tedious and error-prone. Fortunately, there’s a solution: the Pulsebit API. The Problem (DIY Scraping Pain) Scraping sentiment from multiple sources typically involves wri</description>
+      <guid isPermaLink="false">https://dev.to/pulsebitapi/how-to-detect-environment-sentiment-shifts-with-the-pulsebit-api-python-2b46</guid>
+      <pubDate>Thu, 26 Feb 2026 06:51:31 +0000</pubDate>
     </item>
     <item>
-      <title>How to take screenshots and generate PDFs in Go</title>
-      <link>https://dev.to/custodiaadmin/how-to-take-screenshots-and-generate-pdfs-in-go-2jc</link>
-      <description>How to Take Screenshots and Generate PDFs in Go Go has no headless browser library. When Go services need to capture screenshots or generate PDFs, the usual approaches are: shell out to Chrome, run a sidecar Python process, or reach for a cgo-wrapped browser binding. All of these add operational complexity to what should be a simple output. Here's the clean approach: one HTTP POST, binary response, standard library. Screenshot from a URL package main import ( "bytes" "encoding/json" "io" "net/ht</description>
-      <guid isPermaLink="false">https://dev.to/custodiaadmin/how-to-take-screenshots-and-generate-pdfs-in-go-2jc</guid>
-      <pubDate>Wed, 25 Feb 2026 06:54:14 +0000</pubDate>
+      <title>Building a multi-agent Kalshi algotrader with Sentient Foundation's ROMA SDK</title>
+      <link>https://dev.to/j_dev28/building-a-multi-agent-kalshi-algotrader-with-sentient-foundations-roma-sdk-26ap</link>
+      <description>I spent a weekend building a paper trading system for Kalshi's 15-minute BTC binary prediction markets. The hook was Sentient Foundation's roma-dspy Python package — their ROMA (Recursive Open Meta-Agent) framework — which I wanted to actually use for something real-ish rather than run the hello-world example and close the tab. This post is about what that looks like in practice: the architecture, the places ROMA genuinely helped, the places it caused problems, and how the whole thing actually b</description>
+      <guid isPermaLink="false">https://dev.to/j_dev28/building-a-multi-agent-kalshi-algotrader-with-sentient-foundations-roma-sdk-26ap</guid>
+      <pubDate>Thu, 26 Feb 2026 06:56:33 +0000</pubDate>
     </item>
     <item>
-      <title>The Age of Skills Has Begun: Why Prompts Are Fading Fast in 2026</title>
-      <link>https://dev.to/miaoshuyo/the-age-of-skills-has-begun-why-prompts-are-fading-fast-in-2026-2e3f</link>
-      <description>The Age of Skills Has Begun: Why Prompts Are Fading Fast in 2026 In early 2026, Anthropic officially launched the Skills framework centered around SKILL.md. This was not a minor update — it was a paradigm-level shift. Before this, almost everyone was solving problems by "writing better Prompts." Now, more and more engineers and product teams are coming to realize that the Prompt itself is the bottleneck. Skills didn't arrive to patch Prompts. It arrived to replace them. I. The Three Fatal Flaws</description>
-      <guid isPermaLink="false">https://dev.to/miaoshuyo/the-age-of-skills-has-begun-why-prompts-are-fading-fast-in-2026-2e3f</guid>
-      <pubDate>Wed, 25 Feb 2026 06:56:55 +0000</pubDate>
+      <title>Why Your Tech Stack Doesn’t Matter as Much as You Think</title>
+      <link>https://dev.to/wingsdesignstudio/why-your-tech-stack-doesnt-matter-as-much-as-you-think-5hj9</link>
+      <description>Every year developers argue about the same things. React vs Vue. Node vs Django. Monolith vs Microservices. Tailwind vs traditional CSS. But here is the uncomfortable truth. Most successful products did not win because of their tech stack. They won because they solved a real problem, executed well, and delivered value consistently. Let’s break this down. The Illusion of the Perfect Stack Developers often believe that choosing the right framework guarantees success. It feels safe. It feels smart.</description>
+      <guid isPermaLink="false">https://dev.to/wingsdesignstudio/why-your-tech-stack-doesnt-matter-as-much-as-you-think-5hj9</guid>
+      <pubDate>Thu, 26 Feb 2026 06:57:12 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,14 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Feb 2026 07:14:29 +0000</lastBuildDate>
-    <item>
-      <title>Quiz: TinyDB: A Lightweight JSON Database for Small Projects</title>
-      <link>https://realpython.com/quizzes/tinydb-python/</link>
-      <description>If you're looking for a JSON document-oriented database that requires no configuration for your Python project, TinyDB could be what you need.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/tinydb-python/</guid>
-      <pubDate>Mon, 16 Feb 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 26 Feb 2026 07:14:43 +0000</lastBuildDate>
     <item>
       <title>TinyDB: A Lightweight JSON Database for Small Projects</title>
       <link>https://realpython.com/tinydb-python/</link>
@@ -81,6 +74,14 @@
       <description>Learn how to build APIs with FastAPI in Python, including Pydantic models, HTTP methods, CRUD operations, and interactive documentation.</description>
       <guid isPermaLink="false">https://realpython.com/courses/start-building-with-fastapi/</guid>
       <pubDate>Tue, 24 Feb 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Run Your Python Scripts and Code</title>
+      <link>https://realpython.com/run-python-scripts/</link>
+      <description>Learn how to run Python scripts from the command line, REPL, IDEs, and file managers on Windows, Linux, and macOS. Master all execution approaches.</description>
+      <guid isPermaLink="false">https://realpython.com/run-python-scripts/</guid>
+      <enclosure url="https://files.realpython.com/media/How-to-Run-A-Python-Script_Watermarked.65fe32bf5487.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Feb 2026 14:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
