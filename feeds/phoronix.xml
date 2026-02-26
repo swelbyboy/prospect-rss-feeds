@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Feb 2026 07:05:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 07:04:41 +0000</lastBuildDate>
     <item>
-      <title>CGIT 1.3 Web Frontend For Git Released After Six Years</title>
-      <link>https://www.phoronix.com/news/CGIT-1.3-Released</link>
-      <description>Jason Donenfeld of WireGuard and Linux cryptography fame has taken a break from that to release a new version of CGIT, the lightweight web interface for Git repositories. CGIT 1.3 is the first new release in six years and comes with a lot of changes...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/CGIT-1.3-Released</guid>
-      <pubDate>Tue, 24 Feb 2026 10:55:10 +0000</pubDate>
+      <title>GTK 4.22 In Good Shape With Better SVG Support</title>
+      <link>https://www.phoronix.com/news/GTK-4.22-SVG-2026</link>
+      <description>Matthias Clasen shared an update today concerning the state of Scalable Vector Graphics (SVG) within GNOME's GTK toolkit...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GTK-4.22-SVG-2026</guid>
+      <pubDate>Wed, 25 Feb 2026 13:21:16 +0000</pubDate>
     </item>
     <item>
-      <title>KDE Plasma 6.6.1 Released With Initial Batch Of Bug Fixes</title>
-      <link>https://www.phoronix.com/news/KDE-Plasma-6.6.1</link>
-      <description>Following last week's Plasma 6.6 release, KDE developers today shipped Plasma 6.6.1 as the first point release with an assortment of different bug fixes...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Plasma-6.6.1</guid>
-      <pubDate>Tue, 24 Feb 2026 11:02:26 +0000</pubDate>
+      <title>Arm &amp;amp; Linaro Launch New "CoreCollective" Consortium - With Backing From AMD &amp;amp; Others</title>
+      <link>https://www.phoronix.com/news/CoreCollective</link>
+      <description>The embargo just lifted on an interesting new industry consortium... CoreCollective. The CoreCollective consortium is focused on open collaboration in the Arm software ecosystem and to a large extent what Linaro has already been doing for the past decade and a half. Interestingly though with CoreCollective for open collaboration in the Arm software ecosystem, AMD is now onboard as a founding member along with various other vendors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/CoreCollective</guid>
+      <pubDate>Wed, 25 Feb 2026 14:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LLVM/Clang 22 Compiler Officially Released With Many Improvements</title>
-      <link>https://www.phoronix.com/news/LLVM-Clang-22.1-Released</link>
-      <description>LLVM/Clang 22.1 was released overnight as the first stable release of the LLVM 22 series. This is a nice, feature-packaged half-year update to this prominent open-source compiler stack with many great refinements...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/LLVM-Clang-22.1-Released</guid>
-      <pubDate>Tue, 24 Feb 2026 11:13:20 +0000</pubDate>
+      <title>AMD Announces The EPYC 8005 "Sorano" Series</title>
+      <link>https://www.phoronix.com/news/AMD-EPYC-8005-Series</link>
+      <description>The EPYC 9005 series for high-end Zen 5 server processors is a year and a half old and then at the lower-end of the spectrum is the EPYC 4005 series AM5 server processors that launched last year. On the embedded side is also the EPYC Embedded 2005 series. AMD has now filled the void between with the long-awaited EPYC 8005 series...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-EPYC-8005-Series</guid>
+      <pubDate>Wed, 25 Feb 2026 14:20:49 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Formally Ends Four Of Their Go Language Open-Source Projects</title>
-      <link>https://www.phoronix.com/news/Intel-Stops-Go-Projects</link>
-      <description>Following various Intel open-source projects recently being archived with Intel formally discontinuing their development, another wave of Intel open-source projects were formally sunset on Monday...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Stops-Go-Projects</guid>
-      <pubDate>Tue, 24 Feb 2026 11:28:02 +0000</pubDate>
+      <title>Sub-Scheduler Support Could Be One Of The Most Exciting Features To Come For Linux 7.1</title>
+      <link>https://www.phoronix.com/news/cgroup-sub-scheduler-sched-ext</link>
+      <description>While there are many great Linux 7.0 features with that still-young development cycle, looking ahead to Linux 7.1 this summer there's an interesting feature on track: cgroup sub-scheduler support for sched_ext...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/cgroup-sub-scheduler-sched-ext</guid>
+      <pubDate>Wed, 25 Feb 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AMD's HIP Moves To Using LLVM's New Offload Driver By Default</title>
-      <link>https://www.phoronix.com/news/AMD-HIP-Default-New-Offload</link>
-      <description>A change merged to upstream LLVM Git yesterday for LLVM 23 is moving AMD's HIP to using the new/modern offload driver by default. This aligns with a prior change for NVIDIA CUDA and already in place for OpenMP offloading too...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-HIP-Default-New-Offload</guid>
-      <pubDate>Tue, 24 Feb 2026 13:09:31 +0000</pubDate>
+      <title>systemd 260-rc1 Released: New "mstack" Feature, System V Service Scripts No Longer Supported</title>
+      <link>https://www.phoronix.com/news/systemd-260-rc1</link>
+      <description>The first release candidate of systemd 260 is now available for testing. Systemd 260 finally does away with System V service scripts support. Also notable to systemd 260 is the work around the new "mstack" feature...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/systemd-260-rc1</guid>
+      <pubDate>Wed, 25 Feb 2026 16:16:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google Cloud N4 Series Benchmarks: Google Axion vs. Intel Xeon vs. AMD EPYC Performance</title>
-      <link>https://www.phoronix.com/review/google-cloud-n4-arm64-epyc-xeon</link>
-      <description>Google Cloud recently launched their N4A series powered by their in-house Axion ARM64 processors. In that launch-day benchmarking last month was looking at how the N4A with Axion compared to their prior-generation ARM64 VMs powered by Ampere Altra. There were dramatic generational gains, but how does the N4A stand up to the AMD EPYC and Intel Xeon instances? Here are some follow-up benchmarks I had done to explore the N4A performance against the Intel Xeon N4 and AMD EPYC N4D series.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/google-cloud-n4-arm64-epyc-xeon</guid>
-      <pubDate>Tue, 24 Feb 2026 15:00:00 +0000</pubDate>
+      <title>Mesa 26.0.1 Released With Important Security Fix For OOB Memory Access From WebGPU</title>
+      <link>https://www.phoronix.com/news/Mesa-26.0.1-Released</link>
+      <description>Mesa 26.0.1 is now available as the first point release of this quarter's Mesa 26.0 series. Besides the usual bug fixing, Mesa 26.0.1 is more pressing than usual since it contains a security fix for possible out-of-bounds memory access in WebGPU contexts from web browsers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.0.1-Released</guid>
+      <pubDate>Wed, 25 Feb 2026 16:56:00 +0000</pubDate>
     </item>
     <item>
-      <title>D7VK 1.4 Released With More Improvements For Old Direct3D On Vulkan Under Linux</title>
-      <link>https://www.phoronix.com/news/D7VK-1.4-Released</link>
-      <description>D7VK is the open-source project that began implementing the Direct3D 7 APIs atop Vulkan and with time the scope expanded to include Direct3D 6 support as well as Direct3D 5 support. Out today is D7VK 1.4 for continuing to enhance the support for these older D3D versions on Vulkan under Linux...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/D7VK-1.4-Released</guid>
-      <pubDate>Tue, 24 Feb 2026 17:28:32 +0000</pubDate>
+      <title>LLVM Clang 22 Compiler Performance Largely Unchanged Over Clang 21 On AMD Zen 5</title>
+      <link>https://www.phoronix.com/review/llvm-clang-22-znver5</link>
+      <description>With yesterday's stable release of the LLVM Clang 22 compiler it didn't take long for Phoronix readers to begin asking about the performance of this half-year feature update to this prominent open-source C/C++ compiler. What I am seeing so far are no big surprises with the performance largely being similar to Clang 21 across various open-source C/C++ workloads in the testing thus far. This initial round of reference benchmark results between LLVM Clang 22, Clang 21, and Clang 20 were done on an</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/llvm-clang-22-znver5</guid>
+      <pubDate>Wed, 25 Feb 2026 20:05:00 +0000</pubDate>
     </item>
     <item>
-      <title>COSMIC Epoch 1.0.8 Released With More Desktop Refinements</title>
-      <link>https://www.phoronix.com/news/COSMIC-Epoch-1.0.8</link>
-      <description>While System76 has been hard at work on a redesigned Thelio desktop chassis design, this hasn't slowed down their software work. Today they shipped COSMIC Epoch 1.0.8 as the newest work on their open-source, Rust-based desktop environment used by their in-house Pop!_OS Linux distribution as well as found in other Linux distributions too...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/COSMIC-Epoch-1.0.8</guid>
-      <pubDate>Tue, 24 Feb 2026 19:47:55 +0000</pubDate>
+      <title>Linux 6.18 LTS / 6.12 LTS / 6.6 LTS Support Periods Extended</title>
+      <link>https://www.phoronix.com/news/Linux-6.18-LTS-6.12-6.6-Extend</link>
+      <description>Greg Kroah-Hartman today extended the planned maintenance periods of the latest Linux 6.18, Linux 6.12, and Linux 6.6 Long Term Support (LTS) kernel series...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-6.18-LTS-6.12-6.6-Extend</guid>
+      <pubDate>Wed, 25 Feb 2026 20:19:00 +0000</pubDate>
     </item>
     <item>
-      <title>Lutris 0.5.21 Adds Support For Running Games Inside Valve's Latest Steam Runtime</title>
-      <link>https://www.phoronix.com/news/Lutris-0.5.21-Released</link>
-      <description>Lutris 0.5.21 is now available as the latest version of this open-source Linux game manager. With Lutris 0.5.21 comes some new runners for executing games in different environments...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Lutris-0.5.21-Released</guid>
-      <pubDate>Wed, 25 Feb 2026 01:08:00 +0000</pubDate>
+      <title>b4's Review TUI With AI Integration Nearing Pre-Alpha Release</title>
+      <link>https://www.phoronix.com/news/b4-review-nears-pre-alpha</link>
+      <description>The b4 tool used for managing patch workflows to the Linux kernel has been seeing a lot of work recently on b4 review as the text user interface (TUI) to help expedite the patch review process for the Linux kernel. The b4 review TUI has been integrating AI agent code review helpers powered by the likes of Claude Code too for trying to help enhance the efficiency for Linux kernel patch reviews. That b4 review work is quickly approaching a pre-alpha state...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/b4-review-nears-pre-alpha</guid>
+      <pubDate>Thu, 26 Feb 2026 00:41:00 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Posts Linux Patches For SEV-SNP BTB Isolation</title>
-      <link>https://www.phoronix.com/news/AMD-SEV-SNP-BTB-Isolation</link>
-      <description>It's quite a mouthful but today AMD posted Linux kernel patches for preparing SEV-SNP BTB isolation support for further enhancing the security of virtual machines (VMs) for confidential computing...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-SEV-SNP-BTB-Isolation</guid>
-      <pubDate>Wed, 25 Feb 2026 01:44:11 +0000</pubDate>
+      <title>Firefox 149 Beta Released With Convenient Split-View Mode</title>
+      <link>https://www.phoronix.com/news/Firefox-149-Beta</link>
+      <description>Following the Firefox 148 release with the new AI controls, Mozilla promoted Firefox 149 to beta today...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Firefox-149-Beta</guid>
+      <pubDate>Thu, 26 Feb 2026 01:17:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

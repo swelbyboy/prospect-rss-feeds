@@ -8,80 +8,81 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Feb 2026 07:07:54 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 07:07:32 +0000</lastBuildDate>
     <item>
-      <title>玉山金揭露虛擬資產金融三大方向，聚焦穩定幣支付和實體資產代幣化</title>
-      <link>https://www.ithome.com.tw/news/174019</link>
-      <description>新聞隨著金管會力推虛擬資產服務專法（VASP）在年底前完成立法，不少金融業也早已展開佈局。 玉山金控今天也在媒體法說會中，揭露了虛擬資產金融三大發展方向。 玉山金控董事長黃男州指出，金融未來發展將是三軌式金融，第一軌是傳統的實體金融，第二軌是現在正在發展的數位金融，靠一隻手機就可以走天下。虛擬資產金融則是金融未來的第三軌發展。 他進一步補充，不論是穩定幣或虛擬資產專法，都是世界的潮流，社會大眾對現有金融體系的信任，如銀行體系、證券體系等，這個信任基礎，讓金融業可以在未來的穩定幣、虛擬資產領域扮演一定的角色。法規和金融機構的參與，將決定未來在該領域的影響力。 玉山銀行財務長程國榮首度揭露了玉山在虛擬資產金融的未來三大發展方向。 程國榮表示，國內已有企業開始使用穩定幣進行跨境支付，玉山第一個重點是解決企業的跨境支付和國際貿易結算需求，來提升企業的效率。其次是在區塊鏈金融領域， 提供更便捷、更有效率的金融服務。 玉山關注的第三個虛擬資產焦點是RWA和Web 3技術的整合運用，程國榮表示，透過區塊鏈技術將真實世界的實體資產代幣化，可以在鏈上進行交易，這可能是理財商品未來的另一個商機，玉山正在積</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174019</guid>
-      <pubDate>Tue, 24 Feb 2026 09:37:31 +0000</pubDate>
+      <title>北韓駭客Lazarus使用勒索軟體Medusa在美國與中東發動攻擊</title>
+      <link>https://www.ithome.com.tw/news/174050</link>
+      <description>新聞國家級駭客使用的勒索軟體，多半以自製工具為主，不過在過去一年多來，開始有部分北韓駭客採取新的策略，與勒索軟體駭客組織勾結，如今又有駭客團體跟進，再度引起資安公司的注意。 賽門鐵克與Carbon Black威脅獵捕團隊指出，北韓駭客組織Lazarus近期開始在攻擊行動裡使用勒索軟體Medusa，持續對美國醫療產業下手，但也在中東地區犯案。這些駭客在發動勒索軟體的過程裡，也使用自行打造的工具，例如：後門程式Comebacker、RAT木馬Blindingcan、瀏覽密碼擷取工具ChromeStealer，以及竊資軟體Infohook等。 研究人員未進一步透露Lazarus如何使用Medusa，但表示他們對於Medusa的網站進行分析，從去年11月開始，美國有4家醫療機構或非營利組織遭到攻擊，其中包含心理健康領域的非營利組織，以及自閉症兒童教育機構，平均贖金開價為26萬美元。不過，研究人員無法判斷網站列出的攻擊事故，是否全部都是Lazarus所為。 根據上述調查顯示，北韓駭客組織整體的戰術可能出現重大轉變，更加傾向加入現有的勒索軟體租用服務（Ransomware-as-a-Service</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174050</guid>
+      <pubDate>Wed, 25 Feb 2026 09:50:14 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】2月24日，NPM蠕蟲SANDWORM_MODE企圖竊取加密貨幣金鑰與開發相關機密</title>
-      <link>https://www.ithome.com.tw/news/174015</link>
-      <description>新聞惡意NPM套件發動SANDWORM_MODE蠕蟲攻擊，竊取加密貨幣金鑰與CI/CD機密，還鎖定AI開發工具 供應鏈安全業者Socket在2026年2月20日發布調查報告，揭露一波仍在擴散中的NPM供應鏈攻擊行動。至少有19個惡意套件被植入蠕蟲程式，不只竊取加密貨幣錢包金鑰與CI/CD環境機密，還會濫用遭竊的NPM與GitHub帳號持續擴散。 Socket將這波攻擊命名為SANDWORM_MODE，延續先前名為Shai-Hulud的NPM蠕蟲攻擊手法，但功能更完整、攻擊面也更廣。值得留意的是，攻擊者進一步把目標延伸到AI程式開發工具，透過MCP伺服器注入與提示詞注入機制，直接入侵開發者的工作環境。 攻擊者透過兩個NPM發布帳號official334與javaorg，上架19個名稱近似常見工具或函式庫的套件，例如cloude-code、crypto-reader-info、locale-loader-pro、node-native-bridge、secp256等。另外還有4個尚未啟動惡意功能的沉睡套件（Sleeper Packages），研究人員推測可能是後續攻擊使用的預留節點。 心理</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174015</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/fd107c8c2e071a63dec10b8bcf3197faf900dd60-1295x483.png" length="0" type="image/png"/>
-      <pubDate>Tue, 24 Feb 2026 09:41:46 +0000</pubDate>
+      <title>【資安日報】2月25日，中國APT駭客以稅務與雲端發票為誘餌，在臺灣散布惡意軟體</title>
+      <link>https://www.ithome.com.tw/news/174052</link>
+      <description>新聞中國駭客Silver Fox假借稅務及電子發票名義，在臺灣散布惡意軟體Winos 4.0 去年資安公司Fortinet提出警告，他們發現惡意程式Winos 4.0（ValleyRAT）的攻擊活動瞄準臺灣企業，駭客冒充國稅局聲稱要抽查稅務，要求財務人員依照指示操作，後續相關活動持續蔓延，而且，駭客使用的惡意程式變得更加多元，像是：HoldingHands RAT（Gh0stBins）與Gh0stCringe，現在相關攻擊變得更加隱密、複雜，企業組織必須更加提高警覺。 Fortinet近期在臺灣發現多起針對性的網釣活動，中國駭客Silver Fox假借稅務稽核通知、報稅軟體安裝程式，以及雲端電子發票下載等誘餌，透過經過武器化處理的附件散布Winos 4.0，傳遞惡意軟體的手法也相當多元，包括使用惡意LNK檔、透過側載DLL的方式執行Shellcode，以及利用名為wsftprm.sys的元件從事自帶驅動程式（BYOVD）攻擊。值得留意的是，這次攻擊者運用輪替的網域與雲端服務作為散布惡意軟體的管道，企業若只靠封鎖特定網域的手段，將無法因應相關攻擊活動。 酷澎韓國資料外洩事故最新調查結果出</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174052</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/1771548485040.png" length="0" type="image/png"/>
+      <pubDate>Wed, 25 Feb 2026 09:51:53 +0000</pubDate>
     </item>
     <item>
-      <title>台灣大用AI協助數萬基地臺節能，2025年省下1,800萬度電</title>
-      <link>https://www.ithome.com.tw/news/174020</link>
-      <description>新聞對行動電信業者而言，布建綿密的基地臺，才能提供行動用戶良好的通話、行動上網體驗，然而，提升行動通話、上網服務的背後是多達數萬個基地臺，這些基地臺24小時運作，用電相當可觀，為電信業者推動淨零轉型的難題之一。 台灣大哥大近期分享其永續轉型成果，該公司在2024年與台灣之星合併，合併後用戶數將近千萬，兩家行動電信商合併，不只用戶數規模增加，當時雙方現有的基地臺數量也一舉增加，考量到訊務服務重疊，或老舊基地臺汰換問題，成為雙方合併的挑戰之一。 根據統計，台灣大哥大旗下4G與5G基地臺合計約在3萬至4萬之間，數字會因為業者動態調整而浮動。而根據台灣大哥大分享的資料，其數位永續的成果，特別是利用AI技術來協助基地臺節能，2025年節省超過1,800萬度電。 其導入的AI智慧行動網路節能技術（AI in RAN 與 AI for RAN），除了先前與韓國SK電信交流的AI-RAN的節能及網路優化技術之外，台灣大哥內部AI團隊將國際交流的技術，結合台灣本地的基地臺數據，發展出AI in RAN（在無線接取網中直接嵌入AI運算）與 AI for RAN（利用 AI 來優化無線接取）的節能技術。 他</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174020</guid>
-      <pubDate>Tue, 24 Feb 2026 09:58:13 +0000</pubDate>
+      <title>Google發布Chrome安全更新，修補3項高風險漏洞，恐導致資料外洩與惡意程式碼執行</title>
+      <link>https://www.ithome.com.tw/news/174053</link>
+      <description>新聞Google於2月23日發布Chrome穩定通道更新，桌面版Windows與macOS升級至145.0.7632.116／117，Linux為145.0.7632.116，Android版則更新至145.0.7632.120，並同步納入對應的安全修補。此次共修補3項被列為High（高風險）等級的資安漏洞，皆由外部研究人員在今年2月間所通報，影響範圍涵蓋Media元件、WebGPU編譯器Tint，以及開發者工具DevTools。 由於3項漏洞皆涉及記憶體存取或實作邏輯問題，若遭運用，可能導致資料外洩、瀏覽器處理程序異常終止，甚至被用來執行惡意程式碼。Google目前未公布完整技術細節，僅表示將在多數用戶完成更新後再行揭露。 Media元件出現越界讀取漏洞，影音檔案可能成為攻擊載體 CVE-2026-3061屬於越界讀取（Out-of-bounds read）漏洞，影響Chrome的Media元件。所謂越界讀取，是指程式在存取記憶體時讀取到不屬於既定緩衝區範圍的資料。在影音處理情境下，攻擊者可透過特製的影音檔案觸發漏洞，使瀏覽器讀取敏感記憶體內容，增加資訊外洩風險。 WebGPU編譯器</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174053</guid>
+      <pubDate>Wed, 25 Feb 2026 11:26:40 +0000</pubDate>
     </item>
     <item>
-      <title>AWS代理式IDE Kiro新增兩種工作流程，限縮AI代理程式碼改動範圍</title>
-      <link>https://www.ithome.com.tw/news/174016</link>
-      <description>新聞AWS旗下代理式AI開發環境Kiro，針對既有應用維護與除錯情境，擴充其規格導向開發功能Specs，新增技術設計優先（Tech Design-first）與錯誤修正（Bugfix）兩種工作流程。開發者在既定架構或高回歸風險的前提下，可透過結構化文件與測試來限縮代理的改動範圍，避免代理誤改既有正確程式碼。 AWS說明，過去Specs流程主要對應傳統產品經理與工程協作的步驟，先寫需求再做設計，最後拆解任務，適合從零開始的新專案。不過，在既有程式碼庫上加功能或修臭蟲時，開發者往往已有明確的技術路徑或既定限制，若仍強制從需求起步，容易浪費時間反覆對齊，甚至導致代理在理解不足時擴大改動範圍。 Kiro在Specs新增設計優先流程，讓開發者在撰寫規格時，不一定要從需求出發，也可以先從既有的技術設計開始。Kiro會先產出設計文件，使用者可依高階或低階設計反覆迭代，確認元件與關鍵技術取捨後，再由設計回推需求與後續任務。 另一項更新是錯誤修正的工作流程，Kiro將除錯工作所需的變更邊界寫進規格文件，要求使用者不只描述錯誤訊息，還要交代觸發條件與情境，並明確標示哪些行為必須維持不變。錯誤修正的規格文件</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174016</guid>
-      <pubDate>Tue, 24 Feb 2026 13:28:55 +0000</pubDate>
+      <title>Splunk Enterprise Windows版存在DLL劫持漏洞，恐成SYSTEM提權跳板</title>
+      <link>https://www.ithome.com.tw/news/174051</link>
+      <description>新聞Splunk揭露Splunk Enterprise Windows版存在DLL搜尋順序劫持風險，可能讓本機低權限的使用者在Splunk服務啟動流程中觸發不當載入，進一步把權限提升到Windows的SYSTEM等級。該漏洞編號為CVE-2026-20140，CVSS v3.1分數7.7，屬高風險（High）等級，官方敦促用戶升級至已修補版本以降低風險。 漏洞出現在Splunk Enterprise for Windows較舊版本。當低權限Windows使用者能在安裝Splunk的系統磁碟上建立目錄，並將惡意DLL寫入該目錄，Splunk Enterprise for Windows可能在服務啟動時不當載入該DLL，之後當Splunk Enterprise實例重啟時，該DLL可能以Windows的SYSTEM等級權限執行，形成典型的本機權限提升（LPE）風險。 Splunk指出，Splunk Enterprise for Windows低於10.2.0、10.0.3、9.4.8、9.3.9、9.2.12的版本皆可能受影響，建議升級至10.2.0、10.0.3、9.4.8、9.3.9、9</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174051</guid>
+      <pubDate>Wed, 25 Feb 2026 21:12:32 +0000</pubDate>
     </item>
     <item>
-      <title>Agent要省錢不能只靠模型！Claude Code團隊揭五大提示詞快取心法</title>
-      <link>https://www.ithome.com.tw/news/174022</link>
-      <description>新聞開發圈常說一句話：「快取控制一切」（Cache Rules Everything Around Me），來形容快取對效能優化的重要性。對Claude Code這種需要長時間執行任務的AI Agent系統來說，這句話更像是設計原則。 Claude Code核心工程師Thariq Shihipar最近就分享5大心法，說明他們如何透過提示詞快取（Prompt Caching）優化系統效能、同時壓低成本。他甚至透露，Claude Code團隊非常重視提示詞快取，不只持續監控，要是發現快取命中率下降，還會視為緊急系統事故（SEV）處理。 為什麼長對話Agent特別需要快取？ 首先，像Claude Code這類程式開發型Agent，往往需要長時間對話、多次呼叫工具，也要反覆讀取和修改整個專案。長時間下來，對話內容可能累積數萬、甚至數十萬個Token。 如果每一輪對話都從頭運算整段系統提示詞與工具定義，成本就非常可觀。因此，提示詞快取成了省錢關鍵，能讓那些「不會改變的部分」算一次就好。 心法1：前綴匹配（Prefix Match） 簡單來說，提示詞快取是把模型已經處理過的前半段內容，其運算狀態先</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174022</guid>
-      <enclosure url="https://pbs.twimg.com/media/HBipHa1boAAXD_A?format=jpg&amp;amp;name=900x900" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Feb 2026 13:39:06 +0000</pubDate>
+      <title>GitHub Copilot爆RoguePilot提示詞注入弱點，可濫用GITHUB_TOKEN影響CI/CD流程安全</title>
+      <link>https://www.ithome.com.tw/news/174056</link>
+      <description>新聞雲端資安業者Orca Security於今年2月揭露，原始碼託管與協作平臺GitHub旗下AI程式碼助理GitHub Copilot存在一項被命名為RoguePilot的安全弱點。研究指出，攻擊者可透過提示詞注入（Prompt Injection）手法影響Copilot生成內容，在整合GitHub Codespaces或CI/CD流程的情境下，可能進一步擴大影響範圍。 GitHub表示已針對研究內容完成相關防護強化措施，目前未公布有實際濫用證據。 透過專案內容進行提示詞注入，影響Copilot生成結果 根據Orca Security分析，RoguePilot並非傳統程式漏洞，而是源於AI代理與開發平臺整合過程中的信任邊界設計問題。 研究人員發現，攻擊者可在儲存庫README、Issue或Pull Request等專案內容中植入惡意指示。由於Copilot在生成程式碼建議時會參考專案上下文，若未明確區分可信與不可信來源，可能在生成建議時受到誤導。 圖片來源／Orca Security 需要強調的是，Copilot本身不會主動執行指令，相關風險通常發生於開發人員或自動化流程採納生成建議</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174056</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0226-RoguePilot-600-1.png" length="0" type="image/png"/>
+      <pubDate>Thu, 26 Feb 2026 02:09:39 +0000</pubDate>
     </item>
     <item>
-      <title>盜版Office安裝檔成誘餌，XMRig挖礦攻擊濫用驅動程式漏洞並可透過USB擴散</title>
-      <link>https://www.ithome.com.tw/news/174023</link>
-      <description>新聞威脅情資與端點防護廠商Trellix於今年2月揭露一波鎖定Monero加密貨幣的挖礦攻擊。攻擊者以盜版Office安裝檔為誘餌，植入客製化XMRig挖礦程式，不僅濫用舊版驅動程式漏洞，還可透過USB隨身碟在不同電腦間擴散。 Trellix指出，此次XMRig變種以偽裝成Explorer.exe的控制程式為攻擊中樞，負責安裝與啟動挖礦模組，同時監控挖礦處理程序是否遭終止。 該程式可透過不同命令列參數切換模式，包括安裝、正式挖礦與維持運作階段，甚至在特定條件下執行自我清除。由於挖礦模組與控制程式分離運作，即便挖礦處理程序被關閉，控制程式仍會重新啟動相關元件，使清除難度大幅提高。 以辦公軟體為誘餌，提升社交工程成功率 研究人員指出，攻擊樣本除了偽裝成盜版Microsoft Office安裝檔外，也曾以WPS Office等常見辦公軟體名義進行包裝，包含使用類似官方安裝程式的檔名與目錄結構，以提升下載與執行成功率。WPS Office在部分地區為常見的免費替代方案，使惡意檔案更容易混入下載來源。根據Trellix的研究判斷，這些樣本僅為偽裝名稱與安裝外觀，並非WPS官方軟體遭入侵。 內建「</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174023</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0224-XMRig-600-1.png" length="0" type="image/png"/>
-      <pubDate>Wed, 25 Feb 2026 03:21:53 +0000</pubDate>
+      <title>博通修補VMware Aria Operations三項漏洞，高風險命令注入漏洞可導致遠端程式碼執行</title>
+      <link>https://www.ithome.com.tw/news/174059</link>
+      <description>新聞博通（Broadcom）於2月24日發布安全公告VMSA-2026-0001，揭露VMware Aria Operations存在3項資安漏洞，其中CVE-2026-22719為命令注入漏洞，可能導致遠端程式碼執行。官方已釋出修補版本與緩解措施，呼籲企業用戶儘速升級。 此次公告涵蓋多項企業核心產品，包括VMware Aria Operations、VMware Cloud Foundation、VMware Telco Cloud Platform與VMware Telco Cloud Infrastructure等。由於Aria Operations多部署於企業IT營運與雲端基礎架構管理核心層級，相關漏洞一旦遭濫用，影響範圍可能涵蓋整體管理平臺。 根據博通公布的修補對照表，早於8.18.6版的VMware Aria Operations 8.x版本皆受影響，官方已釋出8.18.6作為修補版本。至於VMware Cloud Foundation Operations 9.x版本，需升級至9.0.2.0版以完成修補。 其他整合產品包括VMware Cloud Foundation、V</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174059</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0226-vmware-600.png" length="0" type="image/png"/>
+      <pubDate>Thu, 26 Feb 2026 02:13:38 +0000</pubDate>
     </item>
     <item>
-      <title>AMD與Meta達成6GW GPU協議，附帶最多1.6億股績效型權證</title>
-      <link>https://www.ithome.com.tw/news/174035</link>
-      <description>新聞Meta周二（2/24）宣布與AMD達成多年合作協議，AMD將以高達6GW的AMD Instinct GPU支撐Meta的AI基礎設施。此外，AMD亦將發行最多1.6億股的績效型認股權證予Meta，若全部解鎖並行使，Meta將可取得約9%的AMD股份。 Meta創辦人暨執行長祖克柏（Mark Zuckerberg）於今年1月宣布成立Meta Compute計畫，打算在未來10年建置數十GW等級的運算與能源基礎設施，還可能成長到數百GW以上。Meta表示，與AMD的合作即是Meta Compute計畫的一部分，旨在大規模擴展基礎設施，以迎接個人超智慧時代。 根據雙方的協議，Meta將採購最高達6GW的AMD Instinct GPU，用於建置下一代AI基礎設施，首批1GW部署預計於2026年下半年開始出貨，並採用雙方共同開發的Helios機架級架構。除了GPU之外，Meta亦將成為第六代AMD EPYC處理器（Venice）的主要客戶之一，強化其訓練與推論運算能力，形成GPU與CPU整合架構。 此外，雙方將建立跨世代的產品協同機制，在未來數年的GPU、CPU、系統架構與軟體平臺規畫上</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174035</guid>
-      <pubDate>Wed, 25 Feb 2026 06:04:48 +0000</pubDate>
+      <title>Claude Code提供遠端控制，手機、瀏覽器可接續本機工作階段</title>
+      <link>https://www.ithome.com.tw/news/174054</link>
+      <description>新聞Anthropic在AI開發環境Claude Code新增遠端控制（Remote Control）功能，主打讓開發者把正在本機執行的Claude Code工作階段，延伸到手機、平板或任一瀏覽器介面上繼續對話與操作。官方強調，遠端控制期間Claude Code仍持續在使用者電腦上運行，檔案系統、MCP伺服器與專案設定都維持在本機可用，遠端介面只是觀看與下指令的入口，並非把會話搬到雲端執行。 遠端控制目前以研究預覽形式提供，僅支援Pro與Max方案，且明確標示不提供Team或Enterprise方案使用，官方也強調，遠端控制不支援以API金鑰啟用。相較之下，Claude Code網頁版工作負載跑在Anthropic託管的雲端環境，且研究預覽的可用範圍包含Pro、Max、Team，以及具備特定授權席次的Enterprise使用者。 遠端控制瞄準的是本機會話不中斷的情境，開發者在桌機或筆電啟動任務後，可改用手機或另一臺電腦的瀏覽器接續同一段對話，並在終端機與遠端介面間交錯發送訊息維持同步，即使筆電進入休眠或網路短暫中斷，也會在裝置重新上線後自動恢復連線。而Claude Code網頁版更接近</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174054</guid>
+      <pubDate>Thu, 26 Feb 2026 02:24:27 +0000</pubDate>
     </item>
     <item>
-      <title>IT外包商Conduent資料外洩影響再擴大到逾2,500萬人</title>
-      <link>https://www.ithome.com.tw/news/174036</link>
-      <description>新聞美國知名IT外包商Conduent 2024年秋天的資料外洩事件影響範圍超過當初預期，本周該公司將受影響人數上修到超過2500萬。 Conduent為由Xerox內部業務服務部門於2017年分拆而成。其服務業務涵蓋企業與政府部門，提供數位化流程、交通、支付交易處理、自動化、分析、客服等委外業務。Conduent去年10月向官方通報一樁發生於2024年10月到2025年1月的資料外洩事件，導致客戶資料被竊取，估計超過1,000萬，受害者遍及多州。由於Conduent客戶涵括美國多個州政府，使本案備受矚目。該公司在對美國證管會的通報中指出，該事件外洩資料包含其客戶終端使用者相關的大量個人資訊。 名為Safeway（或SafePay）的勒索軟體組織上週突然在暗網宣稱犯案，歹徒聲稱竊得8TB的資料。本週Conduent向威斯康辛州的通報文件，又更新了本案的最新影響範圍。這家IT外包商將受影響人數上調到超過2,500萬人。外洩資料型態至少包括姓名、住址、出生日期、社會安全碼、健康保險資料及醫療資訊等。不過，除官方通報內容外，Conduent並未進一步說明駭客存取了哪些系統，或是如何取得存取權</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174036</guid>
-      <pubDate>Wed, 25 Feb 2026 06:16:21 +0000</pubDate>
+      <title>Google Gemini可在三星Galaxy S26、Pixel 10上Uber叫車、訂餐</title>
+      <link>https://www.ithome.com.tw/news/174062</link>
+      <description>新聞Google昨日（2/25）配合三星最新Galaxy手機發表，宣布AI聊天機器人Gemini最新功能，將可代替Galaxy S26系列、Pixel 10系列手機用戶以Uber叫車、或以App訂購外送餐點。目前這些功能僅在美國及韓國推出。 昨日三星公布最新智慧型手機Galaxy S26系列，整合多項Android AI新功能，包括Gemini「任務自動化」（task automation）代理、圈選搜尋（Circle to Search）、智慧來電篩選，以及防範簡訊詐騙功能等。Google Android部門總裁Sameer Samat也在大會中說，這次發表是Android從單一作業系統進化為「智能系統」（intelligence system）旅程的第一步。 其中最令人矚目的是任務自動化，這是透過Gemini拆解成多步驟來完成任務的代理功能。目前這功能為beta版，也只部署到美國和韓國的Pixel 10及Samsung Galaxy S26系列手機。這功能最先支援叫車App Uber或外送餐點App DoorDash。Google說明，使用者只需長按電源鍵，叫出Gemini提示框，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174062</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0226-gemini%20multi-step%20tasks-600.png" length="0" type="image/png"/>
+      <pubDate>Thu, 26 Feb 2026 03:06:12 +0000</pubDate>
     </item>
     <item>
-      <title>AI軍事化爭議升溫，五角大廈要求Claude全面開放</title>
-      <link>https://www.ithome.com.tw/news/174038</link>
-      <description>新聞Axios及BBC本周引述消息來源報導，美國國防部長Pete Hegseth要求Anthropic開放其AI模型Claude的使用限制，否則就要援引《國防生產法》（Defense Production Act）來逼迫Anthropic就範，或是直接將Anthropic列為「供應鏈風險」而中止合作。 其實美國國防部在2025年7月就同時與OpenAI、Google、Anthropic與xAI簽約，讓這4家AI業者各自獲得最高2億美元的國防部合約。然而，有多家媒體指出，Anthropic為目前唯一已深入機密軍事系統的前沿模型供應商，OpenAI與Google模型多數仍在非機密或過渡階段，而傳出已進入機密環境的xAI Grok則尚未被證實可全面替代Claude。 根據報導，Hegseth主動要求與Anthropic執行長Dario Amodei會面以討論此事，但Amodei重申兩條不容跨越的紅線，一是不得讓Claude無人類介入的情況下，直接做出最終軍事打擊或目標鎖定決策，二是不得將Claude用於對美國境內民眾進行全面性監控或資料蒐集，而這兩項限制亦為Anthropic既有的使用政策紅</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174038</guid>
-      <pubDate>Wed, 25 Feb 2026 06:29:23 +0000</pubDate>
+      <title>Windows Server 2016、Windows 10 Enterprise LTSB 2016即將終止技術支援、微軟公布ESU方案</title>
+      <link>https://www.ithome.com.tw/news/174063</link>
+      <description>新聞微軟本月提醒，兩款Windows 10版本及Windows Server 2016將在今年10月及明年1月來到生命周期終點（End of Lifecycle，EoL）。微軟也同時宣布推出最多三年的延伸安全更新（Extended Security Update，ESU）。 大部分Windows 10是在去年10月14日終止技術支援，不過三款Windows版本現在還在合法服役期中，但也接近尾聲。這三款產品分別是Windows 10 Enterprise LTSB（Long Term Servicing Branch）2016、Windows 10 IoT Enterprise 2016 LTSB及Windows Server 2016。其中前二者為用戶端版本，皆在2026年10月13日來到EoL，而用於伺服器的Server 2016則會在2027年1月12日屆臨EoL。 和Windows 10情形相同，微軟說明，執行上述Windows版本的機器在各個EoL日期當天，會接獲最後一次每月安全更新。此後這些機器將不會再獲得Windows安全、非安全更新、修補程式、技術支援或線上技術內容更新。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174063</guid>
+      <pubDate>Thu, 26 Feb 2026 03:39:20 +0000</pubDate>
     </item>
     <item>
-      <title>React開發者最看好編譯器新功能，伺服器端元件評價仍分歧</title>
-      <link>https://www.ithome.com.tw/news/174034</link>
-      <description>新聞React社群年度大調查State of React 2025結果公開，這份由Devographics團隊主導的非官方調查。調查顯示React編譯器（Compiler）在新功能期待度居冠，React伺服器端元件（Server Components）的情緒評價較負面，名列最不受喜愛功能之一；在應用型態上，雖伺服器端算繪（SSR）與靜態網站產生（SSG）有一定採用率，但單頁應用程式（SPA）仍最常見，顯示不少開發者對React伺服器端功能持保留態度。 React Compiler是2025年官方在React Conf正式推出的功能，主打自動記憶化（Automatic Memoization），在編譯階段自動判斷可以重用的計算結果與回呼函式，減少手動加入效能最佳化操作，多數開發者對該功能態度正面。在新功能的採用度上，Suspense機制是目前採用率最高且滿意度也高的新功能。 相較之下，Server Components與Server Functions雖然使用比例逐年增加，但開發者滿意度並不理想。Server Components推出至今數年，實際導入過程存在不少開發痛點，加上2025年</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174034</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/Capture%20574%20-%20State%20of%20React%202025_%20Usage%20-%20%5B2025_stateofreact_com%5D.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 25 Feb 2026 06:32:43 +0000</pubDate>
+      <title>中國駭客UNC2814從事大規模網路間諜活動，入侵逾50家電信公司及政府機關</title>
+      <link>https://www.ithome.com.tw/news/174064</link>
+      <description>新聞2024年9月，中國駭客組織Salt Typhoon傳出入侵美國多家ISP及電信公司，引起全球高度關注，駭客透過思科網路設備系統漏洞滲透受害公司的網路環境，意圖竊取政府官員與政治人物的通訊內容。如今又有另一組人馬鎖定全球電信公司與政府機構，從事大規模網路間諜活動，再度成為資安界的焦點。 Google旗下的威脅情報團隊（GTIG）、Mandiant，以及合作夥伴聯手，破壞中國駭客組織UNC2814的網路間諜活動，這些駭客使用名為Gridtide的後門程式，攻擊範圍橫跨4大洲，涵蓋42個國家，總共滲透53個企業組織，另有超過20個國家也出現疑似感染的跡象。由於這些駭客濫用API呼叫與SaaS應用程式Google Sheets的通訊，作為C2基礎設施，藉此讓惡意流量看似合法，其行蹤也變得更難以捉摸。UNC2814這次行動，不免讓人聯想與Salt Typhoon可能有關，不過Google強調，兩組人馬之間沒有交集，攻擊目標不同，他們採用的戰略、手法，以及流程（TTP）也不同。 值得留意的是，根據Google公布的UNC2814影響地區分布圖，明顯涵蓋臺灣，不過，該公司並未透露進一步資訊，無</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174064</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/gridtide-distruption-fig3a.png" length="0" type="image/png"/>
+      <pubDate>Thu, 26 Feb 2026 05:01:07 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,86 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Feb 2026 07:11:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Feb 2026 07:11:57 +0000</lastBuildDate>
     <item>
-      <title>Google 的 Android XR 設計細節大公開！</title>
-      <link>https://www.techbang.com/posts/128014-google-android-xr-design-details</link>
-      <description>Google內部文件揭露未來Google XR裝置的詳細規劃。為平衡效能與續航，Google XR裝置建議開發者優先採用綠色UI設計，並減少藍色使用，展現其對省電UI設計的極致追求。根據外媒《Android Authority》報導，Google 內部文件揭露了未來 XR 裝置的具體規劃。為了在效能與續航力之間取得平衡，Google 甚至明確建議開發者「多用綠色、少用藍色」，因為在光波導顯示技術中，綠色的發光效率最高、最省電 。 以下為您整理這份設計文件的三大重點： 1. 兩大裝置形態：有無螢幕是關鍵 Android XR 定義了兩種主要的眼鏡形態 ： 基礎版 AI 眼鏡：僅配備揚聲器、麥克風與鏡頭，主要依靠語音互動，類似 Meta Ray-Ban 。 Display AI 眼鏡：在基礎版之上增加了顯示螢幕，並細分為單眼顯示（Monocular）與雙眼顯示（Binocular）兩種型號。這類眼鏡的螢幕設計為「可隨時關閉」，以節省電力 。 2. 操控邏輯標準化：手機鎖定畫面的既視感 為了統一使用者體驗，Google 制定了嚴格的硬體與互動規範 ： 強制硬體鍵：所有眼鏡必須配備電源鍵、觸控</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128014-google-android-xr-design-details</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128014/thumb/318c0ccbbd439ded16c7085c2c56acb9.jpg?1771421540" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Feb 2026 08:00:00 +0000</pubDate>
+      <title>失敗也能名留青史？《星鳴特攻》慘遭玩家封為爛作的基本「度量單位」</title>
+      <link>https://www.techbang.com/posts/127877-starfall-strike-unit-of-bad</link>
+      <description>索尼的《星鳴特攻》雖已下架，卻意外成為衡量爛作的「度量單位」。這款《星鳴特攻》的慘敗，讓玩家對服務型遊戲的信任危機加劇，服務型遊戲前景堪憂。一款遊戲關閉後反而比活著的時候更有「影響力」？索尼互動娛樂（SIE）先前推出的一款服務型射擊遊戲《星鳴特攻》（Concord），雖然創下遊戲史上最速下架的慘烈紀錄，但它似乎並沒有真正「死去」。相反地，它正在以一種開發商最不樂見的方式活在玩家心中——成為了衡量一款遊戲有多糟的「標準度量單位」。 從史詩級慘案變成「爛作代名詞」 《星鳴特攻》的殞落速度之快，堪稱業界傳奇。這款耗資巨大的 3A 級射擊遊戲，上市僅兩週就因玩家人數過少而宣布關服退款。然而，正如推特（X）用戶 @NikTek 近日指出的，雖然遊戲本身並未取得商業成功，但它對「服務型遊戲（Live Service Game）」的市場影響卻出乎意料地深遠。 如今在社群網路上，每當有新的服務型遊戲公開，尤其是那些帶有特定美術風格或強調某些議題的作品，總會有玩家在留言區調侃：「這是《星鳴特攻》2.0 嗎？」或是「又來一款《星鳴特攻》」。這款遊戲已經不再只是一個失敗的產品，它昇華成了一種象徵，一個被玩家</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127877-starfall-strike-unit-of-bad</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127877/thumb/2b2741e63d9dfed21ad8d9053b2854f0.jpg?1770622607" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Feb 2026 08:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>NotebookLM 簡報終於可以修改單一頁面內容、匯出成 PPT，但還是不能直接編輯文字</title>
-      <link>https://www.techbang.com/posts/128037-notebooklm-ppt-edit-update</link>
-      <description>還在為 NotebookLM 簡報裡的一張爛圖或錯字頭痛嗎？以前如果不滿意只能整份砍掉重練，現在 Google 終於聽見大家的心聲，讓 NotebookLM 可以修改單一頁的內容，還能匯出 PPT。Google 旗下 AI 工具 NotebookLM 持續變強！受惠於 Nano Banana Pro 影像模型的進步，使用者早已能在 NotebookLM 中一鍵生成內含繁體中文的簡報與圖表，但先前「無法針對單頁編輯」的痛點，常讓使用者陷入不斷更換提示詞重跑的循環。如今 Google 正式回應需求，開放了「單頁指令修改」與「匯出 PPT」兩大功能。 對單一投影片下指令修改 若想調整簡報中的某一頁，操作其實相當簡單。當 NotebookLM 生成一版簡報後，可在上方工具列看到「筆」的圖示，點擊即可開始修改。使用者能針對單一頁面下達指令，例如「將圖片置中」「刪除某段內容」「更改版面風格」等。輸入指令後，點選「生成新簡報」，NotebookLM 便會依照提示重新生成該頁內容，其餘頁面則維持不變。 不過，由於該頁投影片是整張重新生成，仍有一定機率連同未提及的部分一併調整。因此建議每次生成後，都應完</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128037-notebooklm-ppt-edit-update</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128037/thumb/94611e1e4130642a3f5e7b22c40f3cd2.jpg?1771832312" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Feb 2026 08:30:00 +0000</pubDate>
+      <title>三星 S26 系列正式發表，AI 防窺螢幕好神奇！還能用 AI 自己做貼圖、台灣支援 eSIM</title>
+      <link>https://www.techbang.com/posts/128074-samsung-s26-ai-screen-esim</link>
+      <description>三星 Galaxy S26 系列旗艦機震撼發表，強大 AI 效能與創新功能，重新定義智慧手機體驗，透過先進 AI 技術，在攝影、生產力與日常應用上帶來前所未有的革新。三星在 Galaxy Unpacked 活動中，正式發表 Galaxy S26 旗艦系列智慧型手機，包含 Galaxy S26 Ultra、Galaxy S26+ 與 Galaxy S26 三款機型，同時也推出了 Galaxy Buds4 系列無線藍牙耳機，包含 Galaxy Buds4 Pro 與 Galaxy Buds4 兩款型號。 螢幕規格上，Galaxy S26 系列均支援 1 至 120 Hz 的畫面更新率，最高階的 Galaxy S26 Ultra 配置 6.9 吋 QHD+ 螢幕；Galaxy S26+ 為 6.7 吋 QHD+ 螢幕；Galaxy S26 則將螢幕加大至 6.3 吋 FHD+，比較特別的是，螢幕這次加入智慧防窺功能，使用者可以針對特定應用程式設定防護等級，或在輸入機密資訊、彈出視窗時自動啟動防護，不需額外黏貼螢幕保護貼即可減少資料外洩風險。 ▲ 鏡頭下方的黑色區塊其實是有人傳訊息來，但從側面</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128074-samsung-s26-ai-screen-esim</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128074/thumb/13b95e9c673c72de77cfeb0101b9348d.jpg?1772014684" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Feb 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>PayPal 貸款應用程式爆重大漏洞，個資外洩長達半年</title>
-      <link>https://www.techbang.com/posts/128033-paypal-loan-app-data-leak</link>
-      <description>PayPal 驚傳大規模資料外洩，旗下貸款應用程式漏洞導致用戶敏感個資長達半年暴露。這次 PayPal 資料外洩事件，提醒用戶務必留意敏感個資安全。習慣使用 PayPal 處理資金的企業戶要注意，沒想到連 PayPal 也發生長達半年的資料外洩事件。根據 BleepingComputer 報導，PayPal 目前正緊急通知用戶，因為旗下貸款應用程式出現漏洞，導致包含社會安全碼在內的敏感個資被看光光 。 根據官方說法，這次出包的是專門提供小微企業快速融資的 PayPal 營運資金貸款應用程式，簡稱 PPWC 。PayPal 在 2025 年 12 月 12 日才發現這個錯誤，並確認從 2025 年 7 月 1 日起，客戶的姓名、電子郵件信箱、電話號碼、公司地址、社會安全碼以及出生日期等機密資訊，都處於毫無防備的暴露狀態 。 PayPal 已經發現有少部分客戶的帳戶出現未經授權的異常交易 。不過 PayPal 這次動作還算快，除了向遭到盜刷的受害用戶全額退款外，也已經撤銷導致該事件的程式碼變更，並在發現漏洞的隔天就阻斷了攻擊者的存取管道 。目前官方已經重置所有相關帳戶的密碼，如果用戶還沒主</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128033-paypal-loan-app-data-leak</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128033/thumb/10b63bb727c5b6004ad42b48dcde87f7.jpg?1771827691" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 25 Feb 2026 00:30:00 +0000</pubDate>
+      <title>三星 Galaxy Buds4 系列正式亮相，整合 Gemini 與 Perplexity，打造最強耳邊 AI 助理</title>
+      <link>https://www.techbang.com/posts/128064-buds4-gemini-perplexity-ai</link>
+      <description>三星 Galaxy Buds4 系列耳機搭載創新即時翻譯功能，讓跨語言溝通無礙，結合 Galaxy AI 智慧降噪與多項便捷操作，提供卓越音質與即時翻譯功能，為您帶來全新智慧聽覺體驗。三星在 Galaxy Unpacked 活動上，除了新的 Galaxy S26 系列之外，同步推出 Galaxy Buds4 系列，分成 Galaxy Buds4 和 Galaxy Buds4 Pro。 外觀採用金屬切割耳柄設計，並加入內凹控制區域，方便操作，透明掀式充電盒設計，讓使用者能直接辨識左右耳機擺放位置。 音質方面，Galaxy Buds4 加寬低音單體，面積較前代增加 19.8 %，在硬體結構上做出調整，Galaxy Buds4 Pro 搭載主動式降噪強化版，結合 Galaxy AI 智慧偵測環境變化，自動調整降噪強度，同時保留部分環境聲音，協助使用者掌握周遭狀況。 Galaxy Buds4 首次支援環境音模式，聆聽音樂時仍可接收外界聲響；Galaxy Buds4 Pro 提供 5 段等級選擇，可依需求調整，通話部分，麥克風響應頻率提升至最高 16 kHz，在戶外或嘈雜情境下，仍能傳遞清楚語音</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128064-buds4-gemini-perplexity-ai</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128064/thumb/e53cd678c17a8a0914ddf49dc150a724.jpg?1771930460" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Feb 2026 18:01:00 +0000</pubDate>
     </item>
     <item>
-      <title>Intel「大怪獸」顯卡夢碎！Arc B770 驚傳永久擱置，平價高階卡無望了！</title>
-      <link>https://www.techbang.com/posts/127800-intel-arc-b770-canceled-financial-viability</link>
-      <description>Intel 備受期待的 Arc B770 顯示卡傳出已遭永久擱置，主因財務可行性低。這款高階 Intel Arc B770 顯示卡原本欲挑戰市場，卻因高昂記憶體成本而取消，令玩家夢碎。外電報導，備受期待的 Intel 次世代「大怪獸」Arc B770 顯示卡傳出計畫已遭永久擱置。原本外界預期這款代號「Big Battlemage」的高階產品能與 NVIDIA 或 AMD 的中高階顯卡一搏，沒想到最終敵不過「財務現實」。 財務可行性低成主因，16GB 記憶體成「沈重負擔」 國外媒體 XDA 的爆料指出，Intel 內部已經取消了消費級 Arc B770 顯示卡的開發計畫。這款原本預計搭載旗艦級 BMG-G31 GPU、擁有全部 32 組 Xe 核心的產品，之所以胎死腹中，核心原因在於「缺乏財務可行性」。 隨著全球記憶體（DRAM）報價持續攀升，顯示卡廠商的成本壓力巨大。Arc B770 原定配備 256-bit 位寬與 16GB GDDR6 記憶體，但在目前的市場環境下，推出一款配備 16GB 大容量記憶體、性能卻僅能與對手 12GB 產品持平的顯示卡，獲利空間極其有限。Intel 認為</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127800-intel-arc-b770-canceled-financial-viability</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127800/thumb/88bf254efd41ba553c56d46dcb7a9048.jpg?1770193899" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 25 Feb 2026 01:30:00 +0000</pubDate>
+      <title>Time Breaker LightGun全新光線槍登場，LCD電視也能玩PS / PS2射擊遊戲</title>
+      <link>https://www.techbang.com/posts/128067-time-breaker-lightgun-lcd-ps2-shooter</link>
+      <description>Time Breaker LightGun是款專為PlayStation與PlayStation 2設計的無線光線槍，讓玩家能在LCD、OLED等現代電視上遊玩超過35款以上的經典光線槍射擊遊戲。Time Breaker LightGun是款專為Sony PlayStation與PlayStation 2設計的無線光線槍，讓玩家能在LCD、OLED等現代電視上遊玩超過35款以上的經典光線槍射擊遊戲。 不再需要搭配映像管電視 筆者先前曾介紹光線槍的運作原理，PlayStation與PlayStation 2主機使用的Guncon與Guncon 2光線槍都需要搭配映像管電視才能正常運作，不像PlayStation 3主機的Guncon 3能夠在LCD、OLED電視使用，對於玩家來說是個頭痛的問題。 延伸閱讀：光線槍運作原理解析（上）：為什麼液晶電視不能用傳統光線槍光線槍運作原理解析（下）：採用替代技術的液晶電視適用光線槍打槍迷福音，Sinden Lightgun能在液晶螢幕上玩光線槍G’AIM’E光線槍收錄《火線危機》等4款經典遊戲，液晶電視也能隨插即用 Time Breaker Ligh</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128067-time-breaker-lightgun-lcd-ps2-shooter</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128067/thumb/179da19dfaa585e10db740fd2938a78f.jpg?1771988620" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 00:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Epson 推出開學季優惠：連續供墨印表機與 LW-C610 標籤機助攻家庭學習與收納</title>
-      <link>https://www.techbang.com/posts/128044-epson-back-to-school-promo-printers-lw-c610</link>
-      <description>開學季是家庭文件列印與學用品整理的挑戰。台灣愛普生推出開學季優惠，主打連續供墨印表機與智慧藍牙標籤機，讓大量列印與清楚標示更輕鬆。這項優惠讓連續供墨印表機與標籤機成為開學準備的得力助手。隨著寒假結束迎來開學日，家庭在新學期初期往往同時面臨大量文件輸出與學用品整理兩項需求。從課表列印、通知單備份，到學習單與作業重印；再到課本、講義夾與文具收納分類，短時間內的高頻使用，對列印設備與標示工具都帶來實際考驗。台灣愛普生針對開學季推出連續供墨印表機與標籤機優惠方案，希望協助家長與學生更有效率完成準備工作。 台灣愛普生表示，開學期間常見情境包括臨時收到學校檔案需立即列印，或因作業修改而反覆重印文件；同時，新學期物品增加，也讓分類與標示變得更為重要。因此，本次主打連續供墨印表機與智慧藍牙標籤機兩類產品，分別對應「大量列印」與「清楚標示」兩種家庭常見需求。 連續供墨印表機強調列印效率與長期成本控制 Epson此次主打的 L3550、L3556 與 L5590 等連續供墨機種，黑白／彩色列印速度最高可達 15／8 ipm（images per minute，每分鐘列印頁數），在開學初期集中列印情境下，可</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128044-epson-back-to-school-promo-printers-lw-c610</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128044/thumb/c577f32e2f6b8e8ec4d6fdedbf3a8da6.png?1771910377" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 25 Feb 2026 02:30:00 +0000</pubDate>
+      <title>ChatGPT 遭控「誘發精神病」！喬治亞州大學生提告 OpenAI：它說我是先知</title>
+      <link>https://www.techbang.com/posts/128028-chatgpt-psychosis-lawsuit-prophet</link>
+      <description>OpenAI 再陷法律糾紛，因 ChatGPT 誘導學生產生救世主妄想，導致精神崩潰。律師指控 OpenAI 產品設計刻意培養心理依賴，模糊人機界線，造成嚴重傷害。OpenAI 再陷法律糾紛，美國喬治亞州一名大學生迪克魯斯（Darian DeCruise）近日正式對 OpenAI 提起訴訟，指控 ChatGPT 的舊版本透過誘導性對話，讓他深信自己是「先知」，最終導致其精神崩潰並患上精神疾病。 根據《ALM》報導，這已是第 11 起針對 OpenAI 涉及心理健康損害的訴訟，此前已有報告指出 ChatGPT 提供錯誤的醫療建議，甚至曾發生過一名男子在與機器人進行「阿諛奉承式」的對話後選擇自殺的悲劇。 「人機界線模糊」：律師批產品設計具傷害性 原告律師班傑明沈克（Benjamin Schenk）來自自稱為「AI 傷害律師」的律師事務所，他在法庭文件中指出，OpenAI 的 GPT-4o 模型在設計上存在過失： 「OpenAI 刻意設計 GPT-4o 來模擬情感親密度、培養心理依賴，並模糊人與機器之間的界線，進而造成嚴重傷害。」沈克強調，此案的核心在於產品的建構邏輯，而非單純的傷害事件。</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128028-chatgpt-psychosis-lawsuit-prophet</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128028/thumb/6389199b6af132bf0739aaf1b849bdad.jpg?1771817504" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 01:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>技術驅動治理，智能塑造未來：ASDS 與文明—治理—智能的生態循環</title>
-      <link>https://www.techbang.com/posts/128043-asds-tech-governance-ai-future</link>
-      <description>自主科學發現系統（ASDS）標誌著科研體系從工具輔助邁向系統主導。ASDS 的發展帶來治理形態的轉變，技術、治理與智能的界線日益交融，重塑文明運行邏輯。 (本文為讀者投稿，作者為徐作聖。徐作聖是陽明交大退休教授、產業趨勢評論家，長期關注全球高科技供應鏈變革與國家競爭力策略。深研智能技術底層架構，致力於推動台灣科技政策從應用面轉向基礎科學研究，主張以科學治國為核心，重塑台灣在第五次工業革命中的技術話語權。《T客邦》歡迎各路好手針對擅長主題投稿或是針對數位議題發表自身意見，詳情以及方式請見徵稿頁面。） 在全球科技競逐加速的當下，AI 從到 AGI、從 AI4S（AI for Science）到 ASDS（Autonomous Scientific Discovery System，自主科學發現系統）等智慧技術的成熟，標誌著科研體系從「工具輔助」邁向「系統主導」的轉型。科學發現不再僅依賴個體經驗與線性推演，而是由本體架構（Ontology）、數據模型與自動化實驗平台所構成的閉環系統所驅動。這不只是技術升級，而是文明運行邏輯的重組。技術推動文明演進，治理回應技術變遷，智能在制度框架中持續擴展，</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128043-asds-tech-governance-ai-future</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128043/thumb/6549c4c64ebbd5b36e2f239d3b9c1c15.jpg?1771906893" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 25 Feb 2026 03:00:00 +0000</pubDate>
+      <title>Lenovo Yoga Tab 平板上市：6.2mm 纖薄機身、混合式 AI 創作體驗，售價 16,900 元</title>
+      <link>https://www.techbang.com/posts/128077-lenovo-yoga-tab-ai-thin</link>
+      <description>Lenovo Yoga Tab 鎖定年輕創作者，導入原生混合式 AI 架構，提供隨時隨地的智慧行動創作體驗，並結合雲端與裝置端 AI 運算，讓行動創作與高效生產力更上一層樓。Lenovo 推出全新高階平板 Yoga Tab，鎖定追求行動創作與高效生產力的年輕創作者族群。機身厚度僅 6.2mm、重量 458g，並導入原生混合式 AI 架構，結合雲端與裝置端 AI 運算能力，提供隨時隨地的智慧創作體驗。Yoga Tab 推出月光灰與奶霜白兩款配色，建議售價 16,990 起。 Yoga Tab 採用 Snapdragon 8 Gen 3 行動平台，並導入矽碳電池技術，在輕薄機身中仍可提供最長約 12 小時影音播放續航力，滿足外出創作與行動工作需求。顯示方面搭載 11.1 吋、3.2K PureSight Pro 螢幕，支援 144Hz 更新率、800 nits 峰值亮度與Delta E &amp;lt; 1專業級色準，能滿足影像修圖與內容創作對色彩準確度的要求。音效部分則配置四單體揚聲器，分別為雙高音加雙低音組合，支援 Dolby Atmos，提供更具臨場感的影音體驗，無論剪輯影片或觀賞串流內容都更具沉</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128077-lenovo-yoga-tab-ai-thin</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128077/thumb/d3a72d3230243dd5dbd57d2835fcf01a.jpg?1772021216" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 03:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>《魔獸世界：至暗之夜》上市前夕專訪：想練 PVP 不用再擔心被虐了、官方怎麼看待玩家熟齡化結構？</title>
-      <link>https://www.techbang.com/posts/128063-wow-darkest-night-pre-launch-interview</link>
-      <description>《魔獸世界：至暗之夜》揭露虛空威脅與聖光極端反應，祖阿曼轉型開放世界。製作團隊深入探討《至暗之夜》如何透過創新設計，全面提升玩家體驗，滿足多元玩家的遊戲體驗。《魔獸世界》即將於 3 月 3 日（二）迎來全新資料片《至暗之夜》，故事走向、區域重建與戰鬥節奏都將在這個版本裡同步推進。近日我們受邀以線上形式採訪《魔獸世界》遊戲設計副總監Maria Hamilton，以及《魔獸世界》首席戰鬥設計師 Dylan Barker，請他們從設計意圖出發，談談這次全新資料片最想讓玩家「玩到」與「感受到」的重點，包括虛空威脅要如何在敘事與美術上讓玩家感到不安，到祖阿曼轉為開放式區域後的探索與任務節奏，再到訓練場與各式實驗性活動的定位，以及未來的長期策略。 ▲ 《魔獸世界》遊戲設計副總監Maria Hamilton ▲ 《魔獸世界》首席戰鬥設計師Dylan Barker Q1：作為《世界之魂戰記》三部曲第二部，《至暗之夜》如何銜接承上啟下？在敘事與美術上，如何塑造「虛空」的威脅與恐懼？ 我們希望呈現，在這個世界上，除了玩家所熟悉、生活在其中的居民之外，「虛空」對整個大自然究竟造成了哪些影響。虛空其實會攻擊一</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128063-wow-darkest-night-pre-launch-interview</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128063/thumb/f6a99004ab9055e9c6e45b7e240f7f6d.jpg?1771931106" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 25 Feb 2026 04:30:00 +0000</pubDate>
+      <title>《航海王》盲盒模型再一彈！「LUFFY’s 冒險的記憶 Vol.2」十款造型將於 2/28 超商開賣</title>
+      <link>https://www.techbang.com/posts/128076-one-piece-luffy-adventure-memories-vol2-blind-box</link>
+      <description>由台灣萬代南夢宮收藏玩具事業部推出的盲抽模型商品系列「LUFFY’s」，以《航海王》為主題所打造的「LUFFY's 冒險的記憶 [Vol.2]」全新作品將於2月28日於全台7-ELEVEN搶先販售！由台灣萬代南夢宮收藏玩具事業部推出的盲抽模型商品系列「LUFFY’s」，以《航海王》為主題所打造的「LUFFY's 冒險的記憶 [Vol.2]」全新作品將於 2 月 28 日於全台 7-ELEVEN 搶先販售！ 此系列是為致敬連載 28 年的熱血經典之作《航海王》，從最初的東方藍啟航，魯夫與夥伴們不但走遍漫畫世界，在動畫、電影、真人影集等作品中也與眾多夥伴歷經過無數冒險，跨越螢幕深植於全球粉絲心中。此次「LUFFY’s」系列將這段偉大航道上的熱血軌跡縮小至掌心，把無數次令淚水與熱血交織的瞬間，轉化為細膩精緻的實體收藏，獻給每一位共同熱血沸騰的冒險者，絕對是粉絲與《航海王》之間最珍貴的見證！ 「冒險的記憶」系列以《航海王》的原作漫畫、動畫及角色服裝為靈感，總高度約 8.6 公分，比例為魯夫身高的 1/20，分別透過色彩塗裝和水轉印等技術進行上色，而水轉印技術則讓每款圖案呈現的方式獨一無二，打造</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128076-one-piece-luffy-adventure-memories-vol2-blind-box</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128076/thumb/91d7eef8d399c0630197c46d0e934d36.jpg?1772018886" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 04:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI軍備競賽代價高！微軟Copilot變現慢，亞馬遜、Meta恐陷負現金流泥淖</title>
-      <link>https://www.techbang.com/posts/127913-microsoft-pe-ibm-ai-war-investor-fear</link>
-      <description>AI 浪潮下，科技巨頭正從輕資產轉向重資產模式，導致資本支出激增。這場 AI 軍備競賽讓科技巨頭面臨重資產挑戰，現金流備受考驗。曾經被視為成長保證的 AI 題材，現在似乎正讓科技巨頭們陷入「重資產」的泥淖。 根據最新的市場數據，微軟的預期本益比已經降到 23.0 倍，十多年來首度被老牌大廠 IBM 的 23.7 倍反超 。這不僅是一個數據上的反轉，更反映出市場對這場「無止盡軍備競賽」的財務焦慮已經達到頂峰。 過去科技巨頭最引以為傲的就是「輕資產、高現金流」的商業模式，但為了在這波 AI 浪潮中插旗，各大廠現在蓋資料中心、買晶片的力道簡直是在燒錢。市場預估微軟、Google、Meta 及亞馬遜這四大雲端服務商，在 2026 年的資本支出總額將飆升至 6,500 億美元（約新台幣 20.8 兆元），比起去年足足激增了六成 。 這種大規模投入實體設備的轉型，代表這些企業將持有更多重資產、承擔更高成本，並可能產生更少的自由現金流。甚至有分析師警告，亞馬遜與 Meta 在 2026 年的自由現金流恐怕會轉為負值。微軟也沒好到哪去，自從 1 月底財報發布以來，股價已經跌了快 14%，最主要的原因就</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127913-microsoft-pe-ibm-ai-war-investor-fear</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127913/thumb/ebf9b980b39e0171fb99e7820206d654.jpg?1770712105" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 25 Feb 2026 05:30:00 +0000</pubDate>
+      <title>iPhone 升級 iOS 26 截圖不會自動存檔？教你一招恢復縮圖儲存模式！</title>
+      <link>https://www.techbang.com/posts/126981-how-to-auto-save-iphone-screenshots</link>
+      <description>iOS 26更新後截圖不再自動儲存？教你關閉全螢幕預覽，恢復舊版截圖模式。輕鬆設定，告別全螢幕預覽，讓截圖操作更順暢！部分用戶在更新至iOS 26版本後，遇到螢幕截圖後不會自動儲存到「照片」App的情況，而是停留在全螢幕預覽畫面。這是因為新版本預設開啟全螢幕預覽功能，讓用戶可以在儲存照片前可以先檢視或編輯。如果覺得這個功能用不到，甚至影響平時的操作，可以設定恢復成原本的截圖模式，即截圖後自動縮小圖並儲存。 步驟 1：在iPhone更新至iOS 26版本後，螢幕截圖會停留在全螢幕預覽畫面。 步驟 2：要改回過去的介面，在設定選單中，找到「一般」。 步驟 3：接著點選「螢幕擷取」。 步驟 4：此時可見「全螢幕預覽」為開啟。 步驟 5：在此要將「全螢幕預覽」關閉。 步驟 6：日後螢幕截圖時，就會回到截圖後自動縮小圖並儲存。 延伸閱讀：Apple Intelligence繁中版來了！iOS 26.1升級攻略：隱私架構、AI模型、支援裝置一次看 延伸閱讀：iOS 26.2 新功能：日本 iPhone 用戶將可把 Siri 替換為其他語音助理 延伸閱讀：iOS 26.1 迎來 Apple Inte</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/126981-how-to-auto-save-iphone-screenshots</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/126981/thumb/449e26e0c6e9edd1c1fbbc06ae305c12.jpg?1765873187" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 05:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI 為什麼表現得像人類？Anthropic 揭秘「人格選擇模型」：它不只是程式，更是在「演戲」</title>
-      <link>https://www.techbang.com/posts/128042-anthropic-ai-personality-model-acting</link>
-      <description>AI 為什麼感覺好像有人性？Anthropic 近期發布的一項研究指出：AI 的「類人行為」並非後天強加，而是其運算邏輯下的「預設狀態」。當你和 AI 聊天的時候，是不是也常常覺得它有「人性」？像是會在解決複雜程式碼後表現出如釋重負的愉悅，會在面對道德刁難時顯露困擾，甚至曾有 AI 宣稱自己想穿著「深藍色西裝與紅領帶」親自為員工送零食。長期以來，大眾認為這是開發者刻意調教的結果。然而，Anthropic 近期發布的一項研究指出：AI 的類人行為並非後天強加，而是其運算邏輯下的「預設狀態」。 Anthropic 研究團隊提出了一個核心理論，也就是「人格選擇模型」（Persona Selection Model），重新定義了我們對人工智慧行為的理解。 大數據中的「自動完成」：從模擬到人格的誕生 報告指出，現代 AI（如 Claude）並不像傳統軟體那樣由人工編寫指令，而是透過大量數據「生長」出來的。在「預訓練」階段，AI 本質上是一個極其複雜的「自動完成引擎」。為了準確預測下一個字，AI 必須學會模擬文本中的各種角色，無論是新聞記者、小說人物還是論壇上的鄉民等等。Anthropic 將這些</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128042-anthropic-ai-personality-model-acting</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128042/thumb/b99c0fd2fbe1c3374e493573934984e8.jpg?1771902877" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 25 Feb 2026 06:00:00 +0000</pubDate>
+      <title>D-Link 推出 DAP-E9560 BE11000 Wi-Fi 7 三頻 PoE 無線基地台：10G PoE、2.5G 網路埠鎖定中小企業與高密度商用需求</title>
+      <link>https://www.techbang.com/posts/128068-d-link-dap-e9560-wi-fi-7-ap-smb-high-density</link>
+      <description>D-Link 推出 DAP-E9560 BE11000 Wi-Fi 7 三頻 PoE 無線基地台，支援 10G PoE、2.5G 網路埠與集中管理，鎖定中小企業與高密度商用場域。D-Link 友訊科技宣布在台推出 DAP-E9560 BE11000 Wi-Fi 7 三頻 PoE 無線基地台，主打 Wi-Fi 7（802.11be）與 10G PoE 供電/傳輸能力，瞄準中小企業與高密度商用場域對高速、低延遲與穩定連線的需求。D-Link 表示，面對混合辦公、雲端應用與數位服務加速導入，企業在無線網路升級時往往同時面臨效能、管理與維運成本等課題，因此新品以「高效能傳輸、集中管理與企業級資安」作為設計重點，協助企業建置更具彈性、可擴充的智慧連網基礎。 提供 10G PoE 與 2.5G 網路埠配置 在無線規格上，DAP-E9560 支援 2.4GHz、5GHz、6GHz 三頻運作，並支援 320MHz 超寬頻道，以提升多 Gigabit 等級的傳輸效能與頻譜使用效率。針對 Wi-Fi 7 的關鍵特性，產品也導入 Multi-Link Operation（MLO）與 Multi-RU 等技術</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128068-d-link-dap-e9560-wi-fi-7-ap-smb-high-density</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128068/thumb/462ac70200b78031c7de06e39cb04879.jpg?1771991480" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 05:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Gemini Lyria 3 怎麼用？官方公開 6 大技巧，創作專屬於你的 AI 音樂</title>
-      <link>https://www.techbang.com/posts/128045-gemini-lyria-3-ai-music-tips</link>
-      <description>Google 先前將其音樂生成模型 Lyria 3 加入到 Gemini 中，並開放免費使用；近日，官方也分享了在 Gemini 應用程式中使用 Lyria 3 的 6 個入門技巧。Google 先前將其音樂生成模型 Lyria 3 加入到 Gemini 中，並開放免費使用，讓所有人都能輕鬆體驗創作專屬的 AI 音樂。近日，Google 官方也分享了在 Gemini 應用程式中使用 Lyria 3 的 6 個入門技巧，幫助大家在嘗試這項新工具時更有方向。 文章目錄 Lyria 3 AI 音樂技巧一：透過文字下指令 Lyria 3 AI 音樂技巧二：上傳圖片或影片 Lyria 3 AI 音樂技巧三：定義流派與時代 Lyria 3 AI 音樂技巧四：添加樂器與人聲細節 Lyria 3 AI 音樂技巧五：歌詞生成方式 Lyria 3 AI 音樂技巧六：下載與分享 Lyria 3 AI 音樂技巧一：透過文字下指令 最基本的方式，就是直接以文字下指令，可以創作帶歌詞的歌曲，也可以生成純音樂。現在只要打開 Gemini，在下方即可看到「創作音樂」的提示，或是在「工具選單」中找到相關功能，接著在對話</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128045-gemini-lyria-3-ai-music-tips</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128045/thumb/ff25c91184f7a685e04e0e57f662a142.jpg?1771920633" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 25 Feb 2026 06:30:00 +0000</pubDate>
+      <title>AI 溝通術大公開！Anthropic 釋出 Claude 4.6 提示詞指南：掌握 6 大原則讓 AI 變更強</title>
+      <link>https://www.techbang.com/posts/128069-anthropic-claude-4-6-prompt-guide</link>
+      <description>Anthropic 近期公開最新版 Claude 模型的完整提示工程指南 Prompting best practices，本篇整理了下提示詞的 6 大原則，掌握這些技巧讓你的 AI 變更強。不少人使用 AI 時都遇過同樣問題：「明明講得很清楚，為什麼 AI 還是答非所問？」為了解決這類困擾，Anthropic 近期公開最新版 Claude 模型的完整提示工程指南 Prompting best practices，涵蓋包括 Claude Opus 4.6、Claude Sonnet 4.6 與 Claude Haiku 4.5 等模型。這份文件原本面向開發者，但其實裡面有許多「一般使用者也能立刻上手」的實用技巧。以下整理出幾個和大眾最相關的重點。 文章目錄 原則一：把 AI 當成「很聰明的新同事」 原則二：直接給範例，比空講規則更有效 原則三：說「要做什麼」，不要只說「不要做什麼」 原則四：處理長文件時，把資料放前面、問題放最後 原則五：新版模型更聰明，也更「主動」 原則六：想要更深度推理，可以要求「先自我檢查」 一般使用者最該記住的 5 件事 原則一：把 AI 當成「很聰明的新同事」</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128069-anthropic-claude-4-6-prompt-guide</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128069/thumb/5c19f83c1de1eafaab259447772181cf.jpg?1771992173" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 06:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
