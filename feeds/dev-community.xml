@@ -8,77 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Feb 2026 07:04:30 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 06:58:54 +0000</lastBuildDate>
     <item>
-      <title>ساخت تایم‌لپس حرفه‌ای با چند دوربین مداربسته — تجربه‌ای که از یک نیاز واقعی شروع شد</title>
-      <link>https://dev.to/intellsoft/skht-tymlps-hrfhy-b-chnd-dwrbyn-mdrbsth-tjrbhy-khh-z-ykh-nyz-wqy-shrw-shd-37f0</link>
-      <description>ساخت تایم‌لپس حرفه‌ای با چند دوربین مداربسته — تجربه‌ای که از یک نیاز واقعی شروع شد گاهی بهترین پروژه‌های نرم‌افزاری نه از یک ایده استارتاپی، بلکه از یک مشکل واقعی متولد می‌شوند. چند سال پیش در پروژه‌های نظارت تصویری و پروژه‌های عمرانی با یک چالش تکراری روبه‌رو شدم: 👉 دوربین‌ها شبانه‌روز ضبط می‌کردند، اما وقتی کارفرما می‌خواست روند چند ماهه پروژه را در چند دقیقه ببیند، هیچ ابزار ساده‌ای وجود نداشت. فیلم‌ها زیاد بودند. ساعت‌ها و حتی ترابایت‌ها ویدئو ذخیره شده بود. ولی خروجی تایم‌لپس؟ تقریباً صفر.</description>
-      <guid isPermaLink="false">https://dev.to/intellsoft/skht-tymlps-hrfhy-b-chnd-dwrbyn-mdrbsth-tjrbhy-khh-z-ykh-nyz-wqy-shrw-shd-37f0</guid>
-      <pubDate>Thu, 26 Feb 2026 06:15:17 +0000</pubDate>
+      <title>Designing Games With AI: Creative Partner or Creative Risk? - (Feb 2026)</title>
+      <link>https://dev.to/spookuspookus/designing-games-with-ai-creative-partner-or-creative-risk-3cci</link>
+      <description>AI tools have never been easier for the average person to use. Everywhere we go, AI has been woven into the tools and platforms we interact with daily. Even a simple Google search produces an AI-generated answer before traditional website links appear. Artificial intelligence is no longer experimental, it is embedded in everyday life. This raises an important question: how are the creative members of society making use of it? In this post, I will summarize a research paper by Sultan A. Alharthi</description>
+      <guid isPermaLink="false">https://dev.to/spookuspookus/designing-games-with-ai-creative-partner-or-creative-risk-3cci</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgfltnd3qkxqfes0cnkum.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 27 Feb 2026 06:20:16 +0000</pubDate>
     </item>
     <item>
-      <title>Automatic temp file creation on the standby - Oracle AI Database 26ai</title>
-      <link>https://dev.to/vahidusefzadeh/automatic-temp-file-creation-on-the-standby-oracle-ai-database-26ai-h9j</link>
-      <description>In Oracle Database 19c, when a tempfile is added on the primary database, it is not automatically created on the physical standby database. This is because Oracle does not generate redo for tempfile-related DDL operations (such as creating, adding, resizing, or dropping tempfiles). Behavior in Oracle Database 19c For example, when creating a temporary tablespace on the primary database(19c): — Primary SQL&amp;gt; create temporary tablespace TEMP1404; Tablespace created. SQL&amp;gt; select ts# from v$tablespac</description>
-      <guid isPermaLink="false">https://dev.to/vahidusefzadeh/automatic-temp-file-creation-on-the-standby-oracle-ai-database-26ai-h9j</guid>
-      <pubDate>Thu, 26 Feb 2026 06:35:29 +0000</pubDate>
+      <title>Building Scalable Real-Time Applications with Node.js, Socket.io, and React</title>
+      <link>https://dev.to/iammuhammadarslan/building-scalable-real-time-applications-with-nodejs-socketio-and-react-2ljk</link>
+      <description>From collaborative whiteboards and live trading dashboards to chat applications and multiplayer games, real-time functionality is no longer a luxury—it's an expectation. Building a real-time application that works for 10 users on a local machine is relatively straightforward. Scaling that same application to handle 10,000 concurrent users across distributed servers is a completely different architectural challenge. After architecting real-time systems for enterprise clients, I've distilled the p</description>
+      <guid isPermaLink="false">https://dev.to/iammuhammadarslan/building-scalable-real-time-applications-with-nodejs-socketio-and-react-2ljk</guid>
+      <pubDate>Fri, 27 Feb 2026 06:27:11 +0000</pubDate>
     </item>
     <item>
-      <title>Why AI Recruitment Pipelines Are Becoming Part of Modern Engineering Workflows</title>
-      <link>https://dev.to/taurusai/why-ai-recruitment-pipelines-are-becoming-part-of-modern-engineering-workflows-22mf</link>
-      <description>Hiring is usually treated as an HR problem. But for growing engineering teams, hiring delays quickly become a technical bottleneck. Features wait for developers. Roadmaps slow down. Senior engineers spend time interviewing instead of building. At scale, recruitment directly affects engineering velocity. This is exactly why AI-driven recruitment workflows are starting to look more like software pipelines. The Real Problem Engineers Notice First When companies start scaling, the hiring pipeline br</description>
-      <guid isPermaLink="false">https://dev.to/taurusai/why-ai-recruitment-pipelines-are-becoming-part-of-modern-engineering-workflows-22mf</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fry67kto4uo86xy7kq2i5.png" length="0" type="image/png"/>
-      <pubDate>Thu, 26 Feb 2026 06:42:13 +0000</pubDate>
+      <title>Local Development Setup: Tools, Debugging, and Hot Reload</title>
+      <link>https://dev.to/martin_oehlert/local-development-setup-tools-debugging-and-hot-reload-2925</link>
+      <description>Azure Functions for .NET Developers: Series Part 1: Why Azure Functions? Serverless for .NET Developers Part 2: Your First Azure Function: HTTP Triggers Step-by-Step Part 3: Beyond HTTP: Timer, Queue, and Blob Triggers Part 4: Local Development Setup: Tools, Debugging, and Hot Reload ← you are here You add a breakpoint. You press F5. The function executes. The breakpoint never fires. This is the most common introduction to Azure Functions local development. The reason is non-obvious: when you de</description>
+      <guid isPermaLink="false">https://dev.to/martin_oehlert/local-development-setup-tools-debugging-and-hot-reload-2925</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F9mmw9i7a0an1j7tfk2dm.png" length="0" type="image/png"/>
+      <pubDate>Fri, 27 Feb 2026 06:32:38 +0000</pubDate>
     </item>
     <item>
-      <title>The Complete Guide to @hazeljs/gateway: Intelligent API Gateway for Microservices</title>
-      <link>https://dev.to/arslan_mecom/the-complete-guide-to-hazeljsgateway-intelligent-api-gateway-for-microservices-4ee5</link>
-      <description>A practical, in-depth exploration of the HazelJS API Gateway — from routing and versioning to canary deployments and production-ready patterns. Table of Contents Introduction Why an API Gateway? Architecture Overview Core Concepts Getting Started Version Routing Canary Deployments Resilience Patterns Traffic Management Production Integration Best Practices Introduction The @hazeljs/gateway package is an intelligent API gateway designed for HazelJS microservices. It sits between your clients and</description>
-      <guid isPermaLink="false">https://dev.to/arslan_mecom/the-complete-guide-to-hazeljsgateway-intelligent-api-gateway-for-microservices-4ee5</guid>
-      <pubDate>Thu, 26 Feb 2026 06:46:24 +0000</pubDate>
+      <title>I built an AI tool that turned my phone selfie into a LinkedIn headshot — here's what I learned</title>
+      <link>https://dev.to/jbventures/i-built-an-ai-tool-that-turned-my-phone-selfie-into-a-linkedin-headshot-heres-what-i-learned-3fgk</link>
+      <description>The product I shipped HeadshotAI a couple of days ago. Upload one photo, pay GBP4.99, get a professional headshot in about 30 seconds. Powered by FLUX. This is what I learned. Lesson 1: If they can't see the output, they won't pay I launched without any example outputs. Just a description and a CTA. First comment on the Hacker News Show HN post: "An obvious point, but your marketing page absolutely needs a before -&amp;gt; after comparison. Just showing the after image doesn't work." They were right. I</description>
+      <guid isPermaLink="false">https://dev.to/jbventures/i-built-an-ai-tool-that-turned-my-phone-selfie-into-a-linkedin-headshot-heres-what-i-learned-3fgk</guid>
+      <pubDate>Fri, 27 Feb 2026 06:32:50 +0000</pubDate>
     </item>
     <item>
-      <title>Solving agent system prompt drift in long sessions — a 300-token fix</title>
-      <link>https://dev.to/nikolasi/solving-agent-system-prompt-drift-in-long-sessions-a-300-token-fix-1akh</link>
-      <description>The problem If you've run any LLM agent for 30+ minutes, you've seen this: the agent follows its system prompt perfectly at the start, then gradually drifts. An hour in — it acts like the prompt never existed. This happens with every model, every framework, every agent. It's not a bug — it's how attention works in transformers. The system prompt is tokens at the beginning of context. As context grows, those tokens lose weight. 1,000 prompt tokens out of 2,000 total = 50% attention. 1,000 out of</description>
-      <guid isPermaLink="false">https://dev.to/nikolasi/solving-agent-system-prompt-drift-in-long-sessions-a-300-token-fix-1akh</guid>
-      <pubDate>Thu, 26 Feb 2026 06:49:34 +0000</pubDate>
+      <title>Why Benchmarks Lie in Machine Learning</title>
+      <link>https://dev.to/siddhartha_reddy/why-benchmarks-lie-in-machine-learning-3jmn</link>
+      <description>Benchmarks are everywhere in machine learning. Model A is 2× faster. Library B is 5× more efficient. Framework C achieves state-of-the-art performance. These numbers look precise. Objective. Scientific. And yet, in real systems, they are often misleading. Not because they are fake but because they measure only a small part of reality. Benchmarks Measure Models, Not Systems Most benchmarks measure something like this: model.fit(X, y) Timing starts before .fit() and ends after. What’s missing? Dat</description>
+      <guid isPermaLink="false">https://dev.to/siddhartha_reddy/why-benchmarks-lie-in-machine-learning-3jmn</guid>
+      <pubDate>Fri, 27 Feb 2026 06:35:56 +0000</pubDate>
     </item>
     <item>
-      <title>2026 Tech: Graphene-Based Temperature Sensors for Ultra-Fast Response</title>
-      <link>https://dev.to/yc_w_4a4f95408d351edef5d2/2026-tech-graphene-based-temperature-sensors-for-ultra-fast-response-4fdm</link>
-      <description>As industries push toward faster data acquisition, real-time control, and miniaturized electronics, traditional temperature sensing technologies are approaching their physical response limits. In 2026, graphene-based temperature sensors are emerging as a promising solution for ultra-fast thermal detection, high sensitivity, and compact integration. This article explores how graphene is being used in next-generation temperature sensors, their advantages, challenges, and potential applications. Wh</description>
-      <guid isPermaLink="false">https://dev.to/yc_w_4a4f95408d351edef5d2/2026-tech-graphene-based-temperature-sensors-for-ultra-fast-response-4fdm</guid>
-      <pubDate>Thu, 26 Feb 2026 06:50:41 +0000</pubDate>
+      <title>Comparing AI Video Generator Prompt Formats: What Actually Matters in 2026</title>
+      <link>https://dev.to/chisha_d5ceeffee4e27/comparing-ai-video-generator-prompt-formats-what-actually-matters-in-2026-2g28</link>
+      <description>Anyone who has worked with multiple AI video generators knows the frustration: a prompt that produces stunning results on one platform falls completely flat on another. After spending months analyzing prompt patterns across platforms, here are the practical differences that actually matter. The Core Difference: Temporal vs Spatial The most fundamental difference between AI video generators isn't resolution or duration — it's how they interpret temporal information. Sora excels at understanding m</description>
+      <guid isPermaLink="false">https://dev.to/chisha_d5ceeffee4e27/comparing-ai-video-generator-prompt-formats-what-actually-matters-in-2026-2g28</guid>
+      <pubDate>Fri, 27 Feb 2026 06:40:43 +0000</pubDate>
     </item>
     <item>
-      <title>Reactjs Web Hosting: Research-Based Infrastructure and Performance Analysis</title>
-      <link>https://dev.to/dmankani2007/reactjs-web-hosting-research-based-infrastructure-and-performance-analysis-262a</link>
-      <description>Introduction React applications are increasingly the foundation of interactive web systems, but achieving predictable performance at scale requires more than writing efficient components. From a systems engineering perspective, the hosting layer is a determinative factor in asset delivery, cache behavior, routing consistency, and latency optimization. When architecting production deployments, teams must consider content distribution, network propagation delay, cache invalidation semantics, and f</description>
-      <guid isPermaLink="false">https://dev.to/dmankani2007/reactjs-web-hosting-research-based-infrastructure-and-performance-analysis-262a</guid>
-      <pubDate>Thu, 26 Feb 2026 06:50:44 +0000</pubDate>
+      <title>Monomorphization in Rust — How Generics Become Fast, Concrete Code</title>
+      <link>https://dev.to/mdshakilhossainnsu2018/monomorphization-in-rust-how-generics-become-fast-concrete-code-9c1</link>
+      <description>What is Monomorphization in Rust? Monomorphization is the process by which Rust converts generic code into a specific type or hard-coded version during compilation. Monomorphization is a key factor in Rust's exceptional performance. With monomorphization, Rust provides zero-cost abstractions, allowing you to write clean, high-level generic code without incurring any runtime performance penalties. fn main() { let integer = Some(5); // Compiles to Option_i32 let float = Some(5.0); // Compiles to O</description>
+      <guid isPermaLink="false">https://dev.to/mdshakilhossainnsu2018/monomorphization-in-rust-how-generics-become-fast-concrete-code-9c1</guid>
+      <pubDate>Fri, 27 Feb 2026 06:41:42 +0000</pubDate>
     </item>
     <item>
-      <title>How to Detect Environment Sentiment Shifts with the Pulsebit API (Python)</title>
-      <link>https://dev.to/pulsebitapi/how-to-detect-environment-sentiment-shifts-with-the-pulsebit-api-python-2b46</link>
-      <description>How to Detect Environment Sentiment Shifts with the Pulsebit API (Python) As developers focused on environmental data, we often encounter the challenge of extracting sentiment from vast amounts of unstructured data. Whether it’s news articles, social media feeds, or research papers, manually scraping and analyzing this data is tedious and error-prone. Fortunately, there’s a solution: the Pulsebit API. The Problem (DIY Scraping Pain) Scraping sentiment from multiple sources typically involves wri</description>
-      <guid isPermaLink="false">https://dev.to/pulsebitapi/how-to-detect-environment-sentiment-shifts-with-the-pulsebit-api-python-2b46</guid>
-      <pubDate>Thu, 26 Feb 2026 06:51:31 +0000</pubDate>
+      <title>The Three Stages of AI-Assisted Coding — And What Comes Next</title>
+      <link>https://dev.to/trade_off_d014391a85173ce/the-three-stages-of-ai-assisted-coding-what-next-4c2g</link>
+      <description>If you want to see where this is heading, you first need to understand a structural shift already underway: AI-assisted coding is evolving through three distinct, sequential stages. What makes this progression essentially one-directional is that the productivity unlocked at each stage reshapes how developers work and what the market expects. Once the industry crosses a threshold, the cost of retreating exceeds the cost of moving forward. This isn't technological determinism — it's path dependenc</description>
+      <guid isPermaLink="false">https://dev.to/trade_off_d014391a85173ce/the-three-stages-of-ai-assisted-coding-what-next-4c2g</guid>
+      <pubDate>Fri, 27 Feb 2026 06:42:12 +0000</pubDate>
     </item>
     <item>
-      <title>Building a multi-agent Kalshi algotrader with Sentient Foundation's ROMA SDK</title>
-      <link>https://dev.to/j_dev28/building-a-multi-agent-kalshi-algotrader-with-sentient-foundations-roma-sdk-26ap</link>
-      <description>I spent a weekend building a paper trading system for Kalshi's 15-minute BTC binary prediction markets. The hook was Sentient Foundation's roma-dspy Python package — their ROMA (Recursive Open Meta-Agent) framework — which I wanted to actually use for something real-ish rather than run the hello-world example and close the tab. This post is about what that looks like in practice: the architecture, the places ROMA genuinely helped, the places it caused problems, and how the whole thing actually b</description>
-      <guid isPermaLink="false">https://dev.to/j_dev28/building-a-multi-agent-kalshi-algotrader-with-sentient-foundations-roma-sdk-26ap</guid>
-      <pubDate>Thu, 26 Feb 2026 06:56:33 +0000</pubDate>
+      <title>Mad Skills: what really differentiates those who build the impossible</title>
+      <link>https://dev.to/fullagenticstack/mad-skills-what-really-differentiates-those-who-build-the-impossible-a2f</link>
+      <description>For years, the market has been obsessed with two comfortable categories: hard skills (measurable technical competencies) and soft skills (interpersonal abilities). This helped organize resumes. But it doesn't explain why some people change entire markets while others, equally "qualified," merely operate within them. This is where mad skills come in. It's not a formal academic term. It's a market expression to describe skills that don't fit traditional categories. They are unlikely combinations,</description>
+      <guid isPermaLink="false">https://dev.to/fullagenticstack/mad-skills-what-really-differentiates-those-who-build-the-impossible-a2f</guid>
+      <pubDate>Fri, 27 Feb 2026 06:44:53 +0000</pubDate>
     </item>
     <item>
-      <title>Why Your Tech Stack Doesn’t Matter as Much as You Think</title>
-      <link>https://dev.to/wingsdesignstudio/why-your-tech-stack-doesnt-matter-as-much-as-you-think-5hj9</link>
-      <description>Every year developers argue about the same things. React vs Vue. Node vs Django. Monolith vs Microservices. Tailwind vs traditional CSS. But here is the uncomfortable truth. Most successful products did not win because of their tech stack. They won because they solved a real problem, executed well, and delivered value consistently. Let’s break this down. The Illusion of the Perfect Stack Developers often believe that choosing the right framework guarantees success. It feels safe. It feels smart.</description>
-      <guid isPermaLink="false">https://dev.to/wingsdesignstudio/why-your-tech-stack-doesnt-matter-as-much-as-you-think-5hj9</guid>
-      <pubDate>Thu, 26 Feb 2026 06:57:12 +0000</pubDate>
+      <title>Designing Self-Optimizing GenAI Pipelines in Production Systems</title>
+      <link>https://dev.to/shreekansha97/designing-self-optimizing-genai-pipelines-in-production-systems-5723</link>
+      <description>The Definition of a Self-Optimizing GenAI System A self-optimizing GenAI system is a closed-loop architecture where the pipeline continuously modifies its own parameters—routing logic, retrieval depth, prompt templates, or model selection—based on real-time performance telemetry. Unlike static pipelines that require manual tuning after every drift event, self-optimizing systems treat the model as a non-deterministic component within a deterministic control theory framework. The goal is to move b</description>
+      <guid isPermaLink="false">https://dev.to/shreekansha97/designing-self-optimizing-genai-pipelines-in-production-systems-5723</guid>
+      <pubDate>Fri, 27 Feb 2026 06:48:54 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,31 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Feb 2026 07:20:20 +0000</lastBuildDate>
-    <item>
-      <title>Building an Autonomous Robot with Zero Sensors Onboard</title>
-      <link>https://www.hackster.io/Pikas/building-an-autonomous-robot-with-zero-sensors-onboard-5500b6</link>
-      <description>I built a fully autonomous robot without using a single onboard sensor. Instead of ultrasonic sensors, encoders, or IMUs.</description>
-      <guid isPermaLink="false">https://www.hackster.io/Pikas/building-an-autonomous-robot-with-zero-sensors-onboard-5500b6</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1932362/_4eSzfB42lc.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Feb 2026 18:45:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>IFX007T Brushed DC Motor Speed and Direction Controller Demo</title>
-      <link>https://www.hackster.io/PSoC_Rocks/ifx007t-brushed-dc-motor-speed-and-direction-controller-demo-adee90</link>
-      <description>IFX007T based PN MOSFETs Half Bridge IC's Motor Control Shield for controlling the speed and direction of a Brushed DC motor</description>
-      <guid isPermaLink="false">https://www.hackster.io/PSoC_Rocks/ifx007t-brushed-dc-motor-speed-and-direction-controller-demo-adee90</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1932360/_G9idApQLbO.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 20 Feb 2026 20:00:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>How I Build working Esp32 based Nes Emulator in 2026</title>
-      <link>https://www.hackster.io/dsnindustries/how-i-build-working-esp32-based-nes-emulator-in-2026-688b38</link>
-      <description>I just engineered a fully functional, pocket-sized NES emulator using an ESP32-S3 microcontroller and a custom-written display driver.</description>
-      <guid isPermaLink="false">https://www.hackster.io/dsnindustries/how-i-build-working-esp32-based-nes-emulator-in-2026-688b38</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1932376/_m1CEM5e9yO.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Feb 2026 19:47:19 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 27 Feb 2026 07:14:01 +0000</lastBuildDate>
     <item>
       <title>1S LiFePO4 BMS with 5V Boost</title>
       <link>https://www.hackster.io/Gokux/1s-lifepo4-bms-with-5v-boost-34b33c</link>
@@ -88,6 +64,30 @@
       <guid isPermaLink="false">https://www.hackster.io/arther2/autonomous-multispectral-terrain-mapping-drone-for-ndvi-and-1f58b5</guid>
       <enclosure url="https://hackster.imgix.net/uploads/attachments/1932613/_ciY3EHOkDo.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
       <pubDate>Thu, 26 Feb 2026 04:20:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vitis Hardware In the Loop</title>
+      <link>https://www.hackster.io/adam-taylor/vitis-hardware-in-the-loop-ad5fe0</link>
+      <description>How to run Vitis Sub Systems on Hardware in the loop using Vitis.</description>
+      <guid isPermaLink="false">https://www.hackster.io/adam-taylor/vitis-hardware-in-the-loop-ad5fe0</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1924857/_8ziLXNoi78.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 27 Jan 2026 12:19:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Industrial-Grade STM32 Smart School Bell V3.0</title>
+      <link>https://www.hackster.io/balli2000in/industrial-grade-stm32-smart-school-bell-v3-0-798ffd</link>
+      <description>Industrial STM32 Smart Bell V3.0: Automated scheduling, Punjabi audio alerts, and a visual Exam Timer with RTC backup for school</description>
+      <guid isPermaLink="false">https://www.hackster.io/balli2000in/industrial-grade-stm32-smart-school-bell-v3-0-798ffd</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1932683/_TZ8mc2XZFG.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 11:34:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>7-Segment Display Controller with DIP Switches on FPGA</title>
+      <link>https://www.hackster.io/mcleber/7-segment-display-controller-with-dip-switches-on-fpga-c20163</link>
+      <description>BCD Decoder and Display Driver using Verilog on FPGA</description>
+      <guid isPermaLink="false">https://www.hackster.io/mcleber/7-segment-display-controller-with-dip-switches-on-fpga-c20163</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1932728/_svDoLLdHwD.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 03:00:08 +0000</pubDate>
     </item>
   </channel>
 </rss>

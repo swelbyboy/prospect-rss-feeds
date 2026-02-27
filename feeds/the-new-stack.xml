@@ -8,63 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Feb 2026 07:28:53 +0000</lastBuildDate>
-    <item>
-      <title>Why “automated” infrastructure might cost more than you think</title>
-      <link>https://thenewstack.io/automated-infrastructure-hidden-costs/</link>
-      <description>Somewhere in the organization, there’s a Jenkins job that nobody wants to touch. The job is mission-critical and deploys to The post Why “automated” infrastructure might cost more than you think appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/automated-infrastructure-hidden-costs/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/e1e0097a-milhad-yaktvxoa6gc-unsplash-1024x847.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Feb 2026 12:00:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>Most platform teams build products, but they don’t know it</title>
-      <link>https://thenewstack.io/internal-platforms-are-products/</link>
-      <description>There is a failure mode so common in platform engineering that it barely gets mentioned anymore. A team ships a The post Most platform teams build products, but they don’t know it appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/internal-platforms-are-products/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/7ca4c405-getty-images-0vlfnb0afx4-unsplash-1024x642.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Feb 2026 17:00:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenTelemetry roadmap: Sampling rates and collector improvements ahead</title>
-      <link>https://thenewstack.io/opentelemetry-roadmap-sampling-rates-and-collector-improvements-ahead/</link>
-      <description>OpenTelemetry has evolved over the last few years to become the de facto standard of choice for a rapidly growing The post OpenTelemetry roadmap: Sampling rates and collector improvements ahead appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/opentelemetry-roadmap-sampling-rates-and-collector-improvements-ahead/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/76045ac6-getty-images-lsjebmipmk0-unsplash-1024x576.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Feb 2026 19:00:44 +0000</pubDate>
-    </item>
-    <item>
-      <title>Databases weren’t built for agent sprawl – SurrealDB wants to fix it</title>
-      <link>https://thenewstack.io/surrealdb-3-ai-agents/</link>
-      <description>AI agents don’t slot neatly into the way enterprise data stacks were designed. A typical agent needs transactional state (e.g., The post Databases weren’t built for agent sprawl – SurrealDB wants to fix it appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/surrealdb-3-ai-agents/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/89745970-surrealdb-1024x533.png" length="0" type="image/png"/>
-      <pubDate>Tue, 24 Feb 2026 22:07:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic accelerates its Cowork enterprise play</title>
-      <link>https://thenewstack.io/anthropic-accelerates-its-cowork-enterprise-play/</link>
-      <description>When it’s not distracted by negotiations with the Pentagon, Anthropic’s focus has long been on the enterprise. On Tuesday, it The post Anthropic accelerates its Cowork enterprise play appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/anthropic-accelerates-its-cowork-enterprise-play/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/c25e0b3b-img_1020-1024x768.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Feb 2026 22:20:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>What happens to a database when the user is an AI agent</title>
-      <link>https://thenewstack.io/databases-for-ai-agents/</link>
-      <description>In the past, we judged enterprise databases by how useful they were to people like us. We rated them on The post What happens to a database when the user is an AI agent appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/databases-for-ai-agents/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/894e1fe0-eva-wahyuni-5xfzanntwvg-unsplash-1024x768.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 25 Feb 2026 13:00:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>In the driver’s seat: How Google Conductor AI actually stays under control</title>
-      <link>https://thenewstack.io/google-conductor-automated-reviews/</link>
-      <description>Google wants to give developers a comprehensive, functional AI software development toolkit. As such, this month the company has added The post In the driver’s seat: How Google Conductor AI actually stays under control appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/google-conductor-automated-reviews/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/5d8143fa-sara-oliveira-h-f6qrzenq0-unsplash-1024x768.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 25 Feb 2026 15:33:04 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 27 Feb 2026 07:24:16 +0000</lastBuildDate>
     <item>
       <title>The Linux Foundation reveals the “ugly” secret of how open source is draining your budget</title>
       <link>https://thenewstack.io/roi-open-source-contribution/</link>
@@ -88,6 +32,62 @@
       <guid isPermaLink="false">https://thenewstack.io/webassembly-deep-dive/</guid>
       <enclosure url="https://cdn.thenewstack.io/media/2026/02/d23eae0a-growtika-uyvnmrovrw4-unsplash-1024x576.jpg" length="0" type="image/jpeg"/>
       <pubDate>Wed, 25 Feb 2026 19:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why your DIY Kubernetes stack won’t survive the era of agentic AI</title>
+      <link>https://thenewstack.io/diy-kubernetes-agentic-ai/</link>
+      <description>We are at an inflection point in enterprise IT. For the last decade, “modernization” has been synonymous with containerization — The post Why your DIY Kubernetes stack won’t survive the era of agentic AI appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/diy-kubernetes-agentic-ai/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/02/2c9b9676-graphicook-studio-4luiuufbs3e-unsplash-1024x808.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 12:00:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why the secret to scaling AI isn’t a better model, it’s a simpler foundation</title>
+      <link>https://thenewstack.io/ai-unified-data-foundation/</link>
+      <description>A recent study from MIT’s NANDA initiative highlights a persistent challenge in enterprise AI adoption. Despite heavy investment and experimentation, The post Why the secret to scaling AI isn’t a better model, it’s a simpler foundation appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/ai-unified-data-foundation/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/02/b49eb5ab-barsrsind-wf9al-lagdy-unsplash-1024x819.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 13:00:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Observability platform migration guide: Prometheus, OpenTelemetry, and Fluent Bit</title>
+      <link>https://thenewstack.io/observability-platform-migration-guide/</link>
+      <description>Observability platform migrations are rarely simple. You’re still balancing risk (don’t break on-call), scope (don’t try to move everything at The post Observability platform migration guide: Prometheus, OpenTelemetry, and Fluent Bit appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/observability-platform-migration-guide/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/02/0cda8978-salman-ahmad-cj4pbfyl14o-unsplash-1024x684.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 15:28:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google’s Nano Banana 2 promises Flash speeds with Pro results</title>
+      <link>https://thenewstack.io/nano-banana-2/</link>
+      <description>Google on Thursday launched the latest version of its Nano Banana image generation model, which promises to improve upon last The post Google’s Nano Banana 2 promises Flash speeds with Pro results appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/nano-banana-2/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/02/68a98eaf-landscape-1024x572.png" length="0" type="image/png"/>
+      <pubDate>Thu, 26 Feb 2026 17:05:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>The agent pull request flood is here. If you run Istio, you’re halfway to solving it.</title>
+      <link>https://thenewstack.io/ai-agents-istio-validation/</link>
+      <description>Agentic workflows are rapidly accelerating the volume of pull requests, and validation is quickly becoming the most critical bottleneck. Teams The post The agent pull request flood is here. If you run Istio, you’re halfway to solving it. appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/ai-agents-istio-validation/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/02/2dd63065-dina-gazizova-i1s-tufhree-unsplash-1024x819.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 18:00:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Netdata is a seriously impressive server monitoring tool</title>
+      <link>https://thenewstack.io/netdata-is-a-seriously-impressive-server-monitoring-tool-to-keep-you-up-to-date-on-insights/</link>
+      <description>Every once in a while, I come across a tool that makes me lean back and go, “Wooo, that’s cool!” The post Netdata is a seriously impressive server monitoring tool appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/netdata-is-a-seriously-impressive-server-monitoring-tool-to-keep-you-up-to-date-on-insights/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/02/a931fa2e-getty-images-c5b0tl7ev2i-unsplash-1-1024x762.png" length="0" type="image/png"/>
+      <pubDate>Thu, 26 Feb 2026 18:00:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>From vibes to engineering: How AI agents outgrew their own terminology</title>
+      <link>https://thenewstack.io/vibe-coding-agentic-engineering/</link>
+      <description>Andrej Karpathy probably didn’t set out to retire “vibe coding” just a year after popularizing it, but time and technological The post From vibes to engineering: How AI agents outgrew their own terminology appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/vibe-coding-agentic-engineering/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/02/091d2e92-david-palma-v0gvzwit744-unsplash-1-1024x768.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 20:12:36 +0000</pubDate>
     </item>
   </channel>
 </rss>

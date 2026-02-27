@@ -8,31 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Feb 2026 07:37:52 +0000</lastBuildDate>
-    <item>
-      <title>Sécuriser au-delà du code : le nouveau périmètre de l’AppSec</title>
-      <link>https://www.programmez.com/actualites/securiser-au-dela-du-code-le-nouveau-perimetre-de-lappsec-39051</link>
-      <description>Avis d'expert par Eyal Dyment (VP of Security Products, JFrog)Le monde de la technologie est en pleine effervescence face au potentiel du développement logiciel assisté par l’IA et de l’automatisation. Dans le même temps, cette accélération s’accompagne d’un renforcement marqué de la pression réglementaire et d’une augmentation des risques pesant sur la chaîne d’approvisionnement logicielle. Si de nombreuses organisations continuent de s’appuyer principalement sur l’analyse du code source, une t</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/securiser-au-dela-du-code-le-nouveau-perimetre-de-lappsec-39051</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 24 Feb 2026 08:14:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Python 3.16 : roadmap de mai 2026 à... octobre 2027</title>
-      <link>https://www.programmez.com/actualites/python-316-roadmap-de-mai-2026-octobre-2027-39052</link>
-      <description>Python dévoile la roadmap complète de la future version 3.16 qui doit sortir dans 18 mois. 5 mai : début du développement13 octobre : disponibilité de l'Alpha 1Novembre 2026 - avril 2027 : les alphas 2 à 7Fixation des fonctionnalités avec la bêta 14 mai 2017 : début de la phase bêtaFin juillet 2027 : release candidate 1, la RC2 suivra dès août5 octobre 2017 : disponibilité de la versionPython 3.16 recevra des bugfix tous les 2 mois durant 2 ans. Les patchs de sécurité jusqu'en octobre 2032. Caté</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/python-316-roadmap-de-mai-2026-octobre-2027-39052</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 24 Feb 2026 10:21:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Convertir les codes Java en Kotlin sur Visual Studio Code : merci JetBrains</title>
-      <link>https://www.programmez.com/actualites/convertir-les-codes-java-en-kotlin-sur-visual-studio-code-merci-jetbrains-39053</link>
-      <description>JetBrains annonce une extension Visual Studio Code pour convertir les fichiers Java en Kotlin. L'extension a pour nom Java to Kotlin (J2K). Un simple menu contextuel permettra la conversion.Selon l'éditeur, J2K se veut très simple :1 / On installe l'extension2 / on ouvre un fichier Java dans son workspace3 / on sélectionne Convert to Kotlin dans le menu4 / bah, c'est tout !Petite démo :J2K sur la marketplace : https://marketplace.visualstudio.com/items?itemName=JetBrains.j2k-vscodeLe projet est</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/convertir-les-codes-java-en-kotlin-sur-visual-studio-code-merci-jetbrains-39053</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/capture_decran_2026-02-24_a_11.27.37.png?itok=0X-ewEke" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Feb 2026 10:30:53 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 27 Feb 2026 07:33:17 +0000</lastBuildDate>
     <item>
       <title>Meetup 57 : Ce que les recruteurs tech ne vous disent pas sur le marché de 2026, le 24 mars</title>
       <link>https://www.programmez.com/actualites/meetup-57-ce-que-les-recruteurs-tech-ne-vous-disent-pas-sur-le-marche-de-2026-le-24-mars-39055</link>
@@ -88,6 +64,30 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/snowflake-etend-cortex-code-cli-toutes-les-donnees-39063</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/snowflake.png?itok=XT1glgpu" length="0" type="image/jpeg"/>
       <pubDate>Thu, 26 Feb 2026 07:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bun 1.3.10 : nouveau REPL, support de TC39, Windows ARM64</title>
+      <link>https://www.programmez.com/actualites/bun-1310-nouveau-repl-support-de-tc39-windows-arm64-39064</link>
+      <description>Bun est disponible en version 1.3.10.Cette mise à jour fixe 155 bugs et problèmes et propose plusieurs nouveautés très intéressantes :- REPL a été réécrit en Zig et est disponible par défaut sans paquets optionnels. Il propose de nombreuses fonctionnalités : copie vers le clipboard, import ESM, colorisation du code JS, historique persistant, etc.- commande bun build --compile --target=browser pour produire tous les fichiers HTML avec JavaScript, CSS et tous les éléments nécessaires. Disponible e</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/bun-1310-nouveau-repl-support-de-tc39-windows-arm64-39064</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/bun13_0.jpg?itok=r4hkSsPu" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 10:27:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deno 2.7 : temporal API, Windows ARM, mise à jour du moteur V8</title>
+      <link>https://www.programmez.com/actualites/deno-27-temporal-api-windows-arm-mise-jour-du-moteur-v8-39065</link>
+      <description>Deno est disponible en version 2.7. Cette mise à jour est relativement importante avec des nouveautés qui vont ravir de nombreux développeurs. Pour mettre à jour : deno upgrade.Les principales nouveautés sont :- Temporal API est déclarée stable. Cette API est très importante pour une meilleure gestion des dates et des heures- support de Windows ARM64- nouvelles API pour les sous-process : Deno.spawn(), Deno.spawnAndWait(), Deno.spawnAnWaitSync(). Attention : ces API sont dites non stables- Deno</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/deno-27-temporal-api-windows-arm-mise-jour-du-moteur-v8-39065</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/deno27.png?itok=Lg_qBV2h" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 12:26:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dumper vos disquettes : KryoFlux et les alternatives</title>
+      <link>https://www.programmez.com/actualites/dumper-vos-disquettes-kryoflux-et-les-alternatives-39066</link>
+      <description>Les disquettes sont fragiles, surtout les 5 ¼ et les 8’’, et on peut rapidement les altérer, voire les rendre illisibles. Elles sont sensibles à l’humidité, à la chaleur, aux torsions, si on touche trop fortement le disque magnétique, aux aimants, etc. Bref, la question se pose : comment récupérer le contenu des disquettes pour le sauvegarder, voire recréer de nouvelles disquettes ?Il existe des outils matériels pour connecter les vieux lecteurs, lire les disquettes et récupérer puis sauvegarder</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/dumper-vos-disquettes-kryoflux-et-les-alternatives-39066</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/kryo2.jpg?itok=oJW_pub0" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 13:15:52 +0000</pubDate>
     </item>
   </channel>
 </rss>
