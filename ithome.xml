@@ -8,66 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Feb 2026 07:01:50 +0000</lastBuildDate>
-    <item>
-      <title>認識全球頂尖國際密碼學會議，不只3場旗艦年會，還有5場重要活動</title>
-      <link>https://www.ithome.com.tw/news/174065</link>
-      <description>新聞國際密碼研究學會（IACR）是全球最具影響力的相關學術組織，旗下舉辦多項國際頂級會議，從最新理論證明研究，到聚焦硬體、軟體或公鑰的領域會議，各有定位。最近2026年，其中一場重要活動首度在臺舉行──真實世界密碼學研討會（Real World Cryptography Symposium, RWC），該活動以連結學術研究與IT產業實務部署著稱，引起國人對這類頂尖國際密碼學會議的關注。 國際密碼研究學會IACR是何方神聖？該組織是全球密碼學領域最具代表性的非營利學術組織，致力於推動密碼學及相關領域研究。 該組織運籌多項國際密碼學重要會議，例如，每年舉辦3大年度旗艦會議，包含：每年8月在美國Santa Barbara舉行、歷史最悠久且地位最高的「Crypto」；以及每年4月至5月間於歐洲輪辦的「Eurocrypt」，每年12月初於亞太輪流舉辦的「Asiacrypt」。 特別的是，Asiacrypt曾3度於臺灣舉行，最近一次是在2022年舉行，當時吸引242名頂尖學者參與這項活動。我們當時也觀察到，許多國際大型企業都有自己的密碼學專家。 同時，IACR亦主辦4項重要的領域會議：CHES（密</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174065</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%EF%BC%88%E5%9C%960%EF%BC%89%E5%9C%8B%E9%9A%9B%E5%AF%86%E7%A2%BC%E5%AD%B8%E6%9C%83IACR%E8%88%89%E8%BE%A68%E5%A0%B4%E5%B9%B4%E5%BA%A6%E7%9B%9B%E6%9C%83.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 26 Feb 2026 07:51:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>台灣大蔡祈岩：電信業加速AI化與API開放，擁抱開發者生態</title>
-      <link>https://www.ithome.com.tw/news/174077</link>
-      <description>新聞2026年行動通訊大會（MWC）登場前，臺灣大哥大資訊長蔡祈岩對外分享他對電信市場觀察，包括全球電信產業正加速往AI原生（AI-native）與網路能力API化方向發展。相較過去幾年強調5G部署進度，今年展場主軸將會聚焦於如何將AI深度嵌入電信網路，並將電信能力轉化為可供外部開發者調用的數位基礎設施。 AI RAN成焦點，網路從節能優化走向預測式維運 在技術層面，今年MWC的重要議題之一是AI RAN，將AI技術導入無線接取網路（RAN）管理與優化。 蔡祈岩指出，過去電信網路多以Rule-based方式調節流量分配與功率控制，例如依照時段或固定參數調整基地臺的負載，但隨著流量型態日益複雜，這種傳統規則式的管理已難以因應動態變化。 透過AI模型分析即時流量與設備感測數據，業者可進行更細緻的頻率配置與功率調整，不僅提升網路體驗，也有助於基地臺節電與碳排控制。 此外，電信網路的維護也相當重要，特別是電信網路若發生故障，往往影響用戶的生活，同時引起外界相當大的關注，但是龐大的電信網路基礎設施維護工作吃重。 他指出，AI應用於設備健康監測與故障預警，以家中的電冰箱為例，風扇葉片積塵如果不處理</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174077</guid>
-      <pubDate>Thu, 26 Feb 2026 08:07:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>思科修補SD-WAN系統滿分零時差漏洞，駭客在3年前就用於實際攻擊</title>
-      <link>https://www.ithome.com.tw/news/174074</link>
-      <description>新聞思科的網路設備及資安設備廣泛受到企業採用，一旦出現資安漏洞，很容易受到大家注意，過去一年該公司公布多項產品的重大漏洞，其中有多項危險程度達到CVSS評分滿分10分的弱點成為焦點，且大多都成為駭客積極利用的對象，現在又有風險達到滿分的零時差漏洞，出現遭到利用的情形。 2月25日思科揭露資安漏洞CVE-2026-20127，該漏洞存在於Catalyst SD-WAN Controller與Catalyst SD-WAN Manager（原名SD-WAN vSmart、SD-WAN vManage），未經身分驗證的攻擊者可繞過身分驗證並得到管理員權限，CVSS風險達到10分，相當危險，而且，已有駭客組織UAT-8616將其用於實際攻擊，相關活動可追溯至2023年。 去年思科揭露多個危險程度達到最高等級的資安漏洞，然而，這次情況似乎不同，美國網路安全暨基礎設施安全局（CISA）同日發布緊急指令ED 26-03，要求所有聯邦機構盤點思科SD-WAN系統，調查是否出現利用CVE-2026-20127與CVE-2022-20775的入侵跡象，這種不尋常的作法突然出現，也意味著該漏洞造成的資安風險</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174074</guid>
-      <pubDate>Thu, 26 Feb 2026 08:16:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>是方電訊揭2026年發展藍圖，Q2要推AI賦能平臺供AI應用落地</title>
-      <link>https://www.ithome.com.tw/news/174083</link>
-      <description>新聞以IDC機房起家的是方電訊今（2/26）揭露2026年發展藍圖，不只轉型為全方位AI、雲端及數據公司，還要擴大AI算力、網路和資安應用服務群聚，成為東亞地區最重要的數位匯流中心。今年第2季，他們還要以LY2聯雲AI資料中心強大的算力基礎設施與私有網路，推出是方AI賦能平臺，來提供在地化、一站式開箱即用的解決方案，要加速企業級AI Agent應用落地。 以IDC機房為基礎，繼續擴大服務範圍 是方電訊以IDC機房起家，也就是網路資料中心（或稱數據中心），專門提供高可用、高安全性的環境，來存放伺服器、網路設備和相關IT設備。也就是說，企業可將自己的伺服器放在IDC機房，由機房提供網路、電力、冷卻和維護服務，雲端服務供應商也可以在IDC機房設置伺服器、提供運算服務。 近幾年是方電訊積極轉型，將自己定位為AI、雲端及數據公司，其進展也反映在營收上。是方電訊副總經理江文漢指出，2025年度營收達39.44億元，旗下4大產品線由IDC機房服務45%、數據網路服務37.3%占大宗，再來是雲端應用服務16.5%和語音通信服務1.2%。 為持續落實轉型，是方電訊接下來一樣要以既有的IDC機房和三環網路</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174083</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/Screen%20Shot%202026-02-27%20at%202_32_08%20AM.png" length="0" type="image/png"/>
-      <pubDate>Thu, 26 Feb 2026 08:29:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>【資安日報】2月26日，中國駭客UNC2814對全球超過60個國家的電信公司及政府機關從事網攻</title>
-      <link>https://www.ithome.com.tw/news/174075</link>
-      <description>新聞中國駭客UNC2814從事大規模網路間諜活動，入侵逾50家電信公司及政府機關 Google旗下的威脅情報團隊（GTIG）、Mandiant，以及合作夥伴聯手，破壞中國駭客組織UNC2814的網路間諜活動，這些駭客使用名為Gridtide的後門程式，攻擊範圍橫跨4大洲，涵蓋42個國家，總共滲透53個企業組織，另有超過20個國家也出現疑似感染的跡象。由於這些駭客濫用API呼叫與SaaS應用程式Google Sheets的通訊，作為C2基礎設施，藉此讓惡意流量看似合法，其行蹤也變得更難以捉摸。UNC2814這次行動，不免讓人聯想與Salt Typhoon可能有關，不過Google強調，兩組人馬之間沒有交集，攻擊目標不同，他們採用的戰略、手法，以及流程（TTP）也不同。 值得留意的是，根據Google公布的UNC2814影響地區分布圖，明顯涵蓋臺灣，不過，該公司並未透露進一步資訊，無從得知臺灣已有企業組織確認受害，還是出現疑似遭感染Gridtide的跡象。 微軟Entra帳號裝置驗證碼被鎖定，傳出駭客組織ShinyHunters將其搭配語音網釣活動 資安新聞網站Bleeping Compu</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174075</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/gridtide-distruption-fig2_max-2100x2100.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 26 Feb 2026 09:08:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nvidia財報出爐，Q4營收大幅上揚73%</title>
-      <link>https://www.ithome.com.tw/news/174076</link>
-      <description>新聞Nvidia周三（2/25）公布截至1月25日的2026財年第四季財報，該季營收達681億美元，年增73%；淨收入（Net income）為220.9億美元，年增94%。其中，資料中心營收為623億美元，年增75%。財報優於華爾街預期，當天股價上漲1.41%，收195.56美元。 在681億美元總營收中，遊戲及AI電腦（Gaming and AI PC）營收為37億美元，年增47%；專業視覺化（Professional Visualization）營收13億美元，年增159%；汽車與機器人（Automotive and Robotics）營收6.04億美元，年增6%。 Nvidia創辦人暨執行長黃仁勳表示，運算需求呈指數級成長，代理型AI轉折點已到來。搭載NVLink的Grace Blackwell目前在推論市場具領先優勢，每個Token成本降低一個數量級，未來Vera Rubin將進一步擴大領先幅度。 黃仁勳指出，企業導入AI代理人的速度正在加快，客戶正積極投資AI運算基礎設施，這些AI工廠將成為推動產業升級與未來成長的核心動能。 此外，Nvidia於財報分析師會議中透露，Gra</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174076</guid>
-      <pubDate>Thu, 26 Feb 2026 09:33:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>假面試題庫藏後門，微軟揭惡意Next.js儲存庫濫用VS Code自動任務竊取開發者憑證</title>
-      <link>https://www.ithome.com.tw/news/174066</link>
-      <description>新聞微軟發布研究指出，近期觀測到一波鎖定軟體開發者的攻擊活動。駭客將惡意儲存庫偽裝成合法Next.js專案或技術測驗題目，誘使開發者在日常工作流程中開啟或執行專案，讓Node.js在執行階段擷取並於記憶體內執行攻擊者控制的JavaScript，進而建立分階段命令與控制（C2）通道，後續持續派送任務並外流資料。 研究人員起初從端點遙測發現，Node.js程序反覆對外連線至攻擊者控制的C2基礎設施，進一步追查後確認，這些惡意儲存庫就是整起攻擊的源頭。其中一個儲存庫託管於Bitbucket，偽裝成招募用的技術測驗題目，另一個則以Cryptan-Platform-MVP1為名。研究人員再透過命名模式與程式碼結構等線索擴大搜尋，陸續找出更多手法相同的關聯儲存庫。 微軟歸納出三條常見攻擊路徑，目的皆是在開發者日常操作流程嵌入惡意執行程式。第一條是濫用VS Code工作區自動化機制，在使用者開啟並信任專案時即自動執行工作區任務。第二條在看似正常的專案檔案中暗藏木馬，當開發者以npm run dev等方式啟動開發伺服器時觸發載入器。第三條則是把惡意邏輯埋入後端模組或路由，在伺服器啟動或模組載入時外傳環</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174066</guid>
-      <pubDate>Thu, 26 Feb 2026 09:42:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Perplexity發表Computer，定位為前沿AI模型調度系統</title>
-      <link>https://www.ithome.com.tw/news/174082</link>
-      <description>新聞AI新創Perplexity周三（2/25）發表新產品Computer，將其定位為一套前沿AI模型調度系統（Model Orchestration System），而非單一大型語言模式。Perplexity表示，隨著各家前沿模型能力持續提升，真正的瓶頸已不在模型本身，而在於如何有效整合、分工與協調多種模型能力，以完成端到端的工作流程。 Perplexity將Computer描述成通用型數位工作者，可像人類同事般操作軟體介面與工具。使用者僅需描述預期成果，系統即會自動拆解為任務與子任務，建立多個子代理人分工執行，包括網路研究、文件撰寫、資料處理與API呼叫等。不同任務可同步進行，並在獨立運算環境中執行，具備真實檔案系統與瀏覽器存取能力。 Perplexity把這項服務命名為Computer，是因有意回歸這個詞的本意。在1757年以前，Computer指的是專門拆解複雜運算、分工協作的人類助理，而這正是Perplexity認為AI現在所應該扮演的角色。 在模型配置上，Computer採用模型中立（Model-Agnostic）架構。目前其核心推理由Claude Opus 4.6負責，由</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174082</guid>
-      <pubDate>Thu, 26 Feb 2026 10:04:54 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 28 Feb 2026 06:44:55 +0000</lastBuildDate>
     <item>
       <title>歐洲資料保護委員會聯合全球61個監管機關發布聲明，要求AI影像生成服務強化防濫用機制</title>
       <link>https://www.ithome.com.tw/news/174068</link>
@@ -82,6 +23,64 @@
       <description>新聞AWS推出Elemental Inference全託管AI服務，可在直播與隨選影片製播流程中，將既有橫式內容即時裁切為適合手機與社群平臺的直式格式，並自動偵測、擷取可用於即時分布的影片片段。AWS表示，AI處理可與既有直播編碼平行運作，延遲約6至10秒。 主流電視或大型活動轉播多以16:9橫式格式製作，符合傳統螢幕的觀看習慣，但觀眾在TikTok、Instagram Reels、YouTube Shorts等平臺上的內容消費型態已明顯偏向直式與短片段。若要將橫式直播裁切為直式，再切出可上架的精彩片段，就得仰賴人工後製，時間落差可能使內容錯過即時擴散的最佳時機。 AWS Elemental Inference在首波提供兩個主要功能，第一是直式影片生成，透過AI裁切將橫式轉播內容轉為9:16比例，並自動追蹤畫面主體，讓關鍵動作不會被裁切掉；第二是片段生成，系統可利用內容與中繼資料進行分析，自動偵測並擷取片段。AWS以體育賽事為例，稱可將人工剪輯時間從數小時縮短至數分鐘，加速內容分布至社群通路。 AWS表示，該服務可透過兩種方式介接既有工作流程，一是使用獨立主控臺建立處理來源（Feed）</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/174078</guid>
       <pubDate>Thu, 26 Feb 2026 10:33:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google零程式碼AI平臺Opal加入代理模式，AI工作流程可自主判斷並多輪互動</title>
+      <link>https://www.ithome.com.tw/news/174081</link>
+      <description>新聞Google旗下零程式碼AI應用平臺Opal在工作流程中新增代理選項，讓原本以固定模型呼叫為主的流程，能在執行過程中主動蒐集所需資訊、向使用者追問，並依據回饋反覆調整輸出。Opal是Google Labs推出的實驗性工具，透過自然語言與視覺化編輯，將提示詞、模型呼叫與工具串接成可分享的AI小型應用程式。 Opal更新重點在於把選模型與選工具的決策權交給生成步驟中的代理。代理會先理解任務目標，再決定執行路徑。根據官方說明，使用者不必事先手動指定模型，只需選擇代理，由代理依目標觸發網頁搜尋等工具蒐集資料，或呼叫Veo等模型產生影片內容，使同一套流程更能因應不同輸入情境。 Google以故事書生成為例說明效果，過去需要預設頁數與提問，而加入代理後，流程可在生成過程中自行判斷還缺少哪些故事細節，並主動提出情節走向或補充資訊的建議，讓作品透過互動逐步成形。另外，原本的室內設計情境，Opal較接近一次性流程，但代理模式則會在初稿完成後引導使用者針對特定元素給予回饋，再透過多輪對話收斂風格，必要時也能補充查找子風格資訊。 要支援互動式流程，Google在Opal加入多項能力，包含跨工作階段的記憶</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174081</guid>
+      <pubDate>Fri, 27 Feb 2026 07:10:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic收購Vercept　強化Claude電腦使用能力</title>
+      <link>https://www.ithome.com.tw/news/174084</link>
+      <description>新聞在Vercept共同創辦人Matt Deitke加入Meta的隔天，Anthropic宣布收購Vercept，取得其以自然語言操控電腦的技術能力。 Vercept為出自AI2孵化器的新創公司，在2025年1月募資超過5,000萬美元，其旗艦產品Vy為一跨平臺AI代理人，可讓使用者以自然語言控制電腦來操作應用程式和內容。Anthropic說明，Claude的電腦使用能力使其得以處理應用程式裡的多步驟任務，並用程式解決困難問題，而Vercept的收購則是為了強化這些能力，因為Vercept的創立核心精神是「讓AI協助解決複雜的感知和互動問題的任務」。 這項收購是Vercept創辦人之一Matt Deitke被Meta挖角後隔日宣布。根據紐約時報報導，Deitke以2.5億美元年薪加入Meta的Superintelligence Lab。在收購後，Vercept團隊包括其他創辦人如Kiana Ehsani、Luca Weihs和Ross Girshick都將加入Anthropic。Deitke也發文恭賀舊日夥伴。 此外，Vercept會在幾周內關閉對外產品。Vercept官網現在只留下簡</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174084</guid>
+      <pubDate>Fri, 27 Feb 2026 07:40:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>價格戰落幕，網飛放棄收購華納兄弟探索</title>
+      <link>https://www.ithome.com.tw/news/174085</link>
+      <description>新聞在串流產業整併浪潮下，網飛（Netflix）去年12月宣布將以約827億美元收購華納兄弟探索（Warner Bros. Discovery，WBD）拆分後的WBD Streaming &amp;amp; Studios資產，交易對價為每股23.25美元現金加約4.5美元的網飛股票。然而，原本曾與WBD洽談合併未果的Paramount Skydance隨後提出更高報價，掀起新一輪競價戰。 WBD周四（2/26）表示，該公司已於2月24日公開披露Paramount Skydance的提案，包括每股31美元的現金購買價格，並附帶自2026年9月30日後按季每股0.25美元的延遲補償金（ticking fee），若因監管問題而未能完成併購，Paramount Skydance必須支付70億美元的終止費用予WBD，也同意支付WBD必須付給網飛的28億美元終止費用。 根據WBD與網飛的協議，當WBD獲得更好的併購提案時，可先通知網飛，以讓網飛在4天內考慮是否修訂原先的提案。 網飛則在同一天宣布，已拒絕提高對WBD的收購要約。 網飛兩名共同執行長Ted Sarandos及Greg Peters表示，雙方先前所談</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174085</guid>
+      <pubDate>Fri, 27 Feb 2026 07:57:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic發聲明回應軍方施壓，拒撤監控與自主武器紅線</title>
+      <link>https://www.ithome.com.tw/news/174086</link>
+      <description>新聞在美國國防部要求全面開放Claude軍事用途的爭議升溫後，Anthropic執行長Dario Amodei周四（2/26）發布聲明，強調公司支持以AI捍衛美國與民主國家安全，但不會撤除涉及大規模境內監控與完全自主武器的兩項政策紅線。 Amodei表示，Anthropic長期主動與國防體系合作，是首家將前沿AI模型部署於美國政府機密網路與國家實驗室的公司，Claude已被廣泛應用於情報分析、模擬推演與作戰規畫等任務。他還強調，Anthropic理解軍事決策權屬於國防部，從未干預特定軍事行動，也未以臨時方式限制既有軍方用途。 此外，Anthropic亦曾主動放棄數億美元潛在營收，終止與被認定涉及中國共產黨、其中部分遭美方列為中國軍方企業的公司合作，並關閉中共支持、試圖濫用Claude的攻擊行為，同時倡議強化晶片出口管制，以維持民主國家在AI領域的技術優勢。 針對爭議核心，Amodei指出，大規模境內監控與完全自主武器兩種用途，過去從未被納入雙方合約內容，國防部如今要求放寬，實際上屬於新增使用範圍，而非既有契約義務。生成式AI可將分散資料自動拼接為完整個人行為圖像，若用於境內大規模監控，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174086</guid>
+      <pubDate>Fri, 27 Feb 2026 08:04:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>漢堡王推出AI平臺BK Assistant，率先導入語音助理Patty</title>
+      <link>https://www.ithome.com.tw/news/174087</link>
+      <description>新聞美國速食連鎖品牌漢堡王（Burger King）近日向媒體透露，正打造門市營運AI平臺BK Assistant，並計畫於2026年內推廣至全美門市。目前，全美約有超過6,000家漢堡王餐廳。 BK Assistant是一套整合型數位平臺，由OpenAI技術驅動，負責串接雲端點餐系統、廚房設備、庫存與顧客服務資料，目的在提升門市服務品質、營運效率與員工支援能力。漢堡王數位長Thibault Roux表示，目前門市營運資料高度分散，導致反應往往被動且不即時。透過BK Assistant整合各項系統資料，平臺可即時分析營運狀況並提出建議，使門市能更快回應問題，同時改善顧客體驗並提升加盟商獲利能力。 由於BK Assistant平臺已串接門市POS點餐系統、數位菜單、庫存與設備監控系統，當設備需要維修或食材缺貨時，系統可發出提醒，並於約15分鐘內同步更新數位菜單與相關點餐通路。 在此平臺架構下，漢堡王已於約500家餐廳導入語音助理Patty。Patty被整合至員工使用的耳機中，員工可透過語音詢問操作流程、餐點製作或設備清潔方式。此外，系統也會分析員工與顧客對話，辨識「Welcome」「Pl</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174087</guid>
+      <pubDate>Fri, 27 Feb 2026 08:17:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google公布Nano Banana 2 價格減半、可生成高品質圖像、翻譯文字</title>
+      <link>https://www.ithome.com.tw/news/174088</link>
+      <description>新聞Google本周四公布最新圖像生成模型Nano Banana 2，以近乎半價成本提供前代模型高品質圖像及文字生成能力、還能翻譯文字。 Nano Banana 2是在去年10月Nano Banana全面上線及11月Nano Banana Pro推出後的最新圖像生成模型。Nano Banana 2使用的是Gemini 3.1 Flash Image模型，結合新版Flash模型加入高品質圖像生成、進階編輯能力，允許企業及開發人員生成大量高品質圖片。根據Google提供的標竿測試資料，新版模型以文字生成圖片的跑分，大幅高於Nano Banana Pro（Gemini 3 Pro Image）及Nano Banana（Gemini 2.5 Flash Image）。 Google並指出，Nano Banana 2繼承Gemini模型以網頁搜尋圖片生成圖像的功能，並較前代Flash圖像生成模型強化文字渲染能力，可讓使用者在生成高品質圖片外，還能生成精準的文字，用於商業圖片或應用程式中。它還支援圖像中定位（in-image localization），讓用戶可生成或翻譯多種語言文字並加入在圖片中</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174088</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0227-Nano%20Banana%202-3.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 27 Feb 2026 08:27:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>兆勤緊急修補網路設備產品重大指令注入漏洞</title>
+      <link>https://www.ithome.com.tw/news/174089</link>
+      <description>新聞合勤子公司兆勤（Zyxel）上周（2/24）發布更新版軟體以修補多項產品漏洞，包含一個風險值9.8的指令注入（command injection）漏洞。 兆勤修補包括以下漏洞：CVE-2025-11845、CVE-2025-11846、CVE-2025-11847、CVE-2025-11848、CVE-2025-13942、CVE-2025-13943、CVE-2026-1459。其中最嚴重的是CVE-2025-13942（CVSS風險分數9.8）、CVE-2025-13943（CVSS風險分數8.8），前者是影響Zyxel EX 3510-B0 5.717版（ABUP.15.1）C0韌體中UPnP函式的指令注入漏洞。成功濫用可讓遠端攻擊者傳送惡意變造的UPnP SOAP請求，而在裝置上執行作業系統指令。而CVE-2025-13943則是影響5.50（ABVY.7）C0版本以前的EX3301-T0韌體中的log檔下載功能的指令注入漏洞。攻擊者可濫用本漏洞在受害裝置上執行作業系統指令。 風險次高的是CVE-2026-1459（CVSS風險分數7.2），為影響VMG3625-T50B中</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174089</guid>
+      <pubDate>Fri, 27 Feb 2026 08:43:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>微軟新款機密虛擬機器上陣，首度導入開源VM內部隔離技術</title>
+      <link>https://www.ithome.com.tw/review/174090</link>
+      <description>去年9月，微軟Azure針對一般用途與記憶體最佳化等兩大雲端運算服務，推出基於AMD第四代EPYC處理器的機密虛擬機器：DCasv6系列與ECasv6系列。時隔5個月之後的此刻，基於英特爾第五代Xeon Scalable處理器的另一批機密虛擬機器：DCesv6系列與ECesv6系列，現在也宣告進入正式上線階段。 回顧上一代採用英特爾第四代Xeon Scalable處理器的機密虛擬機器：DCesv5系列與ECesv5系列，在2023年11月釋出公開預覽版本，然而，或許是因為同年12月英特爾發表第五代Xeon Scalable處理器，後續，採用英特爾架構的機密虛擬機器，發展重心轉移到這批處理器，2025年4月微軟宣布推出新一代英特爾機密虛擬機器的封閉預覽版，並將其命名為DCesv6系列與ECesv6系列，開放4個雲端區域使用，分別是：美國東部、美國西部、美國西部3、歐洲西部。 除了受益於英特爾Xeon處理器標榜的Intel Trust Domain Extensions（TDX）技術，它們也藉此支援微軟與兩大處理器業者合作的Guest虛擬機器遠端見證（Remote Attestation）</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/review/174090</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/azure_5th_xeon-main3.png" length="0" type="image/png"/>
+      <pubDate>Sat, 28 Feb 2026 06:14:23 +0000</pubDate>
     </item>
   </channel>
 </rss>
