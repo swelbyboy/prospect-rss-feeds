@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 06:57:41 +0000</lastBuildDate>
-    <item>
-      <title>8 billion tokens a day forced AT&amp;amp;T to rethink AI orchestration — and cut costs by 90%</title>
-      <link>https://venturebeat.com/orchestration/8-billion-tokens-a-day-forced-at-and-t-to-rethink-ai-orchestration-and-cut</link>
-      <description>When your average daily token usage is 8 billion a day, you have a massive scale problem. This was the case at AT&amp;amp;T, and chief data officer Andy Markus and his team recognized that it simply wasn’t feasible (or economical) to push everything through large reasoning models. So, when building out an internal Ask AT&amp;amp;T personal assistant, they reconstructed the orchestration layer. The result: A multi-agent stack built on LangChain where large language model “super agents” direct smaller, underlying</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/8-billion-tokens-a-day-forced-at-and-t-to-rethink-ai-orchestration-and-cut</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/udBw424PYrASf0rQIqIll/713046aa22da63e2eed56e0d21d385fd/AT_T-SLMs.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 26 Feb 2026 21:30:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 01 Mar 2026 07:07:13 +0000</lastBuildDate>
     <item>
       <title>Microsoft's new AI training method eliminates bloated system prompts without sacrificing model performance</title>
       <link>https://venturebeat.com/orchestration/microsofts-new-ai-training-method-eliminates-bloated-system-prompts-without</link>
@@ -60,10 +52,18 @@
     <item>
       <title>Anthropic vs. The Pentagon: what enterprises should do</title>
       <link>https://venturebeat.com/technology/anthropic-vs-the-pentagon-what-enterprises-should-do</link>
-      <description>The relationship between one of Silicon Valley's most lucrative and powerful AI model makers, Anthropic, and the U.S. government reached a breaking point on Friday, February 27, 2026.President Donald J. Trump and the White House posted on social media ordering all federal agencies to immediately cease using technology from Anthropic, the maker of the powerful Claude family of AI models, after reportedly months of renegotiating a less than two-year-old contract. Following the President’s lead, Se</description>
+      <description>The relationship between one of Silicon Valley's most lucrative and powerful AI model makers, Anthropic, and the U.S. government reached a breaking point on Friday, February 27, 2026.President Donald J. Trump and the White House posted on social media ordering all federal agencies to immediately cease using technology from Anthropic, the maker of the powerful Claude family of AI models, after negotiations of a less than two-year-old contract reportedly broke down over Anthropic's refusal to roll</description>
       <guid isPermaLink="false">https://venturebeat.com/technology/anthropic-vs-the-pentagon-what-enterprises-should-do</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4VfkSUNLbEJKeO0m863euh/30d0739f8ff325650151b76c51fae3ac/Gemini_Generated_Image_gt46srgt46srgt46.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Sat, 28 Feb 2026 06:16:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vibe coding with overeager AI: Lessons learned from treating Google AI Studio like a teammate</title>
+      <link>https://venturebeat.com/orchestration/vibe-coding-with-overeager-ai-lessons-learned-from-treating-google-ai-studio</link>
+      <description>Most discussions about vibe coding usually position generative AI as a backup singer rather than the frontman: Helpful as a performer to jump-start ideas, sketch early code structures and explore new directions more quickly. Caution is often urged regarding its suitability for production systems where determinism, testability and operational reliability are non-negotiable. However, my latest project taught me that achieving production-quality work with an AI assistant requires more than just goi</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/vibe-coding-with-overeager-ai-lessons-learned-from-treating-google-ai-studio</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/zNn2V12VncWsaAf69c9UT/35448e56e55321692af7ee46295ab9cc/Cover_image.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 28 Feb 2026 08:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
