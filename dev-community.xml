@@ -8,81 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 06:42:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Mar 2026 06:52:21 +0000</lastBuildDate>
     <item>
-      <title>FullAgenticStack WhatsApp-first: Documento Estratégico de Entrada no Mercado</title>
-      <link>https://dev.to/fullagenticstack/fullagenticstack-whatsapp-first-documento-estrategico-de-entrada-no-mercado-48da</link>
-      <description>WhatsApp-First Systems para PMEs no Brasil Versão Completa | Estratégia, Competição, Finanças &amp;amp; Arquitetura 📌 1. Visão Geral do Documento Este documento define uma estratégia completa de entrada no mercado brasileiro com um produto ou plataforma baseada no paradigma WhatsApp-first, onde o WhatsApp não é apenas canal de atendimento, mas plano de operação principal para empresas de pequeno e médio porte. O objetivo é transformar conversas em sistemas operacionais para negócios. Isso inclui estrutu</description>
-      <guid isPermaLink="false">https://dev.to/fullagenticstack/fullagenticstack-whatsapp-first-documento-estrategico-de-entrada-no-mercado-48da</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F2t4o7oxa9ye4o78nfqro.png" length="0" type="image/png"/>
-      <pubDate>Sat, 28 Feb 2026 06:11:05 +0000</pubDate>
+      <title>The lost-in-the-middle problem and why retrieval beats stuffing</title>
+      <link>https://dev.to/anajuliabit/the-lost-in-the-middle-problem-and-why-retrieval-beats-stuffing-1h37</link>
+      <description>Your agent has a 200K token context window. So you dump everything in there — MEMORY.md, daily logs, project notes, old conversations — and figure the model will sort it out. It won't. The research says your middle context is a dead zone In 2023, researchers from Stanford, UC Berkeley, and Samaya AI published "Lost in the Middle: How Language Models Use Long Contexts." They tested models on tasks where the relevant information was placed at different positions in the input. The results were cons</description>
+      <guid isPermaLink="false">https://dev.to/anajuliabit/the-lost-in-the-middle-problem-and-why-retrieval-beats-stuffing-1h37</guid>
+      <pubDate>Sun, 01 Mar 2026 06:27:55 +0000</pubDate>
     </item>
     <item>
-      <title>Phase 3 - Azure Front Door Standard with Custom Domain &amp;amp; Managed TLS</title>
-      <link>https://dev.to/pilgrim2go/phase-3-azure-front-door-standard-with-custom-domain-managed-tls-3836</link>
-      <description>This guide walks through setting up Azure Front Door (AFD) to front an Azure App Service using a custom subdomain and automated SSL/TLS certificates. 📋 Prerequisites An existing Azure App Service (e.g., app-sea-3446.azurewebsites.net). A domain managed in a DNS provider (e.g., AWS Route53). Azure CLI installed and authenticated. Architure 🏗️ Phase 1: Infrastructure Setup First, we create the Front Door profile, endpoint, and origin group. # Variables RG="rg-afd-lab" PROFILE_NAME="afd-profile" EN</description>
-      <guid isPermaLink="false">https://dev.to/pilgrim2go/phase-3-azure-front-door-standard-with-custom-domain-managed-tls-3836</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3okpkyeu6wh3rpyt79gg.png" length="0" type="image/png"/>
-      <pubDate>Sat, 28 Feb 2026 06:13:22 +0000</pubDate>
+      <title>When Power Centralizes in the Frontend Ecosystem — Should We Be Alarmed?</title>
+      <link>https://dev.to/ezhil_sivarajsr/when-power-centralizes-in-the-frontend-ecosystem-should-we-be-alarmed-36l4</link>
+      <description>A research-aware analysis of Vercel's growing influence, React's direction, and the ecosystem fighting back. Over the last few years, the frontend world has experienced an unprecedented consolidation of influence. One company sits at the center of: The most downloaded React framework The primary production implementation of React Server Components Strategic investment, sponsorship, and acquisition of competing frameworks A deployment platform tightly integrated with those tools That company is V</description>
+      <guid isPermaLink="false">https://dev.to/ezhil_sivarajsr/when-power-centralizes-in-the-frontend-ecosystem-should-we-be-alarmed-36l4</guid>
+      <pubDate>Sun, 01 Mar 2026 06:31:58 +0000</pubDate>
     </item>
     <item>
-      <title>OpenID Connect Core 1.0 Deep Dive: Understanding the "Authentication" Layer on top of OAuth 2.0</title>
-      <link>https://dev.to/kanywst/openid-connect-core-10-deep-dive-understanding-the-authentication-layer-on-top-of-oauth-20-2bei</link>
-      <description>Introduction In previous articles, we decoded RFC 6749 (OAuth 2.0), RFC 6750 (Bearer Token), and RFC 8705 (mTLS). You probably understand how the "authorization" mechanism of OAuth 2.0 works by now. But do you ever wonder about these questions? "Can OAuth 2.0 be used for authentication? Or can it not?" "What is the difference between an ID Token and an Access Token?" "What exactly happens when you add scope=openid?" "What does the UserInfo Endpoint return?" Simply having experience "implementing</description>
-      <guid isPermaLink="false">https://dev.to/kanywst/openid-connect-core-10-deep-dive-understanding-the-authentication-layer-on-top-of-oauth-20-2bei</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxn7eavk7gmg0r0iejvbi.png" length="0" type="image/png"/>
-      <pubDate>Sat, 28 Feb 2026 06:16:17 +0000</pubDate>
+      <title>I Built a Terminal-Based WiFi &amp;amp; LAN Security Scanner in Go (NOVA)</title>
+      <link>https://dev.to/zayanmohamed/i-built-a-terminal-based-wifi-lan-security-scanner-in-go-nova-918</link>
+      <description>The Terminal Needs More Security Tools 🛡️ If you spend most of your day in the terminal (shoutout to my fellow Neovim and Zsh users), switching to a heavy GUI just to check your network's security posture feels like a context switch you shouldn't have to make. When you want to know what devices are lurking on your local subnet, or if your nearby WiFi networks are leaking data via outdated encryption, the standard approach usually involves running raw nmap commands and parsing through walls of te</description>
+      <guid isPermaLink="false">https://dev.to/zayanmohamed/i-built-a-terminal-based-wifi-lan-security-scanner-in-go-nova-918</guid>
+      <pubDate>Sun, 01 Mar 2026 06:34:47 +0000</pubDate>
     </item>
     <item>
-      <title>Why Passkeys Aren't Ready for Encrypting Your User Data (Yet)</title>
-      <link>https://dev.to/nader0913/why-passkeys-arent-ready-for-encrypting-your-user-data-yet-437p</link>
-      <description>Passkeys are everywhere. GitHub uses them. Google pushes them. Your password manager probably nags you about them. They're the future of authentication, right? Well, yes and no. While passkeys are excellent for passwordless login, there's a critical limitation developers need to understand: don't use them to encrypt user data. Here's why: Passkeys rely on the WebAuthn API's PRF (Pseudo-Random Function) extension to derive encryption keys. Sounds solid, but there's a catch—PRF support is inconsis</description>
-      <guid isPermaLink="false">https://dev.to/nader0913/why-passkeys-arent-ready-for-encrypting-your-user-data-yet-437p</guid>
-      <pubDate>Sat, 28 Feb 2026 06:21:20 +0000</pubDate>
+      <title>🍽️ S7 Restaurant: Crafting a Luxury Experience with React 19, GSAP &amp;amp; PDF Generation</title>
+      <link>https://dev.to/pawar-shivam7/s7-restaurant-crafting-a-luxury-experience-with-react-19-gsap-pdf-generation-jho</link>
+      <description>🌟 The Vision Luxury dining is not just about food; it's about the experience. I wanted to bring that same "Quiet Luxury" to the web. No clutter, just smooth animations and high-end functionality. 🛠️ Tech Stack &amp;amp; Why I Chose Them React 19 &amp;amp; Vite: For lightning-fast performance and the latest frontend features. GSAP &amp;amp; Framer Motion: To create cinematic transitions that CSS alone can't handle. Material UI (MUI): For a polished, accessible, and responsive component library. Yup &amp;amp; React Hook Form: Be</description>
+      <guid isPermaLink="false">https://dev.to/pawar-shivam7/s7-restaurant-crafting-a-luxury-experience-with-react-19-gsap-pdf-generation-jho</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm9yya5n8wflg2xk4tydw.png" length="0" type="image/png"/>
+      <pubDate>Sun, 01 Mar 2026 06:35:44 +0000</pubDate>
     </item>
     <item>
-      <title>We Built India's First Self-Paced Learning Platform for Government Exam Students — 2 Year+. 5 People. 1000+ Articles.</title>
-      <link>https://dev.to/satyam_vatsa_ec46468fdf4b/we-built-indias-first-self-paced-learning-platform-for-government-exam-students-2-year-5-41c8</link>
-      <description>Let me be honest with you. This is not a "I coded this in a weekend" story. This is a "5 people, 2 year+ , countless nights, 1000+ articles written, and a live product used by real students" story. The Problem We Saw I'm Satyam Kumar — B.Tech CSE (AI &amp;amp; ML) student at Lovely Professional University (LPU), Phagwara. Every year, millions of Indian students prepare for SSC, Banking, Railway and Defence government exams. These are not easy exams. They require months — sometimes years — of consistent,</description>
-      <guid isPermaLink="false">https://dev.to/satyam_vatsa_ec46468fdf4b/we-built-indias-first-self-paced-learning-platform-for-government-exam-students-2-year-5-41c8</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd167nl559ly6xcnz2hip.png" length="0" type="image/png"/>
-      <pubDate>Sat, 28 Feb 2026 06:21:50 +0000</pubDate>
+      <title>A Practical Guide to Time for Developers: Part 1 — What time is in software (physics + agreements)</title>
+      <link>https://dev.to/dmytro_huz/a-practical-guide-to-time-for-developers-part-1-what-time-is-in-software-physics-agreements-5f96</link>
+      <description>Preface to the series I was tasked with synchronizing time across N computers with ~1 nanosecond accuracy. Not “a laptop over Wi-Fi” — a controlled wired setup where hardware timestamping and disciplined clocks make that goal at least a meaningful engineering target. At first it sounded trivial. We learn clocks, dates, and time zones as kids. How hard can it be? The industry already has a standard solution: Precision Time Protocol (PTP). But I wanted to look inside the protocol and understand wh</description>
+      <guid isPermaLink="false">https://dev.to/dmytro_huz/a-practical-guide-to-time-for-developers-part-1-what-time-is-in-software-physics-agreements-5f96</guid>
+      <pubDate>Sun, 01 Mar 2026 06:36:23 +0000</pubDate>
     </item>
     <item>
-      <title>Why Are Camera ISP Tuning Services Important?</title>
-      <link>https://dev.to/siliconsignals_ind/why-are-camera-isp-tuning-services-important-531b</link>
-      <description>The performance of the camera has gone from being nice-to-have to a must-have. In industrial automation, medical diagnostics, smart surveillance, automotive ADAS, retail analytics, and edge AI devices, image quality has a direct impact on system accuracy and business results. A camera pipeline that isn't properly tuned doesn't just take a bad picture. It causes missed detections, wrong classifications, auto-exposure behavior that isn't stable, and analytics that aren't reliable. Statista says th</description>
-      <guid isPermaLink="false">https://dev.to/siliconsignals_ind/why-are-camera-isp-tuning-services-important-531b</guid>
-      <pubDate>Sat, 28 Feb 2026 06:24:37 +0000</pubDate>
+      <title>Claude Code Keeps Forgetting Your Project? Here's a Fix</title>
+      <link>https://dev.to/277479420qqcom_5c9aa4d3/claude-code-keeps-forgetting-your-project-heres-a-fix-2c4j</link>
+      <description>You close your Claude Code session at 6 PM. You open it back up the next morning. And the first thing you type is a three-paragraph explanation of what you were doing yesterday. Sound familiar? The Problem Nobody Talks About Claude Code is one of the most capable AI coding assistants available. It can write whole modules, refactor complex systems, and reason through architecture decisions. But it has a blind spot that costs developers real time every single day: it forgets everything between ses</description>
+      <guid isPermaLink="false">https://dev.to/277479420qqcom_5c9aa4d3/claude-code-keeps-forgetting-your-project-heres-a-fix-2c4j</guid>
+      <pubDate>Sun, 01 Mar 2026 06:37:20 +0000</pubDate>
     </item>
     <item>
-      <title>Mistakes I Made as a Frontend Engineer (And What They Actually Cost Me)</title>
-      <link>https://dev.to/9thquadrant/mistakes-i-made-as-a-frontend-engineer-and-what-they-actually-cost-me-587m</link>
-      <description>I've shipped a 2s → 0.2s FCP improvement. I've cut build times from 20 minutes to 90 seconds by making the right framework call. I've led an Angular migration across 500+ components with a 12-engineer team. None of that changes the fact that I made avoidable mistakes early in my career. Some from ignorance, some from arrogance, some from nobody being around to tell me otherwise. This is for junior and mid-level engineers who are still in the window where these mistakes are correctable. 1. I Stay</description>
-      <guid isPermaLink="false">https://dev.to/9thquadrant/mistakes-i-made-as-a-frontend-engineer-and-what-they-actually-cost-me-587m</guid>
-      <pubDate>Sat, 28 Feb 2026 06:26:08 +0000</pubDate>
+      <title>Where Deep Research Fits: Choosing the AI Tool That Actually Does the Work</title>
+      <link>https://dev.to/azimkhan72/where-deep-research-fits-choosing-the-ai-tool-that-actually-does-the-work-5b2e</link>
+      <description>For anyone who has dug through papers, PDFs, and scattered docs to answer a single hard question, the promise of "AI that helps with research" now reads less like marketing and more like mission-critical infrastructure. The real shift isn't that machines can summarize text - it's that they can orchestrate a research workflow: plan what to read, extract structured facts, reconcile contradictions, and hand you an actionable narrative. This piece separates signal from noise, explains why the capabi</description>
+      <guid isPermaLink="false">https://dev.to/azimkhan72/where-deep-research-fits-choosing-the-ai-tool-that-actually-does-the-work-5b2e</guid>
+      <pubDate>Sun, 01 Mar 2026 06:37:40 +0000</pubDate>
     </item>
     <item>
-      <title>Scaling Engineers Doesn't Mean Scaling Work</title>
-      <link>https://dev.to/sultanfariz/scaling-engineers-doesnt-mean-scaling-work-1nf3</link>
-      <description>Been thinking about this for a while, so lemme just put it out there. The Observation: Scaling People vs Scaling Work Started from an idea about developers. Instead of keeping devs locked into frontend or backend only, we expand their scope. They become more general, but still keep their main strength. With coding agents, this makes even more sense. Tasks that use to be blocked can now get done faster. More people can help. Work moves quicker. In short, we scale people. And this part? It works w</description>
-      <guid isPermaLink="false">https://dev.to/sultanfariz/scaling-engineers-doesnt-mean-scaling-work-1nf3</guid>
-      <pubDate>Sat, 28 Feb 2026 06:30:36 +0000</pubDate>
+      <title>The Scaffold: Playwright Project Structure Built for AI</title>
+      <link>https://dev.to/idavidov13/the-scaffold-playwright-project-structure-built-for-ai-3a62</link>
+      <description>Have you ever started a new Playwright project and spent the first two days just figuring out where things go? Where do selectors live? How do page objects get into tests? Where does test data belong? Most teams answer these questions ad hoc, and end up with a different answer every time. After a few months the codebase looks like that - a mix of conventions, inconsistencies, and copy-pasted patterns that no one quite owns. A scaffold solves this before it starts. But the one we're exploring her</description>
+      <guid isPermaLink="false">https://dev.to/idavidov13/the-scaffold-playwright-project-structure-built-for-ai-3a62</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd3ql8qtag8hl7uz264am.png" length="0" type="image/png"/>
+      <pubDate>Sun, 01 Mar 2026 06:38:01 +0000</pubDate>
     </item>
     <item>
-      <title>When Past Team Failures Become Your Team's Problem</title>
-      <link>https://dev.to/adamthedeveloper/when-past-team-failures-become-your-teams-problem-5cf3</link>
-      <description>I want to tell you about a situation I'm currently navigating as a team lead. A senior technical leader came in with a reputation. Not a bad one on paper. He'd been around, worked with multiple teams, seen projects go sideways. On paper, experience. In practice, something else entirely. Before we'd shipped a single line of code together, before he'd sat in a single planning session with us, before he'd looked at our past projects or asked a single question about how we work, he had already decid</description>
-      <guid isPermaLink="false">https://dev.to/adamthedeveloper/when-past-team-failures-become-your-teams-problem-5cf3</guid>
-      <pubDate>Sat, 28 Feb 2026 06:32:58 +0000</pubDate>
+      <title>How Text-First Toolchains Break Down - An Architects Under-the-Hood Deconstruction</title>
+      <link>https://dev.to/kailash_ac43c0ef1daf14abd/how-text-first-toolchains-break-down-an-architects-under-the-hood-deconstruction-48fl</link>
+      <description>As a principal systems engineer responsible for integrating writing and content pipelines into production, I start from a single, uncomfortable observation: content-generation stacks are treated like black boxes until they fail in the open. The common advice-“use a best-in-class generator, then add monitoring”-misses the real failure modes. This piece peels back the layers of content tooling, shows the internals that matter, and explains the trade-offs youll accept when you stitch together compo</description>
+      <guid isPermaLink="false">https://dev.to/kailash_ac43c0ef1daf14abd/how-text-first-toolchains-break-down-an-architects-under-the-hood-deconstruction-48fl</guid>
+      <pubDate>Sun, 01 Mar 2026 06:38:44 +0000</pubDate>
     </item>
     <item>
-      <title>build-my-own-datalake: Improve metadata with caching</title>
-      <link>https://dev.to/kination/build-my-own-datalake-improve-metadata-with-caching-2lbl</link>
-      <description>This is the next story of following post: https://dev.to/kination/build-my-own-datalake-part-1-367h Building a High-Performance Metadata System with Global Caching Caching schema metadata at the JNI boundary to eliminate per-write filesystem reads I've made a goal for project vine as write-optimized data lake format. And what I didn't expect was that, reading a small JSON file would be the bottleneck. My initial implementation was spending a significant chunk of each write just loading a schema</description>
-      <guid isPermaLink="false">https://dev.to/kination/build-my-own-datalake-improve-metadata-with-caching-2lbl</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fif2p9jdcciu0pjpxxhig.png" length="0" type="image/png"/>
-      <pubDate>Sat, 28 Feb 2026 06:37:35 +0000</pubDate>
+      <title>The PKM Setup I Settled On After Many Iterations</title>
+      <link>https://dev.to/gantengx/the-pkm-setup-i-settled-on-after-many-iterations-6pa</link>
+      <description>The system I use for note-taking today is a combination of PARA, Evergreen Notes and 4 Buckets System that I ended up merging after a lot of iterations. This post is part 1 of a 3-part series on my PKM setup using Obsidian, how I got there and how it's used daily. Fair warning: none of this is groundbreaking. It's just a mix-and-match of various frameworks that eventually clicked. If you've ever spent more time setting up your system rather than actually using it, this might resonate. TL;DR The</description>
+      <guid isPermaLink="false">https://dev.to/gantengx/the-pkm-setup-i-settled-on-after-many-iterations-6pa</guid>
+      <pubDate>Sun, 01 Mar 2026 06:43:39 +0000</pubDate>
     </item>
   </channel>
 </rss>

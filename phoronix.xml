@@ -8,49 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Feb 2026 06:42:52 +0000</lastBuildDate>
-    <item>
-      <title>LXD 6.7 Released With AMD GPU Passthrough Support</title>
-      <link>https://www.phoronix.com/news/LXD-6.7-Released</link>
-      <description>Canonical today released LXD 6.7 as the latest feature update to this system container and virtual machine manager commonly used in Ubuntu Linux environments...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/LXD-6.7-Released</guid>
-      <pubDate>Fri, 27 Feb 2026 01:09:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Genode OS 26.02 Halfway Done Migrating From GitHub To Codeberg</title>
-      <link>https://www.phoronix.com/news/Genode-OS-26.02</link>
-      <description>Genode OS 26.02 is out as the latest feature update to this open-source operating system framework that also serves as the basis for their Sculpt general purpose OS...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Genode-OS-26.02</guid>
-      <pubDate>Fri, 27 Feb 2026 11:00:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>Numerous AMDXDNA Ryzen AI Driver Fixes For Linux 7.0-rc2</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-rc2-DRM-Fixes</link>
-      <description>Sent out today were all of the DRM/accel driver fixes for the week, ahead of the Linux 7.0-rc2 kernel release due out on Sunday...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-rc2-DRM-Fixes</guid>
-      <pubDate>Fri, 27 Feb 2026 11:11:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mesa Developers Trying To Reach A Consensus On AI Policy</title>
-      <link>https://www.phoronix.com/news/Mesa-AI-Policy-March</link>
-      <description>If all goes well, Mesa developers are hoping to reach a consensus or at least some common ground on an AI policy in March. Mesa is the latest open-source project making considerations around the growing activity around AI coding agents and the like and how to deal with them for this project that is crucial to the Linux desktop and open-source 3D graphics drivers at large...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-AI-Policy-March</guid>
-      <pubDate>Fri, 27 Feb 2026 11:24:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Canonical Talks Up RISC-V This Year With Ubuntu 26.04 LTS</title>
-      <link>https://www.phoronix.com/news/Ubuntu-RISC-V-2026</link>
-      <description>Canonical put out a new blog post today highlighting their RISC-V work over 2025 that included switching to the RVA23 profile baseline for Ubuntu 25.10 and moving forward. Now with RVA23-compatible RISC-V hardware coming to market this year, Canonical is talking up the RISC-V possibilities when paired with the upcoming Ubuntu 26.04 LTS release...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-RISC-V-2026</guid>
-      <pubDate>Fri, 27 Feb 2026 14:01:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intel Media Driver Update Brings Nova Lake S Support, AV1 Improvements</title>
-      <link>https://www.phoronix.com/news/Intel-Media-Driver-2025Q4</link>
-      <description>While at the end of February, today Intel released the Intel Media Driver 2025Q4 release as well as the latest VPL GPU Runtime for their media stack...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Media-Driver-2025Q4</guid>
-      <pubDate>Fri, 27 Feb 2026 14:32:05 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 01 Mar 2026 06:52:30 +0000</lastBuildDate>
     <item>
       <title>SilverStone RM4A: 4U Rackmount Server/Workstation Chassis That's Great For Liquid Cooling</title>
       <link>https://www.phoronix.com/review/silverstone-rm4a</link>
@@ -78,6 +36,48 @@
       <description>If you are cloning from a GNOME repository on their GitLab and now finding your Git traffic being redirected to GitHub, you are not alone. GNOME's infrastructure team is now redirecting Git traffic from the GNOME.org GitLab over to GitHub mirrors for reducing bandwidth costs...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-GitHub-GitLab-Redirect</guid>
       <pubDate>Sat, 28 Feb 2026 00:03:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>KDE Plasma 6.7 Preps Rounded Style UI Enhancement For QtWidgets-Based Apps</title>
+      <link>https://www.phoronix.com/news/Plasma-6.7-Rounded-UI-QtWidgets</link>
+      <description>KDE Plasma 6.7 development continues heating up following the Plasma 6.6 desktop release earlier this month...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.7-Rounded-UI-QtWidgets</guid>
+      <pubDate>Sat, 28 Feb 2026 11:21:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>FreeBSD 14.4-RC1 Adds Emacs, Vim &amp;amp; More To DVD Images</title>
+      <link>https://www.phoronix.com/news/FreeBSD-14.4-RC1-Released</link>
+      <description>For those on the current FreeBSD 14 series with no immediate plans to move to FreeBSD 15 that debuted at the end of 2025, FreeBSD developers have been preparing for the release of FreeBSD 14.4. Released overnight was the first release candidate of FreeBSD 14.4...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-14.4-RC1-Released</guid>
+      <pubDate>Sat, 28 Feb 2026 11:33:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Servo Browser Engine Starts 2026 With Many Notable Improvements</title>
+      <link>https://www.phoronix.com/news/Servo-January-2026</link>
+      <description>The Servo project has issued their January 2026 development report that highlights all the interesting changes they made to this open-source browser layout engine last month. With Servo 0.0.5 they have landed many improvements to this engine and also continuing to enhance its ability to embed Servo inside other applications...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Servo-January-2026</guid>
+      <pubDate>Sat, 28 Feb 2026 14:21:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Verisilicon DC8200 &amp;amp; Coreboot Framebuffer Drivers Sent To DRM-Next For Linux 7.1</title>
+      <link>https://www.phoronix.com/news/Linux-7.1-DC8200-Coreboot-FB</link>
+      <description>The first DRM-Misc-Next pull request was submitted this week to DRM-Next as new kernel graphics/display driver features to begin queuing for the Linux 7.1 kernel that will release mid-year. Among the early code for DRM-Next are two new drivers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.1-DC8200-Coreboot-FB</guid>
+      <pubDate>Sat, 28 Feb 2026 15:04:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>AMD Prepares Linux For Instruction-Based Sampling Improvements With Zen 6</title>
+      <link>https://www.phoronix.com/news/Linux-Perf-AMD-IBS-Zen-6</link>
+      <description>A set of patches recently posted to the Linux kernel mailing list have now been queued up to a tip/tip.git branch for planned introduction in Linux 7.1. These patches are for enhancing the Linux perf subsystem support for AMD Instruction-Based Sampling (IBS) improvements with next-gen Zen 6 processors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Perf-AMD-IBS-Zen-6</guid>
+      <pubDate>Sat, 28 Feb 2026 16:58:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>AerynOS 2026.02 Brings More Wayland Compositor Options, Other Improvements</title>
+      <link>https://www.phoronix.com/news/AerynOS-2026.02</link>
+      <description>AerynOS 2026.02 was released for closing out February as the newest alpha release for this Linux distribution formerly known as Serpent OS. In AerynOS 2026.02 are many package updates plus continued work on the tooling and other innovations around this Linux distribution...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AerynOS-2026.02</guid>
+      <pubDate>Sun, 01 Mar 2026 01:13:43 +0000</pubDate>
     </item>
   </channel>
 </rss>
