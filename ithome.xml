@@ -8,43 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 06:54:51 +0000</lastBuildDate>
-    <item>
-      <title>歐洲資料保護委員會聯合全球61個監管機關發布聲明，要求AI影像生成服務強化防濫用機制</title>
-      <link>https://www.ithome.com.tw/news/174068</link>
-      <description>新聞生成式AI影像與影片工具快速普及之際，全球資料保護監管機關同步對相關濫用風險提出警示。 歐洲資料保護委員會（European Data Protection Board，EDPB）於2月23日宣布，已加入由全球61個資料保護與隱私監管機關共同簽署的《AI生成影像與隱私保護聯合聲明》（Joint Statement on AI-Generated Imagery and the Protection of Privacy）。聲明聚焦AI影像與影片生成技術遭濫用，用於製作未經同意的親密影像（性化深偽內容）與誹謗素材，並要求AI服務業者在系統設計與營運層面導入防濫用機制。 該聲明由Global Privacy Assembly（GPA）旗下的國際執法合作工作小組（International Enforcement Cooperation Working Group，IEWG）協調推動。GPA為各國資料保護主管機關的國際合作平臺，成員遍及多個國家與地區。此次參與簽署的單位涵蓋歐洲、美國、英國、加拿大、澳洲與日本等主要經濟體的隱私監管機關，顯示AI影像生成相關風險已進入跨國監管討論範圍。 聯</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174068</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0226-Joint%20Statement.png" length="0" type="image/png"/>
-      <pubDate>Thu, 26 Feb 2026 10:09:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>AWS Elemental Inference用AI即時把橫式直播轉直式，還能自動擷取短影音片段</title>
-      <link>https://www.ithome.com.tw/news/174078</link>
-      <description>新聞AWS推出Elemental Inference全託管AI服務，可在直播與隨選影片製播流程中，將既有橫式內容即時裁切為適合手機與社群平臺的直式格式，並自動偵測、擷取可用於即時分布的影片片段。AWS表示，AI處理可與既有直播編碼平行運作，延遲約6至10秒。 主流電視或大型活動轉播多以16:9橫式格式製作，符合傳統螢幕的觀看習慣，但觀眾在TikTok、Instagram Reels、YouTube Shorts等平臺上的內容消費型態已明顯偏向直式與短片段。若要將橫式直播裁切為直式，再切出可上架的精彩片段，就得仰賴人工後製，時間落差可能使內容錯過即時擴散的最佳時機。 AWS Elemental Inference在首波提供兩個主要功能，第一是直式影片生成，透過AI裁切將橫式轉播內容轉為9:16比例，並自動追蹤畫面主體，讓關鍵動作不會被裁切掉；第二是片段生成，系統可利用內容與中繼資料進行分析，自動偵測並擷取片段。AWS以體育賽事為例，稱可將人工剪輯時間從數小時縮短至數分鐘，加速內容分布至社群通路。 AWS表示，該服務可透過兩種方式介接既有工作流程，一是使用獨立主控臺建立處理來源（Feed）</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174078</guid>
-      <pubDate>Thu, 26 Feb 2026 10:33:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google零程式碼AI平臺Opal加入代理模式，AI工作流程可自主判斷並多輪互動</title>
-      <link>https://www.ithome.com.tw/news/174081</link>
-      <description>新聞Google旗下零程式碼AI應用平臺Opal在工作流程中新增代理選項，讓原本以固定模型呼叫為主的流程，能在執行過程中主動蒐集所需資訊、向使用者追問，並依據回饋反覆調整輸出。Opal是Google Labs推出的實驗性工具，透過自然語言與視覺化編輯，將提示詞、模型呼叫與工具串接成可分享的AI小型應用程式。 Opal更新重點在於把選模型與選工具的決策權交給生成步驟中的代理。代理會先理解任務目標，再決定執行路徑。根據官方說明，使用者不必事先手動指定模型，只需選擇代理，由代理依目標觸發網頁搜尋等工具蒐集資料，或呼叫Veo等模型產生影片內容，使同一套流程更能因應不同輸入情境。 Google以故事書生成為例說明效果，過去需要預設頁數與提問，而加入代理後，流程可在生成過程中自行判斷還缺少哪些故事細節，並主動提出情節走向或補充資訊的建議，讓作品透過互動逐步成形。另外，原本的室內設計情境，Opal較接近一次性流程，但代理模式則會在初稿完成後引導使用者針對特定元素給予回饋，再透過多輪對話收斂風格，必要時也能補充查找子風格資訊。 要支援互動式流程，Google在Opal加入多項能力，包含跨工作階段的記憶</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174081</guid>
-      <pubDate>Fri, 27 Feb 2026 07:10:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic收購Vercept　強化Claude電腦使用能力</title>
-      <link>https://www.ithome.com.tw/news/174084</link>
-      <description>新聞在Vercept共同創辦人Matt Deitke加入Meta的隔天，Anthropic宣布收購Vercept，取得其以自然語言操控電腦的技術能力。 Vercept為出自AI2孵化器的新創公司，在2025年1月募資超過5,000萬美元，其旗艦產品Vy為一跨平臺AI代理人，可讓使用者以自然語言控制電腦來操作應用程式和內容。Anthropic說明，Claude的電腦使用能力使其得以處理應用程式裡的多步驟任務，並用程式解決困難問題，而Vercept的收購則是為了強化這些能力，因為Vercept的創立核心精神是「讓AI協助解決複雜的感知和互動問題的任務」。 這項收購是Vercept創辦人之一Matt Deitke被Meta挖角後隔日宣布。根據紐約時報報導，Deitke以2.5億美元年薪加入Meta的Superintelligence Lab。在收購後，Vercept團隊包括其他創辦人如Kiana Ehsani、Luca Weihs和Ross Girshick都將加入Anthropic。Deitke也發文恭賀舊日夥伴。 此外，Vercept會在幾周內關閉對外產品。Vercept官網現在只留下簡</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174084</guid>
-      <pubDate>Fri, 27 Feb 2026 07:40:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>價格戰落幕，網飛放棄收購華納兄弟探索</title>
-      <link>https://www.ithome.com.tw/news/174085</link>
-      <description>新聞在串流產業整併浪潮下，網飛（Netflix）去年12月宣布將以約827億美元收購華納兄弟探索（Warner Bros. Discovery，WBD）拆分後的WBD Streaming &amp;amp; Studios資產，交易對價為每股23.25美元現金加約4.5美元的網飛股票。然而，原本曾與WBD洽談合併未果的Paramount Skydance隨後提出更高報價，掀起新一輪競價戰。 WBD周四（2/26）表示，該公司已於2月24日公開披露Paramount Skydance的提案，包括每股31美元的現金購買價格，並附帶自2026年9月30日後按季每股0.25美元的延遲補償金（ticking fee），若因監管問題而未能完成併購，Paramount Skydance必須支付70億美元的終止費用予WBD，也同意支付WBD必須付給網飛的28億美元終止費用。 根據WBD與網飛的協議，當WBD獲得更好的併購提案時，可先通知網飛，以讓網飛在4天內考慮是否修訂原先的提案。 網飛則在同一天宣布，已拒絕提高對WBD的收購要約。 網飛兩名共同執行長Ted Sarandos及Greg Peters表示，雙方先前所談</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174085</guid>
-      <pubDate>Fri, 27 Feb 2026 07:57:26 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 02 Mar 2026 07:05:59 +0000</lastBuildDate>
     <item>
       <title>Anthropic發聲明回應軍方施壓，拒撤監控與自主武器紅線</title>
       <link>https://www.ithome.com.tw/news/174086</link>
@@ -81,6 +45,42 @@
       <guid isPermaLink="false">https://www.ithome.com.tw/review/174090</guid>
       <enclosure url="https://s4.itho.me/sites/default/files/azure_5th_xeon-main3.png" length="0" type="image/png"/>
       <pubDate>Sat, 28 Feb 2026 06:14:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI與美國防部達成機密部署協議提出三項紅線，並反對將Anthropic列為供應鏈風險</title>
+      <link>https://www.ithome.com.tw/news/174100</link>
+      <description>新聞在Anthropic與美國國防部（Department of Defense，DoD）因模型用途紅線爆發爭議之際，OpenAI於2月28日宣布，已與DoD達成協議，將其先進AI系統部署於機密環境。OpenAI強調，此次合作建立在更具約束力的安全架構之上，並未移除模型護欄。 相較於Anthropic所強調的兩項限制——不得將模型用於大規模境內監控，以及不得用於完全自主武器系統，OpenAI則提出三項紅線。除了同樣排除大規模境內監控與完全自主武器用途外，OpenAI還新增第三項限制，明確禁止其技術被用於高風險自動化決策，例如類似「社會信用」機制的重大裁量系統。 根據Anthropic的聲明，美國國防部於談判過程中提出，僅會與同意「任何合法用途」（any lawful use）且不在大規模境內監控與完全自主武器等情境下施加額外技術限制的公司簽約。Anthropic認為，在此條件下企業將失去對模型用途的實質限制能力，因此拒絕讓步。 OpenAI則採取不同策略，指出此次部署為雲端限定架構，安全堆疊（Safety Stack）由OpenAI自行運行並持續更新，且將有具安全許可的工程師在環監督。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174100</guid>
+      <pubDate>Mon, 02 Mar 2026 05:37:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>蘋果在巴西、星、澳及美國兩州實行App年齡分級</title>
+      <link>https://www.ithome.com.tw/news/174101</link>
+      <description>新聞蘋果（Apple）上周更新開發商工具及App Store政策，以便在巴西、新加坡、澳洲以及美國二個州實行未成年人士應用程式下載限制。 巴西、及新加坡先後於去年9月到今年1月之間公布青少年上網及應用程式使用保護法令，澳洲則宣布禁止未滿16歲的未成年人使用社群網站，Meta已宣布配合。 首先，蘋果更新了宣告年齡級距（Declared Age Range）API，讓在巴西發布App的開發商可以用以取得用戶年齡類別資訊。在未成年用戶、其父/母或監護人同意下，年齡資訊可分享給開發商，該API也會回傳用戶裝置年齡控管方法的訊息。 蘋果App Store也在澳洲、新加坡及巴西禁止未滿18歲用戶下載特定App。從今年2月24日起，如果用戶無法透過合理方法證明自己滿18歲，將無法下載有年齡限制的App。App Store內建自動化辨識機制。但如果開發商依各地法律有義務要獨立驗證，可使用蘋果的宣告年齡級距API，來實作年齡辨識功能。該API內建於iOS、iPadOS及macOS中。 此外，美國也預定未來幾個月後在美國二個州啟用宣告年齡級距API，協助開發商年齡分級。依據猶他州和路易西安那州的法律，分別</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174101</guid>
+      <pubDate>Mon, 02 Mar 2026 06:00:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>HPE修補Juniper PTX路由器程式碼重大RCE漏洞</title>
+      <link>https://www.ithome.com.tw/news/174102</link>
+      <description>新聞HPE旗下網路設備部門Juniper上周發布例外安全更新，以修補PTX路由器一項可允許遠端攻擊者以根權限執行程式碼的重大漏洞。 編號CVE-2026-21902的漏洞為存在Juniper PTX網路設備Junos OS Evolved的機上異常偵測框架的漏洞，出於關鍵資源權限分派不正確，可讓未授權的連網攻擊者，得以用Root權限執行程式碼，其CVSS風險分數為9.8分，屬重大風險（Critical）等級。 Juniper指出，機上異常（On-Box Anomaly）偵測框架只可由內網其他執行個體的流程存取，曝露於外的通訊埠路由則無法存取。然而，CVE-2026-21902漏洞可被未經授權的網路攻擊者遠端濫用，使其得以操控該服務並以Root權限執行程式碼，進而完全掌控該臺裝置。官方也提醒，若未進行特定設定，該服務預設即為啟用狀態。 這項漏洞是Juniper內部產品安全研究過程中發現，Juniper安全事件回應小組SIRT表示未發現任何濫用該漏洞的活動。 本漏洞影響版本為Junos Evolved 25.4版，HPE/Juniper已釋出更新版25.4R1-S1-EVO修補，並預訂釋出</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174102</guid>
+      <pubDate>Mon, 02 Mar 2026 06:12:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>駭客利用檔案管理員Windows File Explorer和WebDAV散布惡意程式</title>
+      <link>https://www.ithome.com.tw/news/174103</link>
+      <description>新聞資安廠商Cofense發現，攻擊者正濫用Windows檔案總管（Windows File Explorer）一項較少人注意的遠端檔案存取功能，向使用者散布惡意檔案。 攻擊者是利用Windows檔案總管支援HTTP檔案管理協定WebDAV（Web-based Distributed Authoring and Versioning）接收遠端檔案這點，誘使受害者下載惡意程式。 圖片來源／Cofense WebDAV是HTTP/1.1-based擴充協定，讓使用者透過網路讀取、寫入、刪除、移動和鎖定網頁伺服器上檔案等管理操作，有如將遠端伺服器變為標準「網路磁碟」。今天較少人用WebDAV來傳輸檔案或遠端儲存檔案，微軟已經從2023年11月宣布淘汰，但現在Windows檔案總管仍然原生支援以WebDAV遠端存取檔案伺服器。但由於一般很少人知道可以從檔案總管遠端存取檔案，WebDAV就成了一個破口，能讓使用者繞過瀏覽器的管道，從WebDAV伺服器下載檔案。 在檔案總管中，可以透過至少三種方式來呼叫WebDAV伺服器連線，主要包括直接在檔案總管網址列鍵入包含遠端WebDAV伺服器IP位址或網域</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174103</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0302_Windows_File_Explorer_WebDAV.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Mar 2026 06:49:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>【資安週報】0223~0226，AI自動化漏洞掃描將趨於普及，Anthropic推出Claude Code Security</title>
+      <link>https://www.ithome.com.tw/news/174099</link>
+      <description>新聞【資安新聞編輯室報告】農曆春節過後，資安領域最受矚目的進展莫過於Anthropic推出Claude Code Security，該工具能自動掃描漏洞並提供修補建議，目前已開放預覽，這是繼半年前美國DARPA公布AIxCC競賽成果、4個月前Google DeepMind公開CodeMender進展，以及OpenAI揭露Aardvark後的又一重大突破。而為了防範AI技術遭駭客濫用，Anthropic亦規定該功能嚴禁用於掃描第三方授權程式碼，用戶僅限掃描自有程式碼。 其他重要資安防禦進展，包括英國政府近期宣布與微軟合作開發深偽（Deepfake）偵測系統，美國NIST啟動AI代理標準倡議，以建立跨系統互通與安全運作的基礎，以及真實世界密碼學研討會RWC 2026即將於3月在臺舉行，聚焦PQC建構、隱私強化、安全通訊等12大主題。 資安事故方面，國內有3起事件備受關注，涵蓋上市公司南光、圓山大飯店、酷澎臺灣： （一）南光化學製藥在大年初三（2月19日）緊急發布重訊，說明接獲其合作廠商通知，發現公司網路系統遭不明人士入侵，目前調查顯示部分內部文件簽呈資料等相關資訊疑似遭竊取，並於暗網流傳，</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174099</guid>
+      <pubDate>Mon, 02 Mar 2026 06:58:20 +0000</pubDate>
     </item>
   </channel>
 </rss>

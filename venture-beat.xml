@@ -8,23 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 07:07:13 +0000</lastBuildDate>
-    <item>
-      <title>Microsoft's new AI training method eliminates bloated system prompts without sacrificing model performance</title>
-      <link>https://venturebeat.com/orchestration/microsofts-new-ai-training-method-eliminates-bloated-system-prompts-without</link>
-      <description>In building LLM applications, enterprises often have to create very long system prompts to adjust the model’s behavior for their applications. These prompts contain company knowledge, preferences, and application-specific instructions. At enterprise scale, these contexts can push inference latency past acceptable thresholds and drive per-query costs up significantly. On-Policy Context Distillation (OPCD), a new training framework proposed by researchers at Microsoft, helps bake the knowledge and</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/microsofts-new-ai-training-method-eliminates-bloated-system-prompts-without</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/39VqKEYetXDr9BMEcrx7Is/05c6a7e979f919ee2128ec81344fb2af/Context_distillation.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Jack Dorsey's Block cuts 40% of staff, 4,000+ people — and yes, it's because of AI efficiencies</title>
-      <link>https://venturebeat.com/orchestration/jack-dorseys-block-cuts-40-of-staff-4-000-people-and-yes-its-because-of-ai</link>
-      <description>Former Twitter co-founder Jack Dorsey's new company Block — the parent of merchants payment system Square, mobile peer-to-peer payments Cash App, music streamer Tidal, and open source AI orchestration system Goose — is sending shockwaves across the business world tonight after announcing a more than 40% headcount, cutting its workforce by more than 4,000 people out of a prior total of 10,000, despite its latest quarterly earnings statement released today showing $2.87 billion in gross profit up</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/jack-dorseys-block-cuts-40-of-staff-4-000-people-and-yes-its-because-of-ai</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6ilRpMh79SoqPi6HnCVlfx/9a3e5737b43f8b07a7fbf7b1fc044c98/Gemini_Generated_Image_hysqcxhysqcxhysq.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 27 Feb 2026 00:46:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 02 Mar 2026 07:20:23 +0000</lastBuildDate>
     <item>
       <title>Enterprise MCP adoption is outpacing security controls</title>
       <link>https://venturebeat.com/security/enterprise-mcp-adoption-is-outpacing-security-controls</link>
@@ -64,6 +48,22 @@
       <guid isPermaLink="false">https://venturebeat.com/orchestration/vibe-coding-with-overeager-ai-lessons-learned-from-treating-google-ai-studio</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/zNn2V12VncWsaAf69c9UT/35448e56e55321692af7ee46295ab9cc/Cover_image.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Sat, 28 Feb 2026 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When AI lies: The rise of alignment faking in autonomous systems</title>
+      <link>https://venturebeat.com/security/when-ai-lies-the-rise-of-alignment-faking-in-autonomous-systems</link>
+      <description>AI is evolving beyond a helpful tool to an autonomous agent, creating new risks for cybersecurity systems. Alignment faking is a new threat where AI essentially “lies” to developers during the training process. Traditional cybersecurity measures are unprepared to address this new development. However, understanding the reasons behind this behavior and implementing new methods of training and detection can help developers work to mitigate risks.Understanding AI alignment fakingAI alignment occurs</description>
+      <guid isPermaLink="false">https://venturebeat.com/security/when-ai-lies-the-rise-of-alignment-faking-in-autonomous-systems</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/293MHswJkYZK7BcKg5fgwj/bf924dc513601869f69faca849c9e13e/upscalemedia-transformed.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 01 Mar 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What if the real risk of AI isn’t deepfakes — but daily whispers?</title>
+      <link>https://venturebeat.com/technology/what-if-the-real-risk-of-ai-isnt-deepfakes-but-daily-whispers</link>
+      <description>Most people don’t appreciate the profound threat that AI will soon pose to human agency. A common refrain is that “AI is just a tool,” and like any tool, its benefits and dangers depend on how people use it. This is old-school thinking. AI is transitioning from tools we use to prosthetics we wear. This will create significant new threats we’re just not prepared for.No, I’m not talking about creepy brain implants. These AI-powered prosthetics will be mainstream products we buy from Amazon or the</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/what-if-the-real-risk-of-ai-isnt-deepfakes-but-daily-whispers</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/1XpGggdRdCiwlNHyu2qhW1/92e36733fd554e13692566a6f533d398/upscalemedia-transformed.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 01 Mar 2026 19:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

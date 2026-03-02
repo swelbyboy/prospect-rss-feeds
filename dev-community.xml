@@ -8,78 +8,79 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 06:52:21 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 07:02:59 +0000</lastBuildDate>
     <item>
-      <title>The lost-in-the-middle problem and why retrieval beats stuffing</title>
-      <link>https://dev.to/anajuliabit/the-lost-in-the-middle-problem-and-why-retrieval-beats-stuffing-1h37</link>
-      <description>Your agent has a 200K token context window. So you dump everything in there — MEMORY.md, daily logs, project notes, old conversations — and figure the model will sort it out. It won't. The research says your middle context is a dead zone In 2023, researchers from Stanford, UC Berkeley, and Samaya AI published "Lost in the Middle: How Language Models Use Long Contexts." They tested models on tasks where the relevant information was placed at different positions in the input. The results were cons</description>
-      <guid isPermaLink="false">https://dev.to/anajuliabit/the-lost-in-the-middle-problem-and-why-retrieval-beats-stuffing-1h37</guid>
-      <pubDate>Sun, 01 Mar 2026 06:27:55 +0000</pubDate>
+      <title>built a free DevOps error search engine — here's why</title>
+      <link>https://dev.to/taruni_siddana_3c4c4f803e/built-a-free-devops-error-search-engine-heres-why-hm1</link>
+      <description>It's 2 AM. A pod is crashing. You have no idea why. You open Stack Overflow. The top answer is from 2019 and the commands don't work anymore. You ask ChatGPT. It gives you a confident answer with a flag that doesn't exist. You open 10 more tabs. Nothing is specific to your exact error message. This happened to me too many times. I'm a DevOps Engineer with 4 years of experience managing production infrastructure on Kubernetes (EKS) and Ericsson private cloud. After hitting the same walls over and</description>
+      <guid isPermaLink="false">https://dev.to/taruni_siddana_3c4c4f803e/built-a-free-devops-error-search-engine-heres-why-hm1</guid>
+      <pubDate>Mon, 02 Mar 2026 06:37:16 +0000</pubDate>
     </item>
     <item>
-      <title>When Power Centralizes in the Frontend Ecosystem — Should We Be Alarmed?</title>
-      <link>https://dev.to/ezhil_sivarajsr/when-power-centralizes-in-the-frontend-ecosystem-should-we-be-alarmed-36l4</link>
-      <description>A research-aware analysis of Vercel's growing influence, React's direction, and the ecosystem fighting back. Over the last few years, the frontend world has experienced an unprecedented consolidation of influence. One company sits at the center of: The most downloaded React framework The primary production implementation of React Server Components Strategic investment, sponsorship, and acquisition of competing frameworks A deployment platform tightly integrated with those tools That company is V</description>
-      <guid isPermaLink="false">https://dev.to/ezhil_sivarajsr/when-power-centralizes-in-the-frontend-ecosystem-should-we-be-alarmed-36l4</guid>
-      <pubDate>Sun, 01 Mar 2026 06:31:58 +0000</pubDate>
+      <title>Designing AI Policy Engines &amp;amp; Constraint Systems in Production GenAI Platforms</title>
+      <link>https://dev.to/shreekansha97/designing-ai-policy-engines-constraint-systems-in-production-genai-platforms-4iol</link>
+      <description>Defining the AI Policy Engine An AI Policy Engine is a centralized governance layer that intercepts requests and responses to enforce organizational, safety, and operational constraints. In a production environment, an LLM is a non-deterministic engine; the policy layer acts as the deterministic supervisor. Unlike hardcoded logic, a policy engine evaluates a request against a set of dynamic rules—often defined in JSON or YAML—to decide if an execution should proceed, be modified, or be redirecte</description>
+      <guid isPermaLink="false">https://dev.to/shreekansha97/designing-ai-policy-engines-constraint-systems-in-production-genai-platforms-4iol</guid>
+      <pubDate>Mon, 02 Mar 2026 06:40:57 +0000</pubDate>
     </item>
     <item>
-      <title>I Built a Terminal-Based WiFi &amp;amp; LAN Security Scanner in Go (NOVA)</title>
-      <link>https://dev.to/zayanmohamed/i-built-a-terminal-based-wifi-lan-security-scanner-in-go-nova-918</link>
-      <description>The Terminal Needs More Security Tools 🛡️ If you spend most of your day in the terminal (shoutout to my fellow Neovim and Zsh users), switching to a heavy GUI just to check your network's security posture feels like a context switch you shouldn't have to make. When you want to know what devices are lurking on your local subnet, or if your nearby WiFi networks are leaking data via outdated encryption, the standard approach usually involves running raw nmap commands and parsing through walls of te</description>
-      <guid isPermaLink="false">https://dev.to/zayanmohamed/i-built-a-terminal-based-wifi-lan-security-scanner-in-go-nova-918</guid>
-      <pubDate>Sun, 01 Mar 2026 06:34:47 +0000</pubDate>
+      <title>Pawz Engram biologically-inspired memory architecture for persistent AI agents</title>
+      <link>https://dev.to/gotham64/pawz-engram-biologically-inspired-memory-architecture-for-persistent-ai-agents-8fn</link>
+      <description>What is Engram? Most “agent memory” today is basically: Project Engram is our attempt to treat memory like a cognitive system instead of a dumping ground. It’s a three-tier architecture inspired by how humans handle information: Sensory Buffer (Tier 0): short-lived, raw input for a single turn Working Memory (Tier 1): what the agent is “currently aware of” under a strict token budget Long-Term Memory Graph (Tier 2): persistent episodic + semantic + procedural memory with typed edges Engram is im</description>
+      <guid isPermaLink="false">https://dev.to/gotham64/pawz-engram-biologically-inspired-memory-architecture-for-persistent-ai-agents-8fn</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkpjb4vk4jl4ksgf8c97a.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Mar 2026 06:43:33 +0000</pubDate>
     </item>
     <item>
-      <title>🍽️ S7 Restaurant: Crafting a Luxury Experience with React 19, GSAP &amp;amp; PDF Generation</title>
-      <link>https://dev.to/pawar-shivam7/s7-restaurant-crafting-a-luxury-experience-with-react-19-gsap-pdf-generation-jho</link>
-      <description>🌟 The Vision Luxury dining is not just about food; it's about the experience. I wanted to bring that same "Quiet Luxury" to the web. No clutter, just smooth animations and high-end functionality. 🛠️ Tech Stack &amp;amp; Why I Chose Them React 19 &amp;amp; Vite: For lightning-fast performance and the latest frontend features. GSAP &amp;amp; Framer Motion: To create cinematic transitions that CSS alone can't handle. Material UI (MUI): For a polished, accessible, and responsive component library. Yup &amp;amp; React Hook Form: Be</description>
-      <guid isPermaLink="false">https://dev.to/pawar-shivam7/s7-restaurant-crafting-a-luxury-experience-with-react-19-gsap-pdf-generation-jho</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm9yya5n8wflg2xk4tydw.png" length="0" type="image/png"/>
-      <pubDate>Sun, 01 Mar 2026 06:35:44 +0000</pubDate>
+      <title>How AI-Native Architecture Enables Autonomous Software Systems</title>
+      <link>https://dev.to/gofortool/how-ai-native-architecture-enables-autonomous-software-systems-31lo</link>
+      <description>Software systems are evolving from passive tools into active, autonomous participants in business and technology operations. This transformation is made possible by a new architectural paradigm known as AI-native architecture. Traditional software architecture was designed for deterministic execution. Applications received inputs, processed logic defined by developers, and returned outputs. This model worked effectively when workflows were predictable and environments were stable. However, moder</description>
+      <guid isPermaLink="false">https://dev.to/gofortool/how-ai-native-architecture-enables-autonomous-software-systems-31lo</guid>
+      <pubDate>Mon, 02 Mar 2026 06:45:53 +0000</pubDate>
     </item>
     <item>
-      <title>A Practical Guide to Time for Developers: Part 1 — What time is in software (physics + agreements)</title>
-      <link>https://dev.to/dmytro_huz/a-practical-guide-to-time-for-developers-part-1-what-time-is-in-software-physics-agreements-5f96</link>
-      <description>Preface to the series I was tasked with synchronizing time across N computers with ~1 nanosecond accuracy. Not “a laptop over Wi-Fi” — a controlled wired setup where hardware timestamping and disciplined clocks make that goal at least a meaningful engineering target. At first it sounded trivial. We learn clocks, dates, and time zones as kids. How hard can it be? The industry already has a standard solution: Precision Time Protocol (PTP). But I wanted to look inside the protocol and understand wh</description>
-      <guid isPermaLink="false">https://dev.to/dmytro_huz/a-practical-guide-to-time-for-developers-part-1-what-time-is-in-software-physics-agreements-5f96</guid>
-      <pubDate>Sun, 01 Mar 2026 06:36:23 +0000</pubDate>
+      <title>Developer-focused prompting tricks to use Cursor</title>
+      <link>https://dev.to/tak089/developer-focused-prompting-tricks-to-use-cursor-5ei</link>
+      <description>developer-focused prompting tricks to use Cursor (especially Composer / Agent / Chat) more effectively while burning fewer credits/tokens in 2026. The goal is to get better results in fewer turns, with smaller context, and by preferring cheaper models when possible. Core Mindset Shifts for Saving Money One good prompt &amp;gt; many mediocre ones — Invest time crafting a strong first prompt (even outside Cursor in plain ChatGPT/Claude.ai first). Context is expensive — Every file/reference sent repeatedl</description>
+      <guid isPermaLink="false">https://dev.to/tak089/developer-focused-prompting-tricks-to-use-cursor-5ei</guid>
+      <pubDate>Mon, 02 Mar 2026 06:48:31 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code Keeps Forgetting Your Project? Here's a Fix</title>
-      <link>https://dev.to/277479420qqcom_5c9aa4d3/claude-code-keeps-forgetting-your-project-heres-a-fix-2c4j</link>
-      <description>You close your Claude Code session at 6 PM. You open it back up the next morning. And the first thing you type is a three-paragraph explanation of what you were doing yesterday. Sound familiar? The Problem Nobody Talks About Claude Code is one of the most capable AI coding assistants available. It can write whole modules, refactor complex systems, and reason through architecture decisions. But it has a blind spot that costs developers real time every single day: it forgets everything between ses</description>
-      <guid isPermaLink="false">https://dev.to/277479420qqcom_5c9aa4d3/claude-code-keeps-forgetting-your-project-heres-a-fix-2c4j</guid>
-      <pubDate>Sun, 01 Mar 2026 06:37:20 +0000</pubDate>
+      <title>Hello World! | Software Engineer</title>
+      <link>https://dev.to/lumbol77/hello-world-software-engineer-9cg</link>
+      <description>Hi everyone! 👋 I’m LUMBOL (Lawrence), a Computer Science graduate from the University of Jos, Nigeria. I’m moving from academic theory to industry practice and excited to join this community. My Focus: I am a Software Engineer specializing in building clean, scalable systems. I am particularly interested in how Machine Learning and Cybersecurity can make our software smarter and more resilient. Why I’m here: To connect with mentors and fellow engineers. 2.To share my journey in the Nigerian tech</description>
+      <guid isPermaLink="false">https://dev.to/lumbol77/hello-world-software-engineer-9cg</guid>
+      <pubDate>Mon, 02 Mar 2026 06:50:15 +0000</pubDate>
     </item>
     <item>
-      <title>Where Deep Research Fits: Choosing the AI Tool That Actually Does the Work</title>
-      <link>https://dev.to/azimkhan72/where-deep-research-fits-choosing-the-ai-tool-that-actually-does-the-work-5b2e</link>
-      <description>For anyone who has dug through papers, PDFs, and scattered docs to answer a single hard question, the promise of "AI that helps with research" now reads less like marketing and more like mission-critical infrastructure. The real shift isn't that machines can summarize text - it's that they can orchestrate a research workflow: plan what to read, extract structured facts, reconcile contradictions, and hand you an actionable narrative. This piece separates signal from noise, explains why the capabi</description>
-      <guid isPermaLink="false">https://dev.to/azimkhan72/where-deep-research-fits-choosing-the-ai-tool-that-actually-does-the-work-5b2e</guid>
-      <pubDate>Sun, 01 Mar 2026 06:37:40 +0000</pubDate>
+      <title>PhotoSo — Sort Your Photos Fast, Privately, In Browser, Without Leaving Any Window</title>
+      <link>https://dev.to/salswa/photoso-sort-your-photos-fast-privately-in-browser-without-leaving-any-window-gaf</link>
+      <description>This is a submission for the DEV Weekend Challenge: Community The Community I watched my sister sort her wedding photos the hard way. Open photo in the photo viewer. Like it? Drag it to a folder in another window. Don't like it? Open next. Drag again. Repeat 800 times. The constant window-switching, the hovering over folders, the accidental drops — it was exhausting just to watch. This is how most people do it. Not just wedding photographers — event shooters, travel photographers, content creato</description>
+      <guid isPermaLink="false">https://dev.to/salswa/photoso-sort-your-photos-fast-privately-in-browser-without-leaving-any-window-gaf</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftvkvuhrer26wwqtql956.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Mar 2026 06:52:28 +0000</pubDate>
     </item>
     <item>
-      <title>The Scaffold: Playwright Project Structure Built for AI</title>
-      <link>https://dev.to/idavidov13/the-scaffold-playwright-project-structure-built-for-ai-3a62</link>
-      <description>Have you ever started a new Playwright project and spent the first two days just figuring out where things go? Where do selectors live? How do page objects get into tests? Where does test data belong? Most teams answer these questions ad hoc, and end up with a different answer every time. After a few months the codebase looks like that - a mix of conventions, inconsistencies, and copy-pasted patterns that no one quite owns. A scaffold solves this before it starts. But the one we're exploring her</description>
-      <guid isPermaLink="false">https://dev.to/idavidov13/the-scaffold-playwright-project-structure-built-for-ai-3a62</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fd3ql8qtag8hl7uz264am.png" length="0" type="image/png"/>
-      <pubDate>Sun, 01 Mar 2026 06:38:01 +0000</pubDate>
+      <title>🛒Shopping list to make shopping faster - AnQuickMerca</title>
+      <link>https://dev.to/nicols_alarcnrapela_5b/lista-de-la-compra-para-hacer-mas-rapido-las-compras-anquickmerca-4ea9</link>
+      <description>The Community I don't know if my community exists, but if it doesn't, it wouldn't be bad to create one; it's simply about going shopping. What I Built What I created (or what I tried to create 😅) is a shopping list app, but with a key difference compared to other apps: it optimizes your route within the supermarket. The idea is to shop more quickly and efficiently, avoiding that feeling of wandering around thirty times to pick up three things… or worse, arriving at a new supermarket and getting</description>
+      <guid isPermaLink="false">https://dev.to/nicols_alarcnrapela_5b/lista-de-la-compra-para-hacer-mas-rapido-las-compras-anquickmerca-4ea9</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fassets.dev.to%2Fassets%2Fgithub-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 06:53:57 +0000</pubDate>
     </item>
     <item>
-      <title>How Text-First Toolchains Break Down - An Architects Under-the-Hood Deconstruction</title>
-      <link>https://dev.to/kailash_ac43c0ef1daf14abd/how-text-first-toolchains-break-down-an-architects-under-the-hood-deconstruction-48fl</link>
-      <description>As a principal systems engineer responsible for integrating writing and content pipelines into production, I start from a single, uncomfortable observation: content-generation stacks are treated like black boxes until they fail in the open. The common advice-“use a best-in-class generator, then add monitoring”-misses the real failure modes. This piece peels back the layers of content tooling, shows the internals that matter, and explains the trade-offs youll accept when you stitch together compo</description>
-      <guid isPermaLink="false">https://dev.to/kailash_ac43c0ef1daf14abd/how-text-first-toolchains-break-down-an-architects-under-the-hood-deconstruction-48fl</guid>
-      <pubDate>Sun, 01 Mar 2026 06:38:44 +0000</pubDate>
+      <title>Your Resume Is Generic. Here Is How to Tailor It for Every Job Without Starting Over</title>
+      <link>https://dev.to/sira_ai/your-resume-is-generic-here-is-how-to-tailor-it-for-every-job-without-starting-over-2i99</link>
+      <description>Sending the same resume to 50 companies is one of the fastest ways to get ignored. Recruiters and hiring managers read dozens of resumes per role. A generic resume signals one thing: this person did not read our job description. Tailoring your resume for each application works. The challenge is doing it without spending an hour on every single submission. Here is a repeatable system that makes tailoring fast and effective. Start With a Master Resume Before you tailor anything, build a master res</description>
+      <guid isPermaLink="false">https://dev.to/sira_ai/your-resume-is-generic-here-is-how-to-tailor-it-for-every-job-without-starting-over-2i99</guid>
+      <pubDate>Mon, 02 Mar 2026 07:01:02 +0000</pubDate>
     </item>
     <item>
-      <title>The PKM Setup I Settled On After Many Iterations</title>
-      <link>https://dev.to/gantengx/the-pkm-setup-i-settled-on-after-many-iterations-6pa</link>
-      <description>The system I use for note-taking today is a combination of PARA, Evergreen Notes and 4 Buckets System that I ended up merging after a lot of iterations. This post is part 1 of a 3-part series on my PKM setup using Obsidian, how I got there and how it's used daily. Fair warning: none of this is groundbreaking. It's just a mix-and-match of various frameworks that eventually clicked. If you've ever spent more time setting up your system rather than actually using it, this might resonate. TL;DR The</description>
-      <guid isPermaLink="false">https://dev.to/gantengx/the-pkm-setup-i-settled-on-after-many-iterations-6pa</guid>
-      <pubDate>Sun, 01 Mar 2026 06:43:39 +0000</pubDate>
+      <title>Fixing Alpine.js Load Order in devlog-ist/landing</title>
+      <link>https://dev.to/geanruca/fixing-alpinejs-load-order-in-devlog-istlanding-516p</link>
+      <description>The devlog-ist/landing project is a portfolio and blog. A recent issue arose where a Shepherd.js tour, designed to guide users through the portfolio, failed to execute due to the order in which Alpine.js components were loaded. The Problem: Alpine.js Initialization Order The portfolio-tour.js file was set up to register its Alpine component using the alpine:init event. However, app.js was already calling Alpine.start() before the tour module had a chance to load. This meant that the alpine:init</description>
+      <guid isPermaLink="false">https://dev.to/geanruca/fixing-alpinejs-load-order-in-devlog-istlanding-516p</guid>
+      <pubDate>Mon, 02 Mar 2026 07:01:03 +0000</pubDate>
     </item>
   </channel>
 </rss>

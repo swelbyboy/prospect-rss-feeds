@@ -8,86 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 06:58:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2026 07:10:28 +0000</lastBuildDate>
     <item>
-      <title>蔡司無反光鏡傳奇再續：ZEISS Otus ML 1.4/35 發表，定義 35mm 光學新天花板</title>
-      <link>https://www.techbang.com/posts/128079-zeiss-otus-1-4-35-new-35mm-optical-benchmark</link>
-      <description>ZEISS Otus ML 1.4/35 日前正式亮相。這款針對 Sony E、Canon RF 與 Nikon Z 接環量身打造的手動對焦鏡頭，預計將於 2026 年 4 月問世。ZEISS Otus ML 1.4/35 日前正式亮相。這款針對 Sony E、Canon RF 與 Nikon Z 接環量身打造的手動對焦鏡頭，預計將於 2026 年 4 月問世。 傳承光學之王血統 ZEISS Otus ML 系列的核心價值在於消除幾乎所有的光學像差，而本次發表的 1.4/35 則是繼同系列 50mm 與 85mm 之後，最受矚目的人文紀實拼圖。35mm 作為街拍、旅行及商業攝影中最具生命力的焦段，在 Otus 嚴苛的光學標準下，透過先進的非球面 Distagon 結構，實現了從畫面中心到邊角始終如一的驚人解像力。 純粹手動對焦工藝 不同於市場主流的自動對焦趨勢，Otus ML 1.4/35 堅持採用純手動對焦設計，這不僅是為了向經典致敬，更是為了滿足專業攝影師對於「絕對控制」的渴望。鏡身具備長行程的對焦環與絲滑般的轉動阻尼，讓每一次對焦微調都成為一種感官享受。此外，針對現代動態影像創作</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128079-zeiss-otus-1-4-35-new-35mm-optical-benchmark</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128079/thumb/9a5ad7c9b8859e20ed7f1d068658884e.jpg?1772070711" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 28 Feb 2026 06:00:00 +0000</pubDate>
+      <title>工程師讓AI幫他刪檔案，結果竟格式化硬碟，只因「一個符號」釀大禍</title>
+      <link>https://www.techbang.com/posts/128048-ai-formats-hard-drive-symbol-error</link>
+      <description>一個微小的符號錯誤，竟讓AI自動化腳本造成整顆硬碟格式化！這是一場讓人驚出一身冷汗的技術災難！近日國外論壇 Reddit 出現一則慘痛教訓，一名網友在清理電腦檔案時，原本想依賴 AI 幫忙省事，沒想到卻因為一個極其微小的符號錯誤，造成整顆硬碟被瞬間格式化。 這起事件再次引發大眾對於過度信任 AI 自動化腳本的疑慮，也讓我們見識到在系統底層操作時，AI 仍有其不可忽視的「智障」時刻。 只差一個符號，整顆硬碟灰飛煙滅 根據受災網友 u/Former-Airport-1099 的說法，他當時正使用 GPT 5.3 Codex 模型生成一段自動化腳本，目的只是為了批量刪除 Python 專案產生的「pycache」暫存資料夾 。但在腳本執行後，結果卻出乎意料：原本應該被清理掉的暫存檔案毫髮無傷，反而是他 F 槽中的所有重要資料被迅速清空 。 技術專家進行事後分析發現，這起「慘案」的根源在於 AI 混淆了 Windows 系統中不同直譯器的規則 ： 跳脫字元的混淆：AI 生成的腳本試圖透過 PowerShell 呼叫 CMD 指令「rmdir」。在處理檔案路徑時，AI 習慣性地使用了反斜線（\）</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128048-ai-formats-hard-drive-symbol-error</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128048/thumb/d2df7d50b319dd92a099868bf96beeea.jpg?1771919997" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 01 Mar 2026 08:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI聽說台語嘛ㄟ通，聯發科 MR Breeze 3 能防詐騙還要開源</title>
-      <link>https://www.techbang.com/posts/128092-mediatek-mr-breeze-3-ai-taiwanese-fraud</link>
-      <description>聯發創新基地發表MR Breeze 3系列，讓AI不只聽懂人話，更要聽懂道地台語。這項在地化AI技術，能精準辨識台語並自然合成語音，為台灣AI應用開啟新篇章。聯發創新基地正式發表全新 MediaTek Research Breeze 3（簡稱 MR Breeze 3）系列，包含能辨識台語的 Breeze ASR 26、能開口說台語的 BreezyVoice 26，以及專為台灣社會情境打造的安全防護模型 Breeze Guard 26。這標誌著在地化 AI 邁入新里程碑，不僅更懂台灣文化，還能守護數位環境安全。 聽攏有！Breeze ASR 26 克服台語辨識難關 台語擁有豐富的聲調與多樣的書寫系統，對傳統 AI 來說一直是個大挑戰，國際主流模型常在遇到台語時顯得心有餘而力不足。Breeze ASR 26 為了解決這個問題，以 OpenAI Whisper 為基礎，採用約 10,000 小時的台語合成語音資料進行訓練。 這次訓練的亮點在於，資料並非生硬的朗讀稿，而是模擬日常生活的對話情境，涵蓋語速變化、在地口語用詞，甚至是台灣人最擅長的「國台語夾雜」。現在只要在 Breeze AI 的</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128092-mediatek-mr-breeze-3-ai-taiwanese-fraud</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128092/thumb/747f47f433f4e6f705a60cf4cb571a40.jpg?1772186262" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 28 Feb 2026 06:30:00 +0000</pubDate>
+      <title>Google Translate 導入更多 Gemini AI 功能，強化學習與語境理解能力</title>
+      <link>https://www.techbang.com/posts/128096-google-translate-gemini-ai-features</link>
+      <description>Google 翻譯迎來重大升級！全新的 Gemini 人工智慧功能，讓 Google 翻譯能更精準理解成語、口語與語境。這項 Gemini 人工智慧功能將助您實現更自然的跨語言溝通。Google 近日宣布，為 Android 和 iOS 平台上的 Google Translate App 引入一系列基於 Gemini 的全新人工智慧功能，進一步強化對成語、口語表達以及語境的理解，讓使用者在不同場合下能更自然、更貼切地使用外語交流。 在 AI Overviews 等即答式功能出現之前，Google Translate 一直是使用者處理外語內容的主要工具，而在去年加入即時翻譯功能後，如今再度迎來人工智慧的重要升級。 深入探索 AI 智慧型手機模式。 Google 表示，這次新增的 Gemini 功能旨在幫助使用者在不同語氣和情境中拿捏分寸，從輕鬆閒聊到正式會議，都能更準確地匹配合適的表達方式。新功能尤其針對傳統詞典中難以覆蓋的成語與口語化表達，例如當使用者嘗試將英文短句 It is raining cats and dogs 翻譯成其他語言時，系統不再逐字直譯，而是優先尋找目標語言中含義相</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128096-google-translate-gemini-ai-features</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128096/thumb/f2ef0d2e39bc9f39200466bc9661f4ae.jpg?1772360428" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 00:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>L2、L3、NOA是啥碗糕？自動駕駛分級、輔助駕駛名詞一次講清楚！</title>
-      <link>https://www.techbang.com/posts/127276-understanding-autonomous-driving-l2-l3-noa-aeb-acc</link>
-      <description>深入解析智慧駕駛與輔助駕駛技術，從L0到L5分級、AEB、ACC、NOA等名詞，讓您快速了解汽車科技發展趨勢與應用。隨著整個汽車產業不斷朝智慧化方向發展，「智慧駕駛」與「輔助駕駛」就成了大家避不開的話題。隨之而來的，是一堆像L2、L3、NOA、AEB、ACC、LKA這樣聽起來很厲害，實際上卻讓人霧煞煞的縮寫。這篇文章將用淺顯易懂的方式，幫大家釐清它們到底是什麼意思，讓你在面對這些術語時不再感到茫然。 自動駕駛分級：L0到L5詳解 首先是最常見的一組——L0到L5，這是國際汽車工程師學會（SAE）定義的自動駕駛分級系統，從0到5，總共有六個等級，數字越大，代表車輛負責的駕駛任務越多。 L0：無自動駕駛 L0其實就是「沒有自動駕駛」，所有操作仍由駕駛人來完成。即使車輛配備了倒車顯影、倒車雷達、ESP等常見安全功能，也仍然屬於L0範疇，因為這些功能並不會取代你的駕駛行為。 L1：駕駛輔助 L1可以理解為「有一些駕駛輔助」，例如自動跟車巡航或車道維持系統，但它們往往只針對某一個面向發揮作用，比如只負責油門煞車，或者只負責方向盤微調，並不能穩定地同時完成兩者。 L2：部分自動駕駛 L2則是目前最</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127276-understanding-autonomous-driving-l2-l3-noa-aeb-acc</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/127276/thumb/8f8ed800ce0e8be8058c945975ba4159.jpg?1767345753" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 28 Feb 2026 07:30:00 +0000</pubDate>
+      <title>NVIDIA財務長親口證實：目前沒有新卡計畫，顯卡缺貨狀況至少持續到4月</title>
+      <link>https://www.techbang.com/posts/128097-nvidia-cfo-no-new-cards-shortage-april</link>
+      <description>NVIDIA預計顯卡供應將持續緊張至2027年。龐大的AI需求正嚴重擠壓遊戲顯卡產能，導致高階顯卡價格飆升。AI業務利潤豐厚，玩家想買到顯卡恐遙遙無期。NVIDIA財務長柯萊特·克雷斯在2026財年第四季財報會議上的一番話，徹底澆熄了玩家對顯卡市場盡快恢復正常的希望。她明確表示，公司預計消費級顯卡的供應在2027財年第一季，也就是2026年2月至4月期間，以及之後仍會繼續保持非常緊張的狀態。 在面向投資人的電話會議中，克雷斯坦言，儘管公司希望增加供應，但未來幾個季度的供應都會非常吃緊。真正的改善可能要等到2026年底，但現在談論這些還為時過早。 這番表態解釋了為什麼RTX 5080、RTX 5070 Ti等高階型號的零售價，已經比官方建議售價高出200美元至500美元（約新台幣6,545元至16,362元），而且許多型號一上架就被搶購一空。 AI吃掉遊戲顯卡 NVIDIA並未官方說明無法增加遊戲顯卡供應的原因，但答案其實就寫在財報裡。上一季度，NVIDIA總營收達681億美元，其中資料中心業務就貢獻了623億美元。整個2026財年，遊戲業務收入僅為160億美元，而資料中心業務收入高達1</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128097-nvidia-cfo-no-new-cards-shortage-april</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128097/thumb/cc9f5905e4cc8743dbe719a9b413220f.jpg?1772360680" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 01:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>為訂閱制做準備？LINE 宣布 4 月 27 日起結束支援「記事本內影片上傳」功能</title>
-      <link>https://www.techbang.com/posts/128088-line-ends-notes-video-upload</link>
-      <description>LINE 近日宣布，台灣時間 2026 年 4 月 27 日起，將停止支援「上傳新的影片至記事本」功能。LINE 近日宣布，台灣時間 2026 年 4 月 27 日起，將停止支援「上傳新的影片至記事本」功能。消息一出，引發不少用戶討論。由於記事本原本被視為聊天室中少數可長期保存影片的方式，此項調整也讓外界揣測，是否與即將推出的「LINE Premium」訂閱服務布局有關。 延伸閱讀：LINE 訂閱服務來了！花錢買「照片影片安全感」：進階備份與相簿升級 停止支援「上傳影片至記事本」 根據 LINE 官方說明，為確保服務穩定性並提供更佳使用體驗，系統將終止記事本內上傳影片及編輯既有影片的功能。事實上，日本與泰國等地區已率先實施此項變更，台灣則預計自 2026 年 4 月 27 日起跟進。不過，LINE 社群中的記事本功能仍可繼續上傳影片，並不在此次調整範圍內。 過去在 LINE 聊天室中，無論是上傳檔案、照片或影片，皆會在一定時間後失效，使用者無法再開啟內容；而 LINE 相簿也未開放影片上傳功能。因此，一旦記事本停止支援影片上傳，聊天室內將不再有可長期保存影片的管道，這也是此次調整引發討</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128088-line-ends-notes-video-upload</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128088/thumb/a64bc5a7f87d124450bb9c810fc00665.jpg?1772093522" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 28 Feb 2026 08:00:00 +0000</pubDate>
+      <title>沉睡海底 24 年，全球首條跨大西洋光纖海纜 TAT-8 啟動拆除回收工程</title>
+      <link>https://www.techbang.com/posts/128095-tat-8-transatlantic-cable-decommissioning</link>
+      <description>全球首條跨大西洋光纖海底電纜 TAT-8 正進行打撈回收。根據最新消息，海底環境服務公司目前正在葡萄牙附近海域的海床，進行全球首條跨大西洋光纖海底電纜 TAT-8 的拆除與打撈回收作業 。這條寫下電信史重要篇章的海纜，是由美國 AT&amp;amp;T、英國電信與法國電信聯合建造，並於 1988 年 12 月 14 日正式投入使用 。然而，該系統在 2002 年發生故障後，因維修成本過高而被迫停止營運，從那時起便在海底靜置了長達 24 年之久 。 TAT-8 的全稱為 Trans-Atlantic Telephone 8（跨大西洋電話 8 號），它是第八條橫跨大西洋的海底通訊電纜系統，更是史上第一條採用光纖而非傳統銅纜傳輸訊號的跨洋電纜 。 這條海纜在啟用之初便極具象徵意義。當時科幻大師艾薩克·阿西莫夫透過視訊連線從紐約向巴黎、倫敦的觀眾致詞，讚譽這是「一束光橫跨大洋的處女航」 。令人驚訝的是，TAT-8 上線僅 18 個月便達到容量上限，這也為後續所有大型海底光纜奠定了可行的商業與技術模式 。到了 2001 年，TAT 系列已演進至第 14 號 。 此次打撈回收任務是由 2025 年 1 月才出廠的</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128095-tat-8-transatlantic-cable-decommissioning</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128095/thumb/4798f2f09005584e172017359b5b2a5e.jpg?1772360253" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 02:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>英國硬碟價格太盤，狂人網友直接飛美國掃貨爽賺六萬價差還順便度假</title>
-      <link>https://www.techbang.com/posts/128057-uk-hard-drive-prices-us-trip-60k-profit</link>
-      <description>英國網友為省下大容量硬碟的價差，竟親自飛往美國進行跨國採購。這趟為硬碟而生的跨國採購之旅，不僅省下可觀費用，更展現了科技玩家對儲存需求的驚人行動力。為了一顆硬碟，你願意飛多遠？近期在國外論壇 Reddit 的資料囤積狂社群 r/DataHoarder 中，出現了一篇引發熱烈討論的貼文。一名英國網友因為受不了當地大容量硬碟的高昂售價，決定直接買機票飛往美國採購 。 英國定價太高 逼出跨國採購神操作 這名帳號為 cgtechuk 的網友表示，他長期關注 28TB 大容量硬碟的價格，但英國的售價始終居高不下 。以希捷 Seagate IronWolf Pro 28TB 硬碟為例，在美國亞馬遜網站上的售價為 609.99 美金，約新台幣一萬九千五百元 。遇到折扣季甚至會更便宜。然而，同款硬碟在英國亞馬遜的標價卻高達 980.46 美金，約新台幣三萬一千三百七十元 。 光是一顆硬碟的價差就超過 370 美金 。當購買數量拉高到十顆時，總共可以省下至少 3700 美金的費用 。面對如此龐大的價差，這名網友決定化被動為主動，親自飛往美國把硬碟扛回家 。 規避限購令與防詐騙 購買過程步步為營 由於美國</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128057-uk-hard-drive-prices-us-trip-60k-profit</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128057/thumb/364ca00e910b636c7dcfb30c44f5088c.jpg?1771922883" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 28 Feb 2026 08:30:00 +0000</pubDate>
+      <title>黃仁勳談太空資料中心：沒空氣流動是難題，唯一辦法是建造巨大的散熱板</title>
+      <link>https://www.techbang.com/posts/128098-huang-space-datacenter-cooling</link>
+      <description>「太空資料中心」能否解決AI龐大電力需求？黃仁勳與馬斯克對此有不同見解。對於近期引發熱烈討論的太空資料中心話題，NVIDIA（輝達）執行長黃仁勳發表了自己的看法，他認為目前的經濟效益確實不佳，但未來有望改善 。黃仁勳於財報電話會議指出，在太空中，能源與散熱是兩回事 。雖然太空環境寒冷，卻沒有空氣流動，因此散熱的唯一途徑是透過傳導，換句話說，必須建造相當巨大的散熱板 。 黃仁勳提到，我們在地球上使用的散熱方法與太空大相徑庭 。不過，確實有許多運算問題非常適合在太空處理，因此 NVIDIA 已經擁有全球首顆進入太空的 GPU，旗下的 Hopper 架構 GPU 已經在太空執行了 。他表示，目前 GPU 在太空的最佳應用案例之一就是影像處理 。 在此之前，馬斯克（Elon Musk）曾公開表示，把資料中心送上太空的核心原因是電力的增量跟不上晶片的產出 。馬斯克認為，36 個月內太空會成為部署人工智慧最便宜的地方，太空資料中心將是解決 AI 龐大電力需求的終極答案 。 馬斯克說道，晶片產出幾乎呈指數級增長，但電力產出卻停滯不前，要如何讓這些晶片通電？難道要靠魔法電源或魔法電力精靈嗎 ？他預言，</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128098-huang-space-datacenter-cooling</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128098/thumb/7640b412f6d663deb3c9061cea12f4f0.jpg?1772360919" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 03:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LibreOffice 槓上 OnlyOffice！痛批對方是偽開源、聯手微軟欺壓用戶</title>
-      <link>https://www.techbang.com/posts/128046-libreoffice-onlyoffice-fake-open-source-microsoft</link>
-      <description>開源辦公軟體界掀起內戰！文件基金會痛批OnlyOffice是偽開源，聯手微軟推廣專有格式，恐讓使用者面臨供應商鎖定風險。這場開源與微軟的格式之爭，值得所有數位使用者關注。開源辦公軟體界掀起內戰。文件基金會（The Document Foundation）昨日發布文章，將攻擊火力從微軟轉向 OnlyOffice，直接點名該軟體是偽開源，並指責其聯手微軟欺壓使用者。 根據文件基金會的說法，OnlyOffice 雖然表面上掛著開源招牌，私下卻與微軟合作。他們指出 OnlyOffice 預設將檔案存成微軟專屬格式，而非開放文件格式（ODF），這項舉動實際上是在協助微軟執行供應商鎖定策略，讓使用者被迫依賴特定的商業軟體。 文件基金會認為，目前的檔案格式之爭根本就是當年瀏覽器大戰的翻版。回顧 IE6 時代，微軟曾試圖利用壟斷地位強行推廣專有的網頁標準，還好當時萬維網聯盟拒絕驗證微軟的提案，才保住 HTML 的開放性。 然而，文件基金會批評國際標準化組織在處理微軟 Office Open XML 格式時表現失職，盲目承認其為標準。這導致使用者在非微軟環境下開啟 DOCX、XLSX 或 PPTX 檔案</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128046-libreoffice-onlyoffice-fake-open-source-microsoft</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128046/thumb/b1860c88dfa05601a3d83b64cdd12789.jpg?1771919370" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Mar 2026 00:30:00 +0000</pubDate>
+      <title>無花菓世代攜手 AAMY、Fanko 發表 NFC 互動藝術家聯名吊飾娃娃  POCKET COMPANION 系列</title>
+      <link>https://www.techbang.com/posts/128114-fig-generation-aamy-fanko-nfc-pocket-companion-dolls</link>
+      <description>無花菓世代推出POCKET COMPANION，以NFC技術結合藝術創作，打造互動式藝術科技吊飾娃娃。透過NFC感應，讓藝術科技融入日常，體驗前所未有的藝術互動。專注於當代藝術創作與藝術家經紀的無花菓世代（Fig Generation Co.），宣布於 2026 年推出全新藝術科技系列品牌「POCKET COMPANION」。首波與日本藝術家 AAMY 及台灣藝術家 Fanko 合作，發表兩款結合 NFC（Near Field Communication，近場通訊技術）的互動式藝術家聯名吊飾娃娃，並將於 3 月 6 日起在日本神戶北野異人館「萊茵館」展覽現場及線上平台同步開賣。 近年吊飾娃娃成為配件市場的流行元素，無花菓世代選擇以此作為媒介，嘗試將藝術創作延伸至日常使用場景。此次推出的「AAMY：Mallow」與「Fanko：狗仔」兩款作品，內建 NFC 晶片，使用者可透過手機感應，讀取專屬繪畫語錄與藝術家設計的心語圖卡，並將內容收藏至娃娃內建的個人系統中。NFC 是一種短距離無線通訊技術，常見於行動支付或門禁感應，這次則被運用於藝術作品的互動設計。 ▲ 透過NFC機制掃娃娃，就會出現</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128114-fig-generation-aamy-fanko-nfc-pocket-companion-dolls</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128114/thumb/87c6a9df549cdd92f2d51745d521a3df.jpg?1772423062" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 04:32:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic 最新報告：軟體工程佔 AI 代理調用量近五成，垂直領域滲透率仍低</title>
-      <link>https://www.techbang.com/posts/128053-anthropic-ai-agents-software-eng-50-low-vertical-adoption</link>
-      <description>AI 代理已從概念轉向實際應用，Anthropic 報告揭示 AI 代理在實際應用中的自主程度與風險。AI 代理（AI Agent）已逐漸從概念轉向實際應用，幾乎所有 AI 廠商都推出了自家的 AI 代理產品 。然而，外界對於 AI 代理在現實世界中的實際運作方式仍不夠了解 。 Anthropic 於當地時間 2 月 18 日發布了首份 AI 代理行為實測報告，透過分析 Claude Code 及公開 API 上數百萬次的人機互動，系統性地揭示了 AI 代理在實際部署中的自主程度、風險分布與監督模式 。 經驗豐富的使用者更愛「全自動模式」 研究團隊發現，Claude Code 的自主工作時長顯著增加，單次連續自主執行的最長時長在三個月內幾乎翻倍 。 在 2025 年 10 月至 2026 年 1 月期間，其執行任務到停止的時間（turn duration）第 99.9 百分位的運行時間從不足 25 分鐘上升至超過 45 分鐘 。相比之下，中位數時長維持在約 45 秒，過去幾個月波動有限 。 數據顯示，使用者對 AI 的信任會隨使用次數增加： 新使用者（使用次數少於 50 次）僅在約 2</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128053-anthropic-ai-agents-software-eng-50-low-vertical-adoption</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128053/thumb/63792f66e6086bb1c9405a7e1527b92e.jpg?1771921861" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Mar 2026 01:30:00 +0000</pubDate>
+      <title>如何在iPhone上使用富士相機原廠濾鏡？</title>
+      <link>https://www.techbang.com/posts/127024-how-to-use-fujifilm-filters-on-iphone</link>
+      <description>近期富士Fujifilm正式釋出自家經典膠片風格的LUT檔案，即使不使用富士相機，也能將這些原廠膠片色彩套用到iPhone照片或影片中，輕鬆營造出富士底片機般的影像質感。近期富士Fujifilm正式釋出自家經典膠片風格的LUT檔案，並開放用戶免費下載使用！所謂LUT（Look-Up Table）是一種常見於影像後製與調色流程中的工具，可透過重新對應色彩資料，快速套用特定的影像風格，而這次富士提供的原廠LUT，正是以旗下多款經典底片模擬為基礎，包括Velvia、ASTIA、Classic Chrome、ETERNA等熟悉的色調，即使不使用富士相機，也能將這些原廠膠片色彩套用到iPhone照片或影片中，輕鬆營造出富士底片機般的影像質感。 步驟 1：在App Store搜尋並下載「極影相機」App，點選「取得」即可安裝。 步驟 2：首次開啟App時，需「允許」存取裝置儲存空間，下一步點擊右上角「設定」圖示。 步驟 3：下拉點選「教學與資源」。 步驟 4：在教學資源頁面中，找到「LUTs」選項，即可查看並下載可用的濾鏡資源。 步驟 5：接著找到富士提供的LUT濾鏡資源，並點選Google Dr</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127024-how-to-use-fujifilm-filters-on-iphone</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127024/thumb/62dd949af3bca922260775ccdf59bb48.png?1766048508" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 05:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI 掏金潮不能等！美國資料中心掀起「影子電網」建設狂熱</title>
-      <link>https://www.techbang.com/posts/128052-ai-gold-rush-us-data-centers-shadow-grid</link>
-      <description>「AI淘金熱」驅動資料中心需求，企業為避開電網接入瓶頸，紛紛自建以燃氣輪機為主的「影子電網」。資料中心建設因為其巨大的電力需求、對電網造成的壓力，以及可能推高周邊居民能源價格，近期頻繁登上新聞版面 。這類計畫通常需要數年時間進行電網接入的規劃與審批 。對於投身 AI 淘金熱的企業而言，這樣的時間週期完全不切實際，因此它們開始徹底繞開問題，自行建設發電設施，其中絕大多數以燃氣輪機為動力 。 根據能源追蹤公司 Cleanview 的報告顯示，全美範圍內至少有 47 個這類被稱為「影子電網」的資料中心正在建設中 。 解決方案背後的環境隱患 這種做法表面上看似是雙贏：既避免加重地方電網負擔，又加快了資料中心的建設進度 。然而，這種權宜之計隱藏著諸多隱患，包括碳排放與當地環境污染 。 驚人的電力消耗：位於德州西部的離網計畫 GW Ranch，據稱耗電量將與整個芝加哥市相當，依靠天然氣和太陽能光電板自給自足 。 龐大的天然氣需求：西維吉尼亞州梅森縣的項目，預計天然氣需求量足以供應 150 萬戶家庭，未來用量甚至可能覆蓋該州全部家庭 。 氣候目標受威脅：Cleanview 的邁克爾·托馬斯稱這一局面</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128052-ai-gold-rush-us-data-centers-shadow-grid</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128052/thumb/b8d190d67dd4af596d11452a8b244867.jpg?1771922080" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Mar 2026 02:30:00 +0000</pubDate>
+      <title>再強的AI也會越聊越笨，微軟最新研究揭露多輪對話成功率慘跌至 65%</title>
+      <link>https://www.techbang.com/posts/128035-microsoft-ai-dumbs-down-multi-turn-chat</link>
+      <description>微軟證實AI在多輪對話中存在對話迷失缺陷！研究揭露，頂尖大型語言模型在多輪對話中成功率驟降，這種對話迷失現象是系統性問題，值得關注。相信許多人在跟 AI 進行長篇大論的對話時，常常會覺得它們好像漸漸失去記憶，或是開始胡言亂語 。過去我們可能以為這只是錯覺，但沒想到現在連微軟都跳出來證實，這種感覺可是有科學根據的 。 科學證實的對話迷失缺陷 根據科技媒體 Windows Central 報導，微軟研究院與 Salesforce 最近聯合發表了一項重量級研究 。研究團隊針對目前市面上 15 款最頂尖的大型語言模型，包括 GPT-4.1、Gemini 2.5 Pro、Claude 3.7 Sonnet、o3、DeepSeek R1 以及 Llama 4，進行了超過 20 萬次的模擬對話分析 。結果揭露了一個被稱為對話迷失的系統性缺陷 。 數據顯示，這些模型在接收單次提示任務時，成功率高達 90% 。但是，當我們把同樣的任務拆解成多輪自然對話後，成功率竟然驟降到約 65% 。研究指出，這並不是因為 AI 的智力下降了，其核心能力其實只降低了約 15%，真正要命的是它們的不可靠性飆升了 112%</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128035-microsoft-ai-dumbs-down-multi-turn-chat</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128035/thumb/77028643a1c6d7b8d4d51a4d1887f644.jpg?1771828676" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GTA 6 售價飆破 3000 元？英國電商標價 90 英鎊引發全球玩家熱議</title>
-      <link>https://www.techbang.com/posts/128060-gta-6-90-gbp-uk-price-rumor</link>
-      <description>《GTA 俠盜獵車手 6》的定價傳聞不斷，英國零售商預訂頁面驚現高價，引發玩家對《GTA 俠盜獵車手 6》最終定價的熱烈討論與期待。備受全球玩家期待的超級大作《GTA 俠盜獵車手 6》（Grand Theft Auto VI）再次成為話題中心 。近日英國數位遊戲零售商 Loaded（原名 CD Keys）官網出現了該作 Xbox 版本的預訂頁面，標價竟高達 89.99 英鎊（約新台幣 3,740 元） 。 如果依照這個價格換算，美國市場的售價可能落在 89.99 至 99.99 美元（約新台幣 2,910 至 3,240 元）之間 。不過，資深玩家多半認為這只是零售商為了上架頁面先設定的「佔位符」，並非最終官方定價，建議大家先持保留態度 。 其實這不是《GTA 6》第一次傳出定價風聲 。知名爆料者 Tom Henderson 曾在播客節目中預測，這款遊戲的基礎版可能定價 80 美元，豪華版與收藏版甚至可能飆到 130 美元甚至 300 美元（約新台幣 9,710 元） 。 對於高昂定價的傳聞，許多前 Rockstar North 的開發人員並不認同 。曾參與過系列經典作品《GTA 3》</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128060-gta-6-90-gbp-uk-price-rumor</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128060/thumb/cbef594cb28aa8b0818328dc01359816.jpg?1771923565" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Mar 2026 03:00:00 +0000</pubDate>
+      <title>Nano Banana 2 上線：整合 Flash 高速架構與 Pro 等級效能，實測繁體中文沒問題</title>
+      <link>https://www.techbang.com/posts/128113-nano-banana-2-flash-pro-performance</link>
+      <description>Google 全新推出 Nano Banana 2 影像生成模型，大幅提升生成速度與品質；在技術規格方面，支援從 512 像素至 4K 的多種解析度與長寬比設定，以因應不同平台需求。Google 宣布推出新一代影像生成模型「Nano Banana 2」（Gemini 3.1 Flash Image）。Nano Banana 系列最初於去年 8 月推出，主打影像生成與編輯功能；11 月則發布 Nano Banana Pro，著重較高階的智慧與創作控制能力。此次推出的 Nano Banana 2，則整合部分 Pro 功能，同時維持 Flash 系列強調的快速回應特性，主打在生成速度、視覺品質與指令理解能力之間取得平衡。 強化世界知識與文字處理能力 Google 表示，Nano Banana 2 可結合 Gemini 的世界知識資料，並透過即時網路搜尋與圖像資訊輔助生成結果，使模型在呈現特定主題時更為準確。官方指出，這項能力有助於製作資訊圖表、將筆記轉換為圖解，以及生成資料視覺化內容。 此外，新模型強化了影像中的文字生成與翻譯功能，可在圖片中呈現較為清晰、可辨識的文字，並支援不同語言的本地化</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128113-nano-banana-2-flash-pro-performance</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128113/thumb/498581782af7dc8969790527963c7588.jpg?1772422792" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>iPhone 也能自動化！教你用「捷徑」設定，讓手機每天自動跳出天氣狀況</title>
-      <link>https://www.techbang.com/posts/126354-iphone-daily-weather-automation</link>
-      <description>透過 iPhone 內建的「捷徑」App，設定自動化流程，就能讓手機每天在固定時間直接跳出當天的最低溫、最高溫、降雨機率等資訊。iPhone 也能自動化！最近天氣變化劇烈、忽冷忽熱，常常前一天還出大太陽，隔天就變得濕冷，結果出門後才發現衣服穿錯、雨傘沒帶。雖然天氣 App 都內建在手機裡，但如果沒有習慣每天查看，就很容易憑想像判斷天氣，最後被打個措手不及。其實可以善用 iPhone 內建的「捷徑」App，設定自動化流程，讓手機每天在固定時間直接跳出當天的最低溫、最高溫、降雨機率等資訊。比起藏在 App 裡、必須自己點開查詢，一打開螢幕就能看到提醒，更能第一時間注意到天氣變化。如此一來，每天早上起床解鎖手機，就能立刻依照天氣資訊決定穿著、是否要帶雨具；甚至可以再加入空氣品質、紫外線提醒，打造屬於自己的早晨「天氣助理」。 步驟 1：進到「捷徑」App 中，點選下方的「自動化」切換到該分頁。 步驟 2：點擊中間「新增自動化操作」。 步驟 3：因為我們希望每天固定時間收到提醒，所以在觸發條件中選擇「特定時間」。 步驟 4：設定想要收到通知的時間，並將執行方式調整為「立即執行」。 步驟 5：接著</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/126354-iphone-daily-weather-automation</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/126354/thumb/2aa14df019c1f2b61cee500327317460.jpg?1762245867" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Mar 2026 04:30:00 +0000</pubDate>
+      <title>Windows 11將引入手機級權限管理功能，告別流氓軟體拒絕告別「買一送三」！</title>
+      <link>https://www.techbang.com/posts/127947-windows-11-mobile-permissions</link>
+      <description>微軟為 Windows 11 帶來重大更新，引入智慧型手機般的權限管理，終結流氓軟體亂象。未來 Windows 11 將嚴格控管應用程式權限，徹底杜絕流氓軟體綑綁安裝。相信不少 Windows 用戶都有過這種崩潰經驗：明明只是想安裝個小工具，結果「下一步」按太快，電腦首頁就被綁架、桌面多了奇怪的捷徑，甚至莫名其妙被安裝了一堆「全家桶」軟體。這下微軟終於要出手整治了！為了遏止這種亂象，微軟宣布將在 Windows 11 中引入類似智慧型手機的權限管理機制，未來應用程式想亂動你的電腦？得先問過你才行。 根據微軟最新發布的公告指出，這項重大更新將引入「使用者透明度與同意」（User Transparency and Consent）機制。簡單來說，未來的 Windows 11 操作體驗將會越來越像你的 iPhone 或 Android 手機。過去許多電腦軟體習慣「先斬後奏」，但在新機制下，當有應用程式試圖存取你的麥克風、鏡頭、位置資訊，甚至是嘗試安裝非必要的綑綁軟體時，系統會強制跳出詢問視窗 。 拒絕「買一送一」！權限控制權回歸玩家手中 這次更新最讓玩家有感的，莫過於對抗「流氓軟體」的防護能</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/127947-windows-11-mobile-permissions</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127947/thumb/ba39bff509dd9bcebf17707cfa8cdc55.jpg?1770794574" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 06:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
