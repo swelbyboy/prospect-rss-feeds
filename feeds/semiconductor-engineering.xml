@@ -8,23 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 07:22:14 +0000</lastBuildDate>
-    <item>
-      <title>Data Center Digital Twins: How Simulation Improves Design And Performance</title>
-      <link>https://semiengineering.com/data-center-digital-twins-how-simulation-improves-design-and-performance/</link>
-      <description>A synchronized virtual replica enables capacity planning, reduces stranded capacity, and supports specialized deployments. The post Data Center Digital Twins: How Simulation Improves Design And Performance appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/data-center-digital-twins-how-simulation-improves-design-and-performance/</guid>
-      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/02/Cadence_Data-Center-Digital-Twins-Simulation-fig1.webp?resize=693%2C384&amp;#038;ssl=1" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 26 Feb 2026 08:01:09 +0000</pubDate>
-    </item>
-    <item>
-      <title>Verifying Scale-Up And Scale-Out In Data Centers</title>
-      <link>https://semiengineering.com/verifying-scale-up-and-scale-out-in-data-centers/</link>
-      <description>Navigating a sea of standards and options in a rack and between racks. The post Verifying Scale-Up And Scale-Out In Data Centers appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/verifying-scale-up-and-scale-out-in-data-centers/</guid>
-      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/02/Screenshot-2026-02-25-at-6.32.11-PM.png?resize=1334%2C334&amp;#038;ssl=1" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 26 Feb 2026 08:01:19 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 02 Mar 2026 07:37:01 +0000</lastBuildDate>
     <item>
       <title>An Integrated Workflow For Circuit Design, Simulation, And Functional Safety Analysis</title>
       <link>https://semiengineering.com/an-integrated-workflow-for-circuit-design-simulation-and-functional-safety-analysis/</link>
@@ -85,6 +69,20 @@
       <guid isPermaLink="false">https://semiengineering.com/chip-industry-week-in-review-127/</guid>
       <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/02/l-en260224-2-1.jpg?resize=1600%2C900&amp;#038;ssl=1" length="0" type="image/jpeg"/>
       <pubDate>Fri, 27 Feb 2026 08:01:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>A GPU Microarchitecture Optimized for Fully Homomorphic Encryption</title>
+      <link>https://semiengineering.com/a-gpu-microarchitecture-optimized-for-fully-homomorphic-encryption/</link>
+      <description>Researchers from Boston University, Northeastern University, KAIST, and University of Murcia, et al. have released “FHECore: Rethinking GPU Microarchitecture for Fully Homomorphic Encryption”. Abstract“Fully Homomorphic Encryption (FHE) enables computation directly on encrypted data but incurs massive computational and memory overheads, often exceeding plaintext execution by several orders of magnitude. While custom ASIC accelerators can mitigate... » read more The post A GPU Microarchitecture O</description>
+      <guid isPermaLink="false">https://semiengineering.com/a-gpu-microarchitecture-optimized-for-fully-homomorphic-encryption/</guid>
+      <pubDate>Sun, 01 Mar 2026 08:01:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimal Heterogeneous Memory Configs for AI Tasks Under Specified Performance Metrics (Stanford, UCSC)</title>
+      <link>https://semiengineering.com/optimal-heterogeneous-memory-configs-for-ai-tasks-under-specified-performance-metrics-stanford-ucsc/</link>
+      <description>Researchers from Stanford University and University of California, Santa Cruz have released “Heterogeneous Memory Design Exploration for AI Accelerators with a Gain Cell Memory Compiler”. Abstract “As memory increasingly dominates system cost and energy, heterogeneous on-chip memory systems that combine technologies with complementary characteristics are becoming essential. Gain Cell RAM (GCRAM) offers higher density, lower... » read more The post Optimal Heterogeneous Memory Configs for AI Task</description>
+      <guid isPermaLink="false">https://semiengineering.com/optimal-heterogeneous-memory-configs-for-ai-tasks-under-specified-performance-metrics-stanford-ucsc/</guid>
+      <pubDate>Sun, 01 Mar 2026 10:00:15 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,49 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Mar 2026 06:52:30 +0000</lastBuildDate>
-    <item>
-      <title>SilverStone RM4A: 4U Rackmount Server/Workstation Chassis That's Great For Liquid Cooling</title>
-      <link>https://www.phoronix.com/review/silverstone-rm4a</link>
-      <description>For those looking to build a rackmount-ready server or workstation that can handle up to an SSI-EEB motherboard and capable of fitting a large liquid cooling setup, the RM4A is a new option from SilverStone that can fit up to a 360mm radiator while still fitting an SSI-EEB motherboard and up to eight expansion slots within 4U size constraints.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/silverstone-rm4a</guid>
-      <pubDate>Fri, 27 Feb 2026 15:43:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hyprland 0.54 Released As A "Massive" Update To This Wayland Compositor</title>
-      <link>https://www.phoronix.com/news/Hyprland-0.54-Released</link>
-      <description>Hyprland 0.54 was released today as what's described as a "a massive update with no understatement" to this Wayland compositor...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Hyprland-0.54-Released</guid>
-      <pubDate>Fri, 27 Feb 2026 18:57:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intel Releases Updated CPU Microcode For Xeon 6 SoCs "Granite Rapids D"</title>
-      <link>https://www.phoronix.com/news/Intel-Microcode-20260227</link>
-      <description>Catching me by surprise today was a new Intel CPU microcode drop "20260227" for Linux users/administrators outside of their typical Patch Tuesday alignment for CPU microcode releases...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Microcode-20260227</guid>
-      <pubDate>Fri, 27 Feb 2026 19:35:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNOME GitLab Redirecting Some Git Traffic To GitHub For Reducing Costs</title>
-      <link>https://www.phoronix.com/news/GNOME-GitHub-GitLab-Redirect</link>
-      <description>If you are cloning from a GNOME repository on their GitLab and now finding your Git traffic being redirected to GitHub, you are not alone. GNOME's infrastructure team is now redirecting Git traffic from the GNOME.org GitLab over to GitHub mirrors for reducing bandwidth costs...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-GitHub-GitLab-Redirect</guid>
-      <pubDate>Sat, 28 Feb 2026 00:03:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>KDE Plasma 6.7 Preps Rounded Style UI Enhancement For QtWidgets-Based Apps</title>
-      <link>https://www.phoronix.com/news/Plasma-6.7-Rounded-UI-QtWidgets</link>
-      <description>KDE Plasma 6.7 development continues heating up following the Plasma 6.6 desktop release earlier this month...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Plasma-6.7-Rounded-UI-QtWidgets</guid>
-      <pubDate>Sat, 28 Feb 2026 11:21:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>FreeBSD 14.4-RC1 Adds Emacs, Vim &amp;amp; More To DVD Images</title>
-      <link>https://www.phoronix.com/news/FreeBSD-14.4-RC1-Released</link>
-      <description>For those on the current FreeBSD 14 series with no immediate plans to move to FreeBSD 15 that debuted at the end of 2025, FreeBSD developers have been preparing for the release of FreeBSD 14.4. Released overnight was the first release candidate of FreeBSD 14.4...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-14.4-RC1-Released</guid>
-      <pubDate>Sat, 28 Feb 2026 11:33:08 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 02 Mar 2026 07:03:11 +0000</lastBuildDate>
     <item>
       <title>Servo Browser Engine Starts 2026 With Many Notable Improvements</title>
       <link>https://www.phoronix.com/news/Servo-January-2026</link>
@@ -78,6 +36,48 @@
       <description>AerynOS 2026.02 was released for closing out February as the newest alpha release for this Linux distribution formerly known as Serpent OS. In AerynOS 2026.02 are many package updates plus continued work on the tooling and other innovations around this Linux distribution...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/AerynOS-2026.02</guid>
       <pubDate>Sun, 01 Mar 2026 01:13:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intel's Clear Linux Website No Longer Online</title>
+      <link>https://www.phoronix.com/news/Clear-Linux-Org-No-More</link>
+      <description>Last July Intel sadly ended their Clear Linux distribution amid cost-cutting measures at the company. Clear Linux for a decade served at the forefront of Linux performance innovations and was consistently the fastest out-of-the-box Linux x86_64 distribution until Intel ended the Linux distribution without any advanced notice for its users. Intel had kept up the ClearLinux.org website online to download the final releases and access other technical content and forum discussions, etc. Sadly, that</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Clear-Linux-Org-No-More</guid>
+      <pubDate>Sun, 01 Mar 2026 11:00:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNU Hurd On Guix Is Ready With 64-bit Support, SMP Multi-Processor Support "Soon"</title>
+      <link>https://www.phoronix.com/news/GNU-Hurd-64-bit-2026</link>
+      <description>After hearing last month that GNU Hurd is "almost there" with x86_64 support, it was exciting to kickoff today by seeing a developer headline "The 64-bit Hurd is Here!" GNU Hurd 64-bit support is now said to be ready but SMP support for multiple processor cores and the like remain still in development...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-Hurd-64-bit-2026</guid>
+      <pubDate>Sun, 01 Mar 2026 11:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0 Development &amp;amp; Intel Panther Lake Proved Most Popular In February</title>
+      <link>https://www.phoronix.com/news/February-2026-Recap</link>
+      <description>During the last month on Phoronix there were 289 original open-source/Linux-related news articles and another 20 featured articles as in Linux hardware reviews and multi-page benchmark articles. There was a lot of interesting software and hardware happenings the past month but standing out the most was the Linux 7.0 merge window developments and the ramp of Intel Panther Lake Linux testing...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/February-2026-Recap</guid>
+      <pubDate>Sun, 01 Mar 2026 11:29:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>ASUS Linux HID Driver Preparing To See Support For Newer Devices</title>
+      <link>https://www.phoronix.com/news/ASUS-WMI-Linux-Driver-New-2026</link>
+      <description>There's been a recent lull in activity around the open-source Linux driver for ASUS devices with the HID interface used for supporting various features. But developer Denis Benato who has worked on the ASUS Armoury Linux driver and the like is working on advancing the ASUS HID driver for Linux systems...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ASUS-WMI-Linux-Driver-New-2026</guid>
+      <pubDate>Sun, 01 Mar 2026 11:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.1 Expected To See Nice Improvements For Reducing HRTICK Timer Overhead</title>
+      <link>https://www.phoronix.com/news/Linux-7.1-HRTICK-Timer</link>
+      <description>A big set of kernel patches look like they will be submitted for the Linux 7.1 kernel cycle this spring to optimize the scheduler HRTICK timer and in turn allowing it to be enabled by default...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.1-HRTICK-Timer</guid>
+      <pubDate>Sun, 01 Mar 2026 14:55:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0-rc2 Released: "So I'm Not Super-Happy With How Big This Is"</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-rc2-Released</link>
+      <description>The second weekly release candidate of Linux 7.0 is now available for testing...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-rc2-Released</guid>
+      <pubDate>Mon, 02 Mar 2026 00:15:32 +0000</pubDate>
     </item>
   </channel>
 </rss>
