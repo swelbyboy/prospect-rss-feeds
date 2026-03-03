@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 07:36:02 +0000</lastBuildDate>
-    <item>
-      <title>Practical Use Of AI Coding Tools For The Responsible Developer</title>
-      <link>https://smashingmagazine.com/2026/01/practical-use-ai-coding-tools-responsible-developer/</link>
-      <description>AI coding tools like agents can be valuable allies in everyday development work. They help handle time-consuming grunt work, guide you through large legacy codebases, and offer low-risk ways to implement features in previously unfamiliar programming languages. Here are practical, easy-to-apply techniques to help you use these tools to improve your workflow.</description>
-      <guid isPermaLink="false">https://smashingmagazine.com/2026/01/practical-use-ai-coding-tools-responsible-developer/</guid>
-      <enclosure url="http://files.smashing.media/articles/practical-use-ai-coding-tools-responsible-developer/practical-use-ai-coding-tools-responsible-developer.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 30 Jan 2026 13:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 03 Mar 2026 07:28:48 +0000</lastBuildDate>
     <item>
       <title>Short Month, Big Ideas (February 2026 Wallpapers Edition)</title>
       <link>https://smashingmagazine.com/2026/01/desktop-wallpaper-calendars-february-2026/</link>
@@ -88,6 +80,14 @@
       <guid isPermaLink="false">https://smashingmagazine.com/2026/02/desktop-wallpaper-calendars-march-2026/</guid>
       <enclosure url="http://archive.smashing.media/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/a44be9ea-24bd-4614-aa0d-c45b03012f43/mar-15-wake-up-preview-opt.png" length="0" type="image/png"/>
       <pubDate>Sat, 28 Feb 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Getting Started With The Popover API</title>
+      <link>https://smashingmagazine.com/2026/03/getting-started-popover-api/</link>
+      <description>What happens if you rebuild a single tooltip using the browser’s native model without the aid of a library? The Popover API turns tooltips from something you simulate into something the browser actually understands. Opening and closing, keyboard interaction, Escape handling, and much of the accessibility now come from the platform itself, not from ad-hoc JavaScript.</description>
+      <guid isPermaLink="false">https://smashingmagazine.com/2026/03/getting-started-popover-api/</guid>
+      <enclosure url="http://files.smashing.media/articles/getting-started-popover-api/getting-started-popover-api.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 10:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

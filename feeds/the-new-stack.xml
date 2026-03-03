@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 07:29:40 +0000</lastBuildDate>
-    <item>
-      <title>Why the secret to scaling AI isn’t a better model, it’s a simpler foundation</title>
-      <link>https://thenewstack.io/ai-unified-data-foundation/</link>
-      <description>A recent study from MIT’s NANDA initiative highlights a persistent challenge in enterprise AI adoption. Despite heavy investment and experimentation, The post Why the secret to scaling AI isn’t a better model, it’s a simpler foundation appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/ai-unified-data-foundation/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/b49eb5ab-barsrsind-wf9al-lagdy-unsplash-scaled-1024x819.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 26 Feb 2026 13:00:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Observability platform migration guide: Prometheus, OpenTelemetry, and Fluent Bit</title>
-      <link>https://thenewstack.io/observability-platform-migration-guide/</link>
-      <description>Observability platform migrations are rarely simple. You’re still balancing risk (don’t break on-call), scope (don’t try to move everything at The post Observability platform migration guide: Prometheus, OpenTelemetry, and Fluent Bit appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/observability-platform-migration-guide/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/0cda8978-salman-ahmad-cj4pbfyl14o-unsplash-scaled-1024x684.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 26 Feb 2026 15:28:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google’s Nano Banana 2 promises Flash speeds with Pro results</title>
-      <link>https://thenewstack.io/nano-banana-2/</link>
-      <description>Google on Thursday launched the latest version of its Nano Banana image generation model, which promises to improve upon last The post Google’s Nano Banana 2 promises Flash speeds with Pro results appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/nano-banana-2/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/68a98eaf-landscape-1024x572.png" length="0" type="image/png"/>
-      <pubDate>Thu, 26 Feb 2026 17:05:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>The agent pull request flood is here. If you run Istio, you’re halfway to solving it.</title>
-      <link>https://thenewstack.io/ai-agents-istio-validation/</link>
-      <description>Agentic workflows are rapidly accelerating the volume of pull requests, and validation is quickly becoming the most critical bottleneck. Teams The post The agent pull request flood is here. If you run Istio, you’re halfway to solving it. appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/ai-agents-istio-validation/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/02/2dd63065-dina-gazizova-i1s-tufhree-unsplash-scaled-1024x819.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 26 Feb 2026 18:00:02 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 03 Mar 2026 07:22:56 +0000</lastBuildDate>
     <item>
       <title>Netdata is a seriously impressive server monitoring tool</title>
       <link>https://thenewstack.io/netdata-is-a-seriously-impressive-server-monitoring-tool-to-keep-you-up-to-date-on-insights/</link>
@@ -88,6 +56,38 @@
       <guid isPermaLink="false">https://thenewstack.io/commonhaus-open-source-governance/</guid>
       <enclosure url="https://cdn.thenewstack.io/media/2026/02/43500ebb-getty-images-qzml6zk8vv0-unsplash-1024x576.jpg" length="0" type="image/jpeg"/>
       <pubDate>Sun, 01 Mar 2026 14:00:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare’s new Markdown support shows how the web is evolving for AI agents</title>
+      <link>https://thenewstack.io/intent-engineering-ai-agents/</link>
+      <description>I’ve always liked Markdown for both clarity and brevity, and now more LLM agents will appreciate it, too. In response The post Cloudflare’s new Markdown support shows how the web is evolving for AI agents appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/intent-engineering-ai-agents/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/085160fe-erone-stuff-w7chnxcby34-unsplash-1024x1024-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 12:30:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>RLC Pro is an enterprise Linux for the AI era</title>
+      <link>https://thenewstack.io/ciq-launches-rlc-pro-for-enterprise-linux-for-the-ai-era/</link>
+      <description>CIQ, the company building the popular Rocky Linux distribution, has launched RLC Pro, a new commercially supported enterprise Linux distribution The post RLC Pro is an enterprise Linux for the AI era appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/ciq-launches-rlc-pro-for-enterprise-linux-for-the-ai-era/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/9d0bfb3a-heyho-visual-ijqe3rliu80-unsplash-1024x768.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 21:00:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inception Labs says its diffusion LLM is 10x faster than Claude, ChatGPT, Gemini</title>
+      <link>https://thenewstack.io/inception-labs-mercury-2-diffusion/</link>
+      <description>Last week, Inception Labs launched Mercury 2, a large language model based on diffusion rather than the autoregressive approach used The post Inception Labs says its diffusion LLM is 10x faster than Claude, ChatGPT, Gemini appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/inception-labs-mercury-2-diffusion/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/f1077ac6-thumbnail-42-1024x576.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Mar 2026 21:30:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude’s free plan can now remember you</title>
+      <link>https://thenewstack.io/claudes-free-plan-can-now-remember-you/</link>
+      <description>There may be some things the folks at Anthropic sure want to forget sooner rather than later, but at least The post Claude’s free plan can now remember you appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/claudes-free-plan-can-now-remember-you/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/39e0e580-004-login-1024x665.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Mar 2026 21:37:01 +0000</pubDate>
     </item>
   </channel>
 </rss>

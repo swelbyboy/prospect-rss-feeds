@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 07:03:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 06:57:06 +0000</lastBuildDate>
     <item>
-      <title>Servo Browser Engine Starts 2026 With Many Notable Improvements</title>
-      <link>https://www.phoronix.com/news/Servo-January-2026</link>
-      <description>The Servo project has issued their January 2026 development report that highlights all the interesting changes they made to this open-source browser layout engine last month. With Servo 0.0.5 they have landed many improvements to this engine and also continuing to enhance its ability to embed Servo inside other applications...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Servo-January-2026</guid>
-      <pubDate>Sat, 28 Feb 2026 14:21:02 +0000</pubDate>
+      <title>Steam Survey Results Published For February 2026</title>
+      <link>https://www.phoronix.com/news/Steam-Survey-February-2026</link>
+      <description>Valve just published the latest Steam Survey monthly figures to provide insight on various software and hardware trends across this dominant gaming ecosystem. One of the most interesting measurements is the monthly changes in the size of the Linux gaming marketshare...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Steam-Survey-February-2026</guid>
+      <pubDate>Mon, 02 Mar 2026 08:41:54 +0000</pubDate>
     </item>
     <item>
-      <title>Verisilicon DC8200 &amp;amp; Coreboot Framebuffer Drivers Sent To DRM-Next For Linux 7.1</title>
-      <link>https://www.phoronix.com/news/Linux-7.1-DC8200-Coreboot-FB</link>
-      <description>The first DRM-Misc-Next pull request was submitted this week to DRM-Next as new kernel graphics/display driver features to begin queuing for the Linux 7.1 kernel that will release mid-year. Among the early code for DRM-Next are two new drivers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.1-DC8200-Coreboot-FB</guid>
-      <pubDate>Sat, 28 Feb 2026 15:04:42 +0000</pubDate>
+      <title>Intel Releases llm-scaler-vllm 0.14.0-b8, Talks Up 1.49x Performance With BMG-G31</title>
+      <link>https://www.phoronix.com/news/Intel-llm-scaler-vllm-0.14-b8</link>
+      <description>Intel kicked off the new month by releasing the latest version of LLM Scaler vLLM (llm-scaler-vllm) as their Docker-based solution for running vLLM on Intel Battlemage GPUs for AI inferencing...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-llm-scaler-vllm-0.14-b8</guid>
+      <pubDate>Mon, 02 Mar 2026 10:56:00 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Prepares Linux For Instruction-Based Sampling Improvements With Zen 6</title>
-      <link>https://www.phoronix.com/news/Linux-Perf-AMD-IBS-Zen-6</link>
-      <description>A set of patches recently posted to the Linux kernel mailing list have now been queued up to a tip/tip.git branch for planned introduction in Linux 7.1. These patches are for enhancing the Linux perf subsystem support for AMD Instruction-Based Sampling (IBS) improvements with next-gen Zen 6 processors...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Perf-AMD-IBS-Zen-6</guid>
-      <pubDate>Sat, 28 Feb 2026 16:58:45 +0000</pubDate>
+      <title>Armbian 26.02 Released: New Boards, Powered By Linux 6.18 LTS &amp;amp; RISC-V Xfce Desktop</title>
+      <link>https://www.phoronix.com/news/Armbian-26.02-Released</link>
+      <description>Armbian 26.02 has been released released for this Debian-derived Linux distribution primarily focused on supporting a range of Arm and RISC-V platforms. With Armbian 26.02 there is yet more new boards added while moving to the Linux 6.18 LTS kernel and also adding a RISC-V Xfce desktop install option...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Armbian-26.02-Released</guid>
+      <pubDate>Mon, 02 Mar 2026 11:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>AerynOS 2026.02 Brings More Wayland Compositor Options, Other Improvements</title>
-      <link>https://www.phoronix.com/news/AerynOS-2026.02</link>
-      <description>AerynOS 2026.02 was released for closing out February as the newest alpha release for this Linux distribution formerly known as Serpent OS. In AerynOS 2026.02 are many package updates plus continued work on the tooling and other innovations around this Linux distribution...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AerynOS-2026.02</guid>
-      <pubDate>Sun, 01 Mar 2026 01:13:43 +0000</pubDate>
+      <title>More ASUS Desktop Motherboards Will Support Sensor Monitoring With Linux 7.1</title>
+      <link>https://www.phoronix.com/news/ASUS-More-Sensors-Linux-7.1</link>
+      <description>ASUS desktop motherboards have been seeing broader sensor monitoring support on Linux in recent years. ASUS motherboards for Intel and AMD processors have been seeing more support added thanks to the open-source community with new additions to the likes of the ASUS-EC-Sensors driver and other hardware monitoring (HWMON) driver code. This is continuing for Linux 7.1...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ASUS-More-Sensors-Linux-7.1</guid>
+      <pubDate>Mon, 02 Mar 2026 11:27:00 +0000</pubDate>
     </item>
     <item>
-      <title>Intel's Clear Linux Website No Longer Online</title>
-      <link>https://www.phoronix.com/news/Clear-Linux-Org-No-More</link>
-      <description>Last July Intel sadly ended their Clear Linux distribution amid cost-cutting measures at the company. Clear Linux for a decade served at the forefront of Linux performance innovations and was consistently the fastest out-of-the-box Linux x86_64 distribution until Intel ended the Linux distribution without any advanced notice for its users. Intel had kept up the ClearLinux.org website online to download the final releases and access other technical content and forum discussions, etc. Sadly, that</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Clear-Linux-Org-No-More</guid>
-      <pubDate>Sun, 01 Mar 2026 11:00:56 +0000</pubDate>
+      <title>New Zlib-rs Delivers More Performance With AVX-512 VNNI Adler32 Implementation</title>
+      <link>https://www.phoronix.com/news/Zlib-rs-VNNI-Adler32</link>
+      <description>Zlib-rs as the Rust programming language implementation of Zlib from the Trifetca Tech Foundation is out with a shiny new release (actually, releases) today...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Zlib-rs-VNNI-Adler32</guid>
+      <pubDate>Mon, 02 Mar 2026 13:19:07 +0000</pubDate>
     </item>
     <item>
-      <title>GNU Hurd On Guix Is Ready With 64-bit Support, SMP Multi-Processor Support "Soon"</title>
-      <link>https://www.phoronix.com/news/GNU-Hurd-64-bit-2026</link>
-      <description>After hearing last month that GNU Hurd is "almost there" with x86_64 support, it was exciting to kickoff today by seeing a developer headline "The 64-bit Hurd is Here!" GNU Hurd 64-bit support is now said to be ready but SMP support for multiple processor cores and the like remain still in development...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-Hurd-64-bit-2026</guid>
-      <pubDate>Sun, 01 Mar 2026 11:08:00 +0000</pubDate>
+      <title>Framework 16 Gen1 Seeing Coreboot + AMD openSIL Port, Framework 13 AMD Gen1 To Follow</title>
+      <link>https://www.phoronix.com/news/Framework-16-Coreboot-openSIL</link>
+      <description>Work is underway by 9elements on porting Coreboot plus AMD openSIL to the first-generation Ryzen 7000 series Framework 16 laptop and is expected to be followed by a similar port to the Framework 13 Gen1 laptop too...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Framework-16-Coreboot-openSIL</guid>
+      <pubDate>Mon, 02 Mar 2026 14:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 Development &amp;amp; Intel Panther Lake Proved Most Popular In February</title>
-      <link>https://www.phoronix.com/news/February-2026-Recap</link>
-      <description>During the last month on Phoronix there were 289 original open-source/Linux-related news articles and another 20 featured articles as in Linux hardware reviews and multi-page benchmark articles. There was a lot of interesting software and hardware happenings the past month but standing out the most was the Linux 7.0 merge window developments and the ramp of Intel Panther Lake Linux testing...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/February-2026-Recap</guid>
-      <pubDate>Sun, 01 Mar 2026 11:29:15 +0000</pubDate>
+      <title>Linux 7.0 Shows Off Nice Performance Gains For Databases In Small AMD EPYC Servers</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-AMD-EPYC-4585PX</link>
+      <description>Last week with my ongoing testing of the in-development Linux 7.0 kernel I found nice performance improvements for PostgreSQL and other workloads when testing on a 128-core AMD EPYC 9755 "Turin" server. Curious if those wins were due to optimizations focused on better scalability with today's "big" servers, I also ran some comparison Linux 7.0 benchmarks on the smaller AMD EPYC 4005 class servers too. Some nice wins carried over...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-AMD-EPYC-4585PX</guid>
+      <pubDate>Mon, 02 Mar 2026 15:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>ASUS Linux HID Driver Preparing To See Support For Newer Devices</title>
-      <link>https://www.phoronix.com/news/ASUS-WMI-Linux-Driver-New-2026</link>
-      <description>There's been a recent lull in activity around the open-source Linux driver for ASUS devices with the HID interface used for supporting various features. But developer Denis Benato who has worked on the ASUS Armoury Linux driver and the like is working on advancing the ASUS HID driver for Linux systems...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ASUS-WMI-Linux-Driver-New-2026</guid>
-      <pubDate>Sun, 01 Mar 2026 11:50:00 +0000</pubDate>
+      <title>Linux 7.1 Will Power Off The System By Default If A Fatal ACPI Error Occurs</title>
+      <link>https://www.phoronix.com/news/Linux-7.1-ACPI-Error-Power-Off</link>
+      <description>An important default kernel behavior change worth noting in advance for the upcoming Linux 7.1 kernel is that the system will attempt to power-off automatically if encountering any fatal ACPI errors. Up to now the Linux kernel has just logged ACPI fatal errors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.1-ACPI-Error-Power-Off</guid>
+      <pubDate>Mon, 02 Mar 2026 18:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.1 Expected To See Nice Improvements For Reducing HRTICK Timer Overhead</title>
-      <link>https://www.phoronix.com/news/Linux-7.1-HRTICK-Timer</link>
-      <description>A big set of kernel patches look like they will be submitted for the Linux 7.1 kernel cycle this spring to optimize the scheduler HRTICK timer and in turn allowing it to be enabled by default...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.1-HRTICK-Timer</guid>
-      <pubDate>Sun, 01 Mar 2026 14:55:25 +0000</pubDate>
+      <title>AMD EPYC Turin 128 Core Comparison: EPYC 9745 "Zen 5C" vs. EPYC 9755 "Zen 5"</title>
+      <link>https://www.phoronix.com/review/amd-epyc-9745-9755</link>
+      <description>The AMD EPYC 9755 128-core Zen 5 server processor has been benchmarked a lot at Phoronix since the EPYC 9005 "Turin" launch as their top-end Zen 5 server processor with "full fat" cores compared to the denser Zen 5C cores that extend up to the EPYC 9965 at 192 cores. For those eyeing the 128 core per socket sweet spot, there is also the EPYC 9745 that is made up of 128 Zen 5C cores that allows for a 400 Watt TDP compared to the 500 Watt EPYC 9755. Today's benchmarking is comparing the EPYC 9745</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/amd-epyc-9745-9755</guid>
+      <pubDate>Mon, 02 Mar 2026 21:41:11 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0-rc2 Released: "So I'm Not Super-Happy With How Big This Is"</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-rc2-Released</link>
-      <description>The second weekly release candidate of Linux 7.0 is now available for testing...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-rc2-Released</guid>
-      <pubDate>Mon, 02 Mar 2026 00:15:32 +0000</pubDate>
+      <title>GIMP 3.2 RC3 Released In Preparation For The Stable GIMP 3.2</title>
+      <link>https://www.phoronix.com/news/GIMP-3.2-RC3-Released</link>
+      <description>Ahead of the stable GIMP 3.2 release hopefully happening soon, GIMP 3.2 RC3 was released this evening for testing...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GIMP-3.2-RC3-Released</guid>
+      <pubDate>Tue, 03 Mar 2026 00:34:18 +0000</pubDate>
     </item>
   </channel>
 </rss>
