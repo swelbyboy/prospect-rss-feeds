@@ -8,63 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 07:38:36 +0000</lastBuildDate>
-    <item>
-      <title>Bun : en attendant la 1.3.10, plus de 387 bugs remontés</title>
-      <link>https://www.programmez.com/actualites/bun-en-attendant-la-1310-plus-de-387-bugs-remontes-39062</link>
-      <description>Si vous utilisez Bun, nous avez remarqué la succession des mises à jour : 4 entre mi-janvier et mi-février... Ces mises à jour ciblent 3 actions :- correction des bugs et les requêtes ouvertes- amélioration des performances - ajout des fonctionnalitésPlus 387 requêtes et bugs ont été référencées pour les version 1.3.6, 1.3.7, 1.3.8 et 1.3.9 et 167 bugs et problèmes ont été fixés. Cette activité montre le dynamisme de la communauté mais aussi une certaine instabilité de l'outil. Dans le même temp</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/bun-en-attendant-la-1310-plus-de-387-bugs-remontes-39062</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Thu, 26 Feb 2026 06:51:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Snowflake étend Cortex Code CLI à toutes les données</title>
-      <link>https://www.programmez.com/actualites/snowflake-etend-cortex-code-cli-toutes-les-donnees-39063</link>
-      <description>Cortex Code CLI, de l'éditeur Snowflake, supporte de nouvelles sources de données : dbt et Airflow d'Apache. L'éditeur étend donc son assistant de codage au-delà de son environnement de données. L’objectif est de permettre aux développeurs d’utiliser un assistant IA quel que soit leur stack data. Cortex Code a été lancé en novembre 2025. "Grâce à cette prise en charge étendue, les développeurs bénéficient d'une assistance IA sécurisée et contextuelle au sein de leurs systèmes d'ingénierie de don</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/snowflake-etend-cortex-code-cli-toutes-les-donnees-39063</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/snowflake.png?itok=XT1glgpu" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 26 Feb 2026 07:08:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bun 1.3.10 : nouveau REPL, support de TC39, Windows ARM64</title>
-      <link>https://www.programmez.com/actualites/bun-1310-nouveau-repl-support-de-tc39-windows-arm64-39064</link>
-      <description>Bun est disponible en version 1.3.10.Cette mise à jour fixe 155 bugs et problèmes et propose plusieurs nouveautés très intéressantes :- REPL a été réécrit en Zig et est disponible par défaut sans paquets optionnels. Il propose de nombreuses fonctionnalités : copie vers le clipboard, import ESM, colorisation du code JS, historique persistant, etc.- commande bun build --compile --target=browser pour produire tous les fichiers HTML avec JavaScript, CSS et tous les éléments nécessaires. Disponible e</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/bun-1310-nouveau-repl-support-de-tc39-windows-arm64-39064</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/bun13_0.jpg?itok=r4hkSsPu" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 26 Feb 2026 10:27:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Deno 2.7 : temporal API, Windows ARM, mise à jour du moteur V8</title>
-      <link>https://www.programmez.com/actualites/deno-27-temporal-api-windows-arm-mise-jour-du-moteur-v8-39065</link>
-      <description>Deno est disponible en version 2.7. Cette mise à jour est relativement importante avec des nouveautés qui vont ravir de nombreux développeurs. Pour mettre à jour : deno upgrade.Les principales nouveautés sont :- Temporal API est déclarée stable. Cette API est très importante pour une meilleure gestion des dates et des heures- support de Windows ARM64- nouvelles API pour les sous-process : Deno.spawn(), Deno.spawnAndWait(), Deno.spawnAnWaitSync(). Attention : ces API sont dites non stables- Deno</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/deno-27-temporal-api-windows-arm-mise-jour-du-moteur-v8-39065</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/deno27.png?itok=Lg_qBV2h" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 26 Feb 2026 12:26:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dumper vos disquettes : KryoFlux et les alternatives</title>
-      <link>https://www.programmez.com/actualites/dumper-vos-disquettes-kryoflux-et-les-alternatives-39066</link>
-      <description>Les disquettes sont fragiles, surtout les 5 ¼ et les 8’’, et on peut rapidement les altérer, voire les rendre illisibles. Elles sont sensibles à l’humidité, à la chaleur, aux torsions, si on touche trop fortement le disque magnétique, aux aimants, etc. Bref, la question se pose : comment récupérer le contenu des disquettes pour le sauvegarder, voire recréer de nouvelles disquettes ?Il existe des outils matériels pour connecter les vieux lecteurs, lire les disquettes et récupérer puis sauvegarder</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/dumper-vos-disquettes-kryoflux-et-les-alternatives-39066</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/kryo2.jpg?itok=oJW_pub0" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 26 Feb 2026 13:15:52 +0000</pubDate>
-    </item>
-    <item>
-      <title>Figma : toujours d'IA avec OpenAI Codex</title>
-      <link>https://www.programmez.com/actualites/figma-toujours-dia-avec-openai-codex-39067</link>
-      <description>OpenAI et Figma étendent leur partenariat avec une nouvelle intégration du code au design, qui connecte Figma directement à Codex. Les équipes produits peuvent facilement générer des designs Figma depuis Codex, mais elles peuvent aussi traduire en code des designs issus de fichiers Figma. L'intégration Codex-Figma offre un moyen plus rapide et plus fluide de passer du code à l'exploration sur le canvas de design.Depuis Figma Design, Figma Make ou FigJam dans Codex, il est possible de passer au d</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/figma-toujours-dia-avec-openai-codex-39067</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Fri, 27 Feb 2026 07:55:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>DevCon #27 : rendez-vous le 28 mai pour notre conférence IA</title>
-      <link>https://www.programmez.com/actualites/devcon-27-rendez-vous-le-28-mai-pour-notre-conference-ia-39069</link>
-      <description>Programmez! vous donne rendez-vous le 28 mai à Paris 42 pour la conférence DevCon : 100 % IA / LLM / agents / Vibe Coding édition 2026.Plus de 5h de session, nous parlerons :- Any-agent dans Mozilla- architecture et méthodologie dans le Vibe Coding- SpringAIL'agenda provisoir est disponible : https://www.programmez.com/page-devcon/devcon-27-iaMerci à nos partenaires : 42, AWS, HPEAccueil à partir de 13h30, début des sessions à 14h. Et pour terminer notre journée, ne ratez notre Pizza Party !Insc</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/devcon-27-rendez-vous-le-28-mai-pour-notre-conference-ia-39069</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Fri, 27 Feb 2026 10:04:05 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 03 Mar 2026 07:31:18 +0000</lastBuildDate>
     <item>
       <title>Si tu es contributeur à des projets Open Source, tu peux avoir 6 mois gratuits de Claude Max</title>
       <link>https://www.programmez.com/actualites/si-tu-es-contributeur-des-projets-open-source-tu-peux-avoir-6-mois-gratuits-de-claude-max-39070</link>
@@ -88,6 +32,62 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/7-000-aspirateurs-dji-hackes-par-hasard-39072</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
       <pubDate>Fri, 27 Feb 2026 17:58:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Baromètre des salaires en PHP 2026 : le questionnaire est ouvert</title>
+      <link>https://www.programmez.com/actualites/barometre-des-salaires-en-php-2026-le-questionnaire-est-ouvert-39073</link>
+      <description>L'AFUP, Human Coders lancent la version 2026 du baromètre des salaires en PHP ! C'est le retour de la seule enquête dédiée à PHP se penchant sur les rémunérations du développeur et sur son utilisation du langage en entreprise. Grâce au baromètre, le salarié ou l'indépendant peuvent se positionner correctement sur le marché du travail, et le dirigeant d'entreprise y trouve un outil précieux pour gérer la carrière de ses collaborateurs et l'évolution de leur rémunération. Le développeur peut compa</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/barometre-des-salaires-en-php-2026-le-questionnaire-est-ouvert-39073</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Mar 2026 08:43:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mirehub : un environnement macOS pour fédérer 11 outils</title>
+      <link>https://www.programmez.com/actualites/mirehub-un-environnement-macos-pour-federer-11-outils-39074</link>
+      <description>Comment présenter Mirehub ? "Environnement de developpement integre pour macOS, propulse par Electron et Claude AI. Workspaces combine un terminal multi-onglets, la gestion de projets, un tableau Kanban intelligent et des outils Git complets dans une interface native macOS." explique son créateur. L'outil repose sur Electron, React, TypeScript, Vite, etc. Il fonctionne sur macOS et nécessite Node, npm et Claude Code (en option pour les fonctions IA)."Mirehub est ne d'une frustration simple : pou</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/mirehub-un-environnement-macos-pour-federer-11-outils-39074</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/mirehub.png?itok=aYPYTcnf" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 08:52:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>NetBeans revient en version 29 !</title>
+      <link>https://www.programmez.com/actualites/netbeans-revient-en-version-29-39075</link>
+      <description>Souvenez-vous d'une époque où Eclipse et NetBeans se faisait la guerre. Puis NetBeans a lentement sombré. Désormais sous la responsabilité de la fondation Apache, NetBeans, environnement de développement multi-langage, est disponible en version 29 depuis le 23 février dernier. Apache propose 4 mise à jour par an. Cette version introduit de nombreuses corrections, des mises à jour de dépendances et quelques nouvelles fonctionnalités :- Gradle : exécution de classes avec de sources Gralde spécifiq</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/netbeans-revient-en-version-29-39075</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Mar 2026 09:10:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Armis lance son portail développeur</title>
+      <link>https://www.programmez.com/actualites/armis-lance-son-portail-developpeur-39076</link>
+      <description>L'éditeur Armis lance son portail développeur. Il sera le point d'entrée à l’ensemble des éléments d’Armis pour les développeurs et permet aux entreprises d’intégrer simplement ces données dans leurs technologiques existantes. Grâce à l’API Armis, développeurs, clients et partenaires peuvent connecter leurs applications et exploiter des données d’inventaire enrichies et mises à jour en continu. Les inventaires statiques deviennent ainsi des informations contextualisées, actionnables en temps rée</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/armis-lance-son-portail-developpeur-39076</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Mar 2026 13:13:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude : panne mondiale en cours de résolution</title>
+      <link>https://www.programmez.com/actualites/claude-panne-mondiale-en-cours-de-resolution-39077</link>
+      <description>Le problème des agents IA et modèle dépendant de l'infrastructure est qu'une panne peut arriver et rendre inaccessible le service pour les développeurs. Une panne mondiale a impacté Claude :11:49 UTC : une panne est en cours, 1ere investigation de l'éditeur12:06 UTC : la recherche des causes de la panne est toujours en cours12:21 UTC : l'API Claude fonctionne normalement, les problèmes sont liés à Claude.ai et aux fonctions de connexion / déconnexion qui ne fonctionnent pas normalementDepuis plu</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/claude-panne-mondiale-en-cours-de-resolution-39077</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Mar 2026 13:26:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fluent UI Blazor 5.0 : localisation, performances, code maintenance</title>
+      <link>https://www.programmez.com/actualites/fluent-ui-blazor-50-localisation-performances-code-maintenance-39078</link>
+      <description>Fluent UI Blazor v5 est dans la dernière ligne droite de développement. La RC1 a été distribuée mi-février. Il s'agit d'une évolution importante de la librairie s'appuyant sur les composants Fluent UI Web. La librairie repose désormais sur Fluent UI Web Components v3 qui est largement utilisé par Microsoft (Teams, 365, WIndows). Cette v5 promet :- avoir une interface et un look&amp;amp;fell identique aux productions Microsoft- meilleures performances- des composants plus légers et plus effiaces- temps d</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/fluent-ui-blazor-50-localisation-performances-code-maintenance-39078</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Tue, 03 Mar 2026 06:28:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rust Paris 2026 : CFP ouvert !</title>
+      <link>https://www.programmez.com/actualites/rust-paris-2026-cfp-ouvert-39079</link>
+      <description>La conférence Rust Paris revient le 9 juin. Il s'agit une conférence 100 % REX. Afin d'élaborer le programme de cette troisième édition de Rust Paris, le CFP est ouvert jusqu'au 19 mars.Les specs des sessions et des sujets :Talks de 30 minutes, questions du public comprises.Des retours d'expérience qui mettront en évidence les réussites et les limites de l'utilisation de RUST dans des projets industriels et de recherche.Pas de présentations commerciales.Des talks en français. Les talks en anglai</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/rust-paris-2026-cfp-ouvert-39079</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/rustparis.png?itok=0LoEK-t2" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Mar 2026 07:12:25 +0000</pubDate>
     </item>
   </channel>
 </rss>

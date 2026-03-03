@@ -8,79 +8,81 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 07:02:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 06:56:54 +0000</lastBuildDate>
     <item>
-      <title>built a free DevOps error search engine — here's why</title>
-      <link>https://dev.to/taruni_siddana_3c4c4f803e/built-a-free-devops-error-search-engine-heres-why-hm1</link>
-      <description>It's 2 AM. A pod is crashing. You have no idea why. You open Stack Overflow. The top answer is from 2019 and the commands don't work anymore. You ask ChatGPT. It gives you a confident answer with a flag that doesn't exist. You open 10 more tabs. Nothing is specific to your exact error message. This happened to me too many times. I'm a DevOps Engineer with 4 years of experience managing production infrastructure on Kubernetes (EKS) and Ericsson private cloud. After hitting the same walls over and</description>
-      <guid isPermaLink="false">https://dev.to/taruni_siddana_3c4c4f803e/built-a-free-devops-error-search-engine-heres-why-hm1</guid>
-      <pubDate>Mon, 02 Mar 2026 06:37:16 +0000</pubDate>
+      <title>Part 6: Decoupled Architecture</title>
+      <link>https://dev.to/jumptotech/part-6-decoupled-architecture-3jcb</link>
+      <description>Target Architecture Client authenticates with Cognito → gets JWT token Client calls API Gateway /uploads with Authorization: Bearer API Gateway invokes Lambda Upload Handler Lambda stores file/metadata to S3 (uploads/...) Lambda publishes an event to Kinesis Data Stream Kinesis Consumer Lambda processes and writes to S3 (processed/...) (or DynamoDB, etc.) This avoids extra moving parts and makes Kinesis actually useful. Part A — Create Cognito (User Pool) and Protect API Gateway A1) Create a Cog</description>
+      <guid isPermaLink="false">https://dev.to/jumptotech/part-6-decoupled-architecture-3jcb</guid>
+      <pubDate>Tue, 03 Mar 2026 06:15:27 +0000</pubDate>
     </item>
     <item>
-      <title>Designing AI Policy Engines &amp;amp; Constraint Systems in Production GenAI Platforms</title>
-      <link>https://dev.to/shreekansha97/designing-ai-policy-engines-constraint-systems-in-production-genai-platforms-4iol</link>
-      <description>Defining the AI Policy Engine An AI Policy Engine is a centralized governance layer that intercepts requests and responses to enforce organizational, safety, and operational constraints. In a production environment, an LLM is a non-deterministic engine; the policy layer acts as the deterministic supervisor. Unlike hardcoded logic, a policy engine evaluates a request against a set of dynamic rules—often defined in JSON or YAML—to decide if an execution should proceed, be modified, or be redirecte</description>
-      <guid isPermaLink="false">https://dev.to/shreekansha97/designing-ai-policy-engines-constraint-systems-in-production-genai-platforms-4iol</guid>
-      <pubDate>Mon, 02 Mar 2026 06:40:57 +0000</pubDate>
+      <title>Slapping Secondary Indexes on Random Fields is Silently Killing Your Database.</title>
+      <link>https://dev.to/opeyemi_oluwagbemiga_a213/slapping-secondary-indexes-on-random-fields-is-silently-killing-your-database-15p3</link>
+      <description>Why do we add indexes to our SQL fields? To make the search faster, right? But do you know it has a massive downside? Writes become slower, forcing developers to be strategic about which fields should be labelled as secondary indexes. What is the magic behind indexes? Let's say we have a table of books called “book” with fields (id, title, author, pub_date, isbn). SELECT * FROM book WHERE author=”C.S. Lewis” This causes the database engine to search through the Heap (a physical unstructured file</description>
+      <guid isPermaLink="false">https://dev.to/opeyemi_oluwagbemiga_a213/slapping-secondary-indexes-on-random-fields-is-silently-killing-your-database-15p3</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsovz2dclat6sn45t9rss.png" length="0" type="image/png"/>
+      <pubDate>Tue, 03 Mar 2026 06:17:52 +0000</pubDate>
     </item>
     <item>
-      <title>Pawz Engram biologically-inspired memory architecture for persistent AI agents</title>
-      <link>https://dev.to/gotham64/pawz-engram-biologically-inspired-memory-architecture-for-persistent-ai-agents-8fn</link>
-      <description>What is Engram? Most “agent memory” today is basically: Project Engram is our attempt to treat memory like a cognitive system instead of a dumping ground. It’s a three-tier architecture inspired by how humans handle information: Sensory Buffer (Tier 0): short-lived, raw input for a single turn Working Memory (Tier 1): what the agent is “currently aware of” under a strict token budget Long-Term Memory Graph (Tier 2): persistent episodic + semantic + procedural memory with typed edges Engram is im</description>
-      <guid isPermaLink="false">https://dev.to/gotham64/pawz-engram-biologically-inspired-memory-architecture-for-persistent-ai-agents-8fn</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fkpjb4vk4jl4ksgf8c97a.png" length="0" type="image/png"/>
-      <pubDate>Mon, 02 Mar 2026 06:43:33 +0000</pubDate>
+      <title>Build a voice agent in JavaScript with Vercel AI SDK</title>
+      <link>https://dev.to/mkp_bijit/build-a-voice-agent-in-javascript-with-vercel-ai-sdk-1dc3</link>
+      <description>How do voice agents work? At its core, a voice agent operates by completing three fundamental steps: Listen - Capture audio and transcribe it into text. Think - Interpret the intent and decide how to respond.. Speak - Convert the response into audio and deliver it. In real-world applications, voice agents typically use one of two primary design frameworks: 1. STT &amp;gt; Agent &amp;gt; TTS Architecture In the Sandwich architecture, speech-to-text (STT) converts the user's spoken audio into accurate text usin</description>
+      <guid isPermaLink="false">https://dev.to/mkp_bijit/build-a-voice-agent-in-javascript-with-vercel-ai-sdk-1dc3</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsscf1ql8ooxmqshjwqqs.png" length="0" type="image/png"/>
+      <pubDate>Tue, 03 Mar 2026 06:18:48 +0000</pubDate>
     </item>
     <item>
-      <title>How AI-Native Architecture Enables Autonomous Software Systems</title>
-      <link>https://dev.to/gofortool/how-ai-native-architecture-enables-autonomous-software-systems-31lo</link>
-      <description>Software systems are evolving from passive tools into active, autonomous participants in business and technology operations. This transformation is made possible by a new architectural paradigm known as AI-native architecture. Traditional software architecture was designed for deterministic execution. Applications received inputs, processed logic defined by developers, and returned outputs. This model worked effectively when workflows were predictable and environments were stable. However, moder</description>
-      <guid isPermaLink="false">https://dev.to/gofortool/how-ai-native-architecture-enables-autonomous-software-systems-31lo</guid>
-      <pubDate>Mon, 02 Mar 2026 06:45:53 +0000</pubDate>
+      <title>Niyə hələ də Linux işlətmirik, ya da işlədə bilmirik?</title>
+      <link>https://dev.to/jalilabdulla/niy-hl-d-linux-isltmirik-ya-da-isld-bilmirik-2ef8</link>
+      <description>Keçən ilədək son 20 il ərzində Windows XP-dən 11-ə kimi hamısını istifadə etmişəm. Ənənəvi olaraq öyrəşmişik ki, kompüter deyəndə ağıla Windows gəlir. Amma son vaxtlar qəribə bir tendensiya var: hər yerdə Linux-un Windows-dan necə daha az resurs tələb etdiyi, daha stabil olduğu haqda məqalələr və videolar qarşıma çıxırdı. Və özümə sual verdim: Niyə də yox? Niyə illərdir sistemi ağırlaşdıran bir əməliyyat sisteminə məhkumuq? Sınamaqdan zərər gəlməz deyib, keçən il demək olar ki, bütün populyar Li</description>
+      <guid isPermaLink="false">https://dev.to/jalilabdulla/niy-hl-d-linux-isltmirik-ya-da-isld-bilmirik-2ef8</guid>
+      <pubDate>Tue, 03 Mar 2026 06:20:41 +0000</pubDate>
     </item>
     <item>
-      <title>Developer-focused prompting tricks to use Cursor</title>
-      <link>https://dev.to/tak089/developer-focused-prompting-tricks-to-use-cursor-5ei</link>
-      <description>developer-focused prompting tricks to use Cursor (especially Composer / Agent / Chat) more effectively while burning fewer credits/tokens in 2026. The goal is to get better results in fewer turns, with smaller context, and by preferring cheaper models when possible. Core Mindset Shifts for Saving Money One good prompt &amp;gt; many mediocre ones — Invest time crafting a strong first prompt (even outside Cursor in plain ChatGPT/Claude.ai first). Context is expensive — Every file/reference sent repeatedl</description>
-      <guid isPermaLink="false">https://dev.to/tak089/developer-focused-prompting-tricks-to-use-cursor-5ei</guid>
-      <pubDate>Mon, 02 Mar 2026 06:48:31 +0000</pubDate>
+      <title>From Deadlocks to Green Streaks: Building an AI Greenhouse with Gemini in 36 Hours</title>
+      <link>https://dev.to/jowi00000/from-deadlocks-to-green-streaks-building-an-ai-greenhouse-with-gemini-in-36-hours-15gf</link>
+      <description>This is a submission for the Built with Google Gemini: Writing Challenge Plante | Devpost We built Plante, a plant monitor, so you can touch grass inside devpost.com What I Built with Google Gemini The Spark As university students, my teammates and I noticed a common problem: lots of people want to grow their own fruits and vegetables but simply don't have the time to monitor a garden. We wanted to bridge that gap. We set out to create a system that could teach anyone how to automatically grow t</description>
+      <guid isPermaLink="false">https://dev.to/jowi00000/from-deadlocks-to-green-streaks-building-an-ai-greenhouse-with-gemini-in-36-hours-15gf</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fd112y698adiu2z.cloudfront.net%2Fphotos%2Fproduction%2Fsoftware_thumbnail_photos%2F004%2F173%2F371%2Fdatas%2Fmedium.png" length="0" type="image/png"/>
+      <pubDate>Tue, 03 Mar 2026 06:30:30 +0000</pubDate>
     </item>
     <item>
-      <title>Hello World! | Software Engineer</title>
-      <link>https://dev.to/lumbol77/hello-world-software-engineer-9cg</link>
-      <description>Hi everyone! 👋 I’m LUMBOL (Lawrence), a Computer Science graduate from the University of Jos, Nigeria. I’m moving from academic theory to industry practice and excited to join this community. My Focus: I am a Software Engineer specializing in building clean, scalable systems. I am particularly interested in how Machine Learning and Cybersecurity can make our software smarter and more resilient. Why I’m here: To connect with mentors and fellow engineers. 2.To share my journey in the Nigerian tech</description>
-      <guid isPermaLink="false">https://dev.to/lumbol77/hello-world-software-engineer-9cg</guid>
-      <pubDate>Mon, 02 Mar 2026 06:50:15 +0000</pubDate>
+      <title>A Practical Guide to Securing Azure Storage Accounts in Dev/Test (With Real-World Context)</title>
+      <link>https://dev.to/buildwithbabs/a-practical-guide-to-securing-azure-storage-accounts-in-devtest-with-real-world-context-3a92</link>
+      <description>Introduction: Behind Every Streamed Movie and Processed Payment Is Secure Cloud Storage. When you stream a movie on Netflix, process a payment with Flutterwave, or order a product on Jumia, you rarely think about storage. You just expect it to work. Your payment confirmation appears instantly. Your playlist loads without delay. Your order history is always available. But behind that simplicity is something quiet and critical: Cloud storage: deliberately configured. Companies like Netflix, Shopif</description>
+      <guid isPermaLink="false">https://dev.to/buildwithbabs/a-practical-guide-to-securing-azure-storage-accounts-in-devtest-with-real-world-context-3a92</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz2vwmjb5pev0xnt1e10r.png" length="0" type="image/png"/>
+      <pubDate>Tue, 03 Mar 2026 06:33:39 +0000</pubDate>
     </item>
     <item>
-      <title>PhotoSo — Sort Your Photos Fast, Privately, In Browser, Without Leaving Any Window</title>
-      <link>https://dev.to/salswa/photoso-sort-your-photos-fast-privately-in-browser-without-leaving-any-window-gaf</link>
-      <description>This is a submission for the DEV Weekend Challenge: Community The Community I watched my sister sort her wedding photos the hard way. Open photo in the photo viewer. Like it? Drag it to a folder in another window. Don't like it? Open next. Drag again. Repeat 800 times. The constant window-switching, the hovering over folders, the accidental drops — it was exhausting just to watch. This is how most people do it. Not just wedding photographers — event shooters, travel photographers, content creato</description>
-      <guid isPermaLink="false">https://dev.to/salswa/photoso-sort-your-photos-fast-privately-in-browser-without-leaving-any-window-gaf</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftvkvuhrer26wwqtql956.png" length="0" type="image/png"/>
-      <pubDate>Mon, 02 Mar 2026 06:52:28 +0000</pubDate>
+      <title>Your AI Reads Your Docstrings. Are They Right?</title>
+      <link>https://dev.to/albertocodes/your-ai-reads-your-docstrings-are-they-right-2g89</link>
+      <description>Copilot, Claude Code, Cursor — they all read your docstrings to understand your code. When those docstrings are wrong, your AI makes confident, wrong suggestions. And wrong docs are worse than no docs. Studies show incorrect documentation drops LLM task success by 22 percentage points compared to correct docs. Your linter checks style. But who checks that the docstring is actually accurate? The gap in your toolchain Existing tools cover the basics: ruff — docstring style and formatting interroga</description>
+      <guid isPermaLink="false">https://dev.to/albertocodes/your-ai-reads-your-docstrings-are-they-right-2g89</guid>
+      <pubDate>Tue, 03 Mar 2026 06:35:17 +0000</pubDate>
     </item>
     <item>
-      <title>🛒Shopping list to make shopping faster - AnQuickMerca</title>
-      <link>https://dev.to/nicols_alarcnrapela_5b/lista-de-la-compra-para-hacer-mas-rapido-las-compras-anquickmerca-4ea9</link>
-      <description>The Community I don't know if my community exists, but if it doesn't, it wouldn't be bad to create one; it's simply about going shopping. What I Built What I created (or what I tried to create 😅) is a shopping list app, but with a key difference compared to other apps: it optimizes your route within the supermarket. The idea is to shop more quickly and efficiently, avoiding that feeling of wandering around thirty times to pick up three things… or worse, arriving at a new supermarket and getting</description>
-      <guid isPermaLink="false">https://dev.to/nicols_alarcnrapela_5b/lista-de-la-compra-para-hacer-mas-rapido-las-compras-anquickmerca-4ea9</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fassets.dev.to%2Fassets%2Fgithub-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Mar 2026 06:53:57 +0000</pubDate>
+      <title>Ch 3: Creating a Postgres Database with Aiven</title>
+      <link>https://dev.to/essym_19/creating-a-postgres-database-with-aiven-4cpg</link>
+      <description>Just a recap of the previous post: Postgres - the DBMS we are using to create our database Aiven - where we are hosting our Postgres database DBeaver - the GUI we are using to interact with the database Create an Aiven account We will be creating our Postgres database with Aiven, so the initial step is to get an Aiven account. Create an Aiven service Next, you need to create a service, which is essentially a database. You need to select a PostgreSQL service type because we are creating a Postgre</description>
+      <guid isPermaLink="false">https://dev.to/essym_19/creating-a-postgres-database-with-aiven-4cpg</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxnqokj5w1egxydefk75q.png" length="0" type="image/png"/>
+      <pubDate>Tue, 03 Mar 2026 06:35:50 +0000</pubDate>
     </item>
     <item>
-      <title>Your Resume Is Generic. Here Is How to Tailor It for Every Job Without Starting Over</title>
-      <link>https://dev.to/sira_ai/your-resume-is-generic-here-is-how-to-tailor-it-for-every-job-without-starting-over-2i99</link>
-      <description>Sending the same resume to 50 companies is one of the fastest ways to get ignored. Recruiters and hiring managers read dozens of resumes per role. A generic resume signals one thing: this person did not read our job description. Tailoring your resume for each application works. The challenge is doing it without spending an hour on every single submission. Here is a repeatable system that makes tailoring fast and effective. Start With a Master Resume Before you tailor anything, build a master res</description>
-      <guid isPermaLink="false">https://dev.to/sira_ai/your-resume-is-generic-here-is-how-to-tailor-it-for-every-job-without-starting-over-2i99</guid>
-      <pubDate>Mon, 02 Mar 2026 07:01:02 +0000</pubDate>
+      <title>I Let GitHub Copilot Build My Razor Pages UI (While Rewriting an Old .NET App)</title>
+      <link>https://dev.to/incomplete_developer/i-let-github-copilot-build-my-razor-pages-ui-while-rewriting-an-old-net-app-1lf9</link>
+      <description>I'm currently rewriting an old .NET Framework application using modern .NET and AI tools. In this part of the project, I experimented with letting GitHub Copilot inside Microsoft Visual Studio generate the entire user interface. The result was surprisingly good — with a few interesting lessons. First Attempt: Blazor My first thought was to use Blazor, since it’s one of the modern front-end options in ASP.NET Core. But after trying several quick experiments, Copilot consistently struggled to gene</description>
+      <guid isPermaLink="false">https://dev.to/incomplete_developer/i-let-github-copilot-build-my-razor-pages-ui-while-rewriting-an-old-net-app-1lf9</guid>
+      <pubDate>Tue, 03 Mar 2026 06:45:00 +0000</pubDate>
     </item>
     <item>
-      <title>Fixing Alpine.js Load Order in devlog-ist/landing</title>
-      <link>https://dev.to/geanruca/fixing-alpinejs-load-order-in-devlog-istlanding-516p</link>
-      <description>The devlog-ist/landing project is a portfolio and blog. A recent issue arose where a Shepherd.js tour, designed to guide users through the portfolio, failed to execute due to the order in which Alpine.js components were loaded. The Problem: Alpine.js Initialization Order The portfolio-tour.js file was set up to register its Alpine component using the alpine:init event. However, app.js was already calling Alpine.start() before the tour module had a chance to load. This meant that the alpine:init</description>
-      <guid isPermaLink="false">https://dev.to/geanruca/fixing-alpinejs-load-order-in-devlog-istlanding-516p</guid>
-      <pubDate>Mon, 02 Mar 2026 07:01:03 +0000</pubDate>
+      <title>The Secret Life of Claude Code: The Beginning</title>
+      <link>https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-claude-code-the-beginning-3nib</link>
+      <description>What Claude Code Actually Does (and What It Can't Do for You) 🎧 Audio Edition: Prefer to listen? Check out the expanded AI podcast version of this deep dive on YouTube. 📺 Video Edition: Prefer to watch? Check out the 7-minute visual explainer on YouTube. Margaret is a senior software engineer. Timothy is her junior colleague. They work in a grand Victorian library in London — the kind of place where ideas are taken seriously and hype is shown the door. This is their first conversation about Clau</description>
+      <guid isPermaLink="false">https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-claude-code-the-beginning-3nib</guid>
+      <pubDate>Tue, 03 Mar 2026 06:50:52 +0000</pubDate>
     </item>
   </channel>
 </rss>

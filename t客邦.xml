@@ -8,86 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Mar 2026 07:10:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Mar 2026 07:03:42 +0000</lastBuildDate>
     <item>
-      <title>工程師讓AI幫他刪檔案，結果竟格式化硬碟，只因「一個符號」釀大禍</title>
-      <link>https://www.techbang.com/posts/128048-ai-formats-hard-drive-symbol-error</link>
-      <description>一個微小的符號錯誤，竟讓AI自動化腳本造成整顆硬碟格式化！這是一場讓人驚出一身冷汗的技術災難！近日國外論壇 Reddit 出現一則慘痛教訓，一名網友在清理電腦檔案時，原本想依賴 AI 幫忙省事，沒想到卻因為一個極其微小的符號錯誤，造成整顆硬碟被瞬間格式化。 這起事件再次引發大眾對於過度信任 AI 自動化腳本的疑慮，也讓我們見識到在系統底層操作時，AI 仍有其不可忽視的「智障」時刻。 只差一個符號，整顆硬碟灰飛煙滅 根據受災網友 u/Former-Airport-1099 的說法，他當時正使用 GPT 5.3 Codex 模型生成一段自動化腳本，目的只是為了批量刪除 Python 專案產生的「pycache」暫存資料夾 。但在腳本執行後，結果卻出乎意料：原本應該被清理掉的暫存檔案毫髮無傷，反而是他 F 槽中的所有重要資料被迅速清空 。 技術專家進行事後分析發現，這起「慘案」的根源在於 AI 混淆了 Windows 系統中不同直譯器的規則 ： 跳脫字元的混淆：AI 生成的腳本試圖透過 PowerShell 呼叫 CMD 指令「rmdir」。在處理檔案路徑時，AI 習慣性地使用了反斜線（\）</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128048-ai-formats-hard-drive-symbol-error</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128048/thumb/d2df7d50b319dd92a099868bf96beeea.jpg?1771919997" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Mar 2026 08:30:00 +0000</pubDate>
+      <title>M4 iPad Air 發表：升級 12GB 記憶體、導入 N1、C1X 晶片，售價 19,900 元起</title>
+      <link>https://www.techbang.com/posts/128161-m4-ipad-air-12gb-n1-c1x</link>
+      <description>新款 iPad Air 搭載強大 M4晶片，效能與 AI 運算全面升級，且不僅價格不變，更帶來 Wi-Fi 7 等多項新規格。Apple 正式發表搭載 M4 晶片的新款 iPad Air，售價維持與前代相同，但在效能、記憶體與連線規格全面升級，同時也提供 11 吋與 13 吋兩種尺寸，Wi-Fi 版 11 吋售價 19,900 起、13 吋售價26,900 起，並將於日後在台灣開放訂購。 M4 晶片加持，效能較 M1 提升最高 2.3 倍 新款 iPad Air 採用 8 核心 CPU 與 9 核心 GPU 架構的 M4 晶片，官方數據指出，相較 M3 版本最高快 30%，對比 M1 機型最高可達 2.3 倍效能提升。 GPU 支援第二代硬體加速光線追蹤與網格著色技術，在 3D 渲染或專業算繪場景中，相較 M1 可帶來最高 4 倍速度提升。針對影片剪輯與影像創作，搭配 Final Cut Pro、Pixelmator Pro 等 App，可提供更流暢的多軌剪輯與高解析素材處理能力。 另外，記憶體同步升級至 12GB，記憶體頻寬達 120GB/s，較前代提升 50%，對多工與 AI 任務</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128161-m4-ipad-air-12gb-n1-c1x</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128161/thumb/58d70a29bef81bfb8d0097e23f3d45bd.png?1772466336" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 02 Mar 2026 15:41:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google Translate 導入更多 Gemini AI 功能，強化學習與語境理解能力</title>
-      <link>https://www.techbang.com/posts/128096-google-translate-gemini-ai-features</link>
-      <description>Google 翻譯迎來重大升級！全新的 Gemini 人工智慧功能，讓 Google 翻譯能更精準理解成語、口語與語境。這項 Gemini 人工智慧功能將助您實現更自然的跨語言溝通。Google 近日宣布，為 Android 和 iOS 平台上的 Google Translate App 引入一系列基於 Gemini 的全新人工智慧功能，進一步強化對成語、口語表達以及語境的理解，讓使用者在不同場合下能更自然、更貼切地使用外語交流。 在 AI Overviews 等即答式功能出現之前，Google Translate 一直是使用者處理外語內容的主要工具，而在去年加入即時翻譯功能後，如今再度迎來人工智慧的重要升級。 深入探索 AI 智慧型手機模式。 Google 表示，這次新增的 Gemini 功能旨在幫助使用者在不同語氣和情境中拿捏分寸，從輕鬆閒聊到正式會議，都能更準確地匹配合適的表達方式。新功能尤其針對傳統詞典中難以覆蓋的成語與口語化表達，例如當使用者嘗試將英文短句 It is raining cats and dogs 翻譯成其他語言時，系統不再逐字直譯，而是優先尋找目標語言中含義相</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128096-google-translate-gemini-ai-features</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128096/thumb/f2ef0d2e39bc9f39200466bc9661f4ae.jpg?1772360428" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Mar 2026 00:30:00 +0000</pubDate>
+      <title>三星 LPDDR5X 記憶體報價大漲 100%，蘋果為了 iPhone 17 只能爽快買單</title>
+      <link>https://www.techbang.com/posts/128100-samsung-lpddr5x-price-surge-apple-iphone-17</link>
+      <description>面對 2026 年全球記憶體供應短缺，蘋果為確保 iPhone 記憶體供應，竟以 100% 溢價向三星採購。這場蘋果與三星的記憶體價格戰，最終恐轉嫁至消費者，手機儲存升級將更昂貴。儘管蘋果在供應鏈中擁有極強的話語權，但在面對 2026 年全球性的 DRAM 短缺時，這家科技巨頭也不得不向現實低頭 。根據多方媒體報導，為了確保 iPhone 17 系列及後續機型的記憶體供應，蘋果高層傳出曾長期駐紮在韓國的飯店裡，與三星展開密集談判 。雖然首批 LPDDR5X 記憶體的供貨最終得到保障，但蘋果為此支付的代價遠超預期 。 談判過程中的一個細節引起業界關注，三星最初的預設目標是將價格上調約 60%，但在正式報價時，三星直接提出了溢價 100% 的要求 。 令人意外的是，面對這種翻倍的報價，蘋果幾乎沒有討價還價便迅速接受了 。這種爽快舉動的背後是嚴峻的供需矛盾，在 2025 年初，12GB LPDDR5X 記憶體晶片的預估價格約在 25 美元至 29 美元之間（約新台幣 815 元至 945 元） 。 然而到了 2025 年底，這一數字已瘋狂攀升至 70 美元（約新台幣 2,280 元） 。調研</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128100-samsung-lpddr5x-price-surge-apple-iphone-17</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128100/thumb/495d717d6b85889c3a6d4d7d40b0eee4.jpg?1772361709" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Mar 2026 00:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA財務長親口證實：目前沒有新卡計畫，顯卡缺貨狀況至少持續到4月</title>
-      <link>https://www.techbang.com/posts/128097-nvidia-cfo-no-new-cards-shortage-april</link>
-      <description>NVIDIA預計顯卡供應將持續緊張至2027年。龐大的AI需求正嚴重擠壓遊戲顯卡產能，導致高階顯卡價格飆升。AI業務利潤豐厚，玩家想買到顯卡恐遙遙無期。NVIDIA財務長柯萊特·克雷斯在2026財年第四季財報會議上的一番話，徹底澆熄了玩家對顯卡市場盡快恢復正常的希望。她明確表示，公司預計消費級顯卡的供應在2027財年第一季，也就是2026年2月至4月期間，以及之後仍會繼續保持非常緊張的狀態。 在面向投資人的電話會議中，克雷斯坦言，儘管公司希望增加供應，但未來幾個季度的供應都會非常吃緊。真正的改善可能要等到2026年底，但現在談論這些還為時過早。 這番表態解釋了為什麼RTX 5080、RTX 5070 Ti等高階型號的零售價，已經比官方建議售價高出200美元至500美元（約新台幣6,545元至16,362元），而且許多型號一上架就被搶購一空。 AI吃掉遊戲顯卡 NVIDIA並未官方說明無法增加遊戲顯卡供應的原因，但答案其實就寫在財報裡。上一季度，NVIDIA總營收達681億美元，其中資料中心業務就貢獻了623億美元。整個2026財年，遊戲業務收入僅為160億美元，而資料中心業務收入高達1</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128097-nvidia-cfo-no-new-cards-shortage-april</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128097/thumb/cc9f5905e4cc8743dbe719a9b413220f.jpg?1772360680" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Mar 2026 01:30:00 +0000</pubDate>
+      <title>OpenAI 聯手美國國防部引發用戶抵制，「取消 ChatGPT」運動全面蔓延</title>
+      <link>https://www.techbang.com/posts/128120-cancel-chatgpt-openai-dod-boycott</link>
+      <description>OpenAI 將 ChatGPT AI 模型部署至美國國防部機密網路，引發用戶對監控工具的擔憂，導致「取消 ChatGPT」運動蔓延。人工智慧領域的競爭日益白熱化，各大科技公司為了爭奪使用者的青睞與荷包各顯神通 。儘管 ChatGPT 已是 AI 界家喻戶曉的代名詞，但現在的權力格局可能面臨大洗牌。近期一場名為「取消 ChatGPT」（Cancel ChatGPT）的運動正迅速延燒，引發各界高度關注 。 OpenAI 執行長薩姆．奧特曼（Sam Altman）昨晚於 X 平台發文證實，公司已與美國國防部（DoW）達成協議，將把旗下的 AI 模型部署到國防部的機密網路中 。奧特曼在文中強調，國防部在溝通中表現出對安全的高度重視，並展現出透過合作實現最佳成果的意願 。 面對外界質疑，奧特曼聲稱 OpenAI 仍致力於盡最大努力服務全人類，並表示世界局勢複雜且充滿危險，公司會建構相關技術安全措施，確保模型正常執行，這也是國防部所期望的 。 用戶拒絕買帳，憂心 AI 淪為監控工具 然而，用戶顯然不打算輕易相信這套說辭。主要原因在於，OpenAI 先前才與競爭對手 Anthropic 共同表態，</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128120-cancel-chatgpt-openai-dod-boycott</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128120/thumb/771f4f718dcad42d49c07e0f66cdd44f.jpg?1772432104" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Mar 2026 01:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>沉睡海底 24 年，全球首條跨大西洋光纖海纜 TAT-8 啟動拆除回收工程</title>
-      <link>https://www.techbang.com/posts/128095-tat-8-transatlantic-cable-decommissioning</link>
-      <description>全球首條跨大西洋光纖海底電纜 TAT-8 正進行打撈回收。根據最新消息，海底環境服務公司目前正在葡萄牙附近海域的海床，進行全球首條跨大西洋光纖海底電纜 TAT-8 的拆除與打撈回收作業 。這條寫下電信史重要篇章的海纜，是由美國 AT&amp;amp;T、英國電信與法國電信聯合建造，並於 1988 年 12 月 14 日正式投入使用 。然而，該系統在 2002 年發生故障後，因維修成本過高而被迫停止營運，從那時起便在海底靜置了長達 24 年之久 。 TAT-8 的全稱為 Trans-Atlantic Telephone 8（跨大西洋電話 8 號），它是第八條橫跨大西洋的海底通訊電纜系統，更是史上第一條採用光纖而非傳統銅纜傳輸訊號的跨洋電纜 。 這條海纜在啟用之初便極具象徵意義。當時科幻大師艾薩克·阿西莫夫透過視訊連線從紐約向巴黎、倫敦的觀眾致詞，讚譽這是「一束光橫跨大洋的處女航」 。令人驚訝的是，TAT-8 上線僅 18 個月便達到容量上限，這也為後續所有大型海底光纜奠定了可行的商業與技術模式 。到了 2001 年，TAT 系列已演進至第 14 號 。 此次打撈回收任務是由 2025 年 1 月才出廠的</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128095-tat-8-transatlantic-cable-decommissioning</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128095/thumb/4798f2f09005584e172017359b5b2a5e.jpg?1772360253" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Mar 2026 02:30:00 +0000</pubDate>
+      <title>NVIDIA「小金盒」DGX Spark 驚傳大漲價！記憶體吃緊，售價飆升 17.5%！</title>
+      <link>https://www.techbang.com/posts/128125-nvidia-dgx-spark-price-soars-17-5</link>
+      <description>NVIDIA DGX Spark 迷你 AI 工作站因記憶體供應吃緊而大幅漲價，這款專為開發者打造的個人超級電腦，NVIDIA DGX Spark 漲價後，其高昂成本讓開發者需更謹慎評估。NVIDIA 官方宣布，旗下被稱為「小金盒」的迷你 AI 工作站，或者也可以稱作個人桌機超級電腦的 DGX Spark，本週起正式調漲售價 。官方公版從原先的 3999 美金（約新台幣 12.8 萬元）一口氣上調至 4699 美金（約新台幣 15 萬元），漲幅高達 17.5％ 。針對這次的大幅調漲，NVIDIA 解釋，主因是記憶體供應持續吃緊，這不僅是全球現象，更是整個科技產業目前共同面臨的難題，因此這次漲價也是全球同步進行 。 記憶體容量不變，中國非公版售價逼近台幣 18 萬 儘管價格大幅攀升，DGX Spark 的硬體儲存配置並未升級，依然維持單一規格：128GB 記憶體搭配 4TB SSD 固態硬碟 。這款產品是在去年 10 月才剛發表，當時在中國市場的起跳價約為人民幣 3 萬元（約新台幣 13.5 萬元），較貴的版本則在人民幣 3.4 萬元（約新台幣 15.3 萬元）左右 。經過這次調漲，中國</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128125-nvidia-dgx-spark-price-soars-17-5</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128125/thumb/1db6224b1a46742687a1475145600e73.jpg?1772434711" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Mar 2026 02:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>黃仁勳談太空資料中心：沒空氣流動是難題，唯一辦法是建造巨大的散熱板</title>
-      <link>https://www.techbang.com/posts/128098-huang-space-datacenter-cooling</link>
-      <description>「太空資料中心」能否解決AI龐大電力需求？黃仁勳與馬斯克對此有不同見解。對於近期引發熱烈討論的太空資料中心話題，NVIDIA（輝達）執行長黃仁勳發表了自己的看法，他認為目前的經濟效益確實不佳，但未來有望改善 。黃仁勳於財報電話會議指出，在太空中，能源與散熱是兩回事 。雖然太空環境寒冷，卻沒有空氣流動，因此散熱的唯一途徑是透過傳導，換句話說，必須建造相當巨大的散熱板 。 黃仁勳提到，我們在地球上使用的散熱方法與太空大相徑庭 。不過，確實有許多運算問題非常適合在太空處理，因此 NVIDIA 已經擁有全球首顆進入太空的 GPU，旗下的 Hopper 架構 GPU 已經在太空執行了 。他表示，目前 GPU 在太空的最佳應用案例之一就是影像處理 。 在此之前，馬斯克（Elon Musk）曾公開表示，把資料中心送上太空的核心原因是電力的增量跟不上晶片的產出 。馬斯克認為，36 個月內太空會成為部署人工智慧最便宜的地方，太空資料中心將是解決 AI 龐大電力需求的終極答案 。 馬斯克說道，晶片產出幾乎呈指數級增長，但電力產出卻停滯不前，要如何讓這些晶片通電？難道要靠魔法電源或魔法電力精靈嗎 ？他預言，</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128098-huang-space-datacenter-cooling</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128098/thumb/7640b412f6d663deb3c9061cea12f4f0.jpg?1772360919" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Mar 2026 03:00:00 +0000</pubDate>
+      <title>台灣隊也上車！NVIDIA AI-RAN戶外實測飆速36Gbps，5G效能大躍進！</title>
+      <link>https://www.techbang.com/posts/128127-taiwan-nvidia-ai-ran-36gbps-5g-outdoor-test</link>
+      <description>NVIDIA 攜手 Nokia 與電信商，將 AI-RAN 技術從實驗室帶到戶外實測，大幅提升 5G 效能，為 6G 電信網路奠基。AI-RAN 不僅解決電信網路痛點，更展現商用潛力。AI 走入電信網路已經不是紙上談兵！在即將於巴塞隆納登場的 2026 MWC（世界行動通訊大會）前夕，NVIDIA 宣布與 Nokia 以及全球多家指標性電信商聯手，將「AI-RAN（人工智慧無線接取網路）」技術正式從實驗室搬到戶外實測。這不只大幅提升了 5G 效能，更為未來的 6G 網路打下穩固基礎。 實測成績出爐，電信巨頭紛紛買單 NVIDIA 這次的合作陣容相當豪華，包含美國 T-Mobile、日本軟銀（SoftBank）與印尼的 IOH 等電信大廠都參與其中。實測結果顯示，T-Mobile 成功透過單一平台同時處理 AI 與 RAN 網路訊號，在戶外環境順暢執行了影片串流與生成式 AI 應用；日本軟銀則寫下業界首例，達成 16 層大規模 MIMO（多輸入多輸出）的軟體定義 5G 網路傳輸。 最吸睛的莫過於印尼 IOH，他們完成了東南亞首通由 AI 驅動的 5G 通話。系統在極低延遲的即時 5G 網</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128127-taiwan-nvidia-ai-ran-36gbps-5g-outdoor-test</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128127/thumb/1b4cea064d9a1e70c4b06de00f1380cc.jpg?1772435184" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Mar 2026 03:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>無花菓世代攜手 AAMY、Fanko 發表 NFC 互動藝術家聯名吊飾娃娃  POCKET COMPANION 系列</title>
-      <link>https://www.techbang.com/posts/128114-fig-generation-aamy-fanko-nfc-pocket-companion-dolls</link>
-      <description>無花菓世代推出POCKET COMPANION，以NFC技術結合藝術創作，打造互動式藝術科技吊飾娃娃。透過NFC感應，讓藝術科技融入日常，體驗前所未有的藝術互動。專注於當代藝術創作與藝術家經紀的無花菓世代（Fig Generation Co.），宣布於 2026 年推出全新藝術科技系列品牌「POCKET COMPANION」。首波與日本藝術家 AAMY 及台灣藝術家 Fanko 合作，發表兩款結合 NFC（Near Field Communication，近場通訊技術）的互動式藝術家聯名吊飾娃娃，並將於 3 月 6 日起在日本神戶北野異人館「萊茵館」展覽現場及線上平台同步開賣。 近年吊飾娃娃成為配件市場的流行元素，無花菓世代選擇以此作為媒介，嘗試將藝術創作延伸至日常使用場景。此次推出的「AAMY：Mallow」與「Fanko：狗仔」兩款作品，內建 NFC 晶片，使用者可透過手機感應，讀取專屬繪畫語錄與藝術家設計的心語圖卡，並將內容收藏至娃娃內建的個人系統中。NFC 是一種短距離無線通訊技術，常見於行動支付或門禁感應，這次則被運用於藝術作品的互動設計。 ▲ 透過NFC機制掃娃娃，就會出現</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128114-fig-generation-aamy-fanko-nfc-pocket-companion-dolls</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128114/thumb/87c6a9df549cdd92f2d51745d521a3df.jpg?1772423062" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Mar 2026 04:32:00 +0000</pubDate>
+      <title>Claude 擠下 ChatGPT 奪下載冠軍，用戶不滿 OpenAI 合作戰爭部引發跳槽潮</title>
+      <link>https://www.techbang.com/posts/128152-claude-beats-chatgpt-openai-war-dept-backlash</link>
+      <description>OpenAI 宣布與美國國防部合作後，引發部分用戶質疑 AI 軍事用途與倫理風險，掀起轉用潮，帶動 Anthropic 旗下 Claude 登上美國 App Store 免費榜首。在生成式 AI 競爭持續升溫之際，Anthropic 旗下的 Claude 近日在美國 Apple App Store 下載榜竄升至免費應用程式第一名，超越長期占據高位的 OpenAI ChatGPT，成為美國下載量最高的免費 App。這波排名變動，被外界普遍解讀為與 OpenAI 近期宣布與美國國防部合作有關。 OpenAI 執行長 Sam Altman 日前在社群平台 X 發文表示，公司已與五角大廈達成協議，將在其機密網路中部署 AI 模型。OpenAI 強調，協議內容包含對自主武器的人工監督機制，並對大規模監控用途設有限制。 然而，消息一出即在網路上掀起討論。部分使用者擔憂 AI 技術與軍事體系的結合可能帶來倫理風險，開始表態轉向競爭對手 Claude。社群平台上出現不少用戶分享「取消 ChatGPT、改用 Claude」的截圖與貼文，甚至出現「Cancel ChatGPT」的口號。包括流行歌手 Kat</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128152-claude-beats-chatgpt-openai-war-dept-backlash</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128152/thumb/6db98ea47730598254ca4f9d2f44a1a1.jpg?1772445035" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Mar 2026 05:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>如何在iPhone上使用富士相機原廠濾鏡？</title>
-      <link>https://www.techbang.com/posts/127024-how-to-use-fujifilm-filters-on-iphone</link>
-      <description>近期富士Fujifilm正式釋出自家經典膠片風格的LUT檔案，即使不使用富士相機，也能將這些原廠膠片色彩套用到iPhone照片或影片中，輕鬆營造出富士底片機般的影像質感。近期富士Fujifilm正式釋出自家經典膠片風格的LUT檔案，並開放用戶免費下載使用！所謂LUT（Look-Up Table）是一種常見於影像後製與調色流程中的工具，可透過重新對應色彩資料，快速套用特定的影像風格，而這次富士提供的原廠LUT，正是以旗下多款經典底片模擬為基礎，包括Velvia、ASTIA、Classic Chrome、ETERNA等熟悉的色調，即使不使用富士相機，也能將這些原廠膠片色彩套用到iPhone照片或影片中，輕鬆營造出富士底片機般的影像質感。 步驟 1：在App Store搜尋並下載「極影相機」App，點選「取得」即可安裝。 步驟 2：首次開啟App時，需「允許」存取裝置儲存空間，下一步點擊右上角「設定」圖示。 步驟 3：下拉點選「教學與資源」。 步驟 4：在教學資源頁面中，找到「LUTs」選項，即可查看並下載可用的濾鏡資源。 步驟 5：接著找到富士提供的LUT濾鏡資源，並點選Google Dr</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127024-how-to-use-fujifilm-filters-on-iphone</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/127024/thumb/62dd949af3bca922260775ccdf59bb48.png?1766048508" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Mar 2026 05:30:00 +0000</pubDate>
+      <title>無所不娛、提了就走；WBC 世界經典賽開打，隨時巨幕精彩呈現：OVO U11 小天王行動劇院</title>
+      <link>https://www.techbang.com/posts/128134-ovo-u11-mini-king-portable-cinema</link>
+      <description>OVO 小天王行動劇院 U11 實現隨處觀影的夢想！這款行動劇院具備高亮度、長續航，更搭載雙 TV 系統與一鍵去人聲功能，讓 OVO 小天王行動劇院 U11 帶來前所未有的行動劇院影音娛樂體驗。本土品牌 OVO 最新推出的小天王行動劇院 U11，配置 110 度提把雲台，高達 2000 LED 流明輸出亮度，內建 20800 mAh 大電量電池，最長續航 3 小時，且支援 PD 55W 行動電源充電，對應 4K HDR 影像訊號放映，讓你可以隨時隨地觀看中華經典賽事轉播，隨機配置無線麥克風，可一鍵去人聲，享受歡唱樂趣，加上搭載 OVO + Google 雙 TV 系統，暢享各種影音節目無界限。 使用 T客邦優惠碼：TKBANG00，享專屬折扣 硬體規格、軟體技術、系統功能全面提升 相信許多人都喜歡利用大螢幕觀看影音節目，享受宛若電影院的效果，如果能夠隨時帶著移動，在任何想要觀賞的環境體驗，更是最美夢想的實現，但是傳統電視機種既大又重，不可能隨性搬移，號稱方便攜帶的微型投影機則受限於體積，輸出亮度和內建電池的續航力較弱，因此 OVO 新近推出能滿足以上所有需求，並帶來更豐富影音娛樂的行動</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128134-ovo-u11-mini-king-portable-cinema</guid>
+      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/128134/thumb/c7f18376f66f68b98943f06504f3075e.jpg?1772437513" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Mar 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>再強的AI也會越聊越笨，微軟最新研究揭露多輪對話成功率慘跌至 65%</title>
-      <link>https://www.techbang.com/posts/128035-microsoft-ai-dumbs-down-multi-turn-chat</link>
-      <description>微軟證實AI在多輪對話中存在對話迷失缺陷！研究揭露，頂尖大型語言模型在多輪對話中成功率驟降，這種對話迷失現象是系統性問題，值得關注。相信許多人在跟 AI 進行長篇大論的對話時，常常會覺得它們好像漸漸失去記憶，或是開始胡言亂語 。過去我們可能以為這只是錯覺，但沒想到現在連微軟都跳出來證實，這種感覺可是有科學根據的 。 科學證實的對話迷失缺陷 根據科技媒體 Windows Central 報導，微軟研究院與 Salesforce 最近聯合發表了一項重量級研究 。研究團隊針對目前市面上 15 款最頂尖的大型語言模型，包括 GPT-4.1、Gemini 2.5 Pro、Claude 3.7 Sonnet、o3、DeepSeek R1 以及 Llama 4，進行了超過 20 萬次的模擬對話分析 。結果揭露了一個被稱為對話迷失的系統性缺陷 。 數據顯示，這些模型在接收單次提示任務時，成功率高達 90% 。但是，當我們把同樣的任務拆解成多輪自然對話後，成功率竟然驟降到約 65% 。研究指出，這並不是因為 AI 的智力下降了，其核心能力其實只降低了約 15%，真正要命的是它們的不可靠性飆升了 112%</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128035-microsoft-ai-dumbs-down-multi-turn-chat</guid>
-      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128035/thumb/77028643a1c6d7b8d4d51a4d1887f644.jpg?1771828676" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Mar 2026 06:00:00 +0000</pubDate>
+      <title>Xiaomi 17 Series 發表，Leica Leitzphone 限量版同步登場</title>
+      <link>https://www.techbang.com/posts/128158-xiaomi-17-ultra-leica-1-inch-200mp</link>
+      <description>小米 17 系列不僅硬體全面升級，更深化與徠卡的策略性共創模式，全新 Leica Leitzphone powered by Xiaomi 也同步亮相。小米正式發表新一代 Xiaomi 17 Series，同步帶來 Xiaomi 17、Xiaomi 17 Ultra，以及全新 Leica Leitzphone powered by Xiaomi。此次發表除了硬體規格全面升級，品牌也宣布與徠卡的合作由原本的聯合研發模式，升級為「策略性共創模式」，進一步深化從鏡頭設計到影像體驗的整合。 Xiaomi 17 Ultra 史上最薄 Xiaomi 17 Series 延續極簡設計語彙，強調圓潤邊角與平衡比例。Ultra 版本機身厚度 8.29mm、重量最低 218.4g，為歷代最輕薄 Ultra 機型。標準版 Xiaomi 17 則為 8.06mm、191g，定位更輕巧。 兩款機型皆採用「Xiaomi 龍鎧架構」，搭載龍晶玻璃 3.0、鋁合金邊框與高強度背板，並支援 IP68 防塵防水。Ultra 提供黑、白與星空綠配色；Xiaomi 17 則有探境綠、雪山粉、冰融藍與黑色等選項。 Ultra</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128158-xiaomi-17-ultra-leica-1-inch-200mp</guid>
+      <enclosure url="https://cdn0.techbang.com/system/excerpt_images/128158/thumb/e2241e5b50296c8c06d3592a4abc20ec.jpg?1772450100" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Mar 2026 06:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Nano Banana 2 上線：整合 Flash 高速架構與 Pro 等級效能，實測繁體中文沒問題</title>
-      <link>https://www.techbang.com/posts/128113-nano-banana-2-flash-pro-performance</link>
-      <description>Google 全新推出 Nano Banana 2 影像生成模型，大幅提升生成速度與品質；在技術規格方面，支援從 512 像素至 4K 的多種解析度與長寬比設定，以因應不同平台需求。Google 宣布推出新一代影像生成模型「Nano Banana 2」（Gemini 3.1 Flash Image）。Nano Banana 系列最初於去年 8 月推出，主打影像生成與編輯功能；11 月則發布 Nano Banana Pro，著重較高階的智慧與創作控制能力。此次推出的 Nano Banana 2，則整合部分 Pro 功能，同時維持 Flash 系列強調的快速回應特性，主打在生成速度、視覺品質與指令理解能力之間取得平衡。 強化世界知識與文字處理能力 Google 表示，Nano Banana 2 可結合 Gemini 的世界知識資料，並透過即時網路搜尋與圖像資訊輔助生成結果，使模型在呈現特定主題時更為準確。官方指出，這項能力有助於製作資訊圖表、將筆記轉換為圖解，以及生成資料視覺化內容。 此外，新模型強化了影像中的文字生成與翻譯功能，可在圖片中呈現較為清晰、可辨識的文字，並支援不同語言的本地化</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/128113-nano-banana-2-flash-pro-performance</guid>
-      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128113/thumb/498581782af7dc8969790527963c7588.jpg?1772422792" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Mar 2026 06:00:00 +0000</pubDate>
+      <title>聯想模組化AI PC概念機曝光！鍵盤秒變第二螢幕，黑科技搶先看！</title>
+      <link>https://www.techbang.com/posts/128139-lenovo-modular-ai-pc-keyboard-screen-mwc</link>
+      <description>聯想將在 MWC 展出創新的模組化 AI PC，其鍵盤可替換為第二塊螢幕，輕鬆打造雙螢幕工作站。這款模組化 AI PC 概念機，不僅提供彈性雙螢幕體驗，更打破傳統筆電框架，引發熱烈討論。Lenovo 聯想即將在 MWC 世界行動通訊大會展出一款可以把鍵盤拆掉、換成第二塊螢幕的模組化 AI PC，知名爆料大神 evleaks 已經搶先在社群平台 X 上釋出這款概念機的外觀圖。 雖然詳細規格尚未公開，但這種打破傳統筆電框架的設計，已經在科技圈引起熱烈討論。 雙螢幕筆電不稀奇，模組化才是新玩法 這款被命名為 ThinkBook Modular AI PC Concept 的概念機，外觀看起來像是一般的翻蓋筆電，但玄機藏在原本放置鍵盤的置腕區域。Lenovo 聯想把這裡設計成一整塊可以替換的模組空間。根據目前流出的渲染圖，玩家至少有兩種模組可以自由替換：第一種是我們最熟悉的標準筆電鍵盤模組；第二種則是直接換上一塊與上蓋主螢幕尺寸完全相同的第二螢幕模組。這樣一來，同一台筆電就能瞬間變身為雙螢幕工作站。 捨棄昂貴摺疊面板，用模組化兼顧成本與耐用度 為什麼要採用這樣的設計？業界普遍認為，這是 Len</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128139-lenovo-modular-ai-pc-keyboard-screen-mwc</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128139/thumb/b581aadb4b357bb71694c558ebbdc36f.jpg?1772439531" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Mar 2026 06:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>Windows 11將引入手機級權限管理功能，告別流氓軟體拒絕告別「買一送三」！</title>
-      <link>https://www.techbang.com/posts/127947-windows-11-mobile-permissions</link>
-      <description>微軟為 Windows 11 帶來重大更新，引入智慧型手機般的權限管理，終結流氓軟體亂象。未來 Windows 11 將嚴格控管應用程式權限，徹底杜絕流氓軟體綑綁安裝。相信不少 Windows 用戶都有過這種崩潰經驗：明明只是想安裝個小工具，結果「下一步」按太快，電腦首頁就被綁架、桌面多了奇怪的捷徑，甚至莫名其妙被安裝了一堆「全家桶」軟體。這下微軟終於要出手整治了！為了遏止這種亂象，微軟宣布將在 Windows 11 中引入類似智慧型手機的權限管理機制，未來應用程式想亂動你的電腦？得先問過你才行。 根據微軟最新發布的公告指出，這項重大更新將引入「使用者透明度與同意」（User Transparency and Consent）機制。簡單來說，未來的 Windows 11 操作體驗將會越來越像你的 iPhone 或 Android 手機。過去許多電腦軟體習慣「先斬後奏」，但在新機制下，當有應用程式試圖存取你的麥克風、鏡頭、位置資訊，甚至是嘗試安裝非必要的綑綁軟體時，系統會強制跳出詢問視窗 。 拒絕「買一送一」！權限控制權回歸玩家手中 這次更新最讓玩家有感的，莫過於對抗「流氓軟體」的防護能</description>
-      <guid isPermaLink="false">https://www.techbang.com/posts/127947-windows-11-mobile-permissions</guid>
-      <enclosure url="https://cdn2.techbang.com/system/excerpt_images/127947/thumb/ba39bff509dd9bcebf17707cfa8cdc55.jpg?1770794574" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Mar 2026 06:30:00 +0000</pubDate>
+      <title>Gogoro EZZY 500《玩具總動員》特仕版登場：補助後不到 4 萬、再享 1 元配件大禮包</title>
+      <link>https://www.techbang.com/posts/128163-gogoro-ezzy-500-toy-story-edition</link>
+      <description>Gogoro 攜手迪士尼皮克斯，推出台灣首款官方授權的 Gogoro EZZY 500 玩具總動員系列電動機車，有「浩瀚宇宙號」與「歡樂牛仔號」可選擇。Gogoro 近年積極跨界聯名，這次適逢經典動畫《玩具總動員》30 週年，宣布與迪士尼皮克斯合作，推出台灣首款官方授權的「Gogoro EZZY 500 玩具總動員系列」。在外觀設計上誠意十足，推出「浩瀚宇宙號」與「歡樂牛仔號」兩款車型，分別以 Buzz Lightyear 與 Jessie 為設計靈感，從車身配色到細節飾件皆融入角色元素，鎖定親子族群與動漫粉絲市場。更祭出早鳥加價購優惠，讓科技與童趣完美融合。 角色細節入車身，不加價推出 兩款車型在車頭飾板、座墊後方加入玩具總動員專屬徽章，側邊設計、踏板則各自呼應角色特色，甚至燈套也是造型的一環，在細節上有滿滿的玩具總動員。 當中，浩瀚宇宙號以巴斯光年為主角，並以經典紫、白、綠為主調，車身配備了「雷射按鈕」裝飾與專屬刺繡電繡圖騰，細節處處可見巴斯光年的元素。 至於歡樂牛仔號則以翠絲為主角，融入《玩具總動員 4》中胡迪交棒給翠絲的「警長徽章」，並搭載極簡頭燈造型矽膠套，展現率性風格。 配</description>
+      <guid isPermaLink="false">https://www.techbang.com/posts/128163-gogoro-ezzy-500-toy-story-edition</guid>
+      <enclosure url="https://cdn1.techbang.com/system/excerpt_images/128163/thumb/a635a6fe1b6430afa4f66ef75df1f6c3.jpg?1772513462" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Mar 2026 06:31:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
