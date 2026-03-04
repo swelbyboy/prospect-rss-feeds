@@ -8,36 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Mar 2026 07:29:40 +0000</lastBuildDate>
-    <item>
-      <title>CMOS-Compatible Approach to Extending the Spectral Response of Oxide Semiconductors</title>
-      <link>https://semiengineering.com/cmos-compatible-approach-to-extending-the-spectral-response-of-oxide-semiconductors/</link>
-      <description>A new technical paper titled “Sputtering-driven formation of interstitial oxygen for intrinsic NIR detection in IGZO phototransistor” was published by researchers at KICET, Korea University, Yonsei University, and Argonne National Lab. Abstract “Amorphous indium gallium zinc oxide (a-IGZO) is a promising wide-bandgap semiconductor for large-area optoelectronics; however, its intrinsic insensitivity to sub-bandgap photons typically necessitates... » read more The post CMOS-Compatible Approach to</description>
-      <guid isPermaLink="false">https://semiengineering.com/cmos-compatible-approach-to-extending-the-spectral-response-of-oxide-semiconductors/</guid>
-      <pubDate>Thu, 26 Feb 2026 16:49:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>An FPGA-based Accelerator Addressing Bottlenecks in GNN Preprocessing (KAIST et al.)</title>
-      <link>https://semiengineering.com/an-fpga-based-accelerator-addressing-bottlenecks-in-gnn-preprocessing-kaist-et-al/</link>
-      <description>A new technical paper “AutoGNN: End-to-End Hardware-Driven Graph Preprocessing for Enhanced GNN Performance” was published by researchers at KAIST, Panmnesia, Peking University, Hanyang University, and Pennsylvania State University. Abstract “Graph neural network (GNN) inference faces significant bottlenecks in preprocessing, which often dominate overall inference latency. We introduce AutoGNN, an FPGA-based accelerator designed to address these... » read more The post An FPGA-based Accelerator</description>
-      <guid isPermaLink="false">https://semiengineering.com/an-fpga-based-accelerator-addressing-bottlenecks-in-gnn-preprocessing-kaist-et-al/</guid>
-      <pubDate>Thu, 26 Feb 2026 18:48:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chip Industry Week In Review</title>
-      <link>https://semiengineering.com/chip-industry-week-in-review-127/</link>
-      <description>Rapidus' new $1.7B infusion; Intel and UMC leadership moves; faster EUV; $100B GPU deal; Arm-Tensor robocar; smartphone market to decline; HBF; $1B in AI chip funding; imec's mCFET study; monolithically stackable 1T1C 3D DRAM; automotive edge; Yongin cluster opening moved up; robovacuum hack; chip industry earnings. The post Chip Industry Week In Review appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/chip-industry-week-in-review-127/</guid>
-      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/02/l-en260224-2-1.jpg?resize=1600%2C900&amp;#038;ssl=1" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 27 Feb 2026 08:01:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>A GPU Microarchitecture Optimized for Fully Homomorphic Encryption</title>
-      <link>https://semiengineering.com/a-gpu-microarchitecture-optimized-for-fully-homomorphic-encryption/</link>
-      <description>Researchers from Boston University, Northeastern University, KAIST, and University of Murcia, et al. have released “FHECore: Rethinking GPU Microarchitecture for Fully Homomorphic Encryption”. Abstract“Fully Homomorphic Encryption (FHE) enables computation directly on encrypted data but incurs massive computational and memory overheads, often exceeding plaintext execution by several orders of magnitude. While custom ASIC accelerators can mitigate... » read more The post A GPU Microarchitecture O</description>
-      <guid isPermaLink="false">https://semiengineering.com/a-gpu-microarchitecture-optimized-for-fully-homomorphic-encryption/</guid>
-      <pubDate>Sun, 01 Mar 2026 08:01:42 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 04 Mar 2026 07:27:26 +0000</lastBuildDate>
     <item>
       <title>Optimal Heterogeneous Memory Configs for AI Tasks Under Specified Performance Metrics (Stanford, UCSC)</title>
       <link>https://semiengineering.com/optimal-heterogeneous-memory-configs-for-ai-tasks-under-specified-performance-metrics-stanford-ucsc/</link>
@@ -80,6 +51,35 @@
       <description>Researchers from Imperial College London and Bytedance released “Systems-Level Attack Surface of Edge Agent Deployments on IoT”. Abstract “Edge deployment of LLM agents on IoT hardware introduces attack surfaces absent from cloud-hosted orchestration. We present an empirical security analysis of three architectures (cloud-hosted, edge-local swarm, and hybrid) using a multi-device home-automation testbed with local MQTT... » read more The post 5 Systems-Level Attack Surfaces That Are Architectura</description>
       <guid isPermaLink="false">https://semiengineering.com/5-systems-level-attack-surfaces-that-are-architectural-consequences-of-edge-local-deployment-imperial-college-london/</guid>
       <pubDate>Mon, 02 Mar 2026 23:46:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Follow The AI Leader</title>
+      <link>https://semiengineering.com/follow-the-ai-leader/</link>
+      <description>Who will lead the integration of AI with EDA? That story has not yet been written, but there are some unlikely contenders. The post Follow The AI Leader appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/follow-the-ai-leader/</guid>
+      <pubDate>Tue, 03 Mar 2026 08:01:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chip Industry Technical Paper Roundup: Mar. 3</title>
+      <link>https://semiengineering.com/chip-industry-technical-paper-roundup-mar-3/</link>
+      <description>GNN acceleration; IGZO near-infrared sensing; LiDAR super-resolution for autonomous driving; cobalt ALD/MLD thin films; ultrafast laser nonlinear effects; atomic-scale GAA metrology; ReRAM-based neuromorphic online learning; GenAI SW-to-HW design; fusion-aware accelerator mapping; laser fault injection in SRAM. The post Chip Industry Technical Paper Roundup: Mar. 3 appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/chip-industry-technical-paper-roundup-mar-3/</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/17.0.2/72x72/1f517.png" length="0" type="image/png"/>
+      <pubDate>Tue, 03 Mar 2026 08:01:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Research Bits: Mar. 3</title>
+      <link>https://semiengineering.com/research-bits-march-3/</link>
+      <description>Computational electron microscopy; measuring multiple properties at once; hexagonal boron nitride defects. The post Research Bits: Mar. 3 appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/research-bits-march-3/</guid>
+      <pubDate>Tue, 03 Mar 2026 08:01:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Challenges In Signoff</title>
+      <link>https://semiengineering.com/new-challenges-in-signoff/</link>
+      <description>What else to consider before sending a design to manufacturing. The post New Challenges In Signoff appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/new-challenges-in-signoff/</guid>
+      <pubDate>Tue, 03 Mar 2026 08:15:17 +0000</pubDate>
     </item>
   </channel>
 </rss>
