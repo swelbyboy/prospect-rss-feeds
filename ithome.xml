@@ -8,81 +8,82 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Mar 2026 06:59:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 06:57:11 +0000</lastBuildDate>
     <item>
-      <title>緩解歐盟CBAM政策！環境部將設服務平臺輔導企業減輕衝擊</title>
-      <link>https://www.ithome.com.tw/news/174116</link>
-      <description>新聞歐盟碳邊境調整機制(CBAM)於今年正式上路，今年進口至歐盟的列管產品得申報碳含量，並需經歐盟認可的查驗機構查驗，進行碳價調整計算，明年向歐盟繳交CBAM憑證費用。環境部表示，為協助企業因應CBAM 衝擊，將建立CBAM服務平臺，協助業者降低行政成本。 歐盟爲達成減碳目標，加強其總量管制排放交易(ETS)，同時針對列管進口商品實施CBAM政策，使其與歐盟境內負擔同樣的碳成本，CBAM政策在2023年到2025年為緩衝期，2026年正式實施，目前歐盟已提出CBAM相關子法，但尚未提出碳價扣減及查驗指引等尚未提出。 依歐盟執委會在過渡期公布的前20大CBAM產品進口國，臺灣名列第13名，產品總重約374萬公噸，主要為鋼鐵製品，如螺絲、螺帽等扣件，不銹鋼及碳鋼製品。 歐盟CBAM係針對企業，而非國家，希望促成企業降低產品的碳排，CBAM憑證計算可以扣除生產國實際支付碳成本(包含碳費)，環境部指出，我國雖非歐盟前幾大進口國，但是生產製造商品者多為中小企業，約有2,600家，對企業而言，申報、查驗、碳價都是一大負擔。 鑑於CBAM法規，目前歐盟也與會員國諮詢中，且法規複雜不易理解，因此環境部</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174116</guid>
-      <pubDate>Mon, 02 Mar 2026 09:52:48 +0000</pubDate>
+      <title>駭客透過分部辦公室的Fortinet防火牆滲透整個公司的網路環境，企圖竊取備份系統與NAS設備資料</title>
+      <link>https://www.ithome.com.tw/news/174165</link>
+      <description>新聞Amazon於2月下旬揭露鎖定Fortinet防火牆的大規模攻擊活動，駭客借助AI的力量，從1月上旬至2月初入侵超過600臺FortiGate裝置，後續資安威脅研究員Mike於部落格Cyber and Ramen進一步揭露，駭客使用DeepSeek分析偵察資料並產生攻擊計畫，並搭配Claude的程式碼助理打造攻擊工具並執行，但究竟整個攻擊流程如何運作？研究人員說明了相關細節。 Mike根據駭客錯誤配置的伺服器進行調查，基於當中存放的檔案，試圖還原攻擊活動的樣貌。其中，關於入侵一家天然氣公司的活動資料最為完整，雖然無從得知駭客如何對FortiGate下手，不過當時他們已取得管理員的憑證。最初滲透受害組織的管道，是分部辦公室的防火牆設備FortiGate-40F，利用特定的唯讀管理員帳號進行存取。儘管此帳號的權限相當有限，但能完整備份防火牆組態，使得攻擊者能掌握受害組織的網路拓撲，包含公司總部、分部辦公室、用於訪客與系統管理的網路環境，以及所有使用者的SSL VPN設定等。 駭客收集LDAP伺服器設定與網域控制器（DC）的細節，其中包含LDAP的用戶綁定組態，可對VPN使用者進行AD的</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174165</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/ATTACK_CHAIN_DIAGRAM-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Mar 2026 02:58:57 +0000</pubDate>
     </item>
     <item>
-      <title>Google抓Antigravity濫用誤鎖Gemini CLI用戶，新增再認證解封流程</title>
-      <link>https://www.ithome.com.tw/news/174106</link>
-      <description>新聞Google在gemini-cli專案公告，稍早陸續有Gemini CLI用戶回報帳號遭中斷存取。原因出在AI代理人開發平臺Antigravity的後端服務層，針對違反服務條款的行為啟動一波封鎖措施，在同一層的濫用防護機制作用下，連帶影響使用者對Gemini CLI與Gemini Code Assist的存取權限。 該封鎖行動主要針對以第三方軟體或代理存取Antigravity資源與配額的用法。由於防護機制作用在後端，Antigravity的封鎖名單也影響依賴同一後端通道的Gemini CLI與Gemini Code Assist。Google坦承這次處置造成干擾，並表示已啟動系統層級的自動解封，清理近期遭標記的帳號，大部分受影響帳號可在一至兩天恢復。 Google已調整該封鎖流程，之後帳號要是被判定違反條款，使用者將收到通知信，Gemini CLI也會顯示更明確的錯誤訊息，並引導至專用Google表單。使用者需重新閱讀條款並完成再認證，確認不得繞過系統措施或規避使用限制，送出後由周期性同步機制自動恢復存取，通常在一至兩天內可恢復。若同一帳號第二次違規，則會被永久封鎖。 Googl</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174106</guid>
-      <pubDate>Mon, 02 Mar 2026 09:56:21 +0000</pubDate>
+      <title>OpenAI更新國防合作聲明，新增反國內監控與NSA排除條款</title>
+      <link>https://www.ithome.com.tw/news/174166</link>
+      <description>新聞OpenAI周一（3/2）更新其與美國國防部的合作聲明。該公司在官方文件中以「Department of War（DoW）」稱呼美國國防部（Department of Defense，DoD），並新增明確條款，禁止其AI系統被用於監控美國國內民眾，同時說明相關服務不會提供給美國國家安全局（National Security Agency，NSA）等情報機構。 OpenAI於2月28日宣布已與DoW達成協議，將其先進AI系統部署於機密環境。該公司表示，此次合作採取雲端部署模式，並保留完整安全機制（Safety Stack），不會提供移除護欄的模型，也不會將模型部署於邊緣設備，以避免被用於完全自主武器系統。 在3月2日更新的聲明中，OpenAI表示，在與國防部討論後，雙方同意於協議中加入更明確的文字，強調AI系統不得被用於對美國公民進行國內監控，包括透過購買或使用商業化個人資料進行追蹤或監視。聲明亦指出，相關服務不會提供給DoW的情報機構，例如NSA，若未來需要提供服務，必須另行簽署新的協議。 OpenAI表示，其與DoW合作建立在3項核心紅線之上，包括不得用於大規模國內監控、不得用於</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174166</guid>
+      <pubDate>Wed, 04 Mar 2026 03:04:32 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】3月2日，OpenClaw存在可被用於接管的資安漏洞ClawJacked</title>
-      <link>https://www.ithome.com.tw/news/174114</link>
-      <description>新聞OpenClaw存在資安漏洞ClawJacked，攻擊者恐透過WebSocket連線挾持 資安公司Oasis Security近日揭露OpenClaw存在名為ClawJacked的高風險安全漏洞（未登記CVE編號、尚無CVSS風險評分），攻擊者只要誘導使用者瀏覽惡意網站，在無需額外下載或使用者點擊、安裝擴充套件或外掛程式的情況下，就可能暗中接管電腦執行的AI代理系統。對此，該公司已向OpenClaw開發工程團隊通報，OpenClaw亦發布2026.2.25版修補。 對於ClawJacked的問題核心，出現在OpenClaw啟動時建立的本地閘道（gateway）服務。該服務透過WebSocket監聽本機（localhost）連線，原本設計目的是讓瀏覽器介面與OpenClaw代理溝通。然而Oasis Security發現，攻擊者可透過惡意網站的JavaScript程式碼，嘗試與電腦本機的WebSocket建立連線，而瀏覽器的跨來源政策（cross-origin policies）不會阻擋此類連線行為。另一方面，閘道服務對於來自本機的身分驗證請求，未實施嚴格的速率限制，導致攻擊者可透過瀏</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174114</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/WgpCMgHE4u.png" length="0" type="image/png"/>
-      <pubDate>Mon, 02 Mar 2026 10:45:52 +0000</pubDate>
+      <title>Google發布Android更新修補高通晶片組零時差漏洞</title>
+      <link>https://www.ithome.com.tw/news/174168</link>
+      <description>新聞Google本周發布Android更新，修補近130項漏洞，包括影響高通手機、筆電及汽車晶片一個已遭到濫用的記憶體毀損漏洞。 Google本周接連在3月1日及3月5日發出Android安全更新，修補129項漏洞，影響核心、架構、系統、Google Play，以及合作晶片廠元件包括Arm、MediaTek、Qualcomm元件與Qualcomm封閉原始碼元件、以及Imagination Technologies等最高和高度風險漏洞。 其中Google警告，已有跡象顯示攻擊者可能正在利用CVE-2026-21385漏洞發動攻擊。該漏洞列於高通顯示元件項目，由Google Android安全團隊發現並通報高通。 根據高通安全公告，CVE-2026-21385為圖形元件中的整數溢出或迴繞（Integer Overflow or Wraparound in Graphics）漏洞，攻擊者需先取得本地存取權限，才能透過惡意程式觸發記憶體毀損。該漏洞的CVSS風險分數為7.8分，屬高風險（High）等級。 該漏洞影響多款高通晶片組，涵蓋旗艦手機（Snapdragon 8 Elite、Snapdr</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174168</guid>
+      <pubDate>Wed, 04 Mar 2026 03:39:16 +0000</pubDate>
     </item>
     <item>
-      <title>Unsloth推Dynamic 2.0 GGUF量化方法，兼顧模型一致性與檔案效率</title>
-      <link>https://www.ithome.com.tw/news/174118</link>
-      <description>新聞開源大型語言模型微調工具Unsloth團隊公開Dynamic v2.0模型量化方法，並表示後續將以Dynamic 2.0產出與更新GGUF模型檔，供llama.cpp與LM Studio等常見本地推論引擎使用。官方表示該方法著重在控制GGUF檔案大小與量化誤差之間的取捨，讓量化後的輸出行為更接近原始模型，盡量維持準確度。 Unsloth是一套大型語言模型微調與強化學習的開源工具，團隊近年也延伸到量化模型檔的發行，以及主流推論框架的相容性維護。GGUF不是新的模型架構或訓練標準，而是llama.cpp生態系常用的模型檔案格式設計，用單一檔案封裝模型推論所需資訊，並透過可擴充的鍵值型中繼資料結構，讓執行端更一致地載入模型。 而Dynamic 2.0則是量化方法的更新，主要變化在於針對每個可量化層動態決定量化型別，不再只處理少數層，且不同模型會採用不同的量化配置。同時，Unsloth表示，後續釋出的GGUF量化模型將導入新版校準資料集。官方描述其規模約150萬個詞元（Token），用於提升對話型模型在量化後的對話品質與穩定性。 Unsloth指出，先前Dynamic量化主要適用混合專家（</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174118</guid>
-      <pubDate>Mon, 02 Mar 2026 22:59:20 +0000</pubDate>
+      <title>俄羅斯駭客組織APT28發動MacroMaze行動，濫用合法Webhook與Word巨集鎖定西歐與中歐目標</title>
+      <link>https://www.ithome.com.tw/news/174161</link>
+      <description>新聞西班牙資安業者S2 Grupo於2月中旬發布研究報告，揭露一波歸因於俄羅斯背景駭客組織APT28的滲透行動。S2 Grupo旗下威脅情報團隊Lab52以中度信心將此次行動歸因於該組織。APT28亦以Fancy Bear、Forest Blizzard與FROZENLAKE等名稱為外界所知。攻擊活動自去年9月持續至今年1月，鎖定西歐與中歐的特定組織及政府相關實體。 研究團隊將此次行動命名為MacroMaze行動（Operation MacroMaze），過程中，攻擊者並未利用零時差漏洞或高度複雜的專屬惡意程式，而是運用批次檔、VBScript與簡單HTML等基本工具，搭配合法Webhook服務（如webhook[.]site）建構命令傳遞與資料外流流程，呈現出「工具簡單、流程精細」的戰術設計。 Word文件暗藏圖片連結，開啟瞬間即回報攻擊者 分析顯示，MacroMaz攻擊鏈以魚叉式釣魚郵件為起點，誘騙目標開啟夾帶的Microsoft Word文件。這些文件在XML結構嵌入名為INCLUDEPICTURE的欄位，指向webhook[.]site的JPG圖片資源。 圖片來源／S2 Gru</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174161</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0304-apt28-600-1.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Mar 2026 05:13:30 +0000</pubDate>
     </item>
     <item>
-      <title>激進駭客駭入美國政府網站公布外包商資料</title>
-      <link>https://www.ithome.com.tw/news/174122</link>
-      <description>新聞一群駭客行動主義者（hacktivist）據稱駭入美國國土安全部（Department of Homeland Security，DHS）資料庫，並於3月1日公布6000多家DHS外包業者包括微軟、甲骨文及相關合約資料，以抗議移民海關執法局（Immigration and Customs Enforcement，ICE）執法過當。 這名駭客自稱「和平部」（Department of Peace），他/她公布在Distributed Denial of Secrets線上檔案庫的資料來自DHS的產業合作局（Office of Industry Partnership）。這些資料包含2個檔案，共17.04MB。其中一個是6681家曾經向DHS表達有意承包的業者，其中不乏知名大廠如微軟、甲骨文、AI資料分析商Palantir以及軍事武器供應商Anduril、HBGary、L3Harris和Raytheon等。另一個檔案則是這些廠商贏得了哪些政府合約，以及這些合約內容為何，駭客稱「較不敏感的｣，但也未出現於DHS官方網站的資料。 「和平部」說明駭入DHS的動機，出於ICE今年初執法過當造成</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174122</guid>
-      <pubDate>Tue, 03 Mar 2026 02:42:57 +0000</pubDate>
+      <title>汽車輪胎壓力監測系統的訊號廣播未加密恐遭長期追蹤，豐田、賓士等品牌車款有隱私外洩風險</title>
+      <link>https://www.ithome.com.tw/news/174160</link>
+      <description>新聞西班牙資安研究機構IMDEA Networks近日公布研究指出，現代車輛普遍配備的輪胎壓力監測系統（Tire Pressure Monitoring System，TPMS）在設計上未納入隱私保護機制，感測器會以明文形式對外廣播胎壓與溫度資料，並附帶長期不變的唯一識別碼，使車輛可能在駕駛人毫不知情的情況下遭長時間追蹤。 研究論文《Can't Hide Your Stride: Inferring Car Movement Patterns from Passive TPMS Measurements》指出，多數採用直接式輪胎壓力監測系統（Direct TPMS，dTPMS）的車款，會透過315 MHz或433 MHz頻段定期對外發送資料，且相關訊號並未加密。論文分析顯示，包含豐田（Toyota）、賓士（Mercedes-Benz）、雷諾（Renault）與現代（Hyundai）等車廠的多款車型，普遍採用此類dTPMS架構。 研究團隊在道路與停車場周邊架設5組低成本軟體定義無線電（Software-Defined Radio，SDR）設備，連續蒐集資料長達10週，共取得超過600萬筆</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174160</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0303-car-600-1.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Mar 2026 05:34:28 +0000</pubDate>
     </item>
     <item>
-      <title>蘋果推出iPhone 17e跟採用M4的iPad Air</title>
-      <link>https://www.ithome.com.tw/news/174123</link>
-      <description>新聞蘋果周一（3/2）同步發表iPhone 17e與搭載M4的新款iPad Air，鎖定入門與中階市場。兩款產品都在維持起售價格不變的前提下，強化效能、AI能力與連線規格，並把部分原本屬於高階機種的技術下放至主流價位。 其中，iPhone 17e與iPhone 17同樣搭載3奈米製程的A19晶片，但iPhone 17e採用的是4核心GPU版本，iPhone 17則為5核心GPU，兩者的起跳容量都是256GB。兩者皆採用6.1吋Super Retina XDR OLED顯示器。但在顯示技術上，iPhone 17支援ProMotion 120Hz自適應刷新率，而iPhone 17e為標準60Hz更新率，差異主要體現在畫面滑順度與動畫流暢性。 圖片來源／蘋果 在相機配置上，iPhone 17e採單顆48MP Fusion主鏡頭，透過感光裁切提供2倍光學品質望遠；iPhone 17則為雙鏡系統（主鏡+超廣角），在風景與多場景拍攝上更具彈性。iPhone 17e同時支援MagSafe與Qi2 15W無線充電，並搭載蘋果自研C1X數據機，支援衛星通訊功能。 iPhone 17e售價599美元起，而</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174123</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0303-iPhone%2017e-600.png" length="0" type="image/png"/>
-      <pubDate>Tue, 03 Mar 2026 03:12:24 +0000</pubDate>
+      <title>開源AI資安平臺CyberStrikeAI遭濫用，駭客用於大規模攻擊Fortinet防火牆</title>
+      <link>https://www.ithome.com.tw/news/174167</link>
+      <description>新聞威脅情報團隊Amazon Threat Intelligence揭露針對Fortinet防火牆設備的大規模攻擊活動，駭客從今年1月11日至2月18日入侵超過600臺FortiGate裝置，過程中濫用多個生成式AI服務而引發關注。有資安公司根據Amazon公布的調查結果，發現與中國政府有關的駭客可能參與其中。 資安公司Team Cymru指出，他們根據Amazon公布的入侵指標，發現駭客用於掃描活動的基礎設施212.11.64[.]250，與名為CyberStrikeAI的資安測試平臺有關。此平臺由代號為Ed1s0nZ的團體打造，根據該開發團隊的GitHub資料，他們與中國政府資助的團體進行互動，部分為與中國國家安全部（MSS）有明確關聯的企業組織。其中一個是資安公司知道創宇（Knownsec），Ed1s0nZ在2025年12月將CyberStrikeAI發布到該公司經營的Starlink專案。 另一個印證此開發團體與中國政府有關的證據，是他們在1月初於GitHub檔案提及，他們在中國資安國家漏洞資料庫（CNNVD）專案當中，於2024年漏洞獎勵計畫的二級貢獻獎。而CNNVD的維運單</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174167</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/CyberStrikeAI-dashboard.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Mar 2026 05:46:32 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic免費提供記憶匯入工具 向OpenAI ChatGPT用戶招手</title>
-      <link>https://www.ithome.com.tw/news/174126</link>
-      <description>新聞Anthropic昨（3/2）日公布對話記憶匯入工具，吸引對手如ChatGPT用戶轉向Claude。 記憶匯入（memory imports）工具去年10月就已提供給付費用戶，但現在Anthropic將之全面開放給所有Claude用戶包括免費、Pro、Max、Team和Enterprise方案，Web及Claude桌機版都能使用。 這工具讓用戶將其他AI聊天機器人的記憶匯入Claude，省去重新訓練的麻煩，Claude用戶也可用這工具備份或搬移記憶。 Anthropic並提供操作方法。首先，以自然語言提示從原有AI聊天機器人匯出記憶。Anthropic提供了一段提示讓使用者複製沿用、或客製修改。提示的重點是儘量保留原有字句、語調、格式；個資細節（姓名、地點、職稱、喜好、家人）、專案、目標、主題、使用的工具、語言和框架、用戶的偏好等。且要求它不要摘要、合併或遺漏任何對話。Anthropic並提醒用戶可以先匯出成Markdown檔方便儲存。 圖片來源／Anthropic 第二步是在Claude中開啟匯入過程，方法一是從主頁的「Import memory to Claude」按下「Get</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174126</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0303-claude%20memory%20import-600.png" length="0" type="image/png"/>
-      <pubDate>Tue, 03 Mar 2026 03:42:24 +0000</pubDate>
+      <title>駭客假借Zoom更新名義對Windows用戶下手，意圖植入監控工具進行後續活動</title>
+      <link>https://www.ithome.com.tw/news/174169</link>
+      <description>新聞在COVID-19疫情發生之後，視訊會議變得更加普及，其中Zoom是最常見的平臺，然而近期有人假借軟體更新的名義，在受害電腦暗中部署合法的監控工具，藉此在用戶不知情的情況下進行跟縱。 資安公司Malwarebytes揭露鎖定Windows的社交工程活動，駭客建立了模仿Zoom介面的網站，一旦使用者點擊假連結而認為進入會議時，頁面會顯示等待室並播放假的參與者加入提示音，讓使用者誤以為已連線到視訊會議。不久之後，網頁會顯示出現網路異常的訊息，播放斷斷續續的聲音與延遲呈現的畫面，幾分鐘後會「有更新可用」的訊息，並出現一個帶有倒數計時動畫圖案的彈出視窗，隨即自動安裝套件檔案下載至電腦。 值得留意的是，使用者即便未點擊「允許」，安裝檔仍會悄悄下載到電腦，並在未經用戶授權的情況下執行，最終在受害電腦植入合法遠端監控工具Teramind，該工具可記錄用戶所有按鍵輸入內容、定期截取螢幕截圖、記錄瀏覽過的網站和開啟的應用程式、擷取剪貼簿內容，並追蹤電子郵件和檔案活動。 為了讓使用者相信電腦正在更新Zoom，駭客還會在螢幕上顯示另一個Microsoft Store網頁，並呈現正在安裝Zoom Work</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174169</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/2026-02-21_124025-1.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Mar 2026 05:48:19 +0000</pubDate>
     </item>
     <item>
-      <title>Starkiller釣魚框架採AiTM反向代理，轉送真實登入頁面繞過MFA</title>
-      <link>https://www.ithome.com.tw/news/174119</link>
-      <description>新聞電子郵件防護業者Abnormal AI於2月19日發布威脅分析指出，一套名為Starkiller的釣魚框架正在地下市場流通。該工具由自稱Jinkusu的威脅團體推廣與維運，並以SaaS服務形式提供控制臺與技術支援，使攻擊者無需自行建置仿冒網站或代理基礎設施，即可快速部署高逼真度的釣魚攻擊。研究人員同時提醒，該釣魚框架名稱與資安顧問公司BC Security推出的合法紅隊測試工具Starkiller相同，但兩者用途與性質截然不同。 根據Abnormal AI說明，Starkiller的核心設計是採用對手中間人攻擊（Adversary-in-the-Middle，AiTM）架構的反向代理技術。攻擊者將自身基礎設施設於受害者與合法網站之間，充當中間人轉送雙方流量。在實作上，該框架會在Docker容器中啟動無頭模式Chrome瀏覽器，載入目標品牌官方網站，再透過反向代理方式，即時將真實網站畫面轉送給受害者。 由於頁面內容直接來自合法網站，而非傳統靜態仿冒頁面，因此能隨網站改版同步更新。Abnormal AI指出，在此情境下，受害者看到的登入頁面與官方網站幾乎無法區辨，網址列可能顯示看似合法</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174119</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0303-Starkiller%20phishing%20page.png" length="0" type="image/png"/>
-      <pubDate>Tue, 03 Mar 2026 03:49:06 +0000</pubDate>
+      <title>M5晶片進駐MacBook Air，M5 Max與Pro升級MacBook Pro</title>
+      <link>https://www.ithome.com.tw/news/174173</link>
+      <description>新聞蘋果周二（3/3）更新Mac筆電產品線，推出搭載M5晶片的新款MacBook Air，以及採用M5 Pro與M5 Max晶片的MacBook Pro。其中，MacBook Air提供13吋與15吋兩種尺寸，並支援Wi-Fi 7與Bluetooth 6無線連線技術；MacBook Pro則維持14吋與16吋機型定位，鎖定專業創作者與開發者市場。 M5晶片於2025年10月發表，是蘋果以人工智慧運算為核心設計的新一代晶片。該晶片採用3奈米製程，整合10核心CPU、10核心GPU與16核心神經引擎。相較於前一代M4，M5多執行緒CPU效能提升約15%，GPU圖形效能最高提升約45%，而AI相關運算效能最高可提升超過4倍，統一記憶體頻寬也提高至153GB/s。 M5晶片先前已導入MacBook Pro、iPad Pro及Apple Vision Pro等裝置。隨著此次更新，蘋果也將M5帶入MacBook Air產品線，使輕薄筆電也能支援更高強度的AI工作負載，例如本機執行大型語言模型、影像生成或影片處理等任務。 新款MacBook Air維持無風扇架構，提供13吋及15吋版本，並將預設儲存</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174173</guid>
+      <pubDate>Wed, 04 Mar 2026 06:05:35 +0000</pubDate>
     </item>
     <item>
-      <title>Google Chrome推Merkle樹狀憑證MTC加速抗量子HTTPS上路</title>
-      <link>https://www.ithome.com.tw/news/174124</link>
-      <description>新聞因應量子運算發展對現有網路加密體系帶來的潛在威脅，Google宣布在Chrome瀏覽器推動全新的抗量子HTTPS計畫。Google與標準組織IETF合作，導入Merkle樹狀憑證（Merkle Tree Certificates，MTC）技術。該技術以輕量化的密碼學證明取代繁重的傳統簽章鏈，讓瀏覽器在維持高效能連線的同時，建立更具彈性且預設具備透明度的安全防護機制。 由於後量子演算法會大幅增加加密金鑰與簽章的資料體積，應用於需要憑證透明度的傳輸層安全協議（TLS）交握時，會出現嚴重頻寬消耗與延遲。因此Google目前不打算在Chrome根憑證儲存庫中，替傳統X.509憑證加入後量子密碼學支援，而是與IETF旗下的PLANTS工作小組共同開發基於MTC架構的新一代HTTPS憑證。 在MTC的運作模型中，憑證中心只需對一個代表數百萬張憑證的樹狀根節點進行單一簽署，因此伺服器傳送給瀏覽器的將不再是一長串序列化的傳統憑證簽章鏈，而是一份極度輕量化的包含證明。該架構將TLS交握所需的驗證資料量降到最低，並將憑證透明度轉化為基礎屬性。這代表所有核發的憑證都必須強制登錄於公開的樹狀結構中，在不增</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174124</guid>
-      <pubDate>Tue, 03 Mar 2026 04:08:12 +0000</pubDate>
+      <title>Google預覽Gemini 3.1 Flash-Lite，主打低成本與大量任務處理</title>
+      <link>https://www.ithome.com.tw/news/174174</link>
+      <description>新聞Google本周發布輕量模型Gemini 3.1 Flash-Lite，主打快速、低成本，為執行高處理量的任務而設計。 即日起，Gemini 3.1 Flash-Lite以預覽版形式透過Google API在Google AI Studio上線，並透過Vertex AI提供給企業。 Gemini 3.1 Flash-Lite主打低價及更快的效能，號稱是Gemini 3系列速度最快、成本最低的模型。Google引述一項獨立標竿測試，Gemini 3.1 Flash-Lite在Time to First Answer Token（TTFT）的效能表現比2.5 Flash快2.5倍，輸出速度也提升45%。另一方面3.1 Flash-Lite雖然快，其推理、多模態理解能力卻不含糊。其GPQA Diamond跑分達86.9%，MMMU Pro達76.8%，超越2.5 Flash。Arena.ai Leaderboard Elo分數達1432，也技冠同級模型。 圖片來源／Google Google表示，3.1 Flash-Lite的快速及推理能力，可協助大量的開發任務，像是重視成本的大量翻譯或</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174174</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0304-gemini-600.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Mar 2026 06:24:20 +0000</pubDate>
     </item>
     <item>
-      <title>統合多種資安服務提供風險分析，AWS翻新偵測與應變方案</title>
-      <link>https://www.ithome.com.tw/review/174091</link>
-      <description>資安是大型公有雲業者持續擴增的服務類別，AWS旗下有5大類、33款產品，數量最多的類型是偵測與應變，其中的Security Hub是在2018年釋出預覽版，2019年正式推出，2021年納入自動應變與矯正功能，用戶可透過 CloudFormation（搭配 Lambda / Systems Manager），或結合商用議題追蹤與專案管理系統Jira，將Security Hub的資安發現轉為工單，2024年可整合IT服務管理平臺ServiceNow，實現快速的事故應變與矯正處理。 在2025年12月，原有的Security Hub改名為Security Hub CSPM，聚焦資安發現的匯聚、資安最佳實務的檢查、法規與政策遵循的監控，至於Security Hub這套資安服務，則是經過重新設計，從雲端安全態勢管理（CSPM）進化成統一的雲端安全解決方案， 能夠橫跨多個AWS資安服務，例如用於弱點管理的Amazon Inspector、用於威脅偵測的Amazon GuardDuty、用於雲端態勢管理的AWS Security Hub CSPM、用於敏感資料探查的Amazon Macie，執行資</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/174091</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/aws_security_hub-2025-main.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Mar 2026 04:38:43 +0000</pubDate>
+      <title>低程式碼AI平臺Langflow存在遠端RCE漏洞，提示詞注入可致伺服器遭遠端接管</title>
+      <link>https://www.ithome.com.tw/news/174171</link>
+      <description>新聞開源低程式碼AI工作流程建構平臺Langflow遭揭露重大安全漏洞CVE-2026-27966。該平臺的CSV代理節點因預設配置疏失，在Langflow服務可被外部請求觸及的情境下，攻擊者可透過提示詞注入引導模型觸發該工具，進而在伺服器端執行任意Python程式碼與作業系統指令。 該漏洞被評為最危險嚴重等級，目前已知受影響版本為1.6.9之前的舊版系統，官方在1.8.0中進行修補，呼籲使用者完成升級。 CVE-2026-27966漏洞發生的根本原因在於系統設計時將參數寫死的瑕疵。在Langflow平臺中，使用者可串接大型語言模型與CSV檔案來建立具備資料分析能力的代理，但在程式碼的實作中，開發團隊將允許執行危險程式碼的參數強制寫死為開啟狀態。該設定原本是為了讓AI代理能夠靈活處理與運算試算表資料，卻連帶自動啟用了LangChain框架底層的Python REPL工具。 由於系統並未提供任何使用者介面開關或環境變數讓系統管理者關閉此功能，導致該節點在預設狀態下即處於門戶洞開的危險狀態。 攻擊者無需具備任何系統特權或內部帳號，僅需建構包含特定惡意指令的對話提示詞，就能輕易誘使底層的大型</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174171</guid>
+      <pubDate>Wed, 04 Mar 2026 06:31:22 +0000</pubDate>
     </item>
   </channel>
 </rss>

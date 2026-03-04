@@ -8,55 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Mar 2026 07:12:45 +0000</lastBuildDate>
-    <item>
-      <title>Smart Focus Cloud</title>
-      <link>https://www.hackster.io/ItsArduinoBoy/smart-focus-cloud-622d95</link>
-      <description>Smart Focus Cloud is a 3D-printed ESP32 desk device with Pomodoro timer, climate sensing &amp;amp; animated progress to boost deep work focus</description>
-      <guid isPermaLink="false">https://www.hackster.io/ItsArduinoBoy/smart-focus-cloud-622d95</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1933374/_4uF348tHVt.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Mar 2026 08:17:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Raspberry Pi Smart Watch</title>
-      <link>https://www.hackster.io/ddominik/raspberry-pi-smart-watch-759e34</link>
-      <description>DIY Smart watch open-source, easily moddable based on Raspberry Pi RP2040 chip</description>
-      <guid isPermaLink="false">https://www.hackster.io/ddominik/raspberry-pi-smart-watch-759e34</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1933489/_ATXCceuX1U.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Mar 2026 12:28:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trading Precious Metals with Raspberry Pi &amp;amp; E-ink display</title>
-      <link>https://www.hackster.io/iayanpahwa/trading-precious-metals-with-raspberry-pi-e-ink-display-83ee8c</link>
-      <description>Raspberry Pi &amp;amp; E-ink scrapes &amp;amp; displays the price of Gold &amp;amp; Silver today</description>
-      <guid isPermaLink="false">https://www.hackster.io/iayanpahwa/trading-precious-metals-with-raspberry-pi-e-ink-display-83ee8c</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1933526/_Wt8fnBFvqL.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Mar 2026 15:41:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>RiscV with AI</title>
-      <link>https://www.hackster.io/voske65/riscv-with-ai-28a6f9</link>
-      <description>Create softcore peripherals using AI LMM models: create IP, Package it into a bundle, insert into your softcore architecture</description>
-      <guid isPermaLink="false">https://www.hackster.io/voske65/riscv-with-ai-28a6f9</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1933537/_ijaaX6F6jR.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 01 Mar 2026 13:17:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Verilog Testbench Essentials</title>
-      <link>https://www.hackster.io/mcleber/verilog-testbench-essentials-b3e886</link>
-      <description>Creating and Simulating Testbenches</description>
-      <guid isPermaLink="false">https://www.hackster.io/mcleber/verilog-testbench-essentials-b3e886</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1933697/_mSxdw45Qi2.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Mar 2026 00:23:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Controlling the Nero Robotic Arm with OpenClaw</title>
-      <link>https://www.hackster.io/agilexrobotics/controlling-the-nero-robotic-arm-with-openclaw-6f5b94</link>
-      <description>Combined with the pyAgxArm SDK, we will guide you through the download, installation, and configuration of OpenClaw.</description>
-      <guid isPermaLink="false">https://www.hackster.io/agilexrobotics/controlling-the-nero-robotic-arm-with-openclaw-6f5b94</guid>
-      <enclosure url="https://hackster.imgix.net/uploads/attachments/1933770/_7s8pqNu0rw.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 02 Mar 2026 07:25:01 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 04 Mar 2026 07:10:44 +0000</lastBuildDate>
     <item>
       <title>Stack Player – Automatic Stack Game Playing Machine</title>
       <link>https://www.hackster.io/ItsArduinoBoy/stack-player-automatic-stack-game-playing-machine-e35497</link>
@@ -88,6 +40,54 @@
       <guid isPermaLink="false">https://www.hackster.io/tiny-prism-labs/zephyr-rtos-on-frdm-mcxn947-a-practical-bring-up-guide-41e98c</guid>
       <enclosure url="https://hackster.imgix.net/uploads/attachments/1933862/_3obGkjrumT.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
       <pubDate>Fri, 13 Feb 2026 07:30:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw 🦞 For Robot Programming &amp;amp; PMSG on budget</title>
+      <link>https://www.hackster.io/psmooij/openclaw-for-robot-programming-pmsg-on-budget-d76a91</link>
+      <description>🦞 OpenClaw on Pi 5 + Hailo = wild local AI agents cranking Arduino robot &amp;amp; PMSG code no cloud! Raspberry Pi AI HAT+ packs a built-in Hailo</description>
+      <guid isPermaLink="false">https://www.hackster.io/psmooij/openclaw-for-robot-programming-pmsg-on-budget-d76a91</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1934284/_cmutIxF5wy.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Mar 2026 06:50:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>VAULT-TEC Air Terminal</title>
+      <link>https://www.hackster.io/Arnov_Sharma_makes/vault-tec-air-terminal-b479cb</link>
+      <description>Made a Terminal PC from fallout, powered by Raspberry Pi 5</description>
+      <guid isPermaLink="false">https://www.hackster.io/Arnov_Sharma_makes/vault-tec-air-terminal-b479cb</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1933376/_07FAWAe7XP.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 01 Mar 2026 08:45:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Arduino I2C EEPROM Read &amp;amp; Write</title>
+      <link>https://www.hackster.io/mcleber/arduino-i2c-eeprom-read-write-90c08d</link>
+      <description>Interfacing Multiple 24LC256 EEPROM Memories via I2C</description>
+      <guid isPermaLink="false">https://www.hackster.io/mcleber/arduino-i2c-eeprom-read-write-90c08d</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1934429/_yBGiziDHfi.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Mar 2026 19:54:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mod-8mm</title>
+      <link>https://www.hackster.io/iafilm/mod-8mm-cd962e</link>
+      <description>Mod-8mm: rescuing and improving old Super-8mm cameras by using stepper motors. Eliminating sprocket holes makes space for 16:9 images.</description>
+      <guid isPermaLink="false">https://www.hackster.io/iafilm/mod-8mm-cd962e</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1920480/_Fzm7EZklYO.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 10 Jan 2026 23:29:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Traffic Light Controller with Verilog</title>
+      <link>https://www.hackster.io/mcleber/traffic-light-controller-with-verilog-739703</link>
+      <description>Basic Sequential LED Control using FPGA</description>
+      <guid isPermaLink="false">https://www.hackster.io/mcleber/traffic-light-controller-with-verilog-739703</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1934483/_vSmBeJ3wn6.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Mar 2026 01:53:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Openterface KeyMod: Fast Control When Input Isn’t at Hand</title>
+      <link>https://www.hackster.io/techxartisan/openterface-keymod-fast-control-when-input-isn-t-at-hand-d91428</link>
+      <description>Turn your phone into a plug-and-play USB/Bluetooth HID keyboard and mouse for quick, reliable local control of hard-to-reach devices.</description>
+      <guid isPermaLink="false">https://www.hackster.io/techxartisan/openterface-keymod-fast-control-when-input-isn-t-at-hand-d91428</guid>
+      <enclosure url="https://hackster.imgix.net/uploads/attachments/1934269/_f2wWDhAT5n.blob?auto=compress%2Cformat&amp;w=400&amp;h=300&amp;fit=min" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 03 Mar 2026 06:51:30 +0000</pubDate>
     </item>
   </channel>
 </rss>

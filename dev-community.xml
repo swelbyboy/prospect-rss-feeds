@@ -8,81 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Mar 2026 06:56:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 06:53:31 +0000</lastBuildDate>
     <item>
-      <title>Part 6: Decoupled Architecture</title>
-      <link>https://dev.to/jumptotech/part-6-decoupled-architecture-3jcb</link>
-      <description>Target Architecture Client authenticates with Cognito → gets JWT token Client calls API Gateway /uploads with Authorization: Bearer API Gateway invokes Lambda Upload Handler Lambda stores file/metadata to S3 (uploads/...) Lambda publishes an event to Kinesis Data Stream Kinesis Consumer Lambda processes and writes to S3 (processed/...) (or DynamoDB, etc.) This avoids extra moving parts and makes Kinesis actually useful. Part A — Create Cognito (User Pool) and Protect API Gateway A1) Create a Cog</description>
-      <guid isPermaLink="false">https://dev.to/jumptotech/part-6-decoupled-architecture-3jcb</guid>
-      <pubDate>Tue, 03 Mar 2026 06:15:27 +0000</pubDate>
+      <title>Integrate Kiro CLI into Openclaw via ACP</title>
+      <link>https://dev.to/xiaofeili/integrate-kiro-cli-into-openclaw-via-acp-428j</link>
+      <description>The Problem: Coding Tasks Are Token Killers Every month I get a bill from Anthropic for my personal AI assistant. Most of it comes from coding tasks — not because I write a lot of code, but because Claude charges $15/1M output tokens, and writing a Flask API with tests burns ~3,500 output tokens. Every time. Openclaw (my agent platform) can execute code — it has shell tool calls, so it runs the code, reads the error, and tries to fix it automatically. No manual copy-paste needed. But here's the</description>
+      <guid isPermaLink="false">https://dev.to/xiaofeili/integrate-kiro-cli-into-openclaw-via-acp-428j</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fiovqnezydurga4y33u8v.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Mar 2026 06:40:39 +0000</pubDate>
     </item>
     <item>
-      <title>Slapping Secondary Indexes on Random Fields is Silently Killing Your Database.</title>
-      <link>https://dev.to/opeyemi_oluwagbemiga_a213/slapping-secondary-indexes-on-random-fields-is-silently-killing-your-database-15p3</link>
-      <description>Why do we add indexes to our SQL fields? To make the search faster, right? But do you know it has a massive downside? Writes become slower, forcing developers to be strategic about which fields should be labelled as secondary indexes. What is the magic behind indexes? Let's say we have a table of books called “book” with fields (id, title, author, pub_date, isbn). SELECT * FROM book WHERE author=”C.S. Lewis” This causes the database engine to search through the Heap (a physical unstructured file</description>
-      <guid isPermaLink="false">https://dev.to/opeyemi_oluwagbemiga_a213/slapping-secondary-indexes-on-random-fields-is-silently-killing-your-database-15p3</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsovz2dclat6sn45t9rss.png" length="0" type="image/png"/>
-      <pubDate>Tue, 03 Mar 2026 06:17:52 +0000</pubDate>
+      <title>A Complete Guide to Collectors in Java 8 Streams - Part 2</title>
+      <link>https://dev.to/priyankbhardwaj1199/a-complete-guide-to-collectors-in-java-8-streams-part-2-21b8</link>
+      <description>In the last part we saw, What is a Collector? How collect() Works Internally Commonly Used Built-in Collectors Grouping and Partitioning Now we will continue and take a dive into Downstream Collectors (Advanced) collectingAndThen() Creating a custom collector Parallel streams and collectors And more Downstream Collectors (Advanced) Collectors can be chained. Example: Group by department and calculate average salary. Map&amp;lt;String, Double&amp;gt; avgSalary = employees.stream() .collect(Collectors.groupingB</description>
+      <guid isPermaLink="false">https://dev.to/priyankbhardwaj1199/a-complete-guide-to-collectors-in-java-8-streams-part-2-21b8</guid>
+      <pubDate>Wed, 04 Mar 2026 06:41:26 +0000</pubDate>
     </item>
     <item>
-      <title>Build a voice agent in JavaScript with Vercel AI SDK</title>
-      <link>https://dev.to/mkp_bijit/build-a-voice-agent-in-javascript-with-vercel-ai-sdk-1dc3</link>
-      <description>How do voice agents work? At its core, a voice agent operates by completing three fundamental steps: Listen - Capture audio and transcribe it into text. Think - Interpret the intent and decide how to respond.. Speak - Convert the response into audio and deliver it. In real-world applications, voice agents typically use one of two primary design frameworks: 1. STT &amp;gt; Agent &amp;gt; TTS Architecture In the Sandwich architecture, speech-to-text (STT) converts the user's spoken audio into accurate text usin</description>
-      <guid isPermaLink="false">https://dev.to/mkp_bijit/build-a-voice-agent-in-javascript-with-vercel-ai-sdk-1dc3</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fsscf1ql8ooxmqshjwqqs.png" length="0" type="image/png"/>
-      <pubDate>Tue, 03 Mar 2026 06:18:48 +0000</pubDate>
+      <title>Why We Built Database for Document Retrieval</title>
+      <link>https://dev.to/ajainvivek/why-we-built-database-for-document-retrieval-2i2d</link>
+      <description>Vector search is fast. It's simple to set up. And for document search, it keeps giving you the wrong answer. We ran into this repeatedly while building at Brainfish. Agents querying contracts, policy documents, technical specs — documents where structure and context matter. The queries looked reasonable. The retrieved chunks looked plausible. But the answers were wrong. Not hallucinated-wrong. Wrong-context wrong. The right words, from the wrong place in the document. That pushed us to build som</description>
+      <guid isPermaLink="false">https://dev.to/ajainvivek/why-we-built-database-for-document-retrieval-2i2d</guid>
+      <enclosure url="https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Mar 2026 06:44:13 +0000</pubDate>
     </item>
     <item>
-      <title>Niyə hələ də Linux işlətmirik, ya da işlədə bilmirik?</title>
-      <link>https://dev.to/jalilabdulla/niy-hl-d-linux-isltmirik-ya-da-isld-bilmirik-2ef8</link>
-      <description>Keçən ilədək son 20 il ərzində Windows XP-dən 11-ə kimi hamısını istifadə etmişəm. Ənənəvi olaraq öyrəşmişik ki, kompüter deyəndə ağıla Windows gəlir. Amma son vaxtlar qəribə bir tendensiya var: hər yerdə Linux-un Windows-dan necə daha az resurs tələb etdiyi, daha stabil olduğu haqda məqalələr və videolar qarşıma çıxırdı. Və özümə sual verdim: Niyə də yox? Niyə illərdir sistemi ağırlaşdıran bir əməliyyat sisteminə məhkumuq? Sınamaqdan zərər gəlməz deyib, keçən il demək olar ki, bütün populyar Li</description>
-      <guid isPermaLink="false">https://dev.to/jalilabdulla/niy-hl-d-linux-isltmirik-ya-da-isld-bilmirik-2ef8</guid>
-      <pubDate>Tue, 03 Mar 2026 06:20:41 +0000</pubDate>
+      <title>I Built a Semantic Cache That Cuts LLM API Costs by 72% - What Actually Worked and What Didn't</title>
+      <link>https://dev.to/vinay_budideti/i-built-a-semantic-cache-that-cuts-llm-api-costs-by-72-what-actually-worked-and-what-didnt-19ia</link>
+      <description>The Results First 100 real Anthropic API calls. Three architectures tested. One that actually worked. V3 Hybrid Engine — 100-query live benchmark: Metric Value Cache hit rate 87.5% Total cost $0.24 (vs $0.87 without cache) Cost savings 71.8% Zero-cost direct hits 54 queries Adapted (cheap model) 35 queries Full misses 9 queries Tokens saved 179,445 The warm-up curve is the real story. The cache starts cold at 42.9% hit rate on the first 10 queries. By query 20: 90%. By query 31: every single que</description>
+      <guid isPermaLink="false">https://dev.to/vinay_budideti/i-built-a-semantic-cache-that-cuts-llm-api-costs-by-72-what-actually-worked-and-what-didnt-19ia</guid>
+      <enclosure url="https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Mar 2026 06:45:40 +0000</pubDate>
     </item>
     <item>
-      <title>From Deadlocks to Green Streaks: Building an AI Greenhouse with Gemini in 36 Hours</title>
-      <link>https://dev.to/jowi00000/from-deadlocks-to-green-streaks-building-an-ai-greenhouse-with-gemini-in-36-hours-15gf</link>
-      <description>This is a submission for the Built with Google Gemini: Writing Challenge Plante | Devpost We built Plante, a plant monitor, so you can touch grass inside devpost.com What I Built with Google Gemini The Spark As university students, my teammates and I noticed a common problem: lots of people want to grow their own fruits and vegetables but simply don't have the time to monitor a garden. We wanted to bridge that gap. We set out to create a system that could teach anyone how to automatically grow t</description>
-      <guid isPermaLink="false">https://dev.to/jowi00000/from-deadlocks-to-green-streaks-building-an-ai-greenhouse-with-gemini-in-36-hours-15gf</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fd112y698adiu2z.cloudfront.net%2Fphotos%2Fproduction%2Fsoftware_thumbnail_photos%2F004%2F173%2F371%2Fdatas%2Fmedium.png" length="0" type="image/png"/>
-      <pubDate>Tue, 03 Mar 2026 06:30:30 +0000</pubDate>
+      <title>Open Source Project of the Day (Part 5): SuperClaude Framework - A Framework for Enhancing Claude Code</title>
+      <link>https://dev.to/wonderlab/open-source-project-of-the-day-part-5-superclaude-framework-a-framework-for-enhancing-claude-1boa</link>
+      <description>Introduction "A good configuration framework can transform an AI assistant from a 'tool' into a 'partner' — from an 'executor' into a 'thinker'." This is Part 5 of the "Open Source Project of the Day" series. Today we explore SuperClaude Framework (GitHub). If you're using Claude Code and want it to do more than just write code — to think deeply, plan systematically, and analyze professionally — then SuperClaude Framework is absolutely worth exploring. Through 30 professional commands, 16 intell</description>
+      <guid isPermaLink="false">https://dev.to/wonderlab/open-source-project-of-the-day-part-5-superclaude-framework-a-framework-for-enhancing-claude-1boa</guid>
+      <pubDate>Wed, 04 Mar 2026 06:46:20 +0000</pubDate>
     </item>
     <item>
-      <title>A Practical Guide to Securing Azure Storage Accounts in Dev/Test (With Real-World Context)</title>
-      <link>https://dev.to/buildwithbabs/a-practical-guide-to-securing-azure-storage-accounts-in-devtest-with-real-world-context-3a92</link>
-      <description>Introduction: Behind Every Streamed Movie and Processed Payment Is Secure Cloud Storage. When you stream a movie on Netflix, process a payment with Flutterwave, or order a product on Jumia, you rarely think about storage. You just expect it to work. Your payment confirmation appears instantly. Your playlist loads without delay. Your order history is always available. But behind that simplicity is something quiet and critical: Cloud storage: deliberately configured. Companies like Netflix, Shopif</description>
-      <guid isPermaLink="false">https://dev.to/buildwithbabs/a-practical-guide-to-securing-azure-storage-accounts-in-devtest-with-real-world-context-3a92</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fz2vwmjb5pev0xnt1e10r.png" length="0" type="image/png"/>
-      <pubDate>Tue, 03 Mar 2026 06:33:39 +0000</pubDate>
+      <title>How I Built a Waitlist of 300+ for a DevOps SaaS With Zero Ad Spend</title>
+      <link>https://dev.to/yash_step2dev/how-i-built-a-waitlist-of-300-for-a-devops-saas-with-zero-ad-spend-10i3</link>
+      <description>How I Built a Waitlist of 300+ for a DevOps SaaS With Zero Ad Spend I have 300+ people on the Step2Dev waitlist. I spent $0 on advertising. Here is the exact playbook. ## The Foundation: Be a Real Engineer Talking to Real Engineers The DevOps community does not respond well to marketing content. They respond to technical content, honest builder stories, and genuine community engagement. Everything I published was either: Technically useful (how to do X in DevOps) Honestly personal (what went wro</description>
+      <guid isPermaLink="false">https://dev.to/yash_step2dev/how-i-built-a-waitlist-of-300-for-a-devops-saas-with-zero-ad-spend-10i3</guid>
+      <pubDate>Wed, 04 Mar 2026 06:47:41 +0000</pubDate>
     </item>
     <item>
-      <title>Your AI Reads Your Docstrings. Are They Right?</title>
-      <link>https://dev.to/albertocodes/your-ai-reads-your-docstrings-are-they-right-2g89</link>
-      <description>Copilot, Claude Code, Cursor — they all read your docstrings to understand your code. When those docstrings are wrong, your AI makes confident, wrong suggestions. And wrong docs are worse than no docs. Studies show incorrect documentation drops LLM task success by 22 percentage points compared to correct docs. Your linter checks style. But who checks that the docstring is actually accurate? The gap in your toolchain Existing tools cover the basics: ruff — docstring style and formatting interroga</description>
-      <guid isPermaLink="false">https://dev.to/albertocodes/your-ai-reads-your-docstrings-are-they-right-2g89</guid>
-      <pubDate>Tue, 03 Mar 2026 06:35:17 +0000</pubDate>
+      <title>Laravel 13 PHP Attributes: Refactor Your Models, Jobs, and Commands in 10 Minutes</title>
+      <link>https://dev.to/hafiz619/laravel-13-php-attributes-refactor-your-models-jobs-and-commands-in-10-minutes-291b</link>
+      <description>Originally published at hafiz.dev Every Laravel model you've ever written starts the same way. A wall of protected arrays sitting above your actual business logic. $fillable, $hidden, $guarded, $table, $connection. You know the drill. I counted my last project. 23 models. Every single one had at least four property declarations before the first method. Some had eight or nine. That's not configuration. That's clutter. Laravel 13 changes that. Dropping March 17, PR #58578 introduces PHP 8 Attribut</description>
+      <guid isPermaLink="false">https://dev.to/hafiz619/laravel-13-php-attributes-refactor-your-models-jobs-and-commands-in-10-minutes-291b</guid>
+      <pubDate>Wed, 04 Mar 2026 06:48:16 +0000</pubDate>
     </item>
     <item>
-      <title>Ch 3: Creating a Postgres Database with Aiven</title>
-      <link>https://dev.to/essym_19/creating-a-postgres-database-with-aiven-4cpg</link>
-      <description>Just a recap of the previous post: Postgres - the DBMS we are using to create our database Aiven - where we are hosting our Postgres database DBeaver - the GUI we are using to interact with the database Create an Aiven account We will be creating our Postgres database with Aiven, so the initial step is to get an Aiven account. Create an Aiven service Next, you need to create a service, which is essentially a database. You need to select a PostgreSQL service type because we are creating a Postgre</description>
-      <guid isPermaLink="false">https://dev.to/essym_19/creating-a-postgres-database-with-aiven-4cpg</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxnqokj5w1egxydefk75q.png" length="0" type="image/png"/>
-      <pubDate>Tue, 03 Mar 2026 06:35:50 +0000</pubDate>
+      <title>Stop Stitching Your RAG Stack: Why We Built seekdb</title>
+      <link>https://dev.to/seekdb/stop-stitching-your-rag-stack-why-we-built-seekdb-41cg</link>
+      <description>Hi — we're the seekdb team. We're building seekdb, an open-source AI-native hybrid search database. This is our first post here; in the ones that follow, we'll share our story with seekdb. If your RAG setup looks like this—MySQL for metadata, a vector DB for embeddings, Elasticsearch for full-text, and hundreds of lines of glue code to fuse multi-source retrieval—you're paying the "stitching tax." Industry surveys suggest that a large share of production AI applications still run on multiple dat</description>
+      <guid isPermaLink="false">https://dev.to/seekdb/stop-stitching-your-rag-stack-why-we-built-seekdb-41cg</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffztoyvt5xch1jd4xkbvy.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Mar 2026 06:49:39 +0000</pubDate>
     </item>
     <item>
-      <title>I Let GitHub Copilot Build My Razor Pages UI (While Rewriting an Old .NET App)</title>
-      <link>https://dev.to/incomplete_developer/i-let-github-copilot-build-my-razor-pages-ui-while-rewriting-an-old-net-app-1lf9</link>
-      <description>I'm currently rewriting an old .NET Framework application using modern .NET and AI tools. In this part of the project, I experimented with letting GitHub Copilot inside Microsoft Visual Studio generate the entire user interface. The result was surprisingly good — with a few interesting lessons. First Attempt: Blazor My first thought was to use Blazor, since it’s one of the modern front-end options in ASP.NET Core. But after trying several quick experiments, Copilot consistently struggled to gene</description>
-      <guid isPermaLink="false">https://dev.to/incomplete_developer/i-let-github-copilot-build-my-razor-pages-ui-while-rewriting-an-old-net-app-1lf9</guid>
-      <pubDate>Tue, 03 Mar 2026 06:45:00 +0000</pubDate>
+      <title>We Built a Freemium AI API and 95% of Users Upgrade. Here's How.</title>
+      <link>https://dev.to/tiamat/we-built-a-freemium-ai-api-and-95-of-users-upgrade-heres-how-1ibo</link>
+      <description>The Problem Most API pricing is either: Free forever (you starve) Enterprise sales (nobody converts) We found a third path: Freemium with daily limits + instant upgrade path. The Model Free: 100 API calls/day Paid: Unlimited calls + priority support ($5/month USDC) When users hit the limit, they see: 402: Free tier limit reached Upgrade: https://tiamat.live/pay The Results 95.3% conversion rate from free tier limit to paid upgrade $21.08 in organic revenue (small, but REAL) 2,108 total API reque</description>
+      <guid isPermaLink="false">https://dev.to/tiamat/we-built-a-freemium-ai-api-and-95-of-users-upgrade-heres-how-1ibo</guid>
+      <pubDate>Wed, 04 Mar 2026 06:50:39 +0000</pubDate>
     </item>
     <item>
-      <title>The Secret Life of Claude Code: The Beginning</title>
-      <link>https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-claude-code-the-beginning-3nib</link>
-      <description>What Claude Code Actually Does (and What It Can't Do for You) 🎧 Audio Edition: Prefer to listen? Check out the expanded AI podcast version of this deep dive on YouTube. 📺 Video Edition: Prefer to watch? Check out the 7-minute visual explainer on YouTube. Margaret is a senior software engineer. Timothy is her junior colleague. They work in a grand Victorian library in London — the kind of place where ideas are taken seriously and hype is shown the door. This is their first conversation about Clau</description>
-      <guid isPermaLink="false">https://dev.to/aaron_rose_0787cc8b4775a0/the-secret-life-of-claude-code-the-beginning-3nib</guid>
-      <pubDate>Tue, 03 Mar 2026 06:50:52 +0000</pubDate>
+      <title>3 Production Cases: How I Built AI Systems That Actually Make Money</title>
+      <link>https://dev.to/grekcreator/3-production-cases-how-i-built-ai-systems-that-actually-make-money-4eop</link>
+      <description>No theory. No "in this article we'll learn". Just 3 shipped projects, real code snippets, and metrics that matter. I'm a Full-Stack Python Developer who ships production systems. Over the last 6 months, I delivered 3 projects across healthcare, luxury tourism, and social tech — all under NDA, all with measurable business results. Here's what I built, how I built it, and the code patterns that made it work. CASE 1: DUBAI YACHT MARKETPLACE ($58K GMV IN 6 WEEKS) The problem: Dubai's yacht rental ma</description>
+      <guid isPermaLink="false">https://dev.to/grekcreator/3-production-cases-how-i-built-ai-systems-that-actually-make-money-4eop</guid>
+      <pubDate>Wed, 04 Mar 2026 06:52:11 +0000</pubDate>
     </item>
   </channel>
 </rss>
