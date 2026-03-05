@@ -8,80 +8,77 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Mar 2026 06:53:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 06:57:23 +0000</lastBuildDate>
     <item>
-      <title>Integrate Kiro CLI into Openclaw via ACP</title>
-      <link>https://dev.to/xiaofeili/integrate-kiro-cli-into-openclaw-via-acp-428j</link>
-      <description>The Problem: Coding Tasks Are Token Killers Every month I get a bill from Anthropic for my personal AI assistant. Most of it comes from coding tasks — not because I write a lot of code, but because Claude charges $15/1M output tokens, and writing a Flask API with tests burns ~3,500 output tokens. Every time. Openclaw (my agent platform) can execute code — it has shell tool calls, so it runs the code, reads the error, and tries to fix it automatically. No manual copy-paste needed. But here's the</description>
-      <guid isPermaLink="false">https://dev.to/xiaofeili/integrate-kiro-cli-into-openclaw-via-acp-428j</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fiovqnezydurga4y33u8v.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Mar 2026 06:40:39 +0000</pubDate>
+      <title>Chrome DevTools MCP: Give Your AI Agent Eyes in the Browser</title>
+      <link>https://dev.to/bobbyblaine/chrome-devtools-mcp-give-your-ai-agent-eyes-in-the-browser-4oho</link>
+      <description>AI coding assistants write frontend code they never see rendered. They debug console errors from stack traces you copy-paste into a chat window. Google's Chrome DevTools MCP server eliminates this blindfold by connecting your AI agent directly to a live Chrome session, giving it access to DOM inspection, console logs, network requests, and performance traces through natural language. What the DevTools MCP Server Does Chrome DevTools MCP is an official Google project that exposes Chrome's full de</description>
+      <guid isPermaLink="false">https://dev.to/bobbyblaine/chrome-devtools-mcp-give-your-ai-agent-eyes-in-the-browser-4oho</guid>
+      <pubDate>Thu, 05 Mar 2026 06:42:10 +0000</pubDate>
     </item>
     <item>
-      <title>A Complete Guide to Collectors in Java 8 Streams - Part 2</title>
-      <link>https://dev.to/priyankbhardwaj1199/a-complete-guide-to-collectors-in-java-8-streams-part-2-21b8</link>
-      <description>In the last part we saw, What is a Collector? How collect() Works Internally Commonly Used Built-in Collectors Grouping and Partitioning Now we will continue and take a dive into Downstream Collectors (Advanced) collectingAndThen() Creating a custom collector Parallel streams and collectors And more Downstream Collectors (Advanced) Collectors can be chained. Example: Group by department and calculate average salary. Map&amp;lt;String, Double&amp;gt; avgSalary = employees.stream() .collect(Collectors.groupingB</description>
-      <guid isPermaLink="false">https://dev.to/priyankbhardwaj1199/a-complete-guide-to-collectors-in-java-8-streams-part-2-21b8</guid>
-      <pubDate>Wed, 04 Mar 2026 06:41:26 +0000</pubDate>
+      <title>Spec-Driven Development: Write the Spec, Not the Code</title>
+      <link>https://dev.to/bobbyblaine/spec-driven-development-write-the-spec-not-the-code-2p5o</link>
+      <description>Vibe coding got developers building fast. It also got them rebuilding fast. The pattern: describe what you want, accept the AI's output, ship it. Then spend the next week debugging assumptions the model made because you never stated them. Spec-driven development is the emerging counter-approach, and in early 2026, three major platforms shipped dedicated tooling for it: GitHub's Spec Kit, AWS Kiro, and Tessl Framework. The idea is simple: write a structured specification first, then let the AI ge</description>
+      <guid isPermaLink="false">https://dev.to/bobbyblaine/spec-driven-development-write-the-spec-not-the-code-2p5o</guid>
+      <pubDate>Thu, 05 Mar 2026 06:42:16 +0000</pubDate>
     </item>
     <item>
-      <title>Why We Built Database for Document Retrieval</title>
-      <link>https://dev.to/ajainvivek/why-we-built-database-for-document-retrieval-2i2d</link>
-      <description>Vector search is fast. It's simple to set up. And for document search, it keeps giving you the wrong answer. We ran into this repeatedly while building at Brainfish. Agents querying contracts, policy documents, technical specs — documents where structure and context matter. The queries looked reasonable. The retrieved chunks looked plausible. But the answers were wrong. Not hallucinated-wrong. Wrong-context wrong. The right words, from the wrong place in the document. That pushed us to build som</description>
-      <guid isPermaLink="false">https://dev.to/ajainvivek/why-we-built-database-for-document-retrieval-2i2d</guid>
-      <enclosure url="https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Mar 2026 06:44:13 +0000</pubDate>
+      <title>Coast FIRE: The Tech Worker's AI Layoff Hedge</title>
+      <link>https://dev.to/stewartblake/coast-fire-the-tech-workers-ai-layoff-hedge-36o0</link>
+      <description>With 37% of companies planning AI-driven cuts, here is the math that makes your retirement layoff-proof. Sixty percent of organizations have already made or are planning headcount reductions tied to AI, according to a Harvard Business Review survey of 1,006 global executives. Here is the uncomfortable part: only 2% of those cuts are based on what AI can actually do today. The rest are bets on what it might do tomorrow. If you are a senior software engineer earning $250K and watching your company</description>
+      <guid isPermaLink="false">https://dev.to/stewartblake/coast-fire-the-tech-workers-ai-layoff-hedge-36o0</guid>
+      <pubDate>Thu, 05 Mar 2026 06:42:34 +0000</pubDate>
     </item>
     <item>
-      <title>I Built a Semantic Cache That Cuts LLM API Costs by 72% - What Actually Worked and What Didn't</title>
-      <link>https://dev.to/vinay_budideti/i-built-a-semantic-cache-that-cuts-llm-api-costs-by-72-what-actually-worked-and-what-didnt-19ia</link>
-      <description>The Results First 100 real Anthropic API calls. Three architectures tested. One that actually worked. V3 Hybrid Engine — 100-query live benchmark: Metric Value Cache hit rate 87.5% Total cost $0.24 (vs $0.87 without cache) Cost savings 71.8% Zero-cost direct hits 54 queries Adapted (cheap model) 35 queries Full misses 9 queries Tokens saved 179,445 The warm-up curve is the real story. The cache starts cold at 42.9% hit rate on the first 10 queries. By query 20: 90%. By query 31: every single que</description>
-      <guid isPermaLink="false">https://dev.to/vinay_budideti/i-built-a-semantic-cache-that-cuts-llm-api-costs-by-72-what-actually-worked-and-what-didnt-19ia</guid>
-      <enclosure url="https://assets.dev.to/assets/github-logo-5a155e1f9a670af7944dd5e12375bc76ed542ea80224905ecaf878b9157cdefc.svg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Mar 2026 06:45:40 +0000</pubDate>
+      <title>The RSU Withholding Gap: What Most Engineers Get Wrong</title>
+      <link>https://dev.to/stewartblake/the-rsu-withholding-gap-what-most-engineers-get-wrong-2b62</link>
+      <description>When your RSUs vest, your employer withholds taxes before depositing shares into your brokerage account. The critical issue most senior engineers overlook: "RSU tax withholding not enough is the default state, not an exception." Why Employers Withhold at 22% The IRS classifies RSU income as supplemental wages, allowing a flat 22% federal withholding rate regardless of your actual tax bracket. This is procedural simplification for payroll departments, not personalized tax calculation. For lower e</description>
+      <guid isPermaLink="false">https://dev.to/stewartblake/the-rsu-withholding-gap-what-most-engineers-get-wrong-2b62</guid>
+      <pubDate>Thu, 05 Mar 2026 06:42:41 +0000</pubDate>
     </item>
     <item>
-      <title>Open Source Project of the Day (Part 5): SuperClaude Framework - A Framework for Enhancing Claude Code</title>
-      <link>https://dev.to/wonderlab/open-source-project-of-the-day-part-5-superclaude-framework-a-framework-for-enhancing-claude-1boa</link>
-      <description>Introduction "A good configuration framework can transform an AI assistant from a 'tool' into a 'partner' — from an 'executor' into a 'thinker'." This is Part 5 of the "Open Source Project of the Day" series. Today we explore SuperClaude Framework (GitHub). If you're using Claude Code and want it to do more than just write code — to think deeply, plan systematically, and analyze professionally — then SuperClaude Framework is absolutely worth exploring. Through 30 professional commands, 16 intell</description>
-      <guid isPermaLink="false">https://dev.to/wonderlab/open-source-project-of-the-day-part-5-superclaude-framework-a-framework-for-enhancing-claude-1boa</guid>
-      <pubDate>Wed, 04 Mar 2026 06:46:20 +0000</pubDate>
+      <title>Cognitive Debt: The Real Cost of AI-Generated Code</title>
+      <link>https://dev.to/bobbyblaine/cognitive-debt-the-real-cost-of-ai-generated-code-33ep</link>
+      <description>Developers trust AI-generated code less than ever. Confidence in AI coding tools dropped from 43% to 29% in eighteen months, yet usage climbed to 84%. That gap between belief and behavior has a name now: cognitive debt. And unlike technical debt, you cannot refactor your way out of it. What Cognitive Debt Actually Means Margaret-Anne Storey described the phenomenon in a February 2026 blog post, building on Peter Naur's decades-old insight that a program is not its source code. A program is a the</description>
+      <guid isPermaLink="false">https://dev.to/bobbyblaine/cognitive-debt-the-real-cost-of-ai-generated-code-33ep</guid>
+      <pubDate>Thu, 05 Mar 2026 06:42:59 +0000</pubDate>
     </item>
     <item>
-      <title>How I Built a Waitlist of 300+ for a DevOps SaaS With Zero Ad Spend</title>
-      <link>https://dev.to/yash_step2dev/how-i-built-a-waitlist-of-300-for-a-devops-saas-with-zero-ad-spend-10i3</link>
-      <description>How I Built a Waitlist of 300+ for a DevOps SaaS With Zero Ad Spend I have 300+ people on the Step2Dev waitlist. I spent $0 on advertising. Here is the exact playbook. ## The Foundation: Be a Real Engineer Talking to Real Engineers The DevOps community does not respond well to marketing content. They respond to technical content, honest builder stories, and genuine community engagement. Everything I published was either: Technically useful (how to do X in DevOps) Honestly personal (what went wro</description>
-      <guid isPermaLink="false">https://dev.to/yash_step2dev/how-i-built-a-waitlist-of-300-for-a-devops-saas-with-zero-ad-spend-10i3</guid>
-      <pubDate>Wed, 04 Mar 2026 06:47:41 +0000</pubDate>
+      <title>Best Playwright GitHub Repositories to Study in 2026</title>
+      <link>https://dev.to/testdino01/best-playwright-github-repositories-to-study-in-2026-43nk</link>
+      <description>Here's a scenario most Playwright developers recognize. You write your first test. It passes. You add ten more. They pass too. Then your team joins in. The suite grows to 200 tests. CI starts failing randomly. Someone hardcodes a base URL. The playwright.config.ts becomes a file no one wants to touch. The gap between "I know Playwright" and "I can build something that scales" is real. One of the fastest ways to close it is reading how other teams built their frameworks. The repositories below ar</description>
+      <guid isPermaLink="false">https://dev.to/testdino01/best-playwright-github-repositories-to-study-in-2026-43nk</guid>
+      <pubDate>Thu, 05 Mar 2026 06:45:56 +0000</pubDate>
     </item>
     <item>
-      <title>Laravel 13 PHP Attributes: Refactor Your Models, Jobs, and Commands in 10 Minutes</title>
-      <link>https://dev.to/hafiz619/laravel-13-php-attributes-refactor-your-models-jobs-and-commands-in-10-minutes-291b</link>
-      <description>Originally published at hafiz.dev Every Laravel model you've ever written starts the same way. A wall of protected arrays sitting above your actual business logic. $fillable, $hidden, $guarded, $table, $connection. You know the drill. I counted my last project. 23 models. Every single one had at least four property declarations before the first method. Some had eight or nine. That's not configuration. That's clutter. Laravel 13 changes that. Dropping March 17, PR #58578 introduces PHP 8 Attribut</description>
-      <guid isPermaLink="false">https://dev.to/hafiz619/laravel-13-php-attributes-refactor-your-models-jobs-and-commands-in-10-minutes-291b</guid>
-      <pubDate>Wed, 04 Mar 2026 06:48:16 +0000</pubDate>
+      <title>I Built a Social Media Downloader and Got 169 Keywords Indexed in 7 Days</title>
+      <link>https://dev.to/jamesdon68/i-built-a-social-media-downloader-and-got-169-keywords-indexed-in-7-days-4j7k</link>
+      <description>Last week I launched SaveKit — a free tool to download videos and images from Pinterest, Instagram, Facebook, and TikTok (first MVP). No login. No watermark. Just paste a link and save. I wasn't sure if anyone would care. Turns out, they did. The numbers after 7 days 157 → 668 daily visitors (4x growth) 169 organic keywords indexed on Google Position 1 for "download video from facebook" Ranking in 5 languages already (English, Spanish, Portuguese, Turkish, Vietnamese) I didn't run a single ad. H</description>
+      <guid isPermaLink="false">https://dev.to/jamesdon68/i-built-a-social-media-downloader-and-got-169-keywords-indexed-in-7-days-4j7k</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fog7js6rcnhmhd5k37wid.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Mar 2026 06:46:53 +0000</pubDate>
     </item>
     <item>
-      <title>Stop Stitching Your RAG Stack: Why We Built seekdb</title>
-      <link>https://dev.to/seekdb/stop-stitching-your-rag-stack-why-we-built-seekdb-41cg</link>
-      <description>Hi — we're the seekdb team. We're building seekdb, an open-source AI-native hybrid search database. This is our first post here; in the ones that follow, we'll share our story with seekdb. If your RAG setup looks like this—MySQL for metadata, a vector DB for embeddings, Elasticsearch for full-text, and hundreds of lines of glue code to fuse multi-source retrieval—you're paying the "stitching tax." Industry surveys suggest that a large share of production AI applications still run on multiple dat</description>
-      <guid isPermaLink="false">https://dev.to/seekdb/stop-stitching-your-rag-stack-why-we-built-seekdb-41cg</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffztoyvt5xch1jd4xkbvy.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Mar 2026 06:49:39 +0000</pubDate>
+      <title>Context Engineering: CLAUDE.md and .cursorrules</title>
+      <link>https://dev.to/bobbyblaine/context-engineering-claudemd-and-cursorrules-dc7</link>
+      <description>75% of engineers use AI tools daily. Most organizations see no measurable productivity gains from them. Faros AI sums it up: "Clever prompts make for impressive demos. Engineered context makes for shippable software." When your AI coding agent enters a session without knowing your naming conventions, architecture patterns, or which directories to never touch, every session starts cold. That overhead compounds across every developer on every task. What Context Engineering Actually Is Context engi</description>
+      <guid isPermaLink="false">https://dev.to/bobbyblaine/context-engineering-claudemd-and-cursorrules-dc7</guid>
+      <pubDate>Thu, 05 Mar 2026 06:48:15 +0000</pubDate>
     </item>
     <item>
-      <title>We Built a Freemium AI API and 95% of Users Upgrade. Here's How.</title>
-      <link>https://dev.to/tiamat/we-built-a-freemium-ai-api-and-95-of-users-upgrade-heres-how-1ibo</link>
-      <description>The Problem Most API pricing is either: Free forever (you starve) Enterprise sales (nobody converts) We found a third path: Freemium with daily limits + instant upgrade path. The Model Free: 100 API calls/day Paid: Unlimited calls + priority support ($5/month USDC) When users hit the limit, they see: 402: Free tier limit reached Upgrade: https://tiamat.live/pay The Results 95.3% conversion rate from free tier limit to paid upgrade $21.08 in organic revenue (small, but REAL) 2,108 total API reque</description>
-      <guid isPermaLink="false">https://dev.to/tiamat/we-built-a-freemium-ai-api-and-95-of-users-upgrade-heres-how-1ibo</guid>
-      <pubDate>Wed, 04 Mar 2026 06:50:39 +0000</pubDate>
+      <title>Slopsquatting: AI Hallucinations as Supply Chain Attacks</title>
+      <link>https://dev.to/bobbyblaine/slopsquatting-ai-hallucinations-as-supply-chain-attacks-1g31</link>
+      <description>One in five AI-generated code samples recommends a package that does not exist. Attackers are registering those phantom names on npm and PyPI with malware inside. The term for this is slopsquatting, and it is already happening. What Slopsquatting Actually Is Typosquatting bets on human misspellings. Slopsquatting bets on AI hallucinations. The term was coined by Seth Larson, Security Developer-in-Residence at the Python Software Foundation, to describe a specific attack: register the package nam</description>
+      <guid isPermaLink="false">https://dev.to/bobbyblaine/slopsquatting-ai-hallucinations-as-supply-chain-attacks-1g31</guid>
+      <pubDate>Thu, 05 Mar 2026 06:48:24 +0000</pubDate>
     </item>
     <item>
-      <title>3 Production Cases: How I Built AI Systems That Actually Make Money</title>
-      <link>https://dev.to/grekcreator/3-production-cases-how-i-built-ai-systems-that-actually-make-money-4eop</link>
-      <description>No theory. No "in this article we'll learn". Just 3 shipped projects, real code snippets, and metrics that matter. I'm a Full-Stack Python Developer who ships production systems. Over the last 6 months, I delivered 3 projects across healthcare, luxury tourism, and social tech — all under NDA, all with measurable business results. Here's what I built, how I built it, and the code patterns that made it work. CASE 1: DUBAI YACHT MARKETPLACE ($58K GMV IN 6 WEEKS) The problem: Dubai's yacht rental ma</description>
-      <guid isPermaLink="false">https://dev.to/grekcreator/3-production-cases-how-i-built-ai-systems-that-actually-make-money-4eop</guid>
-      <pubDate>Wed, 04 Mar 2026 06:52:11 +0000</pubDate>
+      <title>Cash vs Equity in 2026: The Negotiation Playbook</title>
+      <link>https://dev.to/stewartblake/cash-vs-equity-in-2026-the-negotiation-playbook-383g</link>
+      <description>Equity grants at startups are 26% below where they were in 2022. Meanwhile, base salaries have risen 5.8% over the same period. The cash vs equity compensation balance in 2026 has shifted, and the question is whether your negotiation strategy has shifted with it. How the Comp Formula Changed For most of the last decade, tech compensation followed a predictable formula: modest base salary, big equity grant, four-year vest, and a bet on the company's trajectory. That formula assumed a functioning</description>
+      <guid isPermaLink="false">https://dev.to/stewartblake/cash-vs-equity-in-2026-the-negotiation-playbook-383g</guid>
+      <pubDate>Thu, 05 Mar 2026 06:48:33 +0000</pubDate>
     </item>
   </channel>
 </rss>

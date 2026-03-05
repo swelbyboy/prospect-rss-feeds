@@ -8,65 +8,17 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Mar 2026 07:09:55 +0000</lastBuildDate>
-    <item>
-      <title>Batteryless Microcontroller Operation Using Supercapacitor</title>
-      <link>https://www.electronicsforu.com/electronics-projects/mcu-development-board-operating-without-battery</link>
-      <description>Imagine a world where microcontrollers (MCUs) and development boards operate without batteries. Energy-harvesting technology now makes this a practical reality. Several batteryless IoT sensors already capture power from ambient sources such as light, heat, vibration, and RF signals, enabling fully autonomous operation. Engineered for ultra-low-power performance, these devices typically consume only a few microamps to […]</description>
-      <guid isPermaLink="false">https://www.electronicsforu.com/electronics-projects/mcu-development-board-operating-without-battery</guid>
-      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/Authors-prototype-1.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Mar 2026 09:21:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Object Counter For Conveyor</title>
-      <link>https://www.electronicsforu.com/electronics-projects/conveyor-object-counter</link>
-      <description>Loading cement sacks into trucks requires precise counting for traceability, yet manual methods are error-prone and often lead to shipment discrepancies. This system automates counting at the conveyor loading end, ensuring reliable per-truck tracking. An infrared (IR) proximity sensor with a 3cm to 80cm range interfaces with an Arduino for processing and drives a display […]</description>
-      <guid isPermaLink="false">https://www.electronicsforu.com/electronics-projects/conveyor-object-counter</guid>
-      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/Assembled-PCB-–-front-L-and-back-R.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Mar 2026 09:48:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bringing AI Productivity To PCB Design</title>
-      <link>https://www.electronicsforu.com/electronics-startups/bringing-ai-productivity-to-pcb-design</link>
-      <description>AI has transformed software development. Is Hardware productivity next? An Indian startup is building an AI helper that works inside PCB tools to place and route boards automatically. PCB design still takes weeks of manual effort. Placement, routing, power planes, iteration cycles, and rework can stretch development timelines from months to half a year. AutoCure […]</description>
-      <guid isPermaLink="false">https://www.electronicsforu.com/electronics-startups/bringing-ai-productivity-to-pcb-design</guid>
-      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/blog6_image-150x150.webp" length="0" type="image/webp"/>
-      <pubDate>Tue, 03 Mar 2026 09:49:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alexa-Enabled Smart IoT Electricity Meter Switch Board</title>
-      <link>https://www.electronicsforu.com/electronics-projects/iot-electricity-meter</link>
-      <description>Imagine tracking power-line voltage, frequency, current draw, and appliance power consumption through a smart switch plug. Real-time data is continuously logged to a database, enabling instant energy-use calculation, billing estimation, and live device control. The system integrates with popular AI assistants and smart speakers, including Alexa, Google Home, Google Assistant, Apple HomeKit, and the ESP […]</description>
-      <guid isPermaLink="false">https://www.electronicsforu.com/electronics-projects/iot-electricity-meter</guid>
-      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/RainMaker-app-showing-power-and-energy-consumption-150x150.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Mar 2026 09:57:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>High-Voltage Capacitor Discharger</title>
-      <link>https://www.electronicsforu.com/electronics-projects/capacitor-discharger-circuit</link>
-      <description>During repairs of vacuum tube equipment, switch-mode power supplies, microwave ovens, or similar systems, buffer or reservoir capacitors can retain potentially lethal voltages even after power is removed, requiring safe discharge. A high-voltage capacitor discharge system provides controlled energy dissipation. Fig. 1 shows a typical high-voltage capacitor that must be discharged before servicing. POC Video […]</description>
-      <guid isPermaLink="false">https://www.electronicsforu.com/electronics-projects/capacitor-discharger-circuit</guid>
-      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/Capacitor-discharger-probe-with-test-leads-and-LED-indication.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Mar 2026 10:02:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Real-Time Face Tracking Using Raspberry Pi 4 Versus Raspberry Pi 5 With Hailo-8L</title>
-      <link>https://www.electronicsforu.com/electronics-projects/face-tracking-using-raspberry-pi</link>
-      <description>Real-time face tracking has evolved from a research novelty into a practical tool for interactive robotics, surveillance, and automation. Advances in single-board computers and AI accelerators have enabled compact systems to detect and track human faces with remarkable speed and accuracy. This face-tracking system is built on the Raspberry Pi 5, with optional Hailo-8L acceleration, […]</description>
-      <guid isPermaLink="false">https://www.electronicsforu.com/electronics-projects/face-tracking-using-raspberry-pi</guid>
-      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/Authors-prototype-3.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Mar 2026 10:09:14 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 05 Mar 2026 07:10:58 +0000</lastBuildDate>
     <item>
       <title>Smart Speed Monitoring System For Road Safety</title>
       <link>https://www.electronicsforu.com/electronics-projects/arduino-speed-monitoring-system</link>
       <description>Advances in embedded systems and sensors have enabled efficient, intelligent surveillance solutions that improve safety and control in transportation and automation applications. The system presented here offers a low-cost, efficient method for real-time vehicle speed monitoring using a microcontroller. When no object or car is detected, the display shows ‘No Car Detected.’ Once an object […]</description>
       <guid isPermaLink="false">https://www.electronicsforu.com/electronics-projects/arduino-speed-monitoring-system</guid>
-      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/Authors-prototype-2-150x150.jpg" length="0" type="image/jpeg"/>
+      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/Authors-prototype-2.jpg" length="0" type="image/jpeg"/>
       <pubDate>Tue, 03 Mar 2026 10:16:08 +0000</pubDate>
     </item>
     <item>
-      <title>Achieving Precision and Efficiency in Motor Control</title>
+      <title>Achieving Precision And Efficiency In Motor Control</title>
       <link>https://www.electronicsforu.com/special/achieving-precision-and-efficiency-in-motor-control</link>
       <description>Motors are everywhere—from air conditioners and vacuum cleaners to power tools and industrial equipment. As globalisation and urban infrastructure advance, familiar products are evolving to offer higher performance, better energy efficiency, and compact sizes. Power tools need to be smaller yet deliver higher torque and longer battery life, while home appliances emphasise quieter operation and […]</description>
       <guid isPermaLink="false">https://www.electronicsforu.com/special/achieving-precision-and-efficiency-in-motor-control</guid>
@@ -88,6 +40,54 @@
       <guid isPermaLink="false">https://www.electronicsforu.com/career/flight-test-operations-intern-at-sarla-aviation-in-bengaluru</guid>
       <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2020/10/Job-Opportunities-150x150.jpg" length="0" type="image/jpeg"/>
       <pubDate>Tue, 03 Mar 2026 12:41:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Indium Selenide Targets Silicon Limits</title>
+      <link>https://www.electronicsforu.com/news/indium-selenide-targets-silicon-limits</link>
+      <description>Roadmap outlines how two-dimensional indium selenide could address silicon’s scaling and power limitations, detailing its electronic properties, device potential, and the manufacturing challenges that must be overcome for integration into next-generation low-power computing systems. A new research roadmap by Sungkyunkwan University positions two-dimensional indium selenide (InSe) as a potential successor to silicon in ultra-scaled electronics, […]</description>
+      <guid isPermaLink="false">https://www.electronicsforu.com/news/indium-selenide-targets-silicon-limits</guid>
+      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/beyond-silicon-skku-te-150x150.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 05 Mar 2026 05:29:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>RF Connectors For Magnetically Sensitive Systems</title>
+      <link>https://www.electronicsforu.com/news/rf-connectors-for-magnetically-sensitive-systems</link>
+      <description>In environments shaped by strong magnetic fields, even small material choices matter, prompting new approaches to compact RF connectivity for sensitive systems. Amphenol RF has introduced additional non magnetic SMPM connector configurations engineered with non ferrous materials for use in magnetic field environments. The expansion addresses applications where even minor magnetic interference can influence precision […]</description>
+      <guid isPermaLink="false">https://www.electronicsforu.com/news/rf-connectors-for-magnetically-sensitive-systems</guid>
+      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/925-NM138J-51P-150x150.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 05 Mar 2026 06:12:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>28nm Automotive MCU For Zonal E/E Architectures</title>
+      <link>https://www.electronicsforu.com/news/28nm-automotive-mcu-for-zonal-e-e-architectures</link>
+      <description>New 32-bit device brings 1Gbps TSN Ethernet, CAN-XL and post-quantum crypto to cost-sensitive vehicle control systems A new 28nm automotive microcontroller by Renesas Electronics Corporation has entered the market, aiming to balance performance, safety and power efficiency for next-generation vehicle control systems. The 32-bit device expands an established MCU family that has shipped more than […]</description>
+      <guid isPermaLink="false">https://www.electronicsforu.com/news/28nm-automotive-mcu-for-zonal-e-e-architectures</guid>
+      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/np-150x150.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Mar 2026 06:15:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dual SPI Interface For Embedded GUIs</title>
+      <link>https://www.electronicsforu.com/news/dual-spi-interface-for-embedded-guis</link>
+      <description>With dual SPI capability and 16 bit colour depth, the display can adapt to varying data rate demands without altering the underlying hardware architecture. DISPLAY VISIONS has introduced the EA TFT043 42SINN, a 4.3 inch colour display with an SPI interface developed for microcontroller based embedded systems. Addressing the growing demand for compact, cost conscious […]</description>
+      <guid isPermaLink="false">https://www.electronicsforu.com/news/dual-spi-interface-for-embedded-guis</guid>
+      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/PI_4_3_IPS_mit_SPI-Interface_01-150x150.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 05 Mar 2026 06:17:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reflow Compatible Silver Sintering For Semiconductor Packaging</title>
+      <link>https://www.electronicsforu.com/news/reflow-compatible-silver-sintering-for-semiconductor-packaging</link>
+      <description>As power densities rise in automotive and AI hardware, a solder-able sintering material that can target thermal conductivity and interconnect stability without pressure based processing. YINCAE Advanced Materials has introduced TM230D, a 3 in 1 solder-able sintering material developed for advanced semiconductor packaging applications. As power densities increase across power modules, automotive electronics, and AI […]</description>
+      <guid isPermaLink="false">https://www.electronicsforu.com/news/reflow-compatible-silver-sintering-for-semiconductor-packaging</guid>
+      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/PR-SUBMISSION-LOGO-150x150.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 05 Mar 2026 06:24:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gold Plated Reed Relays For High Voltage Systems</title>
+      <link>https://www.electronicsforu.com/news/gold-plated-reed-relays-for-high-voltage-systems</link>
+      <description>Built for automated test and instrumentation platforms, the relay can integrate vacuum sealed contacts and gold plated leads to support insulation and switching reliability. Coto Technology has released the CotoClassic 9105 Series, a gold plated reed relay developed for high voltage systems requiring strong insulation performance and long term operational stability. For high voltage applications […]</description>
+      <guid isPermaLink="false">https://www.electronicsforu.com/news/gold-plated-reed-relays-for-high-voltage-systems</guid>
+      <enclosure url="https://www.electronicsforu.com/wp-contents/uploads/2026/03/9105_series_reed_relay_featuredimg-150x150.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Mar 2026 06:30:58 +0000</pubDate>
     </item>
   </channel>
 </rss>

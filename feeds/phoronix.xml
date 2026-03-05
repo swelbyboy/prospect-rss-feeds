@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Mar 2026 06:53:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 06:57:34 +0000</lastBuildDate>
     <item>
-      <title>AMD Makes rocprof-trace-decoder Open-Source</title>
-      <link>https://www.phoronix.com/news/AMD-rocprof-trace-decoder</link>
-      <description>AMD open-sourced the ROCprof Trace Decoder "rocprof-trace-decoder", a tool useful for developers targeting the AMD GPU compute stack...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-rocprof-trace-decoder</guid>
-      <pubDate>Tue, 03 Mar 2026 11:13:03 +0000</pubDate>
+      <title>Ubuntu Still Figuring Out A Plan For Dealing With California's Digital Age Assurance Act</title>
+      <link>https://www.phoronix.com/news/Ubuntu-Digital-Age-Assurance</link>
+      <description>The talk this week among open-source projects from Linux distributions to app stores like Flathub is how to deal with California's latest insanity: the Digital Age Assurance Act. California's AB 1043 state law is mandating that operating systems -- Linux included -- collect age information during account setup and exposing that age to eligible apps beginning on 1 January 2027. That leaves much uncertainty for Linux distributions and other repositories/stores and more. Canonical issued a statemen</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-Digital-Age-Assurance</guid>
+      <pubDate>Wed, 04 Mar 2026 10:46:17 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Preps A Lot Of Xe3 Code For Linux 7.1 Kernel</title>
-      <link>https://www.phoronix.com/news/Intel-DRM-Xe-Next-Linux-7.1</link>
-      <description>Intel yesterday sent out their first "drm-xe-next" pull request to DRM-Next of new Xe kernel graphics driver improvements they have readied for their eventual upstreaming into the Linux 7.1 kernel...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-DRM-Xe-Next-Linux-7.1</guid>
-      <pubDate>Tue, 03 Mar 2026 13:12:14 +0000</pubDate>
+      <title>Old ATI R300 Open-Source Driver Sees Another New Fix In 2026</title>
+      <link>https://www.phoronix.com/news/ATI-R300-Occlusion-Query-Fix</link>
+      <description>The Radeon R300 series turns 24 years old this year and thanks to the open-source ATI R300 Gallium3D driver that began via reverse engineering, it's still continuing to see the occasional random fixes from the open-source community...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/ATI-R300-Occlusion-Query-Fix</guid>
+      <pubDate>Wed, 04 Mar 2026 10:58:31 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Adapting Linux's LAM In Preparing For ChkTag</title>
-      <link>https://www.phoronix.com/news/Intel-Linux-LAM-ChkTag</link>
-      <description>Last year AMD and Intel as part of the x86 Ecosystem Advisory Group announced ChkTag for x86 memory tagging across processors to better fight buffer overflows and use-after-free errors. In preparing for ChkTag with future processors, Intel has begun adapting their Linear Address Masking (LAM) support to more nicely jive with it...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Linux-LAM-ChkTag</guid>
-      <pubDate>Tue, 03 Mar 2026 13:54:11 +0000</pubDate>
+      <title>AMD Engineer Leverages AI To Help Make A Pure-Python AMD GPU User-Space Driver</title>
+      <link>https://www.phoronix.com/news/AI-Pure-Python-AMD-GPU-Driver</link>
+      <description>AMD's VP of AI Software, Anush Elangovan, has used Claude Code to help craft a pure-Python AMD GPU user-space driver. This Python user-space driver is currently being created to help exercise other ROCm code and for debugging in passing through the ROCm/HIP user-space stack...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AI-Pure-Python-AMD-GPU-Driver</guid>
+      <pubDate>Wed, 04 Mar 2026 11:09:00 +0000</pubDate>
     </item>
     <item>
-      <title>Apple Announces "Fusion Architecture" With M5 Pro &amp;amp; M5 Max</title>
-      <link>https://www.phoronix.com/news/Apple-M5-Pro-M5-Max</link>
-      <description>Apple announced today the new Fusion Architecture with the M5 Pro and M5 Max SoCs that also feature a next-generation GPU...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Apple-M5-Pro-M5-Max</guid>
-      <pubDate>Tue, 03 Mar 2026 15:19:20 +0000</pubDate>
+      <title>Linux Preps IBPB-On-Entry Feature For AMD SEV-SNP Guest VMs</title>
+      <link>https://www.phoronix.com/news/AMD-IBPB-On-Entry-SNP-VMs</link>
+      <description>Heading toward the Linux 7.0 kernel and marked for back-porting to current stable Linux kernel versions is employing a new SEV-SNP security feature found on AMD Zen 5 processors for enhancing security of guest virtual machines...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-IBPB-On-Entry-SNP-VMs</guid>
+      <pubDate>Wed, 04 Mar 2026 13:25:40 +0000</pubDate>
     </item>
     <item>
-      <title>Sovereign Tech Fellowship Opens Up To Community Managers, Technical Writers</title>
-      <link>https://www.phoronix.com/news/Sovereign-Tech-Fellowship-2026</link>
-      <description>Germany's Sovereign Tech Agency announced a new and expanded Sovereign Tech Fellowship program that is now open to community managers and technical writers, beyond just FOSS maintainers from the prior round...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Sovereign-Tech-Fellowship-2026</guid>
-      <pubDate>Tue, 03 Mar 2026 15:36:00 +0000</pubDate>
+      <title>systemd 260-rc2 Released With More Changes</title>
+      <link>https://www.phoronix.com/news/systemd-260-rc2</link>
+      <description>Last week marked the release of systemd 260-rc1 with a new "mstack" feature, a new "FANCY_NAME" field for os-release, dropping System V service script support, and other changes. Out today is systemd 260-rc2 release with more changes in further working its way toward a stable release for empowering 2026 Linux distributions...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/systemd-260-rc2</guid>
+      <pubDate>Wed, 04 Mar 2026 14:08:39 +0000</pubDate>
     </item>
     <item>
-      <title>GNOME Mutter 50.rc Released With Better NVIDIA Performance, SDR-Native &amp;amp; Better HDR</title>
-      <link>https://www.phoronix.com/news/GNOME-Mutter-50.rc</link>
-      <description>There is two weeks to go until the GNOME 50 stable release while out today is the release candidate of Mutter 50. This Mutter 50.rc release brings some exciting last-minute enhancements to this Wayland compositor...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Mutter-50.rc</guid>
-      <pubDate>Tue, 03 Mar 2026 16:19:00 +0000</pubDate>
+      <title>Linux Mint Ready With Its Wayland-Compatible Cinnamon Screensaver</title>
+      <link>https://www.phoronix.com/news/Linux-Mint-Wayland-Screensaver</link>
+      <description>Linux Mint developers recently outlined their work on developing a new Wayland-compatible screensaver for use with their Cinnamon desktop environment. Linux Mint developers announced today that their new screensaver solution is ready for use...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Mint-Wayland-Screensaver</guid>
+      <pubDate>Wed, 04 Mar 2026 15:09:44 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Rendering Toolkit &amp;amp; OpenVINO AI GPU Performance On Intel Panther Lake's Xe3 B390</title>
-      <link>https://www.phoronix.com/review/intel-b390-openvino-render</link>
-      <description>Over the past month I have been running a lot of Linux benchmarks on Intel's new Panther Lake using the Core Ultra X7 358H and its Xe3-based Arc B390 Graphics. The Arc B390 on Linux has been quite interesting with its OpenGL and Vulkan graphics performance compared to prior generations of Intel graphics plus the Intel Compute Runtime / OpenCL performance too. In today's article are more benchmarks of the latter in looking at the Intel Rendering Toolkit and OpenVINO AI performance on the Xe3 B390</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/intel-b390-openvino-render</guid>
-      <pubDate>Tue, 03 Mar 2026 17:30:00 +0000</pubDate>
+      <title>AMD EPYC Achieves Performance Leadership In New OCUDU Project For 5G/6G RAN</title>
+      <link>https://www.phoronix.com/review/amd-epyc-intel-xeon-ocudu</link>
+      <description>Announced this week at Mobile World Congress (MWC) by the Linux Foundation was the establishing of the OCUDU Ecosystem Foundation for advancing open-source AI-RAN (Radio Access Network) innovations. OCUDU is building a reference platform and innovations around 5G and early 6G network solutions. With OCUDU being benchmark-friendly, I have been putting the early code through some performance tests on current AMD EPYC and Intel Xeon server platforms.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/amd-epyc-intel-xeon-ocudu</guid>
+      <pubDate>Wed, 04 Mar 2026 16:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google Chrome Moving To A Two-Week Release Cycle</title>
-      <link>https://www.phoronix.com/news/Google-Chrome-Two-Week-Cycle</link>
-      <description>Google announced today that beginning later this year they are moving the Chrome web browser from its four week release cycle down to a two week release cadence...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Google-Chrome-Two-Week-Cycle</guid>
-      <pubDate>Tue, 03 Mar 2026 20:52:22 +0000</pubDate>
+      <title>Intel Begins Preparations For Xe3P Upstreaming To Open-Source OpenGL &amp;amp; Vulkan Drivers</title>
+      <link>https://www.phoronix.com/news/Intel-Mesa-Xe3P-Start</link>
+      <description>Following the mainline Linux kernel beginning to see Xe3P graphics enablement for upcoming Nova Lake integrated graphics as well as the Crescent Island AI inference accelerator, Intel's Mesa OpenGL "Iris" and Vulkan "ANV" drivers are preparing to begin laying out their Xe3P driver support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Mesa-Xe3P-Start</guid>
+      <pubDate>Wed, 04 Mar 2026 21:11:11 +0000</pubDate>
     </item>
     <item>
-      <title>AMD DPTCi Driver Posted For Linux To Better Enhance Ryzen Gaming Handhelds</title>
-      <link>https://www.phoronix.com/news/AMD-DPTCi-Linux-Driver</link>
-      <description>A request for comments (RFC) patch series was posted today to the Linux kernel mailing list to introduce the AMD Dynamic Power and Thermal Configuration Interface "DPTCi" driver. With this driver it would provide better upstream Linux kernel support for tuning the power / performance / thermals of modern Ryzen-powered gaming handheld devices. Though don't get too excited right away as the driver was assembled in part by AI that is already causing a bit of a ruckus on the LKML due to lack of disc</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-DPTCi-Linux-Driver</guid>
-      <pubDate>Tue, 03 Mar 2026 21:07:00 +0000</pubDate>
+      <title>FEX 2603 Released With A Partial Fix For The Steam GUI Crashing On AArch64</title>
+      <link>https://www.phoronix.com/news/FEX-2603-Released</link>
+      <description>FEX 2603 as the Valve-sponsored open-source project allowing Linux x86/x86_64 binaries to run on AArch64 Linux -- including the likes of Steam and various games as will become important with the Steam Frame -- is now out with its newest monthly release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FEX-2603-Released</guid>
+      <pubDate>Thu, 05 Mar 2026 01:21:58 +0000</pubDate>
     </item>
     <item>
-      <title>Using KMSCON As The Default VT Console Delayed To Fedora 45</title>
-      <link>https://www.phoronix.com/news/Fedora-45-KMSCON-VT-Delay</link>
-      <description>For the past few months have been an ambitious proposal to replace FBCON with the user-space KMSCON as the default VT console starting on Fedora 44. Unfortunately, this and a few other features have now been delayed to the Fedora 45 release six months later...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Fedora-45-KMSCON-VT-Delay</guid>
-      <pubDate>Wed, 04 Mar 2026 01:17:57 +0000</pubDate>
+      <title>Notice: Brief Downtime Expected Overnight</title>
+      <link>https://www.phoronix.com/news/NVMe-RAID-Replace-March-2026</link>
+      <description>Just a heads up that some brief downtime to Phoronix.com is expected overnight during the replacement of an NVMe drive in the RAID array for this web server...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVMe-RAID-Replace-March-2026</guid>
+      <pubDate>Thu, 05 Mar 2026 02:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
