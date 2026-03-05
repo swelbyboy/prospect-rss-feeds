@@ -8,55 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Mar 2026 07:29:03 +0000</lastBuildDate>
-    <item>
-      <title>NetBeans revient en version 29 !</title>
-      <link>https://www.programmez.com/actualites/netbeans-revient-en-version-29-39075</link>
-      <description>Souvenez-vous d'une époque où Eclipse et NetBeans se faisait la guerre. Puis NetBeans a lentement sombré. Désormais sous la responsabilité de la fondation Apache, NetBeans, environnement de développement multi-langage, est disponible en version 29 depuis le 23 février dernier. Apache propose 4 mise à jour par an. Cette version introduit de nombreuses corrections, des mises à jour de dépendances et quelques nouvelles fonctionnalités :- Gradle : exécution de classes avec de sources Gralde spécifiq</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/netbeans-revient-en-version-29-39075</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Mon, 02 Mar 2026 09:10:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Armis lance son portail développeur</title>
-      <link>https://www.programmez.com/actualites/armis-lance-son-portail-developpeur-39076</link>
-      <description>L'éditeur Armis lance son portail développeur. Il sera le point d'entrée à l’ensemble des éléments d’Armis pour les développeurs et permet aux entreprises d’intégrer simplement ces données dans leurs technologiques existantes. Grâce à l’API Armis, développeurs, clients et partenaires peuvent connecter leurs applications et exploiter des données d’inventaire enrichies et mises à jour en continu. Les inventaires statiques deviennent ainsi des informations contextualisées, actionnables en temps rée</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/armis-lance-son-portail-developpeur-39076</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Mon, 02 Mar 2026 13:13:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude : panne mondiale en cours de résolution</title>
-      <link>https://www.programmez.com/actualites/claude-panne-mondiale-en-cours-de-resolution-39077</link>
-      <description>Le problème des agents IA et modèle dépendant de l'infrastructure est qu'une panne peut arriver et rendre inaccessible le service pour les développeurs. Une panne mondiale a impacté Claude :11:49 UTC : une panne est en cours, 1ere investigation de l'éditeur12:06 UTC : la recherche des causes de la panne est toujours en cours12:21 UTC : l'API Claude fonctionne normalement, les problèmes sont liés à Claude.ai et aux fonctions de connexion / déconnexion qui ne fonctionnent pas normalementDepuis plu</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/claude-panne-mondiale-en-cours-de-resolution-39077</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Mon, 02 Mar 2026 13:26:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fluent UI Blazor 5.0 : localisation, performances, code maintenance</title>
-      <link>https://www.programmez.com/actualites/fluent-ui-blazor-50-localisation-performances-code-maintenance-39078</link>
-      <description>Fluent UI Blazor v5 est dans la dernière ligne droite de développement. La RC1 a été distribuée mi-février. Il s'agit d'une évolution importante de la librairie s'appuyant sur les composants Fluent UI Web. La librairie repose désormais sur Fluent UI Web Components v3 qui est largement utilisé par Microsoft (Teams, 365, WIndows). Cette v5 promet :- avoir une interface et un look&amp;amp;fell identique aux productions Microsoft- meilleures performances- des composants plus légers et plus effiaces- temps d</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/fluent-ui-blazor-50-localisation-performances-code-maintenance-39078</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 03 Mar 2026 06:28:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rust Paris 2026 : CFP ouvert !</title>
-      <link>https://www.programmez.com/actualites/rust-paris-2026-cfp-ouvert-39079</link>
-      <description>La conférence Rust Paris revient le 9 juin. Il s'agit une conférence 100 % REX. Afin d'élaborer le programme de cette troisième édition de Rust Paris, le CFP est ouvert jusqu'au 19 mars.Les specs des sessions et des sujets :Talks de 30 minutes, questions du public comprises.Des retours d'expérience qui mettront en évidence les réussites et les limites de l'utilisation de RUST dans des projets industriels et de recherche.Pas de présentations commerciales.Des talks en français. Les talks en anglai</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/rust-paris-2026-cfp-ouvert-39079</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/rustparis.png?itok=0LoEK-t2" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Mar 2026 07:12:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sécurité logicielle : l’IA règle le problème… ou le déplace ?</title>
-      <link>https://www.programmez.com/actualites/securite-logicielle-lia-regle-le-probleme-ou-le-deplace-39080</link>
-      <description>Avis d'expert de Yoav Landman, CTO et cofondateur de JFrogLorsque Anthropic a annoncé les nouvelles fonctionnalités de scan de sécurité de Claude Code, à la suite du lancement d'Aardvark par OpenAI, cela a marqué un tournant important pour le secteur. Pour la première fois, l'examen de sécurité par des experts est directement intégré au processus d'écriture du code. Les vulnérabilités subtiles, dépendantes du contexte, peuvent désormais être signalées dès leur création. Les vulnérabilités zero-d</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/securite-logicielle-lia-regle-le-probleme-ou-le-deplace-39080</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/yoav.png?itok=hALQYpO1" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Mar 2026 08:35:23 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 05 Mar 2026 07:26:30 +0000</lastBuildDate>
     <item>
       <title>Postman : un plan gratuit limité, crédits IA ridicules, paiement annuel</title>
       <link>https://www.programmez.com/actualites/postman-un-plan-gratuit-limite-credits-ia-ridicules-paiement-annuel-39081</link>
@@ -88,6 +40,54 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/chrome-le-cycle-de-releases-passera-de-4-2-semaines-39085</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/2semaines.png?itok=39JylsPZ" length="0" type="image/jpeg"/>
       <pubDate>Tue, 03 Mar 2026 18:21:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>PyTorch Conference à Paris les 7 et 8 avril</title>
+      <link>https://www.programmez.com/actualites/pytorch-conference-paris-les-7-et-8-avril-39086</link>
+      <description>Paris accueille la conférence PyTorch Europe 2026 les 7 et 8 avril à Station F. C'est l'occasion de faire le point sur PyTorch et l'écosystème autour. Les thèmes de la conférence seront nombreux : agent et interopérabilité, frameworks, compilateurs, GenAI, sécurité, ateliers... L'agenda promet d'être intense sur les 2 jours. PyTorch Conference Europe est une conférence technique intégrant des ateliers, des sessions sur tous les aspects PyTorch et de l'IA en général. Des keynotes seront proposées</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/pytorch-conference-paris-les-7-et-8-avril-39086</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Mar 2026 08:39:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tangled : le Git européen lève 3,8 millions</title>
+      <link>https://www.programmez.com/actualites/tangled-le-git-europeen-leve-38-millions-39087</link>
+      <description>Tangled est une plateforme Git, ou plutôt une plateforme sociale collaborative Git comme le présente Tangled. Le service est construit sur le protcocole AT. La plateforme se veut décentraliser. Elle vise 3 objectifs :- les données sont uniquement à vous- un coût le plus bas possible- pas de compromis sur l'UX : ce qui veut tout dire et rien dire.Pour construire une telle plateforme, il faut des équipes, des développeurs et une solide infrastructure. Pour soutenir le projet, Tangled annonce avoir</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/tangled-le-git-europeen-leve-38-millions-39087</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Mar 2026 09:27:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Combien faut-il de piles pour démarrer un PC ? 56 piles AA</title>
+      <link>https://www.programmez.com/actualites/combien-faut-il-de-piles-pour-demarrer-un-pc-56-piles-aa-39088</link>
+      <description>C'est la question étonnante de ScuffedBits : combien faut-il de piles AA pour démarrer une carte mère en utilisant un PicoPSU à la place du bloc d'alimentation standard. Notre geek teste différente configuration et chaîne les piles. Il mesure en temps réel le puissance disponible... Avec 8 piles, le ventilateur commence à bouger mais il en faut beaucou plus... et de bonnes qualités. Il explique comment choisir le bon type de piles.Résultat : il faut 56 piles et des condensateurs pour démarrer la</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/combien-faut-il-de-piles-pour-demarrer-un-pc-56-piles-aa-39088</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Mar 2026 09:39:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Django corrige 3 CVE</title>
+      <link>https://www.programmez.com/actualites/django-corrige-3-cve-39090</link>
+      <description>Django annonce des mises à jour de sécurité pour les version 6, 5 et 4 : les 6.0.3, 5.2.12 et 4.2.29. Trois CVE importantes sont fixées :- CVE-2026-25673 : potentiel déni de services sur URLFiled à cause d'un problème Unicode sur Windows- CVE-2026-25674 : permissions incorrectes sur les nouveaux objets crées sur le système de fichiers. C'est lié aux persmissions via os.chmod et os.mkdir.Détails : https://www.djangoproject.com/weblog/2026/mar/03/security-releases/Catégorie actualité: SécuritéDjan</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/django-corrige-3-cve-39090</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Mar 2026 13:15:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Builder 2026 : Microsoft redéfinit sa conférence développeur</title>
+      <link>https://www.programmez.com/actualites/builder-2026-microsoft-redefinit-sa-conference-developpeur-39091</link>
+      <description>Microsoft annonce que la prochaine conférence Build se tiendra les 2 et 3 juin. C'est la première fois depuis 13 ans que l'événement se tient en juin. La Build sera moins longue, 2 jours uniquement et change de lieu : Fort Mason Center à San Francisco et non plus à Seattle. L'IA est clairement le coeur de la conférence. Autre changement important : Microsoft limite le nombre de places : maximum 2 500. Les dernières éditions montaient jusqu'à 5 000 personnes. Microsoft a confirmé à The Verge que</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/builder-2026-microsoft-redefinit-sa-conference-developpeur-39091</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/build2026.png?itok=2Pp0-xUo" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Mar 2026 15:38:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>espflash : un nouvel outil pour flasher le firmware des ESP</title>
+      <link>https://www.programmez.com/actualites/espflash-un-nouvel-outil-pour-flasher-le-firmware-des-esp-39092</link>
+      <description>Flasher le firmware de son ESP n'est pas forcément une étape compliquée. Il faut un peu rigueur et les bons outils. Espressif propose ce qu'il faut. espflash est tout nouvel outil écrit en Go. Il s'agit d'une CLI pour flasher les ESP8266 et les ESP32-2. L'opération se fait en utiliser la connexion UART. Les MCU supportés sont : ESP8266ESP32ESP32-S2ESP32-S3ESP32-C2 (ESP8684)ESP32-C3ESP32-C6ESP32-H2L'installation est très simple : go install tinygo.org/x/espflash@latestLe fonctionnement n'est pas</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/espflash-un-nouvel-outil-pour-flasher-le-firmware-des-esp-39092</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Mar 2026 06:51:40 +0000</pubDate>
     </item>
   </channel>
 </rss>

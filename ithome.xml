@@ -8,82 +8,82 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Mar 2026 06:57:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Mar 2026 06:59:42 +0000</lastBuildDate>
     <item>
-      <title>駭客透過分部辦公室的Fortinet防火牆滲透整個公司的網路環境，企圖竊取備份系統與NAS設備資料</title>
-      <link>https://www.ithome.com.tw/news/174165</link>
-      <description>新聞Amazon於2月下旬揭露鎖定Fortinet防火牆的大規模攻擊活動，駭客借助AI的力量，從1月上旬至2月初入侵超過600臺FortiGate裝置，後續資安威脅研究員Mike於部落格Cyber and Ramen進一步揭露，駭客使用DeepSeek分析偵察資料並產生攻擊計畫，並搭配Claude的程式碼助理打造攻擊工具並執行，但究竟整個攻擊流程如何運作？研究人員說明了相關細節。 Mike根據駭客錯誤配置的伺服器進行調查，基於當中存放的檔案，試圖還原攻擊活動的樣貌。其中，關於入侵一家天然氣公司的活動資料最為完整，雖然無從得知駭客如何對FortiGate下手，不過當時他們已取得管理員的憑證。最初滲透受害組織的管道，是分部辦公室的防火牆設備FortiGate-40F，利用特定的唯讀管理員帳號進行存取。儘管此帳號的權限相當有限，但能完整備份防火牆組態，使得攻擊者能掌握受害組織的網路拓撲，包含公司總部、分部辦公室、用於訪客與系統管理的網路環境，以及所有使用者的SSL VPN設定等。 駭客收集LDAP伺服器設定與網域控制器（DC）的細節，其中包含LDAP的用戶綁定組態，可對VPN使用者進行AD的</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174165</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/ATTACK_CHAIN_DIAGRAM-1.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Mar 2026 02:58:57 +0000</pubDate>
+      <title>蘋果發表只要599美元的入門款筆電MacBook Neo</title>
+      <link>https://www.ithome.com.tw/news/174206</link>
+      <description>新聞蘋果周二（3/4）發表入門款筆電MacBook Neo，新機搭載A18 Pro晶片，成為首款採用iPhone晶片的Mac筆電，最低售價599美元，也是蘋果目前最便宜的Mac產品。MacBook Neo已於部分市場開放預購，預計3月11日上市。 MacBook Neo採用13吋Liquid Retina顯示器，解析度為2408×1506，亮度最高500尼特，並支援10億色顯示。機身採鋁金屬設計，重量約1.22公斤，提供胭粉色、靛青色、銀色與橘黃色四種顏色。 圖片來源／蘋果 在效能上，MacBook Neo採用A18 Pro晶片，具備6核心CPU、5核心GPU與16核心神經網路引擎（Neural Engine），可支援裝置端AI運算。A18 Pro為2024年iPhone 16 Pro系列所採用的旗艦手機晶片，MacBook Neo則成為首款採用iPhone晶片的Mac筆電。 蘋果表示，在網頁瀏覽等日常任務上，MacBook Neo速度最高可比搭載Intel Core Ultra 5處理器的暢銷PC筆電快50%，而在裝置端AI工作負載上最高可達3倍。 新機採無風扇設計，單次充電可提供最</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174206</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0305-macbookneo-600.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Mar 2026 03:17:31 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI更新國防合作聲明，新增反國內監控與NSA排除條款</title>
-      <link>https://www.ithome.com.tw/news/174166</link>
-      <description>新聞OpenAI周一（3/2）更新其與美國國防部的合作聲明。該公司在官方文件中以「Department of War（DoW）」稱呼美國國防部（Department of Defense，DoD），並新增明確條款，禁止其AI系統被用於監控美國國內民眾，同時說明相關服務不會提供給美國國家安全局（National Security Agency，NSA）等情報機構。 OpenAI於2月28日宣布已與DoW達成協議，將其先進AI系統部署於機密環境。該公司表示，此次合作採取雲端部署模式，並保留完整安全機制（Safety Stack），不會提供移除護欄的模型，也不會將模型部署於邊緣設備，以避免被用於完全自主武器系統。 在3月2日更新的聲明中，OpenAI表示，在與國防部討論後，雙方同意於協議中加入更明確的文字，強調AI系統不得被用於對美國公民進行國內監控，包括透過購買或使用商業化個人資料進行追蹤或監視。聲明亦指出，相關服務不會提供給DoW的情報機構，例如NSA，若未來需要提供服務，必須另行簽署新的協議。 OpenAI表示，其與DoW合作建立在3項核心紅線之上，包括不得用於大規模國內監控、不得用於</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174166</guid>
-      <pubDate>Wed, 04 Mar 2026 03:04:32 +0000</pubDate>
+      <title>14國聯手關閉駭客論壇LeakBase，查扣14.2萬會員資料</title>
+      <link>https://www.ithome.com.tw/news/174207</link>
+      <description>新聞美國司法部（Department of Justice，DOJ）與歐洲刑警組織（Europol）本周宣布，一項由14國執法機構共同參與的跨國行動已成功關閉大型網路犯罪論壇LeakBase。該論壇長期販售遭竊資料與駭客工具，擁有超過142,000名註冊會員，被視為全球網路犯罪生態系的重要節點。此次行動除查扣網站與資料庫外，也對多名活躍用戶採取執法措施。 LeakBase為一專門交易外洩資料與駭客工具的網路論壇，約於2021年開始運作，主要以英文介面在公開網路上提供服務。該平臺結合論壇與交易市場功能，允許使用者發布、購買或交換遭竊資料庫與入侵工具，逐漸成為網路犯罪生態系中的重要集散地。 根據歐洲刑警組織（Europol）與美國司法部（DOJ）的調查，LeakBase主要交易內容包括外洩資料庫、帳號密碼組合，以及所謂的「Stealer Logs」，也就是由資訊竊取惡意程式從受害電腦蒐集並整理的資料包，通常包含瀏覽器帳密、登入Cookie與裝置資訊等。這些資料常被用於帳號接管、詐欺或進一步入侵企業系統。 平臺同時建立類似地下市場的信用點數與用戶聲譽機制，讓賣家透過評價累積信任，促進資料交易</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174207</guid>
+      <pubDate>Thu, 05 Mar 2026 03:29:43 +0000</pubDate>
     </item>
     <item>
-      <title>Google發布Android更新修補高通晶片組零時差漏洞</title>
-      <link>https://www.ithome.com.tw/news/174168</link>
-      <description>新聞Google本周發布Android更新，修補近130項漏洞，包括影響高通手機、筆電及汽車晶片一個已遭到濫用的記憶體毀損漏洞。 Google本周接連在3月1日及3月5日發出Android安全更新，修補129項漏洞，影響核心、架構、系統、Google Play，以及合作晶片廠元件包括Arm、MediaTek、Qualcomm元件與Qualcomm封閉原始碼元件、以及Imagination Technologies等最高和高度風險漏洞。 其中Google警告，已有跡象顯示攻擊者可能正在利用CVE-2026-21385漏洞發動攻擊。該漏洞列於高通顯示元件項目，由Google Android安全團隊發現並通報高通。 根據高通安全公告，CVE-2026-21385為圖形元件中的整數溢出或迴繞（Integer Overflow or Wraparound in Graphics）漏洞，攻擊者需先取得本地存取權限，才能透過惡意程式觸發記憶體毀損。該漏洞的CVSS風險分數為7.8分，屬高風險（High）等級。 該漏洞影響多款高通晶片組，涵蓋旗艦手機（Snapdragon 8 Elite、Snapdr</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174168</guid>
-      <pubDate>Wed, 04 Mar 2026 03:39:16 +0000</pubDate>
+      <title>卡巴斯基揭露Android後門Keenadu，部分裝置出廠即遭植入並形成殭屍網路</title>
+      <link>https://www.ithome.com.tw/news/174198</link>
+      <description>新聞資安業者卡巴斯基（Kaspersky）於今年2月發布研究報告，揭露一種名為Keenadu的Android後門程式。研究發現，部分變種可能在裝置韌體建置階段就被植入，甚至直接整合進Android系統元件，使裝置在出廠時就已帶有惡意程式。目前已觀測到逾1.3萬臺裝置受到影響，其中部分裝置被用於廣告詐欺與Android殭屍網路活動。 研究團隊發現，Keenadu的散布方式相當多元，包括遭竄改的OTA韌體更新、預載於系統應用程式，以及透過第三方APK散布。研究人員也曾在Google Play應用程式中發現相關樣本，其中一款智慧家庭攝影機應用程式的下載量超過30萬次。 遙測資料顯示，截至2026年2月，受感染裝置主要分布在俄羅斯、日本、德國、巴西與荷蘭等地。部分案例涉及低價Android平板或未通過官方認證的裝置，顯示問題可能出現在裝置供應鏈或韌體整合流程的安全控管。 對於攻擊者而言，由於Keenadu採用模組化架構與多階段載入機制，受感染裝置會依遠端控制伺服器的指令下載不同惡意模組，逐漸形成可由攻擊者操控的Android殭屍網路。研究團隊指出，這些裝置目前主要被用於廣告點擊詐欺，透過自動化</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174198</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0304-Keenadu-600-1(1).png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Mar 2026 03:53:01 +0000</pubDate>
     </item>
     <item>
-      <title>俄羅斯駭客組織APT28發動MacroMaze行動，濫用合法Webhook與Word巨集鎖定西歐與中歐目標</title>
-      <link>https://www.ithome.com.tw/news/174161</link>
-      <description>新聞西班牙資安業者S2 Grupo於2月中旬發布研究報告，揭露一波歸因於俄羅斯背景駭客組織APT28的滲透行動。S2 Grupo旗下威脅情報團隊Lab52以中度信心將此次行動歸因於該組織。APT28亦以Fancy Bear、Forest Blizzard與FROZENLAKE等名稱為外界所知。攻擊活動自去年9月持續至今年1月，鎖定西歐與中歐的特定組織及政府相關實體。 研究團隊將此次行動命名為MacroMaze行動（Operation MacroMaze），過程中，攻擊者並未利用零時差漏洞或高度複雜的專屬惡意程式，而是運用批次檔、VBScript與簡單HTML等基本工具，搭配合法Webhook服務（如webhook[.]site）建構命令傳遞與資料外流流程，呈現出「工具簡單、流程精細」的戰術設計。 Word文件暗藏圖片連結，開啟瞬間即回報攻擊者 分析顯示，MacroMaz攻擊鏈以魚叉式釣魚郵件為起點，誘騙目標開啟夾帶的Microsoft Word文件。這些文件在XML結構嵌入名為INCLUDEPICTURE的欄位，指向webhook[.]site的JPG圖片資源。 圖片來源／S2 Gru</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174161</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0304-apt28-600-1.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Mar 2026 05:13:30 +0000</pubDate>
+      <title>俄羅斯駭客UAC-0050攻擊歐洲金融機構，假冒烏克蘭司法機構郵件散布RMS遠端工具</title>
+      <link>https://www.ithome.com.tw/news/174200</link>
+      <description>新聞資安業者BlueVoyant於今年3月發布威脅分析，揭露俄羅斯相關駭客組織UAC-0050在2月對一家歐洲金融機構發動社交工程攻擊。烏克蘭電腦緊急應變小組（CERT-UA）追蹤該威脅行為者為UAC-0050，部分研究亦將其稱為DaVinci Group或Agency DaVinci，而BlueVoyant則將此次攻擊活動命名為Mercenary Akula。攻擊者偽造烏克蘭司法機構網域寄送魚叉式釣魚郵件，誘使目標下載惡意檔案並安裝遠端管理工具Remote Manipulator System（RMS）。 UAC-0050假冒烏克蘭司法機構郵件，誘導受害者下載惡意壓縮檔 BlueVoyant安全營運中心（Security Operations Center，SOC）在2月9日偵測到一封寄給目標用戶的魚叉式釣魚郵件。郵件主旨為「Request from the Chernihiv Administrative Court for Case #81435126」，並偽裝成來自烏克蘭地方政府網域chernigiv-rada[.]gov[.]ua的司法機構郵件，以提高郵件可信度。郵件內容附帶</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174200</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0305-UAC-0050-600-1.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Mar 2026 03:59:32 +0000</pubDate>
     </item>
     <item>
-      <title>汽車輪胎壓力監測系統的訊號廣播未加密恐遭長期追蹤，豐田、賓士等品牌車款有隱私外洩風險</title>
-      <link>https://www.ithome.com.tw/news/174160</link>
-      <description>新聞西班牙資安研究機構IMDEA Networks近日公布研究指出，現代車輛普遍配備的輪胎壓力監測系統（Tire Pressure Monitoring System，TPMS）在設計上未納入隱私保護機制，感測器會以明文形式對外廣播胎壓與溫度資料，並附帶長期不變的唯一識別碼，使車輛可能在駕駛人毫不知情的情況下遭長時間追蹤。 研究論文《Can't Hide Your Stride: Inferring Car Movement Patterns from Passive TPMS Measurements》指出，多數採用直接式輪胎壓力監測系統（Direct TPMS，dTPMS）的車款，會透過315 MHz或433 MHz頻段定期對外發送資料，且相關訊號並未加密。論文分析顯示，包含豐田（Toyota）、賓士（Mercedes-Benz）、雷諾（Renault）與現代（Hyundai）等車廠的多款車型，普遍採用此類dTPMS架構。 研究團隊在道路與停車場周邊架設5組低成本軟體定義無線電（Software-Defined Radio，SDR）設備，連續蒐集資料長達10週，共取得超過600萬筆</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174160</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0303-car-600-1.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Mar 2026 05:34:28 +0000</pubDate>
+      <title>Google Play Store允許第三方支付系統、開放側載、分潤率調降</title>
+      <link>https://www.ithome.com.tw/news/174209</link>
+      <description>新聞經過多年的主管機關裁罰與官司爭議，Google本周宣布Android應用市集Play Store多項措施，允許用戶用非Google支付系統，從第三方App市集側載應用程式，以及程式內購買分潤比例由原本30%調降。新方案將在今年內隨同新的重大版本Android推出。 這些新措施是在Google遭到遊戲開發商Epic Games、約會程式開發商Match Group告上法庭以及歐盟、美國政府介入調查及干預多年的結果。爭議點都是Google Play Store強制App消費者必須使用Google的收費機制支付程式內購買（in-app purchase），以及Google向Android App開發商索取30%的分潤，被稱為Google稅。此外Google以安全為由，設法打擊從第三方平臺側載Android App。 在經過多年纏訟後，Google昨（3/4）日宣布與遊戲發行商Epic Games達成和解，並同步宣布新的IAP分潤或收費方案。新方案將在今年內隨同新的重大版本Android推出。 最新宣布下，Google一舉放寬三項限制，包括提供支付選項、註冊App市集方案及調降程式內購買（</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174209</guid>
+      <pubDate>Thu, 05 Mar 2026 04:37:27 +0000</pubDate>
     </item>
     <item>
-      <title>開源AI資安平臺CyberStrikeAI遭濫用，駭客用於大規模攻擊Fortinet防火牆</title>
-      <link>https://www.ithome.com.tw/news/174167</link>
-      <description>新聞威脅情報團隊Amazon Threat Intelligence揭露針對Fortinet防火牆設備的大規模攻擊活動，駭客從今年1月11日至2月18日入侵超過600臺FortiGate裝置，過程中濫用多個生成式AI服務而引發關注。有資安公司根據Amazon公布的調查結果，發現與中國政府有關的駭客可能參與其中。 資安公司Team Cymru指出，他們根據Amazon公布的入侵指標，發現駭客用於掃描活動的基礎設施212.11.64[.]250，與名為CyberStrikeAI的資安測試平臺有關。此平臺由代號為Ed1s0nZ的團體打造，根據該開發團隊的GitHub資料，他們與中國政府資助的團體進行互動，部分為與中國國家安全部（MSS）有明確關聯的企業組織。其中一個是資安公司知道創宇（Knownsec），Ed1s0nZ在2025年12月將CyberStrikeAI發布到該公司經營的Starlink專案。 另一個印證此開發團體與中國政府有關的證據，是他們在1月初於GitHub檔案提及，他們在中國資安國家漏洞資料庫（CNNVD）專案當中，於2024年漏洞獎勵計畫的二級貢獻獎。而CNNVD的維運單</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174167</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/CyberStrikeAI-dashboard.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Mar 2026 05:46:32 +0000</pubDate>
+      <title>漏洞利用套件Coruna鎖定舊版iOS裝置弱點，多組人馬用於實際攻擊活動</title>
+      <link>https://www.ithome.com.tw/news/174211</link>
+      <description>新聞國家級駭客、間諜軟體開發公司鎖定蘋果行動裝置，挖掘零時差漏洞並利用的情況，不時有事故傳出，然而近期有一套iOS漏洞利用套件的揭露受到高度關注，原因在於該套件一口氣囊括超過20個漏洞，並能串連成多個完整的漏洞利用鏈，且被多組人馬用於實際攻擊活動，而格外引人注目。 Google威脅情報團隊（GTIG）揭露名為Coruna的iOS漏洞利用工具包，可利用23種已知資安漏洞，並串連出5種完整的漏洞利用攻擊鏈，能針對執行iOS 13.0至17.2.1（分別於2019年9月及2023年12月推出）的iPhone發動攻擊。GTIG強調，此套件的核心價值在於對iOS漏洞的廣泛利用，並採用了非公開的利用技術來繞過相關緩解措施。 針對此工具包的發現過程，GTIG起初是在2025年2月，看到間諜軟體的客戶用於高度針對性的攻擊活動，後續俄羅斯駭客UNC6353（APT29、Cozy Bear、SVR）於7月，使用該工具包植入烏克蘭網站，對當地的企業組織發動水坑式攻擊。到了去年12月，以經濟利益為動機的中國駭客團體UNC6691將其用於大規模活動，Coruna工具包在大量冒牌金融與加密貨幣網站出現，此時GTI</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174211</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/coruna-fig1_max-2100x2100.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Mar 2026 04:38:44 +0000</pubDate>
     </item>
     <item>
-      <title>駭客假借Zoom更新名義對Windows用戶下手，意圖植入監控工具進行後續活動</title>
-      <link>https://www.ithome.com.tw/news/174169</link>
-      <description>新聞在COVID-19疫情發生之後，視訊會議變得更加普及，其中Zoom是最常見的平臺，然而近期有人假借軟體更新的名義，在受害電腦暗中部署合法的監控工具，藉此在用戶不知情的情況下進行跟縱。 資安公司Malwarebytes揭露鎖定Windows的社交工程活動，駭客建立了模仿Zoom介面的網站，一旦使用者點擊假連結而認為進入會議時，頁面會顯示等待室並播放假的參與者加入提示音，讓使用者誤以為已連線到視訊會議。不久之後，網頁會顯示出現網路異常的訊息，播放斷斷續續的聲音與延遲呈現的畫面，幾分鐘後會「有更新可用」的訊息，並出現一個帶有倒數計時動畫圖案的彈出視窗，隨即自動安裝套件檔案下載至電腦。 值得留意的是，使用者即便未點擊「允許」，安裝檔仍會悄悄下載到電腦，並在未經用戶授權的情況下執行，最終在受害電腦植入合法遠端監控工具Teramind，該工具可記錄用戶所有按鍵輸入內容、定期截取螢幕截圖、記錄瀏覽過的網站和開啟的應用程式、擷取剪貼簿內容，並追蹤電子郵件和檔案活動。 為了讓使用者相信電腦正在更新Zoom，駭客還會在螢幕上顯示另一個Microsoft Store網頁，並呈現正在安裝Zoom Work</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174169</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/2026-02-21_124025-1.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Mar 2026 05:48:19 +0000</pubDate>
+      <title>VS Code引入代理外掛與會話記憶，AI代理支援更長時間開發任務</title>
+      <link>https://www.ithome.com.tw/news/174212</link>
+      <description>新聞微軟發布VS Code 1.110版本，將AI代理能力進一步整合至開發環境，加入代理外掛（Agent Plugin）、會話記憶與上下文壓縮等機制，使代理更能處理長時間、多步驟的開發任務。本次更新也加入代理除錯面板與瀏覽器操作工具，讓開發者能更清楚觀察代理執行過程，並擴充其在程式碼開發與測試流程中的應用。 微軟在此版本加入代理外掛機制，讓開發者可在延伸套件介面安裝一整包代理客製化內容。外掛可包含技能、命令、代理與Hook等元件，並可在延伸套件檢視中搜尋與安裝。VS Code預設從GitHub儲存庫取得外掛來源，也允許開發者自行指定其他儲存庫或本機目錄。 另一項重要更新是新增會話記憶（Session Memory）。計劃代理（Plan Agent）在會話中建立的計畫會寫入記憶，後續對話可沿用既有計畫再做調整，不必反覆重建脈絡。為避免長時間對話占滿模型上下文空間，VS Code也加入上下文壓縮（Context compaction）機制，當上下文視窗接近上限時會自動摘要歷史內容，使用者也可用指令手動觸發。 本次版本還新增代理除錯面板，可即時顯示聊天事件、系統提示、工具呼叫與代理客製化設定</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174212</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0305-VS-600.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Mar 2026 04:52:32 +0000</pubDate>
     </item>
     <item>
-      <title>M5晶片進駐MacBook Air，M5 Max與Pro升級MacBook Pro</title>
-      <link>https://www.ithome.com.tw/news/174173</link>
-      <description>新聞蘋果周二（3/3）更新Mac筆電產品線，推出搭載M5晶片的新款MacBook Air，以及採用M5 Pro與M5 Max晶片的MacBook Pro。其中，MacBook Air提供13吋與15吋兩種尺寸，並支援Wi-Fi 7與Bluetooth 6無線連線技術；MacBook Pro則維持14吋與16吋機型定位，鎖定專業創作者與開發者市場。 M5晶片於2025年10月發表，是蘋果以人工智慧運算為核心設計的新一代晶片。該晶片採用3奈米製程，整合10核心CPU、10核心GPU與16核心神經引擎。相較於前一代M4，M5多執行緒CPU效能提升約15%，GPU圖形效能最高提升約45%，而AI相關運算效能最高可提升超過4倍，統一記憶體頻寬也提高至153GB/s。 M5晶片先前已導入MacBook Pro、iPad Pro及Apple Vision Pro等裝置。隨著此次更新，蘋果也將M5帶入MacBook Air產品線，使輕薄筆電也能支援更高強度的AI工作負載，例如本機執行大型語言模型、影像生成或影片處理等任務。 新款MacBook Air維持無風扇架構，提供13吋及15吋版本，並將預設儲存</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174173</guid>
-      <pubDate>Wed, 04 Mar 2026 06:05:35 +0000</pubDate>
+      <title>離岸風電可能成為AI資料中心？美能源新創提出海上運算基礎設施構想</title>
+      <link>https://www.ithome.com.tw/news/174210</link>
+      <description>新聞隨著AI訓練與推論需求快速成長，資料中心的電力與散熱壓力也持續攀升。美國新創Aikido近期提出一個海上資料中心基礎設施概念，將AI資料中心直接整合到漂浮式的離岸風力發電平臺上，利用海上風電供應算力所需電力，並藉由海水自然散熱，結合再生能源與自然冷卻打造海上資料中心架構。 該設計是在一座足球場大小的半潛式平臺中央設置大型風力發電機，容量約15到18MW，由三條支腿向外延伸，每條支腿末端設有深約20公尺的壓載艙。壓載艙內儲放大量淡水，以在高鹽度海水環境中維持平臺的浮力與穩定性。 資料中心以模組化建置於每個壓載艙上部空間。每個艙體可容納3到4MW的資料中心模組，使整個平臺的總運算能力達10到12MW。在資料中心下方設有一個開放式艙室作為安全緩衝區，下方則是淡水壓載艙。淡水會透過管道輸送至資料中心，用於伺服器的液冷系統；吸收熱量後再回流至壓載艙。由於壓載艙外側緊鄰低溫海水，熱能可經由艙壁傳導至海水中，使淡水再次降溫後再次循環使用。 該公司宣稱其熱影響僅限於平臺周圍幾公尺的區域，這個設計預估將使資料中心的能源使用效率（PUE）可望低於1.08，顯示其冷卻能耗可能比多數的陸地資料中心更低。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174210</guid>
+      <pubDate>Thu, 05 Mar 2026 05:57:47 +0000</pubDate>
     </item>
     <item>
-      <title>Google預覽Gemini 3.1 Flash-Lite，主打低成本與大量任務處理</title>
-      <link>https://www.ithome.com.tw/news/174174</link>
-      <description>新聞Google本周發布輕量模型Gemini 3.1 Flash-Lite，主打快速、低成本，為執行高處理量的任務而設計。 即日起，Gemini 3.1 Flash-Lite以預覽版形式透過Google API在Google AI Studio上線，並透過Vertex AI提供給企業。 Gemini 3.1 Flash-Lite主打低價及更快的效能，號稱是Gemini 3系列速度最快、成本最低的模型。Google引述一項獨立標竿測試，Gemini 3.1 Flash-Lite在Time to First Answer Token（TTFT）的效能表現比2.5 Flash快2.5倍，輸出速度也提升45%。另一方面3.1 Flash-Lite雖然快，其推理、多模態理解能力卻不含糊。其GPQA Diamond跑分達86.9%，MMMU Pro達76.8%，超越2.5 Flash。Arena.ai Leaderboard Elo分數達1432，也技冠同級模型。 圖片來源／Google Google表示，3.1 Flash-Lite的快速及推理能力，可協助大量的開發任務，像是重視成本的大量翻譯或</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174174</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0304-gemini-600.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Mar 2026 06:24:20 +0000</pubDate>
+      <title>微軟公布150億參數Phi桌機版多模態模型</title>
+      <link>https://www.ithome.com.tw/news/174215</link>
+      <description>新聞微軟本周公布新版桌機模型Phi-4-reasoning-vision-15B，兼具輕巧、多模態及推理能力，可執行視覺辨識及文字理解、或是數學及科學推理等多種任務。現在已於GitHub及Hugging Face平臺公開權重等資源。 Phi-4-reasoning-vision-15B是以Phi-4及Phi-4-Reasoning語言模型為基礎，加入多模態訓練而成。微軟在設計模型時，刻意避免過度依賴龐大資料集、複雜架構，或在推論階段（inference-time）產生過多token，以降低視覺語言模型（VLM）常見的高延遲、部署困難與資源消耗問題。 微軟指出，相較於Qwen 2.5 VL、Kimi-VL與Gemma3等模型動輒使用上兆token進行訓練，Phi-4-reasoning-vision-15B僅使用約2000億token的多模態資料，並以SigLIP-2視覺編碼器與Phi-4-Reasoning為核心架構完成訓練。 在僅150億參數的規模下，該模型仍可在一般硬體上執行，同時具備結構化推理能力，能支援多種任務，包括影像註解與字幕生成、圖片問答、文件閱讀與食譜解析等。此外，模型</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174215</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/035-Phi4-600.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Mar 2026 06:07:27 +0000</pubDate>
     </item>
     <item>
-      <title>低程式碼AI平臺Langflow存在遠端RCE漏洞，提示詞注入可致伺服器遭遠端接管</title>
-      <link>https://www.ithome.com.tw/news/174171</link>
-      <description>新聞開源低程式碼AI工作流程建構平臺Langflow遭揭露重大安全漏洞CVE-2026-27966。該平臺的CSV代理節點因預設配置疏失，在Langflow服務可被外部請求觸及的情境下，攻擊者可透過提示詞注入引導模型觸發該工具，進而在伺服器端執行任意Python程式碼與作業系統指令。 該漏洞被評為最危險嚴重等級，目前已知受影響版本為1.6.9之前的舊版系統，官方在1.8.0中進行修補，呼籲使用者完成升級。 CVE-2026-27966漏洞發生的根本原因在於系統設計時將參數寫死的瑕疵。在Langflow平臺中，使用者可串接大型語言模型與CSV檔案來建立具備資料分析能力的代理，但在程式碼的實作中，開發團隊將允許執行危險程式碼的參數強制寫死為開啟狀態。該設定原本是為了讓AI代理能夠靈活處理與運算試算表資料，卻連帶自動啟用了LangChain框架底層的Python REPL工具。 由於系統並未提供任何使用者介面開關或環境變數讓系統管理者關閉此功能，導致該節點在預設狀態下即處於門戶洞開的危險狀態。 攻擊者無需具備任何系統特權或內部帳號，僅需建構包含特定惡意指令的對話提示詞，就能輕易誘使底層的大型</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174171</guid>
-      <pubDate>Wed, 04 Mar 2026 06:31:22 +0000</pubDate>
+      <title>AI資料中心用電激增，美國要求科技公司自付電力成本</title>
+      <link>https://www.ithome.com.tw/news/174217</link>
+      <description>新聞美國白宮周三（3/4）發布「電費支付者保護承諾」（Ratepayer Protection Pledge），並由總統川普（Donald Trump）召集主要AI與雲端運算企業在白宮簽署。該承諾要求企業未來在美國興建新的資料中心時，自行負擔新增電力與電網基礎設施成本，避免資料中心帶動的能源投資需求轉嫁至一般家庭與電力用戶。 此次簽署承諾的企業包括Amazon、Google、Meta、微軟、OpenAI、Oracle與xAI等7家科技大廠。白宮指出，隨著人工智慧快速發展，大型資料中心的電力需求正大幅增加，電力公司與電網營運商也面臨擴建發電與輸電基礎設施的壓力。 根據白宮公布內容，簽署企業同意在建置或擴建資料中心時「建設、引入或購買」新的發電資源，以滿足新增用電需求，同時支付與資料中心相關的電網與輸電基礎設施升級費用，包括電網容量擴建與輸電線路建設。 此外，企業需與電力公司及州政府協商新的電價機制，並為資料中心所需的電力容量付費，即使實際用電量未達預期仍需負擔成本。企業也承諾在電力供應緊張時與電網營運商合作，提供備用發電資源，以提升電網穩定性。 事實上，多家雲端與AI企業近年已開始為資料</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174217</guid>
+      <pubDate>Thu, 05 Mar 2026 06:33:24 +0000</pubDate>
     </item>
   </channel>
 </rss>
