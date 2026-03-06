@@ -8,31 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 07:12:36 +0000</lastBuildDate>
-    <item>
-      <title>OpenAI's AI data agent, built by two engineers, now serves thousands of employees — and the company says anyone can replicate it</title>
-      <link>https://venturebeat.com/orchestration/openais-ai-data-agent-built-by-two-engineers-now-serves-4-000-employees-and</link>
-      <description>When an OpenAI finance analyst needed to compare revenue across geographies and customer cohorts last year, it took hours of work — hunting through 70,000 datasets, writing SQL queries, verifying table schemas. Today, the same analyst types a plain-English question into Slack and gets a finished chart in minutes.The tool behind that transformation was built by two engineers in three months. Seventy percent of its code was written by AI. And it is now used by thousands of OpenAI's employees every</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/openais-ai-data-agent-built-by-two-engineers-now-serves-4-000-employees-and</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/EaQSWKQvnUhviYIash6VU/6890d4e08acc3a5a9367b89c12f68cf0/nuneybits_a_glowing_1980s_retro_computer_floating_in_space_and__f59f85b9-99b7-42ab-aede-6bcb07c1846e.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Mar 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>EY hit 4x coding productivity by connecting AI agents to engineering standards</title>
-      <link>https://venturebeat.com/orchestration/ey-hit-4x-coding-productivity-by-connecting-ai-agents-to-engineering</link>
-      <description>Coding agents can generate thousands of lines of code in minutes. The problem: most of it can't be deployed. It breaks internal standards, fails compliance checks, or creates more cleanup work than it saves."You can generate a ton of code, but it doesn't mean really anything, right? It's got to be code that is integratable, that is compliant, and you don't want to create more work on the back end just because you sped up the code generation process on the front end," said Stephen Newman, EY Glob</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/ey-hit-4x-coding-productivity-by-connecting-ai-agents-to-engineering</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3aTEI7KxjL1Uz44lhinAYn/c30538195c12ce6c5f4ec325bc12e0c0/crimedy7_illustration_of_a_team_of_developers_working_with_ro_a389a57e-aede-4bbd-9801-c1145c6925a7_2.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Mar 2026 17:04:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google releases Gemini 3.1 Flash Lite at 1/8th the cost of Pro</title>
-      <link>https://venturebeat.com/technology/google-releases-gemini-3-1-flash-lite-at-1-8th-the-cost-of-pro</link>
-      <description>Google's newest AI model is here: Gemini 3.1 Flash-Lite, and the biggest improvements this time around come in cost and speed, especially for enterprises and developers seeking to leverage powerful reasoning and multimodal capabilities from the U.S. search and cloud giant.Positioning it as the most cost-efficient and responsive model in the Gemini 3 series, Google is offering a solution built specifically for intelligence at scale. This launch arrives just weeks after the February debut of its h</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/google-releases-gemini-3-1-flash-lite-at-1-8th-the-cost-of-pro</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/567Od65nBsWSCDromilDGd/e473d6de8a3e9b5d2359863620ca1e11/Gemini_Generated_Image_9ak3789ak3789ak3.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 03 Mar 2026 20:06:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 06 Mar 2026 07:11:30 +0000</lastBuildDate>
     <item>
       <title>Did Alibaba just kneecap its powerful Qwen AI team? Key figures depart in wake of latest open source release</title>
       <link>https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in</link>
@@ -64,6 +40,30 @@
       <guid isPermaLink="false">https://venturebeat.com/technology/black-forest-labs-new-self-flow-technique-makes-training-multimodal-ai</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7DJHSDNzOydYRgABUAuoHr/a9af4e49bdac09050945ce577118fc5a/Gemini_Generated_Image_r7hejnr7hejnr7he.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Wed, 04 Mar 2026 20:18:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Databricks built a RAG agent it says can handle every kind of enterprise search</title>
+      <link>https://venturebeat.com/data/databricks-built-a-rag-agent-it-says-can-handle-every-kind-of-enterprise</link>
+      <description>Most enterprise RAG pipelines are optimized for one search behavior. They fail silently on the others. A model trained to synthesize cross-document reports handles constraint-driven entity search poorly. A model tuned for simple lookup tasks falls apart on multi-step reasoning over internal notes. Most teams find out when something breaks.Databricks set out to fix that with KARL, short for Knowledge Agents via Reinforcement Learning. The company trained an agent across six distinct enterprise se</description>
+      <guid isPermaLink="false">https://venturebeat.com/data/databricks-built-a-rag-agent-it-says-can-handle-every-kind-of-enterprise</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4hQqsEyky5I2YGNHHAkD25/9807b667fb096677cae96164a35efb84/Karl-RAG-funnel-smk1.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 05 Mar 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI launches GPT-5.4 with native computer use mode, financial plugins for Microsoft Excel, Google Sheets</title>
+      <link>https://venturebeat.com/technology/openai-launches-gpt-5-4-with-native-computer-use-mode-financial-plugins-for</link>
+      <description>The AI updates aren't slowing down. Literally two days after OpenAI launched a new underlying AI model for ChatGPT called GPT-5.3 Instant, the company has unveiled another, even more massive upgrade: GPT-5.4.Actually, GPT-5.4 comes in two varieties: GPT-5.4 Thinking and GPT-5.4 Pro, the latter designed for the most complex tasks.Both will be available in OpenAI's paid application programming interface (API) and Codex software development application, while GPT-5.4 Thinking will be available to a</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/openai-launches-gpt-5-4-with-native-computer-use-mode-financial-plugins-for</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7gCGOQwpwVqoiYYxNjmHUr/c5592b27e579e176b853eb1e356e52fe/ChatGPT_Image_Mar_5__2026__11_22_33_AM.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 05 Mar 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Workspace CLI brings Gmail, Docs, Sheets and more into a common interface for AI agents</title>
+      <link>https://venturebeat.com/orchestration/google-workspace-cli-brings-gmail-docs-sheets-and-more-into-a-common</link>
+      <description>What's old is new: the command line — the original, clunky non-graphical interface for interacting with and controlling PCs, where the user just typed in raw commands in code — has become one of the most important interfaces in agentic AI.That shift has been driven in part by the rise of coding-native tools such as Claude Code and Kilo CLI, which have helped establish a model where AI agents do not just answer questions in chat windows but execute real tasks through a shared, scriptable interfac</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/google-workspace-cli-brings-gmail-docs-sheets-and-more-into-a-common</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/5Pd1hMlQFI3vMI2ORlph74/1c5d62789664fb28c393470e9a88fd45/Gemini_Generated_Image_7y3gd67y3gd67y3g.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Mar 2026 01:20:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

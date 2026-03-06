@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 07:05:51 +0000</lastBuildDate>
-    <item>
-      <title>How to Run Your Python Scripts and Code</title>
-      <link>https://realpython.com/run-python-scripts/</link>
-      <description>Learn how to run Python scripts from the command line, REPL, IDEs, and file managers on Windows, Linux, and macOS. Master all execution approaches.</description>
-      <guid isPermaLink="false">https://realpython.com/run-python-scripts/</guid>
-      <enclosure url="https://files.realpython.com/media/How-to-Run-A-Python-Script_Watermarked.65fe32bf5487.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 25 Feb 2026 14:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 06 Mar 2026 07:03:14 +0000</lastBuildDate>
     <item>
       <title>Quiz: Hands-On Python 3 Concurrency With the asyncio Module</title>
       <link>https://realpython.com/quizzes/python-3-concurrency-asyncio-module/</link>
@@ -81,6 +73,13 @@
       <guid isPermaLink="false">https://realpython.com/openrouter-api/</guid>
       <enclosure url="https://files.realpython.com/media/open-router-multiple-AI-models-screenshot.adfb5097125a.png" length="0" type="image/png"/>
       <pubDate>Wed, 04 Mar 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quiz: How to Use the OpenRouter API to Access Multiple AI Models via Python</title>
+      <link>https://realpython.com/quizzes/openrouter-api/</link>
+      <description>Test your Python skills with OpenRouter: learn unified API access, model switching, provider routing, and fallback strategies.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/openrouter-api/</guid>
+      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

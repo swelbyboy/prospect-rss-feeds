@@ -8,77 +8,83 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 06:57:23 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 06:54:56 +0000</lastBuildDate>
     <item>
-      <title>Chrome DevTools MCP: Give Your AI Agent Eyes in the Browser</title>
-      <link>https://dev.to/bobbyblaine/chrome-devtools-mcp-give-your-ai-agent-eyes-in-the-browser-4oho</link>
-      <description>AI coding assistants write frontend code they never see rendered. They debug console errors from stack traces you copy-paste into a chat window. Google's Chrome DevTools MCP server eliminates this blindfold by connecting your AI agent directly to a live Chrome session, giving it access to DOM inspection, console logs, network requests, and performance traces through natural language. What the DevTools MCP Server Does Chrome DevTools MCP is an official Google project that exposes Chrome's full de</description>
-      <guid isPermaLink="false">https://dev.to/bobbyblaine/chrome-devtools-mcp-give-your-ai-agent-eyes-in-the-browser-4oho</guid>
-      <pubDate>Thu, 05 Mar 2026 06:42:10 +0000</pubDate>
+      <title>What is Engineer persona?</title>
+      <link>https://dev.to/priya_sajja_c336921bbda87/what-is-engineer-persona-5e29</link>
+      <description>What is an Engineer persona in a user research method? A user persona is a research-based, fictional but realistic representation of a user group, built from patterns found in real data, interviews, and observations. It gives your team a shared mental model of who you're building for. For Example: A persona for a platform Engineer isn’t one specific person at your company. It's what you learned from interviewing 15 platform engineers across different orgs, distilled into one coherent, usable pro</description>
+      <guid isPermaLink="false">https://dev.to/priya_sajja_c336921bbda87/what-is-engineer-persona-5e29</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fxkionpfz2ie87lv4xt36.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Mar 2026 06:01:42 +0000</pubDate>
     </item>
     <item>
-      <title>Spec-Driven Development: Write the Spec, Not the Code</title>
-      <link>https://dev.to/bobbyblaine/spec-driven-development-write-the-spec-not-the-code-2p5o</link>
-      <description>Vibe coding got developers building fast. It also got them rebuilding fast. The pattern: describe what you want, accept the AI's output, ship it. Then spend the next week debugging assumptions the model made because you never stated them. Spec-driven development is the emerging counter-approach, and in early 2026, three major platforms shipped dedicated tooling for it: GitHub's Spec Kit, AWS Kiro, and Tessl Framework. The idea is simple: write a structured specification first, then let the AI ge</description>
-      <guid isPermaLink="false">https://dev.to/bobbyblaine/spec-driven-development-write-the-spec-not-the-code-2p5o</guid>
-      <pubDate>Thu, 05 Mar 2026 06:42:16 +0000</pubDate>
+      <title>Vibe Coding Challenge - Day 8: Case Files Dedective Game</title>
+      <link>https://dev.to/labdays/vibe-coding-challenge-day-8-case-files-dedective-game-33o7</link>
+      <description>Each one is a unique and different detective game. Artificial Conan Doyle Announcement My detective game, Case Files, which I released today, seems to be a good example of this type of game in terms of visuals and interface. You can create case files on any topic and content you want, collect clues, and examine suspects like a detective. If you'd like to try it, the link is below 👇 casefiles.labdays.io Context I started the Vibe Coding Challenge. I plan to release a new product every day, and to</description>
+      <guid isPermaLink="false">https://dev.to/labdays/vibe-coding-challenge-day-8-case-files-dedective-game-33o7</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgk391ywtq8pne29sdu5q.webp" length="0" type="image/webp"/>
+      <pubDate>Fri, 06 Mar 2026 06:04:19 +0000</pubDate>
     </item>
     <item>
-      <title>Coast FIRE: The Tech Worker's AI Layoff Hedge</title>
-      <link>https://dev.to/stewartblake/coast-fire-the-tech-workers-ai-layoff-hedge-36o0</link>
-      <description>With 37% of companies planning AI-driven cuts, here is the math that makes your retirement layoff-proof. Sixty percent of organizations have already made or are planning headcount reductions tied to AI, according to a Harvard Business Review survey of 1,006 global executives. Here is the uncomfortable part: only 2% of those cuts are based on what AI can actually do today. The rest are bets on what it might do tomorrow. If you are a senior software engineer earning $250K and watching your company</description>
-      <guid isPermaLink="false">https://dev.to/stewartblake/coast-fire-the-tech-workers-ai-layoff-hedge-36o0</guid>
-      <pubDate>Thu, 05 Mar 2026 06:42:34 +0000</pubDate>
+      <title>DevOps Project: Hosting Serverless Web Application in AWS using S3,Lambda, CloudFront, DynamoDB, Route53, SSL certificate</title>
+      <link>https://dev.to/nandan_007/devops-project-hosting-serverless-web-application-in-aws-using-s3lambda-cloudfront-dynamodb-2362</link>
+      <description>🎯 DevOps is not just about learning tools; it’s about applying them to solve real-world problems. One of the best ways to build practical DevOps skills is by creating hands-on projects that demonstrate how different cloud services work together. In this project, I built a serverless web application using core AWS services such as AWS Lambda, Amazon DynamoDB, CloudFront Distribution, Amazon S3, Route53, SSL certification and also integrating these different AWS services. 📌 AWS Services used to im</description>
+      <guid isPermaLink="false">https://dev.to/nandan_007/devops-project-hosting-serverless-web-application-in-aws-using-s3lambda-cloudfront-dynamodb-2362</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F1yx2ei8rd14rfyxi8dx9.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Mar 2026 06:07:21 +0000</pubDate>
     </item>
     <item>
-      <title>The RSU Withholding Gap: What Most Engineers Get Wrong</title>
-      <link>https://dev.to/stewartblake/the-rsu-withholding-gap-what-most-engineers-get-wrong-2b62</link>
-      <description>When your RSUs vest, your employer withholds taxes before depositing shares into your brokerage account. The critical issue most senior engineers overlook: "RSU tax withholding not enough is the default state, not an exception." Why Employers Withhold at 22% The IRS classifies RSU income as supplemental wages, allowing a flat 22% federal withholding rate regardless of your actual tax bracket. This is procedural simplification for payroll departments, not personalized tax calculation. For lower e</description>
-      <guid isPermaLink="false">https://dev.to/stewartblake/the-rsu-withholding-gap-what-most-engineers-get-wrong-2b62</guid>
-      <pubDate>Thu, 05 Mar 2026 06:42:41 +0000</pubDate>
+      <title>OpenTableAPI for Developers: Build APIs from Your Table Data</title>
+      <link>https://dev.to/priyantha_weerasinghe_1d4/opentableapi-for-developers-build-apis-from-your-table-data-27nh</link>
+      <description>Introduction https://www.opentableapi.com Modern applications rely heavily on APIs to connect services, power user interfaces, and share data between systems. Traditionally, developers build backend applications, manage servers, design databases, and implement CRUD APIs just to expose simple data. OpenTableAPI simplifies this entire process. OpenTableAPI allows developers to turn table-based business data directly into APIs without building a backend system from scratch. Instead of creating and</description>
+      <guid isPermaLink="false">https://dev.to/priyantha_weerasinghe_1d4/opentableapi-for-developers-build-apis-from-your-table-data-27nh</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F67zpnfptcf7dvah0rc44.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Mar 2026 06:12:46 +0000</pubDate>
     </item>
     <item>
-      <title>Cognitive Debt: The Real Cost of AI-Generated Code</title>
-      <link>https://dev.to/bobbyblaine/cognitive-debt-the-real-cost-of-ai-generated-code-33ep</link>
-      <description>Developers trust AI-generated code less than ever. Confidence in AI coding tools dropped from 43% to 29% in eighteen months, yet usage climbed to 84%. That gap between belief and behavior has a name now: cognitive debt. And unlike technical debt, you cannot refactor your way out of it. What Cognitive Debt Actually Means Margaret-Anne Storey described the phenomenon in a February 2026 blog post, building on Peter Naur's decades-old insight that a program is not its source code. A program is a the</description>
-      <guid isPermaLink="false">https://dev.to/bobbyblaine/cognitive-debt-the-real-cost-of-ai-generated-code-33ep</guid>
-      <pubDate>Thu, 05 Mar 2026 06:42:59 +0000</pubDate>
+      <title>Accenture Trained 550,000 Employees on AI. Now It's Checking Who Actually Uses It.</title>
+      <link>https://dev.to/mothasa/accenture-trained-550000-employees-on-ai-now-its-checking-who-actually-uses-it-bd0</link>
+      <description>Accenture told its senior managers and associate directors this month that regular use of the firm's internal AI tools is now a factor in promotion decisions. Not familiarity. Not completion of a training module. Active, tracked usage — logged through Microsoft Copilot data and internal dashboards. The company trained 550,000 of its 780,000 employees in generative AI over the past year. That's 70% of the workforce. The training is done. The mandate phase has begun. Certain employees in parts of</description>
+      <guid isPermaLink="false">https://dev.to/mothasa/accenture-trained-550000-employees-on-ai-now-its-checking-who-actually-uses-it-bd0</guid>
+      <pubDate>Fri, 06 Mar 2026 06:15:19 +0000</pubDate>
     </item>
     <item>
-      <title>Best Playwright GitHub Repositories to Study in 2026</title>
-      <link>https://dev.to/testdino01/best-playwright-github-repositories-to-study-in-2026-43nk</link>
-      <description>Here's a scenario most Playwright developers recognize. You write your first test. It passes. You add ten more. They pass too. Then your team joins in. The suite grows to 200 tests. CI starts failing randomly. Someone hardcodes a base URL. The playwright.config.ts becomes a file no one wants to touch. The gap between "I know Playwright" and "I can build something that scales" is real. One of the fastest ways to close it is reading how other teams built their frameworks. The repositories below ar</description>
-      <guid isPermaLink="false">https://dev.to/testdino01/best-playwright-github-repositories-to-study-in-2026-43nk</guid>
-      <pubDate>Thu, 05 Mar 2026 06:45:56 +0000</pubDate>
+      <title>Why Every Developer Will Eventually Design AI Systems</title>
+      <link>https://dev.to/jaideepparashar/why-every-developer-will-eventually-design-ai-systems-1khf</link>
+      <description>For most of software history, developers primarily built deterministic systems. You wrote logic. You defined rules. The machine executed them. The developer’s job was to translate human intent into precise instructions. AI introduces a different paradigm. Instead of encoding every rule manually, developers increasingly design systems that interpret context, generate outputs, and make decisions under uncertainty. This doesn’t create a new profession separate from software engineering. It graduall</description>
+      <guid isPermaLink="false">https://dev.to/jaideepparashar/why-every-developer-will-eventually-design-ai-systems-1khf</guid>
+      <pubDate>Fri, 06 Mar 2026 06:18:41 +0000</pubDate>
     </item>
     <item>
-      <title>I Built a Social Media Downloader and Got 169 Keywords Indexed in 7 Days</title>
-      <link>https://dev.to/jamesdon68/i-built-a-social-media-downloader-and-got-169-keywords-indexed-in-7-days-4j7k</link>
-      <description>Last week I launched SaveKit — a free tool to download videos and images from Pinterest, Instagram, Facebook, and TikTok (first MVP). No login. No watermark. Just paste a link and save. I wasn't sure if anyone would care. Turns out, they did. The numbers after 7 days 157 → 668 daily visitors (4x growth) 169 organic keywords indexed on Google Position 1 for "download video from facebook" Ranking in 5 languages already (English, Spanish, Portuguese, Turkish, Vietnamese) I didn't run a single ad. H</description>
-      <guid isPermaLink="false">https://dev.to/jamesdon68/i-built-a-social-media-downloader-and-got-169-keywords-indexed-in-7-days-4j7k</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fog7js6rcnhmhd5k37wid.png" length="0" type="image/png"/>
-      <pubDate>Thu, 05 Mar 2026 06:46:53 +0000</pubDate>
+      <title>Topology-Aware AI Agents for Observability: Automating SLO Breach Root Cause Analysis</title>
+      <link>https://dev.to/roops/topology-aware-ai-agents-for-observability-automating-slo-breach-root-cause-analysis-60i</link>
+      <description>Topology-Aware AI Agents for Observability: Automating SLO Breach Root Cause Analysis Modern cloud systems are complex distributed architectures where a single user journey may depend on dozens of services running across multiple infrastructure layers. When a Service Level Objective (SLO) breach occurs, identifying the root cause often requires navigating logs, metrics, traces, service dependencies, and infrastructure relationships. In many organizations, this investigation is still manual and t</description>
+      <guid isPermaLink="false">https://dev.to/roops/topology-aware-ai-agents-for-observability-automating-slo-breach-root-cause-analysis-60i</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fnrv656yu78ce48mfzncy.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Mar 2026 06:25:06 +0000</pubDate>
     </item>
     <item>
-      <title>Context Engineering: CLAUDE.md and .cursorrules</title>
-      <link>https://dev.to/bobbyblaine/context-engineering-claudemd-and-cursorrules-dc7</link>
-      <description>75% of engineers use AI tools daily. Most organizations see no measurable productivity gains from them. Faros AI sums it up: "Clever prompts make for impressive demos. Engineered context makes for shippable software." When your AI coding agent enters a session without knowing your naming conventions, architecture patterns, or which directories to never touch, every session starts cold. That overhead compounds across every developer on every task. What Context Engineering Actually Is Context engi</description>
-      <guid isPermaLink="false">https://dev.to/bobbyblaine/context-engineering-claudemd-and-cursorrules-dc7</guid>
-      <pubDate>Thu, 05 Mar 2026 06:48:15 +0000</pubDate>
+      <title>How to Choose Between Serverless and Dedicated Compute in Databricks</title>
+      <link>https://dev.to/therectoverse/how-to-choose-between-serverless-and-dedicated-compute-in-databricks-j64</link>
+      <description>I recently benchmarked Serverless vs Dedicated compute in Databricks. I expected one of them to clearly win. It didn’t. Execution time was almost identical. Which led to a more useful realization: The decision between Serverless and Dedicated is not a performance question. It’s a workload shape question. The Mental Model Dedicated wins when the cluster stays warm and busy. Serverless wins from the first byte of compute needed. The Real Cost Model When evaluating compute options, comparing DBUs v</description>
+      <guid isPermaLink="false">https://dev.to/therectoverse/how-to-choose-between-serverless-and-dedicated-compute-in-databricks-j64</guid>
+      <pubDate>Fri, 06 Mar 2026 06:35:02 +0000</pubDate>
     </item>
     <item>
-      <title>Slopsquatting: AI Hallucinations as Supply Chain Attacks</title>
-      <link>https://dev.to/bobbyblaine/slopsquatting-ai-hallucinations-as-supply-chain-attacks-1g31</link>
-      <description>One in five AI-generated code samples recommends a package that does not exist. Attackers are registering those phantom names on npm and PyPI with malware inside. The term for this is slopsquatting, and it is already happening. What Slopsquatting Actually Is Typosquatting bets on human misspellings. Slopsquatting bets on AI hallucinations. The term was coined by Seth Larson, Security Developer-in-Residence at the Python Software Foundation, to describe a specific attack: register the package nam</description>
-      <guid isPermaLink="false">https://dev.to/bobbyblaine/slopsquatting-ai-hallucinations-as-supply-chain-attacks-1g31</guid>
-      <pubDate>Thu, 05 Mar 2026 06:48:24 +0000</pubDate>
+      <title>I Got Tired of Filling Out the Same Form 50 Times, So I Built an AI to Do It</title>
+      <link>https://dev.to/rahul_talatala/i-got-tired-of-filling-out-the-same-form-50-times-so-i-built-an-ai-to-do-it-4jfj</link>
+      <description>Every time I applied for a job, I faced the same ritual. Open the application form. Type my full name. Type my email. Paste my LinkedIn URL. Type my phone number. Select my country from a dropdown. Answer "Are you authorized to work in the US?" for the fifteenth time that week. The entire process takes about ten minutes per application, and roughly eight of those minutes are spent on fields I have answered hundreds of times before. The two minutes that actually matter, the cover letter, the port</description>
+      <guid isPermaLink="false">https://dev.to/rahul_talatala/i-got-tired-of-filling-out-the-same-form-50-times-so-i-built-an-ai-to-do-it-4jfj</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frke045f0k6q5ottm6477.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Mar 2026 06:44:27 +0000</pubDate>
     </item>
     <item>
-      <title>Cash vs Equity in 2026: The Negotiation Playbook</title>
-      <link>https://dev.to/stewartblake/cash-vs-equity-in-2026-the-negotiation-playbook-383g</link>
-      <description>Equity grants at startups are 26% below where they were in 2022. Meanwhile, base salaries have risen 5.8% over the same period. The cash vs equity compensation balance in 2026 has shifted, and the question is whether your negotiation strategy has shifted with it. How the Comp Formula Changed For most of the last decade, tech compensation followed a predictable formula: modest base salary, big equity grant, four-year vest, and a bet on the company's trajectory. That formula assumed a functioning</description>
-      <guid isPermaLink="false">https://dev.to/stewartblake/cash-vs-equity-in-2026-the-negotiation-playbook-383g</guid>
-      <pubDate>Thu, 05 Mar 2026 06:48:33 +0000</pubDate>
+      <title>Architecting IAM for Microservices</title>
+      <link>https://dev.to/mohammed_aminedridi_0a5b/architecting-iam-for-microservices-43ca</link>
+      <description>*Architecting IAM for Microservices: Why Identity Should Be a Platform Layer * Managing identity and access in modern applications is more than just authentication—it’s becoming a critical platform concern. When building microservices or multi-tenant SaaS platforms, IAM (Identity and Access Management) is no longer a peripheral feature—it’s a core piece of infrastructure that affects security, scalability, and developer velocity. At Aswar.io, we’ve been exploring practical patterns for architect</description>
+      <guid isPermaLink="false">https://dev.to/mohammed_aminedridi_0a5b/architecting-iam-for-microservices-43ca</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fui8xx2da52588zwtahxm.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Mar 2026 06:45:12 +0000</pubDate>
     </item>
   </channel>
 </rss>

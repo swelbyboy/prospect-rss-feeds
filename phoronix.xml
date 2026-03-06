@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 06:57:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Mar 2026 06:55:08 +0000</lastBuildDate>
     <item>
-      <title>Ubuntu Still Figuring Out A Plan For Dealing With California's Digital Age Assurance Act</title>
-      <link>https://www.phoronix.com/news/Ubuntu-Digital-Age-Assurance</link>
-      <description>The talk this week among open-source projects from Linux distributions to app stores like Flathub is how to deal with California's latest insanity: the Digital Age Assurance Act. California's AB 1043 state law is mandating that operating systems -- Linux included -- collect age information during account setup and exposing that age to eligible apps beginning on 1 January 2027. That leaves much uncertainty for Linux distributions and other repositories/stores and more. Canonical issued a statemen</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-Digital-Age-Assurance</guid>
-      <pubDate>Wed, 04 Mar 2026 10:46:17 +0000</pubDate>
+      <title>AMD DCN 4.2 IP, GFX 12.1 Updates For AMDGPU Driver In Linux 7.1 Plus GCN 1.1 APU DC</title>
+      <link>https://www.phoronix.com/news/Linux-7.1-AMDGPU-1</link>
+      <description>AMD has begun staging AMDGPU and AMDKFD kernel driver improvements for the upcoming Linux 7.1 cycle...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.1-AMDGPU-1</guid>
+      <pubDate>Thu, 05 Mar 2026 14:51:22 +0000</pubDate>
     </item>
     <item>
-      <title>Old ATI R300 Open-Source Driver Sees Another New Fix In 2026</title>
-      <link>https://www.phoronix.com/news/ATI-R300-Occlusion-Query-Fix</link>
-      <description>The Radeon R300 series turns 24 years old this year and thanks to the open-source ATI R300 Gallium3D driver that began via reverse engineering, it's still continuing to see the occasional random fixes from the open-source community...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/ATI-R300-Occlusion-Query-Fix</guid>
-      <pubDate>Wed, 04 Mar 2026 10:58:31 +0000</pubDate>
+      <title>Redox OS Gets Vulkan &amp;amp; Node.js Working On This Rust-Based Open-Source OS</title>
+      <link>https://www.phoronix.com/news/Redox-OS-February</link>
+      <description>There were some fairly exciting improvements made by the Redox OS developers over the course of February. They have the Vulkan API working on Redox OS for the first time along with more COSMIC desktop software and even Node.js...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Redox-OS-February</guid>
+      <pubDate>Thu, 05 Mar 2026 15:27:17 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Engineer Leverages AI To Help Make A Pure-Python AMD GPU User-Space Driver</title>
-      <link>https://www.phoronix.com/news/AI-Pure-Python-AMD-GPU-Driver</link>
-      <description>AMD's VP of AI Software, Anush Elangovan, has used Claude Code to help craft a pure-Python AMD GPU user-space driver. This Python user-space driver is currently being created to help exercise other ROCm code and for debugging in passing through the ROCm/HIP user-space stack...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AI-Pure-Python-AMD-GPU-Driver</guid>
-      <pubDate>Wed, 04 Mar 2026 11:09:00 +0000</pubDate>
+      <title>Debian Still Debating AI Contributions Plus A Need For More Diverse Contributors</title>
+      <link>https://www.phoronix.com/news/Debian-DPL-Update-March-2026</link>
+      <description>Debian Project Leader "DPL" Andreas Tille provided an update today on various happenings within the project and personal reflections on some recent topics. Among the topics in today's DPL updates were around AI contributions, Debian's need to become more diverse with its contributors, and needing more "thank yous" to show appreciation for contributions...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Debian-DPL-Update-March-2026</guid>
+      <pubDate>Thu, 05 Mar 2026 16:03:08 +0000</pubDate>
     </item>
     <item>
-      <title>Linux Preps IBPB-On-Entry Feature For AMD SEV-SNP Guest VMs</title>
-      <link>https://www.phoronix.com/news/AMD-IBPB-On-Entry-SNP-VMs</link>
-      <description>Heading toward the Linux 7.0 kernel and marked for back-porting to current stable Linux kernel versions is employing a new SEV-SNP security feature found on AMD Zen 5 processors for enhancing security of guest virtual machines...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-IBPB-On-Entry-SNP-VMs</guid>
-      <pubDate>Wed, 04 Mar 2026 13:25:40 +0000</pubDate>
+      <title>NVIDIA R595 Linux Driver Beta Brings New Vulkan Support &amp;amp; DRI3 v1.2</title>
+      <link>https://www.phoronix.com/news/NVIDIA-595.45.04-Linux-Beta</link>
+      <description>Following the recent NVIDIA R595 driver release for Windows, NVIDIA today released the 595.45.04 driver for Linux users as a beta version in the R595 release stream...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-595.45.04-Linux-Beta</guid>
+      <pubDate>Thu, 05 Mar 2026 16:13:00 +0000</pubDate>
     </item>
     <item>
-      <title>systemd 260-rc2 Released With More Changes</title>
-      <link>https://www.phoronix.com/news/systemd-260-rc2</link>
-      <description>Last week marked the release of systemd 260-rc1 with a new "mstack" feature, a new "FANCY_NAME" field for os-release, dropping System V service script support, and other changes. Out today is systemd 260-rc2 release with more changes in further working its way toward a stable release for empowering 2026 Linux distributions...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/systemd-260-rc2</guid>
-      <pubDate>Wed, 04 Mar 2026 14:08:39 +0000</pubDate>
+      <title>Linux 7.0 File-System Benchmarks With XFS Leading The Way</title>
+      <link>https://www.phoronix.com/review/linux-70-filesystems</link>
+      <description>With a number of file-system improvements in Linux 6.19 and more file-system optimizations in Linux 7.0, it's past due for running some fresh file-system benchmarks. Here is a look at how the prominent file-system contenders are performing on the latest Linux 7.0 development kernel.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/linux-70-filesystems</guid>
+      <pubDate>Thu, 05 Mar 2026 17:20:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux Mint Ready With Its Wayland-Compatible Cinnamon Screensaver</title>
-      <link>https://www.phoronix.com/news/Linux-Mint-Wayland-Screensaver</link>
-      <description>Linux Mint developers recently outlined their work on developing a new Wayland-compatible screensaver for use with their Cinnamon desktop environment. Linux Mint developers announced today that their new screensaver solution is ready for use...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Mint-Wayland-Screensaver</guid>
-      <pubDate>Wed, 04 Mar 2026 15:09:44 +0000</pubDate>
+      <title>Linux MAINTAINERS Cleaning For Recently Departed Intel Devs, Altera Drivers Oprhaned</title>
+      <link>https://www.phoronix.com/news/Linux-MAINTAINERS-Intel-March</link>
+      <description>The layoffs and restructuring at Intel in 2025 caused unfortunate hits to their Linux/open-source engineering including various driver maintainers leaving and even their CPU temperature driver being orphaned for lack of maintainers. Sent out today were a number of additional updates to the MAINTAINERS file for the Linux kernel to reflect other Intel departures in recent months. Plus some of the Altera drivers have also been orphaned now for having no upstream maintainers...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-MAINTAINERS-Intel-March</guid>
+      <pubDate>Thu, 05 Mar 2026 18:35:15 +0000</pubDate>
     </item>
     <item>
-      <title>AMD EPYC Achieves Performance Leadership In New OCUDU Project For 5G/6G RAN</title>
-      <link>https://www.phoronix.com/review/amd-epyc-intel-xeon-ocudu</link>
-      <description>Announced this week at Mobile World Congress (MWC) by the Linux Foundation was the establishing of the OCUDU Ecosystem Foundation for advancing open-source AI-RAN (Radio Access Network) innovations. OCUDU is building a reference platform and innovations around 5G and early 6G network solutions. With OCUDU being benchmark-friendly, I have been putting the early code through some performance tests on current AMD EPYC and Intel Xeon server platforms.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/amd-epyc-intel-xeon-ocudu</guid>
-      <pubDate>Wed, 04 Mar 2026 16:00:00 +0000</pubDate>
+      <title>Rust 1.94 Released With Stable Support For AVX-512 FP16 Intrinsics, Array Windows</title>
+      <link>https://www.phoronix.com/news/Rust-1.94-Released</link>
+      <description>Rust 1.94 was rolled out today as the newest routine stable update for the Rust programming language...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Rust-1.94-Released</guid>
+      <pubDate>Thu, 05 Mar 2026 19:09:00 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Begins Preparations For Xe3P Upstreaming To Open-Source OpenGL &amp;amp; Vulkan Drivers</title>
-      <link>https://www.phoronix.com/news/Intel-Mesa-Xe3P-Start</link>
-      <description>Following the mainline Linux kernel beginning to see Xe3P graphics enablement for upcoming Nova Lake integrated graphics as well as the Crescent Island AI inference accelerator, Intel's Mesa OpenGL "Iris" and Vulkan "ANV" drivers are preparing to begin laying out their Xe3P driver support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Mesa-Xe3P-Start</guid>
-      <pubDate>Wed, 04 Mar 2026 21:11:11 +0000</pubDate>
+      <title>System76 Comments On Recent Age Verification Laws</title>
+      <link>https://www.phoronix.com/news/System76-Age-Verification-Laws</link>
+      <description>System76 published a statement today regarding the recent laws coming about in California and likely Colorado and New York too around requiring age verification on operating system accounts and ultimately exposing the information (or at least age brackets) to apps and websites. System76's position is interesting given that they sell Linux-loaded desktops, workstations and laptops plus being an operating system vendor with their in-house Pop!_OS distribution and COSMIC desktop environment...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/System76-Age-Verification-Laws</guid>
+      <pubDate>Thu, 05 Mar 2026 22:33:31 +0000</pubDate>
     </item>
     <item>
-      <title>FEX 2603 Released With A Partial Fix For The Steam GUI Crashing On AArch64</title>
-      <link>https://www.phoronix.com/news/FEX-2603-Released</link>
-      <description>FEX 2603 as the Valve-sponsored open-source project allowing Linux x86/x86_64 binaries to run on AArch64 Linux -- including the likes of Steam and various games as will become important with the Steam Frame -- is now out with its newest monthly release...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FEX-2603-Released</guid>
-      <pubDate>Thu, 05 Mar 2026 01:21:58 +0000</pubDate>
+      <title>GNOME 50 Release Candidate Brings Last Minute Changes</title>
+      <link>https://www.phoronix.com/news/GNOME-50-Release-Candidate</link>
+      <description>GNOME 50.rc was christened today as the release candidate for the GNOME 50 desktop...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Release-Candidate</guid>
+      <pubDate>Fri, 06 Mar 2026 00:51:55 +0000</pubDate>
     </item>
     <item>
-      <title>Notice: Brief Downtime Expected Overnight</title>
-      <link>https://www.phoronix.com/news/NVMe-RAID-Replace-March-2026</link>
-      <description>Just a heads up that some brief downtime to Phoronix.com is expected overnight during the replacement of an NVMe drive in the RAID array for this web server...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVMe-RAID-Replace-March-2026</guid>
-      <pubDate>Thu, 05 Mar 2026 02:00:00 +0000</pubDate>
+      <title>Wayland 1.25 RC1 Released With Improved Documentation, Minor Changes</title>
+      <link>https://www.phoronix.com/news/Wayland-1.25-RC1</link>
+      <description>Simon Ser announced the release today of Wayland 1.25 RC1 (Wayland v1.24.91) in working toward this next stable release...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Wayland-1.25-RC1</guid>
+      <pubDate>Fri, 06 Mar 2026 02:55:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

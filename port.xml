@@ -8,15 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Mar 2026 07:24:13 +0000</lastBuildDate>
-    <item>
-      <title>Why AI Agents need a Context Lake</title>
-      <link>https://www.port.io/blog/why-ai-agents-need-a-context-lake</link>
-      <description>Your AI agent has tool access. What it's missing is the knowledge that makes those tools useful.</description>
-      <guid isPermaLink="false">https://www.port.io/blog/why-ai-agents-need-a-context-lake</guid>
-      <enclosure url="https://cdn.prod.website-files.com/622b2fcc29fc56492b771cb8/696ceaff57520e124d221534_Why%20AI%20Agents%20need%20a%20Context%20Lake%20blog%20cover.png" length="0" type="image/png"/>
-      <pubDate>Tue, 20 Jan 2026 10:27:35 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 06 Mar 2026 07:24:12 +0000</lastBuildDate>
     <item>
       <title>Port Slack app is now in open beta</title>
       <link>https://www.port.io/blog/port-slack-app-is-now-in-open-beta</link>
@@ -88,6 +80,14 @@
       <guid isPermaLink="false">https://www.port.io/blog/turning-support-tickets-into-organization-wide-intelligence</guid>
       <enclosure url="https://cdn.prod.website-files.com/622b2fcc29fc56492b771cb8/69a6a0b6fee0dae1365de2d1_Turning%20Support%20Tickets%20into%20Organization-Wide%20Intelligence%20_%20blog%20cover.png" length="0" type="image/png"/>
       <pubDate>Wed, 04 Mar 2026 15:25:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>How we would have managed a recent incident at Port with an incident agent</title>
+      <link>https://www.port.io/blog/how-we-would-have-managed-a-recent-incident-at-port-with-an-incident-agent</link>
+      <description>‍We had a real incident where three teams investigated the same problem in parallel. Here's what happened, what we built to make sure it doesn't happen again, and how we're using Port to move toward autonomous incident resolution.</description>
+      <guid isPermaLink="false">https://www.port.io/blog/how-we-would-have-managed-a-recent-incident-at-port-with-an-incident-agent</guid>
+      <enclosure url="https://cdn.prod.website-files.com/622b2fcc29fc56492b771cb8/69a97a99b2ba56ae7c39fbb3_agentify%20an%20old%20incident%20_%20cover%20(1).png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Mar 2026 15:13:56 +0000</pubDate>
     </item>
   </channel>
 </rss>
