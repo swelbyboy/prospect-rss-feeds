@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Mar 2026 07:11:30 +0000</lastBuildDate>
-    <item>
-      <title>Did Alibaba just kneecap its powerful Qwen AI team? Key figures depart in wake of latest open source release</title>
-      <link>https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in</link>
-      <description>Alibaba's Qwen team of AI researchers have been among the most prolific and well-regarded by international machine learning community — shipping dozens of powerful generalized and specialized generative models starting last summer, most of them entirely open source and free.But now, just 24 hours after shipping the open source Qwen3.5 small model series—a release that drew public praise from Elon Musk for its "impressive intelligence density"—the project’s technical architect and several other Q</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/did-alibaba-just-kneecap-its-powerful-qwen-ai-team-key-figures-depart-in</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3OTF48loVIPOGAJt06bcsV/e894100791caa709c7ddce044246be17/ChatGPT_Image_Mar_3__2026__07_30_07_PM.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Mar 2026 00:32:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pentagon vendor cutoff exposes the AI dependency map most enterprises never built</title>
-      <link>https://venturebeat.com/security/ai-supply-chain-visibility-gap-anthropic-pentagon-ciso-audit</link>
-      <description>The federal directive ordering all U.S. government agencies to cease using Anthropic technology comes with a six-month phaseout window. That timeline assumes agencies already know where Anthropic’s models sit inside their workflows. Most don’t today.Most enterprises wouldn’t, either. The gap between what enterprises think they’ve approved and what’s actually running in production is wider than most security leaders realize.AI vendor dependencies don't stop at the contract you signed; they cascad</description>
-      <guid isPermaLink="false">https://venturebeat.com/security/ai-supply-chain-visibility-gap-anthropic-pentagon-ciso-audit</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7yALrQQvNuA55eRGEH6IBY/1d32911600a48f4f14680c81148039cb/HERO_SUPPLY_CHAIN_DISRUPTION.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Mar 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft built Phi-4-reasoning-vision-15B to know when to think — and when thinking is a waste of time</title>
-      <link>https://venturebeat.com/technology/microsoft-built-phi-4-reasoning-vision-15b-to-know-when-to-think-and-when</link>
-      <description>Microsoft on Tuesday released Phi-4-reasoning-vision-15B, a compact open-weight multimodal AI model that the company says matches or exceeds the performance of systems many times its size — while consuming a fraction of the compute and training data. The release marks the latest and most technically ambitious chapter in the software giant's year-long campaign to prove that carefully engineered small models can compete with, and in key areas outperform, the industry's largest AI systems.The 15-bi</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/microsoft-built-phi-4-reasoning-vision-15b-to-know-when-to-think-and-when</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/54I9lNIIzOf8iWtl92qs9t/ee559650445aaed2be0e8849d81cfae9/nuneybits_Vector_art_of_the_iconic_Microsoft_logo_shown_very_sm_cabc6238-0d0a-4d55-9c93-b9ef8c7a2cd1.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Mar 2026 19:50:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Black Forest Labs' new Self-Flow technique makes training multimodal AI models 2.8x more efficient</title>
-      <link>https://venturebeat.com/technology/black-forest-labs-new-self-flow-technique-makes-training-multimodal-ai</link>
-      <description>To create coherent images or videos, generative AI diffusion models like Stable Diffusion or FLUX have typically relied on external "teachers"—frozen encoders like CLIP or DINOv2—to provide the semantic understanding they couldn't learn on their own. But this reliance has come at a cost: a "bottleneck" where scaling up the model no longer yields better results because the external teacher has hit its limit.Today, German AI startup Black Forest Labs (maker of the FLUX series of AI image models) h</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/black-forest-labs-new-self-flow-technique-makes-training-multimodal-ai</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7DJHSDNzOydYRgABUAuoHr/a9af4e49bdac09050945ce577118fc5a/Gemini_Generated_Image_r7hejnr7hejnr7he.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 04 Mar 2026 20:18:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 07 Mar 2026 07:02:10 +0000</lastBuildDate>
     <item>
       <title>Databricks built a RAG agent it says can handle every kind of enterprise search</title>
       <link>https://venturebeat.com/data/databricks-built-a-rag-agent-it-says-can-handle-every-kind-of-enterprise</link>
@@ -64,6 +32,38 @@
       <guid isPermaLink="false">https://venturebeat.com/orchestration/google-workspace-cli-brings-gmail-docs-sheets-and-more-into-a-common</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/5Pd1hMlQFI3vMI2ORlph74/1c5d62789664fb28c393470e9a88fd45/Gemini_Generated_Image_7y3gd67y3gd67y3g.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Fri, 06 Mar 2026 01:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google PM open-sources Always On Memory Agent, ditching vector databases for LLM-driven persistent memory</title>
+      <link>https://venturebeat.com/orchestration/google-pm-open-sources-always-on-memory-agent-ditching-vector-databases-for</link>
+      <description>Google senior AI product manager Shubham Saboo has turned one of the thorniest problems in agent design into an open-source engineering exercise: persistent memory.This week, he published an open-source “Always On Memory Agent” on the official Google Cloud Platform Github page under a permissive MIT License, allowing for commercial usage.It was built with Google's Agent Development Kit, or ADK introduced last Spring in 2025, and Gemini 3.1 Flash-Lite, a low-cost model Google introduced on March</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/google-pm-open-sources-always-on-memory-agent-ditching-vector-databases-for</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3UcaucgGJzSX0K7mkf7qcB/16191629cc1b626e1d8c12e1458c1013/ChatGPT_Image_Mar_6__2026__02_31_43_PM.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Mar 2026 19:56:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New KV cache compaction technique cuts LLM memory 50x without accuracy loss</title>
+      <link>https://venturebeat.com/orchestration/new-kv-cache-compaction-technique-cuts-llm-memory-50x-without-accuracy-loss</link>
+      <description>Enterprise AI applications that handle large documents or long-horizon tasks face a severe memory bottleneck. As the context grows longer, so does the KV cache, the area where the model’s working memory is stored.A new technique developed by researchers at MIT addresses this challenge with a fast compression method for the KV cache. The technique, called Attention Matching, manages to compact the context by up to 50x with very little loss in quality.While it is not the only memory compaction tec</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/new-kv-cache-compaction-technique-cuts-llm-memory-50x-without-accuracy-loss</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/5eTMasdxWCOJMvj6LZZdRZ/ad9026d16ebe535c7c64b23a93164f9f/KV_cache_optimization.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Mar 2026 21:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LangChain's CEO argues that better models alone won't get your AI agent to production</title>
+      <link>https://venturebeat.com/orchestration/langchains-ceo-argues-that-better-models-alone-wont-get-your-ai-agent-to</link>
+      <description>As models get smarter and more capable, the "harnesses" around them must also evolve. This "harness engineering" is an extension of context engineering, says LangChain co-founder and CEO Harrison Chase in a new VentureBeat Beyond the Pilot podcast episode. Whereas traditional AI harnesses have tended to constrain models from running in loops and calling tools, harnesses specifically built for AI agents allow them to interact more independently and effectively perform long-running tasks. Chase al</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/langchains-ceo-argues-that-better-models-alone-wont-get-your-ai-agent-to</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3IReUqlU0VDTihcTPwpgxD/bbea663444d67bd17c22cfc730fe6d35/Harness_engineering.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Mar 2026 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic launches Claude Marketplace, giving enterprises access to Claude-powered tools from Replit, GitLab, Harvey and more</title>
+      <link>https://venturebeat.com/technology/anthropic-launches-claude-marketplace-giving-enterprises-access-to-claude</link>
+      <description>San Francisco startup Anthropic continues to ship new AI products and services at a blistering pace, despite a messy ongoing dispute with the U.S. Department of War.Today, the company announced Claude Marketplace, a new offering that lets enterprises with an existing Anthropic spend commitment apply part of it toward tools and applications powered by Anthropic's Claude models but made and offered by external partners including GitLab, Harvey, Lovable, Replit, Rogo and Snowflake.According to Anth</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/anthropic-launches-claude-marketplace-giving-enterprises-access-to-claude</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7jdBc17XcbJ5k1KaI35l6d/399d82b5b47cc3980d8cb3f37432ec57/nuneybits_Vector_art_of_a_robot_marketplace_store_robots_in_bus_f138a55a-decc-41ca-b036-664d5c6e7234.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 07 Mar 2026 00:25:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
