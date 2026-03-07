@@ -8,30 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Mar 2026 07:25:22 +0000</lastBuildDate>
-    <item>
-      <title>Learnings From The Polish Energy Sector Attacks</title>
-      <link>https://semiengineering.com/learnings-from-the-polish-energy-sector-attacks/</link>
-      <description>Securing distributed critical systems when adversaries focus on disrupting access rather than taking control. The post Learnings From The Polish Energy Sector Attacks appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/learnings-from-the-polish-energy-sector-attacks/</guid>
-      <pubDate>Thu, 05 Mar 2026 08:02:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Edge And Micro Data Centers: Powering The Real-Time Digital World</title>
-      <link>https://semiengineering.com/edge-and-micro-data-centers-powering-the-real-time-digital-world/</link>
-      <description>The rise of localized computing facilities positioned physically close to where data is generated. The post Edge And Micro Data Centers: Powering The Real-Time Digital World appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/edge-and-micro-data-centers-powering-the-real-time-digital-world/</guid>
-      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/03/Cadence_Edge-and-Micro-Data-Centers-fig1.webp?resize=1022%2C573&amp;#038;ssl=1" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 05 Mar 2026 08:03:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Automotive Architectures Are Shaking Up Processor And Memory Choices</title>
-      <link>https://semiengineering.com/new-automotive-architectures-are-shaking-up-processors-and-memory-choices/</link>
-      <description>Exponential increases in data and a mix of performance requirements are driving a top-to-bottom rethinking of what works best where. The post New Automotive Architectures Are Shaking Up Processor And Memory Choices appeared first on Semiconductor Engineering.</description>
-      <guid isPermaLink="false">https://semiengineering.com/new-automotive-architectures-are-shaking-up-processors-and-memory-choices/</guid>
-      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/03/Screenshot-2026-03-03-at-7.50.22-PM.png?resize=2230%2C1046&amp;#038;ssl=1" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 05 Mar 2026 08:03:26 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 07 Mar 2026 07:16:20 +0000</lastBuildDate>
     <item>
       <title>The New Design Advantage: Why Unifying Processing And Connectivity Simplifies The Design Experience</title>
       <link>https://semiengineering.com/the-new-design-advantage-why-unifying-processing-and-connectivity-simplifies-the-design-experience/</link>
@@ -83,6 +60,28 @@
       <description>Traditional Ethernet security mechanisms were not designed for the scaling and trust assumptions of next‑generation networks. The post Ultra Ethernet Security (UET‑TSS) Tailored For AI And HPC appeared first on Semiconductor Engineering.</description>
       <guid isPermaLink="false">https://semiengineering.com/ultra-ethernet-security-uet-tss-tailored-for-ai-and-hpc/</guid>
       <pubDate>Thu, 05 Mar 2026 08:08:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chip Industry Week In Review</title>
+      <link>https://semiengineering.com/chip-industry-week-in-review-128/</link>
+      <description>AI integrity attacks; bid for Rohm; US weighs more AI chip authority; on-chip security controls; new chips at MWC; optical interconnect deals; CPO funding; 18A; diary of advanced lithographer; domain-scoped agentic AI; HBM4; automotive chips; BYD's 9-minute EV charge. The post Chip Industry Week In Review appeared first on Semiconductor Engineering.</description>
+      <guid isPermaLink="false">https://semiengineering.com/chip-industry-week-in-review-128/</guid>
+      <enclosure url="https://i0.wp.com/semiengineering.com/wp-content/uploads/2026/01/bigsnps4356827965-Converge-SemiEngineering-1280x240-1.jpg?resize=1227%2C229&amp;#038;ssl=1" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Mar 2026 08:01:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>10-Year Roadmap for AI + Hardware (UIUC, UCLA, Stanford et al.)</title>
+      <link>https://semiengineering.com/10-year-roadmap-for-ai-hardware-uiuc-ucla-stanford-et-al/</link>
+      <description>Researchers from University of Illinois Urbana-Champaign, UCLA, Stanford University, Nvidia, Google, et al. have released “AI+HW 2035: Shaping the Next Decade”. Abstract “Artificial intelligence (AI) and hardware (HW) are advancing at unprecedented rates, yet their trajectories have become inseparably intertwined. The global research community lacks a cohesive, long-term vision to strategically coordinate the development of... » read more The post 10-Year Roadmap for AI + Hardware (UIUC, UCLA, S</description>
+      <guid isPermaLink="false">https://semiengineering.com/10-year-roadmap-for-ai-hardware-uiuc-ucla-stanford-et-al/</guid>
+      <pubDate>Fri, 06 Mar 2026 19:41:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimizing In-Memory AI Accelerators Across Multiple Workloads (KAUST, Compumacy)</title>
+      <link>https://semiengineering.com/optimizing-in-memory-ai-accelerators-across-multiple-workloads-kaust-compumacy/</link>
+      <description>Researchers from KAUST and Compumacy for Artificial Intelligence Solutions have released “Joint Hardware-Workload Co-Optimization for In-Memory Computing Accelerators”. Abstract “Software-hardware co-design is essential for optimizing in-memory computing (IMC) hardware accelerators for neural networks. However, most existing optimization frameworks target a single workload, leading to highly specialized hardware designs that do not generalize well across models and... » read more The post Optimi</description>
+      <guid isPermaLink="false">https://semiengineering.com/optimizing-in-memory-ai-accelerators-across-multiple-workloads-kaust-compumacy/</guid>
+      <pubDate>Fri, 06 Mar 2026 19:54:34 +0000</pubDate>
     </item>
   </channel>
 </rss>

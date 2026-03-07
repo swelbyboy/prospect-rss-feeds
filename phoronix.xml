@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Mar 2026 06:55:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Mar 2026 06:46:35 +0000</lastBuildDate>
     <item>
-      <title>AMD DCN 4.2 IP, GFX 12.1 Updates For AMDGPU Driver In Linux 7.1 Plus GCN 1.1 APU DC</title>
-      <link>https://www.phoronix.com/news/Linux-7.1-AMDGPU-1</link>
-      <description>AMD has begun staging AMDGPU and AMDKFD kernel driver improvements for the upcoming Linux 7.1 cycle...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.1-AMDGPU-1</guid>
-      <pubDate>Thu, 05 Mar 2026 14:51:22 +0000</pubDate>
+      <title>NetBSD 11.0-RC2 Released For Testing</title>
+      <link>https://www.phoronix.com/news/NetBSD-11.0-RC2-Released</link>
+      <description>The big NetBSD 11.0 release continues on approach with NetBSD 11.0-RC2 having been released as the latest test candidate...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NetBSD-11.0-RC2-Released</guid>
+      <pubDate>Fri, 06 Mar 2026 11:15:18 +0000</pubDate>
     </item>
     <item>
-      <title>Redox OS Gets Vulkan &amp;amp; Node.js Working On This Rust-Based Open-Source OS</title>
-      <link>https://www.phoronix.com/news/Redox-OS-February</link>
-      <description>There were some fairly exciting improvements made by the Redox OS developers over the course of February. They have the Vulkan API working on Redox OS for the first time along with more COSMIC desktop software and even Node.js...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Redox-OS-February</guid>
-      <pubDate>Thu, 05 Mar 2026 15:27:17 +0000</pubDate>
+      <title>Oracle Updates Free Solaris CBE For Open-Source Developers / Non-Production Uses</title>
+      <link>https://www.phoronix.com/news/Oracle-Solaris-CBE-2026</link>
+      <description>Four years ago Oracle announced Solaris CBE as the "Common Build Environment" version of Solaris 11.4. Oracle Solaris CBE is made available as free for open-source developers and other non-production use. Oracle this week released a new version of Solaris CBE for those wanting this free* version of Solaris...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Oracle-Solaris-CBE-2026</guid>
+      <pubDate>Fri, 06 Mar 2026 11:27:04 +0000</pubDate>
     </item>
     <item>
-      <title>Debian Still Debating AI Contributions Plus A Need For More Diverse Contributors</title>
-      <link>https://www.phoronix.com/news/Debian-DPL-Update-March-2026</link>
-      <description>Debian Project Leader "DPL" Andreas Tille provided an update today on various happenings within the project and personal reflections on some recent topics. Among the topics in today's DPL updates were around AI contributions, Debian's need to become more diverse with its contributors, and needing more "thank yous" to show appreciation for contributions...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Debian-DPL-Update-March-2026</guid>
-      <pubDate>Thu, 05 Mar 2026 16:03:08 +0000</pubDate>
+      <title>Intel Xeon Features To Be Supported By Ubuntu 26.04 LTS - Some Lacking User-Space Packages</title>
+      <link>https://www.phoronix.com/news/Intel-Xeon-Ubuntu-26.04-LTS</link>
+      <description>Canonical engineer Serkan Uygungelen published a post outlining some of the Intel Xeon CPU features to be supported by the upcoming Ubuntu 26.04 LTS release, some Xeon features already supported by the existing Ubuntu 24.04 LTS, and some features only partially supported for still not having packaged user-space libraries/support within the Ubuntu archive...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Xeon-Ubuntu-26.04-LTS</guid>
+      <pubDate>Fri, 06 Mar 2026 13:17:11 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA R595 Linux Driver Beta Brings New Vulkan Support &amp;amp; DRI3 v1.2</title>
-      <link>https://www.phoronix.com/news/NVIDIA-595.45.04-Linux-Beta</link>
-      <description>Following the recent NVIDIA R595 driver release for Windows, NVIDIA today released the 595.45.04 driver for Linux users as a beta version in the R595 release stream...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-595.45.04-Linux-Beta</guid>
-      <pubDate>Thu, 05 Mar 2026 16:13:00 +0000</pubDate>
+      <title>AMD CPPC Performance Priority Being Prepared For Linux - New Zen 6 Feature</title>
+      <link>https://www.phoronix.com/news/AMD-CPPC-Performance-Priority</link>
+      <description>Patches were posted today to the Linux kernel mailing list for enabling a new feature called AMD CPPC Performance Priority as a new hardware feature being found with "future AMD processors".... Which given the timing of these patches, almost certainly means the upcoming Zen 6 processors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-CPPC-Performance-Priority</guid>
+      <pubDate>Fri, 06 Mar 2026 13:28:38 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 File-System Benchmarks With XFS Leading The Way</title>
-      <link>https://www.phoronix.com/review/linux-70-filesystems</link>
-      <description>With a number of file-system improvements in Linux 6.19 and more file-system optimizations in Linux 7.0, it's past due for running some fresh file-system benchmarks. Here is a look at how the prominent file-system contenders are performing on the latest Linux 7.0 development kernel.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/linux-70-filesystems</guid>
-      <pubDate>Thu, 05 Mar 2026 17:20:00 +0000</pubDate>
+      <title>Linux 7.0 Slab Fix On The Way For A "Severe Performance Regression"</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-Slab-Severe-Perf-Fix</link>
+      <description>Sent out today was this week's batch of Slab allocator fixes for the Linux 7.0 development kernel. Making this pull notable is fixing a "severe performance regression" with a ~64% performance drop having been noted in late February...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Slab-Severe-Perf-Fix</guid>
+      <pubDate>Fri, 06 Mar 2026 14:23:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux MAINTAINERS Cleaning For Recently Departed Intel Devs, Altera Drivers Oprhaned</title>
-      <link>https://www.phoronix.com/news/Linux-MAINTAINERS-Intel-March</link>
-      <description>The layoffs and restructuring at Intel in 2025 caused unfortunate hits to their Linux/open-source engineering including various driver maintainers leaving and even their CPU temperature driver being orphaned for lack of maintainers. Sent out today were a number of additional updates to the MAINTAINERS file for the Linux kernel to reflect other Intel departures in recent months. Plus some of the Altera drivers have also been orphaned now for having no upstream maintainers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-MAINTAINERS-Intel-March</guid>
-      <pubDate>Thu, 05 Mar 2026 18:35:15 +0000</pubDate>
+      <title>ZimaBoard 2: An Interesting Intel-Powered Linux Home Mini Server</title>
+      <link>https://www.phoronix.com/review/zimaboard2</link>
+      <description>For those looking for a low-power, well-built small office / home office Linux server with interesting connectivity options, the ZimaBoard 2 is an interesting option that has been available for some months now and powered by the Intel N150 processor. Besides the interesting single board hardware and well built aluminum chassis, the offering is rounded out by being preloaded with ZimaOS as a Linux-based "personal cloud OS" to easily get hosting for your own SOHO server needs.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/zimaboard2</guid>
+      <pubDate>Fri, 06 Mar 2026 16:11:26 +0000</pubDate>
     </item>
     <item>
-      <title>Rust 1.94 Released With Stable Support For AVX-512 FP16 Intrinsics, Array Windows</title>
-      <link>https://www.phoronix.com/news/Rust-1.94-Released</link>
-      <description>Rust 1.94 was rolled out today as the newest routine stable update for the Rust programming language...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Rust-1.94-Released</guid>
-      <pubDate>Thu, 05 Mar 2026 19:09:00 +0000</pubDate>
+      <title>New ASUS, Dell &amp;amp; OneXPlayer Hardware Support In Linux 7.0-rc3</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-rc3-Platform-Drivers</link>
+      <description>A pull request sent out today and already merged to Linux Git ahead of Sunday's Linux 7.0-rc3 has some new hardware driver support additions for the likes of ASUS, HP, Dell, and OneXPlayer...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-rc3-Platform-Drivers</guid>
+      <pubDate>Fri, 06 Mar 2026 19:15:46 +0000</pubDate>
     </item>
     <item>
-      <title>System76 Comments On Recent Age Verification Laws</title>
-      <link>https://www.phoronix.com/news/System76-Age-Verification-Laws</link>
-      <description>System76 published a statement today regarding the recent laws coming about in California and likely Colorado and New York too around requiring age verification on operating system accounts and ultimately exposing the information (or at least age brackets) to apps and websites. System76's position is interesting given that they sell Linux-loaded desktops, workstations and laptops plus being an operating system vendor with their in-house Pop!_OS distribution and COSMIC desktop environment...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/System76-Age-Verification-Laws</guid>
-      <pubDate>Thu, 05 Mar 2026 22:33:31 +0000</pubDate>
+      <title>GTK 4.22 Released With Improved SVG Support, Reduced Motion Option</title>
+      <link>https://www.phoronix.com/news/GTK-4.22-Released</link>
+      <description>Ahead of the GNOME 50 desktop release coming up in less than two weeks, GTK 4.22 is out today as the newest stable version of the GTK4 toolkit...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GTK-4.22-Released</guid>
+      <pubDate>Fri, 06 Mar 2026 19:55:00 +0000</pubDate>
     </item>
     <item>
-      <title>GNOME 50 Release Candidate Brings Last Minute Changes</title>
-      <link>https://www.phoronix.com/news/GNOME-50-Release-Candidate</link>
-      <description>GNOME 50.rc was christened today as the release candidate for the GNOME 50 desktop...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Release-Candidate</guid>
-      <pubDate>Fri, 06 Mar 2026 00:51:55 +0000</pubDate>
+      <title>Wine 11.4 Released With More Improvements</title>
+      <link>https://www.phoronix.com/news/Wine-11.4-Released</link>
+      <description>Wine 11.4 is out today as the latest bi-weekly development release of this open-source software that powers Valve's Steam Play (Proton) and allows for Windows games and applications to run on Linux and macOS...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Wine-11.4-Released</guid>
+      <pubDate>Fri, 06 Mar 2026 22:47:11 +0000</pubDate>
     </item>
     <item>
-      <title>Wayland 1.25 RC1 Released With Improved Documentation, Minor Changes</title>
-      <link>https://www.phoronix.com/news/Wayland-1.25-RC1</link>
-      <description>Simon Ser announced the release today of Wayland 1.25 RC1 (Wayland v1.24.91) in working toward this next stable release...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Wayland-1.25-RC1</guid>
-      <pubDate>Fri, 06 Mar 2026 02:55:00 +0000</pubDate>
+      <title>KDE Plasma Saw A Lot Of Bug/Crash Fixing &amp;amp; UI Polishing This Week</title>
+      <link>https://www.phoronix.com/news/KDE-Plasma-6.6.x-Polish-Fixes</link>
+      <description>Nate Graham and John Veness are out today with the newest issue of This Week in Plasma. Notable for KDE Plasma 6.6.x~6.7 development this week were a lot of bug fixing -- including multiple crash fixes -- and some UI polishing too...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Plasma-6.6.x-Polish-Fixes</guid>
+      <pubDate>Sat, 07 Mar 2026 01:24:12 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,66 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Mar 2026 06:57:06 +0000</lastBuildDate>
-    <item>
-      <title>OpenAI推出GPT-5.4，強化專業能力並首度支援AI操作電腦</title>
-      <link>https://www.ithome.com.tw/news/174226</link>
-      <description>新聞OpenAI周四（3/5）發布新一代大型語言模型GPT-5.4，並同步於ChatGPT、API與程式開發工具Codex中推出。OpenAI表示，GPT-5.4整合推理、程式開發與AI代理人能力，是目前最適合處理專業知識工作的前沿模型之一。新模型除了強化專業工作能力外，也首次提供原生電腦操作能力，使AI代理人可透過電腦介面直接操作應用程式與瀏覽器。 在模擬真實職場的GDPval評測中，GPT-5.4於83%的任務上表現與人類專業人士相當或更佳。GDPval評測涵蓋金融、製造、醫療、政府與資訊服務等9個產業、44種職業，任務包括建立財務試算表、製作銷售簡報、規畫排班與設計工程流程等，並由相關領域專業人士進行盲測評分。 此外，與GPT-5.2相比，GPT-5.4在可靠性上也有所提升。在使用者曾標記為錯誤的提示測試中，新模型整體回答出現錯誤的機率降低18%，單一事實陳述出現錯誤的機率則降低33%，顯示模型在專業工作場景中的穩定度進一步改善。 在軟體開發上，GPT-5.4於SWE-Bench Pro除錯評測中的得分為57.7%，略高於GPT-5.3-Codex的56.8%；但在測試多步驟開發</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174226</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0306-gpt54-600-1.png" length="0" type="image/png"/>
-      <pubDate>Fri, 06 Mar 2026 01:25:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>五角大廈首次將美國AI公司列為供應鏈風險，Anthropic成爭議焦點</title>
-      <link>https://www.ithome.com.tw/news/174229</link>
-      <description>新聞華爾街日報、彭博社與Politico相繼引述國防部官員報導，美國國防部（Department of Defense，DoD）已正式通知人工智慧公司Anthropic，認定該公司及其AI產品構成供應鏈風險（Supply-Chain Risk）。 報導指出，國防部已告知Anthropic，其公司與AI模型被認定為供應鏈風險，相關認定立即生效。此舉可能導致與美國軍方合作的承包商或技術供應商，在與政府相關的系統中不得使用Anthropic所開發的Claude模型。 此次衝突的核心在於AI用途限制。Anthropic要求其技術不得用於大規模監控美國公民，或在沒有人工監督下部署完全自主武器系統；但國防部則主張，軍方必須能在所有合法用途下使用相關技術，不接受由供應商設定使用紅線。 值得注意的是，「供應鏈風險」標籤過去多用於與美國對手國相關的企業，例如中國華為，現卻首次用於一家美國AI公司。 在Anthropic發布聲明捍衛立場的當天，Anthropic產品長Mike Krieger即透過X表示，他為能在Anthropic工作感到自豪，還說Claude應用程式已衝上蘋果App Store下載排行榜</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174229</guid>
-      <pubDate>Fri, 06 Mar 2026 02:27:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>思科警告SD-WAN產品兩項漏洞發生濫用活動</title>
-      <link>https://www.ithome.com.tw/news/174227</link>
-      <description>新聞思科本周警告，其Catalyst SD-WAN Manager兩項最近揭露的漏洞已發生實際攻擊事件，呼籲用戶儘速安裝最新版本軟體。 Catalyst SD-WAN Manager原名SD-WAN vManage，為SD-WAN產品的管理儀表板。思科於上周發布公告及Catalyst SD-WAN Manager更新版軟體，修補CVE-2026-20122、CVE-2026-20126、CVE-2026-20128、CVE-2026-20129與CVE-2026-20133五項漏洞。本周思科追加新增訊息，警告公司的產品安全事件回應小組（PSIRT）得知CVE-2026-20122和CVE-2026-20128發生濫用。 其中CVE-2026-20122為Catalyst SD-WAN Manager的API介面檔案處理不當漏洞，經驗證的遠端攻擊者可上傳惡意檔案到本地檔案系統，並覆寫掉任意檔案，CVSS風險值7.1。攻擊要件是攻擊者必須具備有效的API唯讀（read-only）存取權限。 CVE-2026-20128則為資訊洩露漏洞，存在Catalyst SD-WAN Manager資料</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174227</guid>
-      <pubDate>Fri, 06 Mar 2026 02:42:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>CISA警告TeamT5端點防護系統舊漏洞被用於實際攻擊活動</title>
-      <link>https://www.ithome.com.tw/news/174228</link>
-      <description>新聞2月17日美國網路安全暨基礎設施安全局（CISA）指出，他們已掌握4個資安漏洞被用於實際攻擊活動的情形，將這些弱點列入已遭利用的漏洞名冊（KEV），其中一個是臺灣資安公司杜浦數位安全（TeamT5）端點防護工具的資安漏洞，這樣的現象並不尋常，首先，CISA針對臺灣資安廠商的應用系統弱點提出警告，並不常見，再者，TeamT5特別發布新聞稿說明，表示相關漏洞已在2024年完成修補，目前無客戶使用存在該漏洞的軟體，這樣的說法與CISA將漏洞列入KEV有所衝突。 本次被列入KEV的資安漏洞是CVE-2024-7694，它出現在TeamT5的反勒索軟體系統ThreatSonar Anti-Ransomware，可被攻擊者用於不受限制地上傳任意危險類型的檔案，CVSS風險評為7.2分，屬高風險等級，影響3.4.5版以前的ThreatSonar Anti-Ransomware。該漏洞形成的原因，在於該系統未充分驗證上傳檔案的內容，導致取得管理員權限的攻擊者，能夠藉由上傳惡意檔案的方式，於伺服器執行任何系統層級的命令。CISA要求聯邦機構，必須在3月10日前完成修補。 根據TeamT5對CVE-2</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174228</guid>
-      <pubDate>Fri, 06 Mar 2026 04:40:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>中國駭客UAT-9244鎖定南美電信公司，散布Windows及Linux後門程式</title>
-      <link>https://www.ithome.com.tw/news/174230</link>
-      <description>新聞中國駭客駭入電信產業的情況，自2024年Salt Typhoon滲透多家美國電信公司之後受到高度關注，後續有多家資安公司揭露在全球從事網路間諜活動的中國駭客團體，現在又有新的組織出現，再度引發熱議。 思科旗下威脅情報團隊Talos揭露名為UAT-9244的中國APT駭客組織，該團體主要鎖定南美洲的電信服務供應商，並在攻擊過程中部署多種新型惡意程式，例如：TernDoor、PeerTime、BruteEntry，以建立長期滲透與監控能力。Talos指出，UAT-9244與過去活躍的駭客團體Famous Sparrow、Tropic Trooper具有高度關聯，但他們無法確認是否與Salt Typhoon有關。 根據研究人員的分析，這些惡意程式被設計在受害網路環境建立後門通道、維持長期存取權限，並支援資料竊取或後續橫向移動等行動。Talos指出，這些植入工具的出現顯示該組織持續強化其攻擊工具庫，以提升在企業與電信網路中的隱匿性與持久性。 這些惡意程式當中，TernDoor是FamousSparrow和Earth Estries使用的CrowDoor變種，是一種針對Windows電腦的後</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174230</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/UAT-9244-graphics_PeerTime_Installation.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 04:44:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>APT28對烏克蘭散布惡意程式BadPaw Loader與MeowMeow</title>
-      <link>https://www.ithome.com.tw/news/174232</link>
-      <description>新聞隨著烏克蘭戰爭持續進行，俄羅斯駭客對烏克蘭的網路攻擊頻傳，其中APT28（Fancy Bear、Forest Blizzard、FrozenLake）的活動今年初不時登上資安新聞版面，最近又有疑似由該組織發起的攻擊活動，而成為歐洲地區的焦點。 資安公司ClearSky Cyber Security揭露疑似由俄羅斯發動的網路間諜行動，攻擊目標鎖定烏克蘭組織。駭客透過釣魚郵件散布惡意程式BadPaw與MeowMeow，建立多階段攻擊鏈以滲透受害者系統，並取得遠端控制權。研究人員認為，這起行動很可能是俄羅斯國家級駭客組織APT28所為，因為戰術與其過往行動高度相似。 事故如何發生？攻擊行動從釣魚電子郵件開始，郵件內含指向ZIP壓縮檔的連結，並利用烏克蘭常用郵件服務ukr[.]net的寄件地址來增加可信度。受害者點擊後會先觸發追蹤像素，以確認連結是否被開啟，隨後下載惡意壓縮檔。 壓縮檔包含偽裝為HTML文件的HTA應用程式，一旦使用者執行，畫面會顯示邊境通行申請相關的誘餌文件，以分散注意力，同時在背景啟動惡意程式下載與執行流程。 HTA程式下載名為BadPaw的.NET惡意程式載入工具（l</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174232</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/jE6QEE63Ly.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 04:46:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>FBI調查監控系統疑似遭駭事件</title>
-      <link>https://www.ithome.com.tw/news/174236</link>
-      <description>新聞CNN引述消息人士報導，美國聯邦調查局（FBI）近日發現用於管理監聽活動及情報監控搜索令資料的系統網路，發生疑似駭客入侵事件，已經著手調查。 報導指出，FBI和司法部定位為公民自由及國安事件並加以回應。FBI發言人也向媒體證實，已發現網路上的可疑活動並著手處理，該局將援引所有技術能力來回應。不過FBI並未說明偵測到何種活動，也未推測可能的攻擊者身份。 這是美國政府最新偵測到的國家駭客攻擊事件。中國、俄羅斯、北韓及伊朗駭客多次被偵測到向美國政府機關及民間企業下手。例如中國駭客Salt Typhoon滲透了美國主要的電信營運商（如AT&amp;amp;T、Verizon、T-Mobile），藉此建立後門，監控高層政府官員的通訊。美國財政部也在2025年1月發生網路安全事件，多個辦公室網路遭入侵。Volt Typhoon行動自2023年即被發現，2025年中旬，美國證實該組織已成功潛伏於關島（Guam）及多個關鍵軍事基地周邊的政府服務網絡，潛伏期甚至超過 300天。 俄羅斯駭客2025年被發現入侵聯邦司法體系的電子案件歸檔系統（Electronic Case Filing），導致至少12個地區法院的密封</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174236</guid>
-      <pubDate>Fri, 06 Mar 2026 05:46:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>從開源計畫走向量產，Google OpenTitan安全晶片開始隨Chromebook出貨</title>
-      <link>https://www.ithome.com.tw/news/174233</link>
-      <description>新聞Google開源硬體安全計畫OpenTitan已進入商用出貨階段，首款OpenTitan晶片由臺灣新唐科技（Nuvoton）生產，現已隨市售Chromebook出貨。OpenTitan歷經多年開源設計與驗證，現已從開發階段走向實際產品部署。 OpenTitan是矽晶片信任根（Silicon Root of Trust），主要負責在開機等關鍵流程中，確認裝置執行的是經授權且可驗證的程式碼。相較於多數以封閉方式開發的安全晶片，OpenTitan強調設計、驗證與文件可公開檢視，採用者可向商業夥伴採購，也可依需求自行製造，以提高供應鏈透明度與可檢驗性。OpenTitan專案及其社群目前由獨立非營利組織lowRISC C.I.C.維護與支援。 Google表示，OpenTitan已支援以SLH-DSA為基礎的後量子密碼學安全開機，並稱這是第一個具備此能力的商用開源信任根，可因應未來量子運算對傳統公開金鑰密碼技術可能帶來的風險。在驗證品質方面，Google指出，OpenTitan個別矽智財模組（IP）及頂層Earl Grey設計，在功能覆蓋率與程式碼覆蓋率兩項指標上都超過90%，每晚也會執行超</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174233</guid>
-      <pubDate>Fri, 06 Mar 2026 05:50:22 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 07 Mar 2026 06:48:47 +0000</lastBuildDate>
     <item>
       <title>Google報告指出2025年零時差漏洞達90起，企業設備成主要攻擊目標</title>
       <link>https://www.ithome.com.tw/news/174237</link>
@@ -82,6 +23,69 @@
       <description>新聞Rust團隊發布Rust 1.94.0穩定版，這次更新的重點放在日常開發常碰到的兩類工作，一是切片資料的逐段處理，二是Cargo組態與資訊清單檔的管理方式。官方這次新增固定長度滑動視窗（array_windows）方法，也讓Cargo能以include拆分組態檔，並解析TOML 1.1設定檔格式，使專案設定與撰寫方式更具彈性。 Rust 1.94新增的array_windows，可視為既有切片滑動視窗方法windows的固定長度版本，但兩者回傳的資料型態不同。array_windows回傳的是固定大小陣列參照，不是windows使用的動態大小切片，開發者可以直接用固定結構來比對資料，不必再手動逐一指定索引位置，程式碼通常會更直觀，也較容易閱讀與維護。 另一項偏向管理面的更新，是Cargo現在可在組態檔中使用include鍵載入其他組態檔。include可寫成路徑字串陣列，也可寫成行內表格陣列，並可將個別項目標示為選用，即使部分檔案不存在，也可直接略過，不會中斷流程。開發者可以把共用設定、本機偏好，以及特定環境設定分開維護，再由主要組態檔統一整合。對多專案、多開發環境，或需要保留個別</description>
       <guid isPermaLink="false">https://www.ithome.com.tw/news/174235</guid>
       <pubDate>Fri, 06 Mar 2026 06:06:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>搜尋引擎Bing遭濫用，駭客藉由冒牌OpenClaw安裝程式散布惡意軟體</title>
+      <link>https://www.ithome.com.tw/news/174244</link>
+      <description>新聞一月底正式推出的開源AI代理專案OpenClaw（原名Clawdbot，一度更名為Moltbot）爆紅，駭客也趁著這波熱潮，假借提供安裝程式的名義，企圖散布惡意程式。 威脅情報公司Huntress指出，有人在2月2日至10日，於GitHub儲存庫設置假的OpenClaw安裝程式的專案，一旦使用者下載這些專案提供的安裝程式並執行，電腦就會被植入竊資軟體（Infostealer），或是名為GhostSocks的惡意程式，駭客可藉此透過受害電腦路由網路流量，讓相關資安檢查機制誤以為是一般使用者，從而繞過多因素驗證（MFA）與反詐欺檢測機制。值得留意的是，這波攻擊並未針對特定產業或領域，而是同時針對想要取得OpenClaw的Windows及macOS用戶。Huntress強調，這波攻擊成功的主要原因，在於惡意軟體由GitHub代管，因此，微軟搜尋引擎Bing將這些惡意儲存庫顯示在搜尋結果最前面的項目。 這起事故的發現，是Huntress偵測到有用戶電腦遭到感染的跡象，該名用戶透過Bing搜尋關鍵字OpenClaw Windows，結果該搜尋引擎的AI助理引導到惡意GitHub儲存庫open</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174244</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/assets3eb6f92aedf74f109c7b4b0897-BingAI.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Mar 2026 07:03:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>伊朗駭客Dust Specter冒充伊拉克外交部，對該國政府官員散布惡意軟體</title>
+      <link>https://www.ithome.com.tw/news/174248</link>
+      <description>新聞中東局勢緊張，伊朗駭客的攻擊行動頻傳，最近有一起是針對伊拉克政府官員的活動，駭客冒充伊拉克的外交部發動社交工程攻擊，誘騙受害者下載並執行惡意軟體。 資安公司Zscaler威脅研究團隊ThreatLabz本週發布報告，提到1月他們發現疑似來自伊朗的駭客組織Dust Specter，鎖定伊拉克政府官員發動網路攻擊。駭客透過冒充政府機構名義散布惡意檔案，誘騙目標下載並執行惡意程式，藉此在受害系統建立後門並持續收集敏感資訊。根據攻擊目標、行動模式，以及惡意程式的特徵研判，攻擊者可能來自伊朗。此次攻擊主要鎖定伊拉克政府官員，駭客甚至冒充伊拉克外交部的名義散布惡意文件，提高社交工程成功率。 在此次攻擊行動中，Zscaler一共發現4款新的惡意程式，包括SplitDrop、TwinTask、TwinTalk，以及GhostForm。這些工具被用於建立後門、接收指令並執行惡意操作，使駭客能夠長期控制受害裝置。 Dust Specter的攻擊手段大致可分成兩種。其中一條攻擊鏈是透過受密碼保護的RAR壓縮檔散布惡意程式，駭客將惡意程式偽裝為伊拉克外交部相關文件。一旦受害者解壓縮並開啟檔案，內含的.NE</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174248</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/dust-specter-figure-2.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Mar 2026 08:17:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>維基百科遭自我傳播JavaScript蠕蟲攻擊，數千頁面遭竄改</title>
+      <link>https://www.ithome.com.tw/news/174258</link>
+      <description>新聞人人可編輯、內容自由、具備多語言版本的維基百科（Wikipedia），絕大多數頁面允許任何人修改，打破了傳統百科全書由少數專家壟斷的情況，具備更新速度極快、資訊涵蓋層面廣泛等特質。然而，近日發生的惡意程式攻擊事故，讓該平臺的資安防護議題浮上檯面。 根據資安新聞網站Bleeping Computer的報導，維基媒體基金會（Wikimedia Foundation，WMF）近日發生資安事件，具備自我傳播能力的JavaScript蠕蟲入侵維基系統，導致部分維基頁面遭到惡意竄改，並修改使用者的指令碼，為防止攻擊擴大，開發工程團隊一度限制部分編輯功能，並緊急回復遭竄改的內容。 這起事件最初如何發生？在蠕蟲攻擊事故發生之前，一個存放在俄羅斯維基百科的惡意指令碼被執行，導致維基百科某個全球使用的JavaScript指令碼被植入惡意程式碼。維基媒體基金會的員工疑似在測試使用者指令碼功能的過程，不慎啟動，但究竟是否為測試的過程意外載入，還是該名員工的帳號遭駭造成，目前仍不得而知。 Bleeping Computer分析上述被執行的指令碼test.js，指出此為具備自我傳播特性的蠕蟲，會自動修改頁面內</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174258</guid>
+      <pubDate>Fri, 06 Mar 2026 08:29:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>我國高速量子運算國家戰略邁入第二期，位於竹科的超導量子電腦實驗室首次亮相</title>
+      <link>https://www.ithome.com.tw/news/174257</link>
+      <description>新聞國科會今天(3/6)宣布高速量子運算國家戰略，宣告我國量子運算戰略進入第二期，並啟用位於北部的量子電腦次系統驗證平臺，未來將以臺灣具有的半導體優勢吸引國際合作，希望讓臺灣的產業供應鏈嵌入全球量子科技生態，成為不可或缺的關鍵角色。 行政院是從2021年啟動國家量子運算戰略，行政院由國科會、中研院、經濟部等跨部會及大學共同組成量子國家隊，後續推動的AI新十大建設中，高速量子運算也是其中的關鍵建設之一，布局AI與量子運算關係到國防安全、資安及產業轉型，對臺灣的未來發展相當重要。 第一期高速量子運算戰略從2022年到2026年，集中國內產學界力量，專注在研究自主技術及培養相關的人才。清華大學物理系教授，同時也是量子系統推動小組召集人果尚志表示，量子運算的國家戰略涵蓋量子電腦的硬體技術、量子通訊及量子軟體技術，第一期先以硬體技術為主，運用臺灣在半導體產業優勢，包括材料技術、量子位元設計、周邊控制電路等等，第一期希望達成的目標是，建構臺灣自製可真實運算的量子電腦及量子通訊網路，這2個目標皆已達成。 第一期的成果中，中研院已完成20個量子位元的量子電腦，清大也研究新的超導體位元，以及臺灣自製的量</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174257</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202026-03-06%20%E4%B8%8B%E5%8D%884_47_54.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Mar 2026 08:49:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>健保署聯手Google揭糖尿病AI專案進展，衛福部重申FHIR與聯邦學習布局</title>
+      <link>https://www.ithome.com.tw/news/174260</link>
+      <description>新聞健保署3月4日揭露糖尿病AI專案進展，該專案2年前由健保署與Google臺灣聯手啟動，Google負責提供AI工具和算力，再由北醫、國衛院開發糖尿病風險預測模型，並以健保大數據驗證。該模型已可預測糖尿病風險等級，以及糖尿病共病風險，另也能結合Gemini，提供民眾個人化的衛教資訊。目前，醫療院所端已可在家醫大平臺查看AI模型提供的風險等級，至於民眾端，健保署預計於本月在健康存摺App中，上線個人衛教助理功能，屆時授權同意的民眾即可使用。 衛福部部長石崇良還點出，衛福部目前正專注如何讓電子病歷更好地結合健保，因此推動基礎工程計畫，來鼓勵部內及醫療院所採用國際醫療資料交換標準FHIR，並採用資料不出院、也能訓練AI模型的聯邦學習（Federated Learning）模式，來打造更通用的AI模型，強化應用潛力。 2004年啟用健保IC卡，持續優化健保數位基礎建設 健保署署長陳亮妤先是盤點健保的數位基礎建設，全民健保自開辦至今已31年，其中一項重要里程碑是2004年啟用健保IC卡。當時只要讀卡，就能查看病人最近6次就醫紀錄、重要處方與過敏藥物，以及重大傷病、器官捐贈與安寧緩和醫療等相關註</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174260</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/%E5%81%A5%E4%BF%9D(1).JPG" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Mar 2026 08:54:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>【資安日報】3月6日，維基百科驚傳遭到蠕蟲攻擊，4千個頁面被破壞</title>
+      <link>https://www.ithome.com.tw/news/174259</link>
+      <description>新聞維基百科遭自我傳播JavaScript蠕蟲攻擊，數千頁面遭竄改 根據資安新聞網站Bleeping Computer的報導，維基媒體基金會（Wikimedia Foundation，WMF）近日發生資安事件，具備自我傳播能力的JavaScript蠕蟲入侵維基系統，導致部分維基頁面遭到惡意竄改，並修改使用者的指令碼，為防止攻擊擴大，開發工程團隊一度限制部分編輯功能，並緊急回復遭竄改的內容。 這起事件最初如何發生？在蠕蟲攻擊事故發生之前，一個存放在俄羅斯維基百科的惡意指令碼被執行，導致維基百科某個全球使用的JavaScript指令碼被植入惡意程式碼。維基媒體基金會的員工疑似在測試使用者指令碼功能的過程，不慎啟動，但究竟是否為測試的過程意外載入，還是該名員工的帳號遭駭造成，目前仍不得而知。統計顯示，攻擊期間約有近4,000個頁面遭到修改，同時約85個使用者指令碼被替換為惡意版本，使惡意程式能持續透過其他使用者瀏覽行為傳播。 中國駭客UAT-9244鎖定南美電信公司，散布Windows及Linux後門程式 思科旗下威脅情報團隊Talos揭露名為UAT-9244的中國APT駭客組織，該團體主要</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174259</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/wikimedia-common-script.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Mar 2026 10:26:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>中華資安揭2026年新戰略，布局無人機、船舶、低軌衛星資安服務，並看好AI資安商機與自主研發成長</title>
+      <link>https://www.ithome.com.tw/news/174264</link>
+      <description>新聞觀察臺灣資安服務市場脈動，指標性業者的動向，向來是產業風向球。相較於安碁資訊近年持續向媒體說明年度業務重點，讓外界得以掌握產業趨勢，中華資安國際過去則鮮少揭露其觀察到的資安態勢或產業機會。 隨著中華資安國際於去年由興櫃轉上市，該公司於昨日（3月5日）舉辦線上法人說明會。我們也藉其公布營運展望之際，深入了解其2026年資安市場的新布局，當中最受矚目的亮點在於，該公司不僅將搶進資安守護AI的新商機，也看好CPS（虛實整合系統）新場域的韌性需求，涵蓋無人機、船舶、低軌衛星的資安服務。 同時，中華資安國際提到自主研發產品獲得重大突破，並強調資安市場需求仍然強勁，不只近年公司營運表現呈三率三升，持續性營收占比也首度突破5成，顯示企業客戶對上網資安、企業專業服務SOC、MDR的需求仍持續增加。 首度揭露AI布局，同時看好「以資安守護AI」新商機 在這場法人說明會上，中華資安國際總經理洪進福首度公開該公司的AI資安策略，並表示看好CPS新場域資安服務。 事實上，當各家資安業者積極揭露AI布局時，中華資安國際過去並未明確說明。洪進福坦言，中華資安在AI的投入其實非常早，只是較少揭露，這次趁著法說會</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174264</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/2026-03-05_151910.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Mar 2026 12:59:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>時代力量3.3萬筆個資外流，官方晚間發聲明：CRM系統遭入侵</title>
+      <link>https://www.ithome.com.tw/news/174265</link>
+      <description>新聞臺灣政黨資安防護亮紅燈！國外資安監控網站The Daily Dark Web近日揭露，臺灣政黨「時代力量（New Power Party）」的資料庫疑似遭到入侵，約3.3萬筆個資已在駭客論壇流出。 我們於今日（3月6日）注意到此消息，並於下午3時向時代力量查證。該黨媒體聯絡人鄭意豪於傍晚5時49分回覆證實，該事故確實發生，正持續釐清資料外洩管道。到了晚間8時，時代力量正式發布資安公告，說明其內部CRM（客戶關係管理）系統遭非法入侵。初步清查顯示，受影響資料約33,000筆，外洩欄位包含姓名、電子郵件、電話、居住地址、LINE ID、職業、生日及性別；但不包含身分證字號、銀行帳號、登入密碼或任何信用卡等財務資訊。 根據時代力量的資安事故公告，該黨是在今日下午3時接獲支持者反映，其個人資安防護軟體（F-Secure）警示電子郵件信箱疑似由該黨系統個資外洩，隨後亦接獲媒體詢問是否知悉個資外洩。對此，時代力量立即啟動資安應變機制，全面清查系統存取記錄，並於下午5時確認異常後，正式阻斷受影響的系統連線。 經初步調查，研判入侵點為內部CRM系統的權限控制遭破解。資訊單位已立即停止該CRM系統的</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174265</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/2026-03-06_222855.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Mar 2026 14:32:26 +0000</pubDate>
     </item>
   </channel>
 </rss>
