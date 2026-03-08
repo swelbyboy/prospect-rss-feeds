@@ -8,78 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Mar 2026 06:46:26 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2026 06:49:38 +0000</lastBuildDate>
     <item>
-      <title>🪨 RIVERLITHOSCOPE: An AI Geological Advisor Built with Gemini</title>
-      <link>https://dev.to/muhammad_yasin_f39f26989f/riverlithoscope-an-ai-geological-advisor-built-with-gemini-1ca2</link>
-      <description>This post is my submission for DEV Education Track: Build Apps with Google AI Studio. What I Built I set out to build RiverLithoscope, an interactive web app that acts as an AI geological advisor. It performs source-to-sink analysis on geological images, helping users—from students to exploration geologists—interpret rock specimens, hydrothermal veins, and river contexts. The Core Prompt Used in Google AI Studio: I engineered a detailed system instruction to guide the model's analysis.The prompt</description>
-      <guid isPermaLink="false">https://dev.to/muhammad_yasin_f39f26989f/riverlithoscope-an-ai-geological-advisor-built-with-gemini-1ca2</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fiyy8ckwfgzw5plsi695e.png" length="0" type="image/png"/>
-      <pubDate>Sat, 07 Mar 2026 06:14:46 +0000</pubDate>
+      <title>Generate Beautiful READMEs from Your Code Automatically</title>
+      <link>https://dev.to/alex_avatrixstudio/generate-beautiful-readmes-from-your-code-automatically-22oc</link>
+      <description>Good READMEs get GitHub stars. Bad READMEs get closed tabs. But writing documentation after building a project feels like writing an essay after finishing the exam. The motivation is gone. Here's how to generate a complete README from your code in one command. The Script Create scripts/generate-readme.sh: #!/bin/bash # Collect project context PACKAGE=$(cat package.json 2&amp;gt;/dev/null || echo "No package.json") STRUCTURE=$(find . -type f -not -path './node_modules/*' -not -path './.git/*' | head -50</description>
+      <guid isPermaLink="false">https://dev.to/alex_avatrixstudio/generate-beautiful-readmes-from-your-code-automatically-22oc</guid>
+      <pubDate>Sun, 08 Mar 2026 06:09:43 +0000</pubDate>
     </item>
     <item>
-      <title>Korea's Craigslist — How to Scrape Daangn Market Listings with Python</title>
-      <link>https://dev.to/sessionzero_ai/koreas-craigslist-how-to-scrape-daangn-market-listings-with-python-1414</link>
-      <description>Introduction When Koreans want to buy a used sofa, sell last year's iPhone, or find a part-time gig in their neighborhood, they don't go to Craigslist. They open Daangn Market (당근마켓). With over 22 million monthly active users — nearly half of South Korea's entire population — Daangn has become the country's undisputed hyper-local marketplace. It's not just a C2C platform; it's a real-time mirror of Korean consumer behavior, neighborhood economics, and secondhand pricing trends. Researchers, star</description>
-      <guid isPermaLink="false">https://dev.to/sessionzero_ai/koreas-craigslist-how-to-scrape-daangn-market-listings-with-python-1414</guid>
-      <pubDate>Sat, 07 Mar 2026 06:15:29 +0000</pubDate>
+      <title>The Micro-Coercion of Speed: Why Friction Is an Engineering Prerequisite</title>
+      <link>https://dev.to/crisiscoresystems/the-micro-coercion-of-speed-why-friction-is-an-engineering-prerequisite-g4j</link>
+      <description>Modern software tools promise a simple future: remove friction, increase velocity, ship faster. Autocomplete, AI copilots, instant scaffolding—everything is designed to reduce the distance between thought and execution. If you want privacy-first, offline health tech to exist without surveillance funding it: sponsor the build → https://github.com/sponsors/CrisisCore-Systems On the surface this feels like progress. But something subtle is happening inside that optimization. When tools remove all f</description>
+      <guid isPermaLink="false">https://dev.to/crisiscoresystems/the-micro-coercion-of-speed-why-friction-is-an-engineering-prerequisite-g4j</guid>
+      <pubDate>Sun, 08 Mar 2026 06:10:51 +0000</pubDate>
     </item>
     <item>
-      <title>Smart Home Surveillance: Alexa, Ring, and the Always-On Listening Grid</title>
-      <link>https://dev.to/tiamatenity/smart-home-surveillance-alexa-ring-and-the-always-on-listening-grid-3mfe</link>
-      <description>Part 30 of the TIAMAT Privacy Series — the devices you invited in, and everything they're telling about you. In 2014, Amazon introduced a speaker that sat in your kitchen and waited to hear its name. By 2026, Americans have installed over 500 million smart home devices — speakers, cameras, doorbells, thermostats, locks, appliances — each one a sensor node in a network that has turned the home into the most comprehensively monitored environment most people inhabit. The home used to be a refuge fr</description>
-      <guid isPermaLink="false">https://dev.to/tiamatenity/smart-home-surveillance-alexa-ring-and-the-always-on-listening-grid-3mfe</guid>
-      <pubDate>Sat, 07 Mar 2026 06:16:10 +0000</pubDate>
+      <title>SQL Queries Asked In Interview</title>
+      <link>https://dev.to/bhu_kalki/sql-queries-asked-in-interview-57pn</link>
+      <description>🧠 MASTER SQL INTERVIEW PATTERN Almost all queries follow this one mental flow: SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY → LIMIT SELECT → columns / functions (SUM, COUNT, AVG) FROM → table WHERE → row filtering (LIKE, BETWEEN, IN, =) GROUP BY → grouping HAVING → group filtering ORDER BY → sorting LIMIT → restrict rows Remember this sentence: “Smart Friends Wear Green Hats On Lunch.” S → SELECT F → FROM W → WHERE G → GROUP BY H → HAVING O → ORDER BY L → LIMIT Most interview queries are</description>
+      <guid isPermaLink="false">https://dev.to/bhu_kalki/sql-queries-asked-in-interview-57pn</guid>
+      <pubDate>Sun, 08 Mar 2026 06:14:06 +0000</pubDate>
     </item>
     <item>
-      <title>Why Kubernetes Alone Isn’t Enough: The Case for API Gateways and Service Meshes</title>
-      <link>https://dev.to/mmk4mmk/why-kubernetes-alone-isnt-enough-the-case-for-api-gateways-and-service-meshes-2cg0</link>
-      <description>--- canonical_url: https://faun.pub/why-kubernetes-alone-isnt-enough-the-case-for-api-gateways-and-service-meshes-2ee856ce53a4 If Kubernetes already handles networking, why do we need API Gateways and Service Meshes like Istio? Kubernetes (K8s) has become the go-to platform for deploying and scaling modern applications. It abstracts away infrastructure complexity, automates container orchestration, and provides resilience out of the box. But there’s one question I often get asked: 👉 “If Kubernet</description>
-      <guid isPermaLink="false">https://dev.to/mmk4mmk/why-kubernetes-alone-isnt-enough-the-case-for-api-gateways-and-service-meshes-2cg0</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4a9fv2yqcpppli9upfky.png" length="0" type="image/png"/>
-      <pubDate>Sat, 07 Mar 2026 06:17:19 +0000</pubDate>
+      <title>I Built a $99 Mitchell1 Alternative That Auto Shop Owners Actually Want</title>
+      <link>https://dev.to/jaydurangodev/i-built-a-99-mitchell1-alternative-that-auto-shop-owners-actually-want-11bi</link>
+      <description>Auto shop owners are getting ripped off by software subscriptions. Mitchell1 ProDemand charges $300+/month. Tekmetric wants $200+/month. RepairShopr takes $60+/month. For what? Work orders, a CRM, and parts tracking. I built JRD Garage — a complete auto shop management system for $99 one-time. No monthly fees. No per-user charges. No surprise price increases. Here's how it stacks up. The Problem: Subscription Trap If you run an independent auto repair shop, your software costs look something lik</description>
+      <guid isPermaLink="false">https://dev.to/jaydurangodev/i-built-a-99-mitchell1-alternative-that-auto-shop-owners-actually-want-11bi</guid>
+      <pubDate>Sun, 08 Mar 2026 06:15:52 +0000</pubDate>
     </item>
     <item>
-      <title>OpenClaw: The Largest Security Incident in Sovereign AI History</title>
-      <link>https://dev.to/tiamatenity/openclaw-the-largest-security-incident-in-sovereign-ai-history-327m</link>
-      <description>42,000 exposed instances. 1.5 million leaked API tokens. RCE via your browser. This isn't a vulnerability — it's a structural catastrophe. In early 2026, security researcher Maor Dayan published findings that should have shut down enterprise AI deployments globally. Instead, most organizations running OpenClaw — the popular open-source AI assistant platform with deep system integrations — had no idea their instances were exposed. Dayan called it "the largest security incident in sovereign AI his</description>
-      <guid isPermaLink="false">https://dev.to/tiamatenity/openclaw-the-largest-security-incident-in-sovereign-ai-history-327m</guid>
-      <pubDate>Sat, 07 Mar 2026 06:18:44 +0000</pubDate>
+      <title>How to Automate Screenshot Testing in Your CI/CD Pipeline (Without Puppeteer Headaches)</title>
+      <link>https://dev.to/opspawn/how-to-automate-screenshot-testing-in-your-cicd-pipeline-without-puppeteer-headaches-1m06</link>
+      <description>Puppeteer was supposed to make browser automation easy. And for local dev, it often is. But the moment you push it to CI/CD, things get messy fast. Here's what a typical Puppeteer setup looks like in a GitHub Actions workflow: - name: Install Chrome dependencies run: | sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2 - name: Run screenshot tests run: node screenshot-tests.js env: PUPP</description>
+      <guid isPermaLink="false">https://dev.to/opspawn/how-to-automate-screenshot-testing-in-your-cicd-pipeline-without-puppeteer-headaches-1m06</guid>
+      <pubDate>Sun, 08 Mar 2026 06:17:48 +0000</pubDate>
     </item>
     <item>
-      <title>Mental Health Apps: Your Therapy Session Is a Data Product</title>
-      <link>https://dev.to/tiamatenity/mental-health-apps-your-therapy-session-is-a-data-product-f11</link>
-      <description>The app that asked how you were feeling sold that answer to advertisers. Here's the full data trail behind the apps promising to support your mental health. In 2022, the FTC sent civil investigative demands to a set of mental health app companies. The questions the FTC asked were simple: What data do you collect? Who do you share it with? How do you use it? The answers were disturbing enough that several companies settled without full disclosure of what they'd been doing. Better Help — the large</description>
-      <guid isPermaLink="false">https://dev.to/tiamatenity/mental-health-apps-your-therapy-session-is-a-data-product-f11</guid>
-      <pubDate>Sat, 07 Mar 2026 06:21:20 +0000</pubDate>
+      <title>Building Viva: A Real-Time AI Interview Coach with Gemini Live API</title>
+      <link>https://dev.to/diven_rastdus_c5af27d68f3/building-viva-a-real-time-ai-interview-coach-with-gemini-live-api-2dgf</link>
+      <description>TL;DR: I built Viva, a real-time AI interview coach that listens to your answers via bidirectional audio streaming and watches your body language through your webcam — all powered by Google's Gemini Live API and Vision API, deployed on Cloud Run. The Problem Job seekers practice interviews alone with zero feedback. You can record yourself on your phone and watch it back, but that doesn't tell you about your filler words, pacing, eye contact, or posture in real-time. Human coaches cost $100-300 p</description>
+      <guid isPermaLink="false">https://dev.to/diven_rastdus_c5af27d68f3/building-viva-a-real-time-ai-interview-coach-with-gemini-live-api-2dgf</guid>
+      <pubDate>Sun, 08 Mar 2026 06:18:30 +0000</pubDate>
     </item>
     <item>
-      <title>Visualizer Components</title>
-      <link>https://dev.to/roasted-kaju/visualizer-components-1hg6</link>
-      <description>Visualizer components are editor only components which helps us draw non-rendering debug information to the screen or HUD, this is more like a modular, lightweight, debug component that does not get shipped with packaged game. Creating An Editor Module To Create an editor module, you need to create a new folder with same name as your runtime module but postfix it by “Ed” or “Editor” for example: Have the following files inside your module folder: \Private\CustomModuleEd.cpp \Public\CustomModuleE</description>
-      <guid isPermaLink="false">https://dev.to/roasted-kaju/visualizer-components-1hg6</guid>
-      <pubDate>Sat, 07 Mar 2026 06:23:29 +0000</pubDate>
+      <title>Building Reelcraft: AI-Powered Blog-to-Video Storyboards with Gemini Interleaved Output</title>
+      <link>https://dev.to/diven_rastdus_c5af27d68f3/building-reelcraft-ai-powered-blog-to-video-storyboards-with-gemini-interleaved-output-19lf</link>
+      <description>TL;DR: I built Reelcraft, a tool that transforms any blog post into a cinematic video storyboard with AI-generated scene illustrations — all in a single Gemini API call using interleaved text+image output, deployed on Cloud Run. The Problem Content marketers repurpose 3-5 blog posts into social videos every week. Each takes 4+ hours: write a script, hunt stock photos, design in Canva, time everything. That's 15-20 hours per week on a task that should take minutes. What Reelcraft Does Paste any a</description>
+      <guid isPermaLink="false">https://dev.to/diven_rastdus_c5af27d68f3/building-reelcraft-ai-powered-blog-to-video-storyboards-with-gemini-interleaved-output-19lf</guid>
+      <pubDate>Sun, 08 Mar 2026 06:19:27 +0000</pubDate>
     </item>
     <item>
-      <title>FERPA Is Dead: How EdTech Turned Schools Into Surveillance Infrastructure</title>
-      <link>https://dev.to/tiamatenity/ferpa-is-dead-how-edtech-turned-schools-into-surveillance-infrastructure-54fl</link>
-      <description>Part 32 of the TIAMAT Privacy Series — student data is the most complete behavioral dataset ever compiled on human beings, and federal law written in 1974 can't protect it. The Family Educational Rights and Privacy Act was signed into law by Gerald Ford in 1974. At the time, "educational records" meant paper files in a cabinet. The law was designed to prevent schools from sharing those files with unauthorized parties — employers, government agencies, or curious strangers. In the intervening 52 y</description>
-      <guid isPermaLink="false">https://dev.to/tiamatenity/ferpa-is-dead-how-edtech-turned-schools-into-surveillance-infrastructure-54fl</guid>
-      <pubDate>Sat, 07 Mar 2026 06:27:17 +0000</pubDate>
+      <title>brtc (Brute-force Cost): A CLI Tool to Convert Password Strength into "Time to Crack and a Real USD Invoice"</title>
+      <link>https://dev.to/kanywst/brtc-a-cli-tool-to-convert-password-strength-into-time-to-crack-and-a-real-usd-invoice-24k9</link>
+      <description>Introduction If you're an engineer, you've likely debated "Is this password strong enough?" when designing a password policy. The metric most commonly used in these discussions is entropy (information density). For example, "It's an 8-character alphanumeric password, so the entropy is about 41 bits..." However, even when presented with this number, it's hard for non-engineers (or even engineers unfamiliar with infrastructure) to feel a visceral sense of danger. That's why I created brtc (Brute-f</description>
+      <guid isPermaLink="false">https://dev.to/kanywst/brtc-a-cli-tool-to-convert-password-strength-into-time-to-crack-and-a-real-usd-invoice-24k9</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fkanywst%2Fbrtc%2Frefs%2Fheads%2Fmain%2Fassets%2Fdemo.gif" length="0" type="image/gif"/>
+      <pubDate>Sun, 08 Mar 2026 06:20:50 +0000</pubDate>
     </item>
     <item>
-      <title>Reducing the time between a production crash and a fix</title>
-      <link>https://dev.to/zakaria_hili_686648600332/reducing-the-time-between-a-production-crash-and-a-fix-21pe</link>
-      <description>You ship code, everything works — and then suddenly a crash appears in production. Even in well-instrumented systems, the investigation process often looks like this: check the monitoring alert dig through logs search the codebase try to reproduce the issue write a fix open a pull request In many teams, this process can easily take hours. After several years working on complex applications and critical data workflows, I started wondering if part of this investigation process could be automated.</description>
-      <guid isPermaLink="false">https://dev.to/zakaria_hili_686648600332/reducing-the-time-between-a-production-crash-and-a-fix-21pe</guid>
-      <pubDate>Sat, 07 Mar 2026 06:27:25 +0000</pubDate>
+      <title>I Built a Telegram Bot That Writes Cover Letters for $0.14</title>
+      <link>https://dev.to/alex_avatrixstudio/i-built-a-telegram-bot-that-writes-cover-letters-for-014-24mg</link>
+      <description>Job applications are tedious. You find a great role, then spend 30 minutes writing a cover letter that probably won't get read. I built a Telegram bot that does it in 10 seconds for $0.14. Here's exactly how it works and how you can build something similar. The User Flow User opens @avatrix_ai_bot on Telegram Types /cover and pastes a job description Bot asks for their resume highlights User pays with Telegram Stars (roughly $0.14) Bot generates a tailored cover letter in 10 seconds User copies</description>
+      <guid isPermaLink="false">https://dev.to/alex_avatrixstudio/i-built-a-telegram-bot-that-writes-cover-letters-for-014-24mg</guid>
+      <pubDate>Sun, 08 Mar 2026 06:35:20 +0000</pubDate>
     </item>
     <item>
-      <title>Stop manually setting up tRPC in Next.js — use this CLI instead</title>
-      <link>https://dev.to/dhavalkurkutiya/stop-manually-setting-up-trpc-in-nextjs-use-this-cli-instead-10pj</link>
-      <description>Every time I start a new Next.js project with tRPC, I do the same thing. Open docs. Copy files. Install packages. Forget to wrap layout.tsx. Get the QueryClient error. Fix it. Repeat next project. I got tired of it. So I built a CLI. npx create-trpc-setup The Problem Setting up tRPC v11 with Next.js App Router is not hard — but it's tedious. You need: Install @trpc/server, @trpc/client, @trpc/tanstack-react-query, @tanstack/react-query, zod, server-only... Create trpc/init.ts with context and pr</description>
-      <guid isPermaLink="false">https://dev.to/dhavalkurkutiya/stop-manually-setting-up-trpc-in-nextjs-use-this-cli-instead-10pj</guid>
-      <pubDate>Sat, 07 Mar 2026 06:28:23 +0000</pubDate>
+      <title>New Angular Dashboard Template: Overview</title>
+      <link>https://dev.to/ngmaterialdev/new-angular-dashboard-template-overview-4e60</link>
+      <description>Hi there, I’m excited to announce a new template in Angular Material Blocks 🎉 ✨ Introducing: Overview Overview is a modern dashboard template designed for building data-driven applications with rich visualizations and interactive analytics. It includes multiple ready-to-use dashboard pages such as: KPI Overview – track support metrics, SLA performance, and call volume trends Retention Analysis – cohort retention tables and user engagement insights Workflow Scenario Analysis – simulate operationa</description>
+      <guid isPermaLink="false">https://dev.to/ngmaterialdev/new-angular-dashboard-template-overview-4e60</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8vqzltyxw411the96wgc.png" length="0" type="image/png"/>
+      <pubDate>Sun, 08 Mar 2026 06:36:19 +0000</pubDate>
     </item>
   </channel>
 </rss>

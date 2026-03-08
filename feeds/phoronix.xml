@@ -8,56 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Mar 2026 06:46:35 +0000</lastBuildDate>
-    <item>
-      <title>NetBSD 11.0-RC2 Released For Testing</title>
-      <link>https://www.phoronix.com/news/NetBSD-11.0-RC2-Released</link>
-      <description>The big NetBSD 11.0 release continues on approach with NetBSD 11.0-RC2 having been released as the latest test candidate...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NetBSD-11.0-RC2-Released</guid>
-      <pubDate>Fri, 06 Mar 2026 11:15:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Oracle Updates Free Solaris CBE For Open-Source Developers / Non-Production Uses</title>
-      <link>https://www.phoronix.com/news/Oracle-Solaris-CBE-2026</link>
-      <description>Four years ago Oracle announced Solaris CBE as the "Common Build Environment" version of Solaris 11.4. Oracle Solaris CBE is made available as free for open-source developers and other non-production use. Oracle this week released a new version of Solaris CBE for those wanting this free* version of Solaris...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Oracle-Solaris-CBE-2026</guid>
-      <pubDate>Fri, 06 Mar 2026 11:27:04 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intel Xeon Features To Be Supported By Ubuntu 26.04 LTS - Some Lacking User-Space Packages</title>
-      <link>https://www.phoronix.com/news/Intel-Xeon-Ubuntu-26.04-LTS</link>
-      <description>Canonical engineer Serkan Uygungelen published a post outlining some of the Intel Xeon CPU features to be supported by the upcoming Ubuntu 26.04 LTS release, some Xeon features already supported by the existing Ubuntu 24.04 LTS, and some features only partially supported for still not having packaged user-space libraries/support within the Ubuntu archive...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Xeon-Ubuntu-26.04-LTS</guid>
-      <pubDate>Fri, 06 Mar 2026 13:17:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>AMD CPPC Performance Priority Being Prepared For Linux - New Zen 6 Feature</title>
-      <link>https://www.phoronix.com/news/AMD-CPPC-Performance-Priority</link>
-      <description>Patches were posted today to the Linux kernel mailing list for enabling a new feature called AMD CPPC Performance Priority as a new hardware feature being found with "future AMD processors".... Which given the timing of these patches, almost certainly means the upcoming Zen 6 processors...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-CPPC-Performance-Priority</guid>
-      <pubDate>Fri, 06 Mar 2026 13:28:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux 7.0 Slab Fix On The Way For A "Severe Performance Regression"</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-Slab-Severe-Perf-Fix</link>
-      <description>Sent out today was this week's batch of Slab allocator fixes for the Linux 7.0 development kernel. Making this pull notable is fixing a "severe performance regression" with a ~64% performance drop having been noted in late February...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-Slab-Severe-Perf-Fix</guid>
-      <pubDate>Fri, 06 Mar 2026 14:23:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ZimaBoard 2: An Interesting Intel-Powered Linux Home Mini Server</title>
-      <link>https://www.phoronix.com/review/zimaboard2</link>
-      <description>For those looking for a low-power, well-built small office / home office Linux server with interesting connectivity options, the ZimaBoard 2 is an interesting option that has been available for some months now and powered by the Intel N150 processor. Besides the interesting single board hardware and well built aluminum chassis, the offering is rounded out by being preloaded with ZimaOS as a Linux-based "personal cloud OS" to easily get hosting for your own SOHO server needs.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/zimaboard2</guid>
-      <pubDate>Fri, 06 Mar 2026 16:11:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>New ASUS, Dell &amp;amp; OneXPlayer Hardware Support In Linux 7.0-rc3</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-rc3-Platform-Drivers</link>
-      <description>A pull request sent out today and already merged to Linux Git ahead of Sunday's Linux 7.0-rc3 has some new hardware driver support additions for the likes of ASUS, HP, Dell, and OneXPlayer...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-rc3-Platform-Drivers</guid>
-      <pubDate>Fri, 06 Mar 2026 19:15:46 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 08 Mar 2026 06:49:50 +0000</lastBuildDate>
     <item>
       <title>GTK 4.22 Released With Improved SVG Support, Reduced Motion Option</title>
       <link>https://www.phoronix.com/news/GTK-4.22-Released</link>
@@ -78,6 +29,55 @@
       <description>Nate Graham and John Veness are out today with the newest issue of This Week in Plasma. Notable for KDE Plasma 6.6.x~6.7 development this week were a lot of bug fixing -- including multiple crash fixes -- and some UI polishing too...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Plasma-6.6.x-Polish-Fixes</guid>
       <pubDate>Sat, 07 Mar 2026 01:24:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Resources For GNOME Adds Intel Xe GPU Power Usage &amp;amp; Intel NPU Frequency Reporting</title>
+      <link>https://www.phoronix.com/news/GNOME-Resources-1.10.2</link>
+      <description>Resources, the modern GNOME GTK4/libadwaita-based GUI application for system resource monitoring and an alternative to GNOME System Monitor, is out with a new update. Resources 1.10.2 brings some nice improvements for those running GNOME on modern Intel hardware...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-Resources-1.10.2</guid>
+      <pubDate>Sat, 07 Mar 2026 11:30:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>3mdeb Making Progress On AMD Ryzen AM5 Motherboard Port With Coreboot + openSIL</title>
+      <link>https://www.phoronix.com/news/3mdeb-Ryzen-MSI-Port-Progress</link>
+      <description>In addition to the 3mdeb firmware consulting firm porting Coreboot with AMD openSIL to an EPYC 9005 "Turin" Gigabyte motherboard, their developers have also been working on a similar Coreboot + openSIL port to an AM5 Ryzen consumer motherboard...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/3mdeb-Ryzen-MSI-Port-Progress</guid>
+      <pubDate>Sat, 07 Mar 2026 11:44:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Maui.Gtk Project Provides A GTK4 Backend For Microsoft's .NET MAUI</title>
+      <link>https://www.phoronix.com/news/Microsoft-dotNET-MAUI-GTK4</link>
+      <description>Maui.Gtk is a new open-source project providing a GTK4 Linux back-end for Microsoft's .NET MAUI...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Microsoft-dotNET-MAUI-GTK4</guid>
+      <pubDate>Sat, 07 Mar 2026 11:54:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>FreeBSD 15.1 On Track With Better Realtek WiFi &amp;amp; KDE Desktop Install Option</title>
+      <link>https://www.phoronix.com/news/FreeBSD-15.1-Realtek-KDE-Wins</link>
+      <description>The effort around improving FreeBSD on laptops continues full speed ahead in 2026. The upcoming FreeBSD 15.1 remains on track with not only having a KDE desktop option from FreeBSD's text-based installer UI but also improved Realtek WiFi adapter support is on the way, updating of the graphics drivers from Linux, and more...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-15.1-Realtek-KDE-Wins</guid>
+      <pubDate>Sat, 07 Mar 2026 12:13:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>AMD GAIA 0.16 Introduces C++17 Agent Framework For Building AI PC Agents In Pure C++</title>
+      <link>https://www.phoronix.com/news/AMD-GAIA-0.16</link>
+      <description>AMD's GAIA open-source framework for building AI agents that run locally on Ryzen AI hardware via the Radeon iGPUs and/or NPUs is up to version 0.16. With this new GAIA release is support for developing AI agents purely in C++ with no longer needing to depend upon Python...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-GAIA-0.16</guid>
+      <pubDate>Sat, 07 Mar 2026 15:07:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Budgie 10.10.2 Brings Improved Labwc Wayland Compositor Integration</title>
+      <link>https://www.phoronix.com/news/Budgie-10.10.2-Released</link>
+      <description>Out today is Budgie 10.10.2 as the latest minor update to this open-source desktop environment that began as part of the Solus Linux project...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Budgie-10.10.2-Released</guid>
+      <pubDate>Sat, 07 Mar 2026 17:46:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.0 Adds A New Minor Performance Optimization Shown With AMD Zen 2 CPUs</title>
+      <link>https://www.phoronix.com/news/Linux-7.0-epoll-Zen-2-Opt</link>
+      <description>The Linux event poll "epoll" code for efficient I/O multiplexing and monitoring of file descriptors for seeing when I/O is possible has a new optimization merged today for Linux 7.0...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-epoll-Zen-2-Opt</guid>
+      <pubDate>Sun, 08 Mar 2026 01:23:19 +0000</pubDate>
     </item>
   </channel>
 </rss>
