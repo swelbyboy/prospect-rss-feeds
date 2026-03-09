@@ -8,84 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 06:51:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 07:08:04 +0000</lastBuildDate>
     <item>
-      <title>Google報告指出2025年零時差漏洞達90起，企業設備成主要攻擊目標</title>
-      <link>https://www.ithome.com.tw/news/174237</link>
-      <description>新聞Google威脅情報團隊（Google Threat Intelligence Group，GTIG）今日（3/6）發布《2025 Zero-Days in Review》報告，顯示2025年總計追蹤到90個遭到利用的零時差漏洞（Zero-day vulnerability）。其中，企業產品漏洞比例創歷史新高，作業系統成為最常被利用的平臺，瀏覽器漏洞則降至多年低點，同時商業監控供應商（Commercial Surveillance Vendors，CSV）利用零時差漏洞的活動也首次超過傳統國家級網路間諜組織。 90個零時差漏洞雖然低於2023年的100個歷史高點，但高於2024年的78個，透露出近5年零時差漏洞利用大致穩定介於60至100個之間。 報告顯示，2025年共有43個零時差漏洞影響企業軟體與設備，占全部漏洞的48%，創歷史新高。這些漏洞多集中在網路與安全設備，例如VPN、防火牆與路由器等邊界設備。由於這類設備通常位於企業網路入口，一旦被攻破，駭客便能取得整個企業網路的初始存取權。 上述有許多漏洞來自輸入驗證不足或授權機制缺陷等基礎安全問題。由於多數邊界設備缺乏端點偵測與回</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174237</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0306-GTIG-600-1.png" length="0" type="image/png"/>
-      <pubDate>Fri, 06 Mar 2026 06:03:28 +0000</pubDate>
+      <title>OpenAI與美國防部簽約後　硬體部門主管離職</title>
+      <link>https://www.ithome.com.tw/news/174268</link>
+      <description>新聞就在OpenAI兩周前與美國國防部簽下新約後，去年才挖來的硬體部門主管Caitlin Kalinowski宣布將離開公司。 Kalinowski加入OpenAI之前，曾在Meta負責AR眼鏡開發。OpenAI去年11月才延攬她來主導機器人及消費硬體開發。不過Kalinowski周末透過LinkedIn公告自己已辭職，並說明原因。她說AI在國家安全扮演重要角色，沒有司法監督下監控美國公民，以及欠缺人的授權發動致命自主工具需要慎重斟酌，但現實卻非如此。她強調其決定是基於原則，不是因為人，她對Sam（Altman）及公司團隊深懷敬意，也對共同努力的成果感到驕傲。 OpenAI兩周前在爭議聲中和美國國防部（Department of Defense，DoD）簽約，讓軍方可在機密網路中使用OpenAI AI模型。在二月底簽約前，Anthropic因拒絕DoD要求將AI用於美國公民監控及自主武器，DoD揚言將Anthropic標示為供應鏈風險。OpenAI執行長Sam Altman雖然反對DoD對Anthropic的作法，也重申其AI模型不會用於國內監控、用於完全自主武器以及排除國安局（NSA</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174268</guid>
+      <pubDate>Mon, 09 Mar 2026 01:12:22 +0000</pubDate>
     </item>
     <item>
-      <title>Rust 1.94強化切片處理與Cargo開發組態管理</title>
-      <link>https://www.ithome.com.tw/news/174235</link>
-      <description>新聞Rust團隊發布Rust 1.94.0穩定版，這次更新的重點放在日常開發常碰到的兩類工作，一是切片資料的逐段處理，二是Cargo組態與資訊清單檔的管理方式。官方這次新增固定長度滑動視窗（array_windows）方法，也讓Cargo能以include拆分組態檔，並解析TOML 1.1設定檔格式，使專案設定與撰寫方式更具彈性。 Rust 1.94新增的array_windows，可視為既有切片滑動視窗方法windows的固定長度版本，但兩者回傳的資料型態不同。array_windows回傳的是固定大小陣列參照，不是windows使用的動態大小切片，開發者可以直接用固定結構來比對資料，不必再手動逐一指定索引位置，程式碼通常會更直觀，也較容易閱讀與維護。 另一項偏向管理面的更新，是Cargo現在可在組態檔中使用include鍵載入其他組態檔。include可寫成路徑字串陣列，也可寫成行內表格陣列，並可將個別項目標示為選用，即使部分檔案不存在，也可直接略過，不會中斷流程。開發者可以把共用設定、本機偏好，以及特定環境設定分開維護，再由主要組態檔統一整合。對多專案、多開發環境，或需要保留個別</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174235</guid>
-      <pubDate>Fri, 06 Mar 2026 06:06:30 +0000</pubDate>
+      <title>Meta計畫自製晶片訓練模型　成立應用AI工程部門</title>
+      <link>https://www.ithome.com.tw/news/174270</link>
+      <description>新聞國際媒體報導，Meta近日透露自製晶片計畫，同時成立新的應用AI工程部門，以推動AI模型開發大計。 彭博上周引述Meta財務長Susan Li在財務會議上提及自製晶片的計畫。她說自製晶片可滿足公司平臺應用的獨特需求，並減少對Nvidia和AMD等第三方晶片廠商的依賴。Li說明，自製晶片主要為了支援該公司獨有應用，Meta可望首先用於起家服務如排序、推薦作業，但長期而言，可能會再推到其他應用，最終用於訓練AI模型。 成立新AI開發部門 與此同時，華爾街日報報導，Meta近日成立應用AI（Applied AI）部門，將和超級智慧（SuperIntelligence）部門合作推動開發AI產品。 這個部門在組織上是位於Reality Labs之下，後者曾是Meta負責AR/VR軟、硬體開發的部門。新部門由Reality Labs副總裁Maher Saba統率。在砸下數十億美元開發Oculus頭戴裝置及AR/VR應用後，元宇宙應用仍舊無法普及，Meta已在數波組織精簡中裁撤Reality Labs的開發人員。 根據華爾街日報取得Saba的對內備忘錄說明，這個部門旨在支援AI模型開發所需的真實</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174270</guid>
+      <pubDate>Mon, 09 Mar 2026 02:09:11 +0000</pubDate>
     </item>
     <item>
-      <title>搜尋引擎Bing遭濫用，駭客藉由冒牌OpenClaw安裝程式散布惡意軟體</title>
-      <link>https://www.ithome.com.tw/news/174244</link>
-      <description>新聞一月底正式推出的開源AI代理專案OpenClaw（原名Clawdbot，一度更名為Moltbot）爆紅，駭客也趁著這波熱潮，假借提供安裝程式的名義，企圖散布惡意程式。 威脅情報公司Huntress指出，有人在2月2日至10日，於GitHub儲存庫設置假的OpenClaw安裝程式的專案，一旦使用者下載這些專案提供的安裝程式並執行，電腦就會被植入竊資軟體（Infostealer），或是名為GhostSocks的惡意程式，駭客可藉此透過受害電腦路由網路流量，讓相關資安檢查機制誤以為是一般使用者，從而繞過多因素驗證（MFA）與反詐欺檢測機制。值得留意的是，這波攻擊並未針對特定產業或領域，而是同時針對想要取得OpenClaw的Windows及macOS用戶。Huntress強調，這波攻擊成功的主要原因，在於惡意軟體由GitHub代管，因此，微軟搜尋引擎Bing將這些惡意儲存庫顯示在搜尋結果最前面的項目。 這起事故的發現，是Huntress偵測到有用戶電腦遭到感染的跡象，該名用戶透過Bing搜尋關鍵字OpenClaw Windows，結果該搜尋引擎的AI助理引導到惡意GitHub儲存庫open</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174244</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/assets3eb6f92aedf74f109c7b4b0897-BingAI.png" length="0" type="image/png"/>
-      <pubDate>Fri, 06 Mar 2026 07:03:02 +0000</pubDate>
+      <title>Meta被揭露AI眼鏡偷錄隱私畫面　引發控告、政府關切</title>
+      <link>https://www.ithome.com.tw/news/174271</link>
+      <description>新聞Meta外包商員工指控，Meta AI眼鏡把使用者從銀行到臥房內的影像都讓不相干的外人看光，引發美國消費者控告以及英國政府關切。 事情起因是日前瑞典媒體Svenska Dagbladet（SvD）and Goteborgs-Posten報導一篇調查報導揭露，Meta AI影片外包審查的內容過於隱私，造成審查作業人員創傷。這些審查員受雇於肯亞一家Meta外包商，他們負責將Meta AI眼鏡拍攝到的影片加以標籤，以便檢查這些智慧眼鏡的AI助理是否能正確和用戶互動。但這些影片包含大量用戶隱私資訊和畫面，令他們感到不舒服。 這些審查員表示，AI眼鏡使他們不得已「什麼都看到了」。有的影片是用戶在家中使用到一半放在桌上或使用時配偶進房間更衣，有用戶帶著智慧眼鏡上洗手間、還有人刻意配戴這些眼鏡進行性行為。另有些影片拍攝到信用卡或其他隱私資訊。這些審查員去年向Meta及Meta外包商Sama提出控告。 而在瑞典新聞報導後，上周一家美國律師事務所代表一群消費者，控告Meta和合作AI眼鏡集團Luxottica，推出聯名AI眼鏡的Ray-Ban和Oakley皆為EssilorLuxottica（Ess</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174271</guid>
+      <pubDate>Mon, 09 Mar 2026 02:29:25 +0000</pubDate>
     </item>
     <item>
-      <title>伊朗駭客Dust Specter冒充伊拉克外交部，對該國政府官員散布惡意軟體</title>
-      <link>https://www.ithome.com.tw/news/174248</link>
-      <description>新聞中東局勢緊張，伊朗駭客的攻擊行動頻傳，最近有一起是針對伊拉克政府官員的活動，駭客冒充伊拉克的外交部發動社交工程攻擊，誘騙受害者下載並執行惡意軟體。 資安公司Zscaler威脅研究團隊ThreatLabz本週發布報告，提到1月他們發現疑似來自伊朗的駭客組織Dust Specter，鎖定伊拉克政府官員發動網路攻擊。駭客透過冒充政府機構名義散布惡意檔案，誘騙目標下載並執行惡意程式，藉此在受害系統建立後門並持續收集敏感資訊。根據攻擊目標、行動模式，以及惡意程式的特徵研判，攻擊者可能來自伊朗。此次攻擊主要鎖定伊拉克政府官員，駭客甚至冒充伊拉克外交部的名義散布惡意文件，提高社交工程成功率。 在此次攻擊行動中，Zscaler一共發現4款新的惡意程式，包括SplitDrop、TwinTask、TwinTalk，以及GhostForm。這些工具被用於建立後門、接收指令並執行惡意操作，使駭客能夠長期控制受害裝置。 Dust Specter的攻擊手段大致可分成兩種。其中一條攻擊鏈是透過受密碼保護的RAR壓縮檔散布惡意程式，駭客將惡意程式偽裝為伊拉克外交部相關文件。一旦受害者解壓縮並開啟檔案，內含的.NE</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174248</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/dust-specter-figure-2.png" length="0" type="image/png"/>
-      <pubDate>Fri, 06 Mar 2026 08:17:51 +0000</pubDate>
+      <title>供應鏈攻擊鎖定NuGet與NPM套件生態系，竊取憑證與敏感資訊並建立遠端控制能力</title>
+      <link>https://www.ithome.com.tw/news/174266</link>
+      <description>新聞開源套件生態系近期接連出現供應鏈攻擊事件。軟體供應鏈安全公司Socket揭露4個惡意NuGet套件，鎖定ASP.NET開發者並竊取帳號與權限資料，企圖操控應用程式授權機制，在系統中建立長期後門。另一方面，資安業者Tenable也發現一款惡意NPM套件，利用開源指揮控制框架Mythic執行系統偵察與資料竊取。 惡意NuGet套件透過相依套件植入後門，操控ASP.NET授權機制 Socket指出，攻擊者於2024年8月12日至21日期間，透過帳號hamzazaheer上傳4個惡意NuGet套件，分別為NCryptYo、DOMOAuth2_、IRAOAuth2.0與SimpleWriter_。這些套件使用相同的建置環境，很可能出自同一威脅行為者。在研究人員通報後，相關套件已被下架，但移除前下載次數仍累計超過4,500次。 在攻擊鏈中，NCryptYo扮演第一階段惡意程式（dropper）的角色。當套件被載入時，程式會透過靜態建構子安裝JIT編譯器掛鉤，解密內嵌的惡意程式碼，並在本地主機7152連接埠建立代理服務，將系統流量轉送至攻擊者控制的命令與控制（C2）伺服器。研究人員也發現，NCr</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174266</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0307-NuGet-socket-2.png" length="0" type="image/png"/>
+      <pubDate>Mon, 09 Mar 2026 02:39:56 +0000</pubDate>
     </item>
     <item>
-      <title>維基百科遭自我傳播JavaScript蠕蟲攻擊，數千頁面遭竄改</title>
-      <link>https://www.ithome.com.tw/news/174258</link>
-      <description>新聞人人可編輯、內容自由、具備多語言版本的維基百科（Wikipedia），絕大多數頁面允許任何人修改，打破了傳統百科全書由少數專家壟斷的情況，具備更新速度極快、資訊涵蓋層面廣泛等特質。然而，近日發生的惡意程式攻擊事故，讓該平臺的資安防護議題浮上檯面。 根據資安新聞網站Bleeping Computer的報導，維基媒體基金會（Wikimedia Foundation，WMF）近日發生資安事件，具備自我傳播能力的JavaScript蠕蟲入侵維基系統，導致部分維基頁面遭到惡意竄改，並修改使用者的指令碼，為防止攻擊擴大，開發工程團隊一度限制部分編輯功能，並緊急回復遭竄改的內容。 這起事件最初如何發生？在蠕蟲攻擊事故發生之前，一個存放在俄羅斯維基百科的惡意指令碼被執行，導致維基百科某個全球使用的JavaScript指令碼被植入惡意程式碼。維基媒體基金會的員工疑似在測試使用者指令碼功能的過程，不慎啟動，但究竟是否為測試的過程意外載入，還是該名員工的帳號遭駭造成，目前仍不得而知。 Bleeping Computer分析上述被執行的指令碼test.js，指出此為具備自我傳播特性的蠕蟲，會自動修改頁面內</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174258</guid>
-      <pubDate>Fri, 06 Mar 2026 08:29:10 +0000</pubDate>
+      <title>印尼限制未成年社群帳號，16歲以下不得使用YouTube、TikTok等平臺</title>
+      <link>https://www.ithome.com.tw/news/174273</link>
+      <description>新聞印尼通訊與數位事務部（Ministry of Communication and Digital Affairs）上周五（3/6）宣布，政府已簽署新法規，限制未滿16歲兒童使用社群媒體，並禁止其在多個高風險數位平臺建立帳號，包括YouTube、TikTok、Facebook、Instagram、Threads、X、Bigo Live與Roblox等服務。 印尼通訊與數位事務部表示，新規將自3月28日起逐步實施，並要求相關平臺在期限內完成合規措施。未來數位平臺需建立機制，以確保未成年使用者無法建立或持有帳號。 該部門指出，推出此項政策是因為兒童在網路環境中面臨愈來愈多風險，包括色情內容、網路霸凌、線上詐騙與社群媒體成癮等問題。政府希望透過監管措施，協助家長保護兒童免受不當內容與演算法影響。 印尼監管機構上周即曾突擊檢查Meta位於雅加達的辦公室，並就Facebook、Instagram與WhatsApp處理有害內容的合規情況提出警告。 目前多數社群媒體平臺的最低使用年齡為13歲，主要源自美國《兒童網路隱私保護法》（Children’s Online Privacy Protectio</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174273</guid>
+      <pubDate>Mon, 09 Mar 2026 03:07:00 +0000</pubDate>
     </item>
     <item>
-      <title>我國高速量子運算國家戰略邁入第二期，位於竹科的超導量子電腦實驗室首次亮相</title>
-      <link>https://www.ithome.com.tw/news/174257</link>
-      <description>新聞國科會今天(3/6)宣布高速量子運算國家戰略，宣告我國量子運算戰略進入第二期，並啟用位於北部的量子電腦次系統驗證平臺，未來將以臺灣具有的半導體優勢吸引國際合作，希望讓臺灣的產業供應鏈嵌入全球量子科技生態，成為不可或缺的關鍵角色。 行政院是從2021年啟動國家量子運算戰略，行政院由國科會、中研院、經濟部等跨部會及大學共同組成量子國家隊，後續推動的AI新十大建設中，高速量子運算也是其中的關鍵建設之一，布局AI與量子運算關係到國防安全、資安及產業轉型，對臺灣的未來發展相當重要。 第一期高速量子運算戰略從2022年到2026年，集中國內產學界力量，專注在研究自主技術及培養相關的人才。清華大學物理系教授，同時也是量子系統推動小組召集人果尚志表示，量子運算的國家戰略涵蓋量子電腦的硬體技術、量子通訊及量子軟體技術，第一期先以硬體技術為主，運用臺灣在半導體產業優勢，包括材料技術、量子位元設計、周邊控制電路等等，第一期希望達成的目標是，建構臺灣自製可真實運算的量子電腦及量子通訊網路，這2個目標皆已達成。 第一期的成果中，中研院已完成20個量子位元的量子電腦，清大也研究新的超導體位元，以及臺灣自製的量</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174257</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E6%88%AA%E5%9C%96%202026-03-06%20%E4%B8%8B%E5%8D%884_47_54.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 08:49:19 +0000</pubDate>
+      <title>Anthropic遭國防部列供應鏈風險，三大雲端仍持續提供Claude服務</title>
+      <link>https://www.ithome.com.tw/news/174277</link>
+      <description>新聞美國國防部（Department of Defense，DoD）近日將AI公司Anthropic列為供應鏈風險（Supply Chain Risk），引發科技產業關注。不過，微軟、Amazon與Google等雲端業者已向媒體表示，該決定並未影響其向企業客戶提供Anthropic Claude模型的服務。 日前媒體披露，美國國防部已正式通知Anthropic，其公司與Claude模型被認定為供應鏈風險，未來與美國軍方合作的承包商或技術供應商，在政府相關系統中可能不得使用Anthropic技術。 不過，多家科技公司隨後向媒體表示，相關限制主要針對國防部專案。根據TechCrunch與CNBC的報導，微軟、Amazon Web Services（AWS）與Google Cloud均表示，Anthropic模型仍可在其雲端平臺提供給企業與開發者使用，惟涉及國防部的工作負載可能受到限制。 微軟發言人則向Business Insider透露，該公司法律團隊研究了五角大廈的供應鏈風險認定，認為該標記主要影響國防相關專案，因此Anthropic產品仍可透過Microsoft 365、GitHub與</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174277</guid>
+      <pubDate>Mon, 09 Mar 2026 03:29:22 +0000</pubDate>
     </item>
     <item>
-      <title>健保署聯手Google揭糖尿病AI專案進展，衛福部重申FHIR與聯邦學習布局</title>
-      <link>https://www.ithome.com.tw/news/174260</link>
-      <description>新聞健保署3月4日揭露糖尿病AI專案進展，該專案2年前由健保署與Google臺灣聯手啟動，Google負責提供AI工具和算力，再由北醫、國衛院開發糖尿病風險預測模型，並以健保大數據驗證。該模型已可預測糖尿病風險等級，以及糖尿病共病風險，另也能結合Gemini，提供民眾個人化的衛教資訊。目前，醫療院所端已可在家醫大平臺查看AI模型提供的風險等級，至於民眾端，健保署預計於本月在健康存摺App中，上線個人衛教助理功能，屆時授權同意的民眾即可使用。 衛福部部長石崇良還點出，衛福部目前正專注如何讓電子病歷更好地結合健保，因此推動基礎工程計畫，來鼓勵部內及醫療院所採用國際醫療資料交換標準FHIR，並採用資料不出院、也能訓練AI模型的聯邦學習（Federated Learning）模式，來打造更通用的AI模型，強化應用潛力。 2004年啟用健保IC卡，持續優化健保數位基礎建設 健保署署長陳亮妤先是盤點健保的數位基礎建設，全民健保自開辦至今已31年，其中一項重要里程碑是2004年啟用健保IC卡。當時只要讀卡，就能查看病人最近6次就醫紀錄、重要處方與過敏藥物，以及重大傷病、器官捐贈與安寧緩和醫療等相關註</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174260</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/%E5%81%A5%E4%BF%9D(1).JPG" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 08:54:31 +0000</pubDate>
+      <title>Check Point揭Claude Code漏洞，惡意專案設定檔可觸發RCE並外洩API金鑰</title>
+      <link>https://www.ithome.com.tw/news/174267</link>
+      <description>新聞隨著AI開發工具逐漸整合自動化流程與外部服務，專案設定檔正成為新的供應鏈攻擊入口。資安業者Check Point揭露，Anthropic的程式開發助理Claude Code存在安全漏洞，攻擊者可透過惡意儲存庫（repository）中的專案設定檔觸發遠端程式碼執行（RCE），甚至竊取開發者的Anthropic API金鑰。 Claude Code載入專案設定檔流程藏漏洞，可觸發Shell指令並外洩Anthropic API金鑰 研究人員指出，這些漏洞與Claude Code處理專案設定檔、Hooks機制（可在特定事件發生時自動執行指令），以及Model Context Protocol（MCP）整合流程有關。一旦攻擊者在儲存庫中預先植入惡意設定檔，當開發者在本機開啟該專案時，Claude Code可能在初始化過程中直接執行設定檔中的指令。 Check Point共揭露三項漏洞，其中兩項被評為高風險（High）。首先是一項尚未取得CVE編號的程式碼注入漏洞，CVSS風險分數為8.7。該漏洞源自Claude Code在新目錄啟動時存在使用者同意流程繞過問題，攻擊者可在專案設定檔.cla</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174267</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0308-Vulnerability_1_RCE%20via%20Untrusted%20Project%20Hooks-check%20point.png" length="0" type="image/png"/>
+      <pubDate>Mon, 09 Mar 2026 03:31:59 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】3月6日，維基百科驚傳遭到蠕蟲攻擊，4千個頁面被破壞</title>
-      <link>https://www.ithome.com.tw/news/174259</link>
-      <description>新聞維基百科遭自我傳播JavaScript蠕蟲攻擊，數千頁面遭竄改 根據資安新聞網站Bleeping Computer的報導，維基媒體基金會（Wikimedia Foundation，WMF）近日發生資安事件，具備自我傳播能力的JavaScript蠕蟲入侵維基系統，導致部分維基頁面遭到惡意竄改，並修改使用者的指令碼，為防止攻擊擴大，開發工程團隊一度限制部分編輯功能，並緊急回復遭竄改的內容。 這起事件最初如何發生？在蠕蟲攻擊事故發生之前，一個存放在俄羅斯維基百科的惡意指令碼被執行，導致維基百科某個全球使用的JavaScript指令碼被植入惡意程式碼。維基媒體基金會的員工疑似在測試使用者指令碼功能的過程，不慎啟動，但究竟是否為測試的過程意外載入，還是該名員工的帳號遭駭造成，目前仍不得而知。統計顯示，攻擊期間約有近4,000個頁面遭到修改，同時約85個使用者指令碼被替換為惡意版本，使惡意程式能持續透過其他使用者瀏覽行為傳播。 中國駭客UAT-9244鎖定南美電信公司，散布Windows及Linux後門程式 思科旗下威脅情報團隊Talos揭露名為UAT-9244的中國APT駭客組織，該團體主要</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174259</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/wikimedia-common-script.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 10:26:38 +0000</pubDate>
+      <title>Anthropic與Mozilla合作，找出22個Firefox漏洞</title>
+      <link>https://www.ithome.com.tw/news/174279</link>
+      <description>新聞人工智慧在資安研究領域的應用正快速升溫。AI業者Anthropic近日與開源瀏覽器開發者Mozilla合作，利用AI模型協助分析程式碼，在Firefox中發現22個安全漏洞，其中14個被Mozilla評定為高嚴重性（high-severity）漏洞。 該研究主要由Anthropic的安全研究團隊進行，研究人員利用其大型語言模型Claude Opus 4.6來分析Firefox程式碼，並在兩周內提交多項漏洞報告。整體而言，研究團隊掃描了約6,000個C++原始碼檔案，向Mozilla提交112份問題報告，Mozilla為其中22個漏洞分配CVE編號，其中有14個為高嚴重性漏洞，另有約90個涉及各種崩潰案例與程式邏輯錯誤。 Mozilla表示，這些漏洞主要涉及瀏覽器核心元件，包括JavaScript引擎等重要模組，若遭利用可能導致資料被竄改或執行惡意程式碼。 Mozilla說明，過去由AI輔助的漏洞回報品質經常參差不齊，這次是在Anthropic團隊利用其AI模型Claude，分析Firefox的JavaScript引擎之後，主動聯繫了Firefox的工程師。重要的是，他們的漏洞報告包</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174279</guid>
+      <pubDate>Mon, 09 Mar 2026 03:44:18 +0000</pubDate>
     </item>
     <item>
-      <title>中華資安揭2026年新戰略，布局無人機、船舶、低軌衛星資安服務，並看好AI資安商機與自主研發成長</title>
-      <link>https://www.ithome.com.tw/news/174264</link>
-      <description>新聞觀察臺灣資安服務市場脈動，指標性業者的動向，向來是產業風向球。相較於安碁資訊近年持續向媒體說明年度業務重點，讓外界得以掌握產業趨勢，中華資安國際過去則鮮少揭露其觀察到的資安態勢或產業機會。 隨著中華資安國際於去年由興櫃轉上市，該公司於昨日（3月5日）舉辦線上法人說明會。我們也藉其公布營運展望之際，深入了解其2026年資安市場的新布局，當中最受矚目的亮點在於，該公司不僅將搶進資安守護AI的新商機，也看好CPS（虛實整合系統）新場域的韌性需求，涵蓋無人機、船舶、低軌衛星的資安服務。 同時，中華資安國際提到自主研發產品獲得重大突破，並強調資安市場需求仍然強勁，不只近年公司營運表現呈三率三升，持續性營收占比也首度突破5成，顯示企業客戶對上網資安、企業專業服務SOC、MDR的需求仍持續增加。 首度揭露AI布局，同時看好「以資安守護AI」新商機 在這場法人說明會上，中華資安國際總經理洪進福首度公開該公司的AI資安策略，並表示看好CPS新場域資安服務。 事實上，當各家資安業者積極揭露AI布局時，中華資安國際過去並未明確說明。洪進福坦言，中華資安在AI的投入其實非常早，只是較少揭露，這次趁著法說會</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174264</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/2026-03-05_151910.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 12:59:01 +0000</pubDate>
+      <title>OpenAI推出AI資安代理人Codex Security　可掃描GitHub程式庫自動找漏洞並提出修補</title>
+      <link>https://www.ithome.com.tw/news/174282</link>
+      <description>新聞OpenAI上周五（3/6）發表Codex Security，這是一款用於應用程式安全的AI代理人，目前處於研究預覽階段。該工具可自動分析程式碼、找出潛在安全漏洞並提出修補建議。OpenAI強調，Codex Security可理解整個系統脈絡並驗證漏洞，以降低誤報並提高漏洞偵測品質，目標是讓AI能協助完成部分原本需要資安工程師進行的程式碼安全審查工作。 Codex Security目前透過Codex Web運作，主要掃描所連接的GitHub程式庫。系統會逐一分析程式碼提交（Commit），建立程式庫的安全脈絡並找出可能的漏洞。目前官方文件僅提到支援GitHub儲存庫，並未宣布支援其他程式碼託管平臺。 在運作流程上，Codex Security大致分為三個階段。首先，系統會分析程式碼庫並建立專案專屬的威脅模型（Threat Model），以理解系統架構、信任邊界與可能的攻擊面。接著，AI模型會依據這些脈絡搜尋潛在漏洞，並依其對實際系統的影響程度進行分類。對於偵測到的問題，系統可在隔離的沙盒環境中進行驗證，以確認漏洞是否真實存在並降低誤報。最後，Codex Security會提出修補建</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174282</guid>
+      <pubDate>Mon, 09 Mar 2026 04:29:53 +0000</pubDate>
     </item>
     <item>
-      <title>時代力量3.3萬筆個資外流，官方晚間發聲明：CRM系統遭入侵</title>
-      <link>https://www.ithome.com.tw/news/174265</link>
-      <description>新聞臺灣政黨資安防護亮紅燈！國外資安監控網站The Daily Dark Web近日揭露，臺灣政黨「時代力量（New Power Party）」的資料庫疑似遭到入侵，約3.3萬筆個資已在駭客論壇流出。 我們於今日（3月6日）注意到此消息，並於下午3時向時代力量查證。該黨媒體聯絡人鄭意豪於傍晚5時49分回覆證實，該事故確實發生，正持續釐清資料外洩管道。到了晚間8時，時代力量正式發布資安公告，說明其內部CRM（客戶關係管理）系統遭非法入侵。初步清查顯示，受影響資料約33,000筆，外洩欄位包含姓名、電子郵件、電話、居住地址、LINE ID、職業、生日及性別；但不包含身分證字號、銀行帳號、登入密碼或任何信用卡等財務資訊。 根據時代力量的資安事故公告，該黨是在今日下午3時接獲支持者反映，其個人資安防護軟體（F-Secure）警示電子郵件信箱疑似由該黨系統個資外洩，隨後亦接獲媒體詢問是否知悉個資外洩。對此，時代力量立即啟動資安應變機制，全面清查系統存取記錄，並於下午5時確認異常後，正式阻斷受影響的系統連線。 經初步調查，研判入侵點為內部CRM系統的權限控制遭破解。資訊單位已立即停止該CRM系統的</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174265</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/2026-03-06_222855.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 14:32:26 +0000</pubDate>
+      <title>環境部公布企業自主減量計畫，已有273家廠商適用碳費優惠</title>
+      <link>https://www.ithome.com.tw/news/174272</link>
+      <description>新聞我國碳費制度即將上路，企業今年5月首次申報並繳納碳費。環境部近期表示，為落實制度資訊公開，已自3月起在環境部氣候變遷署網站的碳費專區公開經審查核定的企業自主減量計畫，截至今年2月底已有273家工廠通過審查，外界可查詢各企業減碳目標、減量措施與適用的優惠費率。 環境部指出，碳費制度是依氣候變遷因應法設計，以促進產業減碳與低碳轉型為目標。企業若提出符合2030年減量目標的自主減量計畫並經審查通過，即可適用較低的碳費優惠費率。去年共430家工廠提出計畫，目前已有273家通過審查，另有24家撤案，其餘案件仍在審查中。環境部也要求企業依計畫落實減量措施，須在每年4月底前提報執行進度，主管機關將每年查核，符合進度者才能適用優惠費率。 依環境部先前盤查結果，碳費收費對象約為500座工廠、共281家公司，其中141家為上市櫃企業，顯示碳費制度將正式帶動國內邁入「碳有價」時代。不過，企業原本可透過碳權抵減部分碳費負擔的機制，今年仍存在制度空窗。根據規定，企業若取得國內碳權，最多可扣減10%的排放量，國外碳權扣減上限為5%，且僅限非高碳洩漏產業適用。 但是因為相關法規尚未完成，故今年5月首次申報碳費時</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174272</guid>
+      <pubDate>Mon, 09 Mar 2026 06:12:33 +0000</pubDate>
     </item>
   </channel>
 </rss>

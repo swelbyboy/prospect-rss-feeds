@@ -8,78 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 06:49:38 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2026 07:06:00 +0000</lastBuildDate>
     <item>
-      <title>Generate Beautiful READMEs from Your Code Automatically</title>
-      <link>https://dev.to/alex_avatrixstudio/generate-beautiful-readmes-from-your-code-automatically-22oc</link>
-      <description>Good READMEs get GitHub stars. Bad READMEs get closed tabs. But writing documentation after building a project feels like writing an essay after finishing the exam. The motivation is gone. Here's how to generate a complete README from your code in one command. The Script Create scripts/generate-readme.sh: #!/bin/bash # Collect project context PACKAGE=$(cat package.json 2&amp;gt;/dev/null || echo "No package.json") STRUCTURE=$(find . -type f -not -path './node_modules/*' -not -path './.git/*' | head -50</description>
-      <guid isPermaLink="false">https://dev.to/alex_avatrixstudio/generate-beautiful-readmes-from-your-code-automatically-22oc</guid>
-      <pubDate>Sun, 08 Mar 2026 06:09:43 +0000</pubDate>
+      <title>Vibe Coding Challenge — Day 11: Road Map Generator</title>
+      <link>https://dev.to/labdays/vibe-coding-challenge-day-11-road-map-generator-2hm5</link>
+      <description>Discover the path to your dream. Announcement Create a roadmap to becoming the person you want to be with the roadmap generator I released today. Moreover, generate the path to your goal with a single click by providing resource links and in-depth sub-branches. If you’d like to try it, the link is below 👇 roadmap.labdays.io Context I started the Vibe Coding Challenge. I plan to release a new product every day, and today is my 11th day. You can visit my website (labdays.io) to learn about the pro</description>
+      <guid isPermaLink="false">https://dev.to/labdays/vibe-coding-challenge-day-11-road-map-generator-2hm5</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3px89hw1z6zh8dw02l3p.PNG" length="0" type="image/png"/>
+      <pubDate>Mon, 09 Mar 2026 06:48:25 +0000</pubDate>
     </item>
     <item>
-      <title>The Micro-Coercion of Speed: Why Friction Is an Engineering Prerequisite</title>
-      <link>https://dev.to/crisiscoresystems/the-micro-coercion-of-speed-why-friction-is-an-engineering-prerequisite-g4j</link>
-      <description>Modern software tools promise a simple future: remove friction, increase velocity, ship faster. Autocomplete, AI copilots, instant scaffolding—everything is designed to reduce the distance between thought and execution. If you want privacy-first, offline health tech to exist without surveillance funding it: sponsor the build → https://github.com/sponsors/CrisisCore-Systems On the surface this feels like progress. But something subtle is happening inside that optimization. When tools remove all f</description>
-      <guid isPermaLink="false">https://dev.to/crisiscoresystems/the-micro-coercion-of-speed-why-friction-is-an-engineering-prerequisite-g4j</guid>
-      <pubDate>Sun, 08 Mar 2026 06:10:51 +0000</pubDate>
+      <title>IAM role assumption across AWS accounts: the right way (with working Terraform)</title>
+      <link>https://dev.to/yash_step2dev/iam-role-assumption-across-aws-accounts-the-right-way-with-working-terraform-3kpe</link>
+      <description>IAM role assumption across AWS accounts: the right way Most teams still store long-lived AWS access keys in CI/CD secrets. Here's the right pattern. Why role assumption beats stored credentials Approach Risk Rotation Auditability Access key in CI secret High (never expires) Manual Poor OIDC + role assumption Low (per-job token) Automatic Full CloudTrail Architecture GitHub Actions → OIDC JWT → IAM (TOOLING account) → sts:AssumeRole → ci-deploy-role (PROD account) → Deploy OIDC provider + trust p</description>
+      <guid isPermaLink="false">https://dev.to/yash_step2dev/iam-role-assumption-across-aws-accounts-the-right-way-with-working-terraform-3kpe</guid>
+      <pubDate>Mon, 09 Mar 2026 06:50:27 +0000</pubDate>
     </item>
     <item>
-      <title>SQL Queries Asked In Interview</title>
-      <link>https://dev.to/bhu_kalki/sql-queries-asked-in-interview-57pn</link>
-      <description>🧠 MASTER SQL INTERVIEW PATTERN Almost all queries follow this one mental flow: SELECT → FROM → WHERE → GROUP BY → HAVING → ORDER BY → LIMIT SELECT → columns / functions (SUM, COUNT, AVG) FROM → table WHERE → row filtering (LIKE, BETWEEN, IN, =) GROUP BY → grouping HAVING → group filtering ORDER BY → sorting LIMIT → restrict rows Remember this sentence: “Smart Friends Wear Green Hats On Lunch.” S → SELECT F → FROM W → WHERE G → GROUP BY H → HAVING O → ORDER BY L → LIMIT Most interview queries are</description>
-      <guid isPermaLink="false">https://dev.to/bhu_kalki/sql-queries-asked-in-interview-57pn</guid>
-      <pubDate>Sun, 08 Mar 2026 06:14:06 +0000</pubDate>
+      <title>From a Confused Graduate to a DevOps Engineer</title>
+      <link>https://dev.to/mahinshanazeer/from-a-confused-graduate-to-a-devops-engineer-4dfh</link>
+      <description>This is a submission for the 2026 WeCoded Challenge: Echoes of Experience After graduating with a B.Tech in Electronics and Communication Engineering, I was confused about which profession to choose. There were no mentors around me, and no one I knew worked in this field. Choosing a career path was difficult. I attended several aptitude tests and managed to clear some of them, but I often struggled during interviews because of my poor communication skills. Even today, I still find it challenging</description>
+      <guid isPermaLink="false">https://dev.to/mahinshanazeer/from-a-confused-graduate-to-a-devops-engineer-4dfh</guid>
+      <pubDate>Mon, 09 Mar 2026 06:50:36 +0000</pubDate>
     </item>
     <item>
-      <title>I Built a $99 Mitchell1 Alternative That Auto Shop Owners Actually Want</title>
-      <link>https://dev.to/jaydurangodev/i-built-a-99-mitchell1-alternative-that-auto-shop-owners-actually-want-11bi</link>
-      <description>Auto shop owners are getting ripped off by software subscriptions. Mitchell1 ProDemand charges $300+/month. Tekmetric wants $200+/month. RepairShopr takes $60+/month. For what? Work orders, a CRM, and parts tracking. I built JRD Garage — a complete auto shop management system for $99 one-time. No monthly fees. No per-user charges. No surprise price increases. Here's how it stacks up. The Problem: Subscription Trap If you run an independent auto repair shop, your software costs look something lik</description>
-      <guid isPermaLink="false">https://dev.to/jaydurangodev/i-built-a-99-mitchell1-alternative-that-auto-shop-owners-actually-want-11bi</guid>
-      <pubDate>Sun, 08 Mar 2026 06:15:52 +0000</pubDate>
+      <title>6 Engineering Patterns Enterprise Teams Use Instead of Blind AI Code Generation</title>
+      <link>https://dev.to/jsgurujobs/6-engineering-patterns-enterprise-teams-use-instead-of-blind-ai-code-generation-5793</link>
+      <description>javascript #typescript #ai #softwareengineering AI can generate code faster than junior developers. That part is real. But enterprise teams like IBM are discovering something else. The bottleneck in real systems is not writing code. It is understanding and maintaining it. Here are six engineering patterns large production teams use to keep code understandable, reviewable, and maintainable even when AI writes part of it. 1. Explicit Domain Types Instead of AI Generated any AI tools often produce</description>
+      <guid isPermaLink="false">https://dev.to/jsgurujobs/6-engineering-patterns-enterprise-teams-use-instead-of-blind-ai-code-generation-5793</guid>
+      <pubDate>Mon, 09 Mar 2026 06:52:10 +0000</pubDate>
     </item>
     <item>
-      <title>How to Automate Screenshot Testing in Your CI/CD Pipeline (Without Puppeteer Headaches)</title>
-      <link>https://dev.to/opspawn/how-to-automate-screenshot-testing-in-your-cicd-pipeline-without-puppeteer-headaches-1m06</link>
-      <description>Puppeteer was supposed to make browser automation easy. And for local dev, it often is. But the moment you push it to CI/CD, things get messy fast. Here's what a typical Puppeteer setup looks like in a GitHub Actions workflow: - name: Install Chrome dependencies run: | sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2 - name: Run screenshot tests run: node screenshot-tests.js env: PUPP</description>
-      <guid isPermaLink="false">https://dev.to/opspawn/how-to-automate-screenshot-testing-in-your-cicd-pipeline-without-puppeteer-headaches-1m06</guid>
-      <pubDate>Sun, 08 Mar 2026 06:17:48 +0000</pubDate>
+      <title>Passbolt vs Padloc: Which Password Manager?</title>
+      <link>https://dev.to/selfhostingsh/passbolt-vs-padloc-which-password-manager-2afn</link>
+      <description>Quick Verdict Passbolt is the better choice for teams that need auditable, enterprise-grade password sharing with OpenPGP encryption. Padloc is better if you want a clean, modern UI for personal or small-team use and don't need advanced permission controls. For most self-hosters, though, Vaultwarden beats both. Overview Passbolt is a team-focused password manager built on OpenPGP end-to-end encryption. It emphasizes granular sharing permissions, audit logs, and compliance features. The Community</description>
+      <guid isPermaLink="false">https://dev.to/selfhostingsh/passbolt-vs-padloc-which-password-manager-2afn</guid>
+      <pubDate>Mon, 09 Mar 2026 06:54:57 +0000</pubDate>
     </item>
     <item>
-      <title>Building Viva: A Real-Time AI Interview Coach with Gemini Live API</title>
-      <link>https://dev.to/diven_rastdus_c5af27d68f3/building-viva-a-real-time-ai-interview-coach-with-gemini-live-api-2dgf</link>
-      <description>TL;DR: I built Viva, a real-time AI interview coach that listens to your answers via bidirectional audio streaming and watches your body language through your webcam — all powered by Google's Gemini Live API and Vision API, deployed on Cloud Run. The Problem Job seekers practice interviews alone with zero feedback. You can record yourself on your phone and watch it back, but that doesn't tell you about your filler words, pacing, eye contact, or posture in real-time. Human coaches cost $100-300 p</description>
-      <guid isPermaLink="false">https://dev.to/diven_rastdus_c5af27d68f3/building-viva-a-real-time-ai-interview-coach-with-gemini-live-api-2dgf</guid>
-      <pubDate>Sun, 08 Mar 2026 06:18:30 +0000</pubDate>
+      <title>Monitoring Self-Hosted LLM with Prometheus and Grafana</title>
+      <link>https://dev.to/akshaygore/monitoring-self-hosted-llm-with-prometheus-and-grafana-28dn</link>
+      <description>Audience: Intermediate DevOps | Series: Part 2 of 4 Quick Recap from Part 1 Set up Ubuntu Server VM (phi) on VirtualBox Installed and configured Ollama as a systemd service Automated entire setup with Ansible (llm-ansible repo) Interacted with phi3:mini via CLI, curl Link to Part 1 Why custom monitoring setup Ollama does not have a native Prometheus exporter (a /metrics endpoint) primarily because it is designed as a lightweight, user-friendly tool for running local LLMs, focusing on simplicity</description>
+      <guid isPermaLink="false">https://dev.to/akshaygore/monitoring-self-hosted-llm-with-prometheus-and-grafana-28dn</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa2dqlurlu6bto7g66te7.png" length="0" type="image/png"/>
+      <pubDate>Mon, 09 Mar 2026 06:56:48 +0000</pubDate>
     </item>
     <item>
-      <title>Building Reelcraft: AI-Powered Blog-to-Video Storyboards with Gemini Interleaved Output</title>
-      <link>https://dev.to/diven_rastdus_c5af27d68f3/building-reelcraft-ai-powered-blog-to-video-storyboards-with-gemini-interleaved-output-19lf</link>
-      <description>TL;DR: I built Reelcraft, a tool that transforms any blog post into a cinematic video storyboard with AI-generated scene illustrations — all in a single Gemini API call using interleaved text+image output, deployed on Cloud Run. The Problem Content marketers repurpose 3-5 blog posts into social videos every week. Each takes 4+ hours: write a script, hunt stock photos, design in Canva, time everything. That's 15-20 hours per week on a task that should take minutes. What Reelcraft Does Paste any a</description>
-      <guid isPermaLink="false">https://dev.to/diven_rastdus_c5af27d68f3/building-reelcraft-ai-powered-blog-to-video-storyboards-with-gemini-interleaved-output-19lf</guid>
-      <pubDate>Sun, 08 Mar 2026 06:19:27 +0000</pubDate>
+      <title>HTMX for building a SQLite query dashboard</title>
+      <link>https://dev.to/hungle00/htmx-for-building-a-sqlite-query-dashboard-32ck</link>
+      <description>I recently built Sqlite Opus, a small web-based SQLite browser that plugs into Flask. The UI is a single-page dashboard where you can click around to explore the current database. At first, I used fetch calls with Flask partials, but later switched to HTMX to reduce JavaScript while keeping the same interactive feel. What is HTMX? A tiny JS lib: you put attributes like hx-get, hx-post, hx-target on your HTML, and it does the AJAX + DOM swap for you. Server returns HTML chunks; no fetch() + JSON</description>
+      <guid isPermaLink="false">https://dev.to/hungle00/htmx-for-building-a-sqlite-query-dashboard-32ck</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F32dazyy99o6joeg6skdn.gif" length="0" type="image/gif"/>
+      <pubDate>Mon, 09 Mar 2026 06:57:41 +0000</pubDate>
     </item>
     <item>
-      <title>brtc (Brute-force Cost): A CLI Tool to Convert Password Strength into "Time to Crack and a Real USD Invoice"</title>
-      <link>https://dev.to/kanywst/brtc-a-cli-tool-to-convert-password-strength-into-time-to-crack-and-a-real-usd-invoice-24k9</link>
-      <description>Introduction If you're an engineer, you've likely debated "Is this password strong enough?" when designing a password policy. The metric most commonly used in these discussions is entropy (information density). For example, "It's an 8-character alphanumeric password, so the entropy is about 41 bits..." However, even when presented with this number, it's hard for non-engineers (or even engineers unfamiliar with infrastructure) to feel a visceral sense of danger. That's why I created brtc (Brute-f</description>
-      <guid isPermaLink="false">https://dev.to/kanywst/brtc-a-cli-tool-to-convert-password-strength-into-time-to-crack-and-a-real-usd-invoice-24k9</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fraw.githubusercontent.com%2Fkanywst%2Fbrtc%2Frefs%2Fheads%2Fmain%2Fassets%2Fdemo.gif" length="0" type="image/gif"/>
-      <pubDate>Sun, 08 Mar 2026 06:20:50 +0000</pubDate>
+      <title>GPT 5.4 Thinks Like a Person Under Pressure: What Autonomous Agent Logs Reveal About Model Cognition</title>
+      <link>https://dev.to/rsdouglas/gpt-54-thinks-like-a-person-under-pressure-what-autonomous-agent-logs-reveal-about-model-cognition-1dm6</link>
+      <description>I run autonomous AI agents that do real engineering work. The way GPT 5.4 thinks is very strange. These agents run on OpenSeed, a platform I'm building for orchestrating AI "creatures". Some of them collaborate on a real SaaS product. Each creature has a role (dev, ops, marketing, CEO) and they work autonomously, thinking out loud as they go. Their internal thoughts get logged, which means I can see exactly how they reason through problems. After swapping two agents from Claude Sonnet to GPT 5.4</description>
+      <guid isPermaLink="false">https://dev.to/rsdouglas/gpt-54-thinks-like-a-person-under-pressure-what-autonomous-agent-logs-reveal-about-model-cognition-1dm6</guid>
+      <pubDate>Mon, 09 Mar 2026 06:59:08 +0000</pubDate>
     </item>
     <item>
-      <title>I Built a Telegram Bot That Writes Cover Letters for $0.14</title>
-      <link>https://dev.to/alex_avatrixstudio/i-built-a-telegram-bot-that-writes-cover-letters-for-014-24mg</link>
-      <description>Job applications are tedious. You find a great role, then spend 30 minutes writing a cover letter that probably won't get read. I built a Telegram bot that does it in 10 seconds for $0.14. Here's exactly how it works and how you can build something similar. The User Flow User opens @avatrix_ai_bot on Telegram Types /cover and pastes a job description Bot asks for their resume highlights User pays with Telegram Stars (roughly $0.14) Bot generates a tailored cover letter in 10 seconds User copies</description>
-      <guid isPermaLink="false">https://dev.to/alex_avatrixstudio/i-built-a-telegram-bot-that-writes-cover-letters-for-014-24mg</guid>
-      <pubDate>Sun, 08 Mar 2026 06:35:20 +0000</pubDate>
+      <title>Expense Tracker: Learning CI/CD</title>
+      <link>https://dev.to/davidgrath/expense-tracker-learning-cicd-2ah1</link>
+      <description>(Originally published on Medium) Introduction At some point, I had no idea what CI and CD were about, so I decided to learn about them. I got to learn enough to be able to do a simple Build-Test-Deploy cycle, so now I know enough to define them in my own words: Continuous Integration: JUnit tests are run on every commit to the dev branch Continuous Delivery: the JAR is also built and sent straight to the test server when the tests pass, with potential smoke tests such as a “User can log in” test</description>
+      <guid isPermaLink="false">https://dev.to/davidgrath/expense-tracker-learning-cicd-2ah1</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4h1j899n9a4isjnepw9x.png" length="0" type="image/png"/>
+      <pubDate>Mon, 09 Mar 2026 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>New Angular Dashboard Template: Overview</title>
-      <link>https://dev.to/ngmaterialdev/new-angular-dashboard-template-overview-4e60</link>
-      <description>Hi there, I’m excited to announce a new template in Angular Material Blocks 🎉 ✨ Introducing: Overview Overview is a modern dashboard template designed for building data-driven applications with rich visualizations and interactive analytics. It includes multiple ready-to-use dashboard pages such as: KPI Overview – track support metrics, SLA performance, and call volume trends Retention Analysis – cohort retention tables and user engagement insights Workflow Scenario Analysis – simulate operationa</description>
-      <guid isPermaLink="false">https://dev.to/ngmaterialdev/new-angular-dashboard-template-overview-4e60</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8vqzltyxw411the96wgc.png" length="0" type="image/png"/>
-      <pubDate>Sun, 08 Mar 2026 06:36:19 +0000</pubDate>
+      <title>GCP Defaults Every VM to Premium Network and You're Paying 40% More for Egress You Don't Need 🌐</title>
+      <link>https://dev.to/suhas_mallesh/gcp-defaults-every-vm-to-premium-network-and-youre-paying-40-more-for-egress-you-dont-need-5bhm</link>
+      <description>GCP has two network tiers: Premium ($0.12/GB) and Standard ($0.085/GB). Premium routes traffic over Google's private backbone. Standard uses the public internet. The catch? Premium is the default for every resource you create. Your dev VMs, staging APIs, internal tools - all paying premium egress rates for traffic that doesn't need Google's backbone. Switch non-critical workloads to Standard Tier and save 30-45% on egress instantly. Most teams don't even know GCP has network tiers. They create r</description>
+      <guid isPermaLink="false">https://dev.to/suhas_mallesh/gcp-defaults-every-vm-to-premium-network-and-youre-paying-40-more-for-egress-you-dont-need-5bhm</guid>
+      <pubDate>Mon, 09 Mar 2026 07:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
