@@ -8,31 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 07:11:38 +0000</lastBuildDate>
-    <item>
-      <title>The case for running AI agents on Markdown files instead of MCP servers</title>
-      <link>https://thenewstack.io/skills-vs-mcp-agent-architecture/</link>
-      <description>A venture capitalist is running his entire company on twelve Markdown files. No web application. No workflow engine. No orchestration The post The case for running AI agents on Markdown files instead of MCP servers appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/skills-vs-mcp-agent-architecture/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/03/51fa68d9-al-nik-ctfzpmylndg-unsplash-1024x724.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 16:40:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Long-term support for Linux releases gets a new lease on life</title>
-      <link>https://thenewstack.io/long-term-support-for-linux-releases-gets-a-new-lease-on-life/</link>
-      <description>If you want to keep your Linux instances safe and secure, your best course is to use Long Term Support The post Long-term support for Linux releases gets a new lease on life appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/long-term-support-for-linux-releases-gets-a-new-lease-on-life/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/03/4a4c16fa-erone-stuff-csk7sqyfr-8-unsplash-1024x682.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 17:30:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nearly half of all companies now use Rust in production, survey finds</title>
-      <link>https://thenewstack.io/rust-enterprise-developers/</link>
-      <description>A decade into tracking the Rust programming language, the 2025 State of Rust Survey, released this week, paints a picture The post Nearly half of all companies now use Rust in production, survey finds appeared first on The New Stack.</description>
-      <guid isPermaLink="false">https://thenewstack.io/rust-enterprise-developers/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/03/bd4965b1-ghariza-mahavira-rl9kj44w2hg-unsplash-1-1024x768.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 18:45:58 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 09 Mar 2026 07:28:36 +0000</lastBuildDate>
     <item>
       <title>IT-Tools brings many useful developer tools into one convenient location</title>
       <link>https://thenewstack.io/it-tools-brings-many-useful-developer-tools-into-one-convenient-location/</link>
@@ -74,9 +50,9 @@
       <pubDate>Sat, 07 Mar 2026 14:00:35 +0000</pubDate>
     </item>
     <item>
-      <title>Is AI Killing Open Source Software?</title>
+      <title>Is AI killing open-source software?</title>
       <link>https://thenewstack.io/is-ai-killing-open-source-software/</link>
-      <description>“It’s complicated” can be used to describe relationships and how AI works — or doesn’t — with open source development. The post Is AI Killing Open Source Software? appeared first on The New Stack.</description>
+      <description>“It’s complicated” can be used to describe relationships and how AI works — or doesn’t — with open source development. The post Is AI killing open-source software? appeared first on The New Stack.</description>
       <guid isPermaLink="false">https://thenewstack.io/is-ai-killing-open-source-software/</guid>
       <enclosure url="https://cdn.thenewstack.io/media/2026/03/662daea0-ruliff-andrean-4c9wyue2wg4-unsplash-1024x853.jpg" length="0" type="image/jpeg"/>
       <pubDate>Sat, 07 Mar 2026 17:00:21 +0000</pubDate>
@@ -88,6 +64,30 @@
       <guid isPermaLink="false">https://thenewstack.io/nanoclaw-containerized-ai-agents/</guid>
       <enclosure url="https://cdn.thenewstack.io/media/2026/03/43c86824-yovita-frederica-widjaja-g9mdk37tbwm-unsplash-1024x724.jpg" length="0" type="image/jpeg"/>
       <pubDate>Sat, 07 Mar 2026 18:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Snowflake Cortex Code CLI adds dbt and Apache Airflow support for AI-powered data pipelines</title>
+      <link>https://thenewstack.io/snowflake-cortex-code-dbt-airflow/</link>
+      <description>Snowflake Cortex Code CLI, Snowflake’s coding agent that was announced at the end of February, recently added support for dbt The post Snowflake Cortex Code CLI adds dbt and Apache Airflow support for AI-powered data pipelines appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/snowflake-cortex-code-dbt-airflow/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/6845e5fc-m-faisal-sbcij29m3iq-unsplash-1024x768.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 08 Mar 2026 13:00:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why is your Kubernetes cluster adding nodes when the dashboards look fine?</title>
+      <link>https://thenewstack.io/why-is-your-kubernetes-cluster-adding-nodes-when-the-dashboards-look-fine/</link>
+      <description>Kubernetes has always been sensitive to bad inputs. What’s changed is how often teams are running into it. As more bursty workloads—especially inference—land on Kubernetes, a familiar The post Why is your Kubernetes cluster adding nodes when the dashboards look fine? appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/why-is-your-kubernetes-cluster-adding-nodes-when-the-dashboards-look-fine/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/30b71463-papermax-studio-guhkq_hwju0-unsplash-1-1024x745.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 08 Mar 2026 15:10:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vibe code full-stack apps fast with TanStack Start</title>
+      <link>https://thenewstack.io/tanstack-start-vibe-coding/</link>
+      <description>It’s no secret that it’s gotten significantly easier to build applications in the last few years. And vibe coding is The post Vibe code full-stack apps fast with TanStack Start appeared first on The New Stack.</description>
+      <guid isPermaLink="false">https://thenewstack.io/tanstack-start-vibe-coding/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/e7076b36-tsd-studio-truqjy00lfy-unsplash-1024x808.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 08 Mar 2026 17:00:56 +0000</pubDate>
     </item>
   </channel>
 </rss>

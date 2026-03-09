@@ -8,42 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2026 07:11:37 +0000</lastBuildDate>
-    <item>
-      <title>Getting Started</title>
-      <link>https://ixdf.org/literature/article/getting-started-1</link>
-      <description>We start our introduction to A/B and multivariate testing (MVT) by looking at their basic principles and their differences. Note that the video mentions Google Optimize, which has been withdrawn. Google Firebase can be used for mobile platforms. Third-party solutions are needed for A/B testing on the web. These solutions can be integrated with Google Analytics 4. See the references section for more details.[[video:910]]References &amp;amp; Where to Learn MoreIntroducing Firebase A/B Testing (for mobile)</description>
-      <guid isPermaLink="false">https://ixdf.org/literature/article/getting-started-1</guid>
-      <pubDate>Sun, 15 Feb 2026 20:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to Write Research Questions that Lead to Confident Design</title>
-      <link>https://ixdf.org/literature/article/what-to-test</link>
-      <description>Designing with Data provides an extensive background to A/B testing.As with all other research methods, we need to start with a research question. A/B testing concerns itself with changes in user behavior, meaning that our questions need to be centered on measurable goals. In many cases, these will be conversions already defined as goals in our web or app analytics. In the video William Hudson discusses good and bad examples of research questions as well as introducing a few advanced topics:[[vi</description>
-      <guid isPermaLink="false">https://ixdf.org/literature/article/what-to-test</guid>
-      <pubDate>Sun, 15 Feb 2026 20:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Top Service Blueprint Templates</title>
-      <link>https://ixdf.org/literature/article/service-blueprint-template</link>
-      <description>Service blueprint tools are vital for effective customer experience design—and for designers to make experiences that are exceptional. Here, we’ll discuss why these tools are so important. What’s more, we’ll explore templates and practical resources to create high-quality, efficient service blueprints.Have you ever wondered how to make every customer interaction with your business an exceptional one?Think of a customer's journey with a service. It’s something that starts with the first contact a</description>
-      <guid isPermaLink="false">https://ixdf.org/literature/article/service-blueprint-template</guid>
-      <pubDate>Fri, 20 Feb 2026 07:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stop the Generic Portfolio Trap! Design a Stand-Out Portfolio for Your UX/UI Niche: User Research</title>
-      <link>https://ixdf.org/literature/article/design-a-stand-out-user-research-portfolio</link>
-      <description>User research is indispensable—and without it, well... UX design is guesswork. When you’re a user researcher, you know this well—but it can be hard to communicate your work in a way that grabs the viewer and holds their attention. And that’s what a portfolio is all about—grabbing the attention of your desired audience, be it a potential freelance client or a hiring manager. So, keep on reading for the best way to make your user research portfolio to communicate your value—and land your dream rol</description>
-      <guid isPermaLink="false">https://ixdf.org/literature/article/design-a-stand-out-user-research-portfolio</guid>
-      <pubDate>Tue, 24 Feb 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to Resolve Conflicts Between Design Thinking and Marketing</title>
-      <link>https://ixdf.org/literature/article/how-to-resolve-conflicts-between-design-thinking-marketing</link>
-      <description>In the past, designers often reported to marketing managers and were neither expected nor allowed to make business decisions. When traditionally-structured companies transition to a design-driven mindset, there can be friction between the marketing and design teams. Let’s take a closer look at this conflict and what you can do to resolve it.In the 1970s, Nestlé was among the many multinational companies that were keen to woo Japanese customers. And while other international brands saw growth in</description>
-      <guid isPermaLink="false">https://ixdf.org/literature/article/how-to-resolve-conflicts-between-design-thinking-marketing</guid>
-      <pubDate>Wed, 25 Feb 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 09 Mar 2026 07:28:35 +0000</lastBuildDate>
     <item>
       <title>How to Fit Quantitative Research into the Project Lifecycle</title>
       <link>https://ixdf.org/literature/article/how-to-fit-quantitative-research-into-the-project-lifecycle</link>
@@ -78,6 +43,41 @@
       <description>The categorical data depicts the success and failure rate of the low-fidelity wireframe above. There is not a large enough difference between the two to determine if the designs were successful.There is an element of error involved in measuring anything. So, when we want to compare measurements, how do we decide whether any difference is due to the things being measured or due to error? In this video you will be introduced to the term “statistical significance” and why it’s important to know whe</description>
       <guid isPermaLink="false">https://ixdf.org/literature/article/why-care-about-statistical-significance-1</guid>
       <pubDate>Thu, 26 Feb 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TAPT: Teasing Apart, Piecing Together</title>
+      <link>https://ixdf.org/literature/article/tapt-teasing-apart-piecing-together</link>
+      <description>[[video:96]]Many experiences share the same core elements but differ in context. Photo sharing on Facebook has similar experience elements to sharing physical photos, but the actions involved and the context of the two experiences differ vastly. In creative processes, it’s valuable to analyze related experiences to the one you want to create so you can explore which core experience elements you would like to recreate in your specific context. Silas Hooper invented the “Teasing Apart, Piecing Tog</description>
+      <guid isPermaLink="false">https://ixdf.org/literature/article/tapt-teasing-apart-piecing-together</guid>
+      <pubDate>Tue, 03 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mobile Breadcrumbs: 8 Best Practices in UX</title>
+      <link>https://ixdf.org/literature/article/mobile-breadcrumbs</link>
+      <description>Breadcrumbs act as navigation aids—ones that simplify user journeys on websites. They highlight the path taken within a site to boost user experience, especially on mobile devices with limited screen space. Explore more about mobile breadcrumbs and understand the common design mistakes and best practices in UX. Learn how to craft effective, user-friendly breadcrumb trails for mobile interfaces. Refine mobile breadcrumb design to make websites more accessible and navigable.Consider a scenario whe</description>
+      <guid isPermaLink="false">https://ixdf.org/literature/article/mobile-breadcrumbs</guid>
+      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stop the Generic Portfolio Trap! Design a Stand-Out Portfolio for Your UX/UI Niche: UX Writing</title>
+      <link>https://ixdf.org/literature/article/stop-the-generic-portfolio-trap-design-a-stand-out-portfolio-for-your-ux-ui-niche-ux-writing</link>
+      <description>A picture may be worth a thousand words, but in UX design the right words are priceless. UX writing guides users, simplifies complex concepts, encourages desired actions, and creates a sense of delight. But how do you demonstrate you can do all of these things? How do you get noticed by hiring managers and potential clients? Let’s explore how to translate your UX writing powers into a stand-out portfolio.In this video, Design Director at Societe Generale CIB, Morgane Peng explains what a UX desi</description>
+      <guid isPermaLink="false">https://ixdf.org/literature/article/stop-the-generic-portfolio-trap-design-a-stand-out-portfolio-for-your-ux-ui-niche-ux-writing</guid>
+      <pubDate>Fri, 06 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UX Storyboards: Ultimate Guide</title>
+      <link>https://ixdf.org/literature/article/ux-storyboards</link>
+      <description>In user experience design, we use techniques like workshops and interviews to understand users. We turn our research into user stories and process flows. We use personas and wireframes to share our ideas with our teams.But it’s important to remember the real people we design for. We need to know what happens in their lives. We must see how our product can improve their lives. And that’s where a UX storyboard can help us.What is a UX Storyboard?A UX storyboard is a visual tool—one that illustrate</description>
+      <guid isPermaLink="false">https://ixdf.org/literature/article/ux-storyboards</guid>
+      <pubDate>Sun, 08 Mar 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>8 Talks by Women to Inspire UX Designers</title>
+      <link>https://ixdf.org/literature/article/8-talks-by-women-to-inspire-ux-designers</link>
+      <description>User Experience design, like so many other disciplines, has a lower representation of women as compared to men. Things are changing now, though. Slowly, but surely. From strategy to tactics and from ideas to actionable tips, here is a curated playlist of talks by, and stories of just some of the most influential voices in business, technology and design.“How often do you use a voice assistant like Siri, Alexa or even Cortana?” asks Kriti Sharma in her talk, How to keep human bias out of AI. Each</description>
+      <guid isPermaLink="false">https://ixdf.org/literature/article/8-talks-by-women-to-inspire-ux-designers</guid>
+      <pubDate>Sun, 08 Mar 2026 09:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
