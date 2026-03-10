@@ -49,6 +49,10 @@ jobs:
           from rss_generator import RSSFeedGenerator
           from config import Config
 
+          # Explicit paths relative to repo root (CWD in GitHub Actions)
+          PROSPECTS_CSV = 'prospects/prospects.csv'
+          TRACKING_CSV = 'prospects/tracking.csv'
+
           print("🚀 Starting RSS Feed Update")
           print("=" * 80)
 
@@ -57,7 +61,7 @@ jobs:
           NUM_WORKERS = 20
 
           all_prospects = []
-          with open(Config.PROSPECTS_CSV, 'r', encoding='utf-8') as f:
+          with open(PROSPECTS_CSV, 'r', encoding='utf-8') as f:
               reader = csv.DictReader(f)
               for row in reader:
                   if row.get('rss_feed', '').strip():
@@ -168,14 +172,14 @@ jobs:
           overall_elapsed = time.time() - overall_start
           print(f"\n✅ Done: {overall_successful} succeeded, {overall_failed} failed in {overall_elapsed/60:.1f}m")
 
-          with open(Config.TRACKING_CSV, 'w', encoding='utf-8', newline='') as f:
+          with open(TRACKING_CSV, 'w', encoding='utf-8', newline='') as f:
               fieldnames = ['prospect_id', 'company_name', 'domain', 'last_scrape_date',
                             'status', 'articles_found', 'rss_url', 'error_message', 'data_source']
               writer = csv.DictWriter(f, fieldnames=fieldnames)
               writer.writeheader()
               writer.writerows(all_tracking_data)
 
-          print(f"✅ Updated prospects/tracking.csv with {len(all_tracking_data)} entries")
+          print(f"✅ Updated {TRACKING_CSV} with {len(all_tracking_data)} entries")
           EOF
 
       - name: Commit tracking data to main
@@ -223,7 +227,7 @@ jobs:
 
           tracking_data = []
           try:
-              with open(Config.TRACKING_CSV, 'r', encoding='utf-8') as f:
+              with open('prospects/tracking.csv', 'r', encoding='utf-8') as f:
                   tracking_data = list(csv.DictReader(f))
           except FileNotFoundError:
               pass
