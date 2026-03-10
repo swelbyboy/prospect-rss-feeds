@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Digital Nirvana - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/digital-nirvana.xml</link>
+    <description>Latest articles from Digital Nirvana (digital-nirvana.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/digital-nirvana.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Mar 2026 07:19:57 +0000</lastBuildDate>
+    <item>
+      <title>DAM–MAM–PAM Sync For Broadcasters: How To Prevent Duplicate Metadata, Broken Proxies, And Search Drift</title>
+      <link>https://digital-nirvana.com/meta-data/dam-mam-pam-sync-stop-search-drift/</link>
+      <description>Your team needs one clip. Search should take seconds. Instead, you get multiple versions with slightly different titles, missing previews, and conflicting dates. Someone downloads three files, opens two broken proxies, then messages a coworker, “Which one is the real one?” That daily friction is not just annoying. It is operational drag that compounds. The … DAM–MAM–PAM Sync For Broadcasters: How To Prevent Duplicate Metadata, Broken Proxies, And Search Drift Read More » The post DAM–MAM–PAM Syn</description>
+      <guid isPermaLink="false">https://digital-nirvana.com/meta-data/dam-mam-pam-sync-stop-search-drift/</guid>
+      <enclosure url="https://digital-nirvana.com/wp-content/uploads/2026/02/Group-1597883032-1024x683.webp" length="0" type="image/webp"/>
+      <pubDate>Fri, 06 Feb 2026 08:01:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Media Asset Management Migration Plan: On-Prem To Hybrid Cloud Without Losing Timecode Search</title>
+      <link>https://digital-nirvana.com/blog/media-asset-management-hybrid-cloud-migration-timecode/</link>
+      <description>Most MAM migrations do not fail because files do not move. They fail because teams lose speed after the move. The first place you feel it is search. Editors cannot jump to the exact moment they need, producers stop trusting results, and timecode-based discovery quietly disappears. If your media asset management environment relies on time-based … Media Asset Management Migration Plan: On-Prem To Hybrid Cloud Without Losing Timecode Search Read More » The post Media Asset Management Migration Plan</description>
+      <guid isPermaLink="false">https://digital-nirvana.com/blog/media-asset-management-hybrid-cloud-migration-timecode/</guid>
+      <enclosure url="https://digital-nirvana.com/wp-content/uploads/2026/02/356933091-1024x580.webp" length="0" type="image/webp"/>
+      <pubDate>Mon, 09 Feb 2026 05:31:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Metadata Tagging Taxonomy Design: Controlled Vocabulary + Entities For News &amp;amp; Sports Libraries</title>
+      <link>https://digital-nirvana.com/blog/metadata-tagging-taxonomy-news-sports/</link>
+      <description>If you have ever searched for a player name and got 20 near-misses, or searched a breaking story and missed the one clip you needed, the problem usually is not the search bar. It is the metadata tagging underneath it. News and sports libraries move fast. Names change, teams rebrand, tournaments shift, and newsroom language … Metadata Tagging Taxonomy Design: Controlled Vocabulary + Entities For News &amp;amp; Sports Libraries Read More » The post Metadata Tagging Taxonomy Design: Controlled Vocabulary +</description>
+      <guid isPermaLink="false">https://digital-nirvana.com/blog/metadata-tagging-taxonomy-news-sports/</guid>
+      <enclosure url="https://digital-nirvana.com/wp-content/uploads/2026/02/356933092-scaled.webp" length="0" type="image/webp"/>
+      <pubDate>Thu, 12 Feb 2026 05:59:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>How To Run A Metadata Tagging Tools Accuracy Bake Off: Gold Sets, Scoring, And False Positives</title>
+      <link>https://digital-nirvana.com/blog/metadata-tagging-tools-accuracy-bake-off/</link>
+      <description>If two metadata tagging tools both claim “high accuracy,” you still do not know which one will save editors time, reduce missed moments, and keep search trustworthy. What matters in real workflows is whether results are correct, usable, and consistent. A tool that occasionally tags the wrong person, suggests irrelevant topics, or drops timestamps will … How To Run A Metadata Tagging Tools Accuracy Bake Off: Gold Sets, Scoring, And False Positives Read More » The post How To Run A Metadata Taggin</description>
+      <guid isPermaLink="false">https://digital-nirvana.com/blog/metadata-tagging-tools-accuracy-bake-off/</guid>
+      <enclosure url="https://digital-nirvana.com/wp-content/uploads/2026/02/u3zcxjwxzmfktgqedqya-1024x580.webp" length="0" type="image/webp"/>
+      <pubDate>Fri, 13 Feb 2026 07:01:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>NAB Show 2026: Where Media, Entertainment, and Storytelling Converge</title>
+      <link>https://digital-nirvana.com/event/nab-show-2026-storytelling-at-scale/</link>
+      <description>April 19–22, 2026 | Las Vegas, NV NAB Show brings the broadcast, media, and entertainment community together to explore the technologies and workflows shaping how content is produced, distributed, and monetized. It is a practical event for teams looking to improve speed, accuracy, and scale across live production, post, content operations, and infrastructure. Digital Nirvana … NAB Show 2026: Where Media, Entertainment, and Storytelling Converge Read More » The post NAB Show 2026: Where Media, En</description>
+      <guid isPermaLink="false">https://digital-nirvana.com/event/nab-show-2026-storytelling-at-scale/</guid>
+      <pubDate>Fri, 13 Feb 2026 10:30:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Metadata Automation Governance: Confidence Thresholds, Human Review Queues, And Audit Trails</title>
+      <link>https://digital-nirvana.com/blog/metadata-automation-governance-human-review/</link>
+      <description>Metadata automation can make a media library feel instantly smarter, until one wrong tag sends a producer to the wrong clip, a brand gets flagged incorrectly, or search results stop feeling reliable. That is why governance matters. When you treat AI-generated metadata like a controlled system, with thresholds, review queues, and audit trails, you get … Metadata Automation Governance: Confidence Thresholds, Human Review Queues, And Audit Trails Read More » The post Metadata Automation Governance:</description>
+      <guid isPermaLink="false">https://digital-nirvana.com/blog/metadata-automation-governance-human-review/</guid>
+      <enclosure url="https://digital-nirvana.com/wp-content/uploads/2026/02/Group-1597883076-1024x683.webp" length="0" type="image/webp"/>
+      <pubDate>Mon, 16 Feb 2026 13:55:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Broadcast Monitoring For OTT/FAST And IP Streams: What Changes Versus Linear (Alerts, QoE, Recording)</title>
+      <link>https://digital-nirvana.com/blog/broadcast-monitoring-ott-fast-ip-streams/</link>
+      <description>In linear, a “clean signal” is the goal. In OTT and FAST, a “clean experience” is the goal. In IP, the goal is a “clean packet and timing plane.” If you monitor all three the same way, you will miss the problems viewers actually feel, and you will get alerts that do not help your … Broadcast Monitoring For OTT/FAST And IP Streams: What Changes Versus Linear (Alerts, QoE, Recording) Read More » The post Broadcast Monitoring For OTT/FAST And IP Streams: What Changes Versus Linear (Alerts, QoE, Rec</description>
+      <guid isPermaLink="false">https://digital-nirvana.com/blog/broadcast-monitoring-ott-fast-ip-streams/</guid>
+      <enclosure url="https://digital-nirvana.com/wp-content/uploads/2026/02/Group-1597883063.webp" length="0" type="image/webp"/>
+      <pubDate>Wed, 18 Feb 2026 05:19:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Broadcast Media Monitoring Tools Architecture: On-Prem vs Cloud vs Hybrid for Distributed Master Control</title>
+      <link>https://digital-nirvana.com/blog/broadcast-monitoring-tools-onprem-cloud-hybrid/</link>
+      <description>Distributed master control sounds modern until something breaks at 2 a.m. across three time zones. Then the real question shows up fast: can your monitoring stack tell you what happened, where it happened, and give you proof without a scramble? Broadcast media monitoring tools are no longer only about watching a clean linear output. Master … Broadcast Media Monitoring Tools Architecture: On-Prem vs Cloud vs Hybrid for Distributed Master Control Read More » The post Broadcast Media Monitoring Too</description>
+      <guid isPermaLink="false">https://digital-nirvana.com/blog/broadcast-monitoring-tools-onprem-cloud-hybrid/</guid>
+      <enclosure url="https://digital-nirvana.com/wp-content/uploads/2026/02/Group-1597883065.webp" length="0" type="image/webp"/>
+      <pubDate>Fri, 20 Feb 2026 06:32:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Dubbing Workflow For Broadcasters: Script, Translation, Voice, QC, Distribution (FAST/OTT-Ready)</title>
+      <link>https://digital-nirvana.com/blog/ai-dubbing-workflow-broadcasters-fast-ott/</link>
+      <description>You can localize a show into five languages in either days or weeks. The difference is not just AI. It is the workflow around it. Broadcasters moving into FAST and OTT have a clear mandate: ship more localized content, faster, without lowering quality or creating delivery rejections. AI dubbing helps, but only when it is … AI Dubbing Workflow For Broadcasters: Script, Translation, Voice, QC, Distribution (FAST/OTT-Ready) Read More » The post AI Dubbing Workflow For Broadcasters: Script, Translat</description>
+      <guid isPermaLink="false">https://digital-nirvana.com/blog/ai-dubbing-workflow-broadcasters-fast-ott/</guid>
+      <enclosure url="https://digital-nirvana.com/wp-content/uploads/2026/02/Group-1597883067-1024x683.webp" length="0" type="image/webp"/>
+      <pubDate>Fri, 20 Feb 2026 16:19:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Media Indexing For Rights And Clearance: Building Timecoded Evidence Packs For Legal And Compliance Teams</title>
+      <link>https://digital-nirvana.com/blog/media-indexing-timecoded-evidence-packs/</link>
+      <description>A takedown request lands in your inbox. A regulator asks for proof. A rights holder disputes usage. The clock starts, and suddenly everyone needs the exact moment something happened, along with the documentation explaining why it was allowed. This is where media indexing stops being a “nice to have” for search and becomes operational insurance … Media Indexing For Rights And Clearance: Building Timecoded Evidence Packs For Legal And Compliance Teams Read More » The post Media Indexing For Rights</description>
+      <guid isPermaLink="false">https://digital-nirvana.com/blog/media-indexing-timecoded-evidence-packs/</guid>
+      <enclosure url="https://digital-nirvana.com/wp-content/uploads/2026/03/Group-1597883091-1024x683.webp" length="0" type="image/webp"/>
+      <pubDate>Fri, 06 Mar 2026 13:31:34 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

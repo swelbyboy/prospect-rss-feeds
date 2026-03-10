@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>HDnetwork - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/hdnetwork.xml</link>
+    <description>Latest articles from HDnetwork (hdnetwork.it)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/hdnetwork.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Mar 2026 07:08:39 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://www.hdnetwork.it/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing! The post Hello world! appeared first on HDnetwork.</description>
+      <guid isPermaLink="false">https://www.hdnetwork.it/hello-world/</guid>
+      <pubDate>Fri, 31 May 2024 09:33:06 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

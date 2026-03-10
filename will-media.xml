@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Will Media - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/will-media.xml</link>
+    <description>Latest articles from Will Media (willmedia.it)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/will-media.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Mar 2026 07:27:59 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://willmedia.it/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing! L'articolo Hello world! proviene da Will Media.</description>
+      <guid isPermaLink="false">https://willmedia.it/hello-world/</guid>
+      <pubDate>Thu, 07 Aug 2025 18:26:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

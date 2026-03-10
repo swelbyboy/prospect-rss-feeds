@@ -1,0 +1,225 @@
+name: Process CSV Prospect Uploads
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  process-csv:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+    
+    # Only process issues with the "new-prospects-csv" label
+    if: contains(github.event.issue.labels.*.name, 'new-prospects-csv')
+    
+    steps:
+      - name: Ensure label exists
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            try {
+              await github.rest.issues.getLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: 'new-prospects-csv'
+              });
+            } catch (error) {
+              // Label doesn't exist, create it
+              await github.rest.issues.createLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: 'new-prospects-csv',
+                color: '0e8a16' // Default green color
+              });
+            }
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+
+      - name: Parse CSV from issue
+        id: parse_csv
+        run: |
+          ISSUE_BODY="${{ github.event.issue.body }}"
+          ISSUE_NUMBER="${{ github.event.issue.number }}"
+          
+          # Extract CSV content from code block
+          CSV_CONTENT=$(echo "$ISSUE_BODY" | sed -n '/```/,/```/p' | sed '1d;$d' | sed '/^$/d')
+          
+          if [ -z "$CSV_CONTENT" ]; then
+            # Try to extract without code block
+            CSV_CONTENT=$(echo "$ISSUE_BODY" | grep -A 1000 "CSV Content:" | tail -n +2 | sed '/^$/d' | head -n -1)
+          fi
+          
+          if [ -z "$CSV_CONTENT" ]; then
+            echo "error=true" >> $GITHUB_OUTPUT
+            echo "message=Could not find CSV content in issue body" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+          
+          # Save CSV to temp file
+          echo "$CSV_CONTENT" > /tmp/new_prospects.csv
+          echo "✅ Parsed CSV content"
+          
+          # Count lines (excluding header if present)
+          LINE_COUNT=$(wc -l < /tmp/new_prospects.csv | tr -d ' ')
+          echo "Found $LINE_COUNT line(s) in CSV"
+
+      - name: Process and merge CSV
+        if: steps.parse_csv.outputs.error != 'true'
+        id: process-csv
+        run: |
+          python3 << 'EOF'
+          import csv
+          import os
+          
+          # Read existing prospects.csv
+          existing_prospects = []
+          existing_ids = set()
+          
+          if os.path.exists('prospects.csv'):
+              with open('prospects.csv', 'r', encoding='utf-8') as f:
+                  reader = csv.DictReader(f)
+                  for row in reader:
+                      existing_prospects.append(row)
+                      existing_ids.add(int(row['id']))
+          
+          # Get next ID
+          next_id = max(existing_ids) + 1 if existing_ids else 1
+          
+          # Read new prospects from CSV
+          new_prospects = []
+          added_count = 0
+          skipped_count = 0
+          
+          with open('/tmp/new_prospects.csv', 'r', encoding='utf-8') as f:
+              # Try to detect header
+              first_line = f.readline().strip()
+              f.seek(0)
+              
+              # Check if first line is header
+              reader = csv.DictReader(f)
+              
+              # Normalize header names (case-insensitive, handle spaces)
+              fieldnames = reader.fieldnames
+              if fieldnames:
+                  # Normalize to lowercase and remove spaces
+                  normalized_fieldnames = {f.lower().replace(' ', '').replace('_', ''): f for f in fieldnames}
+                  
+                  # Find matching columns
+                  prospect_name_col = None
+                  domain_col = None
+                  
+                  for norm_key, orig_key in normalized_fieldnames.items():
+                      if 'prospectname' in norm_key or 'companyname' in norm_key or 'name' in norm_key:
+                          prospect_name_col = orig_key
+                      if 'domain' in norm_key or 'website' in norm_key or 'url' in norm_key:
+                          domain_col = orig_key
+                  
+                  if not prospect_name_col or not domain_col:
+                      print("❌ Error: Could not find 'Prospect Name' and 'Domain' columns")
+                      print(f"Found columns: {fieldnames}")
+                      exit(1)
+                  
+                  for row in reader:
+                      company_name = row.get(prospect_name_col, '').strip()
+                      domain = row.get(domain_col, '').strip()
+                      
+                      # Clean domain
+                      domain = domain.replace('http://', '').replace('https://', '').replace('www.', '')
+                      domain = domain.split('/')[0].split('?')[0].strip()
+                      
+                      if not company_name or not domain:
+                          skipped_count += 1
+                          continue
+                      
+                      # Check if domain already exists
+                      domain_exists = any(p.get('domain', '').lower() == domain.lower() for p in existing_prospects)
+                      if domain_exists:
+                          skipped_count += 1
+                          print(f"⚠️  Skipping duplicate domain: {domain}")
+                          continue
+                      
+                      new_prospects.append({
+                          'id': next_id,
+                          'company_name': company_name,
+                          'domain': domain
+                      })
+                      next_id += 1
+                      added_count += 1
+              
+          # Merge with existing
+          all_prospects = existing_prospects + new_prospects
+          
+          # Write back to prospects.csv
+          with open('prospects.csv', 'w', encoding='utf-8', newline='') as f:
+              writer = csv.DictWriter(f, fieldnames=['id', 'company_name', 'domain'])
+              writer.writeheader()
+              writer.writerows(all_prospects)
+          
+          print(f"✅ Added {added_count} new prospect(s)")
+          if skipped_count > 0:
+              print(f"⚠️  Skipped {skipped_count} duplicate(s)")
+          
+          # Write to GITHUB_OUTPUT
+          with open(os.environ.get('GITHUB_OUTPUT', '/dev/stdout'), 'a') as f:
+              f.write(f"added_count={added_count}\n")
+              f.write(f"skipped_count={skipped_count}\n")
+          EOF
+
+      - name: Commit and push changes
+        if: steps.parse_csv.outputs.error != 'true'
+        run: |
+          git add prospects.csv
+          git commit -m "Add prospects from CSV upload (issue #${{ github.event.issue.number }})" || echo "No changes to commit"
+          git pull --rebase origin main || echo "Nothing to rebase"
+          git push || echo "Nothing to push"
+
+      - name: Comment on issue
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issueNumber = context.payload.issue.number;
+            
+            if ('${{ steps.parse_csv.outputs.error }}' === 'true') {
+              const errorMsg = '${{ steps.parse_csv.outputs.message }}' || 'Failed to process CSV';
+              github.rest.issues.createComment({
+                issue_number: issueNumber,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `❌ **Error processing CSV:**\n\n${errorMsg}\n\nPlease check the CSV format and try again.`
+              });
+            } else {
+              const addedCount = '${{ steps.process-csv.outputs.added_count }}' || '0';
+              const skippedCount = '${{ steps.process-csv.outputs.skipped_count }}' || '0';
+              
+              let message = `✅ **Prospects added successfully!**\n\n`;
+              message += `- **Added:** ${addedCount} new prospect(s)\n`;
+              if (skippedCount !== '0') {
+                message += `- **Skipped:** ${skippedCount} duplicate(s)\n`;
+              }
+              message += `\nThese prospects will be included in the next scheduled scraping run.`;
+              
+              github.rest.issues.createComment({
+                issue_number: issueNumber,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: message
+              });
+              
+              // Close the issue
+              github.rest.issues.update({
+                issue_number: issueNumber,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'closed'
+              });
+            }
+

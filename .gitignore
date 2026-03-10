@@ -1,0 +1,65 @@
+# Environment variables and secrets
+.env
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+
+# Local git clone of GitHub Pages repo (only used for local runs)
+github-pages-repo/
+
+# Output and logs
+output/
+data/backups/
+data/old_xml_files/
+
+# Utility scripts are tracked, but keep temp files clean
+organize_project.sh
+
+# CSV backups and duplicates
+*BACKUP*.csv
+prospect_tracker.csv
+
+# Generated feeds (hosted on GitHub Pages, not needed locally)
+feeds/
+/*.xml
+
+# Source data files
+*All ICPs for Newsletter*.csv

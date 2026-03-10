@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Science Feedback - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/science-feedback.xml</link>
+    <description>Latest articles from Science Feedback (feedback.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/science-feedback.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Mar 2026 07:29:15 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://feedback.org/hello-world/</link>
+      <description>Welcome to Science Feedback Sites. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://feedback.org/hello-world/</guid>
+      <pubDate>Sun, 22 Jun 2025 18:42:33 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

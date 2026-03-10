@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Moto Heroes - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/moto-heroes.xml</link>
+    <description>Latest articles from Moto Heroes (motoheroesmag.fr)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/moto-heroes.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Mar 2026 07:29:26 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://motoheroesmag.fr/2021/02/18/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing! L’article Hello world! est apparu en premier sur motoheroesmag.fr.</description>
+      <guid isPermaLink="false">https://motoheroesmag.fr/2021/02/18/hello-world/</guid>
+      <pubDate>Thu, 18 Feb 2021 21:04:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

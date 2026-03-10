@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>West Newsmagazine - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/west-newsmagazine.xml</link>
+    <description>Latest articles from West Newsmagazine (newsmagazinenetwork.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/west-newsmagazine.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Mar 2026 07:24:49 +0000</lastBuildDate>
+    <item>
+      <title>Welcome To The Newsmagazine Network</title>
+      <link>https://newsmagazinenetwork.com/2014/12/welcome-to-newsmagazine-network/</link>
+      <description>What is the Newsmagazine Network? It’s a powerful combination of two local publications – West Newsmagazine and Mid Rivers Newsmagazine – direct-mailed to more than 133,000 households in affluent West St. Louis and St. Charles counties. Plus two websites – … Welcome To The Newsmagazine Network Read More »</description>
+      <guid isPermaLink="false">https://newsmagazinenetwork.com/2014/12/welcome-to-newsmagazine-network/</guid>
+      <enclosure url="http://newsmagazinenetwork.com/wp-content/uploads/2014/12/issues01.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 03 Dec 2014 21:06:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>test</title>
+      <link>https://newsmagazinenetwork.com/2018/05/test/</link>
+      <description>blah blah blah</description>
+      <guid isPermaLink="false">https://newsmagazinenetwork.com/2018/05/test/</guid>
+      <pubDate>Thu, 10 May 2018 16:55:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>2nd test</title>
+      <link>https://newsmagazinenetwork.com/2018/05/2nd-test/</link>
+      <description>This is filler info.This is filler info.This is filler info.This is filler info.This is filler info.This is filler info.This is filler info.This is filler info.</description>
+      <guid isPermaLink="false">https://newsmagazinenetwork.com/2018/05/2nd-test/</guid>
+      <pubDate>Thu, 10 May 2018 16:56:52 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

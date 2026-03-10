@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>BAR Publishing - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/bar-publishing.xml</link>
+    <description>Latest articles from BAR Publishing (barpublishing.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/bar-publishing.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Mar 2026 07:28:55 +0000</lastBuildDate>
+    <item>
+      <title>Test News Article</title>
+      <link>https://www.barpublishing.com/news/test-news-article/</link>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec orci metus, egestas in dui vel, mattis egestas nulla. Cras dapibus turpis lectus. Integer eu suscipit turpis. Mauris consequat ante bibendum sagittis semper. Duis cursus leo ac lorem faucibus, vel suscipit risus feugiat. Vivamus porttitor lobortis sapien, sed posuere mi euismod et. Vestibulum lobortis nunc quis […] The post Test News Article appeared first on BAR Publishing.</description>
+      <guid isPermaLink="false">https://www.barpublishing.com/news/test-news-article/</guid>
+      <pubDate>Wed, 01 May 2024 13:32:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Test Event</title>
+      <link>https://www.barpublishing.com/events/test-event/</link>
+      <description>Sed scelerisque, justo in tempor tincidunt, eros velit pretium arcu, in commodo dolor nunc vitae massa. Fusce et ligula placerat, bibendum tortor eu, malesuada dui. Phasellus sit amet pellentesque lectus. Pellentesque sit amet dictum elit. Vivamus eleifend eleifend ex, in porttitor tellus aliquet sit amet. Vestibulum nulla purus, volutpat eget dapibus et, tincidunt mattis tortor. […] The post Test Event appeared first on BAR Publishing.</description>
+      <guid isPermaLink="false">https://www.barpublishing.com/events/test-event/</guid>
+      <pubDate>Wed, 01 May 2024 13:34:50 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

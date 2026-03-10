@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>S2 Grupo - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/s2-grupo.xml</link>
+    <description>Latest articles from S2 Grupo (s2grupo.es)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/s2-grupo.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Mar 2026 07:23:10 +0000</lastBuildDate>
+    <item>
+      <title>Respuesta automatizada a incidentes: cómo optimizar la gestión de ciberamenazas</title>
+      <link>https://s2grupo.es/respuesta-automatizada-a-incidentes/</link>
+      <description>En un contexto donde los ataques se multiplican y la velocidad de reacción es clave, la respuesta automatizada a incidentes se ha convertido en un pilar esencial de la ciberdefensa moderna. A través de tecnologías como SOAR y SIEM y herramientas propias como GLORIA, las organizaciones pueden detectar, contener y mitigar amenazas en segundos, reduciendo […] La entrada Respuesta automatizada a incidentes: cómo optimizar la gestión de ciberamenazas se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/respuesta-automatizada-a-incidentes/</guid>
+      <pubDate>Fri, 06 Feb 2026 07:42:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Panorama de la ciberseguridad 2026</title>
+      <link>https://s2grupo.es/panorama-ciberseguridad-2026/</link>
+      <description>Lo que viene en 2026 no se predice, se detecta. El panorama de amenazas evoluciona más rápido que la capacidad de las organizaciones para adaptarse. La proliferación del IoT industrial, la llegada de agentes de IA capaces de actuar de forma autónoma, la fragmentación tecnológica y la presión geopolítica están redefiniendo el enfoque de la ciberseguridad para 2026. Este […] La entrada Panorama de la ciberseguridad 2026 se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/panorama-ciberseguridad-2026/</guid>
+      <pubDate>Thu, 12 Feb 2026 11:18:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en OpenSSL 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-openssl-2026/</link>
+      <description>Vulnerabilidad – 6/02 Introducción CVE-2025-15467 es una vulnerabilidad crítica que aprovecha un fallo clásico de programación en OpenSSL. Su capacidad de ser desencadenada sin autenticación y antes de cualquier verificación criptográfica la convierte en un riesgo alto para cualquier organización que procese certificados, correos cifrados u otros datos CMS. La falla es considerada de alto riesgo […] La entrada Vulnerabilidades críticas en OpenSSL 2026 se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-openssl-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 10:34:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en SmarterTools 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-smartertools-2026/</link>
+      <description>Vulnerabilidad – 9/02 Introducción CVE-2026-24423 es una vulnerabilidad crítica de ejecución remota de código (RCE) que afecta al servidor de correo electrónico SmarterMail. La falla reside en un endpoint administrativo (API REST) expuesto por defecto: /api/v1/settings/sysadmin/connect-to-hub La implementación de este endpoint permitía que cualquier cliente remoto enviara solicitudes manipuladas sin autenticación ni autorización válida. El parámetro […] La entrada Vulnerabilidades críticas en Sm</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-smartertools-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 10:38:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en Ivanti 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-ivanti-2026/</link>
+      <description>Vulnerabilidad – 10/02 Introducción CVE-2026-1281 y CVE-2026-1340 son dos vulnerabilidades críticas de ejecución remota de código (RCE) que afectan a Ivanti Endpoint Manager Mobile (EPMM). Ambas vulnerabilidades permiten a un atacante remoto ejecutar comandos arbitarios en el servidor vulnerable sin necesidad de credenciales, se explotan a través de parámetros maliciosos en solicitudes HTTP, aprovechando la falla en el […] La entrada Vulnerabilidades críticas en Ivanti 2026 se publicó primero en</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-ivanti-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 10:50:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Parches Microsoft 2026</title>
+      <link>https://s2grupo.es/parches-microsoft-2026/</link>
+      <description>Microsoft Patch Tuesday febrero 2026 Introducción Microsoft ha publicado el Patch Tuesday correspondiente al mes de febrero con 59 vulnerabilidades de interés. A continuación, se exponen las más críticas: Análisis CVE-2026-24300 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H – 9,8 CVE-2026-24300 es una vulnerabilidad de elevación de privilegios en Azure Front Door, el servicio de entrega de contenido y pasarela de aplicaciones de Microsoft Azure. […] La entrada Parches Microsoft 2026 se publicó</description>
+      <guid isPermaLink="false">https://s2grupo.es/parches-microsoft-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 10:55:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerabilidades críticas en ChatterMate 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-chattermate-2026/</link>
+      <description>Vulnerabilidad – 13/02 Introducción CVE-2026-24399 es una vulnerabilidad de inyección de contenido en el lado del cliente similar a cross-site scripting que afecta a ChatterMate, un framework para crear chatbots de IA sin código. En versiones 1.0.8 y anteriores de ChatterMate, el chatbot puede aceptar y ejecutar HTML/JavaScript malicioso cuando se envía como entrada de chat. […] La entrada Vulnerabilidades críticas en ChatterMate 2026 se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-chattermate-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 11:02:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exploits: desarrollo, aprovisionamiento y uso</title>
+      <link>https://s2grupo.es/exploits-desarrollo-aprovisionamiento-y-uso/</link>
+      <description>Introducción Los elementos tecnológicos, como el software (incluyendo firmware) o el hardware, pueden presentar fallos y errores. Cuando estos afectan a la seguridad, se les conoce comúnmente como bugs, y dan lugar a vulnerabilidades en el sistema. Una vulnerabilidad puede definirse como una cadena de debilidades unidas por causalidad, que comienza con un bug y […] La entrada Exploits: desarrollo, aprovisionamiento y uso se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/exploits-desarrollo-aprovisionamiento-y-uso/</guid>
+      <pubDate>Tue, 24 Feb 2026 16:02:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rusia: amenaza virtual, física… y mental.</title>
+      <link>https://s2grupo.es/rusia-amenaza-virtual-fisica-mental/</link>
+      <description>Imaginemos que un país quisiera causar un impacto en España a través del ciberespacio. Un país cualquiera: Rusia, por ejemplo. Esta elección, la de Rusia, es un ejercicio de imaginación que, por supuesto, nada tiene que ver con las habituales campañas de ciberataques por parte de grupos activistas pro-rusos contra intereses españoles. Tampoco con que […] La entrada Rusia: amenaza virtual, física… y mental. se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/rusia-amenaza-virtual-fisica-mental/</guid>
+      <pubDate>Tue, 24 Feb 2026 16:10:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Igualdad: el mejor algoritmo para la innovación</title>
+      <link>https://s2grupo.es/igualdad-el-mejor-algoritmo-para-la-innovacion/</link>
+      <description>Durante mucho tiempo, cuando pensábamos en tecnología o en ciberseguridad, la imagen que venía a la mente no solía ser la de una mujer. Por suerte, la realidad está cambiando. Hoy hay mujeres analizando amenazas, investigando malware, protegiendo infraestructuras críticas o liderando proyectos que contribuyen a la protección de los pilares que sostienen la sociedad. […] La entrada Igualdad: el mejor algoritmo para la innovación se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/igualdad-el-mejor-algoritmo-para-la-innovacion/</guid>
+      <pubDate>Mon, 09 Mar 2026 13:56:38 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
