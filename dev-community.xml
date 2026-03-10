@@ -8,80 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Mar 2026 07:06:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 06:55:20 +0000</lastBuildDate>
     <item>
-      <title>Vibe Coding Challenge — Day 11: Road Map Generator</title>
-      <link>https://dev.to/labdays/vibe-coding-challenge-day-11-road-map-generator-2hm5</link>
-      <description>Discover the path to your dream. Announcement Create a roadmap to becoming the person you want to be with the roadmap generator I released today. Moreover, generate the path to your goal with a single click by providing resource links and in-depth sub-branches. If you’d like to try it, the link is below 👇 roadmap.labdays.io Context I started the Vibe Coding Challenge. I plan to release a new product every day, and today is my 11th day. You can visit my website (labdays.io) to learn about the pro</description>
-      <guid isPermaLink="false">https://dev.to/labdays/vibe-coding-challenge-day-11-road-map-generator-2hm5</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3px89hw1z6zh8dw02l3p.PNG" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Mar 2026 06:48:25 +0000</pubDate>
+      <title>On-Call Burnout: What Incident Data Doesn’t Show</title>
+      <link>https://dev.to/hamza_2315/on-call-burnout-what-incident-data-doesnt-show-2kap</link>
+      <description>Incident dashboards measure system health, but they rarely reveal the workload experienced by the engineers responding to alerts. Typical On-Call On-call engineers are developers responsible for responding to and resolving critical system outages. Incidents happen, alerts fire, and on-call engineers respond. Teams rotate on-call duties so that someone is always responsible for resolving outages, performance issues, or system failures when they occur. Teams track incident metrics like incident co</description>
+      <guid isPermaLink="false">https://dev.to/hamza_2315/on-call-burnout-what-incident-data-doesnt-show-2kap</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6bvu76nly4m5pe7edcsp.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Mar 2026 06:11:55 +0000</pubDate>
     </item>
     <item>
-      <title>IAM role assumption across AWS accounts: the right way (with working Terraform)</title>
-      <link>https://dev.to/yash_step2dev/iam-role-assumption-across-aws-accounts-the-right-way-with-working-terraform-3kpe</link>
-      <description>IAM role assumption across AWS accounts: the right way Most teams still store long-lived AWS access keys in CI/CD secrets. Here's the right pattern. Why role assumption beats stored credentials Approach Risk Rotation Auditability Access key in CI secret High (never expires) Manual Poor OIDC + role assumption Low (per-job token) Automatic Full CloudTrail Architecture GitHub Actions → OIDC JWT → IAM (TOOLING account) → sts:AssumeRole → ci-deploy-role (PROD account) → Deploy OIDC provider + trust p</description>
-      <guid isPermaLink="false">https://dev.to/yash_step2dev/iam-role-assumption-across-aws-accounts-the-right-way-with-working-terraform-3kpe</guid>
-      <pubDate>Mon, 09 Mar 2026 06:50:27 +0000</pubDate>
+      <title>I built a CLI that sets up a full blockchain dev stack in one command looking for feedback</title>
+      <link>https://dev.to/utabk/i-built-a-cli-that-sets-up-a-full-blockchain-dev-stack-in-one-command-looking-for-feedback-5bha</link>
+      <description>Hey everyone, I've been working on an open-source CLI tool called Dokrypt that sets up a complete blockchain dev environment with a single command. Instead of manually configuring Anvil + Docker Compose + block explorer + IPFS + oracles separately, you just run: npm install -g dokrypt dokrypt init my-app --template evm-defi dokrypt up And you get a local chain, block explorer, IPFS, oracles, indexers all running and connected. What it does: Spins up Anvil/Hardhat/Geth with one command. Includes</description>
+      <guid isPermaLink="false">https://dev.to/utabk/i-built-a-cli-that-sets-up-a-full-blockchain-dev-stack-in-one-command-looking-for-feedback-5bha</guid>
+      <pubDate>Tue, 10 Mar 2026 06:16:39 +0000</pubDate>
     </item>
     <item>
-      <title>From a Confused Graduate to a DevOps Engineer</title>
-      <link>https://dev.to/mahinshanazeer/from-a-confused-graduate-to-a-devops-engineer-4dfh</link>
-      <description>This is a submission for the 2026 WeCoded Challenge: Echoes of Experience After graduating with a B.Tech in Electronics and Communication Engineering, I was confused about which profession to choose. There were no mentors around me, and no one I knew worked in this field. Choosing a career path was difficult. I attended several aptitude tests and managed to clear some of them, but I often struggled during interviews because of my poor communication skills. Even today, I still find it challenging</description>
-      <guid isPermaLink="false">https://dev.to/mahinshanazeer/from-a-confused-graduate-to-a-devops-engineer-4dfh</guid>
-      <pubDate>Mon, 09 Mar 2026 06:50:36 +0000</pubDate>
+      <title>6 Redis Caching Patterns That Cut Node.js API Response Time from 1.5s to 150ms</title>
+      <link>https://dev.to/jsgurujobs/6-redis-caching-patterns-that-cut-nodejs-api-response-time-from-15s-to-150ms-4944</link>
+      <description>Most Node.js apps hit the database on every request. That works until traffic grows and your API starts returning responses in seconds instead of milliseconds. These Redis caching patterns remove most database reads and turn slow endpoints into memory lookups. 1 Cache database queries instead of running them on every request Most APIs query the database even when the same data was requested seconds ago. Before (PostgreSQL on every request) export async function getJobs(filters) { const jobs = aw</description>
+      <guid isPermaLink="false">https://dev.to/jsgurujobs/6-redis-caching-patterns-that-cut-nodejs-api-response-time-from-15s-to-150ms-4944</guid>
+      <pubDate>Tue, 10 Mar 2026 06:16:40 +0000</pubDate>
     </item>
     <item>
-      <title>6 Engineering Patterns Enterprise Teams Use Instead of Blind AI Code Generation</title>
-      <link>https://dev.to/jsgurujobs/6-engineering-patterns-enterprise-teams-use-instead-of-blind-ai-code-generation-5793</link>
-      <description>javascript #typescript #ai #softwareengineering AI can generate code faster than junior developers. That part is real. But enterprise teams like IBM are discovering something else. The bottleneck in real systems is not writing code. It is understanding and maintaining it. Here are six engineering patterns large production teams use to keep code understandable, reviewable, and maintainable even when AI writes part of it. 1. Explicit Domain Types Instead of AI Generated any AI tools often produce</description>
-      <guid isPermaLink="false">https://dev.to/jsgurujobs/6-engineering-patterns-enterprise-teams-use-instead-of-blind-ai-code-generation-5793</guid>
-      <pubDate>Mon, 09 Mar 2026 06:52:10 +0000</pubDate>
+      <title>Beyond fmt: Building a Flexible Text Builder in Go with Wissance/stringFormatter</title>
+      <link>https://dev.to/evillord666/beyond-fmt-building-a-flexible-text-builder-in-go-with-wissancestringformatter-2ec3</link>
+      <description>Introduction Go is renowned for its performance and simplicity, especially in system programming and web services. Its standard fmt package is a workhorse for string formatting. However, when building complex text output—like dynamic configuration strings, detailed logs, or formatted reports—developers often find themselves writing repetitive code or wrestling with fmt.Sprintf's verb-based syntax. This article explores the Wissance/stringFormatter project, an open-source Go module that reimagine</description>
+      <guid isPermaLink="false">https://dev.to/evillord666/beyond-fmt-building-a-flexible-text-builder-in-go-with-wissancestringformatter-2ec3</guid>
+      <pubDate>Tue, 10 Mar 2026 06:18:13 +0000</pubDate>
     </item>
     <item>
-      <title>Passbolt vs Padloc: Which Password Manager?</title>
-      <link>https://dev.to/selfhostingsh/passbolt-vs-padloc-which-password-manager-2afn</link>
-      <description>Quick Verdict Passbolt is the better choice for teams that need auditable, enterprise-grade password sharing with OpenPGP encryption. Padloc is better if you want a clean, modern UI for personal or small-team use and don't need advanced permission controls. For most self-hosters, though, Vaultwarden beats both. Overview Passbolt is a team-focused password manager built on OpenPGP end-to-end encryption. It emphasizes granular sharing permissions, audit logs, and compliance features. The Community</description>
-      <guid isPermaLink="false">https://dev.to/selfhostingsh/passbolt-vs-padloc-which-password-manager-2afn</guid>
-      <pubDate>Mon, 09 Mar 2026 06:54:57 +0000</pubDate>
+      <title>The New AI Stack Every Developer Should Understand</title>
+      <link>https://dev.to/jaideepparashar/the-new-ai-stack-every-developer-should-understand-3ejl</link>
+      <description>Invitation: Now, I am officially active on X (Twitter). For new DevOps ideas, you can join me on X (Twitter) as well. Click Here Article Abstract: Every technological era produces its own stack. The web era had: browsers HTTP application servers databases frontend frameworks. The cloud era introduced: containers orchestration distributed infrastructure observability platforms. AI is now creating a new stack of its own. Understanding this stack is becoming essential, not only for AI specialists b</description>
+      <guid isPermaLink="false">https://dev.to/jaideepparashar/the-new-ai-stack-every-developer-should-understand-3ejl</guid>
+      <pubDate>Tue, 10 Mar 2026 06:18:59 +0000</pubDate>
     </item>
     <item>
-      <title>Monitoring Self-Hosted LLM with Prometheus and Grafana</title>
-      <link>https://dev.to/akshaygore/monitoring-self-hosted-llm-with-prometheus-and-grafana-28dn</link>
-      <description>Audience: Intermediate DevOps | Series: Part 2 of 4 Quick Recap from Part 1 Set up Ubuntu Server VM (phi) on VirtualBox Installed and configured Ollama as a systemd service Automated entire setup with Ansible (llm-ansible repo) Interacted with phi3:mini via CLI, curl Link to Part 1 Why custom monitoring setup Ollama does not have a native Prometheus exporter (a /metrics endpoint) primarily because it is designed as a lightweight, user-friendly tool for running local LLMs, focusing on simplicity</description>
-      <guid isPermaLink="false">https://dev.to/akshaygore/monitoring-self-hosted-llm-with-prometheus-and-grafana-28dn</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa2dqlurlu6bto7g66te7.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Mar 2026 06:56:48 +0000</pubDate>
+      <title>I’m in! 🥳🤙🏼 contratz to all!</title>
+      <link>https://dev.to/dnszlsk/im-in-contratz-to-all-1757</link>
+      <description>Congrats to the GitHub Copilot CLI Challenge Winners! Jess Lee for The DEV Team ・ Mar 9 #devchallenge #githubchallenge #cli #ai</description>
+      <guid isPermaLink="false">https://dev.to/dnszlsk/im-in-contratz-to-all-1757</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Mar 2026 06:19:44 +0000</pubDate>
     </item>
     <item>
-      <title>HTMX for building a SQLite query dashboard</title>
-      <link>https://dev.to/hungle00/htmx-for-building-a-sqlite-query-dashboard-32ck</link>
-      <description>I recently built Sqlite Opus, a small web-based SQLite browser that plugs into Flask. The UI is a single-page dashboard where you can click around to explore the current database. At first, I used fetch calls with Flask partials, but later switched to HTMX to reduce JavaScript while keeping the same interactive feel. What is HTMX? A tiny JS lib: you put attributes like hx-get, hx-post, hx-target on your HTML, and it does the AJAX + DOM swap for you. Server returns HTML chunks; no fetch() + JSON</description>
-      <guid isPermaLink="false">https://dev.to/hungle00/htmx-for-building-a-sqlite-query-dashboard-32ck</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F32dazyy99o6joeg6skdn.gif" length="0" type="image/gif"/>
-      <pubDate>Mon, 09 Mar 2026 06:57:41 +0000</pubDate>
+      <title>Comparing Wallet Top-Up Fees Across Global Fintech Platforms</title>
+      <link>https://dev.to/vzr0/comparing-wallet-top-up-fees-across-global-fintech-platforms-2gh4</link>
+      <description>Comparing Wallet Top-Up Fees Across Global Fintech Platforms Digital wallets have made sending and receiving money incredibly simple. But one area where users still experience confusion is funding a wallet using a card. Depending on the platform and country, card funding fees can vary significantly. Some platforms subsidize the cost, while others pass the full processing fee to the user. This article compares several fintech platforms and examines how card-to-wallet funding works across differen</description>
+      <guid isPermaLink="false">https://dev.to/vzr0/comparing-wallet-top-up-fees-across-global-fintech-platforms-2gh4</guid>
+      <pubDate>Tue, 10 Mar 2026 06:20:45 +0000</pubDate>
     </item>
     <item>
-      <title>GPT 5.4 Thinks Like a Person Under Pressure: What Autonomous Agent Logs Reveal About Model Cognition</title>
-      <link>https://dev.to/rsdouglas/gpt-54-thinks-like-a-person-under-pressure-what-autonomous-agent-logs-reveal-about-model-cognition-1dm6</link>
-      <description>I run autonomous AI agents that do real engineering work. The way GPT 5.4 thinks is very strange. These agents run on OpenSeed, a platform I'm building for orchestrating AI "creatures". Some of them collaborate on a real SaaS product. Each creature has a role (dev, ops, marketing, CEO) and they work autonomously, thinking out loud as they go. Their internal thoughts get logged, which means I can see exactly how they reason through problems. After swapping two agents from Claude Sonnet to GPT 5.4</description>
-      <guid isPermaLink="false">https://dev.to/rsdouglas/gpt-54-thinks-like-a-person-under-pressure-what-autonomous-agent-logs-reveal-about-model-cognition-1dm6</guid>
-      <pubDate>Mon, 09 Mar 2026 06:59:08 +0000</pubDate>
+      <title>Debugging Invisible Elements: transform-origin + scaleX(-1)</title>
+      <link>https://dev.to/beep_beep_cat/debugging-invisible-elements-transform-origin-scalex-1-4f1f</link>
+      <description>TL;DR Events firing correctly, element exists in the DOM, DevTools force-visible works — but nothing shows up on screen. Before diving into rendering pipelines and compositing layers, check your CSS transform geometry first. The element might just be somewhere you can't see. The Symptoms This combination is particularly deceptive because every standard check passes: Check Result Event firing ✅ Normal DOM presence ✅ Normal Element position ✅ Roughly correct DevTools force-visible ✅ Works Everythi</description>
+      <guid isPermaLink="false">https://dev.to/beep_beep_cat/debugging-invisible-elements-transform-origin-scalex-1-4f1f</guid>
+      <pubDate>Tue, 10 Mar 2026 06:32:11 +0000</pubDate>
     </item>
     <item>
-      <title>Expense Tracker: Learning CI/CD</title>
-      <link>https://dev.to/davidgrath/expense-tracker-learning-cicd-2ah1</link>
-      <description>(Originally published on Medium) Introduction At some point, I had no idea what CI and CD were about, so I decided to learn about them. I got to learn enough to be able to do a simple Build-Test-Deploy cycle, so now I know enough to define them in my own words: Continuous Integration: JUnit tests are run on every commit to the dev branch Continuous Delivery: the JAR is also built and sent straight to the test server when the tests pass, with potential smoke tests such as a “User can log in” test</description>
-      <guid isPermaLink="false">https://dev.to/davidgrath/expense-tracker-learning-cicd-2ah1</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4h1j899n9a4isjnepw9x.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Mar 2026 07:00:00 +0000</pubDate>
+      <title>Why Hospitals Are Switching to Cloud-Based HMIS in 2026</title>
+      <link>https://dev.to/sisgaintech/why-hospitals-are-switching-to-cloud-based-hmis-in-2026-ibj</link>
+      <description>The Digital Transformation of Modern Hospitals Healthcare is undergoing one of the biggest digital transformations in history. Hospitals today are under constant pressure to improve patient care, reduce operational costs, and manage massive volumes of medical data efficiently. Traditional paper-based processes and even older on-premise hospital software systems are no longer able to keep up with the increasing complexity of healthcare management. As a result, hospitals around the world are turni</description>
+      <guid isPermaLink="false">https://dev.to/sisgaintech/why-hospitals-are-switching-to-cloud-based-hmis-in-2026-ibj</guid>
+      <pubDate>Tue, 10 Mar 2026 06:33:23 +0000</pubDate>
     </item>
     <item>
-      <title>GCP Defaults Every VM to Premium Network and You're Paying 40% More for Egress You Don't Need 🌐</title>
-      <link>https://dev.to/suhas_mallesh/gcp-defaults-every-vm-to-premium-network-and-youre-paying-40-more-for-egress-you-dont-need-5bhm</link>
-      <description>GCP has two network tiers: Premium ($0.12/GB) and Standard ($0.085/GB). Premium routes traffic over Google's private backbone. Standard uses the public internet. The catch? Premium is the default for every resource you create. Your dev VMs, staging APIs, internal tools - all paying premium egress rates for traffic that doesn't need Google's backbone. Switch non-critical workloads to Standard Tier and save 30-45% on egress instantly. Most teams don't even know GCP has network tiers. They create r</description>
-      <guid isPermaLink="false">https://dev.to/suhas_mallesh/gcp-defaults-every-vm-to-premium-network-and-youre-paying-40-more-for-egress-you-dont-need-5bhm</guid>
-      <pubDate>Mon, 09 Mar 2026 07:00:00 +0000</pubDate>
+      <title>Broken Authentication in Fintech Systems</title>
+      <link>https://dev.to/tech_wizard/broken-authentication-in-fintech-systems-5592</link>
+      <description>Most fintech breaches don't start with sophisticated exploits. They start with a login that should have failed, but didn't. Authentication sounds simple: you prove who you are, and you get access. But in practice, it's one of the most consistently broken parts of financial software. Not because developers don't care, but because the attack surface is wider than most teams realize during the build phase. Think of it like a bank vault with a perfect door but a weak combination. The engineering loo</description>
+      <guid isPermaLink="false">https://dev.to/tech_wizard/broken-authentication-in-fintech-systems-5592</guid>
+      <pubDate>Tue, 10 Mar 2026 06:35:32 +0000</pubDate>
     </item>
   </channel>
 </rss>
