@@ -8,78 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Mar 2026 07:08:04 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 06:57:28 +0000</lastBuildDate>
     <item>
-      <title>OpenAI與美國防部簽約後　硬體部門主管離職</title>
-      <link>https://www.ithome.com.tw/news/174268</link>
-      <description>新聞就在OpenAI兩周前與美國國防部簽下新約後，去年才挖來的硬體部門主管Caitlin Kalinowski宣布將離開公司。 Kalinowski加入OpenAI之前，曾在Meta負責AR眼鏡開發。OpenAI去年11月才延攬她來主導機器人及消費硬體開發。不過Kalinowski周末透過LinkedIn公告自己已辭職，並說明原因。她說AI在國家安全扮演重要角色，沒有司法監督下監控美國公民，以及欠缺人的授權發動致命自主工具需要慎重斟酌，但現實卻非如此。她強調其決定是基於原則，不是因為人，她對Sam（Altman）及公司團隊深懷敬意，也對共同努力的成果感到驕傲。 OpenAI兩周前在爭議聲中和美國國防部（Department of Defense，DoD）簽約，讓軍方可在機密網路中使用OpenAI AI模型。在二月底簽約前，Anthropic因拒絕DoD要求將AI用於美國公民監控及自主武器，DoD揚言將Anthropic標示為供應鏈風險。OpenAI執行長Sam Altman雖然反對DoD對Anthropic的作法，也重申其AI模型不會用於國內監控、用於完全自主武器以及排除國安局（NSA</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174268</guid>
-      <pubDate>Mon, 09 Mar 2026 01:12:22 +0000</pubDate>
+      <title>假CleanMyMac以ClickFix手法向Mac電腦用戶散布竊資軟體</title>
+      <link>https://www.ithome.com.tw/news/174293</link>
+      <description>新聞資安廠商發現，一支竊資軟體近日冒充知名硬碟清理工具CleanMyMac藉由ClickFix手法誘騙Mac電腦使用者下載執行。 Malwarebytes研究人員發現釣魚網站cleanmycos[.]org，冒充CleanMyMac官網騙取想下載的用戶安裝竊資軟體SHub Stealer。用戶造訪時，會看到網頁展示重度用戶常見的進階安全選項。該網頁指示用戶開啟終端視窗，並貼上網頁提供的macOS指令，然後按下Return鍵。過程中使用者完全沒有下載提示頁、磁碟圖示或安全對話框。雖然使用者沒有察覺異狀，但已經下載了竊資程式。 圖片來源/Malwarebytes 研究人員指出，該指令執行後會快速執行三個步驟。第一讓終端輸出看似合法的結果，接著將一個經過混淆編碼的連結解碼出真正的目的地，最後從攻擊者控制的伺服器下載shell script，並注入zsh，立即執行。 由於SHub Stealer本身是macOS竊資軟體，一旦執行上述動作即開始下載到用戶macOS裝置。它會竊取已儲存密碼、瀏覽器資料、Apple Keychain內容、加密貨幣錢包、Telegram會話通訊。SHub Steale</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174293</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0310-CleanMyMac-Stealer-2-Malwarebytes.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Mar 2026 02:36:32 +0000</pubDate>
     </item>
     <item>
-      <title>Meta計畫自製晶片訓練模型　成立應用AI工程部門</title>
-      <link>https://www.ithome.com.tw/news/174270</link>
-      <description>新聞國際媒體報導，Meta近日透露自製晶片計畫，同時成立新的應用AI工程部門，以推動AI模型開發大計。 彭博上周引述Meta財務長Susan Li在財務會議上提及自製晶片的計畫。她說自製晶片可滿足公司平臺應用的獨特需求，並減少對Nvidia和AMD等第三方晶片廠商的依賴。Li說明，自製晶片主要為了支援該公司獨有應用，Meta可望首先用於起家服務如排序、推薦作業，但長期而言，可能會再推到其他應用，最終用於訓練AI模型。 成立新AI開發部門 與此同時，華爾街日報報導，Meta近日成立應用AI（Applied AI）部門，將和超級智慧（SuperIntelligence）部門合作推動開發AI產品。 這個部門在組織上是位於Reality Labs之下，後者曾是Meta負責AR/VR軟、硬體開發的部門。新部門由Reality Labs副總裁Maher Saba統率。在砸下數十億美元開發Oculus頭戴裝置及AR/VR應用後，元宇宙應用仍舊無法普及，Meta已在數波組織精簡中裁撤Reality Labs的開發人員。 根據華爾街日報取得Saba的對內備忘錄說明，這個部門旨在支援AI模型開發所需的真實</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174270</guid>
-      <pubDate>Mon, 09 Mar 2026 02:09:11 +0000</pubDate>
+      <title>伊朗駭客MuddyWater入侵美國銀行與機場網路，部署Dindoor與Fakeset後門程式</title>
+      <link>https://www.ithome.com.tw/news/174294</link>
+      <description>新聞在美國與以色列聯手，以推動伊朗的政權更替等目標發動軍事攻擊，迄今超過一週，然而近期有資安公司指出，伊朗駭客在此之前就鎖定美國企業組織從事網路間諜活動。 賽門鐵克與Carbon Black威脅獵捕團隊揭露，與伊朗政府有關的駭客組織MuddyWater（Seedworm、Static Kitten、Temp Zagros），約從2月初入侵美國與加拿大多個機構的網路環境，並部署兩款新的後門程式Dindoor與Fakeset，試圖建立長期存取權限，並透過雲端儲存服務進行資料外傳。 這波攻擊活動約從2026年2月初開始，部分受害機構在2月7日與14日遭到入侵。由於相關行動發生在美國與以色列對伊朗軍事行動前後，研究人員推測駭客可能提前滲透，以便在地緣政治衝突升溫之後，保有攻擊與情報蒐集能力。 在此次攻擊中，研究人員發現兩種新的後門程式。其中，Dindoor是利用Deno執行環境開發的惡意程式，Deno是提供執行JavaScript與TypeScript程式碼的執行環境。由於此類環境較少被用於惡意程式開發，駭客可能藉此降低被資安工具偵測的機率。調查顯示，Dindoor主要出現在美國銀行、加拿大非</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174294</guid>
+      <pubDate>Tue, 10 Mar 2026 02:43:30 +0000</pubDate>
     </item>
     <item>
-      <title>Meta被揭露AI眼鏡偷錄隱私畫面　引發控告、政府關切</title>
-      <link>https://www.ithome.com.tw/news/174271</link>
-      <description>新聞Meta外包商員工指控，Meta AI眼鏡把使用者從銀行到臥房內的影像都讓不相干的外人看光，引發美國消費者控告以及英國政府關切。 事情起因是日前瑞典媒體Svenska Dagbladet（SvD）and Goteborgs-Posten報導一篇調查報導揭露，Meta AI影片外包審查的內容過於隱私，造成審查作業人員創傷。這些審查員受雇於肯亞一家Meta外包商，他們負責將Meta AI眼鏡拍攝到的影片加以標籤，以便檢查這些智慧眼鏡的AI助理是否能正確和用戶互動。但這些影片包含大量用戶隱私資訊和畫面，令他們感到不舒服。 這些審查員表示，AI眼鏡使他們不得已「什麼都看到了」。有的影片是用戶在家中使用到一半放在桌上或使用時配偶進房間更衣，有用戶帶著智慧眼鏡上洗手間、還有人刻意配戴這些眼鏡進行性行為。另有些影片拍攝到信用卡或其他隱私資訊。這些審查員去年向Meta及Meta外包商Sama提出控告。 而在瑞典新聞報導後，上周一家美國律師事務所代表一群消費者，控告Meta和合作AI眼鏡集團Luxottica，推出聯名AI眼鏡的Ray-Ban和Oakley皆為EssilorLuxottica（Ess</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174271</guid>
-      <pubDate>Mon, 09 Mar 2026 02:29:25 +0000</pubDate>
+      <title>被美國國防部列為供應鏈風險，Anthropic提告</title>
+      <link>https://www.ithome.com.tw/news/174295</link>
+      <description>新聞Anthropic周一（3/9）就被美國國防部列為供應鏈風險（Supply Chain Risk，SCR）一事提出了兩項訴訟，一是向加州北區聯邦地方法院提起訴訟，主張政府違反憲法與行政程序，二是向華盛頓DC巡迴上訴法院提出司法審查，直接挑戰國防部供應鏈風險指定的合法性。同時，還有超過30名來自OpenAI與Google的AI研究人員簽署了法庭之友意見書（Amicus Curiae Brief）來聲援Anthropic。 美國國防部與Anthropic之間的歧見在2月底浮上檯面，當時傳出美國國防部長Pete Hegseth要求Anthropic開放其AI模型Claude的使用限制，否則就要將Anthropic列為SCR並中止合作；隨後Anthropic發布聲明，強調該公司支持以AI捍衛美國與民主國家安全，但不會撤除涉及大規模境內監控與完全自主武器的兩項政策紅線。 美國總統川普（Donald Trump）則在2月28日透過Truth Social表示，Anthropic試圖強迫美國國防部遵從它們的服務條款，而非美國憲法，這是個災難性的錯誤，因此他指示美國所有聯邦機構立即停止使用Anth</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174295</guid>
+      <pubDate>Tue, 10 Mar 2026 02:48:39 +0000</pubDate>
     </item>
     <item>
-      <title>供應鏈攻擊鎖定NuGet與NPM套件生態系，竊取憑證與敏感資訊並建立遠端控制能力</title>
-      <link>https://www.ithome.com.tw/news/174266</link>
-      <description>新聞開源套件生態系近期接連出現供應鏈攻擊事件。軟體供應鏈安全公司Socket揭露4個惡意NuGet套件，鎖定ASP.NET開發者並竊取帳號與權限資料，企圖操控應用程式授權機制，在系統中建立長期後門。另一方面，資安業者Tenable也發現一款惡意NPM套件，利用開源指揮控制框架Mythic執行系統偵察與資料竊取。 惡意NuGet套件透過相依套件植入後門，操控ASP.NET授權機制 Socket指出，攻擊者於2024年8月12日至21日期間，透過帳號hamzazaheer上傳4個惡意NuGet套件，分別為NCryptYo、DOMOAuth2_、IRAOAuth2.0與SimpleWriter_。這些套件使用相同的建置環境，很可能出自同一威脅行為者。在研究人員通報後，相關套件已被下架，但移除前下載次數仍累計超過4,500次。 在攻擊鏈中，NCryptYo扮演第一階段惡意程式（dropper）的角色。當套件被載入時，程式會透過靜態建構子安裝JIT編譯器掛鉤，解密內嵌的惡意程式碼，並在本地主機7152連接埠建立代理服務，將系統流量轉送至攻擊者控制的命令與控制（C2）伺服器。研究人員也發現，NCr</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174266</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0307-NuGet-socket-2.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Mar 2026 02:39:56 +0000</pubDate>
+      <title>研究人員揭露AI瀏覽器Perplexity Comet零點擊漏洞PerplexedBrowser，恐導致電腦本機檔案被外流</title>
+      <link>https://www.ithome.com.tw/news/174296</link>
+      <description>新聞隨著生成式AI和AI代理普及，AI龍頭也加入瀏覽器戰場，推出內建AI代理的瀏覽器，然而一旦攻擊者能對AI上下其手，就有可能引發嚴重的後果。 資安公司Zenity揭露，生成式AI搜尋服務公司Perplexity的瀏覽器Comet，存在新的安全風險，將其命名為PerplexedBrowser，攻擊者可透過間接提示注入（Indirect Prompt Injection）操控AI代理，在使用者毫不知情的情況下讀取本機檔案。Zenity強調，此為零點擊（Zero-Click）的攻擊型態，攻擊者不需要利用傳統軟體漏洞，也不需要使用者點擊惡意連結或下載程式，只要受害者將某些日常工作委託AI代理處理，就可能觸發攻擊流程。 Zenity在2025年11月向Perplexity通報相關問題，兩家公司後續都推出安全強化措施。Perplexity在Comet加入多項防護，其中一個是限制AI代理存取file://本機檔案路徑，以及要求涉及敏感操作時需要更嚴格的使用者確認。 PerplexedBrowser攻擊流程通常從看似正常的第三方內容開始，例如電子郵件、文件、網頁，或行事曆邀請。攻擊者會在這些內容中嵌</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174296</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/4405cae6-b297-41d5-978a-a6dabb148196.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Mar 2026 03:12:47 +0000</pubDate>
     </item>
     <item>
-      <title>印尼限制未成年社群帳號，16歲以下不得使用YouTube、TikTok等平臺</title>
-      <link>https://www.ithome.com.tw/news/174273</link>
-      <description>新聞印尼通訊與數位事務部（Ministry of Communication and Digital Affairs）上周五（3/6）宣布，政府已簽署新法規，限制未滿16歲兒童使用社群媒體，並禁止其在多個高風險數位平臺建立帳號，包括YouTube、TikTok、Facebook、Instagram、Threads、X、Bigo Live與Roblox等服務。 印尼通訊與數位事務部表示，新規將自3月28日起逐步實施，並要求相關平臺在期限內完成合規措施。未來數位平臺需建立機制，以確保未成年使用者無法建立或持有帳號。 該部門指出，推出此項政策是因為兒童在網路環境中面臨愈來愈多風險，包括色情內容、網路霸凌、線上詐騙與社群媒體成癮等問題。政府希望透過監管措施，協助家長保護兒童免受不當內容與演算法影響。 印尼監管機構上周即曾突擊檢查Meta位於雅加達的辦公室，並就Facebook、Instagram與WhatsApp處理有害內容的合規情況提出警告。 目前多數社群媒體平臺的最低使用年齡為13歲，主要源自美國《兒童網路隱私保護法》（Children’s Online Privacy Protectio</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174273</guid>
-      <pubDate>Mon, 09 Mar 2026 03:07:00 +0000</pubDate>
+      <title>AI瀏覽器Perplexity Comet存在零點擊漏洞，可被用於竊取密碼管理工具1Password保險庫內容</title>
+      <link>https://www.ithome.com.tw/news/174297</link>
+      <description>新聞資安公司Zenity揭露，生成式AI搜尋服務公司Perplexity的瀏覽器Comet，存在零點擊弱點PerplexedBrowser，攻擊者可透過間接提示注入（Indirect Prompt Injection）操控AI代理，在使用者毫不知情的情況下讀取本機檔案，值得留意的是，攻擊者還能用來竊取密碼管理工具1Password存放的帳密資料。 由於PerplexedBrowser的攻擊流程通常從看似正常的第三方內容開始，例如電子郵件、文件、網頁，或行事曆邀請。攻擊者會在這些內容中嵌入隱藏提示，使AI代理在解析資料時誤將其視為任務指令。這項攻擊並不需要突破傳統安全機制，而是利用代理式瀏覽器的設計特性。AI代理本來就能代表使用者執行操作，因此一旦受到惡意提示影響，就可能在使用者權限下進行敏感操作。 該公司進一步展示如何利用PerplexedBrowser，他們鎖定密碼管理服務1Password。這項攻擊同樣透過行事曆內容的提示，來操控Comet代理。 由於Comet可在瀏覽器中操作各種網站，一旦使用者已登入1Password並啟用瀏覽器擴充套件，AI代理就可能在同一個已驗證的瀏覽器連線</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174297</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/c9834776-6ab5-46c9-8b37-1db84399eef5.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Mar 2026 03:26:24 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic遭國防部列供應鏈風險，三大雲端仍持續提供Claude服務</title>
-      <link>https://www.ithome.com.tw/news/174277</link>
-      <description>新聞美國國防部（Department of Defense，DoD）近日將AI公司Anthropic列為供應鏈風險（Supply Chain Risk），引發科技產業關注。不過，微軟、Amazon與Google等雲端業者已向媒體表示，該決定並未影響其向企業客戶提供Anthropic Claude模型的服務。 日前媒體披露，美國國防部已正式通知Anthropic，其公司與Claude模型被認定為供應鏈風險，未來與美國軍方合作的承包商或技術供應商，在政府相關系統中可能不得使用Anthropic技術。 不過，多家科技公司隨後向媒體表示，相關限制主要針對國防部專案。根據TechCrunch與CNBC的報導，微軟、Amazon Web Services（AWS）與Google Cloud均表示，Anthropic模型仍可在其雲端平臺提供給企業與開發者使用，惟涉及國防部的工作負載可能受到限制。 微軟發言人則向Business Insider透露，該公司法律團隊研究了五角大廈的供應鏈風險認定，認為該標記主要影響國防相關專案，因此Anthropic產品仍可透過Microsoft 365、GitHub與</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174277</guid>
-      <pubDate>Mon, 09 Mar 2026 03:29:22 +0000</pubDate>
+      <title>荷蘭政府警告俄國駭客攻擊Signal、WhatsApp用戶以竊取敏感資訊</title>
+      <link>https://www.ithome.com.tw/news/174299</link>
+      <description>新聞荷蘭政府本周警告，俄羅斯國家駭客正發動全球大規模網路攻擊，鎖定政要、軍事高層及官員劫持Signal與WhatsApp帳號，或是以QR code連結其帳號。 荷蘭國防及通用情報及安全機關MIVD與AIVD確認，荷蘭公務員已在這波攻擊受害。此外，記者及異議人士也是俄國政府的目標。透過存取這些監控目標的通訊軟體帳號，攻擊者就可存取裝置上的聯絡人資訊，或是讀取通訊內容、甚至群組對話訊息。 該國政府提醒，攻擊型態有二。一是劫取帳號，攻擊者偽裝Signal安全支援團隊或聊天機器人，宣稱偵測到用戶裝置有可疑活動或資料外洩，要求使用者完成認證來預防。攻擊者佯裝的支援人員要求用戶把Signal發給用戶的驗證碼，以及簡訊發來的密碼，透過假聊天機器人提供給「支援人員」。藉此盜取或劫持帳號。 攻擊途徑二則是利用QR code或連結加入受害者，適用Signal和WhatsApp。攻擊者傳送QR code或連結給攻擊目標用戶邀請其加入聊天群組，但這方法也可以將用戶連結他人手機或筆電。用戶誤以為他加入某個聊天群組，其實卻是連上攻擊者的裝置。一旦用戶被連結，攻擊者就可以從其連結裝置，或是桌機版App，讀取用戶聊天</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174299</guid>
+      <pubDate>Tue, 10 Mar 2026 03:52:56 +0000</pubDate>
     </item>
     <item>
-      <title>Check Point揭Claude Code漏洞，惡意專案設定檔可觸發RCE並外洩API金鑰</title>
-      <link>https://www.ithome.com.tw/news/174267</link>
-      <description>新聞隨著AI開發工具逐漸整合自動化流程與外部服務，專案設定檔正成為新的供應鏈攻擊入口。資安業者Check Point揭露，Anthropic的程式開發助理Claude Code存在安全漏洞，攻擊者可透過惡意儲存庫（repository）中的專案設定檔觸發遠端程式碼執行（RCE），甚至竊取開發者的Anthropic API金鑰。 Claude Code載入專案設定檔流程藏漏洞，可觸發Shell指令並外洩Anthropic API金鑰 研究人員指出，這些漏洞與Claude Code處理專案設定檔、Hooks機制（可在特定事件發生時自動執行指令），以及Model Context Protocol（MCP）整合流程有關。一旦攻擊者在儲存庫中預先植入惡意設定檔，當開發者在本機開啟該專案時，Claude Code可能在初始化過程中直接執行設定檔中的指令。 Check Point共揭露三項漏洞，其中兩項被評為高風險（High）。首先是一項尚未取得CVE編號的程式碼注入漏洞，CVSS風險分數為8.7。該漏洞源自Claude Code在新目錄啟動時存在使用者同意流程繞過問題，攻擊者可在專案設定檔.cla</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174267</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0308-Vulnerability_1_RCE%20via%20Untrusted%20Project%20Hooks-check%20point.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Mar 2026 03:31:59 +0000</pubDate>
+      <title>OpenAI收購AI安全測試工具Promptfoo，強化代理人安全評估能力</title>
+      <link>https://www.ithome.com.tw/news/174301</link>
+      <description>新聞OpenAI周一（3/9）宣布，將收購AI安全測試平臺Promptfoo，未來將把其技術整合至企業AI平臺OpenAI Frontier，以強化AI代理人（Agents）在開發與部署過程中的安全測試、風險評估與合規能力。 Promptfoo成立於2024年，由Ian Webster與Michael D'Angelo共同創辦，最初從開源LLM測試工具發展而來，主要提供AI應用安全測試與紅隊演練（Red Teaming）工具，目前已有超過25%的《財富》500大企業使用其工具。雙方並未公布交易價格，但Promptfoo在2025年完成A輪募資時的估值約為8,550萬美元。 Promptfoo提供命令列工具（Command-Line Interface，CLI）與程式庫，讓開發者可建立測試案例，評估AI模型在不同提示下的回應品質與安全性，例如檢測提示注入（Prompt Injection）、越獄（Jailbreak）、資料外洩或不當輸出等問題。該平臺也支援比較不同模型或不同版本系統的表現，以協助企業在開發AI應用時進行持續評估。 至於OpenAI Frontier則是OpenAI甫於今年</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174301</guid>
+      <pubDate>Tue, 10 Mar 2026 04:03:25 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic與Mozilla合作，找出22個Firefox漏洞</title>
-      <link>https://www.ithome.com.tw/news/174279</link>
-      <description>新聞人工智慧在資安研究領域的應用正快速升溫。AI業者Anthropic近日與開源瀏覽器開發者Mozilla合作，利用AI模型協助分析程式碼，在Firefox中發現22個安全漏洞，其中14個被Mozilla評定為高嚴重性（high-severity）漏洞。 該研究主要由Anthropic的安全研究團隊進行，研究人員利用其大型語言模型Claude Opus 4.6來分析Firefox程式碼，並在兩周內提交多項漏洞報告。整體而言，研究團隊掃描了約6,000個C++原始碼檔案，向Mozilla提交112份問題報告，Mozilla為其中22個漏洞分配CVE編號，其中有14個為高嚴重性漏洞，另有約90個涉及各種崩潰案例與程式邏輯錯誤。 Mozilla表示，這些漏洞主要涉及瀏覽器核心元件，包括JavaScript引擎等重要模組，若遭利用可能導致資料被竄改或執行惡意程式碼。 Mozilla說明，過去由AI輔助的漏洞回報品質經常參差不齊，這次是在Anthropic團隊利用其AI模型Claude，分析Firefox的JavaScript引擎之後，主動聯繫了Firefox的工程師。重要的是，他們的漏洞報告包</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174279</guid>
-      <pubDate>Mon, 09 Mar 2026 03:44:18 +0000</pubDate>
+      <title>第三方廠商被駭 波及愛立信美國分公司逾4000客戶、員工資料外洩</title>
+      <link>https://www.ithome.com.tw/news/174305</link>
+      <description>新聞瑞典電信巨擘愛立信（Ericsson）本周通報美國政府，該公司美國分公司去年4月因受使用第三方服務波及，導致4300多名客戶及員工資料外洩。 愛立信本周通報德州及加州檢察長辦公室，以及通知受害員工/客戶的信件中說明，該公司第三方供應商在2025年4月28日察覺可疑活動，其系統特定資訊遭未經授權存取。除了通報聯邦調查局及和專業廠商啟動調查，也通知了客戶。根據今年稍早完成的調查，存取時間落在2025年4月12日到17日。 愛立信向德州官方的通報文件說明，該起事件造成其美國分公司部份客戶及員工個資外洩，共影響4377人。外洩的資料包括姓名、出生日期、地址、社會安全號碼（SSN）、駕照號碼、政府核發證件號碼（例如護照或州身分證）、金融資料（帳戶、信用卡或金融帳號）及醫療資訊等。不過該公司和其服務業者都還未發現資料被惡意使用的跡象。 愛立信並未說明造成資料外洩的第三方服務商為誰。目前也沒有勒索軟體或駭客組織宣稱犯案。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174305</guid>
+      <pubDate>Tue, 10 Mar 2026 06:38:02 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI推出AI資安代理人Codex Security　可掃描GitHub程式庫自動找漏洞並提出修補</title>
-      <link>https://www.ithome.com.tw/news/174282</link>
-      <description>新聞OpenAI上周五（3/6）發表Codex Security，這是一款用於應用程式安全的AI代理人，目前處於研究預覽階段。該工具可自動分析程式碼、找出潛在安全漏洞並提出修補建議。OpenAI強調，Codex Security可理解整個系統脈絡並驗證漏洞，以降低誤報並提高漏洞偵測品質，目標是讓AI能協助完成部分原本需要資安工程師進行的程式碼安全審查工作。 Codex Security目前透過Codex Web運作，主要掃描所連接的GitHub程式庫。系統會逐一分析程式碼提交（Commit），建立程式庫的安全脈絡並找出可能的漏洞。目前官方文件僅提到支援GitHub儲存庫，並未宣布支援其他程式碼託管平臺。 在運作流程上，Codex Security大致分為三個階段。首先，系統會分析程式碼庫並建立專案專屬的威脅模型（Threat Model），以理解系統架構、信任邊界與可能的攻擊面。接著，AI模型會依據這些脈絡搜尋潛在漏洞，並依其對實際系統的影響程度進行分類。對於偵測到的問題，系統可在隔離的沙盒環境中進行驗證，以確認漏洞是否真實存在並降低誤報。最後，Codex Security會提出修補建</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174282</guid>
-      <pubDate>Mon, 09 Mar 2026 04:29:53 +0000</pubDate>
+      <title>巴基斯坦駭客APT36利用AI生成大量惡意軟體，企圖滲透印度與阿富汗的政府及企業組織</title>
+      <link>https://www.ithome.com.tw/news/174298</link>
+      <description>新聞基本上，駭客透過自行開發的惡意程式從事攻擊活動的模式，在AI普及後，已有許多團體透過相關工具加速開發，不過，現在有駭客採取新策略，要求AI使用相對少見的程式語言，生成大量惡意程式，企圖以數量優勢干擾防禦系統的偵測能力。 資安公司Bitdefender近日發布研究報告指出，巴基斯坦駭客組織APT36（Transparent Tribe）正在改變惡意程式的開發模式，他們利用生成式AI快速產生大量以不同程式語言編寫的惡意程式。這類由AI生成、品質參差不齊，但數量龐大的惡意程式，Bitdefender稱為「Vibeware」。 Bitdefender指出，駭客並非單純依賴單一惡意程式突破企業組織的防線，而是透過大量不同版本惡意程式檔案，使資安系統難以建立穩定的偵測規則，進而提高攻擊成功率。其中，APT36經常會將相同的惡意程式邏輯快速轉換成多種程式語言版本，例如：Nim、Zig，以及Crystal等相對少見的語言。由於這些語言在惡意程式中較少見，也讓資安產品在特徵偵測與分析面臨更大挑戰。此外，Bitdefender在部分檔案裡，還發現Unicode表情符號或疑似AI工具產生的程式碼痕跡，顯</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174298</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/apt36-image1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Mar 2026 06:51:22 +0000</pubDate>
     </item>
     <item>
-      <title>環境部公布企業自主減量計畫，已有273家廠商適用碳費優惠</title>
-      <link>https://www.ithome.com.tw/news/174272</link>
-      <description>新聞我國碳費制度即將上路，企業今年5月首次申報並繳納碳費。環境部近期表示，為落實制度資訊公開，已自3月起在環境部氣候變遷署網站的碳費專區公開經審查核定的企業自主減量計畫，截至今年2月底已有273家工廠通過審查，外界可查詢各企業減碳目標、減量措施與適用的優惠費率。 環境部指出，碳費制度是依氣候變遷因應法設計，以促進產業減碳與低碳轉型為目標。企業若提出符合2030年減量目標的自主減量計畫並經審查通過，即可適用較低的碳費優惠費率。去年共430家工廠提出計畫，目前已有273家通過審查，另有24家撤案，其餘案件仍在審查中。環境部也要求企業依計畫落實減量措施，須在每年4月底前提報執行進度，主管機關將每年查核，符合進度者才能適用優惠費率。 依環境部先前盤查結果，碳費收費對象約為500座工廠、共281家公司，其中141家為上市櫃企業，顯示碳費制度將正式帶動國內邁入「碳有價」時代。不過，企業原本可透過碳權抵減部分碳費負擔的機制，今年仍存在制度空窗。根據規定，企業若取得國內碳權，最多可扣減10%的排放量，國外碳權扣減上限為5%，且僅限非高碳洩漏產業適用。 但是因為相關法規尚未完成，故今年5月首次申報碳費時</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174272</guid>
-      <pubDate>Mon, 09 Mar 2026 06:12:33 +0000</pubDate>
+      <title>微軟Copilot納入Claude Cowork技術，能力從問答走向任務執行</title>
+      <link>https://www.ithome.com.tw/news/174303</link>
+      <description>新聞微軟表示，已將Anthropic的Claude Cowork背後技術整合到Microsoft 365 Copilot，並推出新功能Copilot Cowork，讓Copilot從回答問題、撰寫草稿的工具，進一步走向可受託執行工作的數位助手。微軟表示，該功能不再只停留在對話層次，而是能根據使用者交付的目標，自行整理工作脈絡、擬定處理計畫，並在背景持續推進任務，過程中會設有明確檢查點，相關變更仍需由使用者核准後才會套用。 過去Copilot較常被視為查詢資訊、摘要文件、起草郵件的工具，如今微軟進一步將其包裝成能跨越Outlook、Teams、Excel與其他Microsoft 365服務執行多步驟工作的系統。使用者只需描述想達成的結果，Copilot Cowork便會根據電子郵件、會議、訊息、檔案與相關資料建立執行脈絡，再將請求轉成一套可持續推進的工作計畫。 官方提供數種適用情境，包括整理行事曆、調整會議時間、保留專注工作時段，以及替客戶會議準備說明文件、分析資料與簡報。另一類應用則是研究工作，例如彙整公司財報、SEC申報文件、分析師評論與相關新聞，最後產出電子郵件格式的摘要、研究備忘</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174303</guid>
+      <pubDate>Tue, 10 Mar 2026 06:53:33 +0000</pubDate>
     </item>
   </channel>
 </rss>

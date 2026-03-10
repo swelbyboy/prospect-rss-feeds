@@ -8,62 +8,62 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Mar 2026 07:20:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 07:10:42 +0000</lastBuildDate>
     <item>
-      <title>Google Workspace CLI brings Gmail, Docs, Sheets and more into a common interface for AI agents</title>
-      <link>https://venturebeat.com/orchestration/google-workspace-cli-brings-gmail-docs-sheets-and-more-into-a-common</link>
-      <description>What's old is new: the command line — the original, clunky non-graphical interface for interacting with and controlling PCs, where the user just typed in raw commands in code — has become one of the most important interfaces in agentic AI.That shift has been driven in part by the rise of coding-native tools such as Claude Code and Kilo CLI, which have helped establish a model where AI agents do not just answer questions in chat windows but execute real tasks through a shared, scriptable interfac</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/google-workspace-cli-brings-gmail-docs-sheets-and-more-into-a-common</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/5Pd1hMlQFI3vMI2ORlph74/1c5d62789664fb28c393470e9a88fd45/Gemini_Generated_Image_7y3gd67y3gd67y3g.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 01:20:00 +0000</pubDate>
+      <title>Enterprise agentic AI requires a process layer most companies haven’t built</title>
+      <link>https://venturebeat.com/orchestration/enterprise-agentic-ai-requires-a-process-layer-most-companies-havent-built</link>
+      <description>Presented by Celonis85% of enterprises want to become agentic within three years — yet 76% admit their operations can’t support it. According to the Celonis 2026 Process Optimization Report, based on a survey of more than 1,600 global business leaders, organizations are aggressively pursuing AI-driven transformation. Yet most acknowledge that the foundational work — modernizing workflows, reducing process friction, and building operational resilience — remains unfinished. The ambition is clear.</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/enterprise-agentic-ai-requires-a-process-layer-most-companies-havent-built</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/37rF1S8dvtnXN6N8lQTrsM/a9c7cdb4ff630c337d7b7dd2a135cbf2/AdobeStock_510015438.jpeg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Mar 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google PM open-sources Always On Memory Agent, ditching vector databases for LLM-driven persistent memory</title>
-      <link>https://venturebeat.com/orchestration/google-pm-open-sources-always-on-memory-agent-ditching-vector-databases-for</link>
-      <description>Google senior AI product manager Shubham Saboo has turned one of the thorniest problems in agent design into an open-source engineering exercise: persistent memory.This week, he published an open-source “Always On Memory Agent” on the official Google Cloud Platform Github page under a permissive MIT License, allowing for commercial usage.It was built with Google's Agent Development Kit, or ADK introduced last Spring in 2025, and Gemini 3.1 Flash-Lite, a low-cost model Google introduced on March</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/google-pm-open-sources-always-on-memory-agent-ditching-vector-databases-for</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3UcaucgGJzSX0K7mkf7qcB/16191629cc1b626e1d8c12e1458c1013/ChatGPT_Image_Mar_6__2026__02_31_43_PM.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 19:56:00 +0000</pubDate>
+      <title>Microsoft says ungoverned AI agents could become corporate 'double agents.' Its fix costs $99 a month.</title>
+      <link>https://venturebeat.com/technology/microsoft-says-ungoverned-ai-agents-could-become-corporate-double-agents-its</link>
+      <description>Microsoft today announced the general availability of Agent 365 and Microsoft 365 Enterprise 7, two products designed to bring security and governance to the rapidly growing population of AI agents operating inside the world's largest organizations. Both become available on May 1st, alongside Wave 3 of Microsoft 365 Copilot, which expands the company's agentic AI capabilities and adds model diversity from both OpenAI and Anthropic.Agent 365, priced at $15 per user per month, serves as what Micro</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/microsoft-says-ungoverned-ai-agents-could-become-corporate-double-agents-its</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/IyfZ3dS5tBo1CYEa39h9N/66c96f6f7bc384b8b1b6de9cc338cd36/nuneybits_Vector_art_of_a_spy_double_agent_cybersecurity_image__9e9bc240-43ea-424b-a708-f8b06a6d63dd.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Mar 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>New KV cache compaction technique cuts LLM memory 50x without accuracy loss</title>
-      <link>https://venturebeat.com/orchestration/new-kv-cache-compaction-technique-cuts-llm-memory-50x-without-accuracy-loss</link>
-      <description>Enterprise AI applications that handle large documents or long-horizon tasks face a severe memory bottleneck. As the context grows longer, so does the KV cache, the area where the model’s working memory is stored.A new technique developed by researchers at MIT addresses this challenge with a fast compression method for the KV cache. The technique, called Attention Matching, manages to compact the context by up to 50x with very little loss in quality.While it is not the only memory compaction tec</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/new-kv-cache-compaction-technique-cuts-llm-memory-50x-without-accuracy-loss</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/5eTMasdxWCOJMvj6LZZdRZ/ad9026d16ebe535c7c64b23a93164f9f/KV_cache_optimization.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 21:00:00 +0000</pubDate>
+      <title>The limits of bubble thinking: How AI breaks every historical analogy</title>
+      <link>https://venturebeat.com/technology/the-limits-of-bubble-thinking-how-ai-breaks-every-historical-analogy</link>
+      <description>It’s always the same story: A new technology appears and everyone starts talking about how it’ll change everything. Then capital rushes in, companies form overnight, and valuations climb faster than anyone can justify. Then, many many months later, the warnings arrive, and people suddenly remember the dot-com crash or crypto.You’ve probably seen it before. And if you have, you probably think AI is the next bubble. Humans are great at pattern-matching. We’ve evolved to see patterns, so when somet</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/the-limits-of-bubble-thinking-how-ai-breaks-every-historical-analogy</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7dgxoUl5BsIQHmiQSTrmMV/a4cfce762bdaf677ebf6b9c62da275ff/Bubble.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Mar 2026 13:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic launches Claude Marketplace, giving enterprises access to Claude-powered tools from Replit, GitLab, Harvey and more</title>
-      <link>https://venturebeat.com/technology/anthropic-launches-claude-marketplace-giving-enterprises-access-to-claude</link>
-      <description>San Francisco startup Anthropic continues to ship new AI products and services at a blistering pace, despite a messy ongoing dispute with the U.S. Department of War.Today, the company announced Claude Marketplace, a new offering that lets enterprises with an existing Anthropic spend commitment apply part of it toward tools and applications powered by Anthropic's Claude models but made and offered by external partners including GitLab, Harvey, Lovable, Replit, Rogo and Snowflake.According to Anth</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/anthropic-launches-claude-marketplace-giving-enterprises-access-to-claude</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7jdBc17XcbJ5k1KaI35l6d/399d82b5b47cc3980d8cb3f37432ec57/nuneybits_Vector_art_of_a_robot_marketplace_store_robots_in_bus_f138a55a-decc-41ca-b036-664d5c6e7234.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 07 Mar 2026 00:25:00 +0000</pubDate>
+      <title>Microsoft announces Copilot Cowork with help from Anthropic — a cloud-powered AI agent that works across M365 apps</title>
+      <link>https://venturebeat.com/orchestration/microsoft-announces-copilot-cowork-with-help-from-anthropic-a-cloud-powered</link>
+      <description>If you thought Anthropic was about to run away with the enterprise AI business...you're not totally off the mark, actually.This morning, Microsoft announced "Copilot Cowork" a new cloud-based AI agentic automation tool within Microsoft's existing AI tool 365 Copilot, except now it can complete work on users' behalf across many Microsoft apps, instead of contained within each one. If it sounds suspiciously similar to Anthropic's own "Claude Cowork" applications for Mac and Windows (released in Ja</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/microsoft-announces-copilot-cowork-with-help-from-anthropic-a-cloud-powered</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/BPQxT8Z0gWAH5x25IUAbo/d03bb002e8cb04039e6be7abcaa55010/ChatGPT_Image_Mar_9__2026__11_54_22_AM.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Mar 2026 15:58:00 +0000</pubDate>
     </item>
     <item>
-      <title>Karpathy’s March of Nines shows why 90% AI reliability isn’t even close to enough</title>
-      <link>https://venturebeat.com/technology/karpathys-march-of-nines-shows-why-90-ai-reliability-isnt-even-close-to</link>
-      <description>“When you get a demo and something works 90% of the time, that’s just the first nine.” — Andrej KarpathyThe “March of Nines” frames a common production reality: You can reach the first 90% reliability with a strong demo, and each additional nine often requires comparable engineering effort. For enterprise teams, the distance between “usually works” and “operates like dependable software” determines adoption.The compounding math behind the March of Nines“Every single nine is the same amount of wo</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/karpathys-march-of-nines-shows-why-90-ai-reliability-isnt-even-close-to</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/21K689ghpGsVv5BIwc861e/e7a181d1c0c6c45f0d7738d50a341f2c/March.jpeg?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 07 Mar 2026 05:00:00 +0000</pubDate>
+      <title>Anthropic rolls out Code Review for Claude Code as it sues over Pentagon blacklist and partners with Microsoft</title>
+      <link>https://venturebeat.com/technology/anthropic-rolls-out-code-review-for-claude-code-as-it-sues-over-pentagon</link>
+      <description>Anthropic on Monday released Code Review, a multi-agent code review system built into Claude Code that dispatches teams of AI agents to scrutinize every pull request for bugs that human reviewers routinely miss. The feature, now available in research preview for Team and Enterprise customers, arrives on what may be the most consequential day in the company's history: Anthropic simultaneously filed lawsuits against the Trump administration over a Pentagon blacklisting, while Microsoft announced a</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/anthropic-rolls-out-code-review-for-claude-code-as-it-sues-over-pentagon</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/7CvqbLmP86nNznfKP8OvKe/56fccfeba85626c91019f1f89c1a91e7/nuneybits_Vector_art_of_a_retro_terminal_screen_displaying_casc_e2160c2e-6fda-43ba-855b-3d2f025dccdd.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Mar 2026 19:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>LangChain's CEO argues that better models alone won't get your AI agent to production</title>
-      <link>https://venturebeat.com/orchestration/langchains-ceo-argues-that-better-models-alone-wont-get-your-ai-agent-to</link>
-      <description>As models get smarter and more capable, the "harnesses" around them must also evolve. This "harness engineering" is an extension of context engineering, says LangChain co-founder and CEO Harrison Chase in a new VentureBeat Beyond the Pilot podcast episode. Whereas traditional AI harnesses have tended to constrain models from running in loops and calling tools, harnesses specifically built for AI agents allow them to interact more independently and effectively perform long-running tasks. Chase al</description>
-      <guid isPermaLink="false">https://venturebeat.com/orchestration/langchains-ceo-argues-that-better-models-alone-wont-get-your-ai-agent-to</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3IReUqlU0VDTihcTPwpgxD/bbea663444d67bd17c22cfc730fe6d35/Harness_engineering.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 07 Mar 2026 22:00:00 +0000</pubDate>
+      <title>How to make your e-commerce product visible to AI agents? Use this new system trusted by L’Oréal, Unilever, Mars &amp;amp; Beiersdorf</title>
+      <link>https://venturebeat.com/infrastructure/how-to-make-your-e-commerce-product-visible-to-ai-agents-use-this-new-system</link>
+      <description>For future-focused e-commerce brands, the primary customer is rapidly changing from a person behind a screen to the AI agents that said human customer deploys on their behalf to research and, if projections are correct, purchase the product on their behalf. Investment banking and financial services giant Morgan Stanley, for instance, has published research suggesting 10-20% of the entire U.S. commerce spend could be agentic by 2030 — amounting to $190 billion to $385 billion.In response to this</description>
+      <guid isPermaLink="false">https://venturebeat.com/infrastructure/how-to-make-your-e-commerce-product-visible-to-ai-agents-use-this-new-system</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/FLtTcRHA6CsWcPsFH9ENf/f12ab1a247af16a92e2a9ede50a401b0/Gemini_Generated_Image_lxamc3lxamc3lxam__1_.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Mar 2026 21:13:00 +0000</pubDate>
     </item>
     <item>
-      <title>Dynamic UI for dynamic AI: Inside the emerging A2UI model</title>
-      <link>https://venturebeat.com/technology/dynamic-ui-for-dynamic-ai-inside-the-emerging-a2ui-model</link>
-      <description>With agentic AI, businesses are conducting business more dynamically. Instead of traditional pre-programmed bots and static rules, agents can now “think” and invent alternate paths when unseen conditions arise. For instance, using a business domain ontology like FIBO (financial industry business ontology) can help keep agents within guardrails and avoid unwanted behavior. The bottleneck is now in the user experience (UX) layer. While agents are dynamic and transform with the data drift guided by</description>
-      <guid isPermaLink="false">https://venturebeat.com/technology/dynamic-ui-for-dynamic-ai-inside-the-emerging-a2ui-model</guid>
-      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3MDTnMTK7iLPl98GF9ZvkO/73f0f6cd57cde3a28368fe7b1be8a215/UI.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 08 Mar 2026 17:00:00 +0000</pubDate>
+      <title>Andrej Karpathy's new open source 'autoresearch' lets you run hundreds of AI experiments a night — with revolutionary implications</title>
+      <link>https://venturebeat.com/technology/andrej-karpathys-new-open-source-autoresearch-lets-you-run-hundreds-of-ai</link>
+      <description>Over the weekend, Andrej Karpathy—the influential former Tesla AI lead and co-founder and former member of OpenAI who coined the term "vibe coding"— posted on X about his new open source project, autoresearch. It wasn't a finished model or a massive corporate product: it was by his own admission a simple, 630-line script made available on Github under a permissive, enterprise-friendly MIT License. But the ambition was massive: automating the scientific method with AI agents while us humans sleep</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/andrej-karpathys-new-open-source-autoresearch-lets-you-run-hundreds-of-ai</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2jUMX5tvR9PuuhlFIxezYp/55bab7b88fe8bd1f5c0a21f51a3da6c0/Gemini_Generated_Image_gusyegusyegusyeg.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Mar 2026 00:13:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

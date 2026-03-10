@@ -8,39 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Mar 2026 07:35:20 +0000</lastBuildDate>
-    <item>
-      <title>Contribuer à l'Open Source et l'initiative Merge Forward de la CNCF</title>
-      <link>https://www.programmez.com/actualites/contribuer-lopen-source-et-linitiative-merge-forward-de-la-cncf-39095</link>
-      <description>Nous avons le plaisir d'accueillir Donia Chaiehloudj pour échanger sur l'initiative Merge Forward de la CNCF et comment contribuer à des projets open source. Site CNCF : https://www.linkedin.com/company/merge-forward-community/Catégorie actualité: Open SourceCNCFImage actualité AMP:</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/contribuer-lopen-source-et-linitiative-merge-forward-de-la-cncf-39095</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Thu, 05 Mar 2026 12:10:23 +0000</pubDate>
-    </item>
-    <item>
-      <title>GTC 2026 : la conférence NVIDIA revient du 16 au 19 mars</title>
-      <link>https://www.programmez.com/actualites/gtc-2026-la-conference-nvidia-revient-du-16-au-19-mars-39096</link>
-      <description>GTC est la grande conférence NVIDIA de l'année. Cette année, la conférence abordera, sans surprise, très largement l'IA, l'agentique, les infrastructures. De nombreuses thématiques seront abordées : XR, computer vision, cloud, data science, les outils pour les développeurs, etc. Plus spécifiquement :- les sessions CUDA et les outils pour les développeurs : https://www.nvidia.com/gtc/sessions/cuda-libraries-and-dev-tools/?ncid=ref-dev-171762-programmez- les sessions Model Builders : https://www.n</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/gtc-2026-la-conference-nvidia-revient-du-16-au-19-mars-39096</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/gtc2026.png?itok=SuW1ghuQ" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 05 Mar 2026 16:13:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wikipedia : un code malveillant activé suite à un audit de sécurité</title>
-      <link>https://www.programmez.com/actualites/wikipedia-un-code-malveillant-active-suite-un-audit-de-securite-39097</link>
-      <description>Wikipedia a dû en urgence mettre en lecture seule les pages suite à de multiples contenus effacés et modifiés. Un code malveillant a réussi à s'introduire sur la plateforme. L'origine est un ver JavaScript dont la mission était de s'infiltrer dans les comptes des administrateurs et supprimer au hasard des pages. Le compte WMFOffice fut compromis. Il dépend de la fondation Wikipedia. Un lien a été trouvé entre cette attaque et un code installée il y a deux ans sur la version russe. On peut parler</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/wikipedia-un-code-malveillant-active-suite-un-audit-de-securite-39097</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Fri, 06 Mar 2026 07:21:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chat SDK : un SDK TypeScript pour créer des chat bots</title>
-      <link>https://www.programmez.com/actualites/chat-sdk-un-sdk-typescript-pour-creer-des-chat-bots-39098</link>
-      <description>Chat SDK est un SDK TypeScript pour construire des chat bots compatibles avec Teams, Google Chat, Telegram, Discord, Slack, etc. Bref : on écrit le chatbot et on le déploie un peu partout. Il faut installer un paquet npm. Selon la plateforme, tout n'est pas supporté de la même manière mais les principales fonctionnalités le sont. Le Chat SDK gère les cartes, les formulaires de dialogues, les emojis, les messages directs, etc. Le SDK est constitué d'un core code (chat) et des différents connecteu</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/chat-sdk-un-sdk-typescript-pour-creer-des-chat-bots-39098</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Fri, 06 Mar 2026 08:17:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 10 Mar 2026 07:27:46 +0000</lastBuildDate>
     <item>
       <title>SymfonyLive Paris : les 26 et 27 mars à Paris</title>
       <link>https://www.programmez.com/actualites/symfonylive-paris-les-26-et-27-mars-paris-39099</link>
@@ -88,6 +56,38 @@
       <guid isPermaLink="false">https://www.programmez.com/actualites/mariadb-annonce-un-accord-pour-racheter-gridgain-et-renforcer-son-offre-ia-39107</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
       <pubDate>Mon, 09 Mar 2026 07:14:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code détruit toute une infrastructure, 24h pour tout restaurer...</title>
+      <link>https://www.programmez.com/actualites/claude-code-detruit-toute-une-infrastructure-24h-pour-tout-restaurer-39108</link>
+      <description>Alexey Grigorev, développeur, travaille pour le site AI Shpping Labs. Il voulait migrer la version actuelle GitHub Pages (statiques) vers AWS puis dans une phase 2, remplacer Next.js vers une version Django. Notre développeur a une idée précise du chantier à mener : 1 / migrer le site statiques vers AWS S32 / migrer le DNS vers AWS et un domaine 100 % managé3 / déployer la version Django vers un sous-domaine4 / après validation, la version Django passe sur le domaine principal. Le plan est clair</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/claude-code-detruit-toute-une-infrastructure-24h-pour-tout-restaurer-39108</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/alexey.png?itok=fNtwbLbQ" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Mar 2026 08:25:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>PHP : toujours pertinent en 2026 mais...</title>
+      <link>https://www.programmez.com/actualites/php-toujours-pertinent-en-2026-mais-39109</link>
+      <description>Matthew Weier O'Phinney de Zend fait un point sur le marché PHP et de la pertinence du langage en 2026. Sans surprise : oui. PHP reste un pilier du web depuis plus de 20 ans. Il est présent dans Drupal, Wordpress. Aujourd'hui, il est en version 8.x avec l'introduction d'un compilateur JIT, le support des énumérations, des améliorations les hooks et les opérateurs. Matthew met en avant le fait que 72 % des sites web utilisent côté serveur du PHP, très très loin devant Ruby, JavaScript. Ce qui n'e</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/php-toujours-pertinent-en-2026-mais-39109</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 09 Mar 2026 09:38:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rust 1.94.0 : Cargo, nouvelles API stabilisées</title>
+      <link>https://www.programmez.com/actualites/rust-1940-cargo-nouvelles-api-stabilisees-39110</link>
+      <description>Rust 1.94.0 a été annoncé le 5 mars dernier. Comme toujours, pour mettre à jour : rustup update stable. Plusieurs nouveautés sont proposées :- Array windows : ajout dans le langage. Il s'agit d'une nouvelle méthode d'itération. Elle fonctionne comme windows mais avec une longuer constante. Les éléments de l'itérateur sont &amp;amp;[T;N] au lieu d'une taille dynamique. Dans plusieurs cas d'usage, la longueur de la fenêtre peut être déduite par la manière dont l'itérateur est utilisé. Exemple donné pour 2</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/rust-1940-cargo-nouvelles-api-stabilisees-39110</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 09 Mar 2026 12:43:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Arduino annonce Arduino Ventuno Q</title>
+      <link>https://www.programmez.com/actualites/arduino-annonce-arduino-ventuno-q-39111</link>
+      <description>Qualcomm annonce une nouvelle carte : l'Arduino Ventuno Q. Elle s'appuie toujours le double processeur de la Uno Q mais en intégrant le Dragonwing IQ8 dédié aux charges et traitement IA, avec un NPU intégré de 40 TOPS (selon le constructeur). Surtout, la carte embarque 16 Go de Ram ce qui donnera une réelle flexibilité dans les usages, ce qui manque cruellement à la Uno Q.Les usages restent peu ou prou les mêmes :- IA- robotique - VLM et plus largement analyse des vidéos- éducation et recherche.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/arduino-annonce-arduino-ventuno-q-39111</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/arduino.png?itok=9ekO3-iz" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Mar 2026 15:25:41 +0000</pubDate>
     </item>
   </channel>
 </rss>
