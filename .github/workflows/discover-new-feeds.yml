@@ -48,16 +48,16 @@ jobs:
           GITHUB_CI: 'true'
           PYTHONUNBUFFERED: '1'
         run: |
-          python3 -u rss_discovery.py
+          python3 -u scripts/rss_discovery.py
 
       - name: Commit discovery results (for resumability)
         if: always()
         run: |
-          git add rss_discovery_results_enhanced.csv
+          git add prospects/rss_discovery_results_enhanced.csv
           if git diff --staged --quiet; then
             echo "No new discovery results to commit"
           else
-            DISCOVERED_COUNT=$(wc -l < rss_discovery_results_enhanced.csv | tr -d ' ')
+            DISCOVERED_COUNT=$(wc -l < prospects/rss_discovery_results_enhanced.csv | tr -d ' ')
             git commit -m "Save RSS discovery progress: ${DISCOVERED_COUNT} entries - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
             git pull --rebase origin main
             git push
@@ -66,19 +66,19 @@ jobs:
 
       - name: Update prospects.csv with discovered feeds
         run: |
-          python3 update_prospects_with_discovered_feeds.py
+          python3 scripts/update_prospects_with_discovered_feeds.py
 
       - name: Update outreach tracker with discovered feeds
         run: |
-          python3 establish_tracker_truth.py
+          python3 scripts/establish_tracker_truth.py
 
       - name: Commit updated prospects and tracker
         run: |
-          git add prospects.csv outreach_progress_tracker.csv
+          git add prospects/prospects.csv prospects/outreach_progress_tracker.csv
           if git diff --staged --quiet; then
             echo "No new feeds discovered"
           else
-            FEED_COUNT=$(git diff --staged prospects.csv | grep -c "^+.*,.*,.*,http" || echo "0")
+            FEED_COUNT=$(git diff --staged prospects/prospects.csv | grep -c "^+.*,.*,.*,http" || echo "0")
             git commit -m "Add ${FEED_COUNT} newly discovered RSS feeds - $(date -u '+%Y-%m-%d')"
             git pull --rebase origin main
             git push
@@ -90,5 +90,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: rss-discovery-log
-          path: rss_discovery_results_enhanced.csv
+          path: prospects/rss_discovery_results_enhanced.csv
           retention-days: 30

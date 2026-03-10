@@ -83,8 +83,8 @@ jobs:
           existing_prospects = []
           existing_ids = set()
           
-          if os.path.exists('prospects.csv'):
-              with open('prospects.csv', 'r', encoding='utf-8') as f:
+          if os.path.exists('prospects/prospects.csv'):
+              with open('prospects/prospects.csv', 'r', encoding='utf-8') as f:
                   reader = csv.DictReader(f)
                   for row in reader:
                       existing_prospects.append(row)
@@ -149,7 +149,12 @@ jobs:
                       new_prospects.append({
                           'id': next_id,
                           'company_name': company_name,
-                          'domain': domain
+                          'domain': domain,
+                          'rss_feed': '',
+                          'email': '',
+                          'contact_name': '',
+                          'notes': '',
+                          'country': ''
                       })
                       next_id += 1
                       added_count += 1
@@ -158,8 +163,8 @@ jobs:
           all_prospects = existing_prospects + new_prospects
           
           # Write back to prospects.csv
-          with open('prospects.csv', 'w', encoding='utf-8', newline='') as f:
-              writer = csv.DictWriter(f, fieldnames=['id', 'company_name', 'domain'])
+          with open('prospects/prospects.csv', 'w', encoding='utf-8', newline='') as f:
+              writer = csv.DictWriter(f, fieldnames=['id', 'company_name', 'domain', 'rss_feed', 'email', 'contact_name', 'notes', 'country'])
               writer.writeheader()
               writer.writerows(all_prospects)
           
@@ -176,7 +181,7 @@ jobs:
       - name: Commit and push changes
         if: steps.parse_csv.outputs.error != 'true'
         run: |
-          git add prospects.csv
+          git add prospects/prospects.csv
           git commit -m "Add prospects from CSV upload (issue #${{ github.event.issue.number }})" || echo "No changes to commit"
           git pull --rebase origin main || echo "Nothing to rebase"
           git push || echo "Nothing to push"

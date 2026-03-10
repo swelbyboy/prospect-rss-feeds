@@ -55,36 +55,35 @@ jobs:
           DOMAIN="${{ steps.parse_issue.outputs.domain }}"
           
           # Read current prospects.csv to get next ID
-          if [ -f "prospects.csv" ]; then
-            LAST_ID=$(tail -n +2 prospects.csv | cut -d',' -f1 | sort -n | tail -1)
+          if [ -f "prospects/prospects.csv" ]; then
+            LAST_ID=$(tail -n +2 prospects/prospects.csv | cut -d',' -f1 | sort -n | tail -1)
             if [ -z "$LAST_ID" ]; then
               NEW_ID=1
             else
               NEW_ID=$((LAST_ID + 1))
             fi
           else
-            # Create file with header if it doesn't exist
-            echo "id,company_name,domain" > prospects.csv
+            echo "id,company_name,domain,rss_feed,email,contact_name,notes,country" > prospects/prospects.csv
             NEW_ID=1
           fi
-          
+
           # Check if domain already exists
-          if grep -q ",$DOMAIN$" prospects.csv; then
+          if grep -q ",$DOMAIN," prospects/prospects.csv; then
             echo "⚠️  Domain $DOMAIN already exists in prospects.csv"
             echo "error=true" >> $GITHUB_OUTPUT
             echo "message=Domain $DOMAIN already exists in prospects.csv" >> $GITHUB_OUTPUT
             exit 1
           fi
-          
+
           # Add new prospect
-          echo "$NEW_ID,$COMPANY_NAME,$DOMAIN" >> prospects.csv
+          echo "$NEW_ID,$COMPANY_NAME,$DOMAIN,,,,,," >> prospects/prospects.csv
           echo "✅ Added prospect: $COMPANY_NAME ($DOMAIN) with ID $NEW_ID"
           echo "success=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push changes
         if: steps.parse_issue.outputs.error != 'true' && steps.parse_issue.outputs.success == 'true'
         run: |
-          git add prospects.csv
+          git add prospects/prospects.csv
           git commit -m "Add prospect from issue #${{ github.event.issue.number }}: ${{ steps.parse_issue.outputs.company_name }}"
           git pull --rebase origin main
           git push

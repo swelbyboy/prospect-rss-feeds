@@ -57,50 +57,49 @@ jobs:
           GITHUB_CI: "true"
           MAX_ARTICLES_PER_PROSPECT: 10
           SCRAPING_TIMEOUT: 60
-          PROSPECTS_CSV: "outreach_progress_tracker.csv"
+          PROSPECTS_CSV: "prospects/outreach_progress_tracker.csv"
         run: |
-          python scraper.py
+          python scripts/scraper.py
 
       - name: Generate index page
         run: |
-          python generate_index.py
+          python scripts/generate_index.py
 
       - name: Update tracker with scraping results
         run: |
-          python establish_tracker_truth.py
+          python scripts/establish_tracker_truth.py
 
-      - name: Commit and push changes
+      - name: Commit tracking data to main
         run: |
-          git add outreach_progress_tracker.csv tracking.csv current_feeds.txt index.html feeds/*.xml || true
+          git add prospects/outreach_progress_tracker.csv prospects/tracking.csv prospects/current_feeds.txt index.html || true
           git diff --quiet && git diff --staged --quiet || \
             (git commit -m "Update scraping results - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" && \
              git pull --rebase origin main && \
              git push)
 
-      - name: Deploy feeds to GitHub Pages
+      - name: Deploy feeds to gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Copy XML feeds to root level for GitHub Pages serving
-          echo "📤 Deploying feeds to GitHub Pages..."
-          
-          # Count feeds to deploy
           feed_count=$(ls feeds/*.xml 2>/dev/null | wc -l)
-          echo "   Found $feed_count feeds to deploy"
-          
-          if [ "$feed_count" -gt 0 ]; then
-            # Copy feeds to root (GitHub Pages serves from root)
-            cp feeds/*.xml . || true
-            
-            # Create .nojekyll to disable Jekyll processing
-            touch .nojekyll
-            
-            # Add and commit
-            git add *.xml .nojekyll || true
-            git diff --staged --quiet || \
-              (git commit -m "Deploy feeds to GitHub Pages - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" && \
-               git pull --rebase origin main && \
-               git push)
-            
-            echo "✅ Feeds deployed to GitHub Pages"
-          else
+          echo "Found $feed_count feeds to deploy"
+
+          if [ "$feed_count" -eq 0 ]; then
             echo "⚠️  No feeds to deploy"
+            exit 0
           fi
+
+          git fetch origin gh-pages
+          git worktree add gh-pages-dir origin/gh-pages
+
+          cp feeds/*.xml gh-pages-dir/
+          touch gh-pages-dir/.nojekyll
+
+          cd gh-pages-dir
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add .
+          git diff --staged --quiet || \
+            (git commit -m "Deploy feeds to GitHub Pages - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" && \
+             git push origin gh-pages && \
+             echo "✅ Feeds deployed to gh-pages")
