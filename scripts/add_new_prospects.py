@@ -1,13 +1,25 @@
 #!/usr/bin/env python3
 """
-Add new prospects from WITH Newsletter CSV to prospects.csv for RSS discovery.
+Add new prospects from a CSV file to prospects.csv for RSS discovery.
+
+Usage: python scripts/add_new_prospects.py <input.csv>
+
+Input CSV must have columns: Company name, Website URL, Country
 """
 
 import csv
+import os
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from config import Config
 
-NEW_PROSPECTS = "20251126_Prospects with and without Newsletters - Prospect Domains - WITH Newsletter.csv"
-PROSPECTS = "prospects.csv"
-OUTPUT = "prospects.csv"
+if len(sys.argv) < 2:
+    print("Usage: python scripts/add_new_prospects.py <input.csv>")
+    sys.exit(1)
+
+NEW_PROSPECTS = sys.argv[1]
+PROSPECTS = Config.PROSPECTS_CSV
+OUTPUT = Config.PROSPECTS_CSV
 
 def extract_domain(url):
     """Extract clean domain from URL."""
