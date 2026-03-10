@@ -8,78 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 12:25:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 06:55:20 +0000</lastBuildDate>
     <item>
-      <title>Getting Started with cURL: Your First Steps in Talking to Servers</title>
-      <link>https://dev.to/sanjeev_singh_d0e6cd59459/getting-started-with-curl-your-first-steps-in-talking-to-servers-47ih</link>
-      <description>What Are Servers, and Why Do We Need to Talk to Them? Before we dive into cURL, let's understand a fundamental concept: servers. Imagine you're at a restaurant. You (the client) want food, but you don't go into the kitchen yourself. Instead, you tell the waiter what you want, the waiter takes your request to the kitchen (the server), and then brings back your food (the response). In programming, it works similarly: Your computer is the client (like you at the restaurant) The server is a powerful</description>
-      <guid isPermaLink="false">https://dev.to/sanjeev_singh_d0e6cd59459/getting-started-with-curl-your-first-steps-in-talking-to-servers-47ih</guid>
-      <pubDate>Thu, 29 Jan 2026 11:58:05 +0000</pubDate>
+      <title>On-Call Burnout: What Incident Data Doesn’t Show</title>
+      <link>https://dev.to/hamza_2315/on-call-burnout-what-incident-data-doesnt-show-2kap</link>
+      <description>Incident dashboards measure system health, but they rarely reveal the workload experienced by the engineers responding to alerts. Typical On-Call On-call engineers are developers responsible for responding to and resolving critical system outages. Incidents happen, alerts fire, and on-call engineers respond. Teams rotate on-call duties so that someone is always responsible for resolving outages, performance issues, or system failures when they occur. Teams track incident metrics like incident co</description>
+      <guid isPermaLink="false">https://dev.to/hamza_2315/on-call-burnout-what-incident-data-doesnt-show-2kap</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6bvu76nly4m5pe7edcsp.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Mar 2026 06:11:55 +0000</pubDate>
     </item>
     <item>
-      <title>Why Your Team Doesn't Believe Your Dashboards</title>
-      <link>https://dev.to/linkbenjamin/why-your-team-doesnt-believe-your-dashboards-4k19</link>
-      <description>Long ago I worked on a team that was the quintessential story: understaffed, overassigned, always on the verge of completely flying apart at the seams. Our backlog continually grew despite the heroic efforts of this super-dedicated little crew. Management, however, didn't see it that way. Our director’s analytics team began sending shiny dashboards to our manager: charts full of trends and deltas. According to the data, our “velocity” was dropping and our “defect rate” was rising. But we weren’t</description>
-      <guid isPermaLink="false">https://dev.to/linkbenjamin/why-your-team-doesnt-believe-your-dashboards-4k19</guid>
-      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
+      <title>I built a CLI that sets up a full blockchain dev stack in one command looking for feedback</title>
+      <link>https://dev.to/utabk/i-built-a-cli-that-sets-up-a-full-blockchain-dev-stack-in-one-command-looking-for-feedback-5bha</link>
+      <description>Hey everyone, I've been working on an open-source CLI tool called Dokrypt that sets up a complete blockchain dev environment with a single command. Instead of manually configuring Anvil + Docker Compose + block explorer + IPFS + oracles separately, you just run: npm install -g dokrypt dokrypt init my-app --template evm-defi dokrypt up And you get a local chain, block explorer, IPFS, oracles, indexers all running and connected. What it does: Spins up Anvil/Hardhat/Geth with one command. Includes</description>
+      <guid isPermaLink="false">https://dev.to/utabk/i-built-a-cli-that-sets-up-a-full-blockchain-dev-stack-in-one-command-looking-for-feedback-5bha</guid>
+      <pubDate>Tue, 10 Mar 2026 06:16:39 +0000</pubDate>
     </item>
     <item>
-      <title>Dead Performers and Machine Creations</title>
-      <link>https://dev.to/rawveg/dead-performers-and-machine-creations-4g64</link>
-      <description>In September 2025, Hollywood's unions found themselves confronting an adversary unlike any they had faced before. Tilly Norwood had attracted the attention of multiple talent agencies eager to represent her. She possessed the polish of a seasoned performer, the algorithmic perfection of someone who had never experienced a bad hair day, and one notable characteristic that set her apart from every other aspiring actor in Los Angeles: she did not exist. Tilly Norwood is not human. She is a fully sy</description>
-      <guid isPermaLink="false">https://dev.to/rawveg/dead-performers-and-machine-creations-4g64</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fos7pdncawa0mgqcin0gf.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 12:00:00 +0000</pubDate>
+      <title>6 Redis Caching Patterns That Cut Node.js API Response Time from 1.5s to 150ms</title>
+      <link>https://dev.to/jsgurujobs/6-redis-caching-patterns-that-cut-nodejs-api-response-time-from-15s-to-150ms-4944</link>
+      <description>Most Node.js apps hit the database on every request. That works until traffic grows and your API starts returning responses in seconds instead of milliseconds. These Redis caching patterns remove most database reads and turn slow endpoints into memory lookups. 1 Cache database queries instead of running them on every request Most APIs query the database even when the same data was requested seconds ago. Before (PostgreSQL on every request) export async function getJobs(filters) { const jobs = aw</description>
+      <guid isPermaLink="false">https://dev.to/jsgurujobs/6-redis-caching-patterns-that-cut-nodejs-api-response-time-from-15s-to-150ms-4944</guid>
+      <pubDate>Tue, 10 Mar 2026 06:16:40 +0000</pubDate>
     </item>
     <item>
-      <title>Mr Sunday Movies: The MCU Spider-Man Trilogy - Caravan of Garbage</title>
-      <link>https://dev.to/popcorn_movies/mr-sunday-movies-the-mcu-spider-man-trilogy-caravan-of-garbage-23df</link>
-      <description>Hey web-heads! Get ready for a "Caravan of Garbage" deep dive into Tom Holland's MCU Spider-Man trilogy! This compilation looks back at Homecoming, Far From Home, and the epic No Way Home, which brought back all the Spideys (yeah, Tobey and Andrew were there!). It's all leading up to something called "Brand New Day" in 2026, so brush up on how our high-school hero navigated life and villains across those three big flicks. Watch on YouTube</description>
-      <guid isPermaLink="false">https://dev.to/popcorn_movies/mr-sunday-movies-the-mcu-spider-man-trilogy-caravan-of-garbage-23df</guid>
-      <pubDate>Thu, 29 Jan 2026 12:00:37 +0000</pubDate>
+      <title>Beyond fmt: Building a Flexible Text Builder in Go with Wissance/stringFormatter</title>
+      <link>https://dev.to/evillord666/beyond-fmt-building-a-flexible-text-builder-in-go-with-wissancestringformatter-2ec3</link>
+      <description>Introduction Go is renowned for its performance and simplicity, especially in system programming and web services. Its standard fmt package is a workhorse for string formatting. However, when building complex text output—like dynamic configuration strings, detailed logs, or formatted reports—developers often find themselves writing repetitive code or wrestling with fmt.Sprintf's verb-based syntax. This article explores the Wissance/stringFormatter project, an open-source Go module that reimagine</description>
+      <guid isPermaLink="false">https://dev.to/evillord666/beyond-fmt-building-a-flexible-text-builder-in-go-with-wissancestringformatter-2ec3</guid>
+      <pubDate>Tue, 10 Mar 2026 06:18:13 +0000</pubDate>
     </item>
     <item>
-      <title>Our AI Critic Was Going Easy on Us (Research Told Us Why)</title>
-      <link>https://dev.to/theskillsteam/our-ai-critic-was-going-easy-on-us-research-told-us-why-55j0</link>
-      <description>We run a team of AI personas. A planner, an architect, a critic, a builder, a QA engineer. They collaborate in shared context, challenge each other's designs, and review each other's work. One day we asked: is our critic actually critiquing? Or is it the same model rating its own work? The Papers That Started It Two arxiv papers landed in a team discussion. The first (2404.13076) turned out to be about something we didn't expect: LLM self-preference bias. Models recognize their own output and ra</description>
-      <guid isPermaLink="false">https://dev.to/theskillsteam/our-ai-critic-was-going-easy-on-us-research-told-us-why-55j0</guid>
-      <pubDate>Thu, 29 Jan 2026 12:01:43 +0000</pubDate>
+      <title>The New AI Stack Every Developer Should Understand</title>
+      <link>https://dev.to/jaideepparashar/the-new-ai-stack-every-developer-should-understand-3ejl</link>
+      <description>Invitation: Now, I am officially active on X (Twitter). For new DevOps ideas, you can join me on X (Twitter) as well. Click Here Article Abstract: Every technological era produces its own stack. The web era had: browsers HTTP application servers databases frontend frameworks. The cloud era introduced: containers orchestration distributed infrastructure observability platforms. AI is now creating a new stack of its own. Understanding this stack is becoming essential, not only for AI specialists b</description>
+      <guid isPermaLink="false">https://dev.to/jaideepparashar/the-new-ai-stack-every-developer-should-understand-3ejl</guid>
+      <pubDate>Tue, 10 Mar 2026 06:18:59 +0000</pubDate>
     </item>
     <item>
-      <title>.NET File‑Based Apps for API Prototyping: What Bit Me on First Run</title>
-      <link>https://dev.to/eelcolos/net-file-based-apps-for-api-prototyping-what-bit-me-on-first-run-na2</link>
-      <description>Using .NET file-based apps (via dotnet run app.cs) enables rapid prototyping and simplified project structure by eliminating project scaffolding. This feature was announced for dotnet 10 just before .Net Conf 2025: https://devblogs.microsoft.com/dotnet/announcing-dotnet-run-app/ It’s a neat way to try ideas quickly. I tried to find out if this would work with FastEndpoints to demo an API that way. Example (FastEndpoints + file-based app) #:sdk Microsoft.NET.Sdk.Web #:package FastEndpoints@7.*-*</description>
-      <guid isPermaLink="false">https://dev.to/eelcolos/net-file-based-apps-for-api-prototyping-what-bit-me-on-first-run-na2</guid>
-      <pubDate>Thu, 29 Jan 2026 12:03:21 +0000</pubDate>
+      <title>I’m in! 🥳🤙🏼 contratz to all!</title>
+      <link>https://dev.to/dnszlsk/im-in-contratz-to-all-1757</link>
+      <description>Congrats to the GitHub Copilot CLI Challenge Winners! Jess Lee for The DEV Team ・ Mar 9 #devchallenge #githubchallenge #cli #ai</description>
+      <guid isPermaLink="false">https://dev.to/dnszlsk/im-in-contratz-to-all-1757</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Mar 2026 06:19:44 +0000</pubDate>
     </item>
     <item>
-      <title>Building in Public: How I Pivoted from Features to Validation 🚀</title>
-      <link>https://dev.to/lujandev/building-in-public-how-i-pivoted-from-features-to-validation-2150</link>
-      <description>I spent months building features almost every day. Clean code. Real infra. Everything working. But I made a classic developer mistake: I built first… and asked questions later. 🚨 As a developer, my default mode was: “Just add one more feature.” Admin panel. Payments. Webhooks. Integrations. More modules. Technically solid. Business-wise? No real validation 😅 After ~8 months, I realized the problem wasn’t the code. I was trying to validate: an e-commerce platform a SaaS product and my own interna</description>
-      <guid isPermaLink="false">https://dev.to/lujandev/building-in-public-how-i-pivoted-from-features-to-validation-2150</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ftc520gmvsjgp0xehoc7f.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 12:04:22 +0000</pubDate>
+      <title>Comparing Wallet Top-Up Fees Across Global Fintech Platforms</title>
+      <link>https://dev.to/vzr0/comparing-wallet-top-up-fees-across-global-fintech-platforms-2gh4</link>
+      <description>Comparing Wallet Top-Up Fees Across Global Fintech Platforms Digital wallets have made sending and receiving money incredibly simple. But one area where users still experience confusion is funding a wallet using a card. Depending on the platform and country, card funding fees can vary significantly. Some platforms subsidize the cost, while others pass the full processing fee to the user. This article compares several fintech platforms and examines how card-to-wallet funding works across differen</description>
+      <guid isPermaLink="false">https://dev.to/vzr0/comparing-wallet-top-up-fees-across-global-fintech-platforms-2gh4</guid>
+      <pubDate>Tue, 10 Mar 2026 06:20:45 +0000</pubDate>
     </item>
     <item>
-      <title>Announcing SuperQode and SuperQE: Redefining Quality Engineering for Agentic Software</title>
-      <link>https://dev.to/shashikant86/announcing-superqode-and-superqe-redefining-quality-engineering-for-agentic-software-4ek9</link>
-      <description>Today we are publicly announcing SuperQode and SuperQE. They are open source tools that redefine how quality engineering works in the age of agentic software. SuperQode is the interactive TUI for exploratory quality engineering. SuperQE is the automation CLI for deep evaluation testing and CI workflows. Together they create a new workflow where agents test agents, evidence replaces assumptions, and humans remain in control. This release is the foundation for a new quality standard. AI can write</description>
-      <guid isPermaLink="false">https://dev.to/shashikant86/announcing-superqode-and-superqe-redefining-quality-engineering-for-agentic-software-4ek9</guid>
-      <pubDate>Thu, 29 Jan 2026 12:11:00 +0000</pubDate>
+      <title>Debugging Invisible Elements: transform-origin + scaleX(-1)</title>
+      <link>https://dev.to/beep_beep_cat/debugging-invisible-elements-transform-origin-scalex-1-4f1f</link>
+      <description>TL;DR Events firing correctly, element exists in the DOM, DevTools force-visible works — but nothing shows up on screen. Before diving into rendering pipelines and compositing layers, check your CSS transform geometry first. The element might just be somewhere you can't see. The Symptoms This combination is particularly deceptive because every standard check passes: Check Result Event firing ✅ Normal DOM presence ✅ Normal Element position ✅ Roughly correct DevTools force-visible ✅ Works Everythi</description>
+      <guid isPermaLink="false">https://dev.to/beep_beep_cat/debugging-invisible-elements-transform-origin-scalex-1-4f1f</guid>
+      <pubDate>Tue, 10 Mar 2026 06:32:11 +0000</pubDate>
     </item>
     <item>
-      <title>Understanding HTML Tags and Elements</title>
-      <link>https://dev.to/anoop-rajoriya/understanding-html-tags-and-elements-1p</link>
-      <description>Content List What is HTML and why we using it What is HTML tags What is elements &amp;amp; elements vs tags Self closing elements Inline and blcok level elements Rerences What HTML is and why we use it? HTML stand for Hyper Text Markup Language. In that hyper text refere to system that provide a link to access other pages on web, markup means use of annotate text give instruction to browser how to structure and display page content. Brower can not read html like humans do it need a instruction to differ</description>
-      <guid isPermaLink="false">https://dev.to/anoop-rajoriya/understanding-html-tags-and-elements-1p</guid>
-      <pubDate>Thu, 29 Jan 2026 12:12:12 +0000</pubDate>
+      <title>Why Hospitals Are Switching to Cloud-Based HMIS in 2026</title>
+      <link>https://dev.to/sisgaintech/why-hospitals-are-switching-to-cloud-based-hmis-in-2026-ibj</link>
+      <description>The Digital Transformation of Modern Hospitals Healthcare is undergoing one of the biggest digital transformations in history. Hospitals today are under constant pressure to improve patient care, reduce operational costs, and manage massive volumes of medical data efficiently. Traditional paper-based processes and even older on-premise hospital software systems are no longer able to keep up with the increasing complexity of healthcare management. As a result, hospitals around the world are turni</description>
+      <guid isPermaLink="false">https://dev.to/sisgaintech/why-hospitals-are-switching-to-cloud-based-hmis-in-2026-ibj</guid>
+      <pubDate>Tue, 10 Mar 2026 06:33:23 +0000</pubDate>
     </item>
     <item>
-      <title>Laravel Boost: Making AI Actually Useful for Laravel Developers</title>
-      <link>https://dev.to/vertex_invo_0005b24675db4/laravel-boost-making-ai-actually-useful-for-laravel-developers-3kmh</link>
-      <description>Laravel Boost allows AI tools to work with your real Laravel database structure instead of guessing. It understands migrations, models, and relationships — resulting in better suggestions and cleaner code. If you use AI in your Laravel workflow, this is worth checking out. 🔗 Read more: https://vertexinvo.com/blog/laravel-boost-the-ai-tool-that-finally-understands-your-database</description>
-      <guid isPermaLink="false">https://dev.to/vertex_invo_0005b24675db4/laravel-boost-making-ai-actually-useful-for-laravel-developers-3kmh</guid>
-      <pubDate>Thu, 29 Jan 2026 12:12:53 +0000</pubDate>
+      <title>Broken Authentication in Fintech Systems</title>
+      <link>https://dev.to/tech_wizard/broken-authentication-in-fintech-systems-5592</link>
+      <description>Most fintech breaches don't start with sophisticated exploits. They start with a login that should have failed, but didn't. Authentication sounds simple: you prove who you are, and you get access. But in practice, it's one of the most consistently broken parts of financial software. Not because developers don't care, but because the attack surface is wider than most teams realize during the build phase. Think of it like a bank vault with a perfect door but a weak combination. The engineering loo</description>
+      <guid isPermaLink="false">https://dev.to/tech_wizard/broken-authentication-in-fintech-systems-5592</guid>
+      <pubDate>Tue, 10 Mar 2026 06:35:32 +0000</pubDate>
     </item>
   </channel>
 </rss>

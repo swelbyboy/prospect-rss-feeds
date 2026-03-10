@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 12:26:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 06:55:31 +0000</lastBuildDate>
     <item>
-      <title>SonicDE Looks To Preserve &amp;amp; Improve The X11-Specific KDE Code</title>
-      <link>https://www.phoronix.com/news/SonicDE-Improving-KDE-X11-Code</link>
-      <description>In light of Plasma 6.8 looking to go Wayland-exclusive and retire their X11 session support, SonicDE (formerly "KDE-Lite") is getting off the ground as a fork of the relevant X11 support within the KDE desktop...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/SonicDE-Improving-KDE-X11-Code</guid>
-      <pubDate>Wed, 28 Jan 2026 11:24:00 +0000</pubDate>
+      <title>GCC 16 Compiler Aiming For Mid-April Release Candidate But "Slow" Progress On Fixes</title>
+      <link>https://www.phoronix.com/news/GCC-16-RC-Mid-April</link>
+      <description>Richard Biener of SUSE published a new status report on the state of GCC 16 development. Regression fixing has been going slow but they are hoping to publish a release candidate by mid-April...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GCC-16-RC-Mid-April</guid>
+      <pubDate>Mon, 09 Mar 2026 10:28:03 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Ryzen 7 9850X3D Linux Performance</title>
-      <link>https://www.phoronix.com/review/amd-ryzen-7-9850x3d-linux</link>
-      <description>Ahead of tomorrow's official availability of the AMD Ryzen 7 9850X3D at $499 USD, today the review embargo lifted. This faster variant to the existing Ryzen 7 9800X3D has been undergoing lots of Linux benchmarking the past two weeks for seeing the performance capabilities of this fastest 8-core 3D V-Cache processor.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/amd-ryzen-7-9850x3d-linux</guid>
-      <pubDate>Wed, 28 Jan 2026 14:00:00 +0000</pubDate>
+      <title>New Rust Driver Aims To Improve Upstream Linux On Synology NAS Devices</title>
+      <link>https://www.phoronix.com/news/Synology-Microp-Linux-Driver</link>
+      <description>A set of patches posted to the Linux kernel mailing list last week introduce a new driver for enhancing the upstream/mainline Linux kernel support for Synology network attached storage (NAS) devices. This new driver is Synology Microp and is making use of the Linux kernel's modern Rust programming language support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Synology-Microp-Linux-Driver</guid>
+      <pubDate>Mon, 09 Mar 2026 13:08:00 +0000</pubDate>
     </item>
     <item>
-      <title>FreeType Speeds-Up ClearType-Like LCD Filter Rendering By 40%</title>
-      <link>https://www.phoronix.com/news/FreeType-Faster-ClearType-Like</link>
-      <description>The widely-used FreeType library used for rendering text onto bitmaps has landed a significant optimization for its LCD filtering code path for Microsoft ClearType-like rendering. Thanks to the improvement, the rendering can be around 40% faster...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FreeType-Faster-ClearType-Like</guid>
-      <pubDate>Wed, 28 Jan 2026 16:23:48 +0000</pubDate>
+      <title>AMD Formally Launches Ryzen AI Embedded P100 Series 8-12 Core Models</title>
+      <link>https://www.phoronix.com/news/AMD-Ryzen-Embedded-P100-Series</link>
+      <description>AMD announced back at CES the Ryzen AI Embedded P100 series with initially the models up to six Zen 5 cores launching while the eight through twelve core models would be available later in H1. Today AMD formally announced those higher-tier Ryzen AI Embedded P100 series parts...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-Ryzen-Embedded-P100-Series</guid>
+      <pubDate>Mon, 09 Mar 2026 14:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mesa 26.0-rc2 Released With Numerous AMD, NVIDIA &amp;amp; Intel Driver Fixes</title>
-      <link>https://www.phoronix.com/news/Mesa-26.0-rc2-Released</link>
-      <description>Following last week's code branching / feature freeze and first release candidate of Mesa 26.0, Mesa 26.0-rc2 is now available with an initial batch of bug fixes for this quarter's feature update to these open-source OpenGL and Vulkan drivers...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mesa-26.0-rc2-Released</guid>
-      <pubDate>Wed, 28 Jan 2026 18:03:07 +0000</pubDate>
+      <title>NVIDIA 595 Linux Driver Running Well In Early Benchmarks</title>
+      <link>https://www.phoronix.com/review/nvidia-595-linux</link>
+      <description>Last week NVIDIA released the 595.45.04 beta Linux driver as their first public build in the R595 release branch. The NVIDIA R595 Linux driver is bringing a number of Vulkan driver improvements, HDR enhancements, DRI3 v1.2 support, and a variety of other improvements. Benchmarking the NVIDIA 595.45.04 Linux driver the past few days on GeForce RTX 50 "Blackwell" have been showing some nice incremental performance improvements over the current NVIDIA 590 driver stable series.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/nvidia-595-linux</guid>
+      <pubDate>Mon, 09 Mar 2026 14:35:53 +0000</pubDate>
     </item>
     <item>
-      <title>GNOME 50 Finally Lands Improved Discrete GPU Detection</title>
-      <link>https://www.phoronix.com/news/GNOME-50-Better-GPU-Detection</link>
-      <description>The upcoming release of GNOME 50 to be found in the likes of Ubuntu 26.04 LTS and Fedora Workstation 44 will feature improved discrete GPU detection within the GNOME Shell. This effort has been two years coming and finally merged this week...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNOME-50-Better-GPU-Detection</guid>
-      <pubDate>Wed, 28 Jan 2026 20:45:11 +0000</pubDate>
+      <title>Intel Publishes XeSS 3 SDK To GitHub - Still As Windows-Only Binaries</title>
+      <link>https://www.phoronix.com/news/Intel-XeSS-3-SDK-GitHub</link>
+      <description>Intel just published the XeSS 3.0 SDK to GitHub as the newest version of their Xe Super Sampling AI-enhanced upscaling technology for gamers. Sadly though it remains proprietary software and only with native support for Windows...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-XeSS-3-SDK-GitHub</guid>
+      <pubDate>Mon, 09 Mar 2026 15:10:43 +0000</pubDate>
     </item>
     <item>
-      <title>Wasmer 7.0 Released For Advancing WebAssembly On The Desktop &amp;amp; Anywhere</title>
-      <link>https://www.phoronix.com/news/Wasmer-7.0-Released</link>
-      <description>Wasmer 7.0 is out today for this WebAssembly "WASM" run-time for enabling lightweight containers that can run "anywhere" from the desktop to cloud and the edge. The security-minded and extensible WASM runtime provided by Wasmer has already proven to be quite robust while with Wasmer 7.0 has become even more featureful...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Wasmer-7.0-Released</guid>
-      <pubDate>Wed, 28 Jan 2026 21:13:02 +0000</pubDate>
+      <title>Ubuntu 26.04 LTS Officially Supporting Cloud-Based Authentication With Authd</title>
+      <link>https://www.phoronix.com/news/Ubuntu-26.04-LTS-Authd</link>
+      <description>Canonical for a while has been developing Authd as an authentication service for external cloud-based identity providers. Authd was designed from the ground-up to provide secure management of identity and access for Ubuntu systems while only with next month's Ubuntu 26.04 LTS release is it actually hitting the universe archive...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-26.04-LTS-Authd</guid>
+      <pubDate>Mon, 09 Mar 2026 15:45:53 +0000</pubDate>
     </item>
     <item>
-      <title>GNU gettext Reaches Version 1.0 After 30+ Years In Development - Adds LLM Features</title>
-      <link>https://www.phoronix.com/news/GNU-gettext-1.0</link>
-      <description>Sun Microsystems began developing gettext in the early 1990s and the GNU Project began GNU gettext development in 1995 for this widely-used internationalization and localization system commonly for multi-lingual integration. While GNU gettext is commonly used by countless open-source projects and adapted for many different programming languages, only an hour ago was GNU gettext 1.0 finally released...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GNU-gettext-1.0</guid>
-      <pubDate>Thu, 29 Jan 2026 01:31:08 +0000</pubDate>
+      <title>NVIDIA Adds Official Support For RHEL-Compatible Distributions Like AlmaLinux With CUDA 13.2</title>
+      <link>https://www.phoronix.com/news/NVIDIA-Official-RHEL-Compat</link>
+      <description>With CUDA 13.2 that is now shipping, NVIDIA has provided official support for Red Hat Enterprise Linux compatible distributions/downstreams like AlmaLinux to CUDA. With this official NVIDIA CUDA support for these RHEL-compatible distributions, NVIDIA is also allowing the NVIDIA packages to be distributed directly from the OS package repositories...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-Official-RHEL-Compat</guid>
+      <pubDate>Mon, 09 Mar 2026 18:41:00 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA VA-API Driver 0.0.15 Released With A Few Fixes</title>
-      <link>https://www.phoronix.com/news/NVIDIA-VA-API-Driver-0.0.15</link>
-      <description>The NVIDIA-VAAPI-Driver 0.0.15 was released overnight as this VA-API driver implementation built atop NVIDIA's NVDEC interface used by their proprietary user-space driver stack. The purpose of NVIDIA-VAAPI-Driver as this community open-source project continues to be around enabling video acceleration for NVIDIA GPUs with the Firefox web browser on Linux that supports the VA-API interface but not NVIDIA's NVDEC...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-VA-API-Driver-0.0.15</guid>
-      <pubDate>Thu, 29 Jan 2026 10:57:40 +0000</pubDate>
+      <title>NVIDIA Releases New R595-Derived Vulkan Developer Beta For Linux With New Features</title>
+      <link>https://www.phoronix.com/news/NVIDIA-595.44.02-Linux-Vulkan</link>
+      <description>Last week NVIDIA released the 595.45.04 Linux driver beta as their first release in the R595 series for Linux and it's running very well in initial testing. Today as part of their Vulkan developer beta program, they have released the NVIDIA 595.44.02 driver that brings some new Vulkan API features...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-595.44.02-Linux-Vulkan</guid>
+      <pubDate>Mon, 09 Mar 2026 20:33:21 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Thermal Daemon 2.5.11 Released With Wildcat Lake Support</title>
-      <link>https://www.phoronix.com/news/Intel-Thermal-Daemon-2.5.11</link>
-      <description>With Intel Panther Lake now shipping, open-source Intel engineers working on the client side are turning to tidying up support for their next target: Wildcat Lake. That more cost effective alternative to Panther Lake now has Intel Thermal Daemon support in getting ready for Linux desktops/laptops...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-Thermal-Daemon-2.5.11</guid>
-      <pubDate>Thu, 29 Jan 2026 11:19:48 +0000</pubDate>
+      <title>There's Hope That At Least Colorado's Age Attestation Bill Could Exclude Open-Source</title>
+      <link>https://www.phoronix.com/news/Colorado-Maybe-Exclude-OSS</link>
+      <description>Last week was a statement by System76 regarding recent age verification laws in California and Colorado among other US states that could have a profound impact on Linux distributions and other open-source software. The Colorado legislation is especially pressing to System76 considering that is where they are based. Fortunately, they aren't taking this lightly and there is some hope that at least in Colorado open-source software could be excluded...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Colorado-Maybe-Exclude-OSS</guid>
+      <pubDate>Mon, 09 Mar 2026 23:07:56 +0000</pubDate>
     </item>
     <item>
-      <title>Valve Developer Improves Aging AMD APUs On Linux With VRR, DP/HDMI Audio, HDR &amp;amp; Atomic</title>
-      <link>https://www.phoronix.com/news/AMDGPU-DC-Improved-GCN-1.1-APUs</link>
-      <description>Timur Kristóf of Valve's Linux graphics team last year addressed remaining issues in the open-source AMDGPU kernel graphics driver so old AMD GCN 1.0 and GCN 1.1 GPUs could transition to using AMDGPU by default rather than the former "Radeon" kernel driver that is largely in maintenance mode for pre-GCN/RDNA GPUs. One caveat though was the GCN 1.1 APU support still having some limitations leading to Kaveri and friends not being able to use the modern AMDGPU DC "Display Core" code. But new patche</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-DC-Improved-GCN-1.1-APUs</guid>
-      <pubDate>Thu, 29 Jan 2026 11:36:50 +0000</pubDate>
+      <title>FreeBSD 14.4 Released For Those Not Yet Ready To Move To FreeBSD 15</title>
+      <link>https://www.phoronix.com/news/FreeBSD-14.4-Released</link>
+      <description>FreeBSD 14.4 is out today as the latest update to the aging FreeBSD 14 series for those not yet ready to upgrade to FreeBSD 15 that debuted as stable last year...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-14.4-Released</guid>
+      <pubDate>Tue, 10 Mar 2026 00:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

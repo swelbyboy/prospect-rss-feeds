@@ -8,86 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 12:59:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 07:27:46 +0000</lastBuildDate>
     <item>
-      <title>IntelliJ Scala Plugin : quelles évolutions en 2025 ?</title>
-      <link>https://www.programmez.com/actualites/intellij-scala-plugin-quelles-evolutions-en-2025-38933</link>
-      <description>JetBrains fait le point sur le plug Scala dans IntelliJ IDEA. La dernière version est la version 2025.3. En 2025, le plugin a introduit le support de Scala 3.x avec notamment les Named tuples, les types Opaque. Autre nouveauté : la nouvelle couche de modules, sbt, activée par défaut. Une des idées majeures est de mieux séparéer les modules de productions et les modules de tests. Autre évolution : le mode X-Ray. De multiples améliorations ont été faites sur l'affichage des appels, des paramètres.</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/intellij-scala-plugin-quelles-evolutions-en-2025-38933</guid>
+      <title>SymfonyLive Paris : les 26 et 27 mars à Paris</title>
+      <link>https://www.programmez.com/actualites/symfonylive-paris-les-26-et-27-mars-paris-39099</link>
+      <description>La conférence SymfonyLive Paris revient les 26 et 27 mars. Chaque année, cet événement rassemble la communauté technique autour des grandes évolutions du framework et des enjeux qui façonnent l’avenir du développement web. Cette nouvelle édition réunira près de 500 participants (développeurs, décideurs et sponsors) et une quinzaine de conférenciers issus de l’écosystème Symfony.Trois focus sont mis en avant pour cette édition : un focus sur les nouveautés de Symfony 8, les dernières avancées aut</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/symfonylive-paris-les-26-et-27-mars-paris-39099</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Tue, 27 Jan 2026 19:07:42 +0000</pubDate>
+      <pubDate>Fri, 06 Mar 2026 08:33:22 +0000</pubDate>
     </item>
     <item>
-      <title>DevCon 27 I.A. &amp;amp; Vibe Coding édition 2026 : CPF est ouvert !</title>
-      <link>https://www.programmez.com/actualites/devcon-27-ia-vibe-coding-edition-2026-cpf-est-ouvert-38935</link>
-      <description>Le magazine Programmez! organise sa prochaine conférence DevCon le 28 mai au campus 42 Paris. 5h de conférence, 5 à 6 sessions.Le thème : - créer son IA local- les modèles de développements- sécurité &amp;amp; hallucinations - les protocoles et la notion d'agent- hardwareAudiences : les étudiants de l'école, les développeurs, CTO et tech load2 formats de sessions :- standard : 45 minutes- quickie : 20-25 minutesATTENTION : session en Français uniquement, les slides peuvent être en Anglais.L'appel à sess</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/devcon-27-ia-vibe-coding-edition-2026-cpf-est-ouvert-38935</guid>
+      <title>Windows Terminal : bientôt la version 1.25</title>
+      <link>https://www.programmez.com/actualites/windows-terminal-bientot-la-version-125-39103</link>
+      <description>Windows Terminal arrivera bientôt en version 1.25. Une préversion est disponible depuis quelques heures. Cette version ajoute de nouvelles langues dans le panneau command. Elle version propose aussi la recherche dans les paramètres pour aller plus vite. Cette version apporte d'autres améliorations :- support de thème Modern Dark de VS Code- nouveau paramètre dédié aux extensions- quelques bugs sont fixésNote de version : https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-25-re</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/windows-terminal-bientot-la-version-125-39103</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/terminal-settings-search.png?itok=izEmS4io" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 06 Mar 2026 08:56:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codex : l'application OpenAI est disponible sur Windows</title>
+      <link>https://www.programmez.com/actualites/codex-lapplication-openai-est-disponible-sur-windows-39104</link>
+      <description>OpenAI poursuit le déploiement de Codex nativement sur les OS. Après la version macOS en février, c'est désormais la version Windows qui a été annoncée le 4 mars dernier. "Nous sommes également ravis de faire découvrir à davantage de personnes tout ce qu’il est désormais possible de faire avec Codex⁠. Pendant une durée limitée, Codex est inclus dans les formules ChatGPT Free et ChatGPT Go, et nous doublons les limites d’utilisation des formules Plus, Pro, Business, Enterprise et Edu. Ces limites</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/codex-lapplication-openai-est-disponible-sur-windows-39104</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 28 Jan 2026 08:17:12 +0000</pubDate>
+      <pubDate>Fri, 06 Mar 2026 10:17:37 +0000</pubDate>
     </item>
     <item>
-      <title>OpenSilver 3.3 : intégration native entre XAML et Blazor</title>
-      <link>https://www.programmez.com/actualites/opensilver-33-integration-native-entre-xaml-et-blazor-38936</link>
-      <description>OpenSilver continue à évoluer. Ce successeur de Silverlight de Microsoft arrive en version 3.3. La principale nouveauté est une intégration native entre XAML et Blazor. "Les développeurs peuvent désormais intégrer des composants Blazor provenant de bibliothèques telles que DevExpress, Syncfusion, MudBlazor, Radzen et Blazorise directement dans des applications XAML, sans ponts JavaScript ni surcharge de performance." explique l'éditeur Userware.OpenSilver est un framework open-source qui exécute</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/opensilver-33-integration-native-entre-xaml-et-blazor-38936</guid>
+      <title>WebHaptics : intégrer un retour haptique à une app web</title>
+      <link>https://www.programmez.com/actualites/webhaptics-integrer-un-retour-haptique-une-app-web-39105</link>
+      <description>Les retours haptiques sur mobile sont très pratiques pour donner un contexte à l'utilisateur, une réponse ou tout simplement avertir d'une action ou d'un problème. WebHaptics permet d'ajouter ces retours dans vos apps web. Il supporte React, Vue et Svelte. Il faut installer le paquet npm et important dans votre projet. Le code d'intégration :import { WebHaptics, defaultPatterns } from "web-haptics";const haptics = new WebHaptics();haptics.trigger(); // medium impacthaptics.trigger(defaultPattern</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/webhaptics-integrer-un-retour-haptique-une-app-web-39105</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 28 Jan 2026 08:29:05 +0000</pubDate>
+      <pubDate>Fri, 06 Mar 2026 15:09:56 +0000</pubDate>
     </item>
     <item>
-      <title>IONOS supporte Red Hat OpenShift</title>
-      <link>https://www.programmez.com/actualites/ionos-supporte-red-hat-openshift-38937</link>
-      <description>IONOS annonce aujourd'hui le support officiel de la plateforme OpenShift de Red Hat. "Avec la plateforme de conteneurs OpenShift, les partenaires d’IONOS disposent désormais d’une base puissante pour développer et exploiter des applications modernes. Red Hat OpenShift est la principale plateforme d’applications hybrides basée sur Kubernetes, permettant l’approvisionnement et la mise à l’échelle automatisés des charges de travail conteneurisées. L’infrastructure cloud éprouvée d’IONOS offre stabi</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/ionos-supporte-red-hat-openshift-38937</guid>
+      <title>Localisation, internationalisation : un support large et complexe</title>
+      <link>https://www.programmez.com/actualites/localisation-internationalisation-un-support-large-et-complexe-39106</link>
+      <description>La localisation des sites et des apps reste un point complexe et souvent délicat à intégrer à son code. Localisation (abrégée l10n), et par extension internationalisation (abrégée en i18n), consiste à traduire les textes, les formats de saisie, le format monétaire, les dates et heures dans le pays cible. On parle de localisation quand vous intégrez et adoptez le code. Les point clés à ne pas négliger :1 / les caractéristiques de la langue : accent, pas d'accent, sens de l'écriture, encodage lati</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/localisation-internationalisation-un-support-large-et-complexe-39106</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 28 Jan 2026 10:03:10 +0000</pubDate>
+      <pubDate>Mon, 09 Mar 2026 06:54:23 +0000</pubDate>
     </item>
     <item>
-      <title>GitLab Meetup France : GitLab Pages et la version 18.9, rendez-vous le 24 février</title>
-      <link>https://www.programmez.com/actualites/gitlab-meetup-france-gitlab-pages-et-la-version-189-rendez-vous-le-24-fevrier-38939</link>
-      <description>Pour cette première session de 2026 de la communauté GitLab France, GitLab Meetup France propose le 24 février un événement virtuel à partir de 13h : GitLab Pages et GitLab 18.9.Deux sessions sont prévues :- Matthieu Vincent viendra nous parler de "Make documentation great again avec GitLab Pages"- Christophe Chaudier sera avec nous pour parler de la dernière release de GitLabPour en savoir : https://www.meetup.com/gitlab-meetup-france/events/313093141/Catégorie actualité: EvénementsGitLabImage</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/gitlab-meetup-france-gitlab-pages-et-la-version-189-rendez-vous-le-24-fevrier-38939</guid>
+      <title>MariaDB annonce un accord pour racheter GridGain et renforcer son offre IA</title>
+      <link>https://www.programmez.com/actualites/mariadb-annonce-un-accord-pour-racheter-gridgain-et-renforcer-son-offre-ia-39107</link>
+      <description>MariaDB annonce aujourd'hui la signature d'un accord définitif en vue de l'acquisition de GridGain System. Cet éditeur se spécialise dans le In-Memory et est à l'origine du projet Apache Ignite. En fusionnant la base de données relationnelle de MariaDB, optimisée pour l’AI, avec la puissance du calcul de GridGain, MariaDB définit un nouveau standard industriel : une infrastructure de données à latence sub-milliseconde conçue pour l'ère des agents autonomes (l'ère agentique).Cette acquisition com</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/mariadb-annonce-un-accord-pour-racheter-gridgain-et-renforcer-son-offre-ia-39107</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 28 Jan 2026 12:17:00 +0000</pubDate>
+      <pubDate>Mon, 09 Mar 2026 07:14:59 +0000</pubDate>
     </item>
     <item>
-      <title>Quand on faisait de la 3D sans GPU dédiée, sans accélérateur 3D ni SDK moderne...</title>
-      <link>https://www.programmez.com/actualites/quand-faisait-de-la-3d-sans-gpu-dediee-sans-accelerateur-3d-ni-sdk-moderne-38940</link>
-      <description>Un retour aux sources ! NCOT Technology revient sur les fondamentaux de la 3D à une époque où les GPU dédiées, les accélérateurs 3D ou les API et SDK 3D n'existaient pas... Bien avant DirectX, Unity, OpenGL !Catégorie actualité: Technosaures3DImage actualité AMP:</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/quand-faisait-de-la-3d-sans-gpu-dediee-sans-accelerateur-3d-ni-sdk-moderne-38940</guid>
+      <title>Claude Code détruit toute une infrastructure, 24h pour tout restaurer...</title>
+      <link>https://www.programmez.com/actualites/claude-code-detruit-toute-une-infrastructure-24h-pour-tout-restaurer-39108</link>
+      <description>Alexey Grigorev, développeur, travaille pour le site AI Shpping Labs. Il voulait migrer la version actuelle GitHub Pages (statiques) vers AWS puis dans une phase 2, remplacer Next.js vers une version Django. Notre développeur a une idée précise du chantier à mener : 1 / migrer le site statiques vers AWS S32 / migrer le DNS vers AWS et un domaine 100 % managé3 / déployer la version Django vers un sous-domaine4 / après validation, la version Django passe sur le domaine principal. Le plan est clair</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/claude-code-detruit-toute-une-infrastructure-24h-pour-tout-restaurer-39108</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/alexey.png?itok=fNtwbLbQ" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Mar 2026 08:25:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>PHP : toujours pertinent en 2026 mais...</title>
+      <link>https://www.programmez.com/actualites/php-toujours-pertinent-en-2026-mais-39109</link>
+      <description>Matthew Weier O'Phinney de Zend fait un point sur le marché PHP et de la pertinence du langage en 2026. Sans surprise : oui. PHP reste un pilier du web depuis plus de 20 ans. Il est présent dans Drupal, Wordpress. Aujourd'hui, il est en version 8.x avec l'introduction d'un compilateur JIT, le support des énumérations, des améliorations les hooks et les opérateurs. Matthew met en avant le fait que 72 % des sites web utilisent côté serveur du PHP, très très loin devant Ruby, JavaScript. Ce qui n'e</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/php-toujours-pertinent-en-2026-mais-39109</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Wed, 28 Jan 2026 12:27:52 +0000</pubDate>
+      <pubDate>Mon, 09 Mar 2026 09:38:32 +0000</pubDate>
     </item>
     <item>
-      <title>Kiro IDE : un IDE agentique selon AWS</title>
-      <link>https://www.programmez.com/actualites/kiro-ide-un-ide-agentique-selon-aws-38941</link>
-      <description>Connaissez-vous Kiro, un IDE orienté agent IA pour les développeurs ? Cet IDE est développé par AWS. On peut l'utiliser comme outil de codage basé sur les agents IA ou s'appuyer une approche spec-driven. Vous pouvez importer les configurations VS Code, attention cela peut prendre du temps... Seules les extensions Open VSX sont importées. L'importation est assez contraignante car il faut valider et approuver chaque extension une par une.L'utilisation avancé est de coder par specifications. Ce son</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/kiro-ide-un-ide-agentique-selon-aws-38941</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/capture_decran_2026-01-28_a_15.34.25.png?itok=XEwE0Xs8" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 28 Jan 2026 14:40:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wild Code School lance une formation développeur IA agentique</title>
-      <link>https://www.programmez.com/actualites/wild-code-school-lance-une-formation-developpeur-ia-agentique-38942</link>
-      <description>Après son rachat par Simplon, Wild Code School se relance avec une formation "développeur IA agentique". Sur 2025, l'école annonce 800 personnes formées sur 9 parcours. 2 nouvelles formations sont annoncées : - Le parcours Développeur IA Agentique vise à former, en six mois, des développeurs capables de concevoir et déployer des applications intégrant des modèles d’intelligence artificielle et des agents autonomes, à partir de cas d’usage concrets comme en entreprise.- Le parcours Technicien Val</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/wild-code-school-lance-une-formation-developpeur-ia-agentique-38942</guid>
+      <title>Rust 1.94.0 : Cargo, nouvelles API stabilisées</title>
+      <link>https://www.programmez.com/actualites/rust-1940-cargo-nouvelles-api-stabilisees-39110</link>
+      <description>Rust 1.94.0 a été annoncé le 5 mars dernier. Comme toujours, pour mettre à jour : rustup update stable. Plusieurs nouveautés sont proposées :- Array windows : ajout dans le langage. Il s'agit d'une nouvelle méthode d'itération. Elle fonctionne comme windows mais avec une longuer constante. Les éléments de l'itérateur sont &amp;amp;[T;N] au lieu d'une taille dynamique. Dans plusieurs cas d'usage, la longueur de la fenêtre peut être déduite par la manière dont l'itérateur est utilisé. Exemple donné pour 2</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/rust-1940-cargo-nouvelles-api-stabilisees-39110</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 07:10:06 +0000</pubDate>
+      <pubDate>Mon, 09 Mar 2026 12:43:52 +0000</pubDate>
     </item>
     <item>
-      <title>The adolescence of Technology : Dario Amodei alerte sur les risques de la puissance de l'IA</title>
-      <link>https://www.programmez.com/actualites/adolescence-technology-dario-amodei-alerte-sur-les-risques-de-la-puissance-de-lia-38943</link>
-      <description>Dario Amodei est le patron d'Anthropic qui propose, notamment, Claude et Claude Code. Dans une longue publication, The adolescence of Technology : confronting and overcoming the risks of powerful AI, Dario revient sur les atouts de l'IA mais surtout sur les dangers immédiats et futurs, une puissance libérée et sans contrôle."Dans mon essai « Machines de grâce bienveillante », j'ai tenté d'esquisser le rêve d'une civilisation parvenue à maturité, où les risques auraient été appréhendés et où une</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/adolescence-technology-dario-amodei-alerte-sur-les-risques-de-la-puissance-de-lia-38943</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/dario.jpg?itok=4RJv_oFk" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 29 Jan 2026 08:52:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>4G Base Station : MCHobby propose une carte 4G complète avec Pi Pico 2</title>
-      <link>https://www.programmez.com/actualites/4g-base-station-mchobby-propose-une-carte-4g-complete-avec-pi-pico-2-38944</link>
-      <description>MC Hobby propose un kit de développement 4G : la 4G Base Station. Il s'agit d'une plateforme de développement Micro-Python, basée sur un micro-contrôleur Pi Pico 2. Les usages sont nombreux : domotique, gestion des portails, un système SMS.La plateforme intègre :- les capteurs Qwiic / StemmaQT- communication UART, SPI, I2C- Pi Pico- module 4G- 2 relais pour gérer les matériels externesCôté développement, MC Hobby utilise Micro Python et des bibliothèques sont disponibles pour gérer et utiliser l</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/4g-base-station-mchobby-propose-une-carte-4g-complete-avec-pi-pico-2-38944</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 11:06:17 +0000</pubDate>
+      <title>Arduino annonce Arduino Ventuno Q</title>
+      <link>https://www.programmez.com/actualites/arduino-annonce-arduino-ventuno-q-39111</link>
+      <description>Qualcomm annonce une nouvelle carte : l'Arduino Ventuno Q. Elle s'appuie toujours le double processeur de la Uno Q mais en intégrant le Dragonwing IQ8 dédié aux charges et traitement IA, avec un NPU intégré de 40 TOPS (selon le constructeur). Surtout, la carte embarque 16 Go de Ram ce qui donnera une réelle flexibilité dans les usages, ce qui manque cruellement à la Uno Q.Les usages restent peu ou prou les mêmes :- IA- robotique - VLM et plus largement analyse des vidéos- éducation et recherche.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/arduino-annonce-arduino-ventuno-q-39111</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/arduino.png?itok=9ekO3-iz" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 09 Mar 2026 15:25:41 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -8,81 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 12:28:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 06:57:28 +0000</lastBuildDate>
     <item>
-      <title>竊資軟體Amatera Stealer透過Click-Fix網釣散布，濫用App-V元件迴避偵測</title>
-      <link>https://www.ithome.com.tw/news/173653</link>
-      <description>新聞最近幾年極為氾濫的網釣攻擊手法ClickFix，已經衍生出多種變形版本，例如誘導使用者操作流程都在瀏覽器進行的FileFix、製造電腦必須進行安全更新假象的JackFix、結合OAuth身分驗證流程的ConsentFix，以及讓瀏覽器看起來像當掉的CrashFix與GlitchFix，現在有人結合Windows內建的公用程式，讓惡意指令執行更加不受阻礙。 資安公司Blackpoint Cyber近日揭露最新一波ClickFix網釣攻擊手法，駭客透過偽造CAPTCHA圖靈驗證網頁，引導使用者主動執行系統指令，進而在電腦植入竊資軟體Amatera Stealer，其攻擊鏈設計與常見手法不同，關鍵差異在於濫用App‑V元件作為中繼節點，以迴避端點防護與行為型偵測機制。 這起事件的攻擊鏈起點是看似正常的CAPTCHA驗證頁面，內容聲稱需要進行圖靈驗證或修復瀏覽器異常，要求使用者依照指示操作，然而若是照做，他們的電腦就會被植入竊資軟體。與多數ClickFix攻擊鏈直接呼叫PowerShell或CMD不同，這次攻擊者在初始階段改以Windows內建、具有合法簽章的SyncAppvPublish</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173653</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/app-v-png.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 29 Jan 2026 04:08:37 +0000</pubDate>
+      <title>假CleanMyMac以ClickFix手法向Mac電腦用戶散布竊資軟體</title>
+      <link>https://www.ithome.com.tw/news/174293</link>
+      <description>新聞資安廠商發現，一支竊資軟體近日冒充知名硬碟清理工具CleanMyMac藉由ClickFix手法誘騙Mac電腦使用者下載執行。 Malwarebytes研究人員發現釣魚網站cleanmycos[.]org，冒充CleanMyMac官網騙取想下載的用戶安裝竊資軟體SHub Stealer。用戶造訪時，會看到網頁展示重度用戶常見的進階安全選項。該網頁指示用戶開啟終端視窗，並貼上網頁提供的macOS指令，然後按下Return鍵。過程中使用者完全沒有下載提示頁、磁碟圖示或安全對話框。雖然使用者沒有察覺異狀，但已經下載了竊資程式。 圖片來源/Malwarebytes 研究人員指出，該指令執行後會快速執行三個步驟。第一讓終端輸出看似合法的結果，接著將一個經過混淆編碼的連結解碼出真正的目的地，最後從攻擊者控制的伺服器下載shell script，並注入zsh，立即執行。 由於SHub Stealer本身是macOS竊資軟體，一旦執行上述動作即開始下載到用戶macOS裝置。它會竊取已儲存密碼、瀏覽器資料、Apple Keychain內容、加密貨幣錢包、Telegram會話通訊。SHub Steale</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174293</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0310-CleanMyMac-Stealer-2-Malwarebytes.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Mar 2026 02:36:32 +0000</pubDate>
     </item>
     <item>
-      <title>針對波蘭電網遭到攻擊有新的調查結果，駭客鎖定分散式能源下手</title>
-      <link>https://www.ithome.com.tw/news/173655</link>
-      <description>新聞波蘭指出該國電力系統於12月的最後一週，遭遇近幾年最大規模的網路攻擊，意圖打亂再生能源設施與配電營運公司之間的通訊，但並未得逞。後續資安公司ESET公布這起事故是俄羅斯駭客Sandworm所為，駭客在去年12月29日使用名為DynoWiper的資料破壞軟體（Wiper）從事活動，現在有其他資安公司揭露更多細節。 專精於工控領域的資安業者Dragos發布調查報告，指出這場攻擊活動是與Sandworm有關的另一個組織Electrum發起。這起攻擊活動的目標，並非傳統的大型發電廠，而是鎖定波蘭境內的分散式能源資源（Distributed Energy Resources，DER），標誌著網路攻擊戰術正隨著全球能源轉型而出現重大轉向。 針對這起事故的影響範圍，Dragos指出，攻擊者成功入侵了至少12個設施，受害環境包括熱電共生（Combined Heat and Power，CHP）設施、風力發電場，以及太陽能發電場。攻擊者不僅禁用重要通訊控制設備，甚至部署惡意軟體對硬體進行破壞，導致部分遠端終端單元（RTU）永久損壞（Bricking），無法透過遠端修復。 為何駭客看上分散式能源資源？</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173655</guid>
-      <pubDate>Thu, 29 Jan 2026 04:59:08 +0000</pubDate>
+      <title>伊朗駭客MuddyWater入侵美國銀行與機場網路，部署Dindoor與Fakeset後門程式</title>
+      <link>https://www.ithome.com.tw/news/174294</link>
+      <description>新聞在美國與以色列聯手，以推動伊朗的政權更替等目標發動軍事攻擊，迄今超過一週，然而近期有資安公司指出，伊朗駭客在此之前就鎖定美國企業組織從事網路間諜活動。 賽門鐵克與Carbon Black威脅獵捕團隊揭露，與伊朗政府有關的駭客組織MuddyWater（Seedworm、Static Kitten、Temp Zagros），約從2月初入侵美國與加拿大多個機構的網路環境，並部署兩款新的後門程式Dindoor與Fakeset，試圖建立長期存取權限，並透過雲端儲存服務進行資料外傳。 這波攻擊活動約從2026年2月初開始，部分受害機構在2月7日與14日遭到入侵。由於相關行動發生在美國與以色列對伊朗軍事行動前後，研究人員推測駭客可能提前滲透，以便在地緣政治衝突升溫之後，保有攻擊與情報蒐集能力。 在此次攻擊中，研究人員發現兩種新的後門程式。其中，Dindoor是利用Deno執行環境開發的惡意程式，Deno是提供執行JavaScript與TypeScript程式碼的執行環境。由於此類環境較少被用於惡意程式開發，駭客可能藉此降低被資安工具偵測的機率。調查顯示，Dindoor主要出現在美國銀行、加拿大非</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174294</guid>
+      <pubDate>Tue, 10 Mar 2026 02:43:30 +0000</pubDate>
     </item>
     <item>
-      <title>英國政府要求Google允許出版商退出AI Overviews索引以免被竊走流量</title>
-      <link>https://www.ithome.com.tw/news/173657</link>
-      <description>新聞英國監管機關競爭與市場管理署（Competition and Markets Authority，CMA）昨（1/29）日提出管制措施草案，要求Google搜尋提供選擇以確保市場自由競爭，包括允許出版商退出（opt-out）AI Overviews的顯示方式。 Google推出的AI Overviews匯整了多家網頁內容於搜尋結果頁最上方，讓查詢用者更快獲取答案而不需點入網頁。然而這也大幅減少Google導向各網站的流量，嚴重傷害依賴流量及廣告營收的內容出版商。 由於Google據有英國一般性搜尋流量的超過90%，2025年10月CMA認定Google在搜尋服務具有策略性市場地位（strategic market status，SMS）。這使用CMA得以根據法律導入干預措施以確保市場自由競爭。最新草案即干預措施的一環。CMA本周將草案公布並開放各方意見直到2月25日。 本草案包括出版商控制、公平排序、選擇性視窗及資料可攜性。首先，英國政府要求Google允許出版商可控制其內容退出AI Overviews等AI服務，或是用於訓練AI模型。CMA也要求Google提出可行步驟使AI回應</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173657</guid>
-      <pubDate>Thu, 29 Jan 2026 05:30:16 +0000</pubDate>
+      <title>被美國國防部列為供應鏈風險，Anthropic提告</title>
+      <link>https://www.ithome.com.tw/news/174295</link>
+      <description>新聞Anthropic周一（3/9）就被美國國防部列為供應鏈風險（Supply Chain Risk，SCR）一事提出了兩項訴訟，一是向加州北區聯邦地方法院提起訴訟，主張政府違反憲法與行政程序，二是向華盛頓DC巡迴上訴法院提出司法審查，直接挑戰國防部供應鏈風險指定的合法性。同時，還有超過30名來自OpenAI與Google的AI研究人員簽署了法庭之友意見書（Amicus Curiae Brief）來聲援Anthropic。 美國國防部與Anthropic之間的歧見在2月底浮上檯面，當時傳出美國國防部長Pete Hegseth要求Anthropic開放其AI模型Claude的使用限制，否則就要將Anthropic列為SCR並中止合作；隨後Anthropic發布聲明，強調該公司支持以AI捍衛美國與民主國家安全，但不會撤除涉及大規模境內監控與完全自主武器的兩項政策紅線。 美國總統川普（Donald Trump）則在2月28日透過Truth Social表示，Anthropic試圖強迫美國國防部遵從它們的服務條款，而非美國憲法，這是個災難性的錯誤，因此他指示美國所有聯邦機構立即停止使用Anth</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174295</guid>
+      <pubDate>Tue, 10 Mar 2026 02:48:39 +0000</pubDate>
     </item>
     <item>
-      <title>微軟財報出爐，Microsoft Cloud成長26%</title>
-      <link>https://www.ithome.com.tw/news/173659</link>
-      <description>新聞微軟周三（1/28）公布截至2025年12月31日的2026財年第二季財報，該季微軟創下813億美元的營收，年增17%。在一般公認會計原則（GAAP）下，微軟淨收入為385億美元，年增60%；若排除對OpenAI投資帶來的影響，非GAAP淨收入為309億美元，年增23%。財報公布後，微軟盤後股價下滑5.66%，跌至454.36美元。 從各部門營收來看，包括Microsoft 365、LinkedIn與Dynamics的生產力與業務流程（Productivity and Business Processes）締造341億美元營收，年增16%；涵蓋伺服器產品與雲端服務的智慧雲端（Intelligent Cloud）營收為329億美元，年增29%；更多個人運算（More Personal Computing）營收為143億美元，年減3%。 至於所有以雲端、訂閱或用量計費方式交付的Microsoft Cloud，該季營收達515億美元，年增26%。該類別的商業剩餘履約義務（Commercial Remaining Performance Obligation，RPO）年增110%，達6,2</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173659</guid>
-      <pubDate>Thu, 29 Jan 2026 06:04:14 +0000</pubDate>
+      <title>研究人員揭露AI瀏覽器Perplexity Comet零點擊漏洞PerplexedBrowser，恐導致電腦本機檔案被外流</title>
+      <link>https://www.ithome.com.tw/news/174296</link>
+      <description>新聞隨著生成式AI和AI代理普及，AI龍頭也加入瀏覽器戰場，推出內建AI代理的瀏覽器，然而一旦攻擊者能對AI上下其手，就有可能引發嚴重的後果。 資安公司Zenity揭露，生成式AI搜尋服務公司Perplexity的瀏覽器Comet，存在新的安全風險，將其命名為PerplexedBrowser，攻擊者可透過間接提示注入（Indirect Prompt Injection）操控AI代理，在使用者毫不知情的情況下讀取本機檔案。Zenity強調，此為零點擊（Zero-Click）的攻擊型態，攻擊者不需要利用傳統軟體漏洞，也不需要使用者點擊惡意連結或下載程式，只要受害者將某些日常工作委託AI代理處理，就可能觸發攻擊流程。 Zenity在2025年11月向Perplexity通報相關問題，兩家公司後續都推出安全強化措施。Perplexity在Comet加入多項防護，其中一個是限制AI代理存取file://本機檔案路徑，以及要求涉及敏感操作時需要更嚴格的使用者確認。 PerplexedBrowser攻擊流程通常從看似正常的第三方內容開始，例如電子郵件、文件、網頁，或行事曆邀請。攻擊者會在這些內容中嵌</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174296</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/4405cae6-b297-41d5-978a-a6dabb148196.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Mar 2026 03:12:47 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】1月29日，波蘭電力基礎設施遭遇攻擊，傳出是俄羅斯駭客所為</title>
-      <link>https://www.ithome.com.tw/news/173656</link>
-      <description>新聞俄羅斯國家級駭客Sandworm鎖定波蘭電力產業，利用惡意軟體DynoWiper抹除資料 1月23日資安公司ESET表示，去年底波蘭能源系統遭到大規模網路攻擊，根據他們的調查結果，這起事故發生在12月29日，其特徵與Sandworm過往發動的資料破壞攻擊高度重疊，因此研判應該是這些俄羅斯駭客所為。這次駭客使用的資料破壞軟體（Wiper），ESET命名為DynoWiper。對於整起事故發生的完整過程，該公司表示尚在進一步調查當中，不過，目前尚未出現災情。 針對駭客的動機，很可能是Sandworm鎖定能源設施發動攻擊正好滿10週年。2015年12月，該組織攻擊烏克蘭電網，使用惡意軟體BlackEnergy入侵變電站重要系統，導致約有70萬人停電數小時，而這是首度電力系統因惡意軟體攻擊造成的停擺的事故。 針對波蘭電網遭到攻擊有新的調查結果，駭客鎖定分散式能源下手 波蘭指出該國電力系統於12月的最後一週，遭遇近幾年最大規模的網路攻擊，意圖打亂再生能源設施與配電營運公司之間的通訊，但並未得逞。專精於工控領域的資安業者Dragos發布調查報告，指出這場攻擊活動是與Sandworm有關的另一個組</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173656</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/RSYtYwtFIw.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 06:11:24 +0000</pubDate>
+      <title>AI瀏覽器Perplexity Comet存在零點擊漏洞，可被用於竊取密碼管理工具1Password保險庫內容</title>
+      <link>https://www.ithome.com.tw/news/174297</link>
+      <description>新聞資安公司Zenity揭露，生成式AI搜尋服務公司Perplexity的瀏覽器Comet，存在零點擊弱點PerplexedBrowser，攻擊者可透過間接提示注入（Indirect Prompt Injection）操控AI代理，在使用者毫不知情的情況下讀取本機檔案，值得留意的是，攻擊者還能用來竊取密碼管理工具1Password存放的帳密資料。 由於PerplexedBrowser的攻擊流程通常從看似正常的第三方內容開始，例如電子郵件、文件、網頁，或行事曆邀請。攻擊者會在這些內容中嵌入隱藏提示，使AI代理在解析資料時誤將其視為任務指令。這項攻擊並不需要突破傳統安全機制，而是利用代理式瀏覽器的設計特性。AI代理本來就能代表使用者執行操作，因此一旦受到惡意提示影響，就可能在使用者權限下進行敏感操作。 該公司進一步展示如何利用PerplexedBrowser，他們鎖定密碼管理服務1Password。這項攻擊同樣透過行事曆內容的提示，來操控Comet代理。 由於Comet可在瀏覽器中操作各種網站，一旦使用者已登入1Password並啟用瀏覽器擴充套件，AI代理就可能在同一個已驗證的瀏覽器連線</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174297</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/c9834776-6ab5-46c9-8b37-1db84399eef5.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Mar 2026 03:26:24 +0000</pubDate>
     </item>
     <item>
-      <title>Chrome導入Auto Browse，AI開始接手瀏覽器操作</title>
-      <link>https://www.ithome.com.tw/news/173660</link>
-      <description>新聞Google於周三（1/28）更新Chrome的AI能力，讓Gemini可常駐於瀏覽器側邊欄，並可隨分頁切換即時更新理解脈絡。另也推出代理式瀏覽功能Auto Browse，允許Gemini於使用者授權下，代為執行多步驟的網頁操作，如開啟分頁、搜尋資訊與填寫線上表單等。 更新後的Chrome將Gemini整合進瀏覽器側邊欄，並作為主要操作入口。使用者在瀏覽任何分頁時，無需另開視窗或離開當前頁面，即可呼叫Gemini協助彙整資訊、比較不同網站內容，或整理行事曆與行程。 此外，Google將創意模型Nano Banana直接內建於瀏覽器中。用戶只需在側邊欄輸入指令，即可對網頁上的影像進行即時轉換，例如將研究數據圖表化，或將室內設計圖片調整為不同風格，省去了下載與重複上傳的繁瑣步驟。 Chrome中的Gemini亦支援Connected Apps功能，可連結Gmail、日曆、YouTube、地圖及Google Flights。例如若使用者打算參加商務會議，Gemini即可自動檢索電子郵件中的行程詳情，結合Google Flights提供機票建議，並自動草擬通知同事抵達時間的信件。 此外，A</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173660</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0129-Gemini%20in%20Chrome-600.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 06:23:06 +0000</pubDate>
+      <title>荷蘭政府警告俄國駭客攻擊Signal、WhatsApp用戶以竊取敏感資訊</title>
+      <link>https://www.ithome.com.tw/news/174299</link>
+      <description>新聞荷蘭政府本周警告，俄羅斯國家駭客正發動全球大規模網路攻擊，鎖定政要、軍事高層及官員劫持Signal與WhatsApp帳號，或是以QR code連結其帳號。 荷蘭國防及通用情報及安全機關MIVD與AIVD確認，荷蘭公務員已在這波攻擊受害。此外，記者及異議人士也是俄國政府的目標。透過存取這些監控目標的通訊軟體帳號，攻擊者就可存取裝置上的聯絡人資訊，或是讀取通訊內容、甚至群組對話訊息。 該國政府提醒，攻擊型態有二。一是劫取帳號，攻擊者偽裝Signal安全支援團隊或聊天機器人，宣稱偵測到用戶裝置有可疑活動或資料外洩，要求使用者完成認證來預防。攻擊者佯裝的支援人員要求用戶把Signal發給用戶的驗證碼，以及簡訊發來的密碼，透過假聊天機器人提供給「支援人員」。藉此盜取或劫持帳號。 攻擊途徑二則是利用QR code或連結加入受害者，適用Signal和WhatsApp。攻擊者傳送QR code或連結給攻擊目標用戶邀請其加入聊天群組，但這方法也可以將用戶連結他人手機或筆電。用戶誤以為他加入某個聊天群組，其實卻是連上攻擊者的裝置。一旦用戶被連結，攻擊者就可以從其連結裝置，或是桌機版App，讀取用戶聊天</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174299</guid>
+      <pubDate>Tue, 10 Mar 2026 03:52:56 +0000</pubDate>
     </item>
     <item>
-      <title>Amazon延續去官僚化策略，裁減約1.6萬個職位</title>
-      <link>https://www.ithome.com.tw/news/173661</link>
-      <description>新聞Amazon周三（1/28）宣布進一步進行組織調整，將裁減約1.6萬個職位，主要影響企業與科技相關團隊。這是該公司自去年10月裁撤約1.4萬名企業員工後，延續同一輪組織瘦身與去官僚化改革的後續行動。 Amazon人員體驗與科技資深副總裁Beth Galetti在內部信中指出，此次調整並非新一波突發性裁員，而是部分團隊尚未於去年10月完成組織重整，如今才完成相關工作。整體改革目標仍是減少管理層級、提升責任歸屬，並移除影響決策速度與創新的官僚流程。 Amazon強調，這並不代表公司將進入「定期裁員」的新節奏。Galetti表示，各團隊仍會持續評估是否具備足夠速度與能力為客戶創新，並在必要時進行調整，但並非每隔數月就進行全面裁撤。 若將時間拉長觀察，這波人力調整與Amazon近年大舉投入生成式AI與代理人技術密切相關。去年6月，Amazon執行長Andy Jassy即曾在內部信中直言，隨著生成式AI與代理人在公司內部廣泛應用，未來將需要更少的人來做目前的工作，但同時也需要更多人投入不同類型的職務。 根據外媒統計，Amazon自2022年至2023年間已裁撤超過2.7萬人，去年10月與今年</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173661</guid>
-      <pubDate>Thu, 29 Jan 2026 07:02:25 +0000</pubDate>
+      <title>OpenAI收購AI安全測試工具Promptfoo，強化代理人安全評估能力</title>
+      <link>https://www.ithome.com.tw/news/174301</link>
+      <description>新聞OpenAI周一（3/9）宣布，將收購AI安全測試平臺Promptfoo，未來將把其技術整合至企業AI平臺OpenAI Frontier，以強化AI代理人（Agents）在開發與部署過程中的安全測試、風險評估與合規能力。 Promptfoo成立於2024年，由Ian Webster與Michael D'Angelo共同創辦，最初從開源LLM測試工具發展而來，主要提供AI應用安全測試與紅隊演練（Red Teaming）工具，目前已有超過25%的《財富》500大企業使用其工具。雙方並未公布交易價格，但Promptfoo在2025年完成A輪募資時的估值約為8,550萬美元。 Promptfoo提供命令列工具（Command-Line Interface，CLI）與程式庫，讓開發者可建立測試案例，評估AI模型在不同提示下的回應品質與安全性，例如檢測提示注入（Prompt Injection）、越獄（Jailbreak）、資料外洩或不當輸出等問題。該平臺也支援比較不同模型或不同版本系統的表現，以協助企業在開發AI應用時進行持續評估。 至於OpenAI Frontier則是OpenAI甫於今年</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174301</guid>
+      <pubDate>Tue, 10 Mar 2026 04:03:25 +0000</pubDate>
     </item>
     <item>
-      <title>專攻低、中密度無線網路部署需求，思科推新款Wi-Fi 7基地臺</title>
-      <link>https://www.ithome.com.tw/review/173621</link>
-      <description>思科這幾年陸續推出多款Wi-Fi 7基地臺，我們曾介紹9176系列、9178系列，以及9172系列，現在來看看去年11月登場的CW9171I與CW9174系列，它們是在Cisco Partner Summit大會發表的產品，並且搭配鎖定中小型環境應用需求的無線網路控制器CW9800L，支援低密度與中密度的無線網路部署，提供高吞吐量、低延遲度，以及智慧型管理機制，而且能順暢地擴充網路建置規模，預計於2025年第四季開放預訂。一個月後，思科也正式公開上述兩款基地臺的細部技術規格。 以9171系列而言，提供1個2.5GbE埠與入門級的新世代無線網路建置能力，Wi-Fi通訊支援雙頻三波段（2.4 GHz與5GHz或6 GHz），匯集傳輸效能最大可達6120 Mbps，特色是能針對Wi-Fi 7提供彈性、便於使用、安全，以及完整效能，而不需要耗費大量成本，或設置高密度基礎設施而產生架構複雜的問題。 基本上，這批機型適用於低密度環境，像是零售店面空間、精品酒店、醫療診所、遠端工作中心、教室、學生宿舍，衛星辦公室、區域分支機構、物流樞紐等分散式企業據點，以及小型至中型企業。 至於9174系列，內建1</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/review/173621</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/cisco_wireless_9174_main.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 29 Jan 2026 09:29:38 +0000</pubDate>
+      <title>第三方廠商被駭 波及愛立信美國分公司逾4000客戶、員工資料外洩</title>
+      <link>https://www.ithome.com.tw/news/174305</link>
+      <description>新聞瑞典電信巨擘愛立信（Ericsson）本周通報美國政府，該公司美國分公司去年4月因受使用第三方服務波及，導致4300多名客戶及員工資料外洩。 愛立信本周通報德州及加州檢察長辦公室，以及通知受害員工/客戶的信件中說明，該公司第三方供應商在2025年4月28日察覺可疑活動，其系統特定資訊遭未經授權存取。除了通報聯邦調查局及和專業廠商啟動調查，也通知了客戶。根據今年稍早完成的調查，存取時間落在2025年4月12日到17日。 愛立信向德州官方的通報文件說明，該起事件造成其美國分公司部份客戶及員工個資外洩，共影響4377人。外洩的資料包括姓名、出生日期、地址、社會安全號碼（SSN）、駕照號碼、政府核發證件號碼（例如護照或州身分證）、金融資料（帳戶、信用卡或金融帳號）及醫療資訊等。不過該公司和其服務業者都還未發現資料被惡意使用的跡象。 愛立信並未說明造成資料外洩的第三方服務商為誰。目前也沒有勒索軟體或駭客組織宣稱犯案。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174305</guid>
+      <pubDate>Tue, 10 Mar 2026 06:38:02 +0000</pubDate>
     </item>
     <item>
-      <title>Nvidia CUDA Toolkit曝4項高風險漏洞，恐影響支援輝達GPU加速的應用系統運作</title>
-      <link>https://www.ithome.com.tw/news/173665</link>
-      <description>新聞晶片大廠Nvidia於1月20日發布安全公告，指出旗下GPU運算開發工具CUDA Toolkit存在4項資安漏洞，編號為CVE-2025-33228、CVE-2025-33229、CVE-2025-33230及CVE-2025-33231。相關漏洞涉及作業系統指令注入與不安全搜尋路徑設計，在特定條件下，可能被攻擊者濫用以執行任意程式碼或造成服務中斷。 CUDA Toolkit是Nvidia提供的GPU平行運算與加速開發套件，廣泛應用於AI模型訓練、資料分析與科學計算。Nvidia在公告中指出，相關漏洞影響Windows與Linux平臺使用的CUDA Toolkit，且主要出現在套件所包含的效能分析工具Nsight Systems元件。 漏洞性質與可能影響 Nvidia指出，其中CVE-2025-33228與CVE-2025-33230屬作業系統指令注入漏洞，CVSS風險分數均為7.3，風險等級為高。攻擊者若能在受影響系統上觸發漏洞，可能執行未經授權的系統指令，導致程式異常終止、資料外洩，或引發阻斷服務（DoS）。 CVE-2025-33229同樣被評為高風險，CVSS風險分數為7.</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173665</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0129-NVIDIA%20CUDA%20Toolkit.png" length="0" type="image/png"/>
-      <pubDate>Thu, 29 Jan 2026 10:39:06 +0000</pubDate>
+      <title>巴基斯坦駭客APT36利用AI生成大量惡意軟體，企圖滲透印度與阿富汗的政府及企業組織</title>
+      <link>https://www.ithome.com.tw/news/174298</link>
+      <description>新聞基本上，駭客透過自行開發的惡意程式從事攻擊活動的模式，在AI普及後，已有許多團體透過相關工具加速開發，不過，現在有駭客採取新策略，要求AI使用相對少見的程式語言，生成大量惡意程式，企圖以數量優勢干擾防禦系統的偵測能力。 資安公司Bitdefender近日發布研究報告指出，巴基斯坦駭客組織APT36（Transparent Tribe）正在改變惡意程式的開發模式，他們利用生成式AI快速產生大量以不同程式語言編寫的惡意程式。這類由AI生成、品質參差不齊，但數量龐大的惡意程式，Bitdefender稱為「Vibeware」。 Bitdefender指出，駭客並非單純依賴單一惡意程式突破企業組織的防線，而是透過大量不同版本惡意程式檔案，使資安系統難以建立穩定的偵測規則，進而提高攻擊成功率。其中，APT36經常會將相同的惡意程式邏輯快速轉換成多種程式語言版本，例如：Nim、Zig，以及Crystal等相對少見的語言。由於這些語言在惡意程式中較少見，也讓資安產品在特徵偵測與分析面臨更大挑戰。此外，Bitdefender在部分檔案裡，還發現Unicode表情符號或疑似AI工具產生的程式碼痕跡，顯</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174298</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/apt36-image1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Mar 2026 06:51:22 +0000</pubDate>
     </item>
     <item>
-      <title>Dormakaba Exos 9300門禁系統爆20項CVE漏洞，攻擊者入侵內網可任意開門</title>
-      <link>https://www.ithome.com.tw/news/173667</link>
-      <description>新聞資安顧問公司SEC Consult揭露，瑞士門禁與鎖具廠Dormakaba旗下企業級實體存取控制系統Kaba Exos 9300，存在超過20項弱點，其中20項已取得CVE編號。研究團隊指出，這套系統被不少歐洲大型企業場域採用，如工業與服務業、物流、能源供應商與機場營運單位，攻擊者要是能先取得目標環境的網路或存取硬體，便可能透過多條路徑開啟任意門禁，或在未經事前授權下重設控制器與周邊設定。 Dormakaba表示已提供修補程式與強化指引，並稱受影響客戶雖達數千家，但屬高安全需求環境者僅占少數。 研究人員說明，exos 9300屬於集中式門禁管理軟體，常部署在Windows伺服器，系統資料主要存放在MSSQL資料庫，並透過網路把設定下發到現場的Access Manager門禁控制器，再與門邊的註冊裝置（Registration Unit）讀卡器與PIN Pad等周邊協同運作。SEC Consult揭露的弱點橫跨管理伺服器、控制器韌體與註冊裝置硬體，要是通訊保護與身分驗證設計不足，就可能讓入侵從網路一路延伸到實體出入口。 就弱點類型而言，包含預設缺乏身分驗證的管理介面、硬編碼帳密與金鑰</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/173667</guid>
-      <pubDate>Thu, 29 Jan 2026 11:29:36 +0000</pubDate>
+      <title>微軟Copilot納入Claude Cowork技術，能力從問答走向任務執行</title>
+      <link>https://www.ithome.com.tw/news/174303</link>
+      <description>新聞微軟表示，已將Anthropic的Claude Cowork背後技術整合到Microsoft 365 Copilot，並推出新功能Copilot Cowork，讓Copilot從回答問題、撰寫草稿的工具，進一步走向可受託執行工作的數位助手。微軟表示，該功能不再只停留在對話層次，而是能根據使用者交付的目標，自行整理工作脈絡、擬定處理計畫，並在背景持續推進任務，過程中會設有明確檢查點，相關變更仍需由使用者核准後才會套用。 過去Copilot較常被視為查詢資訊、摘要文件、起草郵件的工具，如今微軟進一步將其包裝成能跨越Outlook、Teams、Excel與其他Microsoft 365服務執行多步驟工作的系統。使用者只需描述想達成的結果，Copilot Cowork便會根據電子郵件、會議、訊息、檔案與相關資料建立執行脈絡，再將請求轉成一套可持續推進的工作計畫。 官方提供數種適用情境，包括整理行事曆、調整會議時間、保留專注工作時段，以及替客戶會議準備說明文件、分析資料與簡報。另一類應用則是研究工作，例如彙整公司財報、SEC申報文件、分析師評論與相關新聞，最後產出電子郵件格式的摘要、研究備忘</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174303</guid>
+      <pubDate>Tue, 10 Mar 2026 06:53:33 +0000</pubDate>
     </item>
   </channel>
 </rss>

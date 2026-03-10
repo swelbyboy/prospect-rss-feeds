@@ -8,7 +8,21 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 12:49:46 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 07:18:51 +0000</lastBuildDate>
+    <item>
+      <title>Markup: Title With Markup</title>
+      <link>https://kfgconsulting.com/2016/01/05/markup-title-with-markup/</link>
+      <description>Verify that: The post title renders the word “with” in italics and the word “markup” in bold. The post title markup should be removed from the browser window / tab.</description>
+      <guid isPermaLink="false">https://kfgconsulting.com/2016/01/05/markup-title-with-markup/</guid>
+      <pubDate>Tue, 05 Jan 2016 10:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Markup: Title With Special Characters</title>
+      <link>https://kfgconsulting.com/2016/01/05/title-with-special-characters/</link>
+      <description>Putting special characters in the title should have no adverse effect on the layout or functionality. Special characters in the post title have been known to cause issues with JavaScript when it is minified, especially in the admin when editing the post itself (ie. issues with metaboxes, media upload, etc.). Latin Character Tests This isRead More</description>
+      <guid isPermaLink="false">https://kfgconsulting.com/2016/01/05/title-with-special-characters/</guid>
+      <pubDate>Tue, 05 Jan 2016 11:00:20 +0000</pubDate>
+    </item>
     <item>
       <title>Template: Sticky</title>
       <link>https://kfgconsulting.com/2016/01/07/template-sticky/</link>
@@ -37,13 +51,6 @@
       <description>Headings Header one Header two Header three Header four Header five Header six Blockquotes Single line blockquote: Stay hungry. Stay foolish. Multi line blockquote with a cite reference: People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no toRead More</description>
       <guid isPermaLink="false">https://kfgconsulting.com/2016/01/11/markup-html-tags-and-formatting-2/</guid>
       <pubDate>Mon, 11 Jan 2016 20:22:19 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hello world!</title>
-      <link>https://kfgconsulting.com/2016/02/23/hello-world-2/</link>
-      <description>Welcome to colorlib.com. This is your first post. Edit or delete it, then start blogging!</description>
-      <guid isPermaLink="false">https://kfgconsulting.com/2016/02/23/hello-world-2/</guid>
-      <pubDate>Tue, 23 Feb 2016 18:22:03 +0000</pubDate>
     </item>
     <item>
       <title>Template: More Tag</title>

@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Jan 2026 12:54:18 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 07:23:10 +0000</lastBuildDate>
     <item>
-      <title>Cozy Bear: quiénes son y cómo actúa uno de los grupos de ciberespionaje más avanzados del mundo</title>
-      <link>https://s2grupo.es/cozy-bear-quienes-son/</link>
-      <description>Los grupos de amenazas avanzadas (APT) han redefinido el panorama del ciberespionaje moderno, y entre todos ellos, Cozy Bear (APT29/Nobelium) —asociado al SVR ruso— destaca como uno de los actores más sofisticados, persistentes y difíciles de detectar. Su actividad continuó evolucionando en 2025, con operaciones cada vez más discretas, modulares y orientadas al espionaje estratégico. […] La entrada Cozy Bear: quiénes son y cómo actúa uno de los grupos de ciberespionaje más avanzados del mundo se</description>
-      <guid isPermaLink="false">https://s2grupo.es/cozy-bear-quienes-son/</guid>
-      <pubDate>Mon, 12 Jan 2026 15:46:32 +0000</pubDate>
+      <title>Respuesta automatizada a incidentes: cómo optimizar la gestión de ciberamenazas</title>
+      <link>https://s2grupo.es/respuesta-automatizada-a-incidentes/</link>
+      <description>En un contexto donde los ataques se multiplican y la velocidad de reacción es clave, la respuesta automatizada a incidentes se ha convertido en un pilar esencial de la ciberdefensa moderna. A través de tecnologías como SOAR y SIEM y herramientas propias como GLORIA, las organizaciones pueden detectar, contener y mitigar amenazas en segundos, reduciendo […] La entrada Respuesta automatizada a incidentes: cómo optimizar la gestión de ciberamenazas se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/respuesta-automatizada-a-incidentes/</guid>
+      <pubDate>Fri, 06 Feb 2026 07:42:44 +0000</pubDate>
     </item>
     <item>
-      <title>Vulnerabilidades críticas en n8n en 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-criticas-n8n-2026/</link>
-      <description>Vulnerabilidad – 01/2026 Introducción CVE-2025-68613 es una vulnerabilidad de ejecución remota de código (RCE) que afecta a n8n, una plataforma de automatización que permite construir flujos de trabajo mediante nodos y expresiones dinámicas. Análisis CVE-2025-68613 – CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H – 9,9 CVE-2025-68613 es una vulnerabilidad en el sistema de evaluación de expresiones de los workflows que permite que código […] La entrada Vulnerabilidades críticas en n8n en 2026 se pu</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-n8n-2026/</guid>
-      <pubDate>Thu, 22 Jan 2026 15:24:41 +0000</pubDate>
+      <title>Panorama de la ciberseguridad 2026</title>
+      <link>https://s2grupo.es/panorama-ciberseguridad-2026/</link>
+      <description>Lo que viene en 2026 no se predice, se detecta. El panorama de amenazas evoluciona más rápido que la capacidad de las organizaciones para adaptarse. La proliferación del IoT industrial, la llegada de agentes de IA capaces de actuar de forma autónoma, la fragmentación tecnológica y la presión geopolítica están redefiniendo el enfoque de la ciberseguridad para 2026. Este […] La entrada Panorama de la ciberseguridad 2026 se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/panorama-ciberseguridad-2026/</guid>
+      <pubDate>Thu, 12 Feb 2026 11:18:15 +0000</pubDate>
     </item>
     <item>
-      <title>Vulnerabilidades críticas en LangChain 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-criticas-langchain-2026/</link>
-      <description>Vulnerabilidad crítica – 01/2026 Introducción CVE‑2025‑68664 es una vulnerabilidad de seguridad de severidad crítica que afecta a LangChain, un framework muy utilizado para construir aplicaciones de agentes y sistemas potentes con modelos de lenguaje (LLM). Análisis CVE-2025-68664 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N – 9,3 CVE‑2025‑68664 es una falla de serialization injection (inyección durante la serialización) en las funciones dumps() y dumpd() de […] La entrada Vulnerabilidades crí</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-langchain-2026/</guid>
-      <pubDate>Thu, 22 Jan 2026 15:29:37 +0000</pubDate>
+      <title>Vulnerabilidades críticas en OpenSSL 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-openssl-2026/</link>
+      <description>Vulnerabilidad – 6/02 Introducción CVE-2025-15467 es una vulnerabilidad crítica que aprovecha un fallo clásico de programación en OpenSSL. Su capacidad de ser desencadenada sin autenticación y antes de cualquier verificación criptográfica la convierte en un riesgo alto para cualquier organización que procese certificados, correos cifrados u otros datos CMS. La falla es considerada de alto riesgo […] La entrada Vulnerabilidades críticas en OpenSSL 2026 se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-openssl-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 10:34:29 +0000</pubDate>
     </item>
     <item>
-      <title>Vulnerabilidades críticas en MongoDB 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-criticas-mongodb-2026/</link>
-      <description>Vulnerabilidad crítica – 01/2026 Introducción CVE-2025-14847 es una vulnerabilidad crítica de filtración de memoria en el servidor de bases de datos MongoDB que puede permitir a un atacante leer partes de la memoria del servidor sin autenticación alguna. Esto se produce debido a la forma en que MongoDB maneja ciertos mensajes comprimidos con zlib en su […] La entrada Vulnerabilidades críticas en MongoDB 2026 se publicó primero en S2GRUPO.</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-mongodb-2026/</guid>
-      <pubDate>Thu, 22 Jan 2026 15:33:33 +0000</pubDate>
+      <title>Vulnerabilidades críticas en SmarterTools 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-smartertools-2026/</link>
+      <description>Vulnerabilidad – 9/02 Introducción CVE-2026-24423 es una vulnerabilidad crítica de ejecución remota de código (RCE) que afecta al servidor de correo electrónico SmarterMail. La falla reside en un endpoint administrativo (API REST) expuesto por defecto: /api/v1/settings/sysadmin/connect-to-hub La implementación de este endpoint permitía que cualquier cliente remoto enviara solicitudes manipuladas sin autenticación ni autorización válida. El parámetro […] La entrada Vulnerabilidades críticas en Sm</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-smartertools-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 10:38:27 +0000</pubDate>
     </item>
     <item>
-      <title>Vulnerabilidades críticas en Zoom 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-criticas-zoom-2026/</link>
-      <description>Vulnerabilidad crítica – 22/01 Introducción CVE-2026-22844 es una vulnerabilidad de seguridad crítica que afecta a ciertos componentes de Zoom y que puede permitir ejecución remota de código (RCE) por parte de un participante en una reunión. Análisis CVE-2026-22844 – CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H – 9,9 CVE-2026-22844 reside en los Zoom Node Multimedia Routers (MMRs), componentes de la infraestructura de Zoom usados en […] La entrada Vulnerabilidades críticas en Zoom 2026 se public</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-zoom-2026/</guid>
-      <pubDate>Thu, 22 Jan 2026 15:37:45 +0000</pubDate>
+      <title>Vulnerabilidades críticas en Ivanti 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-ivanti-2026/</link>
+      <description>Vulnerabilidad – 10/02 Introducción CVE-2026-1281 y CVE-2026-1340 son dos vulnerabilidades críticas de ejecución remota de código (RCE) que afectan a Ivanti Endpoint Manager Mobile (EPMM). Ambas vulnerabilidades permiten a un atacante remoto ejecutar comandos arbitarios en el servidor vulnerable sin necesidad de credenciales, se explotan a través de parámetros maliciosos en solicitudes HTTP, aprovechando la falla en el […] La entrada Vulnerabilidades críticas en Ivanti 2026 se publicó primero en</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-ivanti-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 10:50:03 +0000</pubDate>
     </item>
     <item>
-      <title>Vulnerabilidades críticas en Cisco 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-criticas-cisco-2026/</link>
-      <description>Vulnerabilidad crítica – 22/01 Introducción CVE-2026-20045 es una vulnerabilidad de ejecución remota de código que está siendo activamente explotada. Análisis CVE-2026-20045 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N- 8,2 CVE-2026-20045 se origina por validación incorrecta de datos de entrada en solicitudes HTTP a la interfaz web de administración de los dispositivos afectados. Un atacante no autenticado y remoto puede enviar una serie de […] La entrada Vulnerabilidades críticas en Cisco 202</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-cisco-2026/</guid>
-      <pubDate>Thu, 22 Jan 2026 15:40:57 +0000</pubDate>
+      <title>Parches Microsoft 2026</title>
+      <link>https://s2grupo.es/parches-microsoft-2026/</link>
+      <description>Microsoft Patch Tuesday febrero 2026 Introducción Microsoft ha publicado el Patch Tuesday correspondiente al mes de febrero con 59 vulnerabilidades de interés. A continuación, se exponen las más críticas: Análisis CVE-2026-24300 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H – 9,8 CVE-2026-24300 es una vulnerabilidad de elevación de privilegios en Azure Front Door, el servicio de entrega de contenido y pasarela de aplicaciones de Microsoft Azure. […] La entrada Parches Microsoft 2026 se publicó</description>
+      <guid isPermaLink="false">https://s2grupo.es/parches-microsoft-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 10:55:25 +0000</pubDate>
     </item>
     <item>
-      <title>Vulnerabilidades críticas en Grist-Core 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-grist-core-2026/</link>
-      <description>Vulnerabilidad crítica – 27/01 Introducción CVE-2026-24002 es una vulnerabilidad de seguridad crítica descubierta en Grist-Core, una versión de código abierto del software de hojas de cálculo relacionales Grist. Análisis CVE-2026-24002 – CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H – 9 CVE-2026-24002 permite a un atacante escapar del sandbox de ejecución de Python (Pyodide) dentro de Grist y ejecutar código arbitrario en la máquina […] La entrada Vulnerabilidades críticas en Grist-Core 2026 se p</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-grist-core-2026/</guid>
-      <pubDate>Wed, 28 Jan 2026 09:40:39 +0000</pubDate>
+      <title>Vulnerabilidades críticas en ChatterMate 2026</title>
+      <link>https://s2grupo.es/vulnerabilidades-criticas-chattermate-2026/</link>
+      <description>Vulnerabilidad – 13/02 Introducción CVE-2026-24399 es una vulnerabilidad de inyección de contenido en el lado del cliente similar a cross-site scripting que afecta a ChatterMate, un framework para crear chatbots de IA sin código. En versiones 1.0.8 y anteriores de ChatterMate, el chatbot puede aceptar y ejecutar HTML/JavaScript malicioso cuando se envía como entrada de chat. […] La entrada Vulnerabilidades críticas en ChatterMate 2026 se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-chattermate-2026/</guid>
+      <pubDate>Mon, 16 Feb 2026 11:02:20 +0000</pubDate>
     </item>
     <item>
-      <title>Vulnerabilidades críticas en Fortinet 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-criticas-fortinet-2026/</link>
-      <description>Vulnerabilidad crítica – 28/01 Introducción CVE-2026-24858 es una vulnerabilidad zero-day que ha estado siendo explotada en el mundo real y afecta a varios productos de seguridad de Fortinet. Análisis CVE-2026-24858 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:O/RC:C – 9,4 CVE-2026-24858 permite a un atacante con una cuenta de FortiCloud y un dispositivo registrado iniciar sesión en otros dispositivos de Fortinet registrados en otras […] La entrada Vulnerabilidades críticas en Fortinet</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-fortinet-2026/</guid>
-      <pubDate>Wed, 28 Jan 2026 09:45:16 +0000</pubDate>
+      <title>Exploits: desarrollo, aprovisionamiento y uso</title>
+      <link>https://s2grupo.es/exploits-desarrollo-aprovisionamiento-y-uso/</link>
+      <description>Introducción Los elementos tecnológicos, como el software (incluyendo firmware) o el hardware, pueden presentar fallos y errores. Cuando estos afectan a la seguridad, se les conoce comúnmente como bugs, y dan lugar a vulnerabilidades en el sistema. Una vulnerabilidad puede definirse como una cadena de debilidades unidas por causalidad, que comienza con un bug y […] La entrada Exploits: desarrollo, aprovisionamiento y uso se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/exploits-desarrollo-aprovisionamiento-y-uso/</guid>
+      <pubDate>Tue, 24 Feb 2026 16:02:49 +0000</pubDate>
     </item>
     <item>
-      <title>Vulnerabilidades críticas en Oracle 2026</title>
-      <link>https://s2grupo.es/vulnerabilidades-criticas-oracle-2026/</link>
-      <description>Vulnerabilidad crítica – 28/01 Introducción CVE-2026-21962 es una vulnerabilidad crítica de ejecución remota sin autenticación que afecta a componentes ampliamente usados en infraestructuras empresariales basadas en Oracle. Análisis CVE-2026-21962 – CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N – 10 El error de CVE-2026-21962 está en la validación de entrada de las solicitudes HTTP que pasan por el proxy plug‑in. Si las rutas, cabeceras o parámetros […] La entrada Vulnerabilidades críticas en Ora</description>
-      <guid isPermaLink="false">https://s2grupo.es/vulnerabilidades-criticas-oracle-2026/</guid>
-      <pubDate>Wed, 28 Jan 2026 09:53:16 +0000</pubDate>
+      <title>Rusia: amenaza virtual, física… y mental.</title>
+      <link>https://s2grupo.es/rusia-amenaza-virtual-fisica-mental/</link>
+      <description>Imaginemos que un país quisiera causar un impacto en España a través del ciberespacio. Un país cualquiera: Rusia, por ejemplo. Esta elección, la de Rusia, es un ejercicio de imaginación que, por supuesto, nada tiene que ver con las habituales campañas de ciberataques por parte de grupos activistas pro-rusos contra intereses españoles. Tampoco con que […] La entrada Rusia: amenaza virtual, física… y mental. se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/rusia-amenaza-virtual-fisica-mental/</guid>
+      <pubDate>Tue, 24 Feb 2026 16:10:13 +0000</pubDate>
     </item>
     <item>
-      <title>S2GRUPO consolida su crecimiento por encima del 50% y refuerza su papel en la soberanía tecnológica europea</title>
-      <link>https://s2grupo.es/s2grupo-resultados-2025/</link>
-      <description>S2GRUPO ha anunciado los resultados del ejercicio 2025, que hemos cerrado con un importante crecimiento de facturación superior al 50%, y registrando unos ingresos récord de 56,7M€, con un EBITDA del 8,5%, y un crecimiento anual compuesto (CAGR) del 25,4% entre los ejercicios 2021 y 2025. Estos resultados se producen en el primer año de […] La entrada S2GRUPO consolida su crecimiento por encima del 50% y refuerza su papel en la soberanía tecnológica europea se publicó primero en S2GRUPO.</description>
-      <guid isPermaLink="false">https://s2grupo.es/s2grupo-resultados-2025/</guid>
-      <pubDate>Thu, 29 Jan 2026 07:37:14 +0000</pubDate>
+      <title>Igualdad: el mejor algoritmo para la innovación</title>
+      <link>https://s2grupo.es/igualdad-el-mejor-algoritmo-para-la-innovacion/</link>
+      <description>Durante mucho tiempo, cuando pensábamos en tecnología o en ciberseguridad, la imagen que venía a la mente no solía ser la de una mujer. Por suerte, la realidad está cambiando. Hoy hay mujeres analizando amenazas, investigando malware, protegiendo infraestructuras críticas o liderando proyectos que contribuyen a la protección de los pilares que sostienen la sociedad. […] La entrada Igualdad: el mejor algoritmo para la innovación se publicó primero en S2GRUPO.</description>
+      <guid isPermaLink="false">https://s2grupo.es/igualdad-el-mejor-algoritmo-para-la-innovacion/</guid>
+      <pubDate>Mon, 09 Mar 2026 13:56:38 +0000</pubDate>
     </item>
   </channel>
 </rss>
