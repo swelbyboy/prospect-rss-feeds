@@ -151,16 +151,21 @@ def save_result(result, file_lock):
             writer.writerow(result)
 
 def load_processed_domains():
-    """Load already-processed domains from the CSV file."""
+    """Load already-processed domains from the output file and the main results file."""
     processed = set()
-    if os.path.exists(OUTPUT_FILE):
-        try:
-            with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
-                reader = csv.DictReader(f)
-                for row in reader:
-                    processed.add(row['domain'])
-        except Exception as e:
-            print(f"⚠️  Could not load existing results: {e}")
+    files_to_check = [OUTPUT_FILE]
+    # In chunk mode, also read the main results file committed to the repo so
+    # re-runs skip domains processed by any chunk in a previous run.
+    if TOTAL_CHUNKS > 1 and OUTPUT_FILE != Config.DISCOVERY_RESULTS_CSV:
+        files_to_check.append(Config.DISCOVERY_RESULTS_CSV)
+    for path in files_to_check:
+        if os.path.exists(path):
+            try:
+                with open(path, 'r', encoding='utf-8') as f:
+                    for row in csv.DictReader(f):
+                        processed.add(row['domain'])
+            except Exception as e:
+                print(f"⚠️  Could not load existing results from {path}: {e}")
     return processed
 
 def commit_progress():
