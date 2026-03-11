@@ -6,6 +6,7 @@ Features: parallel processing, incremental saving, resume capability.
 """
 
 import csv
+import math
 import requests
 import time
 from urllib.parse import urljoin
@@ -18,6 +19,8 @@ import signal
 import sys
 import os
 import subprocess
+sys.path.insert(0, os.path.dirname(__file__))
+from config import Config
 
 # Expanded RSS feed URL patterns
 RSS_PATTERNS = [
@@ -31,7 +34,16 @@ RSS_PATTERNS = [
     '/category/news/feed', '/section/news/feed',
 ]
 
-OUTPUT_FILE = 'rss_discovery_results_enhanced.csv'
+# Chunked parallel processing support
+CHUNK_INDEX = int(os.environ.get('CHUNK_INDEX', '0'))
+TOTAL_CHUNKS = int(os.environ.get('TOTAL_CHUNKS', '1'))
+
+# Use chunk-specific output file when running in parallel to avoid conflicts
+if TOTAL_CHUNKS > 1:
+    _base, _ext = os.path.splitext(Config.DISCOVERY_RESULTS_CSV)
+    OUTPUT_FILE = f"{_base}_chunk_{CHUNK_INDEX}{_ext}"
+else:
+    OUTPUT_FILE = Config.DISCOVERY_RESULTS_CSV
 
 # Global for signal handling
 executor = None
@@ -155,6 +167,8 @@ def commit_progress():
     """Commit progress to git if running in CI environment."""
     if not os.environ.get('GITHUB_CI'):
         return  # Only commit in GitHub Actions
+    if TOTAL_CHUNKS > 1:
+        return  # Merge job handles commits in parallel mode
     
     try:
         # Check if there are changes
@@ -232,7 +246,7 @@ def main():
     
     prospects_to_search = []
     try:
-        with open('prospects.csv', 'r', encoding='utf-8') as f:
+        with open(Config.PROSPECTS_CSV, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 rss_feed = row.get('rss_feed', '').strip()
@@ -247,12 +261,20 @@ def main():
         
         print(f"📋 Loaded {len(prospects_to_search)} prospects without RSS feeds from prospects.csv")
         print(f"   (These prospects need RSS feed discovery)\n")
-    
+
     except FileNotFoundError:
         print("❌ prospects.csv not found")
         print("   Please ensure the file exists in the current directory")
         sys.exit(1)
-    
+
+    # Slice for this chunk when running in parallel
+    if TOTAL_CHUNKS > 1:
+        chunk_size = math.ceil(len(prospects_to_search) / TOTAL_CHUNKS)
+        start = CHUNK_INDEX * chunk_size
+        end = min(start + chunk_size, len(prospects_to_search))
+        prospects_to_search = prospects_to_search[start:end]
+        print(f"📦 Chunk {CHUNK_INDEX + 1}/{TOTAL_CHUNKS}: rows {start}–{end} ({len(prospects_to_search)} prospects)")
+
     prospects = prospects_to_search
 
     # Load already-processed domains
@@ -284,7 +306,7 @@ def main():
     start_time = time.time()
     completed_count = 0
 
-    executor = ThreadPoolExecutor(max_workers=10)
+    executor = ThreadPoolExecutor(max_workers=20)
     try:
         # Submit all tasks
         future_to_prospect = {
