@@ -107,7 +107,7 @@ class ProspectScraper:
             # Load original feed URLs from discovery results (for regenerating missing feeds)
             original_feeds = {}
             try:
-                with open('rss_discovery_results_enhanced.csv', 'r', encoding='utf-8') as f:
+                with open(Config.DISCOVERY_RESULTS_CSV, 'r', encoding='utf-8') as f:
                     import csv as csv_module
                     reader = csv_module.DictReader(f)
                     for row in reader:
@@ -138,7 +138,7 @@ class ProspectScraper:
                 if 'swelbyboy.github.io' in rss_feed:
                     # Extract filename and check if XML actually exists
                     filename = rss_feed.split('/')[-1]
-                    xml_path = os.path.join('feeds', filename)
+                    xml_path = os.path.join(Config.FEEDS_DIR, filename)
                     
                     if os.path.exists(xml_path):
                         # XML exists - truly already processed

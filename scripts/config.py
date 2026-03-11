@@ -9,9 +9,18 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
+# Project root is the parent of this file's directory (scripts/)
+_SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
+_PROJECT_ROOT = os.path.dirname(_SCRIPTS_DIR)
+_PROSPECTS_DIR = os.path.join(_PROJECT_ROOT, 'prospects')
+
 
 class Config:
     """Application configuration."""
+
+    # Project layout
+    PROJECT_ROOT = _PROJECT_ROOT
+    PROSPECTS_DIR = _PROSPECTS_DIR
 
     # Firecrawl API Configuration
     FIRECRAWL_API_KEY = os.getenv('FIRECRAWL_API_KEY')
@@ -26,11 +35,16 @@ class Config:
     MAX_ARTICLES_PER_PROSPECT = int(os.getenv('MAX_ARTICLES_PER_PROSPECT', 10))
     SCRAPING_TIMEOUT = int(os.getenv('SCRAPING_TIMEOUT', 60))
 
-    # File Paths
-    PROSPECTS_CSV = os.getenv('PROSPECTS_CSV', 'prospects.csv')
-    TRACKING_CSV = 'tracking.csv'
-    FEEDS_DIR = 'feeds'
-    GITHUB_PAGES_DIR = 'github-pages-repo'
+    # File Paths — all absolute so scripts work from any working directory
+    PROSPECTS_CSV = os.getenv('PROSPECTS_CSV', os.path.join(_PROSPECTS_DIR, 'prospects.csv'))
+    TRACKING_CSV = os.path.join(_PROSPECTS_DIR, 'tracking.csv')
+    OUTREACH_TRACKER_CSV = os.path.join(_PROSPECTS_DIR, 'outreach_progress_tracker.csv')
+    DISCOVERY_RESULTS_CSV = os.path.join(_PROSPECTS_DIR, 'rss_discovery_results_enhanced.csv')
+    CURRENT_FEEDS_TXT = os.path.join(_PROSPECTS_DIR, 'current_feeds.txt')
+    MASTER_STATUS_CSV = os.path.join(_PROSPECTS_DIR, 'master_status.csv')
+    INDEX_HTML = os.path.join(_PROJECT_ROOT, 'index.html')
+    FEEDS_DIR = os.path.join(_PROJECT_ROOT, 'feeds')
+    GITHUB_PAGES_DIR = os.path.join(_PROJECT_ROOT, 'github-pages-repo')
 
     @classmethod
     def validate(cls):

@@ -4,13 +4,17 @@ Sync the progress tracker with the latest RSS feed discoveries from prospects.cs
 """
 
 import csv
+import os
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from config import Config
 from datetime import datetime
 
 def sync_tracker():
     # Read prospects.csv to get latest RSS feed data
     prospects_data = {}
     print("📋 Loading prospects.csv...")
-    with open('prospects.csv', 'r', encoding='utf-8') as f:
+    with open(Config.PROSPECTS_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             domain = row.get('domain', '').strip()
@@ -24,7 +28,7 @@ def sync_tracker():
     print(f"✅ Loaded {len(prospects_data)} prospects from prospects.csv")
 
     # Read the tracker
-    tracker_file = 'Newsletter outreach #2 - Progress tracker - UPDATED.csv'
+    tracker_file = os.path.join(Config.PROSPECTS_DIR, 'Newsletter outreach #2 - Progress tracker - UPDATED.csv')
     print(f"\n📋 Loading {tracker_file}...")
 
     rows = []

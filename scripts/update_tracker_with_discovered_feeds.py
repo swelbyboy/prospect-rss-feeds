@@ -4,6 +4,10 @@ Update the progress tracker with RSS feeds from rss_discovery_results_enhanced.c
 """
 
 import csv
+import os
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from config import Config
 from datetime import datetime
 
 def update_tracker():
@@ -12,7 +16,7 @@ def update_tracker():
     discovered_feeds = {}
     discovery_methods = {}
 
-    with open('rss_discovery_results_enhanced.csv', 'r', encoding='utf-8') as f:
+    with open(Config.DISCOVERY_RESULTS_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             domain = row['domain']
@@ -22,7 +26,7 @@ def update_tracker():
     print(f"✅ Loaded {len(discovered_feeds)} discovered feeds")
 
     # Read the tracker
-    tracker_file = 'outreach_progress_tracker.csv'
+    tracker_file = Config.OUTREACH_TRACKER_CSV
     print(f"\n📋 Loading {tracker_file}...")
 
     rows = []

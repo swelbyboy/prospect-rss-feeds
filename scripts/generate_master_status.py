@@ -7,13 +7,17 @@ Generate a master status CSV that consolidates all prospect information:
 """
 
 import csv
+import os
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from config import Config
 from datetime import datetime
 from collections import defaultdict
 
 def load_prospects():
     """Load basic prospect info"""
     prospects = {}
-    with open('prospects.csv', 'r', encoding='utf-8') as f:
+    with open(Config.PROSPECTS_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             prospects[row['id']] = {
@@ -31,7 +35,7 @@ def load_prospects():
 def load_tracking():
     """Load scraping status"""
     tracking = {}
-    with open('tracking.csv', 'r', encoding='utf-8') as f:
+    with open(Config.TRACKING_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             tracking[row['prospect_id']] = {
@@ -47,7 +51,7 @@ def load_discovery():
     """Load RSS discovery results"""
     discovery = {}
     try:
-        with open('rss_discovery_results_enhanced.csv', 'r', encoding='utf-8') as f:
+        with open(Config.DISCOVERY_RESULTS_CSV, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 domain = row['domain']
@@ -72,7 +76,7 @@ def generate_master_status():
     domain_to_id = {p['domain']: pid for pid, p in prospects.items()}
     
     # Write consolidated file
-    with open('master_status.csv', 'w', encoding='utf-8', newline='') as f:
+    with open(Config.MASTER_STATUS_CSV, 'w', encoding='utf-8', newline='') as f:
         fieldnames = [
             'id',
             'company_name',

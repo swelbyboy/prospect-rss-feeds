@@ -8,6 +8,9 @@ Comprehensive sync script to:
 
 import csv
 import os
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from config import Config
 from collections import defaultdict
 
 def load_xml_files():
@@ -16,17 +19,17 @@ def load_xml_files():
     xml_by_name = defaultdict(list)
     
     # Scan feeds/ directory
-    if os.path.exists('feeds'):
-        for f in os.listdir('feeds'):
+    if os.path.exists(Config.FEEDS_DIR):
+        for f in os.listdir(Config.FEEDS_DIR):
             if f.endswith('.xml'):
                 xml_url = f'https://swelbyboy.github.io/prospect-rss-feeds/{f}'
                 xml_files[f.lower()] = xml_url
                 # Create slug for matching
                 slug = f.lower().replace('.xml', '').replace('-', ' ').replace('_', ' ')
                 xml_by_name[slug].append(xml_url)
-    
+
     # Scan root directory
-    for f in os.listdir('.'):
+    for f in os.listdir(Config.PROJECT_ROOT):
         if f.endswith('.xml'):
             xml_url = f'https://swelbyboy.github.io/prospect-rss-feeds/{f}'
             xml_files[f.lower()] = xml_url
@@ -64,12 +67,12 @@ def main():
     print("📋 Loading data...")
     
     # Load prospects
-    with open('prospects.csv', 'r', encoding='utf-8') as f:
+    with open(Config.PROSPECTS_CSV, 'r', encoding='utf-8') as f:
         prospects = {row.get('domain', '').strip().lower(): row for row in csv.DictReader(f)}
     print(f"   ✅ Loaded {len(prospects):,} prospects")
     
     # Load tracker
-    tracker_file = 'outreach_progress_tracker.csv'
+    tracker_file = Config.OUTREACH_TRACKER_CSV
     with open(tracker_file, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         fieldnames = reader.fieldnames

@@ -5,6 +5,10 @@ This ensures the tracker is updated with all newly discovered feeds
 """
 
 import csv
+import os
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from config import Config
 from datetime import datetime
 
 def sync_prospects_to_tracker():
@@ -12,7 +16,7 @@ def sync_prospects_to_tracker():
     print("📋 Loading prospects.csv...")
     prospects_data = {}
 
-    with open('prospects.csv', 'r', encoding='utf-8') as f:
+    with open(Config.PROSPECTS_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             domain = row.get('domain', '').strip()
@@ -26,7 +30,7 @@ def sync_prospects_to_tracker():
     print(f"✅ Loaded {len(prospects_data)} prospects from prospects.csv")
 
     # Read the tracker
-    tracker_file = 'Newsletter outreach #2 - Progress tracker - UPDATED.csv'
+    tracker_file = os.path.join(Config.PROSPECTS_DIR, 'Newsletter outreach #2 - Progress tracker - UPDATED.csv')
     print(f"\n📋 Loading {tracker_file}...")
 
     rows = []

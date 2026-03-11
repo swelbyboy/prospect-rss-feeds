@@ -5,19 +5,22 @@ This ensures all feeds are listed even if tracking.csv is incomplete.
 """
 import csv
 import os
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from config import Config
 from datetime import datetime
 
 # Get ALL XML files from feeds/ directory and root
 xml_files = set()
 
 # Scan feeds/ directory
-if os.path.exists('feeds'):
-    for f in os.listdir('feeds'):
+if os.path.exists(Config.FEEDS_DIR):
+    for f in os.listdir(Config.FEEDS_DIR):
         if f.endswith('.xml'):
             xml_files.add(f)
 
 # Scan root directory
-for f in os.listdir('.'):
+for f in os.listdir(Config.PROJECT_ROOT):
     if f.endswith('.xml'):
         xml_files.add(f)
 
@@ -26,7 +29,7 @@ print(f'Found {len(xml_files)} XML feed files')
 # Load tracking data for status info (optional - for display only)
 tracking_by_url = {}
 try:
-    with open('tracking.csv', 'r', encoding='utf-8') as f:
+    with open(Config.TRACKING_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for entry in reader:
             rss_url = entry.get('rss_url', '')
@@ -38,7 +41,7 @@ except FileNotFoundError:
 # Load domain info from outreach_progress_tracker.csv as fallback
 tracker_by_feed_url = {}
 try:
-    with open('outreach_progress_tracker.csv', 'r', encoding='utf-8') as f:
+    with open(Config.OUTREACH_TRACKER_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for entry in reader:
             rss_feed = entry.get('RSS Feed', '').strip()
@@ -285,7 +288,7 @@ html += f'''    </table>
 </html>'''
 
 # Write to file
-with open('index.html', 'w', encoding='utf-8') as f:
+with open(Config.INDEX_HTML, 'w', encoding='utf-8') as f:
     f.write(html)
 
 print(f'Generated index.html with {len(feed_entries)} feeds')

@@ -5,13 +5,17 @@ while preserving manual outreach tracking columns.
 """
 
 import csv
+import os
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from config import Config
 from datetime import datetime
 from collections import defaultdict
 
 def load_prospects():
     """Load prospects.csv for basic info"""
     prospects = {}
-    with open('prospects.csv', 'r', encoding='utf-8') as f:
+    with open(Config.PROSPECTS_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             domain = row['domain']
@@ -27,7 +31,7 @@ def load_prospects():
 def load_tracking():
     """Load tracking.csv for latest scrape status"""
     tracking = {}
-    with open('tracking.csv', 'r', encoding='utf-8') as f:
+    with open(Config.TRACKING_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             domain = row['domain']
@@ -45,7 +49,7 @@ def load_discovery():
     """Load rss_discovery_results_enhanced.csv for newly discovered feeds"""
     discovery = {}
     try:
-        with open('rss_discovery_results_enhanced.csv', 'r', encoding='utf-8') as f:
+        with open(Config.DISCOVERY_RESULTS_CSV, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             for row in reader:
                 domain = row['domain']
@@ -60,7 +64,7 @@ def load_discovery():
 def load_existing_tracker():
     """Load existing outreach tracker to preserve manual columns"""
     tracker = {}
-    input_file = 'prospect_tracker.csv'
+    input_file = os.path.join(Config.PROSPECTS_DIR, 'prospect_tracker.csv')
     
     try:
         with open(input_file, 'r', encoding='utf-8') as f:
@@ -92,8 +96,8 @@ def update_outreach_tracker():
     discovery = load_discovery()
     existing_tracker = load_existing_tracker()
     
-    output_file = 'prospect_tracker.csv'
-    backup_file = f'prospect_tracker-BACKUP-{datetime.now().strftime("%Y%m%d-%H%M%S")}.csv'
+    output_file = os.path.join(Config.PROSPECTS_DIR, 'prospect_tracker.csv')
+    backup_file = os.path.join(Config.PROSPECTS_DIR, f'prospect_tracker-BACKUP-{datetime.now().strftime("%Y%m%d-%H%M%S")}.csv')
     
     # Backup existing file
     try:

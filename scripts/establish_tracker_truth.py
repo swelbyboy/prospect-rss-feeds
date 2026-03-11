@@ -19,13 +19,17 @@ Status Definitions:
 """
 
 import csv
+import os
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from config import Config
 from collections import defaultdict
 
 def load_hosted_feeds():
     """Load successfully generated hosted feeds from current_feeds.txt"""
     hosted = {}
 
-    with open('current_feeds.txt', 'r', encoding='utf-8') as f:
+    with open(Config.CURRENT_FEEDS_TXT, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
     # Skip header lines
@@ -49,7 +53,7 @@ def load_tracking_data():
     """Load scraper tracking data"""
     tracking = {}
 
-    with open('tracking.csv', 'r', encoding='utf-8') as f:
+    with open(Config.TRACKING_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             name = row['company_name'].strip()
@@ -68,7 +72,7 @@ def load_discovery_results():
     """Load RSS discovery results"""
     discovered = {}
 
-    with open('rss_discovery_results_enhanced.csv', 'r', encoding='utf-8') as f:
+    with open(Config.DISCOVERY_RESULTS_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
             domain = row['domain'].strip()
@@ -98,7 +102,7 @@ def establish_truth():
 
     # Load tracker
     print(f"\n📋 Loading tracker...")
-    tracker_file = 'outreach_progress_tracker.csv'
+    tracker_file = Config.OUTREACH_TRACKER_CSV
 
     rows = []
     with open(tracker_file, 'r', encoding='utf-8') as f:

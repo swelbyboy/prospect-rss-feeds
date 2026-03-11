@@ -7,10 +7,13 @@ The discovery script reads from the tracker, not from prospects.csv directly.
 """
 
 import csv
+import os
 import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from config import Config
 
-PROSPECTS_FILE = 'prospects.csv'
-TRACKER_FILE = 'outreach_progress_tracker.csv'
+PROSPECTS_FILE = Config.PROSPECTS_CSV
+TRACKER_FILE = Config.OUTREACH_TRACKER_CSV
 
 def main():
     print("📥 Adding new prospects to outreach_progress_tracker.csv")

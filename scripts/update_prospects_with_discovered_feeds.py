@@ -5,6 +5,10 @@ Update prospects.csv with newly discovered RSS feeds from discovery results.
 """
 
 import csv
+import os
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from config import Config
 
 def main():
     print("📝 Updating prospects.csv with discovered RSS feeds")
@@ -12,7 +16,7 @@ def main():
 
     # Read discovery results - index by both id and domain for flexible matching
     try:
-        with open('rss_discovery_results_enhanced.csv', 'r', encoding='utf-8') as f:
+        with open(Config.DISCOVERY_RESULTS_CSV, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             discoveries_by_id = {}
             discoveries_by_domain = {}
@@ -33,7 +37,7 @@ def main():
 
     # Read current prospects
     prospects = []
-    with open('prospects.csv', 'r', encoding='utf-8') as f:
+    with open(Config.PROSPECTS_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         prospects = list(reader)
 
@@ -60,7 +64,7 @@ def main():
     print(f"\n📊 Updated {updated_count} prospects with new RSS feeds")
 
     # Write updated prospects.csv
-    with open('prospects.csv', 'w', encoding='utf-8', newline='') as f:
+    with open(Config.PROSPECTS_CSV, 'w', encoding='utf-8', newline='') as f:
         fieldnames = prospects[0].keys() if prospects else []
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()

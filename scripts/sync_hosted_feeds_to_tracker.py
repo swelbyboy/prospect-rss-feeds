@@ -5,12 +5,16 @@ This ensures the RSS Feed column contains the correct hosted feed URLs
 """
 
 import csv
+import os
+import sys
+sys.path.insert(0, os.path.dirname(__file__))
+from config import Config
 
 def parse_current_feeds():
     """Parse current_feeds.txt to extract hosted feed URLs"""
     feeds = {}
 
-    with open('current_feeds.txt', 'r', encoding='utf-8') as f:
+    with open(Config.CURRENT_FEEDS_TXT, 'r', encoding='utf-8') as f:
         lines = f.readlines()
 
     # Skip header lines (first 3 lines)
@@ -43,7 +47,7 @@ def sync_tracker():
     print(f"   Failed/No feed: {without_feed}")
 
     # Read tracker
-    tracker_file = 'Newsletter outreach #2 - Progress tracker - UPDATED.csv'
+    tracker_file = os.path.join(Config.PROSPECTS_DIR, 'Newsletter outreach #2 - Progress tracker - UPDATED.csv')
     print(f"\n📋 Loading {tracker_file}...")
 
     rows = []
