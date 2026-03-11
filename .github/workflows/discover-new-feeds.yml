@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
     inputs:
       total_chunks:
-        description: 'Number of parallel chunks (default: 20)'
+        description: 'Number of parallel chunks (default: 40)'
         required: false
-        default: '20'
+        default: '40'
 
 jobs:
   discover:
@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        chunk: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+        chunk: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39]
 
     steps:
       - name: Checkout repository
@@ -42,7 +42,7 @@ jobs:
       - name: Discover RSS feeds (chunk ${{ matrix.chunk }})
         env:
           CHUNK_INDEX: ${{ matrix.chunk }}
-          TOTAL_CHUNKS: ${{ inputs.total_chunks || '20' }}
+          TOTAL_CHUNKS: ${{ inputs.total_chunks || '40' }}
           GITHUB_CI: 'true'
           PYTHONUNBUFFERED: '1'
         run: |

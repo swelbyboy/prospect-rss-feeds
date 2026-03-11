@@ -104,7 +104,7 @@ def check_sitemap(domain, timeout=1):
                 continue
     return (False, None, "No feed found in sitemap")
 
-def check_common_patterns(domain, timeout=1):
+def check_common_patterns(domain, timeout=0.5):
     """Try common RSS feed URL patterns."""
     for scheme in ['https', 'http']:
         base_url = f"{scheme}://{domain}"
@@ -132,11 +132,6 @@ def discover_rss_feed(domain):
     success, feed_url, error = check_common_patterns(domain)
     if success:
         return (True, feed_url, "pattern", None)
-
-    # Strategy 3: Sitemap.xml (less common but worth trying)
-    success, feed_url, error = check_sitemap(domain)
-    if success:
-        return (True, feed_url, "sitemap", None)
 
     return (False, None, None, "No RSS feed found with any method")
 
