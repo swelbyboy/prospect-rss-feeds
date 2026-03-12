@@ -189,8 +189,10 @@ jobs:
             echo "No tracking changes to commit"
           else
             git commit -m "Update RSS feeds - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+            git stash --include-untracked
             git pull --rebase origin main
             git push
+            git stash pop || true
           fi
 
       - name: Publish feeds to gh-pages
