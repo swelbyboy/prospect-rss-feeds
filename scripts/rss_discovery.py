@@ -59,6 +59,14 @@ def signal_handler(sig, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
+def parse_feed(url, timeout=3):
+    """Fetch and parse a feed URL with an explicit timeout (feedparser.parse(url) has none)."""
+    try:
+        response = requests.get(url, timeout=timeout, headers={'User-Agent': 'Mozilla/5.0'})
+        return feedparser.parse(response.content)
+    except Exception:
+        return feedparser.FeedParserDict()
+
 def check_autodiscovery(domain, timeout=2):
     """Check HTML <link> tags for RSS autodiscovery."""
     for scheme in ['https', 'http']:
@@ -76,7 +84,7 @@ def check_autodiscovery(domain, timeout=2):
                     href = link.get('href')
                     if href:
                         feed_url = urljoin(base_url, href)
-                        feed = feedparser.parse(feed_url)
+                        feed = parse_feed(feed_url)
                         if feed.entries and len(feed.entries) > 0:
                             return (True, feed_url, None)
         except Exception:
@@ -97,7 +105,7 @@ def check_sitemap(domain, timeout=1):
                     content = response.text
                     feed_matches = re.findall(r'<loc>(.*?/(?:feed|rss|atom).*?)</loc>', content)
                     for feed_url in feed_matches:
-                        feed = feedparser.parse(feed_url)
+                        feed = parse_feed(feed_url)
                         if feed.entries and len(feed.entries) > 0:
                             return (True, feed_url, None)
             except Exception:
@@ -114,7 +122,7 @@ def check_common_patterns(domain, timeout=0.5):
                 response = requests.head(feed_url, timeout=timeout, allow_redirects=True,
                                         headers={'User-Agent': 'Mozilla/5.0'})
                 if response.status_code in [200, 405]:
-                    feed = feedparser.parse(feed_url)
+                    feed = parse_feed(feed_url)
                     if feed.entries and len(feed.entries) > 0:
                         return (True, feed_url, None)
             except Exception:
