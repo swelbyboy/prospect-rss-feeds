@@ -267,14 +267,6 @@ def main():
         print("   Please ensure the file exists in the current directory")
         sys.exit(1)
 
-    # Slice for this chunk when running in parallel
-    if TOTAL_CHUNKS > 1:
-        chunk_size = math.ceil(len(prospects_to_search) / TOTAL_CHUNKS)
-        start = CHUNK_INDEX * chunk_size
-        end = min(start + chunk_size, len(prospects_to_search))
-        prospects_to_search = prospects_to_search[start:end]
-        print(f"📦 Chunk {CHUNK_INDEX + 1}/{TOTAL_CHUNKS}: rows {start}–{end} ({len(prospects_to_search)} prospects)")
-
     prospects = prospects_to_search
 
     # Load already-processed domains
@@ -286,11 +278,19 @@ def main():
         print(f"✅ Skipping {skipped} already-processed prospects")
         print(f"📊 Remaining prospects to process: {len(prospects)}")
 
+    # Slice AFTER filtering so remaining work is distributed evenly across chunks
+    if TOTAL_CHUNKS > 1:
+        chunk_size = math.ceil(len(prospects) / TOTAL_CHUNKS)
+        start = CHUNK_INDEX * chunk_size
+        end = min(start + chunk_size, len(prospects))
+        prospects = prospects[start:end]
+        print(f"📦 Chunk {CHUNK_INDEX + 1}/{TOTAL_CHUNKS}: {len(prospects)} remaining prospects")
+
     if len(prospects) == 0:
         print("✅ All prospects processed!")
         return
 
-    print(f"⚡ Processing {len(prospects)} prospects with 10 parallel workers")
+    print(f"⚡ Processing {len(prospects)} prospects with 20 parallel workers")
     print(f"💾 Results auto-save to: {OUTPUT_FILE}\n")
 
     # Stats (thread-safe with lock)
