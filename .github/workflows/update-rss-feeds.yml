@@ -216,7 +216,7 @@ jobs:
           fieldnames = ['prospect_id', 'company_name', 'domain', 'last_scrape_date',
                         'status', 'articles_found', 'rss_url', 'error_message', 'data_source']
           all_rows = []
-          chunk_files = sorted(glob.glob('artifacts/tracking_chunk_*.csv'))
+          chunk_files = sorted(glob.glob('artifacts/prospects/tracking_chunk_*.csv'))
           print(f"Merging {len(chunk_files)} tracking chunk files")
           for chunk_file in chunk_files:
               with open(chunk_file, encoding='utf-8') as f:
@@ -229,7 +229,7 @@ jobs:
 
           # Collect XML feeds
           os.makedirs('feeds', exist_ok=True)
-          xml_files = glob.glob('artifacts/*.xml')
+          xml_files = glob.glob('artifacts/feeds/*.xml')
           for xml_file in xml_files:
               shutil.copy(xml_file, 'feeds/')
 
