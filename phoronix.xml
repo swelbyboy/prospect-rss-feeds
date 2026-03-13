@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Mar 2026 09:13:55 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 06:55:31 +0000</lastBuildDate>
     <item>
-      <title>AMD, NVIDIA, OpenAI &amp;amp; Others Form An Optical Scale-up Consortium</title>
-      <link>https://www.phoronix.com/news/Optical-Compute-Interconnect</link>
-      <description>AMD, Broadcom, Meta, Microsoft, NVIDIA and OpenAI jointly announced today the formation of the Optical Compute Interconnect (OCI) Multi-Source Agreement (MSA) optical scale-up consortium...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Optical-Compute-Interconnect</guid>
-      <pubDate>Thu, 12 Mar 2026 13:19:25 +0000</pubDate>
+      <title>GCC 16 Compiler Aiming For Mid-April Release Candidate But "Slow" Progress On Fixes</title>
+      <link>https://www.phoronix.com/news/GCC-16-RC-Mid-April</link>
+      <description>Richard Biener of SUSE published a new status report on the state of GCC 16 development. Regression fixing has been going slow but they are hoping to publish a release candidate by mid-April...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GCC-16-RC-Mid-April</guid>
+      <pubDate>Mon, 09 Mar 2026 10:28:03 +0000</pubDate>
     </item>
     <item>
-      <title>AMD HDR/Color Improvement For Their Linux Driver &amp;amp; KDE - Co-Developed By Claude Code</title>
-      <link>https://www.phoronix.com/news/AMD-More-HDR-KWin-Claude-Code</link>
-      <description>Introduced with Linux 6.19 was the long in development DRM Color Pipeline API while it's not the end of the road yet on enhancing the Linux desktop for modern high dynamic range (HDR) displays and color pipeline handling. AMD engineer Harry Wentland has more improvements pending for the AMDGPU driver as well as example compositor/desktop-side integration with KDE's KWin...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-More-HDR-KWin-Claude-Code</guid>
-      <pubDate>Thu, 12 Mar 2026 14:19:15 +0000</pubDate>
+      <title>New Rust Driver Aims To Improve Upstream Linux On Synology NAS Devices</title>
+      <link>https://www.phoronix.com/news/Synology-Microp-Linux-Driver</link>
+      <description>A set of patches posted to the Linux kernel mailing list last week introduce a new driver for enhancing the upstream/mainline Linux kernel support for Synology network attached storage (NAS) devices. This new driver is Synology Microp and is making use of the Linux kernel's modern Rust programming language support...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Synology-Microp-Linux-Driver</guid>
+      <pubDate>Mon, 09 Mar 2026 13:08:00 +0000</pubDate>
     </item>
     <item>
-      <title>EndeavourOS Titan Released With Linux 6.19, Improved GPU Driver Integration</title>
-      <link>https://www.phoronix.com/news/EndeavourOS-Titan</link>
-      <description>EndeavourOS Titan is out today as the latest ISO refresh for this Arch Linux powered distribution. There is a lot of updates as part of this routine ISO refresh as well as some new tooling and GPU driver integration enhancements...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/EndeavourOS-Titan</guid>
-      <pubDate>Thu, 12 Mar 2026 15:38:28 +0000</pubDate>
+      <title>AMD Formally Launches Ryzen AI Embedded P100 Series 8-12 Core Models</title>
+      <link>https://www.phoronix.com/news/AMD-Ryzen-Embedded-P100-Series</link>
+      <description>AMD announced back at CES the Ryzen AI Embedded P100 series with initially the models up to six Zen 5 cores launching while the eight through twelve core models would be available later in H1. Today AMD formally announced those higher-tier Ryzen AI Embedded P100 series parts...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-Ryzen-Embedded-P100-Series</guid>
+      <pubDate>Mon, 09 Mar 2026 14:10:00 +0000</pubDate>
     </item>
     <item>
-      <title>Intel CPU Security Mitigation Costs From Haswell Through Panther Lake</title>
-      <link>https://www.phoronix.com/review/intel-panther-lake-mitigations</link>
-      <description>Over the past month on Phoronix there have been a lot of benchmarks of Intel's new Core Ultra Series 3 "Panther Lake" with the Core Ultra X7 358H. One of the areas of Panther Lake not explored yet is around the CPU security mitigation impact, which is the focus of today's benchmarking. The performance tests today are not only looking at the impact of the Core Ultra X7 SoC at its default versus running in a "mitigations=off" configuration but also comparing the overall CPU security mitigation imp</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/intel-panther-lake-mitigations</guid>
-      <pubDate>Thu, 12 Mar 2026 15:50:00 +0000</pubDate>
+      <title>NVIDIA 595 Linux Driver Running Well In Early Benchmarks</title>
+      <link>https://www.phoronix.com/review/nvidia-595-linux</link>
+      <description>Last week NVIDIA released the 595.45.04 beta Linux driver as their first public build in the R595 release branch. The NVIDIA R595 Linux driver is bringing a number of Vulkan driver improvements, HDR enhancements, DRI3 v1.2 support, and a variety of other improvements. Benchmarking the NVIDIA 595.45.04 Linux driver the past few days on GeForce RTX 50 "Blackwell" have been showing some nice incremental performance improvements over the current NVIDIA 590 driver stable series.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/nvidia-595-linux</guid>
+      <pubDate>Mon, 09 Mar 2026 14:35:53 +0000</pubDate>
     </item>
     <item>
-      <title>AMD ZenDNN 5.2 Brings A Major Redesign, AOCC 5.1 Recently Released</title>
-      <link>https://www.phoronix.com/news/AMD-ZenDNN-5.2-Released</link>
-      <description>AMD today released ZenDNN 5.2 as the latest versio nof their deep nueral network library that now introduces their next-generation runtime architecture. ZenDNN 5.2 is designed to deliver better performance and geater scalability over earlier versions of this AMD library that began as their take on Intel's open-source oneDNN...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-ZenDNN-5.2-Released</guid>
-      <pubDate>Thu, 12 Mar 2026 17:11:26 +0000</pubDate>
+      <title>Intel Publishes XeSS 3 SDK To GitHub - Still As Windows-Only Binaries</title>
+      <link>https://www.phoronix.com/news/Intel-XeSS-3-SDK-GitHub</link>
+      <description>Intel just published the XeSS 3.0 SDK to GitHub as the newest version of their Xe Super Sampling AI-enhanced upscaling technology for gamers. Sadly though it remains proprietary software and only with native support for Windows...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-XeSS-3-SDK-GitHub</guid>
+      <pubDate>Mon, 09 Mar 2026 15:10:43 +0000</pubDate>
     </item>
     <item>
-      <title>systemd 260-rc3 Released With AI Agents Documentation Added</title>
-      <link>https://www.phoronix.com/news/systemd-260-rc3</link>
-      <description>The first release candidate of systemd 260 arrived in late February with the new mstack feature, dropping System V service scripts support, and other changes. A week after that systemd 260-rc2 released with a few more changes and now another week later is systemd 260-rc3...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/systemd-260-rc3</guid>
-      <pubDate>Thu, 12 Mar 2026 17:41:13 +0000</pubDate>
+      <title>Ubuntu 26.04 LTS Officially Supporting Cloud-Based Authentication With Authd</title>
+      <link>https://www.phoronix.com/news/Ubuntu-26.04-LTS-Authd</link>
+      <description>Canonical for a while has been developing Authd as an authentication service for external cloud-based identity providers. Authd was designed from the ground-up to provide secure management of identity and access for Ubuntu systems while only with next month's Ubuntu 26.04 LTS release is it actually hitting the universe archive...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-26.04-LTS-Authd</guid>
+      <pubDate>Mon, 09 Mar 2026 15:45:53 +0000</pubDate>
     </item>
     <item>
-      <title>Google To Finally Provide Chrome ARM64 Binaries For Linux</title>
-      <link>https://www.phoronix.com/news/Google-Chrome-ARM64-Linux-Q2</link>
-      <description>Google has shared exciting news with us today that they are bringing their Chrome web browser to ARM64 Linux devices...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Google-Chrome-ARM64-Linux-Q2</guid>
-      <pubDate>Thu, 12 Mar 2026 20:05:33 +0000</pubDate>
+      <title>NVIDIA Adds Official Support For RHEL-Compatible Distributions Like AlmaLinux With CUDA 13.2</title>
+      <link>https://www.phoronix.com/news/NVIDIA-Official-RHEL-Compat</link>
+      <description>With CUDA 13.2 that is now shipping, NVIDIA has provided official support for Red Hat Enterprise Linux compatible distributions/downstreams like AlmaLinux to CUDA. With this official NVIDIA CUDA support for these RHEL-compatible distributions, NVIDIA is also allowing the NVIDIA packages to be distributed directly from the OS package repositories...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-Official-RHEL-Compat</guid>
+      <pubDate>Mon, 09 Mar 2026 18:41:00 +0000</pubDate>
     </item>
     <item>
-      <title>Linux 7.0 cpupower Now Handles systemd Service Setting EPP, Intel P-State Turbo Boost</title>
-      <link>https://www.phoronix.com/news/Linux-7.0-More-cpupower</link>
-      <description>The cpupower tool that lives within the Linux kernel source tree has squeezed in a few improvements today for the ongoing Linux 7.0 development cycle...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.0-More-cpupower</guid>
-      <pubDate>Thu, 12 Mar 2026 21:31:30 +0000</pubDate>
+      <title>NVIDIA Releases New R595-Derived Vulkan Developer Beta For Linux With New Features</title>
+      <link>https://www.phoronix.com/news/NVIDIA-595.44.02-Linux-Vulkan</link>
+      <description>Last week NVIDIA released the 595.45.04 Linux driver beta as their first release in the R595 series for Linux and it's running very well in initial testing. Today as part of their Vulkan developer beta program, they have released the NVIDIA 595.44.02 driver that brings some new Vulkan API features...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-595.44.02-Linux-Vulkan</guid>
+      <pubDate>Mon, 09 Mar 2026 20:33:21 +0000</pubDate>
     </item>
     <item>
-      <title>Ubuntu's AppArmor Hit By Several Security Issues - Can Yield Local Privilege Escalation</title>
-      <link>https://www.phoronix.com/news/Ubuntu-AppArmor-Security-Issues</link>
-      <description>The AppArmor Linux kernel security module used notably by Ubuntu Linux and currently maintained by Canonical has been affected by several vulnerabilities made public today...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-AppArmor-Security-Issues</guid>
-      <pubDate>Fri, 13 Mar 2026 00:27:18 +0000</pubDate>
+      <title>There's Hope That At Least Colorado's Age Attestation Bill Could Exclude Open-Source</title>
+      <link>https://www.phoronix.com/news/Colorado-Maybe-Exclude-OSS</link>
+      <description>Last week was a statement by System76 regarding recent age verification laws in California and Colorado among other US states that could have a profound impact on Linux distributions and other open-source software. The Colorado legislation is especially pressing to System76 considering that is where they are based. Fortunately, they aren't taking this lightly and there is some hope that at least in Colorado open-source software could be excluded...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Colorado-Maybe-Exclude-OSS</guid>
+      <pubDate>Mon, 09 Mar 2026 23:07:56 +0000</pubDate>
     </item>
     <item>
-      <title>TrueNAS Connect Announced For Offering Enterprise Features Without The Hardware</title>
-      <link>https://www.phoronix.com/news/TrueNAS-Connect-2026</link>
-      <description>Last year TrueNAS unified their SCALE and CORE offerings as part of solidifying their enterprise storage efforts around Linux from their prior FreeBSD base. This year the developers at iXsystems have another change in store with announcing TrueNAS Connect as a new bridge for accessing TrueNAS enterprise storage features without having to invest in their hardware...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/TrueNAS-Connect-2026</guid>
-      <pubDate>Fri, 13 Mar 2026 00:40:30 +0000</pubDate>
+      <title>FreeBSD 14.4 Released For Those Not Yet Ready To Move To FreeBSD 15</title>
+      <link>https://www.phoronix.com/news/FreeBSD-14.4-Released</link>
+      <description>FreeBSD 14.4 is out today as the latest update to the aging FreeBSD 14 series for those not yet ready to upgrade to FreeBSD 15 that debuted as stable last year...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-14.4-Released</guid>
+      <pubDate>Tue, 10 Mar 2026 00:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

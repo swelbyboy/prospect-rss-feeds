@@ -8,79 +8,80 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Mar 2026 09:13:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Mar 2026 06:57:28 +0000</lastBuildDate>
     <item>
-      <title>蘋果為舊款iPhone及iPad用戶發布更新，修補已被攻擊套件Coruna利用的漏洞</title>
-      <link>https://www.ithome.com.tw/news/174383</link>
-      <description>新聞一週前Google揭露iOS漏洞利用工具包Coruna，該工具包能利用23種已知漏洞，且串連5種完整的漏洞利用攻擊鏈而受到關注。後續美國網路安全暨基礎設施安全局（CISA）將其中3個漏洞列入已遭到利用的漏洞列表（KEV），本週蘋果也發布資安公告，為舊版行動裝置作業系統修補相關漏洞。 3月11日蘋果針對iPhone與iPad用戶發布更新，包含iOS與iPadOS 16.7.15、15.8.7版，修補4個已遭Coruna利用的資安漏洞，其中包含出現於系統核心的CVE-2023-41974，以及出現在瀏覽器排版引擎WebKit的CVE-2023-43000、CVE-2023-43010、CVE-2024-23222，CVSS風險介於7.8至8.8分。 目前採用15與16版iOS、iPadOS的行動裝置相當多，涵蓋2015年以後推出的裝置，包含：iPhone 6s、第一代iPhone SE、第二代iPad Air、第四代iPad mini、第7代iPod touch、第五代iPad、9.7吋iPad Pro，以及第一代12.9吋的iPad Pro，為了避免暴露在上述漏洞遭濫用的風險，用戶應</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174383</guid>
-      <pubDate>Fri, 13 Mar 2026 02:35:27 +0000</pubDate>
+      <title>假CleanMyMac以ClickFix手法向Mac電腦用戶散布竊資軟體</title>
+      <link>https://www.ithome.com.tw/news/174293</link>
+      <description>新聞資安廠商發現，一支竊資軟體近日冒充知名硬碟清理工具CleanMyMac藉由ClickFix手法誘騙Mac電腦使用者下載執行。 Malwarebytes研究人員發現釣魚網站cleanmycos[.]org，冒充CleanMyMac官網騙取想下載的用戶安裝竊資軟體SHub Stealer。用戶造訪時，會看到網頁展示重度用戶常見的進階安全選項。該網頁指示用戶開啟終端視窗，並貼上網頁提供的macOS指令，然後按下Return鍵。過程中使用者完全沒有下載提示頁、磁碟圖示或安全對話框。雖然使用者沒有察覺異狀，但已經下載了竊資程式。 圖片來源/Malwarebytes 研究人員指出，該指令執行後會快速執行三個步驟。第一讓終端輸出看似合法的結果，接著將一個經過混淆編碼的連結解碼出真正的目的地，最後從攻擊者控制的伺服器下載shell script，並注入zsh，立即執行。 由於SHub Stealer本身是macOS竊資軟體，一旦執行上述動作即開始下載到用戶macOS裝置。它會竊取已儲存密碼、瀏覽器資料、Apple Keychain內容、加密貨幣錢包、Telegram會話通訊。SHub Steale</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174293</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/0310-CleanMyMac-Stealer-2-Malwarebytes.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Mar 2026 02:36:32 +0000</pubDate>
     </item>
     <item>
-      <title>面臨AI隱憂，Atlassian裁員1600人</title>
-      <link>https://www.ithome.com.tw/news/174384</link>
-      <description>新聞澳洲軟體巨擘Atlassian昨（3/12）日宣布裁員約10%，將近1600名員工並計畫公司重組，成為AI興起衝擊的最新一家軟體公司。 Atlassian是知名軟體公司，擁有多項深受開發人員愛用的產品，包括專案管理產品Jira、技術文件管理平臺Confluence、視覺化專案管理Trello與程式碼代管平臺Bitbucket等。 Atlassian執行長Mike Cannon-Brookes坦承，AI是公司決定裁員的原因之一。他說，雖然公司不認為AI可取代人類工程師，但假裝AI對軟體公司技能組成或需要的人員數量沒有影響就太不智了。他表示，為了適應新的挑戰，公司正在重塑技能組成，並改變未來工作方式。 Atlassian上季雲端營運成長25%，衡量公司營收潛力的RPO（Remaining Performance Obligation，剩餘履約義務）來到25%、ARR（Annual Recurring Revenue，年度經常性收入）客戶超過百萬的客戶有600多家、AI雲端產品Rovo每月平均用戶超過500萬。但受到AI的衝擊，Atlassian的股價已自1年前跌了70%。 Cannon</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174384</guid>
-      <pubDate>Fri, 13 Mar 2026 02:45:49 +0000</pubDate>
+      <title>伊朗駭客MuddyWater入侵美國銀行與機場網路，部署Dindoor與Fakeset後門程式</title>
+      <link>https://www.ithome.com.tw/news/174294</link>
+      <description>新聞在美國與以色列聯手，以推動伊朗的政權更替等目標發動軍事攻擊，迄今超過一週，然而近期有資安公司指出，伊朗駭客在此之前就鎖定美國企業組織從事網路間諜活動。 賽門鐵克與Carbon Black威脅獵捕團隊揭露，與伊朗政府有關的駭客組織MuddyWater（Seedworm、Static Kitten、Temp Zagros），約從2月初入侵美國與加拿大多個機構的網路環境，並部署兩款新的後門程式Dindoor與Fakeset，試圖建立長期存取權限，並透過雲端儲存服務進行資料外傳。 這波攻擊活動約從2026年2月初開始，部分受害機構在2月7日與14日遭到入侵。由於相關行動發生在美國與以色列對伊朗軍事行動前後，研究人員推測駭客可能提前滲透，以便在地緣政治衝突升溫之後，保有攻擊與情報蒐集能力。 在此次攻擊中，研究人員發現兩種新的後門程式。其中，Dindoor是利用Deno執行環境開發的惡意程式，Deno是提供執行JavaScript與TypeScript程式碼的執行環境。由於此類環境較少被用於惡意程式開發，駭客可能藉此降低被資安工具偵測的機率。調查顯示，Dindoor主要出現在美國銀行、加拿大非</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174294</guid>
+      <pubDate>Tue, 10 Mar 2026 02:43:30 +0000</pubDate>
     </item>
     <item>
-      <title>微軟推出Copilot Health，整合病歷與穿戴裝置資料打造AI健康助理</title>
-      <link>https://www.ithome.com.tw/news/174385</link>
-      <description>新聞微軟周四（3/12）宣布推出Copilot Health，這是一項整合在Copilot App中的人工智慧健康服務，可整合用戶的醫療紀錄、檢驗結果與穿戴裝置資料，並利用AI分析健康資訊，提供個人化健康建議。該服務將先在美國推出，並採分階段方式開放用戶加入候補名單。 Copilot Health定位為Copilot中的專屬健康空間，讓使用者可以將分散在不同系統中的健康資料集中管理。用戶可匯入電子病歷、檢驗報告與醫師就診摘要，並連接來自Apple Health、Oura、Fitbit等穿戴裝置的活動量、睡眠與生理數據。AI會依據這些資訊分析健康趨勢，協助使用者理解檢驗結果、整理健康紀錄，或在就醫前準備要向醫師詢問的問題。 微軟表示，目前Bing與Copilot每天處理超過5,000萬個健康相關問題，因此希望透過Copilot Health提供更完整的健康資訊服務。許多使用者在面對健康問題時，往往需要在多個網站、應用程式與醫療文件之間搜尋資訊，而Copilot Health的目標是將這些資料整合為可理解的健康脈絡，協助使用者更好地掌握自身健康狀況。 現階段Copilot Health可連</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174385</guid>
-      <pubDate>Fri, 13 Mar 2026 03:19:00 +0000</pubDate>
+      <title>被美國國防部列為供應鏈風險，Anthropic提告</title>
+      <link>https://www.ithome.com.tw/news/174295</link>
+      <description>新聞Anthropic周一（3/9）就被美國國防部列為供應鏈風險（Supply Chain Risk，SCR）一事提出了兩項訴訟，一是向加州北區聯邦地方法院提起訴訟，主張政府違反憲法與行政程序，二是向華盛頓DC巡迴上訴法院提出司法審查，直接挑戰國防部供應鏈風險指定的合法性。同時，還有超過30名來自OpenAI與Google的AI研究人員簽署了法庭之友意見書（Amicus Curiae Brief）來聲援Anthropic。 美國國防部與Anthropic之間的歧見在2月底浮上檯面，當時傳出美國國防部長Pete Hegseth要求Anthropic開放其AI模型Claude的使用限制，否則就要將Anthropic列為SCR並中止合作；隨後Anthropic發布聲明，強調該公司支持以AI捍衛美國與民主國家安全，但不會撤除涉及大規模境內監控與完全自主武器的兩項政策紅線。 美國總統川普（Donald Trump）則在2月28日透過Truth Social表示，Anthropic試圖強迫美國國防部遵從它們的服務條款，而非美國憲法，這是個災難性的錯誤，因此他指示美國所有聯邦機構立即停止使用Anth</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174295</guid>
+      <pubDate>Tue, 10 Mar 2026 02:48:39 +0000</pubDate>
     </item>
     <item>
-      <title>勒索軟體Interlock利用AI打造後門程式Slopoly</title>
-      <link>https://www.ithome.com.tw/news/174386</link>
-      <description>新聞駭客用AI加速攻擊步調的案例層出不窮，如今又有攻擊者以AI打造用於部分攻擊流程的工具。 年初IBM資安研究團隊X-Force發現疑似由AI生成的C2框架Slopoly，攻擊者的身分是外號Hive0163的駭客組織，他們向來透過勒索軟體Interlock及資料外洩，向受害組織進行勒索。IBM指出，這起攻擊行動的發現，代表駭客組織的攻擊策略出現重大改變，藉由AI輕易在短時間內開發新的惡意軟體或框架。 該公司在調查一起勒索軟體事件時，發現攻擊者在受害伺服器上部署名為Slopoly的PowerShell程式碼。這個程式疑似透過生成式AI產生，原因是程式內容包含大量註解、錯誤處理，以及完整變數命名，這些都是典型AI生成程式碼的特徵，不過，究竟駭客濫用何種大型語言模型，IBM表示不清楚。 針對Slopoly的性質，它既是後門程式，也是攻擊者的C2框架用戶端軟體。Slopoly會蒐集系統資訊並定期向C2伺服器回報，每30秒傳送一次心跳訊號並等待指令，一旦接收到指令就透過cmd.exe執行，再將結果回傳給遠端伺服器，使攻擊者能遠端操控受害主機。 研究顯示，駭客利用這個後門在受害系統中維持超過一週的</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174386</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/x-force-slopoly-ransomware-fig-3.png" length="0" type="image/png"/>
-      <pubDate>Fri, 13 Mar 2026 03:25:43 +0000</pubDate>
+      <title>研究人員揭露AI瀏覽器Perplexity Comet零點擊漏洞PerplexedBrowser，恐導致電腦本機檔案被外流</title>
+      <link>https://www.ithome.com.tw/news/174296</link>
+      <description>新聞隨著生成式AI和AI代理普及，AI龍頭也加入瀏覽器戰場，推出內建AI代理的瀏覽器，然而一旦攻擊者能對AI上下其手，就有可能引發嚴重的後果。 資安公司Zenity揭露，生成式AI搜尋服務公司Perplexity的瀏覽器Comet，存在新的安全風險，將其命名為PerplexedBrowser，攻擊者可透過間接提示注入（Indirect Prompt Injection）操控AI代理，在使用者毫不知情的情況下讀取本機檔案。Zenity強調，此為零點擊（Zero-Click）的攻擊型態，攻擊者不需要利用傳統軟體漏洞，也不需要使用者點擊惡意連結或下載程式，只要受害者將某些日常工作委託AI代理處理，就可能觸發攻擊流程。 Zenity在2025年11月向Perplexity通報相關問題，兩家公司後續都推出安全強化措施。Perplexity在Comet加入多項防護，其中一個是限制AI代理存取file://本機檔案路徑，以及要求涉及敏感操作時需要更嚴格的使用者確認。 PerplexedBrowser攻擊流程通常從看似正常的第三方內容開始，例如電子郵件、文件、網頁，或行事曆邀請。攻擊者會在這些內容中嵌</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174296</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/4405cae6-b297-41d5-978a-a6dabb148196.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Mar 2026 03:12:47 +0000</pubDate>
     </item>
     <item>
-      <title>加拿大BPO業者Telus Digital遭駭，疑外洩1PB資料</title>
-      <link>https://www.ithome.com.tw/news/174387</link>
-      <description>新聞在惡名昭彰的ShinyHunters宣稱取得其1 petabyte的資料後，加拿大流程外包業者（Business Process Outsourcing，BPO）Telus Digital本周證實系統遭駭，客戶資料外洩。 Telus Digital隸屬於加拿大電信公司Telus Corporation，為企業客戶設計和執行客戶支援、內容管理、AI資料服務等業務。其客戶涵蓋科技、遊戲、通訊和媒體、電子商務、金融服務、銀行、信用卡、金融科技、旅遊和酒店、醫療保健以及汽車等產業。 該公司本周向BleepingComputer證實，部份系統遭到未授權存取。但Telus Digital說，公司所有業務皆正常運行，沒有客戶連線或服務中斷的跡象。 Telus Digital並說，發現第一時間已解決了異常活動，強化公司系統防禦。該公司已偕同外部專家進行調查及通報主管機關，也準備必要時通知受影響的客戶。 ShinyHunters日前宣稱，從Telus Digital系統竊取了將近1 petabyte的資料，欲勒贖6500萬美元。這群駭客告訴媒體，是之前外洩的Salesloft Drift聊天機器人資</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174387</guid>
-      <pubDate>Fri, 13 Mar 2026 03:36:36 +0000</pubDate>
+      <title>AI瀏覽器Perplexity Comet存在零點擊漏洞，可被用於竊取密碼管理工具1Password保險庫內容</title>
+      <link>https://www.ithome.com.tw/news/174297</link>
+      <description>新聞資安公司Zenity揭露，生成式AI搜尋服務公司Perplexity的瀏覽器Comet，存在零點擊弱點PerplexedBrowser，攻擊者可透過間接提示注入（Indirect Prompt Injection）操控AI代理，在使用者毫不知情的情況下讀取本機檔案，值得留意的是，攻擊者還能用來竊取密碼管理工具1Password存放的帳密資料。 由於PerplexedBrowser的攻擊流程通常從看似正常的第三方內容開始，例如電子郵件、文件、網頁，或行事曆邀請。攻擊者會在這些內容中嵌入隱藏提示，使AI代理在解析資料時誤將其視為任務指令。這項攻擊並不需要突破傳統安全機制，而是利用代理式瀏覽器的設計特性。AI代理本來就能代表使用者執行操作，因此一旦受到惡意提示影響，就可能在使用者權限下進行敏感操作。 該公司進一步展示如何利用PerplexedBrowser，他們鎖定密碼管理服務1Password。這項攻擊同樣透過行事曆內容的提示，來操控Comet代理。 由於Comet可在瀏覽器中操作各種網站，一旦使用者已登入1Password並啟用瀏覽器擴充套件，AI代理就可能在同一個已驗證的瀏覽器連線</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174297</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/c9834776-6ab5-46c9-8b37-1db84399eef5.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Mar 2026 03:26:24 +0000</pubDate>
     </item>
     <item>
-      <title>在職18年的Adobe執行長Shantanu Narayen準備卸任</title>
-      <link>https://www.ithome.com.tw/news/174388</link>
-      <description>新聞Adobe周四（3/12）宣布，執行長Shantanu Narayen將在董事會選出繼任者後卸下CEO職務，未來將續任董事長。消息傳出後，當天Adobe的盤後股價下滑7.62%，跌至249.22美元。 Narayen於1988年加入Adobe，2007年升任CEO，至今已領導公司18年。在其任內，Adobe完成重要商業模式轉型，將Photoshop、Illustrator等產品從一次性授權改為Creative Cloud訂閱服務，逐步建立以雲端為核心的營運模式。在此一期間，公司員工人數由約3,000人增加至超過3萬人，年營收也從不足10億美元成長至超過250億美元。 近年Adobe積極布局生成式AI，推出Firefly等AI創作工具，並將AI功能整合至Photoshop、Illustrator與Adobe Express等產品。Narayen在致員工信中表示，AI正重新定義創意工作流程與新的表達形式，Adobe希望在這一波技術變革中持續引領創意產業。 同一天Adobe也公布了截至2月27日的2026財年第一季財報。該季Adobe營收為64億美元，年增約12%；淨利為18.9億美元，</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174388</guid>
-      <pubDate>Fri, 13 Mar 2026 03:56:44 +0000</pubDate>
+      <title>荷蘭政府警告俄國駭客攻擊Signal、WhatsApp用戶以竊取敏感資訊</title>
+      <link>https://www.ithome.com.tw/news/174299</link>
+      <description>新聞荷蘭政府本周警告，俄羅斯國家駭客正發動全球大規模網路攻擊，鎖定政要、軍事高層及官員劫持Signal與WhatsApp帳號，或是以QR code連結其帳號。 荷蘭國防及通用情報及安全機關MIVD與AIVD確認，荷蘭公務員已在這波攻擊受害。此外，記者及異議人士也是俄國政府的目標。透過存取這些監控目標的通訊軟體帳號，攻擊者就可存取裝置上的聯絡人資訊，或是讀取通訊內容、甚至群組對話訊息。 該國政府提醒，攻擊型態有二。一是劫取帳號，攻擊者偽裝Signal安全支援團隊或聊天機器人，宣稱偵測到用戶裝置有可疑活動或資料外洩，要求使用者完成認證來預防。攻擊者佯裝的支援人員要求用戶把Signal發給用戶的驗證碼，以及簡訊發來的密碼，透過假聊天機器人提供給「支援人員」。藉此盜取或劫持帳號。 攻擊途徑二則是利用QR code或連結加入受害者，適用Signal和WhatsApp。攻擊者傳送QR code或連結給攻擊目標用戶邀請其加入聊天群組，但這方法也可以將用戶連結他人手機或筆電。用戶誤以為他加入某個聊天群組，其實卻是連上攻擊者的裝置。一旦用戶被連結，攻擊者就可以從其連結裝置，或是桌機版App，讀取用戶聊天</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174299</guid>
+      <pubDate>Tue, 10 Mar 2026 03:52:56 +0000</pubDate>
     </item>
     <item>
-      <title>【資安日報】3月13日，蘋果為舊裝置修補遭Coruna利用的資安漏洞</title>
-      <link>https://www.ithome.com.tw/news/174389</link>
-      <description>新聞蘋果為舊款iPhone及iPad用戶發布更新，修補已被攻擊套件Coruna利用的漏洞 3月11日蘋果針對iPhone與iPad用戶發布更新，包含iOS與iPadOS 16.7.15、15.8.7版，修補4個資安漏洞，其中包含出現於系統核心的CVE-2023-41974，以及出現在瀏覽器排版引擎WebKit的CVE-2023-43000、CVE-2023-43010、CVE-2024-23222，CVSS風險介於7.8至8.8分。這些漏洞的共通點，就是已被近期Google揭露的漏洞利用工具包Coruna收錄，而被用於實際攻擊活動。 目前採用15與16版iOS、iPadOS的行動裝置相當多，涵蓋2015年以後推出的裝置，包含：iPhone 6s、第一代iPhone SE、第二代iPad Air、第四代iPad mini、第7代iPod touch、第五代iPad、9.7吋iPad Pro，以及第一代12.9吋的iPad Pro，為了避免暴露在上述漏洞遭濫用的風險，用戶應儘速更新系統版本。 3月更新Adobe修補80個漏洞，呼籲用戶應優先處理Adobe Commerce Adobe於3月</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174389</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/x-force-slopoly-ransomware-fig-3.png" length="0" type="image/png"/>
-      <pubDate>Fri, 13 Mar 2026 04:00:34 +0000</pubDate>
+      <title>OpenAI收購AI安全測試工具Promptfoo，強化代理人安全評估能力</title>
+      <link>https://www.ithome.com.tw/news/174301</link>
+      <description>新聞OpenAI周一（3/9）宣布，將收購AI安全測試平臺Promptfoo，未來將把其技術整合至企業AI平臺OpenAI Frontier，以強化AI代理人（Agents）在開發與部署過程中的安全測試、風險評估與合規能力。 Promptfoo成立於2024年，由Ian Webster與Michael D'Angelo共同創辦，最初從開源LLM測試工具發展而來，主要提供AI應用安全測試與紅隊演練（Red Teaming）工具，目前已有超過25%的《財富》500大企業使用其工具。雙方並未公布交易價格，但Promptfoo在2025年完成A輪募資時的估值約為8,550萬美元。 Promptfoo提供命令列工具（Command-Line Interface，CLI）與程式庫，讓開發者可建立測試案例，評估AI模型在不同提示下的回應品質與安全性，例如檢測提示注入（Prompt Injection）、越獄（Jailbreak）、資料外洩或不當輸出等問題。該平臺也支援比較不同模型或不同版本系統的表現，以協助企業在開發AI應用時進行持續評估。 至於OpenAI Frontier則是OpenAI甫於今年</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174301</guid>
+      <pubDate>Tue, 10 Mar 2026 04:03:25 +0000</pubDate>
     </item>
     <item>
-      <title>VS Code改採周更，1.111版新增Autopilot並強化代理功能</title>
-      <link>https://www.ithome.com.tw/news/174390</link>
-      <description>新聞微軟發布VS Code 1.111，這是VS Code自3月9日起改採每周發布穩定版後的第一個版本。該更新延續近月的代理功能開發，重點包括代理權限（Agent permissions）、Autopilot預覽、代理範疇Hook預覽，以及供除錯使用的偵錯事件快照（Debug Events Snapshot）。 微軟在GitHub的VS Code 2026年3月迭代計畫草案中表示，自2025年夏季以來，VS Code採每月發布1個穩定版、另有3到4個修補版的節奏，而自2026年3月9日起，團隊改為每周發布新的穩定版。原本的最終（Endgame）收尾流程也將併入每周作業，相關議題則會指派到以對應版本號命名的里程碑。 前一版1.110的釋出日期為3月4日，1.111則在3月9日推出，兩版相隔5天，已不同於過去以月為單位的主要版本更新方式。 Autopilot是1.111首波每周穩定版更新的重點之一。微軟在聊天檢視加入新的權限選擇器，讓使用者可針對單次工作階段調整代理自主程度。可選層級包括沿用既有核准設定的預設核准、會自動核准工具呼叫並在出錯時自動重試的略過核准，以及Autopilot預覽。</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174390</guid>
-      <pubDate>Fri, 13 Mar 2026 05:37:07 +0000</pubDate>
+      <title>第三方廠商被駭 波及愛立信美國分公司逾4000客戶、員工資料外洩</title>
+      <link>https://www.ithome.com.tw/news/174305</link>
+      <description>新聞瑞典電信巨擘愛立信（Ericsson）本周通報美國政府，該公司美國分公司去年4月因受使用第三方服務波及，導致4300多名客戶及員工資料外洩。 愛立信本周通報德州及加州檢察長辦公室，以及通知受害員工/客戶的信件中說明，該公司第三方供應商在2025年4月28日察覺可疑活動，其系統特定資訊遭未經授權存取。除了通報聯邦調查局及和專業廠商啟動調查，也通知了客戶。根據今年稍早完成的調查，存取時間落在2025年4月12日到17日。 愛立信向德州官方的通報文件說明，該起事件造成其美國分公司部份客戶及員工個資外洩，共影響4377人。外洩的資料包括姓名、出生日期、地址、社會安全號碼（SSN）、駕照號碼、政府核發證件號碼（例如護照或州身分證）、金融資料（帳戶、信用卡或金融帳號）及醫療資訊等。不過該公司和其服務業者都還未發現資料被惡意使用的跡象。 愛立信並未說明造成資料外洩的第三方服務商為誰。目前也沒有勒索軟體或駭客組織宣稱犯案。</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174305</guid>
+      <pubDate>Tue, 10 Mar 2026 06:38:02 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic為Claude加入即時視覺化功能，可於對話中生成互動圖表</title>
-      <link>https://www.ithome.com.tw/news/174391</link>
-      <description>新聞Anthropic周四（3/12）宣布，旗下AI助理Claude已新增互動式視覺化能力，可在聊天過程中直接生成圖表、流程圖與資料視覺化內容。這些視覺元素會嵌入在回覆內容中，並可隨對話進展即時調整，協助使用者更直觀理解討論的主題。 Anthropic說明，這項能力是去年推出的Imagine with Claude功能的延伸。該功能原本允許Claude在不需要撰寫程式碼的情況下建立即時視覺內容，而現在已整合進Claude的聊天對話中，使AI可以在回答問題時同步生成視覺化說明。 與Claude既有的Artifacts功能不同，新推出的圖表與示意圖並非用於保存或分享的文件，而是用來輔助理解的臨時視覺內容。這些視覺化內容會直接出現在對話回覆中，而不是顯示在側邊面板，並會隨著對話內容更新或改變，甚至可能在對話結束後消失。 例如當使用者詢問「複利如何運作」，Claude可以生成可互動的成長曲線，讓使用者調整參數觀察變化；若詢問元素週期表，Claude則能建立可點擊的互動式元素表格，使用者可直接點選元素查看相關資訊。此外，Claude也可生成像是紙飛機摺法或建築結構受力的示意圖，協助說明概念。 除</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174391</guid>
-      <enclosure url="https://s4.itho.me/sites/default/files/images/0313-claude-600-1.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 13 Mar 2026 05:56:49 +0000</pubDate>
+      <title>巴基斯坦駭客APT36利用AI生成大量惡意軟體，企圖滲透印度與阿富汗的政府及企業組織</title>
+      <link>https://www.ithome.com.tw/news/174298</link>
+      <description>新聞基本上，駭客透過自行開發的惡意程式從事攻擊活動的模式，在AI普及後，已有許多團體透過相關工具加速開發，不過，現在有駭客採取新策略，要求AI使用相對少見的程式語言，生成大量惡意程式，企圖以數量優勢干擾防禦系統的偵測能力。 資安公司Bitdefender近日發布研究報告指出，巴基斯坦駭客組織APT36（Transparent Tribe）正在改變惡意程式的開發模式，他們利用生成式AI快速產生大量以不同程式語言編寫的惡意程式。這類由AI生成、品質參差不齊，但數量龐大的惡意程式，Bitdefender稱為「Vibeware」。 Bitdefender指出，駭客並非單純依賴單一惡意程式突破企業組織的防線，而是透過大量不同版本惡意程式檔案，使資安系統難以建立穩定的偵測規則，進而提高攻擊成功率。其中，APT36經常會將相同的惡意程式邏輯快速轉換成多種程式語言版本，例如：Nim、Zig，以及Crystal等相對少見的語言。由於這些語言在惡意程式中較少見，也讓資安產品在特徵偵測與分析面臨更大挑戰。此外，Bitdefender在部分檔案裡，還發現Unicode表情符號或疑似AI工具產生的程式碼痕跡，顯</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174298</guid>
+      <enclosure url="https://s4.itho.me/sites/default/files/images/apt36-image1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Mar 2026 06:51:22 +0000</pubDate>
     </item>
     <item>
-      <title>Kotlin開源函式庫Tracy強化AI應用可觀測性，支援追蹤LLM呼叫與工具執行</title>
-      <link>https://www.ithome.com.tw/news/174392</link>
-      <description>新聞Kotlin開源函式庫Tracy，著重強化AI應用的可觀測性，能追蹤LLM呼叫、工具執行與應用程式流程。該函式庫建立在OpenTelemetry之上，協助開發者除錯失敗情況、量測執行時間，並掌握模型呼叫、工具呼叫與自訂應用程式邏輯的運作情形。 Tracy支援常見的Kotlin與LLM整合堆疊，包括OkHttp與Ktor用戶端，也可搭配OpenAI、Anthropic與Gemini相關用戶端使用。其設計重點在於，不要求開發者一定得透過特定AI框架的API發出呼叫，才能留下追蹤資料，而是可透過API用戶端或HTTP用戶端層級的追蹤機制收集遙測資料，再配合函式或程式區塊層級的追蹤，整理AI元件與AI代理程式內部狀態之間的時間順序與因果關係。 與Spring AI、Koog等具備內建可觀測性能力的AI框架相比，官方指出，這類框架通常要求LLM呼叫必須透過框架本身的API發出，才會留下追蹤資料，也較難涵蓋框架外部的應用程式流程。Tracy提供3種較高階的追蹤方式，包括以withSpan包住特定程式區塊、直接替LLM用戶端啟用追蹤，以及透過@Trace註解追蹤函式或介面方法。以工具呼叫為例，開</description>
-      <guid isPermaLink="false">https://www.ithome.com.tw/news/174392</guid>
-      <pubDate>Fri, 13 Mar 2026 08:33:24 +0000</pubDate>
+      <title>微軟Copilot納入Claude Cowork技術，能力從問答走向任務執行</title>
+      <link>https://www.ithome.com.tw/news/174303</link>
+      <description>新聞微軟表示，已將Anthropic的Claude Cowork背後技術整合到Microsoft 365 Copilot，並推出新功能Copilot Cowork，讓Copilot從回答問題、撰寫草稿的工具，進一步走向可受託執行工作的數位助手。微軟表示，該功能不再只停留在對話層次，而是能根據使用者交付的目標，自行整理工作脈絡、擬定處理計畫，並在背景持續推進任務，過程中會設有明確檢查點，相關變更仍需由使用者核准後才會套用。 過去Copilot較常被視為查詢資訊、摘要文件、起草郵件的工具，如今微軟進一步將其包裝成能跨越Outlook、Teams、Excel與其他Microsoft 365服務執行多步驟工作的系統。使用者只需描述想達成的結果，Copilot Cowork便會根據電子郵件、會議、訊息、檔案與相關資料建立執行脈絡，再將請求轉成一套可持續推進的工作計畫。 官方提供數種適用情境，包括整理行事曆、調整會議時間、保留專注工作時段，以及替客戶會議準備說明文件、分析資料與簡報。另一類應用則是研究工作，例如彙整公司財報、SEC申報文件、分析師評論與相關新聞，最後產出電子郵件格式的摘要、研究備忘</description>
+      <guid isPermaLink="false">https://www.ithome.com.tw/news/174303</guid>
+      <pubDate>Tue, 10 Mar 2026 06:53:33 +0000</pubDate>
     </item>
   </channel>
 </rss>
