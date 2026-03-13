@@ -8,50 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2026 07:03:41 +0000</lastBuildDate>
-    <item>
-      <title>Quiz: Duck Typing in Python: Writing Flexible and Decoupled Code</title>
-      <link>https://realpython.com/quizzes/duck-typing-python/</link>
-      <description>Check your grasp of Python's duck typing. Recognize behavior-based interfaces, use protocols and special methods, and know alternatives. Try the quiz.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/duck-typing-python/</guid>
-      <pubDate>Tue, 03 Mar 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What Does Python's __init__.py Do?</title>
-      <link>https://realpython.com/courses/init-py/</link>
-      <description>Learn how Python's __init__.py declares packages, initializes variables, simplifies imports, and controls what gets exported.</description>
-      <guid isPermaLink="false">https://realpython.com/courses/init-py/</guid>
-      <pubDate>Tue, 03 Mar 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quiz: Build Your Weekly Python Study Schedule: 7 Days to Consistent Progress</title>
-      <link>https://realpython.com/quizzes/weekly-study-schedule/</link>
-      <description>Build a consistent Python study habit with a repeatable 7-day plan. Learn to set specific goals, schedule your week, and make practice stick.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/weekly-study-schedule/</guid>
-      <pubDate>Wed, 04 Mar 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to Use the OpenRouter API to Access Multiple AI Models via Python</title>
-      <link>https://realpython.com/openrouter-api/</link>
-      <description>Access models from popular AI providers in Python through OpenRouter's unified API with smart routing, fallbacks, and cost controls.</description>
-      <guid isPermaLink="false">https://realpython.com/openrouter-api/</guid>
-      <enclosure url="https://files.realpython.com/media/open-router-multiple-AI-models-screenshot.adfb5097125a.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Mar 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quiz: How to Use the OpenRouter API to Access Multiple AI Models via Python</title>
-      <link>https://realpython.com/quizzes/openrouter-api/</link>
-      <description>Test your Python skills with OpenRouter: learn unified API access, model switching, provider routing, and fallback strategies.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/openrouter-api/</guid>
-      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quiz: Spyder: Your IDE for Data Science Development in Python</title>
-      <link>https://realpython.com/quizzes/spyder-ide/</link>
-      <description>Test your knowledge of the Spyder IDE for Python data science, including its Variable Explorer, Plots pane, and Profiler.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/spyder-ide/</guid>
-      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 13 Mar 2026 09:18:15 +0000</lastBuildDate>
     <item>
       <title>Quiz: Python Stacks, Queues, and Priority Queues in Practice</title>
       <link>https://realpython.com/quizzes/queue-in-python/</link>
@@ -79,6 +36,49 @@
       <description>Catch up on the latest Python news: frozendict joins the built-ins, Django patches SQL injections, and AI SDKs race to add WebSocket transport.</description>
       <guid isPermaLink="false">https://realpython.com/python-news-march-2026/</guid>
       <pubDate>Mon, 09 Mar 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quiz: Python Descriptors: An Introduction</title>
+      <link>https://realpython.com/quizzes/python-descriptors/</link>
+      <description>Learn how Python descriptors control attribute access, use special methods for getting and setting values, and implement read-only attributes.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/python-descriptors/</guid>
+      <pubDate>Tue, 10 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Working With APIs in Python: Reading Public Data</title>
+      <link>https://realpython.com/courses/working-apis-reading-public-data/</link>
+      <description>Learn how to consume REST APIs with Python using the requests library, including authentication, query parameters, and handling responses.</description>
+      <guid isPermaLink="false">https://realpython.com/courses/working-apis-reading-public-data/</guid>
+      <pubDate>Tue, 10 Mar 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quiz: Threading in Python</title>
+      <link>https://realpython.com/quizzes/threading-in-python/</link>
+      <description>Test your understanding of Python threading, including how to create threads, use locks, avoid race conditions, and build pipelines.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/threading-in-python/</guid>
+      <pubDate>Wed, 11 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quiz: Create and Modify PDF Files in Python</title>
+      <link>https://realpython.com/quizzes/creating-modifying-pdf/</link>
+      <description>Test your Python PDF skills: read, modify, extract, encrypt, and manipulate PDF files using the pypdf library.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/creating-modifying-pdf/</guid>
+      <pubDate>Wed, 11 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pydantic AI: Build Type-Safe LLM Agents in Python</title>
+      <link>https://realpython.com/pydantic-ai/</link>
+      <description>Learn how to use Pydantic AI to build type-safe LLM agents in Python with structured outputs, function calling, and dependency injection patterns.</description>
+      <guid isPermaLink="false">https://realpython.com/pydantic-ai/</guid>
+      <enclosure url="https://files.realpython.com/media/Pydantic-AI-Typed-LLM-Agents-with-Structured-Outputs_Watermarked.043c8afd949c.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 11 Mar 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Quiz: Working With Files in Python</title>
+      <link>https://realpython.com/quizzes/working-with-files-in-python/</link>
+      <description>Practice handling files and directories in Python, including opening, iterating, filtering, creating, deleting, copying, and renaming.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/working-with-files-in-python/</guid>
+      <pubDate>Thu, 12 Mar 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

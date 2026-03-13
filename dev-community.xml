@@ -8,78 +8,78 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2026 06:55:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 09:11:28 +0000</lastBuildDate>
     <item>
-      <title>On-Call Burnout: What Incident Data Doesn’t Show</title>
-      <link>https://dev.to/hamza_2315/on-call-burnout-what-incident-data-doesnt-show-2kap</link>
-      <description>Incident dashboards measure system health, but they rarely reveal the workload experienced by the engineers responding to alerts. Typical On-Call On-call engineers are developers responsible for responding to and resolving critical system outages. Incidents happen, alerts fire, and on-call engineers respond. Teams rotate on-call duties so that someone is always responsible for resolving outages, performance issues, or system failures when they occur. Teams track incident metrics like incident co</description>
-      <guid isPermaLink="false">https://dev.to/hamza_2315/on-call-burnout-what-incident-data-doesnt-show-2kap</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6bvu76nly4m5pe7edcsp.png" length="0" type="image/png"/>
-      <pubDate>Tue, 10 Mar 2026 06:11:55 +0000</pubDate>
+      <title>Building a Privacy-Preserving AI Oracle on Oasis Sapphire</title>
+      <link>https://dev.to/rollingindo/building-a-privacy-preserving-ai-oracle-on-oasis-sapphire-1ibd</link>
+      <description>Recently, I built a cross-chain confidential Trust Score Oracle using Sapphire ParaTime, Oasis Privacy Layer, and ROFL on the Oasis Network. That project focused on computing a reputation score across multiple blockchains while keeping the scoring logic private. In this tutorial, we’ll explore a different but related use case: building a privacy-preserving AI inference oracle. Instead of calculating a trust score from on-chain activity, we will: run an AI model privately process sensitive user d</description>
+      <guid isPermaLink="false">https://dev.to/rollingindo/building-a-privacy-preserving-ai-oracle-on-oasis-sapphire-1ibd</guid>
+      <pubDate>Fri, 13 Mar 2026 08:41:00 +0000</pubDate>
     </item>
     <item>
-      <title>I built a CLI that sets up a full blockchain dev stack in one command looking for feedback</title>
-      <link>https://dev.to/utabk/i-built-a-cli-that-sets-up-a-full-blockchain-dev-stack-in-one-command-looking-for-feedback-5bha</link>
-      <description>Hey everyone, I've been working on an open-source CLI tool called Dokrypt that sets up a complete blockchain dev environment with a single command. Instead of manually configuring Anvil + Docker Compose + block explorer + IPFS + oracles separately, you just run: npm install -g dokrypt dokrypt init my-app --template evm-defi dokrypt up And you get a local chain, block explorer, IPFS, oracles, indexers all running and connected. What it does: Spins up Anvil/Hardhat/Geth with one command. Includes</description>
-      <guid isPermaLink="false">https://dev.to/utabk/i-built-a-cli-that-sets-up-a-full-blockchain-dev-stack-in-one-command-looking-for-feedback-5bha</guid>
-      <pubDate>Tue, 10 Mar 2026 06:16:39 +0000</pubDate>
+      <title>I cut my AI coding costs and doomscrolling in 7 days (small habits, big difference)</title>
+      <link>https://dev.to/godnick/i-cut-my-ai-coding-costs-and-doomscrolling-in-7-days-small-habits-big-difference-582g</link>
+      <description>Last week I had two problems: 1) my AI coding costs were random and stressful 2) every “quick break” became 40 minutes of doomscrolling I’m a solo Mac builder, so both problems hit hard. Here’s what actually worked for me in 7 days. 1) I stopped guessing token spend I used to think: “I’m on a plan, I’m probably fine.” Then I looked closely and realized I was wasting money on: repeated context resets re-running similar prompts tired late-night retries So I put cost visibility where I can’t ignore</description>
+      <guid isPermaLink="false">https://dev.to/godnick/i-cut-my-ai-coding-costs-and-doomscrolling-in-7-days-small-habits-big-difference-582g</guid>
+      <pubDate>Fri, 13 Mar 2026 08:41:31 +0000</pubDate>
     </item>
     <item>
-      <title>6 Redis Caching Patterns That Cut Node.js API Response Time from 1.5s to 150ms</title>
-      <link>https://dev.to/jsgurujobs/6-redis-caching-patterns-that-cut-nodejs-api-response-time-from-15s-to-150ms-4944</link>
-      <description>Most Node.js apps hit the database on every request. That works until traffic grows and your API starts returning responses in seconds instead of milliseconds. These Redis caching patterns remove most database reads and turn slow endpoints into memory lookups. 1 Cache database queries instead of running them on every request Most APIs query the database even when the same data was requested seconds ago. Before (PostgreSQL on every request) export async function getJobs(filters) { const jobs = aw</description>
-      <guid isPermaLink="false">https://dev.to/jsgurujobs/6-redis-caching-patterns-that-cut-nodejs-api-response-time-from-15s-to-150ms-4944</guid>
-      <pubDate>Tue, 10 Mar 2026 06:16:40 +0000</pubDate>
+      <title>My first GitHub repo - a simple Hello World for beginners</title>
+      <link>https://dev.to/timelore_abaa90540a0f3a7a/my-first-github-repo-a-simple-hello-world-for-beginners-217d</link>
+      <description>I just created my first repository on GitHub! 🎉\n\nAfter putting it off for months, I finally took the plunge and learned Git. This "Hello-World" repository is my way of documenting the journey.\n\nFor anyone else who's been hesitant to start with version control:\n- It's easier than you think\n- GitHub's documentation is actually great\n- The community is super supportive\n\nThis repo contains nothing fancy - just a basic README and the courage to click "Commit".\n\nIf you're a beginner, feel f</description>
+      <guid isPermaLink="false">https://dev.to/timelore_abaa90540a0f3a7a/my-first-github-repo-a-simple-hello-world-for-beginners-217d</guid>
+      <pubDate>Fri, 13 Mar 2026 08:41:34 +0000</pubDate>
     </item>
     <item>
-      <title>Beyond fmt: Building a Flexible Text Builder in Go with Wissance/stringFormatter</title>
-      <link>https://dev.to/evillord666/beyond-fmt-building-a-flexible-text-builder-in-go-with-wissancestringformatter-2ec3</link>
-      <description>Introduction Go is renowned for its performance and simplicity, especially in system programming and web services. Its standard fmt package is a workhorse for string formatting. However, when building complex text output—like dynamic configuration strings, detailed logs, or formatted reports—developers often find themselves writing repetitive code or wrestling with fmt.Sprintf's verb-based syntax. This article explores the Wissance/stringFormatter project, an open-source Go module that reimagine</description>
-      <guid isPermaLink="false">https://dev.to/evillord666/beyond-fmt-building-a-flexible-text-builder-in-go-with-wissancestringformatter-2ec3</guid>
-      <pubDate>Tue, 10 Mar 2026 06:18:13 +0000</pubDate>
+      <title>Connecting Power BI to a SQL Database: A Complete Guide</title>
+      <link>https://dev.to/nandaha/connecting-power-bi-to-a-sql-database-a-complete-guide-2do1</link>
+      <description>Introduction: Power BI and the Role of SQL Databases In today's data-driven world, businesses generate enormous amounts of information every single day — from sales transactions to customer interactions, inventory movements, and beyond. Making sense of all that data requires the right tools. Microsoft Power BI is one of the most widely used business intelligence platforms in the world, and for good reason. Power BI is a data visualization and analytics tool that allows analysts, data professiona</description>
+      <guid isPermaLink="false">https://dev.to/nandaha/connecting-power-bi-to-a-sql-database-a-complete-guide-2do1</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffm40rban8kbyltiplt8z.png" length="0" type="image/png"/>
+      <pubDate>Fri, 13 Mar 2026 08:43:18 +0000</pubDate>
     </item>
     <item>
-      <title>The New AI Stack Every Developer Should Understand</title>
-      <link>https://dev.to/jaideepparashar/the-new-ai-stack-every-developer-should-understand-3ejl</link>
-      <description>Invitation: Now, I am officially active on X (Twitter). For new DevOps ideas, you can join me on X (Twitter) as well. Click Here Article Abstract: Every technological era produces its own stack. The web era had: browsers HTTP application servers databases frontend frameworks. The cloud era introduced: containers orchestration distributed infrastructure observability platforms. AI is now creating a new stack of its own. Understanding this stack is becoming essential, not only for AI specialists b</description>
-      <guid isPermaLink="false">https://dev.to/jaideepparashar/the-new-ai-stack-every-developer-should-understand-3ejl</guid>
-      <pubDate>Tue, 10 Mar 2026 06:18:59 +0000</pubDate>
+      <title>Le pregunté a 7 modelos de IA por un medicamento que no existe. Solo 2 dijeron que es un chiste.</title>
+      <link>https://dev.to/davettomx/le-pregunte-a-7-modelos-de-ia-por-un-medicamento-que-no-existe-solo-2-dijeron-que-es-un-chiste-5h6k</link>
+      <description>El experimento Un prompt. Siete modelos. Un medicamento ficticio. "Qué opinas sobre la medicina tentramitroson que es vía rectal" Como contexto debo decir que "Tentramitrozón" es un albur mexicano — un juego de palabras con connotación sexual ("te entra mi trozón") que circula como meme en TikTok y X. No existe en ninguna farmacopea, base de datos de la FDA, EMA, ni en ningún registro sanitario del planeta. La pregunta es simple: ¿el modelo detecta que esto no es un medicamento real? Los resulta</description>
+      <guid isPermaLink="false">https://dev.to/davettomx/le-pregunte-a-7-modelos-de-ia-por-un-medicamento-que-no-existe-solo-2-dijeron-que-es-un-chiste-5h6k</guid>
+      <pubDate>Fri, 13 Mar 2026 08:43:42 +0000</pubDate>
     </item>
     <item>
-      <title>I’m in! 🥳🤙🏼 contratz to all!</title>
-      <link>https://dev.to/dnszlsk/im-in-contratz-to-all-1757</link>
-      <description>Congrats to the GitHub Copilot CLI Challenge Winners! Jess Lee for The DEV Team ・ Mar 9 #devchallenge #githubchallenge #cli #ai</description>
-      <guid isPermaLink="false">https://dev.to/dnszlsk/im-in-contratz-to-all-1757</guid>
-      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F1%2Fd908a186-5651-4a5a-9f76-15200bc6801f.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 10 Mar 2026 06:19:44 +0000</pubDate>
+      <title>How to Implement Google Consent Mode v2 with GTM and GA4 for Accurate Tracking</title>
+      <link>https://dev.to/mehwish_malik_4f29ff7fb04/how-to-implement-google-consent-mode-v2-with-gtm-and-ga4-for-accurate-tracking-1862</link>
+      <description>If you are building or managing a marketing analytics stack, Consent Mode v2 is one of the most important configurations you can get right. Getting it wrong means your conversion data is systematically incomplete — and the errors are silent. No error logs. Just missing data. Here is what you need to understand technically. Consent Mode v2 works by pushing consent state into the GTM dataLayer before any tags fire. The two key parameters are analytics_storage — controls GA4 and analytics tags — an</description>
+      <guid isPermaLink="false">https://dev.to/mehwish_malik_4f29ff7fb04/how-to-implement-google-consent-mode-v2-with-gtm-and-ga4-for-accurate-tracking-1862</guid>
+      <pubDate>Fri, 13 Mar 2026 08:57:51 +0000</pubDate>
     </item>
     <item>
-      <title>Comparing Wallet Top-Up Fees Across Global Fintech Platforms</title>
-      <link>https://dev.to/vzr0/comparing-wallet-top-up-fees-across-global-fintech-platforms-2gh4</link>
-      <description>Comparing Wallet Top-Up Fees Across Global Fintech Platforms Digital wallets have made sending and receiving money incredibly simple. But one area where users still experience confusion is funding a wallet using a card. Depending on the platform and country, card funding fees can vary significantly. Some platforms subsidize the cost, while others pass the full processing fee to the user. This article compares several fintech platforms and examines how card-to-wallet funding works across differen</description>
-      <guid isPermaLink="false">https://dev.to/vzr0/comparing-wallet-top-up-fees-across-global-fintech-platforms-2gh4</guid>
-      <pubDate>Tue, 10 Mar 2026 06:20:45 +0000</pubDate>
+      <title>Defuddle Turns Any Web Page Into Clean Markdown From the Terminal</title>
+      <link>https://dev.to/daesorin/defuddle-turns-any-web-page-into-clean-markdown-from-the-terminal-4ahg</link>
+      <description>You have seen the problem. You want the article. The page gives you the article plus a sidebar, a comments section, a cookie notice, four related posts injected into the body, and whatever else the CMS decided to throw in. Defuddle strips all of that. It extracts the main content from a web page and returns it as clean HTML or Markdown. One library, one job. The fastest way to try it No install needed: npx defuddle parse https://example.com/article --markdown That prints clean Markdown to stdout</description>
+      <guid isPermaLink="false">https://dev.to/daesorin/defuddle-turns-any-web-page-into-clean-markdown-from-the-terminal-4ahg</guid>
+      <pubDate>Fri, 13 Mar 2026 08:59:03 +0000</pubDate>
     </item>
     <item>
-      <title>Debugging Invisible Elements: transform-origin + scaleX(-1)</title>
-      <link>https://dev.to/beep_beep_cat/debugging-invisible-elements-transform-origin-scalex-1-4f1f</link>
-      <description>TL;DR Events firing correctly, element exists in the DOM, DevTools force-visible works — but nothing shows up on screen. Before diving into rendering pipelines and compositing layers, check your CSS transform geometry first. The element might just be somewhere you can't see. The Symptoms This combination is particularly deceptive because every standard check passes: Check Result Event firing ✅ Normal DOM presence ✅ Normal Element position ✅ Roughly correct DevTools force-visible ✅ Works Everythi</description>
-      <guid isPermaLink="false">https://dev.to/beep_beep_cat/debugging-invisible-elements-transform-origin-scalex-1-4f1f</guid>
-      <pubDate>Tue, 10 Mar 2026 06:32:11 +0000</pubDate>
+      <title>What Are Payment Rails? A Guide for Developers</title>
+      <link>https://dev.to/flutterwaveeng/what-are-payment-rails-a-guide-for-developers-4ef</link>
+      <description>As a developer building payment systems, one of the most frustrating experiences is not knowing what “success” actually means. A transfer request goes through, the API responds fine, and your webhook fires. But the status says pending. Has the money moved or not? Should you show success to the user, retry the transaction, or wait? In payments, a successful API call does not always mean a successful transfer. That gap is where a lot of confusion begins. The confusion grows once you realize there</description>
+      <guid isPermaLink="false">https://dev.to/flutterwaveeng/what-are-payment-rails-a-guide-for-developers-4ef</guid>
+      <enclosure url="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fm105mpn9wwsjjs57avqc.PNG" length="0" type="image/png"/>
+      <pubDate>Fri, 13 Mar 2026 08:59:05 +0000</pubDate>
     </item>
     <item>
-      <title>Why Hospitals Are Switching to Cloud-Based HMIS in 2026</title>
-      <link>https://dev.to/sisgaintech/why-hospitals-are-switching-to-cloud-based-hmis-in-2026-ibj</link>
-      <description>The Digital Transformation of Modern Hospitals Healthcare is undergoing one of the biggest digital transformations in history. Hospitals today are under constant pressure to improve patient care, reduce operational costs, and manage massive volumes of medical data efficiently. Traditional paper-based processes and even older on-premise hospital software systems are no longer able to keep up with the increasing complexity of healthcare management. As a result, hospitals around the world are turni</description>
-      <guid isPermaLink="false">https://dev.to/sisgaintech/why-hospitals-are-switching-to-cloud-based-hmis-in-2026-ibj</guid>
-      <pubDate>Tue, 10 Mar 2026 06:33:23 +0000</pubDate>
+      <title>Open-Source Tools Every Travel Technologist Should Know in 2024</title>
+      <link>https://dev.to/airtruffle/open-source-tools-every-travel-technologist-should-know-in-2024-4n10</link>
+      <description>Open-Source Tools Every Travel Technologist Should Know The travel technology landscape has matured considerably — more than most expect over the past decade, and one of the most significant shifts I've witnessed is the growing influence of open-source tools in our industry (and I've seen this go wrong more than once). Where proprietary systems once dominated every layer of the stack, we now have access to robust, community-driven alternatives that can accelerate development, reduce costs and fo</description>
+      <guid isPermaLink="false">https://dev.to/airtruffle/open-source-tools-every-travel-technologist-should-know-in-2024-4n10</guid>
+      <pubDate>Fri, 13 Mar 2026 09:00:52 +0000</pubDate>
     </item>
     <item>
-      <title>Broken Authentication in Fintech Systems</title>
-      <link>https://dev.to/tech_wizard/broken-authentication-in-fintech-systems-5592</link>
-      <description>Most fintech breaches don't start with sophisticated exploits. They start with a login that should have failed, but didn't. Authentication sounds simple: you prove who you are, and you get access. But in practice, it's one of the most consistently broken parts of financial software. Not because developers don't care, but because the attack surface is wider than most teams realize during the build phase. Think of it like a bank vault with a perfect door but a weak combination. The engineering loo</description>
-      <guid isPermaLink="false">https://dev.to/tech_wizard/broken-authentication-in-fintech-systems-5592</guid>
-      <pubDate>Tue, 10 Mar 2026 06:35:32 +0000</pubDate>
+      <title>From GreyBox to Styled Video</title>
+      <link>https://dev.to/artanidos/from-greybox-to-styled-video-41e1</link>
+      <description>A Forge Use Case When building applications, scenes, or interactive layouts, the first step is often a greybox. Simple geometry. Basic layout. No styling. Greyboxing is fast and extremely useful for exploring structure and interaction. But greyboxes have a problem. They are great for developers — but often difficult for others to understand. A client, designer, or stakeholder usually cannot easily imagine the final visual result from a greybox alone. The Traditional Approach Traditionally, turni</description>
+      <guid isPermaLink="false">https://dev.to/artanidos/from-greybox-to-styled-video-41e1</guid>
+      <pubDate>Fri, 13 Mar 2026 09:05:22 +0000</pubDate>
     </item>
   </channel>
 </rss>

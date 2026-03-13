@@ -8,23 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2026 07:25:28 +0000</lastBuildDate>
-    <item>
-      <title>Designing For Agentic AI: Practical UX Patterns For Control, Consent, And Accountability</title>
-      <link>https://smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/</link>
-      <description>Autonomy is an output of a technical system. Trustworthiness is an output of a design process. Here are concrete design patterns, operational frameworks, and organizational practices for building agentic systems that are not only powerful but also transparent, controllable, and trustworthy.</description>
-      <guid isPermaLink="false">https://smashingmagazine.com/2026/02/designing-agentic-ai-practical-ux-patterns/</guid>
-      <enclosure url="http://files.smashing.media/articles/designing-agentic-ai-practical-ux-patterns/designing-agentic-ai-practical-ux-patterns.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Wed, 11 Feb 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Building Digital Trust: An Empathy-Centred UX Framework For Mental Health Apps</title>
-      <link>https://smashingmagazine.com/2026/02/building-empathy-centred-ux-framework-mental-health-apps/</link>
-      <description>Designing for mental health means designing for vulnerability. Empathy-Centred UX becomes not a “nice to have” but a fundamental design requirement. Here’s a practical framework for building trust-first mental health products.</description>
-      <guid isPermaLink="false">https://smashingmagazine.com/2026/02/building-empathy-centred-ux-framework-mental-health-apps/</guid>
-      <enclosure url="http://files.smashing.media/articles/building-empathy-centred-ux-framework-mental-health-apps/building-empathy-centred-ux-framework-mental-health-apps.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 13 Feb 2026 15:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 13 Mar 2026 09:34:34 +0000</lastBuildDate>
     <item>
       <title>Designing A Streak System: The UX And Psychology Of Streaks</title>
       <link>https://smashingmagazine.com/2026/02/designing-streak-system-ux-psychology/</link>
@@ -88,6 +72,22 @@
       <guid isPermaLink="false">https://smashingmagazine.com/2026/03/persuasive-design-ten-years-later/</guid>
       <enclosure url="http://files.smashing.media/articles/persuasive-design-ten-years-later/persuasive-design-ten-years-later.jpg" length="0" type="image/jpeg"/>
       <pubDate>Mon, 09 Mar 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building Dynamic Forms In React And Next.js</title>
+      <link>https://smashingmagazine.com/2026/03/building-dynamic-forms-react-next-js/</link>
+      <description>Some forms stay UI, while others quietly become rule engines. Here’s why these two different approaches exist and how to choose between them.</description>
+      <guid isPermaLink="false">https://smashingmagazine.com/2026/03/building-dynamic-forms-react-next-js/</guid>
+      <enclosure url="http://files.smashing.media/articles/building-dynamic-forms-react-next-js/building-dynamic-forms-react-next-js.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Mar 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beyond `border-radius`: What The CSS `corner-shape` Property Unlocks For Everyday UI</title>
+      <link>https://smashingmagazine.com/2026/03/beyond-border-radius-css-corner-shape-property-ui/</link>
+      <description>For years, developers have been hacking around the limitations of `border-radius`, using clip-path, SVG masks, and fragile workarounds just to get anything other than round corners. The new `corner-shape` property finally changes that, opening the door to beveled, scooped, and squircle corners.</description>
+      <guid isPermaLink="false">https://smashingmagazine.com/2026/03/beyond-border-radius-css-corner-shape-property-ui/</guid>
+      <enclosure url="http://files.smashing.media/articles/beyond-border-radius-css-corner-shape-property-ui/beyond-border-radius-css-corner-shape-property-ui.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 12 Mar 2026 10:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

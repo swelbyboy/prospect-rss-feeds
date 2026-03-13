@@ -8,86 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2026 07:27:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 09:36:08 +0000</lastBuildDate>
     <item>
-      <title>SymfonyLive Paris : les 26 et 27 mars à Paris</title>
-      <link>https://www.programmez.com/actualites/symfonylive-paris-les-26-et-27-mars-paris-39099</link>
-      <description>La conférence SymfonyLive Paris revient les 26 et 27 mars. Chaque année, cet événement rassemble la communauté technique autour des grandes évolutions du framework et des enjeux qui façonnent l’avenir du développement web. Cette nouvelle édition réunira près de 500 participants (développeurs, décideurs et sponsors) et une quinzaine de conférenciers issus de l’écosystème Symfony.Trois focus sont mis en avant pour cette édition : un focus sur les nouveautés de Symfony 8, les dernières avancées aut</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/symfonylive-paris-les-26-et-27-mars-paris-39099</guid>
+      <title>AppSec : l'IA traque les zero-days mais il faut de l'humain</title>
+      <link>https://www.programmez.com/actualites/appsec-lia-traque-les-zero-days-mais-il-faut-de-lhumain-39121</link>
+      <description>Avis d'expert de CheckmarxSi la fonction "security-review" de Claude Code qui peut détecter des failles dans le code peut paraître impressionnante, avant de l'adopter, les entreprises doivent bien comprendre ses limites et ne pas lui faire une confiance aveugle.Une nouvelle analyse des chercheurs de Checkmarx Zero met en lumière les capacités mais aussi les limites des modèles d'IA générative dans la détection de vulnérabilités inédites (zero-days). L'étude s'appuie notamment sur les fonctionnal</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/appsec-lia-traque-les-zero-days-mais-il-faut-de-lhumain-39121</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/cxzero-feature_claude_code_opus_46_zero_day-2048x1024.png?itok=WHEGtdnh" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 11 Mar 2026 17:36:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Guide pratique pour développer en C++ sur bare metal</title>
+      <link>https://www.programmez.com/actualites/guide-pratique-pour-developper-en-c-sur-bare-metal-39122</link>
+      <description>Comment développer des projets C++ sur bare metal et plus largement faire du développement embarqué ? Alex Robenko publie un guide pratique sur le sujet : Practical Guide to bate metal C++. Ce guide se destine plutôt aux développeurs C++ et C. Ce n'est pas un tutoriel mais plutôt un ensemble de pratiques et de ressources. L'auteur s'appuie sur Embedded C++ Library (embxx). Rapsberry Pi est un des cibles matérielles. On débute par les bases de la librairie et du C++ dans le monde embarqué. Puis,</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/guide-pratique-pour-developper-en-c-sur-bare-metal-39122</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Fri, 06 Mar 2026 08:33:22 +0000</pubDate>
+      <pubDate>Thu, 12 Mar 2026 06:57:10 +0000</pubDate>
     </item>
     <item>
-      <title>Windows Terminal : bientôt la version 1.25</title>
-      <link>https://www.programmez.com/actualites/windows-terminal-bientot-la-version-125-39103</link>
-      <description>Windows Terminal arrivera bientôt en version 1.25. Une préversion est disponible depuis quelques heures. Cette version ajoute de nouvelles langues dans le panneau command. Elle version propose aussi la recherche dans les paramètres pour aller plus vite. Cette version apporte d'autres améliorations :- support de thème Modern Dark de VS Code- nouveau paramètre dédié aux extensions- quelques bugs sont fixésNote de version : https://devblogs.microsoft.com/commandline/windows-terminal-preview-1-25-re</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/windows-terminal-bientot-la-version-125-39103</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/terminal-settings-search.png?itok=izEmS4io" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 06 Mar 2026 08:56:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codex : l'application OpenAI est disponible sur Windows</title>
-      <link>https://www.programmez.com/actualites/codex-lapplication-openai-est-disponible-sur-windows-39104</link>
-      <description>OpenAI poursuit le déploiement de Codex nativement sur les OS. Après la version macOS en février, c'est désormais la version Windows qui a été annoncée le 4 mars dernier. "Nous sommes également ravis de faire découvrir à davantage de personnes tout ce qu’il est désormais possible de faire avec Codex⁠. Pendant une durée limitée, Codex est inclus dans les formules ChatGPT Free et ChatGPT Go, et nous doublons les limites d’utilisation des formules Plus, Pro, Business, Enterprise et Edu. Ces limites</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/codex-lapplication-openai-est-disponible-sur-windows-39104</guid>
+      <title>Open VSX passe le cap des 300 millions de téléchargements par mois</title>
+      <link>https://www.programmez.com/actualites/open-vsx-passe-le-cap-des-300-millions-de-telechargements-par-mois-39123</link>
+      <description>Open VSX est un référentiel d'extensions indépendant utilisant les API d'extension de Visual Studio Code. Il alimente un écosystème croissant de plates-formes de développement basées sur l'IA et le cloud, notamment Kiro d'Amazon, Antigravity de Google, Cursor, Bob d'IBM, VSCodium, Windsurf, ONA (anciennement Gitpod). Aujourd'hui, Open VSX propose plus de 10 000 extensions. « Open VSX est devenu une infrastructure de base pour l'écosystème mondial des développeurs », a déclaré Mike Milinkovich, D</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/open-vsx-passe-le-cap-des-300-millions-de-telechargements-par-mois-39123</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Fri, 06 Mar 2026 10:17:37 +0000</pubDate>
+      <pubDate>Thu, 12 Mar 2026 07:19:49 +0000</pubDate>
     </item>
     <item>
-      <title>WebHaptics : intégrer un retour haptique à une app web</title>
-      <link>https://www.programmez.com/actualites/webhaptics-integrer-un-retour-haptique-une-app-web-39105</link>
-      <description>Les retours haptiques sur mobile sont très pratiques pour donner un contexte à l'utilisateur, une réponse ou tout simplement avertir d'une action ou d'un problème. WebHaptics permet d'ajouter ces retours dans vos apps web. Il supporte React, Vue et Svelte. Il faut installer le paquet npm et important dans votre projet. Le code d'intégration :import { WebHaptics, defaultPatterns } from "web-haptics";const haptics = new WebHaptics();haptics.trigger(); // medium impacthaptics.trigger(defaultPattern</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/webhaptics-integrer-un-retour-haptique-une-app-web-39105</guid>
+      <title>Visual Studio Code 1.112 : déjà dans les Insiders</title>
+      <link>https://www.programmez.com/actualites/visual-studio-code-1112-deja-dans-les-insiders-39124</link>
+      <description>La 1.111 est sortie il y a quelques jours, Microsoft propose déjà dans Insiders, la 1.112 de Visual Studio Code. Pour le moment, peu de choses sont annoncées. Les builds se succèdent depuis le 4 mars :- mode Claude anget est en disponibilité générale- plugins Agent peuvent être activés et désactivés depuis son espace de travail, idem pour les serveurs MCP- support des niveaux de permissions pour les sessions Copilot CLI- support de l'analyse des images stockées en local par le chat- les configur</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/visual-studio-code-1112-deja-dans-les-insiders-39124</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Fri, 06 Mar 2026 15:09:56 +0000</pubDate>
+      <pubDate>Thu, 12 Mar 2026 07:56:34 +0000</pubDate>
     </item>
     <item>
-      <title>Localisation, internationalisation : un support large et complexe</title>
-      <link>https://www.programmez.com/actualites/localisation-internationalisation-un-support-large-et-complexe-39106</link>
-      <description>La localisation des sites et des apps reste un point complexe et souvent délicat à intégrer à son code. Localisation (abrégée l10n), et par extension internationalisation (abrégée en i18n), consiste à traduire les textes, les formats de saisie, le format monétaire, les dates et heures dans le pays cible. On parle de localisation quand vous intégrez et adoptez le code. Les point clés à ne pas négliger :1 / les caractéristiques de la langue : accent, pas d'accent, sens de l'écriture, encodage lati</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/localisation-internationalisation-un-support-large-et-complexe-39106</guid>
+      <title>IBM publie une architecture de référence pour fusionner le quantique et le HPC... d'ici 2034</title>
+      <link>https://www.programmez.com/actualites/ibm-publie-une-architecture-de-reference-pour-fusionner-le-quantique-et-le-hpc-dici-2034-39125</link>
+      <description>IBM continue à développer son offre et son expertise dans l'informatique quantique. Le constructeur annonce une architecture de référence pour un supercalculateur quantique. Cette architecture démontre comment les processeurs quantiques (QPU) peuvent fonctionner aux côtés des GPU et des CPU — aussi bien pour des systèmes hébergés dans des datacenters, au sein de centres de recherche ou dans le Cloud — afin de relever des défis scientifiques qu’aucune approche de calcul prise isolément ne peut ré</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/ibm-publie-une-architecture-de-reference-pour-fusionner-le-quantique-et-le-hpc-dici-2034-39125</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/capture_decran_2026-03-12_a_14.39.26.png?itok=9FqDK6Du" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 12 Mar 2026 13:41:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>MySQL : Oracle veut calmer la communauté et promet sans promettre de nouvelles fonctionnalités dès avril</title>
+      <link>https://www.programmez.com/actualites/mysql-oracle-veut-calmer-la-communaute-et-promet-sans-promettre-de-nouvelles-fonctionnalites-des-39126</link>
+      <description>Il y a quelques semaines, la communauté MySQL s'était agitée : une lettre ouverture pour demander la création d'une fondation MySQL pour relancer le projet et rendre la gouvernance transparente. Oracle avait tenté de désarmocer les tensions à la FOSDEM 2026. Il faut dire que la version communautaire n'avait pas évolué depuis l'automne 2025 et Oracle annonçait peu de choses. Le 10 mars dernier, MySQL a tenté de reprendre la main avec un post évocateur : A new era of MySQL COmmunity engagement...L</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/mysql-oracle-veut-calmer-la-communaute-et-promet-sans-promettre-de-nouvelles-fonctionnalites-des-39126</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Mar 2026 06:54:23 +0000</pubDate>
+      <pubDate>Thu, 12 Mar 2026 14:07:43 +0000</pubDate>
     </item>
     <item>
-      <title>MariaDB annonce un accord pour racheter GridGain et renforcer son offre IA</title>
-      <link>https://www.programmez.com/actualites/mariadb-annonce-un-accord-pour-racheter-gridgain-et-renforcer-son-offre-ia-39107</link>
-      <description>MariaDB annonce aujourd'hui la signature d'un accord définitif en vue de l'acquisition de GridGain System. Cet éditeur se spécialise dans le In-Memory et est à l'origine du projet Apache Ignite. En fusionnant la base de données relationnelle de MariaDB, optimisée pour l’AI, avec la puissance du calcul de GridGain, MariaDB définit un nouveau standard industriel : une infrastructure de données à latence sub-milliseconde conçue pour l'ère des agents autonomes (l'ère agentique).Cette acquisition com</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/mariadb-annonce-un-accord-pour-racheter-gridgain-et-renforcer-son-offre-ia-39107</guid>
+      <title>Une vulnérabilité critique dans les composants MediaTek largement présente sur les téléphones Android</title>
+      <link>https://www.programmez.com/actualites/une-vulnerabilite-critique-dans-les-composants-mediatek-largement-presente-sur-les-telephones-39127</link>
+      <description>L'équipe hacker lab de Ledger a annoncé la découverte d'une faille critique sur des processeurs MediaTek largement utilisés dans les téléphones Android. La faille peut potentiellement permettre le vol de données, de messages, de photos et d'informations privées. "Dans un test de preuve de concept, l’équipe de hackers éthiques de Ledger, le Ledger Donjon, a connecté un Nothing CMF Phone 1 à un ordinateur portable et compromis les fondations de la sécurité du téléphone en 45 secondes. Sans même dé</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/une-vulnerabilite-critique-dans-les-composants-mediatek-largement-presente-sur-les-telephones-39127</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Mar 2026 07:14:59 +0000</pubDate>
+      <pubDate>Fri, 13 Mar 2026 07:18:30 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Code détruit toute une infrastructure, 24h pour tout restaurer...</title>
-      <link>https://www.programmez.com/actualites/claude-code-detruit-toute-une-infrastructure-24h-pour-tout-restaurer-39108</link>
-      <description>Alexey Grigorev, développeur, travaille pour le site AI Shpping Labs. Il voulait migrer la version actuelle GitHub Pages (statiques) vers AWS puis dans une phase 2, remplacer Next.js vers une version Django. Notre développeur a une idée précise du chantier à mener : 1 / migrer le site statiques vers AWS S32 / migrer le DNS vers AWS et un domaine 100 % managé3 / déployer la version Django vers un sous-domaine4 / après validation, la version Django passe sur le domaine principal. Le plan est clair</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/claude-code-detruit-toute-une-infrastructure-24h-pour-tout-restaurer-39108</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/alexey.png?itok=fNtwbLbQ" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 09 Mar 2026 08:25:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>PHP : toujours pertinent en 2026 mais...</title>
-      <link>https://www.programmez.com/actualites/php-toujours-pertinent-en-2026-mais-39109</link>
-      <description>Matthew Weier O'Phinney de Zend fait un point sur le marché PHP et de la pertinence du langage en 2026. Sans surprise : oui. PHP reste un pilier du web depuis plus de 20 ans. Il est présent dans Drupal, Wordpress. Aujourd'hui, il est en version 8.x avec l'introduction d'un compilateur JIT, le support des énumérations, des améliorations les hooks et les opérateurs. Matthew met en avant le fait que 72 % des sites web utilisent côté serveur du PHP, très très loin devant Ruby, JavaScript. Ce qui n'e</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/php-toujours-pertinent-en-2026-mais-39109</guid>
+      <title>PHP : des dizaines de bug corrigées dans les versions 8.5.4 et 8.4.19</title>
+      <link>https://www.programmez.com/actualites/php-des-dizaines-de-bug-corrigees-dans-les-versions-854-et-8419-39128</link>
+      <description>PHP annonce la sortie de deux bug fix pour PHP 8.5.x et 8.4.x : les 8.5.4 et 8.4.19. La mise à jour est vivement conseillée. Les bugs concernent le core code, curl, DOM, les dates, Opcache, OpenSSL, SQL, etc. Liste des bugs fixés par la 8.4.19 : https://www.php.net/ChangeLog-8.php#8.4.19Liste des bugs fixés par la 8.5.4 : https://www.php.net/ChangeLog-8.php#8.5.4Catégorie actualité: LangagesImage actualité AMP:</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/php-des-dizaines-de-bug-corrigees-dans-les-versions-854-et-8419-39128</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Mar 2026 09:38:32 +0000</pubDate>
+      <pubDate>Fri, 13 Mar 2026 07:27:58 +0000</pubDate>
     </item>
     <item>
-      <title>Rust 1.94.0 : Cargo, nouvelles API stabilisées</title>
-      <link>https://www.programmez.com/actualites/rust-1940-cargo-nouvelles-api-stabilisees-39110</link>
-      <description>Rust 1.94.0 a été annoncé le 5 mars dernier. Comme toujours, pour mettre à jour : rustup update stable. Plusieurs nouveautés sont proposées :- Array windows : ajout dans le langage. Il s'agit d'une nouvelle méthode d'itération. Elle fonctionne comme windows mais avec une longuer constante. Les éléments de l'itérateur sont &amp;amp;[T;N] au lieu d'une taille dynamique. Dans plusieurs cas d'usage, la longueur de la fenêtre peut être déduite par la manière dont l'itérateur est utilisé. Exemple donné pour 2</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/rust-1940-cargo-nouvelles-api-stabilisees-39110</guid>
+      <title>Air : JetBrains veut un environnement de développement réellement agentique</title>
+      <link>https://www.programmez.com/actualites/air-jetbrains-veut-un-environnement-de-developpement-reellement-agentique-39129</link>
+      <description>JetBrains lance en preview public un nouvel outil : Air. L'éditeur prend acte que les agents influencent la manière de coder et de construire des logiciels. Mais comment fournir un environnement défini pour faciliter l'usage des agents ? Air se présente comme un environnement de développement agentique. A l'instar d'IntelliJ IDEA, Air intègre les outils nécessaires mais tout tourne autour des agents.Air permet de navigateur dans le code, de commiter du code, de définir des tâches, de faire une r</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/air-jetbrains-veut-un-environnement-de-developpement-reellement-agentique-39129</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Mon, 09 Mar 2026 12:43:52 +0000</pubDate>
+      <pubDate>Fri, 13 Mar 2026 07:45:05 +0000</pubDate>
     </item>
     <item>
-      <title>Arduino annonce Arduino Ventuno Q</title>
-      <link>https://www.programmez.com/actualites/arduino-annonce-arduino-ventuno-q-39111</link>
-      <description>Qualcomm annonce une nouvelle carte : l'Arduino Ventuno Q. Elle s'appuie toujours le double processeur de la Uno Q mais en intégrant le Dragonwing IQ8 dédié aux charges et traitement IA, avec un NPU intégré de 40 TOPS (selon le constructeur). Surtout, la carte embarque 16 Go de Ram ce qui donnera une réelle flexibilité dans les usages, ce qui manque cruellement à la Uno Q.Les usages restent peu ou prou les mêmes :- IA- robotique - VLM et plus largement analyse des vidéos- éducation et recherche.</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/arduino-annonce-arduino-ventuno-q-39111</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/arduino.png?itok=9ekO3-iz" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 09 Mar 2026 15:25:41 +0000</pubDate>
+      <title>Chrome arrive bientôt sur ARM64 Linux</title>
+      <link>https://www.programmez.com/actualites/chrome-arrive-bientot-sur-arm64-linux-39130</link>
+      <description>Bonne nouvelle ! L'équipe Chromium annonce Chrome sur Linux tournant sur les matériels ARM64. Cette version sera disponible au 2e trimestre. Chrome est disponible sur Apple Silicon depuis 2020 et plus récemment sur Windows Arm. "Le lancement de Chrome pour les appareils Linux ARM64 permettra à un plus grand nombre d'utilisateurs de profiter d'une intégration fluide des services Google les plus utiles dans leur navigateur. Cette initiative répond à la demande croissante d'une expérience de naviga</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/chrome-arrive-bientot-sur-arm64-linux-39130</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Fri, 13 Mar 2026 08:22:57 +0000</pubDate>
     </item>
   </channel>
 </rss>
