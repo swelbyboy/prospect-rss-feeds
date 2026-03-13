@@ -4,12 +4,22 @@ on:
   schedule:
     - cron: '0 6 * * *'
   workflow_dispatch:
+    inputs:
+      total_chunks:
+        description: 'Number of parallel chunks (default: 20)'
+        required: false
+        default: '20'
 
 jobs:
-  update-feeds:
+  process:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: read
+
+    strategy:
+      fail-fast: false
+      matrix:
+        chunk: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
 
     steps:
       - name: Checkout repository
@@ -24,18 +34,14 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Configure Git
-        run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-
-      - name: Update RSS feeds
+      - name: Process chunk ${{ matrix.chunk }}
         env:
+          CHUNK_INDEX: ${{ matrix.chunk }}
+          TOTAL_CHUNKS: ${{ inputs.total_chunks || '20' }}
           GITHUB_CI: 'true'
-          BATCH_SIZE: '500'
           SKIP_OG_DATA: 'true'
         run: |
-          python3 << 'EOF'
+          python3 -u << 'EOF'
           import csv
           import os
           import sys
@@ -49,26 +55,25 @@ jobs:
           from rss_generator import RSSFeedGenerator
           from config import Config
 
-          # Explicit paths relative to repo root (CWD in GitHub Actions)
-          PROSPECTS_CSV = 'prospects/prospects.csv'
-          TRACKING_CSV = 'prospects/tracking.csv'
-
-          print("🚀 Starting RSS Feed Update")
-          print("=" * 80)
-
-          BATCH_SIZE = int(os.getenv('BATCH_SIZE', '500'))
+          CHUNK_INDEX = int(os.getenv('CHUNK_INDEX', '0'))
+          TOTAL_CHUNKS = int(os.getenv('TOTAL_CHUNKS', '20'))
           SKIP_OG_DATA = os.getenv('SKIP_OG_DATA', 'true').lower() == 'true'
           NUM_WORKERS = 20
 
+          # Load all prospects with feeds
           all_prospects = []
-          with open(PROSPECTS_CSV, 'r', encoding='utf-8') as f:
-              reader = csv.DictReader(f)
-              for row in reader:
+          with open('prospects/prospects.csv', 'r', encoding='utf-8') as f:
+              for row in csv.DictReader(f):
                   if row.get('rss_feed', '').strip():
                       all_prospects.append(row)
 
-          total_prospects = len(all_prospects)
-          print(f"📋 Found {total_prospects} prospects with RSS feeds")
+          total = len(all_prospects)
+          chunk_size = (total + TOTAL_CHUNKS - 1) // TOTAL_CHUNKS
+          start = CHUNK_INDEX * chunk_size
+          end = min(start + chunk_size, total)
+          chunk_prospects = all_prospects[start:end]
+
+          print(f"Chunk {CHUNK_INDEX}/{TOTAL_CHUNKS}: prospects {start+1}-{end} ({len(chunk_prospects)} items)")
 
           transformer = RSSTransformer()
           if SKIP_OG_DATA:
@@ -77,12 +82,11 @@ jobs:
           generator = RSSFeedGenerator()
           base_url = Config.get_rss_base_url()
 
-          all_tracking_data = []
-          overall_successful = 0
-          overall_failed = 0
-          overall_start = time.time()
+          tracking_data = []
+          print_lock = Lock()
+          start_time = time.time()
 
-          def process_prospect(prospect, index, total, transformer, generator, base_url, print_lock):
+          def process_prospect(prospect, idx):
               company_name = prospect.get('company_name', 'Unknown')
               domain = prospect.get('domain', '')
               rss_feed = prospect.get('rss_feed', '').strip()
@@ -93,7 +97,7 @@ jobs:
 
                   if not success:
                       with print_lock:
-                          print(f"[{index}/{total}] ❌ {company_name}: {error}")
+                          print(f"[{idx}/{total}] ❌ {company_name}: {error}")
                       return {
                           'prospect_id': prospect_id, 'company_name': company_name,
                           'domain': domain, 'last_scrape_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
@@ -117,7 +121,7 @@ jobs:
                   feed_filename = os.path.basename(feed_path)
 
                   with print_lock:
-                      print(f"[{index}/{total}] ✅ {company_name}: {len(articles)} articles")
+                      print(f"[{idx}/{total}] ✅ {company_name}: {len(articles)} articles")
 
                   return {
                       'prospect_id': prospect_id, 'company_name': company_name,
@@ -128,7 +132,7 @@ jobs:
 
               except Exception as e:
                   with print_lock:
-                      print(f"[{index}/{total}] ❌ {company_name}: {str(e)}")
+                      print(f"[{idx}/{total}] ❌ {company_name}: {str(e)}")
                   return {
                       'prospect_id': prospect_id, 'company_name': company_name,
                       'domain': domain, 'last_scrape_date': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
@@ -136,50 +140,103 @@ jobs:
                       'error_message': str(e), 'data_source': 'N/A'
                   }
 
-          num_batches = (total_prospects + BATCH_SIZE - 1) // BATCH_SIZE
-          for batch_num in range(num_batches):
-              start_idx = batch_num * BATCH_SIZE
-              end_idx = min(start_idx + BATCH_SIZE, total_prospects)
-              batch_prospects = all_prospects[start_idx:end_idx]
+          with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
+              futures = {
+                  executor.submit(process_prospect, p, start + i): p
+                  for i, p in enumerate(chunk_prospects, 1)
+              }
+              for future in as_completed(futures):
+                  tracking_data.append(future.result())
 
-              print(f"\n📦 BATCH {batch_num + 1}/{num_batches}: prospects {start_idx + 1}-{end_idx}")
+          elapsed = time.time() - start_time
+          succeeded = sum(1 for r in tracking_data if r['status'] == 'success')
+          failed = len(tracking_data) - succeeded
+          print(f"\nChunk {CHUNK_INDEX}: ✅ {succeeded} succeeded, ❌ {failed} failed in {elapsed/60:.1f}m")
 
-              tracking_data = []
-              tracking_lock = Lock()
-              print_lock = Lock()
-              successful = 0
-              failed = 0
-
-              with ThreadPoolExecutor(max_workers=NUM_WORKERS) as executor:
-                  futures = {
-                      executor.submit(process_prospect, p, start_idx + i, total_prospects, transformer, generator, base_url, print_lock): p
-                      for i, p in enumerate(batch_prospects, 1)
-                  }
-                  for future in as_completed(futures):
-                      result = future.result()
-                      with tracking_lock:
-                          tracking_data.append(result)
-                          if result['status'] == 'success':
-                              successful += 1
-                          else:
-                              failed += 1
-
-              all_tracking_data.extend(tracking_data)
-              overall_successful += successful
-              overall_failed += failed
-              print(f"Batch {batch_num + 1}: ✅ {successful} succeeded, ❌ {failed} failed")
-
-          overall_elapsed = time.time() - overall_start
-          print(f"\n✅ Done: {overall_successful} succeeded, {overall_failed} failed in {overall_elapsed/60:.1f}m")
-
-          with open(TRACKING_CSV, 'w', encoding='utf-8', newline='') as f:
-              fieldnames = ['prospect_id', 'company_name', 'domain', 'last_scrape_date',
-                            'status', 'articles_found', 'rss_url', 'error_message', 'data_source']
+          # Write partial tracking CSV
+          tracking_file = f'prospects/tracking_chunk_{CHUNK_INDEX}.csv'
+          fieldnames = ['prospect_id', 'company_name', 'domain', 'last_scrape_date',
+                        'status', 'articles_found', 'rss_url', 'error_message', 'data_source']
+          with open(tracking_file, 'w', encoding='utf-8', newline='') as f:
               writer = csv.DictWriter(f, fieldnames=fieldnames)
               writer.writeheader()
-              writer.writerows(all_tracking_data)
+              writer.writerows(tracking_data)
 
-          print(f"✅ Updated {TRACKING_CSV} with {len(all_tracking_data)} entries")
+          print(f"✅ Written {tracking_file}")
+          EOF
+
+      - name: Upload chunk results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: feeds-chunk-${{ matrix.chunk }}
+          path: |
+            feeds/*.xml
+            prospects/tracking_chunk_${{ matrix.chunk }}.csv
+          if-no-files-found: warn
+          retention-days: 1
+
+  publish:
+    needs: process
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+
+      - name: Download all chunk artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: feeds-chunk-*
+          path: artifacts/
+          merge-multiple: true
+
+      - name: Merge tracking CSVs and collect XML feeds
+        run: |
+          python3 - << 'EOF'
+          import csv, glob, os, shutil
+
+          # Merge all partial tracking CSVs
+          fieldnames = ['prospect_id', 'company_name', 'domain', 'last_scrape_date',
+                        'status', 'articles_found', 'rss_url', 'error_message', 'data_source']
+          all_rows = []
+          chunk_files = sorted(glob.glob('artifacts/tracking_chunk_*.csv'))
+          print(f"Merging {len(chunk_files)} tracking chunk files")
+          for chunk_file in chunk_files:
+              with open(chunk_file, encoding='utf-8') as f:
+                  all_rows.extend(list(csv.DictReader(f)))
+
+          with open('prospects/tracking.csv', 'w', newline='', encoding='utf-8') as f:
+              writer = csv.DictWriter(f, fieldnames=fieldnames)
+              writer.writeheader()
+              writer.writerows(all_rows)
+
+          # Collect XML feeds
+          os.makedirs('feeds', exist_ok=True)
+          xml_files = glob.glob('artifacts/*.xml')
+          for xml_file in xml_files:
+              shutil.copy(xml_file, 'feeds/')
+
+          succeeded = sum(1 for r in all_rows if r['status'] == 'success')
+          failed = len(all_rows) - succeeded
+          print(f"Total: {len(all_rows)} entries | ✅ {succeeded} succeeded | ❌ {failed} failed")
+          print(f"Collected {len(xml_files)} XML feed files")
           EOF
 
       - name: Commit tracking data to main
@@ -189,23 +246,20 @@ jobs:
             echo "No tracking changes to commit"
           else
             git commit -m "Update RSS feeds - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-            git stash --include-untracked
             git pull --rebase origin main
             git push
-            git stash pop || true
+            echo "✅ Committed tracking.csv"
           fi
 
       - name: Publish feeds to gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Set up gh-pages branch in a worktree
           git fetch origin gh-pages 2>/dev/null || true
 
           if git ls-remote --exit-code origin gh-pages > /dev/null 2>&1; then
             git worktree add gh-pages-dir origin/gh-pages
           else
-            # Create orphan gh-pages branch
             git worktree add --orphan -b gh-pages gh-pages-dir
           fi
 
@@ -217,7 +271,6 @@ jobs:
             echo "No XML files generated"
           fi
 
-          # Create .nojekyll
           touch gh-pages-dir/.nojekyll
 
           # Generate index.html
