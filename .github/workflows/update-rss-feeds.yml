@@ -284,6 +284,6 @@ jobs:
             echo "No changes to publish"
           else
             git commit -m "Deploy feeds to GitHub Pages - $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
-            git push origin gh-pages
+            git push origin HEAD:gh-pages
             echo "✅ Published to gh-pages branch"
           fi
