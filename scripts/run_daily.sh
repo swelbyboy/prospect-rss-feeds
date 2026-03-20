@@ -17,8 +17,40 @@ source venv/bin/activate
 # Clear local feeds so scraper re-fetches from original RSS URLs (not cached GitHub Pages copies)
 rm -f feeds/*.xml
 
-# Run the RSS update pipeline
-PARALLEL_WORKERS=100 SKIP_OG_DATA=true python3 scripts/scraper.py >> "$LOG_FILE" 2>&1
+# Build a temp prospects CSV using original RSS URLs from discovery results.
+# This bypasses scraper.py's "skip if already processed" logic while keeping
+# existing feeds/*.xml intact — new articles are merged with existing ones,
+# and failed fetches fall back to yesterday's content.
+python3 -c "
+import csv, sys
+sys.path.insert(0, 'scripts')
+from config import Config
+
+orig = {}
+with open(Config.DISCOVERY_RESULTS_CSV) as f:
+    for row in csv.DictReader(f):
+        if row.get('feed_url','').strip():
+            orig[row['domain']] = row['feed_url']
+
+rows = []
+with open(Config.PROSPECTS_CSV) as f:
+    reader = csv.DictReader(f)
+    fieldnames = reader.fieldnames
+    for row in reader:
+        if row.get('domain','') in orig:
+            row['rss_feed'] = orig[row['domain']]
+            rows.append(row)
+
+with open('/tmp/prospects_update.csv', 'w', newline='') as f:
+    writer = csv.DictWriter(f, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(rows)
+print(f'Generated {len(rows)} prospects with original RSS URLs')
+" >> "$LOG_FILE" 2>&1
+
+# Run the RSS update pipeline using original URLs.
+# rss_generator.py merges new articles with existing XML content (max 15 per feed).
+PROSPECTS_CSV=/tmp/prospects_update.csv PARALLEL_WORKERS=100 SKIP_OG_DATA=true python3 scripts/scraper.py >> "$LOG_FILE" 2>&1
 
 # Commit tracking data to main
 git add prospects/tracking.csv prospects/prospects.csv index.html 2>/dev/null || true

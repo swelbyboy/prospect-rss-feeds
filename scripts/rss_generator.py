@@ -5,8 +5,10 @@ Creates RFC-compliant RSS 2.0 feeds for scraped articles.
 
 import os
 from datetime import datetime, timezone
+from time import mktime
 from feedgen.feed import FeedGenerator
 from xml.sax.saxutils import escape
+import feedparser
 from config import Config
 
 
@@ -17,9 +19,37 @@ class RSSFeedGenerator:
         """Initialize the RSS feed generator."""
         os.makedirs(Config.FEEDS_DIR, exist_ok=True)
 
-    def create_feed(self, prospect_data, articles):
+    def _read_existing_articles(self, prospect_data):
+        """Parse the existing local XML feed and return articles in standard format."""
+        feed_path = self._get_feed_path(prospect_data)
+        if not os.path.exists(feed_path):
+            return []
+        try:
+            feed = feedparser.parse(feed_path)
+            articles = []
+            for entry in feed.entries:
+                pub_date = None
+                if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                    pub_date = datetime.fromtimestamp(mktime(entry.published_parsed), tz=timezone.utc)
+                image_url = ''
+                if hasattr(entry, 'enclosures') and entry.enclosures:
+                    image_url = entry.enclosures[0].get('url', '')
+                articles.append({
+                    'link': entry.get('link', ''),
+                    'title': entry.get('title', ''),
+                    'description': entry.get('summary', ''),
+                    'image_url': image_url,
+                    'published_date': pub_date,
+                })
+            return articles
+        except Exception:
+            return []
+
+    def create_feed(self, prospect_data, articles, max_articles=15):
         """
-        Create an RSS feed for a prospect's articles.
+        Create an RSS feed for a prospect's articles, merging with any existing
+        local feed. New articles take precedence; oldest articles are dropped
+        once the total exceeds max_articles.
 
         Args:
             prospect_data (dict): Prospect information with keys:
@@ -32,10 +62,28 @@ class RSSFeedGenerator:
                 - description: Article description/summary
                 - published_date: Published date (optional)
                 - image_url: Article image URL (optional)
+            max_articles (int): Maximum articles to keep (default 15)
 
         Returns:
             str: Path to the generated RSS feed file
         """
+        # Merge new articles with existing, deduplicate by URL, cap at max_articles
+        existing = self._read_existing_articles(prospect_data)
+        seen = set()
+        merged = []
+        for a in articles + existing:
+            link = a.get('link', '')
+            if link and link not in seen:
+                seen.add(link)
+                merged.append(a)
+
+        _epoch = datetime.fromtimestamp(0, tz=timezone.utc)
+        merged.sort(
+            key=lambda x: x.get('published_date') or _epoch,
+            reverse=True
+        )
+        articles = merged[:max_articles]
+
         fg = FeedGenerator()
 
         # Set feed metadata
