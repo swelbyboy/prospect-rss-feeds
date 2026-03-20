@@ -14,6 +14,9 @@ git pull origin main >> "$LOG_FILE" 2>&1
 # Activate venv
 source venv/bin/activate
 
+# Clear local feeds so scraper re-fetches from original RSS URLs (not cached GitHub Pages copies)
+rm -f feeds/*.xml
+
 # Run the RSS update pipeline
 PARALLEL_WORKERS=100 SKIP_OG_DATA=true python3 scripts/scraper.py >> "$LOG_FILE" 2>&1
 
