@@ -1,26 +1,23 @@
 #!/bin/bash
-set -e
 
 REPO_DIR="/root/prospect-rss-feeds"
 LOG_FILE="/root/logs/rss_update.log"
 
+mkdir -p /root/logs
 cd "$REPO_DIR"
 
 echo "=== RSS Update started at $(date -u) ===" | tee -a "$LOG_FILE"
 
-# Pull latest changes
-git pull origin main >> "$LOG_FILE" 2>&1
+# Pull latest changes (rebase to avoid divergent branch errors)
+git pull --rebase origin main >> "$LOG_FILE" 2>&1 || echo "WARNING: git pull failed, continuing with local version" | tee -a "$LOG_FILE"
 
 # Activate venv
 source venv/bin/activate
 
-# Clear local feeds so scraper re-fetches from original RSS URLs (not cached GitHub Pages copies)
-rm -f feeds/*.xml
-
 # Build a temp prospects CSV using original RSS URLs from discovery results.
-# This bypasses scraper.py's "skip if already processed" logic while keeping
-# existing feeds/*.xml intact — new articles are merged with existing ones,
-# and failed fetches fall back to yesterday's content.
+# This bypasses scraper.py's "skip if already processed" logic.
+# Existing feeds/*.xml are kept — new articles merge with them (max 15 per feed),
+# and failed fetches fall back to the previous content.
 python3 -c "
 import csv, sys
 sys.path.insert(0, 'scripts')
@@ -48,8 +45,7 @@ with open('/tmp/prospects_update.csv', 'w', newline='') as f:
 print(f'Generated {len(rows)} prospects with original RSS URLs')
 " >> "$LOG_FILE" 2>&1
 
-# Run the RSS update pipeline using original URLs.
-# rss_generator.py merges new articles with existing XML content (max 15 per feed).
+# Run the RSS update pipeline
 PROSPECTS_CSV=/tmp/prospects_update.csv PARALLEL_WORKERS=100 SKIP_OG_DATA=true python3 scripts/scraper.py >> "$LOG_FILE" 2>&1
 
 # Commit tracking data to main
@@ -58,8 +54,8 @@ if git diff --staged --quiet; then
     echo "No tracking changes to commit" | tee -a "$LOG_FILE"
 else
     git commit -m "Update RSS feeds - $(date -u '+%Y-%m-%d %H:%M:%S UTC')" >> "$LOG_FILE" 2>&1
-    git pull --rebase origin main >> "$LOG_FILE" 2>&1
-    git push >> "$LOG_FILE" 2>&1
+    git pull --rebase origin main >> "$LOG_FILE" 2>&1 || true
+    git push >> "$LOG_FILE" 2>&1 || echo "WARNING: git push failed" | tee -a "$LOG_FILE"
     echo "Committed tracking data" | tee -a "$LOG_FILE"
 fi
 
@@ -70,7 +66,6 @@ if ls feeds/*.xml 1>/dev/null 2>&1; then
 
     git fetch origin gh-pages >> "$LOG_FILE" 2>&1
 
-    # Remove existing worktree if it exists
     git worktree remove --force gh-pages-dir 2>/dev/null || true
     rm -rf gh-pages-dir
 
