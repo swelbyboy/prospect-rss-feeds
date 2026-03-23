@@ -78,10 +78,14 @@ class RSSFeedGenerator:
                 merged.append(a)
 
         _epoch = datetime.fromtimestamp(0, tz=timezone.utc)
-        merged.sort(
-            key=lambda x: x.get('published_date') or _epoch,
-            reverse=True
-        )
+
+        def _sort_key(article):
+            d = article.get('published_date') or _epoch
+            if d.tzinfo is None:
+                d = d.replace(tzinfo=timezone.utc)
+            return d
+
+        merged.sort(key=_sort_key, reverse=True)
         articles = merged[:max_articles]
 
         fg = FeedGenerator()
