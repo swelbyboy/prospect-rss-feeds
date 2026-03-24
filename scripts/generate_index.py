@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Generate index.html from all XML feed files in the repository.
-This ensures all feeds are listed even if tracking.csv is incomplete.
+Generate index.html from tracking.csv (primary source) plus any XML files
+not already in tracking. This ensures all processed prospects are listed.
 """
 import csv
 import os
@@ -10,70 +10,61 @@ sys.path.insert(0, os.path.dirname(__file__))
 from config import Config
 from datetime import datetime
 
-# Get ALL XML files from feeds/ directory and root
-xml_files = set()
+BASE_URL = 'https://swelbyboy.github.io/prospect-rss-feeds'
 
-# Scan feeds/ directory
-if os.path.exists(Config.FEEDS_DIR):
-    for f in os.listdir(Config.FEEDS_DIR):
-        if f.endswith('.xml'):
-            xml_files.add(f)
+# Build feed entries from tracking.csv (primary source)
+feed_entries = []
+seen_urls = set()
 
-# Scan root directory
-for f in os.listdir(Config.PROJECT_ROOT):
-    if f.endswith('.xml'):
-        xml_files.add(f)
-
-print(f'Found {len(xml_files)} XML feed files')
-
-# Load tracking data for status info (optional - for display only)
-tracking_by_url = {}
 try:
     with open(Config.TRACKING_CSV, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for entry in reader:
-            rss_url = entry.get('rss_url', '')
-            if rss_url:
-                tracking_by_url[rss_url] = entry
+            rss_url = entry.get('rss_url', '').strip()
+            # Skip entries with no URL or the catch-all .xml bug URL
+            if not rss_url or rss_url.endswith('/.xml'):
+                continue
+            if rss_url in seen_urls:
+                continue
+            seen_urls.add(rss_url)
+
+            domain = entry.get('domain', '') or '-'
+            company_name = entry.get('company_name', '').strip() or domain
+            feed_entries.append({
+                'name': company_name,
+                'url': rss_url,
+                'status': entry.get('status', '-'),
+                'date': entry.get('last_scrape_date', '-'),
+                'domain': domain,
+            })
 except FileNotFoundError:
     pass
 
-# Load domain info from outreach_progress_tracker.csv as fallback
-tracker_by_feed_url = {}
-try:
-    with open(Config.OUTREACH_TRACKER_CSV, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for entry in reader:
-            rss_feed = entry.get('RSS Feed', '').strip()
-            domain = entry.get('Domain', '').strip()
-            if rss_feed and domain:
-                tracker_by_feed_url[rss_feed] = domain
-except FileNotFoundError:
-    pass
+# Also pick up any XML files on disk not already accounted for
+xml_files = set()
+if os.path.exists(Config.FEEDS_DIR):
+    for f in os.listdir(Config.FEEDS_DIR):
+        if f.endswith('.xml') and f != '.xml':
+            xml_files.add(f)
+for f in os.listdir(Config.PROJECT_ROOT):
+    if f.endswith('.xml') and f != '.xml':
+        xml_files.add(f)
 
-# Generate feed entries from XML files
-feed_entries = []
 for xml_file in sorted(xml_files):
-    feed_url = f'https://swelbyboy.github.io/prospect-rss-feeds/{xml_file}'
-    
-    # Try to get info from tracking.csv
-    tracking_info = tracking_by_url.get(feed_url, {})
-    company_name = tracking_info.get('company_name', xml_file.replace('.xml', '').replace('-', ' ').title())
-    status = tracking_info.get('status', 'success')
-    last_scrape_date = tracking_info.get('last_scrape_date', '-')
-    
-    # Get domain from tracking.csv or outreach_progress_tracker.csv
-    domain = tracking_info.get('domain', '')
-    if not domain:
-        domain = tracker_by_feed_url.get(feed_url, '-')
-    
+    feed_url = f'{BASE_URL}/{xml_file}'
+    if feed_url in seen_urls:
+        continue
+    seen_urls.add(feed_url)
+    company_name = xml_file.replace('.xml', '').replace('-', ' ').title()
     feed_entries.append({
         'name': company_name,
         'url': feed_url,
-        'status': status,
-        'date': last_scrape_date,
-        'domain': domain
+        'status': 'success',
+        'date': '-',
+        'domain': '-',
     })
+
+print(f'Generated {len(feed_entries)} feed entries')
 
 # Generate index.html
 html = '''<!DOCTYPE html>

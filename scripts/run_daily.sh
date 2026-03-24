@@ -82,6 +82,7 @@ if ls feeds/*.xml 1>/dev/null 2>&1; then
     fi
 
     cp feeds/*.xml gh-pages-dir/
+    cp index.html gh-pages-dir/
     touch gh-pages-dir/.nojekyll
 
     cd gh-pages-dir
