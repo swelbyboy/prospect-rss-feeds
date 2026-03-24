@@ -67,21 +67,21 @@ class ProspectScraper:
             for i, prospect in enumerate(prospects, 1):
                 normalized = {}
 
-                # Handle company_name / Prospect Name
-                if 'company_name' in prospect:
-                    normalized['company_name'] = prospect['company_name']
-                elif 'Prospect Name' in prospect:
-                    normalized['company_name'] = prospect['Prospect Name']
-                else:
-                    normalized['company_name'] = f"Unknown-{i}"
-
-                # Handle domain / Domain
+                # Handle domain / Domain (resolve first, used as fallback for company_name)
                 if 'domain' in prospect:
                     normalized['domain'] = prospect['domain']
                 elif 'Domain' in prospect:
                     normalized['domain'] = prospect['Domain']
                 else:
                     normalized['domain'] = ''
+
+                # Handle company_name / Prospect Name; fall back to domain
+                if 'company_name' in prospect:
+                    normalized['company_name'] = prospect['company_name'] or normalized['domain']
+                elif 'Prospect Name' in prospect:
+                    normalized['company_name'] = prospect['Prospect Name'] or normalized['domain']
+                else:
+                    normalized['company_name'] = normalized['domain'] or f"Unknown-{i}"
 
                 # Handle rss_feed / RSS Feed
                 if 'rss_feed' in prospect:
