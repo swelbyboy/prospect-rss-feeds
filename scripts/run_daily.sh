@@ -51,6 +51,9 @@ print(f'Generated {len(rows)} prospects with original RSS URLs')
 # Run the RSS update pipeline
 PROSPECTS_CSV=/tmp/prospects_update.csv PARALLEL_WORKERS=20 SKIP_OG_DATA=true python3 scripts/scraper.py >> "$LOG_FILE" 2>&1
 
+# Regenerate index.html with updated tracking data (includes Domain column)
+python3 scripts/generate_index.py >> "$LOG_FILE" 2>&1
+
 # Commit tracking data to main
 git add prospects/tracking.csv prospects/prospects.csv index.html 2>/dev/null || true
 if git diff --staged --quiet; then

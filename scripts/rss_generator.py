@@ -176,6 +176,10 @@ class RSSFeedGenerator:
         # Sanitize company name for filename
         safe_name = ''.join(c if c.isalnum() else '-' for c in company_name.lower())
         safe_name = safe_name.strip('-')
+        # Fall back to domain if company name produces an empty slug
+        if not safe_name:
+            domain = prospect_data.get('domain', 'unknown')
+            safe_name = ''.join(c if c.isalnum() else '-' for c in domain.lower()).strip('-') or 'unknown'
         return f"{safe_name}.xml"
 
     def _get_feed_path(self, prospect_data):
