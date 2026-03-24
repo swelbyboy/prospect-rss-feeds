@@ -497,6 +497,13 @@ class ProspectScraper:
                             successful = sum(1 for e in self.tracking_data if e['status'] == 'success')
                             with print_lock:
                                 print(f"\n   📊 Progress: {completed_count}/{total_prospects} | ✅ {successful} successful | ⚡ {rate:.1f}/sec\n")
+
+                        # Periodic checkpoint save every 500 prospects
+                        if completed_count % 500 == 0:
+                            with data_lock:
+                                self.save_tracking()
+                            with print_lock:
+                                print(f"   💾 Checkpoint: saved tracking at {completed_count}/{total_prospects}")
                                 
                 except Exception as e:
                     with print_lock:

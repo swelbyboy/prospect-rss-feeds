@@ -178,7 +178,7 @@ html = '''<!DOCTYPE html>
 </head>
 <body>
     <h1>Prospect RSS Feeds</h1>
-    <p>Total feeds: ''' + str(len(feed_entries)) + '''</p>
+    <p>Total feeds: ''' + str(len(feed_entries)) + ''' &nbsp;·&nbsp; Last updated: ''' + datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC') + '''</p>
     
     <button class="upload-cta" onclick="openUploadModal()">📤 Upload New Prospects</button>
 
@@ -216,8 +216,7 @@ for entry in feed_entries:
     domain = entry.get('domain', '-')
     html += f'        <tr><td>{entry["name"]}</td><td>{domain}</td><td>{rss_link}</td><td class="{status_class}">{entry["status"]}</td><td>{entry["date"]}</td></tr>\n'
 
-html += f'''    </table>
-    <p>Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S UTC')}</p>
+html += '''    </table>
     
     <script>
     function openUploadModal() {{

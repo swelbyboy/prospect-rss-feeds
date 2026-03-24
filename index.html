@@ -109,7 +109,7 @@
 </head>
 <body>
     <h1>Prospect RSS Feeds</h1>
-    <p>Total feeds: 30766</p>
+    <p>Total feeds: 30766 &nbsp;·&nbsp; Last updated: 2026-03-24 14:14 UTC</p>
     
     <button class="upload-cta" onclick="openUploadModal()">📤 Upload New Prospects</button>
 
@@ -30907,34 +30907,33 @@ Digital</td><td>alajueladigital.net</td><td><a href="https://swelbyboy.github.io
         <tr><td>爽報 Apple News Network</td><td>-</td><td><a href="https://swelbyboy.github.io/prospect-rss-feeds/爽報-apple-news-network.xml">https://swelbyboy.github.io/prospect-rss-feeds/爽報-apple-news-network.xml</a></td><td class="success">success</td><td>-</td></tr>
         <tr><td>聚財網</td><td>-</td><td><a href="https://swelbyboy.github.io/prospect-rss-feeds/聚財網.xml">https://swelbyboy.github.io/prospect-rss-feeds/聚財網.xml</a></td><td class="success">success</td><td>-</td></tr>
     </table>
-    <p>Last updated: 2026-03-24 14:03:06 UTC</p>
     
     <script>
-    function openUploadModal() {
+    function openUploadModal() {{
         document.getElementById('uploadModal').style.display = 'block';
-    }
+    }}
     
-    function closeUploadModal() {
+    function closeUploadModal() {{
         document.getElementById('uploadModal').style.display = 'none';
         document.getElementById('csvForm').reset();
         document.getElementById('message').style.display = 'none';
-    }
+    }}
     
-    window.onclick = function(event) {
+    window.onclick = function(event) {{
         const modal = document.getElementById('uploadModal');
-        if (event.target == modal) {
+        if (event.target == modal) {{
             closeUploadModal();
-        }
-    }
+        }}
+    }}
     
-    function submitCSV(event) {
+    function submitCSV(event) {{
         event.preventDefault();
         const csvContent = document.getElementById('csvContent').value.trim();
         
-        if (!csvContent) {
+        if (!csvContent) {{
             showMessage('Please enter CSV content', 'error');
             return;
-        }
+        }}
         
         // Create GitHub issue directly via API (no manual label selection needed)
         // The label will be automatically created by the workflow if it doesn't exist
@@ -30952,18 +30951,18 @@ Digital</td><td>alajueladigital.net</td><td><a href="https://swelbyboy.github.io
         showMessage('✅ Opening GitHub to create issue. The label will be created automatically. After you submit, prospects will be added automatically.', 'success');
         
         // Reset form after a delay
-        setTimeout(() => {
+        setTimeout(() => {{
             document.getElementById('csvForm').reset();
             closeUploadModal();
-        }, 2000);
-    }
+        }}, 2000);
+    }}
     
-    function showMessage(text, type) {
+    function showMessage(text, type) {{
         const messageDiv = document.getElementById('message');
         messageDiv.textContent = text;
         messageDiv.className = 'message ' + type + '-message';
         messageDiv.style.display = 'block';
-    }
+    }}
     </script>
 </body>
 </html>
