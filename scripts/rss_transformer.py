@@ -9,7 +9,7 @@ Includes deduplication logic to handle same article in multiple languages.
 import feedparser
 import requests
 import hashlib
-from datetime import datetime
+from datetime import datetime, timezone
 from urllib.parse import urlparse
 import re
 import html
@@ -112,12 +112,12 @@ class RSSTransformer:
             # Extract publication date (OG doesn't have this, use RSS)
             pub_date = None
             if 'published_parsed' in entry and entry.published_parsed:
-                pub_date = datetime(*entry.published_parsed[:6])
+                pub_date = datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
             elif 'updated_parsed' in entry and entry.updated_parsed:
-                pub_date = datetime(*entry.updated_parsed[:6])
+                pub_date = datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
 
             if not pub_date:
-                pub_date = datetime.now()
+                pub_date = datetime.now(timezone.utc)
 
             # Extract image - prioritize OG data
             image_url = og_data.get('image') if og_data else None

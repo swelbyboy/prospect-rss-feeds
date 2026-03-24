@@ -8,6 +8,9 @@ cd "$REPO_DIR"
 
 echo "=== RSS Update started at $(date -u) ===" | tee -a "$LOG_FILE"
 
+# Stash any unstaged changes (e.g. tracking.csv from a previous interrupted run)
+git stash >> "$LOG_FILE" 2>&1 || true
+
 # Pull latest changes (rebase to avoid divergent branch errors)
 git pull --rebase origin main >> "$LOG_FILE" 2>&1 || echo "WARNING: git pull failed, continuing with local version" | tee -a "$LOG_FILE"
 
@@ -46,7 +49,7 @@ print(f'Generated {len(rows)} prospects with original RSS URLs')
 " >> "$LOG_FILE" 2>&1
 
 # Run the RSS update pipeline
-PROSPECTS_CSV=/tmp/prospects_update.csv PARALLEL_WORKERS=100 SKIP_OG_DATA=true python3 scripts/scraper.py >> "$LOG_FILE" 2>&1
+PROSPECTS_CSV=/tmp/prospects_update.csv PARALLEL_WORKERS=20 SKIP_OG_DATA=true python3 scripts/scraper.py >> "$LOG_FILE" 2>&1
 
 # Commit tracking data to main
 git add prospects/tracking.csv prospects/prospects.csv index.html 2>/dev/null || true
