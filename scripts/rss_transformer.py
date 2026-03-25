@@ -39,7 +39,7 @@ class RSSTransformer:
         """
         try:
             print(f"   📡 Fetching RSS feed: {feed_url}")
-            response = self.session.get(feed_url, timeout=30, allow_redirects=True)
+            response = self.session.get(feed_url, timeout=10, allow_redirects=True)
 
             if response.status_code != 200:
                 return False, [], f"HTTP {response.status_code}"

@@ -3,7 +3,7 @@
 REPO_DIR="/root/prospect-rss-feeds"
 LOG_FILE="/root/logs/rss_update.log"
 LOCK_FILE="/tmp/rss_update.lock"
-MAX_DAILY_PROSPECTS="${MAX_DAILY_PROSPECTS:-5000}"
+MAX_DAILY_PROSPECTS="${MAX_DAILY_PROSPECTS:-12000}"
 
 mkdir -p /root/logs
 
