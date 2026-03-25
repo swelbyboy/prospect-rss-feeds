@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 14:41:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 16:33:18 +0000</lastBuildDate>
     <item>
       <title>Nvidia's Nemotron-Cascade 2 wins math and coding gold medals with 3B active parameters — and its post-training recipe is now open-source</title>
       <link>https://venturebeat.com/orchestration/nvidias-nemotron-cascade-2-wins-math-and-coding-gold-medals-with-3b-active</link>
@@ -58,12 +58,44 @@
       <pubDate>Tue, 24 Mar 2026 04:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Ai2 releases MolmoWeb, an open-weight visual web agent with 30K human task trajectories and a full training stack</title>
+      <link>https://venturebeat.com/data/ai2-releases-molmoweb-an-open-weight-visual-web-agent-with-30k-human-task</link>
+      <description>Engineers building browser agents today face a choice between closed APIs they cannot inspect and open-weight frameworks with no trained model underneath them. Ai2 is now offering a third option.The Seattle-based nonprofit behind the open-source OLMo language models and Molmo vision-language family today is releasing MolmoWeb, an open-weight visual web agent available in 4 billion and 8 billion parameter sizes. Until now, no open-weight visual web agent shipped with the training data and pipelin</description>
+      <guid isPermaLink="false">https://venturebeat.com/data/ai2-releases-molmoweb-an-open-weight-visual-web-agent-with-30k-human-task</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4pUUvcojDe8EOzTGx66QN2/9da033ebaefe7e31158933bdc91df65f/browser-agent-smk1.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The three disciplines separating AI agent demos from real-world deployment</title>
       <link>https://venturebeat.com/orchestration/the-three-disciplines-separating-ai-agent-demos-from-real-world-deployment</link>
       <description>Getting AI agents to perform reliably in production — not just in demos — is turning out to be harder than enterprises anticipated. Fragmented data, unclear workflows, and runaway escalation rates are slowing deployments across industries.“The technology itself often works well in demonstrations,” said Sanchit Vir Gogia, chief analyst with Greyhound Research. “The challenge begins when it is asked to operate inside the complexity of a real organization.” Burley Kawasaki, who oversees agent deplo</description>
       <guid isPermaLink="false">https://venturebeat.com/orchestration/the-three-disciplines-separating-ai-agent-demos-from-real-world-deployment</guid>
       <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2dOARvl2FiQcSlFYjiW5kv/35e33899a22a4a743fb556ebb6f0e0e9/Agent_thinking.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
       <pubDate>Tue, 24 Mar 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare’s new Dynamic Workers ditch containers to run AI agent code 100x faster</title>
+      <link>https://venturebeat.com/infrastructure/cloudflares-new-dynamic-workers-ditch-containers-to-run-ai-agent-code-100x</link>
+      <description>Web infrastructure giant Cloudflare is seeking to transform the way enterprises deploy AI agents with the open beta release of Dynamic Workers, a new lightweight, isolate-based sandboxing system that it says starts in milliseconds, uses only a few megabytes of memory, and can run on the same machine — even the same thread — as the request that created it. Compared with traditional Linux containers, the company says Dynamic Workers is roughly 100x faster to start and between 10x and 100x more mem</description>
+      <guid isPermaLink="false">https://venturebeat.com/infrastructure/cloudflares-new-dynamic-workers-ditch-containers-to-run-ai-agent-code-100x</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3n7IYXKsR05XI4tQFgOwkp/8d0100b20ce548e178cf5beacea503e1/1aS68uiyY5dFE4eQgj8Nr_HvTU5kee.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 19:21:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic’s Claude can now control your Mac, escalating the fight to build AI agents that actually do work</title>
+      <link>https://venturebeat.com/technology/anthropics-claude-can-now-control-your-mac-escalating-the-fight-to-build-ai</link>
+      <description>Anthropic on Monday launched the most ambitious consumer AI agent to date, giving its Claude chatbot the ability to directly control a user's Mac — clicking buttons, opening applications, typing into fields, and navigating software on the user's behalf while they step away from their desk.The update, available immediately as a research preview for paying subscribers, transforms Claude from a conversational assistant into something closer to a remote digital operator. It arrives inside both Claud</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/anthropics-claude-can-now-control-your-mac-escalating-the-fight-to-build-ai</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6pKUpuFXpAqiUR5x0wZLWD/926372d4a092d0a8c957d2aaf11334b5/nuneybits_Vector_art_of_cobalt_Mac_ghost-cursor_in_burnt_orange_2d33f7ea-2b08-4424-8cce-ad1e4c539c0e.webp?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI is shutting down Sora, its powerful AI video model, app and API</title>
+      <link>https://venturebeat.com/technology/openai-is-shutting-down-sora-its-powerful-ai-video-app</link>
+      <description>OpenAI is shuttering Sora, its stand-alone AI video generation app and social network, and the availability for developers to access the Sora 2 video model family through its application programming interface (API) to rely on it for their own products or video generation pipelines.The announcement came abruptly this afternoon with OpenAI posting a message on X without giving an exact shutdown date for the services, instead promising "timelines for the app and API and details on preserving your w</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/openai-is-shutting-down-sora-its-powerful-ai-video-app</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2dEwFNdOd4Uf698uIDeFAS/3ef7de3b64485733a3e978e5dfefe358/Gemini_Generated_Image_1bsv991bsv991bsv.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 21:20:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

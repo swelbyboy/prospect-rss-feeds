@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>L'actualité - Article Feed</title>
+    <title>L'Actualité - Article Feed</title>
     <link>https://swelbyboy.github.io/prospect-rss-feeds/l-actualité.xml</link>
-    <description>Latest articles from L'actualité (lactualite.com)</description>
+    <description>Latest articles from L'Actualité (lactualite.com)</description>
     <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/l-actualité.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 17:22:11 +0000</lastBuildDate>
-    <item>
-      <title>Télé – La guerre des cerveaux : Derrière les émojis, un fléau sans merci</title>
-      <link>https://lactualite.com/temps-libre/culture/tele-la-guerre-des-cerveaux-derriere-les-emojis-un-fleau-sans-merci/</link>
-      <description>Données numériques, désinformation, hypertrucages, algorithmes… Ces mots, démystifiés dans la série documentaire La guerre des cerveaux, cachent une réalité bien plus pernicieuse qu'on ne l'imagine.</description>
-      <guid isPermaLink="false">https://lactualite.com/temps-libre/culture/tele-la-guerre-des-cerveaux-derriere-les-emojis-un-fleau-sans-merci/</guid>
-      <enclosure url="https://media.lactualite.com/2026/03/mjrr_guerrecerveau-1200x675.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 20 Mar 2026 05:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 25 Mar 2026 16:16:02 +0000</lastBuildDate>
     <item>
       <title>Télé - Le retour d’Anna Brodeur 2 : Une vie toujours aussi tumultueuse</title>
       <link>https://lactualite.com/temps-libre/culture/tele-le-retour-danna-brodeur-2-une-vie-toujours-aussi-tumultueuse/</link>
       <description>Entre retrouvailles avec son père, amours compliquées et nouveau défi professionnel, l'héroïne moderne campée par Julie Le Breton en voit encore de toutes les couleurs.</description>
       <guid isPermaLink="false">https://lactualite.com/temps-libre/culture/tele-le-retour-danna-brodeur-2-une-vie-toujours-aussi-tumultueuse/</guid>
       <enclosure url="https://media.lactualite.com/2026/03/mjrr_annabrodeur2-1200x675.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Mar 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Télé – La guerre des cerveaux : Derrière les émojis, un fléau sans merci</title>
+      <link>https://lactualite.com/temps-libre/culture/tele-la-guerre-des-cerveaux-derriere-les-emojis-un-fleau-sans-merci/</link>
+      <description>Données numériques, désinformation, hypertrucages, algorithmes… Ces mots, démystifiés dans la série documentaire La guerre des cerveaux, cachent une réalité bien plus pernicieuse qu'on ne l'imagine.</description>
+      <guid isPermaLink="false">https://lactualite.com/temps-libre/culture/tele-la-guerre-des-cerveaux-derriere-les-emojis-un-fleau-sans-merci/</guid>
+      <enclosure url="https://media.lactualite.com/2026/03/mjrr_guerrecerveau-1200x675.jpg" length="0" type="image/jpeg"/>
       <pubDate>Fri, 20 Mar 2026 05:00:00 +0000</pubDate>
     </item>
     <item>
@@ -96,6 +96,14 @@
       <guid isPermaLink="false">https://lactualite.com/lactualite-affaires/le-vieillissement-de-la-population-prive-le-quebec-de-65-milliards-de-dollars/</guid>
       <enclosure url="https://media.lactualite.com/2024/02/hero-fortin_pierre-1200x675.jpg" length="0" type="image/jpeg"/>
       <pubDate>Tue, 24 Mar 2026 15:50:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>Francophonie : la tentation de jouer avec les chiffres</title>
+      <link>https://lactualite.com/societe/francophonie-la-tentation-de-jouer-avec-les-chiffres/</link>
+      <description>396 millions… ou 348 ? En ajoutant dans ses plus récentes statistiques les enfants de six à neuf ans qui apprennent le français, l'Organisation internationale de la Francophonie a fait bondir le nombre de francophones. Un choix avant tout politique.</description>
+      <guid isPermaLink="false">https://lactualite.com/societe/francophonie-la-tentation-de-jouer-avec-les-chiffres/</guid>
+      <enclosure url="https://media.lactualite.com/2026/03/jbn_rapportoif-1200x675.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 18:53:54 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Time - Article Feed</title>
+    <title>TIME - Article Feed</title>
     <link>https://swelbyboy.github.io/prospect-rss-feeds/time.xml</link>
-    <description>Latest articles from Time (time.com)</description>
+    <description>Latest articles from TIME (time.com)</description>
     <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/time.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 16:06:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 16:20:51 +0000</lastBuildDate>
     <item>
       <title>What We Know So Far About Explosive Devices Ignited Near Mamdani’s Home</title>
       <link>https://time.com/7383143/fbi-zohran-mamdani-explosive-device-investigation-gracie-mansion-protests/</link>
@@ -30,7 +30,7 @@
       <link>https://time.com/7382995/science-scientific-method-us/</link>
       <description>From vaccines to semiconductors, the scientific method made the U.S. a superpower. Abandoning it could reverse decades of progress.</description>
       <guid isPermaLink="false">https://time.com/7382995/science-scientific-method-us/</guid>
-      <enclosure url="https://api.time.com/wp-content/uploads/2026/03/us-science-infrastructure.jpg?quality=85&amp;amp;w=1200&amp;amp;h=628&amp;amp;crop=1" length="0" type="image/jpeg"/>
+      <enclosure url="https://api.time.com/wp-content/uploads/2026/03/us-science-infrastructure.jpg" length="0" type="image/jpeg"/>
       <pubDate>Mon, 09 Mar 2026 10:00:00 +0000</pubDate>
     </item>
     <item>
@@ -82,11 +82,11 @@
       <pubDate>Mon, 09 Mar 2026 20:21:54 +0000</pubDate>
     </item>
     <item>
-      <title>Trump Signals War With Iran May End Soon—Even as He Vows Not to Relent</title>
+      <title>Trump Delivers Mixed Messages on the State of the Iran War</title>
       <link>https://time.com/7383292/trump-iran-war-end/</link>
-      <description>The President on Monday suggested that the war with Iran could be nearing its end—even as he vowed not to relent.</description>
+      <description>The President on Monday suggested that the war could be nearing its end—even as he pledged continued military pressure.</description>
       <guid isPermaLink="false">https://time.com/7383292/trump-iran-war-end/</guid>
-      <enclosure url="https://api.time.com/wp-content/uploads/2026/03/trump-iran-war-mixed-signals.jpg" length="0" type="image/jpeg"/>
+      <enclosure url="https://api.time.com/wp-content/uploads/2026/03/trump-iran-war-mixed-signals.jpg?quality=85&amp;amp;w=1024&amp;amp;h=628&amp;amp;crop=1" length="0" type="image/jpeg"/>
       <pubDate>Mon, 09 Mar 2026 22:02:52 +0000</pubDate>
     </item>
   </channel>

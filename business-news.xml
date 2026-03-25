@@ -3,36 +3,12 @@
   <channel>
     <title>Business News - Article Feed</title>
     <link>https://swelbyboy.github.io/prospect-rss-feeds/business-news.xml</link>
-    <description>Latest articles from Business News (businessnews.com.ng)</description>
+    <description>Latest articles from Business News (businessnews.com.au)</description>
     <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/business-news.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Mar 2026 03:34:54 +0000</lastBuildDate>
-    <item>
-      <title>ASX tumbles to lowest level since May</title>
-      <link>https://www.businessnews.com.au/article/ASX-tumbles-to-lowest-level-since-May-as-war-drags-on</link>
-      <description>Australia's share market has trimmed some losses but still ended at its lowest level since May 2025, as the Middle East conflict continues to wreak havoc on energy prices.</description>
-      <guid isPermaLink="false">https://www.businessnews.com.au/article/ASX-tumbles-to-lowest-level-since-May-as-war-drags-on</guid>
-      <enclosure url="https://www.businessnews.com.au/sites/default/files/aap_article_20260319151361265129.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 07:30:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Morning Headlines</title>
-      <link>https://www.businessnews.com.au/article/Morning-Headlines-3141</link>
-      <description>Aussies in dark about crisis: IEA</description>
-      <guid isPermaLink="false">https://www.businessnews.com.au/article/Morning-Headlines-3141</guid>
-      <enclosure url="https://www.businessnews.com.au/sites/default/files/2026-03/Morning-Headlines-6930-LightBlue_13_14.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 22:21:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>US stocks rally, oil sinks</title>
-      <link>https://www.businessnews.com.au/article/Stocks-rally-and-oil-sinks-after-Trump-hints-at-a-possible-end-to-war-even-as-Iran-denies</link>
-      <description>A cautious relief swept through financial markets Monday after President Donald Trump said the United States has talked with Iran about a possible end to their war.</description>
-      <guid isPermaLink="false">https://www.businessnews.com.au/article/Stocks-rally-and-oil-sinks-after-Trump-hints-at-a-possible-end-to-war-even-as-Iran-denies</guid>
-      <enclosure url="https://www.businessnews.com.au/sites/default/files/2026-03/IMG_7781_1.jpeg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 23:01:33 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 25 Mar 2026 16:25:06 +0000</lastBuildDate>
     <item>
       <title>Diesel standards lowered, six WA stations run dry</title>
       <link>https://www.businessnews.com.au/article/Diesel-standards-lowered-six-WA-stations-run-dry</link>
@@ -128,6 +104,30 @@
       <guid isPermaLink="false">https://businessnews.com.tn/2026/03/24/suspension-du-titre-uadh-a-la-bourse-de-tunis-des-manquements-graves-en-cause/1393366/</guid>
       <enclosure url="https://businessnews.com.tn/wp-content/uploads/2026/03/UADH-240326.jpg" length="0" type="image/jpeg"/>
       <pubDate>Tue, 24 Mar 2026 16:23:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Morning Headlines</title>
+      <link>https://www.businessnews.com.au/article/Morning-Headlines-3142</link>
+      <description>Forrest, BHP lock horns over rebate</description>
+      <guid isPermaLink="false">https://www.businessnews.com.au/article/Morning-Headlines-3142</guid>
+      <enclosure url="https://www.businessnews.com.au/sites/default/files/2026-03/Morning-Headlines-6930-LightBlue_13_15.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 21:45:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wall St indexes fall on worries about Middle East</title>
+      <link>https://www.businessnews.com.au/article/Wall-St-indexes-fall-on-worries-about-Middle-East-war</link>
+      <description>Wall Street indexes lost ground in Tuesday's volatile session as investors swayed between fears ‌of rising oil prices and hopes for a resolution to the US-Israeli war on Iran.</description>
+      <guid isPermaLink="false">https://www.businessnews.com.au/article/Wall-St-indexes-fall-on-worries-about-Middle-East-war</guid>
+      <enclosure url="https://www.businessnews.com.au/sites/default/files/aap_article_20260320110709074226.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 23:59:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Australian shares soar on Middle East ceasefire hopes</title>
+      <link>https://www.businessnews.com.au/article/Australian-shares-soar-on-Middle-East-ceasefire-hopes</link>
+      <description>The local share market has had its best day in almost a year, after reports the US is seeking a ceasefire with Iran buoyed investor sentiment.</description>
+      <guid isPermaLink="false">https://www.businessnews.com.au/article/Australian-shares-soar-on-Middle-East-ceasefire-hopes</guid>
+      <enclosure url="https://www.businessnews.com.au/sites/default/files/aap_article_20251021130556172080.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Mar 2026 08:00:20 +0000</pubDate>
     </item>
   </channel>
 </rss>

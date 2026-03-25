@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>KOŠICE:DNES - Article Feed</title>
+    <title>Košice Dnes - Article Feed</title>
     <link>https://swelbyboy.github.io/prospect-rss-feeds/košice-dnes.xml</link>
-    <description>Latest articles from KOŠICE:DNES (kosicednes.sk)</description>
+    <description>Latest articles from Košice Dnes (kosicednes.sk)</description>
     <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/košice-dnes.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 19:01:33 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 16:10:41 +0000</lastBuildDate>
     <item>
       <title>Horoskop na tento týždeň (23.3. – 29.3.2026) - KOŠICE:DNES</title>
       <link>https://kosicednes.sk/horoskopy/horoskop-na-tento-tyzden-23-3-29-3-2026/</link>
@@ -76,9 +76,9 @@
     <item>
       <title>Polícia pátra po nezvestnej 12-ročnej Victórii z Košíc - KOŠICE:DNES</title>
       <link>https://kosicednes.sk/spravy/policia-patra-po-nezvestnej-12-rocnej-victorii-z-kosic/</link>
-      <description>Pátranie po nezvestnej maloletej osobe vyhlásili policajti z okresu Košice – okolie. Nezvestnou je 12-ročná Viktória Magyarová, po ktorej bolo pátranie vyhlásené v pondelok 23. marca 2026.</description>
+      <description>Pátranie po nezvestnej maloletej osobe vyhlásili policajti z okresu Košice – okolie. Nezvestnou je 12-ročná Viktória M., po ktorej bolo pátranie vyhlásené v pondelok 23. marca 2026.</description>
       <guid isPermaLink="false">https://kosicednes.sk/spravy/policia-patra-po-nezvestnej-12-rocnej-victorii-z-kosic/</guid>
-      <enclosure url="https://kosicednes.sk/wp-content/uploads/2026/03/patranieMAGYAROVA.jpg" length="0" type="image/jpeg"/>
+      <enclosure url="https://kosicednes.sk/wp-content/uploads/2024/10/Untitled-2.png" length="0" type="image/png"/>
       <pubDate>Tue, 24 Mar 2026 09:13:28 +0000</pubDate>
     </item>
     <item>
@@ -88,6 +88,30 @@
       <guid isPermaLink="false">https://kosicednes.sk/spravy/slovensko/kosice/anketa-sportova-osobnost-kosic-2025-spoznala-svojho-absolutneho-vitaza/</guid>
       <enclosure url="https://kosicednes.sk/wp-content/uploads/2026/03/Zuzana_Pankova.webp" length="0" type="image/webp"/>
       <pubDate>Tue, 24 Mar 2026 09:38:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Predpoveď počasia na dnešný deň (25.3.2026) - KOŠICE:DNES</title>
+      <link>https://kosicednes.sk/pocasie/predpoved-pocasia-na-dnesny-den-25-3-2026/</link>
+      <description>Streda prinesie teploty až do 20 stupňov, večer sa môže zatiahnuť.</description>
+      <guid isPermaLink="false">https://kosicednes.sk/pocasie/predpoved-pocasia-na-dnesny-den-25-3-2026/</guid>
+      <enclosure url="https://kosicednes.sk/wp-content/uploads/2022/08/pocasie4.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Mar 2026 09:03:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Výroba v košickom závode Volvo sa blíži. Skúšobnú prevádzku spustia už tento rok - KOŠICE:DNES</title>
+      <link>https://kosicednes.sk/spravy/slovensko/kosice/vyroba-v-kosickom-zavode-volvo-sa-blizi-skusobnu-prevadzku-spustia-uz-tento-rok/</link>
+      <description>Prípravy na spustenie výroby v novom závode automobilky Volvo pri Košiciach vstupujú do záverečnej fázy. Spoločnosť potvrdila, že skúšobná prevádzka by sa mala začať približne v polovici tohto roka. V areáli s rozlohou viac ako 300-tisíc metrov štvorcových aktuálne dokončujú stavebné práce a prebieha intenzívna inštalácia technológií.</description>
+      <guid isPermaLink="false">https://kosicednes.sk/spravy/slovensko/kosice/vyroba-v-kosickom-zavode-volvo-sa-blizi-skusobnu-prevadzku-spustia-uz-tento-rok/</guid>
+      <enclosure url="https://kosicednes.sk/wp-content/uploads/2026/03/Volvo_kosice-e1774431772205.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Mar 2026 10:05:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Moderná liečba myómov v Košiciach napreduje. UNLP hlási významný míľnik - KOŠICE:DNES</title>
+      <link>https://kosicednes.sk/spravy/slovensko/kosice/moderna-liecba-myomov-v-kosiciach-napreduje-unlp-hlasi-vyznamny-milnik/</link>
+      <description>Univerzitná nemocnica L. Pasteura v Košiciach dosiahla významný posun v liečbe myómov maternice. Za uplynulých deväť mesiacov tu metódou MYOBLATE úspešne vykonali 110 rádiofrekvenčných ablácií, čo potvrdzuje rastúci význam miniinvazívnych zákrokov v gynekológii.</description>
+      <guid isPermaLink="false">https://kosicednes.sk/spravy/slovensko/kosice/moderna-liecba-myomov-v-kosiciach-napreduje-unlp-hlasi-vyznamny-milnik/</guid>
+      <enclosure url="https://kosicednes.sk/wp-content/uploads/2025/06/myoblate-1024x682-1.webp" length="0" type="image/webp"/>
+      <pubDate>Wed, 25 Mar 2026 15:42:46 +0000</pubDate>
     </item>
   </channel>
 </rss>
