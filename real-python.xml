@@ -8,77 +8,86 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2026 07:03:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 14:18:27 +0000</lastBuildDate>
     <item>
-      <title>Quiz: Duck Typing in Python: Writing Flexible and Decoupled Code</title>
-      <link>https://realpython.com/quizzes/duck-typing-python/</link>
-      <description>Check your grasp of Python's duck typing. Recognize behavior-based interfaces, use protocols and special methods, and know alternatives. Try the quiz.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/duck-typing-python/</guid>
-      <pubDate>Tue, 03 Mar 2026 12:00:00 +0000</pubDate>
+      <title>Downloading Files From URLs With Python – Real Python</title>
+      <link>https://realpython.com/courses/downloading-files-urls/</link>
+      <description>Learn to download files from URLs with Python using urllib and requests, including data streaming for large files.</description>
+      <guid isPermaLink="false">https://realpython.com/courses/downloading-files-urls/</guid>
+      <enclosure url="https://files.realpython.com/media/How-to-Download-a-File-from-the-Web-with-Python_Watermarked.2a06d1dfb892.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 17 Mar 2026 14:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>What Does Python's __init__.py Do?</title>
-      <link>https://realpython.com/courses/init-py/</link>
-      <description>Learn how Python's __init__.py declares packages, initializes variables, simplifies imports, and controls what gets exported.</description>
-      <guid isPermaLink="false">https://realpython.com/courses/init-py/</guid>
-      <pubDate>Tue, 03 Mar 2026 14:00:00 +0000</pubDate>
+      <title>Exploring Basic Data Types in Python Quiz – Real Python</title>
+      <link>https://realpython.com/quizzes/python-basic-data-types/</link>
+      <description>Test your understanding of Python data types and built-in functions to write clearer, more reliable code.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/python-basic-data-types/</guid>
+      <enclosure url="https://files.realpython.com/media/Basic-Data-Types-in-Python_Watermarked.e3dd34457952.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Mar 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Quiz: Build Your Weekly Python Study Schedule: 7 Days to Consistent Progress</title>
-      <link>https://realpython.com/quizzes/weekly-study-schedule/</link>
-      <description>Build a consistent Python study habit with a repeatable 7-day plan. Learn to set specific goals, schedule your week, and make practice stick.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/weekly-study-schedule/</guid>
-      <pubDate>Wed, 04 Mar 2026 12:00:00 +0000</pubDate>
+      <title>Build Your Weekly Python Study Schedule: 7 Days to Consistent Progress – Real Python</title>
+      <link>https://realpython.com/weekly-study-schedule/</link>
+      <description>Create a weekly Python study schedule you can stick to. Build a realistic 7-day plan, stay consistent, and turn learning Python into a sustainable habit.</description>
+      <guid isPermaLink="false">https://realpython.com/weekly-study-schedule/</guid>
+      <enclosure url="https://files.realpython.com/media/Build-Your-Python-Weekly-Study-Schedule-7-Days-to-Consistent-Progress_Watermarked.d8098e8b5692.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Mar 2026 14:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How to Use the OpenRouter API to Access Multiple AI Models via Python</title>
-      <link>https://realpython.com/openrouter-api/</link>
-      <description>Access models from popular AI providers in Python through OpenRouter's unified API with smart routing, fallbacks, and cost controls.</description>
-      <guid isPermaLink="false">https://realpython.com/openrouter-api/</guid>
-      <enclosure url="https://files.realpython.com/media/open-router-multiple-AI-models-screenshot.adfb5097125a.png" length="0" type="image/png"/>
-      <pubDate>Wed, 04 Mar 2026 14:00:00 +0000</pubDate>
+      <title>How to Add Python to PATH Quiz – Real Python</title>
+      <link>https://realpython.com/quizzes/add-python-to-path/</link>
+      <description>Test your knowledge of the PATH variable and learn how to add Python on Windows, Linux, and macOS for easy terminal access.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/add-python-to-path/</guid>
+      <enclosure url="https://files.realpython.com/media/How-to-Add-Python-to-PATH_Watermarked.567376e2aed0.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Mar 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Quiz: How to Use the OpenRouter API to Access Multiple AI Models via Python</title>
-      <link>https://realpython.com/quizzes/openrouter-api/</link>
-      <description>Test your Python skills with OpenRouter: learn unified API access, model switching, provider routing, and fallback strategies.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/openrouter-api/</guid>
-      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
+      <title>Python Decorators 101 Quiz – Real Python</title>
+      <link>https://realpython.com/quizzes/python-decorators-101/</link>
+      <description>Work through this quiz to review first-class functions, inner functions, and decorators, and learn how to use them to extend behavior cleanly in Python.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/python-decorators-101/</guid>
+      <enclosure url="https://files.realpython.com/media/Primer-on-Python-Decorators_Watermarked.d0da542fa3fc.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Mar 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Quiz: Spyder: Your IDE for Data Science Development in Python</title>
-      <link>https://realpython.com/quizzes/spyder-ide/</link>
-      <description>Test your knowledge of the Spyder IDE for Python data science, including its Variable Explorer, Plots pane, and Profiler.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/spyder-ide/</guid>
-      <pubDate>Thu, 05 Mar 2026 12:00:00 +0000</pubDate>
+      <title>Episode #288: Automate Exploratory Data Analysis &amp;amp; Invent Python Comprehensions – The Real Python Podcast</title>
+      <link>https://realpython.com/podcasts/rpp/288/</link>
+      <description>How do you quickly get an understanding of what's inside a new set of data? How can you share an exploratory data analysis with your team? Christopher Trudeau is back on the show this week with another batch of PyCoder's Weekly articles and projects.</description>
+      <guid isPermaLink="false">https://realpython.com/podcasts/rpp/288/</guid>
+      <enclosure url="https://files.realpython.com/media/E_288_Podcast_Title.152523286eb6.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Mar 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Quiz: Python Stacks, Queues, and Priority Queues in Practice</title>
-      <link>https://realpython.com/quizzes/queue-in-python/</link>
-      <description>Test your knowledge of stacks, queues, deques, and priority queues with practical questions and Python coding exercises.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/queue-in-python/</guid>
-      <pubDate>Fri, 06 Mar 2026 12:00:00 +0000</pubDate>
+      <title>Strings and Character Data in Python Quiz – Real Python</title>
+      <link>https://realpython.com/quizzes/python-strings-characters/</link>
+      <description>Test your Python string and bytes knowledge! Explore immutability, f-strings, indexing, string methods, and bytes() usage.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/python-strings-characters/</guid>
+      <enclosure url="https://files.realpython.com/media/Strings-and-Character-Data-in-Python_Watermarked.797803948b10.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Quiz: Pydantic AI: Build Type-Safe LLM Agents in Python</title>
-      <link>https://realpython.com/quizzes/pydantic-ai/</link>
-      <description>Learn the trade-offs of using Pydantic AI in production, including validation retries, structured outputs, tool usage, and token costs.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/pydantic-ai/</guid>
-      <pubDate>Mon, 09 Mar 2026 12:00:00 +0000</pubDate>
+      <title>How to Use Note-Taking to Learn Python – Real Python</title>
+      <link>https://realpython.com/python-note-taking-guide/</link>
+      <description>Having a hard time retaining information from learning resources? Learn some Python note-taking tips to enhance your learning experience!</description>
+      <guid isPermaLink="false">https://realpython.com/python-note-taking-guide/</guid>
+      <enclosure url="https://files.realpython.com/media/How-to-Use-Note-Taking-to-Learn-Python_Watermarked.b92aea8039f7.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 14:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Quiz: Introduction to Python SQL Libraries</title>
-      <link>https://realpython.com/quizzes/python-sql-libraries/</link>
-      <description>Learn to connect Python to databases, run queries, and manage data using SQLite, PostgreSQL, MySQL, and SQL basics.</description>
-      <guid isPermaLink="false">https://realpython.com/quizzes/python-sql-libraries/</guid>
-      <pubDate>Mon, 09 Mar 2026 12:00:00 +0000</pubDate>
+      <title>Python Modules and Packages: An Introduction Quiz – Real Python</title>
+      <link>https://realpython.com/quizzes/python-modules-packages-introduction/</link>
+      <description>Test your knowledge of Python modules and packages. Learn about imports, namespaces, the dir() function, and more.</description>
+      <guid isPermaLink="false">https://realpython.com/quizzes/python-modules-packages-introduction/</guid>
+      <enclosure url="https://files.realpython.com/media/Python-Best-Practices_Watermarked.0d6bf5b46881.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Python Gains frozendict and Other Python News for March 2026</title>
-      <link>https://realpython.com/python-news-march-2026/</link>
-      <description>Catch up on the latest Python news: frozendict joins the built-ins, Django patches SQL injections, and AI SDKs race to add WebSocket transport.</description>
-      <guid isPermaLink="false">https://realpython.com/python-news-march-2026/</guid>
-      <pubDate>Mon, 09 Mar 2026 14:00:00 +0000</pubDate>
+      <title>Understanding CRUD Operations in SQL – Real Python</title>
+      <link>https://realpython.com/courses/understanding-crud-operations-sql/</link>
+      <description>Learn how CRUD operations work in SQL by writing raw SQL queries with SQLite and using SQLAlchemy as an ORM in Python.</description>
+      <guid isPermaLink="false">https://realpython.com/courses/understanding-crud-operations-sql/</guid>
+      <enclosure url="https://files.realpython.com/media/What-Are-CRUD-Operations_Watermarked.b243ab2b79cb.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 14:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

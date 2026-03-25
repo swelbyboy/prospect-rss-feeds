@@ -8,76 +8,126 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Mar 2026 06:55:31 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 16:22:06 +0000</lastBuildDate>
     <item>
-      <title>GCC 16 Compiler Aiming For Mid-April Release Candidate But "Slow" Progress On Fixes</title>
-      <link>https://www.phoronix.com/news/GCC-16-RC-Mid-April</link>
-      <description>Richard Biener of SUSE published a new status report on the state of GCC 16 development. Regression fixing has been going slow but they are hoping to publish a release candidate by mid-April...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GCC-16-RC-Mid-April</guid>
-      <pubDate>Mon, 09 Mar 2026 10:28:03 +0000</pubDate>
+      <title>Ubuntu Maker Canonical Joins The Rust Foundation</title>
+      <link>https://www.phoronix.com/news/Canonical-Joins-Rust-Foundation</link>
+      <description>Canonical announced today that they have joined the Rust Foundation as a Gold Member...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Canonical-Joins-Rust-Foundation</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=rust_members" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 10:27:49 +0000</pubDate>
     </item>
     <item>
-      <title>New Rust Driver Aims To Improve Upstream Linux On Synology NAS Devices</title>
-      <link>https://www.phoronix.com/news/Synology-Microp-Linux-Driver</link>
-      <description>A set of patches posted to the Linux kernel mailing list last week introduce a new driver for enhancing the upstream/mainline Linux kernel support for Synology network attached storage (NAS) devices. This new driver is Synology Microp and is making use of the Linux kernel's modern Rust programming language support...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Synology-Microp-Linux-Driver</guid>
-      <pubDate>Mon, 09 Mar 2026 13:08:00 +0000</pubDate>
+      <title>Qt 6.11 Toolkit Released With "The Same 3D Capabilities As A Game Engine"</title>
+      <link>https://www.phoronix.com/news/Qt-6.11-Toolkit</link>
+      <description>Qt 6.11 is out as the latest version of this cross-platform toolkit used by the KDE desktop and widely by both open-source and closed-source applications...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Qt-6.11-Toolkit</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=qt_ssgi" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 10:38:07 +0000</pubDate>
     </item>
     <item>
-      <title>AMD Formally Launches Ryzen AI Embedded P100 Series 8-12 Core Models</title>
-      <link>https://www.phoronix.com/news/AMD-Ryzen-Embedded-P100-Series</link>
-      <description>AMD announced back at CES the Ryzen AI Embedded P100 series with initially the models up to six Zen 5 cores launching while the eight through twelve core models would be available later in H1. Today AMD formally announced those higher-tier Ryzen AI Embedded P100 series parts...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-Ryzen-Embedded-P100-Series</guid>
-      <pubDate>Mon, 09 Mar 2026 14:10:00 +0000</pubDate>
+      <title>Linux's sched_ext Will Prioritize Idle SMT Siblings For Better Performance</title>
+      <link>https://www.phoronix.com/news/Linux-7.1-sched-ext-SMT-Sibling</link>
+      <description>A change to the Linux kernel's extensible scheduler class "sched_ext" for allowing nifty scheduler implementations via BPF programs will begin to prioritize SMT siblings to help with better performance...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.1-sched-ext-SMT-Sibling</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2023&amp;image=cluster_scheduling_v3" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 13:04:00 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA 595 Linux Driver Running Well In Early Benchmarks</title>
-      <link>https://www.phoronix.com/review/nvidia-595-linux</link>
-      <description>Last week NVIDIA released the 595.45.04 beta Linux driver as their first public build in the R595 release branch. The NVIDIA R595 Linux driver is bringing a number of Vulkan driver improvements, HDR enhancements, DRI3 v1.2 support, and a variety of other improvements. Benchmarking the NVIDIA 595.45.04 Linux driver the past few days on GeForce RTX 50 "Blackwell" have been showing some nice incremental performance improvements over the current NVIDIA 590 driver stable series.</description>
-      <guid isPermaLink="false">https://www.phoronix.com/review/nvidia-595-linux</guid>
-      <pubDate>Mon, 09 Mar 2026 14:35:53 +0000</pubDate>
+      <title>Firefox 149 Now Available With XDG Portal File Picker, Rust-Based JPEG-XL Decoder</title>
+      <link>https://www.phoronix.com/news/Mozilla-Firefox-149</link>
+      <description>Firefox 149.0 release binaries are now available with a wide assortment of improvements for this month's update to the cross-platform Mozilla web browser solution...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Mozilla-Firefox-149</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=firefox_149" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 14:06:12 +0000</pubDate>
     </item>
     <item>
-      <title>Intel Publishes XeSS 3 SDK To GitHub - Still As Windows-Only Binaries</title>
-      <link>https://www.phoronix.com/news/Intel-XeSS-3-SDK-GitHub</link>
-      <description>Intel just published the XeSS 3.0 SDK to GitHub as the newest version of their Xe Super Sampling AI-enhanced upscaling technology for gamers. Sadly though it remains proprietary software and only with native support for Windows...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-XeSS-3-SDK-GitHub</guid>
-      <pubDate>Mon, 09 Mar 2026 15:10:43 +0000</pubDate>
+      <title>Cloudflare Details Their Upgrade To EPYC Turin For 2x Throughput, 50% Better Perf/Watt</title>
+      <link>https://www.phoronix.com/news/Cloudflare-Gen13-Server-Turin</link>
+      <description>Cloudflare's technical blog posts about their hardware and software efforts are always a treat to read. Their latest fascinating technical content is on their newest "Gen 13" server platform based around AMD EPYC Turin where they are now achieving 2x throughput and 50% better performance-per-Watt thanks to these latest-generation AMD EPYC server processors paired with software improvements too...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Cloudflare-Gen13-Server-Turin</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=cloudflare_turin" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 19:28:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ubuntu 26.04 LTS Officially Supporting Cloud-Based Authentication With Authd</title>
-      <link>https://www.phoronix.com/news/Ubuntu-26.04-LTS-Authd</link>
-      <description>Canonical for a while has been developing Authd as an authentication service for external cloud-based identity providers. Authd was designed from the ground-up to provide secure management of identity and access for Ubuntu systems while only with next month's Ubuntu 26.04 LTS release is it actually hitting the universe archive...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Ubuntu-26.04-LTS-Authd</guid>
-      <pubDate>Mon, 09 Mar 2026 15:45:53 +0000</pubDate>
+      <title>Patch Posted To Enable Intel FRED By Default On Linux</title>
+      <link>https://www.phoronix.com/news/Intel-FRED-By-Default-Patch</link>
+      <description>Following today's article exploring the performance benefits of Intel Flexible Return and Event Delivery "FRED" with Panther Lake and also pointing out the rather obscure nature of FRED being disabled-by-default, an Intel Linux kernel engineer posted a patch to now enable FRED by default for better performance...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-FRED-By-Default-Patch</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=fred_on" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 21:03:01 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA Adds Official Support For RHEL-Compatible Distributions Like AlmaLinux With CUDA 13.2</title>
-      <link>https://www.phoronix.com/news/NVIDIA-Official-RHEL-Compat</link>
-      <description>With CUDA 13.2 that is now shipping, NVIDIA has provided official support for Red Hat Enterprise Linux compatible distributions/downstreams like AlmaLinux to CUDA. With this official NVIDIA CUDA support for these RHEL-compatible distributions, NVIDIA is also allowing the NVIDIA packages to be distributed directly from the OS package repositories...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-Official-RHEL-Compat</guid>
-      <pubDate>Mon, 09 Mar 2026 18:41:00 +0000</pubDate>
+      <title>GTK3 Toolkit Winding Down To One Release Per Year</title>
+      <link>https://www.phoronix.com/news/GTK3-Annual-Release-Cadence</link>
+      <description>The GTK 4.0 toolkit released in December 2020 while the GTK3 toolkit has continued to be maintained given a lot of software still relying on that older version. GTK 3.24.52 was released yesterday and with this version it's now shifting its release cadence to just one new update per year...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/GTK3-Annual-Release-Cadence</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=gtk3_pulling_back" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 00:21:20 +0000</pubDate>
     </item>
     <item>
-      <title>NVIDIA Releases New R595-Derived Vulkan Developer Beta For Linux With New Features</title>
-      <link>https://www.phoronix.com/news/NVIDIA-595.44.02-Linux-Vulkan</link>
-      <description>Last week NVIDIA released the 595.45.04 Linux driver beta as their first release in the R595 series for Linux and it's running very well in initial testing. Today as part of their Vulkan developer beta program, they have released the NVIDIA 595.44.02 driver that brings some new Vulkan API features...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-595.44.02-Linux-Vulkan</guid>
-      <pubDate>Mon, 09 Mar 2026 20:33:21 +0000</pubDate>
+      <title>NVIDIA Talks Up "Expanding The Open-Source Horizon" Around AI &amp;amp; Kubernetes</title>
+      <link>https://www.phoronix.com/news/NVIDIA-Open-Source-KubeCon-2026</link>
+      <description>KubeCon Europe is running this week in Amsterdam and NVIDIA used the event to talk up their open-source work around AI and newest open-source contributions...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-Open-Source-KubeCon-2026</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=nvidia_dra_oss" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 09:55:26 +0000</pubDate>
     </item>
     <item>
-      <title>There's Hope That At Least Colorado's Age Attestation Bill Could Exclude Open-Source</title>
-      <link>https://www.phoronix.com/news/Colorado-Maybe-Exclude-OSS</link>
-      <description>Last week was a statement by System76 regarding recent age verification laws in California and Colorado among other US states that could have a profound impact on Linux distributions and other open-source software. The Colorado legislation is especially pressing to System76 considering that is where they are based. Fortunately, they aren't taking this lightly and there is some hope that at least in Colorado open-source software could be excluded...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Colorado-Maybe-Exclude-OSS</guid>
-      <pubDate>Mon, 09 Mar 2026 23:07:56 +0000</pubDate>
+      <title>Additional AMD RDNA 4m GPU Targets Coming: GFX1171 &amp;amp; GFX1172</title>
+      <link>https://www.phoronix.com/news/AMD-RDNA-4m-GFX1171-GFX1172</link>
+      <description>Back in February AMD engineers introduced a new GFX1170 GPU target in LLVM for their AMDGPU shader compiler and was marked with new "RDNA 4m" branding. It's part of the GFX11 family associated with RDNA3 but carrying this new "4m" branding. In follow-up commits they made further ISA changes distinguishing it from existing RDNA 3 GPUs. Now there are two more RDNA 4m targets being added...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-RDNA-4m-GFX1171-GFX1172</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=more_rdna4m_1" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 10:10:47 +0000</pubDate>
     </item>
     <item>
-      <title>FreeBSD 14.4 Released For Those Not Yet Ready To Move To FreeBSD 15</title>
-      <link>https://www.phoronix.com/news/FreeBSD-14.4-Released</link>
-      <description>FreeBSD 14.4 is out today as the latest update to the aging FreeBSD 14 series for those not yet ready to upgrade to FreeBSD 15 that debuted as stable last year...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/FreeBSD-14.4-Released</guid>
-      <pubDate>Tue, 10 Mar 2026 00:30:00 +0000</pubDate>
+      <title>OpenBLAS 0.3.32 Brings Improved Detection Of Newer Intel CPUs</title>
+      <link>https://www.phoronix.com/news/OpenBLAS-0.3.32-Released</link>
+      <description>OpenBLAS 0.3.32 is now available for this optimized open-source Basic Linear Algebra Subprograms "BLAS" library. Notable with the OpenBLAS 0.3.32 release is improving CPU auto-detection for newer Intel processors...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/OpenBLAS-0.3.32-Released</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=intel-panther-lake&amp;image=intel_pantherlake_1" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 10:27:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linux 7.1 To Overcome Reporting Limitation For Multiple Batteries Per HID Device</title>
+      <link>https://www.phoronix.com/news/Linux-7.1-Multi-Battery-HID</link>
+      <description>A limitation affecting various gaming headsets, graphic tablets, wireless earbuds, multi-device receivers and more with Linux has been not being able to report multiple batteries per HID device. After patches were proposed last year for dealing with the increasingly common scenario these days of having multiple batteries per device, the upcoming Linux 7.1 kernel is set to address this limitation...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.1-Multi-Battery-HID</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=multi_battery_1" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Krita 6.0 Released With Qt6 Port &amp;amp; Better Wayland Support</title>
+      <link>https://www.phoronix.com/news/Krita-6.0-Released</link>
+      <description>Krita 6.0 debuted today as the Qt6 port of this digital painting program aligned with KDE/Qt development. Krita 6.0 also brings improved Wayland support while Krita 5.3 is being simultaneously released for running on the mature Qt5 toolkit...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Krita-6.0-Released</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=krita_6" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 13:11:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blender Optimization Leads To Twice As Fast Performance With CPU Bottlenecked Scenes</title>
+      <link>https://www.phoronix.com/news/Blender-EEVEE-2x-Perf</link>
+      <description>Proposed code for Blender's EEVEE engine can lead to both the OpenGL and Vulkan performance doubling in instancing-heavy scenes that are CPU bottlenecked...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Blender-EEVEE-2x-Perf</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=blender_eevee_2x" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 13:25:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA 595.58.03 Linux Driver Debuts As Stable R595 Build</title>
+      <link>https://www.phoronix.com/news/NVIDIA-595.58.03-Linux</link>
+      <description>Building off the NVIDIA 595.45.04 Linux beta driver that brought DRI3 v1.2 support and new Vulkan capabilities, the NVIDIA 595.58.03 Linux driver released this morning as the first stable Linux driver build in the R595 release branch...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-595.58.03-Linux</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=nvidia-595-linux&amp;image=nvidia_595_linux_2" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 14:00:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pop!_OS 24.04 vs. Ubuntu 24.04 LTS vs. Ubuntu 26.04 Development Benchmarks</title>
+      <link>https://www.phoronix.com/review/popos-2404-ubuntu-2604</link>
+      <description>While having the new System76 Thelio Mira desktop in the lab, I took the opportunity to run some benchmarks to see how Pop!_OS 24.04 is currently performing relative to Ubuntu 24.04 LTS for which it is based as well as looking ahead at how Ubuntu 26.04 LTS in its current near-final development form is looking on the same hardware.</description>
+      <guid isPermaLink="false">https://www.phoronix.com/review/popos-2404-ubuntu-2604</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=popos-2404-ubuntu-2604&amp;image=popos_mira_1" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 14:45:40 +0000</pubDate>
     </item>
   </channel>
 </rss>
