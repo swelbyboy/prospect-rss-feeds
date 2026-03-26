@@ -285,17 +285,30 @@ class ProspectScraper:
         return tracking_entry
 
     def save_tracking(self):
-        """Save tracking data to CSV file."""
+        """Merge current run results into tracking.csv, updating existing rows by domain."""
+        fieldnames = [
+            'prospect_id', 'company_name', 'domain', 'last_scrape_date',
+            'status', 'articles_found', 'rss_url', 'error_message'
+        ]
         try:
+            # Load existing tracking data keyed by domain
+            existing = {}
+            if os.path.exists(Config.TRACKING_CSV):
+                with open(Config.TRACKING_CSV, 'r', encoding='utf-8') as f:
+                    for row in csv.DictReader(f):
+                        d = row.get('domain', '')
+                        if d:
+                            existing[d] = row
+
+            # Overwrite with current run results
+            for entry in self.tracking_data:
+                existing[entry.get('domain', '')] = entry
+
             with open(Config.TRACKING_CSV, 'w', encoding='utf-8', newline='') as f:
-                fieldnames = [
-                    'prospect_id', 'company_name', 'domain', 'last_scrape_date',
-                    'status', 'articles_found', 'rss_url', 'error_message'
-                ]
-                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
                 writer.writeheader()
-                writer.writerows(self.tracking_data)
-            print(f"\n💾 Tracking data saved to {Config.TRACKING_CSV}")
+                writer.writerows(existing.values())
+            print(f"\n💾 Tracking data saved ({len(existing)} total entries)")
         except Exception as e:
             print(f"\n❌ Error saving tracking data: {e}")
 
