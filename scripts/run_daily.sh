@@ -105,7 +105,7 @@ push_to_ghpages() {
     cd gh-pages-dir
     git config user.name "VPS Bot"
     git config user.email "actions@github.com"
-    git add .
+    git add -f *.xml index.html .nojekyll
     if git diff --staged --quiet; then
         echo "No feed changes to publish" | tee -a "$LOG_FILE"
     else
