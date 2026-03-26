@@ -7,10 +7,16 @@ MAX_DAILY_PROSPECTS="${MAX_DAILY_PROSPECTS:-12000}"
 
 mkdir -p /root/logs
 
-# Prevent concurrent runs
+# Prevent concurrent runs (clear stale lock if PID no longer exists)
 if [ -f "$LOCK_FILE" ]; then
-    echo "$(date -u): Another run is already in progress (lock: $LOCK_FILE). Exiting." | tee -a "$LOG_FILE"
-    exit 0
+    LOCK_PID=$(cat "$LOCK_FILE")
+    if kill -0 "$LOCK_PID" 2>/dev/null; then
+        echo "$(date -u): Another run is already in progress (PID $LOCK_PID). Exiting." | tee -a "$LOG_FILE"
+        exit 0
+    else
+        echo "$(date -u): Removing stale lock (PID $LOCK_PID no longer running)." | tee -a "$LOG_FILE"
+        rm -f "$LOCK_FILE"
+    fi
 fi
 echo $$ > "$LOCK_FILE"
 trap "rm -f $LOCK_FILE" EXIT
@@ -105,7 +111,7 @@ push_to_ghpages() {
     cd gh-pages-dir
     git config user.name "VPS Bot"
     git config user.email "actions@github.com"
-    git add -f *.xml index.html .nojekyll
+    git add -f '*.xml' index.html .nojekyll
     if git diff --staged --quiet; then
         echo "No feed changes to publish" | tee -a "$LOG_FILE"
     else
