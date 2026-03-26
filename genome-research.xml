@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Genome Research - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/genome-research.xml</link>
+    <description>Latest articles from Genome Research (genome.cshlp.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/genome-research.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 20:29:47 +0000</lastBuildDate>
+    <item>
+      <title>Read-level genotyping of short tandem repeats using long reads and single-nucleotide variation with STRkit [METHOD]</title>
+      <link>http://genome.cshlp.org/cgi/content/short/36/3/578?rss=1</link>
+      <description>Variation in short tandem repeats (STRs) is implicated in Mendelian disease and complex traits but can be difficult to resolve with short-read genome sequencing. We present STRkit, a software package for genotyping STRs using long-read sequencing (LRS) that uses proximate single-nucleotide variants to improve genotyping accuracy without a priori haplotype information. We show that STRkit has unique strengths versus other methods: It can use data from both major LRS technologies (Pacific Bioscien</description>
+      <guid isPermaLink="false">http://genome.cshlp.org/cgi/content/short/36/3/578?rss=1</guid>
+      <pubDate>Mon, 02 Mar 2026 17:17:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gene duplication is associated with gene diversification and potential neofunctionalization in lung cancer evolution [METHOD]</title>
+      <link>http://genome.cshlp.org/cgi/content/short/36/3/561?rss=1</link>
+      <description>Tumors evolve through a process of selection on somatic mutations, driving cell division and tissue growth through aberrations in cell-cycle control. In non-small-cell lung cancer (NSCLC), genome instability occurs early in tumor growth, resulting in pronounced intratumor heterogeneity, including changes in gene copy number, and whole-genome doubling (WGD) in ~75% of tumors. Gene duplication, genetic drift, and selection mediate functional diversification during evolution. In this study, we seek</description>
+      <guid isPermaLink="false">http://genome.cshlp.org/cgi/content/short/36/3/561?rss=1</guid>
+      <pubDate>Mon, 02 Mar 2026 17:17:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chromosome engineering to correct a complex rearrangement on Chromosome 8 reveals the effects of 8p syndrome on gene expression and neural differentiation [METHOD]</title>
+      <link>http://genome.cshlp.org/cgi/content/short/36/3/547?rss=1</link>
+      <description>Chromosomal rearrangements on the short arm of Chromosome 8 cause 8p syndrome, a rare developmental disorder characterized by neurodevelopmental delays, epilepsy, and cardiac abnormalities. Although significant progress has been made in managing the symptoms of 8p syndrome and other conditions caused by large-scale chromosomal aneuploidies, no therapeutic approach has yet been demonstrated to target the underlying disease-causing chromosome. Here, we establish a two-step approach to eliminate th</description>
+      <guid isPermaLink="false">http://genome.cshlp.org/cgi/content/short/36/3/547?rss=1</guid>
+      <pubDate>Mon, 02 Mar 2026 17:17:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>A spectral component approach leveraging identity-by-descent graphs to address recent population structure in genomic analysis [METHOD]</title>
+      <link>http://genome.cshlp.org/cgi/content/short/36/3/534?rss=1</link>
+      <description>Population structure is a well-known confounder in statistical genetics, particularly in genome-wide association studies (GWAS), in which it can lead to inflated test statistics and spurious associations. Traditional methods, such as principal components (PCs), commonly used to adjust for population structure, are limited in capturing fine-scale, nonlinear patterns that arise from recent demographic events, patterns that are crucial for understanding rare variant effects. To address this challen</description>
+      <guid isPermaLink="false">http://genome.cshlp.org/cgi/content/short/36/3/534?rss=1</guid>
+      <pubDate>Mon, 02 Mar 2026 17:17:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Natural diversity of telomere length distributions across 100 Saccharomyces cerevisiae strains [RESEARCH]</title>
+      <link>http://genome.cshlp.org/cgi/content/short/36/3/522?rss=1</link>
+      <description>Telomeres gradually shorten at each cell division, and telomerase counteracts this shortening by elongating telomere sequences. This dynamic balance between elongation and shortening results in a steady-state telomere length (TL) distribution. Here, we develop a method for detecting telomeric sequences in Saccharomyces cerevisiae genomes from raw Oxford Nanopore Technologies (ONT) sequencing reads, providing a comprehensive view of TL distributions both genome-wide and at individual chromosome e</description>
+      <guid isPermaLink="false">http://genome.cshlp.org/cgi/content/short/36/3/522?rss=1</guid>
+      <pubDate>Mon, 02 Mar 2026 17:17:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pangenome analysis reveals families of ubiquitin-ligase adaptors as key genomic divergence drivers that lead to hybrid incompatibility [RESEARCH]</title>
+      <link>http://genome.cshlp.org/cgi/content/short/36/3/506?rss=1</link>
+      <description>Understanding how genomic divergence drives biodiversity remains a central question in evolutionary biology. The nematodes Caenorhabditis briggsae and its sister species Caenorhabditis nigoni provide an ideal model system to address this question, as they exhibit extensive genomic divergence with limited gene flow from C. briggsae to C. nigoni. Despite previous comparative genomic studies, a comprehensive analysis of both conspecific and interspecific variations, and their potential impact on hy</description>
+      <guid isPermaLink="false">http://genome.cshlp.org/cgi/content/short/36/3/506?rss=1</guid>
+      <pubDate>Mon, 02 Mar 2026 17:17:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transposable elements contribute to the evolution of host shift-related genes in cactophilic Drosophila species [RESEARCH]</title>
+      <link>http://genome.cshlp.org/cgi/content/short/36/3/487?rss=1</link>
+      <description>Host shifts in insects are considered a key process with the potential to contribute to reproductive isolation and speciation. Both genomic and transcriptomic variation are attributed to such a process, in which gene families with functions associated with host localization, acceptance, and usage are proposed to evolve. In this context, cactophilic Drosophila species serve as an excellent model to study host shift evolution, because they use a wide range of cacti as hosts, and many species displ</description>
+      <guid isPermaLink="false">http://genome.cshlp.org/cgi/content/short/36/3/487?rss=1</guid>
+      <pubDate>Mon, 02 Mar 2026 17:17:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Degrees of convergent evolution in rodent adaptations to arid environments [RESEARCH]</title>
+      <link>http://genome.cshlp.org/cgi/content/short/36/3/472?rss=1</link>
+      <description>Species adapting to a similar lifestyle may undergo convergent changes in organ structure and cellular function, themselves relying or not on these convergent genetic changes. The extent of genomic convergence is thus debated and may further depend on the interplay between temporal factors, such as species relatedness or the age of the transition. Rodents have repeatedly adapted to life in arid conditions, notably with altered renal morphology and physiology. By analyzing kidney transcriptomes f</description>
+      <guid isPermaLink="false">http://genome.cshlp.org/cgi/content/short/36/3/472?rss=1</guid>
+      <pubDate>Mon, 02 Mar 2026 17:17:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Assessing the readiness of Oxford Nanopore sequencing for clinical genomics applications [RESEARCH]</title>
+      <link>http://genome.cshlp.org/cgi/content/short/36/3/460?rss=1</link>
+      <description>Long-read sequencing (LRS) technologies, namely, Oxford Nanopore Technologies (ONT) and Pacific Biosciences (PacBio), have emerged as promising solutions to overcome the limitations of short-read sequencing (SRS). Nevertheless, the still higher sequencing error rates compared with SRS, need for customized pipelines, rapidly updating software, and incipient scalability continue to present challenges for adopting ONT in standard clinical practice. Here we assess the performance of ONT (R9 and R10</description>
+      <guid isPermaLink="false">http://genome.cshlp.org/cgi/content/short/36/3/460?rss=1</guid>
+      <pubDate>Mon, 02 Mar 2026 17:17:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>A systematic guide for identifying transcription factors that directly regulate the expression of a gene of interest [REVIEW]</title>
+      <link>http://genome.cshlp.org/cgi/content/short/36/3/433?rss=1</link>
+      <description>Transcriptional regulation lies at the heart of cellular identity and function, hinging on the precise binding of transcription factors (TFs) and cofactors to gene regulatory elements such as promoters and enhancers. Although it is relatively routine to profile genome-wide DNA binding landscapes of proteins, identifying the specific proteins that bind to, and regulate the transcription of, a particular gene of interest (GOI) remains a persistent experimental and conceptual challenge. This gene-c</description>
+      <guid isPermaLink="false">http://genome.cshlp.org/cgi/content/short/36/3/433?rss=1</guid>
+      <pubDate>Mon, 02 Mar 2026 17:17:13 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

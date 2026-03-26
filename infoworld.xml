@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>InfoWorld - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/infoworld.xml</link>
+    <description>Latest articles from InfoWorld (infoworld.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/infoworld.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 16:13:49 +0000</lastBuildDate>
+    <item>
+      <title>Google’s Stitch UI design tool is now AI-powered</title>
+      <link>https://www.infoworld.com/article/4148216/googles-stitch-ui-design-tool-is-now-ai-powered.html</link>
+      <description>Letting AI write code is no longer enough: Now Google wants it to take over the interface design too.</description>
+      <guid isPermaLink="false">https://www.infoworld.com/article/4148216/googles-stitch-ui-design-tool-is-now-ai-powered.html</guid>
+      <enclosure url="https://www.infoworld.com/wp-content/uploads/2026/03/4148216-0-86990800-1774027177-shutterstock_2401223205.jpg?quality=50&amp;amp;strip=all&amp;amp;w=1024" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Mar 2026 17:19:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI’s desktop superapp: The end of ChatGPT as we know it?</title>
+      <link>https://www.infoworld.com/article/4148232/openais-desktop-superapp-the-end-of-chatgpt-as-we-know-it-2.html</link>
+      <description>A product consolidation raises bigger questions about where OpenAI is really headed.</description>
+      <guid isPermaLink="false">https://www.infoworld.com/article/4148232/openais-desktop-superapp-the-end-of-chatgpt-as-we-know-it-2.html</guid>
+      <enclosure url="https://www.infoworld.com/wp-content/uploads/2026/03/4148232-0-18346400-1774029748-shutterstock_2525341257.jpg?quality=50&amp;amp;strip=all&amp;amp;w=1024" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Mar 2026 18:02:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>The agent security mess</title>
+      <link>https://www.infoworld.com/article/4148328/the-agent-security-mess.html</link>
+      <description>Humans don’t use most of their granted permissions, but agents will—and the results will be disastrous.</description>
+      <guid isPermaLink="false">https://www.infoworld.com/article/4148328/the-agent-security-mess.html</guid>
+      <enclosure url="https://www.infoworld.com/wp-content/uploads/2026/03/4148328-0-20434100-1774256670-shutterstock_2649850199.jpg?quality=50&amp;amp;strip=all&amp;amp;w=1024" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to land a software development job in an AI-focused world</title>
+      <link>https://www.infoworld.com/article/4147116/how-to-land-a-software-development-job-in-an-ai-focused-world.html</link>
+      <description>AI isn’t eliminating software developers, but it is changing what matters to hiring managers. Here’s our guide to landing a software development job in a rapidly shifting landscape.</description>
+      <guid isPermaLink="false">https://www.infoworld.com/article/4147116/how-to-land-a-software-development-job-in-an-ai-focused-world.html</guid>
+      <enclosure url="https://www.infoworld.com/wp-content/uploads/2026/03/4147116-0-13825000-1774256549-Job-shutterstock_2281008567.jpg?quality=50&amp;amp;strip=all&amp;amp;w=1024" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VS Code now updates weekly</title>
+      <link>https://www.infoworld.com/article/4148904/vs-code-now-updates-weekly.html</link>
+      <description>Agents, browser debugging, and deprecation of Edit Mode are all highlighted in the latest versions of the popular code editor.</description>
+      <guid isPermaLink="false">https://www.infoworld.com/article/4148904/vs-code-now-updates-weekly.html</guid>
+      <enclosure url="https://www.infoworld.com/wp-content/uploads/2026/03/4148904-0-87048400-1774343137-shutterstock_767539465-100963105-orig.jpg?quality=50&amp;amp;strip=all&amp;amp;w=1024" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When Windows 11 sneezes, Azure catches cold</title>
+      <link>https://www.infoworld.com/article/4148843/when-windows-11-sneezes-azure-catches-cold.html</link>
+      <description>Microsoft may want to see the Windows 11 backlash as just a desktop problem, but platform erosion on the client side can quickly become a cloud revenue problem.</description>
+      <guid isPermaLink="false">https://www.infoworld.com/article/4148843/when-windows-11-sneezes-azure-catches-cold.html</guid>
+      <enclosure url="https://www.infoworld.com/wp-content/uploads/2026/03/4148843-0-79969600-1774343122-shutterstock_369352730.jpg?quality=50&amp;amp;strip=all&amp;amp;w=1024" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Designing self-healing microservices with recovery-aware redrive frameworks</title>
+      <link>https://www.infoworld.com/article/4148718/designing-self-healing-microservices-with-recovery-aware-redrive-frameworks.html</link>
+      <description>Stop letting basic retries crash your system; this redrive framework waits for services to recover before replaying failed requests to keep everything stable.</description>
+      <guid isPermaLink="false">https://www.infoworld.com/article/4148718/designing-self-healing-microservices-with-recovery-aware-redrive-frameworks.html</guid>
+      <enclosure url="https://www.infoworld.com/wp-content/uploads/2026/03/4148718-0-06094500-1774343000-mathieu-stern-tv7GF92ZWvs-unsplash.jpg?quality=50&amp;amp;strip=all&amp;amp;w=1024" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>7 safeguards for observable AI agents</title>
+      <link>https://www.infoworld.com/article/4140832/7-safeguards-for-observable-ai-agents.html</link>
+      <description>Devops teams must implement observability standards now to avoid the coming wave of AI technical debt.</description>
+      <guid isPermaLink="false">https://www.infoworld.com/article/4140832/7-safeguards-for-observable-ai-agents.html</guid>
+      <enclosure url="https://www.infoworld.com/wp-content/uploads/2026/03/4140832-0-96507500-1774343056-Observability-Blog-Image.png?w=1024" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An architecture for engineering AI context</title>
+      <link>https://www.infoworld.com/article/4139523/an-architecture-for-engineering-ai-context.html</link>
+      <description>The challenge is not how much context an AI system can hold at once, but how intelligently it can decide what context matters for any given action.</description>
+      <guid isPermaLink="false">https://www.infoworld.com/article/4139523/an-architecture-for-engineering-ai-context.html</guid>
+      <enclosure url="https://www.infoworld.com/wp-content/uploads/2026/03/4139523-0-88498900-1774342972-shutterstock_2102457385.jpg?quality=50&amp;amp;strip=all&amp;amp;w=1024" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New ‘StoatWaffle’ malware 
+auto‑executes attacks on developers</title>
+      <link>https://www.infoworld.com/article/4149285/new-stoatwaffle-malware-auto%e2%80%91executes-attacks-on-developers-2.html</link>
+      <description>The newly observed malware abuses VS Code’s “runOn:folderOpen” feature to execute automatically from trusted projects, enabling near-frictionless compromise.</description>
+      <guid isPermaLink="false">https://www.infoworld.com/article/4149285/new-stoatwaffle-malware-auto%e2%80%91executes-attacks-on-developers-2.html</guid>
+      <enclosure url="https://www.infoworld.com/wp-content/uploads/2026/03/4149285-0-66328400-1774353711-shutterstock_680076340.jpg?quality=50&amp;amp;strip=all&amp;amp;w=1024" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 12:01:35 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

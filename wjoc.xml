@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>WJOC - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/wjoc.xml</link>
+    <description>Latest articles from WJOC (wjoc.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/wjoc.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 21:21:25 +0000</lastBuildDate>
+    <item>
+      <title>Lorem ipsum</title>
+      <link>https://wjoc.com/lorem-ipsum-3/</link>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat […]</description>
+      <guid isPermaLink="false">https://wjoc.com/lorem-ipsum-3/</guid>
+      <pubDate>Fri, 10 Dec 2021 09:45:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hello world!</title>
+      <link>https://wjoc.com/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://wjoc.com/hello-world/</guid>
+      <pubDate>Tue, 15 Aug 2023 19:07:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

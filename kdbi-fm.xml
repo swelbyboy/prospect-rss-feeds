@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>KDBI-FM - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/kdbi-fm.xml</link>
+    <description>Latest articles from KDBI-FM (lagrand1063.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/kdbi-fm.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 01:28:46 +0000</lastBuildDate>
+    <item>
+      <title>Blog Post One</title>
+      <link>https://lagrand1063.com//blog-post-one</link>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</description>
+      <guid isPermaLink="false">https://lagrand1063.com//blog-post-one</guid>
+      <enclosure url="https://content.app-sources.com/s/47683320723204971/uploads/Images/ian-dooley-331063-3309994.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 20 Jan 2016 11:27:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blog Post Two</title>
+      <link>https://lagrand1063.com//blog-post-two</link>
+      <description>This summary will show on Blog list page</description>
+      <guid isPermaLink="false">https://lagrand1063.com//blog-post-two</guid>
+      <enclosure url="https://content.app-sources.com/s/47683320723204971/uploads/Images/kari-shea-99868-3309999.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 20 Jan 2016 11:28:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blog Post Three</title>
+      <link>https://lagrand1063.com//blog-post-three</link>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy</description>
+      <guid isPermaLink="false">https://lagrand1063.com//blog-post-three</guid>
+      <enclosure url="https://content.app-sources.com/s/47683320723204971/uploads/Images/nathan-fertig-249917-3310002.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 20 Jan 2016 11:29:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

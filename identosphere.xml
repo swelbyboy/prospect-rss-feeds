@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Identosphere - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/identosphere.xml</link>
+    <description>Latest articles from Identosphere (identosphere.net)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/identosphere.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 23:00:17 +0000</lastBuildDate>
+    <item>
+      <title>too many model context protocol servers and LLM allocations on the dance floor</title>
+      <link>https://simonwillison.net/2025/Aug/22/too-many-mcps/#atom-everything</link>
+      <description>Useful reminder from Geoffrey Huntley of the infrequently discussed significant token cost of using MCP. Geoffrey estimate estimates that the usable context window something like Amp or Cursor is around …</description>
+      <guid isPermaLink="false">https://simonwillison.net/2025/Aug/22/too-many-mcps/#atom-everything</guid>
+      <pubDate>Fri, 22 Aug 2025 17:30:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>A quote from The Bluesky Team</title>
+      <link>https://simonwillison.net/2025/Aug/22/mississippi/#atom-everything</link>
+      <description>Mississippi's approach would fundamentally change how users access Bluesky. The Supreme Court’s recent decision leaves us facing a hard reality: comply with Mississippi’s age assurance law—and make every Mississippi Bluesky …</description>
+      <guid isPermaLink="false">https://simonwillison.net/2025/Aug/22/mississippi/#atom-everything</guid>
+      <pubDate>Fri, 22 Aug 2025 21:36:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek 3.1</title>
+      <link>https://simonwillison.net/2025/Aug/22/deepseek-31/#atom-everything</link>
+      <description>The latest model from DeepSeek, a 685B monster (like DeepSeek v3 before it) but this time it's a hybrid reasoning model. DeepSeek claim: DeepSeek-V3.1-Think achieves comparable answer quality to DeepSeek-R1-0528, …</description>
+      <guid isPermaLink="false">https://simonwillison.net/2025/Aug/22/deepseek-31/#atom-everything</guid>
+      <enclosure url="https://static.simonwillison.net/static/2025/deepseek-3-1-pelican.png" length="0" type="image/png"/>
+      <pubDate>Fri, 22 Aug 2025 22:07:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT release notes: Project-only memory</title>
+      <link>https://simonwillison.net/2025/Aug/22/project-memory/#atom-everything</link>
+      <description>The feature I've most wanted from ChatGPT's memory feature (the newer version of memory that automatically includes relevant details from summarized prior conversations) just landed: With project-only memory enabled, ChatGPT …</description>
+      <guid isPermaLink="false">https://simonwillison.net/2025/Aug/22/project-memory/#atom-everything</guid>
+      <pubDate>Fri, 22 Aug 2025 22:24:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Political Pollsters Are Trying to Save Money by Polling AI Instead of Real People, and It’s Going About as Well as You’d Expect</title>
+      <link>https://werd.io/political-pollsters-are-trying-to-save-money-by-polling-ai-instead-of-real-people-and-its-going-about-as-well-as-youd-expect/</link>
+      <description>"Obviously, any campaign that used only that AI-generated data would miss the mark — instead of looking at the views of real respondents, it would be looking at a funhouse mirror reflection of a demographic cooked up by a language model with no access to actual data."</description>
+      <guid isPermaLink="false">https://werd.io/political-pollsters-are-trying-to-save-money-by-polling-ai-instead-of-real-people-and-its-going-about-as-well-as-youd-expect/</guid>
+      <enclosure url="https://images.unsplash.com/photo-1548192746-dd526f154ed9?crop&amp;#x3D;entropy&amp;amp;cs&amp;#x3D;tinysrgb&amp;amp;fit&amp;#x3D;max&amp;amp;fm&amp;#x3D;jpg&amp;amp;ixid&amp;#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGluZGllfGVufDB8fHx8MTc0OTY5ODcxM3ww&amp;amp;ixlib&amp;#x3D;rb-4.1.0&amp;amp;q&amp;#x3D;80&amp;amp;w&amp;#x3D;2000" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 23 Aug 2025 18:56:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Hotel Model of AI</title>
+      <link>https://doc.searls.com/2025/08/23/the-hotel-model-of-ai/</link>
+      <description>What I like best about Keith Teare’s latest essay, Who Owns The Front Door to AI? If it isn’t you, its game over, is that it sounds like he’s setting up the case for personal AI. …</description>
+      <guid isPermaLink="false">https://doc.searls.com/2025/08/23/the-hotel-model-of-ai/</guid>
+      <enclosure url="https://doc.searls.com/wp-content/uploads/2024/06/not.gif" length="0" type="image/gif"/>
+      <pubDate>Sat, 23 Aug 2025 20:33:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spatial Joins in DuckDB</title>
+      <link>https://simonwillison.net/2025/Aug/23/spatial-joins-in-duckdb/#atom-everything</link>
+      <description>Extremely detailed overview by Max Gabrielsson of DuckDB's new spatial join optimizations. Consider the following query, which counts the number of NYC Citi Bike Trips for each of the neighborhoods …</description>
+      <guid isPermaLink="false">https://simonwillison.net/2025/Aug/23/spatial-joins-in-duckdb/#atom-everything</guid>
+      <pubDate>Sat, 23 Aug 2025 21:21:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Static Sites with Python, uv, Caddy, and Docker</title>
+      <link>https://simonwillison.net/2025/Aug/24/uv-caddy-and-docker/#atom-everything</link>
+      <description>Nik Kantar documents his Docker-based setup for building and deploying mostly static web sites in line-by-line detail. I found this really useful. The Dockerfile itself without comments is just 8 …</description>
+      <guid isPermaLink="false">https://simonwillison.net/2025/Aug/24/uv-caddy-and-docker/#atom-everything</guid>
+      <pubDate>Sun, 24 Aug 2025 08:51:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why You Need Systems Thinking Now</title>
+      <link>https://werd.io/why-you-need-systems-thinking-now/</link>
+      <description>"Focus on flows and relationships, not products or services." An argument for systems thinking instead of design thinking or breakthrough innovation.</description>
+      <guid isPermaLink="false">https://werd.io/why-you-need-systems-thinking-now/</guid>
+      <enclosure url="https://images.unsplash.com/photo-1548192746-dd526f154ed9?crop&amp;#x3D;entropy&amp;amp;cs&amp;#x3D;tinysrgb&amp;amp;fit&amp;#x3D;max&amp;amp;fm&amp;#x3D;jpg&amp;amp;ixid&amp;#x3D;M3wxMTc3M3wwfDF8c2VhcmNofDJ8fGluZGllfGVufDB8fHx8MTc0OTY5ODcxM3ww&amp;amp;ixlib&amp;#x3D;rb-4.1.0&amp;amp;q&amp;#x3D;80&amp;amp;w&amp;#x3D;2000" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 24 Aug 2025 16:42:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Identity Management just isn’t what it used to be</title>
+      <link>https://idm-thoughtplace.blogspot.com/2025/08/identity-management-just-isnt-what-it.html</link>
+      <description>It feels like Identity Management, whether we are discussing managing employee or customer identities, that it’s not just about managing u...</description>
+      <guid isPermaLink="false">https://idm-thoughtplace.blogspot.com/2025/08/identity-management-just-isnt-what-it.html</guid>
+      <pubDate>Sun, 24 Aug 2025 18:17:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

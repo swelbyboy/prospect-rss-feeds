@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>NewsBlur - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/newsblur.xml</link>
+    <description>Latest articles from NewsBlur (blog.newsblur.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/newsblur.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 22:59:27 +0000</lastBuildDate>
+    <item>
+      <title>Ask AI to make sense of the news</title>
+      <link>https://blog.newsblur.com/2026/01/16/ask-ai/</link>
+      <description>Sometimes I open a story and realize Iâm late to the party. Maybe itâs the fourth article in a saga I havenât followed, maybe it name-drops people I should know, or maybe itâs dense and I just want the gist. Ask AI fills in those gaps. You can ask about any story in NewsBlur and get quick answers from the model you prefer.</description>
+      <guid isPermaLink="false">https://blog.newsblur.com/2026/01/16/ask-ai/</guid>
+      <enclosure url="https://blog.newsblur.com/assets/ask-ai-selector.png" length="0" type="image/png"/>
+      <pubDate>Fri, 16 Jan 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intelligence Trainer Overhaul: URL classifiers, regex mode, and manage all training in one place</title>
+      <link>https://blog.newsblur.com/2026/01/22/intelligence-trainer-overhaul/</link>
+      <description>The Intelligence Trainer is one of NewsBlurâs most powerful features. It lets you train on authors, tags, titles, and text to automatically sort stories into Focus, Unread, or Hidden. But until now, there were limitsâyou couldnât train on URLs, regex support was something power users had been requesting for years, and managing hundreds of classifiers meant clicking through feeds one by one.</description>
+      <guid isPermaLink="false">https://blog.newsblur.com/2026/01/22/intelligence-trainer-overhaul/</guid>
+      <enclosure url="https://blog.newsblur.com/assets/url-classifier-section.png" length="0" type="image/png"/>
+      <pubDate>Thu, 22 Jan 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Premium Archive: Per-feed and per-folder auto-mark-as-read settings</title>
+      <link>https://blog.newsblur.com/2026/01/23/per-feed-auto-mark-read/</link>
+      <description>Some feeds I want to read every single story. Others Iâm happy to skim once a week. And a few high-volume feeds I only check occasionally, so stories older than a day or two arenât worth catching up on. Premium Archive subscribers get the site-wide âdays of unreadâ setting, but it was too blunt, applying the same rule to everything. Now you can set how long stories stay unread on a per-feed and per-folder basis.</description>
+      <guid isPermaLink="false">https://blog.newsblur.com/2026/01/23/per-feed-auto-mark-read/</guid>
+      <enclosure url="https://blog.newsblur.com/assets/auto-mark-read-popover.png" length="0" type="image/png"/>
+      <pubDate>Fri, 23 Jan 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Global and folder-scoped intelligence training: Train once, apply everywhere</title>
+      <link>https://blog.newsblur.com/2026/02/02/global-and-folder-scoped-intelligence-training/</link>
+      <description>Until now, the Intelligence Trainer was strictly per-feed. Train a title, author, or tag on one site and it only affected that site. If you wanted to hide a topic everywhere, you had to repeat that training on each feed. With a few feeds, thatâs fine. With a hundred, itâs tedious. With five hundred, itâs a non-starter.</description>
+      <guid isPermaLink="false">https://blog.newsblur.com/2026/02/02/global-and-folder-scoped-intelligence-training/</guid>
+      <enclosure url="https://blog.newsblur.com/assets/scope-toggle-icons.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Feb 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A mini media player for podcasts, audio, and video</title>
+      <link>https://blog.newsblur.com/2026/03/02/mini-media-player/</link>
+      <description>A lot of the sites I subscribe to have audio and video embedded directly in the stories. Podcasts, YouTube channels, news clips. But playing them in NewsBlur has always been a bit awkward: you hit play on the native browser control, then if you scroll to the next story or switch feeds, the audio just stops. I wanted something that keeps playing while you keep reading.</description>
+      <guid isPermaLink="false">https://blog.newsblur.com/2026/03/02/mini-media-player/</guid>
+      <enclosure url="https://blog.newsblur.com/assets/mini-player-feed-list.png" length="0" type="image/png"/>
+      <pubDate>Mon, 02 Mar 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Add + Discover Sites: YouTube, Reddit, podcasts, newsletters, and thousands of feeds to explore</title>
+      <link>https://blog.newsblur.com/2026/03/04/add-and-discover-sites/</link>
+      <description>NewsBlur has always been great at reading feeds. But finding new ones? That was mostly on you. The old âAdd Siteâ dialog was a search box and not much else. If you already had a feed URL, it worked fine. If you were looking for something new to read, you were on your own.</description>
+      <guid isPermaLink="false">https://blog.newsblur.com/2026/03/04/add-and-discover-sites/</guid>
+      <enclosure url="https://blog.newsblur.com/assets/add-site-full-page.png" length="0" type="image/png"/>
+      <pubDate>Wed, 04 Mar 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NewsBlur iOS 26 and macOS Tahoe updates: Major redesign, discover related sites, new story toolbar, and much, much more</title>
+      <link>https://blog.newsblur.com/2026/03/05/newsblur-v14-for-ios-and-mac/</link>
+      <description>This is a hefty redesign and rethinking of the NewsBlur iOS and Mac app. Every screen has been rethought, from the login page to the story detail to the intelligence trainer. This release adds full support for iOS 26, iPadOS 26, and macOS Tahoe, along with several features that were previously web-only: Discover Related Sites, Ask AI, the Dashboard, and Premium Pro.</description>
+      <guid isPermaLink="false">https://blog.newsblur.com/2026/03/05/newsblur-v14-for-ios-and-mac/</guid>
+      <enclosure url="https://blog.newsblur.com/assets/ios-14-ipad-sepia.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Mar 2026 05:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Web Feeds: Turn any website into an RSS feed</title>
+      <link>https://blog.newsblur.com/2026/03/13/web-feeds/</link>
+      <description>Not every website has an RSS feed. Some never did. Some had one years ago and quietly removed it. And some sites have content that updates regularly but was never structured as a feed in the first place: job boards, product listings, event calendars, changelog pages. Until now, if a site didnât offer RSS, you were out of luck.</description>
+      <guid isPermaLink="false">https://blog.newsblur.com/2026/03/13/web-feeds/</guid>
+      <enclosure url="https://blog.newsblur.com/assets/web-feed-input.png" length="0" type="image/png"/>
+      <pubDate>Fri, 13 Mar 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mute feeds for a set amount of time</title>
+      <link>https://blog.newsblur.com/2026/03/16/mute-feeds-for-a-set-amount-of-time/</link>
+      <description>Sometimes a feed gets noisy for a while. An election cycle, a product launch, a conference week. You donât want to unsubscribe because youâll want it back eventually, but you also donât want 200 unread stories piling up every day. Until now, muting was all or nothing: mute a feed and it stays muted until you remember to unmute it. Usually you forget.</description>
+      <guid isPermaLink="false">https://blog.newsblur.com/2026/03/16/mute-feeds-for-a-set-amount-of-time/</guid>
+      <enclosure url="https://blog.newsblur.com/assets/mute-feed-set-time-menu.png" length="0" type="image/png"/>
+      <pubDate>Mon, 16 Mar 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Story clustering: automatically group duplicate stories across your feeds</title>
+      <link>https://blog.newsblur.com/2026/03/18/story-clustering/</link>
+      <description>If you subscribe to more than a handful of news feeds, youâve hit this problem: a story breaks, and suddenly the same headline appears across five, ten, twenty of your subscriptions. Youâre reading the same article over and over, just published by different outlets. Your river view fills up with duplicates, and the stories you havenât read yet get buried.</description>
+      <guid isPermaLink="false">https://blog.newsblur.com/2026/03/18/story-clustering/</guid>
+      <enclosure url="https://blog.newsblur.com/assets/story-clustering-titles.png" length="0" type="image/png"/>
+      <pubDate>Wed, 18 Mar 2026 04:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

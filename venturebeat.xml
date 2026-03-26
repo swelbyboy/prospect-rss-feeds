@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>VentureBeat - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/venturebeat.xml</link>
+    <description>Latest articles from VentureBeat (venturebeat.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/venturebeat.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 16:09:17 +0000</lastBuildDate>
+    <item>
+      <title>Testing autonomous agents (Or: how I learned to stop worrying and embrace chaos)</title>
+      <link>https://venturebeat.com/orchestration/testing-autonomous-agents-or-how-i-learned-to-stop-worrying-and-embrace</link>
+      <description>Look, we've spent the last 18 months building production AI systems, and we'll tell you what keeps us up at night — and it's not whether the model can answer questions. That's table stakes now. What haunts us is the mental image of an agent autonomously approving a six-figure vendor contract at 2 a.m. because someone typo'd a config file.We've moved past the era of "ChatGPT wrappers" (thank God), but the industry still treats autonomous agents like they're just chatbots with API access. They're</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/testing-autonomous-agents-or-how-i-learned-to-stop-worrying-and-embrace</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/6CPQpqNcn1BPPtaMHhAWZI/aad349eac9a74697393eba5bdb329d94/Agent_chaos.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>You thought the generalist was dead — in the 'vibe work' era, they're more important than ever</title>
+      <link>https://venturebeat.com/technology/you-thought-the-generalist-was-dead-in-the-vibe-work-era-theyre-more</link>
+      <description>Not long ago, the idea of being a “generalist” in the workplace had a mixed reputation. The stereotype was the “jack of all trades” who could dabble in many disciplines but was a “master of none.” And for years, that was more or less true. Most people simply didn’t have access to the expertise required to do highly cross-functional work. If you needed a new graphic, you waited for a designer. If you needed to change a contract, you waited for legal. In smaller organizations and startups, this wa</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/you-thought-the-generalist-was-dead-in-the-vibe-work-era-theyre-more</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/3xrlIxdF4stMunUA8DvaqF/4e2d7737e1d037c7a8d8ae230481ceab/AI_generalist.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Show us your agents: VB Transform 2026 is looking for the most innovative agentic AI technologies</title>
+      <link>https://venturebeat.com/technology/calling-all-gen-ai-disruptors-of-the-enterprise-apply-now-to-present-at-transform-2026</link>
+      <description>The Innovation Showcase is back at Transform 2026: The Orchestration of Enterprise Agentic AI at Scale, taking place July 14 and 15 in Menlo Park.This year, we are moving beyond generative AI to autonomous agents, focusing on enterprise agentic orchestration, LLM observability and evaluation (LLMOps), RAG infrastructure, inference platforms and optimization, and agentic AI security and identity.We’re on the hunt for the 10 most innovative autonomous agent technologies poised to redefine the ente</description>
+      <guid isPermaLink="false">https://venturebeat.com/technology/calling-all-gen-ai-disruptors-of-the-enterprise-apply-now-to-present-at-transform-2026</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4afo2K4Tm3ZH5HEsadELf5/0d5d35e2ab844d59e7b413158e201c62/VBTRANSFORM25-0066.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 21:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is DeerFlow 2.0 and what should enterprises know about this new, powerful local AI agent orchestrator?</title>
+      <link>https://venturebeat.com/orchestration/what-is-deerflow-and-what-should-enterprises-know-about-this-new-local-ai</link>
+      <description>ByteDance, the Chinese tech giant behind TikTok, last month released what may be one of the most ambitious open-source AI agent frameworks to date: DeerFlow 2.0. It's now going viral across the machine learning community on social media. But is it safe and ready for enterprise use?This is a so-called "SuperAgent harness" that orchestrates multiple AI sub-agents to autonomously complete complex, multi-hour tasks. Best of all: it is available under the permissive, enterprise-friendly standard MIT</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/what-is-deerflow-and-what-should-enterprises-know-about-this-new-local-ai</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/5IQCy92vQXSUJ3kRisi1jj/34e4ab33f39a44680f396a99158358da/Gemini_Generated_Image_kgpxhykgpxhykgpx.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 02:16:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Liquid-cooled AI systems expose the limits of traditional storage architecture</title>
+      <link>https://venturebeat.com/infrastructure/liquid-cooled-ai-systems-expose-the-limits-of-traditional-storage</link>
+      <description>Presented by SolidigmLiquid cooling is rewriting the rules of AI infrastructure, but most deployments have not fully crossed the line. GPUs and CPUs have moved to liquid cooling, while storage has depended on airflow, creating an operationally inefficient hybrid architecture.What appears to be a pragmatic transition strategy is, in practice, a structural liability. “A hybrid cooling approach is an operationally inefficient situation,” explains Hardeep Singh, thermal-mechanical hardware team mana</description>
+      <guid isPermaLink="false">https://venturebeat.com/infrastructure/liquid-cooled-ai-systems-expose-the-limits-of-traditional-storage</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/218BD3ySUuM7E1xqGKGKAq/02f72b4a480688b8db2b5b97b2a8094e/AdobeStock_1725140751.jpeg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 04:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ai2 releases MolmoWeb, an open-weight visual web agent with 30K human task trajectories and a full training stack</title>
+      <link>https://venturebeat.com/data/ai2-releases-molmoweb-an-open-weight-visual-web-agent-with-30k-human-task</link>
+      <description>Engineers building browser agents today face a choice between closed APIs they cannot inspect and open-weight frameworks with no trained model underneath them. Ai2 is now offering a third option.The Seattle-based nonprofit behind the open-source OLMo language models and Molmo vision-language family today is releasing MolmoWeb, an open-weight visual web agent available in 4 billion and 8 billion parameter sizes. Until now, no open-weight visual web agent shipped with the training data and pipelin</description>
+      <guid isPermaLink="false">https://venturebeat.com/data/ai2-releases-molmoweb-an-open-weight-visual-web-agent-with-30k-human-task</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/4pUUvcojDe8EOzTGx66QN2/9da033ebaefe7e31158933bdc91df65f/browser-agent-smk1.jpg?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The three disciplines separating AI agent demos from real-world deployment</title>
+      <link>https://venturebeat.com/orchestration/the-three-disciplines-separating-ai-agent-demos-from-real-world-deployment</link>
+      <description>Getting AI agents to perform reliably in production — not just in demos — is turning out to be harder than enterprises anticipated. Fragmented data, unclear workflows, and runaway escalation rates are slowing deployments across industries.“The technology itself often works well in demonstrations,” said Sanchit Vir Gogia, chief analyst with Greyhound Research. “The challenge begins when it is asked to operate inside the complexity of a real organization.” Burley Kawasaki, who oversees agent deplo</description>
+      <guid isPermaLink="false">https://venturebeat.com/orchestration/the-three-disciplines-separating-ai-agent-demos-from-real-world-deployment</guid>
+      <enclosure url="https://images.ctfassets.net/jdtwqhzvc2n1/2dOARvl2FiQcSlFYjiW5kv/35e33899a22a4a743fb556ebb6f0e0e9/Agent_thinking.png?w=300&amp;q=30" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 16:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

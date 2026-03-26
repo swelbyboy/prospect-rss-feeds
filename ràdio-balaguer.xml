@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Ràdio Balaguer - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/ràdio-balaguer.xml</link>
+    <description>Latest articles from Ràdio Balaguer (radiobalaguer.cat)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/ràdio-balaguer.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 06:45:31 +0000</lastBuildDate>
+    <item>
+      <title>RADIO BALAGUER punt CAT</title>
+      <link>https://radiobalaguer.cat/programa/radio-balaguercom</link>
+      <description>Tot el món de la informàtica i les noves tecnologies a Ràdio Balaguer. Tots els dimecres a les 9.10h</description>
+      <guid isPermaLink="false">https://radiobalaguer.cat/programa/radio-balaguercom</guid>
+      <enclosure url="https://www.radiobalaguer.cat/storage/programes/imatges/2025/11/img-5872.JPG" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Mar 2026 09:48:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>MÉS ENLLÀ DEL NAS</title>
+      <link>https://radiobalaguer.cat/programa/mes-enlla-del-nas</link>
+      <description>Debat tertúlia d'actualitat amb especial atenció als temes que afecten al Pla de Desenvolupament Comunitari. El tercer dijous de cada mes a les 9.10h</description>
+      <guid isPermaLink="false">https://radiobalaguer.cat/programa/mes-enlla-del-nas</guid>
+      <enclosure url="https://www.radiobalaguer.cat/storage/programes/imatges/2025/11/nas.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Mar 2026 09:13:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>QUÈ FEM</title>
+      <link>https://radiobalaguer.cat/programa/que-fem</link>
+      <description>La informació cultural de Balaguer i comarca. Cada divendres i dissabte a les 9.10h</description>
+      <guid isPermaLink="false">https://radiobalaguer.cat/programa/que-fem</guid>
+      <enclosure url="https://www.radiobalaguer.cat/storage/programes/imatges/2025/11/quefem.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Mar 2026 09:26:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>SALUT I REPÚBLICA</title>
+      <link>https://radiobalaguer.cat/programa/salut-i-republica</link>
+      <description>La secció del Què fem amb la columna d'opinió de Rafel Molina. Cada divendres i dissabte a les 9.25h</description>
+      <guid isPermaLink="false">https://radiobalaguer.cat/programa/salut-i-republica</guid>
+      <enclosure url="https://www.radiobalaguer.cat/storage/programes/imatges/2025/11/molina.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 20 Mar 2026 09:26:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>NOGUERA JOVE</title>
+      <link>https://radiobalaguer.cat/programa/noguera-jove</link>
+      <description>Un programa de Ràdio Balaguer i l'Oficina Jove de la Noguera, que té l'objectiu d'informar dels diferents serveis i projectes que ofereix l'Oficina Jove. El tercer dilluns de cada mes a les 9.10h</description>
+      <guid isPermaLink="false">https://radiobalaguer.cat/programa/noguera-jove</guid>
+      <enclosure url="https://www.radiobalaguer.cat/storage/programes/imatges/2025/11/radio-programa-noguera-jove-maig-2025-comarkalada-gerb.JPG" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 09:10:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>INFORMATIUS</title>
+      <link>https://radiobalaguer.cat/programa/informatius</link>
+      <description>Serveis informatius de Ràdio Balaguer. L'actualitat de la jornada, de dilluns a divendres a les 13h i a les 19h i els dissabtes a les 13h.</description>
+      <guid isPermaLink="false">https://radiobalaguer.cat/programa/informatius</guid>
+      <enclosure url="https://www.radiobalaguer.cat/storage/programes/imatges/2025/11/locutori-radio-balaguer.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 12:43:06 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

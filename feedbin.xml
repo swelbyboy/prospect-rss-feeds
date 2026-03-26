@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Feedbin - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/feedbin.xml</link>
+    <description>Latest articles from Feedbin (feedbin.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/feedbin.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 17:37:29 +0000</lastBuildDate>
+    <item>
+      <title>Custom Newsletter Addresses</title>
+      <link>https://feedbin.com/blog/2024/04/25/custom-newsletter-addresses/</link>
+      <description>There’s a few new features for your newsletter address. Create unlimited addresses. First up, you can now create newsletter addresses. There’s a couple reasons you might want to do this: Automatic categorization with a different default tag. To prevent spam. More on this later. If you’re familiar with Apple’s Hide...</description>
+      <guid isPermaLink="false">https://feedbin.com/blog/2024/04/25/custom-newsletter-addresses/</guid>
+      <enclosure url="https://assets.feedbin.com/assets-site/images/blog/2024/addresses.png?923ef586f1f80c13395b94c954744418" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 25 Apr 2024 14:25:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Feed Search</title>
+      <link>https://feedbin.com/blog/2025/07/29/feed-search/</link>
+      <description>Feedbin now has a feature that lets you easily find and subscribe to feeds by searching for keywords. The search results include many popular feeds and enables searching by: Feed name or partial name Author Feed description The feature also comes with an update to the API so any client...</description>
+      <guid isPermaLink="false">https://feedbin.com/blog/2025/07/29/feed-search/</guid>
+      <enclosure url="https://assets.feedbin.com/assets-site/images/blog/2025/feed-search.png?fd634b1e3621cf26955ccb3e30b5191d" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 29 Jul 2025 15:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Browser Extension to Subscribe &amp;amp; Read Later</title>
+      <link>https://feedbin.com/blog/2025/07/30/browser-extension/</link>
+      <description>There’s a new official browser extension to subscribe to feeds and save pages to read later. You can use the extension in these browsers: Safari - Bundled with the Feedbin app. It works on iOS, macOS, and iPadOS. Chrome - Which is also where you should go if you’re using...</description>
+      <guid isPermaLink="false">https://feedbin.com/blog/2025/07/30/browser-extension/</guid>
+      <enclosure url="https://assets.feedbin.com/assets-site/images/blog/2025/extension.png?3d06910ffd14681352b8915ab37b3302" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 30 Jul 2025 15:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>YouTube Chapters</title>
+      <link>https://feedbin.com/blog/2025/09/16/youtube-chapters/</link>
+      <description>Feedbin’s YouTube embeds now support chapters. When a video includes chapter markers, you can access them right in the embed so you can quickly scan what’s covered and jump straight to the part that interests you most.</description>
+      <guid isPermaLink="false">https://feedbin.com/blog/2025/09/16/youtube-chapters/</guid>
+      <enclosure url="https://assets.feedbin.com/assets-site/images/blog/2025/chapters.jpg?4f10b93ff494df6f6f1e554c5317fd25" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 16 Sep 2025 14:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Create &amp;amp; View Newsletter Addresses from the Browser Extension</title>
+      <link>https://feedbin.com/blog/2025/10/01/newsletter-extension/</link>
+      <description>There’s new version of the Feedbin browser extension. The biggest feature is a new tab where you can create and view newsletter addresses. This way you can easily subscribe to email newsletters while browsing, without having to remember your address or visit Feedbin’s settings to generate a new one. There...</description>
+      <guid isPermaLink="false">https://feedbin.com/blog/2025/10/01/newsletter-extension/</guid>
+      <enclosure url="https://assets.feedbin.com/assets-site/images/blog/2025/extension-newsletter.png?edbcf18cce90b2319b7aa88591db971a" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 01 Oct 2025 16:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

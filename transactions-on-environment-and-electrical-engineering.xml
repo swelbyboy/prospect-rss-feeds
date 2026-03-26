@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Transactions on Environment and Electrical Engineering - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/transactions-on-environment-and-electrical-engineering.xml</link>
+    <description>Latest articles from Transactions on Environment and Electrical Engineering (teee.eu)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/transactions-on-environment-and-electrical-engineering.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 22:14:56 +0000</lastBuildDate>
+    <item>
+      <title>Hybrid Quantum-Classical Optimization Algorithms for Energy-Efficient Smart Grids</title>
+      <link>https://teee.eu/index.php/TEEE/article/view/154</link>
+      <description>The efficient management of energy resources in modern smart grids is becoming increasingly critical due to growing energy demands and the need for sustainability. To address these challenges, this study introduces a novel hybrid optimization approach that combines quantum computing techniques with classical algorithms. By leveraging the strengths of Variational Quantum Algorithms (VQAs) alongside traditional optimization methods for preprocessing and postprocessing, the proposed framework offer</description>
+      <guid isPermaLink="false">https://teee.eu/index.php/TEEE/article/view/154</guid>
+      <pubDate>Tue, 25 Feb 2025 08:51:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automatic Analysis System for Monitoring and Diagnosing the Condition of Transformer Insulating Oils</title>
+      <link>https://teee.eu/index.php/TEEE/article/view/155</link>
+      <description>Mineral insulating oil degrades over time due to oxidation, accelerated by metallic compounds, oxygen, water, and heat. This degradation leads to color changes, acidic compound formation, and, in advanced stages, sludge precipitation. Monitoring these changes requires periodic chemical, physical-chemical, and chromatographic analyses, which can be time-consuming and costly. This work presents a pilot unit that simulates transformer conditions and enables real-time, automated measurement of oil c</description>
+      <guid isPermaLink="false">https://teee.eu/index.php/TEEE/article/view/155</guid>
+      <pubDate>Mon, 07 Apr 2025 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Power measurements based on the Conservative Power Theory with a reduced sampling rate for lowering implementation cost</title>
+      <link>https://teee.eu/index.php/TEEE/article/view/156</link>
+      <description>This paper proposes a digital implementation of the Conservative Power Theory (CPT) using reduced sampling rates below 300 Hz, while maintaining acceptable accuracy and precision. Computer simulations at an 8 kHz sampling rate showed power calculation errors below 5% compared to an ideal continuous-time reference. Sampling rates under 300 Hz were found to yield similar performance. The study included active, reactive, and non-conventional power quantities under unbalanced load and distorted wave</description>
+      <guid isPermaLink="false">https://teee.eu/index.php/TEEE/article/view/156</guid>
+      <pubDate>Mon, 02 Jun 2025 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hybrid MPPT Method for Controlling an Open-Channel Hydrokinetic Microgenerator in Grid-Connected Mode</title>
+      <link>https://teee.eu/index.php/TEEE/article/view/157</link>
+      <description>Hydrokinetic energy conversion has been gaining prominence among renewable energy sources due to its reasonable predictability and low environmental impact. In this context, this paper proposes the development of a maximum power point tracking (MPPT) algorithm for controlling a 10-kW hydrokinetic microgenerator in grid-connected mode. To maximize energy capture and ensure operational reliability, the strategy employs a hybrid process that uses the fixed-step “perturb and observe” (P&amp;amp;O) method to</description>
+      <guid isPermaLink="false">https://teee.eu/index.php/TEEE/article/view/157</guid>
+      <pubDate>Sat, 15 Nov 2025 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Novel Flip-OFDM Modulation Scheme based on Discrete Hartley Transform</title>
+      <link>https://teee.eu/index.php/TEEE/article/view/158</link>
+      <description>In the domain of visible light communication (VLC), rapid data transmission is based on intensity modulation/direct detection (IM/DD) using flip-orthogonal frequency division multiplexing (flip-OFDM), which is based on the discrete Fourier transform (DFT). Because DFT operates on complex-valued signals, it requires Hermitian symmetry (HS) to produce a real-valued output, thereby doubling computational complexity. This study presents a novel approach that doubles spectral efficiency while halving</description>
+      <guid isPermaLink="false">https://teee.eu/index.php/TEEE/article/view/158</guid>
+      <pubDate>Tue, 09 Dec 2025 23:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Tikrit Journal of Engineering Science - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/tikrit-journal-of-engineering-science.xml</link>
+    <description>Latest articles from Tikrit Journal of Engineering Science (tj-es.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/tikrit-journal-of-engineering-science.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 20:42:07 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://tj-es.com/2023/07/02/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://tj-es.com/2023/07/02/hello-world/</guid>
+      <pubDate>Sun, 02 Jul 2023 14:28:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>News</title>
+      <link>https://tj-es.com/2023/07/29/news/</link>
+      <description>News</description>
+      <guid isPermaLink="false">https://tj-es.com/2023/07/29/news/</guid>
+      <pubDate>Sat, 29 Jul 2023 08:38:45 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

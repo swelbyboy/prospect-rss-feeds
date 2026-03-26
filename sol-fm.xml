@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Sol fm - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/sol-fm.xml</link>
+    <description>Latest articles from Sol fm (solfm.lt)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/sol-fm.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 05:26:33 +0000</lastBuildDate>
+    <item>
+      <title>Reklama | Radijo stotis „SOL FM“</title>
+      <link>https://solfm.lt/reklama/</link>
+      <description>Radijo stoties „SOL FM“ reklamos įkainiai bei tarifai.</description>
+      <guid isPermaLink="false">https://solfm.lt/reklama/</guid>
+      <enclosure url="https://www.solfm.lt/wp-content/uploads/2024/12/LOGO.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Dec 2024 05:48:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Privatumo politika | Radijo stotis „SOL FM“</title>
+      <link>https://solfm.lt/privatumo_politika/</link>
+      <description>Radijo stoties „SOL FM“ privatumo politika.</description>
+      <guid isPermaLink="false">https://solfm.lt/privatumo_politika/</guid>
+      <enclosure url="https://www.solfm.lt/wp-content/uploads/2024/12/LOGO.png" length="0" type="image/png"/>
+      <pubDate>Sun, 22 Dec 2024 21:25:17 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

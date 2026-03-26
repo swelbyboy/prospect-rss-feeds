@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Journal of Computational Geometry - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/journal-of-computational-geometry.xml</link>
+    <description>Latest articles from Journal of Computational Geometry (jocg.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/journal-of-computational-geometry.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 20:25:24 +0000</lastBuildDate>
+    <item>
+      <title>Relating interleaving and Fréchet distances via ordered merge trees</title>
+      <link>https://jocg.org/index.php/jocg/article/view/5498</link>
+      <description>Merge trees are a common topological descriptor for data with a hierarchical component, such as terrains and scalar fields. The interleaving distance, in turn, is a common distance for comparing merge trees. However, the interleaving distance for merge trees is solely based on the hierarchical structure, and disregards any other geometrical or topological properties that might be present in the underlying data. Furthermore, the interleaving distance is NP-hard to compute. In this paper, we intro</description>
+      <guid isPermaLink="false">https://jocg.org/index.php/jocg/article/view/5498</guid>
+      <pubDate>Tue, 03 Mar 2026 05:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

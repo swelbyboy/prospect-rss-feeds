@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>8Radio - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/8radio.xml</link>
+    <description>Latest articles from 8Radio (8radio.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/8radio.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 08:13:31 +0000</lastBuildDate>
+    <item>
+      <title>This is 8Radio.com</title>
+      <link>https://8radio.com/this-is-8radio-com/</link>
+      <description>This is 8Radio.com. This is a test of our playlist blog.</description>
+      <guid isPermaLink="false">https://8radio.com/this-is-8radio-com/</guid>
+      <pubDate>Wed, 04 May 2016 17:41:49 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

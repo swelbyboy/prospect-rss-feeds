@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>WIFO-FM - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/wifo-fm.xml</link>
+    <description>Latest articles from WIFO-FM (bigdogcountry.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/wifo-fm.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 21:21:45 +0000</lastBuildDate>
+    <item>
+      <title>Butch &amp;amp; Bob Show</title>
+      <link>https://bigdogcountry.com/programming/butch-bob-show/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=butch-bob-show</link>
+      <description>Butch &amp;amp; Bob Show</description>
+      <guid isPermaLink="false">https://bigdogcountry.com/programming/butch-bob-show/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=butch-bob-show</guid>
+      <enclosure url="http://bigdogcountry.com/wp-content/uploads/2018/04/butchBob-buttons1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 16 Apr 2018 12:54:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Local News</title>
+      <link>https://bigdogcountry.com/programming/local-news/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=local-news</link>
+      <description>Local News with Bob Morgan 7:10 12:20 5:10 Weekdays</description>
+      <guid isPermaLink="false">https://bigdogcountry.com/programming/local-news/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=local-news</guid>
+      <enclosure url="http://bigdogcountry.com/wp-content/uploads/2018/03/news.png" length="0" type="image/png"/>
+      <pubDate>Mon, 07 May 2018 11:44:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

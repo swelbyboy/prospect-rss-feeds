@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>WECS - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/wecs.xml</link>
+    <description>Latest articles from WECS (wecsfm.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/wecs.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 01:09:12 +0000</lastBuildDate>
+    <item>
+      <title>Hello world! | WECS Radio 90.1 FM</title>
+      <link>https://wecsfm.com/hello-world/</link>
+      <description>Welcome! I'm the new WECS FM website! I'm looking forward to letting you surf me.</description>
+      <guid isPermaLink="false">https://wecsfm.com/hello-world/</guid>
+      <enclosure url="https://wecsfm.com/wp-content/uploads/2017/08/postsurf1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 09 Aug 2017 10:43:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>WECS IN OVERHAUL | WECS Radio 90.1 FM</title>
+      <link>https://wecsfm.com/wecs-in-overhaul/</link>
+      <description>Construction has the WECS headquarters relocated and reestablished in Goddard Hall. The construction is part of a joint building remodeling project brought</description>
+      <guid isPermaLink="false">https://wecsfm.com/wecs-in-overhaul/</guid>
+      <enclosure url="https://wecsfm.com/wp-content/uploads/2017/08/postgrapghic1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 11 Aug 2017 01:32:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>DJs &amp;amp; Shows | WECS Radio 90.1 FM</title>
+      <link>https://wecsfm.com/djs-shows/</link>
+      <description>Still a work in progress are the DJs' personal pages - they'll all be adding their information as time goes on, so keep an eye out to see if your favorite</description>
+      <guid isPermaLink="false">https://wecsfm.com/djs-shows/</guid>
+      <enclosure url="https://wecsfm.com/wp-content/uploads/2019/11/EIskBxbU8AAkhqi.png" length="0" type="image/png"/>
+      <pubDate>Wed, 06 Nov 2019 14:24:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>video | WECS Radio 90.1 FM</title>
+      <link>https://wecsfm.com/video/</link>
+      <description>https://www.youtube.com/watch?v=DXe7sPsw_UQ</description>
+      <guid isPermaLink="false">https://wecsfm.com/video/</guid>
+      <pubDate>Fri, 13 Aug 2021 15:50:38 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

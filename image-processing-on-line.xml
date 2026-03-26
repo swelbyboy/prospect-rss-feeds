@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Image Processing On Line - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/image-processing-on-line.xml</link>
+    <description>Latest articles from Image Processing On Line (ipol.im)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/image-processing-on-line.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 19:22:58 +0000</lastBuildDate>
+    <item>
+      <title>Semiogram: a Visual Tool for Gait Quantification in Routine Neurological Follow-Up</title>
+      <link>http://www.ipol.im/pub/art/2025/535/</link>
+      <description>In this work, we present an innovative multidimensional tool developed for gait evaluation and monitoring in patients with neurological disorders in routine clinical practice using Inertial Sensors, named semiogram. It has previously been published and validated by Voisard et al. [C. Voisard, N. de l'Escalopier, A. Vienne-Jumeau, A. Moreau, F. Quijoux, F. Bompaire, M. Sallansonnet, M-L. Brechemier, I. Taifas, C. Tafani, E. Drouard, N. Vayatis, D. Ricard and L. Oudre, Innovative Multidimensional</description>
+      <guid isPermaLink="false">http://www.ipol.im/pub/art/2025/535/</guid>
+      <pubDate>Fri, 31 Jan 2025 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Latent Diffusion Approaches for Conditional Generation of Aerial Imagery: A Study</title>
+      <link>http://www.ipol.im/pub/art/2025/580/</link>
+      <description>Generative artificial intelligence is increasingly being applied in diverse areas such as architecture design, music composition, or character animation. Among the generative methods, diffusion models are today the state of the art in the synthesis of high quality images with inherent diversity and realism. This paper aims to evaluate the fidelity and realism of the synthesis achieved by different architectural variations of a latent diffusion model, which is used to generate aerial images condi</description>
+      <guid isPermaLink="false">http://www.ipol.im/pub/art/2025/580/</guid>
+      <pubDate>Mon, 10 Mar 2025 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Specularity in NeRFs: A Comparative Study of Ref-NeRF and NRFF</title>
+      <link>http://www.ipol.im/pub/art/2025/562/</link>
+      <description>Neural Radiance Fields (NeRF) have emerged as a leading technology for 3D digitization, especially for their high accuracy and intricate detailing. Despite their advancements, early NeRF models struggle to handle reflections on specular surfaces effectively. To address this, alternative approaches such as Ref-NeRF and NRFF were proposed to improve fidelity in representing this physical phenomenon. This study compares these two models, providing an analysis of their effectiveness and limitations</description>
+      <guid isPermaLink="false">http://www.ipol.im/pub/art/2025/562/</guid>
+      <pubDate>Tue, 11 Mar 2025 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gaussian Splatting: An Introduction</title>
+      <link>http://www.ipol.im/pub/art/2025/566/</link>
+      <description>Gaussian Splatting has emerged as a powerful technique for signal representation, especially in 3D. This paper introduces Gaussian Splatting and demonstrates its application across 1D, 2D, and 3D cases. We also discuss Gaussian Splatting in relation to Neural Radiance Fields (NeRF), highlighting the computational trade-offs and performance benefits. Through this work, we aim to bridge the gap between foundational concepts in view synthesis and advanced research, making Gaussian Splatting a more</description>
+      <guid isPermaLink="false">http://www.ipol.im/pub/art/2025/566/</guid>
+      <pubDate>Mon, 16 Jun 2025 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Brief Review and Analysis of Two Methods for Automatic Sign Language Segmentation</title>
+      <link>http://www.ipol.im/pub/art/2025/560/</link>
+      <description>Sign language segmentation is a fundamental task in sign language processing to implement automatic translation systems. In this work, we study and compare the performance of two state-of-the-art methods for automatic sign language segmentation: 'Automatic Segmentation of Sign Language into Subtitle-Units' [Bull et al., European Conference on Computer Vision Workshops, 2020] and 'Linguistically Motivated Sign Language Segmentation' [Moryossef et al., Findings of the Association for Computational</description>
+      <guid isPermaLink="false">http://www.ipol.im/pub/art/2025/560/</guid>
+      <pubDate>Thu, 21 Aug 2025 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>L1-Norm Redundant Delaunay Phase Unwrapping and Gradient Correction</title>
+      <link>http://www.ipol.im/pub/art/2025/583/</link>
+      <description>This article deals with arrays of real numbers which have been reduced modulo 2h into the interval [-h,h] where h&amp;gt;0 is a positive real number. Such an array is said to be wrapped modulo 2h. Often, the elements of these arrays correspond to values observed at points in an image-like 2D space which are connected by a graph structure. The process of retrieving the original array from which the wrapped image originates is called unwrapping. Of course, the wrapping process is not one-to-one, and the</description>
+      <guid isPermaLink="false">http://www.ipol.im/pub/art/2025/583/</guid>
+      <pubDate>Fri, 26 Dec 2025 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CS-TRD: a Cross-Section Tree Ring Detection Method</title>
+      <link>http://www.ipol.im/pub/art/2025/485/</link>
+      <description>This work describes a Tree Ring Detection method for complete Cross-Sections of Trees (CS-TRD) that detects, processes, and connects edges corresponding to the tree's growth rings. The method relies on edge detection, and its parameters are set to default values and can be adjusted as needed. The only required input is the location of the biological center of the tree, the pith, which can be marked manually or using an automatic detection algorithm. CS-TRD achieves an F-Score of 91% in the UruDe</description>
+      <guid isPermaLink="false">http://www.ipol.im/pub/art/2025/485/</guid>
+      <pubDate>Fri, 26 Dec 2025 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Brief Analysis of the Change Detector by Kervrann et al.</title>
+      <link>http://www.ipol.im/pub/art/2025/602/</link>
+      <description>This work describes the symmetric method by Kervrann et al. for change detection. The algorithm processes a pair of images using a hypothesis testing technique with an a contrario approach. We perform a brief analysis of the results produced by the method and evaluate its quality and limitations on the Sentinel-2 OSCD dataset.</description>
+      <guid isPermaLink="false">http://www.ipol.im/pub/art/2025/602/</guid>
+      <pubDate>Sat, 27 Dec 2025 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Thin-plate Splines on the Sphere for Interpolation, Computing Spherical Averages, and Solving Inverse Problems</title>
+      <link>http://www.ipol.im/pub/art/2026/451/</link>
+      <description>In many applications, planar spline interpolations of scattered data on the sphere are unsatisfactory; spherical splines are desired. Wahba (1981) defined the thin-plate splines on the sphere by analogy with the polynomial splines on the circle and the thin-plate splines in R^d. The thin-plate spline fit to a scattered data set on the sphere is the solution to an empirical risk minimization problem that penalizes the infidelity of the fit to the data as well as its 'wiggliness'. This latter term</description>
+      <guid isPermaLink="false">http://www.ipol.im/pub/art/2026/451/</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Voronoi Diagrams for Page Segmentation</title>
+      <link>http://www.ipol.im/pub/art/2026/591/</link>
+      <description>Page segmentation is a key task in document processing, enabling effective extraction of structured information from diverse document types. This paper presents an in-depth analysis of the method proposed by Kise et al., a bottom-up approach using area Voronoi diagrams to identify spatial relationships between document parts. Our work provides a detailed description of the method, emphasizing clarity, reproducibility, and transparency, particularly regarding aspects not fully specified in the or</description>
+      <guid isPermaLink="false">http://www.ipol.im/pub/art/2026/591/</guid>
+      <pubDate>Tue, 17 Mar 2026 23:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

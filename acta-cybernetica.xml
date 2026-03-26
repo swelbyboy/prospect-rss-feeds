@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Acta Cybernetica - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/acta-cybernetica.xml</link>
+    <description>Latest articles from Acta Cybernetica (cyber.bibl.u-szeged.hu)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/acta-cybernetica.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 20:31:12 +0000</lastBuildDate>
+    <item>
+      <title>Radial Harmonic Fourier Moments for CT-based Quantitative Radiomics</title>
+      <link>https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4527</link>
+      <description>Radiomics is an emerging field of CT image processing, that offers noninvasive quantification of tumour phenotypes using quantitative image features. Radiomics analysis has promising applications in cancer treatment and personalized medicine, like treatment planning and the prediction of clinical factors. However, the optimal feature selection is not established in the literature, and the applications usually involve data mining of a large pool of features. In this paper, we propose to extract h</description>
+      <guid isPermaLink="false">https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4527</guid>
+      <pubDate>Mon, 24 Mar 2025 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Selecting Execution Path for Replaying Errors</title>
+      <link>https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4528</link>
+      <description>The identification of the sources of a runtime error is a common task for Erlang developers. Dynamic and static tools can assist in this task. Our work aims to help Erlang developers in debugging processes to reproduce a runtime error. We would like to use and extend the static analyser framework of RefactorErl with new algorithms to support this fault localisation process. In our previous paper, we presented a symbolic execution-based analysis method to find the source of runtime errors. This p</description>
+      <guid isPermaLink="false">https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4528</guid>
+      <pubDate>Tue, 20 May 2025 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multithreading Atomicity: Static Analysis Checkers</title>
+      <link>https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4521</link>
+      <description>Ensuring thread safety in applications is crucial for preventing subtle and challenging bugs in concurrent programming. This paper presents two algorithmic approaches to improve thread safety through static analysis and to demonstrate their benefits in real life, the authors also implemented them as two detectors in SpotBugs static analyzer. These checkers are designed to identify unsafe usages of shared resources and improper atomic operations in concurrent Java programming, aiming to mitigate</description>
+      <guid isPermaLink="false">https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4521</guid>
+      <pubDate>Mon, 14 Jul 2025 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi Model Recursion for Hungarian Electricity Load Forecasting</title>
+      <link>https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4520</link>
+      <description>Time series analysis and prediction is a difficult and complex problem. Many machine- and deep-learning methods exist with better and better results. This paper proposes a strategy called Multi Model Recursion. It uses separate deep-learning models per feature that needs predicting. Another improvement is not predicting features which are easily calculated. Having extra models per feature helps in "simulating" a future environment since it predicts external variables otherwise unknown. The Multi</description>
+      <guid isPermaLink="false">https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4520</guid>
+      <pubDate>Mon, 14 Jul 2025 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Smart Contract in the Loop: Fault Impact Assessment for Distributed Ledger Technologies</title>
+      <link>https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4529</link>
+      <description>Due to their decentralized and trustless nature, blockchain and distributed ledger technologies are increasingly used in several domains, including critical applications. The behavior of such blockchain-integrated systems is typically driven by smart contracts. However, smart contracts are application-specific software and may contain faults with severe system-level impacts. This is especially true in the case of the extensively used Hyperledger Fabric (HLF) platform, where smart contracts are w</description>
+      <guid isPermaLink="false">https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4529</guid>
+      <pubDate>Mon, 14 Jul 2025 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Correct Dependency Orders in Erlang Upgrades</title>
+      <link>https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4526</link>
+      <description>Erlang tooling offers rich options to control the exact tasks to perform during an upgrade. This control aims to allow for zero-downtime upgrades. Upgrades affecting multiple dependent modules must reflect the dependency order in the upgrade's configuration, as an erroneous configuration results in unintended behaviour, possibly even downtime. This paper presents two static analysis-based checkers for verifying module-related aspects of upgrades. In our first analysis, we compare the actual depe</description>
+      <guid isPermaLink="false">https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4526</guid>
+      <pubDate>Mon, 14 Jul 2025 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimizing SAP Machine Learning-based Solutions through Custom API Integration</title>
+      <link>https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4525</link>
+      <description>Rapid changes, dynamic consumer preferences, and evolving market trends are the hallmarks of the business environment. SAP HANA has emerged as a potent platform to meet this demand due to its resilient foundation for real-time data analytics and processing and in-memory processing architecture. This research aims to improve anomaly detection capabilities by integrating machine learning (ML) models into the SAP HANA Fiori web application. This will be achieved by developing a custom Application P</description>
+      <guid isPermaLink="false">https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4525</guid>
+      <pubDate>Mon, 14 Jul 2025 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Preface</title>
+      <link>https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4648</link>
+      <description>The 14th Conference of PhD Students in Computer Science (CSCS) was organized by the Institute of Informatics of the University of Szeged (SZTE) and held in Szeged, Hungary, between Jul 3 – July 5, 2024.</description>
+      <guid isPermaLink="false">https://cyber.bibl.u-szeged.hu/index.php/actcybern/article/view/4648</guid>
+      <pubDate>Mon, 14 Jul 2025 22:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

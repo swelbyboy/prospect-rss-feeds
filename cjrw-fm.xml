@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>CJRW-FM - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/cjrw-fm.xml</link>
+    <description>Latest articles from CJRW-FM (spud.fm)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/cjrw-fm.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 00:26:49 +0000</lastBuildDate>
+    <item>
+      <title>Hello world! - SPUD FM</title>
+      <link>https://spud.fm/2017/01/25/hello-world/</link>
+      <description>Welcome to MBS Radio. This is your first post. Edit or delete it, then start blogging!</description>
+      <guid isPermaLink="false">https://spud.fm/2017/01/25/hello-world/</guid>
+      <enclosure url="https://spud.fm/wp-content/uploads/sites/17/2019/06/spud-facebook.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Jan 2017 13:31:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Whitecap Entertainment - SPUD FM</title>
+      <link>https://spud.fm/2025/06/11/whitecap-entertainment/</link>
+      <description>The post Whitecap Entertainment appeared first on SPUD FM.</description>
+      <guid isPermaLink="false">https://spud.fm/2025/06/11/whitecap-entertainment/</guid>
+      <enclosure url="https://spud.fm/wp-content/uploads/sites/17/2019/06/spud-facebook.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 11 Jun 2025 13:48:50 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

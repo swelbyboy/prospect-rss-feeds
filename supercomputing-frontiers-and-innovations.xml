@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Supercomputing Frontiers and Innovations - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/supercomputing-frontiers-and-innovations.xml</link>
+    <description>Latest articles from Supercomputing Frontiers and Innovations (superfri.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/supercomputing-frontiers-and-innovations.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 22:37:52 +0000</lastBuildDate>
+    <item>
+      <title>Characterization of the Role of Amino Acid Residues in the 2-Hydroxybiphenyl 3-Monooxygenase Catalysis Based on Bioinformatic Analysis of the Flavin-dependent Monooxygenases and Supercomputer Modeling of the Structure of Mobile Fragments Applying Variational Autoencoders</title>
+      <link>https://superfri.org/index.php/superfri/article/view/684</link>
+      <description>By modeling of predominant conformations of mobile loops in previously unresolved regions of 2-hydroxybiphenyl 3-monooxygenase structure (PDB ID: 5BRT) using GPU-accelerated metadynamics simulations integrated with artificial intelligence and high-performance computing the full-length protein model was built. Combined with bioinformatic analysis of the flavin-dependent monooxygenases it allowed to propose the functional role of amino acid residues in the 2-hydroxybiphenyl 3-monooxygenase catalys</description>
+      <guid isPermaLink="false">https://superfri.org/index.php/superfri/article/view/684</guid>
+      <pubDate>Tue, 20 Jan 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Novel Oxygen-Deficient Centers and Other Intrinsic Defects in Amorphous SiO2: Quantum Molecular Dynamics Simulations</title>
+      <link>https://superfri.org/index.php/superfri/article/view/664</link>
+      <description>The formation of stoichiometric and oxygen-deficient amorphous states of a-SiO2 from a corresponding crystal was simulated using the melting-quenching procedure. To simulate the entire process, quantum molecular dynamics implemented in the VASP program and supercells containing 64 Si atoms and 128 O atoms were used. This size allows modeling the formation of rings with a small number of Si–O–Si bridges. At given heating and cooling rates of 0.5 K/fs, the transformation of the crystal’s atomic ne</description>
+      <guid isPermaLink="false">https://superfri.org/index.php/superfri/article/view/664</guid>
+      <pubDate>Tue, 20 Jan 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Variational Data Assimilation in the Constructor of Dynamic Soil Carbon Models</title>
+      <link>https://superfri.org/index.php/superfri/article/view/672</link>
+      <description>This work presents an automatic adjoint-model construction within the Carbon Cycle Model Constructor (CCMC) that enables variational data assimilation (VDA) for estimating the initial state of soil dynamic carbon models. The adjoint is generated once from the generic pool-flux representation used in CCMC, which allows efficient gradient evaluation and iterative optimization of the initial pool vector without constructing a model-specific adjoint. The proposed approach is tested with two soil car</description>
+      <guid isPermaLink="false">https://superfri.org/index.php/superfri/article/view/672</guid>
+      <pubDate>Tue, 20 Jan 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPU-based Large-eddy Simulation of Mixed-phased Clouds</title>
+      <link>https://superfri.org/index.php/superfri/article/view/669</link>
+      <description>We discuss the development of the large-eddy simulation (LES) model of the atmospheric boundary layer with embedded two-moment bulk cloud microphysics scheme well-suited for massively-parallel heterogeneous supercomputers based on GPU (Graphics Processing Units) architecture. To evaluate the LES model and its computational efficiency, we consider the numerical setup corresponding to the development of an intense Arctic cold-air outbreak case. It is shown that the dynamic closure approach for cal</description>
+      <guid isPermaLink="false">https://superfri.org/index.php/superfri/article/view/669</guid>
+      <pubDate>Tue, 20 Jan 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Efficient Algorithm Based on the Woodbury Formula for Modeling Multi-port Antenna Systems</title>
+      <link>https://superfri.org/index.php/superfri/article/view/666</link>
+      <description>This work presents an efficient computational approach for modeling antenna systems with multiple ports using boundary integral equations. The method employs the RWG basis functions within the Galerkin scheme to evaluate for surface currents. A key challenge addressed is the repeated solution of linear systems when calculating mutual coupling characteristics (impedance matrix, S-parameters, VSWR) for various port loading conditions. To overcome this, an algorithm based on the Woodbury formula is</description>
+      <guid isPermaLink="false">https://superfri.org/index.php/superfri/article/view/666</guid>
+      <pubDate>Tue, 20 Jan 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Supercomputer Methods of Ultrasound Tomographic Imaging in NDT Based on Lamb Waves</title>
+      <link>https://superfri.org/index.php/superfri/article/view/665</link>
+      <description>This article concerns the developing of supercomputer methods for solving inverse problems of ultrasonic tomography in application to nondestructive testing of thin plates using Lamb waves. Such problems are computationally expensive, as longitudinal, shear, and other waves propagate in solids, requiring the use of vector elastic models of wave propagation. Iterative methods for solving the inverse problem have been developed. The methods are based on gradient descent methods of minimizing the r</description>
+      <guid isPermaLink="false">https://superfri.org/index.php/superfri/article/view/665</guid>
+      <pubDate>Tue, 20 Jan 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Supercomputing Co-Design for Solving Ill-Posed Linear Inverse Problems Using Iterative Algorithms</title>
+      <link>https://superfri.org/index.php/superfri/article/view/673</link>
+      <description>The paper considers an approach to applying the ideas of supercomputing co-design for the effective use of arbitrary multiprocessor computing systems with distributed memory when using iterative regularization algorithms to solve ill-posed linear inverse problems, which are reduced to solving large overdetermined systems of linear algebraic equations with a dense matrix. The proposed methodology allows for a large number of algorithms to select the best virtual topology of processes (in terms of</description>
+      <guid isPermaLink="false">https://superfri.org/index.php/superfri/article/view/673</guid>
+      <pubDate>Tue, 20 Jan 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Distillation for Adaptation Language Models to Russian Language</title>
+      <link>https://superfri.org/index.php/superfri/article/view/641</link>
+      <description>Adapting large language models (LLMs) to morphologically rich languages like Russian presents a major challenge, as multilingual models often exhibit limited transfer due to predominantly English-centric pre-training. This study investigates knowledge distillation (KD) as a more effective alternative to supervised fine-tuning (SFT) for the final calibration stage of language adaptation. We introduce an efficient offline top-K distillation approach that transfers knowledge from a 32B Russian-adap</description>
+      <guid isPermaLink="false">https://superfri.org/index.php/superfri/article/view/641</guid>
+      <pubDate>Tue, 20 Jan 2026 19:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

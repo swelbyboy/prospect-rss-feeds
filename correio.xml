@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Correio - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/correio.xml</link>
+    <description>Latest articles from Correio (correio.lu)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/correio.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 23:28:56 +0000</lastBuildDate>
+    <item>
+      <title>What is a whois?</title>
+      <link>http://correio.lu/what-is-a-whois</link>
+      <description>Behind this rather barbaric name hides a very valuable tool for any user who wants to surf “smart”. Whois (contraction of “who is?”, Literally “that is?”) Is a service for consulting the databases “registries” (in French records) to obtain information about a domain name or an IP address. Origins Behind this rather barbaric name hides … Continue reading "What is a whois?"</description>
+      <guid isPermaLink="false">http://correio.lu/what-is-a-whois</guid>
+      <pubDate>Tue, 11 Aug 2015 05:55:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is a whois? – Part Two</title>
+      <link>http://correio.lu/what-is-a-whois-part-two</link>
+      <description>Access via recorders (registrars) Some websites provide whois service: this is usually an interface to query one or more bases whois records in order to find out if a domain name is available. But most of these services offer access to a limited number of areas (often the .com, .org, and .net) and sometimes a … Continue reading "What is a whois? – Part Two"</description>
+      <guid isPermaLink="false">http://correio.lu/what-is-a-whois-part-two</guid>
+      <pubDate>Tue, 11 Aug 2015 05:56:16 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

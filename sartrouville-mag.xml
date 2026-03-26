@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Sartrouville Mag' - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/sartrouville-mag.xml</link>
+    <description>Latest articles from Sartrouville Mag' (sartrouville.fr)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/sartrouville-mag.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 23:07:33 +0000</lastBuildDate>
+    <item>
+      <title>Les rêveurs de papier - Sartrouville</title>
+      <link>https://www.sartrouville.fr/evenement/les-reveurs-de-papier-2/</link>
+      <description>Échanges autour de livres, bandes dessinées, mangas, films et présentation de coups de cœur des bibliothécaires.</description>
+      <guid isPermaLink="false">https://www.sartrouville.fr/evenement/les-reveurs-de-papier-2/</guid>
+      <enclosure url="https://www.sartrouville.fr/wp-content/uploads/2026/03/echange-lecture.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Mar 2026 15:33:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Les racontines à la bibliothèque Stendhal - Sartrouville</title>
+      <link>https://www.sartrouville.fr/evenement/les-racontines-a-la-bibliotheque-stendhal-64/</link>
+      <description>Lecture d'albums illustrés par les bibliothécaires. Pour les enfants de 2 à 6 ans, présence d'un parent obligatoire. Sans inscription, entrée libre.</description>
+      <guid isPermaLink="false">https://www.sartrouville.fr/evenement/les-racontines-a-la-bibliotheque-stendhal-64/</guid>
+      <enclosure url="https://www.sartrouville.fr/wp-content/uploads/2024/09/ACTUALITES166.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 15:43:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Le rhyme time - Sartrouville</title>
+      <link>https://www.sartrouville.fr/evenement/le-rhyme-time-40/</link>
+      <description>Animé par Jennifer, ce temps en musique propose à vos touts petits une immersion douce et amusante dans la langue anglaise en partant à la découverte de chansons et comptines. Chaque enfant doit être accompagné d’un parent.</description>
+      <guid isPermaLink="false">https://www.sartrouville.fr/evenement/le-rhyme-time-40/</guid>
+      <enclosure url="https://www.sartrouville.fr/wp-content/uploads/2024/09/ACTUALITES172.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 15:51:13 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

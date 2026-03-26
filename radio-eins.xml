@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Radio Eins - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/radio-eins.xml</link>
+    <description>Latest articles from Radio Eins (radioeins.de)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/radio-eins.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 17:10:51 +0000</lastBuildDate>
+    <item>
+      <title>Musik</title>
+      <link>https://www.radioeins.de/musik/index.html</link>
+      <description>Interviews zum Nachhören, Plattenkritiken, Konzertankündigungen, Konzertmitschnitte – auf unserer Musik-Übersichtsseite finden Sie alles, was Ihr musikalisches Herz höher schlagen lässt.</description>
+      <guid isPermaLink="false">https://www.radioeins.de/musik/index.html</guid>
+      <enclosure url="https://www.radioeins.de/content/dam/rbb/rad/bilder0/202211/musik_16_9.png.png/size=708x398.png" length="0" type="image/png"/>
+      <pubDate>Wed, 24 Jun 2020 11:18:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Die Sendung: Sanfter Frühling</title>
+      <link>https://www.radioeins.de/programm/sendungen/sendungen/159/2603/260324_die_sendung_31224.html</link>
+      <description>In ihrer neuen Sendung spielt Bernadette La Hengst Musik für einen sanften Frühling, zärtliche Songs über das Leben in einer chaotischen Bad B-Movie World, musikalische Signale auf Spaziergängen durch Berlin, über die Einsamkeit der Planeten und den Sozialismus in Discos.</description>
+      <guid isPermaLink="false">https://www.radioeins.de/programm/sendungen/sendungen/159/2603/260324_die_sendung_31224.html</guid>
+      <enclosure url="https://www.radioeins.de/content/dam/rbb/rad/team/2022/Bernadette_16_9.png.png/size=708x398.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Mar 2026 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Free Falling</title>
+      <link>https://www.radioeins.de/programm/sendungen/sendungen/66/2603/260324_free_falling_31225.html</link>
+      <description>Da trifft die Gitarre auf den Sampler, deutsche Texte auf englische und fette Beats auf zarte Melodien. Auf der Schnittstelle zwischen Clubmusik und Popmusik gibt es jede Woche neue Songs und Sounds zu entdecken. Dazu Studiogäste und die eine oder andere ganz und gar abseitige, ungewöhnliche, merkwürdige Musik gibt's natürlich auch.</description>
+      <guid isPermaLink="false">https://www.radioeins.de/programm/sendungen/sendungen/66/2603/260324_free_falling_31225.html</guid>
+      <pubDate>Tue, 24 Mar 2026 22:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

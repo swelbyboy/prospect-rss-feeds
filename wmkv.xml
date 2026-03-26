@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>WMKV - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/wmkv.xml</link>
+    <description>Latest articles from WMKV (wmkvfm.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/wmkv.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 21:15:08 +0000</lastBuildDate>
+    <item>
+      <title>Big Broadcast</title>
+      <link>https://wmkvfm.org/bigbroadcast/</link>
+      <description>In the words of veteran journalist and TV personality Nick Clooney, Big Broadcast is “an amalgam of comedy, music and drama that, in...</description>
+      <guid isPermaLink="false">https://wmkvfm.org/bigbroadcast/</guid>
+      <enclosure url="https://wmkvfm.org/wp-content/uploads/2019/08/bigbroadcast.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 21 Aug 2019 11:58:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cincinnati Band Room</title>
+      <link>https://wmkvfm.org/cintibandroom/</link>
+      <description>The Cincinnati Band Room features music played by marching bands, brass bands, concert bands, wind ensembles, small ensembles and more. Our bands are...</description>
+      <guid isPermaLink="false">https://wmkvfm.org/cintibandroom/</guid>
+      <enclosure url="https://wmkvfm.org/wp-content/uploads/2019/08/Cinti-Band-Room.png" length="0" type="image/png"/>
+      <pubDate>Wed, 21 Aug 2019 12:02:25 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

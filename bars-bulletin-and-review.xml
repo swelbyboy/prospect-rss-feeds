@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>BARS Bulletin and Review - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/bars-bulletin-and-review.xml</link>
+    <description>Latest articles from BARS Bulletin and Review (bars.ac.uk)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/bars-bulletin-and-review.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 20:52:59 +0000</lastBuildDate>
+    <item>
+      <title>test paypal</title>
+      <link>https://www.bars.ac.uk/main/index.php/2025/01/09/test-paypal/</link>
+      <description>A test page for Paypal button.</description>
+      <guid isPermaLink="false">https://www.bars.ac.uk/main/index.php/2025/01/09/test-paypal/</guid>
+      <pubDate>Thu, 09 Jan 2025 15:24:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Calendar</title>
+      <link>https://www.bars.ac.uk/main/index.php/2025/11/17/calendar/</link>
+      <description>Calendar</description>
+      <guid isPermaLink="false">https://www.bars.ac.uk/main/index.php/2025/11/17/calendar/</guid>
+      <pubDate>Mon, 17 Nov 2025 15:57:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

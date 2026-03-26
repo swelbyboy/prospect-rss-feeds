@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>KRPR - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/krpr.xml</link>
+    <description>Latest articles from KRPR (krpr.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/krpr.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 05:56:37 +0000</lastBuildDate>
+    <item>
+      <title>Our Mission</title>
+      <link>https://krpr.org/hello-world/</link>
+      <description>KRPR offers informational and educationally based programming designed to enhance the lives of its audience by expanding cultural perspectives, foster knowledge, and assist in strengthening their communities.</description>
+      <guid isPermaLink="false">https://krpr.org/hello-world/</guid>
+      <pubDate>Sun, 17 Jan 2016 17:13:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sample News Item</title>
+      <link>https://krpr.org/sample-news-item/</link>
+      <description>Vestibulum hendrerit sagittis ultrices. Aliquam sit amet odio dui. Morbi venenatis ac libero vel iaculis. Pellentesque tempor libero eget diam maximus, ut posuere metus congue. Nulla finibus auctor mauris, gravida fermentum mi finibus quis. Nunc eget nunc a sem blandit euismod a suscipit libero. Nam eu tristique sapien. Vestibulum condimentum congue leo, id egestas urna […]</description>
+      <guid isPermaLink="false">https://krpr.org/sample-news-item/</guid>
+      <pubDate>Tue, 11 Oct 2016 06:01:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Another Sample</title>
+      <link>https://krpr.org/another-sample/</link>
+      <description>Vestibulum hendrerit sagittis ultrices. Aliquam sit amet odio dui. Morbi venenatis ac libero vel iaculis. Pellentesque tempor libero eget diam maximus, ut posuere metus congue. Nulla finibus auctor mauris, gravida fermentum mi finibus quis. Nunc eget nunc a sem blandit euismod a suscipit libero. Nam eu tristique sapien. Vestibulum condimentum congue leo, id egestas urna […]</description>
+      <guid isPermaLink="false">https://krpr.org/another-sample/</guid>
+      <enclosure url="http://162.223.14.250/~krpr/wp/wp-content/uploads/2016/03/D-Tech-Logo-3-300x300.png" length="0" type="image/png"/>
+      <pubDate>Tue, 11 Oct 2016 06:02:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>More News Here</title>
+      <link>https://krpr.org/more-news-here/</link>
+      <description>Vestibulum hendrerit sagittis ultrices. Aliquam sit amet odio dui. Morbi venenatis ac libero vel iaculis. Pellentesque tempor libero eget diam maximus, ut posuere metus congue. Nulla finibus auctor mauris, gravida fermentum mi finibus quis. Nunc eget nunc a sem blandit euismod a suscipit libero. Nam eu tristique sapien. Vestibulum condimentum congue leo, id egestas urna […]</description>
+      <guid isPermaLink="false">https://krpr.org/more-news-here/</guid>
+      <pubDate>Tue, 11 Oct 2016 06:03:36 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

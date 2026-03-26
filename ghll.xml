@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>GHLL - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/ghll.xml</link>
+    <description>Latest articles from GHLL (ghll.truman.edu)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/ghll.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 23:23:33 +0000</lastBuildDate>
+    <item>
+      <title>the title for this post has been changed</title>
+      <link>https://ghll.truman.edu/2015/06/11/hello-world/</link>
+      <description>The content for this post has been changed.</description>
+      <guid isPermaLink="false">https://ghll.truman.edu/2015/06/11/hello-world/</guid>
+      <pubDate>Thu, 11 Jun 2015 15:15:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>this is a second post</title>
+      <link>https://ghll.truman.edu/2021/05/18/this-is-a-second-post/</link>
+      <description>This second post has new content</description>
+      <guid isPermaLink="false">https://ghll.truman.edu/2021/05/18/this-is-a-second-post/</guid>
+      <pubDate>Tue, 18 May 2021 20:25:13 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

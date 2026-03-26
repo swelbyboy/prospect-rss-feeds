@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>The Philosopher - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/the-philosopher.xml</link>
+    <description>Latest articles from The Philosopher (philsoceng.uk)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/the-philosopher.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 20:34:18 +0000</lastBuildDate>
+    <item>
+      <title>Journal Podcast - History</title>
+      <link>https://philsoceng.uk/journal-podcast/</link>
+      <description>Leading philosophers bring to the surface the ideas hidden behind the biggest news stories.—A new podcast from The Philosopher and Alexis Papazoglou.https://newsphilosopher.buzzsprout.com/</description>
+      <guid isPermaLink="false">https://philsoceng.uk/journal-podcast/</guid>
+      <enclosure url="https://philsoceng.uk/wp-content/uploads/2021/01/owlnews.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 21 Jan 2021 19:35:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Events, Groups and Classes - History</title>
+      <link>https://philsoceng.uk/events-groups-and-classes/</link>
+      <description>There many popular online events, groups and classes organised and publicised by our Journal team. Our seasons of “digital dialogues” have been running since autumn 2020. To date, over 15,000 attendees from over 110 countries have tuned in. For details of Events, Groups and Classes see: https://www.thephilosopher1923.org/events and The Philosopher’s Substack | Substack</description>
+      <guid isPermaLink="false">https://philsoceng.uk/events-groups-and-classes/</guid>
+      <pubDate>Wed, 26 Apr 2023 20:30:28 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

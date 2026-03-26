@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>isocpp.org - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/isocpp-org.xml</link>
+    <description>Latest articles from isocpp.org (isocpp.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/isocpp-org.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 09:31:26 +0000</lastBuildDate>
+    <item>
+      <title>So how do you quickly concatenate strings? -- Aleksandr Orefkov</title>
+      <link>https://isocpp.org//blog/2026/02/so-how-do-you-quickly-concatenate-strings-aleksandr-orefkov</link>
+      <description>So how do you quickly concatenate strings? By Aleksandr Orefkov From the article: All practicing programmers have to concatenate strings. Precisely concatenate, we don’t have some JavaScript or PHP, in C++ we have this fancy word for it. Programmers in other languages ​​simply “add” strings together without much thought, without even thinking about this operation. After all, what could be simpler than return "The answer is " + str_answer + ", count is " + count; But while it’s forgivable for scr</description>
+      <guid isPermaLink="false">https://isocpp.org//blog/2026/02/so-how-do-you-quickly-concatenate-strings-aleksandr-orefkov</guid>
+      <pubDate>Thu, 19 Feb 2026 20:04:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Range adaptors – 5 years after C++20 -- Hannes Hauswedell</title>
+      <link>https://isocpp.org//blog/2026/02/range-adaptors-5-years-after-cpp20-hannes-hauswedell-meetingc-2025</link>
+      <description>A look back on major design decisions in C++ Ranges and how they may be viewed today. Range adaptors - 5 years after C++20 by Hannes Hauswedell Watch now: &amp;lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube-nocookie.com/embed/nficAvk5RA4?si=w86EVk7oX89uVcPg" title="YouTube video player" width="560"&amp;gt;&amp;lt;/iframe&amp;gt;</description>
+      <guid isPermaLink="false">https://isocpp.org//blog/2026/02/range-adaptors-5-years-after-cpp20-hannes-hauswedell-meetingc-2025</guid>
+      <pubDate>Mon, 23 Feb 2026 22:19:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>PVS-Studio 7.41: MISRA C 2023, enhanced Unreal Engine integration, new logging system</title>
+      <link>https://isocpp.org//blog/2026/02/pvs-studio-7.41-misra-c-2023-enhanced-unreal-engine-integration-new-logging</link>
+      <description>PVS-Studio 7.41 has been released. It brings improvements for Unreal Engine, support for MISRA C 2023, an update to the IntelliJ IDEA plugin, and other useful changes. PVS-Studio 7.41: MISRA C 2023, enhanced Unreal Engine integration, new logging system, and much more by Valerii Filatov From the article: Throughout the year, we have been working to cover more of the MISRA C 2023 standard. Currently, PVS-Studio analyzer covers 86% of the standard. You can find more information on this page. In fu</description>
+      <guid isPermaLink="false">https://isocpp.org//blog/2026/02/pvs-studio-7.41-misra-c-2023-enhanced-unreal-engine-integration-new-logging</guid>
+      <pubDate>Tue, 24 Feb 2026 10:03:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>IIFE for Complex Initialization -- Bartlomiej Filipek</title>
+      <link>https://isocpp.org//blog/2026/02/iife-for-complex-initialization-bartlomiej-filipek1</link>
+      <description>What do you do when the code for a variable initialization is complicated? Do you move it to another method or write inside the current scope? Bartlomiej Filipek presents a trick that allows computing a value for a variable, even a const variable, with a compact notation. IIFE for Complex Initialization by Bartlomiej Filipek In this article: I hope you’re initializing most variables as const (so that the code is more explicit, and also compiler can reason better about the code and optimize). For</description>
+      <guid isPermaLink="false">https://isocpp.org//blog/2026/02/iife-for-complex-initialization-bartlomiej-filipek1</guid>
+      <enclosure url="https://isocpp.org/files/img/filipek-iife.png" length="0" type="image/png"/>
+      <pubDate>Fri, 27 Feb 2026 18:43:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Flavours of Reflection -- Bernard Teo</title>
+      <link>https://isocpp.org//blog/2026/03/flavours-of-reflection-bernard-teo</link>
+      <description>Reflection is coming to C++26 and is arguably the most anticipated feature accepted into this version of the standard. With substantial implementation work already done in Clang and GCC, compile-time reflection in C++ is no longer theoretical — it’s right around the corner. Flavours of Reflection: Comparing C++26 reflection with similar capabilities in other programming languages by Bernard Teo From the article: Reflection is imminent. It is set to be part of C++26, and it is perhaps the most an</description>
+      <guid isPermaLink="false">https://isocpp.org//blog/2026/03/flavours-of-reflection-bernard-teo</guid>
+      <pubDate>Tue, 03 Mar 2026 18:48:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Implementing vector -- Quasar Chunawala</title>
+      <link>https://isocpp.org//blog/2026/03/implementing-vectort-quasar-chunawala</link>
+      <description>Finding out how to implement features from the standard library can be a useful learning exercise. Quasar Chunawala explores implementing your own version of std::vector. Implementing vector&amp;lt;T&amp;gt; by Quasar Chunawala From the article: The most fundamental STL data-structure is the vector. In this article, I am going to explore writing a custom implementation of the vector data-structure. The standard library implementation std::vector is a work of art, it is extremely efficient at managing memory a</description>
+      <guid isPermaLink="false">https://isocpp.org//blog/2026/03/implementing-vectort-quasar-chunawala</guid>
+      <enclosure url="https://isocpp.org/files/img/logo.png" length="0" type="image/png"/>
+      <pubDate>Wed, 11 Mar 2026 18:54:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>The cost of a function call -- Daniel Lemire</title>
+      <link>https://isocpp.org//blog/2026/03/the-cost-of-a-function-call-daniel-lemire</link>
+      <description>Function calls are cheap — but they are not free — and in tight loops their cost can dominate your runtime. Modern compilers rely on inlining to remove that overhead and unlock deeper optimizations, sometimes turning an ordinary loop into dramatically faster SIMD code. The cost of a function call by Daniel Lemire From the article: When programming, we chain functions together. Function A calls function B. And so forth. You do not have to program this way, you could write an entire program using</description>
+      <guid isPermaLink="false">https://isocpp.org//blog/2026/03/the-cost-of-a-function-call-daniel-lemire</guid>
+      <enclosure url="https://isocpp.org/files/img/Capture-decran-le-2026-02-08-a-15.07.17-825x510.png" length="0" type="image/png"/>
+      <pubDate>Tue, 17 Mar 2026 18:56:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>CppCon 2025 More Speed &amp;amp; Simplicity: Practical Data-Oriented Design in C++ -- Vittorio Romeo</title>
+      <link>https://isocpp.org//blog/2026/03/cppcon-2025-more-speed-simplicity-practical-data-oriented-design-in-cpp-vit</link>
+      <description>Registration is now open for CppCon 2026! The conference starts on September 12 and will be held in person in Aurora, CO. To whet your appetite for this year’s conference, we’re posting videos of some of the top-rated talks from last year's conference. Here’s another CppCon talk video we hope you will enjoy – and why not register today for CppCon 2026! CppCon 2025 More Speed &amp;amp; Simplicity: Practical Data-Oriented Design in C++ by Vittorio Romeo Summary of the talk: Data-Oriented Design (DOD) pres</description>
+      <guid isPermaLink="false">https://isocpp.org//blog/2026/03/cppcon-2025-more-speed-simplicity-practical-data-oriented-design-in-cpp-vit</guid>
+      <enclosure url="https://isocpp.org/files/img/More_Speed_Vittorio_Romeo.png" length="0" type="image/png"/>
+      <pubDate>Wed, 18 Mar 2026 16:59:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>C++26: std::is_within_lifetime -- Sandor Dargo</title>
+      <link>https://isocpp.org//blog/2026/03/cpp26-stdis-within-lifetime-sandor-dargo</link>
+      <description>When I first came across std::is_within_lifetime, I expected another small type-traits utility — not a feature tied to checking whether a union alternative is active. But once you look closer, this seemingly narrow addition turns out to solve a surprisingly fundamental problem in constant evaluation. C++26: std::is_within_lifetime by Sandor Dargo From the article: When I was looking for the next topic for my posts, my eyes stopped on std::is_within_lifetime. Dealing with lifetime issues is a qui</description>
+      <guid isPermaLink="false">https://isocpp.org//blog/2026/03/cpp26-stdis-within-lifetime-sandor-dargo</guid>
+      <enclosure url="https://isocpp.org/files/img/SANDOR_DARGO_ROUND.JPG" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Mar 2026 19:03:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>CppCon 2025 Threads vs Coroutines: Why C++ Has Two Concurrency Models -- Conor Spilsbury</title>
+      <link>https://isocpp.org//blog/2026/03/cppcon-2025-threads-vs-coroutines-why-cpp-has-two-concurrency-models-conor</link>
+      <description>Registration is now open for CppCon 2026! The conference starts on September 12 and will be held in person in Aurora, CO. To whet your appetite for this year’s conference, we’re posting videos of some of the top-rated talks from last year's conference. Here’s another CppCon talk video we hope you will enjoy – and why not register today for CppCon 2026! Threads vs Coroutines: Why C++ Has Two Concurrency Models by Conor Spilsbury Summary of the talk: The C++11 standard introduced a powerful set of</description>
+      <guid isPermaLink="false">https://isocpp.org//blog/2026/03/cppcon-2025-threads-vs-coroutines-why-cpp-has-two-concurrency-models-conor</guid>
+      <enclosure url="https://isocpp.org/files/img/Threads_vs_coroutines_Conor_Spilsbury.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Mar 2026 17:05:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

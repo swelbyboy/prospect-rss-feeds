@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>WINT - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/wint.xml</link>
+    <description>Latest articles from WINT (wintradio.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/wint.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 01:00:26 +0000</lastBuildDate>
+    <item>
+      <title>Sports Report</title>
+      <link>https://wintradio.com/get-the-latest-in-the-sports-report/</link>
+      <description>Vipology_DisplayFeed('sports', 5, '/inside-story');</description>
+      <guid isPermaLink="false">https://wintradio.com/get-the-latest-in-the-sports-report/</guid>
+      <pubDate>Wed, 10 Feb 2016 12:28:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hollywood Report</title>
+      <link>https://wintradio.com/latest-from-the-hollywood-report/</link>
+      <description>Hollywood Report</description>
+      <guid isPermaLink="false">https://wintradio.com/latest-from-the-hollywood-report/</guid>
+      <pubDate>Wed, 10 Feb 2016 16:57:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Political News</title>
+      <link>https://wintradio.com/the-latest-updates-are-in-the-music-report/</link>
+      <description>Political News</description>
+      <guid isPermaLink="false">https://wintradio.com/the-latest-updates-are-in-the-music-report/</guid>
+      <pubDate>Wed, 10 Feb 2016 16:57:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Armstrong &amp;amp; Getty weekdays at 9am</title>
+      <link>https://wintradio.com/armstrong-getty-listen-weekdays-at-9am/</link>
+      <description>Click the video below to get to know the on-air members of the show! https://youtu.be/zUQ7TzhLCHI and visit Armstrong and Getty's website. The Armstrong &amp;amp; Getty Show is proud to join forces with the Warrior Foundation Freedom Station for The Warrior Foundation Freedom Station Give-A-Thon, to help send our ill and injured troops back home for...</description>
+      <guid isPermaLink="false">https://wintradio.com/armstrong-getty-listen-weekdays-at-9am/</guid>
+      <enclosure url="http://img.youtube.com/vi/zUQ7TzhLCHI/maxresdefault.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 29 Jan 2021 19:49:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

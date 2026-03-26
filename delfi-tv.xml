@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Delfi TV - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/delfi-tv.xml</link>
+    <description>Latest articles from Delfi TV (delfi.lt)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/delfi-tv.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 16:12:07 +0000</lastBuildDate>
+    <item>
+      <title>Global latest articles</title>
+      <link>https://feed.delfi.lt/v2/channel/global?format=rss</link>
+      <description>Global latest articles</description>
+      <guid isPermaLink="false">https://feed.delfi.lt/v2/channel/global?format=rss</guid>
+      <pubDate>Tue, 24 Mar 2026 16:11:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Global LT latest articles</title>
+      <link>https://feed.delfi.lt/v2/channel/global-lt?format=rss</link>
+      <description>Global LT latest articles</description>
+      <guid isPermaLink="false">https://feed.delfi.lt/v2/channel/global-lt?format=rss</guid>
+      <pubDate>Tue, 24 Mar 2026 16:11:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Receptai</title>
+      <link>https://feed.delfi.lt/v2/recipes?format=rss</link>
+      <description>Receptai</description>
+      <guid isPermaLink="false">https://feed.delfi.lt/v2/recipes?format=rss</guid>
+      <pubDate>Tue, 24 Mar 2026 16:11:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Saugu</title>
+      <link>https://feed.delfi.lt/v2/channel/25d3bff1-4291-11ef-ba60-0edae80122f9?format=rss</link>
+      <description>Saugu</description>
+      <guid isPermaLink="false">https://feed.delfi.lt/v2/channel/25d3bff1-4291-11ef-ba60-0edae80122f9?format=rss</guid>
+      <pubDate>Tue, 24 Mar 2026 16:11:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fone</title>
+      <link>https://feed.delfi.lt/v2/channel/3176d607-f009-443e-803f-9dca2a31215f?format=rss</link>
+      <description>Fone</description>
+      <guid isPermaLink="false">https://feed.delfi.lt/v2/channel/3176d607-f009-443e-803f-9dca2a31215f?format=rss</guid>
+      <pubDate>Tue, 24 Mar 2026 16:11:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>Мультимедиа</title>
+      <link>https://feed.delfi.lt/v2/channel/52d2dee7-07f6-4eea-9220-3c4ffdcfbef6?format=rss</link>
+      <description>Мультимедиа</description>
+      <guid isPermaLink="false">https://feed.delfi.lt/v2/channel/52d2dee7-07f6-4eea-9220-3c4ffdcfbef6?format=rss</guid>
+      <pubDate>Tue, 24 Mar 2026 16:11:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kalėdos</title>
+      <link>https://feed.delfi.lt/v2/channel/5df2c540-d5a6-44a6-8d03-ea55e71e1202?format=rss</link>
+      <description>Kalėdos</description>
+      <guid isPermaLink="false">https://feed.delfi.lt/v2/channel/5df2c540-d5a6-44a6-8d03-ea55e71e1202?format=rss</guid>
+      <pubDate>Tue, 24 Mar 2026 16:12:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Naujienos</title>
+      <link>https://feed.delfi.lt/v2/channel/8dbe61e8-8da7-46e3-8373-ab406a9df427?format=rss</link>
+      <description>Naujienos</description>
+      <guid isPermaLink="false">https://feed.delfi.lt/v2/channel/8dbe61e8-8da7-46e3-8373-ab406a9df427?format=rss</guid>
+      <pubDate>Tue, 24 Mar 2026 16:12:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>(Ne)matomi</title>
+      <link>https://feed.delfi.lt/v2/channel/a05c94b2-9b28-11ee-8955-0242c0a89403?format=rss</link>
+      <description>(Ne)matomi</description>
+      <guid isPermaLink="false">https://feed.delfi.lt/v2/channel/a05c94b2-9b28-11ee-8955-0242c0a89403?format=rss</guid>
+      <pubDate>Tue, 24 Mar 2026 16:12:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Delfi</title>
+      <link>https://feed.delfi.lt/v2/channel/f506bb47-4a2b-11ed-94c9-0242c0a88103?format=rss</link>
+      <description>Delfi</description>
+      <guid isPermaLink="false">https://feed.delfi.lt/v2/channel/f506bb47-4a2b-11ed-94c9-0242c0a88103?format=rss</guid>
+      <pubDate>Tue, 24 Mar 2026 16:12:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

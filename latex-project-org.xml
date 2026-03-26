@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>latex-project.org - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/latex-project-org.xml</link>
+    <description>Latest articles from latex-project.org (latex-project.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/latex-project-org.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 12:52:56 +0000</lastBuildDate>
+    <item>
+      <title>New TeXLive.net server &amp;amp; Book Discounts</title>
+      <link>https://latex-project.org//news/2025/03/29/new-texlive-net/</link>
+      <description>New TeXLive.net server &amp;amp; Book Discounts The TeXLive.net server that hosts a public LaTeX service for running LaTeX in the browser (as used, for example, at the learnlatex.org tutorial site) has been upgraded to a new server. This server is also used by other sites such as LaTeX Community Forum and TikZ.net and the recently advertised tool to display PDF tagging structure. The server has the latest Debian operating system and TeX Live 2025. It has more memory and more cores available than the pre</description>
+      <guid isPermaLink="false">https://latex-project.org//news/2025/03/29/new-texlive-net/</guid>
+      <enclosure url="/img/learnlatex15.png" length="0" type="image/png"/>
+      <pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Final pre-release of LaTeX 2025-06-01 is available for testing</title>
+      <link>https://latex-project.org//news/2025/05/05/latex-dev-3/</link>
+      <description>Final pre-release of LaTeX 2025-06-01 is available for testing The (hopefully) final pre-release version for the 2025-06-01 LaTeX kernel went to CTAN over the weekend. It’s now available for testing in TeX Live, and we’d like to encourage everyone to try it out. The focus has been mainly on improving tagging further, with work particularly on verbatim material and further socket refinement. We’ve also added tagging support for more graphics, most notable TikZ. There’s also been some support work</description>
+      <guid isPermaLink="false">https://latex-project.org//news/2025/05/05/latex-dev-3/</guid>
+      <pubDate>Mon, 05 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pre-release 4 of LaTeX 2025-06-01 is available for testing</title>
+      <link>https://latex-project.org//news/2025/05/21/latex-dev-4/</link>
+      <description>Pre-release 4 of LaTeX 2025-06-01 is available for testing We posted a couple of weeks ago that a ‘final’ development release of the 2025-06-01 kernel had gone to CTAN. A few things have come up in testing that pre-release, so we have updated again to pre-release 4. Hopefully that catches the issues without adding new ones - testing would be much appreciated. Enjoy — Joseph</description>
+      <guid isPermaLink="false">https://latex-project.org//news/2025/05/21/latex-dev-4/</guid>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Retirement of the LaTeX-L mailing list</title>
+      <link>https://latex-project.org//news/2025/05/25/retirement-of-the-latex-l-mailing-list/</link>
+      <description>Retirement of the LaTeX-L mailing list Public discussion about LaTeX developments for many years took place on the LaTeX-L mailing list, hosted by the University of Heidelberg. However, over time, active input moved elsewhere, most obviously to TeX StackExchange Chat for more informal back-and-forward, and to GitHub Discussions for more formal and archived threads. We’ve been removing mentions of LaTeX-L from our documentation and from the website, as the traffic levels had fallen to the point t</description>
+      <guid isPermaLink="false">https://latex-project.org//news/2025/05/25/retirement-of-the-latex-l-mailing-list/</guid>
+      <pubDate>Sun, 25 May 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LaTeX 2025-06-01 released and distributed</title>
+      <link>https://latex-project.org//news/2025/06/02/issue41-of-latex2e-released/</link>
+      <description>LaTeX 2025-06-01 release distributed We sent the 2025-06-01 release of the LaTeX kernel to CTAN over the weekend. It will be appearing to most users via TeX Live about now, and shortly in MiKTeX. News from the tagging project Work continues on the tagging project, and this release sees major work on tagging mathematics, with automatic generation of MathML now available in LuaTeX. The MathML can then be used as an Associated File (AF) for PDF 2.0 output: a big step in providing accessible mathema</description>
+      <guid isPermaLink="false">https://latex-project.org//news/2025/06/02/issue41-of-latex2e-released/</guid>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pre-release 3 of LaTeX 2025-11-01 is available for testing</title>
+      <link>https://latex-project.org//news/2025/10/09/latex-dev-3/</link>
+      <description>Pre-release 3 of LaTeX 2025-11-01 is available for testing The final pre-release version for the 2025-11-01 LaTeX kernel went to CTAN few days ago: it’s now in TeX Live, and we hope people will test it out. As with previous recent releases, the major focus here is tagging: we are improving the code in various places, and moving from ‘development’ to ‘production ready’ status for tagging - at least if you are using a supported subset of packages. Beyond tagging, we’ve taken the opportunity to add</description>
+      <guid isPermaLink="false">https://latex-project.org//news/2025/10/09/latex-dev-3/</guid>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accessibility of STEM documents - talk at PDF days 2025 in Berlin</title>
+      <link>https://latex-project.org//news/2025/10/30/pdfadays/</link>
+      <description>Accessibility for STEM documents - talk at PDF days 2025 in Berlin In September, Ulrike, Joseph, and I attended PDF Days in Berlin to present our work on making complex STEM documents truly accessible. The core message: PDF/UA-1 simply isn’t designed for mathematics, so marking documents as “compliant” doesn’t mean they’re actually usable by people with disabilities. PDF/UA-2, on the other hand, handles math properly through MathML support—it’s the standard that actually works for STEM. The chal</description>
+      <guid isPermaLink="false">https://latex-project.org//news/2025/10/30/pdfadays/</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LaTeX 2025-11-01 released and distributed</title>
+      <link>https://latex-project.org//news/2025/11/11/issue42-of-latex2e-released/</link>
+      <description>LaTeX 2025-11-01 release distributed We sent the 2025-11-01 release of the LaTeX kernel to CTAN last weekend. By now, it’s available to users in TeX Live and MiKTeX. News from the tagging project The tagging project remains the major focus of the team, and in this release we have extended what happens when you give the command \DocumentMetadata. This now always loads the new code we are working on in latex-lab. Tagging remains opt-in, still needing \DocumentMetadata{lang = ..., tagging = on} We</description>
+      <guid isPermaLink="false">https://latex-project.org//news/2025/11/11/issue42-of-latex2e-released/</guid>
+      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pre-release 1 of LaTeX 2026-06-01 is available for testing</title>
+      <link>https://latex-project.org//news/2026/01/27/latex-dev-1/</link>
+      <description>Pre-release 1 of LaTeX 2026-06-01 is available for testing The first pre-release version for the 2025-11-01 LaTeX kernel went to CTAN few days ago: it’s now in TeX Live, and we hope people will test it out. Work continues on bringing more flexible and predictable design support to different areas of the kernel: this is needed for tagged PDF output but also helps more generally in making it easier to customize LaTeX. Most notably, block environments (such as lists, quotes and proofs), and section</description>
+      <guid isPermaLink="false">https://latex-project.org//news/2026/01/27/latex-dev-1/</guid>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PDF Association’s press release: Accessible math in PDF – finally!</title>
+      <link>https://latex-project.org//news/2026/03/05/PDFA-press/</link>
+      <description>PDF Association’s press release: Accessible math in PDF – finally! We are pleased to announce that the PDF Association (PDFA) has just issued a press release highlighting the LaTeX Team’s work to make accessible math in PDF a reality. With the latest developments based on PDF 2.0 and PDF/UA‑2, LaTeX can now automatically generate PDFs with STEM content, such as mathematics, that are truly accessible and compliant with the PDF/UA‑2 ISO standard. This change closes a major accessibility gap for ST</description>
+      <guid isPermaLink="false">https://latex-project.org//news/2026/03/05/PDFA-press/</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

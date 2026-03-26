@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Radio El Faro - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/radio-el-faro.xml</link>
+    <description>Latest articles from Radio El Faro (radioelfaro.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/radio-el-faro.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 06:40:16 +0000</lastBuildDate>
+    <item>
+      <title>Default Blog Post</title>
+      <link>https://radioelfaro.org/blog/default-post/</link>
+      <description>This is a default blog post. Feel free to delete it.</description>
+      <guid isPermaLink="false">https://radioelfaro.org/blog/default-post/</guid>
+      <pubDate>Fri, 24 Sep 2021 00:51:58 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

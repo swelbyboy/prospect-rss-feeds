@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Linuxiac - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/linuxiac.xml</link>
+    <description>Latest articles from Linuxiac (linuxiac.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/linuxiac.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 17:31:26 +0000</lastBuildDate>
+    <item>
+      <title>Linuxiac Weekly Wrap-Up: Week 12, 2026 (Mar 16 – 22)</title>
+      <link>https://linuxiac.com/linuxiac-weekly-wrap-up-week-12-2026-mar-16-22/</link>
+      <description>Catch up on the latest Linux news: Mageia 10 Beta, GNOME 50, Blender 5.1, Bcachefs 1.37, FFmpeg 8.1, systemd introduces birth date support, and more.</description>
+      <guid isPermaLink="false">https://linuxiac.com/linuxiac-weekly-wrap-up-week-12-2026-mar-16-22/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/linuxiac-weekly-wrap-up-12-2026.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 22 Mar 2026 22:37:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>GrapheneOS Mobile Operating System Opposes OS-Level Age Checks</title>
+      <link>https://linuxiac.com/grapheneos-mobile-operating-system-opposes-os-level-age-checks/</link>
+      <description>GrapheneOS, an open-source Android-based mobile OS, will not implement OS-level age verification, despite regulatory pressure.</description>
+      <guid isPermaLink="false">https://linuxiac.com/grapheneos-mobile-operating-system-opposes-os-level-age-checks/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/grapheneos-age-verification.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 12:59:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Firefox 149 Now Available for Download, Brings Split View</title>
+      <link>https://linuxiac.com/firefox-149-now-available-for-download-brings-split-view/</link>
+      <description>Mozilla Firefox 149 improves PDF performance with hardware acceleration and introduces a new Split View feature for side-by-side browsing.</description>
+      <guid isPermaLink="false">https://linuxiac.com/firefox-149-now-available-for-download-brings-split-view/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/firefox149.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 13:22:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Garuda Linux Says No to Age Verification Outside Legal Requirement</title>
+      <link>https://linuxiac.com/garuda-linux-says-no-to-age-verification-outside-legal-requirement/</link>
+      <description>Arch-based Garuda Linux clarifies its position on age verification and addresses concerns regarding systemd userdb and data management.</description>
+      <guid isPermaLink="false">https://linuxiac.com/garuda-linux-says-no-to-age-verification-outside-legal-requirement/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/garuda-linux-age-verification.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 15:45:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qt 6.11 Released With Qt Canvas Painter and Task Tree Module</title>
+      <link>https://linuxiac.com/qt-6-11-released-with-qt-canvas-painter-and-task-tree-module/</link>
+      <description>Qt 6.11 released with Qt Canvas Painter for 2D rendering, Task Tree module, and updates to graphs and 3D rendering.</description>
+      <guid isPermaLink="false">https://linuxiac.com/qt-6-11-released-with-qt-canvas-painter-and-task-tree-module/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/qt611.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 16:23:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>DietPi 10.2 Released with Immich Support and New Software Options</title>
+      <link>https://linuxiac.com/dietpi-10-2-released-with-immich-support-and-new-software-options/</link>
+      <description>DietPi 10.2 adds Immich, Immich Machine Learning, uv, and RustDesk Client, alongside tool improvements, configuration updates, and multiple bug fixes.</description>
+      <guid isPermaLink="false">https://linuxiac.com/dietpi-10-2-released-with-immich-support-and-new-software-options/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/dietpi102.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 17:03:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Krita 5.3 and Krita 6.0 Released With New Text Engine and Wayland HDR Support</title>
+      <link>https://linuxiac.com/krita-5-3-and-6-0-released-with-new-text-engine-and-wayland-hdr-support/</link>
+      <description>Krita 5.3 delivers a new text engine and updated tools, alongside Krita 6.0, the Qt 6-based release with early Wayland support.</description>
+      <guid isPermaLink="false">https://linuxiac.com/krita-5-3-and-6-0-released-with-new-text-engine-and-wayland-hdr-support/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/krita6.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 12:37:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA 595.58 Linux Driver Released With Multiple Kernel Crash Fixes</title>
+      <link>https://linuxiac.com/nvidia-595-58-linux-driver-released-with-multiple-kernel-crash-fixes/</link>
+      <description>NVIDIA 595.58 is now available for download, resolving kernel crashes, X11 compositor flicker, and Wayland display wake issues on Linux systems.</description>
+      <guid isPermaLink="false">https://linuxiac.com/nvidia-595-58-linux-driver-released-with-multiple-kernel-crash-fixes/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/nvidia-595-58-linux-driver.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 13:40:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNOME 48.10 Released as Final Bugfix Update for GNOME 48</title>
+      <link>https://linuxiac.com/gnome-48-10-released-as-final-bugfix-update-for-gnome-48/</link>
+      <description>GNOME 48.10 is out as the last maintenance update in the GNOME 48 lifecycle, focusing on fixes across core components like Shell, GTK, and Mutter.</description>
+      <guid isPermaLink="false">https://linuxiac.com/gnome-48-10-released-as-final-bugfix-update-for-gnome-48/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/gnome4810.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 14:05:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mozilla Thunderbird 149 Brings Address Book Export and Multiple Bug Fixes</title>
+      <link>https://linuxiac.com/mozilla-thunderbird-149-brings-address-book-export-and-multiple-bug-fixes/</link>
+      <description>Mozilla Thunderbird 149 introduces address book export, improves EWS message sync, and resolves multiple bugs across email, calendar, and encryption features.</description>
+      <guid isPermaLink="false">https://linuxiac.com/mozilla-thunderbird-149-brings-address-book-export-and-multiple-bug-fixes/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/thunderbird149.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 16:46:57 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

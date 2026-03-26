@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Packet Pushers - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/packet-pushers.xml</link>
+    <description>Latest articles from Packet Pushers (packetpushers.net)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/packet-pushers.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 18:18:22 +0000</lastBuildDate>
+    <item>
+      <title>TCG071: Cloud Cloning and Portability – Why Multi-Cloud Freedom Still Requires Translation (Sponsored)</title>
+      <link>https://packetpushers.net/podcasts/the-cloud-gambit/tcg071-cloud-cloning-and-portability-why-multi-cloud-freedom-still-requires-translation-sponsored/</link>
+      <description>In this sponsored episode, FluidCloud co-founders Sharad Kumar and Harshit Omar sit down with William and Eyvonne to discuss how FluidCloud tackles multi-cloud portability. They detail how FluidCloud acts as a cloning platform that scans an existing cloud or VMware environment, extracts complex infrastructure configurations (including compute and storage, as well as firewall rules and... Read more »</description>
+      <guid isPermaLink="false">https://packetpushers.net/podcasts/the-cloud-gambit/tcg071-cloud-cloning-and-portability-why-multi-cloud-freedom-still-requires-translation-sponsored/</guid>
+      <pubDate>Wed, 18 Mar 2026 16:08:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>D2DO297: The Future of Open-Source Contributions in the AI Age</title>
+      <link>https://packetpushers.net/podcasts/day-two-devops/d2do297-the-future-of-open-source-contributions-in-the-ai-age/</link>
+      <description>Kyler and Ned sit down with Liz Fong-Jones, Technical Fellow at Honeycomb, to discuss the impact of AI on open-source contributions. Liz proposes shifting the script from code patch contributions to detailed bug reports. They also break down the distinction between programming and software engineering, and the critical role of OpenTelemetry in ensuring the observability... Read more »</description>
+      <guid isPermaLink="false">https://packetpushers.net/podcasts/day-two-devops/d2do297-the-future-of-open-source-contributions-in-the-ai-age/</guid>
+      <pubDate>Wed, 18 Mar 2026 17:08:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>NAN116: From NSoT to Operational Automation: Fast Time-to-Value with Nautobot Cloud (Sponsored)</title>
+      <link>https://packetpushers.net/podcasts/network-automation-nerds/nan116-from-nsot-to-operational-automation-fast-time-to-value-with-nautobot-cloud-sponsored/</link>
+      <description>Building a Network Source of Truth (NSoT) is only step one in an automation effort — turning it into operational automation is where outcomes happen. In this sponsored episode by Network to Code, Eric Fetty, a self-taught network engineer who literally automated his way through his CCIE lab, shares how he’s doing exactly that at... Read more »</description>
+      <guid isPermaLink="false">https://packetpushers.net/podcasts/network-automation-nerds/nan116-from-nsot-to-operational-automation-fast-time-to-value-with-nautobot-cloud-sponsored/</guid>
+      <pubDate>Wed, 18 Mar 2026 19:36:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>IPB196: Is End-to-End Connectivity the Right Goal?</title>
+      <link>https://packetpushers.net/podcasts/ipv6-buzz/ipb196-is-end-to-end-connectivity-the-right-goal/</link>
+      <description>One of the early design principles of the Internet was end-to-end connectivity: that is, every device on the Internet would be publicly addressable, and every device could share its resources or provide services. That design principle wasn’t achieved with IPv4 for a variety of reasons (including address scarcity, and many network owners not wanting endpoints... Read more »</description>
+      <guid isPermaLink="false">https://packetpushers.net/podcasts/ipv6-buzz/ipb196-is-end-to-end-connectivity-the-right-goal/</guid>
+      <pubDate>Thu, 19 Mar 2026 17:33:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>N4N051: MPLS Fundamentals</title>
+      <link>https://packetpushers.net/podcasts/n-is-for-networking/n4n051-mpls-fundamentals/</link>
+      <description>Today’s topic is Multiprotocol Label Switching or MPLS, a foundational technology that powers service provider networks and enterprise WANs all over the world. To help us break it down, we’ve invited James Bensley, a Network Tech Lead who’s spent fifteen years with MPLS. James explains what spurred the creation of MPLS and how it works... Read more »</description>
+      <guid isPermaLink="false">https://packetpushers.net/podcasts/n-is-for-networking/n4n051-mpls-fundamentals/</guid>
+      <pubDate>Thu, 19 Mar 2026 18:17:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>TNO058: Detect. Prove. Predict. Turning Network Monitoring Into Operational Intelligence (Sponsored)</title>
+      <link>https://packetpushers.net/podcasts/total-network-operations/tno058-detect-prove-predict-turning-network-monitoring-into-operational-intelligence-sponsored/</link>
+      <description>In this sponsored episode, Dylan Hensler, Customer Solutions Specialist with Statseeker, joins Scott for a breakdown of what allows Statseeker to move beyond traditional network monitoring. Together they discuss Statseeker’s ability to help NetOps teams detect issues faster, prove root cause, and operate with confidence by turning raw data into operational intelligence. They also discuss... Read more »</description>
+      <guid isPermaLink="false">https://packetpushers.net/podcasts/total-network-operations/tno058-detect-prove-predict-turning-network-monitoring-into-operational-intelligence-sponsored/</guid>
+      <pubDate>Fri, 20 Mar 2026 16:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>HN819: Recipes for Automation – A Look Inside Eric Chou’s AI Networking Cookbook</title>
+      <link>https://packetpushers.net/podcasts/heavy-networking/hn819-recipes-for-automation-a-look-inside-eric-chous-ai-networking-cookbook/</link>
+      <description>Eric Chou, author of the AI Networking Cookbook and host of Network Automation Nerds, joins Ethan and Drew to discuss adding artificial intelligence to your network automation toolbox. The AI Networking Cookbook is aimed at network engineers and provides a systematic approach to learning AI for network automation. Together they break down pros and cons... Read more »</description>
+      <guid isPermaLink="false">https://packetpushers.net/podcasts/heavy-networking/hn819-recipes-for-automation-a-look-inside-eric-chous-ai-networking-cookbook/</guid>
+      <pubDate>Fri, 20 Mar 2026 17:25:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>NB567: CISA Says Harden Endpoint Managers; NVIDIA Launches GPUs for Orbital Workloads</title>
+      <link>https://packetpushers.net/podcasts/network-break/nb567-cisa-says-harden-endpoint-managers-nvidia-launches-gpus-for-orbital-workloads/</link>
+      <description>Take a Network Break! We sound a red alert about a swarm of critical D-Link vulnerabilities. In this week’s news, CISA warns organizations to harden endpoint management systems in the wake of a cyberattack that used the target’s own Microsoft Intune system to wipe thousands of devices, Cisco rolls an NVIDIA ASIC into an N9100... Read more »</description>
+      <guid isPermaLink="false">https://packetpushers.net/podcasts/network-break/nb567-cisa-says-harden-endpoint-managers-nvidia-launches-gpus-for-orbital-workloads/</guid>
+      <pubDate>Mon, 23 Mar 2026 18:57:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>HS128: Planning for an AI Bubble Burst</title>
+      <link>https://feeds.packetpushers.net/link/22503/17305355/hs128-planning-for-an-ai-bubble-burst</link>
+      <description>How should you shape your IT strategy around the possibility–or is it probability–that the AI economy is a true bubble and will burst soon? John Burke and Johna Johnson revisit the signs indicating that an AI bubble is in full swing and pointing to the potential for collapse in the near term. Doomsaying having been... Read more »</description>
+      <guid isPermaLink="false">https://feeds.packetpushers.net/link/22503/17305355/hs128-planning-for-an-ai-bubble-burst</guid>
+      <enclosure url="https://feeds.packetpushers.net/link/22503/17305355.gif" length="0" type="image/gif"/>
+      <pubDate>Tue, 24 Mar 2026 17:19:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>PP102: What’s Driving SASE Adoption?</title>
+      <link>https://packetpushers.net/podcasts/packet-protector/pp102-whats-driving-sase-adoption/</link>
+      <description>Spending on SASE, which combines SD-WAN and cloud-delivered security, is forecast to nearly triple over the next few years, according to Dell’Oro Group. Today on Packet Protector we talk with that forecast’s author about what’s driving that spending. We also explore how SASE vendors are differentiating, architectural considerations for SASE deployments, pros and cons of... Read more »</description>
+      <guid isPermaLink="false">https://packetpushers.net/podcasts/packet-protector/pp102-whats-driving-sase-adoption/</guid>
+      <pubDate>Tue, 24 Mar 2026 17:19:55 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

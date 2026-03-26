@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Freifunk - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/freifunk.xml</link>
+    <description>Latest articles from Freifunk (blog.freifunk.net)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/freifunk.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 23:14:49 +0000</lastBuildDate>
+    <item>
+      <title>Midpoint Update: Social Media Archive - Freifunkblog</title>
+      <link>https://blog.freifunk.net/2025/07/01/freifunk-gsoc-midpoint-update-social-media-archive-sandra-taskovic/</link>
+      <description>Sandra Taskovic's GSoC 2025 midpoint update with the groundwork for Freifunk's Social Media Archive using Astro.</description>
+      <guid isPermaLink="false">https://blog.freifunk.net/2025/07/01/freifunk-gsoc-midpoint-update-social-media-archive-sandra-taskovic/</guid>
+      <enclosure url="https://blog.freifunk.net/wp-content/uploads/2025/07/1-1-1024x627.png" length="0" type="image/png"/>
+      <pubDate>Tue, 01 Jul 2025 20:43:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Midterm: Simplifying LibreMesh with OpenWrt-Native Solutions - Freifunkblog</title>
+      <link>https://blog.freifunk.net/2025/07/14/midterm-simplifying-libremesh-with-openwrt-native-solutions/</link>
+      <description>This blog documents my ongoing progress with LibreMesh during Google Summer of Code (GSoC) 2025. Specifically, I’m focusing on integrating OpenWrt-native solutions and simplifying LibreMesh modules. Currently, I am working on two main tasks: For testing and validation, I’m using three physical routers configured to simulate realistic network conditions. Task 1: Integrate OpenWrt’s watchcat via […]</description>
+      <guid isPermaLink="false">https://blog.freifunk.net/2025/07/14/midterm-simplifying-libremesh-with-openwrt-native-solutions/</guid>
+      <enclosure url="https://blog.freifunk.net/wp-content/uploads/2025/07/image.png" length="0" type="image/png"/>
+      <pubDate>Mon, 14 Jul 2025 19:52:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Virtual wifi in LibreMesh : real virtual mesh ! midterm project update - Freifunkblog</title>
+      <link>https://blog.freifunk.net/2025/07/15/virtual-wifi-in-libremesh-real-virtual-mesh-midterm-project-update/</link>
+      <description>This is Victor and in this blog post I will update regarding my progress for GSOC2025 : Adding wifi support to QEMU wifi simulations in LibreMesh A bit of back regarding wifi in the Linux Kernel Modern Linux kernel wifi stack can be seen like that : In simple terms, it works like this : […]</description>
+      <guid isPermaLink="false">https://blog.freifunk.net/2025/07/15/virtual-wifi-in-libremesh-real-virtual-mesh-midterm-project-update/</guid>
+      <enclosure url="https://blog.freifunk.net/wp-content/uploads/2025/07/Capture-decran-du-2025-07-14-22-34-46-1024x623.png" length="0" type="image/png"/>
+      <pubDate>Mon, 14 Jul 2025 22:35:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Progress Update on GSoC 2025 Project: Deep Q Network-based Rate Adaptation for IEEE 802.11ac Networks - Freifunkblog</title>
+      <link>https://blog.freifunk.net/2025/07/18/progress-update-on-gsoc-2025-project-deep-q-network-based-rate-adaptation-for-ieee-802-11ac-networks/</link>
+      <description>Hello everyone! As we reach the midpoint of Google Summer of Code 2025, I’m excited to share the progress on my project, Deep Q Network-based Rate Adaptation for IEEE 802.11ac Networks. The goal of this project is to build an intelligent rate control mechanism that can dynamically adapt transmission rates in Wi-Fi networks using Deep […]</description>
+      <guid isPermaLink="false">https://blog.freifunk.net/2025/07/18/progress-update-on-gsoc-2025-project-deep-q-network-based-rate-adaptation-for-ieee-802-11ac-networks/</guid>
+      <enclosure url="https://lh7-rt.googleusercontent.com/docsz/AD_4nXdddxkLcSHzQFhzyeg095tgXqp6OcqwaDuWbqKgRrVXaXeO_wE6Qs60zIW0PUbuFuUk1dpS48UffoFtb2vaRYhP00VFmSXoczgVNwHqaaPgmjsHMEhvEkXx7u5KCgq7x10yD2UhEw?key=i8pTTLdlZGulAW3K_LI6Ng" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 18 Jul 2025 15:33:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Midterm: qaul RPC User Authentication Layer - Freifunkblog</title>
+      <link>https://blog.freifunk.net/2025/07/30/midterm-qaul-rpc-user-authentication-layer/</link>
+      <description>Introduction: Hi everyone! As we reach the midpoint of Google Summer of Code 2025, I’m excited to share the progress no my project: qaul RPC User Authentication Layer. Working on the project has been challenging as well as rewarding for me, and I’m very excited to share what I’ve accomplished so far and what is […]</description>
+      <guid isPermaLink="false">https://blog.freifunk.net/2025/07/30/midterm-qaul-rpc-user-authentication-layer/</guid>
+      <enclosure url="https://blog.freifunk.net/wp-content/uploads/2025/07/image-4-1024x648.png" length="0" type="image/png"/>
+      <pubDate>Wed, 30 Jul 2025 07:36:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mission Accomplished: Wrapping Up the Freifunk Social Media Archive - GSoC 2025 - Freifunkblog</title>
+      <link>https://blog.freifunk.net/2025/08/04/sandra-taskovic-final-freifunk-social-media-archive-gsoc-2025/</link>
+      <description>Sandra Taskovic's final blog post for GSoC x Freifunk Social Medica Archive - Summer 2025. "I'm so proud and excited to be writing this final..</description>
+      <guid isPermaLink="false">https://blog.freifunk.net/2025/08/04/sandra-taskovic-final-freifunk-social-media-archive-gsoc-2025/</guid>
+      <enclosure url="https://blog.freifunk.net/wp-content/uploads/2025/08/astro1-1024x711.png" length="0" type="image/png"/>
+      <pubDate>Mon, 04 Aug 2025 05:48:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Final Report: Simplify LibreMesh and get it closer to OpenWrt - Freifunkblog</title>
+      <link>https://blog.freifunk.net/2025/08/25/final-report-simplify-libremesh-and-get-it-closer-to-openwrt/</link>
+      <description>This summer I focused on removing LibreMesh-specific glue where OpenWrt already has a solid upstream solution, and on tightening integration with OpenWrt services: Project goals What was built 1) Integrate OpenWrt’s watchcat via LibreMesh HWD Why: OpenWrt ships watchcat for scheduled reboots/network checks. Using it upstream avoids reboot logic and gains a familiar UI. What: […]</description>
+      <guid isPermaLink="false">https://blog.freifunk.net/2025/08/25/final-report-simplify-libremesh-and-get-it-closer-to-openwrt/</guid>
+      <enclosure url="https://blog.freifunk.net/wp-content/uploads/2025/08/task2diagram-371x1024.png" length="0" type="image/png"/>
+      <pubDate>Mon, 25 Aug 2025 13:56:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GSoC 2025:  Final Insights on  Deep Q Network-based Rate Adaptation for IEEE 802.11ac Networks - Freifunkblog</title>
+      <link>https://blog.freifunk.net/2025/08/27/gsoc-2025-final-insights-on-deep-q-network-based-rate-adaptation-for-ieee-802-11ac-networks/</link>
+      <description>1. Introduction Hi everyone! Welcome back to the final blog post in this series on Deep Q Network-based Rate Adaptation for IEEE 802.11ac Networks. The goal of this project is to build an intelligent rate control mechanism that can dynamically adapt transmission rates in Wi-Fi networks using Deep Reinforcement Learning. Modern Wi-Fi networks need to […]</description>
+      <guid isPermaLink="false">https://blog.freifunk.net/2025/08/27/gsoc-2025-final-insights-on-deep-q-network-based-rate-adaptation-for-ieee-802-11ac-networks/</guid>
+      <enclosure url="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd9Nozvcq13YWsnG9hUL6nAJsuVysZvED5GktlDGmfH_6cHxEvGJy6csYZNtsMxJ-NQ4miuWMxxbbWQ1VtxDIvPvdYuI_VIXcobMfoHjikjZSyF-Aa0y8mLmZXTaHFQ80oNFaeo?key=PqAcrD77a6YU2qxmwsluLw" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 27 Aug 2025 18:25:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>GSoC 2025 : Bringing Wi-Fi Support to QEMU Simulations for LibreMesh - Freifunkblog</title>
+      <link>https://blog.freifunk.net/2025/09/01/gsoc-2025-bringing-wi-fi-support-to-qemu-simulations-for-libremesh/</link>
+      <description>Hello everyone!This summer as part of GSOC 2025 I’ve worked on Adding Wi-Fi Support to QEMU Simulations in Libremesh. This project consisted in “bridging” virtual machine running LibreMesh firmware using their Wi-Fi interfaces inside QEMU, in order for it to become part of the development loop of the LibreMesh. This is my final write up […]</description>
+      <guid isPermaLink="false">https://blog.freifunk.net/2025/09/01/gsoc-2025-bringing-wi-fi-support-to-qemu-simulations-for-libremesh/</guid>
+      <enclosure url="https://blog.freifunk.net/wp-content/uploads/2025/09/virtual-mesh-vm.drawio-1024x367.png" length="0" type="image/png"/>
+      <pubDate>Mon, 01 Sep 2025 01:28:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>GSoC'25 Final Term : qaul RPC user authentication - Freifunkblog</title>
+      <link>https://blog.freifunk.net/2025/09/26/gsoc25-final-term-qaul-rpc-user-authentication/</link>
+      <description>Introduction Hi everyone! I’m thrilled to share that I’ve successfully completed my Google Summer of Code 2025 project with Freifunk and qaul! I’ve spent the past few months working on implementing a comprehensive RPC user authentication layer for qaul. This journey has been both challenging and incredibly rewarding, and I’m excited to share the final […]</description>
+      <guid isPermaLink="false">https://blog.freifunk.net/2025/09/26/gsoc25-final-term-qaul-rpc-user-authentication/</guid>
+      <enclosure url="https://blog.freifunk.net/wp-content/uploads/2025/09/upload_51442806d29df7935be72533316032e1-481x1024.png" length="0" type="image/png"/>
+      <pubDate>Fri, 26 Sep 2025 07:31:01 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

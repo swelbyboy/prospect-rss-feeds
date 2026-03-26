@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Journal of Radiation Oncology Informatics - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/journal-of-radiation-oncology-informatics.xml</link>
+    <description>Latest articles from Journal of Radiation Oncology Informatics (jroi.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/journal-of-radiation-oncology-informatics.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 22:23:50 +0000</lastBuildDate>
+    <item>
+      <title>Pilot Study of a Radiation Oncology Telemedicine Platform</title>
+      <link>https://jroi.org/article/view/3903</link>
+      <description>Purpose: A pilot study was undertaken to develop an integrated telemedicine platform for radiation oncology at Memorial Sloan-Kettering Cancer Center (MSKCC) and its regional sites. The platform consisted of a computer system with simultaneous display of multiple live data portals including 1) video-conferencing between physicians, 2) radiology, and 3) radiation treatment-planning system (RTPS). Methods and Materials: Two MSKCC regional centers were set up with a widescreen monitor, a dedicated</description>
+      <guid isPermaLink="false">https://jroi.org/article/view/3903</guid>
+      <pubDate>Tue, 26 Sep 2017 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Prediction of Radiation Pneumonitis Arising from Lung Cancer Patients Using Machine Learning Approaches</title>
+      <link>https://jroi.org/article/view/3900</link>
+      <description>Radiation pneumonitis (RP) is a potentially fatal side effect arising in lung cancer patients who receive radiotherapy as part of their treatment. For the modeling of RP outcomes data, several predictive models based on traditional statistical methods and machine learning techniques have been reported. However, no guidance to variation in performance has been provided to date. In this study, we explore several machine learning algorithms for classification of RP data. The performance of these cl</description>
+      <guid isPermaLink="false">https://jroi.org/article/view/3900</guid>
+      <pubDate>Tue, 26 Sep 2017 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dodes (diagnostic nodes) for Guideline Manipulation</title>
+      <link>https://jroi.org/article/view/3901</link>
+      <description>Background: Treatment recommendations (guidelines) are commonly represented in text form. Based on parameters (questions) recommendations are defined (answers). Objectives: To improve handling, alternative forms of representation are required. Methods: The concept of Dodes (diagnostic nodes) has been developed. Dodes contain answers and questions. Dodes are based on linked nodes and additionally contain descriptive information and recommendations. Dodes are organized hierarchically into Dode tre</description>
+      <guid isPermaLink="false">https://jroi.org/article/view/3901</guid>
+      <pubDate>Tue, 26 Sep 2017 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Graphical Tool and Methods for Assessing Margin Definition From Daily Image Deformations</title>
+      <link>https://jroi.org/article/view/3902</link>
+      <description>Estimating the proper margins for the planning target volume (PTV) could be a challenging task in cases where the organ undergoes significant changes during the course of radiotherapy treatment. Developments in image-guidance and the presence of onboard imaging technologies facilitate the process of correcting setup errors. However, estimation of errors to organ motions remain an open question due to the lack of proper software tools to accompany these imaging technological advances. Therefore,</description>
+      <guid isPermaLink="false">https://jroi.org/article/view/3902</guid>
+      <pubDate>Tue, 26 Sep 2017 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automated contrast painting for position verification in radiotherapy</title>
+      <link>https://jroi.org/article/view/3899</link>
+      <description>The influence of information technology in medicine has been constantly rising and represents a central part in many medical disciplines, especially radio-oncology. For the proper delivery of radiation treatment, the correct position of the patient is essential. To verify the correct position of the patient radiological images are made. In order to compare positions, contours of structures (often bones) may be used, these need to be identified and painted. The software that was provided with the</description>
+      <guid isPermaLink="false">https://jroi.org/article/view/3899</guid>
+      <pubDate>Tue, 26 Sep 2017 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Techniques and software tool for 3D multimodality medical image segmentation</title>
+      <link>https://jroi.org/article/view/3898</link>
+      <description>The era of noninvasive diagnostic radiology and image-guided radiotherapy has witnessed burgeoning interest in applying different imaging modalities to stage and localize complex diseases such as atherosclerosis or cancer. It has been observed that using complementary information from multimodality images often significantly improves the robustness and accuracy of target volume definitions in radiotherapy treatment of cancer. In this work, we present techniques and an interactive software tool t</description>
+      <guid isPermaLink="false">https://jroi.org/article/view/3898</guid>
+      <pubDate>Tue, 26 Sep 2017 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Radiomics in oncology - uncovering tumor phenotype from medical images: a short introduction</title>
+      <link>https://jroi.org/article/view/8010</link>
+      <description>Radiomics is a promising method to quantify and describe the tumor phenotype on medical images. High numbers of image features are extracted from medical images and can be used within a clinical decision support system by integrating this data with clinical and pathological variables. Herein, we give a short introduction into this image analysis method and present an overview on the workflow.</description>
+      <guid isPermaLink="false">https://jroi.org/article/view/8010</guid>
+      <pubDate>Tue, 17 Aug 2021 22:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Data-driven shared decision-making: a paradigm shift</title>
+      <link>https://jroi.org/article/view/7669</link>
+      <description>At first sight, shared decision-making and data science seem like two vastly different fields. Yet, despite their differences, both fields could, if combined, reinforce clinical utility for both. Here we describe a new paradigm called data-driven shared decision-making (dSDM), an extension of the existing shared decision-making paradigm. In dSDM, data’s role and its interaction with the patient and doctor are made explicit. Furthermore, we describe the opportunities and challenges of combining d</description>
+      <guid isPermaLink="false">https://jroi.org/article/view/7669</guid>
+      <pubDate>Mon, 08 Nov 2021 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multilayer Perceptron Analysis of Radiomics to Predict Local Recurrence of Lung Cancer After Radiotherapy</title>
+      <link>https://jroi.org/article/view/8821</link>
+      <description>Purpose: to assess the likelihood of local recurrence of lung malignancies following stereotactic ablative radiotherapy (SABR) by evaluating clinical and radiomic features with machine learning and novel use of deep learning methods. Methods: pre-treatment CT images were attained from seventy patients with primary lung malignancies. The malignancy was segmented by the treating radiation oncologist and 107 radiomic features were extracted from the image. The data underwent feature reduction via S</description>
+      <guid isPermaLink="false">https://jroi.org/article/view/8821</guid>
+      <pubDate>Fri, 23 Dec 2022 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Patient self-reported follow-up for radiation oncology patients during COVID-19: feasibility and patient-clinician agreement</title>
+      <link>https://jroi.org/article/view/8099</link>
+      <description>Introduction COVID-19 required health services to be innovative and quickly adapt their health service delivery, including adopting health technology in cancer clinical practice. COVID-19 restrictions forced us to introduce follow-up consultations for many patients via telehealth. At the same time, we adapted an existing Patient Reported Outcome messaging service that linked to the patient’s medical record to allow patients to self-report their health and disease status before their telehealth f</description>
+      <guid isPermaLink="false">https://jroi.org/article/view/8099</guid>
+      <pubDate>Mon, 06 Feb 2023 23:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>WTAN - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/wtan.xml</link>
+    <description>Latest articles from WTAN (tantalk1340.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/wtan.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 21:29:04 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://www.tantalk1340.com/hello-world/</link>
+      <description>Hello world!</description>
+      <guid isPermaLink="false">https://www.tantalk1340.com/hello-world/</guid>
+      <pubDate>Mon, 28 Jul 2014 21:23:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tools ‹ Tan Talk 1340 — WordPress</title>
+      <link>https://www.tantalk1340.com/tools-tan-talk-1340-wordpress/</link>
+      <description>Tools ‹ Tan Talk 1340 — WordPress.</description>
+      <guid isPermaLink="false">https://www.tantalk1340.com/tools-tan-talk-1340-wordpress/</guid>
+      <pubDate>Tue, 29 Jul 2014 14:31:57 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

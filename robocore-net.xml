@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>robocore.net - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/robocore-net.xml</link>
+    <description>Latest articles from robocore.net (robocore.net)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/robocore-net.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 13:02:36 +0000</lastBuildDate>
+    <item>
+      <title>Bootloader com Mudanca de Nome, pid, vid</title>
+      <link>http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47946#47946</link>
+      <description>Olá, JCESILVA, exatamente 4 anos e ninguém pra ajudar, levantar o assunto ou sequer comentar.</description>
+      <guid isPermaLink="false">http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47946#47946</guid>
+      <pubDate>Wed, 25 Mar 2026 12:59:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>HIGH e LOW com Ponte H</title>
+      <link>http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47945#47945</link>
+      <description>Olá! Em circuitos eletrônicos é importante que tudo tenha a mesma referência, e isso é feito através do GND. Basta interligar o GND, tanto da placa Arduino quanto do Driver, que tudo deve funcionar corretamente. Vale lembrar que as placas Arduino podem ser alimentadas com tensões entre 7 e 12V, portanto você pode usar as suas baterias para alimentar a placa Arduino, e então alimentar o driver para os motores através do pino VIN da placa.</description>
+      <guid isPermaLink="false">http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47945#47945</guid>
+      <pubDate>Wed, 25 Mar 2026 13:00:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Problema em fazer Upload usando Arduino Cloud</title>
+      <link>http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47944#47944</link>
+      <description>Olá! O plugin " Arduino Create Agent" foi [url=https://support.arduino.cc/hc/en-us/articles/360014869820-Install-the-Arduino-Create-Agent]instalado[/url] no seu computador? Se sim, ele está sendo executado corretamente? Vale lembrar que é necessário que ele esteja instalado e executando em plano de fundo, para que a IDE Web tenha acesso às portas USB do computador do computador, e possa gravar o código. Além disso, verifique se o modelo de placa está corretamente selecionado. Se continuar, envie</description>
+      <guid isPermaLink="false">http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47944#47944</guid>
+      <pubDate>Wed, 25 Mar 2026 13:00:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Erro com Display LCD 16X2 I2C</title>
+      <link>http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47943#47943</link>
+      <description>Olá pessoal, eu gostaria da ajuda de vocês para resolver um problema. Eu projetei e montei uma placa baseada no controlador do arduino uno, essa placa trabalha recebendo sinais de sensores PNP, essa placa também trabalha com um display LCD I2 C 16X2, porém um bom número de placas não apresentou bom funcionamento com o display, o display não mostra nada, fica apenas com a primeira linha toda ocupada. Já olhei diversos tutoriais na internet, disseram que poderia ser solda, mal contato e algumas ou</description>
+      <guid isPermaLink="false">http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47943#47943</guid>
+      <pubDate>Wed, 25 Mar 2026 13:00:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alerta amigo!</title>
+      <link>http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47942#47942</link>
+      <description>Os códigos abaixo demonstram uma forma de realizar a conexão de dois dispositivos (central e periférico) usando o ESP-NOW ( ). O material disponibilizado abaixo, foi feito apenas para fins de estudo/exemplo, logo, para usá-lo em aplicações reais, talvez seja necessário algumas modificações, para a melhor otimização da aplicação, e dependendo da aplicação, o conceito mostrado abaixo pode ser útil. Para essa aplicação, usarmos os seguintes itens: 2 x [url=https://www.robocore.net/placa-robocore/bl</description>
+      <guid isPermaLink="false">http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47942#47942</guid>
+      <pubDate>Wed, 25 Mar 2026 13:01:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Erro na compilacao.</title>
+      <link>http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47941#47941</link>
+      <description>Somente executar o programa Arduino IDE como administrador que irá funcionar.</description>
+      <guid isPermaLink="false">http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47941#47941</guid>
+      <pubDate>Wed, 25 Mar 2026 13:01:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>[RESOLVIDO]  Alternar variável char</title>
+      <link>http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47939#47939</link>
+      <description>Não estou conseguindo alternar as variáveis globais para um teste de ping, consigo apenas quando leio da EEPROM. Alguém pode me ajudar a resolver isso ? Estou usando no ESP32, mas acredito que o código funcione também para ARDUINO. Desde já agradeço. PS: Só posso usar char. RESOLVIDO: strcpy(PING_SELECT, PING_INTERNO); strcpy(PING_SELECT, PING_EXTERNO); #include char PING_INTERNO [32] = "10.1.1.1"; char PING_EXTERNO [32] = "cnn.com"; char PING_EEPROM_01 [32] = "192.168.1.1"; char PING_EEPROM_02</description>
+      <guid isPermaLink="false">http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47939#47939</guid>
+      <pubDate>Wed, 25 Mar 2026 13:01:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>peças iguais em uma montagem no solidworks</title>
+      <link>http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47938#47938</link>
+      <description>ola boa noite,sou projetista e conheço muito bem o solidworks.Pra solução de sua necessidade existem duas maneiras de fazer isso. a primeira e mais correta e salvar como/ recodificar sua peça. a outra e criando configuraçoes dentro da mesma peça. Onde podera usar em uma posição uma das configuraçoes e em outra ,ao mesmo tempo outra configuração. Mas lembrando que por ter o meso codigo de produto ,nao podera ter dois desenhos diferentes.mesmo que tenha duas confuguraçoes na mesma peça. por questo</description>
+      <guid isPermaLink="false">http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47938#47938</guid>
+      <pubDate>Wed, 25 Mar 2026 13:01:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Observe isto antes de usar o Shield Sensor Nano V3-0 @Fgc60</title>
+      <link>http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47937#47937</link>
+      <description>Quando acoplado ao Shield Sensor Nano V3 você não deve usar as saídas de alimentação de 5V para cargas de consumo maior que os pinos do Arduino Nano individualmente ou superior a capacidade total da placa. Por favor, compartilhe esse vídeo, comente, se inscreva no canal, deixe um like. Minha Playlist: "Não deixe o que você sabe se perder, compartilhe sempre!"</description>
+      <guid isPermaLink="false">http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47937#47937</guid>
+      <pubDate>Wed, 25 Mar 2026 13:02:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Frequência rádio de controle remoto de ventilado arno vx10</title>
+      <link>http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47935#47935</link>
+      <description>[quote:4519182ca8="eloimendes"][quote:4519182ca8="dsdturbo"][quote:4519182ca8="regner"][quote:4519182ca8="kenedyfarias"]Olá pessoal! Tenho 3 ventiladores Arno Ultimate. Dois na minha sala e um no meu escritório. Comprei dois Hubs IR + RF da Tuya para configurar o comando de voz pela Alexa, mas o Hub não está encontrando o sinal dos botões do controle. Conseguem me dar alguma dica? Obrigado.[/quote:4519182ca8] Algum sucesso com Hub Tuya IR+RF para os ventiladores Arno?[/quote:4519182ca8] Bom Dia,</description>
+      <guid isPermaLink="false">http://www.robocore.net/modules.php?name=Forums&amp;file=viewtopic&amp;p=47935#47935</guid>
+      <pubDate>Wed, 25 Mar 2026 13:02:36 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

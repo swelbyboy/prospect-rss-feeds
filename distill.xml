@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Distill - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/distill.xml</link>
+    <description>Latest articles from Distill (distill.pub)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/distill.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 17:53:07 +0000</lastBuildDate>
+    <item>
+      <title>Curve Circuits</title>
+      <link>https://distill.pub/2020/circuits/curve-circuits</link>
+      <description>Reverse engineering the curve detection algorithm from InceptionV1 and reimplementing it from scratch.</description>
+      <guid isPermaLink="false">https://distill.pub/2020/circuits/curve-circuits</guid>
+      <enclosure url="https://distill.pub/2020/circuits/curve-circuits/thumbnail.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 30 Jan 2021 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Visualizing Weights</title>
+      <link>https://distill.pub/2020/circuits/visualizing-weights</link>
+      <description>We present techniques for visualizing, contextualizing, and understanding neural network weights.</description>
+      <guid isPermaLink="false">https://distill.pub/2020/circuits/visualizing-weights</guid>
+      <enclosure url="https://distill.pub/2020/circuits/visualizing-weights/thumbnail.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 04 Feb 2021 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-Organising Textures</title>
+      <link>https://distill.pub/selforg/2021/textures</link>
+      <description>Neural Cellular Automata learn to generate textures, exhibiting surprising properties.</description>
+      <guid isPermaLink="false">https://distill.pub/selforg/2021/textures</guid>
+      <enclosure url="https://distill.pub/selforg/2021/textures/thumbnail.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 11 Feb 2021 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multimodal Neurons in Artificial Neural Networks</title>
+      <link>https://distill.pub/2021/multimodal-neurons</link>
+      <description>We report the existence of multimodal neurons in artificial neural networks, similar to those found in the human brain.</description>
+      <guid isPermaLink="false">https://distill.pub/2021/multimodal-neurons</guid>
+      <enclosure url="https://distill.pub/2021/multimodal-neurons/thumbnail.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 04 Mar 2021 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Branch Specialization</title>
+      <link>https://distill.pub/2020/circuits/branch-specialization</link>
+      <description>When a neural network layer is divided into multiple branches, neurons self-organize into coherent groupings.</description>
+      <guid isPermaLink="false">https://distill.pub/2020/circuits/branch-specialization</guid>
+      <enclosure url="https://distill.pub/2020/circuits/branch-specialization/thumbnail.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 05 Apr 2021 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Weight Banding</title>
+      <link>https://distill.pub/2020/circuits/weight-banding</link>
+      <description>Weights in the final layer of common visual models appear as horizontal bands. We investigate how and why.</description>
+      <guid isPermaLink="false">https://distill.pub/2020/circuits/weight-banding</guid>
+      <enclosure url="https://distill.pub/2020/circuits/weight-banding/thumbnail.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 08 Apr 2021 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Adversarial Reprogramming of Neural Cellular Automata</title>
+      <link>https://distill.pub/selforg/2021/adversarial</link>
+      <description>Reprogramming Neural CA to exhibit novel behaviour, using adversarial attacks.</description>
+      <guid isPermaLink="false">https://distill.pub/selforg/2021/adversarial</guid>
+      <enclosure url="https://distill.pub/selforg/2021/adversarial/thumbnail.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 06 May 2021 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Distill Hiatus</title>
+      <link>https://distill.pub/2021/distill-hiatus</link>
+      <description>After five years, Distill will be taking a break.</description>
+      <guid isPermaLink="false">https://distill.pub/2021/distill-hiatus</guid>
+      <enclosure url="https://distill.pub/2021/distill-hiatus/thumbnail.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 02 Jul 2021 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Gentle Introduction to Graph Neural Networks</title>
+      <link>https://distill.pub/2021/gnn-intro</link>
+      <description>What components are needed for building learning algorithms that leverage the structure and properties of graphs?</description>
+      <guid isPermaLink="false">https://distill.pub/2021/gnn-intro</guid>
+      <enclosure url="https://distill.pub/2021/gnn-intro/thumbnail.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Sep 2021 20:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding Convolutions on Graphs</title>
+      <link>https://distill.pub/2021/understanding-gnns</link>
+      <description>Understanding the building blocks and design choices of graph neural networks.</description>
+      <guid isPermaLink="false">https://distill.pub/2021/understanding-gnns</guid>
+      <enclosure url="https://distill.pub/2021/understanding-gnns/thumbnail.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Sep 2021 20:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

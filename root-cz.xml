@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>root.cz - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/root-cz.xml</link>
+    <description>Latest articles from root.cz (root.cz)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/root-cz.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 17:25:59 +0000</lastBuildDate>
+    <item>
+      <title>Programování pro osmibitová Atari: makra asm CA65, trik s instrukcí RTS - Root.cz</title>
+      <link>https://www.root.cz/clanky/programovani-pro-osmibitova-atari-makra-asm-ca65-trik-s-instrukci-rts/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</link>
+      <description>Ve třetím článku o vývoji programů pro osmibitové počítače Atari si popíšeme základy použití maker v assembleru CA65. Vytvoříme příklad pro výpis…</description>
+      <guid isPermaLink="false">https://www.root.cz/clanky/programovani-pro-osmibitova-atari-makra-asm-ca65-trik-s-instrukci-rts/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</guid>
+      <enclosure url="https://i.iinfo.cz/images/184/projekt-atari-xe-perex_watermark-root-cz.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 16 Mar 2026 23:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Softwarová sklizeň (18. 3. 2026): monitorujte prostředky bez agentů - Root.cz</title>
+      <link>https://www.root.cz/clanky/softwarova-sklizen-18-3-2026-monitorujte-prostredky-bez-agentu/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</link>
+      <description>Představíme si bezagentní monitoring systémových prostředků, budeme importovat hudební playlisty, zautomatizujeme průzkum pro bezpečnostní testování a…</description>
+      <guid isPermaLink="false">https://www.root.cz/clanky/softwarova-sklizen-18-3-2026-monitorujte-prostredky-bez-agentu/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</guid>
+      <enclosure url="https://i.iinfo.cz/images/root/368/kombajn-sklizen_watermark-root-cz.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 17 Mar 2026 23:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Knihovna SciPy: interpolace a aproximace - Root.cz</title>
+      <link>https://www.root.cz/clanky/knihovna-scipy-interpolace-a-aproximace/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</link>
+      <description>Techniky interpolace a aproximace se v praxi poměrně často používají, a to v mnoha oblastech, ovšem nejlépe si je můžeme vyzkoušet v případě, že je…</description>
+      <guid isPermaLink="false">https://www.root.cz/clanky/knihovna-scipy-interpolace-a-aproximace/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</guid>
+      <enclosure url="https://i.iinfo.cz/images/610/vedec-pouziva-ke-sve-praci-pocitac-a-python_watermark-root-cz.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Mar 2026 23:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zkušenosti s nákupem levného mini PC: kupujeme Ryzen 7 ze zahraničí - Root.cz</title>
+      <link>https://www.root.cz/clanky/zkusenosti-s-nakupem-levneho-mini-pc-kupujeme-ryzen-7-ze-zahranici/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</link>
+      <description>Když Microsoft oznámil konec Windows 10, musel jsem vyměnit hardware. Vybral jsem levný mini PC Acemagic s procesorem Ryzen 7. Nákupem ze zahraničí je…</description>
+      <guid isPermaLink="false">https://www.root.cz/clanky/zkusenosti-s-nakupem-levneho-mini-pc-kupujeme-ryzen-7-ze-zahranici/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</guid>
+      <enclosure url="https://i.iinfo.cz/images/684/acemagic-w1_watermark-root-cz.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Mar 2026 23:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Paranoikova představa o budoucnosti Linuxu: je to špatné a bude hůř - Root.cz</title>
+      <link>https://www.root.cz/clanky/paranoikova-predstava-o-budoucnosti-linuxu-je-to-spatne-a-bude-hur/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</link>
+      <description>Minulý týden jsme se vezli na pozitivní vlně kolem API Vulkan a jeho roli v zachování funkčnosti her, které na moderních Windows často už nefungují…</description>
+      <guid isPermaLink="false">https://www.root.cz/clanky/paranoikova-predstava-o-budoucnosti-linuxu-je-to-spatne-a-bude-hur/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</guid>
+      <enclosure url="https://i.iinfo.cz/images/534/ne-ai_watermark-root-cz.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Mar 2026 23:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>KDE Plasma s 3D LUT, Valve chystající 64bit Steam pro Linux - Root.cz</title>
+      <link>https://www.root.cz/clanky/kde-plasma-s-3d-lut-valve-chystajici-64bit-steam-pro-linux/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</link>
+      <description>Týden v KDE a nejen zaoblené rohy oken a 3D LUT pro GPU, týden v GNOME #241 ve znamení padesátky, boot na Apple M3 je tu, beta Steamu pro 64bit běžící…</description>
+      <guid isPermaLink="false">https://www.root.cz/clanky/kde-plasma-s-3d-lut-valve-chystajici-64bit-steam-pro-linux/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</guid>
+      <enclosure url="https://i.iinfo.cz/images/400/kde-plasma-6-3-0_watermark-root-cz.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 21 Mar 2026 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ujorm3: nový lehký ORM pro JavaBeans a Records - Root.cz</title>
+      <link>https://www.root.cz/clanky/ujorm3-novy-lehky-orm-pro-javabeans-a-records/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</link>
+      <description>Píšeme o serverech, sítích a počítačové bezpečnosti. Články, zprávičky, komentáře, fórum.</description>
+      <guid isPermaLink="false">https://www.root.cz/clanky/ujorm3-novy-lehky-orm-pro-javabeans-a-records/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</guid>
+      <enclosure url="https://i.iinfo.cz/sh/logo/socialNetworks/logo--root-cz.png" length="0" type="image/png"/>
+      <pubDate>Sun, 22 Mar 2026 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SUSE bude možná na prodej, Německo sází na formát ODF - Root.cz</title>
+      <link>https://www.root.cz/clanky/suse-bude-mozna-na-prodej-nemecko-sazi-na-format-odf/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</link>
+      <description>Společnost SUSE by v blízké budoucnosti mohla být opět na prodej. Německo nařídilo své státní správě používat výhradně otevřené formáty. Vyšla Fedora…</description>
+      <guid isPermaLink="false">https://www.root.cz/clanky/suse-bude-mozna-na-prodej-nemecko-sazi-na-format-odf/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</guid>
+      <enclosure url="https://i.iinfo.cz/images/323/suse-praha-2023_watermark-root-cz.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 22 Mar 2026 23:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Postřehy z bezpečnosti: osm her na Steamu kradlo kryptoměny a data - Root.cz</title>
+      <link>https://www.root.cz/clanky/postrehy-z-bezpecnosti-osm-her-na-steamu-kradlo-kryptomeny-a-data/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</link>
+      <description>V dnešním bezpečnostním přehledu se podíváme na šíření malwaru na Steamu, další kritickou zranitelnost v telnetu, íránskou odvetu USA v kyberprostoru a…</description>
+      <guid isPermaLink="false">https://www.root.cz/clanky/postrehy-z-bezpecnosti-osm-her-na-steamu-kradlo-kryptomeny-a-data/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</guid>
+      <enclosure url="https://i.iinfo.cz/images/639/steam_watermark-root-cz.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 22 Mar 2026 23:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Programování pro osmibitová Atari: blokové výplně a přesuny dat, grafický subsystém - Root.cz</title>
+      <link>https://www.root.cz/clanky/programovani-pro-osmibitova-atari-blokove-vyplne-a-presuny-dat-graficky-subsystem/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</link>
+      <description>Čtvrtý článek o vývoji pro počítače Atari je rozdělen na dvě části. V části první si ukážeme vyplňování paměti i přesunů bloků pouze s využitím…</description>
+      <guid isPermaLink="false">https://www.root.cz/clanky/programovani-pro-osmibitova-atari-blokove-vyplne-a-presuny-dat-graficky-subsystem/?utm_source=rss&amp;utm_medium=text&amp;utm_campaign=rss</guid>
+      <enclosure url="https://i.iinfo.cz/images/184/projekt-atari-xe-perex_watermark-root-cz.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 23:00:10 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

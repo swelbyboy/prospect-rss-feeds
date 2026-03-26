@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>3ABN Latino - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/3abn-latino.xml</link>
+    <description>Latest articles from 3ABN Latino (3abnlatino.tv)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/3abn-latino.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 00:16:15 +0000</lastBuildDate>
+    <item>
+      <title>Welcome to Jekyll!</title>
+      <link>http://3abnlatino.tv/jekyll/update/2015/08/04/welcome-to-jekyll.html</link>
+      <description>You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated. To add new posts, simply add a file in the _posts directory that follows the convention YYYY-MM-DD-name-of-post.ext and includes the necessary front matter. Take a look at the source for this post to get an i</description>
+      <guid isPermaLink="false">http://3abnlatino.tv/jekyll/update/2015/08/04/welcome-to-jekyll.html</guid>
+      <pubDate>Tue, 04 Aug 2015 18:36:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Slug</title>
+      <link>http://3abnlatino.tv/jekyl/update/2016/02/23/new-slug.html</link>
+      <description>New Slug</description>
+      <guid isPermaLink="false">http://3abnlatino.tv/jekyl/update/2016/02/23/new-slug.html</guid>
+      <pubDate>Tue, 23 Feb 2016 20:48:41 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

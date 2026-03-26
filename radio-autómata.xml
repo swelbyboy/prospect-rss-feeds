@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Radio Autómata - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/radio-autómata.xml</link>
+    <description>Latest articles from Radio Autómata (automata.bearblog.dev)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/radio-autómata.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 07:10:50 +0000</lastBuildDate>
+    <item>
+      <title>Radio experimental</title>
+      <link>https://automata.bearblog.dev/radio-experimental/</link>
+      <description>Descripción de la radio y el sitio.</description>
+      <guid isPermaLink="false">https://automata.bearblog.dev/radio-experimental/</guid>
+      <enclosure url="/static/og-image.png" length="0" type="image/png"/>
+      <pubDate>Wed, 20 Oct 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Teorías de la radio (1927-1932)</title>
+      <link>https://automata.bearblog.dev/teorias-de-la-radio-1927-1932/</link>
+      <description>Texto de Bertolt Brecht sobre la radio.</description>
+      <guid isPermaLink="false">https://automata.bearblog.dev/teorias-de-la-radio-1927-1932/</guid>
+      <enclosure url="/static/og-image.png" length="0" type="image/png"/>
+      <pubDate>Sun, 19 Dec 2021 04:41:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Programando la radio</title>
+      <link>https://automata.bearblog.dev/codigo-de-la-radio/</link>
+      <description>Código de liquidsoap</description>
+      <guid isPermaLink="false">https://automata.bearblog.dev/codigo-de-la-radio/</guid>
+      <enclosure url="/static/og-image.png" length="0" type="image/png"/>
+      <pubDate>Sun, 19 Dec 2021 05:41:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Manifiesto del micro radio</title>
+      <link>https://automata.bearblog.dev/manifiesto-del-micro-radio/</link>
+      <description>Link al manifiesto del micro radio</description>
+      <guid isPermaLink="false">https://automata.bearblog.dev/manifiesto-del-micro-radio/</guid>
+      <enclosure url="/static/og-image.png" length="0" type="image/png"/>
+      <pubDate>Mon, 20 Dec 2021 02:34:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Video de la presentación en el hackmitin 2021 en México</title>
+      <link>https://automata.bearblog.dev/video-de-la-presentacion-en-el-hackmitin-2021-en-mexico/</link>
+      <description>La liga para el video en el internet archive: https://archive.org/details/liquidsoaphackmitin2021-2021-12-1911.17.01...</description>
+      <guid isPermaLink="false">https://automata.bearblog.dev/video-de-la-presentacion-en-el-hackmitin-2021-en-mexico/</guid>
+      <enclosure url="/static/og-image.png" length="0" type="image/png"/>
+      <pubDate>Mon, 20 Dec 2021 02:36:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Radio Alice</title>
+      <link>https://automata.bearblog.dev/radio-alice/</link>
+      <description>Radio Alice Una entrevista con Franco Berardi sobre Radio Alice, una emisora libre en Bolonia de 1973 a 1977. Radio Alice fue una emisora libre en ...</description>
+      <guid isPermaLink="false">https://automata.bearblog.dev/radio-alice/</guid>
+      <enclosure url="/static/og-image.png" length="0" type="image/png"/>
+      <pubDate>Wed, 26 Jun 2024 23:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

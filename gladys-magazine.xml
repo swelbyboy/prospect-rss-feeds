@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Gladys Magazine - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/gladys-magazine.xml</link>
+    <description>Latest articles from Gladys Magazine (gladysmagazine.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/gladys-magazine.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 02:47:20 +0000</lastBuildDate>
+    <item>
+      <title>testing article</title>
+      <link>https://gladysmagazine.com/index.php/en/24-featured-articles/10-testing-article</link>
+      <description>smartslider3[5]</description>
+      <guid isPermaLink="false">https://gladysmagazine.com/index.php/en/24-featured-articles/10-testing-article</guid>
+      <pubDate>Thu, 29 Nov 2018 13:54:53 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

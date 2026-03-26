@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>CJVN-FM - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/cjvn-fm.xml</link>
+    <description>Latest articles from CJVN-FM (fmradiovienouvelle.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/cjvn-fm.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 21:13:04 +0000</lastBuildDate>
+    <item>
+      <title>ÉMISSION RÉVEIL MATIN</title>
+      <link>https://fmradiovienouvelle.com/teste/</link>
+      <description>ÉMISSION RÉVEIL MATIN</description>
+      <guid isPermaLink="false">https://fmradiovienouvelle.com/teste/</guid>
+      <enclosure url="http://fmradiovienouvelle.com/wp-content/uploads/2019/05/PTurpin-1-1024x683.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 05 May 2019 04:01:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>ÉMISSION PAROLE DE FEMMES</title>
+      <link>https://fmradiovienouvelle.com/emission-teste/</link>
+      <description>ÉMISSION PAROLE DE FEMMES</description>
+      <guid isPermaLink="false">https://fmradiovienouvelle.com/emission-teste/</guid>
+      <enclosure url="http://fmradiovienouvelle.com/wp-content/uploads/2019/05/annabelle-1-1024x683.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 05 May 2019 05:55:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>CAPSULES DE VIE</title>
+      <link>https://fmradiovienouvelle.com/emission-teste-2/</link>
+      <description>CAPSULES DE VIE</description>
+      <guid isPermaLink="false">https://fmradiovienouvelle.com/emission-teste-2/</guid>
+      <enclosure url="http://fmradiovienouvelle.com/wp-content/uploads/2019/05/MatTurpin-1-1024x683.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 05 May 2019 06:23:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>LES VOIES DU SEIGNEUR</title>
+      <link>https://fmradiovienouvelle.com/les-voies-du-seigneur/</link>
+      <description>LES VOIES DU SEIGNEUR</description>
+      <guid isPermaLink="false">https://fmradiovienouvelle.com/les-voies-du-seigneur/</guid>
+      <enclosure url="http://fmradiovienouvelle.com/wp-content/uploads/2019/05/pasteurfiston-1024x683.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 27 May 2019 15:29:28 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

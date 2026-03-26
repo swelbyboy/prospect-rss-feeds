@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>KJUL - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/kjul.xml</link>
+    <description>Latest articles from KJUL (kjul1047.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/kjul.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 01:32:45 +0000</lastBuildDate>
+    <item>
+      <title>Sports Report</title>
+      <link>https://kjul1047.com/vip-sports-report/</link>
+      <description>Sports Report</description>
+      <guid isPermaLink="false">https://kjul1047.com/vip-sports-report/</guid>
+      <pubDate>Wed, 06 Mar 2024 18:55:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Music Report</title>
+      <link>https://kjul1047.com/vip-music-report/</link>
+      <description>Music Report</description>
+      <guid isPermaLink="false">https://kjul1047.com/vip-music-report/</guid>
+      <pubDate>Wed, 06 Mar 2024 20:20:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hollywood Report</title>
+      <link>https://kjul1047.com/vip-hollywood-report/</link>
+      <description>Hollywood Report</description>
+      <guid isPermaLink="false">https://kjul1047.com/vip-hollywood-report/</guid>
+      <pubDate>Wed, 06 Mar 2024 20:21:58 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

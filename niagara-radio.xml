@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Niagara Radio - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/niagara-radio.xml</link>
+    <description>Latest articles from Niagara Radio (niagararadio.net)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/niagara-radio.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 04:37:19 +0000</lastBuildDate>
+    <item>
+      <title>Coming soon local Niagara News.</title>
+      <link>https://niagararadio.net/news/coming-soon-local-niagara-news/</link>
+      <description>Come back soon to view all your local Niagara Falls news in one place. Police Blotter, Obituaries, Local Happenings, etc.</description>
+      <guid isPermaLink="false">https://niagararadio.net/news/coming-soon-local-niagara-news/</guid>
+      <pubDate>Mon, 11 Dec 2017 18:50:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Obituaries Test Page</title>
+      <link>https://niagararadio.net/news/obituaries-test-page/</link>
+      <description>Test Post</description>
+      <guid isPermaLink="false">https://niagararadio.net/news/obituaries-test-page/</guid>
+      <pubDate>Sun, 25 Feb 2018 20:42:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>2nd Test</title>
+      <link>https://niagararadio.net/news/2nd-test/</link>
+      <description>Test 2</description>
+      <guid isPermaLink="false">https://niagararadio.net/news/2nd-test/</guid>
+      <pubDate>Sun, 25 Feb 2018 20:43:22 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

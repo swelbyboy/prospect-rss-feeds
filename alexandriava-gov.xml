@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>alexandriava.gov - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/alexandriava-gov.xml</link>
+    <description>Latest articles from alexandriava.gov (alexandriava.gov)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/alexandriava-gov.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 12:46:44 +0000</lastBuildDate>
+    <item>
+      <title>Front Page</title>
+      <link>https://alexandriava.gov/Info/front-page</link>
+      <description>Visit alexandriava.gov for more information.</description>
+      <guid isPermaLink="false">https://alexandriava.gov/Info/front-page</guid>
+      <enclosure url="https://alexandriava.gov/sites/default/files/2021-12/cityseal-fb.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 04 Nov 2019 18:59:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>City of Alexandria, VA</title>
+      <link>https://alexandriava.gov/node/5417</link>
+      <description>The official government website of the City of Alexandria.</description>
+      <guid isPermaLink="false">https://alexandriava.gov/node/5417</guid>
+      <enclosure url="https://alexandriava.gov/sites/default/files/2021-12/cityseal-fb.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 23 Jan 2024 19:32:15 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

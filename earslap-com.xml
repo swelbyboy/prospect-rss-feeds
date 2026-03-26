@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>earslap.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/earslap-com.xml</link>
+    <description>Latest articles from earslap.com (earslap.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/earslap-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 09:36:28 +0000</lastBuildDate>
+    <item>
+      <title>New Quark: MultiTouchPad</title>
+      <link>http://www.earslap.com//weblog/new-quark-multitouchpad.html</link>
+      <description>I’ve added a new Quark to SuperCollider Quarks repository that allows you to access the multitouch data from supported MacBook (and MacBook Pro) touchpads. It needs the tongsengmod application I’ve forked from the tongseng project, but once tongsengmod is installed, integration is seamless. The details can be found in the help file. Here is a rudimentary example (the example code for this can also be found in the help file): I’ve only tested this under Leopard 10.5.8 with a (late 2008) unibody M</description>
+      <guid isPermaLink="false">http://www.earslap.com//weblog/new-quark-multitouchpad.html</guid>
+      <pubDate>Sun, 08 Nov 2009 01:01:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Quark: NatureToolkit</title>
+      <link>http://www.earslap.com//weblog/new-quark-naturetoolkit.html</link>
+      <description>NatureToolkit is a Quark that will include classes and frameworks that will hopefully make life easier for those, whose artistic media work tends to get inspiration from natural processes. The only included class right now is LSys (but there is more to come! See bottom of this post…) which is a complete Lindenmayer Systems implementation for SuperCollider. There are various other string rewriting systems available for SC right now, but details of real L-Systems are more complicated. The rewritin</description>
+      <guid isPermaLink="false">http://www.earslap.com//weblog/new-quark-naturetoolkit.html</guid>
+      <enclosure url="http://www.earslap.com/assets/ntoolkit/0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Nov 2009 01:01:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Music Release: Laconicism</title>
+      <link>http://www.earslap.com//weblog/music-release-laconicism.html</link>
+      <description>Laconicism is a collection of procedural and interactive sound compositions. The pieces are not finalized onto a static medium. Instead, the collection is distributed as a computer software so that the works can be experienced in their intended multidimensional forms. Downloads Mac OS X: Download from here. Tested on Leopard and Snow Leopard. Should also work on Tiger (and on older PPC machines, though not tested). Other platforms: Download SuperCollider source files from here. Unfortunately, La</description>
+      <guid isPermaLink="false">http://www.earslap.com//weblog/music-release-laconicism.html</guid>
+      <pubDate>Sun, 29 Nov 2009 01:01:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>NatureToolkit Update</title>
+      <link>http://www.earslap.com//weblog/naturetoolkit-update.html</link>
+      <description>I’ve updated my NatureToolkit Quark with two new classes. GAWorkbench and GAPmatch. As usual, full documentation is provided with examples so be sure to check them out. GAWorkbench This is a general purpose and modular genetic algorithm class for SuperCollider. Genetic algorithm is a search technique used for finding approximate solutions to search and optimization problems. They use techniques derived from evolutionary biology like inheritance, mutation, (artificial) selection and crossover. GA</description>
+      <guid isPermaLink="false">http://www.earslap.com//weblog/naturetoolkit-update.html</guid>
+      <pubDate>Tue, 01 Dec 2009 01:01:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>FingerNeedle Released</title>
+      <link>http://www.earslap.com//weblog/fingerneedle-released.html</link>
+      <description>I’ve finished the code cleanup and documentation for an instrument which I’ve announced before on sc-users mailing list. It was named as TouchNet, but I’ve decided to separate the “Touch sampler” and “Net” parts so now it’s called “FingerNeedle”. Download link is at the bottom of this post. A video performance from the TouchNet days (with my FreeSound Quark), watch it in fullscreen please: FingerNeedle is a gesture based instrument that is operated from a multi-touch enabled surface. In essence,</description>
+      <guid isPermaLink="false">http://www.earslap.com//weblog/fingerneedle-released.html</guid>
+      <pubDate>Thu, 25 Mar 2010 01:01:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Disquiet Interview</title>
+      <link>http://www.earslap.com//weblog/disquiet-interview.html</link>
+      <description>Marc Weidenbaum of Disquiet Interviewed Me About Otomata and Generative Art. Read from here.</description>
+      <guid isPermaLink="false">http://www.earslap.com//weblog/disquiet-interview.html</guid>
+      <pubDate>Sat, 16 Jul 2011 01:01:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Otomata - Generative Musical Sequencer</title>
+      <link>http://www.earslap.com//page/otomata.html</link>
+      <description>Click on the grid below to add cells, click on cells to change their direction, and press play to listen to your music. --&amp;gt; Otomata - Generative music sequencer. You need Flash plugin to experience this content. --&amp;gt; Update: Click here to get Otomata for your iPhone / iPod / iPad! Official facebook page: http://www.facebook.com/pages/Otomata/218837764796473 Also this reddit page has many examples: http://batu.in/otoreddit And there is a subreddit for Otomata: http://www.reddit.com/r/otomata/ What</description>
+      <guid isPermaLink="false">http://www.earslap.com//page/otomata.html</guid>
+      <pubDate>Sat, 16 Jul 2011 01:01:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Circuli - Generative Ambient Sound Instrument</title>
+      <link>http://www.earslap.com//page/circuli.html</link>
+      <description>--&amp;gt; Circuli - Generative Ambient Sound Instrument. You need Flash plugin to experience this content. --&amp;gt; Circles grow at a constant rate. No two circles can overlap. Bigger circle pushes and shrinks smaller circle when in contact. A circle “pops” and makes a sound when its boundary intersects with the center of another circle. The pitch of the sound is determined by the position of the circle on the background. Bigger the hole, higher the pitch. The envelope of the produced sound is determined b</description>
+      <guid isPermaLink="false">http://www.earslap.com//page/circuli.html</guid>
+      <pubDate>Sat, 25 Feb 2012 01:01:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Touch Pianist - Magical Piano In Your Web Browser</title>
+      <link>http://www.earslap.com//page/touch-pianist.html</link>
+      <description>This is a work of mine I’ve been working for the past few months. Released in early May 2015, it became highly viral; the pieces presented inside was played more than a million times in mere 2 weeks. It is a HTML5 web browser experiment using Canvas (optional WebGL) and WebAudio which provides a visualization of all-time popular classical piano pieces, and gives you a very addictive way of performing those pieces using your computer keyboard or touch screen. Also has iOS and Android versions at</description>
+      <guid isPermaLink="false">http://www.earslap.com//page/touch-pianist.html</guid>
+      <pubDate>Sun, 24 May 2015 03:14:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Browser Sound Engine Behind Touch Pianist</title>
+      <link>http://www.earslap.com//article/the-browser-sound-engine-behind-touch-pianist.html</link>
+      <description>At the beginning of May 2015, I released the fun browser experiment Touch Pianist. I received a lot of questions from fellow developers about the tech used to make it tick, so here is my attempt at explaining the meat of the sound engine I created to make it possible. Touch Pianist is a HTML5 web browser experiment using HTML5 Canvas (optional WebGL thanks to pixi.js) and WebAudio, which provides a visualization of all-time popular classical piano pieces, and gives you a very addictive way of pe</description>
+      <guid isPermaLink="false">http://www.earslap.com//article/the-browser-sound-engine-behind-touch-pianist.html</guid>
+      <pubDate>Sun, 24 May 2015 14:41:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

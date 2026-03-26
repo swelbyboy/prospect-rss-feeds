@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Indonesian Journal of Combinatorics - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/indonesian-journal-of-combinatorics.xml</link>
+    <description>Latest articles from Indonesian Journal of Combinatorics (ijc.or.id)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/indonesian-journal-of-combinatorics.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 22:05:09 +0000</lastBuildDate>
+    <item>
+      <title>Outer multiset dimension of joined graphs</title>
+      <link>http://ijc.or.id/index.php/ijc/article/view/253</link>
+      <description>The outer multiset dimension of graph G, dimms(G), is the cardinality of the smallest subset S of vertices that uniquely recognizes each vertex outside S by using the multiset of distances between the vertex and the vertices in S. In 2023, Klavzar, Kuziak, and Yero proved that the only graphs with the largest outer multiset dimension, that is, one less than their order, are regular graphs of diameter at most 2. This paper considers the outer multiset dimensions of non-regular graphs of diameter</description>
+      <guid isPermaLink="false">http://ijc.or.id/index.php/ijc/article/view/253</guid>
+      <pubDate>Wed, 31 Dec 2025 07:21:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Local edge antimagic chromatic number of join product of graphs</title>
+      <link>http://ijc.or.id/index.php/ijc/article/view/248</link>
+      <description>Let f : V(G) \to [1,|V(G)|] be a bijective mapping of the vertex set of a graph G to the integers 1 through |V(G)|. A labeling f is defined as a local edge antimagic labeling if, for any two adjacent edges uv and vx in E(G), their weights satisfy wf(uv) ≠ wf(vx), where the weight of an edge uv is given by wf(uv) = f(u) + f(v). The weight wf induces a proper edge coloring on G. The local edge antimagic chromatic number of G, denoted χlea'(G), is the minimum number of colors required among all col</description>
+      <guid isPermaLink="false">http://ijc.or.id/index.php/ijc/article/view/248</guid>
+      <pubDate>Fri, 30 Jan 2026 01:01:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>On interior Roman domination in graphs</title>
+      <link>http://ijc.or.id/index.php/ijc/article/view/254</link>
+      <description>Let G = (V(G), E(G)) be a non-complete graph and let ϕ:V(G)→{0,1,2} be a function on G. For each i ∈ {0, 1, 2}, let Vi={w ∈ V(G): ϕ(w)=i}. A function ϕ=(V0, V1, V2) is an interior Roman dominating function (InRDF) on G if (i) for every v ∈ V0, there exists u ∈ V2 such that uv ∈ E(G), and (ii) either V1=V(G) or for every z ∈ V2, z is an interior vertex of G. Denoted by ωGInR(ϕ)=∑u ∈ V(G) ϕ(u) is the weight of InRDF ϕ; and the minimum weight of an InRDF ϕ on G, denoted by γInR(G), is called the in</description>
+      <guid isPermaLink="false">http://ijc.or.id/index.php/ijc/article/view/254</guid>
+      <pubDate>Sun, 01 Feb 2026 02:47:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>The partition dimension of origami graphs and its barbell</title>
+      <link>http://ijc.or.id/index.php/ijc/article/view/255</link>
+      <description>The origami graph, On, n≥3, is a graph formed by a central cycle with origami folds, where each fold consists of two C3 cycles. The barbell origami graph, BOn for n≥3 is obtained by copying a On and connecting two graphs with a bridge. In this research, we determined the partition dimension of the origami graphs and its barbell.</description>
+      <guid isPermaLink="false">http://ijc.or.id/index.php/ijc/article/view/255</guid>
+      <pubDate>Wed, 04 Feb 2026 06:04:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sum rules for permutations with fixed points involving Stirling numbers of the first kind</title>
+      <link>http://ijc.or.id/index.php/ijc/article/view/257</link>
+      <description>We propose sum rules for permutations pn(k) of the ensemble {1,2,...,n} with k fixed points, in the form of partial sums of their moments. The corresponding identities involve Stirling numbers of the first kind s(q,r). Using a formula due to Vassilev-Missana and the Schlomlich expression of Stirling numbers, we also deduce sum rules for binomial coefficients. Connections with Bell numbers Bn are outlined.</description>
+      <guid isPermaLink="false">http://ijc.or.id/index.php/ijc/article/view/257</guid>
+      <pubDate>Wed, 04 Feb 2026 06:07:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>My Ballito - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/my-ballito.xml</link>
+    <description>Latest articles from My Ballito (myballito.co.za)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/my-ballito.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 03:47:26 +0000</lastBuildDate>
+    <item>
+      <title>About Ballito</title>
+      <link>https://myballito.co.za/about-ballito/</link>
+      <description>How we see Ballito! Imagine yourself driving through an established small town where perfect waves provide the backdrop, and an overabundance of flora and fauna that deliver natural beauty is always in view. This small town is Ballito, situated just 30 kilometres from Durban, on the North Coast shoreline, also known as the Dolphin Coast. […]</description>
+      <guid isPermaLink="false">https://myballito.co.za/about-ballito/</guid>
+      <pubDate>Sat, 13 Apr 2019 06:32:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Local Paddler to attempt Guinness World Record</title>
+      <link>https://myballito.co.za/local-paddler-to-attempt-guinness-world-record/</link>
+      <description>Local father of three, to attempt a Guinness World Record for ocean paddling.</description>
+      <guid isPermaLink="false">https://myballito.co.za/local-paddler-to-attempt-guinness-world-record/</guid>
+      <enclosure url="http://myballito.co.za/wp-content/uploads/2020/11/Quenton3-1024x381.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Nov 2020 10:23:25 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>British Wildlife - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/british-wildlife.xml</link>
+    <description>Latest articles from British Wildlife (britishwildlife.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/british-wildlife.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 20:23:26 +0000</lastBuildDate>
+    <item>
+      <title>Test Post</title>
+      <link>https://www.britishwildlife.com/2022/11/02/test-post/uncategorized/</link>
+      <description>test 123 The post Test Post appeared first on British Wildlife.</description>
+      <guid isPermaLink="false">https://www.britishwildlife.com/2022/11/02/test-post/uncategorized/</guid>
+      <pubDate>Wed, 02 Nov 2022 11:19:23 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

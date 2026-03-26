@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Journal of the Indonesian Mathematical Society - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/journal-of-the-indonesian-mathematical-society.xml</link>
+    <description>Latest articles from Journal of the Indonesian Mathematical Society (jims-a.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/journal-of-the-indonesian-mathematical-society.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 20:12:00 +0000</lastBuildDate>
+    <item>
+      <title>Solutions of a Generalization of Linear Volterra Integro-Differential Equations</title>
+      <link>https://jims-a.org/index.php/jimsa/article/view/1883</link>
+      <description>In this paper, we combine linear Volterra integro-differential equations of first and second kinds to be a generalization. Then, we use Laplace transform to solve an analytical solution on a convolution kernel and apply Laguerre polynomials to approximate a solution on a non-convolution kernel of this generalization.</description>
+      <guid isPermaLink="false">https://jims-a.org/index.php/jimsa/article/view/1883</guid>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Analysis of Earthquake Potential along the Coastal Region of South Java using Semi-Markov Models as a Tsunami Mitigation</title>
+      <link>https://jims-a.org/index.php/jimsa/article/view/1556</link>
+      <description>This study applies a semi-Markov model to assess earthquake occurrence in the South Java coastal region. The main objective is to forecast earthquakes in this area, considering three key factors: geographic location, timing, and seismic magnitude. The South Java coastal region is chosen for this study due to its proximity to the island of Java, the economic hub of Indonesia. The study divides the South Java coastal region into five distinct zones and categorizes earthquakes into three magnitude</description>
+      <guid isPermaLink="false">https://jims-a.org/index.php/jimsa/article/view/1556</guid>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Utilizing Trajectory Matrices and Singular Value Decomposition (SVD) for Multivariate Transformation in Time Series Analysis</title>
+      <link>https://jims-a.org/index.php/jimsa/article/view/1966</link>
+      <description>The trajectory matrix transforms univariate time series data into multivariate form using the structural properties of the Hankel Matrix (HM). Research on data matrices within Time Series Analysis (TSA) remains limited. This study examines AR models with stationary properties and applies Singular Value Decomposition (SVD) to HM in the Box-Jenkins framework. It focuses on HM properties, matrix dimension considerations in SVD, and order identification. Numerical simulations of the AR(1) and AR(2)</description>
+      <guid isPermaLink="false">https://jims-a.org/index.php/jimsa/article/view/1966</guid>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Lieb and Nazarov Inequalities for Quaternion Linear Canonical S-Transform</title>
+      <link>https://jims-a.org/index.php/jimsa/article/view/1962</link>
+      <description>This research introduces the quaternion linear canonical S-transform. This transform is an extension of the linear canonical S-transform within quaternion algebra. We recall the properties and present the natural link between the quaternion linear canonical transform and the quaternion linear canonical S-transform. We exploit these properties and relation to establish the Lieb and Nazarov inequalities to the quaternion linear canonical S-transform.</description>
+      <guid isPermaLink="false">https://jims-a.org/index.php/jimsa/article/view/1962</guid>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generalized Implicit Function Theorem and General Fundamental Theorem of Calculus</title>
+      <link>https://jims-a.org/index.php/jimsa/article/view/1551</link>
+      <description>We present the notion of Henstock-Kurzweil integral for mappings assuming values in Hausdorff topological vector spaces using the direct set of gauges and derive a version of Mean Value Theorem. We use the definition of Frechet derivative and obtain a general version of Implicit Function Theorem for mappings from X \times Y \rightarrow Z where, for existence and continuity of the function, X needs to be merely a topological space and for differentiability, X can be a Topological Vector Space (TV</description>
+      <guid isPermaLink="false">https://jims-a.org/index.php/jimsa/article/view/1551</guid>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nonlocal-Adjacency Metric Dimension of Graphs</title>
+      <link>https://jims-a.org/index.php/jimsa/article/view/1842</link>
+      <description>Let $ T = \{t_1, t_2, \ldots, t_k\} \subseteq V(G)$ be an ordered subset of the vertex set of a graph G, and let $u \in V(G)$ be a vertex in G. The adjacency metric representation of vertex u with respect to the set T is the k-vector $r_A(u \mid T ) = (d_A(u, t_1), d_A(u, t_2), \ldots, d_A(u, t_k))$. The set T is called a nonlocal-adjacency metric resolving set of the graph G if $r_A(u \mid T ) \ne r_A(w \mid T )$ for every pair of vertices $u, v \in G$ with u not adjacent to v. The minimum card</description>
+      <guid isPermaLink="false">https://jims-a.org/index.php/jimsa/article/view/1842</guid>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Some Results on Inclusive Distance Antimagic Labeling of Graphs</title>
+      <link>https://jims-a.org/index.php/jimsa/article/view/1734</link>
+      <description>Let $G=(V,E)$ be a graph of order $n$. A bijection $f:V(G)\rightarrow \{1,2,\cdots,n\}$ is called inclusive distance antimagic labeling if $w(u)\ne w(v)$ for any two distinct vertices $u,v\in V(G)$, where $w(v) = \displaystyle \sum_{x\in N[v]} f(x)$. We start our discussion with the connection between distance magic labeling and inclusive distance antimagic labeling. Then, we investigate the existence of an inclusive distance antimagic labeling for circulant graphs, disjoint union graphs, and jo</description>
+      <guid isPermaLink="false">https://jims-a.org/index.php/jimsa/article/view/1734</guid>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The strong 3-rainbow index of graphs containing some cycles</title>
+      <link>https://jims-a.org/index.php/jimsa/article/view/1513</link>
+      <description>A tree of minimum size in an edge-colored connected graph G is a rainbow Steiner tree if no two edges of G are colored the same. For an integer k, the strong k-rainbow index $srx_k(G)$ of G is the smallest number of colors required in an edge-coloring of G so that there exists a rainbow Steiner tree connecting every k-subset S of V(G). We focus on k=3. It is obvious that $srx_3(G)\leq\lVert G\rVert$ where $\lVert G\rVert$ denotes the size of G. It has been proven that $srx_3(T_n)=\lVert T_n\rVer</description>
+      <guid isPermaLink="false">https://jims-a.org/index.php/jimsa/article/view/1513</guid>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Extended Fuzzy Binary Soft Sets and Their Applications in Multi Parameter Decision Making Problems</title>
+      <link>https://jims-a.org/index.php/jimsa/article/view/1798</link>
+      <description>Multi-criteria decision-making (MCDM) problems involve evaluating and selecting alternatives based on multiple criteria. This article aims to solve MCDM problems by extending the definition of fuzzy binary soft sets to two parameter sets, which are called extended fuzzy binary soft sets. Operations such as "AND" and "MaxMin" are defined and illustrated with examples. Additionally, an algorithm is presented to solve MCDM problems using extended fuzzy binary soft sets. Finally, an application of t</description>
+      <guid isPermaLink="false">https://jims-a.org/index.php/jimsa/article/view/1798</guid>
+      <pubDate>Tue, 03 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An SQP Regularization with Double Conjugate Gradient Implementation for Solving Nonlinear Complementarity Problems</title>
+      <link>https://jims-a.org/index.php/jimsa/article/view/2035</link>
+      <description>Building upon the works proposed in [1] and [2], we introduce an advanced version of regularized proximal point methods to solve nonlinear complementarity problems (NCP). Our contribution is characterized by two key innovations. Firstly, we introduce an innovative square root quadratic term as part of the regularized subproblem framework, replacing the commonly used logarithmic quadratic term. Secondly, we implement the conjugate gradient algorithm in two stages: the intermediate step and the co</description>
+      <guid isPermaLink="false">https://jims-a.org/index.php/jimsa/article/view/2035</guid>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

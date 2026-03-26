@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Quanta Magazine - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/quanta-magazine.xml</link>
+    <description>Latest articles from Quanta Magazine (quantamagazine.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/quanta-magazine.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 16:22:23 +0000</lastBuildDate>
+    <item>
+      <title>Science and Math News | Quanta Magazine</title>
+      <link>https://www.quantamagazine.org/</link>
+      <description>Illuminating mathematics, physics, biology and computer science research through public service journalism.</description>
+      <guid isPermaLink="false">https://www.quantamagazine.org/</guid>
+      <enclosure url="https://www.quantamagazine.org/wp-content/uploads/2024/11/Quanta-Logo-default-Social.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 10 Jul 2013 23:09:24 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

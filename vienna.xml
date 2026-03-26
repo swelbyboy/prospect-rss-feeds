@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Vienna - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/vienna.xml</link>
+    <description>Latest articles from Vienna (vienna-rss.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/vienna.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 22:59:53 +0000</lastBuildDate>
+    <item>
+      <title>Vienna 3.1.8 released</title>
+      <link>https://www.vienna-rss.com/news/2016/11/25/vienna-3-1-8-released.html</link>
+      <description>This release of Vienna is a recommended update that includes and important security fix and some bug fixes: Fixed an External XML Entity (XXE) vulnerability which could allow malicious servers to read private files on the machine running Vienna Fix incorrect escaping of OPML export Fix font preferences not working Fix error on unread articles count with OpenReader feeds Fix articles’ list during feed refreshes when the current selection is a smart or group folder Download Vienna 3.1.8 now!</description>
+      <guid isPermaLink="false">https://www.vienna-rss.com/news/2016/11/25/vienna-3-1-8-released.html</guid>
+      <pubDate>Fri, 25 Nov 2016 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vienna website update and version 3.1.9 released</title>
+      <link>https://www.vienna-rss.com/news/2017/03/26/Vienna-website-update-and-version-3-1-9-released.html</link>
+      <description>Hi Everyone! Welcome to the first bit of news for Vienna in 2017. Firstly, we have changed our main website URL to www.vienna-rss.com. Please change any bookmarks you may have as we are no longer using the .org URL. We are working on a new website design which we hope to have ready within the next month. Vienna 3.1.9 has also been released – this is a minor release but it fixes some important bugs. It will also upgrade your Vienna database to make sure it contains the new Vienna website URL. Ple</description>
+      <guid isPermaLink="false">https://www.vienna-rss.com/news/2017/03/26/Vienna-website-update-and-version-3-1-9-released.html</guid>
+      <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vienna 3.1.11 has been released!</title>
+      <link>https://www.vienna-rss.com/news/2017/07/13/Vienna-3-1-11-has-been-released.html</link>
+      <description>Vienna 3.1.11 has been released. It contains minor bug fixes and supports macOS 10.8 and above. Download Vienna 3.1.11 now</description>
+      <guid isPermaLink="false">https://www.vienna-rss.com/news/2017/07/13/Vienna-3-1-11-has-been-released.html</guid>
+      <pubDate>Thu, 13 Jul 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vienna 3.2.0 Beta is out now!</title>
+      <link>https://www.vienna-rss.com/news/2017/12/16/Vienna-3-2-0-Beta-is-out-now.html</link>
+      <description>Those who are adventurous can try it out Vienna 3.2.0 Beta 1 now. A list of what’s new can be found over at the GitHub release page.</description>
+      <guid isPermaLink="false">https://www.vienna-rss.com/news/2017/12/16/Vienna-3-2-0-Beta-is-out-now.html</guid>
+      <pubDate>Sat, 16 Dec 2017 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vienna 3.2.0 is out; many other to come</title>
+      <link>https://www.vienna-rss.com/news/2018/01/28/Vienna-3-2-0-is-out-many-other-to-come.html</link>
+      <description>Vienna 3.2.0 is available in the different download sections (at Github, SourceForge and Bintray). I would like to especially thank Eitot and Joshua Pore for their tremendous contributions to this version. A modernized code base Some current users might be annoyed by Vienna 3.2’s requirement for OS X 10.9 (Mavericks) or a more recent version. The development team didn’t take lightly this decision, as we don’t like leaving any user behind. Vienna has been there for 14 years now. This accumulation</description>
+      <guid isPermaLink="false">https://www.vienna-rss.com/news/2018/01/28/Vienna-3-2-0-is-out-many-other-to-come.html</guid>
+      <pubDate>Sun, 28 Jan 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vienna 3.5 is out</title>
+      <link>https://www.vienna-rss.com/news/2018/10/17/Vienna-3-5-is-out.html</link>
+      <description>We are pleased to announce that Vienna 3.5 is out. It improves on many things, but the most visible feature is the support of macOS Mojave (10.14) ‘s dark mode appearance. This version will probably be the latest to run on OS X Mavericks (10.9). We need to go forward to include some much needed improvements. By the way, since the release of version 3.0 about 4 years ago, Vienna’s codebase has received on average 1.12 commit per day. We hope you enjoy reading your feeds on Vienna!</description>
+      <guid isPermaLink="false">https://www.vienna-rss.com/news/2018/10/17/Vienna-3-5-is-out.html</guid>
+      <pubDate>Wed, 17 Oct 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vienna syncs with FreshRSS</title>
+      <link>https://www.vienna-rss.com/news/2018/12/30/Vienna-syncs-with-FreshRSS.html</link>
+      <description>Since Vienna 3, which introduced the ability to sync with a cloud based aggregator (à la Google Reader), Vienna developers team got requests to add support for many open source applications : Tiny RSS / Newsblur / ownCloud News… Unfortunately, due to limited time, we were unable to satisfy these requests. We could only point to FeedHQ as a possible alternative for people wanting to have their own sync server. But FeedHQ’s technical requirements are slightly higher than what is most commonly prov</description>
+      <guid isPermaLink="false">https://www.vienna-rss.com/news/2018/12/30/Vienna-syncs-with-FreshRSS.html</guid>
+      <pubDate>Sun, 30 Dec 2018 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vienna 3.5.6 improves syncing support</title>
+      <link>https://www.vienna-rss.com/news/2020/08/08/Vienna-improves-OpenReader.html</link>
+      <description>It has been a long time, but Vienna 3.5.6 is finally out. The app is now notarised, so it will be much easier to install Vienna under macOS Catalina (10.15). This version is also important if you intent to use Inoreader.com for syncing between the different devices you use to read feeds. We had problems with Inoreader which has put in place severe limitations of its services. In fact, Inoreader almost entirely blocked the use of Vienna on its servers. Of course, you could still use TheOldReader.</description>
+      <guid isPermaLink="false">https://www.vienna-rss.com/news/2020/08/08/Vienna-improves-OpenReader.html</guid>
+      <pubDate>Sat, 08 Aug 2020 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Goodbye to cocoaforge.com and the Vienna forums</title>
+      <link>https://www.vienna-rss.com/news/2023/12/20/cocoaforge-down.html</link>
+      <description>Unfortunately the main support forums at forums.cocoaforge.com are down and unlikely to be revived. This is the end of an era for cocoaforge.com which had been the home for popular indie mac apps for around 20 years. Vienna is transitioning to a new support process where the Vienna GitHub project is the primary place for users to seek support. We are evaluating other options and would love to hear any suggestions you may have.</description>
+      <guid isPermaLink="false">https://www.vienna-rss.com/news/2023/12/20/cocoaforge-down.html</guid>
+      <pubDate>Wed, 20 Dec 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Celebrating 20 Years of Vienna RSS</title>
+      <link>https://www.vienna-rss.com/blog/news/2025/07/07/Celebrating-20-years-of-ViennaRSS.html</link>
+      <description>Nine months ago, I noticed that the first public build of Vienna was published on Sourceforge on July 7th of 2005. Promising to myself to collect memories and post a blog post, I added a reminder for today, expecting that, as I would be retired from my banking job, I would be more available to do that. I am effectively retired now, but time is still flying, so I was in a hurry this week-end. But a promise is a promise: let’s celebrate! From Aqua… My long time accomplice Josh has almost always go</description>
+      <guid isPermaLink="false">https://www.vienna-rss.com/blog/news/2025/07/07/Celebrating-20-years-of-ViennaRSS.html</guid>
+      <enclosure url="/images/20th//Vienna2-readingPaneBelow.png" length="0" type="image/png"/>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

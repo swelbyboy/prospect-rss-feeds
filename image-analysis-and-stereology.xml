@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Image Analysis and Stereology - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/image-analysis-and-stereology.xml</link>
+    <description>Latest articles from Image Analysis and Stereology (ias-iss.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/image-analysis-and-stereology.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 20:53:16 +0000</lastBuildDate>
+    <item>
+      <title>Three-Dimensional Characterization of Red Blood Cell Shape via Stereological Methods</title>
+      <link>https://ias-iss.org/ojs/IAS/article/view/3732</link>
+      <description>Red blood cells (RBCs) exhibit a variety of morphologies that reflect their physiological or pathological state. Accurate classification of these shapes is essential for clinical diagnostics and hematological research. While most current classification methods rely on two-dimensional (2D) imaging, typically obtained through smear preparations that distort the natural three-dimensional (3D) structure of RBCs, these approaches often fail to capture diagnostically relevant 3D shape information and</description>
+      <guid isPermaLink="false">https://ias-iss.org/ojs/IAS/article/view/3732</guid>
+      <pubDate>Sun, 16 Nov 2025 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Randomized Quadrature with Periodic Kernels: Applications to Cavalieri Volume Estimation</title>
+      <link>https://ias-iss.org/ojs/IAS/article/view/3810</link>
+      <description>This paper studies randomized algorithms for unbiased numerical integration of d-dimensional periodic functions using kernel-based quadrature rules, with particular emphasis on rules induced by periodic radial basis function (RBF) kernels. The integration points are either deterministically generated or locally perturbed and then randomly shifted, introducing structured randomness into the scheme. The analysis builds on tools from the theory of reproducing kernel Hilbert spaces (RKHS) and Sobole</description>
+      <guid isPermaLink="false">https://ias-iss.org/ojs/IAS/article/view/3810</guid>
+      <pubDate>Wed, 26 Nov 2025 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comparison of Deep Learning Models for Voice Disorder Classification Using Phonovibrographic Images</title>
+      <link>https://ias-iss.org/ojs/IAS/article/view/3741</link>
+      <description>Accurate diagnosis of vocal fold disorders is difficult because of subtle variations between pathological conditions. Phonovibrography (PVG), generated from high-speed videoendoscopy (HSV), documents glottal vibration patterns as static images, allowing systemic analysis. In our study, we propose PVGNet, a hybrid deep learning model combining multiscale feature extraction and channel attention, designed specifically for PVG-based classification. We benchmark PVGNet against InceptionResNetV2, VGG</description>
+      <guid isPermaLink="false">https://ias-iss.org/ojs/IAS/article/view/3741</guid>
+      <pubDate>Thu, 27 Nov 2025 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Virtual Immunohistochemistry for Breast Cancer Biomarker Prediction From H&amp;amp;E-Stained Images Using Generative Network</title>
+      <link>https://ias-iss.org/ojs/IAS/article/view/3613</link>
+      <description>Immunohistochemistry (IHC) is essential in diagnostic pathology but is often constrained by cost, time, and limited tissue availability. Virtual IHC staining, which predicts IHC stains from standard hematoxylin and eosin (H&amp;amp;E) images, presents a promising alternative. This study introduces a novel Conditional Generative Adversarial Network (cGAN) architecture based on a U-Net with depthwise separable convolutions to enhance the accuracy and efficiency of virtual IHC staining. This architectural</description>
+      <guid isPermaLink="false">https://ias-iss.org/ojs/IAS/article/view/3613</guid>
+      <pubDate>Thu, 27 Nov 2025 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Two-Stage Automated Framework for Quantitative Morphological Analysis of Mast Cell Degranulation in Histopathological Images Based on YOLO and CNN</title>
+      <link>https://ias-iss.org/ojs/IAS/article/view/3751</link>
+      <description>Quantitative analysis of mast cell (MC) morphology and degranulation states is crucial for assessing inflammatory responses and therapeutic efficacy in biomedical research. This study presents a novel two-stage deep learning framework for the automated quantitative morphological analysis of MC degranulation states in toluidine blue-stained histological sections. We constructed a specialized dataset of 1,054 rat tissue images. In the detection stage, YOLOv11m achieved superior performance with a</description>
+      <guid isPermaLink="false">https://ias-iss.org/ojs/IAS/article/view/3751</guid>
+      <pubDate>Sun, 30 Nov 2025 23:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Precision of the Invariator Estimator of the Surface Area of an Ellipsoid</title>
+      <link>https://ias-iss.org/ojs/IAS/article/view/3794</link>
+      <description>Consider a triaxial ellipsoid K of surface area S. Fix an arbitrary point P in the interior of K, that is P ∈ K°, and generate a sectioning plane L32[P] through P, whose normal direction u is uniform random on the unit hemisphere S2+. In the ellipse of section K ∩ L32[P], let M and m denote the lengths of the major and minor principal semiaxes, respectively, and let r denote the distance of P from the ellipse centre. Then Ŝ = 2π(M² + m² + r²) is an unbiased estimator of S. The purpose of this pa</description>
+      <guid isPermaLink="false">https://ias-iss.org/ojs/IAS/article/view/3794</guid>
+      <pubDate>Mon, 01 Dec 2025 23:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

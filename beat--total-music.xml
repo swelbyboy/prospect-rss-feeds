@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>BEAT: Total Music - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/beat--total-music.xml</link>
+    <description>Latest articles from BEAT: Total Music (beatdigital.mx)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/beat--total-music.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 07:25:55 +0000</lastBuildDate>
+    <item>
+      <title>Markdown Style Guide</title>
+      <link>https://beatdigital.mx/blog/markdown-style-guide/</link>
+      <description>Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.</description>
+      <guid isPermaLink="false">https://beatdigital.mx/blog/markdown-style-guide/</guid>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using MDX</title>
+      <link>https://beatdigital.mx/blog/using-mdx/</link>
+      <description>Lorem ipsum dolor sit amet</description>
+      <guid isPermaLink="false">https://beatdigital.mx/blog/using-mdx/</guid>
+      <pubDate>Sat, 02 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>First post</title>
+      <link>https://beatdigital.mx/blog/first-post/</link>
+      <description>Lorem ipsum dolor sit amet</description>
+      <guid isPermaLink="false">https://beatdigital.mx/blog/first-post/</guid>
+      <pubDate>Fri, 08 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Third post</title>
+      <link>https://beatdigital.mx/blog/third-post/</link>
+      <description>Lorem ipsum dolor sit amet</description>
+      <guid isPermaLink="false">https://beatdigital.mx/blog/third-post/</guid>
+      <pubDate>Fri, 15 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Second post</title>
+      <link>https://beatdigital.mx/blog/second-post/</link>
+      <description>Lorem ipsum dolor sit amet</description>
+      <guid isPermaLink="false">https://beatdigital.mx/blog/second-post/</guid>
+      <pubDate>Fri, 22 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

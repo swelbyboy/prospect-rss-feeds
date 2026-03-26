@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Emacs News - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/emacs-news.xml</link>
+    <description>Latest articles from Emacs News (sachachua.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/emacs-news.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 18:47:06 +0000</lastBuildDate>
+    <item>
+      <title>2026-03-09 Emacs news</title>
+      <link>https://sachachua.com/blog/2026/03/2026-03-09-emacs-news/</link>
+      <description>If you use kubernetes-el, don't update for now, and you might want to check your installation if you updated it recently. The repo was compromised a few days ago. I've occasionally wanted to tangle a single Org Mode source block to multiple places, so I'm glad to hear that ob-tangle has just added support for multiple targets. Niche, but could be handy. I'm also curious about using clime to write command-line tools in Emacs Lisp that handle argument parsing and all the usual stuff. If you're loo</description>
+      <guid isPermaLink="false">https://sachachua.com/blog/2026/03/2026-03-09-emacs-news/</guid>
+      <pubDate>Mon, 09 Mar 2026 14:45:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emacs Lisp and NodeJS: Getting the bolded words from a section of a Google Document</title>
+      <link>https://sachachua.com/blog/2026/03/emacs-lisp-and-nodejs-getting-the-bolded-words-from-a-section-of-a-google-document/</link>
+      <description>[2026-03-13 Fri]: Cleaned up links from Google [2026-03-12 Thu]: Simplified getting a section or finding the bolded text by using the Org Mode format instead. During the sessions with my French tutor, I share a Google document so that we can mark the words where I need to practice my pronunciation some more or tweak the wording. Using Ctrl+B to make the word as bold is an easy way to make it jump out. I used to copy these changes into my Org Mode notes manually, but today I thought I'd try autom</description>
+      <guid isPermaLink="false">https://sachachua.com/blog/2026/03/emacs-lisp-and-nodejs-getting-the-bolded-words-from-a-section-of-a-google-document/</guid>
+      <enclosure url="https://sachachua.com/blog/2026/03/emacs-lisp-and-nodejs-getting-the-bolded-words-from-a-section-of-a-google-document/2026-03-12_11-28-24.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Mar 2026 18:21:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>La semaine du 2 mars au 8 mars</title>
+      <link>https://sachachua.com/blog/2026/03/la-semaine-du-2-mars-au-8-mars/</link>
+      <description>lundi 2 mars mardi 3 mars Notre réseau mercredi 4 mars jeudi 5 mars vendredi 6 mars samedi 7 mars dimanche 8 mars Sur l'intelligence artificielle lundi 2 mars J'ai préparé ma newsletter sur Emacs et j'ai écrit un article sur l'affichage d'indices pour des raccourcis clavier. J'ai aussi essayé l'expansion des snippets par commande vocale. Je pense que l'expansion des snippets est utile parce que quand j'insère un snippet à partir d'initiales, je dois penser à l'expression et puis penser aux lettr</description>
+      <guid isPermaLink="false">https://sachachua.com/blog/2026/03/la-semaine-du-2-mars-au-8-mars/</guid>
+      <enclosure url="https://sachachua.com/blog/2026/03/la-semaine-du-2-mars-au-8-mars/network.png" length="0" type="image/png"/>
+      <pubDate>Tue, 10 Mar 2026 18:39:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Small steps towards using OpenAI-compatible text-to-speech services with speechd-el or emacspeak</title>
+      <link>https://sachachua.com/blog/2026/03/small-steps-towards-using-openai-compatible-text-to-speech-services-with-speechd-el-or-emacspeak/</link>
+      <description>Speech synthesis has come a long way since I first tried out Emacspeak in 2002. Kokoro TTS and Piper offer more natural-sounding voices now, although the initial delay in loading the models and generating speech mean that they aren't quite ready to completely replace espeak, which is faster but more robotic. I've been using the Kokoro FastAPI through my own functions for working with various speech systems. I wanted to see if I could get Kokoro and other OpenAI-compatible text-to-speech services</description>
+      <guid isPermaLink="false">https://sachachua.com/blog/2026/03/small-steps-towards-using-openai-compatible-text-to-speech-services-with-speechd-el-or-emacspeak/</guid>
+      <pubDate>Thu, 12 Mar 2026 15:00:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comparing pronunciation recordings across time</title>
+      <link>https://sachachua.com/blog/2026/03/comparing-pronunciation-recordings-across-time/</link>
+      <description>[2026-03-15 Sun]: Added reference audio for the second set. [2026-03-14 Sat]: I added pronunciation segments for the new set of tongue-twisters I got on Mar 13. [2026-03-12 Thu]: I added a column for Feb 20, the first session with the sentences. I also added keyboard shortcuts (1..n) for playing the audio of the row that the mouse is on. 2026-02-20: First set: Maman peint un grand lapin blanc, etc. 2026-03-14: Second set: Mon oncle peint un grand pont blanc, etc. The code 2026-02-20: First set:</description>
+      <guid isPermaLink="false">https://sachachua.com/blog/2026/03/comparing-pronunciation-recordings-across-time/</guid>
+      <pubDate>Fri, 13 Mar 2026 01:11:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Org Mode: Export HTML, copy files, and serve the results via simple-httpd so that media files work</title>
+      <link>https://sachachua.com/blog/2026/03/org-mode-export-html-copy-files-and-serve-the-results-via-simple-httpd-so-that-media-files-work/</link>
+      <description>[2026-03-23 Mon]: Update Oh, ignore all of this! For some reason, when I export the regular Org Mode way, my media files work. Maybe it was just a weird hiccup! In Org Mode, when you use "Export to HTML - As HTML file and open", the resulting HTML file is loaded using a file:// URL. This means you can't load any media files. In my post about pronunciation practice, I wanted to test the playback without waiting for my 11ty-based static site generator to churn through the files. simple-httpd lets</description>
+      <guid isPermaLink="false">https://sachachua.com/blog/2026/03/org-mode-export-html-copy-files-and-serve-the-results-via-simple-httpd-so-that-media-files-work/</guid>
+      <pubDate>Sat, 14 Mar 2026 20:43:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>2026-03-16 Emacs news</title>
+      <link>https://sachachua.com/blog/2026/03/2026-03-16-emacs-news/</link>
+      <description>Security reminder: If you use kubernetes-el, don't update for now, and you might want to check your installation if you updated it recently. The repo was compromised. (Analysis, Reddit discussion, lobste.rs) If you use Emacs 31, please consider enabling package-review-policy. There were a number of lively conversations around Emacs Solo (142 comments on HN), Emacs and Vim in the age of AI (52 comments on Reddit, 138 on HN), and agent-shell 0.47 (62 on Reddit). Also, Prot has posted the video and</description>
+      <guid isPermaLink="false">https://sachachua.com/blog/2026/03/2026-03-16-emacs-news/</guid>
+      <pubDate>Mon, 16 Mar 2026 16:40:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>La semaine du 9 au 15 mars</title>
+      <link>https://sachachua.com/blog/2026/03/la-semaine-du-9-mars-au-15-mars/</link>
+      <description>lundi 9 mars mardi 10 mars mercredi 11 mars jeudi 12 mars vendredi 13 mars samedi 14 mars dimanche 15 mars lundi 9 mars Il faisait très beau et le soleil brillait. Je me suis assise sur le porche et j'ai réécrit mon journal et mes notes sur l'IA en français. Après l'école, ma fille n'a pas voulu aller à son cours de gymnastique parce qu'elle avait mal au ventre. Elle est restée un petit moment, puis nous sommes allées au parc avec le réchaud de camping, des guimauves, et des biscuits au chocolat</description>
+      <guid isPermaLink="false">https://sachachua.com/blog/2026/03/la-semaine-du-9-mars-au-15-mars/</guid>
+      <pubDate>Tue, 17 Mar 2026 13:36:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>2026-03-23 Emacs news</title>
+      <link>https://sachachua.com/blog/2026/03/2026-03-23-emacs-news/</link>
+      <description>[2026-03-23 Mon]: Removed elecxzy comment-dwim, whoops. Might be a good opportunity to set up better auto-saves, with buffer-guardian.el inspiring an update to super-save 0.5. Also, there were a couple of interesting experiments embedding Chromium (Reddit) or native macOS views in Emacs (Reddit), and one about embedding Emacs in a webpage (Reddit). Upcoming events (iCal file, Org): Emacs Berlin: Emacs-Berlin Hybrid Meetup https://emacs-berlin.org/ Wed Mar 25 1100 America/Vancouver - 1300 America</description>
+      <guid isPermaLink="false">https://sachachua.com/blog/2026/03/2026-03-23-emacs-news/</guid>
+      <pubDate>Mon, 23 Mar 2026 14:07:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Categorizing Emacs News items by voice in Org Mode</title>
+      <link>https://sachachua.com/blog/2026/03/categorizing-emacs-news-items-by-voice-in-org-mode/</link>
+      <description>I'm having fun exploring which things might actually be easier to do by voice than by typing. For example, after I wrote some code to expand yasnippets by voice, I realized that it was easier to: press my shortcut, say "okay, define interactive function", and then press my shortcut again, than to: mentally say it, get the first initials, type in "dfi", and press Tab to expand. Another area where I do this kind of mental translation for keyboard shortcuts is when I categorize dozens of Emacs-rela</description>
+      <guid isPermaLink="false">https://sachachua.com/blog/2026/03/categorizing-emacs-news-items-by-voice-in-org-mode/</guid>
+      <enclosure url="https://sachachua.com/blog/2026/03/categorizing-emacs-news-items-by-voice-in-org-mode/2026-03-23_20-38-33.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Mar 2026 01:19:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

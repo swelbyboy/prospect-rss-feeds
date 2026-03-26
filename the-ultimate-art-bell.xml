@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>The Ultimate Art Bell - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/the-ultimate-art-bell.xml</link>
+    <description>Latest articles from The Ultimate Art Bell (willstare.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/the-ultimate-art-bell.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 07:30:53 +0000</lastBuildDate>
+    <item>
+      <title>Install nginx-rtmp server</title>
+      <link>https://www.willstare.com/install-nginx-rtmp-server/</link>
+      <description>For this guide I am following this post. Requirements For this guide you will need an up to date Ubuntu Server 14.04 virtual or physical machine. Update your operating system. If you’re on Ubuntu, its a simple process. Simply type user@websvr:~$ sudo apt-get update After that, just type user@websvr:~$ sudo apt-get upgrade This will download […](Visited 4,415 times, 1 visits today)</description>
+      <guid isPermaLink="false">https://www.willstare.com/install-nginx-rtmp-server/</guid>
+      <enclosure url="https://www.willstare.com/wp-content/uploads/2014/09/nginx-installed.png" length="0" type="image/png"/>
+      <pubDate>Wed, 10 Sep 2014 02:16:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Customizing WordPress for RTMP</title>
+      <link>https://www.willstare.com/customizing-wordpress-for-rtmp/</link>
+      <description>If you are following along in this mini-series, you should now have a fully functional nginx based RTMP server capable of receiving and broadcasting live video streams. As cool as that is, its not very user friendly, especially for potential viewers. In this post we will go over the steps to get a frontend set […](Visited 2,399 times, 1 visits today)</description>
+      <guid isPermaLink="false">https://www.willstare.com/customizing-wordpress-for-rtmp/</guid>
+      <enclosure url="https://www.willstare.com/wp-content/uploads/2014/09/2012.png" length="0" type="image/png"/>
+      <pubDate>Fri, 12 Sep 2014 20:29:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Finishing the RTMP WordPress project</title>
+      <link>https://www.willstare.com/finishing-the-rtmp-wordpress-project/</link>
+      <description>If you have been following these tutorials, you should now have a fully functional Nginx RTMP server as well as a WordPress site optimized for showing live streams. We just need to install a few more things and this project will be complete! The first package we need is wp-cli. This program will allow us […](Visited 1,348 times, 1 visits today)</description>
+      <guid isPermaLink="false">https://www.willstare.com/finishing-the-rtmp-wordpress-project/</guid>
+      <enclosure url="https://www.willstare.com/wp-content/uploads/2014/09/screenshot-online.png" length="0" type="image/png"/>
+      <pubDate>Sun, 21 Sep 2014 22:24:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>RTMP WordPress VM download</title>
+      <link>https://www.willstare.com/rtmp-wordpress-vm-download/</link>
+      <description>VIRTUAL MACHINE DOWNLOAD I made 2 virtual machines (VMware workstation 8.0 compatable) that are ready for deployment in your LAN. You’ll want to run these on a decent ESXi or VMware workstation host with a 1gbps or higher connection. Just download these machines and import them. You’ll probably want to assign a static IP address to […](Visited 1,099 times, 1 visits today)</description>
+      <guid isPermaLink="false">https://www.willstare.com/rtmp-wordpress-vm-download/</guid>
+      <pubDate>Mon, 22 Sep 2014 03:26:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Local Nginx RTMP server v2.0</title>
+      <link>https://www.willstare.com/local-nginx-rtmp-server-v2-0/</link>
+      <description>After taking a break from the project, I am back with version 2! The biggest change is that it is now based on a single Debian VM instead of 2 Ubuntu machines. Switching to a single VM will use less system resources and make iy much easier to implement on a single physical box. There […](Visited 723 times, 1 visits today)</description>
+      <guid isPermaLink="false">https://www.willstare.com/local-nginx-rtmp-server-v2-0/</guid>
+      <pubDate>Mon, 01 Dec 2014 05:39:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nginx-RTMP &amp;amp; WordPress Debian</title>
+      <link>https://www.willstare.com/nginx-rtmpwordpressdebian/</link>
+      <description>Alright, let’s get started. This guide assumes you meet the following prerequisites: Fresh Debain 7 64 bit installation (no ‘web server’) or any other packages installed. 4 CPU, 1G memory, 250+gb HDD SSH, sudo, NTP, and a static IP address configured User account streamer with sudo DNS SERVER – It is highly recommended you have […](Visited 4,962 times, 1 visits today)</description>
+      <guid isPermaLink="false">https://www.willstare.com/nginx-rtmpwordpressdebian/</guid>
+      <pubDate>Mon, 01 Dec 2014 16:55:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stress testing Shoutcast Server</title>
+      <link>https://www.willstare.com/stress-testing-shoutcast-server/</link>
+      <description>If you’re like me, you’ve got a shoutcast server configured to handle thousands of connections. I was pretty sure my setup could handle the load, but I wanted to actually find out. After looking around online, I found out an easy way to stress test the server using curl. Here’s a little script I wrote that […](Visited 2,068 times, 1 visits today)</description>
+      <guid isPermaLink="false">https://www.willstare.com/stress-testing-shoutcast-server/</guid>
+      <enclosure url="https://www.willstare.com/wp-content/uploads/2014/12/shoutcast-stress.png" length="0" type="image/png"/>
+      <pubDate>Tue, 02 Dec 2014 02:17:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stress testing RTMP server</title>
+      <link>https://www.willstare.com/stress-testing-rtmp-server/</link>
+      <description>After working with Nginx-RTMP, I wanted to see how much traffic I could actually put through my server setup. I tried just streaming a bunch of video feeds from the server, but I ran out of processing power on my desktop. I had to figure out a better solution. Enter Flazr. Flazr is a Java […](Visited 7,006 times, 1 visits today)</description>
+      <guid isPermaLink="false">https://www.willstare.com/stress-testing-rtmp-server/</guid>
+      <pubDate>Tue, 02 Dec 2014 02:39:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nginx-RTMP Debian VM Download</title>
+      <link>https://www.willstare.com/nginx-rtmp-debian-vm-download/</link>
+      <description>I have created a demo virtual machine that will allow users to try out the system. It is fully functional, but will require a good deal of configuration change if you want to implement it in an environment using IP addresses not in the 10.x.x.x network. There is a readme that I highly recommend you […](Visited 1,202 times, 1 visits today)</description>
+      <guid isPermaLink="false">https://www.willstare.com/nginx-rtmp-debian-vm-download/</guid>
+      <pubDate>Tue, 02 Dec 2014 04:41:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>2018 Server Updates</title>
+      <link>https://www.willstare.com/2018-server-updates/</link>
+      <description>The entire coast.willstare.com, stream.willstare.com, and willstare.com server infrastructure has been updated to a new dedicated host server. The virtual machines for coast and stream have been rebuilt on top of Debian 9 as well. This will allow them to stay up to date vs the old Ubuntu 12.04 and Debian 7 installs they were previously […](Visited 504 times, 1 visits today)</description>
+      <guid isPermaLink="false">https://www.willstare.com/2018-server-updates/</guid>
+      <pubDate>Wed, 10 Jan 2018 19:10:44 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

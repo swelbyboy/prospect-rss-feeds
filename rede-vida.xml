@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Rede Vida - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/rede-vida.xml</link>
+    <description>Latest articles from Rede Vida (redevida.com.br)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/rede-vida.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 18:24:12 +0000</lastBuildDate>
+    <item>
+      <title>Olá, mundo! - REDEVIDA</title>
+      <link>https://redevida.com.br/ola-mundo/</link>
+      <description>Boas-vindas ao WordPress. Esse é o seu primeiro post. Edite-o ou exclua-o, e então comece a escrever!</description>
+      <guid isPermaLink="false">https://redevida.com.br/ola-mundo/</guid>
+      <enclosure url="https://redevida.com.br/wp-content/uploads/2025/01/Logo-REDEVIDA-AZUL.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 14 May 2024 19:50:03 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>WVWC - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/wvwc.xml</link>
+    <description>Latest articles from WVWC (wvwc.edu)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/wvwc.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 18:54:38 +0000</lastBuildDate>
+    <item>
+      <title>Hello world! - West Virginia Wesleyan College</title>
+      <link>https://www.wvwc.edu/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://www.wvwc.edu/hello-world/</guid>
+      <enclosure url="https://www.wvwc.edu/wp-content/themes/west-virginia-wesleyan-college/assets/images/WVW_Social-Image.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 19 Jul 2021 21:32:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sleeth Gallery hosts final exhibit of semester; closing reception Dec. 9 - West Virginia Wesleyan College</title>
+      <link>https://www.wvwc.edu/sleeth-gallery-hosts-final-exhibit-of-semester-closing-reception-dec-9/</link>
+      <description>West Virginia Wesleyan College’s Sleeth Gallery campus will host a closing reception tonight, Dec. 9 from 4:30 to 6 p.m. for Tracked Prints/Layered Sounds: Expanded. An artist talk will immediately follow. The exhibit runs through Dec. 16. The multi-disciplinary exhibition, which includes sculpture, hand-pulled prints, collage and a drawing machine explores the myriad of structural […]</description>
+      <guid isPermaLink="false">https://www.wvwc.edu/sleeth-gallery-hosts-final-exhibit-of-semester-closing-reception-dec-9/</guid>
+      <enclosure url="https://www.wvwc.edu/wp-content/themes/west-virginia-wesleyan-college/assets/images/WVW_Social-Image.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 09 Dec 2021 20:02:38 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

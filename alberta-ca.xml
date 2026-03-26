@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>alberta.ca - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/alberta-ca.xml</link>
+    <description>Latest articles from alberta.ca (alberta.ca)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/alberta-ca.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 16:15:37 +0000</lastBuildDate>
+    <item>
+      <title>All services</title>
+      <link>https://www.alberta.ca/all-services</link>
+      <description>Find the Alberta government services and information you need.</description>
+      <guid isPermaLink="false">https://www.alberta.ca/all-services</guid>
+      <enclosure url="https://www.alberta.ca/system/files/alberta-share-legislature.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 18 Jan 2024 13:53:04 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

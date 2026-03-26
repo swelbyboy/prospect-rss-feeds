@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>open-electronics.org - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/open-electronics-org.xml</link>
+    <description>Latest articles from open-electronics.org (open-electronics.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/open-electronics-org.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 13:40:50 +0000</lastBuildDate>
+    <item>
+      <title>Power supply latch</title>
+      <link>https://www.open-electronics.org/power-supply-latch/</link>
+      <description>This power supply latch provides power to the external circuit you wish to power, allowing it to remain powered on or turn off after completing its operations. It functions like a self-holding relay but is solid-state and is suitable for handling a wide range of DC voltages from 5 to 30 volts. It is ideal […]</description>
+      <guid isPermaLink="false">https://www.open-electronics.org/power-supply-latch/</guid>
+      <pubDate>Fri, 07 Jun 2024 14:33:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>ESP32 Low Power Module</title>
+      <link>https://www.open-electronics.org/esp32-low-power-module/</link>
+      <description>ESP32 Low Power Module, based on Espressif’s SoC capable of providing full compatibility with the standard MINI ESP32 version. Compared to the latter, this module lacks a USB interface, dedicated exclusively to programming the ESP32, making it ideal for low-power applications. Compatible with the Arduino IDE, it includes a WiFi 802.11 b/g/n transceiver and a […]</description>
+      <guid isPermaLink="false">https://www.open-electronics.org/esp32-low-power-module/</guid>
+      <pubDate>Fri, 07 Jun 2024 16:33:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>SONY color camera module, 700 TV Lines</title>
+      <link>https://www.open-electronics.org/sony-color-camera-module-700-tv-lines/</link>
+      <description>Color camera module equipped with a 1/3″ CCD sensor and SONY DSP, ideal for achieving high-quality images. The f3.6 mm lens provides a wide field of view, perfect for various applications. The camera boasts an extremely high resolution of 700 TV lines, ensuring highly detailed images. With a sensitivity of 0.1 Lux, it can operate […]</description>
+      <guid isPermaLink="false">https://www.open-electronics.org/sony-color-camera-module-700-tv-lines/</guid>
+      <pubDate>Thu, 04 Jul 2024 15:33:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>makeITcircular 2024 content launched – Part of Maker Faire Rome 2024</title>
+      <link>https://www.open-electronics.org/makeitcircular-2024-content-launched-part-of-maker-faire-rome-2024/</link>
+      <description>Applications to MakeITcircular must be in by October 3, 2024 with the top prize of €3000 MakeITcircular is the contest that promotes the Circular Consumption Charter and the values of recycling, reuse and co-design. Shifting from a linear to a “circular economy” model is the key to enabling economic growth that respects material and natural resources and to making […]</description>
+      <guid isPermaLink="false">https://www.open-electronics.org/makeitcircular-2024-content-launched-part-of-maker-faire-rome-2024/</guid>
+      <pubDate>Mon, 15 Jul 2024 13:06:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Elettronici Entusiasti: Inspiring Makers at Maker Faire Rome 2024</title>
+      <link>https://www.open-electronics.org/elettronici-entusiasti-inspiring-makers-at-maker-faire-rome-2024/</link>
+      <description>Maker Faire Rome 2024 is ready to amaze the public with an extraordinary showcase of ingenuity and technological innovation, thanks to the Elettronici Entusiasti. This collective of passionate creators, through their YouTube channels and technical expertise, has captured the attention of hundreds of thousands of followers. Their mission? To rekindle interest in electronics, making, and […]</description>
+      <guid isPermaLink="false">https://www.open-electronics.org/elettronici-entusiasti-inspiring-makers-at-maker-faire-rome-2024/</guid>
+      <pubDate>Fri, 27 Sep 2024 09:52:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Adjust X and Y Axis Scale in Arduino Serial Plotter (No Extra Software Needed)</title>
+      <link>https://www.open-electronics.org/how-to-adjust-x-and-y-axis-scale-in-arduino-serial-plotter-no-extra-software-needed/</link>
+      <description>The Serial Plotter in Arduino is an excellent tool for quickly visualizing serial data. However, it has a limitation that can frustrate many users: it’s not immediately obvious how to adjust the X and Y axis scales, especially the X axis. In this article, I will guide you step by step on how to solve […]</description>
+      <guid isPermaLink="false">https://www.open-electronics.org/how-to-adjust-x-and-y-axis-scale-in-arduino-serial-plotter-no-extra-software-needed/</guid>
+      <pubDate>Fri, 27 Sep 2024 14:52:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Control NeoPixel Installations via Wi-Fi Using Fishino and NodeMCU with Python</title>
+      <link>https://www.open-electronics.org/how-to-control-neopixel-installations-via-wi-fi-using-fishino-and-nodemcu-with-python/</link>
+      <description>We create NeoPixel light installations with Fishino and NodeMCU controlled via Wi-Fi from a PC or Raspberry Pi using a Python library. A few years ago, the American company Adafruit Industries transformed the LED market by introducing NeoPixels, RGB LEDs that incorporate their own controller in a single package. Adafruit aimed to simplify LED management […]</description>
+      <guid isPermaLink="false">https://www.open-electronics.org/how-to-control-neopixel-installations-via-wi-fi-using-fishino-and-nodemcu-with-python/</guid>
+      <pubDate>Tue, 05 Nov 2024 13:51:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Build a 1000W ZVS Induction Heater Using a Resonant RLC Circuit</title>
+      <link>https://www.open-electronics.org/how-to-build-a-1000w-zvs-induction-heater-using-a-resonant-rlc-circuit/</link>
+      <description>Let’s Melt Metals Using the ZVS (Zero Voltage Switching) Technique Applied to a 1,000W RLC Resonant Circuit Have you ever wondered how intense the electromagnetic fields surrounding us can be? This is a relevant question, considering we are surrounded by countless electromagnetic waves, caused by power distribution cables, radio and TV transmitters, mobile phone networks, […]</description>
+      <guid isPermaLink="false">https://www.open-electronics.org/how-to-build-a-1000w-zvs-induction-heater-using-a-resonant-rlc-circuit/</guid>
+      <pubDate>Wed, 02 Jul 2025 08:56:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Build a Variable Constant Current Source with Sink Function</title>
+      <link>https://www.open-electronics.org/how-to-build-a-variable-constant-current-source-with-sink-function/</link>
+      <description>An adjustable constant current generator is an essential tool for many electronic applications, especially when a stable current is required regardless of the load. This project, designed and built with a PIC16F1765 microcontroller, combines both constant current sourcing and sinking capabilities in one device, with the ability to adjust the value from 0 to 1000 […]</description>
+      <guid isPermaLink="false">https://www.open-electronics.org/how-to-build-a-variable-constant-current-source-with-sink-function/</guid>
+      <pubDate>Tue, 12 Aug 2025 15:04:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>TekkaSketch: Reinventing the Etch-a-Sketch with E-Ink and ESP32 Innovation</title>
+      <link>https://www.open-electronics.org/tekkasketch-reinventing-the-etch-a-sketch-with-e-ink-and-esp32-innovation/</link>
+      <description>The iconic Etch-a-Sketch, a toy beloved by generations, always had one major limitation: a drawing mistake meant shaking the entire device and starting over from scratch. With the TekkaSketch project, this limitation is overcome thanks to a modern approach that integrates digital functions while preserving the classic aesthetic. The idea stems from observing the original […]</description>
+      <guid isPermaLink="false">https://www.open-electronics.org/tekkasketch-reinventing-the-etch-a-sketch-with-e-ink-and-esp32-innovation/</guid>
+      <pubDate>Thu, 14 Aug 2025 10:20:29 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

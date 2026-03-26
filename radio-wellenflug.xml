@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Radio Wellenflug - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/radio-wellenflug.xml</link>
+    <description>Latest articles from Radio Wellenflug (radiowellenflug.de)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/radio-wellenflug.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 06:33:07 +0000</lastBuildDate>
+    <item>
+      <title>Wir suchen Dich!</title>
+      <link>https://www.radiowellenflug.de/wir-suchen-dich/</link>
+      <description>Einfach unser Bewerbungsformular ausfüllen und los gehts!</description>
+      <guid isPermaLink="false">https://www.radiowellenflug.de/wir-suchen-dich/</guid>
+      <enclosure url="http://www.radiowellenflug.de/wp-content/uploads/2015/10/Modibewerbung.png" length="0" type="image/png"/>
+      <pubDate>Fri, 30 Oct 2015 16:19:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>“Horst Wellenflieger” ON AIR!</title>
+      <link>https://www.radiowellenflug.de/horst-wellenflieger-on-air/</link>
+      <description>“Horst Wellenflieger” ON AIR!</description>
+      <guid isPermaLink="false">https://www.radiowellenflug.de/horst-wellenflieger-on-air/</guid>
+      <enclosure url="https://www.radiowellenflug.de/wp-content/uploads/2020/11/Alternaitve-Classics-Horsti.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 10 Nov 2020 19:25:57 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

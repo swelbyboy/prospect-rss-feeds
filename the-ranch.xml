@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>The Ranch - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/the-ranch.xml</link>
+    <description>Latest articles from The Ranch (theranchradio.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/the-ranch.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 08:15:45 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://theranchradio.org/uncategorized/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://theranchradio.org/uncategorized/hello-world/</guid>
+      <pubDate>Fri, 14 Oct 2022 16:48:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>DJ’s</title>
+      <link>https://theranchradio.org/uncategorized/djs/</link>
+      <description>Times are Arizona time</description>
+      <guid isPermaLink="false">https://theranchradio.org/uncategorized/djs/</guid>
+      <enclosure url="https://theranchradio.org/wp-content/uploads/2023/07/al.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 31 Jul 2023 00:17:42 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

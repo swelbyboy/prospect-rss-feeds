@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>KPFA - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/kpfa.xml</link>
+    <description>Latest articles from KPFA (kpfa.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/kpfa.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 17:24:31 +0000</lastBuildDate>
+    <item>
+      <title>KPFA | Community Powered Radio</title>
+      <link>https://kpfa.org/</link>
+      <description>here</description>
+      <guid isPermaLink="false">https://kpfa.org/</guid>
+      <enclosure url="https://kpfa.org/app/uploads/2025/03/KPFA-logo.png" length="0" type="image/png"/>
+      <pubDate>Tue, 02 Dec 2014 05:08:40 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

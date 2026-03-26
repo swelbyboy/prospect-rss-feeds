@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Eritrean Music - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/eritrean-music.xml</link>
+    <description>Latest articles from Eritrean Music (linuxfreelancer.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/eritrean-music.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 07:26:03 +0000</lastBuildDate>
+    <item>
+      <title>Linux / Bash – generate a sequence of numbers</title>
+      <link>https://linuxfreelancer.com/linux-bash-generate-a-sequence-of-numbers</link>
+      <description>How to generate a sequence of numbers in Bash scripting Use Bash 4’s brace expansion Use “seq” command</description>
+      <guid isPermaLink="false">https://linuxfreelancer.com/linux-bash-generate-a-sequence-of-numbers</guid>
+      <pubDate>Sat, 10 Apr 2021 17:26:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Netstat alternative – dump socket statistics with ss</title>
+      <link>https://linuxfreelancer.com/netstat-alternative-dump-socket-statistics-with-ss</link>
+      <description>The net-tools set of packages had been deprecated years back, although the commands are still being in use.…</description>
+      <guid isPermaLink="false">https://linuxfreelancer.com/netstat-alternative-dump-socket-statistics-with-ss</guid>
+      <pubDate>Thu, 18 Aug 2022 12:33:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Debug connection performance with curl</title>
+      <link>https://linuxfreelancer.com/debug-connection-performance-with-curl</link>
+      <description>How to use curl to get network connectivity performance stats</description>
+      <guid isPermaLink="false">https://linuxfreelancer.com/debug-connection-performance-with-curl</guid>
+      <pubDate>Sat, 11 Feb 2023 18:20:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Top 10 Advanced Linux Commands for Cloud Engineers</title>
+      <link>https://linuxfreelancer.com/top-10-advanced-linux-commands-for-cloud-engineers</link>
+      <description>As a cloud engineer, mastering advanced Linux commands is crucial for efficient cloud management. Here’s a list of…</description>
+      <guid isPermaLink="false">https://linuxfreelancer.com/top-10-advanced-linux-commands-for-cloud-engineers</guid>
+      <pubDate>Sat, 02 Mar 2024 15:16:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Top 10 Reasons to Learn Linux Commands</title>
+      <link>https://linuxfreelancer.com/top-10-reasons-to-learn-linux-commands</link>
+      <description>Efficiency: Command-line interfaces (CLI) can be more efficient for many tasks, allowing you to perform complex operations…</description>
+      <guid isPermaLink="false">https://linuxfreelancer.com/top-10-reasons-to-learn-linux-commands</guid>
+      <pubDate>Sun, 08 Dec 2024 23:47:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>“The 2026 Enterprise Linux Roadmap: 5 Fundamental Skills for Large-Scale Ops”</title>
+      <link>https://linuxfreelancer.com/the-2026-enterprise-linux-roadmap-5-fundamental-skills-for-large-scale-ops</link>
+      <description>In 2026, the “real-world” Linux administrator at a large enterprise is no longer just a “fixer” — they…</description>
+      <guid isPermaLink="false">https://linuxfreelancer.com/the-2026-enterprise-linux-roadmap-5-fundamental-skills-for-large-scale-ops</guid>
+      <pubDate>Mon, 19 Jan 2026 12:19:52 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

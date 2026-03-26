@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>KMTX - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/kmtx.xml</link>
+    <description>Latest articles from KMTX (kmtxfm.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/kmtx.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 22:46:28 +0000</lastBuildDate>
+    <item>
+      <title>My first trip outside Europe</title>
+      <link>https://kmtxfm.com//my-first-trip-outside-europe</link>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</description>
+      <guid isPermaLink="false">https://kmtxfm.com//my-first-trip-outside-europe</guid>
+      <enclosure url="https://content.app-sources.com/t/theme16/shared/uploads/1451607303100_161.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 28 Jan 2016 19:35:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Second trip to the great Maldives</title>
+      <link>https://kmtxfm.com//second-trip-to-the-great-maldives</link>
+      <description>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</description>
+      <guid isPermaLink="false">https://kmtxfm.com//second-trip-to-the-great-maldives</guid>
+      <enclosure url="https://content.app-sources.com/t/theme16/shared/uploads/1451607692532_163.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 28 Jan 2016 19:36:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>A new trip with my friends</title>
+      <link>https://kmtxfm.com//a-new-trip-with-my-friends</link>
+      <description>This summary will show on Blog list page</description>
+      <guid isPermaLink="false">https://kmtxfm.com//a-new-trip-with-my-friends</guid>
+      <enclosure url="https://content.app-sources.com/t/theme16/shared/uploads/1451615413186_165.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 28 Jan 2016 19:37:04 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

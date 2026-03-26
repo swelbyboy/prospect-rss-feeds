@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Radio Mix - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/radio-mix.xml</link>
+    <description>Latest articles from Radio Mix (radio-mix.fr)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/radio-mix.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 05:10:40 +0000</lastBuildDate>
+    <item>
+      <title>Radio-Mix</title>
+      <link>http://radio-mix.fr/index.php/2018/12/01/lecteur-radio-mix/</link>
+      <description>L’article La radio sans limites est apparu en premier sur Radio-Mix.</description>
+      <guid isPermaLink="false">http://radio-mix.fr/index.php/2018/12/01/lecteur-radio-mix/</guid>
+      <pubDate>Sat, 01 Dec 2018 15:03:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Liens pour écouter Radio-Mix - Radio-Mix</title>
+      <link>http://radio-mix.fr/index.php/2020/04/12/test/</link>
+      <description>L’article Liens pour écouter Radio-Mix est apparu en premier sur Radio-Mix.</description>
+      <guid isPermaLink="false">http://radio-mix.fr/index.php/2020/04/12/test/</guid>
+      <enclosure url="https://andromeda.shoutca.st/system/images/tunein-pls.png" length="0" type="image/png"/>
+      <pubDate>Sun, 12 Apr 2020 17:03:02 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

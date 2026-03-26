@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>RNA - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/rna.xml</link>
+    <description>Latest articles from RNA (rnajournal.cshlp.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/rna.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 20:29:19 +0000</lastBuildDate>
+    <item>
+      <title>Bridging single-molecule and genome-wide studies of cellular mRNA translation [PERSPECTIVE]</title>
+      <link>http://rnajournal.cshlp.org/cgi/content/short/32/4/520?rss=1</link>
+      <description>The translation of mRNA is a tightly regulated, energy-intensive process that drives cellular diversity. Understanding its control requires tools that can capture behavior across scales. Over the past two decades, two complementary techniques have emerged that have transformed our understanding of mRNA translation within cells: ribosome profiling (Ribo-seq) and live, single-molecule imaging. Ribo-seq provides genome-wide, codon-level maps of ribosome positions, revealing pause sites, novel open</description>
+      <guid isPermaLink="false">http://rnajournal.cshlp.org/cgi/content/short/32/4/520?rss=1</guid>
+      <pubDate>Mon, 16 Mar 2026 14:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Representation learning of single-cell RNA-seq data [PERSPECTIVE]</title>
+      <link>http://rnajournal.cshlp.org/cgi/content/short/32/4/504?rss=1</link>
+      <description>Single-cell RNA sequencing (scRNA-seq) has become a cornerstone experimental technique in tissue biology, with gene expression data for over 100 million cells available in public repositories. The high dimensionality, sparsity, and technical noise inherent to scRNA-seq data have motivated the development of a broad spectrum of representation learning approaches. These methods learn compressed, lower-dimensional representations of single-cell transcriptomes that are meant to preserve essential va</description>
+      <guid isPermaLink="false">http://rnajournal.cshlp.org/cgi/content/short/32/4/504?rss=1</guid>
+      <pubDate>Mon, 16 Mar 2026 14:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Modulating the cleavage and polyadenylation site: from research tools to therapeutic opportunities [PERSPECTIVE]</title>
+      <link>http://rnajournal.cshlp.org/cgi/content/short/32/4/489?rss=1</link>
+      <description>Almost all protein-coding and long noncoding genes that are transcribed by RNA polymerase II employ cleavage and polyadenylation (CPA) for 3' end maturation of their nascent RNAs. More than 70% of human mRNA genes display alternative polyadenylation (APA), resulting in expression of isoforms using different CPA sites (also known as poly(A) sites or PAS). APA isoforms often have distinct mRNA metabolism and/or contain variable coding sequences. PAS mutations and genetic variations have been impli</description>
+      <guid isPermaLink="false">http://rnajournal.cshlp.org/cgi/content/short/32/4/489?rss=1</guid>
+      <pubDate>Mon, 16 Mar 2026 14:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>miRNA regulation in brain tissue space: the 3'UTR perspective [PERSPECTIVE]</title>
+      <link>http://rnajournal.cshlp.org/cgi/content/short/32/4/472?rss=1</link>
+      <description>MicroRNAs (miRNAs) are key regulators of gene expression in both health and disease. Their expression and regulatory functions are highly complex and spatiotemporally organized within tissues. In recent years, spatial transcriptomics has made significant progress in quantifying RNA expression at subcellular resolution in tissue sections. However, no current method can quantify miRNAs and their target 3' untranslated regions (3'UTRs) in space simultaneously. Furthermore, although 3'UTRs harbor cr</description>
+      <guid isPermaLink="false">http://rnajournal.cshlp.org/cgi/content/short/32/4/472?rss=1</guid>
+      <pubDate>Mon, 16 Mar 2026 14:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Progress and challenges in profiling protein-RNA and protein-associated RNA-RNA interactions [PERSPECTIVE]</title>
+      <link>http://rnajournal.cshlp.org/cgi/content/short/32/4/457?rss=1</link>
+      <description>RNA binding proteins (RBPs) play essential roles in post-transcriptional gene regulation by interacting with a wide range of RNA targets. In addition to regulating RNA processing via individual RBP–RNA interactions, there is a growing appreciation of the regulatory impact of protein-associated RNA–RNA interactions that include both well-studied examples of small regulatory RNAs (e.g., microRNAs, snRNAs, snoRNAs, piRNAs) guiding ribonucleoprotein complexes to their targets as well as structured R</description>
+      <guid isPermaLink="false">http://rnajournal.cshlp.org/cgi/content/short/32/4/457?rss=1</guid>
+      <pubDate>Mon, 16 Mar 2026 14:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Machine learning for RNA secondary structure prediction: a review of current methods and challenges [PERSPECTIVE]</title>
+      <link>http://rnajournal.cshlp.org/cgi/content/short/32/4/443?rss=1</link>
+      <description>Predicting the secondary structure of RNA is a core challenge in computational biology, essential for understanding molecular function and designing novel therapeutics. The field has evolved from foundational but accuracy-limited thermodynamic approaches to a new data-driven paradigm dominated by machine learning and deep learning. These models learn folding patterns directly from data, leading to significant performance gains. This review surveys the modern landscape of these methods, covering</description>
+      <guid isPermaLink="false">http://rnajournal.cshlp.org/cgi/content/short/32/4/443?rss=1</guid>
+      <pubDate>Mon, 16 Mar 2026 14:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deep learning for RNA secondary structure determination: gauging generalizability and broadening the scope of traditional methods [PERSPECTIVE]</title>
+      <link>http://rnajournal.cshlp.org/cgi/content/short/32/4/428?rss=1</link>
+      <description>The diverse regulatory functions, protein production capacity, and stability of natural and synthetic RNAs are closely tied to their ability to fold into intricate structures. Determining RNA structure is thus fundamental to RNA biology and bioengineering. Among existing approaches to structure determination, computational secondary structure prediction offers a rapid and low-cost strategy and is thus widely used, especially when seeking to identify functional RNA elements in large transcriptome</description>
+      <guid isPermaLink="false">http://rnajournal.cshlp.org/cgi/content/short/32/4/428?rss=1</guid>
+      <pubDate>Mon, 16 Mar 2026 14:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Probing the epitranscriptome and RNA damage with nanopore direct RNA sequencing [PERSPECTIVE]</title>
+      <link>http://rnajournal.cshlp.org/cgi/content/short/32/4/412?rss=1</link>
+      <description>Nanopore direct RNA sequencing (DRS) is revolutionizing our ability to analyze the epitranscriptome to evaluate nucleoside modifications in both cellular and synthetic RNA. The process involves minimal handling of fragile RNA strands, one round of reverse transcription to provide a DNA:RNA duplex, and library preparation to directly read nucleotides with their modifications as they pass through a protein nanopore embedded in a membrane. Simultaneous sequencing of hundreds of strands on a chip pr</description>
+      <guid isPermaLink="false">http://rnajournal.cshlp.org/cgi/content/short/32/4/412?rss=1</guid>
+      <pubDate>Mon, 16 Mar 2026 14:11:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>System-level measurement, modeling, and manipulation of RNA [INTRODUCTION]</title>
+      <link>http://rnajournal.cshlp.org/cgi/content/short/32/4/409?rss=1</link>
+      <description>System-level measurement, modeling, and manipulation of RNA [INTRODUCTION]</description>
+      <guid isPermaLink="false">http://rnajournal.cshlp.org/cgi/content/short/32/4/409?rss=1</guid>
+      <pubDate>Mon, 16 Mar 2026 14:11:08 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

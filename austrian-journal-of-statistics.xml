@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Austrian Journal of Statistics - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/austrian-journal-of-statistics.xml</link>
+    <description>Latest articles from Austrian Journal of Statistics (ajs.or.at)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/austrian-journal-of-statistics.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 20:14:25 +0000</lastBuildDate>
+    <item>
+      <title>Exploring Process Heterogeneity in Environmental Statistics: Examples and Methodological Advances</title>
+      <link>https://ajs.or.at/index.php/ajs/article/view/2101</link>
+      <description>Environmental models typically rely on stationarity assumptions. However, environmental systems are complex, and processes change over states or seasons, leading to often overlooked heterogeneity. This paper explores methods to incorporate process heterogeneity into statistical models to improve their performance. It considers problems from natural hazards and earth system sciences, demonstrating the effects of process heterogeneity and proposing methodological advances through model extensions.</description>
+      <guid isPermaLink="false">https://ajs.or.at/index.php/ajs/article/view/2101</guid>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Simultaneous Inference in Finite Mixtures of Regression Models</title>
+      <link>https://ajs.or.at/index.php/ajs/article/view/2169</link>
+      <description>A general framework for simultaneous inference in finite mixtures of generalized linear regression models is presented. Assuming asymptotic normality of the maximum likelihood estimate of all interesting model parameters, confidence regions and p-values using a maximum norm for the multivariate t-statistic are derived. This allows to simultaneously test all regression coefficients whether they are zero. Another application is to test for constant effects across mixture components. Size and power</description>
+      <guid isPermaLink="false">https://ajs.or.at/index.php/ajs/article/view/2169</guid>
+      <pubDate>Wed, 23 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Court Surfaces: A Compositional Approach to Tennis Analytics</title>
+      <link>https://ajs.or.at/index.php/ajs/article/view/2102</link>
+      <description>Compositional data analysis (CoDA) has been extensively applied in fields such as microbiomics, geosciences, and health sciences, yet its potential in sports analytics remains largely untapped. This study applies CoDA to analyze the proportional distribution of matches played on different tennis court surfaces —clay, hard, and grass— and its influence on player rankings and performance. Data from 1,171 Association of Tennis Professionals (ATP) players ranked in the top 100 were examined, reveali</description>
+      <guid isPermaLink="false">https://ajs.or.at/index.php/ajs/article/view/2102</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Log-Free Distance and Covariance Matrix for Compositional Data II: The Projective/Exterior Product Approach</title>
+      <link>https://ajs.or.at/index.php/ajs/article/view/2105</link>
+      <description>Motivated by finding a way to deal with Compositional Data (CoDa) with or without zeroes in a unified way, we build upon the previous projective geometry viewpoint of Faugeras (2023) and use the tools provided by the exterior product and Grassmann’s algebra. These allow to represent higher dimensional subspaces as linear objects, called multi-vectors, on which the usual Euclidean scalar product can be extended. Applied to CoDa seen as equivalence classes, this allows to define a pseudo-scalar pr</description>
+      <guid isPermaLink="false">https://ajs.or.at/index.php/ajs/article/view/2105</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Estimating the Mean of Finite Population under Double Sampling Stratification in the Presence of Non-Response</title>
+      <link>https://ajs.or.at/index.php/ajs/article/view/2103</link>
+      <description>Estimating finite population mean is the primary concern in many studies, particulary when the non response occurs for some units. This study focuses in estimating the finite population mean using the auxiliary variables under double sampling stratification (DSS) in the presence of non-response which occurs on both the study and the auxiliary variables. A Regression-ratio-in-ratio type exponential strategy is proposed with non-response simultaneously. Expressions for bias and mean square errors</description>
+      <guid isPermaLink="false">https://ajs.or.at/index.php/ajs/article/view/2103</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gamma and Reciprocal Inverse Gaussian Kernel Estimators for Stress Strength Reliability Model</title>
+      <link>https://ajs.or.at/index.php/ajs/article/view/2128</link>
+      <description>Several parametric estimation methods have been applied to estimate the reliability of a stress strength model. In this paper, we focus on the nonparametric kernel method and propose two nonparametric estimators based, respectively, on the Gamma and Reciprocal Inverse Gaussian kernels, which are nonnegative kernels, free from boundary bias and achieve the optimal rate of convergence for the mean integrated squared error. We introduce reliability estimators and establish their statistical and asy</description>
+      <guid isPermaLink="false">https://ajs.or.at/index.php/ajs/article/view/2128</guid>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>E-Bayesian Inference for Exponential Transformed Inverse Rayleigh Distribution under Progressive Type-II Censoring with Binomial Removals</title>
+      <link>https://ajs.or.at/index.php/ajs/article/view/2091</link>
+      <description>In this paper, we consider the comparative analysis of Bayes and E-Bayes estimates for the newly developed exponential transformed inverse Rayleigh (ETIR) distribution under the symmetric and asymmetric loss function for the progressive Type-II censoring with binomial removals. The comparison between the proposed estimators have been drawn on the basis of the simulated risks. The study also examines the expected experiment time. The suitability of the model and proposed methodology have been thr</description>
+      <guid isPermaLink="false">https://ajs.or.at/index.php/ajs/article/view/2091</guid>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bayesian Estimation of Shape Parameter of Gamma Family under Kullback-Leibler Type Loss</title>
+      <link>https://ajs.or.at/index.php/ajs/article/view/2069</link>
+      <description>In statistical decision-making, the Kullback-Leibler divergence is used as distance measure that depicts the error while measuring the discrepancy between the actual and approximated distributions. In this study, this measure is employed to determine the loss function in case of two-parameter gamma distribution. The Bayes estimate and the associated risk function of the shape parameter alpha are obtained under the derived loss function. In this context, the truncated Poisson distribution has bee</description>
+      <guid isPermaLink="false">https://ajs.or.at/index.php/ajs/article/view/2069</guid>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comparison of the Unit-Lindley and Beta Mixed Model: A Bayesian Perspective</title>
+      <link>https://ajs.or.at/index.php/ajs/article/view/2115</link>
+      <description>Mixed-effects models are among the most extensively utilized methodologies for evaluating the relationship between correlated outcomes and covariates. The choice of model is contingent upon the nature of the outcome variable. In practical applications, it is frequently encountered that data are both correlated and constrained within the interval (0, 1). The beta mixed model is typically employed to analyze such bounded and correlated data scenarios. However, recent advancements in the unit Lindl</description>
+      <guid isPermaLink="false">https://ajs.or.at/index.php/ajs/article/view/2115</guid>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimum Reliability Acceptance Sampling Plan for Burr Type-XII Distribution under Generalized Hybrid Censoring Scheme</title>
+      <link>https://ajs.or.at/index.php/ajs/article/view/2015</link>
+      <description>This manuscript focuses on reliability acceptance sampling plans applied to the Burr type-XII distribution within the framework of the generalized hybrid censoring scheme. This study involves determining the sample size (n) and acceptance constant (k1) for given values of producer's and consumer's risks, utilizing the asymptotic normality theory of maximum likelihood estimators for model parameters. Additionally, a Monte-Carlo simulation study is conducted to assess whether the reliability accep</description>
+      <guid isPermaLink="false">https://ajs.or.at/index.php/ajs/article/view/2015</guid>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

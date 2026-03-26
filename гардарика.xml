@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Гардарика - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/гардарика.xml</link>
+    <description>Latest articles from Гардарика (gardaricafm.ru)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/гардарика.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 06:11:09 +0000</lastBuildDate>
+    <item>
+      <title>SQLite в примерах</title>
+      <link>https://gardaricafm.ru/sqlite</link>
+      <description>sqlite - примеры работы из Linux, PHP8.2</description>
+      <guid isPermaLink="false">https://gardaricafm.ru/sqlite</guid>
+      <enclosure url="https://gardaricafm.ru/bl-content/uploads/pages/49805ddf065fec34e37a7aa8f3ee25c2/SQLite.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 01 Nov 2023 05:47:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Мониторинг UPS APC и EATON</title>
+      <link>https://gardaricafm.ru/ups-apc-eaton</link>
+      <description>Мониторинг UPS APC и EATON на PHP. Протокол SmartAPC. apcupsd</description>
+      <guid isPermaLink="false">https://gardaricafm.ru/ups-apc-eaton</guid>
+      <enclosure url="https://gardaricafm.ru/bl-content/uploads/pages/ef43fa3b0ac639410e8dd694d376f938/UPS.png" length="0" type="image/png"/>
+      <pubDate>Tue, 14 Nov 2023 04:11:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Уходим из office365. Почтовый сервер на Postfix+Dovecot + LDAP</title>
+      <link>https://gardaricafm.ru/postfix-dovecot-nextcloud</link>
+      <description>Уходим из office365. Создание почтового сервера, на базе Debian postfix dovecot LDAP и NextCloud. Опыт внедрения в организации.</description>
+      <guid isPermaLink="false">https://gardaricafm.ru/postfix-dovecot-nextcloud</guid>
+      <enclosure url="https://gardaricafm.ru/bl-content/uploads/pages/ae9c63f799b067f7f7390cff60ac3bfc/mailpostfix.png" length="0" type="image/png"/>
+      <pubDate>Tue, 05 Mar 2024 14:30:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Debian - Обслуживание </title>
+      <link>https://gardaricafm.ru/debian</link>
+      <description>Debian - обслуживание и обновление. Решение проблем.</description>
+      <guid isPermaLink="false">https://gardaricafm.ru/debian</guid>
+      <enclosure url="https://gardaricafm.ru/bl-content/uploads/pages/9b1c8100ce937238eb9923a7b7626618/Debian.png" length="0" type="image/png"/>
+      <pubDate>Wed, 06 Mar 2024 06:35:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>MS SQL - не хотелось, но пришлось</title>
+      <link>https://gardaricafm.ru/ms-sql-backup</link>
+      <description>Подборка скриптов и инструкций по MS SQL серверу</description>
+      <guid isPermaLink="false">https://gardaricafm.ru/ms-sql-backup</guid>
+      <enclosure url="https://gardaricafm.ru/bl-content/uploads/pages/ddc736dc4df1ce5e064eb85a9fa0b971/mssql.png" length="0" type="image/png"/>
+      <pubDate>Mon, 15 Apr 2024 13:11:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Xiaomi - разлочка, прошивка, очистка</title>
+      <link>https://gardaricafm.ru/xiaomi</link>
+      <description>Краткое руководство по разблокировке, прошивке и очистке смартвонов Xiaomi</description>
+      <guid isPermaLink="false">https://gardaricafm.ru/xiaomi</guid>
+      <enclosure url="https://gardaricafm.ru/bl-content/uploads/pages/abe1d77d2697610ffed9dc45224b56c9/fastboot.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 15 May 2024 09:19:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>MySQL - полезняки</title>
+      <link>https://gardaricafm.ru/mysql</link>
+      <description>MySQL и MariDB - установка, настройка , добавления баз и пользователей, бекапирование и обслуживание</description>
+      <guid isPermaLink="false">https://gardaricafm.ru/mysql</guid>
+      <enclosure url="https://gardaricafm.ru/bl-content/uploads/pages/0e231b7ac9b4c83b3bd837d0170c2221/mysql.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 08 Oct 2024 07:48:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Солнце и Ветер :: Контроллер Зелёной энергии</title>
+      <link>https://gardaricafm.ru/solar-wind-controller</link>
+      <description>Создание прототипа WiFi контроллера солнечной батареи и ветрогенератора</description>
+      <guid isPermaLink="false">https://gardaricafm.ru/solar-wind-controller</guid>
+      <enclosure url="https://gardaricafm.ru/bl-content/uploads/pages/8edf6e4d1dd61b296026b0cfcf716264/solarwind.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 30 Oct 2024 22:21:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Asterisk FreePBX на Debian 12</title>
+      <link>https://gardaricafm.ru/asterisk-freepbx</link>
+      <description>Усиановка и настройка сервера IP телефонии Asterisk FreePBX на Debian12</description>
+      <guid isPermaLink="false">https://gardaricafm.ru/asterisk-freepbx</guid>
+      <enclosure url="https://gardaricafm.ru/bl-content/uploads/pages/7d7117c7bf943189afaa6d15037d1beb/asterisk.webp" length="0" type="image/webp"/>
+      <pubDate>Tue, 16 Sep 2025 12:45:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Софт для android - ссылки на APK </title>
+      <link>https://gardaricafm.ru/apk</link>
+      <description>Sber APK: https://cdn.sberbank.ru/appdistr/SberbankOnline_15_14_0.apk Alfabank APK https://alfamobile-web.servicecdn.ru/latest/alfa-bank.apk VTB APK https://vtb.com/apk/vtbonline.apk AVITO APK https://www.avito.st/s/app/apk/avito.apk</description>
+      <guid isPermaLink="false">https://gardaricafm.ru/apk</guid>
+      <enclosure url="https://gardaricafm.ru/bl-content/uploads/pages/0cbf7b976722c8c3492fb337baec6120/APK.png" length="0" type="image/png"/>
+      <pubDate>Mon, 06 Oct 2025 11:49:11 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>JUTI: Jurnal Ilmiah Teknologi Informasi - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/juti--jurnal-ilmiah-teknologi-informasi.xml</link>
+    <description>Latest articles from JUTI: Jurnal Ilmiah Teknologi Informasi (juti.if.its.ac.id)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/juti--jurnal-ilmiah-teknologi-informasi.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 20:45:33 +0000</lastBuildDate>
+    <item>
+      <title>Exploring The Effectiveness of In-Context Methods in Human-Aligned Large Language Models Across Languages</title>
+      <link>https://juti.if.its.ac.id/index.php/juti/article/view/1323</link>
+      <description>Most of past studies about in-context methods like in-context learning (ICL), cross-lingual ICL (X-ICL), and in-context alignment (ICA) come from older, unaligned large language models (LLMs). However, modern human-aligned LLMs are different; they come with chat-style prompt templates, are extensively human-aligned, and cover many more languages. We re-examined these in-context techniques using two recent, human-aligned multilingual LLMs. Our study covered 20 languages from seven different langu</description>
+      <guid isPermaLink="false">https://juti.if.its.ac.id/index.php/juti/article/view/1323</guid>
+      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SentiBERT and Enhanced Bi-GRU for Weather-related Text Classification Using Lexical Features</title>
+      <link>https://juti.if.its.ac.id/index.php/juti/article/view/1320</link>
+      <description>The growing volume of weather related content on social media platforms, especially Twitter, has highlighted the need for robust classification models that can handle noisy, ambiguous, and emotionally subtle language. However, existing models machine learning such as Support Vector Machines (SVM) often fail to effectively capture implicit sentiment and sequential context in short, real time texts. This study addresses the challenge of weather related text classification by proposing a hybrid arc</description>
+      <guid isPermaLink="false">https://juti.if.its.ac.id/index.php/juti/article/view/1320</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Explainable BERT Embeddings for Veracity Assessment in Criminal Investigations</title>
+      <link>https://juti.if.its.ac.id/index.php/juti/article/view/1327</link>
+      <description>The binary classification of truth and lies is often a detriment in criminal investigations as statements are intentionally not entirely true nor entirely false. This ambiguity in the veracity of their claims demands more extensive methods such as explainable models. Explainable models, particularly SHapley Additive exPlanations (SHAP), can help dissect statements and narrow down information for a more thorough investigation. Data from the Miami University Deception Database, comprising of vario</description>
+      <guid isPermaLink="false">https://juti.if.its.ac.id/index.php/juti/article/view/1327</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Handling Ambiguity in App Review-Based Software Requirement Classification Using Multi-Label BERT Transfer Learning</title>
+      <link>https://juti.if.its.ac.id/index.php/juti/article/view/1333</link>
+      <description>User-generated reviews on mobile applications represent a valuable yet ambiguous resource for classifying software requirements, particularly when multiple aspects—such as bugs, feature requests, and user experiences—are embedded within a single review. Although prior studies have shown the potential of transformer-based and multi-label models in improving text classification accuracy and efficiency, explicit handling of semantic ambiguity in multi-aspect reviews has not been addressed. This stu</description>
+      <guid isPermaLink="false">https://juti.if.its.ac.id/index.php/juti/article/view/1333</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Comparative Study Evaluation of Kafka and RabbitMQ: Performance, Scalability and Stress Test in Distributed Messaging Systems</title>
+      <link>https://juti.if.its.ac.id/index.php/juti/article/view/1345</link>
+      <description>The two most widely used Message-Oriented Middleware (MOM) technologies are Apache Kafka and RabbitMQ, both of which have fundamental differences in terms of architecture and performance characteristics. Kafka is designed for high-throughput and good scalability data stream processing, while RabbitMQ excels in message routing flexibility, delivery reliability, and complex queue management. This study presents a comprehensive comparative analysis of two leading message brokers, namely Apache Kafk</description>
+      <guid isPermaLink="false">https://juti.if.its.ac.id/index.php/juti/article/view/1345</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Role of Advanced Penetration Testing Techniques in Enhancing Cybersecurity: A Survey on Web Application Security</title>
+      <link>https://juti.if.its.ac.id/index.php/juti/article/view/1372</link>
+      <description>The Internet continues to grow as an exciting platform for numerous web applications, providing crucial services to various industries and user communities. However, this expansion comes with an increase in cybersecurity threats, as web applications continue to be a primary target for malicious entities. Despite the creation of numerous security frameworks, yearly reports and the OWASP (Open Web Application Security Project) Top 10 consistently highlight the ongoing presence of severe vulnerabil</description>
+      <guid isPermaLink="false">https://juti.if.its.ac.id/index.php/juti/article/view/1372</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enhancing the Quality of Merged Process Models by Addressing Invisible Task</title>
+      <link>https://juti.if.its.ac.id/index.php/juti/article/view/1381</link>
+      <description>Model merging is a key approach for integrating multiple process model variants into a unified representation. Existing automated merging methods face challenges in handling invisible tasks, which are intentionally inserted in the process model to depict certain conditions, including stacked branching relationships. The inability to handle invisible tasks reduces the quality of the merged process models. A proposed graph-merging method explicitly addresses sequence, branching relationships, and</description>
+      <guid isPermaLink="false">https://juti.if.its.ac.id/index.php/juti/article/view/1381</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Performance Evaluation of DNA-Based Cryptographic Algorithms on Constrained IoT Devices</title>
+      <link>https://juti.if.its.ac.id/index.php/juti/article/view/1386</link>
+      <description>DNA-based cryptographic techniques have attracted significant interest due to their intrinsic parallelism, high algorithmic complexity, and bio-inspired randomness. However, their practical applicability in resource-constrained Internet of Things (IoT) environments remains insufficiently explored. This study presents a comprehensive performance evaluation of six representative DNA-based encryption schemes—DNA-XOR-Mutation, DNA-Substitution-Shift, Hybrid DNA-Logical Encoding, DNA-Crossover-Encode</description>
+      <guid isPermaLink="false">https://juti.if.its.ac.id/index.php/juti/article/view/1386</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi-task Temporal Deep Learning Model for Real Time Intrusion Detection System</title>
+      <link>https://juti.if.its.ac.id/index.php/juti/article/view/1446</link>
+      <description>The rapid expansion of Internet of Things (IoT) ecosystems has enabled large-scale interconnected smart environments while simultaneously exposing IoT devices to increasingly sophisticated cyber threats. To address these challenges, machine learning and deep learning–based intrusion detection systems (IDS) have been widely adopted; however, many existing approaches suffer from limited generalization, insufficient temporal modeling, and poor performance under extreme class imbalance. In this stud</description>
+      <guid isPermaLink="false">https://juti.if.its.ac.id/index.php/juti/article/view/1446</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Decision Support System for Determining Strategic Warehouse Locations Using a Combination of the WENSLO Weighting and RAWEC Method</title>
+      <link>https://juti.if.its.ac.id/index.php/juti/article/view/1456</link>
+      <description>Determining the location of a strategic warehouse is a crucial decision in supply chain management as it directly affects distribution efficiency, logistics costs, and service levels. This problem is multi-criteria and complex, requiring an approach that can accommodate differences in the importance of criteria as well as variations in performance among alternatives objectively. This study aims to develop a Decision Support System to determine a strategic warehouse location by combining the Weig</description>
+      <guid isPermaLink="false">https://juti.if.its.ac.id/index.php/juti/article/view/1456</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

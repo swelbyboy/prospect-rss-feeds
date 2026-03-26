@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Cahiers Charlevoix - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/cahiers-charlevoix.xml</link>
+    <description>Latest articles from Cahiers Charlevoix (press.uottawa.ca)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/cahiers-charlevoix.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 21:43:15 +0000</lastBuildDate>
+    <item>
+      <title>Test Article - University of Ottawa Press - EN</title>
+      <link>https://press.uottawa.ca/en/news/test-article/</link>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</description>
+      <guid isPermaLink="false">https://press.uottawa.ca/en/news/test-article/</guid>
+      <enclosure url="https://dhjhkxawhe8q4.cloudfront.net/uottawa-press-wp/wp-content/uploads/sites/2/2025/01/22133735/Rossy_W1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 18 Sep 2025 09:41:41 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

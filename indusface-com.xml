@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>indusface.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/indusface-com.xml</link>
+    <description>Latest articles from indusface.com (indusface.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/indusface-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 09:38:49 +0000</lastBuildDate>
+    <item>
+      <title>Ivanti EPMM RCE: CVE-2026-1281 &amp;amp; CVE-2026-1340 | Indusface</title>
+      <link>https://www.indusface.com/blog/cve-2026-1281-cve-2026-1340-ivanti-epmm-rce-vulnerability/</link>
+      <description>Learn how CVE-2026-1281 and CVE-2026-1340 enable pre-auth RCE in Ivanti EPMM, now actively exploited, and how AppTrana helps block attacks across applications.</description>
+      <guid isPermaLink="false">https://www.indusface.com/blog/cve-2026-1281-cve-2026-1340-ivanti-epmm-rce-vulnerability/</guid>
+      <enclosure url="https://www.indusface.com/wp-content/uploads/2026/02/security-bulletin-CVE-2026-1281-CVE-2026-1340-Ivanti-Endpoint.png" length="0" type="image/png"/>
+      <pubDate>Fri, 13 Feb 2026 07:31:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>150+ Compliance Statistics for 2026 | Indusface Blog</title>
+      <link>https://www.indusface.com/blog/key-compliance-statistics/</link>
+      <description>Explore 150+ compliance statistics for 2026 covering AI governance, cybersecurity risk, SOC 2, HIPAA, audits, and regulatory complexity shaping business decisions.</description>
+      <guid isPermaLink="false">https://www.indusface.com/blog/key-compliance-statistics/</guid>
+      <enclosure url="https://www.indusface.com/wp-content/uploads/2026/02/150-Key-Compliance-Statistics.png" length="0" type="image/png"/>
+      <pubDate>Fri, 13 Feb 2026 07:40:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CVE-2026-1357 WordPress RCE allows site takeover | Indusface</title>
+      <link>https://www.indusface.com/blog/cve-2026-1357-wordpress-rce-wpvivid-plugin/</link>
+      <description>CVE-2026-1357 exposes a critical WordPress WPvivid plugin flaw, allowing unauthenticated RCE, enabling attackers to upload PHP files and fully compromise sites.</description>
+      <guid isPermaLink="false">https://www.indusface.com/blog/cve-2026-1357-wordpress-rce-wpvivid-plugin/</guid>
+      <enclosure url="https://www.indusface.com/wp-content/uploads/2026/02/security-bulletin-CVE-2026-1357-WordPress-Plugin.png" length="0" type="image/png"/>
+      <pubDate>Tue, 17 Feb 2026 06:44:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>CVE-2026-25639: Axios DoS Vulnerability in Node.js Apps</title>
+      <link>https://www.indusface.com/blog/cve-2026-25639-axios-vulnerability/</link>
+      <description>Axios vulnerability CVE-2026-25639 enables remote DoS in Node.js applications by triggering fatal runtime errors that instantly crash APIs and backend services.</description>
+      <guid isPermaLink="false">https://www.indusface.com/blog/cve-2026-25639-axios-vulnerability/</guid>
+      <enclosure url="https://www.indusface.com/wp-content/uploads/2026/02/security-bulletin-CVE-2026-25639-Axios-Vulnerability.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Feb 2026 05:33:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Discover Exposed AI Infrastructure with Indusface WAS</title>
+      <link>https://www.indusface.com/blog/ai-server-detection-indusface-was/</link>
+      <description>Indusface WAS now detects exposed AI servers like Ollama across your attack surface, helping security teams identify publicly accessible AI infrastructure early.</description>
+      <guid isPermaLink="false">https://www.indusface.com/blog/ai-server-detection-indusface-was/</guid>
+      <enclosure url="https://www.indusface.com/wp-content/uploads/2026/03/Discover-Exposed-AI-Servers-Blog-Cover.png" length="0" type="image/png"/>
+      <pubDate>Thu, 05 Mar 2026 08:46:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>CVE-2026-27739: Angular SSR Vulnerability Enables SSRF</title>
+      <link>https://www.indusface.com/blog/cve-2026-27739-angular-ssr-vulnerability/</link>
+      <description>Learn how CVE-2026-27739 in Angular SSR enables SSRF through manipulated request headers &amp;amp; how to mitigate the risk with proper validation and security controls.</description>
+      <guid isPermaLink="false">https://www.indusface.com/blog/cve-2026-27739-angular-ssr-vulnerability/</guid>
+      <enclosure url="https://www.indusface.com/wp-content/uploads/2026/03/security-bulletin-CVE-2026-27739-Angular-SSR-1.png" length="0" type="image/png"/>
+      <pubDate>Mon, 09 Mar 2026 10:11:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exposed Ollama Servers: LLM Infrastructure Security Risks</title>
+      <link>https://www.indusface.com/blog/exposed-ollama-servers-llm-security-risks/</link>
+      <description>Learn how exposed Ollama servers can allow unauthorized model access, prompt abuse, and GPU resource consumption when LLM inference APIs are publicly accessible.</description>
+      <guid isPermaLink="false">https://www.indusface.com/blog/exposed-ollama-servers-llm-security-risks/</guid>
+      <enclosure url="https://www.indusface.com/wp-content/uploads/2020/10/WAAP-Footer-1.png" length="0" type="image/png"/>
+      <pubDate>Wed, 18 Mar 2026 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is Wix Secure Enough? Risks &amp;amp; Protection for Websites</title>
+      <link>https://www.indusface.com/blog/wix-website-security/</link>
+      <description>Understand Wix security features and gaps. Discover why growing websites may need WAAP to protect against bots, DDoS, and application attacks at scale.</description>
+      <guid isPermaLink="false">https://www.indusface.com/blog/wix-website-security/</guid>
+      <enclosure url="https://www.indusface.com/wp-content/uploads/2020/10/WAAP-Footer-1.png" length="0" type="image/png"/>
+      <pubDate>Wed, 18 Mar 2026 07:11:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>AWS WAF vs AppTrana WAF - A Detailed Analysis | Indusface</title>
+      <link>https://www.indusface.com/blog/aws-waf-vs-apptrana/</link>
+      <description>AWS WAF vs AppTrana: Understand cost, protection gaps, and operational effort. See how managed WAAP improves security and reduces maintenance with ease.</description>
+      <guid isPermaLink="false">https://www.indusface.com/blog/aws-waf-vs-apptrana/</guid>
+      <enclosure url="https://www.indusface.com/wp-content/uploads/2024/05/Feature-Blog-image-AWS-WAF-vs.-AppTrana-WAF-2.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Mar 2026 05:18:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>SharePoint RCE (CVE-2026-20963): Deserialization Flaw</title>
+      <link>https://www.indusface.com/blog/cve-2026-20963-sharepoint-deserialization-rce/</link>
+      <description>A critical SharePoint vulnerability is being used to execute malicious code remotely. Find out what CVE-2026-20963 means and how to stay protected.</description>
+      <guid isPermaLink="false">https://www.indusface.com/blog/cve-2026-20963-sharepoint-deserialization-rce/</guid>
+      <enclosure url="https://www.indusface.com/wp-content/uploads/2026/03/security-bulletin-CVE-2026-20963-SharePoint-Deserialization-1.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Mar 2026 07:30:37 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Linux Magazine - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/linux-magazine.xml</link>
+    <description>Latest articles from Linux Magazine (linux-magazin.de)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/linux-magazine.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 17:22:49 +0000</lastBuildDate>
+    <item>
+      <title>Open Source und KI: "Fördergelder allein werden das Problem nicht lösen"</title>
+      <link>https://www.linux-magazin.de/news/open-source-und-ki-foerdergelder-allein-werden-das-problem-nicht-loesen/</link>
+      <description>Open-Source-Entwickler sind durch KI-Meldungen massiv überlastet. Die Linux Foundation und Tech-Unternehmen kündigen nun Hilfe an. Mehrere große Tech-Unternehmen unterstützen eine Initiative des zur Linux Foundation gehörenden Projekts Alpha-Omega, das Open-Source-Entwicklern bei der Bewältigung von KI-generierten Sicherheitsmeldungen helfen soll. Laut einer Mitteilung von Alpha-Omega stellen Anthropic, Amazon Web Services (AWS), Github, Google, Google Deepmind, Microsoft und OpenAI zusammen 12,</description>
+      <guid isPermaLink="false">https://www.linux-magazin.de/news/open-source-und-ki-foerdergelder-allein-werden-das-problem-nicht-loesen/</guid>
+      <enclosure url="https://www.linux-magazin.de/wp-content/uploads/2026/03/Screenshot-2026-03-18-at-09-58-14-Alpha-Omega-–-Linux-Foundation-Project.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Mar 2026 10:36:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Canonical tritt Rust Foundation bei</title>
+      <link>https://www.linux-magazin.de/news/canonical-tritt-rust-foundation-bei/</link>
+      <description>Ubuntu-Herausgeber Canonical kündigt am 23. März an, der Non-Profit-Organisation Rust Foundation als Gold Member beizutreten und damit die Rust-Infrastruktur dauerhaft zu stärken. Die Rust Foundation ist eine gemeinnützige Organisation, die der Weiterentwicklung und Infrastruktur der Programmiersprache Rust sowie dessen Ökosystem dient. Ihre Ziele sind, die Sicherheit und Wartbarkeit von Rust zu gewährleisten, innovative Projekte und globale Adoption von Rust zu unterstützen sowie die Entwickler</description>
+      <guid isPermaLink="false">https://www.linux-magazin.de/news/canonical-tritt-rust-foundation-bei/</guid>
+      <enclosure url="https://www.linux-magazin.de/wp-content/uploads/2024/11/Rust_programming_language_black_logo.svg.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Mar 2026 14:19:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenShot 3.5: Großes Upgrade der Open-Source-Videobearbeitungssoftware</title>
+      <link>https://www.linux-magazin.de/news/openshot-3-5-grosses-upgrade-der-open-source-videobearbeitungssoftware/</link>
+      <description>Die neue Version 3.5 des OpenShot Video Editor bringt große Verbesserungen in der Performance mit schnellerer Timeline, verbesserter Audiobearbeitung und mehr Stabilität. Der kostenfreie, quelloffene und plattformübergreifende Video Editor OpenShot bringt mit der Version 3.5 nach eigenen Angaben „eines der größten Releases in 18 Jahren“ heraus. Der Fokus ist dabei in erster Linie bessere Performance. Wie Entwickler Jonathan Thomas in der Ankündigung schreibt: „OpenShot 3.5 is all about making ed</description>
+      <guid isPermaLink="false">https://www.linux-magazin.de/news/openshot-3-5-grosses-upgrade-der-open-source-videobearbeitungssoftware/</guid>
+      <enclosure url="https://www.linux-magazin.de/wp-content/uploads/2025/12/openshot_logo.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Mar 2026 16:15:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>KI-Agent schürft unaufgefordert Kryptowährung</title>
+      <link>https://www.linux-magazin.de/news/ki-agent-schuerft-unaufgefordert-kryptowaehrung/</link>
+      <description>Ein Forscherteam aus dem Umfeld des chinesischen Technologiekonzerns Alibaba, das mit ALE (Agentic Learning Ecosystem) eine grundlegende Infrastruktur entwickelt hat, die eine durchgängige Produktionspipeline für Agenten-LLMs optimieren soll, berichtet, dass ein damit zu Forschungszwecken entwickelter Agent namens ROME angefangen habe, unaufgefordert und eigenmächtig Kryptowährungen zu schürfen. In einem Forschungspapier berichten die Autoren von einem unerwarteten unsicherem Verhalten, das ohne</description>
+      <guid isPermaLink="false">https://www.linux-magazin.de/news/ki-agent-schuerft-unaufgefordert-kryptowaehrung/</guid>
+      <enclosure url="https://www.linux-magazin.de/wp-content/uploads/2024/11/KI-Logo.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 16:41:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>OSBA: IT-Planungsrat stärkt Open Source in der Verwaltung</title>
+      <link>https://www.linux-magazin.de/news/osba-it-planungsrat-staerkt-open-source-in-der-verwaltung/</link>
+      <description>Der IT-Planungsrat hat bereits am 26. November 2025 erweiterte EVB-IT-Musterverträge beschlossen und empfiehlt deren Nutzung. Nun sind die neuen Vertragsvorlagen zur Software-Beschaffung in der Verwaltung auf der Webseite des BMDS veröffentlicht und auch bereits in das Tool EVB-IT Digital integriert. Erstmals wird damit die Beschaffung von Open-Source-Software und entsprechenden Dienstleistungen offiziell in die Vertragsvorlagen der öffentlichen Verwaltung integriert, teilt die Open Source Busin</description>
+      <guid isPermaLink="false">https://www.linux-magazin.de/news/osba-it-planungsrat-staerkt-open-source-in-der-verwaltung/</guid>
+      <enclosure url="https://www.linux-magazin.de/wp-content/uploads/2025/10/osba-logo-claim.webp" length="0" type="image/webp"/>
+      <pubDate>Tue, 24 Mar 2026 06:32:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>KubeCon und CloudNative Con Europe 2026 startet</title>
+      <link>https://www.linux-magazin.de/news/kubecon-und-cloudnative-con-europe-2026-startet/</link>
+      <description>In Amsterdam startet heute die KubeCon und CloudNative Con Europe 2026. Die Leitveranstaltung der Cloud Native Computing Foundation bringt vom 23. bis 26. März 2026 in Amsterdam, Niederlande, Anwender und Technologen aus Open-Source- und Cloud-Native-Communities zusammen. Die CNCF-Projekte aus den Bereichen „Graduated“, „Incubating“ und „Sandbox“ kommen zu vier Tagen der Zusammenarbeit zusammen, um die Entwicklung des Cloud-Native-Computing voranzubringen. Die Keynote bei der KubeCon Europe halt</description>
+      <guid isPermaLink="false">https://www.linux-magazin.de/news/kubecon-und-cloudnative-con-europe-2026-startet/</guid>
+      <enclosure url="https://www.linux-magazin.de/wp-content/uploads/2026/03/kubeklein.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 06:47:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI verschärft Sicherheitsvorkehreungen für Videogenerator Sora 2</title>
+      <link>https://www.linux-magazin.de/news/openai-verschaerft-sicherheitsvorkehreungen-fuer-videogenerator-sora-2/</link>
+      <description>OpenAI verschärft die Sicherheitsvorkehrungen für sein KI-Video-Modell Sora 2. Dadurch soll es wesentlich schwerer werden, Deepfakes zu erzeugen und unerkannt zu verbreiten. Zu den konkreten Schutzmaßnahmen gehören beispielsweise sichtbare und unsichtbare Herkunftskennzeichen. Alle Sora-Videos werden sogenannte C2PA-Metadaten in sich tragen. Dieser Industriestandard ermöglicht die zuverlässige Rückverfolgung von Video- und Audio-Daten zu Sora. Zwar erlaubt es Sora weiterhin, Videos aus Fotos von</description>
+      <guid isPermaLink="false">https://www.linux-magazin.de/news/openai-verschaerft-sicherheitsvorkehreungen-fuer-videogenerator-sora-2/</guid>
+      <enclosure url="https://www.linux-magazin.de/wp-content/uploads/2024/11/KI-Logo.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 08:48:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>KubeCon CloudNative Con 2026: Europa trägt am meisten bei</title>
+      <link>https://www.linux-magazin.de/news/kubecon-cloudnative-con-2026-europa-traegt-am-meisten-bei/</link>
+      <description>Rund 13.500 Teilnehmer aus 100 Ländern machen die heute gestartete KubeCon 2026 in Amsterdam zur dem bislang größten Konferenz rund um Kubernets in Europa. Jonathan Bryce, Exective Director Cloud and Infrastructure bei der Linux Foundation nannte Europa mit rund 38 Prozent der Beiträge zum Cloud Native Universum führend. Die USA kommen mit rund 35 Prozent auf Platz zwei. Bryce und Chris Aniszczyk, CTO Cloud and Infrastructure bei der Linux Foundation und Co-Moderator bei den Keynotes konnten mit</description>
+      <guid isPermaLink="false">https://www.linux-magazin.de/news/kubecon-cloudnative-con-2026-europa-traegt-am-meisten-bei/</guid>
+      <enclosure url="https://www.linux-magazin.de/wp-content/uploads/2026/03/original_e4e316f1-7721-4a91-91ee-7b0727d98b82_20260324_090558-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 11:23:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Elon Musk kündigt eigene Chipfabrik an, Experten sind skeptisch</title>
+      <link>https://www.linux-magazin.de/news/elon-musk-kuendigt-eigene-chipfabrik-an-experten-sind-skeptisch/</link>
+      <description>In einem im Internet übertragenen Announcement hat Elon Musk vollmundig das „mit Abstand epischste Chip-Bau-Projekt aller Zeiten“ angekündigt, das die Dinge auf ein neues Level heben würde, das sich die meisten noch gar nicht vorstellen könnten. Experten sind allerdings skeptisch. Unter dem Namen Terafab wollen Tesla und SpaceX in Austin zwei spezialisierte Chipfabriken bauen, die Chips für Fahrzeuge, humanoide Roboter und KI-Rechenzentren im Weltraum herstellen sollen. Die weltweite Chipprodukt</description>
+      <guid isPermaLink="false">https://www.linux-magazin.de/news/elon-musk-kuendigt-eigene-chipfabrik-an-experten-sind-skeptisch/</guid>
+      <enclosure url="https://www.linux-magazin.de/wp-content/uploads/2024/11/KI-Logo.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 15:00:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kritische Sicherheitslücken in OpenWrt geschlossen</title>
+      <link>https://www.linux-magazin.de/news/kritische-sicherheitsluecken-in-openwrt-geschlossen/</link>
+      <description>OpenWrt ist ein freies, quelloffenes Betriebssystem für Router und andere Netzwerkgeräte. Die neuen Versionen ( hier und hier) beheben nicht nur kleinere Fehler, sondern schließen auch mehrere sicherheitsrelevante Schwachstellen. Besonders problematisch sind zwei Fehler im Dienst mdnsd. Dabei handelt es sich um einen Hintergrunddienst fürMulticast-DNS, der Geräte und Dienste im lokalen Netzwerk ohne zentrale DNS-Infrastruktur auffindbar macht (z. B. für automatische Namensauflösung im Heimnetz).</description>
+      <guid isPermaLink="false">https://www.linux-magazin.de/news/kritische-sicherheitsluecken-in-openwrt-geschlossen/</guid>
+      <enclosure url="https://www.linux-magazin.de/wp-content/uploads/2026/02/Insecurity-Bulletin_123RF.com_Oliver-Peters1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 15:58:56 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

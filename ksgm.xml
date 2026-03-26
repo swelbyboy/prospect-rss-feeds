@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>KSGM - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/ksgm.xml</link>
+    <description>Latest articles from KSGM (ksgm980.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/ksgm.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 01:26:26 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://ksgm980.com/2021/08/23/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://ksgm980.com/2021/08/23/hello-world/</guid>
+      <pubDate>Mon, 23 Aug 2021 22:03:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>More archived articles</title>
+      <link>https://ksgm980.com/2022/07/05/more-archived-articles/</link>
+      <description>Articles appeared in the Saturday, April 12, 1947, edition of the Herald and the June 28, 1947, Herald Thanks to Bob Mueller for his research.</description>
+      <guid isPermaLink="false">https://ksgm980.com/2022/07/05/more-archived-articles/</guid>
+      <enclosure url="https://i0.wp.com/ksgm980.com/wp-content/uploads/2022/07/ksgm-article.jpg?fit=406%2C1024&amp;amp;ssl=1" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 05 Jul 2022 16:10:38 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Sambafoot - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/sambafoot.xml</link>
+    <description>Latest articles from Sambafoot (sambafoot.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/sambafoot.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 17:30:45 +0000</lastBuildDate>
+    <item>
+      <title>Teste 1</title>
+      <link>https://www.sambafoot.com/teste-1</link>
+      <description>Teste 1</description>
+      <guid isPermaLink="false">https://www.sambafoot.com/teste-1</guid>
+      <enclosure url="https://static.sambafoot.com/wp/image-neymar-samba-gold-1-1.webp" length="0" type="image/webp"/>
+      <pubDate>Sun, 25 May 2025 22:11:41 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

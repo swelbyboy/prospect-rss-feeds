@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Trends in Computational and Applied Mathematics - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/trends-in-computational-and-applied-mathematics.xml</link>
+    <description>Latest articles from Trends in Computational and Applied Mathematics (tema.sbmac.org.br)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/trends-in-computational-and-applied-mathematics.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 22:36:12 +0000</lastBuildDate>
+    <item>
+      <title>On the relative merits of interpolation schemes for the immersed boundary method: a case study with the heat equation</title>
+      <link>https://tema.sbmac.org.br/tema/article/view/1833</link>
+      <description>In this work, three implementation options for the ghost cell immersed boundary method are compared. These options are alternatives to a rather common implementation of the method that is susceptible to numerical instability in the calculation of the bilinear interpolation in some cases. The method is implemented for a second-order spatial discretization of the heat equation in a non-rectangular domain and the errors for each option are analyzed in terms of the order of accuracy and the way they</description>
+      <guid isPermaLink="false">https://tema.sbmac.org.br/tema/article/view/1833</guid>
+      <enclosure url="https://tema.sbmac.org.br/public/journals/1/pageHeaderLogoImage_en_US.png" length="0" type="image/png"/>
+      <pubDate>Sun, 04 Feb 2024 03:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>On the (r, p, k)-Generalized Jacobsthal Numbers and the Jacobsthal Fundamental Fibonacci System</title>
+      <link>https://tema.sbmac.org.br/tema/article/view/1835</link>
+      <description>The main goal of this paper is to study the model of the sequences of (r, p, k)-generalized Jacobsthal numbers, by the approach based on the properties of its associated Jacobsthal fundamental Fibonacci system and its fundamental sequence. Some linear and combinatorial properties are established. Moreover, the related matrix formulation allows us to provide new identities, which are declined in combinatorial form. Especially, the linear Jacobsthal Cassini identity and its combinatorial formulati</description>
+      <guid isPermaLink="false">https://tema.sbmac.org.br/tema/article/view/1835</guid>
+      <enclosure url="https://tema.sbmac.org.br/public/journals/1/pageHeaderLogoImage_en_US.png" length="0" type="image/png"/>
+      <pubDate>Thu, 17 Apr 2025 03:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Modelos de crescimento exponencial, logístico e Gompertz: Uma revisão teórica e aplicação a dados da COVID-19</title>
+      <link>https://tema.sbmac.org.br/tema/article/view/1837</link>
+      <description>O cenário pandêmico causado pelo coronavírus SARS-CoV-2 fez aumentar o interesse e a divulgação de modelos matemáticos capazes de projetar a evolução do número de casos (e/ou mortes) devido a COVID-19, em países, estados e/ou cidades. Em muitos artigos, o número acumulado de casos é modelado por um modelo de crescimento não-linear, tal como, o modelo exponencial, logístico ou de Gompertz. Motivados por este fato, neste artigo, apresentamos uma revisão detalhada sobre estes três modelos de cresci</description>
+      <guid isPermaLink="false">https://tema.sbmac.org.br/tema/article/view/1837</guid>
+      <enclosure url="https://tema.sbmac.org.br/public/journals/1/pageHeaderLogoImage_en_US.png" length="0" type="image/png"/>
+      <pubDate>Wed, 03 Sep 2025 03:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Identification of a time-varying SIR Model for Covid-19</title>
+      <link>https://tema.sbmac.org.br/tema/article/view/1818</link>
+      <description>Throughout human history, epidemics have been a constant presence. Understanding their dynamics is essential to predict scenarios and make substantiated decisions. Mathematical models are powerful tools to describe an epidemic behavior. Among the most used, the compartmental ones stand out, dividing population into classes with well-defined characteristics. One of the most known is the $SIR$ model, based on a set of differential equations describing the rates of change of three categories over t</description>
+      <guid isPermaLink="false">https://tema.sbmac.org.br/tema/article/view/1818</guid>
+      <enclosure url="https://tema.sbmac.org.br/public/journals/1/pageHeaderLogoImage_en_US.png" length="0" type="image/png"/>
+      <pubDate>Wed, 03 Sep 2025 03:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An Application of Two Models for COVID-19 in Brazil</title>
+      <link>https://tema.sbmac.org.br/tema/article/view/1839</link>
+      <description>This work involves the study and development of epidemiological models described through systems of evolutionary and nonlinear ordinary differential equations. Additionally, it includes case studies related to the dynamics of COVID-19. The proposed original models examine the impact of contingency measures and vaccination strategies on the social dynamics of infectious diseases. Finally, a comparative discussion is presented, analyzing the results of the proposed models and their computational s</description>
+      <guid isPermaLink="false">https://tema.sbmac.org.br/tema/article/view/1839</guid>
+      <enclosure url="https://tema.sbmac.org.br/public/journals/1/pageHeaderLogoImage_en_US.png" length="0" type="image/png"/>
+      <pubDate>Fri, 28 Nov 2025 03:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cost-Sensitive Algorithms for Text Classification in the Legal Domain::  Addressing Imbalanced Lawsuit Themes</title>
+      <link>https://tema.sbmac.org.br/tema/article/view/1859</link>
+      <description>This article discusses the challenges of imbalanced classification in machine learning, where algorithms often incorrectly assume an even distribution of instances between classes. This issue is common in real-world scenarios, leading to poor representation of minority classes in training data. To combat this, Cost-Sensitive Learning techniques have been developed, focussing on minimising the overall cost of misclassification rather than merely optimising accuracy. These techniques are categoris</description>
+      <guid isPermaLink="false">https://tema.sbmac.org.br/tema/article/view/1859</guid>
+      <enclosure url="https://tema.sbmac.org.br/public/journals/1/pageHeaderLogoImage_en_US.png" length="0" type="image/png"/>
+      <pubDate>Fri, 28 Nov 2025 03:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can you beat logistic regression? The performance of four binary classifiers predicting premature birth</title>
+      <link>https://tema.sbmac.org.br/tema/article/view/1865</link>
+      <description>This paper presents a comparison of four predictive models for classification tasks: logistic regression, support vector machines (SVM), Gaussian process (GP) classification, and a model based on partial exchangeability. The models were evaluated using a dataset with 7 binary covariates, where 70% of the sample was used for training and the remaining 30% for testing. Predictive performance was assessed through three metrics: the area under the receiver operating characteristic curve (AUC), Brier</description>
+      <guid isPermaLink="false">https://tema.sbmac.org.br/tema/article/view/1865</guid>
+      <enclosure url="https://tema.sbmac.org.br/public/journals/1/pageHeaderLogoImage_en_US.png" length="0" type="image/png"/>
+      <pubDate>Fri, 28 Nov 2025 03:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Complementary Romanovski-Routh polynomials and their zeros</title>
+      <link>https://tema.sbmac.org.br/tema/article/view/1866</link>
+      <description>The efficacy of numerical methods like integral estimates via Gaussian quadrature formulas depends on the localization of the zeros of the associated family of orthogonal polynomials. Following the renewed interest in quadrature formulas on the unit circle and RII type polynomials, in this work we present properties satisfied by the zeros of the complementary Romanovski-Routh polynomials. Our results include extreme bounds, convexity, density, and the connection of such zeros with the zeros of c</description>
+      <guid isPermaLink="false">https://tema.sbmac.org.br/tema/article/view/1866</guid>
+      <enclosure url="https://tema.sbmac.org.br/public/journals/1/pageHeaderLogoImage_en_US.png" length="0" type="image/png"/>
+      <pubDate>Fri, 28 Nov 2025 03:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Packing Polyhedra within Convex Sets</title>
+      <link>https://tema.sbmac.org.br/tema/article/view/1823</link>
+      <description>This work addresses two problems related to packing identical regular polyhedra, focusing on triangles and squares. The first problem seeks to maximize the number of identical regular polyhedra that can be packed within a convex set or container.The second problem focuses on achieving the densest possible packing of a fixed number of identical regular polyhedra within a container of a given type. Both problems are modeled as nonlinear differentiable programming problems.</description>
+      <guid isPermaLink="false">https://tema.sbmac.org.br/tema/article/view/1823</guid>
+      <enclosure url="https://tema.sbmac.org.br/public/journals/1/pageHeaderLogoImage_en_US.png" length="0" type="image/png"/>
+      <pubDate>Wed, 24 Dec 2025 03:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Numerical simulations of two-phase electroosmotic shearing with viscoelastic fluids</title>
+      <link>https://tema.sbmac.org.br/tema/article/view/1843</link>
+      <description>This work investigates the numerical modeling and two-dimensional simulation of electroosmotic two-phase flows involving complex fluids in rectangular channels with no pressure difference. We apply mainly the non-linear Poisson-Boltzmann (PB) model for charge distribution coupled to the Navier-Stokes equations, constitutive equations for viscoelastic fluids, and the interface transport by Volume-of-Fluid with Piecewise-Linear Interface Construction. The numerical framework is implemented in the</description>
+      <guid isPermaLink="false">https://tema.sbmac.org.br/tema/article/view/1843</guid>
+      <enclosure url="https://tema.sbmac.org.br/public/journals/1/pageHeaderLogoImage_en_US.png" length="0" type="image/png"/>
+      <pubDate>Wed, 24 Dec 2025 03:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>The New Stack – Bias and Credibility - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/the-new-stack---bias-and-credibility.xml</link>
+    <description>Latest articles from The New Stack – Bias and Credibility (thenewstack.io)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/the-new-stack---bias-and-credibility.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 16:28:17 +0000</lastBuildDate>
+    <item>
+      <title>How to deploy Pi-Hole with Docker and stop ads on every device on your LAN</title>
+      <link>https://thenewstack.io/pihole-docker-network-adblocking/</link>
+      <description>Pi-Hole is an open source, network-wide ad blocker. Learn to deploy it as a Docker container to protect every device on your LAN from ads and trackers.</description>
+      <guid isPermaLink="false">https://thenewstack.io/pihole-docker-network-adblocking/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/01cb0eef-chloe-tuowfvm_mic-unsplash-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 14:44:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Four prompt engineering patterns every developer should know — and why "draw a cat" explains them all</title>
+      <link>https://thenewstack.io/prompt-engineering-for-developers/</link>
+      <description>If your AI outputs keep missing the mark, the model probably isn't the problem — here's how to write prompts that reduce variance and get reliable results.</description>
+      <guid isPermaLink="false">https://thenewstack.io/prompt-engineering-for-developers/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/74fff516-getty-images-xkwop7krpzo-unsplash-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Minimus aims to solve one of open-source's long-festering problems</title>
+      <link>https://thenewstack.io/minimus-open-source-container-security/</link>
+      <description>Minimus launches a free, open-source program offering hardened container images, SBOM tools, and threat intelligence to help maintainers secure their supply chains.</description>
+      <guid isPermaLink="false">https://thenewstack.io/minimus-open-source-container-security/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/dc5e656a-arturo-esparza-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exton Linux's light version will "enlighten" you</title>
+      <link>https://thenewstack.io/exton-linuxs-light-version-will-enlighten-you/</link>
+      <description>A Debian 13-based distro built around the Enlightenment desktop brings old-school Linux efficiency into the modern era — and it's fast enough to make you forget you ever left.</description>
+      <guid isPermaLink="false">https://thenewstack.io/exton-linuxs-light-version-will-enlighten-you/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/16091dcc-bekeen-co-tmjvp6tcyri-unsplash-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 12:43:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>PwC's AI agents are now your consultants -- whether you're ready or not</title>
+      <link>https://thenewstack.io/pwcs-ai-agents-are-now-your-consultants-whether-youre-ready-or-not/</link>
+      <description>PwC's new agentic platform cuts consultants out of the loop as first responders. What that means for pricing and liability remains an open question.</description>
+      <guid isPermaLink="false">https://thenewstack.io/pwcs-ai-agents-are-now-your-consultants-whether-youre-ready-or-not/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/10bbae60-rezza-alam-s7i0evhluyg-unsplash-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kubernetes co-founder Brendan Burns: AI-generated code will become as invisible as assembly</title>
+      <link>https://thenewstack.io/ai-generated-code-invisible/</link>
+      <description>Burns argues that as testing frameworks mature, developers will stop reviewing most code and programming languages will evolve to match.</description>
+      <guid isPermaLink="false">https://thenewstack.io/ai-generated-code-invisible/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/69412975-thumbnail-45.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Mar 2026 14:20:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>IBM, Red Hat, and Google just donated a Kubernetes blueprint for LLM inference to the CNCF</title>
+      <link>https://thenewstack.io/llm-d-cncf-kubernetes-inference/</link>
+      <description>IBM, Red Hat &amp;amp; Google donate llm-d to CNCF — an open-source Kubernetes framework for scalable, vendor-neutral LLM inference on any model, accelerator, or cloud.</description>
+      <guid isPermaLink="false">https://thenewstack.io/llm-d-cncf-kubernetes-inference/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/40f7abbf-wahyu-bintoro-z1hkpa63m6w-unsplash-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 15:20:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Broadcom donates Velero to CNCF — and it could reshape how Kubernetes users handle backup and disaster recovery</title>
+      <link>https://thenewstack.io/broadcom-velero-cncf-kubernetes/</link>
+      <description>Broadcom VMware donates Velero to CNCF sandbox, expands VKS 3.6 with open-source integrations, new CNI options, and QD profiles for AI and database workloads.</description>
+      <guid isPermaLink="false">https://thenewstack.io/broadcom-velero-cncf-kubernetes/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/5549fe65-shahid-mehmood-jbggbq1q5a0-unsplash-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 15:38:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>WebAssembly could solve AI agents' most dangerous security gap</title>
+      <link>https://thenewstack.io/webassembly-sandboxing-ai-agents/</link>
+      <description>WebAssembly offers strong isolation and sandboxing for AI agent-generated code, solving security risks that containers and microVMs struggle to address.</description>
+      <guid isPermaLink="false">https://thenewstack.io/webassembly-sandboxing-ai-agents/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/d4a524bd-vectorelements-f29f9oqtock-unsplash-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 16:01:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ai2 launches MolmoWeb, an open-source web agent</title>
+      <link>https://thenewstack.io/ai2-launches-molmoweb-an-open-source-web-agent/</link>
+      <description>The open-source web agent ships with the full training stack and was built without distilling from proprietary models.</description>
+      <guid isPermaLink="false">https://thenewstack.io/ai2-launches-molmoweb-an-open-source-web-agent/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/03/2473a5f8-screenshot-2026-03-24-at-16.43.12.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Mar 2026 16:07:20 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

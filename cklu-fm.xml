@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>CKLU-FM - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/cklu-fm.xml</link>
+    <description>Latest articles from CKLU-FM (cklu.ca)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/cklu-fm.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 01:19:33 +0000</lastBuildDate>
+    <item>
+      <title>Test Blog</title>
+      <link>https://cklu.ca/2020/03/18/test-blog/</link>
+      <description>n a news release Tuesday, the town said effective immediately, all gatherings are limited to less than 50 people, including employees and customers. In addition, the town is imposing restrictions o…</description>
+      <guid isPermaLink="false">https://cklu.ca/2020/03/18/test-blog/</guid>
+      <enclosure url="https://cklu.ca/wp-content/uploads/2020/03/10828135_366635950127678_353405069656378451_o.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Mar 2020 00:47:30 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

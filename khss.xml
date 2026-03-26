@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>KHSS - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/khss.xml</link>
+    <description>Latest articles from KHSS (khssradio.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/khss.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 01:29:42 +0000</lastBuildDate>
+    <item>
+      <title>About Us</title>
+      <link>https://khssradio.com/about/</link>
+      <description>At KHSS, we believe that radio is one of the most powerful tools of evangelization available to us today. We are dedicated to reclaiming our culture for Christ by sanctifying the airwaves with the truth of the Catholic faith. KHSS and the non-profit corporation Holy Spirit Sanctifier Catholic Radio exist in response to the call by Pope John Paul II for a “new springtime” of evangelization. Pope John Paul II saw the mass media as an important part of this mission.</description>
+      <guid isPermaLink="false">https://khssradio.com/about/</guid>
+      <pubDate>Mon, 01 Jan 1 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

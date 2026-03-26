@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>DevZen Podcast - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/devzen-podcast.xml</link>
+    <description>Latest articles from DevZen Podcast (devzen.ru)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/devzen-podcast.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 05:03:31 +0000</lastBuildDate>
+    <item>
+      <title>Дрип-кодинг под вайб-кофе — Episode 523</title>
+      <link>https://devzen.ru/episode-523/</link>
+      <description>Говорим с гостем за бэкенд-разработку, текстовый редактор Zed и вайбкодинг, пьем дрип-кофе, переносим электронную почту на proton.me, ломаем стиральные машины, чиним компьютерные мыши и ругаемся на поисковых роботов. Темы слушателей не обсуждаем, потому что и так наговорили на 2.5 часа. Перенесли их на начало выпуска 524. [00:00:48] Чему мы научились за эту неделю [00:12:47] https://www.youtube.com/@Scinquisitor [00:44:57] Интервью с гостем [01:18:53] Киберпанк который мы заслужили https://x.com</description>
+      <guid isPermaLink="false">https://devzen.ru/episode-523/</guid>
+      <enclosure url="https://devzen.ru/wp-content/uploads/2026/01/dz523.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 07 Jan 2026 23:14:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ржавые машинки — Episode 524</title>
+      <link>https://devzen.ru/episode-524/</link>
+      <description>В этом выпуске: заменяем Redis на Postgres, обсуждаем машинки и язык программирования Rust, а также темы слушателей к прошлому выпуску. [00:00:00] Чему мы научились GitHub - C19HOP/WiSafe2-to-HomeAssistant-Bridge: Connect FireAngel WiSafe2 alarm networks to HomeAssistant Hack Pack Subscription by Mark Rober - Choose Your Plan [00:25:00] ErrataZen: Саша нашел исчезнувшую галочку в Zed [00:28:40] #темы523 [01:36:57] I Replaced Redis with PostgreSQL (And It's Faster) [01:46:17] #темы524 (которых не</description>
+      <guid isPermaLink="false">https://devzen.ru/episode-524/</guid>
+      <enclosure url="https://devzen.ru/wp-content/uploads/2026/01/dz524.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 14 Jan 2026 22:49:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Опиши, что ты видишь — Episode 525</title>
+      <link>https://devzen.ru/episode-525/</link>
+      <description>В этом выпуске: помогаем поисковым системам найти магнитные рамки, радуемся RFC 9842 в Firefox 147, определяем эмпирическую сложность алгоритмов, выбираем ЧПУ, изучаем open-source руткиты для Linux, а также обсуждаем темы слушателей. [00:01:21] [SEO_Zen] Поисковые системы и магнитные рамки [00:09:04] https://claudeisland.com/ [00:26:44] Firefox 147 и RFC 9842 Релиз Firefox 147 RFC 9842 - Compression Dictionary Transport [00:30:14] https://web.stanford.edu/class/archive/cs/cs295/cs295.1086/papers</description>
+      <guid isPermaLink="false">https://devzen.ru/episode-525/</guid>
+      <enclosure url="https://devzen.ru/wp-content/uploads/2026/01/dz525.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 21 Jan 2026 22:50:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Здесь так принято — Episode 526</title>
+      <link>https://devzen.ru/episode-526/</link>
+      <description>В этом выпуске: пьем кофе с таурином, ищем side-channel уязвимости в Docker, заменяем Rust на Python, пристаем с глупыми вопросами к Gemini, а также обсуждаем темы слушателей. [00:00:00] Чему мы научились за неделю [00:19:48] Кофе и нервозность/раздрожительность [00:42:47] Fun-reliable side-channels for cross-container communication [00:57:03] Как Rust проиграл по скорости Python https://eax.me/2026/2026-01-23-rust-vs-python.html https://www.reddit.com/r/Python/comments/1dv811q/flpc_probably_the</description>
+      <guid isPermaLink="false">https://devzen.ru/episode-526/</guid>
+      <enclosure url="https://devzen.ru/wp-content/uploads/2026/01/dz526.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 29 Jan 2026 08:44:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Состоянием спонсированный актор — Episode 527</title>
+      <link>https://devzen.ru/episode-527/</link>
+      <description>В этом выпуске: аудиофильские PlayStation и прочие открытия прошедшей недели, восстанавливаем интернет из бэкапа товарища майора, изучаем состояние RISC-V на начало года, ускоряем LLM за счет использования большего количества памяти, заменяем VNC на RDP, а также обсуждаем темы слушателей. Важно! Запись выпуска 528 перенесена на 18 февраля. [00:00:00] Чему мы научились за неделю [00:49:30] Ваш интернет был заморожен и очищен Компания Take-Two Interactive подала судебный иск против разработчиков R</description>
+      <guid isPermaLink="false">https://devzen.ru/episode-527/</guid>
+      <enclosure url="https://devzen.ru/wp-content/uploads/2026/02/dz527.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Feb 2026 22:20:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Проклятая нода — Episode 528</title>
+      <link>https://devzen.ru/episode-528/</link>
+      <description>В этом выпуске: как обойтись без заголовка host в SSH, насколько проклят Node.js, что делает Google видя noindex и follow, а также тонкости обновлений в Ubuntu, тонкости реализации Base32 по RFC и тонкости обсуждения тем наших слушателей. [00:01:14] Чему мы научились за неделю [00:05:42] SSH has no Host header SSH has no Host header - exe.dev blog ssh whoami.filippo.io [00:14:24] JSON в Node проклят ibmruntimes/yieldable-json: Asynchronous JSON parser and stringify APIs that make use of generato</description>
+      <guid isPermaLink="false">https://devzen.ru/episode-528/</guid>
+      <enclosure url="https://devzen.ru/wp-content/uploads/2026/02/dz528.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Feb 2026 22:02:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Токийский Tmux — Episode 529</title>
+      <link>https://devzen.ru/episode-529/</link>
+      <description>В этом выпуске: много говорим о футурах в Rust и в частности о рантайме Tokio, закапываем Heroku и Tmux, визуализируем планы запросов ClickHouse, общаемся с Gemini на смартфоне, радуемся Zed v0.224, а также играем в Unreal Tournament 2004. Темы слушателей не обсуждаем, потому что их в этот раз никто не принес, плак-плак. [00:01:54] Чему мы научились за неделю [01:00:39] https://tokio.rs/tokio/tutorial/async [01:04:56] https://x.com/heroku/status/2019788655095853479 [01:08:48] Explain Plan Visual</description>
+      <guid isPermaLink="false">https://devzen.ru/episode-529/</guid>
+      <enclosure url="https://devzen.ru/wp-content/uploads/2026/02/dz529.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Feb 2026 15:30:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Инженер задних дел — Episode 530</title>
+      <link>https://devzen.ru/episode-530/</link>
+      <description>В этом выпуске: чему мы научились за неделю и почему Zed теперь 18+, как Safari улучшает веб, какие подводные грабли Tokio мы не обсудили в прошлом выпуске, а также темы слушателей и крики на геймпады. [00:02:50] Чему мы научились за неделю How I Use Claude Code | Boris Tane Places to Find Indie Web Content · Untested ooh.directory: a place to find good blogs that interest you [00:17:51] Zed 18+ [00:22:15] Safari и улучшайзинг веба [00:28:05] Дополнения про Tokio Futurelock / RFD / Oxide select</description>
+      <guid isPermaLink="false">https://devzen.ru/episode-530/</guid>
+      <enclosure url="https://devzen.ru/wp-content/uploads/2026/03/dz530.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 04 Mar 2026 22:54:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Аморальные морсели — Episode 531</title>
+      <link>https://devzen.ru/episode-531/</link>
+      <description>В этом выпуске: текстовый редактор Helix и рекомендуемая литература для изучения Rust, как правильно написать аналитическую SQL СУБД поверх Amazon S3, а также причем тут MTU и io_uring, как snap-пакеты портят звук в подкастах, чем слушать музыку в оффлайне под Android, и прочие темы. [00:01:34] Чему мы научились за неделю pi.dev The Pi Coding Agent: The ONLY REAL Claude Code COMPETITOR - YouTube helix-editor/helix: A post-modern modal text editor Welcome to Comprehensive Rust :crab: - Comprehens</description>
+      <guid isPermaLink="false">https://devzen.ru/episode-531/</guid>
+      <enclosure url="https://devzen.ru/wp-content/uploads/2026/03/dz531.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 11 Mar 2026 22:37:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Матричный ультрапыхатель — Episode 532</title>
+      <link>https://devzen.ru/episode-532/</link>
+      <description>В этом выпуске: чему мы научились за прошедшую неделю, как турбопыхатель помогает в организации данных на S3, пробуем Matrix и Delta Chat, используем Android-смартфон в качестве Bluetooth клавиатуры и мыши, а также во всех подробностях изучаем лор Warhammer 40,000. [00:01:54] Чему мы научились за неделю [00:24:59] Turbopuffer [00:53:25] Как Саша пробовал Matrix Public Matrix Homeserver List https://fluffy.chat/ matrix-org/matrix-rust-sdk: Matrix Client-Server SDK for Rust · GitHub https://delta.</description>
+      <guid isPermaLink="false">https://devzen.ru/episode-532/</guid>
+      <enclosure url="https://devzen.ru/wp-content/uploads/2026/03/dz532.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 18 Mar 2026 23:23:47 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

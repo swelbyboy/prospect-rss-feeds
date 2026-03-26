@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>American Road - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/american-road.xml</link>
+    <description>Latest articles from American Road (americanroadmagazine.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/american-road.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 02:46:06 +0000</lastBuildDate>
+    <item>
+      <title>Article Title to go here - American Road Magazine</title>
+      <link>https://www.americanroadmagazine.com/article-title-go/</link>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet auctor leo, ac malesuada turpis varius sed. Phasellus vitae dignissim magna. Praesent dui lorem, consequat vitae dapibus eu, cursus vel[…] Learn More &amp;gt;</description>
+      <guid isPermaLink="false">https://www.americanroadmagazine.com/article-title-go/</guid>
+      <enclosure url="https://www.americanroadmagazine.com/wp-content/uploads/2017/04/drivetheostsummer14_lindseyjanies.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 10 Apr 2017 17:26:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Article Title to go here - American Road Magazine</title>
+      <link>https://www.americanroadmagazine.com/article-title-go-2/</link>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et ipsum euismod, congue nulla a, aliquam ex. Donec dignissim iaculis dui scelerisque interdum. Vivamus quis mattis nulla, id laoreet elit.[…] Learn More &amp;gt;</description>
+      <guid isPermaLink="false">https://www.americanroadmagazine.com/article-title-go-2/</guid>
+      <enclosure url="https://www.americanroadmagazine.com/wp-content/uploads/2017/04/drivetheostsummer14_lindseyjanies.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 12 Apr 2017 20:35:37 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

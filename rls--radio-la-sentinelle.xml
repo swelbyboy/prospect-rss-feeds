@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>RLS (Radio La Sentinelle) - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/rls--radio-la-sentinelle.xml</link>
+    <description>Latest articles from RLS (Radio La Sentinelle) (radiorls.fr)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/rls--radio-la-sentinelle.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 08:04:49 +0000</lastBuildDate>
+    <item>
+      <title>Accueil</title>
+      <link>https://www.radiorls.fr/46-accueil/133-accueil</link>
+      <description>[widgetkit id=10]</description>
+      <guid isPermaLink="false">https://www.radiorls.fr/46-accueil/133-accueil</guid>
+      <pubDate>Tue, 06 Aug 2013 09:12:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>News</title>
+      <link>https://www.radiorls.fr/46-accueil/134-news</link>
+      <description>[widgetkit id=18]</description>
+      <guid isPermaLink="false">https://www.radiorls.fr/46-accueil/134-news</guid>
+      <pubDate>Tue, 06 Aug 2013 09:16:34 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>osnews.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/osnews-com.xml</link>
+    <description>Latest articles from osnews.com (osnews.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/osnews-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 16:35:49 +0000</lastBuildDate>
+    <item>
+      <title>Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers</title>
+      <link>https://www.osnews.com/story/144623/meta-and-tiktok-let-harmful-content-rise-after-evidence-outrage-drove-engagement-say-whistleblowers/</link>
+      <description>Once again, social media giants Facebook and TikTok have been caught red-handed. More than a dozen whistleblowers and insiders have laid bare how the companies took risks with safety on issues including violence, sexual blackmail and terrorism as they battled for users’ attention. An engineer at Meta, which owns Facebook and Instagram, described how he had been told by senior management to allow more “borderline” harmful content – which includes misogyny and conspiracy theories – in user’s feeds</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144623/meta-and-tiktok-let-harmful-content-rise-after-evidence-outrage-drove-engagement-say-whistleblowers/</guid>
+      <pubDate>Wed, 18 Mar 2026 19:42:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sudo ported to DOS</title>
+      <link>https://www.osnews.com/story/144625/sudo-ported-to-dos/</link>
+      <description>DOS didn’t have sudo yet. This gross oversight has been addressed. SUDO examines the environment for the COMSPEC variable to find the default command interpreter, falling back to C:\COMMAND.COM if not set. The interpreter is then executed in unprotected real mode for full privileges. ↫ SUDO for DOS’ Codeberg page A vital tool, for sure.</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144625/sudo-ported-to-dos/</guid>
+      <pubDate>Wed, 18 Mar 2026 21:01:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Duranium: an immutable variant of postmarketOS</title>
+      <link>https://www.osnews.com/story/144627/introducing-duranium-an-immutable-variant-of-postmarketos/</link>
+      <description>PosrtmarketOS, the Linux ‘distribution’ for mobile devices, now also has an immutable variant, called Duranium. Duranium is an immutable variant of postmarketOS, built around the idea that your device should just work, and keep working. You shouldn’t need to know what a terminal is to keep your device running. “Immutable” means the core operating system is read-only and can’t be modified while it’s running. System updates are applied as complete, verified images rather than individual packages.</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144627/introducing-duranium-an-immutable-variant-of-postmarketos/</guid>
+      <pubDate>Wed, 18 Mar 2026 21:14:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNOME 50 released</title>
+      <link>https://www.osnews.com/story/144629/gnome-50-released/</link>
+      <description>The GNOME team has released GNOME 50, the latest version of what is probably the most popular open source desktop environment. It brings fine-grained parental controls, and the groundwork for web filtering so that in future releases, parents and guardians can set content filters for children. Our own kids are still way too young to have access to computers and the internet, but I’m not sure I’ll ever resort to these kinds of tools when the time comes. I didn’t have any such controls imposed upon</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144629/gnome-50-released/</guid>
+      <pubDate>Wed, 18 Mar 2026 22:23:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>You can make Linux syscalls in a Windows application, apparently</title>
+      <link>https://www.osnews.com/story/144633/you-can-make-linux-syscalls-in-a-windows-application-apparently/</link>
+      <description>What happens if you make a Linux syscall in a Windows application? So yeah, you can make Linux syscalls from Windows programs, as long as they’re running under Wine. Totally useless, but the fact that such a Frankenstein monster of a program could exist is funny to me. ↫ nicebyte at gpfault.net The fact that this works is both surprising and unsurprising at the same time.</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144633/you-can-make-linux-syscalls-in-a-windows-application-apparently/</guid>
+      <pubDate>Thu, 19 Mar 2026 21:10:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google to introduce overly onerous hoops to prevent “sideloading”</title>
+      <link>https://www.osnews.com/story/144635/google-to-introduce-overly-onerous-hoops-to-prevent-sideloading/</link>
+      <description>When Google said they were going to require verification from every single Android developer that would end the ability to install applications from outside of the Play Store (commonly wrongfully referred to as “sideloading”), it caused quite a backlash. The company then backtracked a little bit, and said they would come up with an “advanced flow” to make sure installing applications from outside of the Play Store remained possible. Well, Google has detailed this “advanced flow”, and as everyone</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144635/google-to-introduce-overly-onerous-hoops-to-prevent-sideloading/</guid>
+      <pubDate>Thu, 19 Mar 2026 23:51:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft finally makes a few concrete promises about Windows 11 improvements</title>
+      <link>https://www.osnews.com/story/144638/microsoft-finally-makes-a-few-concrete-promises-about-windows-11-improvements/</link>
+      <description>Earlier this year, Microsoft openly acknowledged the sorry state of Windows 11, and made vague promises about possible improvements somewhere in the near future, but stayed away from making any concrete promises. Today, the company published a blog post with some more details, including some actual concrete, tangible changes it’s going to implement over the coming two months. In coming builds, you’ll be able to move the taskbar to any side of the screen, instead of it being locked to the bottom,</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144638/microsoft-finally-makes-a-few-concrete-promises-about-windows-11-improvements/</guid>
+      <pubDate>Fri, 20 Mar 2026 23:02:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>The OpenBSD init system and boot process</title>
+      <link>https://www.osnews.com/story/144646/the-openbsd-init-system-and-boot-process/</link>
+      <description>In recent weeks, systemd has both embraced slopcoding and laid the groundwork for age verification built right into systemd-based Linux distributions, there’s definitely been an uptick in people talking about alternative init systems. If you want to gain understanding in a rather classic init system, OpenBSD’s is a great place to start. OpenBSD has a delightfully traditional init system, which makes it a great place to start learning about init systems. It’s simple and effective. There’s a bit o</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144646/the-openbsd-init-system-and-boot-process/</guid>
+      <pubDate>Mon, 23 Mar 2026 14:44:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Java Sun SPOTs (Small Programable Object Technology)</title>
+      <link>https://www.osnews.com/story/144648/java-sun-spots-small-programable-object-technology/</link>
+      <description>These were Sun microcontrollers that run Squawk Java ME directly on metal with gc and all the bells and whistles, created by Sun Microsystems in 2005. The feature mesh networking and tcp/ip and multitasking. Even the drivers are java just like Java OS. They run a command and control server by default and there’s graphical network builders and deployment managers (Solarium) they also do some more esoteric stuff like process migration. ↫ Penny I have no use for these but I want them. They would’ve</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144648/java-sun-spots-small-programable-object-technology/</guid>
+      <pubDate>Mon, 23 Mar 2026 14:52:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windows native application development is a mess</title>
+      <link>https://www.osnews.com/story/144650/windows-native-application-development-is-a-mess/</link>
+      <description>Usually, when developers or programmers write articles about their experiences developing for a platform they have little to no experience with, the end result usually comes down to “they do things differently, therefor it is bad actually”, which is deeply unhelpful. This article, though, is from a longtime Windows user and developer, but one who hasn’t had to work on native Windows development for a long time now. When he decided to write his own native Windows application to scratch a personal</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144650/windows-native-application-development-is-a-mess/</guid>
+      <pubDate>Mon, 23 Mar 2026 15:13:36 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

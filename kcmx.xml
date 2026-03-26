@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>KCMX - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/kcmx.xml</link>
+    <description>Latest articles from KCMX (kcmxam.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/kcmx.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 01:17:16 +0000</lastBuildDate>
+    <item>
+      <title>Mobile App</title>
+      <link>https://kcmxam.com/featured/mobile-app/</link>
+      <description>We make it easy to listen to your favorite news talk on the GO! Download our FREE mobile app today! Available on Google Play and in the Apple Store!</description>
+      <guid isPermaLink="false">https://kcmxam.com/featured/mobile-app/</guid>
+      <enclosure url="https://kcmxam.b-cdn.net/site/wp-content/uploads/2023/04/KAKT-News-Talk-Mobile-App-1024x577.png" length="0" type="image/png"/>
+      <pubDate>Thu, 27 Apr 2023 21:24:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Glenn Beck</title>
+      <link>https://kcmxam.com/featured/hello-world/</link>
+      <description>Glenn Beck</description>
+      <guid isPermaLink="false">https://kcmxam.com/featured/hello-world/</guid>
+      <enclosure url="https://kcmxam.b-cdn.net/site/wp-content/uploads/2023/04/Glenn-Beck-12pm-3pm-M-S-1-1024x512.png" length="0" type="image/png"/>
+      <pubDate>Sun, 16 Mar 2025 14:00:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Clay Travis and Buck Sexton Show</title>
+      <link>https://kcmxam.com/featured/the-clay-travis-and-buck-sexton-show/</link>
+      <description>The Clay Travis and Buck Sexton Show</description>
+      <guid isPermaLink="false">https://kcmxam.com/featured/the-clay-travis-and-buck-sexton-show/</guid>
+      <enclosure url="https://kcmxam.b-cdn.net/site/wp-content/uploads/2025/03/The-Clay-Travis-and-Buck-Sexton-Show-Web-banner-1.png" length="0" type="image/png"/>
+      <pubDate>Sun, 16 Mar 2025 14:44:50 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

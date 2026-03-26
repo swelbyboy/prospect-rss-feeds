@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Technosaures - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/technosaures.xml</link>
+    <description>Latest articles from Technosaures (programmez.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/technosaures.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 19:27:04 +0000</lastBuildDate>
+    <item>
+      <title>RAD Studio 13.1 : support de Windows Arm</title>
+      <link>https://www.programmez.com/actualites/rad-studio-131-support-de-windows-arm-39168</link>
+      <description>Embarcadero distribue RAD Studio 13.1 incluant Delphi 13.1 et C++ Builder 13.1. Cette version introduit une nouvelle architecture de compilation : Windows Arm. On peut donc générer des binaires natifs. Autre nouveauté : le support d'Android API 36 et iOS 26.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/rad-studio-131-support-de-windows-arm-39168</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Fri, 20 Mar 2026 16:06:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Copilot : fin de support des IDE JetBrains 2024.2 et 2024.3</title>
+      <link>https://www.programmez.com/actualites/copilot-fin-de-support-des-ide-jetbrains-20242-et-20243-39169</link>
+      <description>Microsoft annonce que les versions 2024.2 et 2024.3 de tous les IDE JetBrains ne sont plus supportées par GitHub Copilot. Les versions 2025.1, et supérieures, sont pleinement supportées.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/copilot-fin-de-support-des-ide-jetbrains-20242-et-20243-39169</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Mar 2026 07:33:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitLab 18.10 : SAST et 60 améliorations</title>
+      <link>https://www.programmez.com/actualites/gitlab-1810-sast-et-60-ameliorations-39170</link>
+      <description>GitLab annonce la disponibilité de la version 18.10. Cette version inclut plus de 60 améliorations. Une des annonces fortes est la disponibilité de la détection agentique SAST FP. SAST permet de traquer les faux positifs dans la sécurité. C'est un des fléaux dans l'AppSec.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/gitlab-1810-sast-et-60-ameliorations-39170</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/gitlab1810.png?itok=poFOPIhe" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 23 Mar 2026 08:24:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>HeroUI v3 : +100 composants pour React et ReactNative</title>
+      <link>https://www.programmez.com/actualites/heroui-v3-100-composants-pour-react-et-reactnative-39171</link>
+      <description>HeroUI (anciennement NextUI) est disponible en v3. Nous trouvons des composants UI pour React et React Native : 75 composants web et 37 composants natives. L'équipe annonce une réécriture complète de tous les composants. Toutes les aninmations sont désormais en CSS.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/heroui-v3-100-composants-pour-react-et-reactnative-39171</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Mar 2026 08:38:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Next.js 16.2 : performances, nouvelle page d'erreur, Agent DevTools</title>
+      <link>https://www.programmez.com/actualites/nextjs-162-performances-nouvelle-page-derreur-agent-devtools-39172</link>
+      <description>Next.js annonce la version 16.2.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/nextjs-162-performances-nouvelle-page-derreur-agent-devtools-39172</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Mar 2026 13:51:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>JetBrains réagit au rachat d'Astral par Anthropic : jusqu'ici tout va bien</title>
+      <link>https://www.programmez.com/actualites/jetbrains-reagit-au-rachat-dastral-par-anthropic-jusquici-tout-va-bien-39173</link>
+      <description>Le 19 mars dernier, Anthropic annonçait le rachat d'Astral. Astral développe des outils Python devenus quasi incontournables dans la toolchain : uv, Ruff et ty. Mais que pense JetBrains de cette recomposition ?</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/jetbrains-reagit-au-rachat-dastral-par-anthropic-jusquici-tout-va-bien-39173</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Mar 2026 07:34:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>TypeScript 6.0 : en attendant la 7.0</title>
+      <link>https://www.programmez.com/actualites/typescript-60-en-attendant-la-70-39174</link>
+      <description>TypeScript 6.0 est une version d'attente pourrait-on dire. La révolution attendue sera la version 7 avec l'injection du langage Go au coeur du projet. La v6 est la dernière version majeure JavaScript avant TypeScript basé sur Go. Cette version fait le lien entre les 5.9 et la 7.0.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/typescript-60-en-attendant-la-70-39174</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Mar 2026 08:06:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>WWDC : du 8 au 12 juin</title>
+      <link>https://www.programmez.com/actualites/wwdc-du-8-au-12-juin-39175</link>
+      <description>Apple vient de dévoiler les dates de la prochaine WWDC, la conférence mondiale des développeurs Apple. Cette année encore, le format est hybride : de nombreuses sessions seront proposées en ligne et un événement à Cupertino pour une sélection de développeurs.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/wwdc-du-8-au-12-juin-39175</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Mar 2026 08:28:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cursor reconnaît que Composer 2.0 se base sur le modèle Kimi K2.5</title>
+      <link>https://www.programmez.com/actualites/cursor-reconnait-que-composer-20-se-base-sur-le-modele-kimi-k25-39176</link>
+      <description>Il y a quelques jours, Cursor annonçait son LLM Composer 2 dédié au code. Très vite, un certain Fynn postait sur X : "Composer 2 est Kimi K2.5 avec RL"... Kimi 2.5 est un modèle open source fourni par Moonshot AI (Chine). Fynn pointait dans le code des références implicites à Kimi.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/cursor-reconnait-que-composer-20-se-base-sur-le-modele-kimi-k25-39176</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Mar 2026 11:27:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qt 6.11 : accélération 2D, graphs interactifs, C++ déclaratif</title>
+      <link>https://www.programmez.com/actualites/qt-611-acceleration-2d-graphs-interactifs-c-declaratif-39177</link>
+      <description>Qt Group dévoile Qt 6.11. Cette version apporte d'intéressantes évolutions pour les développeurs.1 / rendus 2D &amp;amp; amélioration 3DL'éditeur propose une nouvelle couche pour le rendu 2D avec Qt Canvas Painter. Il s'agit d'un module pour le rendu 2D au-dessus de la couche rendu hardware.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/qt-611-acceleration-2d-graphs-interactifs-c-declaratif-39177</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/qt611.jpeg?itok=iCGrxPmW" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 24 Mar 2026 13:27:42 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

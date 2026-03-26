@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>CKWM-FM - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/ckwm-fm.xml</link>
+    <description>Latest articles from CKWM-FM (magic949.ca)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/ckwm-fm.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 01:19:37 +0000</lastBuildDate>
+    <item>
+      <title>Hello world! - Magic 94.9</title>
+      <link>https://magic949.ca/2017/01/25/hello-world/</link>
+      <description>Welcome to MBS Radio. This is your first post. Edit or delete it, then start blogging!</description>
+      <guid isPermaLink="false">https://magic949.ca/2017/01/25/hello-world/</guid>
+      <enclosure url="https://magic949.ca/wp-content/uploads/sites/14/2018/12/magic-facebook.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Jan 2017 13:29:43 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

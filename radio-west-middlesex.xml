@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Radio West Middlesex - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/radio-west-middlesex.xml</link>
+    <description>Latest articles from Radio West Middlesex (radiowestmiddlesex.org.uk)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/radio-west-middlesex.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 00:42:52 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>http://radiowestmiddlesex.org.uk/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">http://radiowestmiddlesex.org.uk/hello-world/</guid>
+      <pubDate>Wed, 18 Mar 2020 19:30:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lorem ipsum</title>
+      <link>http://radiowestmiddlesex.org.uk/post/</link>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Lorem dolor amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. cite. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. This stylesheet is going to help so freaking much. -Blockquote List Item 1 […]</description>
+      <guid isPermaLink="false">http://radiowestmiddlesex.org.uk/post/</guid>
+      <enclosure url="http://radiowestmiddlesex.org.uk/wordpress/wp-content/uploads/2020/03/shutterstock_62287657-01-3.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 19 Mar 2020 02:55:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Conse ctetur</title>
+      <link>http://radiowestmiddlesex.org.uk/post-2/</link>
+      <description>Lorem superscript dolor subscript amet, consectetuer adipiscing elit, test link. Nullam dignissim convallis est. Quisque aliquam. cite. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. Maecenas ornare tortor. Donec sed […]</description>
+      <guid isPermaLink="false">http://radiowestmiddlesex.org.uk/post-2/</guid>
+      <enclosure url="http://radiowestmiddlesex.org.uk/wordpress/wp-content/uploads/2020/03/shutterstock_32050237.png" length="0" type="image/png"/>
+      <pubDate>Thu, 19 Mar 2020 02:55:07 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

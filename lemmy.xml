@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Lemmy - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/lemmy.xml</link>
+    <description>Latest articles from Lemmy (join-lemmy.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/lemmy.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 17:40:26 +0000</lastBuildDate>
+    <item>
+      <title>Breaking Changes in Lemmy 1.0</title>
+      <link>https://join-lemmy.org/news/2025-02-03_-_Breaking_Changes_in_Lemmy_1.0</link>
+      <description>Breaking Changes in Lemmy 1.0 The major breaking changes for version 1.0 are already implemented. However it will still take a lot of work to implement the new features in lemmy-ui, and publish the final release. So this is a good time for developers of Lemmy clients to start adapting the new API, and suggest changes before it gets finalized. If you use any apps, frontends or bots for Lemmy, please help us out by notifying the developers about this post. With the new version there is all new doc</description>
+      <guid isPermaLink="false">https://join-lemmy.org/news/2025-02-03_-_Breaking_Changes_in_Lemmy_1.0</guid>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lemmy v0.19.9 Release</title>
+      <link>https://join-lemmy.org/news/2025-02-10_-_Lemmy_Release_v0.19.9</link>
+      <description>Lemmy v0.19.9 Release What is Lemmy? Lemmy is a self-hosted social link aggregation and discussion platform. It is completely free and open, and not controlled by any company. This means that there is no advertising, tracking, or secret algorithms. Content is organized into communities, so it is easy to subscribe to topics that you are interested in, and ignore others. Voting is used to bring the most interesting items to the top. Changes This version fixes a potential security problem, by preve</description>
+      <guid isPermaLink="false">https://join-lemmy.org/news/2025-02-10_-_Lemmy_Release_v0.19.9</guid>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lemmy Release v0.19.10 and Developer AMA</title>
+      <link>https://join-lemmy.org/news/2025-03-19_-_Lemmy_Release_v0.19.10_and_Developer_AMA</link>
+      <description>Lemmy Release v0.19.10 and Developer AMA What is Lemmy? Lemmy is a self-hosted social link aggregation and discussion platform. It is completely free and open, and not controlled by any company. This means that there is no advertising, tracking, or secret algorithms. Content is organized into communities, so it is easy to subscribe to topics that you are interested in, and ignore others. Voting is used to bring the most interesting items to the top. Developer AMA Next week we are going to hold a</description>
+      <guid isPermaLink="false">https://join-lemmy.org/news/2025-03-19_-_Lemmy_Release_v0.19.10_and_Developer_AMA</guid>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lemmy Release v0.19.11</title>
+      <link>https://join-lemmy.org/news/2025-04-08_-_Lemmy_Release_v0.19.11</link>
+      <description>Lemmy Release v0.19.11 What is Lemmy? Lemmy is a self-hosted social link aggregation and discussion platform. It is completely free and open, and not controlled by any company. This means that there is no advertising, tracking, or secret algorithms. Content is organized into communities, so it is easy to subscribe to topics that you are interested in, and ignore others. Voting is used to bring the most interesting items to the top. Changes This release fixes a security vulnerability which allows</description>
+      <guid isPermaLink="false">https://join-lemmy.org/news/2025-04-08_-_Lemmy_Release_v0.19.11</guid>
+      <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lemmy Release v0.19.12</title>
+      <link>https://join-lemmy.org/news/2025-06-13_-_Lemmy_Release_0.19.12</link>
+      <description>Lemmy Release v0.19.12 What is Lemmy? Lemmy is a self-hosted social link aggregation and discussion platform. It is completely free and open, and not controlled by any company. This means that there is no advertising, tracking, or secret algorithms. Content is organized into communities, so it is easy to subscribe to topics that you are interested in, and ignore others. Voting is used to bring the most interesting items to the top. Changes This release includes various minor improvements and bug</description>
+      <guid isPermaLink="false">https://join-lemmy.org/news/2025-06-13_-_Lemmy_Release_0.19.12</guid>
+      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lemmy Release v0.19.13</title>
+      <link>https://join-lemmy.org/news/2025-09-10_-_Lemmy_Release_0.19.13</link>
+      <description>Lemmy Release v0.19.13 What is Lemmy? Lemmy is a self-hosted social link aggregation and discussion platform. It is completely free and open, and not controlled by any company. This means that there is no advertising, tracking, or secret algorithms. Content is organized into communities, so it is easy to subscribe to topics that you are interested in, and ignore others. Voting is used to bring the most interesting items to the top. Changes This version fixes a handful of bugs. Most importantly i</description>
+      <guid isPermaLink="false">https://join-lemmy.org/news/2025-09-10_-_Lemmy_Release_0.19.13</guid>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lemmy Release v0.19.14</title>
+      <link>https://join-lemmy.org/news/2025-12-08_-_Lemmy_Release_0.19.14</link>
+      <description>Lemmy Release v0.19.14 What is Lemmy? Lemmy is a self-hosted social link aggregation and discussion platform. It is completely free and open, and not controlled by any company. This means that there is no advertising, tracking, or secret algorithms. Content is organized into communities, so it is easy to subscribe to topics that you are interested in, and ignore others. Voting is used to bring the most interesting items to the top. Thanks to @flamingos-cant for contributing to resolve this. Chan</description>
+      <guid isPermaLink="false">https://join-lemmy.org/news/2025-12-08_-_Lemmy_Release_0.19.14</guid>
+      <pubDate>Mon, 08 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lemmy Release v0.19.15 and Testing for 1.0</title>
+      <link>https://join-lemmy.org/news/2025-12-24_-_Lemmy_Release_v0.19.15_and_Testing_for_1.0</link>
+      <description>Lemmy Release v0.19.15 and Testing for 1.0 What is Lemmy? Lemmy is a self-hosted social link aggregation and discussion platform. It is completely free and open, and not controlled by any company. This means that there is no advertising, tracking, or secret algorithms. Content is organized into communities, so it is easy to subscribe to topics that you are interested in, and ignore others. Voting is used to bring the most interesting items to the top. Thanks to @flamingos-cant for contributing t</description>
+      <guid isPermaLink="false">https://join-lemmy.org/news/2025-12-24_-_Lemmy_Release_v0.19.15_and_Testing_for_1.0</guid>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lemmy Release v0.19.16</title>
+      <link>https://join-lemmy.org/news/2026-03-03_-_Lemmy_Release_v0.19.16</link>
+      <description>Lemmy Release v0.19.16 What is Lemmy? Lemmy is a self-hosted social link aggregation and discussion platform. It is completely free and open, and not controlled by any company. This means that there is no advertising, tracking, or secret algorithms. Content is organized into communities, so it is easy to subscribe to topics that you are interested in, and ignore others. Voting is used to bring the most interesting items to the top. Thanks to @flamingos-cant for contributing to resolve this. Chan</description>
+      <guid isPermaLink="false">https://join-lemmy.org/news/2026-03-03_-_Lemmy_Release_v0.19.16</guid>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lemmy Release v0.19.17</title>
+      <link>https://join-lemmy.org/news/2026-03-23_-_Lemmy_Release_v0.19.17</link>
+      <description>Lemmy Release v0.19.17 What is Lemmy? Lemmy is a self-hosted social link aggregation and discussion platform. It is completely free and open, and not controlled by any company. This means that there is no advertising, tracking, or secret algorithms. Content is organized into communities, so it is easy to subscribe to topics that you are interested in, and ignore others. Voting is used to bring the most interesting items to the top. Thanks to @flamingos-cant for contributing to resolve this. Chan</description>
+      <guid isPermaLink="false">https://join-lemmy.org/news/2026-03-23_-_Lemmy_Release_v0.19.17</guid>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

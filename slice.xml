@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Slice - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/slice.xml</link>
+    <description>Latest articles from Slice (slice.ca)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/slice.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Mar 2026 18:17:58 +0000</lastBuildDate>
+    <item>
+      <title>Hello world! - Slice</title>
+      <link>https://www.slice.ca/2024/07/17/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://www.slice.ca/2024/07/17/hello-world/</guid>
+      <enclosure url="https://assets.slice.ca/wp-content/uploads/2024/08/Slice-Logo-1200x630-1-768x403-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 17 Jul 2024 16:23:23 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

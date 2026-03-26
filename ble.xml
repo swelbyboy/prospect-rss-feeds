@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Ble - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/ble.xml</link>
+    <description>Latest articles from Ble (ble.fm)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/ble.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Mar 2026 07:46:08 +0000</lastBuildDate>
+    <item>
+      <title>This is Featured Article</title>
+      <link>https://ble.fm/23-featured-articles/1-features</link>
+      <description>[dropcap style="flat" size="3"]L[/dropcap]orem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse condimentum malesuada semper. Integer velit lacus, lobortis sit amet interdum vel, posuere eget magna. Donec lacinia hendrerit urna ac commodo. Sed gravida, odio sed dapibus faucibus, ipsum orci lacinia lectus, ut suscipit ligula eros quis urna. Donec placerat pulvinar lectus. Donec leo velit, tincidunt adipiscing aliquet id, blandit vel lacus. Maecenas sagittis purus ac quam suscipit fr</description>
+      <guid isPermaLink="false">https://ble.fm/23-featured-articles/1-features</guid>
+      <pubDate>Wed, 26 Feb 2014 10:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Home page 3 content</title>
+      <link>https://ble.fm/2-uncategorised/81-home-page-3-content</link>
+      <description>[row] [column size="1/2" center="no"] [/column] [column size="1/2" center="no"] [heading style="modern-1-violet" heading="h3" size="18" align="center" margin="10"]Why You Choose Effortless?[/heading] [list icon="icon: check" icon_color="#333333"] Made for evreyone Powerful Revolution Slider Unlimited Shortcodes Responsive for All Device Tons of Layouts Nullam dictum felis Integer tincidunt Cras dapibus. Aenean vulputate [/list] [list icon="icon: caret-right" icon_color="#333333"] Shopping Cart L</description>
+      <guid isPermaLink="false">https://ble.fm/2-uncategorised/81-home-page-3-content</guid>
+      <enclosure url="https://ble.fm/images/sampledata/Responsive.png" length="0" type="image/png"/>
+      <pubDate>Tue, 08 Apr 2014 11:00:48 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
