@@ -210,11 +210,14 @@ html = '''<!DOCTYPE html>
         </tr>
 '''
 
+rows = []
 for entry in feed_entries:
     status_class = 'success' if entry['status'] == 'success' else 'failed'
     rss_link = f'<a href="{entry["url"]}">{entry["url"]}</a>'
     domain = entry.get('domain', '-')
-    html += f'        <tr><td>{entry["name"]}</td><td>{domain}</td><td>{rss_link}</td><td class="{status_class}">{entry["status"]}</td><td>{entry["date"]}</td></tr>\n'
+    rows.append(f'        <tr><td>{entry["name"]}</td><td>{domain}</td><td>{rss_link}</td><td class="{status_class}">{entry["status"]}</td><td>{entry["date"]}</td></tr>')
+
+html += '\n'.join(rows) + '\n'
 
 html += '''    </table>
     
