@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>missingparenthesis.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/missingparenthesis-com.xml</link>
+    <description>Latest articles from missingparenthesis.com (missingparenthesis.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/missingparenthesis-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 Mar 2026 08:31:39 +0000</lastBuildDate>
+    <item>
+      <title>Grab Now, Prove Later: A Friendly Guide to Greedy Algorithms</title>
+      <link>https://missingparenthesis.com/blog/grab-now-prove-later-a-friendly-guide-to-greedy-algorithms/</link>
+      <description>Greedy algorithms are powerful problem-solving techniques that make locally optimal choices at each step with the aim of finding a global optimum. In this extensive article, we delve into the world of greedy algorithms, exploring their characteristics, applications, advantages, and limitations. We also examine strategies for designing efficient greedy algorithms, understanding the greedy-choice property, and...</description>
+      <guid isPermaLink="false">https://missingparenthesis.com/blog/grab-now-prove-later-a-friendly-guide-to-greedy-algorithms/</guid>
+      <pubDate>Fri, 23 Feb 2024 11:47:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Push, Pop, Repeat: Stacks Explained</title>
+      <link>https://missingparenthesis.com/blog/push-pop-repeat-stacks-explained/</link>
+      <description>Data structures play a vital role in computer science, enabling efficient storage, retrieval, and manipulation of data. Among the myriad data structures available, stacks stand out as a powerful and versatile option. Stacks follow the Last-In-First-Out (LIFO) principle, making them ideal for managing function calls, handling recursive algorithms, and implementing undo-redo functionality. In this extensive...</description>
+      <guid isPermaLink="false">https://missingparenthesis.com/blog/push-pop-repeat-stacks-explained/</guid>
+      <pubDate>Fri, 09 Aug 2024 11:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Think FIFO: A Friendly Guide to Queues</title>
+      <link>https://missingparenthesis.com/blog/think-fifo-a-friendly-guide-to-queues/</link>
+      <description>When it comes to programming, data structures are like the unsung heroes working behind the scenes. They’re the reason we can organize, manage, and process data efficiently. Among all the data structures out there, queues stand out because of how natural and practical they feel. Think about waiting in line at a coffee shop. The...</description>
+      <guid isPermaLink="false">https://missingparenthesis.com/blog/think-fifo-a-friendly-guide-to-queues/</guid>
+      <pubDate>Fri, 11 Oct 2024 11:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rows × Columns: A Friendly Guide to Matrix Data</title>
+      <link>https://missingparenthesis.com/blog/rows-x-columns-a-friendly-guide-to-matrix-data/</link>
+      <description>Matrices are fundamental data structures used to represent and manipulate multidimensional data in various fields of computer science, mathematics, and engineering. They provide an organized way to store and perform operations on data arranged in rows and columns. In this extensive article, we delve into the world of matrices, exploring different matrix data structures, their...</description>
+      <guid isPermaLink="false">https://missingparenthesis.com/blog/rows-x-columns-a-friendly-guide-to-matrix-data/</guid>
+      <pubDate>Fri, 25 Oct 2024 11:56:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Min-Heap, Max-Heap, Done: A Friendly Guide to Priorities</title>
+      <link>https://missingparenthesis.com/blog/min-heap-max-heap-done-a-friendly-guide-to-priorities/</link>
+      <description>Data structures play a vital role in computer science, providing efficient storage, retrieval, and manipulation of data. Among the myriad data structures available, heaps stand out as versatile and powerful options. Heaps are tree-based data structures that prioritize the order of elements based on a defined property. They offer efficient operations for insertion, deletion, and...</description>
+      <guid isPermaLink="false">https://missingparenthesis.com/blog/min-heap-max-heap-done-a-friendly-guide-to-priorities/</guid>
+      <pubDate>Fri, 15 Nov 2024 11:59:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Behind the Route: Walking a Request Through Laravel</title>
+      <link>https://missingparenthesis.com/blog/behind-the-route-walking-a-request-through-laravel/</link>
+      <description>If you’ve ever wondered what really happens behind the scenes when your Laravel app receives a request, you’re not alone. Laravel’s request lifecycle is one of those topics that feels complex at first—but once you understand it, it becomes a powerful tool for debugging, optimization, and customization. Let’s walk through it step by step, starting...</description>
+      <guid isPermaLink="false">https://missingparenthesis.com/blog/behind-the-route-walking-a-request-through-laravel/</guid>
+      <pubDate>Thu, 26 Dec 2024 12:05:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Binary Trees 101: Building, Traversing, and Searching</title>
+      <link>https://missingparenthesis.com/blog/binary-trees-101-building-traversing-and-searching/</link>
+      <description>If you’ve spent any time around computer science, you’ve probably heard the term binary tree. They pop up everywhere—databases, file systems, even machine learning models. But what exactly are they, and why do developers love them so much? In this post, we’ll break down binary trees in plain language, explore their key features, and walk...</description>
+      <guid isPermaLink="false">https://missingparenthesis.com/blog/binary-trees-101-building-traversing-and-searching/</guid>
+      <pubDate>Fri, 10 Jan 2025 08:32:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Breaking the Loop: Implementing the Circuit Breaker Pattern in Node.js with Fastify</title>
+      <link>https://missingparenthesis.com/blog/breaking-the-loop-implementing-the-circuit-breaker-pattern-in-node-js-with-fastify/</link>
+      <description>If you’ve ever built an app that talks to other services—an API, a database, or a third-party provider—you’ve probably faced this: Everything works fine until that external service slows down… or worse, goes offline. Suddenly your app is stuck, retrying requests that will never succeed. Users wait forever. Your logs explode. Your server eats CPU...</description>
+      <guid isPermaLink="false">https://missingparenthesis.com/blog/breaking-the-loop-implementing-the-circuit-breaker-pattern-in-node-js-with-fastify/</guid>
+      <pubDate>Thu, 03 Apr 2025 08:42:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Laravel + AI: Building an AI-Powered Feature with Laravel</title>
+      <link>https://missingparenthesis.com/blog/laravel-ai-building-an-ai-powered-feature-with-laravel/</link>
+      <description>Artificial Intelligence isn’t just a buzzword anymore – it’s everywhere. From chatbots answering your customer questions at midnight, to tools that summarize emails so you don’t have to, AI is quietly (and not so quietly) reshaping the way we build software. And if you’re a Laravel developer, here’s the good news: you don’t have to...</description>
+      <guid isPermaLink="false">https://missingparenthesis.com/blog/laravel-ai-building-an-ai-powered-feature-with-laravel/</guid>
+      <pubDate>Wed, 10 Sep 2025 08:33:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lessons Learned Building Microservices with Laravel</title>
+      <link>https://missingparenthesis.com/blog/lessons-learned-building-microservices-with-laravel/</link>
+      <description>Over the past few years, I’ve been working with Laravel in a microservices architecture, building smaller, independent services instead of one big monolith. At first, I assumed Laravel was “too heavy” for this style of development—that it was better suited for large, monolithic applications. But as I experimented more, I quickly discovered that Laravel’s ecosystem...</description>
+      <guid isPermaLink="false">https://missingparenthesis.com/blog/lessons-learned-building-microservices-with-laravel/</guid>
+      <pubDate>Tue, 07 Oct 2025 08:23:36 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

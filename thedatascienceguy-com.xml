@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>thedatascienceguy.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/thedatascienceguy-com.xml</link>
+    <description>Latest articles from thedatascienceguy.com (thedatascienceguy.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/thedatascienceguy-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 Mar 2026 08:42:39 +0000</lastBuildDate>
+    <item>
+      <title>One of the Best Data Science Books You’ll Ever Read</title>
+      <link>https://thedatascienceguy.com/2020/05/10/best-ds-book/</link>
+      <description>When I first started my journey into data science in 2015, there were a lot of resources. Today, it’s just downright overwhelming. It seems that everyone everywhere has written an article, bo…</description>
+      <guid isPermaLink="false">https://thedatascienceguy.com/2020/05/10/best-ds-book/</guid>
+      <enclosure url="https://thedatascienceguy.com/wp-content/uploads/2020/05/unadjustednonraw_thumb_9ad.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 11 May 2020 01:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Core Pillars of Reproducible Data Science</title>
+      <link>https://thedatascienceguy.com/2020/05/18/pillars-of-ds/</link>
+      <description>In 2016, the multi-disciplinary journal Nature polled over 1,500 scientists on their thoughts around scientific reproducibility1. The results were astounding. Seventy percent of researches tried an…</description>
+      <guid isPermaLink="false">https://thedatascienceguy.com/2020/05/18/pillars-of-ds/</guid>
+      <enclosure url="https://thedatascienceguy.com/wp-content/uploads/2020/05/screen-shot-2020-05-18-at-7.28.50-am.png" length="0" type="image/png"/>
+      <pubDate>Mon, 18 May 2020 13:10:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>Heart Disease Model Deployment on the Google Cloud</title>
+      <link>https://thedatascienceguy.com/2020/06/21/heart-disease-model-deployment-on-gcp/</link>
+      <description>TLDR; you can check out my end-to-end machine learning code (including model deployment) here. All feedback welcome! Introduction I’ve spent the last few weeks exploring the Google Cloud Plat…</description>
+      <guid isPermaLink="false">https://thedatascienceguy.com/2020/06/21/heart-disease-model-deployment-on-gcp/</guid>
+      <enclosure url="https://thedatascienceguy.com/wp-content/uploads/2020/06/crisp-dm-2.png" length="0" type="image/png"/>
+      <pubDate>Mon, 22 Jun 2020 02:50:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>How I Passed the AWS Certified Cloud Practitioner Exam</title>
+      <link>https://thedatascienceguy.com/2020/07/08/how-i-passed-the-aws-certified-cloud-practitioner-exam/</link>
+      <description>Introduction There is a natural progression of an early career data professional’s abilities. They typically begin with learning basic data wrangling/munging skills including SQL and eventual…</description>
+      <guid isPermaLink="false">https://thedatascienceguy.com/2020/07/08/how-i-passed-the-aws-certified-cloud-practitioner-exam/</guid>
+      <enclosure url="https://thedatascienceguy.com/wp-content/uploads/2020/07/aws-certified-cloud-practitioner-certificate-e1599964577960.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 08 Jul 2020 13:34:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding Customer Churn</title>
+      <link>https://thedatascienceguy.com/2020/09/03/customer-churn/</link>
+      <description>Note: This blog post is for Udacity’s Data Scientist Nanodegree Program. Introduction There are two main challenges when running a subscription-based business: getting customers and retaining…</description>
+      <guid isPermaLink="false">https://thedatascienceguy.com/2020/09/03/customer-churn/</guid>
+      <enclosure url="https://thedatascienceguy.com/wp-content/uploads/2020/08/monitor-608241_1920-e1599964715926.png" length="0" type="image/png"/>
+      <pubDate>Fri, 04 Sep 2020 02:29:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deploying a Containerized Streamlit Application in 13(ish) Steps</title>
+      <link>https://thedatascienceguy.com/2022/08/17/deploying-a-containerized-streamlit-application-in-13ish-steps/</link>
+      <description>One of the biggest challenges in data science is deploying a machine learning (ml) application to production. This phase is often complicated by the fact that the code base is sensitive to the oper…</description>
+      <guid isPermaLink="false">https://thedatascienceguy.com/2022/08/17/deploying-a-containerized-streamlit-application-in-13ish-steps/</guid>
+      <enclosure url="https://thedatascienceguy.com/wp-content/uploads/2022/08/ian-taylor-joqjbvo1p9g-unsplash-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 17 Aug 2022 14:30:32 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

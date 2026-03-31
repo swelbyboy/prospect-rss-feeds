@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>imperianalytics.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/imperianalytics-com.xml</link>
+    <description>Latest articles from imperianalytics.com (imperianalytics.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/imperianalytics-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 Mar 2026 08:37:52 +0000</lastBuildDate>
+    <item>
+      <title>Hello world! - Imperi Analytics Consultoria</title>
+      <link>https://imperianalytics.com/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://imperianalytics.com/hello-world/</guid>
+      <pubDate>Mon, 23 Sep 2024 18:58:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Outro post - Imperi Analytics Consultoria</title>
+      <link>https://imperianalytics.com/outro-post/</link>
+      <description>Lorem ipsum dolor sit amet. Et atque autem et quia aperiam ea harum sint? Aut eveniet nesciunt vel officia accusantium ut omnis facere non corrupti Quis ut</description>
+      <guid isPermaLink="false">https://imperianalytics.com/outro-post/</guid>
+      <enclosure url="https://imperianalytics.com/wp-content/uploads/2024/09/bg-cta.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Sep 2024 02:18:22 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

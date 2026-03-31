@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>hot 106 - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/hot-106.xml</link>
+    <description>Latest articles from hot 106 (hot106fuego.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/hot-106.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 Mar 2026 08:34:10 +0000</lastBuildDate>
+    <item>
+      <title>¡Hola, mundo! - hot106fuego</title>
+      <link>https://hot106fuego.com/2022/07/29/hola-mundo/</link>
+      <description>Bienvenido a WordPress. Esta es tu primera entrada. Edítala o bórrala, ¡luego empieza a escribir!</description>
+      <guid isPermaLink="false">https://hot106fuego.com/2022/07/29/hola-mundo/</guid>
+      <pubDate>Fri, 29 Jul 2022 13:45:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Entrevista - hot106fuego</title>
+      <link>https://hot106fuego.com/2022/08/09/entrevista/</link>
+      <description>Hola, este es un ejemplo de entrevista</description>
+      <guid isPermaLink="false">https://hot106fuego.com/2022/08/09/entrevista/</guid>
+      <enclosure url="https://hot106fuego.com/wp-content/uploads/2022/08/07-Sunset-on-Venus.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 09 Aug 2022 19:31:35 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

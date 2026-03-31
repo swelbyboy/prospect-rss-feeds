@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>modata.blog - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/modata-blog.xml</link>
+    <description>Latest articles from modata.blog (modata.blog)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/modata-blog.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 Mar 2026 08:42:26 +0000</lastBuildDate>
+    <item>
+      <title>Professor Pay by Department</title>
+      <link>//salaryByDept</link>
+      <description>A Look Into How Much Each MST Professor Was Paid By: Henry Wong and Dylan Warren Whether you are just starting your journey at S&amp;amp;T or looking for ways to end it (the journey, that is), you should be interested in how much money the person ranting at you for the next 4 months is going to make doing it. As the semester begins, we thought it would be interesting to compare professors' salaries. We used data provided publicly by the state of Missouri from the 2017-2018 fiscal year, since the 2018-20</description>
+      <guid isPermaLink="false">//salaryByDept</guid>
+      <pubDate>Fri, 16 Aug 2019 10:18:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Miami was 2nd In Terrorist Attacks From 1986-2019</title>
+      <link>//miamiTerrorism</link>
+      <description>A Few Parts of Forgotten History By: Henry Wong $(function(){ $("#cityGraph").load(/assets/images/henry/"attackAndFatalitiesAndInjuriesByCity.html"/); }); --&amp;gt; The data used in this post is from the RAND Database of Worldwide Terrorism Incidents which contains data on terrorist attacks throughout the world from 1986-2009. This data set was a change of pace for me. For the past year, I have gone through university data, rugby players, betting on political campaigns, and irritating my friends by te</description>
+      <guid isPermaLink="false">//miamiTerrorism</guid>
+      <enclosure url="assets/images/henry/terrorism/Otero-1978-3.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 23 Aug 2019 10:18:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Terrorism By Charts</title>
+      <link>//terrorismByCharts</link>
+      <description>Graphs on Terrorism By: Henry Wong A little bit more into the Terrorism data set from RAND Corporation.</description>
+      <guid isPermaLink="false">//terrorismByCharts</guid>
+      <enclosure url="assets/images/henry/terrorism/top10TerroristByAttacks.png" length="0" type="image/png"/>
+      <pubDate>Sun, 01 Sep 2019 10:18:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Good Reads Users Find Missouri Authors 'Slightly Below Average</title>
+      <link>//goodReads</link>
+      <description>Good Reads Users Find Missouri Authors ‘Slightly Below Average’ By: Erik Shively The data used is taken from Kaggle. It is a dataset of 10,000 books reviews scraped from Goodreads.com Many prolific writers are from Missouri, and they’ve produced a lot of memorable books. Perhaps the most notable would be Samuel Clemens, known by his pen name as Mark Twain. How well, though, does Missouri stack up compared to the rest of the world? An easily quantifiable measure of a book’s quality (regardless of</description>
+      <guid isPermaLink="false">//goodReads</guid>
+      <enclosure url="assets/images/erik/figure1.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Sep 2019 10:18:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Are Your Sleep Habits More Terrible Than Mine?</title>
+      <link>//selfSleep</link>
+      <description>By: Drew Fransen From middle school to college to executive suites, people love to brag about how little they sleep. Getting five hours a night is seen as a badge of honor by many – as a sign of their work ethic. However, these people are idiots. Insufficient sleep is correlated with just about every health problem in the medical dictionary. Sleep researched Matthew Walker puts it bluntly: the shorter your sleep, the sooner you’ll die. The ironic part is, most people cut their sleep short to be</description>
+      <guid isPermaLink="false">//selfSleep</guid>
+      <enclosure url="assets/images/drew/sleep/a.png" length="0" type="image/png"/>
+      <pubDate>Sun, 15 Sep 2019 10:18:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AirBnb Prices in NYC</title>
+      <link>//airbnbNYC</link>
+      <description>By: Conner Gulley This is a little bit of AirBnb data specifically from New York. I decided to split it based on specific boroughs. Overall Look Bronx Brooklyn Manhattan Queens Staten Island</description>
+      <guid isPermaLink="false">//airbnbNYC</guid>
+      <enclosure url="assets/images/conner/airbnbNYC/Avg_ABNB.png" length="0" type="image/png"/>
+      <pubDate>Sun, 22 Sep 2019 10:18:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Quick Look Into the Nobel Prizes</title>
+      <link>//nobelPrizeWinners</link>
+      <description>By: Henry Wong In the spirit of Nobel Prize week, I decided to take a quick look into the event with the little time I had. Everything was scraped with BeautifulSoup from Wikipedia pages for lists of Laureates. It was an interesting process because there is a table of laureates for each category of the Nobel Prize (Economics, Peace, Chemistry, Physics, Physiology). And it happens that each table is set up a different way so I had to tailor a scrapper for each page. It wasn’t bad but I was planni</description>
+      <guid isPermaLink="false">//nobelPrizeWinners</guid>
+      <enclosure url="assets/images/henry/nobel/top5LaureatesByCountry.png" length="0" type="image/png"/>
+      <pubDate>Wed, 09 Oct 2019 00:18:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mobile Strategy Game Market Data</title>
+      <link>//mobileGames</link>
+      <description>By: David Wood The mobile game market has a wide variety of games competing for screen-time and dollars. The strategy game segment has a variety of monetization schemes, and target audiences. The vast majority of strategy games are suggested to ages 4+. Having inoffensive content allows for marketing to a wider audience, which is important for mobile gaming due to the age demographics of mobile gamers. Younger kids are starting to be entertained by products from the App Store, as opposed to in y</description>
+      <guid isPermaLink="false">//mobileGames</guid>
+      <enclosure url="assets/images/david/mobileGames/agePie.png" length="0" type="image/png"/>
+      <pubDate>Sat, 14 Mar 2020 00:06:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Southern US Border Entries</title>
+      <link>//borderEntries</link>
+      <description>By Conner Gulley The data below shows how many passenger vehicles entered at each port of entry in the southern US from the beginning of 1996 to March 1st, 2019. The larger circles, with numbers ranging from 100,000 to 500,000 over the above time period, are clearly centered in a few key areas - the short border with California, El Paso, and several cities on the southwestern Texas coast. The smaller dots, however, with an average ranging from 1,000 or less to 50,000 over the time period, tend t</description>
+      <guid isPermaLink="false">//borderEntries</guid>
+      <pubDate>Sat, 04 Apr 2020 00:06:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is it rational to be afraid of flying (or driving)?</title>
+      <link>//flying</link>
+      <description>Is it rational to be afraid of flying (or driving)? Of course it isn’t. Being scared of flying is the textbook example of an irrational fear. Flying in a commercial airplane is one of the most absurdly safe thing one can do on the planet. During the entire 2010s in the US, only one person died in a commercial aviation incident despite over 6 billion (that’s 6,000,000,000) passenger segments. That certainly does not mean that you can say with any statistical rigor that you have a 1 in 6 billion c</description>
+      <guid isPermaLink="false">//flying</guid>
+      <enclosure url="assets/images/drew/flying/a.png" length="0" type="image/png"/>
+      <pubDate>Sat, 18 Apr 2020 00:06:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

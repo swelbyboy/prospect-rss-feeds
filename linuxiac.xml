@@ -8,47 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 17:31:26 +0000</lastBuildDate>
-    <item>
-      <title>Linuxiac Weekly Wrap-Up: Week 12, 2026 (Mar 16 – 22)</title>
-      <link>https://linuxiac.com/linuxiac-weekly-wrap-up-week-12-2026-mar-16-22/</link>
-      <description>Catch up on the latest Linux news: Mageia 10 Beta, GNOME 50, Blender 5.1, Bcachefs 1.37, FFmpeg 8.1, systemd introduces birth date support, and more.</description>
-      <guid isPermaLink="false">https://linuxiac.com/linuxiac-weekly-wrap-up-week-12-2026-mar-16-22/</guid>
-      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/linuxiac-weekly-wrap-up-12-2026.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 22 Mar 2026 22:37:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>GrapheneOS Mobile Operating System Opposes OS-Level Age Checks</title>
-      <link>https://linuxiac.com/grapheneos-mobile-operating-system-opposes-os-level-age-checks/</link>
-      <description>GrapheneOS, an open-source Android-based mobile OS, will not implement OS-level age verification, despite regulatory pressure.</description>
-      <guid isPermaLink="false">https://linuxiac.com/grapheneos-mobile-operating-system-opposes-os-level-age-checks/</guid>
-      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/grapheneos-age-verification.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 12:59:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Firefox 149 Now Available for Download, Brings Split View</title>
-      <link>https://linuxiac.com/firefox-149-now-available-for-download-brings-split-view/</link>
-      <description>Mozilla Firefox 149 improves PDF performance with hardware acceleration and introduces a new Split View feature for side-by-side browsing.</description>
-      <guid isPermaLink="false">https://linuxiac.com/firefox-149-now-available-for-download-brings-split-view/</guid>
-      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/firefox149.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 13:22:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Garuda Linux Says No to Age Verification Outside Legal Requirement</title>
-      <link>https://linuxiac.com/garuda-linux-says-no-to-age-verification-outside-legal-requirement/</link>
-      <description>Arch-based Garuda Linux clarifies its position on age verification and addresses concerns regarding systemd userdb and data management.</description>
-      <guid isPermaLink="false">https://linuxiac.com/garuda-linux-says-no-to-age-verification-outside-legal-requirement/</guid>
-      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/garuda-linux-age-verification.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 15:45:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qt 6.11 Released With Qt Canvas Painter and Task Tree Module</title>
-      <link>https://linuxiac.com/qt-6-11-released-with-qt-canvas-painter-and-task-tree-module/</link>
-      <description>Qt 6.11 released with Qt Canvas Painter for 2D rendering, Task Tree module, and updates to graphs and 3D rendering.</description>
-      <guid isPermaLink="false">https://linuxiac.com/qt-6-11-released-with-qt-canvas-painter-and-task-tree-module/</guid>
-      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/qt611.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 16:23:04 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 31 Mar 2026 08:46:08 +0000</lastBuildDate>
     <item>
       <title>DietPi 10.2 Released with Immich Support and New Software Options</title>
       <link>https://linuxiac.com/dietpi-10-2-released-with-immich-support-and-new-software-options/</link>
@@ -88,6 +48,86 @@
       <guid isPermaLink="false">https://linuxiac.com/mozilla-thunderbird-149-brings-address-book-export-and-multiple-bug-fixes/</guid>
       <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/thunderbird149.jpg" length="0" type="image/jpeg"/>
       <pubDate>Tue, 24 Mar 2026 16:46:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>KaOS 2026.03 Released With Major Move Away From systemd Components</title>
+      <link>https://linuxiac.com/kaos-2026-03-released-with-major-move-away-from-systemd-components/</link>
+      <description>KaOS 2026.03 removes systemd-boot and mkinitcpio, adopts Limine and Dracut, and introduces a new Niri-based desktop environment.</description>
+      <guid isPermaLink="false">https://linuxiac.com/kaos-2026-03-released-with-major-move-away-from-systemd-components/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/kaos-2026-03.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 28 Mar 2026 21:05:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>MX Linux Takes Clear Stance Against Age Verification Requirements</title>
+      <link>https://linuxiac.com/mx-linux-takes-clear-stance-against-age-verification-requirements/</link>
+      <description>MX Linux opposes age verification rules, citing concerns about privacy and the impact on open source development.</description>
+      <guid isPermaLink="false">https://linuxiac.com/mx-linux-takes-clear-stance-against-age-verification-requirements/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/mx-linux-age-verification.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 28 Mar 2026 23:54:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Celluloid 0.30 Video Player Improves Playback UI</title>
+      <link>https://linuxiac.com/celluloid-0-30-video-player-improves-playback-ui/</link>
+      <description>Celluloid 0.30 video player fixes Blu-ray detection, improves file chooser behavior, and updates UI elements, including the shortcuts dialog.</description>
+      <guid isPermaLink="false">https://linuxiac.com/celluloid-0-30-video-player-improves-playback-ui/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/celluloid030.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 29 Mar 2026 09:42:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Incus 6.23 Container &amp;amp; Virtual Machine Manager Released</title>
+      <link>https://linuxiac.com/incus-6-23-container-and-virtual-machine-manager-released/</link>
+      <description>Incus 6.23 arrives as the final 6.x release before 7.0 LTS, bringing security fixes, new features, and improved VM and storage capabilities.</description>
+      <guid isPermaLink="false">https://linuxiac.com/incus-6-23-container-and-virtual-machine-manager-released/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/incus623.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 29 Mar 2026 14:32:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linuxiac Weekly Wrap-Up: Week 13, 2026 (Mar 23 – 29)</title>
+      <link>https://linuxiac.com/linuxiac-weekly-wrap-up-week-13-2026-mar-23-29/</link>
+      <description>Catch up on the latest Linux news: Kali 2026.1, GIMP 3.2.2, Firefox 149, NVIDIA 595.58, Fish Shell 4.6, Krita 6.0, Canonical plans controversial GRUB changes, and more.</description>
+      <guid isPermaLink="false">https://linuxiac.com/linuxiac-weekly-wrap-up-week-13-2026-mar-23-29/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/linuxiac-weekly-wrap-up-13-2026.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 29 Mar 2026 22:37:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ubuntu MATE Founder Martin Wimpress Steps Back After 12 Years</title>
+      <link>https://linuxiac.com/ubuntu-mate-founder-steps-back-after-12-years/</link>
+      <description>After 12 years, Ubuntu MATE founder Martin Wimpress is stepping back, and the project is now seeking new maintainers to assume key responsibilities.</description>
+      <guid isPermaLink="false">https://linuxiac.com/ubuntu-mate-founder-steps-back-after-12-years/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/ubuntu-mate-founder-steps-back.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 30 Mar 2026 08:45:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rspamd 4.0 Spam Filtering System Released With checkv3 Protocol</title>
+      <link>https://linuxiac.com/rspamd-4-0-spam-filtering-system-released-with-checkv3-protocol/</link>
+      <description>Rspamd 4.0 open-source spam filtering system introduces the new checkv3 protocol, built-in Fasttext, major backend changes, and more.</description>
+      <guid isPermaLink="false">https://linuxiac.com/rspamd-4-0-spam-filtering-system-released-with-checkv3-protocol/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/rspamd4.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 30 Mar 2026 13:55:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Archinstall 4.0 Introduces New Textual TUI for Arch Linux Installer</title>
+      <link>https://linuxiac.com/archinstall-4-0-introduces-new-textual-tui-for-arch-linux-installer/</link>
+      <description>Archinstall 4.0 introduces a modern textual UI, replacing the curses interface to enhance usability and accessibility in the Arch Linux installer.</description>
+      <guid isPermaLink="false">https://linuxiac.com/archinstall-4-0-introduces-new-textual-tui-for-arch-linux-installer/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/archinstall40.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 30 Mar 2026 22:30:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fastfetch 2.61 System Information Tool Drops Windows 7 and 8 Support</title>
+      <link>https://linuxiac.com/fastfetch-2-61-system-information-tool-drops-windows-7-and-8-support/</link>
+      <description>Fastfetch 2.61 drops Windows 7 and 8 support, introduces faster GPU detection, and transitions to a pure C build on Linux.</description>
+      <guid isPermaLink="false">https://linuxiac.com/fastfetch-2-61-system-information-tool-drops-windows-7-and-8-support/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/fastfetch261.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 31 Mar 2026 07:30:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>GNOME 49.5 Improves Stability With Fixes in Shell, Nautilus, and Mutter</title>
+      <link>https://linuxiac.com/gnome-49-5-desktop-released/</link>
+      <description>The GNOME 49.5 update delivers fixes across the desktop stack, including Shell, Nautilus, and Web, along with important GLib security patches.</description>
+      <guid isPermaLink="false">https://linuxiac.com/gnome-49-5-desktop-released/</guid>
+      <enclosure url="https://linuxiac.com/wp-content/uploads/2026/03/gnome495.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 31 Mar 2026 08:22:25 +0000</pubDate>
     </item>
   </channel>
 </rss>
