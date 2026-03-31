@@ -8,47 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 15:50:49 +0000</lastBuildDate>
-    <item>
-      <title>RAD Studio 13.1 : support de Windows Arm</title>
-      <link>https://www.programmez.com/actualites/rad-studio-131-support-de-windows-arm-39168</link>
-      <description>Embarcadero distribue RAD Studio 13.1 incluant Delphi 13.1 et C++ Builder 13.1. Cette version introduit une nouvelle architecture de compilation : Windows Arm. On peut donc générer des binaires natifs. Autre nouveauté : le support d'Android API 36 et iOS 26.</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/rad-studio-131-support-de-windows-arm-39168</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Fri, 20 Mar 2026 16:06:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Copilot : fin de support des IDE JetBrains 2024.2 et 2024.3</title>
-      <link>https://www.programmez.com/actualites/copilot-fin-de-support-des-ide-jetbrains-20242-et-20243-39169</link>
-      <description>Microsoft annonce que les versions 2024.2 et 2024.3 de tous les IDE JetBrains ne sont plus supportées par GitHub Copilot. Les versions 2025.1, et supérieures, sont pleinement supportées.</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/copilot-fin-de-support-des-ide-jetbrains-20242-et-20243-39169</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Mon, 23 Mar 2026 07:33:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>GitLab 18.10 : SAST et 60 améliorations</title>
-      <link>https://www.programmez.com/actualites/gitlab-1810-sast-et-60-ameliorations-39170</link>
-      <description>GitLab annonce la disponibilité de la version 18.10. Cette version inclut plus de 60 améliorations. Une des annonces fortes est la disponibilité de la détection agentique SAST FP. SAST permet de traquer les faux positifs dans la sécurité. C'est un des fléaux dans l'AppSec.</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/gitlab-1810-sast-et-60-ameliorations-39170</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/gitlab1810.png?itok=poFOPIhe" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 08:24:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>HeroUI v3 : +100 composants pour React et ReactNative</title>
-      <link>https://www.programmez.com/actualites/heroui-v3-100-composants-pour-react-et-reactnative-39171</link>
-      <description>HeroUI (anciennement NextUI) est disponible en v3. Nous trouvons des composants UI pour React et React Native : 75 composants web et 37 composants natives. L'équipe annonce une réécriture complète de tous les composants. Toutes les aninmations sont désormais en CSS.</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/heroui-v3-100-composants-pour-react-et-reactnative-39171</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Mon, 23 Mar 2026 08:38:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Next.js 16.2 : performances, nouvelle page d'erreur, Agent DevTools</title>
-      <link>https://www.programmez.com/actualites/nextjs-162-performances-nouvelle-page-derreur-agent-devtools-39172</link>
-      <description>Next.js annonce la version 16.2.</description>
-      <guid isPermaLink="false">https://www.programmez.com/actualites/nextjs-162-performances-nouvelle-page-derreur-agent-devtools-39172</guid>
-      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
-      <pubDate>Mon, 23 Mar 2026 13:51:58 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 31 Mar 2026 08:56:39 +0000</lastBuildDate>
     <item>
       <title>JetBrains réagit au rachat d'Astral par Anthropic : jusqu'ici tout va bien</title>
       <link>https://www.programmez.com/actualites/jetbrains-reagit-au-rachat-dastral-par-anthropic-jusquici-tout-va-bien-39173</link>
@@ -84,10 +44,90 @@
     <item>
       <title>Qt 6.11 : accélération 2D, graphs interactifs, C++ déclaratif</title>
       <link>https://www.programmez.com/actualites/qt-611-acceleration-2d-graphs-interactifs-c-declaratif-39177</link>
-      <description>Qt Group dévoile Qt 6.11. Cette version apporte d'intéressantes évolutions pour les développeurs.1 / rendus 2D &amp;amp; amélioration 3DL'éditeur propose une nouvelle couche pour le rendu 2D avec Qt Canvas Painter. Il s'agit d'un module pour le rendu 2D au-dessus de la couche rendu hardware.</description>
+      <description>Qt Group dévoile Qt 6.11. Cette version apporte d'intéressantes évolutions pour les développeurs.1 / rendus 2D &amp;amp;amp; amélioration 3DL'éditeur propose une nouvelle couche pour le rendu 2D avec Qt Canvas Painter. Il s'agit d'un module pour le rendu 2D au-dessus de la couche rendu hardware.</description>
       <guid isPermaLink="false">https://www.programmez.com/actualites/qt-611-acceleration-2d-graphs-interactifs-c-declaratif-39177</guid>
       <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/qt611.jpeg?itok=iCGrxPmW" length="0" type="image/jpeg"/>
       <pubDate>Tue, 24 Mar 2026 13:27:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comment supprimer proprement les anciennes versions des IDE JetBrains ?</title>
+      <link>https://www.programmez.com/actualites/comment-supprimer-proprement-les-anciennes-versions-des-ide-jetbrains-39229</link>
+      <description>Sylvain C., un dév utilisant les outils JetBrains, s'interrogeait sur le fait que le dossier de son IDE prenait de plus en plus de place. Il comprend alors qu'IntelliJ conservait les anciennes versions.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/comment-supprimer-proprement-les-anciennes-versions-des-ide-jetbrains-39229</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 30 Mar 2026 05:07:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Le manque de sécurité du code généré selon Armis</title>
+      <link>https://www.programmez.com/actualites/le-manque-de-securite-du-code-genere-selon-armis-39230</link>
+      <description>Armis vient de publier son Trusted Vibing Benchmark, un support qui le développement par l'IA. L'éditeur a évolué 18 modèles de génération de codes. Armis a mis en évidence le manque de sécurité de ces codes.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/le-manque-de-securite-du-code-genere-selon-armis-39230</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 30 Mar 2026 05:39:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>OCX 2026 : l'événement open source de la fondation Eclipse du 21 au 23 avril</title>
+      <link>https://www.programmez.com/actualites/ocx-2026-levenement-open-source-de-la-fondation-eclipse-du-21-au-23-avril-39231</link>
+      <description>Le magazine Programmez! est partenaire media de l'Open Community Experience. La conférence OCX26 se tiendra à Bruxelles du 21 au 23 avril.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/ocx-2026-levenement-open-source-de-la-fondation-eclipse-du-21-au-23-avril-39231</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 30 Mar 2026 07:50:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Octo AI : Kubb veut rivaliser avec les DGX Spark</title>
+      <link>https://www.programmez.com/actualites/octo-ai-kubb-veut-rivaliser-avec-les-dgx-spark-39232</link>
+      <description>Kubb, constructeur français, propose une nouvelle machine taillée pour l'IA : Octo AI. Le format rappelle la plateforme DGX Spark de NVIDIA. Le tarif de base, 3 690 € TTC, le place de facto dans le haut de gamme et les usages les plus lourds (data science, inférence, 3D, etc.).</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/octo-ai-kubb-veut-rivaliser-avec-les-dgx-spark-39232</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/octo-ai.jpg?itok=9s6WQSBr" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 30 Mar 2026 08:36:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Salaires dans la tech en 2026 selon une étude TPC</title>
+      <link>https://www.programmez.com/actualites/salaires-dans-la-tech-en-2026-selon-une-etude-tpc-39233</link>
+      <description>TPC publie son étude sur le marché de l'emploi tech en France. Cette étude se base sur +10 000 répondants cette année.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/salaires-dans-la-tech-en-2026-selon-une-etude-tpc-39233</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 30 Mar 2026 11:05:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Les version 2026.1 de ReSharper C++ et de Rider sont disponibles</title>
+      <link>https://www.programmez.com/actualites/les-version-20261-de-resharper-c-et-de-rider-sont-disponibles-39234</link>
+      <description>JetBrains continue à mettre à jour lses différents outils. C'est au tour de ReSharper C++ et de Rider d'arriver en version 2026.1.1 / ReSharper C++ Un important focus a été mis sur les performances pour les grands projets C++ : indexation C++, démarrage à froid et consommation mémoire backend.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/les-version-20261-de-resharper-c-et-de-rider-sont-disponibles-39234</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Mon, 30 Mar 2026 15:03:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Commodore 64 : câbles vidéo, LCD, VGA, les solutions !</title>
+      <link>https://www.programmez.com/actualites/commodore-64-cables-video-lcd-vga-les-solutions-39235</link>
+      <description>Vous avez un Commodore 64 mais la question de la sortie vidéo reste un problème. En réalité, c'est faux problème. Le plus classique est d'utiliser le câble DIN vers péritel.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/commodore-64-cables-video-lcd-vga-les-solutions-39235</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/c64_apollo.jpg?itok=BBDQTWxN" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 30 Mar 2026 16:23:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open Quantum Design : l'informatique quantique devient open source</title>
+      <link>https://www.programmez.com/actualites/open-quantum-design-linformatique-quantique-devient-open-source-39236</link>
+      <description>Open Quantum Design veut rendre accessible l'ordinateur quantique en mettant en open source un design de référence. Attention, vous n'allez pas construire chez vous votre propre ordinateur quantique. Ce design, et les travaux associés, est mis en licence Apache 2.0.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/open-quantum-design-linformatique-quantique-devient-open-source-39236</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/styles/taille-maxi/public/images_actus/oqd.png?itok=UkhVdBRZ" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 31 Mar 2026 05:32:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub : des pubs dans GitHub ? Oui mais pour nous aider !</title>
+      <link>https://www.programmez.com/actualites/github-des-pubs-dans-github-oui-mais-pour-nous-aider-39237</link>
+      <description>Des développeurs avaient repéré dans certaines PR l'insertion de pubs sous forme de tips (astuces). Zach Manson précisait que cette pub était apparue suite à une requête Copilot pour fixer un problème sur une PR GitHub.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/github-des-pubs-dans-github-oui-mais-pour-nous-aider-39237</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Tue, 31 Mar 2026 06:08:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Affaire chardet 7.0 : un développeur utilise Claude pour réécrire une librairie open source et provoque un débat </title>
+      <link>https://www.programmez.com/actualites/affaire-chardet-70-un-developpeur-utilise-claude-pour-reecrire-une-librairie-open-source-et-provoque-39238</link>
+      <description>chardet est une librairie populaire écrite en Python par Mark Pilgrim. La v1 remonte à 2006. Elle a été portée en Python 3.</description>
+      <guid isPermaLink="false">https://www.programmez.com/actualites/affaire-chardet-70-un-developpeur-utilise-claude-pour-reecrire-une-librairie-open-source-et-provoque-39238</guid>
+      <enclosure url="https://www.programmez.com/sites/default/files/default_images/image-amp-1_0.png" length="0" type="image/png"/>
+      <pubDate>Tue, 31 Mar 2026 07:38:49 +0000</pubDate>
     </item>
   </channel>
 </rss>
