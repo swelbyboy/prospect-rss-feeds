@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>bistek.space - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/bistek-space.xml</link>
+    <description>Latest articles from bistek.space (bistek.space)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/bistek-space.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Apr 2026 13:42:49 +0000</lastBuildDate>
+    <item>
+      <title>Joining two collections in PowerApps - BisTek</title>
+      <link>https://bistek.space/joining-two-collections-in-powerapps/</link>
+      <description>Adding this here cause I keep forgetting how do it. Use cases: Joining collections together without using too many ClearCollect and Collect Adding data "Before" or "After" a Collection Ungroup( Table( {Table: Table({Record: "ABC"})}, {Table: Table({Record: "CDE"})} ), "Table" )</description>
+      <guid isPermaLink="false">https://bistek.space/joining-two-collections-in-powerapps/</guid>
+      <enclosure url="https://bistek.space/wp-content/uploads/2022/12/websitelite.svg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 09 Aug 2023 04:48:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sending Teams Adaptive Card to Canvas App - BisTek</title>
+      <link>https://bistek.space/sending-teams-adaptive-card-to-canvas-app/</link>
+      <description>For this post, I used to use Power Automate to do this but wanted a more straight forward way. I luckily have bumped with Hiro(@mofumofu_dance) Blog which helped get on the function quickly. I'm posting it here on my blog as a personal reference. If ever you there, dear stranger, have also had difficulty implementing</description>
+      <guid isPermaLink="false">https://bistek.space/sending-teams-adaptive-card-to-canvas-app/</guid>
+      <enclosure url="https://bistek.space/wp-content/uploads/2022/12/websitelite.svg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 11 Sep 2023 14:17:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Power of Learning JSON in PowerApps: From Experiment to Essential - BisTek</title>
+      <link>https://bistek.space/the-power-of-learning-json-in-powerapps-from-experiment-to-essential/</link>
+      <description>In the ever-evolving world of app development, staying updated with the latest tools and features can significantly improve your productivity and capabilities. One such transformation in the world of PowerApps is the transition of the ParseJSON function from an experimental feature to a permanent, essential part of the platform. This shift highlights the importance of</description>
+      <guid isPermaLink="false">https://bistek.space/the-power-of-learning-json-in-powerapps-from-experiment-to-essential/</guid>
+      <enclosure url="https://bistek.space/wp-content/uploads/2022/12/websitelite.svg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 11 Sep 2023 15:09:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Use Power Automate to Change Creator, Created on, Last Modified on and Modified by in a SharePoint List Item or Document Item - BisTek</title>
+      <link>https://bistek.space/changing-sharepoint-created-created-by-modified-modified-dates-information/</link>
+      <description>This is courtesy of the following authors. They got it all there but I'm putting it here on my personal blog for future reference and quicker for me to copy. Read the comments in their post as they have pointed a lot of improvements to it. MVP John Liu: https://johnliu.net/blog/2019/2/flowninja-hack-78-modifying-modified-by-and-modified-time-with-microsoft-flow MVP Andrew Koltyakov - https://www.linkedin.com/pulse/list-items-system-update-options-sharepoint-online-andrew-koltyakov/</description>
+      <guid isPermaLink="false">https://bistek.space/changing-sharepoint-created-created-by-modified-modified-dates-information/</guid>
+      <enclosure url="https://bistek.space/wp-content/uploads/2022/12/websitelite.svg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 13 Sep 2023 14:49:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Number to Words Function - BisTek</title>
+      <link>https://bistek.space/number-to-words-function/</link>
+      <description>This is a set of codes that can convert text from TextInput into Word Description. If you want to use it in your local language just replace the labels in the arrays. Just add the code below to the Text Property of your label. With({ _val: Value(TextInput1.Text), _text: Text(Value(TextInput1.Text),"000 000 000 000 000.00"), _maxPlace: RoundUp(Len(Text(Value(TextInput1.Text),"0"))/3,0)+1,</description>
+      <guid isPermaLink="false">https://bistek.space/number-to-words-function/</guid>
+      <enclosure url="https://bistek.space/wp-content/uploads/2022/12/websitelite.svg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 27 Sep 2023 12:30:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Implementing a Simple Pipeline Setup - BisTek</title>
+      <link>https://bistek.space/implementing-a-simple-pipeline-setup/</link>
+      <description>Application Lifecycle Management (ALM) is a method that is not very common for citizen developers. I wanted to introduced it in a simple manner in order for people to practice it. ALM makes your deployment quicker and easier. Warning: This demo is only to demonstrate a simple concept. Advantages of Pipeline Stores automatically the data</description>
+      <guid isPermaLink="false">https://bistek.space/implementing-a-simple-pipeline-setup/</guid>
+      <enclosure url="https://bistek.space/wp-content/uploads/2022/12/websitelite.svg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 22 Oct 2023 03:47:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using MS Graph for Free in Power Apps – Courtesy of Reza Dorani - BisTek</title>
+      <link>https://bistek.space/using-ms-graph-for-free-in-power-apps-courtesy-of-reza-dorani/</link>
+      <description>Courtesy of Reza Dorani This is not my original post but this is quick reference to setting up a quick search functionality. Graph Explorer Add this code in the App. Formula. Use this code on either the OnSelect property of a search button or the OnChange property of TextInputVisit our partners,shoes – leaders in fashionable</description>
+      <guid isPermaLink="false">https://bistek.space/using-ms-graph-for-free-in-power-apps-courtesy-of-reza-dorani/</guid>
+      <enclosure url="https://bistek.space/wp-content/uploads/2022/12/websitelite.svg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 26 Nov 2023 06:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Creating Calendar in Power Apps - BisTek</title>
+      <link>https://bistek.space/creating-calendar-in-power-apps/</link>
+      <description>So this is how to create a calendar in PowerApps. This is from a JavaScript that I saw before.Through the above article, we can recommend you the latest dresses.Shop dress in a variety of lengths, colors and styles for every occasion from your favorite brands. Initialization of Global Variables //App.OnStart Code Set(GLO_FirstDay, DateValue(Month(Today()) &amp;amp; "/"</description>
+      <guid isPermaLink="false">https://bistek.space/creating-calendar-in-power-apps/</guid>
+      <enclosure url="https://bistek.space/wp-content/uploads/2022/12/websitelite.svg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 23 Dec 2023 10:57:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>‘With’ Function – An Essential for Power Apps Developers - BisTek</title>
+      <link>https://bistek.space/with-function-an-essential-for-power-apps-developers/</link>
+      <description>Why the 'With' Function Changes Everything Ever stared at a formula in Power Apps and thought, "This is getting out of hand"? That’s where the With function comes in. It’s a simple yet powerful tool that keeps your formulas clean, reduces repetition, and helps you manage even the most complex logic. If you’re serious about</description>
+      <guid isPermaLink="false">https://bistek.space/with-function-an-essential-for-power-apps-developers/</guid>
+      <enclosure url="https://bistek.space/wp-content/uploads/2022/12/websitelite.svg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 23 Nov 2024 14:22:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>My First LinkedIn Article and Reach - BisTek</title>
+      <link>https://bistek.space/my-first-linkedin-article-and-reach/</link>
+      <description>Publishing here as LinkedIn may move to a different platform later and my article will be gone. I’ve been trying to get back to work over the past four weeks. It’s been tough. I used to have a strong idea of what being productive looked like, but that version no longer quite fits. Some days,</description>
+      <guid isPermaLink="false">https://bistek.space/my-first-linkedin-article-and-reach/</guid>
+      <enclosure url="https://bistek.space/wp-content/uploads/2022/12/websitelite.svg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 28 Jul 2025 04:43:26 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

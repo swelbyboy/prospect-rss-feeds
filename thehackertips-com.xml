@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>thehackertips.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/thehackertips-com.xml</link>
+    <description>Latest articles from thehackertips.com (thehackertips.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/thehackertips-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Apr 2026 13:45:40 +0000</lastBuildDate>
+    <item>
+      <title>GFI mail essentials 21 :  Install, Configure, Manage</title>
+      <link>https://thehackertips.com/all-about-gfi-mail-essentials/</link>
+      <description>EntryThis is a article where you’ll find GFI mail essentials study guide. Here is a focusing on installation, configuration, and management of it. This is the software scan the content of inbound, outbound and internal emails and result of the analysis identifies whether an email is to be blocked or allowed. System requirements Firewall port […]</description>
+      <guid isPermaLink="false">https://thehackertips.com/all-about-gfi-mail-essentials/</guid>
+      <enclosure url="http://thehackertips.com/wp-content/uploads/2019/09/1gfigfi2.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 17 Jan 2022 08:05:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Configure DHCP on a Cisco Router</title>
+      <link>https://thehackertips.com/how-to-configure-dhcp-on-a-cisco-router/</link>
+      <description>This topic we will look at how configure DHCP on a Cisco Router for client computers. First of all we need to enable DHCP service (by default DHCP service is enabled on Cisco Router). And then we need to create DHCP pool name and IP pool: Router1(config)# ip dhcp pool POOL Router1(dhcp-config)# network 192.168.10.0 255.255.255.0 Then we […]</description>
+      <guid isPermaLink="false">https://thehackertips.com/how-to-configure-dhcp-on-a-cisco-router/</guid>
+      <enclosure url="http://thehackertips.com/wp-content/uploads/2020/09/1dhcpciscoruterdfd.png" length="0" type="image/png"/>
+      <pubDate>Sat, 05 Feb 2022 08:24:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Clear Dell System Event Log?</title>
+      <link>https://thehackertips.com/how-to-clear-dell-system-event-log/</link>
+      <description>There are many ways to clear Dell server logs . Today we will look at one of them. To Clear Dell System Event Log follow steps below. 1. Go to the Dell website Download and open the DSET utility . 2. Then Double click on it and start installation process: 3. Select Clear Dell Hardware Logs and click next : […]</description>
+      <guid isPermaLink="false">https://thehackertips.com/how-to-clear-dell-system-event-log/</guid>
+      <enclosure url="http://thehackertips.com/wp-content/uploads/2020/09/1ddellserverlog.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 05 Feb 2022 08:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Manage Engine ADAudit: Install, Configure, Manage</title>
+      <link>https://thehackertips.com/manage-engine-adaudit-install-configure-manage/</link>
+      <description>Here, you’ll find a Free Study guide about Manage Engine ADAudit. This will help you to Install, Configure and Manage this real-time Windows Auditing software which very important at the present time. You can track authorized and unauthorized Active Directory management changes, access of users, Group Policy Objects(GPO), groups, computer, Organizational Unit(OU), track every file, folder […]</description>
+      <guid isPermaLink="false">https://thehackertips.com/manage-engine-adaudit-install-configure-manage/</guid>
+      <enclosure url="http://thehackertips.com/wp-content/uploads/2020/08/1adauditslider3434.png" length="0" type="image/png"/>
+      <pubDate>Sun, 13 Feb 2022 08:52:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Install Hyper-V on a Virtual Machine(warning:Hyper-V cannot be installed: A hypervisor is already running)</title>
+      <link>https://thehackertips.com/how-to-install-hyper-v-on-a-virtual-machinewarninghyper-v-cannot-be-installed-a-hypervisor-is-already-running/</link>
+      <description>Make some test on laboratory we need to virtualize a machine on another virtual machine. When make the installation of Hyper-V on virtual machine, we get error “Hyper-V can not be installed: The hypervisor is already running.” We can install Hyper-V with PowerShell, But we are not able to start the virtual machines. Follow steps below for install Hyper-V […]</description>
+      <guid isPermaLink="false">https://thehackertips.com/how-to-install-hyper-v-on-a-virtual-machinewarninghyper-v-cannot-be-installed-a-hypervisor-is-already-running/</guid>
+      <enclosure url="http://thehackertips.com/wp-content/uploads/2020/09/1installhypervm-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 05 Mar 2022 08:53:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>You Have Exceeded the Maximum Number of Computer Accounts|Increase the limit a user can join to a domain</title>
+      <link>https://thehackertips.com/you-have-exceeded-the-maximum-number-of-computer-accountsincrease-the-limit-a-user-can-join-to-a-domain/</link>
+      <description>One of the our visitors sent email to us about this problem: The following error occurred attempting to join the domain {domain-name} You computer could not be joined to the domain, You have exceeded the maximum number of computer accounts you are allowed to create in this domain. Contact your system| administrator to have this […]</description>
+      <guid isPermaLink="false">https://thehackertips.com/you-have-exceeded-the-maximum-number-of-computer-accountsincrease-the-limit-a-user-can-join-to-a-domain/</guid>
+      <enclosure url="http://thehackertips.com/wp-content/uploads/2020/09/0dcdomainjoinlimit.png" length="0" type="image/png"/>
+      <pubDate>Sat, 05 Mar 2022 09:11:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Veeam Backup &amp;amp; Replication 9.5: Install, Configure, Manage</title>
+      <link>https://thehackertips.com/veeam-backup-replication-9-5-install-configure-manage/</link>
+      <description>Veeam Backup &amp;amp; Replication is one of the well-known backup solution and helping with this you can manage data protection and disaster recovery tasks on VMware vSphere and Microsoft Hyper-V virtual environments. Veeam Backup and Replication also have a free – Community Edition version which easily You can install and use. You can protect up to 10 VMs. […]</description>
+      <guid isPermaLink="false">https://thehackertips.com/veeam-backup-replication-9-5-install-configure-manage/</guid>
+      <enclosure url="http://thehackertips.com/wp-content/uploads/2019/11/201veeammmmscsa.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 23 Mar 2022 09:31:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>One or more rules could not be uploaded to Exchange server and have been deactivated</title>
+      <link>https://thehackertips.com/one-or-more-rules-could-not-be-uploaded-to-exchange-server-and-have-been-deactivated/</link>
+      <description>Few days ago we had an issue on an Outlook 2013 client on Exchange 2010 , when the user want to create a rule he received the following alert. To solve this problem we just need to deleted some rule or increase rule limit size. The default rule limit size is 64kb. To increase rule limit size type […]</description>
+      <guid isPermaLink="false">https://thehackertips.com/one-or-more-rules-could-not-be-uploaded-to-exchange-server-and-have-been-deactivated/</guid>
+      <enclosure url="http://thehackertips.com/wp-content/uploads/2020/09/1outlookrulelimit.png" length="0" type="image/png"/>
+      <pubDate>Tue, 05 Apr 2022 09:17:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Messages sent from a shared mailbox aren’t saved to the Sent Items folder of the shared mailbox in Outlook 2010</title>
+      <link>https://thehackertips.com/messages-sent-from-a-shared-mailbox-arent-saved-to-the-sent-items-folder-of-the-shared-mailbox-in-outlook-2010/</link>
+      <description>To solve this issue on Outlook 2010 we need to Set the DelegateSentItemsStyle registry value to 1 on the Outlook 2010 client. If you’re running Outlook 2013 or a later version, you don’t have to do anything. For Outlook 2010 follow steps below: 1.Click Start, click Run, type regedit, and then click OK and navigate to HKEY_CURRENT_USER\Software\Microsoft\Office\14.0\Outlook\Preferences 2.On the Edit menu, point […]</description>
+      <guid isPermaLink="false">https://thehackertips.com/messages-sent-from-a-shared-mailbox-arent-saved-to-the-sent-items-folder-of-the-shared-mailbox-in-outlook-2010/</guid>
+      <enclosure url="http://thehackertips.com/wp-content/uploads/2020/09/0Senditemsoutl0.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 05 Apr 2022 09:24:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to install and configure Graylog as a syslog server</title>
+      <link>https://thehackertips.com/graylog-log-management/</link>
+      <description>In this course, We will describe how to successfully Install, Configure and Manage Graylog log management software. Graylog is the one of well-known syslog server. As we know syslog servers allow you to collect logs from all types of devices and applications. This is a Free Study guide. All those topic list You can find […]</description>
+      <guid isPermaLink="false">https://thehackertips.com/graylog-log-management/</guid>
+      <enclosure url="http://thehackertips.com/wp-content/uploads/2020/08/1instalgrylg232.png" length="0" type="image/png"/>
+      <pubDate>Thu, 21 Apr 2022 12:42:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

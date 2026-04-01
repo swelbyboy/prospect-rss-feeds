@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>blocksimplified.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/blocksimplified-com.xml</link>
+    <description>Latest articles from blocksimplified.com (blocksimplified.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/blocksimplified-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Apr 2026 14:02:42 +0000</lastBuildDate>
+    <item>
+      <title>LangGraph: Graph-Based Workflows for Complex Agents</title>
+      <link>https://www.blocksimplified.com/blog/langgraph-graph-based-workflows-for-complex-agents</link>
+      <description>Understand LangGraph, the graph-based extension of LangChain that brings explicit control, branching logic, and stateful execution to complex AI workflows.</description>
+      <guid isPermaLink="false">https://www.blocksimplified.com/blog/langgraph-graph-based-workflows-for-complex-agents</guid>
+      <enclosure url="https://www.blocksimplified.com/static/langgraph-framework.png" length="0" type="image/png"/>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LangChain: The All-Purpose Toolkit</title>
+      <link>https://www.blocksimplified.com/blog/langchain-the-all-purpose-toolkit</link>
+      <description>A comprehensive guide to LangChain, the flexible framework that provides building blocks for LLM applications with extensive tools, memory, and integrations.</description>
+      <guid isPermaLink="false">https://www.blocksimplified.com/blog/langchain-the-all-purpose-toolkit</guid>
+      <enclosure url="https://www.blocksimplified.com/static/langchain-framework.png" length="0" type="image/png"/>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CrewAI: Multi-Agent Teams Made Easy</title>
+      <link>https://www.blocksimplified.com/blog/crewai-multi-agent-teams-made-easy</link>
+      <description>Discover CrewAI, the framework purpose-built for orchestrating teams of AI agents that collaborate through roles, tasks, and structured processes.</description>
+      <guid isPermaLink="false">https://www.blocksimplified.com/blog/crewai-multi-agent-teams-made-easy</guid>
+      <enclosure url="https://www.blocksimplified.com/static/crewai-framework.png" length="0" type="image/png"/>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AutoGen: Asynchronous Multi-Agent Conversations</title>
+      <link>https://www.blocksimplified.com/blog/autogen-asynchronous-multi-agent-conversations</link>
+      <description>Explore AutoGen, Microsoft's framework for asynchronous multi-agent conversations that emphasizes messaging protocols, parallelism, and dynamic task flows.</description>
+      <guid isPermaLink="false">https://www.blocksimplified.com/blog/autogen-asynchronous-multi-agent-conversations</guid>
+      <enclosure url="https://www.blocksimplified.com/static/autogen-framework.png" length="0" type="image/png"/>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Orchestration Frameworks: LangChain vs LlamaIndex vs Semantic Kernel vs CrewAI (and More)</title>
+      <link>https://www.blocksimplified.com/blog/orchestration-frameworks-langchain-vs-llamaindex-vs-semantic-kernel-vs-crewai-and-more</link>
+      <description>Building GenAI: The Orchestration Framework Maze: LangChain vs LlamaIndex vs Semantic Kernel vs CrewAI (and More)</description>
+      <guid isPermaLink="false">https://www.blocksimplified.com/blog/orchestration-frameworks-langchain-vs-llamaindex-vs-semantic-kernel-vs-crewai-and-more</guid>
+      <enclosure url="https://www.blocksimplified.com/static/agent-orchestration-banner.png" length="0" type="image/png"/>
+      <pubDate>Sun, 21 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is Generative AI? A Practical Introduction</title>
+      <link>https://www.blocksimplified.com/blog/what-is-generative-ai-practical-introduction</link>
+      <description>A hands-on introduction to Generative AI for engineers. Learn what makes GenAI different from traditional software, run your first API call, and understand why these systems behave the way they do.</description>
+      <guid isPermaLink="false">https://www.blocksimplified.com/blog/what-is-generative-ai-practical-introduction</guid>
+      <enclosure url="https://www.blocksimplified.com/static/m1_p1_banner.png" length="0" type="image/png"/>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Generative AI Landscape: Models, Players, and Platforms</title>
+      <link>https://www.blocksimplified.com/blog/generative-ai-landscape-models-players-platforms</link>
+      <description>A practical tour of the generative AI ecosystem, from the big model families (GPT, Claude, Gemini, Llama) to the companies behind them, and how you actually access this stuff. APIs vs. open-source, closed vs. open philosophies, and what matters when you're picking a model for real work.</description>
+      <guid isPermaLink="false">https://www.blocksimplified.com/blog/generative-ai-landscape-models-players-platforms</guid>
+      <enclosure url="https://www.blocksimplified.com/api/og?title=The+Generative+AI+Landscape%3A+Models%2C+Players%2C+and+Platforms" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Key Concepts and Terminology for the Applied Engineer</title>
+      <link>https://www.blocksimplified.com/blog/key-concepts-terminology-applied-engineer</link>
+      <description>Master the core vocabulary of generative AI including tokens, context windows, embeddings, temperature, hallucinations, and the fine-tuning vs. RAG debate. Practical definitions with gotchas from the trenches.</description>
+      <guid isPermaLink="false">https://www.blocksimplified.com/blog/key-concepts-terminology-applied-engineer</guid>
+      <enclosure url="https://www.blocksimplified.com/api/og?title=Key+Concepts+and+Terminology+for+the+Applied+Engineer" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stop Feeding HTML to LLMs - markdown.new</title>
+      <link>https://www.blocksimplified.com/blog/stop-feeding-html-to-llms-markdown-new</link>
+      <description>You're wasting 97% of your LLM tokens on HTML garbage. markdown.new strips it down to what matters. Here's the data, the architecture, and why the web needs a new content type for AI agents.</description>
+      <guid isPermaLink="false">https://www.blocksimplified.com/blog/stop-feeding-html-to-llms-markdown-new</guid>
+      <enclosure url="https://www.blocksimplified.com/static/stop-feeding-html-to-llms-markdown-new-banner.png" length="0" type="image/png"/>
+      <pubDate>Sat, 14 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Rise of Product Engineering</title>
+      <link>https://www.blocksimplified.com/blog/the-rise-of-product-engineering</link>
+      <description>AI is separating coders from engineers. Real engineering is cross-functional product thinking, not staying inside frontend or backend labels.</description>
+      <guid isPermaLink="false">https://www.blocksimplified.com/blog/the-rise-of-product-engineering</guid>
+      <enclosure url="https://www.blocksimplified.com/static/the-rise-of-product-engineering-banner.png" length="0" type="image/png"/>
+      <pubDate>Sat, 21 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

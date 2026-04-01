@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ecuarobot.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/ecuarobot-com.xml</link>
+    <description>Latest articles from ecuarobot.com (ecuarobot.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/ecuarobot-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Apr 2026 13:46:35 +0000</lastBuildDate>
+    <item>
+      <title>Sensor ultrasónico con alarma, LCD y temperatura - EcuaRobot</title>
+      <link>https://ecuarobot.com/2021/07/16/sensor-ultrasonico-con-alarma-lcd-y-temperatura/</link>
+      <description>Nivel de agua con alarmas LED y zumbador con distancia de nivel y temperatura en LCD. COMPONENTES Y SUMINISTROS Arduino UNO LCD 16×2 Sensor ultrasónico – HC-SR04 Integrado DS18B20 Resistencia de 4,75 k ohmios Interruptor pulsador 12mm Potenciómetro de una sola vuelta – 10k ohmios Zumbador LED verde, 1 amarillo y 1 rojo. Resistencia 221 …</description>
+      <guid isPermaLink="false">https://ecuarobot.com/2021/07/16/sensor-ultrasonico-con-alarma-lcd-y-temperatura/</guid>
+      <enclosure url="https://ecuarobot.com/wp-content/uploads/2021/07/sensor-tanque-de-agua-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jul 2021 19:58:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sensor de humedad del suelo con pantalla LCD - EcuaRobot</title>
+      <link>https://ecuarobot.com/2021/07/16/sensor-de-humedad-del-suelo-con-pantalla-lcd/</link>
+      <description>Sensor de humedad del suelo que le brinda una pantalla LCD del porcentaje de humedad. COMPONENTES Y SUMINISTROS Arduino UNO Sensor de humedad del suelo LCD 16×2 Protoboard 400p Cables para conexión El proyecto le informa sobre la interconexión del sensor de humedad del suelo y la pantalla LCD para mostrar. Todos los días me olvido de …</description>
+      <guid isPermaLink="false">https://ecuarobot.com/2021/07/16/sensor-de-humedad-del-suelo-con-pantalla-lcd/</guid>
+      <enclosure url="https://ecuarobot.com/wp-content/uploads/2021/07/sensor-humedad.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 16 Jul 2021 20:20:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Piano Electrónico con Arduino y Pulsadores - EcuaRobot</title>
+      <link>https://ecuarobot.com/2021/08/23/piano-electronico-con-arduino-y-pulsadores/</link>
+      <description>En esta ocasión, les comparto un proyecto muy interesante, que nos permitirá conocer algunos conceptos como por ejemplo, cómo funciona un botón pulsador, qué son las configuración es Pull Up y Pull Down, y cómo podemos reproducir cualquier canción en nuestro Arduino. Componentes 1 Arduino UNO 1 Buzzer 19 Jumpers Macho – Macho 9 Push …</description>
+      <guid isPermaLink="false">https://ecuarobot.com/2021/08/23/piano-electronico-con-arduino-y-pulsadores/</guid>
+      <enclosure url="https://ecuarobot.com/wp-content/uploads/2021/08/piano2.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Aug 2021 20:00:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Construyendo su propio panel solar de seguimiento solar usando un Arduino - EcuaRobot</title>
+      <link>https://ecuarobot.com/2021/10/28/construyendo-su-propio-panel-solar-de-seguimiento-solar-usando-un-arduino/</link>
+      <description>La mayor crisis a la que nos dirigimos es el cambio climático debido al uso excesivo de combustibles fósiles y para superar estos problemas, solo tenemos una solución que es la utilización de energías renovables . La energía renovable es un tipo de energía que se aprovecha de la naturaleza sin causar efectos nocivos al medio ambiente. Uno de …</description>
+      <guid isPermaLink="false">https://ecuarobot.com/2021/10/28/construyendo-su-propio-panel-solar-de-seguimiento-solar-usando-un-arduino/</guid>
+      <enclosure url="https://ecuarobot.com/wp-content/uploads/2021/10/Solar-Tracking-System-Circuit.png" length="0" type="image/png"/>
+      <pubDate>Thu, 28 Oct 2021 21:48:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Crea una lámpara de colores RGB con Arduino y una foto resistencia - EcuaRobot</title>
+      <link>https://ecuarobot.com/2022/01/18/crea-una-lampara-de-colores-rgb-con-arduino-y-una-foto-resistencia-2/</link>
+      <description>En esta ocasión, te traigo un proyecto muy interesante, que consiste en crear una lámpara de colores RGB, la cual se encenderá automáticamente, en cuanto se deje de detectar luz. Componentes necesarios para crear una lámpara RGB con Arduino 1 x Protoboard 1 x Led RGB de cátodo común 1 x Foto resistencia 1 x …</description>
+      <guid isPermaLink="false">https://ecuarobot.com/2022/01/18/crea-una-lampara-de-colores-rgb-con-arduino-y-una-foto-resistencia-2/</guid>
+      <enclosure url="https://ecuarobot.com/wp-content/uploads/2022/01/Diagrama-Lampara-Ambiental-1024x463-1.png" length="0" type="image/png"/>
+      <pubDate>Tue, 18 Jan 2022 22:34:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coche controlado por Bluetooth - EcuaRobot</title>
+      <link>https://ecuarobot.com/2022/01/25/coche-controlado-por-bluetooth/</link>
+      <description>Este es mi primer coche RC controlado por Bluetooth basado en Arduino. Es controlado por una aplicación de teléfono inteligente. COMPONENTES Y SUMINISTROS Arduino UNO Módulo Bluetooth HC-05 Controladores de motor SparkFun Dual H-Bridge L298 Pimoroni Maker Essentials: micromotores y ruedas adherentes Cables puente Batería de iones de litio de 1000 mAh Lec rojos Una vez …</description>
+      <guid isPermaLink="false">https://ecuarobot.com/2022/01/25/coche-controlado-por-bluetooth/</guid>
+      <enclosure url="https://ecuarobot.com/wp-content/uploads/2022/01/Carro.png" length="0" type="image/png"/>
+      <pubDate>Tue, 25 Jan 2022 22:44:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Humidificador portátil automático con Arduino - EcuaRobot</title>
+      <link>https://ecuarobot.com/2022/04/11/humidificador-portatil-automatico-con-arduino/</link>
+      <description>El humidificador es un dispositivo que se utiliza para aumentar la humedad relativa de un área cerrada para garantizar suficiente humedad en el área. Componentes necesarios para construir un humidificador portátil Humidificador ultrasónico arduino nano Relé de 5V LM7805 Condensador electrolítico de 25 V, 1000 uf. Adaptador de CA-CC de 12 V y 2 amperios …</description>
+      <guid isPermaLink="false">https://ecuarobot.com/2022/04/11/humidificador-portatil-automatico-con-arduino/</guid>
+      <enclosure url="https://ecuarobot.com/wp-content/uploads/2022/04/Humidifier-Circuit-Diagram.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 11 Apr 2022 21:06:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>¿Cómo funciona el sensor de humo y gases inflamables MQ-2 con Arduino? - EcuaRobot</title>
+      <link>https://ecuarobot.com/2022/04/14/como-funciona-el-sensor-de-humo-y-gases-inflamables-mq-2-con-arduino/</link>
+      <description>Hoy en día, los sensores juegan un papel importante en la seguridad de muchos apartamentos, casas y oficinas diferentes al detectar humo, fuego o gas y proporcionar una alarma a la persona en cuestión. Es por eso que en el artículo de hoy vamos a hablar sobre uno de esos sensores que se usa comúnmente en …</description>
+      <guid isPermaLink="false">https://ecuarobot.com/2022/04/14/como-funciona-el-sensor-de-humo-y-gases-inflamables-mq-2-con-arduino/</guid>
+      <enclosure url="https://ecuarobot.com/wp-content/uploads/2022/04/Gas-Sensor-Interfacing-with-Arduino.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 14 Apr 2022 21:17:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Semáforos inteligentes - EcuaRobot</title>
+      <link>https://ecuarobot.com/2022/04/19/semaforos-inteligentes/</link>
+      <description>Semáforos para vehículos y peatones, utilizando temporización y sensores PIR, así como una señal sonora COMPONENTES Y SUMINISTROS 1 Arduino UNO 4 LED de 5 mm: rojo 4 LED de 5 mm: verde 4 LED de 5 mm: amarillo 2 Zumbador 2 Sensor PIR, 7m 5 Resistencia 330 ohmios 1 Protobord ACERCA DE ESTE PROYECTO …</description>
+      <guid isPermaLink="false">https://ecuarobot.com/2022/04/19/semaforos-inteligentes/</guid>
+      <enclosure url="https://ecuarobot.com/wp-content/uploads/2022/04/esquema_wy9b5Lruby.png" length="0" type="image/png"/>
+      <pubDate>Tue, 19 Apr 2022 21:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TIPOS DE MOTORES ROTATIVOS PARA PROYECTOS DE ARDUINO - EcuaRobot</title>
+      <link>https://ecuarobot.com/2022/04/26/tipos-de-motores-rotativos-para-proyectos-de-arduino/</link>
+      <description>La explicación del funcionamiento de cada tipo de motor será cuantitativa y sin ecuaciones, ya que cada entrar en detalles de cada uno de ellos daría para un capítulo de un libro de electrónica. El objetivo es exponer de forma sencilla cómo funcionan y sus ventajas y desventajas. MOTORES DE CORRIENTE CONTINUA Los motores de corriente continua …</description>
+      <guid isPermaLink="false">https://ecuarobot.com/2022/04/26/tipos-de-motores-rotativos-para-proyectos-de-arduino/</guid>
+      <enclosure url="https://ecuarobot.com/wp-content/uploads/2022/04/Portada.png" length="0" type="image/png"/>
+      <pubDate>Tue, 26 Apr 2022 22:38:42 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

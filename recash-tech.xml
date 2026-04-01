@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>recash.tech - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/recash-tech.xml</link>
+    <description>Latest articles from recash.tech (recash.tech)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/recash-tech.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Apr 2026 13:36:12 +0000</lastBuildDate>
+    <item>
+      <title>Recash Podcast Prelude Episode | Blockchain &amp;amp; Gas Fees</title>
+      <link>https://recash.tech/2022/05/28/recash-podcast-episode-00-prelude/</link>
+      <description>Learn from David on his MoodCast's Recash segment about blockchain and crypto life. In this episode, I talk about general blockchain introduction and Gas prices. Considering this a prelude to major topics coming forth in the Recash Series.</description>
+      <guid isPermaLink="false">https://recash.tech/2022/05/28/recash-podcast-episode-00-prelude/</guid>
+      <pubDate>Sat, 28 May 2022 19:04:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>Recash Podcast Episode #1 | Rollups</title>
+      <link>https://recash.tech/2022/07/18/recash-podcast-episode-1-rollups/</link>
+      <description>Learn from David on his MoodCast's Recash segment about blockchain and crypto life. In this episode, I talk about Layer 2 solutions, what they are and why they were proposed.</description>
+      <guid isPermaLink="false">https://recash.tech/2022/07/18/recash-podcast-episode-1-rollups/</guid>
+      <pubDate>Mon, 18 Jul 2022 21:11:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Talks with Kevin Soltani</title>
+      <link>https://recash.tech/2022/07/31/talks-with-kevin-soltani/</link>
+      <description>My marvelous guest, Kevin Soltani talks about Bitcoin, Crypto Events, Stablecoins, NFTs &amp;amp; Metaverse in my “recash talks” Moodcast. “recash talks” is my podcasting series, where I discuss all things crypto. Watch the video on Youtube:</description>
+      <guid isPermaLink="false">https://recash.tech/2022/07/31/talks-with-kevin-soltani/</guid>
+      <pubDate>Sun, 31 Jul 2022 07:14:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>A journey into Ethereum 2.0, what’s next? 🥳</title>
+      <link>https://recash.tech/2022/11/02/a-journey-into-ethereum-2-0-whats-next-%f0%9f%a5%b3/</link>
+      <description>Ethereum 2.0 was without a doubt an unprecedented event in blockchain history. With so many speculations around its inception, on the sustained POS security, decentralization risks, triple halving, and deflationary economy. It finally came to pass successfully after at minimum a year of delay. While many speculated the triple halving, similar to BTC halving, would […]</description>
+      <guid isPermaLink="false">https://recash.tech/2022/11/02/a-journey-into-ethereum-2-0-whats-next-%f0%9f%a5%b3/</guid>
+      <enclosure url="https://recash.tech/wp-content/uploads/2022/09/ethereum-panda.png" length="0" type="image/png"/>
+      <pubDate>Wed, 02 Nov 2022 22:10:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mastering Gas Mechanism in Ethereum and EVM Chains</title>
+      <link>https://recash.tech/2023/03/27/mastering-gas-mechanism-in-ethereum-a-guide-to-optimizing-smart-contract-efficiency-and-cost-effectiveness/</link>
+      <description>This post helps you understand how gas works in an Ethereum (EVM) blockchain. Including how memory types, and Ethereum Opcode impact gas costs in smart contract execution. Optimizing memory usage is crucial to saving costs, and understanding Opcode are vital as their gas cost increases with data size. Effective and cost-efficient smart contracts.</description>
+      <guid isPermaLink="false">https://recash.tech/2023/03/27/mastering-gas-mechanism-in-ethereum-a-guide-to-optimizing-smart-contract-efficiency-and-cost-effectiveness/</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/14.0.0/72x72/26fd.png" length="0" type="image/png"/>
+      <pubDate>Mon, 27 Mar 2023 09:55:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solidity Design Patterns to Save Gas on Blockchain External Transactions</title>
+      <link>https://recash.tech/2023/12/24/save-gas-solidity-design-patterns-external-transactions/</link>
+      <description>In this article, I will discuss design patterns and architectures that will help you optimize smart contracts to save gas on transactions, offering less costly gas operations for your smart contract users.</description>
+      <guid isPermaLink="false">https://recash.tech/2023/12/24/save-gas-solidity-design-patterns-external-transactions/</guid>
+      <enclosure url="https://recash.tech/wp-content/uploads/2023/12/diamond-smart-contracts-1024x585.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 24 Dec 2023 01:07:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solidity patterns to save gas on blockchain storage</title>
+      <link>https://recash.tech/2024/01/15/solidity-patterns-to-save-gas-on-blockchain-storage/</link>
+      <description>In this article, I will discuss how the storage works on the EVM machine, and how can we write smart contracts that enable saving more on blockchain gas fees. The gas fees occur when we or any user interacts with the smart contracts that mutate the state of information on the blockchain, like transferring tokens […]</description>
+      <guid isPermaLink="false">https://recash.tech/2024/01/15/solidity-patterns-to-save-gas-on-blockchain-storage/</guid>
+      <enclosure url="https://recash.tech/wp-content/uploads/2024/01/recash-lab-Saving-Gas-on-Ethereum-Contracts-solidity-design-pattern.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 15 Jan 2024 10:25:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>6 Essential Solidity Design Patterns for Smart Contract Efficiency</title>
+      <link>https://recash.tech/2024/02/09/solidity-design-patterns-to-save-space/</link>
+      <description>The development of the Ethereum contracts requires a focus not only on the aspects of its functionality but also on efficiency and cost-effectiveness. Often, an essential missing element is an optimization in the use of storage and memory, which directly influences gas costs. ⁤⁤This article delves into six Solidity design patterns that would reduce your […]</description>
+      <guid isPermaLink="false">https://recash.tech/2024/02/09/solidity-design-patterns-to-save-space/</guid>
+      <enclosure url="https://recash.tech/wp-content/uploads/2024/02/recash-lab-variable-packing-uint-vs-Uint256-solidity-design-pattern.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 09 Feb 2024 11:08:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Smart Contract Mastery: Solidity Patterns for Enhanced Gas Efficiency</title>
+      <link>https://recash.tech/2024/03/03/smart-contract-mastery-solidity-patterns-for-enhanced-gas-efficiency/</link>
+      <description>In the Ethereum smart contract world, being savvy about gas efficiency isn’t just necessary. Every time you tweak a variable or call a function, it’s like ordering a latte at the blockchain café, and someone has to foot the bill. That “someone” is usually the user, and let’s face it, no one likes a pricey […]</description>
+      <guid isPermaLink="false">https://recash.tech/2024/03/03/smart-contract-mastery-solidity-patterns-for-enhanced-gas-efficiency/</guid>
+      <enclosure url="https://recash.tech/wp-content/uploads/2024/03/recash-lab-Limit-External-Calls-solidity-design-pattern.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 03 Mar 2024 16:01:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Comparing Top Blockchain Ecosystems: A Comprehensive Analysis</title>
+      <link>https://recash.tech/2024/03/08/comparing-top-blockchain-ecosystems-a-comprehensive-analysis/</link>
+      <description>In the rapidly evolving world of blockchain technology, understanding the differences between various blockchain ecosystems is crucial for developers, investors, and enthusiasts alike. This comprehensive analysis will delve into the key characteristics of top blockchain ecosystems, including Aleph Zero, Polkadot, Cosmos, Avalanche, Ethereum, Binance Smart Chain, Solana, NEAR Protocol, Aurora, and Polygon. We’ll explore their […]</description>
+      <guid isPermaLink="false">https://recash.tech/2024/03/08/comparing-top-blockchain-ecosystems-a-comprehensive-analysis/</guid>
+      <enclosure url="https://recash.tech/wp-content/uploads/2024/03/IMG_1097.webp" length="0" type="image/webp"/>
+      <pubDate>Fri, 08 Mar 2024 16:57:27 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

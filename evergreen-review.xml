@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Evergreen Review - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/evergreen-review.xml</link>
+    <description>Latest articles from Evergreen Review (evergreenreview.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/evergreen-review.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Apr 2026 13:46:00 +0000</lastBuildDate>
+    <item>
+      <title>Apophasis</title>
+      <link>http://evergreenreview.com/apophasis-dale-peck/</link>
+      <description>or, “Widget” Is a Name for Something Whose Name You Don’t Know Dale Peck Editor-in-chief, Evergreen Review</description>
+      <guid isPermaLink="false">http://evergreenreview.com/apophasis-dale-peck/</guid>
+      <enclosure url="https://evergreenreview.com/wp-content/uploads/2014/05/dale.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Jan 2017 09:31:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evergreen Back Issues</title>
+      <link>http://evergreenreview.com/the-evergreen-archve-is-live/</link>
+      <description>Our complete archives are coming back online</description>
+      <guid isPermaLink="false">http://evergreenreview.com/the-evergreen-archve-is-live/</guid>
+      <enclosure url="https://evergreenreview.com/wp-content/uploads/2017/04/eg-ks2.png" length="0" type="image/png"/>
+      <pubDate>Thu, 13 Apr 2017 21:47:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mother Tongues and Other Tongues</title>
+      <link>http://evergreenreview.com/now/mother-tongues-other-tongues/</link>
+      <description>For hundreds of years English approporiated the world’s stories. Now the world is appropriating English to deliver its own news. English will be the richer for it, and so will English readers.</description>
+      <guid isPermaLink="false">http://evergreenreview.com/now/mother-tongues-other-tongues/</guid>
+      <enclosure url="https://evergreenreview.com/wp-content/uploads/2017/08/mappy.png" length="0" type="image/png"/>
+      <pubDate>Sat, 19 Aug 2017 05:39:42 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
