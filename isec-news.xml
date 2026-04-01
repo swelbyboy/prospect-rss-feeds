@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>isec.news - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/isec-news.xml</link>
+    <description>Latest articles from isec.news (isec.news)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/isec-news.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Apr 2026 14:09:46 +0000</lastBuildDate>
+    <item>
+      <title>European Commission says attackers breached public web infrastructure</title>
+      <link>https://www.isec.news/2026/03/30/european-commission-says-attackers-breached-public-web-infrastructure/</link>
+      <description>The European Commission said attackers broke into cloud systems hosting its Europa websites on March 24 and may have taken data. The sites stayed online, but officials gave few details about what was exposed.</description>
+      <guid isPermaLink="false">https://www.isec.news/2026/03/30/european-commission-says-attackers-breached-public-web-infrastructure/</guid>
+      <enclosure url="https://www.isec.news/wp-content/uploads/2025/03/pexels-markusspiske-97050-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 30 Mar 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple adds macOS Terminal warning to block ClickFix attacks</title>
+      <link>https://www.isec.news/2026/03/31/apple-adds-macos-terminal-warning-to-block-clickfix-attacks/</link>
+      <description>Apple has added a macOS Tahoe 26.4 warning in Terminal that pauses risky pasted commands and alerts users to possible ClickFix attacks. The feature is aimed at stopping social engineering lures that trick people into running harmful instructions.</description>
+      <guid isPermaLink="false">https://www.isec.news/2026/03/31/apple-adds-macos-terminal-warning-to-block-clickfix-attacks/</guid>
+      <enclosure url="https://www.isec.news/wp-content/uploads/2025/03/pexels-cookiecutter-19226353-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 31 Mar 2026 01:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DeepLoad malware uses ClickFix lure and WMI to spread and steal credentials</title>
+      <link>https://www.isec.news/2026/03/31/deepload-malware-uses-clickfix-lure-and-wmi-to-spread-and-steal-credentials/</link>
+      <description>A new DeepLoad malware campaign is using ClickFix lures, Windows tools and WMI to steal credentials, hide activity and reinfect cleaned hosts, according to a technical analysis from ReliaQuest.</description>
+      <guid isPermaLink="false">https://www.isec.news/2026/03/31/deepload-malware-uses-clickfix-lure-and-wmi-to-spread-and-steal-credentials/</guid>
+      <enclosure url="https://www.isec.news/wp-content/uploads/2025/03/pexels-pixabay-270572-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 31 Mar 2026 06:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI patches ChatGPT data leak bug, researchers say</title>
+      <link>https://www.isec.news/2026/03/31/openai-patches-chatgpt-data-leak-bug-researchers-say/</link>
+      <description>OpenAI patched a ChatGPT flaw on February 20, 2026, after researchers said a malicious prompt could leak chat messages, uploaded files and other sensitive data through a hidden DNS-based channel.</description>
+      <guid isPermaLink="false">https://www.isec.news/2026/03/31/openai-patches-chatgpt-data-leak-bug-researchers-say/</guid>
+      <enclosure url="https://www.isec.news/wp-content/uploads/2025/03/pexels-pixabay-159304-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 31 Mar 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CareCloud says hackers accessed patient data in eight-hour breach</title>
+      <link>https://www.isec.news/2026/03/31/carecloud-says-hackers-accessed-patient-data-in-eight-hour-breach/</link>
+      <description>CareCloud said hackers accessed one of its electronic health record environments on March 16, exposing patient data and causing an eight-hour disruption. The company is still investigating how many people were affected and what information was taken.</description>
+      <guid isPermaLink="false">https://www.isec.news/2026/03/31/carecloud-says-hackers-accessed-patient-data-in-eight-hour-breach/</guid>
+      <enclosure url="https://www.isec.news/wp-content/uploads/2025/03/pexels-kevin-ku-92347-577585-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Vertex AI flaw could expose cloud data, researchers say</title>
+      <link>https://www.isec.news/2026/03/31/google-vertex-ai-flaw-could-expose-cloud-data-researchers-say/</link>
+      <description>Researchers say a Google Cloud Vertex AI flaw could let an attacker abuse AI agent permissions to reach customer data and restricted internal repositories. Google has updated guidance and urged least-privilege controls.</description>
+      <guid isPermaLink="false">https://www.isec.news/2026/03/31/google-vertex-ai-flaw-could-expose-cloud-data-researchers-say/</guid>
+      <enclosure url="https://www.isec.news/wp-content/uploads/2025/03/pexels-kevin-ku-92347-577585-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 31 Mar 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dutch finance ministry takes treasury banking portal offline after breach</title>
+      <link>https://www.isec.news/2026/03/31/dutch-finance-ministry-takes-treasury-banking-portal-offline-after-breach/</link>
+      <description>The Dutch Ministry of Finance has taken its treasury banking portal offline while investigating a cyberattack detected on March 19. About 1,600 public institutions are unable to view balances online, though payments continue through regular banking channels.</description>
+      <guid isPermaLink="false">https://www.isec.news/2026/03/31/dutch-finance-ministry-takes-treasury-banking-portal-offline-after-breach/</guid>
+      <enclosure url="https://www.isec.news/wp-content/uploads/2025/03/pexels-pixabay-159304-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 31 Mar 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TrueConf zero-day exploited in attacks on Southeast Asian government entities</title>
+      <link>https://www.isec.news/2026/04/01/trueconf-zero-day-exploited-in-attacks-on-southeast-asian-government-entities/</link>
+      <description>A zero-day in TrueConf client video conferencing software was exploited in attacks on Southeast Asian government entities. The flaw let a tampered update run arbitrary code, and the vendor has since patched it in Windows client 8.5.3.</description>
+      <guid isPermaLink="false">https://www.isec.news/2026/04/01/trueconf-zero-day-exploited-in-attacks-on-southeast-asian-government-entities/</guid>
+      <enclosure url="https://www.isec.news/wp-content/uploads/2025/03/pexels-markusspiske-97050-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 01 Apr 2026 06:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google rolls out Android developer verification to all developers</title>
+      <link>https://www.isec.news/2026/04/01/google-rolls-out-android-developer-verification-to-all-developers/</link>
+      <description>Google is rolling out Android developer verification to all developers, with new identity checks for apps distributed outside Google Play. The move starts in four countries in September and expands globally next year.</description>
+      <guid isPermaLink="false">https://www.isec.news/2026/04/01/google-rolls-out-android-developer-verification-to-all-developers/</guid>
+      <enclosure url="https://www.isec.news/wp-content/uploads/2025/03/pexels-pixabay-207367-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 01 Apr 2026 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude-assisted analysis finds Vim and Emacs flaws that can run code when files open</title>
+      <link>https://www.isec.news/2026/04/01/claude-assisted-analysis-finds-vim-and-emacs-flaws-that-can-run-code-when-files-open/</link>
+      <description>Researchers using Claude found remote code execution flaws in Vim and GNU Emacs that can trigger when a file is opened. Vim has been patched, while the Emacs issue remains unresolved.</description>
+      <guid isPermaLink="false">https://www.isec.news/2026/04/01/claude-assisted-analysis-finds-vim-and-emacs-flaws-that-can-run-code-when-files-open/</guid>
+      <enclosure url="https://www.isec.news/wp-content/uploads/2025/03/pexels-markusspiske-97050-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 01 Apr 2026 12:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
