@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>rfinsights.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/rfinsights-com.xml</link>
+    <description>Latest articles from rfinsights.com (rfinsights.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/rfinsights-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Apr 2026 06:35:42 +0000</lastBuildDate>
+    <item>
+      <title>Tips on RFIC Inductors | RFIC Design</title>
+      <link>https://www.rfinsights.com/concepts/tips-on-rfic-inductors/</link>
+      <description>Eight tips on RFIC inductors: mutual coupling, 8-shape isolation, PGS, differential Q, guard rings, and the truth about Q at SRF.</description>
+      <guid isPermaLink="false">https://www.rfinsights.com/concepts/tips-on-rfic-inductors/</guid>
+      <enclosure url="https://www.rfinsights.com/wp-content/uploads/2025/09/ind_q_factor_breakdown_1.png" length="0" type="image/png"/>
+      <pubDate>Tue, 16 Sep 2025 07:21:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Modulation and Sidebands | RFIC Design</title>
+      <link>https://www.rfinsights.com/concepts/modulation-and-sidebands/</link>
+      <description>Intuitive explanation of modulation and sidebands. Animation of how sideband phasors add to generate AM, FM and PM modulation.</description>
+      <guid isPermaLink="false">https://www.rfinsights.com/concepts/modulation-and-sidebands/</guid>
+      <enclosure url="https://www.rfinsights.com/wp-content/uploads/2025/09/single_sideband_modulation.png" length="0" type="image/png"/>
+      <pubDate>Thu, 25 Sep 2025 06:56:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>VCO Pulling | RFIC Design</title>
+      <link>https://www.rfinsights.com/synthesizer/vco-pulling/</link>
+      <description>Intuitive analysis of VCO pulling, VCO locking, backed by math, with PLL spur calculator for given PLL loop response.</description>
+      <guid isPermaLink="false">https://www.rfinsights.com/synthesizer/vco-pulling/</guid>
+      <enclosure url="https://www.rfinsights.com/wp-content/uploads/2025/10/locking_vs_pulling_2.png" length="0" type="image/png"/>
+      <pubDate>Wed, 15 Oct 2025 04:16:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>TX Pulling VCO | RFIC Design</title>
+      <link>https://www.rfinsights.com/measurements/debug/tx-pulling-vco/</link>
+      <description>Debug how a TX pulling VCO degrades its own residual sideband rejection. Learn transfer function of VCO spurs to TX output.</description>
+      <guid isPermaLink="false">https://www.rfinsights.com/measurements/debug/tx-pulling-vco/</guid>
+      <enclosure url="https://www.rfinsights.com/wp-content/uploads/2025/10/tx_rsb_2.png" length="0" type="image/png"/>
+      <pubDate>Mon, 20 Oct 2025 00:16:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>OFDM Part I: Nyquist and Shannon | RFIC Design</title>
+      <link>https://www.rfinsights.com/concepts/ofdm-part-i-nyquist-and-shannon/</link>
+      <description>Part I in series of OFDM for RFIC designers. Learn max data rate one can send determined by nyquist and shannon.</description>
+      <guid isPermaLink="false">https://www.rfinsights.com/concepts/ofdm-part-i-nyquist-and-shannon/</guid>
+      <enclosure url="https://www.rfinsights.com/wp-content/uploads/2025/10/isi.png" length="0" type="image/png"/>
+      <pubDate>Fri, 31 Oct 2025 00:20:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>OFDM Part II: Orthogonality | RFIC Design</title>
+      <link>https://www.rfinsights.com/concepts/ofdm-part-ii-orthogonality/</link>
+      <description>Part II in series of OFDM for RFIC designers. We explore what does orthogonality really mean in context of OFDM.</description>
+      <guid isPermaLink="false">https://www.rfinsights.com/concepts/ofdm-part-ii-orthogonality/</guid>
+      <enclosure url="https://www.rfinsights.com/wp-content/uploads/2025/10/orthogonality-in-ofdm.png" length="0" type="image/png"/>
+      <pubDate>Fri, 31 Oct 2025 04:49:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>OFDM Part III: Brutality of Wireless Channel | RFIC Design</title>
+      <link>https://www.rfinsights.com/concepts/ofdm-part-iii-brutality-of-wireless-channel/</link>
+      <description>Part III in series on OFDM. Learn about deep fades, delay spread and Doppler spread as the top three brutalities of a wireless channel.</description>
+      <guid isPermaLink="false">https://www.rfinsights.com/concepts/ofdm-part-iii-brutality-of-wireless-channel/</guid>
+      <enclosure url="https://www.rfinsights.com/wp-content/uploads/2025/11/power_delay_profile_2.png" length="0" type="image/png"/>
+      <pubDate>Wed, 19 Nov 2025 06:20:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multiphase Clock Generation Techniques | RFIC Design</title>
+      <link>https://www.rfinsights.com/synthesizer/multiphase-clock-generation-techniques/</link>
+      <description>From polyphase filters to state-of-the-art injection-locked oscillators. 5 techniques for multiphase clock generation with IEEE references.</description>
+      <guid isPermaLink="false">https://www.rfinsights.com/synthesizer/multiphase-clock-generation-techniques/</guid>
+      <enclosure url="https://www.rfinsights.com/wp-content/uploads/2026/02/quadrature_vco_2.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Mar 2026 14:42:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Phase Rotator in SerDes: ILO, DTC, VMPI, CMPI &amp;amp; IMPI Explained</title>
+      <link>https://www.rfinsights.com/synthesizer/phase-rotator/</link>
+      <description>A deep dive into phase rotator topologies used in high-speed SerDes CDR, covering ILO, delay lines, VMPI, CMPI, and the integration-mode phase interpolator (IMPI), with analysis of linearity, jitter, and design tradeoffs.</description>
+      <guid isPermaLink="false">https://www.rfinsights.com/synthesizer/phase-rotator/</guid>
+      <enclosure url="https://www.rfinsights.com/wp-content/uploads/2026/03/impi_architechture.png" length="0" type="image/png"/>
+      <pubDate>Sun, 15 Mar 2026 14:42:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Frequency Hopping | RFIC Design</title>
+      <link>https://www.rfinsights.com/system/frequency-hopping/</link>
+      <description>Frequency hopping does more than dodge jammers. Discover how it relaxes transmitter linearity and noise specs—a key design trade-off.</description>
+      <guid isPermaLink="false">https://www.rfinsights.com/system/frequency-hopping/</guid>
+      <enclosure url="https://www.rfinsights.com/wp-content/uploads/2026/03/freq_hopping_tx-scaled.png" length="0" type="image/png"/>
+      <pubDate>Tue, 24 Mar 2026 23:15:45 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

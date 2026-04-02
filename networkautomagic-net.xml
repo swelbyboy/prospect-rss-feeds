@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>networkautomagic.net - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/networkautomagic-net.xml</link>
+    <description>Latest articles from networkautomagic.net (networkautomagic.net)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/networkautomagic-net.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Apr 2026 06:33:43 +0000</lastBuildDate>
+    <item>
+      <title>About</title>
+      <link>https://networkautomagic.net/about/</link>
+      <description>Network Automagic is a podcast dedicated to exploring network automation, infrastructure as code, and the latest trends in networking technology.</description>
+      <guid isPermaLink="false">https://networkautomagic.net/about/</guid>
+      <enclosure url="https://networkautomagic.net/img/logo1280x640.png" length="0" type="image/png"/>
+      <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NA001 - Temporal with Ryan Shaw</title>
+      <link>https://networkautomagic.net/podcast/na001/</link>
+      <description>Exploring Temporal</description>
+      <guid isPermaLink="false">https://networkautomagic.net/podcast/na001/</guid>
+      <enclosure url="https://networkautomagic.net/img/na001-1280x640.png" length="0" type="image/png"/>
+      <pubDate>Fri, 21 Feb 2025 22:01:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>NA002 - Infrahub with Damien Garros</title>
+      <link>https://networkautomagic.net/podcast/na002/</link>
+      <description>Infrahub the flexible NSOT with Damien Garros</description>
+      <guid isPermaLink="false">https://networkautomagic.net/podcast/na002/</guid>
+      <enclosure url="https://networkautomagic.net/img/banner-1280x640.png" length="0" type="image/png"/>
+      <pubDate>Wed, 05 Mar 2025 22:22:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>NA003 - NUTS with Marco Martinez</title>
+      <link>https://networkautomagic.net/podcast/na003/</link>
+      <description>NUTS the Network Unit Testing System with Marco Martinez and Urs</description>
+      <guid isPermaLink="false">https://networkautomagic.net/podcast/na003/</guid>
+      <enclosure url="https://networkautomagic.net/img/na003-1280x640.png" length="0" type="image/png"/>
+      <pubDate>Thu, 10 Apr 2025 13:01:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>NA004 - Autocon3 hallway track</title>
+      <link>https://networkautomagic.net/podcast/na004/</link>
+      <description>The Autocon3 3 part hallway track</description>
+      <guid isPermaLink="false">https://networkautomagic.net/podcast/na004/</guid>
+      <enclosure url="https://networkautomagic.net/img/na004-1280x640.png" length="0" type="image/png"/>
+      <pubDate>Sun, 22 Jun 2025 13:01:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>NA005 - HPE Juniper MIST Automation and the SSR400 launch</title>
+      <link>https://networkautomagic.net/podcast/na005/</link>
+      <description>Juniper Mist SSR Platform and API Automation with Daniel Petrov and Thomas Munzer</description>
+      <guid isPermaLink="false">https://networkautomagic.net/podcast/na005/</guid>
+      <enclosure url="https://networkautomagic.net/img/na005-1280x640.png" length="0" type="image/png"/>
+      <pubDate>Sun, 14 Sep 2025 09:01:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>NA006 - AI hype with Peter Sprygada</title>
+      <link>https://networkautomagic.net/podcast/na006/</link>
+      <description>Network automation veteran Peter Sprygada joins to discuss AI hype, MCP protocol, and practical applications in network automation</description>
+      <guid isPermaLink="false">https://networkautomagic.net/podcast/na006/</guid>
+      <enclosure url="https://networkautomagic.net/img/na006-1280x640.png" length="0" type="image/png"/>
+      <pubDate>Fri, 10 Oct 2025 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NA007 - Deep Dive on Pulumi with Scott Lowe</title>
+      <link>https://networkautomagic.net/podcast/na007/</link>
+      <description>Scott Lowe joins to explore Pulumi as an infrastructure-as-code tool, the IaC competitive landscape, and why network automation is fundamentally harde...</description>
+      <guid isPermaLink="false">https://networkautomagic.net/podcast/na007/</guid>
+      <enclosure url="https://networkautomagic.net/img/na007-1280x640.png" length="0" type="image/png"/>
+      <pubDate>Mon, 23 Mar 2026 06:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NA008 - AI and Automation MCP vs CLI with Calvin Remsburg</title>
+      <link>https://networkautomagic.net/podcast/na008/</link>
+      <description>Calvin Remsburg joins to break down MCP vs CLI for AI agents, why the CLI is making a comeback, agent security concerns, and practical advice for netw...</description>
+      <guid isPermaLink="false">https://networkautomagic.net/podcast/na008/</guid>
+      <enclosure url="https://networkautomagic.net/img/na008-1280x640.png" length="0" type="image/png"/>
+      <pubDate>Fri, 27 Mar 2026 06:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

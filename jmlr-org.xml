@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>jmlr.org - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/jmlr-org.xml</link>
+    <description>Latest articles from jmlr.org (jmlr.org)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/jmlr-org.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Apr 2026 06:32:05 +0000</lastBuildDate>
+    <item>
+      <title>Bayesian Inference of Contextual Bandit Policies via Empirical Likelihood</title>
+      <link>http://jmlr.org/papers/v27/23-0958.html</link>
+      <description>Policy inference plays an essential role in the contextual bandit problem. In this paper, we use empirical likelihood to develop a Bayesian inference method for the joint analysis of multiple contextual bandit policies in finite sample regimes. The proposed inference method is robust to small sample sizes and is able to provide accurate uncertainty measurements for policy value evaluation. In addition, it allows for flexible inferences on policy comparison with full uncertainty quantification. W</description>
+      <guid isPermaLink="false">http://jmlr.org/papers/v27/23-0958.html</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Convergence and complexity of block majorization-minimization for constrained block-Riemannian optimization</title>
+      <link>http://jmlr.org/papers/v27/24-0020.html</link>
+      <description>Block majorization-minimization (BMM) is a simple iterative algorithm for nonconvex optimization that sequentially minimizes a majorizing surrogate of the objective function in each block coordinate while the other block coordinates are held fixed. We consider a family of BMM algorithms for minimizing nonsmooth nonconvex objectives, where each parameter block is constrained within a subset of a Riemannian manifold. We establish that this algorithm converges asymptotically to the set of stationar</description>
+      <guid isPermaLink="false">http://jmlr.org/papers/v27/24-0020.html</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Two-way Node Popularity Model for Directed and Bipartite Networks</title>
+      <link>http://jmlr.org/papers/v27/24-0526.html</link>
+      <description>There has been increasing research attention on community detection in directed and bipartite networks. However, these studies often fail to consider the popularity of nodes in different communities, which is a common phenomenon in real-world networks. To address this issue, we propose a new probabilistic framework called the Two-Way Node Popularity Model (TNPM). The TNPM also accommodates edges from different distributions within a general sub-Gaussian family. We introduce the Delete-One-Method</description>
+      <guid isPermaLink="false">http://jmlr.org/papers/v27/24-0526.html</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Symplectic Analysis of Alternating Mirror Descent</title>
+      <link>http://jmlr.org/papers/v27/24-0792.html</link>
+      <description>Motivated by understanding the behavior of the Alternating Mirror Descent (AMD) algorithm for bilinear zero-sum games, we study the discretization of continuous-time Hamiltonian flow via the symplectic Euler method. We provide a framework for analysis using results from Hamiltonian dynamics and symplectic numerical integrators, with an emphasis on the existence and properties of a conserved quantity, the modified Hamiltonian (MH), for the symplectic Euler method. We compute the MH in closed-form</description>
+      <guid isPermaLink="false">http://jmlr.org/papers/v27/24-0792.html</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Contrasting Local and Global Modeling with Machine Learning and Satellite Data: A Case Study Estimating Tree Canopy Height in African Savannas</title>
+      <link>http://jmlr.org/papers/v27/24-1592.html</link>
+      <description>While advances in machine learning with satellite imagery (SatML) are facilitating environmental monitoring at a global scale, developing SatML models that are accurate and useful for local regions remains critical to understanding and acting on an ever-changing planet. As increasing attention and resources are being devoted to training SatML models with global data, it is important to understand when improvements in global models will make it easier to train or fine-tune models that are accurat</description>
+      <guid isPermaLink="false">http://jmlr.org/papers/v27/24-1592.html</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Boosted Control Functions: Distribution Generalization and Invariance in Confounded Models</title>
+      <link>http://jmlr.org/papers/v27/24-2207.html</link>
+      <description>Modern machine learning methods and the availability of large-scale data have significantly advanced our ability to predict target quantities from large sets of covariates. However, these methods often struggle under distributional shifts, particularly in the presence of hidden confounding. While the impact of hidden confounding is well-studied in causal effect estimation, e.g., instrumental variables, its implications for prediction tasks under shifting distributions remain underexplored. This</description>
+      <guid isPermaLink="false">http://jmlr.org/papers/v27/24-2207.html</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DCatalyst: A Unified Accelerated Framework for Decentralized Optimization</title>
+      <link>http://jmlr.org/papers/v27/25-0185.html</link>
+      <description>We study decentralized optimization over a network of agents, modeled as an undirected graph and operating without a central server. The objective is to minimize a composite function $f+r$, where $f$ is a (strongly) convex function representing the average of the agents' losses, and $r$ is a convex, extended-value function (regularizer). We introduce DCatalyst, a unified black-box framework that injects Nesterov-type acceleration into decentralized optimization algorithms. At its core, DCatalyst</description>
+      <guid isPermaLink="false">http://jmlr.org/papers/v27/25-0185.html</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Covariate-dependent Hierarchical Dirichlet Processes</title>
+      <link>http://jmlr.org/papers/v27/25-0668.html</link>
+      <description>Bayesian hierarchical modeling is a natural framework to effectively integrate data and borrow information across groups. In this paper, we address problems related to density estimation and identifying clusters across related groups, by proposing a hierarchical Bayesian approach that incorporates additional covariate information. To achieve flexibility, our approach builds on ideas from Bayesian nonparametrics, combining the hierarchical Dirichlet process with dependent Dirichlet processes. The</description>
+      <guid isPermaLink="false">http://jmlr.org/papers/v27/25-0668.html</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Online Bernstein-von Mises theorem</title>
+      <link>http://jmlr.org/papers/v27/25-0989.html</link>
+      <description>Online learning is an inferential paradigm in which parameters are updated incrementally from sequentially available data, in contrast to batch learning, where the entire dataset is processed at once. In this paper, we assume that mini-batches from the full dataset become available sequentially. The Bayesian framework, which updates beliefs about unknown parameters after observing each mini-batch, is naturally suited for online learning. At each step, we update the posterior distribution using t</description>
+      <guid isPermaLink="false">http://jmlr.org/papers/v27/25-0989.html</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transformers Can Overcome the Curse of Dimensionality: A Theoretical Study from an Approximation Perspective</title>
+      <link>http://jmlr.org/papers/v27/25-1214.html</link>
+      <description>The Transformer model is widely used in various application areas of machine learning, such as natural language processing. This paper investigates the approximation of the Hölder continuous function class $\mathcal{H}_{Q}^{\beta}\left([0,1]^{d\times n},\mathbb{R}^{d\times n}\right)$ by Transformers and constructs several Transformers that can overcome the curse of dimensionality. These Transformers consist of one self-attention layer with one head and the softmax function as the activation func</description>
+      <guid isPermaLink="false">http://jmlr.org/papers/v27/25-1214.html</guid>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

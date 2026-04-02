@@ -8,87 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 16:22:06 +0000</lastBuildDate>
-    <item>
-      <title>Ubuntu Maker Canonical Joins The Rust Foundation</title>
-      <link>https://www.phoronix.com/news/Canonical-Joins-Rust-Foundation</link>
-      <description>Canonical announced today that they have joined the Rust Foundation as a Gold Member...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Canonical-Joins-Rust-Foundation</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=rust_members" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 10:27:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qt 6.11 Toolkit Released With "The Same 3D Capabilities As A Game Engine"</title>
-      <link>https://www.phoronix.com/news/Qt-6.11-Toolkit</link>
-      <description>Qt 6.11 is out as the latest version of this cross-platform toolkit used by the KDE desktop and widely by both open-source and closed-source applications...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Qt-6.11-Toolkit</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=qt_ssgi" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 10:38:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linux's sched_ext Will Prioritize Idle SMT Siblings For Better Performance</title>
-      <link>https://www.phoronix.com/news/Linux-7.1-sched-ext-SMT-Sibling</link>
-      <description>A change to the Linux kernel's extensible scheduler class "sched_ext" for allowing nifty scheduler implementations via BPF programs will begin to prioritize SMT siblings to help with better performance...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-7.1-sched-ext-SMT-Sibling</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2023&amp;image=cluster_scheduling_v3" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 13:04:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Firefox 149 Now Available With XDG Portal File Picker, Rust-Based JPEG-XL Decoder</title>
-      <link>https://www.phoronix.com/news/Mozilla-Firefox-149</link>
-      <description>Firefox 149.0 release binaries are now available with a wide assortment of improvements for this month's update to the cross-platform Mozilla web browser solution...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Mozilla-Firefox-149</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=firefox_149" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 14:06:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare Details Their Upgrade To EPYC Turin For 2x Throughput, 50% Better Perf/Watt</title>
-      <link>https://www.phoronix.com/news/Cloudflare-Gen13-Server-Turin</link>
-      <description>Cloudflare's technical blog posts about their hardware and software efforts are always a treat to read. Their latest fascinating technical content is on their newest "Gen 13" server platform based around AMD EPYC Turin where they are now achieving 2x throughput and 50% better performance-per-Watt thanks to these latest-generation AMD EPYC server processors paired with software improvements too...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Cloudflare-Gen13-Server-Turin</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=cloudflare_turin" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 19:28:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Patch Posted To Enable Intel FRED By Default On Linux</title>
-      <link>https://www.phoronix.com/news/Intel-FRED-By-Default-Patch</link>
-      <description>Following today's article exploring the performance benefits of Intel Flexible Return and Event Delivery "FRED" with Panther Lake and also pointing out the rather obscure nature of FRED being disabled-by-default, an Intel Linux kernel engineer posted a patch to now enable FRED by default for better performance...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/Intel-FRED-By-Default-Patch</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=fred_on" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 21:03:01 +0000</pubDate>
-    </item>
-    <item>
-      <title>GTK3 Toolkit Winding Down To One Release Per Year</title>
-      <link>https://www.phoronix.com/news/GTK3-Annual-Release-Cadence</link>
-      <description>The GTK 4.0 toolkit released in December 2020 while the GTK3 toolkit has continued to be maintained given a lot of software still relying on that older version. GTK 3.24.52 was released yesterday and with this version it's now shifting its release cadence to just one new update per year...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/GTK3-Annual-Release-Cadence</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=gtk3_pulling_back" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Mar 2026 00:21:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA Talks Up "Expanding The Open-Source Horizon" Around AI &amp;amp; Kubernetes</title>
-      <link>https://www.phoronix.com/news/NVIDIA-Open-Source-KubeCon-2026</link>
-      <description>KubeCon Europe is running this week in Amsterdam and NVIDIA used the event to talk up their open-source work around AI and newest open-source contributions...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-Open-Source-KubeCon-2026</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=nvidia_dra_oss" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Mar 2026 09:55:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>Additional AMD RDNA 4m GPU Targets Coming: GFX1171 &amp;amp; GFX1172</title>
-      <link>https://www.phoronix.com/news/AMD-RDNA-4m-GFX1171-GFX1172</link>
-      <description>Back in February AMD engineers introduced a new GFX1170 GPU target in LLVM for their AMDGPU shader compiler and was marked with new "RDNA 4m" branding. It's part of the GFX11 family associated with RDNA3 but carrying this new "4m" branding. In follow-up commits they made further ISA changes distinguishing it from existing RDNA 3 GPUs. Now there are two more RDNA 4m targets being added...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/AMD-RDNA-4m-GFX1171-GFX1172</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=more_rdna4m_1" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Mar 2026 10:10:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenBLAS 0.3.32 Brings Improved Detection Of Newer Intel CPUs</title>
-      <link>https://www.phoronix.com/news/OpenBLAS-0.3.32-Released</link>
-      <description>OpenBLAS 0.3.32 is now available for this optimized open-source Basic Linear Algebra Subprograms "BLAS" library. Notable with the OpenBLAS 0.3.32 release is improving CPU auto-detection for newer Intel processors...</description>
-      <guid isPermaLink="false">https://www.phoronix.com/news/OpenBLAS-0.3.32-Released</guid>
-      <enclosure url="https://www.phoronix.net/image.php?id=intel-panther-lake&amp;image=intel_pantherlake_1" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Mar 2026 10:27:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 02 Apr 2026 06:43:30 +0000</lastBuildDate>
     <item>
       <title>Linux 7.1 To Overcome Reporting Limitation For Multiple Batteries Per HID Device</title>
       <link>https://www.phoronix.com/news/Linux-7.1-Multi-Battery-HID</link>
@@ -98,7 +18,7 @@
       <pubDate>Tue, 24 Mar 2026 11:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Krita 6.0 Released With Qt6 Port &amp;amp; Better Wayland Support</title>
+      <title>Krita 6.0 Released With Qt6 Port &amp;amp;amp;amp; Better Wayland Support</title>
       <link>https://www.phoronix.com/news/Krita-6.0-Released</link>
       <description>Krita 6.0 debuted today as the Qt6 port of this digital painting program aligned with KDE/Qt development. Krita 6.0 also brings improved Wayland support while Krita 5.3 is being simultaneously released for running on the mature Qt5 toolkit...</description>
       <guid isPermaLink="false">https://www.phoronix.com/news/Krita-6.0-Released</guid>
@@ -128,6 +48,86 @@
       <guid isPermaLink="false">https://www.phoronix.com/review/popos-2404-ubuntu-2604</guid>
       <enclosure url="https://www.phoronix.net/image.php?id=popos-2404-ubuntu-2604&amp;image=popos_mira_1" length="0" type="image/jpeg"/>
       <pubDate>Tue, 24 Mar 2026 14:45:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Linux Kernel's Minimum Rust Version Supported Prepares For Rust 1.85 Baseline</title>
+      <link>https://www.phoronix.com/news/Linux-Preps-For-Rust-1.85-Base</link>
+      <description>The Rust-For-Linux crew is preparing to raise the minimum supported Rust version for building the Linux kernel and and similarly also bumping the minimum supported version of bindgen, the tool for generating Rust FFI bindings for C code in the kernel...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Linux-Preps-For-Rust-1.85-Base</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2021&amp;image=rust_linux_v2" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 01 Apr 2026 13:25:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>KDE Linux Hardening Their OS Against Updates Making Systems Unbootable</title>
+      <link>https://www.phoronix.com/news/KDE-Linux-Hardening-March</link>
+      <description>KDE Linux as the in-house, leading-edge Linux distribution for showcasing the latest KDE Plasma innovations has promoted itself as being an atomically updated Linux distribution. But these atomic updates didn't quite work out as planned recently with some users finding their system(s) unbootable. But improvements are being made now for better robustness moving forward...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/KDE-Linux-Hardening-March</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2025&amp;image=kde_linux_0" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 01 Apr 2026 13:39:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>April 1 Linux Patches: Verified Birth Date For File Creation, Block Emacs From Running</title>
+      <link>https://www.phoronix.com/news/April-1-Linux-Patches-2026</link>
+      <description>What's more annoying: half-baked AI slop open-source patches or April Fools' Day with programmers trying to have some fun? This year, April 1 is seeming more patches than usual...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/April-1-Linux-Patches-2026</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=april_1_1" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 01 Apr 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HarfBuzz 14.0 Released With New GPU Accelerated Text Rendering Library</title>
+      <link>https://www.phoronix.com/news/HarfBuzz-14.0-Released</link>
+      <description>HarfBuzz is the open-source text shaping engine originally born out of the FreeType project and now widely-used by GNOME, KDE, Java, Flutter, Godot, Chromium, LibreOffice, and countless other applications. HarfBuzz 14.0 released today and making this release quite exciting is introducing a GPU-accelerated text rendering library...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/HarfBuzz-14.0-Released</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=harfbuzz_gpu" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 01 Apr 2026 15:19:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cloudflare Announces EmDash As Open-Source "Spiritual Successor" To WordPress</title>
+      <link>https://www.phoronix.com/news/Cloudflare-EmDash</link>
+      <description>Cloudflare continues to be full of open-source surprises. Today Cloudflare announced EmDash as an open-source "spiritual successor" to WordPress with an emphasis on better security...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Cloudflare-EmDash</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=emdash_example" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 01 Apr 2026 16:32:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>NVIDIA Provides Preview Driver With DRM Color Pipeline API Support</title>
+      <link>https://www.phoronix.com/news/NVIDIA-Preview-DRM-Color-Pipe</link>
+      <description>Following the DRM Color Pipeline API making it into the Linux 6.19 kernel, NVIDIA today released a preview Linux driver with their support for the DRM per-plane color pipeline API that will benefit the broader Linux/Wayland desktop HDR ambitions...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/NVIDIA-Preview-DRM-Color-Pipe</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=nvidia-geforce-rtx-5090-pre&amp;image=nvidia_rtx5090_7" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 01 Apr 2026 19:56:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fedora Rejects Proposal To Use systemd For Managing Per-User Environment Variables</title>
+      <link>https://www.phoronix.com/news/Fedora-Rejects-systemd-Feature</link>
+      <description>The Fedora Engineering and Steering Committee "FESCo" this week rejected a change proposal for Fedora 45 that would use systemd's environment generator functionality for managing per-user environment variables...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Fedora-Rejects-systemd-Feature</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=fedora_no_systemd_vars" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 01 Apr 2026 20:24:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>AMD GPU Driver Sees DC Idle Manager &amp;amp; Multi-SDMA Engine Optimization For Linux 7.1</title>
+      <link>https://www.phoronix.com/news/AMDGPU-Linux-7.1-Multi-SDMA</link>
+      <description>With Linux 7.0-rc6 having released on Sunday, we are hitting the point of the cut-off of new feature material being allowed into the Direct Rendering Manager's DRM-Next tree of queuing new graphics/display/accelerator feature code ahead of the upcoming Linux 7.1 merge window. As presumably the last AMDGPU/AMDKFD feature pull ahead of Linux 7.1, today's pull request from AMD contains some noteworthy final enhancements...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/AMDGPU-Linux-7.1-Multi-SDMA</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=amd-ryzen-ai-9-hx-370&amp;image=ryzen_ai_hx_370_8" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 00:31:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steam On Linux Use Skyrocketed In March - More Than Double The macOS Gaming Marketshare</title>
+      <link>https://www.phoronix.com/news/Steam-On-Linux-Tops-5p</link>
+      <description>If Valve's latest Steam Survey monthly figures are accurate, Steam on Linux enjoyed a very wild month of March. Steam on Linux is now above the 5% threshold and more than twice the size of the Steam on macOS marketshare...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Steam-On-Linux-Tops-5p</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=steam_march_1" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 00:44:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Libinput Hit By Worrying Security Issues With Its Lua Plug-In System</title>
+      <link>https://www.phoronix.com/news/Libinput-Lua-Security-Issues</link>
+      <description>Libinput devised a Lua-based plug-in system for modifying devices/events. The Lua plug-in support was introduced last year with libinput 1.30 but unfortunately some security issues have now come to light with the implementation...</description>
+      <guid isPermaLink="false">https://www.phoronix.com/news/Libinput-Lua-Security-Issues</guid>
+      <enclosure url="https://www.phoronix.net/image.php?id=2026&amp;image=linux_input" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 04:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

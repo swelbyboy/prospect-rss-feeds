@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>netnewswire.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/netnewswire-com.xml</link>
+    <description>Latest articles from netnewswire.com (netnewswire.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/netnewswire-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Apr 2026 06:33:43 +0000</lastBuildDate>
+    <item>
+      <title>NetNewsWire 6.2 for Mac and iOS</title>
+      <link>https://netnewswire.blog/2025/11/05/netnewswire-for-mac-and-ios.html</link>
+      <description>NetNewsWire 6.2 is on the App Store for iOS, and you can download the Mac version (or do NetNewsWire &amp;gt; Check for Updates… if you’re already running the app). Long-time Mac users will understand when we say that this is a Snow Leopard release — it fixes a bunch of bugs, makes some things faster, and adds only a couple features. See the release notes for Mac and release notes for iOS for more details. (They’re largely the same.) Note also that it doesn’t adopt Liquid Glass. We’ll be doing that in</description>
+      <guid isPermaLink="false">https://netnewswire.blog/2025/11/05/netnewswire-for-mac-and-ios.html</guid>
+      <pubDate>Wed, 05 Nov 2025 21:17:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Moving from Slack to Discourse</title>
+      <link>https://netnewswire.blog/2025/12/29/moving-from-slack-to-discourse.html</link>
+      <description>We’re dropping the Slack group as the NetNewsWire forum and switching to Discourse — here’s the new forum. Slack’s been pretty great for us, but it does have some limitations: conversations are automatically deleted and they’re not findable on the web in the first place. The switch to Discourse means conversations will be preserved and they will be able to benefit people for years to come. And we get to use an open web app that’s also open source. Which we like very much.</description>
+      <guid isPermaLink="false">https://netnewswire.blog/2025/12/29/moving-from-slack-to-discourse.html</guid>
+      <pubDate>Mon, 29 Dec 2025 19:13:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>NetNewsWire 7 for Mac</title>
+      <link>https://netnewswire.blog/2026/01/27/netnewswire-for-mac.html</link>
+      <description>NetNewsWire 7.0 for Mac is now shipping! The big change from 6.2.1 is that it adopts the Liquid Glass UI and it requires macOS 26. (Note to people who aren’t on macOS 26: we fixed a lot of bugs in 6.2 and 6.2.1 knowing that many people might skip, or at least delay, installing macOS 26. Also note that there’s a page where you can get old versions of NetNewsWire.) To get NetNewsWire 7: in the app, in the NetNewsWire menu, do Check for Updates… and it will update to the new version. If you’re not</description>
+      <guid isPermaLink="false">https://netnewswire.blog/2026/01/27/netnewswire-for-mac.html</guid>
+      <pubDate>Tue, 27 Jan 2026 19:32:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>NetNewsWire 7.0 for iOS</title>
+      <link>https://netnewswire.blog/2026/02/06/netnewswire-for-ios.html</link>
+      <description>NetNewsWire 7 for iOS 26 and up is available now on the App Store! This version adopts Liquid Glass — and we think it’s a better looking version of NetNewsWire. We think even people who aren’t fans of Liquid Glass will agree with us. 🐣 Credit goes to Stuart Breckenridge for the design and implementation. Wonderful work! Check out the screenshots. This version also fixes some small bugs and adds some small performance enhancements. (iOS developers might appreciate this bit: it adopts Swift struct</description>
+      <guid isPermaLink="false">https://netnewswire.blog/2026/02/06/netnewswire-for-ios.html</guid>
+      <pubDate>Fri, 06 Feb 2026 19:42:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>NetNewsWire Turns 23</title>
+      <link>https://netnewswire.blog/2026/02/11/netnewswire-turns.html</link>
+      <description>NetNewsWire 1.0 for Mac shipped 23 years ago today! 🎸🎩🕶️ Here’s where things are on this particular February 11: we just shipped 7.0 for Mac and iOS, and now we’re working on NetNewsWire 7.0.1. After a big release, no matter how careful we are, there are often some regressions to fix and tweaks to make right away, so we’re working on those. Here’s the milestone with the current to-do list. Big picture: we still have a lot of bugs to fix, lots of tech debt to deal with, and lots of polish-needed</description>
+      <guid isPermaLink="false">https://netnewswire.blog/2026/02/11/netnewswire-turns.html</guid>
+      <pubDate>Wed, 11 Feb 2026 17:35:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Testing help for NetNewsWire 7.0.1 beta needed — runs on macOS 15</title>
+      <link>https://netnewswire.blog/2026/02/27/testing-help-for-netnewswire-beta.html</link>
+      <description>NetNewsWire 7.0 required macOS 26, but now we’re working on making it compatible with macOS 15. This latest beta — either do a check-for-updates or download it manually to get it — runs on macOS 15. So far we’ve found just a couple cosmetic glitches, but we’d like to do a lot more testing than just a few quick looks around. We appreciate all the help! You can report bugs on the bug tracker or on the Discourse forum topic for this beta. (If you’re reporting on the bug tracker, please be sure to s</description>
+      <guid isPermaLink="false">https://netnewswire.blog/2026/02/27/testing-help-for-netnewswire-beta.html</guid>
+      <pubDate>Fri, 27 Feb 2026 21:34:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>NetNewsWire 7.0.1 for Mac runs on macOS 15</title>
+      <link>https://netnewswire.blog/2026/03/04/netnewswire-for-mac-runs-on.html</link>
+      <description>We’ve just released NetNewsWire 7.0.1 for Mac. To get it, do a check-for-updates or download it directly. The big new thing is that runs on macOS 15. 💥 It fixes several bugs as well: see the change notes on GitHub for details. Thanks to everyone who helped test! PS NetNewsWire 7.0.1 for iOS in waiting for review. Hopefully it will be out in the next few days.</description>
+      <guid isPermaLink="false">https://netnewswire.blog/2026/03/04/netnewswire-for-mac-runs-on.html</guid>
+      <pubDate>Thu, 05 Mar 2026 01:11:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>NetNewsWire 7.0.2: The Return of the Error Log</title>
+      <link>https://netnewswire.blog/2026/03/19/netnewswire-the-return-of-the.html</link>
+      <description>NetNewsWire of Yore had an Error Log window (on Mac) which could help you figure out what’s going on when a feed or account is acting weird — when it’s stopped updating, for instance. NetNewsWire 7.0.2 brings that feature back, and we’ve already used it to help fix a syncing authentication bug (bug fix will be in 7.0.3). Get your updates the usual way and enjoy the return of the Error Log! For more details, plus screenshots, see How to Use the Error Log.</description>
+      <guid isPermaLink="false">https://netnewswire.blog/2026/03/19/netnewswire-the-return-of-the.html</guid>
+      <pubDate>Thu, 19 Mar 2026 22:52:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>NetNewsWire User Creates MCP Support Via AppleScript</title>
+      <link>https://netnewswire.blog/2026/03/21/netnewswire-user-creates-mcp-support.html</link>
+      <description>Jelly writes on the NetNewsWire Discourse forum: I’ve drafted a naive implementation of NNW MCP support through AppleScript. It supports listing feeds, getting/searching articles, subscribing new feeds… I can now schedule a daily task that lets Claude summarize that day’s new articles and order them based on my previous behaviors every morning. We love how AppleScript support is worth way more than the effort we put into it — users can keep creating cool things that we couldn’t have imagined bac</description>
+      <guid isPermaLink="false">https://netnewswire.blog/2026/03/21/netnewswire-user-creates-mcp-support.html</guid>
+      <pubDate>Sat, 21 Mar 2026 21:08:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Testing Help for NetNewsWire 7.0.4 — runs on iOS 17 and iOS 18</title>
+      <link>https://netnewswire.blog/2026/03/30/testing-help-for-netnewswire-runs.html</link>
+      <description>We just released a TestFlight build of NetNewsWire 7.0.4 (which includes iCloud syncing enhancements) that runs on iOS 17 and up. (It had required iOS 26.) If you have a device running one of these versions of iOS, we’d appreciate it if you would help test. Here’s where to sign up for TestFlight for NetNewsWire. Thanks! You can report bugs via TestFlight feedback, on the forum, or on the bug tracker. Whatever works for you is cool with us 😀 Also: this page talks about the iCloud syncing enhancem</description>
+      <guid isPermaLink="false">https://netnewswire.blog/2026/03/30/testing-help-for-netnewswire-runs.html</guid>
+      <pubDate>Mon, 30 Mar 2026 18:59:05 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>jloudon.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/jloudon-com.xml</link>
+    <description>Latest articles from jloudon.com (jloudon.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/jloudon-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Apr 2026 06:32:05 +0000</lastBuildDate>
+    <item>
+      <title>Global Azure: Policy as Code with Bicep for Enterprise Scale</title>
+      <link>https://jloudon.com/cloud/Global-Azure-Policy-as-Code-with-Bicep-for-Enterprise-Scale/</link>
+      <description>Recently I’ve been diving into Microsoft’s new DSL Bicep and as I’m passionate about Azure Policy I thought why not combine both aspects into a session?</description>
+      <guid isPermaLink="false">https://jloudon.com/cloud/Global-Azure-Policy-as-Code-with-Bicep-for-Enterprise-Scale/</guid>
+      <enclosure url="https://jloudon.com/assets/images/GlobalAzure2021PolicyAsCodeWithBicep.png" length="0" type="image/png"/>
+      <pubDate>Sat, 17 Apr 2021 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HashiTalks ANZ: DRY Coding with Terraform, CSVs, ForEach</title>
+      <link>https://jloudon.com/cloud/HashiTalks-ANZ-DRY-Coding-with-Terraform-CSVs-ForEach/</link>
+      <description>How combining Terraform with CSVs and ForEach we can deploy at scale from large datasets</description>
+      <guid isPermaLink="false">https://jloudon.com/cloud/HashiTalks-ANZ-DRY-Coding-with-Terraform-CSVs-ForEach/</guid>
+      <enclosure url="https://jloudon.com/assets/images/hashitalksanz2021.png" length="0" type="image/png"/>
+      <pubDate>Tue, 27 Apr 2021 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Win vs Azure Policy Non-Compliance</title>
+      <link>https://jloudon.com/cloud/How-To-Win-vs-Azure-Policy-Non-Compliance/</link>
+      <description>Fixing a design flaw with the existenceCondition for builtin policies</description>
+      <guid isPermaLink="false">https://jloudon.com/cloud/How-To-Win-vs-Azure-Policy-Non-Compliance/</guid>
+      <enclosure url="https://jloudon.com/assets/images/policy-noncompliance.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 24 Jul 2021 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Talking Azure Policy as Code on CtrlAltAzure podcast</title>
+      <link>https://jloudon.com/cloud/Talking-Azure-Policy-as-Code-on-the-CtrlAltAzure-podcast/</link>
+      <description>Appearing as a guest on the Ctrl+Alt+Azure podcast to talk Azure Policy as Code with hosts Tobias Zimmergren and Jussi Roine</description>
+      <guid isPermaLink="false">https://jloudon.com/cloud/Talking-Azure-Policy-as-Code-on-the-CtrlAltAzure-podcast/</guid>
+      <enclosure url="https://jloudon.com/assets/images/JesseLoudonTeamsBackground.png" length="0" type="image/png"/>
+      <pubDate>Wed, 24 Nov 2021 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Awesome Azure Policy Origin Story</title>
+      <link>https://jloudon.com/cloud/Awesome-Azure-Policy-Origin-Story/</link>
+      <description>This is the Awesome Azure Policy origin story</description>
+      <guid isPermaLink="false">https://jloudon.com/cloud/Awesome-Azure-Policy-Origin-Story/</guid>
+      <enclosure url="https://jloudon.com/assets/images/AwesomeAzurePolicy.png" length="0" type="image/png"/>
+      <pubDate>Thu, 20 Jan 2022 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Flexing your Security Governance with Azure Policy as Code</title>
+      <link>https://jloudon.com/cloud/Flexing-your-Security-Governance-with-Azure-Policy-as-Code/</link>
+      <description>I recently had the pleasure of presenting a livestream session via Microsoft Reactor Sydney on a subject close to my heart.</description>
+      <guid isPermaLink="false">https://jloudon.com/cloud/Flexing-your-Security-Governance-with-Azure-Policy-as-Code/</guid>
+      <enclosure url="https://jloudon.com/assets/images/MR2022-FlexingYourSecurityGovernanceWithAzurePolicyAsCode-og.png" length="0" type="image/png"/>
+      <pubDate>Tue, 01 Feb 2022 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Managing Azure Databricks Workspace IP Access Lists via CICD</title>
+      <link>https://jloudon.com/cloud/Managing-Azure-Databricks-Workspace-IP-Access-Lists-via-CICD/</link>
+      <description>How you can manage Azure Databricks (ADB) Workspace IP access lists via CICD and DevOps processes</description>
+      <guid isPermaLink="false">https://jloudon.com/cloud/Managing-Azure-Databricks-Workspace-IP-Access-Lists-via-CICD/</guid>
+      <enclosure url="https://jloudon.com/assets/images/databricks-ip-access-list-flow.png" length="0" type="image/png"/>
+      <pubDate>Sat, 26 Apr 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Palo Alto Cloud NGFW SCM Deployment with Terraform</title>
+      <link>https://jloudon.com/cloud/Deploying-Palo-Alto-Cloud-NGFW-with-Terraform-and-AzAPI/</link>
+      <description>Learn how to deploy Palo Alto Cloud Next-Generation Firewall with Strata Cloud Manager integration using Terraform.</description>
+      <guid isPermaLink="false">https://jloudon.com/cloud/Deploying-Palo-Alto-Cloud-NGFW-with-Terraform-and-AzAPI/</guid>
+      <enclosure url="https://jloudon.com/assets/images/pacloudngfw.png" length="0" type="image/png"/>
+      <pubDate>Wed, 19 Nov 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lessons Learned Adopting Azure Virtual WAN</title>
+      <link>https://jloudon.com/cloud/Lessons-Learned-Adopting-Azure-Virtual-WAN/</link>
+      <description>Discover lessons learned adopting Azure Virtual WAN from a traditional hub and spoke architecture</description>
+      <guid isPermaLink="false">https://jloudon.com/cloud/Lessons-Learned-Adopting-Azure-Virtual-WAN/</guid>
+      <enclosure url="https://jloudon.com/assets/images/vwan-migration.png" length="0" type="image/png"/>
+      <pubDate>Sun, 23 Nov 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Terragrunt Tips and Tricks From The Field</title>
+      <link>https://jloudon.com/cloud/Terragrunt-Tips-and-Tricks-from-the-Field/</link>
+      <description>Discover three distinct Terragrunt file patterns for managing your Terraform at scale.</description>
+      <guid isPermaLink="false">https://jloudon.com/cloud/Terragrunt-Tips-and-Tricks-from-the-Field/</guid>
+      <enclosure url="https://jloudon.com/assets/images/terragrunt.png" length="0" type="image/png"/>
+      <pubDate>Wed, 26 Nov 2025 13:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
