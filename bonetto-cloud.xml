@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>bonetto.cloud - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/bonetto-cloud.xml</link>
+    <description>Latest articles from bonetto.cloud (bonetto.cloud)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/bonetto-cloud.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Apr 2026 06:17:18 +0000</lastBuildDate>
+    <item>
+      <title>SpeedTest per Home Assistant – Monitoriamo le prestazioni del nostro provider</title>
+      <link>https://www.bonetto.cloud/2025/11/18/speedtest-per-home-assistant-monitoriamo-le-prestazioni-del-nostro-provider/</link>
+      <description>Una semplice integrazione per monitorare nel tempo le prestazioni del nostro fornitore di connettività.</description>
+      <guid isPermaLink="false">https://www.bonetto.cloud/2025/11/18/speedtest-per-home-assistant-monitoriamo-le-prestazioni-del-nostro-provider/</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/17.0.2/72x72/1f44b.png" length="0" type="image/png"/>
+      <pubDate>Tue, 18 Nov 2025 14:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google DRIVE integrazione per il Backup</title>
+      <link>https://www.bonetto.cloud/2025/11/18/google-drive-integrazione-per-il-backup/</link>
+      <description>Vuoi utilizzare il Google Drive come unità di destinazione per salvare il backup in Home Assistant ? segui questa guida, ti spiego passo passo anche la parte "difficile", quella di entrare nella Google Developer Consoile e abilitare il servizio API</description>
+      <guid isPermaLink="false">https://www.bonetto.cloud/2025/11/18/google-drive-integrazione-per-il-backup/</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/17.0.2/72x72/1f4fa.png" length="0" type="image/png"/>
+      <pubDate>Tue, 18 Nov 2025 17:18:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Il RECORDER in Home Assistant</title>
+      <link>https://www.bonetto.cloud/2025/11/21/il-recorder-in-home-assistant/</link>
+      <description>Impariamo a contenere le dimensioni del database di Home Assistant attraverso la configurazione del Recorder.</description>
+      <guid isPermaLink="false">https://www.bonetto.cloud/2025/11/21/il-recorder-in-home-assistant/</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/17.0.2/72x72/1f44b.png" length="0" type="image/png"/>
+      <pubDate>Fri, 21 Nov 2025 15:45:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Home Assistant in una Macchina Virtuale</title>
+      <link>https://www.bonetto.cloud/2025/12/03/home-assistant-in-una-macchina-virtuale/</link>
+      <description>Usare VirtualBox ovvero una macchina virtuale per provare Home Assistant è sicuramente una buona scelta prima di scegliere un hardware definitivo. Ma lo è anche per i veterani del sistema domotico faidate più diffuso al mondo, perché è una soluzione veloce e pratica per effettuare prove e test di ogni genere senza dover agire sull'HUB principale di produzione.</description>
+      <guid isPermaLink="false">https://www.bonetto.cloud/2025/12/03/home-assistant-in-una-macchina-virtuale/</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/17.0.2/72x72/1f44b.png" length="0" type="image/png"/>
+      <pubDate>Wed, 03 Dec 2025 11:54:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sensore di Presenza Radar 60GHz multifunzione, eMotion Ultra, installazione e test</title>
+      <link>https://www.bonetto.cloud/2026/01/07/sensore-di-presenza-radar-60ghz-multifunzione-emotion-ultra-installazione-e-test/</link>
+      <description>Sono sempre alla ricerca del sensore ideale e tra i tanti sensori testati ho voluto provare anche questo a tecnologia radar a onde millimetriche (60 Ghz) che dovrebbe garantire tra l'altro una più accurata sensibilità, ma c'è molto di più.</description>
+      <guid isPermaLink="false">https://www.bonetto.cloud/2026/01/07/sensore-di-presenza-radar-60ghz-multifunzione-emotion-ultra-installazione-e-test/</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/17.0.2/72x72/1f44b.png" length="0" type="image/png"/>
+      <pubDate>Wed, 07 Jan 2026 12:39:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>Home Assistant – Accensione 💡​luci su presenza, serve ancora il ⏲️​TIMER ?</title>
+      <link>https://www.bonetto.cloud/2026/01/15/home-assistant-accensione-%f0%9f%92%a1luci-su-presenza-serve-ancora-il-%e2%8f%b2%ef%b8%8ftimer/</link>
+      <description>Prima o poi tutti ci imbattiamo nella banale necessità di accendere una luce quando entriamo in una stanza e far si che questa rimanga accesa fintanto che ne rimaniamo all'interno. Questa la mia soluzione con guida paso passo per principianti.</description>
+      <guid isPermaLink="false">https://www.bonetto.cloud/2026/01/15/home-assistant-accensione-%f0%9f%92%a1luci-su-presenza-serve-ancora-il-%e2%8f%b2%ef%b8%8ftimer/</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/17.0.2/72x72/1f44b.png" length="0" type="image/png"/>
+      <pubDate>Thu, 15 Jan 2026 22:07:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Localizzatore Tracker 🛰️​ GPS FMC920 – Configuratore Teltonika – Traccar e Home Assistant</title>
+      <link>https://www.bonetto.cloud/2026/02/06/localizzatore-tracker-%f0%9f%9b%b0%ef%b8%8f-gps-fmc920-configuratore-teltonika-traccar-e-home-assistant-ep72/</link>
+      <description>Volete utilizzare un geolocalizzatore (tracker) nel vostro mezzo mobile e utilizzarlo senza acquistare servizi terzi ? In questa guida vi spiego come configurare il modello Teltonika FMC920.</description>
+      <guid isPermaLink="false">https://www.bonetto.cloud/2026/02/06/localizzatore-tracker-%f0%9f%9b%b0%ef%b8%8f-gps-fmc920-configuratore-teltonika-traccar-e-home-assistant-ep72/</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/17.0.2/72x72/1f6e0.png" length="0" type="image/png"/>
+      <pubDate>Fri, 06 Feb 2026 10:01:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>⚠️Home Assistant: crea un pulsante 🆘SOS per inviare la posizione in emergenza</title>
+      <link>https://www.bonetto.cloud/2026/03/03/%e2%9a%a0%ef%b8%8fhome-assistant-crea-un-pulsante-%f0%9f%86%98sos-per-inviare-la-posizione-in-emergenza/</link>
+      <description>Vuoi imparare a usare Home Assistant per gestire un’emergenza? In questo video ti mostro come creare un pulsante di aiuto che, in caso di necessità, invia automaticamente la tua posizione ad un familiare.</description>
+      <guid isPermaLink="false">https://www.bonetto.cloud/2026/03/03/%e2%9a%a0%ef%b8%8fhome-assistant-crea-un-pulsante-%f0%9f%86%98sos-per-inviare-la-posizione-in-emergenza/</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" length="0" type="image/png"/>
+      <pubDate>Tue, 03 Mar 2026 12:09:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Protetto: Da zero a ESP32 Lo.Ra. (abbonati)</title>
+      <link>https://www.bonetto.cloud/2026/03/17/da-zero-a-esp32-lo-ra-abbonati/</link>
+      <description>Non è disponibile alcun riassunto in quanto si tratta di un articolo protetto.</description>
+      <guid isPermaLink="false">https://www.bonetto.cloud/2026/03/17/da-zero-a-esp32-lo-ra-abbonati/</guid>
+      <pubDate>Tue, 17 Mar 2026 18:35:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>Da zero a ESP32 Lo.Ra.</title>
+      <link>https://www.bonetto.cloud/2026/03/20/copia-da-zero-a-esp32-lo-ra/</link>
+      <description>n questa serie di video disponibili su YouTube ho deciso di approfondirne la conoscenza e di sperimentarne l'utilizzo insieme a voi, in una sorta di laboratorio aperto, condividendo totalmente errori e successi ma perseguendo l'obiettivo primario, ovvero realizzare una connessione radio a lunga distanza (Lo.Ra) per comandare relè e/o ricevere lo stato di sensori a noi distanti. E' attraverso questo intento che spero soprattutto di imparare qualcosa di nuovo e di stimolare qualcuno di voi ad avvi</description>
+      <guid isPermaLink="false">https://www.bonetto.cloud/2026/03/20/copia-da-zero-a-esp32-lo-ra/</guid>
+      <enclosure url="https://s.w.org/images/core/emoji/17.0.2/72x72/2705.png" length="0" type="image/png"/>
+      <pubDate>Fri, 20 Mar 2026 13:47:41 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

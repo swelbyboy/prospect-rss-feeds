@@ -1,22 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Hello - Article Feed</title>
+    <title>Hello! - Article Feed</title>
     <link>https://swelbyboy.github.io/prospect-rss-feeds/hello.xml</link>
-    <description>Latest articles from Hello (hellomagazin.rs)</description>
+    <description>Latest articles from Hello! (hellomagazine.com)</description>
     <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/hello.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Mar 2026 08:29:23 +0000</lastBuildDate>
-    <item>
-      <title>HBO drops first look at Harry Potter reboot - and fans have questions</title>
-      <link>https://www.hellomagazine.com/film/891556/harry-potter-hbo-series-first-look-fans-confused/</link>
-      <description>Harry Potter fans have been left confused after an anticipated announcement from HBO. The upcoming series is expected to be released in 2027…</description>
-      <guid isPermaLink="false">https://www.hellomagazine.com/film/891556/harry-potter-hbo-series-first-look-fans-confused/</guid>
-      <enclosure url="https://images.hellomagazine.com/horizon/landscape/01c12a6bc7a4-arabella-stanton-dominic-mclaughlin-and-alastair-stout.jpg?tx=c_fill,w_1200" length="0" type="image/jpeg"/>
-      <pubDate>Tue, 24 Mar 2026 15:51:55 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 02 Apr 2026 06:22:21 +0000</lastBuildDate>
     <item>
       <title>'90s child actor who starred in Mrs. Doubtfire and Matilda looks unrecognisable 30 years on</title>
       <link>https://www.hellomagazine.com/celebrities/891500/90s-child-actor-starred-in-mrs-doubtfire-matilda-looks-unrecognisable-30-years-on/</link>
@@ -128,6 +120,14 @@
       <guid isPermaLink="false">https://www.hellomagazin.rs/celebrity-news/dragan-i-maja-bjelogrlic-brak/</guid>
       <enclosure url="https://www.hellomagazin.rs/wp-content/uploads/2024/01/130731_dragan-bjelogrlic-bosko-karanovic-nedeljaimg-2759.jpg" length="0" type="image/jpeg"/>
       <pubDate>Tue, 31 Mar 2026 08:20:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>From eczema to psoriasis: what's really causing your itchy skin - and how to fix it</title>
+      <link>https://www.hellomagazine.com/healthandbeauty/health-and-fitness/887452/natural-remedies-itchy-skin-causes-treatment-eczema/</link>
+      <description>Discover 8 pharmacist-approved natural remedies to soothe itchy skin, eczema, and psoriasis. Plus, learn which common 'natural' ingredients you should strictly avoid to protect your skin barrier</description>
+      <guid isPermaLink="false">https://www.hellomagazine.com/healthandbeauty/health-and-fitness/887452/natural-remedies-itchy-skin-causes-treatment-eczema/</guid>
+      <enclosure url="https://images.hellomagazine.com/horizon/landscape/80e301ca1464-woman-applying-skin-balm-gettyimages-2203107241.jpg?tx=c_fill,w_1200" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 05:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

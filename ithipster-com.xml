@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ithipster.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/ithipster-com.xml</link>
+    <description>Latest articles from ithipster.com (ithipster.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/ithipster-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Apr 2026 06:01:50 +0000</lastBuildDate>
+    <item>
+      <title>On positive impact of ransomware on information security</title>
+      <link>http://ithipster.com/blog/63.html</link>
+      <description>I truly hate I need to write this. And I feel really sorry for those who were forced to learn it the hard way, but don't tell me you haven't been warned in advance years before. However. — The end of compliance-driven security is now official. Petya is not impressed with your ISO27K certificate. Nor does it give a flying fsck about your recent audit performed by a Big4 company. — Make prevention great again (in detection dominated world we live in now)! Too busy playing with your all-new AI-driv</description>
+      <guid isPermaLink="false">http://ithipster.com/blog/63.html</guid>
+      <pubDate>Fri, 07 Jul 2017 08:23:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>On the doorsteps of ivory tower: encryption for a "demanding" customer</title>
+      <link>http://ithipster.com/blog/65.html</link>
+      <description>Recently I took a somewhat deeper-than-intended dive into a wonderful world of so-called “secure communications” (don’t ask me why, maybe I will tell you eventually). No, not Signal or Protonmail, nor Tox or OTR. I mean paid (and rather expensive) services and devices you probably never heard of (and had every reason not to). Do the names like Myntex, Encrochat, Skyecc, Ennetcom ring a bell? Probably it does not, as it should be, unless they fuck something up spectacularly enough to hit the news</description>
+      <guid isPermaLink="false">http://ithipster.com/blog/65.html</guid>
+      <pubDate>Tue, 11 Jul 2017 16:31:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>SSL: welcome to digital GULAG</title>
+      <link>http://ithipster.com/blog/unorthodox/64.html</link>
+      <description>Let's take a look at a seemingly innocent practice of OCSP stapling. Basically it is a certification that your certificate is valid, with the certificate for the validity of your certificate being issued by your certificate authority and bundled with your original certificate. Sounds perfect! If only we could certify the validity of this second certificate too, with a third certificate issued by the same authority, would be enough, certainly, three certificates are enough for everyone. Right? Th</description>
+      <guid isPermaLink="false">http://ithipster.com/blog/unorthodox/64.html</guid>
+      <pubDate>Thu, 03 Aug 2017 10:35:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>KRACK: no big deal either</title>
+      <link>http://ithipster.com/blog/66.html</link>
+      <description>Either your vital communications are end2end encrypted already, or you have more reasons to worry than just KRACK. Endpoints are movable. There was a communication once performed via direct patch cord link. Next day it could go around half of the internet: someone decides to move one of endpoints to the cloud, to a different location, or else. And if you ever use your laptop or smartphone on the public wifi, the attack surface never changed for you at all. You cannot reliably protect all endpoin</description>
+      <guid isPermaLink="false">http://ithipster.com/blog/66.html</guid>
+      <pubDate>Wed, 25 Oct 2017 13:11:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>How (not) to do GDPR</title>
+      <link>http://ithipster.com/blog/67.html</link>
+      <description>I prepared a few simple recommendations for you. 1. Do not rush to break your software and business, unless you are deep into advertisement or social profiling or your IT processes imply dumping every piece of data you have on an unprotected file server. If you are doing personal data processing for a legitimate business purpose in a reasonable manner, it is safe to assume you can stand your ground under any GDPR related scrutiny. I know a retail company that ceased CCTV recording in all their w</description>
+      <guid isPermaLink="false">http://ithipster.com/blog/67.html</guid>
+      <pubDate>Thu, 05 Jul 2018 21:16:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>RTB on fingers</title>
+      <link>http://ithipster.com/blog/geniusrabbit/68.html</link>
+      <description>RTB (Real Time Bidding) the mechanism of monetization of traffic by more highest price or selling the traffic which the ad network can’t monetize itself. It could be compared with the big auction where one ad network is the auctioneer all other is participants. The auctioneer to announced the lot, some participants make a bid, and the bid with the highest price wins the lot. Read more</description>
+      <guid isPermaLink="false">http://ithipster.com/blog/geniusrabbit/68.html</guid>
+      <enclosure url="/uploads/images/00/00/02/2018/07/25/708b87.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Jul 2018 01:51:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Testing in GO</title>
+      <link>http://ithipster.com/blog/69.html</link>
+      <description>When the creators of golang were developing the architecture of the language they were caring out about developers which will use it in real work. One of the most important processes of development it's the testing, and they did it very convenient and easy to use as they use it themselves. To create the test enough to declare ".go" file with "_test" postfix in the name. This file will be ignored by the compiler when you will assemble your application. When you run the test every module in the pr</description>
+      <guid isPermaLink="false">http://ithipster.com/blog/69.html</guid>
+      <pubDate>Thu, 26 Jul 2018 04:09:15 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generators in GO</title>
+      <link>http://ithipster.com/blog/70.html</link>
+      <description>Generator, simply, this is a function that returns the iterator. It's applicable in case of when you do not need to load all data in memory before processing or in cases when we can not receive all data at once or we generate it on the go. In some languages mainly used special keyword yield what returns some value until the next call of the next value from the iterator. Let’s create the generator. def gen(steps): for i in range(0, steps): yield i * i The yield will generate something like thisRe</description>
+      <guid isPermaLink="false">http://ithipster.com/blog/70.html</guid>
+      <pubDate>Sun, 29 Jul 2018 04:42:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-signed TLS certificates are not evil, nor they are "broken"</title>
+      <link>http://ithipster.com/blog/71.html</link>
+      <description>One more hopeless rant I was engaged in, like, for last 20 years or more. What is totally broken, however, is UX decisions that mark them «evil». Self-signed TLS certificates possess no more intrinsic evil qualities than your beloved ssh and gpg keys. The intent behind ostracising self-signed certificates is noble: everybody should do… should be forced to do things the one proper way: for intranet you should deploy our own private root CA and distribute its certificate to all the clients, for in</description>
+      <guid isPermaLink="false">http://ithipster.com/blog/71.html</guid>
+      <pubDate>Mon, 03 Sep 2018 09:59:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>A hacker’s guide to not get hacked</title>
+      <link>http://ithipster.com/blog/72.html</link>
+      <description>Assume you are a technically savvy person who knows the basics. You never install random crap from the internet. A typical phishing email makes you laugh, you almost pity the mankind which can be fooled by scammers as silly as those. Your phone screen is locked by default, and you use a password manager. In multiple ways (sometimes inevitable, oftentimes obscure and cryptic) you depend on things (software, data, hardware) you do not own nor control locally (unless you are extremely paranoid and</description>
+      <guid isPermaLink="false">http://ithipster.com/blog/72.html</guid>
+      <pubDate>Wed, 03 Oct 2018 08:59:26 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

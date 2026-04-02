@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Havin FM - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/havin-fm.xml</link>
+    <description>Latest articles from Havin FM (havinfm.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/havin-fm.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Apr 2026 06:25:27 +0000</lastBuildDate>
+    <item>
+      <title>Hello world!</title>
+      <link>https://havinfm.com/2024/12/29/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://havinfm.com/2024/12/29/hello-world/</guid>
+      <pubDate>Sun, 29 Dec 2024 06:30:21 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

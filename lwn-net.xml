@@ -8,42 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 16:18:55 +0000</lastBuildDate>
-    <item>
-      <title>Agama 19 released</title>
-      <link>https://lwn.net/Articles/1064067/</link>
-      <description>Version 19 of the Agama installer for openSUSE and SUSE has been released. This release include [...]</description>
-      <guid isPermaLink="false">https://lwn.net/Articles/1064067/</guid>
-      <pubDate>Fri, 20 Mar 2026 18:41:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>b4 v0.15.0 released</title>
-      <link>https://lwn.net/Articles/1064097/</link>
-      <description>Version 0.15.0 of the b4 patch-management tool is out. Highlights in this release include the [...]</description>
-      <guid isPermaLink="false">https://lwn.net/Articles/1064097/</guid>
-      <pubDate>Fri, 20 Mar 2026 23:05:33 +0000</pubDate>
-    </item>
-    <item>
-      <title>Security updates for Monday</title>
-      <link>https://lwn.net/Articles/1064298/</link>
-      <description>Security updates have been issued by AlmaLinux (gimp:2.8, grub2, kernel, libarchive, libvpx, nginx, opencryptoki, python3.12, vim, yggdrasil, and yggdrasil-worker-package-manager), Debian (chromium, freeciv, libvirt, libyaml-syck-perl, mapserver, ruby-rack, spip, and webkit2gtk), Fedora (chromium, cpp-httplib, glib2, libsoup3, localsearch, openssh, python-scitokens, python-ujson, python3.6, scitokens-cpp, uxplay, wordpress, and xen), Mageia (expat), Red Hat (osbuild-composer), SUSE (Announcement</description>
-      <guid isPermaLink="false">https://lwn.net/Articles/1064298/</guid>
-      <pubDate>Mon, 23 Mar 2026 13:05:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kernel prepatch 7.0-rc5</title>
-      <link>https://lwn.net/Articles/1064306/</link>
-      <description>Linus has released 7.0-rc5 for testing.</description>
-      <guid isPermaLink="false">https://lwn.net/Articles/1064306/</guid>
-      <pubDate>Mon, 23 Mar 2026 14:13:15 +0000</pubDate>
-    </item>
-    <item>
-      <title>[$] Tracking when BPF programs may sleep</title>
-      <link>https://lwn.net/Articles/1062868/</link>
-      <description>BPF programs can run in both sleepable and non-sleepable (atomic) contexts. Currently, sleepable BPF programs are not allowed to enter an atomic context. Puranjay Mohan has a new patch set that changes that. The patch set would let BPF programs called in sleepable contexts temporarily acquire locks that cause the programs to transition to an atomic context. BPF maintainer Alexei Starovoitov objected to parts of the implementation, however, so acceptance of the patch depends on whether Mohan is w</description>
-      <guid isPermaLink="false">https://lwn.net/Articles/1062868/</guid>
-      <pubDate>Mon, 23 Mar 2026 16:00:38 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 02 Apr 2026 06:21:15 +0000</lastBuildDate>
     <item>
       <title>Security updates for Tuesday</title>
       <link>https://lwn.net/Articles/1064474/</link>
@@ -78,6 +43,76 @@
       <description>PHP's licensing has been a source of confusion for some time. The project is, currently, using two licenses that cover different parts of the code base: PHP v3.01 for the bulk of the code and Zend v2.0 for code in the Zend directory. Much has changed since the project settled on those licenses in 2006, and the need for custom licensing seems to have passed. An effort to simplify PHP's licensing, led by Ben Ramsey, is underway; if successful, the existing licenses will be deprecated and replaced</description>
       <guid isPermaLink="false">https://lwn.net/Articles/1063993/</guid>
       <pubDate>Tue, 24 Mar 2026 16:00:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>SystemRescue 13.00 released</title>
+      <link>https://lwn.net/Articles/1065480/</link>
+      <description>SystemRescue 13.00 has been released. The SystemRescue distribution is a live boot system-rescu [...]</description>
+      <guid isPermaLink="false">https://lwn.net/Articles/1065480/</guid>
+      <pubDate>Mon, 30 Mar 2026 17:25:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Security updates for Tuesday</title>
+      <link>https://lwn.net/Articles/1065585/</link>
+      <description>Security updates have been issued by AlmaLinux (firefox, kernel, and kernel-rt), Debian (phpseclib and roundcube), Fedora (bind, bind-dyndb-ldap, dotnet8.0, dotnet9.0, firefox, freerdp, mingw-expat, musescore, nss, ntpd-rs, perl-YAML-Syck, php-phpseclib3, polkit, pyOpenSSL, python3.12, rust, rust-cargo-rpmstatus, rust-cargo-vendor-filterer, stgit, webkitgtk, and xen), SUSE (dovecot24, ImageMagick, jupyter-nbclassic, kernel, libjxl, libsuricata8_0_4, obs-service-recompress, obs-service-tar_scm, o</description>
+      <guid isPermaLink="false">https://lwn.net/Articles/1065585/</guid>
+      <pubDate>Tue, 31 Mar 2026 13:09:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vulnerability Research Is Cooked (sockpuppet.org)</title>
+      <link>https://lwn.net/Articles/1065586/</link>
+      <description>There is a blog post on sockpuppet.org arguing that we are not prepared for the upcoming flood [...]</description>
+      <guid isPermaLink="false">https://lwn.net/Articles/1065586/</guid>
+      <pubDate>Tue, 31 Mar 2026 13:26:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>[$] Objections to systemd age-attestation changes go overboard</title>
+      <link>https://lwn.net/Articles/1064706/</link>
+      <description>In early March, Dylan M. Taylor submitted a pull request to add a field to store a user's birth date in systemd's JSON user records. This was done to allow applications to store the date to facilitate compliance with age-attestation and -verification laws. It was to be expected that some members of the community would object; the actual response, however, has been shockingly hostile. Some of this has been fueled by a misinformation campaign that has targeted the systemd project and Taylor specif</description>
+      <guid isPermaLink="false">https://lwn.net/Articles/1064706/</guid>
+      <pubDate>Tue, 31 Mar 2026 13:52:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>[$] The role of LLMs in patch review</title>
+      <link>https://lwn.net/Articles/1064830/</link>
+      <description>Discussion of a memory-management patch set intended to clean up a helper function for handling huge pages spiraled into something else entirely after it was posted on March 19. Memory-management maintainer Andrew Morton proposed making changes to the subsystem's review process, to require patch authors to respond to feedback from Sashiko, the recently released LLM-based kernel patch review system. Other sub-maintainers, particularly Lorenzo Stoakes, objected. The resulting discussion about how</description>
+      <guid isPermaLink="false">https://lwn.net/Articles/1064830/</guid>
+      <pubDate>Tue, 31 Mar 2026 15:40:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>Security updates for Wednesday</title>
+      <link>https://lwn.net/Articles/1065814/</link>
+      <description>Security updates have been issued by AlmaLinux (freerdp, libxslt, python3.11, and python3.12), Debian (libpng1.6, lxd, netty, and python-tornado), Fedora (chunkah, cpp-httplib, firefox, freerdp, gst-devtools, gst-editing-services, gstreamer1, gstreamer1-doc, gstreamer1-plugin-libav, gstreamer1-plugins-bad-free, gstreamer1-plugins-base, gstreamer1-plugins-good, gstreamer1-plugins-ugly-free, gstreamer1-rtsp-server, gstreamer1-vaapi, insight, python-gstreamer1, python3.14, rust, rust-cargo-rpmstatu</description>
+      <guid isPermaLink="false">https://lwn.net/Articles/1065814/</guid>
+      <pubDate>Wed, 01 Apr 2026 13:11:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Servo 0.0.6 released</title>
+      <link>https://lwn.net/Articles/1065827/</link>
+      <description>Version 0.0.6 of the Rust-based Servo web browser rendering engine has been released. This rele [...]</description>
+      <guid isPermaLink="false">https://lwn.net/Articles/1065827/</guid>
+      <pubDate>Wed, 01 Apr 2026 14:25:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>[$] Pandoc: a workhorse for document conversion</title>
+      <link>https://lwn.net/Articles/1064692/</link>
+      <description>Pandoc is a document-conversion program that can translate among a myriad of formats, including LaTeX, HTML, Office Open XML (docx), plain text, and Markdown. It is also extensible by writing Lua filters that can manipulate the document structure and perform arbitrary computations. Pandoc has appeared in various LWN articles over the years, such as my look at Typst and at the importance of free software to science in 2025, but we have missed providing an overview of the tool. The February releas</description>
+      <guid isPermaLink="false">https://lwn.net/Articles/1064692/</guid>
+      <pubDate>Wed, 01 Apr 2026 14:41:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Turbulence at The Document Foundation</title>
+      <link>https://lwn.net/Articles/1065908/</link>
+      <description>Michael Meeks has posted an angry missive about changes at The Document Foundation. What has r [...]</description>
+      <guid isPermaLink="false">https://lwn.net/Articles/1065908/</guid>
+      <pubDate>Wed, 01 Apr 2026 19:46:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>[$] LWN.net Weekly Edition for April 2, 2026</title>
+      <link>https://lwn.net/Articles/1064762/</link>
+      <description>Inside this week's LWN.net Weekly Edition: Front: LiteLLM compromise; systemd controversy; LLM kernel review; OpenBSD and vibe-coding; Rust trait-solver; Pandoc. Briefs: Rspamd 4.0.0; telnyx vulnerability; Fedora forge; SystemRescue 13.00; Servo 0.0.6; Quotes; ... Announcements: Newsletters, conferences, security updates, patches, and more.</description>
+      <guid isPermaLink="false">https://lwn.net/Articles/1064762/</guid>
+      <pubDate>Thu, 02 Apr 2026 00:39:21 +0000</pubDate>
     </item>
   </channel>
 </rss>
