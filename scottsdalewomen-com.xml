@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>scottsdalewomen.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/scottsdalewomen-com.xml</link>
+    <description>Latest articles from scottsdalewomen.com (scottsdalewomen.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/scottsdalewomen-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Apr 2026 06:30:42 +0000</lastBuildDate>
+    <item>
+      <title>Scottsdale Woman Now</title>
+      <link>https://www.scottsdalewomen.com/home</link>
+      <description>{loadposition importantnews} {loadposition home1} {loadposition inside-content} {loadposition home2} {loadposition home3}</description>
+      <guid isPermaLink="false">https://www.scottsdalewomen.com/home</guid>
+      <pubDate>Sun, 26 May 2019 18:41:54 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
