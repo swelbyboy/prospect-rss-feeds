@@ -1,54 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Rockit.it - Article Feed</title>
+    <title>rockit.it - Article Feed</title>
     <link>https://swelbyboy.github.io/prospect-rss-feeds/rockit-it.xml</link>
-    <description>Latest articles from Rockit.it (rockit.it)</description>
+    <description>Latest articles from rockit.it (rockit.it)</description>
     <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/rockit-it.xml" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 17:58:04 +0000</lastBuildDate>
-    <item>
-      <title>“Solo ora abbiamo realizzato quanto Matteo e gli Yuppie Flu fossero entrati nella vita della persone”</title>
-      <link>https://www.rockit.it/intervista/solo-ora-abbiamo-realizzato-quanto-matteo-yuppie-flu-fossero-entrati-vita-persone</link>
-      <description>Matteo Agostinelli, frontman della band nata tra Ancona e Bologna, è morto a 53 anni. Ora parlano i suoi compagni di band, ricordando la sua...</description>
-      <guid isPermaLink="false">https://www.rockit.it/intervista/solo-ora-abbiamo-realizzato-quanto-matteo-yuppie-flu-fossero-entrati-vita-persone</guid>
-      <enclosure url="https://rockitecn.nohup.it/foto/36238/solo-ora-abbiamo-realizzato-quanto-matteo-yuppie-flu-fossero-entrati-vita-persone.jpg?nocache=20260324183542" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Mar 2026 09:58:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>El Partydo: "Lo Stato Sociale non è una band in pausa, ma ora è il momento del sudore"</title>
-      <link>https://www.rockit.it/intervista/el-partydo-lo-stato-sociale-non-band-pausa-ma-ora-momento-sudore</link>
-      <description>Con due singoli e un mini tour fa il suo esordio la nuova creatura bolognese composta da 3/5 del collettivo e Ioma, "sbarbo di Casalekkio" che porta...</description>
-      <guid isPermaLink="false">https://www.rockit.it/intervista/el-partydo-lo-stato-sociale-non-band-pausa-ma-ora-momento-sudore</guid>
-      <enclosure url="https://rockitecn.nohup.it/foto/36240/el-partydo-lo-stato-sociale-non-band-pausa-ma-ora-momento-sudore.jpg?nocache=20260324183158" length="0" type="image/jpeg"/>
-      <pubDate>Thu, 19 Mar 2026 15:41:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Fight Pausa: "House Baby" recensione</title>
-      <link>https://www.rockit.it/recensione/73973/fight-pausa-house-baby</link>
-      <description>Il producer si mette per la prima volta al centro con il suo esordio solista, dove slacker rock, hip hop e glitch elettronici costruiscono un ritratto umano personale e sfuggente</description>
-      <guid isPermaLink="false">https://www.rockit.it/recensione/73973/fight-pausa-house-baby</guid>
-      <enclosure url="https://rockitecn.nohup.it/dbimg/copertine/73973.jpg?nocache=20260324183504" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 20 Mar 2026 01:10:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mauro Ermanno Giovanardi sceglie sempre con cura le parole da non dire</title>
-      <link>https://www.rockit.it/intervista/mauro-ermanno-giovanardi-sceglie-cura-parole-non-dire</link>
-      <description>È una massima che gli ha trasmesso Alda Merini, e a cui ha dedicato il titolo del suo nuovo disco solista, uscito oggi. Un lavoro collettivo,...</description>
-      <guid isPermaLink="false">https://www.rockit.it/intervista/mauro-ermanno-giovanardi-sceglie-cura-parole-non-dire</guid>
-      <enclosure url="https://rockitecn.nohup.it/foto/36241/mauro-ermanno-giovanardi-sceglie-cura-parole-non-dire.jpg?nocache=20260324185415" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 20 Mar 2026 10:11:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Francesco Radice: la scrittura come rifugio, la musica come uscita</title>
-      <link>https://www.rockit.it/intervista/francesco-radice-la-scrittura-come-rifugio-la-musica-come-uscita</link>
-      <description>Tra cantautorato pop rock e songwriting terapeutico, il musicista brianzolo trasforma le canzoni in uno spazio dove raccontare storie, dare voce agli...</description>
-      <guid isPermaLink="false">https://www.rockit.it/intervista/francesco-radice-la-scrittura-come-rifugio-la-musica-come-uscita</guid>
-      <enclosure url="https://rockitecn.nohup.it/foto/36242/francesco-radice-la-scrittura-come-rifugio-la-musica-come-uscita.jpg?nocache=20260324183901" length="0" type="image/jpeg"/>
-      <pubDate>Fri, 20 Mar 2026 10:35:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 03 Apr 2026 06:14:13 +0000</lastBuildDate>
     <item>
       <title>Iacampo: "Preghiere contemporanee" recensione</title>
       <link>https://www.rockit.it/recensione/73972/iacampo-preghiere-contemporanee</link>
@@ -88,6 +48,86 @@
       <guid isPermaLink="false">https://www.rockit.it/articolo/10-canzoni-100-anni-dario-fo</guid>
       <enclosure url="https://rockitecn.nohup.it/foto/36247/10-canzoni-100-anni-dario-fo.jpg?nocache=20260324184505" length="0" type="image/jpeg"/>
       <pubDate>Tue, 24 Mar 2026 09:34:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>“Indipendenza, coproduzione, amore per quel che facciamo”: dietro il fenomeno Tony Pitony</title>
+      <link>https://www.rockit.it/articolo/indipendenza-coproduzione-amore-quel-che-facciamo-dietro-fenomeno-tony-pitony</link>
+      <description>Parla per la prima volta Luca Di Trapani, dal giorno zero al fianco dell’amico (che conosce dall’asilo). Dai live sgangherati a Siracusa agli...</description>
+      <guid isPermaLink="false">https://www.rockit.it/articolo/indipendenza-coproduzione-amore-quel-che-facciamo-dietro-fenomeno-tony-pitony</guid>
+      <enclosure url="https://rockitecn.nohup.it/foto/36248/indipendenza-coproduzione-amore-quel-che-facciamo-dietro-fenomeno-tony-pitony.jpg?nocache=20260403072951" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Mar 2026 13:58:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dentro al più grande caveau di spartiti della musica leggera italiana</title>
+      <link>https://www.rockit.it/articolo/dentro-piu-grande-caveau-spartiti-musicali-italiani</link>
+      <description>A Cornuda, nel trevigiano, c'è un luogo fuori dal tempo, un museo/stamperia che ospita gli oltre 40.000 spartiti del fondo La Musica Moderna, per...</description>
+      <guid isPermaLink="false">https://www.rockit.it/articolo/dentro-piu-grande-caveau-spartiti-musicali-italiani</guid>
+      <enclosure url="https://rockitecn.nohup.it/foto/36249/tipoteca-italiana-archivio-musica-moderna-siragusa-spartiti.jpg?nocache=20260403081331" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 25 Mar 2026 22:38:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ainé, Filippo Bubbico, Lauryyn: "Luna piena" recensione</title>
+      <link>https://www.rockit.it/recensione/74016/aine-filippo-bubbico-lauryyn-luna-piena</link>
+      <description>LUNA PIENA è un ep maturo e stilisticamente inedito per il panorama pop italiano. Un lavoro pieno di chiaroscuri, che gioca col nu-soul per renderlo qualcosa di nuovo</description>
+      <guid isPermaLink="false">https://www.rockit.it/recensione/74016/aine-filippo-bubbico-lauryyn-luna-piena</guid>
+      <enclosure url="https://rockitecn.nohup.it/dbimg/copertine/74016.jpg?nocache=20260403073108" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 27 Mar 2026 09:32:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>"Ciao Gino, grazie delle canzoni (e di non averci fatto causa)"</title>
+      <link>https://www.rockit.it/articolo/ciao-gino-grazie-delle-canzoni-e-non-averci-fatto-causa</link>
+      <description>Metti una sera a cena Gino Paoli, gigante della canzone italiana appena scomparso, e la scorribanda della band che gli ha "rubato" il nome, I Gini...</description>
+      <guid isPermaLink="false">https://www.rockit.it/articolo/ciao-gino-grazie-delle-canzoni-e-non-averci-fatto-causa</guid>
+      <enclosure url="https://rockitecn.nohup.it/foto/36251/ciao-gino-grazie-delle-canzoni-e-non-averci-fatto-causa.jpg?nocache=20260403074654" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 27 Mar 2026 13:09:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dargen D'Amico: "Quando fai la copia della copia, anche il tormentone perde la sua dignità"</title>
+      <link>https://www.rockit.it/intervista/dargen-damico-quando-fai-copia-copia-anche-tormentone-perde-sua-dignita</link>
+      <description>"Doppia mozzarella", il nuovo disco del rapper milanese, ha un concetto ben chiaro alla base: il nostro rapporto con le macchine, a cominciare dalle...</description>
+      <guid isPermaLink="false">https://www.rockit.it/intervista/dargen-damico-quando-fai-copia-copia-anche-tormentone-perde-sua-dignita</guid>
+      <enclosure url="https://rockitecn.nohup.it/foto/36252/dargen-damico-quando-fai-copia-copia-anche-tormentone-perde-sua-dignita.jpg?nocache=20260403073725" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 27 Mar 2026 16:16:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>È tempo di farci sentire i tuoi PEZZONI: partecipa al Festival della Canzone Dimenticata</title>
+      <link>https://www.rockit.it/articolo/fuori-dallalgoritmo-torna-pezzoni-partecipa-festival-canzone-dimenticata</link>
+      <description>Il pezzo viene prima di tutto. Anzi, il PEZZONE. Dopo il successo di un anno fa, torna l'iniziativa che va a caccia di quei brani bellissimi che non...</description>
+      <guid isPermaLink="false">https://www.rockit.it/articolo/fuori-dallalgoritmo-torna-pezzoni-partecipa-festival-canzone-dimenticata</guid>
+      <enclosure url="https://rockitecn.nohup.it/foto/36246/fuori-dallalgoritmo-torna-pezzoni-partecipa-festival-canzone-dimenticata.jpg?nocache=20260403075056" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 30 Mar 2026 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>I Patagarri: tutte le strade portano a MI AMI</title>
+      <link>https://www.rockit.it/articolo/patagarri-tutte-strade-portano-mi-ami</link>
+      <description>Berlino, Londra, Parigi, Madrid e... Idroscalo di Milano: a maggio la band sbarca al festival dei baci, dopo un surreale tour in giro per l'Europa...</description>
+      <guid isPermaLink="false">https://www.rockit.it/articolo/patagarri-tutte-strade-portano-mi-ami</guid>
+      <enclosure url="https://rockitecn.nohup.it/foto/36254/patagarri-tutte-strade-portano-mi-ami.jpg?nocache=20260403074654" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 31 Mar 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Baltimora: vincere un talent e sparire</title>
+      <link>https://www.rockit.it/intervista/baltimora-vincere-talent-sparire</link>
+      <description>Dopo la vittoria a X Factor, è scomparso dai riflettori (ma non dalla musica, è un bravissimo autore) per quasi cinque anni. Non ha cavalcato...</description>
+      <guid isPermaLink="false">https://www.rockit.it/intervista/baltimora-vincere-talent-sparire</guid>
+      <enclosure url="https://rockitecn.nohup.it/foto/36253/baltimora-vincere-talent-sparire.jpg?nocache=20260403074654" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 01 Apr 2026 11:46:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fatti Sentire: tre giorni per far conoscere la vostra musica alle migliori agenzie di concerti</title>
+      <link>https://www.rockit.it/articolo/fatti-sentire-tre-giorni-far-conoscere-vostra-musica-alle-migliori-agenzie-concerti</link>
+      <description>Il mondo del live sta cambiando (non in meglio, temiamo) a ritmi vorticosi. A pagarne le spese sono gli artisti più "piccoli". Per questo dal 14 al...</description>
+      <guid isPermaLink="false">https://www.rockit.it/articolo/fatti-sentire-tre-giorni-far-conoscere-vostra-musica-alle-migliori-agenzie-concerti</guid>
+      <enclosure url="https://rockitecn.nohup.it/foto/36255/fatti-sentire-tre-giorni-far-conoscere-vostra-musica-alle-migliori-agenzie-concerti.jpg?nocache=20260403075931" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 14:07:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Balordi nostalgia</title>
+      <link>https://www.rockit.it/articolo/balordi-nostalgia</link>
+      <description>La Cricca dei Balordi, gruppo di culto per i fan del rap italiano, torna sulle scene. E lo fa più di vent'anni dopo un disco come "Musi" e...</description>
+      <guid isPermaLink="false">https://www.rockit.it/articolo/balordi-nostalgia</guid>
+      <enclosure url="https://rockitecn.nohup.it/foto/36257/balordi-nostalgia.jpg?nocache=20260403081330" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 16:44:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

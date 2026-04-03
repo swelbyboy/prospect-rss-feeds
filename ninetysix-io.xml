@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>ninetysix.io - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/ninetysix-io.xml</link>
+    <description>Latest articles from ninetysix.io (ninetysix.io)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/ninetysix-io.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Apr 2026 06:20:12 +0000</lastBuildDate>
+    <item>
+      <title>Airtime</title>
+      <link>https://ninetysix.io/post/airtime/</link>
+      <description>About A remake of the classic Super Skidmarks. I built this to test and demonstrate a few features: 24bit color Fullscreen scrolling Realtime voxel tracing SB16 8-channel mixer with pitch-wheel Runs at about 120 FPS on a P166 MMX Controls Left-arrow - Turn left Right-arrow - Turn right Up-arrow - Accelerate Down-arrow - Break / reverse Q - Quit to DOS Play Play in Browser Airtime Downloads airtime_dos.zip - For DOS airtime_win64.zip - For Win64 Extra stuff… Debug keys (while racing) B - Enable ‘</description>
+      <guid isPermaLink="false">https://ninetysix.io/post/airtime/</guid>
+      <enclosure url="https://ninetysix.io/downloads/airtime/airtime.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 03 Jan 1996 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://ninetysix.io/about/</link>
+      <description>Rewriting games in DOS like it’s 1996. Computer specs: Pentium 166MHZ MMX 128 MB ram S3 Trio64 (4MB)</description>
+      <guid isPermaLink="false">https://ninetysix.io/about/</guid>
+      <pubDate>Wed, 03 Jan 1996 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Player</title>
+      <link>https://ninetysix.io/post/player/</link>
+      <description>About A music player demonstrating the A96 Audio codec. MP3 is too slow for my games, and WAVE is too large, so I’ve created an audio codec that does a ‘pretty good’ job of compressing audio, while being fast enough to decode on realtime on low end hardware. The goal is to decode at 30x realtime on a P166 MMX, at 6:1 compression, with no noticeable loss of quality. Currently the HIGH profile (used in this demo) gets 4.6:1 with 21x decode speed.</description>
+      <guid isPermaLink="false">https://ninetysix.io/post/player/</guid>
+      <enclosure url="https://ninetysix.io/downloads/player/player.jpeg" length="0" type="image/jpeg"/>
+      <pubDate>Wed, 31 Jan 1996 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Destruct</title>
+      <link>https://ninetysix.io/post/destruct/</link>
+      <description>About A remake of the hidden Scorched-Earth game Destruct from Tyrian 2000 featuring: Falling sand physics engine A (not very smart) AI 4 Vehicle types 10 Weapon types Lots of bugs (it’s still a prototype) Performance is a bit all over the place, but it should run at &amp;gt; 100 FPS. Controls Up/Down - power / fly Left/Right - aim / move N - next tank LeftBracket/RightBracket - cycle weapon Debug keys 1 - Burn at mouse cursor 2 - add sand 3 - add lava 4 - add dust 8 - ‘bump’ terrain. 9 - make sparks b</description>
+      <guid isPermaLink="false">https://ninetysix.io/post/destruct/</guid>
+      <enclosure url="https://ninetysix.io/downloads/destruct/destruct.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Fri, 01 Mar 1996 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

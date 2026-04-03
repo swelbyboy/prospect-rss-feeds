@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>extendit.de - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/extendit-de.xml</link>
+    <description>Latest articles from extendit.de (extendit.de)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/extendit-de.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Apr 2026 06:30:19 +0000</lastBuildDate>
+    <item>
+      <title>Beispiel News</title>
+      <link>https://www.extendit.de/news/ansicht/beispiel-news.html</link>
+      <description>Das TYPO3 Template steht in jedem unserer Hostingpaketen fertig installiert zur Verfügung</description>
+      <guid isPermaLink="false">https://www.extendit.de/news/ansicht/beispiel-news.html</guid>
+      <enclosure url="https://www.extendit.de/fileadmin/Examples/0202.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 01 May 2023 16:08:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

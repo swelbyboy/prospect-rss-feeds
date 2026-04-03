@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>next100.io - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/next100-io.xml</link>
+    <description>Latest articles from next100.io (next100.io)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/next100-io.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Apr 2026 06:14:42 +0000</lastBuildDate>
+    <item>
+      <title>Hello world! - Next100</title>
+      <link>https://next100.io/hello-world/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=hello-world</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://next100.io/hello-world/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=hello-world</guid>
+      <pubDate>Wed, 18 Dec 2024 20:23:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hello world! - Next100</title>
+      <link>https://next100.io/hello-world-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=hello-world-2</link>
+      <description>Welcome to Astra Starter Templates. This is your first post. Edit or delete it, then start blogging!</description>
+      <guid isPermaLink="false">https://next100.io/hello-world-2/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=hello-world-2</guid>
+      <pubDate>Wed, 18 Dec 2024 20:35:19 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

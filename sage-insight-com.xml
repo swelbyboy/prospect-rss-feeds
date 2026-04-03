@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>sage-insight.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/sage-insight-com.xml</link>
+    <description>Latest articles from sage-insight.com (sage-insight.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/sage-insight-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Apr 2026 06:01:49 +0000</lastBuildDate>
+    <item>
+      <title>First Blog Post</title>
+      <link>https://sage-insight.com/2017/05/13/first-blog-post/</link>
+      <description>This is the excerpt for your very first post.</description>
+      <guid isPermaLink="false">https://sage-insight.com/2017/05/13/first-blog-post/</guid>
+      <enclosure url="https://sage-insight.com/wp-content/uploads/2017/05/cropped-img_0270-1.jpg?w=200" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 13 May 2017 18:47:28 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -8,47 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 15:10:08 +0000</lastBuildDate>
-    <item>
-      <title>Anthropic's response to the AI tool that caused lines around the block in Shenzhen</title>
-      <link>https://thenewstack.io/claude-dispatch-versus-openclaw/</link>
-      <description>Anthropic has launched Claude Dispatch for Cowork, a mobile-controlled AI agent rivaling OpenClaw. We test the new feature against the open-source competitor.</description>
-      <guid isPermaLink="false">https://thenewstack.io/claude-dispatch-versus-openclaw/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/03/d3029841-darmau-byphnnewj3m-unsplash-scaled.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sat, 21 Mar 2026 17:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Will AI force code to evolve or make it extinct?</title>
-      <link>https://thenewstack.io/ai-programming-languages-future/</link>
-      <description>Will AI spawn new programming languages, or will typed languages like Rust and TypeScript win? Experts explore AI's growing impact on how developers write code.</description>
-      <guid isPermaLink="false">https://thenewstack.io/ai-programming-languages-future/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/03/25f051c5-crawford-jolly-3ixuf9mcjka-unsplash-scaled.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 22 Mar 2026 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What a security audit of 22,511 AI coding skills found lurking in the code</title>
-      <link>https://thenewstack.io/ai-agent-skills-security/</link>
-      <description>A security audit of 22,511 AI coding agent skills found 140,963 issues, revealing a dangerous gap between registry scanning and what runs on your machine.</description>
-      <guid isPermaLink="false">https://thenewstack.io/ai-agent-skills-security/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/03/4df79c5b-ekaterina-bogdan-y0hrs-dtb0-unsplash-1.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Sun, 22 Mar 2026 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MCP is everywhere, but don't panic. Here's why your existing APIs still matter.</title>
-      <link>https://thenewstack.io/api-mcp-agent-integration/</link>
-      <description>Learn why APIs still matter in the age of Model Context Protocol (MCP), and how to balance traditional APIs and MCP for secure AI agents.</description>
-      <guid isPermaLink="false">https://thenewstack.io/api-mcp-agent-integration/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/03/933f7f18-maria-lupan-tffweykxuz8-unsplash-scaled.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to deploy Pi-Hole with Docker and stop ads on every device on your LAN</title>
-      <link>https://thenewstack.io/pihole-docker-network-adblocking/</link>
-      <description>Pi-Hole is an open source, network-wide ad blocker. Learn to deploy it as a Docker container to protect every device on your LAN from ads and trackers.</description>
-      <guid isPermaLink="false">https://thenewstack.io/pihole-docker-network-adblocking/</guid>
-      <enclosure url="https://cdn.thenewstack.io/media/2026/03/01cb0eef-chloe-tuowfvm_mic-unsplash-1.jpg" length="0" type="image/jpeg"/>
-      <pubDate>Mon, 23 Mar 2026 14:44:36 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 03 Apr 2026 06:27:17 +0000</lastBuildDate>
     <item>
       <title>Four prompt engineering patterns every developer should know — and why "draw a cat" explains them all</title>
       <link>https://thenewstack.io/prompt-engineering-for-developers/</link>
@@ -88,6 +48,86 @@
       <guid isPermaLink="false">https://thenewstack.io/ai-generated-code-invisible/</guid>
       <enclosure url="https://cdn.thenewstack.io/media/2026/03/69412975-thumbnail-45.png" length="0" type="image/png"/>
       <pubDate>Tue, 24 Mar 2026 14:20:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why programming became the proving ground for AI</title>
+      <link>https://thenewstack.io/programming-ai-proving-ground/</link>
+      <description>Discover why software engineering's objective feedback loops make it the ideal proving ground for AI, and what other industries must learn.</description>
+      <guid isPermaLink="false">https://thenewstack.io/programming-ai-proving-ground/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/04/d42460b9-rizki-ardia-3kazir-pgzy-unsplash-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Moving beyond the “magic scaling sauce” myth</title>
+      <link>https://thenewstack.io/beyond-magic-scaling-myth/</link>
+      <description>Learn how to scale data-intensive applications effectively with this exclusive excerpt from Martin Kleppmann and Chris Riccomini.</description>
+      <guid isPermaLink="false">https://thenewstack.io/beyond-magic-scaling-myth/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/04/4eda3943-milhad-tdnolkzrgcw-unsplash-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 13:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>There’s a hidden tax on every AI-generated merge request</title>
+      <link>https://thenewstack.io/hidden-tax-ai-code/</link>
+      <description>AI code generation causes merge requests to surge, but human review doesn't scale. Learn how to fix the hidden tax overloading engineers.</description>
+      <guid isPermaLink="false">https://thenewstack.io/hidden-tax-ai-code/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/04/00354ab9-getty-images-1rdhxhol-xu-unsplash-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenClaw vs. Hermes Agent: The race to build AI assistants that never forget</title>
+      <link>https://thenewstack.io/persistent-ai-agents-compared/</link>
+      <description>OpenClaw and Hermes Agent take different approaches to persistent AI coding assistants. One prioritizes ecosystem reach, the other deep learning over time.</description>
+      <guid isPermaLink="false">https://thenewstack.io/persistent-ai-agents-compared/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/04/66127345-getty-images-mhz5eewnoms-unsplash-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 14:26:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Broadcom gave Velero to the CNCF Sandbox — and what it means for Kubernetes data protection</title>
+      <link>https://thenewstack.io/broadcom-donates-velero-cncf/</link>
+      <description>Broadcom donates Velero to CNCF Sandbox and extends Kubernetes support for enterprises, aiming to reduce operational overhead across cloud native infrastructure.</description>
+      <guid isPermaLink="false">https://thenewstack.io/broadcom-donates-velero-cncf/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/04/6c6d7613-thumbnail-46.png" length="0" type="image/png"/>
+      <pubDate>Thu, 02 Apr 2026 14:36:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why coding agents will break your CI/CD pipeline (and how to fix it)</title>
+      <link>https://thenewstack.io/coding-agents-cicd-fix/</link>
+      <description>AI coding agents are breaking CI/CD pipelines. Learn how to fix the validation bottleneck with ephemeral environments and agent skills.</description>
+      <guid isPermaLink="false">https://thenewstack.io/coding-agents-cicd-fix/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/04/1cade6bd-diliara-garifullina-p_1hg6zeyy8-unsplash-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The TeamPCP attacks are a warning: Your CI/CD pipeline is the new front line</title>
+      <link>https://thenewstack.io/cicd-pipeline-front-line/</link>
+      <description>TeamPCP attacks show CI/CD pipelines are the new security front line. Dan Lorenc shares how to fix flawed supply chain trust assumptions.</description>
+      <guid isPermaLink="false">https://thenewstack.io/cicd-pipeline-front-line/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/04/5eef6f8b-slimane-kadi-glou2qu3cug-unsplash-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why pgEdge thinks MCP (not an API) is the right way for AI agents to talk to databases</title>
+      <link>https://thenewstack.io/pgedge-mcp-postgres-agents/</link>
+      <description>pgEdge launches a production-ready MCP Server for Postgres, bringing AI agent connectivity, schema introspection, and reduced token usage to any Postgres database.</description>
+      <guid isPermaLink="false">https://thenewstack.io/pgedge-mcp-postgres-agents/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/04/dabf4124-round-icons-tmmh6gorwvo-unsplash-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 18:30:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft execs warn agentic AI is hollowing out the junior developer pipeline</title>
+      <link>https://thenewstack.io/agentic-ai-junior-developer-crisis/</link>
+      <description>Microsoft's Russinovich and Hanselman warn agentic AI's productivity gains are eliminating junior developer roles, threatening the software talent pipeline.</description>
+      <guid isPermaLink="false">https://thenewstack.io/agentic-ai-junior-developer-crisis/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/04/9a5e19f4-spacepixel-creative-4u0acno2-uw-unsplash-1.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 18:52:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic's rough week: leaked models, exposed source code, and a botched GitHub takedown</title>
+      <link>https://thenewstack.io/anthropic-claude-code-leak/</link>
+      <description>Anthropic's leaked source code, exposed Claude Code architecture, and botched GitHub takedown raise questions about AI security, governance, and accountability.</description>
+      <guid isPermaLink="false">https://thenewstack.io/anthropic-claude-code-leak/</guid>
+      <enclosure url="https://cdn.thenewstack.io/media/2026/04/1330afad-octopus-coming-out-of-can-scaled.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 19:59:40 +0000</pubDate>
     </item>
   </channel>
 </rss>

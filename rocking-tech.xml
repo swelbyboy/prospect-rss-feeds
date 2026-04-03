@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 15:22:51 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 06:17:39 +0000</lastBuildDate>
     <item>
       <title>Your Website Returns 200 OK – That Doesn't Mean It Works</title>
       <link>https://rockingtech.co.uk/blog/website-200-ok-doesnt-mean-it-works</link>
@@ -82,12 +82,36 @@
       <pubDate>Thu, 19 Mar 2026 08:45:00 +0000</pubDate>
     </item>
     <item>
-      <title>Your Lovable App Hit a Wall — Here's What Actually Went Wrong</title>
+      <title>Your Lovable App Hit a Wall — Here's What to Do Next</title>
       <link>https://rockingtech.co.uk/blog/your-lovable-app-hit-a-wall</link>
       <description>Independent security firms have now audited thousands of AI-built apps. The same three architectural failures appear in virtually every codebase — and none of them are your fault.</description>
       <guid isPermaLink="false">https://rockingtech.co.uk/blog/your-lovable-app-hit-a-wall</guid>
       <enclosure url="https://rockingtech.co.uk/blog-images/your-lovable-app-hit-a-wall.jpg" length="0" type="image/jpeg"/>
       <pubDate>Mon, 23 Mar 2026 08:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Much Does It Cost to Rescue a Neglected Laravel Codebase?</title>
+      <link>https://rockingtech.co.uk/blog/how-much-does-it-cost-to-rescue-a-neglected-laravel-codebase</link>
+      <description>Audit costs, upgrade costs, remediation costs, rebuild costs — and the one number that makes all of them look expensive. UK pricing data, published where it exists, estimated where it doesn't.</description>
+      <guid isPermaLink="false">https://rockingtech.co.uk/blog/how-much-does-it-cost-to-rescue-a-neglected-laravel-codebase</guid>
+      <enclosure url="https://rockingtech.co.uk/blog-images/how-much-does-it-cost-to-rescue-a-neglected-laravel-codebase.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 26 Mar 2026 08:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What a Laravel Support Retainer Actually Covers</title>
+      <link>https://rockingtech.co.uk/blog/what-a-laravel-support-retainer-actually-covers</link>
+      <description>Most agencies won't tell you what a retainer includes until you're on a sales call. Here's everything — scope, hours, response times, exclusions, and how the UK market actually prices this — so you can decide before you pick up the phone.</description>
+      <guid isPermaLink="false">https://rockingtech.co.uk/blog/what-a-laravel-support-retainer-actually-covers</guid>
+      <enclosure url="https://rockingtech.co.uk/blog-images/what-a-laravel-support-retainer-actually-covers.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Mon, 30 Mar 2026 07:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your AI-Generated Code Isn't Secure — Here's What We Find Every Time</title>
+      <link>https://rockingtech.co.uk/blog/ai-generated-code-security-what-we-find</link>
+      <description>Veracode tested 150+ AI models and found 45% of generated code introduces OWASP Top 10 vulnerabilities. The failure rate for cross-site scripting defences is 86% — and it isn't improving with newer models. Here's what that looks like inside a real codebase, what you can check yourself in 30 minutes, and what the UK's National Cyber Security Centre is now saying about it.</description>
+      <guid isPermaLink="false">https://rockingtech.co.uk/blog/ai-generated-code-security-what-we-find</guid>
+      <enclosure url="https://rockingtech.co.uk/blog-images/ai-generated-code-security-what-we-find.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Thu, 02 Apr 2026 10:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
