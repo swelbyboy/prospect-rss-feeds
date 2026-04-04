@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>shotofculture.nl - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/shotofculture-nl.xml</link>
+    <description>Latest articles from shotofculture.nl (shotofculture.nl)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/shotofculture-nl.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 04 Apr 2026 06:20:08 +0000</lastBuildDate>
+    <item>
+      <title>Hello world! - shot of culture</title>
+      <link>https://shotofculture.nl/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://shotofculture.nl/hello-world/</guid>
+      <pubDate>Tue, 10 May 2016 03:48:21 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

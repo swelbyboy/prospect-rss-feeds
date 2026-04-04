@@ -8,42 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 16:35:49 +0000</lastBuildDate>
-    <item>
-      <title>Meta and TikTok let harmful content rise after evidence outrage drove engagement, say whistleblowers</title>
-      <link>https://www.osnews.com/story/144623/meta-and-tiktok-let-harmful-content-rise-after-evidence-outrage-drove-engagement-say-whistleblowers/</link>
-      <description>Once again, social media giants Facebook and TikTok have been caught red-handed. More than a dozen whistleblowers and insiders have laid bare how the companies took risks with safety on issues including violence, sexual blackmail and terrorism as they battled for users’ attention. An engineer at Meta, which owns Facebook and Instagram, described how he had been told by senior management to allow more “borderline” harmful content – which includes misogyny and conspiracy theories – in user’s feeds</description>
-      <guid isPermaLink="false">https://www.osnews.com/story/144623/meta-and-tiktok-let-harmful-content-rise-after-evidence-outrage-drove-engagement-say-whistleblowers/</guid>
-      <pubDate>Wed, 18 Mar 2026 19:42:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sudo ported to DOS</title>
-      <link>https://www.osnews.com/story/144625/sudo-ported-to-dos/</link>
-      <description>DOS didn’t have sudo yet. This gross oversight has been addressed. SUDO examines the environment for the COMSPEC variable to find the default command interpreter, falling back to C:\COMMAND.COM if not set. The interpreter is then executed in unprotected real mode for full privileges. ↫ SUDO for DOS’ Codeberg page A vital tool, for sure.</description>
-      <guid isPermaLink="false">https://www.osnews.com/story/144625/sudo-ported-to-dos/</guid>
-      <pubDate>Wed, 18 Mar 2026 21:01:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Duranium: an immutable variant of postmarketOS</title>
-      <link>https://www.osnews.com/story/144627/introducing-duranium-an-immutable-variant-of-postmarketos/</link>
-      <description>PosrtmarketOS, the Linux ‘distribution’ for mobile devices, now also has an immutable variant, called Duranium. Duranium is an immutable variant of postmarketOS, built around the idea that your device should just work, and keep working. You shouldn’t need to know what a terminal is to keep your device running. “Immutable” means the core operating system is read-only and can’t be modified while it’s running. System updates are applied as complete, verified images rather than individual packages.</description>
-      <guid isPermaLink="false">https://www.osnews.com/story/144627/introducing-duranium-an-immutable-variant-of-postmarketos/</guid>
-      <pubDate>Wed, 18 Mar 2026 21:14:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>GNOME 50 released</title>
-      <link>https://www.osnews.com/story/144629/gnome-50-released/</link>
-      <description>The GNOME team has released GNOME 50, the latest version of what is probably the most popular open source desktop environment. It brings fine-grained parental controls, and the groundwork for web filtering so that in future releases, parents and guardians can set content filters for children. Our own kids are still way too young to have access to computers and the internet, but I’m not sure I’ll ever resort to these kinds of tools when the time comes. I didn’t have any such controls imposed upon</description>
-      <guid isPermaLink="false">https://www.osnews.com/story/144629/gnome-50-released/</guid>
-      <pubDate>Wed, 18 Mar 2026 22:23:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>You can make Linux syscalls in a Windows application, apparently</title>
-      <link>https://www.osnews.com/story/144633/you-can-make-linux-syscalls-in-a-windows-application-apparently/</link>
-      <description>What happens if you make a Linux syscall in a Windows application? So yeah, you can make Linux syscalls from Windows programs, as long as they’re running under Wine. Totally useless, but the fact that such a Frankenstein monster of a program could exist is funny to me. ↫ nicebyte at gpfault.net The fact that this works is both surprising and unsurprising at the same time.</description>
-      <guid isPermaLink="false">https://www.osnews.com/story/144633/you-can-make-linux-syscalls-in-a-windows-application-apparently/</guid>
-      <pubDate>Thu, 19 Mar 2026 21:10:25 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 04 Apr 2026 06:20:34 +0000</lastBuildDate>
     <item>
       <title>Google to introduce overly onerous hoops to prevent “sideloading”</title>
       <link>https://www.osnews.com/story/144635/google-to-introduce-overly-onerous-hoops-to-prevent-sideloading/</link>
@@ -78,6 +43,76 @@
       <description>Usually, when developers or programmers write articles about their experiences developing for a platform they have little to no experience with, the end result usually comes down to “they do things differently, therefor it is bad actually”, which is deeply unhelpful. This article, though, is from a longtime Windows user and developer, but one who hasn’t had to work on native Windows development for a long time now. When he decided to write his own native Windows application to scratch a personal</description>
       <guid isPermaLink="false">https://www.osnews.com/story/144650/windows-native-application-development-is-a-mess/</guid>
       <pubDate>Mon, 23 Mar 2026 15:13:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>US regulator bans imports of new foreign-made routers, citing security concerns</title>
+      <link>https://www.osnews.com/story/144685/us-regulator-bans-imports-of-new-foreign-made-routers-citing-security-concerns/</link>
+      <description>The U.S. Federal Communications Commission said on Monday it was banning the import of all ​new foreign-made consumer routers, the latest crackdown on Chinese-made electronic gear over ‌security concerns. China is estimated to control at least 60% of the U.S. market for home routers, boxes that connect computers, phones, and smart devices to the internet. ↫ David Shepardson at Reuters I’m sure the American public will be thrilled to find out yet another necessity has drastically increased in pri</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144685/us-regulator-bans-imports-of-new-foreign-made-routers-citing-security-concerns/</guid>
+      <pubDate>Thu, 26 Mar 2026 22:41:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Windows 95 defenses against installers that overwrite a file with an older version</title>
+      <link>https://www.osnews.com/story/144687/windows-95-defenses-against-installers-that-overwrite-a-file-with-an-older-version/</link>
+      <description>I’ll never grow tired of reading about the crazy tricks the Windows 95 development team employed to make the user experience as seamless as they could given the constraints they were dealing with. During the 16bit Windows days, application installers could replace system components with newer versions if such was necessary. Installers were supposed to do a version check, but many of them didn’t follow this guidance. When moving to Windows 95, this meant installers ended up replacing Windows 95 s</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144687/windows-95-defenses-against-installers-that-overwrite-a-file-with-an-older-version/</guid>
+      <pubDate>Thu, 26 Mar 2026 23:01:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft removes trust for drivers signed with the cross-signed driver program</title>
+      <link>https://www.osnews.com/story/144691/microsoft-removes-trust-for-drivers-signed-with-the-cross-signed-driver-program/</link>
+      <description>Today, we’re excited to announce a significant step forward in our ongoing commitment to Windows security and system reliability: the removal of trust for all kernel drivers signed by the deprecated cross-signed root program. This update will help protect our customers by ensuring that only kernel drivers that the Windows Hardware Compatibility Program (WHCP) have passed and been signed can be loaded by default. To raise the bar for platform security, Microsoft will maintain an explicit allow li</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144691/microsoft-removes-trust-for-drivers-signed-with-the-cross-signed-driver-program/</guid>
+      <pubDate>Fri, 27 Mar 2026 19:18:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Will “AI” chatbots be the tobacco of the future?</title>
+      <link>https://www.osnews.com/story/144693/will-ai-chatbots-be-the-tobacco-of-the-future/</link>
+      <description>Towards the end of 2024, Dennis Biesma decided to check out ChatGPT. The Amsterdam-based IT consultant had just ended a contract early. “I had some time, so I thought: let’s have a look at this new technology everyone is talking about,” he says. “Very quickly, I became fascinated.” Biesma has asked himself why he was vulnerable to what came next. He was nearing 50. His adult daughter had left home, his wife went out to work and, in his field, the shift since Covid to working from home had left h</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144693/will-ai-chatbots-be-the-tobacco-of-the-future/</guid>
+      <pubDate>Fri, 27 Mar 2026 19:30:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>Running a Plan 9 network on OpenBSD</title>
+      <link>https://www.osnews.com/story/144695/running-a-plan-9-network-on-openbsd/</link>
+      <description>This guide describes how you can install a Plan 9 network on an OpenBSD machine (it will probably work on any unix machine though). The authentication service (called “authsrv” on Plan 9) is provided by a unix version: authsrv9. The file service is provided by a program called “u9fs”. It comes with Plan 9. Both run from inetd. The (diskless) cpu server is provided by running qemu, booted from only a floppy (so without local storage). Finally, the terminal is provided by the program drawterm. The</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144695/running-a-plan-9-network-on-openbsd/</guid>
+      <pubDate>Fri, 27 Mar 2026 19:40:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>The curious case of retro demo scene graphics</title>
+      <link>https://www.osnews.com/story/144699/the-curious-case-of-retro-demo-scene-graphics/</link>
+      <description>Of course, it was only a matter of time before the time-honoured tradition of the demoscene also got infected by “AI”. For me personally, generative AI ruins much of the fun. I still enjoy creating pixel art and making little animations and demos. My own creative process remains satisfying as an isolated activity. Alas, obvious AI generated imagery – as well as middle-aged men plagiarizing other, sometimes much younger, hobbyist artists – makes me feel disappointed and empty. It’s not as much ab</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144699/the-curious-case-of-retro-demo-scene-graphics/</guid>
+      <pubDate>Mon, 30 Mar 2026 20:35:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Capability-based security for Redox: namespace and CWD as capabilities</title>
+      <link>https://www.osnews.com/story/144701/capability-based-security-for-redox-namespace-and-cwd-as-capabilities/</link>
+      <description>By reimplementing these features using capabilities, we made the kernel simpler by moving complex scheme and namespace management out of it which improved security and stability by reducing the attack surface and possible bugs. At the same time, we gained a means to support more sandboxing features using the CWD file descriptor. This project leads the way for future sandboxing support in Redox OS. As the OS continues to move toward capability-based security, it will be able to provide more moder</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144701/capability-based-security-for-redox-namespace-and-cwd-as-capabilities/</guid>
+      <pubDate>Mon, 30 Mar 2026 21:02:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Copilot is now injecting ads into pull requests on GitHub</title>
+      <link>https://www.osnews.com/story/144703/microsoft-copilot-is-now-injecting-ads-into-pull-requests-on-github/</link>
+      <description>Why do so many people keep falling for the same trick over and over again? With an over $400 billion gap between the money invested in AI data centers and the actual revenue these products generate, Silicon Valley slowly returned to the tested and trusted playbook: advertising. Now, ads are starting to appear in pull requests generated by Copilot. According to Melbourne-based software developer Zach Manson, a team member used the AI to fix a simple typo in a pull request. Copilot did the job, bu</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144703/microsoft-copilot-is-now-injecting-ads-into-pull-requests-on-github/</guid>
+      <pubDate>Mon, 30 Mar 2026 21:14:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to turn anything into a router</title>
+      <link>https://www.osnews.com/story/144706/how-to-turn-anything-into-a-router/</link>
+      <description>I don’t like to cover “current events” very much, but the American government just revealed a truly bewildering policy effectively banning import of new consumer router models. This is ridiculous for many reasons, but if this does indeed come to pass it may be beneficial to learn how to “homebrew” a router. Fortunately, you can make a router out of basically anything resembling a computer. ↫ Noah Bailey I genuinely can’t believe making your own router with Linux or BSD might become a much more w</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144706/how-to-turn-anything-into-a-router/</guid>
+      <pubDate>Wed, 01 Apr 2026 19:43:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Big-endian testing with QEMU</title>
+      <link>https://www.osnews.com/story/144727/big-endian-testing-with-qemu/</link>
+      <description>I assume I don’t have to explain the difference between big-endian and little-endian systems to the average OSNews reader, and while most systems are either dual-endian or (most likely) little-endian, it’s still good practice to make sure your code works on both. If you don’t have a big-endian system, though, how do you do that? When programming, it is still important to write code that runs correctly on systems with either byte order (see for example The byte order fallacy). But without access</description>
+      <guid isPermaLink="false">https://www.osnews.com/story/144727/big-endian-testing-with-qemu/</guid>
+      <pubDate>Fri, 03 Apr 2026 20:05:58 +0000</pubDate>
     </item>
   </channel>
 </rss>

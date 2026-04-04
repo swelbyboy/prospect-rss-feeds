@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>silbo.co.uk - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/silbo-co-uk.xml</link>
+    <description>Latest articles from silbo.co.uk (silbo.co.uk)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/silbo-co-uk.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 04 Apr 2026 06:26:37 +0000</lastBuildDate>
+    <item>
+      <title>Hello world! - Silbo</title>
+      <link>https://www.silbo.co.uk/hello-world/</link>
+      <description>Welcome to WordPress. This is your first post. Edit or delete it, then start writing!</description>
+      <guid isPermaLink="false">https://www.silbo.co.uk/hello-world/</guid>
+      <pubDate>Tue, 30 Aug 2022 06:01:04 +0000</pubDate>
+    </item>
+    <item>
+      <title>Home - Silbo</title>
+      <link>https://www.silbo.co.uk/whats-all-this-fuss-about-lean-innovation-by-justin-souter/</link>
+      <description>Human Centered Design and Design Thinking agency specialising in Lego Serious Play</description>
+      <guid isPermaLink="false">https://www.silbo.co.uk/whats-all-this-fuss-about-lean-innovation-by-justin-souter/</guid>
+      <enclosure url="https://www.silbo.co.uk/wp-content/uploads/2022/08/silbo-big-logo.png" length="0" type="image/png"/>
+      <pubDate>Wed, 31 Aug 2022 06:40:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Post Test Title - Silbo</title>
+      <link>https://www.silbo.co.uk/our-work-test/</link>
+      <description>Post Test Content</description>
+      <guid isPermaLink="false">https://www.silbo.co.uk/our-work-test/</guid>
+      <pubDate>Thu, 01 Sep 2022 11:32:22 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

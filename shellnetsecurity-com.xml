@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>shellnetsecurity.com - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/shellnetsecurity-com.xml</link>
+    <description>Latest articles from shellnetsecurity.com (shellnetsecurity.com)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/shellnetsecurity-com.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 04 Apr 2026 06:17:08 +0000</lastBuildDate>
+    <item>
+      <title>From WordPress to Hugo: Lessons from a Static Site Migration</title>
+      <link>https://blog.shellnetsecurity.com/posts/2025/migrating-to-hugo-journey-static-site-generation/</link>
+      <description>A hands-on account of migrating a technical blog from WordPress to Hugo, including theme selection, content migration challenges, and CI/CD automation lessons learned.</description>
+      <guid isPermaLink="false">https://blog.shellnetsecurity.com/posts/2025/migrating-to-hugo-journey-static-site-generation/</guid>
+      <enclosure url="https://blog.shellnetsecurity.com/cover.webp" length="0" type="image/webp"/>
+      <pubDate>Sat, 08 Nov 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI-Powered Security Automation: Automating Incident Response Workflows</title>
+      <link>https://blog.shellnetsecurity.com/posts/2025/ai-powered-security-automation-incident-response/</link>
+      <description>A technical deep dive into using AI and machine learning for automated incident response, covering threat detection, containment workflows, and remediation automation with practical examples.</description>
+      <guid isPermaLink="false">https://blog.shellnetsecurity.com/posts/2025/ai-powered-security-automation-incident-response/</guid>
+      <enclosure url="https://blog.shellnetsecurity.com/ai-security-automation-cover.webp" length="0" type="image/webp"/>
+      <pubDate>Sat, 22 Nov 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using AI to Analyze Log Files for Security Threats</title>
+      <link>https://blog.shellnetsecurity.com/posts/2025/using-ai-to-analyze-log-files/</link>
+      <description>Learn how to leverage AI and machine learning to analyze security logs, detect anomalies, identify threats, and automate log analysis workflows using Python and open-source tools.</description>
+      <guid isPermaLink="false">https://blog.shellnetsecurity.com/posts/2025/using-ai-to-analyze-log-files/</guid>
+      <enclosure url="https://blog.shellnetsecurity.com/cover.webp" length="0" type="image/webp"/>
+      <pubDate>Sat, 29 Nov 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ethical Considerations in AI Security: Bias, Privacy, and Responsible Use</title>
+      <link>https://blog.shellnetsecurity.com/posts/2025/ethical-considerations-ai-security/</link>
+      <description>Explore the ethical challenges of using AI in cybersecurity, including algorithmic bias, privacy concerns, adversarial use, and frameworks for responsible AI security implementation.</description>
+      <guid isPermaLink="false">https://blog.shellnetsecurity.com/posts/2025/ethical-considerations-ai-security/</guid>
+      <enclosure url="https://blog.shellnetsecurity.com/cover.webp" length="0" type="image/webp"/>
+      <pubDate>Sat, 06 Dec 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advanced Linux Networking Techniques: Namespaces, Routing, and Traffic Control</title>
+      <link>https://blog.shellnetsecurity.com/posts/2025/advanced-linux-networking-techniques/</link>
+      <description>Deep dive into advanced Linux networking including network namespaces, policy-based routing, traffic shaping, VXLANs, and eBPF for network observability and control.</description>
+      <guid isPermaLink="false">https://blog.shellnetsecurity.com/posts/2025/advanced-linux-networking-techniques/</guid>
+      <enclosure url="https://blog.shellnetsecurity.com/cover.webp" length="0" type="image/webp"/>
+      <pubDate>Sat, 13 Dec 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scripting for Security Automation: Python and Bash for SOC Operations</title>
+      <link>https://blog.shellnetsecurity.com/posts/2025/scripting-for-security-automation/</link>
+      <description>Practical guide to security automation scripting with Python and Bash, covering log analysis, vulnerability scanning, incident response automation, and API integration with working examples.</description>
+      <guid isPermaLink="false">https://blog.shellnetsecurity.com/posts/2025/scripting-for-security-automation/</guid>
+      <enclosure url="https://blog.shellnetsecurity.com/cover.webp" length="0" type="image/webp"/>
+      <pubDate>Sat, 20 Dec 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building a Custom Security Tool: Python Port Scanner from Scratch</title>
+      <link>https://blog.shellnetsecurity.com/posts/2025/building-custom-port-scanner-python/</link>
+      <description>Learn to build a production-grade network port scanner in Python from scratch, covering TCP connect scanning, SYN scanning, service detection, multi-threading, and ethical considerations.</description>
+      <guid isPermaLink="false">https://blog.shellnetsecurity.com/posts/2025/building-custom-port-scanner-python/</guid>
+      <enclosure url="https://blog.shellnetsecurity.com/cover.webp" length="0" type="image/webp"/>
+      <pubDate>Sat, 27 Dec 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Evolving Role of the Technical Professional in an AI World</title>
+      <link>https://blog.shellnetsecurity.com/posts/2026/evolving-role-technical-professional-ai-world/</link>
+      <description>AI is changing technical work. Not replacing it. Here's an honest look at what's shifting, what stays human, and how to position yourself for the next five years.</description>
+      <guid isPermaLink="false">https://blog.shellnetsecurity.com/posts/2026/evolving-role-technical-professional-ai-world/</guid>
+      <enclosure url="https://blog.shellnetsecurity.com/evolving-role-cover.webp" length="0" type="image/webp"/>
+      <pubDate>Fri, 13 Mar 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kubernetes Secrets Management: Beyond the Basics</title>
+      <link>https://blog.shellnetsecurity.com/posts/2026/kubernetes-secrets-management/</link>
+      <description>Kubernetes Secrets aren't actually secret by default. Here's a practical guide to real secrets management: from etcd encryption to External Secrets Operator and Sealed Secrets.</description>
+      <guid isPermaLink="false">https://blog.shellnetsecurity.com/posts/2026/kubernetes-secrets-management/</guid>
+      <enclosure url="https://blog.shellnetsecurity.com/kubernetes-secrets-cover.webp" length="0" type="image/webp"/>
+      <pubDate>Fri, 20 Mar 2026 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automating Your Dev Workflow: Scripts That Actually Save Time</title>
+      <link>https://blog.shellnetsecurity.com/posts/2026/automating-your-dev-workflow/</link>
+      <description>Not productivity theater — real scripts I run daily, with before/after time savings, what failed, and exactly why each one earned its place in my toolkit.</description>
+      <guid isPermaLink="false">https://blog.shellnetsecurity.com/posts/2026/automating-your-dev-workflow/</guid>
+      <enclosure url="https://blog.shellnetsecurity.com/dev-workflow-automation-cover.webp" length="0" type="image/webp"/>
+      <pubDate>Fri, 27 Mar 2026 14:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
