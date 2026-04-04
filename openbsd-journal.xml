@@ -8,7 +8,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Mar 2026 18:11:17 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 04 Apr 2026 06:32:04 +0000</lastBuildDate>
     <item>
       <title>Another subprocess for vmd(8)</title>
       <link>https://undeadly.org/cgi?action=article;sid=20260226110600</link>
@@ -71,6 +71,13 @@
       <description>David Leadbeater (dgl@) posted to ports@ a message, entitled Pledge changes in 7.9-beta, which explains the consequences for porters of the recent pledge(2)/unveil(2) changes in -current (and, to some extent, 7.8). Whilst targeted at porters, it provides a good overview for anyone interested in the changes. The message reads: Read more…</description>
       <guid isPermaLink="false">https://undeadly.org/cgi?action=article;sid=20260320085305</guid>
       <pubDate>Fri, 20 Mar 2026 08:53:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>The story of OpenBSD on Motorola 88000 series processors</title>
+      <link>https://undeadly.org/cgi?action=article;sid=20260325122415</link>
+      <description>Regular readers will be aware that Miod Vallat (miod@) is documenting the adventures of porting OpenBSD to various architectures in his OpenBSD Stories collection. The latest addition is OpenBSD on Motorola 88000 processors, where the first two of a planned total of nine chapters have been published. The first chapter, The Forsaken RISC Architecture, takes us through some background and pre-history of the architecture. The second chapter, A New Hope, gives insight into the early porting efforts.</description>
+      <guid isPermaLink="false">https://undeadly.org/cgi?action=article;sid=20260325122415</guid>
+      <pubDate>Wed, 25 Mar 2026 12:24:15 +0000</pubDate>
     </item>
   </channel>
 </rss>

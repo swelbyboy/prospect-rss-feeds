@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>labsmac.es - Article Feed</title>
+    <link>https://swelbyboy.github.io/prospect-rss-feeds/labsmac-es.xml</link>
+    <description>Latest articles from labsmac.es (labsmac.es)</description>
+    <atom:link href="https://swelbyboy.github.io/prospect-rss-feeds/labsmac-es.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>Prospect Scraping Service</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 04 Apr 2026 06:37:13 +0000</lastBuildDate>
+    <item>
+      <title>Solucionar problemas de sincronización con Synology Drive</title>
+      <link>https://www.labsmac.es/problema-de-sincronizacion-con-synology-drive/</link>
+      <description>Cómo solucionar problemas de sincronización con Synology Drive cuando no se puede eliminar, crear, renombrar carpeas o archivos.</description>
+      <guid isPermaLink="false">https://www.labsmac.es/problema-de-sincronizacion-con-synology-drive/</guid>
+      <enclosure url="https://www.labsmac.es/wp-content/uploads/2026/01/problema-sincronizacion-synology-drive.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sun, 04 Jan 2026 20:13:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Copia de seguridad de Synology a QNAP con RSYNC</title>
+      <link>https://www.labsmac.es/copia-de-seguridad-de-synology-a-qnap-con-rsync/</link>
+      <description>Cómo configurar una copia de seguridad de Synology a QNAP usando el protocolo RSYNC, tanto con el puerto 873 como usando SSH.</description>
+      <guid isPermaLink="false">https://www.labsmac.es/copia-de-seguridad-de-synology-a-qnap-con-rsync/</guid>
+      <enclosure url="https://www.labsmac.es/wp-content/uploads/2026/01/copia-seguridad-synology-qnap-rsync.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 20 Jan 2026 20:17:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Actualizar a Veeam Backup &amp;amp; Replication 13</title>
+      <link>https://www.labsmac.es/actualizar-a-veeam-backup-replication-13/</link>
+      <description>Guía paso a paso para descargar y actualizar a Veeam Backup &amp;amp; Replication 13 desde versiones anteriores, revisando requisitos y advertencias.</description>
+      <guid isPermaLink="false">https://www.labsmac.es/actualizar-a-veeam-backup-replication-13/</guid>
+      <enclosure url="https://www.labsmac.es/wp-content/uploads/2026/01/actualizar-veeam-backup-replication.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 31 Jan 2026 10:06:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Restauración Bare Metal de Windows con Veeam Backup</title>
+      <link>https://www.labsmac.es/restauracion-bare-metal-de-windows-con-veeam-backup/</link>
+      <description>Cómo realizar una restauración Bare Metal de Windows con Veeam Backup. Recupera servidores físicos tras fallos de disco duro o ramsonware...</description>
+      <guid isPermaLink="false">https://www.labsmac.es/restauracion-bare-metal-de-windows-con-veeam-backup/</guid>
+      <enclosure url="https://www.labsmac.es/wp-content/uploads/2026/02/restauracion-bare-metal-veeam-backup.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Sat, 28 Feb 2026 20:14:30 +0000</pubDate>
+    </item>
+    <item>
+      <title>Restaurar objetos de Active Directory con Veeam Backup &amp;amp; replication</title>
+      <link>https://www.labsmac.es/restaurar-objetos-de-active-directory-veeam-backup-replication/</link>
+      <description>Cómo realizar una copia de seguridad y restauración de Active Directory con Veeam Backup &amp;amp; Replication: usuarios, grupos, OU y más.</description>
+      <guid isPermaLink="false">https://www.labsmac.es/restaurar-objetos-de-active-directory-veeam-backup-replication/</guid>
+      <enclosure url="https://www.labsmac.es/wp-content/uploads/2026/03/restaurar-objetos-veeam-backup.jpg" length="0" type="image/jpeg"/>
+      <pubDate>Tue, 31 Mar 2026 19:24:23 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
