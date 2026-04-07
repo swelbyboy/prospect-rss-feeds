@@ -125,7 +125,7 @@ push_to_ghpages() {
 }
 
 # ── Run scraper in background ────────────────────────────────────────────────
-PROSPECTS_CSV=/tmp/prospects_update.csv PARALLEL_WORKERS=20 SKIP_OG_DATA=true \
+PROSPECTS_CSV=/tmp/prospects_update.csv PARALLEL_WORKERS=5 SKIP_OG_DATA=true \
     python3 scripts/scraper.py >> "$LOG_FILE" 2>&1 &
 SCRAPER_PID=$!
 echo "Scraper started (PID $SCRAPER_PID)" | tee -a "$LOG_FILE"
