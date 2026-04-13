@@ -475,52 +475,55 @@ class ProspectScraper:
         start_time = time.time()
         completed_count = 0
         
-        # Process prospects in parallel
+        # Process prospects in parallel using batches to reduce peak memory
+        BATCH_SIZE = 200
         with ThreadPoolExecutor(max_workers=num_workers) as executor:
-            # Submit all tasks
-            future_to_prospect = {
-                executor.submit(
-                    self.process_prospect_parallel, 
-                    prospect, 
-                    i, 
-                    total_prospects, 
-                    print_lock
-                ): prospect
-                for i, prospect in enumerate(prospects, 1)
-            }
-            
-            # Process completed tasks
-            for future in as_completed(future_to_prospect):
+            for batch_start in range(0, total_prospects, BATCH_SIZE):
                 if should_exit:
-                    print("\n⚠️  Shutting down gracefully...")
-                    executor.shutdown(wait=False)
                     break
-                    
-                try:
-                    tracking_entry = future.result()
-                    if tracking_entry:
-                        with data_lock:
-                            self.tracking_data.append(tracking_entry)
-                            completed_count += 1
-                        
-                        # Progress update every 50 prospects
-                        if completed_count % 50 == 0:
-                            elapsed = time.time() - start_time
-                            rate = completed_count / elapsed if elapsed > 0 else 0
-                            successful = sum(1 for e in self.tracking_data if e['status'] == 'success')
-                            with print_lock:
-                                print(f"\n   📊 Progress: {completed_count}/{total_prospects} | ✅ {successful} successful | ⚡ {rate:.1f}/sec\n")
+                batch = prospects[batch_start:batch_start + BATCH_SIZE]
+                future_to_prospect = {
+                    executor.submit(
+                        self.process_prospect_parallel,
+                        prospect,
+                        batch_start + j + 1,
+                        total_prospects,
+                        print_lock
+                    ): prospect
+                    for j, prospect in enumerate(batch)
+                }
 
-                        # Periodic checkpoint save every 500 prospects
-                        if completed_count % 500 == 0:
+                for future in as_completed(future_to_prospect):
+                    if should_exit:
+                        print("Shutting down gracefully...")
+                        executor.shutdown(wait=False)
+                        break
+
+                    try:
+                        tracking_entry = future.result()
+                        if tracking_entry:
                             with data_lock:
-                                self.save_tracking()
-                            with print_lock:
-                                print(f"   💾 Checkpoint: saved tracking at {completed_count}/{total_prospects}")
-                                
-                except Exception as e:
-                    with print_lock:
-                        print(f"   ❌ Error: {e}")
+                                self.tracking_data.append(tracking_entry)
+                                completed_count += 1
+
+                            # Progress update every 50 prospects
+                            if completed_count % 50 == 0:
+                                elapsed = time.time() - start_time
+                                rate = completed_count / elapsed if elapsed > 0 else 0
+                                successful = sum(1 for e in self.tracking_data if e['status'] == 'success')
+                                with print_lock:
+                                    print(f"   Progress: {completed_count}/{total_prospects} | {successful} successful | {rate:.1f}/sec")
+
+                            # Periodic checkpoint save every 25 prospects
+                            if completed_count % 25 == 0:
+                                with data_lock:
+                                    self.save_tracking()
+                                with print_lock:
+                                    print(f"   Checkpoint: saved tracking at {completed_count}/{total_prospects}")
+
+                    except Exception as e:
+                        with print_lock:
+                            print(f"   Error processing prospect: {e}")
 
         elapsed_time = time.time() - start_time
         
