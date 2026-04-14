@@ -156,7 +156,7 @@ while true; do
     echo "$BATCH_ROWS" >> /tmp/prospects_batch.csv
 
     # Run scraper as a fresh subprocess (exits cleanly, frees memory)
-    PROSPECTS_CSV=/tmp/prospects_batch.csv PARALLEL_WORKERS=5 SKIP_OG_DATA=true \
+    PROSPECTS_CSV=/tmp/prospects_batch.csv PARALLEL_WORKERS=1 SKIP_OG_DATA=true \
         python3 scripts/scraper.py >> "$LOG_FILE" 2>&1
 
     TOTAL_PROCESSED=$(( TOTAL_PROCESSED + BATCH_COUNT ))
