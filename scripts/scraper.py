@@ -12,6 +12,7 @@ import time
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
+import ctypes
 import gc
 import signal
 from config import Config
@@ -21,6 +22,12 @@ from rss_transformer import RSSTransformer
 
 # Global for graceful shutdown
 should_exit = False
+
+# For releasing memory back to OS after gc.collect()
+try:
+    _libc = ctypes.CDLL("libc.so.6")
+except Exception:
+    _libc = None
 
 def signal_handler(sig, frame):
     """Handle Ctrl+C gracefully."""
@@ -440,6 +447,8 @@ class ProspectScraper:
                 print(f"   ❌ {company_name}: {tracking_entry['error_message']}")
         
         gc.collect()
+        if _libc:
+            _libc.malloc_trim(0)
         return tracking_entry
 
     def run(self):
