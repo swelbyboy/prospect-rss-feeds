@@ -37,30 +37,45 @@ class RSSTransformer:
         Returns:
             tuple: (success: bool, articles: list, error_message: str)
         """
+        import gc
         try:
             print(f"   📡 Fetching RSS feed: {feed_url}")
             response = self.session.get(feed_url, timeout=10, allow_redirects=True)
 
             if response.status_code != 200:
+                response.close()
                 return False, [], f"HTTP {response.status_code}"
 
-            # Parse feed
-            feed = feedparser.parse(response.content)
+            # Extract content and immediately free the response object
+            content = response.content
+            response.close()
+            del response
+
+            # Parse feed then free the raw content
+            feed = feedparser.parse(content)
+            del content
 
             if not hasattr(feed, 'entries') or len(feed.entries) == 0:
+                del feed
+                gc.collect()
                 return False, [], "No entries found in feed"
 
-            # Extract and normalize articles
+            # Extract and normalize articles (copy only what we need)
             articles = []
             for entry in feed.entries[:max_articles]:
                 article = self._normalize_entry(entry, feed_url)
                 if article:
                     articles.append(article)
 
-            print(f"   ✅ Fetched {len(articles)} articles from RSS feed")
+            entry_count = len(articles)
+            del feed
+            gc.collect()
+
+            print(f"   ✅ Fetched {entry_count} articles from RSS feed")
             return True, articles, None
 
         except Exception as e:
+            gc.collect()
             return False, [], f"Error fetching feed: {str(e)}"
 
     def _normalize_entry(self, entry, feed_url):

@@ -12,6 +12,7 @@ import time
 from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
+import gc
 import signal
 from config import Config
 from rss_generator import RSSFeedGenerator
@@ -438,6 +439,7 @@ class ProspectScraper:
             else:
                 print(f"   ❌ {company_name}: {tracking_entry['error_message']}")
         
+        gc.collect()
         return tracking_entry
 
     def run(self):
