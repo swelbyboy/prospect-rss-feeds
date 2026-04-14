@@ -4,6 +4,8 @@ REPO_DIR="/root/prospect-rss-feeds"
 LOG_FILE="/root/logs/rss_update.log"
 LOCK_FILE="/tmp/rss_update.lock"
 MAX_DAILY_PROSPECTS="${MAX_DAILY_PROSPECTS:-12000}"
+BATCH_SIZE="${BATCH_SIZE:-50}"       # prospects per scraper subprocess
+MAX_RUNTIME="${MAX_RUNTIME:-1680}"   # 28 min max total runtime
 
 mkdir -p /root/logs
 
@@ -34,7 +36,6 @@ git pull --rebase origin main >> "$LOG_FILE" 2>&1 || echo "WARNING: git pull fai
 source venv/bin/activate
 
 # Build prospects_update.csv sorted by staleness (oldest last_scrape_date first)
-# This ensures the most out-of-date feeds are always refreshed first
 python3 -c "
 import csv, sys, os
 from datetime import datetime
@@ -44,7 +45,6 @@ from config import Config
 epoch = datetime(1970, 1, 1)
 max_daily = int(os.environ.get('MAX_DAILY_PROSPECTS', '5000'))
 
-# Load last scrape dates from tracking.csv
 last_scraped = {}
 try:
     with open(Config.TRACKING_CSV) as f:
@@ -59,14 +59,12 @@ try:
 except FileNotFoundError:
     pass
 
-# Load original RSS URLs
 orig = {}
 with open(Config.DISCOVERY_RESULTS_CSV) as f:
     for row in csv.DictReader(f):
         if row.get('feed_url', '').strip():
             orig[row['domain']] = row['feed_url']
 
-# Build prospect rows with original RSS URLs
 rows = []
 with open(Config.PROSPECTS_CSV) as f:
     reader = csv.DictReader(f)
@@ -76,7 +74,6 @@ with open(Config.PROSPECTS_CSV) as f:
             row['rss_feed'] = orig[row['domain']]
             rows.append(row)
 
-# Sort by staleness: never-scraped first, then oldest scrape date
 rows.sort(key=lambda r: last_scraped.get(r.get('domain', ''), epoch))
 rows = rows[:max_daily]
 
@@ -124,22 +121,51 @@ push_to_ghpages() {
     git worktree remove --force gh-pages-dir 2>/dev/null || true
 }
 
-# ── Run scraper in background ────────────────────────────────────────────────
-PROSPECTS_CSV=/tmp/prospects_update.csv PARALLEL_WORKERS=5 SKIP_OG_DATA=true \
-    python3 scripts/scraper.py >> "$LOG_FILE" 2>&1 &
-SCRAPER_PID=$!
-echo "Scraper started (PID $SCRAPER_PID)" | tee -a "$LOG_FILE"
+# ── Run scraper in batches (short-lived subprocesses to avoid OOM) ───────────
+TOTAL_PROSPECTS=$(( $(wc -l < /tmp/prospects_update.csv) - 1 ))
+echo "Running $TOTAL_PROSPECTS prospects in batches of $BATCH_SIZE" | tee -a "$LOG_FILE"
 
-# Push every 30 minutes while scraper is running
-while kill -0 "$SCRAPER_PID" 2>/dev/null; do
-    sleep 1800
-    if kill -0 "$SCRAPER_PID" 2>/dev/null; then
-        echo "--- Incremental push at $(date -u) ---" | tee -a "$LOG_FILE"
-        push_to_ghpages
+# Save header line
+head -1 /tmp/prospects_update.csv > /tmp/batch_header.csv
+
+START_TIME=$(date +%s)
+OFFSET=1          # line offset into the data (1 = first data line after header)
+BATCH_NUM=0
+TOTAL_PROCESSED=0
+
+while true; do
+    ELAPSED=$(( $(date +%s) - START_TIME ))
+    if [ "$ELAPSED" -ge "$MAX_RUNTIME" ]; then
+        echo "Time limit reached (${ELAPSED}s), stopping after $BATCH_NUM batches ($TOTAL_PROCESSED prospects)" | tee -a "$LOG_FILE"
+        break
     fi
+
+    # Extract next batch of BATCH_SIZE data rows
+    BATCH_ROWS=$(tail -n "+$(( OFFSET + 1 ))" /tmp/prospects_update.csv | head -"$BATCH_SIZE")
+    if [ -z "$BATCH_ROWS" ]; then
+        echo "All prospects exhausted after $BATCH_NUM batches" | tee -a "$LOG_FILE"
+        break
+    fi
+
+    BATCH_NUM=$(( BATCH_NUM + 1 ))
+    BATCH_COUNT=$(echo "$BATCH_ROWS" | wc -l)
+    echo "--- Batch $BATCH_NUM ($BATCH_COUNT prospects, offset $OFFSET) at $(date -u) ---" | tee -a "$LOG_FILE"
+
+    # Write batch CSV (header + data rows)
+    cat /tmp/batch_header.csv > /tmp/prospects_batch.csv
+    echo "$BATCH_ROWS" >> /tmp/prospects_batch.csv
+
+    # Run scraper as a fresh subprocess (exits cleanly, frees memory)
+    PROSPECTS_CSV=/tmp/prospects_batch.csv PARALLEL_WORKERS=5 SKIP_OG_DATA=true \
+        python3 scripts/scraper.py >> "$LOG_FILE" 2>&1
+
+    TOTAL_PROCESSED=$(( TOTAL_PROCESSED + BATCH_COUNT ))
+    OFFSET=$(( OFFSET + BATCH_SIZE ))
+
+    echo "Batch $BATCH_NUM done. Total processed: $TOTAL_PROCESSED" | tee -a "$LOG_FILE"
 done
-wait "$SCRAPER_PID"
-echo "Scraper finished at $(date -u)" | tee -a "$LOG_FILE"
+
+echo "Scraper batches finished at $(date -u)" | tee -a "$LOG_FILE"
 
 # ── Commit tracking data to main ─────────────────────────────────────────────
 git add prospects/tracking.csv prospects/prospects.csv index.html 2>/dev/null || true
