@@ -9,7 +9,7 @@ import os
 import sys
 sys.path.insert(0, os.path.dirname(__file__))
 from config import Config
-from datetime import datetime
+from datetime import datetime, timezone
 
 BASE_URL = 'https://swelbyboy.github.io/prospect-rss-feeds'
 
@@ -57,11 +57,20 @@ for xml_file in sorted(xml_files):
         continue
     seen_urls.add(feed_url)
     company_name = xml_file.replace('.xml', '').replace('-', ' ').title()
+    # Use file mtime as fallback scrape date
+    xml_path = os.path.join(Config.FEEDS_DIR, xml_file)
+    if not os.path.exists(xml_path):
+        xml_path = os.path.join(Config.PROJECT_ROOT, xml_file)
+    try:
+        mtime = os.path.getmtime(xml_path)
+        date_str = datetime.fromtimestamp(mtime, tz=timezone.utc).strftime('%Y-%m-%d %H:%M:%S')
+    except Exception:
+        date_str = '-'
     feed_entries.append({
         'name': company_name,
         'url': feed_url,
         'status': 'success',
-        'date': '-',
+        'date': date_str,
         'domain': '-',
     })
 
