@@ -5,11 +5,13 @@ Main RSS feed transformer orchestrator.
 Transforms original RSS feeds to GitHub Pages feeds for prospects.
 """
 
+import asyncio
+import aiohttp
 import csv
 import os
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timezone
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from threading import Lock
 import ctypes
@@ -53,6 +55,7 @@ class ProspectScraper:
         self.github_publisher = GitHubPublisher()
         self.rss_transformer = RSSTransformer()
         self.tracking_data = []
+        self.completed_count = 0
 
     def load_prospects(self):
         """
@@ -451,127 +454,78 @@ class ProspectScraper:
             _libc.malloc_trim(0)
         return tracking_entry
 
-    def run(self):
-        """Execute the complete RSS feed transformation workflow with parallel processing."""
-        global should_exit
-        
-        print("🚀 Starting RSS Feed Transformer (Parallel Mode)")
-        print("="*60)
-
-        # Load prospects
-        prospects = self.load_prospects()
-
-        if not prospects:
-            print("❌ No prospects to process")
-            sys.exit(1)
-
-        # Configuration
-        max_prospects = int(os.getenv('MAX_PROSPECTS', '0'))  # 0 = no limit
-        num_workers = int(os.getenv('PARALLEL_WORKERS', '10'))  # Default 10 parallel workers
-        
-        # Apply max_prospects limit if set
-        if max_prospects > 0 and len(prospects) > max_prospects:
-            print(f"⚠️  Limiting to {max_prospects} prospects (loaded {len(prospects)})")
-            prospects = prospects[:max_prospects]
-        
-        total_prospects = len(prospects)
-        print(f"📊 Processing {total_prospects} prospect(s) with {num_workers} parallel workers")
-        print(f"⚡ No delays needed - RSS feeds are lightweight!\n")
-        
-        # Thread-safe locks
-        print_lock = Lock()
-        data_lock = Lock()
-        
-        # Track progress
-        start_time = time.time()
-        completed_count = 0
-        
-        # Process prospects in parallel using batches to reduce peak memory
-        BATCH_SIZE = 200
-        with ThreadPoolExecutor(max_workers=num_workers) as executor:
-            for batch_start in range(0, total_prospects, BATCH_SIZE):
-                if should_exit:
-                    break
-                batch = prospects[batch_start:batch_start + BATCH_SIZE]
-                future_to_prospect = {
-                    executor.submit(
-                        self.process_prospect_parallel,
-                        prospect,
-                        batch_start + j + 1,
-                        total_prospects,
-                        print_lock
-                    ): prospect
-                    for j, prospect in enumerate(batch)
-                }
-
-                for future in as_completed(future_to_prospect):
-                    if should_exit:
-                        print("Shutting down gracefully...")
-                        executor.shutdown(wait=False)
-                        break
-
-                    try:
-                        tracking_entry = future.result()
-                        if tracking_entry:
-                            with data_lock:
-                                self.tracking_data.append(tracking_entry)
-                                completed_count += 1
-
-                            # Progress update every 50 prospects
-                            if completed_count % 50 == 0:
-                                elapsed = time.time() - start_time
-                                rate = completed_count / elapsed if elapsed > 0 else 0
-                                successful = sum(1 for e in self.tracking_data if e['status'] == 'success')
-                                with print_lock:
-                                    print(f"   Progress: {completed_count}/{total_prospects} | {successful} successful | {rate:.1f}/sec")
-
-                            # Periodic checkpoint save every 25 prospects
-                            if completed_count % 25 == 0:
-                                with data_lock:
-                                    self.save_tracking()
-                                with print_lock:
-                                    print(f"   Checkpoint: saved tracking at {completed_count}/{total_prospects}")
-
-                    except Exception as e:
-                        with print_lock:
-                            print(f"   Error processing prospect: {e}")
-
-        elapsed_time = time.time() - start_time
-        
-        # Save tracking data
-        self.save_tracking()
-        
-        # Update the original prospects CSV with GitHub Pages URLs
-        self.update_prospect_csv()
-
-        # Print summary
-        self.print_summary()
-        
-        print(f"\n⏱️  Total time: {elapsed_time/60:.1f} minutes ({elapsed_time:.0f} seconds)")
-        if elapsed_time > 0:
-            print(f"⚡ Rate: {len(self.tracking_data)/elapsed_time:.1f} prospects/second")
-
-        # Publish to GitHub Pages (skip if running in CI)
-        is_ci = os.getenv('GITHUB_CI') == 'true'
-        successful_transforms = sum(1 for entry in self.tracking_data if entry['status'] == 'success')
-
-        if is_ci:
-            print("\n✅ Running in GitHub Actions - feeds will be committed by workflow")
-        elif successful_transforms > 0:
-            print("\n📤 Publishing RSS feeds to GitHub Pages...")
+    async def process_prospect_async(self, prospect, index, total, semaphore, session):
+        async with semaphore:
+            feed_url = prospect.get('rss_feed', '')
+            tracking_entry = {
+                'prospect_id': prospect.get('id', ''),
+                'company_name': prospect.get('company_name', ''),
+                'domain': prospect.get('domain', ''),
+                'last_scrape_date': datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M:%S'),
+                'status': 'failed',
+                'articles_found': 0,
+                'rss_url': '',
+                'error_message': '',
+            }
             try:
-                success = self.github_publisher.publish_feeds()
-                if success:
-                    print("✅ All feeds published successfully!")
+                success, articles, error = await self.rss_transformer.async_fetch_and_normalize(
+                    session, feed_url, max_articles=Config.MAX_ARTICLES_PER_PROSPECT
+                )
+                if success and articles:
+                    # create_feed reads/writes local XML files — run in thread
+                    feed_path = await asyncio.to_thread(
+                        self.rss_generator.create_feed, prospect, articles
+                    )
+                    tracking_entry['status'] = 'success'
+                    tracking_entry['articles_found'] = len(articles)
+                    tracking_entry['rss_url'] = self.rss_generator.get_feed_url(prospect)
                 else:
-                    print("⚠️  Some feeds may not have been published. Check the output above.")
+                    tracking_entry['error_message'] = error or 'No articles'
             except Exception as e:
-                print(f"❌ Error publishing feeds: {e}")
-                print("\n💡 You can manually publish feeds from the 'feeds/' directory")
-        else:
-            print("\n⚠️  No successful transformations to publish")
+                tracking_entry['error_message'] = str(e)
 
-        print("\n✨ RSS feed transformation workflow completed!")
+            self.tracking_data.append(tracking_entry)
+            self.completed_count += 1
+
+            if self.completed_count % 25 == 0:
+                await asyncio.to_thread(self.save_tracking)
+
+            if self.completed_count % 50 == 0 or self.completed_count == total:
+                print(f"Progress: {self.completed_count}/{total}")
+
+            return tracking_entry
+
+    async def run_async(self):
+        prospects = self.load_prospects()
+        if not prospects:
+            print("No prospects to process.")
+            return
+
+        total = len(prospects)
+        concurrency = int(os.getenv('PARALLEL_WORKERS', '50'))
+        print(f"Processing {total} prospects with concurrency={concurrency}")
+
+        semaphore = asyncio.Semaphore(concurrency)
+        connector = aiohttp.TCPConnector(limit=concurrency + 10, ttl_dns_cache=300)
+        timeout = aiohttp.ClientTimeout(total=15, connect=5)
+        headers = {'User-Agent': 'Mozilla/5.0 (compatible; RSSTransformer/1.0)'}
+
+        async with aiohttp.ClientSession(
+            connector=connector, timeout=timeout, headers=headers
+        ) as session:
+            tasks = [
+                self.process_prospect_async(p, i + 1, total, semaphore, session)
+                for i, p in enumerate(prospects)
+            ]
+            await asyncio.gather(*tasks, return_exceptions=True)
+
+        self.save_tracking()
+        self.update_prospect_csv()
+        self.print_summary()
+
+    def run(self):
+        """Execute the complete RSS feed transformation workflow."""
+        asyncio.run(self.run_async())
 
 
 def main():

@@ -4,7 +4,6 @@ REPO_DIR="/root/prospect-rss-feeds"
 LOG_FILE="/root/logs/rss_update.log"
 LOCK_FILE="/tmp/rss_update.lock"
 MAX_DAILY_PROSPECTS="${MAX_DAILY_PROSPECTS:-12000}"
-BATCH_SIZE="${BATCH_SIZE:-50}"       # prospects per scraper subprocess
 MAX_RUNTIME="${MAX_RUNTIME:-1680}"   # 28 min max total runtime
 
 mkdir -p /root/logs
@@ -34,6 +33,9 @@ git pull --rebase origin main >> "$LOG_FILE" 2>&1 || echo "WARNING: git pull fai
 
 # Activate venv
 source venv/bin/activate
+
+# Ensure aiohttp is installed (required for async scraper)
+pip install -q aiohttp >> "$LOG_FILE" 2>&1 || true
 
 # Build prospects_update.csv sorted by staleness (oldest last_scrape_date first)
 python3 -c "
@@ -121,51 +123,14 @@ push_to_ghpages() {
     git worktree remove --force gh-pages-dir 2>/dev/null || true
 }
 
-# ── Run scraper in batches (short-lived subprocesses to avoid OOM) ───────────
+# ── Run scraper (async, single process) ──────────────────────────────────────
 TOTAL_PROSPECTS=$(( $(wc -l < /tmp/prospects_update.csv) - 1 ))
-echo "Running $TOTAL_PROSPECTS prospects in batches of $BATCH_SIZE" | tee -a "$LOG_FILE"
-
-# Save header line
-head -1 /tmp/prospects_update.csv > /tmp/batch_header.csv
-
-START_TIME=$(date +%s)
-OFFSET=1          # line offset into the data (1 = first data line after header)
-BATCH_NUM=0
-TOTAL_PROCESSED=0
-
-while true; do
-    ELAPSED=$(( $(date +%s) - START_TIME ))
-    if [ "$ELAPSED" -ge "$MAX_RUNTIME" ]; then
-        echo "Time limit reached (${ELAPSED}s), stopping after $BATCH_NUM batches ($TOTAL_PROCESSED prospects)" | tee -a "$LOG_FILE"
-        break
-    fi
-
-    # Extract next batch of BATCH_SIZE data rows
-    BATCH_ROWS=$(tail -n "+$(( OFFSET + 1 ))" /tmp/prospects_update.csv | head -"$BATCH_SIZE")
-    if [ -z "$BATCH_ROWS" ]; then
-        echo "All prospects exhausted after $BATCH_NUM batches" | tee -a "$LOG_FILE"
-        break
-    fi
-
-    BATCH_NUM=$(( BATCH_NUM + 1 ))
-    BATCH_COUNT=$(echo "$BATCH_ROWS" | wc -l)
-    echo "--- Batch $BATCH_NUM ($BATCH_COUNT prospects, offset $OFFSET) at $(date -u) ---" | tee -a "$LOG_FILE"
-
-    # Write batch CSV (header + data rows)
-    cat /tmp/batch_header.csv > /tmp/prospects_batch.csv
-    echo "$BATCH_ROWS" >> /tmp/prospects_batch.csv
-
-    # Run scraper as a fresh subprocess (exits cleanly, frees memory)
-    PROSPECTS_CSV=/tmp/prospects_batch.csv PARALLEL_WORKERS=1 SKIP_OG_DATA=true \
-        python3 scripts/scraper.py >> "$LOG_FILE" 2>&1
-
-    TOTAL_PROCESSED=$(( TOTAL_PROCESSED + BATCH_COUNT ))
-    OFFSET=$(( OFFSET + BATCH_SIZE ))
-
-    echo "Batch $BATCH_NUM done. Total processed: $TOTAL_PROCESSED" | tee -a "$LOG_FILE"
-done
-
-echo "Scraper batches finished at $(date -u)" | tee -a "$LOG_FILE"
+echo "Running $TOTAL_PROSPECTS prospects (async, PARALLEL_WORKERS=50)" | tee -a "$LOG_FILE"
+timeout "$MAX_RUNTIME" \
+    env PROSPECTS_CSV=/tmp/prospects_update.csv PARALLEL_WORKERS=50 SKIP_OG_DATA=true \
+    python3 scripts/scraper.py >> "$LOG_FILE" 2>&1 || \
+    echo "Scraper exited (timeout or error)" | tee -a "$LOG_FILE"
+echo "Scraper finished at $(date -u)" | tee -a "$LOG_FILE"
 
 # ── Commit tracking data to main ─────────────────────────────────────────────
 git add prospects/tracking.csv prospects/prospects.csv index.html 2>/dev/null || true

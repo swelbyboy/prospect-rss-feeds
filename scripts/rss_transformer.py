@@ -6,6 +6,7 @@ Fetches RSS feeds from prospects and normalizes them into our standard format.
 Includes deduplication logic to handle same article in multiple languages.
 """
 
+import asyncio
 import feedparser
 import requests
 import hashlib
@@ -444,6 +445,41 @@ class RSSTransformer:
             print(f"   ♻️  Removed {removed_count} duplicate article(s)")
 
         return unique_articles
+
+    async def async_fetch_feed(self, session, feed_url, max_articles=10):
+        """Async version of fetch_feed using shared aiohttp session."""
+        import gc
+        try:
+            async with session.get(feed_url) as response:
+                if response.status != 200:
+                    return False, [], f"HTTP {response.status}"
+                content = await response.read()
+
+            # feedparser is sync/CPU-bound — run in thread executor
+            feed = await asyncio.to_thread(feedparser.parse, content)
+            del content
+
+            if not hasattr(feed, 'entries') or not feed.entries:
+                return False, [], "No entries found in feed"
+
+            articles = []
+            for entry in feed.entries[:max_articles]:
+                article = self._normalize_entry(entry, feed_url)
+                if article:
+                    articles.append(article)
+            del feed
+            return True, articles, None
+        except Exception as e:
+            return False, [], f"Error fetching feed: {str(e)}"
+
+    async def async_fetch_and_normalize(self, session, feed_url, max_articles=10, keep_language='en'):
+        """Async version of fetch_and_normalize."""
+        success, articles, error = await self.async_fetch_feed(session, feed_url, max_articles)
+        if not success:
+            return False, [], error
+        articles = self.filter_by_language(articles, keep_language)
+        articles = self.deduplicate_articles(articles, keep_language)
+        return True, articles, None
 
     def fetch_and_normalize(self, feed_url, max_articles=10, keep_language='en'):
         """
