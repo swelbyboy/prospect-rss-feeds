@@ -103,6 +103,8 @@ push_to_ghpages() {
         git worktree add --orphan -b gh-pages gh-pages-dir >> "$LOG_FILE" 2>&1
     fi
 
+    # Remove stale XMLs before copying so deletions are reflected on gh-pages
+    rm -f gh-pages-dir/*.xml
     cp feeds/*.xml gh-pages-dir/
     cp index.html gh-pages-dir/
     touch gh-pages-dir/.nojekyll
@@ -110,7 +112,7 @@ push_to_ghpages() {
     cd gh-pages-dir
     git config user.name "VPS Bot"
     git config user.email "actions@github.com"
-    git add -f '*.xml' index.html .nojekyll
+    git add -A
     if git diff --staged --quiet; then
         echo "No feed changes to publish" | tee -a "$LOG_FILE"
     else
