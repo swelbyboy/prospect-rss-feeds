@@ -37,7 +37,7 @@ source venv/bin/activate
 # Ensure aiohttp is installed (required for async scraper)
 pip install -q aiohttp >> "$LOG_FILE" 2>&1 || true
 
-# Build prospects_update.csv sorted by staleness (oldest last_scrape_date first)
+# Build prospects_update.csv: no-XML feeds first, then by staleness
 python3 -c "
 import csv, sys, os
 from datetime import datetime
@@ -47,17 +47,26 @@ from config import Config
 epoch = datetime(1970, 1, 1)
 max_daily = int(os.environ.get('MAX_DAILY_PROSPECTS', '5000'))
 
+# Index local XML filenames
+local_xmls = set()
+if os.path.exists(Config.FEEDS_DIR):
+    local_xmls = {f for f in os.listdir(Config.FEEDS_DIR) if f.endswith('.xml')}
+
 last_scraped = {}
+domain_has_xml = {}
 try:
     with open(Config.TRACKING_CSV) as f:
         for row in csv.DictReader(f):
             d = row.get('domain', '')
             date_str = row.get('last_scrape_date', '')
+            rss_url = row.get('rss_url', '')
             if d and date_str:
                 try:
                     last_scraped[d] = datetime.strptime(date_str, '%Y-%m-%d %H:%M:%S')
                 except Exception:
                     pass
+            if d and rss_url:
+                domain_has_xml[d] = rss_url.split('/')[-1] in local_xmls
 except FileNotFoundError:
     pass
 
@@ -76,14 +85,16 @@ with open(Config.PROSPECTS_CSV) as f:
             row['rss_feed'] = orig[row['domain']]
             rows.append(row)
 
-rows.sort(key=lambda r: last_scraped.get(r.get('domain', ''), epoch))
+# Sort: no XML file first (0), then by staleness within each group
+rows.sort(key=lambda r: (1 if domain_has_xml.get(r.get('domain',''), False) else 0, last_scraped.get(r.get('domain', ''), epoch)))
+no_xml = sum(1 for r in rows if not domain_has_xml.get(r.get('domain',''), False))
 rows = rows[:max_daily]
 
 with open('/tmp/prospects_update.csv', 'w', newline='') as f:
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(rows)
-print(f'Generated {len(rows)} prospects sorted by staleness (limit: {max_daily})')
+print(f'Generated {len(rows)} prospects (no-XML: {min(no_xml, max_daily)}, with-XML: {max(0, len(rows)-min(no_xml, max_daily))}, limit: {max_daily})')
 " MAX_DAILY_PROSPECTS="$MAX_DAILY_PROSPECTS" >> "$LOG_FILE" 2>&1
 
 # ── Push to gh-pages function ────────────────────────────────────────────────
