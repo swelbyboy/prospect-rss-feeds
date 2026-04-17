@@ -114,9 +114,10 @@ push_to_ghpages() {
         git worktree add --orphan -b gh-pages gh-pages-dir >> "$LOG_FILE" 2>&1
     fi
 
-    # Remove stale XMLs before copying so deletions are reflected on gh-pages
-    rm -f gh-pages-dir/*.xml
-    cp feeds/*.xml gh-pages-dir/
+    # Remove stale XMLs before copying (find avoids ARG_MAX limit with 40k+ files)
+    find gh-pages-dir -maxdepth 1 -name '*.xml' -delete
+    # Copy all XML files (find + cp -t avoids ARG_MAX limit)
+    find feeds -maxdepth 1 -name '*.xml' -exec cp -t gh-pages-dir/ {} +
     cp index.html gh-pages-dir/
     touch gh-pages-dir/.nojekyll
 
