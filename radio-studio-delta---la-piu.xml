@@ -8,7 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Apr 2026 06:06:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 06:06:24 +0000</lastBuildDate>
+    <item>
+      <title>Previsioni Meteo</title>
+      <link>https://www.radiostudiodelta.it/previsioni-meteo/meteo-emilia-romagna/</link>
+      <description>Previsioni regionali a cura di ARPAE Emilia-Romagna</description>
+      <guid isPermaLink="false">https://www.radiostudiodelta.it/previsioni-meteo/meteo-emilia-romagna/</guid>
+      <enclosure url="https://rsdftp.rsd.it/meteo/maps/Mappa-Meteo-ER.png" length="0" type="image/png"/>
+      <pubDate>Sun, 19 Apr 2026 06:06:24 +0000</pubDate>
+    </item>
     <item>
       <title>NOTIZIARIO LOCALE delle 12 (24/03/2026)</title>
       <link>https://www.radiostudiodelta.it/podcast/notiziario-locale-delle-12-24-03-2026/</link>
@@ -120,14 +128,6 @@
       <guid isPermaLink="false">https://www.radiostudiodelta.it/podcast/notiziario-locale-delle-19-02-04-2026/</guid>
       <enclosure url="https://www.radiostudiodelta.it/wp-content/uploads/2026/04/20260402.jpg" length="0" type="image/jpeg"/>
       <pubDate>Thu, 02 Apr 2026 17:12:18 +0000</pubDate>
-    </item>
-    <item>
-      <title>Previsioni Meteo</title>
-      <link>https://www.radiostudiodelta.it/previsioni-meteo/meteo-emilia-romagna/</link>
-      <description>Previsioni regionali a cura di ARPAE Emilia-Romagna</description>
-      <guid isPermaLink="false">https://www.radiostudiodelta.it/previsioni-meteo/meteo-emilia-romagna/</guid>
-      <enclosure url="https://rsdftp.rsd.it/meteo/maps/Mappa-Meteo-ER.png" length="0" type="image/png"/>
-      <pubDate>Fri, 03 Apr 2026 04:10:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
