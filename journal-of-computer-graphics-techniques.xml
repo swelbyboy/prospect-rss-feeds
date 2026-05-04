@@ -8,14 +8,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Apr 2026 06:05:53 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 May 2026 06:03:20 +0000</lastBuildDate>
     <item>
       <title>Farthest sampling segmentation of triangulated surfaces</title>
       <link>http://jcgt.org/published/0014/01/07</link>
       <description>V. Hernandez Mederos, D. Martínez, J. Estrada Sarlabous, and V. Guerra Ones, Farthest sampling segmentation of triangulated surfaces, Journal of Computer Graphics Techniques (JCGT), vol. 15, no. 1, 140-173, 2025In this paper we present Farthest Sampling Segmentation (FSS), a new method for the segmentation of a triangulated surface with n faces into patches. The method is based on the selection of a sample composed by k faces of the triangulation, with k &amp;amp;Lt n. These faces are chosen by farthest</description>
       <guid isPermaLink="false">http://jcgt.org/published/0014/01/07</guid>
       <enclosure url="http://jcgt.org/published/0014/01/07/icon.png" length="0" type="image/png"/>
-      <pubDate>Mon, 27 Apr 2026 06:05:53 +0000</pubDate>
+      <pubDate>Mon, 04 May 2026 06:03:20 +0000</pubDate>
     </item>
     <item>
       <title>Importance-Sampled Filter-Adapted Spatio-Temporal Sampling</title>
@@ -23,7 +23,7 @@
       <description>Alan Wolfe, William Donnelly, and Henrik Halén, Importance-Sampled Filter-Adapted Spatio-Temporal Sampling, Journal of Computer Graphics Techniques (JCGT), vol. 15, no. 1, 174-184, 2025Stochastic rendering can be improved using sample patterns with good spectral properties, leading to perceptually pleasing error and faster convergence. Both spatiotemporal blue noise masks (STBN) and filter-adapted spatiotemporal sampling (FAST) generate 3D volume textures of samples (2D for space + 1D for time)</description>
       <guid isPermaLink="false">http://jcgt.org/published/0014/01/08</guid>
       <enclosure url="http://jcgt.org/published/0014/01/08/icon.png" length="0" type="image/png"/>
-      <pubDate>Mon, 27 Apr 2026 06:05:53 +0000</pubDate>
+      <pubDate>Mon, 04 May 2026 06:03:20 +0000</pubDate>
     </item>
     <item>
       <title>A Zero-Level Set Preserving Technique for Signed Distance Function Computation from an Implicit Surface</title>
@@ -31,7 +31,7 @@
       <description>Pierre-Alain Fayolle, A Zero-Level Set Preserving Technique for Signed Distance Function Computation from an Implicit Surface, Journal of Computer Graphics Techniques (JCGT), vol. 15, no. 1, 185-197, 2025We describe in this short article a technique to convert an implicit surface into a signed distance function (SDF) while exactly preserving the zero-level set of the implicit surface. The proposed approach relies on embedding the input implicit surface in the final layer of a neural network by m</description>
       <guid isPermaLink="false">http://jcgt.org/published/0014/01/09</guid>
       <enclosure url="http://jcgt.org/published/0014/01/09/icon.png" length="0" type="image/png"/>
-      <pubDate>Mon, 27 Apr 2026 06:05:53 +0000</pubDate>
+      <pubDate>Mon, 04 May 2026 06:03:20 +0000</pubDate>
     </item>
     <item>
       <title>Higher Order Continuity for Smooth As-Rigid-As-Possible Shape Modeling</title>
@@ -39,7 +39,7 @@
       <description>Annika Oehri, Philipp Herholz, and Olga Sorkine-Hornung, Higher Order Continuity for Smooth As-Rigid-As-Possible Shape Modeling, Journal of Computer Graphics Techniques (JCGT), vol. 15, no. 1, 198-215, 2025We propose a modification of the As-Rigid-As-Possible (ARAP) mesh deformation energy with higher-order smoothness, which overcomes a prominent limitation of the original ARAP formulation: spikes and lack of continuity at the manipulation handles. Our method avoids spikes even when using single</description>
       <guid isPermaLink="false">http://jcgt.org/published/0014/01/10</guid>
       <enclosure url="http://jcgt.org/published/0014/01/10/icon.png" length="0" type="image/png"/>
-      <pubDate>Mon, 27 Apr 2026 06:05:53 +0000</pubDate>
+      <pubDate>Mon, 04 May 2026 06:03:20 +0000</pubDate>
     </item>
     <item>
       <title>JCGT leadership</title>
@@ -47,7 +47,7 @@
       <description>As previously announced, Alexander Wilkie has now assumed duties as Editor in Chief of the Journal of Computer Graphics Techniques. Interim Editor in Chief Eric Haines is continuing on the JCGT advisory board, and the previous Editor in Chief Marc Olano is contiuing in the role of Managing Editor and member of the Advisory Board.</description>
       <guid isPermaLink="false">http://jcgt.org/news/2025-07-20-NewEIC.html</guid>
       <enclosure url="http://jcgt.org/teapot.png" length="0" type="image/png"/>
-      <pubDate>Mon, 27 Apr 2026 06:05:53 +0000</pubDate>
+      <pubDate>Mon, 04 May 2026 06:03:20 +0000</pubDate>
     </item>
     <item>
       <title>Neural Visibility Cache for Real-Time Light Sampling</title>
@@ -55,7 +55,7 @@
       <description>Jakub Bokšanský and Daniel Meister, Neural Visibility Cache for Real-Time Light Sampling, Journal of Computer Graphics Techniques (JCGT), vol. 15, no. 2, 1-19, 2025Direct illumination with many lights is an inherent component of physically-based rendering, remaining challenging, especially in real-time scenarios. We propose an online-trained neural cache that stores visibility between lights and 3D positions. We feed light visibility to weighted reservoir sampling (WRS) to sample a light source.</description>
       <guid isPermaLink="false">http://jcgt.org/published/0014/02/01</guid>
       <enclosure url="http://jcgt.org/published/0014/02/01/icon.png" length="0" type="image/png"/>
-      <pubDate>Mon, 27 Apr 2026 06:05:53 +0000</pubDate>
+      <pubDate>Mon, 04 May 2026 06:03:20 +0000</pubDate>
     </item>
     <item>
       <title>Practically Utilizing Neural Networks in CPU-based Production Rendering</title>
@@ -63,7 +63,7 @@
       <description>Steve Bako, Ryusuke Villemin, and Magnus Wrenninge, Practically Utilizing Neural Networks in CPU-based Production Rendering, Journal of Computer Graphics Techniques (JCGT), vol. 16, no. 1, 1-19, 2026Visual Effects (VFX) pipelines struggle to integrate machine learning (ML) within the rendering loop to reduce computation costs and enhance image quality. Namely, most offline path tracers are exclusively on CPU and rely on numerous low-latency operations that are not conducive to typical GPU-based</description>
       <guid isPermaLink="false">http://jcgt.org/published/0015/01/01</guid>
       <enclosure url="http://jcgt.org/published/0015/01/01/icon.png" length="0" type="image/png"/>
-      <pubDate>Mon, 27 Apr 2026 06:05:53 +0000</pubDate>
+      <pubDate>Mon, 04 May 2026 06:03:20 +0000</pubDate>
     </item>
     <item>
       <title>Optimizing spatiotemporal variance-guided filtering for modern GPU architectures</title>
@@ -71,7 +71,7 @@
       <description>Rostyslav Pikulsky, Optimizing spatiotemporal variance-guided filtering for modern GPU architectures, Journal of Computer Graphics Techniques (JCGT), vol. 16, no. 1, 20-43, 2026Path tracing is generally considered one of the most promising real-time rendering solutions. One of the major problems of its real-time application is large variance of the outputs, which is a result of the low number of Monte Carlo samples being processed due to execution time constraints. In response to that, real-time</description>
       <guid isPermaLink="false">http://jcgt.org/published/0015/01/02</guid>
       <enclosure url="http://jcgt.org/published/0015/01/02/icon.png" length="0" type="image/png"/>
-      <pubDate>Mon, 27 Apr 2026 06:05:53 +0000</pubDate>
+      <pubDate>Mon, 04 May 2026 06:03:20 +0000</pubDate>
     </item>
     <item>
       <title>JCGT paper v14n1, Pages 116-139b - UPDATE</title>
@@ -79,7 +79,7 @@
       <description>The 2025 paper "EON: A practical energy-preserving rough diffuse BRDFâ€� was updated with an appendix that provides an albedo inversion formula, as well as two other small enhancements.</description>
       <guid isPermaLink="false">http://jcgt.org/news/2026-02-05-EON-update.html</guid>
       <enclosure url="http://jcgt.org/teapot.png" length="0" type="image/png"/>
-      <pubDate>Mon, 27 Apr 2026 06:05:53 +0000</pubDate>
+      <pubDate>Mon, 04 May 2026 06:03:20 +0000</pubDate>
     </item>
     <item>
       <title>Ultra-fast Screen-Space Refractions and Caustics via Newton’s Method</title>
@@ -87,7 +87,7 @@
       <description>Chase Mayer, Ulf Assarsson, and Erik Sintorn, Ultra-fast Screen-Space Refractions and Caustics via Newton’s Method, Journal of Computer Graphics Techniques (JCGT), vol. 16, no. 1, 44-59, 2026We introduce a novel screen-space refraction method that replaces standard ray marching with Newton’s method for root finding. For each pixel, we define a function as the difference between the refracted ray depth and the G-buffer depth, and iteratively refine the intersection using the tangent plane of the</description>
       <guid isPermaLink="false">http://jcgt.org/published/0015/01/03</guid>
       <enclosure url="http://jcgt.org/published/0015/01/03/icon.png" length="0" type="image/png"/>
-      <pubDate>Mon, 27 Apr 2026 06:05:53 +0000</pubDate>
+      <pubDate>Mon, 04 May 2026 06:03:20 +0000</pubDate>
     </item>
     <item>
       <title>EON: A practical energy-preserving rough diffuse BRDF</title>
