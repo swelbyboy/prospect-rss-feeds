@@ -8,76 +8,76 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>Prospect Scraping Service</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 May 2026 06:15:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 15 May 2026 06:06:07 +0000</lastBuildDate>
     <item>
       <title>Newsboat 2.34 is out</title>
       <link>https://newsboat.org/releases/2.34/docs/newsboat.html</link>
       <description>Here‘s a little update to your favourite RSS/Atom reader, everyone :) There aren‘t many user-visible changes though; most of the effort was spent improving things internally. Dennis van der Schagt and bogdasar1985 continue to make progress on various fronts, which should eventually bring us a new key-bind system, help fix the long-standing issue with non-UTF-8 content in old cache.db files, and more. Docs also received some updates and polish. Lysander Trischler continues to play a vital role he</description>
       <guid isPermaLink="false">https://newsboat.org/releases/2.34/docs/newsboat.html</guid>
-      <pubDate>Tue, 12 May 2026 06:15:08 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 06:06:07 +0000</pubDate>
     </item>
     <item>
       <title>Newsboat 2.35 is out</title>
       <link>https://newsboat.org/releases/2.35/docs/newsboat.html</link>
       <description>Another quarter, another Newsboat release! The highlight for this one is Feedbin support. Feedbin is an online newsreading service in the vein of Google Reader, and we already support a bunch of similar ones. The feature request for Feedbin specifically was filed 4 years ago, and upvoted 19 times — twice more often than the runner-up, a request for separators between groups of feeds. We‘ve been waiting for an interested person to tackle this, and finally James Vaughan showed up with a complete i</description>
       <guid isPermaLink="false">https://newsboat.org/releases/2.35/docs/newsboat.html</guid>
-      <pubDate>Tue, 12 May 2026 06:15:08 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 06:06:07 +0000</pubDate>
     </item>
     <item>
       <title>Newsboat 2.36 is out</title>
       <link>https://newsboat.org/releases/2.36/docs/newsboat.html</link>
       <description>When I forked Newsbeuter, I decided I‘d make releases every three months. My reasoning was pragmatic: I didn‘t want to ever ask myself “is this enough changes to make a new release”. That approach worked great so far, but occasionally it results in tiny releases like the one we have today. There‘s really nothing exciting to say about 2.36, so just upgrade: tarball, its signature, the docs, and the changelog.</description>
       <guid isPermaLink="false">https://newsboat.org/releases/2.36/docs/newsboat.html</guid>
-      <pubDate>Tue, 12 May 2026 06:15:08 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 06:06:07 +0000</pubDate>
     </item>
     <item>
       <title>Newsboat 2.37 is out, along with bugfix releases for 2.19 through 2.36</title>
       <link>https://newsboat.org/releases/2.37/docs/newsboat.html</link>
       <description>Since 2.19, Newsboat treated HTTP code 304 (Not Modified) as error, and retried the download up to the limit specified by `download-retries`. The default for that setting is 1, so no harm done, but if the user changed it, Newsboat turned into a request-spamming machine. Today’s release fixes that. We’re also making point releases for everything starting from 2.19 all the way up to the previous release, 2.36. If you can upgrade to 2.37, great. If you can't, please, please upgrade to the closest p</description>
       <guid isPermaLink="false">https://newsboat.org/releases/2.37/docs/newsboat.html</guid>
-      <pubDate>Tue, 12 May 2026 06:15:08 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 06:06:07 +0000</pubDate>
     </item>
     <item>
       <title>Newsboat 2.38 is out</title>
       <link>https://newsboat.org/releases/2.38/docs/newsboat.html</link>
       <description>This release brings a few bug fixes, most notable of which is the cookie-cache setting; it used to be broken for reload-all and auto-reload, but no more. There are also a couple improvements for Miniflux, as well as various little tweaks here and there. More details in the changelog. Apart from user-visible changes, there are also ongoing work on the internals. We're progressing towards new key-binding system which should allow multi-key bindings and unify keys with macros. We're also halfway th</description>
       <guid isPermaLink="false">https://newsboat.org/releases/2.38/docs/newsboat.html</guid>
-      <pubDate>Tue, 12 May 2026 06:15:08 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 06:06:07 +0000</pubDate>
     </item>
     <item>
       <title>Newsboat 2.39 is out</title>
       <link>https://newsboat.org/releases/2.39/docs/newsboat.html</link>
       <description>The new key-binding system mentioned in the previous entry is finally here! After years of work, done primarily by Dennis van der Schagt, we now have a bind command that: can create multi-key bindings, i.e. one can bind not just single letters (with Control or Shift), but also sequences of letters (each with their own modifiers); allows each binding to execute multiple actions, just like our existing macro command. Unlike macros, bind doesn't require a "macro prefix", so one can finally bind a s</description>
       <guid isPermaLink="false">https://newsboat.org/releases/2.39/docs/newsboat.html</guid>
-      <pubDate>Tue, 12 May 2026 06:15:08 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 06:06:07 +0000</pubDate>
     </item>
     <item>
       <title>Newsboat 2.40 is out</title>
       <link>https://newsboat.org/releases/2.40/docs/newsboat.html</link>
       <description>Please welcome the 30th minor release of Newsboat! Packagers should take note that Newsboat no longer supports GCC 5 and 6. Other than that, this is your run-of-the-mill "updates and improvements" kind of release, with nothing particular to highlight. Without further ado, here are the links: tar.xz, asc, docs, FAQ, changelog.</description>
       <guid isPermaLink="false">https://newsboat.org/releases/2.40/docs/newsboat.html</guid>
-      <pubDate>Tue, 12 May 2026 06:15:08 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 06:06:07 +0000</pubDate>
     </item>
     <item>
       <title>Newsboat 2.41 is out</title>
       <link>https://newsboat.org/releases/2.41/docs/newsboat.html</link>
       <description>According to the changelog, this is yet another small bugfix-ish release. Nothing major. I’d certainly like for it to appear so :) Under the hood though, there’s the biggest refactor we did to date. When we started porting Newsboat to Rust, some of you ran into a bug where the program couldn’t read the cache file due to some "non-UTF-8" data in it. The core of the issue is that not enough care was given to separate strings in different encodings. Rust exposed those problems because it’s way more</description>
       <guid isPermaLink="false">https://newsboat.org/releases/2.41/docs/newsboat.html</guid>
-      <pubDate>Tue, 12 May 2026 06:15:08 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 06:06:07 +0000</pubDate>
     </item>
     <item>
       <title>Newsboat 2.42 is out</title>
       <link>https://newsboat.org/releases/2.42/docs/newsboat.html</link>
       <description>With apologies for the delay, I’m happy to present you Newsboat 2.42! We’ve lost momentum this time around. I (Alexander Batischev) hasn’t contributed meaningfully for quite some time; Dennis van der Schagt, who carried the bulk of the development, had a bit of time off Newsboat, and it shows in the size of the CHANGELOG. Some of the work was picked up by Forketyfork and Juho Eerola, both of whom already contributed to Newsboat in the past. Development is certainly in a bit of a lull, but I’d sa</description>
       <guid isPermaLink="false">https://newsboat.org/releases/2.42/docs/newsboat.html</guid>
-      <pubDate>Tue, 12 May 2026 06:15:08 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 06:06:07 +0000</pubDate>
     </item>
     <item>
       <title>Newsboat 2.43 is out</title>
       <link>https://newsboat.org/releases/2.43/docs/newsboat.html</link>
       <description>Just like the last time, there‘s not much to say about this release. As usual, there is quite a lot of refactorings and code improvements by Dennis van der Schagt, plus a handful of bug fixes and even one little new feature: a miniflux-flag-save setting to trigger article saving machinery in Miniflux. There are things to say about the process, though, specifically GitHub. It‘s hard for me to quantify, but I‘d wager that we benefited from using GitHub in a number of ways. However, the nature of t</description>
       <guid isPermaLink="false">https://newsboat.org/releases/2.43/docs/newsboat.html</guid>
-      <pubDate>Tue, 12 May 2026 06:15:08 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 06:06:07 +0000</pubDate>
     </item>
   </channel>
 </rss>
